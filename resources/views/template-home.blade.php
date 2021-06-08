@@ -31,15 +31,48 @@
                 <section class="innerSectionElement row">
 
                           <div class="containElements col-sm-12 col-md-6 col-lg-4">
-
                               <div class="elements">
+
                                 <div class="containerImage">
                                   <img src="/escala-dev/wp-content/uploads/2021/04/beneficio_01.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
                                 </div>
 
                                 <h2 class="secondaryTitle"><span class="greenBlue">Da a conocer</span> <br>tu negocio</h2>
-                              </div>
 
+                              </div>
+                          </div>
+                          <div class="containElements col-sm-12 col-md-6 col-lg-4">
+                              <div class="elements">
+
+                                <div class="containerImage">
+                                  <img src="/escala-dev/wp-content/uploads/2021/04/beneficio_01.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
+                                </div>
+
+                                <h2 class="secondaryTitle"><span class="greenBlue">Da a conocer</span> <br>tu negocio</h2>
+
+                              </div>
+                          </div>
+                          <div class="containElements col-sm-12 col-md-6 col-lg-4">
+                              <div class="elements">
+
+                                <div class="containerImage">
+                                  <img src="/escala-dev/wp-content/uploads/2021/04/beneficio_01.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
+                                </div>
+
+                                <h2 class="secondaryTitle"><span class="greenBlue">Da a conocer</span> <br>tu negocio</h2>
+
+                              </div>
+                          </div>
+                          <div class="containElements col-sm-12 col-md-6 col-lg-4">
+                              <div class="elements">
+
+                                <div class="containerImage">
+                                  <img src="/escala-dev/wp-content/uploads/2021/04/beneficio_01.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
+                                </div>
+
+                                <h2 class="secondaryTitle"><span class="greenBlue">Da a conocer</span> <br>tu negocio</h2>
+
+                              </div>
                           </div>
 
 
