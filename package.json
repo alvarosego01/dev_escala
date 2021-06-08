@@ -63,12 +63,9 @@
     "rimraf": "^3.0.2",
     "sass-loader": "~6.0",
     "style-loader": "^0.23.1",
-
-
     "stylelint": "^8.4.0",
     "stylelint-config-standard": "~18.2.0",
     "stylelint-webpack-plugin": "^0.10.5",
-
     "uglifyjs-webpack-plugin": "^1.3.0",
     "url-loader": "^4.1.1",
     "webpack": "~3.10.0",
@@ -79,11 +76,24 @@
     "yargs": "^16.1.0"
   },
   "dependencies": {
-    "bootstrap": "^4.5.3",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-dart-sass": "^0.9.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-scp2": "^0.2.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^5.0.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^5.0.1",
     "jquery": "^3.3.1",
-    "popper.js": "^1.14.7"
+    "pump": "^3.0.0"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   }
 }
-
-
-

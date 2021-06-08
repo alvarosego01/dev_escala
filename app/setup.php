@@ -136,3 +136,11 @@ add_action('wp_enqueue_scripts', function(){
     wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
 
 });
+
+
+// estilos
+
+add_action('wp_enqueue_scripts', function () {
+    wp_enqueue_style('sage/main.css', asset_path('/dist/styles/main.css'), false, null);
+    wp_enqueue_script('sage/main.js', asset_path('/dist/scripts/main.js'), ['jquery'], null, true);
+}, 100);
