@@ -141,6 +141,23 @@ add_action('wp_enqueue_scripts', function(){
 // estilos
 
 add_action('wp_enqueue_scripts', function () {
+
     wp_enqueue_style('sage/main.css', asset_path('/dist/styles/main.css'), false, null);
+    //
     wp_enqueue_script('sage/main.js', asset_path('/dist/scripts/main.js'), ['jquery'], null, true);
+    //
+    wp_register_style('bootstrapCss', get_template_directory_uri() . '/../oceanwp-child/node_modules/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
+    wp_enqueue_style('bootstrapCss');
+    //
+    wp_register_script('popperJs', get_template_directory_uri() . '/../oceanwp-child/node_modules/bootstrap/dist/js/popper.min.js', array('jquery'), rand(), 'all');
+    wp_enqueue_script('popperJs');
+    //
+    wp_register_script('bootstrapJs', get_template_directory_uri() . '/../oceanwp-child/node_modules/bootstrap/dist/js/bootstrap.min.js', array('jquery'), rand(), 'all');
+    wp_enqueue_script('bootstrapJs');
+
 }, 100);
+
+
+
+
+
