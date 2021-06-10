@@ -3,6 +3,7 @@
 .customSection.sectionParent.fullWidth
     width: 100%!important
     padding: 0
+    // padding-bottom: 60px
     .innerSectionElement
         margin: 0 auto
         display: block
@@ -14,6 +15,7 @@
     background-size: cover
     background-repeat: none
     padding: 60px 0px 60px 0px
+    // padding-bottom: 60px
 
 .containerImage
     padding: 10px
@@ -28,7 +30,9 @@
 
 .customSection.sectionParent
     margin: 0 auto
-    padding: 60px 0px 60px 0px
+    // padding: 30px 0px 30px 0px
+    // padding-top: 0
+    padding-bottom: 60px
     position: relative
     width: 100%
     .innerSectionElement
@@ -42,15 +46,21 @@
             width: 85%
         @include responsivo(general)
             width: 100%
-            max-width: 1150px
+            max-width: 1025px
         @include responsivo(resto)
             width: 100%
-            max-width: 1310px
+            max-width: 1140px
 
 
 
 .containerImage
     margin-bottom: 20px
+    @include responsivo(telefonoTable)
+        margin: 0!important
+        margin-bottom: 30px!important
+
+    // @include responsivo(pcMedio)
+        // margin-bottom: 30px
 
 .greenBlueColor
     color: $colorGreenBlue
@@ -79,7 +89,9 @@ span.tag
 .principalBigTitle
     font-family: "Nunito", Sans-serif
     font-size: 55px
+    line-height: 1
     font-weight: bold
+    margin-bottom: 20px
 
 .principalBigText
     line-height: 36px
@@ -129,7 +141,7 @@ span.tag
     display: inline-block
     line-height: 1
     text-decoration: none
-    font-size: 18px
+    font-size: 24px
     line-height: 1
     padding: 20px 50px
     color: $colorWhite
@@ -139,16 +151,118 @@ span.tag
     transition: $transitionButton
     transform: scale(1)
     // display: flex
+
+.hoverInEffect
     &:hover
-        transform: scale(0.8)
+        transform: scale(0.9)
         color: white
+
+
+.wpcf7-form-control.wpcf7-submit
+    background-color: $colorOrange
+    font-family: "Nunito Sans", sans-serif
+    font-size: 16px
+    font-weight: 700
+    border-radius: 5px!important
+    color: $colorWhite
+    padding: 0px 20px 0px 20px
+    text-transform: none
+    margin-top: 1.5%
+    letter-spacing: 0
+    min-height: 48px
+    text-transform: initial
+    &:hover
+        background-color: $colorOrange
+
+
 
 
 .hiperButtonGray
     color: $colorDarkGrey
-    font-size: 18px
+    font-size: 18px,
     &:hover
         color: $colorDarkGrey
         text-decoration: underline
 
 
+
+
+.formatForm
+    max-width: 420px
+    // margin-left: auto
+    margin: 0 auto
+    padding: 20px
+    padding-top: 0
+    background-color: $colorWhite
+    border-radius: 10px
+    box-shadow: 0px 9px 10px 0px rgb(0 0 0 / 12%)
+    @include responsivo(telefonoTable)
+        max-width: 600px
+    @include responsivo(pcMedio)
+        max-width: 600px
+    h5.titleFormat
+        font-family: "Nunito Sans", sans-serif
+        font-size: 21px
+        line-height: normal
+        font-weight: 700
+        padding-top: 30px
+        padding-bottom: 20px
+        text-align: center
+        // margin-bottom: 20px
+    p
+        margin-bottom: 20px
+        text-align: center
+    input
+        border-width: 0px 0px 1px 0px!important
+        border-radius: 0!important
+        box-sizing: border-box
+        font-family: "Nunito Sans", sans-serif
+        font-size: 18px!important
+        font-weight: 500
+        margin: 0
+    .wpcf7-text
+        color: #706B6D!important
+        // color: #333!important
+    select
+        font-family: "Nunito Sans", sans-serif
+        padding: 6px 12px
+        border-width: 0px 0px 1px 0px
+        font-family: "Nunito Sans", sans-serif
+        font-size: 18px!important
+        color: #706B6D!important
+        font-weight: 500
+        box-sizing: border-box
+    span.ewp-phonetype-radio
+        margin-top: 20px
+        margin-bottom: 30px
+        font-family: "Nunito Sans", sans-serif
+        font-size: 16px
+        // height: 45px
+        height: min-content
+        span.wpcf7-list-item
+            width: 50%
+            background-color: #FAFBFD
+            color: #706B6D
+            border-color: #EDF0F4
+            .input-checked
+                background-color: #b1ecef
+                color: #6C929F
+                font-weight: 700
+    br
+        display: none
+
+.wpcf7-not-valid-tip
+    font-size: 14px
+
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output
+    border: none
+    color: #5B5B5B
+    font-family: "Nunito Sans", sans-serif!important
+    text-align: center!important
+    font-size: 14px!important
+
+
+form input[type="text"][disabled], form input[type="password"][disabled], form input[type="email"][disabled], form input[type="url"][disabled], form input[type="date"][disabled], form input[type="month"][disabled], form input[type="time"][disabled], form input[type="datetime"][disabled], form input[type="datetime-local"][disabled], form input[type="week"][disabled], form input[type="number"][disabled], form input[type="search"][disabled], form input[type="tel"][disabled], form input[type="color"][disabled], form select[disabled], form textarea[disabled]
+    background-color: #FAFBFD
+    color: #706B6D
+    // height: 100%

@@ -1,7 +1,6 @@
 
 
 
-
 .customSection.sectionParent.homeSection0
     // height: 1200px
     .section-row
@@ -12,6 +11,10 @@
         position: relative
         background-repeat: no-repeat
         padding-top: 125px
+        @include responsivo(telefonoTable)
+            padding-top: 75px
+        @include responsivo(pcMedio)
+            padding-top: 75px
         .backgroundPlanets
             background-position: 91px 57px
             background-repeat: no-repeat
@@ -23,15 +26,39 @@
             top: -10%
             left: 0
             position: absolute
+            @include responsivo(telefonoTable)
+                background-position: 8px 184px
+                background-size: 100% auto
+            @include responsivo(pcMedio)
+                background-position: 8px 184px
+                background-size: 100% auto
+
     .innerSectionElement
         .groupElements
             .info
                 .containElements
-                    .primaryTitle
-                    .primaryText
-                    .containerImage
-                        img
-                            height: 380px
+                    img
+                        height: 380px
+                    @include responsivo(telefonoTable)
+                        .principalBigTitle,
+                        .principalBigText,
+                        .containerImage
+                            text-align: center!important
+                    @include responsivo(pcMedio)
+                        .principalBigTitle,
+                        .principalBigText,
+                        .containerImage
+                            text-align: center!important
+            .form7
+                padding: 0px 50px 0px 100px
+                @include responsivo(telefonoTable)
+                    padding: 0 50px
+                @include responsivo(pcMedio)
+                    padding: 0 50px
+
+
+
+
 
 
 
@@ -79,13 +106,30 @@
                         width: 150px!important
                 .containerElements
                     padding: 10px
+                @include responsivo(telefonoTable)
+                    flex-direction: column
+                    margin-bottom: 30px
+                    .containerImage
+                        display: flex
+                        img
+                            margin: 0 auto
+                    .containerElements
+                        display: flex
+                        justify-content: center
+                        flex-direction: column
+                        *
+                            text-align: center
+                        a
+                            margin-left: auto
+                            margin-right: auto
 
 
 .customSection.sectionParent.homeSection3
+    padding-bottom: 60px
     .backgroundFull.sct1
         background-position: center
         background-size: cover
-        height: 260px
+        height: 300px
         position: relative
         .imageBackground
             position: absolute
@@ -137,14 +181,34 @@
                         height: 150px
                         // width: 110px!important
                         width: auto
+                @include responsivo(telefonoTable)
+                    flex-direction: column
+                    margin-bottom: 30px
+                    .containerImage
+                        display: flex
+                        img
+                            margin: 0 auto
+                    .containerElements
+                        display: flex
+                        justify-content: center
+                        flex-direction: column
+                        *
+                            text-align: center
+                        a
+                            margin-left: auto
+                            margin-right: auto
             .infoGroup.full
                 width: 80%
                 margin: 0 auto
+                @include responsivo(telefonoTable)
+                    width: 100%
+
                 // display: block
 
 .customSection.sectionParent.homeSection5
     background-color: $colorBlueLight
     padding-bottom: 0
+    padding-top: 60px
     .section-row
     .innerSectionElement.sct1
         .groupElements
@@ -158,21 +222,59 @@
                     p.primaryText
                         margin-bottom: 50px
                     a.primaryButton
+                    @include responsivo(telefonoTable)
+                        display: flex
+                        flex-direction: column
+                        margin-bottom: 50px
+                        h2.primaryTitle
+                            text-align: center
+                        p.primaryText
+                            text-align: center
+                        a.primaryButton
+                            margin: 0 auto
+
+                    @include responsivo(pcMedio)
+                        display: flex
+                        flex-direction: column
+                        margin-bottom: 50px
+                        h2.primaryTitle
+                            text-align: center
+                        p.primaryText
+                            text-align: center
+                        a.primaryButton
+                            margin: 0 auto
+
+
             .image
                 .containerImage
                     padding-bottom: 0
                     margin-bottom: 0
                     img
                         height: 600px
+                    @include responsivo(telefonoTable)
+                        margin-bottom: 0!important
+                        display: flex
+                        img
+                            margin: 0 auto
+                    @include responsivo(pcMedio)
+                        margin-bottom: 0!important
+                        display: flex
+                        img
+                            margin: 0 auto
 
 
 
 .customSection.sectionParent.homeSection6
+    padding-top: 60px
     .innerSectionElement.sct1
-        margin-bottom: 100px
+        margin-bottom: 50px
         .containElements
             h2.primaryTitle
                 text-align: center
+        @include responsivo(telefonoTable)
+            margin-bottom: 30px
+        @include responsivo(pcMedio)
+            margin-bottom: 30px
     .innerSectionElement.sct2
         .groupElements.row
             display: flex
