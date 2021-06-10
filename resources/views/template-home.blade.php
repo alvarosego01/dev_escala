@@ -16,8 +16,8 @@
     <section class="customSection sectionParent homeSection0 fullWidth">
 
 
-    <div  style="background-image: url('/escala-dev/wp-content/uploads/2021/04/Rectangle-1037-1.png')" class="backgroundFull">
-    <div  style="background-image: url('/escala-dev/wp-content/uploads/2021/04/Group-1821.svg')" class="backgroundPlanets">
+    <div  style="background-image: url('/wp-content/uploads/2021/04/Rectangle-1037-1.png')" class="backgroundFull">
+    <div  style="background-image: url('/wp-content/uploads/2021/04/Group-1821.svg')" class="backgroundPlanets">
     </div>
 
 
@@ -38,7 +38,7 @@
                 <p class="principalBigText grayColor">Con <strong>escala</strong>, la plataforma de marketing digital y ventas más potente y fácil de utilizar</p>
 
                 <div class="containerImage">
-                  <img src="/escala-dev/wp-content/uploads/2021/04/andres_banner_aprobado-1-1.png" alt="" loading="lazy">
+                  <img src="/wp-content/uploads/2021/04/andres_banner_aprobado-1-1.png" alt="" loading="lazy">
                 </div>
 
 
@@ -82,7 +82,7 @@
             <div class="elements">
 
               <div class="containerImage">
-                <img src="/escala-dev/wp-content/uploads/2021/04/beneficio_01.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
+                <img src="/wp-content/uploads/2021/04/beneficio_01.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
               </div>
 
               <h2 class="secondaryTitle"><span class="greenBlueColor">Da a conocer</span> <br>tu negocio</h2>
@@ -93,7 +93,7 @@
             <div class="elements">
 
               <div class="containerImage">
-                <img src="/escala-dev/wp-content/uploads/2021/04/beneficio_02.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
+                <img src="/wp-content/uploads/2021/04/beneficio_02.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
               </div>
 
 
@@ -105,7 +105,7 @@
             <div class="elements">
 
               <div class="containerImage">
-                <img src="/escala-dev/wp-content/uploads/2021/04/beneficio_03.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
+                <img src="/wp-content/uploads/2021/04/beneficio_03.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
               </div>
 
 
@@ -117,7 +117,7 @@
             <div class="elements">
 
               <div class="containerImage">
-                <img src="/escala-dev/wp-content/uploads/2021/04/beneficio_04.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
+                <img src="/wp-content/uploads/2021/04/beneficio_04.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
               </div>
 
 
@@ -136,7 +136,7 @@
 
     <section class="customSection sectionParent homeSection2 fullWidth">
 
-      <div style="background-image: url('/escala-dev/wp-content/uploads/2021/04/Rectangle-1037.png')" class="backgroundFull">
+      <div style="background-image: url('/wp-content/uploads/2021/04/Rectangle-1037.png')" class="backgroundFull">
 
         <div class="section-row">
 
@@ -160,7 +160,7 @@
               <div class="col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
-                  <img src="/escala-dev/wp-content/uploads/2021/04/icono_01.svg" alt="" loading="lazy">
+                  <img src="/wp-content/uploads/2021/04/icono_01.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
@@ -174,7 +174,7 @@
               <div class="col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
-                  <img src="/escala-dev/wp-content/uploads/2021/04/icono_05.svg" alt="" loading="lazy">
+                  <img src="/wp-content/uploads/2021/04/icono_05.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
@@ -190,7 +190,7 @@
               <div class="col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
-                  <img src="/escala-dev/wp-content/uploads/2021/04/icono_02.svg" alt="" loading="lazy">
+                  <img src="/wp-content/uploads/2021/04/icono_02.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
@@ -204,7 +204,7 @@
               <div class="col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
-                  <img src="/escala-dev/wp-content/uploads/2021/04/icono_04.svg" alt="" loading="lazy">
+                  <img src="/wp-content/uploads/2021/04/icono_04.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
@@ -220,7 +220,7 @@
               <div class="col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
-                  <img src="/escala-dev/wp-content/uploads/2021/04/icono_03.svg" alt="" loading="lazy">
+                  <img src="/wp-content/uploads/2021/04/icono_03.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
@@ -237,7 +237,7 @@
               <div class="col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
-                  <img src="/escala-dev/wp-content/uploads/2021/04/icono_06.svg" alt="" loading="lazy">
+                  <img src="/wp-content/uploads/2021/04/icono_06.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
@@ -265,9 +265,9 @@
 
     <section class="customSection sectionParent homeSection3 fullWidth">
 
-      <div style="background-image: url('/escala-dev/wp-content/uploads/2021/04/banner-3-1.png')" class="backgroundFull sct1">
+      <div style="background-image: url('/wp-content/uploads/2021/04/banner-3-1.png')" class="backgroundFull sct1">
 
-        <div style="background-image: url('/escala-dev/wp-content/uploads/2021/04/astrorocket.svg')" class="imageBackground">
+        <div style="background-image: url('/wp-content/uploads/2021/04/astrorocket.svg')" class="imageBackground">
         </div>
         <div class="section-row">
 
@@ -312,7 +312,7 @@
             <div class="col-md-12 col-lg-6 infoGroup">
 
               <div class="containerImage">
-                <img src="/escala-dev/wp-content/uploads/2021/05/01-2.svg" alt="" loading="lazy">
+                <img src="/wp-content/uploads/2021/05/01-2.svg" alt="" loading="lazy">
               </div>
 
               <div class="containerElements">
@@ -326,7 +326,7 @@
             <div class="col-md-12 col-lg-6 infoGroup">
 
               <div class="containerImage">
-                <img src="/escala-dev/wp-content/uploads/2021/05/02-2.svg" alt="" loading="lazy">
+                <img src="/wp-content/uploads/2021/05/02-2.svg" alt="" loading="lazy">
               </div>
 
               <div class="containerElements">
@@ -341,7 +341,7 @@
             <div class="col-md-12 col-lg-6 infoGroup">
 
               <div class="containerImage">
-                <img src="/escala-dev/wp-content/uploads/2021/05/03-2.svg" alt="" loading="lazy">
+                <img src="/wp-content/uploads/2021/05/03-2.svg" alt="" loading="lazy">
               </div>
 
               <div class="containerElements">
@@ -355,7 +355,7 @@
             <div class="col-md-12 col-lg-6 infoGroup">
 
               <div class="containerImage">
-                <img src="/escala-dev/wp-content/uploads/2021/05/04-2.svg" alt="" loading="lazy">
+                <img src="/wp-content/uploads/2021/05/04-2.svg" alt="" loading="lazy">
               </div>
 
               <div class="containerElements">
@@ -372,7 +372,7 @@
             <div class="full infoGroup">
 
               <div class="containerImage">
-                <img src="/escala-dev/wp-content/uploads/2021/05/numero5.png" alt="" loading="lazy">
+                <img src="/wp-content/uploads/2021/05/numero5.png" alt="" loading="lazy">
               </div>
 
               <div class="containerElements">
@@ -420,7 +420,7 @@
             <div class="image col-md-12 col-lg-6">
 
               <div class="containerImage">
-                <img src="/escala-dev/wp-content/uploads/2021/04/Group-1822.png" alt="" loading="lazy">
+                <img src="/wp-content/uploads/2021/04/Group-1822.png" alt="" loading="lazy">
               </div>
 
             </div>
@@ -463,7 +463,7 @@
                 <div class="referElements">
                   <div class="containerImage">
 
-                    <img src="/escala-dev/wp-content/uploads/2021/05/Publicidad-Comercial2-1.png" alt="" loading="lazy">
+                    <img src="/wp-content/uploads/2021/05/Publicidad-Comercial2-1.png" alt="" loading="lazy">
 
                   </div>
 
@@ -489,7 +489,7 @@
                 <div class="referElements">
                   <div class="containerImage">
 
-                    <img src="/escala-dev/wp-content/uploads/2021/05/Huella-Studio-1.png" alt="" loading="lazy">
+                    <img src="/wp-content/uploads/2021/05/Huella-Studio-1.png" alt="" loading="lazy">
 
                   </div>
 
@@ -515,7 +515,7 @@
                 <div class="referElements">
                   <div class="containerImage">
 
-                    <img src="/escala-dev/wp-content/uploads/2021/05/Infinito-Producciones-1.png" alt="" loading="lazy">
+                    <img src="/wp-content/uploads/2021/05/Infinito-Producciones-1.png" alt="" loading="lazy">
 
                   </div>
 
@@ -541,7 +541,7 @@
                 <div class="referElements">
                   <div class="containerImage">
 
-                    <img src="/escala-dev/wp-content/uploads/2021/05/Initiative-1.png" alt="" loading="lazy">
+                    <img src="/wp-content/uploads/2021/05/Initiative-1.png" alt="" loading="lazy">
 
                   </div>
 
@@ -567,7 +567,7 @@
                 <div class="referElements">
                   <div class="containerImage">
 
-                    <img src="/escala-dev/wp-content/uploads/2021/05/Logo-ILC-Academy-1-1.png" alt="" loading="lazy">
+                    <img src="/wp-content/uploads/2021/05/Logo-ILC-Academy-1-1.png" alt="" loading="lazy">
 
                   </div>
 
@@ -591,7 +591,7 @@
                 <div class="referElements">
                   <div class="containerImage">
 
-                    <img src="/escala-dev/wp-content/uploads/2021/05/Savage-Paintball-1.png" alt="" loading="lazy">
+                    <img src="/wp-content/uploads/2021/05/Savage-Paintball-1.png" alt="" loading="lazy">
 
                   </div>
 
