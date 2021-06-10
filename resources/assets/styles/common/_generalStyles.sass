@@ -1,0 +1,154 @@
+
+
+.customSection.sectionParent.fullWidth
+    width: 100%!important
+    padding: 0
+    .innerSectionElement
+        margin: 0 auto
+        display: block
+
+
+
+.backgroundFull
+    background-position: center
+    background-size: cover
+    background-repeat: none
+    padding: 60px 0px 60px 0px
+
+.containerImage
+    padding: 10px
+    img
+        max-width: unset
+        width: auto!important
+    // margin: 0
+
+.containerElements
+    padding: 10px
+
+
+.customSection.sectionParent
+    margin: 0 auto
+    padding: 60px 0px 60px 0px
+    position: relative
+    width: 100%
+    .innerSectionElement
+        margin-bottom: 50px
+        margin: 0 auto
+    .section-row
+        margin: 0 auto
+        @include responsivo(telefonoTable)
+            width: 90%
+        @include responsivo(pcMedio)
+            width: 85%
+        @include responsivo(general)
+            width: 100%
+            max-width: 1150px
+        @include responsivo(resto)
+            width: 100%
+            max-width: 1310px
+
+
+
+.containerImage
+    margin-bottom: 20px
+
+.greenBlueColor
+    color: $colorGreenBlue
+
+
+.grayColor
+    color: $colorGrey
+
+.blackColor
+    color: $colorBlack
+
+.orangeColor
+    color: $colorOrange
+
+.whiteColor
+    color: $colorWhite
+
+span.tag
+    font-size: 18px
+    // margin-bottom: 20px
+    display: block
+    font-family: "Nunito Sans", Sans-serif
+    font-weight: 600
+
+
+.principalBigTitle
+    font-family: "Nunito", Sans-serif
+    font-size: 55px
+    font-weight: bold
+
+.principalBigText
+    line-height: 36px
+    font-size: 25px
+    font-family: "Nunito Sans", sans-serif
+    font-weight: 400
+
+.primaryTitle
+    font-size: 40px
+    margin-bottom: 30px
+    line-height: 1
+    font-weight: 700
+    font-family: "Nunito Sans", sans-serif
+
+.commonTitle
+    margin-bottom: 20px
+    line-height: 1
+    font-size: 30px
+    font-weight: 700
+    font-family: "Nunito Sans", sans-serif
+
+.secondaryTitle
+    margin-bottom: 20px
+    line-height: 1
+    font-size: 30px
+    font-weight: 700
+    font-family: "Nunito Sans", sans-serif
+
+.primaryText
+    line-height: 25px
+    font-size: 25px
+    font-family: "Nunito Sans", sans-serif
+.secondaryText
+    line-height: 23px
+    font-size: 23px
+    font-family: "Nunito Sans", sans-serif
+
+.commonText
+    font-weight: 500
+    font-size: 16px
+    line-height: 24px
+    font-family: "Nunito Sans", sans-serif
+
+
+
+.primaryButton
+    display: inline-block
+    line-height: 1
+    text-decoration: none
+    font-size: 18px
+    line-height: 1
+    padding: 20px 50px
+    color: $colorWhite
+    background-color: $colorOrange
+    border-radius: 5px
+    width: auto
+    transition: $transitionButton
+    transform: scale(1)
+    // display: flex
+    &:hover
+        transform: scale(0.8)
+        color: white
+
+
+.hiperButtonGray
+    color: $colorDarkGrey
+    font-size: 18px
+    &:hover
+        color: $colorDarkGrey
+        text-decoration: underline
+
+
