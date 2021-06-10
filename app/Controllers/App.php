@@ -30,4 +30,20 @@ class App extends Controller
         }
         return get_the_title();
     }
+
+
+    public static function setTypeUrl(){
+
+        if($_SERVER['SERVER_NAME'] == 'localhost') {
+
+            return '/escala-dev';
+
+        }else{
+
+            return '';
+
+        }
+
+    }
+
 }
