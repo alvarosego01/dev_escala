@@ -45,5 +45,18 @@ class App extends Controller
         }
 
     }
+    // public static function setAssetsUrl(){
+
+    //     if($_SERVER['SERVER_NAME'] == 'localhost') {
+
+    //         return '/escala-dev';
+
+    //     }else{
+
+    //         return '';
+
+    //     }
+
+    // }
 
 }
