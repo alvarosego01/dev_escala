@@ -1,4 +1,21 @@
 
+// html,
+// body
+//     height: 100%!important
+//     width: 100%!important
+//     margin: 0!important
+//     padding: 0!important
+//     overflow-x: hidden!important
+//     // overflow-y: initial
+
+// *
+    // display: none
+
+html,
+body
+    width: 100%
+    overflow-x: hidden
+
 
 .customSection.sectionParent.fullWidth
     width: 100%!important
@@ -16,12 +33,22 @@
     background-repeat: none
     padding: 60px 0px 60px 0px
     // padding-bottom: 60px
+    @include responsivo(telefonoTable)
+        padding: 30px 0!important
+    @include responsivo(pcMedio)
+        padding: 30px 0!important
 
 .containerImage
     padding: 10px
+    box-sizing: border-box
+    display: block
+    // overflow: hidden
     img
+        display: block
+        box-sizing: border-box
         max-width: unset
         width: auto!important
+        margin: 0 auto
     // margin: 0
 
 .containerElements
@@ -35,15 +62,19 @@
     padding-bottom: 60px
     position: relative
     width: 100%
+    @include responsivo(telefonoTable)
+        padding-bottom: 30px
+    @include responsivo(pcMedio)
+        padding-bottom: 30px
     .innerSectionElement
         margin-bottom: 50px
         margin: 0 auto
     .section-row
         margin: 0 auto
         @include responsivo(telefonoTable)
-            width: 90%
+            width: 95%
         @include responsivo(pcMedio)
-            width: 85%
+            width: 90%
         @include responsivo(general)
             width: 100%
             max-width: 1025px
@@ -92,12 +123,24 @@ span.tag
     line-height: 1
     font-weight: bold
     margin-bottom: 20px
+    @include responsivo(telefonoTable)
+        font-size: 35px!important
+        br
+            display: none!important
+    @include responsivo(pcMedio)
+        font-size: 35px!important
+        br
+            display: none!important
 
 .principalBigText
     line-height: 36px
     font-size: 25px
     font-family: "Nunito Sans", sans-serif
     font-weight: 400
+    // @include responsivo(telefonoTable)
+    //     font-size: 25
+    // @include responsivo(pcMedio)
+    //     font-size: 25
 
 .primaryTitle
     font-size: 40px
@@ -105,6 +148,14 @@ span.tag
     line-height: 1
     font-weight: 700
     font-family: "Nunito Sans", sans-serif
+    @include responsivo(telefonoTable)
+        font-size: 22px!important
+        br
+            display: none!important
+    @include responsivo(pcMedio)
+        font-size: 22px!important
+        br
+            display: none!important
 
 .commonTitle
     margin-bottom: 20px
@@ -112,6 +163,11 @@ span.tag
     font-size: 30px
     font-weight: 700
     font-family: "Nunito Sans", sans-serif
+    @include responsivo(telefonoTable)
+        // display: none
+        font-size: 20px!important
+    @include responsivo(pcMedio)
+        font-size: 20px!important
 
 .secondaryTitle
     margin-bottom: 20px
@@ -119,15 +175,31 @@ span.tag
     font-size: 30px
     font-weight: 700
     font-family: "Nunito Sans", sans-serif
+    @include responsivo(telefonoTable)
+        font-size: 20px!important
+    @include responsivo(pcMedio)
+        font-size: 20px!important
 
 .primaryText
     line-height: 25px
     font-size: 25px
     font-family: "Nunito Sans", sans-serif
+    @include responsivo(telefonoTable)
+        font-size: 19px!important
+        line-height: normal!important
+    @include responsivo(pcMedio)
+        font-size: 19px!important
+        line-height: normal!important
 .secondaryText
     line-height: 23px
     font-size: 23px
     font-family: "Nunito Sans", sans-serif
+    @include responsivo(telefonoTable)
+        font-size: 18px!important
+        line-height: normal!important
+    @include responsivo(pcMedio)
+        font-size: 18px!important
+        line-height: normal!important
 
 .commonText
     font-weight: 500
@@ -150,6 +222,12 @@ span.tag
     width: auto
     transition: $transitionButton
     transform: scale(1)
+    @include responsivo(telefonoTable)
+        padding: 10px 20px!important
+        font-size: 18px!important
+    @include responsivo(pcMedio)
+        padding: 10px 20px!important
+        font-size: 18px!important
     // display: flex
 
 .hoverInEffect
@@ -187,6 +265,7 @@ span.tag
 
 
 
+// .jet-popup__container-inner
 .formatForm
     max-width: 420px
     // margin-left: auto
@@ -197,9 +276,13 @@ span.tag
     border-radius: 10px
     box-shadow: 0px 9px 10px 0px rgb(0 0 0 / 12%)
     @include responsivo(telefonoTable)
-        max-width: 600px
+        max-width: 90%!important
+        widows: 100%!important
     @include responsivo(pcMedio)
         max-width: 600px
+
+.formatForm,
+.elementor-widget-void-section-cf7
     h5.titleFormat
         font-family: "Nunito Sans", sans-serif
         font-size: 21px
@@ -266,3 +349,15 @@ form input[type="text"][disabled], form input[type="password"][disabled], form i
     background-color: #FAFBFD
     color: #706B6D
     // height: 100%
+
+
+
+// para el popup
+
+.jet-popup__close-button
+    i
+        color: #F34F36
+
+.elementor-301 .elementor-element.elementor-element-836015f
+    color: #322C2E
+    padding-bottom: 10px 0
