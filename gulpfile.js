@@ -28,7 +28,7 @@ gulp.task('browserSync-Local', () => {
     notify: true,
     injectChanges: true,
     proxy: "localhost/escala-dev/",
-    files: ['assets/**'],
+    files: ['dist/**'],
 
   });
 

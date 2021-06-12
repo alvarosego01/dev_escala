@@ -11,7 +11,7 @@
     @include('partials.header')
   --}}
 
-    <div class="wrap container global" role="document">
+    <div class="wrap container global typeBootstrap" role="document">
       <div class="content">
         <main class="main">
           @yield('content')

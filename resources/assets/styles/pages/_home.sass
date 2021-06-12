@@ -1,4 +1,5 @@
 
+@import common/global
 
 
 .customSection.sectionParent.homeSection0
@@ -34,17 +35,23 @@
                 background-size: 100% auto
 
     .innerSectionElement
+        // display: none
         .groupElements
             .info
                 .containElements
                     img
                         height: 380px
                     @include responsivo(telefonoTable)
+                        // display: none
+                        img
+                            height: 225px!important
                         .principalBigTitle,
                         .principalBigText,
                         .containerImage
                             text-align: center!important
                     @include responsivo(pcMedio)
+                        img
+                            height: 320px
                         .principalBigTitle,
                         .principalBigText,
                         .containerImage
@@ -52,20 +59,15 @@
             .form7
                 padding: 0px 50px 0px 100px
                 @include responsivo(telefonoTable)
-                    padding: 0 50px
+                    padding: 0!important
                 @include responsivo(pcMedio)
-                    padding: 0 50px
+                    padding: 0 5%!important
 
 
 
 
-
-
-
-
-
-
-
+// *
+    // display: none
 
 .customSection.sectionParent.homeSection1
     .innerSectionElement.sct1
@@ -80,11 +82,22 @@
             .elements
                 .containerImage
                     img
+
                         height: 200px
-                        display: block
+                        // display: none
                         margin: 0 auto
                 h2.secondaryTitle
                     text-align: center
+                @include responsivo(telefonoTable)
+                    .containerImage
+                        img
+                            // display: none
+                            height: 50vw!important
+                            max-height: 220px!important
+                @include responsivo(pcMedio)
+                    .containerImage
+                        img
+                            height: 175px!important
 
 
 .customSection.sectionParent.homeSection2
@@ -113,6 +126,8 @@
                         display: flex
                         img
                             margin: 0 auto
+                            width: auto!important
+                            height: 165px!important
                     .containerElements
                         display: flex
                         justify-content: center
@@ -122,6 +137,13 @@
                         a
                             margin-left: auto
                             margin-right: auto
+                @include responsivo(pcMedio)
+                    margin-bottom: 30px
+                    .containerImage
+                        img
+                            width: auto!important
+                            height: 170px!important
+
 
 
 .customSection.sectionParent.homeSection3
@@ -131,6 +153,11 @@
         background-size: cover
         height: 300px
         position: relative
+        display: flex
+        @include responsivo(telefonoTable)
+            height: 280px!important
+        @include responsivo(pcMedio)
+            height: 280px!important
         .imageBackground
             position: absolute
             left: 0
@@ -145,12 +172,21 @@
             background-position: center
             width: 100%
             // margin: 0
+            @include responsivo(telefonoTable)
+                background-position: 0 220px!important
+            @include responsivo(pcMedio)
+                background-position: 0 220px!important
         .section-row
+            margin: auto
             .containElements
                 h2.primaryTitle
                     text-align: center
-                    margin-bottom: 50px!important
+                    margin-bottom: 50px
                     color: $colorWhite
+                    @include responsivo(telefonoTable)
+                        margin-bottom: 30px!important
+                    @include responsivo(pcMedio)
+                        margin-bottom: 30px!important
                 a.primaryButton
                     // margin: 0 auto
                     margin-left: auto
@@ -218,7 +254,7 @@
                     height: fit-content
                     margin: auto
                     h2.primaryTitle
-                        margin-bottom: 50px!important
+                        margin-bottom: 50px
                     p.primaryText
                         margin-bottom: 50px
                     a.primaryButton
@@ -228,8 +264,10 @@
                         margin-bottom: 50px
                         h2.primaryTitle
                             text-align: center
+                            margin-bottom: 25px!important
                         p.primaryText
                             text-align: center
+                            margin-bottom: 25px!important
                         a.primaryButton
                             margin: 0 auto
 
@@ -256,11 +294,15 @@
                         display: flex
                         img
                             margin: 0 auto
+                            height: 315px!important
+
                     @include responsivo(pcMedio)
                         margin-bottom: 0!important
                         display: flex
                         img
                             margin: 0 auto
+
+
 
 
 
@@ -315,4 +357,34 @@
                                 text-align: right
                             .commonText
                                 text-align: right
+                @include responsivo(telefonoTable)
+                    padding: 20px!important
+                    height: fit-content!important
+                    .containElements
+                        padding: 25px!important
+                        height: auto!important
+                        p
+                            margin-bottom: 25px!important
+                        .referElements
+                            flex-direction: column!important
+                            .containerImage
+                                margin-bottom: 15px!important
+                            p,h3
+                                text-align: center!important
+                                width: 100%!important
+                @include responsivo(pcMedio)
+                    padding: 20px!important
+                    height: fit-content!important
+                    .containElements
+                        padding: 25px!important
+                        height: auto!important
+                        p
+                            margin-bottom: 25px!important
+                        .referElements
+                            flex-direction: column!important
+                            .containerImage
+                                margin-bottom: 15px!important
+                            p,h3
+                                text-align: center!important
+                                width: 100%!important
         // margin: 50px 0
