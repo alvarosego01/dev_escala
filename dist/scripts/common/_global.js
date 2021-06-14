@@ -1,1 +1,15 @@
-function goToElement(n){}
+
+
+
+
+
+
+    function goToElement(hash){
+
+
+
+
+
+    }
+
+

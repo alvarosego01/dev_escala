@@ -1,3 +1,4 @@
+
 {{--
   Template Name: Home bootstrap
 --}}
@@ -8,12 +9,16 @@
 @section('content')
 
 
+
+
+
+
 <div id="homeBootstrap">
 
   <div class="sections">
 
 
-    <section class="customSection sectionParent homeSection0 fullWidth">
+    <section id="lead-form" class="customSection sectionParent homeSection0 fullWidth">
 
 
       <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/Rectangle-1037-1.png')" class="backgroundFull">
@@ -47,7 +52,7 @@
 
 
               </div>
-              <div id="lead-form" class="form7 col-md-12 col-lg-6">
+              <div class="form7 col-md-12 col-lg-6">
 
                 <div class="containElements">
 
@@ -631,15 +636,15 @@
 
 </div>
 
-
-
-
 {{--
-  @while(have_posts()) @php the_post() @endphp
-    @include('partials.page-header')
-    @include('partials.content-page')
-  @endwhile
-  --}}
+
+ get_post_meta( $post->ID, '_wp_page_template', true )
+ get_page_template_slug()
+
+--}}
+
+
+
 
 
 @endsection

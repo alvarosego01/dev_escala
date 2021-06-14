@@ -99,7 +99,7 @@ gulp.task('js', () => {
         this.emit('end');
       }
     ))
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(gulp.dest('./dist/scripts/'))
 });
 
