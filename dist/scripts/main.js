@@ -1,0 +1,1 @@
+import"jquery";import"./autoload/**/*";import Router from"./util/Router";import common from"./routes/common";import home from"./routes/home";import aboutUs from"./routes/about";const routes=new Router({common:common,home:home,aboutUs:aboutUs});jQuery(document).ready(()=>routes.loadEvents());
