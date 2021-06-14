@@ -1,0 +1,1 @@
+import $ from"jquery";wp.customize("blogname",e=>{e.bind(e=>$(".brand").text(e))});

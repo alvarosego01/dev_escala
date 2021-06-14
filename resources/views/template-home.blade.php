@@ -47,7 +47,7 @@
 
 
               </div>
-              <div class="form7 col-md-12 col-lg-6">
+              <div id="lead-form" class="form7 col-md-12 col-lg-6">
 
                 <div class="containElements">
 
@@ -287,7 +287,7 @@
             <h2 class="primaryTitle whiteText">Empieza a escalar tu negocio con éxito
             </h2>
 
-            <a href="#lead-form" class="primaryButton hoverInEffect">
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
               Probar escala ahora
             </a>
 
@@ -418,9 +418,9 @@
                 <h2 class="primaryTitle blackColor"><span class="greenBlueColor">Te acompañamos</span> <br> en tu camino al éxito</h2>
 
 
-                <p class="primaryText grayColor"><strong>escala</strong> te permite implementar embudos de venta: la estrategia probada para hacer crecer empresas de manera rentable, sostenible y escalable</p>
+                <p class="primaryText grayColor"><strong>¿No estás seguro de qué hacer o cómo avanzar?</strong> Nuestros estrategas expertos en marketing digital y ventas conocen acerca de tus necesidades y comparten conocimientos probados para conseguir mejores resultados.</p>
 
-                <a href="#lead-form" class="primaryButton hoverInEffect">
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
                   Probar escala ahora
                 </a>
 

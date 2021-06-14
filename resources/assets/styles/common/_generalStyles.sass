@@ -1,15 +1,4 @@
 
-// html,
-// body
-//     height: 100%!important
-//     width: 100%!important
-//     margin: 0!important
-//     padding: 0!important
-//     overflow-x: hidden!important
-//     // overflow-y: initial
-
-// *
-    // display: none
 
 html,
 body
@@ -19,24 +8,26 @@ body
 
 .customSection.sectionParent.fullWidth
     width: 100%!important
-    padding: 0
-    // padding-bottom: 60px
+    padding: 0!important
+    // padding-bottom: 50px
     .innerSectionElement
-        margin: 0 auto
+        // margin: 0 auto
         display: block
+        // margin-bottom: 50px
 
-
+// .innerSectionElement
+    // margin-bottom: 50px!important
 
 .backgroundFull
     background-position: center
     background-size: cover
     background-repeat: none
-    padding: 60px 0px 60px 0px
+    padding: 50px 0px 50px 0px
     // padding-bottom: 60px
     @include responsivo(telefonoTable)
         padding: 30px 0!important
     @include responsivo(pcMedio)
-        padding: 30px 0!important
+        padding: 50px 0!important
 
 .containerImage
     padding: 10px
@@ -59,13 +50,13 @@ body
     margin: 0 auto
     // padding: 30px 0px 30px 0px
     // padding-top: 0
-    padding-bottom: 60px
+    padding: 50px 0
     position: relative
     width: 100%
     @include responsivo(telefonoTable)
-        padding-bottom: 30px
+        padding: 25px 0
     @include responsivo(pcMedio)
-        padding-bottom: 30px
+        padding: 50px 0
     .innerSectionElement
         margin-bottom: 50px
         margin: 0 auto
@@ -77,10 +68,10 @@ body
             width: 90%
         @include responsivo(general)
             width: 100%
-            max-width: 1025px
+            max-width: 1250px
         @include responsivo(resto)
             width: 100%
-            max-width: 1140px
+            max-width: 1440px
 
 
 
@@ -128,9 +119,9 @@ span.tag
         br
             display: none!important
     @include responsivo(pcMedio)
-        font-size: 35px!important
-        br
-            display: none!important
+        font-size: 50px!important
+        // br
+            // display: none!important
 
 .principalBigText
     line-height: 36px
@@ -153,9 +144,9 @@ span.tag
         br
             display: none!important
     @include responsivo(pcMedio)
-        font-size: 22px!important
-        br
-            display: none!important
+        font-size: 35px!important
+        // br
+        //     display: none!important
 
 .commonTitle
     margin-bottom: 20px
@@ -167,7 +158,7 @@ span.tag
         // display: none
         font-size: 20px!important
     @include responsivo(pcMedio)
-        font-size: 20px!important
+        font-size: 30px!important
 
 .secondaryTitle
     margin-bottom: 20px
@@ -178,18 +169,20 @@ span.tag
     @include responsivo(telefonoTable)
         font-size: 20px!important
     @include responsivo(pcMedio)
-        font-size: 20px!important
+        font-size: 25px!important
 
 .primaryText
-    line-height: 25px
+    line-height: 28px!important
     font-size: 25px
     font-family: "Nunito Sans", sans-serif
+    // display: none
     @include responsivo(telefonoTable)
         font-size: 19px!important
-        line-height: normal!important
+        line-height: 20px!important
     @include responsivo(pcMedio)
-        font-size: 19px!important
-        line-height: normal!important
+        font-size: 27px!important
+        line-height: 28px!important
+
 .secondaryText
     line-height: 23px
     font-size: 23px
@@ -198,7 +191,7 @@ span.tag
         font-size: 18px!important
         line-height: normal!important
     @include responsivo(pcMedio)
-        font-size: 18px!important
+        font-size: 24px!important
         line-height: normal!important
 
 .commonText
@@ -226,7 +219,8 @@ span.tag
         padding: 10px 20px!important
         font-size: 18px!important
     @include responsivo(pcMedio)
-        padding: 10px 20px!important
+        // padding: 10px 20px!important
+        padding: 15px 30px 15px 30px!important
         font-size: 18px!important
     // display: flex
 
@@ -281,6 +275,8 @@ span.tag
     @include responsivo(pcMedio)
         max-width: 600px
 
+
+
 .formatForm,
 .elementor-widget-void-section-cf7
     h5.titleFormat
@@ -295,13 +291,14 @@ span.tag
     p
         margin-bottom: 20px
         text-align: center
+        // padding: 10px 0!important
     input
         border-width: 0px 0px 1px 0px!important
         border-radius: 0!important
         box-sizing: border-box
         font-family: "Nunito Sans", sans-serif
         font-size: 18px!important
-        font-weight: 500
+        font-weight: 500!important
         margin: 0
     .wpcf7-text
         color: #706B6D!important
@@ -313,7 +310,7 @@ span.tag
         font-family: "Nunito Sans", sans-serif
         font-size: 18px!important
         color: #706B6D!important
-        font-weight: 500
+        font-weight: 500!important
         box-sizing: border-box
     span.ewp-phonetype-radio
         margin-top: 20px
@@ -354,9 +351,13 @@ form input[type="text"][disabled], form input[type="password"][disabled], form i
 
 // para el popup
 
-.jet-popup__close-button
-    i
-        color: #F34F36
+.jet-popup__container
+    .jet-popup__close-button
+        i
+            color: #F34F36
+    .elementor-element.elementor-element-836015f.elementor-widget.elementor-widget-text-editor
+        p
+            padding: 5px 0!important
 
 .elementor-301 .elementor-element.elementor-element-836015f
     color: #322C2E

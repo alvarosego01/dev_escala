@@ -106,7 +106,7 @@ gulp.task('js', () => {
 gulp.task('jsGeneral', (cb) => {
   pump([
     gulp.src('./resources/assets/scripts/**/*.js'),
-    concat('funciones.js'),
+    // concat('funciones.js'),
     uglify(),
     gulp.dest('./dist/scripts/')
   ],
@@ -114,7 +114,7 @@ gulp.task('jsGeneral', (cb) => {
   );
 });
 
-gulp.task('SassJs', gulp.series(gulp.parallel('sassGeneral', 'jsGeneral')));
+gulp.task('SassJs', gulp.series(gulp.parallel('sassGeneral', 'js')));
 
 
 gulp.task('watch', () => {
