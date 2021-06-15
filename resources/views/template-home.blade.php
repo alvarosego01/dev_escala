@@ -180,7 +180,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h2 class="commonTitle blackColor">Crea increíble páginas sin programar</h2>
+                  <h2 class="commonTitle blackColor">Crea increíble páginas <br> sin programar</h2>
                   <p class="secondaryText grayColor">¡Y que queden hermosas!</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/landing-pages/">Conocer más</a>
                 </div>
@@ -194,7 +194,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h2 class="commonTitle blackColor">Organiza tus contactos y gestiona procesos de venta </h2>
+                  <h2 class="commonTitle blackColor">Organiza tus contactos y <br> gestiona procesos de <br> venta </h2>
                   <p class="secondaryText grayColor">Con un CRM sencillo de usar</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/crm-escala/">Conocer más</a>
                 </div>
@@ -210,7 +210,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h2 class="commonTitle blackColor">Envía emails de marketing profesionales</h2>
+                  <h2 class="commonTitle blackColor">Envía emails de marketing <br> profesionales</h2>
                   <p class="secondaryText grayColor">Personalizados y masivos, sin caer en la bandeja de SPAM</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/email/">Conocer más</a>
                 </div>
@@ -224,7 +224,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h2 class="commonTitle blackColor">Multiplica tus visitas web con anuncios digitales</h2>
+                  <h2 class="commonTitle blackColor">Multiplica tus visitas web <br> con anuncios digitales</h2>
                   <p class="secondaryText grayColor">en Facebook, Instagram y Google</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/anuncios-digitales/">Conocer más</a>
                 </div>
@@ -240,7 +240,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h2 class="commonTitle blackColor">Automatiza tareas y flujos de comunicación</h2>
+                  <h2 class="commonTitle blackColor">Automatiza tareas y flujos <br> de comunicación</h2>
                   <p class="secondaryText grayColor">escala trabaja por ti 24/7</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/automatizacion/">Conocer más</a>
                 </div>
@@ -257,7 +257,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h2 class="commonTitle blackColor">Obtén métricas de marketing y ventas en tiempo real</h2>
+                  <h2 class="commonTitle blackColor">Obtén métricas de <br> marketing y ventas en <br> tiempo real</h2>
                   <p class="secondaryText grayColor">con dashboards inteligentes</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/analiticas/">Conocer más</a>
                 </div>
@@ -346,7 +346,7 @@
               </div>
 
               <div class="containerElements">
-                <h2 class="commonTitle blackColor">Toda las herramientas en un solo lugar</h2>
+                <h2 class="commonTitle blackColor">Toda las herramientas <br> en un solo lugar</h2>
                 <p class="primaryText grayColor">Desde un page builder muy intuitivo hasta el CRM más simple de gestionar</p>
 
               </div>
@@ -458,7 +458,7 @@
 
           <div class="containElements">
 
-            <h2 class="primaryTitle blackColor">Clientes que <br> <strong>hacen crecer sus negocios</strong> <br> con <span class="orangeColor">escala</span>
+            <h2 class="primaryTitle blackColor">Clientes que <br> hacen crecer sus negocios <br> con <span class="orangeColor">escala</span>
             </h2>
 
           </div>

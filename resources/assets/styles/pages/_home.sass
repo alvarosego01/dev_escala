@@ -213,21 +213,22 @@
                 align-content: center
                 margin-bottom: 40px
                 .containerImage
-                    padding: 10px
+                    padding: 0!important
                     // width: 250px
                     margin-bottom: 0
-                    margin-right: 40px
+                    margin-right: 0!important
                     img
                         height: 150px
                         // width: 110px!important
                         width: auto
+                        margin: 0 37px!important
                 @include responsivo(telefonoTable)
                     flex-direction: column
                     margin-bottom: 30px
                     .containerImage
                         display: flex
                         img
-                            margin: 0 auto
+                            margin: 0 auto!important
                     .containerElements
                         display: flex
                         justify-content: center
@@ -292,7 +293,10 @@
                     padding-bottom: 0
                     margin-bottom: 0
                     img
-                        height: 600px
+                        height: 500px
+                        margin-left: auto!important
+                        // margin-right:
+                        margin-right: 0
                     @include responsivo(telefonoTable)
                         margin-bottom: 0!important
                         display: flex
