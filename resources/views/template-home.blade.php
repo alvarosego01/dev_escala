@@ -524,7 +524,7 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h2 class="secondaryTitle blackColor">Turismo</h2>
+                  <h2 class="commonTitle blackColor">Turismo</h2>
                   <span class="tag greenBlueColor">Venezuela</span>
                   <p class="commonText grayColor">“Yo ya había utilizado un CRM y otras plataformas que tienen más o menos la misma esencia. Encontrarme con <strong>escala</strong> fue importante porque es más completa. Tienes todo lo que necesitas, desde captar el interés de los clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi mercado se redujo por la pandemia, <strong>escala</strong> es sumamente oportuno. Además, estoy muy contenta por todo el apoyo que he recibido por el equipo de <strong>escala</strong>.”</p>
                 </div>
@@ -548,7 +548,7 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h2 class="secondaryTitle blackColor">Agencia de Comunicaciones</h2>
+                  <h2 class="commonTitle blackColor">Agencia de Comunicaciones</h2>
                   <span class="tag greenBlueColor">Costa Rica</span>
                   <p class="commonText grayColor">La herramienta es muy amigable, y permite que la gestión pueda realizarla casi que cualquier persona con conocimientos básicos en plataformas digitales. <br>
                     El servicio es expedito y el equipo a cargo se preocupa por extender capacitaciones necesarias que garantizan que los equipos estén sacando el mayor provecho de la herramienta.<br>
@@ -576,7 +576,7 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h2 class="secondaryTitle blackColor">Academia de Coaching</h2>
+                  <h2 class="commonTitle blackColor">Academia de Coaching</h2>
                   <span class="tag greenBlueColor">Estados Unidos</span>
                   <p class="commonText grayColor">¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad de lanzamientos de iniciativas de aprendizaje y crecimiento!!! 🔥🔥🔥🔥👏👏👏👏🙌</p>
                 </div>
@@ -600,7 +600,7 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h2 class="secondaryTitle blackColor">Entretenimiento Deportivo</h2>
+                  <h2 class="commonTitle blackColor">Entretenimiento Deportivo</h2>
                   <span class="tag greenBlueColor">Venezuela</span>
                   <p class="commonText grayColor">Felicitaciones al equipo de <strong>escala</strong>, pues de verdad la plataforma me gusta bastante. Posee herramientas muy útiles y lo mejor es que es simple de manipular.</p>
                 </div>
