@@ -19,6 +19,7 @@ add_action('wp_enqueue_scripts', function () {
     // acá se añaden los templates que usarán bootstrap
     $bootstrapPages = array(
         "views/template-home.blade.php",
+        "views/template-landing-incredible.blade.php",
     );
 
     // views/template-home.blade.php
@@ -150,6 +151,9 @@ add_action('after_setup_theme', function () {
     sage('blade')->compiler()->directive('asset', function ($asset) {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
+
+    sage('blade')->compiler()->component('components.headers.t1.component-header-T1','header_t1');
+
 });
 
 
@@ -170,6 +174,7 @@ add_action('wp_enqueue_scripts', function () {
     // acá se añaden los templates que usarán bootstrap
     $bootstrapPages = array(
         "views/template-home.blade.php",
+        "views/template-landing-incredible.blade.php",
     );
 
     // views/template-home.blade.php
