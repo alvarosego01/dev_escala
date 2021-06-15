@@ -1,3 +1,4 @@
+
 {{--
   Template Name: Home bootstrap
 --}}
@@ -8,12 +9,16 @@
 @section('content')
 
 
+
+
+
+
 <div id="homeBootstrap">
 
   <div class="sections">
 
 
-    <section class="customSection sectionParent homeSection0 fullWidth">
+    <section id="lead-form" class="customSection sectionParent homeSection0 fullWidth">
 
 
       <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/Rectangle-1037-1.png')" class="backgroundFull">
@@ -175,7 +180,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h2 class="commonTitle blackColor">Crea increíble páginas sin programar</h2>
+                  <h2 class="commonTitle blackColor">Crea increíble páginas <br> sin programar</h2>
                   <p class="secondaryText grayColor">¡Y que queden hermosas!</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/landing-pages/">Conocer más</a>
                 </div>
@@ -189,7 +194,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h2 class="commonTitle blackColor">Organiza tus contactos y gestiona procesos de venta </h2>
+                  <h2 class="commonTitle blackColor">Organiza tus contactos y <br> gestiona procesos de <br> venta </h2>
                   <p class="secondaryText grayColor">Con un CRM sencillo de usar</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/crm-escala/">Conocer más</a>
                 </div>
@@ -205,7 +210,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h2 class="commonTitle blackColor">Envía emails de marketing profesionales</h2>
+                  <h2 class="commonTitle blackColor">Envía emails de marketing <br> profesionales</h2>
                   <p class="secondaryText grayColor">Personalizados y masivos, sin caer en la bandeja de SPAM</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/email/">Conocer más</a>
                 </div>
@@ -219,7 +224,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h2 class="commonTitle blackColor">Multiplica tus visitas web con anuncios digitales</h2>
+                  <h2 class="commonTitle blackColor">Multiplica tus visitas web <br> con anuncios digitales</h2>
                   <p class="secondaryText grayColor">en Facebook, Instagram y Google</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/anuncios-digitales/">Conocer más</a>
                 </div>
@@ -235,7 +240,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h2 class="commonTitle blackColor">Automatiza tareas y flujos de comunicación</h2>
+                  <h2 class="commonTitle blackColor">Automatiza tareas y flujos <br> de comunicación</h2>
                   <p class="secondaryText grayColor">escala trabaja por ti 24/7</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/automatizacion/">Conocer más</a>
                 </div>
@@ -252,7 +257,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h2 class="commonTitle blackColor">Obtén métricas de marketing y ventas en tiempo real</h2>
+                  <h2 class="commonTitle blackColor">Obtén métricas de <br> marketing y ventas en <br> tiempo real</h2>
                   <p class="secondaryText grayColor">con dashboards inteligentes</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/analiticas/">Conocer más</a>
                 </div>
@@ -287,7 +292,7 @@
             <h2 class="primaryTitle whiteText">Empieza a escalar tu negocio con éxito
             </h2>
 
-            <a href="#lead-form" class="primaryButton hoverInEffect">
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
               Probar escala ahora
             </a>
 
@@ -341,7 +346,7 @@
               </div>
 
               <div class="containerElements">
-                <h2 class="commonTitle blackColor">Toda las herramientas en un solo lugar</h2>
+                <h2 class="commonTitle blackColor">Toda las herramientas <br> en un solo lugar</h2>
                 <p class="primaryText grayColor">Desde un page builder muy intuitivo hasta el CRM más simple de gestionar</p>
 
               </div>
@@ -418,9 +423,9 @@
                 <h2 class="primaryTitle blackColor"><span class="greenBlueColor">Te acompañamos</span> <br> en tu camino al éxito</h2>
 
 
-                <p class="primaryText grayColor"><strong>escala</strong> te permite implementar embudos de venta: la estrategia probada para hacer crecer empresas de manera rentable, sostenible y escalable</p>
+                <p class="primaryText grayColor"><strong>¿No estás seguro de qué hacer o cómo avanzar?</strong> Nuestros estrategas expertos en marketing digital y ventas conocen acerca de tus necesidades y comparten conocimientos probados para conseguir mejores resultados.</p>
 
-                <a href="#lead-form" class="primaryButton hoverInEffect">
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
                   Probar escala ahora
                 </a>
 
@@ -453,7 +458,7 @@
 
           <div class="containElements">
 
-            <h2 class="primaryTitle blackColor">Clientes que <br> <strong>hacen crecer sus negocios</strong> <br> con <span class="orangeColor">escala</span>
+            <h2 class="primaryTitle blackColor">Clientes que <br> hacen crecer sus negocios <br> con <span class="orangeColor">escala</span>
             </h2>
 
           </div>
@@ -519,7 +524,7 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h2 class="secondaryTitle blackColor">Turismo</h2>
+                  <h2 class="commonTitle blackColor">Turismo</h2>
                   <span class="tag greenBlueColor">Venezuela</span>
                   <p class="commonText grayColor">“Yo ya había utilizado un CRM y otras plataformas que tienen más o menos la misma esencia. Encontrarme con <strong>escala</strong> fue importante porque es más completa. Tienes todo lo que necesitas, desde captar el interés de los clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi mercado se redujo por la pandemia, <strong>escala</strong> es sumamente oportuno. Además, estoy muy contenta por todo el apoyo que he recibido por el equipo de <strong>escala</strong>.”</p>
                 </div>
@@ -543,7 +548,7 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h2 class="secondaryTitle blackColor">Agencia de Comunicaciones</h2>
+                  <h2 class="commonTitle blackColor">Agencia de Comunicaciones</h2>
                   <span class="tag greenBlueColor">Costa Rica</span>
                   <p class="commonText grayColor">La herramienta es muy amigable, y permite que la gestión pueda realizarla casi que cualquier persona con conocimientos básicos en plataformas digitales. <br>
                     El servicio es expedito y el equipo a cargo se preocupa por extender capacitaciones necesarias que garantizan que los equipos estén sacando el mayor provecho de la herramienta.<br>
@@ -571,7 +576,7 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h2 class="secondaryTitle blackColor">Academia de Coaching</h2>
+                  <h2 class="commonTitle blackColor">Academia de Coaching</h2>
                   <span class="tag greenBlueColor">Estados Unidos</span>
                   <p class="commonText grayColor">¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad de lanzamientos de iniciativas de aprendizaje y crecimiento!!! 🔥🔥🔥🔥👏👏👏👏🙌</p>
                 </div>
@@ -595,7 +600,7 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h2 class="secondaryTitle blackColor">Entretenimiento Deportivo</h2>
+                  <h2 class="commonTitle blackColor">Entretenimiento Deportivo</h2>
                   <span class="tag greenBlueColor">Venezuela</span>
                   <p class="commonText grayColor">Felicitaciones al equipo de <strong>escala</strong>, pues de verdad la plataforma me gusta bastante. Posee herramientas muy útiles y lo mejor es que es simple de manipular.</p>
                 </div>
@@ -631,15 +636,15 @@
 
 </div>
 
-
-
-
 {{--
-  @while(have_posts()) @php the_post() @endphp
-    @include('partials.page-header')
-    @include('partials.content-page')
-  @endwhile
-  --}}
+
+ get_post_meta( $post->ID, '_wp_page_template', true )
+ get_page_template_slug()
+
+--}}
+
+
+
 
 
 @endsection

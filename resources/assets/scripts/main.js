@@ -22,3 +22,18 @@ const routes = new Router({
 
 // Load Events
 jQuery(document).ready(() => routes.loadEvents());
+
+
+console.log('se instancia todo');
+
+jQuery(".goToHash").click(function () {
+  // e.preventDefault();
+
+  if(jQuery(window.location.hash).length > 0){
+
+    console.log('se dispara');
+    jQuery('html, body').animate({ scrollTop: jQuery(window.location.hash).offset().top - 250+'px'}, 500);
+
+  }
+
+});
