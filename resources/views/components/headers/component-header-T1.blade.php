@@ -1,5 +1,4 @@
-<!--
-Header type 1
+{{-- Header type 1
 
 Background image or color
 
@@ -15,9 +14,8 @@ Photo |
 @var $text: text desc header | string
 @var $image: image principal header | string
 @var $textForm: text header form | string
-@var $backgroundColor: background color hexadecimal | string
+@var $backgroundColor: background color hexadecimal | string --}}
 
- -->
 
 
 @if ($backgroundImageType == true)
@@ -107,7 +105,7 @@ Photo |
 
 @if ($backgroundImageType == false)
 
-    <section  class="component-header-t1 bg-color customSection sectionParent {{ $classSection }} ">
+    <section class="component-header-t1 bg-color customSection sectionParent {{ $classSection }} ">
 
         <div class="section-row">
 
@@ -149,14 +147,14 @@ Photo |
                                 <h5 class="titleFormat blackcolor">{{ $textForm }}</h5>
 
                                 <div class="lead-form elementor-widget-void-section-cf7" id="lead-form"
-                                data-widget_type="void-section-cf7.default">
-                                <div class="elementor-widget-container">
-                                    <div class="void-cf7-form-widget-wrapper elementor-shortcode void-cf7-0"
-                                        data-void-cf7-contact-form-id="73">
-                                        {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
+                                    data-widget_type="void-section-cf7.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="void-cf7-form-widget-wrapper elementor-shortcode void-cf7-0"
+                                            data-void-cf7-contact-form-id="73">
+                                            {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
 
                             </div>

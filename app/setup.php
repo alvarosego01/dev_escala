@@ -2,10 +2,12 @@
 
 namespace App;
 
+use App\Controllers\SetComponents;
 use Roots\Sage\Container;
 use Roots\Sage\Assets\JsonManifest;
 use Roots\Sage\Template\Blade;
 use Roots\Sage\Template\BladeProvider;
+
 
 use App\Controllers\App;
 
@@ -159,7 +161,16 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 
-    sage('blade')->compiler()->component('components.headers.t1.component-header-T1','header_t1');
+    // registro de componentes
+    // sage('blade')->compiler()->component('components.headers.component-header-T1','header_t1');
+
+    $SetComponents = new SetComponents();
+    $c = $SetComponents->setAllComponents();
+    foreach ($c as $key => $value) {
+        sage('blade')->compiler()->component( $key, $value );
+    }
+
+
 
 });
 

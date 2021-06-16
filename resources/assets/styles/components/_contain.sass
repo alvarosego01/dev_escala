@@ -1,0 +1,43 @@
+
+
+
+
+
+.customSection.sectionParent.component-contain-info-am-t1.bg-color.customSection
+    .section-row
+        @include responsivo(telefonoTable)
+            width: 95%
+        @include responsivo(pcMedio)
+            width: 90%
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1140px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1140px!important
+        .innerSectionElement
+            .groupElements
+                box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%)
+                transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s
+                padding: 40px
+                border-radius: 20px
+                .info
+                    display: flex
+                    justify-content: center
+                    align-content: center
+                    .containElements
+                        margin: auto 0
+                        p.description
+                            font-size: 22px
+                            line-height: 33px
+                            font-weight: 400
+                            margin-bottom: 40px
+                        h2.byAm
+                .image
+                    .containerImage
+                        display: flex
+                        img
+                            height: 385px
+                            margin: auto
+                            display: block
+

@@ -159,9 +159,28 @@
 </section>
 
 
+
+@php
+ $parameters = array(
+  'classSection' => 'landingPageInc3',
+  'description' => '"<strong>Al generar más de 1 millón de contactos por año utilizando las páginas de destino de Open English</strong>, hemos obtenido información sobre cómo optimizar con éxito nuestros sitios web para impulsar nuestras ventas. Basándonos en una década de experiencia, hemos creado el mejor creador de páginas de destino del mercado".',
+  'byAm' => '<span class="orangeColor">Andrés Moreno</span> <br>Fundador de <span class="orangeColor">escala</span> y Open English',
+  'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2020/09/escala-Andre%CC%81s-Moreno-founder-Ceo-Open-English-1.png'
+ ) ;
+@endphp
+
+@contain_am_T1( $parameters )
+
+@endcontain_am_T1
+
+
+
   </div>
 
 </div>
+
+
+
 
 
 @endsection
