@@ -134,6 +134,30 @@
   </div>
 </section>
 
+<section class="customSection sectionParent landingPageInc2">
+
+  <div class="section-row">
+
+    <div class="containElements">
+
+      <h2 class="primaryTitle whiteText">
+        ¡Comienza a crear tu <span class="orangeColor">landing page</span> ahora!
+      </h2>
+
+      <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+        ¡Pruébalo ahora!
+      </a>
+
+
+    </div>
+
+
+
+
+  </div>
+
+</section>
+
 
   </div>
 

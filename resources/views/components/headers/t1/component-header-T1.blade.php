@@ -20,145 +20,159 @@ Photo |
  -->
 
 
-@if($backgroundImageType == true)
+@if ($backgroundImageType == true)
 
-<section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent {{ $classSection }} fullWidth ">
-
-
-  <div style="background-image: url('{{ $backgroundImage }}')" class="backgroundFull">
+    <section class="component-header-t1 bg-image overlay customSection sectionParent {{ $classSection }} fullWidth ">
 
 
-    @if($overlay == true)
-    <div style="background-image: url('{{ $overlay }}')" class="backgroundPlanets">
-    </div>
-    @endif
+        <div style="background-image: url('{{ $backgroundImage }}')" class="backgroundFull">
 
 
-
-    <div class="section-row">
+            @if ($overlay == true)
+                <div style="background-image: url('{{ $overlay }}')" class="backgroundPlanets">
+                </div>
+            @endif
 
 
 
-      <section class="innerSectionElement sct1">
-
-        <div class="groupElements row">
-
-          <div class="info col-md-12 col-lg-6">
-
-            <div class="containElements">
+            <div class="section-row">
 
 
-              <h2 class="principalBigTitle blackColor">
-               {!! $title !!}
-              </h2>
 
-              @if($text != null)
-              <p class="principalBigText grayColor">
-              {!! $text !!}
-              </p>
-              @endif
+                <section class="innerSectionElement sct1">
 
-              <div class="containerImage">
-                <img src="{{ $image }}" alt="" loading="lazy">
-              </div>
+                    <div class="groupElements row">
+
+                        <div class="info col-md-12 col-lg-6">
+
+                            <div class="containElements">
 
 
+                                <h2 class="principalBigTitle blackColor">
+                                    {!! $title !!}
+                                </h2>
+
+                                @if ($text != null)
+                                    <p class="principalBigText grayColor">
+                                        {!! $text !!}
+                                    </p>
+                                @endif
+
+                                <div class="containerImage">
+                                    <img src="{{ $image }}" alt="" loading="lazy">
+                                </div>
+
+
+
+                            </div>
+
+
+                        </div>
+                        <div class="form7 col-md-12 col-lg-6">
+
+                            <div class="containElements">
+
+                                <div class="formatForm">
+
+                                    <h5 class="titleFormat blackcolor">{{ $textForm }}</h5>
+
+                                    <div class="lead-form elementor-widget-void-section-cf7" id="lead-form"
+                                        data-widget_type="void-section-cf7.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="void-cf7-form-widget-wrapper elementor-shortcode void-cf7-0"
+                                                data-void-cf7-contact-form-id="73">
+                                                {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </section>
 
             </div>
-
-
-          </div>
-          <div class="form7 col-md-12 col-lg-6">
-
-            <div class="containElements">
-
-              <div class="formatForm">
-
-                <h5 class="titleFormat blackcolor">{{ $textForm }}</h5>
-
-                {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
-
-              </div>
-
-            </div>
-          </div>
-
-
         </div>
 
-      </section>
-
-    </div>
-    </div>
-
-</section>
+    </section>
 
 
 
 @endif
 
-@if($backgroundImageType == false)
+@if ($backgroundImageType == false)
 
-<section id="lead-form" class="component-header-t1 bg-color customSection sectionParent {{ $classSection }} ">
+    <section  class="component-header-t1 bg-color customSection sectionParent {{ $classSection }} ">
 
-    <div class="section-row">
+        <div class="section-row">
 
-      <section class="innerSectionElement sct1">
+            <section class="innerSectionElement sct1">
 
-        <div class="groupElements row">
+                <div class="groupElements row">
 
-          <div class="info col-md-12 col-lg-6">
+                    <div class="info col-md-12 col-lg-6">
 
-            <div class="containElements">
-
-
-              <h2 class="principalBigTitle blackColor">
-               {!! $title !!}
-              </h2>
-
-              @if($text != null)
-              <p class="principalBigText grayColor">
-               {!! $text !!}
-              </p>
-              @endif
-
-              <div class="containerImage">
-                <img src="{{ $image }}" alt="" loading="lazy">
-              </div>
+                        <div class="containElements">
 
 
+                            <h2 class="principalBigTitle blackColor">
+                                {!! $title !!}
+                            </h2>
 
-            </div>
+                            @if ($text != null)
+                                <p class="principalBigText grayColor">
+                                    {!! $text !!}
+                                </p>
+                            @endif
+
+                            <div class="containerImage">
+                                <img src="{{ $image }}" alt="" loading="lazy">
+                            </div>
 
 
-          </div>
-          <div class="form7 col-md-12 col-lg-6">
 
-            <div class="containElements">
+                        </div>
 
-              <div class="formatForm">
 
-                <h5 class="titleFormat blackcolor">{{ $textForm }}</h5>
+                    </div>
+                    <div class="form7 col-md-12 col-lg-6">
 
-                {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
+                        <div class="containElements">
 
-              </div>
+                            <div class="formatForm">
 
-            </div>
-          </div>
+                                <h5 class="titleFormat blackcolor">{{ $textForm }}</h5>
 
+                                <div class="lead-form elementor-widget-void-section-cf7" id="lead-form"
+                                data-widget_type="void-section-cf7.default">
+                                <div class="elementor-widget-container">
+                                    <div class="void-cf7-form-widget-wrapper elementor-shortcode void-cf7-0"
+                                        data-void-cf7-contact-form-id="73">
+                                        {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </section>
 
         </div>
 
-      </section>
-
-    </div>
-
-</section>
+    </section>
 
 
 
 @endif
-
-
-
