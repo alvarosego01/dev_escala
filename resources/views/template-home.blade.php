@@ -73,6 +73,7 @@
           </section>
 
         </div>
+        </div>
 
     </section>
 
@@ -642,7 +643,6 @@
  get_page_template_slug()
 
 --}}
-
 
 
 
