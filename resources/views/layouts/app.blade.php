@@ -1,3 +1,5 @@
+
+@include('partials.head')
 @php
 get_header();
 @endphp

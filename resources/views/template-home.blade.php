@@ -1,6 +1,6 @@
 
 {{--
-  Template Name: Home bootstrap
+  Template Name: [B] Home
 --}}
 
 @extends('layouts.app')
