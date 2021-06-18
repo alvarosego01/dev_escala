@@ -44,7 +44,7 @@
                   </p>
 
                   <div class="containerImage">
-                    <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/andres_banner_aprobado-1-1.png" alt="" loading="lazy">
+                    <img alt="Genera más leads, clientes y ventas con escala" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/andres_banner_aprobado-1-1.png" alt="" loading="lazy">
                   </div>
 
 
@@ -107,7 +107,7 @@
             <div class="elements">
 
               <div class="containerImage">
-                <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/beneficio_01.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
+                <img alt="Da a conocer tu negocio" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/beneficio_01.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
               </div>
 
               <h3 class="secondaryTitle"><span class="greenBlueColor">Da a conocer</span> <br>tu negocio</h3>
@@ -118,7 +118,7 @@
             <div class="elements">
 
               <div class="containerImage">
-                <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/beneficio_02.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
+                <img alt="Multiplica tus clientes potenciales" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/beneficio_02.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
               </div>
 
 
@@ -130,7 +130,7 @@
             <div class="elements">
 
               <div class="containerImage">
-                <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/beneficio_03.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
+                <img alt="Aumenta tus ventas" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/beneficio_03.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
               </div>
 
 
@@ -142,7 +142,7 @@
             <div class="elements">
 
               <div class="containerImage">
-                <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/beneficio_04.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
+                <img alt="Fideliza a tus clientes" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/beneficio_04.svg" class="attachment-large size-large" alt="" loading="lazy" width="1024" height="998">
               </div>
 
 
@@ -187,7 +187,7 @@
               <div class="col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
-                  <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_01.svg" alt="" loading="lazy">
+                  <img alt="Crea increíbles páginas sin programar" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_01.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
@@ -201,11 +201,11 @@
               <div class="col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
-                  <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_05.svg" alt="" loading="lazy">
+                  <img alt="Organiza tus contactos y gestiona procesos de venta" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_05.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="commonTitle blackColor">Organiza tus contactos y <br> gestiona procesos de <br> venta </h3>
+                  <h3 class="commonTitle blackColor">Organiza tus contactos y <br> gestiona procesos de <br> venta</h3>
                   <p class="secondaryText grayColor">Con un CRM sencillo de usar</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/crm-escala/">
                     Vende más con el CRM de escala
@@ -219,7 +219,7 @@
               <div class="col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
-                  <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_02.svg" alt="" loading="lazy">
+                  <img alt="Envía emails de marketing profesionales" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_02.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
@@ -235,7 +235,7 @@
               <div class="col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
-                  <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_04.svg" alt="" loading="lazy">
+                  <img alt="Multiplica tus visitas web con anuncios digitales" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_04.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
@@ -253,7 +253,7 @@
               <div class="col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
-                  <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_03.svg" alt="" loading="lazy">
+                  <img alt="Automatiza tareas y flujos de comunicación" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_03.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
@@ -272,7 +272,7 @@
               <div class="col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
-                  <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_06.svg" alt="" loading="lazy">
+                  <img alt="Obtén métricas de marketing y ventas en tiempo real" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_06.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
@@ -354,7 +354,7 @@
             <div class="col-md-12 col-lg-6 infoGroup">
 
               <div class="containerImage">
-                <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/01-2.svg" alt="" loading="lazy">
+                <img alt="Una plataforma muy fácil de usar" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/01-2.svg" alt="" loading="lazy">
               </div>
 
               <div class="containerElements">
@@ -368,7 +368,7 @@
             <div class="col-md-12 col-lg-6 infoGroup">
 
               <div class="containerImage">
-                <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/02-2.svg" alt="" loading="lazy">
+                <img alt="Toda las herramientas en un solo lugar" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/02-2.svg" alt="" loading="lazy">
               </div>
 
               <div class="containerElements">
@@ -383,7 +383,7 @@
             <div class="col-md-12 col-lg-6 infoGroup">
 
               <div class="containerImage">
-                <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/03-2.svg" alt="" loading="lazy">
+                <img alt="Siempre acompañado y asesorado" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/03-2.svg" alt="" loading="lazy">
               </div>
 
               <div class="containerElements">
@@ -397,7 +397,7 @@
             <div class="col-md-12 col-lg-6 infoGroup">
 
               <div class="containerImage">
-                <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/04-2.svg" alt="" loading="lazy">
+                <img alt="Sin programar una línea de código" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/04-2.svg" alt="" loading="lazy">
               </div>
 
               <div class="containerElements">
@@ -414,7 +414,7 @@
             <div class="full infoGroup">
 
               <div class="containerImage">
-                <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/numero5.png" alt="" loading="lazy">
+                <img alt="100% en español" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/numero5.png" alt="" loading="lazy">
               </div>
 
               <div class="containerElements">
@@ -462,7 +462,7 @@
             <div class="image col-md-12 col-lg-6">
 
               <div class="containerImage">
-                <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/Group-1822.png" alt="" loading="lazy">
+                <img alt="Te acompañamos en tu camino al éxito" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/Group-1822.png" alt="" loading="lazy">
               </div>
 
             </div>
@@ -505,7 +505,7 @@
                 <div class="referElements">
                   <div class="containerImage">
 
-                    <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Publicidad-Comercial2-1.png" alt="" loading="lazy">
+                    <img alt="Agencia de Publicidad" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Publicidad-Comercial2-1.png" alt="" loading="lazy">
 
                   </div>
 
@@ -531,7 +531,7 @@
                 <div class="referElements">
                   <div class="containerImage">
 
-                    <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Huella-Studio-1.png" alt="" loading="lazy">
+                    <img alt="Agencia de Marketing" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Huella-Studio-1.png" alt="" loading="lazy">
 
                   </div>
 
@@ -557,7 +557,7 @@
                 <div class="referElements">
                   <div class="containerImage">
 
-                    <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Infinito-Producciones-1.png" alt="" loading="lazy">
+                    <img alt="Turismo" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Infinito-Producciones-1.png" alt="" loading="lazy">
 
                   </div>
 
@@ -583,7 +583,7 @@
                 <div class="referElements">
                   <div class="containerImage">
 
-                    <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Initiative-1.png" alt="" loading="lazy">
+                    <img alt="Agencia de Comunicaciones" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Initiative-1.png" alt="" loading="lazy">
 
                   </div>
 
@@ -609,7 +609,7 @@
                 <div class="referElements">
                   <div class="containerImage">
 
-                    <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Logo-ILC-Academy-1-1.png" alt="" loading="lazy">
+                    <img alt="Academia de Coaching" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Logo-ILC-Academy-1-1.png" alt="" loading="lazy">
 
                   </div>
 
@@ -633,7 +633,7 @@
                 <div class="referElements">
                   <div class="containerImage">
 
-                    <img src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Savage-Paintball-1.png" alt="" loading="lazy">
+                    <img alt="Entretenimiento Deportivo" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Savage-Paintball-1.png" alt="" loading="lazy">
 
                   </div>
 
@@ -662,12 +662,6 @@
 
 </div>
 
-{{--
-
- get_post_meta( $post->ID, '_wp_page_template', true )
- get_page_template_slug()
-
---}}
 
 
 
