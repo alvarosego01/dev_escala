@@ -1,5 +1,4 @@
-<!--
-Header type 1
+{{-- Header type 1
 
 Background image or color
 
@@ -10,26 +9,27 @@ Photo |
 @var $backgroundImageType: type of header | boolean
 @var $classSection: class context | string
 @var $backgroundImage: url background image file | string
-@var $overlay: url overlay file | string
+@var $overlay: enable overlay type | boolean
+@var $overlayImage: enable overlay type | boolean
 @var $title: title of header | string
 @var $text: text desc header | string
 @var $image: image principal header | string
 @var $textForm: text header form | string
-@var $backgroundColor: background color hexadecimal | string
+@var $backgroundColor: background color hexadecimal | string --}}
 
- -->
 
 
 @if ($backgroundImageType == true)
 
-    <section class="component-header-t1 bg-image overlay customSection sectionParent {{ $classSection }} fullWidth ">
+
+    <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth {{ $classSection }} ">
 
 
         <div style="background-image: url('{{ $backgroundImage }}')" class="backgroundFull">
 
 
             @if ($overlay == true)
-                <div style="background-image: url('{{ $overlay }}')" class="backgroundPlanets">
+                <div style="background-image: url('{{ $overlayImage }}')" class="backgroundPlanets">
                 </div>
             @endif
 
@@ -72,24 +72,19 @@ Photo |
 
                             <div class="containElements">
 
-                                <div class="formatForm">
+                              <div class="formatForm">
 
-                                    <h5 class="titleFormat blackcolor">{{ $textForm }}</h5>
+                                <h5 class="titleFormat blackcolor">{{ $textForm }}</h5>
 
-                                    <div class="lead-form elementor-widget-void-section-cf7" id="lead-form"
-                                        data-widget_type="void-section-cf7.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="void-cf7-form-widget-wrapper elementor-shortcode void-cf7-0"
-                                                data-void-cf7-contact-form-id="73">
-                                                {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
-                                            </div>
-                                        </div>
-                                    </div>
+                                {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
 
-                                </div>
+                              </div>
 
                             </div>
                         </div>
+
+
+
 
 
                     </div>
@@ -107,7 +102,7 @@ Photo |
 
 @if ($backgroundImageType == false)
 
-    <section  class="component-header-t1 bg-color customSection sectionParent {{ $classSection }} ">
+    <section id="lead-form" class="component-header-t1 bg-color customSection sectionParent {{ $classSection }} ">
 
         <div class="section-row">
 
@@ -140,29 +135,22 @@ Photo |
 
 
                     </div>
+
                     <div class="form7 col-md-12 col-lg-6">
 
                         <div class="containElements">
 
-                            <div class="formatForm">
+                          <div class="formatForm">
 
-                                <h5 class="titleFormat blackcolor">{{ $textForm }}</h5>
+                            <h5 class="titleFormat blackcolor">{{ $textForm }}</h5>
 
-                                <div class="lead-form elementor-widget-void-section-cf7" id="lead-form"
-                                data-widget_type="void-section-cf7.default">
-                                <div class="elementor-widget-container">
-                                    <div class="void-cf7-form-widget-wrapper elementor-shortcode void-cf7-0"
-                                        data-void-cf7-contact-form-id="73">
-                                        {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
-                                    </div>
-                                </div>
-                            </div>
+                            {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
 
-
-                            </div>
+                          </div>
 
                         </div>
-                    </div>
+                      </div>
+
 
 
                 </div>

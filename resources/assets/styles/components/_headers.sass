@@ -8,6 +8,70 @@
 
 
 
+.customSection.sectionParent.component-header-t1.bg-image.overlay.fullWidth
+    .section-row
+        // height: 750px
+    .backgroundFull
+        background-position: 0px -100px
+        background-size: cover
+        position: relative
+        background-repeat: no-repeat
+        padding-top: 215px
+        @include responsivo(telefonoTable)
+            padding-top: 100px!important
+            padding-bottom: 50px!important
+        @include responsivo(pcMedio)
+            padding-top: 175px!important
+            padding-bottom: 50px!important
+        .backgroundPlanets
+            background-position: 50px 200px
+            background-repeat: no-repeat
+            background-size: 100% auto
+            opacity: 1
+            transition: background 0.3s, border-radius 0.3s, opacity 0.3s
+            height: 100%
+            width: 100%
+            top: -10%
+            left: 0
+            position: absolute
+            @include responsivo(telefonoTable)
+                background-position: 2.5% 2.5%
+                background-size: initial
+            @include responsivo(pcMedio)
+                background-position: 8px 184px
+                background-size: 100% auto
+
+    .innerSectionElement
+        // display: none
+        // z-index: 1
+        .groupElements
+            .info
+                .containElements
+                    img
+                        height: 380px
+                    @include responsivo(telefonoTable)
+                        // display: none
+                        img
+                            height: 225px!important
+                        .principalBigTitle,
+                        .principalBigText,
+                        .containerImage
+                            text-align: center!important
+                    @include responsivo(pcMedio)
+                        img
+                            height: 320px
+                        .principalBigTitle,
+                        .principalBigText,
+                        .containerImage
+                            text-align: center!important
+            .form7
+                padding: 0px 50px 0px 100px
+                @include responsivo(telefonoTable)
+                    padding: 0!important
+                @include responsivo(pcMedio)
+                    padding: 0 5%!important
+
+
 .customSection.sectionParent.component-header-t1.bg-color
     padding-top: 200px
     @include responsivo(telefonoTable)
@@ -16,9 +80,7 @@
     @include responsivo(pcMedio)
         padding-top: 175px!important
         padding-bottom: 50px!important
-    .section-row
-
-
+    // .section-row
     .innerSectionElement
         // display: none
         // z-index: 1

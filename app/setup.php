@@ -2,10 +2,12 @@
 
 namespace App;
 
+use App\Controllers\SetComponents;
 use Roots\Sage\Container;
 use Roots\Sage\Assets\JsonManifest;
 use Roots\Sage\Template\Blade;
 use Roots\Sage\Template\BladeProvider;
+
 
 use App\Controllers\App;
 
@@ -20,6 +22,7 @@ add_action('wp_enqueue_scripts', function () {
     $bootstrapPages = array(
         "views/template-home.blade.php",
         "views/template-landing-incredible.blade.php",
+        "views/template-landing-incredible-am.blade.php",
     );
 
     // views/template-home.blade.php
@@ -159,7 +162,16 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 
-    sage('blade')->compiler()->component('components.headers.t1.component-header-T1','header_t1');
+    // registro de componentes
+    // sage('blade')->compiler()->component('components.headers.component-header-T1','header_t1');
+
+    $SetComponents = new SetComponents();
+    $c = $SetComponents->setAllComponents();
+    foreach ($c as $key => $value) {
+        sage('blade')->compiler()->component( $key, $value );
+    }
+
+
 
 });
 
@@ -177,12 +189,17 @@ add_action('wp_enqueue_scripts', function () {
     $bootstrapPages = array(
         "views/template-home.blade.php",
         "views/template-landing-incredible.blade.php",
+        "views/template-landing-incredible-am.blade.php",
     );
 
     // views/template-home.blade.php
 
     if (is_page_template($bootstrapPages)) {
 
+
+
+        // wp_register_style('nunitoFonts', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
+        // wp_enqueue_style('nunitoFonts');
 
 
         wp_enqueue_style('sage/main.css', asset_path('/dist/styles/main.css'), false, null);
@@ -208,3 +225,10 @@ add_action('wp_enqueue_scripts', function () {
         wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, null);
     }
 }, 100);
+
+
+
+
+
+
+// https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNunito+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNunito%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.5.5&amp;display=swap
