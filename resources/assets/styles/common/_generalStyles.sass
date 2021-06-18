@@ -1,5 +1,7 @@
 
 
+@import components/headers
+
 html,
 body
     width: 100%
@@ -68,10 +70,10 @@ body
             width: 90%
         @include responsivo(general)
             width: 100%
-            max-width: 1250px
+            width: 1125px!important
         @include responsivo(resto)
             width: 100%
-            max-width: 1440px
+            width: 1250px!important
 
 
 
@@ -163,7 +165,7 @@ span.tag
 .secondaryTitle
     margin-bottom: 20px
     line-height: 1
-    font-size: 30px
+    font-size: 25px
     font-weight: 700
     font-family: "Nunito Sans", sans-serif
     @include responsivo(telefonoTable)
@@ -206,7 +208,7 @@ span.tag
     display: inline-block
     line-height: 1
     text-decoration: none
-    font-size: 24px
+    font-size: 18px
     line-height: 1
     padding: 20px 50px
     color: $colorWhite
@@ -222,11 +224,16 @@ span.tag
         // padding: 10px 20px!important
         padding: 15px 30px 15px 30px!important
         font-size: 18px!important
+    @include responsivo(general)
+        padding: 20px 50px 20px 50px!important
+        font-size: 18px!important
+    // @include responsivo(resto)
+
     // display: flex
 
 .hoverInEffect
     &:hover
-        transform: scale(0.9)
+        transform: scale(1.1)
         color: white
 
 
@@ -279,7 +286,7 @@ span.tag
 
 .formatForm,
 .elementor-widget-void-section-cf7
-    h5.titleFormat
+    .titleFormat
         font-family: "Nunito Sans", sans-serif
         font-size: 21px
         line-height: normal
@@ -298,19 +305,18 @@ span.tag
         box-sizing: border-box
         font-family: "Nunito Sans", sans-serif
         font-size: 18px!important
-        font-weight: 500!important
+        font-weight: normal!important
         margin: 0
     .wpcf7-text
         color: #706B6D!important
         // color: #333!important
     select
-        font-family: "Nunito Sans", sans-serif
         padding: 6px 12px
         border-width: 0px 0px 1px 0px
         font-family: "Nunito Sans", sans-serif
         font-size: 18px!important
         color: #706B6D!important
-        font-weight: 500!important
+        font-weight: normal!important
         box-sizing: border-box
     span.ewp-phonetype-radio
         margin-top: 20px
@@ -362,3 +368,13 @@ form input[type="text"][disabled], form input[type="password"][disabled], form i
 .elementor-301 .elementor-element.elementor-element-836015f
     color: #322C2E
     padding-bottom: 10px 0
+
+
+
+
+footer
+    .elementor-element.elementor-element-798f1b6d.elementor-widget.elementor-widget-text-editor .elementor-text-editor.elementor-clearfix
+        font-size: 15px
+
+
+

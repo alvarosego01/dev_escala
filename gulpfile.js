@@ -28,7 +28,7 @@ gulp.task('browserSync-Local', () => {
     notify: true,
     injectChanges: true,
     proxy: "localhost/escala-dev/",
-    files: ['dist/**'],
+    files: ['dist/styles/**'],
 
   });
 
@@ -99,7 +99,7 @@ gulp.task('js', () => {
         this.emit('end');
       }
     ))
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(gulp.dest('./dist/scripts/'))
 });
 
