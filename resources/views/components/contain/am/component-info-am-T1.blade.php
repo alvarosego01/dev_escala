@@ -33,12 +33,16 @@
 
                 <div class="containElements">
 
-                  <p class="primaryText grayColor description">
+                  <p class="primaryText colorGrey2 description">
                     {!! $description !!}
                 </p>
 
-                <h2 class="byAm grayColor">
-                    {!! $byAm !!}
+                <h2 class="byAm colorGrey2">
+                  {!! $byAm !!}
+                </h2>
+
+                <h2 class="team colorGrey2">
+                  {!! $team !!}
                 </h2>
 
 

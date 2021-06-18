@@ -3,24 +3,137 @@
 
 
 
+@import common/global
+
+
+.component-info-4steps-loading.customSection.sectionParent
+    .innerSectionElement.sct1
+        margin-bottom: 50px
+        h2.primaryTitle
+            margin-bottom: 0
+            text-align: center
+    .innerSectionElement.row.sct2
+        .containElements
+            padding: 10px
+            .elements
+                height: 100%
+                .cardElements
+                    height: 100%
+                    padding: 20px
+                    background-color: $colorWhite
+                    border-radius: 10px 10px 10px 10px
+                    box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%)
+                    .loader
+                        margin-bottom: 15px
+                    h3.title
+                        margin-bottom: 20px
+                        font-size: 22px
+                        text-align: center
+                        font-weight: 700
+                        font-family: "Nunito Sans",Sans-serif
+                    p.infoText
+                        color: #5B5B5B
+                        font-family: "Nunito Sans",Sans-serif
+                        font-size: 18px
+                        font-weight: 400
+                        line-height: 1.5em
+                        text-align: center
+
+
+.component-contain-info-aio-5steps.customSection.sectionParent
+    .section-row
+        .innerSectionElement.sct2
+            .groupElements
+                .infoGroup
+                    padding: 40px 20px
+                    .containerImage
+                        display: flex
+
+                        img
+                            height: 170px
+                            display: block
+                            margin: 0 auto
+                    .containerElements
+                        h2.commonTitle
+                            text-align: center
+                            line-height: 30px
+                            font-size: 22px!important
+                            font-weight: 700
+                        p.commonText
+                            font-size: 18px!important
+                            line-height: 27px!important
+                            text-align: center
+                            span.orangeColor
+                                font-weight: 800
+                            @include responsivo(telefonoTable)
+                                br
+                                    display: none
+
+            .groupElements
+                &:nth-of-type(2)
+                    @include responsivo(general)
+                        width: 70%
+                        margin: 0 auto
+
+                    @include responsivo(resto)
+                        width: 70%
+                        margin: 0 auto
+
+.component-contain-info-aio-5steps.customSection.sectionParent.fullWidth
+    .backgroundFull
+    .section-row
+        .innerSectionElement.sct1
+            .containElements
+                h2.primaryTitle
+                    text-align: center
+        .innerSectionElement.sct2
+            .groupElements
+                .infoGroup
+                    padding: 40px 20px
+                    .containerImage
+                        display: flex
+                        img
+                            height: 170px
+                            display: block
+                            margin: 0 auto
+                    .containerElements
+                        h2.commonTitle
+                            text-align: center
+                            line-height: 30px
+                            font-size: 22px!important
+                            font-weight: 700
+                        p.commonText
+                            font-size: 18px!important
+                            line-height: 27px!important
+                            text-align: center
+                            span.orangeColor
+                                font-weight: 800
+                            @include responsivo(telefonoTable)
+                                br
+                                    display: none
+
+            .groupElements
+                &:nth-of-type(2)
+                    @include responsivo(general)
+                        width: 70%
+                        margin: 0 auto
+
+                    @include responsivo(resto)
+                        width: 70%
+                        margin: 0 auto
+
+
+
+
 .customSection.sectionParent.component-contain-info-am-t1.bg-color.customSection
     .section-row
-        @include responsivo(telefonoTable)
-            width: 95%
-        @include responsivo(pcMedio)
-            width: 90%
-        @include responsivo(general)
-            width: 100%!important
-            max-width: 1140px!important
-        @include responsivo(resto)
-            width: 100%!important
-            max-width: 1140px!important
         .innerSectionElement
             .groupElements
                 box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%)
                 transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s
                 padding: 40px
                 border-radius: 20px
+                background-color: $colorWhite
                 .info
                     display: flex
                     justify-content: center
@@ -28,11 +141,21 @@
                     .containElements
                         margin: auto 0
                         p.description
-                            font-size: 22px
-                            line-height: 33px
+                            font-size: 22px!important
+                            line-height: 33px!important
                             font-weight: 400
                             margin-bottom: 40px
+                            font-family: "Nunito Sans",Sans-serif
                         h2.byAm
+                            font-size: 22px!important
+                            font-weight: 700
+                            line-height: 25.5px!important
+                            font-family: "Nunito Sans",Sans-serif
+                        .team
+                            font-weight: 400
+                            font-family: "Nunito Sans",Sans-serif
+                            span
+                                font-weight: 700
                 .image
                     .containerImage
                         display: flex

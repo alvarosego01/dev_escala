@@ -1,0 +1,55 @@
+
+
+
+@import common/global
+
+
+
+.component-callToAction-T1.fullWidth.overlay.customSection.sectionParent
+    .backgroundFull.sct1
+        background-position: center
+        background-size: cover
+        height: 300px
+        position: relative
+        display: flex
+        @include responsivo(telefonoTable)
+            height: 225px!important
+        @include responsivo(pcMedio)
+            height: 250px!important
+        .imageBackground,
+        .imageBackground2
+            position: absolute
+            left: 0
+            right: 0
+            bottom: 0
+            top: 0
+            margin: auto
+            width: 100%
+            display: block
+            background-size: contain
+            background-repeat: no-repeat
+            background-position: center
+            width: 100%
+            // margin: 0
+            @include responsivo(telefonoTable)
+                background-position: 0 100%!important
+            @include responsivo(pcMedio)
+                background-position: 0 100%!important
+        .section-row
+            margin: auto
+            .containElements
+                h2.primaryTitle
+                    text-align: center
+                    margin-bottom: 50px
+                    color: $colorWhite
+                    @include responsivo(telefonoTable)
+                        margin-bottom: 30px!important
+                    @include responsivo(pcMedio)
+                        margin-bottom: 30px!important
+                a.primaryButton
+                    // margin: 0 auto
+                    margin-left: auto
+                    margin-right: auto
+                    display: block
+                    width: fit-content
+
