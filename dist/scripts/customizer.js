@@ -1,1 +1,5 @@
-import $ from"jquery";wp.customize("blogname",e=>{e.bind(e=>$(".brand").text(e))});
+import $ from 'jquery';
+
+wp.customize('blogname', (value) => {
+  value.bind(to => $('.brand').text(to));
+});
