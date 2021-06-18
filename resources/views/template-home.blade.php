@@ -304,8 +304,7 @@
 
       <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/banner-3-1.png')" class="backgroundFull sct1">
 
-        <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/astrorocket.svg')" class="imageBackground">
-        </div>
+
         <div class="section-row">
 
           <div class="containElements">
@@ -324,6 +323,10 @@
 
 
         </div>
+
+        <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/astrorocket.svg')" class="imageBackground">
+        </div>
+
       </div>
 
     </section>
