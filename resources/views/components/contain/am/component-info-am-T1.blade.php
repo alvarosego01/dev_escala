@@ -15,10 +15,6 @@
 
     --}}
 
-
-
-
-
     <section class="component-contain-info-am-t1 bg-color customSection sectionParent {{ $classSection }} ">
 
         <div class="section-row">

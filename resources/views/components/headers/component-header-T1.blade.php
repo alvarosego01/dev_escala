@@ -17,12 +17,21 @@ Photo |
 @var $textForm: text header form | string
 @var $backgroundColor: background color hexadecimal | string --}}
 
+@php
+
+if (!$threeCol) {
+    $threeCol = false;
+}
+
+@endphp
+
 
 
 @if ($backgroundImageType == true)
 
 
-    <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth {{ $classSection }} ">
+    <section id="lead-form"
+        class="component-header-t1 bg-image overlay customSection sectionParent fullWidth {{ $classSection }} ">
 
 
         <div style="background-image: url('{{ $backgroundImage }}')" class="backgroundFull">
@@ -33,52 +42,88 @@ Photo |
                 </div>
             @endif
 
-
-
             <div class="section-row">
-
-
-
                 <section class="innerSectionElement sct1">
 
                     <div class="groupElements row">
 
-                        <div class="info col-md-12 col-lg-6">
+                        <div class="info
+                        @if ($threeCol == true)
+                            col-md-12 col-lg-7
+                        @else
+                            col-md-12 col-lg-6
+                        @endif
+                        ">
 
-                            <div class="containElements">
+                            @if ($threeCol == true)
+
+                                <div class="containElements row threeCol">
+
+                                    <div class="ele ele1 col-md-12 col-lg-6">
+
+                                        <div class="containerImage">
+                                            <img src="{{ $image }}" alt="" loading="lazy">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="ele ele2 col-md-12 col-lg-6">
+                                        <h1 class="principalBigTitle blackColor">
+                                            {!! $title !!}
+                                        </h1>
+
+                                        @if ($text != null)
+                                            <p class="principalBigText grayColor">
+                                                {!! $text !!}
+                                            </p>
+                                        @endif
+
+                                    </div>
+
+                                </div>
+                            @else
+
+                                <div class="containElements">
+
+                                    <h1 class="principalBigTitle blackColor">
+                                        {!! $title !!}
+                                    </h1>
+
+                                    @if ($text != null)
+                                        <p class="principalBigText grayColor">
+                                            {!! $text !!}
+                                        </p>
+                                    @endif
+
+                                    <div class="containerImage">
+                                        <img src="{{ $image }}" alt="" loading="lazy">
+                                    </div>
 
 
-                                <h2 class="principalBigTitle blackColor">
-                                    {!! $title !!}
-                                </h2>
-
-                                @if ($text != null)
-                                    <p class="principalBigText grayColor">
-                                        {!! $text !!}
-                                    </p>
-                                @endif
-
-                                <div class="containerImage">
-                                    <img src="{{ $image }}" alt="" loading="lazy">
                                 </div>
 
+                            @endif
 
-
-                            </div>
 
 
                         </div>
-                        <div class="form7 col-md-12 col-lg-6">
+                        <div class="form7
+                            @if ($threeCol == true)
+                                col-md-12 col-lg-5
+                            @else
+                                col-md-12 col-lg-6
+                            @endif
+                        ">
 
                             <div class="containElements">
 
-                              <div class="formatForm">
+                                <div class="formatForm">
 
-                                <h5 class="titleFormat blackcolor">{{ $textForm }}</h5>
+                                    <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 
-                                {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
+                                    {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
 
-                              </div>
+                                </div>
 
                             </div>
                         </div>
@@ -110,46 +155,84 @@ Photo |
 
                 <div class="groupElements row">
 
-                    <div class="info col-md-12 col-lg-6">
+                    <div class="info
+                        @if ($threeCol == true)
+                            col-md-12 col-lg-7
+                        @else
+                            col-md-12 col-lg-6
+                        @endif
+                    ">
+                        @if ($threeCol == true)
 
-                        <div class="containElements">
+                            <div class="containElements row threeCol">
+
+                                <div class="ele ele1 col-md-12 col-lg-6">
+
+                                    <div class="containerImage">
+                                        <img src="{{ $image }}" alt="" loading="lazy">
+                                    </div>
+
+                                </div>
+
+                                <div class="ele ele2 col-md-12 col-lg-6">
+                                    <h1 class="principalBigTitle blackColor">
+                                        {!! $title !!}
+                                    </h1>
+
+                                    @if ($text != null)
+                                        <p class="principalBigText grayColor">
+                                            {!! $text !!}
+                                        </p>
+                                    @endif
+
+                                </div>
+
+                            </div>
+                        @else
+
+                            <div class="containElements">
+
+                                <h1 class="principalBigTitle blackColor">
+                                    {!! $title !!}
+                                </h1>
+
+                                @if ($text != null)
+                                    <p class="principalBigText grayColor">
+                                        {!! $text !!}
+                                    </p>
+                                @endif
+
+                                <div class="containerImage">
+                                    <img src="{{ $image }}" alt="" loading="lazy">
+                                </div>
 
 
-                            <h2 class="principalBigTitle blackColor">
-                                {!! $title !!}
-                            </h2>
-
-                            @if ($text != null)
-                                <p class="principalBigText grayColor">
-                                    {!! $text !!}
-                                </p>
-                            @endif
-
-                            <div class="containerImage">
-                                <img src="{{ $image }}" alt="" loading="lazy">
                             </div>
 
-
-
-                        </div>
-
+                        @endif
 
                     </div>
 
-                    <div class="form7 col-md-12 col-lg-6">
+                    <div class="form7
+                    @if ($threeCol == true)
+                        col-md-12 col-lg-5
+                    @else
+                        col-md-12 col-lg-6
+                    @endif
+                    ">
 
                         <div class="containElements">
 
-                          <div class="formatForm">
+                            <div class="formatForm">
 
-                            <h5 class="titleFormat blackcolor">{{ $textForm }}</h5>
+                                <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 
-                            {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
+                                {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
 
-                          </div>
+                            </div>
 
                         </div>
-                      </div>
+                    </div>
 
 
 

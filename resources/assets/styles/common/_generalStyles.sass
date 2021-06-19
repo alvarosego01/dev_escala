@@ -117,11 +117,11 @@ span.tag
     font-weight: bold
     margin-bottom: 20px
     @include responsivo(telefonoTable)
-        font-size: 35px!important
+        font-size: 35px
         br
             display: none!important
     @include responsivo(pcMedio)
-        font-size: 50px!important
+        font-size: 50px
         // br
             // display: none!important
 
@@ -142,11 +142,11 @@ span.tag
     font-weight: 700
     font-family: "Nunito Sans", sans-serif
     @include responsivo(telefonoTable)
-        font-size: 22px!important
+        font-size: 22px
         br
             display: none!important
     @include responsivo(pcMedio)
-        font-size: 35px!important
+        font-size: 35px
         // br
         //     display: none!important
 
@@ -179,11 +179,11 @@ span.tag
     font-family: "Nunito Sans", sans-serif
     // display: none
     @include responsivo(telefonoTable)
-        font-size: 19px!important
-        line-height: 20px!important
+        font-size: 19px
+        line-height: 20px
     @include responsivo(pcMedio)
-        font-size: 27px!important
-        line-height: 28px!important
+        font-size: 27px
+        line-height: 28px
 
 .secondaryText
     line-height: 23px
@@ -227,9 +227,28 @@ span.tag
     @include responsivo(general)
         padding: 20px 50px 20px 50px!important
         font-size: 18px!important
-    // @include responsivo(resto)
 
+.secondaryButton
+    font-family: "Nunito Sans",Sans-serif
+    font-weight: 600
+    padding: 10px 25px
+    border-radius: 5px
+    transition: all .2s
+    background-color: $colorBlueLight3
+    color: $colorGreenBlue2
+    font-size: 16px
+    line-height: 28px
+    border-width: 0
+    display: inline-block
+    // line-height: 1
+    text-decoration: none
+    width: fit-content
     // display: flex
+
+.hoverSecondaryButton
+    &:hover
+        background-color: $colorBlueLight4
+        color: $colorGreenBlue2
 
 .hoverInEffect
     &:hover
