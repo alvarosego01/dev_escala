@@ -1,13 +1,5 @@
 
 
-
-
-// *
-    // display: none
-
-
-
-
 .customSection.sectionParent.component-header-t1.bg-image.overlay.fullWidth
     .section-row
         // height: 750px
@@ -110,3 +102,63 @@
                     padding: 0!important
                 @include responsivo(pcMedio)
                     padding: 0 5%!important
+
+
+.customSection.sectionParent.component-header-t1.bg-color.threeCol
+    .groupElements
+        .info
+            padding-top: 2.5%
+            .containElements.threeCol.row
+                // display: none
+
+                .ele
+                    .principalBigTitle
+                        font-size: 45px
+                        line-height: 45.5px
+                        font-weight: 800
+                        font-family: "Nunito Sans", Sans-serif
+                        margin-bottom: 20px
+
+                    p.principalBigText
+                        font-size: 20px
+                        line-height: 26px
+                        font-weight: 700
+                    .containerImage
+                        img
+                            height: 400px
+                            // display: none
+                @include responsivo(telefonoTable)
+                    display: flex
+                    flex-direction: column-reverse
+                    .principalBigTitle
+                        font-size: 40px
+                        line-height: 40px
+                        br
+                            display: block!important
+                    .containerImage
+                        img
+                            height: 250px
+
+                @include responsivo(pcMedio)
+                    display: flex
+                    flex-direction: column-reverse
+                    .principalBigTitle
+                        font-size: 40px
+                        line-height: 40px
+                    .containerImage
+                        img
+                            height: 300px
+                .ele.ele2
+                    padding: 10px
+                    padding-left: 30px
+                    padding-right: 0
+                    // margin: 20px!important
+        .form7
+            padding: 0
+            padding-top: 1.5%
+            .containElements
+                .formatForm
+                    margin: 0
+                    margin-left: 5%
+
+

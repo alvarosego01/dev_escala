@@ -401,6 +401,11 @@
                                 text-align: right
                             .commonText
                                 text-align: right
+                    .commonText
+                        @include responsivo(telefonoTable)
+                            text-align: center
+                        @include responsivo(pcMedio)
+                            text-align: center
                 @include responsivo(telefonoTable)
                     padding: 20px!important
                     height: fit-content!important

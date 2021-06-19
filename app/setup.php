@@ -23,6 +23,7 @@ add_action('wp_enqueue_scripts', function () {
         "views/template-home.blade.php",
         "views/template-landing-incredible.blade.php",
         "views/template-landing-incredible-am.blade.php",
+        "views/template-func-page-builder.blade.php",
     );
 
     // views/template-home.blade.php
@@ -190,6 +191,7 @@ add_action('wp_enqueue_scripts', function () {
         "views/template-home.blade.php",
         "views/template-landing-incredible.blade.php",
         "views/template-landing-incredible-am.blade.php",
+        "views/template-func-page-builder.blade.php",
     );
 
     // views/template-home.blade.php
