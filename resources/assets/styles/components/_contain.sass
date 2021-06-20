@@ -135,7 +135,7 @@
                 border-radius: 20px
                 background-color: $colorWhite
                 @include responsivo(telefonoTable)
-                    padding: 25px!important
+                    padding: 50px 25px!important
 
                 .info
                     display: flex
@@ -144,7 +144,7 @@
                     .containElements
                         margin: auto 0
                         p.description
-                            font-size: 22px
+                            font-size: 23.5px
                             line-height: 33px
                             font-weight: 400
                             margin-bottom: 40px
@@ -163,7 +163,7 @@
                     .containerImage
                         display: flex
                         img
-                            height: 385px
+                            height: 325px
                             margin: auto
                             display: block
                 @include responsivo(telefonoTable)
@@ -214,7 +214,7 @@
             width: 100%!important
             max-width: 1200px
         .innerSectionElement.sct1
-            margin-bottom: 80px
+            margin-bottom: 50px
             @include responsivo(telefonoTable)
                 margin-bottom: 25px!important
 
@@ -281,7 +281,7 @@
                     .image
                         .containerImage
                             img
-                                height: 275px
+                                height: 225px
                     .info
                         .secondaryTitle
                             font-size: 28px!important
@@ -297,6 +297,63 @@
                         .containerImage
                             img
                                 height: 300px
+                    .info
+                        .secondaryTitle
+                            font-size: 28px
+                            text-align: center
+                        .text
+                            text-align: center
+                        a.secondaryButton
+                            margin: 0 auto
+        .innerSectionElement.sct2.center
+            .groupElements
+                .image
+                    .containerImage
+                        img
+                            height: 225px
+                .info
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    .secondaryTitle
+                        font-weight: 800
+                        font-family: "Nunito Sans",Sans-serif
+                        margin: 0
+                        font-size: 28px!important
+                        line-height: 35px
+                        margin-bottom: 25px
+                        text-align: center
+                    p.text
+                        color: $colorGrey
+                        font-weight: 500
+                        font-size: 20px!important
+                        line-height: 1.3em
+                        font-family: "Nunito Sans",Sans-serif
+                        margin-bottom: 25px
+                        text-align: center
+                        margin-bottom: 0
+                    a.secondaryButton
+                        margin: 0 auto
+                @include responsivo(telefonoTable)
+                    .image
+                        .containerImage
+                            img
+                                height: 200px
+                    .info
+                        .secondaryTitle
+                            font-size: 28px!important
+                            text-align: center
+                        .text
+                            text-align: center
+                        a.secondaryButton
+                            margin: 0 auto
+
+
+                @include responsivo(pcMedio)
+                    .image
+                        .containerImage
+                            img
+                                height: 200px
                     .info
                         .secondaryTitle
                             font-size: 28px
