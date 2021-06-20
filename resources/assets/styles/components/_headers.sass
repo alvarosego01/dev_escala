@@ -113,16 +113,24 @@
 
                 .ele
                     .principalBigTitle
-                        font-size: 45px
+                        font-size: 50px
                         line-height: 45.5px
                         font-weight: 800
                         font-family: "Nunito Sans", Sans-serif
                         margin-bottom: 20px
+                        @include responsivo(telefonoTable)
+                            font-size: 45px
+                        @include responsivo(pcMedio)
+                            font-size: 45px
 
                     p.principalBigText
-                        font-size: 20px
+                        font-size: 23px
                         line-height: 26px
                         font-weight: 700
+                        @include responsivo(telefonoTable)
+                            font-size: 20px
+                        @include responsivo(pcMedio)
+                            font-size: 20px
                     .containerImage
                         img
                             height: 400px
@@ -133,8 +141,8 @@
                     .principalBigTitle
                         font-size: 40px
                         line-height: 40px
-                        br
-                            display: block!important
+                        // br
+                            // display: block!important
                     .containerImage
                         img
                             height: 250px

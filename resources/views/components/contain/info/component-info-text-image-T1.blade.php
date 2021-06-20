@@ -59,13 +59,18 @@
                             </div>
                             <div class="info col-md-12 col-lg-6">
 
+                                @if ($title != null)
                                 <h3 class="secondaryTitle">
                                     {!! $title !!}
                                 </h3>
+                                @endif
 
+                                @if ($text != null)
                                 <p class="text">
                                     {!! $text !!}
                                 </p>
+                                @endif
+
                                 @if ($enableButton != null)
                                     <a href="{{ $urlButton }}" class="goToHash secondaryButton hoverSecondaryButton">
                                         {{ $textButton }}
@@ -82,13 +87,19 @@
 
                             <div class="info col-md-12 col-lg-6">
 
+
+                                @if ($title != null)
                                 <h3 class="secondaryTitle">
                                     {!! $title !!}
                                 </h3>
+                                @endif
 
+                                @if ($text != null)
                                 <p class="text">
                                     {!! $text !!}
                                 </p>
+                                @endif
+
                                 @if ($enableButton != null)
                                     <a href="{{ $urlButton }}" class="goToHash secondaryButton hoverSecondaryButton">
                                         {{ $textButton }}
@@ -104,6 +115,40 @@
 
                         </div>
 
+                    @endif
+                    @if ($side == 'center')
+                        <div class="groupElements row">
+
+
+                            <div class="info col-md-12 col-lg-12">
+
+
+                                @if ($title != null)
+                                <h3 class="secondaryTitle">
+                                    {!! $title !!}
+                                </h3>
+                                @endif
+
+                                @if ($text != null)
+                                <p class="text">
+                                    {!! $text !!}
+                                </p>
+                                @endif
+
+                                @if ($enableButton != null)
+                                    <a href="{{ $urlButton }}" class="goToHash secondaryButton hoverSecondaryButton">
+                                        {{ $textButton }}
+                                    </a>
+                                @endif
+                            </div>
+
+                            <div class="image col-md-12 col-lg-12">
+                                <div class="containerImage">
+                                    <img src="{{ $img }}" alt="" loading="lazy">
+                                </div>
+                            </div>
+
+                        </div>
 
                     @endif
 
@@ -164,13 +209,19 @@
                         </div>
                         <div class="info col-md-12 col-lg-6">
 
+
+                            @if ($title != null)
                             <h3 class="secondaryTitle">
                                 {!! $title !!}
                             </h3>
+                            @endif
 
+                            @if ($text != null)
                             <p class="text">
                                 {!! $text !!}
                             </p>
+                            @endif
+
                             @if ($enableButton != null)
                                 <a href="{{ $urlButton }}" class="goToHash secondaryButton hoverSecondaryButton">
                                     {{ $textButton }}
@@ -187,13 +238,18 @@
 
                         <div class="info col-md-12 col-lg-6">
 
+                            @if ($title != null)
                             <h3 class="secondaryTitle">
                                 {!! $title !!}
                             </h3>
+                            @endif
 
+                            @if ($text != null)
                             <p class="text">
                                 {!! $text !!}
                             </p>
+                            @endif
+
                             @if ($enableButton != null)
                                 <a href="{{ $urlButton }}" class="goToHash secondaryButton hoverSecondaryButton">
                                     {{ $textButton }}
@@ -208,8 +264,40 @@
                         </div>
 
                     </div>
+                @endif
+
+                @if ($side == 'center')
+                    <div class="groupElements row">
 
 
+                        <div class="info col-md-12 col-lg-12">
+
+                            @if ($title != null)
+                            <h3 class="secondaryTitle">
+                                {!! $title !!}
+                            </h3>
+                            @endif
+
+                            @if ($text != null)
+                            <p class="text">
+                                {!! $text !!}
+                            </p>
+                            @endif
+
+                            @if ($enableButton != null)
+                                <a href="{{ $urlButton }}" class="goToHash secondaryButton hoverSecondaryButton">
+                                    {{ $textButton }}
+                                </a>
+                            @endif
+                        </div>
+
+                        <div class="image col-md-12 col-lg-12">
+                            <div class="containerImage">
+                                <img src="{{ $img }}" alt="" loading="lazy">
+                            </div>
+                        </div>
+
+                    </div>
                 @endif
 
             </section>
