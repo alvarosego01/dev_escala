@@ -89,6 +89,8 @@ body
 .greenBlueColor
     color: $colorGreenBlue
 
+.grayColorTexts
+    color: $colorGrey3
 
 .grayColor
     color: $colorGrey
@@ -118,8 +120,8 @@ span.tag
     margin-bottom: 20px
     @include responsivo(telefonoTable)
         font-size: 35px!important
-        br
-            display: none!important
+        // br
+        //     display: none!important
     @include responsivo(pcMedio)
         font-size: 50px!important
         // br
@@ -143,8 +145,8 @@ span.tag
     font-family: "Nunito Sans", sans-serif
     @include responsivo(telefonoTable)
         font-size: 22px!important
-        br
-            display: none!important
+        // br
+            // display: none!important
     @include responsivo(pcMedio)
         font-size: 35px!important
         // br
@@ -227,9 +229,28 @@ span.tag
     @include responsivo(general)
         padding: 20px 50px 20px 50px!important
         font-size: 18px!important
-    // @include responsivo(resto)
 
+.secondaryButton
+    font-family: "Nunito Sans",Sans-serif
+    font-weight: 600
+    padding: 10px 25px
+    border-radius: 5px
+    transition: all .2s
+    background-color: $colorBlueLight3
+    color: $colorGreenBlue2
+    font-size: 16px
+    line-height: 28px
+    border-width: 0
+    display: inline-block
+    // line-height: 1
+    text-decoration: none
+    width: fit-content
     // display: flex
+
+.hoverSecondaryButton
+    &:hover
+        background-color: $colorBlueLight4
+        color: $colorGreenBlue2
 
 .hoverInEffect
     &:hover

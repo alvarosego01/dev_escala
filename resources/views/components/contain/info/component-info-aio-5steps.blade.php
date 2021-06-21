@@ -69,7 +69,7 @@
                         <h2 class="commonTitle blackColor">
                             {!! $title1 !!}
                         </h2>
-                        <p class="commonText grayColor">
+                        <p class="commonText grayColorTexts">
                             {!! $desc1 !!}
                         </p>
 
@@ -86,7 +86,7 @@
                         <h2 class="commonTitle blackColor">
                             {!! $title2 !!}
                         </h2>
-                        <p class="commonText grayColor">
+                        <p class="commonText grayColorTexts">
                             {!! $desc2 !!}
                         </p>
 
@@ -103,7 +103,7 @@
                         <h2 class="commonTitle blackColor">
                             {!! $title3 !!}
                         </h2>
-                        <p class="commonText grayColor">
+                        <p class="commonText grayColorTexts">
                             {!! $desc3 !!}
                         </p>
 
@@ -125,7 +125,7 @@
                         <h2 class="commonTitle blackColor">
                             {!! $title4 !!}
                         </h2>
-                        <p class="commonText grayColor">
+                        <p class="commonText grayColorTexts">
                             {!! $desc4 !!}
                         </p>
 
@@ -142,7 +142,7 @@
                         <h2 class="commonTitle blackColor">
                             {!! $title5 !!}
                         </h2>
-                        <p class="commonText grayColor">
+                        <p class="commonText grayColorTexts">
                             {!! $desc5 !!}
                         </p>
 
@@ -201,7 +201,7 @@
                         <h2 class="commonTitle blackColor">
                             {!! $title1 !!}
                         </h2>
-                        <p class="commonText grayColor">
+                        <p class="commonText grayColorTexts">
                             {!! $desc1 !!}
                         </p>
 
@@ -218,7 +218,7 @@
                         <h2 class="commonTitle blackColor">
                             {!! $title2 !!}
                         </h2>
-                        <p class="commonText grayColor">
+                        <p class="commonText grayColorTexts">
                             {!! $desc2 !!}
                         </p>
 
@@ -235,7 +235,7 @@
                         <h2 class="commonTitle blackColor">
                             {!! $title3 !!}
                         </h2>
-                        <p class="commonText grayColor">
+                        <p class="commonText grayColorTexts">
                             {!! $desc3 !!}
                         </p>
 
@@ -257,7 +257,7 @@
                         <h2 class="commonTitle blackColor">
                             {!! $title4 !!}
                         </h2>
-                        <p class="commonText grayColor">
+                        <p class="commonText grayColorTexts">
                             {!! $desc4 !!}
                         </p>
 
@@ -274,7 +274,7 @@
                         <h2 class="commonTitle blackColor">
                             {!! $title5 !!}
                         </h2>
-                        <p class="commonText grayColor">
+                        <p class="commonText grayColorTexts">
                             {!! $desc5 !!}
                         </p>
 

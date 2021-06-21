@@ -38,7 +38,8 @@ class SetComponents extends Controller
     private function setCallToActionsComponents(){
 
         return array(
-            'components.callToActions.component-callToAction-T1' => 'callToAction_T1'
+            'components.callToActions.component-callToAction-T1' => 'callToAction_T1',
+            'components.callToActions.component-callToAction-T2' => 'callToAction_T2'
         );
 
 
@@ -57,7 +58,9 @@ class SetComponents extends Controller
         return array(
             'components.contain.am.component-info-am-T1' => 'contain_am_T1',
             'components.contain.info.component-info-aio-5steps' => 'contain_aio5',
-            'components.contain.info.component-info-4steps-loading' => 'contain_4steps_loading'
+            'components.contain.info.component-info-4steps-loading' => 'contain_4steps_loading',
+            'components.contain.info.component-info-text-image-T1' => 'contain_text_image_T1',
+            'components.contain.info.component-info-multiple-cards-T1' => 'contain_multiple_cards_T1'
         );
 
 
