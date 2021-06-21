@@ -11,7 +11,34 @@
 @var $enableButton -  enable button | boolean
 @var $urlButton -  url of button | string
 @var $textButton -  define text of button | string
-@var $side - define side of image (left || right) | string --}}
+@var $side - define side of image (left || right) | string
+
+@var $typeButton - set type off button (secondaryButton || primaryButton)
+--}}
+@php
+
+  if(!isset($overlay)){
+
+    $overlay = false;
+
+
+}
+if( isset($typeButton) && $typeButton == 'primaryButton' ){
+
+    $typeButton = $typeButton.' hoverInEffect';
+
+}
+
+
+  if(!isset($typeButton)){
+
+    $typeButton = 'secondaryButton hoverSecondaryButton';
+
+
+}
+
+
+@endphp
 
 
 @if ($type == 'backgroundImage')
@@ -72,7 +99,7 @@
                                 @endif
 
                                 @if ($enableButton != null)
-                                    <a href="{{ $urlButton }}" class="goToHash secondaryButton hoverSecondaryButton">
+                                    <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
                                         {{ $textButton }}
                                     </a>
                                 @endif
@@ -101,7 +128,7 @@
                                 @endif
 
                                 @if ($enableButton != null)
-                                    <a href="{{ $urlButton }}" class="goToHash secondaryButton hoverSecondaryButton">
+                                    <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
                                         {{ $textButton }}
                                     </a>
                                 @endif
@@ -136,7 +163,7 @@
                                 @endif
 
                                 @if ($enableButton != null)
-                                    <a href="{{ $urlButton }}" class="goToHash secondaryButton hoverSecondaryButton">
+                                    <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
                                         {{ $textButton }}
                                     </a>
                                 @endif
@@ -229,7 +256,7 @@
                             @endif
 
                             @if ($enableButton != null)
-                                <a href="{{ $urlButton }}" class="goToHash secondaryButton hoverSecondaryButton">
+                                <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
                                     {{ $textButton }}
                                 </a>
                             @endif
@@ -257,7 +284,7 @@
                             @endif
 
                             @if ($enableButton != null)
-                                <a href="{{ $urlButton }}" class="goToHash secondaryButton hoverSecondaryButton">
+                                <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
                                     {{ $textButton }}
                                 </a>
                             @endif
@@ -291,7 +318,7 @@
                             @endif
 
                             @if ($enableButton != null)
-                                <a href="{{ $urlButton }}" class="goToHash secondaryButton hoverSecondaryButton">
+                                <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
                                     {{ $textButton }}
                                 </a>
                             @endif
