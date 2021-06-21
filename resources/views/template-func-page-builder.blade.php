@@ -58,19 +58,16 @@
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder2',
   // 'backgroundImageFile' => ,
-  'enableTitle' => true,
-  'titlePrincipal' => 'Haz que tus páginas sean tu <span class="greenBlueColor">motor de ventas</span>',
-  'subTitlePrincipal' => 'El Page Builder de <span class="greenBlueColor">escala</span> te permite diseñar hermosos landing pages sin necesitar largas <br> horas de un equipo de tecnología',
-  'title' => '¡Ahhhh! Bienvenido al <br> paraíso de las <span class="greenBlueColor">plantillas</span>',
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-plantilla-personalizada-e1593191622994-768x515.png',
-  'text' => 'Nuestros programadores expertos y diseñadores <br> talentosos ya hicieron la tarea por ti. <br>
-<strong>¡Lo único difícil será elegir!</strong>
-<br class="space"><br class="space">
-Escoge una de nuestras hermosas plantillas, adáptalas y <br> comienza a generar contactos.',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Ver las plantillas',
-  'side' => 'right',
+  'enableTitle' => false,
+  'title' => '<span class="greenBlueColor">Haz que tus páginas sean</span> <br> tu motor de ventas',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder03-291x300.png',
+  'text' => 'Nuestros programadores expertos y diseñadores talentosos ya <br> hicieron la tarea por ti. <strong class="greenBlueColor">¡Lo único difícil será elegir!</strong>
+  <br class="space"><br class="space">
+Escoge una de nuestras hermosas plantillas, adáptalas y comienza <br> a generar contactos.',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Ver las plantillas',
+  'side' => 'left',
  ) ;
 @endphp
 
@@ -83,17 +80,13 @@ Escoge una de nuestras hermosas plantillas, adáptalas y <br> comienza a generar
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder3',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-plantilla-768x935.png',
-  'title' => 'Dale tu <span class="greenBlueColor">toque personal</span> con facilidad',
-  'text' => '¿Has jugado Tetris? Combina tus bloques de contenido <br>para crear tu landing page ideal.
-<br class="space"><br class="space">
-Arrastra y suelta las secciones pre-diseñadas, ajusta sus <br> tamaños, agrega formularios, cambia tipografías, elige las <br> imágenes, incluye tu logo y escoge tus colores.
-<br class="space"><br class="space">
-<strong>¡Nosotros ponemos la estructura, tú pones el arte!</strong>',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => '¡Empieza el juego!',
-  'side' => 'left',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder04.png',
+  'title' => '<span class="greenBlueColor">Dale tu toque personal</span><br> con facilidad',
+  'text' => '<strong class="greenBlueColor">¿Has jugado Tetris?</strong> Combina tus bloques de contenido para crear <br> tu landing page ideal. Arrastra y suelta las secciones pre-<br>diseñadas, ajusta sus tamaños, agrega formularios, cambia <br> tipografías, elige las imágenes, incluye tu logo y escoge tus colores.<br> <strong class="greenBlueColor">¡Nosotros ponemos la estructura, tú pones el arte!</strong>',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => '¡Empieza el juego!',
+  'side' => 'right',
  ) ;
 @endphp
 
@@ -105,14 +98,14 @@ Arrastra y suelta las secciones pre-diseñadas, ajusta sus <br> tamaños, agrega
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder4',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-desde-cero-e1593191704246-768x513.png',
-  'title' => '¿Quieres <span class="greenBlueColor">comenzar de cero?</span> <br>
-¡No hay problema!',
-  'text' => 'Deja salir a tu diseñador interior usando una plantilla en <br> blanco. Construye tus propias landing pages y <br> secciones con total libertad creativa.',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder05-300x265.png',
+  'title' => '<span class="blueLightColor3">Nuestras Landing Pages</span> <br> tienen botón de WhatsApp',
+  'text' => 'Conversa con tus potenciales clientes más directamente a través <br> del botón de WhatsApp de nuestras Landing Pages En escala <br> podrás activar fácilmente este botón y te llegará un correo <br> electrónico de los visitantes que dejen su data.',
   'enableButton' => true,
+  'typeButton' => 'primaryButton',
   'urlButton' => '#lead-form',
-  'textButton' => 'Comenzar desde cero',
-  'side' => 'right',
+  'textButton' => 'Comenzar ahora',
+  'side' => 'left',
  ) ;
 @endphp
 
@@ -125,13 +118,11 @@ Arrastra y suelta las secciones pre-diseñadas, ajusta sus <br> tamaños, agrega
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder5',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-dispositivo-device-responsive-768x529.png',
-  'title' => 'Ningún dispositivo se resiste.<br> Las páginas son <span class="greenBlueColor">responsive</span>',
-  'text' => 'No importa si es una laptop, tableta o un celular, el <br> diseño de tus páginas será 100% adaptativo para que <br> se vean bien en todas partes.
-<br class="space"><br class="space">
-<strong>Antes de publicar, podrás revisar fácilmente cada <br> versión para previsualizar cómo tus visitantes verán la <br> página en cada dispositivo.</strong>',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder06-264x300.png',
+  'title' => '<span class="greenBlueColor">¿Quieres comenzar de cero?</span> <br> ¡No hay problema!',
+  'text' => 'Deja salir a tu diseñador interior usando una plantilla en blanco. <br> Construye tus propias landing pages y secciones con total libertad <br> creativa.',
   'enableButton' => false,
-  'side' => 'left',
+  'side' => 'right',
  ) ;
 @endphp
 
@@ -143,12 +134,13 @@ Arrastra y suelta las secciones pre-diseñadas, ajusta sus <br> tamaños, agrega
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder6',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-segura-768x781.png',
-  'title' => '¡Toc, Toc, Toc! <br>
-¿Es una página <span class="greenBlueColor">segura</span> para entrar?',
-  'text' => '¡Sí! Todos entren con tranquilidad. En <span class="greenBlueColor">escala</span>, cada <br> landing page que creas tiene su propio certificado de <br> seguridad para que tus visitantes tengan la confianza <br> de navegarla libremente.',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder07-300x293.png',
+  'title' => '<span class="greenBlueColor">Ningún dispositivo se resiste.</span> <br> Las páginas son responsive.',
+  'text' => 'No importa si es una laptop, tableta o un celular, el diseño de tus <br> páginas será 100% adaptativo para que se vean bien en todas <br> partes.
+  <br class="space"><br class="space">
+Antes de publicar, podrás revisar fácilmente cada versión para <br> previsualizar cómo tus visitantes verán la página en cada dispositivo.',
   'enableButton' => false,
-  'side' => 'right',
+  'side' => 'left',
  ) ;
 @endphp
 
@@ -163,17 +155,13 @@ Arrastra y suelta las secciones pre-diseñadas, ajusta sus <br> tamaños, agrega
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder7',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-paginas-dominio-publicar-1-1-768x436.png',
-  'title' => '¿No tienes <span class="greenBlueColor">dominio?</span> <br>
-¡Tranquilo! Te damos uno',
-  'text' => 'Si aún no tienes dominio propio o prefieres generar uno <br> diferente para tus distintas landing pages, <span class="greenBlueColor">¡escala</span> te <br> genera uno propio en segundos!
-<br class="space"><br class="space">
-<strong>¿Ya tienes un dominio propio?</strong> <br>
-Conéctalo a <span class="greenBlueColor">escala</span> rápidamente con un click. Si lo deseas, <br> se conectará también con tu CRM y campañas digitales.',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Conectar mi dominio',
-  'side' => 'left',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder08-297x300.png',
+  'title' => '<span class="greenBlueColor">¡Toc, Toc, Toc!</span> <br> ¿Es una página segura <br> para entrar?',
+  'text' => '¡Sí! Todos entren con tranquilidad. En escala, cada landing page <br> que creas tiene su propio certificado de seguridad para que tus <br> visitantes tengan la confianza de navegarla libremente.',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Conectar mi dominio',
+  'side' => 'right',
  ) ;
 @endphp
 
@@ -186,10 +174,30 @@ Conéctalo a <span class="greenBlueColor">escala</span> rápidamente con un clic
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder8',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-genera-trafico-pagina-instagram-google-facebook-768x557.png',
-  'title' => '<span class="greenBlueColor">El poder de NOSOTROS:</span><br>
-  <span class="greenBlueColor">escala</span>, Google y Facebook',
-  'text' => '<span class="greenBlueColor">escala</span> está integrada con Facebook Pixels y Google <br> Analytics para que tengas información detallada sobre <br> los visitantes de tu landing page. ¡Mientras más <br> integrada estén tus campañas con Facebook y Google,<br> mejores serán tus resultados!',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder09-300x227.png',
+  'title' => '<span class="greenBlueColor">¿No tienes dominio?</span> <br> ¡Tranquilo! Te damos uno',
+  'text' => 'Si aún no tienes dominio propio o prefieres generar uno diferente <br> para tus distintas landing pages, ¡escala te genera uno propio en <br> segundos!
+  <br class="space"><br class="space">
+<strong class="greenBlueColor">¿Ya tienes un dominio propio?</strong>
+Conéctalo a escala rápidamente con un click. Si lo deseas, se <br> conectará también con tu CRM y campañas digitales.',
+  'enableButton' => false,
+  'side' => 'left',
+ ) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+
+@php
+ $parameters = array(
+  'type' => 'backgroundColor',
+  'classSection' => 'funcPageBuilder9',
+  'enableTitle' => false,
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder10-282x300.png',
+  'title' => '<span class="greenBlueColor">El poder de NOSOTROS:</span> <br> escala y Facebook',
+  'text' => 'escala está integrada con Facebook Pixels y Google Analytics para que tengas información detallada sobre los visitantes de tu landing page. ¡Mientras más integrada estén tus campañas con Facebook y Google, mejores serán tus resultados!',
   'enableButton' => false,
   'side' => 'right',
  ) ;
@@ -220,27 +228,32 @@ Conéctalo a <span class="greenBlueColor">escala</span> rápidamente con un clic
 @php
  $parameters = array(
   'type' => 'backgroundColor',
-  'classSection' => 'funcPageBuilder9',
+  'classSection' => 'funcPageBuilder10',
   'enableTitle' => true,
-  'titlePrincipal' => 'Dile hola a los <span class="greenBlueColor">formularios inteligentes.</span> <br>
-¡Adiós a los plug-ins!',
-  'subTitlePrincipal' => 'Olvídate de las integraciones complicadas y las interminables hojas de excel para guardar <br> las información de tus contactos.',
+  'titlePrincipal' => '<span class="greenBlueColor">Dile hola a los formularios inteligentes.</span> <br> ¡Adiós a los plug-ins!',
+  'subTitlePrincipal' => 'Olvídate de las integraciones complicadas y las interminables hojas de excel para <br> guardar las información de tus contactos.',
   'elements' => array(
     [
-      'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-formulario-300x280.png',
-      'title' => 'Del formulario en tu página <br> directo al CRM',
-      'text' => 'Cuando tus visitantes se registren en tu landing <br> page, toda esa información quedará guardada <br> automáticamente en tu CRM de <span class="greenBlueColor">escala</span>. No más <br> hojas de excel o integraciones complicadas <br> ¡Recibe y maneja tu base de datos desde un <br> mismo lugar!',
-      'enableButton' => true,
-      'urlButton' => '#lead-form',
-      'textButton' => '¡Asombroso! Adiós integraciones',
+      'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder11.png',
+      'title' => '<span class="greenBlueColor">Del formulario en tu página</span> <br> directo al CRM',
+      'text' => 'escala está integrada con Facebook Pixels y Google Analytics <br> para que tengas información detallada sobre los visitantes de <br> tu landing page. ¡Mientras más integrada estén tus campañas <br> con Facebook y Google, mejores serán tus resultados!
+      <div></div>
+      <span class="greenBlueColor" style="text-align: center; font-size: 22px; font-weight: 600!important">!Asombroso!</span>
+      ',
+      'enableButton' => false,
+      // 'urlButton' => '#lead-form',
+      // 'textButton' => '¡Asombroso! Adiós integraciones',
     ],
     [
-      'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-formulario-internacional.png',
-      'title' => 'Ahora sabrás si tu contacto está <br> en Colombia, EEUU o España',
-      'text' => 'Si vendes en diferentes países, puedes incluir un formulario inteligente en <br> las páginas que construyes con <span class="greenBlueColor">escala</span>. El mismo tomará automáticamente <br> el prefijo internacional de tus visitantes para que ¡evites recibir números <br> equivocados!',
-      'enableButton' => true,
-      'urlButton' => '#lead-form',
-      'textButton' => '¡Finalmente! Basta de adivinar',
+      'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder12.png',
+      'title' => '<span class="greenBlueColor">Ahora sabrás si tu contacto está</span> <br> en Colombia, EEUU o España',
+      'text' => 'Si vendes en diferentes países, puedes incluir un formulario inteligente en <br> las páginas que construyes con <span class="greenBlueColor">escala</span>. El mismo tomará automáticamente <br> el prefijo internacional de tus visitantes para que ¡evites recibir números <br> equivocados!
+      <div></div>
+      <span class="greenBlueColor" style="text-align: center; font-size: 22px; font-weight: 600!important">!Finalmente!</span>
+      ',
+      'enableButton' => false,
+      // 'urlButton' => '#lead-form',
+      // 'textButton' => '¡Finalmente! Basta de adivinar',
 
     ]
   )
