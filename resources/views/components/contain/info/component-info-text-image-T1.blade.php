@@ -35,7 +35,7 @@
 
                             @if ($subTitlePrincipal != null)
 
-                                <p class="primaryText grayColor">
+                                <p class="primaryText grayColorTexts">
                                     {!! $subTitlePrincipal !!}
                                 </p>
 
@@ -159,6 +159,12 @@
             </div>
 
 
+
+            @if ($overlay == true)
+                <div style="background-image: url('{{ $overlayImage }}')" class="backgroundPlanets">
+                </div>
+            @endif
+
         </div>
 
     </section>
@@ -185,7 +191,7 @@
 
                         @if ($subTitlePrincipal != null)
 
-                            <p class="primaryText grayColor">
+                            <p class="primaryText grayColorTexts">
                                 {!! $subTitlePrincipal !!}
                             </p>
 
@@ -303,6 +309,11 @@
             </section>
 
 
+
+            @if ($overlay == true)
+                <div style="background-image: url('{{ $overlayImage }}')" class="backgroundPlanets">
+                </div>
+            @endif
 
         </div>
 

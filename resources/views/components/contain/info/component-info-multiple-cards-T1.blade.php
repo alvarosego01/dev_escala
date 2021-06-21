@@ -43,7 +43,7 @@
 
                             @if ($subTitlePrincipal != null)
 
-                                <p class="primaryText grayColor">
+                                <p class="primaryText grayColorTexts">
                                     {!! $subTitlePrincipal !!}
                                 </p>
 
@@ -118,7 +118,7 @@
 
                         @if ($subTitlePrincipal != null)
 
-                            <p class="primaryText grayColor">
+                            <p class="primaryText grayColorTexts">
                                 {!! $subTitlePrincipal !!}
                             </p>
 
