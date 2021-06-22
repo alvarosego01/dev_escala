@@ -17,6 +17,7 @@
 --}}
 @php
 
+
   if(!isset($overlay)){
 
     $overlay = false;
@@ -81,7 +82,11 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
 
                             <div class="image col-md-12 col-lg-6">
                                 <div class="containerImage">
+                                    @if (isset($img) && $img != null)
+
                                     <img src="{{ $img }}" alt="" loading="lazy">
+                                    @endif
+
                                 </div>
                             </div>
                             <div class="info col-md-12 col-lg-6">
@@ -136,7 +141,11 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
 
                             <div class="image col-md-12 col-lg-6">
                                 <div class="containerImage">
+                                    @if (isset($img) && $img != null)
+
                                     <img src="{{ $img }}" alt="" loading="lazy">
+                                    @endif
+
                                 </div>
                             </div>
 
@@ -171,7 +180,11 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
 
                             <div class="image col-md-12 col-lg-12">
                                 <div class="containerImage">
+                                    @if (isset($img) && $img != null)
+
                                     <img src="{{ $img }}" alt="" loading="lazy">
+                                    @endif
+
                                 </div>
                             </div>
 
@@ -186,13 +199,13 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
             </div>
 
 
+        </div>
 
             @if ($overlay == true)
                 <div style="background-image: url('{{ $overlayImage }}')" class="backgroundPlanets">
                 </div>
             @endif
 
-        </div>
 
     </section>
 
@@ -237,7 +250,11 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
 
                         <div class="image col-md-12 col-lg-6">
                             <div class="containerImage">
+                                @if (isset($img) && $img != null)
+
                                 <img src="{{ $img }}" alt="" loading="lazy">
+                                @endif
+
                             </div>
                         </div>
                         <div class="info col-md-12 col-lg-6">
@@ -292,7 +309,11 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
 
                         <div class="image col-md-12 col-lg-6">
                             <div class="containerImage">
+                                @if (isset($img) && $img != null)
+
                                 <img src="{{ $img }}" alt="" loading="lazy">
+                                @endif
+
                             </div>
                         </div>
 
@@ -326,7 +347,11 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
 
                         <div class="image col-md-12 col-lg-12">
                             <div class="containerImage">
+                                @if (isset($img) && $img != null)
+
                                 <img src="{{ $img }}" alt="" loading="lazy">
+                                @endif
+
                             </div>
                         </div>
 
@@ -337,13 +362,13 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
 
 
 
-            @if ($overlay == true)
-                <div style="background-image: url('{{ $overlayImage }}')" class="backgroundPlanets">
-                </div>
-            @endif
-
         </div>
 
+
+                    @if ($overlay == true)
+                        <div style="background-image: url('{{ $overlayImage }}')" class="backgroundPlanets">
+                        </div>
+                    @endif
 
 
     </section>
