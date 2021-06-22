@@ -8,7 +8,7 @@
         background-size: cover
         position: relative
         background-repeat: no-repeat
-        padding-top: 215px
+        padding-top: 225px
         @include responsivo(telefonoTable)
             padding-top: 150px!important
             padding-bottom: 50px!important
@@ -104,37 +104,45 @@
                     padding: 0 5%!important
 
 
-.customSection.sectionParent.component-header-t1.bg-color.threeCol
+.customSection.sectionParent.component-header-t1.threeCol
     .groupElements
+
         .info
             padding-top: 2.5%
+            @include responsivo(telefonoTable)
+                margin-bottom: 25px
+            @include responsivo(pcMedio)
+                margin-bottom: 25px
             .containElements.threeCol.row
-                // display: none
+
 
                 .ele
                     .principalBigTitle
-                        font-size: 50px
-                        line-height: 45.5px
-                        font-weight: 800
+                        font-size: 40px
+                        line-height: 40px
+                        font-weight: 700
                         font-family: "Nunito Sans", Sans-serif
                         margin-bottom: 20px
                         @include responsivo(telefonoTable)
-                            font-size: 45px
+                            font-size: 40px
                         @include responsivo(pcMedio)
-                            font-size: 45px
+                            font-size: 40px
 
                     p.principalBigText
-                        font-size: 23px
+                        font-size: 20px
                         line-height: 26px
-                        font-weight: 700
+                        font-weight: 400!important
+                        font-family: "Nunito Sans", sans-serif
                         @include responsivo(telefonoTable)
                             font-size: 20px
+                            margin-bottom: 25px
                         @include responsivo(pcMedio)
                             font-size: 20px
+                            margin-bottom: 25px
                     .containerImage
                         img
-                            height: 400px
-                            // display: none
+                            height: 325px
+
                 @include responsivo(telefonoTable)
                     display: flex
                     flex-direction: column-reverse
@@ -199,8 +207,8 @@
                         font-size: 20px
                     @include responsivo(pcMedio)
                         font-size: 20px
-                .containerImage
-                    // display: none
-                    img
-                        height: 300px!important
-                        // display: none
+                // .containerImage
+                //     // display: none
+                //     img
+                //         height: 300px!important
+                //         // display: none
