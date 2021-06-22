@@ -22,6 +22,15 @@
 --}}
 
 
+@php
+      if(!isset($overlay)){
+
+    $overlay = false;
+
+
+    }
+@endphp
+
 @if ($type == 'backgroundImage')
 
     <section class="component-info-multiple-cards-T1 customSection sectionParent fullWidth {{ $classSection }} ">
@@ -43,7 +52,7 @@
 
                             @if ($subTitlePrincipal != null)
 
-                                <p class="primaryText grayColor">
+                                <p class="primaryText grayColorTexts">
                                     {!! $subTitlePrincipal !!}
                                 </p>
 
@@ -94,6 +103,8 @@
 
         </div>
 
+
+
     </section>
 
 @endif
@@ -118,7 +129,7 @@
 
                         @if ($subTitlePrincipal != null)
 
-                            <p class="primaryText grayColor">
+                            <p class="primaryText grayColorTexts">
                                 {!! $subTitlePrincipal !!}
                             </p>
 
@@ -167,6 +178,12 @@
 
 
         </div>
+
+        @if ($overlay == true)
+        <div style="background-image: url('{{ $overlayImage }}')" class="backgroundPlanets">
+        </div>
+         @endif
+
 
 
 

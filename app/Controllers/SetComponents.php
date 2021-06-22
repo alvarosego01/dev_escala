@@ -39,7 +39,8 @@ class SetComponents extends Controller
 
         return array(
             'components.callToActions.component-callToAction-T1' => 'callToAction_T1',
-            'components.callToActions.component-callToAction-T2' => 'callToAction_T2'
+            'components.callToActions.component-callToAction-T2' => 'callToAction_T2',
+            'components.callToActions.component-callToAction-T3' => 'callToAction_T3'
         );
 
 

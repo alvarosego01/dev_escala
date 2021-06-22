@@ -10,10 +10,10 @@
         background-repeat: no-repeat
         padding-top: 215px
         @include responsivo(telefonoTable)
-            padding-top: 100px!important
+            padding-top: 150px!important
             padding-bottom: 50px!important
         @include responsivo(pcMedio)
-            padding-top: 175px!important
+            padding-top: 200px!important
             padding-bottom: 50px!important
         .backgroundPlanets
             background-position: 50px 200px
@@ -170,3 +170,37 @@
                     margin-left: 5%
 
 
+.customSection.sectionParent.component-header-t1.func
+    .backgroundFull
+        background-position: 0 -380px
+        background-repeat: no-repeat
+        background-size: cover
+    .groupElements
+        .info
+            // padding-top: 2.5
+            .containElements
+                // display: none
+                .principalBigTitle
+                    // display: none
+                    font-size: 40px
+                    line-height: 40px
+                    font-weight: 700
+                    font-family: "Nunito",Sans-serif
+                    margin-bottom: 20px
+                    @include responsivo(telefonoTable)
+                        font-size: 45px
+                    @include responsivo(pcMedio)
+                        font-size: 45px
+                p.principalBigText
+                    font-size: 18px
+                    line-height: 26px
+                    font-weight: 400
+                    @include responsivo(telefonoTable)
+                        font-size: 20px
+                    @include responsivo(pcMedio)
+                        font-size: 20px
+                .containerImage
+                    // display: none
+                    img
+                        height: 300px!important
+                        // display: none

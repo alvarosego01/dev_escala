@@ -73,7 +73,7 @@ if (!$threeCol) {
                                         </h1>
 
                                         @if ($text != null)
-                                            <p class="principalBigText grayColor">
+                                            <p class="principalBigText grayColorTexts">
                                                 {!! $text !!}
                                             </p>
                                         @endif
@@ -90,7 +90,7 @@ if (!$threeCol) {
                                     </h1>
 
                                     @if ($text != null)
-                                        <p class="principalBigText grayColor">
+                                        <p class="principalBigText grayColorTexts">
                                             {!! $text !!}
                                         </p>
                                     @endif
@@ -157,7 +157,7 @@ if (!$threeCol) {
 
                     <div class="info
                         @if ($threeCol == true)
-                            col-md-12 col-lg-7
+                            col-md-12 col-lg-8
                         @else
                             col-md-12 col-lg-6
                         @endif
@@ -180,7 +180,7 @@ if (!$threeCol) {
                                     </h1>
 
                                     @if ($text != null)
-                                        <p class="principalBigText grayColor">
+                                        <p class="principalBigText grayColorTexts">
                                             {!! $text !!}
                                         </p>
                                     @endif
@@ -197,7 +197,7 @@ if (!$threeCol) {
                                 </h1>
 
                                 @if ($text != null)
-                                    <p class="principalBigText grayColor">
+                                    <p class="principalBigText grayColorTexts">
                                         {!! $text !!}
                                     </p>
                                 @endif
@@ -215,7 +215,7 @@ if (!$threeCol) {
 
                     <div class="form7
                     @if ($threeCol == true)
-                        col-md-12 col-lg-5
+                        col-md-12 col-lg-4
                     @else
                         col-md-12 col-lg-6
                     @endif

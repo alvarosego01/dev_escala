@@ -7,6 +7,8 @@ body
     width: 100%
     overflow-x: hidden
 
+.section-row
+    z-index: 1
 
 .customSection.sectionParent.fullWidth
     width: 100%!important
@@ -89,6 +91,11 @@ body
 .greenBlueColor
     color: $colorGreenBlue
 
+.grayColorTexts
+    color: $colorGrey3
+
+.blueLightColor3
+    color: $colorBlueLight3
 
 .grayColor
     color: $colorGrey
@@ -210,11 +217,12 @@ span.tag
     text-decoration: none
     font-size: 18px
     line-height: 1
-    padding: 20px 50px
+    // font-weight: 700
+    padding: 15px 25px
     color: $colorWhite
     background-color: $colorOrange
     border-radius: 5px
-    width: auto
+    width: fit-content
     transition: $transitionButton
     transform: scale(1)
     @include responsivo(telefonoTable)
@@ -231,7 +239,7 @@ span.tag
 .secondaryButton
     font-family: "Nunito Sans",Sans-serif
     font-weight: 600
-    padding: 10px 25px
+    padding: 15px 25px
     border-radius: 5px
     transition: all .2s
     background-color: $colorBlueLight3
@@ -254,6 +262,7 @@ span.tag
     &:hover
         transform: scale(1.1)
         color: white
+        background-color: $orangeLight
 
 
 .wpcf7-form-control.wpcf7-submit
