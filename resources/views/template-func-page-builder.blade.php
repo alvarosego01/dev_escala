@@ -178,9 +178,12 @@ Antes de publicar, podrás revisar fácilmente cada versión para <br> previsual
   'title' => '<span class="greenBlueColor">¿No tienes dominio?</span> <br> ¡Tranquilo! Te damos uno',
   'text' => 'Si aún no tienes dominio propio o prefieres generar uno diferente <br> para tus distintas landing pages, ¡escala te genera uno propio en <br> segundos!
   <br class="space"><br class="space">
-<strong class="greenBlueColor">¿Ya tienes un dominio propio?</strong>
+<strong class="greenBlueColor">¿Ya tienes un dominio propio?</strong> <br>
 Conéctalo a escala rápidamente con un click. Si lo deseas, se <br> conectará también con tu CRM y campañas digitales.',
-  'enableButton' => false,
+  'enableButton' => true,
+  'typeButton' => 'primaryButton',
+    'urlButton' => '#lead-form',
+  'textButton' => 'Pruébalo ahora',
   'side' => 'left',
  ) ;
 @endphp
@@ -232,6 +235,8 @@ Conéctalo a escala rápidamente con un click. Si lo deseas, se <br> conectará 
   'enableTitle' => true,
   'titlePrincipal' => '<span class="greenBlueColor">Dile hola a los formularios inteligentes.</span> <br> ¡Adiós a los plug-ins!',
   'subTitlePrincipal' => 'Olvídate de las integraciones complicadas y las interminables hojas de excel para <br> guardar las información de tus contactos.',
+  'overlay' => true,
+  'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
   'elements' => array(
     [
       'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder11.png',
@@ -270,46 +275,23 @@ Conéctalo a escala rápidamente con un click. Si lo deseas, se <br> conectará 
 @php
  $parameters = array(
   'type' => 'backgroundColor',
-  'classSection' => 'funcPageBuilder10',
-  'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-veloz-landing-page-768x824.png',
-  'title' => '¡Las páginas más <br>
-  <span class="greenBlueColor">veloces</span> del mercado!',
-  'text' => 'Si tu landing page demora más de unos segundos <br> en cargar puede frustrar a miles de tus visitantes.
-  <br class="space"><br class="space">
-<strong>Visitantes frustrados = menos ventas.</strong>
-<br class="space"><br class="space">
-<span class="greenBlueColor">escala</span> utiliza tecnología avanzada para asegurar <br> que tus paginas carguen a la velocidad de la luz.
-<br class="space"><br class="space">
-<strong>¡El tiempo es dinero!</strong>',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => '¡Ve rápido y furioso!',
-  'side' => 'left',
- ) ;
-@endphp
-
-@contain_text_image_T1( $parameters )
-
-@endcontain_text_image_T1
-
-
-
-@php
- $parameters = array(
-  'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder11',
-  // 'backgroundImageFile' => ,
-  'enableTitle' => true,
-  'titlePrincipal' => '¡Aquí están los número! <br>
-  <span class="greenBlueColor">Analiza</span> y optimiza tus páginas',
-  'subTitlePrincipal' => null,
-  'title' => '<span class="greenBlueColor">Monitorea</span> el comportamiento, <br> aprende, mejora',
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-analiza-comportamiento-visitante-landing-e1593191973304-768x436.png',
-  'text' => '¿Cuántos visitantes llegan a tu landing page y cuántos de <br> ellos se convierten en tus clientes? Los reportes de <span class="greenBlueColor">escala</span><br>  responden esta pregunta y más: cuánto tiempo estuvieron <br> navegando en tu página, en dónde hacen click y en qué <br> parte se salieron…
+  'enableTitle' => false,
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder13-300x242.png',
+  'title' => '<span class="greenBlueColor">¡Las páginas más </span> <br>
+  veloces del mercado!',
+  'text' => 'Si tu landing page demora más de unos segundos en cargar puede <br> frustrar a miles de tus visitantes.
+  <br class="space"><br class="space">
+Visitantes frustrados = menos ventas.
 <br class="space"><br class="space">
-<strong>¡Rastrear el comportamiento de tus visitantes te permite <br> cambiar de estrategia y lograr mejores resultados!</strong>',
-  'enableButton' => false,
+escala utiliza tecnología avanzada para asegurar <br> que tus paginas carguen a la velocidad de la luz.
+<br class="space"><br class="space">
+<span class="greenBlueColor" style="text-align: left; font-size: 22px; font-weight: 600!important">!El tiempo es dinero!</span>
+',
+'enableButton' => true,
+  'typeButton' => 'primaryButton',
+    'urlButton' => '#lead-form',
+  'textButton' => 'Comenzar ahora',
   'side' => 'right',
  ) ;
 @endphp
@@ -317,18 +299,21 @@ Conéctalo a escala rápidamente con un click. Si lo deseas, se <br> conectará 
 @contain_text_image_T1( $parameters )
 
 @endcontain_text_image_T1
+
 
 @php
  $parameters = array(
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder12',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-dominio-publicar-2-e1594828532887.png',
-  'title' => '¡Síííí! Mi landing page está <br> <span class="greenBlueColor">funcionando...</span> ¿Verdad?',
-  'text' => '¿Cuál es el desempeño de tu landing page en función de tus objetivos de marketing? ¿Estás obteniendo un buen retorno de tu inversión?
-<br class="space"><br class="space">
-Descúbrelo en tiempo real utilizando nuestras herramientas de analíticas intuitivas.',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder14-265x300.png',
+  'title' => '<span class="greenBlueColor">¡Aquí están los números!</span> <br> Analiza y optimiza tus páginas Monitorea el comportamiento.',
+  'text' => '¿Cuántos visitantes llegan a tu landing page y cuántos de ellos se <br> convierten en tus clientes? Los reportes de escala responden esta <br> pregunta y más: cuánto tiempo estuvieron navegando en tu página, <br> en dónde hacen click y en qué parte se salieron…
+  <br class="space"><br class="space">
+¡Rastrear el comportamiento de tus visitantes te permite cambiar <br> de estrategia y lograr mejores resultados!',
   'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => '¡Ve rápido y furioso!',
   'side' => 'left',
  ) ;
 @endphp
@@ -337,18 +322,23 @@ Descúbrelo en tiempo real utilizando nuestras herramientas de analíticas intui
 
 @endcontain_text_image_T1
 
+
 @php
  $parameters = array(
-  'type' => 'backgroundColor',
+  'type' => 'backgroundImage',
   'classSection' => 'funcPageBuilder13',
+  'backgroundImageFile' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder15.png',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-dominio-publicar-3-e1593192119806-768x511.png',
-  'title' => '¿Qué dispositivo tiene <br> mayor <span class="greenBlueColor">conversión?</span>',
-  'text' => '¿Tus visitantes usan sus tablets, laptops o celulares para <br> navegar en tu landing page? Con <span class="greenBlueColor">escala</span> puedes ver analíticas <br> detalladas que te dirán cuál dispositivo tiene mayor <br> probabilidad de acercarte a la venta.
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder14-265x300.png',
+  'title' => '<span class="whiteColor">Síííí! Mi landing page</span> <br> está funcionando... <br> ¿Verdad?',
+  'text' => '¿Cuál es el desempeño de tu landing page en función de tus <br> objetivos de marketing? ¿Estás obteniendo un buen retorno <br> de tu inversión?
   <br class="space"><br class="space">
-  <strong>¡Cuanto más sepas, mejor lo harás!</strong>',
+Descúbrelo en tiempo real utilizando nuestras herramientas <br> de analíticas intuitivas.',
   'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => '¡Ve rápido y furioso!',
   'side' => 'right',
+
  ) ;
 @endphp
 
@@ -356,19 +346,51 @@ Descúbrelo en tiempo real utilizando nuestras herramientas de analíticas intui
 
 @endcontain_text_image_T1
 
+
+
 @php
  $parameters = array(
+  'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder14',
-  'title' => 'Empieza a construir páginas optimizadas para ventas',
-  'goToUrl' => '#lead-form',
-  'textButton' => '¡Pruébalo ahora!',
+  'enableTitle' => false,
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder16.png',
+  'title' => '<span class="greenBlueColor">¿Qué dispositivo tiene</span> <br> mayor conversión?',
+  'text' => '¿Tus visitantes usan sus tablets, laptops o celulares para navegar <br> en tu landing page? Con escala puedes ver analíticas detalladas <br> que te dirán cuál dispositivo tiene mayor probabilidad de acercarte <br> a la venta.',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => '¡Ve rápido y furioso!',
+  'side' => 'left',
+ ) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+
+@php
+ $parameters = array(
+  'type' => 'backgroundColor',
+  'classSection' => 'funcPageBuilder15',
+  'backgroundImageFile' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder15.png',
+  'enableTitle' => false,
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder17-300x298.png',
+  'title' => '<span class="blueLightColor3">Empieza a construir</span> páginas <br> optimizadas para ventas',
+  'text' => null,
+  'enableButton' => true,
+  'typeButton' => 'primaryButton',
+    'urlButton' => '#lead-form',
+  'textButton' => 'Probar ahora',
+  'side' => 'right',
+  'overlay' => true,
+  'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets2.svg',
 
  ) ;
 @endphp
 
-@callToAction_T2( $parameters )
+@contain_text_image_T1( $parameters )
 
-@endcallToAction_T2
+@endcontain_text_image_T1
 
 
 
