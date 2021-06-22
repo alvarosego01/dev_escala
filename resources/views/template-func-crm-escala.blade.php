@@ -16,19 +16,21 @@
 
 
 
-@php
-$parameters = array(
- 'backgroundImageType' => true,
- 'overlay' => true,
- 'classSection' => 'threeCol funcCrm0 func',
- 'title' => '<span class="greenBlueColor">Atrae visitantes</span> <br> como un imán',
- 'text' => 'Crea, publica y administra tus <br> campañas de anuncios <br> digitales, desde una sola <br> plataforma.',
- 'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads01.png',
- 'textForm' => '<span class="greenBlueColor">Impulsa</span> tus ventas ahora',
- 'threeCol' => true,
- 'backgroundImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-bg.png',
-  'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalaads-planets.svg',
-) ;
+
+    @php
+ $parameters = array(
+  'backgroundImageType' => false,
+  'overlay' => false,
+  'classSection' => 'func funcCrm0',
+  'title' => '<span class="greenBlueColor">Convierte más</span> <br>
+contactos en clientes',
+  'text' => 'El arma secreta de tu fuerza de ventas: el <br> CRM de escala. Un sistema para administrar <br> la relación con tus clientes.',
+  'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalacrm01.png',
+  'textForm' => '¡Comienza ahora!',
+
+  'overlayImage' => null,
+  'threeCol' => false,
+ ) ;
 @endphp
 
 @header_t1( $parameters )
@@ -39,18 +41,246 @@ $parameters = array(
 
 
 @php
- $parameters = array(
-  'classSection' => 'funcCrm1 func',
-  'description' => '“La manera más rápida de escalar tu negocio es dominando el <br> mercadeo digital. Cualquiera puede publicar un anuncio digital, la <br> clave está en saber generar tráfico calificado a tu landing page al <br> menor costo posible. <strong>En escala te brindamos todas las <br> herramientas para hacerlo posible</strong>”.',
-  'byAm' => '<span class="greenBlueColor">Andrés Moreno</span>',
-  'team' => 'Fundador de <span class="greenBlueColor">escala</span> y Open English',
-  'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads02-246x300.png'
- ) ;
+$parameters = array(
+ 'classSection' => 'funcCrm1 func',
+ 'description' => '“Luego de generar una base de datos de clientes potenciales, tu <br> <strong>CRM es la herramienta más importante para convertirlos en <br> clientes</strong> fieles y construir relaciones a largo plazo”.',
+ 'byAm' => '<span class="greenBlueColor">Andrés Moreno</span>',
+ 'team' => 'Fundador de <span class="greenBlueColor">escala</span> y Open English',
+ 'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalacrm02.png'
+) ;
 @endphp
 
 @contain_am_T1( $parameters )
 
 @endcontain_am_T1
+
+
+@php
+$parameters = array(
+'type' => 'backgroundColor',
+'classSection' => 'funcCrm2',
+'enableTitle' => true,
+'titlePrincipal' => '<span class="greenBlueColor">Maneja una base de datos inteligente,</span> <br> CIERRA MÁS VENTAS',
+'subTitlePrincipal' => 'Cuando tus visitantes registren sus datos en tu landing page, toda esa información quedará <strong>automáticamente <br> almacenada en tu CRM de escala.</strong>',
+'title' => '<span class="greenBlueColor">Prioriza</span> tu día de ventas',
+'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalacrm03-300x226.png',
+'text' => '¡El CRM de escala te da las herramientas para organizar tus <br>oportunidades de venta! Identifica fácilmente cuáles son tus <br> clientes potenciales más valiosos y cuáles requieren tu atención <br> inmediata.
+<br class="space"><br class="space">
+¡Tu día, mes y año podrían ser 1000% más productivos!',
+'enableButton' => true,
+'urlButton' => '#lead-form',
+'textButton' => 'Comenzar ahora',
+'typeButton' => 'primaryButton',
+'side' => 'left',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+@php
+$parameters = array(
+'type' => 'backgroundColor',
+'classSection' => 'funcCrm3',
+'enableTitle' => false,
+'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalacrm04-201x300.png',
+'title' => '<span class="greenBlueColor">No olvides ninguna tarea,</span> <br> CONSIGUE MÁS NEGOCIOS',
+'text' => '¡Atención! Las notificaciones oportunas de escala te recuerdan <br> cuándo, por qué y a quién contactar. Prográmalas y enfócate solo en <br> lo importante: Nutrir la relación y ¡cerrar la venta!',
+'enableButton' => false,
+// 'urlButton' => '#lead-form',
+// 'textButton' => 'Comenzar ahora',
+// 'typeButton' => 'primaryButton',
+'side' => 'right',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+@php
+$parameters = array(
+'type' => 'backgroundColor',
+'classSection' => 'funcCrm4',
+'enableTitle' => false,
+'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalacrm05-300x202.png',
+'title' => 'EL CONOCIMIENTO ES PODER. <br> <span class="greenBlueColor">Ten memoria de elefante</span>',
+'text' => 'Una vez que has creado potentes campañas de anuncios digitales en <br> escala, simplemente selecciona el landing page al que deseas dirigir el <br> tráfico ¡y voilà!
+<br class="space"><br class="space">
+Estás listo para desbordar tus landing pages con visitantes.',
+'enableButton' => false,
+// 'urlButton' => '#lead-form',
+// 'textButton' => 'Conectarlas ahora',
+'side' => 'left',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+
+@php
+$parameters = array(
+'type' => 'backgroundColor',
+'classSection' => 'funcCrm5',
+'enableTitle' => false,
+'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalacrm06-300x266.png',
+'title' => '<span class="greenBlueColor">Clasifica tus contactos</span> <br> CON ETIQUETAS AVANZADAS',
+'text' => 'La clave para aprovechar al máximo tu CRM es organizar la <br> información. Segmenta tus bases de datos por campaña, <br> productos/servicios de interés, clientes de alto potencial y clientes <br> desafiantes. No solo llegarás a tu público más fácilmente, sino que <br> podrás enviar mensajes relevantes a contactos específicos.',
+'enableButton' => true,
+'urlButton' => '#lead-form',
+'textButton' => 'Comenzar ahora',
+'typeButton' => 'primaryButton',
+'side' => 'right',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+
+@php
+$parameters = array(
+'type' => 'backgroundColor',
+'classSection' => 'funcCrm6',
+'enableTitle' => false,
+'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads07-281x300.png',
+'title' => 'MANTÉN VIVA LA LLAMA, <br> <span class="greenBlueColor">incluso después de muchos años</span>',
+'text' => 'Muchas compañías piensan que convertir un contacto en un cliente es el <br> final del ciclo de ventas. En escala, sabemos que es solo el comienzo.
+<br class="space"><br class="space">
+Con nuestro CRM, puedes responder las siguientes preguntas para <br> construir relaciones a largo plazo con tus clientes: ¿Cuál ha sido su <br> experiencia con tu producto o servicio? ¿Qué puedes hacer para <br> mejorarlo? ¿Qué audiencias se conectan mejor con tu marca? ¿Cómo <br> puedes generar más referidos?',
+'enableButton' => false,
+// 'urlButton' => '#lead-form',
+// 'textButton' => 'Optimizar resultados',
+// 'typeButton' => 'primaryButton',
+'side' => 'left',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+
+@php
+$parameters = array(
+'type' => 'backgroundColor',
+'classSection' => 'funcCrm7',
+'enableTitle' => false,
+'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalacrm08-300x296.png',
+'title' => '<span class="greenBlueColor">Espejito, espejito...</span> <br> CUÉNTAMELO ¡TODO!',
+'text' => 'Aumenta tus ventas en función de métricas relevantes. En un solo <br> vistazo, conoce la salud de tu negocio… En un solo dashboard, <br> revisa todos los números que determinarán el futuro de tu negocio:
+<br class="space"><br class="space">
+¿Cuántas ventas están abiertas actualmente? ¿Cuántos visitantes <br> se convierten en contactos? ¿Cuántos contactos se convierten en clientes? ¿Cuáles son los niveles de conversión de tus ventas? ¿Cuántas ganancias esperas obtener a fin del mes?
+<br class="space"><br class="space">
+En minutos puedes analizar para optimizar tu ventas.',
+'enableButton' => false,
+// 'urlButton' => '#lead-form',
+// 'textButton' => 'Optimizar resultados',
+// 'typeButton' => 'primaryButton',
+'side' => 'right',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+
+@php
+$parameters = array(
+'type' => 'backgroundColor',
+'classSection' => 'funcCrm8',
+'enableTitle' => false,
+'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalacrm09-300x290.png',
+'title' => 'COMPARA LOS NÚMEROS, <br> <span class="greenBlueColor">¡felicita a tu vendedor estrella!</span>',
+'text' => '¿Quién es tu mejor vendedor? Supervisa el rendimiento de cada miembro <br> de tu equipo y cómo sus actividades se reflejan en tus resultados finales.
+<br class="space"><br class="space">
+escala será el mejor amigo de tu gerente de ventas',
+'enableButton' => true,
+'urlButton' => '#lead-form',
+'textButton' => 'Comenzar ahora',
+'typeButton' => 'primaryButton',
+'side' => 'left',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+@php
+$parameters = array(
+'type' => 'backgroundColor',
+'classSection' => 'funcCrm9',
+'enableTitle' => false,
+'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalacrm10-300x289.png',
+'title' => '<span class="greenBlueColor">No eres un adivino, pero</span> <br> puedes predecir y mejorar <br> ¡el futuro!',
+'text' => 'Conoce exactamente de cuál embudo de venta proceden tus <br> contactos y qué mensajes han sido más efectivos.Responde <br> preguntas como:
+<br class="space"><br class="space">
+¿Qué han comprado? ¿Cuánto han gastado? ¿Cuáles son sus <br> preferencias? ¿Qué emails han recibido? Y lo más importante, <br> ¿los segmentaste correctamente?
+<br class="space"><br class="space">
+¡Toma mejores decisiones considerando esta información!',
+'enableButton' => false,
+// 'urlButton' => '#lead-form',
+// 'textButton' => 'Comenzar ahora',
+// 'typeButton' => 'primaryButton',
+'side' => 'right',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+@php
+$parameters = array(
+'type' => 'backgroundColor',
+'classSection' => 'funcCrm10',
+'enableTitle' => false,
+'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalacrm11-300x278.png',
+'title' => 'TOMA LAS ACCIONES CORRECTAS <br> <span class="greenBlueColor">¡en el momento correcto¡</span>',
+'text' => 'Obtén datos claves e identifica patrones de comportamiento para mejorar <br> la comunicación con tus clientes. Usa esta información para tomar <br> mejores decisiones y optimizar una estrategia de ventas exitosa.',
+'enableButton' => false,
+// 'urlButton' => '#lead-form',
+// 'textButton' => 'Comenzar ahora',
+// 'typeButton' => 'primaryButton',
+'side' => 'left',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+@php
+$parameters = array(
+'type' => 'backgroundColor',
+'classSection' => 'funcCrm11',
+'backgroundImageFile' => null,
+'enableTitle' => false,
+'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalacrm12-289x300.png',
+'title' => 'Gerencia tus ventas <br>
+<sspan class="blueLightColor3">como si tu crecimiento <br> dependiera de ello.</sspan>',
+'text' => null,
+'enableButton' => true,
+'typeButton' => 'primaryButton',
+'urlButton' => '#lead-form',
+'textButton' => 'Probar el CRM ahora',
+'side' => 'right',
+'overlay' => false,
+'overlayImage' => null,
+
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
 
 
 
