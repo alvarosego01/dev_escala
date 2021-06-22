@@ -4,7 +4,7 @@
 #func-crm-bootstrap
 
     .customSection.sectionParent.funcCrm0
-        background-color: $colorBlueLight
+        // background-color: $colorBlueLight
         padding-bottom: 175px
         @include responsivo(telefonoTable)
             padding-top: 125px!important
@@ -27,48 +27,51 @@
                 .info
                     .containElements
                         .principalBigTitle
+                            text-align: right
                         .principalBigText
-                            font-weight: 700!important
+                            text-align: right
+                            // font-weight: 700!important
                             line-height: 29px!important
                         .containerImage
                             padding: 0
                             img
-                                height: 485px
+                                height: 350px
                                 margin-right: auto
+        .backgroundFull
+            background-position: 0 -380px
+            background-repeat: no-repeat
+            background-size: cover
+            // padding: 150px 0
 
 
-    .customSection.sectionParent.funcCrm1.floated
-        padding: 0
-        padding-bottom: 0
-        background-color: transparent
-        height: 325px
-        background-color: $colorGreyLight
+
+    .customSection.sectionParent.funcCrm1
         .section-row
-            // position: absolute
-            left: 0
-            right: 0
-            top: -75%
             @include responsivo(telefonoTable)
-                width: 90%
-                top: -60%
+                width: 95%
             @include responsivo(pcMedio)
-                top: -40%
-            .info
-                .containElements
-                    p.description
-                        font-size: 28px!important
-                        line-height: 36px!important
-                        font-weight: 500!important
-                    // h2.byAm
-                    //     font-size: 22px!important
-                    //     font-weight: 700
-                    //     line-height: 25.5px!important
-                    //     font-family: "Nunito Sans",Sans-serif
-                    // .team
-                    //     font-weight: 400
-                    //     font-family: "Nunito Sans",Sans-serif
-                    //     span
-                            font-weight: 700
+                width: 90%
+            @include responsivo(general)
+                width: 100%!important
+                max-width: 1140px!important
+            @include responsivo(resto)
+                width: 100%!important
+                max-width: 1200px!important
+            .groupElements
+                padding-top: 0!important
+                padding-bottom: 0!important
+                .image
+                    .containerImage
+                        margin-bottom: 0
+                        padding: 0
+                @include responsivo(telefonoTable)
+                    padding: 50px 2.5%!important
+                @include responsivo(pcMedio)
+                    padding: 50px 2.5%!important
+        section.innerSectionElement.sct1
+            // display: none
+            border-radius: 30px 30px 30px 30px
+            // background-color: red
 
     .customSection.sectionParent.funcCrm2
         background-color: $colorGreyLight
