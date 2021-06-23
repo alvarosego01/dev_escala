@@ -30,7 +30,8 @@
 ¡no dejes que tus <br>
 relaciones se enfríen!',
      'text' => 'Diseña y envía campañas <br> de emails atractivas con escala.',
-     'image' => 'https://cdn.escala.com/wp-content/uploads/2021/04/beneficio_04.svg',
+    //  'image' => '//localhost:3000/escala-dev/wp-content/themes/oceanwp-child/resources/assets/images/illustrations/team/10 1.png',
+     'image' => App::setFilePath('/assets/images/illustrations/team/10 1.png'),
      'textForm' => 'Empieza a probar escala <br style="display: block!important"> <span style="text-align: left"; width: 100% class="colorDarkGrey2">Sin tarjeta requerida</span>  ',
      'threeCol' => true,
      'backgroundImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-bg.png',
@@ -51,7 +52,7 @@ relaciones se enfríen!',
       'description' => '“En mi experiencia, la venta se logra luego de varios contactos <br> personalizados. La gestión inteligente de campañas de emails <br> es una estrategia fundamental para mantenerse en contacto,<br> y quizás el método de menor costo de todos”.',
       'byAm' => '<strong class="blackColor">Andrés Moreno</strong>',
       'team' => 'Fundador de <span class="greenBlueColor">escala</span> y Open English',
-      'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads02-246x300.png'
+      'image' => App::setFilePath('\assets\images\person\andres_emailmk 1.png')
      ) ;
     @endphp
 
@@ -69,7 +70,7 @@ relaciones se enfríen!',
   <span class="greenBlueColor">¡Hola! {Primer nombre},</span> <br> Empecemos a hablar...',
   'subTitlePrincipal' => 'Envía emails personalizados a cientos de contactos en segundos',
   'title' => '<span class="greenBlueColor">Crea tus emails</span> a imagen <br> y semejanza de tu negocio',
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads03-280x300.png',
+  'img' => App::setFilePath('\assets\images\illustrations\team\imagendetuempresa 1.png'),
   'text' => 'La primera impresión lo es todo. Crea y edita emails profesionales con <br> el editor de emails intuitivo de escala. Simplemente, arrastra y suelta en <br> nuestras hermosas plantillas o crea las tuyas desde cero.
   <br class="space"><br class="space">
 ¡En minutos, tendrás una campaña con emails pidiendo ser abiertos!',
@@ -90,7 +91,7 @@ relaciones se enfríen!',
   'type' => 'backgroundColor',
   'classSection' => 'funcEmail3',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads04-230x300.png',
+  'img' => App::setFilePath('\assets\images\illustrations\otto\otto_bolamagica 1.png'),
   'title' => '
   <span class="greenBlueColor">Bola de cristal,</span> muéstrame quiénes <br> están leyendo mis emails',
   'text' => 'No necesitarás un artefacto mágico que te responda. <br>
@@ -114,7 +115,7 @@ Aún mejor, ¡sabrás si tus emails están generando ventas!',
   'type' => 'backgroundColor',
   'classSection' => 'funcEmail4',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads05-300x232.png',
+  'img' => App::setFilePath('\assets\images\illustrations\otto\otto_sombrero_email 1.png'),
   'title' => '<span class="greenBlueColor">Emails de escala,</span> <br> ¡trabajen por mí!',
   'text' => 'utomatiza tus emails para que tus contactos reciban tus mensajes <br> en el momento indicado, ¡incluso mientras duermes!
 <br class="space"><br class="space">
@@ -136,7 +137,7 @@ Envía emails de bienvenida, recordatorios de compra y mensajes de <br> seguimie
   'type' => 'backgroundColor',
   'classSection' => 'funcEmail5',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads06-292x300.png',
+  'img' => App::setFilePath('\assets\images\illustrations\others\spam-1 1.png'),
   'title' => '¡Hasta la vista, <br> bandeja de spam!',
   'text' => 'El envío de emails idealmente funciona de esta manera: enviar, abrir y <br> vender. ¡Eso es difícil de lograr si tu email termina en la bandeja de spam!
   <br class="space"><br class="space">
@@ -161,7 +162,7 @@ Con escala, hemos desarrollado la tecnología que minimiza el riesgo de <br> cae
   'type' => 'backgroundColor',
   'classSection' => 'funcEmail6',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads07-281x300.png',
+  'img' => App::setFilePath('\assets\images\illustrations\others\responsive_email 1.png'),
   'title' => '<span class="greenBlueColor">Laptops, celulares, iPads...</span> <br> ¡Nuestros emails se ven <br> bien en todos!',
   'text' => 'Cada persona ve sus emails en diferentes plataformas. <br> Afortunadamente, los emails que creas en escala se ajustan <br> perfectamente a cualquier dispositivo: móvil, tableta o laptop… <br> para que siempre se vean bien.',
   'enableButton' => false,
@@ -182,7 +183,7 @@ Con escala, hemos desarrollado la tecnología que minimiza el riesgo de <br> cae
   'type' => 'backgroundColor',
   'classSection' => 'funcEmail7',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads07-281x300.png',
+  'img' => App::setFilePath('\assets\images\illustrations\others\responsive_email-1 1.png'),
   'title' => '<span class="greenBlueColor">Sr. {Apellido}</span> <br> ¡Conozca nuestro <br> nuevo {producto}!',
   'text' => 'Configura tus mensajes con {etiquetas}. Así podrás enviar emails <br> personalizados a cientos de contactos en segundos.
   <br class="space"><br class="space">
@@ -215,7 +216,7 @@ de las conversaciones uno a uno.',
   'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
   'elements' => array(
     [
-      'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder11.png',
+      'img' => App::setFilePath('\assets\images\illustrations\others\email-good 1.png'),
       'title' => '<span class="greenBlueColor">¿Cuál email</span> generó <br> más ventas?',
       'text' => 'Hazle seguimiento al desempeño de todas tus <br> campañas de emails, conoce cuál email causó <br> más impacto y dale seguimiento para ver cuántas <br> ganancias generó para tu negocio.
       <br class="space"><br class="space">
@@ -225,7 +226,7 @@ de las conversaciones uno a uno.',
       // 'textButton' => '¡Asombroso! Adiós integraciones',
     ],
     [
-      'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder12.png',
+      'img' => App::setFilePath('\assets\images\illustrations\others\email-bad 1.png'),
       'title' => '<span class="greenBlueColor">¿Quién se</span> está <br> dando de baja?',
       'text' => '¡Espera! ¡No te vayas! Descubre quién canceló <br> su subscripción a tu lista de correo y por qué. <br> Identifica qué emails no funcionan y modifícalos <br> en el momento correcto.
       <br class="space"><br class="space">
@@ -251,9 +252,9 @@ de las conversaciones uno a uno.',
  $parameters = array(
   'type' => 'backgroundImage',
   'classSection' => 'funcEmail9',
-  'backgroundImageFile' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder15.png',
+  'backgroundImageFile' => App::setFilePath('\assets\images\banners\banner-email-01 1.png'),
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder14-265x300.png',
+  'img' => '/',
   'title' => '<span class="whiteColor">¡Crece más rápido <br> con los emails de escala!</span>',
   'text' => null,
   'enableButton' => true,
@@ -268,6 +269,7 @@ de las conversaciones uno a uno.',
 @contain_text_image_T1( $parameters )
 
 @endcontain_text_image_T1
+
 
 
 
