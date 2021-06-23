@@ -30,7 +30,7 @@
 ¡no dejes que tus <br>
 relaciones se enfríen!',
      'text' => 'Diseña y envía campañas <br> de emails atractivas con escala.',
-     'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads01.png',
+     'image' => 'https://cdn.escala.com/wp-content/uploads/2021/04/beneficio_04.svg',
      'textForm' => 'Empieza a probar escala <br style="display: block!important"> <span style="text-align: left"; width: 100% class="colorDarkGrey2">Sin tarjeta requerida</span>  ',
      'threeCol' => true,
      'backgroundImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-bg.png',
