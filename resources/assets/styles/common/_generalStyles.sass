@@ -7,9 +7,32 @@ body
     width: 100%
     overflow-x: hidden
 
+p
+    width: auto!important
+
+p.text,
+p.description,
+p.desc
+    br
+        @include responsivo(specialTexts)
+            display: none
+
+// h1,
+// h2,
+// h3
+    // br
+        // @include responsivo(telefonoTable)
+            // display: none!important
+        // @include responsivo(pcMedio)
+            // display: none!important
+
 .section-row,
-.groupElements
+.groupElements,
+.form7
     z-index: 100!important
+
+br.space
+    display: block!important
 
 .backgroundPlanets
     z-index: 0!important
@@ -112,6 +135,10 @@ body
 
 .whiteColor
     color: $colorWhite
+
+
+.colorDarkGrey2
+    color: $colorDarkGrey2
 
 span.tag
     font-size: 18px
@@ -318,6 +345,9 @@ span.tag
 
 .formatForm,
 .elementor-widget-void-section-cf7
+    #loading
+        height: 50px!important
+        width: 50px!important
     .titleFormat
         font-family: "Nunito Sans", sans-serif
         font-size: 21px
