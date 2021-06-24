@@ -36,7 +36,7 @@ class App extends Controller
 
         if($_SERVER['SERVER_NAME'] == 'localhost') {
 
-            return '/escala-dev';
+            return '/escala_web';
 
         }else{
 

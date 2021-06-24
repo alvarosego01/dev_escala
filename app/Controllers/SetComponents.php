@@ -35,6 +35,8 @@ class SetComponents extends Controller
 
     }
 
+
+
     private function setCallToActionsComponents(){
 
         return array(

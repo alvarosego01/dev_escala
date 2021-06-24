@@ -29,6 +29,9 @@ add_action('wp_enqueue_scripts', function () {
         "views/template-func-crm-escala.blade.php",
         "views/template-func-email.blade.php",
         "views/template-func-digital-announces.blade.php",
+        "views/template-escala-fex.blade.php",
+        "views/template-zoom-demo-home.blade.php",
+        "views/template-zoom-demo-meeting.blade.php",
     );
 
     // views/template-home.blade.php
@@ -202,6 +205,9 @@ add_action('wp_enqueue_scripts', function () {
         "views/template-func-crm-escala.blade.php",
         "views/template-func-email.blade.php",
         "views/template-func-digital-announces.blade.php",
+        "views/template-escala-fex.blade.php",
+        "views/template-zoom-demo-home.blade.php",
+        "views/template-zoom-demo-meeting.blade.php",
     );
 
     // views/template-home.blade.php
