@@ -36,7 +36,7 @@ class App extends Controller
 
         if($_SERVER['SERVER_NAME'] == 'localhost') {
 
-            return '/escala_web';
+            return '/escala-dev';
 
         }else{
 
@@ -45,18 +45,12 @@ class App extends Controller
         }
 
     }
-    // public static function setAssetsUrl(){
 
-    //     if($_SERVER['SERVER_NAME'] == 'localhost') {
+    public static function setFilePath($file){
 
-    //         return '/escala-dev';
+        return get_stylesheet_directory_uri().$file;
 
-    //     }else{
+    }
 
-    //         return '';
-
-    //     }
-
-    // }
 
 }

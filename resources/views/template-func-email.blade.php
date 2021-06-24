@@ -4,6 +4,10 @@
 --}}
 
 
+<link crossorigin="anonymous" rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNunito+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNunito%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.5.5&amp;display=swap" type="text/css" media="all">
+
+
+
 @extends('layouts.app')
 
 @section('content')
@@ -13,60 +17,67 @@
 
   <div class="sections">
 
+    @php
+    $parameters = array(
+     'backgroundImageType' => true,
+     'overlay' => true,
+     'classSection' => 'threeCol funcEmail0 func',
+     'title' => '
+     <span class="greenBlueColor">
+       Comunícate <br>
+       constantemente, <br>
+     </span>
+¡no dejes que tus <br>
+relaciones se enfríen!',
+     'text' => 'Diseña y envía campañas <br> de emails atractivas con escala.',
+    //  'image' => '//localhost:3000/escala-dev/wp-content/themes/oceanwp-child/resources/assets/images/illustrations/team/10 1.png',
+     'image' => App::setFilePath('/assets/images/illustrations/team/10 1.png'),
+     'textForm' => 'Empieza a probar escala <br style="display: block!important"> <span style="text-align: left"; width: 100% class="colorDarkGrey2">Sin tarjeta requerida</span>  ',
+     'threeCol' => true,
+     'backgroundImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-bg.png',
+      'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalaads-planets.svg',
+    ) ;
+    @endphp
+
+    @header_t1( $parameters )
+
+    @endheader_t1
+
+
+
 
     @php
- $parameters = array(
-  'backgroundImageType' => false,
-  'overlay' => false,
-  'classSection' => 'threeCol funcEmail0',
-  'title' => '<span class="orangeColor">Comunícate constantemente,</span> ¡no dejes que tus relaciones se enfríen!',
-  'text' => 'Diseña y envía campañas de emails atractivas con <span class="orangeColor">escala.</span>',
-  'image' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-email-builder-correo-electronico-comunicacion-enviar-768x900.png',
-  'textForm' => '<span class="orangeColor">Impulsa</span> tus ventas ahora',
-  'backgroundImage' => null,
-  'overlayImage' => null,
-  'threeCol' => true,
- ) ;
-@endphp
+     $parameters = array(
+      'classSection' => 'funcEmail1 func',
+      'description' => '“En mi experiencia, la venta se logra luego de varios contactos <br> personalizados. La gestión inteligente de campañas de emails <br> es una estrategia fundamental para mantenerse en contacto,<br> y quizás el método de menor costo de todos”.',
+      'byAm' => '<strong class="blackColor">Andrés Moreno</strong>',
+      'team' => 'Fundador de <span class="greenBlueColor">escala</span> y Open English',
+      'image' => App::setFilePath('/assets/images/person/am/andres_emailmk 1.png')
+     ) ;
+    @endphp
 
-@header_t1( $parameters )
+    @contain_am_T1( $parameters )
 
-@endheader_t1
-
-
-
-@php
- $parameters = array(
-  'classSection' => 'funcEmail1 floated',
-  'description' => '“En mi experiencia, la venta se logra luego de varios contactos personalizados. La gestión inteligente de campañas de emails es una estrategia fundamental para mantenerse en contacto, y quizás el método de menor costo de todos”.',
-  'byAm' => '<span class="orangeColor">Andrés Moreno</span>',
-  'team' => 'Fundador de <span class="orangeColor">escala</span> y Open English',
-  'image' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-Andre%CC%81s-Moreno-founder-Ceo-Open-English-2.png'
- ) ;
-@endphp
-
-@contain_am_T1( $parameters )
-
-@endcontain_am_T1
+    @endcontain_am_T1
 
 
 @php
  $parameters = array(
   'type' => 'backgroundColor',
   'classSection' => 'funcEmail2',
-  // 'backgroundImageFile' => ,
   'enableTitle' => true,
-  'titlePrincipal' => 'Haz que tus páginas sean tu <span class="orangeColor">motor de ventas</span>',
-  'subTitlePrincipal' => 'El Page Builder de <span class="orangeColor">escala</span> te permite diseñar hermosos landing pages sin necesitar largas <br> horas de un equipo de tecnología',
-  'title' => '¡Ahhhh! Bienvenido al <br> paraíso de las <span class="orangeColor">plantillas</span>',
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-plantilla-personalizada-e1593191622994-768x515.png',
-  'text' => 'Nuestros programadores expertos y diseñadores <br> talentosos ya hicieron la tarea por ti. <br>
-<strong>¡Lo único difícil será elegir!</strong>
-<br class="space"><br class="space">
-Escoge una de nuestras hermosas plantillas, adáptalas y <br> comienza a generar contactos.',
+  'titlePrincipal' => '
+  <span class="greenBlueColor">¡Hola! {Primer nombre},</span> <br> Empecemos a hablar...',
+  'subTitlePrincipal' => 'Envía emails personalizados a cientos de contactos en segundos',
+  'title' => '<span class="greenBlueColor">Crea tus emails</span> a imagen <br> y semejanza de tu negocio',
+  'img' => App::setFilePath('/assets/images/illustrations/team/imagendetuempresa 1.png'),
+  'text' => 'La primera impresión lo es todo. Crea y edita emails profesionales con <br> el editor de emails intuitivo de escala. Simplemente, arrastra y suelta en <br> nuestras hermosas plantillas o crea las tuyas desde cero.
+  <br class="space"><br class="space">
+¡En minutos, tendrás una campaña con emails pidiendo ser abiertos!',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Ver las plantillas',
+  'textButton' => 'Comenzar ahora',
+  'typeButton' => 'primaryButton',
   'side' => 'right',
  ) ;
 @endphp
@@ -80,16 +91,17 @@ Escoge una de nuestras hermosas plantillas, adáptalas y <br> comienza a generar
   'type' => 'backgroundColor',
   'classSection' => 'funcEmail3',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-plantilla-768x935.png',
-  'title' => 'Dale tu <span class="orangeColor">toque personal</span> con facilidad',
-  'text' => '¿Has jugado Tetris? Combina tus bloques de contenido <br>para crear tu landing page ideal.
+  'img' => App::setFilePath('/assets/images/illustrations/otto/otto_bolamagica 1.png'),
+  'title' => '
+  <span class="greenBlueColor">Bola de cristal,</span> muéstrame quiénes <br> están leyendo mis emails',
+  'text' => 'No necesitarás un artefacto mágico que te responda. <br>
+Con escala sabrás quiénes de tus contactos abrieron los emails y cuándo.
 <br class="space"><br class="space">
-Arrastra y suelta las secciones pre-diseñadas, ajusta sus <br> tamaños, agrega formularios, cambia tipografías, elige las <br> imágenes, incluye tu logo y escoge tus colores.
-<br class="space"><br class="space">
-<strong>¡Nosotros ponemos la estructura, tú pones el arte!</strong>',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => '¡Empieza el juego!',
+Aún mejor, ¡sabrás si tus emails están generando ventas!',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Comenzar ahora',
+  // 'typeButton' => 'primaryButton',
   'side' => 'left',
  ) ;
 @endphp
@@ -97,18 +109,20 @@ Arrastra y suelta las secciones pre-diseñadas, ajusta sus <br> tamaños, agrega
 @contain_text_image_T1( $parameters )
 
 @endcontain_text_image_T1
+
 @php
  $parameters = array(
   'type' => 'backgroundColor',
   'classSection' => 'funcEmail4',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-desde-cero-e1593191704246-768x513.png',
-  'title' => '¿Quieres <span class="orangeColor">comenzar de cero?</span> <br>
-¡No hay problema!',
-  'text' => 'Deja salir a tu diseñador interior usando una plantilla en <br> blanco. Construye tus propias landing pages y <br> secciones con total libertad creativa.',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Comenzar desde cero',
+  'img' => App::setFilePath('/assets/images/illustrations/otto/otto_sombrero_email 1.png'),
+  'title' => '<span class="greenBlueColor">Emails de escala,</span> <br> ¡trabajen por mí!',
+  'text' => 'utomatiza tus emails para que tus contactos reciban tus mensajes <br> en el momento indicado, ¡incluso mientras duermes!
+<br class="space"><br class="space">
+Envía emails de bienvenida, recordatorios de compra y mensajes de <br> seguimiento. ¿Todavía no han abierto tu email? ¡No hay problema! <br> Programa otro, en caso de que lo hayan olvidado.',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Conectarlas ahora',
   'side' => 'right',
  ) ;
 @endphp
@@ -116,18 +130,24 @@ Arrastra y suelta las secciones pre-diseñadas, ajusta sus <br> tamaños, agrega
 @contain_text_image_T1( $parameters )
 
 @endcontain_text_image_T1
+
 
 @php
  $parameters = array(
   'type' => 'backgroundColor',
   'classSection' => 'funcEmail5',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-dispositivo-device-responsive-768x529.png',
-  'title' => 'Ningún dispositivo se resiste.<br> Las páginas son <span class="orangeColor">responsive</span>',
-  'text' => 'No importa si es una laptop, tableta o un celular, el <br> diseño de tus páginas será 100% adaptativo para que <br> se vean bien en todas partes.
+  'img' => App::setFilePath('/assets/images/illustrations/others/spam-1 1.png'),
+  'title' => '¡Hasta la vista, <br> bandeja de spam!',
+  'text' => 'El envío de emails idealmente funciona de esta manera: enviar, abrir y <br> vender. ¡Eso es difícil de lograr si tu email termina en la bandeja de spam!
+  <br class="space"><br class="space">
+Con escala, hemos desarrollado la tecnología que minimiza el riesgo de <br> caer en la bandeja de spam.
 <br class="space"><br class="space">
-<strong>Antes de publicar, podrás revisar fácilmente cada <br> versión para previsualizar cómo tus visitantes verán la <br> página en cada dispositivo.</strong>',
-  'enableButton' => false,
+¡Logra que tus emails lleguen al lugar correcto!',
+'enableButton' => true,
+  'urlButton' => '#lead-form',
+  'textButton' => 'Publicar modo flash',
+  'typeButton' => 'primaryButton',
   'side' => 'left',
  ) ;
 @endphp
@@ -135,16 +155,20 @@ Arrastra y suelta las secciones pre-diseñadas, ajusta sus <br> tamaños, agrega
 @contain_text_image_T1( $parameters )
 
 @endcontain_text_image_T1
+
+
 @php
  $parameters = array(
   'type' => 'backgroundColor',
   'classSection' => 'funcEmail6',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-segura-768x781.png',
-  'title' => '¡Toc, Toc, Toc! <br>
-¿Es una página <span class="orangeColor">segura</span> para entrar?',
-  'text' => '¡Sí! Todos entren con tranquilidad. En <span class="orangeColor">escala</span>, cada <br> landing page que creas tiene su propio certificado de <br> seguridad para que tus visitantes tengan la confianza <br> de navegarla libremente.',
+  'img' => App::setFilePath('/assets/images/illustrations/others/responsive_email 1.png'),
+  'title' => '<span class="greenBlueColor">Laptops, celulares, iPads...</span> <br> ¡Nuestros emails se ven <br> bien en todos!',
+  'text' => 'Cada persona ve sus emails en diferentes plataformas. <br> Afortunadamente, los emails que creas en escala se ajustan <br> perfectamente a cualquier dispositivo: móvil, tableta o laptop… <br> para que siempre se vean bien.',
   'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Optimizar resultados',
+  // 'typeButton' => 'primaryButton',
   'side' => 'right',
  ) ;
 @endphp
@@ -152,7 +176,6 @@ Arrastra y suelta las secciones pre-diseñadas, ajusta sus <br> tamaños, agrega
 @contain_text_image_T1( $parameters )
 
 @endcontain_text_image_T1
-
 
 
 @php
@@ -160,16 +183,19 @@ Arrastra y suelta las secciones pre-diseñadas, ajusta sus <br> tamaños, agrega
   'type' => 'backgroundColor',
   'classSection' => 'funcEmail7',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-paginas-dominio-publicar-1-1-768x436.png',
-  'title' => '¿No tienes <span class="orangeColor">dominio?</span> <br>
-¡Tranquilo! Te damos uno',
-  'text' => 'Si aún no tienes dominio propio o prefieres generar uno <br> diferente para tus distintas landing pages, <span class="orangeColor">¡escala</span> te <br> genera uno propio en segundos!
+  'img' => App::setFilePath('/assets/images/illustrations/others/responsive_email-1 1.png'),
+  'title' => '<span class="greenBlueColor">Sr. {Apellido}</span> <br> ¡Conozca nuestro <br> nuevo {producto}!',
+  'text' => 'Configura tus mensajes con {etiquetas}. Así podrás enviar emails <br> personalizados a cientos de contactos en segundos.
+  <br class="space"><br class="space">
+¿Qué te gustaría personalizar? <br>
+¿Nombre, país, oferta, información de contacto?
 <br class="space"><br class="space">
-<strong>¿Ya tienes un dominio propio?</strong> <br>
-Conéctalo a <span class="orangeColor">escala</span> rápidamente con un click. Si lo deseas, <br> se conectará también con tu CRM y campañas digitales.',
+Aumenta tu eficiencia logrando mantener la cercanía <br>
+de las conversaciones uno a uno.',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Conectar mi dominio',
+  'textButton' => 'Enviar emails',
+  'typeButton' => 'primaryButton',
   'side' => 'left',
  ) ;
 @endphp
@@ -178,66 +204,35 @@ Conéctalo a <span class="orangeColor">escala</span> rápidamente con un click. 
 
 @endcontain_text_image_T1
 
+
 @php
  $parameters = array(
   'type' => 'backgroundColor',
   'classSection' => 'funcEmail8',
-  'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-genera-trafico-pagina-instagram-google-facebook-768x557.png',
-  'title' => '<span class="orangeColor">El poder de NOSOTROS:</span><br>
-  <span class="orangeColor">escala</span>, Google y Facebook',
-  'text' => '<span class="orangeColor">escala</span> está integrada con Facebook Pixels y Google <br> Analytics para que tengas información detallada sobre <br> los visitantes de tu landing page. ¡Mientras más <br> integrada estén tus campañas con Facebook y Google,<br> mejores serán tus resultados!',
-  'enableButton' => false,
-  'side' => 'right',
- ) ;
-@endphp
-
-@contain_text_image_T1( $parameters )
-
-@endcontain_text_image_T1
-
-
-
-{{--
-  @var $type - define type of container (backgroundImage || backgroundColor) | string
-@var $classSection - class context | string
-@var $backgroundImageFile - image file url background | string
-@var $enableTitle -  enable title | boolean
-@var $titlePrincipal - text title | html
-@var $subTitlePrincipal - define sub title | html
-
-@var $elements - array of elements | array(
-
-    @var $img - image url | string
-    @var $text - define info text | html
-    @var $enableButton -  enable button | boolean
-    @var $urlButton -  url of button | string
-    @var $textButton -  define text of button | string
-  --}}
-@php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'funcEmail9',
   'enableTitle' => true,
-  'titlePrincipal' => 'Dile hola a los <span class="orangeColor">formularios inteligentes.</span> <br>
-¡Adiós a los plug-ins!',
-  'subTitlePrincipal' => 'Olvídate de las integraciones complicadas y las interminables hojas de excel para guardar <br> las información de tus contactos.',
+  'titlePrincipal' => '<span class="greenBlueColor">Deja que</span> los Números hablen!',
+  'subTitlePrincipal' => 'Sigue el historial de tus emails en tiempo real',
+  'overlay' => true,
+  'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
   'elements' => array(
     [
-      'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-formulario-300x280.png',
-      'title' => 'Del formulario en tu página <br> directo al CRM',
-      'text' => 'Cuando tus visitantes se registren en tu landing <br> page, toda esa información quedará guardada <br> automáticamente en tu CRM de <span class="orangeColor">escala</span>. No más <br> hojas de excel o integraciones complicadas <br> ¡Recibe y maneja tu base de datos desde un <br> mismo lugar!',
-      'enableButton' => true,
-      'urlButton' => '#lead-form',
-      'textButton' => '¡Asombroso! Adiós integraciones',
+      'img' => App::setFilePath('/assets/images/illustrations/others/email-good 1.png'),
+      'title' => '<span class="greenBlueColor">¿Cuál email</span> generó <br> más ventas?',
+      'text' => 'Hazle seguimiento al desempeño de todas tus <br> campañas de emails, conoce cuál email causó <br> más impacto y dale seguimiento para ver cuántas <br> ganancias generó para tu negocio.
+      <br class="space"><br class="space">
+      ¡Aprende, optimiza y crece!',
+      'enableButton' => false,
+      // 'urlButton' => '#lead-form',
+      // 'textButton' => '¡Asombroso! Adiós integraciones',
     ],
     [
-      'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-formulario-internacional.png',
-      'title' => 'Ahora sabrás si tu contacto está <br> en Colombia, EEUU o España',
-      'text' => 'Si vendes en diferentes países, puedes incluir un formulario inteligente en <br> las páginas que construyes con <span class="orangeColor">escala</span>. El mismo tomará automáticamente <br> el prefijo internacional de tus visitantes para que ¡evites recibir números <br> equivocados!',
-      'enableButton' => true,
-      'urlButton' => '#lead-form',
-      'textButton' => '¡Finalmente! Basta de adivinar',
+      'img' => App::setFilePath('/assets/images/illustrations/others/email-bad 1.png'),
+      'title' => '<span class="greenBlueColor">¿Quién se</span> está <br> dando de baja?',
+      'text' => '¡Espera! ¡No te vayas! Descubre quién canceló <br> su subscripción a tu lista de correo y por qué. <br> Identifica qué emails no funcionan y modifícalos <br> en el momento correcto.
+      <br class="space"><br class="space">
+      Mantenlos en la lista.',
+      'enableButton' => false
+
 
     ]
   )
@@ -251,25 +246,23 @@ Conéctalo a <span class="orangeColor">escala</span> rápidamente con un click. 
 @endcontain_multiple_cards_T1
 
 
+
+
 @php
  $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'funcEmail10',
+  'type' => 'backgroundImage',
+  'classSection' => 'funcEmail9',
+  'backgroundImageFile' => App::setFilePath('/assets/images/banners/banner-mujer_fondo.png'),
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-veloz-landing-page-768x824.png',
-  'title' => '¡Las páginas más <br>
-  <span class="orangeColor">veloces</span> del mercado!',
-  'text' => 'Si tu landing page demora más de unos segundos <br> en cargar puede frustrar a miles de tus visitantes.
-  <br class="space"><br class="space">
-<strong>Visitantes frustrados = menos ventas.</strong>
-<br class="space"><br class="space">
-<span class="orangeColor">escala</span> utiliza tecnología avanzada para asegurar <br> que tus paginas carguen a la velocidad de la luz.
-<br class="space"><br class="space">
-<strong>¡El tiempo es dinero!</strong>',
+  'img' =>  App::setFilePath('/assets/images/banners/banner-mujer_mujer.png'),
+  'title' => '<span class="whiteColor">¡Crece más rápido <br> con los emails de escala!</span>',
+  'text' => null,
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => '¡Ve rápido y furioso!',
+  'textButton' => 'Probar email marketing ahora',
+  'typeButton' => 'primaryButton',
   'side' => 'left',
+
  ) ;
 @endphp
 
@@ -277,82 +270,6 @@ Conéctalo a <span class="orangeColor">escala</span> rápidamente con un click. 
 
 @endcontain_text_image_T1
 
-
-
-@php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'funcEmail11',
-  // 'backgroundImageFile' => ,
-  'enableTitle' => true,
-  'titlePrincipal' => '¡Aquí están los número! <br>
-  <span class="orangeColor">Analiza</span> y optimiza tus páginas',
-  'subTitlePrincipal' => null,
-  'title' => '<span class="orangeColor">Monitorea</span> el comportamiento, <br> aprende, mejora',
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-analiza-comportamiento-visitante-landing-e1593191973304-768x436.png',
-  'text' => '¿Cuántos visitantes llegan a tu landing page y cuántos de <br> ellos se convierten en tus clientes? Los reportes de <span class="orangeColor">escala</span><br>  responden esta pregunta y más: cuánto tiempo estuvieron <br> navegando en tu página, en dónde hacen click y en qué <br> parte se salieron…
-<br class="space"><br class="space">
-<strong>¡Rastrear el comportamiento de tus visitantes te permite <br> cambiar de estrategia y lograr mejores resultados!</strong>',
-  'enableButton' => false,
-  'side' => 'right',
- ) ;
-@endphp
-
-@contain_text_image_T1( $parameters )
-
-@endcontain_text_image_T1
-
-@php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'funcEmail12',
-  'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-dominio-publicar-2-e1594828532887.png',
-  'title' => '¡Síííí! Mi landing page está <br> <span class="orangeColor">funcionando...</span> ¿Verdad?',
-  'text' => '¿Cuál es el desempeño de tu landing page en función de tus objetivos de marketing? ¿Estás obteniendo un buen retorno de tu inversión?
-<br class="space"><br class="space">
-Descúbrelo en tiempo real utilizando nuestras herramientas de analíticas intuitivas.',
-  'enableButton' => false,
-  'side' => 'left',
- ) ;
-@endphp
-
-@contain_text_image_T1( $parameters )
-
-@endcontain_text_image_T1
-
-@php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'funcEmail13',
-  'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/2020/09/escala-page-builder-creacion-pagina-dominio-publicar-3-e1593192119806-768x511.png',
-  'title' => '¿Qué dispositivo tiene <br> mayor <span class="orangeColor">conversión?</span>',
-  'text' => '¿Tus visitantes usan sus tablets, laptops o celulares para <br> navegar en tu landing page? Con <span class="orangeColor">escala</span> puedes ver analíticas <br> detalladas que te dirán cuál dispositivo tiene mayor <br> probabilidad de acercarte a la venta.
-  <br class="space"><br class="space">
-  <strong>¡Cuanto más sepas, mejor lo harás!</strong>',
-  'enableButton' => false,
-  'side' => 'right',
- ) ;
-@endphp
-
-@contain_text_image_T1( $parameters )
-
-@endcontain_text_image_T1
-
-@php
- $parameters = array(
-  'classSection' => 'funcEmail14',
-  'title' => 'Empieza a construir páginas optimizadas para ventas',
-  'goToUrl' => '#lead-form',
-  'textButton' => '¡Pruébalo ahora!',
-
- ) ;
-@endphp
-
-@callToAction_T2( $parameters )
-
-@endcallToAction_T2
 
 
 
