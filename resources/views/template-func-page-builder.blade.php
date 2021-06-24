@@ -336,13 +336,15 @@ Monitorea el comportamiento,',
 @endcontain_text_image_T1
 
 
+
+{{-- resources/assets/images/banners/banner-blue-planets2.png --}}
 @php
  $parameters = array(
   'type' => 'backgroundImage',
   'classSection' => 'funcPageBuilder13',
-  'backgroundImageFile' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder15.png',
+  'backgroundImageFile' => App::setFilePath('/assets/images/banners/banner-blue-planets2.png'),
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder14-265x300.png',
+  'img' => App::setFilePath('/assets/images/banners/banner-hombre_hombre.png'),
   'title' => '<span class="whiteColor">Síííí! Mi landing page</span> <br> está funcionando... <br> ¿Verdad?',
   'text' => '¿Cuál es el desempeño de tu landing page en función de tus <br> objetivos de marketing? ¿Estás obteniendo un buen retorno <br> de tu inversión?
   <br class="space"><br class="space">

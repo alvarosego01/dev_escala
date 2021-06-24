@@ -117,6 +117,12 @@
 
 
                 .ele
+                    @include responsivo(telefonoTable)
+                        padding-left: 2.5%!important
+                        padding-right: 2.5%!important
+                    @include responsivo(pcMedio)
+                        padding-left: 2.5%!important
+                        padding-right: 2.5%!important
                     .containerImage
                         img
                             height: 325px
@@ -164,9 +170,9 @@
                         img
                             height: 300px
                 .ele.ele2
-                    padding: 10px
-                    padding-left: 30px
-                    padding-right: 0
+                    // padding: 10px
+                    // padding-left: 30px
+                    // padding-right: 0
                     // margin: 20px!important
         .form7
             padding: 0
