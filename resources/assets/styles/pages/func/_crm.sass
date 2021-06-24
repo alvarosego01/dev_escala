@@ -34,17 +34,17 @@
                             left: -50px
                             top: -50px
                             img
-                                height: 350px
+                                height: 325px
                             @include responsivo(telefonoTable)
                                 left: unset!important
                                 top: unset!important
                                 img
-                                    height: 350px
+                                    height: 325px
                             @include responsivo(pcMedio)
                                 left: unset!important
                                 top: unset!important
                                 img
-                                    height: 350px
+                                    height: 325px
 
 
     .customSection.sectionParent.funcCrm1
@@ -77,7 +77,12 @@
             .groupElements
                 background-color: #E6F2F8
                 padding: 50px!important
-                padding-right: 0!important
+                @include responsivo(general)
+                    padding-right: 0!important
+
+                @include responsivo(resto)
+                    padding-right: 0!important
+
                 // .info
                 .image
                     position: relative
@@ -216,12 +221,14 @@
                             position: unset!important
                             margin-bottom: 0px!important
                             padding-bottom: 0!important
+                            margin: 0 auto
                             img
-                                height: 375px
+                                height: 225px
                         @include responsivo(pcMedio)
                             position: unset!important
                             margin-bottom: 0px!important
                             padding-bottom: 0!important
+                            margin: 0 auto
                             img
-                                height: 375px
+                                height: 350px
 

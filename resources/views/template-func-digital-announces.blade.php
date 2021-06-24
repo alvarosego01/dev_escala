@@ -178,9 +178,9 @@ Lo que no se mide no mejora. Conoce lo que funciona, <br> aprende de lo que no y
  $parameters = array(
   'type' => 'backgroundImage',
   'classSection' => 'funcAnnounceDigital7',
-  'backgroundImageFile' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads08.png',
+  'backgroundImageFile' => App::setFilePath('/assets/images/banners/banner-blue-planets2.png'),
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder14-265x300.png',
+  'img' => App::setFilePath('/assets/images/banners/banner-mujer_mujer2.png'),
   'title' => '<span class="whiteColor">tus anuncios digitales</span> <br> ¿Qué es un Pixel y por qué <br> es importante?
   ',
   'text' => '

@@ -28,7 +28,7 @@
                 max-width: 1140px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1140px!important
+                max-width: 1300px!important
 
             .groupElements
                 // display: none!important
@@ -43,8 +43,12 @@
                         .containerImage
                             padding: 0
                             img
-                                height: 275px
+                                height: 325px
                                 margin-right: auto
+                                @include responsivo(telefonoTable)
+                                    height: 325px
+                                @include responsivo(pcMedio)
+                                    height: 325px
                 .form7
                     padding-right: 0
                     padding-left: 75px
@@ -90,7 +94,12 @@
             .groupElements
                 background-color: #E6F2F8
                 padding: 50px!important
-                padding-right: 0!important
+                // padding-right: 0!important
+                @include responsivo(general)
+                   padding-right: 0!important
+
+                @include responsivo(resto)
+                    padding-right: 0!important
                 // .info
                 .image
                     position: relative
@@ -133,30 +142,26 @@
         padding: 0!important
         // padding-bottom: 70px!importan
         .backgroundFull
-            padding: 175px 0!important
+            padding: 0
+            padding-top: 25px
+            padding-bottom: 0
             background-repeat: no-repeat
             background-size: cover
             background-position: top
+            // transform: scaleX(-1)
             @include responsivo(telefonoTable)
-                background-position: left top
-                padding: 70px 0!important
-                .containerImage
-                    display: none
-                    // img
-                        // height: 175px!important
+                padding-bottom: 0!important
+                background-position: center
             @include responsivo(pcMedio)
-                background-position: left top
-                padding: 70px 0!important
-                .containerImage
-                    display: none
-                    // img
-                        // height: 175px!important
+                padding-bottom: 0!important
+                background-position: center
+
         .section-row
             .innerSectionElement.sct2
                 .groupElements
                     @include responsivo(telefonoTable)
                         display: block!important
-                        // flex-direction: column-reverse!important
+                        // ex-direction: column-reverse!important
                     @include responsivo(pcMedio)
                         display: block!important
                         // flex-direction: column-reverse!important
@@ -165,10 +170,23 @@
                         font-size: 18px!important
                         color: $colorBlack!important
                         line-height: 23px!important
+
+                .info
+                    padding: 25px 0
             .containerImage
-                height: 300px
+                margin-bottom: 0!important
+                padding-bottom: 0!important
                 img
-                    display: none
+                    height: 525px
+                    margin-right: auto
+                    margin-left: 0
+                    transform: scaleX(-1)
+                    @include responsivo(telefonoTable)
+                        margin: 0 auto
+                        height: 250px
+                    @include responsivo(pcMedio)
+                        margin: 0 auto
+                        height: 450px
 
     .customSection.sectionParent.funcAnnounceDigital8
         padding: 50px!important
@@ -192,8 +210,9 @@
             .groupElements
                 .secondaryTitle
                     color: $colorWhite
-                    text-align: center
                     margin-bottom: 50px
+                    text-align: center
+                    font-size: 36px!important
                 @include responsivo(telefonoTable)
                     display: flex
                     flex-direction: column

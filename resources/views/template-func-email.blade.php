@@ -52,7 +52,7 @@ relaciones se enfríen!',
       'description' => '“En mi experiencia, la venta se logra luego de varios contactos <br> personalizados. La gestión inteligente de campañas de emails <br> es una estrategia fundamental para mantenerse en contacto,<br> y quizás el método de menor costo de todos”.',
       'byAm' => '<strong class="blackColor">Andrés Moreno</strong>',
       'team' => 'Fundador de <span class="greenBlueColor">escala</span> y Open English',
-      'image' => App::setFilePath('/assets/images/person/andres_emailmk 1.png')
+      'image' => App::setFilePath('/assets/images/person/am/andres_emailmk 1.png')
      ) ;
     @endphp
 
@@ -252,9 +252,9 @@ de las conversaciones uno a uno.',
  $parameters = array(
   'type' => 'backgroundImage',
   'classSection' => 'funcEmail9',
-  'backgroundImageFile' => App::setFilePath('/assets/images/banners/banner-email-01 1.png'),
+  'backgroundImageFile' => App::setFilePath('/assets/images/banners/banner-mujer_fondo.png'),
   'enableTitle' => false,
-  'img' => '/',
+  'img' =>  App::setFilePath('/assets/images/banners/banner-mujer_mujer.png'),
   'title' => '<span class="whiteColor">¡Crece más rápido <br> con los emails de escala!</span>',
   'text' => null,
   'enableButton' => true,

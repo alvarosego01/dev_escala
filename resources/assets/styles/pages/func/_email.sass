@@ -45,6 +45,10 @@
                             img
                                 height: 400px
                                 margin-right: auto
+                                @include responsivo(telefonoTable)
+                                    height: 350px
+                                @include responsivo(pcMedio)
+                                    height: 350px
 
                     .ele2
                         @include responsivo(general)
@@ -55,6 +59,7 @@
                             display: flex
                             flex-direction: column
                             justify-content: center
+
                 .form7
                     // padding: 0!important
                     // padding-right: 0!important
@@ -151,41 +156,52 @@
     .customSection.sectionParent.funcEmail9
         padding: 0!important
         .backgroundFull
-            padding: 75px 0!important
+            padding: 0
+            padding-top: 25px
+            padding-bottom: 0
             background-repeat: no-repeat
             background-size: cover
             background-position: top
             @include responsivo(telefonoTable)
-                background-position: right top
-                padding: 100px 0!important
-                .containerImage
-                    display: none
-                    // img
-                        // height: 175px!important
+                padding-bottom: 0!important
+                background-position: center right
             @include responsivo(pcMedio)
-                background-position: right top
-                padding: 100px 0!important
-                .containerImage
-                    display: none
-                    // img
-                        // height: 175px!important
+                padding-bottom: 0!important
+                background-position: center right
         .section-row
             .innerSectionElement.sct2
                 .groupElements
                     @include responsivo(telefonoTable)
-                        display: block!important
-                        // flex-direction: column-reverse!important
+                        display: fle!important
+                        flex-direction: column-reverse!important
                     @include responsivo(pcMedio)
-                        display: block!important
-                        // flex-direction: column-reverse!important
-                        // display: none
+                        display: fle!important
+                        flex-direction: column-reverse!important
                     .secondaryTitle
                         margin-bottom: 50px
                         text-align: center
+                        font-size: 36px!important
                     a
                         margin: 0 auto
+                .info
+                    padding: 100px 0
+                    @include responsivo(telefonoTable)
+                        padding: 50px 0
+                    @include responsivo(pcMedio)
+                        padding: 50px 0
             .containerImage
-                height: 300px
+                // height: 300px
+                margin-bottom: 0!important
+                padding-bottom: 0!important
                 img
-                    display: none
+                    height: 425px
+                    margin-right: auto
+                    margin-left: 0
+                    @include responsivo(telefonoTable)
+                        margin: 0 auto
+                        height: 275px
+                    @include responsivo(pcMedio)
+                        height: 300px
+                        margin: 0 auto
+                    // display: none
 
