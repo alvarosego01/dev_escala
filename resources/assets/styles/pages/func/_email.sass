@@ -18,6 +18,7 @@
             padding-bottom: 0px!important
         .section-row
             padding: 20px
+            padding-bottom: 0
             @include responsivo(telefonoTable)
                 width: 95%
             @include responsivo(pcMedio)
@@ -77,7 +78,29 @@
             background-position: 0 50%
             background-repeat: no-repeat
             background-size: cover
+            padding-bottom: 25px
             // padding: 150px 0
+
+        .backgroundPlanets
+            opacity: 1
+            transition: background 0.3s, border-radius 0.3s, opacity 0.3s
+            height: 100%
+            width: auto
+            top: 0
+            left: 0
+            right: 0
+            position: absolute
+            background-position: 50px 150px
+            background-repeat: no-repeat
+            background-size: 100% auto
+            @include responsivo(telefonoTable)
+                top: 0
+                background-position: 8px 125px
+                background-size: 100% auto
+            @include responsivo(pcMedio)
+                background-position: 8px 150px
+                background-size: 100% auto
+                top: 0
 
     .customSection.sectionParent.funcEmail1
         .section-row
