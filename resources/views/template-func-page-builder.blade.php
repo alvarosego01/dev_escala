@@ -24,10 +24,10 @@
   'classSection' => 'func funcPageBuilder0',
   'title' => 'Crea potentes páginas.<br> <span class="greenBlueColor">Es tan fácil como copiar y pegar</span>',
   'text' => 'En escala puedes construir rápidamente landing pages = «websites <br> optimizados» para capturar la información de contacto de tus visitantes, <br> sin necesidad de programar o integrar.',
-  'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder01-300x231.png',
+  'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder01.png',
   'textForm' => 'Empieza a probar escala
   <br style="display: block!important">
-  <span style="text-align: left"; width: 100% class="colorDarkGrey2">Sin tarjeta requerida</span>',
+  <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>',
   'backgroundImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-bg.png',
   'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalaads-planets.svg',
   'threeCol' => false,
@@ -62,8 +62,8 @@
   // 'backgroundImageFile' => ,
   'enableTitle' => false,
   'title' => '<span class="greenBlueColor">Haz que tus páginas sean</span> <br> tu motor de ventas',
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder03-291x300.png',
-  'text' => 'Nuestros programadores expertos y diseñadores talentosos <br> ya hicieron la tarea por ti. <strong class="greenBlueColor">¡Lo único difícil será elegir!</strong>
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder03.png',
+  'text' => 'Nuestros programadores expertos y diseñadores talentosos <br> ya hicieron la tarea por ti.
 <br class="space"><br class="space">
 Escoge una de nuestras hermosas plantillas, adáptalas <br> y comienza a generar contactos.',
   'enableButton' => false,
@@ -105,7 +105,7 @@ Arrastra y suelta las secciones pre-diseñadas, ajusta sus tamaños, <br> agrega
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder4',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder05-300x265.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder05.png',
   'title' => '<span class="blueLightColor3">Nuestras Landing Pages</span> <br> tienen botón de WhatsApp',
   'text' => 'Conversa con tus potenciales clientes más directamente a <br> través del botón de WhatsApp de nuestras Landing Pages <br>
 En escala podrás activar fácilmente este botón y te llegará <br>
@@ -127,7 +127,7 @@ un correo electrónico de los visitantes que dejen su data.',
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder5',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder06-264x300.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder06.png',
   'title' => '<span class="greenBlueColor">¿Quieres comenzar de cero?</span> <br> ¡No hay problema!',
   'text' => 'Deja salir a tu diseñador interior usando una plantilla en blanco. <br>
 Construye tus propias landing pages y secciones <br>
@@ -145,7 +145,7 @@ con total libertad creativa.',
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder6',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder07-300x293.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder07.png',
   'title' => '<span class="greenBlueColor">Ningún dispositivo se resiste.</span> <br> Las páginas son responsive.',
   'text' => 'No importa si es una laptop, tableta o un celular, el diseño de tus <br> páginas será 100% adaptativo para que se vean bien en todas partes.
 <br class="space"><br class="space">
@@ -166,7 +166,7 @@ Antes de publicar, podrás revisar fácilmente cada versión para <br> previsual
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder7',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder08-297x300.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder08.png',
   'title' => '<span class="greenBlueColor">¡Toc, Toc, Toc!</span> <br> ¿Es una página segura <br> para entrar?',
   'text' => '¡Sí! Todos entren con tranquilidad. En escala, cada landing page <br> que creas tiene su propio certificado de seguridad para que tus <br> visitantes tengan la confianza de navegarla libremente.',
   'enableButton' => false,
@@ -185,7 +185,7 @@ Antes de publicar, podrás revisar fácilmente cada versión para <br> previsual
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder8',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder09-300x227.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder09.png',
   'title' => '<span class="greenBlueColor">¿No tienes dominio?</span> <br> ¡Tranquilo! Te damos uno',
   'text' => 'Si aún no tienes dominio propio o prefieres generar uno diferente para <br> tus distintas landing pages, ¡escala te genera uno propio en segundos!
 <br class="space"><br class="space">
@@ -209,7 +209,7 @@ Conéctalo a escala rápidamente con un click. Si lo deseas, se conectará <br> 
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder9',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder10-282x300.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder10.png',
   'title' => '<span class="greenBlueColor">El poder de nosotros:</span> <br> escala y Facebook',
   'text' => 'escala está integrada con Facebook Pixels y Google Analytics para <br> que tengas información detallada sobre los visitantes de tu landing <br> page. ¡Mientras más integrada estén tus campañas con Facebook y <br> Google, mejores serán tus resultados!',
   'enableButton' => false,
@@ -288,7 +288,7 @@ para guardar las información de tus contactos.',
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder11',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder13-300x242.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder13.png',
   'title' => '<span class="greenBlueColor">¡Las páginas más </span> <br>
   veloces del mercado!',
   'text' => 'Si tu landing page demora más de unos segundos <br> en cargar puede frustrar a miles de tus visitantes.
@@ -317,10 +317,10 @@ escala utiliza tecnología avanzada para asegurar <br> que tus paginas carguen a
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder12',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder14-265x300.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder14.png',
   'title' => '<span class="greenBlueColor">¡Aquí están los números!</span> <br>
 Analiza y optimiza tus páginas <br>
-Monitorea el comportamiento,',
+Monitorea el comportamiento',
   'text' => '¿Cuántos visitantes llegan a tu landing page y cuántos de ellos se <br> convierten en tus clientes? Los reportes de escala responden esta <br> pregunta y más: cuánto tiempo estuvieron navegando en tu página, <br> en dónde hacen click y en qué parte se salieron…
   <br class="space"><br class="space">
 ¡Rastrear el comportamiento de tus visitantes te permite cambiar <br> de estrategia y lograr mejores resultados!',
@@ -389,7 +389,7 @@ Descúbrelo en tiempo real utilizando nuestras herramientas <br> de analíticas 
   'classSection' => 'funcPageBuilder15',
   'backgroundImageFile' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder15.png',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder17-300x298.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder17.png',
   'title' => '<span class="blueLightColor3">Empieza a construir</span> páginas <br> optimizadas para ventas',
   'text' => null,
   'enableButton' => true,

@@ -28,7 +28,10 @@ p.desc
 
 .section-row,
 .groupElements,
-.form7
+.containElements,
+.form7,
+a,
+button
     z-index: 100!important
 
 br.space
@@ -398,6 +401,76 @@ span.tag
                 font-weight: 700
     br
         display: none
+
+    label
+        display: flex
+        justify-content: center
+        align-content: center
+        align-self: center
+    // span.wpcf7-form-control-wrap
+    .customField
+        display: flex
+        flex-direction: row
+        padding: 6px 12px
+        span.wpcf7-form-control-wrap
+            // width: 100%
+            span.wpcf7-form-control.wpcf7-radio
+                // display: none
+                width: 100%
+                display: block
+                // height: 75px
+                display: flex
+                flex-direction: row
+                span.wpcf7-list-item
+                    // display: none
+                    display: flex!important
+                    flex-direction: row!important
+                    // width: 50px
+                    margin: 0 7.5px!important
+                    background-color: transparent
+                    border: none
+                    border-radius: 0
+                    padding-top: 0
+                    padding-bottom: 0
+                    span.wpcf7-list-item-label
+                        float: unset
+                        padding: unset
+                        background-color: transparent
+                        font-size: 14px
+                        padding: 5px 7.5px!important
+                        // padding-top: 0!important
+                        // padding-bottom: 0!important
+                        // float: left!important
+                        // display: block!important
+                        // float: unset!important
+                        text-transform: uppercase
+                    input[type="radio"]
+                        float: unset
+                        margin: auto 0
+                        position: unset!important
+                        // display: block!important
+                        // float: unset!important
+        label
+            box-sizing: border-box
+            font-family: "Nunito Sans", sans-serif
+            font-size: 18px!important
+            font-weight: normal!important
+            color: #706B6D
+            margin-right: 25px
+    .customField.nroField
+        // display: none
+        span.wpcf7-form-control-wrap
+            // display: none!important
+            input
+                background-color: #F8F8F8
+                border-radius: 40px
+                border-bottom: none
+                height: 35px!important
+                width: 100px!important
+                max-width: 100%!important
+                // display: none!important
+
+
 
 .wpcf7-not-valid-tip
     font-size: 14px
