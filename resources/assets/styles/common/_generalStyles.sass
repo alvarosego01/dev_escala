@@ -408,6 +408,7 @@ span.tag
         align-content: center
         align-self: center
     // span.wpcf7-form-control-wrap
+
     .customField
         display: flex
         flex-direction: row
@@ -457,6 +458,25 @@ span.tag
             font-weight: normal!important
             color: #706B6D
             margin-right: 25px
+    .customField
+        @include responsivo(telefonoTable)
+            display: flex
+            flex-direction: column!important
+            justify-content: flex-start
+            align-items: flex-start
+            label
+                // width: 100%
+                text-align: left
+                margin-right: auto
+        @include responsivo(pcMedio)
+            display: flex
+            flex-direction: column!important
+            justify-content: flex-start
+            align-items: flex-start
+            label
+                // width: 100%
+                text-align: left
+                margin-right: auto
     .customField.nroField
         // display: none
         span.wpcf7-form-control-wrap
@@ -466,9 +486,24 @@ span.tag
                 border-radius: 40px
                 border-bottom: none
                 height: 35px!important
-                width: 100px!important
                 max-width: 100%!important
+                @include responsivo(general)
+                    width: 100px!important
+
+                @include responsivo(resto)
+                    width: 100px!important
+
                 // display: none!important
+        @include responsivo(telefonoTable)
+            width: 100%
+            span,
+            input
+                width: 100%
+        @include responsivo(pcMedio)
+            width: 100%
+            span,
+            input
+                width: 100%
 
 
 

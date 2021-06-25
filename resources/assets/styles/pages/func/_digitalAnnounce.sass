@@ -9,7 +9,7 @@
 
 
     .customSection.sectionParent.funcAnnounceDigital0
-        padding-bottom: 75px!important
+        padding-bottom: 0!important
         // display: none
         @include responsivo(telefonoTable)
             padding-top: 0px!important
@@ -62,7 +62,28 @@
             background-position: 0 50%
             background-repeat: no-repeat
             background-size: cover
-            padding-bottom: 75px
+            padding-bottom: 100px
+
+        .backgroundPlanets
+            opacity: 1
+            transition: background 0.3s, border-radius 0.3s, opacity 0.3s
+            height: 100%
+            width: auto
+            top: 0
+            left: 0
+            right: 0
+            position: absolute
+            background-position: 50px 150px
+            background-repeat: no-repeat
+            background-size: 100% auto
+            @include responsivo(telefonoTable)
+                top: 0
+                background-position: 8px 125px
+                background-size: 100% auto
+            @include responsivo(pcMedio)
+                background-position: 8px 150px
+                background-size: 100% auto
+                top: 0
 
     .customSection.sectionParent.funcAnnounceDigital1
         .section-row
