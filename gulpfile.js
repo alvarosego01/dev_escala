@@ -21,13 +21,13 @@ gulp.task('browserSync-Local', () => {
   //watch files
 
   browserSync.init({
-    logPrefix: "escala_web",
+    logPrefix: "escala-web",
     open: false,
     // http: true,
     // online: true,
     notify: true,
     injectChanges: true,
-    proxy: "localhost/escala_web/",
+    proxy: "localhost/escala-web/",
     files: ['dist/styles/**'],
 
   });
@@ -38,7 +38,7 @@ gulp.task('browserSync-Server', () => {
   //watch file
 
   browserSync.init({
-    logPrefix: "escala_web",
+    logPrefix: "escala-web",
     open: true,
     https: true,
     online: true,
@@ -47,12 +47,12 @@ gulp.task('browserSync-Server', () => {
     proxy: "https://goescala.com/",
 
   serveStatic: ["assets/css"],
-    files: "assets/css/escala_webEstilos.css",
+    files: "assets/css/escala-webEstilos.css",
     snippetOptions: {
         rule: {
             match: /<\/head>/i,
             fn: function (snippet, match) {
-                return '<link rel="stylesheet" type="text/css" href="/escala_webEstilos.css"/>' + snippet + match;
+                return '<link rel="stylesheet" type="text/css" href="/escala-webEstilos.css"/>' + snippet + match;
             }
         }
     }
@@ -60,7 +60,7 @@ gulp.task('browserSync-Server', () => {
 });
 });
 
-// C:\xampp2\htdocs\escala_web\wp-content\themes\oceanwp-child\resources\assets\styles
+// C:\xampp2\htdocs\escala-web\wp-content\themes\oceanwp-child\resources\assets\styles
 
 gulp.task('sass', () => {
   return gulp.src('./resources/assets/styles/main.sass')
