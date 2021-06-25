@@ -73,9 +73,15 @@
 
                       }
 
-                      if( $_SERVER['SERVER_NAME'] == 'goescala' ){
+                      if( $_SERVER['SERVER_NAME'] == 'goescala.com' ){
 
                         echo do_shortcode( '[contact-form-7 id="3396" title="ZOOM Form"]' );
+
+
+                      }
+                      if( $_SERVER['SERVER_NAME'] == 'alvarosegovia.com' ){
+
+                        echo do_shortcode( '[contact-form-7 id="3223" title="ZOOM Form"]' );
 
 
                       }
