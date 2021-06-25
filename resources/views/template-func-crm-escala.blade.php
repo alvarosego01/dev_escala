@@ -29,7 +29,7 @@ el CRM de escala. Un sistema para <br> administrar la relación con tus clientes
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalacrm01.png',
   'textForm' => 'Empieza a probar escala
   <br style="display: block!important">
-  <span style="text-align: left"; width: 100% class="colorDarkGrey2">Sin tarjeta requerida</span>',
+  <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>',
   'overlayImage' => null,
   'threeCol' => false,
  ) ;
@@ -39,6 +39,8 @@ el CRM de escala. Un sistema para <br> administrar la relación con tus clientes
 
 @endheader_t1
 
+
+{{-- <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida --}}
 
 
 
@@ -252,7 +254,7 @@ $parameters = array(
 'classSection' => 'funcCrm10',
 'enableTitle' => false,
 'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalacrm11.png',
-'title' => 'Toma las acciones correctas <br> <span class="greenBlueColor">¡en el momento correcto¡</span>',
+'title' => 'Toma las acciones correctas <br> <span class="greenBlueColor">en el momento correcto</span>',
 'text' => 'Obtén datos claves e identifica patrones de comportamiento para mejorar <br> la comunicación con tus clientes. Usa esta información para tomar mejores <br> decisiones y optimizar una estrategia de ventas exitosa.',
 'enableButton' => false,
 // 'urlButton' => '#lead-form',

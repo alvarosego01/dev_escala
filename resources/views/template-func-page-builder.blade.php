@@ -27,7 +27,7 @@
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder01.png',
   'textForm' => 'Empieza a probar escala
   <br style="display: block!important">
-  <span style="text-align: left"; width: 100% class="colorDarkGrey2">Sin tarjeta requerida</span>',
+  <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>',
   'backgroundImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-bg.png',
   'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalaads-planets.svg',
   'threeCol' => false,
@@ -63,7 +63,7 @@
   'enableTitle' => false,
   'title' => '<span class="greenBlueColor">Haz que tus páginas sean</span> <br> tu motor de ventas',
   'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder03.png',
-  'text' => 'Nuestros programadores expertos y diseñadores talentosos <br> ya hicieron la tarea por ti. <strong class="greenBlueColor">¡Lo único difícil será elegir!</strong>
+  'text' => 'Nuestros programadores expertos y diseñadores talentosos <br> ya hicieron la tarea por ti.
 <br class="space"><br class="space">
 Escoge una de nuestras hermosas plantillas, adáptalas <br> y comienza a generar contactos.',
   'enableButton' => false,
@@ -320,7 +320,7 @@ escala utiliza tecnología avanzada para asegurar <br> que tus paginas carguen a
   'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder14.png',
   'title' => '<span class="greenBlueColor">¡Aquí están los números!</span> <br>
 Analiza y optimiza tus páginas <br>
-Monitorea el comportamiento,',
+Monitorea el comportamiento',
   'text' => '¿Cuántos visitantes llegan a tu landing page y cuántos de ellos se <br> convierten en tus clientes? Los reportes de escala responden esta <br> pregunta y más: cuánto tiempo estuvieron navegando en tu página, <br> en dónde hacen click y en qué parte se salieron…
   <br class="space"><br class="space">
 ¡Rastrear el comportamiento de tus visitantes te permite cambiar <br> de estrategia y lograr mejores resultados!',

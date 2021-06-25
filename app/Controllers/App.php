@@ -46,6 +46,20 @@ class App extends Controller
 
     }
 
+    public static function setElementByServer($server, $element){
+
+        if($_SERVER['SERVER_NAME'] == $server) {
+
+            return $element;
+
+        }else{
+
+            return '';
+
+        }
+
+    }
+
     public static function setFilePath($file){
 
         return get_stylesheet_directory_uri().$file;

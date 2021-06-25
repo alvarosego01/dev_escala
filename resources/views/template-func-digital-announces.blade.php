@@ -27,7 +27,7 @@
      'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads01.png',
      'textForm' => 'Empieza a probar escala
   <br style="display: block!important">
-  <span style="text-align: left"; width: 100% class="colorDarkGrey2">Sin tarjeta requerida</span>',
+  <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>',
      'threeCol' => true,
      'backgroundImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-bg.png',
       'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalaads-planets.svg',

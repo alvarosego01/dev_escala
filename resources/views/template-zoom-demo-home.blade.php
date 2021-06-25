@@ -2,6 +2,11 @@
   Template Name: [B] Zoom Demo Home
 --}}
 
+<link crossorigin="anonymous" rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNunito+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNunito%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.5.5&amp;display=swap" type="text/css" media="all">
+
+
+
+
 @extends('layouts.app')
 
 
@@ -17,10 +22,8 @@
   <div class="sections">
 
 
-    <section id="lead-form" class="customSection sectionParent zoomHomeSection0 fullWidth">
+    <section id="lead-form" class="customSection sectionParent zoomHomeSection0">
 
-
-      <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/Rectangle-1037-1.png')" class="backgroundFull">
 
         <div class="section-row">
 
@@ -36,14 +39,14 @@
 
 
                   <h1 class="principalBigTitle blackColor">
-                    Recibe un <span class="greenBlueColor">DEMO<br> personalizado</span>
+                    Recibe un <span class="greenBlueColor">DEMO <br> personalizado</span>
                   </h1>
                   <p class="principalBigText grayColorTexts">
-                    Descubre como <strong>escala</strong> puede ayudarte a hacer crecer tu negocio con un breve tour y consultas
+                    Descubre como escala puede ayudarte a <br> hacer crecer tu negocio con un breve <br> tour y consultas
                   </p>
 
                   <div class="containerImage">
-                    <img alt="Genera más leads, clientes y ventas con escala" src="http://localhost/escala_web/wp-content/uploads/2021/06/foto-hombre-laptop-1-2.png" alt="" loading="lazy">
+                    <img alt="Genera más leads, clientes y ventas con escala" src="{!! App::setFilePath('/assets/images/person/foto-hombre-laptop-1 2.png') !!}" alt="" loading="lazy">
                   </div>
 
 
@@ -60,7 +63,25 @@
 
                     <h4 class="titleFormat blackcolor">¡Comienza ahora!</h4>
 
-                    {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
+                    {{-- {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!} --}}
+
+                    @php
+
+                      if( $_SERVER['SERVER_NAME'] == 'localhost' ) {
+
+                        echo do_shortcode( '[contact-form-7 id="3205" title="ZOOM Form"]' );
+
+                      }
+
+                      if( $_SERVER['SERVER_NAME'] == 'goescala' ){
+
+                        echo do_shortcode( '[contact-form-7 id="3396" title="ZOOM Form"]' );
+
+
+                      }
+
+                    @endphp
+
 
                   </div>
 
@@ -74,11 +95,11 @@
 
         </div>
 
-        <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/Group-1821.svg')" class="backgroundPlanets">
+        <div style="background-image: url('{!! App::setFilePath('/assets/images/overlays/estrellas 2.png') !!}')" class="backgroundPlanets">
         </div>
 
 
-        </div>
+
 
     </section>
 

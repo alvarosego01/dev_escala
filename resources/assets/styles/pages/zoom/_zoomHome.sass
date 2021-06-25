@@ -10,9 +10,17 @@
     // p,
 
     .customSection.sectionParent.zoomHomeSection0
-        // padding-top: 150px
+        padding-top: 275px
+        padding-bottom: 0
+        background-color: $colorBlueLight
+        // padding: 175px 0!important
+        @include responsivo(telefonoTable)
+            padding-bottom: 100px
+            padding-top: 225px
+        @include responsivo(pcMedio)
+            padding-bottom: 100px
+            padding-top: 225px
         .section-row
-            padding: 100px 20px 0px 20px
             @include responsivo(telefonoTable)
                 width: 95%
             @include responsivo(pcMedio)
@@ -22,7 +30,7 @@
                 max-width: 1140px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1300px!important
+                max-width: 1240px!important
             .containerImage
                 margin: 0
                 padding: 0
@@ -32,133 +40,86 @@
             background-size: cover
             padding-bottom: 0
             // padding-top: 150px!important
-        img
-            height: 420px
-            margin-top: 30px
-
-    .customSection.sectionParent.funcPageBuilder1.func
-        padding: 0
         .section-row
-            @include responsivo(telefonoTable)
-                width: 95%
-            @include responsivo(pcMedio)
-                width: 90%
-            @include responsivo(general)
-                width: 100%!important
-                max-width: 1140px!important
-            @include responsivo(resto)
-                width: 100%!important
-                max-width: 1200px!important
-            .groupElements
-                padding-top: 0!important
-                padding-bottom: 0!important
-                .image
-                    .containerImage
-                        margin-bottom: 0
-                        padding: 0
-                @include responsivo(telefonoTable)
-                    padding: 50px 2.5%!important
-                @include responsivo(pcMedio)
-                    padding: 50px 2.5%!important
-
-
-    .customSection.sectionParent.funcPageBuilder2
-        background-color: $colorGreyLight2
-    .customSection.sectionParent.funcPageBuilder4
-        background-image: linear-gradient(180deg,#36768A 0%,#00506B 100%)
-        .secondaryTitle
-            color: white
-        p
-            color: white
-    .customSection.sectionParent.funcPageBuilder6
-        background-color: $colorBlueLight
-
-    .customSection.sectionParent.funcPageBuilder8
-        background-color: $colorGreyLight2
-
-    .customSection.sectionParent.funcPageBuilder10
-        background-color: $colorBlueLight
-        .groupElements
-            background-color: transparent!important
-            padding-top: 0
-            padding-bottom: 0
-        .backgroundPlanets
-            background-position: top center
-            background-repeat: no-repeat
-            top: 0
-            bottom: 0
-            position: absolute
-            width: 100%
-            height: 100%
-
-    .customSection.sectionParent.funcPageBuilder12
-        background-color: $colorGreyLight2
-    .customSection.sectionParent.funcPageBuilder13
-        // background-color: $colorGreyLight2
-        padding: 0!important
-        // padding-bottom: 70px!importan
-        .backgroundFull
-            padding: 175px 0!important
-            background-repeat: no-repeat
-            background-size: cover
-            background-position: top
-            @include responsivo(telefonoTable)
-                background-position: left top
-                padding: 70px 0!important
-                .containerImage
-                    display: none
-                    // img
-                        // height: 175px!important
-            @include responsivo(pcMedio)
-                background-position: left top
-                padding: 70px 0!important
-                .containerImage
-                    display: none
-                    // img
-                        // height: 175px!important
-        .section-row
-            .innerSectionElement.sct2
+            .innerSectionElement.sct1
                 .groupElements
-                    @include responsivo(telefonoTable)
-                        display: block!important
-                        // flex-direction: column-reverse!important
-                    @include responsivo(pcMedio)
-                        display: block!important
-                        // flex-direction: column-reverse!important
-                        // display: none
-            .containerImage
-                height: 300px
-                img
-                    display: none
-    .customSection.sectionParent.funcPageBuilder15
-        // background-color: $colorGreyLight2
-        padding: 50px!important
-        // padding-bottom: 70px!importan
-        background-image: linear-gradient(90deg,#36768A 36%,#00506B 100%)
+                    .info
+                        .containElements
+                            .principalBigTitle
+                                font-size: 48px
+                                line-height: 48px
+                                margin-bottom: 25px
+                            .principalBigText
+                                font-size: 20px
+                                line-height: 24px
+                                margin-bottom: 40px
+                            .containerImage
+                                position: relative
+                                left: -15%
+                                img
+                                    height: 500px
+                                    // margin-top:
+                                    margin-left: 0
+                            @include responsivo(telefonoTable)
+                                .principalBigTitle
+                                    line-height: 40px!important
+                                .principalBigTitle,
+                                .principalBigText
+                                    text-align: center!important
+                                .containerImage
+                                    left: unset!important
+                                    img
+                                        height: 250px
+                                        margin: 0 auto
+                            @include responsivo(pcMedio)
+                                .principalBigTitle,
+                                .principalBigText
+                                    text-align: center!important
+                                .containerImage
+                                    left: unset!important
+                                    img
+                                        height: 400px
+                                        margin: 0 auto
 
+                    .form7
+                        .formatForm
+                            max-width: unset!important
+                            width: 80%
+                            input,
+                            label
+                                font-size: 15px!important
+                                line-height: 17px!important
+                                // color:#858585!important
+                        input
+                            padding-top: 20px
+                            padding-bottom: 20px
+                        input.wpcf7-form-control.wpcf7-submit
+                            padding: 0 20px!important
+                            font-size: 18px!important
+                        .customField.radioSelect
+                            span.wpcf7-form-control.wpcf7-radio
+
+                                span.wpcf7-list-item
+                                    &:nth-of-type(2)
+                                        span.wpcf7-list-item-label
+                                            color: $colorOrange
         .backgroundPlanets
-            background-position: center center
+            background-position: 50px 200px
             background-repeat: no-repeat
-            background-size: contain
-            top: 0
-            bottom: 0
-            right: 0
-            left: 0
-            position: absolute
-            width: 100%
+            background-size: 100% auto
+            opacity: 1
+            transition: background 0.3s, border-radius 0.3s, opacity 0.3s
             height: 100%
-        .section-row
-            .groupElements
-                .secondaryTitle
-                    color: $colorWhite
-                    text-align: center
-                    margin-bottom: 50px
-                @include responsivo(telefonoTable)
-                    display: flex
-                    flex-direction: column
-                @include responsivo(pcMedio)
-                    display: flex
-                    flex-direction: column
-                a
-                    margin: 0 auto
-                    z-index: 100
+            width: auto
+            top: -5%
+            left: 0
+            right: 0
+            position: absolute
+            @include responsivo(telefonoTable)
+                background-position: 2.5% 2.5%
+                background-size: initial
+                top: 0
+            @include responsivo(pcMedio)
+                background-position: 8px 184px
+                background-size: 100% auto
+                top: 0
