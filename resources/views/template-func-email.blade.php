@@ -117,7 +117,7 @@ Aún mejor, ¡sabrás si tus emails están generando ventas!',
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/otto/otto_sombrero_email 1.png'),
   'title' => '<span class="greenBlueColor">Emails de escala,</span> <br> ¡trabajen por mí!',
-  'text' => 'utomatiza tus emails para que tus contactos reciban tus mensajes <br> en el momento indicado, ¡incluso mientras duermes!
+  'text' => 'Automatiza tus emails para que tus contactos reciban tus mensajes <br> en el momento indicado, ¡incluso mientras duermes!
 <br class="space"><br class="space">
 Envía emails de bienvenida, recordatorios de compra y mensajes de <br> seguimiento. ¿Todavía no han abierto tu email? ¡No hay problema! <br> Programa otro, en caso de que lo hayan olvidado.',
   'enableButton' => false,
@@ -210,7 +210,7 @@ de las conversaciones uno a uno.',
   'type' => 'backgroundColor',
   'classSection' => 'funcEmail8',
   'enableTitle' => true,
-  'titlePrincipal' => '<span class="greenBlueColor">Deja que</span> los Números hablen!',
+  'titlePrincipal' => '<span class="greenBlueColor">¡Deja que</span> los Números hablen!',
   'subTitlePrincipal' => 'Sigue el historial de tus emails en tiempo real',
   'overlay' => true,
   'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
