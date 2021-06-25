@@ -30,6 +30,15 @@
             background-size: cover
             padding-bottom: 50px
             // padding-top: 150px!important
+        .info
+            p.principalBigText.grayColorTexts
+                // width: 520px!important
+                @include responsivo(general)
+                    width: 600px!important
+
+                @include responsivo(resto)
+                    width: 600px!important
+
         .containerImage
             img
                 height: 275px

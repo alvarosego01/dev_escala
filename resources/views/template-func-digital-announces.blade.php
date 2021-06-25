@@ -47,7 +47,7 @@
       'description' => '“La manera más rápida de escalar tu negocio es dominando el <br> mercadeo digital. Cualquiera puede publicar un anuncio digital, la <br> clave está en saber generar tráfico calificado a tu landing page al <br> menor costo posible. <strong>En escala te brindamos todas las <br> herramientas para hacerlo posible</strong>”.',
       'byAm' => '<span class="greenBlueColor">Andrés Moreno</span>',
       'team' => 'Fundador de <span class="greenBlueColor">escala</span> y Open English',
-      'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads02-246x300.png'
+      'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads02.png'
      ) ;
     @endphp
 
@@ -64,7 +64,7 @@
   'titlePrincipal' => '<span class="greenBlueColor">Genera tráfico a tus páginas</span> <br> sin que tu billetera sufra',
   'subTitlePrincipal' => 'Crea y maneja potentes campañas digitales en <strong class="orangeColor">escala</strong>',
   'title' => '<span class="greenBlueColor">Segmenta y consigue</span> <br> más clientes potenciales',
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads03-280x300.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads03.png',
   'text' => 'Una de las claves para crear anuncios exitosos es escoger <br> correctamente el público al que deseas dirigir tus campañas de <br> mercadeo. En escala encuentras las herramientas que necesitas para <br> segmentar y aprovechar al máximo el poder de los medios digitales.',
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
@@ -82,7 +82,7 @@
   'type' => 'backgroundColor',
   'classSection' => 'funcAnnounceDigital3',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads04-230x300.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads04.png',
   'title' => '<span class="whiteColor">Diseña potentes anuncios digitales. <br> Atrae a tu audiencia ideal</span>',
   'text' => 'Despierta tu creatividad creando anuncios de Facebook e Instagram <br> fácilmente en escala.
 <br class="space"><br class="space"> Simplemente agrega textos que enganchen, escoge un titular irresistible, <br> y selecciona la foto o el video que mejor comunique <br> tu propuesta de valor.
@@ -105,7 +105,7 @@
   'type' => 'backgroundColor',
   'classSection' => 'funcAnnounceDigital4',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads05-300x232.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads05.png',
   'title' => '<span class="greenBlueColor">Conecta fácilmente</span> <br> tus anuncios digitales <br> a tus páginas',
   'text' => 'Una vez que has creado potentes campañas de anuncios digitales <br> en escala, simplemente selecciona el landing page al que deseas <br> dirigir el tráfico ¡y voilà!
 <br class="space"><br class="space">
@@ -127,7 +127,7 @@ Estás listo para desbordar tus landing pages con visitantes.',
   'type' => 'backgroundColor',
   'classSection' => 'funcAnnounceDigital5',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads06-292x300.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads06.png',
   'title' => '<span class="greenBlueColor">¿Listo para publicar?</span> <br> *Hazlo en un click*',
   'text' => 'Con escala, publicar tus campañas en Facebook <br>
 e Instagram es fácil y rápido.
@@ -153,7 +153,7 @@ hacen su magia para traer tráfico a tus páginas.',
   'type' => 'backgroundColor',
   'classSection' => 'funcAnnounceDigital6',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads07-281x300.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads07.png',
   'title' => '<span class="greenBlueColor">¡Optimizar,</span> <br> siempre optimizar!',
   'text' => 'Monitorea en tiempo real el rendimiento de tus campañas <br> de anuncios digitales con escala. <br>
 ¿Cuántas personas han visto tu anuncio? <br>
@@ -213,7 +213,7 @@ con el Pixel de Facebook integrado.
   'classSection' => 'funcAnnounceDigital8',
   'backgroundImageFile' => null,
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads09-193x300.png',
+  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads09.png',
   'title' => '<span class="blueLightColor3">¡Consigue más visitantes</span> <br> calificados ahora!',
   'text' => null,
   'enableButton' => true,
