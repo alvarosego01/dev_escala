@@ -12,7 +12,12 @@
     h2,
     h3
         font-family: "Nunito",Sans-serif!important
-
+    @include responsivo(telefonoTable)
+        padding-bottom: 100px
+        padding-top: 200px
+    @include responsivo(pcMedio)
+        padding-bottom: 100px
+        padding-top: 200px
     .backgroundPlanets
         background-position: 50px 250px
         background-repeat: no-repeat
@@ -26,11 +31,11 @@
         right: 0
         position: absolute
         @include responsivo(telefonoTable)
-            background-position: 2.5% 2.5%
-            background-size: initial
             top: 0
+            background-position: 8px 150px
+            background-size: 100% auto
         @include responsivo(pcMedio)
-            background-position: 8px 184px
+            background-position: 8px 150px
             background-size: 100% auto
             top: 0
     .overlayFlying
@@ -47,7 +52,7 @@
         position: absolute
         // z-index: -
         @include responsivo(telefonoTable)
-            background-position: 2.5% 2.5%
+            background-position: top right
             background-size: initial
             top: 0
         @include responsivo(pcMedio)
@@ -91,6 +96,10 @@
                         .containerImage
                             img
                                 height: 250px
+                                @include responsivo(telefonoTable)
+                                    height: 175px
+                                @include responsivo(pcMedio)
+                                    height: 200px
         .zoomMeetingSection2
             padding: 0
             .section-row
@@ -124,3 +133,24 @@
                                 margin: 0
                                 img
                                     height: 50px
+                        @include responsivo(telefonoTable)
+                            display: flex
+                            flex-direction: column
+                            a.primaryButton
+                                margin: 25px auto
+                                text-align: center
+                            .setDate
+                                justify-content: center
+                                display: flex
+                                flex-direction: column
+                                .hiperButtonGray
+                                    text-align: center
+                                    margin: 0 auto
+                        @include responsivo(pcMedio)
+                            display: flex
+                            flex-direction: column
+                            a.primaryButton
+                                margin: 25px auto
+                                text-align: center
+                            .setDate
+                                justify-content: center
