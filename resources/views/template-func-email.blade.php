@@ -34,8 +34,8 @@ relaciones se enfríen!',
      'image' => App::setFilePath('/assets/images/illustrations/team/10 1.png'),
      'textForm' => 'Empieza a probar escala <br style="display: block!important"> <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>  ',
      'threeCol' => true,
-     'backgroundImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-bg.png',
-      'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalaads-planets.svg',
+     'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
+  'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas 2.png'),
     ) ;
     @endphp
 
@@ -212,8 +212,8 @@ de las conversaciones uno a uno.',
   'enableTitle' => true,
   'titlePrincipal' => '<span class="greenBlueColor">¡Deja que</span> los Números hablen!',
   'subTitlePrincipal' => 'Sigue el historial de tus emails en tiempo real',
-  'overlay' => true,
-  'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
+  'overlay' => false,
+  // 'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
   'elements' => array(
     [
       'img' => App::setFilePath('/assets/images/illustrations/others/email-good 1.png'),

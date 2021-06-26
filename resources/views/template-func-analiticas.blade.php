@@ -1,7 +1,4 @@
 
-{{--
-  Template Name: [B] Func - Analiticas
---}}
 
 
 @extends('layouts.app')

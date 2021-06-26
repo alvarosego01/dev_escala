@@ -80,7 +80,6 @@
                         margin: 0 auto
 
 .component-contain-info-aio-5steps.customSection.sectionParent.fullWidth
-    .backgroundFull
     .section-row
         .innerSectionElement.sct1
             .containElements
@@ -234,6 +233,10 @@
                             height: 450px
                             margin: auto
                             display: block
+                            @include responsivo(telefonoTable)
+                                height: 225px!important
+                            @include responsivo(pcMedio)
+                                height: 225px!important
 
 
 .customSection.sectionParent.component-contain-info-am-t1.bg-color.customSection.floated
@@ -342,6 +345,10 @@
                     .containerImage
                         img
                             height: 250px
+                            @include responsivo(telefonoTable)
+                                height: 225px!important
+                            @include responsivo(pcMedio)
+                                height: 225px!important
                 .info
                     display: flex
                     flex-direction: column

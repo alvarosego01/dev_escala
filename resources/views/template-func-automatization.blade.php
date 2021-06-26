@@ -1,7 +1,4 @@
 
-{{--
-  Template Name: [B] Func - Automatizacion
---}}
 
 @extends('layouts.app')
 
@@ -25,13 +22,13 @@
      'threeCol' => false,
     ) ;
    @endphp
-   
+
    @header_t1( $parameters )
-   
+
    @endheader_t1
-   
-   
-   
+
+
+
    @php
     $parameters = array(
      'classSection' => 'funcAutomatization1 func',
@@ -41,12 +38,12 @@
      'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder02.png'
     ) ;
    @endphp
-   
+
    @contain_am_T1( $parameters )
-   
+
    @endcontain_am_T1
-   
-   
+
+
    @php
     $parameters = array(
      'type' => 'backgroundColor',
@@ -64,11 +61,11 @@
      'side' => 'left',
     ) ;
    @endphp
-   
+
    @contain_text_image_T1( $parameters )
-   
+
    @endcontain_text_image_T1
-   
+
    @php
     $parameters = array(
      'type' => 'backgroundColor',
@@ -83,9 +80,9 @@
      'side' => 'right',
     ) ;
    @endphp
-   
+
    @contain_text_image_T1( $parameters )
-   
+
    @endcontain_text_image_T1
    @php
     $parameters = array(
@@ -102,11 +99,11 @@
      'side' => 'left',
     ) ;
    @endphp
-   
+
    @contain_text_image_T1( $parameters )
-   
+
    @endcontain_text_image_T1
-   
+
    @php
     $parameters = array(
      'type' => 'backgroundColor',
@@ -119,9 +116,9 @@
      'side' => 'right',
     ) ;
    @endphp
-   
+
    @contain_text_image_T1( $parameters )
-   
+
    @endcontain_text_image_T1
    @php
     $parameters = array(
@@ -137,13 +134,13 @@
      'side' => 'left',
     ) ;
    @endphp
-   
+
    @contain_text_image_T1( $parameters )
-   
+
    @endcontain_text_image_T1
-   
-   
-   
+
+
+
    @php
     $parameters = array(
      'type' => 'backgroundColor',
@@ -158,11 +155,11 @@
      'side' => 'right',
     ) ;
    @endphp
-   
+
    @contain_text_image_T1( $parameters )
-   
+
    @endcontain_text_image_T1
-   
+
    @php
     $parameters = array(
      'type' => 'backgroundColor',
@@ -178,12 +175,12 @@
      'side' => 'left',
     ) ;
    @endphp
-   
+
    @contain_text_image_T1( $parameters )
-   
+
    @endcontain_text_image_T1
-   
-   
+
+
    @php
     $parameters = array(
      'type' => 'backgroundColor',
@@ -196,13 +193,13 @@
      'side' => 'right',
     ) ;
    @endphp
-   
+
    @contain_text_image_T1( $parameters )
-   
+
    @endcontain_text_image_T1
-   
-   
-   
+
+
+
    {{--
      @var $type - define type of container (backgroundImage || backgroundColor) | string
    @var $classSection - class context | string
@@ -210,9 +207,9 @@
    @var $enableTitle -  enable title | boolean
    @var $titlePrincipal - text title | html
    @var $subTitlePrincipal - define sub title | html
-   
+
    @var $elements - array of elements | array(
-   
+
        @var $img - image url | string
        @var $text - define info text | html
        @var $enableButton -  enable button | boolean
@@ -248,19 +245,19 @@
          'enableButton' => false,
          // 'urlButton' => '#lead-form',
          // 'textButton' => '¡Finalmente! Basta de adivinar',
-   
+
        ]
      )
     ) ;
    @endphp
-   
-   
-   
+
+
+
    @contain_multiple_cards_T1( $parameters )
-   
+
    @endcontain_multiple_cards_T1
-   
-   
+
+
    @php
     $parameters = array(
      'type' => 'backgroundColor',
@@ -282,13 +279,13 @@
      'side' => 'left',
     ) ;
    @endphp
-   
+
    @contain_text_image_T1( $parameters )
-   
+
    @endcontain_text_image_T1
-   
-   
-   
+
+
+
    @php
     $parameters = array(
      'type' => 'backgroundColor',
@@ -307,11 +304,11 @@
      'side' => 'right',
     ) ;
    @endphp
-   
+
    @contain_text_image_T1( $parameters )
-   
+
    @endcontain_text_image_T1
-   
+
    @php
     $parameters = array(
      'type' => 'backgroundColor',
@@ -326,11 +323,11 @@
      'side' => 'left',
     ) ;
    @endphp
-   
+
    @contain_text_image_T1( $parameters )
-   
+
    @endcontain_text_image_T1
-   
+
    @php
     $parameters = array(
      'type' => 'backgroundColor',
@@ -345,23 +342,23 @@
      'side' => 'right',
     ) ;
    @endphp
-   
+
    @contain_text_image_T1( $parameters )
-   
+
    @endcontain_text_image_T1
-   
+
    @php
     $parameters = array(
      'classSection' => 'funcAutomatization14',
      'title' => 'Empieza a construir páginas optimizadas para ventas',
      'goToUrl' => '#lead-form',
      'textButton' => '¡Pruébalo ahora!',
-   
+
     ) ;
    @endphp
-   
+
    @callToAction_T2( $parameters )
-   
+
    @endcallToAction_T2
 
   </div>
