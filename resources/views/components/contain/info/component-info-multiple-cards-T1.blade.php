@@ -45,12 +45,15 @@
 
                         <div class="containElements">
 
+                            @if (isset($titlePrincipal) && $titlePrincipal != null)
+
                             <h2 class="primaryTitle blackColor">
                                 {!! $titlePrincipal !!}
                             </h2>
 
+                            @endif
 
-                            @if ($subTitlePrincipal != null)
+                            @if (isset($subTitlePrincipal) && $subTitlePrincipal != null)
 
                                 <p class="primaryText grayColorTexts">
                                     {!! $subTitlePrincipal !!}
@@ -68,22 +71,31 @@
                     @foreach ($elements as $r)
                         <div class="groupElements">
 
+                            @if (isset($r['img']) && $r['img'] != null)
+
                             <div class="image">
                                 <div class="containerImage">
                                     <img src="{{ $r['img'] }}" alt="" loading="lazy">
                                 </div>
                             </div>
 
+                            @endif
+
                             <div class="info">
 
+                                @if (isset($r['title']) && $r['title'] != null)
                                 <h3 class="secondaryTitle">
                                     {!! $r['title'] !!}
                                 </h3>
+                                @endif
 
+                                @if (isset($r['text']) && $r['text'] != null)
                                 <p class="text">
                                     {!! $r['text'] !!}
                                 </p>
-                                @if ($r['enableButton'] != null)
+                                @endif
+
+                                @if (isset($r['enableButton']) && $r['enableButton'] != null)
                                     <a href="{{ $r['urlButton'] }}"
                                         class="goToHash secondaryButton hoverSecondaryButton">
                                         {{ $r['textButton'] }}
@@ -144,31 +156,43 @@
 
 
                 @foreach ($elements as $r)
-                    <div class="groupElements">
 
-                        <div class="image">
-                            <div class="containerImage">
-                                <img src="{{ $r['img'] }}" alt="" loading="lazy">
-                            </div>
+                <div class="groupElements">
+
+                    @if (isset($r['img']) && $r['img'] != null)
+
+                    <div class="image">
+                        <div class="containerImage">
+                            <img src="{{ $r['img'] }}" alt="" loading="lazy">
                         </div>
-
-                        <div class="info">
-
-                            <h3 class="secondaryTitle">
-                                {!! $r['title'] !!}
-                            </h3>
-
-                            <p class="text">
-                                {!! $r['text'] !!}
-                            </p>
-                            @if ($r['enableButton'] != null)
-                                <a href="{{ $r['urlButton'] }}" class="goToHash secondaryButton hoverSecondaryButton">
-                                    {{ $r['textButton'] }}
-                                </a>
-                            @endif
-                        </div>
-
                     </div>
+
+                    @endif
+
+                    <div class="info">
+
+                        @if (isset($r['title']) && $r['title'] != null)
+                        <h3 class="secondaryTitle">
+                            {!! $r['title'] !!}
+                        </h3>
+                        @endif
+
+                        @if (isset($r['text']) && $r['text'] != null)
+                        <p class="text">
+                            {!! $r['text'] !!}
+                        </p>
+                        @endif
+
+                        @if (isset($r['enableButton']) && $r['enableButton'] != null)
+                            <a href="{{ $r['urlButton'] }}"
+                                class="goToHash secondaryButton hoverSecondaryButton">
+                                {{ $r['textButton'] }}
+                            </a>
+                        @endif
+                    </div>
+
+                </div>
+
                 @endforeach
 
 
