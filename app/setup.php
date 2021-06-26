@@ -259,3 +259,14 @@ add_action('wp_enqueue_scripts', function () {
 
 
 
+/**
+ * Disables REFILL function in WPCF7 if Recaptcha is in use
+ */
+add_action('wp_enqueue_scripts', 'wpcf7_recaptcha_no_refill', 15, 0);
+function wpcf7_recaptcha_no_refill() {
+  $service = WPCF7_RECAPTCHA::get_instance();
+	if ( ! $service->is_active() ) {
+		return;
+	}
+  wp_add_inline_script('contact-form-7', 'wpcf7.cached = 0;', 'before' );
+}
