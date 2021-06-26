@@ -48,7 +48,7 @@
                         </h2>
 
                         @if ($text != null)
-                            <p class="principalBigText grayColor">
+                            <p class="principalBigText grayColorTexts">
                                 {!! $text !!}
                             </p>
                         @endif

@@ -15,10 +15,6 @@
 
     --}}
 
-
-
-
-
     <section class="component-contain-info-am-t1 bg-color customSection sectionParent {{ $classSection }} ">
 
         <div class="section-row">
@@ -33,18 +29,21 @@
 
                 <div class="containElements">
 
-                  <p class="primaryText colorGrey2 description">
+                  <p class="primaryText grayColorTexts description">
                     {!! $description !!}
                 </p>
 
-                <h2 class="byAm colorGrey2">
-                  {!! $byAm !!}
-                </h2>
+                <div class="personData">
 
-                <h2 class="team colorGrey2">
-                  {!! $team !!}
-                </h2>
+                  <h2 class="byAm grayColorTexts">
+                    {!! $byAm !!}
+                  </h2>
 
+                  <h2 class="team grayColorTexts">
+                    {!! $team !!}
+                  </h2>
+
+                </div>
 
                 </div>
 

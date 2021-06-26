@@ -35,21 +35,44 @@
                 background-position: 0 100%!important
             @include responsivo(pcMedio)
                 background-position: 0 100%!important
-        .section-row
-            margin: auto
-            .containElements
-                h2.primaryTitle
-                    text-align: center
-                    margin-bottom: 50px
-                    color: $colorWhite
-                    @include responsivo(telefonoTable)
-                        margin-bottom: 30px!important
-                    @include responsivo(pcMedio)
-                        margin-bottom: 30px!important
-                a.primaryButton
-                    // margin: 0 auto
-                    margin-left: auto
-                    margin-right: auto
-                    display: block
-                    width: fit-content
+    .section-row
+        margin: auto
+        .containElements
+            h2.primaryTitle
+                text-align: center
+                margin-bottom: 50px
+                color: $colorWhite
+                @include responsivo(telefonoTable)
+                    margin-bottom: 30px!important
+                @include responsivo(pcMedio)
+                    margin-bottom: 30px!important
+            a.primaryButton
+                // margin: 0 auto
+                margin-left: auto
+                margin-right: auto
+                display: block
+                width: fit-content
 
+
+
+.component-callToAction-T2.customSection.sectionParent
+    background-color: transparent
+    padding: 50px 0
+    .section-row
+        margin: auto
+        padding: 50px
+        .containElements
+            h2.primaryTitle
+                text-align: center
+                margin-bottom: 50px
+                color: $colorWhite
+                @include responsivo(telefonoTable)
+                    margin-bottom: 30px!important
+                @include responsivo(pcMedio)
+                    margin-bottom: 30px!important
+            a.secondaryButton
+                // margin: 0 auto
+                margin-left: auto
+                margin-right: auto
+                display: block
+                width: fit-content

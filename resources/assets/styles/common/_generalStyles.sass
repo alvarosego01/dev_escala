@@ -7,6 +7,38 @@ body
     width: 100%
     overflow-x: hidden
 
+p
+    width: auto!important
+
+p.text,
+p.description,
+p.desc
+    br
+        @include responsivo(specialTexts)
+            display: none
+
+// h1,
+// h2,
+// h3
+    // br
+        // @include responsivo(telefonoTable)
+            // display: none!important
+        // @include responsivo(pcMedio)
+            // display: none!important
+
+.section-row,
+.groupElements,
+.containElements,
+.form7,
+a,
+button
+    z-index: 100!important
+
+br.space
+    display: block!important
+
+.backgroundPlanets
+    z-index: 0!important
 
 .customSection.sectionParent.fullWidth
     width: 100%!important
@@ -89,6 +121,11 @@ body
 .greenBlueColor
     color: $colorGreenBlue
 
+.grayColorTexts
+    color: $colorGrey3
+
+.blueLightColor3
+    color: $colorBlueLight3
 
 .grayColor
     color: $colorGrey
@@ -101,6 +138,10 @@ body
 
 .whiteColor
     color: $colorWhite
+
+
+.colorDarkGrey2
+    color: $colorDarkGrey2
 
 span.tag
     font-size: 18px
@@ -118,8 +159,8 @@ span.tag
     margin-bottom: 20px
     @include responsivo(telefonoTable)
         font-size: 35px!important
-        br
-            display: none!important
+        // br
+        //     display: none!important
     @include responsivo(pcMedio)
         font-size: 50px!important
         // br
@@ -143,8 +184,8 @@ span.tag
     font-family: "Nunito Sans", sans-serif
     @include responsivo(telefonoTable)
         font-size: 22px!important
-        br
-            display: none!important
+        // br
+            // display: none!important
     @include responsivo(pcMedio)
         font-size: 35px!important
         // br
@@ -210,11 +251,12 @@ span.tag
     text-decoration: none
     font-size: 18px
     line-height: 1
-    padding: 20px 50px
+    // font-weight: 700
+    padding: 15px 25px
     color: $colorWhite
     background-color: $colorOrange
     border-radius: 5px
-    width: auto
+    width: fit-content
     transition: $transitionButton
     transform: scale(1)
     @include responsivo(telefonoTable)
@@ -227,14 +269,34 @@ span.tag
     @include responsivo(general)
         padding: 20px 50px 20px 50px!important
         font-size: 18px!important
-    // @include responsivo(resto)
 
+.secondaryButton
+    font-family: "Nunito Sans",Sans-serif
+    font-weight: 600
+    padding: 15px 25px
+    border-radius: 5px
+    transition: all .2s
+    background-color: $colorBlueLight3
+    color: $colorGreenBlue2
+    font-size: 16px
+    line-height: 28px
+    border-width: 0
+    display: inline-block
+    // line-height: 1
+    text-decoration: none
+    width: fit-content
     // display: flex
+
+.hoverSecondaryButton
+    &:hover
+        background-color: $colorBlueLight4
+        color: $colorGreenBlue2
 
 .hoverInEffect
     &:hover
         transform: scale(1.1)
         color: white
+        background-color: $orangeLight
 
 
 .wpcf7-form-control.wpcf7-submit
@@ -286,6 +348,9 @@ span.tag
 
 .formatForm,
 .elementor-widget-void-section-cf7
+    #loading
+        height: 50px!important
+        width: 50px!important
     .titleFormat
         font-family: "Nunito Sans", sans-serif
         font-size: 21px
@@ -336,6 +401,111 @@ span.tag
                 font-weight: 700
     br
         display: none
+
+    label
+        display: flex
+        justify-content: center
+        align-content: center
+        align-self: center
+    // span.wpcf7-form-control-wrap
+
+    .customField
+        display: flex
+        flex-direction: row
+        padding: 6px 12px
+        span.wpcf7-form-control-wrap
+            // width: 100%
+            span.wpcf7-form-control.wpcf7-radio
+                // display: none
+                width: 100%
+                display: block
+                // height: 75px
+                display: flex
+                flex-direction: row
+                span.wpcf7-list-item
+                    // display: none
+                    display: flex!important
+                    flex-direction: row!important
+                    // width: 50px
+                    margin: 0 7.5px!important
+                    background-color: transparent
+                    border: none
+                    border-radius: 0
+                    padding-top: 0
+                    padding-bottom: 0
+                    span.wpcf7-list-item-label
+                        float: unset
+                        padding: unset
+                        background-color: transparent
+                        font-size: 14px
+                        padding: 5px 7.5px!important
+                        // padding-top: 0!important
+                        // padding-bottom: 0!important
+                        // float: left!important
+                        // display: block!important
+                        // float: unset!important
+                        text-transform: uppercase
+                    input[type="radio"]
+                        float: unset
+                        margin: auto 0
+                        position: unset!important
+                        // display: block!important
+                        // float: unset!important
+        label
+            box-sizing: border-box
+            font-family: "Nunito Sans", sans-serif
+            font-size: 18px!important
+            font-weight: normal!important
+            color: #706B6D
+            margin-right: 25px
+    .customField
+        @include responsivo(telefonoTable)
+            display: flex
+            flex-direction: column!important
+            justify-content: flex-start
+            align-items: flex-start
+            label
+                // width: 100%
+                text-align: left
+                margin-right: auto
+        @include responsivo(pcMedio)
+            display: flex
+            flex-direction: column!important
+            justify-content: flex-start
+            align-items: flex-start
+            label
+                // width: 100%
+                text-align: left
+                margin-right: auto
+    .customField.nroField
+        // display: none
+        span.wpcf7-form-control-wrap
+            // display: none!important
+            input
+                background-color: #F8F8F8
+                border-radius: 40px
+                border-bottom: none
+                height: 35px!important
+                max-width: 100%!important
+                @include responsivo(general)
+                    width: 100px!important
+
+                @include responsivo(resto)
+                    width: 100px!important
+
+                // display: none!important
+        @include responsivo(telefonoTable)
+            width: 100%
+            span,
+            input
+                width: 100%
+        @include responsivo(pcMedio)
+            width: 100%
+            span,
+            input
+                width: 100%
+
+
 
 .wpcf7-not-valid-tip
     font-size: 14px

@@ -12,7 +12,7 @@
         background-size: cover
         position: relative
         background-repeat: no-repeat
-        padding-top: 200px
+        padding-top: 225px
         @include responsivo(telefonoTable)
             padding-top: 100px!important
             padding-bottom: 50px!important
@@ -382,8 +382,8 @@
                     justify-content: space-between
                     // margin: 30px
 
-                    .secondaryTitle
-                        font-weight: 600
+                    // .commonTitle
+                        // font-weight: 600
                     span.tag
                         margin-bottom: 20px
                     p
@@ -401,10 +401,15 @@
                                 text-align: right
                             .commonText
                                 text-align: right
+                    .commonText
+                        @include responsivo(telefonoTable)
+                            text-align: center
+                        @include responsivo(pcMedio)
+                            text-align: center
                 @include responsivo(telefonoTable)
                     padding: 20px!important
                     height: fit-content!important
-                    .secondaryTitle,
+                    .commonTitle,
                     span.tag
                         text-align: center
                     .containElements
@@ -422,7 +427,7 @@
                 @include responsivo(pcMedio)
                     padding: 20px!important
                     height: fit-content!important
-                    .secondaryTitle,
+                    .commonTitle,
                     span.tag
                         text-align: center
                     .containElements

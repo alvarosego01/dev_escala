@@ -45,18 +45,26 @@ class App extends Controller
         }
 
     }
-    // public static function setAssetsUrl(){
 
-    //     if($_SERVER['SERVER_NAME'] == 'localhost') {
+    public static function setElementByServer($server, $element){
 
-    //         return '/escala-dev';
+        if($_SERVER['SERVER_NAME'] == $server) {
 
-    //     }else{
+            return $element;
 
-    //         return '';
+        }else{
 
-    //     }
+            return '';
 
-    // }
+        }
+
+    }
+
+    public static function setFilePath($file){
+
+        return get_stylesheet_directory_uri().$file;
+
+    }
+
 
 }
