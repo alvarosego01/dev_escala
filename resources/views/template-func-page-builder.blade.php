@@ -62,7 +62,7 @@
   // 'backgroundImageFile' => ,
   'enableTitle' => false,
   'title' => '<span class="greenBlueColor">Haz que tus páginas sean</span> <br> tu motor de ventas',
-  'img' => App::setFilePath('resources\assets\images\person\am\andres-1.png'),
+  'img' => App::setFilePath('resources\assets\images\illustrations\team\plantillas.png'),
   'text' => 'Nuestros programadores expertos y diseñadores talentosos <br> ya hicieron la tarea por ti.
 <br class="space"><br class="space">
 Escoge una de nuestras hermosas plantillas, adáptalas <br> y comienza a generar contactos.',
@@ -82,7 +82,7 @@ Escoge una de nuestras hermosas plantillas, adáptalas <br> y comienza a generar
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder3',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder04.png',
+  'img' => App::setFilePath('resources\assets\images\illustrations\others\play.png'),
   'title' => '<span class="greenBlueColor">Dale tu toque personal</span><br> con facilidad',
   'text' => '<strong class="greenBlueColor">¿Has jugado Tetris?</strong> <br>
 Combina tus bloques de contenido para crear tu landing page ideal.
