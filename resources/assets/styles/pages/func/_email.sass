@@ -44,12 +44,20 @@
                         .containerImage
                             padding: 0
                             img
-                                height: 400px
+                                // height: 325px
+                                height: 22.5vw
+                                max-height: 400px
                                 margin-right: auto
                                 @include responsivo(telefonoTable)
-                                    height: 350px
+                                    height: 300px
                                 @include responsivo(pcMedio)
-                                    height: 350px
+                                    height: 300px
+                                // height: 400px
+                                // margin-right: auto
+                                // @include responsivo(telefonoTable)
+                                //     height: 350px
+                                // @include responsivo(pcMedio)
+                                //     height: 350px
 
                     .ele2
                         @include responsivo(general)
@@ -90,7 +98,7 @@
             left: 0
             right: 0
             position: absolute
-            background-position: 50px 150px
+            background-position: 50px 125px
             background-repeat: no-repeat
             background-size: 100% auto
             @include responsivo(telefonoTable)
@@ -98,7 +106,7 @@
                 background-position: 8px 125px
                 background-size: 100% auto
             @include responsivo(pcMedio)
-                background-position: 8px 150px
+                background-position: 8px 125px
                 background-size: 100% auto
                 top: 0
 
