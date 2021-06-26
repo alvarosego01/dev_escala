@@ -24,12 +24,12 @@
   'classSection' => 'func funcPageBuilder0',
   'title' => 'Crea potentes páginas.<br> <span class="greenBlueColor">Es tan fácil como copiar y pegar</span>',
   'text' => 'En escala puedes construir rápidamente landing pages = «websites <br> optimizados» para capturar la información de contacto de tus visitantes, <br> sin necesidad de programar o integrar.',
-  'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder01.png',
+  'image' => App::setFilePath('resources\assets\images\illustrations\team\pagebuilder_01.png'),
   'textForm' => 'Empieza a probar escala
   <br style="display: block!important">
   <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>',
-  'backgroundImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-bg.png',
-  'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalaads-planets.svg',
+  'backgroundImage' => App::setFilePath('resources\assets\images\backgrounds\degradeBlue1.png'),
+  'overlayImage' => App::setFilePath('resources\assets\images\overlays\estrellas 2.png'),
   'threeCol' => false,
  ) ;
 @endphp
@@ -46,7 +46,7 @@
   'description' => '<strong class="greenBlueColor">"«En las landing pages de Open English generamos más de 1 millón <br> de contactos al año</strong>. Así acumulamos aprendizajes para optimizar <br> nuestras páginas y potenciar nuestras ventas. Basados en una década <br> de experiencia, creamos el Page Builder más robusto del mercado”.',
   'byAm' => '<span class="greenBlueColor">Andrés Moreno</span>',
   'team' => 'Fundador de <span class="greenBlueColor">escala</span> y Open English',
-  'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder02.png'
+  'image' => App::setFilePath('resources\assets\images\person\am\andres-1.png')
  ) ;
 @endphp
 
@@ -62,7 +62,7 @@
   // 'backgroundImageFile' => ,
   'enableTitle' => false,
   'title' => '<span class="greenBlueColor">Haz que tus páginas sean</span> <br> tu motor de ventas',
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder03.png',
+  'img' => App::setFilePath('resources\assets\images\person\am\andres-1.png'),
   'text' => 'Nuestros programadores expertos y diseñadores talentosos <br> ya hicieron la tarea por ti.
 <br class="space"><br class="space">
 Escoge una de nuestras hermosas plantillas, adáptalas <br> y comienza a generar contactos.',
@@ -408,6 +408,14 @@ Descúbrelo en tiempo real utilizando nuestras herramientas <br> de analíticas 
 @endcontain_text_image_T1
 
 
+{{-- @hasfield('form7')
+
+@field('form7')
+
+
+@endfield
+
+ --}}
 
   </div>
 
