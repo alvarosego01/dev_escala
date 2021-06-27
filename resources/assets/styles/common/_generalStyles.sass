@@ -7,6 +7,17 @@ body
     width: 100%
     overflow-x: hidden
 
+
+.primaryTitle,
+.principalBigTitle,
+.secondaryTitle,
+.commonTitle
+    br
+        @include responsivo(telefonoTable)
+            display: block!important
+        @include responsivo(pcMedio)
+            display: block!important
+
 p
     width: auto!important
 
@@ -121,6 +132,9 @@ br.space
 .greenBlueColor
     color: $colorGreenBlue
 
+.blueColor
+    color: $colorGreenBlue
+
 .grayColorTexts
     color: $colorGrey3
 
@@ -202,6 +216,7 @@ span.tag
         font-size: 20px!important
     @include responsivo(pcMedio)
         font-size: 30px!important
+
 
 .secondaryTitle
     margin-bottom: 20px
