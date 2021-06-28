@@ -8,15 +8,11 @@ use Roots\Sage\Assets\JsonManifest;
 use Roots\Sage\Template\Blade;
 use Roots\Sage\Template\BladeProvider;
 
-
 use App\Controllers\App;
-
 /**
  * Theme assets
  */
 add_action('wp_enqueue_scripts', function () {
-
-
 
     // acá se añaden los templates que usarán bootstrap
     $bootstrapPages = array(
@@ -32,6 +28,8 @@ add_action('wp_enqueue_scripts', function () {
         "views/template-escala-fex.blade.php",
         "views/template-zoom-demo-home.blade.php",
         "views/template-zoom-demo-meeting.blade.php",
+        "views/template-open-webinar-escala.blade.php",
+        "views/template-open-webinarr-escala-meeting.blade.php",
     );
 
     // views/template-home.blade.php
@@ -208,12 +206,13 @@ add_action('wp_enqueue_scripts', function () {
         "views/template-escala-fex.blade.php",
         "views/template-zoom-demo-home.blade.php",
         "views/template-zoom-demo-meeting.blade.php",
+        "views/template-open-webinar-escala.blade.php",
+        "views/template-open-webinarr-escala-meeting.blade.php",
     );
 
     // views/template-home.blade.php
 
     if (is_page_template($bootstrapPages)) {
-
 
 
         // wp_register_style('nunitoFonts', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
