@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '70c4c44bf3f4eb60e2bb88df67f02064efd878b8',
+    'reference' => '910963923d15bd104dfb79b49db6249b45b06d36',
     'name' => 'roots/sage',
   ),
   'versions' => 
@@ -203,7 +203,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '70c4c44bf3f4eb60e2bb88df67f02064efd878b8',
+      'reference' => '910963923d15bd104dfb79b49db6249b45b06d36',
     ),
     'roots/sage-installer' => 
     array (
