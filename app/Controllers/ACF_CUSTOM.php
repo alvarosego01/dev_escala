@@ -25,21 +25,25 @@ class ACF_CUSTOM extends Controller
         //     );
         // }
 
-        acf_add_local_field_group(
+
+        if( function_exists('acf_add_local_field_group') ){
+
+            acf_add_local_field_group(
 
                 $this->allPages()
 
-        );
-        acf_add_local_field_group(
+            );
+            acf_add_local_field_group(
 
                 $this->webinar_home()
 
-        );
-        acf_add_local_field_group(
+            );
+            acf_add_local_field_group(
 
                 $this->webinar_meeting()
 
-        );
+            );
+        }
 
     }
 
