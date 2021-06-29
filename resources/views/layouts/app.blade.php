@@ -11,7 +11,8 @@ $redirect = get_field('cf7_redirect');
 @endphp
 <script>
 document.addEventListener( 'wpcf7mailsent', function( event ) {
-  location = $_SERVER['APP_URL'].$redirect;
+//   location = $_SERVER['APP_URL'].$redirect;
+  location = $redirect;
 }, false );
 </script>
 @endfield
