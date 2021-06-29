@@ -24,13 +24,13 @@
      'classSection' => 'threeCol funcAnnounceDigital0 func',
      'title' => '<span class="greenBlueColor">Atrae visitantes</span> <br> como un imán',
      'text' => 'Crea, publica y administra tus <br> campañas de anuncios digitales, <br> desde una sola plataforma.',
-     'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads01.png',
      'textForm' => 'Empieza a probar escala
-  <br style="display: block!important">
-  <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>',
+     <br style="display: block!important">
+     <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>',
      'threeCol' => true,
-     'backgroundImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-bg.png',
-      'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escalaads-planets.svg',
+     'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
+  'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas 2.png'),
+  'image' => App::setFilePath('/assets/images/illustrations/team/01.png'),
     ) ;
     @endphp
 
@@ -47,7 +47,7 @@
       'description' => '“La manera más rápida de escalar tu negocio es dominando el <br> mercadeo digital. Cualquiera puede publicar un anuncio digital, la <br> clave está en saber generar tráfico calificado a tu landing page al <br> menor costo posible. <strong>En escala te brindamos todas las <br> herramientas para hacerlo posible</strong>”.',
       'byAm' => '<span class="greenBlueColor">Andrés Moreno</span>',
       'team' => 'Fundador de <span class="greenBlueColor">escala</span> y Open English',
-      'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads02.png'
+      'image' => App::setFilePath('/assets/images/person/am/02_andres.png'),
      ) ;
     @endphp
 
@@ -64,7 +64,7 @@
   'titlePrincipal' => '<span class="greenBlueColor">Genera tráfico a tus páginas</span> <br> sin que tu billetera sufra',
   'subTitlePrincipal' => 'Crea y maneja potentes campañas digitales en <strong class="orangeColor">escala</strong>',
   'title' => '<span class="greenBlueColor">Segmenta y consigue</span> <br> más clientes potenciales',
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads03.png',
+  'img' => App::setFilePath('/assets/images/illustrations/others/03_barato.png'),
   'text' => 'Una de las claves para crear anuncios exitosos es escoger <br> correctamente el público al que deseas dirigir tus campañas de <br> mercadeo. En escala encuentras las herramientas que necesitas para <br> segmentar y aprovechar al máximo el poder de los medios digitales.',
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
@@ -82,7 +82,7 @@
   'type' => 'backgroundColor',
   'classSection' => 'funcAnnounceDigital3',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads04.png',
+  'img' => App::setFilePath('/assets/images/illustrations/others/04_anuncio.png'),
   'title' => '<span class="whiteColor">Diseña potentes anuncios digitales. <br> Atrae a tu audiencia ideal</span>',
   'text' => 'Despierta tu creatividad creando anuncios de Facebook e Instagram <br> fácilmente en escala.
 <br class="space"><br class="space"> Simplemente agrega textos que enganchen, escoge un titular irresistible, <br> y selecciona la foto o el video que mejor comunique <br> tu propuesta de valor.
@@ -105,7 +105,7 @@
   'type' => 'backgroundColor',
   'classSection' => 'funcAnnounceDigital4',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads05.png',
+  'img' => App::setFilePath('/assets/images/illustrations/others/05_FB.png'),
   'title' => '<span class="greenBlueColor">Conecta fácilmente</span> <br> tus anuncios digitales <br> a tus páginas',
   'text' => 'Una vez que has creado potentes campañas de anuncios digitales <br> en escala, simplemente selecciona el landing page al que deseas <br> dirigir el tráfico ¡y voilà!
 <br class="space"><br class="space">
@@ -127,7 +127,7 @@ Estás listo para desbordar tus landing pages con visitantes.',
   'type' => 'backgroundColor',
   'classSection' => 'funcAnnounceDigital5',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads06.png',
+  'img' => App::setFilePath('/assets/images/illustrations/team/06_publicar.png'),
   'title' => '<span class="greenBlueColor">¿Listo para publicar?</span> <br> *Hazlo en un click*',
   'text' => 'Con escala, publicar tus campañas en Facebook <br>
 e Instagram es fácil y rápido.
@@ -153,7 +153,7 @@ hacen su magia para traer tráfico a tus páginas.',
   'type' => 'backgroundColor',
   'classSection' => 'funcAnnounceDigital6',
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads07.png',
+  'img' => App::setFilePath('/assets/images/illustrations/others/07_optimizar.png'),
   'title' => '<span class="greenBlueColor">¡Optimizar,</span> <br> siempre optimizar!',
   'text' => 'Monitorea en tiempo real el rendimiento de tus campañas <br> de anuncios digitales con escala. <br>
 ¿Cuántas personas han visto tu anuncio? <br>
@@ -181,7 +181,7 @@ Lo que no se mide no mejora. Conoce lo que funciona, <br> aprende de lo que no y
   'backgroundImageFile' => App::setFilePath('/assets/images/banners/banner-blue-planets2.png'),
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/banners/banner-mujer_mujer2.png'),
-  'title' => '<span class="whiteColor">tus anuncios digitales</span> <br> ¿Qué es un Pixel y por qué <br> es importante?
+  'title' => '<span class="whiteColor">Tus anuncios digitales</span> <br> ¿Qué es un Pixel y por qué <br> es importante?
   ',
   'text' => '
   <span style="text-align: center; font-size: 20px; font-weight: 600!important">Crea y maneja potentes campañas digitales en <span class="orangeColor">escala</span></span>
@@ -213,7 +213,7 @@ con el Pixel de Facebook integrado.
   'classSection' => 'funcAnnounceDigital8',
   'backgroundImageFile' => null,
   'enableTitle' => false,
-  'img' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/escaaads09.png',
+  'img' => App::setFilePath('/assets/images/illustrations/others/09_banner.png'),
   'title' => '<span class="blueLightColor3">¡Consigue más visitantes</span> <br> calificados ahora!',
   'text' => null,
   'enableButton' => true,
@@ -222,7 +222,7 @@ con el Pixel de Facebook integrado.
   'textButton' => 'Pruébalo ahora',
   'side' => 'right',
   'overlay' => true,
-  'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets2.svg',
+  'overlayImage' => App::setFilePath('/assets/images/overlays/planets2.svg'),
 
  ) ;
 @endphp

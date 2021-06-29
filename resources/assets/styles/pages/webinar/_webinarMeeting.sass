@@ -1,0 +1,193 @@
+
+
+@import common/global
+
+#webinarMeeting-Bootstrap
+    padding: 175px 0
+    padding-bottom: 150px
+    background-color: $colorBlueLight
+    position: relative
+
+    h1,
+    h2,
+    h3
+        font-family: "Nunito",Sans-serif!important
+    @include responsivo(telefonoTable)
+        padding-bottom: 100px
+        padding-top: 200px
+    @include responsivo(pcMedio)
+        padding-bottom: 100px
+        padding-top: 200px
+    .backgroundPlanets
+        opacity: 1
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s
+        height: 100%
+        width: auto
+        top: -5%
+        left: 0
+        right: 0
+        position: absolute
+        background-position: 50px 250px
+        background-repeat: no-repeat
+        background-size: 100% auto
+        @include responsivo(telefonoTable)
+            top: 0
+            background-position: 8px 150px
+            background-size: 100% auto
+        @include responsivo(pcMedio)
+            background-position: 8px 150px
+            background-size: 100% auto
+            top: 0
+    .overlayFlying
+        background-position: center 20%
+        background-repeat: no-repeat
+        background-size: 1500px
+        opacity: 1
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s
+        height: 100%
+        width: auto
+        top: 0
+        left: 0
+        right: 0
+        position: absolute
+        // z-index: -
+        @include responsivo(telefonoTable)
+            background-position: top right
+            background-size: initial
+            top: 0
+        @include responsivo(pcMedio)
+            background-position: 8px 184px
+            background-size: 100% auto
+            top: 0
+
+    .section-row
+        @include responsivo(telefonoTable)
+            width: 95%
+        @include responsivo(pcMedio)
+            width: 90%
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1100px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1100px!important
+    .sections
+        .webinarMeetingSection0
+            .section-row
+                .innerSectionElement
+                    .containElements
+                        .principalBigTitle
+                            font-size: 48px
+                            line-height: 48px
+                            text-align: center
+                            // margin-bottom: 25px
+        .webinarMeetingSection1
+            padding: 0
+            margin-bottom: 25px
+            .section-row
+                .innerSectionElement
+                    background-color: rgba($colorWhite, 0.6)
+                    height: auto
+                    display: flex
+                    justify-content: center
+                    align-content: center
+                    min-height: 500px
+                    .containElements
+                        margin: auto
+                        width: 100%
+                        a
+                            display: block
+                            margin: 0 auto
+                        .containerImage
+                            img
+                                height: 250px
+                                @include responsivo(telefonoTable)
+                                    height: 175px
+                                @include responsivo(pcMedio)
+                                    height: 200px
+                        .vczapi-join-via-browser-main-wrapper
+                            h1,
+                            .vczapi-zoom-app-notice-wrap.zoom-app-notice
+                                display: none
+                            iframe
+                                @include responsivo(telefonoTable)
+                                    height: auto!important
+                                    width: auto!important
+                                @include responsivo(pcMedio)
+                                    height: auto!important
+                                    width: auto!important
+                                @include responsivo(general)
+                                    height: 650px!important
+                                @include responsivo(resto)
+                                    height: 650px!important
+                        h3
+                            text-align: center
+                            width: 100%
+                            font-weight: bold
+        .webinarMeetingSection2
+            padding: 0
+            .section-row
+                .innerSectionElement
+                    background-color: transparent
+                    height: auto
+                    // justify-content: center
+                    // align-content: center
+                    .containElements
+                        display: flex
+                        justify-content: flex-end
+                        @include responsivo(telefonoTable)
+                            justify-content: center
+                        @include responsivo(pcMedio)
+                            justify-content: center
+                        // flex-direction: row
+                        width: 100%
+                        padding: 15px 0
+                        a
+                            font-family: "Nunito Sans",Sans-serif
+                            font-size: 20px
+                            font-weight: 500
+                            text-decoration: none
+                            color: $colorBlack
+                            display: flex
+                            align-self: center
+                            align-items: center
+                            img
+                                height: 40px
+                                margin-left: 15px
+                            &:hover
+                                color: $colorOrange
+                        // .setDate
+                        //     display: flex
+                        //     flex-direction: row
+                        //     .hiperButtonGray
+                        //         // display: flex
+                        //         // justify-content: center
+                        //         margin: auto 15px
+                        //         display: block
+                        //         font-size: 24px
+                        //         text-decoration: none
+                        //     .containerImage
+                        //         margin: 0
+                        //         img
+                        //             height: 50px
+                        // @include responsivo(telefonoTable)
+                        //     display: flex
+                        //     flex-direction: column
+                        //     a.primaryButton
+                        //         margin: 25px auto
+                        //         text-align: center
+                        //     .setDate
+                        //         justify-content: center
+                        //         display: flex
+                        //         flex-direction: column
+                        //         .hiperButtonGray
+                        //             text-align: center
+                        //             margin: 0 auto
+                        // @include responsivo(pcMedio)
+                        //     display: flex
+                        //     flex-direction: column
+                        //     a.primaryButton
+                        //         margin: 25px auto
+                        //         text-align: center
+                        //     .setDate
+                        //         justify-content: center

@@ -4,6 +4,20 @@
 get_header();
 @endphp
 
+
+@hasfield('cf7_redirect') )
+@php
+$redirect = get_field('cf7_redirect');
+@endphp
+<script>
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+//   location = $_SERVER['APP_URL'].$redirect;
+  location = $redirect;
+}, false );
+</script>
+@endfield
+
+
 <div class="wrap container global typeBootstrap" role="document">
     <div class="content">
         <main class="main">

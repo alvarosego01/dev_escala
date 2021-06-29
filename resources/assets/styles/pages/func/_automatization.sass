@@ -2,6 +2,8 @@
 
 #func-automatization-bootstrap
 
+    // display: none
+
     h1,
     h2,
     h3
@@ -9,16 +11,11 @@
     // span
     // p,
 
-    .customSection.sectionParent.funcAutomatization0.threeCol
-        background-color: $colorBlueLight
-        padding-bottom: 275px
-        @include responsivo(telefonoTable)
-            padding-top: 125px!important
-            padding-bottom: 375px!important
-        @include responsivo(pcMedio)
-            padding-bottom: 375px!important
+    .customSection.sectionParent.funcAutomatization0
+        // padding-top: 150px
         .section-row
             padding: 20px
+            padding-bottom: 0
             @include responsivo(telefonoTable)
                 width: 95%
             @include responsivo(pcMedio)
@@ -29,10 +26,53 @@
             @include responsivo(resto)
                 width: 100%!important
                 max-width: 1300px!important
+        .backgroundFull
+            background-position: 0 50%
+            background-repeat: no-repeat
+            background-size: cover
+            padding-bottom: 50px
+            // padding-top: 150px!important
+        .info
+            .containElements
+                .principalBigTitle.blackColor
+                    text-align: center
+                p.principalBigText.grayColorTexts
+                    text-align: center
+                    @include responsivo(general)
+                        width: 600px!important
 
+                    @include responsivo(resto)
+                        width: 600px!important
+                .containerImage
+                    img
+                        height: 350px
+                        @include responsivo(telefonoTable)
+                            height: 300px
+                        @include responsivo(pcMedio)
+                            height: 300px
 
-    .customSection.sectionParent.funcAutomatization1.func
-        padding: 0
+        .backgroundPlanets
+            opacity: 1
+            transition: background 0.3s, border-radius 0.3s, opacity 0.3s
+            height: 100%
+            width: auto
+            top: 0
+            left: 0
+            right: 0
+            position: absolute
+            background-position: 50px 125px
+            background-repeat: no-repeat
+            background-size: 100% auto
+            @include responsivo(telefonoTable)
+                top: 0
+                background-position: 8px 125px
+                background-size: 100% auto
+            @include responsivo(pcMedio)
+                background-position: 8px 125px
+                background-size: 100% auto
+                top: 0
+
+    .customSection.sectionParent.funcAutomatization1
         .section-row
             @include responsivo(telefonoTable)
                 width: 95%
@@ -44,39 +84,152 @@
             @include responsivo(resto)
                 width: 100%!important
                 max-width: 1200px!important
+            .groupElements
+                padding-top: 0!important
+                padding-bottom: 0!important
+                .image
+                    .containerImage
+                        margin-bottom: 0
+                        padding: 0
+                @include responsivo(telefonoTable)
+                    padding: 50px 2.5%!important
+                @include responsivo(pcMedio)
+                    padding: 50px 2.5%!important
+        section.innerSectionElement.sct1
+            // display: none
+            // border-radius: 30px 30px 30px 30px
+            // background-color: red
+            .groupElements
+                background-color: #E6F2F8
+                padding: 100px 50px!important
+                @include responsivo(telefonoTable)
+                    padding: 50px!important
+                @include responsivo(pcMedio)
+                    padding: 50px!important
+                @include responsivo(general)
+                   padding-right: 0!important
+
+                @include responsivo(resto)
+                    padding-right: 0!important
+                .image
+                    position: relative
+                    .containerImage
+                        display: flex
+                        // position: relative
+                        position: absolute
+                        top: -75%
+                        right: 50%
+                        left: 0
+                        margin: auto
+
+                        img
+                            // position: absolute
+                            height: 425px
+                            margin: auto
+                            display: block
+                            // top: 0
+                        @include responsivo(telefonoTable)
+                            position: unset!important
+                            margin-bottom: 50px
+                            img
+                                height: 375px
+                        @include responsivo(pcMedio)
+                            position: unset!important
+                            margin-bottom: 50px
+                            img
+                                height: 375px
 
 
-    .customSection.sectionParent.funcAutomatization2
-        background-color: $colorGreyLight2
-    .customSection.sectionParent.funcAutomatization4
+
+
+    // .customSection.sectionParent.funcAutomatization2
+    .customSection.sectionParent.funcAutomatization3
+        background-color: $colorBlueLight
+        .section-row
+            section.innerSectionElement.sct1
+                margin-bottom: 25px!important
+                .containElements
+                    h2.primaryTitle.blackColor
+                        font-size: 30px!important
+                        line-height: 32.5px!important
+                    p.primaryText.grayColorTexts
+                            font-size: 23px
+                            // font-weight: 500
+                            line-height: 1.3em
+            .innerSectionElement.sct2
+                .groupElements
+                    background-color: transparent!important
+                    padding: 25px 15px!important
+                    .info
+                        .secondaryTitle
+                            font-size: 20px!important
+                            line-height: 21px!important
+                    @include responsivo(telefonoTable)
+                        margin-bottom: 0!important
+                    @include responsivo(pcMedio)
+                        margin-bottom: 0!important
+
+    .customSection.sectionParent.funcAutomatization5
         background-image: linear-gradient(180deg,#36768A 0%,#00506B 100%)
         .secondaryTitle
             color: white
         p
             color: white
-    .customSection.sectionParent.funcAutomatization6
+
+    .customSection.sectionParent.funcAutomatization7
         background-color: $colorBlueLight
 
-    .customSection.sectionParent.funcAutomatization8
-        background-color: $colorGreyLight2
 
-    .customSection.sectionParent.funcAutomatization10
-        background-color: $colorBlueLight
-        .groupElements
-            background-color: transparent!important
-
-    .customSection.sectionParent.funcAutomatization14
-        background-color: $colorGreyLight
-        padding-top: 0
-        padding-bottom: 100px
-        .section-row
-            background-color: $colorOrange2
-            // display: none
-            border-radius: 31px 31px 31px 31px
     .customSection.sectionParent.funcAutomatization9
-        @include responsivo(telefonoTable)
-            padding-bottom: 25px!important
-        @include responsivo(pcMedio)
-            padding-bottom: 25px!important
-        // background-color: $colorGreyLight
-
+        padding: 0!important
+        // display: none!important
+        .backgroundFull
+            padding: 0
+            padding-top: 25px
+            padding-bottom: 0
+            background-repeat: no-repeat
+            background-size: cover
+            background-position: top
+            @include responsivo(telefonoTable)
+                padding-bottom: 0!important
+                background-position: center center
+            @include responsivo(pcMedio)
+                padding-bottom: 0!important
+                background-position: center center
+        .section-row
+            .innerSectionElement.sct2
+                .groupElements
+                    @include responsivo(telefonoTable)
+                        display: block!important
+                        // flex-direction: column-reverse!important
+                    @include responsivo(pcMedio)
+                        display: block!important
+                        // flex-direction: column-reverse!important
+                        // display: none
+                .info
+                    padding: 75px 0
+                    @include responsivo(telefonoTable)
+                        padding: 50px 0
+                    @include responsivo(pcMedio)
+                        padding: 50px 0
+                    .secondaryTitle
+                        color: $colorBlue
+                        margin-bottom: 50px
+                        text-align: center
+                    a.primaryButton
+                        margin: 0 auto
+            .containerImage
+                // height: 300px
+                margin-bottom: 0!important
+                padding-bottom: 0!important
+                img
+                    height: 400px
+                    margin-left: auto
+                    margin-right: 0
+                    transform: scaleX(-1)
+                    @include responsivo(telefonoTable)
+                        margin: 0 auto
+                        height: 250px
+                    @include responsivo(pcMedio)
+                        margin: 0 auto
+                        height: 375px

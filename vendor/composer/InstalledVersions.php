@@ -27,12 +27,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '9.0.10',
-    'version' => '9.0.10.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '910963923d15bd104dfb79b49db6249b45b06d36',
     'name' => 'roots/sage',
   ),
   'versions' => 
@@ -145,6 +145,15 @@ private static $installed = array (
       ),
       'reference' => '429be50660ed8a196e0798e5939760f168ec8ce9',
     ),
+    'log1x/sage-directives' => 
+    array (
+      'pretty_version' => 'v1.1.9',
+      'version' => '1.1.9.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1162c9fa46aea11cd1495d6a8e6a1a120833308d',
+    ),
     'nesbot/carbon' => 
     array (
       'pretty_version' => '1.25.3',
@@ -215,12 +224,12 @@ private static $installed = array (
     ),
     'roots/sage' => 
     array (
-      'pretty_version' => '9.0.10',
-      'version' => '9.0.10.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '910963923d15bd104dfb79b49db6249b45b06d36',
     ),
     'roots/sage-installer' => 
     array (

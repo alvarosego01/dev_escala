@@ -12,5 +12,7 @@ return array(
     '72579e7bd17821bb1321b87411366eae' => $vendorDir . '/illuminate/support/helpers.php',
     '320cde22f66dd4f5d3fd621d3e88b98f' => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php',
     'e39a8b23c42d4e1452234d762b03835a' => $vendorDir . '/ramsey/uuid/src/functions.php',
+    '306c972fefb706292e68f312a9e19301' => $vendorDir . '/log1x/sage-directives/src/Directives.php',
+    '2c3fde97f0f2b20397a293f71447ab39' => $vendorDir . '/log1x/sage-directives/src/Utilities.php',
     'b50336562d531777993d90ca775abd88' => $vendorDir . '/soberwp/controller/controller.php',
 );
