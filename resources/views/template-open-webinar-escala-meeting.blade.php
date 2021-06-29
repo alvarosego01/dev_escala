@@ -75,9 +75,6 @@
 
                     </div>
 
-                    <h3>
-                        Webinar invalido o no ha sido iniciado, intente más tarde
-                    </h3>
 
                     @endif
 
@@ -90,7 +87,12 @@
         </div>
 
     </section>
-    {{-- <section class="customSection sectionParent webinarMeetingSection2">
+
+    @hasfield('link_zoom')
+    @php
+        $zoomLink = get_field('link_zoom');
+    @endphp
+    <section class="customSection sectionParent webinarMeetingSection2">
 
         <div class="section-row">
 
@@ -99,11 +101,11 @@
                 <div class="containElements">
 
 
-                    <a class="primaryButton hoverInEffect">
-                        Empezar DEMO ahora
+                    <a target="_blank" href="{{ $zoomLink }}" class="primaryButton hoverInEffect">
+                        Ingresar al Webinar ahora
                     </a>
 
-                    <div class="setDate">
+                    {{-- <div class="setDate">
 
                         <a class="hiperButtonGray">
                             Agendar para otro momento
@@ -115,7 +117,7 @@
 
                         </div>
 
-                    </div>
+                    </div> --}}
 
                 </div>
 
@@ -124,7 +126,8 @@
 
         </div>
 
-    </section> --}}
+    </section>
+    @endfield
 
 
 </div>
