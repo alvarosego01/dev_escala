@@ -83,7 +83,7 @@
                             // margin-bottom: 25px
         .webinarMeetingSection1
             padding: 0
-            margin-bottom: 50px
+            margin-bottom: 25px
             .section-row
                 .innerSectionElement
                     background-color: rgba($colorWhite, 0.6)
@@ -95,6 +95,9 @@
                     .containElements
                         margin: auto
                         width: 100%
+                        a
+                            display: block
+                            margin: 0 auto
                         .containerImage
                             img
                                 height: 250px
@@ -125,53 +128,66 @@
             padding: 0
             .section-row
                 .innerSectionElement
-                    background-color: $colorWhite
+                    background-color: transparent
                     height: auto
                     // justify-content: center
                     // align-content: center
                     .containElements
                         display: flex
-                        justify-content: center
+                        justify-content: flex-end
+                        @include responsivo(telefonoTable)
+                            justify-content: center
+                        @include responsivo(pcMedio)
+                            justify-content: center
                         // flex-direction: row
                         width: 100%
-                        padding: 15px 50px
-                        a.primaryButton
-                            height: fit-content
-                            display: block
-                            margin: auto 0
-                            font-size: 24px
-                        .setDate
+                        padding: 15px 0
+                        a
+                            font-family: "Nunito Sans",Sans-serif
+                            font-size: 20px
+                            font-weight: 500
+                            text-decoration: none
+                            color: $colorBlack
                             display: flex
-                            flex-direction: row
-                            .hiperButtonGray
-                                // display: flex
-                                // justify-content: center
-                                margin: auto 15px
-                                display: block
-                                font-size: 24px
-                                text-decoration: none
-                            .containerImage
-                                margin: 0
-                                img
-                                    height: 50px
-                        @include responsivo(telefonoTable)
-                            display: flex
-                            flex-direction: column
-                            a.primaryButton
-                                margin: 25px auto
-                                text-align: center
-                            .setDate
-                                justify-content: center
-                                display: flex
-                                flex-direction: column
-                                .hiperButtonGray
-                                    text-align: center
-                                    margin: 0 auto
-                        @include responsivo(pcMedio)
-                            display: flex
-                            flex-direction: column
-                            a.primaryButton
-                                margin: 25px auto
-                                text-align: center
-                            .setDate
-                                justify-content: center
+                            align-self: center
+                            align-items: center
+                            img
+                                height: 40px
+                                margin-left: 15px
+                            &:hover
+                                color: $colorOrange
+                        // .setDate
+                        //     display: flex
+                        //     flex-direction: row
+                        //     .hiperButtonGray
+                        //         // display: flex
+                        //         // justify-content: center
+                        //         margin: auto 15px
+                        //         display: block
+                        //         font-size: 24px
+                        //         text-decoration: none
+                        //     .containerImage
+                        //         margin: 0
+                        //         img
+                        //             height: 50px
+                        // @include responsivo(telefonoTable)
+                        //     display: flex
+                        //     flex-direction: column
+                        //     a.primaryButton
+                        //         margin: 25px auto
+                        //         text-align: center
+                        //     .setDate
+                        //         justify-content: center
+                        //         display: flex
+                        //         flex-direction: column
+                        //         .hiperButtonGray
+                        //             text-align: center
+                        //             margin: 0 auto
+                        // @include responsivo(pcMedio)
+                        //     display: flex
+                        //     flex-direction: column
+                        //     a.primaryButton
+                        //         margin: 25px auto
+                        //         text-align: center
+                        //     .setDate
+                        //         justify-content: center

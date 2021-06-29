@@ -136,7 +136,18 @@ class ACF_CUSTOM extends Controller
 
 
 
+    // Campañas de email marketing efectivas <- titulo
 
+    // Sin subtitulo
 
+    // Ingresar ahora - boton submit
+    // ---------------------------------------------
+
+    // boton de ingreso dentro del embed
+
+    // ¿Necesitas ayuda? icono
 
 }
+
+
+
