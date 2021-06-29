@@ -61,7 +61,7 @@ class ACF_CUSTOM extends Controller
                     'key' => 'cf7_redirect',
                     'label' => 'Contact form 7 redirect',
                     'name' => 'Contact form 7 redirect',
-                    'type' => 'text',
+                    'type' => 'url',
                 )
             ),
             'location' => array (
