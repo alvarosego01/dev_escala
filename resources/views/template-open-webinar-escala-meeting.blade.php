@@ -14,7 +14,12 @@
 
     }
 
+
+
+    $zoomLink = get_field('link_zoom');
 @endphp
+
+
 
 
 
@@ -75,7 +80,9 @@
 
                     </div>
 
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" class="primaryButton hoverInEffect">
+                    <a target="_blank" href="@php
+                        echo $zoomLink
+                    @endphp" class="primaryButton hoverInEffect">
                         Ingresar al Webinar ahora
                     </a>
 
@@ -91,11 +98,11 @@
         </div>
 
     </section>
-
+{{--
     @hasfield('link_zoom')
     @php
         $zoomLink = get_field('link_zoom');
-    @endphp
+    @endphp --}}
     <section class="customSection sectionParent webinarMeetingSection2">
 
         <div class="section-row">
@@ -133,7 +140,7 @@
         </div>
 
     </section>
-    @endfield
+    {{-- @endfield --}}
 
 
 </div>
