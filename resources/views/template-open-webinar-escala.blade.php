@@ -13,32 +13,6 @@
 
 @endfield --}}
 
-
-@hasfield('cf7_redirect') )
-
-@php
-// $redirect = @field('form7');
-$redirect = get_field('cf7_redirect');
-
-if( get_field('id_webinar') && get_field('id_webinar') != null){
-
-  $redirect = $redirect . '?zoomid=' . get_field('id_webinar');
-
-}
-
-@endphp
-
-
-
-<script>
-document.addEventListener( 'wpcf7mailsent', function( event ) {
-  location = $_SERVER['APP_URL'].$redirect;
-}, false );
-</script>
-
-@endfield
-
-
 @extends('layouts.app')
 
 
@@ -92,9 +66,6 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
                       {{-- @field('form7') --}}
 
                       @hasfield('form7')
-
-                      {{-- "@field('form7')" --}}
-
                       @php
                           $f = get_field('form7');
                       @endphp

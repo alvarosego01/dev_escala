@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Controllers\ACF_CUSTOM;
 use App\Controllers\SetComponents;
 use Roots\Sage\Container;
 use Roots\Sage\Assets\JsonManifest;
@@ -12,6 +13,11 @@ use App\Controllers\App;
 /**
  * Theme assets
  */
+
+
+
+
+
 add_action('wp_enqueue_scripts', function () {
 
     // acá se añaden los templates que usarán bootstrap
@@ -29,7 +35,7 @@ add_action('wp_enqueue_scripts', function () {
         "views/template-zoom-demo-home.blade.php",
         "views/template-zoom-demo-meeting.blade.php",
         "views/template-open-webinar-escala.blade.php",
-        "views/template-open-webinarr-escala-meeting.blade.php",
+        "views/template-open-webinar-escala-meeting.blade.php",
     );
 
     // views/template-home.blade.php
@@ -207,7 +213,7 @@ add_action('wp_enqueue_scripts', function () {
         "views/template-zoom-demo-home.blade.php",
         "views/template-zoom-demo-meeting.blade.php",
         "views/template-open-webinar-escala.blade.php",
-        "views/template-open-webinarr-escala-meeting.blade.php",
+        "views/template-open-webinar-escala-meeting.blade.php",
     );
 
     // views/template-home.blade.php
@@ -256,3 +262,8 @@ function wpcf7_recaptcha_no_refill() {
 	}
   wp_add_inline_script('contact-form-7', 'wpcf7.cached = 0;', 'before' );
 }
+
+
+$setACF = new ACF_CUSTOM();
+// $x = $setACF->setACF();
+add_action('acf/init', $setACF->setACF() );
