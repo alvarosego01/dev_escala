@@ -45,8 +45,7 @@
                   </p> --}}
 
                   <div class="containerImage">
-                    <img alt="Genera más leads, clientes y ventas con escala" src="{!! App::setFilePath('
-                  /assets/images/person/am/andres-moreno-webinar.png') !!}" alt="" loading="lazy">
+                    <img alt="Genera más leads, clientes y ventas con escala" src="{!! App::setFilePath('/assets/images/person/am/andres-moreno-webinar.png') !!}" alt="" loading="lazy">
                   </div>
 
 
