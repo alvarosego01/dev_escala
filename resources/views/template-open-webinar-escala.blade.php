@@ -64,14 +64,12 @@
 
 
 
-                      @hasfield('form7')
                       @php
                           $f = get_field('form7');
                       @endphp
 
                       {!! do_shortcode( ".$f." ) !!}
 
-                      @endfield
 
 
                   </div>
