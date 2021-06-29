@@ -20,7 +20,7 @@
 // $redirect = @field('form7');
 $redirect = get_field('cf7_redirect');
 
-if(isset(get_field('id_webinar')) && get_field('id_webinar') != null){
+if( get_field('id_webinar') && get_field('id_webinar') != null){
 
   $redirect = $redirect . '?zoomid=' . get_field('id_webinar');
 
