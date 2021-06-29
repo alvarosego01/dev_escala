@@ -30,8 +30,8 @@
                 <div class="containElements">
 
                     <h1 class="principalBigTitle blackColor">
-                        ¿Estás listo para acelerar <br>
-                        <span class="greenBlueColor">el crecimiento de negocio?</span>
+                        Conversa con un Asesor de escala <br>
+                        <span class="greenBlueColor">En un momento estaremos contigo</span>
                       </h1>
 
 

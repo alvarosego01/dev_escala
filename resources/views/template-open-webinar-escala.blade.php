@@ -38,14 +38,15 @@
 
 
                   <h1 class="principalBigTitle blackColor">
-                    Ingresar a <br> <span class="greenBlueColor">nuestro webinar</span>
+                    Campañas de email <br> <span class="greenBlueColor">marketing efectivas</span>
+
                   </h1>
-                  <p class="principalBigText grayColorTexts">
-                    Descubre como escala puede ayudarte a <br> hacer crecer tu negocio con un breve <br> tour y consultas
-                  </p>
+                  {{-- <p class="principalBigText grayColorTexts">
+                  </p> --}}
 
                   <div class="containerImage">
-                    <img alt="Genera más leads, clientes y ventas con escala" src="{!! App::setFilePath('/assets/images/person/foto-hombre-laptop-1 2.png') !!}" alt="" loading="lazy">
+                    <img alt="Genera más leads, clientes y ventas con escala" src="{!! App::setFilePath('
+                  /assets/images/person/am/andres-moreno-webinar.png') !!}" alt="" loading="lazy">
                   </div>
 
 
@@ -63,7 +64,6 @@
                     <h4 class="titleFormat blackcolor">¡Ingresa a nuestro Webinar!</h4>
 
 
-                      {{-- @field('form7') --}}
 
                       @hasfield('form7')
                       @php
@@ -71,8 +71,6 @@
                       @endphp
 
                       {!! do_shortcode( ".$f." ) !!}
-
-                      {{-- @else --}}
 
                       @endfield
 

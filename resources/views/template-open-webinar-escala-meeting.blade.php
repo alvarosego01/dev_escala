@@ -75,6 +75,10 @@
 
                     </div>
 
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" class="primaryButton hoverInEffect">
+                        Ingresar al Webinar ahora
+                    </a>
+
 
                     @endif
 
@@ -101,9 +105,11 @@
                 <div class="containElements">
 
 
-                    <a target="_blank" href="{{ $zoomLink }}" class="primaryButton hoverInEffect">
-                        Ingresar al Webinar ahora
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" >
+                        ¿Necesitas ayuda?
+                        <img class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
                     </a>
+
 
                     {{-- <div class="setDate">
 
