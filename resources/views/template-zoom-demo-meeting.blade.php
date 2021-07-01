@@ -37,7 +37,7 @@
                         {{-- Conversa con un Asesor de escala <br> --}}
                         Comienza tu demo ahora <br>
                         <span class="greenBlueColor">
-                            y conversa con un Asesor de escala
+                            y conversa con un asesor escala
                         </span>
                       </h1>
 
