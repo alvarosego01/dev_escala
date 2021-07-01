@@ -255,7 +255,7 @@ para guardar las información de tus contactos.',
       'title' => '<span class="greenBlueColor">Del formulario en tu página</span> <br> directo al CRM',
       'text' => 'escala está integrada con Facebook Pixels y Google Analytics para que tengas información detallada sobre los visitantes de tu landing page. ¡Mientras más integrada estén tus campañas con Facebook y Google, mejores serán tus resultados!
       <div></div>
-      <span class="greenBlueColor" style="text-align: center; font-size: 25px; font-weight: 600!important">!Asombroso!</span>',
+      <span class="greenBlueColor" style="text-align: center; font-size: 25px; font-weight: 600!important">¡Asombroso!</span>',
       'enableButton' => false,
       // 'urlButton' => '#lead-form',
       // 'textButton' => '¡Asombroso! Adiós integraciones',
@@ -265,7 +265,7 @@ para guardar las información de tus contactos.',
       'title' => '<span class="greenBlueColor">Ahora sabrás si tu contacto está </span><br> en Colombia, EEUU o España',
       'text' => 'Si vendes en diferentes países, puedes incluir un formulario inteligente en <br> las páginas que construyes con <span class="greenBlueColor">escala</span>. El mismo tomará automáticamente <br> el prefijo internacional de tus visitantes para que ¡evites recibir números <br> equivocados!
       <div></div>
-      <span class="greenBlueColor" style="text-align: center; font-size: 25px; font-weight: 600!important">!Finalmente!</span>
+      <span class="greenBlueColor" style="text-align: center; font-size: 25px; font-weight: 600!important">¡Finalmente!</span>
       ',
       'enableButton' => false,
       // 'urlButton' => '#lead-form',

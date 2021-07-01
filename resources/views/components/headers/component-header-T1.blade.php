@@ -119,7 +119,17 @@ if (!$threeCol) {
 
                                     <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 
-                                    {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
+                                    {{-- {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!} --}}
+
+                                    @php
+                                    $f = get_field('form7');
+                                @endphp
+                                 @if (isset($f) && $f != null)
+                                 {!! do_shortcode( $f ) !!}
+                                 @else
+                                 {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
+                                 @endif
+
 
                                 </div>
 
@@ -231,7 +241,17 @@ if (!$threeCol) {
 
                                 <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 
-                                {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
+                                {{-- {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!} --}}
+
+                                @php
+                                $f = get_field('form7');
+                            @endphp
+                             @if (isset($f) && $f != null)
+                             {!! do_shortcode( $f ) !!}
+                             @else
+                             {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
+                             @endif
+
 
                             </div>
 
