@@ -62,14 +62,11 @@
 
                     <h4 class="titleFormat blackcolor">¡Ingresa a nuestro Webinar!</h4>
 
-
-
                       @php
                           $f = get_field('form7');
                       @endphp
 
-                      {!! do_shortcode( ".$f." ) !!}
-
+                      {!! do_shortcode( $f ) !!}
 
 
                   </div>
