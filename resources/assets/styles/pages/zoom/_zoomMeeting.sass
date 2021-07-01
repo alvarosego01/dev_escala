@@ -135,13 +135,12 @@
                     .containElements
                         display: flex
                         justify-content: flex-end
+                        width: 100%
+                        padding: 15px 0
                         @include responsivo(telefonoTable)
                             justify-content: center
                         @include responsivo(pcMedio)
                             justify-content: center
-                        // flex-direction: row
-                        width: 100%
-                        padding: 15px 0
                         a
                             font-family: "Nunito Sans",Sans-serif
                             font-size: 20px
@@ -151,17 +150,22 @@
                             display: flex
                             align-self: center
                             align-items: center
+                            img
+                                height: 40px
+                                margin-left: 15px
                             &:hover
                                 color: $colorOrange
-                        .setDate
-                            display: flex
-                            flex-direction: row
-                            justify-content: center
-                            align-content: center
-                            .hiperButtonGray
-                            .containerImage
-                                padding: 0
-                                margin-bottom: 0
-                                margin-left: 15px
-                                img
-                                    height: 37.5px
+                        // flex-direction: row
+
+                        // .setDate
+                        //     display: flex
+                        //     flex-direction: row
+                        //     justify-content: center
+                        //     align-content: center
+                        //     .hiperButtonGray
+                        //     .containerImage
+                        //         padding: 0
+                        //         margin-bottom: 0
+                        //         margin-left: 15px
+                        //         img
+                        //             height: 37.5px
