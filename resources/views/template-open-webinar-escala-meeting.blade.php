@@ -98,11 +98,7 @@
         </div>
 
     </section>
-{{--
-    @hasfield('link_zoom')
-    @php
-        $zoomLink = get_field('link_zoom');
-    @endphp --}}
+
     <section class="customSection sectionParent webinarMeetingSection2">
 
         <div class="section-row">
@@ -118,20 +114,6 @@
                     </a>
 
 
-                    {{-- <div class="setDate">
-
-                        <a class="hiperButtonGray">
-                            Agendar para otro momento
-                        </a>
-
-                        <div class="containerImage">
-
-                            <img src="{!! App::setFilePath('/assets/images/icons/Vector.png') !!}" alt="">
-
-                        </div>
-
-                    </div> --}}
-
                 </div>
 
             </section>
@@ -140,7 +122,7 @@
         </div>
 
     </section>
-    {{-- @endfield --}}
+
 
 
 </div>
