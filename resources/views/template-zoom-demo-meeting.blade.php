@@ -96,7 +96,15 @@
                 <div class="containElements">
 
 
-                    <div class="setDate">
+
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" >
+                        ¿Necesitas ayuda?
+                        <img class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
+                    </a>
+
+
+
+                    {{-- <div class="setDate">
 
                         <a class="hiperButtonGray">
                             Agendar para otro momento
@@ -108,7 +116,7 @@
 
                         </div>
 
-                    </div>
+                    </div> --}}
 
                 </div>
 

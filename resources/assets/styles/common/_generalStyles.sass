@@ -430,8 +430,9 @@ span.tag
 
     .customField
         display: flex
-        flex-direction: row
-        padding: 6px 12px
+        flex-direction: column
+        // padding: 6px 12px
+        margin-bottom: 20px
         span.wpcf7-form-control-wrap
             // width: 100%
             span.wpcf7-form-control.wpcf7-radio
@@ -476,7 +477,10 @@ span.tag
             font-size: 18px!important
             font-weight: normal!important
             color: #706B6D
-            margin-right: 25px
+            width: 100%
+            display: block
+            margin-bottom: 15px
+            padding: 0 12px
     .customField
         @include responsivo(telefonoTable)
             display: flex
@@ -496,49 +500,6 @@ span.tag
                 // width: 100%
                 text-align: left
                 margin-right: auto
-    // .customField.nroField
-    //     display: flex
-    //     flex-direction: column
-    //     label
-    //         text-align: left
-    //         margin: 0
-    //     span.wpcf7-form-control-wrap
-    //         // display: none!important
-    //         input
-    //             // background-color: #F8F8F8
-    //             // border-radius: 40px
-    //             // border-bottom: none
-    //             // height: 35px!important
-    //             // max-width: 100%!important
-    //             display: inline-block
-    //             min-height: 40px
-    //             width: 100%
-    //             font-size: 14px
-    //             line-height: 1.8
-    //             padding: 6px 12px
-    //             vertical-align: middle
-    //             background-color: transparent
-    //             color: #333
-    //             border: 1px solid #ddd
-    //             border-radius: 3px
-    //             transition: all 0.3s ease
-    //             @include responsivo(general)
-    //                 width: 100px!important
-
-    //             @include responsivo(resto)
-    //                 width: 100px!important
-
-    //             // display: none!important
-    //     @include responsivo(telefonoTable)
-    //         width: 100%
-    //         span,
-    //         input
-    //             width: 100%
-    //     @include responsivo(pcMedio)
-    //         width: 100%
-    //         span,
-    //         input
-    //             width: 100%
 
 
 

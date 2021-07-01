@@ -39,10 +39,12 @@
 
 
                   <h1 class="principalBigTitle blackColor">
-                    Recibe un <span class="greenBlueColor">DEMO <br> personalizado</span>
+                    {{-- Recibe un <span class="greenBlueColor">DEMO <br> personalizado</span> --}}
+                    Descubre cómo escala puede ayudarte a <br> <span class="greenBlueColor">hacer crecer tu negocio</span>
                   </h1>
                   <p class="principalBigText grayColorTexts">
-                    Descubre como escala puede ayudarte a <br> hacer crecer tu negocio con un breve <br> tour y consultas
+                    {{-- Descubre como escala puede ayudarte a <br> hacer crecer tu negocio con un breve <br> tour y consultas --}}
+                    Conecta con uno de nuestros asesores expertos. <br> Te guiaremos y responderemos tus preguntas
                   </p>
 
                   <div class="containerImage">

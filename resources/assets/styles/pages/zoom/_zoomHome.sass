@@ -88,18 +88,23 @@
                     .form7
                         .formatForm
                             max-width: unset!important
-                            width: 80%
+                            width: 85%
                             input,
+                            select
+                                font-size: 15px!important
+                                line-height: 15px!important
                             label
                                 font-size: 15px!important
-                                line-height: 17px!important
+                                line-height: 15px!important
                                 // color:#858585!important
                         input
-                            padding-top: 20px
-                            padding-bottom: 20px
+                            padding-top: 12.5px
+                            padding-bottom: 12.5px
                         input.wpcf7-form-control.wpcf7-submit
                             padding: 0 20px!important
                             font-size: 18px!important
+                        .customField
+                            margin: 12.5px 0!important
                         .customField.radioSelect
                             span.wpcf7-form-control.wpcf7-radio
 
@@ -107,6 +112,13 @@
                                     &:nth-of-type(2)
                                         span.wpcf7-list-item-label
                                             color: $colorOrange
+                        select[multiple]
+                            @include responsivo(general)
+                                height: 75px!important
+
+                            @include responsivo(resto)
+                                height: 75px!important
+
         .backgroundPlanets
             background-position: 50px 200px
             background-repeat: no-repeat
