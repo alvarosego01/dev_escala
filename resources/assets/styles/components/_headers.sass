@@ -57,7 +57,7 @@
                         .containerImage
                             text-align: center!important
             .form7
-                padding: 0px 50px 0px 100px
+                padding: 0 50px
                 @include responsivo(telefonoTable)
                     padding: 0!important
                 @include responsivo(pcMedio)
@@ -97,7 +97,7 @@
                         .containerImage
                             text-align: center!important
             .form7
-                padding: 0px 50px 0px 100px
+                padding: 0 50px
                 @include responsivo(telefonoTable)
                     padding: 0!important
                 @include responsivo(pcMedio)
@@ -136,7 +136,8 @@
                     //         font-size: 40px
                     //     @include responsivo(pcMedio)
                     //         font-size: 40px
-                    // p.principalBigText
+                    p.principalBigText
+                        width: auto!important
                     //     font-size: 20px
                     //     line-height: 26px
                     //     font-weight: 400!important
@@ -169,11 +170,7 @@
                     .containerImage
                         img
                             height: 300px
-                .ele.ele2
-                    // padding: 10px
-                    // padding-left: 30px
-                    // padding-right: 0
-                    // margin: 20px!important
+
         .form7
             padding: 0
             padding-top: 1.5%
@@ -195,8 +192,8 @@
                 // display: none
                 .principalBigTitle
                     // display: none
-                    font-size: 36px!important
-                    line-height: 38px!important
+                    font-size: 38px!important
+                    line-height: 40px!important
                     font-weight: 700!important
                     font-family: "Nunito",Sans-serif
                     margin-bottom: 20px
@@ -205,14 +202,18 @@
                     @include responsivo(pcMedio)
                         font-size: 36px!important
                 p.principalBigText
-                    font-size: 18px!important
-                    line-height: 26px!important
+                    font-size: 20px!important
+                    line-height: 28px!important
                     font-weight: 400!important
                     color: $colorBlack!important
                     @include responsivo(telefonoTable)
                         font-size: 20px!important
                     @include responsivo(pcMedio)
                         font-size: 20px!important
+                    @include responsivo(general)
+                        width: 60vw!important
+                    @include responsivo(resto)
+                        width: 700px!important
                 .containerImage
                     position: relative
                 //     // display: none
@@ -221,4 +222,4 @@
                 //         // display: none
         // .form7
             // .formatForm
-                // width: 320px
+                // width: 320pxllkk

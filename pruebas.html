@@ -31,20 +31,20 @@
     <label>
         ¿Cuántos empleados tiene tu empresa?
     </label>
-    [select* your-employees "Solo yo cambiando el mundo" "2 - 5" "6 - 12" "13 - 50" "51 o más" ]
+    [select* your-employees first_as_label "Elige una opción" "Solo yo cambiando el mundo" "2 - 5" "6 - 12" "13 - 50" "51 o más" ]
 </div>
 <div class="customField select">
     <label>
-        Del 1 al 10 ¿Cuánto dirías que sabes de mercadeo digital?, <br>
+        ¿Cuánto dirías que sabes de mercadeo digital? <br class="space">
          <small>1 = Nada y 10 = Avanzado</small>
     </label>
-    [select* marketing-experience "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"]
+    [select* marketing-experience first_as_label "Elige una opción" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"]
 </div>
 <div class="customField select">
     <label>
         ¿Qué funcionalidades de escala te interesan más?
     </label>
-    [select* your-interest "escala Marketing" "escala Ventas" "Ambas" ]
+    [select* your-interest first_as_label "Elige una opción" "escala Marketing" "escala Ventas" "Ambas" ]
 </div>
 [hidden utm_campaign id:utm_campaign default: ""]
 [hidden utm_source id:utm_source default: ""]
