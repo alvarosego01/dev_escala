@@ -47,9 +47,9 @@ if (!$threeCol) {
 
                         <div class="info
                         @if ($threeCol == true)
-                            col-md-12 col-lg-7
+                            col-md-12 col-lg-8
                         @else
-                            col-md-12 col-lg-6
+                            col-md-12 col-lg-7
                         @endif
                         ">
 
@@ -107,9 +107,9 @@ if (!$threeCol) {
                         </div>
                         <div class="form7
                             @if ($threeCol == true)
-                                col-md-12 col-lg-5
+                                col-md-12 col-lg-4
                             @else
-                                col-md-12 col-lg-6
+                                col-md-12 col-lg-5
                             @endif
                         ">
 
@@ -173,7 +173,7 @@ if (!$threeCol) {
                         @if ($threeCol == true)
                             col-md-12 col-lg-8
                         @else
-                            col-md-12 col-lg-6
+                            col-md-12 col-lg-7
                         @endif
                     ">
                         @if ($threeCol == true)
@@ -231,7 +231,7 @@ if (!$threeCol) {
                     @if ($threeCol == true)
                         col-md-12 col-lg-4
                     @else
-                        col-md-12 col-lg-6
+                        col-md-12 col-lg-5
                     @endif
                     ">
 

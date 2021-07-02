@@ -207,6 +207,9 @@
                     color: $colorWhite
                     text-align: left
                     margin-bottom: 50px
+                    @include responsivo(specialTexts)
+                        br
+                            display: block!important
                 @include responsivo(telefonoTable)
                     display: flex
                     flex-direction: column
@@ -227,10 +230,14 @@
                         display: flex
                         // position: relative
                         position: absolute
-                        top: -92%
                         right: 10%
                         left: 0
                         margin: auto
+                        @include responsivo(general)
+                            top: -85%
+
+                        @include responsivo(resto)
+                            top: -81%
 
                         img
                             // position: absolute
