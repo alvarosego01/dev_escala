@@ -69,10 +69,10 @@ $parameters = array(
 ¿En qué parte del embudo los visitantes tienen mayor interacción?
 <br class="space"><br class="space">
 Visualiza dónde tus embudos de venta son altamente efectivos y dónde <br>  necesitan algo de trabajo. Todo lo que deseas saber está en un solo lugar: <br> el dashboard inteligente de escala.',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Muéstrame las métricas',
-  'typeButton' => 'primaryButton',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Muéstrame las métricas',
+  // 'typeButton' => 'primaryButton',
   'side' => 'left',
  ) ;
 @endphp
@@ -116,10 +116,10 @@ Visualiza dónde tus embudos de venta son altamente efectivos y dónde <br>  nec
   'text' => 'escala te enseña claramente métricas como: cuántos visitantes han visto <br> tus páginas, qué contenido ha causado mayor interés, cuánto tiempo <br> invirtieron revisando tu oferta, qué productos se han vendido más...
 <br class="space"><br class="space">
 Mientras más sabes ¡mayor capacidad tendrás de optimizar resultados!',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Mejorar mis páginas',
-  'typeButton' => 'primaryButton',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Mejorar mis páginas',
+  // 'typeButton' => 'primaryButton',
   'side' => 'left',
  ) ;
 @endphp
@@ -138,10 +138,10 @@ Mientras más sabes ¡mayor capacidad tendrás de optimizar resultados!',
   'text' => 'Las métricas de escala te permiten verlo todo. Conoce el <br>  rendimiento de tus campañas de emails, descubre cuántas <br> personas lo han abireto, qué titulos han funcionado mejor y en <br> qué parte del email hicieron más click.
 <br class="space"><br class="space">
 Utiliza esta información valiosa para construir tu próxima <br> campaña de email y conseguir mejores resultados.',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Conseguir mejores resultados',
-  'typeButton' => 'primaryButton',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Conseguir mejores resultados',
+  // 'typeButton' => 'primaryButton',
   'side' => 'right',
  ) ;
 @endphp
