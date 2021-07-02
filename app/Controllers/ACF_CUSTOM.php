@@ -121,6 +121,22 @@ class ACF_CUSTOM extends Controller
             ),
 
         ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-blog-home.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-blog-single.blade.php",
+            ),
+
+        ),
 
     );
 
