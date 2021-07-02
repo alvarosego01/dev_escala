@@ -144,10 +144,10 @@ Envía emails de bienvenida, recordatorios de compra y mensajes de <br> seguimie
 Con escala, hemos desarrollado la tecnología que minimiza el riesgo de <br> caer en la bandeja de spam.
 <br class="space"><br class="space">
 ¡Logra que tus emails lleguen al lugar correcto!',
-'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Publicar modo flash',
-  'typeButton' => 'primaryButton',
+'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Publicar modo flash',
+  // 'typeButton' => 'primaryButton',
   'side' => 'left',
  ) ;
 @endphp

@@ -39,13 +39,19 @@
                 p.principalBigText.grayColorTexts
                     text-align: center
                     @include responsivo(general)
-                        width: 600px!important
+                        width: 100%!important
 
                     @include responsivo(resto)
-                        width: 600px!important
+                        width: 100%!important
                 .containerImage
+                    @include responsivo(general)
+                        position: relative
+                        right: 5%
+                    @include responsivo(resto)
+                        position: relative
+                        right: 5%
                     img
-                        height: 350px
+                        height: 300px
                         @include responsivo(telefonoTable)
                             height: 300px
                         @include responsivo(pcMedio)
@@ -168,6 +174,9 @@
                     color: $colorWhite
                     text-align: left
                     margin-bottom: 50px
+                    @include responsivo(specialTexts)
+                        br
+                            display: block!important
                 @include responsivo(telefonoTable)
                     display: flex
                     flex-direction: column
@@ -188,10 +197,14 @@
                         display: flex
                         // position: relative
                         position: absolute
-                        top: -91%
                         right: 10%
                         left: 0
                         margin: auto
+                        @include responsivo(general)
+                            top: -85%
+
+                        @include responsivo(resto)
+                            top: -83%
 
                         img
                             // position: absolute
