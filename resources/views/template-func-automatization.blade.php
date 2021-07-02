@@ -63,7 +63,7 @@ $parameters = array(
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/team/banner_02.png'),
   'title' => '<span class="greenBlueColor">¿Listo?</span> Automatiza y logra <br> tus metas de venta',
-  'text' => 'Utiliza la tecnología automatizada de escala para manejar las tareas <br> repetitivas. Cumple tus cuotas de ventas incluso mientras duermes o tomas <br> un café
+  'text' => 'Utiliza la tecnología automatizada de escala para manejar las tareas <br> repetitivas. Cumple tus cuotas de ventas incluso mientras duermes o tomas un café
   <br class="space"><br class="space">
 Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> hora. ¿Cómo vas a comunicarte con cada uno de ellos de forma <br> personalizada? ¿Cómo vas a distribuir esos contactos entre tu equipo de <br> ventas para convertirlos en clientes?
 <br class="space"><br class="space">
