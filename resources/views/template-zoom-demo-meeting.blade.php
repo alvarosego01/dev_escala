@@ -7,6 +7,10 @@
 
 
 
+@php
+     $zoomLink = get_field('link_zoom');
+@endphp
+
 @extends('layouts.app')
 
 
@@ -30,8 +34,11 @@
                 <div class="containElements">
 
                     <h1 class="principalBigTitle blackColor">
-                        Conversa con un Asesor de escala <br>
-                        <span class="greenBlueColor">En un momento estaremos contigo</span>
+                        {{-- Conversa con un Asesor de escala <br> --}}
+                        Comienza tu demo ahora <br>
+                        <span class="greenBlueColor">
+                            y conversa con un asesor escala
+                        </span>
                       </h1>
 
 
@@ -52,11 +59,26 @@
                 <div class="containElements">
 
 
+                    @if ( isset($zoomid) && $zoomid != null && $zoomid != '' )
+
+                    {!! do_shortcode( '[zoom_join_via_browser meeting_id="'.$zoomid.'" login_required="no" help="yes" title="Test" disable_countdown="yes" webinar="no"]' ) !!}
+
+                    @else
+
                     <div class="containerImage">
 
                         <img src="{!! App::setFilePath('/assets/images/logos/Zoom-Simbolo.png') !!}" alt="">
 
                     </div>
+
+                    <a target="_blank" href="@php
+                        echo $zoomLink
+                    @endphp" class="primaryButton hoverInEffect">
+                        Empezar demo ahora
+                    </a>
+
+
+                    @endif
 
                 </div>
             </section>
@@ -74,11 +96,15 @@
                 <div class="containElements">
 
 
-                    <a class="primaryButton hoverInEffect">
-                        Empezar DEMO ahora
+
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" >
+                        ¿Necesitas ayuda?
+                        <img class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
                     </a>
 
-                    <div class="setDate">
+
+
+                    {{-- <div class="setDate">
 
                         <a class="hiperButtonGray">
                             Agendar para otro momento
@@ -90,7 +116,7 @@
 
                         </div>
 
-                    </div>
+                    </div> --}}
 
                 </div>
 

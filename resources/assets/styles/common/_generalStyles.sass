@@ -23,7 +23,11 @@ p
 
 p.text,
 p.description,
-p.desc
+p.desc,
+p,
+h1,
+h2,
+h3
     br
         @include responsivo(specialTexts)
             display: none
@@ -158,7 +162,7 @@ br.space
     color: $colorDarkGrey2
 
 span.tag
-    font-size: 18px
+    font-size: 20px
     // margin-bottom: 20px
     display: block
     font-family: "Nunito Sans", Sans-serif
@@ -167,7 +171,7 @@ span.tag
 
 .principalBigTitle
     font-family: "Nunito", Sans-serif
-    font-size: 55px
+    font-size: 57px
     line-height: 1
     font-weight: bold
     margin-bottom: 20px
@@ -181,8 +185,8 @@ span.tag
             // display: none!important
 
 .principalBigText
-    line-height: 36px
-    font-size: 25px
+    line-height: 38px
+    font-size: 27px
     font-family: "Nunito Sans", sans-serif
     font-weight: 400
     // @include responsivo(telefonoTable)
@@ -191,7 +195,7 @@ span.tag
     //     font-size: 25
 
 .primaryTitle
-    font-size: 40px
+    font-size: 42px
     margin-bottom: 30px
     line-height: 1
     font-weight: 700
@@ -208,7 +212,7 @@ span.tag
 .commonTitle
     margin-bottom: 20px
     line-height: 1
-    font-size: 30px
+    font-size: 32px
     font-weight: 700
     font-family: "Nunito Sans", sans-serif
     @include responsivo(telefonoTable)
@@ -221,7 +225,7 @@ span.tag
 .secondaryTitle
     margin-bottom: 20px
     line-height: 1
-    font-size: 25px
+    font-size: 27px
     font-weight: 700
     font-family: "Nunito Sans", sans-serif
     @include responsivo(telefonoTable)
@@ -230,8 +234,8 @@ span.tag
         font-size: 25px!important
 
 .primaryText
-    line-height: 28px!important
-    font-size: 25px
+    line-height: 30px!important
+    font-size: 27px
     font-family: "Nunito Sans", sans-serif
     // display: none
     @include responsivo(telefonoTable)
@@ -242,8 +246,8 @@ span.tag
         line-height: 28px!important
 
 .secondaryText
-    line-height: 23px
-    font-size: 23px
+    line-height: 25px
+    font-size: 25px
     font-family: "Nunito Sans", sans-serif
     @include responsivo(telefonoTable)
         font-size: 18px!important
@@ -264,7 +268,7 @@ span.tag
     display: inline-block
     line-height: 1
     text-decoration: none
-    font-size: 18px
+    font-size: 20px
     line-height: 1
     // font-weight: 700
     padding: 15px 25px
@@ -387,17 +391,24 @@ span.tag
         font-size: 18px!important
         font-weight: normal!important
         margin: 0
+        line-height: normal
+    input.wpcf7-form-control.wpcf7-number,
+    input[type="number"]
+        width: 100%!important
+        min-width: 100%!important
     .wpcf7-text
         color: #706B6D!important
         // color: #333!important
     select
-        padding: 6px 12px
+        padding: 6px 10px
         border-width: 0px 0px 1px 0px
         font-family: "Nunito Sans", sans-serif
         font-size: 18px!important
         color: #706B6D!important
         font-weight: normal!important
         box-sizing: border-box
+        width: 100%
+        line-height: normal
     span.ewp-phonetype-radio
         margin-top: 20px
         margin-bottom: 30px
@@ -426,10 +437,12 @@ span.tag
 
     .customField
         display: flex
-        flex-direction: row
-        padding: 6px 12px
+        flex-direction: column
+        // padding: 6px 12px
+        margin-bottom: 20px
+
         span.wpcf7-form-control-wrap
-            // width: 100%
+            width: 100%
             span.wpcf7-form-control.wpcf7-radio
                 // display: none
                 width: 100%
@@ -471,8 +484,11 @@ span.tag
             font-family: "Nunito Sans", sans-serif
             font-size: 18px!important
             font-weight: normal!important
-            color: #706B6D
-            margin-right: 25px
+            color: #706B6D!important
+            width: 100%
+            display: block
+            margin-bottom: 15px
+            padding: 0 12px
     .customField
         @include responsivo(telefonoTable)
             display: flex
@@ -492,33 +508,6 @@ span.tag
                 // width: 100%
                 text-align: left
                 margin-right: auto
-    .customField.nroField
-        // display: none
-        span.wpcf7-form-control-wrap
-            // display: none!important
-            input
-                background-color: #F8F8F8
-                border-radius: 40px
-                border-bottom: none
-                height: 35px!important
-                max-width: 100%!important
-                @include responsivo(general)
-                    width: 100px!important
-
-                @include responsivo(resto)
-                    width: 100px!important
-
-                // display: none!important
-        @include responsivo(telefonoTable)
-            width: 100%
-            span,
-            input
-                width: 100%
-        @include responsivo(pcMedio)
-            width: 100%
-            span,
-            input
-                width: 100%
 
 
 

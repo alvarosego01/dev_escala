@@ -8,23 +8,139 @@ use Sober\Controller\Controller;
 class ACF_CUSTOM extends Controller
 {
 
+    private $allTemplates = array (
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-home.blade.php",
+            ),
 
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-incredible.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-incredible-am.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-func-page-builder.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-func-analiticas.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-func-automatization.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-func-crm-escala.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-func-email.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-func-digital-announces.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-escala-fex.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-zoom-demo-home.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-zoom-demo-meeting.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-open-webinar-escala.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-open-webinar-escala-meeting.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-blog-home.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-blog-single.blade.php",
+            ),
+
+        ),
+
+    );
 
     public function setACF(){
-
-        // $l = array(
-        //     $this->allPages(),
-        //     $this->webinar_home()
-        // )
-
-
-        // foreach ($l as $key => $value) {
-        //     # code...
-        //     acf_add_local_field_group(
-        //         $value
-        //     );
-        // }
-
 
         if( function_exists('acf_add_local_field_group') ){
 
@@ -33,11 +149,11 @@ class ACF_CUSTOM extends Controller
                 $this->allPages()
 
             );
-            acf_add_local_field_group(
+            // acf_add_local_field_group(
 
-                $this->webinar_home()
+            //     $this->webinar_home()
 
-            );
+            // );
             acf_add_local_field_group(
 
                 $this->webinar_meeting()
@@ -50,6 +166,7 @@ class ACF_CUSTOM extends Controller
 
 
     private function allPages(){
+
 
         return array(
             'key' => 'cf7_custom',
@@ -68,17 +185,10 @@ class ACF_CUSTOM extends Controller
                     'type' => 'url',
                 )
             ),
-            'location' => array (
-                array (
-                    array (
-                        'param' => 'post_type',
-                        'operator' => '==',
-                        'value' => 'page',
-                    ),
-                ),
-            ),
+            'location' => $this->allTemplates
 
         );
+
 
     }
 
@@ -86,7 +196,7 @@ class ACF_CUSTOM extends Controller
 
         return array(
             'key' => 'webinar_home_custom',
-            'title' => 'Webinar home settings',
+            'title' => 'Zoom home settings',
             'fields' => array (
                 array (
                     'key' => 'id_webinar',
@@ -130,6 +240,15 @@ class ACF_CUSTOM extends Controller
                         'operator' => '==',
                         'value' => 'views/template-open-webinar-escala-meeting.blade.php',
                     ),
+
+                ),
+                array (
+
+                    array (
+                        'param' => 'page_template',
+                        'operator' => '==',
+                        'value' => 'views/template-zoom-demo-meeting.blade.php',
+                    ),
                 ),
             ),
 
@@ -138,18 +257,6 @@ class ACF_CUSTOM extends Controller
     }
 
 
-
-
-    // Campañas de email marketing efectivas <- titulo
-
-    // Sin subtitulo
-
-    // Ingresar ahora - boton submit
-    // ---------------------------------------------
-
-    // boton de ingreso dentro del embed
-
-    // ¿Necesitas ayuda? icono
 
 }
 

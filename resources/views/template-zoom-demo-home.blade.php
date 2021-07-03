@@ -39,14 +39,16 @@
 
 
                   <h1 class="principalBigTitle blackColor">
-                    Recibe un <span class="greenBlueColor">DEMO <br> personalizado</span>
+                    {{-- Recibe un <span class="greenBlueColor">DEMO <br> personalizado</span> --}}
+                    Descubre cómo escala puede ayudarte a <br> <span class="greenBlueColor">hacer crecer tu negocio</span>
                   </h1>
                   <p class="principalBigText grayColorTexts">
-                    Descubre como escala puede ayudarte a <br> hacer crecer tu negocio con un breve <br> tour y consultas
+                    {{-- Descubre como escala puede ayudarte a <br> hacer crecer tu negocio con un breve <br> tour y consultas --}}
+                    Conecta con uno de nuestros asesores expertos. <br> Te guiaremos y responderemos tus preguntas
                   </p>
 
                   <div class="containerImage">
-                    <img alt="Genera más leads, clientes y ventas con escala" src="{!! App::setFilePath('/assets/images/person/foto-hombre-laptop-1 2.png') !!}" alt="" loading="lazy">
+                    <img alt="Genera más leads, clientes y ventas con escala" src="{!! App::setFilePath('/assets/images/person/mujer-laptop_01.png') !!}" alt="" loading="lazy">
                   </div>
 
 
@@ -61,35 +63,22 @@
 
                   <div class="formatForm">
 
-                    <h4 class="titleFormat blackcolor">¡Comienza ahora!</h4>
+                    <h4 class="titleFormat blackcolor">
+                      Solicita tu demo
+                    </h4>
 
                     {{-- {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!} --}}
 
                     @php
+                    $f = get_field('form7');
+                @endphp
 
-                      if( $_SERVER['SERVER_NAME'] == 'localhost' ) {
-
-                        echo do_shortcode( '[contact-form-7 id="3205" title="ZOOM Form"]' );
-
-                      }
-
-                      if( $_SERVER['SERVER_NAME'] == 'goescala.com' ){
-
-                        echo do_shortcode( '[contact-form-7 id="3396" title="ZOOM Form"]' );
-
-
-                      }
-                      if( $_SERVER['SERVER_NAME'] == 'alvarosegovia.com' ){
-
-                        echo do_shortcode( '[contact-form-7 id="3223" title="ZOOM Form"]' );
-
-
-                      }
-
-                    @endphp
+                {!! do_shortcode( $f ) !!}
 
 
                   </div>
+
+
 
                 </div>
               </div>
@@ -114,7 +103,7 @@
 </div>
 
 
-
+{{-- boton - Solicitar ahora --}}
 
 
 @endsection

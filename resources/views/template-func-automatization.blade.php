@@ -63,7 +63,7 @@ $parameters = array(
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/team/banner_02.png'),
   'title' => '<span class="greenBlueColor">¿Listo?</span> Automatiza y logra <br> tus metas de venta',
-  'text' => 'Utiliza la tecnología automatizada de escala para manejar las tareas <br> repetitivas. Cumple tus cuotas de ventas incluso mientras duermes o tomas <br> un café
+  'text' => 'Utiliza la tecnología automatizada de escala para manejar las tareas <br> repetitivas. Cumple tus cuotas de ventas incluso mientras duermes o tomas un café
   <br class="space"><br class="space">
 Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> hora. ¿Cómo vas a comunicarte con cada uno de ellos de forma <br> personalizada? ¿Cómo vas a distribuir esos contactos entre tu equipo de <br> ventas para convertirlos en clientes?
 <br class="space"><br class="space">
@@ -128,10 +128,10 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'img' => App::setFilePath('/assets/images/illustrations/otto/mas_tiempo-1.png'),
   'title' => '<span class="greenBlueColor">Ten más tiempo para innovar...</span> <br> o relajarte ¡depende de ti!',
   'text' => 'A nadie le gusta repetir los mismos pasos una y otra vez. Con escala <br> puedes automatizar tareas repetitivas, evitar errores humanos y enviar <br> emails a tus clientes potenciales a tiempo. Automatiza esas acciones que <br> solías hacer mil veces.',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Gana más tiempo',
-  'typeButton' => 'primaryButton',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Gana más tiempo',
+  // 'typeButton' => 'primaryButton',
   'side' => 'right',
  ) ;
 @endphp
@@ -156,10 +156,10 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
 <strong>Email 2:</strong> ¡Hola, soy yo de nuevo! ¿Te lo vas a perder?…
 <br class="space"><br class="space">
 <strong>Email 3:</strong> ¡Éxito! Felicitaciones por tu compra.',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Email 4: Bienvenido a escala',
-  'typeButton' => 'primaryButton',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Email 4: Bienvenido a escala',
+  // 'typeButton' => 'primaryButton',
   'side' => 'left',
  ) ;
 @endphp
@@ -179,10 +179,10 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'text' => 'Con escala puedes automatizar notificaciones para recordarle a tus <br> vendedores qué hacer y cuándo. Logra que se comuniquen con clientes <br> potenciales en el momento correcto...
 <br class="space"><br class="space">
 <strong>¡Consigue más ventas!</strong>',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Notificarles ahora',
-  'typeButton' => 'primaryButton',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Notificarles ahora',
+  // 'typeButton' => 'primaryButton',
   'side' => 'right',
  ) ;
 @endphp
@@ -222,10 +222,10 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'img' => App::setFilePath('/assets/images/illustrations/team/visualizacion_workflows.png'),
   'title' => '<span class="greenBlueColor">Visualiza fácilmente</span> <br> tus workflows',
   'text' => 'Ve en tiempo real tu máquina de ventas en acción. <br> El dashboard de escala te muestra todo lo que has <br> automatizado. Siéntate y relájate.',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Disfrutar de la vista',
-  'typeButton' => 'primaryButton',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Disfrutar de la vista',
+  // 'typeButton' => 'primaryButton',
   'side' => 'right',
  ) ;
 @endphp

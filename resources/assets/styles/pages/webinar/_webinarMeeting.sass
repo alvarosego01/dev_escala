@@ -14,10 +14,10 @@
         font-family: "Nunito",Sans-serif!important
     @include responsivo(telefonoTable)
         padding-bottom: 100px
-        padding-top: 200px
+        padding-top: 100px
     @include responsivo(pcMedio)
         padding-bottom: 100px
-        padding-top: 200px
+        padding-top: 150px
     .backgroundPlanets
         opacity: 1
         transition: background 0.3s, border-radius 0.3s, opacity 0.3s
@@ -27,12 +27,12 @@
         left: 0
         right: 0
         position: absolute
-        background-position: 50px 250px
+        background-position: 50px 180px
         background-repeat: no-repeat
         background-size: 100% auto
         @include responsivo(telefonoTable)
             top: 0
-            background-position: 8px 150px
+            background-position: 8px 100px
             background-size: 100% auto
         @include responsivo(pcMedio)
             background-position: 8px 150px
@@ -100,7 +100,7 @@
                             margin: 0 auto
                         .containerImage
                             img
-                                height: 250px
+                                height: 200px
                                 @include responsivo(telefonoTable)
                                     height: 175px
                                 @include responsivo(pcMedio)
@@ -156,38 +156,3 @@
                                 margin-left: 15px
                             &:hover
                                 color: $colorOrange
-                        // .setDate
-                        //     display: flex
-                        //     flex-direction: row
-                        //     .hiperButtonGray
-                        //         // display: flex
-                        //         // justify-content: center
-                        //         margin: auto 15px
-                        //         display: block
-                        //         font-size: 24px
-                        //         text-decoration: none
-                        //     .containerImage
-                        //         margin: 0
-                        //         img
-                        //             height: 50px
-                        // @include responsivo(telefonoTable)
-                        //     display: flex
-                        //     flex-direction: column
-                        //     a.primaryButton
-                        //         margin: 25px auto
-                        //         text-align: center
-                        //     .setDate
-                        //         justify-content: center
-                        //         display: flex
-                        //         flex-direction: column
-                        //         .hiperButtonGray
-                        //             text-align: center
-                        //             margin: 0 auto
-                        // @include responsivo(pcMedio)
-                        //     display: flex
-                        //     flex-direction: column
-                        //     a.primaryButton
-                        //         margin: 25px auto
-                        //         text-align: center
-                        //     .setDate
-                        //         justify-content: center

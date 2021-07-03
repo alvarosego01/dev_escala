@@ -186,12 +186,11 @@ Lo que no se mide no mejora. Conoce lo que funciona, <br> aprende de lo que no y
   'text' => '
   <span style="text-align: center; font-size: 20px; font-weight: 600!important">Crea y maneja potentes campañas digitales en <span class="orangeColor">escala</span></span>
   <br class="space"><br class="space">
-  Imagina poder saber: qué campaña de anuncios <br> digitales generó más visitas a tu landing page, qué <br> segmentación de audiencia generó más contactos, qué <br> anuncio generó más clientes, ¡y mucho más!
+  Imagina poder saber: qué campaña de anuncios digitales generó <br> más visitas a tu landing page, qué segmentación de audiencia <br> generó más contactos, qué anuncio generó más <br> clientes, ¡y mucho más!
 <br class="space"><br class="space">
-Cuando tu landing page tiene el Pixel integrado, tú y <br> Facebook obtienen información que permite optimizar <br> rápidamente tus campañas de anuncios digitales.
+Cuando tu landing page tiene el Pixel integrado, tú y Facebook <br> obtienen información que permite optimizar rápidamente tus <br> campañas de anuncios digitales.
 <br class="space"><br class="space">
-Las páginas creadas en escala ya vienen <br>
-con el Pixel de Facebook integrado.
+Las páginas creadas en escala ya vienen con el <br> Pixel de Facebook integrado.
   ',
   'enableButton' => false,
   // 'urlButton' => '#lead-form',

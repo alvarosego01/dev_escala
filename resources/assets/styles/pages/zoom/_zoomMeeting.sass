@@ -14,10 +14,10 @@
         font-family: "Nunito",Sans-serif!important
     @include responsivo(telefonoTable)
         padding-bottom: 100px
-        padding-top: 200px
+        padding-top: 100px
     @include responsivo(pcMedio)
         padding-bottom: 100px
-        padding-top: 200px
+        padding-top: 150px
     .backgroundPlanets
         opacity: 1
         transition: background 0.3s, border-radius 0.3s, opacity 0.3s
@@ -27,12 +27,12 @@
         left: 0
         right: 0
         position: absolute
-        background-position: 50px 250px
+        background-position: 50px 180px
         background-repeat: no-repeat
         background-size: 100% auto
         @include responsivo(telefonoTable)
             top: 0
-            background-position: 8px 150px
+            background-position: 8px 100px
             background-size: 100% auto
         @include responsivo(pcMedio)
             background-position: 8px 150px
@@ -83,74 +83,89 @@
                             // margin-bottom: 25px
         .zoomMeetingSection1
             padding: 0
-            margin-bottom: 50px
+            margin-bottom: 25px
             .section-row
                 .innerSectionElement
                     background-color: rgba($colorWhite, 0.6)
-                    height: 475px
+                    height: auto
                     display: flex
                     justify-content: center
                     align-content: center
+                    min-height: 500px
                     .containElements
                         margin: auto
+                        width: 100%
+                        a
+                            display: block
+                            margin: 0 auto
                         .containerImage
                             img
-                                height: 250px
+                                height: 200px
                                 @include responsivo(telefonoTable)
                                     height: 175px
                                 @include responsivo(pcMedio)
                                     height: 200px
+                        .vczapi-join-via-browser-main-wrapper
+                            h1,
+                            .vczapi-zoom-app-notice-wrap.zoom-app-notice
+                                display: none
+                            iframe
+                                @include responsivo(telefonoTable)
+                                    height: auto!important
+                                    width: auto!important
+                                @include responsivo(pcMedio)
+                                    height: auto!important
+                                    width: auto!important
+                                @include responsivo(general)
+                                    height: 650px!important
+                                @include responsivo(resto)
+                                    height: 650px!important
+                        h3
+                            text-align: center
+                            width: 100%
+                            font-weight: bold
         .zoomMeetingSection2
             padding: 0
             .section-row
                 .innerSectionElement
-                    background-color: $colorWhite
+                    background-color: transparent
                     height: auto
                     // justify-content: center
                     // align-content: center
                     .containElements
                         display: flex
-                        justify-content: space-between
-                        // flex-direction: row
+                        justify-content: flex-end
                         width: 100%
-                        padding: 15px 50px
-                        a.primaryButton
-                            height: fit-content
-                            display: block
-                            margin: auto 0
-                            font-size: 24px
-                        .setDate
-                            display: flex
-                            flex-direction: row
-                            .hiperButtonGray
-                                // display: flex
-                                // justify-content: center
-                                margin: auto 15px
-                                display: block
-                                font-size: 24px
-                                text-decoration: none
-                            .containerImage
-                                margin: 0
-                                img
-                                    height: 50px
+                        padding: 15px 0
                         @include responsivo(telefonoTable)
-                            display: flex
-                            flex-direction: column
-                            a.primaryButton
-                                margin: 25px auto
-                                text-align: center
-                            .setDate
-                                justify-content: center
-                                display: flex
-                                flex-direction: column
-                                .hiperButtonGray
-                                    text-align: center
-                                    margin: 0 auto
+                            justify-content: center
                         @include responsivo(pcMedio)
+                            justify-content: center
+                        a
+                            font-family: "Nunito Sans",Sans-serif
+                            font-size: 20px
+                            font-weight: 500
+                            text-decoration: none
+                            color: $colorBlack
                             display: flex
-                            flex-direction: column
-                            a.primaryButton
-                                margin: 25px auto
-                                text-align: center
-                            .setDate
-                                justify-content: center
+                            align-self: center
+                            align-items: center
+                            img
+                                height: 40px
+                                margin-left: 15px
+                            &:hover
+                                color: $colorOrange
+                        // flex-direction: row
+
+                        // .setDate
+                        //     display: flex
+                        //     flex-direction: row
+                        //     justify-content: center
+                        //     align-content: center
+                        //     .hiperButtonGray
+                        //     .containerImage
+                        //         padding: 0
+                        //         margin-bottom: 0
+                        //         margin-left: 15px
+                        //         img
+                        //             height: 37.5px

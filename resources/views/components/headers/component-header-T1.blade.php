@@ -47,9 +47,9 @@ if (!$threeCol) {
 
                         <div class="info
                         @if ($threeCol == true)
-                            col-md-12 col-lg-7
+                            col-md-12 col-lg-8
                         @else
-                            col-md-12 col-lg-6
+                            col-md-12 col-lg-7
                         @endif
                         ">
 
@@ -107,9 +107,9 @@ if (!$threeCol) {
                         </div>
                         <div class="form7
                             @if ($threeCol == true)
-                                col-md-12 col-lg-5
+                                col-md-12 col-lg-4
                             @else
-                                col-md-12 col-lg-6
+                                col-md-12 col-lg-5
                             @endif
                         ">
 
@@ -119,7 +119,17 @@ if (!$threeCol) {
 
                                     <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 
-                                    {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
+                                    {{-- {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!} --}}
+
+                                    @php
+                                    $f = get_field('form7');
+                                @endphp
+                                 @if (isset($f) && $f != null)
+                                 {!! do_shortcode( $f ) !!}
+                                 @else
+                                 {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
+                                 @endif
+
 
                                 </div>
 
@@ -163,7 +173,7 @@ if (!$threeCol) {
                         @if ($threeCol == true)
                             col-md-12 col-lg-8
                         @else
-                            col-md-12 col-lg-6
+                            col-md-12 col-lg-7
                         @endif
                     ">
                         @if ($threeCol == true)
@@ -221,7 +231,7 @@ if (!$threeCol) {
                     @if ($threeCol == true)
                         col-md-12 col-lg-4
                     @else
-                        col-md-12 col-lg-6
+                        col-md-12 col-lg-5
                     @endif
                     ">
 
@@ -231,7 +241,17 @@ if (!$threeCol) {
 
                                 <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 
-                                {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
+                                {{-- {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!} --}}
+
+                                @php
+                                $f = get_field('form7');
+                            @endphp
+                             @if (isset($f) && $f != null)
+                             {!! do_shortcode( $f ) !!}
+                             @else
+                             {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
+                             @endif
+
 
                             </div>
 

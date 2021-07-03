@@ -35,8 +35,8 @@
                     .containElements
                         .principalBigTitle
                             text-align: right
-                            font-size: 30px!important
-                            line-height: 33px!important
+                            font-size: 32px!important
+                            line-height: 35px!important
                         .principalBigText
                             text-align: right
                             // font-weight: 700!important
@@ -60,20 +60,25 @@
                                 //     height: 350px
 
                     .ele2
+
                         @include responsivo(general)
                             display: flex
                             flex-direction: column
                             justify-content: center
+                            position: relative!important
+                            right: 5%!important
                         @include responsivo(resto)
                             display: flex
                             flex-direction: column
                             justify-content: center
+                            position: relative!important
+                            right: 5%!important
 
                 .form7
                     // padding: 0!important
                     // padding-right: 0!important
                     padding-right: 0
-                    padding-left: 75px
+                    padding-left: 25px
                     .formatForm
                         margin-left: auto
                         @include responsivo(telefonoTable)
@@ -213,7 +218,8 @@
                     .secondaryTitle
                         margin-bottom: 50px
                         text-align: center
-                        font-size: 36px!important
+                        // font-size: 36px!important
+
                     a
                         margin: 0 auto
                 .info
