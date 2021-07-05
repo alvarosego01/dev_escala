@@ -56,14 +56,14 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
 
                         <div class="containElements">
 
-                            <h2 class="primaryTitle blackColor">
+                            <h2 class="primaryTitle whiteColor">
                                 {!! $titlePrincipal !!}
                             </h2>
 
 
                             @if ($subTitlePrincipal != null)
 
-                                <p class="primaryText grayColorTexts">
+                                <p class="primaryText whiteColor">
                                     {!! $subTitlePrincipal !!}
                                 </p>
 

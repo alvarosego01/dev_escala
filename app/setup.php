@@ -30,7 +30,9 @@ $bootstrapPages = array(
     "views/template-open-webinar-escala.blade.php",
     "views/template-open-webinar-escala-meeting.blade.php",
     "views/template-blog-home.blade.php",
-    "views/template-blog-single.blade.php"
+    "views/template-blog-category.blade.php",
+    "views/template-blog-single.blade.php",
+
 );
 
 

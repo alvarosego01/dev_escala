@@ -1,0 +1,190 @@
+
+@import common/global
+
+#blog-home-bootstrap
+
+    h1,
+    h2,
+    h3
+        font-family: "Nunito",Sans-serif!important
+
+
+    .customSection.sectionParent.blogHome0
+        padding-bottom: 0!important
+        // display: none
+        @include responsivo(telefonoTable)
+            padding-top: 0px!important
+            padding-bottom: 50px!important
+        @include responsivo(pcMedio)
+            padding-bottom: 0px!important
+        .section-row
+            padding: 20px 0
+            // display: none
+            @include responsivo(telefonoTable)
+                width: 95%
+            @include responsivo(pcMedio)
+                width: 90%
+            @include responsivo(general)
+                width: 100%!important
+                max-width: 1240px!important
+            @include responsivo(resto)
+                width: 100%!important
+                max-width: 1300px!important
+
+            .groupElements
+                // display: none!important
+                .info
+                    display: flex
+                    padding-top: 0
+                    .containElements
+                        width: 100%
+                        display: flex
+                        flex-direction: row-reverse
+                        @include responsivo(telefonoTable)
+                            flex-direction: column-reverse!important
+                        @include responsivo(pcMedio)
+                            flex-direction: column-reverse!important
+                        .principalBigTitle
+                            text-align: left
+                        .principalBigText
+                            text-align: left
+                             // font-weight: 700!important
+                             //    line-height: 29px!important
+                        .containerImage
+                            padding: 0
+
+                            img
+                                // height: 325px
+                                height: 21vw
+                                max-height: 400px
+                                margin-right: auto
+                                @include responsivo(telefonoTable)
+                                    height: 300px
+                                @include responsivo(pcMedio)
+                                    height: 300px
+                    .ele.ele1
+                        position: relative
+                        display: flex
+                        justify-content: center
+                        align-content: center
+                        @include responsivo(telefonoTable)
+
+                        @include responsivo(pcMedio)
+
+                        @include responsivo(general)
+                            width: 35%!important
+                            display: flex
+                            justify-content: center
+                            align-content: center
+                            .containerImage
+                                // margin: auto 0!important
+                                margin-top: 25px!important
+                                margin-bottom: auto!important
+                                position: relative!important
+
+                        @include responsivo(resto)
+                            width: 35%!important
+
+                        .containerImage
+                            position: absolute
+                            margin: 0 auto
+                            // left: -1%
+                            @include responsivo(telefonoTable)
+                                position: unset!important
+                            @include responsivo(pcMedio)
+                                position: unset!important
+                            @include responsivo(general)
+                                right: 0
+                            @include responsivo(resto)
+                                right: -20%
+
+
+                    .ele.ele2
+                        // padding-top: 5%
+                        width: 65%!important
+                        @include responsivo(telefonoTable)
+                            width: 100%!important
+                        @include responsivo(pcMedio)
+                            width: 100%!important
+                        @include responsivo(general)
+                            padding-top: 10%
+                        @include responsivo(resto)
+                            padding-top: 10%
+                .form7
+                    padding-right: 0
+                    padding-left: 25px
+                    .formatForm
+                        margin-left: auto
+                        @include responsivo(telefonoTable)
+                            margin: 0 auto
+                        @include responsivo(pcMedio)
+                            margin: 0 auto
+        .backgroundFull
+            background-position: 0 50%
+            background-repeat: no-repeat
+            background-size: cover
+            padding-top: 180px
+            padding-bottom: 100px
+
+        .backgroundPlanets
+            opacity: 1
+            transition: background 0.3s, border-radius 0.3s, opacity 0.3s
+            height: 100%
+            width: auto
+            top: 0
+            left: 0
+            right: 0
+            position: absolute
+            background-position: 50px 75px
+            background-repeat: no-repeat
+            background-size: 100% auto
+            @include responsivo(telefonoTable)
+                top: 0
+                background-position: 8px 125px
+                background-size: 100% auto
+            @include responsivo(pcMedio)
+                background-position: 8px 125px
+                background-size: 100% auto
+                top: 0
+
+    section.customSection.sectionParent.blogHome1
+        position: relative
+        padding: 25px 0
+        display: flex
+        justify-content: center
+        @include responsivo(telefonoTable)
+            padding: 0
+        @include responsivo(pcMedio)
+            padding: 0
+        .section-row
+            margin: auto
+            position: absolute
+            top: -100%
+            @include responsivo(telefonoTable)
+                width: 95%
+                position: unset!important
+            @include responsivo(pcMedio)
+                width: 90%
+                position: unset!important
+            @include responsivo(general)
+                width: 100%!important
+                max-width: 1140px!important
+            @include responsivo(resto)
+                width: 100%!important
+                max-width: 1140px!important
+            .containElements
+                width: 90%
+
+    // section.customSection.sectionParent.blogHome2
+    section.customSection.sectionParent.blogHome3
+        background-color: $colorGreyLight
+        padding: 50px 0
+        .section-row
+            .innerSectionElement
+                .containElements
+                    .groupTag
+                        .tagsCategory
+                            background-color: $colorBlack
+    section.customSection.sectionParent.blogHome4
+        background-color: $colorGreyLight
+        padding: 50px 0

@@ -137,6 +137,15 @@ class ACF_CUSTOM extends Controller
             ),
 
         ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-blog-category.blade.php",
+            ),
+
+        ),
+
 
     );
 
@@ -159,6 +168,16 @@ class ACF_CUSTOM extends Controller
                 $this->webinar_meeting()
 
             );
+            acf_add_local_field_group(
+
+                $this->settingsSingleBlog()
+
+            );
+            acf_add_local_field_group(
+
+                $this->settingsCategoryBase()
+
+            );
         }
 
     }
@@ -169,8 +188,8 @@ class ACF_CUSTOM extends Controller
 
 
         return array(
-            'key' => 'cf7_custom',
-            'title' => 'Contact form 7 settings',
+            'key' => 'general_config',
+            'title' => 'General settings',
             'fields' => array (
                 array (
                     'key' => 'form7',
@@ -183,6 +202,12 @@ class ACF_CUSTOM extends Controller
                     'label' => 'Contact form 7 redirect',
                     'name' => 'Contact form 7 redirect',
                     'type' => 'url',
+                ),
+                array (
+                    'key' => 'newsletter_form',
+                    'label' => 'Contact form 7 Newsletter shortcode',
+                    'name' => 'Contact form 7 Newsletter shortcode',
+                    'type' => 'text',
                 )
             ),
             'location' => $this->allTemplates
@@ -191,6 +216,65 @@ class ACF_CUSTOM extends Controller
 
 
     }
+
+    private function settingsSingleBlog(){
+
+        return array(
+            'key' => 'single_blog_config',
+            'title' => 'Single blog settings',
+            'fields' => array (
+                array (
+                    'key' => 'excerpt_single',
+                    'label' => 'Excerpt post',
+                    'name' => 'Excerpt post',
+                    'type' => 'textarea',
+                ),
+
+            ),
+            'location' => array (
+                array (
+                    array (
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'post',
+                    ),
+                ),
+            ),
+
+        );
+
+    }
+
+    private function settingsCategoryBase(){
+
+        return array(
+            'key' => 'category_base_blog_config',
+            'title' => 'Category section blog settings',
+            'fields' => array (
+                array (
+                    'key' => 'category_base',
+                    'label' => 'Category section',
+                    'name' => 'Category section',
+                    'type' => 'text',
+                ),
+
+            ),
+            'location' => array (
+                array (
+                    array (
+                        'param' => 'page_template',
+                        'operator' => '==',
+                        'value' => "views/template-blog-category.blade.php",
+                    ),
+
+                ),
+            ),
+
+        );
+
+    }
+
+
 
     private function webinar_home(){
 
@@ -254,6 +338,37 @@ class ACF_CUSTOM extends Controller
 
         );
 
+    }
+
+
+
+    public static function _getField($field, $id = null){
+
+
+
+        if( function_exists('get_field') ){
+
+            $l = null;
+            if( $id ){
+                $l = get_field($field, $id);
+
+            }else{
+                $l = get_field($field);
+            }
+
+            if($l != null || $l != ''){
+
+                return $l;
+
+            }else{
+                return null;
+            }
+
+        }else{
+
+            return null;
+
+        }
     }
 
 
