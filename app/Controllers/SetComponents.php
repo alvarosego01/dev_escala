@@ -17,7 +17,8 @@ class SetComponents extends Controller
             $this->setBannersForms7Components(),
             $this->setHeadersComponents(),
             $this->setCallToActionsComponents(),
-            $this->setContainComponents()
+            $this->setContainComponents(),
+            $this->setBlogComponents()
         );
 
 
@@ -30,6 +31,18 @@ class SetComponents extends Controller
 
         return array(
             'components.bannerForms7.component-banner-forms7-T1' => 'bannerForms7_T1'
+        );
+
+
+    }
+
+
+    private function setBlogComponents(){
+
+        return array(
+            'components.subscribers.component-subscribers-T1' => 'subscribers_T1',
+            'components.blog.component-blog-slideshow-T1' => 'slideshowBlog_T1',
+            'components.blog.component-blog-articles-T1' => 'articlesBlog_T1'
         );
 
 

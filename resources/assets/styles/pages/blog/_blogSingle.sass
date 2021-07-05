@@ -1,0 +1,123 @@
+
+
+
+@import common/global
+
+#blog-single-bootstrap
+
+    h1,
+    h2,
+    h3
+        font-family: "Nunito",Sans-serif!important
+
+
+    .customSection.sectionParent.blogSingleSection0
+        margin-top: 75px
+        .backgroundFull
+            height: 450px
+            background-repeat: no-repeat!important
+            background-size: cover!important
+            background-position: center!important
+            background-blend-mode: multiply!important
+            display: flex
+            justify-content: center
+            align-content: center
+            @include responsivo(telefonoTable)
+                height: 325px
+            @include responsivo(pcMedio)
+                height: 375px
+            .section-row
+                margin: auto
+                h1
+                    display: block
+                    width: 100%
+                    color: $colorWhite
+                    text-align: center
+
+    .customSection.sectionParent.blogSingleSection1
+        padding: 75px 0
+        // padding-bottom: 50px
+        // margin-bottom: 75px
+        // position: relative
+        // &::after
+        //     content: ''
+        //     border-bottom: 1px solid rgba(0,0,0,0.2)
+        //     width: 80%
+        //     display: block
+        //     position: absolute
+        //     left: 0
+        //     right: 0
+        //     bottom: 0
+        //     margin: 0 auto
+        .section-row
+            @include responsivo(telefonoTable)
+                width: 90%!important
+
+            @include responsivo(pcMedio)
+                width: 80%!important
+
+            @include responsivo(general)
+                width: 75%!important
+
+            @include responsivo(resto)
+                width: 950px!important
+
+            section.innerSectionElement.sct1
+                display: flex
+                .row
+                    .social
+                        h2
+                            color: #706B6D
+                            font-family: "Nunito Sans",Sans-serif
+                            font-size: 18px
+                            font-weight: 500
+                            text-align: center
+                // .row
+
+    .customSection.sectionParent.blogSingleSection2
+        padding: 50px 0
+        width: 70%
+        border-top: 1px solid rgba(0,0,0,0.2)
+        @include responsivo(telefonoTable)
+            width: 90%
+        @include responsivo(pcMedio)
+            width: 85%
+        h2
+            font-size: 36px
+            font-weight: bold
+            text-align: center
+            font-family: Nunito Sans
+            margin-bottom: 25px
+        ul.essb_links_list.essb_force_hide_name.essb_force_hide
+            margin: 0 auto
+            justify-content: center
+
+    .customSection.sectionParent.blogSingleSection3
+        // display: none
+        background-color: $colorGreyLight
+        .section-row
+            @include responsivo(telefonoTable)
+                width: 95%
+            @include responsivo(pcMedio)
+                width: 90%
+            @include responsivo(general)
+                width: 80%!important
+                // max-width: 1140px!important
+            @include responsivo(resto)
+                width: 80%!important
+                // max-width: 1240px!important
+
+            .innerSectionElement.sct1
+                margin-bottom: 25px
+                @include responsivo(telefonoTable)
+                    margin-bottom: 25px!important
+
+                .containElements
+                    // padding: 0 150px
+                    .primaryTitle
+                        line-height: 1
+                        text-align: center
+                        font-size: 37px
+                        font-weight: 600
+                        margin-bottom: 50px
+
