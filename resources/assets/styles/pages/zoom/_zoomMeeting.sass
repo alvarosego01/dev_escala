@@ -14,7 +14,7 @@
         font-family: "Nunito",Sans-serif!important
     @include responsivo(telefonoTable)
         padding-bottom: 100px
-        padding-top: 100px
+        padding-top: 150px
     @include responsivo(pcMedio)
         padding-bottom: 100px
         padding-top: 150px
@@ -32,7 +32,7 @@
         background-size: 100% auto
         @include responsivo(telefonoTable)
             top: 0
-            background-position: 8px 100px
+            background-position: 8px 125px
             background-size: 100% auto
         @include responsivo(pcMedio)
             background-position: 8px 150px
@@ -80,6 +80,12 @@
                             font-size: 48px
                             line-height: 48px
                             text-align: center
+                            @include responsivo(telefonoTable)
+                                line-height: 35px
+                                font-size: 30px
+                            // @include responsivo(pcMedio)
+
+
                             // margin-bottom: 25px
         .zoomMeetingSection1
             padding: 0
@@ -139,8 +145,10 @@
                         padding: 15px 0
                         @include responsivo(telefonoTable)
                             justify-content: center
+                            flex-direction: column
                         @include responsivo(pcMedio)
                             justify-content: center
+                            flex-direction: column
                         a
                             font-family: "Nunito Sans",Sans-serif
                             font-size: 20px
@@ -155,6 +163,18 @@
                                 margin-left: 15px
                             &:hover
                                 color: $colorOrange
+                            @include responsivo(telefonoTable)
+                                display: flex
+                                flex-direction: row-reverse
+                                img
+                                    margin: 15px
+                            @include responsivo(pcMedio)
+                                display: flex
+                                flex-direction: row-reverse
+                                img
+                                    margin: 15px
+
+
                         // flex-direction: row
 
                         .setDate
@@ -165,7 +185,8 @@
                             .hiperButtonGray
                             .containerImage
                                 padding: 0
-                                margin-bottom: 0
+                                margin-bottom: 0!important
                                 margin-left: 15px
                                 img
                                     height: 37.5px
+                                    margin: 15px
