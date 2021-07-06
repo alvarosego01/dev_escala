@@ -110,7 +110,12 @@
 
 
   jQuery('#formZoomHome').on('slide.bs.carousel', function () {
-    jQuery('div#formZoomHome').carousel('pause');
+    jQuery('div#formZoomHome').carousel({
+      pause: true,
+        interval: false
+    });
+
+
   })
 
 </script>

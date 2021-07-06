@@ -345,7 +345,7 @@ Monitorea el comportamiento',
   'backgroundImageFile' => App::setFilePath('/assets/images/banners/banner-blue-planets2.png'),
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/banners/banner-hombre_hombre.png'),
-  'title' => '<span class="whiteColor">Síííí! Mi landing page</span> <br> está funcionando... <br> ¿Verdad?',
+  'title' => '<span class="whiteColor">¡Síííí! Mi landing page</span> <br> está funcionando... <br> ¿Verdad?',
   'text' => '¿Cuál es el desempeño de tu landing page en función de tus <br> objetivos de marketing? ¿Estás obteniendo un buen retorno <br> de tu inversión?
   <br class="space"><br class="space">
 Descúbrelo en tiempo real utilizando nuestras herramientas <br> de analíticas intuitivas.',
