@@ -49,13 +49,7 @@ posts
                         @endforeach
                         @endif
 
-                        @if ( isset($linkCategory) && $linkCategory != null )
 
-                        <a class="hiperButtonGray" href="{{ $linkCategory }}">
-                            Leer más
-                        </a>
-
-                        @endif
                     </div>
                     @endif
 
@@ -111,6 +105,14 @@ posts
 
 
                     @endforeach
+                @endif
+
+                @if ( isset($linkCategory) && $linkCategory != null )
+
+                <a class="hiperButtonGray" href="{{ $linkCategory }}">
+                    Leer más
+                </a>
+
                 @endif
 
             </div>

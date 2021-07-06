@@ -9,6 +9,10 @@
 section.component-slideshowBlog-T1.customSection.sectionParent
 
     padding: 75px 0
+    // @include responsivo(telefonoTable)
+        // padding: 50px 0
+    // @include responsivo(pcMedio)
+        // padding: 50px 0
     .section-row
         @include responsivo(telefonoTable)
             width: 90%
@@ -76,10 +80,10 @@ section.component-slideshowBlog-T1.customSection.sectionParent
                         box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%)
                         .backgroundImage
                             height: 450px
-                            background-size: cover
+                            background-size: cover!important
                             background-blend-mode: multiply
                             @include responsivo(telefonoTable)
-                                height: 250px
+                                height: 200px
                             @include responsivo(pcMedio)
                                 height: 350px
                             a
@@ -137,14 +141,14 @@ section.component-slideshowBlog-T1.customSection.sectionParent
                             width: fit-content
                             height: fit-content
                             // padding: 30px
-                            width: 80px
-                            height: 80px
+                            width: 60px
+                            height: 60px
                             position: relative
                             background-color: $colorWhite
                             display: flex
                             margin: auto 0
                             position: relative
-                            left: -40px
+                            left: -25px
                             box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%)
                             @include responsivo(telefonoTable)
                                 left: -12.5px
@@ -172,14 +176,14 @@ section.component-slideshowBlog-T1.customSection.sectionParent
                             width: fit-content
                             height: fit-content
                             // padding: 30px
-                            width: 80px
-                            height: 80px
+                            width: 60px
+                            height: 60px
                             position: relative
                             background-color: $colorWhite
                             display: flex
                             margin: auto 0
                             position: relative
-                            right: -40px
+                            right: -25px
                             box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%)
                             // justify-content: center
                             // align-content: center

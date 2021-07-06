@@ -98,15 +98,15 @@
 
 
                     <a target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" >
-                        ¿Necesitas ayuda?
                         <img class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
+                        ¿Necesitas ayuda?
                     </a>
 
 
 
-                    {{-- <div class="setDate">
+                    <div class="setDate">
 
-                        <a class="hiperButtonGray">
+                        <a href="https://reserva.escala.com/#/customer/agendamientodemo" class="hiperButtonGray">
                             Agendar para otro momento
                         </a>
 
@@ -116,7 +116,7 @@
 
                         </div>
 
-                    </div> --}}
+                    </div>
 
                 </div>
 

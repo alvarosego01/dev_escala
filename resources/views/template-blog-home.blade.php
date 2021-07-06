@@ -132,28 +132,26 @@
                     'order' => 'DESC'
                 );
                 $query = Posts::getPosts($query);
+
+                $parameters = array(
+                    "posts" => $query,
+                    'categoryTag' => true,
+                    'categoryTagList' =>  [
+                        "Ventas"
+                    ],
+                    'classSection' => 'blogHome3',
+                    'enableTitle' => true,
+                    'linkCategory' => App::setTypeUrl().'/blog/ventas',
+                )
+
             @endphp
 
-            @articlesBlog_T1(array(
-                "posts" => $query,
-                'categoryTag' => true,
-                'categoryTagList' =>  [
-                    "Ventas"
-                ]
-            ))
+            @articlesBlog_T1($parameters)
 
-                @slot('classSection')
-                    blogHome3
-                @endslot
-                @slot('enableTitle')
-                    true
-                @endslot
                 @slot('titlePrincipal')
                     <span class="greenBlueColor">Artículos</span> recientes
                 @endslot
-                @slot('linkCategory')
-                {!! App::setTypeUrl() !!}/blog/ventas
-                @endslot
+
 
             @endarticlesBlog_T1
 
@@ -166,28 +164,23 @@
                     'order' => 'DESC'
                 );
                 $query = Posts::getPosts($query);
-            @endphp
 
-            @articlesBlog_T1(array(
+                $parameters = array(
                 "posts" => $query,
                 'categoryTag' => true,
                 'categoryTagList' =>  [
                     "Marketing"
-                ]
-            ))
+                ],
+                'classSection' => 'blogHome4',
+                'enableTitle' => true,
+                'titlePrincipal' => null,
+                'linkCategory' => App::setTypeUrl().'/blog/marketing',
+                )
+            @endphp
 
-                @slot('classSection')
-                    blogHome4
-                @endslot
-                @slot('enableTitle')
-                    true
-                @endslot
-                @slot('titlePrincipal')
-                    <span class="greenBlueColor">Artículos</span> recientes
-                @endslot
-                @slot('linkCategory')
-                    {!! App::setTypeUrl() !!}/blog/marketing
-                @endslot
+            @articlesBlog_T1($parameters)
+
+
 
             @endarticlesBlog_T1
 

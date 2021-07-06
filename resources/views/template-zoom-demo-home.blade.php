@@ -106,4 +106,14 @@
 {{-- boton - Solicitar ahora --}}
 
 
+<script>
+
+
+  jQuery('#formZoomHome').on('slide.bs.carousel', function () {
+    jQuery('div#formZoomHome').carousel('pause');
+  })
+
+</script>
+
+
 @endsection
