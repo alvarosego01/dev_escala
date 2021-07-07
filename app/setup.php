@@ -17,6 +17,7 @@ use App\Controllers\App;
 $bootstrapPages = array(
     "views/template-home.blade.php",
     "views/template-landing-incredible.blade.php",
+    "views/template-landing-incredible-no-program.blade.php",
     "views/template-landing-incredible-am.blade.php",
     "views/template-func-page-builder.blade.php",
     "views/template-func-analiticas.blade.php",
