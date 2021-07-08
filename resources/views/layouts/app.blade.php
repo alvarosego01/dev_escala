@@ -6,6 +6,9 @@ get_header();
 
 @php
 $redirect = get_field('cf7_redirect');
+
+$redirect = strval($redirect);
+
 @endphp
 
 @if (isset($redirect) && $redirect != null)
@@ -13,8 +16,9 @@ $redirect = get_field('cf7_redirect');
 <script>
 
 document.addEventListener( 'wpcf7mailsent', function( e ) {
-console.log('Redirección', {{ $redirect }});
-window.location.replace( {{$redirect}} );
+
+console.log('Redirección', "{{ $redirect }}" );
+window.location.replace("{{ $redirect }}");
 
 }, false );
 </script>

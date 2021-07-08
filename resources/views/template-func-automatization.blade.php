@@ -244,11 +244,11 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'backgroundImageFile' => App::setFilePath('/assets/images/banners/banner-blue-planets2.png'),
   'enableTitle' => false,
   'img' =>  App::setFilePath('/assets/images/banners/banner-hombre_hombre.png'),
-  'title' => '¡Crece más rápido <br> con los emails de escala!',
+  'title' => 'Automatiza y ahorra más tiempo',
   'text' => null,
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Probar email marketing ahora',
+  'textButton' => '¡Pruébalo ahora!',
   'typeButton' => 'primaryButton',
   'side' => 'right',
 

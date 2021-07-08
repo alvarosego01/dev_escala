@@ -118,6 +118,12 @@
             position: absolute
             width: 100%
             height: 100%
+        .info
+            span
+                @include responsivo(telefonoTable)
+                    text-align: center!important
+                @include responsivo(pcMedio)
+                    text-align: center!important
 
     .customSection.sectionParent.funcPageBuilder12
         background-color: $colorGreyLight2

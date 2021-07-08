@@ -1,0 +1,115 @@
+
+
+
+
+@import common/global
+
+
+
+.component-subscribers-T1.customSection.sectionParent
+
+    .section-row
+
+        @include responsivo(telefonoTable)
+            width: 90%
+        @include responsivo(pcMedio)
+            width: 90%
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1200px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1240px!important
+
+        box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.08)
+        border-radius: 10px
+        background-color: $colorWhite
+        .containElements
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            width: 80%
+            margin: 0 auto
+            padding: 5px 0
+            @include responsivo(telefonoTable)
+                width: 90%!important
+                flex-direction: column
+                padding: 25px 0
+
+            @include responsivo(pcMedio)
+                width: 90%!important
+                flex-direction: column
+                padding: 25px 0
+
+            .group
+                display: flex
+                flex-direction: row
+                justify-content: center
+                align-content: center
+                .containerImage
+                    margin-bottom: 0
+                    padding: 0
+                    display: flex
+                    @include responsivo(telefonoTable)
+                        margin-bottom: 15px!important
+                    @include responsivo(pcMedio)
+                        margin-bottom: 15px!important
+                    @include responsivo(general)
+                        margin-right: 15px
+                    @include responsivo(resto)
+                        margin-right: 15px
+                    img
+                        height: 65px
+                        margin: auto
+                        display: block
+                h3
+                    font-family: Nunito Sans
+                    font-style: normal
+                    font-weight: bold!important
+                    font-size: 22px
+                    line-height: 60px
+                    color: $colorBlack
+                    height: fit-content
+                    margin: auto 0
+
+                @include responsivo(telefonoTable)
+                    flex-direction: column
+                    h3
+                        text-align: center
+                @include responsivo(pcMedio)
+                    flex-direction: column
+                    h3
+                        text-align: center
+
+            .form_cf7
+                display: flex
+                justify-content: center
+                .wpcf7
+                    display: flex
+                    justify-content: center
+                    align-content: center
+                    form.wpcf7-form.init
+                        display: block
+                        height: fit-content
+                        margin: auto 0
+                        .cf-col-6
+                            &:nth-of-type(1)
+                                width: 400px
+                                padding-right: 25px
+
+
+                .cf-container
+                    display: flex
+                    flex-direction: row
+                    @include responsivo(telefonoTable)
+                        flex-direction: column!important
+                        .cf-col-6
+                            display: flex
+                            input.wpcf7-form-control.wpcf7-submit
+                                margin: 25px auto
+                    @include responsivo(pcMedio)
+                        flex-direction: column!important
+                        .cf-col-6
+                            display: flex
+                            input.wpcf7-form-control.wpcf7-submit
+                                margin: 25px auto

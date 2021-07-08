@@ -27,10 +27,10 @@
                 width: 90%
             @include responsivo(general)
                 width: 100%!important
-                max-width: 1140px!important
+                max-width: 1240px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1240px!important
+                max-width: 1300px!important
             .containerImage
                 margin: 0
                 padding: 0
@@ -50,18 +50,38 @@
                     .info
                         .containElements
                             .principalBigTitle
-                                font-size: 50px
-                                line-height: 50px
-                                margin-bottom: 25px
+                                // font-size: 50px
+                                // line-height:
+                                font-size: 38px!important
+                                line-height: 40px!important
+                                font-weight: 700!important
+                                font-family: "Nunito",Sans-serif
+                                margin-bottom: 20px
+                                @include responsivo(telefonoTable)
+                                    font-size: 36px!important
+                                @include responsivo(pcMedio)
+                                    font-size: 36px!important
+
+                                // margin-bottom: 25px
                             .principalBigText
-                                font-size: 24px
-                                line-height: 24px
+                                font-size: 20px!important
+                                line-height: 28px!important
+                                font-weight: 400!important
+                                color: $colorBlack!important
+                                @include responsivo(telefonoTable)
+                                    font-size: 20px!important
+                                @include responsivo(pcMedio)
+                                    font-size: 20px!important
+                                @include responsivo(general)
+                                    width: 50vw!important
+                                @include responsivo(resto)
+                                    width: 700px!important
                                 margin-bottom: 40px
                             .containerImage
                                 position: relative
                                 left: -15%
                                 img
-                                    height: 500px
+                                    height: 550px
                                     // margin-top:
                                     margin-left: 0
                             @include responsivo(telefonoTable)
@@ -84,22 +104,43 @@
                                     img
                                         height: 400px
                                         margin: 0 auto
+                            @include responsivo(general)
+                                .containerImage
+                                    img
+                                        height: 475px
+
+
 
                     .form7
                         .formatForm
-                            max-width: unset!important
-                            width: 85%
-                            input,
-                            select
-                                font-size: 15px!important
-                                line-height: 15px!important
+                            @include responsivo(general)
+                                max-width: 460px
+
+                            @include responsivo(resto)
+                                max-width: 500px
+
+                            h4
+                                padding-bottom: 10px
+                            // max-width: unset!important
+                            // width: 85%
+                            // input,
+                            // select
+                                // font-size: 15px!important
+                                // line-height: 15px!important
+                            span.wpcf7-form-control-wrap.your-phone
+                                display: flex
+                                justify-content: space-around
                             label
-                                font-size: 15px!important
-                                line-height: 15px!important
+                                // font-size: 15px!important
+                                // line-height: 15px!important
+                                margin-bottom: 1px
+                                margin-top: 9px
                                 // color:#858585!important
-                        input
-                            padding-top: 12.5px
-                            padding-bottom: 12.5px
+                        select
+                            font-weight: 200!important
+                        // input
+                        //     padding-top: 12.5px
+                        //     padding-bottom: 12.5px
                         input.wpcf7-form-control.wpcf7-submit
                             padding: 0 20px!important
                             font-size: 18px!important
@@ -118,6 +159,24 @@
 
                             @include responsivo(resto)
                                 height: 75px!important
+
+                        .carousel.slide
+                            .carousel-inner
+                                .controls
+                                    padding: 0
+                                    display: flex
+                                    button.buttonControlNext
+                                        margin: 25px auto
+                                        // padding: 25px
+                                        i
+                                            font-size: 16px
+                                    button.buttonControlPrev
+                                        background-color: transparent
+                                        font-size: 18px
+                                        border: 0
+                                        margin: 0 auto
+
+
 
         .backgroundPlanets
             background-position: 50px 200px

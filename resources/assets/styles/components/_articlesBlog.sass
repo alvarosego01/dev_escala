@@ -1,0 +1,142 @@
+
+
+
+
+@import common/global
+
+
+
+.component-articlesBlog-T1.customSection.sectionParent
+    padding: 75px 0
+    .section-row
+        @include responsivo(telefonoTable)
+            width: 95%
+        @include responsivo(pcMedio)
+            width: 90%
+        @include responsivo(general)
+            width: 90%!important
+            // max-width: 1200px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1240px!important
+
+        .innerSectionElement.sct1
+            margin-bottom: 25px
+            @include responsivo(telefonoTable)
+                margin-bottom: 25px!important
+
+            .containElements
+                // padding: 0 150px
+                .primaryTitle
+                    line-height: 1
+                    text-align: left
+                    font-size: 37px
+                    font-weight: 600
+                    margin-bottom: 50px
+
+                @include responsivo(telefonoTable)
+                    .primaryTitle
+                        text-align: center
+                        font-size: 35px
+
+                @include responsivo(pcMedio)
+                    .primaryTitle
+                        text-align: center
+                        font-size: 35px
+                .groupTag
+                    display: flex
+                    flex-direction: row
+                    @include responsivo(telefonoTable)
+                        width: fit-content
+                        flex-direction: column
+                        margin: 7.5px auto
+                        .tagsCategory
+                            text-align: center
+                            margin-right: 0!important
+                            margin-bottom: 15px
+                    @include responsivo(pcMedio)
+                        width: fit-content
+                        flex-direction: column
+                        margin: 7.5px auto
+                        .tagsCategory
+                            text-align: center
+                            margin-right: 0!important
+                            margin-bottom: 15px
+
+                    .tagsCategory
+                        // margin:
+                        margin-right: 25px
+                        width: fit-content
+                        padding: 7.5px 40px
+                        background-color: $colorOrange
+                        border-radius: 40px
+                        color: $colorWhite
+                        text-align: left
+                        font-size: 16px
+                        line-height: 16px
+                        font-weight: 500
+                        font-family: "Nunito",Sans-serif
+
+
+        .innerSectionElement.sct2
+            .groupElements
+                @include responsivo(telefonoTable)
+                    width: 90%!important
+                    margin: 0 auto
+                    .principal
+                        margin-bottom: 25px
+                @include responsivo(pcMedio)
+                    width: 85%!important
+                    margin: 0 auto
+                    .principal
+                        margin-bottom: 25px
+                a.hiperButtonGray
+                    text-align: center
+                    margin: 25px auto
+                .principal
+                    padding: 5px
+                    .card
+                        padding: 0
+                        border-radius: 15px
+                        box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%)
+                        overflow: hidden
+                        a
+                            text-decoration: none
+                            img
+                                height: 225px
+                                object-fit: cover
+                                display: block
+                                @include responsivo(telefonoTable)
+                                    height: 250px
+                                @include responsivo(pcMedio)
+                                    height: 250px
+                        .card-body
+                            padding: 30px
+                            .tags
+                                font-size: 17px!important
+                                line-height: 20px
+                                font-weight: 400!important
+                                // margin-bottom: 25px
+                            .secondaryTitle
+                                // margin: 15px 0
+                                margin-top: 5px
+                                margin-bottom: 15px
+                                font-size: 22px!important
+                                font-family: "Nunito",Sans-serif
+                                line-height: 28px!important
+                                font-weight: 700
+                            .commonText
+                                font-family: "Nunito",Sans-serif
+                                font-weight: 400!important
+                                font-size: 15px!important
+                                line-height: 20px!important
+                            @include responsivo(telefonoTable)
+
+                            @include responsivo(pcMedio)
+                                .tags
+                                    font-size: 16px!important
+                                .secondaryTitle
+                                    font-size: 28px!important
+                                .commonText
+                                    font-size: 18px!important
+

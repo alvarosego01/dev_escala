@@ -5,7 +5,7 @@
 .customSection.sectionParent.homeSection0
     // height: 1200px
     .section-row
-        // height: 750px
+        // height: 750p
 
     .backgroundFull
         background-position: 0px -199px
@@ -102,6 +102,13 @@
 
 
 .customSection.sectionParent.homeSection2
+    .section-row
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1240px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1300px!important
     .innerSectionElement.sct1
         margin-bottom: 50px
         .containElements

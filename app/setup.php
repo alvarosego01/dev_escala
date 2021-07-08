@@ -17,6 +17,7 @@ use App\Controllers\App;
 $bootstrapPages = array(
     "views/template-home.blade.php",
     "views/template-landing-incredible.blade.php",
+    "views/template-landing-incredible-no-program.blade.php",
     "views/template-landing-incredible-am.blade.php",
     "views/template-func-page-builder.blade.php",
     "views/template-func-analiticas.blade.php",
@@ -30,7 +31,9 @@ $bootstrapPages = array(
     "views/template-open-webinar-escala.blade.php",
     "views/template-open-webinar-escala-meeting.blade.php",
     "views/template-blog-home.blade.php",
-    "views/template-blog-single.blade.php"
+    "views/template-blog-category.blade.php",
+    "views/template-blog-single.blade.php",
+
 );
 
 

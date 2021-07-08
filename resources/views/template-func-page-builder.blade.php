@@ -239,7 +239,7 @@ Conéctalo a escala rápidamente con un click. Si lo deseas, se conectará <br> 
     @var $urlButton -  url of button | string
     @var $textButton -  define text of button | string
   --}}
-@php
+{{-- @php
  $parameters = array(
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder10',
@@ -274,14 +274,34 @@ para guardar las información de tus contactos.',
     ]
   )
  ) ;
+@endphp --}}
+
+@php
+ $parameters = array(
+  'type' => 'backgroundColor',
+  'classSection' => 'funcPageBuilder10',
+  'enableTitle' => true,
+  'titlePrincipal' => '<span class="greenBlueColor">Dile hola a los formularios inteligentes.</span> <br> ¡Adiós a los plug-ins!',
+  'subTitlePrincipal' => 'Olvídate de las integraciones complicadas y las interminables hojas de excel <br>
+para guardar las información de tus contactos.',
+  'overlay' => true,
+  'overlayImage' => App::setFilePath('/assets/images/overlays/planets1.svg'),
+  'img' => App::setFilePath('/assets/images/illustrations/team/CRM-1.png'),
+      'title' => '<span class="greenBlueColor">Del formulario en tu página</span> <br> directo al CRM',
+      'text' => 'Cuando tus visitantes se registren en tu landing page, toda esa <br> información quedará guardada automáticamente en tu CRM de <br> escala. No más hojas de excel o integraciones complicadas <br> ¡Recibe y maneja tu base de datos desde un mismo lugar!
+      <div></div>
+      <span class="greenBlueColor" style="text-align: left; font-size: 22px; font-weight: 600!important">¡Asombroso!</span>',
+'enableButton' => false,
+  // 'typeButton' => 'primaryButton',
+    // 'urlButton' => '#lead-form',
+  // 'textButton' => 'Comenzar ahora',
+  'side' => 'left',
+ ) ;
 @endphp
 
+@contain_text_image_T1( $parameters )
 
-
-@contain_multiple_cards_T1( $parameters )
-
-@endcontain_multiple_cards_T1
-
+@endcontain_text_image_T1
 
 @php
  $parameters = array(
@@ -345,7 +365,7 @@ Monitorea el comportamiento',
   'backgroundImageFile' => App::setFilePath('/assets/images/banners/banner-blue-planets2.png'),
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/banners/banner-hombre_hombre.png'),
-  'title' => '<span class="whiteColor">Síííí! Mi landing page</span> <br> está funcionando... <br> ¿Verdad?',
+  'title' => '<span class="whiteColor">¡Síííí! Mi landing page</span> <br> está funcionando... <br> ¿Verdad?',
   'text' => '¿Cuál es el desempeño de tu landing page en función de tus <br> objetivos de marketing? ¿Estás obteniendo un buen retorno <br> de tu inversión?
   <br class="space"><br class="space">
 Descúbrelo en tiempo real utilizando nuestras herramientas <br> de analíticas intuitivas.',

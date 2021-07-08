@@ -40,7 +40,7 @@
 
                   <h1 class="principalBigTitle blackColor">
                     {{-- Recibe un <span class="greenBlueColor">DEMO <br> personalizado</span> --}}
-                    Descubre cómo escala puede ayudarte a <br> <span class="greenBlueColor">hacer crecer tu negocio</span>
+                    Descubre cómo <br> escala puede ayudarte a <br> <span class="greenBlueColor">hacer crecer tu negocio</span>
                   </h1>
                   <p class="principalBigText grayColorTexts">
                     {{-- Descubre como escala puede ayudarte a <br> hacer crecer tu negocio con un breve <br> tour y consultas --}}
@@ -104,6 +104,21 @@
 
 
 {{-- boton - Solicitar ahora --}}
+
+
+<script>
+
+
+  jQuery('#formZoomHome').on('slide.bs.carousel', function () {
+    jQuery('div#formZoomHome').carousel({
+      pause: true,
+        interval: false
+    });
+
+
+  })
+
+</script>
 
 
 @endsection

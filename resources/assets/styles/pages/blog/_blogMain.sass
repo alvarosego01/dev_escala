@@ -1,0 +1,100 @@
+
+
+@import blogHome
+@import blogCategory
+@import blogSingle
+
+
+
+// [class$="something"]
+.post-template
+    p
+        color: $colorGrey3
+        font-size: 18px
+        line-height: 30px
+        font-family: "Nunito Sans", sans-serif
+        margin-bottom: 25px
+
+    .h2-blogpost,
+    .h2\.blogpost
+        font-family: Nunito Sans
+        color: #150D27
+        font-size: 36px
+        font-weight: Bold
+        margin-bottom: 25px
+        margin-top: 25px
+
+    .h3-blogpost,
+    .h3\.blogpost
+        font-family: Nunito Sans
+        color: #34768A !important
+        font-size: 22px
+        font-weight: Bold
+        margin-bottom: 25px
+        margin-top: 25px
+
+    /* Blog Newsletter */
+    h3.elementor-icon-box-title
+        margin-bottom: 0px
+
+    ul.essb_links_list.essb_force_hide_name.essb_force_hide
+        display: flex
+        @include responsivo(telefonoTable)
+            flex-direction: row
+            justify-content: center
+            align-content: center
+            li
+                margin-left: 10px!important
+                margin-right: 10px!important
+        @include responsivo(pcMedio)
+            flex-direction: row
+            justify-content: center
+            align-content: center
+            li
+                margin-left: 10px!important
+                margin-right: 10px!important
+        li
+            a
+                background-color: $colorGreenBlue3!important
+                border-radius: 300px
+                width: 50px
+                height: 50px
+                margin: 7.5px auto
+                display: flex
+                justify-content: center
+                align-content: center
+                span.essb_icon
+                    margin: auto!important
+    .social.horizontal
+        ul.essb_links_list.essb_force_hide_name.essb_force_hide
+            flex-direction: row
+            li
+                margin: 0 10px!important
+    .social.vertical
+        ul.essb_links_list.essb_force_hide_name.essb_force_hide
+            flex-direction: column
+            @include responsivo(telefonoTable)
+                flex-direction: row
+            @include responsivo(pcMedio)
+                flex-direction: row
+
+.essb_links.essb_displayed_top.essb_share.essb_template_default4-retina,
+.essb_links.essb_displayed_bottom.essb_share.essb_template_default4-retina
+    display: none
+
+// .h2-blogpost{
+// 	font-family: Nunito Sans;
+// 	color: #150D27;
+// 	font-size: 36px;
+// 	font-weight: Bold;
+// }
+// .h3-blogpost{
+// 	font-family: Nunito Sans;
+// 	color: #34768A !important;
+// 	font-size: 22px;
+// 	font-weight: Bold;
+// }
+// /* Blog Newsletter */
+// h3.elementor-icon-box-title{
+// 	margin-bottom: 0px;
+// }
