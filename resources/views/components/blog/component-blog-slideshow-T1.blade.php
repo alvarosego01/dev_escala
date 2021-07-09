@@ -57,7 +57,7 @@
 
                             <div class="backgroundImage" style="background: url('{{ Posts::getPhoto($item->ID) }}') rgba(13,46,56, 0.7)" >
 
-                                <a href="{!! App::setTypeUrl() !!}/{{ $item->post_name }}">
+                                <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
 
 
                                     <div class="group">
