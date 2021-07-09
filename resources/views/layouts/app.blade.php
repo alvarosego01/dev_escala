@@ -5,7 +5,7 @@ get_header();
 @endphp
 
 @php
-$redirect = get_field('cf7_redirect');
+$redirect = ACF_CUSTOM::_getField('cf7_redirect');
 
 $redirect = strval($redirect);
 

@@ -63,7 +63,7 @@
                     <h4 class="titleFormat blackcolor">¡Ingresa a nuestro Webinar!</h4>
 
                       @php
-                          $f = get_field('form7');
+                          $f = ACF_CUSTOM::_getField('form7');
                       @endphp
 
                       {!! do_shortcode( $f ) !!}
