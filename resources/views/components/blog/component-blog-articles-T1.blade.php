@@ -73,13 +73,13 @@ posts
                     <div class="principal col-md-12 col-lg-4">
                         <div class="card">
 
-                            <a href="{!! App::setTypeUrl() !!}/{{ $item->post_name }}">
+                            <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
 
                                     <img src="{{ Posts::getPhoto($item->ID) }}" class="card-img-top" >
 
                             </a>
                         <div class="card-body">
-                            <a href="{!! App::setTypeUrl() !!}/{{ $item->post_name }}">
+                            <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
                             @if ( isset($post_tags) && $post_tags != null && count($post_tags) > 0)
                             <span class="tags greenBlueColor">
 

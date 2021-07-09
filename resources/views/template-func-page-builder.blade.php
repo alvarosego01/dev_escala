@@ -362,9 +362,9 @@ Monitorea el comportamiento',
  $parameters = array(
   'type' => 'backgroundImage',
   'classSection' => 'funcPageBuilder13',
-  'backgroundImageFile' => App::setFilePath('/assets/images/banners/banner-blue-planets2.png'),
+  'backgroundImageFile' => App::setFilePath('/assets/images/banners/banner-mujer_fondo3.jpg'),
   'enableTitle' => false,
-  'img' => App::setFilePath('/assets/images/banners/banner-hombre_hombre.png'),
+  'img' => App::setFilePath('/assets/images/banners/banner-mujer3.png'),
   'title' => '<span class="whiteColor">¡Síííí! Mi landing page</span> <br> está funcionando... <br> ¿Verdad?',
   'text' => '¿Cuál es el desempeño de tu landing page en función de tus <br> objetivos de marketing? ¿Estás obteniendo un buen retorno <br> de tu inversión?
   <br class="space"><br class="space">
