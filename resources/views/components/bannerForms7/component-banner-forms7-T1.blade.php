@@ -32,7 +32,7 @@
                         {{-- {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!} --}}
 
                         @php
-                        $f = get_field('form7');
+                        $f = ACF_CUSTOM::_getField('form7');
                     @endphp
                      @if (isset($f) && $f != null)
                      {!! do_shortcode( $f ) !!}

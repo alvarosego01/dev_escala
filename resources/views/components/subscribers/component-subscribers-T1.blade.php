@@ -30,7 +30,8 @@
             <div class="form_cf7">
 
                 @php
-                    $f = get_field('newsletter_form');
+                    // $f = get_field('newsletter_form');
+                    $f = ACF_CUSTOM::_getField('newsletter_form');
                 @endphp
                 @if (isset($f) && $f != null)
                     {!! do_shortcode($f) !!}

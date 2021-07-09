@@ -141,7 +141,8 @@ class ACF_CUSTOM extends Controller
             array (
                 'param' => 'page_template',
                 'operator' => '==',
-                'value' => "views/template-blog-single.blade.php",
+                // 'value' => "views/template-blog-single.blade.php",
+                'value' => "views/single-post.blade.php",
             ),
 
         ),
