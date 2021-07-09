@@ -14,29 +14,8 @@ use App\Controllers\App;
  * Theme assets
  */
 
-$bootstrapPages = array(
-    "views/template-home.blade.php",
-    "views/template-landing-incredible.blade.php",
-    "views/template-landing-incredible-no-program.blade.php",
-    "views/template-landing-incredible-am.blade.php",
-    "views/template-func-page-builder.blade.php",
-    "views/template-func-analiticas.blade.php",
-    "views/template-func-automatization.blade.php",
-    "views/template-func-crm-escala.blade.php",
-    "views/template-func-email.blade.php",
-    "views/template-func-digital-announces.blade.php",
-    "views/template-escala-fex.blade.php",
-    "views/template-zoom-demo-home.blade.php",
-    "views/template-zoom-demo-meeting.blade.php",
-    "views/template-open-webinar-escala.blade.php",
-    "views/template-open-webinar-escala-meeting.blade.php",
-    "views/template-blog-home.blade.php",
-    "views/template-blog-category.blade.php",
-    // "views/template-blog-single.blade.php",
-    "views/single-post.blade.php",
 
-);
-
+// print_r($bootstrapPages);
 
 
 
@@ -44,6 +23,7 @@ add_action('wp_enqueue_scripts', function () {
 
     // acá se añaden los templates que usarán bootstrap
 
+    $bootstrapPages = SetComponents::setTemplates();
 
     if (is_page_template($bootstrapPages)) {
 
@@ -202,6 +182,8 @@ add_action('wp_enqueue_scripts', function () {
 // estilos
 
 add_action('wp_enqueue_scripts', function () {
+
+    $bootstrapPages = SetComponents::setTemplates();
 
     if (is_page_template($bootstrapPages)) {
 

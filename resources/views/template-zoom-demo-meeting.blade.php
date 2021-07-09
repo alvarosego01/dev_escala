@@ -8,7 +8,7 @@
 
 
 @php
-     $zoomLink = get_field('link_zoom');
+     $zoomLink = ACF_CUSTOM::_getField('link_zoom');
 @endphp
 
 @extends('layouts.app')

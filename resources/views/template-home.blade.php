@@ -65,7 +65,7 @@
                      --}}
 
                      @php
-                     $f = get_field('form7');
+                     $f = ACF_CUSTOM::_getField('form7');
                  @endphp
                   @if (isset($f) && $f != null)
                   {!! do_shortcode( $f ) !!}
