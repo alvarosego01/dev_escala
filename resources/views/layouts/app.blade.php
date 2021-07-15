@@ -11,25 +11,37 @@ $redirect = strval($redirect);
 
 @endphp
 
-<script type="text/javascript">
+{{-- <script type="text/javascript">
 
     document.addEventListener( 'wpcf7submit', function( event ) {
+
      window.dataLayer.push({
      "event" : "cf7submission",
      "formId" : event.detail.contactFormId,
      "response" : event.detail.inputs
-     })
+     });
+
     });
 
-</script>
+</script> --}}
 
 @if (isset($redirect) && $redirect != null)
 
 <script type="text/javascript">
 
+var re = "{{ $redirect }}";
 document.addEventListener( 'wpcf7mailsent', function( e ) {
 
+    window.dataLayer.push({
+     "event" : "cf7submission",
+     "formId" : event.detail.contactFormId,
+     "response" : event.detail.inputs
+     });
+
+
+if(re && re != null && re != ''){
 window.location.replace("{{ $redirect }}");
+}
 
 }, false );
 
