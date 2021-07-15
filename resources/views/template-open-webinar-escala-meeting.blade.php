@@ -25,7 +25,7 @@ $zoomLink = ACF_CUSTOM::_getField('link_zoom');
         if (document.readyState === 'complete') {
             clearInterval(stateCheck);
             // document ready
-            alert('¡Hola! El webinar se está cargando, si no inicia dale click al botón para comenzar');
+            // alert('¡Hola! El webinar se está cargando, si no inicia dale click al botón para comenzar');
 
         setTimeout(function() {
             window.open("{{$zoomLink}}", '_blank');
@@ -101,6 +101,10 @@ $zoomLink = ACF_CUSTOM::_getField('link_zoom');
                                 @endphp" class="primaryButton hoverInEffect">
                                     Ingresar al Webinar ahora
                                 </a>
+
+                                <small>
+                                    El webinar se está cargando, si no inicia haz click al botón para comenzar
+                                </small>
 
 
                             @endif
