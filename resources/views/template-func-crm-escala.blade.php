@@ -25,9 +25,9 @@
   'title' => '<span class="greenBlueColor">Convierte más</span> <br>
 contactos en clientes',
   'text' => 'El arma secreta de tu fuerza de ventas: <br>
-el CRM de escala. Un sistema para <br> administrar la relación con tus clientes.',
+el CRM de Escala. Un sistema para <br> administrar la relación con tus clientes.',
   'image' => App::setFilePath('/assets/images/illustrations/otto/Otto_CRM-01.png'),
-  'textForm' => 'Empieza a probar escala
+  'textForm' => 'Empieza a probar Escala
   <br style="display: block!important">
   <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>',
   'overlayImage' => null,
@@ -49,7 +49,7 @@ $parameters = array(
  'classSection' => 'funcCrm1 func',
  'description' => '“Luego de generar una base de datos de clientes potenciales, tu <br> <strong>CRM es la herramienta más importante para convertirlos en <br> clientes</strong> fieles y construir relaciones a largo plazo”.',
  'byAm' => '<span class="greenBlueColor">Andrés Moreno</span>',
- 'team' => 'Fundador de <span class="greenBlueColor">escala</span> y Open English',
+ 'team' => 'Fundador de <span class="greenBlueColor">Escala</span> y Open English',
  'image' => App::setFilePath('/assets/images/person/am/andres_banner copia.png')
 ) ;
 @endphp
@@ -66,10 +66,10 @@ $parameters = array(
 'enableTitle' => true,
 'titlePrincipal' => '<span class="greenBlueColor">Maneja una base de datos inteligente,</span> <br> cierra más ventas',
 'subTitlePrincipal' => 'Cuando tus visitantes registren sus datos en tu landing page, <br>
-toda esa información quedará <strong>automáticamente almacenada en tu CRM de escala.</strong>',
+toda esa información quedará <strong>automáticamente almacenada en tu CRM de Escala.</strong>',
 'title' => 'Prioriza <span class="greenBlueColor">tu día de ventas</span>',
 'img' => App::setFilePath('/assets/images/illustrations/team/01_CRM.png'),
-'text' => '¡El CRM de escala te da las herramientas para organizar <br> tus oportunidades de venta! Identifica fácilmente cuáles <br> son tus clientes potenciales más valiosos y cuáles <br> requieren tu atención inmediata.
+'text' => '¡El CRM de Escala te da las herramientas para organizar <br> tus oportunidades de venta! Identifica fácilmente cuáles <br> son tus clientes potenciales más valiosos y cuáles <br> requieren tu atención inmediata.
 <br class="space"><br class="space">
 ¡Tu día, mes y año podrían ser 1000% más productivos!',
 'enableButton' => true,
@@ -91,7 +91,7 @@ $parameters = array(
 'enableTitle' => false,
 'img' => App::setFilePath('/assets/images/illustrations/team/02_CRM.png'),
 'title' => '<span class="greenBlueColor">No olvides ninguna tarea,</span> <br> consigue más negocios',
-'text' => '¡Atención! Las notificaciones oportunas de escala <br>
+'text' => '¡Atención! Las notificaciones oportunas de Escala <br>
 te recuerdan cuándo, por qué y a quién contactar. <br> Prográmalas y enfócate solo en lo importante: <br>
 Nutrir la relación y ¡cerrar la venta!
 ',
@@ -114,7 +114,7 @@ $parameters = array(
 'enableTitle' => false,
 'img' => App::setFilePath('/assets/images/illustrations/otto/03_CRM.png'),
 'title' => 'El conocimiento es poder <br> <span class="greenBlueColor">Ten memoria de elefante</span>',
-'text' => 'escala pone todo lo que necesitas recordar sobre cada <br> uno de tus contactos en un solo lugar.
+'text' => 'Escala pone todo lo que necesitas recordar sobre cada <br> uno de tus contactos en un solo lugar.
 <br class="space"><br class="space">
 Ya sea información de contacto, tareas pendientes, <br> comunicaciones pasadas o detalles importantes, <br> ¡considéranos la memoria de tu base de datos!',
 'enableButton' => false,
@@ -158,7 +158,7 @@ $parameters = array(
 'enableTitle' => false,
 'img' => App::setFilePath('/assets/images/illustrations/team/05_CRM.png'),
 'title' => 'Mantén viva la llama, <br> <span class="greenBlueColor">incluso después de muchos años</span>',
-'text' => 'Muchas compañías piensan que convertir un contacto en un <br> cliente es el final del ciclo de ventas. En escala, sabemos <br>
+'text' => 'Muchas compañías piensan que convertir un contacto en un <br> cliente es el final del ciclo de ventas. En Escala, sabemos <br>
 que es solo el comienzo.
 <br class="space"><br class="space">
 Con nuestro CRM, puedes responder las siguientes preguntas <br> para construir relaciones a largo plazo con tus clientes: ¿Cuál ha <br> sido su experiencia con tu producto o servicio? ¿Qué puedes <br> hacer para mejorarlo? ¿Qué audiencias se conectan mejor con tu <br> marca? ¿Cómo puedes generar más referidos?',
@@ -210,7 +210,7 @@ $parameters = array(
 'title' => 'Compara los números, <br> <span class="greenBlueColor">¡felicita a tu vendedor estrella!</span>',
 'text' => '¿Quién es tu mejor vendedor? Supervisa el rendimiento de cada miembro <br> de tu equipo y cómo sus actividades se reflejan en tus resultados finales.
 <br class="space"><br class="space">
-escala será el mejor amigo de tu gerente de ventas',
+Escala será el mejor amigo de tu gerente de ventas',
 'enableButton' => true,
 'urlButton' => '#lead-form',
 'textButton' => 'Comenzar ahora',

@@ -50,7 +50,7 @@
         @endslot
 
         @slot('titlePrincipal')
-            <span class="greenBlueColor">Artículos de</span> Ventas destacados
+            <span class="greenBlueColor">Artículos de</span> {{ $category }} destacados
 
         @endslot
 

@@ -40,15 +40,15 @@
 
                   <h1 class="principalBigTitle blackColor">
                     {{-- Recibe un <span class="greenBlueColor">DEMO <br> personalizado</span> --}}
-                    Descubre cómo <br> escala puede ayudarte a <br> <span class="greenBlueColor">hacer crecer tu negocio</span>
+                    Descubre cómo <br> Escala puede ayudarte a <br> <span class="greenBlueColor">hacer crecer tu negocio</span>
                   </h1>
                   <p class="principalBigText grayColorTexts">
-                    {{-- Descubre como escala puede ayudarte a <br> hacer crecer tu negocio con un breve <br> tour y consultas --}}
+                    {{-- Descubre como Escala puede ayudarte a <br> hacer crecer tu negocio con un breve <br> tour y consultas --}}
                     Conecta con uno de nuestros asesores expertos. <br> Te guiaremos y responderemos tus preguntas
                   </p>
 
                   <div class="containerImage">
-                    <img alt="Genera más leads, clientes y ventas con escala" src="{!! App::setFilePath('/assets/images/person/mujer-laptop_01.png') !!}" alt="" loading="lazy">
+                    <img alt="Genera más leads, clientes y ventas con Escala" src="{!! App::setFilePath('/assets/images/person/mujer-laptop_01.png') !!}" alt="" loading="lazy">
                   </div>
 
 
