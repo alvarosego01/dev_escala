@@ -95,6 +95,8 @@
                     .containElements
                         margin: auto
                         width: 100%
+                        display: flex
+                        flex-direction: column
                         a
                             display: block
                             margin: 0 auto
@@ -105,6 +107,14 @@
                                     height: 175px
                                 @include responsivo(pcMedio)
                                     height: 200px
+                        small
+                            font-size: 18px
+                            text-align: center
+                            width: 100%
+                            margin: 25px auto
+                            font-family: "Nunito",Sans-serif!important
+                            line-height: normal
+                            font-weight: 600
                         .vczapi-join-via-browser-main-wrapper
                             h1,
                             .vczapi-zoom-app-notice-wrap.zoom-app-notice
