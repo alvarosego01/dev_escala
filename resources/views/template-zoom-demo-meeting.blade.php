@@ -37,7 +37,7 @@
                         {{-- Conversa con un Asesor de escala <br> --}}
                         Comienza tu demo ahora <br>
                         <span class="greenBlueColor">
-                            y conversa con un asesor escala
+                            y conversa con un asesor Escala
                         </span>
                       </h1>
 
@@ -74,7 +74,7 @@
                     <a target="_blank" href="@php
                         echo $zoomLink
                     @endphp" class="primaryButton hoverInEffect">
-                        Empezar demo ahora
+                        Conectar ahora
                     </a>
 
 

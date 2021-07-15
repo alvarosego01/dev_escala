@@ -86,7 +86,7 @@
   'title' => 'Conoce la plataforma “todo en uno” de ventas y marketing que acelerará <span class="greenBlueColor">el crecimiento de tu negocio</span>',
   'img1' => 'https://cdn.escala.com/wp-content/uploads/2021/04/icono_04.svg',
   'title1' => 'Multiplica tus visitas web <br> con anuncios digitales',
-  'desc1' => 'Conecta tu cuenta de Facebook y <br> comienza a generar tráfico a tu landing <br> page. Crea campañas de anuncios <br> digitales directamente desde <span class="orangeColor">escala</span>.',
+  'desc1' => 'Conecta tu cuenta de Facebook y <br> comienza a generar tráfico a tu landing <br> page. Crea campañas de anuncios <br> digitales directamente desde <span class="orangeColor">Escala</span>.',
   'img2' => 'https://cdn.escala.com/wp-content/uploads/2021/04/icono_05.svg',
   'title2' => 'Organiza tus contactos y <br> gestiona procesos de venta',
   'desc2' => 'Empodera a tu equipo de ventas con el <br> CRM más amigable y fácil de usar. <br> Incrementa la productividad planificando <br> actividades y manteniendo comunicación <br> constante con tus leads.',
@@ -95,10 +95,10 @@
   'desc3' => 'Envía fácilmente campañas masivas de <br> emails con una de nuestras plantillas <br> prediseñadas. Con <span class="orangeColor">escala</span> dile adiós a la <br> bandeja de spam.',
   'img4' => 'https://cdn.escala.com/wp-content/uploads/2021/04/icono_03.svg',
   'title4' => 'Automatiza tareas y <br> flujos de comunicación',
-  'desc4' => 'Ahorra tiempo automatizando tareas repetitivas <br> con <span class="orangeColor">escala</span> para lograr tus metas de ventas. <br> Programa recordatorios y configura emails de <br> respuestas automáticas.',
+  'desc4' => 'Ahorra tiempo automatizando tareas repetitivas <br> con <span class="orangeColor">Escala</span> para lograr tus metas de ventas. <br> Programa recordatorios y configura emails de <br> respuestas automáticas.',
   'img5' => 'https://cdn.escala.com/wp-content/uploads/2021/04/icono_06.svg',
   'title5' => 'Obtén métricas de marketing <br> y ventas en tiempo real',
-  'desc5' => 'Lo que no se mide, no mejora. escala te da las <br> analíticas necesarias en dashboards amigables <br> para que optimices tus esfuerzos de venta y <br> marketing. La salud de tu negocio en un solo <br> vistazo.',
+  'desc5' => 'Lo que no se mide, no mejora. Escala te da las <br> analíticas necesarias en dashboards amigables <br> para que optimices tus esfuerzos de venta y <br> marketing. La salud de tu negocio en un solo <br> vistazo.',
  ) ;
 @endphp
 

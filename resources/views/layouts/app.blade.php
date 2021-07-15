@@ -15,12 +15,24 @@ $redirect = strval($redirect);
 
 <script>
 
+
+document.addEventListener( 'wpcf7submit', function( event ) {
+ window.dataLayer.push({
+ "event" : "cf7submission",
+ "formId" : event.detail.contactFormId,
+ "response" : event.detail.inputs
+ })
+});
+
 document.addEventListener( 'wpcf7mailsent', function( e ) {
 
-console.log('Redirección', "{{ $redirect }}" );
 window.location.replace("{{ $redirect }}");
 
 }, false );
+
+
+
+
 </script>
 
 @endif

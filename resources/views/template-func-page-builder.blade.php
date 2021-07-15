@@ -23,8 +23,8 @@
   'overlay' => true,
   'classSection' => 'func funcPageBuilder0',
   'title' => 'Crea potentes páginas.<br> <span class="greenBlueColor">Es tan fácil como copiar y pegar</span>',
-  'text' => 'En escala puedes construir rápidamente landing pages = «websites <br> optimizados» para capturar la información de contacto de tus visitantes, <br> sin necesidad de programar o integrar.',
-  'textForm' => 'Empieza a probar escala
+  'text' => 'En Escala puedes construir rápidamente landing pages = «websites <br> optimizados» para capturar la información de contacto de tus visitantes, <br> sin necesidad de programar o integrar.',
+  'textForm' => 'Empieza a probar Escala
   <br style="display: block!important">
   <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>',
   'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
@@ -45,7 +45,7 @@
   'classSection' => 'funcPageBuilder1 func',
   'description' => '<strong class="greenBlueColor">"«En las landing pages de Open English generamos más de 1 millón <br> de contactos al año</strong>. Así acumulamos aprendizajes para optimizar <br> nuestras páginas y potenciar nuestras ventas. Basados en una década <br> de experiencia, creamos el Page Builder más robusto del mercado”.',
   'byAm' => '<span class="greenBlueColor">Andrés Moreno</span>',
-  'team' => 'Fundador de <span class="greenBlueColor">escala</span> y Open English',
+  'team' => 'Fundador de <span class="greenBlueColor">Escala</span> y Open English',
   'image' => App::setFilePath('/assets/images/person/am/andres-1.png')
  ) ;
 @endphp
@@ -108,7 +108,7 @@ Arrastra y suelta las secciones pre-diseñadas, ajusta sus tamaños, <br> agrega
   'img' => App::setFilePath('/assets/images/illustrations/others/wasap.png'),
   'title' => '<span class="blueLightColor3">Nuestras Landing Pages</span> <br> tienen botón de WhatsApp',
   'text' => 'Conversa con tus potenciales clientes más directamente a <br> través del botón de WhatsApp de nuestras Landing Pages <br>
-En escala podrás activar fácilmente este botón y te llegará <br>
+En Escala podrás activar fácilmente este botón y te llegará <br>
 un correo electrónico de los visitantes que dejen su data.',
   'enableButton' => true,
   'typeButton' => 'primaryButton',
@@ -168,7 +168,7 @@ Antes de publicar, podrás revisar fácilmente cada versión para <br> previsual
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/others/segura-1.png'),
   'title' => '<span class="greenBlueColor">¡Toc, Toc, Toc!</span> <br> ¿Es una página segura <br> para entrar?',
-  'text' => '¡Sí! Todos entren con tranquilidad. En escala, cada landing page <br> que creas tiene su propio certificado de seguridad para que tus <br> visitantes tengan la confianza de navegarla libremente.',
+  'text' => '¡Sí! Todos entren con tranquilidad. En Escala, cada landing page <br> que creas tiene su propio certificado de seguridad para que tus <br> visitantes tengan la confianza de navegarla libremente.',
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Conectar mi dominio',
@@ -187,10 +187,10 @@ Antes de publicar, podrás revisar fácilmente cada versión para <br> previsual
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/team/dominio.png'),
   'title' => '<span class="greenBlueColor">¿No tienes dominio?</span> <br> ¡Tranquilo! Te damos uno',
-  'text' => 'Si aún no tienes dominio propio o prefieres generar uno diferente para <br> tus distintas landing pages, ¡escala te genera uno propio en segundos!
+  'text' => 'Si aún no tienes dominio propio o prefieres generar uno diferente para <br> tus distintas landing pages, Eescala te genera uno propio en segundos!
 <br class="space"><br class="space">
 <strong class="greenBlueColor">¿Ya tienes un dominio propio?</strong> <br class="space">
-Conéctalo a escala rápidamente con un click. Si lo deseas, se conectará <br> también con tu CRM y campañas digitales.',
+Conéctalo a Escala rápidamente con un click. Si lo deseas, se conectará <br> también con tu CRM y campañas digitales.',
   'enableButton' => true,
   'typeButton' => 'primaryButton',
     'urlButton' => '#lead-form',
@@ -210,8 +210,8 @@ Conéctalo a escala rápidamente con un click. Si lo deseas, se conectará <br> 
   'classSection' => 'funcPageBuilder9',
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/team/google-fb.png'),
-  'title' => '<span class="greenBlueColor">El poder de nosotros:</span> <br> escala y Facebook',
-  'text' => 'escala está integrada con Facebook Pixels y Google Analytics para <br> que tengas información detallada sobre los visitantes de tu landing <br> page. ¡Mientras más integrada estén tus campañas con Facebook y <br> Google, mejores serán tus resultados!',
+  'title' => '<span class="greenBlueColor">El poder de nosotros:</span> <br> Escala y Facebook',
+  'text' => 'Escala está integrada con Facebook Pixels y Google Analytics para <br> que tengas información detallada sobre los visitantes de tu landing <br> page. ¡Mientras más integrada estén tus campañas con Facebook y <br> Google, mejores serán tus resultados!',
   'enableButton' => false,
   'side' => 'right',
  ) ;
@@ -253,7 +253,7 @@ para guardar las información de tus contactos.',
     [
       'img' => App::setFilePath('/assets/images/illustrations/team/CRM-1.png'),
       'title' => '<span class="greenBlueColor">Del formulario en tu página</span> <br> directo al CRM',
-      'text' => 'escala está integrada con Facebook Pixels y Google Analytics para que tengas información detallada sobre los visitantes de tu landing page. ¡Mientras más integrada estén tus campañas con Facebook y Google, mejores serán tus resultados!
+      'text' => 'Escala está integrada con Facebook Pixels y Google Analytics para que tengas información detallada sobre los visitantes de tu landing page. ¡Mientras más integrada estén tus campañas con Facebook y Google, mejores serán tus resultados!
       <div></div>
       <span class="greenBlueColor" style="text-align: center; font-size: 25px; font-weight: 600!important">¡Asombroso!</span>',
       'enableButton' => false,
@@ -263,7 +263,7 @@ para guardar las información de tus contactos.',
     [
       'img' => App::setFilePath('/assets/images/illustrations/others/CRM-2.png'),
       'title' => '<span class="greenBlueColor">Ahora sabrás si tu contacto está </span><br> en Colombia, EEUU o España',
-      'text' => 'Si vendes en diferentes países, puedes incluir un formulario inteligente en <br> las páginas que construyes con <span class="greenBlueColor">escala</span>. El mismo tomará automáticamente <br> el prefijo internacional de tus visitantes para que ¡evites recibir números <br> equivocados!
+      'text' => 'Si vendes en diferentes países, puedes incluir un formulario inteligente en <br> las páginas que construyes con <span class="greenBlueColor">Escala</span>. El mismo tomará automáticamente <br> el prefijo internacional de tus visitantes para que ¡evites recibir números <br> equivocados!
       <div></div>
       <span class="greenBlueColor" style="text-align: center; font-size: 25px; font-weight: 600!important">¡Finalmente!</span>
       ',
@@ -288,7 +288,7 @@ para guardar las información de tus contactos.',
   'overlayImage' => App::setFilePath('/assets/images/overlays/planets1.svg'),
   'img' => App::setFilePath('/assets/images/illustrations/team/CRM-1.png'),
       'title' => '<span class="greenBlueColor">Del formulario en tu página</span> <br> directo al CRM',
-      'text' => 'Cuando tus visitantes se registren en tu landing page, toda esa <br> información quedará guardada automáticamente en tu CRM de <br> escala. No más hojas de excel o integraciones complicadas <br> ¡Recibe y maneja tu base de datos desde un mismo lugar!
+      'text' => 'Cuando tus visitantes se registren en tu landing page, toda esa <br> información quedará guardada automáticamente en tu CRM de <br> Escala. No más hojas de excel o integraciones complicadas <br> ¡Recibe y maneja tu base de datos desde un mismo lugar!
       <div></div>
       <span class="greenBlueColor" style="text-align: left; font-size: 22px; font-weight: 600!important">¡Asombroso!</span>',
 'enableButton' => false,
@@ -315,7 +315,7 @@ para guardar las información de tus contactos.',
   <br class="space"><br class="space">
 Visitantes frustrados = menos ventas.
 <br class="space"><br class="space">
-escala utiliza tecnología avanzada para asegurar <br> que tus paginas carguen a la velocidad de la luz.
+Escala utiliza tecnología avanzada para asegurar <br> que tus paginas carguen a la velocidad de la luz.
 <br class="space"><br class="space">
 <span class="greenBlueColor" style="text-align: center; font-size: 25px; font-weight: 600!important">El tiempo es dinero</span>
 ',
@@ -341,7 +341,7 @@ escala utiliza tecnología avanzada para asegurar <br> que tus paginas carguen a
   'title' => '<span class="greenBlueColor">¡Aquí están los números!</span> <br>
 Analiza y optimiza tus páginas <br>
 Monitorea el comportamiento',
-  'text' => '¿Cuántos visitantes llegan a tu landing page y cuántos de ellos se <br> convierten en tus clientes? Los reportes de escala responden esta <br> pregunta y más: cuánto tiempo estuvieron navegando en tu página, <br> en dónde hacen click y en qué parte se salieron…
+  'text' => '¿Cuántos visitantes llegan a tu landing page y cuántos de ellos se <br> convierten en tus clientes? Los reportes de Escala responden esta <br> pregunta y más: cuánto tiempo estuvieron navegando en tu página, <br> en dónde hacen click y en qué parte se salieron…
   <br class="space"><br class="space">
 ¡Rastrear el comportamiento de tus visitantes te permite cambiar <br> de estrategia y lograr mejores resultados!',
   'enableButton' => false,
@@ -390,7 +390,7 @@ Descúbrelo en tiempo real utilizando nuestras herramientas <br> de analíticas 
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/team/coversion.png'),
   'title' => '<span class="greenBlueColor">¿Qué dispositivo tiene</span> <br> mayor conversión?',
-  'text' => '¿Tus visitantes usan sus tablets, laptops o celulares <br> para navegar en tu landing page? Con escala puedes <br> ver analíticas detalladas que te dirán cuál dispositivo <br> tiene mayor probabilidad de acercarte a la venta.',
+  'text' => '¿Tus visitantes usan sus tablets, laptops o celulares <br> para navegar en tu landing page? Con Escala puedes <br> ver analíticas detalladas que te dirán cuál dispositivo <br> tiene mayor probabilidad de acercarte a la venta.',
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => '¡Ve rápido y furioso!',
@@ -407,7 +407,7 @@ Descúbrelo en tiempo real utilizando nuestras herramientas <br> de analíticas 
  $parameters = array(
   'type' => 'backgroundColor',
   'classSection' => 'funcPageBuilder15',
-  // 'backgroundImageFile' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder15.png',
+  // 'backgroundImageFile' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder15.png',
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/team/pulpo.png'),
   'title' => '<span class="blueLightColor3">Empieza a construir</span> páginas <br> optimizadas para ventas',
