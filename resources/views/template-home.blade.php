@@ -37,14 +37,14 @@
 
 
                   <h1 class="principalBigTitle blackColor">
-                    Genera más leads, <br> clientes y ventas <span class="greenBlueColor">con escala</span>
+                    Genera más leads, <br> clientes y ventas <span class="greenBlueColor">con Escala</span>
                   </h1>
                   <p class="principalBigText grayColorTexts">
-                    <strong>escala</strong>; la plataforma de marketing digital y ventas más potente y fácil de utilizar
+                    <strong>Escala</strong>; la plataforma de marketing digital y ventas más potente y fácil de utilizar
                   </p>
 
                   <div class="containerImage">
-                    <img alt="Genera más leads, clientes y ventas con escala" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/andres_banner_aprobado-1-1.png" alt="" loading="lazy">
+                    <img alt="Genera más leads, clientes y ventas con Escala" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/andres_banner_aprobado-1-1.png" alt="" loading="lazy">
                   </div>
 
 
@@ -105,7 +105,7 @@
 
 
             <p class="primaryText grayColorTexts">
-              <strong>escala</strong> te permite implementar embudos de venta: la estrategia probada para hacer crecer empresas de manera rentable, sostenible y escalable
+              <strong>Escala</strong> te permite implementar embudos de venta: la estrategia probada para hacer crecer empresas de manera rentable, sostenible y escalable
             </p>
 
           </div>
@@ -186,7 +186,7 @@
                 <span class="greenBlueColor">La Plataforma todo en uno </span><br> de marketing digital y ventas
               </h2>
               <p class="primaryText grayColorTexts">
-                En <strong>escala</strong> tienes todas las herramientas ya integradas para impulsar tu éxito
+                En <strong>Escala</strong> tienes todas las herramientas ya integradas para impulsar tu éxito
               </p>
 
             </div>
@@ -204,7 +204,7 @@
                 <div class="containerElements">
                   <h3 class="commonTitle blackColor">Crea increíbles páginas <br> sin programar</h3>
                   <p class="secondaryText grayColorTexts">¡Y que queden hermosas!</p>
-                  <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/landing-pages/">Crea tu landing con escala</a>
+                  <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/landing-pages/">Crea tu landing con Escala</a>
                 </div>
 
               </div>
@@ -219,7 +219,7 @@
                   <h3 class="commonTitle blackColor">Organiza tus contactos y <br> gestiona procesos de <br> venta</h3>
                   <p class="secondaryText grayColorTexts">Con un CRM sencillo de usar</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/crm-escala/">
-                    Vende más con el CRM de escala
+                    Vende más con el CRM de Escala
                   </a>
                 </div>
 
@@ -237,7 +237,7 @@
                   <h3 class="commonTitle blackColor">Envía emails de marketing <br> profesionales</h3>
                   <p class="secondaryText grayColorTexts">Personalizados y masivos, sin caer en la bandeja de SPAM</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/email/">
-                    Envía emails con escala
+                    Envía emails con Escala
                   </a>
                 </div>
 
@@ -253,7 +253,7 @@
                   <h3 class="commonTitle blackColor">Multiplica tus visitas web <br> con anuncios digitales</h3>
                   <p class="secondaryText grayColorTexts">en Facebook, Instagram y Google</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/anuncios-digitales/">
-                    Crea anuncios con escala
+                    Crea anuncios con Escala
                   </a>
                 </div>
 
@@ -269,9 +269,9 @@
 
                 <div class="containerElements">
                   <h3 class="commonTitle blackColor">Automatiza tareas y flujos <br> de comunicación</h3>
-                  <p class="secondaryText grayColorTexts">escala trabaja por ti 24/7</p>
+                  <p class="secondaryText grayColorTexts">Escala trabaja por ti 24/7</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/automatizacion/">
-                    Automatiza con escala
+                    Automatiza con Escala
                   </a>
                 </div>
 
@@ -290,7 +290,7 @@
                   <h3 class="commonTitle blackColor">Obtén métricas de <br> marketing y ventas en <br> tiempo real</h3>
                   <p class="secondaryText grayColorTexts">con dashboards inteligentes</p>
                   <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/analiticas/">
-                    Mide ahora con escala
+                    Mide ahora con Escala
                   </a>
                 </div>
 
@@ -324,7 +324,7 @@
             </h3>
 
             <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-              Probar escala ahora
+              Probar Escala ahora
             </a>
 
 
@@ -352,7 +352,7 @@
           <div class="containElements">
 
             <h2 class="primaryTitle blackColor">
-              5 ventajas de potenciar <br> tu negocio con <span class="orangeColor">escala</span>
+              5 ventajas de potenciar <br> tu negocio con <span class="orangeColor">Escala</span>
             </h2>
 
           </div>
@@ -413,7 +413,7 @@
 
               <div class="containerElements">
                 <h3 class="commonTitle blackColor">Sin programar una línea de código</h3>
-                <p class="primaryText grayColorTexts">Olvídate de necesitar programadores, en escala todo está listo para que edites y publiques en un clic.</p>
+                <p class="primaryText grayColorTexts">Olvídate de necesitar programadores, en Escala todo está listo para que edites y publiques en un clic.</p>
 
               </div>
 
@@ -463,7 +463,7 @@
                 <p class="primaryText grayColorTexts"><strong>¿No estás seguro de qué hacer o cómo avanzar?</strong> Nuestros estrategas expertos en marketing digital y ventas conocen acerca de tus necesidades y comparten conocimientos probados para conseguir mejores resultados.</p>
 
                 <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-                  Probar escala ahora
+                  Probar Escala ahora
                 </a>
 
 
@@ -495,7 +495,7 @@
 
           <div class="containElements">
 
-            <h2 class="primaryTitle blackColor">Clientes que <br> hacen crecer sus negocios <br> con <span class="orangeColor">escala</span>
+            <h2 class="primaryTitle blackColor">Clientes que <br> hacen crecer sus negocios <br> con <span class="orangeColor">Escala</span>
             </h2>
 
           </div>
@@ -511,7 +511,7 @@
                 <div class="containInfo">
                   <h3 class="commonTitle blackColor">Agencia de Publicidad</h3>
                   <span class="tag greenBlueColor">El salvador</span>
-                  <p class="commonText grayColorTexts"><strong>escala</strong> tiene el email builder más amigable que he utilizado en los últimos años, y su equipo está comprometido a mantener la plataforma en constante actualización en el dinámico mundo digital.</p>
+                  <p class="commonText grayColorTexts"><strong>Escala</strong> tiene el email builder más amigable que he utilizado en los últimos años, y su equipo está comprometido a mantener la plataforma en constante actualización en el dinámico mundo digital.</p>
                 </div>
                 <div class="referElements">
                   <div class="containerImage">
@@ -536,7 +536,7 @@
                   <h3 class="commonTitle blackColor">Agencia de Marketing</h3>
                   <span class="tag greenBlueColor">México</span>
                   <p class="commonText grayColorTexts">
-                    Primera vez que me atienden de esta manera y mi equipo y yo lo agradecemos enormemente. Además de tener una herramienta bien integrada y muy sencilla de utilizar, el acompañamiento del equipo es A1. La atención está cuando la necesitas, el nivel de seguimiento al trabajar juntos… ni siquiera con los de Facebook o Google tenemos un servicio similar. Felicidades porque tienen un equipo de trabajo increíble y todo hace que sean muchos los beneficios que <strong>escala</strong> le aporta a sus clientes.
+                    Primera vez que me atienden de esta manera y mi equipo y yo lo agradecemos enormemente. Además de tener una herramienta bien integrada y muy sencilla de utilizar, el acompañamiento del equipo es A1. La atención está cuando la necesitas, el nivel de seguimiento al trabajar juntos… ni siquiera con los de Facebook o Google tenemos un servicio similar. Felicidades porque tienen un equipo de trabajo increíble y todo hace que sean muchos los beneficios que <strong>Escala</strong> le aporta a sus clientes.
                   <p>
                 </div>
                 <div class="referElements">
@@ -563,7 +563,7 @@
                 <div class="containInfo">
                   <h3 class="commonTitle blackColor">Turismo</h3>
                   <span class="tag greenBlueColor">Venezuela</span>
-                  <p class="commonText grayColorTexts">“Yo ya había utilizado un CRM y otras plataformas que tienen más o menos la misma esencia. Encontrarme con <strong>escala</strong> fue importante porque es más completa. Tienes todo lo que necesitas, desde captar el interés de los clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi mercado se redujo por la pandemia, <strong>escala</strong> es sumamente oportuno. Además, estoy muy contenta por todo el apoyo que he recibido por el equipo de <strong>escala</strong>.”</p>
+                  <p class="commonText grayColorTexts">“Yo ya había utilizado un CRM y otras plataformas que tienen más o menos la misma esencia. Encontrarme con <strong>Escala</strong> fue importante porque es más completa. Tienes todo lo que necesitas, desde captar el interés de los clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi mercado se redujo por la pandemia, <strong>Escala</strong> es sumamente oportuno. Además, estoy muy contenta por todo el apoyo que he recibido por el equipo de <strong>Escala</strong>.”</p>
                 </div>
                 <div class="referElements">
                   <div class="containerImage">
@@ -639,7 +639,7 @@
                 <div class="containInfo">
                   <h3 class="commonTitle blackColor">Entretenimiento Deportivo</h3>
                   <span class="tag greenBlueColor">Venezuela</span>
-                  <p class="commonText grayColorTexts">Felicitaciones al equipo de <strong>escala</strong>, pues de verdad la plataforma me gusta bastante. Posee herramientas muy útiles y lo mejor es que es simple de manipular.</p>
+                  <p class="commonText grayColorTexts">Felicitaciones al equipo de <strong>Escala</strong>, pues de verdad la plataforma me gusta bastante. Posee herramientas muy útiles y lo mejor es que es simple de manipular.</p>
                 </div>
                 <div class="referElements">
                   <div class="containerImage">

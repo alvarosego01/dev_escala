@@ -81,7 +81,7 @@
   'classSection' => 'landingPageInc3',
   'description' => '"<strong>Al generar más de 1 millón de contactos por año utilizando las páginas de destino de Open English</strong>, hemos obtenido información sobre cómo optimizar con éxito nuestros sitios web para impulsar nuestras ventas. Basándonos en una década de experiencia, hemos creado el mejor creador de páginas de destino del mercado".',
   'byAm' => '<span class="orangeColor">Andrés Moreno</span>',
-  'team' => 'Fundador de <span class="orangeColor">escala</span> y Open English',
+  'team' => 'Fundador de <span class="orangeColor">Escala</span> y Open English',
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2020/09/escala-Andre%CC%81s-Moreno-founder-Ceo-Open-English-1.png'
  ) ;
 @endphp
@@ -98,19 +98,19 @@
   'title' => 'Conoce la plataforma “todo en uno” de ventas y marketing que acelerará <span class="orangeColor">el crecimiento de tu negocio</span>',
   'img1' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0110.png',
   'title1' => 'Atrae visitantes <br> a tu landing page',
-  'desc1' => 'Conecta tu cuenta de Facebook y <br> comienza a generar tráfico a tu landing <br> page. Crea campañas de anuncios <br> digitales directamente desde <span class="orangeColor">escala</span>.',
+  'desc1' => 'Conecta tu cuenta de Facebook y <br> comienza a generar tráfico a tu landing <br> page. Crea campañas de anuncios <br> digitales directamente desde <span class="orangeColor">Escala</span>.',
   'img2' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0111.png',
   'title2' => 'Simplifica tu <br> gestión de ventas',
   'desc2' => 'Empodera a tu equipo de ventas con el <brr> CRM más amigable y fácil de usar. <br> Incrementa la productividad planificando <br> actividades y mantén comunicación <br> constante con tus leads.',
   'img3' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0112.png',
   'title3' => 'Construye poderosas campañas de <br> email marketing',
-  'desc3' => 'Envía fácilmente campañas masivas de emails con una de nuestras plantillas <br> prediseñadas. Con <span class="orangeColor">escala</span> dile adiós a la <br> bandeja de spam.',
+  'desc3' => 'Envía fácilmente campañas masivas de emails con una de nuestras plantillas <br> prediseñadas. Con <span class="orangeColor">Escala</span> dile adiós a la <br> bandeja de spam.',
   'img4' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0113.png',
   'title4' => 'Activa el piloto <br> automático',
-  'desc4' => 'Ahorra tiempo automatizando tareas <br> repetitivas con <span class="orangeColor">escala</span> para lograr tus metas <br> de ventas. Programa recordatorios y <br> configura emails de respuestas automáticas.',
+  'desc4' => 'Ahorra tiempo automatizando tareas <br> repetitivas con <span class="orangeColor">Escala</span> para lograr tus metas <br> de ventas. Programa recordatorios y <br> configura emails de respuestas automáticas.',
   'img5' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0114.png',
   'title5' => 'Las analíticas que necesitas <br> para optimizar',
-  'desc5' => 'Lo que no se mide, no mejora. <span class="orangeColor">escala</span> te da <br> las analíticas necesarias en dashboards <br> amigables para que optimices tus esfuerzos <br> de venta y marketing. La salud de tu negocio <br> en un solo vistazo.',
+  'desc5' => 'Lo que no se mide, no mejora. <span class="orangeColor">Escala</span> te da <br> las analíticas necesarias en dashboards <br> amigables para que optimices tus esfuerzos <br> de venta y marketing. La salud de tu negocio <br> en un solo vistazo.',
  ) ;
 @endphp
 

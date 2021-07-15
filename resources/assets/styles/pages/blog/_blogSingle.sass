@@ -28,11 +28,20 @@
                 height: 375px
             .section-row
                 margin: auto
-                h1
-                    display: block
-                    width: 100%
-                    color: $colorWhite
-                    text-align: center
+                .containElements
+                    margin: 0 auto
+                    @include responsivo(general)
+                        width: 80%
+
+                    @include responsivo(resto)
+                        width: 75%
+
+                    h1
+                        display: block
+                        width: 100%
+                        color: $colorWhite
+                        text-align: center
+                        line-height: normal
 
     .customSection.sectionParent.blogSingleSection1
         padding: 75px 0

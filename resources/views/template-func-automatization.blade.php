@@ -23,8 +23,8 @@
   'overlay' => true,
   'classSection' => 'func funcAutomatization0',
   'title' => '<span class="greenBlueColor">Haz crecer tu negocio</span> <br> en piloto automático',
-  'text' => 'escala trabaja por ti 25 horas al día, 366 días al año.',
-  'textForm' => 'Empieza a probar escala
+  'text' => 'Escala trabaja por ti 25 horas al día, 366 días al año.',
+  'textForm' => 'Empieza a probar Escala
   <br style="display: block!important">
   <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>',
   'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
@@ -42,9 +42,9 @@
 @php
 $parameters = array(
  'classSection' => 'funcAutomatization1 func',
- 'description' => '“Uno de los mayores retos de liderar un negocio es enfocarse en lo que <br> es importante y hacer que cada minuto cuente. Con la automatización <br> de escala podrás ahorrarte el tiempo de hacer tareas repetitivas e <br> invertirlo en los proyectos que agregan valor a tu negocio”.',
+ 'description' => '“Uno de los mayores retos de liderar un negocio es enfocarse en lo que <br> es importante y hacer que cada minuto cuente. Con la automatización <br> de Escala podrás ahorrarte el tiempo de hacer tareas repetitivas e <br> invertirlo en los proyectos que agregan valor a tu negocio”.',
  'byAm' => '<span class="greenBlueColor">Andrés Moreno</span>',
- 'team' => 'Fundador de <span class="greenBlueColor">escala</span> y Open English',
+ 'team' => 'Fundador de <span class="greenBlueColor">Escala</span> y Open English',
  'image' => App::setFilePath('/assets/images/person/am/02_andres.png'),
 ) ;
 @endphp
@@ -63,7 +63,7 @@ $parameters = array(
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/team/banner_02.png'),
   'title' => '<span class="greenBlueColor">¿Listo?</span> Automatiza y logra <br> tus metas de venta',
-  'text' => 'Utiliza la tecnología automatizada de escala para manejar las tareas <br> repetitivas. Cumple tus cuotas de ventas incluso mientras duermes o tomas un café
+  'text' => 'Utiliza la tecnología automatizada de Escala para manejar las tareas <br> repetitivas. Cumple tus cuotas de ventas incluso mientras duermes o tomas un café
   <br class="space"><br class="space">
 Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> hora. ¿Cómo vas a comunicarte con cada uno de ellos de forma <br> personalizada? ¿Cómo vas a distribuir esos contactos entre tu equipo de <br> ventas para convertirlos en clientes?
 <br class="space"><br class="space">
@@ -90,9 +90,9 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'classSection' => 'funcAutomatization3',
   'enableTitle' => true,
   'titlePrincipal' => '<span class="greenBlueColor">Te presentamos los workflows,</span> <br> tus asistentes 24/7',
-  'subTitlePrincipal' => 'Los workflows son cadenas de acciones simples que puedes <br> automatizar para que se activen ¡incluso mientras duermes! Con escala puedes:',
+  'subTitlePrincipal' => 'Los workflows son cadenas de acciones simples que puedes <br> automatizar para que se activen ¡incluso mientras duermes! Con Escala puedes:',
   'overlay' => false,
-  // 'overlayImage' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
+  // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
   'elements' => array(
     [
       'img' => App::setFilePath('/assets/images/illustrations/others/workflow_01.png'),
@@ -127,7 +127,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/otto/mas_tiempo-1.png'),
   'title' => '<span class="greenBlueColor">Ten más tiempo para innovar...</span> <br> o relajarte ¡depende de ti!',
-  'text' => 'A nadie le gusta repetir los mismos pasos una y otra vez. Con escala <br> puedes automatizar tareas repetitivas, evitar errores humanos y enviar <br> emails a tus clientes potenciales a tiempo. Automatiza esas acciones que <br> solías hacer mil veces.',
+  'text' => 'A nadie le gusta repetir los mismos pasos una y otra vez. Con Escala <br> puedes automatizar tareas repetitivas, evitar errores humanos y enviar <br> emails a tus clientes potenciales a tiempo. Automatiza esas acciones que <br> solías hacer mil veces.',
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Gana más tiempo',
@@ -158,7 +158,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
 <strong>Email 3:</strong> ¡Éxito! Felicitaciones por tu compra.',
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
-  // 'textButton' => 'Email 4: Bienvenido a escala',
+  // 'textButton' => 'Email 4: Bienvenido a Escala',
   // 'typeButton' => 'primaryButton',
   'side' => 'left',
  ) ;
@@ -176,7 +176,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/team/programar_tareas.png'),
   'title' => '<span class="greenBlueColor">Programa tareas claves</span> <br> para tu equipo de ventas',
-  'text' => 'Con escala puedes automatizar notificaciones para recordarle a tus <br> vendedores qué hacer y cuándo. Logra que se comuniquen con clientes <br> potenciales en el momento correcto...
+  'text' => 'Con Escala puedes automatizar notificaciones para recordarle a tus <br> vendedores qué hacer y cuándo. Logra que se comuniquen con clientes <br> potenciales en el momento correcto...
 <br class="space"><br class="space">
 <strong>¡Consigue más ventas!</strong>',
   'enableButton' => false,
@@ -200,7 +200,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/others/automatizacion_etiquetas.png'),
   'title' => '<span class="greenBlueColor">Automatiza</span> <br> ¡tan solo agregándole <br> una etiqueta!',
-  'text' => 'Con escala puedes segmentar tus contactos y asignarles <br>  etiquetas. Esas etiquetas pueden activar emails, notificaciones <br> y otras acciones de ventas sin que tengas que mover un solo <br> dedo. Pruébalo. ¡Funciona como magia!',
+  'text' => 'Con Escala puedes segmentar tus contactos y asignarles <br>  etiquetas. Esas etiquetas pueden activar emails, notificaciones <br> y otras acciones de ventas sin que tengas que mover un solo <br> dedo. Pruébalo. ¡Funciona como magia!',
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Hacer mi vida más facil',
@@ -221,7 +221,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/team/visualizacion_workflows.png'),
   'title' => '<span class="greenBlueColor">Visualiza fácilmente</span> <br> tus workflows',
-  'text' => 'Ve en tiempo real tu máquina de ventas en acción. <br> El dashboard de escala te muestra todo lo que has <br> automatizado. Siéntate y relájate.',
+  'text' => 'Ve en tiempo real tu máquina de ventas en acción. <br> El dashboard de Escala te muestra todo lo que has <br> automatizado. Siéntate y relájate.',
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Disfrutar de la vista',
