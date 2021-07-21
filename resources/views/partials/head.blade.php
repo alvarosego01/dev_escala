@@ -7,8 +7,11 @@
 
 
 
-  @php /*
+  @php
    wp_head()
-   */
    @endphp
 </head>
+
+
+@include('partials.header')
+

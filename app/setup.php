@@ -10,6 +10,7 @@ use Roots\Sage\Template\Blade;
 use Roots\Sage\Template\BladeProvider;
 
 use App\Controllers\App;
+
 /**
  * Theme assets
  */
@@ -37,16 +38,10 @@ add_action('wp_enqueue_scripts', function () {
         if (is_single() && comments_open() && get_option('thread_comments')) {
             wp_enqueue_script('comment-reply');
         }
-
-
-    }else{
+    } else {
 
         wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, null);
     }
-
-
-
-
 }, 100);
 
 /**
@@ -166,11 +161,8 @@ add_action('after_setup_theme', function () {
     $SetComponents = new SetComponents();
     $c = $SetComponents->setAllComponents();
     foreach ($c as $key => $value) {
-        sage('blade')->compiler()->component( $key, $value );
+        sage('blade')->compiler()->component($key, $value);
     }
-
-
-
 });
 
 
@@ -222,18 +214,19 @@ add_action('wp_enqueue_scripts', function () {
  * Disables REFILL function in WPCF7 if Recaptcha is in use
  */
 add_action('wp_enqueue_scripts', 'wpcf7_recaptcha_no_refill', 15, 0);
-function wpcf7_recaptcha_no_refill() {
-  $service = WPCF7_RECAPTCHA::get_instance();
-	if ( ! $service->is_active() ) {
-		return;
-	}
-  wp_add_inline_script('contact-form-7', 'wpcf7.cached = 0;', 'before' );
+function wpcf7_recaptcha_no_refill()
+{
+    $service = WPCF7_RECAPTCHA::get_instance();
+    if (!$service->is_active()) {
+        return;
+    }
+    wp_add_inline_script('contact-form-7', 'wpcf7.cached = 0;', 'before');
 }
 
 
 $setACF = new ACF_CUSTOM();
 // $x = $setACF->setACF();
-add_action('acf/init', $setACF->setACF() );
+add_action('acf/init', $setACF->setACF());
 
 
 
@@ -244,42 +237,58 @@ add_action('acf/init', $setACF->setACF() );
  * @author   Golden Oak Web Design <info@goldenoakwebdesign.com>
  * @license  https://www.gnu.org/licenses/gpl-2.0.html GPLv2+
  */
-function golden_oak_web_design_blog_generate_rewrite_rules( $wp_rewrite ) {
+function golden_oak_web_design_blog_generate_rewrite_rules($wp_rewrite)
+{
     $new_rules = array(
-      '(([^/]+/)*blog)/page/?([0-9]{1,})/?$' => 'index.php?pagename=$matches[1]&paged=$matches[3]',
-      'blog/([^/]+)/?$' => 'index.php?post_type=post&name=$matches[1]',
-      'blog/[^/]+/attachment/([^/]+)/?$' => 'index.php?post_type=post&attachment=$matches[1]',
-      'blog/[^/]+/attachment/([^/]+)/trackback/?$' => 'index.php?post_type=post&attachment=$matches[1]&tb=1',
-      'blog/[^/]+/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&attachment=$matches[1]&feed=$matches[2]',
-      'blog/[^/]+/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&attachment=$matches[1]&feed=$matches[2]',
-      'blog/[^/]+/attachment/([^/]+)/comment-page-([0-9]{1,})/?$' => 'index.php?post_type=post&attachment=$matches[1]&cpage=$matches[2]',
-      'blog/[^/]+/attachment/([^/]+)/embed/?$' => 'index.php?post_type=post&attachment=$matches[1]&embed=true',
-      'blog/[^/]+/embed/([^/]+)/?$' => 'index.php?post_type=post&attachment=$matches[1]&embed=true',
-      'blog/([^/]+)/embed/?$' => 'index.php?post_type=post&name=$matches[1]&embed=true',
-      'blog/[^/]+/([^/]+)/embed/?$' => 'index.php?post_type=post&attachment=$matches[1]&embed=true',
-      'blog/([^/]+)/trackback/?$' => 'index.php?post_type=post&name=$matches[1]&tb=1',
-      'blog/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&name=$matches[1]&feed=$matches[2]',
-      'blog/([^/]+)/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&name=$matches[1]&feed=$matches[2]',
-      'blog/page/([0-9]{1,})/?$' => 'index.php?post_type=post&paged=$matches[1]',
-      'blog/[^/]+/page/?([0-9]{1,})/?$' => 'index.php?post_type=post&name=$matches[1]&paged=$matches[2]',
-      'blog/([^/]+)/page/?([0-9]{1,})/?$' => 'index.php?post_type=post&name=$matches[1]&paged=$matches[2]',
-      'blog/([^/]+)/comment-page-([0-9]{1,})/?$' => 'index.php?post_type=post&name=$matches[1]&cpage=$matches[2]',
-      'blog/([^/]+)(/[0-9]+)?/?$' => 'index.php?post_type=post&name=$matches[1]&page=$matches[2]',
-      'blog/[^/]+/([^/]+)/?$' => 'index.php?post_type=post&attachment=$matches[1]',
-      'blog/[^/]+/([^/]+)/trackback/?$' => 'index.php?post_type=post&attachment=$matches[1]&tb=1',
-      'blog/[^/]+/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&attachment=$matches[1]&feed=$matches[2]',
-      'blog/[^/]+/([^/]+)/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&attachment=$matches[1]&feed=$matches[2]',
-      'blog/[^/]+/([^/]+)/comment-page-([0-9]{1,})/?$' => 'index.php?post_type=post&attachment=$matches[1]&cpage=$matches[2]',
+        '(([^/]+/)*blog)/page/?([0-9]{1,})/?$' => 'index.php?pagename=$matches[1]&paged=$matches[3]',
+        'blog/([^/]+)/?$' => 'index.php?post_type=post&name=$matches[1]',
+        'blog/[^/]+/attachment/([^/]+)/?$' => 'index.php?post_type=post&attachment=$matches[1]',
+        'blog/[^/]+/attachment/([^/]+)/trackback/?$' => 'index.php?post_type=post&attachment=$matches[1]&tb=1',
+        'blog/[^/]+/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&attachment=$matches[1]&feed=$matches[2]',
+        'blog/[^/]+/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&attachment=$matches[1]&feed=$matches[2]',
+        'blog/[^/]+/attachment/([^/]+)/comment-page-([0-9]{1,})/?$' => 'index.php?post_type=post&attachment=$matches[1]&cpage=$matches[2]',
+        'blog/[^/]+/attachment/([^/]+)/embed/?$' => 'index.php?post_type=post&attachment=$matches[1]&embed=true',
+        'blog/[^/]+/embed/([^/]+)/?$' => 'index.php?post_type=post&attachment=$matches[1]&embed=true',
+        'blog/([^/]+)/embed/?$' => 'index.php?post_type=post&name=$matches[1]&embed=true',
+        'blog/[^/]+/([^/]+)/embed/?$' => 'index.php?post_type=post&attachment=$matches[1]&embed=true',
+        'blog/([^/]+)/trackback/?$' => 'index.php?post_type=post&name=$matches[1]&tb=1',
+        'blog/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&name=$matches[1]&feed=$matches[2]',
+        'blog/([^/]+)/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&name=$matches[1]&feed=$matches[2]',
+        'blog/page/([0-9]{1,})/?$' => 'index.php?post_type=post&paged=$matches[1]',
+        'blog/[^/]+/page/?([0-9]{1,})/?$' => 'index.php?post_type=post&name=$matches[1]&paged=$matches[2]',
+        'blog/([^/]+)/page/?([0-9]{1,})/?$' => 'index.php?post_type=post&name=$matches[1]&paged=$matches[2]',
+        'blog/([^/]+)/comment-page-([0-9]{1,})/?$' => 'index.php?post_type=post&name=$matches[1]&cpage=$matches[2]',
+        'blog/([^/]+)(/[0-9]+)?/?$' => 'index.php?post_type=post&name=$matches[1]&page=$matches[2]',
+        'blog/[^/]+/([^/]+)/?$' => 'index.php?post_type=post&attachment=$matches[1]',
+        'blog/[^/]+/([^/]+)/trackback/?$' => 'index.php?post_type=post&attachment=$matches[1]&tb=1',
+        'blog/[^/]+/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&attachment=$matches[1]&feed=$matches[2]',
+        'blog/[^/]+/([^/]+)/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&attachment=$matches[1]&feed=$matches[2]',
+        'blog/[^/]+/([^/]+)/comment-page-([0-9]{1,})/?$' => 'index.php?post_type=post&attachment=$matches[1]&cpage=$matches[2]',
     );
     $wp_rewrite->rules = $new_rules + $wp_rewrite->rules;
-  }
-  add_action( 'generate_rewrite_rules', 'golden_oak_web_design_blog_generate_rewrite_rules' );
+}
+add_action('generate_rewrite_rules', 'golden_oak_web_design_blog_generate_rewrite_rules');
 
-  function golden_oak_web_design_update_post_link( $post_link, $id = 0 ) {
-    $post = get_post( $id );
-    if( is_object( $post ) && $post->post_type == 'post' ) {
-      return home_url( '/blog/' . $post->post_name );
+function golden_oak_web_design_update_post_link($post_link, $id = 0)
+{
+    $post = get_post($id);
+    if (is_object($post) && $post->post_type == 'post') {
+        return home_url('/blog/' . $post->post_name);
     }
     return $post_link;
-  }
-  add_filter( 'post_link', 'golden_oak_web_design_update_post_link', 1, 3 );
+}
+add_filter('post_link', 'golden_oak_web_design_update_post_link', 1, 3);
+
+
+
+
+
+function registerCustomMenu()
+{
+
+    register_nav_menus(array( // Using array to specify more menus if needed
+        'header-top' => __('Header Top Menu', 'escala'), // Main Navigation
+    ));
+}
+
+add_action('init', registerCustomMenu() ); // Add HTML5 Blank Menu
