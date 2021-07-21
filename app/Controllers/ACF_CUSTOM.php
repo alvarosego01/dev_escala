@@ -141,6 +141,22 @@ class ACF_CUSTOM extends Controller
             array (
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' => "views/template-zoom-demo-home-step1.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-zoom-demo-home-step2.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
                 // 'value' => "views/template-blog-single.blade.php",
                 'value' => "views/single-post.blade.php",
             ),
@@ -217,6 +233,19 @@ class ACF_CUSTOM extends Controller
                     'label' => 'Contact form 7 Newsletter shortcode',
                     'name' => 'Contact form 7 Newsletter shortcode',
                     'type' => 'text',
+                ),
+                array (
+                    'key' => 'NavBar_settings',
+                    'label' => 'NavBar settings',
+                    'name' => 'NavBar settings',
+                    'type' => 'select',
+                    'choices' => array(
+                        'global1'	=> 'Global White',
+                        'global2'	=> 'Global old',
+                        'global_blog'	=> 'Global blog',
+                        'landing_small'	=> 'Landing small',
+                        'landing_unique_logo'	=> 'Landing unique logo',
+                    ),
                 )
             ),
             'location' => $this->allTemplates
@@ -322,6 +351,12 @@ class ACF_CUSTOM extends Controller
                     'key' => 'link_zoom',
                     'label' => 'Link directo a zoom',
                     'name' => 'Link directo a zoom',
+                    'type' => 'url',
+                ),
+                array (
+                    'key' => 'program_date',
+                    'label' => 'Link reprogramación de cita',
+                    'name' => 'Link reprogramación de cita',
                     'type' => 'url',
                 ),
 

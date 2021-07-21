@@ -1,5 +1,5 @@
 
-@include('partials.head')
+{{-- @include('partials.head') --}}
 @php
 get_header();
 @endphp

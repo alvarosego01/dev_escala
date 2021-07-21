@@ -18,7 +18,8 @@ class SetComponents extends Controller
             $this->setHeadersComponents(),
             $this->setCallToActionsComponents(),
             $this->setContainComponents(),
-            $this->setBlogComponents()
+            $this->setBlogComponents(),
+            $this->setNavbarsComponents()
         );
 
 
@@ -83,6 +84,20 @@ class SetComponents extends Controller
     }
 
 
+    public function setNavbarsComponents(){
+
+
+        return array(
+            'components.navBar.component-navbar-default-T1' => 'navBar_default_T1',
+            'components.navBar.component-navbar-default-T2' => 'navBar_default_T2',
+            'components.navBar.component-navbar-blog-T1' => 'navBar_blog_T1',
+            'components.navBar.component-navbar-landing-smalll.T1' => 'navBar_landing_small_T1',
+            'components.navBar.component-navbar-landing-logo' => 'navBar_landing_logo_T1'
+        );
+
+
+    }
+
     public static function setTemplates(){
 
         return array(
@@ -104,6 +119,8 @@ class SetComponents extends Controller
             "views/template-blog-home.blade.php",
             "views/template-blog-category.blade.php",
             "views/single-post.blade.php",
+            "views/template-zoom-demo-home-step1.blade.php",
+            "views/template-zoom-demo-home-step2.blade.php"
 
         );
 

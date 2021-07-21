@@ -9,6 +9,7 @@
 
 @php
      $zoomLink = ACF_CUSTOM::_getField('link_zoom');
+     $agendar = ACF_CUSTOM::_getField('program_date');
 @endphp
 
 @extends('layouts.app')
@@ -33,13 +34,11 @@
 
                 <div class="containElements">
 
-                    <h1 class="principalBigTitle blackColor">
-                        {{-- Conversa con un Asesor de escala <br> --}}
-                        Comienza tu demo ahora <br>
-                        <span class="greenBlueColor">
-                            y conversa con un asesor Escala
-                        </span>
-                      </h1>
+                        <h1 class="principalBigTitle blackColor">
+
+                            Conversa con un Asesor Escala <br> <span class="greenBlueColor">Te guiamos a conseguir tus metas</span>
+
+                        </h1>
 
 
                 </div>
@@ -59,11 +58,11 @@
                 <div class="containElements">
 
 
-                    @if ( isset($zoomid) && $zoomid != null && $zoomid != '' )
+                    {{-- @if ( isset($zoomid) && $zoomid != null && $zoomid != '' )
 
                     {!! do_shortcode( '[zoom_join_via_browser meeting_id="'.$zoomid.'" login_required="no" help="yes" title="Test" disable_countdown="yes" webinar="no"]' ) !!}
 
-                    @else
+                    @else --}}
 
                     <div class="containerImage">
 
@@ -71,14 +70,17 @@
 
                     </div>
 
+                    <small>
+                    El Zoom se está cargando. Si no se abre en unos segundos, haz clic aquí:
+                    </small>
+
                     <a target="_blank" href="@php
                         echo $zoomLink
                     @endphp" class="primaryButton hoverInEffect">
-                        Conectar ahora
+                        Iniciar Zoom ahora
                     </a>
 
 
-                    @endif
 
                 </div>
             </section>
@@ -106,13 +108,15 @@
 
                     <div class="setDate">
 
-                        <a href="https://reserva.escala.com/#/customer/agendamientodemo" class="hiperButtonGray">
+                        <a href="@php
+                            echo $agendar
+                        @endphp" class="hiperButtonGray">
                             Agendar para otro momento
                         </a>
 
                         <div class="containerImage">
 
-                            <img src="{!! App::setFilePath('/assets/images/icons/Vector.png') !!}" alt="">
+                            <img src="{!! App::setFilePath('/assets/images/icons/Vector2.png') !!}" alt="">
 
                         </div>
 
@@ -137,7 +141,6 @@
 
 
 
-{{-- <img class="overlayFlying" src="{!! App::setFilePath('/assets/images/overlays/astronaut-flying1.png') !!}" alt=""> --}}
 
 
 
