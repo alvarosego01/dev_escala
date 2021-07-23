@@ -116,11 +116,18 @@
                                     img
                                         height: 400px
                                         margin: 0 auto
+                            @include responsivo(specialTexts)
+                                .containerImage
+                                    position: unset
+                                    img
+                                        height: 250px
+                                        margin: 0 auto
                             @include responsivo(general)
                                 .containerImage
-                                    top: 60%
+                                    top: 12.5vw
+                                    right: -12.5%
                                     img
-                                        height: 22.5vw
+                                        height: 25vw
 
 
 
