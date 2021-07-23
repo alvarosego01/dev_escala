@@ -235,6 +235,18 @@ class ACF_CUSTOM extends Controller
                     'type' => 'text',
                 ),
                 array (
+                    'key' => 'index_page',
+                    'label' => 'Index page',
+                    'name' => 'Index page',
+                    'type' => 'radio',
+                    'choices' => array(
+                        true => 'Yes',
+                        false => 'No',
+
+                    ),
+                    'default_value' => true
+                ),
+                array (
                     'key' => 'NavBar_settings',
                     'label' => 'NavBar settings',
                     'name' => 'NavBar settings',
