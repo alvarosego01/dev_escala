@@ -11,7 +11,7 @@
 
 //         if($_SERVER['SERVER_NAME'] == 'localhost') {
 
-//             return '/escala-dev';
+//             return '/escala';
 
 //         }else{
 

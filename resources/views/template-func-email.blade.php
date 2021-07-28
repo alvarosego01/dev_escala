@@ -30,7 +30,7 @@
 ¡no dejes que tus <br>
 relaciones se enfríen!',
      'text' => 'Diseña y envía campañas <br> de emails atractivas con Escala.',
-    //  'image' => '//localhost:3000/Escala-dev/wp-content/themes/oceanwp-child/resources/assets/images/illustrations/team/10 1.png',
+    //  'image' => '//localhost:3000/escala/wp-content/themes/oceanwp-child/resources/assets/images/illustrations/team/10 1.png',
      'image' => App::setFilePath('/assets/images/illustrations/team/10 1.png'),
      'textForm' => 'Empieza a probar Escala <br style="display: block!important"> <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>  ',
      'threeCol' => true,
