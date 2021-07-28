@@ -7,7 +7,7 @@ $redirect = strval($redirect);
 @endphp
 
 
-@if ( isset($index_page) && $index_page == 0 )
+{{-- @if ( isset($index_page) && $index_page == 0 )
 
     <meta name="robots" content="noindex, nofollow" />
 
@@ -15,7 +15,7 @@ $redirect = strval($redirect);
 
     <meta name="robots" content="index, follow">
 
-@endif
+@endif --}}
 
 
 {{-- @include('partials.head') --}}

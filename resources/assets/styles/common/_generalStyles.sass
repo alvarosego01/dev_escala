@@ -293,31 +293,39 @@ button
 
 .secondaryButton
     font-family: "Nunito Sans",Sans-serif
-    font-weight: 600
-    padding: 15px 25px
+    font-weight: 400
+    padding: 0 25px
     border-radius: 5px
     transition: all .2s
-    background-color: $colorBlueLight3
-    color: $colorGreenBlue2
+    background-color: $colorGreenBlue4
+    color: white
     font-size: 16px
     line-height: 28px
     border-width: 0
-    display: inline-block
-    // line-height: 1
+    // display: inline-block
     text-decoration: none
     width: fit-content
-    // display: flex
+    height: 47px
+    display: flex
+    justify-content: center
+    align-content: center
+    align-items: center
 
 .hoverSecondaryButton
     &:hover
         background-color: $colorBlueLight4
         color: $colorGreenBlue2
 
-.hoverInEffect
+.hoverInEffect.primaryButton
     &:hover
         transform: scale(1.1)
         color: white
         background-color: $orangeLight
+
+.hoverInEffect.secondaryButton
+    &:hover
+        transform: scale(1.1)
+        color: white
 
 
 .wpcf7-form-control.wpcf7-submit
@@ -371,6 +379,13 @@ button
 .elementor-widget-void-section-cf7,
 .form_cf7,
 .wpcf7
+    p
+        position: relative
+    .ajax-loader
+        margin: auto 12.5px!important
+        position: absolute
+        top: 0
+        bottom: 0
     #loading
         height: 50px!important
         width: 50px!important

@@ -1,6 +1,6 @@
 @import common/global
 
-#zoomHome-step2-Bootstrap
+#zoomHome-landing-Bootstrap
 
     h1,
     h2,
@@ -47,9 +47,16 @@
         .section-row
             .innerSectionElement.sct1
                 .groupElements
-                    padding-bottom: 0
+                    padding-bottom: 15px
                     .info
+                        // padding-bottom: 100px
+                        @include responsivo(general)
+                            padding-bottom: 200px
+                        @include responsivo(resto)
+                            padding-bottom: 200px
                         .containElements
+                            position: relative
+                            padding-bottom: 100px
                             .principalBigTitle
                                 // font-size: 50px
                                 // line-height:
@@ -78,12 +85,14 @@
                                 @include responsivo(resto)
                                     width: 700px
                                 margin-bottom: 40px
-                                margin-bottom: 40px
                             .containerImage
-                                position: relative
+                                position: absolute
                                 // left: -15%
+                                position: absolute
+                                right: -15%
+                                top: 35%
                                 img
-                                    height: 450px
+                                    height: 425px
                                     // margin-top:
                                     margin-left: 0
                             @include responsivo(telefonoTable)
@@ -94,6 +103,7 @@
                                     text-align: center!important
                                 .containerImage
                                     left: unset!important
+                                    position: unset
                                     img
                                         height: 250px
                                         margin: 0 auto
@@ -103,37 +113,55 @@
                                     text-align: center!important
                                 .containerImage
                                     left: unset!important
+                                    position: unset
                                     img
                                         height: 400px
                                         margin: 0 auto
+                            @include responsivo(specialTexts)
+                                .containerImage
+                                    position: unset
+                                    img
+                                        height: 250px
+                                        margin: 0 auto
                             @include responsivo(general)
                                 .containerImage
+                                    top: 12.5vw
+                                    right: -12.5%
                                     img
-                                        height: 475px
+                                        height: 25vw
 
 
 
                     .form7
-                        .customField.checkbox
-                            margin-bottom: 7.5px
-                        .fields
-                            input
-                                margin-bottom: 12.5px
-                        .formatForm
+                        .subButton
+                            display: flex
+                            justify-content: center
+                            align-content: center
+                            max-width: 420px
+                            margin: 0 auto
+                            margin-bottom: 100px
+                            padding: 0 20px 20px
+
+
+
+                        .formatForm.secondarySubmitButton
+                            margin-bottom: 75px
                             @include responsivo(general)
-                                max-width: 450px
+                                max-width: 400px
 
                             @include responsivo(resto)
-                                max-width: 475px
+                                max-width: 400px
 
                             h4
                                 padding-bottom: 10px
-                            // max-width: unset!important
-                            // width: 85%
-                            // input,
-                            // select
-                                // font-size: 15px!important
-                                // line-height: 15px!important
+                                span
+                                    font-size: 16px
+                                    margin: 12.5px 0
+                                    margin-bottom: 0
+                                    display: block
+                                    font-weight: 600!important
+                                    color: #979797
+
                             span.wpcf7-form-control-wrap.your-phone
                                 display: flex
                                 justify-content: space-around
@@ -149,12 +177,23 @@
                         //     padding-top: 12.5px
                         //     padding-bottom: 12.5px
                         input.wpcf7-form-control.wpcf7-submit
-                            padding: 0 20px!important
-                            font-size: 18px!important
+                            font-size: 16px!important
+                            font-family: "Nunito Sans",Sans-serif
+                            font-weight: 600
+                            padding: 10px 25px
+                            border-radius: 5px
+                            transition: all .2s
+                            background-color: $colorGreenBlue4
+                            color: white
+                            line-height: 28px
+                            border-width: 0
+                            display: inline-block
+                            text-decoration: none
+                            width: fit-content
+
+
                         .customField
-                            // margin: 12.5px 0
-                            // margin-bottom: 0
-                            margin-bottom: 12.5px
+                            margin: 12.5px 0!important
                         .customField.radioSelect
                             span.wpcf7-form-control.wpcf7-radio
 

@@ -141,6 +141,14 @@ class ACF_CUSTOM extends Controller
             array (
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' => "views/template-zoom-demo-home-landing.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
                 'value' => "views/template-zoom-demo-home-step1.blade.php",
             ),
 
@@ -232,6 +240,12 @@ class ACF_CUSTOM extends Controller
                     'key' => 'newsletter_form',
                     'label' => 'Contact form 7 Newsletter shortcode',
                     'name' => 'Contact form 7 Newsletter shortcode',
+                    'type' => 'text',
+                ),
+                array (
+                    'key' => 'popup_elementor',
+                    'label' => 'Popup custom selector elementor',
+                    'name' => 'Popup custom selector elementor',
                     'type' => 'text',
                 ),
                 array (

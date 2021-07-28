@@ -112,13 +112,14 @@ class SetComponents extends Controller
             "views/template-func-email.blade.php",
             "views/template-func-digital-announces.blade.php",
             "views/template-escala-fex.blade.php",
-            "views/template-zoom-demo-home.blade.php",
             "views/template-zoom-demo-meeting.blade.php",
             "views/template-open-webinar-escala.blade.php",
             "views/template-open-webinar-escala-meeting.blade.php",
             "views/template-blog-home.blade.php",
             "views/template-blog-category.blade.php",
             "views/single-post.blade.php",
+            "views/template-zoom-demo-home.blade.php",
+            "views/template-zoom-demo-home-landing.blade.php",
             "views/template-zoom-demo-home-step1.blade.php",
             "views/template-zoom-demo-home-step2.blade.php"
 

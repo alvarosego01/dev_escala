@@ -72,7 +72,7 @@ class Posts extends Controller
 // [post_modified_gmt] =&gt; 2021-06-01 18:11:53
 // [post_content_filtered] =&gt;
 // [post_parent] =&gt; 0
-// [guid] =&gt; //localhost:3000/escala-dev/?p=3041
+// [guid] =&gt; //localhost:3000/escala/?p=3041
 // [menu_order] =&gt; 0
 // [post_type] =&gt; post
 // [post_mime_type] =&gt;

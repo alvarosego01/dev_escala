@@ -286,8 +286,12 @@ add_filter('post_link', 'golden_oak_web_design_update_post_link', 1, 3);
 function registerCustomMenu()
 {
 
-    register_nav_menus(array( // Using array to specify more menus if needed
-        'header-top' => __('Header Top Menu', 'escala'), // Main Navigation
+    register_nav_menus(array(
+        'header-top' => __('Principal Top Menu', 'escala'),
+        'principal-global1' => __('Principal global menu 1', 'escala'),
+        'principal-global2' => __('Principal global menu 2', 'escala'),
+        'extra-buttons1' => __('Extra buttons global menu 1', 'escala'),
+        'extra-buttons2' => __('Extra buttons global menu 2', 'escala'),
     ));
 }
 
