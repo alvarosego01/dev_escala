@@ -77,7 +77,7 @@
 
                                <div class="containElements">
 
-                                   <div class="formatForm secondarySubmitButton">
+                                   <div class="formatForm">
 
                                        <h4 class="titleFormat blackcolor">
                                             Prueba Escala gratuita <br class="space">
@@ -102,13 +102,6 @@
 
                                    </div>
 
-                                   <div class="subButton">
-
-                                    <a href="#"  class="secondaryButton hoverInEffect {{ $popup }}">
-                                        Empezar prueba ahora
-                                      </a>
-
-                                   </div>
 
 
 

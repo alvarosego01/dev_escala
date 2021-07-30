@@ -77,7 +77,7 @@
                     <a target="_blank" href="@php
                         echo $zoomLink
                     @endphp" class="primaryButton hoverInEffect">
-                        Iniciar Zoom ahora
+                        Inicia Zoom ahora
                     </a>
 
 
@@ -111,7 +111,7 @@
                         <a href="@php
                             echo $agendar
                         @endphp" class="hiperButtonGray">
-                            Agendar para otro momento
+                            Agenda para otro momento
                         </a>
 
                         <div class="containerImage">
