@@ -101,8 +101,10 @@ class SetComponents extends Controller
     public static function setTemplates(){
 
         return array(
+
             "views/template-home.blade.php",
             "views/template-landing-incredible.blade.php",
+            "views/template-landing-correos-masivos.blade.php",
             "views/template-landing-incredible-no-program.blade.php",
             "views/template-landing-incredible-am.blade.php",
             "views/template-func-page-builder.blade.php",
