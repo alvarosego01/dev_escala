@@ -66,7 +66,7 @@
                                     <div class="formatForm">
 
                                         <h4 class="titleFormat blackcolor">
-                                            Recibe un Demo <br class="space"> Personalizado
+                                            Recibe un Demo <br class="space"> personalizado
                                         </h4>
 
 
