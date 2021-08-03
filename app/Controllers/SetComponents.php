@@ -18,7 +18,8 @@ class SetComponents extends Controller
             $this->setHeadersComponents(),
             $this->setCallToActionsComponents(),
             $this->setContainComponents(),
-            $this->setBlogComponents()
+            $this->setBlogComponents(),
+            $this->setNavbarsComponents()
         );
 
 
@@ -83,11 +84,28 @@ class SetComponents extends Controller
     }
 
 
+    public function setNavbarsComponents(){
+
+
+        return array(
+            'components.navBar.component-navbar-default-T1' => 'navBar_default_T1',
+            'components.navBar.component-navbar-default-T2' => 'navBar_default_T2',
+            'components.navBar.component-navbar-blog-T1' => 'navBar_blog_T1',
+            'components.navBar.component-navbar-landing-smalll.T1' => 'navBar_landing_small_T1',
+            'components.navBar.component-navbar-landing-logo' => 'navBar_landing_logo_T1'
+        );
+
+
+    }
+
     public static function setTemplates(){
 
         return array(
+
             "views/template-home.blade.php",
             "views/template-landing-incredible.blade.php",
+            "views/template-landing-whatsapp.blade.php",
+            "views/template-landing-correos-masivos.blade.php",
             "views/template-landing-incredible-no-program.blade.php",
             "views/template-landing-incredible-am.blade.php",
             "views/template-func-page-builder.blade.php",
@@ -97,13 +115,16 @@ class SetComponents extends Controller
             "views/template-func-email.blade.php",
             "views/template-func-digital-announces.blade.php",
             "views/template-escala-fex.blade.php",
-            "views/template-zoom-demo-home.blade.php",
             "views/template-zoom-demo-meeting.blade.php",
             "views/template-open-webinar-escala.blade.php",
             "views/template-open-webinar-escala-meeting.blade.php",
             "views/template-blog-home.blade.php",
             "views/template-blog-category.blade.php",
             "views/single-post.blade.php",
+            "views/template-zoom-demo-home.blade.php",
+            "views/template-zoom-demo-home-landing.blade.php",
+            "views/template-zoom-demo-home-step1.blade.php",
+            "views/template-zoom-demo-home-step2.blade.php"
 
         );
 

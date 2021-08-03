@@ -1,15 +1,28 @@
-
-@include('partials.head')
-@php
-get_header();
-@endphp
-
 @php
 $redirect = ACF_CUSTOM::_getField('cf7_redirect');
+$index_page = ACF_CUSTOM::_getField('index_page');
 
 $redirect = strval($redirect);
 
 @endphp
+
+
+{{-- @if ( isset($index_page) && $index_page == 0 )
+
+    <meta name="robots" content="noindex, nofollow" />
+
+    @else
+
+    <meta name="robots" content="index, follow">
+
+@endif --}}
+
+
+{{-- @include('partials.head') --}}
+@php
+get_header();
+@endphp
+
 
 {{-- <script type="text/javascript">
 

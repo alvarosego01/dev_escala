@@ -1,5 +1,5 @@
 {{--
-  Template Name: [B] Zoom Demo Home
+  Template Name: [B] Zoom Home - Solicita demo
 --}}
 
 <link crossorigin="anonymous" rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNunito+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNunito%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.5.5&amp;display=swap" type="text/css" media="all">
@@ -39,12 +39,10 @@
 
 
                   <h1 class="principalBigTitle blackColor">
-                    {{-- Recibe un <span class="greenBlueColor">DEMO <br> personalizado</span> --}}
-                    Descubre cómo <br> Escala puede ayudarte a <br> <span class="greenBlueColor">hacer crecer tu negocio</span>
+                    Descubre cómo Escala <br> te ayuda a hacer <br> <span class="greenBlueColor">crecer tu negocio</span>
                   </h1>
                   <p class="principalBigText grayColorTexts">
-                    {{-- Descubre como Escala puede ayudarte a <br> hacer crecer tu negocio con un breve <br> tour y consultas --}}
-                    Conecta con uno de nuestros asesores expertos. <br> Te guiaremos y responderemos tus preguntas
+                    Conecta con uno de nuestros asesores. <br> Te guiamos según tu tipo de empresa, <br> experiencia y necesidades.
                   </p>
 
                   <div class="containerImage">
@@ -64,10 +62,8 @@
                   <div class="formatForm">
 
                     <h4 class="titleFormat blackcolor">
-                      Solicita tu demo
+                    Recibe un Demo personalizado
                     </h4>
-
-                    {{-- {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!} --}}
 
                     @php
                     $f = get_field('form7');
@@ -103,22 +99,6 @@
 </div>
 
 
-{{-- boton - Solicitar ahora --}}
-
-
-<script>
-
-
-  jQuery('#formZoomHome').on('slide.bs.carousel', function () {
-    jQuery('div#formZoomHome').carousel({
-      pause: true,
-        interval: false
-    });
-
-
-  })
-
-</script>
 
 
 @endsection
