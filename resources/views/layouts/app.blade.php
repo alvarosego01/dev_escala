@@ -40,10 +40,26 @@ get_header();
 
 @if (isset($redirect) && $redirect != null)
 
+    @php
+        $pdata = '';
+    @endphp
+
+    @if ( isset( $_GET['email'] ) && $_GET['email'] == '1'  )
+
+
+
+    @else
+
+    @endif
+
 <script type="text/javascript">
 
 var re = "{{ $redirect }}";
-document.addEventListener( 'wpcf7mailsent', function( e ) {
+// document.addEventListener( 'wpcf7mailsent', function( e ) {
+document.addEventListener( 'wpcf7mailfailed', function( e ) {
+
+
+    console.log('muestra de datos e', e);
 
     window.dataLayer.push({
      "event" : "cf7submission",
@@ -52,9 +68,9 @@ document.addEventListener( 'wpcf7mailsent', function( e ) {
      });
 
 
-if(re && re != null && re != ''){
-window.location.replace("{{ $redirect }}");
-}
+// if(re && re != null && re != ''){
+// window.location.replace("{{ $redirect }}");
+// }
 
 }, false );
 
