@@ -18,6 +18,9 @@ $zoomLink = ACF_CUSTOM::_getField('link_zoom');
 @endphp
 
 
+
+@if ($zoomLink != null && $zoomLink != '')
+
 <script type="text/javascript">
 
     let stateCheck = setInterval(() => {
@@ -35,6 +38,8 @@ $zoomLink = ACF_CUSTOM::_getField('link_zoom');
     }, 100);
 
 </script>
+
+@endif
 
 
 

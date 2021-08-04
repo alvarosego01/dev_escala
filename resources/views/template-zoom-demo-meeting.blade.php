@@ -12,6 +12,30 @@
      $agendar = ACF_CUSTOM::_getField('program_date');
 @endphp
 
+
+@if ($zoomLink != null && $zoomLink != '')
+
+<script type="text/javascript">
+
+    let stateCheck = setInterval(() => {
+
+        if (document.readyState === 'complete') {
+            clearInterval(stateCheck);
+            // document ready
+            // alert('¡Hola! El webinar se está cargando, si no inicia dale click al botón para comenzar');
+
+        setTimeout(function() {
+            window.open("{{$zoomLink}}", '_blank');
+        }, 3500);
+
+        }
+    }, 100);
+
+</script>
+
+@endif
+
+
 @extends('layouts.app')
 
 
