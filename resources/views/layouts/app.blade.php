@@ -44,7 +44,7 @@ get_header();
         $pdata = '';
     @endphp
 
-    @if ( isset( $_GET['email'] ) && $_GET['email'] == '1'  )
+    @if ( isset( $_GET['pemail'] ) && $_GET['pemail'] != '' && $_GET['pemail'] != null  )
 
 
 
