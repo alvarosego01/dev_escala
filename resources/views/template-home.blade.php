@@ -59,7 +59,9 @@
 
                   <div class="formatForm">
 
-                    <h4 class="titleFormat blackcolor">¡Comienza ahora!</h4>
+                    <h4 class="titleFormat blackcolor">
+                      Recibe un Demo <br class="space"> personalizado
+                    </h4>
 
                     {{-- {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
                      --}}
