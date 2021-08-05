@@ -43,8 +43,8 @@ get_header();
 <script type="text/javascript">
 
 var re = "{{ $redirect }}";
-// document.addEventListener( 'wpcf7mailsent', function( e ) {
-document.addEventListener( 'wpcf7mailfailed', function( e ) {
+document.addEventListener( 'wpcf7mailsent', function( e ) {
+// document.addEventListener( 'wpcf7mailfailed', function( e ) {
 
     var l = e.path;
 
