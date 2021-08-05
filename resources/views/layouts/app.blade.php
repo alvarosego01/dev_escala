@@ -1,7 +1,7 @@
 @php
-$redirect = ACF_CUSTOM::_getField('cf7_redirect');
 $index_page = ACF_CUSTOM::_getField('index_page');
 
+$redirect = ACF_CUSTOM::_getField('cf7_redirect');
 $redirect = strval($redirect);
 
 @endphp
@@ -40,26 +40,13 @@ get_header();
 
 @if (isset($redirect) && $redirect != null)
 
-    @php
-        $pdata = '';
-    @endphp
-
-    @if ( isset( $_GET['pemail'] ) && $_GET['pemail'] != '' && $_GET['pemail'] != null  )
-
-
-
-    @else
-
-    @endif
-
 <script type="text/javascript">
 
 var re = "{{ $redirect }}";
 // document.addEventListener( 'wpcf7mailsent', function( e ) {
 document.addEventListener( 'wpcf7mailfailed', function( e ) {
 
-
-    console.log('muestra de datos e', e);
+    var l = e.path;
 
     window.dataLayer.push({
      "event" : "cf7submission",
@@ -67,10 +54,23 @@ document.addEventListener( 'wpcf7mailfailed', function( e ) {
      "response" : event.detail.inputs
      });
 
+     console.log('el path', l);
+    if( jQuery(l[1]).attr('redirectWeb') ){
 
-// if(re && re != null && re != ''){
-// window.location.replace("{{ $redirect }}");
-// }
+        var x = jQuery(l[1]).attr('redirectWeb');
+
+        if( x == 'true' ){
+
+            console.log('redirect', x);
+            if(re && re != null && re != ''){
+                window.location.replace("{{ $redirect }}");
+            }
+
+        }
+
+    }
+
+
 
 }, false );
 

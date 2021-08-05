@@ -2,17 +2,18 @@
 @import common/global
 
 
-.customSection.sectionParent.zoomHomeSection0
-    padding-top: 175px
+
+.customSection.sectionParent.homeSection0
+    padding-top: 225px
     padding-bottom: 0
     background-color: $colorBlueLight
     // padding: 175px 0!important
     @include responsivo(telefonoTable)
-        padding-bottom: 100px
-        padding-top: 100px
+        padding-bottom: 50px
+        padding-top: 125px
     @include responsivo(pcMedio)
-        padding-bottom: 100px
-        padding-top: 100px
+        padding-bottom: 50px
+        padding-top: 150px
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -38,9 +39,23 @@
     .section-row
         .innerSectionElement.sct1
             .groupElements
-                // padding-bottom: 50px
+                padding-bottom: 50px
                 .info
+                    // padding-bottom: 100px
+                    // padding-bottom: 0
+                    @include responsivo(general)
+                        padding-bottom: 200px
+                        padding-top: 3.75%
+                    @include responsivo(resto)
+                        padding-bottom: 200px
+                        padding-top: 3.75%
                     .containElements
+                        position: relative
+                        padding-bottom: 100px
+                        @include responsivo(telefonoTable)
+                            padding-bottom: 0
+                        @include responsivo(pcMedio)
+                            padding-bottom: 0
                         .principalBigTitle
                             // font-size: 50px
                             // line-height:
@@ -51,9 +66,11 @@
                             margin-bottom: 20px
                             @include responsivo(telefonoTable)
                                 font-size: 40px
+                                font-size: 45px
                             @include responsivo(pcMedio)
                                 font-size: 50px
-                                line-height: normal
+                                line-height: 55px
+                                // margin-bottom: 25px
                             // margin-bottom: 25px
                         .principalBigText
                             font-size: 20px
@@ -61,20 +78,20 @@
                             font-weight: 400
                             color: $colorBlack
                             @include responsivo(telefonoTable)
-                                font-size: 20px!important
+                                font-size: 20px
                             @include responsivo(pcMedio)
-                                font-size: 20px!important
+                                font-size: 20px
                             @include responsivo(general)
-                                width: 50vw!important
+                                width: 50vw
                             @include responsivo(resto)
-                                width: 700px!important
+                                width: 700px
                             margin-bottom: 40px
                         .containerImage
-                            position: relative
-                            left: -15%
+                            position: absolute
+                            right: -12.5%
+                            top: 30%
                             img
-                                height: 475px
-                                // margin-top:
+                                height: 425px
                                 margin-left: 0
                         @include responsivo(telefonoTable)
                             .principalBigTitle
@@ -84,6 +101,7 @@
                                 text-align: center!important
                             .containerImage
                                 left: unset!important
+                                position: unset
                                 img
                                     height: 250px
                                     margin: 0 auto
@@ -93,23 +111,28 @@
                                 text-align: center!important
                             .containerImage
                                 left: unset!important
+                                position: unset
                                 img
                                     height: 400px
                                     margin: 0 auto
+                        @include responsivo(specialTexts)
+                            .containerImage
+                                position: unset
+                                img
+                                    height: 250px
+                                    margin: 0 auto
                         @include responsivo(general)
                             .containerImage
+                                top: 12.5vw
+                                right: -12.5%
                                 img
-                                    height: 475px
+                                    height: 25vw
                 .form7
-                    @include responsivo(general)
-                        padding-top: 3.75%
-                    @include responsivo(resto)
-                        padding-top: 3.75%
                     .formatForm
                         @include responsivo(general)
-                            max-width: 460px
+                            max-width: 400px
                         @include responsivo(resto)
-                            max-width: 500px
+                            max-width: 400px
                         span.wpcf7-form-control-wrap.your-phone
                             display: flex
                             justify-content: space-around
@@ -140,23 +163,9 @@
                             height: 75px!important
                         @include responsivo(resto)
                             height: 75px!important
-                    .carousel.slide
-                        .carousel-inner
-                            .controls
-                                padding: 0
-                                display: flex
-                                button.buttonControlNext
-                                    margin: 25px auto
-                                    // padding: 25px
-                                    i
-                                        font-size: 16px
-                                button.buttonControlPrev
-                                    background-color: transparent
-                                    font-size: 18px
-                                    border: 0
-                                    margin: 0 auto
+
     .backgroundPlanets
-        background-position: -50px 100px
+        background-position: -50px 175px
         background-repeat: no-repeat
         background-size: 100% auto
         opacity: 1
@@ -171,13 +180,12 @@
             // background-position: 2.5% 2.5%
             // background-size: initial
             top: 0
-            background-position: 8px 150px
+            background-position: 8px 75px
             background-size: 100% auto
         @include responsivo(pcMedio)
-            background-position: 8px 150px
+            background-position: 8px 100px
             background-size: 100% auto
             top: 0
-
 
 
 

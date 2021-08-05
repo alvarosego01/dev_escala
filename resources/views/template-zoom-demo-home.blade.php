@@ -59,17 +59,17 @@
 
                 <div class="containElements">
 
-                  <div class="formatForm">
+                  <div class="formatForm" redirectWeb="true">
 
                     <h4 class="titleFormat blackcolor">
                     Solicita demo
                     </h4>
 
                     @php
-                    $f = get_field('form7');
-                @endphp
+                      $f = get_field('form7');
+                    @endphp
 
-                {!! do_shortcode( $f ) !!}
+                    {!! do_shortcode( $f ) !!}
 
 
                   </div>

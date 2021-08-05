@@ -25,7 +25,7 @@
 
                     <div class="containElements">
 
-                      <div class="formatForm">
+                      <div class="formatForm" redirectWeb="true">
 
                         <h5 class="titleFormat blackcolor">{{ $textForm }}</h5>
 
