@@ -80,7 +80,7 @@
                                    <div class="formatForm">
 
                                        <h4 class="titleFormat blackcolor">
-                                            Prueba Escala gratuita <br class="space">
+                                            Solicita una prueba gratuita <br class="space">
                                            <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>
                                        </h4>
 
