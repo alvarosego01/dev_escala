@@ -18,81 +18,78 @@
   <div class="sections">
 
 
-    <section id="lead-form" class="customSection sectionParent homeSection0 fullWidth">
+    <section id="lead-form" class="customSection sectionParent homeSection0">
 
 
-      <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/Rectangle-1037-1.png')" class="backgroundFull">
-
-        <div class="section-row">
-
-
-
-          <section class="innerSectionElement sct1">
-
-            <div class="groupElements row">
-
-              <div class="info col-md-12 col-lg-6">
-
-                <div class="containElements">
-
-
-                  <h1 class="principalBigTitle blackColor">
-                    Genera más leads, <br> clientes y ventas <span class="greenBlueColor">con Escala</span>
-                  </h1>
-                  <p class="principalBigText grayColorTexts">
-                    <strong>Escala</strong>; la plataforma de marketing digital y ventas más potente y fácil de utilizar
-                  </p>
-
-                  <div class="containerImage">
-                    <img alt="Genera más leads, clientes y ventas con Escala" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/andres_banner_aprobado-1-1.png" alt="" loading="lazy">
-                  </div>
+      <div class="section-row">
 
 
 
+        <section class="innerSectionElement sct1">
+
+          <div class="groupElements row">
+
+            <div class="info col-md-12 col-lg-6">
+
+              <div class="containElements">
+
+
+                <h1 class="principalBigTitle blackColor">
+                  Descubre cómo Escala <br> te ayuda a hacer <br> <span class="greenBlueColor">crecer tu negocio</span>
+                </h1>
+                <p class="principalBigText grayColorTexts">
+                  Conecta con uno de nuestros asesores. <br> Te guiamos según tu tipo de empresa, <br> experiencia y necesidades.
+                </p>
+
+                <div class="containerImage">
+                  <img alt="Genera más leads, clientes y ventas con Escala" src="{!! App::setFilePath('/assets/images/person/mujer-laptop_01.png') !!}" alt="" loading="lazy">
                 </div>
 
 
-              </div>
-              <div class="form7 col-md-12 col-lg-6">
 
-                <div class="containElements">
-
-                  <div class="formatForm">
-
-                    <h4 class="titleFormat blackcolor">¡Comienza ahora!</h4>
-
-                    {{-- {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
-                     --}}
-
-                     @php
-                     $f = ACF_CUSTOM::_getField('form7');
-                 @endphp
-                  @if (isset($f) && $f != null)
-                  {!! do_shortcode( $f ) !!}
-                  @else
-                  {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
-                  @endif
-
-
-                  </div>
-
-                </div>
               </div>
 
 
             </div>
+            <div class="form7 col-md-12 col-lg-6">
 
-          </section>
+              <div class="containElements">
 
-        </div>
+                <div class="formatForm">
 
-        <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/Group-1821.svg')" class="backgroundPlanets">
-        </div>
+                  <h4 class="titleFormat blackcolor">
+                  Solicita demo
+                  </h4>
+
+                  @php
+                  $f = get_field('form7');
+              @endphp
+
+              {!! do_shortcode( $f ) !!}
 
 
-        </div>
+                </div>
 
-    </section>
+
+
+              </div>
+            </div>
+
+
+          </div>
+
+        </section>
+
+      </div>
+
+      <div style="background-image: url('{!! App::setFilePath('/assets/images/overlays/estrellas 2.png') !!}')" class="backgroundPlanets">
+      </div>
+
+
+
+
+  </section>
+
 
     <section class="customSection sectionParent homeSection1">
       <div class="section-row">
