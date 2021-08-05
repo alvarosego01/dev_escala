@@ -153,147 +153,6 @@
     </section>
 
 
-    <section class="customSection sectionParent landingWhatsapp2 fullWidth">
-
-      <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/Rectangle-1037.png')" class="backgroundFull">
-
-        <div class="section-row">
-
-
-          <section class="innerSectionElement sct1">
-
-
-            <div class="containElements">
-
-              <h2 class="primaryTitle blackColor">
-                <span class="greenBlueColor">La Plataforma todo en uno </span><br> de marketing digital y ventas
-              </h2>
-              <p class="primaryText grayColorTexts">
-                En <strong>Escala</strong> tienes todas las herramientas ya integradas para impulsar tu éxito
-              </p>
-
-            </div>
-
-          </section>
-          <section class="innerSectionElement sct2">
-
-            <div class="groupElements row">
-              <div class="col-md-12 col-lg-6 infoGroup">
-
-                <div class="containerImage">
-                  <img alt="Crea increíbles páginas sin programar" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_01.svg" alt="" loading="lazy">
-                </div>
-
-                <div class="containerElements">
-                  <h3 class="commonTitle blackColor">Crea increíbles páginas <br> sin programar</h3>
-                  <p class="secondaryText grayColorTexts">¡Y que queden hermosas!</p>
-                  <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/landing-pages/">Crea tu landing con Escala</a>
-                </div>
-
-              </div>
-
-              <div class="col-md-12 col-lg-6 infoGroup">
-
-                <div class="containerImage">
-                  <img alt="Organiza tus contactos y gestiona procesos de venta" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_05.svg" alt="" loading="lazy">
-                </div>
-
-                <div class="containerElements">
-                  <h3 class="commonTitle blackColor">Organiza tus contactos y <br> gestiona procesos de <br> venta</h3>
-                  <p class="secondaryText grayColorTexts">Con un CRM sencillo de usar</p>
-                  <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/crm-escala/">
-                    Vende más con el CRM de Escala
-                  </a>
-                </div>
-
-              </div>
-
-            </div>
-            <div class="groupElements row">
-              <div class="col-md-12 col-lg-6 infoGroup">
-
-                <div class="containerImage">
-                  <img alt="Envía emails de marketing profesionales" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_02.svg" alt="" loading="lazy">
-                </div>
-
-                <div class="containerElements">
-                  <h3 class="commonTitle blackColor">Envía emails de marketing <br> profesionales</h3>
-                  <p class="secondaryText grayColorTexts">Personalizados y masivos, sin caer en la bandeja de SPAM</p>
-                  <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/email/">
-                    Envía emails con Escala
-                  </a>
-                </div>
-
-              </div>
-
-              <div class="col-md-12 col-lg-6 infoGroup">
-
-                <div class="containerImage">
-                  <img alt="Multiplica tus visitas web con anuncios digitales" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_04.svg" alt="" loading="lazy">
-                </div>
-
-                <div class="containerElements">
-                  <h3 class="commonTitle blackColor">Multiplica tus visitas web <br> con anuncios digitales</h3>
-                  <p class="secondaryText grayColorTexts">en Facebook, Instagram y Google</p>
-                  <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/anuncios-digitales/">
-                    Crea anuncios con Escala
-                  </a>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="groupElements row">
-              <div class="col-md-12 col-lg-6 infoGroup">
-
-                <div class="containerImage">
-                  <img alt="Automatiza tareas y flujos de comunicación" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_03.svg" alt="" loading="lazy">
-                </div>
-
-                <div class="containerElements">
-                  <h3 class="commonTitle blackColor">Automatiza tareas y flujos <br> de comunicación</h3>
-                  <p class="secondaryText grayColorTexts">Escala trabaja por ti 24/7</p>
-                  <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/automatizacion/">
-                    Automatiza con Escala
-                  </a>
-                </div>
-
-              </div>
-
-
-
-
-              <div class="col-md-12 col-lg-6 infoGroup">
-
-                <div class="containerImage">
-                  <img alt="Obtén métricas de marketing y ventas en tiempo real" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_06.svg" alt="" loading="lazy">
-                </div>
-
-                <div class="containerElements">
-                  <h3 class="commonTitle blackColor">Obtén métricas de <br> marketing y ventas en <br> tiempo real</h3>
-                  <p class="secondaryText grayColorTexts">con dashboards inteligentes</p>
-                  <a class="hiperButtonGray" href="{!! App::setTypeUrl() !!}/analiticas/">
-                    Mide ahora con Escala
-                  </a>
-                </div>
-
-              </div>
-
-
-
-
-
-            </div>
-
-
-          </section>
-
-        </div>
-      </div>
-
-    </section>
-
-
     <section class="customSection sectionParent landingWhatsapp3 fullWidth">
 
       <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/banner-3-1.png')" class="backgroundFull sct1">
@@ -303,11 +162,11 @@
 
           <div class="containElements">
 
-            <h3 class="primaryTitle whiteText">Empieza a escalar tu negocio con éxito
+            <h3 class="primaryTitle whiteText">¿Quieres activar WhatsApp en tu landing page?
             </h3>
 
             <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-              Probar Escala ahora
+              Comenzar ahora
             </a>
 
 

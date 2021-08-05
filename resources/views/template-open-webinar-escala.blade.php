@@ -58,7 +58,7 @@
 
                 <div class="containElements">
 
-                  <div class="formatForm">
+                  <div class="formatForm" redirectWeb="true">
 
                     <h4 class="titleFormat blackcolor">¡Ingresa a nuestro Webinar!</h4>
 

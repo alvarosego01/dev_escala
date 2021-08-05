@@ -77,7 +77,7 @@
 
                                <div class="containElements">
 
-                                   <div class="formatForm">
+                                   <div class="formatForm" redirectWeb="true">
 
                                        <h4 class="titleFormat blackcolor">
                                             Solicita una prueba gratuita <br class="space">

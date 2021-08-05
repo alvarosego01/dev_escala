@@ -59,7 +59,7 @@
 
                 <div class="containElements">
 
-                  <div class="formatForm">
+                  <div class="formatForm" redirectWeb="true">
 
                     <h4 class="titleFormat blackcolor">
                       Ayúdanos a personalizar tu Demo
