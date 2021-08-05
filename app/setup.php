@@ -226,8 +226,8 @@ function wpcf7_recaptcha_no_refill()
 
 
 $setACF = new ACF_CUSTOM();
-// $x = $setACF->setACF();
-// add_action('acf/init', $setACF->setACF());
+$x = $setACF->setACF();
+add_action('acf/init', $setACF->setACF());
 
 
 
