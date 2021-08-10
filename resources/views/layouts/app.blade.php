@@ -38,13 +38,22 @@ get_header();
 
 </script> --}}
 
+
+<script type="text/javascript">
+
+
+
+</script>
+
+
 @if (isset($redirect) && $redirect != null)
 
 <script type="text/javascript">
 
 var re = "{{ $redirect }}";
-document.addEventListener( 'wpcf7mailsent', function( e ) {
-// document.addEventListener( 'wpcf7mailfailed', function( e ) {
+// document.addEventListener( 'wpcf7mailsent', function( e ) {
+document.addEventListener( 'wpcf7mailfailed', function( e ) {
+
 
     var l = e.path;
 
@@ -63,7 +72,7 @@ document.addEventListener( 'wpcf7mailsent', function( e ) {
 
             console.log('redirect', x);
             if(re && re != null && re != ''){
-                window.location.replace("{{ $redirect }}");
+                // window.location.replace("{{ $redirect }}");
             }
 
         }

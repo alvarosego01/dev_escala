@@ -148,6 +148,15 @@
                     </div>
 
                 </div>
+                <div class="containElements hor">
+                    <small>
+
+                        Horario de atención: <br>
+                        Lunes a Viernes de 07:00 a.m. a 09:00 p.m. <br>
+                        Sabados de 10:00 a.m. a 07:00 p.m. <br>
+                        Hora Colombia
+                    </small>
+                </div>
 
             </section>
 
