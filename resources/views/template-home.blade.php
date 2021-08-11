@@ -63,9 +63,9 @@
 
                           <div class="formatForm" redirectWeb="true">
 
-                              <h4 class="titleFormat blackcolor">
-                                  Recibe un Demo <br class="space"> personalizado
-                              </h4>
+                            <h4 class="titleFormat blackcolor">
+                              Empieza a probar Escala
+                            </h4>
 
 
                               @php
