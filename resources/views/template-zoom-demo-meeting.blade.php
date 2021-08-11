@@ -45,8 +45,6 @@
 
 <div id="zoomMeeting-Bootstrap">
 
-    <div style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/team/austronaut_jump.png') !!}')" class="overlayFlying">
-    </div>
 
   <div class="sections">
 
