@@ -13,7 +13,7 @@
 
   </div>
 
-  {{-- <div class="container-fluid sct2">
+  <div class="container-fluid sct2">
 
   <a class="navbar-brand" href="{!! home_url() !!}">
       <img src="{!! App::setFilePath('/assets/images/logos/escala_logo.svg') !!}" alt="Logo" class="logo-img">
@@ -40,7 +40,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-  </div> --}}
+  </div>
 
 </nav>
 

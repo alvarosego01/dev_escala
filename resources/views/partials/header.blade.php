@@ -20,7 +20,7 @@
 
 @php
 
-$navBar = ACF_CUSTOM::_getField('NavBar_settings');
+$navBar = ACF_CUSTOM::_getField('nav_settings');
 @endphp
 
 @if ($navBar || $navBar == '' || $navBar == null || $global1 == 'global1')
