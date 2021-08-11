@@ -50,7 +50,7 @@ $parameters = array(
  'description' => '“Luego de generar una base de datos de clientes potenciales, tu <br> <strong>CRM es la herramienta más importante para convertirlos en <br> clientes</strong> fieles y construir relaciones a largo plazo”.',
  'byAm' => '<span class="greenBlueColor">Andrés Moreno</span>',
  'team' => 'Fundador de <span class="greenBlueColor">Escala</span> y Open English',
- 'image' => App::setFilePath('/assets/images/person/am/andres_banner copia.png')
+ 'image' => App::setFilePath('/assets/images/person/am/andres_banner.png')
 ) ;
 @endphp
 

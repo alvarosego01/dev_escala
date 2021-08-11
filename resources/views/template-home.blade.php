@@ -64,7 +64,7 @@
                           <div class="formatForm" redirectWeb="true">
 
                               <h4 class="titleFormat blackcolor">
-                                  Recibe un Demo <br class="space"> personalizado
+                                Empieza a probar Escala
                               </h4>
 
 
