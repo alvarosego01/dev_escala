@@ -97,7 +97,9 @@
 
                         <div class="hor">
                             <small>
-                                Estamos disponibles para ti: <br class="space"> De Lunes a Viernes: 8 a.m. - 10 p.m. Miami    Sábado: ___ -___ Miami
+                                Estamos disponibles para ti de Lunes a Sabado: <br class="space">
+                                Colombia 10:00am - 7:00pm  <br class="space">
+                                Miami 11:00am - 8:00pm
                             </small>
                         </div>
 
