@@ -27,9 +27,7 @@ contactos en clientes',
   'text' => 'El arma secreta de tu fuerza de ventas: <br>
 el CRM de Escala. Un sistema para <br> administrar la relación con tus clientes.',
   'image' => App::setFilePath('/assets/images/illustrations/otto/Otto_CRM-01.png'),
-  'textForm' => 'Empieza a probar Escala
-  <br style="display: block!important">
-  <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>',
+  'textForm' => 'Empieza a probar Escala',
   'overlayImage' => null,
   'threeCol' => false,
  ) ;
@@ -40,7 +38,6 @@ el CRM de Escala. Un sistema para <br> administrar la relación con tus clientes
 @endheader_t1
 
 
-{{-- <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida --}}
 
 
 

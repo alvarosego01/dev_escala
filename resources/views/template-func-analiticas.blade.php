@@ -24,9 +24,7 @@
   'classSection' => 'func funcAnaliticas0',
   'title' => '<span class="greenBlueColor">¡Medir, medir,</span> medir!',
   'text' => 'Lo que no se mide, no mejora. Escala lo hace <br> más sencillo con dashboards amigables',
-  'textForm' => 'Empieza a probar Escala
-  <br style="display: block!important">
-  <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>',
+  'textForm' => 'Empieza a probar Escala',
   'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
   'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas 2.png'),
   'image' => App::setFilePath('/assets/images/illustrations/others/banner_01.png'),
