@@ -45,8 +45,6 @@
 
 <div id="zoomMeeting-Bootstrap">
 
-    <div style="background-image: url('{!! App::setFilePath('/assets/images/overlays/astronaut-flying1.png') !!}')" class="overlayFlying">
-    </div>
 
   <div class="sections">
 
@@ -61,7 +59,7 @@
 
                         <h1 class="principalBigTitle blackColor">
 
-                            Conversa con un Asesor Escala <br> <span class="greenBlueColor">Te guiamos a conseguir tus metas</span>
+                            Conversa con un Asesor Escala <br > <span class="greenBlueColor">Te guiamos a conseguir tus metas</span>
 
                         </h1>
 
@@ -89,72 +87,80 @@
 
                     @else --}}
 
-                    <div class="containerImage">
-
-                        <img src="{!! App::setFilePath('/assets/images/logos/Zoom-Simbolo.png') !!}" alt="">
-
-                    </div>
-
-                    <small>
-                    El Zoom se está cargando. Si no se abre en unos segundos, haz clic aquí:
-                    </small>
-
-                    <a target="_blank" href="@php
-                        echo $zoomLink
-                    @endphp" class="primaryButton hoverInEffect">
-                        Inicia Zoom ahora
-                    </a>
-
-
-
-                </div>
-            </section>
-
-
-        </div>
-
-    </section>
-    <section class="customSection sectionParent zoomMeetingSection2">
-
-        <div class="section-row">
-
-            <section class="innerSectionElement sct1">
-
-                <div class="containElements">
-
-
-
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" >
-                        <img class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
-                        ¿Necesitas ayuda?
-                    </a>
-
-
-
-                    <div class="setDate">
-
-                        <a href="@php
-                            echo $agendar
-                        @endphp" class="hiperButtonGray">
-                            Agenda para otro momento
-                        </a>
+                    <div class="contain1">
 
                         <div class="containerImage">
 
-                            <img src="{!! App::setFilePath('/assets/images/icons/Vector2.png') !!}" alt="">
+                            <img src="{!! App::setFilePath('/assets/images/logos/Zoom-Simbolo.png') !!}" alt="">
+
+                        </div>
+
+                        <div class="hor">
+                            <small>
+                                Estamos disponibles para ti: <br class="space"> De Lunes a Viernes: 8 a.m. - 10 p.m. Miami    Sábado: ___ -___ Miami
+                            </small>
+                        </div>
+
+                    </div>
+
+                    <div class="contain2 row">
+
+                        <div class="el1 col-md-12 col-lg-6">
+
+                            <small>
+                                El Zoom se está cargando. <br class="space"> Si no se abre en unos segundos, haz clic aquí:
+                            </small>
+
+                            <a target="_blank" href="@php echo $zoomLink @endphp" class="primaryButton hoverInEffect">
+                                Inicia Zoom ahora
+                            </a>
+
+                        </div>
+                        <div class="el2 col-md-12 col-lg-6">
+
+                            <div class="containerImage">
+
+                                <img src="{!! App::setFilePath('/assets/images/icons/Vector2.png') !!}" alt="">
+
+                            </div>
+
+                            <a class="thinButton hoverSecondaryButton" href="@php echo $agendar @endphp" class="hiperButtonGray">
+                            Agenda para otro momento
+                            </a>
+
 
                         </div>
 
                     </div>
 
-                </div>
+                    <div class="contain3">
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" >
+                            <img class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
+                            ¿Necesitas ayuda?
+                        </a>
+                    </div>
 
+
+                </div>
             </section>
 
+            <div backco class="astroOverlay">
+
+                <div class="containerImage">
+
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/team/austronaut_jump.png') !!}" alt="">
+
+                </div>
+
+
+            </div>
 
         </div>
 
+
     </section>
+
+
 
 
 </div>

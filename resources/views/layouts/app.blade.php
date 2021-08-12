@@ -6,45 +6,17 @@ $redirect = strval($redirect);
 
 @endphp
 
+@include('partials.head')
 
-{{-- @if ( isset($index_page) && $index_page == 0 )
-
-    <meta name="robots" content="noindex, nofollow" />
-
-    @else
-
-    <meta name="robots" content="index, follow">
-
-@endif --}}
-
-
-{{-- @include('partials.head') --}}
-@php
-get_header();
-@endphp
-
-
-{{-- <script type="text/javascript">
-
-    document.addEventListener( 'wpcf7submit', function( event ) {
-
-     window.dataLayer.push({
-     "event" : "cf7submission",
-     "formId" : event.detail.contactFormId,
-     "response" : event.detail.inputs
-     });
-
-    });
-
-</script> --}}
 
 @if (isset($redirect) && $redirect != null)
 
 <script type="text/javascript">
 
 var re = "{{ $redirect }}";
+// document.addEventListener( 'wpcf7mailsent', function( e ) {
 document.addEventListener( 'wpcf7mailsent', function( e ) {
-// document.addEventListener( 'wpcf7mailfailed', function( e ) {
+
 
     var l = e.path;
 

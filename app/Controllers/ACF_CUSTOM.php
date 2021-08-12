@@ -266,30 +266,14 @@ class ACF_CUSTOM extends Controller
                     'name' => 'Contact form 7 Newsletter shortcode',
                     'type' => 'text',
                 ),
-                array (
-                    'key' => 'popup_elementor',
-                    'label' => 'Popup custom selector elementor',
-                    'name' => 'Popup custom selector elementor',
-                    'type' => 'text',
-                ),
-                array (
-                    'key' => 'index_page',
-                    'label' => 'Index page',
-                    'name' => 'Index page',
-                    'type' => 'radio',
-                    'choices' => array(
-                        true => 'Yes',
-                        false => 'No',
 
-                    ),
-                    'default_value' => true
-                ),
                 array (
-                    'key' => 'NavBar_settings',
+                    'key' => 'nav_settings',
                     'label' => 'NavBar settings',
                     'name' => 'NavBar settings',
                     'type' => 'select',
                     'choices' => array(
+                        'elementor_navbar' => 'Elementor nav',
                         'global1'	=> 'Global White',
                         'global2'	=> 'Global old',
                         'global_blog'	=> 'Global blog',
