@@ -59,7 +59,7 @@
 
                         <h1 class="principalBigTitle blackColor">
 
-                            Conversa con un Asesor Escala <br class="space"> <span class="greenBlueColor">Te guiamos a conseguir tus metas</span>
+                            Conversa con un Asesor Escala <br > <span class="greenBlueColor">Te guiamos a conseguir tus metas</span>
 
                         </h1>
 

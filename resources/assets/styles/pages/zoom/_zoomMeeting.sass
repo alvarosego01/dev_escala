@@ -14,10 +14,12 @@
         font-family: "Nunito",Sans-serif!important
     @include responsivo(telefonoTable)
         padding-bottom: 100px
-        padding-top: 100px
+        padding-top: 50px
+        padding-left: 5%
+        padding-right: 5%
     @include responsivo(pcMedio)
         padding-bottom: 100px
-        padding-top: 125px
+        padding-top: 50px
     .backgroundPlanets
         display: none
         opacity: 1
@@ -114,9 +116,9 @@
                     margin-left: auto
                     z-index: -10
                     @include responsivo(telefonoTable)
-
+                        display: none
                     @include responsivo(pcMedio)
-
+                        display: none
                     @include responsivo(general)
                         right: -20%
                         height: 650px
@@ -204,12 +206,16 @@
                                     width: 100%
                                     color: #505050
                                     // margin-bottom: px
+                                    @include responsivo(telefonoTable)
+                                        font-size: 16px
+                                    @include responsivo(pcMedio)
+                                        font-size: 16px
                                 a
                                     display: block
                                     margin: 0 auto
                             .el1
                                 @include responsivo(telefonoTable)
-                                    margin-bottom: 50px
+                                    margin-bottom: 75px
                                     &::before
                                         content: ''
                                         position: absolute
@@ -280,12 +286,15 @@
                             width: 100%
                             padding: 50px 0
                             padding-bottom: 35px
-
+                            @include responsivo(telefonoTable)
+                                padding-bottom: 0
+                            @include responsivo(pcMedio)
+                                padding-bottom: 0
                             .hor
                                 width: 100%
                                 small
                                     display: block
-                                    font-size: 22px
+                                    font-size: 21px
                                     text-align: center
                                     width: 100%
                                     margin: 25px auto
@@ -295,6 +304,10 @@
                                     font-weight: 400
                                     width: 100%
                                     color: #505050
+                                    @include responsivo(telefonoTable)
+                                        font-size: 18px
+                                    @include responsivo(pcMedio)
+                                        font-size: 18px
                             .containerImage
                                 margin-bottom: 0
                                 padding: 0
