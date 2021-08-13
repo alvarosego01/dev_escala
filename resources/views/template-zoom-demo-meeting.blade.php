@@ -59,7 +59,7 @@
 
                         <h1 class="principalBigTitle blackColor">
 
-                            Conversa con un Asesor Escala <br > <span class="greenBlueColor">Te guiamos a conseguir tus metas</span>
+                            Conversa con un asesor Escala <br > <span class="greenBlueColor">Te guiamos a conseguir tus metas</span>
 
                         </h1>
 
@@ -96,10 +96,16 @@
                         </div>
 
                         <div class="hor">
+                            <small style="margin-bottom: 15px">
+                                {{-- <strong style="padding-bottom: 15px">¡Conéctate en zoom ahora! Nuestros asesores están listos para atenderte</strong> --}}
+                                <strong style="padding-bottom: 10px">
+                                    ¡Conecta con nosotros! Nuestros asesores están listos para apoyarte
+                                </strong>
+                            </small>
                             <small>
-                                Estamos disponibles para ti de Lunes a Sabado: <br class="space">
-                                Colombia 10:00am - 7:00pm  <br class="space">
-                                Miami 11:00am - 8:00pm
+                                <strong>Lunes a Viernes:</strong> 8:00am - 10:00pm. Miami / Chile <br class="space">
+                                <strong>Sábado:</strong> 11:00am - 8:00pm Miami /Chile
+
                             </small>
                         </div>
 
@@ -114,7 +120,7 @@
                             </small>
 
                             <a target="_blank" href="@php echo $zoomLink @endphp" class="primaryButton hoverInEffect">
-                                Inicia Zoom ahora
+                                Iniciar Zoom ahora
                             </a>
 
                         </div>
@@ -126,8 +132,8 @@
 
                             </div>
 
-                            <a class="thinButton hoverSecondaryButton" href="@php echo $agendar @endphp" class="hiperButtonGray">
-                            Agenda para otro momento
+                            <a class="thinButton hoverSecondaryButton" href="@php echo $agendar @endphp">
+                            Agendar para otro momento
                             </a>
 
 
@@ -138,7 +144,7 @@
                     <div class="contain3">
                         <a target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" >
                             <img class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
-                            ¿Necesitas ayuda?
+                            Prefiero chatear
                         </a>
                     </div>
 
