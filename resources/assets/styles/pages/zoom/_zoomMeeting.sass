@@ -3,8 +3,8 @@
 @import common/global
 
 #zoomMeeting-Bootstrap
-    padding: 75px
-    padding-bottom: 150px
+    padding: 50px
+    padding-bottom: 125px
     background-color: $colorBlueLight
     position: relative
 
@@ -77,7 +77,7 @@
     .sections
         .zoomMeetingSection0
             padding-top: 75px
-            padding-bottom: 25px
+            padding-bottom: 0px
             .section-row
                 .innerSectionElement
                     .containElements
@@ -281,13 +281,24 @@
                                     margin: 0 auto
                                 a.thinButton
                                     color: #36768A!important
+                            .el1,
+                            .el2
+                                a
+                                    @include responsivo(telefonoTable)
+                                        max-width: 275px
+                                        width: 100%
+                                        text-align: center
+                                    @include responsivo(pcMedio)
+                                        max-width: 300px
+                                        width: 100%
+                                        text-align: center
 
 
                         .contain1
                             // display: none
-                            width: 100%
-                            padding: 50px 0
-                            padding-bottom: 35px
+                            width: 100%sadasdasd
+                            padding: 25px 0
+                            padding-bottom: 25px
                             @include responsivo(telefonoTable)
                                 padding-bottom: 0
                             @include responsivo(pcMedio)
@@ -298,7 +309,6 @@
                                     display: block
                                     font-size: 21px
                                     text-align: center
-                                    width: 100%
                                     margin: 25px auto
                                     // margin-bottom: 50px
                                     font-family: "Nunito",Sans-serif!important
@@ -310,6 +320,42 @@
                                         font-size: 18px
                                     @include responsivo(pcMedio)
                                         font-size: 18px
+                                .h
+                                    display: flex
+                                    justify-content: center
+                                    align-content: center
+                                    width: 100%
+                                    @include responsivo(telefonoTable)
+                                        flex-direction: column
+                                    @include responsivo(pcMedio)
+                                        flex-direction: column
+                                    @include responsivo(general)
+                                        flex-direction: row
+
+                                    @include responsivo(resto)
+                                        flex-direction: row
+
+                                    small
+                                        margin: 7.5px 15px
+                                    small.days
+                                        text-align: right
+                                        width: 30%
+                                    small.times
+                                        width: fit-content
+                                        text-align: left
+                                    small.days,
+                                    small.times
+                                        @include responsivo(telefonoTable)
+                                            margin-left: auto
+                                            margin-right: auto
+                                            text-align: center!important
+                                            width: 100%
+                                        @include responsivo(pcMedio)
+                                            margin-left: auto
+                                            margin-right: auto
+                                            text-align: center!important
+                                            width: 100%
+
                             .containerImage
                                 margin-bottom: 0
                                 padding: 0
