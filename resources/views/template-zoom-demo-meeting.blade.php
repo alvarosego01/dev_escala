@@ -102,11 +102,27 @@
                                     ¡Conecta con nosotros! Nuestros asesores están listos para apoyarte
                                 </strong>
                             </small>
-                            <small>
-                                <strong>Lunes a Viernes:</strong> 8:00am - 10:00pm. Miami / Chile <br class="space">
-                                <strong>Sábado:</strong> 11:00am - 8:00pm Miami /Chile
 
-                            </small>
+                            <div class="h">
+                                <small class="days">
+                                    <strong>Lunes a Viernes:</strong>
+                                </small>
+                                <small class="times">
+                                    8:00am - 10:00pm. Miami / Chile <br class="space">
+                                    7:00am - 9:00pm. México / Colombia
+                                </small>
+                            </div>
+                            <div class="h">
+                                <small class="days">
+                                    <strong>Sábado:</strong>
+                                </small>
+                                <small class="times">
+                                    11:00am - 8:00pm. Miami / Chile <br class="space">
+                                    10:00am - 7:00pm. México / Colombia
+                                </small>
+                            </div>
+
+
                         </div>
 
                     </div>
@@ -132,7 +148,7 @@
 
                             </div>
 
-                            <a class="thinButton hoverSecondaryButton" href="@php echo $agendar @endphp">
+                            <a class="thinButton hoverSecondaryButton hoverInEffect" href="@php echo $agendar @endphp">
                             Agendar para otro momento
                             </a>
 
@@ -143,7 +159,7 @@
 
                     <div class="contain3">
                         <a target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" >
-                            <img class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
+                            <img style="margin-right: 15px;" class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
                             Prefiero chatear
                         </a>
                     </div>
@@ -190,3 +206,6 @@
 
 
 @endsection
+
+
+0412-6821256
