@@ -63,6 +63,30 @@
 
                         </h1>
 
+                        <div class="hor">
+
+
+                            <div class="h">
+                                <small class="days">
+                                    <strong>De Lunes a Viernes:</strong>
+                                </small>
+                                <small class="times">
+                                    8:00am - 10:00pm. <strong>Miami / Chile</strong> <span>|</span> 7:00am - 9:00pm. <strong>México / Colombia</strong>
+                                </small>
+                            </div>
+                            <div class="h">
+                                <small class="days">
+                                    <strong>Sábados:</strong>
+                                </small>
+                                <small class="times">
+                                    11:00am - 8:00pm. <strong>Miami / Chile</strong> <span>|</span> 10:00am - 7:00pm. <strong>México / Colombia</strong>
+                                </small>
+                            </div>
+
+
+                        </div>
+
+
 
                 </div>
 
@@ -72,6 +96,7 @@
         </div>
 
     </section>
+
     <section class="customSection sectionParent zoomMeetingSection1">
 
         <div class="section-row">
@@ -105,42 +130,6 @@
 
                             </div>
 
-                            <div class="subContain">
-
-                                <div class="hor">
-                                    <small class="title" >
-
-                                        <strong>
-                                            Estamos disponibles:
-                                        </strong>
-
-                                    </small>
-
-                                    <div class="h">
-                                        <small class="days">
-                                            <strong>De Lunes a Viernes:</strong>
-                                        </small>
-                                        <small class="times">
-                                            8:00am - 10:00pm. Miami / Chile <br class="space">
-                                            7:00am - 9:00pm. México / Colombia
-                                        </small>
-                                    </div>
-                                    <div class="h">
-                                        <small class="days">
-                                            <strong>Sábados:</strong>
-                                        </small>
-                                        <small class="times">
-                                            11:00am - 8:00pm. Miami / Chile <br class="space">
-                                            10:00am - 7:00pm. México / Colombia
-                                        </small>
-                                    </div>
-
-
-                                </div>
-
-
-                            </div>
-
                         </div>
                         <div class="parentBox col-md-12 col-lg-6">
                             <div class="box">
@@ -156,12 +145,7 @@
                                     Reservar mi espacio
                                 </a>
                             </div>
-                            <div class="subContain">
-                                <a class="whatsappButton" target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" >
-                                    <img  class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
-                                    Chatear por WhatsApp
-                                </a>
-                            </div>
+
                         </div>
 
 
@@ -170,6 +154,21 @@
 
 
                 </div>
+            </section>
+
+            <section class="innerSectionElement sct2">
+
+                <div class="containElements">
+
+                    <div class="subContain">
+                        <a class="whatsappButton" target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" >
+                            <img  class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
+                            Chatear por WhatsApp
+                        </a>
+                    </div>
+
+                </div>
+
             </section>
 
         </div>
