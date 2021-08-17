@@ -87,7 +87,7 @@ br.space
         display: block
         box-sizing: border-box
         max-width: unset
-        width: auto!important
+        width: auto
         margin: 0 auto
     // margin: 0
 
@@ -150,6 +150,9 @@ br.space
 
 .blackColor
     color: $colorBlack
+
+.blackColor2
+    color: $colorBlack2
 
 .orangeColor
     color: $colorOrange
@@ -266,6 +269,35 @@ span.tag
 button
     border: 0
 
+
+.whatsappButton
+    font-family: "Nunito Sans",Sans-serif
+    font-size: 20px
+    font-weight: 500
+    text-decoration: none
+    color: $colorGrey4
+    display: flex
+    align-self: center
+    align-items: center
+    width: fit-content
+    img
+        height: 35px
+        margin-left: 15px
+        position: relative
+        bottom: 2.5px
+    &:hover
+        color: $colorOrange
+    @include responsivo(telefonoTable)
+        display: flex
+        flex-direction: row-reverse
+        img
+            margin: 15px
+    @include responsivo(pcMedio)
+        display: flex
+        flex-direction: row-reverse
+        img
+            margin: 15px
+
 .primaryButton
     display: inline-block
     line-height: 1
@@ -280,6 +312,7 @@ button
     width: fit-content
     transition: $transitionButton
     transform: scale(1)
+    font-family: "Nunito Sans",Sans-serif
     @include responsivo(telefonoTable)
         padding: 10px 20px!important
         font-size: 18px!important
@@ -306,6 +339,7 @@ button
     width: fit-content
     transition: $transitionButton
     transform: scale(1)
+    font-family: "Nunito Sans",Sans-serif
     @include responsivo(telefonoTable)
         padding: 10px 20px!important
         font-size: 18px!important

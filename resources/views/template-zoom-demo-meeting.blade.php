@@ -80,104 +80,97 @@
 
                 <div class="containElements">
 
+                    <div class="row">
 
-                    {{-- @if ( isset($zoomid) && $zoomid != null && $zoomid != '' )
 
-                    {!! do_shortcode( '[zoom_join_via_browser meeting_id="'.$zoomid.'" login_required="no" help="yes" title="Test" disable_countdown="yes" webinar="no"]' ) !!}
+                        <div class="parentBox col-md-12 col-lg-6">
+                            <div class="box">
 
-                    @else --}}
 
-                    <div class="contain1">
+                                <h3 class="title blackColor2">
+                                    Conecta ahora
+                                </h3>
+                                <div class="containerImage">
 
-                        <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/team/asesor.png') !!}" alt="">
 
-                            <img src="{!! App::setFilePath('/assets/images/logos/Zoom-Simbolo.png') !!}" alt="">
+                                </div>
+                                <a target="_blank" href="@php echo $zoomLink @endphp" class="primaryButton hoverInEffect">
+                                    Iniciar Zoom ya
+                                </a>
 
-                        </div>
-
-                        <div class="hor">
-                            <small style="margin-bottom: 15px">
-                                {{-- <strong style="padding-bottom: 15px">¡Conéctate en zoom ahora! Nuestros asesores están listos para atenderte</strong> --}}
-                                <strong style="padding-bottom: 10px">
-                                    ¡Conecta con nosotros! Nuestros asesores están listos para apoyarte
-                                </strong>
-                            </small>
-
-                            <div class="h">
-                                <small class="days">
-                                    <strong>Lunes a Viernes:</strong>
+                                <small class="colorGrey4">
+                                    El Zoom se cargará en unos segundos
                                 </small>
-                                <small class="times">
-                                    8:00am - 10:00pm. Miami / Chile <br class="space">
-                                    7:00am - 9:00pm. México / Colombia
-                                </small>
-                            </div>
-                            <div class="h">
-                                <small class="days">
-                                    <strong>Sábado:</strong>
-                                </small>
-                                <small class="times">
-                                    11:00am - 8:00pm. Miami / Chile <br class="space">
-                                    10:00am - 7:00pm. México / Colombia
-                                </small>
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-                    <div class="contain2 row">
-
-                        <div class="el1 col-md-12 col-lg-6">
-
-                            <small>
-                                El Zoom se está cargando. <br class="space"> Si no se abre en unos segundos, haz clic aquí:
-                            </small>
-
-                            <a target="_blank" href="@php echo $zoomLink @endphp" class="primaryButton hoverInEffect">
-                                Iniciar Zoom ahora
-                            </a>
-
-                        </div>
-                        <div class="el2 col-md-12 col-lg-6">
-
-                            <div class="containerImage">
-
-                                <img src="{!! App::setFilePath('/assets/images/icons/Vector2.png') !!}" alt="">
 
                             </div>
 
-                            <a class="thinButton hoverSecondaryButton hoverInEffect" href="@php echo $agendar @endphp">
-                            Agendar para otro momento
-                            </a>
+                            <div class="subContain">
 
+                                <div class="hor">
+                                    <small class="title" >
+
+                                        <strong>
+                                            Estamos disponibles:
+                                        </strong>
+
+                                    </small>
+
+                                    <div class="h">
+                                        <small class="days">
+                                            <strong>De Lunes a Viernes:</strong>
+                                        </small>
+                                        <small class="times">
+                                            8:00am - 10:00pm. Miami / Chile <br class="space">
+                                            7:00am - 9:00pm. México / Colombia
+                                        </small>
+                                    </div>
+                                    <div class="h">
+                                        <small class="days">
+                                            <strong>Sábados:</strong>
+                                        </small>
+                                        <small class="times">
+                                            11:00am - 8:00pm. Miami / Chile <br class="space">
+                                            10:00am - 7:00pm. México / Colombia
+                                        </small>
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
 
                         </div>
+                        <div class="parentBox col-md-12 col-lg-6">
+                            <div class="box">
+                                <h3 class="title blackColor2">
+                                    Agenda luego
+                                </h3>
+                                <div class="containerImage">
+
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/team/01_CRM.png') !!}" alt="">
+
+                                </div>
+                                <a class="thinButton hoverSecondaryButton hoverInEffect" href="@php echo $agendar @endphp">
+                                    Reservar mi espacio
+                                </a>
+                            </div>
+                            <div class="subContain">
+                                <a class="whatsappButton" target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" >
+                                    <img  class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
+                                    Chatear por WhatsApp
+                                </a>
+                            </div>
+                        </div>
+
 
                     </div>
 
-                    <div class="contain3">
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" >
-                            <img style="margin-right: 15px;" class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
-                            Prefiero chatear
-                        </a>
-                    </div>
 
 
                 </div>
             </section>
-
-            <div backco class="astroOverlay">
-
-                <div class="containerImage">
-
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/team/austronaut_jump.png') !!}" alt="">
-
-                </div>
-
-
-            </div>
 
         </div>
 
@@ -185,24 +178,21 @@
     </section>
 
 
+</div>
 
+
+<div class="backgroundOverlay">
+
+    <div class="containerImage">
+
+        <img src="{!! App::setFilePath('/assets/images/overlays/city.png') !!}" alt="">
+
+    </div>
 
 </div>
 
 
-<div style="background-image: url('{!! App::setFilePath('/assets/images/overlays/estrellas 2.png') !!}')" class="backgroundPlanets">
-</div>
-
-
-
-
-
-
 
 </div>
-
-
-
-
 
 @endsection
