@@ -181,7 +181,14 @@
 </div>
 
 
-<div style="background-image: url('{!! App::setFilePath('/assets/images/overlays/city.png') !!}')" class="backgroundOverlay">
+<div class="backgroundOverlay">
+
+    <div class="containerImage">
+
+        <img src="{!! App::setFilePath('/assets/images/overlays/city.png') !!}" alt="">
+
+    </div>
+
 </div>
 
 
