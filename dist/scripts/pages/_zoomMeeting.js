@@ -1,0 +1,1 @@
+import{_globalClass}from"./../classes/_global";jQuery(document).ready(function(){console.log("inicializado",_globalClass)});

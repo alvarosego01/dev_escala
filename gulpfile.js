@@ -94,14 +94,15 @@ gulp.task('js', () => {
   return gulp.src('./resources/assets/scripts/**/*.js')
     .pipe(watch('./resources/assets/scripts/**/*.js'))
     .pipe(plumber(
-      //{errorHandler: errorScripts};
+      // {errorHandler: errorScripts},
       function (error) {
         console.log(error);
         this.emit('end');
       }
     ))
-    // .pipe(uglify())
+    .pipe(uglify())
     .pipe(gulp.dest('./dist/scripts/'))
+    .pipe(browserSync.stream());
 });
 
 gulp.task('jsGeneral', (cb) => {
@@ -127,10 +128,7 @@ gulp.task('watch', () => {
 });
 
 
-
-
 gulp.task('online', gulp.series(gulp.parallel('SassJs', 'watch', 'browserSync-Server')));
-
 
 gulp.task('local', gulp.series(gulp.parallel('SassJs', 'watch', 'browserSync-Local')));
 
