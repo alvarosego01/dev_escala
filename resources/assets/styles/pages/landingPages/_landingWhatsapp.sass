@@ -5,8 +5,8 @@
     // height: 1200px
 
     @include responsivo(telefonoTable)
-            padding-bottom: 100px
-            padding-top: 200px
+        padding-bottom: 100px
+        padding-top: 200px
     @include responsivo(pcMedio)
         padding-bottom: 100px
         padding-top: 200px
@@ -29,12 +29,12 @@
         background-size: cover
         position: relative
         background-repeat: no-repeat
-        padding-top: 225px
+        padding-top: 300px
         @include responsivo(telefonoTable)
-            padding-top: 100px!important
+            padding-top: 175px!important
             padding-bottom: 50px!important
         @include responsivo(pcMedio)
-            padding-top: 175px!important
+            padding-top: 225px!important
             padding-bottom: 50px!important
         .backgroundPlanets
             background-position: 50px 125px
@@ -44,15 +44,18 @@
             transition: background 0.3s, border-radius 0.3s, opacity 0.3s
             height: 100%
             width: 100%
-            top: -10%
+            top: -2.5%
             left: 0
             position: absolute
             @include responsivo(telefonoTable)
-                background-position: 2.5% 2.5%
-                background-size: initial
+                background-position: 2.5% 15%
+                background-size: contain
             @include responsivo(pcMedio)
                 background-position: 8px 184px
                 background-size: 100% auto
+            @include responsivo(general)
+                top: 2%
+
 
     .innerSectionElement
         // display: none
@@ -70,9 +73,10 @@
                         margin-bottom: 50px
                         @include responsivo(telefonoTable)
                             font-size: 40px
+                            line-height: 42px
                         @include responsivo(pcMedio)
                             font-size: 50px
-                            line-height: normal
+                            line-height: 50px
                         // margin-bottom: 25px
                     .principalBigText
                         font-size: 20px
@@ -92,19 +96,17 @@
                         // position: relative
                         // left: -15%
                         img
-                            height: 300px!important
+                            height: 300px
                             // margin-top:
                             margin-left: 0
                     @include responsivo(telefonoTable)
-                        .principalBigTitle
-                            line-height: normal!important
                         .principalBigTitle,
                         .principalBigText
                             text-align: center!important
                         .containerImage
                             left: unset!important
                             img
-                                height: 300px
+                                height: 250px
                                 margin: 0 auto
                     @include responsivo(pcMedio)
                         .principalBigTitle,

@@ -20,7 +20,11 @@
                 width: 100%!important
                 max-width: 1140px!important
     .customSection.sectionParent.landingPageIncAm0
-        // padding-bottom: 50px!important
+        padding-top: 175px
+        @include responsivo(telefonoTable)
+            padding-top: 125px
+        @include responsivo(pcMedio)
+            padding-top: 150px
         h2.principalBigTitle
             font-weight: bold!important
             font-family: "Nunito",Sans-serif!important
