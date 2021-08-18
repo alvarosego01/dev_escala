@@ -122,10 +122,21 @@
                                         margin: 0
                                         margin-bottom: 7.5px
                                 small.times
+
                                     span
                                         margin-left: 10px
                                         margin-right: 10px
                                         font-weight: bold
+                                        @include responsivo(telefonoTable)
+                                            display: none
+                                        @include responsivo(pcMedio)
+                                            display: none
+                                    br
+                                        display: none
+                                        @include responsivo(telefonoTable)
+                                            display: block!important
+                                        @include responsivo(pcMedio)
+                                            display: block!important
 
 
         .zoomMeetingSection1

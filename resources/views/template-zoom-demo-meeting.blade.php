@@ -73,7 +73,7 @@ $agendar = ACF_CUSTOM::_getField('program_date');
                                         <strong>De Lunes a Viernes:</strong>
                                     </small>
                                     <small class="times">
-                                        8:00am - 10:00pm. <strong>Miami / Chile</strong> <span>|</span> 7:00am - 9:00pm.
+                                        8:00am - 10:00pm. <strong>Miami / Chile</strong> <span>|</span> <br /> 7:00am - 9:00pm.
                                         <strong>México / Colombia</strong>
                                     </small>
                                 </div>
@@ -82,7 +82,7 @@ $agendar = ACF_CUSTOM::_getField('program_date');
                                         <strong>Sábados:</strong>
                                     </small>
                                     <small class="times">
-                                        11:00am - 8:00pm. <strong>Miami / Chile</strong> <span>|</span> 10:00am - 7:00pm.
+                                        11:00am - 8:00pm. <strong>Miami / Chile</strong> <span>|</span> <br /> 10:00am - 7:00pm.
                                         <strong>México / Colombia</strong>
                                     </small>
                                 </div>
