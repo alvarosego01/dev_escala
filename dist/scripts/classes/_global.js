@@ -1,1 +1,0 @@
-class _globalClass{rangeWeek=["08:00","22:00"];rangeEndWeek=["11:00","20:00"];constructor(){}}export{_globalClass};

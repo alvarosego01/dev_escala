@@ -15,9 +15,22 @@ $agendar = ACF_CUSTOM::_getField('program_date');
 
 @if ($zoomLink != null && $zoomLink != '')
 
-    <script type="text/javascript">
+    @php
 
-    </script>
+    wp_localize_script(
+        '_zoomMeeting.js',
+        'dataPHP',
+        array(
+            'zoomLink' =>  $zoomLink,
+        )
+
+    );
+
+    @endphp
+
+    {{-- <script type="text/javascript">
+
+    </script> --}}
 
 @endif
 
