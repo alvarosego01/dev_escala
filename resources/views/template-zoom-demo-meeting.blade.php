@@ -166,7 +166,7 @@
                     <div class="subContain">
                         <a class="whatsappButton" target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" >
                             <img  class="whatsapp-icon"  src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
-                            Chatear por WhatsApp
+                            Chat por WhatsApp
                         </a>
                     </div>
 
