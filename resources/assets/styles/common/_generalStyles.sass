@@ -280,13 +280,12 @@ button
     align-self: center
     align-items: center
     width: fit-content
+    transition: all 0.2s ease-in-out
     img
         height: 35px
         margin-left: 15px
         position: relative
         bottom: 2.5px
-    &:hover
-        color: $colorOrange
     @include responsivo(telefonoTable)
         display: flex
         flex-direction: row-reverse
@@ -297,6 +296,9 @@ button
         flex-direction: row-reverse
         img
             margin: 15px
+    &:hover
+        color: $colorOrange!important
+
 
 .primaryButton
     display: inline-block
