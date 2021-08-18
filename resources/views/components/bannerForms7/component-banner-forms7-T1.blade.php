@@ -27,7 +27,7 @@
 
                       <div class="formatForm" redirectWeb="true">
 
-                        <h5 class="titleFormat blackcolor">{{ $textForm }}</h5>
+                        <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 
                         {{-- {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!} --}}
 

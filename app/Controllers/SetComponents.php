@@ -104,6 +104,7 @@ class SetComponents extends Controller
 
             "views/template-home.blade.php",
             "views/template-landing-incredible.blade.php",
+            "views/template-landing-incredible-demo.blade.php",
             "views/template-landing-whatsapp.blade.php",
             "views/template-landing-correos-masivos.blade.php",
             "views/template-landing-incredible-no-program.blade.php",
