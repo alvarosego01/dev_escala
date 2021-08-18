@@ -285,8 +285,6 @@ button
         margin-left: 15px
         position: relative
         bottom: 2.5px
-    &:hover
-        color: $colorOrange
     @include responsivo(telefonoTable)
         display: flex
         flex-direction: row-reverse
@@ -297,6 +295,8 @@ button
         flex-direction: row-reverse
         img
             margin: 15px
+    &:hover
+        color: $colorOrange!important
 
 .primaryButton
     display: inline-block
