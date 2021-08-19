@@ -64,7 +64,7 @@ gulp.task('browserSync-Server', () => {
 // C:\xampp2\htdocs\escala\wp-content\themes\oceanwp-child\resources\assets\styles
 
 gulp.task('sass', () => {
-  return gulp.src('./resources/assets/styles/main.sass')
+  return gulp.src('./resources/assets/styles/*.sass')
     .pipe(watch('./resources/assets/styles/**/*.sass'))
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
@@ -116,7 +116,7 @@ gulp.task('jsGeneral', (cb) => {
   );
 });
 
-gulp.task('SassJs', gulp.series(gulp.parallel('sassGeneral', 'js')));
+gulp.task('SassJs', gulp.series(gulp.parallel('sass', 'js')));
 
 
 gulp.task('watch', () => {
