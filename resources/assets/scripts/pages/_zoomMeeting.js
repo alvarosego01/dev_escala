@@ -1,5 +1,11 @@
 console.log('zoom meeting js');
 
+/*
+Por: Álvaro Segovia
+alvaro@escala.com
+*/
+
+var timer = null;
 
 function isInRange(value, range) {
     return value >= range[0] && value <= range[1];
@@ -24,6 +30,8 @@ function redirectTime() {
         }, 100);
 
     }
+    jQuery('#zoomBegin').attr('disabled', false);
+
 }
 
 function validateRangeHour(rang, time) {
@@ -47,6 +55,9 @@ function validateRangeHour(rang, time) {
 
     });
 
+    console.log('tiempo', t);
+    console.log('rango', rang);
+    console.log('retorna l', l);
     return l;
 
 
@@ -55,23 +66,39 @@ function validateRangeHour(rang, time) {
 
 }
 
-function disableButton() {
+function disableButton(valid) {
 
-    jQuery('#zoomBegin').attr('disabled', true);
+        console.log('disabled button');
+        jQuery('#zoomBegin').attr('disabled', true);
+        vigilantOpen();
 
 }
 
 
-jQuery(document).ready(function () {
+function vigilantOpen(){
 
+    if(timer != null){
+        clearInterval(timer);
+    }
 
+    timer = setInterval(function () {
+        // Invoke function every 10 minutes
+        console.log('Consult hour');
+
+        validateHour();
+
+    }, 600000);
+
+}
+
+function validateHour(){
 
     var rangeWeek = ['08:00', '22:00'];
     var rangeEndWeek = ['11:00', '20:00'];
     var options = {
         timeZone: 'America/New_york',
-        hour: 'numeric',
-        minute: 'numeric'
+        hour: '2-digit',
+        minute: '2-digit',
     };
 
     var d = new Date();
@@ -110,10 +137,7 @@ jQuery(document).ready(function () {
 
     } else {
 
-
         var l = validateRangeHour(rangeWeek, hora);
-
-
         if (l == true) {
 
             redirectTime();
@@ -125,5 +149,14 @@ jQuery(document).ready(function () {
         }
 
     }
+
+}
+
+jQuery(document).ready(function () {
+
+
+    validateHour();
+
+
 
 });
