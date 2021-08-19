@@ -17,7 +17,7 @@ $redirect = strval($redirect);
 @php
 
 wp_localize_script(
-    'main.js',
+    'sage/main.js',
     'dataPHP',
     array(
         'redirect' =>  $redirect,

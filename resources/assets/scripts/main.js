@@ -2,13 +2,20 @@
 
 jQuery(document).ready(function () {
 
-    if( typeof(dataPHP) !== 'undefined' ){
 
-        if ( dataPHP.redirect) {
+    // document.addEventListener('wpcf7mailfailed', function (e) {
 
-        var re = dataPHP.redirect;
-        // document.addEventListener( 'wpcf7mailsent', function( e ) {
-            document.addEventListener('wpcf7mailsent', function (e) {
+    //     console.log('redireccion', dataPHP.redirect);
+    // });
+
+
+    if (typeof (dataPHP) !== 'undefined') {
+
+        if (dataPHP.redirect) {
+
+            var re = dataPHP.redirect;
+            console.log('have redirect', re);
+                document.addEventListener('wpcf7mailsent', function (e) {
 
                 var l = e.path;
                 window.dataLayer.push({
@@ -17,26 +24,26 @@ jQuery(document).ready(function () {
                     "response": event.detail.inputs
                 });
 
-            if (jQuery(l[1]).attr('redirectWeb')) {
+                if (jQuery(l[1]).attr('redirectWeb')) {
 
-                var x = jQuery(l[1]).attr('redirectWeb');
+                    var x = jQuery(l[1]).attr('redirectWeb');
 
-                if (x == 'true') {
+                    if (x == 'true') {
 
-                    console.log('redirect', x);
-                    if (re && re != null && re != '') {
-                        window.location.replace(re);
+                        console.log('redirect', x);
+                        if (re && re != null && re != '') {
+                            window.location.replace(re);
+                        }
+
                     }
 
                 }
 
-            }
+            }, false);
 
-        }, false);
 
+        }
 
     }
-
-}
 
 });
