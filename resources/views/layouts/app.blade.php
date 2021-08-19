@@ -1,4 +1,7 @@
+
 @php
+
+
 $index_page = ACF_CUSTOM::_getField('index_page');
 
 $redirect = ACF_CUSTOM::_getField('cf7_redirect');
@@ -11,42 +14,18 @@ $redirect = strval($redirect);
 
 @if (isset($redirect) && $redirect != null)
 
-<script type="text/javascript">
+@php
 
-var re = "{{ $redirect }}";
-// document.addEventListener( 'wpcf7mailsent', function( e ) {
-document.addEventListener( 'wpcf7mailsent', function( e ) {
+wp_localize_script(
+    'sage/main.js',
+    'dataPHP',
+    array(
+        'redirect' =>  $redirect,
+    )
 
+);
 
-    var l = e.path;
-
-    window.dataLayer.push({
-     "event" : "cf7submission",
-     "formId" : event.detail.contactFormId,
-     "response" : event.detail.inputs
-     });
-
-     console.log('el path', l);
-    if( jQuery(l[1]).attr('redirectWeb') ){
-
-        var x = jQuery(l[1]).attr('redirectWeb');
-
-        if( x == 'true' ){
-
-            console.log('redirect', x);
-            if(re && re != null && re != ''){
-                window.location.replace("{{ $redirect }}");
-            }
-
-        }
-
-    }
-
-
-
-}, false );
-
-</script>
+@endphp
 
 @endif
 

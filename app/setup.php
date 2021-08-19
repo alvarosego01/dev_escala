@@ -33,12 +33,18 @@ add_action('wp_enqueue_scripts', function () {
         wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, null);
         wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
 
-        // wp_enqueue_style('sage/main.css', asset_path('/dist/styles/main.css'), false, null);
-        // wp_enqueue_script('sage/main.js', asset_path('/dist/scripts/main.js'), ['jquery'], null, true);
 
-        if (is_single() && comments_open() && get_option('thread_comments')) {
-            wp_enqueue_script('comment-reply');
+
+        if ( is_page_template("views/template-zoom-demo-meeting.blade.php") ) {
+
+            wp_enqueue_script('_zoomMeeting.js', asset_path('scripts/pages/_zoomMeeting.js'), ['jquery'], null, true);
+
         }
+
+
+        // if (is_single() && comments_open() && get_option('thread_comments')) {
+            // wp_enqueue_script('comment-reply');
+        // }
     } else {
 
         wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, null);
@@ -187,7 +193,7 @@ add_action('wp_enqueue_scripts', function () {
 
         wp_enqueue_style('sage/main.css', asset_path('/dist/styles/main.css'), false, null);
 
-        wp_enqueue_script('sage/main.js', asset_path('/dist/scripts/main.js'), ['jquery'], null, true);
+        // wp_enqueue_script('sage/_zoomMeeting.js', asset_path('scripts/pages/_zoomMeeting.js'), ['jquery'], null, true);
 
 
         wp_register_style('bootstrapCss', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');

@@ -87,7 +87,7 @@ br.space
         display: block
         box-sizing: border-box
         max-width: unset
-        width: auto!important
+        width: auto
         margin: 0 auto
     // margin: 0
 
@@ -150,6 +150,9 @@ br.space
 
 .blackColor
     color: $colorBlack
+
+.blackColor2
+    color: $colorBlack2
 
 .orangeColor
     color: $colorOrange
@@ -266,6 +269,39 @@ span.tag
 button
     border: 0
 
+a[disabled]
+    pointer-events: none
+    background-color: grey!important
+
+.whatsappButton
+    font-family: "Nunito Sans",Sans-serif
+    font-size: 20px
+    font-weight: 500
+    text-decoration: none
+    color: $colorGrey4
+    display: flex
+    align-self: center
+    align-items: center
+    width: fit-content
+    transition: all 0.2s ease-in-out
+    img
+        height: 35px
+        margin-left: 15px
+        position: relative
+        bottom: 2.5px
+    @include responsivo(telefonoTable)
+        display: flex
+        flex-direction: row-reverse
+        img
+            margin: 15px
+    @include responsivo(pcMedio)
+        display: flex
+        flex-direction: row-reverse
+        img
+            margin: 15px
+    &:hover
+        color: $colorOrange!important
+
 .primaryButton
     display: inline-block
     line-height: 1
@@ -280,6 +316,7 @@ button
     width: fit-content
     transition: $transitionButton
     transform: scale(1)
+    font-family: "Nunito Sans",Sans-serif
     @include responsivo(telefonoTable)
         padding: 10px 20px!important
         font-size: 18px!important
@@ -306,16 +343,17 @@ button
     width: fit-content
     transition: $transitionButton
     transform: scale(1)
+    font-family: "Nunito Sans",Sans-serif
     @include responsivo(telefonoTable)
-        padding: 10px 20px!important
-        font-size: 18px!important
+        padding: 10px 20px
+        font-size: 18px
     @include responsivo(pcMedio)
-        // padding: 10px 20px!important
-        padding: 15px 30px 15px 30px!important
-        font-size: 18px!important
+        // padding: 10px 20px
+        padding: 15px 30px 15px 30px
+        font-size: 18px
     @include responsivo(general)
-        padding: 14px 40px 14px 40px!important
-        font-size: 18px!important
+        padding: 14px 40px 14px 40px
+        font-size: 18px
 
 .secondaryButton
     font-family: "Nunito Sans",Sans-serif
@@ -352,6 +390,11 @@ button
     &:hover
         transform: scale(1.1)
         color: white
+
+.hoverInEffect.thinButton
+    &:hover
+        transform: scale(1.1)
+        // color: white
 
 
 .wpcf7-form-control.wpcf7-submit

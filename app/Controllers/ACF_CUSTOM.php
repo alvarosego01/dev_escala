@@ -45,6 +45,14 @@ class ACF_CUSTOM extends Controller
             array (
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' => "views/template-landing-incredible-demo.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
                 'value' => "views/template-landing-whatsapp.blade.php",
             ),
 

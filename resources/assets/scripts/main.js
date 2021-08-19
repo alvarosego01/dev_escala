@@ -1,40 +1,49 @@
-// // import external dependencies
-// import 'jquery';
-
-// // Import everything from autoload
-// import './autoload/**/*'
-
-// // import local dependencies
-// import Router from './util/Router';
-// import common from './routes/common';
-// import home from './routes/home';
-// import aboutUs from './routes/about';
-
-// /** Populate Router instance with DOM routes */
-// const routes = new Router({
-//   // All pages
-//   common,
-//   // Home page
-//   home,
-//   // About Us page, note the change from about-us to aboutUs.
-//   aboutUs,
-// });
-
-// // Load Events
-// jQuery(document).ready(() => routes.loadEvents());
 
 
-// console.log('se instancia todo');
+jQuery(document).ready(function () {
 
-// jQuery(".goToHash").click(function () {
-//   // e.preventDefault();
 
-//   if(jQuery(window.location.hash).length > 0){
+    // document.addEventListener('wpcf7mailfailed', function (e) {
 
-//     console.log('se dispara');
-//     jQuery('html, body').animate({ scrollTop: jQuery(window.location.hash).offset().top - 250+'px'}, 500);
+    //     console.log('redireccion', dataPHP.redirect);
+    // });
 
-//   }
 
-// });
+    if (typeof (dataPHP) !== 'undefined') {
 
+        if (dataPHP.redirect) {
+
+            var re = dataPHP.redirect;
+            console.log('have redirect', re);
+                document.addEventListener('wpcf7mailsent', function (e) {
+
+                var l = e.path;
+                window.dataLayer.push({
+                    "event": "cf7submission",
+                    "formId": event.detail.contactFormId,
+                    "response": event.detail.inputs
+                });
+
+                if (jQuery(l[1]).attr('redirectWeb')) {
+
+                    var x = jQuery(l[1]).attr('redirectWeb');
+
+                    if (x == 'true') {
+
+                        console.log('redirect', x);
+                        if (re && re != null && re != '') {
+                            window.location.replace(re);
+                        }
+
+                    }
+
+                }
+
+            }, false);
+
+
+        }
+
+    }
+
+});

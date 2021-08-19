@@ -24,9 +24,7 @@
      'classSection' => 'threeCol funcAnnounceDigital0 func',
      'title' => '<span class="greenBlueColor">Atrae visitantes</span> <br> como un imán',
      'text' => 'Crea, publica y administra tus <br> campañas de anuncios digitales, <br> desde una sola plataforma.',
-     'textForm' => 'Empieza a probar Escala
-     <br style="display: block!important">
-     <span style="text-align: center; width: 100%; font-weight: 500" class="colorDarkGrey2">Sin tarjeta requerida</span>',
+     'textForm' => 'Empieza a probar Escala',
      'threeCol' => true,
      'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
   'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas 2.png'),
