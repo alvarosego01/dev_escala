@@ -25,17 +25,45 @@ add_action('wp_enqueue_scripts', function () {
 
     // acá se añaden los templates que usarán bootstrap
 
-    $bootstrapPages = SetComponents::setTemplates();
+    $bootstrapPages = SetComponents::setTemplates('all');
 
     if (is_page_template($bootstrapPages)) {
 
+        $t = null;
         // styles
         // generals
         wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, null);
-        // wp_enqueue_style('components.css', asset_path('styles/components/componentsMain.css'), false, null);
-        // per pages
+        wp_enqueue_style('components.css', asset_path('styles/components/componentsMain.css'), false, null);
+        // per type pages
+
+        $t = SetComponents::setTemplates('singles');
+        if (is_page_template($t)) {
+            wp_enqueue_style('home.css', asset_path('styles/pages/home.css'), false, null);
+            wp_enqueue_style('escalaFex.css', asset_path('styles/pages/escalaFex.css'), false, null);
+        }
+        $t = SetComponents::setTemplates('landings');
+        if (is_page_template($t)) {
+            wp_enqueue_style('landingPages.css', asset_path('styles/pages/landingPages/landingPagesMain.css'), false, null);
+        }
+        $t = SetComponents::setTemplates('func');
+        if (is_page_template($t)) {
+            wp_enqueue_style('func.css', asset_path('styles/pages/func/funcMain.css'), false, null);
+        }
+        $t = SetComponents::setTemplates('blog');
+        if (is_page_template($t)) {
+            wp_enqueue_style('blog.css', asset_path('styles/pages/blog/blogMain.css'), false, null);
+        }
+        $t = SetComponents::setTemplates('zoom');
+        if (is_page_template($t)) {
+            wp_enqueue_style('zoom.css', asset_path('styles/pages/zoom/zoomMain.css'), false, null);
+        }
+        $t = SetComponents::setTemplates('webinar');
+        if (is_page_template($t)) {
+            wp_enqueue_style('webina.css', asset_path('styles/pages/webinar/webinarMain.css'), false, null);
+        }
 
 
+        //------------------------------------------------------------------------------
 
         if ( is_page_template("views/template-zoom-demo-meeting.blade.php") ) {
 
