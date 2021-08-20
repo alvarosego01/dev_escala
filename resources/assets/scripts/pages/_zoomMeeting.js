@@ -95,11 +95,16 @@ function validateHour(){
 
     var rangeWeek = ['08:00', '22:00'];
     var rangeEndWeek = ['11:00', '20:00'];
+
     var options = {
         timeZone: 'America/New_york',
         hour: '2-digit',
         minute: '2-digit',
+        timeZoneName: 'short'
     };
+
+    formatter = new Intl.DateTimeFormat([], options);
+    var hora = formatter.format(new Date());
 
     var d = new Date();
     var weekday = [
@@ -112,9 +117,6 @@ function validateHour(){
         "Saturday"
     ]
     var day = weekday[d.getDay()];
-
-    formatter = new Intl.DateTimeFormat([], options);
-    var hora = formatter.format(new Date());
 
     if (day == 'Sunday') {
 
