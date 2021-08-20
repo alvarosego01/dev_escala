@@ -25,21 +25,65 @@ add_action('wp_enqueue_scripts', function () {
 
     // acá se añaden los templates que usarán bootstrap
 
-    $bootstrapPages = SetComponents::setTemplates();
+    $bootstrapPages = SetComponents::setTemplates('all');
 
     if (is_page_template($bootstrapPages)) {
 
+        $t = null;
+        // styles
 
+        // bootstrap
+        wp_register_style('bootstrapCss', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
+        wp_enqueue_style('bootstrapCss');
+
+        wp_register_script('bootstrapJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/bootstrap.min.js', array('jquery'), rand(), 'all');
+        wp_enqueue_script('bootstrapJs');
+
+        wp_register_script('popperJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/popper.min.js', array('jquery'), rand(), 'all');
+        wp_enqueue_script('popperJs');
+
+        // generals
         wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, null);
-        wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
+        wp_enqueue_style('components.css', asset_path('styles/components/componentsMain.css'), false, null);
+        // per type pages
+
+        $t = SetComponents::setTemplates('singles');
+        if (is_page_template($t)) {
+            wp_enqueue_style('home.css', asset_path('styles/pages/home.css'), false, null);
+            wp_enqueue_style('escalaFex.css', asset_path('styles/pages/escalaFex.css'), false, null);
+        }
+        $t = SetComponents::setTemplates('landings');
+        if (is_page_template($t)) {
+            wp_enqueue_style('landingPages.css', asset_path('styles/pages/landingPages/landingPagesMain.css'), false, null);
+        }
+        $t = SetComponents::setTemplates('func');
+        if (is_page_template($t)) {
+            wp_enqueue_style('func.css', asset_path('styles/pages/func/funcMain.css'), false, null);
+        }
+        $t = SetComponents::setTemplates('blog');
+        if (is_page_template($t)) {
+            wp_enqueue_style('blog.css', asset_path('styles/pages/blog/blogMain.css'), false, null);
+        }
+        $t = SetComponents::setTemplates('zoom');
+        if (is_page_template($t)) {
+            wp_enqueue_style('zoom.css', asset_path('styles/pages/zoom/zoomMain.css'), false, null);
+        }
+        $t = SetComponents::setTemplates('webinar');
+        if (is_page_template($t)) {
+            wp_enqueue_style('webina.css', asset_path('styles/pages/webinar/webinarMain.css'), false, null);
+        }
 
 
+        //------------------------------------------------------------------------------
 
         if ( is_page_template("views/template-zoom-demo-meeting.blade.php") ) {
 
             wp_enqueue_script('_zoomMeeting.js', asset_path('scripts/pages/_zoomMeeting.js'), ['jquery'], null, true);
 
         }
+          // jvascripts
+        wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
+
 
 
         // if (is_single() && comments_open() && get_option('thread_comments')) {
@@ -180,40 +224,40 @@ add_action('wp_enqueue_scripts', function () {
 
 // estilos
 
-add_action('wp_enqueue_scripts', function () {
+// add_action('wp_enqueue_scripts', function () {
 
-    $bootstrapPages = SetComponents::setTemplates();
+//     $bootstrapPages = SetComponents::setTemplates();
 
-    if (is_page_template($bootstrapPages)) {
-
-
-        // wp_register_style('nunitoFonts', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
-        // wp_enqueue_style('nunitoFonts');
+//     if (is_page_template($bootstrapPages)) {
 
 
-        wp_enqueue_style('sage/main.css', asset_path('/dist/styles/main.css'), false, null);
-
-        // wp_enqueue_script('sage/_zoomMeeting.js', asset_path('scripts/pages/_zoomMeeting.js'), ['jquery'], null, true);
-
-
-        wp_register_style('bootstrapCss', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
-        wp_enqueue_style('bootstrapCss');
+//         // wp_register_style('nunitoFonts', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
+//         // wp_enqueue_style('nunitoFonts');
 
 
+//         wp_enqueue_style('sage/main.css', asset_path('/dist/styles/main.css'), false, null);
+
+//         // wp_enqueue_script('sage/_zoomMeeting.js', asset_path('scripts/pages/_zoomMeeting.js'), ['jquery'], null, true);
 
 
-        wp_register_script('bootstrapJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/bootstrap.min.js', array('jquery'), rand(), 'all');
-        wp_enqueue_script('bootstrapJs');
+//         wp_register_style('bootstrapCss', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
+//         wp_enqueue_style('bootstrapCss');
 
-        // // wp_register_script('popperJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/popper.min.js', array('jquery'), rand(), 'all');
-        // // wp_enqueue_script('popperJs');
 
-    } else {
 
-        // estilos viejos
-        wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, null);
-    }
-}, 100);
+
+//         wp_register_script('bootstrapJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/bootstrap.min.js', array('jquery'), rand(), 'all');
+//         wp_enqueue_script('bootstrapJs');
+
+//         // // wp_register_script('popperJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/popper.min.js', array('jquery'), rand(), 'all');
+//         // // wp_enqueue_script('popperJs');
+
+//     } else {
+
+//         // estilos viejos
+//         wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, null);
+//     }
+// }, 100);
 
 
 

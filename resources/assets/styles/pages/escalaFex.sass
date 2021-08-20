@@ -1,137 +1,95 @@
 
+@import "../common/global"
 
 
-#landingWhatsapp .customSection.sectionParent.landingWhatsapp0
+
+#EscalaFex-bootstrap
+    p
+        font-family: "Nunito Sans",Sans-serif
+
+.customSection.sectionParent.escalaFexSection0
+    background-color: $colorBlueLight
+    padding-bottom: 187px
+    margin-bottom: 200px
     // height: 1200px
-
-    @include responsivo(telefonoTable)
-        padding-bottom: 100px
-        padding-top: 200px
-    @include responsivo(pcMedio)
-        padding-bottom: 100px
-        padding-top: 200px
     .section-row
-        @include responsivo(telefonoTable)
-            width: 95%
-        @include responsivo(pcMedio)
-            width: 90%
-        @include responsivo(general)
-            width: 100%!important
-            max-width: 1140px!important
-        @include responsivo(resto)
-            width: 100%!important
-            max-width: 1140px!important
-
-
+        // height: 750px
 
     .backgroundFull
         background-position: 0px -199px
         background-size: cover
         position: relative
         background-repeat: no-repeat
-        padding-top: 300px
+        padding-top: 200px
         @include responsivo(telefonoTable)
-            padding-top: 175px!important
+            padding-top: 100px!important
             padding-bottom: 50px!important
         @include responsivo(pcMedio)
-            padding-top: 225px!important
+            padding-top: 175px!important
             padding-bottom: 50px!important
         .backgroundPlanets
-            background-position: 50px 125px
+            background-position: 91px 57px
             background-repeat: no-repeat
             background-size: 90% auto
             opacity: 1
             transition: background 0.3s, border-radius 0.3s, opacity 0.3s
             height: 100%
             width: 100%
-            top: -2.5%
+            top: -10%
             left: 0
             position: absolute
             @include responsivo(telefonoTable)
-                background-position: 2.5% 15%
-                background-size: contain
+                background-position: 2.5% 2.5%
+                background-size: initial
             @include responsivo(pcMedio)
                 background-position: 8px 184px
                 background-size: 100% auto
-            @include responsivo(general)
-                top: 2%
-
 
     .innerSectionElement
         // display: none
         // z-index: 1
         .groupElements
             .info
+                @include responsivo(telefonoTable)
+                    padding-bottom: 192px
+                @include responsivo(pcMedio)
+                    padding-bottom: 192px
                 .containElements
-                    .principalBigTitle
-                        // font-size: 50px
-                        // line-height:
-                        font-size: 45px
-                        line-height: 50px
-                        font-weight: 700
-                        font-family: "Nunito",Sans-serif
-                        margin-bottom: 50px
-                        @include responsivo(telefonoTable)
-                            font-size: 40px
-                            line-height: 42px
-                        @include responsivo(pcMedio)
-                            font-size: 50px
-                            line-height: 50px
-                        // margin-bottom: 25px
-                    .principalBigText
-                        font-size: 20px
-                        line-height: 28px
-                        font-weight: 400
-                        color: $colorBlack
-                        @include responsivo(telefonoTable)
-                            font-size: 20px!important
-                        @include responsivo(pcMedio)
-                            font-size: 20px!important
-                        @include responsivo(general)
-                            width: 50vw!important
-                        @include responsivo(resto)
-                            width: 700px!important
-                        margin-bottom: 40px
+                    position: relative
                     .containerImage
-                        // position: relative
-                        // left: -15%
-                        img
-                            height: 300px
-                            // margin-top:
-                            margin-left: 0
+                        position: absolute
+                    img
+                        height: 415px
                     @include responsivo(telefonoTable)
+                        // display: none
+                        img
+                            height: 225px!important
                         .principalBigTitle,
-                        .principalBigText
-                            text-align: center!important
+                        .principalBigText,
                         .containerImage
-                            left: unset!important
-                            img
-                                height: 250px
-                                margin: 0 auto
+                            text-align: center!important
                     @include responsivo(pcMedio)
+                        img
+                            height: 320px
                         .principalBigTitle,
-                        .principalBigText
+                        .principalBigText,
+                        .containerImage
                             text-align: center!important
-                        .containerImage
-                            left: unset!important
-                            img
-                                height: 350px
-                                margin: 0 auto
-                    @include responsivo(general)
-                        .containerImage
-                            img
-                                height: 350px
             .form7
                 padding: 0px 50px 0px 100px
                 @include responsivo(telefonoTable)
                     padding: 0!important
+                    .formatForm
+                        padding-top: 40px
                 @include responsivo(pcMedio)
+                    .formatForm
+                        padding-top: 40px
                     padding: 0 5%!important
 
 
 
 
-#landingWhatsapp .customSection.sectionParent.landingWhatsapp1
+.customSection.sectionParent.escalaFexSection1
     .innerSectionElement.sct1
         .containElements
             .primaryTitle,
@@ -142,44 +100,27 @@
         .containElements
             padding: 10px
             .elements
-                padding: 0 30pxs
                 .containerImage
                     img
 
-                        height: 150px
+                        height: 200px
                         // display: none
                         margin: 0 auto
                 .secondaryTitle
-                    text-align: center
-                    font-size: 20px
-                    font-weight: 700
-                p.desc
-                    color: #5B5B5B
-                    font-family: "Nunito Sans",Sans-serif
-                    font-size: 16px
-                    font-weight: 400
-                    line-height: 1.5em
                     text-align: center
                 @include responsivo(telefonoTable)
                     .containerImage
                         img
                             // display: none
-                            height: 100vw!important
+                            height: 50vw!important
                             max-height: 220px!important
                 @include responsivo(pcMedio)
                     .containerImage
                         img
-                            height: 125px!important
+                            height: 175px!important
 
 
-#landingWhatsapp .customSection.sectionParent.landingWhatsapp2
-    .section-row
-        @include responsivo(general)
-            width: 100%!important
-            max-width: 1240px!important
-        @include responsivo(resto)
-            width: 100%!important
-            max-width: 1300px!important
+.customSection.sectionParent.escalaFexSection2
     .innerSectionElement.sct1
         margin-bottom: 50px
         .containElements
@@ -225,7 +166,7 @@
 
 
 
-#landingWhatsapp .customSection.sectionParent.landingWhatsapp3
+.customSection.sectionParent.escalaFexSection3
     padding-bottom: 60px
     @include responsivo(telefonoTable)
         margin-bottom: 25px
@@ -278,7 +219,7 @@
                     width: fit-content
 
 
-#landingWhatsapp .customSection.sectionParent.landingWhatsapp4
+.customSection.sectionParent.escalaFexSection4
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -336,10 +277,11 @@
 
                 // display: block
 
-#landingWhatsapp .customSection.sectionParent.landingWhatsapp5
+.customSection.sectionParent.escalaFexSection5
     background-color: $colorBlueLight
     padding-bottom: 0
     padding-top: 50px
+    // .section-row
     .innerSectionElement.sct1
         .groupElements
             .info
@@ -382,7 +324,7 @@
                     padding-bottom: 0
                     margin-bottom: 0
                     img
-                        height: 500px
+                        height: 230px
                         margin-left: auto!important
                         // margin-right:
                         margin-right: 0
@@ -404,7 +346,7 @@
 
 
 
-#landingWhatsapp .customSection.sectionParent.landingWhatsapp6
+.customSection.sectionParent.escalaFexSection6
     padding-top: 60px
     .innerSectionElement.sct1
         margin-bottom: 50px
@@ -520,36 +462,3 @@
                                 text-align: center!important
                                 width: 100%!important
         // margin: 50px 0
-
-
-
-body.template-open-webinar-escala-meeting header .elementor-container.elementor-column-gap-default
-    @include responsivo(telefonoTable)
-        width: 100%
-    @include responsivo(pcMedio)
-        width: 100%
-
-
-
-#webinarMeeting-Bootstrap
-    padding: 175px 0
-    padding-bottom: 150px
-
-    @include responsivo(telefonoTable)
-        padding-bottom: 100px
-        padding-top: 100px
-    @include responsivo(pcMedio)
-        padding-bottom: 100px
-        padding-top: 150px
-    .backgroundPlanets
-        background-position: 50px 180px
-        background-repeat: no-repeat
-        background-size: 100% auto
-        @include responsivo(telefonoTable)
-            top: 0
-            background-position: 8px 100px
-            background-size: 100% auto
-        @include responsivo(pcMedio)
-            background-position: 8px 150px
-            background-size: 100% auto
-            top: 0
