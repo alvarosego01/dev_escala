@@ -395,7 +395,7 @@
               </div>
 
               <div class="containerElements">
-                <h3 class="commonTitle blackColor">Toda las herramientas <br> en un solo lugar</h3>
+                <h3 class="commonTitle blackColor">Todas las herramientas <br> en un solo lugar</h3>
                 <p class="primaryText grayColorTexts">Desde un page builder muy intuitivo hasta el CRM más simple de gestionar</p>
 
               </div>
@@ -522,7 +522,7 @@
               <div class="containElements">
                 <div class="containInfo">
                   <h3 class="commonTitle blackColor">Agencia de Publicidad</h3>
-                  <span class="tag greenBlueColor">El salvador</span>
+                  <span class="tag greenBlueColor">El Salvador</span>
                   <p class="commonText grayColorTexts"><strong>Escala</strong> tiene el email builder más amigable que he utilizado en los últimos años, y su equipo está comprometido a mantener la plataforma en constante actualización en el dinámico mundo digital.</p>
                 </div>
                 <div class="referElements">

@@ -185,7 +185,7 @@ Antes de publicar, podrás revisar fácilmente cada versión para <br> previsual
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/team/dominio.png'),
   'title' => '<span class="greenBlueColor">¿No tienes dominio?</span> <br> ¡Tranquilo! Te damos uno',
-  'text' => 'Si aún no tienes dominio propio o prefieres generar uno diferente para <br> tus distintas landing pages, Eescala te genera uno propio en segundos!
+  'text' => 'Si aún no tienes dominio propio o prefieres generar uno diferente para <br> tus distintas landing pages, Escala te genera uno propio en segundos!
 <br class="space"><br class="space">
 <strong class="greenBlueColor">¿Ya tienes un dominio propio?</strong> <br class="space">
 Conéctalo a Escala rápidamente con un click. Si lo deseas, se conectará <br> también con tu CRM y campañas digitales.',

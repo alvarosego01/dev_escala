@@ -179,7 +179,7 @@ Con las métricas de Escala, tu gerente de ventas tendrá la visibilidad que <br
   'title' => '<span class="greenBlueColor">De 0 a 100</span> ¿Cuán saludable está tu negocio en general?',
   'text' => 'Como dueño de empresa obtén reportes amigables que te permitan <br> diagnosticar la salud de tu negocio. Responde preguntas como: <br>
 ¿Cuánto han aumentado tus ventas en comparación el trimestre pasado? <br> ¿Qué embudo ha traido el mayor retorno de inversión? <br>
-¿Qué producto ha contribuido más al crecimiento de la emrpesa?
+¿Qué producto ha contribuido más al crecimiento de la empresa?
 <br class="space"><br class="space">
 Logra que Escala se convierta en uno de tus mejores aliados estratégicos.',
   'enableButton' => false,

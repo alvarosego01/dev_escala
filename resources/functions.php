@@ -92,3 +92,10 @@ Container::getInstance()
     }, true);
 
 
+$theme = wp_get_theme();
+define('THEME_VERSION', $theme->Version);
+
+
+define( 'CHILD_DIR', get_theme_file_path() );
+
+
