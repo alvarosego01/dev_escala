@@ -24,7 +24,7 @@
   'title' => '<span class="greenBlueColor">Crea landing pages</span> <br> increíbles',
   'text' => null,
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0102.png',
-  'textForm' => 'Recibe un Demo <br class="space"> personalizado',
+  'textForm' => '¡Comienza ahora!',
  ) ;
 @endphp
 
