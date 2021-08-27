@@ -8,30 +8,32 @@
         background-size: cover
         position: relative
         background-repeat: no-repeat
-        padding-top: 200px
+        padding-top: 125px
         @include responsivo(telefonoTable)
-            padding-top: 150px!important
-            padding-bottom: 50px!important
+            padding-top: 75px
+            padding-bottom: 50px
         @include responsivo(pcMedio)
-            padding-top: 150!important
-            padding-bottom: 50px!important
-        .backgroundPlanets
-            background-position: 50px 200px
-            background-repeat: no-repeat
+            padding-top: 100px
+            padding-bottom: 50px
+    .backgroundPlanets
+        background-position: center 0%
+        background-repeat: no-repeat
+        background-size: 90% auto
+        opacity: 1
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s
+        height: 100%
+        width: 100%
+        top: 0
+        left: 0
+        position: absolute
+        @include responsivo(telefonoTable)
+            background-position: center 2.5%
             background-size: 100% auto
-            opacity: 1
-            transition: background 0.3s, border-radius 0.3s, opacity 0.3s
-            height: 100%
-            width: 100%
-            top: -10%
-            left: 0
-            position: absolute
-            @include responsivo(telefonoTable)
-                background-position: 2.5% 2.5%
-                background-size: initial
-            @include responsivo(pcMedio)
-                background-position: 8px 184px
-                background-size: 100% auto
+            top: 0
+        @include responsivo(pcMedio)
+            background-position: center 2.5%
+            background-size: 100% auto
+            top: 0
 
     .innerSectionElement
         // display: none
@@ -65,12 +67,12 @@
 
 
 .customSection.sectionParent.component-header-t1.bg-color
-    padding-top: 200px
+    padding-top: 125px
     @include responsivo(telefonoTable)
-        padding-top: 150px
+        padding-top: 75px
         padding-bottom: 50px
     @include responsivo(pcMedio)
-        padding-top: 175px
+        padding-top: 100px
         padding-bottom: 50px
     // .section-row
     .innerSectionElement

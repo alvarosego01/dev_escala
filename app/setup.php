@@ -69,7 +69,7 @@ add_action('wp_enqueue_scripts', function () {
         }
         $t = SetComponents::setTemplates('webinar');
         if (is_page_template($t)) {
-            wp_enqueue_style('webina.css', asset_path('styles/pages/webinar/webinarMain.css'), false, THEME_VERSION);
+            wp_enqueue_style('webinarMain.css', asset_path('styles/pages/webinar/webinarMain.css'), false, THEME_VERSION);
         }
 
 
@@ -92,6 +92,11 @@ add_action('wp_enqueue_scripts', function () {
 
         wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, THEME_VERSION);
     }
+
+
+    wp_enqueue_script('global.js', asset_path('scripts/global.js'), ['jquery'], THEME_VERSION, true);
+
+
 }, 100);
 
 /**

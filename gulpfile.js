@@ -4,7 +4,7 @@
 const browserSync = require('browser-sync').create(),
   reload = browserSync.reload,
   gulp = require('gulp'),
-  autoprefixer = require('gulp-autoprefixer'),
+  // autoprefixer = require('gulp-autoprefixer'),
   sass = require('gulp-dart-sass'),
   sourcemaps = require('gulp-sourcemaps'),
   csso = require('gulp-csso'),
@@ -13,6 +13,8 @@ const browserSync = require('browser-sync').create(),
   concat = require('gulp-concat'),
   plumber = require('gulp-plumber'),
   scp = require('gulp-scp2'),
+  autoprefixer = require('autoprefixer'),
+  postcss = require('gulp-postcss'),
   watch = require('gulp-watch');
 var i;
 // browser-sync task for starting the server.
@@ -69,9 +71,7 @@ gulp.task('sass', () => {
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write())
-    .pipe(autoprefixer({
-      browsers: ['last 10 versions']
-    }))
+    .pipe(postcss([ autoprefixer() ]))
     .pipe(csso())
     .pipe(gulp.dest('./dist/styles'))
     .pipe(browserSync.stream());
@@ -82,9 +82,7 @@ gulp.task('sassGeneral', () => {
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write())
-    .pipe(autoprefixer({
-      browsers: ['last 10 versions']
-    }))
+    .pipe(postcss([ autoprefixer() ]))
     .pipe(csso())
     .pipe(gulp.dest('./dist/styles'))
     .pipe(browserSync.stream());

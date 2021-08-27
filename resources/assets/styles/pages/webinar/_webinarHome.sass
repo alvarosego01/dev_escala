@@ -1,25 +1,22 @@
 
 
-#openWebinar-bootstrap
-
+#openWebinar-Bootstrap
     h1,
     h2,
     h3
         font-family: "Nunito",Sans-serif!important
-    // span
-    // p,
+
 
     .customSection.sectionParent.openWebinarSection0
-        padding-top: 250px
-        padding-bottom: 0
         background-color: $colorBlueLight
-        // padding: 175px 0!important
+        padding-bottom: 0
+        padding-top: 150px
         @include responsivo(telefonoTable)
-            padding-bottom: 100px
-            padding-top: 200px
+            padding-top: 75px
+            padding-bottom: 50px
         @include responsivo(pcMedio)
-            padding-bottom: 100px
-            padding-top: 200px
+            padding-top: 100px
+            padding-bottom: 50px
         .section-row
             @include responsivo(telefonoTable)
                 width: 95%
@@ -108,22 +105,21 @@
                                         span.wpcf7-list-item-label
                                             color: $colorOrange
         .backgroundPlanets
+            background-position: center 5%
+            background-repeat: no-repeat
+            background-size: 100% auto
             opacity: 1
             transition: background 0.3s, border-radius 0.3s, opacity 0.3s
             height: 100%
-            width: auto
+            width: 100%
             top: 0
             left: 0
-            right: 0
             position: absolute
-            background-position: 50px 150px
-            background-repeat: no-repeat
-            background-size: 100% auto
             @include responsivo(telefonoTable)
-                top: 0
-                background-position: 8px 125px
+                background-position: center 2.5%
                 background-size: 100% auto
+                top: 0
             @include responsivo(pcMedio)
-                background-position: 8px 125px
+                background-position: center 2.5%
                 background-size: 100% auto
                 top: 0

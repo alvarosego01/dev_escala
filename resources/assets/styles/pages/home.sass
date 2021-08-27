@@ -2,16 +2,15 @@
 @import "../common/global"
 
 #homeBootstrap .customSection.sectionParent.homeSection0
-    padding-top: 225px
-    padding-bottom: 0
     background-color: $colorBlueLight
-    // padding: 175px 0!important
+    padding-top: 125px
+    padding-bottom: 0
     @include responsivo(telefonoTable)
         padding-bottom: 50px
-        padding-top: 125px
+        padding-top: 75px
     @include responsivo(pcMedio)
         padding-bottom: 50px
-        padding-top: 150px
+        padding-top: 100px
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -163,25 +162,23 @@
                             height: 75px!important
 
     .backgroundPlanets
-        background-position: -50px 175px
+        background-position: center 0
         background-repeat: no-repeat
-        background-size: 100% auto
+        background-size: 90% auto
         opacity: 1
         transition: background 0.3s, border-radius 0.3s, opacity 0.3s
         height: 100%
         width: 100%
-        top: -5%
+        top: 0
         left: 0
         right: 0
         position: absolute
         @include responsivo(telefonoTable)
-            // background-position: 2.5% 2.5%
-            // background-size: initial
             top: 0
-            background-position: 8px 75px
+            // background-position: center 2.5%
             background-size: 100% auto
         @include responsivo(pcMedio)
-            background-position: 8px 100px
+            // background-position: center 2.5%
             background-size: 100% auto
             top: 0
 

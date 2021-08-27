@@ -18,9 +18,7 @@
     }
   ],
   "browserslist": [
-    "last 2 versions",
-    "android 4",
-    "opera 12"
+    "last 10 versions"
   ],
   "scripts": {
     "build": "webpack --progress --config resources/assets/build/webpack.config.js",
@@ -37,7 +35,7 @@
     "node": ">= 8.0.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.0.1",
+    "autoprefixer": "^9.0.0",
     "browser-sync": "^2.26.13",
     "browsersync-webpack-plugin": "^0.6.0",
     "bs-html-injector": "~3.0",
@@ -85,6 +83,7 @@
     "gulp-csso": "^3.0.1",
     "gulp-dart-sass": "^0.9.1",
     "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-scp2": "^0.2.0",
     "gulp-sourcemaps": "^2.6.4",
@@ -93,6 +92,7 @@
     "gulp-watch": "^5.0.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.16.1",
+    "postcss-cli": "^8.3.1",
     "pump": "^3.0.0"
   },
   "resolutions": {
