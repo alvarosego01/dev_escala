@@ -104,7 +104,7 @@ br.space
     background-position: center
     background-size: cover
     background-repeat: none
-    padding: 50px 0px 50px 0px
+    padding: 75px 0
     // padding-bottom: 60px
     @include responsivo(telefonoTable)
         padding: 30px 0!important
@@ -132,7 +132,7 @@ br.space
     margin: 0 auto
     // padding: 30px 0px 30px 0px
     // padding-top: 0
-    padding: 50px 0
+    padding: 75px 0
     position: relative
     width: 100%
     @include responsivo(telefonoTable)
@@ -272,16 +272,16 @@ span.tag
         font-size: 25px!important
 
 .primaryText
-    line-height: 30px!important
-    font-size: 27px
+    line-height: 24px!important
+    font-size: 18px
     font-family: "Nunito Sans", sans-serif
     // display: none
     @include responsivo(telefonoTable)
-        font-size: 19px!important
-        line-height: 20px!important
+        line-height: 24px!important
+        font-size: 18px
     @include responsivo(pcMedio)
-        font-size: 27px!important
-        line-height: 28px!important
+        line-height: 24px!important
+        font-size: 18px
 
 .secondaryText
     line-height: 25px
@@ -695,5 +695,11 @@ footer
     .elementor-element.elementor-element-798f1b6d.elementor-widget.elementor-widget-text-editor .elementor-text-editor.elementor-clearfix
         font-size: 15px
 
+.accordion-button
+    i
+        transition: $trans
+        transform: rotate(0deg)
 
-
+.accordion-button:not(.collapsed)
+    i
+        transform: rotate(90deg)

@@ -75,6 +75,7 @@ class SetComponents extends Controller
             'components.contain.info.component-info-4steps-loading' => 'contain_4steps_loading',
             'components.contain.info.component-info-text-image-T1' => 'contain_text_image_T1',
             'components.contain.info.component-info-FAQ-T1' => 'contain_FAQ_T1',
+            'components.contain.info.component-info-accordion-T1' => 'contain_accordion_T1',
             'components.contain.info.component-info-multiple-cards-T1' => 'contain_multiple_cards_T1'
         );
     }

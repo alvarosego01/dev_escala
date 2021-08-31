@@ -96,8 +96,8 @@
 
       </div>
 
-      <div style="background-image: url('{!! App::setFilePath('/assets/images/overlays/estrellas 2.png') !!}')" class="backgroundPlanets">
-      </div>
+      {{-- <div style="background-image: url('{!! App::setFilePath('/assets/images/overlays/estrellas 2.png') !!}')" class="backgroundPlanets">
+      </div> --}}
 
 
 
@@ -116,7 +116,7 @@
 
 
             <p class="primaryText grayColorTexts">
-              <strong>Escala</strong> te permite implementar embudos de venta: la estrategia probada para hacer crecer empresas de manera rentable, sostenible y escalable
+              <strong>Escala</strong> te permite implementar embudos de venta: la estrategia probada <br class="space"> para hacer crecer empresas de manera rentable, sostenible y escalable
             </p>
 
           </div>
@@ -181,9 +181,8 @@
     </section>
 
 
-    <section class="customSection sectionParent homeSection2 fullWidth">
+    <section class="customSection sectionParent homeSection2">
 
-      <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/Rectangle-1037.png')" class="backgroundFull">
 
         <div class="section-row">
 
@@ -317,7 +316,6 @@
           </section>
 
         </div>
-      </div>
 
     </section>
 
@@ -676,22 +674,22 @@
 
     </section>
 
-  </div>
   </section>
 
 
-{{--
+
   @php
  $parameters = array(
-  'classSection' => 'homeSection7',
- ) ;
-@endphp
+   'classSection' => 'homeSection7',
+   ) ;
+   @endphp
 @contain_FAQ_T1( $parameters )
 
-@endcontain_FAQ_T1 --}}
+@endcontain_FAQ_T1
 
 
 
+</div>
 
 </div>
 

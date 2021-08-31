@@ -36,23 +36,21 @@
     .section-row
         .innerSectionElement.sct1
             .groupElements
-                padding-bottom: 50px
+                padding-bottom: 100px
+                @include responsivo(telefonoTable)
+                    padding-bottom: 75px
+
+                @include responsivo(pcMedio)
+                    padding-bottom: 100px
                 .info
                     // padding-bottom: 100px
                     // padding-bottom: 0
-                    @include responsivo(general)
-                        padding-bottom: 200px
-                        padding-top: 3.75%
-                    @include responsivo(resto)
-                        padding-bottom: 200px
-                        padding-top: 3.75%
+
                     .containElements
                         position: relative
-                        padding-bottom: 100px
-                        @include responsivo(telefonoTable)
-                            padding-bottom: 0
-                        @include responsivo(pcMedio)
-                            padding-bottom: 0
+                        padding-bottom: 0
+
+
                         .principalBigTitle
                             // font-size: 50px
                             // line-height:
@@ -86,9 +84,9 @@
                         .containerImage
                             position: absolute
                             right: -12.5%
-                            top: 30%
+                            top: 60%
                             img
-                                height: 425px
+                                height: 400px
                                 margin-left: 0
                         @include responsivo(telefonoTable)
                             .principalBigTitle
@@ -120,7 +118,7 @@
                                     margin: 0 auto
                         @include responsivo(general)
                             .containerImage
-                                top: 12.5vw
+                                top: 13vw
                                 right: -12.5%
                                 img
                                     height: 25vw
@@ -186,6 +184,7 @@
 
 #homeBootstrap .customSection.sectionParent.homeSection1
     .innerSectionElement.sct1
+        margin-bottom: 50px
         .containElements
             .primaryTitle,
             p.primaryText
@@ -216,6 +215,7 @@
 
 
 #homeBootstrap .customSection.sectionParent.homeSection2
+    background-color: $colorBlueLight
     .section-row
         @include responsivo(general)
             width: 100%!important
@@ -564,6 +564,34 @@
                                 width: 100%!important
         // margin: 50px 0
 
+
+
+#homeBootstrap .customSection.sectionParent.homeSection7
+
+    // display: none
+    background-color: $colorGreyLight
+    .section-row
+        padding-top: 60px
+        padding-bottom: 100px
+        @include responsivo(telefonoTable)
+            width: 95%
+        @include responsivo(pcMedio)
+            width: 90%
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1000px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1050px!important
+    .innerSectionElement.sct1
+        margin-bottom: 50px
+        .containElements
+            .primaryTitle
+                text-align: center
+        @include responsivo(telefonoTable)
+            margin-bottom: 30px
+        @include responsivo(pcMedio)
+            margin-bottom: 30px
 
 
 body.template-open-webinar-escala-meeting header .elementor-container.elementor-column-gap-default

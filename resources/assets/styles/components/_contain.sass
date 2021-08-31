@@ -601,3 +601,119 @@
                             // display: none
                     .secondaryTitle
                         font-size: 28px!important
+
+
+
+.accordion.custom
+    *
+        background-color: transparent!important
+    .accordion-item.itemChild
+        padding-left: 15px
+        @include responsivo(telefonoTable)
+            padding-left: 0
+        @include responsivo(pcMedio)
+            padding-left: 0
+        h4.accordion-header
+            margin-bottom: 15px
+            button
+                font-style: normal
+                font-weight: bold
+                font-size: 22.5px
+                line-height: 125.1%
+                @include responsivo(telefonoTable)
+                    font-size: 17px
+                @include responsivo(pcMedio)
+                    font-size: 21px
+            button.accordion-button
+                color: $colorBlack2
+                box-shadow: none!important
+                i
+                    font-size: 28px
+                    color: $colorOrange
+            button.collapsed
+                background-color: transparent
+                color: $colorBlack2!important
+                i
+                    color: $colorGreenBlue!important
+
+        .accordion-body
+            // width: 85%
+            p.text
+                font-size: 20px
+                font-family: Nunito
+                font-weight: 600
+                line-height: 22.5px
+                color: $colorBlack3
+                padding-left: 20px
+                @include responsivo(telefonoTable)
+                    font-size: 16px!important
+                    padding: 0
+                    br
+                        display: none!important
+                @include responsivo(pcMedio)
+                    font-size: 20px!important
+                    padding: 0
+                    br
+                        display: none!important
+
+    .accordion-item.itemParent
+        border: none
+        display: flex
+        flex-direction: column
+        margin-bottom: 12.5px
+        padding-bottom: 25px
+        border-bottom: 1px solid rgba(0,0,0,0.1)
+        @include responsivo(telefonoTable)
+            padding-bottom: 12.5px
+        @include responsivo(pcMedio)
+            padding-bottom: 12.5px
+        h3.accordion-header
+            button
+                font-style: normal
+                font-weight: bold
+                font-size: 25px
+                line-height: 125.1%
+                @include responsivo(telefonoTable)
+                    font-size: 18px
+                @include responsivo(pcMedio)
+                    font-size: 23px
+            button.accordion-button
+                color: $colorOrange
+                box-shadow: none!important
+                i
+                    font-size: 28px
+                    color: $colorOrange
+            button.collapsed
+                background-color: transparent
+                color: $colorGreenBlue!important
+                i
+                    color: $colorGreenBlue!important
+    .accordion-item
+        border: 0
+        .accordion-header
+            width: 100%
+            text-align: left
+            justify-content: left
+            display: flex!important
+            border: none!important
+            button
+                width: 100%
+                border: 0
+                font-family: Nunito
+                font-style: normal
+                background-color: transparent
+                border: none!important
+                i
+                    margin-right: 15px
+                    display: block
+                span
+                    margin-right: auto
+                &::after
+                    display: none
+
+
+
+
+
+
+
