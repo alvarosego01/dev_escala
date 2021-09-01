@@ -171,7 +171,7 @@ br.space
     // color
 
 .blueColor
-    color: $colorGreenBlue
+    color: $colorBlue
 
 .grayColorTexts
     color: $colorGrey3
@@ -233,9 +233,9 @@ span.tag
     //     font-size: 25
 
 .primaryTitle
-    font-size: 42px
+    font-size: 36px
+    line-height: 39px
     margin-bottom: 30px
-    line-height: 1
     font-weight: 700
     font-family: "Nunito Sans", sans-serif
     @include responsivo(telefonoTable)
@@ -249,16 +249,30 @@ span.tag
 
 .commonTitle
     margin-bottom: 20px
-    line-height: 1
-    font-size: 32px
+    line-height: 30px
+    font-size: 30px
     font-weight: 700
     font-family: "Nunito Sans", sans-serif
     @include responsivo(telefonoTable)
         // display: none
-        font-size: 20px!important
+        font-size: 22px!important
     @include responsivo(pcMedio)
-        font-size: 30px!important
+        font-size: 28px!important
 
+
+.thirdTitle
+    margin-bottom: 20px
+    font-weight: 700
+    font-family: "Nunito Sans", sans-serif
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 25px
+    @include responsivo(telefonoTable)
+        font-size: 16px
+        line-height: 22px
+    @include responsivo(pcMedio)
+        font-size: 18px
 
 .secondaryTitle
     margin-bottom: 20px
@@ -308,7 +322,7 @@ a[disabled]
     background-color: grey!important
 
 .whatsappButton
-    font-family: "Nunito Sans",Sans-serif
+    font-family: "Nunito",Sans-serif
     font-size: 20px
     font-weight: 500
     text-decoration: none
@@ -349,7 +363,7 @@ a[disabled]
     width: fit-content
     transition: $transitionButton
     transform: scale(1)
-    font-family: "Nunito Sans",Sans-serif
+    font-family: "Nunito",Sans-serif
     @include responsivo(telefonoTable)
         padding: 10px 20px!important
         font-size: 18px!important
@@ -376,7 +390,7 @@ a[disabled]
     width: fit-content
     transition: $transitionButton
     transform: scale(1)
-    font-family: "Nunito Sans",Sans-serif
+    font-family: "Nunito",Sans-serif
     @include responsivo(telefonoTable)
         padding: 10px 20px
         font-size: 18px
@@ -389,7 +403,7 @@ a[disabled]
         font-size: 18px
 
 .secondaryButton
-    font-family: "Nunito Sans",Sans-serif
+    font-family: "Nunito",Sans-serif
     font-weight: 400
     padding: 0 25px
     border-radius: 5px
@@ -448,6 +462,13 @@ a[disabled]
 
 
 
+
+.hiperButtonGreenBlue
+    color: $colorGreenBlue
+    font-size: 18px,
+    &:hover
+        color: $colorGreenBlue
+        text-decoration: underline
 
 .hiperButtonGray
     color: $colorDarkGrey
@@ -703,3 +724,33 @@ footer
 .accordion-button:not(.collapsed)
     i
         transform: rotate(90deg)
+
+
+
+
+
+
+.listCustom
+    h4.thirdTitle
+        color: $colorBlack2
+        margin-bottom: 7.5px
+        font-size: 18px
+        line-height: 29px
+    ul
+        list-style: none
+        padding-left: 0
+        li
+            display: flex
+            flex-direction: row
+
+            i
+                color: $colorOrange
+                position: relative
+                top: 8px
+            span
+                padding-left: 7.5px
+                font-family: Nunito
+                font-style: normal
+                font-weight: bold
+                font-size: 16px
+                line-height: 22px

@@ -20,6 +20,7 @@ class SetComponents extends Controller
             $this->setCallToActionsComponents(),
             $this->setContainComponents(),
             $this->setBlogComponents(),
+            $this->setPricingComponents(),
             $this->setNavbarsComponents()
         );
 
@@ -63,7 +64,15 @@ class SetComponents extends Controller
     {
 
         return array(
-            'components.headers.component-header-T1' => 'header_t1'
+            'components.headers.component-header-T1' => 'header_t1',
+            'components.headers.component-header-T2' => 'header_small_t2'
+        );
+    }
+    private function setPricingComponents()
+    {
+
+        return array(
+            'components.pricing.component-pricing-price-card-T1' => 'pricing_card_T1',
         );
     }
     private function setContainComponents()
@@ -147,6 +156,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-landing-incredible.blade.php",
+                "views/template-landing-pricing-page.blade.php",
                 "views/template-landing-incredible-demo.blade.php",
                 "views/template-landing-whatsapp.blade.php",
                 "views/template-landing-correos-masivos.blade.php",
@@ -192,7 +202,8 @@ class SetComponents extends Controller
                 "views/template-zoom-demo-home.blade.php",
                 "views/template-zoom-demo-home-landing.blade.php",
                 "views/template-zoom-demo-home-step1.blade.php",
-                "views/template-zoom-demo-home-step2.blade.php"
+                "views/template-zoom-demo-home-step2.blade.php",
+                "views/template-landing-pricing-page.blade.php",
 
             );
         }

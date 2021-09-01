@@ -227,3 +227,36 @@
                 // width: 320pxllkk
 
 
+
+
+.component-header-t2.customSection.sectionParent.fullWidth
+    .section-row
+        @include responsivo(telefonoTable)
+            width: 95%
+        @include responsivo(pcMedio)
+            width: 90%
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1140px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1240px!important
+        .groupElements
+            display: flex
+            flex-direction: row
+            justify-content: center
+            .image
+                img
+                    height: 225px
+            .info
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-content: center
+                h1
+                    display: block
+                    line-height: 36px
+                    font-size: 33.5px
+                    span
+                        line-height: 32.5px
+                        font-size: 30px

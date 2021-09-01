@@ -197,7 +197,7 @@
                 .containerImage
                     img
 
-                        height: 200px
+                        height: 175px
                         // display: none
                         margin: 0 auto
                 .secondaryTitle
@@ -277,7 +277,7 @@
     .backgroundFull.sct1
         background-position: center
         background-size: cover
-        height: 300px
+        height: 325px
         position: relative
         display: flex
         @include responsivo(telefonoTable)
@@ -286,29 +286,34 @@
             height: 250px!important
         .imageBackground
             position: absolute
-            left: 0
+            left: -10%
             right: 0
             bottom: 0
-            top: 0
+            top: 22%
             margin: auto
-            width: 100%
+            width: 80%
             display: block
             background-size: contain
             background-repeat: no-repeat
             background-position: center
-            width: 100%
             // margin: 0
             @include responsivo(telefonoTable)
                 background-position: 0 100%!important
+                top: 0
+                left: 0
             @include responsivo(pcMedio)
                 background-position: 0 100%!important
+                top: 0
+                left: 0
         .section-row
             margin: auto
+            margin-bottom: 50px
             .containElements
                 .primaryTitle
                     text-align: center
-                    margin-bottom: 50px
+                    margin-bottom: 25px
                     color: $colorWhite
+                    font-weight: 600
                     @include responsivo(telefonoTable)
                         margin-bottom: 30px!important
                     @include responsivo(pcMedio)
@@ -334,27 +339,150 @@
             width: 100%!important
             max-width: 1400px!important
     .innerSectionElement.sct1
+        margin-bottom: 50px
         .containElements
             .primaryTitle
                 text-align: center
     .innerSectionElement.sct2
+        display: flex
         .groupElements
+            width: 80%
+            margin: 0 auto
+            @include responsivo(telefonoTable)
+                display: flex
+                flex-direction: column
+                width: fit-content!important
+            @include responsivo(pcMedio)
+                display: flex
+                flex-direction: column
+                width: fit-content!important
+            @include responsivo(general)
+                width: 90%
+                display: grid !important
+                grid-template-columns: repeat(8, 1fr)
+                grid-gap: 0
+                grid-auto-rows: 75px
+                grid-template-areas: "a a a a . . . ." "a a a a b b b b" ". . . . b b b b" "c c c c . . . ." "c c c c d d d d" ". . . . d d d d" "e e e e d d d d" "e e e e . . . ."
+
+            @include responsivo(resto)
+                display: grid !important
+                grid-template-columns: repeat(8, 1fr)
+                grid-gap: 0
+                grid-auto-rows: 75px
+                grid-template-areas: "a a a a . . . ." "a a a a b b b b" ". . . . b b b b" "c c c c . . . ." "c c c c d d d d" ". . . . d d d d" "e e e e d d d d" "e e e e . . . ."
+
+            .infoGroup
+                &:nth-of-type(1)
+                    grid-area: a
+                    align-self: center
+                    justify-self: center
+                &:nth-of-type(2)
+                    grid-area: b
+                    align-self: center
+                    justify-self: center
+                &:nth-of-type(3)
+                    grid-area: c
+                    align-self: center
+                    justify-self: center
+                &:nth-of-type(4)
+                    grid-area: d
+                    align-self: center
+                    justify-self: center
+                &:nth-of-type(5)
+                    grid-area: e
+                    align-self: center
+                    justify-self: center
+
+
             .infoGroup
                 display: flex
-                margin: 0 auto
-                justify-content: center
-                align-content: center
-                margin-bottom: 40px
+                // margin: 0 auto
+                justify-content: flex-start
+                align-content: flex-start
+                margin-bottom: 0
+                width: 100%
+                position: relative
+                @include responsivo(telefonoTable)
+                    margin-bottom: 25px
+                    // display: block
+                @include responsivo(pcMedio)
+                    margin-bottom: 25px
+                    // display: block
+                .commonTitle
+                    font-size: 24px
+                    font-weight: 600
+                    margin-bottom: 5px
+                    @include responsivo(general)
+                        font-size: 22px
+
                 .containerImage
                     padding: 0!important
                     // width: 250px
-                    margin-bottom: 0
-                    margin-right: 0!important
+                    margin: 0
+                    position: absolute
+                    top: 0
+                    bottom: 0
+                    left: 0
+                    // right: 0
+                    margin: auto
+                    display: flex
+                    justify-content: center
+                    align-content: center
+                    @include responsivo(telefonoTable)
+                        position: unset
+                        margin: 0
+                        margin-right: 25px
+                    @include responsivo(pcMedio)
+                        position: unset
+                        margin: 0
+                        margin-right: 50px
                     img
-                        height: 150px
-                        // width: 110px!important
+                        height: 125px
+                        // width: 100px
                         width: auto
-                        margin: 0 37px!important
+                        margin: auto!important
+                        @include responsivo(general)
+                            height: 110px
+
+
+                .containerElements
+                    padding-left: 22.5%
+                    @include responsivo(telefonoTable)
+                        padding: 0
+                    @include responsivo(pcMedio)
+                        padding: 0
+                .primaryText
+                    position: relative
+                    display: block
+                    padding-left: 12.5px
+                    &::before
+                        content: ''
+                        border-left: 1px solid $colorGreenBlue
+                        left: 0
+                        top: 0
+                        bottom: 0
+                        height: 75%
+                        width: 1px
+                        margin: auto 0
+                        display: block
+                        position: absolute
+                    span
+                        font-size: 14px
+                    @include responsivo(telefonoTable)
+                        padding-bottom: 12.5px
+                        margin-bottom: 12.5px
+                        &::before
+
+                            left: 0
+                            top: unset
+                            bottom: 0
+                            right: 0
+                            width: 75%
+                            height: 1px
+                            border: 0
+                            border-bottom: 1px solid $colorGreenBlue
+                            margin: 0 auto
+
                 @include responsivo(telefonoTable)
                     flex-direction: column
                     margin-bottom: 30px
@@ -382,7 +510,7 @@
 #homeBootstrap .customSection.sectionParent.homeSection5
     background-color: $colorBlueLight
     padding-bottom: 0
-    padding-top: 50px
+    padding-top: 17.5px
     .innerSectionElement.sct1
         .groupElements
             .info
@@ -592,6 +720,8 @@
             margin-bottom: 30px
         @include responsivo(pcMedio)
             margin-bottom: 30px
+    ul
+        list-style: none
 
 
 body.template-open-webinar-escala-meeting header .elementor-container.elementor-column-gap-default
