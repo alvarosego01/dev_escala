@@ -53,6 +53,21 @@ $parameters = array(
 
 </section>
 
+
+
+@php
+$parameters = array(
+ 'classSection' => 'landingPricingPage2',
+ 'titlePrincipal' => '<span class="greenBlueColor">Conoce los beneficios de nuestros planes</span>'
+) ;
+@endphp
+
+@pricing_card_T1( $parameters )
+
+@endpricing_card_T1
+
+
+
 <section class="customSection sectionParent landingPricingPage3">
 
   <div class="section-row">
@@ -228,8 +243,7 @@ $parameters = array(
           <div class="info col-md-12 col-lg-6">
             <div class="containerImage">
 
-              <img src="{!! App::setFilePath('
-              /assets/images/illustrations/others/Vector.png') !!}" alt="" loading="lazy">
+              <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector.png') !!}" alt="" loading="lazy">
 
 
             </div>

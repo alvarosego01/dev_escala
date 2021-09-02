@@ -168,139 +168,68 @@ $items = [
     <div class="section-row">
 
 
-        @if (isset($titlePrincipal) && $titlePrincipal != null)
-            <section class="innerSectionElement sct1">
+        <section class="innerSectionElement sct1">
 
-                <div class="containElements">
+            <div class="containElements">
 
 
-                    <h2 class="primaryTitle whiteColor">
-                        {!! $titlePrincipal !!}
-                    </h2>
+                <h3 class="secondaryTitle grayColorTexts5">
+                    Calcula el precio de tu plan
+                </h3>
+
+                <div class="plansSection">
+                    <small>
+                        Elige tu plan
+                    </small>
+
+                    <div class="row">
+
+                        <div class="col-md-12 col-lg-6">
+
+
+
+                        </div>
+                        <div class="col-md-12 col-lg-6">
+
+                        </div>
+
+                    </div>
 
 
                 </div>
 
-            </section>
-        @endif
-
-        <section class="innerSectionElement sct2">
-
-            <div class="containElements row">
-
-                @if (isset($items) && count($items) > 0)
-
-                    @foreach ($items as $item)
-                        <div class="col-md-12 col-lg-4 elementParent">
-
-                        <div class="elementPrice">
-
-                            <div class="had">
-                                <h3 class="secondaryTitle blackColor">
-                                    {!! $item['title'] !!}
-                                </h3>
-                            </div>
-
-                            <div class="elementBody">
-
-
-                            <div class="price">
-
-                                <p>
-
-                                    {!! $item['price'] !!}
-
-                                </p>
-
-                            </div>
-
-                            <div class="middle">
-
-                                @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
-
-                                    <div class="selectorSwitch">
-                                        <small>
-                                            Mensual
-                                        </small>
-                                        <label class="switchCustom"><input value="1" type="checkbox" />
-                                            <div></div>
-                                        </label>
-                                        <small>
-                                            Anual
-                                        </small>
-                                    </div>
-
-                                @endif
-
-                                @if (isset($item['textMiddle']) && $item['textMiddle'] != null)
-
-                                    <p class="primaryText grayColorTexts">
-                                        {!! $item['textMiddle'] !!}
-                                    </p>
-
-
-                                @endif
-
-                            </div>
-
-                            @if (isset($item['button']) && $item['button'] == true)
-
-                                <div class="buttonSection">
-
-                                    <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-                                        {!! $item['textButton'] !!}
-                                    </a>
-
-                                </div>
-
-                            @endif
-
-                            @if (isset($item['details']) && count($item['details'] > 0))
-
-                                @foreach ($item['details'] as $item2)
-
-                                    <div class="listCustom">
-                                        <h4 class="thirdTitle">
-                                            {!! $item2['title'] !!}
-                                        </h4>
-
-                                        <ul>
-
-                                            @if (isset($item2['items']) && count($item2['items']) > 0)
-
-                                            @endif
-                                            @foreach ($item2['items'] as $item3)
-
-                                                <li>
-                                                    <i class="fa fa-check" aria-hidden="true"></i>
-                                                    <span class="blueColor">
-                                                        {!! $item3 !!}
-                                                    </span>
-                                                </li>
-
-                                            @endforeach
-                                        </ul>
-                                    </div>
-
-                                @endforeach
-
-                            @endif
-
-                        </div>
-                    </div>
-
-                    </div>
-
-                    @endforeach
-
-
-                @endif
 
 
             </div>
 
         </section>
 
+        <section class="innerSectionElement sct2">
+
+            <div class="containElements">
+
+
+            </div>
+
+        </section>
+
+        <section class="innerSectionElement sct3">
+
+            <div class="containElements">
+
+
+            </div>
+
+        </section>
+
+        <section class="innerSectionElement sct4">
+
+            <div class="containElements">
+
+
+            </div>
+
+        </section>
 
 
     </div>

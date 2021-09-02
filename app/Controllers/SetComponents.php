@@ -20,7 +20,6 @@ class SetComponents extends Controller
             $this->setCallToActionsComponents(),
             $this->setContainComponents(),
             $this->setBlogComponents(),
-            $this->setPricingComponents(),
             $this->setNavbarsComponents()
         );
 
@@ -68,17 +67,12 @@ class SetComponents extends Controller
             'components.headers.component-header-T2' => 'header_small_t2'
         );
     }
-    private function setPricingComponents()
-    {
 
-        return array(
-            'components.pricing.component-pricing-price-card-T1' => 'pricing_card_T1',
-        );
-    }
     private function setContainComponents()
     {
 
         return array(
+            'components.contain.pricing.component-pricing-price-card-T1' => 'pricing_card_T1',
             'components.contain.am.component-info-am-T1' => 'contain_am_T1',
             'components.contain.info.component-info-aio-5steps' => 'contain_aio5',
             'components.contain.info.component-info-4steps-loading' => 'contain_4steps_loading',
