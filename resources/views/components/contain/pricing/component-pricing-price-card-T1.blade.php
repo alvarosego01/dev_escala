@@ -37,27 +37,27 @@ $items = [
         'details' => [
             [
                 'title' => 'Landing page',
-                'items' => ['Páginas: ilimitadas', 'Subdominio personalizado', 'Dominios propios: 1'],
+                'items' => ['Páginas: <strong>ilimitadas</strong>', 'Subdominio personalizado', 'Dominios propios: <strong>1</strong>'],
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: 5.000', 'Plantillas: todas las disponibles'],
+                'items' => ['Emails marketing al mes: <strong>5.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
-                'items' => ['Flujos: ilimitados'],
+                'items' => ['Flujos: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Formularios',
-                'items' => ['Número de formularios: ilimitados'],
+                'items' => ['Número de formularios: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <br class="space"> 1.000.000', 'Contactos de marketing: 1.000', 'Usuarios de venta: 1', 'Emails de CRM: ilimitados'],
+                'items' => ['Contactos en base de datos: <strong><br class="space"> 1.000.000</strong>', 'Contactos de marketing: <strong>1.000</strong>', 'Usuarios de venta: <strong>1</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Anuncios Digitales',
-                'items' => ['Cuentas de Facebook Ads Manager: 1', 'Campañas publicadas: ilimitadas'],
+                'items' => ['Cuentas de Facebook Ads Manager: <strong>1</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'],
             ],
             [
                 'title' => 'Analíticas',
@@ -84,27 +84,27 @@ $items = [
         'details' => [
             [
                 'title' => 'Landing page',
-                'items' => ['Páginas: ilimitadas', 'Subdominio personalizado', 'Dominios propios: 5'],
+                'items' => ['Páginas: <strong>ilimitadas</strong>', 'Subdominio personalizado', 'Dominios propios: <strong>5</strong>'],
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: 10.000', 'Plantillas: todas las disponibles'],
+                'items' => ['Emails marketing al mes: <strong>10.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
-                'items' => ['Flujos: ilimitados'],
+                'items' => ['Flujos: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Formularios',
-                'items' => ['Número de formularios: ilimitados'],
+                'items' => ['Número de formularios: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <br class="space"> 1.000.000', 'Contactos de marketing: 1.000', 'Usuarios de venta: 2', 'Emails de CRM: ilimitados'],
+                'items' => ['Contactos en base de datos: <strong><br class="space"> 1.000.000</strong>', 'Contactos de marketing: <strong>1.000</strong>', 'Usuarios de venta: <strong>2</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Anuncios Digitales',
-                'items' => ['Cuentas de Facebook Ads Manager: 1', 'Campañas publicadas: ilimitadas'],
+                'items' => ['Cuentas de Facebook Ads Manager: <strong>1</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'],
             ],
             [
                 'title' => 'Analíticas',
@@ -130,27 +130,27 @@ $items = [
         'details' => [
             [
                 'title' => 'Landing page',
-                'items' => ['Páginas: ilimitadas', 'Subdominio personalizado', 'Dominios propios: 5'],
+                'items' => ['Páginas: <strong>ilimitadas</strong>', 'Subdominio personalizado', 'Dominios propios: <strong>10</strong>'],
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: 10.000', 'Plantillas: todas las disponibles'],
+                'items' => ['Emails marketing al mes: <strong>20 x contactos de marketing</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
-                'items' => ['Flujos: ilimitados'],
+                'items' => ['Flujos: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Formularios',
-                'items' => ['Número de formularios: ilimitados'],
+                'items' => ['Número de formularios: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <br class="space"> 1.000.000', 'Contactos de marketing: 1.000', 'Usuarios de venta: 2', 'Emails de CRM: ilimitados'],
+                'items' => ['Contactos de marketing: <strong>100.000</strong>', 'Usuarios de venta: <strong>10</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Anuncios Digitales',
-                'items' => ['Cuentas de Facebook Ads Manager: 1', 'Campañas publicadas: ilimitadas'],
+                'items' => ['Cuentas de Facebook Ads Manager: <strong>3</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'],
             ],
             [
                 'title' => 'Analíticas',
@@ -247,7 +247,7 @@ $items = [
 
                                 <div class="buttonSection">
 
-                                    <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                                    <a class="btn-popup-header primaryButton hoverInEffect">
                                         {!! $item['textButton'] !!}
                                     </a>
 

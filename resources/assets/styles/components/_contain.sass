@@ -636,6 +636,15 @@
                 i
                     color: $colorGreenBlue!important
 
+            span
+                font-family: Nunito Sans
+                font-style: normal
+                font-weight: 600
+                font-size: 30px
+                line-height: 125.1%
+                letter-spacing: -0.02em
+                color: #150D27
+
         .accordion-body
             // width: 85%
             ul
@@ -644,7 +653,7 @@
             ul *
                 font-size: 18px
                 font-family: Nunito
-                font-weight: 600
+                font-weight: 500
                 line-height: 22.5px
                 color: $colorGrey3
                 padding-left: 20px
@@ -658,6 +667,19 @@
                     padding: 0
                     br
                         display: none!important
+            ul.accordionSpecial
+                list-style: none
+                li
+                    color: $colorBlue
+                    // padding-left: 12.5px
+                    &::before
+                        content: "\2022"
+                        color: $colorBlue
+                        font-weight: bold
+                        display: inline-block
+                        width: 1em
+                        margin-left: -1em
+
 
     .accordion-item.itemParent
         border: none
@@ -691,6 +713,7 @@
                 color: $colorGreenBlue!important
                 i
                     color: $colorGreenBlue!important
+
     .accordion-item
         border: 0
         .accordion-header

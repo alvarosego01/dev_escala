@@ -72,6 +72,7 @@ class SetComponents extends Controller
     {
 
         return array(
+            'components.contain.pricing.component-pricing-calculator-T1' => 'pricing_calculator_T1',
             'components.contain.pricing.component-pricing-price-card-T1' => 'pricing_card_T1',
             'components.contain.am.component-info-am-T1' => 'contain_am_T1',
             'components.contain.info.component-info-aio-5steps' => 'contain_aio5',

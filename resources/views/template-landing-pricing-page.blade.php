@@ -230,6 +230,18 @@ $parameters = array(
 
 </section>
 
+
+@php
+ $parameters = array(
+  'classSection' => 'landingPricingPage4',
+ ) ;
+@endphp
+
+@pricing_calculator_T1( $parameters )
+
+@endpricing_calculator_T1
+
+
 <section class="customSection sectionParent landingPricingPage5">
 
   <div class="section-row">
