@@ -165,7 +165,7 @@ $items = [
             ],
             [
                 'title' => '¿Cómo accedo a la plataforma?',
-                'text' => 'Entra en app.escala.com.  y haz clic en iniciar sesión desde cualquier dispositivo.',
+                'text' => 'Entra en <a class="hiperButtonGreenBlueT2" href="https://app.escala.com/">app.escala.com</a>.  y haz clic en iniciar sesión desde cualquier dispositivo.',
                 'type' => 'item',
             ],
             [
