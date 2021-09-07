@@ -134,7 +134,7 @@ $items = [
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <strong>20 x contactos de marketing</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => ['Emails marketing al mes: <strong> <br> 20 x contactos de marketing</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
@@ -146,7 +146,7 @@ $items = [
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos de marketing: <strong>100.000</strong>', 'Usuarios de venta: <strong>10</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => ['Contactos de marketing: <br> <strong>A partir de 100.000</strong>', 'Usuarios de venta: <strong>10</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Anuncios Digitales',

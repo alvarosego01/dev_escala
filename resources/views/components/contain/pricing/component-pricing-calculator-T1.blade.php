@@ -19,9 +19,9 @@
                         Elige tu plan
                     </small>
 
-                    <div class="row box">
+                    <div class="box">
 
-                        <div class="opt col-md-12 col-lg-6">
+                        <div class="opt">
 
 
                             <div class="customCheckBox">
@@ -48,7 +48,7 @@
 
 
                         </div>
-                        <div class="opt col-md-12 col-lg-6">
+                        <div class="opt">
 
                             <div class="customCheckBox">
 
@@ -108,24 +108,28 @@
                         <div class="rw rw2">
 
                             <div class="customSelectorRange">
-                                <input type="range" class="form-range" min="0" max="100" step="10" >
+
+                                <div class="slidecontainer">
+                                    <input type="range" min="0" max="100" value="25"   class="sliderSelector" >
+                                </div>
+
                                 <div class="rangeLimits">
-                                    <small>
+                                    <span class="rangeContactLimit">
                                         1.000 <br class="space">
                                         contactos
-                                    </small>
-                                    <small>
+                                    </span class="rangeContactLimit">
+                                    <span class="rangeContactLimit">
                                         2.000 <br class="space">
                                         contactos
-                                    </small>
-                                    <small>
+                                    </span class="rangeContactLimit">
+                                    <span class="rangeContactLimit">
                                         3.000 <br class="space">
                                         contactos
-                                    </small>
-                                    <small>
+                                    </span class="rangeContactLimit">
+                                    <span class="rangeContactLimit">
                                         100.000 <br class="space">
                                         contactos
-                                    </small>
+                                    </span class="rangeContactLimit">
                                 </div>
 
                             </div>
@@ -147,7 +151,36 @@
 
             <div class="containElements">
 
+                <div class="plansSection">
+                    <small>
+                        Coloca el número de usuarios con acceso a la plataforma
+                    </small>
 
+                    <div class="box">
+
+                        <div class="rw rw1">
+
+                            <div class="info">
+
+                                <h3 class="secondaryTitle grayColorTexts5">
+                                    Número de usuarios con acceso a la plataforma:
+                                </h3>
+
+                                <h5 class="commonText grayColorTexts5">
+                                    Elige cuántos usuarios con acceso a la plataforma quieres tener.
+                                </h5>
+
+                            </div>
+
+                            <div class="customPriceInput">
+                                <input min="1" type="number" value="5">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+            </div>
             </div>
 
         </section>
@@ -156,6 +189,71 @@
 
             <div class="containElements">
 
+                <div class="plansSection">
+                    <small>
+                        Calcula el precio final
+                    </small>
+
+                    <div class="box row">
+
+                        <div class="image col-md-12 col-lg-6">
+
+
+                            <div class="containerImage">
+
+                                <img alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_pricing.png') !!}"  loading="lazy">
+
+                              </div>
+
+                        </div>
+                        <div class="info col-md-12 col-lg-6">
+
+                            <div class="buttonPriceSelector">
+
+                                <button class="selectorPricingButton">
+                                    PAGAR ANUAL
+                                </button>
+                                <button class="selectorPricingButton">
+                                    PAGAR MENSUAL
+                                </button>
+
+                            </div>
+
+                            <div class="priceFinalCalc">
+
+                                <span id="finalPriceCalc" class="finalPriceCalc">
+                                    USD $432
+                                </span>
+
+                            </div>
+
+                            <div class="offert">
+
+                                <p class="primaryText grayColorTexts5">
+                                    <span>$USD 540 Anual</span> <br class="space">
+                                    <strong>Ahorras USD $ 100</strong>
+                                </p>
+
+                            </div>
+
+                            <div class="finalButtons">
+
+                                <a class="primaryButton hoverInEffect">
+                                    Comienza ahora
+                                </a>
+
+                                <a  class="thinButton hoverSecondaryButton">
+                                    Habla con un asesor
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
 
             </div>
 

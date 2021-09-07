@@ -230,6 +230,7 @@
 
 
 .component-header-t2.customSection.sectionParent.fullWidth
+
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -260,3 +261,11 @@
                     span
                         line-height: 32.5px
                         font-size: 30px
+                    @include responsivo(telefonoTable)
+                        text-align: center
+                        margin-bottom: 12.5px
+                        line-height: 50px!important
+                    @include responsivo(pcMedio)
+                        text-align: center
+                        margin-bottom: 12.5px
+                        line-height: 50px!important

@@ -452,6 +452,30 @@ a[disabled]
         transform: scale(1.1)
         // color: white
 
+.buttonPriceSelector
+    border-radius: 10px
+    overflow: hidden
+    button.selectorPricingButton
+        width: 50%
+        padding: 10px 25px
+        font-family: Nunito Sans
+        font-style: normal
+        font-size: 14px
+        // line-height: 20px
+        text-align: center
+        text-transform: uppercase
+        color: $colorGrey5
+        transition: $trans
+        &:nth-of-type(1)
+            font-weight: bold
+            background-color: $colorGreyLight4
+        &:nth-of-type(2)
+            font-weight: 500
+            background-color: white
+        &:hover
+            color: $colorOrange
+
+
 
 .wpcf7-form-control.wpcf7-submit
     background-color: $colorOrange
@@ -821,9 +845,10 @@ footer
         height: 21px
         display: block
 
-    input
-        -webkit-appearance: none
-        -moz-appearance: none
+    input[type="checkbox"]
+        -webkit-appearance: none!important
+        -moz-appearance: none!important
+        appareance: none!important
         position: relative
         outline: none
         background: var(--background)
@@ -839,6 +864,10 @@ footer
             --b:var(--border-hover)
         &:checked
             --b:var(--border-active)
+        &::-ms-check
+            display: none
+        &::before
+            display: none
 
     svg
         pointer-events: none
@@ -890,5 +919,33 @@ html
   -webkit-font-smoothing: antialiased
 
 
+.slidecontainer
+    width: 100%
 
 
+.sliderSelector
+    -webkit-appearance: none
+    width: 100%
+    height: 15px
+    border-radius: 5px
+    background: #d3d3d3
+    outline: none
+    opacity: 0.7
+    -webkit-transition: .2s
+    transition: opacity .2s
+    &:hover
+        opacity: 1
+    &::-webkit-slider-thumb
+        -webkit-appearance: none
+        appearance: none
+        width: 25px
+        height: 25px
+        border-radius: 50%
+        background: #04AA6D
+        cursor: pointer
+    &::-moz-range-thumb
+        width: 25px
+        height: 25px
+        border-radius: 50%
+        background: #04AA6D
+        cursor: pointer
