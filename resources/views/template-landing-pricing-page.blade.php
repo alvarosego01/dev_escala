@@ -18,7 +18,7 @@
 @php
 $parameters = array(
  'classSection' => 'landingPricingPage0',
- 'title' => '<span class="greenBlueColor">Con nuestra plataforma todo en uno,</span> <br class="space"> TENEMOS UN PLAN HECHO A TU MEDIDA <br class="space"> <span class="greenBlueColor">para impulsar el crecimiento de tu negocio</span> ',
+ 'title' => '<span class="greenBlueColor">Con nuestra plataforma todo en uno,</span> <br class="space"> tenemos un plan HECHO a tu medida <br class="space"> <span class="greenBlueColor">para impulsar el crecimiento de tu negocio</span> ',
  'image' => App::setFilePath('/assets/images/illustrations/team/paginas-rapidas.png'),
 ) ;
 @endphp
@@ -121,6 +121,8 @@ $parameters = array(
                 </li>
               </ul>
             </div>
+            <br>
+            <br>
             <div class="listCustom">
               <h4 class="thirdTitle">
                 PLAN PRO / ENTERPRISE
@@ -189,6 +191,8 @@ $parameters = array(
                 </li>
               </ul>
             </div>
+            <br>
+            <br>
             <div class="listCustom">
               <h4 class="thirdTitle">
                 PLAN PRO / ENTERPRISE
@@ -261,7 +265,7 @@ $parameters = array(
             </div>
 
             <p class="text primaryText grayColorTexts">
-              Escala tiene el email builder más amigable que he <br> utilizado en los últimos años, y su equipo está <br> comprometido a mantener la plataforma en constante <br> actualización en el dinámico mundo digital.
+              Escala tiene el email builder más amigable que he utilizado en los <br> últimos años, y su equipo está comprometido a mantener la <br> plataforma en constante actualización en el dinámico mundo digital.
             </p>
 
 

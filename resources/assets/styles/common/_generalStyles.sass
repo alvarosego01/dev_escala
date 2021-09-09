@@ -72,14 +72,18 @@ h3
         @include responsivo(specialTexts)
             display: none
 
-// h1,
-// h2,
-// h3
-    // br
-        // @include responsivo(telefonoTable)
-            // display: none!important
-        // @include responsivo(pcMedio)
-            // display: none!important
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+label,
+small
+    font-family: Nunito
+
 
 .section-row,
 .groupElements,
@@ -211,30 +215,26 @@ span.tag
     font-size: 20px
     // margin-bottom: 20px
     display: block
-    font-family: "Nunito Sans", Sans-serif
+    font-family: Nunito
     font-weight: 600
 
 
 .principalBigTitle
-    font-family: "Nunito", Sans-serif
+    font-family: Nunito
     font-size: 57px
     line-height: 1
     font-weight: bold
     margin-bottom: 20px
     @include responsivo(telefonoTable)
-        font-size: 30px!important
-        line-height: 32.5px!important
-        // br
-        //     display: none!important
+        font-size: 30px
+        line-height: 32.5px
     @include responsivo(pcMedio)
-        font-size: 50px!important
-        // br
-            // display: none!important
+        font-size: 50px
 
 .principalBigText
     line-height: 38px
     font-size: 27px
-    font-family: "Nunito Sans", sans-serif
+    font-family: Nunito
     font-weight: 400
     // @include responsivo(telefonoTable)
     //     font-size: 25
@@ -246,7 +246,7 @@ span.tag
     line-height: 39px
     margin-bottom: 30px
     font-weight: 700
-    font-family: "Nunito Sans", sans-serif
+    font-family: Nunito
     @include responsivo(telefonoTable)
         font-size: 22px!important
         // br
@@ -261,7 +261,7 @@ span.tag
     line-height: 30px
     font-size: 30px
     font-weight: 700
-    font-family: "Nunito Sans", sans-serif
+    font-family: Nunito
     @include responsivo(telefonoTable)
         // display: none
         font-size: 22px!important
@@ -272,7 +272,7 @@ span.tag
 .thirdTitle
     margin-bottom: 20px
     font-weight: 700
-    font-family: "Nunito Sans", sans-serif
+    font-family: Nunito
     font-style: normal
     font-weight: bold
     font-size: 18px
@@ -288,7 +288,7 @@ span.tag
     line-height: 1
     font-size: 27px
     font-weight: 700
-    font-family: "Nunito Sans", sans-serif
+    font-family: Nunito
     @include responsivo(telefonoTable)
         font-size: 20px!important
     @include responsivo(pcMedio)
@@ -297,7 +297,7 @@ span.tag
 .primaryText
     line-height: 24px!important
     font-size: 18px
-    font-family: "Nunito Sans", sans-serif
+    font-family: Nunito
     // display: none
     @include responsivo(telefonoTable)
         line-height: 24px!important
@@ -309,7 +309,7 @@ span.tag
 .secondaryText
     line-height: 25px
     font-size: 25px
-    font-family: "Nunito Sans", sans-serif
+    font-family: Nunito
     @include responsivo(telefonoTable)
         font-size: 18px!important
         line-height: normal!important
@@ -321,17 +321,22 @@ span.tag
     font-weight: 500
     font-size: 16px
     line-height: 24px
-    font-family: "Nunito Sans", sans-serif
+    font-family: Nunito
 
 button
     border: 0
+
+button,
+a
+    &:hover
+        cursor: pointer
 
 a[disabled]
     pointer-events: none
     background-color: grey!important
 
 .whatsappButton
-    font-family: "Nunito",Sans-serif
+    font-family: Nunito
     font-size: 20px
     font-weight: 500
     text-decoration: none
@@ -372,19 +377,44 @@ a[disabled]
     width: fit-content
     transition: $transitionButton
     transform: scale(1)
-    font-family: "Nunito",Sans-serif
+    font-family: Nunito
     @include responsivo(telefonoTable)
-        padding: 10px 20px!important
-        font-size: 18px!important
+        padding: 10px 20px
+        font-size: 18px
     @include responsivo(pcMedio)
-        // padding: 10px 20px!important
-        padding: 15px 30px 15px 30px!important
-        font-size: 18px!important
+        // padding: 10px 20px
+        padding: 15px 30px 15px 30px
+        font-size: 18px
     @include responsivo(general)
-        padding: 14px 40px 14px 40px!important
-        font-size: 18px!important
+        padding: 14px 40px 14px 40px
+        font-size: 18px
 
 
+
+.greyButton
+    display: inline-block
+    line-height: 1
+    text-decoration: none
+    font-size: 20px
+    line-height: 1
+    background-color: $colorBlueLight6
+    color: $colorGrey3
+    padding: 15px 25px
+    border-radius: 5px
+    width: fit-content
+    transition: $transitionButton
+    transform: scale(1)
+    font-family: Nunito
+    @include responsivo(telefonoTable)
+        padding: 10px 20px
+        font-size: 18px
+    @include responsivo(pcMedio)
+        // padding: 10px 20px
+        padding: 15px 30px 15px 30px
+        font-size: 18px
+    @include responsivo(general)
+        padding: 14px 40px 14px 40px
+        font-size: 18px
 
 .thinButton
     display: inline-block
@@ -399,7 +429,7 @@ a[disabled]
     width: fit-content
     transition: $transitionButton
     transform: scale(1)
-    font-family: "Nunito",Sans-serif
+    font-family: Nunito
     @include responsivo(telefonoTable)
         padding: 10px 20px
         font-size: 18px
@@ -412,7 +442,7 @@ a[disabled]
         font-size: 18px
 
 .secondaryButton
-    font-family: "Nunito",Sans-serif
+    font-family: Nunito
     font-weight: 400
     padding: 0 25px
     border-radius: 5px
@@ -457,13 +487,14 @@ a[disabled]
     overflow: hidden
     button.selectorPricingButton
         width: 50%
-        padding: 10px 25px
-        font-family: Nunito Sans
+        font-family: Nunito
         font-style: normal
-        font-size: 14px
-        // line-height: 20px
+        font-weight: bold
+        font-size: 18px
+        line-height: 31px
         text-align: center
-        text-transform: uppercase
+        letter-spacing: -1px
+        padding: 7.5px 0
         color: $colorGrey5
         transition: $trans
         &:nth-of-type(1)
@@ -479,7 +510,7 @@ a[disabled]
 
 .wpcf7-form-control.wpcf7-submit
     background-color: $colorOrange
-    font-family: "Nunito Sans", sans-serif
+    font-family: Nunito
     font-size: 16px
     font-weight: 700
     border-radius: 5px!important
@@ -556,7 +587,7 @@ a[disabled]
         height: 50px!important
         width: 50px!important
     .titleFormat
-        font-family: "Nunito Sans", sans-serif
+        font-family: Nunito
         font-size: 21px
         line-height: normal
         font-weight: 700
@@ -572,7 +603,7 @@ a[disabled]
         border-width: 0px 0px 1px 0px!important
         border-radius: 0!important
         box-sizing: border-box
-        font-family: "Nunito Sans", sans-serif
+        font-family: Nunito
         font-size: 18px!important
         font-weight: normal!important
         margin: 0
@@ -587,7 +618,7 @@ a[disabled]
     select
         padding: 6px 10px
         border-width: 0px 0px 1px 0px
-        font-family: "Nunito Sans", sans-serif
+        font-family: Nunito
         font-size: 18px!important
         color: #706B6D!important
         font-weight: normal!important
@@ -597,7 +628,7 @@ a[disabled]
     span.ewp-phonetype-radio
         margin-top: 20px
         margin-bottom: 30px
-        font-family: "Nunito Sans", sans-serif
+        font-family: Nunito
         font-size: 16px
         // height: 45px
         height: min-content
@@ -688,7 +719,7 @@ a[disabled]
 
         label
             box-sizing: border-box
-            font-family: "Nunito Sans", sans-serif
+            font-family: Nunito
             font-size: 18px!important
             font-weight: normal!important
             color: #706B6D!important
@@ -724,7 +755,7 @@ a[disabled]
 .wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output
     border: none
     color: #5B5B5B
-    font-family: "Nunito Sans", sans-serif!important
+    font-family: Nunito!important
     text-align: center!important
     font-size: 14px!important
 
@@ -777,24 +808,33 @@ footer
         margin-bottom: 7.5px
         font-size: 18px
         line-height: 29px
+        font-weight: bold
     ul
         list-style: none
         padding-left: 0
         li
             display: flex
             flex-direction: row
-
+            position: relative
+            align-items: center
+            align-content: center
             i
+                position: absolute
                 color: $colorOrange
-                position: relative
-                top: 8px
+                // top: 1.5px
+                left: -15px
+                font-size: 12px
+                display: block
+                margin: auto 0
             span
                 padding-left: 7.5px
                 font-family: Nunito
                 font-style: normal
                 font-weight: bold
-                font-size: 16px
                 line-height: 22px
+                font-size: 16px
+                line-height: 24px
+                letter-spacing: -1px
 
 
 .switchCustom
@@ -803,10 +843,13 @@ footer
         opacity: 0
     display: inline-block
     font-size: 20px
-    height: 1em
-    width: 2em
+    // height: 1.25em
+    // width: 2.25em
+    width: 52.5px
+    height: 30px
     background: $colorGreyLight4
     border-radius: 1em
+
     div
         height: 1em
         width: 1em
@@ -814,6 +857,11 @@ footer
         background: $colorOrange2
         box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3)
         transition: all 300ms
+        margin-top: auto
+        margin-bottom: auto
+        position: relative
+        top: 5px
+        margin-left: 5px
     input:checked + div
         transform: translate3d(100%, 0, 0)
 
@@ -949,3 +997,41 @@ html
         border-radius: 50%
         background: #04AA6D
         cursor: pointer
+
+
+
+
+
+
+input[type=range]
+    -webkit-appearance: none
+    -moz-apperance: none
+    border-radius: 6px
+    height: 17.5px
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(15%, #df7164), color-stop(15%, #d3d3d3))
+    background-image: -moz-linear-gradient(left center, #DF7164 0%, #DF7164 15%, #d3d3d3 15%, #d3d3d3 100%)
+    &::-moz-range-track
+        border: none
+        background: none
+        outline: none
+    &::focus
+        outline: none
+        border: none
+    &::-webkit-slider-thumb
+      -webkit-appearance: none
+      appearance: none
+      width: 30px
+      height: 30px
+      border-radius: 50%
+      background: white
+      border: 7px solid #5C5C5C
+      cursor: pointer
+      box-sizing: border-box
+    &::-moz-range-thumb
+      width: 30px
+      height: 30px
+      border-radius: 50%
+      background: white
+      border: 7px solid #5C5C5C
+      cursor: pointer
+      box-sizing: border-box

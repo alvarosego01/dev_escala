@@ -216,7 +216,9 @@ $items = [
 
                             <div class="middle">
 
-                                @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
+                                <div class="innerMiddle">
+
+                                    @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
 
                                     <div class="selectorSwitch">
                                         <small>
@@ -234,13 +236,14 @@ $items = [
 
                                 @if (isset($item['textMiddle']) && $item['textMiddle'] != null)
 
-                                    <p class="primaryText grayColorTexts">
+                                <p class="primaryText grayColorTexts">
                                         {!! $item['textMiddle'] !!}
                                     </p>
 
 
-                                @endif
+                                    @endif
 
+                                </div>
                             </div>
 
                             @if (isset($item['button']) && $item['button'] == true)
@@ -257,7 +260,11 @@ $items = [
 
                             @if (isset($item['details']) && count($item['details'] > 0))
 
-                                @foreach ($item['details'] as $item2)
+                                <div class="featuresPrice">
+
+
+
+                                    @foreach ($item['details'] as $item2)
 
                                     <div class="listCustom">
                                         <h4 class="thirdTitle">
@@ -271,19 +278,22 @@ $items = [
                                             @endif
                                             @foreach ($item2['items'] as $item3)
 
-                                                <li>
-                                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                            <li>
+                                                <i class="fa fa-check" aria-hidden="true"></i>
                                                     <span class="blueColor">
                                                         {!! $item3 !!}
                                                     </span>
                                                 </li>
 
-                                            @endforeach
-                                        </ul>
+                                                @endforeach
+                                            </ul>
                                     </div>
+                                    <br>
+                                    <br>
 
                                 @endforeach
 
+                            </div>
                             @endif
 
                         </div>

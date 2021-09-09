@@ -190,9 +190,7 @@
             <div class="containElements">
 
                 <div class="plansSection">
-                    <small>
-                        Calcula el precio final
-                    </small>
+
 
                     <div class="box row">
 
@@ -207,6 +205,10 @@
 
                         </div>
                         <div class="info col-md-12 col-lg-6">
+
+                            <small>
+                                Calcula el precio final
+                            </small>
 
                             <div class="buttonPriceSelector">
 
@@ -242,7 +244,7 @@
                                     Comienza ahora
                                 </a>
 
-                                <a  class="thinButton hoverSecondaryButton">
+                                <a  class="thinButton ">
                                     Habla con un asesor
                                 </a>
 

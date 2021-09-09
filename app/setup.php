@@ -80,6 +80,12 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_script('_zoomMeeting.js', asset_path('scripts/pages/_zoomMeeting.js'), ['jquery'], THEME_VERSION, true);
 
         }
+
+        if ( is_page_template("views/template-landing-pricing-page.blade.php") ) {
+
+            wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage.js'), ['jquery'], THEME_VERSION, true);
+
+        }
           // jvascripts
         wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], THEME_VERSION, true);
 

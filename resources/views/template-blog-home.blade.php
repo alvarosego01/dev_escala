@@ -42,7 +42,7 @@
             @endslot
 
             @slot('textForm')
-                ¡Prueba <span class="orangeColor">Escala</span> ahora!
+                Empieza a probar Escala
             @endslot
 
             @slot('threeCol')

@@ -7,10 +7,10 @@
             <div class="section-row">
                 <section class="innerSectionElement sct1">
 
-                    <div class="groupElements row">
+                    <div class="groupElements">
 
 
-                        <div class="image col-md-12 col-lg-4">
+                        <div class="image">
 
 
                                 <div class="containElements">
@@ -25,7 +25,7 @@
 
 
                         </div>
-                        <div class="info col-md-12 col-lg-8">
+                        <div class="info">
 
 
                                 <div class="containElements">
