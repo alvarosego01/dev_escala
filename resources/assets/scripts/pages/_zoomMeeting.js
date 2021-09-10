@@ -155,7 +155,9 @@ function validateHour(){
 jQuery(document).ready(function () {
 
 
-    validateHour();
+    // validateHour();
+
+    redirectTime();
 
 
 
