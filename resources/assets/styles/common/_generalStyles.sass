@@ -893,7 +893,8 @@ footer
         height: 21px
         display: block
 
-    input[type="checkbox"]
+    input[type="checkbox"],
+    input[type="radio"]
         -webkit-appearance: none!important
         -moz-appearance: none!important
         appareance: none!important
@@ -1000,7 +1001,10 @@ html
 
 
 
-
+form
+    input[type="number"]
+        // display: none
+        max-width: unset!important
 
 
 input[type=range]

@@ -5,6 +5,8 @@
 
     <div class="section-row">
 
+        <form action="" id="formCalcGeneral">
+
 
         <section class="innerSectionElement sct1">
 
@@ -27,7 +29,7 @@
                             <div class="customCheckBox">
 
                                 <label class="checkboxCustom path">
-                                    <input type="checkbox">
+                                    <input id="checkStarter" name="_typePlan" type="radio">
                                     <svg viewBox="0 0 21 21">
                                         <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
                                     </svg>
@@ -53,7 +55,7 @@
                             <div class="customCheckBox">
 
                                 <label class="checkboxCustom path">
-                                    <input type="checkbox">
+                                    <input id="checkPro" name="_typePlan" type="radio">
                                     <svg viewBox="0 0 21 21">
                                         <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
                                     </svg>
@@ -101,7 +103,7 @@
                                 Número de contactos de marketing:
                             </h3>
                             <div class="customPriceInput">
-                                <input type="number" value="3000">
+                                <input id="contactsField" type="number" value="3000">
                             </div>
 
                         </div>
@@ -110,7 +112,7 @@
                             <div class="customSelectorRange">
 
                                 <div class="slidecontainer">
-                                    <input type="range" min="0" max="100" value="25"   class="sliderSelector" >
+                                    <input id="rangeContacts" type="range" min="0" max="100" value="25"   class="sliderSelector" >
                                 </div>
 
                                 <div class="rangeLimits">
@@ -173,7 +175,7 @@
                             </div>
 
                             <div class="customPriceInput">
-                                <input min="1" type="number" value="5">
+                                <input id="" min="1" type="number" value="5">
                             </div>
 
                         </div>
@@ -212,10 +214,10 @@
 
                             <div class="buttonPriceSelector">
 
-                                <button class="selectorPricingButton">
+                                <button id="buttonPayTime-year" class="selectorPricingButton">
                                     PAGAR ANUAL
                                 </button>
-                                <button class="selectorPricingButton">
+                                <button id="buttonPayTime-month" class="selectorPricingButton">
                                     PAGAR MENSUAL
                                 </button>
 
@@ -260,6 +262,8 @@
             </div>
 
         </section>
+
+        </form>
 
 
     </div>

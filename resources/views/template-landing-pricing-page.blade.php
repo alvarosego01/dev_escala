@@ -93,7 +93,7 @@ $parameters = array(
 
 
         <p class="primaryText grayColorTexts">
-          Atendemos a tus preguntas y necesidades <br> para que aproveches al máximo la plataforma.
+          Atendemos a tus preguntas y necesidades <br class="space"> para que aproveches al máximo la plataforma.
         </p>
 
             <div class="listCustom">
@@ -131,7 +131,7 @@ $parameters = array(
                 <li>
                   <i class="fa fa-check" aria-hidden="true"></i>
                   <span class="blueColor">
-                    Especialista en customer success asignado <br>
+                    Especialista en customer success asignado <br class="space">
                     para atención directa
                   </span>
                 </li>

@@ -3,11 +3,14 @@ $escalaUrl = 'https://escala.com';
 $items = [
     [
         'type' => 'master',
-        'title' => 'PLATAFORMA',
+        'title' => 'Plataforma',
+        'hideTitle' => true,
+        'open' => true,
         'items' => [
             [
                 'title' => '¿Qué es Escala?',
-                'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas que te ayudará a acelerar el éxito de tu negocio, con <br> todas las herramientas en un solo lugar para crecer de una manera constante. Conoce todo lo que puedes hacer con Escala:<br><br>
+                'open' => true,
+                'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas que te ayudará a acelerar el éxito de tu negocio, <br> con todas las herramientas en un solo lugar para crecer de una manera constante. Conoce todos los beneficios de Escala:<br><br>
                 <ul>
                 <li>- Crea landing pages increíbles sin programar, para darte a conocer y capturar la información de tus visitantes.</li>
                 <li>- Crea, administra y publica anuncios digitales de Facebook, sin salir de Escala, para generar tráfico a tus páginas.</li>
@@ -19,38 +22,38 @@ $items = [
                 'type' => 'item',
             ],
             [
+                'open' => true,
                 'title' => '¿Necesito habilidades para manejar la plataforma?',
-                'text' => 'No. nuestra herramienta es muy intuitiva y fácil de usar. Para que estés más tranquilo, hemos preparado <br> una serie de tutoriales muy prácticos, que te ayudarán a despejar cualquier duda que tengas mientras <br> vives la experiencia. También puedes contar con nuestro acompañamiento, a través de asesorías, que te <br> serán de gran ayuda en los primeros momentos de uso de la plataforma. <a class="hiperButtonGreenBlueT2" href="'.$escalaUrl.'/zoom-meeting">Link de Atención al Cliente.</a>',
+                'text' => 'No. nuestra herramienta es muy intuitiva y fácil de usar. Para que estés más tranquilo, hemos preparado una serie de tutoriales muy <br> prácticos, que te ayudarán a despejar cualquier duda que tengas mientras vives la experiencia. También puedes contar con nuestro <br> acompañamiento, a través de asesorías, que te serán de gran ayuda en los primeros momentos de uso de la plataforma. <br class="space"> <a class="hiperButtonGreenBlueT2" href="'.$escalaUrl.'/zoom-meeting">Atención al cliente.</a>',
                 'type' => 'item',
             ],
             [
+                'open' => true,
                 'title' => '¿Qué incluye?',
-                'text' => 'Cuando adquieres cualquiera de los planes de Escala cuentas con: Todas las funcionalidades de <br> marketing digital y ventas, servicio ilimitado y entrenamiento para usar la plataforma.',
+                'text' => 'Cuando adquieres cualquiera de los planes de Escala cuentas con: Todas las funcionalidades <br> de marketing digital y ventas, servicio ilimitado y entrenamiento para usar la plataforma.',
                 'type' => 'item',
             ],
         ],
     ],
     [
         'type' => 'master',
-        'title' => 'FUNCIONALIDADES',
+        'title' => 'Funcionalidades',
         'items' => [
             [
                 'title' => '¿Los embudos de venta aplican para todos los negocios?',
-                'text' => 'Así es. Todos los negocios tienen un embudo de ventas, conscientemente o no, dado que buscan atraer <br> leads y convertirlos en clientes. No olvides que un embudo de ventas es una metodología, paso <br> a paso, que puede combinar marketing digital y offline. En Escala tienes todas las funcionalidades para <br> implementarlo de manera fácil, invirtiendo menos recursos, tiempo y dinero.',
+                'text' => 'Así es. Todos los negocios tienen un embudo de ventas, conscientemente o no, dado que buscan atraer leads y convertirlos en <br> clientes. No olvides que un embudo de ventas es una metodología, paso a paso, que puede combinar marketing digital y offline. <br> En Escala tienes todas las funcionalidades para <br> implementarlo de manera fácil, invirtiendo menos recursos, tiempo y dinero.',
                 'type' => 'item',
             ],
             [
                 'title' => '¿Qué ventajas tiene el CRM de Escala?',
-                'text' => 'Esta pregunta es fundamental. Es importante que sepas que el CRM de Escala no solo cuenta con todas <br> opciones para gestionar tus contactos: información relacionada con el nombre, email y teléfono, y de <br> gestión de tu equipo comercial como: actividades, tareas, llamadas y recordatorios hasta cerrar la venta, <br> sino que también es el CRM más fácil de usar de todos. Pruébalo y descúbrelo por ti mismo. ',
+                'text' => 'Esta pregunta es fundamental. Es importante que sepas que el CRM de Escala no solo cuenta con todas opciones para gestionar <br> tus contactos: información relacionada con el nombre, email y teléfono, y de gestión de tu equipo comercial como: actividades, <br> tareas, llamadas y recordatorios hasta cerrar la venta, sino que también es el CRM más fácil de usar de todos. Pruébalo y <br> descúbrelo por ti mismo. ',
                 'type' => 'item',
             ],
             [
                 'title' => 'El Page builder de Escala ¿cómo funciona?',
-                'text' => 'El Page builder de Escala es el más robusto del mercado. Fácil de usar y práctico para realizar tus landing <br> pages optimizadas. Tenemos cientos de hermosas plantillas listas para que las personalices y en un clic <br> las puedas publicar.
+                'text' => 'El Page builder de Escala es el más robusto del mercado. Fácil de usar y práctico para realizar tus landing pages optimizadas. Tenemos cientos <br> de hermosas plantillas listas para que las personalices y en un clic las puedas publicar. Con formularios capaces de captar toda la data y <br> guardarla automáticamente en tu base de datos.
                 <br><br>
-                Con formularios capaces de captar toda la data y guardarla automáticamente en tu base de datos.
-                <br><br>
-                Fáciles de armar en minutos, 100% responsive y con dominio propio, si no lo tienes. Además ya tienen <br> integrado el botón de WhatsApp para que tus visitantes conversen directamente con tu equipo de <br> ventas.',
+                Fáciles de armar en minutos, 100% responsive y con dominio propio, si no lo tienes. Además ya tienen  integrado <br> el botón de WhatsApp para que tus visitantes conversen directamente con tu equipo de ventas.',
                 'type' => 'item',
             ],
             [
@@ -60,17 +63,17 @@ $items = [
             ],
             [
                 'title' => '¿Puedo agregar el botón de whatsApp en las landing pages de Escala?',
-                'text' => 'Las landing pages de Escala ya tienen disponible el botón de whatsApp para que tu cliente pueda tener <br> una conversación más fluida con tu empresa. Se puede encontrar en la pestaña de “WhatsApp” en cada <br> landing. Si la página ya está publicada, tendrás que re-publicarla después de activar el botón para que <br> aparezca  en tu página. <a class="hiperButtonGreenBlueT2" href="https://www.youtube.com/watch?v=5HOSPcDXdTQ&t=4s">Tutorial de Cómo activar botón de WhatsApp.</a> ',
+                'text' => 'Las landing pages de Escala ya tienen disponible el botón de whatsApp para que tu cliente pueda tener una conversación más <br> fluida con tu empresa. Se puede encontrar en la pestaña de “WhatsApp” en cada landing. Si la página ya está publicada, tendrás <br> que re-publicarla después de activar el botón para que aparezca  en tu página. <br class="space"> <a class="hiperButtonGreenBlueT2" href="https://www.youtube.com/watch?v=5HOSPcDXdTQ&t=4s">Tutorial de Cómo activar botón de WhatsApp.</a> ',
                 'type' => 'item',
             ],
             [
                 'title' => '¿Puedo publicar campañas de anuncios digitales en Escala?',
-                'text' => 'En Escala puedes crear, administrar y publicar anuncios digitales de Facebook, sin tener que salir de <br> nuestra plataforma. Elige a tu audiencia, presupuesto determinado y genera tráfico a tus landing pages <br> de la manera más fácil y práctica.',
+                'text' => 'En Escala puedes crear, administrar y publicar anuncios digitales de Facebook, sin tener que salir de nuestra plataforma. <br> Elige a tu audiencia, presupuesto determinado y genera tráfico a tus landing pages de la manera más fácil y práctica.',
                 'type' => 'item',
             ],
             [
                 'title' => '¿Qué tipo de campañas son las que se están creando desde Escala?',
-                'text' => 'En Escala puedes crear campañas de anuncios digitales de Facebook para lograr generar tráfico a tus <br> landing pages. Su objetivo es atraer posibles clientes (Captura de Leads) para que registren sus datos y <br> con esta información puedas cerrar más ventas.',
+                'text' => 'En Escala puedes crear campañas de anuncios digitales de Facebook para lograr generar tráfico a tus landing pages. Su objetivo <br> es atraer posibles clientes (Captura de Leads) para que registren sus datos y con esta información puedas cerrar más ventas.',
                 'type' => 'item',
             ],
             [
@@ -99,7 +102,7 @@ $items = [
     ],
     [
         'type' => 'master',
-        'title' => 'INTEGRACIONES',
+        'title' => 'Integraciones',
         'items' => [
             [
                 'title' => '¿Puedo usar mi propio dominio?',
@@ -130,7 +133,7 @@ $items = [
     ],
     [
         'type' => 'master',
-        'title' => 'PRECIOS Y MÉTODOS DE PAGO',
+        'title' => 'Precios y métodos de pago',
         'items' => [
             [
                 'title' => '¿Cuáles son los planes de precio de Escala?',
@@ -156,7 +159,7 @@ $items = [
     ],
     [
         'type' => 'master',
-        'title' => 'SEGURIDAD',
+        'title' => 'Seguridad',
         'items' => [
             [
                 'title' => '¿Qué tan seguro es?',
@@ -187,7 +190,7 @@ $items = [
     ],
     [
         'type' => 'master',
-        'title' => 'ASESORÍA',
+        'title' => 'Asesoría',
         'items' => [
             [
                 'title' => '¿Cómo conectar con un experto?',
@@ -229,7 +232,7 @@ $items = [
     ],
     [
         'type' => 'master',
-        'title' => 'ENTRENAMIENTO',
+        'title' => 'Entrenamiento',
         'items' => [
             [
                 'title' => '¿Hay formas de aprender de marketing y ventas para mejorar mi negocio?',
@@ -276,8 +279,16 @@ $parameters = [
             @endphp
 
             <div class="accordion-item itemParent">
-                <h3 class="accordion-header parent" id="{{ $cid }}_headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <h3 class="accordion-header parent" id="{{ $cid }}_headingOne" @if (isset($val['hideTitle']) && $val['hideTitle'] == true)
+                    style="display: none!important;"
+                @endif>
+                    <button class="accordion-button
+                        @if (isset($val['open']) && $val['open'] == true)
+
+                        @else
+                            collapsed
+                        @endif
+                        " type="button" data-bs-toggle="collapse"
                         data-bs-target="#{{ $cid }}_collapseOne" aria-expanded="true"
                         aria-controls="{{ $cid }}_collapseOne">
 
@@ -286,7 +297,12 @@ $parameters = [
 
                     </button>
                 </h3>
-                <div id="{{ $cid }}_collapseOne" class="accordion-collapse collapse"
+                <div id="{{ $cid }}_collapseOne" class="accordion-collapse
+                        @if (isset($val['open']) && $val['open'] == true)
+                            show
+                        @else
+                            collapse
+                        @endif"
                     aria-labelledby="{{ $cid }}_headingOne">
                     <div class="accordion-body">
 
@@ -306,7 +322,11 @@ $parameters = [
                                         @endphp
 
                                         <div class="accordion-item itemChild">
-                                            <h4 class="accordion-header child" id="{{ $inner_cid }}_headingOne">
+                                            <h4 class="accordion-header child
+                                            @if (isset($val2['open']) && $val2['open'] == true)
+                                                openChildContain
+                                            @endif
+                                            " id="{{ $inner_cid }}_headingOne">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#{{ $inner_cid }}_collapseOne"
                                                     aria-expanded="true"
@@ -317,7 +337,13 @@ $parameters = [
                                                 </button>
                                             </h4>
                                             <div id="{{ $inner_cid }}_collapseOne"
-                                                class="accordion-collapse collapse"
+                                                class="accordion-collapse
+                                                @if (isset($val2['open']) && $val2['open'] == true)
+                                                    show
+                                                @else
+                                                    collapse
+                                                @endif
+                                                "
                                                 aria-labelledby="{{ $inner_cid }}_headingOne">
                                                 <div class="accordion-body">
 

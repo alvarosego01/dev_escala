@@ -325,10 +325,14 @@
                                     font-family: Nunito
                                     font-style: normal
                                     font-weight: 300
-                                    font-size: 14px
+                                    font-size: 16px
                                     line-height: 19px
                                     letter-spacing: -1px
                                     margin-bottom: 25px
+                                    @include responsivo(telefonoTable)
+                                        text-align: center
+                                    @include responsivo(pcMedio)
+                                        text-align: center
                                 .listCustom
                                     ul
                                         margin: 0
