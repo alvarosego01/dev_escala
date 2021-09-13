@@ -658,26 +658,28 @@
                 padding-left: 0
             p.text,
             ul *
-                font-size: 18px
                 font-family: Nunito
-                font-weight: 500
-                line-height: 22.5px
+                font-style: normal
+                font-weight: 300
+                font-size: 15px
+                line-height: 19px
                 color: $colorGrey3
                 padding-left: 20px
                 @include responsivo(telefonoTable)
                     font-size: 16px!important
                     padding: 0
                     br
-                        display: none!important
+                        display: none
                 @include responsivo(pcMedio)
                     font-size: 20px!important
                     padding: 0
                     br
-                        display: none!important
+                        display: none
             ul.accordionSpecial
                 list-style: none
                 li
                     color: $colorBlue
+                    margin-bottom: 5px
                     // padding-left: 12.5px
                     &::before
                         content: "\2022"

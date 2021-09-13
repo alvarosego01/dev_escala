@@ -38,8 +38,7 @@ br
     @include responsivo(telefonoTable)
         display: none
 br.space
-    @include responsivo(telefonoTable)
-        display: block!important
+    display: block!important
 
 
 html,
@@ -1039,3 +1038,16 @@ input[type=range]
       border: 7px solid #5C5C5C
       cursor: pointer
       box-sizing: border-box
+
+
+
+.desktopElement
+    @include responsivo(telefonoTable)
+        display: none!important
+    @include responsivo(pcMedio)
+        display: none!important
+.mobileElement
+    @include responsivo(general)
+        display: none!important
+    @include responsivo(resto)
+        display: none!important

@@ -201,7 +201,9 @@
 
                             <div class="containerImage">
 
-                                <img alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_pricing.png') !!}"  loading="lazy">
+                                <img class="desktopElement" alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_pricing.png') !!}"  loading="lazy">
+
+                                <img class="mobileElement" alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto-arrow-down.png') !!}"  loading="lazy">
 
                               </div>
 
