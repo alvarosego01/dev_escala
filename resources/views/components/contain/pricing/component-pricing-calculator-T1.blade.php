@@ -103,7 +103,7 @@
                                 Número de contactos de marketing:
                             </h3>
                             <div class="customPriceInput">
-                                <input id="contactsField" type="number" value="3000">
+                                <input name="_contactsField" id="contactsField" type="number" value="3000">
                             </div>
 
                         </div>
@@ -112,7 +112,7 @@
                             <div class="customSelectorRange">
 
                                 <div class="slidecontainer">
-                                    <input id="rangeContacts" type="range" min="0" max="100" value="25"   class="sliderSelector" >
+                                    <input name="_rangeContacts" id="rangeContacts" type="range" min="0" max="100" value="25"   class="sliderSelector" >
                                 </div>
 
                                 <div class="rangeLimits">
@@ -175,7 +175,7 @@
                             </div>
 
                             <div class="customPriceInput">
-                                <input id="" min="1" type="number" value="5">
+                                <input name="_userAccess" id="userAccess" min="1" type="number" value="5">
                             </div>
 
                         </div>
@@ -216,10 +216,10 @@
 
                             <div class="buttonPriceSelector">
 
-                                <button id="buttonPayTime-year" class="selectorPricingButton">
+                                <button onclick="typeCustomPay('yearly')" id="buttonPayTime-year" class="selectorPricingButton">
                                     PAGAR ANUAL
                                 </button>
-                                <button id="buttonPayTime-month" class="selectorPricingButton">
+                                <button onclick="typeCustomPay('monthly')" id="buttonPayTime-month" class="selectorPricingButton">
                                     PAGAR MENSUAL
                                 </button>
 
@@ -236,8 +236,8 @@
                             <div class="offert">
 
                                 <p class="primaryText grayColorTexts5">
-                                    <span>$USD 540 Anual</span> <br class="space">
-                                    <strong>Ahorras USD $ 100</strong>
+                                    <span id="priceDotted">$USD 540 Anual</span> <br class="space">
+                                    <strong id="priceSaves">Ahorras USD $ 100</strong>
                                 </p>
 
                             </div>

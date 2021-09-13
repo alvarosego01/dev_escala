@@ -56,7 +56,7 @@ $items = [
                 'title' => 'El Page builder de Escala ¿cómo funciona?',
                 'text' => 'El Page builder de Escala es el más fácil de usar del mercado. Práctico para realizar tus landing pages optimizadas. Tenemos cientos de <br> hermosas plantillas listas para que las personalices y en un clic las puedas publicar. Con formularios capaces de captar toda la data y <br> guardarla automáticamente en tu base de datos.
                 <br><br>
-                Fáciles de armar en minutos, 100% responsive y con un subdominio en caso que no tengas dominio propias. Además ya tienen integrado <br> el botón de WhatsApp para que tus visitantes conversen directamente con tu equipo de ventas.',
+                Fáciles de armar en minutos, 100% responsive y con un subdominio en caso que no tengas dominio propio. Además ya tienen integrado <br> el botón de WhatsApp para que tus visitantes conversen directamente con tu equipo de ventas.',
                 'type' => 'item',
             ],
             [
@@ -65,8 +65,8 @@ $items = [
                 'type' => 'item',
             ],
             [
-                'title' => '¿Puedo agregar el botón de whatsApp en las landing pages de Escala?',
-                'text' => 'Las landing pages de Escala ya tienen disponible el botón de whatsApp para que tu cliente pueda tener una conversación más <br> fluida con tu empresa. Se puede encontrar en la pestaña de “WhatsApp” en cada landing. Si la página ya está publicada, tendrás <br> que re-publicarla después de activar el botón para que aparezca  en tu página. <br class="space"> <a class="hiperButtonGreenBlueT2" href="https://www.youtube.com/watch?v=5HOSPcDXdTQ&t=4s">Tutorial de Cómo activar botón de WhatsApp.</a> ',
+                'title' => '¿Puedo agregar el botón de WhatsApp en las landing pages de Escala?',
+                'text' => 'Las landing pages de Escala ya tienen disponible el botón de WhatsApp para que tu cliente pueda tener una conversación más <br> fluida con tu empresa. Se puede encontrar en la pestaña de “WhatsApp” en cada landing. Si la página ya está publicada, tendrás <br> que re-publicarla después de activar el botón para que aparezca  en tu página. <br class="space"> <a class="hiperButtonGreenBlueT2" href="https://www.youtube.com/watch?v=5HOSPcDXdTQ&t=4s">Tutorial de Cómo activar botón de WhatsApp.</a> ',
                 'type' => 'item',
             ],
             [
@@ -98,7 +98,7 @@ $items = [
                 'title' => '¿ Cuáles son las funcionalidades de automatizaciones y analíticas?',
                 'text' => 'En Escala te damos todas las métricas para optimizar tus resultados. Tanto en las funcionalidades de marketing como las de ventas <br> tienes dashboards amigables que te permiten ver en tiempo real las métricas que son importantes.
                 <br><br>
-                En Escala puedes automatizar flujos de tareas para tu fuerza de ventas, programar workflows de <br> comunicación y de email marketing, para que tu negocio crezca en piloto automático. ',
+                En Escala puedes automatizar flujos de tareas para tu fuerza de ventas, programar workflows de comunicación y de email marketing, <br> para que tu negocio crezca en piloto automático. ',
                 'type' => 'item',
             ],
         ],
@@ -134,7 +134,7 @@ $items = [
             ],
             [
                 'title' => '¿Cómo recupero mi contraseña?',
-                'text' => 'Si no recuerdas tu contraseña, haz clic en el link de recuperar y te enviaremos a tu correo <br> para gestionarla de nuevo.',
+                'text' => 'Si no recuerdas tu contraseña, haz clic en el link de recuperar y te enviaremos un correo <br> para gestionarla de nuevo.',
                 'type' => 'item',
             ],
             [
@@ -151,7 +151,7 @@ $items = [
         'items' => [
             [
                 'title' => '¿Cuáles son los planes de precio de Escala?',
-                'text' => 'En Escala tenemos planes a la medida de tus sueños y ganas de crecer. Solo pagas por lo que necesitas. Consulta nuestros precios: <br class="space">
+                'text' => 'En Escala tenemos planes a la medida de tus sueños y ganas de crecer. Solo pagas por lo que necesitas. <br> Consulta nuestros precios: <br class="space">
                 <a class="hiperButtonGreenBlueT2" href="'.$escalaUrl.'/pricing-page">Página de precios</a>',
                 'type' => 'item',
             ],
@@ -216,7 +216,7 @@ $items = [
                 <ul class="accordionSpecial" style="color: #34768A;">
                 <li>1. Ver nuestros tutoriales de uso en nuestro canal de youtube. <br class="space"> <a class="hiperButtonGreenBlueT2" href="https://www.youtube.com/channel/UCiDlXaq67qVf8lSTurRS8lQ">Escala en Youtube</a> </li>
                 <li>2. Hablar con un asesor. <br class="space"> <a class="hiperButtonGreenBlueT2" href="'.$escalaUrl.'/zoom-meeting">Link con asesor</a></li>
-                <li>3. Conversar por chat. <br class="space"> <a class="hiperButtonGreenBlueT2" href="https://api.whatsapp.com/send?phone=17863042407">Chat de whatsApp</a></li>
+                <li>3. Conversar por chat. <br class="space"> <a class="hiperButtonGreenBlueT2" href="https://api.WhatsApp.com/send?phone=17863042407">Chat de WhatsApp</a></li>
                 <li>4. Hablar con el Especialista en customer success asignado a tu cuenta (Plan Pro y Enterprise).</li>
                 </ul>',
                 'type' => 'item',
