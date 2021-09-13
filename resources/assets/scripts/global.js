@@ -10,7 +10,7 @@ function navScrollFixed() {
 
     if (window.pageYOffset > 0) {
         inner[0].classList.add("fixedNav")
-        console.log('altura', navBarHeight);
+
         navbar.css({
             'height': navBarHeight + 'px'
         })
@@ -28,7 +28,7 @@ function setResize(){
     window.addEventListener('resize', function(event) {
 
         navBarHeight = inner.height();
-        console.log('altura', navBarHeight);
+
     }, true);
 
 }
@@ -40,7 +40,7 @@ jQuery(document).ready(function () {
     window.onload = function (){
         setResize();
     }
-    console.log('altura', navBarHeight);
+
     window.onscroll = function () { navScrollFixed() };
 
 
