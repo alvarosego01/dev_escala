@@ -22,10 +22,10 @@ function navScrollFixed() {
     }
 }
 
-function setResize(){
+function setResize() {
 
     navBarHeight = inner.height();
-    window.addEventListener('resize', function(event) {
+    window.addEventListener('resize', function (event) {
 
         navBarHeight = inner.height();
 
@@ -33,11 +33,29 @@ function setResize(){
 
 }
 
+
+function _serializeFormToObject(form) {
+
+    var paramObj = {};
+    jQuery.each(jQuery(form).serializeArray(), function (_, kv) {
+        if (paramObj.hasOwnProperty(kv.name)) {
+            paramObj[kv.name] = jQuery.makeArray(paramObj[kv.name]);
+            paramObj[kv.name].push(kv.value);
+        }
+        else {
+            paramObj[kv.name] = kv.value;
+        }
+    });
+
+    return paramObj;
+
+}
+
 jQuery(document).ready(function () {
 
 
 
-    window.onload = function (){
+    window.onload = function () {
         setResize();
     }
 
