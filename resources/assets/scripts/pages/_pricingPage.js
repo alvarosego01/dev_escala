@@ -98,8 +98,6 @@ function getContactScale(n) {
             l.starter = l.starter + escalaContactsStarter[index];
             l.pro = l.pro + escalaContactsPro[index];
 
-            console.log('la suma l', l);
-
         }
     }
 
