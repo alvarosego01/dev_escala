@@ -619,10 +619,16 @@
         margin-bottom: 0
         letter-spacing: none!important
 
+    .hiperButtonGreenBlueT2
+        font-family: Nunito!important
+        font-style: normal
+        font-size: 13px!important
+
 
     ul
         padding-left: 0
         margin-left: 0
+        margin-bottom: 0!important
 
         li
             padding: 0
@@ -633,6 +639,8 @@
         padding-right: 0
     .accordion-item.itemChild
         padding: 0
+        border: 1px solid #C4C4C4!important
+        padding: 10px 22.5px
         // margin-bottom: 0
         @include responsivo(telefonoTable)
             padding-left: 0
@@ -642,28 +650,16 @@
             // background-color: white!important
             margin-bottom: 0
             // padding: 0 50px
-            padding: 7.5px
-            border: 1px solid #C4C4C4!important
-            padding-left: 75px
-            padding-right: 75px
-            @include responsivo(telefonoTable)
-                padding-left: 25px
-                padding-right: 25px
-
-            @include responsivo(pcMedio)
-                padding-left: 25px
-                padding-right: 25px
-
-            @include responsivo(general)
-                padding-left: 50px
-                padding-right: 50px
+            padding: 0
+            padding-left: 0
+            padding-right: 0
 
 
             button.accordion-button
                 color: $colorBlack2
                 box-shadow: none!important
                 i
-                    font-size: 18px
+                    font-size: 14px
                     color: $colorOrange
             button.collapsed
                 background-color: transparent
@@ -682,27 +678,17 @@
         h4.accordion-header.openChildContain
             button
                 i
-                    font-size: 20px
+                    font-size: 12px
                     color: $colorOrange!important
                     transform: rotate(0deg)!important
 
 
         .accordion-body
             // width: 85%
-            padding-left: 100px
-            padding-top: 27.5px
+            padding-left: 25px
+            padding-top: 25px
             padding-bottom: 5px
-            @include responsivo(telefonoTable)
-                padding-left: 25px
-                // padding-right: 25px
 
-            @include responsivo(pcMedio)
-                padding-left: 25px
-                // padding-right: 25px
-
-            @include responsivo(general)
-                padding-left: 100px
-                // padding-right: 50px
 
             padding-right: 0
             ul
@@ -744,30 +730,19 @@
         padding-bottom: 15px
         padding-right: 0
         border-bottom: 1px solid rgba(0,0,0,0.1)
+        padding-left: 0
         @include responsivo(telefonoTable)
             padding-bottom: 12.5px
         @include responsivo(pcMedio)
             padding-bottom: 12.5px
         h3.accordion-header
             margin-bottom: 0
-            padding-left: 75px
-            padding-right: 75px
-            @include responsivo(telefonoTable)
-                padding-left: 25px
-                padding-right: 25px
-
-            @include responsivo(pcMedio)
-                padding-left: 25px
-                padding-right: 25px
-
-            @include responsivo(general)
-                padding-left: 50px
-                padding-right: 50px
+            padding-left: 22.5px
             button.accordion-button
                 color: $colorOrange
                 box-shadow: none!important
                 i
-                    font-size: 18px
+                    font-size: 14px
                     color: $colorOrange
             button.collapsed
                 background-color: transparent
@@ -808,12 +783,13 @@
                 position: relative
                 padding-top: 0
                 padding-bottom: 0
+                padding-left: 0
                 i
                     // margin-right: 15px
                     display: block
                     margin: auto 0
-                    margin-right: 20px
-                    font-size: 18px
+                    margin-right: 15px
+                    font-size: 14px
                     // position: absolute
                     // left: -20px
                     // top: 0
