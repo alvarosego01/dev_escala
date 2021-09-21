@@ -276,6 +276,22 @@
 
     .innerSectionElement.sct2
         .groupElements
+            @include responsivo(telefonoTable)
+                width: 90%!important
+                margin-left: auto
+                margin-right: auto
+                display: flex
+                justify-content: center
+                align-content: center
+
+            @include responsivo(pcMedio)
+                width: 80%!important
+                margin-left: auto
+                margin-right: auto
+                display: flex
+                justify-content: center
+                align-content: center
+
             .infoGroup
                 display: flex
                 flex-direction: row
