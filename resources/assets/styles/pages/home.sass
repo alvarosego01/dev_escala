@@ -1,16 +1,50 @@
 
 @import "../common/global"
 
+#homeBootstrap
+    .customSection.sectionParent
+
+        .primaryTitle
+            font-family: Nunito
+            font-style: normal
+            font-weight: bold
+            font-size: 27px!important
+            line-height: 32px!important
+            text-align: center
+            // letter-spacing: -1px
+        .innerSectionElement.sct1
+            .primaryText
+                font-family: Nunito
+                font-style: normal
+                font-weight: 400
+                font-size: 15px
+                line-height: 17px
+                text-align: center
+                letter-spacing: -0.02em
+
+        .primaryText,
+        a.hiperButtonGreenBlue
+            font-family: Nunito
+            font-style: normal
+            font-weight: 400
+            font-size: 15px
+            line-height: 17px
+            letter-spacing: -0.02em
+        .secondaryTitle
+            font-family: Nunito
+            font-style: normal
+            font-weight: 700
+            font-size: 20px
+            line-height: 25px
+
+
+
 #homeBootstrap .customSection.sectionParent.homeSection0
     background-color: $colorBlueLight
-    padding-top: 125px
-    padding-bottom: 0
-    @include responsivo(telefonoTable)
-        padding-bottom: 50px
-        padding-top: 75px
-    @include responsivo(pcMedio)
-        padding-bottom: 50px
-        padding-top: 100px
+    padding-top: 65px
+    padding-bottom: 65px
+
+
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -18,10 +52,10 @@
             width: 90%
         @include responsivo(general)
             width: 100%!important
-            max-width: 1240px!important
+            max-width: 1140px!important
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1300px!important
+            max-width: 1240px!important
         .containerImage
             margin: 0
             padding: 0
@@ -36,58 +70,69 @@
     .section-row
         .innerSectionElement.sct1
             .groupElements
-                padding-bottom: 100px
+                // padding-bottom: 100px
                 @include responsivo(telefonoTable)
                     padding-bottom: 75px
 
                 @include responsivo(pcMedio)
                     padding-bottom: 100px
+                // @include responsivo(general)
+                    // padding-bottom: 25px
+
                 .info
                     // padding-bottom: 100px
                     // padding-bottom: 0
-
                     .containElements
                         position: relative
                         padding-bottom: 0
-
-
-                        .principalBigTitle
-                            // font-size: 50px
-                            // line-height:
-                            font-size: 54px
-                            line-height: 60px
-                            font-weight: 700
-                            font-family: Nunito
-                            margin-bottom: 20px
-                            @include responsivo(telefonoTable)
-                                font-size: 40px
-                                font-size: 45px
-                            @include responsivo(pcMedio)
-                                font-size: 50px
-                                line-height: 55px
+                        display: flex
+                        flex-direction: column
+                        .infoInner
+                            .principalBigTitle
+                                // font-size: 50px
+                                // line-height:
+                                // font-size: 54px
+                                // line-height: 60px
+                                // font-weight: 700
+                                // font-family: Nunito
+                                margin-bottom: 20px
+                                @include responsivo(telefonoTable)
+                                    font-size: 40px
+                                    font-size: 45px
+                                @include responsivo(pcMedio)
+                                    font-size: 50px
+                                    line-height: 55px
+                                    // margin-bottom: 25px
                                 // margin-bottom: 25px
-                            // margin-bottom: 25px
-                        .principalBigText
-                            font-size: 20px
-                            line-height: 28px
-                            font-weight: 400
-                            color: $colorBlack
-                            @include responsivo(telefonoTable)
-                                font-size: 20px
-                            @include responsivo(pcMedio)
-                                font-size: 20px
-                            @include responsivo(general)
-                                width: 50vw
-                            @include responsivo(resto)
-                                width: 700px
-                            margin-bottom: 40px
+                            .principalBigText
+                                font-family: Nunito
+                                font-style: normal
+                                font-weight: normal
+                                font-size: 16px
+                                line-height: 19px
+                                color: $colorBlack
+                                @include responsivo(telefonoTable)
+                                    font-size: 20px
+                                @include responsivo(pcMedio)
+                                    font-size: 20px
+                                @include responsivo(general)
+                                    width: 50vw
+                                @include responsivo(resto)
+                                    width: 700px
+                                margin-bottom: 40px
                         .containerImage
-                            position: absolute
-                            right: -12.5%
-                            top: 60%
-                            img
-                                height: 400px
-                                margin-left: 0
+                            @include responsivo(general)
+                                top: 55%
+                                left: 20.5%
+                                position: absolute
+                                img
+                                    height: 400px
+                            @include responsivo(resto)
+                                left: 22%
+                                bottom: -200%
+                                position: absolute
+                                img
+                                    height: 455px
                         @include responsivo(telefonoTable)
                             .principalBigTitle
                                 line-height: normal!important
@@ -110,24 +155,10 @@
                                 img
                                     height: 400px
                                     margin: 0 auto
-                        @include responsivo(specialTexts)
-                            .containerImage
-                                position: unset
-                                img
-                                    height: 250px
-                                    margin: 0 auto
-                        @include responsivo(general)
-                            .containerImage
-                                top: 13vw
-                                right: -12.5%
-                                img
-                                    height: 25vw
+
+
                 .form7
                     .formatForm
-                        @include responsivo(general)
-                            max-width: 400px
-                        @include responsivo(resto)
-                            max-width: 400px
                         span.wpcf7-form-control-wrap.your-phone
                             display: flex
                             justify-content: space-around
@@ -184,7 +215,7 @@
 
 #homeBootstrap .customSection.sectionParent.homeSection1
     .innerSectionElement.sct1
-        margin-bottom: 50px
+        margin-bottom: 25px
         .containElements
             .primaryTitle,
             p.primaryText
@@ -197,7 +228,7 @@
                 .containerImage
                     img
 
-                        height: 175px
+                        height: 165px
                         // display: none
                         margin: 0 auto
                 .secondaryTitle
@@ -213,16 +244,18 @@
                         img
                             height: 175px!important
 
+                    // letter-spacing: -1px
+
 
 #homeBootstrap .customSection.sectionParent.homeSection2
     background-color: $colorBlueLight
     .section-row
         @include responsivo(general)
             width: 100%!important
-            max-width: 1240px!important
+            max-width: 1140px!important
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1300px!important
+            max-width: 1250px!important
     .innerSectionElement.sct1
         margin-bottom: 50px
         .containElements
@@ -237,10 +270,18 @@
                 flex-direction: row
                 .containerImage
                     img
-                        height: 160px!important
-                        width: 150px!important
+                        height: 175px!important
+                        width: 165px!important
                 .containerElements
                     padding: 10px
+                    .secondaryTitle
+                        margin-bottom: 10px
+                    @include responsivo(general)
+                        height: 140px
+                        margin: auto 0
+                    @include responsivo(resto)
+                        height: 140px
+                        margin: auto 0
                 @include responsivo(telefonoTable)
                     flex-direction: column
                     margin-bottom: 30px
@@ -277,7 +318,7 @@
     .backgroundFull.sct1
         background-position: center
         background-size: cover
-        height: 325px
+        height: 300px
         position: relative
         display: flex
         @include responsivo(telefonoTable)
@@ -408,12 +449,7 @@
                 @include responsivo(pcMedio)
                     margin-bottom: 25px
                     // display: block
-                .commonTitle
-                    font-size: 24px
-                    font-weight: 600
-                    margin-bottom: 5px
-                    @include responsivo(general)
-                        font-size: 22px
+
 
                 .containerImage
                     padding: 0!important
@@ -459,15 +495,19 @@
                         content: ''
                         border-left: 1px solid $colorGreenBlue
                         left: 0
-                        top: 0
+                        top: 5px
                         bottom: 0
-                        height: 75%
+                        height: 85%
                         width: 1px
                         margin: auto 0
                         display: block
                         position: absolute
                     span
+                        position: relative
+                        top: 5px
+                        margin: 5px 0
                         font-size: 14px
+
                     @include responsivo(telefonoTable)
                         padding-bottom: 12.5px
                         margin-bottom: 12.5px
@@ -519,9 +559,12 @@
                     height: fit-content
                     margin: auto
                     .primaryTitle
-                        margin-bottom: 50px
+                        margin-bottom: 25px
+                        text-align: left
                     p.primaryText
-                        margin-bottom: 50px
+                        margin-bottom: 25px
+                        text-align: left
+                        // font-size: 18p
                     // a.primaryButton
                     @include responsivo(telefonoTable)
                         display: flex
@@ -577,6 +620,7 @@
 
 #homeBootstrap .customSection.sectionParent.homeSection6
     padding-top: 60px
+    padding-bottom: 50px
     .innerSectionElement.sct1
         margin-bottom: 50px
         .containElements
@@ -630,12 +674,24 @@
                     justify-content: space-between
                     // margin: 30px
 
-                    // .commonTitle
-                        // font-weight: 600
+                    .secondaryTitle
+                        @include responsivo(telefonoTable)
+                            text-align: center
+                        @include responsivo(pcMedio)
+                            text-align: center
                     span.tag
                         margin-bottom: 20px
+                        font-weight: bold
                     p
                         margin-bottom: 50px
+                        font-weight: 300
+                    span.tag,
+                    p
+                        font-family: Nunito
+                        font-style: normal
+                        font-size: 13px
+                        line-height: 22px
+
                     .referElements
                         display: flex
                         justify-content: space-between
@@ -650,6 +706,7 @@
                             .commonText
                                 text-align: right
                     .commonText
+                        line-height: 19px
                         @include responsivo(telefonoTable)
                             text-align: center
                         @include responsivo(pcMedio)
@@ -697,9 +754,9 @@
 #homeBootstrap .customSection.sectionParent.homeSection7
 
     // display: none
-    background-color: $colorGreyLight
+    background-color: white
     .section-row
-        padding-top: 60px
+        // padding-top: 60px
         padding-bottom: 100px
         @include responsivo(telefonoTable)
             width: 95%
@@ -712,7 +769,7 @@
             width: 100%!important
             max-width: 1100px!important
     .innerSectionElement.sct1
-        margin-bottom: 50px
+        margin-bottom: 25px
         .containElements
             .primaryTitle
                 text-align: center

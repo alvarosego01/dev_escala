@@ -8,7 +8,7 @@
 
             <div class="containElements">
 
-                <h2 class="primaryTitle greenBlueColor">
+                <h2 class="primaryTitle blackColor2">
                     Preguntas Frecuentes
                 </h2>
 

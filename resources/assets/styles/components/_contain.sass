@@ -608,21 +608,21 @@
     *
         background-color: transparent!important
     p.text,
+    li,
     ul *
-        font-family: Nunito
+        font-family: Nunito!important
         font-style: normal
-        font-weight: 300
-        line-height: 16px
-        color: $colorGrey3
-        padding-left: 0
-        font-size: 14px
-        margin-left: 0
+        font-weight: 300!important
+        font-size: 13px!important
+        line-height: 18px!important
+        color: #606267!important
+        margin-bottom: 0
+        letter-spacing: none!important
 
-        @include responsivo(resto)
-            font-size: 15px
 
     ul
         padding-left: 0
+        margin-left: 0
 
         li
             padding: 0
@@ -663,7 +663,7 @@
                 color: $colorBlack2
                 box-shadow: none!important
                 i
-                    font-size: 25px
+                    font-size: 20px
                     color: $colorOrange
             button.collapsed
                 background-color: transparent
@@ -675,23 +675,14 @@
                 font-family: Nunito
                 font-style: normal
                 font-weight: 600
-                font-size: 22px
+                font-size: 16px
                 line-height: 125.1%
-                letter-spacing: -0.02em
-                @include responsivo(telefonoTable)
-                    font-size: 18px
-
-                @include responsivo(pcMedio)
-                    font-size: 20px
-
-                @include responsivo(general)
-                    font-size: 20px
 
 
         h4.accordion-header.openChildContain
             button
                 i
-                    font-size: 25px
+                    font-size: 20px
                     color: $colorOrange!important
                     transform: rotate(0deg)!important
 
@@ -699,8 +690,8 @@
         .accordion-body
             // width: 85%
             padding-left: 100px
-            padding-top: 25px
-            padding-bottom: 20px
+            padding-top: 27.5px
+            padding-bottom: 5px
             @include responsivo(telefonoTable)
                 padding-left: 25px
                 // padding-right: 25px
@@ -750,7 +741,7 @@
         flex-direction: column
         margin-bottom: 25px
         // padding: 0 50px
-        padding-bottom: 25px
+        padding-bottom: 15px
         padding-right: 0
         border-bottom: 1px solid rgba(0,0,0,0.1)
         @include responsivo(telefonoTable)
@@ -776,7 +767,7 @@
                 color: $colorOrange
                 box-shadow: none!important
                 i
-                    font-size: 25px
+                    font-size: 20px
                     color: $colorOrange
             button.collapsed
                 background-color: transparent
@@ -787,14 +778,8 @@
                 font-family: Nunito
                 font-style: normal
                 font-weight: 600
-                font-size: 27px
+                font-size: 20px
                 line-height: 125.1%
-                @include responsivo(telefonoTable)
-                    font-size: 18px
-                @include responsivo(pcMedio)
-                    font-size: 22px
-                @include responsivo(general)
-                    font-size: 22px
 
         .accordion-body
             padding-top: 15px
@@ -805,7 +790,8 @@
 
     .accordion-item
         border: 0
-        margin-bottom: 10px
+        margin-bottom: 0
+        margin-top: 12.5px
         .accordion-header
             width: 100%
             text-align: left
@@ -820,11 +806,14 @@
                 background-color: transparent
                 border: none!important
                 position: relative
+                padding-top: 0
+                padding-bottom: 0
                 i
                     // margin-right: 15px
                     display: block
                     margin: auto 0
                     margin-right: 20px
+                    font-size: 20px
                     // position: absolute
                     // left: -20px
                     // top: 0

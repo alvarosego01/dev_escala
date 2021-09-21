@@ -13,14 +13,14 @@ $items = [
                 // 'open' => open,
                 'type' => 'item',
                 'title' => '¿Qué es Escala?',
-                'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas que te ayudará a acelerar el éxito de tu negocio, con todas las <br> herramientas en un solo lugar para crecer de una manera constante. Conoce todos los beneficios de Escala:<br>
-                <ul style="list-style: disc; margin-left: 35px" >
-                <li><p>Crea landing pages increíbles sin programar, para darte a conocer y capturar la información de tus visitantes.</p></li>
-                <li><p>Crea, administra y publica anuncios digitales de Facebook, sin salir de Escala, para generar tráfico a tus páginas.</p></li>
-                <li><p>Gestiona tu base de datos y haz más productivo el trabajo de tu equipo de ventas con el CRM más fácil de usar.</p></li>
-                <li><p>Mantén la comunicación constante con tus leads y clientes enviando emails masivos sin caer en la bandeja de spam.</p></li>
-                <li><p>Automatiza tareas repetitivas: workflows y campañas de emails para hacer crecer tu negocio en piloto automático.</p></li>
-                <li><p>Mide y optimiza tus campañas digitales con las analíticas en tiempo real.</p></li>
+                'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas que te ayudará a acelerar el éxito de tu negocio, con todas las <br> herramientas en un solo lugar para crecer de una manera constante. Conoce todos los beneficios de Escala:<br class="space"> <br class="space">
+                <ul style="list-style: none;" >
+                <li><p>- Crea landing pages increíbles sin programar, para darte a conocer y capturar la información de tus visitantes.</p></li>
+                <li><p>- Crea, administra y publica anuncios digitales de Facebook, sin salir de Escala, para generar tráfico a tus páginas.</p></li>
+                <li><p>- Gestiona tu base de datos y haz más productivo el trabajo de tu equipo de ventas con el CRM más fácil de usar.</p></li>
+                <li><p>- Mantén la comunicación constante con tus leads y clientes enviando emails masivos sin caer en la bandeja de spam.</p></li>
+                <li><p>- Automatiza tareas repetitivas: workflows y campañas de emails para hacer crecer tu negocio en piloto automático.</p></li>
+                <li><p>- Mide y optimiza tus campañas digitales con las analíticas en tiempo real.</p></li>
                 </ul>',
             ],
             [
@@ -108,7 +108,7 @@ $items = [
                 'type' => 'item',
             ],
             [
-                'title' => 'En los anuncios digitales de Escala, ¿la propia plataforma maneja <br> el píxel de Facebook o hay que integrarlo desde 0?',
+                'title' => 'En los anuncios digitales de Escala, ¿la propia plataforma maneja el píxel de Facebook o hay que integrarlo desde 0?',
                 'text' => 'Para agregar el píxel de Facebook debes ir a "configuración" de Escala, entra a la sección de "píxeles y códigos de seguimiento" y <br> darle clic a "agregar cuenta". Así de fácil es agregar el píxel de Facebook.',
                 'type' => 'item',
             ],
@@ -243,7 +243,7 @@ $items = [
                 'type' => 'item',
             ],
             [
-                'title' => '¿Con quién puedo conectar / hablar con alguien / recibir asistencia?',
+                'title' => '¿Con quién puedo conectar para recibir asistencia?',
                 'text' =>
                     '<span style="color: #34768A">Si tienes dudas sobre cualquier cosa puedes: </span>
                 <br>
@@ -275,7 +275,7 @@ $items = [
         'title' => 'Entrenamiento',
         'items' => [
             [
-                'title' => '¿Hay formas de aprender de marketing y ventas <br> para mejorar mi negocio?',
+                'title' => '¿Hay formas de aprender marketing y ventas para mejorar mi negocio?',
                 'text' => 'Escala Academy es el programa de formación constante, mediante el cual te daremos todo el conocimiento de marketing digital y <br> ventas para hacerte un experto.
                 <br><br>
                 Escala Academy:
@@ -321,28 +321,19 @@ $parameters = [
                     style="display: none!important;"
         @endif>
         <button
-            class="accordion-button
-                        @if (isset($val['open']) && $val['open'] == true)
-
-                        @else
-                            collapsed
-                        @endif
-                        "
+            class="accordion-button"
             type="button" data-bs-toggle="collapse" data-bs-target="#{{ $cid }}_collapseOne"
             aria-expanded="true" aria-controls="{{ $cid }}_collapseOne">
 
-            <i class="fa fa-caret-right" aria-hidden="true"></i>
+            {{-- <i class="fa fa-chevron-right" aria-hidden="true"></i> --}}
+
+
             <span>{!! $val['title'] !!}</span>
 
         </button>
         </h3>
         <div id="{{ $cid }}_collapseOne"
-            class="accordion-collapse
-                        @if (isset($val['open']) && $val['open'] == true)
-                            show specialSection
-                        @else
-                            collapse
-                        @endif"
+            class="accordion-collapse   show specialSection"
             aria-labelledby="{{ $cid }}_headingOne">
             <div class="accordion-body">
 
@@ -379,7 +370,8 @@ $parameters = [
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#{{ $inner_cid }}_collapseOne"
                                             aria-expanded="true" aria-controls="{{ $inner_cid }}_collapseOne">
-                                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
                                             <span>{!! $val2['title'] !!}</span>
 
                                         </button>

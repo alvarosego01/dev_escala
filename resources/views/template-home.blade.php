@@ -32,23 +32,26 @@
 
               <div class="groupElements row">
 
-                  <div class="info col-md-12 col-lg-6">
+                  <div class="info col-md-12 col-lg-8">
 
                       <div class="containElements">
 
+                        <div class="infoInner">
 
                           <h1 class="principalBigTitle blackColor">
-                              Genera más leads,<br> <span class="greenBlueColor">clientes y ventas</span>
+                            Genera más leads,<br class="space"> <span class="greenBlueColor">clientes y ventas</span>
                           </h1>
                           <p class="principalBigText grayColorTexts">
-                            Con Escala, la plataforma <br>
-                            de marketing digital y ventas <br>
-                            más completa y fácil de utilizar.
+                            Con Escala, la plataforma de marketing digital <br class="space">
+                            y ventas más completa y fácil de utilizar.
                           </p>
+
+                        </div>
+
 
                           <div class="containerImage">
                               <img alt="Genera más leads, clientes y ventas con Escala"
-                                  src="{!! App::setFilePath('/assets/images/person/am/andres_moreno_otto1.png') !!}" alt="" loading="lazy">
+                                  src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_home1.png') !!}" alt="" loading="lazy">
                           </div>
 
 
@@ -57,7 +60,7 @@
 
 
                   </div>
-                  <div class="form7 col-md-12 col-lg-6">
+                  <div class="form7 col-md-12 col-lg-4">
 
                       <div class="containElements">
 
@@ -158,7 +161,7 @@
               </div>
 
 
-              <h3 class="secondaryTitle"><span class="greenBlueColor">Cierra</span> <br class="space"> más ventas</h3>
+              <h3 class="secondaryTitle"><span class="greenBlueColor">Cierra</span> más <br class="space"> ventas</h3>
 
             </div>
           </div>
@@ -250,7 +253,7 @@
 
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">Envía emails de marketing <br> profesionales</h3>
-                  <p class="primaryText  grayColorTexts">Personalizados y masivos, sin caer en la <br> bandeja de SPAM</p>
+                  <p class="primaryText  grayColorTexts">Personalizados y masivos, sin caer <br> en la bandeja de SPAM</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/email/">
                     Conocer más
                   </a>
@@ -385,7 +388,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="commonTitle blackColor">Una herramientas <br class="space"> muy amigable</h3>
+                  <h3 class="secondaryTitle blackColor">Una herramientas <br class="space"> muy amigable</h3>
                   <p class="primaryText grayColorTexts">
                     Para mercadeo y ventas <br class="space">
                     <span class="greenBlueColor">
@@ -403,7 +406,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="commonTitle blackColor">Un equipo de servicio <br class="space"> extraordinario y bien entrenado</h3>
+                  <h3 class="secondaryTitle blackColor">Un equipo de servicio <br class="space"> extraordinario y bien entrenado</h3>
                   <p class="primaryText grayColorTexts">
                     Tienen un equipo atento <br class="space">
                     y disponible cuando lo necesitas
@@ -423,7 +426,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="commonTitle blackColor">No dependes de un equipo <br class="space"> técnico o de programación</h3>
+                  <h3 class="secondaryTitle blackColor">No dependes de un equipo <br class="space"> técnico o de programación</h3>
                   <p class="primaryText grayColorTexts">
                     Cualquiera con nivel básico <br>
                     sabría utilizar escala. <br class="space">
@@ -442,7 +445,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="commonTitle blackColor">Todas las funcionalidades <br class="space"> en un solo lugar</h3>
+                  <h3 class="secondaryTitle blackColor">Todas las funcionalidades <br class="space"> en un solo lugar</h3>
                   <p class="primaryText grayColorTexts">
                     Escala programa las páginas por ti <br class="space">
                     <span class="greenBlueColor">
@@ -459,7 +462,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="commonTitle blackColor">
+                  <h3 class="secondaryTitle blackColor">
                     Todo está 100% en español
                   </h3>
                   <p class="primaryText grayColorTexts">
@@ -500,9 +503,11 @@
                 <h2 class="primaryTitle blackColor"><span class="greenBlueColor">Te acompañamos</span> <br> en tu camino al éxito</h2>
 
 
-                <p class="primaryText grayColorTexts">
-                  <strong>¿No estás seguro de qué hacer o cómo avanzar?</strong> <br class="space">
-                  Nuestros estrategas expertos en marketing digital y ventas <br> conocen acerca de tus necesidades y comparten conocimientos <br> probados para conseguir mejores resultados.
+                <p class="primaryText blackColor3">
+
+                  <strong>¿No estás seguro de qué hacer o cómo avanzar?</strong> <br>
+                  Nuestros estrategas expertos en marketing digital y ventas conocen acerca de tus <br> necesidades y comparten  conocimientos probados para conseguir mejores resultados.
+
                 </p>
 
                 <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
@@ -552,9 +557,9 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h3 class="commonTitle blackColor">Agencia de Publicidad</h3>
+                  <h3 class="secondaryTitle blackColor">Agencia de Publicidad</h3>
                   <span class="tag greenBlueColor">El Salvador</span>
-                  <p class="commonText grayColorTexts"><strong>Escala</strong> tiene el email builder más amigable que he utilizado en los últimos años, y su equipo está comprometido a mantener la plataforma en constante actualización en el dinámico mundo digital.</p>
+                  <p class="commonText grayColorTexts">“Escala tiene el email builder más amigable que he utilizado en los últimos años, y su equipo está comprometido a mantener la plataforma en constante actualización en el dinámico mundo digital.”</p>
                 </div>
                 <div class="referElements">
                   <div class="containerImage">
@@ -576,10 +581,10 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h3 class="commonTitle blackColor">Agencia de Marketing</h3>
+                  <h3 class="secondaryTitle blackColor">Agencia de Marketing</h3>
                   <span class="tag greenBlueColor">México</span>
                   <p class="commonText grayColorTexts">
-                    Primera vez que me atienden de esta manera y mi equipo y yo lo agradecemos enormemente. Además de tener una herramienta bien integrada y muy sencilla de utilizar, el acompañamiento del equipo es A1. La atención está cuando la necesitas, el nivel de seguimiento al trabajar juntos… ni siquiera con los de Facebook o Google tenemos un servicio similar. Felicidades porque tienen un equipo de trabajo increíble y todo hace que sean muchos los beneficios que <strong>Escala</strong> le aporta a sus clientes.
+                    “Son muchas herramientras integradas en un solo sitio, una herramienta muy sencilla de utilizar y le da mucho beneficio al cliente. Nunca me habían atendido de esta manera en ningún tipo de plataforma similar. Primera vez que me atienden de esta manera y agradecidos enormemente. Felicidades porque tienen un equipo de trabajo increíble.”
                   <p>
                 </div>
                 <div class="referElements">
@@ -604,9 +609,11 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h3 class="commonTitle blackColor">Turismo</h3>
+                  <h3 class="secondaryTitle blackColor">Turismo</h3>
                   <span class="tag greenBlueColor">Venezuela</span>
-                  <p class="commonText grayColorTexts">“Yo ya había utilizado un CRM y otras plataformas que tienen más o menos la misma esencia. Encontrarme con <strong>Escala</strong> fue importante porque es más completa. Tienes todo lo que necesitas, desde captar el interés de los clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi mercado se redujo por la pandemia, <strong>Escala</strong> es sumamente oportuno. Además, estoy muy contenta por todo el apoyo que he recibido por el equipo de <strong>Escala</strong>.”</p>
+                  <p class="commonText grayColorTexts">
+                    “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos la misma esencia. Encontrarme con Escala fue importante porque es más completa. Tienes todo lo que necesitas, desde captar el interés de los clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi mercado se redujo por la pandemia, Escala es sumamente oportuno. Además, estoy muy contenta por todo el apoyo que he recibido por el equipo de Escala.”
+                  </p>
                 </div>
                 <div class="referElements">
                   <div class="containerImage">
@@ -628,11 +635,15 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h3 class="commonTitle blackColor">Agencia de Comunicaciones</h3>
+                  <h3 class="secondaryTitle blackColor">Agencia de Comunicaciones</h3>
                   <span class="tag greenBlueColor">Costa Rica</span>
-                  <p class="commonText grayColorTexts">La herramienta es muy amigable, y permite que la gestión pueda realizarla casi que cualquier persona con conocimientos básicos en plataformas digitales. <br>
-                    El servicio es expedito y el equipo a cargo se preocupa por extender capacitaciones necesarias que garantizan que los equipos estén sacando el mayor provecho de la herramienta.<br>
-                    La organización visual de la pantalla de entrada es muy intuitiva, esto permite la exploración y el autoaprendizaje de las diferentes variables que se pueden configurar en la plataforma.</p>
+                  <p class="commonText grayColorTexts">
+                    La herramienta es muy amigable, y permite que la gestión pueda realizarla casi que cualquier persona con conocimientos básicos en plataformas digitales.
+                    <br class="space">
+                    El servicio es expedito y el equipo a cargo se preocupa por extender capacitaciones necesarias que garantizan que los equipos estén sacando el mayor provecho de la herramienta.
+                    <br class="space">
+                    La organización visual de la pantalla de entrada es muy intuitiva, esto permite la exploración y el autoaprendizaje de las diferentes variables que se pueden configurar en la plataforma.
+                  </p>
                 </div>
                 <div class="referElements">
                   <div class="containerImage">
@@ -656,7 +667,7 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h3 class="commonTitle blackColor">Academia de Coaching</h3>
+                  <h3 class="secondaryTitle blackColor">Academia de Coaching</h3>
                   <span class="tag greenBlueColor">Estados Unidos</span>
                   <p class="commonText grayColorTexts">¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad de lanzamientos de iniciativas de aprendizaje y crecimiento!!! 🔥🔥🔥🔥👏👏👏👏🙌</p>
                 </div>
@@ -680,9 +691,11 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-                  <h3 class="commonTitle blackColor">Entretenimiento Deportivo</h3>
+                  <h3 class="secondaryTitle blackColor">Entretenimiento Deportivo</h3>
                   <span class="tag greenBlueColor">Venezuela</span>
-                  <p class="commonText grayColorTexts">Felicitaciones al equipo de <strong>Escala</strong>, pues de verdad la plataforma me gusta bastante. Posee herramientas muy útiles y lo mejor es que es simple de manipular.</p>
+                  <p class="commonText grayColorTexts">
+                    Felicitaciones al equipo de Escala, pues de verdad la plataforma me gusta bastante. Posee herramientas muy útiles y lo mejor es que es simple de manipular.
+                  </p>
                 </div>
                 <div class="referElements">
                   <div class="containerImage">

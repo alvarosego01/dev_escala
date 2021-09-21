@@ -200,6 +200,9 @@ br.space
 .blackColor2
     color: $colorBlack2
 
+.blackColor3
+    color: $colorBlack3
+
 .orangeColor
     color: $colorOrange
 
@@ -220,15 +223,16 @@ span.tag
 
 .principalBigTitle
     font-family: Nunito
-    font-size: 57px
-    line-height: 1
+    font-style: normal
     font-weight: bold
-    margin-bottom: 20px
+    font-size: 35px
+    line-height: 36px
+    letter-spacing: -2px
     @include responsivo(telefonoTable)
         font-size: 30px
         line-height: 32.5px
     @include responsivo(pcMedio)
-        font-size: 50px
+        font-size: 36px
 
 .principalBigText
     line-height: 38px
@@ -294,15 +298,15 @@ span.tag
         font-size: 25px!important
 
 .primaryText
-    line-height: 24px!important
+    line-height: 24px
     font-size: 18px
     font-family: Nunito
     // display: none
     @include responsivo(telefonoTable)
-        line-height: 24px!important
+        line-height: 24px
         font-size: 18px
     @include responsivo(pcMedio)
-        line-height: 24px!important
+        line-height: 24px
         font-size: 18px
 
 .secondaryText
@@ -364,12 +368,10 @@ a[disabled]
 
 .primaryButton
     display: inline-block
-    line-height: 1
     text-decoration: none
-    font-size: 20px
+    font-size: 18px
     line-height: 1
-    // font-weight: 700
-    padding: 15px 25px
+    padding: 10px 20px
     color: $colorWhite
     background-color: $colorOrange
     border-radius: 5px
@@ -382,10 +384,10 @@ a[disabled]
         font-size: 18px
     @include responsivo(pcMedio)
         // padding: 10px 20px
-        padding: 15px 30px 15px 30px
+        padding: 10px 20px
         font-size: 18px
     @include responsivo(general)
-        padding: 14px 40px 14px 40px
+        padding: 10px 20px
         font-size: 18px
 
 
