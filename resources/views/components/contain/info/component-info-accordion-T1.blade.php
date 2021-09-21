@@ -321,19 +321,28 @@ $parameters = [
                     style="display: none!important;"
         @endif>
         <button
-            class="accordion-button"
+            class="accordion-button
+                        @if (isset($val['open']) && $val['open'] == true)
+
+                        @else
+                            collapsed
+                        @endif
+                        "
             type="button" data-bs-toggle="collapse" data-bs-target="#{{ $cid }}_collapseOne"
             aria-expanded="true" aria-controls="{{ $cid }}_collapseOne">
 
             {{-- <i class="fa fa-chevron-right" aria-hidden="true"></i> --}}
-
-
             <span>{!! $val['title'] !!}</span>
 
         </button>
         </h3>
         <div id="{{ $cid }}_collapseOne"
-            class="accordion-collapse   show specialSection"
+            class="accordion-collapse
+                        @if (isset($val['open']) && $val['open'] == true)
+                            show specialSection
+                        @else
+                            collapse
+                        @endif"
             aria-labelledby="{{ $cid }}_headingOne">
             <div class="accordion-body">
 
@@ -371,7 +380,6 @@ $parameters = [
                                             data-bs-toggle="collapse" data-bs-target="#{{ $inner_cid }}_collapseOne"
                                             aria-expanded="true" aria-controls="{{ $inner_cid }}_collapseOne">
                                             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-
                                             <span>{!! $val2['title'] !!}</span>
 
                                         </button>
