@@ -254,7 +254,7 @@
             align-items: center
             align-content: center
             position: relative
-            padding: 75px
+            padding: 80px
             @include responsivo(telefonoTable)
                 flex-direction: column
                 padding: 0
@@ -263,9 +263,12 @@
                 padding: 0
             .image
                 position: absolute
-                left: 0
+                left: 5%
                 top: 0
                 bottom: 0
+                display: flex
+                justify-content: center
+                align-content: center
                 img
                     height: 225px
                 @include responsivo(telefonoTable)
@@ -274,6 +277,12 @@
                     position: unset
                 @include responsivo(general)
                     left: 0%
+                .containElements
+                    display: block
+                    margin: auto 0
+                .containerImage
+                    display: block
+                    margin: auto 0
 
             .info
                 margin: 0 auto
@@ -286,18 +295,15 @@
                     font-style: normal
                     font-weight: bold
                     font-size: 30px
-                    line-height: 30px
+                    line-height: 32px
                     text-align: center
-                    letter-spacing: -1px
                     span
                         font-family: Nunito
                         font-style: normal
                         font-weight: 600
-                        font-size: 26px
-                        line-height: 27px
-                        /* or 200% */
+                        font-size: 27px
+                        line-height: 30px
                         text-align: center
-                        letter-spacing: -1px
 
                     @include responsivo(telefonoTable)
                         text-align: center

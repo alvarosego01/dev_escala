@@ -27,7 +27,7 @@ $parameters = array(
 
 @endheader_small_t2
 
-
+{{--
 <section class="customSection sectionParent landingPricingPage1">
 
   <div class="section-row">
@@ -51,14 +51,15 @@ $parameters = array(
   </div>
 
 
-</section>
+</section> --}}
 
 
 
 @php
 $parameters = array(
  'classSection' => 'landingPricingPage2',
- 'titlePrincipal' => '<span class="greenBlueColor">Conoce los beneficios de nuestros planes</span>'
+ 'titlePrincipal' => '<span class="greenBlueColor">Conoce los beneficios de nuestros planes</span>',
+ 'subTitlePrincipal' => 'Cada uno de nuestros planes tiene las funcionalidades de marketing <br> digital y ventas para acelerar el crecimiento de tu negocio. <br> Solo inviertes en lo que necesitas.'
 ) ;
 @endphp
 
@@ -78,7 +79,7 @@ $parameters = array(
 
         <div class="row">
 
-          <div class="col-md-12 col-lg-6 first">
+          <div class="el col-md-12 col-lg-6 first">
             <div class="element">
                  <div class="containerImage">
 
@@ -86,6 +87,8 @@ $parameters = array(
 
 
             </div>
+
+            <div class="info">
 
             <h3 class="secondaryTitle blueColor">
               Servicio
@@ -143,7 +146,8 @@ $parameters = array(
 
             </div>
           </div>
-          <div class="col-md-12 col-lg-6">
+          </div>
+          <div class="el col-md-12 col-lg-6">
             <div class="element">
                  <div class="containerImage">
 
@@ -154,6 +158,7 @@ $parameters = array(
 
 
 
+            <div class="info">
             <h3 class="secondaryTitle blueColor">
               Entrenamiento
             </h3>
@@ -220,6 +225,7 @@ $parameters = array(
 
 
             </div>
+          </div>
           </div>
 
 

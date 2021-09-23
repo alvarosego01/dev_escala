@@ -1,269 +1,273 @@
-
-
-
 <section class="component-pricing-calculator-T1 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
-        <form  onkeydown="if (event.keyCode == 13) { return false; }"  action="" id="formCalcGeneral">
+        <form onkeydown="if (event.keyCode == 13) { return false; }" action="" id="formCalcGeneral">
+
+            <h2 class="primaryTitle">
+                Calcula el precio de tu plan
+            </h2>
+
+            <div class="calcElements">
+
+                <div class="controls ">
 
 
-        <section class="innerSectionElement sct1">
+                    <section class="innerSectionElement sct1">
 
-            <div class="containElements">
-
-                <h2 class="primaryTitle">
-                    Calcula el precio de tu plan
-                </h2>
-
-                <div class="plansSection">
-                    <small>
-                        Elige tu plan
-                    </small>
-
-                    <div class="box">
-
-                        <div class="opt">
+                        <div class="containElements">
 
 
-                            <div class="customCheckBox">
+                            <div class="plansSection">
+                                <small>
+                                    Elige tu plan
+                                </small>
 
-                                <label class="checkboxCustom path">
-                                    <input checked  value="starter" id="checkStarter" name="_typePlan" type="radio">
-                                    <svg viewBox="0 0 21 21">
-                                        <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
-                                    </svg>
-                                </label>
+                                <div class="box">
 
-                            </div>
-
-                            <div class="field">
-                                <h3 class="secondaryTitle">
-                                    Plan Starter
-                                </h3>
-                                <span class="priceTag">
-                                    USD $ 30
-                                </span>
-
-                            </div>
+                                    <div class="opt">
 
 
+                                        <div class="customCheckBox">
 
-                        </div>
-                        <div class="opt">
+                                            <label class="checkboxCustom path">
+                                                <input checked value="starter" id="checkStarter" name="_typePlan"
+                                                    type="radio">
+                                                <svg viewBox="0 0 21 21">
+                                                    <path
+                                                        d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                    </path>
+                                                </svg>
+                                            </label>
 
-                            <div class="customCheckBox">
+                                        </div>
 
-                                <label class="checkboxCustom path">
-                                    <input value="pro" id="checkPro" name="_typePlan" type="radio">
-                                    <svg viewBox="0 0 21 21">
-                                        <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
-                                    </svg>
-                                </label>
-
-                            </div>
-
-                            <div class="field">
-                                <h3 class="secondaryTitle">
-                                    Plan Pro
-                                </h3>
-                                <span class="priceTag">
-                                    USD $ 45
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                </div>
+                                            <h3 class="secondaryTitle">
+                                                Plan Starter
+                                            </h3>
+                                            <span class="priceTag">
+                                                USD $ 30
+                                            </span>
 
 
 
-            </div>
 
-        </section>
+                                    </div>
+                                    <div class="opt">
 
-        <section class="innerSectionElement sct2">
+                                        <div class="customCheckBox">
 
-            <div class="containElements">
+                                            <label class="checkboxCustom path">
+                                                <input value="pro" id="checkPro" name="_typePlan" type="radio">
+                                                <svg viewBox="0 0 21 21">
+                                                    <path
+                                                        d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
+                                                    </path>
+                                                </svg>
+                                            </label>
 
-                <div class="plansSection">
-                    <small>
-                        Coloca el número de contactos de marketing
-                    </small>
+                                        </div>
 
-                    <div class="box">
+                                            <h3 class="secondaryTitle">
+                                                Plan Pro
+                                            </h3>
+                                            <span class="priceTag">
+                                                USD $ 45
+                                            </span>
 
-                        <div class="rw rw1">
 
-                            <h3 class="secondaryTitle grayColorTexts5">
-                                Número de contactos de marketing:
-                            </h3>
-                            <div class="customPriceInput">
-                                <input name="_contactsField" id="contactsField" type="number" value="1000">
-                            </div>
+                                    </div>
 
-                        </div>
-                        <div class="rw rw2">
-
-                            <div class="customSelectorRange">
-
-                                <div class="slidecontainer">
-                                    <input name="_rangeContacts" id="rangeContacts" type="range" min="0" max="100" value="0"   class="sliderSelector" >
                                 </div>
 
-                                <div class="rangeLimits">
-                                    <span class="rangeContactLimit">
-                                        1.000 <br class="space">
-                                        contactos
-                                    </span class="rangeContactLimit">
-                                    <span class="rangeContactLimit">
-                                        2.000 <br class="space">
-                                        contactos
-                                    </span class="rangeContactLimit">
-                                    <span class="rangeContactLimit">
-                                        3.000 <br class="space">
-                                        contactos
-                                    </span class="rangeContactLimit">
-                                    <span class="rangeContactLimit">
-                                        100.000 <br class="space">
-                                        contactos
-                                    </span class="rangeContactLimit">
+
+                            </div>
+
+
+
+                        </div>
+
+                    </section>
+
+                    <section class="innerSectionElement sct2">
+
+                        <div class="containElements">
+
+                            <div class="plansSection">
+                                <small>
+                                    Coloca el número de contactos de marketing
+                                </small>
+
+                                <div class="box">
+
+
+                                    <div class="rw rw2">
+
+                                        <div class="customSelectorRange">
+
+                                            <div class="slidecontainer">
+                                                <input name="_rangeContacts" id="rangeContacts" type="range" min="0"
+                                                    max="100" value="0" class="sliderSelector">
+                                            </div>
+
+                                            <div class="rangeLimits">
+                                                <span class="rangeContactLimit">
+                                                    1.000
+                                                </span class="rangeContactLimit">
+
+                                                <span class="rangeContactLimit">
+                                                    100.000
+                                                </span class="rangeContactLimit">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="rw rw1">
+
+                                        <div class="customPriceInput">
+                                            <input name="_contactsField" id="contactsField" type="number" value="1000">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </section>
+
+                    <section class="innerSectionElement sct3">
+
+                        <div class="containElements">
+
+                            <div class="plansSection">
+                                <small>
+                                    Coloca el número de usuarios con acceso a la plataforma
+                                </small>
+
+                                <div class="box">
+
+                                    <div class="rw rw1">
+
+                                        <div class="info">
+
+
+                                            <h5 class="commonText grayColorTexts5">
+                                                Elige cuántos usuarios con acceso a la plataforma quieres tener.
+                                            </h5>
+
+                                        </div>
+
+                                        <div class="customPriceInput">
+                                            <input name="_userAccess" id="userAccess" min="1" type="number" value="5">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </section>
+
+
+                </div>
+                <br class="space">
+                <div class="result ">
+
+                    <section class="innerSectionElement sct4">
+
+                        <div class="containElements">
+
+                            <div class="plansSection">
+
+
+                                <div class="box">
+
+                                    <div class="image">
+
+
+                                        <div class="containerImage">
+
+                                            <img class="desktopTabletElement" alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_pricing.png') !!}"
+                                                loading="lazy">
+
+                                            <img class="mobileSmallElement" alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto-arrow-down.png') !!}"
+                                                loading="lazy">
+
+                                        </div>
+
+                                    </div>
+                                    <div class="info">
+
+                                        <small>
+                                            Calcula el precio final
+                                        </small>
+
+                                        <div class="buttonPriceSelector">
+
+                                            <button type="button" onclick="typeCustomPay('yearly', this)"
+                                                id="buttonPayTime-year" class="selectorPricingButton active">
+                                                PAGAR ANUAL
+                                            </button>
+                                            <button type="button" onclick="typeCustomPay('monthly', this)"
+                                                id="buttonPayTime-month" class="selectorPricingButton ">
+                                                PAGAR MENSUAL
+                                            </button>
+
+                                        </div>
+
+                                        <div class="priceFinalCalc">
+
+                                            <span id="finalPriceCalc" class="finalPriceCalc">
+                                                USD $432
+                                            </span>
+
+                                        </div>
+
+                                        <div class="offert">
+
+                                            <p class="primaryText grayColorTexts5">
+                                                <span id="priceDotted">$USD 540 Anual</span> <br class="space">
+                                                <strong id="priceSaves">Ahorras USD $100</strong>
+                                            </p>
+
+                                        </div>
+
+                                        <div class="finalButtons">
+
+                                            <a class="primaryButton hoverInEffect">
+                                                Comienza ahora
+                                            </a>
+
+                                            <a class="greyButton ">
+                                                Habla con un asesor
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+
                                 </div>
 
                             </div>
 
                         </div>
 
-                    </div>
-
-
-                </div>
-
-
-
-            </div>
-
-        </section>
-
-        <section class="innerSectionElement sct3">
-
-            <div class="containElements">
-
-                <div class="plansSection">
-                    <small>
-                        Coloca el número de usuarios con acceso a la plataforma
-                    </small>
-
-                    <div class="box">
-
-                        <div class="rw rw1">
-
-                            <div class="info">
-
-                                <h3 class="secondaryTitle grayColorTexts5">
-                                    Número de usuarios con acceso a la plataforma:
-                                </h3>
-
-                                <h5 class="commonText grayColorTexts5">
-                                    Elige cuántos usuarios con acceso a la plataforma quieres tener.
-                                </h5>
-
-                            </div>
-
-                            <div class="customPriceInput">
-                                <input name="_userAccess" id="userAccess" min="1" type="number" value="5">
-                            </div>
-
-                        </div>
-
-                    </div>
-
-            </div>
-            </div>
-
-        </section>
-
-        <section class="innerSectionElement sct4">
-
-            <div class="containElements">
-
-                <div class="plansSection">
-
-
-                    <div class="box row">
-
-                        <div class="image col-md-12 col-lg-6">
-
-
-                            <div class="containerImage">
-
-                                <img class="desktopElement" alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_pricing.png') !!}"  loading="lazy">
-
-                                <img class="mobileElement" alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto-arrow-down.png') !!}"  loading="lazy">
-
-                              </div>
-
-                        </div>
-                        <div class="info col-md-12 col-lg-6">
-
-                            <small>
-                                Calcula el precio final
-                            </small>
-
-                            <div class="buttonPriceSelector">
-
-                                <button type="button" onclick="typeCustomPay('yearly', this)" id="buttonPayTime-year" class="selectorPricingButton active">
-                                    PAGAR ANUAL
-                                </button>
-                                <button type="button" onclick="typeCustomPay('monthly', this)" id="buttonPayTime-month" class="selectorPricingButton ">
-                                    PAGAR MENSUAL
-                                </button>
-
-                            </div>
-
-                            <div class="priceFinalCalc">
-
-                                <span id="finalPriceCalc" class="finalPriceCalc">
-                                    USD $432
-                                </span>
-
-                            </div>
-
-                            <div class="offert">
-
-                                <p class="primaryText grayColorTexts5">
-                                    <span id="priceDotted">$USD 540 Anual</span> <br class="space">
-                                    <strong id="priceSaves">Ahorras USD $100</strong>
-                                </p>
-
-                            </div>
-
-                            <div class="finalButtons">
-
-                                <a class="primaryButton hoverInEffect">
-                                    Comienza ahora
-                                </a>
-
-                                <a  class="thinButton ">
-                                    Habla con un asesor
-                                </a>
-
-                            </div>
-
-                        </div>
-
-
-                    </div>
-
+                    </section>
                 </div>
 
             </div>
 
-        </section>
 
         </form>
 

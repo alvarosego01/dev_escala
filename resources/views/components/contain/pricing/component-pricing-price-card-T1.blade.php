@@ -53,7 +53,7 @@ $items = [
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong><br class="space"> 1.000.000</strong>', 'Contactos de marketing: <strong>1.000</strong>', 'Usuarios de venta: <strong>1</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <strong>1.000</strong>', 'Usuarios de venta: <strong>1</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Anuncios Digitales',
@@ -100,7 +100,7 @@ $items = [
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong><br class="space"> 1.000.000</strong>', 'Contactos de marketing: <strong>1.000</strong>', 'Usuarios de venta: <strong>2</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => ['Contactos en base de datos: <strong> 1.000.000</strong>', 'Contactos de marketing: <strong>1.000</strong>', 'Usuarios de venta: <strong>2</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Anuncios Digitales',
@@ -134,7 +134,7 @@ $items = [
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <strong> <br> 20 x contactos de marketing</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => ['Emails marketing al mes: <strong> 20 x contactos</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
@@ -146,7 +146,7 @@ $items = [
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos de marketing: <br> <strong>A partir de 100.000</strong>', 'Usuarios de venta: <strong>10</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => ['Contactos en base de datos: <strong> 1.000.000</strong>', 'Contactos de marketing: <strong>A partir de 100.000</strong>', 'Usuarios de venta: <strong>10</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Anuncios Digitales',
@@ -177,6 +177,14 @@ $items = [
                     <h2 class="primaryTitle whiteColor">
                         {!! $titlePrincipal !!}
                     </h2>
+
+                    @if ($subTitlePrincipal != null)
+
+                    <p class="primaryText colorDarkGrey3">
+                        {!! $subTitlePrincipal !!}
+                    </p>
+
+                @endif
 
 
                 </div>
