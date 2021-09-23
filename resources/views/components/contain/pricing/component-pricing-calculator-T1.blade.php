@@ -115,9 +115,23 @@
                                                     1.000
                                                 </span class="rangeContactLimit">
 
+                                                <span class="desktopTabletElement rangeContactLimit">
+                                                    25.000
+                                                </span>
+
+                                                <span class="rangeContactLimit">
+                                                    50.000
+                                                </span>
+
+                                                <span class="desktopTabletElement rangeContactLimit">
+                                                    75.000
+                                                </span>
+
                                                 <span class="rangeContactLimit">
                                                     100.000
-                                                </span class="rangeContactLimit">
+                                                </span>
+
+
                                             </div>
 
                                         </div>

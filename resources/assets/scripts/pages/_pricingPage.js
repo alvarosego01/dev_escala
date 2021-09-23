@@ -1,6 +1,5 @@
 
 
-console.log('pricing page js');
 
 var calculate = null;
 
@@ -126,7 +125,6 @@ function converContacts(contacts) {
     var l = contacts / 1000;
     l = Math.trunc(l);
 
-    console.log('contact que entran', contacts);
 
     var cost = {
         starter: getContactScale(l).starter,
@@ -201,7 +199,6 @@ function convertUsers(data) {
 function typeCustomPay(type, e) {
 
 
-    console.log('event', e);
 
     jQuery('.selectorPricingButton').removeClass('active');
     jQuery(e).addClass('active');
@@ -255,9 +252,30 @@ function calculateRangeValue(data) {
     range = data._rangeContacts;
 
 
-        return percentOfRange(range, 0, 100, 'rangeToNumber', 1000, 100000);
+    // 1.000 -25.000 -50.000 -75.000 -100.000
+    //
+        // return percentOfRange(range, 0, 100, 'rangeToNumber', 1000, 100000);
 
+        if (range >= 0 && range <= 25) {
 
+            return percentOfRange(range, 0, 25, 'rangeToNumber', 1000, 25000);
+
+        }
+        if (range >= 25 && range <= 50) {
+
+            return percentOfRange(range, 24, 48, 'rangeToNumber', 25000, 50000);
+
+        }
+
+        if (range >= 50 && range <= 75) {
+
+            return percentOfRange(range, 48, 73, 'rangeToNumber', 50000, 75000);
+        }
+
+        if (range >= 75 && range <= 100) {
+
+            return percentOfRange(range, 73, 100, 'rangeToNumber', 75000, 100000);
+        }
 
 
 }
@@ -274,8 +292,6 @@ function calculateFinal(data) {
     _contacts = converContacts(data._contactsField);
     _users = convertUsers(data);
 
-    // console.log('la data _contacts', _contacts);
-    console.log('la data _users', _users);
 
     if (typePlan == 'monthly') {
 
@@ -318,8 +334,6 @@ function calculateFinal(data) {
         costNoDiscount = costNoDiscount.toFixed(2);
         costFinal = costFinal.toFixed(2);
 
-        console.log('costo final', costFinal);
-        console.log('costo descuento', discount);
 
         jQuery('.offert').css({
             'visibility': 'visible'
@@ -376,7 +390,6 @@ jQuery(document).ready(function () {
     jQuery("form#formCalcGeneral").change(function (e) {
         e.preventDefault();
 
-        console.log('campo', e.target);
         calculate = _serializeFormToObject(e.currentTarget)
 
         if (jQuery(e.target).is('#rangeContacts')) {
