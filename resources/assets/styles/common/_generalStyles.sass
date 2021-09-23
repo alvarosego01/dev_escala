@@ -413,11 +413,12 @@ a[disabled]
         font-size: 18px
     @include responsivo(pcMedio)
         // padding: 10px 20px
-        padding: 15px 30px 15px 30px
+        padding: 10px 20px
         font-size: 18px
     @include responsivo(general)
-        padding: 14px 40px 14px 40px
+        padding: 10px 20px
         font-size: 18px
+
     &:hover
         color: $colorOrange
 
@@ -488,8 +489,8 @@ a[disabled]
         // color: white
 
 .buttonPriceSelector
-    border-radius: 15px
-    overflow: hidden
+    // border-radius: 15px
+    // overflow: hidden
     button.selectorPricingButton
         width: 150px
         font-family: Nunito
@@ -499,12 +500,22 @@ a[disabled]
         height: 30px!important
         text-align: center
         // height: 32.5px
-        padding: 5px 15px
+        padding: 5px 7.5px
         color: $colorGrey5
         transition: $trans
         background-color: #F1F1F1
         &:hover
             color: $colorOrange
+        @include responsivo(telefonoTable)
+            width: max( 10vw, 150px )
+            font-size: 13px
+        @include responsivo(pcMedio)
+            width: max( 10vw, 150px )
+        &:nth-of-type(1)
+            border-radius: 15px 0 0 15px
+        &:nth-of-type(2)
+            border-radius: 0 15px 15px 0
+
 
 
     button.selectorPricingButton.active

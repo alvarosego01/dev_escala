@@ -254,21 +254,9 @@ function calculateRangeValue(data) {
 
     range = data._rangeContacts;
 
-    if (range >= 0 && range <= 33) {
 
-        return percentOfRange(range, 0, 33, 'rangeToNumber', 1000, 2000);
+        return percentOfRange(range, 0, 100, 'rangeToNumber', 1000, 100000);
 
-    }
-    if (range >= 34 && range <= 67) {
-
-        return percentOfRange(range, 34, 67, 'rangeToNumber', 2000, 3000);
-
-    }
-
-    if (range >= 68 && range <= 100) {
-
-        return percentOfRange(range, 68, 100, 'rangeToNumber', 3000, 100000);
-    }
 
 
 
@@ -304,7 +292,7 @@ function calculateFinal(data) {
         }
 
         jQuery('.offert').css({
-            'display': 'none'
+            'visibility': 'hidden'
         })
 
     }
@@ -334,7 +322,7 @@ function calculateFinal(data) {
         console.log('costo descuento', discount);
 
         jQuery('.offert').css({
-            'display': 'block'
+            'visibility': 'visible'
         })
 
 
