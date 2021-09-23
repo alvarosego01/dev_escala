@@ -270,9 +270,9 @@ span.tag
     font-family: Nunito
     @include responsivo(telefonoTable)
         // display: none
-        font-size: 22px!important
+        font-size: 22px
     @include responsivo(pcMedio)
-        font-size: 28px!important
+        font-size: 28px
 
 
 .thirdTitle
@@ -296,9 +296,9 @@ span.tag
     font-weight: 700
     font-family: Nunito
     @include responsivo(telefonoTable)
-        font-size: 20px!important
+        font-size: 20px
     @include responsivo(pcMedio)
-        font-size: 25px!important
+        font-size: 25px
 
 .primaryText
     line-height: 24px
@@ -835,8 +835,9 @@ footer
             display: flex
             flex-direction: row
             position: relative
-            align-items: center
-            align-content: center
+            align-items: flex-start
+            align-content: flex-start
+            margin-bottom: 5px!important
             i
                 position: absolute
                 color: $colorOrange
@@ -845,12 +846,14 @@ footer
                 font-size: 12px
                 display: block
                 margin: auto 0
+                line-height: 1!important
+                height: fit-content!important
             span
                 padding-left: 7.5px
                 font-family: Nunito
                 font-style: normal
                 font-weight: bold
-                line-height: 22px
+                line-height: 1!important
                 font-size: 16px
                 line-height: 24px
                 letter-spacing: -1px

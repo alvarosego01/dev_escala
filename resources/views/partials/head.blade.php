@@ -32,14 +32,11 @@ get_header();
 
 @endphp
 
-@endif --}}
+@endif
 
-
+ --}}
 
 
 @php
 get_header();
-
-
-
 @endphp

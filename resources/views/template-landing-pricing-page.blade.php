@@ -96,7 +96,7 @@ $parameters = array(
 
 
         <p class="primaryText grayColorTexts">
-          Atendemos a tus preguntas y necesidades <br class="space"> para que aproveches al máximo la plataforma.
+          Atendemos a tus preguntas y necesidades <br> para que aproveches al máximo la plataforma.
         </p>
 
             <div class="listCustom">
@@ -188,12 +188,10 @@ $parameters = array(
                     Acompañamiento personalizado
                   </span>
                 </li>
-                <li>
-                  <i class="fa fa-check" aria-hidden="true"></i>
-                  <span class="blueColor">
-                    Soporte técnico
-                  </span>
+                <li style="visibility: hidden">
+                  <span><br class="space"></span>
                 </li>
+
               </ul>
             </div>
             <br>

@@ -61,7 +61,7 @@ $items = [
             ],
             [
                 'title' => 'Analíticas',
-                'items' => ['Dashboard de administrador', 'Dashboards de vendedores'],
+                'items' => ['Dashboards de vendedores'],
             ],
         ],
     ],
@@ -104,7 +104,7 @@ $items = [
             ],
             [
                 'title' => 'Anuncios Digitales',
-                'items' => ['Cuentas de Facebook Ads Manager: <strong>1</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'],
+                'items' => ['Cuentas de Facebook Ads Manager: <strong>3</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'],
             ],
             [
                 'title' => 'Analíticas',
@@ -134,7 +134,7 @@ $items = [
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <strong> 20 x contactos</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => ['Emails marketing al mes: <strong> 20 x contactos de marketing</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
@@ -150,7 +150,7 @@ $items = [
             ],
             [
                 'title' => 'Anuncios Digitales',
-                'items' => ['Cuentas de Facebook Ads Manager: <strong>3</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'],
+                'items' => ['Cuentas de Facebook Ads Manager: <strong>5</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'],
             ],
             [
                 'title' => 'Analíticas',
@@ -296,8 +296,8 @@ $items = [
                                                 @endforeach
                                             </ul>
                                     </div>
-                                    <br>
-                                    <br>
+                                    <br class="space">
+                                    <br class="space">
 
                                 @endforeach
 
