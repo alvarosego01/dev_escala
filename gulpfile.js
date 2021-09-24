@@ -31,7 +31,7 @@ gulp.task('browserSync-Local', () => {
     injectChanges: true,
     proxy: "localhost/escala/",
     files: ['dist/styles/**'],
-    port: 3050
+    port: 3025
 
   });
 

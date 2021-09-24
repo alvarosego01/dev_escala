@@ -1,0 +1,104 @@
+
+
+
+
+
+.sidenavCustom
+    height: 100%
+    width: 0
+    position: fixed
+    z-index: 1
+    top: 0
+    right: 0
+    background-color: #111
+    overflow-x: hidden
+    transition: 0.5s
+    padding-top: 60px
+    a
+        padding: 8px 8px 8px 32px
+        text-decoration: none
+        font-size: 25px
+        color: #818181
+        display: block
+        transition: 0.3s
+        &:hover
+            color: #f1f1f1
+    .closebtn
+        position: absolute
+        top: 0
+        right: 25px
+        font-size: 36px
+        margin-left: 50px
+@media screen and (max-height: 450px)
+    .sidenavCustom
+        padding-top: 15px
+        a
+            font-size: 18px
+
+*
+    display: none
+
+header.customHeader.customSection
+    display: flex
+    background-color: transparent
+    nav.navbar
+        padding: 10px 0!important
+        box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%)
+        transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s
+        width: 100%
+        background-color: white!important
+        z-index: 999999999!important
+        .section-row
+            @include responsivo(telefonoTable)
+                width: 95%
+            @include responsivo(pcMedio)
+                width: 90%
+            @include responsivo(general)
+                width: 100%!important
+                max-width: 1140px!important
+            @include responsivo(resto)
+                width: 100%!important
+                max-width: 1300px!important
+            display: flex
+            flex-direction: column
+            margin: 0 auto
+            ul.navbar-nav
+                li
+                    margin-left: 15px
+                    a
+                        font-size: 16px
+                        font-family: Nunito
+                        color: $colorGrey3
+            .container-fluid.sct1
+                display: flex
+                ul#menu-main-top-v2
+                    display: flex
+                    margin-left: auto
+                    flex-direction: row
+            .container-fluid.sct2
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                .logo
+                    display: flex
+                    justify-content: center
+                    align-content: center
+                    a.navbar-brand
+                        margin: auto
+                        img
+                            width: auto
+                            height: 40px
+                div#main-menu.menusSection
+                    display: flex
+                    flex-direction: row
+                    justify-content: center
+                    align-content: center
+                    width: fit-content
+                    ul#menu-main
+                        height: fit-content!important
+                        margin: auto 0
+                        margin-left: 15px
+
+
+
+

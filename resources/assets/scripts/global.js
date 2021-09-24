@@ -3,7 +3,7 @@
 
 var navBarHeight = null;
 var navbar = jQuery('header#masthead');
-var inner = jQuery('.elementor-inner', navbar);
+var inner = (jQuery('.elementor-inner', navbar).length > 0)? jQuery('.elementor-inner', navbar) : jQuery('nav.principal.navbar', navbar);
 
 function navScrollFixed() {
 
