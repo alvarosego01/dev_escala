@@ -31,7 +31,17 @@ gulp.task('browserSync-Local', () => {
     injectChanges: true,
     proxy: "localhost/escala/",
     files: ['dist/styles/**'],
-    port: 3025
+    port: 3025,
+    serveStatic: ["assets/css"],
+    files: "assets/css/escalaEstilos.css",
+    snippetOptions: {
+        rule: {
+            match: /<\/head>/i,
+            fn: function (snippet, match) {
+                return '<link rel="stylesheet" type="text/css" href="/escalaEstilos.css"/>' + snippet + match;
+            }
+        }
+    }
 
   });
 
@@ -114,7 +124,7 @@ gulp.task('jsGeneral', (cb) => {
   );
 });
 
-gulp.task('SassJs', gulp.series(gulp.parallel('sass', 'js')));
+gulp.task('SassJs', gulp.series(gulp.parallel('sassGeneral', 'js')));
 
 
 gulp.task('watch', () => {

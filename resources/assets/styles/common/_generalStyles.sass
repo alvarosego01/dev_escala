@@ -9,6 +9,9 @@
     font-weight: 900
 
 
+i.fab.fa-whatsapp
+    color: #00bb2d
+
 
 header
     z-index: 999999999999!important
@@ -375,23 +378,13 @@ a[disabled]
     font-size: 18px
     line-height: 1
     padding: 10px 20px
-    border-radius: 5px
+    border-radius: 7px
     color: $colorWhite
     background-color: $colorOrange
     width: fit-content
     transition: $transitionButton
     transform: scale(1)
     font-family: Nunito
-    @include responsivo(telefonoTable)
-        padding: 10px 20px
-        font-size: 18px
-    @include responsivo(pcMedio)
-        // padding: 10px 20px
-        padding: 10px 20px
-        font-size: 18px
-    @include responsivo(general)
-        padding: 10px 20px
-        font-size: 18px
 
 
 
@@ -408,16 +401,6 @@ a[disabled]
     transition: $transitionButton
     transform: scale(1)
     font-family: Nunito
-    @include responsivo(telefonoTable)
-        padding: 10px 20px
-        font-size: 18px
-    @include responsivo(pcMedio)
-        // padding: 10px 20px
-        padding: 10px 20px
-        font-size: 18px
-    @include responsivo(general)
-        padding: 10px 20px
-        font-size: 18px
 
     &:hover
         color: $colorOrange
@@ -436,32 +419,20 @@ a[disabled]
     transition: $transitionButton
     transform: scale(1)
     font-family: Nunito
-    @include responsivo(telefonoTable)
-        padding: 10px 20px
-        font-size: 18px
-    @include responsivo(pcMedio)
-        // padding: 10px 20px
-        padding: 15px 30px 15px 30px
-        font-size: 18px
-    @include responsivo(general)
-        padding: 14px 40px 14px 40px
-        font-size: 18px
 
 .secondaryButton
+    font-size: 18px
+    line-height: 1
+    padding: 10px 20px
     font-family: Nunito
     font-weight: 400
-    padding: 0 25px
     border-radius: 5px
     transition: all .2s
-    background-color: $colorGreenBlue4
+    background-color: $colorGreenBlue3
     color: white
-    font-size: 16px
-    line-height: 28px
     border-width: 0
-    // display: inline-block
     text-decoration: none
     width: fit-content
-    height: 47px
     display: flex
     justify-content: center
     align-content: center
@@ -1086,3 +1057,20 @@ input[type=range]
         display: none!important
     @include responsivo(resto)
         display: none!important
+
+
+
+.jet-popup.jet-popup--front-mode
+    .jet-popup__inner
+        align-items: flex-start!important
+        .jet-popup__container
+            @include responsivo(telefonoTable)
+                margin-top: 3.5%!important
+
+            @include responsivo(pcMedio)
+                margin-top: 3.5%!important
+
+            @include responsivo(general)
+                margin-top: 3.5%!important
+            @include responsivo(resto)
+                margin-top: 3.5%!important

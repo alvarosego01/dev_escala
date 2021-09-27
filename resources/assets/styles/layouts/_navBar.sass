@@ -1,53 +1,38 @@
 
 
+button.toggleSideMenu
+    background-color: transparent
+    i
+        color: black
+        font-size: 22px
+        transition: $trans
+        transform: scale(1)
+    &:hover
+        i
+            transform: scale(1.1)
+            color: $colorOrange
+            display: block
 
 
 
-.sidenavCustom
-    height: 100%
-    width: 0
-    position: fixed
-    z-index: 1
-    top: 0
-    right: 0
-    background-color: #111
-    overflow-x: hidden
-    transition: 0.5s
-    padding-top: 60px
-    a
-        padding: 8px 8px 8px 32px
-        text-decoration: none
-        font-size: 25px
-        color: #818181
-        display: block
-        transition: 0.3s
-        &:hover
-            color: #f1f1f1
-    .closebtn
-        position: absolute
-        top: 0
-        right: 25px
-        font-size: 36px
-        margin-left: 50px
-@media screen and (max-height: 450px)
-    .sidenavCustom
-        padding-top: 15px
-        a
-            font-size: 18px
 
-*
-    display: none
+
+
+
+
+
 
 header.customHeader.customSection
     display: flex
     background-color: transparent
     nav.navbar
-        padding: 10px 0!important
         box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%)
         transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s
         width: 100%
         background-color: white!important
         z-index: 999999999!important
+        box-sizing: border-box
+        padding: 0!important
         .section-row
             @include responsivo(telefonoTable)
                 width: 95%
@@ -58,23 +43,30 @@ header.customHeader.customSection
                 max-width: 1140px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1300px!important
+                max-width: 1400px!important
             display: flex
             flex-direction: column
             margin: 0 auto
-            ul.navbar-nav
-                li
-                    margin-left: 15px
-                    a
-                        font-size: 16px
-                        font-family: Nunito
-                        color: $colorGrey3
+            padding: 10px 0!important
+
             .container-fluid.sct1
                 display: flex
+                margin-bottom: 7.5px
                 ul#menu-main-top-v2
                     display: flex
                     margin-left: auto
                     flex-direction: row
+                    li
+                        a
+                            color: black
+                            &:hover
+                                    color: $colorOrange
+                        ul.dropdown-menu.show
+                            min-width: auto
+                            // width:
+
+                div.menusSectionTop
+                    margin-left: auto
             .container-fluid.sct2
                 display: flex
                 flex-direction: row
@@ -87,18 +79,233 @@ header.customHeader.customSection
                         margin: auto
                         img
                             width: auto
-                            height: 40px
-                div#main-menu.menusSection
+                            height: 37.5px
+                div.menusSection
                     display: flex
                     flex-direction: row
                     justify-content: center
                     align-content: center
                     width: fit-content
-                    ul#menu-main
+                    ul
                         height: fit-content!important
-                        margin: auto 0
-                        margin-left: 15px
+                        // margin: auto 0
+                        margin-top: auto!important
+                        margin-bottom: auto!important
+                        margin-left: 0
+                        li
+                            position: relative
+                            a
+                                color: #9E989A
+                                &:hover
+                                    color: $colorOrange
+                        li.navBorderRight
+                            position: relative
+                            &::after
+                                content: ''
+                                height: 50%
+                                width: 2px
+                                margin: auto 0
+                                display: block
+                                top: 0
+                                bottom: 0
+                                right: -12px
+                                position: absolute
+                                border-right: 2px solid rgba(0,0,0,0.1)
+            ul
+                margin-left: 0!important
+                li.menu-item
+                    margin-left: 25px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    a
+                        transition: $trans
+                        font-size: 16px
+                        font-family: Nunito
+                        line-height: 16px
+                        padding: 10px
+                        display: flex
+                        align-content: center
+                        align-items: center
+                        &:focus
+                            outline: none!important
+                        i
+                            font-size: 20px
+                            margin-right: 7.5px
+                        i.fab
+                            font-size: 23px
+                    a.dropdown-toggle
+                        display: flex
+                        &::after
+
+                            margin-left: 5px
+                            margin-top: auto
+                            margin-bottom: auto
+
+                li.menu-item.menu-item-has-children
+                    position: relative
+                    ul.dropdown-menu.show
+                        margin: 0 auto
+                        padding: 0
+                        border-radius: 7.5px
+                        min-width: 200px
+                        border: 0
+                        box-shadow: 2px 2px 5px rgb(0 0 0 / 20%)
+                        position: absolute
+                        top: 30px
+                        left: 0
+                        right: 0
+                        li
+                            margin: 0
+                            a
+                                padding: 10px
+                                color: black
+                                font-size: 14px
+                                line-height: 14px
+                                transition: $trans
+                            &:hover
+                                a
+                                    color: $colorOrange
+                                    background-color: #F2675A12
 
 
 
 
+
+body
+    position: relative
+    #sideNavBar
+        background-color: rgba(0,0,0,0.25)
+        position: fixed
+        right: 0
+        top: 0
+        bottom: 0
+        height: 100%
+        width: 100%
+        display: flex
+        z-index: 999999999999
+        display: none
+        .logo
+            display: flex
+            justify-content: center
+            align-content: center
+            margin-bottom: 20px
+            a.navbar-brand
+                // margin: auto
+                margin-right: auto
+                img
+                    width: auto
+                    height: 37.5px
+        nav.principal.navbar
+            height: 100%
+            padding: 0
+            width: fit-content
+            margin-left: auto
+            background-color: white
+            @include responsivo(telefonoTable)
+                width: 100%
+
+            .section-row
+                height: 100%
+                padding: 25px 25px
+                @include responsivo(telefonoTable)
+                    width: 100%
+
+            .closeButtonSideBar
+                display: flex
+                margin-bottom: 15px
+                button.closeButton
+                    display: block
+                    margin-left: auto
+                    font-size: 22px
+                    background-color: transparent
+                    transition: $trans
+                    &:hover
+                        color: $colorOrange
+
+            .container-fluid.sct1
+                padding: 0
+                ul.navbar-nav
+                    display: flex
+                    margin-left: auto
+                    flex-direction: column
+                    li
+                        a
+                            color: black
+            .container-fluid.sct2
+                padding: 0
+                position: relative
+                ul
+                    height: fit-content!important
+                    // margin: auto 0
+                    margin-top: auto!important
+                    margin-bottom: auto!important
+                    margin-left: 0
+                    li
+                        position: relative
+                        a
+                            color: #9E989A
+            ul
+                margin-left: 0!important
+                padding: 0
+                li.menu-item
+                    margin-left: 0
+                    transition: $trans
+                    a
+                        transition: $trans
+                        font-size: 16px
+                        font-family: Nunito
+                        line-height: 16px
+                        padding: 10px
+                        display: flex
+                        align-content: center
+                        align-items: center
+                        i
+                            font-size: 20px
+                            margin-right: 7.5px
+                        i.fab
+                            font-size: 23px
+                        &:hover
+                            color: $colorOrange
+                            background-color: #F2675A12
+                        &:focus
+                            outline: none!important
+                    a.dropdown-toggle
+                        &::after
+                            margin-left: 5px
+                            margin-top: auto
+                            margin-bottom: auto
+                li.menu-item.menu-item-has-children
+                    ul.dropdown-menu.show
+                        border: none
+                        margin-left: 15px!important
+
+
+            .container-fluid
+                padding: 0
+
+            .container-fluid.sct1,
+            .container-fluid.sct2
+                position: relative
+                padding-bottom: 20px
+                margin-bottom: 20px
+                &::after
+                    content: ""
+                    border-bottom: 1px solid rgba(0,0,0,0.25)
+                    width: 100%
+                    height: 1px
+                    margin: 0 auto
+                    margin-top: auto
+                    left: 0
+                    bottom: 0
+                    right: 0
+                    display: block
+                    position: absolute
+
+
+header.customHeader.customSection.landing-global2
+    .container-fluid.sct2
+        display: flex
+        justify-content: center
+        .logo
+            margin: 0 auto

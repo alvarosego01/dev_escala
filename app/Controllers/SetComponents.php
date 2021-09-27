@@ -90,11 +90,11 @@ class SetComponents extends Controller
 
 
         return array(
-            'components.navBar.component-navbar-default-T1' => 'navBar_default_T1',
-            'components.navBar.component-navbar-default-T2' => 'navBar_default_T2',
-            'components.navBar.component-navbar-blog-T1' => 'navBar_blog_T1',
-            'components.navBar.component-navbar-landing-smalll.T1' => 'navBar_landing_small_T1',
-            'components.navBar.component-navbar-landing-logo' => 'navBar_landing_logo_T1'
+
+            'components.navBar.component-navbar-default' => 'navBar_default',
+            'components.navBar.component-navbar-blog' => 'navBar_blog',
+            'components.navBar.component-navbar-landings' => 'navBar_landings',
+
         );
     }
 
@@ -130,6 +130,7 @@ class SetComponents extends Controller
                 "views/template-func-page-builder.blade.php",
                 "views/template-func-analiticas.blade.php",
                 "views/template-func-automatization.blade.php",
+                "views/template-func-automatization-2.blade.php",
                 "views/template-func-crm-escala.blade.php",
                 "views/template-func-email.blade.php",
                 "views/template-func-digital-announces.blade.php",
@@ -184,6 +185,7 @@ class SetComponents extends Controller
                 "views/template-func-page-builder.blade.php",
                 "views/template-func-analiticas.blade.php",
                 "views/template-func-automatization.blade.php",
+                "views/template-func-automatization-2.blade.php",
                 "views/template-func-crm-escala.blade.php",
                 "views/template-func-email.blade.php",
                 "views/template-func-digital-announces.blade.php",

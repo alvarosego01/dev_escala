@@ -38,8 +38,8 @@ add_action('wp_enqueue_scripts', function () {
         wp_register_script('bootstrapJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/bootstrap.min.js', array('jquery'), rand(), 'all');
         wp_enqueue_script('bootstrapJs');
 
-        wp_register_script('popperJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/popper.min.js', array('jquery'), rand(), 'all');
-        wp_enqueue_script('popperJs');
+        // wp_register_script('popperJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/popper.min.js', array('jquery'), rand(), 'all');
+        // wp_enqueue_script('popperJs');
 
         // generals
         wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, THEME_VERSION);
@@ -348,11 +348,11 @@ function registerCustomMenu()
 {
 
     register_nav_menus(array(
-        'header-top' => __('Principal Top Menu', 'escala'),
-        'principal-global1' => __('Principal global menu 1', 'escala'),
-        'principal-global2' => __('Principal global menu 2', 'escala'),
-        'extra-buttons1' => __('Extra buttons global menu 1', 'escala'),
-        'extra-buttons2' => __('Extra buttons global menu 2', 'escala'),
+        'header-top' => __('Principal top menu - Whatsapp, login, language', 'escala'),
+        'principal-global1' => __('Principal white menu 1 - Complete menu', 'escala'),
+        'landing-global1' => __('Landing white menu 1 - Logo, 1 button', 'escala'),
+        'landing-global2' => __('Landing white menu 2 - Only logo', 'escala'),
+        'blog-global1' => __('Blog white menu 1 - Categories, login, call to action', 'escala')
     ));
 }
 

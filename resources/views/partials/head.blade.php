@@ -1,5 +1,7 @@
-@php
+{{-- @php
     $typeNav = ACF_CUSTOM::_getField('nav_settings');
+
+
 @endphp
 
 @if (isset($typeNav) && $typeNav != 'elementor_navbar' )
@@ -15,6 +17,11 @@
    wp_head()
    @endphp
 
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
 
 
 </head>
@@ -32,11 +39,11 @@ get_header();
 
 @endphp
 
-@endif
+@endif --}}
 
 
 
 
-{{-- @php
+@php
 get_header();
-@endphp --}}
+@endphp
