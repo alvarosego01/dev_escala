@@ -8,19 +8,21 @@ class MenuSettings extends Controller
 {
 
 
+// location
+// container_id
+// container_class
+// menu_class
     public static function _getMenu(
-        $location,
-        $container_id = '',
-        $menu_class = ''
+        $parameter
     ) {
         wp_nav_menu(
             array(
-                'theme_location'  => $location,
+                'theme_location'  => $parameter['location'],
                 'menu'            => '',
                 'container'       => 'div',
-                'container_class' => 'collapse navbar-collapse',
-                'container_id'    => $container_id,
-                'menu_class'      => $menu_class,
+                'container_id'    => $parameter['container_id'],
+                'container_class' => $parameter['container_class'],
+                'menu_class'      => $parameter['menu_class'],
                 'menu_id'         => '',
                 'echo'            => true,
                 'fallback_cb'     => 'wp_page_menu',

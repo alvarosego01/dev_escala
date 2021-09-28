@@ -1,1 +1,49 @@
-jQuery(document).ready(function(){var t;"undefined"!=typeof dataPHP&&dataPHP.redirect&&(t=dataPHP.redirect,console.log("have redirect",t),document.addEventListener("wpcf7mailsent",function(e){e=e.path;window.dataLayer.push({event:"cf7submission",formId:event.detail.contactFormId,response:event.detail.inputs}),!jQuery(e[1]).attr("redirectWeb")||"true"==(e=jQuery(e[1]).attr("redirectWeb"))&&(console.log("redirect",e),t&&null!=t&&""!=t&&window.location.replace(t))},!1))});
+
+
+jQuery(document).ready(function () {
+
+
+    // document.addEventListener('wpcf7mailfailed', function (e) {
+
+    //     console.log('redireccion', dataPHP.redirect);
+    // });
+
+
+    if (typeof (dataPHP) !== 'undefined') {
+
+        if (dataPHP.redirect) {
+
+            var re = dataPHP.redirect;
+            console.log('have redirect', re);
+                document.addEventListener('wpcf7mailsent', function (e) {
+
+                var l = e.path;
+                window.dataLayer.push({
+                    "event": "cf7submission",
+                    "formId": event.detail.contactFormId,
+                    "response": event.detail.inputs
+                });
+
+                if (jQuery(l[1]).attr('redirectWeb')) {
+
+                    var x = jQuery(l[1]).attr('redirectWeb');
+
+                    if (x == 'true') {
+
+                        console.log('redirect', x);
+                        if (re && re != null && re != '') {
+                            window.location.replace(re);
+                        }
+
+                    }
+
+                }
+
+            }, false);
+
+
+        }
+
+    }
+
+});
