@@ -124,6 +124,14 @@ class SetComponents extends Controller
         }
 
 
+        if ($type == 'escalaVentas') {
+            return array(
+
+                "views/template-escalaVentas-ventas.blade.php"
+
+            );
+        }
+
         if ($type == 'func') {
             return array(
 
@@ -182,6 +190,7 @@ class SetComponents extends Controller
                 "views/template-landing-correos-masivos.blade.php",
                 "views/template-landing-incredible-no-program.blade.php",
                 "views/template-landing-incredible-am.blade.php",
+                "views/template-escalaVentas-ventas.blade.php",
                 "views/template-func-page-builder.blade.php",
                 "views/template-func-analiticas.blade.php",
                 "views/template-func-automatization.blade.php",

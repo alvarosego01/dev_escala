@@ -59,6 +59,10 @@ add_action('wp_enqueue_scripts', function () {
         if (is_page_template($t)) {
             wp_enqueue_style('func.css', asset_path('styles/pages/func/funcMain.css'), false, THEME_VERSION);
         }
+        $t = SetComponents::setTemplates('escalaVentas');
+        if (is_page_template($t)) {
+            wp_enqueue_style('func.css', asset_path('styles/pages/escalaVentas/escalaVentasMain.css'), false, THEME_VERSION);
+        }
         $t = SetComponents::setTemplates('blog');
         if (is_page_template($t)) {
             wp_enqueue_style('blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
