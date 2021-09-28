@@ -282,10 +282,11 @@ class ACF_CUSTOM extends Controller
                     'type' => 'select',
                     'choices' => array(
                         'elementor_navbar' => 'Elementor nav',
-                        'principal-global1'	=> 'Principal white menu 1 - Complete menu',
-                        'blog-global1'	=> 'Blog white menu 1 - Categories, login, call to action',
-                        'landing-global1'	=> 'Landing white menu 1 - Logo, 1 button',
-                        'landing-global2'	=> 'Landing white menu 2 - Only logo',
+                        'global1'	=> 'Global White',
+                        'global2'	=> 'Global old',
+                        'global_blog'	=> 'Global blog',
+                        'landing_small'	=> 'Landing small',
+                        'landing_unique_logo'	=> 'Landing unique logo',
                     ),
                 )
             ),
@@ -295,7 +296,6 @@ class ACF_CUSTOM extends Controller
 
 
     }
-
 
     private function settingsSingleBlog(){
 
