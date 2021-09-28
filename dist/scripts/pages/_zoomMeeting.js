@@ -1,164 +1,164 @@
-console.log('zoom meeting js');
+// console.log('zoom meeting js');
 
-/*
-Por: Álvaro Segovia
-alvaro@escala.com
-*/
+// /*
+// Por: Álvaro Segovia
+// alvaro@escala.com
+// */
 
-var timer = null;
+// var timer = null;
 
-function isInRange(value, range) {
-    return value >= range[0] && value <= range[1];
-}
+// function isInRange(value, range) {
+//     return value >= range[0] && value <= range[1];
+// }
 
-function redirectTime() {
+// function redirectTime() {
 
 
-    if (dataPHP && dataPHP.zoomLink) {
+//     if (dataPHP && dataPHP.zoomLink) {
 
 
-        let stateCheck = setInterval(() => {
+//         let stateCheck = setInterval(() => {
 
-            if (document.readyState === 'complete') {
-                clearInterval(stateCheck);
+//             if (document.readyState === 'complete') {
+//                 clearInterval(stateCheck);
 
-                setTimeout(function () {
-                    window.open(dataPHP.zoomLink, '_blank');
-                }, 3500);
+//                 setTimeout(function () {
+//                     window.open(dataPHP.zoomLink, '_blank');
+//                 }, 3500);
 
-            }
-        }, 100);
+//             }
+//         }, 100);
 
-    }
-    jQuery('#zoomBegin').attr('disabled', false);
+//     }
+//     jQuery('#zoomBegin').attr('disabled', false);
 
-}
+// }
 
-function validateRangeHour(rang, time) {
+// function validateRangeHour(rang, time) {
 
-    var t = [];
-    t.push(time);
+//     var t = [];
+//     t.push(time);
 
-    var l = null;
+//     var l = null;
 
-    t.forEach((element) => {
+//     t.forEach((element) => {
 
-        if (isInRange(element, rang)) {
+//         if (isInRange(element, rang)) {
 
-            l = true;
+//             l = true;
 
-        } else {
+//         } else {
 
-            l = false;
+//             l = false;
 
-        }
+//         }
 
-    });
+//     });
 
-    console.log('tiempo', t);
-    console.log('rango', rang);
-    console.log('retorna l', l);
-    return l;
+//     console.log('tiempo', t);
+//     console.log('rango', rang);
+//     console.log('retorna l', l);
+//     return l;
 
 
 
 
 
-}
+// }
 
-function disableButton(valid) {
+// function disableButton(valid) {
 
-        console.log('disabled button');
-        jQuery('#zoomBegin').attr('disabled', true);
-        vigilantOpen();
+//         console.log('disabled button');
+//         jQuery('#zoomBegin').attr('disabled', true);
+//         vigilantOpen();
 
-}
+// }
 
 
-function vigilantOpen(){
+// function vigilantOpen(){
 
-    if(timer != null){
-        clearInterval(timer);
-    }
+//     if(timer != null){
+//         clearInterval(timer);
+//     }
 
-    timer = setInterval(function () {
-        // Invoke function every 10 minutes
-        console.log('Consult hour');
+//     timer = setInterval(function () {
+//         // Invoke function every 10 minutes
+//         console.log('Consult hour');
 
-        validateHour();
+//         validateHour();
 
-    }, 600000);
+//     }, 600000);
 
-}
+// }
 
-function validateHour(){
+// function validateHour(){
 
-    var rangeWeek = ['08:00', '22:00'];
-    var rangeEndWeek = ['11:00', '20:00'];
-    var options = {
-        timeZone: 'America/New_york',
-        hour: '2-digit',
-        minute: '2-digit',
-    };
+//     var rangeWeek = ['08:00', '22:00'];
+//     var rangeEndWeek = ['11:00', '20:00'];
+//     var options = {
+//         timeZone: 'America/New_york',
+//         hour: '2-digit',
+//         minute: '2-digit',
+//     };
 
-    var d = new Date();
-    var weekday = [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-    ]
-    var day = weekday[d.getDay()];
+//     var d = new Date();
+//     var weekday = [
+//         "Sunday",
+//         "Monday",
+//         "Tuesday",
+//         "Wednesday",
+//         "Thursday",
+//         "Friday",
+//         "Saturday"
+//     ]
+//     var day = weekday[d.getDay()];
 
-    formatter = new Intl.DateTimeFormat([], options);
-    var hora = formatter.format(new Date());
+//     formatter = new Intl.DateTimeFormat([], options);
+//     var hora = formatter.format(new Date());
 
-    if (day == 'Sunday') {
+//     if (day == 'Sunday') {
 
 
-        disableButton();
+//         disableButton();
 
-    } else if (day == 'Saturday') {
+//     } else if (day == 'Saturday') {
 
-        var l = validateRangeHour(rangeEndWeek, hora);
+//         var l = validateRangeHour(rangeEndWeek, hora);
 
-        if (l == true) {
+//         if (l == true) {
 
-            redirectTime();
+//             redirectTime();
 
-        } else {
+//         } else {
 
-            disableButton();
+//             disableButton();
 
-        }
+//         }
 
-    } else {
+//     } else {
 
-        var l = validateRangeHour(rangeWeek, hora);
-        if (l == true) {
+//         var l = validateRangeHour(rangeWeek, hora);
+//         if (l == true) {
 
-            redirectTime();
+//             redirectTime();
 
-        } else {
+//         } else {
 
-            disableButton();
+//             disableButton();
 
-        }
+//         }
 
-    }
+//     }
 
-}
+// }
 
-jQuery(document).ready(function () {
+// jQuery(document).ready(function () {
 
 
-    // validateHour();
+//     // validateHour();
 
-    redirectTime();
+//     redirectTime();
 
 
 
-});
+// });
