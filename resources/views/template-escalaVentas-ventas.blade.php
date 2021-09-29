@@ -17,12 +17,10 @@
  $parameters = array(
   'backgroundImageType' => false,
   'overlay' => false,
-  'classSection' => 'func eVentas0',
-  'title' => '<span class="greenBlueColor">Convierte más</span> <br>
-contactos en clientes',
-  'text' => 'El arma secreta de tu fuerza de ventas: <br>
-el CRM de Escala. Un sistema para <br> administrar la relación con tus clientes.',
-  'image' => App::setFilePath('/assets/images/illustrations/otto/Otto_CRM-01.png'),
+  'classSection' => ' eVentas0',
+  'title' => 'Simplifica tu gestión <br class="space"> de ventas y escala tu negocio',
+  'text' => null,
+  'image' => App::setFilePath('/assets/images/illustrations/others/CRM-screen-1.png'),
   'textForm' => 'Empieza a probar Escala',
   'overlayImage' => null,
   'threeCol' => false,
@@ -36,11 +34,12 @@ el CRM de Escala. Un sistema para <br> administrar la relación con tus clientes
 
 @php
 $parameters = array(
- 'classSection' => 'eVentas1 func',
- 'description' => '“Luego de generar una base de datos de clientes potenciales, tu <br> <strong>CRM es la herramienta más importante para convertirlos en <br> clientes</strong> fieles y construir relaciones a largo plazo”.',
- 'byAm' => '<span class="greenBlueColor">Andrés Moreno</span>',
- 'team' => 'Fundador de <span class="greenBlueColor">Escala</span> y Open English',
- 'image' => App::setFilePath('/assets/images/person/am/andres_banner.png')
+ 'classSection' => 'eVentas1 ',
+ 'description' => 'Escala es la plataforma <span class="greenBlueColor"><strong>todo en uno</strong></span>, diseñada para acelerar <br>
+el crecimiento de tus ventas y aumentar la productividad de tu <br> equipo. Todas las herramientas que necesitas <span class="greenBlueColor"><strong>en un solo lugar.</strong></span>',
+ 'byAm' => null,
+ 'team' => null,
+ 'image' => App::setFilePath('/assets/images/illustrations/others/escalaventas_02 1.png')
 ) ;
 @endphp
 
@@ -58,7 +57,7 @@ $parameters = array(
 'subTitlePrincipal' => 'Cuando tus visitantes registren sus datos en tu landing page, <br>
 toda esa información quedará <strong>automáticamente almacenada en tu CRM de Escala.</strong>',
 'title' => 'Prioriza <span class="greenBlueColor">tu día de ventas</span>',
-'img' => App::setFilePath('/assets/images/illustrations/team/01_CRM.png'),
+'img' => App::setFilePath('/assets/images/illustrations/others/escalaventas_03a 1.png'),
 'text' => '¡El CRM de Escala te da las herramientas para organizar <br> tus oportunidades de venta! Identifica fácilmente cuáles <br> son tus clientes potenciales más valiosos y cuáles <br> requieren tu atención inmediata.
 <br class="space"><br class="space">
 ¡Tu día, mes y año podrían ser 1000% más productivos!',
