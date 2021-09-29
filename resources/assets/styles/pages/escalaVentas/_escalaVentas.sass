@@ -9,27 +9,28 @@
         .customSection.sectionParent.eVentas0
             background: linear-gradient(180deg, #DCEAF4 0%, rgba(220, 234, 244, 0) 100%)
             padding-bottom: 65px
+            overflow: hidden
             .section-row
                 @include responsivo(telefonoTable)
                     width: 95%
                 @include responsivo(pcMedio)
                     width: 90%
-                @include responsivo(general)
-                    width: 100%!important
-                    max-width: 1050px!important
-                @include responsivo(resto)
-                    width: 100%!important
-                    max-width: 1175px!important
+                // @include responsivo(general)
+                    // width: 100%!important
+                    // max-width: 1050px!important
+                // @include responsivo(resto)
+                    // width: 100%!important
+                    // max-width: 1175px!important
                 .innerSectionElement.sct1
                     .groupElements
                         .info
                             @include responsivo(general)
-                                padding-left: 2.5%
+                                padding-left: 75px
                             @include responsivo(resto)
-                                padding-left: 2.5%
+                                padding-left: 75px
                             .containElements
                                 .principalBigTitle
-                                    padding-left: 10%
+                                    padding-left: 7.5%
                                     font-family: Nunito
                                     font-style: normal
                                     font-weight: bold
@@ -56,7 +57,8 @@
 
 
         .customSection.sectionParent.eVentas1
-            padding-top: 0!important
+            padding-top: 0
+            padding-bottom: 50px
             .section-row
                 @include responsivo(telefonoTable)
                     width: 95%
@@ -71,13 +73,14 @@
                 .innerSectionElement.sct1
                     .groupElements
                         padding: 25px
-                        padding-left: 75px
-                        padding-right: 75px
+                        padding-left: 100px
+                        padding-right: 100px
                         background-color: #F0F8FE
                         box-shadow: 0
                         .info
                             .containElements
                                 .primaryText
+                                    padding-top: 50px
                                     font-family: Nunito
                                     font-style: normal
                                     font-weight: 600
@@ -87,5 +90,38 @@
                                     width: 100%!important
                         .image
                             .containerImage
+                                margin: 0
                                 img
                                     height: 250px
+
+        .customSection.sectionParent.eVentas2
+            padding-top: 50px
+            padding-bottom: 50px
+            // background-color: $colorBlueLight7
+            .section-row
+                @include responsivo(telefonoTable)
+                    width: 95%
+                @include responsivo(pcMedio)
+                    width: 90%
+                @include responsivo(general)
+                    width: 100%!important
+                    max-width: 1125px!important
+                @include responsivo(resto)
+                    width: 100%!important
+                    max-width: 1250px!important
+
+        .customSection.sectionParent.eVentas3
+            padding-top: 50px
+            padding-bottom: 50px
+            background-color: $colorBlueLight7
+            .section-row
+                @include responsivo(telefonoTable)
+                    width: 95%
+                @include responsivo(pcMedio)
+                    width: 90%
+                @include responsivo(general)
+                    width: 100%!important
+                    max-width: 1125px!important
+                @include responsivo(resto)
+                    width: 100%!important
+                    max-width: 1250px!important

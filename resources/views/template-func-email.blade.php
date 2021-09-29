@@ -237,10 +237,7 @@ de las conversaciones uno a uno.',
  ) ;
 @endphp
 
-
-
 @contain_multiple_cards_T1( $parameters )
-
 @endcontain_multiple_cards_T1
 
 
