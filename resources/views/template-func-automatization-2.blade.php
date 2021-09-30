@@ -1,6 +1,6 @@
 
 {{--
-  Template Name: [B] Func - Automatizacion - 2
+  Template Name: [B] Landing automatización
 --}}
 
 
