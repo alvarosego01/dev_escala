@@ -1,5 +1,7 @@
 {{-- @php
     $typeNav = ACF_CUSTOM::_getField('nav_settings');
+
+
 @endphp
 
 @if (isset($typeNav) && $typeNav != 'elementor_navbar' )
@@ -16,16 +18,11 @@
    @endphp
 
 
-<script type="text/javascript">
-     jQuery(document).ready(function(){
-        jQuery("ul.sub-menu").parent().addClass("dropdown");
-        jQuery("ul.sub-menu").addClass("dropdown-menu");
-        jQuery("ul#menuid li.dropdown a").addClass("dropdown-toggle");
-        jQuery("ul.sub-menu li a").removeClass("dropdown-toggle");
-        jQuery('.navbar .dropdown-toggle').append('');
-        jQuery('a.dropdown-toggle').attr('data-toggle', 'dropdown');
-    });
-</script>
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
 
 </head>
 
@@ -35,8 +32,16 @@
 
 @if (  ( !isset($typeNav) ) || ( isset($typeNav) && $typeNav == 'elementor_navbar' ) )
 
+@php
+get_header();
 
-@endif --}}
+
+
+@endphp
+
+@endif
+ --}}
+
 
 
 @php

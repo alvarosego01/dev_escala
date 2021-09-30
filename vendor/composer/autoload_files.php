@@ -15,4 +15,5 @@ return array(
     '306c972fefb706292e68f312a9e19301' => $vendorDir . '/log1x/sage-directives/src/Directives.php',
     '2c3fde97f0f2b20397a293f71447ab39' => $vendorDir . '/log1x/sage-directives/src/Utilities.php',
     'b50336562d531777993d90ca775abd88' => $vendorDir . '/soberwp/controller/controller.php',
+    'a29ceb88a100d82724dae1c16d2133ad' => $vendorDir . '/garrettweinberg/sage-bootstrap5-navwalker/bootstrap5-navwalker.php',
 );

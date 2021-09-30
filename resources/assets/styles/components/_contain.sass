@@ -3,9 +3,6 @@
 
 
 
-@import common/global
-
-
 .component-info-4steps-loading.customSection.sectionParent
     .innerSectionElement.sct1
         margin-bottom: 50px
@@ -30,10 +27,10 @@
                         font-size: 22px
                         text-align: center
                         font-weight: 700
-                        font-family: "Nunito Sans",Sans-serif
+                        font-family: Nunito
                     p.infoText
                         color: #5B5B5B
-                        font-family: "Nunito Sans",Sans-serif
+                        font-family: Nunito
                         font-size: 18px
                         font-weight: 400
                         line-height: 1.5em
@@ -147,15 +144,15 @@
                             line-height: 33px
                             font-weight: 400
                             margin-bottom: 40px
-                            font-family: "Nunito Sans",Sans-serif
+                            font-family: Nunito
                         h2.byAm
                             font-size: 22px!important
                             font-weight: 700
                             line-height: 25.5px!important
-                            font-family: "Nunito Sans",Sans-serif
+                            font-family: Nunito
                         .team
                             font-weight: 400
-                            font-family: "Nunito Sans",Sans-serif
+                            font-family: Nunito
                             span
                                 font-weight: 700
                 .image
@@ -170,7 +167,7 @@
                     flex-direction: column-reverse
                     .image
                         img
-                            height: 300px!important
+                            height: 300px
                     .info
                         p.description
                             font-size: 18px!important
@@ -200,7 +197,7 @@
                             line-height: 26px
                             font-weight: 400
                             margin-bottom: 40px
-                            font-family: "Nunito Sans",Sans-serif
+                            font-family: Nunito
                             @include responsivo(telefonoTable)
                                 br
                                     display: none!important
@@ -215,13 +212,13 @@
                                 font-size: 20px!important
                                 font-weight: 700
                                 line-height: 28px!important
-                                font-family: "Nunito Sans",Sans-serif
+                                font-family: Nunito
                                 text-align: right
                                 color: $colorGreenBlue
                             .team
                                 font-weight: 400
                                 font-size: 18px
-                                font-family: "Nunito Sans",Sans-serif
+                                font-family: Nunito
                                 text-align: right
                                 color: $colorGreenBlue
                                 span
@@ -234,9 +231,9 @@
                             margin: auto
                             display: block
                             @include responsivo(telefonoTable)
-                                height: 225px!important
+                                height: 225px
                             @include responsivo(pcMedio)
-                                height: 225px!important
+                                height: 225px
 
 
 .customSection.sectionParent.component-contain-info-am-t1.bg-color.customSection.floated
@@ -370,7 +367,7 @@
                     justify-content: center
                     .secondaryTitle
                         font-weight: 800
-                        font-family: "Nunito Sans",Sans-serif
+                        font-family: Nunito
                         margin: 0
                         font-size: 32px
                         line-height: 33px!important
@@ -381,7 +378,7 @@
                         font-weight: 500
                         font-size: 18px!important
                         line-height: 21px!important
-                        font-family: "Nunito Sans",Sans-serif
+                        font-family: Nunito
                         margin-bottom: 25px
                         @include responsivo(specialTexts)
                             width: 100%!important
@@ -439,7 +436,7 @@
                     justify-content: center
                     .secondaryTitle
                         font-weight: 800
-                        font-family: "Nunito Sans",Sans-serif
+                        font-family: Nunito
                         margin: 0
                         font-size: 28px!important
                         line-height: 35px
@@ -450,7 +447,7 @@
                         font-weight: 500
                         font-size: 20px!important
                         line-height: 1.3em
-                        font-family: "Nunito Sans",Sans-serif
+                        font-family: Nunito
                         margin-bottom: 25px
                         text-align: center
                         margin-bottom: 0
@@ -487,120 +484,229 @@
 
 
 
+.accordion.custom
+    *
+        background-color: transparent!important
+    p.text,
+    li,
+    ul *
+        font-family: Nunito!important
+        font-style: normal
+        font-weight: 300!important
+        font-size: 13px!important
+        line-height: 18px!important
+        color: #606267!important
+        margin-bottom: 0
+        letter-spacing: none!important
 
-.component-info-multiple-cards-T1.customSection.sectionParent
-    padding: 70px 0!important
-    .section-row
+    .hiperButtonGreenBlueT2
+        font-family: Nunito!important
+        font-style: normal
+        font-size: 13px!important
+
+
+    ul
+        padding-left: 0
+        margin-left: 0
+        margin-bottom: 0!important
+
+        li
+            padding: 0
+            p
+                padding: 0
+    .accordion-body
+        padding-left: 0
+        padding-right: 0
+        padding-bottom: 0
+    .accordion-item.itemChild
+        padding: 0
+        border: 1px solid #C4C4C4!important
         @include responsivo(telefonoTable)
-                width: 95%
-        @include responsivo(pcMedio)
-            width: 90%
-        @include responsivo(general)
-            width: 100%!important
-            max-width: 1140px
-        @include responsivo(resto)
-            width: 100%!important
-            max-width: 1200px
-        .innerSectionElement.sct1
-            margin-bottom: 50px
-            .containElements
-                // padding: 0 100px
-                .primaryTitle
-                    line-height: 1
-                    text-align: center
-                    font-size: 42px
-                .primaryText
-                    text-align: center
-                    font-size: 25px
-                    font-weight: 500
-                    line-height: 26px
-                @include responsivo(telefonoTable)
-                    // display: none
-                    .primaryTitle
-                        font-size: 40px
-                    .primaryText
-                        font-size: 23px
-                        br
-                            display: none
-                @include responsivo(pcMedio)
-                    // display: none
-                    .primaryTitle
-                        font-size: 40px
-                    .primaryText
-                        font-size: 23px
-                        br
-                            display: none
+            padding: 12.5px 0
+            padding-left: 50px
 
-        .innerSectionElement.sct2
-            display: flex
-            // flex-flow: wrap
-            justify-content: center
-            flex-direction: row
-            .groupElements
-                padding: 50px 2.5%
-                margin-left: 10px
-                margin-right: 10px
-                background-color: $colorGreyLight
-                // min-width: 625px
-                // max-width: 550px
-                width: 100%
+        @include responsivo(pcMedio)
+            padding: 12.5px 0
+            padding-left: 50px
+
+        @include responsivo(general)
+            padding: 12.5px 0
+            padding-left: 75px
+
+        @include responsivo(resto)
+            padding: 12.5px 0
+            padding-left: 75px
+
+        h4.accordion-header
+            // background-color: white!important
+            margin-bottom: 0
+            // padding: 0 50px
+            padding: 0
+            padding-left: 0
+            padding-right: 0
+
+
+            button.accordion-button
+                color: $colorBlack2
+                box-shadow: none!important
+                i
+                    font-size: 16px
+                    color: $colorOrange
+            button.collapsed
+                background-color: transparent
+                color: $colorBlack2!important
+                i
+                    color: $colorGreenBlue4!important
+
+            span
+                font-family: Nunito
+                font-style: normal
+                font-weight: bold
+                font-size: 16px
+                line-height: 125.1%
+
+
+        h4.accordion-header.openChildContain
+            button
+                i
+                    font-size: 12px
+                    color: $colorOrange!important
+                    transform: rotate(0deg)!important
+
+
+        .accordion-body
+            // width: 85%
+            padding-left: 25px
+            padding-top: 25px
+            padding-bottom: 5px
+
+
+            padding-right: 0
+            ul
+                padding-left: 0
+            p.text,
+            ul *
+
                 @include responsivo(telefonoTable)
-                    padding-left: 5%!important
-                    padding-right: 5%!important
-                    margin-left: 0
-                    margin-right: 0
+                    // font-size: 16px!important
+                    padding: 0
+                    br
+                        display: none
                 @include responsivo(pcMedio)
-                    padding-left: 5%!important
-                    padding-right: 5%!important
-                    margin-left: 0
-                    margin-right: 0
-                .image
-                    .containerImage
-                        img
-                            height: 160px
-                .info
-                    display: flex
-                    flex-direction: column
-                    .secondaryTitle
-                        font-weight: 800
-                        font-family: "Nunito Sans",Sans-serif
-                        margin: 0
-                        font-size: 28px
-                        line-height: 35px
-                        margin-bottom: 25px
-                        text-align: center
-                    p.text
-                        color: $colorGrey
-                        font-weight: 500
-                        font-size: 18px!important
-                        line-height: 1.3em
-                        font-family: "Nunito Sans",Sans-serif
-                        margin-bottom: 25px
-                        text-align: center
-                        // padding: 2.5%
-                        br
-                            display: none
-                    // span
-                        // display: none!important
-                        // text-align: center
-                    a
-                        margin: 0 auto
+                    // font-size: 20px!important
+                    padding: 0
+                    br
+                        display: none
+            ul.accordionSpecial
+                list-style: none
+                li
+                    color: $colorBlue
+                    margin-bottom: 5px
+                    // padding-left: 12.5px
+                    &::before
+                        content: "\2022"
+                        color: $colorBlue
+                        font-weight: bold
+                        display: inline-block
+                        width: 1em
+                        margin-left: -1em
+
+
+    .accordion-item.itemParent
+        border: none
+        display: flex
+        flex-direction: column
+        margin-bottom: 0
+        // padding: 0 50px
+        padding-top: 20px
+        padding-bottom: 20px
+        border-bottom: 1px solid rgba(0,0,0,0.1)
+        margin-top: 0
+        padding-right: 0
+        padding-left: 0
+        background-color: rgba(white, 0.25)!important
+        @include responsivo(telefonoTable)
+            padding-bottom: 12.5px
+        @include responsivo(pcMedio)
+            padding-bottom: 12.5px
+        h3.accordion-header
+            margin-bottom: 0
+            padding-left: 22.5px
             @include responsivo(telefonoTable)
-                flex-direction: column
-                .groupElements
-                    margin-bottom: 50px
-                    .image
-                        img
-                            height: 200px!important
-                    .secondaryTitle
-                        font-size: 28px!important
+                padding-left: 50px
             @include responsivo(pcMedio)
-                flex-direction: column
-                .groupElements
-                    margin-bottom: 50px
-                    .image
-                        img
-                            height: 200px!important
-                            // display: none
-                    .secondaryTitle
-                        font-size: 28px!important
+                padding-left: 50px
+            @include responsivo(general)
+                padding-left: 75px
+            @include responsivo(resto)
+                padding-left: 75px
+            button.accordion-button
+                color: $colorOrange
+                box-shadow: none!important
+                i
+                    font-size: 16px
+                    color: $colorOrange
+            button.collapsed
+                background-color: transparent
+                color: $colorBlack2!important
+                i
+                    color: $colorOrange!important
+            span
+                font-family: Nunito
+                font-style: normal
+                font-weight: 800
+                font-size: 20px
+                line-height: 125.1%
+
+        .accordion-body
+            padding-top: 15px
+
+
+
+
+
+    .accordion-item
+        border: 0
+        margin-bottom: 0
+        margin-top: 12.5px
+        .accordion-header
+            width: 100%
+            text-align: left
+            justify-content: left
+            display: flex!important
+            border: none!important
+            button
+                width: 100%
+                border: 0
+                font-family: Nunito
+                font-style: normal
+                background-color: transparent
+                border: none!important
+                position: relative
+                padding-top: 0
+                padding-bottom: 0
+                padding-left: 0
+                i
+                    // margin-right: 15px
+                    display: block
+                    margin: auto 0
+                    margin-right: 15px
+                    font-size: 16px
+                    // position: absolute
+                    // left: -20px
+                    // top: 0
+                    // bottom: 0
+                    // width: fit-content
+                    // height: fit-content
+                span
+                    margin-right: auto
+                    font-weight: bold
+                &::after
+                    display: none
+
+
+
+
+
+
+

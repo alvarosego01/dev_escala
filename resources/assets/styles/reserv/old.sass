@@ -8,9 +8,9 @@
 /*header fixed
 
 .ehf-header #masthead
-  position: fixed
-  left: 0
-  right: 0
+  position: relative!important
+//   left: 0
+//   right: 0
 
 @media screen and (max-width: 768px)
   a.hfe-menu-item
@@ -36,7 +36,7 @@ button
   &.btn-one
     background-color: #B1ECEF
     color: #6C929F
-    font-family: "Nunito Sans", Sans-serif
+    font-family: Nunito
     font-size: 16px
     font-weight: 600
     padding: 10px 20px
@@ -51,7 +51,7 @@ button
   &.btn-two
     background-color: rgba(255, 0, 0, 0)
     color: #494447
-    font-family: "Nunito Sans", Sans-serif
+    font-family: Nunito
     font-size: 16px
     font-weight: 600
     padding: 10px 20px
@@ -83,7 +83,7 @@ button
   &.btn-orange
     background-color: #F34F36
     color: #FFF
-    font-family: "Nunito Sans", Sans-serif
+    font-family: Nunito
     font-size: 18px
     font-weight: 600
     padding: 10px 20px
@@ -94,7 +94,7 @@ button
   &.btn-aqua
     background-color: #B1ECEF
     color: #6C929F
-    font-family: "Nunito Sans", Sans-serif
+    font-family: Nunito
     font-size: 16px
     font-weight: 600
     padding: 10px 20px
@@ -121,7 +121,7 @@ h2.title-one
   font-size: 40px
   font-weight: 800
   line-height: 1
-  font-family: "Nunito Sans", Sans-serif
+  font-family: Nunito
   text-align: center
   margin: 0
 
@@ -136,12 +136,12 @@ h3
     color: #322C2E
     font-size: 28px
     font-weight: 800
-    font-family: "Nunito Sans", Sans-serif
+    font-family: Nunito
     margin: 0
 
   &.subtitle-one
     text-align: center
-    font-family: "Nunito Sans", Sans-serif
+    font-family: Nunito
     color: #606267
     font-size: 23px
     font-weight: 500
@@ -166,7 +166,7 @@ h2
     font-size: 40px
     font-weight: 800
     line-height: 1
-    font-family: "Nunito Sans", Sans-serif
+    font-family: Nunito
     margin: 0
 
   &.title-bg-orange-center
@@ -174,7 +174,7 @@ h2
     font-size: 40px
     font-weight: 800
     line-height: 1
-    font-family: "Nunito Sans", Sans-serif
+    font-family: Nunito
     margin: 0
     text-align: center
 
@@ -187,7 +187,7 @@ h2
 p
   &.parrafo-one
     color: #706B6D
-    font-family: "Nunito Sans", Sans-serif
+    font-family: Nunito
     font-weight: 500
     font-size: 20px
     line-height: 1.3em
@@ -195,7 +195,7 @@ p
 
   &.parrafo-one-center
     color: #706B6D
-    font-family: "Nunito Sans", Sans-serif
+    font-family: Nunito
     font-weight: 500
     font-size: 20px
     line-height: 1.3em
@@ -233,7 +233,7 @@ form input
 .ewp-phonetype-radio
   margin-top: 20px
   margin-bottom: 30px
-  font-family: Nunito Sans
+  font-family: Nunito
   font-size: 16px
   height: 45px
 
@@ -256,7 +256,7 @@ span.wpcf7-list-item
 \::-webkit-input-placeholder
   /* WebKit browsers
   color: #706B6D !important
-  font-family: Nunito Sans
+  font-family: Nunito
   font-size: 18px
   font-weight: 500
   opacity: 1
@@ -272,20 +272,20 @@ form
     color: #706B6D
 
 .elementor-widget-elementskit-contact-form7 .ekit-form form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"])
-  font-family: Nunito Sans
+  font-family: Nunito
   font-size: 18px
   font-weight: 500
   margin: 0px
 
 .wpcf7-form
   input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]), textarea
-    font-family: Nunito Sans
+    font-family: Nunito
     font-size: 18px
     font-weight: 500
     margin: 0px
 
 .ekit-wid-con .ekit-form form textarea, .elementor-widget-elementskit-contact-form7 .ekit-form form select
-  font-family: Nunito Sans
+  font-family: Nunito
   font-size: 18px
   font-weight: 500
   margin: 0px
@@ -305,7 +305,7 @@ div.wpcf7 .ajax-loader
   &.invalid .wpcf7-response-output, &.unaccepted .wpcf7-response-output
     border: none
     color: #5B5B5B
-    font-family: Nunito Sans
+    font-family: Nunito
 
 li
   &#menu-item-233
@@ -459,13 +459,13 @@ img.whatsapp-icon
 /* Estilos Entradas Blog
 
 .h2-blogpost
-  font-family: Nunito Sans
+  font-family: Nunito
   color: #150D27
   font-size: 36px
   font-weight: Bold
 
 .h3-blogpost
-  font-family: Nunito Sans
+  font-family: Nunito
   color: #34768A !important
   font-size: 22px
   font-weight: Bold
@@ -474,3 +474,17 @@ img.whatsapp-icon
 
 h3.elementor-icon-box-title
   margin-bottom: 0px
+
+
+
+header
+  z-index: 999999999999!important
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 12%)
+  transition: all 0.2s ease-in-out
+
+.fixedNav
+  position: fixed!important
+  top: 0
+  left: 0
+  right: 0
+  width: 100%

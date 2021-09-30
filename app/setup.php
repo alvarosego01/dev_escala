@@ -20,26 +20,79 @@ use App\Controllers\MenuSettings;
 // print_r($bootstrapPages);
 
 
-
 add_action('wp_enqueue_scripts', function () {
 
     // acá se añaden los templates que usarán bootstrap
 
-    $bootstrapPages = SetComponents::setTemplates();
+    $bootstrapPages = SetComponents::setTemplates('all');
 
     if (is_page_template($bootstrapPages)) {
 
+        $t = null;
+        // styles
 
-        wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, null);
-        wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
+        // bootstrap
+        wp_register_style('bootstrapCss', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
+        wp_enqueue_style('bootstrapCss');
+
+        wp_register_script('bootstrapJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/bootstrap.min.js', array('jquery'), rand(), 'all');
+        wp_enqueue_script('bootstrapJs');
+
+        // wp_register_script('popperJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/popper.min.js', array('jquery'), rand(), 'all');
+        // wp_enqueue_script('popperJs');
+
+        // generals
+        wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, THEME_VERSION);
+        wp_enqueue_style('components.css', asset_path('styles/components/componentsMain.css'), false, THEME_VERSION);
+        // per type pages
+
+        $t = SetComponents::setTemplates('singles');
+        if (is_page_template($t)) {
+            wp_enqueue_style('home.css', asset_path('styles/pages/home.css'), false, THEME_VERSION);
+            wp_enqueue_style('escalaFex.css', asset_path('styles/pages/escalaFex.css'), false, THEME_VERSION);
+        }
+        $t = SetComponents::setTemplates('landings');
+        if (is_page_template($t)) {
+            wp_enqueue_style('landingPages.css', asset_path('styles/pages/landingPages/landingPagesMain.css'), false, THEME_VERSION);
+        }
+        $t = SetComponents::setTemplates('func');
+        if (is_page_template($t)) {
+            wp_enqueue_style('func.css', asset_path('styles/pages/func/funcMain.css'), false, THEME_VERSION);
+        }
+        $t = SetComponents::setTemplates('escalaVentas');
+        if (is_page_template($t)) {
+            wp_enqueue_style('func.css', asset_path('styles/pages/escalaVentas/escalaVentasMain.css'), false, THEME_VERSION);
+        }
+        $t = SetComponents::setTemplates('blog');
+        if (is_page_template($t)) {
+            wp_enqueue_style('blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
+        }
+        $t = SetComponents::setTemplates('zoom');
+        if (is_page_template($t)) {
+            wp_enqueue_style('zoom.css', asset_path('styles/pages/zoom/zoomMain.css'), false, THEME_VERSION);
+        }
+        $t = SetComponents::setTemplates('webinar');
+        if (is_page_template($t)) {
+            wp_enqueue_style('webinarMain.css', asset_path('styles/pages/webinar/webinarMain.css'), false, THEME_VERSION);
+        }
 
 
+        //------------------------------------------------------------------------------
 
         if ( is_page_template("views/template-zoom-demo-meeting.blade.php") ) {
 
-            wp_enqueue_script('_zoomMeeting.js', asset_path('scripts/pages/_zoomMeeting.js'), ['jquery'], null, true);
+            wp_enqueue_script('_zoomMeeting.js', asset_path('scripts/pages/_zoomMeeting.js'), ['jquery'], THEME_VERSION, true);
 
         }
+
+        if ( is_page_template("views/template-landing-pricing-page.blade.php") ) {
+
+            wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage.js'), ['jquery'], THEME_VERSION, true);
+
+        }
+          // jvascripts
+        wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], THEME_VERSION, true);
+
 
 
         // if (is_single() && comments_open() && get_option('thread_comments')) {
@@ -47,8 +100,13 @@ add_action('wp_enqueue_scripts', function () {
         // }
     } else {
 
-        wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, null);
+        wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, THEME_VERSION);
     }
+
+
+    wp_enqueue_script('global.js', asset_path('scripts/global.js'), ['jquery'], THEME_VERSION, true);
+
+
 }, 100);
 
 /**
@@ -180,40 +238,40 @@ add_action('wp_enqueue_scripts', function () {
 
 // estilos
 
-add_action('wp_enqueue_scripts', function () {
+// add_action('wp_enqueue_scripts', function () {
 
-    $bootstrapPages = SetComponents::setTemplates();
+//     $bootstrapPages = SetComponents::setTemplates();
 
-    if (is_page_template($bootstrapPages)) {
-
-
-        // wp_register_style('nunitoFonts', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
-        // wp_enqueue_style('nunitoFonts');
+//     if (is_page_template($bootstrapPages)) {
 
 
-        wp_enqueue_style('sage/main.css', asset_path('/dist/styles/main.css'), false, null);
-
-        // wp_enqueue_script('sage/_zoomMeeting.js', asset_path('scripts/pages/_zoomMeeting.js'), ['jquery'], null, true);
-
-
-        wp_register_style('bootstrapCss', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
-        wp_enqueue_style('bootstrapCss');
+//         // wp_register_style('nunitoFonts', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
+//         // wp_enqueue_style('nunitoFonts');
 
 
+//         wp_enqueue_style('sage/main.css', asset_path('/dist/styles/main.css'), false, THEME_VERSION);
+
+//         // wp_enqueue_script('sage/_zoomMeeting.js', asset_path('scripts/pages/_zoomMeeting.js'), ['jquery'], THEME_VERSION, true);
 
 
-        wp_register_script('bootstrapJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/bootstrap.min.js', array('jquery'), rand(), 'all');
-        wp_enqueue_script('bootstrapJs');
+//         wp_register_style('bootstrapCss', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
+//         wp_enqueue_style('bootstrapCss');
 
-        // // wp_register_script('popperJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/popper.min.js', array('jquery'), rand(), 'all');
-        // // wp_enqueue_script('popperJs');
 
-    } else {
 
-        // estilos viejos
-        wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, null);
-    }
-}, 100);
+
+//         wp_register_script('bootstrapJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/bootstrap.min.js', array('jquery'), rand(), 'all');
+//         wp_enqueue_script('bootstrapJs');
+
+//         // // wp_register_script('popperJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/popper.min.js', array('jquery'), rand(), 'all');
+//         // // wp_enqueue_script('popperJs');
+
+//     } else {
+
+//         // estilos viejos
+//         wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, THEME_VERSION);
+//     }
+// }, 100);
 
 
 
@@ -294,11 +352,11 @@ function registerCustomMenu()
 {
 
     register_nav_menus(array(
-        'header-top' => __('Principal Top Menu', 'escala'),
-        'principal-global1' => __('Principal global menu 1', 'escala'),
-        'principal-global2' => __('Principal global menu 2', 'escala'),
-        'extra-buttons1' => __('Extra buttons global menu 1', 'escala'),
-        'extra-buttons2' => __('Extra buttons global menu 2', 'escala'),
+        'header-top' => __('Principal top menu - Whatsapp, login, language', 'escala'),
+        'principal-global1' => __('Principal white menu 1 - Complete menu', 'escala'),
+        'landing-global1' => __('Landing white menu 1 - Logo, 1 button', 'escala'),
+        'landing-global2' => __('Landing white menu 2 - Only logo', 'escala'),
+        'blog-global1' => __('Blog white menu 1 - Categories, login, call to action', 'escala')
     ));
 }
 
@@ -306,3 +364,6 @@ add_action('init', registerCustomMenu() ); // Add HTML5 Blank Menu
 
 
 // MenuSettings::setBootstrapMenu();
+
+
+

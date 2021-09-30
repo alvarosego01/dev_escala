@@ -16,6 +16,7 @@ class ComposerStaticInitddf29a72f4052be101d3e884c8605b7a
         '306c972fefb706292e68f312a9e19301' => __DIR__ . '/..' . '/log1x/sage-directives/src/Directives.php',
         '2c3fde97f0f2b20397a293f71447ab39' => __DIR__ . '/..' . '/log1x/sage-directives/src/Utilities.php',
         'b50336562d531777993d90ca775abd88' => __DIR__ . '/..' . '/soberwp/controller/controller.php',
+        'a29ceb88a100d82724dae1c16d2133ad' => __DIR__ . '/..' . '/garrettweinberg/sage-bootstrap5-navwalker/bootstrap5-navwalker.php',
     );
 
     public static $prefixLengthsPsr4 = array (

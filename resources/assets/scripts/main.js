@@ -3,19 +3,14 @@
 jQuery(document).ready(function () {
 
 
-    // document.addEventListener('wpcf7mailfailed', function (e) {
-
-    //     console.log('redireccion', dataPHP.redirect);
-    // });
-
-
+    // redirect
     if (typeof (dataPHP) !== 'undefined') {
 
         if (dataPHP.redirect) {
 
             var re = dataPHP.redirect;
             console.log('have redirect', re);
-                document.addEventListener('wpcf7mailsent', function (e) {
+            document.addEventListener('wpcf7mailsent', function (e) {
 
                 var l = e.path;
                 window.dataLayer.push({

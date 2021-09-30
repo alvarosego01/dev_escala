@@ -11,7 +11,7 @@
 //     return value >= range[0] && value <= range[1];
 // }
 
-// function redirectTime() {
+
 
 
 //     if (dataPHP && dataPHP.zoomLink) {
@@ -93,30 +93,7 @@
 
 // function validateHour(){
 
-//     var rangeWeek = ['08:00', '22:00'];
-//     var rangeEndWeek = ['11:00', '20:00'];
-//     var options = {
-//         timeZone: 'America/New_york',
-//         hour: '2-digit',
-//         minute: '2-digit',
-//     };
 
-//     var d = new Date();
-//     var weekday = [
-//         "Sunday",
-//         "Monday",
-//         "Tuesday",
-//         "Wednesday",
-//         "Thursday",
-//         "Friday",
-//         "Saturday"
-//     ]
-//     var day = weekday[d.getDay()];
-
-//     formatter = new Intl.DateTimeFormat([], options);
-//     var hora = formatter.format(new Date());
-
-//     if (day == 'Sunday') {
 
 
 //         disableButton();
