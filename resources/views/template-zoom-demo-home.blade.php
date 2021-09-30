@@ -61,7 +61,7 @@
                   <div class="formatForm" redirectWeb="true">
 
                     <h4 class="titleFormat blackcolor">
-                    Recibe un Demo personalizado
+                    Solicita demo
                     </h4>
 
                     @php
@@ -98,6 +98,22 @@
 </div>
 
 
+{{-- boton - Solicitar ahora --}}
+
+
+<script>
+
+
+  jQuery('#formZoomHome').on('slide.bs.carousel', function () {
+    jQuery('div#formZoomHome').carousel({
+      pause: true,
+        interval: false
+    });
+
+
+  })
+
+</script>
 
 
 @endsection

@@ -321,7 +321,14 @@
                   <img alt="Una herramientas muy amigable" src="{!! App::setFilePath('/assets/images/illustrations/others/advantage_1.png') !!}" alt="" loading="lazy">
                 </div>
 
-
+                <div class="containerElements">
+                  <h3 class="secondaryTitle blackColor">Una herramientas <br class="space"> muy amigable</h3>
+                  <p class="primaryText grayColorTexts">
+                    Para mercadeo y ventas <br class="space">
+                    <span class="greenBlueColor">
+                      Ernesto Valery / Director Huella Studio
+                    </span>
+                  </p>
 
                 </div>
               </div>
@@ -484,7 +491,11 @@
             <div class="testimonial col-md-12 col-lg-6 ">
               <div class="containElements">
                 <div class="containInfo">
-
+                  <h3 class="secondaryTitle blackColor">Agencia de Publicidad</h3>
+                  <span class="tag greenBlueColor">El Salvador</span>
+                  <p class="commonText grayColorTexts">
+                    “Escala tiene el email builder más amigable que he utilizado en los últimos <br> años, y su equipo está comprometido a mantener la plataforma en <br> constante actualización en el dinámico mundo digital.”
+                  </p>
                 </div>
                 <div class="referElements">
                   <div class="containerImage">

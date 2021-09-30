@@ -61,7 +61,6 @@ class SetComponents extends Controller
 
     private function setHeadersComponents()
     {
-    private function setHeadersComponents(){
 
         return array(
             'components.headers.component-header-T1' => 'header_t1',
@@ -103,7 +102,6 @@ class SetComponents extends Controller
 
     public static function setTemplates($type)
     {
-
 
 
         if ($type == 'webinar') {

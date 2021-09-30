@@ -16,7 +16,6 @@ $zoomLink = ACF_CUSTOM::_getField('link_zoom');
 @endphp
 
 
-
 @if ($zoomLink != null && $zoomLink != '')
 
 <script type="text/javascript">
@@ -38,7 +37,6 @@ $zoomLink = ACF_CUSTOM::_getField('link_zoom');
 </script>
 
 @endif
-
 
 
 

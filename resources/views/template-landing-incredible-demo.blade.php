@@ -22,7 +22,7 @@
   'title' => '<span class="greenBlueColor">Crea landing pages</span> <br> increíbles',
   'text' => null,
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0102.png',
-  'textForm' => '¡Comienza ahora!',
+  'textForm' => 'Recibe un Demo <br class="space"> personalizado',
  ) ;
 @endphp
 
@@ -124,7 +124,7 @@
   'title' => '<span class="greenBlueColor">¿Estás listo para</span> acelerar tus ventas?',
   'text' => null,
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0115.png',
-  'textForm' => '¡Comienza ahora!',
+  'textForm' => 'Recibe un Demo <br class="space"> personalizado',
  ) ;
 @endphp
 @bannerForms7_T1( $parameters )
