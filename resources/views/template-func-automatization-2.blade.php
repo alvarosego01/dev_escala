@@ -23,7 +23,7 @@
   'classSection' => 'func funcAutomatization2_0',
   'title' => '<span class="greenBlueColor">Haz crecer tu negocio</span> <br> en piloto automático',
   'text' => 'Escala trabaja por ti 25 horas al día, 366 días al año.',
-  'textForm' => 'Empieza a probar Escala',
+  'textForm' => '¡Comienza ahora!',
   'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
   'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas 2.png'),
   'image' => App::setFilePath('/assets/images/illustrations/team/banner_01.png'),
