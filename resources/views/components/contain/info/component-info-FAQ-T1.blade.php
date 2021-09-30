@@ -31,6 +31,19 @@
 
             </div>
 
+
+                @if (isset($overlayImage1) && $overlayImage1 != null)
+
+                <img src="{{ $overlayImage1 }}" alt="" class="overlay1">
+
+                @endif
+                @if (isset($overlayImage2) && $overlayImage2 != null)
+
+                <img src="{{ $overlayImage2 }}" alt="" class="overlay2">
+
+
+                @endif
+
         </section>
 
 

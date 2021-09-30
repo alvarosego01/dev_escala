@@ -21,92 +21,26 @@
 
 
 
-    <section id="lead-form" class="customSection sectionParent homeSection0">
+    @php
+    $parameters = array(
+     'backgroundImageType' => false,
+     'overlay' => false,
+     'classSection' => 'threeCol homeSection0',
+     'title' => 'Genera más leads, <br class="space"> <span class="greenBlueColor">clientes y ventas</span>',
+     'text' => 'Con Escala, la plataforma de <br> marketing digital y ventas más completa <br> y fácil de utilizar.',
+     'textForm' => 'Empieza a probar Escala',
+     'threeCol' => true,
+     'backgroundImage' => null,
+  'overlayImage' => null,
+  'image' => App::setFilePath('/assets/images/person/am/andres-home1.png'),
+    ) ;
+    @endphp
+
+    @header_t1( $parameters )
+
+    @endheader_t1
 
 
-      <div class="section-row">
-
-
-
-          <section class="innerSectionElement sct1">
-
-              <div class="groupElements row">
-
-                  <div class="info col-md-12 col-lg-8">
-
-                      <div class="containElements">
-
-                        <div class="infoInner">
-
-                          <h1 class="principalBigTitle blackColor">
-                            Genera más leads,<br class="space"> <span class="greenBlueColor">clientes y ventas</span>
-                          </h1>
-                          <p class="principalBigText grayColorTexts">
-                            Con Escala, la plataforma de marketing digital <br class="space">
-                            y ventas más completa y fácil de utilizar.
-                          </p>
-
-                        </div>
-
-
-                          <div class="containerImage">
-                              <img alt="Genera más leads, clientes y ventas con Escala"
-                                  src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_home1.png') !!}" alt="" loading="lazy">
-                          </div>
-
-
-
-                      </div>
-
-
-                  </div>
-                  <div class="form7 col-md-12 col-lg-4">
-
-                      <div class="containElements">
-
-                          <div class="formatForm" redirectWeb="true">
-
-                              <h4 class="titleFormat blackcolor">
-                                Empieza a probar Escala
-                              </h4>
-
-
-                              @php
-                                  $f = get_field('form7');
-                              @endphp
-
-                              @if ($f && $f != null && $f != '')
-
-                                  {!! do_shortcode($f) !!}
-
-                              @else
-
-                                  {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
-
-                              @endif
-
-
-                          </div>
-
-
-
-                      </div>
-                  </div>
-
-
-              </div>
-
-          </section>
-
-      </div>
-
-      {{-- <div style="background-image: url('{!! App::setFilePath('/assets/images/overlays/estrellas 2.png') !!}')" class="backgroundPlanets">
-      </div> --}}
-
-
-
-
-  </section>
 
 
     <section class="customSection sectionParent homeSection1">
@@ -116,11 +50,11 @@
 
           <div class="containElements">
 
-            <h2 class="primaryTitle greenBlueColor"><span class="">Acelera el éxito de tu negocio</span></h2>
+            <h2 class="primaryTitle blackColor">Acelera el éxito <span class="greenBlueColor">de tu negocio</span></h2>
 
 
             <p class="primaryText grayColorTexts">
-              <strong>Escala</strong> te permite implementar embudos de venta: la estrategia probada <br class="space"> para hacer crecer empresas de manera rentable, sostenible y escalable
+              <strong>Escala</strong> te permite implementar embudos de venta: <br> la estrategia probada para hacer crecer empresas de manera rentable, sostenible y escalable
             </p>
 
           </div>
@@ -204,7 +138,7 @@
                 de marketing digital y ventas
               </h2>
               <p class="primaryText grayColorTexts">
-                En <strong>Escala</strong> tienes todas las herramientas que necesitas integradas para impulsar tu éxito
+                En <strong>Escala</strong> tienes todas las herramientas <br> que necesitas integradas para impulsar tu éxito
               </p>
 
             </div>
@@ -369,7 +303,7 @@
           <div class="containElements">
 
             <h2 class="primaryTitle blackColor">
-              5 ventajas de potenciar <br> tu negocio con <span class="orangeColor">Escala</span>
+              5 ventajas de potenciar tu negocio con <span class="orangeColor">Escala</span>
             </h2>
 
           </div>
@@ -505,8 +439,8 @@
 
                 <p class="primaryText blackColor3">
 
-                  <strong>¿No estás seguro de qué hacer o cómo avanzar?</strong> <br>
-                  Nuestros estrategas expertos en marketing digital y ventas conocen acerca de tus <br> necesidades y comparten  conocimientos probados para conseguir mejores resultados.
+                  ¿No estás seguro de qué hacer o cómo avanzar? <br>
+                Nuestros estrategas expertos en marketing digital y ventas <br> conocen acerca de tus necesidades y comparten conocimientos <br> probados para conseguir mejores resultados.
 
                 </p>
 
@@ -543,7 +477,7 @@
 
           <div class="containElements">
 
-            <h2 class="primaryTitle blackColor">Clientes que <br> hacen crecer sus negocios <br> con <span class="orangeColor">Escala</span>
+            <h2 class="primaryTitle blackColor">Clientes que hacen crecer <br> sus negocios con <span class="orangeColor">Escala</span>
             </h2>
 
           </div>
@@ -559,7 +493,9 @@
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Agencia de Publicidad</h3>
                   <span class="tag greenBlueColor">El Salvador</span>
-                  <p class="commonText grayColorTexts">“Escala tiene el email builder más amigable que he utilizado en los últimos años, y su equipo está comprometido a mantener la plataforma en constante actualización en el dinámico mundo digital.”</p>
+                  <p class="commonText grayColorTexts">
+                    “Escala tiene el email builder más amigable que he utilizado en los últimos <br> años, y su equipo está comprometido a mantener la plataforma en <br> constante actualización en el dinámico mundo digital.”
+                  </p>
                 </div>
                 <div class="referElements">
                   <div class="containerImage">
@@ -584,7 +520,7 @@
                   <h3 class="secondaryTitle blackColor">Agencia de Marketing</h3>
                   <span class="tag greenBlueColor">México</span>
                   <p class="commonText grayColorTexts">
-                    “Son muchas herramientras integradas en un solo sitio, una herramienta muy sencilla de utilizar y le da mucho beneficio al cliente. Nunca me habían atendido de esta manera en ningún tipo de plataforma similar. Primera vez que me atienden de esta manera y agradecidos enormemente. Felicidades porque tienen un equipo de trabajo increíble.”
+                    “Son muchas herramientras integradas en un solo sitio, una herramienta muy <br> sencilla de utilizar y le da mucho beneficio al cliente. Nunca me habían <br> atendido de esta manera en ningún tipo de plataforma similar. Primera vez <br> que me atienden de esta manera y agradecidos enormemente. Felicidades <br> porque tienen un equipo de trabajo increíble.”
                   <p>
                 </div>
                 <div class="referElements">
@@ -612,7 +548,7 @@
                   <h3 class="secondaryTitle blackColor">Turismo</h3>
                   <span class="tag greenBlueColor">Venezuela</span>
                   <p class="commonText grayColorTexts">
-                    “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos la misma esencia. Encontrarme con Escala fue importante porque es más completa. Tienes todo lo que necesitas, desde captar el interés de los clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi mercado se redujo por la pandemia, Escala es sumamente oportuno. Además, estoy muy contenta por todo el apoyo que he recibido por el equipo de Escala.”
+                    “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos <br> la misma esencia. Encontrarme con Escala fue importante porque es más <br> completa. Tienes todo lo que necesitas, desde captar el interés de los <br>  clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo <br> de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi <br> mercado se redujo por la pandemia, Escala es sumamente oportuno. <br> Además, estoy muy contenta por todo el apoyo que he recibido por el <br> equipo de Escala.”
                   </p>
                 </div>
                 <div class="referElements">
@@ -638,11 +574,9 @@
                   <h3 class="secondaryTitle blackColor">Agencia de Comunicaciones</h3>
                   <span class="tag greenBlueColor">Costa Rica</span>
                   <p class="commonText grayColorTexts">
-                    La herramienta es muy amigable, y permite que la gestión pueda realizarla casi que cualquier persona con conocimientos básicos en plataformas digitales.
-                    <br class="space">
-                    El servicio es expedito y el equipo a cargo se preocupa por extender capacitaciones necesarias que garantizan que los equipos estén sacando el mayor provecho de la herramienta.
-                    <br class="space">
-                    La organización visual de la pantalla de entrada es muy intuitiva, esto permite la exploración y el autoaprendizaje de las diferentes variables que se pueden configurar en la plataforma.
+                    La herramienta es muy amigable, y permite que la gestión pueda realizarla <br> casi que cualquier persona con conocimientos básicos en plataformas <br> digitales. <br class="space">
+                    El servicio es expedito y el equipo a cargo se preocupa por extender <br> capacitaciones necesarias que garantizan que los equipos estén sacando <br> el mayor provecho de la herramienta. <br class="space">
+                    La organización visual de la pantalla de entrada es muy intuitiva, esto <br> permite la exploración y el autoaprendizaje de las diferentes variables que <br> se pueden configurar en la plataforma.
                   </p>
                 </div>
                 <div class="referElements">
@@ -669,7 +603,13 @@
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Academia de Coaching</h3>
                   <span class="tag greenBlueColor">Estados Unidos</span>
-                  <p class="commonText grayColorTexts">¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad de lanzamientos de iniciativas de aprendizaje y crecimiento!!! 🔥🔥🔥🔥👏👏👏👏🙌</p>
+                  <p class="commonText grayColorTexts">
+                    ¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad <br>
+                    de lanzamientos de iniciativas de aprendizaje y crecimiento!!!
+                    <br class="space">
+                    🔥🔥🔥🔥👏👏👏👏🙌
+
+                  </p>
                 </div>
                 <div class="referElements">
                   <div class="containerImage">
@@ -694,7 +634,7 @@
                   <h3 class="secondaryTitle blackColor">Entretenimiento Deportivo</h3>
                   <span class="tag greenBlueColor">Venezuela</span>
                   <p class="commonText grayColorTexts">
-                    Felicitaciones al equipo de Escala, pues de verdad la plataforma me gusta bastante. Posee herramientas muy útiles y lo mejor es que es simple de manipular.
+                    Felicitaciones al equipo de Escala, pues de verdad la plataforma me <br> gusta bastante. Posee herramientas muy útiles y lo mejor e  que es <br> simple de manipular.
                   </p>
                 </div>
                 <div class="referElements">
@@ -728,12 +668,43 @@
   @php
  $parameters = array(
    'classSection' => 'homeSection7',
+   'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+   'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png')
    ) ;
    @endphp
 @contain_FAQ_T1( $parameters )
 
 @endcontain_FAQ_T1
 
+
+
+<section class="customSection sectionParent homeSection8 fullWidth">
+
+
+
+    <div class="section-row">
+
+      <div class="containElements">
+
+        <h3 class="primaryTitle whiteText">
+          Comienza a generar más leads, clientes y ventas
+        </h3>
+
+        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+          Prueba Escala ahora
+        </a>
+
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+</section>
 
 
 </div>

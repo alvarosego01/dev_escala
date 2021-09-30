@@ -19,6 +19,7 @@
 ) --}}
 
 
+
 @php
 if (!isset($overlay)) {
     $overlay = false;
@@ -64,80 +65,176 @@ $customId = uniqid();
                     </section>
 
                 @endif
-                <section class="innerSectionElement sct2 ">
 
 
 
+                {{-- desktopElement --}}
+                {{-- mobileElement --}}
+
+                <section class="desktopElement innerSectionElement sct2 ">
                     <!--Carousel Wrapper-->
-                    <div id="carousel_cards{{ $customId }}" class="carousel slide carousel-multi-item"
+                    <div id="carousel-{{ $classSection }}" class="carousel slide carousel-fade carousel-multi-item"
                         data-ride="carousel">
 
-                        <!--Controls-->
-                        <div class="controls-top">
-                            <a class="btn-floating" href="#carousel_cards{{ $customId }}" data-slide="prev"><i
-                                    class="fa fa-chevron-left"></i></a>
-                            <a class="btn-floating" href="#carousel_cards{{ $customId }}" data-slide="next"><i
-                                    class="fa fa-chevron-right"></i></a>
+                        @foreach ($elements as $x)
+                            <!--First slide-->
+                            <div class="carousel-item  @if ($loop->first) active @endif">
+                                <div class="row">
+                                    @foreach ($x as $r)
+
+                                        <div class="col-md-12 col-lg-4">
+
+                                            <div class="groupElements">
+
+                                                @if (isset($r['img']) && $r['img'] != null)
+
+                                                    <div class="image">
+                                                        <div class="containerImage">
+                                                            <img src="{{ $r['img'] }}" alt="" loading="lazy">
+                                                        </div>
+                                                    </div>
+
+                                                @endif
+
+                                                <div class="info">
+
+                                                    @if (isset($r['title']) && $r['title'] != null)
+                                                        <h3 class="secondaryTitle">
+                                                            {!! $r['title'] !!}
+                                                        </h3>
+                                                    @endif
+
+                                                    @if (isset($r['text']) && $r['text'] != null)
+                                                        <p class="text">
+                                                            {!! $r['text'] !!}
+                                                        </p>
+                                                    @endif
+
+                                                    @if (isset($r['enableButton']) && $r['enableButton'] != null)
+                                                        <a href="{{ $r['urlButton'] }}"
+                                                            class="goToHash secondaryButton hoverSecondaryButton">
+                                                            {{ $r['textButton'] }}
+                                                        </a>
+                                                    @endif
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    @endforeach
+                                </div>
+
+                            </div>
+                        @endforeach
+
+                        <div class="controlsSlideshow">
+
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carousel-{{ $classSection }}" data-bs-slide="prev">
+
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carousel-{{ $classSection }}" data-bs-slide="next">
+
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+                            </button>
+
                         </div>
 
 
-                        @foreach ($elements as $r)
+                    </div>
 
-                            <!--First slide-->
-                            <div class="carousel-item active">
 
+                </section>
+                <section class="mobileElement innerSectionElement sct2 ">
+                    <!--Carousel Wrapper-->
+                    <div id="carousel-{{ $classSection }}mob" class="carousel slide carousel-fade carousel-multi-item"
+                        data-ride="carousel">
+                        @php
+                        $b = 1;
+                    @endphp
+                    @foreach ($elements as $x)
+                        @foreach ($x as $r)
+                        <div class="carousel-item  @if ($b == 1) active @endif">
+                            @php
+                                $b = 0;
+                            @endphp
                                 <div class="row">
-                                    <div class="col-md-12 col-lg-4">
 
-                                        <div class="groupElements">
+                                        <div class="col-md-12 col-lg-4">
 
-                                            @if (isset($r['img']) && $r['img'] != null)
+                                            <div class="groupElements">
 
-                                                <div class="image">
-                                                    <div class="containerImage">
-                                                        <img src="{{ $r['img'] }}" alt="" loading="lazy">
+                                                @if (isset($r['img']) && $r['img'] != null)
+
+                                                    <div class="image">
+                                                        <div class="containerImage">
+                                                            <img src="{{ $r['img'] }}" alt="" loading="lazy">
+                                                        </div>
                                                     </div>
+
+                                                @endif
+
+                                                <div class="info">
+
+                                                    @if (isset($r['title']) && $r['title'] != null)
+                                                        <h3 class="secondaryTitle">
+                                                            {!! $r['title'] !!}
+                                                        </h3>
+                                                    @endif
+
+                                                    @if (isset($r['text']) && $r['text'] != null)
+                                                        <p class="text">
+                                                            {!! $r['text'] !!}
+                                                        </p>
+                                                    @endif
+
+                                                    @if (isset($r['enableButton']) && $r['enableButton'] != null)
+                                                        <a href="{{ $r['urlButton'] }}"
+                                                            class="goToHash secondaryButton hoverSecondaryButton">
+                                                            {{ $r['textButton'] }}
+                                                        </a>
+                                                    @endif
                                                 </div>
 
-                                            @endif
-
-                                            <div class="info">
-
-                                                @if (isset($r['title']) && $r['title'] != null)
-                                                    <h3 class="secondaryTitle">
-                                                        {!! $r['title'] !!}
-                                                    </h3>
-                                                @endif
-
-                                                @if (isset($r['text']) && $r['text'] != null)
-                                                    <p class="text">
-                                                        {!! $r['text'] !!}
-                                                    </p>
-                                                @endif
-
-                                                @if (isset($r['enableButton']) && $r['enableButton'] != null)
-                                                    <a href="{{ $r['urlButton'] }}"
-                                                        class="goToHash secondaryButton hoverSecondaryButton">
-                                                        {{ $r['textButton'] }}
-                                                    </a>
-                                                @endif
                                             </div>
-
                                         </div>
                                     </div>
+
                                 </div>
-                            </div>
+                                @endforeach
                         @endforeach
+
+                        <div class="controlsSlideshow">
+
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carousel-{{ $classSection }}mob" data-bs-slide="prev">
+
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carousel-{{ $classSection }}mob" data-bs-slide="next">
+
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+                            </button>
+
+                        </div>
+
+
                     </div>
+
 
                 </section>
 
 
 
+
+
             </div>
-
-
-        </div>
 
 
 
@@ -179,74 +276,168 @@ $customId = uniqid();
             @endif
 
 
-            <section class="innerSectionElement sct2 ">
-
+            <section class="desktopElement innerSectionElement sct2 ">
 
 
                 <!--Carousel Wrapper-->
-                <div id="carousel_cards{{ $customId }}" class="carousel slide carousel-multi-item"
-                    data-ride="carousel">
+                <div id="carousel-{{ $classSection }}" class="carousel slide carousel-fade carousel-multi-item" data-ride="carousel">
 
-                    <!--Controls-->
-                    <div class="controls-top">
-                        <a class="btn-floating" href="#carousel_cards{{ $customId }}" data-slide="prev"><i
-                                class="fa fa-chevron-left"></i></a>
-                        <a class="btn-floating" href="#carousel_cards{{ $customId }}" data-slide="next"><i
-                                class="fa fa-chevron-right"></i></a>
+                    @foreach ($elements as $x)
+                        <!--First slide-->
+
+                        <div class="carousel-item  @if ($loop->first) active @endif">
+                            <div class="row">
+                                @foreach ($x as $r)
+
+                                    <div class="col-md-12 col-lg-4">
+
+                                        <div class="groupElements">
+
+                                            @if (isset($r['img']) && $r['img'] != null)
+
+                                                <div class="image">
+                                                    <div class="containerImage">
+                                                        <img src="{{ $r['img'] }}" alt="" loading="lazy">
+                                                    </div>
+                                                </div>
+
+                                            @endif
+
+                                            <div class="info">
+
+                                                @if (isset($r['title']) && $r['title'] != null)
+                                                    <h3 class="secondaryTitle">
+                                                        {!! $r['title'] !!}
+                                                    </h3>
+                                                @endif
+
+                                                @if (isset($r['text']) && $r['text'] != null)
+                                                    <p class="text">
+                                                        {!! $r['text'] !!}
+                                                    </p>
+                                                @endif
+
+                                                @if (isset($r['enableButton']) && $r['enableButton'] != null)
+                                                    <a href="{{ $r['urlButton'] }}"
+                                                        class="goToHash secondaryButton hoverSecondaryButton">
+                                                        {{ $r['textButton'] }}
+                                                    </a>
+                                                @endif
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                @endforeach
+                            </div>
+
+                        </div>
+                    @endforeach
+
+
+                    <div class="controlsSlideshow">
+
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carousel-{{ $classSection }}" data-bs-slide="prev">
+
+                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carousel-{{ $classSection }}" data-bs-slide="next">
+
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+                        </button>
+
                     </div>
 
 
-                    @foreach ($elements as $r)
-
-                        <!--First slide-->
-                        <div class="carousel-item active">
-
-                            <div class="row">
-                                <div class="col-md-12 col-lg-4">
-
-                                    <div class="groupElements">
-
-                                        @if (isset($r['img']) && $r['img'] != null)
-
-                                            <div class="image">
-                                                <div class="containerImage">
-                                                    <img src="{{ $r['img'] }}" alt="" loading="lazy">
-                                                </div>
-                                            </div>
-
-                                        @endif
-
-                                        <div class="info">
-
-                                            @if (isset($r['title']) && $r['title'] != null)
-                                                <h3 class="secondaryTitle">
-                                                    {!! $r['title'] !!}
-                                                </h3>
-                                            @endif
-
-                                            @if (isset($r['text']) && $r['text'] != null)
-                                                <p class="text">
-                                                    {!! $r['text'] !!}
-                                                </p>
-                                            @endif
-
-                                            @if (isset($r['enableButton']) && $r['enableButton'] != null)
-                                                <a href="{{ $r['urlButton'] }}"
-                                                    class="goToHash secondaryButton hoverSecondaryButton">
-                                                    {{ $r['textButton'] }}
-                                                </a>
-                                            @endif
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
                 </div>
 
             </section>
 
+            <section class="mobileElement innerSectionElement sct2 ">
+                <!--Carousel Wrapper-->
+                <div id="carousel-{{ $classSection }}mob" class="carousel slide carousel-fade carousel-multi-item"
+                    data-ride="carousel">
+
+                    @php
+                        $b = 1;
+                    @endphp
+                    @foreach ($elements as $x)
+                        @foreach ($x as $r)
+                        <div class="carousel-item  @if ($b == 1) active @endif">
+                            @php
+                                $b = 0;
+                            @endphp
+                            <div class="row">
+
+                                    <div class="col-md-12 col-lg-4">
+
+                                        <div class="groupElements">
+
+                                            @if (isset($r['img']) && $r['img'] != null)
+
+                                                <div class="image">
+                                                    <div class="containerImage">
+                                                        <img src="{{ $r['img'] }}" alt="" loading="lazy">
+                                                    </div>
+                                                </div>
+
+                                            @endif
+
+                                            <div class="info">
+
+                                                @if (isset($r['title']) && $r['title'] != null)
+                                                    <h3 class="secondaryTitle">
+                                                        {!! $r['title'] !!}
+                                                    </h3>
+                                                @endif
+
+                                                @if (isset($r['text']) && $r['text'] != null)
+                                                    <p class="text">
+                                                        {!! $r['text'] !!}
+                                                    </p>
+                                                @endif
+
+                                                @if (isset($r['enableButton']) && $r['enableButton'] != null)
+                                                    <a href="{{ $r['urlButton'] }}"
+                                                        class="goToHash secondaryButton hoverSecondaryButton">
+                                                        {{ $r['textButton'] }}
+                                                    </a>
+                                                @endif
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            @endforeach
+                    @endforeach
+
+                    <div class="controlsSlideshow">
+
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carousel-{{ $classSection }}mob" data-bs-slide="prev">
+
+                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carousel-{{ $classSection }}mob" data-bs-slide="next">
+
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+                        </button>
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
 
         </div>
 

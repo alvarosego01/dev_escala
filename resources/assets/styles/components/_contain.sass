@@ -167,7 +167,7 @@
                     flex-direction: column-reverse
                     .image
                         img
-                            height: 300px!important
+                            height: 300px
                     .info
                         p.description
                             font-size: 18px!important
@@ -231,9 +231,9 @@
                             margin: auto
                             display: block
                             @include responsivo(telefonoTable)
-                                height: 225px!important
+                                height: 225px
                             @include responsivo(pcMedio)
-                                height: 225px!important
+                                height: 225px
 
 
 .customSection.sectionParent.component-contain-info-am-t1.bg-color.customSection.floated
@@ -517,10 +517,26 @@
     .accordion-body
         padding-left: 0
         padding-right: 0
+        padding-bottom: 0
     .accordion-item.itemChild
         padding: 0
         border: 1px solid #C4C4C4!important
-        padding: 10px 22.5px
+        @include responsivo(telefonoTable)
+            padding: 12.5px 0
+            padding-left: 50px
+
+        @include responsivo(pcMedio)
+            padding: 12.5px 0
+            padding-left: 50px
+
+        @include responsivo(general)
+            padding: 12.5px 0
+            padding-left: 75px
+
+        @include responsivo(resto)
+            padding: 12.5px 0
+            padding-left: 75px
+
         h4.accordion-header
             // background-color: white!important
             margin-bottom: 0
@@ -534,7 +550,7 @@
                 color: $colorBlack2
                 box-shadow: none!important
                 i
-                    font-size: 14px
+                    font-size: 16px
                     color: $colorOrange
             button.collapsed
                 background-color: transparent
@@ -545,7 +561,7 @@
             span
                 font-family: Nunito
                 font-style: normal
-                font-weight: 600
+                font-weight: bold
                 font-size: 16px
                 line-height: 125.1%
 
@@ -600,12 +616,15 @@
         border: none
         display: flex
         flex-direction: column
-        margin-bottom: 25px
+        margin-bottom: 0
         // padding: 0 50px
-        padding-bottom: 15px
-        padding-right: 0
+        padding-top: 20px
+        padding-bottom: 20px
         border-bottom: 1px solid rgba(0,0,0,0.1)
+        margin-top: 0
+        padding-right: 0
         padding-left: 0
+        background-color: rgba(white, 0.25)!important
         @include responsivo(telefonoTable)
             padding-bottom: 12.5px
         @include responsivo(pcMedio)
@@ -613,11 +632,19 @@
         h3.accordion-header
             margin-bottom: 0
             padding-left: 22.5px
+            @include responsivo(telefonoTable)
+                padding-left: 50px
+            @include responsivo(pcMedio)
+                padding-left: 50px
+            @include responsivo(general)
+                padding-left: 75px
+            @include responsivo(resto)
+                padding-left: 75px
             button.accordion-button
                 color: $colorOrange
                 box-shadow: none!important
                 i
-                    font-size: 14px
+                    font-size: 16px
                     color: $colorOrange
             button.collapsed
                 background-color: transparent
@@ -627,7 +654,7 @@
             span
                 font-family: Nunito
                 font-style: normal
-                font-weight: 600
+                font-weight: 800
                 font-size: 20px
                 line-height: 125.1%
 
@@ -664,7 +691,7 @@
                     display: block
                     margin: auto 0
                     margin-right: 15px
-                    font-size: 14px
+                    font-size: 16px
                     // position: absolute
                     // left: -20px
                     // top: 0
@@ -673,6 +700,7 @@
                     // height: fit-content
                 span
                     margin-right: auto
+                    font-weight: bold
                 &::after
                     display: none
 
