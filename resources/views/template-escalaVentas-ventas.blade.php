@@ -1,4 +1,8 @@
-{{-- Template Name: [B] Escala ventas - Ventas --}}
+{{--
+
+    Template Name: [B] Escala ventas - Ventas
+
+--}}
 
 
 @extends('layouts.app')
@@ -18,7 +22,7 @@
                     'title' => 'Simplifica tu gestión <br class="space"> de ventas y escala tu negocio',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/illustrations/others/CRM-screen-1.png'),
-                    'textForm' => 'Empieza a probar Escala',
+                    'textForm' => 'Pruébalo ahora',
                     'overlayImage' => null,
                     'threeCol' => false,
                 ];
@@ -50,7 +54,7 @@
                     'type' => 'backgroundColor',
                     'classSection' => 'eVentas2',
                     'enableTitle' => true,
-                    'titlePrincipal' => '<span class="greenBlueColor">¡Que no se te escape un lead!</span> <br class="space"> Con Escala podrás:',
+                    'titlePrincipal' => '<span class="greenBlueColor">¡Que no se te escape un lead!</span> <br class="space"> Con Escala podrás',
                     'subTitlePrincipal' => null,
                     'overlay' => false,
                     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
@@ -89,7 +93,7 @@
                     'type' => 'backgroundColor',
                     'classSection' => 'eVentas3',
                     'enableTitle' => true,
-                    'titlePrincipal' => '<span class="greenBlueColor">Un CRM simple y fácil de utilizar:</span> <br class="space"> el arma secreta de tu equipo de ventas',
+                    'titlePrincipal' => '<span class="greenBlueColor">Un CRM simple y fácil de utilizar</span> <br class="space"> El arma secreta de tu equipo de ventas',
                     'overlay' => true,
                     'overlayImage' => App::setFilePath('/assets/images/overlays/blueWaveOverlay.png'),
                     'carousel' => true,
