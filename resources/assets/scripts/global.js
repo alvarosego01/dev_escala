@@ -20,7 +20,6 @@ function navScrollFixed() {
             'top':  navBarHeight - 5 + 'px'
         });
 
-        console.log('esto que es', jQuery('.jet-popup.jet-popup--front-mode'));
 
     } else {
         inner[0].classList.remove("fixedNav");

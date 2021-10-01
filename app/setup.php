@@ -51,6 +51,7 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_style('home.css', asset_path('styles/pages/home.css'), false, THEME_VERSION);
             wp_enqueue_style('escalaFex.css', asset_path('styles/pages/escalaFex.css'), false, THEME_VERSION);
         }
+
         $t = SetComponents::setTemplates('landings');
         if (is_page_template($t)) {
             wp_enqueue_style('landingPages.css', asset_path('styles/pages/landingPages/landingPagesMain.css'), false, THEME_VERSION);
@@ -61,7 +62,11 @@ add_action('wp_enqueue_scripts', function () {
         }
         $t = SetComponents::setTemplates('escalaVentas');
         if (is_page_template($t)) {
-            wp_enqueue_style('func.css', asset_path('styles/pages/escalaVentas/escalaVentasMain.css'), false, THEME_VERSION);
+            wp_enqueue_style('escalaVentas.css', asset_path('styles/pages/escalaVentas/escalaVentasMain.css'), false, THEME_VERSION);
+        }
+        $t = SetComponents::setTemplates('escalaMarketing');
+        if (is_page_template($t)) {
+            wp_enqueue_style('escalaMarketing.css', asset_path('styles/pages/escalaMarketing/escalaMarketingMain.css'), false, THEME_VERSION);
         }
         $t = SetComponents::setTemplates('blog');
         if (is_page_template($t)) {
@@ -78,6 +83,13 @@ add_action('wp_enqueue_scripts', function () {
 
 
         //------------------------------------------------------------------------------
+
+        if (  is_page_template("views/template-home.blade.php" ) ){
+
+            wp_enqueue_script('_home.js', asset_path('scripts/pages/_home.js'), ['jquery'], THEME_VERSION, true);
+
+
+        }
 
         if ( is_page_template("views/template-zoom-demo-meeting.blade.php") ) {
 

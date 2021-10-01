@@ -16,14 +16,14 @@
 
             @php
                 $parameters = [
-                    'backgroundImageType' => false,
-                    'overlay' => false,
+                    'backgroundImageType' => true,
+                    'overlay' => true,
                     'classSection' => ' eVentas0',
                     'title' => 'Simplifica tu gestión <br class="space"> de ventas y escala tu negocio',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/illustrations/others/CRM-screen-1.png'),
                     'textForm' => 'Pruébalo ahora',
-                    'overlayImage' => null,
+                    'overlayImage' => App::setFilePath('/assets/images/overlays/stars_space.png'),
                     'threeCol' => false,
                 ];
             @endphp
@@ -35,27 +35,11 @@
 
             @php
                 $parameters = [
-                    'classSection' => 'eVentas1 ',
-                    'description' => 'Escala es la plataforma <span class="greenBlueColor"><strong>todo en uno</strong></span>, diseñada para acelerar <br>
-                el crecimiento de tus ventas y aumentar la productividad de tu <br> equipo. Todas las herramientas que necesitas <span class="greenBlueColor"><strong>en un solo lugar.</strong></span>',
-                    'byAm' => null,
-                    'team' => null,
-                    'image' => App::setFilePath('/assets/images/illustrations/others/escalaventas_02_1.png'),
-                ];
-            @endphp
-
-            @contain_am_T1( $parameters )
-
-            @endcontain_am_T1
-
-
-            @php
-                $parameters = [
                     'type' => 'backgroundColor',
                     'classSection' => 'eVentas2',
                     'enableTitle' => true,
                     'titlePrincipal' => '<span class="greenBlueColor">¡Que no se te escape un lead!</span> <br class="space"> Con Escala podrás',
-                    'subTitlePrincipal' => null,
+                    'subTitlePrincipal' => 'Escala es la plataforma <span class="greenBlueColor"><strong>todo en uno</strong></span>, diseñada para acelerar <br> el crecimiento de tus ventas y aumentar la productividad de tu equipo. <br> Todas las herramientas que necesitas <span class="greenBlueColor"><strong>en un solo lugar.</strong></span>',
                     'overlay' => false,
                     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
                     'elements' => [
@@ -87,7 +71,6 @@
 
             @endcontain_multiple_cards_T2
 
-
             @php
                 $parameters = [
                     'type' => 'backgroundColor',
@@ -96,10 +79,11 @@
                     'titlePrincipal' => '<span class="greenBlueColor">Un CRM simple y fácil de utilizar</span> <br class="space"> El arma secreta de tu equipo de ventas',
                     'overlay' => true,
                     'overlayImage' => App::setFilePath('/assets/images/overlays/blueWaveOverlay.png'),
-                    'carousel' => true,
+                    'enableButton' => true,
+                    'urlButton' => '#',
+                    'textButton' => '¡Comenzar ahora!',
+                    'typeButton' => 'primaryButton hoverInEffect',
                     'elements' => array(
-
-                        array(
                                 [
                                     'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icon_1.png'),
                                     'title' => '<span class="greenBlueColor">Todo tu equipo</span> <br class="space"> en una sola plataforma',
@@ -120,8 +104,6 @@
                                     'text' => 'Te ayudamos a organizar el día a día de tu compañía. A través de tareas, actividades y recordatorios para cada miembro de tu equipo de ventas.',
                                     'enableButton' => false,
                                 ],
-                        ),
-                        array(
                                 [
                                     'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icon_4.png'),
                                     'title' => 'Hazle seguimiento <br class="space"> <span class="greenBlueColor">a tus resultados</span>',
@@ -135,16 +117,14 @@
                                     'enableButton' => false,
                                 ],
 
-                          ),
-
 
                     )
 
                 ];
             @endphp
 
-            @contain_multiple_cards_carousel_T3( $parameters )
-            @endcontain_multiple_cards_carousel_T3
+            @contain_5_cards_T1( $parameters )
+            @endcontain_5_cards_T1
 
 
 
@@ -160,7 +140,7 @@
                         </div>
 
                       <p class="primaryText grayColorTexts">
-                        “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos la misma esencia. <br> Encontrarme con escala fue importante porque es más completa. <strong>Tienes todo lo que necesitas <br> desde captar el interés de cliente, hacer seguimiento y medir indicadores de desempeño de tu <br> equipo de ventas hasta estandarizar el proceso de la comunicación”.</strong>
+                        “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos la misma esencia. <br> Encontrarme con escala fue importante porque es más completa. <strong>Tienes todo lo que necesitas desde <br> captar el interés de cliente, hacer seguimiento y medir indicadores de desempeño de tu equipo <br> de ventas hasta estandarizar el proceso de la comunicación”</strong>.
                       </p>
 
                       <div class="testim">
