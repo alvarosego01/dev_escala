@@ -314,7 +314,7 @@ $parameters = [
                             collapse
                         @endif"
             aria-labelledby="{{ $cid }}_headingOne">
-            <div class="accordion-body">
+            <div class="accordion-body principal">
 
                 @if (isset($val['text']) && $val['text'] != '')
 

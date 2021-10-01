@@ -37,9 +37,17 @@
                 <img src="{{ $overlayImage1 }}" alt="" class="overlay1">
 
                 @endif
+
                 @if (isset($overlayImage2) && $overlayImage2 != null)
 
                 <img src="{{ $overlayImage2 }}" alt="" class="overlay2">
+
+
+                @endif
+
+                @if (isset($overlayImage3) && $overlayImage3 != null)
+
+                <img src="{{ $overlayImage3 }}" alt="" class="overlay3">
 
 
                 @endif

@@ -27,7 +27,7 @@
      'overlay' => false,
      'classSection' => 'threeCol homeSection0',
      'title' => 'Genera más leads, <br class="space"> <span class="greenBlueColor">clientes y ventas</span>',
-     'text' => 'Con Escala, la plataforma de <br> marketing digital y ventas más completa <br> y fácil de utilizar.',
+     'text' => 'Con Escala, la plataforma de <br class="space"> marketing digital y ventas más completa <br class="space"> y fácil de utilizar.',
      'textForm' => 'Empieza a probar Escala',
      'threeCol' => true,
      'backgroundImage' => null,
@@ -54,7 +54,7 @@
 
 
             <p class="primaryText grayColorTexts">
-              <strong>Escala</strong> te permite implementar embudos de venta: <br> la estrategia probada para hacer crecer empresas de manera rentable, sostenible y escalable
+              <strong>Escala</strong> te permite implementar embudos de venta: <br class="space"> la estrategia probada para hacer crecer empresas de <br class="mobileElement"> manera rentable, sostenible y escalable
             </p>
 
           </div>
@@ -63,7 +63,7 @@
 
         <section class="innerSectionElement row sct2">
 
-          <div class="containElements col-sm-12 col-md-6 col-lg-3">
+          <div class="containElements col-6 col-md-6 col-lg-3">
             <div class="elements">
 
               <div class="containerImage">
@@ -74,7 +74,7 @@
 
             </div>
           </div>
-          <div class="containElements col-sm-12 col-md-6 col-lg-3">
+          <div class="containElements col-6 col-md-6 col-lg-3">
             <div class="elements">
 
               <div class="containerImage">
@@ -87,7 +87,7 @@
 
             </div>
           </div>
-          <div class="containElements col-sm-12 col-md-6 col-lg-3">
+          <div class="containElements col-6 col-md-6 col-lg-3">
             <div class="elements">
 
               <div class="containerImage">
@@ -99,7 +99,7 @@
 
             </div>
           </div>
-          <div class="containElements col-sm-12 col-md-6 col-lg-3">
+          <div class="containElements col-6 col-md-6 col-lg-3">
             <div class="elements">
 
               <div class="containerImage">
@@ -138,7 +138,7 @@
                 de marketing digital y ventas
               </h2>
               <p class="primaryText grayColorTexts">
-                En <strong>Escala</strong> tienes todas las herramientas <br> que necesitas integradas para impulsar tu éxito
+                En <strong>Escala</strong> tienes todas las herramientas <br class="space"> que necesitas integradas para impulsar tu éxito
               </p>
 
             </div>
@@ -147,28 +147,28 @@
           <section class="innerSectionElement sct2">
 
             <div class="groupElements row">
-              <div class="col-md-12 col-lg-6 infoGroup">
+              <div class="col-6 col-md-6 col-lg-6 infoGroup">
 
                 <div class="containerImage">
                   <img alt="Crea increíbles páginas sin programar" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_01.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Crea increíbles <br> páginas sin programar</h3>
+                  <h3 class="secondaryTitle blackColor">Crea increíbles <br class="desktopTabletElement"> páginas sin programar</h3>
                   <p class="primaryText  grayColorTexts">¡Y que queden hermosas!</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/landing-pages/">Conocer más</a>
                 </div>
 
               </div>
 
-              <div class="col-md-12 col-lg-6 infoGroup">
+              <div class="col-6 col-md-6 col-lg-6 infoGroup">
 
                 <div class="containerImage">
                   <img alt="Organiza tus contactos y gestiona procesos de venta" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_05.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Organiza tus contactos y <br> gestiona procesos de venta</h3>
+                  <h3 class="secondaryTitle blackColor">Organiza tus contactos y <br class="desktopTabletElement"> gestiona procesos de venta</h3>
                   <p class="primaryText  grayColorTexts">Con un CRM sencillo de usar</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/crm-escala/">
                     Conocer más
@@ -179,15 +179,15 @@
 
             </div>
             <div class="groupElements row">
-              <div class="col-md-12 col-lg-6 infoGroup">
+              <div class="col-6 col-md-6 col-lg-6 infoGroup">
 
                 <div class="containerImage">
                   <img alt="Envía emails de marketing profesionales" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_02.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Envía emails de marketing <br> profesionales</h3>
-                  <p class="primaryText  grayColorTexts">Personalizados y masivos, sin caer <br> en la bandeja de SPAM</p>
+                  <h3 class="secondaryTitle blackColor">Envía emails de marketing <br class="desktopTabletElement"> profesionales</h3>
+                  <p class="primaryText  grayColorTexts">Personalizados y masivos, sin caer <br class="space"> en la bandeja de SPAM</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/email/">
                     Conocer más
                   </a>
@@ -195,14 +195,14 @@
 
               </div>
 
-              <div class="col-md-12 col-lg-6 infoGroup">
+              <div class="col-6 col-md-6 col-lg-6 infoGroup">
 
                 <div class="containerImage">
                   <img alt="Multiplica tus visitas web con anuncios digitales" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_04.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Multiplica tus visitas web <br> con anuncios digitales</h3>
+                  <h3 class="secondaryTitle blackColor">Multiplica tus visitas web <br class="desktopTabletElement"> con anuncios digitales</h3>
                   <p class="primaryText  grayColorTexts">en Facebook, Instagram y Google</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/anuncios-digitales/">
                     Conocer más
@@ -213,14 +213,14 @@
             </div>
 
             <div class="groupElements row">
-              <div class="col-md-12 col-lg-6 infoGroup">
+              <div class="col-6 col-md-6 col-lg-6 infoGroup">
 
                 <div class="containerImage">
                   <img alt="Automatiza tareas y flujos de comunicación" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_03.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Automatiza tareas y flujos <br> de comunicación</h3>
+                  <h3 class="secondaryTitle blackColor">Automatiza tareas y flujos <br class="desktopTabletElement"> de comunicación</h3>
                   <p class="primaryText  grayColorTexts">Escala trabaja por ti 24/7</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/automatizacion/">
                     Conocer más
@@ -232,14 +232,14 @@
 
 
 
-              <div class="col-md-12 col-lg-6 infoGroup">
+              <div class="col-6 col-md-6 col-lg-6 infoGroup">
 
                 <div class="containerImage">
                   <img alt="Obtén métricas de marketing y ventas en tiempo real" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/icono_06.svg" alt="" loading="lazy">
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Obtén métricas de marketing <br> y ventas en  tiempo real</h3>
+                  <h3 class="secondaryTitle blackColor">Obtén métricas de marketing <br class="desktopTabletElement"> y ventas en  tiempo real</h3>
                   <p class="primaryText  grayColorTexts">con dashboards inteligentes</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/analiticas/">
                     Conocer más
@@ -303,7 +303,7 @@
           <div class="containElements">
 
             <h2 class="primaryTitle blackColor">
-              5 ventajas de potenciar tu negocio con <span class="orangeColor">Escala</span>
+              5 ventajas de potenciar <br class="mobileElement"> tu negocio con <span class="orangeColor">Escala</span>
             </h2>
 
           </div>
@@ -325,8 +325,12 @@
                   <h3 class="secondaryTitle blackColor">Una herramientas <br class="space"> muy amigable</h3>
                   <p class="primaryText grayColorTexts">
                     Para mercadeo y ventas <br class="space">
-                    <span class="greenBlueColor">
+                    <span class=" desktopTabletElement greenBlueColor">
                       Ernesto Valery / Director Huella Studio
+                    </span>
+                    <span class="mobileSmallElement greenBlueColor">
+                      Ernesto Valery <br class="space">
+                      Director Huella Studio
                     </span>
                   </p>
 
@@ -345,8 +349,12 @@
                     Tienen un equipo atento <br class="space">
                     y disponible cuando lo necesitas
                     <br class="space">
-                    <span class="greenBlueColor">
+                    <span class="desktopTabletElement greenBlueColor">
                       Michelle Palaez / Fundadora Infinito Producciones
+                    </span>
+                    <span class="mobileSmallElement greenBlueColor">
+                      Michelle Palaez <br class="space">
+                      Fundadora Infinito Producciones
                     </span>
                   </p>
 
@@ -364,9 +372,10 @@
                   <p class="primaryText grayColorTexts">
                     Cualquiera con nivel básico <br>
                     sabría utilizar escala. <br class="space">
-                    <span class="greenBlueColor">
+                    <span class=" greenBlueColor">
                       Verónica Bolaños / Account Manager, <br class="space"> Publicidad Comercial
                     </span>
+
                   </p>
 
                 </div>
@@ -382,8 +391,11 @@
                   <h3 class="secondaryTitle blackColor">Todas las funcionalidades <br class="space"> en un solo lugar</h3>
                   <p class="primaryText grayColorTexts">
                     Escala programa las páginas por ti <br class="space">
-                    <span class="greenBlueColor">
+                    <span class="desktopTabletElement greenBlueColor">
                       Michelle Palaez / Fundadora Infinito Producciones
+                    </span>
+                    <span class="mobileSmallElement greenBlueColor">
+                      Michelle Palaez <br class="space"> Fundadora Infinito Producciones
                     </span>
                   </p>
 
@@ -403,7 +415,7 @@
                     Finalmente un software donde la plataforma, <br class="space"> el servicio y la educación es en español
                     <br class="space">
                     <span class="greenBlueColor">
-                      Verónica Bolaños / Account Manager, Publicidad Comercial
+                      Verónica Bolaños / Account Manager, <br class="space"> Publicidad Comercial
                     </span>
                   </p>
 
@@ -489,7 +501,8 @@
           <div class="groupElements row">
 
             <div class="testimonial col-md-12 col-lg-6 ">
-              <div class="containElements">
+
+              <div class="containElements desktopElement">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Agencia de Publicidad</h3>
                   <span class="tag greenBlueColor">El Salvador</span>
@@ -513,9 +526,39 @@
                 </div>
 
               </div>
+              <div class="containElements mobileElement">
+
+                <div class="referElements">
+                  <div class="containerImage">
+
+                    <img alt="Agencia de Publicidad" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Publicidad-Comercial2-1.png" alt="" loading="lazy">
+
+                  </div>
+                </div>
+
+
+                <div class="containInfo">
+                  <h3 class="secondaryTitle blackColor">Agencia de Publicidad<span class="greenBlueColor"> / El Salvador</span></h3>
+
+                  <p class="commonText grayColorTexts">
+                    “Escala tiene el email builder más amigable que he utilizado en los últimos <br> años, y su equipo está comprometido a mantener la plataforma en <br> constante actualización en el dinámico mundo digital.”
+                  </p>
+                </div>
+                <div class="referElements">
+
+                  <div class="info">
+                    <h3 class="tertiaryTitle blackColor">Verónica Bolaños <br class="space"> <span>Account Manager</span>
+                    </h3>
+                    <p class="commonText grayColorTexts">Publicidad Comercial</p>
+                  </div>
+
+                </div>
+
+              </div>
+
             </div>
             <div class="testimonial col-md-12 col-lg-6 ">
-              <div class="containElements">
+              <div class="containElements desktopElement">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Agencia de Marketing</h3>
                   <span class="tag greenBlueColor">México</span>
@@ -539,11 +582,40 @@
                 </div>
 
               </div>
+              <div class="containElements mobileElement">
+
+                <div class="referElements">
+                  <div class="containerImage">
+
+                    <img alt="Agencia de Marketing" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Huella-Studio-1.png" alt="" loading="lazy">
+
+                  </div>
+
+                <div class="containInfo">
+                  <h3 class="secondaryTitle blackColor">Agencia de Marketing<span class="greenBlueColor"> / México</span></h3>
+
+                  <p class="commonText grayColorTexts">
+                    “Son muchas herramientras integradas en un solo sitio, una herramienta muy <br> sencilla de utilizar y le da mucho beneficio al cliente. Nunca me habían <br> atendido de esta manera en ningún tipo de plataforma similar. Primera vez <br> que me atienden de esta manera y agradecidos enormemente. Felicidades <br> porque tienen un equipo de trabajo increíble.”
+                  <p>
+                </div>
+                <div class="referElements">
+
+
+                  <div class="info">
+                    <h3 class="tertiaryTitle blackColor">Ernesto Valery y Edher Nieves <br class="space"> <span>Director Creativo</span>
+                    </h3>
+                    <p class="commonText grayColorTexts">Huella Studio</p>
+                  </div>
+
+                </div>
+
+              </div>
             </div>
+          </div>
           </div>
           <div class="groupElements row">
             <div class="testimonial col-md-12 col-lg-6 ">
-              <div class="containElements">
+              <div class="containElements desktopElement">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Turismo</h3>
                   <span class="tag greenBlueColor">Venezuela</span>
@@ -567,9 +639,36 @@
                 </div>
 
               </div>
+              <div class="containElements mobileElement">
+
+                <div class="referElements">
+                  <div class="containerImage">
+
+                    <img alt="Turismo" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Infinito-Producciones-1.png" alt="" loading="lazy">
+
+                  </div>
+
+                <div class="containInfo">
+                  <h3 class="secondaryTitle blackColor">Turismo<span class="tag greenBlueColor"> / Venezuela</span></h3>
+                  <p class="commonText grayColorTexts">
+                    “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos <br> la misma esencia. Encontrarme con Escala fue importante porque es más <br> completa. Tienes todo lo que necesitas, desde captar el interés de los <br>  clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo <br> de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi <br> mercado se redujo por la pandemia, Escala es sumamente oportuno. <br> Además, estoy muy contenta por todo el apoyo que he recibido por el <br> equipo de Escala.”
+                  </p>
+                </div>
+                <div class="referElements">
+
+                  <div class="info">
+                    <h3 class="tertiaryTitle blackColor">Michell Peláez <br class="space"> <span>Ejecutiva de cuentas corporativas</span>
+                    </h3>
+                    <p class="commonText grayColorTexts">Infinito Producciones</p>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
             </div>
             <div class="testimonial col-md-12 col-lg-6 ">
-              <div class="containElements">
+              <div class="containElements desktopElement">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Agencia de Comunicaciones</h3>
                   <span class="tag greenBlueColor">Costa Rica</span>
@@ -595,11 +694,45 @@
                 </div>
 
               </div>
+              <div class="containElements mobileElement">
+
+                <div class="referElements">
+                  <div class="containerImage">
+
+                    <img alt="Agencia de Comunicaciones" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Initiative-1.png" alt="" loading="lazy">
+
+                  </div>
+
+                </div>
+
+                <div class="containInfo">
+                  <h3 class="secondaryTitle blackColor">Agencia de Comunicaciones<span class="greenBlueColor"> / Costa Rica</span></h3>
+                  <p class="commonText grayColorTexts">
+                    La herramienta es muy amigable, y permite que la gestión pueda realizarla <br> casi que cualquier persona con conocimientos básicos en plataformas <br> digitales. <br class="space">
+                    El servicio es expedito y el equipo a cargo se preocupa por extender <br> capacitaciones necesarias que garantizan que los equipos estén sacando <br> el mayor provecho de la herramienta. <br class="space">
+                    La organización visual de la pantalla de entrada es muy intuitiva, esto <br> permite la exploración y el autoaprendizaje de las diferentes variables que <br> se pueden configurar en la plataforma.
+                  </p>
+                </div>
+                <div class="referElements">
+
+
+                  <div class="info">
+                    <h3 class="tertiaryTitle blackColor">Dayana Palacios <br class="space"> <span>Directora de medios y marketing digital</span>
+                    </h3>
+                    <p class="commonText grayColorTexts">Initiative</p>
+                  </div>
+
+                </div>
+
+              </div>
+
             </div>
           </div>
           <div class="groupElements row">
             <div class="testimonial col-md-12 col-lg-6 ">
-              <div class="containElements">
+
+              <div class="containElements desktopElement">
+
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Academia de Coaching</h3>
                   <span class="tag greenBlueColor">Estados Unidos</span>
@@ -627,9 +760,43 @@
                 </div>
 
               </div>
+              <div class="containElements mobileElement">
+
+                <div class="referElements">
+                  <div class="containerImage">
+
+                    <img alt="Academia de Coaching" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Logo-ILC-Academy-1-1.png" alt="" loading="lazy">
+
+                  </div>
+                </div>
+
+                <div class="containInfo">
+                  <h3 class="secondaryTitle blackColor">Academia de Coaching<span class="greenBlueColor"> / Estados Unidos</span></h3>
+                  <p class="commonText grayColorTexts">
+                    ¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad <br>
+                    de lanzamientos de iniciativas de aprendizaje y crecimiento!!!
+                    <br class="space">
+                    🔥🔥🔥🔥👏👏👏👏🙌
+
+                  </p>
+                </div>
+                <div class="referElements">
+
+
+                  <div class="info">
+                    <h3 class="tertiaryTitle blackColor">Fernando Celis <br class="space"> <span>CEO y Fundador</span>
+                    </h3>
+                    <p class="commonText grayColorTexts">ILC Academy</p>
+                  </div>
+
+                </div>
+
+              </div>
+
             </div>
             <div class="testimonial col-md-12 col-lg-6 ">
-              <div class="containElements">
+
+              <div class="containElements desktopElement">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Entretenimiento Deportivo</h3>
                   <span class="tag greenBlueColor">Venezuela</span>
@@ -653,14 +820,59 @@
                 </div>
 
               </div>
+              <div class="containElements mobileElement">
+
+                <div class="referElements">
+                  <div class="containerImage">
+
+                    <img alt="Entretenimiento Deportivo" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Savage-Paintball-1.png" alt="" loading="lazy">
+
+                  </div>
+
+                </div>
+
+                <div class="containInfo">
+                  <h3 class="secondaryTitle blackColor">Entretenimiento Deportivo<span class="greenBlueColor"> / Venezuela</span> </h3>
+                  <p class="commonText grayColorTexts">
+                    Felicitaciones al equipo de Escala, pues de verdad la plataforma me <br> gusta bastante. Posee herramientas muy útiles y lo mejor e  que es <br> simple de manipular.
+                  </p>
+                </div>
+
+                <div class="referElements">
+
+                  <div class="info">
+                    <h3 class="tertiaryTitle blackColor">Felix Pacheco
+                    </h3>
+                    <p class="commonText grayColorTexts">Savage Paintball</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+
             </div>
           </div>
 
 
+
+        </section>
+
+
+        <section class="mobileElement showMore innerSectionElement sct3">
+
+          <div class="containElements">
+
+
+              <a onclick="showTestimonials('show')" class="greyButton hoverInEffect">
+                Cargar más testimonios
+              </a>
+
+
+          </div>
+        </section>
+
       </div>
-
-    </section>
-
   </section>
 
 
@@ -669,7 +881,8 @@
  $parameters = array(
    'classSection' => 'homeSection7',
    'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-   'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png')
+   'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+   'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png')
    ) ;
    @endphp
 @contain_FAQ_T1( $parameters )

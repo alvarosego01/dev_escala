@@ -80,6 +80,7 @@ class SetComponents extends Controller
             'components.contain.info.component-info-text-image-T1' => 'contain_text_image_T1',
             'components.contain.info.component-info-FAQ-T1' => 'contain_FAQ_T1',
             'components.contain.info.component-info-accordion-T1' => 'contain_accordion_T1',
+            'components.contain.info.component-info-5-cards-T1' => 'contain_5_cards_T1',
             'components.contain.info.component-info-multiple-cards-T1' => 'contain_multiple_cards_T1',
             'components.contain.info.component-info-multiple-cards-T2' => 'contain_multiple_cards_T2',
             'components.contain.info.component-info-multiple-cards-carousel-T3' => 'contain_multiple_cards_carousel_T3'
@@ -133,6 +134,13 @@ class SetComponents extends Controller
 
             );
         }
+        if ($type == 'escalaMarketing') {
+            return array(
+
+                "views/template-escalaMarketing-marketing.blade.php"
+
+            );
+        }
 
         if ($type == 'func') {
             return array(
@@ -181,6 +189,15 @@ class SetComponents extends Controller
             );
         }
 
+        if ($type == 'home') {
+
+            return array(
+
+                "views/template-home.blade.php",
+
+            );
+
+        }
         if ($type == 'all') {
 
             return array(
@@ -193,6 +210,7 @@ class SetComponents extends Controller
                 "views/template-landing-incredible-no-program.blade.php",
                 "views/template-landing-incredible-am.blade.php",
                 "views/template-escalaVentas-ventas.blade.php",
+                "views/template-escalaMarketing-marketing.blade.php",
                 "views/template-func-page-builder.blade.php",
                 "views/template-func-analiticas.blade.php",
                 "views/template-func-automatization.blade.php",
