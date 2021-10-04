@@ -136,7 +136,7 @@
                     <div class="containElements">
 
                         <div class="containerImage">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector.png') !!}" class="attachment-large size-large" loading="lazy" width="1024" height="998">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/VectorCom2.png') !!}" class="attachment-large size-large" loading="lazy" width="1024" height="998">
                         </div>
 
                       <p class="primaryText grayColorTexts">

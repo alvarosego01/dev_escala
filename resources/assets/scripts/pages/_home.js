@@ -67,7 +67,34 @@ jQuery(document).ready(function () {
 
     initMode();
 
-    jQuery('div#accordionPanelsFAQ').on( 'click change' ,function (e) {
+    jQuery(document).on('show.bs.collapse','#accordionPanelsFAQ',function (e){
+
+
+
+        var l = jQuery('div#accordionPanelsFAQ');
+
+        if (l.height() > 1200) {
+
+            jQuery('img.overlay3').css({
+
+                'display': 'block'
+
+            })
+
+        }else{
+
+            jQuery('img.overlay3').css({
+
+                'display': 'none'
+
+            })
+        }
+
+
+
+    });
+    jQuery(document).on('hide.bs.collapse','#accordionPanelsFAQ',function (e){
+
 
 
         var l = jQuery('div#accordionPanelsFAQ');
