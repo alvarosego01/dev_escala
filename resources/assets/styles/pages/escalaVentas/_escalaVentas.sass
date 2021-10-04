@@ -168,7 +168,7 @@
 
             .backgroundPlanets
                 width: 100%
-                height: 77.5%
+                height: 80%
                 left: 0
                 right: 0
                 bottom: 0
@@ -176,7 +176,13 @@
                 position: absolute
                 z-index: -1!important
                 background-repeat: no-repeat
+                background-size: cover
                 background-position: center top
+                @include responsivo(general)
+                    height: 90%
+
+                @include responsivo(resto)
+                    height: 95%
                 // background-size: cover
 
         .customSection.sectionParent.eVentas4
