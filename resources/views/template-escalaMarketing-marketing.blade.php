@@ -16,8 +16,8 @@
      'backgroundImageType' => false,
      'overlay' => false,
      'classSection' => 'threeCol eMarketing0',
-     'title' => '<span class="whiteColor">Todas las herramientas <br class="space"> que necesitas</span>',
-     'text' => '<span class="whiteColor">Para hacer tu Marketing <br class="space"> Digital más poderoso</span>',
+     'title' => '<span class="whiteColor">Genera más <br class="space"> demanda con <br class="space"> Marketing Digital</span>',
+     'text' => '<span class="whiteColor">Desarrolla potentes campañas sin <br class="space"> depender de equipos de <br class="space"> programación o integración</span>',
      'textForm' => 'Pruébalo ahora',
      'threeCol' => true,
      'backgroundImage' => null,
@@ -36,29 +36,29 @@
         'type' => 'backgroundColor',
         'classSection' => 'eMarketing1',
         'enableTitle' => true,
-        'titlePrincipal' => '<span class="greenBlueColor">Conoce todo lo que puedes lograr</span> <br class="space"> en marketing con Escala',
+        'titlePrincipal' => '<span class="greenBlueColor">La plataforrma todo-en-uno de Marketing y Ventas</span> <br class="space"> que potencia tu crecimiento',
         'subTitlePrincipal' => null,
         'overlay' => false,
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-2a.png'),
-                'title' => '<span class="grayColorTexts5">Implementa fácilmente <br class="space"> embudos de ventas</span>',
+                'title' => '<span class="grayColorTexts5"Genera más leads o una <br class="space"> base de datos de nuevos <br class="space"> clientes potenciales</span>',
                 'enableButton' => false,
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-2b1.png'),
-                'title' => '<span class="grayColorTexts5">Crea poderosas Landing <br class="space"> Pages en minutos</span>',
+                'title' => '<span class="grayColorTexts5">Mejora tu presencia online con <br class="space"> hermosas Landing Pages que <br class="space"> no necesitas programar</span>',
                 'enableButton' => false,
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-2c1.png'),
-                'title' => '<span class="grayColorTexts5">Genera y administra <br class="space"> campañas de Ads, <br class="space"> sin salir de nuestra plataforma</span>',
+                'title' => '<span class="grayColorTexts5">Promueve tus productos y <br class="space"> servicios en medios digitales con <br class="space"> anuncios que creas y gestionas <br class="space"> desde la misma plataforma</span>',
                 'enableButton' => false,
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-2d1.png'),
-                'title' => '<span class="grayColorTexts5">Haz campañas de email <br class="space"> marketing efectivas</span>',
+                'title' => '<span class="grayColorTexts5">Nutre la relación con tus <br class="space"> contactos y comúnicate más <br class="space"> efectivamente con poderosas <br class="space"> campañas de Email Marketing</span>',
                 'enableButton' => false,
             ],
         ],
@@ -75,11 +75,11 @@
   'type' => 'backgroundColor',
   'classSection' => 'eMarketing2',
   'enableTitle' => true,
-  'titlePrincipal' => '<span class="greenBlueColor">¿Qué beneficios tengo</span> con Escala?',
+  'titlePrincipal' => '<span class="greenBlueColor">Descubre cómo optimizar</span> <br class="space"> tu Marketing Digital con Escala',
   'subTitlePrincipal' => null,
-  'title' => 'Genera tráfico con <span class="greenBlueColor">Ads de Facebook</span>',
+  'title' => 'Llega a más clientes potenciales <br class="space"> con <span class="greenBlueColor">Ads de Facebook</span>',
   'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-101.png'),
-  'text' => 'Crea, publica y administra tus campañas de anuncios digitales, sin salir <br> de Escala. De la manera más fácil e intuitiva sin tener que contratar a un <br> planner de medios digitales.',
+  'text' => 'Crea, publica y gestiona tus campañas de anuncios digitales, <br> sin salir de Escala. De la manera más fácil e intuitiva, ten <br> visibilidad sobrer el retorno de inversión con analíticas <br> relevantes que se integran a tus esfuerzos de venta.',
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'typeButton' => 'primaryButton',
@@ -99,13 +99,13 @@
   'enableTitle' => false,
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
-  'title' => 'Date a conocer y captura <br> la información de tus visitantes <br> <span class="greenBlueColor">con Landing pages vendedoras</span>',
-  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-2b1.png'),
-  'text' => 'En Escala puedes construir rápidamente páginas optimizadas-landing pages, <br> para capturar la información de contacto de tus visitantes y dar a conocer la <br> oferta de valor de tus productos o servicios. Hay cientos de plantillas <br> prediseñadas, listas para que las personalices y la pongas online.',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton',
-  'textButton' => 'Prueba Escala ya',
+  'title' => 'Motiva a tu audiencia ideal a <br class="space"> compartirte su información <br class="space"> de contacto con <span class="greenBlueColor">Landing <br class="space"> pages efectivas</span>',
+  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-41.png'),
+  'text' => 'En Escala puedes construir rápidamente páginas optimizadas <br> para comunicar tu propuesta de valor y capturar la información <br> de contacto de tus visitantes. Hay cientos de plantillas <br> prediseñadas, listas para que las personalices y publiques sin <br> necesitar programación.',
+  'enableButton' => false,
+  // 'urlButton' => null,
+  // 'typeButton' => null,
+  // 'textButton' => null,
   'side' => 'left',
  ) ;
 @endphp
@@ -120,10 +120,10 @@
   'enableTitle' => false,
   'titlePrincipal' => nul,
   'subTitlePrincipal' => null,
-  'title' => 'Mantén comunicación constante <br> con campañas de email marketing',
-  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-2b1.png'),
-  'text' => 'No dejes que las relaciones con tus leads y clientes se <br> enfríen, diseña y envía poderosas campañas de email <br> marketing que no llegarán a la bandeja de spam.',
-  'enableButton' => false,
+  'title' => '<span class="whiteColor">Mantén comunicación constante <br class="space"> con campañas</span> <span class="blueLightColor8">de email marketing</span>',
+  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-111.png'),
+  'text' => '<span class="whiteColor">Segmenta tu base de datos y envía mensajes relevantes en <br> el momento oportuno para potenciar tu crecimiento. Es fácil <br> y rápido. Diseña hermosos emails personalizando plantillas <br> y envíalos masivamente con solo un clic.</span>',
+  'enableButton' => true,
   'urlButton' => '#lead-form',
   'typeButton' => 'primaryButton',
   'textButton' => 'Prueba Escala ya',
@@ -141,9 +141,9 @@
   'enableTitle' => false,
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
-  'title' => '<span class="greenBlueColor">Mide y optimiza mediante</span> <br> las métricas que importan',
-  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-2b1.png'),
-  'text' => 'Ten las analíticas necesarias en tiempo real, a través de tableros de <br> control amigables. Optimiza la implementación de tus embudos de venta, <br> enfocándote en lo que debes mejorar.',
+  'title' => 'Deja de hacer tareas <br class="space"> repetitivas. <span class="greenBlueColor">Automatiza y <br class="space"> aumenta tu productividad</span>',
+  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-121.png'),
+  'text' => 'Programa el envío de emails y rercordatorios para que no <br> pierdas oportundiades de venta.  Automatiza tareas como <br> la asignación de leads a vendedores, el cambio de status en <br> el CRM y la segmentación de tu base de datos para que <br> ahorres tiempo y energía al escalar tu negocio.',
   'enableButton' => false,
   'urlButton' => '#lead-form',
   'typeButton' => 'primaryButton',
@@ -162,9 +162,10 @@
   'enableTitle' => false,
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
-  'title' => 'Automatiza y ve <br> crecer tu negocio',
-  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-2b1.png'),
-  'text' => 'Programa tus campañas de email y automatiza las <br> respuestas con un solo clic. Deja de hacer tareas repetitivas <br> y pon toda tu energía en hacer crecer tu negocio. En Escala <br> automatizamos todo lo automatizable.',
+  'title' => '<span class="greenBlueColor">Mide y optimiza tus resultados</span> <br class="space"> con analíticas relevantes',
+  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-131.png '),
+  'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br> entender qué funciona y qué puedes mejorar para optimizar tu <br> marketing digital. Ten tableros amigables que miden el <br> rendimiento de Ads, Landing Pages y campañas de Email.
+',
   'enableButton' => false,
   'urlButton' => '#lead-form',
   'typeButton' => 'primaryButton',
@@ -176,6 +177,77 @@
 @contain_text_image_T1( $parameters )
 
 @endcontain_text_image_T1
+
+@php
+ $parameters = array(
+  'type' => 'backgroundColor',
+  'classSection' => 'eMarketing7',
+  'enableTitle' => false,
+  'titlePrincipal' => null,
+  'subTitlePrincipal' => null,
+  'title' => null,
+  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-141.png'),
+  'text' => '<span class="whiteColor">En Escala te vamos a acompañar desde el primer día, dándote <br> orientación de cómo usar todas nuestras funcionalidades de <br> marketing y entrenándote para que te conviertas en todo un <br> experto. <strong>Estamos comprometidos con el éxito de tu negocio</strong>.</span>
+',
+  'enableButton' => false,
+  'urlButton' => '#lead-form',
+  'typeButton' => 'primaryButton',
+  'textButton' => 'Prueba Escala ya',
+  'side' => 'right',
+ ) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+
+@php
+ $parameters = array(
+  'type' => 'backgroundColor',
+  'classSection' => 'eMarketing8',
+  'backgroundImageFile' => null,
+  'enableTitle' => false,
+  'img' => App::setFilePath('/assets/images/person/chica_landing1.png'),
+  'title' => null,
+  'text' => '“Para generar una landing page, necesitaba <br> contratar un diseñador y un programador...y ni <br> hablar lo que tardaba en ponerla online...<br><strong>Ahora con escala la hago yo mismo en <br> minutos...tienen hermosas plantillas”</strong>',
+  'enableButton' => false,
+  // 'urlButton' => '#lead-form',
+  // 'textButton' => '¡Ve rápido y furioso!',
+  'side' => 'left',
+
+ ) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+
+@php
+ $parameters = array(
+  'type' => 'backgroundColor',
+  'classSection' => 'eMarketing9',
+  // 'backgroundImageFile' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder15.png',
+  'enableTitle' => false,
+  'img' => App::setFilePath('/assets/images/person/mujer_lotto-1.png'),
+  'title' => 'En Escala tienes las mejores herramientas <br> <span class="greenBlueColor">de marketing digital, fáciles de usar, para <br> hacer crecer tu negocio</span>',
+  'text' => null,
+  'enableButton' => true,
+  'typeButton' => 'primaryButton',
+    'urlButton' => '#lead-form',
+  'textButton' => 'Prueba Escala ya',
+  'side' => 'right',
+  'overlay' => false,
+  'overlayImage' => null,
+
+ ) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
 
 
 
