@@ -18,7 +18,7 @@
 @php
 $parameters = array(
  'classSection' => 'landingPricingPage0',
- 'title' => '<span class="greenBlueColor">Con nuestra plataforma todo en uno,</span> <br class="space"> tenemos un plan HECHO a tu medida <br class="space"> <span class="greenBlueColor">para impulsar el crecimiento de tu negocio</span> ',
+ 'title' => '<span class="greenBlueColor">Con nuestra plataforma todo en uno,</span> <br class="space"> tenemos un plan hecho a tu medida <br class="space"> <span class="greenBlueColor">para impulsar el crecimiento de tu negocio</span> ',
  'image' => App::setFilePath('/assets/images/illustrations/team/paginas-rapidas.png'),
 ) ;
 @endphp
