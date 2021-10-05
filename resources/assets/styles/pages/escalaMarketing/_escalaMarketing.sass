@@ -339,7 +339,16 @@
                         padding: 0
                         margin-bottom: 0
                         img
-                            height: 400px!important
+                            @include responsivo(telefonoTable)
+                                height: 350px!important
+                            @include responsivo(pcMedio)
+                                height: 350px!important
+                            @include responsivo(general)
+                                height: 400px!important
+
+                            @include responsivo(resto)
+                                height: 400px!important
+
                         @include responsivo(general)
                             position: absolute
 
