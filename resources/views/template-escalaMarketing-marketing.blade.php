@@ -142,7 +142,7 @@
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
   'title' => 'Deja de hacer tareas <br class="space"> repetitivas. <span class="greenBlueColor">Automatiza y <br class="space"> aumenta tu productividad</span>',
-  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-121.png'),
+  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-131.png'),
   'text' => 'Programa el envío de emails y rercordatorios para que no <br> pierdas oportundiades de venta.  Automatiza tareas como <br> la asignación de leads a vendedores, el cambio de status en <br> el CRM y la segmentación de tu base de datos para que <br> ahorres tiempo y energía al escalar tu negocio.',
   'enableButton' => false,
   'urlButton' => '#lead-form',
@@ -163,7 +163,7 @@
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
   'title' => '<span class="greenBlueColor">Mide y optimiza tus resultados</span> <br class="space"> con analíticas relevantes',
-  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-131.png '),
+  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-121.png'),
   'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br> entender qué funciona y qué puedes mejorar para optimizar tu <br> marketing digital. Ten tableros amigables que miden el <br> rendimiento de Ads, Landing Pages y campañas de Email.
 ',
   'enableButton' => false,
@@ -186,14 +186,14 @@
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
   'title' => null,
-  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-141.png'),
+  'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-15b.png'),
   'text' => '<span class="whiteColor">En Escala te vamos a acompañar desde el primer día, dándote <br> orientación de cómo usar todas nuestras funcionalidades de <br> marketing y entrenándote para que te conviertas en todo un <br> experto. <strong>Estamos comprometidos con el éxito de tu negocio</strong>.</span>
 ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
   'typeButton' => 'primaryButton',
   'textButton' => 'Prueba Escala ya',
-  'side' => 'right',
+  'side' => 'left',
  ) ;
 @endphp
 
@@ -214,7 +214,7 @@
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => '¡Ve rápido y furioso!',
-  'side' => 'left',
+  'side' => 'right',
 
  ) ;
 @endphp
@@ -231,13 +231,14 @@
   // 'backgroundImageFile' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder15.png',
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/person/mujer_lotto-1.png'),
-  'title' => 'En Escala tienes las mejores herramientas <br> <span class="greenBlueColor">de marketing digital, fáciles de usar, para <br> hacer crecer tu negocio</span>',
+  'title' => '¿Listo para acelerar el crecimiento <br> de tu negocio? Descubre cuán simple <br> es implementar tus estrategias <br> de Marketing Digital con Escala
+',
   'text' => null,
   'enableButton' => true,
   'typeButton' => 'primaryButton',
     'urlButton' => '#lead-form',
   'textButton' => 'Prueba Escala ya',
-  'side' => 'right',
+  'side' => 'left',
   'overlay' => false,
   'overlayImage' => null,
 
