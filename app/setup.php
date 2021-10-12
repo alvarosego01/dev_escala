@@ -72,6 +72,12 @@ add_action('wp_enqueue_scripts', function () {
         if (is_page_template($t)) {
             wp_enqueue_style('blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
         }
+        $t = SetComponents::setTemplates('casoExito');
+        if (is_page_template($t)) {
+
+            wp_enqueue_style('casoExitoMain.css', asset_path('styles/pages/casoExito/casoExitoMain.css'), false, THEME_VERSION);
+
+        }
         $t = SetComponents::setTemplates('zoom');
         if (is_page_template($t)) {
             wp_enqueue_style('zoom.css', asset_path('styles/pages/zoom/zoomMain.css'), false, THEME_VERSION);
@@ -379,3 +385,6 @@ add_action('init', registerCustomMenu() ); // Add HTML5 Blank Menu
 
 
 
+
+    // Vrmecanica2030*
+    // numero asignado -> 51-95******91

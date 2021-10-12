@@ -33,17 +33,30 @@
                     {!! $description !!}
                 </p>
 
+                @if ((isset($byAm) && $byAm != null) || (isset($team) && $team != null ))
+
                 <div class="personData">
 
-                  <h2 class="byAm grayColorTexts">
-                    {!! $byAm !!}
+                 @if ((isset($byAm) && $byAm != null))
+                 <h2 class="byAm grayColorTexts">
+                   {!! $byAm !!}
                   </h2>
+                  @endif
 
+                  @if ((isset($team) && $team != null ))
                   <h2 class="team grayColorTexts">
                     {!! $team !!}
                   </h2>
+                  @endif
 
                 </div>
+
+                @endif
+
+                @if (( isset($button) && $button != null))
+                    {!! $button !!}
+                @endif
+
 
                 </div>
 

@@ -192,11 +192,21 @@ class SetComponents extends Controller
 
         if ($type == 'home') {
 
-            return array(
+           return array(
 
                 "views/template-home.blade.php",
 
             );
+
+        }
+        if ($type == 'casoExito') {
+
+           return array(
+
+            "views/template-caso-exito-home.blade.php",
+            "views/single-casoExito.blade.php",
+
+        );
 
         }
         if ($type == 'all') {
@@ -224,6 +234,7 @@ class SetComponents extends Controller
                 "views/template-open-webinar-escala.blade.php",
                 "views/template-open-webinar-escala-meeting.blade.php",
                 "views/template-blog-home.blade.php",
+                "views/template-caso-exito-home.blade.php",
                 "views/template-blog-category.blade.php",
                 "views/single-post.blade.php",
                 "views/template-zoom-demo-home.blade.php",

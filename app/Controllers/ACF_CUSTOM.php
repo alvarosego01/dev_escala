@@ -240,6 +240,16 @@ class ACF_CUSTOM extends Controller
             );
             acf_add_local_field_group(
 
+                $this->settingsCasosExito()
+
+            );
+            acf_add_local_field_group(
+
+                $this->settingsCasosExito2()
+
+            );
+            acf_add_local_field_group(
+
                 $this->settingsCategoryBase()
 
             );
@@ -324,6 +334,103 @@ class ACF_CUSTOM extends Controller
         );
 
     }
+    private function settingsCasosExito(){
+
+        return array(
+
+            'key' => 'casos_exito_settings',
+            'title' => 'Casos de éxito opciones',
+            'fields' => array (
+                array (
+                    'key' => 'excerpt_single_caso_exito',
+                    'label' => 'Excerpt',
+                    'name' => 'Excerpt',
+                    'type' => 'textarea',
+                ),
+                array (
+                    'key' => 'person_caso_exito',
+                    'label' => 'Person',
+                    'name' => 'Person',
+                    'type' => 'image',
+                ),
+                array (
+                    'key' => 'video_caso_exito',
+                    'label' => 'Video url',
+                    'name' => 'Video url',
+                    'type' => 'url',
+                ),
+
+            ),
+            'location' => array (
+                array (
+                    array (
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'casos_exito',
+                    ),
+                ),
+            ),
+
+        );
+
+    }
+    private function settingsCasosExito2(){
+
+        return array(
+
+            'key' => 'casos_exito_details',
+            'title' => 'Casos de éxito detalles',
+            'fields' => array (
+
+                array (
+                    'key' => 'about_caso_exito',
+                    'label' => 'About',
+                    'name' => 'About',
+                    'type' => 'textarea',
+                ),
+
+                array (
+                    'key' => 'colaboradores_caso_exito',
+                    'label' => 'Colaboradores',
+                    'name' => 'Colaboradores',
+                    'type' => 'text',
+                ),
+                array (
+                    'key' => 'experienciaMKT_caso_exito',
+                    'label' => 'Experiencia en MKT',
+                    'name' => 'Experiencia en MKT',
+                    'type' => 'text',
+                ),
+                array (
+                    'key' => 'experienciaCMR_caso_exito',
+                    'label' => 'Experiencia en CMR',
+                    'name' => 'Experiencia en CMR',
+                    'type' => 'text',
+                ),
+                array (
+                    'key' => 'segmento_caso_exito',
+                    'label' => 'Segmento',
+                    'name' => 'Segmento',
+                    'type' => 'text',
+                ),
+
+
+            ),
+            'location' => array (
+                array (
+                    array (
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'casos_exito',
+                    ),
+                ),
+            ),
+
+        );
+
+    }
+    // post_type
+    // casos_exito
 
     private function settingsCategoryBase(){
 
