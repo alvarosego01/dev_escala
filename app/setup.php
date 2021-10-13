@@ -351,6 +351,37 @@ function golden_oak_web_design_blog_generate_rewrite_rules($wp_rewrite)
     $wp_rewrite->rules = $new_rules + $wp_rewrite->rules;
 }
 add_action('generate_rewrite_rules', 'golden_oak_web_design_blog_generate_rewrite_rules');
+function casoExitoArticlesFormat($wp_rewrite)
+{
+    $new_rules = array(
+        '(([^/]+/)*exitocaso)/page/?([0-9]{1,})/?$' => 'index.php?pagename=$matches[1]&paged=$matches[3]',
+        'exitocaso/([^/]+)/?$' => 'index.php?post_type=post&name=$matches[1]',
+        'exitocaso/[^/]+/attachment/([^/]+)/?$' => 'index.php?post_type=post&attachment=$matches[1]',
+        'exitocaso/[^/]+/attachment/([^/]+)/trackback/?$' => 'index.php?post_type=post&attachment=$matches[1]&tb=1',
+        'exitocaso/[^/]+/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&attachment=$matches[1]&feed=$matches[2]',
+        'exitocaso/[^/]+/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&attachment=$matches[1]&feed=$matches[2]',
+        'exitocaso/[^/]+/attachment/([^/]+)/comment-page-([0-9]{1,})/?$' => 'index.php?post_type=post&attachment=$matches[1]&cpage=$matches[2]',
+        'exitocaso/[^/]+/attachment/([^/]+)/embed/?$' => 'index.php?post_type=post&attachment=$matches[1]&embed=true',
+        'exitocaso/[^/]+/embed/([^/]+)/?$' => 'index.php?post_type=post&attachment=$matches[1]&embed=true',
+        'exitocaso/([^/]+)/embed/?$' => 'index.php?post_type=post&name=$matches[1]&embed=true',
+        'exitocaso/[^/]+/([^/]+)/embed/?$' => 'index.php?post_type=post&attachment=$matches[1]&embed=true',
+        'exitocaso/([^/]+)/trackback/?$' => 'index.php?post_type=post&name=$matches[1]&tb=1',
+        'exitocaso/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&name=$matches[1]&feed=$matches[2]',
+        'exitocaso/([^/]+)/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&name=$matches[1]&feed=$matches[2]',
+        'exitocaso/page/([0-9]{1,})/?$' => 'index.php?post_type=post&paged=$matches[1]',
+        'exitocaso/[^/]+/page/?([0-9]{1,})/?$' => 'index.php?post_type=post&name=$matches[1]&paged=$matches[2]',
+        'exitocaso/([^/]+)/page/?([0-9]{1,})/?$' => 'index.php?post_type=post&name=$matches[1]&paged=$matches[2]',
+        'exitocaso/([^/]+)/comment-page-([0-9]{1,})/?$' => 'index.php?post_type=post&name=$matches[1]&cpage=$matches[2]',
+        'exitocaso/([^/]+)(/[0-9]+)?/?$' => 'index.php?post_type=post&name=$matches[1]&page=$matches[2]',
+        'exitocaso/[^/]+/([^/]+)/?$' => 'index.php?post_type=post&attachment=$matches[1]',
+        'exitocaso/[^/]+/([^/]+)/trackback/?$' => 'index.php?post_type=post&attachment=$matches[1]&tb=1',
+        'exitocaso/[^/]+/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&attachment=$matches[1]&feed=$matches[2]',
+        'exitocaso/[^/]+/([^/]+)/(feed|rdf|rss|rss2|atom)/?$' => 'index.php?post_type=post&attachment=$matches[1]&feed=$matches[2]',
+        'exitocaso/[^/]+/([^/]+)/comment-page-([0-9]{1,})/?$' => 'index.php?post_type=post&attachment=$matches[1]&cpage=$matches[2]',
+    );
+    $wp_rewrite->rules = $new_rules + $wp_rewrite->rules;
+}
+add_action('generate_rewrite_rules', 'casoExitoArticlesFormat');
 
 function golden_oak_web_design_update_post_link($post_link, $id = 0)
 {

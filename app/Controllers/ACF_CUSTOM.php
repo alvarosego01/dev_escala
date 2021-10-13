@@ -348,10 +348,28 @@ class ACF_CUSTOM extends Controller
                     'type' => 'textarea',
                 ),
                 array (
-                    'key' => 'person_caso_exito',
-                    'label' => 'Person',
-                    'name' => 'Person',
+                    'key' => 'personimg_caso_exito',
+                    'label' => 'Person image',
+                    'name' => 'Person image',
                     'type' => 'image',
+                ),
+                array (
+                    'key' => 'person_name_caso_exito',
+                    'label' => 'Person name',
+                    'name' => 'Person name',
+                    'type' => 'text',
+                ),
+                array (
+                    'key' => 'position_caso_exito',
+                    'label' => 'Person position',
+                    'name' => 'Person position',
+                    'type' => 'text',
+                ),
+                array (
+                    'key' => 'testimonial_caso_exito',
+                    'label' => 'Testimonial',
+                    'name' => 'Testimonial',
+                    'type' => 'textarea',
                 ),
                 array (
                     'key' => 'video_caso_exito',
@@ -366,7 +384,7 @@ class ACF_CUSTOM extends Controller
                     array (
                         'param' => 'post_type',
                         'operator' => '==',
-                        'value' => 'casos_exito',
+                        'value' => 'exitocaso',
                     ),
                 ),
             ),
@@ -421,7 +439,7 @@ class ACF_CUSTOM extends Controller
                     array (
                         'param' => 'post_type',
                         'operator' => '==',
-                        'value' => 'casos_exito',
+                        'value' => 'exitocaso',
                     ),
                 ),
             ),
@@ -430,7 +448,7 @@ class ACF_CUSTOM extends Controller
 
     }
     // post_type
-    // casos_exito
+    // exitocaso
 
     private function settingsCategoryBase(){
 

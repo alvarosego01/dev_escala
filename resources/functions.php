@@ -129,7 +129,7 @@ function customPost_casosExito() {
             'description'         => __( 'Caso de éxito nuevos y revisiones', 'escala' ),
             'labels'              => $labels,
             // Features this CPT supports in Post Editor
-            'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
+            'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'custom-fields', ),
             // You can associate this CPT with a taxonomy or custom taxonomy.
             'taxonomies'          => array( 'genres' ),
             /* A hierarchical CPT is like Pages and can have
@@ -153,7 +153,7 @@ function customPost_casosExito() {
         );
 
         // Registering your Custom Post Type
-        register_post_type( 'Casos_Exito', $args );
+        register_post_type( 'exitocaso', $args );
 
     }
 

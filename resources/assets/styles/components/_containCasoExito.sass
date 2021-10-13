@@ -1,0 +1,229 @@
+
+
+
+
+.component-casoExito-testimonial-image-T1.customSection.sectionParent
+    padding: 40px 0
+    @include responsivo(telefonoTable)
+        padding: 50px 0
+    @include responsivo(pcMedio)
+        padding: 50px 0
+    .section-row
+        @include responsivo(telefonoTable)
+            width: 95%
+        @include responsivo(pcMedio)
+            width: 90%
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1100px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1140px!important
+        section.innerSectionElement.sct1
+            margin-bottom: 75px
+            .containElements
+                h2.primaryTitle
+                    font-family: Nunito
+                    font-style: normal
+                    font-weight: bold
+                    font-size: 30px
+                    line-height: 41px
+                    text-align: center
+                    @include responsivo(telefonoTable)
+                        margin: 0 auto
+                        line-height: 35px
+                    @include responsivo(pcMedio)
+                        margin: 0 auto
+                        line-height: 35px
+
+        section.innerSectionElement.sct2
+            .groupElements.row
+                .containElement
+                    background: #FFFFFF
+                    mix-blend-mode: normal
+                    border: 1px solid rgba(234, 234, 234, 0.65)
+                    box-sizing: border-box
+                    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.05)
+                    border-radius: 10px
+                    padding: 50px
+                    padding-bottom: 40px
+                    padding-top: 75px
+                    position: relative
+                    @include responsivo(telefonoTable)
+                        display: flex
+                        flex-direction: column
+                    @include responsivo(pcMedio)
+                        display: flex
+                        flex-direction: column
+                    .image
+                        display: flex
+                        position: absolute
+                        left: 0
+                        right: 0
+                        top: -60px
+                        .containerImage
+                            margin: 0 auto
+                            display: block
+                            img
+                                height: 100px
+                                border-radius: 360px
+                        @include responsivo(telefonoTable)
+                            margin: 0 auto
+                            display: block
+                        @include responsivo(pcMedio)
+                            margin: 0 auto
+                            display: block
+                    .info
+                        p.text
+                            font-family: Nunito
+                            font-style: normal
+                            font-weight: normal
+                            font-size: 18px
+                            line-height: 28px
+                            text-align: center
+                            position: relative
+                            display: flex
+                            flex-direction: column
+                            width: fit-content!important
+                            margin: 0 auto
+                            text-align: center
+                            margin-bottom: 20px
+                            img.com1,
+                            img.com2
+                                position: absolute
+                                height: 20px
+                            img.com1
+                                left: -40px
+                                top: -10px
+                                bottom: 0
+                            img.com2
+                                // top: 0
+                                bottom: -10px
+                                right: -40px
+                                transform: scaleX(-1)
+                            @include responsivo(telefonoTable)
+                                width: 80%!important
+                                margin: 0 auto
+                                margin-bottom: 50px
+                            @include responsivo(pcMedio)
+                                width: 80%!important
+                                margin: 0 auto
+                                margin-bottom: 50px
+                        .autor
+                            display: flex
+                            flex-direction: row
+                            justify-content: center
+                            align-content: center
+                            align-items: center
+                            .autorText
+                                display: flex
+                                flex-direction: column
+                                text-align: right
+                                font-family: Nunito
+                                font-style: normal
+                                font-weight: bold
+                                font-size: 15px
+                                line-height: 20px
+                                text-align: right
+                                position: relative
+                                padding-right: 15px
+                                margin-right: 15px
+                                margin-bottom: 0
+                                span
+                                    font-weight: normal
+                                &::after
+                                    content: ''
+                                    border-right: 1px solid rgba(0, 0, 0, 0.25)
+                                    right: 0
+                                    top: 0
+                                    bottom: 0
+                                    display: block
+                                    width: 1px
+                                    height: 85%
+                                    position: absolute
+                                    margin: auto 0
+                            .clientLogo
+                                margin-bottom: 0
+                                img
+                                    margin: auto 0
+                                    height: 25px
+
+
+.component-casoExito-articles-T1
+    .section-row
+        section.innerSectionElement.sct1
+            .containElements
+                h2.primaryTitle.blackColor
+                    font-family: Nunito
+                    font-style: normal
+                    font-weight: bold
+                    font-size: 30px
+                    line-height: 41px
+                    text-align: center
+                    @include responsivo(telefonoTable)
+                        text-align: center
+                        width: 80%
+                        line-height: 35px
+                        margin: 0 auto
+                        margin-bottom: 25px
+                    @include responsivo(pcMedio)
+                        text-align: center
+                        width: 80%
+                        line-height: 35px
+                        margin: 0 auto
+                        margin-bottom: 25px
+
+        section.innerSectionElement.sct2
+            .groupElements.row
+                .principal
+                    padding: 25px 35px
+                    .card
+                        background: #FFFFFF
+                        mix-blend-mode: normal
+                        border: none
+                        box-sizing: border-box
+                        box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1)
+                        border-radius: 10px
+                        .card-header
+                            background: #FAFAFA
+                            mix-blend-mode: normal
+                            border: none
+                            box-sizing: border-box
+                            padding: 25px
+                            padding-right: 0
+                            margin-bottom: 0
+                            a
+                                height: 100%
+                                width: 100%
+                                display: flex
+                                img
+                                    display: block
+                                    height: 50px
+                                    margin-right: auto
+                                    width: auto
+                        .card-body
+                            padding: 25px
+                            padding-bottom: 12.5px
+                            a
+                                text-decoration: none
+                                p.commonText,
+                                span,
+                                strong
+                                    font-family: Nunito
+                                    font-style: normal
+                                    font-weight: normal!important
+                                    font-size: 20px!important
+                                    line-height: 25px!important
+                                    color: #322C2E!important
+                                p.commonText
+                                    br.space
+                                        display: none!important
+                        .card-footer
+                            border: none
+                            background-color: transparent
+                            padding: 25px
+                            padding-top: 12.5px
+
+
+
+

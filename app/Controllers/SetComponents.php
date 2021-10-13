@@ -20,7 +20,9 @@ class SetComponents extends Controller
             $this->setCallToActionsComponents(),
             $this->setContainComponents(),
             $this->setBlogComponents(),
-            $this->setNavbarsComponents()
+            $this->setNavbarsComponents(),
+            $this->setExitoCasoComponents(),
+
         );
 
 
@@ -44,6 +46,16 @@ class SetComponents extends Controller
             'components.subscribers.component-subscribers-T1' => 'subscribers_T1',
             'components.blog.component-blog-slideshow-T1' => 'slideshowBlog_T1',
             'components.blog.component-blog-articles-T1' => 'articlesBlog_T1'
+        );
+    }
+
+    private function setExitoCasoComponents()
+    {
+
+        return array(
+
+            'components.casoExito.component-casoExito-articles-T1' => 'articlesExitoCaso_T1',
+            'components.casoExito.component-casoExito-testimonial-T1' => 'testimonialExitoCaso_T1'
         );
     }
 
@@ -204,7 +216,7 @@ class SetComponents extends Controller
            return array(
 
             "views/template-caso-exito-home.blade.php",
-            "views/single-casoExito.blade.php",
+            "views/single-exitocaso.blade.php",
 
         );
 
@@ -237,6 +249,7 @@ class SetComponents extends Controller
                 "views/template-caso-exito-home.blade.php",
                 "views/template-blog-category.blade.php",
                 "views/single-post.blade.php",
+                "views/single-exitocaso.blade.php",
                 "views/template-zoom-demo-home.blade.php",
                 "views/template-zoom-demo-home-landing.blade.php",
                 "views/template-zoom-demo-home-step1.blade.php",
