@@ -82,7 +82,7 @@ gulp.task('sass', () => {
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write())
     .pipe(postcss([ autoprefixer() ]))
-    // .pipe(csso())
+    .pipe(csso())
     .pipe(gulp.dest('./dist/styles'))
     .pipe(browserSync.stream());
 });
@@ -93,7 +93,7 @@ gulp.task('sassGeneral', () => {
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write())
     .pipe(postcss([ autoprefixer() ]))
-    // .pipe(csso())
+    .pipe(csso())
     .pipe(gulp.dest('./dist/styles'))
     .pipe(browserSync.stream());
 });
