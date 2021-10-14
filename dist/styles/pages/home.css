@@ -1,1 +1,1650 @@
-#homeBootstrap .customSection.sectionParent .primaryTitle{font-family:Nunito;font-style:normal;font-weight:700;font-size:30px!important;line-height:35px!important;text-align:center}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent .primaryTitle{font-family:Nunito;font-style:normal;font-weight:700;font-size:20px!important;line-height:22px!important}}#homeBootstrap .customSection.sectionParent .innerSectionElement.sct1 .primaryText{font-family:Nunito;font-style:normal;font-weight:400;font-size:18px;line-height:24px;text-align:center}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent .innerSectionElement.sct1 .primaryText{font-family:Nunito;font-style:normal;font-weight:400;font-size:15px;line-height:20px}#homeBootstrap .customSection.sectionParent .innerSectionElement.sct1 .primaryText br{display:none!important}}#homeBootstrap .customSection.sectionParent .primaryText,#homeBootstrap .customSection.sectionParent a.hiperButtonGreenBlue{font-family:Nunito;font-style:normal;font-weight:400;font-size:16px;line-height:22px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent .primaryText,#homeBootstrap .customSection.sectionParent a.hiperButtonGreenBlue{font-family:Nunito;font-style:normal;font-weight:400;font-size:12px;line-height:14px;text-align:center}}#homeBootstrap .customSection.sectionParent .secondaryTitle{font-family:Nunito;font-style:normal;font-weight:700;font-size:25px;line-height:26px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent .secondaryTitle{font-family:Nunito;font-style:normal;font-weight:700;font-size:16px;line-height:16px}}#homeBootstrap .customSection.sectionParent.homeSection0{padding-top:125px;padding-bottom:0;background-color:#e6f2f8}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection0{padding-bottom:50px}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection0{padding-bottom:50px}}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row{width:95%}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row{width:90%}}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row{width:100%!important;max-width:1240px!important}}@media only screen and (min-width:1492px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row{width:100%!important;max-width:1300px!important}}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .containerImage{margin:0;padding:0}#homeBootstrap .customSection.sectionParent.homeSection0 .backgroundFull{background-position:0 -380px;background-repeat:no-repeat;background-size:cover;padding-bottom:0}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements{padding-bottom:0}@media only screen and (min-width:900px) and (max-width:1150px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info{padding-bottom:50px!important}}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info{padding-bottom:200px;padding-top:3.75%}}@media only screen and (min-width:1492px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info{padding-bottom:200px;padding-top:3.75%}}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements{position:relative;padding-bottom:100px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements{padding-bottom:0}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements{padding-bottom:0}}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigTitle{font-size:54px;line-height:60px;font-weight:700;font-family:"Nunito",Sans-serif;margin-bottom:20px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigTitle{font-size:45px}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigTitle{font-size:50px;line-height:55px}}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText{font-size:20px;line-height:28px;font-weight:400;color:#140c28;margin-bottom:40px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText{font-size:20px}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText{font-size:20px}}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText{width:50vw}}@media only screen and (min-width:1492px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText{width:700px}}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage{position:absolute;right:-12.5%;top:30%}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage img{height:425px;margin-left:0}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigTitle{line-height:normal!important;text-align:center!important}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText{text-align:center!important}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage{left:unset!important;position:unset}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage img{height:250px;margin:0 auto}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText,#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigTitle{text-align:center!important}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage{left:unset!important;position:unset}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage img{height:400px;margin:0 auto}}@media only screen and (min-width:900px) and (max-width:1150px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage{position:unset}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage img{height:250px;margin:0 auto}}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage{top:12.5vw;right:-12.5%}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage img{height:25vw}}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 .formatForm,#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct1{margin-bottom:25px}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 .formatForm span.wpcf7-form-control-wrap.your-phone{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 .formatForm label{margin-bottom:1px;margin-top:9px}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 select{font-weight:200!important}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 input.wpcf7-form-control.wpcf7-submit{padding:0 20px!important;font-size:18px!important}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 .customField{margin:12.5px 0!important}#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 .customField.radioSelect span.wpcf7-form-control.wpcf7-radio span.wpcf7-list-item:nth-of-type(2) span.wpcf7-list-item-label{color:#f34f36}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 select[multiple]{height:75px!important}}@media only screen and (min-width:1492px){#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 select[multiple]{height:75px!important}}#homeBootstrap .customSection.sectionParent.homeSection0 .backgroundPlanets{background-position:0 50px;background-repeat:no-repeat;background-size:100% auto;opacity:1;-webkit-transition:background .3s,border-radius .3s,opacity .3s;-o-transition:background .3s,border-radius .3s,opacity .3s;transition:background .3s,border-radius .3s,opacity .3s;height:100%;width:100%;top:-5%;left:0;right:0;position:absolute}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection0 .backgroundPlanets{top:0;background-position:0 50px;background-size:100% auto}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection0 .backgroundPlanets{background-position:0 50px;background-size:100% auto;top:0}}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection1{padding:50px 0}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection1{padding:50px 0}}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection1 .section-row{width:95%}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection1 .section-row{width:90%}}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection1 .section-row{width:100%!important;max-width:1240px!important}}@media only screen and (min-width:1492px){#homeBootstrap .customSection.sectionParent.homeSection1 .section-row{width:100%!important;max-width:1240px!important}}#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct1 .containElements .primaryTitle,#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct1 .containElements p.primaryText,#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements .elements .secondaryTitle,#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct1 .containElements .primaryTitle,#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct1 .containElements p.primaryText{text-align:center}#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements{padding:10px}#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements .elements .containerImage img{height:165px;margin:0 auto}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements .elements .containerImage{margin-bottom:10px!important}#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements .elements .containerImage img{height:125px!important}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements .elements .containerImage{margin-bottom:10px!important}#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements .elements .containerImage img{height:175px!important}}#homeBootstrap .customSection.sectionParent.homeSection2{background-color:#e6f2f8}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection2{padding:50px 0}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection2{padding:50px 0}}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection2 .section-row{width:98%}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection2 .section-row{width:98%}}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection2 .section-row{width:100%!important;max-width:1140px!important}}@media only screen and (min-width:1492px){#homeBootstrap .customSection.sectionParent.homeSection2 .section-row{width:100%!important;max-width:1250px!important}}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct1{margin-bottom:50px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements{width:90%!important;margin-left:auto;margin-right:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:center;align-content:center}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements{width:100%!important;margin-left:auto;margin-right:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:center;align-content:center}}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage img{height:175px!important;width:165px!important}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements{padding:10px}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements .secondaryTitle{margin-bottom:10px}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements{height:140px;margin:auto 0}}@media only screen and (min-width:1492px){#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements{height:140px;margin:auto 0}}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-bottom:30px}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage{display:-webkit-box;display:-ms-flexbox;display:flex}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage img{margin:0 auto;width:auto!important;height:125px!important}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements *{text-align:center}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements a{margin-left:auto;margin-right:auto}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-bottom:30px}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage{display:-webkit-box;display:-ms-flexbox;display:flex}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage img{margin:0 auto;width:auto!important;height:165px!important}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements *{text-align:center}#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements a{margin-left:auto;margin-right:auto}}#homeBootstrap .customSection.sectionParent.homeSection3{padding-bottom:60px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection3{margin-bottom:25px}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection3{margin-bottom:25px}}#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1{background-position:center;background-size:cover;height:300px;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1{height:225px!important}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1{height:250px!important}}#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .imageBackground{position:absolute;left:-10%;right:0;bottom:0;top:22%;margin:auto;width:80%;display:block;background-size:contain;background-repeat:no-repeat;background-position:center}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .imageBackground{background-position:0 100%!important;top:0;left:0}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .imageBackground{background-position:0 100%!important;top:0;left:0}}#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .section-row{margin:auto auto 50px}#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .section-row .containElements .primaryTitle{text-align:center;margin-bottom:25px;color:#fff;font-weight:600}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .section-row .containElements .primaryTitle{margin-bottom:30px!important}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .section-row .containElements .primaryTitle{margin-bottom:30px!important}}#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .section-row .containElements a.primaryButton{margin-left:auto;margin-right:auto;display:block;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection4 .section-row{width:95%}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection4 .section-row{width:90%}}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection4 .section-row{width:100%!important;max-width:1175px!important}}@media only screen and (min-width:1492px){#homeBootstrap .customSection.sectionParent.homeSection4 .section-row{width:100%!important;max-width:1400px!important}}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct1{margin-bottom:50px}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct1 .containElements .primaryTitle{text-align:center}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2{display:-webkit-box;display:-ms-flexbox;display:flex}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements{width:80%;margin:0 7.5% 0 auto}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements{margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements{margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements{width:90%;display:grid!important;grid-template-columns:repeat(8,1fr);grid-gap:0;grid-auto-rows:75px;grid-template-areas:"a a a a . . . ." "a a a a b b b b" ". . . . b b b b" "c c c c . . . ." "c c c c d d d d" ". . . . d d d d" "e e e e d d d d" "e e e e . . . ."}}@media only screen and (min-width:1492px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements{display:grid!important;grid-template-columns:repeat(8,1fr);grid-gap:0;grid-auto-rows:75px;grid-template-areas:"a a a a . . . ." "a a a a b b b b" ". . . . b b b b" "c c c c . . . ." "c c c c d d d d" ". . . . d d d d" "e e e e d d d d" "e e e e . . . ."}}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(1){grid-area:a;align-self:center;justify-self:center}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(2){grid-area:b;align-self:center;justify-self:center}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(3){grid-area:c;align-self:center;justify-self:center}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(4){grid-area:d;align-self:center;justify-self:center}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(5){grid-area:e;align-self:center;justify-self:center}}@media only screen and (min-width:1492px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(1){grid-area:a;align-self:center;justify-self:center}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(2){grid-area:b;align-self:center;justify-self:center}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(3){grid-area:c;align-self:center;justify-self:center}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(4){grid-area:d;align-self:center;justify-self:center}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(5){grid-area:e;align-self:center;justify-self:center}}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-line-pack:start;align-content:flex-start;margin-bottom:0;width:100%;position:relative}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup{margin-bottom:25px;-webkit-box-orient:horizontal!important;-webkit-box-direction:normal!important;-ms-flex-direction:row!important;flex-direction:row!important}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup{margin-bottom:25px}}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage{padding:0!important;position:absolute;top:0;bottom:0;left:0;margin:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:center;align-content:center}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage{position:unset;margin:0 25px 10px 0}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage{position:unset;margin:0 50px 10px 0}}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage img{height:125px;width:auto;margin:auto!important}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage img{height:110px}}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements{padding-left:22.5%}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements{padding:0}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements{padding:0}}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup h3.secondaryTitle.blackColor{font-family:Nunito;font-style:normal;font-weight:700;font-size:17px;line-height:20px}}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText{position:relative;display:block;padding-left:12.5px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText{font-family:Nunito;font-style:normal;font-weight:400;font-size:12px;line-height:14px;padding-left:0}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText span{font-family:Nunito;font-style:normal;font-weight:700;font-size:12px;line-height:16px}}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText::before{content:"";border-left:1px solid #34768a;left:0;top:5px;bottom:0;height:85%;width:1px;margin:auto 0;display:block;position:absolute}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText span{position:relative;top:5px;margin:5px 0;font-size:14px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText{padding-bottom:12.5px;margin-bottom:12.5px}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText::before{display:none}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-bottom:30px}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage{display:-webkit-box;display:-ms-flexbox;display:flex;margin-right:20px!important}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage img{height:100px;margin:auto!important}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements *{text-align:left}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements a{margin-left:auto;margin-right:auto}}#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup.full{width:80%;margin:0 auto}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup.full{width:100%}}#homeBootstrap .customSection.sectionParent.homeSection5{background-color:#e6f2f8;padding-bottom:0;padding-top:17.5px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection5{padding-top:50px}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection5{padding-top:50px}}#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info,.showMore .containElements{display:-webkit-box;display:-ms-flexbox;display:flex}#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements{height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;margin:auto}#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements .primaryTitle,#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements p.primaryText{margin-bottom:25px;text-align:left}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-bottom:50px}#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements .primaryTitle,#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements p.primaryText{text-align:center;margin-bottom:25px!important}#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements a.primaryButton{margin:0 auto}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-bottom:50px}#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements .primaryTitle,#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements p.primaryText{text-align:center}#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements a.primaryButton{margin:0 auto}}#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .image .containerImage{padding-bottom:0;margin-bottom:0}#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .image .containerImage img{height:500px;margin-left:auto!important;margin-right:0}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .image .containerImage{margin-bottom:0!important;display:-webkit-box;display:-ms-flexbox;display:flex}#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .image .containerImage img{margin:0 auto;height:315px!important}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .image .containerImage{margin-bottom:0!important;display:-webkit-box;display:-ms-flexbox;display:flex}#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .image .containerImage img{margin:0 auto;height:430px!important}}#homeBootstrap .customSection.sectionParent.homeSection6{padding-top:75px;padding-bottom:50px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection6 .section-row{width:90%}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection6 .section-row{width:75%}}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection6 .section-row{width:100%!important;max-width:1200px!important}}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct1{margin-bottom:50px}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct1 .containElements .primaryTitle{text-align:center}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct1{margin-bottom:30px}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct1{margin-bottom:30px}}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;height:100%;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-bottom:50px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row{margin-bottom:0}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row{margin-bottom:0}}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row::before{display:block}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 25px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements.mobileElement{padding-bottom:15px}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements.mobileElement{padding-bottom:15px}}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements{background-color:#fafafa;height:100%;padding:40px 25px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements{padding-bottom:0}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements{padding-bottom:0}}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements{padding-bottom:10px!important}}@media only screen and (min-width:1492px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements{padding-bottom:10px!important;padding:40px}}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .secondaryTitle{font-size:22px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .secondaryTitle{font-family:Nunito;font-style:normal;font-weight:700;font-size:16px;line-height:16px;text-align:center}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .secondaryTitle{text-align:center}}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements span.tag{font-family:Nunito;font-style:normal;font-weight:700;font-size:14px;line-height:19px;margin-bottom:16px}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements p{font-family:Nunito;font-style:normal;font-weight:300;font-size:14px;line-height:19px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements p{font-family:Nunito;font-style:normal;font-weight:400;font-size:12px;line-height:14px;text-align:center}}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:25px 0}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements{padding-top:0}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements{padding-top:0}}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .containerImage{margin:0}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .containerImage img{height:auto;max-height:75px;max-width:125px;width:auto}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .info{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-ms-flex-line-pack:end;align-content:flex-end}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .info .tertiaryTitle{font-family:Nunito;font-style:normal;font-weight:700;font-size:14px;line-height:19px;text-align:right}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .info .commonText{font-family:Nunito;font-style:normal;font-size:14px;line-height:19px;text-align:right;font-weight:300;margin-bottom:0}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .commonText{line-height:19px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .commonText{text-align:center}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .commonText{text-align:center}}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial{padding:20px!important;height:-webkit-fit-content!important;height:-moz-fit-content!important;height:fit-content!important}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .commonTitle,#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial span.tag{text-align:center}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements{height:auto!important}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements p{margin-bottom:25px!important}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements{-webkit-box-orient:vertical!important;-webkit-box-direction:normal!important;-ms-flex-direction:column!important;flex-direction:column!important}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .containerImage{margin-bottom:15px!important}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements h3,#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements p{text-align:center!important;width:100%!important}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial{padding:20px!important;height:-webkit-fit-content!important;height:-moz-fit-content!important;height:fit-content!important}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .commonTitle,#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial span.tag{text-align:center}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements{height:auto!important}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements p{margin-bottom:25px!important}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements{-webkit-box-orient:vertical!important;-webkit-box-direction:normal!important;-ms-flex-direction:column!important;flex-direction:column!important}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .containerImage{margin-bottom:15px!important}#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements h3,#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements p{text-align:center!important;width:100%!important}}#homeBootstrap .customSection.sectionParent.homeSection7{background-color:#fff}#homeBootstrap .customSection.sectionParent.homeSection7 .section-row{padding-bottom:50px}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection7 .section-row{width:95%}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection7 .section-row{width:90%}}@media only screen and (min-width:991px) and (max-width:1491px){#homeBootstrap .customSection.sectionParent.homeSection7 .section-row{width:100%!important;max-width:1000px!important}}@media only screen and (min-width:1492px){#homeBootstrap .customSection.sectionParent.homeSection7 .section-row{width:100%!important;max-width:1100px!important}}#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct1{margin-bottom:60px}#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct1 .containElements .primaryTitle{margin-bottom:0;text-align:center}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct1{margin-bottom:60px}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct1{margin-bottom:60px}}#homeBootstrap .customSection.sectionParent.homeSection7 ul{list-style:none}#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2{position:relative;z-index:1}#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 div#accordionPanelsFAQ{z-index:10}#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay1{margin:auto 0;top:0;left:-75px;bottom:0;position:absolute;display:block;height:400px;width:auto;z-index:-1}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay1{height:250px;left:-10px}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay1{height:250px;left:-10px}}#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay2{margin:0 0 auto;right:-75px;top:0;bottom:0;position:absolute;display:block;height:400px;width:auto;z-index:-1;-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay2{height:250px;right:-10px}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay2{height:250px;right:-10px}}#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay3{margin:5% 0 auto;right:-75px;bottom:0;position:absolute;height:400px;width:auto;z-index:-1;-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);display:none}@media only screen and (min-width:320px) and (max-width:767px){#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay3{height:250px;right:-10px}}@media only screen and (min-width:768px) and (max-width:991px){#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay3{height:250px;right:-10px}}#homeBootstrap .customSection.sectionParent.homeSection8{padding:25px 0 75px!important;background-color:#fff}#homeBootstrap .customSection.sectionParent.homeSection8 .section-row .containElements{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}#homeBootstrap .customSection.sectionParent.homeSection8 .section-row .containElements .primaryTitle{margin-bottom:25px}#homeBootstrap .customSection.sectionParent.homeSection8 .section-row .containElements .primaryButton{margin:0 auto}@media only screen and (min-width:320px) and (max-width:767px){body.template-open-webinar-escala-meeting header .elementor-container.elementor-column-gap-default{width:100%}}@media only screen and (min-width:768px) and (max-width:991px){body.template-open-webinar-escala-meeting header .elementor-container.elementor-column-gap-default{width:100%}}#webinarMeeting-Bootstrap{padding:175px 0 150px}@media only screen and (min-width:320px) and (max-width:767px){#webinarMeeting-Bootstrap{padding-bottom:100px;padding-top:100px}}@media only screen and (min-width:768px) and (max-width:991px){#webinarMeeting-Bootstrap{padding-bottom:100px;padding-top:150px}}#webinarMeeting-Bootstrap .backgroundPlanets{background-position:50px 180px;background-repeat:no-repeat;background-size:100% auto}@media only screen and (min-width:320px) and (max-width:767px){#webinarMeeting-Bootstrap .backgroundPlanets{top:0;background-position:8px 100px;background-size:100% auto}}@media only screen and (min-width:768px) and (max-width:991px){#webinarMeeting-Bootstrap .backgroundPlanets{background-position:8px 150px;background-size:100% auto;top:0}}.showMore{margin:30px 0!important}.showMore .containElements a{display:block;margin:0 auto;color:#fff;background-color:#c4c4c4;padding-left:50px!important;padding-right:50px!important}
+#homeBootstrap .customSection.sectionParent .primaryTitle {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px !important;
+  line-height: 35px !important;
+  text-align: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent .primaryTitle {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px !important;
+    line-height: 22px !important;
+  }
+}
+#homeBootstrap .customSection.sectionParent .innerSectionElement.sct1 .primaryText {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent .innerSectionElement.sct1 .primaryText {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  #homeBootstrap .customSection.sectionParent .innerSectionElement.sct1 .primaryText br {
+    display: none !important;
+  }
+}
+#homeBootstrap .customSection.sectionParent .primaryText,
+#homeBootstrap .customSection.sectionParent a.hiperButtonGreenBlue {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent .primaryText,
+#homeBootstrap .customSection.sectionParent a.hiperButtonGreenBlue {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+  }
+}
+#homeBootstrap .customSection.sectionParent .secondaryTitle {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 26px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent .secondaryTitle {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+#homeBootstrap .customSection.sectionParent.homeSection0 {
+  padding-top: 125px;
+  padding-bottom: 0;
+  background-color: #E6F2F8;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 {
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 {
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row {
+    width: 95%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row {
+    width: 100% !important;
+    max-width: 1240px !important;
+  }
+}
+@media only screen and (min-width: 1492px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row {
+    width: 100% !important;
+    max-width: 1300px !important;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .containerImage {
+  margin: 0;
+  padding: 0;
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .backgroundFull {
+  background-position: 0 -380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 0;
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements {
+  padding-bottom: 0;
+}
+@media only screen and (min-width: 900px) and (max-width: 1150px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info {
+    padding-bottom: 50px !important;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info {
+    padding-bottom: 200px;
+    padding-top: 25px;
+  }
+}
+@media only screen and (min-width: 1492px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info {
+    padding-bottom: 200px;
+    padding-top: 25px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements {
+  position: relative;
+  padding-bottom: 100px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements {
+    padding-bottom: 0;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigTitle {
+  font-size: 54px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: "Nunito", Sans-serif;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigTitle {
+    font-size: 40px;
+    font-size: 45px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigTitle {
+    font-size: 50px;
+    line-height: 55px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #140C28;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText {
+    width: 50vw;
+  }
+}
+@media only screen and (min-width: 1492px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText {
+    width: 700px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage {
+  position: absolute;
+  right: -12.5%;
+  top: 30%;
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage img {
+  height: 400px;
+  margin-left: 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigTitle {
+    line-height: normal !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigTitle,
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText {
+    text-align: center !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage {
+    left: unset !important;
+    position: unset;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage img {
+    height: 250px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigTitle,
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .principalBigText {
+    text-align: center !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage {
+    left: unset !important;
+    position: unset;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage img {
+    height: 400px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1150px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage {
+    position: unset;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage img {
+    height: 250px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage {
+    top: 12.5vw;
+    right: -12.5%;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .info .containElements .containerImage img {
+    height: 25vw;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 .formatForm {
+  margin-bottom: 25px;
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 .formatForm span.wpcf7-form-control-wrap.your-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 .formatForm label {
+  margin-bottom: 1px;
+  margin-top: 9px;
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 select {
+  font-weight: 200 !important;
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 input.wpcf7-form-control.wpcf7-submit {
+  padding: 0 20px !important;
+  font-size: 18px !important;
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 .customField {
+  margin: 12.5px 0 !important;
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 .customField.radioSelect span.wpcf7-form-control.wpcf7-radio span.wpcf7-list-item:nth-of-type(2) span.wpcf7-list-item-label {
+  color: #F34F36;
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 select[multiple] {
+    height: 75px !important;
+  }
+}
+@media only screen and (min-width: 1492px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .section-row .innerSectionElement.sct1 .groupElements .form7 select[multiple] {
+    height: 75px !important;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection0 .backgroundPlanets {
+  background-position: 0 50px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  opacity: 1;
+  -webkit-transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  -o-transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: -5%;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .backgroundPlanets {
+    top: 0;
+    background-position: 0 50px;
+    background-size: 100% auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection0 .backgroundPlanets {
+    background-position: 0 50px;
+    background-size: 100% auto;
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection1 {
+    padding: 50px 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection1 {
+    padding: 50px 0;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection1 .section-row {
+    width: 95%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection1 .section-row {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection1 .section-row {
+    width: 100% !important;
+    max-width: 1240px !important;
+  }
+}
+@media only screen and (min-width: 1492px) {
+  #homeBootstrap .customSection.sectionParent.homeSection1 .section-row {
+    width: 100% !important;
+    max-width: 1240px !important;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct1 {
+  margin-bottom: 25px;
+}
+#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct1 .containElements .primaryTitle,
+#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct1 .containElements p.primaryText {
+  text-align: center;
+}
+#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements {
+  padding: 10px;
+}
+#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements .elements .containerImage img {
+  height: 165px;
+  margin: 0 auto;
+}
+#homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements .elements .secondaryTitle {
+  text-align: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements .elements .containerImage {
+    margin-bottom: 10px !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements .elements .containerImage img {
+    height: 125px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements .elements .containerImage {
+    margin-bottom: 10px !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection1 .innerSectionElement.sct2 .containElements .elements .containerImage img {
+    height: 175px !important;
+  }
+}
+
+#homeBootstrap .customSection.sectionParent.homeSection2 {
+  background-color: #E6F2F8;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection2 {
+    padding: 50px 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection2 {
+    padding: 50px 0;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection2 .section-row {
+    width: 98%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection2 .section-row {
+    width: 98%;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection2 .section-row {
+    width: 100% !important;
+    max-width: 1140px !important;
+  }
+}
+@media only screen and (min-width: 1492px) {
+  #homeBootstrap .customSection.sectionParent.homeSection2 .section-row {
+    width: 100% !important;
+    max-width: 1250px !important;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct1 {
+  margin-bottom: 50px;
+}
+#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct1 .containElements .primaryTitle,
+#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct1 .containElements p.primaryText {
+  text-align: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements {
+    width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements {
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage img {
+  height: 175px !important;
+  width: 165px !important;
+}
+#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements {
+  padding: 10px;
+}
+#homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements .secondaryTitle {
+  margin-bottom: 10px;
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements {
+    height: 140px;
+    margin: auto 0;
+  }
+}
+@media only screen and (min-width: 1492px) {
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements {
+    height: 140px;
+    margin: auto 0;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 30px;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage img {
+    margin: 0 auto;
+    width: auto !important;
+    height: 125px !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements * {
+    text-align: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 30px;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage img {
+    margin: 0 auto;
+    width: auto !important;
+    height: 165px !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements * {
+    text-align: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection2 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#homeBootstrap .customSection.sectionParent.homeSection3 {
+  padding-bottom: 60px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection3 {
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection3 {
+    margin-bottom: 25px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 {
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 {
+    height: 225px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 {
+    height: 250px !important;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .imageBackground {
+  position: absolute;
+  left: -10%;
+  right: 0;
+  bottom: 0;
+  top: 22%;
+  margin: auto;
+  width: 80%;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .imageBackground {
+    background-position: 0 100% !important;
+    top: 0;
+    left: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .imageBackground {
+    background-position: 0 100% !important;
+    top: 0;
+    left: 0;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .section-row {
+  margin: auto;
+  margin-bottom: 50px;
+}
+#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .section-row .containElements .primaryTitle {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #fff;
+  font-weight: 600;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .section-row .containElements .primaryTitle {
+    margin-bottom: 30px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .section-row .containElements .primaryTitle {
+    margin-bottom: 30px !important;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection3 .backgroundFull.sct1 .section-row .containElements a.primaryButton {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .section-row {
+    width: 95%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .section-row {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .section-row {
+    width: 100% !important;
+    max-width: 1175px !important;
+  }
+}
+@media only screen and (min-width: 1492px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .section-row {
+    width: 100% !important;
+    max-width: 1400px !important;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct1 {
+  margin-bottom: 50px;
+}
+#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct1 .containElements .primaryTitle {
+  text-align: center;
+}
+#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements {
+  width: 80%;
+  margin: 0 auto;
+  margin-right: 7.5%;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements {
+    width: 90%;
+    display: grid !important;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 0;
+    grid-auto-rows: 75px;
+    grid-template-areas: "a a a a . . . ." "a a a a b b b b" ". . . . b b b b" "c c c c . . . ." "c c c c d d d d" ". . . . d d d d" "e e e e d d d d" "e e e e . . . .";
+  }
+}
+@media only screen and (min-width: 1492px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements {
+    display: grid !important;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 0;
+    grid-auto-rows: 75px;
+    grid-template-areas: "a a a a . . . ." "a a a a b b b b" ". . . . b b b b" "c c c c . . . ." "c c c c d d d d" ". . . . d d d d" "e e e e d d d d" "e e e e . . . .";
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(1) {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(2) {
+    grid-area: b;
+    align-self: center;
+    justify-self: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(3) {
+    grid-area: c;
+    align-self: center;
+    justify-self: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(4) {
+    grid-area: d;
+    align-self: center;
+    justify-self: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(5) {
+    grid-area: e;
+    align-self: center;
+    justify-self: center;
+  }
+}
+@media only screen and (min-width: 1492px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(1) {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(2) {
+    grid-area: b;
+    align-self: center;
+    justify-self: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(3) {
+    grid-area: c;
+    align-self: center;
+    justify-self: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(4) {
+    grid-area: d;
+    align-self: center;
+    justify-self: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup:nth-of-type(5) {
+    grid-area: e;
+    align-self: center;
+    justify-self: center;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  margin-bottom: 0;
+  width: 100%;
+  position: relative;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup {
+    margin-bottom: 25px;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup {
+    margin-bottom: 25px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage {
+  padding: 0 !important;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage {
+    position: unset;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-right: 25px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage {
+    position: unset;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-right: 50px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage img {
+  height: 125px;
+  width: auto;
+  margin: auto !important;
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage img {
+    height: 110px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements {
+  padding-left: 22.5%;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup h3.secondaryTitle.blackColor {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText {
+  position: relative;
+  display: block;
+  padding-left: 12.5px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 0;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText span {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText::before {
+  content: "";
+  border-left: 1px solid #34768A;
+  left: 0;
+  top: 5px;
+  bottom: 0;
+  height: 85%;
+  width: 1px;
+  margin: auto 0;
+  display: block;
+  position: absolute;
+}
+#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText span {
+  position: relative;
+  top: 5px;
+  margin: 5px 0;
+  font-size: 14px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText {
+    padding-bottom: 12.5px;
+    margin-bottom: 12.5px;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .primaryText::before {
+    display: none;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 30px;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 20px !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerImage img {
+    height: 100px;
+    margin: auto !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements * {
+    text-align: left;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup .containerElements a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup.full {
+  width: 80%;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection4 .innerSectionElement.sct2 .groupElements .infoGroup.full {
+    width: 100%;
+  }
+}
+
+#homeBootstrap .customSection.sectionParent.homeSection5 {
+  background-color: #E6F2F8;
+  padding-bottom: 0;
+  padding-top: 17.5px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection5 {
+    padding-top: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection5 {
+    padding-top: 50px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+}
+#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements .primaryTitle {
+  margin-bottom: 25px;
+  text-align: left;
+}
+#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements p.primaryText {
+  margin-bottom: 25px;
+  text-align: left;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 50px;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements .primaryTitle {
+    text-align: center;
+    margin-bottom: 25px !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements p.primaryText {
+    text-align: center;
+    margin-bottom: 25px !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements a.primaryButton {
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 50px;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements .primaryTitle {
+    text-align: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements p.primaryText {
+    text-align: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .info .containElements a.primaryButton {
+    margin: 0 auto;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .image .containerImage {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+#homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .image .containerImage img {
+  height: 500px;
+  margin-left: auto !important;
+  margin-right: 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .image .containerImage {
+    margin-bottom: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .image .containerImage img {
+    margin: 0 auto;
+    height: 315px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .image .containerImage {
+    margin-bottom: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection5 .innerSectionElement.sct1 .groupElements .image .containerImage img {
+    margin: 0 auto;
+    height: 430px !important;
+  }
+}
+
+#homeBootstrap .customSection.sectionParent.homeSection6 {
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .section-row {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .section-row {
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .section-row {
+    width: 100% !important;
+    max-width: 1200px !important;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct1 {
+  margin-bottom: 50px;
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct1 .containElements .primaryTitle {
+  text-align: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct1 {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct1 {
+    margin-bottom: 30px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row {
+    margin-bottom: 0;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row::before {
+  display: block;
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 25px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements.mobileElement {
+    padding-bottom: 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements.mobileElement {
+    padding-bottom: 15px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements {
+  background-color: #FAFAFA;
+  height: 100%;
+  padding: 40px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements {
+    padding-bottom: 10px !important;
+  }
+}
+@media only screen and (min-width: 1492px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements {
+    padding-bottom: 10px !important;
+  }
+}
+@media only screen and (min-width: 1492px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements {
+    padding: 40px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .secondaryTitle {
+  font-size: 22px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .secondaryTitle {
+    text-align: center;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .secondaryTitle {
+    text-align: center;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements span.tag {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 16px;
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements {
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements {
+    padding-top: 0;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .containerImage {
+  margin: 0;
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .containerImage img {
+  height: auto;
+  max-height: 75px;
+  max-width: 125px;
+  width: auto;
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .info .tertiaryTitle,
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .info .commonText {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: right;
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .info .commonText {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .commonText {
+  line-height: 19px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .commonText {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .commonText {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial {
+    padding: 20px !important;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .commonTitle,
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial span.tag {
+    text-align: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements {
+    height: auto !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements p {
+    margin-bottom: 25px !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .containerImage {
+    margin-bottom: 15px !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements p, #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements h3 {
+    text-align: center !important;
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial {
+    padding: 20px !important;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .commonTitle,
+#homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial span.tag {
+    text-align: center;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements {
+    height: auto !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements p {
+    margin-bottom: 25px !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements .containerImage {
+    margin-bottom: 15px !important;
+  }
+  #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements p, #homeBootstrap .customSection.sectionParent.homeSection6 .innerSectionElement.sct2 .groupElements.row .testimonial .containElements .referElements h3 {
+    text-align: center !important;
+    width: 100% !important;
+  }
+}
+
+#homeBootstrap .customSection.sectionParent.homeSection7 {
+  background-color: white;
+}
+#homeBootstrap .customSection.sectionParent.homeSection7 .section-row {
+  padding-bottom: 50px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection7 .section-row {
+    width: 95%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection7 .section-row {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1491px) {
+  #homeBootstrap .customSection.sectionParent.homeSection7 .section-row {
+    width: 100% !important;
+    max-width: 1000px !important;
+  }
+}
+@media only screen and (min-width: 1492px) {
+  #homeBootstrap .customSection.sectionParent.homeSection7 .section-row {
+    width: 100% !important;
+    max-width: 1100px !important;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct1 {
+  margin-bottom: 60px;
+}
+#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct1 .containElements .primaryTitle {
+  margin-bottom: 0;
+  text-align: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct1 {
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct1 {
+    margin-bottom: 60px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection7 ul {
+  list-style: none;
+}
+#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 {
+  position: relative;
+  z-index: 1;
+}
+#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 div#accordionPanelsFAQ {
+  z-index: 10;
+}
+#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay1 {
+  margin: auto 0;
+  top: 0;
+  left: -75px;
+  bottom: 0;
+  position: absolute;
+  display: block;
+  height: 400px;
+  width: auto;
+  z-index: -1;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay1 {
+    height: 250px;
+    left: -10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay1 {
+    height: 250px;
+    left: -10px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay2 {
+  margin: auto 0;
+  margin-top: 0;
+  right: -75px;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  display: block;
+  height: 400px;
+  width: auto;
+  z-index: -1;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay2 {
+    height: 250px;
+    right: -10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay2 {
+    height: 250px;
+    right: -10px;
+  }
+}
+#homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay3 {
+  margin: auto 0;
+  margin-top: 5%;
+  right: -75px;
+  bottom: 0;
+  position: absolute;
+  height: 400px;
+  width: auto;
+  z-index: -1;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  display: none;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay3 {
+    height: 250px;
+    right: -10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #homeBootstrap .customSection.sectionParent.homeSection7 .innerSectionElement.sct2 .overlay3 {
+    height: 250px;
+    right: -10px;
+  }
+}
+
+#homeBootstrap .customSection.sectionParent.homeSection8 {
+  padding: 25px 0 75px !important;
+  background-color: white;
+}
+#homeBootstrap .customSection.sectionParent.homeSection8 .section-row .containElements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#homeBootstrap .customSection.sectionParent.homeSection8 .section-row .containElements .primaryTitle {
+  margin-bottom: 25px;
+}
+#homeBootstrap .customSection.sectionParent.homeSection8 .section-row .containElements .primaryButton {
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  body.template-open-webinar-escala-meeting header .elementor-container.elementor-column-gap-default {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body.template-open-webinar-escala-meeting header .elementor-container.elementor-column-gap-default {
+    width: 100%;
+  }
+}
+
+#webinarMeeting-Bootstrap {
+  padding: 175px 0;
+  padding-bottom: 150px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #webinarMeeting-Bootstrap {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #webinarMeeting-Bootstrap {
+    padding-bottom: 100px;
+    padding-top: 150px;
+  }
+}
+#webinarMeeting-Bootstrap .backgroundPlanets {
+  background-position: 50px 180px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #webinarMeeting-Bootstrap .backgroundPlanets {
+    top: 0;
+    background-position: 8px 100px;
+    background-size: 100% auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #webinarMeeting-Bootstrap .backgroundPlanets {
+    background-position: 8px 150px;
+    background-size: 100% auto;
+    top: 0;
+  }
+}
+
+.showMore {
+  margin: 30px 0 !important;
+}
+.showMore .containElements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.showMore .containElements a {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  background-color: #C4C4C4;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+
+#specialFounder {
+  position: relative;
+}
+#specialFounder .specialText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: -1px;
+  color: #150D27;
+  position: absolute;
+  left: -40%;
+  bottom: 0%;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #specialFounder .specialText {
+    position: unset;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #specialFounder .specialText {
+    position: unset;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2hvbWUuc2FzcyIsImNvbW1vbi9fZ2xvYmFsLnNhc3MiLCJjb21tb24vX3ZhcmlhYmxlcy5zYXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU1RO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQ0lKO0VEVkE7SUFRUTtJQUNBO0lBQ0E7SUFDQTtJQUNBOzs7QUFJSjtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUNaUjtFRE1JO0lBUVE7SUFDQTtJQUNBO0lBQ0E7SUFDQTs7RUFDQTtJQUNJOzs7QUFJaEI7QUFBQTtFQUVJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FDOUJKO0VEd0JBO0FBQUE7SUFRUTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7OztBQUVSO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUM1Q0o7RUR1Q0E7SUFPUTtJQUNBO0lBQ0E7SUFDQTtJQUNBOzs7O0FBWWhCO0VBQ0k7RUFDQTtFQUNBLGtCRWxFYTs7QURDVDtFRDhEUjtJQU1ROzs7QUNqRUE7RUQyRFI7SUFRUTs7O0FDdEVBO0VEdUVKO0lBRVE7OztBQ3RFSjtFRG9FSjtJQUlROzs7QUNyRUo7RURpRUo7SUFNUTtJQUNBOzs7QUNyRUo7RUQ4REo7SUFTUTtJQUNBOzs7QUFDSjtFQUNJO0VBQ0E7O0FBQ1I7RUFDSTtFQUNBO0VBQ0E7RUFDQTs7QUFNSTtFQUNJOztBQ3BGUjtFRHFGUTtJQUlROzs7QUMvRmhCO0VEMkZRO0lBTVE7SUFDQTs7O0FDL0ZoQjtFRHdGUTtJQVNRO0lBQ0E7OztBQUNKO0VBQ0k7RUFDQTs7QUM5R2hCO0VENEdZO0lBSVE7OztBQzdHcEI7RUR5R1k7SUFNUTs7O0FBQ0o7RUFHSTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQzFIcEI7RURtSGdCO0lBU1E7SUFDQTs7O0FDMUh4QjtFRGdIZ0I7SUFZUTtJQUNBOzs7QUFHUjtFQUNJO0VBQ0E7RUFDQTtFQUNBLE9FbkpmO0VGNEplOztBQ2hKcEI7RURtSWdCO0lBTVE7OztBQ3RJeEI7RURnSWdCO0lBUVE7OztBQ3JJeEI7RUQ2SGdCO0lBVVE7OztBQ3BJeEI7RUQwSGdCO0lBWVE7OztBQUVSO0VBQ0k7RUFDQTtFQUNBOztBQUNBO0VBQ0k7RUFDQTs7QUN2SnhCO0VEeUpvQjtJQUNJOztFQUNKO0FBQUE7SUFFSTs7RUFDSjtJQUNJO0lBQ0E7O0VBQ0E7SUFDSTtJQUNBOzs7QUNoSzVCO0VEa0tvQjtBQUFBO0lBRUk7O0VBQ0o7SUFDSTtJQUNBOztFQUNBO0lBQ0k7SUFDQTs7O0FDaks1QjtFRG1Lb0I7SUFDSTs7RUFDQTtJQUNJO0lBQ0E7OztBQzdLNUI7RUQrS29CO0lBQ0k7SUFDQTs7RUFDQTtJQUNJOzs7QUFFaEI7RUFDSTs7QUFDQTtFQUNJO0VBQ0E7O0FBQ0o7RUFHSTtFQUNBOztBQUVSO0VBQ0k7O0FBSUo7RUFDSTtFQUNBOztBQUNKO0VBQ0k7O0FBS1k7RUFDSSxPRTlOMUI7O0FEZU47RURnTlk7SUFFUTs7O0FDL01wQjtFRDZNWTtJQUlROzs7QUFFeEI7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQ3ZPQTtFRDROSjtJQWVRO0lBQ0E7SUFDQTs7O0FDMU9KO0VEeU5KO0lBbUJRO0lBQ0E7SUFDQTs7OztBQ2pQSjtFRHFQUjtJQUVROzs7QUNwUEE7RURrUFI7SUFJUTs7O0FDelBBO0VEMFBKO0lBRVE7OztBQ3pQSjtFRHVQSjtJQUlROzs7QUN4UEo7RURvUEo7SUFNUTtJQUNBOzs7QUN4UEo7RURpUEo7SUFTUTtJQUNBOzs7QUFDUjtFQUNJOztBQUVJO0FBQUE7RUFFSTs7QUFHUjtFQUNJOztBQUdRO0VBRUk7RUFFQTs7QUFDUjtFQUNJOztBQ3ZSWjtFRHlSWTtJQUNJOztFQUNBO0lBRUk7OztBQzFScEI7RUQ0Ulk7SUFDSTs7RUFDQTtJQUNJOzs7O0FBSzVCO0VBQ0ksa0JFelNhOztBRENUO0VEdVNSO0lBR1E7OztBQ3ZTQTtFRG9TUjtJQUtROzs7QUM1U0E7RUQ2U0o7SUFFUTs7O0FDNVNKO0VEMFNKO0lBSVE7OztBQzNTSjtFRHVTSjtJQU1RO0lBQ0E7OztBQzNTSjtFRG9TSjtJQVNRO0lBQ0E7OztBQUNSO0VBQ0k7O0FBRUk7QUFBQTtFQUVJOztBQzdUUjtFRGdVQTtJQUVRO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTs7O0FDcFVSO0VENlRBO0lBVVE7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBOzs7QUFFSjtFQUNJO0VBQ0E7O0FBRUk7RUFDSTtFQUNBOztBQUNSO0VBQ0k7O0FBQ0E7RUFDSTs7QUNyVmhCO0VEa1ZRO0lBTVE7SUFDQTs7O0FDdFZoQjtFRCtVUTtJQVNRO0lBQ0E7OztBQ2xXaEI7RURpVkk7SUFtQlE7SUFDQTs7RUFDQTtJQUNJOztFQUNBO0lBQ0k7SUFDQTtJQUNBOztFQUNSO0lBQ0k7SUFDQTtJQUNBOztFQUNBO0lBQ0k7O0VBQ0o7SUFDSTtJQUNBOzs7QUNqWHBCO0VEOFVJO0lBcUNRO0lBQ0E7O0VBQ0E7SUFDSTs7RUFDQTtJQUNJO0lBQ0E7SUFDQTs7RUFDUjtJQUNJO0lBQ0E7SUFDQTs7RUFDQTtJQUNJOztFQUNKO0lBQ0k7SUFDQTs7OztBQUk1QjtFQUNJOztBQzNZSTtFRDBZUjtJQUdROzs7QUMxWUE7RUR1WVI7SUFLUTs7O0FBQ0o7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQ3JaQTtFRGdaSjtJQU9ROzs7QUNwWko7RUQ2WUo7SUFTUTs7O0FBQ0o7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQ3JhSjtFRDBaQTtJQWNRO0lBQ0E7SUFDQTs7O0FDdmFSO0VEdVpBO0lBa0JRO0lBQ0E7SUFDQTs7O0FBQ1I7RUFDSTtFQUNBOztBQUVJO0VBQ0k7RUFDQTtFQUNBLE9FdGFQO0VGdWFPOztBQ3ZiWjtFRG1iUTtJQU1ROzs7QUN0YmhCO0VEZ2JRO0lBUVE7OztBQUNSO0VBRUk7RUFDQTtFQUNBO0VBQ0E7OztBQ2pjWjtFRHFjSjtJQUVROzs7QUNwY0o7RURrY0o7SUFJUTs7O0FDbmNKO0VEK2JKO0lBTVE7SUFDQTs7O0FDbmNKO0VENGJKO0lBU1E7SUFDQTs7O0FBQ1I7RUFDSTs7QUFFSTtFQUNJOztBQUNaO0VBQ0k7O0FBQ0E7RUFDSTtFQUNBO0VBQ0E7O0FDMWRKO0VEdWRBO0lBS1E7SUFDQTtJQUNBO0lBQ0E7OztBQzVkUjtFRG9kQTtJQVVRO0lBQ0E7SUFDQTtJQUNBOzs7QUM5ZFI7RURpZEE7SUFlUTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7OztBQ2xlUjtFRDhjQTtJQXVCUTtJQUNBO0lBQ0E7SUFDQTtJQUNBOzs7QUM1ZVI7RURnZlk7SUFDSTtJQUNBO0lBQ0E7O0VBQ0o7SUFDSTtJQUNBO0lBQ0E7O0VBQ0o7SUFDSTtJQUNBO0lBQ0E7O0VBQ0o7SUFDSTtJQUNBO0lBQ0E7O0VBQ0o7SUFDSTtJQUNBO0lBQ0E7OztBQ2hnQmhCO0VEb2dCWTtJQUNJO0lBQ0E7SUFDQTs7RUFDSjtJQUNJO0lBQ0E7SUFDQTs7RUFDSjtJQUNJO0lBQ0E7SUFDQTs7RUFDSjtJQUNJO0lBQ0E7SUFDQTs7RUFDSjtJQUNJO0lBQ0E7SUFDQTs7O0FBR1o7RUFDSTtFQUVBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FDMWlCUjtFRG1pQkk7SUFTUTtJQUNBOzs7QUMxaUJaO0VEZ2lCSTtJQWFROzs7QUFJSjtFQUNJO0VBRUE7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUVBO0VBQ0E7RUFDQTtFQUNBOztBQ2hrQlo7RURvakJRO0lBY1E7SUFDQTtJQUNBO0lBQ0E7OztBQ2xrQmhCO0VEaWpCUTtJQW1CUTtJQUNBO0lBQ0E7SUFDQTs7O0FBQ0o7RUFDSTtFQUVBO0VBQ0E7O0FDemtCaEI7RURxa0JZO0lBTVE7OztBQUdaO0VBQ0k7O0FDcmxCWjtFRG9sQlE7SUFHUTs7O0FDcGxCaEI7RURpbEJRO0lBS1E7OztBQ3psQmhCO0VEMGxCUTtJQUVRO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7OztBQUVSO0VBQ0k7RUFDQTtFQUNBOztBQ3JtQlo7RURrbUJRO0lBS1E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBOztFQUNBO0lBQ0k7SUFDQTtJQUNBO0lBQ0E7SUFDQTs7O0FBR1I7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFDSjtFQUNJO0VBQ0E7RUFDQTtFQUNBOztBQ3BvQmhCO0VEa21CUTtJQXFDUTtJQUNBOztFQUNBO0lBQ0k7OztBQzFvQnBCO0VEbWlCSTtJQTBHUTtJQUNBOztFQUNBO0lBQ0k7SUFDQTs7RUFDQTtJQUNJO0lBQ0E7O0VBQ1I7SUFDSTtJQUNBO0lBQ0E7O0VBQ0E7SUFDSTs7RUFDSjtJQUNJO0lBQ0E7OztBQUNoQjtFQUNJO0VBQ0E7O0FDaHFCUjtFRDhwQkk7SUFJUTs7OztBQUlwQjtFQUNJLGtCRXhxQmE7RUZ5cUJiO0VBQ0E7O0FDenFCSTtFRHNxQlI7SUFLUTs7O0FDeHFCQTtFRG1xQlI7SUFPUTs7O0FBR0k7RUFDSTs7QUFDQTtFQUNJO0VBQ0E7O0FBQ0E7RUFDSTtFQUNBOztBQUNKO0VBQ0k7RUFDQTs7QUMxckJoQjtFRGtyQlE7SUFZUTtJQUNBO0lBQ0E7O0VBQ0E7SUFDSTtJQUNBOztFQUNKO0lBQ0k7SUFDQTs7RUFDSjtJQUNJOzs7QUNyc0JwQjtFRCtxQlE7SUF5QlE7SUFDQTtJQUNBOztFQUNBO0lBQ0k7O0VBQ0o7SUFDSTs7RUFDSjtJQUNJOzs7QUFJWjtFQUNJO0VBQ0E7O0FBQ0E7RUFDSTtFQUNBO0VBRUE7O0FDOXRCaEI7RUR1dEJRO0lBU1E7SUFDQTs7RUFDQTtJQUNJO0lBQ0E7OztBQ2p1QnBCO0VEb3RCUTtJQWdCUTtJQUNBOztFQUNBO0lBQ0k7SUFDQTs7OztBQU01QjtFQUNJO0VBQ0E7O0FDbnZCSTtFRG92Qko7SUFFUTs7O0FDbnZCSjtFRGl2Qko7SUFJUTs7O0FDbHZCSjtFRDh1Qko7SUFNUTtJQUNBOzs7QUFLUjtFQUNJOztBQUVJO0VBQ0k7O0FDcHdCUjtFRGd3Qko7SUFNUTs7O0FDbndCSjtFRDZ2Qko7SUFRUTs7O0FBR0o7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQ2h4Qko7RUQyd0JBO0lBT1E7OztBQy93QlI7RUR3d0JBO0lBU1E7OztBQUNKO0VBQ0k7O0FBRUo7RUFDSTtFQUNBOztBQzF4QlI7RUQ2eEJRO0lBRVE7OztBQzV4QmhCO0VEMHhCUTtJQUlROzs7QUFDUjtFQUNJLGtCRXp4Qkg7RUYweEJHO0VBQ0E7RUFFQTtFQUNBO0VBQ0E7O0FDenlCWjtFRGt5QlE7SUFVUTs7O0FDenlCaEI7RUQreEJRO0lBYVE7OztBQ3p5QmhCO0VENHhCUTtJQWdCUTs7O0FDenlCaEI7RUR5eEJRO0lBbUJROzs7QUM1eUJoQjtFRHl4QlE7SUF3QlE7OztBQUVKO0VBQ0k7O0FDN3pCaEI7RUQ0ekJZO0lBR1E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7OztBQ2wwQnBCO0VEeXpCWTtJQVdROzs7QUFDUjtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFDSjtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FDcDFCaEI7RUQrMEJZO0lBT1E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBOzs7QUFNUjtFQUNJO0VBQ0E7RUFDQTs7QUNwMkJoQjtFRGkyQlk7SUFLUTs7O0FDbjJCcEI7RUQ4MUJZO0lBT1E7OztBQUNKO0VBQ0k7O0FBQ0E7RUFDSTtFQUNBO0VBQ0E7RUFDQTs7QUFDUjtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBQ0E7QUFBQTtFQUVJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFDSjtFQUNJO0VBQ0E7O0FBQ1o7RUFDSTs7QUNsNEJoQjtFRGk0Qlk7SUFHUTs7O0FDajRCcEI7RUQ4M0JZO0lBS1E7OztBQ3Q0QnBCO0VEd3hCSTtJQWdIUTtJQUNBOztFQUNBO0FBQUE7SUFFSTs7RUFDSjtJQUNJOztFQUNBO0lBQ0k7O0VBQ0o7SUFDSTs7RUFDQTtJQUNJOztFQUNKO0lBQ0k7SUFDQTs7O0FDcDVCeEI7RURxeEJJO0lBaUlRO0lBQ0E7O0VBQ0E7QUFBQTtJQUVJOztFQUNKO0lBQ0k7O0VBQ0E7SUFDSTs7RUFDSjtJQUNJOztFQUNBO0lBQ0k7O0VBQ0o7SUFDSTtJQUNBOzs7O0FBS2hDO0VBR0k7O0FBQ0E7RUFFSTs7QUNuN0JBO0VEaTdCSjtJQUlROzs7QUNsN0JKO0VEODZCSjtJQU1ROzs7QUNqN0JKO0VEMjZCSjtJQVFRO0lBQ0E7OztBQ2o3Qko7RUR3NkJKO0lBV1E7SUFDQTs7O0FBQ1I7RUFDSTs7QUFFSTtFQUNJO0VBQ0E7O0FDbjhCUjtFRDg3Qko7SUFPUTs7O0FDbDhCSjtFRDI3Qko7SUFTUTs7O0FBQ1I7RUFDSTs7QUFFSjtFQUNJO0VBQ0E7O0FBQ0E7RUFDSTs7QUFDSjtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUN6OUJKO0VEZzlCQTtJQVdRO0lBQ0E7OztBQ3o5QlI7RUQ2OEJBO0lBY1E7SUFDQTs7O0FBQ1I7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQzMrQko7RURnK0JBO0lBYVE7SUFDQTs7O0FDMytCUjtFRDY5QkE7SUFnQlE7SUFDQTs7O0FBRVI7RUFDSTtFQUNBO0VBQ0E7RUFFQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUM5L0JKO0VEbS9CQTtJQWFRO0lBQ0E7OztBQzkvQlI7RURnL0JBO0lBZ0JRO0lBQ0E7Ozs7QUFLaEI7RUFDSTtFQUNBOztBQUVJO0VBQ0k7RUFDQTs7QUFDQTtFQUNJOztBQUNKO0VBQ0k7OztBQ25oQ1I7RUR1aENSO0lBRVE7OztBQ3RoQ0E7RURvaENSO0lBSVE7Ozs7QUFJUjtFQUNJO0VBQ0E7O0FDamlDSTtFRCtoQ1I7SUFLUTtJQUNBOzs7QUNsaUNBO0VENGhDUjtJQVFRO0lBQ0E7OztBQUNKO0VBQ0k7RUFDQTtFQUNBOztBQzVpQ0E7RUR5aUNKO0lBS1E7SUFDQTtJQUNBOzs7QUM3aUNKO0VEc2lDSjtJQVNRO0lBQ0E7SUFDQTs7OztBQUtaO0VBQ0k7O0FBQ0E7RUFDSTs7QUFDQTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7O0FBS1o7RUFDSTs7QUFFQTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQ3hsQ0E7RUQya0NKO0lBZVE7SUFDQTtJQUNBOzs7QUN6bENKO0VEd2tDSjtJQW1CUTtJQUNBIiwiZmlsZSI6InBhZ2VzL2hvbWUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbkBpbXBvcnQgXCIuLi9jb21tb24vZ2xvYmFsXCJcclxuXHJcbiNob21lQm9vdHN0cmFwXHJcbiAgICAuY3VzdG9tU2VjdGlvbi5zZWN0aW9uUGFyZW50XHJcblxyXG4gICAgICAgIC5wcmltYXJ5VGl0bGVcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6IE51bml0b1xyXG4gICAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWxcclxuICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGRcclxuICAgICAgICAgICAgZm9udC1zaXplOiAzMHB4IWltcG9ydGFudFxyXG4gICAgICAgICAgICBsaW5lLWhlaWdodDogMzVweCFpbXBvcnRhbnRcclxuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyXHJcbiAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBOdW5pdG9cclxuICAgICAgICAgICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbFxyXG4gICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGRcclxuICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMjBweCFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAyMnB4IWltcG9ydGFudFxyXG5cclxuXHJcbiAgICAgICAgLmlubmVyU2VjdGlvbkVsZW1lbnQuc2N0MVxyXG4gICAgICAgICAgICAucHJpbWFyeVRleHRcclxuICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBOdW5pdG9cclxuICAgICAgICAgICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbFxyXG4gICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbFxyXG4gICAgICAgICAgICAgICAgZm9udC1zaXplOiAxOHB4XHJcbiAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogMjRweFxyXG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyXHJcbiAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6IE51bml0b1xyXG4gICAgICAgICAgICAgICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbFxyXG4gICAgICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWxcclxuICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDE1cHhcclxuICAgICAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogMjBweFxyXG4gICAgICAgICAgICAgICAgICAgIGJyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IG5vbmUhaW1wb3J0YW50XHJcblxyXG5cclxuXHJcbiAgICAgICAgLnByaW1hcnlUZXh0LFxyXG4gICAgICAgIGEuaGlwZXJCdXR0b25HcmVlbkJsdWVcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6IE51bml0b1xyXG4gICAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWxcclxuICAgICAgICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbFxyXG4gICAgICAgICAgICBmb250LXNpemU6IDE2cHhcclxuICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDIycHhcclxuICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6IE51bml0b1xyXG4gICAgICAgICAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsXHJcbiAgICAgICAgICAgICAgICBmb250LXdlaWdodDogbm9ybWFsXHJcbiAgICAgICAgICAgICAgICBmb250LXNpemU6IDEycHhcclxuICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxNHB4XHJcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXJcclxuXHJcbiAgICAgICAgLnNlY29uZGFyeVRpdGxlXHJcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBOdW5pdG9cclxuICAgICAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsXHJcbiAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkXHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMjVweFxyXG4gICAgICAgICAgICBsaW5lLWhlaWdodDogMjZweFxyXG4gICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgICAgICAgICBmb250LWZhbWlseTogTnVuaXRvXHJcbiAgICAgICAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWxcclxuICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkXHJcbiAgICAgICAgICAgICAgICBmb250LXNpemU6IDE2cHhcclxuICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxNnB4XHJcblxyXG4gICAgLy8gLnNlY3Rpb24tcm93XHJcbiAgICAgICAgLy8gYnJcclxuICAgICAgICAgICAgLy8gQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgICAgICAgICAgLy8gZGlzcGxheTogbm9uZSFpbXBvcnRhbnRcclxuICAgICAgICAgICAgLy8gQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgICAgICAgICAgLy8gZGlzcGxheTogbm9uZSFpbXBvcnRhbnRcclxuXHJcblxyXG5cclxuXHJcbiNob21lQm9vdHN0cmFwIC5jdXN0b21TZWN0aW9uLnNlY3Rpb25QYXJlbnQuaG9tZVNlY3Rpb24wXHJcbiAgICBwYWRkaW5nLXRvcDogMTI1cHhcclxuICAgIHBhZGRpbmctYm90dG9tOiAwXHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkY29sb3JCbHVlTGlnaHRcclxuICAgIC8vIHBhZGRpbmc6IDE3NXB4IDAhaW1wb3J0YW50XHJcbiAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgcGFkZGluZy1ib3R0b206IDUwcHhcclxuICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICBwYWRkaW5nLWJvdHRvbTogNTBweFxyXG4gICAgLnNlY3Rpb24tcm93XHJcbiAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgICAgICB3aWR0aDogOTUlXHJcbiAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgICAgICB3aWR0aDogOTAlXHJcbiAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhnZW5lcmFsKVxyXG4gICAgICAgICAgICB3aWR0aDogMTAwJSFpbXBvcnRhbnRcclxuICAgICAgICAgICAgbWF4LXdpZHRoOiAxMjQwcHghaW1wb3J0YW50XHJcbiAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhyZXN0bylcclxuICAgICAgICAgICAgd2lkdGg6IDEwMCUhaW1wb3J0YW50XHJcbiAgICAgICAgICAgIG1heC13aWR0aDogMTMwMHB4IWltcG9ydGFudFxyXG4gICAgICAgIC5jb250YWluZXJJbWFnZVxyXG4gICAgICAgICAgICBtYXJnaW46IDBcclxuICAgICAgICAgICAgcGFkZGluZzogMFxyXG4gICAgLmJhY2tncm91bmRGdWxsXHJcbiAgICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjogMCAtMzgwcHhcclxuICAgICAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0XHJcbiAgICAgICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlclxyXG4gICAgICAgIHBhZGRpbmctYm90dG9tOiAwXHJcbiAgICAgICAgLy8gcGFkZGluZy10b3A6IDE1MHB4IWltcG9ydGFudFxyXG4gICAgICAgIC8vIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAvLyBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAuc2VjdGlvbi1yb3dcclxuICAgICAgICAuaW5uZXJTZWN0aW9uRWxlbWVudC5zY3QxXHJcbiAgICAgICAgICAgIC5ncm91cEVsZW1lbnRzXHJcbiAgICAgICAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogMFxyXG4gICAgICAgICAgICAgICAgLmluZm9cclxuICAgICAgICAgICAgICAgICAgICAvLyBwYWRkaW5nLWJvdHRvbTogMTAwcHhcclxuICAgICAgICAgICAgICAgICAgICAvLyBwYWRkaW5nLWJvdHRvbTogMFxyXG4gICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8oc3BlY2lhbFRleHRzKVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogNTBweCFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKGdlbmVyYWwpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmctYm90dG9tOiAyMDBweFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nLXRvcDogMjVweFxyXG4gICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocmVzdG8pXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmctYm90dG9tOiAyMDBweFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nLXRvcDogMjVweFxyXG4gICAgICAgICAgICAgICAgICAgIC5jb250YWluRWxlbWVudHNcclxuICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmctYm90dG9tOiAxMDBweFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogMFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogMFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAucHJpbmNpcGFsQmlnVGl0bGVcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIGZvbnQtc2l6ZTogNTBweFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gbGluZS1oZWlnaHQ6XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDU0cHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiA2MHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogNzAwXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseTogXCJOdW5pdG9cIixTYW5zLXNlcmlmXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyMHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiA0MHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiA0NXB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiA1MHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDU1cHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBtYXJnaW4tYm90dG9tOiAyNXB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBtYXJnaW4tYm90dG9tOiAyNXB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIC5wcmluY2lwYWxCaWdUZXh0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDIwcHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAyOHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogNDAwXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJGNvbG9yQmxhY2tcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDIwcHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDIwcHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8oZ2VuZXJhbClcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogNTB2d1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhyZXN0bylcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogNzAwcHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDQwcHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgLmNvbnRhaW5lckltYWdlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGVcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJpZ2h0OiAtMTIuNSVcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvcDogMzAlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbWdcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDQwMHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWxlZnQ6IDBcclxuICAgICAgICAgICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLnByaW5jaXBhbEJpZ1RpdGxlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IG5vcm1hbCFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5wcmluY2lwYWxCaWdUaXRsZSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5wcmluY2lwYWxCaWdUZXh0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyIWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNvbnRhaW5lckltYWdlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGVmdDogdW5zZXQhaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246IHVuc2V0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW1nXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMjUwcHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwIGF1dG9cclxuICAgICAgICAgICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLnByaW5jaXBhbEJpZ1RpdGxlLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLnByaW5jaXBhbEJpZ1RleHRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXIhaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuY29udGFpbmVySW1hZ2VcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZWZ0OiB1bnNldCFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjogdW5zZXRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbWdcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiA0MDBweFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDAgYXV0b1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHNwZWNpYWxUZXh0cylcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jb250YWluZXJJbWFnZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOiB1bnNldFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGltZ1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDI1MHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8oZ2VuZXJhbClcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jb250YWluZXJJbWFnZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvcDogMTIuNXZ3XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmlnaHQ6IC0xMi41JVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGltZ1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDI1dndcclxuICAgICAgICAgICAgICAgIC5mb3JtN1xyXG4gICAgICAgICAgICAgICAgICAgIC5mb3JtYXRGb3JtXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDI1cHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgc3Bhbi53cGNmNy1mb3JtLWNvbnRyb2wtd3JhcC55b3VyLXBob25lXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBsYWJlbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gZm9udC1zaXplOiAxNXB4IWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gbGluZS1oZWlnaHQ6IDE1cHghaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxcHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6IDlweFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gY29sb3I6Izg1ODU4NSFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgICAgICBzZWxlY3RcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDIwMCFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgICAgICAvLyBpbnB1dFxyXG4gICAgICAgICAgICAgICAgICAgIC8vICAgICBwYWRkaW5nLXRvcDogMTIuNXB4XHJcbiAgICAgICAgICAgICAgICAgICAgLy8gICAgIHBhZGRpbmctYm90dG9tOiAxMi41cHhcclxuICAgICAgICAgICAgICAgICAgICBpbnB1dC53cGNmNy1mb3JtLWNvbnRyb2wud3BjZjctc3VibWl0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDAgMjBweCFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxOHB4IWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgIC5jdXN0b21GaWVsZFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDEyLjVweCAwIWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgIC5jdXN0b21GaWVsZC5yYWRpb1NlbGVjdFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBzcGFuLndwY2Y3LWZvcm0tY29udHJvbC53cGNmNy1yYWRpb1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgc3Bhbi53cGNmNy1saXN0LWl0ZW1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAmOm50aC1vZi10eXBlKDIpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNwYW4ud3BjZjctbGlzdC1pdGVtLWxhYmVsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJGNvbG9yT3JhbmdlXHJcbiAgICAgICAgICAgICAgICAgICAgc2VsZWN0W211bHRpcGxlXVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKGdlbmVyYWwpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDc1cHghaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocmVzdG8pXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDc1cHghaW1wb3J0YW50XHJcblxyXG4gICAgLmJhY2tncm91bmRQbGFuZXRzXHJcbiAgICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjogMCA1MHB4XHJcbiAgICAgICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdFxyXG4gICAgICAgIGJhY2tncm91bmQtc2l6ZTogMTAwJSBhdXRvXHJcbiAgICAgICAgb3BhY2l0eTogMVxyXG4gICAgICAgIHRyYW5zaXRpb246IGJhY2tncm91bmQgMC4zcywgYm9yZGVyLXJhZGl1cyAwLjNzLCBvcGFjaXR5IDAuM3NcclxuICAgICAgICBoZWlnaHQ6IDEwMCVcclxuICAgICAgICB3aWR0aDogMTAwJVxyXG4gICAgICAgIHRvcDogLTUlXHJcbiAgICAgICAgbGVmdDogMFxyXG4gICAgICAgIHJpZ2h0OiAwXHJcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlXHJcbiAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgICAgICAvLyBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAyLjUlIDIuNSVcclxuICAgICAgICAgICAgLy8gYmFja2dyb3VuZC1zaXplOiBpbml0aWFsXHJcbiAgICAgICAgICAgIHRvcDogMFxyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAwIDUwcHhcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1zaXplOiAxMDAlIGF1dG9cclxuICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IDAgNTBweFxyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IDEwMCUgYXV0b1xyXG4gICAgICAgICAgICB0b3A6IDBcclxuXHJcblxyXG5cclxuI2hvbWVCb290c3RyYXAgLmN1c3RvbVNlY3Rpb24uc2VjdGlvblBhcmVudC5ob21lU2VjdGlvbjFcclxuICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICBwYWRkaW5nOiA1MHB4IDBcclxuICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICBwYWRkaW5nOiA1MHB4IDBcclxuICAgIC5zZWN0aW9uLXJvd1xyXG4gICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgd2lkdGg6IDk1JVxyXG4gICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICAgICAgd2lkdGg6IDkwJVxyXG4gICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8oZ2VuZXJhbClcclxuICAgICAgICAgICAgd2lkdGg6IDEwMCUhaW1wb3J0YW50XHJcbiAgICAgICAgICAgIG1heC13aWR0aDogMTI0MHB4IWltcG9ydGFudFxyXG4gICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocmVzdG8pXHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlIWltcG9ydGFudFxyXG4gICAgICAgICAgICBtYXgtd2lkdGg6IDEyNDBweCFpbXBvcnRhbnRcclxuICAgIC5pbm5lclNlY3Rpb25FbGVtZW50LnNjdDFcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiAyNXB4XHJcbiAgICAgICAgLmNvbnRhaW5FbGVtZW50c1xyXG4gICAgICAgICAgICAucHJpbWFyeVRpdGxlLFxyXG4gICAgICAgICAgICBwLnByaW1hcnlUZXh0XHJcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXJcclxuXHJcbiAgICAuaW5uZXJTZWN0aW9uRWxlbWVudC5zY3QyXHJcbiAgICAgICAgLmNvbnRhaW5FbGVtZW50c1xyXG4gICAgICAgICAgICBwYWRkaW5nOiAxMHB4XHJcbiAgICAgICAgICAgIC5lbGVtZW50c1xyXG4gICAgICAgICAgICAgICAgLmNvbnRhaW5lckltYWdlXHJcbiAgICAgICAgICAgICAgICAgICAgaW1nXHJcblxyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDE2NXB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIC8vIGRpc3BsYXk6IG5vbmVcclxuICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwIGF1dG9cclxuICAgICAgICAgICAgICAgIC5zZWNvbmRhcnlUaXRsZVxyXG4gICAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlclxyXG4gICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgICAgICAgICAgICAgIC5jb250YWluZXJJbWFnZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxMHB4IWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBpbWdcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIGRpc3BsYXk6IG5vbmVcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMTI1cHghaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgICAgICAgICAgICAgLmNvbnRhaW5lckltYWdlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDEwcHghaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGltZ1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAxNzVweCFpbXBvcnRhbnRcclxuXHJcbiAgICAgICAgICAgICAgICAgICAgLy8gbGV0dGVyLXNwYWNpbmc6IC0xcHhcclxuXHJcblxyXG4jaG9tZUJvb3RzdHJhcCAuY3VzdG9tU2VjdGlvbi5zZWN0aW9uUGFyZW50LmhvbWVTZWN0aW9uMlxyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJGNvbG9yQmx1ZUxpZ2h0XHJcbiAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgcGFkZGluZzogNTBweCAwXHJcbiAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgcGFkZGluZzogNTBweCAwXHJcbiAgICAuc2VjdGlvbi1yb3dcclxuICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgICAgIHdpZHRoOiA5OCVcclxuICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgICAgIHdpZHRoOiA5OCVcclxuICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKGdlbmVyYWwpXHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlIWltcG9ydGFudFxyXG4gICAgICAgICAgICBtYXgtd2lkdGg6IDExNDBweCFpbXBvcnRhbnRcclxuICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHJlc3RvKVxyXG4gICAgICAgICAgICB3aWR0aDogMTAwJSFpbXBvcnRhbnRcclxuICAgICAgICAgICAgbWF4LXdpZHRoOiAxMjUwcHghaW1wb3J0YW50XHJcbiAgICAuaW5uZXJTZWN0aW9uRWxlbWVudC5zY3QxXHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogNTBweFxyXG4gICAgICAgIC5jb250YWluRWxlbWVudHNcclxuICAgICAgICAgICAgLnByaW1hcnlUaXRsZSxcclxuICAgICAgICAgICAgcC5wcmltYXJ5VGV4dFxyXG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyXHJcblxyXG4gICAgLmlubmVyU2VjdGlvbkVsZW1lbnQuc2N0MlxyXG4gICAgICAgIC5ncm91cEVsZW1lbnRzXHJcbiAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgIHdpZHRoOiA5MCUhaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tbGVmdDogYXV0b1xyXG4gICAgICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiBhdXRvXHJcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4XHJcbiAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlclxyXG4gICAgICAgICAgICAgICAgYWxpZ24tY29udGVudDogY2VudGVyXHJcblxyXG4gICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgICAgICAgICB3aWR0aDogMTAwJSFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiBhdXRvXHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tcmlnaHQ6IGF1dG9cclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXhcclxuICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyXHJcbiAgICAgICAgICAgICAgICBhbGlnbi1jb250ZW50OiBjZW50ZXJcclxuXHJcbiAgICAgICAgICAgIC5pbmZvR3JvdXBcclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXhcclxuICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3dcclxuICAgICAgICAgICAgICAgIC5jb250YWluZXJJbWFnZVxyXG4gICAgICAgICAgICAgICAgICAgIGltZ1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDE3NXB4IWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogMTY1cHghaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAuY29udGFpbmVyRWxlbWVudHNcclxuICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAxMHB4XHJcbiAgICAgICAgICAgICAgICAgICAgLnNlY29uZGFyeVRpdGxlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDEwcHhcclxuXHJcbiAgICAgICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhnZW5lcmFsKVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDE0MHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjogYXV0byAwXHJcbiAgICAgICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhyZXN0bylcclxuICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAxNDBweFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46IGF1dG8gMFxyXG4gICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW5cclxuICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAzMHB4XHJcbiAgICAgICAgICAgICAgICAgICAgLmNvbnRhaW5lckltYWdlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXhcclxuICAgICAgICAgICAgICAgICAgICAgICAgaW1nXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDAgYXV0b1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IGF1dG8haW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDEyNXB4IWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgIC5jb250YWluZXJFbGVtZW50c1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW5cclxuICAgICAgICAgICAgICAgICAgICAgICAgKlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGFcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiBhdXRvXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tcmlnaHQ6IGF1dG9cclxuICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uXHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMzBweFxyXG4gICAgICAgICAgICAgICAgICAgIC5jb250YWluZXJJbWFnZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGltZ1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwIGF1dG9cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiBhdXRvIWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAxNjVweCFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgICAgICAuY29udGFpbmVyRWxlbWVudHNcclxuICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogZmxleFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlclxyXG4gICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICpcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlclxyXG4gICAgICAgICAgICAgICAgICAgICAgICBhXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tbGVmdDogYXV0b1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiBhdXRvXHJcblxyXG5cclxuXHJcbiNob21lQm9vdHN0cmFwIC5jdXN0b21TZWN0aW9uLnNlY3Rpb25QYXJlbnQuaG9tZVNlY3Rpb24zXHJcbiAgICBwYWRkaW5nLWJvdHRvbTogNjBweFxyXG4gICAgQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDI1cHhcclxuICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiAyNXB4XHJcbiAgICAuYmFja2dyb3VuZEZ1bGwuc2N0MVxyXG4gICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlclxyXG4gICAgICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXJcclxuICAgICAgICBoZWlnaHQ6IDMwMHB4XHJcbiAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlXHJcbiAgICAgICAgZGlzcGxheTogZmxleFxyXG4gICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgaGVpZ2h0OiAyMjVweCFpbXBvcnRhbnRcclxuICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgICAgIGhlaWdodDogMjUwcHghaW1wb3J0YW50XHJcbiAgICAgICAgLmltYWdlQmFja2dyb3VuZFxyXG4gICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGVcclxuICAgICAgICAgICAgbGVmdDogLTEwJVxyXG4gICAgICAgICAgICByaWdodDogMFxyXG4gICAgICAgICAgICBib3R0b206IDBcclxuICAgICAgICAgICAgdG9wOiAyMiVcclxuICAgICAgICAgICAgbWFyZ2luOiBhdXRvXHJcbiAgICAgICAgICAgIHdpZHRoOiA4MCVcclxuICAgICAgICAgICAgZGlzcGxheTogYmxvY2tcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1zaXplOiBjb250YWluXHJcbiAgICAgICAgICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXRcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyXHJcbiAgICAgICAgICAgIC8vIG1hcmdpbjogMFxyXG4gICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAwIDEwMCUhaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICB0b3A6IDBcclxuICAgICAgICAgICAgICAgIGxlZnQ6IDBcclxuICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjogMCAxMDAlIWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgdG9wOiAwXHJcbiAgICAgICAgICAgICAgICBsZWZ0OiAwXHJcbiAgICAgICAgLnNlY3Rpb24tcm93XHJcbiAgICAgICAgICAgIG1hcmdpbjogYXV0b1xyXG4gICAgICAgICAgICBtYXJnaW4tYm90dG9tOiA1MHB4XHJcbiAgICAgICAgICAgIC5jb250YWluRWxlbWVudHNcclxuICAgICAgICAgICAgICAgIC5wcmltYXJ5VGl0bGVcclxuICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyNXB4XHJcbiAgICAgICAgICAgICAgICAgICAgY29sb3I6ICRjb2xvcldoaXRlXHJcbiAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDYwMFxyXG4gICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMzBweCFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDMwcHghaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICBhLnByaW1hcnlCdXR0b25cclxuICAgICAgICAgICAgICAgICAgICAvLyBtYXJnaW46IDAgYXV0b1xyXG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiBhdXRvXHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiBhdXRvXHJcbiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogYmxvY2tcclxuICAgICAgICAgICAgICAgICAgICB3aWR0aDogZml0LWNvbnRlbnRcclxuXHJcblxyXG4jaG9tZUJvb3RzdHJhcCAuY3VzdG9tU2VjdGlvbi5zZWN0aW9uUGFyZW50LmhvbWVTZWN0aW9uNFxyXG4gICAgLnNlY3Rpb24tcm93XHJcbiAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgICAgICB3aWR0aDogOTUlXHJcbiAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgICAgICB3aWR0aDogOTAlXHJcbiAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhnZW5lcmFsKVxyXG4gICAgICAgICAgICB3aWR0aDogMTAwJSFpbXBvcnRhbnRcclxuICAgICAgICAgICAgbWF4LXdpZHRoOiAxMTc1cHghaW1wb3J0YW50XHJcbiAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhyZXN0bylcclxuICAgICAgICAgICAgd2lkdGg6IDEwMCUhaW1wb3J0YW50XHJcbiAgICAgICAgICAgIG1heC13aWR0aDogMTQwMHB4IWltcG9ydGFudFxyXG4gICAgLmlubmVyU2VjdGlvbkVsZW1lbnQuc2N0MVxyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDUwcHhcclxuICAgICAgICAuY29udGFpbkVsZW1lbnRzXHJcbiAgICAgICAgICAgIC5wcmltYXJ5VGl0bGVcclxuICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlclxyXG4gICAgLmlubmVyU2VjdGlvbkVsZW1lbnQuc2N0MlxyXG4gICAgICAgIGRpc3BsYXk6IGZsZXhcclxuICAgICAgICAuZ3JvdXBFbGVtZW50c1xyXG4gICAgICAgICAgICB3aWR0aDogODAlXHJcbiAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvXHJcbiAgICAgICAgICAgIG1hcmdpbi1yaWdodDogNy41JVxyXG4gICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgICAgICAgICBtYXJnaW46IDAgYXV0b1xyXG4gICAgICAgICAgICAgICAgZGlzcGxheTogZmxleFxyXG4gICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtblxyXG4gICAgICAgICAgICAgICAgd2lkdGg6IGZpdC1jb250ZW50XHJcbiAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvXHJcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4XHJcbiAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uXHJcbiAgICAgICAgICAgICAgICB3aWR0aDogZml0LWNvbnRlbnRcclxuICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhnZW5lcmFsKVxyXG4gICAgICAgICAgICAgICAgd2lkdGg6IDkwJVxyXG4gICAgICAgICAgICAgICAgZGlzcGxheTogZ3JpZCAhaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCg4LCAxZnIpXHJcbiAgICAgICAgICAgICAgICBncmlkLWdhcDogMFxyXG4gICAgICAgICAgICAgICAgZ3JpZC1hdXRvLXJvd3M6IDc1cHhcclxuICAgICAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtYXJlYXM6IFwiYSBhIGEgYSAuIC4gLiAuXCIgXCJhIGEgYSBhIGIgYiBiIGJcIiBcIi4gLiAuIC4gYiBiIGIgYlwiIFwiYyBjIGMgYyAuIC4gLiAuXCIgXCJjIGMgYyBjIGQgZCBkIGRcIiBcIi4gLiAuIC4gZCBkIGQgZFwiIFwiZSBlIGUgZSBkIGQgZCBkXCIgXCJlIGUgZSBlIC4gLiAuIC5cIlxyXG5cclxuICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhyZXN0bylcclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGdyaWQgIWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoOCwgMWZyKVxyXG4gICAgICAgICAgICAgICAgZ3JpZC1nYXA6IDBcclxuICAgICAgICAgICAgICAgIGdyaWQtYXV0by1yb3dzOiA3NXB4XHJcbiAgICAgICAgICAgICAgICBncmlkLXRlbXBsYXRlLWFyZWFzOiBcImEgYSBhIGEgLiAuIC4gLlwiIFwiYSBhIGEgYSBiIGIgYiBiXCIgXCIuIC4gLiAuIGIgYiBiIGJcIiBcImMgYyBjIGMgLiAuIC4gLlwiIFwiYyBjIGMgYyBkIGQgZCBkXCIgXCIuIC4gLiAuIGQgZCBkIGRcIiBcImUgZSBlIGUgZCBkIGQgZFwiIFwiZSBlIGUgZSAuIC4gLiAuXCJcclxuXHJcbiAgICAgICAgICAgIC5pbmZvR3JvdXBcclxuICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8oZ2VuZXJhbClcclxuICAgICAgICAgICAgICAgICAgICAmOm50aC1vZi10eXBlKDEpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGdyaWQtYXJlYTogYVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAmOm50aC1vZi10eXBlKDIpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGdyaWQtYXJlYTogYlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAmOm50aC1vZi10eXBlKDMpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGdyaWQtYXJlYTogY1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAmOm50aC1vZi10eXBlKDQpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGdyaWQtYXJlYTogZFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAmOm50aC1vZi10eXBlKDUpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGdyaWQtYXJlYTogZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1zZWxmOiBjZW50ZXJcclxuXHJcblxyXG4gICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhyZXN0bylcclxuICAgICAgICAgICAgICAgICAgICAmOm50aC1vZi10eXBlKDEpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGdyaWQtYXJlYTogYVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAmOm50aC1vZi10eXBlKDIpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGdyaWQtYXJlYTogYlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAmOm50aC1vZi10eXBlKDMpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGdyaWQtYXJlYTogY1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAmOm50aC1vZi10eXBlKDQpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGdyaWQtYXJlYTogZFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAmOm50aC1vZi10eXBlKDUpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGdyaWQtYXJlYTogZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1zZWxmOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1zZWxmOiBjZW50ZXJcclxuXHJcblxyXG4gICAgICAgICAgICAuaW5mb0dyb3VwXHJcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4XHJcbiAgICAgICAgICAgICAgICAvLyBtYXJnaW46IDAgYXV0b1xyXG4gICAgICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBmbGV4LXN0YXJ0XHJcbiAgICAgICAgICAgICAgICBhbGlnbi1jb250ZW50OiBmbGV4LXN0YXJ0XHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAwXHJcbiAgICAgICAgICAgICAgICB3aWR0aDogMTAwJVxyXG4gICAgICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlXHJcbiAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMjVweFxyXG4gICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3chaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgLy8gZGlzcGxheTogYmxvY2tcclxuICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyNXB4XHJcblxyXG5cclxuXHJcbiAgICAgICAgICAgICAgICAuY29udGFpbmVySW1hZ2VcclxuICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAwIWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgIC8vIHdpZHRoOiAyNTBweFxyXG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMFxyXG4gICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZVxyXG4gICAgICAgICAgICAgICAgICAgIHRvcDogMFxyXG4gICAgICAgICAgICAgICAgICAgIGJvdHRvbTogMFxyXG4gICAgICAgICAgICAgICAgICAgIGxlZnQ6IDBcclxuICAgICAgICAgICAgICAgICAgICAvLyByaWdodDogMFxyXG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbjogYXV0b1xyXG4gICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXhcclxuICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlclxyXG4gICAgICAgICAgICAgICAgICAgIGFsaWduLWNvbnRlbnQ6IGNlbnRlclxyXG4gICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246IHVuc2V0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxMHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1yaWdodDogMjVweFxyXG4gICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246IHVuc2V0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxMHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1yaWdodDogNTBweFxyXG4gICAgICAgICAgICAgICAgICAgIGltZ1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDEyNXB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIC8vIHdpZHRoOiAxMDBweFxyXG4gICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogYXV0b1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46IGF1dG8haW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8oZ2VuZXJhbClcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMTEwcHhcclxuXHJcblxyXG4gICAgICAgICAgICAgICAgLmNvbnRhaW5lckVsZW1lbnRzXHJcbiAgICAgICAgICAgICAgICAgICAgcGFkZGluZy1sZWZ0OiAyMi41JVxyXG4gICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogMFxyXG4gICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogMFxyXG4gICAgICAgICAgICAgICAgaDMuc2Vjb25kYXJ5VGl0bGUuYmxhY2tDb2xvclxyXG4gICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6IE51bml0b1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWxcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGRcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxN3B4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAyMHB4XHJcblxyXG4gICAgICAgICAgICAgICAgLnByaW1hcnlUZXh0XHJcbiAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlXHJcbiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogYmxvY2tcclxuICAgICAgICAgICAgICAgICAgICBwYWRkaW5nLWxlZnQ6IDEyLjVweFxyXG4gICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6IE51bml0b1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWxcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDEycHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDE0cHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZy1sZWZ0OiAwXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHNwYW5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBOdW5pdG9cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMTJweFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDE2cHhcclxuXHJcblxyXG4gICAgICAgICAgICAgICAgICAgICY6OmJlZm9yZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50OiAnJ1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBib3JkZXItbGVmdDogMXB4IHNvbGlkICRjb2xvckdyZWVuQmx1ZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBsZWZ0OiAwXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHRvcDogNXB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGJvdHRvbTogMFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDg1JVxyXG4gICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogMXB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjogYXV0byAwXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZVxyXG4gICAgICAgICAgICAgICAgICAgIHNwYW5cclxuICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHRvcDogNXB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjogNXB4IDBcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxNHB4XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZy1ib3R0b206IDEyLjVweFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxMi41cHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgJjo6YmVmb3JlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBub25lXHJcblxyXG4gICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW5cclxuICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAzMHB4XHJcbiAgICAgICAgICAgICAgICAgICAgLmNvbnRhaW5lckltYWdlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXhcclxuICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiAyMHB4IWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBpbWdcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMTAwcHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjogYXV0byFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgICAgICAuY29udGFpbmVyRWxlbWVudHNcclxuICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogZmxleFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlclxyXG4gICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICpcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGxlZnRcclxuICAgICAgICAgICAgICAgICAgICAgICAgYVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWxlZnQ6IGF1dG9cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1yaWdodDogYXV0b1xyXG4gICAgICAgICAgICAuaW5mb0dyb3VwLmZ1bGxcclxuICAgICAgICAgICAgICAgIHdpZHRoOiA4MCVcclxuICAgICAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvXHJcbiAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDEwMCVcclxuXHJcbiAgICAgICAgICAgICAgICAvLyBkaXNwbGF5OiBibG9ja1xyXG5cclxuI2hvbWVCb290c3RyYXAgLmN1c3RvbVNlY3Rpb24uc2VjdGlvblBhcmVudC5ob21lU2VjdGlvbjVcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICRjb2xvckJsdWVMaWdodFxyXG4gICAgcGFkZGluZy1ib3R0b206IDBcclxuICAgIHBhZGRpbmctdG9wOiAxNy41cHhcclxuICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICBwYWRkaW5nLXRvcDogNTBweFxyXG4gICAgQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgIHBhZGRpbmctdG9wOiA1MHB4XHJcbiAgICAuaW5uZXJTZWN0aW9uRWxlbWVudC5zY3QxXHJcbiAgICAgICAgLmdyb3VwRWxlbWVudHNcclxuICAgICAgICAgICAgLmluZm9cclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXhcclxuICAgICAgICAgICAgICAgIC5jb250YWluRWxlbWVudHNcclxuICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IGZpdC1jb250ZW50XHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiBhdXRvXHJcbiAgICAgICAgICAgICAgICAgICAgLnByaW1hcnlUaXRsZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyNXB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGxlZnRcclxuICAgICAgICAgICAgICAgICAgICBwLnByaW1hcnlUZXh0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDI1cHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogbGVmdFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAvLyBmb250LXNpemU6IDE4cFxyXG4gICAgICAgICAgICAgICAgICAgIC8vIGEucHJpbWFyeUJ1dHRvblxyXG4gICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogZmxleFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDUwcHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgLnByaW1hcnlUaXRsZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyNXB4IWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBwLnByaW1hcnlUZXh0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDI1cHghaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGEucHJpbWFyeUJ1dHRvblxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwIGF1dG9cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW5cclxuICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogNTBweFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAucHJpbWFyeVRpdGxlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAgcC5wcmltYXJ5VGV4dFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGEucHJpbWFyeUJ1dHRvblxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwIGF1dG9cclxuXHJcblxyXG4gICAgICAgICAgICAuaW1hZ2VcclxuICAgICAgICAgICAgICAgIC5jb250YWluZXJJbWFnZVxyXG4gICAgICAgICAgICAgICAgICAgIHBhZGRpbmctYm90dG9tOiAwXHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMFxyXG4gICAgICAgICAgICAgICAgICAgIGltZ1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDUwMHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OiBhdXRvIWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAvLyBtYXJnaW4tcmlnaHQ6XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1yaWdodDogMFxyXG4gICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMCFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogZmxleFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBpbWdcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDMxNXB4IWltcG9ydGFudFxyXG5cclxuICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDAhaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXhcclxuICAgICAgICAgICAgICAgICAgICAgICAgaW1nXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDAgYXV0b1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiA0MzBweCFpbXBvcnRhbnRcclxuXHJcblxyXG5cclxuXHJcblxyXG4jaG9tZUJvb3RzdHJhcCAuY3VzdG9tU2VjdGlvbi5zZWN0aW9uUGFyZW50LmhvbWVTZWN0aW9uNlxyXG4gICAgcGFkZGluZy10b3A6IDc1cHhcclxuICAgIHBhZGRpbmctYm90dG9tOiA1MHB4XHJcbiAgICAuc2VjdGlvbi1yb3dcclxuICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgICAgIHdpZHRoOiA5MCVcclxuICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgICAgIHdpZHRoOiA3NSVcclxuICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKGdlbmVyYWwpXHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlIWltcG9ydGFudFxyXG4gICAgICAgICAgICBtYXgtd2lkdGg6IDEyMDBweCFpbXBvcnRhbnRcclxuICAgICAgICAvLyBAaW5jbHVkZSByZXNwb25zaXZvKHJlc3RvKVxyXG4gICAgICAgICAgICAvLyB3aWR0aDogMTAwJSFpbXBvcnRhbnRcclxuICAgICAgICAgICAgLy8gbWF4LXdpZHRoOiAxMjc1cHghaW1wb3J0YW50XHJcblxyXG4gICAgLmlubmVyU2VjdGlvbkVsZW1lbnQuc2N0MVxyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDUwcHhcclxuICAgICAgICAuY29udGFpbkVsZW1lbnRzXHJcbiAgICAgICAgICAgIC5wcmltYXJ5VGl0bGVcclxuICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlclxyXG4gICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMzBweFxyXG4gICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMzBweFxyXG4gICAgLmlubmVyU2VjdGlvbkVsZW1lbnQuc2N0MlxyXG5cclxuICAgICAgICAuZ3JvdXBFbGVtZW50cy5yb3dcclxuICAgICAgICAgICAgZGlzcGxheTogZmxleFxyXG4gICAgICAgICAgICBmbGV4LWZsb3c6IHJvdyB3cmFwXHJcbiAgICAgICAgICAgIGhlaWdodDogMTAwJVxyXG4gICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlclxyXG4gICAgICAgICAgICBtYXJnaW4tYm90dG9tOiA1MHB4XHJcbiAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDBcclxuICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMFxyXG4gICAgICAgICAgICAmOjpiZWZvcmVcclxuICAgICAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrXHJcblxyXG4gICAgICAgICAgICAudGVzdGltb25pYWxcclxuICAgICAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3hcclxuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDAgMjVweFxyXG5cclxuXHJcbiAgICAgICAgICAgICAgICAuY29udGFpbkVsZW1lbnRzLm1vYmlsZUVsZW1lbnRcclxuICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmctYm90dG9tOiAxNXB4XHJcbiAgICAgICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogMTVweFxyXG4gICAgICAgICAgICAgICAgLmNvbnRhaW5FbGVtZW50c1xyXG4gICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICRjb2xvckdyZXlMaWdodFxyXG4gICAgICAgICAgICAgICAgICAgIGhlaWdodDogMTAwJVxyXG4gICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDQwcHggMjVweFxyXG4gICAgICAgICAgICAgICAgICAgIC8vIGhlaWdodDogNTI1cHhcclxuICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4XHJcbiAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtblxyXG4gICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlblxyXG4gICAgICAgICAgICAgICAgICAgIC8vIG1hcmdpbjogMzBweFxyXG4gICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZy1ib3R0b206IDBcclxuXHJcbiAgICAgICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogMFxyXG5cclxuICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKGdlbmVyYWwpXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmctYm90dG9tOiAxMHB4IWltcG9ydGFudFxyXG5cclxuICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHJlc3RvKVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nLWJvdHRvbTogMTBweCFpbXBvcnRhbnRcclxuXHJcblxyXG5cclxuICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHJlc3RvKVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiA0MHB4XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIC5zZWNvbmRhcnlUaXRsZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDIycHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseTogTnVuaXRvXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDE2cHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxNnB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyXHJcbiAgICAgICAgICAgICAgICAgICAgc3Bhbi50YWdcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6IE51bml0b1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXN0eWxlOiBub3JtYWxcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGRcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxNHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxOXB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDE2cHhcclxuICAgICAgICAgICAgICAgICAgICBwXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBOdW5pdG9cclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiAzMDBcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxNHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxOXB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBOdW5pdG9cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IG5vcm1hbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxMnB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogMTRweFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyXHJcblxyXG4gICAgICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcblxyXG5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgLnJlZmVyRWxlbWVudHNcclxuICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogZmxleFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW5cclxuICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogMjVweCAwXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmctdG9wOiAwXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmctdG9wOiAwXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIC5jb250YWluZXJJbWFnZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbWdcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IGF1dG9cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXgtaGVpZ2h0OiA3NXB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4LXdpZHRoOiAxMjVweFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiBhdXRvXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIC5pbmZvXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtZW5kXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1pdGVtczogZmxleC1lbmRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFsaWduLWNvbnRlbnQ6IGZsZXgtZW5kXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAudGVydGlhcnlUaXRsZSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jb21tb25UZXh0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6IE51bml0b1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxNHB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDE5cHhcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiByaWdodFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNvbW1vblRleHRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogMzAwXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMFxyXG4gICAgICAgICAgICAgICAgICAgIC5jb21tb25UZXh0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxOXB4XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlclxyXG4gICAgICAgICAgICAgICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXJcclxuICAgICAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAyMHB4IWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgIGhlaWdodDogZml0LWNvbnRlbnQhaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgLmNvbW1vblRpdGxlLFxyXG4gICAgICAgICAgICAgICAgICAgIHNwYW4udGFnXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlclxyXG4gICAgICAgICAgICAgICAgICAgIC5jb250YWluRWxlbWVudHNcclxuICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiBhdXRvIWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBwXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyNXB4IWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAucmVmZXJFbGVtZW50c1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbiFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jb250YWluZXJJbWFnZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDE1cHghaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwLGgzXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyIWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlIWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDIwcHghaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiBmaXQtY29udGVudCFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgICAgICAuY29tbW9uVGl0bGUsXHJcbiAgICAgICAgICAgICAgICAgICAgc3Bhbi50YWdcclxuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyXHJcbiAgICAgICAgICAgICAgICAgICAgLmNvbnRhaW5FbGVtZW50c1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IGF1dG8haW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHBcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDI1cHghaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIC5yZWZlckVsZW1lbnRzXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uIWltcG9ydGFudFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNvbnRhaW5lckltYWdlXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMTVweCFpbXBvcnRhbnRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHAsaDNcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXIhaW1wb3J0YW50XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDEwMCUhaW1wb3J0YW50XHJcbiAgICAgICAgLy8gbWFyZ2luOiA1MHB4IDBcclxuXHJcblxyXG5cclxuI2hvbWVCb290c3RyYXAgLmN1c3RvbVNlY3Rpb24uc2VjdGlvblBhcmVudC5ob21lU2VjdGlvbjdcclxuXHJcbiAgICAvLyBkaXNwbGF5OiBub25lXHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZVxyXG4gICAgLnNlY3Rpb24tcm93XHJcbiAgICAgICAgLy8gcGFkZGluZy10b3A6IDYwcHhcclxuICAgICAgICBwYWRkaW5nLWJvdHRvbTogNTBweFxyXG4gICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgd2lkdGg6IDk1JVxyXG4gICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICAgICAgd2lkdGg6IDkwJVxyXG4gICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8oZ2VuZXJhbClcclxuICAgICAgICAgICAgd2lkdGg6IDEwMCUhaW1wb3J0YW50XHJcbiAgICAgICAgICAgIG1heC13aWR0aDogMTAwMHB4IWltcG9ydGFudFxyXG4gICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocmVzdG8pXHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlIWltcG9ydGFudFxyXG4gICAgICAgICAgICBtYXgtd2lkdGg6IDExMDBweCFpbXBvcnRhbnRcclxuICAgIC5pbm5lclNlY3Rpb25FbGVtZW50LnNjdDFcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiA2MHB4XHJcbiAgICAgICAgLmNvbnRhaW5FbGVtZW50c1xyXG4gICAgICAgICAgICAucHJpbWFyeVRpdGxlXHJcbiAgICAgICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAwXHJcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXJcclxuICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDYwcHhcclxuICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDYwcHhcclxuICAgIHVsXHJcbiAgICAgICAgbGlzdC1zdHlsZTogbm9uZVxyXG5cclxuICAgIC5pbm5lclNlY3Rpb25FbGVtZW50LnNjdDJcclxuICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmVcclxuICAgICAgICB6LWluZGV4OiAxXHJcbiAgICAgICAgZGl2I2FjY29yZGlvblBhbmVsc0ZBUVxyXG4gICAgICAgICAgICB6LWluZGV4OiAxMFxyXG4gICAgICAgIC5vdmVybGF5MVxyXG4gICAgICAgICAgICBtYXJnaW46IGF1dG8gMFxyXG4gICAgICAgICAgICB0b3A6IDBcclxuICAgICAgICAgICAgbGVmdDogLTc1cHhcclxuICAgICAgICAgICAgYm90dG9tOiAwXHJcbiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZVxyXG4gICAgICAgICAgICBkaXNwbGF5OiBibG9ja1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDQwMHB4XHJcbiAgICAgICAgICAgIHdpZHRoOiBhdXRvXHJcbiAgICAgICAgICAgIHotaW5kZXg6IC0xXHJcbiAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8odGVsZWZvbm9UYWJsZSlcclxuICAgICAgICAgICAgICAgIGhlaWdodDogMjUwcHhcclxuICAgICAgICAgICAgICAgIGxlZnQ6IC0xMHB4XHJcbiAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICAgICAgICAgIGhlaWdodDogMjUwcHhcclxuICAgICAgICAgICAgICAgIGxlZnQ6IC0xMHB4XHJcbiAgICAgICAgLm92ZXJsYXkyXHJcbiAgICAgICAgICAgIG1hcmdpbjogYXV0byAwXHJcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDBcclxuICAgICAgICAgICAgcmlnaHQ6IC03NXB4XHJcbiAgICAgICAgICAgIHRvcDogMFxyXG4gICAgICAgICAgICBib3R0b206IDBcclxuICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlXHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrXHJcbiAgICAgICAgICAgIGhlaWdodDogNDAwcHhcclxuICAgICAgICAgICAgd2lkdGg6IGF1dG9cclxuICAgICAgICAgICAgei1pbmRleDogLTFcclxuICAgICAgICAgICAgdHJhbnNmb3JtOiByb3RhdGUoMTgwZGVnKVxyXG4gICAgICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgICAgICAgICBoZWlnaHQ6IDI1MHB4XHJcbiAgICAgICAgICAgICAgICByaWdodDogLTEwcHhcclxuICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgICAgICAgICAgaGVpZ2h0OiAyNTBweFxyXG4gICAgICAgICAgICAgICAgcmlnaHQ6IC0xMHB4XHJcblxyXG4gICAgICAgIC5vdmVybGF5M1xyXG4gICAgICAgICAgICBtYXJnaW46IGF1dG8gMFxyXG4gICAgICAgICAgICBtYXJnaW4tdG9wOiA1JVxyXG4gICAgICAgICAgICByaWdodDogLTc1cHhcclxuICAgICAgICAgICAgLy8gdG9wOiAwXHJcbiAgICAgICAgICAgIGJvdHRvbTogMFxyXG4gICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGVcclxuICAgICAgICAgICAgaGVpZ2h0OiA0MDBweFxyXG4gICAgICAgICAgICB3aWR0aDogYXV0b1xyXG4gICAgICAgICAgICB6LWluZGV4OiAtMVxyXG4gICAgICAgICAgICB0cmFuc2Zvcm06IHJvdGF0ZSgxODBkZWcpXHJcbiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmVcclxuICAgICAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgICAgICAgICAgaGVpZ2h0OiAyNTBweFxyXG4gICAgICAgICAgICAgICAgcmlnaHQ6IC0xMHB4XHJcbiAgICAgICAgICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICAgICAgICAgIGhlaWdodDogMjUwcHhcclxuICAgICAgICAgICAgICAgIHJpZ2h0OiAtMTBweFxyXG5cclxuXHJcblxyXG5cclxuI2hvbWVCb290c3RyYXAgLmN1c3RvbVNlY3Rpb24uc2VjdGlvblBhcmVudC5ob21lU2VjdGlvbjhcclxuICAgIHBhZGRpbmc6IDI1cHggMCA3NXB4IWltcG9ydGFudFxyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGVcclxuICAgIC5zZWN0aW9uLXJvd1xyXG4gICAgICAgIC5jb250YWluRWxlbWVudHNcclxuICAgICAgICAgICAgZGlzcGxheTogZmxleFxyXG4gICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uXHJcbiAgICAgICAgICAgIC5wcmltYXJ5VGl0bGVcclxuICAgICAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDI1cHhcclxuICAgICAgICAgICAgLnByaW1hcnlCdXR0b25cclxuICAgICAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvXHJcblxyXG5cclxuXHJcbmJvZHkudGVtcGxhdGUtb3Blbi13ZWJpbmFyLWVzY2FsYS1tZWV0aW5nIGhlYWRlciAuZWxlbWVudG9yLWNvbnRhaW5lci5lbGVtZW50b3ItY29sdW1uLWdhcC1kZWZhdWx0XHJcbiAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgd2lkdGg6IDEwMCVcclxuICAgIEBpbmNsdWRlIHJlc3BvbnNpdm8ocGNNZWRpbylcclxuICAgICAgICB3aWR0aDogMTAwJVxyXG5cclxuXHJcblxyXG4jd2ViaW5hck1lZXRpbmctQm9vdHN0cmFwXHJcbiAgICBwYWRkaW5nOiAxNzVweCAwXHJcbiAgICBwYWRkaW5nLWJvdHRvbTogMTUwcHhcclxuXHJcbiAgICBAaW5jbHVkZSByZXNwb25zaXZvKHRlbGVmb25vVGFibGUpXHJcbiAgICAgICAgcGFkZGluZy1ib3R0b206IDEwMHB4XHJcbiAgICAgICAgcGFkZGluZy10b3A6IDEwMHB4XHJcbiAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgcGFkZGluZy1ib3R0b206IDEwMHB4XHJcbiAgICAgICAgcGFkZGluZy10b3A6IDE1MHB4XHJcbiAgICAuYmFja2dyb3VuZFBsYW5ldHNcclxuICAgICAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiA1MHB4IDE4MHB4XHJcbiAgICAgICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdFxyXG4gICAgICAgIGJhY2tncm91bmQtc2l6ZTogMTAwJSBhdXRvXHJcbiAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgICAgICB0b3A6IDBcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjogOHB4IDEwMHB4XHJcbiAgICAgICAgICAgIGJhY2tncm91bmQtc2l6ZTogMTAwJSBhdXRvXHJcbiAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byhwY01lZGlvKVxyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiA4cHggMTUwcHhcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1zaXplOiAxMDAlIGF1dG9cclxuICAgICAgICAgICAgdG9wOiAwXHJcblxyXG5cclxuXHJcblxyXG4uc2hvd01vcmVcclxuICAgIG1hcmdpbjogMzBweCAwIWltcG9ydGFudFxyXG4gICAgLmNvbnRhaW5FbGVtZW50c1xyXG4gICAgICAgIGRpc3BsYXk6IGZsZXhcclxuICAgICAgICBhXHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrXHJcbiAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvXHJcbiAgICAgICAgICAgIGNvbG9yOiB3aGl0ZVxyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjQzRDNEM0XHJcbiAgICAgICAgICAgIHBhZGRpbmctbGVmdDogNTBweCFpbXBvcnRhbnRcclxuICAgICAgICAgICAgcGFkZGluZy1yaWdodDogNTBweCFpbXBvcnRhbnRcclxuXHJcblxyXG5cclxuXHJcbiNzcGVjaWFsRm91bmRlclxyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlXHJcblxyXG4gICAgLnNwZWNpYWxUZXh0XHJcbiAgICAgICAgZGlzcGxheTogZmxleFxyXG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW5cclxuICAgICAgICBmb250LWZhbWlseTogTnVuaXRvXHJcbiAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsXHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGRcclxuICAgICAgICBmb250LXNpemU6IDE2cHhcclxuICAgICAgICBsaW5lLWhlaWdodDogMjBweFxyXG4gICAgICAgIHRleHQtYWxpZ246IHJpZ2h0XHJcbiAgICAgICAgbGV0dGVyLXNwYWNpbmc6IC0xcHhcclxuICAgICAgICBjb2xvcjogIzE1MEQyN1xyXG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZVxyXG4gICAgICAgIGxlZnQ6IC00MCVcclxuICAgICAgICBib3R0b206IDAlXHJcbiAgICAgICAgQGluY2x1ZGUgcmVzcG9uc2l2byh0ZWxlZm9ub1RhYmxlKVxyXG4gICAgICAgICAgICBwb3NpdGlvbjogdW5zZXRcclxuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyXHJcbiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDI1cHhcclxuICAgICAgICBAaW5jbHVkZSByZXNwb25zaXZvKHBjTWVkaW8pXHJcbiAgICAgICAgICAgIHBvc2l0aW9uOiB1bnNldFxyXG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXJcclxuXHJcbiIsIlxyXG5cclxuQGltcG9ydCB2YXJpYWJsZXNcclxuXHJcbi8vIHJlc3BvbnNpdm9cclxuJGRlc2RlVDogMzIwcHhcclxuJGhhc3RhVDogNzY3cHhcclxuXHJcbiRkZXNkZU06ICRoYXN0YVQgKyAxXHJcbiRoYXN0YU06IDk5MXB4XHJcblxyXG4kZGVzZGVHOiAkaGFzdGFNXHJcbiRoYXN0YUc6ICRkZXNkZUcgKyA1MDBcclxuXHJcbkBtaXhpbiByZXNwb25zaXZvKCRtZWRpYSlcclxuICAgIEBpZiAkbWVkaWEgPT0gdGVsZWZvbm9UYWJsZVxyXG4gICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogJGRlc2RlVCkgYW5kIChtYXgtd2lkdGg6ICRoYXN0YVQpXHJcbiAgICAgICAgICAgIEBjb250ZW50XHJcbiAgICBAZWxzZSBpZiAkbWVkaWEgPT0gcGNNZWRpb1xyXG4gICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogJGRlc2RlTSkgYW5kIChtYXgtd2lkdGg6ICRoYXN0YU0pXHJcbiAgICAgICAgICAgIEBjb250ZW50XHJcbiAgICBAZWxzZSBpZiAkbWVkaWEgPT0gZ2VuZXJhbFxyXG4gICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogJGRlc2RlRykgYW5kIChtYXgtd2lkdGg6ICRoYXN0YUcpXHJcbiAgICAgICAgICAgIEBjb250ZW50XHJcbiAgICBAZWxzZSBpZiAkbWVkaWEgPT0gcmVzdG9cclxuICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6ICRoYXN0YUcgKyAxKVxyXG4gICAgICAgICAgICBAY29udGVudFxyXG4gICAgQGVsc2UgaWYgJG1lZGlhID09IHNwZWNpYWxUZXh0c1xyXG4gICAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogOTAwcHgpIGFuZCAobWF4LXdpZHRoOiAxMTUwcHgpXHJcbiAgICAgICAgICAgIEBjb250ZW50XHJcblxyXG5cclxuXHJcblxyXG4vLyBEZWZpbmljacOzbiBkZSBjb2xvcmVzXHJcbiIsIlxyXG5cclxuLy8gJGNvbG9yUmVkOiAjI0YzNEYzNiwgMTAwwqAlXHJcbi8vIGNvbG9yZXMgIyNGRjY1NEVcclxuJGNvbG9yQmxhY2s6ICMxNDBDMjhcclxuJGNvbG9yQmxhY2syOiAjMTUwRDI3XHJcbiRjb2xvckJsYWNrMzogIzM2MzYzNlxyXG4kY29sb3JPcmFuZ2U6ICNGMzRGMzZcclxuJGNvbG9yT3JhbmdlMjogI0YyNjg1QVxyXG4kb3JhbmdlTGlnaHQ6ICNGRjY1NEVcclxuJGNvbG9yQmx1ZTogIzAwNTA2QlxyXG4kY29sb3JHcmVlbkJsdWU6ICMzNDc2OEFcclxuJGNvbG9yR3JlZW5CbHVlMjogIzZjOTI5ZlxyXG4kY29sb3JHcmVlbkJsdWUzOiAjMTI0NjU3XHJcbiRjb2xvckdyZWVuQmx1ZTQ6ICMzNjc2OEFcclxuJGNvbG9yQmx1ZUxpZ2h0OiAjRTZGMkY4XHJcbiRjb2xvckJsdWVMaWdodDI6ICNDN0U2RUFcclxuJGNvbG9yQmx1ZUxpZ2h0MzogI2IxZWNlZlxyXG4kY29sb3JCbHVlTGlnaHQ0OiAjYTBlMGUzXHJcbiRjb2xvckJsdWVMaWdodDU6ICNFRUY3RkZcclxuJGNvbG9yQmx1ZUxpZ2h0NjogI0VDRUNFQ1xyXG4kY29sb3JCbHVlTGlnaHQ3OiAjQzVFN0ZBXHJcbiRjb2xvckJsdWVMaWdodDg6ICNDNUU1RTlcclxuJGNvbG9yQmx1ZUxpZ2h0OTogIzk3QzdEMVxyXG4kY29sb3JCbHVlTGlnaHQxMDogI0RFRjNGNVxyXG4kY29sb3JHcmV5OiAjNjA2MjY3XHJcbiRjb2xvckdyZXlMaWdodDogI0ZBRkFGQVxyXG4kY29sb3JHcmV5TGlnaHQyOiAjRjdGQkZEXHJcbiRjb2xvckdyZXlMaWdodDM6ICNGQUZERkZcclxuJGNvbG9yR3JleUxpZ2h0MzogI0Y3RkJGRlxyXG4kY29sb3JHcmV5TGlnaHQ0OiAjRTFFMUUxXHJcbiRjb2xvckdyZXlMaWdodDU6ICNGOUY5RjlcclxuJGNvbG9yV2hpdGU6ICNmZmZcclxuJGNvbG9yRGFya0dyZXk6ICMzMzNcclxuJGNvbG9yRGFya0dyZXkyOiAjMzIyQzJGXHJcbiRjb2xvckRhcmtHcmV5MzogIzMyMkMyRVxyXG5cclxuXHJcblxyXG4kY29sb3JHcmV5MjogIzVCNUI1QlxyXG4kY29sb3JHcmV5MzogIzcwNkI2RFxyXG4kY29sb3JHcmV5NDogIzUwNTA1MFxyXG4kY29sb3JHcmV5NTogIzVDNUM1Q1xyXG4vLyBvdHJvc1xyXG5cclxuXHJcbiRmaWx0ZXJCbG9nOiAjMWYyMTIyYjBcclxuXHJcbiR0cmFuc2l0aW9uQnV0dG9uOiBhbGwgMC4zcyBlYXNlXHJcblxyXG4kdHJhbnM6IGFsbCAwLjJzIGVhc2UtaW4tb3V0XHJcblxyXG4iXX0= */
