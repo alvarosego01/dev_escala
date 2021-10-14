@@ -1125,7 +1125,7 @@ body.template-open-webinar-escala-meeting header .elementor-container.elementor-
         letter-spacing: -1px
         color: #150D27
         position: absolute
-        left: -40%
+        left: -200px
         bottom: 0%
         @include responsivo(telefonoTable)
             position: unset
@@ -1134,4 +1134,10 @@ body.template-open-webinar-escala-meeting header .elementor-container.elementor-
         @include responsivo(pcMedio)
             position: unset
             text-align: center
+        @include responsivo(specialTexts)
+            left: 100px!important
+            bottom: 5%
+        @include responsivo(general)
+            left: -200px
+
 
