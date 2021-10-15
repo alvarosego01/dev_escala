@@ -66,9 +66,17 @@
                           fácil de utilizar.
                       </p>
 
-                      <div class="containerImage">
+                      <div class="containerImage" id="specialFounder">
                           <img alt="Genera más leads, clientes y ventas con Escala"
                               src="{!! App::setFilePath('/assets/images/person/am/andres_moreno_otto1.png') !!}" alt="" loading="lazy">
+
+                          <p class="specialText">
+
+                            Andrés Moreno
+                            <span class="greenBlueColor">Fundador de Escala & Open English</span>
+
+                          </p>
+
                       </div>
 
 
