@@ -1,4 +1,8 @@
 
+{{--
+  Template Name: [B] Landing page - Whatsapp
+   --}}
+
 
 
 
