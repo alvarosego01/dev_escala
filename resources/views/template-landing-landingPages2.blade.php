@@ -18,6 +18,11 @@
     style="background-image: url({!! App::setFilePath('/assets/images/backgrounds/backgroundBlueDegrade2.jpg') !!})"
     class="specialHeader">
 
+
+    <img src="{!! App::setFilePath('/assets/images/illustrations/others/NAVE.png') !!}" class="overlayNave">
+
+
+
       @php
       $parameters = array(
        'backgroundImageType' => false,
@@ -79,7 +84,8 @@
       @endcontain_multiple_cards_T2
 
 
-      <div class="extraButton">
+
+      <section class="customSection sectionParent extraButton">
 
         <div class="section-row">
 
@@ -99,7 +105,8 @@
         </div>
 
 
-      </div>
+      </section>
+
 
 
     </div>

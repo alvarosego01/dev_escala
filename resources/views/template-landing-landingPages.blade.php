@@ -79,7 +79,7 @@
       @endcontain_multiple_cards_T2
 
 
-      <div class="extraButton">
+      <section class="customSection sectionParent extraButton">
 
         <div class="section-row">
 
@@ -99,7 +99,7 @@
         </div>
 
 
-      </div>
+      </section>
 
 
     </div>
