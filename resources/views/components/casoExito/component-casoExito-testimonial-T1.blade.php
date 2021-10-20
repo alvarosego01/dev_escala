@@ -90,7 +90,12 @@
                                     </p>
                                         <div class="clientLogo containerImage">
 
-                                            <img src="{{ Posts::getPhoto($item->ID) }}" alt="" loading="lazy">
+                                            @php
+                                            $i = ACF_CUSTOM::_getField('logoimg_caso_exito', $item->ID);
+                                            $i = $i['url'];
+                                        @endphp
+
+                                            <img src="{{ $i }}" alt="" loading="lazy">
 
                                         </div>
 
