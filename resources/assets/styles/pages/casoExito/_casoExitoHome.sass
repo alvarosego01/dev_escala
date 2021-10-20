@@ -7,7 +7,11 @@
             background: linear-gradient(180deg, #36768A 14.58%, #DEF3F5 93.75%, rgba(203, 236, 222, 0) 133.33%)
             mix-blend-mode: multiply
             position: relative
-            padding-bottom: 50px
+            padding-bottom: 75px
+            @include responsivo(general)
+                padding-bottom: 0
+            @include responsivo(resto)
+                padding-bottom: 0
 
             .overlayStars,
             .overlayBase
@@ -38,8 +42,12 @@
                         .info
                             .containElements
                                 position: relative
-                                padding-left: 25px
+                                // padding-left: 25px
                                 padding-top: 15px
+                                @include responsivo(general)
+                                    padding-left: 15%
+                                @include responsivo(resto)
+                                    padding-left: 15%
 
                                 h1.principalBigTitle.blackColor
                                     position: absolute
@@ -71,11 +79,15 @@
                                         // position: absolute
                                         // margin: 0 auto
                                         display: block
-                                        height: 675px
+                                        height: 500px
                                         @include responsivo(telefonoTable)
                                             height: 400px
                                         @include responsivo(pcMedio)
                                             height: 400px
+                                        @include responsivo(general)
+                                            margin-top: 50px
+                                        @include responsivo(resto)
+                                            margin-top: 35px
 
 
                         // .form7
