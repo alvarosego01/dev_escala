@@ -348,6 +348,12 @@ class ACF_CUSTOM extends Controller
                     'type' => 'textarea',
                 ),
                 array (
+                    'key' => 'logoimg_caso_exito',
+                    'label' => 'Logo mini image',
+                    'name' => 'Logo mini image',
+                    'type' => 'image',
+                ),
+                array (
                     'key' => 'personimg_caso_exito',
                     'label' => 'Person image',
                     'name' => 'Person image',
