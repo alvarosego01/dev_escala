@@ -43,12 +43,12 @@
                             margin: 0 auto
             .overlayNave
                 position: absolute
-                height: 175px
+                height: 125px
                 margin: 0 auto
                 display: block
                 right: 0
                 left: 100px
-                top: 50px
+                top: 75px
                 @include responsivo(telefonoTable)
                     left: unset
                     right: 50px
@@ -56,13 +56,23 @@
                 @include responsivo(pcMedio)
                     left: unset
                     right: 50px
+                @include responsivo(general)
+                    top: 50px
+
+
 
         .customSection.sectionParent.landingLandingPages0
-            padding-bottom: 150px
+            padding-bottom: 100px
             @include responsivo(telefonoTable)
                 padding-bottom: 50px
             @include responsivo(pcMedio)
                 padding-bottom: 50px
+            @include responsivo(general)
+                padding-top: 125px
+                padding-bottom: 60px
+            @include responsivo(resto)
+                padding-top: 125px
+                padding-bottom: 60px
             .section-row
                 section.innerSectionElement.sct1
                     .groupElements.row
@@ -114,7 +124,7 @@
                                         img
                                             position: absolute
                                             height: 400px
-                                            top: 150px
+                                            top: 100px
                                             right: 75px
                                             @include responsivo(telefonoTable)
                                                 position: unset
