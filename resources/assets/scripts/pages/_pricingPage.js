@@ -213,6 +213,15 @@ function typeCustomPay(type, e) {
 
 }
 
+function redondeaAlAlza(x,r) {
+    xx = Math.floor(x/r)
+    if (xx!=x/r) {xx++}
+    return (xx*r)
+}
+
+
+
+
 function percentOfRange(value, lowLimit, limit, type, completeLowLimit, completeLimit) {
 
     if (type == 'rangeToNumber') {
@@ -228,10 +237,17 @@ function percentOfRange(value, lowLimit, limit, type, completeLowLimit, complete
 
         var valToPerc = ((value - lowLimit) / (limit - lowLimit)) * 100;
 
-        // var PercTonumber = (valToPerc*completeLimit)/100;
+        console.log('que coño pone aqui valToPerc', valToPerc);
+
         var PercTonumber = (completeLimit - completeLowLimit) * (valToPerc / 100) + completeLowLimit;
 
+        console.log('que coño pone aqui PercTonumber', PercTonumber);
+
         PercTonumber = Math.trunc(PercTonumber);
+
+        PercTonumber = redondeaAlAlza(PercTonumber, -1000);
+
+        console.log('que coño pone aqui PercTonumber', PercTonumber);
 
         jQuery('#contactsField').val(PercTonumber);
 
@@ -251,10 +267,6 @@ function calculateRangeValue(data) {
 
     range = data._rangeContacts;
 
-
-    // 1.000 -25.000 -50.000 -75.000 -100.000
-    //
-        // return percentOfRange(range, 0, 100, 'rangeToNumber', 1000, 100000);
 
         if (range >= 0 && range <= 25) {
 
