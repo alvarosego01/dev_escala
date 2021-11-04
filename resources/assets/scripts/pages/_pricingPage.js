@@ -49,7 +49,7 @@ var escalaContactsStarter = [
     5,
     5,
     5,
-    5,
+    5
     // 3,
 ]
 
@@ -144,8 +144,6 @@ function convertUsers(data) {
     // _userAccess: "5"
 
     if (data._typePlan == 'starter') {
-
-
 
         if (data._userAccess > 1) {
 

@@ -1,9 +1,7 @@
 
 @php
 
-
 $index_page = ACF_CUSTOM::_getField('index_page');
-
 $redirect = ACF_CUSTOM::_getField('cf7_redirect');
 $redirect = strval($redirect);
 
@@ -47,6 +45,8 @@ type="text/css" media="all">
         @endif
     </div>
 </div>
+
+
 
 @php
 get_footer();

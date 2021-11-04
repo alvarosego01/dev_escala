@@ -412,10 +412,5 @@ function registerCustomMenu()
 add_action('init', registerCustomMenu() ); // Add HTML5 Blank Menu
 
 
-// MenuSettings::setBootstrapMenu();
 
 
-
-
-    // Vrmecanica2030*
-    // numero asignado -> 51-95******91
