@@ -163,3 +163,113 @@ function customPost_casosExito() {
     */
 
     add_action( 'init', 'customPost_casosExito');
+
+
+
+// -------------------------------------------------------------------------------- //
+
+
+//     add_action( 'admin_menu', 'misha_menu_page' );
+
+//     function misha_menu_page() {
+
+//         add_menu_page(
+//             'Navbars & footers', // page <title>Title</title>
+//             'Navbars & footers', // menu link text
+//             'manage_options', // capability to access the page
+//             'misha-slug', // page URL slug
+//             'misha_page_content', // callback function /w content
+//             'dashicons-star-half', // menu icon
+//             5 // priority
+//         );
+
+//     }
+//     function misha_page_content(){
+
+//         echo '<div class="wrap">
+//         <h1>Navbars & footers Settings</h1>
+//         <form method="post" action="options.php">';
+
+//         $templates = wp_get_theme()->get_page_templates();
+
+//         $args = array(
+//             'sort_order' => 'asc',
+//             'sort_column' => 'post_title',
+//             'hierarchical' => 1,
+//             'exclude' => '',
+//             'include' => '',
+//             'meta_key' => '',
+//             'meta_value' => '',
+//             'authors' => '',
+//             'child_of' => 0,
+//             'parent' => -1,
+//             'exclude_tree' => '',
+//             'number' => '',
+//             'offset' => 0,
+//             'post_type' => 'page',
+//             'post_status' => 'publish'
+//         );
+//         $pages = get_pages($args); // get all pages based on supplied args
+//         $paginas = array();
+
+//         foreach($pages as $page){ // $pages is array of object
+//             $l = array(
+//                 'ID' => $page->ID,
+//                 'post_title' => $page->post_title,
+//                 'navBar' =>
+//             );
+
+//             array_push($paginas, $l);
+//          }
+
+
+//             // settings_fields( 'misha_settings' ); // settings group name
+//             // do_settings_sections( 'misha-slug' ); // just a page slug
+
+//             submit_button();
+
+//         echo '</form></div>';
+
+//     }
+
+//     add_action( 'admin_init',  'misha_register_setting' );
+
+// function misha_register_setting(){
+
+// 	register_setting(
+// 		'misha_settings', // settings group name
+// 		'homepage_text', // option name
+// 		'sanitize_text_field' // sanitization function
+// 	);
+
+// 	add_settings_section(
+// 		'some_settings_section_id', // section ID
+// 		'', // title (if needed)
+// 		'', // callback function (if needed)
+// 		'misha-slug' // page slug
+// 	);
+
+// 	add_settings_field(
+// 		'homepage_text',
+// 		'Homepage text',
+// 		'misha_text_field_html', // function which prints the field
+// 		'misha-slug', // page slug
+// 		'some_settings_section_id', // section ID
+// 		array(
+// 			'label_for' => 'homepage_text',
+// 			'class' => 'misha-class', // for <tr> element
+// 		)
+// 	);
+
+// }
+
+// function misha_text_field_html(){
+
+// 	$text = get_option( 'homepage_text' );
+
+// 	printf(
+// 		'<input type="text" id="homepage_text" name="homepage_text" value="%s" />',
+// 		esc_attr( $text )
+// 	);
+
+// }
