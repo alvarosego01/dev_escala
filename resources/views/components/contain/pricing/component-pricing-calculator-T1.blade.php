@@ -72,7 +72,7 @@
                                                 Plan Pro
                                             </h3>
                                             <span class="priceTag">
-                                                USD $ 45
+                                                USD $ 60
                                             </span>
 
 
@@ -242,7 +242,7 @@
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
-                                                USD $432
+                                                USD $72.00
                                             </span>
 
                                         </div>
@@ -250,8 +250,16 @@
                                         <div class="offert">
 
                                             <p class="primaryText grayColorTexts5">
-                                                <span id="priceDotted">$USD 540 Anual</span> <br class="space">
-                                                <strong id="priceSaves">Ahorras USD $100</strong>
+
+
+
+
+                                                <span id="priceDotted">
+                                                    $USD 90.00 Anual
+                                                </span> <br class="space">
+                                                <strong id="priceSaves">
+                                                    Ahorras USD $18.00
+                                                </strong>
                                             </p>
 
                                         </div>

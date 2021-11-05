@@ -29,7 +29,7 @@ var escalaContactsStarter = [
     15,
     15,
     15,
-    10,
+    15,
     10,
     10,
     10,
@@ -49,37 +49,37 @@ var escalaContactsStarter = [
     5,
     5,
     5,
-    5
+    5,
     // 3,
 ]
 
 var escalaContactsPro = [
     45,
-    25,
-    25,
-    25,
-    20,
-    20,
-    20,
-    20,
-    20,
-    20,
-    14,
-    14,
-    14,
-    14,
-    14,
+    15,
+    15,
+    15,
+    15,
     10,
     10,
     10,
     10,
     10,
-    8,
-    8,
-    8,
-    8,
-    8,
-    // 5,
+    7,
+    7,
+    7,
+    7,
+    7,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    // 3,
 ]
 
 
@@ -112,7 +112,7 @@ function getContactScale(n) {
         var x = n - 25;
 
         l.starter = l.starter + (x * 3);
-        l.pro = l.pro + (x * 5);
+        l.pro = l.pro + (x * 3);
 
     }
 
@@ -235,17 +235,14 @@ function percentOfRange(value, lowLimit, limit, type, completeLowLimit, complete
 
         var valToPerc = ((value - lowLimit) / (limit - lowLimit)) * 100;
 
-        console.log('que coño pone aqui valToPerc', valToPerc);
 
         var PercTonumber = (completeLimit - completeLowLimit) * (valToPerc / 100) + completeLowLimit;
 
-        console.log('que coño pone aqui PercTonumber', PercTonumber);
 
         PercTonumber = Math.trunc(PercTonumber);
 
         PercTonumber = redondeaAlAlza(PercTonumber, -1000);
 
-        console.log('que coño pone aqui PercTonumber', PercTonumber);
 
         jQuery('#contactsField').val(PercTonumber);
 
@@ -337,7 +334,7 @@ function calculateFinal(data) {
             costFinal = _contacts.pro + _users.pro;
 
         }
-        discount = costFinal * 0.30;
+        discount = costFinal * 0.20;
         costNoDiscount = costFinal;
         costFinal = costFinal - discount;
         discount = discount.toFixed(2);
@@ -357,6 +354,55 @@ function calculateFinal(data) {
     jQuery('#finalPriceCalc').text('USD $' + costFinal);
 
 
+
+}
+
+
+function actionInfoCards(type){
+
+    if(type == 'open'){
+
+        jQuery('.extendButton').css({
+            'display': 'none'
+        });
+
+        jQuery('.hideButton').css({
+            'display': 'block'
+        });
+
+        jQuery('.featuresPrice').css({
+            'display': 'none'
+        });
+
+        jQuery('.featuresPrice.extendDetails').css({
+            'display': 'block'
+        });
+
+
+    }
+
+    if(type == 'close'){
+
+        jQuery('.hideButton').css({
+            'display': 'none'
+        });
+
+        jQuery('.extendButton').css({
+            'display': 'block'
+        });
+
+        jQuery('.featuresPrice').css({
+            'display': 'block'
+        });
+
+        jQuery('.featuresPrice.extendDetails').css({
+            'display': 'none'
+        });
+
+
+
+
+    }
 
 }
 
@@ -409,6 +455,22 @@ jQuery(document).ready(function () {
         }
 
         calculateFinal(calculate);
+
+        var m = jQuery('input#contactsField').val();
+        console.log('m', m);
+        if( m < 2000 ){
+
+            jQuery('input#checkPro').attr('disabled', true);
+
+            jQuery('input#checkStarter').click();
+
+        }
+
+        if( m >= 2000 ){
+
+            jQuery('input#checkPro').attr('disabled', false);
+
+        }
 
 
 

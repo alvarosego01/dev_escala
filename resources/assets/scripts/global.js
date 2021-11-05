@@ -18,7 +18,6 @@ function navScrollFixed() {
                 'height': navBarHeight + 'px'
             });
 
-            console.log('navbar', navbar);
 
             jQuery('.jet-popup.jet-popup--front-mode').css({
                 'top': navBarHeight - 5 + 'px'

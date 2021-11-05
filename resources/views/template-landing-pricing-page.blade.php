@@ -58,8 +58,8 @@ $parameters = array(
 @php
 $parameters = array(
  'classSection' => 'landingPricingPage2',
- 'titlePrincipal' => '<span class="greenBlueColor">Conoce los beneficios de nuestros planes</span>',
- 'subTitlePrincipal' => 'Cada uno de nuestros planes tiene las funcionalidades de marketing <br> digital y ventas para acelerar el crecimiento de tu negocio. <br> Solo inviertes en lo que necesitas.'
+ 'titlePrincipal' => '<span class="blueColor">Conoce los beneficios de nuestros planes</span>',
+ 'subTitlePrincipal' => 'Cada uno de nuestros planes tiene las funcionalidades de marketing <br class="space"> digital y ventas para acelerar el crecimiento de tu negocio.<br class="space">Solo inviertes en lo que necesitas..'
 ) ;
 @endphp
 
@@ -81,22 +81,21 @@ $parameters = array(
 
           <div class="el col-md-12 col-lg-6 first">
             <div class="element">
-                 <div class="containerImage">
 
-              <img src="{!! App::setFilePath('/assets/images/illustrations/team/asesor_2.png') !!}" alt="" loading="lazy">
+            <div class="had">
 
+              <h3 class="secondaryTitle colorDarkGrey3">
+                Servicio
+              </h3>
 
             </div>
 
             <div class="info">
 
-            <h3 class="secondaryTitle blueColor">
-              Servicio
-            </h3>
 
 
         <p class="primaryText grayColorTexts">
-          Atendemos a tus preguntas y necesidades <br> para que aproveches al máximo la plataforma.
+          Atendemos a tus preguntas y necesidades <br class="space"> para que aproveches al máximo la <br class="space"> plataforma.
         </p>
 
             <div class="listCustom">
@@ -144,29 +143,36 @@ $parameters = array(
             </div>
 
 
+
+            <div class="referImage containerImage">
+
+              <img src="{!! App::setFilePath('/assets/images/illustrations/team/asesor_2.png') !!}" alt="" loading="lazy">
+
+
             </div>
+          </div>
+
+
+
           </div>
           </div>
           <div class="el col-md-12 col-lg-6">
             <div class="element">
-                 <div class="containerImage">
 
-              <img src="{!! App::setFilePath('/assets/images/illustrations/others/partenon_1.png') !!}" alt="" loading="lazy">
-
-
-            </div>
-
-
-
-            <div class="info">
-            <h3 class="secondaryTitle blueColor">
+            <div class="had">
+              <h3 class="secondaryTitle colorDarkGrey3">
               Entrenamiento
             </h3>
 
+            </div>
+
+            <div class="info">
+
 
         <p class="primaryText grayColorTexts">
-          Te apoyamos a hacer crecer tu negocio de manera <br>
-          rentable, sostenible y escalable.
+          Te apoyamos a hacer crecer tu negocio <br class="space"> de manera rentable, sostenible y escalable.
+          <br class="space">
+          <br class="space">
         </p>
 
 
@@ -222,7 +228,16 @@ $parameters = array(
 
 
 
+
+            <div class="referImage containerImage">
+
+              <img src="{!! App::setFilePath('/assets/images/illustrations/others/partenon_1.png') !!}" alt="" loading="lazy">
+
             </div>
+
+            </div>
+
+
           </div>
           </div>
 
@@ -284,9 +299,6 @@ $parameters = array(
             </p>
 
 
-            <a class="hiperButtonGreenBlue" >
-              Probar Escala ahora
-            </a>
 
 
 
@@ -318,8 +330,8 @@ $parameters = array(
   'classSection' => 'landingPricingPage6',
   'backgroundImageFile' => null,
   'enableTitle' => false,
-  'img' =>  App::setFilePath('/assets/images/person/am/andres_otto.png'),
-  'title' => '<span class="greenBlueColor">En Escala hay un plan</span> <br class="space"> del tamaño de <br class="space"> tus sueños',
+  'img' =>  App::setFilePath('/assets/images/person/am/am_pricing.png'),
+  'title' => 'En Escala hay un plan <br class="space"> del tamaño de tus sueños',
   'text' => null,
   'enableButton' => true,
   'urlButton' => '#lead-form',
