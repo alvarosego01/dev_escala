@@ -106,7 +106,7 @@
                                 .price
                                     position: relative
                                     height: 100px
-                                    margin-bottom: 25px
+                                    // margin-bottom: 50px
                                     p
                                         font-family: Nunito
                                         font-style: normal
@@ -190,7 +190,7 @@
 
 
                                 .middle
-                                    margin-bottom: 20px
+                                    margin-bottom: 10px
                                     position: relative
                                     height: 40px
                                     @include responsivo(telefonoTable)
@@ -201,10 +201,55 @@
                                         position: absolute
                                         left: 0
                                         right: 0
+
                                         @include responsivo(telefonoTable)
                                             position: unset
                                         @include responsivo(pcMedio)
                                             position: unset
+                                        .extraPriceInfo
+                                            position: relative
+                                        .discountData
+                                            margin-bottom: 15px
+                                            position: absolute
+                                            width: 100%
+                                            top: -65px
+                                            .primaryText
+                                                text-align: center
+                                                display: flex
+                                                flex-direction: column
+                                                .ncost
+                                                    font-family: Nunito
+                                                    font-style: normal
+                                                    font-weight: bold
+                                                    font-size: 20px
+                                                    line-height: 20px
+                                                    text-align: center
+
+                                                    text-transform: uppercase
+                                                    color: #36768A
+                                                    margin-bottom: 5px
+                                                .t1
+                                                    font-family: Nunito
+                                                    font-style: normal
+                                                    font-weight: normal
+                                                    font-size: 12px
+                                                    line-height: 16px
+                                                    text-align: center
+                                                    letter-spacing: 0.1px
+
+                                                    color: #858585
+                                                .t2
+                                                    font-family: Nunito
+                                                    font-style: normal
+                                                    font-weight: 700
+                                                    font-size: 12px
+                                                    line-height: 16px
+                                                    text-align: center
+                                                    letter-spacing: 0.1px
+
+                                                    color: #73676D
+                                                span.priceDotted
+                                                    text-decoration-line: line-through
 
                                     .selectorSwitch
                                         display: flex
@@ -613,7 +658,7 @@
                         border-radius: 7.5px
                         background-color: white
                         padding: 0
-                        padding-right: 2.5px
+                        padding-left: 15%
                         width: 90px
                         height: 25px
                         margin-top: auto
@@ -624,7 +669,7 @@
                         font-weight: 600
                         font-size: 14px
                         line-height: 15px
-                        text-align: right
+                        text-align: center!important
                         text-transform: uppercase
                         border: none
                         -webkit-appearance: none

@@ -19,12 +19,16 @@
 
 $items = [
     [
+        'name' => 'plan1',
         'type' => 'master',
         'title' => 'Plan <span class="greenBlueColor">Starter</span>',
         'price' => 'A partir de <br class="space">
         <span class="cost">
             <i class="fas fa-dollar-sign"></i>
-            <span>30</span>
+            <span class="numerCost">30</span>
+            <span
+            style="display: none"
+            class="plan1">24</span>
             <span class="usd">
                 USD
             </span>
@@ -35,6 +39,19 @@ $items = [
         'button' => true,
         'textButton' => 'Prueba Escala ahora',
         'extendInfoButton' => true,
+        'customClasses' => 'cardPlan1',
+        'discountTest' => '
+        <p class="primaryText">
+                <span class="ncost">
+                    usd/mes
+                </span>
+                <span class="t1">Pago total anual <span class="priceDotted">30.00 $USD</span></span>
+                <span class="t2">
+                    <strong class="priceSaves">
+                        Con descuento 6.00 $USD
+                    </strong>
+                </span>
+        </p>',
         'extendDetails' => [
             [
                 'title' => 'Landing page',
@@ -73,12 +90,16 @@ $items = [
         ],
     ],
     [
+        'name' => 'plan2',
         'type' => 'master',
         'title' => 'Plan <span class="orangeColor">Pro</span>',
         'price' => 'A partir de <br class="space">
         <span class="cost">
             <i class="fas fa-dollar-sign"></i>
-            <span>60</span>
+            <span class="numerCost">60</span>
+            <span
+            style="display: none"
+            class="plan2">48</span>
             <span class="usd">
                 USD
             </span>
@@ -89,6 +110,20 @@ $items = [
         'button' => true,
         'textButton' => 'Prueba Escala ahora',
         'extendInfoButton' => true,
+        'customClasses' => 'cardPlan2',
+        'discountTest' => '
+        <p class="primaryText">
+
+                <span class="ncost">
+                    usd/mes
+                </span>
+                <span class="t1">Pago total anual <span class="priceDotted">60.00 $USD</span></span>
+                <span class="t2">
+                    <strong class="priceSaves">
+                        Con descuento 12.00 $USD
+                    </strong>
+                </span>
+        </p>',
         'extendDetails' => [
             [
                 'title' => 'Landing page',
@@ -127,6 +162,7 @@ $items = [
         ],
     ],
     [
+        'name' => 'plan3',
         'type' => 'master',
         'title' => 'Plan <span class="greenBlueColor">Enterprise</span>',
         'price' => '<span class="contactos">
@@ -224,7 +260,7 @@ $items = [
                 @if (isset($items) && count($items) > 0)
 
                     @foreach ($items as $item)
-                        <div class="col-md-12 col-lg-4 elementParent">
+                        <div id="{{ $item['name'] }}" class="col-md-12 col-lg-4 elementParent">
 
                             <div class="elementPrice @if (isset($item['customClasses']) && $item['customClasses'] != '') {!! $item['customClasses'] !!} @endif">
 
@@ -237,11 +273,15 @@ $items = [
                                 <div class="elementBody">
 
 
-                                    <div class="price">
+                                    <div
+                                    style="margin-bottom: 25px"
+                                    class="price">
 
                                         <p>
 
                                             {!! $item['price'] !!}
+
+
 
                                         </p>
 
@@ -253,11 +293,27 @@ $items = [
 
                                             @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
 
+                                                @if (isset($item['discountTest']) && $item['discountTest'] != null)
+
+                                                    <div class="extraPriceInfo">
+
+                                                        <div style="display: none;" typePlan="{{ $item['name'] }}"
+                                                            class="discountData">
+                                                            {!! $item['discountTest'] !!}
+                                                        </div>
+                                                    </div>
+
+                                                @endif
+
                                                 <div class="selectorSwitch">
                                                     <small>
                                                         Mensual
                                                     </small>
-                                                    <label class="switchCustom"><input value="1" type="checkbox" />
+                                                    <label class="switchCustom">
+                                                        <input
+                                                            class="modePlanSelect"
+                                                            onchange="discountByPlanCard('{{ $item['name'] }}', this)"
+                                                            value="1" type="checkbox" />
                                                         <div></div>
                                                     </label>
                                                     <small>
@@ -293,9 +349,7 @@ $items = [
 
                                     @if (isset($item['details']) && count($item['details'] > 0))
 
-                                        <div
-                                        style="display: block"
-                                        class="featuresPrice short">
+                                        <div style="display: block" class="featuresPrice short">
 
                                             @foreach ($item['details'] as $item2)
 
@@ -333,9 +387,7 @@ $items = [
 
                                     @if (isset($item['extendDetails']) && count($item['extendDetails'] > 0))
 
-                                        <div
-                                        style="display: none"
-                                        class="featuresPrice extendDetails">
+                                        <div style="display: none" class="featuresPrice extendDetails">
 
                                             @foreach ($item['extendDetails'] as $item2)
 
@@ -370,27 +422,22 @@ $items = [
                                         </div>
 
                                     @endif
-                                    @if ( isset($item['extendInfoButton']) && count($item['extendInfoButton'] == true ))
+                                    @if (isset($item['extendInfoButton']) && count($item['extendInfoButton'] == true))
 
-                                        <div
-                                        class="extendInfoButton">
+                                        <div class="extendInfoButton">
 
-                                        <div class="buttonSection">
+                                            <div class="buttonSection">
 
-                                            <a
-                                            onclick="actionInfoCards('open')"
-                                            class="extendButton">
-                                                Ver más
-                                            </a>
-                                            {{-- style="display: none" --}}
-                                            <a
-                                            onclick="actionInfoCards('close')"
-                                            style="display: none;"
-                                            class="hideButton">
-                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/arrowClose.png') !!}" alt="">
-                                            </a>
+                                                <a onclick="actionInfoCards('open')" class="extendButton">
+                                                    Ver más
+                                                </a>
+                                                {{-- style="display: none" --}}
+                                                <a onclick="actionInfoCards('close')" style="display: none;"
+                                                    class="hideButton">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/arrowClose.png') !!}" alt="">
+                                                </a>
 
-                                        </div>
+                                            </div>
 
 
                                         </div>

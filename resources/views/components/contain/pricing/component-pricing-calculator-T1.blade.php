@@ -251,15 +251,13 @@
 
                                             <p class="primaryText grayColorTexts5">
 
-
-
-
                                                 <span id="priceDotted">
                                                     $USD 90.00 Anual
                                                 </span> <br class="space">
                                                 <strong id="priceSaves">
                                                     Ahorras USD $18.00
                                                 </strong>
+
                                             </p>
 
                                         </div>
