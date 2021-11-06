@@ -406,6 +406,71 @@ function actionInfoCards(type){
 
 }
 
+planCheck = null;
+function discountByPlanCard(type, element){
+
+    if(type != null){
+        if(element.checked == true){
+
+            if(jQuery('[typePlan='+ type +']').length > 0){
+
+                if(planCheck != null && planCheck != type){
+
+                    var l = jQuery('#' + planCheck + ' .modePlanSelect').click();
+
+                }
+
+                planCheck = type;
+
+                jQuery('#' + planCheck + ' .'+ type).css({
+                    'display': 'block'
+                });
+                jQuery('#' + planCheck + ' .numerCost').css({
+                    'display': 'none'
+                });
+                jQuery('[typePlan='+ type +']').css({
+                    'display': 'block'
+                });
+                jQuery('#'+ type +' .usd').css({
+                    'display': 'none'
+                });
+                jQuery('.price').css({
+                    'margin-bottom': '60' + 'px'
+                });
+
+            }
+        }
+        if(element.checked == false){
+
+            if(jQuery('[typePlan='+ type +']').length > 0){
+            jQuery('[typePlan='+ type +']').css({
+                'display': 'none'
+            });
+            jQuery('#'+ type +' .usd').css({
+                'display': 'block'
+            });
+
+            jQuery('.price').css({
+                'margin-bottom': '25' + 'px'
+            });
+
+            jQuery('#' + planCheck + ' .'+ type).css({
+                'display': 'none'
+            });
+            jQuery('#' + planCheck + ' .numerCost').css({
+                'display': 'block'
+            });
+
+            planCheck = null;
+
+            }
+
+        }
+    }
+
+}
+
+
 jQuery(document).ready(function () {
 
     jQuery("input[type=range]").load(function (e) {
