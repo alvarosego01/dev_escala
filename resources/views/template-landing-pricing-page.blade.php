@@ -93,6 +93,12 @@ $parameters = array(
             <div class="info">
 
 
+            <div class="referImage containerImage">
+
+              <img src="{!! App::setFilePath('/assets/images/illustrations/team/asesor_2.png') !!}" alt="" loading="lazy">
+
+
+            </div>
 
         <p class="primaryText grayColorTexts">
           Atendemos a tus preguntas y necesidades <br class="space"> para que aproveches al máximo la <br class="space"> plataforma.
@@ -142,14 +148,6 @@ $parameters = array(
               </ul>
             </div>
 
-
-
-            <div class="referImage containerImage">
-
-              <img src="{!! App::setFilePath('/assets/images/illustrations/team/asesor_2.png') !!}" alt="" loading="lazy">
-
-
-            </div>
           </div>
 
 
@@ -168,6 +166,12 @@ $parameters = array(
 
             <div class="info">
 
+
+            <div class="referImage containerImage">
+
+              <img src="{!! App::setFilePath('/assets/images/illustrations/others/partenon_1.png') !!}" alt="" loading="lazy">
+
+            </div>
 
         <p class="primaryText grayColorTexts">
           Te apoyamos a hacer crecer tu negocio <br class="space"> de manera rentable, sostenible y escalable.
@@ -223,16 +227,6 @@ $parameters = array(
 
 
               </ul>
-            </div>
-
-
-
-
-
-            <div class="referImage containerImage">
-
-              <img src="{!! App::setFilePath('/assets/images/illustrations/others/partenon_1.png') !!}" alt="" loading="lazy">
-
             </div>
 
             </div>
