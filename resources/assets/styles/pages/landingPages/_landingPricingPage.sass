@@ -107,6 +107,16 @@
                                     position: relative
                                     height: 100px
                                     // margin-bottom: 50px
+                                    @include responsivo(telefonoTable)
+                                        display: flex
+                                        justify-content: center
+                                        align-content: center
+                                        margin-bottom: 0!important
+                                    @include responsivo(pcMedio)
+                                        display: flex
+                                        justify-content: center
+                                        align-content: center
+                                        margin-bottom: 0!important
                                     p
                                         font-family: Nunito
                                         font-style: normal
@@ -129,8 +139,12 @@
                                         margin: auto
                                         @include responsivo(telefonoTable)
                                             position: unset!important
+                                            margin: auto 0!important
+
                                         @include responsivo(pcMedio)
                                             position: unset!important
+                                            margin: auto 0!important
+
                                         span.cost
                                             flex-direction: row
                                             display: flex
@@ -184,6 +198,12 @@
                                                 i
                                                     font-size: 40px
                                                     color: #9E989A
+                                            @include responsivo(telefonoTable)
+                                                margin-bottom: 0
+
+                                            @include responsivo(pcMedio)
+                                                margin-bottom: 0
+
 
 
 
@@ -304,6 +324,10 @@
                                         text-align: center
                                         font-weight: 600
                                         padding: 12px 0
+                                        @include responsivo(telefonoTable)
+                                            margin: 0 auto
+                                        @include responsivo(pcMedio)
+                                            margin: 0 auto
                                         @include responsivo(telefonoTable)
                                             width: fit-content
                                             padding: 12px 50px
@@ -482,6 +506,10 @@
                                 .had
                                     padding: 25px 15%
                                     padding-right: 0
+                                    @include responsivo(telefonoTable)
+                                        padding-left: 0
+                                    @include responsivo(pcMedio)
+                                        padding-left: 0
                                     .secondaryTitle
                                         font-family: Nunito
                                         font-style: normal
@@ -499,10 +527,28 @@
                                     width: 100%
                                     padding: 50px 15%
                                     position: relative
+                                    @include responsivo(telefonoTable)
+                                        padding: 25px 15%
+                                    @include responsivo(pcMedio)
+                                        padding: 25px 15%
                                     .referImage.containerImage
                                         img
                                             margin: auto 0
                                             height: 145px
+                                        @include responsivo(telefonoTable)
+                                            img
+                                                height: 125px
+                                                margin-bottom: 25px
+                                                margin-right: auto!important
+                                                margin-left: auto!important
+
+                                        @include responsivo(pcMedio)
+                                            img
+                                                height: 125px
+                                                margin-bottom: 25px
+                                                margin-right: auto!important
+                                                margin-left: auto!important
+
                                         @include responsivo(general)
                                             position: absolute
                                             right: 50px
@@ -1195,10 +1241,10 @@
                         padding: 100px 0
                         @include responsivo(telefonoTable)
                             padding: 50px 0
-                            padding-bottom: 25px
+                            padding-bottom: 0
                         @include responsivo(pcMedio)
                             padding: 50px 0
-                            padding-bottom: 25px
+                            padding-bottom: 0
                 .containerImage
                     // height: 300px
                     margin-bottom: 0!important
@@ -1209,7 +1255,7 @@
                         margin-left: 0
                         @include responsivo(telefonoTable)
                             margin: 0 auto
-                            height: 300px
+                            height: 350px!important
                         @include responsivo(pcMedio)
-                            height: 325px
                             margin: 0 auto
+                            height: 350px!important

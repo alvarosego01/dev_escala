@@ -843,17 +843,16 @@ footer
 
 
 .switchCustom
-    input
-        position: absolute
-        opacity: 0
     display: inline-block
     font-size: 20px
-    // height: 1.25em
-    // width: 2.25em
     width: 52.5px
     height: 30px
     background: $colorGreyLight4
     border-radius: 1em
+    $p: &
+    input
+        position: absolute
+        opacity: 0
 
     div
         height: 1em
@@ -869,6 +868,7 @@ footer
         margin-left: 5px
     input:checked + div
         transform: translate3d(100%, 0, 0)
+    input:checked
 
 
 
