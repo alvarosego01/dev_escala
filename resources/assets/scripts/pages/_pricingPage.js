@@ -3,6 +3,8 @@
 
 var calculate = null;
 
+var device = null;
+
 // costos planes
 const _costStarter = 30;
 const _costPro = 45;
@@ -227,7 +229,7 @@ function percentOfRange(value, lowLimit, limit, type, completeLowLimit, complete
 
         if (value == 0) {
 
-            jQuery('#contactsField').val(1000);
+            jQuery('.contactsField').val(1000);
             return 1000;
         }
 
@@ -244,7 +246,7 @@ function percentOfRange(value, lowLimit, limit, type, completeLowLimit, complete
         PercTonumber = redondeaAlAlza(PercTonumber, -1000);
 
 
-        jQuery('#contactsField').val(PercTonumber);
+        jQuery('.contactsField').val(PercTonumber);
 
 
         return PercTonumber;
@@ -260,7 +262,7 @@ function calculateRangeValue(data) {
 
     var range = 0;
 
-    range = data._rangeContacts;
+    range = (device == 'desktop')? data._rangeContacts[0] : data._rangeContacts[1];
 
 
         if (range >= 0 && range <= 25) {
@@ -298,6 +300,8 @@ function calculateFinal(data) {
 
     _contacts = converContacts(data._contactsField);
     _users = convertUsers(data);
+
+    console.log('lo que llega', data);
 
 
     if (typePlan == 'monthly') {
@@ -473,6 +477,10 @@ function discountByPlanCard(type, element){
 
 jQuery(document).ready(function () {
 
+
+    device = deviceType();
+
+
     jQuery("input[type=range]").load(function (e) {
         // Handler for .load() called.
 
@@ -511,18 +519,20 @@ jQuery(document).ready(function () {
     jQuery("form#formCalcGeneral").change(function (e) {
         e.preventDefault();
 
+        console.log('e.currentTarget',e.currentTarget);
+
         calculate = _serializeFormToObject(e.currentTarget)
 
-        if (jQuery(e.target).is('#rangeContacts')) {
+        if (jQuery(e.target).is('.rangeContacts')) {
 
+            console.log('e.target',e.target);
             calculate._contactsField = calculateRangeValue(calculate);
 
         }
 
         calculateFinal(calculate);
 
-        var m = jQuery('input#contactsField').val();
-        console.log('m', m);
+        var m = jQuery('input.contactsField').val();
         if( m < 2000 ){
 
             jQuery('input#checkPro').attr('disabled', true);

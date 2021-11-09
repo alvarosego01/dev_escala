@@ -150,6 +150,24 @@ function setInnerElement() {
 
 }
 
+function deviceType(){
+
+    let w = window.innerWidth;
+
+    if (w <= 991) {
+
+       return 'mobile';
+
+    }
+    if (w >= 992) {
+
+       return 'desktop';
+
+    }
+
+
+}
+
 jQuery(document).ready(function () {
 
 

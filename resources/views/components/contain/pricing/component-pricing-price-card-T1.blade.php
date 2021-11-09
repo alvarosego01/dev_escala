@@ -228,6 +228,24 @@ $items = [
 
     <div class="section-row">
 
+        {{-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+          </div> --}}
+
+
 
         @if (isset($titlePrincipal) && $titlePrincipal != null)
             <section class="innerSectionElement sct1">
@@ -253,7 +271,7 @@ $items = [
             </section>
         @endif
 
-        <section class="innerSectionElement sct2">
+        <section class="desktopElement pcVersion innerSectionElement sct2">
 
             <div class="containElements row">
 
@@ -450,6 +468,244 @@ $items = [
                         </div>
 
                     @endforeach
+
+
+                @endif
+
+
+            </div>
+
+        </section>
+
+        <section class="mobileElement mobileVersion innerSectionElement sct2">
+
+
+            <div class="nav nav-tabs selectorPlansTab" id="nav-tab" role="tablist">
+
+                @foreach ($items as $item)
+
+                <button class="nav-link @if ($loop->first) active @endif" id="_{{ $item['name'] }}tab" data-bs-toggle="tab" data-bs-target="#{{ $item['name'] }}tab"
+                  type="button" role="tab" aria-controls="{{ $item['name'] }}tab" @if ($loop->first) aria-selected="true" @endif>
+
+                  <div class="had">
+                    <h3 class="secondaryTitle blackColor">
+                        {!! $item['title'] !!}
+                    </h3>
+                </div>
+
+                </button>
+
+                @endforeach
+
+            </div>
+
+
+
+    <div class="containElements row">
+
+        @if (isset($items) && count($items) > 0)
+
+        <div class="tab-content" id="nav-tabContent">
+            @foreach ($items as $item)
+                    <div class="tab-pane fade @if ($loop->first) active show @endif" id="{{ $item['name'] }}tab" role="tabpanel" aria-labelledby="_{{ $item['name'] }}tab" >
+                        <div id="{{ $item['name'] }}" class="col-md-12 col-lg-4 elementParent">
+
+                            <div class="elementPrice @if (isset($item['customClasses']) && $item['customClasses'] != '') {!! $item['customClasses'] !!} @endif">
+
+                                <div class="had">
+                                    <h3 class="secondaryTitle blackColor">
+                                        {!! $item['title'] !!}
+                                    </h3>
+                                </div>
+
+                                <div class="elementBody">
+
+
+                                    <div
+                                    style="margin-bottom: 25px"
+                                    class="price">
+
+                                        <p>
+
+                                            {!! $item['price'] !!}
+
+
+
+                                        </p>
+
+                                    </div>
+
+                                    <div class="middle">
+
+                                        <div class="innerMiddle">
+
+                                            @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
+
+                                                @if (isset($item['discountTest']) && $item['discountTest'] != null)
+
+                                                    <div class="extraPriceInfo">
+
+                                                        <div style="display: none;" typePlan="{{ $item['name'] }}"
+                                                            class="discountData">
+                                                            {!! $item['discountTest'] !!}
+                                                        </div>
+                                                    </div>
+
+                                                @endif
+
+                                                <div class="selectorSwitch">
+                                                    <small>
+                                                        Mensual
+                                                    </small>
+                                                    <label class="switchCustom">
+                                                        <input
+                                                            class="modePlanSelect"
+                                                            onchange="discountByPlanCard('{{ $item['name'] }}', this)"
+                                                            value="1" type="checkbox" />
+                                                        <div></div>
+                                                    </label>
+                                                    <small>
+                                                        Anual
+                                                    </small>
+                                                </div>
+
+                                            @endif
+
+                                            @if (isset($item['textMiddle']) && $item['textMiddle'] != null)
+
+                                                <p class="primaryText grayColorTexts">
+                                                    {!! $item['textMiddle'] !!}
+                                                </p>
+
+
+                                            @endif
+
+                                        </div>
+                                    </div>
+
+                                    @if (isset($item['button']) && $item['button'] == true)
+
+                                        <div class="buttonSection">
+
+                                            <a class="btn-popup-header primaryButton hoverInEffect">
+                                                {!! $item['textButton'] !!}
+                                            </a>
+
+                                        </div>
+
+                                    @endif
+
+                                    @if (isset($item['details']) && count($item['details'] > 0))
+
+                                        <div style="display: block" class="desktopElement featuresPrice short">
+
+                                            @foreach ($item['details'] as $item2)
+
+                                                <div class="listCustom">
+                                                    @if ($item2['title'] != null)
+                                                        <h4 class="thirdTitle">
+                                                            {!! $item2['title'] !!}
+                                                        </h4>
+                                                    @endif
+                                                    <ul>
+
+                                                        @if (isset($item2['items']) && count($item2['items']) > 0)
+
+                                                        @endif
+                                                        @foreach ($item2['items'] as $item3)
+
+                                                            <li>
+                                                                <i class="fa fa-check" aria-hidden="true"></i>
+                                                                <span class="blueColor">
+                                                                    {!! $item3 !!}
+                                                                </span>
+                                                            </li>
+
+                                                        @endforeach
+                                                    </ul>
+                                                </div>
+                                                <br class="space">
+
+                                            @endforeach
+
+                                        </div>
+
+                                    @endif
+
+                                    @if (isset($item['extendDetails']) && count($item['extendDetails'] > 0))
+
+                                        <div style="display: none" class="featuresPrice extendDetails">
+
+                                            @foreach ($item['extendDetails'] as $item2)
+
+                                                <div class="listCustom">
+                                                    @if ($item2['title'] != null)
+                                                        <h4 class="thirdTitle">
+                                                            {!! $item2['title'] !!}
+                                                        </h4>
+                                                    @endif
+                                                    <ul>
+
+                                                        @if (isset($item2['items']) && count($item2['items']) > 0)
+
+                                                        @endif
+                                                        @foreach ($item2['items'] as $item3)
+
+                                                            <li>
+                                                                <i class="fa fa-check" aria-hidden="true"></i>
+                                                                <span class="blueColor">
+                                                                    {!! $item3 !!}
+                                                                </span>
+                                                            </li>
+
+                                                        @endforeach
+                                                    </ul>
+                                                </div>
+                                                <br class="space">
+                                                {{-- <br class="space"> --}}
+
+                                            @endforeach
+
+                                        </div>
+
+                                    @endif
+                                    @if (isset($item['extendInfoButton']) && count($item['extendInfoButton'] == true))
+
+                                        <div class="extendInfoButton">
+
+                                            <div class="buttonSection">
+
+                                                <a onclick="actionInfoCards('open')" class="desktopElement extendButton">
+                                                    Ver más
+                                                </a>
+
+
+                                                <button onclick="actionInfoCards('open')" class="thinButton2 extendButton ">
+                                                    Ver detalles del plan
+                                                </button>
+
+
+                                                {{-- style="display: none" --}}
+                                                <a onclick="actionInfoCards('close')" style="display: none;"
+                                                    class="hideButton">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/arrowClose.png') !!}" alt="">
+                                                </a>
+
+                                            </div>
+
+
+                                        </div>
+
+                                    @endif
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+            @endforeach
+        </div>
 
 
                 @endif
