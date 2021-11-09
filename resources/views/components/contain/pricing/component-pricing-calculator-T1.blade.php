@@ -93,7 +93,7 @@
 
                         <div class="containElements">
 
-                            <div class="plansSection">
+                            <div class="plansSection desktopElement">
                                 <small>
                                     Coloca el número de contactos de marketing
                                 </small>
@@ -106,7 +106,7 @@
                                         <div class="customSelectorRange">
 
                                             <div class="slidecontainer">
-                                                <input name="_rangeContacts" id="rangeContacts" type="range" min="0"
+                                                <input name="_rangeContacts" class="rangeContacts" type="range" min="0"
                                                     max="100" value="0" class="sliderSelector">
                                             </div>
 
@@ -141,10 +141,68 @@
                                     <div class="rw rw1">
 
                                         <div class="customPriceInput">
-                                            <input name="_contactsField" id="contactsField" type="number" value="1000">
+                                            <input name="_contactsField" class="contactsField" type="number" value="1000">
                                         </div>
 
                                     </div>
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="plansSection mobileElement">
+                                <small>
+                                    Coloca el número de <br class="mobileElement"> contactos de marketing
+
+
+                                    <div class="customPriceInput">
+                                        <input name="_contactsField" class="contactsField" type="number" value="1000">
+                                    </div>
+
+
+                                </small>
+
+                                <div class="box">
+
+
+                                    <div class="rw rw2">
+
+                                        <div class="customSelectorRange">
+
+                                            <div class="slidecontainer">
+                                                <input name="_rangeContacts" class="rangeContacts" type="range" min="0"
+                                                    max="100" value="0" class="sliderSelector">
+                                            </div>
+
+                                            <div class="rangeLimits">
+                                                <span class="rangeContactLimit">
+                                                    1.000
+                                                </span class="rangeContactLimit">
+
+                                                <span class="desktopTabletElement rangeContactLimit">
+                                                    25.000
+                                                </span>
+
+                                                <span class="rangeContactLimit">
+                                                    50.000
+                                                </span>
+
+                                                <span class="desktopTabletElement rangeContactLimit">
+                                                    75.000
+                                                </span>
+
+                                                <span class="rangeContactLimit">
+                                                    100.000
+                                                </span>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
 
                                 </div>
 
@@ -161,7 +219,7 @@
 
                         <div class="containElements">
 
-                            <div class="plansSection">
+                            <div class="plansSection desktopElement">
                                 <small>
                                     Coloca el número de usuarios con acceso a la plataforma
                                 </small>
@@ -180,7 +238,7 @@
                                         </div>
 
                                         <div class="customPriceInput">
-                                            <input name="_userAccess" id="userAccess" min="1" type="number" value="5">
+                                            <input name="_userAccess" class="userAccess" min="1" type="number" value="5">
                                         </div>
 
                                     </div>
@@ -188,6 +246,34 @@
                                 </div>
 
                             </div>
+                            <div class="plansSection mobileElement">
+                                <small>
+                                    Coloca el número de usuarios <br class="mobileElement"> con acceso a la plataforma
+                                </small>
+
+                                <div class="box">
+
+                                    <div class="rw rw1">
+
+                                        <div class="info">
+
+
+                                            <h5 class="commonText grayColorTexts5">
+                                                Elige cuántos usuarios con acceso <br class="mobileElement"> a la plataforma quieres tener.
+                                            </h5>
+
+                                        </div>
+
+                                        <div class="customPriceInput">
+                                            <input name="_userAccess" class="userAccess" min="1" type="number" value="5">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
                         </div>
 
                     </section>
@@ -211,10 +297,10 @@
 
                                         <div class="containerImage">
 
-                                            <img class="desktopTabletElement" alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_pricing.png') !!}"
+                                            <img class="desktopElement" alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_pricing.png') !!}"
                                                 loading="lazy">
 
-                                            <img class="mobileSmallElement" alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto-arrow-down.png') !!}"
+                                            <img class="mobileElement" alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto-pricing-up.png') !!}"
                                                 loading="lazy">
 
                                         </div>

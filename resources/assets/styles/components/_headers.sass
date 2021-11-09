@@ -253,6 +253,11 @@
                 align-content: center
                 img
                     height: 175px
+                    @include responsivo(telefonoTable)
+                        height: 150px
+                    @include responsivo(pcMedio)
+                        height: 150px
+
                 @include responsivo(telefonoTable)
                     position: unset
                 @include responsivo(pcMedio)
@@ -293,11 +298,11 @@
                         font-size: 22px!important
                         line-height: 25px
                         span
-                            font-size: 17px
+                            font-size: 20px
                             line-height: 20px
                     @include responsivo(pcMedio)
                         text-align: center
                         margin-bottom: 12.5px
                         font-size: 28px!important
                         span
-                            font-size: 24px
+                            font-size: 20px

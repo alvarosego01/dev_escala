@@ -395,6 +395,9 @@ a[disabled]
     transition: $transitionButton
     transform: scale(1)
     font-family: Nunito
+    @include responsivo(telefonoTable)
+        font-size: 16px
+
 
 
 
@@ -411,15 +414,16 @@ a[disabled]
     transition: $transitionButton
     transform: scale(1)
     font-family: Nunito
-
     &:hover
         color: $colorOrange
+    @include responsivo(telefonoTable)
+        font-size: 16px
 
 .thinButton
     display: inline-block
     line-height: 1
     text-decoration: none
-    font-size: 20px
+    font-size: 18px
     line-height: 1
     background-color: $colorBlueLight
     color: grey
@@ -429,6 +433,25 @@ a[disabled]
     transition: $transitionButton
     transform: scale(1)
     font-family: Nunito
+    @include responsivo(telefonoTable)
+        font-size: 16px
+
+.thinButton2
+    display: inline-block
+    line-height: 1
+    text-decoration: none
+    font-size: 18px
+    line-height: 1
+    background-color: $colorBlueLight8
+    color: white
+    padding: 15px 25px
+    border-radius: 5px
+    width: fit-content
+    transition: $transitionButton
+    transform: scale(1)
+    font-family: Nunito
+    @include responsivo(telefonoTable)
+        font-size: 16px
 
 .secondaryButton
     font-size: 18px
@@ -447,6 +470,8 @@ a[disabled]
     justify-content: center
     align-content: center
     align-items: center
+    @include responsivo(telefonoTable)
+        font-size: 16px
 
 .hoverSecondaryButton
     &:hover
@@ -868,7 +893,7 @@ footer
         margin-left: 5px
     input:checked + div
         transform: translate3d(100%, 0, 0)
-    input:checked
+    // input:checked
 
 
 
@@ -977,6 +1002,7 @@ html
     width: 100%
 
 
+
 .sliderSelector
     -webkit-appearance: none
     width: 100%
@@ -1017,8 +1043,11 @@ input[type=range]
     -moz-apperance: none
     border-radius: 6px
     height: 5px
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(15%, #df7164), color-stop(15%, #d3d3d3))
+    width: 100%
+    background: rgb(211, 211, 211)
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(243, 79, 54)), from(rgb(211, 211, 211)))
     background-image: -moz-linear-gradient(left center, #DF7164 0%, #DF7164 15%, #d3d3d3 15%, #d3d3d3 100%)
+
     &::-moz-range-track
         border: none
         background: none
@@ -1052,6 +1081,10 @@ input[type=range]
         display: none!important
     @include responsivo(pcMedio)
         display: none!important
+    @include responsivo(general)
+        display: block!important
+    @include responsivo(resto)
+        display: block!important
 .mobileElement
     @include responsivo(telefonoTable)
         display: block!important
@@ -1065,8 +1098,19 @@ input[type=range]
 .desktopTabletElement
     @include responsivo(telefonoTable)
         display: none!important
+    @include responsivo(pcMedio)
+        display: block!important
+
+    @include responsivo(general)
+        display: block!important
+
+    @include responsivo(resto)
+        display: block!important
+
 
 .mobileSmallElement
+    @include responsivo(telefonoTable)
+        display: block!important
     @include responsivo(pcMedio)
         display: none!important
     @include responsivo(general)

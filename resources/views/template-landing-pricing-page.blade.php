@@ -58,8 +58,8 @@ $parameters = array(
 @php
 $parameters = array(
  'classSection' => 'landingPricingPage2',
- 'titlePrincipal' => '<span class="blueColor">Conoce los beneficios de nuestros planes</span>',
- 'subTitlePrincipal' => 'Cada uno de nuestros planes tiene las funcionalidades de marketing <br class="space"> digital y ventas para acelerar el crecimiento de tu negocio.<br class="space">Solo inviertes en lo que necesitas..'
+ 'titlePrincipal' => '<span class="blueColor">Conoce los beneficios <br class="mobileSmallElement"> de nuestros planes</span>',
+ 'subTitlePrincipal' => 'Cada uno de nuestros planes tiene las funcionalidades de <br class="mobileSmallElement"> marketing <br class="desktopTabletElement"> digital y ventas para acelerar el crecimiento de tu <br class="mobileSmallElement"> negocio.<br class="desktopTabletElement">Solo inviertes en lo que necesitas..'
 ) ;
 @endphp
 
@@ -175,8 +175,8 @@ $parameters = array(
 
         <p class="primaryText grayColorTexts">
           Te apoyamos a hacer crecer tu negocio <br class="space"> de manera rentable, sostenible y escalable.
-          <br class="space">
-          <br class="space">
+          <br class="desktopElement">
+          <br class="desktopElement">
         </p>
 
 
@@ -198,14 +198,14 @@ $parameters = array(
                     Acompañamiento personalizado
                   </span>
                 </li>
-                <li style="visibility: hidden">
+                <li class="desktopElement" style="visibility: hidden">
                   <span><br class="space"></span>
                 </li>
 
               </ul>
             </div>
-            <br>
-            <br>
+            <br class="desktopElement">
+            <br class="desktopElement">
             <div class="listCustom">
               <h4 class="thirdTitle">
                 PLAN PRO / ENTERPRISE
@@ -278,17 +278,26 @@ $parameters = array(
             </div>
 
             <p class="text primaryText grayColorTexts">
-              Escala tiene el email builder más amigable que he utilizado en los <br> últimos años, y su equipo está comprometido a mantener la <br> plataforma en constante actualización en el dinámico mundo digital.
+              Escala tiene el email builder más amigable que he <br class="mobileSmallElement"> utilizado en los <br class="desktopTabletElement"> últimos años, y su equipo está <br class="mobileSmallElement"> comprometido a mantener la <br class="desktopTabletElement"> plataforma en constante <br class="mobileSmallElement"> actualización en el dinámico mundo digital.
             </p>
 
 
-            <p class="subText primaryText grayColorTexts">
+            <p
+            class="subText model1 primaryText grayColorTexts">
               <span>
                 Verónica Bolaños <br>
                 <small>Account Manager</small>
               </span>
               <span>
                 Publicidad Comercial
+              </span>
+            </p>
+            <p
+            class="subText model2 primaryText grayColorTexts">
+
+              <span>
+                Verónica Bolaños <br class="space">
+                Account Manager / Publicidad Comercial
               </span>
             </p>
 
