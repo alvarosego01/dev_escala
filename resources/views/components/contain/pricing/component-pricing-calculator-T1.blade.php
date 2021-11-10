@@ -24,7 +24,7 @@
                                 </small>
 
                                 <span alertPlanPro>
-                                    Para acceder al Plan Pro debe ser a partir de 2000 contctos
+                                    Para acceder al Plan Pro debe ser a partir de 2000 contactos
                                 </span>
 
                                 <div class="box">
@@ -92,7 +92,7 @@
                                     Plan Starter
                                 </small>
                                 <span alertPlanPro>
-                                    Recuerda que solo puedes acceder al Plan Pro <br class="space"> a partir de 2000 contactos
+                                    Para acceder al Plan Pro debe ser <br class="space"> a partir de 2000 contactos
                                 </span>
 
                             </div>
