@@ -18,10 +18,14 @@
                         <div class="containElements">
 
 
-                            <div class="plansSection">
+                            <div class="plansSection desktopElement">
                                 <small>
                                     Elige tu plan
                                 </small>
+
+                                <span alertPlanPro>
+                                    Recuerda que solo puedes acceder al Plan Pro a partir de 2000 contactos
+                                </span>
 
                                 <div class="box">
 
@@ -58,7 +62,7 @@
                                         <div class="customCheckBox">
 
                                             <label class="checkboxCustom path">
-                                                <input value="pro" id="checkPro" name="_typePlan" type="radio">
+                                                <input  value="pro" id="checkPro" name="_typePlan" type="radio">
                                                 <svg viewBox="0 0 21 21">
                                                     <path
                                                         d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
@@ -80,6 +84,16 @@
 
                                 </div>
 
+
+                            </div>
+
+                            <div class="plansSection mobileElement">
+                                <small mobPlan>
+                                    Plan Starter
+                                </small>
+                                <span alertPlanPro>
+                                    Recuerda que solo puedes acceder al Plan Pro <br class="space"> a partir de 2000 contactos
+                                </span>
 
                             </div>
 
@@ -106,7 +120,7 @@
                                         <div class="customSelectorRange">
 
                                             <div class="slidecontainer">
-                                                <input name="_rangeContacts" class="rangeContacts" type="range" min="0"
+                                                <input typeProcess="0" name="_rangeContacts" class="rangeContacts" type="range" min="0"
                                                     max="100" value="0" class="sliderSelector">
                                             </div>
 
@@ -141,7 +155,7 @@
                                     <div class="rw rw1">
 
                                         <div class="customPriceInput">
-                                            <input name="_contactsField" class="contactsField" type="number" value="1000">
+                                            <input typeProcess="0" name="_contactsField" class="contactsField" type="number" value="1000">
                                         </div>
 
                                     </div>
@@ -157,7 +171,7 @@
 
 
                                     <div class="customPriceInput">
-                                        <input name="_contactsField" class="contactsField" type="number" value="1000">
+                                        <input typeProcess="1" name="_contactsField" class="contactsField" type="number" min="2000" value="2000">
                                     </div>
 
 
@@ -171,7 +185,7 @@
                                         <div class="customSelectorRange">
 
                                             <div class="slidecontainer">
-                                                <input name="_rangeContacts" class="rangeContacts" type="range" min="0"
+                                                <input typeProcess="1" name="_rangeContacts" class="rangeContacts" type="range" min="2"
                                                     max="100" value="0" class="sliderSelector">
                                             </div>
 
@@ -238,7 +252,7 @@
                                         </div>
 
                                         <div class="customPriceInput">
-                                            <input name="_userAccess" class="userAccess" min="1" type="number" value="5">
+                                            <input typeProcess="0" name="_userAccess" class="userAccess" min="1" type="number" value="5">
                                         </div>
 
                                     </div>
@@ -265,7 +279,7 @@
                                         </div>
 
                                         <div class="customPriceInput">
-                                            <input name="_userAccess" class="userAccess" min="1" type="number" value="5">
+                                            <input typeProcess="1" name="_userAccess" class="userAccess" min="1" type="number" value="5">
                                         </div>
 
                                     </div>

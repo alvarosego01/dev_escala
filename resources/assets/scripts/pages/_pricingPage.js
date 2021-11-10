@@ -1,9 +1,11 @@
 
-
+var planSelect = null;
 
 var calculate = null;
 
 var device = null;
+
+var typeProcess = 0;
 
 // costos planes
 const _costStarter = 30;
@@ -145,12 +147,14 @@ function convertUsers(data) {
     // _typePlan: "starter"
     // _userAccess: "5"
 
+    console.log('data._userAccess[typeProcess]', data._userAccess[typeProcess]);
+
     if (data._typePlan == 'starter') {
 
-        if (data._userAccess > 1) {
+        if (data._userAccess[typeProcess] > 1) {
 
-            var starter = (data._userAccess - 1) * 15;
-            var pro = (data._userAccess - 1) * 15 - 15;
+            var starter = (data._userAccess[typeProcess] - 1) * 15;
+            var pro = (data._userAccess[typeProcess] - 1) * 15 - 15;
 
             return {
                 starter: starter,
@@ -169,10 +173,10 @@ function convertUsers(data) {
 
     if (data._typePlan == 'pro') {
 
-        if (data._userAccess > 2) {
+        if (data._userAccess[typeProcess] > 2) {
 
-            var starter = (data._userAccess - 1) * 15;
-            var pro = (data._userAccess - 1) * 15 - 15;
+            var starter = (data._userAccess[typeProcess] - 1) * 15;
+            var pro = (data._userAccess[typeProcess] - 1) * 15 - 15;
 
             return {
                 starter: starter,
@@ -262,7 +266,7 @@ function calculateRangeValue(data) {
 
     var range = 0;
 
-    range = (device == 'desktop')? data._rangeContacts[0] : data._rangeContacts[1];
+    range = data._rangeContacts[typeProcess];
 
 
         if (range >= 0 && range <= 25) {
@@ -298,7 +302,9 @@ function calculateFinal(data) {
     // _typePlan: "starter"
     // _userAccess: "5"
 
-    _contacts = converContacts(data._contactsField);
+    console.log('data._contactsField', data._contactsField);
+
+    _contacts = converContacts(data._contactsField[typeProcess]);
     _users = convertUsers(data);
 
     console.log('lo que llega', data);
@@ -475,6 +481,36 @@ function discountByPlanCard(type, element){
 }
 
 
+function planSelectProcess(plan){
+
+    if(plan == 'plan1'){
+        jQuery('#checkStarter').click();
+        planSelect = plan;
+        jQuery('small[mobPlan]').text('Plan Starter');
+        jQuery('[alertPlanPro]').css({
+            'display': 'block'
+        });
+    }
+    if(plan == 'plan2'){
+        jQuery('#checkPro').click();
+        planSelect = plan;
+        jQuery('small[mobPlan]').text('Plan Pro');
+        jQuery('[alertPlanPro]').css({
+            'display': 'block'
+        });
+    }
+    if(plan == 'plan3'){
+        jQuery('#checkStarter').click();
+        planSelect = plan;
+        jQuery('small[mobPlan]').text('Plan Enterprise');
+        jQuery('[alertPlanPro]').css({
+            'display': 'none'
+        })
+    }
+
+}
+
+
 jQuery(document).ready(function () {
 
 
@@ -519,20 +555,24 @@ jQuery(document).ready(function () {
     jQuery("form#formCalcGeneral").change(function (e) {
         e.preventDefault();
 
-        console.log('e.currentTarget',e.currentTarget);
+        if ( jQuery(e.target).attr('typeProcess') ) {
+
+            typeProcess = jQuery(e.target).attr('typeProcess');
+
+        }
 
         calculate = _serializeFormToObject(e.currentTarget)
 
         if (jQuery(e.target).is('.rangeContacts')) {
 
             console.log('e.target',e.target);
-            calculate._contactsField = calculateRangeValue(calculate);
+            calculate._contactsField[typeProcess] = calculateRangeValue(calculate);
 
         }
 
         calculateFinal(calculate);
 
-        var m = jQuery('input.contactsField').val();
+        var m = jQuery('input.contactsField[typeProcess='+typeProcess+']').val();
         if( m < 2000 ){
 
             jQuery('input#checkPro').attr('disabled', true);
