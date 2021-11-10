@@ -490,6 +490,7 @@ function planSelectProcess(plan){
         jQuery('[alertPlanPro]').css({
             'display': 'block'
         });
+        setConfigModeSelect('starter')
     }
     if(plan == 'plan2'){
         jQuery('#checkPro').click();
@@ -498,18 +499,72 @@ function planSelectProcess(plan){
         jQuery('[alertPlanPro]').css({
             'display': 'block'
         });
+        setConfigModeSelect('pro')
     }
     if(plan == 'plan3'){
-        jQuery('#checkStarter').click();
+
         planSelect = plan;
-        jQuery('small[mobPlan]').text('Plan Enterprise');
-        jQuery('[alertPlanPro]').css({
-            'display': 'none'
-        })
+
+    jQuery('[regularPlansCalc]').css({
+        'display': 'none'
+    });
+    jQuery('[enterprisePlanCalc]').css({
+        'display': 'block'
+    });
+    return;
+
     }
+
+    jQuery('[regularPlansCalc]').css({
+        'display': 'block'
+    });
+    jQuery('[enterprisePlanCalc]').css({
+        'display': 'none'
+    });
+
 
 }
 
+function setConfigModeSelect(element){
+    // starter
+    // pro
+    let l = jQuery(element).val();
+
+    console.log('typeProcess', typeProcess);
+
+    if(l == 'starter'){
+
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').attr('min', '0');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val('0');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').css({
+            'background-image': 'none'
+        });
+
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '1000');
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val('1000');
+
+    }
+
+    if(l == 'pro'){
+
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').attr('min', '2');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val('2');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').css({
+            'background-image': 'none'
+        });
+
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '2000');
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val('2000');
+
+    }
+
+    // jQuery("#formCalcGeneral")[0].reset()
+
+
+    console.log(jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val());
+    console.log(jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val());
+
+}
 
 jQuery(document).ready(function () {
 
@@ -552,8 +607,10 @@ jQuery(document).ready(function () {
     });
 
 
-    jQuery("form#formCalcGeneral").change(function (e) {
+    jQuery("form#formCalcGeneral").change( async function (e) {
         e.preventDefault();
+
+        console.log('jQuery(e.target)', jQuery(e.target) ) ;
 
         if ( jQuery(e.target).attr('typeProcess') ) {
 
@@ -572,20 +629,20 @@ jQuery(document).ready(function () {
 
         calculateFinal(calculate);
 
-        var m = jQuery('input.contactsField[typeProcess='+typeProcess+']').val();
-        if( m < 2000 ){
+        // var m = jQuery('input.contactsField[typeProcess='+typeProcess+']').val();
+        // if( m < 2000 ){
 
-            jQuery('input#checkPro').attr('disabled', true);
+        //     jQuery('input#checkPro').attr('disabled', true);
 
-            jQuery('input#checkStarter').click();
+        //     jQuery('input#checkStarter').click();
 
-        }
+        // }
 
-        if( m >= 2000 ){
+        // if( m >= 2000 ){
 
-            jQuery('input#checkPro').attr('disabled', false);
+        //     jQuery('input#checkPro').attr('disabled', false);
 
-        }
+        // }
 
 
 

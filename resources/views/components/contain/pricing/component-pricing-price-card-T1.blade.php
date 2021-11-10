@@ -45,10 +45,10 @@ $items = [
                 <span class="ncost">
                     usd/mes
                 </span>
-                <span class="t1">Pago total anual <span class="priceDotted">30.00 $USD</span></span>
+                <span class="t1">Pago total anual <span class="priceDotted">360 $USD</span></span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento 6.00 $USD
+                        Con descuento 288 $USD
                     </strong>
                 </span>
         </p>',
@@ -117,10 +117,10 @@ $items = [
                 <span class="ncost">
                     usd/mes
                 </span>
-                <span class="t1">Pago total anual <span class="priceDotted">60.00 $USD</span></span>
+                <span class="t1">Pago total anual <span class="priceDotted">720 $USD</span></span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento 12.00 $USD
+                        Con descuento 576 $USD
                     </strong>
                 </span>
         </p>',

@@ -270,10 +270,10 @@ $parameters = array(
         <div class="row">
 
           <div class="info col-md-12 col-lg-6">
+
             <div class="containerImage">
 
               <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector.png') !!}" alt="" loading="lazy">
-
 
             </div>
 
@@ -282,24 +282,19 @@ $parameters = array(
             </p>
 
 
-            <p
-            class="subText model1 primaryText grayColorTexts">
-              <span>
-                Verónica Bolaños <br>
-                <small>Account Manager</small>
-              </span>
-              <span>
-                Publicidad Comercial
-              </span>
-            </p>
-            <p
-            class="subText model2 primaryText grayColorTexts">
+            <div class="subText model1 primaryText grayColorTexts">
+
+            <div class="containerImage">
+
+              <img src="{!! App::setFilePath('/assets/images/illustrations/others/Publicidad-Comercial21.png') !!}" alt="" loading="lazy">
+
+          </div>
 
               <span>
                 Verónica Bolaños <br class="space">
-                Account Manager / Publicidad Comercial
+                <small>Account Manager / Publicidad Comercial</small>
               </span>
-            </p>
+            </div>
 
 
 
