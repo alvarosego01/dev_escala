@@ -124,9 +124,38 @@
                                                     max="100" value="0" class="sliderSelector">
                                             </div>
 
-                                            <div class="rangeLimits">
+                                            <div
+                                            scaleStarter
+                                            class="rangeLimits">
                                                 <span class="rangeContactLimit">
                                                     1.000
+                                                </span class="rangeContactLimit">
+
+                                                <span class="desktopTabletElement rangeContactLimit">
+                                                    25.000
+                                                </span>
+
+                                                <span class="rangeContactLimit">
+                                                    50.000
+                                                </span>
+
+                                                <span class="desktopTabletElement rangeContactLimit">
+                                                    75.000
+                                                </span>
+
+                                                <span class="rangeContactLimit">
+                                                    100.000
+                                                </span>
+
+
+                                            </div>
+
+                                            <div
+                                            style="display: none"
+                                            scalePro
+                                            class="rangeLimits">
+                                                <span class="rangeContactLimit">
+                                                    2.000
                                                 </span class="rangeContactLimit">
 
                                                 <span class="desktopTabletElement rangeContactLimit">
@@ -189,9 +218,38 @@
                                                     max="100" value="0" class="sliderSelector">
                                             </div>
 
-                                            <div class="rangeLimits">
+                                            <div
+                                            scaleStarter
+                                            class="rangeLimits">
                                                 <span class="rangeContactLimit">
                                                     1.000
+                                                </span class="rangeContactLimit">
+
+                                                <span class="desktopTabletElement rangeContactLimit">
+                                                    25.000
+                                                </span>
+
+                                                <span class="rangeContactLimit">
+                                                    50.000
+                                                </span>
+
+                                                <span class="desktopTabletElement rangeContactLimit">
+                                                    75.000
+                                                </span>
+
+                                                <span class="rangeContactLimit">
+                                                    100.000
+                                                </span>
+
+
+                                            </div>
+
+                                            <div
+                                            style="display: none"
+                                            scalePro
+                                            class="rangeLimits">
+                                                <span class="rangeContactLimit">
+                                                    2.000
                                                 </span class="rangeContactLimit">
 
                                                 <span class="desktopTabletElement rangeContactLimit">

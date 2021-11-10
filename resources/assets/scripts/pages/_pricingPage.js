@@ -540,6 +540,14 @@ function setConfigModeSelect(element){
             'background-image': 'none'
         });
 
+
+        jQuery('[scaleStarter]').css({
+            'display': 'flex'
+        });
+        jQuery('[scalePro]').css({
+            'display': 'none'
+        });
+
         jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '1000');
         jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val('1000');
 
@@ -551,6 +559,13 @@ function setConfigModeSelect(element){
         jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val('2');
         jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').css({
             'background-image': 'none'
+        });
+
+        jQuery('[scaleStarter]').css({
+            'display': 'none'
+        });
+        jQuery('[scalePro]').css({
+            'display': 'flex'
         });
 
         jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '2000');
