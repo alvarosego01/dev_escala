@@ -2,7 +2,7 @@
 
     <div class="section-row">
 
-        <form onkeydown="if (event.keyCode == 13) { return false; }" action="" id="formCalcGeneral">
+        <form regularPlansCalc onkeydown="if (event.keyCode == 13) { return false; }" action="" id="formCalcGeneral">
 
             <h2 class="primaryTitle">
                 Calcula el precio de tu plan
@@ -24,7 +24,7 @@
                                 </small>
 
                                 <span alertPlanPro>
-                                    Recuerda que solo puedes acceder al Plan Pro a partir de 2000 contactos
+                                    Para acceder al Plan Pro debe ser a partir de 2000 contctos
                                 </span>
 
                                 <div class="box">
@@ -35,7 +35,7 @@
                                         <div class="customCheckBox">
 
                                             <label class="checkboxCustom path">
-                                                <input checked value="starter" id="checkStarter" name="_typePlan"
+                                                <input checked onchange="setConfigModeSelect(this)" value="starter" id="checkStarter" name="_typePlan"
                                                     type="radio">
                                                 <svg viewBox="0 0 21 21">
                                                     <path
@@ -62,7 +62,7 @@
                                         <div class="customCheckBox">
 
                                             <label class="checkboxCustom path">
-                                                <input  value="pro" id="checkPro" name="_typePlan" type="radio">
+                                                <input  onchange="setConfigModeSelect(this)" value="pro" id="checkPro" name="_typePlan" type="radio">
                                                 <svg viewBox="0 0 21 21">
                                                     <path
                                                         d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
@@ -171,7 +171,7 @@
 
 
                                     <div class="customPriceInput">
-                                        <input typeProcess="1" name="_contactsField" class="contactsField" type="number" min="2000" value="2000">
+                                        <input typeProcess="1" name="_contactsField" class="contactsField" type="number" min="1000" value="1000">
                                     </div>
 
 
@@ -252,7 +252,7 @@
                                         </div>
 
                                         <div class="customPriceInput">
-                                            <input typeProcess="0" name="_userAccess" class="userAccess" min="1" type="number" value="5">
+                                            <input typeProcess="0" name="_userAccess" class="userAccess" min="1" type="number" value="2">
                                         </div>
 
                                     </div>
@@ -279,7 +279,7 @@
                                         </div>
 
                                         <div class="customPriceInput">
-                                            <input typeProcess="1" name="_userAccess" class="userAccess" min="1" type="number" value="5">
+                                            <input typeProcess="1" name="_userAccess" class="userAccess" min="1" type="number" value="2">
                                         </div>
 
                                     </div>
@@ -381,6 +381,8 @@
 
                             </div>
 
+
+
                         </div>
 
                     </section>
@@ -390,6 +392,34 @@
 
 
         </form>
+
+        <div
+        style="display: none"
+        enterprisePlanCalc class="plansSection">
+
+
+            <div class="box">
+
+                <small>
+                    Comunícate con uno <br class="space">
+                    de nuestros asesores para <br class="space">
+                    que conozcas con más detalles <br class="space">
+                    los beneficios de este plan
+                </small>
+
+                <div class="image">
+
+
+                    <div class="containerImage">
+                        <img alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto-callcenter.png') !!}"
+                        loading="lazy">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
 
 
     </div>
