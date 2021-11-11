@@ -28,7 +28,7 @@ $items = [
             <span class="numerCost">30</span>
             <span
             style="display: none"
-            class="plan1">24</span>
+            class="discountCost">24</span>
             <span class="usd">
                 USD
             </span>
@@ -99,7 +99,7 @@ $items = [
             <span class="numerCost">60</span>
             <span
             style="display: none"
-            class="plan2">48</span>
+            class="discountCost">48</span>
             <span class="usd">
                 USD
             </span>

@@ -453,8 +453,38 @@ class ACF_CUSTOM extends Controller
         );
 
     }
-    // post_type
-    // exitocaso
+
+    private function settingsCasosExito2(){
+
+        return array(
+
+            'key' => 'casos_exito_details',
+            'title' => 'Casos de éxito detalles',
+            'fields' => array (
+
+                array (
+                    'key' => 'about_caso_exito',
+                    'label' => 'About',
+                    'name' => 'About',
+                    'type' => 'textarea',
+                ),
+
+
+            ),
+            'location' => array (
+                array (
+                    array (
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'exitocaso',
+                    ),
+                ),
+            ),
+
+        );
+
+    }
+
 
     private function settingsCategoryBase(){
 
