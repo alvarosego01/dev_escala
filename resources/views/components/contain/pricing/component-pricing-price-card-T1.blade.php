@@ -297,7 +297,7 @@ $items = [
 
                                                     <div class="extraPriceInfo">
 
-                                                        <div style="display: none;" typePlan="{{ $item['name'] }}"
+                                                        <div style="display: none;" typeplan="{{ $item['name'] }}"
                                                             class="discountData">
                                                             {!! $item['discountTest'] !!}
                                                         </div>
@@ -312,7 +312,7 @@ $items = [
                                                     <label class="switchCustom">
                                                         <input
                                                             class="modePlanSelect"
-                                                            onchange="discountByPlanCard('{{ $item['name'] }}', this)"
+                                                            onclick="discountByPlanCard('{{ $item['name'] }}', this)"
                                                             value="1" type="checkbox" />
                                                         <div></div>
                                                     </label>
@@ -527,7 +527,7 @@ $items = [
 
                                                     <div class="extraPriceInfo">
 
-                                                        <div style="display: none;" typePlan="{{ $item['name'] }}"
+                                                        <div style="display: none;" typeplan="{{ $item['name'] }}"
                                                             class="discountData">
                                                             {!! $item['discountTest'] !!}
                                                         </div>

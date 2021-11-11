@@ -24,7 +24,7 @@ var costFinal = 0;
 var costNoDiscount = 0;
 
 // type plan
-var typePlan = 'yearly';
+var typeplan = 'yearly';
 
 // escala de costos contactos
 
@@ -207,7 +207,7 @@ function typeCustomPay(type, e) {
     jQuery('.selectorPricingButton').removeClass('active');
     jQuery(e).addClass('active');
 
-    typePlan = type;
+    typeplan = type;
 
     var f = jQuery('form#formCalcGeneral');
     calculate = _serializeFormToObject(f);
@@ -310,7 +310,7 @@ function calculateFinal(data) {
     console.log('lo que llega', data);
 
 
-    if (typePlan == 'monthly') {
+    if (typeplan == 'monthly') {
 
 
         if (data._typePlan == 'starter') {
@@ -330,7 +330,7 @@ function calculateFinal(data) {
 
     }
 
-    if (typePlan == 'yearly') {
+    if (typeplan == 'yearly') {
 
         if (data._typePlan == 'starter') {
 
@@ -419,16 +419,37 @@ function actionInfoCards(type){
 planCheck = null;
 function discountByPlanCard(type, element){
 
+
     if(type != null){
+
+
         if(element.checked == true){
 
-            if(jQuery('[typePlan='+ type +']').length > 0){
+            if(jQuery('[typeplan='+ type +']').length > 0){
+
+                console.log('open');
 
                 if(planCheck != null && planCheck != type){
 
-                    var l = jQuery('#' + planCheck + ' .modePlanSelect').click();
+                    jQuery('#' + planCheck + ' .modePlanSelect').prop( "checked", false );
+
+                    jQuery('[typeplan='+ planCheck +']').css({
+                        'display': 'none'
+                    });
+                    jQuery('#'+ planCheck +' .usd').css({
+                        'display': 'block'
+                    });
+
+                    jQuery('#' + planCheck + ' .'+ planCheck).css({
+                            'display': 'none'
+                        });
+                        jQuery('#' + planCheck + ' .numerCost').css({
+                        'display': 'block'
+                    });
 
                 }
+
+                console.log('procede', type);
 
                 planCheck = type;
 
@@ -438,7 +459,7 @@ function discountByPlanCard(type, element){
                 jQuery('#' + planCheck + ' .numerCost').css({
                     'display': 'none'
                 });
-                jQuery('[typePlan='+ type +']').css({
+                jQuery('[typeplan='+ type +']').css({
                     'display': 'block'
                 });
                 jQuery('#'+ type +' .usd').css({
@@ -448,12 +469,13 @@ function discountByPlanCard(type, element){
                     'margin-bottom': '60' + 'px'
                 });
 
+                return;
             }
         }
         if(element.checked == false){
 
-            if(jQuery('[typePlan='+ type +']').length > 0){
-            jQuery('[typePlan='+ type +']').css({
+            if(jQuery('[typeplan='+ type +']').length > 0){
+            jQuery('[typeplan='+ type +']').css({
                 'display': 'none'
             });
             jQuery('#'+ type +' .usd').css({
@@ -465,18 +487,21 @@ function discountByPlanCard(type, element){
             });
 
             jQuery('#' + planCheck + ' .'+ type).css({
-                'display': 'none'
-            });
-            jQuery('#' + planCheck + ' .numerCost').css({
+                    'display': 'none'
+                });
+                jQuery('#' + planCheck + ' .numerCost').css({
                 'display': 'block'
             });
 
             planCheck = null;
 
-            }
 
+            return;
         }
+        }
+
     }
+
 
 }
 
