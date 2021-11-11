@@ -13,7 +13,6 @@
 
         <div class="sections">
 
-
             @php
 
                 $overlayMultiple = '<img src="' . App::setFilePath('/assets/images/overlays/stars_2.png') . '" class="overlayStars"><img src="' . App::setFilePath('/assets/images/overlays/overlay_exito.png') . '" class="overlayBase">';
@@ -36,20 +35,21 @@
 
             @endheader_t1
 
-
-
-
             @php
+
+                $t = ACF_CUSTOM::_getField( 'title_embed_case' );
+                $turl = ACF_CUSTOM::_getField( 'url_embed_case' );
+
                 $parameters = [
                     'classSection' => 'casoExitoPrincipal1',
-                    'description' => '<span class="greenBlueColor4">“Hemos aumentado la productividad de <br class="space"> nuestra fuerza de ventas en hasta un 70%”</span> <br class="space">
-                                                    <strong>Es increíble cómo el CRM de Escala</strong> nos ayuda a planificar <br class="space"> el día a día de contactos con nuestros leads.',
+                    // 'description' => '<span class="greenBlueColor4">“Escala nos ha ayudado a optimizar <br class="space"> la excelencia operacional.”</span>.',
+                    'description' => $t,
                     'byAm' => null,
                     'team' => null,
                     'image' => App::setFilePath('/assets/images/illustrations/team/fuerza_de_ventas.png'),
                     'button' => '
-                                    <a href="#lead-form" class="primaryButton hoverInEffect">
-                                      Ver caso de éxito
+                                    <a href="'.$turl.'" class="primaryButton hoverInEffect">
+                                        Ver caso de éxito
                                     </a>',
                 ];
             @endphp
@@ -57,8 +57,6 @@
             @contain_am_T1( $parameters )
 
             @endcontain_am_T1
-
-            {{-- exito 2 --}}
 
 
             @php
@@ -106,22 +104,22 @@
             @endcontain_text_image_T1
 
             @php
-            $query = array(
-                'post_type' => 'exitocaso',
-                'post_status' => 'publish',
-                'orderby' => 'rand',
-                'posts_per_page' => 1
-            );
-            $query = Posts::getPosts($query);
+
 
             $parameters = [
-                "posts" => $query,
+                "posts" => array(
+                    "image" => App::setFilePath('/assets/images/person/testimonialexito.png'),
+                    "text" => 'La herramienta es muy amigable, y permite que la gestión pueda realizarla <br class="space"> casi que cualquier persona con conocimientos básicos en plataformas digitales.',
+                    "autor" => 'Dayana Palacios',
+                    "position" => 'Directora de medios y marketing digital',
+                    "logo" => App::setFilePath('/assets/images/illustrations/others/Initiative-logo.png'),
+                ),
                 "classSection" => 'casoExitoPrincipal4',
                 "enableTitle" => true,
                 "titlePrincipal" => 'Somos la plataforma más completa y fácil de usar, <br class="space"> <span class="orangeColor">lo dicen nuestros clientes</span>',
             ]
-            @endphp
 
+            @endphp
             @testimonialExitoCaso_T1( $parameters )
 
             @endtestimonialExitoCaso_T1
@@ -132,7 +130,7 @@
             @php
                 $parameters = [
                     'classSection' => 'casoExitoPrincipal5',
-                    'title' => '<span class="greenBlueColor">Más de 120 empresas</span> <br class="space"> hispanas nos prefieren',
+                    'title' => '<span class="greenBlueColor">¡Los emprendedores</span> <br class="space"> hispanoamericanos nos prefieren!',
                     'textForm' => '¡Conoce cómo los ayudamos <br class="space"> a hacer crecer sus negocios!',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/illustrations/team/empresas.png'),

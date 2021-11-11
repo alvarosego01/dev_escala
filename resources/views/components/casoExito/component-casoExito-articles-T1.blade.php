@@ -57,7 +57,6 @@ posts
                             <a href="{!! App::setTypeUrl() !!}/exitocaso/{{ $item->post_name }}">
 
                                     {{-- <img src="{{ Posts::getPhoto($item->ID) }}" class="card-img-top" > --}}
-
                                 @php
                                     $i = ACF_CUSTOM::_getField('logoimg_caso_exito', $item->ID);
                                     $i = $i['url'];
