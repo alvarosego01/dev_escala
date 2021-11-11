@@ -250,6 +250,11 @@ class ACF_CUSTOM extends Controller
             );
             acf_add_local_field_group(
 
+                $this->settingsCasosExito3()
+
+            );
+            acf_add_local_field_group(
+
                 $this->settingsCategoryBase()
 
             );
@@ -454,19 +459,26 @@ class ACF_CUSTOM extends Controller
 
     }
 
-    private function settingsCasosExito2(){
+    private function settingsCasosExito3(){
 
         return array(
 
-            'key' => 'casos_exito_details',
-            'title' => 'Casos de éxito detalles',
+            'key' => 'casos_exito_others',
+            'title' => 'Casos de éxito template config',
             'fields' => array (
 
                 array (
-                    'key' => 'about_caso_exito',
-                    'label' => 'About',
-                    'name' => 'About',
-                    'type' => 'textarea',
+                    'key' => 'header_top_img',
+                    'label' => 'Header top image',
+                    'name' => 'Header top image',
+                    'type' => 'image',
+                ),
+
+                array (
+                    'key' => 'right_escala_asist',
+                    'label' => 'Assistant image',
+                    'name' => 'Assistant image',
+                    'type' => 'image',
                 ),
 
 
