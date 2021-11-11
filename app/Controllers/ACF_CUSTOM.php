@@ -250,6 +250,11 @@ class ACF_CUSTOM extends Controller
             );
             acf_add_local_field_group(
 
+                $this->settingsCasosExito3()
+
+            );
+            acf_add_local_field_group(
+
                 $this->settingsCategoryBase()
 
             );
@@ -453,8 +458,45 @@ class ACF_CUSTOM extends Controller
         );
 
     }
-    // post_type
-    // exitocaso
+
+    private function settingsCasosExito3(){
+
+        return array(
+
+            'key' => 'casos_exito_others',
+            'title' => 'Casos de éxito template config',
+            'fields' => array (
+
+                array (
+                    'key' => 'header_top_img',
+                    'label' => 'Header top image',
+                    'name' => 'Header top image',
+                    'type' => 'image',
+                ),
+
+                array (
+                    'key' => 'right_escala_asist',
+                    'label' => 'Assistant image',
+                    'name' => 'Assistant image',
+                    'type' => 'image',
+                ),
+
+
+            ),
+            'location' => array (
+                array (
+                    array (
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'exitocaso',
+                    ),
+                ),
+            ),
+
+        );
+
+    }
+
 
     private function settingsCategoryBase(){
 

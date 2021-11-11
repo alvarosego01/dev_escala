@@ -69,7 +69,19 @@
 
                                 <div class="containerImage">
 
+                                    @php
+                                    $i = ACF_CUSTOM::_getField('header_top_img', get_the_ID() );
+                                    $i = $i['url'];
+                                @endphp
+
+                                    @if (isset($i) && $i != null)
+                                    <img src="{{ $i }}" class="card-img-top" >
+
+                                    @else
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/navesingleexito.png') }}" class="card-img-top" >
+
+                                    @endif
+
 
 
                                 </div>
@@ -109,7 +121,19 @@
 
                             <div class="containerImage">
 
+                                @php
+                                $i = ACF_CUSTOM::_getField('header_top_img', get_the_ID() );
+                                $i = $i['url'];
+                            @endphp
+
+                                @if (isset($i) && $i != null)
+                                <img src="{{ $i }}" class="card-img-top" >
+
+                                @else
                                 <img src="{{ App::setFilePath('/assets/images/illustrations/others/icono-11.png') }}" class="card-img-top" >
+
+                                @endif
+
 
 
                             </div>

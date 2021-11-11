@@ -427,42 +427,39 @@ function discountByPlanCard(type, element){
 
             if(jQuery('[typeplan='+ type +']').length > 0){
 
-                console.log('open');
 
-                if(planCheck != null && planCheck != type){
+                // if(planCheck != null && planCheck != type){
 
-                    jQuery('#' + planCheck + ' .modePlanSelect').prop( "checked", false );
+                //     jQuery('#' + planCheck + ' .modePlanSelect').prop( "checked", false );
 
-                    jQuery('[typeplan='+ planCheck +']').css({
-                        'display': 'none'
-                    });
-                    jQuery('#'+ planCheck +' .usd').css({
-                        'display': 'block'
-                    });
+                //     jQuery('[typeplan='+ planCheck +']').css({
+                //         'display': 'none'
+                //     });
+                //     jQuery('#'+ planCheck +' .usd').css({
+                //         'display': 'block'
+                //     });
 
-                    jQuery('#' + planCheck + ' .'+ planCheck).css({
-                            'display': 'none'
-                        });
-                        jQuery('#' + planCheck + ' .numerCost').css({
-                        'display': 'block'
-                    });
+                //     jQuery('#' + planCheck + ' .'+ planCheck).css({
+                //             'display': 'none'
+                //         });
+                //         jQuery('#' + planCheck + ' .numerCost').css({
+                //         'display': 'block'
+                //     });
 
-                }
+                // }
 
-                console.log('procede', type);
+                    jQuery('.modePlanSelect').prop( "checked", true );
 
-                planCheck = type;
-
-                jQuery('#' + planCheck + ' .'+ type).css({
+                jQuery('.discountCost').css({
                     'display': 'block'
                 });
-                jQuery('#' + planCheck + ' .numerCost').css({
+                jQuery('.numerCost').css({
                     'display': 'none'
                 });
-                jQuery('[typeplan='+ type +']').css({
+                jQuery('[typeplan*="plan"]').css({
                     'display': 'block'
                 });
-                jQuery('#'+ type +' .usd').css({
+                jQuery('.usd').css({
                     'display': 'none'
                 });
                 jQuery('.price').css({
@@ -475,26 +472,26 @@ function discountByPlanCard(type, element){
         if(element.checked == false){
 
             if(jQuery('[typeplan='+ type +']').length > 0){
-            jQuery('[typeplan='+ type +']').css({
-                'display': 'none'
-            });
-            jQuery('#'+ type +' .usd').css({
-                'display': 'block'
-            });
+
+                jQuery('.modePlanSelect').prop( "checked", false );
+
+                jQuery('.discountCost').css({
+                    'display': 'none'
+                });
+                jQuery('.numerCost').css({
+                    'display': 'block'
+                });
+                jQuery('[typeplan*="plan"]').css({
+                    'display': 'none'
+                });
+                jQuery('.usd').css({
+                    'display': 'block'
+                });
+
 
             jQuery('.price').css({
                 'margin-bottom': '25' + 'px'
             });
-
-            jQuery('#' + planCheck + ' .'+ type).css({
-                    'display': 'none'
-                });
-                jQuery('#' + planCheck + ' .numerCost').css({
-                'display': 'block'
-            });
-
-            planCheck = null;
-
 
             return;
         }
