@@ -181,6 +181,10 @@ br.space
 
 .greenBlueColor
     color: $colorGreenBlue
+.greenBlueColor3
+    color: $colorGreenBlue3
+.greenBlueColor4
+    color: $colorGreenBlue4
     // color
 
 .blueColor
@@ -196,6 +200,9 @@ br.space
 
 .blueLightColor8
     color: $colorBlueLight8
+
+.blueLightColor10
+    color: $colorBlueLight10
 
 .grayColor
     color: $colorGrey
@@ -260,11 +267,11 @@ span.tag
     font-weight: 700
     font-family: Nunito
     @include responsivo(telefonoTable)
-        font-size: 22px!important
+        font-size: 22px
         // br
             // display: none!important
     @include responsivo(pcMedio)
-        font-size: 35px!important
+        font-size: 35px
         // br
         //     display: none!important
 
@@ -388,6 +395,9 @@ a[disabled]
     transition: $transitionButton
     transform: scale(1)
     font-family: Nunito
+    @include responsivo(telefonoTable)
+        font-size: 16px
+
 
 
 
@@ -404,15 +414,16 @@ a[disabled]
     transition: $transitionButton
     transform: scale(1)
     font-family: Nunito
-
     &:hover
         color: $colorOrange
+    @include responsivo(telefonoTable)
+        font-size: 16px
 
 .thinButton
     display: inline-block
     line-height: 1
     text-decoration: none
-    font-size: 20px
+    font-size: 18px
     line-height: 1
     background-color: $colorBlueLight
     color: grey
@@ -422,6 +433,25 @@ a[disabled]
     transition: $transitionButton
     transform: scale(1)
     font-family: Nunito
+    @include responsivo(telefonoTable)
+        font-size: 16px
+
+.thinButton2
+    display: inline-block
+    line-height: 1
+    text-decoration: none
+    font-size: 18px
+    line-height: 1
+    background-color: $colorBlueLight8
+    color: white
+    padding: 15px 25px
+    border-radius: 5px
+    width: fit-content
+    transition: $transitionButton
+    transform: scale(1)
+    font-family: Nunito
+    @include responsivo(telefonoTable)
+        font-size: 16px
 
 .secondaryButton
     font-size: 18px
@@ -440,6 +470,8 @@ a[disabled]
     justify-content: center
     align-content: center
     align-items: center
+    @include responsivo(telefonoTable)
+        font-size: 16px
 
 .hoverSecondaryButton
     &:hover
@@ -581,7 +613,7 @@ a[disabled]
         width: 50px!important
     .titleFormat
         font-family: Nunito
-        font-size: 21px
+        font-size: 22px
         line-height: normal
         font-weight: 700
         padding-top: 30px
@@ -802,6 +834,7 @@ footer
         font-size: 18px
         line-height: 29px
         font-weight: bold
+        padding-left: 7.5px
     ul
         list-style: none
         padding-left: 0
@@ -811,7 +844,7 @@ footer
             position: relative
             align-items: flex-start
             align-content: flex-start
-            margin-bottom: 5px!important
+            margin-bottom: 5px
             i
                 position: absolute
                 color: $colorOrange
@@ -822,6 +855,7 @@ footer
                 margin: auto 0
                 line-height: 1!important
                 height: fit-content!important
+
             span
                 padding-left: 7.5px
                 font-family: Nunito
@@ -834,17 +868,16 @@ footer
 
 
 .switchCustom
-    input
-        position: absolute
-        opacity: 0
     display: inline-block
     font-size: 20px
-    // height: 1.25em
-    // width: 2.25em
     width: 52.5px
     height: 30px
     background: $colorGreyLight4
     border-radius: 1em
+    $p: &
+    input
+        position: absolute
+        opacity: 0
 
     div
         height: 1em
@@ -860,6 +893,7 @@ footer
         margin-left: 5px
     input:checked + div
         transform: translate3d(100%, 0, 0)
+    // input:checked
 
 
 
@@ -968,6 +1002,7 @@ html
     width: 100%
 
 
+
 .sliderSelector
     -webkit-appearance: none
     width: 100%
@@ -1008,8 +1043,11 @@ input[type=range]
     -moz-apperance: none
     border-radius: 6px
     height: 5px
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(15%, #df7164), color-stop(15%, #d3d3d3))
+    width: 100%
+    background: rgb(211, 211, 211)
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(243, 79, 54)), from(rgb(211, 211, 211)))
     background-image: -moz-linear-gradient(left center, #DF7164 0%, #DF7164 15%, #d3d3d3 15%, #d3d3d3 100%)
+
     &::-moz-range-track
         border: none
         background: none
@@ -1043,7 +1081,15 @@ input[type=range]
         display: none!important
     @include responsivo(pcMedio)
         display: none!important
+    @include responsivo(general)
+        display: block!important
+    @include responsivo(resto)
+        display: block!important
 .mobileElement
+    @include responsivo(telefonoTable)
+        display: block!important
+    @include responsivo(pcMedio)
+        display: block!important
     @include responsivo(general)
         display: none!important
     @include responsivo(resto)
@@ -1052,8 +1098,19 @@ input[type=range]
 .desktopTabletElement
     @include responsivo(telefonoTable)
         display: none!important
+    @include responsivo(pcMedio)
+        display: block!important
+
+    @include responsivo(general)
+        display: block!important
+
+    @include responsivo(resto)
+        display: block!important
+
 
 .mobileSmallElement
+    @include responsivo(telefonoTable)
+        display: block!important
     @include responsivo(pcMedio)
         display: none!important
     @include responsivo(general)

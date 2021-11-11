@@ -78,7 +78,7 @@
 
 #homeBootstrap .customSection.sectionParent.homeSection0
     padding-top: 125px
-    padding-bottom: 0
+    padding-bottom: 25px
     background-color: $colorBlueLight
     // padding: 175px 0!important
     @include responsivo(telefonoTable)
@@ -118,10 +118,10 @@
                         padding-bottom: 50px!important
                     @include responsivo(general)
                         padding-bottom: 200px
-                        padding-top: 3.75%
+                        padding-top: 25px
                     @include responsivo(resto)
                         padding-bottom: 200px
-                        padding-top: 3.75%
+                        padding-top: 25px
                     .containElements
                         position: relative
                         padding-bottom: 100px
@@ -164,7 +164,7 @@
                             right: -12.5%
                             top: 30%
                             img
-                                height: 425px
+                                height: 400px
                                 margin-left: 0
                         @include responsivo(telefonoTable)
                             .principalBigTitle
@@ -1106,3 +1106,38 @@ body.template-open-webinar-escala-meeting header .elementor-container.elementor-
             background-color: #C4C4C4
             padding-left: 50px!important
             padding-right: 50px!important
+
+
+
+
+#specialFounder
+    position: relative
+
+    .specialText
+        display: flex
+        flex-direction: column
+        font-family: Nunito
+        font-style: normal
+        font-weight: bold
+        font-size: 16px
+        line-height: 20px
+        text-align: right
+        letter-spacing: -1px
+        color: #150D27
+        position: absolute
+        left: -200px
+        bottom: 0%
+        @include responsivo(telefonoTable)
+            position: unset
+            text-align: center
+            margin-bottom: 25px
+        @include responsivo(pcMedio)
+            position: unset
+            text-align: center
+        @include responsivo(specialTexts)
+            left: 100px!important
+            bottom: 5%
+        @include responsivo(general)
+            left: -200px
+
+

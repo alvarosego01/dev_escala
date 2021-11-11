@@ -240,6 +240,26 @@ class ACF_CUSTOM extends Controller
             );
             acf_add_local_field_group(
 
+                $this->settingsCasosExitoHome()
+
+            );
+            acf_add_local_field_group(
+
+                $this->settingsCasosExito()
+
+            );
+            acf_add_local_field_group(
+
+                $this->settingsCasosExito2()
+
+            );
+            acf_add_local_field_group(
+
+                $this->settingsCasosExito3()
+
+            );
+            acf_add_local_field_group(
+
                 $this->settingsCategoryBase()
 
             );
@@ -324,6 +344,199 @@ class ACF_CUSTOM extends Controller
         );
 
     }
+    private function settingsCasosExitoHome(){
+
+        return array(
+
+            'key' => 'casos_exito_settingsHome',
+            'title' => 'Casos de éxito opciones',
+            'fields' => array (
+
+                array (
+                    'key' => 'title_embed_case',
+                    'label' => 'Título Caso de éxito principal',
+                    'name' => 'Título Caso de éxito principal',
+                    'type' => 'textarea',
+                ),
+                array (
+                    'key' => 'url_embed_case',
+                    'label' => 'URL Caso de éxito principal',
+                    'name' => 'URL Caso de éxito principal',
+                    'type' => 'url',
+                ),
+
+            ),
+            'location' => array (
+                array (
+                    array (
+                        'param' => 'page_template',
+                        'operator' => '==',
+                        'value' => "views/template-caso-exito-home.blade.php",
+                    ),
+                ),
+            ),
+
+        );
+
+    }
+    private function settingsCasosExito(){
+
+        return array(
+
+            'key' => 'casos_exito_settings',
+            'title' => 'Casos de éxito opciones',
+            'fields' => array (
+                array (
+                    'key' => 'excerpt_single_caso_exito',
+                    'label' => 'Excerpt',
+                    'name' => 'Excerpt',
+                    'type' => 'textarea',
+                ),
+                array (
+                    'key' => 'logoimg_caso_exito',
+                    'label' => 'Logo mini image',
+                    'name' => 'Logo mini image',
+                    'type' => 'image',
+                ),
+                array (
+                    'key' => 'personimg_caso_exito',
+                    'label' => 'Person image',
+                    'name' => 'Person image',
+                    'type' => 'image',
+                ),
+                array (
+                    'key' => 'person_name_caso_exito',
+                    'label' => 'Person name',
+                    'name' => 'Person name',
+                    'type' => 'text',
+                ),
+                array (
+                    'key' => 'position_caso_exito',
+                    'label' => 'Person position',
+                    'name' => 'Person position',
+                    'type' => 'text',
+                ),
+                array (
+                    'key' => 'testimonial_caso_exito',
+                    'label' => 'Testimonial',
+                    'name' => 'Testimonial',
+                    'type' => 'textarea',
+                ),
+                array (
+                    'key' => 'video_caso_exito',
+                    'label' => 'Video url',
+                    'name' => 'Video url',
+                    'type' => 'url',
+                ),
+
+            ),
+            'location' => array (
+                array (
+                    array (
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'exitocaso',
+                    ),
+                ),
+            ),
+
+        );
+
+    }
+    private function settingsCasosExito2(){
+
+        return array(
+
+            'key' => 'casos_exito_details',
+            'title' => 'Casos de éxito detalles',
+            'fields' => array (
+
+                array (
+                    'key' => 'about_caso_exito',
+                    'label' => 'About',
+                    'name' => 'About',
+                    'type' => 'textarea',
+                ),
+
+                array (
+                    'key' => 'colaboradores_caso_exito',
+                    'label' => 'Colaboradores',
+                    'name' => 'Colaboradores',
+                    'type' => 'text',
+                ),
+                array (
+                    'key' => 'experienciaMKT_caso_exito',
+                    'label' => 'Experiencia en MKT',
+                    'name' => 'Experiencia en MKT',
+                    'type' => 'text',
+                ),
+                array (
+                    'key' => 'experienciaCMR_caso_exito',
+                    'label' => 'Experiencia en CMR',
+                    'name' => 'Experiencia en CMR',
+                    'type' => 'text',
+                ),
+                array (
+                    'key' => 'segmento_caso_exito',
+                    'label' => 'Segmento',
+                    'name' => 'Segmento',
+                    'type' => 'text',
+                ),
+
+
+            ),
+            'location' => array (
+                array (
+                    array (
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'exitocaso',
+                    ),
+                ),
+            ),
+
+        );
+
+    }
+
+    private function settingsCasosExito3(){
+
+        return array(
+
+            'key' => 'casos_exito_others',
+            'title' => 'Casos de éxito template config',
+            'fields' => array (
+
+                array (
+                    'key' => 'header_top_img',
+                    'label' => 'Header top image',
+                    'name' => 'Header top image',
+                    'type' => 'image',
+                ),
+
+                array (
+                    'key' => 'right_escala_asist',
+                    'label' => 'Assistant image',
+                    'name' => 'Assistant image',
+                    'type' => 'image',
+                ),
+
+
+            ),
+            'location' => array (
+                array (
+                    array (
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'exitocaso',
+                    ),
+                ),
+            ),
+
+        );
+
+    }
+
 
     private function settingsCategoryBase(){
 

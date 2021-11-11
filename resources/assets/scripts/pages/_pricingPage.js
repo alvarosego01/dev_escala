@@ -1,7 +1,11 @@
 
-
+var planSelect = null;
 
 var calculate = null;
+
+var device = null;
+
+var typeProcess = 0;
 
 // costos planes
 const _costStarter = 30;
@@ -20,7 +24,7 @@ var costFinal = 0;
 var costNoDiscount = 0;
 
 // type plan
-var typePlan = 'yearly';
+var typeplan = 'yearly';
 
 // escala de costos contactos
 
@@ -29,7 +33,7 @@ var escalaContactsStarter = [
     15,
     15,
     15,
-    10,
+    15,
     10,
     10,
     10,
@@ -55,31 +59,31 @@ var escalaContactsStarter = [
 
 var escalaContactsPro = [
     45,
-    25,
-    25,
-    25,
-    20,
-    20,
-    20,
-    20,
-    20,
-    20,
-    14,
-    14,
-    14,
-    14,
-    14,
+    15,
+    15,
+    15,
+    15,
     10,
     10,
     10,
     10,
     10,
-    8,
-    8,
-    8,
-    8,
-    8,
-    // 5,
+    7,
+    7,
+    7,
+    7,
+    7,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    // 3,
 ]
 
 
@@ -112,7 +116,7 @@ function getContactScale(n) {
         var x = n - 25;
 
         l.starter = l.starter + (x * 3);
-        l.pro = l.pro + (x * 5);
+        l.pro = l.pro + (x * 3);
 
     }
 
@@ -143,14 +147,14 @@ function convertUsers(data) {
     // _typePlan: "starter"
     // _userAccess: "5"
 
+    console.log('data._userAccess[typeProcess]', data._userAccess[typeProcess]);
+
     if (data._typePlan == 'starter') {
 
+        if (data._userAccess[typeProcess] > 1) {
 
-
-        if (data._userAccess > 1) {
-
-            var starter = (data._userAccess - 1) * 15;
-            var pro = (data._userAccess - 1) * 15 - 15;
+            var starter = (data._userAccess[typeProcess] - 1) * 15;
+            var pro = (data._userAccess[typeProcess] - 1) * 15 - 15;
 
             return {
                 starter: starter,
@@ -169,10 +173,10 @@ function convertUsers(data) {
 
     if (data._typePlan == 'pro') {
 
-        if (data._userAccess > 2) {
+        if (data._userAccess[typeProcess] > 2) {
 
-            var starter = (data._userAccess - 1) * 15;
-            var pro = (data._userAccess - 1) * 15 - 15;
+            var starter = (data._userAccess[typeProcess] - 1) * 15;
+            var pro = (data._userAccess[typeProcess] - 1) * 15 - 15;
 
             return {
                 starter: starter,
@@ -203,7 +207,7 @@ function typeCustomPay(type, e) {
     jQuery('.selectorPricingButton').removeClass('active');
     jQuery(e).addClass('active');
 
-    typePlan = type;
+    typeplan = type;
 
     var f = jQuery('form#formCalcGeneral');
     calculate = _serializeFormToObject(f);
@@ -213,6 +217,15 @@ function typeCustomPay(type, e) {
 
 }
 
+function redondeaAlAlza(x,r) {
+    xx = Math.floor(x/r)
+    if (xx!=x/r) {xx++}
+    return (xx*r)
+}
+
+
+
+
 function percentOfRange(value, lowLimit, limit, type, completeLowLimit, completeLimit) {
 
     if (type == 'rangeToNumber') {
@@ -220,7 +233,7 @@ function percentOfRange(value, lowLimit, limit, type, completeLowLimit, complete
 
         if (value == 0) {
 
-            jQuery('#contactsField').val(1000);
+            jQuery('.contactsField').val(1000);
             return 1000;
         }
 
@@ -228,12 +241,16 @@ function percentOfRange(value, lowLimit, limit, type, completeLowLimit, complete
 
         var valToPerc = ((value - lowLimit) / (limit - lowLimit)) * 100;
 
-        // var PercTonumber = (valToPerc*completeLimit)/100;
+
         var PercTonumber = (completeLimit - completeLowLimit) * (valToPerc / 100) + completeLowLimit;
+
 
         PercTonumber = Math.trunc(PercTonumber);
 
-        jQuery('#contactsField').val(PercTonumber);
+        PercTonumber = redondeaAlAlza(PercTonumber, -1000);
+
+
+        jQuery('.contactsField').val(PercTonumber);
 
 
         return PercTonumber;
@@ -249,12 +266,8 @@ function calculateRangeValue(data) {
 
     var range = 0;
 
-    range = data._rangeContacts;
+    range = data._rangeContacts[typeProcess];
 
-
-    // 1.000 -25.000 -50.000 -75.000 -100.000
-    //
-        // return percentOfRange(range, 0, 100, 'rangeToNumber', 1000, 100000);
 
         if (range >= 0 && range <= 25) {
 
@@ -289,11 +302,15 @@ function calculateFinal(data) {
     // _typePlan: "starter"
     // _userAccess: "5"
 
-    _contacts = converContacts(data._contactsField);
+    console.log('data._contactsField', data._contactsField);
+
+    _contacts = converContacts(data._contactsField[typeProcess]);
     _users = convertUsers(data);
 
+    console.log('lo que llega', data);
 
-    if (typePlan == 'monthly') {
+
+    if (typeplan == 'monthly') {
 
 
         if (data._typePlan == 'starter') {
@@ -313,7 +330,7 @@ function calculateFinal(data) {
 
     }
 
-    if (typePlan == 'yearly') {
+    if (typeplan == 'yearly') {
 
         if (data._typePlan == 'starter') {
 
@@ -327,7 +344,7 @@ function calculateFinal(data) {
             costFinal = _contacts.pro + _users.pro;
 
         }
-        discount = costFinal * 0.30;
+        discount = costFinal * 0.20;
         costNoDiscount = costFinal;
         costFinal = costFinal - discount;
         discount = discount.toFixed(2);
@@ -350,7 +367,247 @@ function calculateFinal(data) {
 
 }
 
+
+function actionInfoCards(type){
+
+    if(type == 'open'){
+
+        jQuery('.extendButton').css({
+            'display': 'none'
+        });
+
+        jQuery('.hideButton').css({
+            'display': 'block'
+        });
+
+        jQuery('.featuresPrice').css({
+            'display': 'none'
+        });
+
+        jQuery('.featuresPrice.extendDetails').css({
+            'display': 'block'
+        });
+
+
+    }
+
+    if(type == 'close'){
+
+        jQuery('.hideButton').css({
+            'display': 'none'
+        });
+
+        jQuery('.extendButton').css({
+            'display': 'block'
+        });
+
+        jQuery('.featuresPrice').css({
+            'display': 'block'
+        });
+
+        jQuery('.featuresPrice.extendDetails').css({
+            'display': 'none'
+        });
+
+
+
+
+    }
+
+}
+
+planCheck = null;
+function discountByPlanCard(type, element){
+
+
+    if(type != null){
+
+
+        if(element.checked == true){
+
+            if(jQuery('[typeplan='+ type +']').length > 0){
+
+
+                // if(planCheck != null && planCheck != type){
+
+                //     jQuery('#' + planCheck + ' .modePlanSelect').prop( "checked", false );
+
+                //     jQuery('[typeplan='+ planCheck +']').css({
+                //         'display': 'none'
+                //     });
+                //     jQuery('#'+ planCheck +' .usd').css({
+                //         'display': 'block'
+                //     });
+
+                //     jQuery('#' + planCheck + ' .'+ planCheck).css({
+                //             'display': 'none'
+                //         });
+                //         jQuery('#' + planCheck + ' .numerCost').css({
+                //         'display': 'block'
+                //     });
+
+                // }
+
+                    jQuery('.modePlanSelect').prop( "checked", true );
+
+                jQuery('.discountCost').css({
+                    'display': 'block'
+                });
+                jQuery('.numerCost').css({
+                    'display': 'none'
+                });
+                jQuery('[typeplan*="plan"]').css({
+                    'display': 'block'
+                });
+                jQuery('.usd').css({
+                    'display': 'none'
+                });
+                jQuery('.price').css({
+                    'margin-bottom': '60' + 'px'
+                });
+
+                return;
+            }
+        }
+        if(element.checked == false){
+
+            if(jQuery('[typeplan='+ type +']').length > 0){
+
+                jQuery('.modePlanSelect').prop( "checked", false );
+
+                jQuery('.discountCost').css({
+                    'display': 'none'
+                });
+                jQuery('.numerCost').css({
+                    'display': 'block'
+                });
+                jQuery('[typeplan*="plan"]').css({
+                    'display': 'none'
+                });
+                jQuery('.usd').css({
+                    'display': 'block'
+                });
+
+
+            jQuery('.price').css({
+                'margin-bottom': '25' + 'px'
+            });
+
+            return;
+        }
+        }
+
+    }
+
+
+}
+
+
+function planSelectProcess(plan){
+
+    if(plan == 'plan1'){
+        jQuery('#checkStarter').click();
+        planSelect = plan;
+        jQuery('small[mobPlan]').text('Plan Starter');
+        jQuery('[alertPlanPro]').css({
+            'display': 'block'
+        });
+        setConfigModeSelect('starter')
+    }
+    if(plan == 'plan2'){
+        jQuery('#checkPro').click();
+        planSelect = plan;
+        jQuery('small[mobPlan]').text('Plan Pro');
+        jQuery('[alertPlanPro]').css({
+            'display': 'block'
+        });
+        setConfigModeSelect('pro')
+    }
+    if(plan == 'plan3'){
+
+        planSelect = plan;
+
+    jQuery('[regularPlansCalc]').css({
+        'display': 'none'
+    });
+    jQuery('[enterprisePlanCalc]').css({
+        'display': 'block'
+    });
+    return;
+
+    }
+
+    jQuery('[regularPlansCalc]').css({
+        'display': 'block'
+    });
+    jQuery('[enterprisePlanCalc]').css({
+        'display': 'none'
+    });
+
+
+}
+
+function setConfigModeSelect(element){
+    // starter
+    // pro
+    let l = jQuery(element).val();
+
+    console.log('typeProcess', typeProcess);
+
+    if(l == 'starter'){
+
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').attr('min', '0');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val('0');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').css({
+            'background-image': 'none'
+        });
+
+
+        jQuery('[scaleStarter]').css({
+            'display': 'flex'
+        });
+        jQuery('[scalePro]').css({
+            'display': 'none'
+        });
+
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '1000');
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val('1000');
+
+    }
+
+    if(l == 'pro'){
+
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').attr('min', '2');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val('2');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').css({
+            'background-image': 'none'
+        });
+
+        jQuery('[scaleStarter]').css({
+            'display': 'none'
+        });
+        jQuery('[scalePro]').css({
+            'display': 'flex'
+        });
+
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '2000');
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val('2000');
+
+    }
+
+    // jQuery("#formCalcGeneral")[0].reset()
+
+
+    console.log(jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val());
+    console.log(jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val());
+
+}
+
 jQuery(document).ready(function () {
+
+
+    device = deviceType();
+
 
     jQuery("input[type=range]").load(function (e) {
         // Handler for .load() called.
@@ -387,18 +644,42 @@ jQuery(document).ready(function () {
     });
 
 
-    jQuery("form#formCalcGeneral").change(function (e) {
+    jQuery("form#formCalcGeneral").change( async function (e) {
         e.preventDefault();
+
+        console.log('jQuery(e.target)', jQuery(e.target) ) ;
+
+        if ( jQuery(e.target).attr('typeProcess') ) {
+
+            typeProcess = jQuery(e.target).attr('typeProcess');
+
+        }
 
         calculate = _serializeFormToObject(e.currentTarget)
 
-        if (jQuery(e.target).is('#rangeContacts')) {
+        if (jQuery(e.target).is('.rangeContacts')) {
 
-            calculate._contactsField = calculateRangeValue(calculate);
+            console.log('e.target',e.target);
+            calculate._contactsField[typeProcess] = calculateRangeValue(calculate);
 
         }
 
         calculateFinal(calculate);
+
+        // var m = jQuery('input.contactsField[typeProcess='+typeProcess+']').val();
+        // if( m < 2000 ){
+
+        //     jQuery('input#checkPro').attr('disabled', true);
+
+        //     jQuery('input#checkStarter').click();
+
+        // }
+
+        // if( m >= 2000 ){
+
+        //     jQuery('input#checkPro').attr('disabled', false);
+
+        // }
 
 
 

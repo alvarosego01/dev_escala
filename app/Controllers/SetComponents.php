@@ -20,7 +20,9 @@ class SetComponents extends Controller
             $this->setCallToActionsComponents(),
             $this->setContainComponents(),
             $this->setBlogComponents(),
-            $this->setNavbarsComponents()
+            $this->setNavbarsComponents(),
+            $this->setExitoCasoComponents(),
+
         );
 
 
@@ -44,6 +46,16 @@ class SetComponents extends Controller
             'components.subscribers.component-subscribers-T1' => 'subscribers_T1',
             'components.blog.component-blog-slideshow-T1' => 'slideshowBlog_T1',
             'components.blog.component-blog-articles-T1' => 'articlesBlog_T1'
+        );
+    }
+
+    private function setExitoCasoComponents()
+    {
+
+        return array(
+
+            'components.casoExito.component-casoExito-articles-T1' => 'articlesExitoCaso_T1',
+            'components.casoExito.component-casoExito-testimonial-T1' => 'testimonialExitoCaso_T1'
         );
     }
 
@@ -78,6 +90,7 @@ class SetComponents extends Controller
             'components.contain.info.component-info-aio-5steps' => 'contain_aio5',
             'components.contain.info.component-info-4steps-loading' => 'contain_4steps_loading',
             'components.contain.info.component-info-text-image-T1' => 'contain_text_image_T1',
+            'components.contain.info.component-info-testimonial-image-T1' => 'contain_testimonial_T1',
             'components.contain.info.component-info-FAQ-T1' => 'contain_FAQ_T1',
             'components.contain.info.component-info-accordion-T1' => 'contain_accordion_T1',
             'components.contain.info.component-info-5-cards-T1' => 'contain_5_cards_T1',
@@ -176,6 +189,9 @@ class SetComponents extends Controller
                 "views/template-landing-correos-masivos.blade.php",
                 "views/template-landing-incredible-no-program.blade.php",
                 "views/template-landing-incredible-am.blade.php",
+                "views/template-landing-landingPages.blade.php",
+                "views/template-landing-landingPages2.blade.php",
+
 
             );
         }
@@ -191,11 +207,21 @@ class SetComponents extends Controller
 
         if ($type == 'home') {
 
-            return array(
+           return array(
 
                 "views/template-home.blade.php",
 
             );
+
+        }
+        if ($type == 'casoExito') {
+
+           return array(
+
+            "views/template-caso-exito-home.blade.php",
+            "views/single-exitocaso.blade.php",
+
+        );
 
         }
         if ($type == 'all') {
@@ -209,6 +235,8 @@ class SetComponents extends Controller
                 "views/template-landing-correos-masivos.blade.php",
                 "views/template-landing-incredible-no-program.blade.php",
                 "views/template-landing-incredible-am.blade.php",
+                "views/template-landing-landingPages.blade.php",
+                "views/template-landing-landingPages2.blade.php",
                 "views/template-escalaVentas-ventas.blade.php",
                 "views/template-escalaMarketing-marketing.blade.php",
                 "views/template-func-page-builder.blade.php",
@@ -223,8 +251,10 @@ class SetComponents extends Controller
                 "views/template-open-webinar-escala.blade.php",
                 "views/template-open-webinar-escala-meeting.blade.php",
                 "views/template-blog-home.blade.php",
+                "views/template-caso-exito-home.blade.php",
                 "views/template-blog-category.blade.php",
                 "views/single-post.blade.php",
+                "views/single-exitocaso.blade.php",
                 "views/template-zoom-demo-home.blade.php",
                 "views/template-zoom-demo-home-landing.blade.php",
                 "views/template-zoom-demo-home-step1.blade.php",

@@ -150,6 +150,11 @@ if (!$threeCol) {
             <div style="background-image: url('{{ $overlayImage }}')" class="backgroundPlanets">
             </div>
         @endif
+            @if ( isset($overlayMultiple) && $overlayMultiple != null)
+
+            {!! $overlayMultiple !!}
+
+        @endif
 
         </div>
 
@@ -265,6 +270,12 @@ if (!$threeCol) {
             </section>
 
         </div>
+
+        @if ( isset($overlayMultiple) && $overlayMultiple != null)
+
+            {!! $overlayMultiple !!}
+
+        @endif
 
     </section>
 

@@ -86,7 +86,7 @@
                     @include responsivo(telefonoTable)
                         // display: none
                         img
-                            height: 225px!important
+                            height: 225px
                         .principalBigTitle,
                         .principalBigText,
                         .containerImage
@@ -252,7 +252,12 @@
                 justify-content: center
                 align-content: center
                 img
-                    height: 225px
+                    height: 175px
+                    @include responsivo(telefonoTable)
+                        height: 150px
+                    @include responsivo(pcMedio)
+                        height: 150px
+
                 @include responsivo(telefonoTable)
                     position: unset
                 @include responsivo(pcMedio)
@@ -275,14 +280,14 @@
                 h1
                     font-family: Nunito
                     font-style: normal
-                    font-weight: bold
+                    font-weight: 800
                     font-size: 30px
                     line-height: 32px
                     text-align: center
                     span
                         font-family: Nunito
                         font-style: normal
-                        font-weight: 600
+                        font-weight: 700
                         font-size: 27px
                         line-height: 30px
                         text-align: center
@@ -293,11 +298,11 @@
                         font-size: 22px!important
                         line-height: 25px
                         span
-                            font-size: 17px
+                            font-size: 20px
                             line-height: 20px
                     @include responsivo(pcMedio)
                         text-align: center
                         margin-bottom: 12.5px
                         font-size: 28px!important
                         span
-                            font-size: 24px
+                            font-size: 20px

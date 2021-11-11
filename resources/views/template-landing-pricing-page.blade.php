@@ -58,8 +58,8 @@ $parameters = array(
 @php
 $parameters = array(
  'classSection' => 'landingPricingPage2',
- 'titlePrincipal' => '<span class="greenBlueColor">Conoce los beneficios de nuestros planes</span>',
- 'subTitlePrincipal' => 'Cada uno de nuestros planes tiene las funcionalidades de marketing <br> digital y ventas para acelerar el crecimiento de tu negocio. <br> Solo inviertes en lo que necesitas.'
+ 'titlePrincipal' => '<span class="blueColor">Conoce los beneficios <br class="mobileSmallElement"> de nuestros planes</span>',
+ 'subTitlePrincipal' => 'Cada uno de nuestros planes tiene las funcionalidades de <br class="mobileSmallElement"> marketing <br class="desktopTabletElement"> digital y ventas para acelerar el crecimiento de tu <br class="mobileSmallElement"> negocio.<br class="desktopTabletElement">Solo inviertes en lo que necesitas..'
 ) ;
 @endphp
 
@@ -81,22 +81,27 @@ $parameters = array(
 
           <div class="el col-md-12 col-lg-6 first">
             <div class="element">
-                 <div class="containerImage">
+
+            <div class="had">
+
+              <h3 class="secondaryTitle colorDarkGrey3">
+                Servicio
+              </h3>
+
+            </div>
+
+            <div class="info">
+
+
+            <div class="referImage containerImage">
 
               <img src="{!! App::setFilePath('/assets/images/illustrations/team/asesor_2.png') !!}" alt="" loading="lazy">
 
 
             </div>
 
-            <div class="info">
-
-            <h3 class="secondaryTitle blueColor">
-              Servicio
-            </h3>
-
-
         <p class="primaryText grayColorTexts">
-          Atendemos a tus preguntas y necesidades <br> para que aproveches al máximo la plataforma.
+          Atendemos a tus preguntas y necesidades <br class="space"> para que aproveches al máximo la <br class="space"> plataforma.
         </p>
 
             <div class="listCustom">
@@ -143,30 +148,35 @@ $parameters = array(
               </ul>
             </div>
 
+          </div>
 
-            </div>
+
+
           </div>
           </div>
           <div class="el col-md-12 col-lg-6">
             <div class="element">
-                 <div class="containerImage">
 
-              <img src="{!! App::setFilePath('/assets/images/illustrations/others/partenon_1.png') !!}" alt="" loading="lazy">
-
-
-            </div>
-
-
-
-            <div class="info">
-            <h3 class="secondaryTitle blueColor">
+            <div class="had">
+              <h3 class="secondaryTitle colorDarkGrey3">
               Entrenamiento
             </h3>
 
+            </div>
+
+            <div class="info">
+
+
+            <div class="referImage containerImage">
+
+              <img src="{!! App::setFilePath('/assets/images/illustrations/others/partenon_1.png') !!}" alt="" loading="lazy">
+
+            </div>
 
         <p class="primaryText grayColorTexts">
-          Te apoyamos a hacer crecer tu negocio de manera <br>
-          rentable, sostenible y escalable.
+          Te apoyamos a hacer crecer tu negocio <br class="space"> de manera rentable, sostenible y escalable.
+          <br class="desktopElement">
+          <br class="desktopElement">
         </p>
 
 
@@ -188,14 +198,14 @@ $parameters = array(
                     Acompañamiento personalizado
                   </span>
                 </li>
-                <li style="visibility: hidden">
+                <li class="desktopElement" style="visibility: hidden">
                   <span><br class="space"></span>
                 </li>
 
               </ul>
             </div>
-            <br>
-            <br>
+            <br class="desktopElement">
+            <br class="desktopElement">
             <div class="listCustom">
               <h4 class="thirdTitle">
                 PLAN PRO / ENTERPRISE
@@ -219,10 +229,9 @@ $parameters = array(
               </ul>
             </div>
 
-
-
-
             </div>
+
+
           </div>
           </div>
 
@@ -261,32 +270,33 @@ $parameters = array(
         <div class="row">
 
           <div class="info col-md-12 col-lg-6">
+
             <div class="containerImage">
 
               <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector.png') !!}" alt="" loading="lazy">
 
-
             </div>
 
             <p class="text primaryText grayColorTexts">
-              Escala tiene el email builder más amigable que he utilizado en los <br> últimos años, y su equipo está comprometido a mantener la <br> plataforma en constante actualización en el dinámico mundo digital.
+              Escala tiene el email builder más amigable que he <br class="mobileSmallElement"> utilizado en los <br class="desktopTabletElement"> últimos años, y su equipo está <br class="mobileSmallElement"> comprometido a mantener la <br class="desktopTabletElement"> plataforma en constante <br class="mobileSmallElement"> actualización en el dinámico mundo digital.
             </p>
 
 
-            <p class="subText primaryText grayColorTexts">
+            <div class="subText model1 primaryText grayColorTexts">
+
+            <div class="containerImage">
+
+              <img src="{!! App::setFilePath('/assets/images/illustrations/others/Publicidad-Comercial21.png') !!}" alt="" loading="lazy">
+
+          </div>
+
               <span>
-                Verónica Bolaños <br>
-                <small>Account Manager</small>
+                Verónica Bolaños <br class="space">
+                <small>Account Manager / Publicidad Comercial</small>
               </span>
-              <span>
-                Publicidad Comercial
-              </span>
-            </p>
+            </div>
 
 
-            <a class="hiperButtonGreenBlue" >
-              Probar Escala ahora
-            </a>
 
 
 
@@ -318,8 +328,8 @@ $parameters = array(
   'classSection' => 'landingPricingPage6',
   'backgroundImageFile' => null,
   'enableTitle' => false,
-  'img' =>  App::setFilePath('/assets/images/person/am/andres_otto.png'),
-  'title' => '<span class="greenBlueColor">En Escala hay un plan</span> <br class="space"> del tamaño de <br class="space"> tus sueños',
+  'img' =>  App::setFilePath('/assets/images/person/am/am_pricing.png'),
+  'title' => 'En Escala hay un plan <br class="space"> del tamaño de tus sueños',
   'text' => null,
   'enableButton' => true,
   'urlButton' => '#lead-form',

@@ -50,6 +50,12 @@
                     {!! $title !!}
                 </h2>
 
+                @if ( isset($subTitle) && $subTitle != null )
+
+                    {!! $subTitle !!}
+
+                @endif
+
             </div>
 
         </section>

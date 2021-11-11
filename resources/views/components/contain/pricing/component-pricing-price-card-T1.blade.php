@@ -19,12 +19,16 @@
 
 $items = [
     [
+        'name' => 'plan1',
         'type' => 'master',
         'title' => 'Plan <span class="greenBlueColor">Starter</span>',
         'price' => 'A partir de <br class="space">
         <span class="cost">
             <i class="fas fa-dollar-sign"></i>
-            <span>30</span>
+            <span class="numerCost">30</span>
+            <span
+            style="display: none"
+            class="discountCost">24</span>
             <span class="usd">
                 USD
             </span>
@@ -34,14 +38,28 @@ $items = [
         'textMiddle' => null,
         'button' => true,
         'textButton' => 'Prueba Escala ahora',
-        'details' => [
+        'extendInfoButton' => true,
+        'customClasses' => 'cardPlan1',
+        'discountTest' => '
+        <p class="primaryText">
+                <span class="ncost">
+                    usd/mes
+                </span>
+                <span class="t1">Pago total anual <span class="priceDotted">360 $USD</span></span>
+                <span class="t2">
+                    <strong class="priceSaves">
+                        Con descuento 288 $USD
+                    </strong>
+                </span>
+        </p>',
+        'extendDetails' => [
             [
                 'title' => 'Landing page',
                 'items' => ['Páginas: <strong>ilimitadas</strong>', 'Subdominio personalizado', 'Dominios propios: <strong>1</strong>'],
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <strong>5.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => ['Emails marketing al mes: <br class="space"> <strong>5.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
@@ -53,7 +71,7 @@ $items = [
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <strong>1.000</strong>', 'Usuarios de venta: <strong>1</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>1.000</strong>', 'Usuarios de venta: <strong>1</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Anuncios Digitales',
@@ -61,17 +79,27 @@ $items = [
             ],
             [
                 'title' => 'Analíticas',
-                'items' => ['Dashboards de vendedores'],
+                'items' => ['Dashboard de <strong>administradores y vendedores</strong>'],
+            ],
+        ],
+        'details' => [
+            [
+                'title' => null,
+                'items' => ['Usuarios de venta: <strong>1</strong>', 'Contactos en base de datos: <strong>1.000.000</strong>', 'Emails marketing al mes: <strong>5.000</strong>', 'Dominios propios: <strong>1</strong>', 'Cuentas de Facebook Ads Manager: <strong>1</strong>'],
             ],
         ],
     ],
     [
+        'name' => 'plan2',
         'type' => 'master',
         'title' => 'Plan <span class="orangeColor">Pro</span>',
         'price' => 'A partir de <br class="space">
         <span class="cost">
             <i class="fas fa-dollar-sign"></i>
-            <span>45</span>
+            <span class="numerCost">60</span>
+            <span
+            style="display: none"
+            class="discountCost">48</span>
             <span class="usd">
                 USD
             </span>
@@ -81,14 +109,29 @@ $items = [
         'textMiddle' => null,
         'button' => true,
         'textButton' => 'Prueba Escala ahora',
-        'details' => [
+        'extendInfoButton' => true,
+        'customClasses' => 'cardPlan2',
+        'discountTest' => '
+        <p class="primaryText">
+
+                <span class="ncost">
+                    usd/mes
+                </span>
+                <span class="t1">Pago total anual <span class="priceDotted">720 $USD</span></span>
+                <span class="t2">
+                    <strong class="priceSaves">
+                        Con descuento 576 $USD
+                    </strong>
+                </span>
+        </p>',
+        'extendDetails' => [
             [
                 'title' => 'Landing page',
                 'items' => ['Páginas: <strong>ilimitadas</strong>', 'Subdominio personalizado', 'Dominios propios: <strong>5</strong>'],
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <strong>10.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => ['Emails marketing al mes: <br class="space"> <strong>10.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
@@ -100,7 +143,7 @@ $items = [
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong> 1.000.000</strong>', 'Contactos de marketing: <strong>1.000</strong>', 'Usuarios de venta: <strong>2</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => ['Contactos en base de datos: <strong> 1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>1.000</strong>', 'Usuarios de venta: <strong>2</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Anuncios Digitales',
@@ -108,33 +151,38 @@ $items = [
             ],
             [
                 'title' => 'Analíticas',
-                'items' => ['Dashboard de administrador', 'Dashboards de vendedores'],
+                'items' => ['Dashboard de <strong>administradores y vendedores</strong>'],
+            ],
+        ],
+        'details' => [
+            [
+                'title' => null,
+                'items' => ['Usuarios de venta: <strong>2</strong>', 'Contactos en base de datos: <strong>1.000.000</strong>', 'Emails marketing al mes: <strong>10.000</strong>', 'Dominios propios: <strong>5</strong>', 'Cuentas de Facebook Ads Manager: <strong>3</strong>'],
             ],
         ],
     ],
     [
+        'name' => 'plan3',
         'type' => 'master',
         'title' => 'Plan <span class="greenBlueColor">Enterprise</span>',
-        'price' => 'A partir de <br class="space">
-        <span class="contactos">
-            <span>CIEN MIL</span>
-            <span class="c">
-                contactos
-            </span>
+        'price' => '<span class="contactos">
+            <span><i class="fas fa-dollar-sign"></i> CONSULTAR</span>
         </span>',
         'typePrice' => null,
         'middleType' => null,
-        'textMiddle' => 'Todas las herramientas que necesitas <br class="space"> sin límites de uso o cantidad.',
+        'textMiddle' => 'Contáctanos para crear un plan hecho<br class="space">a la medida de tu necesidades',
         'button' => true,
         'textButton' => 'Habla con un asesor',
-        'details' => [
+        'customClasses' => 'cardPlan3',
+        'extendInfoButton' => true,
+        'extendDetails' => [
             [
                 'title' => 'Landing page',
                 'items' => ['Páginas: <strong>ilimitadas</strong>', 'Subdominio personalizado', 'Dominios propios: <strong>10</strong>'],
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <strong> 20 x contactos de marketing</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => ['Emails marketing al mes: <br class="space"> <strong> 20 x contactos de marketing</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
@@ -146,7 +194,7 @@ $items = [
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong> 1.000.000</strong>', 'Contactos de marketing: <strong>A partir de 100.000</strong>', 'Usuarios de venta: <strong>10</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => ['Contactos en base de datos: <strong> 1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>A partir de 100.000</strong>', 'Usuarios de venta: <strong>10</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Anuncios Digitales',
@@ -154,7 +202,20 @@ $items = [
             ],
             [
                 'title' => 'Analíticas',
-                'items' => ['Dashboard de administrador', 'Dashboards de vendedores'],
+                'items' => ['Dashboard de <strong>administradores y vendedores</strong>'],
+            ],
+        ],
+        'details' => [
+            [
+                'title' => null,
+                'items' => [
+                    'Usuarios de venta: <strong>10</strong>',
+                    'Contactos en base de datos: <strong>1.000.000</strong>',
+                    'Emails marketing al mes: <br class="space">
+                    <strong>20 x contactos de marketing</strong>',
+                    'Dominios propios: <strong>10</strong>',
+                    'Cuentas de Facebook Ads Manager: <strong>5</strong>',
+                ],
             ],
         ],
     ],
@@ -180,11 +241,11 @@ $items = [
 
                     @if ($subTitlePrincipal != null)
 
-                    <p class="primaryText colorDarkGrey3">
-                        {!! $subTitlePrincipal !!}
-                    </p>
+                        <p class="primaryText colorDarkGrey3">
+                            {!! $subTitlePrincipal !!}
+                        </p>
 
-                @endif
+                    @endif
 
 
                 </div>
@@ -192,124 +253,441 @@ $items = [
             </section>
         @endif
 
-        <section class="innerSectionElement sct2">
+        <section class="desktopElement pcVersion innerSectionElement sct2">
 
             <div class="containElements row">
 
                 @if (isset($items) && count($items) > 0)
 
                     @foreach ($items as $item)
-                        <div class="col-md-12 col-lg-4 elementParent">
+                        <div id="{{ $item['name'] }}" class="col-md-12 col-lg-4 elementParent">
 
-                        <div class="elementPrice">
+                            <div class="elementPrice @if (isset($item['customClasses']) && $item['customClasses'] != '') {!! $item['customClasses'] !!} @endif">
 
-                            <div class="had">
-                                <h3 class="secondaryTitle blackColor">
-                                    {!! $item['title'] !!}
-                                </h3>
-                            </div>
+                                <div class="had">
+                                    <h3 class="secondaryTitle blackColor">
+                                        {!! $item['title'] !!}
+                                    </h3>
+                                </div>
 
-                            <div class="elementBody">
+                                <div class="elementBody">
 
 
-                            <div class="price">
+                                    <div
+                                    style="margin-bottom: 25px"
+                                    class="price">
 
-                                <p>
+                                        <p>
 
-                                    {!! $item['price'] !!}
+                                            {!! $item['price'] !!}
 
-                                </p>
 
-                            </div>
 
-                            <div class="middle">
+                                        </p>
 
-                                <div class="innerMiddle">
-
-                                    @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
-
-                                    <div class="selectorSwitch">
-                                        <small>
-                                            Mensual
-                                        </small>
-                                        <label class="switchCustom"><input value="1" type="checkbox" />
-                                            <div></div>
-                                        </label>
-                                        <small>
-                                            Anual
-                                        </small>
                                     </div>
 
-                                @endif
+                                    <div class="middle">
 
-                                @if (isset($item['textMiddle']) && $item['textMiddle'] != null)
+                                        <div class="innerMiddle">
 
-                                <p class="primaryText grayColorTexts">
-                                        {!! $item['textMiddle'] !!}
-                                    </p>
+                                            @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
 
+                                                @if (isset($item['discountTest']) && $item['discountTest'] != null)
+
+                                                    <div class="extraPriceInfo">
+
+                                                        <div style="display: none;" typeplan="{{ $item['name'] }}"
+                                                            class="discountData">
+                                                            {!! $item['discountTest'] !!}
+                                                        </div>
+                                                    </div>
+
+                                                @endif
+
+                                                <div class="selectorSwitch">
+                                                    <small>
+                                                        Mensual
+                                                    </small>
+                                                    <label class="switchCustom">
+                                                        <input
+                                                            class="modePlanSelect"
+                                                            onclick="discountByPlanCard('{{ $item['name'] }}', this)"
+                                                            value="1" type="checkbox" />
+                                                        <div></div>
+                                                    </label>
+                                                    <small>
+                                                        Anual
+                                                    </small>
+                                                </div>
+
+                                            @endif
+
+                                            @if (isset($item['textMiddle']) && $item['textMiddle'] != null)
+
+                                                <p class="primaryText grayColorTexts">
+                                                    {!! $item['textMiddle'] !!}
+                                                </p>
+
+
+                                            @endif
+
+                                        </div>
+                                    </div>
+
+                                    @if (isset($item['button']) && $item['button'] == true)
+
+                                        <div class="buttonSection">
+
+                                            <a class="btn-popup-header primaryButton hoverInEffect">
+                                                {!! $item['textButton'] !!}
+                                            </a>
+
+                                        </div>
+
+                                    @endif
+
+                                    @if (isset($item['details']) && count($item['details'] > 0))
+
+                                        <div style="display: block" class="featuresPrice short">
+
+                                            @foreach ($item['details'] as $item2)
+
+                                                <div class="listCustom">
+                                                    @if ($item2['title'] != null)
+                                                        <h4 class="thirdTitle">
+                                                            {!! $item2['title'] !!}
+                                                        </h4>
+                                                    @endif
+                                                    <ul>
+
+                                                        @if (isset($item2['items']) && count($item2['items']) > 0)
+
+                                                        @endif
+                                                        @foreach ($item2['items'] as $item3)
+
+                                                            <li>
+                                                                <i class="fa fa-check" aria-hidden="true"></i>
+                                                                <span class="blueColor">
+                                                                    {!! $item3 !!}
+                                                                </span>
+                                                            </li>
+
+                                                        @endforeach
+                                                    </ul>
+                                                </div>
+                                                <br class="space">
+                                                <br class="space">
+
+                                            @endforeach
+
+                                        </div>
+
+                                    @endif
+
+                                    @if (isset($item['extendDetails']) && count($item['extendDetails'] > 0))
+
+                                        <div style="display: none" class="featuresPrice extendDetails">
+
+                                            @foreach ($item['extendDetails'] as $item2)
+
+                                                <div class="listCustom">
+                                                    @if ($item2['title'] != null)
+                                                        <h4 class="thirdTitle">
+                                                            {!! $item2['title'] !!}
+                                                        </h4>
+                                                    @endif
+                                                    <ul>
+
+                                                        @if (isset($item2['items']) && count($item2['items']) > 0)
+
+                                                        @endif
+                                                        @foreach ($item2['items'] as $item3)
+
+                                                            <li>
+                                                                <i class="fa fa-check" aria-hidden="true"></i>
+                                                                <span class="blueColor">
+                                                                    {!! $item3 !!}
+                                                                </span>
+                                                            </li>
+
+                                                        @endforeach
+                                                    </ul>
+                                                </div>
+                                                <br class="space">
+                                                {{-- <br class="space"> --}}
+
+                                            @endforeach
+
+                                        </div>
+
+                                    @endif
+                                    @if (isset($item['extendInfoButton']) && count($item['extendInfoButton'] == true))
+
+                                        <div class="extendInfoButton">
+
+                                            <div class="buttonSection">
+
+                                                <a onclick="actionInfoCards('open')" class="extendButton">
+                                                    Ver más
+                                                </a>
+                                                {{-- style="display: none" --}}
+                                                <a onclick="actionInfoCards('close')" style="display: none;"
+                                                    class="hideButton">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/arrowClose.png') !!}" alt="">
+                                                </a>
+
+                                            </div>
+
+
+                                        </div>
 
                                     @endif
 
                                 </div>
                             </div>
 
-                            @if (isset($item['button']) && $item['button'] == true)
+                        </div>
 
-                                <div class="buttonSection">
+                    @endforeach
 
-                                    <a class="btn-popup-header primaryButton hoverInEffect">
-                                        {!! $item['textButton'] !!}
-                                    </a>
 
+                @endif
+
+
+            </div>
+
+        </section>
+
+        <section class="mobileElement mobileVersion innerSectionElement sct2">
+
+
+            <div class="nav nav-tabs selectorPlansTab" id="nav-tab" role="tablist">
+
+                @foreach ($items as $item)
+
+                <button onclick="planSelectProcess('{{ $item['name'] }}')" class="nav-link @if ($loop->first) active @endif" id="_{{ $item['name'] }}tab" data-bs-toggle="tab" data-bs-target="#{{ $item['name'] }}tab"
+                  type="button" role="tab" aria-controls="{{ $item['name'] }}tab" @if ($loop->first) aria-selected="true" @endif>
+
+                  <div class="had">
+                    <h3 class="secondaryTitle blackColor">
+                        {!! $item['title'] !!}
+                    </h3>
+                </div>
+
+                </button>
+
+                @endforeach
+
+            </div>
+
+
+
+    <div class="containElements row">
+
+        @if (isset($items) && count($items) > 0)
+
+        <div class="tab-content" id="nav-tabContent">
+            @foreach ($items as $item)
+                    <div class="tab-pane fade @if ($loop->first) active show @endif" id="{{ $item['name'] }}tab" role="tabpanel" aria-labelledby="_{{ $item['name'] }}tab" >
+                        <div id="{{ $item['name'] }}" class="col-md-12 col-lg-4 elementParent">
+
+                            <div class="elementPrice @if (isset($item['customClasses']) && $item['customClasses'] != '') {!! $item['customClasses'] !!} @endif">
+
+                                <div class="had">
+                                    <h3 class="secondaryTitle blackColor">
+                                        {!! $item['title'] !!}
+                                    </h3>
                                 </div>
 
-                            @endif
-
-                            @if (isset($item['details']) && count($item['details'] > 0))
-
-                                <div class="featuresPrice">
+                                <div class="elementBody">
 
 
+                                    <div
+                                    style="margin-bottom: 25px"
+                                    class="price">
 
-                                    @foreach ($item['details'] as $item2)
+                                        <p>
 
-                                    <div class="listCustom">
-                                        <h4 class="thirdTitle">
-                                            {!! $item2['title'] !!}
-                                        </h4>
+                                            {!! $item['price'] !!}
 
-                                        <ul>
 
-                                            @if (isset($item2['items']) && count($item2['items']) > 0)
+
+                                        </p>
+
+                                    </div>
+
+                                    <div class="middle">
+
+                                        <div class="innerMiddle">
+
+                                            @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
+
+                                                @if (isset($item['discountTest']) && $item['discountTest'] != null)
+
+                                                    <div class="extraPriceInfo">
+
+                                                        <div style="display: none;" typeplan="{{ $item['name'] }}"
+                                                            class="discountData">
+                                                            {!! $item['discountTest'] !!}
+                                                        </div>
+                                                    </div>
+
+                                                @endif
+
+                                                <div class="selectorSwitch">
+                                                    <small>
+                                                        Mensual
+                                                    </small>
+                                                    <label class="switchCustom">
+                                                        <input
+                                                            class="modePlanSelect"
+                                                            onchange="discountByPlanCard('{{ $item['name'] }}', this)"
+                                                            value="1" type="checkbox" />
+                                                        <div></div>
+                                                    </label>
+                                                    <small>
+                                                        Anual
+                                                    </small>
+                                                </div>
 
                                             @endif
-                                            @foreach ($item2['items'] as $item3)
 
-                                            <li>
-                                                <i class="fa fa-check" aria-hidden="true"></i>
-                                                    <span class="blueColor">
-                                                        {!! $item3 !!}
-                                                    </span>
-                                                </li>
+                                            @if (isset($item['textMiddle']) && $item['textMiddle'] != null)
 
-                                                @endforeach
-                                            </ul>
+                                                <p class="primaryText grayColorTexts">
+                                                    {!! $item['textMiddle'] !!}
+                                                </p>
+
+
+                                            @endif
+
+                                        </div>
                                     </div>
-                                    <br class="space">
-                                    <br class="space">
 
-                                @endforeach
+                                    @if (isset($item['button']) && $item['button'] == true)
 
+                                        <div class="buttonSection">
+
+                                            <a class="btn-popup-header primaryButton hoverInEffect">
+                                                {!! $item['textButton'] !!}
+                                            </a>
+
+                                        </div>
+
+                                    @endif
+
+                                    @if (isset($item['details']) && count($item['details'] > 0))
+
+                                        <div style="display: block" class="desktopElement featuresPrice short">
+
+                                            @foreach ($item['details'] as $item2)
+
+                                                <div class="listCustom">
+                                                    @if ($item2['title'] != null)
+                                                        <h4 class="thirdTitle">
+                                                            {!! $item2['title'] !!}
+                                                        </h4>
+                                                    @endif
+                                                    <ul>
+
+                                                        @if (isset($item2['items']) && count($item2['items']) > 0)
+
+                                                        @endif
+                                                        @foreach ($item2['items'] as $item3)
+
+                                                            <li>
+                                                                <i class="fa fa-check" aria-hidden="true"></i>
+                                                                <span class="blueColor">
+                                                                    {!! $item3 !!}
+                                                                </span>
+                                                            </li>
+
+                                                        @endforeach
+                                                    </ul>
+                                                </div>
+                                                <br class="space">
+
+                                            @endforeach
+
+                                        </div>
+
+                                    @endif
+
+                                    @if (isset($item['extendDetails']) && count($item['extendDetails'] > 0))
+
+                                        <div style="display: none" class="featuresPrice extendDetails">
+
+                                            @foreach ($item['extendDetails'] as $item2)
+
+                                                <div class="listCustom">
+                                                    @if ($item2['title'] != null)
+                                                        <h4 class="thirdTitle">
+                                                            {!! $item2['title'] !!}
+                                                        </h4>
+                                                    @endif
+                                                    <ul>
+
+                                                        @if (isset($item2['items']) && count($item2['items']) > 0)
+
+                                                        @endif
+                                                        @foreach ($item2['items'] as $item3)
+
+                                                            <li>
+                                                                <i class="fa fa-check" aria-hidden="true"></i>
+                                                                <span class="blueColor">
+                                                                    {!! $item3 !!}
+                                                                </span>
+                                                            </li>
+
+                                                        @endforeach
+                                                    </ul>
+                                                </div>
+                                                <br class="space">
+                                                {{-- <br class="space"> --}}
+
+                                            @endforeach
+
+                                        </div>
+
+                                    @endif
+                                    @if (isset($item['extendInfoButton']) && count($item['extendInfoButton'] == true))
+
+                                        <div class="extendInfoButton">
+
+                                            <div class="buttonSection">
+
+                                                <a onclick="actionInfoCards('open')" class="desktopElement extendButton">
+                                                    Ver más
+                                                </a>
+
+
+                                                <button onclick="actionInfoCards('open')" class="thinButton2 extendButton ">
+                                                    Ver detalles del plan
+                                                </button>
+
+
+                                                {{-- style="display: none" --}}
+                                                <a onclick="actionInfoCards('close')" style="display: none;"
+                                                    class="hideButton">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/arrowClose.png') !!}" alt="">
+                                                </a>
+
+                                            </div>
+
+
+                                        </div>
+
+                                    @endif
+
+                                </div>
                             </div>
-                            @endif
 
                         </div>
                     </div>
 
-                    </div>
-
-                    @endforeach
+            @endforeach
+        </div>
 
 
                 @endif
