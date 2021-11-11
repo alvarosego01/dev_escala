@@ -31,7 +31,6 @@
 
                                     <img src="{{ Posts::getPhoto(get_the_ID()) }}" class="card-img-top" >
 
-
                                 </div>
 
                                 <h1 class="principalBigTitle">
@@ -41,7 +40,6 @@
                                 <div class="autor">
 
                                     <div class="containerImage">
-
 
                                         @php
                                         $i = ACF_CUSTOM::_getField('personimg_caso_exito', get_the_ID() );

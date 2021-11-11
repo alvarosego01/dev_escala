@@ -50,7 +50,7 @@
                 <section class="innerSectionElement sct2">
 
 
-                        <div class="groupElements row">
+                        {{-- <div class="groupElements row">
 
                             @if ( isset($posts) && $posts != null )
                             @foreach ($posts->get_posts() as $index => $item)
@@ -108,6 +108,70 @@
 
                             @endforeach
                             @endif
+
+                        </div> --}}
+
+{{--
+    Array
+    (
+        [image] => //localhost:3025/escala/wp-content/themes/oceanwp-child/resources/assets/images/person/testimonialexito.png
+        [text] => La herramienta es muy amigable, y permite que la gestión pueda realizarla
+     casi que cualquier persona con conocimientos básicos en plataformas digitales.
+        [autor] => Dayana Palacios
+        [position] => Directora de medios y marketing digital
+        [logo] => //localhost:3025/escala/wp-content/themes/oceanwp-child/resources/assets/images/illustrations/others/Initiative-logo.png
+    )
+     --}}
+
+                        <div class="groupElements row">
+
+                            @if ( isset($posts) && $posts != null )
+
+
+                            <div class="containElement">
+
+
+                            <div class="image">
+                                <div class="containerImage">
+
+
+                                    <img src="{{ $posts['image'] }}" alt="" loading="lazy">
+
+
+                                </div>
+                            </div>
+                            <div class="info">
+
+
+                                <p class="text">
+                                    {!! $posts['text'] !!}
+                                    <img class="com1" src="{!! App::setFilePath('/assets/images/illustrations/others/normal.png') !!}" alt="">
+                                    <img class="com2" src="{!! App::setFilePath('/assets/images/illustrations/others/normal.png') !!}" alt="">
+                                </p>
+
+
+                                <div class="autor">
+                                    <p class="autorText">
+                                        {!! $posts['autor'] !!}
+                                        <span class="greenBlueColor">
+                                            {!! $posts['position'] !!}
+                                        </span>
+                                    </p>
+                                        <div class="clientLogo containerImage">
+
+
+                                            <img style="height: 50px" src="{{ $posts['logo'] }}" alt="" loading="lazy">
+
+                                        </div>
+
+                                    </div>
+
+
+                            </div>
+
+                        </div>
+
+                        @endif
 
                         </div>
 

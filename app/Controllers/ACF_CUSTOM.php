@@ -240,6 +240,11 @@ class ACF_CUSTOM extends Controller
             );
             acf_add_local_field_group(
 
+                $this->settingsCasosExitoHome()
+
+            );
+            acf_add_local_field_group(
+
                 $this->settingsCasosExito()
 
             );
@@ -332,6 +337,41 @@ class ACF_CUSTOM extends Controller
                         'param' => 'post_type',
                         'operator' => '==',
                         'value' => 'post',
+                    ),
+                ),
+            ),
+
+        );
+
+    }
+    private function settingsCasosExitoHome(){
+
+        return array(
+
+            'key' => 'casos_exito_settingsHome',
+            'title' => 'Casos de éxito opciones',
+            'fields' => array (
+
+                array (
+                    'key' => 'title_embed_case',
+                    'label' => 'Título Caso de éxito principal',
+                    'name' => 'Título Caso de éxito principal',
+                    'type' => 'textarea',
+                ),
+                array (
+                    'key' => 'url_embed_case',
+                    'label' => 'URL Caso de éxito principal',
+                    'name' => 'URL Caso de éxito principal',
+                    'type' => 'url',
+                ),
+
+            ),
+            'location' => array (
+                array (
+                    array (
+                        'param' => 'page_template',
+                        'operator' => '==',
+                        'value' => "views/template-caso-exito-home.blade.php",
                     ),
                 ),
             ),
