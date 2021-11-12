@@ -120,7 +120,7 @@
                             <div class="containerImage">
 
                                 @php
-                                $i = ACF_CUSTOM::_getField('header_top_img', get_the_ID() );
+                                $i = ACF_CUSTOM::_getField('right_escala_asist', get_the_ID() );
                                 $i = $i['url'];
                             @endphp
 

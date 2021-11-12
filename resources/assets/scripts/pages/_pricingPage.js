@@ -147,7 +147,6 @@ function convertUsers(data) {
     // _typePlan: "starter"
     // _userAccess: "5"
 
-    console.log('data._userAccess[typeProcess]', data._userAccess[typeProcess]);
 
     if (data._typePlan == 'starter') {
 
@@ -302,12 +301,10 @@ function calculateFinal(data) {
     // _typePlan: "starter"
     // _userAccess: "5"
 
-    console.log('data._contactsField', data._contactsField);
 
     _contacts = converContacts(data._contactsField[typeProcess]);
     _users = convertUsers(data);
 
-    console.log('lo que llega', data);
 
 
     if (typeplan == 'monthly') {
@@ -552,7 +549,6 @@ function setConfigModeSelect(element){
     // pro
     let l = jQuery(element).val();
 
-    console.log('typeProcess', typeProcess);
 
     if(l == 'starter'){
 
@@ -598,8 +594,6 @@ function setConfigModeSelect(element){
     // jQuery("#formCalcGeneral")[0].reset()
 
 
-    console.log(jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val());
-    console.log(jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val());
 
 }
 
@@ -647,7 +641,6 @@ jQuery(document).ready(function () {
     jQuery("form#formCalcGeneral").change( async function (e) {
         e.preventDefault();
 
-        console.log('jQuery(e.target)', jQuery(e.target) ) ;
 
         if ( jQuery(e.target).attr('typeProcess') ) {
 
@@ -659,7 +652,6 @@ jQuery(document).ready(function () {
 
         if (jQuery(e.target).is('.rangeContacts')) {
 
-            console.log('e.target',e.target);
             calculate._contactsField[typeProcess] = calculateRangeValue(calculate);
 
         }
