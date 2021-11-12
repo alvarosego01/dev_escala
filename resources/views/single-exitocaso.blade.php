@@ -120,7 +120,7 @@
                             <div class="containerImage">
 
                                 @php
-                                $i = ACF_CUSTOM::_getField('header_top_img', get_the_ID() );
+                                $i = ACF_CUSTOM::_getField('right_escala_asist', get_the_ID() );
                                 $i = $i['url'];
                             @endphp
 
@@ -232,8 +232,8 @@
                 $query = [
                     'post_type' => 'exitocaso',
                     'post_status' => 'publish',
-                    'orderby' => 'rand',
-                    'posts_per_page' => 4,
+                    'orderby' => 'desc',
+                    'posts_per_page' => 2,
                 ];
                 $query = Posts::getPosts($query);
 
@@ -254,7 +254,7 @@
             @php
                 $parameters = [
                     'classSection' => 'casoExitoSingle4',
-                    'title' => '<span class="greenBlueColor">Más de 120 empresas</span> <br class="space"> hispanas nos prefieren',
+                    'title' => '<span class="greenBlueColor">¡Los emprendedores</span> <br class="space"> hispanoamericanos nos prefieren!',
                     'textForm' => '¡Conoce cómo los ayudamos <br class="space"> a hacer crecer sus negocios!',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/illustrations/team/empresas.png'),

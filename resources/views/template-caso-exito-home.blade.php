@@ -63,8 +63,8 @@
             $query = array(
                 'post_type' => 'exitocaso',
                 'post_status' => 'publish',
-                'orderby' => 'rand',
-                'posts_per_page' => 4
+                'orderby' => 'desc',
+                'posts_per_page' => 2,
             );
             $query = Posts::getPosts($query);
 
