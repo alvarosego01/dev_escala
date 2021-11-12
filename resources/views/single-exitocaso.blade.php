@@ -254,7 +254,7 @@
             @php
                 $parameters = [
                     'classSection' => 'casoExitoSingle4',
-                    'title' => '<span class="greenBlueColor">Más de 120 empresas</span> <br class="space"> hispanas nos prefieren',
+                    'title' => '<span class="greenBlueColor">¡Los emprendedores</span> <br class="space"> hispanoamericanos nos prefieren!',
                     'textForm' => '¡Conoce cómo los ayudamos <br class="space"> a hacer crecer sus negocios!',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/illustrations/team/empresas.png'),
