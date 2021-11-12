@@ -9,7 +9,6 @@ jQuery(document).ready(function () {
         if (dataPHP.redirect) {
 
             var re = dataPHP.redirect;
-            console.log('have redirect', re);
             document.addEventListener('wpcf7mailsent', function (e) {
 
                 var l = e.path;
@@ -25,7 +24,6 @@ jQuery(document).ready(function () {
 
                     if (x == 'true') {
 
-                        console.log('redirect', x);
                         if (re && re != null && re != '') {
                             window.location.replace(re);
                         }
