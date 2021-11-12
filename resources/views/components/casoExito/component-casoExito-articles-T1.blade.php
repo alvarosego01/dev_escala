@@ -71,7 +71,7 @@ posts
 
 
                                 <p class="commonText  blackColor card-text">
-                                    {!! ACF_CUSTOM::_getField('excerpt_single_caso_exito', $item->ID) !!}
+                                    {!! ACF_CUSTOM::_getField('card_article_text', $item->ID) !!}
                                 </p>
                             </a>
                         </div>

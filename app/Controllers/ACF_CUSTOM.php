@@ -423,6 +423,12 @@ class ACF_CUSTOM extends Controller
                     'type' => 'textarea',
                 ),
                 array (
+                    'key' => 'card_article_text',
+                    'label' => 'Resume case',
+                    'name' => 'Resume case',
+                    'type' => 'textarea',
+                ),
+                array (
                     'key' => 'video_caso_exito',
                     'label' => 'Video url',
                     'name' => 'Video url',
