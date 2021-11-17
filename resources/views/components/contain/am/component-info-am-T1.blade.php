@@ -39,7 +39,7 @@
 
                  @if ((isset($byAm) && $byAm != null))
                  <h2 class="byAm grayColorTexts">
-                   {!! $byAm !!}
+                  <i class="fas fa-caret-right"></i> {!! $byAm !!}
                   </h2>
                   @endif
 

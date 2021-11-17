@@ -138,7 +138,7 @@ $customId = uniqid();
 @if ($type == 'backgroundColor')
 
     <section
-        class="component-info-5-cards-carousel-T1 customSection sectionParent fullWidth {{ $classSection }} ">
+        class="component-info-5-cards-carousel-T1 customSection sectionParent {{ $classSection }} ">
 
 
         <div class="section-row">

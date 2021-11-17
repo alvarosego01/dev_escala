@@ -31,6 +31,8 @@
     }
 @endphp
 
+
+
 @if ($type == 'backgroundImage')
 
     <section class="component-info-multiple-cards-T2 customSection sectionParent fullWidth {{ $classSection }} ">
@@ -123,7 +125,7 @@
 
 @if ($type == 'backgroundColor')
 
-    <section class="component-info-multiple-cards-T2 customSection sectionParent fullWidth {{ $classSection }} ">
+    <section class="component-info-multiple-cards-T2 customSection sectionParent {{ $classSection }} ">
 
 
         <div class="section-row">
