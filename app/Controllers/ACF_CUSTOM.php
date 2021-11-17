@@ -359,6 +359,18 @@ class ACF_CUSTOM extends Controller
                     'type' => 'textarea',
                 ),
                 array (
+                    'key' => 'byAm_embed_case',
+                    'label' => 'Case autor',
+                    'name' => 'Case autor',
+                    'type' => 'text',
+                ),
+                array (
+                    'key' => 'team_embed_case',
+                    'label' => 'Case autor position',
+                    'name' => 'Case autor position',
+                    'type' => 'text',
+                ),
+                array (
                     'key' => 'url_embed_case',
                     'label' => 'URL Caso de éxito principal',
                     'name' => 'URL Caso de éxito principal',

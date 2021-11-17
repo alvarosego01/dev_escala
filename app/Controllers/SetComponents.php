@@ -191,6 +191,7 @@ class SetComponents extends Controller
                 "views/template-landing-incredible-am.blade.php",
                 "views/template-landing-landingPages.blade.php",
                 "views/template-landing-landingPages2.blade.php",
+                "views/template-landing-afiliados.blade.php",
 
 
             );
@@ -236,6 +237,7 @@ class SetComponents extends Controller
                 "views/template-landing-incredible-no-program.blade.php",
                 "views/template-landing-incredible-am.blade.php",
                 "views/template-landing-landingPages.blade.php",
+                "views/template-landing-afiliados.blade.php",
                 "views/template-landing-landingPages2.blade.php",
                 "views/template-escalaVentas-ventas.blade.php",
                 "views/template-escalaMarketing-marketing.blade.php",

@@ -31,6 +31,8 @@
     }
 @endphp
 
+
+
 @if ($type == 'backgroundImage')
 
     <section class="component-info-multiple-cards-T2 customSection sectionParent fullWidth {{ $classSection }} ">
