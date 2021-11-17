@@ -32,7 +32,7 @@
 
 
     @php
-    $parameters = [
+    $parameters = array(
         'type' => 'backgroundColor',
         'classSection' => 'eMarketing1',
         'enableTitle' => true,
@@ -62,7 +62,7 @@
                 'enableButton' => false,
             ],
         ],
-    ];
+    )
 @endphp
 
 @contain_multiple_cards_T2( $parameters )
