@@ -42,23 +42,23 @@
                 $byAm = ACF_CUSTOM::_getField( 'byAm_embed_case' );
                 $team = ACF_CUSTOM::_getField( 'team_embed_case' );
 
-                $parameters = [
-                    'classSection' => 'casoExitoPrincipal1',
-                    // 'description' => '<span class="greenBlueColor4">“Escala nos ha ayudado a optimizar <br class="space"> la excelencia operacional.”</span>.',
-                    'description' => $t,
-                    'byAm' => $byAm,
-                    'team' => $team,
-                    'image' => App::setFilePath('/assets/images/illustrations/team/fuerza_de_ventas.png'),
-                    'button' => '
-                    <a href="'.$turl.'" class="primaryButton hoverInEffect">
-                        Ver caso de éxito
-                    </a>',
-                ];
+                // $parameters = [
+                //     'classSection' => 'casoExitoPrincipal1',
+                //     // 'description' => '<span class="greenBlueColor4">“Escala nos ha ayudado a optimizar <br class="space"> la excelencia operacional.”</span>.',
+                //     'description' => $t,
+                //     'byAm' => $byAm,
+                //     'team' => $team,
+                //     'image' => App::setFilePath('/assets/images/illustrations/team/fuerza_de_ventas.png'),
+                //     'button' => '
+                //     <a href="'.$turl.'" class="primaryButton hoverInEffect">
+                //         Ver caso de éxito
+                //     </a>',
+                // ];
             @endphp
-
+{{--
             @contain_am_T1( $parameters )
 
-            @endcontain_am_T1
+            @endcontain_am_T1 --}}
 
 
             <section class="component-contain-info-am-t1 bg-color customSection sectionParent casoExitoPrincipal1 ">
@@ -111,7 +111,7 @@
                       <div class="image col-md-12 col-lg-5">
 
                         <div class="containerImage">
-                          <img src="{{ $image }}" alt="" loading="lazy">
+                          <img src="{!! App::setFilePath('/assets/images/illustrations/team/fuerza_de_ventas.png') !!}" alt="" loading="lazy">
                         </div>
 
                       </div>
