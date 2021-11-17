@@ -89,8 +89,8 @@
                     'backgroundImageFile' => null,
                     'enableTitle' => false,
                     'img' => App::setFilePath('/assets/images/person/callcenter1.png'),
-                    'title' => '<span class="whiteColor">Tu empresa también <br class="space"> <span class="blueLightColor10">puede crecer con Escala</span></span>',
-                    'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas <br class="space"> para ayudarte a acelerar el crecimiento de tu negocio. Estamos <br class="space"> aquí para acompañarte en todo tu camino al éxito y apoyarte en <br class="space"> cada momento.',
+                    'title' => '<span class="whiteColor">Tu empresa también <br class="desktopTabletElement"> <span class="blueLightColor10">puede crecer con Escala</span></span>',
+                    'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas <br class="desktopTabletElement"> para ayudarte a acelerar el crecimiento de tu negocio. Estamos <br class="desktopTabletElement"> aquí para acompañarte en todo tu camino al éxito y apoyarte en <br class="desktopTabletElement"> cada momento.',
                     'enableButton' => true,
                     'urlButton' => '#lead-form',
                     'textButton' => 'Hablar con un asesor',
@@ -109,14 +109,14 @@
             $parameters = [
                 "posts" => array(
                     "image" => App::setFilePath('/assets/images/person/testimonialexito.png'),
-                    "text" => 'La herramienta es muy amigable, y permite que la gestión pueda realizarla <br class="space"> casi que cualquier persona con conocimientos básicos en plataformas digitales.',
+                    "text" => 'La herramienta es muy amigable, y permite que la gestión pueda realizarla <br> casi que cualquier persona con conocimientos básicos en plataformas digitales.',
                     "autor" => 'Dayana Palacios',
                     "position" => 'Directora de medios y marketing digital',
                     "logo" => App::setFilePath('/assets/images/illustrations/others/Initiative-logo.png'),
                 ),
                 "classSection" => 'casoExitoPrincipal4',
                 "enableTitle" => true,
-                "titlePrincipal" => 'Somos la plataforma más completa y fácil de usar, <br class="space"> <span class="orangeColor">lo dicen nuestros clientes</span>',
+                "titlePrincipal" => 'Somos la plataforma más completa y fácil de usar, <br class="desktopTabletElement"> <span class="orangeColor">lo dicen nuestros clientes</span>',
             ]
 
             @endphp
