@@ -166,7 +166,7 @@ if (!$threeCol) {
 
 @if ($backgroundImageType == false)
 
-    <section id="lead-form" class="component-header-t1 bg-color customSection sectionParent {{ $classSection }} ">
+    <section id="lead-form" class="component-header-t1 bg-color customSection sectionParent {{ $classSection }} @if ($overlay == true) overlay @endif ">
 
         <div class="section-row">
 
@@ -270,6 +270,11 @@ if (!$threeCol) {
             </section>
 
         </div>
+
+        @if ($overlay == true)
+        <div style="background-image: url('{{ $overlayImage }}')" class="backgroundPlanets">
+        </div>
+        @endif
 
         @if ( isset($overlayMultiple) && $overlayMultiple != null)
 
