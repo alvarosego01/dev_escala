@@ -14,16 +14,16 @@
             @php
                 $parameters = [
                     'backgroundImageType' => false,
-                    'overlay' => false,
                     'classSection' => 'threeCol landingAfiliados0 func',
                     'title' => '¡Conviértete en <br class="space"> un afiliado de Escala <br class="space">
-                     <span class="greenBlueColor">y gana grandes comisiones!</span> ',
+                    <span class="greenBlueColor">y gana grandes comisiones!</span> ',
                     'text' => null,
                     'textForm' => 'Comienza ahora',
                     'threeCol' => true,
                     'backgroundImage' => null,
-                    'overlayImage' => null,
-                    'image' => App::setFilePath('/assets/images/person/afiliadoshead.png'),
+                    'overlay' => true,
+                    'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas3.png'),
+                    'image' => App::setFilePath('/assets/images/person/am/am_afiliates.png'),
                 ];
             @endphp
 
@@ -145,46 +145,165 @@
 
 
 
+@php
+$parameters = array(
+ 'type' => 'backgroundColor',
+ 'classSection' => 'landingAfiliados4',
+ 'enableTitle' => true,
+ 'titlePrincipal' => 'Tu decides cómo cobrar',
+ 'subTitlePrincipal' => null,
+ 'title' => '<span class="greenBlueColor">Danos tus datos bancarios</span>',
+ 'img' => App::setFilePath('/assets/images/illustrations/others/02_CRM 3.png'),
+ 'text' => 'Recibirás un email de bienvenida con tu <br class="desktopTabletElement"> link único de afiliado. Podrás darnos tus <br class="desktopTabletElement"> datos bancarios para cobrar tus <br class="desktopTabletElement"> comisiones, a través de transferencias <br class="desktopTabletElement"> electrónicas o PayPal',
+ 'enableButton' => false,
+ // 'urlButton' => '#lead-form',
+ // 'textButton' => 'Segmentar ahora',
+ 'side' => 'right',
+) ;
+@endphp
 
-      <section class="customSection sectionParent landingAfiliados4 fullWidth">
+@contain_text_image_T1( $parameters )
 
-    <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/banner-3-1.png')" class="backgroundFull sct1">
+@endcontain_text_image_T1
 
+@php
+$parameters = array(
+ 'type' => 'backgroundColor',
+ 'classSection' => 'landingAfiliados5',
+ 'enableTitle' => false,
+ 'titlePrincipal' => null,
+ 'subTitlePrincipal' => null,
+ 'title' => '<span class="greenBlueColor">Elige la forma de pago</span>',
+ 'img' => App::setFilePath('/assets/images/illustrations/others/Group 1924.png'),
+ 'text' => '<span class="greenBlueColor"><strong>Plan recurrente:</strong></span> <br class="space">
+Cobra el 30% de comisión de manera <br class="desktopTabletElement"> recurrente (hasta el primer año) <br class="space"> <br class="space">
+<span class="greenBlueColor"><strong>Comisión Fija:</strong></span> <br class="space">
+Cobra el 100% del primer mes o el <br class="desktopTabletElement"> 30% del pago del plan anual
+',
+ 'enableButton' => false,
+ // 'urlButton' => '#lead-form',
+ // 'textButton' => 'Segmentar ahora',
+ 'side' => 'left',
+) ;
+@endphp
 
-      <div class="section-row">
+@contain_text_image_T1( $parameters )
 
-        <div class="containElements">
+@endcontain_text_image_T1
 
-          <h3 class="primaryTitle whiteText">
-            Estoy listo para ganar siendo un <br class="space"> afliado de Escala
-          </h3>
+@php
+$parameters = array(
+ 'type' => 'backgroundColor',
+ 'classSection' => 'landingAfiliados6',
+ 'enableTitle' => false,
+ 'titlePrincipal' => null,
+ 'subTitlePrincipal' => null,
+ 'title' => '<span class="greenBlueColor">Haz efectiva tus comisiones</span>',
+ 'img' => App::setFilePath('/assets/images/illustrations/otto/Group.png'),
+ 'text' => 'Podrás cobrar 15 días después del <br class="desktopTabletElement"> trimestre de suscripción de tu referido',
+ 'enableButton' => false,
+ // 'urlButton' => '#lead-form',
+ // 'textButton' => 'Segmentar ahora',
+ 'side' => 'right',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+<section class="customSection sectionParent landingAfiliados7">
+
+  <div class="section-row">
+
+        <section class="innerSectionElement">
+
+          <h2 class="primaryTitle whiteColor">
+            ¿Estás listo para ganar comisiones con Escala?
+          </h2>
 
           <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-            Quiero ser afiliado
+            ¡Sí, más que listo!
           </a>
 
 
-        </div>
+        </section>
+
+  </div>
 
 
-      </div>
+</section>
 
-      <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/astrorocket.svg')" class="imageBackground">
-      </div>
+@php
+$parameters = array(
+ 'type' => 'backgroundColor',
+ 'classSection' => 'landingAfiliados8',
+ 'enableTitle' => false,
+ 'titlePrincipal' => null,
+ 'subTitlePrincipal' => null,
+ 'title' => '<span class="greenBlueColor">Te ayudamos a enamorar <br class="space">
+a tus referidos</span>',
+ 'img' => App::setFilePath('/assets/images/illustrations/others/03_barato.png'),
+ 'text' => 'Te damos todo el material de comunicación que necesitas para <br class="desktopTabletElement"> que tus referidos entiendan los grandes beneficios que obtienen <br class="desktopTabletElement"> con Escala. Desde lead magnets como: ebook, webinar. artículos <br class="desktopTabletElement"> de blog, hasta PDF explicando cada plan.
+',
+ 'enableButton' => false,
+ // 'urlButton' => '#lead-form',
+ // 'textButton' => 'Segmentar ahora',
+ 'side' => 'left',
+) ;
+@endphp
 
-    </div>
+@contain_text_image_T1( $parameters )
 
-  </section>
+@endcontain_text_image_T1
 
 
-  @php
-  $parameters = [
-      'classSection' => 'landingAfiliados5',
-      'title' => '¡Postúlate hoy mismo <br class="space"> y gana grandes comisiones!',
-      'textForm' => 'Pruébalo gratis ahora',
-      'text' => 'Llena este formulario y envía tu postulación, pronto recibirás <br class="space"> la respuesta y podrás ser parte del programa.',
-      'image' => App::setFilePath('/assets/images/illustrations/otto/otto-ventas 1.png'),
-  ];
+<section class="customSection sectionParent landingAfiliados9">
+
+
+
+        <section class="innerSectionElement">
+
+          <div class="image">
+
+            <div class="containerImage">
+
+              <img src="{!! App::setFilePath('/assets/images/illustrations/team/astrorocket1.png') !!}" alt="" loading="lazy">
+
+            </div>
+
+          </div>
+
+          <div class="info">
+
+            <h2 class="primaryTitle whiteColor">
+              Estoy listo para ganar siendo <br class="space"> un afliado de Escala
+            </h2>
+
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+              Quiero ser afiliado
+            </a>
+
+          </div>
+
+        </section>
+
+
+  <div style="background-image: url('{!! App::setFilePath('/assets/images/overlays/estrellas-inv 3.png') !!}')" class="backgroundPlanets">
+  </div>
+
+
+</section>
+
+
+@php
+$parameters = [
+    'classSection' => 'landingAfiliados10',
+    'title' => '¡Postúlate hoy mismo <br class="space"> y gana grandes comisiones!',
+    'textForm' => 'Regístrate ahora',
+    'text' => 'Llena este formulario y envía tu postulación, pronto recibirás <br class="space"> la respuesta y podrás ser parte del programa.',
+    'image' => App::setFilePath('/assets/images/illustrations/otto/otto-ventas 1.png'),
+];
 @endphp
 @bannerForms7_T1( $parameters )
 

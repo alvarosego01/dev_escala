@@ -18,13 +18,13 @@
 
     @php
     $parameters = array(
-     'backgroundImageType' => true,
-     'overlay' => true,
-     'classSection' => 'threeCol funcAnnounceDigital0 func',
-     'title' => '<span class="greenBlueColor">Atrae visitantes</span> <br> como un imán',
-     'text' => 'Crea, publica y administra tus <br> campañas de anuncios digitales, <br> desde una sola plataforma.',
-     'textForm' => 'Empieza a probar Escala',
-     'threeCol' => true,
+      'classSection' => 'threeCol funcAnnounceDigital0 func',
+      'title' => '<span class="greenBlueColor">Atrae visitantes</span> <br> como un imán',
+      'text' => 'Crea, publica y administra tus <br> campañas de anuncios digitales, <br> desde una sola plataforma.',
+      'textForm' => 'Empieza a probar Escala',
+      'threeCol' => true,
+      'overlay' => true,
+      'backgroundImageType' => true,
      'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
   'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas 2.png'),
   'image' => App::setFilePath('/assets/images/illustrations/team/01.png'),
