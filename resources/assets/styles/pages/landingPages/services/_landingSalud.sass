@@ -133,38 +133,68 @@
                 background-size: 100% auto
                 top: 0
 
-
     .customSection.sectionParent.landingServSalud1
-        // .blueLabelSpecial
         .section-row
-            padding: 0
             @include responsivo(telefonoTable)
                 width: 95%
             @include responsivo(pcMedio)
                 width: 90%
             @include responsivo(general)
                 width: 100%!important
-                max-width: 1100px!important
+                max-width: 1140px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1240px!important
+                max-width: 1200px!important
+            .groupElements
+                padding-top: 0!important
+                padding-bottom: 0!important
+                .image
+                    .containerImage
+                        margin-bottom: 0
+                        padding: 0
+                @include responsivo(telefonoTable)
+                    padding: 50px 2.5%!important
+                @include responsivo(pcMedio)
+                    padding: 50px 2.5%!important
+        section.innerSectionElement.sct1
+            // display: none
+            // border-radius: 30px 30px 30px 30px
+            // background-color: red
+            .groupElements
+                background-color: #FAFAFA
+                padding: 25px 125px!important
+                .info
+                    .primaryText
+                        font-family: Nunito
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 18px
+                        line-height: 28px
+                        letter-spacing: -0.03em
+                        color: #5B5B5B
+                        margin-bottom: 0
+                .image
+                    position: relative
+                    .containerImage
+                        display: flex
+                        margin: auto
+                        img
+                            // position: absolute
+                            height: 300px
+                            margin: auto
+                            display: block
+                            // top: 0
+                        @include responsivo(telefonoTable)
+                            position: unset!important
+                            margin-bottom: 50px
+                            img
+                                height: 275px
+                        @include responsivo(pcMedio)
+                            position: unset!important
+                            margin-bottom: 50px
+                            img
+                                height: 275px
 
-
-            .containElements
-                padding: 50px 0
-
-                p.primaryText
-                    font-family: Nunito
-                    font-style: normal
-                    font-weight: normal
-                    font-size: 22px
-                    line-height: 30px
-                    text-align: center
-                    width: 100%
-                    display: block
-                    color: black
-                    // textaali
-                        // center
 
     .customSection.sectionParent.landingServSalud2
         // .blueLabelSpecial
