@@ -56,6 +56,12 @@ add_action('wp_enqueue_scripts', function () {
         if (is_page_template($t)) {
             wp_enqueue_style('landingPages.css', asset_path('styles/pages/landingPages/landingPagesMain.css'), false, THEME_VERSION);
         }
+        $t = SetComponents::setTemplates('services');
+        if (is_page_template($t)) {
+
+            wp_enqueue_style('landingservicesPages.css', asset_path('styles/pages/landingPages/services/servicesMain.css'), false, THEME_VERSION);
+
+        }
         $t = SetComponents::setTemplates('func');
         if (is_page_template($t)) {
             wp_enqueue_style('func.css', asset_path('styles/pages/func/funcMain.css'), false, THEME_VERSION);
