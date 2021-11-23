@@ -300,15 +300,10 @@ function calculateFinal(data) {
     // _rangeContacts: "7"
     // _typePlan: "starter"
     // _userAccess: "5"
-
-
     _contacts = converContacts(data._contactsField[typeProcess]);
     _users = convertUsers(data);
 
-
-
     if (typeplan == 'monthly') {
-
 
         if (data._typePlan == 'starter') {
 
@@ -333,7 +328,6 @@ function calculateFinal(data) {
 
             costFinal = _contacts.starter + _users.starter;
 
-
         }
 
         if (data._typePlan == 'pro') {
@@ -348,22 +342,45 @@ function calculateFinal(data) {
         costNoDiscount = costNoDiscount.toFixed(2);
         costFinal = costFinal.toFixed(2);
 
+        costNoDiscount = trimDecimals(costNoDiscount);
+        discount = trimDecimals(discount);
 
         jQuery('.offert').css({
             'visibility': 'visible'
         })
 
-
-        jQuery('#priceDotted').text('$USD ' + costNoDiscount + ' Anual');
+        jQuery('#priceDotted').text('$USD ' + costNoDiscount + ' /mes');
         jQuery('#priceSaves').text('Ahorras USD $' + discount);
     }
 
-    jQuery('#finalPriceCalc').text('USD $' + costFinal);
+            // var costFinal = 332.01;
 
+    costFinal = trimDecimals(costFinal);
+
+
+
+    jQuery('#finalPriceCalc').text('USD $' + costFinal + ' /mes');
 
 
 }
 
+function trimDecimals(costFinal){
+
+//     console.log('Number(Number(costFinal).toFixed())', Number(Number(costFinal).toFixed()) );
+    // console.log('Number(costFinal)/1', Number(costFinal)/1 );
+
+    if( Number(Number(costFinal).toFixed()) == Number(costFinal)/1  ){
+
+        costFinal = Number(Number(costFinal).toFixed());
+
+
+        return costFinal;
+
+    }else{
+        return costFinal;
+    }
+
+}
 
 function actionInfoCards(type){
 

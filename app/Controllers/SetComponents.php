@@ -196,6 +196,13 @@ class SetComponents extends Controller
 
             );
         }
+        if ($type == 'services') {
+            return array(
+
+                "views/template-landing-servicios-salud.blade.php",
+
+            );
+        }
 
         if ($type == 'singles') {
             return array(
@@ -262,6 +269,7 @@ class SetComponents extends Controller
                 "views/template-zoom-demo-home-step1.blade.php",
                 "views/template-zoom-demo-home-step2.blade.php",
                 "views/template-landing-pricing-page.blade.php",
+                "views/template-landing-servicios-salud.blade.php",
 
             );
         }

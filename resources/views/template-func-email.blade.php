@@ -41,9 +41,6 @@ relaciones se enfríen!',
 
     @endheader_t1
 
-
-
-
     @php
      $parameters = array(
       'classSection' => 'funcEmail1 func',
@@ -55,7 +52,6 @@ relaciones se enfríen!',
     @endphp
 
     @contain_am_T1( $parameters )
-
     @endcontain_am_T1
 
 

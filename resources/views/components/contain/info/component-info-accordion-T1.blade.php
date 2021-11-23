@@ -171,14 +171,14 @@ $items = [
         'type' => 'master',
         'title' => 'Precios y métodos de pago',
         'items' => [
-            [
-                'title' => '¿Cuáles son los planes de precio de Escala?',
-                'text' =>
-                    'En Escala tenemos planes a la medida de tus sueños y ganas de crecer. Solo pagas por lo que necesitas. Consulta nuestros precios: <a class="hiperButtonGreenBlueT2"href="' .
-                    $escalaUrl .
-                    '/pricing-page">Página de precios</a>',
-                'type' => 'item'
-            ],
+            // [
+            //     'title' => '¿Cuáles son los planes de precio de Escala?',
+            //     'text' =>
+            //         'En Escala tenemos planes a la medida de tus sueños y ganas de crecer. Solo pagas por lo que necesitas. Consulta nuestros precios: <a class="hiperButtonGreenBlueT2"href="' .
+            //         $escalaUrl .
+            //         '/pricing-page">Página de precios</a>',
+            //     'type' => 'item'
+            // ],
             [
                 'title' => '¿Puedo cambiar o cancelar planes?',
                 'text' =>
