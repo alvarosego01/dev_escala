@@ -23,10 +23,7 @@
                                     Elige tu plan
                                 </small>
 
-                                <span alertPlanPro>
-                                    Para acceder al Plan Pro se requieren mínimo 2.000 contactos
 
-                                </span>
 
                                 <div class="box">
 
@@ -92,9 +89,6 @@
                                 <small mobPlan>
                                     Plan Starter
                                 </small>
-                                <span alertPlanPro>
-                                    Para acceder al Plan Pro se requieren <br class="space"> mínimo 2.000 contactos
-                                </span>
 
                             </div>
 
@@ -401,7 +395,7 @@
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
-                                                USD $72.00
+                                                USD $36 /mes
                                             </span>
 
                                         </div>
@@ -411,11 +405,13 @@
                                             <p class="primaryText grayColorTexts5">
 
                                                 <span id="priceDotted">
-                                                    $USD 90.00 Anual
+                                                    $USD 45 /mes
                                                 </span> <br class="space">
                                                 <strong id="priceSaves">
-                                                    Ahorras USD $18.00
+                                                    Ahorras USD $9
                                                 </strong>
+
+
 
                                             </p>
 
@@ -423,11 +419,14 @@
 
                                         <div class="finalButtons">
 
-                                            <a class="primaryButton hoverInEffect">
+                                            <a class="primaryButton btn-popup-header hoverInEffect">
                                                 Comienza ahora
                                             </a>
 
-                                            <a class="greyButton ">
+                                            <a
+                                            target="_blank"
+                                            href="{!! App::setTypeUrl() !!}/zoom-demo"
+                                            class="greyButton ">
                                                 Habla con un asesor
                                             </a>
 

@@ -213,7 +213,7 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
 
 @if ($type == 'backgroundColor')
 
-    <section class="component-info-text-image-T1 customSection sectionParent fullWidth {{ $classSection }} ">
+    <section class="component-info-text-image-T1 customSection sectionParent {{ $classSection }} ">
 
 
         <div class="section-row">
