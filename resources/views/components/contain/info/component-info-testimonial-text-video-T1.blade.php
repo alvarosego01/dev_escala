@@ -102,10 +102,14 @@ if (!isset($typeButton)) {
 
                                     <div class="autor">
 
+                                        @if ( isset($icon) && $icon != null )
+                                            <img src="{{ $icon }}" class="logoAutor" alt="">
+                                        @else
                                         <span class="circle">
 
                                         </span>
 
+                                        @endif
                                         <div class="c">{!! $autor !!}</div>
 
                                     </div>
@@ -148,10 +152,14 @@ if (!isset($typeButton)) {
 
                                     <div class="autor">
 
+                                        @if ( isset($icon) && $icon != null )
+                                            <img src="{{ $icon }}" class="logoAutor" alt="">
+                                        @else
                                         <span class="circle">
 
                                         </span>
 
+                                        @endif
                                         <div class="c">{!! $autor !!}</div>
 
                                     </div>
@@ -206,10 +214,14 @@ if (!isset($typeButton)) {
 
                                     <div class="autor">
 
+                                        @if ( isset($icon) && $icon != null )
+                                            <img src="{{ $icon }}" class="logoAutor" alt="">
+                                        @else
                                         <span class="circle">
 
                                         </span>
 
+                                        @endif
                                         <div class="c">{!! $autor !!}</div>
 
                                     </div>
@@ -326,10 +338,14 @@ if (!isset($typeButton)) {
 
                                 <div class="autor">
 
+                                    @if ( isset($icon) && $icon != null )
+                                        <img src="{{ $icon }}" class="logoAutor" alt="">
+                                    @else
                                     <span class="circle">
 
                                     </span>
 
+                                    @endif
                                     <div class="c">{!! $autor !!}</div>
 
                                 </div>
@@ -369,10 +385,14 @@ if (!isset($typeButton)) {
 
                                 <div class="autor">
 
+                                    @if ( isset($icon) && $icon != null )
+                                        <img src="{{ $icon }}" class="logoAutor" alt="">
+                                    @else
                                     <span class="circle">
 
                                     </span>
 
+                                    @endif
                                     <div class="c">{!! $autor !!}</div>
 
                                 </div>
@@ -424,10 +444,14 @@ if (!isset($typeButton)) {
 
                                 <div class="autor">
 
+                                    @if ( isset($icon) && $icon != null )
+                                        <img src="{{ $icon }}" class="logoAutor" alt="">
+                                    @else
                                     <span class="circle">
 
                                     </span>
 
+                                    @endif
                                     <div class="c">{!! $autor !!}</div>
 
                                 </div>

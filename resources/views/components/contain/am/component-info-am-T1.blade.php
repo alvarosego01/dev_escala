@@ -29,6 +29,12 @@
 
                 <div class="containElements">
 
+                  @if ( isset($title) && $title != null )
+                  <h3 class="secondaryTitle">
+                    {!! $title !!}
+                  </h3>
+                  @endif
+
                   <p class="primaryText grayColorTexts description">
                     {!! $description !!}
                 </p>
