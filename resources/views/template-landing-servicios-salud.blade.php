@@ -15,15 +15,14 @@
                 $parameters = [
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingServSalud0',
-                    'title' => '¡Conviértete en <br class="space"> un afiliado de Escala y <br class="space">
-                    <span class="greenBlueColor">gana grandes comisiones!</span> ',
+                    'title' => '<span class="greenBlueColor">¡Genera<br> más leads!</span><br> e incrementa tus ventas<br class="space"> para tus servicios<br class="space"> de salud con Escala',
                     'text' => null,
                     'textForm' => 'Regístrate ahora',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => true,
-                    'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas3.png'),
-                    'image' => App::setFilePath('/assets/images/person/am/afiliates_am.png'),
+                    'overlayImage' => nulls,
+                    'image' => App::setFilePath('/assets/images/person/Doctor_Servicios_Salud.png'),
                 ];
             @endphp
 
@@ -56,14 +55,13 @@
                     'enableTitle' => false,
                     'titlePrincipal' => null,
                     'subTitlePrincipal' => null,
-                    'title' => '<span class="greenBlueColor">Te ayudamos a enamorar <br class="space">
-                a tus referidos</span>',
-                    'img' => App::setFilePath('/assets/images/illustrations/team/crm_afiliates.png'),
-                    'text' => 'Te damos todo el material de comunicación que necesitas para <br class="desktopTabletElement"> que tus referidos entiendan los grandes beneficios que obtienen <br class="desktopTabletElement"> con Escala. Desde lead magnets como: ebook, webinar. artículos <br class="desktopTabletElement"> de blog, hasta PDF explicando cada plan.',
-                    'enableButton' => false,
-                    // 'urlButton' => '#lead-form',
-                    // 'textButton' => 'Segmentar ahora',
-                    'side' => 'left',
+                    'title' => '<span class="greenBlueColor">¿Escala tiene todo<br class="space"> lo que mi seguro necesita?</span>',
+                    'img' => App::setFilePath('/assets/images/illustrations/otto/otto_serv_salud_2.png'),
+                    'text' => 'No importa el tamaño de su empresa. Empodera a tus equipos:<br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales<br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio<br><br> Quiero conocer el plan para empresas de seguro',
+                    'enableButton' => true,
+                     'urlButton' => '#lead-form',
+                     'textButton' => '¡Comenzar ahora!',
+                    'side' => 'right',
                 ];
             @endphp
 
