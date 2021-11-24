@@ -157,9 +157,6 @@
                 @include responsivo(pcMedio)
                     padding: 50px 2.5%!important
         section.innerSectionElement.sct1
-            // display: none
-            // border-radius: 30px 30px 30px 30px
-            // background-color: red
             .groupElements
                 background-color: #FAFAFA
                 padding: 25px 125px!important
@@ -198,8 +195,120 @@
 
     .customSection.sectionParent.landingServSalud2
         // .blueLabelSpecial
-        background-color: #E6F2F880
         padding: 75px 0
+        .section-row
+            padding: 0
+            @include responsivo(telefonoTable)
+                width: 95%
+            @include responsivo(pcMedio)
+                width: 90%
+            @include responsivo(general)
+                width: 100%!important
+                max-width: 1200px!important
+            @include responsivo(resto)
+                width: 100%!important
+                max-width: 1240px!important
+            .innerSectionElement.sct1
+                .containElements
+                    .primaryTitle
+                        font-family: Nunito
+                        font-style: normal
+                        font-weight: bold
+                        font-size: 30px
+                        line-height: 34px
+                        text-align: center
+            .innerSectionElement.sct2
+                margin-bottom: 50px!important
+                .containElements
+                    .row
+                        .item
+                            padding: 10px 0
+                            &:nth-child(4n - 3)
+                                .boxInfoCheck
+                                    background-color: #FAFAFA
+                            &:nth-child(4n - 2)
+                                .boxInfoCheck
+                                    background-color: #FEFEFE
+                            &:nth-child(4n - 5)
+                                .boxInfoCheck
+                                    background-color: #FEFEFE
+                            &:nth-child(4n - 4)
+                                .boxInfoCheck
+                                    background-color: #FAFAFA
+
+                            &:nth-child(odd)
+                                .boxInfoCheck
+                                    @include responsivo(general)
+                                        border-radius: 15px 0px 0px 15px
+
+                                    @include responsivo(resto)
+                                        border-radius: 15px 0px 0px 15px
+
+                            &:nth-child(even)
+                                .boxInfoCheck
+                                    @include responsivo(general)
+                                        border-radius: 0px 15px 15px 0px
+
+                                    @include responsivo(resto)
+                                        border-radius: 0px 15px 15px 0px
+
+
+
+
+                            .boxInfoCheck
+                                padding-top: 75px
+                                padding-bottom: 50px
+                                padding-right: 0
+                                padding-left: 75px
+                                position: relative
+                                @include responsivo(telefonoTable)
+                                    border-radius: 15px
+                                @include responsivo(pcMedio)
+                                    border-radius: 15px
+
+                                .secondaryTitle
+                                    display: flex
+                                    flex-direction: row
+                                    align-content: center
+                                    align-items: center
+                                    position: relative
+                                    font-family: Nunito
+                                    font-style: normal
+                                    font-weight: bold
+                                    font-size: 30px
+                                    line-height: 32px
+                                    img.iconCheck
+                                        position: absolute
+                                        left: -30px
+                                        top: 0
+                                        bottom: 0
+                                        height: 25px
+                                        width: auto
+                                        margin-right: auto
+
+
+                                p.text
+                                    font-family: Nunito
+                                    font-style: normal
+                                    font-weight: normal
+                                    font-size: 14px
+                                    line-height: 18px
+                                    color: #73676D
+                                img.overImage
+                                    position: absolute
+                                    top: 40px
+                                    right: 50px
+                                    height: 75px
+                                    width: auto
+                                    display: block
+                                    margin-left: auto
+
+
+
+
+    .customSection.sectionParent.landingServSalud5
+        background-color: #F2F8FB
+        padding: 65px 0
         .section-row
             padding: 0
             @include responsivo(telefonoTable)
@@ -212,168 +321,6 @@
             @include responsivo(resto)
                 width: 100%!important
                 max-width: 1300px!important
-
-            .innerSectionElement.sct1
-                .containElements
-                    .primaryTitle
-                        font-family: Nunito
-                        font-style: normal
-                        font-weight: bold
-                        font-size: 35px
-                        line-height: 34px
-                        text-align: center
-                        margin-bottom: 50px
-
-            .innerSectionElement.sct2
-                margin-bottom: 50px!important
-                .row
-                    .item
-                        .groupElements
-                            .image
-                                margin-bottom: 15px
-                                .containerImage
-                                    img
-                                        height: 80px
-
-                            .info
-                                .secondaryTitle
-                                    font-family: Nunito
-                                    font-style: normal
-                                    font-weight: bold
-                                    font-size: 30px
-                                    line-height: 35px
-                                    text-align: center
-                                    margin-bottom: 40px!important
-
-                                .text
-                                    font-family: Nunito
-                                    font-style: normal
-                                    font-weight: normal
-                                    font-size: 16px
-                                    line-height: 22px
-                                    text-align: center
-                                    color: #73676D
-                                    padding: 0
-                                    margin-bottom: 15px
-
-            .innerSectionElement.sct3
-                display: flex
-                justify-content: center
-                align-items: center
-                a
-                    margin: 0 auto
-
-    .customSection.sectionParent.landingServSalud3
-        // .blueLabelSpecial
-        padding: 75px 0
-        padding-bottom: 30px
-        .section-row
-            padding: 0
-            @include responsivo(telefonoTable)
-                width: 95%
-            @include responsivo(pcMedio)
-                width: 90%
-            @include responsivo(general)
-                width: 100%!important
-                max-width: 1140px!important
-            @include responsivo(resto)
-                width: 100%!important
-                max-width: 1250px!important
-
-            .innerSectionElement.sct1
-                .containElements
-                    .primaryTitle
-                        font-family: Nunito
-                        font-style: normal
-                        font-weight: bold
-                        font-size: 35px
-                        line-height: 40px
-                        text-align: center
-                        margin-bottom: 40px
-                    p.primaryText
-                        font-family: Nunito
-                        font-style: normal
-                        font-weight: normal
-                        font-size: 16px
-                        line-height: 22px
-                        text-align: center
-                        color: #73676D
-                        margin-bottom: 50px
-
-            .innerSectionElement.sct2
-                margin-bottom: 50px!important
-                padding-top: 50px
-                .row
-                    .item
-                        padding: 0 25px!important
-                        @include responsivo(telefonoTable)
-                            margin-bottom: 125px
-                            &:last-child
-                                margin-bottom: 0
-                        @include responsivo(pcMedio)
-                            margin-bottom: 125px
-                            &:last-child
-                                margin-bottom: 0
-                        .groupElements
-                            background-color: #FAFAFA
-                            border-radius: 15px
-                            .image
-                                position: relative
-                                height: 120px!important
-                                .containerImage
-                                    position: absolute
-                                    left: 0
-                                    right: 0
-                                    bottom: 0
-                                    img
-                                        height: 175px
-
-
-                            .info
-                                .secondaryTitle
-                                    font-family: Nunito
-                                    font-style: normal
-                                    font-weight: bold
-                                    font-size: 30px
-                                    line-height: 34px
-                                    margin-bottom: 10px!important
-                                    text-align: left
-
-                                .text
-                                    font-family: Nunito
-                                    font-style: normal
-                                    font-weight: normal
-                                    font-size: 16px
-                                    line-height: 22px
-                                    text-align: left
-                                    color: #73676D
-                                    padding: 0
-                                    margin-bottom: 12.5px
-
-            .innerSectionElement.sct3
-                display: flex
-                justify-content: center
-                align-items: center
-                a
-                    margin: 0 auto
-
-    .customSection.sectionParent.landingServSalud4,
-    .customSection.sectionParent.landingServSalud5,
-    .customSection.sectionParent.landingServSalud6,
-    .customSection.sectionParent.landingServSalud8
-        padding: 5px 0
-        .section-row
-            padding: 0
-            @include responsivo(telefonoTable)
-                width: 95%
-            @include responsivo(pcMedio)
-                width: 90%
-            @include responsivo(general)
-                width: 100%!important
-                max-width: 1100px!important
-            @include responsivo(resto)
-                width: 100%!important
-                max-width: 1200px!important
 
             .innerSectionElement.sct1
                 margin-bottom: 50px
@@ -423,64 +370,7 @@
                         @include responsivo(pcMedio)
                             margin-bottom: 25px
 
-    .customSection.sectionParent.landingServSalud5,
     .customSection.sectionParent.landingServSalud6
-        .innerSectionElement.sct2
-            .groupElements.row
-                .image
-                    .containerImage
-                        background-color: #F2F8FB
-                        padding: 50px 0!important
-                        box-sizing: border-box
-                        border-radius: 25px
-                        img
-                            height: 300px
-
-    .customSection.sectionParent.landingServSalud7
-        padding: 50px 0
-        .section-row
-            section.innerSectionElement
-                display: flex
-                flex-direction: column
-                justify-content: center
-                align-content: center
-                h2,
-                a
-                    margin: 0 auto
-                h2
-                    font-family: Nunito
-                    font-style: normal
-                    font-weight: bold
-                    font-size: 35px
-                    line-height: 45px
-                    text-align: center
-                    color: #150D27
-                    margin-bottom: 35px
-
-    .customSection.sectionParent.landingServSalud8
-        background-color: #F2F8FB
-        padding: 65px 0
-        .section-row
-            padding: 0
-            @include responsivo(telefonoTable)
-                width: 95%
-            @include responsivo(pcMedio)
-                width: 90%
-            @include responsivo(general)
-                width: 100%!important
-                max-width: 1275px!important
-            @include responsivo(resto)
-                width: 100%!important
-                max-width: 1300px!important
-
-            .info
-                padding: 0!important
-
-            .image
-                .containerImage
-                    padding: 0!important
-
-    .customSection.sectionParent.landingServSalud9
         background: linear-gradient(81.76deg, #33768B -10.55%, rgba(51, 118, 139, 0) 44.08%), #264857
         padding: 75px 0
         position: relative
@@ -586,7 +476,7 @@
                 margin-right: 7.5%
 
 
-    .customSection.sectionParent.landingServSalud10
+    .customSection.sectionParent.landingServSalud7
         background-color: #E6F2F8
         // padding-bottom: 0
         @include responsivo(telefonoTable)
