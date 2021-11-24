@@ -838,9 +838,9 @@
         position: absolute
     .section-row
         @include responsivo(telefonoTable)
-            width: 95%
+            width: 80%
         @include responsivo(pcMedio)
-            width: 90%
+            width: 70%
         @include responsivo(general)
             width: 100%!important
             max-width: 1200px
@@ -941,6 +941,10 @@
                     display: flex
                     flex-direction: column
                     justify-content: center
+                    @include responsivo(telefonoTable)
+                        padding: 25px 0
+                    @include responsivo(pcMedio)
+                        padding: 25px 0
                     .secondaryTitle
                         font-weight: 800
                         font-family: Nunito
@@ -965,17 +969,43 @@
                     div.autor
                         display: flex
                         flex-direction: row
+                        @include responsivo(telefonoTable)
+                            flex-direction: column
+                            justify-content: center
+                            align-content: center
+                            align-items: center
+                        @include responsivo(pcMedio)
+                            flex-direction: column
+                            justify-content: center
+                            align-content: center
+                            align-items: center
+                        img.logoAutor
+                            height: 40px
+                            width: 40px
+                            margin-right: 12.5px
+                            @include responsivo(telefonoTable)
+                                margin-bottom: 15px
+                            @include responsivo(pcMedio)
+                                margin-bottom: 15px
                         span.circle
                             height: 40px
                             width: 40px
                             background-color: #34768A
-                            margin-right: 10px
+                            margin-right: 12.5px
                             border-radius: 360px
+                            @include responsivo(telefonoTable)
+                                margin-bottom: 15px
+                            @include responsivo(pcMedio)
+                                margin-bottom: 15px
                         div.c
                             display: flex
                             flex-direction: column
                             // align-items: center
                             align-content: center
+                            @include responsivo(telefonoTable)
+                                justify-content: center
+                            @include responsivo(pcMedio)
+                                justify-content: center
                             span
                                 font-family: Nunito
                                 font-style: normal
