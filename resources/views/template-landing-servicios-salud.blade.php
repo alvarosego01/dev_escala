@@ -100,48 +100,51 @@
 
             @endcontain_info_checkBoxes_T1
 
-
             @php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'landingServSalud3',
-  'enableTitle' => false,
-  'img' => App::setFilePath('/assets/images/illustrations/otto/otto_serv_salud_2.png'),
-  'title' => '<span class="greenBlueColor">¿Escala tiene todo<br> lo que mi seguro necesita?</span>',
-  'text' => 'No importa el tamaño de su empresa. Empodera a tus equipos:<br> comercial, ventas y marketing con todas las herramientas digitales<br> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio
-<br class="space"><br class="space">
-Quiero conocer el plan para empresas de seguro',
-  'enableButton' => true,
-  'urlButton' => '#',
-  'textButton' => '¡Comenzar ahora!',
-  'typeButton' => 'primaryButton',
-  'side' => 'right',
- ) ;
-@endphp
+            $parameters = [
+                'type' => 'backgroundColor',
+                'classSection' => 'landingServSalud3',
+                'enableTitle' => false,
+                'titlePrincipal' => null,
+                'subTitlePrincipal' => null,
+                'title' => '<span class="greenBlueColor">¿Escala tiene todo <br class="desktopTabletElement"> lo que mi seguro necesita? </span>',
+                'img' => App::setFilePath('/assets/images/illustrations/otto/seguros-5 1.png'),
+                'text' => 'No importa el tamaño de su empresa. Empodera a tus equipos: <br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio
+                <br class="space"><br class="space">
+                Quiero conocer el plan para empresas de seguro',
+                'enableButton' => true,
+                'urlButton' => '#lead-form',
+                'typeButton' => 'primaryButton',
+                'textButton' => '¡Comenzar ahora!',
+                'side' => 'right',
+            ];
+        @endphp
 
-@contain_text_image_T1( $parameters )
+        @contain_text_image_T1( $parameters )
 
-@endcontain_text_image_T1
+        @endcontain_text_image_T1
 
-            @php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'landingServSalud4',
-  'enableTitle' => false,
-  'img' => App::setFilePath('/assets/images/illustrations/others/notebook_money.png'),
-  'title' => '<span class="greenBlueColor">Un plan hecho a tu medida</span>',
-  'text' => 'Conoce nuestros planes para profesionales de salud.<br> Paga por número de contactos de marketing y ten todas<br> las herramientas en una sola plataforma.',
-  'enableButton' => true,
-  'urlButton' => '#',
-  'textButton' => 'Conoce nuestros planes',
-  'typeButton' => 'primaryButton',
-  'side' => 'left',
- ) ;
-@endphp
+                @php
+            $parameters = [
+                'type' => 'backgroundColor',
+                'classSection' => 'landingServSalud4',
+                'enableTitle' => false,
+                'titlePrincipal' => null,
+                'subTitlePrincipal' => null,
+                'title' => '<span class="greenBlueColor">La mejor inversión del año</span>',
+                'img' => App::setFilePath('/assets/images/illustrations/others/paymentpages-1 1.png'),
+                'text' => 'En Escala tenemos un plan a la medida de tus <br class="desktopElement"> necesidades. Conoce nuestros planes para cada tamaño <br class="desktopElement"> de empresa y número de contactos de marketing. <br class="desktopElement"> Optimiza tu inversión en ventas y marketing digital.',
+                'enableButton' => true,
+                'urlButton' => '#lead-form',
+                'typeButton' => 'primaryButton',
+                'textButton' => 'Conoce nuestros planes',
+                'side' => 'left',
+            ];
+        @endphp
 
-@contain_text_image_T1( $parameters )
+        @contain_text_image_T1( $parameters )
 
-@endcontain_text_image_T1
+        @endcontain_text_image_T1
 
             @php
                 $parameters = [
