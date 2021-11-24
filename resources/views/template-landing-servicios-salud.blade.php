@@ -63,39 +63,34 @@
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
                         ],
                         [
-                            'title' => '<span class="greenBlueColor">Genera tráfico <br class="space"> desde Facebook</span>',
-                            'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes y <br class="desktopElement"> pacientes a tus páginas.
-                                       <br class="space"><br class="space">
-                                       Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="desktopElement"> ideal, sin necesidad de contratar un profesional. ',
-                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
+                            'title' => '<span class="greenBlueColor">Da a conocer tus<br class="space"> servicios de salud<br class="space"> y genera leads calificados</span>',
+                            'text' => 'Haz que todos conozcan tus servicios de salud y capta la<br class="desktopElement"> información de contacto de tus posibles pacientes e<br class="desktopElement"> interesados con landing pages optimizadas.<br class="desktopElement"> Elige una de nuestras plantillas, personalízala y publícala con<br class="desktopElement"> un clic,sin programar o diseñar.',
+                            'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
                         ],
                         [
-                            'title' => '<span class="greenBlueColor">Genera tráfico <br class="space"> desde Facebook</span>',
-                            'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes y <br class="desktopElement"> pacientes a tus páginas.
-                                       <br class="space"><br class="space">
-                                       Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="desktopElement"> ideal, sin necesidad de contratar un profesional. ',
-                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
+                            'title' => '<span class="greenBlueColor">No pierdas ningún<br class="space"> dato de tus pacientes<br class="space"> potenciales</span>',
+                            'text' => 'Nuestras landing pages tienen formularios inteligentes. Cuando<br class="desktopElement"> tus pacientes potenciales registran toda su información en ellos,<br class="desktopElement"> queda guardada automáticamente en tu CRM de Escala. Así<br class="desktopElement"> podrás tener mejor control de sus datos y poder brindarles las<br class="desktopElement"> soluciones de salud que necesita cada uno..',
+                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_2.png'),
                         ],
                         [
-                            'title' => '<span class="greenBlueColor">Genera tráfico <br class="space"> desde Facebook</span>',
-                            'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes y <br class="desktopElement"> pacientes a tus páginas.
-                                       <br class="space"><br class="space">
-                                       Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="desktopElement"> ideal, sin necesidad de contratar un profesional. ',
-                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
+                            'title' => '<span class="greenBlueColor">Organiza y gestiona<br class="space"> tu base de datos</span>',
+                            'text' => 'En Escala tenemos el CRM más fácil de usar para que tú mismo<br class="desktopElement"> puedas hacerle seguimiento a cada posible paciente o cliente<br class="desktopElement"> hasta generar la preferencia de tus servicios. Crea actividades,<br class="desktopElement"> tareas y recordatorios, clasifica a tus leads según sus<br class="desktopElement"> necesidades y mantén comunicación constante con ellos.',
+                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_3.png'),
                         ],
                         [
-                            'title' => '<span class="greenBlueColor">Genera tráfico <br class="space"> desde Facebook</span>',
-                            'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes y <br class="desktopElement"> pacientes a tus páginas.
-                                       <br class="space"><br class="space">
-                                       Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="desktopElement"> ideal, sin necesidad de contratar un profesional. ',
-                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
+                            'title' => '<span class="greenBlueColor">Nutre la relación<br class="space"> a largo plazo</span>',
+                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar<br class="desktopElement"> confianza entre tus pacientes y posibles pacientes y reforzar la lealtad hacia<br class="desktopElement"> tus soluciones integrales.Envía emails masivos, en el momento adecuado<br class="desktopElement"> para:
+                            <ul>
+                            <li>Presentar nuevos servicios</li>
+                            <li>Reforzar las razones de la elección de tus servicios de salud</li>
+                            <li>Mantenerlos informados sobre tips de cuidados de la salud y bienestar</li>
+                            </ul>',
+                            'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-12 1.png'),
                         ],
                         [
-                            'title' => '<span class="greenBlueColor">Genera tráfico <br class="space"> desde Facebook</span>',
-                            'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes y <br class="desktopElement"> pacientes a tus páginas.
-                                       <br class="space"><br class="space">
-                                       Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="desktopElement"> ideal, sin necesidad de contratar un profesional. ',
-                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
+                            'title' => '<span class="greenBlueColor">Mide y optimiza<br class="space"> tus resultados<br class="space"> con analíticas relevantes</span>',
+                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para<br class="desktopElement"> entender qué funciona y qué puede mejorar tu marketing digital.<br class="desktopElement"> Ten tableros amigables que miden el rendimiento de Ads, Landing<br class="desktopElement"> Pages y campañas de Email.',
+                            'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-11.png'),
                         ],
 
                     ],
@@ -106,6 +101,47 @@
             @endcontain_info_checkBoxes_T1
 
 
+            @php
+ $parameters = array(
+  'type' => 'backgroundColor',
+  'classSection' => 'landingServSalud3',
+  'enableTitle' => false,
+  'img' => App::setFilePath('/assets/images/illustrations/otto/otto_serv_salud_2.png'),
+  'title' => '<span class="greenBlueColor">¿Escala tiene todo<br> lo que mi seguro necesita?</span>',
+  'text' => 'No importa el tamaño de su empresa. Empodera a tus equipos:<br> comercial, ventas y marketing con todas las herramientas digitales<br> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio
+<br class="space"><br class="space">
+Quiero conocer el plan para empresas de seguro',
+  'enableButton' => true,
+  'urlButton' => '#',
+  'textButton' => '¡Comenzar ahora!',
+  'typeButton' => 'primaryButton',
+  'side' => 'right',
+ ) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
+            @php
+ $parameters = array(
+  'type' => 'backgroundColor',
+  'classSection' => 'landingServSalud4',
+  'enableTitle' => false,
+  'img' => App::setFilePath('/assets/images/illustrations/others/notebook_money.png'),
+  'title' => '<span class="greenBlueColor">Un plan hecho a tu medida</span>',
+  'text' => 'Conoce nuestros planes para profesionales de salud.<br> Paga por número de contactos de marketing y ten todas<br> las herramientas en una sola plataforma.',
+  'enableButton' => true,
+  'urlButton' => '#',
+  'textButton' => 'Conoce nuestros planes',
+  'typeButton' => 'primaryButton',
+  'side' => 'left',
+ ) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
 
             @php
                 $parameters = [
@@ -114,14 +150,6 @@
                     'enableTitle' => false,
                     'titlePrincipal' => null,
                     'subTitlePrincipal' => null,
-<<<<<<< HEAD
-                    'title' => '<span class="greenBlueColor">¿Escala tiene todo<br class="space"> lo que mi seguro necesita?</span>',
-                    'img' => App::setFilePath('/assets/images/illustrations/otto/otto_serv_salud_2.png'),
-                    'text' => 'No importa el tamaño de su empresa. Empodera a tus equipos:<br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales<br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio<br><br> Quiero conocer el plan para empresas de seguro',
-                    'enableButton' => true,
-                     'urlButton' => '#lead-form',
-                     'textButton' => '¡Comenzar ahora!',
-=======
                     'title' => '<span class="greenBlueColor">Nuestros clientes hablan <br class="space"> de nuestros beneficios</span>',
                     'video' => 'https://www.youtube.com/embed/XUPOcRPXuzA',
                     'text' => '“Desde que contamos con Escala tenemos el control de <br class="desktopElement"> toda la data de nuestros especialistas médicos de toda la <br class="desktopElement"> red y de nuestros pacientes. Es un CRM realmente fácil de <br class="desktopElement"> usar, para nosotros que nunca habíamos tenido una <br class="desktopElement"> plataforma todo en uno”
@@ -131,7 +159,6 @@
                     // 'textButton' => 'Segmentar ahora',
                     'enableAutor' => true,
                     'autor' => '<span>Angel sitti</span><small>Operaciones Mamotest</small>',
->>>>>>> alvaro
                     'side' => 'right',
                 ];
             @endphp
@@ -182,10 +209,11 @@
             @php
                 $parameters = [
                     'classSection' => 'landingServSalud7',
-                    'title' => '¡Regístrate hoy mismo <br class="space"> y gana grandes comisiones!',
-                    'textForm' => 'Regístrate ahora',
-                    'text' => 'Llena este formulario y envía tu postulación, pronto recibirás <br class="desktopTabletElement"> la respuesta y podrás ser parte del programa.',
-                    'image' => App::setFilePath('/assets/images/illustrations/otto/otto-ventas 1.png'),
+                    'title' => 'Atrae leads de calidad y da a conocer<br> tus servicios de salud con Escala.',
+                    'textForm' => 'Pruébalo gratis ahora',
+                    'text' => null,
+                    'image' => App::setFilePath('/assets/images/person/Landing_salud_doctora_phone.png'),
+                    'side' => 'left',
                 ];
             @endphp
             @bannerForms7_T1( $parameters )
