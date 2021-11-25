@@ -453,7 +453,7 @@ class ACF_CUSTOM extends Controller
                     array (
                         'param' => 'post_type',
                         'operator' => '==',
-                        'value' => 'exitocaso',
+                        'value' => 'caso-de-exito',
                     ),
                 ),
             ),
@@ -508,7 +508,7 @@ class ACF_CUSTOM extends Controller
                     array (
                         'param' => 'post_type',
                         'operator' => '==',
-                        'value' => 'exitocaso',
+                        'value' => 'caso-de-exito',
                     ),
                 ),
             ),
@@ -546,7 +546,7 @@ class ACF_CUSTOM extends Controller
                     array (
                         'param' => 'post_type',
                         'operator' => '==',
-                        'value' => 'exitocaso',
+                        'value' => 'caso-de-exito',
                     ),
                 ),
             ),

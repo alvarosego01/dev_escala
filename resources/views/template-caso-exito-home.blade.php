@@ -130,7 +130,7 @@
 
             @php
             $query = array(
-                'post_type' => 'exitocaso',
+                'post_type' => 'caso-de-exito',
                 'post_status' => 'publish',
                 'orderby' => 'desc',
                 'posts_per_page' => 2,

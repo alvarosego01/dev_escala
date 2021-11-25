@@ -153,7 +153,7 @@
 
 
 
-            @php
+            {{-- @php
                 $parameters = [
                     'type' => 'backgroundColor',
                     'classSection' => 'landingServSeguros5',
@@ -219,7 +219,7 @@
                 </div>
 
 
-            </section>
+            </section> --}}
 
 
             @php

@@ -54,7 +54,7 @@ posts
                         <div class="card">
                             <div class="card-header">
 
-                            <a href="{!! App::setTypeUrl() !!}/exitocaso/{{ $item->post_name }}">
+                            <a href="{!! App::setTypeUrl() !!}/caso-de-exito/{{ $item->post_name }}">
 
                                     {{-- <img src="{{ Posts::getPhoto($item->ID) }}" class="card-img-top" > --}}
                                 @php
@@ -65,9 +65,21 @@ posts
                                 <img src="{{ $i }}" alt="" loading="lazy" class="card-img-top" >
 
                             </a>
+                            @php
+                                $categories = get_the_category( $item->ID );
+                            @endphp
+                            @if ( isset($categories[0]->name) && $categories[0]->name != null )
+
+                            <small class="category">
+
+                                {{ $categories[0]->name }}
+
+                            </small>
+
+                            @endif
                             </div>
                         <div class="card-body">
-                            <a href="{!! App::setTypeUrl() !!}/exitocaso/{{ $item->post_name }}">
+                            <a href="{!! App::setTypeUrl() !!}/caso-de-exito/{{ $item->post_name }}">
 
 
                                 <p class="commonText  blackColor card-text">
@@ -77,7 +89,7 @@ posts
                         </div>
                             <div class="card-footer">
 
-                                <a class="primaryButton hoverInEffect" href="{!! App::setTypeUrl() !!}/exitocaso/{{ $item->post_name }}">
+                                <a class="primaryButton hoverInEffect" href="{!! App::setTypeUrl() !!}/caso-de-exito/{{ $item->post_name }}">
                                     Leer su historia
                                 </a>
 

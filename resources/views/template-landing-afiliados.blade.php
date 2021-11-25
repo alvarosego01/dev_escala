@@ -286,7 +286,7 @@
                 $parameters = [
                     'classSection' => 'landingAfiliados10',
                     'title' => '¡Regístrate hoy mismo <br class="space"> y gana grandes comisiones!',
-                    'textForm' => 'Regístrate ahora',
+                    'textForm' => '¡Comienza a ganar comisiones!',
                     'text' => 'Llena este formulario y envía tu postulación, pronto recibirás <br class="desktopTabletElement"> la respuesta y podrás ser parte del programa.',
                     'image' => App::setFilePath('/assets/images/illustrations/otto/otto-ventas 1.png'),
                 ];
