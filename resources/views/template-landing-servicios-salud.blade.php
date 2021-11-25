@@ -145,7 +145,7 @@
         @contain_text_image_T1( $parameters )
 
         @endcontain_text_image_T1
-
+{{--
             @php
                 $parameters = [
                     'type' => 'backgroundColor',
@@ -212,7 +212,7 @@
                 </div>
 
 
-            </section>
+            </section> --}}
 
             @php
                 $parameters = [

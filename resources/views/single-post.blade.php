@@ -31,11 +31,6 @@
 
                     <div class="section-row">
 
-
-
-
-
-
                             <div class="containElements">
 
 

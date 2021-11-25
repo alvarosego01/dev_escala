@@ -1,6 +1,6 @@
 {{--
     Template Name: [B] Caso de éxito - Single
-    Template Post Type: exitocaso
+    Template Post Type: caso-de-exito
 --}}
 
 
@@ -26,6 +26,19 @@
                         <div class="groupElements row">
 
                             <div class="info col-md-12 col-lg-6">
+
+                                @php
+                                $categories = get_the_category( $item->ID );
+                            @endphp
+                            @if ( isset($categories[0]->name) && $categories[0]->name != null )
+
+                            <span class="category tag">
+
+                                {{ $categories[0]->name }}
+
+                            </span>
+
+                            @endif
 
                                 <div class="containerImage">
 
@@ -93,9 +106,6 @@
                 <img src="{!! App::setFilePath('/assets/images/overlays/estrellas_2.png') !!}" class="overlayStars">
 
             </section>
-
-
-
 
             <section class="customSection sectionParent casoExitoSingle1">
 
@@ -181,6 +191,10 @@
 
                             @endif
 
+                            <a class="primaryButton hoverInEffect" href="{!! App::setTypeUrl() !!}/pricing">
+                                Pruébalo ahora
+                            </a>
+
                         </div>
 
                       </div>
@@ -230,7 +244,7 @@
 
             @php
                 $query = [
-                    'post_type' => 'exitocaso',
+                    'post_type' => 'caso-de-exito',
                     'post_status' => 'publish',
                     'orderby' => 'desc',
                     'posts_per_page' => 2,
