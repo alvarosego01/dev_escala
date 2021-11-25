@@ -13,7 +13,7 @@
                 $parameters = [
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingServSalud0',
-                    'title' => '<span class="greenBlueColor">¡Genera<br> más leads!</span><br> e incrementa tus ventas<br class="space"> para tus servicios<br class="space"> de salud con Escala',
+                    'title' => '<span class="greenBlueColor">¡Genera <br class="space"> más leads!</span> <br class="space"> e incrementa tus ventas<br class="space"> para tus servicios<br class="space"> de salud con Escala',
                     'text' => null,
                     'textForm' => 'Regístrate ahora',
                     'threeCol' => true,
@@ -32,7 +32,7 @@
             @php
                 $parameters = [
                     'classSection' => 'landingServSalud1 func',
-                    'description' => 'En Escala estamos para ayudarte a ofrecer todos tus <br class="desktopElement"> servicios de salud, generando más leads de calidad. Todas las <br class="desktopElement"> herramientas de marketing digital y ventas en un solo lugar <br class="desktopElement"> para que llegues con mayor efectividad a tus pacientes <br class="desktopElement"> quienes necesitan una solución de bienestar integral.',
+                    'description' => 'En <strong>Escala</strong> estamos para ayudarte a ofrecer todos tus <br class="desktopElement"> servicios de salud, generando más leads de calidad. Todas las <br class="desktopElement"> herramientas de marketing digital y ventas en un solo lugar <br class="desktopElement"> para que llegues con mayor efectividad a tus pacientes <br class="desktopElement"> quienes necesitan una solución de bienestar integral.',
                     'byAm' => null,
                     'team' => null,
                     'image' => App::setFilePath('/assets/images/illustrations/otto/otto_serv_salud.png'),
@@ -50,7 +50,7 @@
                     'classSection' => 'landingServSalud2',
                     'enableTitle' => true,
                     'enableButton' => true,
-                    'urlButton' => '#',
+                    'urlButton' =>  App::setTypeUrl().'/zoom-meeting',
                     'textButton' => 'Conocer más',
                     'typeButton' => 'primaryButton hoverInEffect',
                     'titlePrincipal' => '<span class="greenBlueColor">Con Escala</span> crece sin límites',
@@ -131,11 +131,11 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'title' => '<span class="greenBlueColor">La mejor inversión del año</span>',
+                'title' => '<span class="greenBlueColor">Un plan hecho a tu medida</span>',
                 'img' => App::setFilePath('/assets/images/illustrations/others/paymentpages-1 1.png'),
-                'text' => 'En Escala tenemos un plan a la medida de tus <br class="desktopElement"> necesidades. Conoce nuestros planes para cada tamaño <br class="desktopElement"> de empresa y número de contactos de marketing. <br class="desktopElement"> Optimiza tu inversión en ventas y marketing digital.',
+                'text' => 'Conoce nuestros planes para profesionales de salud.<br class="desktopElement"> Paga por número de contactos de marketing y ten todas <br class="desktopElement"> las herramientas en una sola plataforma.',
                 'enableButton' => true,
-                'urlButton' => '#lead-form',
+                'urlButton' => App::setTypeUrl().'/pricing',
                 'typeButton' => 'primaryButton',
                 'textButton' => 'Conoce nuestros planes',
                 'side' => 'left',
@@ -190,11 +190,17 @@
                     <div class="info">
 
                         <h2 class="primaryTitle whiteColor">
-                            Estoy listo para ganar siendo un <br class="space"> afliado de Escala
+                            Conocimiento es poder
+
                         </h2>
 
+                        <p class="text">
+                            Descarga nuestro ebook: <br class="space">
+                            <span>Inbound marketing para salud y farma</span>
+                        </p>
+
                         <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-                            Quiero ser afiliado
+                            ¡Descargar ahora!
                         </a>
 
                     </div>
@@ -208,11 +214,10 @@
 
             </section>
 
-
             @php
                 $parameters = [
                     'classSection' => 'landingServSalud7',
-                    'title' => 'Atrae leads de calidad y da a conocer<br> tus servicios de salud con Escala.',
+                    'title' => 'Atrae leads de calidad y da a conocer <br class="space"> tus servicios de salud con Escala.',
                     'textForm' => 'Pruébalo gratis ahora',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/person/Landing_salud_doctora_phone.png'),

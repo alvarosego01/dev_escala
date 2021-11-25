@@ -53,7 +53,7 @@
                     'classSection' => 'landingServSeguros2',
                     'enableTitle' => true,
                     'enableButton' => true,
-                    'urlButton' => '#',
+                    'urlButton' =>  App::setTypeUrl().'/zoom-meeting',
                     'textButton' => 'Conocer más',
                     'typeButton' => 'primaryButton hoverInEffect',
                     'titlePrincipal' => '<span class="blackColor2">¿Cómo aceleramos el embudo de ventas ?</span>',
@@ -68,18 +68,18 @@
                         [
                             'title' => '<span class="greenBlueColor">Convierte a tus visitantes <br class="desktopTabletElement"> en leads con landing <br class="desktopTabletElement"> pages optimizadas</span>',
                             'text' => 'Genera diferentes landing pages según tu oferta de servicios, <br class="desktopElement"> sin programar o diseñar. Tu equipo de marketing podrá crear y <br class="desktopElement"> publicar landing pages optimizadas en pocos minutos. Solo <br class="desktopElement"> deberán personalizarlas y listo.',
-                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
+                            'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">No pierdas <br class="desktopTabletElement"> ningún dato </span>',
                             'text' => 'Nuestras landing pages tienen formularios inteligentes. Cuando tus <br class="desktopElement"> visitantes registran toda su información en ellos, queda guardada <br class="desktopElement"> automáticamente en tu CRM de Escala. <br class="sspace">
                             Así podrás tener mejor control de los datos de tus leads.',
-                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
+                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_2.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Organiza y gestiona <br class="desktopTabletElement"> tu base de datos</span>',
                             'text' => 'Entendemos que la adquisición de un seguro implica un proceso <br class="desktopElement"> complejo con varios pasos. Optimiza el seguimiento de cada <br class="desktopElement"> cliente con el CRM de Escala que simplifica toda tu gestión de <br class="desktopElement"> ventas. Crea actividades y tareas para tu equipo de ventas, <br class="desktopElement"> mantén comunicación con leads hipersegmentados según sus <br class="desktopElement"> áreas de interés, incrementa la recompra con promociones <br class="desktopElement"> customizadas, ofrece nuevos servicios.',
-                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
+                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_3.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Nutre la relación <br class="desktopTabletElement"> con tus leads y clientes</span>',
@@ -91,12 +91,12 @@
                                 <li>Mantenerlos informados sobre las novedades</li>
                             </ul>
                             ',
-                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
+                            'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Mide y optimiza <br class="desktopTabletElement"> tus resultados <br class="desktopTabletElement"> con analíticas relevantes</span>',
                             'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu equipo para <br class="desktopElement"> optimizar tu marketing digital. Ten tableros amigables que miden <br class="desktopElement"> el rendimiento de Ads, Landing Pages y campañas de Email.',
-                            'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
+                            'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-11.png'),
                         ],
                     ],
                 ];
@@ -140,7 +140,7 @@
                 'img' => App::setFilePath('/assets/images/illustrations/others/paymentpages-1 1.png'),
                 'text' => 'En Escala tenemos un plan a la medida de tus <br class="desktopElement"> necesidades. Conoce nuestros planes para cada tamaño <br class="desktopElement"> de empresa y número de contactos de marketing. <br class="desktopElement"> Optimiza tu inversión en ventas y marketing digital.',
                 'enableButton' => true,
-                'urlButton' => '#lead-form',
+                'urlButton' =>  App::setTypeUrl().'/pricing',
                 'typeButton' => 'primaryButton',
                 'textButton' => 'Conoce nuestros planes',
                 'side' => 'left',
