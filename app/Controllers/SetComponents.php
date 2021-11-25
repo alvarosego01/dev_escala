@@ -96,7 +96,9 @@ class SetComponents extends Controller
             'components.contain.info.component-info-5-cards-T1' => 'contain_5_cards_T1',
             'components.contain.info.component-info-multiple-cards-T1' => 'contain_multiple_cards_T1',
             'components.contain.info.component-info-multiple-cards-T2' => 'contain_multiple_cards_T2',
-            'components.contain.info.component-info-multiple-cards-carousel-T3' => 'contain_multiple_cards_carousel_T3'
+            'components.contain.info.component-info-multiple-cards-carousel-T3' => 'contain_multiple_cards_carousel_T3',
+            'components.contain.info.component-info-check-boxes' => 'contain_info_checkBoxes_T1',
+            'components.contain.info.component-info-testimonial-text-video-T1' => 'contain_testimonial_text_video_T1'
         );
     }
 
@@ -200,6 +202,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-landing-servicios-salud.blade.php",
+                "views/template-landing-servicios-seguros.blade.php",
 
             );
         }
@@ -270,6 +273,7 @@ class SetComponents extends Controller
                 "views/template-zoom-demo-home-step2.blade.php",
                 "views/template-landing-pricing-page.blade.php",
                 "views/template-landing-servicios-salud.blade.php",
+                "views/template-landing-servicios-seguros.blade.php",
 
             );
         }
