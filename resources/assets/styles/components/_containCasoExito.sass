@@ -175,7 +175,10 @@
         section.innerSectionElement.sct2
             .groupElements.row
                 .principal
-                    padding: 25px 35px
+                    padding: 15px
+                    @include responsivo(general)
+                        padding: 15px 10px
+
                     .card
                         background: #FFFFFF
                         mix-blend-mode: normal
@@ -190,8 +193,8 @@
                             border: none
                             box-sizing: border-box
                             padding: 0
-                            padding-left: 25px
-                            padding-right: 25px
+                            padding-left: 15px
+                            padding-right: 15px
                             margin-bottom: 0
                             display: flex
                             flex-direction: row
@@ -209,6 +212,26 @@
                                     height: 40px
                                     width: auto
                                     margin: 0
+                            @include responsivo(telefonoTable)
+                                flex-direction: column
+                                justify-content: center
+                                align-items: center
+                                align-content: center
+                                a
+
+                                    img
+                                        display: block
+                                        margin: 0 auto
+                            @include responsivo(pcMedio)
+                                flex-direction: column
+                                justify-content: center
+                                align-items: center
+                                align-content: center
+                                a
+
+                                    img
+                                        display: block
+                                        margin: 0 auto
                             small.category
                                 font-family: Nunito
                                 font-style: normal
@@ -219,7 +242,7 @@
 
 
                         .card-body
-                            padding: 25px
+                            padding: 25px 15px
                             padding-bottom: 12.5px
                             a
                                 text-decoration: none
@@ -229,15 +252,27 @@
                                     font-family: Nunito
                                     font-style: normal
                                     font-weight: normal!important
-                                    font-size: 20px!important
-                                    line-height: 27.5px!important
+                                    font-size: 18px!important
+                                    line-height: 25px!important
                                     color: #322C2E
+                                    @include responsivo(telefonoTable)
+                                        text-align: center
+                                    @include responsivo(pcMedio)
+                                        text-align: center
 
                         .card-footer
                             border: none
                             background-color: transparent
-                            padding: 25px
+                            padding: 25px 15px
                             padding-top: 12.5px
+                            display: flex
+                            a
+                                @include responsivo(telefonoTable)
+                                    margin: 0 auto
+                                    display: block
+                                @include responsivo(pcMedio)
+                                    margin: 0 auto
+                                    display: block
 
 
 

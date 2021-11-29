@@ -50,7 +50,7 @@ posts
                     @foreach ($posts->get_posts() as $index => $item)
 
 
-                    <div class="principal col-md-12 col-lg-6">
+                    <div class="principal col-md-12 col-lg-4">
                         <div class="card">
                             <div class="card-header">
 

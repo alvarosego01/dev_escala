@@ -40,7 +40,7 @@
 
                             @endif
 
-                                <div class="containerImage">
+                                <div class="containerImage logoSuperior">
 
                                     <img src="{{ Posts::getPhoto(get_the_ID()) }}" class="card-img-top" >
 
@@ -247,7 +247,7 @@
                     'post_type' => 'caso-de-exito',
                     'post_status' => 'publish',
                     'orderby' => 'desc',
-                    'posts_per_page' => 2,
+                    'posts_per_page' => 3,
                 ];
                 $query = Posts::getPosts($query);
 
