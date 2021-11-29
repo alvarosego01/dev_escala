@@ -150,6 +150,14 @@
                                 {!! ACF_CUSTOM::_getField( 'about_caso_exito', get_the_ID() ) !!}
                             </p>
 
+                            @if ($l != null)
+
+                            <span class="detail">
+                                <strong>Industria: </strong> <br class="space"> {{ $l }}
+                            </span>
+
+                             @endif
+
                             @php
                                 $l = ACF_CUSTOM::_getField( 'colaboradores_caso_exito', get_the_ID() )
                             @endphp
@@ -183,13 +191,7 @@
                             @php
                                 $l = ACF_CUSTOM::_getField( 'segmento_caso_exito', get_the_ID() )
                             @endphp
-                            @if ($l != null)
 
-                                <span class="detail">
-                                    <strong>Segmento:</strong> <br class="space"> {{ $l }}
-                                </span>
-
-                            @endif
 
                             <a class="primaryButton hoverInEffect" href="{!! App::setTypeUrl() !!}/pricing">
                                 Pruébalo ahora
