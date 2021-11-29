@@ -10,7 +10,7 @@
             background-size: cover
             background-repeat: no-repeat
             background-position: center
-            padding-top: 125px
+            padding-top: 50px
             padding-bottom: 0
             position: relative
             margin-bottom: 75px
@@ -30,7 +30,7 @@
                 //     width: 100%!important
                 //     max-width: 1100px!important
                 .groupElements
-                    padding-right: 10%
+                    // padding-right: 10%
                     @include responsivo(telefonoTable)
                         display: flex
                         flex-direction: column-reverse
@@ -46,8 +46,10 @@
                         @include responsivo(pcMedio)
                             padding-bottom: 125px
                         span.category.tag
-                            margin-bottom: 20px
-                        .containerImage
+                            margin-bottom: 30px
+                        .containerImage.logoSuperior
+                            padding: 0
+                            margin-bottom: 25px
                             img
                                 height: 75px
                                 margin-left: 0
@@ -60,6 +62,7 @@
                             font-style: normal
                             font-weight: normal
                             color: #FFFFFF
+                            margin-bottom: 50px
                             @include responsivo(telefonoTable)
                                 text-align: center
                             @include responsivo(pcMedio)
@@ -105,7 +108,7 @@
                             padding-bottom: 25px
                         .containerImage
                             img
-                                height: 425px
+                                height: 400px
                                 @include responsivo(telefonoTable)
                                     height: 250px
                                 @include responsivo(pcMedio)

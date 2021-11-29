@@ -145,16 +145,33 @@
                             font-weight: 400
                             margin-bottom: 40px
                             font-family: Nunito
-                        h2.byAm
-                            font-size: 22px
-                            font-weight: 700
-                            line-height: 25.5px
-                            font-family: Nunito
-                        .team
-                            font-weight: 400
-                            font-family: Nunito
-                            span
+
+                        .personData
+                            padding-right: 20px
+                            border-right: 1px solid $colorGreenBlue3
+                            @include responsivo(telefonoTable)
+                                display: flex
+                                flex-direction: column
+                                align-content: center
+                                align-items: center
+                                justify-content: center
+                            @include responsivo(pcMedio)
+                                display: flex
+                                flex-direction: column
+                                align-content: center
+                                align-items: center
+                                justify-content: center
+
+                            h2.byAm
+                                font-size: 22px
                                 font-weight: 700
+                                line-height: 25.5px
+                                font-family: Nunito
+                            .team
+                                font-weight: 400
+                                font-family: Nunito
+                                span
+                                    font-weight: 700
                 .image
                     .containerImage
                         display: flex
@@ -208,6 +225,16 @@
                             padding-right: 20px
                             // bo
                             border-right: 1px solid $colorGreenBlue3
+                            @include responsivo(telefonoTable)
+                                display: flex
+                                flex-direction: center
+                                align-content: center
+                                align-items: center
+                            @include responsivo(pcMedio)
+                                display: flex
+                                flex-direction: center
+                                align-content: center
+                                align-items: center
                             h2.byAm
                                 font-size: 20px
                                 font-weight: 700
