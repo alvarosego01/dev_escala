@@ -150,6 +150,10 @@
                                 {!! ACF_CUSTOM::_getField( 'about_caso_exito', get_the_ID() ) !!}
                             </p>
 
+                            @php
+                            $l = ACF_CUSTOM::_getField( 'segmento_caso_exito', get_the_ID() )
+                        @endphp
+
                             @if ($l != null)
 
                             <span class="detail">
@@ -188,9 +192,6 @@
                                 </span>
 
                             @endif
-                            @php
-                                $l = ACF_CUSTOM::_getField( 'segmento_caso_exito', get_the_ID() )
-                            @endphp
 
 
                             <a class="primaryButton hoverInEffect" href="{!! App::setTypeUrl() !!}/pricing">
