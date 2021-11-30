@@ -17,7 +17,7 @@
                                 ayuda a las empresas <br class="desktopTabletElement">
                                 aseguradoras a crecer',
                     'text' => null,
-                    'textForm' => 'Regístrate ahora',
+                    'textForm' => 'Comienza ahora',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => false,
@@ -228,7 +228,8 @@
                     'title' => 'Atrae leads de calidad <br class="desktopTabletElement"> <span>y convierte más ventas con Escala</span>',
                     'textForm' => 'Pruébalo gratis ahora',
                     'text' => null,
-                    'image' => App::setFilePath('/assets/images/person/seguros_end.png'),
+                    'image' => App::setFilePath('/assets/images/person/am/am-dedicado.png'),
+                    'side' => 'left',
                 ];
             @endphp
             @bannerForms7_T1( $parameters )
@@ -244,3 +245,10 @@
 
 
 @endsection
+
+
+
+
+
+
+

@@ -194,7 +194,7 @@
                             @endif
 
 
-                            <a class="primaryButton hoverInEffect" href="{!! App::setTypeUrl() !!}/pricing">
+                            <a class="primaryButton hoverInEffect" href="#lead-form-bottom">
                                 Pruébalo ahora
                             </a>
 

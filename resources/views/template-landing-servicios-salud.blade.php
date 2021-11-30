@@ -15,7 +15,7 @@
                     'classSection' => 'threeCol landingServSalud0',
                     'title' => '<span class="greenBlueColor">¡Genera <br class="space"> más leads!</span> <br class="space"> e incrementa tus ventas<br class="space"> para tus servicios<br class="space"> de salud con Escala',
                     'text' => null,
-                    'textForm' => 'Regístrate ahora',
+                    'textForm' => 'Comienza ahora',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => true,
@@ -215,18 +215,19 @@
             </section> --}}
 
             @php
-                $parameters = [
-                    'classSection' => 'landingServSalud7',
-                    'title' => 'Atrae leads de calidad y da a conocer <br class="space"> tus servicios de salud con Escala.',
-                    'textForm' => 'Pruébalo gratis ahora',
-                    'text' => null,
-                    'image' => App::setFilePath('/assets/images/person/Landing_salud_doctora_phone.png'),
-                    'side' => 'left',
-                ];
-            @endphp
-            @bannerForms7_T1( $parameters )
+            $parameters = [
+                'classSection' => 'landingServSalud7',
+                'title' => 'Atrae leads de calidad <br class="desktopTabletElement"> <span>y convierte más ventas con Escala</span>',
+                'textForm' => 'Pruébalo gratis ahora',
+                'text' => null,
+                'image' => App::setFilePath('/assets/images/person/am/am-dedicado.png'),
+                'side' => 'left',
+            ];
+        @endphp
+        @bannerForms7_T1( $parameters )
 
-            @endbannerForms7_T1
+        @endbannerForms7_T1
+
 
 
 

@@ -812,8 +812,14 @@
                             padding-left: 75px
                             position: relative
                             @include responsivo(telefonoTable)
+                                padding-left: 50px!important
+                                padding-right: 50px!important
+                                padding-top: 150px!important
                                 border-radius: 15px
                             @include responsivo(pcMedio)
+                                padding-left: 50px!important
+                                padding-right: 50px!important
+                                padding-top: 150px!important
                                 border-radius: 15px
                             .secondaryTitle
                                 display: flex
@@ -846,10 +852,23 @@
                                 position: absolute
                                 top: 40px
                                 right: 50px
-                                height: 75px
                                 width: auto
                                 display: block
                                 margin-left: auto
+                                @include responsivo(telefonoTable)
+                                    right: 0
+                                    left: 0
+                                    margin: 0 auto
+                                    height: 100px
+                                @include responsivo(pcMedio)
+                                    right: 0
+                                    left: 0
+                                    margin: 0 auto
+                                    height: 100px
+                                @include responsivo(general)
+                                    height: 75px
+                                @include responsivo(resto)
+                                    height: 75px
 
         .innerSectionElement.sct3
             display: flex
