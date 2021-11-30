@@ -13,8 +13,10 @@
         @include responsivo(pcMedio)
             padding-bottom: 75px!important
         @include responsivo(general)
+            padding-top: 65px
             padding-bottom: 0!important
         @include responsivo(resto)
+            padding-top: 65px
             padding-bottom: 0!important
 
         .section-row
@@ -26,10 +28,10 @@
                 width: 90%
             @include responsivo(general)
                 width: 100%!important
-                max-width: 1100px!important
+                max-width: 1140px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1200px!important
+                max-width: 1175px!important
 
             .groupElements
                 // display: none!important
@@ -48,15 +50,15 @@
                             font-family: Nunito
                             font-style: normal
                             font-weight: bold
-                            font-size: 30px
-                            line-height: 40px
+                            font-size: 27px
+                            line-height: 35px
                             text-align: right
                             letter-spacing: -0.02em
                             span
                                 text-align: right
                                 font-weight: bold
-                                font-size: 55px!important
-                                line-height: 55px!important
+                                font-size: 47.5px!important
+                                line-height: 50px!important
                             @include responsivo(telefonoTable)
                                 text-align: center!important
                                 width: 100%
@@ -80,12 +82,12 @@
                             display: block
                             img
                                 // height: 325px
-                                height: 525px
+                                height: 475px
                                 margin-right: auto
                                 @include responsivo(telefonoTable)
-                                    height: 425px
+                                    height: 400px
                                 @include responsivo(pcMedio)
-                                    height: 425px
+                                    height: 400px
                             @include responsivo(telefonoTable)
                                 margin: 0 auto!important
                             @include responsivo(pcMedio)
@@ -109,6 +111,10 @@
                             margin: 0 auto
                         @include responsivo(pcMedio)
                             margin: 0 auto
+                    @include responsivo(general)
+                        padding-bottom: 50px
+                    @include responsivo(resto)
+                        padding-bottom: 50px
         .backgroundPlanets
             background-position: center 25%
             background-repeat: no-repeat

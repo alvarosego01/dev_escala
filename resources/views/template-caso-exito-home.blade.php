@@ -177,7 +177,7 @@
 
             $parameters = [
                 "posts" => array(
-                    "image" => App::setFilePath('/assets/images/person/testimonialexito.png'),
+                    "image" => App::setFilePath('/assets/images/illustrations/team/girl_ce.png'),
                     "text" => 'La herramienta es muy amigable, y permite que la gestión pueda realizarla <br> casi que cualquier persona con conocimientos básicos en plataformas digitales.',
                     "autor" => 'Dayana Palacios',
                     "position" => 'Directora de medios y marketing digital',
