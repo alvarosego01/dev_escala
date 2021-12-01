@@ -101,8 +101,14 @@ $customId = uniqid();
                                                         @endif
 
                                                     @if (isset($r['enableButton']) && $r['enableButton'] != null)
+
+                                                    @php
+                                                        $c = (isset($r['typeButton']) && $r['typeButton'] != null) ? $r['typeButton'] : 'secondaryButton hoverSecondaryButton';
+
+                                                    @endphp
+
                                                     <a href="{{ $r['urlButton'] }}"
-                                                            class="goToHash secondaryButton hoverSecondaryButton">
+                                                            class="goToHash {{ $c }}">
                                                             {{ $r['textButton'] }}
                                                         </a>
                                                         @endif
@@ -205,8 +211,14 @@ $customId = uniqid();
                                                  @endif
 
                                                  @if (isset($r['enableButton']) && $r['enableButton'] != null)
+
+                                                 @php
+                                                 $c = (isset($r['typeButton']) && $r['typeButton'] != null) ? $r['typeButton'] : 'secondaryButton hoverSecondaryButton';
+
+                                             @endphp
+
                                                      <a href="{{ $r['urlButton'] }}"
-                                                         class="goToHash secondaryButton hoverSecondaryButton">
+                                                         class="goToHash {{ $c }}">
                                                          {{ $r['textButton'] }}
                                                      </a>
                                                  @endif

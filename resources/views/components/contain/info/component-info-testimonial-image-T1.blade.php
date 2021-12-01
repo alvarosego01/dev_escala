@@ -355,6 +355,23 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             </p>
                             @endif
 
+
+                            @if ($client != null)
+                            <div class="autor">
+                                    @if ($clientLogo != null)
+
+                                    <div class="clientLogo containerImage">
+
+                                        <img src="{{ $clientLogo }}" alt="" loading="lazy">
+
+                                    </div>
+                                    @endif
+                                    <p class="autorText">
+                                        {!! $client !!}
+                                    </p>
+                                </div>
+                            @endif
+
                             @if ($enableButton != null)
                                 <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
                                     {{ $textButton }}
@@ -452,6 +469,23 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             <p class="text">
                                 {!! $text !!}
                             </p>
+                            @endif
+
+
+                            @if ($client != null)
+                            <div class="autor">
+                                    @if ($clientLogo != null)
+
+                                    <div class="clientLogo containerImage">
+
+                                        <img src="{{ $clientLogo }}" alt="" loading="lazy">
+
+                                    </div>
+                                    @endif
+                                    <p class="autorText">
+                                        {!! $client !!}
+                                    </p>
+                                </div>
                             @endif
 
                             @if ($enableButton != null)
