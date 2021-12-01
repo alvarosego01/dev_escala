@@ -3,14 +3,3 @@ var navBarHeight=null,navbar=null,inner=null,sideNavBar=jQuery("#sideNavBar");fu
 
 
 
-
-
-
-jQuery( document ).ready(function() {
-    console.log( "ready!" );
-jQuery( ".blackfriday-btn.elementor-widget-button a" ).click(function() {
-  console.log('c bf');
-
-jQuery('.jet-popup__close-button').click();
-});
-});
