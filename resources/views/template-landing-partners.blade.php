@@ -18,7 +18,7 @@
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingPartners0',
                     'title' => 'Únete al Programa <br class="space"> de Partners de Escala',
-                    'text' => 'Comienza a acelerar la rentabilidad <br class="desktopTabletElement"> de tu agencia, garantizando el crecimiento del negocio de tus clientes.',
+                    'text' => 'Comienza a acelerar la rentabilidad <br class="desktopTabletElement"> de tu agencia, garantizando el crecimiento <br class="desktopTabletElement"> del negocio de tus clientes.',
                     'textForm' => 'Quiero ser partner',
                     'threeCol' => true,
                     'backgroundImage' => null,
@@ -49,34 +49,34 @@
                 'type' => 'backgroundColor',
                 'classSection' => 'landingPartners2',
                 'enableTitle' => true,
-                'titlePrincipal' => '<span class="greenBlueColor">¡Que no se te escape un lead!</span> <br class="space"> Con Escala podrás',
+                'titlePrincipal' => '<span class="greenBlueColor"> ¿A quién está dirigido</span> <br class="space"> este programa?',
                 'subTitlePrincipal' => null,
                 'overlay' => false,
                 // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
                 'elements' => [
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/escalaventas_03a_1.png'),
-                        'title' => '<span class="grayColorTexts5">Organizar tu <br class="space"> base de datos</span>',
+                        'title' => 'Agencias digitales <br class="space"> y especializadas',
                         'enableButton' => false,
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/escalaventas_03a_2.png'),
-                        'title' => '<span class="grayColorTexts5">Gestionar tus <br class="space"> procesos de venta</span>',
+                        'title' => 'Agencias <br class="space"> full service',
                         'enableButton' => false,
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/escalaventas_03a_3.png'),
-                        'title' => '<span class="grayColorTexts5">Guardar información relevante <br class="space"> sobre tus contactos</span>',
+                        'title' => 'Consultoría de <br class="space"> marketing y ventas',
                         'enableButton' => false,
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/escalaventas_03a_4.png'),
-                        'title' => '<span class="grayColorTexts5">Automatizar tareas, <br class="pace"> recordatorios y <br class="space"> comunicaciones</span>',
+                        'title' => 'Estudios <br class="space"> de diseño',
                         'enableButton' => false,
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/escalaventas_03a_4.png'),
-                        'title' => '<span class="grayColorTexts5">Automatizar tareas, <br class="pace"> recordatorios y <br class="space"> comunicaciones</span>',
+                        'title' => 'Agencias de <br class="space"> medios digitales',
                         'enableButton' => false,
                     ],
                 ],
@@ -88,6 +88,7 @@
         @endcontain_multiple_cards_T2
 
 
+
         @php
         $parameters = [
             'type' => 'backgroundColor',
@@ -97,28 +98,26 @@
             'urlButton' =>  App::setTypeUrl().'/zoom-meeting',
             'textButton' => 'Conocer más',
             'typeButton' => 'primaryButton hoverInEffect',
-            'titlePrincipal' => '<span class="greenBlueColor">Con Escala</span> crece sin límites',
+            'titlePrincipal' => '<span class="greenBlueColor">¿Qué ganas al convertir tu agencia</span> <br class="space"> en parte del programa? ',
             'elements' => [
                 [
-                    'title' => '<span class="greenBlueColor">Genera tráfico <br class="space"> desde Facebook</span>',
-                    'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes y <br class="desktopElement"> pacientes a tus páginas.
-                               <br class="space"><br class="space">
-                               Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="desktopElement"> ideal, sin necesidad de contratar un profesional. ',
+                    'title' => '<span class="greenBlueColor">Comisiones <br class="space"> irresistibles</span>',
+                    'text' => 'Obten el 20% de comisión <br class="desktopElement"> sobre los planes de Escala <br class="desktopElement"> adquiridos por tu clientes',
                     'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
                 ],
                 [
-                    'title' => '<span class="greenBlueColor">Da a conocer tus<br class="space"> servicios de salud<br class="space"> y genera leads calificados</span>',
-                    'text' => 'Haz que todos conozcan tus servicios de salud y capta la<br class="desktopElement"> información de contacto de tus posibles pacientes e<br class="desktopElement"> interesados con landing pages optimizadas.<br class="desktopElement"> Elige una de nuestras plantillas, personalízala y publícala con<br class="desktopElement"> un clic,sin programar o diseñar.',
+                    'title' => '<span class="greenBlueColor">Asistencia <br class="space"> personalizada</span>',
+                    'text' => 'Tu agencia tendrá un Especialista <br class="desktopElement"> de Customer Success asignado <br class="desktopElement"> a tu cuenta y a tus clientes, recibiendo <br class="desktopElement"> atención prioritaria y soporte 24/7.',
                     'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
                 ],
                 [
-                    'title' => '<span class="greenBlueColor">No pierdas ningún<br class="space"> dato de tus pacientes<br class="space"> potenciales</span>',
-                    'text' => 'Nuestras landing pages tienen formularios inteligentes. Cuando<br class="desktopElement"> tus pacientes potenciales registran toda su información en ellos,<br class="desktopElement"> queda guardada automáticamente en tu CRM de Escala. Así<br class="desktopElement"> podrás tener mejor control de sus datos y poder brindarles las<br class="desktopElement"> soluciones de salud que necesita cada uno..',
+                    'title' => '<span class="greenBlueColor">Centraliza el manejo <br class="space"> de todos tus clientes <br class="space"> en un solo lugar</span>',
+                    'text' => 'Lleva el control de los embudos de ventas de tus clientes en un <br class="desktopElement"> solo lugar. Automatiza, mide y optimiza en Escala, garantizando <br class="desktopElement"> la la mejor gestión y el seguimiento para tus clientes.',
                     'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_2.png'),
                 ],
                 [
-                    'title' => '<span class="greenBlueColor">Organiza y gestiona<br class="space"> tu base de datos</span>',
-                    'text' => 'En Escala tenemos el CRM más fácil de usar para que tú mismo<br class="desktopElement"> puedas hacerle seguimiento a cada posible paciente o cliente<br class="desktopElement"> hasta generar la preferencia de tus servicios. Crea actividades,<br class="desktopElement"> tareas y recordatorios, clasifica a tus leads según sus<br class="desktopElement"> necesidades y mantén comunicación constante con ellos.',
+                    'title' => '<span class="greenBlueColor">Directorio Escala <br class="space"> de Agencias</span>',
+                    'text' => 'Da a conocer tu agencia y los servicios que prestan a clientes <br class="desktopElement"> de toda hispanoamérica y Estados Unidos, dentro de la <br class="desktopElement"> comunidad de negocio y emprendimiento más grande de la <br class="desktopElement"> región. El lugar ideal para expandir tu oferta de servicios.',
                     'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_3.png'),
                 ],
 
@@ -137,7 +136,7 @@
         'type' => 'backgroundColor',
         'classSection' => 'landingPartners4',
         'enableTitle' => true,
-        'titlePrincipal' => '<span class="greenBlueColor">Un CRM simple y fácil de utilizar</span> <br class="space"> El arma secreta de tu equipo de ventas',
+        'titlePrincipal' => 'También te ofrecemos',
         'overlay' => false,
         'overlayImage' => null,
         'enableButton' => true,
@@ -147,22 +146,22 @@
         'elements' => array(
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icon_1.png'),
-                        'title' => '<span class="greenBlueColor">Todo tu equipo</span> <br class="space"> en una sola plataforma',
-                        'text' => 'En el CRM de Escala, tu equipo de ventas trabajará de manera integrada cada uno tendrá un rol administrand, editando y programando el día a día de trabajo.',
+                        'title' => '<span class="greenBlueColor">Formación <br class="space"> constante</span>',
+                        'text' => 'Tu equipo será acompañado siempre para <br class="desktopElement"> conseguir una formación integral en inbound <br class="desktopElement"> marketing y ventas. On-boarding guiado,<br class="desktopElement"> webinars customizados y guías prácticas.',
                         'enableButton' => false,
                         // 'urlButton' => '#lead-form',
                         // 'textButton' => '¡Asombroso! Adiós integraciones',
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icon_2.png'),
-                        'title' => '<span class="greenBlueColor">Formularios inteligentes</span> <br class="space"> guarda tu data automáticamente',
-                        'text' => 'Toda la información que registren tus visitantes en nuestros formularios inteligentes será guardada, de manera automática, en tu CRM de Escala. Olvídate de perder datos clave.',
+                        'title' => '<span class="greenBlueColor">Crear contenido <br class="spacee"> para el blog</span>',
+                        'text' => 'Convierte a tu agencia en un referente de creación <br class="desktopElement"> de contenido especializado en marketing digital y <br class="desktopElement"> ventas, aportando tus conocimientos en artículo <br class="desktopElement"> dentro del Blog de Escala.',
                         'enableButton' => false,
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icon_5.png'),
-                        'title' => 'Segmenta <br class="space"> <span class="greenBlueColor">a tus contactos</span>',
-                        'text' => 'Te ayudamos a organizar el día a día de tu compañía. A través de tareas, actividades y recordatorios para cada miembro de tu equipo de ventas.',
+                        'title' => '<span class="greenBlueColor">Material <br class="space"> white label</span>',
+                        'text' => 'En Escala diseñamos todo el kit de ventas y <br class="desktopElement"> comunicación para que tu agencia solo tenga <br class="desktopElement"> que personalizarlo y comiences a crecer en <br class="desktopElement"> inbound marketing y ventas.',
                         'enableButton' => false,
                 ]
 
@@ -177,12 +176,37 @@
 @endcontain_5_cards_T1
 
 
+@php
+$parameters = [
+    'type' => 'backgroundColor',
+    'classSection' => 'landingPartners5',
+    'enableTitle' => false,
+    'titlePrincipal' => null,
+    'subTitlePrincipal' => null,
+    'title' => '<span class="greenBlueColor">Te ayudamos a enamorar <br class="space">
+a tus referidos</span>',
+    'img' => App::setFilePath('/assets/images/illustrations/team/crm_afiliates.png'),
+    'text' => '“Desde que mi agencia está con Escala,<br class="desktopElement"> hemos crecido un 40%, nuestros cliente <br class="desktopElement"> están más felices, generando leads y ventas”
+',
+    'enableButton' => false,
+    // 'urlButton' => '#lead-form',
+    // 'textButton' => 'Segmentar ahora',
+    'side' => 'left',
+];
+@endphp
+
+@contain_text_image_T1( $parameters )
+@endcontain_text_image_T1
+
+
+
     @php
     $parameters = [
         'type' => 'backgroundColor',
         'classSection' => 'landingPartners6',
         'enableTitle' => true,
-        'titlePrincipal' => '<span class="greenBlueColor">Un CRM simple y fácil de utilizar</span> <br class="space"> El arma secreta de tu equipo de ventas',
+        'titlePrincipal' => '¿Cómo impulsas el crecimiento <br class="space"> <span class="greenBlueColor">de tus clientes con Escala?</span>',
+        'subTitlePrincipal' => 'aaaa',
         'overlay' => false,
         'overlayImage' => null,
         'enableButton' => false,
