@@ -102,22 +102,22 @@
             'elements' => [
                 [
                     'title' => '<span class="greenBlueColor">Comisiones <br class="space"> irresistibles</span>',
-                    'text' => 'Obten el 20% de comisión <br class="desktopElement"> sobre los planes de Escala <br class="desktopElement"> adquiridos por tu clientes',
+                    'text' => 'Obtén el 20% de comisión <br class="desktopElement"> sobre los planes de Escala <br class="desktopElement"> adquiridos por tus clientes',
                     'overImage' => App::setFilePath('/assets/images/illustrations/others/elementos_nov2021 1.png'),
                 ],
                 [
                     'title' => '<span class="greenBlueColor">Asistencia <br class="space"> personalizada</span>',
-                    'text' => 'Tu agencia tendrá un Especialista <br class="desktopElement"> de Customer Success asignado <br class="desktopElement"> a tu cuenta y a tus clientes, recibiendo <br class="desktopElement"> atención prioritaria y soporte 24/7.',
+                    'text' => 'Tu agencia tendrá un Especialista <br class="desktopElement"> de Customer Success asignado <br class="desktopElement"> a tu cuenta y a tus clientes, recibiendo <br class="desktopElement"> atención prioritaria y soporte 24/7',
                     'overImage' => App::setFilePath('/assets/images/illustrations/team/free-trail_06 1.png'),
                 ],
                 [
                     'title' => '<span class="greenBlueColor">Centraliza el manejo <br class="space"> de todos tus clientes <br class="space"> en un solo lugar</span>',
-                    'text' => 'Lleva el control de los embudos de ventas de tus clientes en un <br class="desktopElement"> solo lugar. Automatiza, mide y optimiza en Escala, garantizando <br class="desktopElement"> la la mejor gestión y el seguimiento para tus clientes.',
+                    'text' => 'Lleva el control de los embudos de ventas de tus clientes en un <br class="desktopElement"> solo lugar. Automatiza, mide y optimiza en Escala, garantizando <br class="desktopElement"> la mejor gestión y el seguimiento para tus clientes',
                     'overImage' => App::setFilePath('/assets/images/illustrations/others/todo-uno 1.png'),
                 ],
                 [
                     'title' => '<span class="greenBlueColor">Directorio Escala <br class="space"> de Agencias</span>',
-                    'text' => 'Da a conocer tu agencia y los servicios que prestan a clientes <br class="desktopElement"> de toda hispanoamérica y Estados Unidos, dentro de la <br class="desktopElement"> comunidad de negocio y emprendimiento más grande de la <br class="desktopElement"> región. El lugar ideal para expandir tu oferta de servicios.',
+                    'text' => 'Da a conocer tu agencia y los servicios que prestan a clientes de <br class="desktopElement"> toda hispanoamérica y Estados Unidos, dentro de la comunidad <br class="desktopElement"> de negocio y emprendimiento más grande de la región. El lugar <br class="desktopElement"> ideal para expandir tu oferta de servicios',
                     'overImage' => App::setFilePath('/assets/images/illustrations/others/directorio 1.png'),
                 ],
 
@@ -147,7 +147,7 @@
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/free-trail_07 1.png'),
                         'title' => '<span class="greenBlueColor">Formación <br class="space"> constante</span>',
-                        'text' => 'Tu equipo será acompañado siempre para <br class="desktopElement"> conseguir una formación integral en inbound <br class="desktopElement"> marketing y ventas. On-boarding guiado,<br class="desktopElement"> webinars customizados y guías prácticas.',
+                        'text' => 'Tu equipo será acompañado siempre para <br class="desktopElement"> conseguir una formación integral en inbound <br class="desktopElement"> marketing y ventas. On-boarding guiado,<br class="desktopElement"> webinars customizados y guías prácticas',
                         'enableButton' => false,
                         // 'urlButton' => '#lead-form',
                         // 'textButton' => '¡Asombroso! Adiós integraciones',
@@ -155,13 +155,13 @@
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/blog 1.png'),
                         'title' => '<span class="greenBlueColor">Crear contenido <br class="spacee"> para el blog</span>',
-                        'text' => 'Convierte a tu agencia en un referente de creación <br class="desktopElement"> de contenido especializado en marketing digital y <br class="desktopElement"> ventas, aportando tus conocimientos en artículo <br class="desktopElement"> dentro del Blog de Escala.',
+                        'text' => 'Convierte a tu agencia en un referente de creación <br class="desktopElement"> de contenido especializado en marketing digital y <br class="desktopElement"> ventas, aportando tus conocimientos en artículos <br class="desktopElement"> dentro del Blog de Escala',
                         'enableButton' => false,
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/whitelabel 1.png'),
                         'title' => '<span class="greenBlueColor">Material <br class="space"> white label</span>',
-                        'text' => 'En Escala diseñamos todo el kit de ventas y <br class="desktopElement"> comunicación para que tu agencia solo tenga <br class="desktopElement"> que personalizarlo y comiences a crecer en <br class="desktopElement"> inbound marketing y ventas.',
+                        'text' => 'En Escala diseñamos todo el kit de ventas y <br class="desktopElement"> comunicación para que tu agencia solo tenga <br class="desktopElement"> que personalizarlo y comience a crecer en <br class="desktopElement"> inbound marketing y ventas',
                         'enableButton' => false,
                 ]
 
@@ -188,10 +188,10 @@ $parameters = [
     'subTitlePrincipal' => null,
     'title' => null,
     'img' => App::setFilePath('/assets/images/person/person_banner3.png'),
-    'text' => '“Desde que mi agencia está con Escala,<br class="desktopElement"> hemos crecido un 40%, nuestros cliente <br class="desktopElement"> están más felices, generando leads y ventas”',
+    'text' => '“Desde que mi agencia está con Escala <br class="desktopElement"> hemos crecido un 40%. Nuestros clientes <br class="desktopElement"> están más felices, generando leads y ventas”',
     'enableButton' => false,
     'imageTop' => null,
-    'client' => '<strong>Benito Camelo</strong><br>Un Hemisferio - Agencia Digital',
+    'client' => '<strong>Benito Camelo</strong><br class="space">Un Hemisferio - Agencia Digital',
     'clientLogo' => null,
     'side' => 'left',
 ];
@@ -208,7 +208,7 @@ $parameters = [
         'classSection' => 'landingPartners6',
         'enableTitle' => true,
         'titlePrincipal' => '¿Cómo impulsas el crecimiento <br class="space"> <span class="greenBlueColor">de tus clientes con Escala?</span>',
-        'subTitlePrincipal' => 'El crecimiento de tus clientes es la clave para el desarrollo de tu <br class="desktopElement"> agencia. Por eso Escala es la herramienta ideal para acompañarlos en <br class="desktopElement"> su camino al éxito. Con nuestra plataforma tus clientes podran:',
+        'subTitlePrincipal' => 'El crecimiento de tus clientes es la clave para el desarrollo de tu agencia. Por eso,<br class="desktopTabletElement"> Escala es la herramienta ideal para acompañarlos en su camino al éxito.<br class="desktopTabletElement"> Con nuestra plataforma tus clientes podrán:',
         'overlay' => false,
         'overlayImage' => null,
         'enableButton' => false,
@@ -216,7 +216,7 @@ $parameters = [
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/2022.png'),
                         'title' => null,
-                        'text' => 'Simplificar su gestión de ventas <br class="desktopTabletElement"> <strong>con el CRM más fácil de usar</strong>',
+                        'text' => 'Simplificar su gestión de ventas <br class="sspace"> <strong>con el CRM más fácil de usar</strong>'
                         'enableButton' => true,
                         'urlButton' => '#lead-form',
                         'typeButton' => 'hiperButtonGreenBlue',
@@ -225,8 +225,7 @@ $parameters = [
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/landings 1.png'),
                         'title' => null,
-                        'text' => 'Crear landing pages optimizadas <br class="desktopTabletElement"> sin programar',
-                        'enableButton' => true,
+                        'text' => 'Crear landing pages optimizadas <br class="space"> <strong>sin programar</strong>',
                         'enableButton' => true,
                         'urlButton' => '#lead-form',
                         'typeButton' => 'hiperButtonGreenBlue',
@@ -235,8 +234,7 @@ $parameters = [
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/2023.png'),
                         'title' => null,
-                        'text' => 'Crear, administrar y publicar <strong>campañas <br class="desktopTabletElement"> de ads digitales sin salir de Escala</strong>',
-                        'enableButton' => true,
+                        'text' => 'Crear, administrar y publicar <strong>campañas <br class="space"> de ads digitales,</strong> sin salir de Escala',
                         'enableButton' => true,
                         'urlButton' => '#lead-form',
                         'typeButton' => 'hiperButtonGreenBlue',
@@ -245,8 +243,7 @@ $parameters = [
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/emails 1.png'),
                         'title' => null,
-                        'text' => 'Enviar <strong>campañas masivas</strong> <br class="desktopTabletElement"> de Email marketing',
-                        'enableButton' => true,
+                        'text' => 'Enviar <strong>campañas masivas</strong> <br class="space"> de Email Marketing',
                         'enableButton' => true,
                         'urlButton' => '#lead-form',
                         'typeButton' => 'hiperButtonGreenBlue',
@@ -256,8 +253,7 @@ $parameters = [
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/automatizan 1.png'),
                         'title' => null,
-                        'text' => '<strong>Automatizar</strong> <br class="desktopTabletElement"> tareas repetitivas',
-                        'enableButton' => true,
+                        'text' => '<strong>Automatizar</strong> <br class="space"> tareas repetitivas',
                         'enableButton' => true,
                         'urlButton' => '#lead-form',
                         'typeButton' => 'hiperButtonGreenBlue',
@@ -266,8 +262,7 @@ $parameters = [
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/dashboard 1.png'),
                         'title' => null,
-                        'text' => 'Medir y optimizar mediante <br class="desktopTabletElement"> <strong>dashboards amigables</strong>',
-                        'enableButton' => true,
+                        'text' => 'Medir y optimizar mediante <br class="space"> <strong>dashboards amigables</strong>',
                         'enableButton' => true,
                         'urlButton' => '#lead-form',
                         'typeButton' => 'hiperButtonGreenBlue',
