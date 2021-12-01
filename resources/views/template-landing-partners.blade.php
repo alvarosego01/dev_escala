@@ -216,11 +216,11 @@ $parameters = [
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/2022.png'),
                         'title' => null,
-                        'text' => 'Simplificar su gestión de ventas <br class="sspace"> <strong>con el CRM más fácil de usar</strong>'
+                        'text' => 'Simplificar su gestión de ventas <br class="sspace"> <strong>con el CRM más fácil de usar</strong>',
                         'enableButton' => true,
                         'urlButton' => '#lead-form',
                         'typeButton' => 'hiperButtonGreenBlue',
-                        'textButton' => 'Conocer más',
+                        'textButton' => 'Conocer más'
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/landings 1.png'),
@@ -229,7 +229,7 @@ $parameters = [
                         'enableButton' => true,
                         'urlButton' => '#lead-form',
                         'typeButton' => 'hiperButtonGreenBlue',
-                        'textButton' => 'Conocer más',
+                        'textButton' => 'Conocer más'
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/2023.png'),
@@ -238,7 +238,7 @@ $parameters = [
                         'enableButton' => true,
                         'urlButton' => '#lead-form',
                         'typeButton' => 'hiperButtonGreenBlue',
-                        'textButton' => 'Conocer más',
+                        'textButton' => 'Conocer más'
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/emails 1.png'),
@@ -247,7 +247,7 @@ $parameters = [
                         'enableButton' => true,
                         'urlButton' => '#lead-form',
                         'typeButton' => 'hiperButtonGreenBlue',
-                        'textButton' => 'Conocer más',
+                        'textButton' => 'Conocer más'
 
                     ],
                     [
@@ -257,7 +257,7 @@ $parameters = [
                         'enableButton' => true,
                         'urlButton' => '#lead-form',
                         'typeButton' => 'hiperButtonGreenBlue',
-                        'textButton' => 'Conocer más',
+                        'textButton' => 'Conocer más'
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/dashboard 1.png'),
