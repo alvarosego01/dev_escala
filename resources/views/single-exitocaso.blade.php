@@ -1,6 +1,6 @@
 {{--
     Template Name: [B] Caso de éxito - Single
-    Template Post Type: exitocaso
+    Template Post Type: caso-de-exito
 --}}
 
 
@@ -27,7 +27,20 @@
 
                             <div class="info col-md-12 col-lg-6">
 
-                                <div class="containerImage">
+                                @php
+                                $categories = get_the_category( $item->ID );
+                            @endphp
+                            @if ( isset($categories[0]->name) && $categories[0]->name != null )
+
+                            <span class="category tag">
+
+                                {{ $categories[0]->name }}
+
+                            </span>
+
+                            @endif
+
+                                <div class="containerImage logoSuperior">
 
                                     <img src="{{ Posts::getPhoto(get_the_ID()) }}" class="card-img-top" >
 
@@ -94,9 +107,6 @@
 
             </section>
 
-
-
-
             <section class="customSection sectionParent casoExitoSingle1">
 
 
@@ -141,6 +151,18 @@
                             </p>
 
                             @php
+                            $l = ACF_CUSTOM::_getField( 'segmento_caso_exito', get_the_ID() )
+                        @endphp
+
+                            @if ($l != null)
+
+                            <span class="detail">
+                                <strong>Industria: </strong> <br class="space"> {{ $l }}
+                            </span>
+
+                             @endif
+
+                            @php
                                 $l = ACF_CUSTOM::_getField( 'colaboradores_caso_exito', get_the_ID() )
                             @endphp
                             @if ($l != null)
@@ -170,16 +192,11 @@
                                 </span>
 
                             @endif
-                            @php
-                                $l = ACF_CUSTOM::_getField( 'segmento_caso_exito', get_the_ID() )
-                            @endphp
-                            @if ($l != null)
 
-                                <span class="detail">
-                                    <strong>Segmento:</strong> <br class="space"> {{ $l }}
-                                </span>
 
-                            @endif
+                            <a class="primaryButton hoverInEffect" href="#lead-form-bottom">
+                                Pruébalo ahora
+                            </a>
 
                         </div>
 
@@ -230,10 +247,10 @@
 
             @php
                 $query = [
-                    'post_type' => 'exitocaso',
+                    'post_type' => 'caso-de-exito',
                     'post_status' => 'publish',
                     'orderby' => 'desc',
-                    'posts_per_page' => 2,
+                    'posts_per_page' => 3,
                 ];
                 $query = Posts::getPosts($query);
 

@@ -130,10 +130,10 @@
 
             @php
             $query = array(
-                'post_type' => 'exitocaso',
+                'post_type' => 'caso-de-exito',
                 'post_status' => 'publish',
                 'orderby' => 'desc',
-                'posts_per_page' => 2,
+                'posts_per_page' => 3,
             );
             $query = Posts::getPosts($query);
 
@@ -177,7 +177,7 @@
 
             $parameters = [
                 "posts" => array(
-                    "image" => App::setFilePath('/assets/images/person/testimonialexito.png'),
+                    "image" => App::setFilePath('/assets/images/illustrations/team/girl_ce.png'),
                     "text" => 'La herramienta es muy amigable, y permite que la gestión pueda realizarla <br> casi que cualquier persona con conocimientos básicos en plataformas digitales.',
                     "autor" => 'Dayana Palacios',
                     "position" => 'Directora de medios y marketing digital',

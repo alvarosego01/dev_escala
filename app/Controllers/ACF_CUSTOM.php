@@ -61,6 +61,46 @@ class ACF_CUSTOM extends Controller
             array (
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' => "views/template-escalaMarketing-marketing.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-escalaVentas-ventas.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-afiliados.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-servicios-salud.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-servicios-seguros.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
                 'value' => "views/template-landing-correos-masivos.blade.php",
             ),
 
@@ -453,7 +493,7 @@ class ACF_CUSTOM extends Controller
                     array (
                         'param' => 'post_type',
                         'operator' => '==',
-                        'value' => 'exitocaso',
+                        'value' => 'caso-de-exito',
                     ),
                 ),
             ),
@@ -508,7 +548,7 @@ class ACF_CUSTOM extends Controller
                     array (
                         'param' => 'post_type',
                         'operator' => '==',
-                        'value' => 'exitocaso',
+                        'value' => 'caso-de-exito',
                     ),
                 ),
             ),
@@ -546,7 +586,7 @@ class ACF_CUSTOM extends Controller
                     array (
                         'param' => 'post_type',
                         'operator' => '==',
-                        'value' => 'exitocaso',
+                        'value' => 'caso-de-exito',
                     ),
                 ),
             ),

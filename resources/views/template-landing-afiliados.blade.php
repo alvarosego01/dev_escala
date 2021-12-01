@@ -18,7 +18,7 @@
                     'title' => '¡Conviértete en <br class="space"> un afiliado de Escala y <br class="space">
                                     <span class="greenBlueColor">gana grandes comisiones!</span> ',
                     'text' => null,
-                    'textForm' => 'Regístrate ahora',
+                    'textForm' => 'Sé un afiliado Escala',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => true,
@@ -263,7 +263,7 @@
                     <div class="info">
 
                         <h2 class="primaryTitle whiteColor">
-                            Estoy listo para ganar siendo un <br class="space"> afliado de Escala
+                            ¡Tus finanzas crecen con <br class="space"> Escala!
                         </h2>
 
                         <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
@@ -286,7 +286,7 @@
                 $parameters = [
                     'classSection' => 'landingAfiliados10',
                     'title' => '¡Regístrate hoy mismo <br class="space"> y gana grandes comisiones!',
-                    'textForm' => 'Regístrate ahora',
+                    'textForm' => '¡Comienza a ganar comisiones!',
                     'text' => 'Llena este formulario y envía tu postulación, pronto recibirás <br class="desktopTabletElement"> la respuesta y podrás ser parte del programa.',
                     'image' => App::setFilePath('/assets/images/illustrations/otto/otto-ventas 1.png'),
                 ];
