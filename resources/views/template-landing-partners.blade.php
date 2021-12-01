@@ -191,7 +191,7 @@ $parameters = [
     'text' => '“Desde que mi agencia está con Escala,<br class="desktopElement"> hemos crecido un 40%, nuestros cliente <br class="desktopElement"> están más felices, generando leads y ventas”',
     'enableButton' => false,
     'imageTop' => null,
-    'client' => '<strong>Verónica Bolaños</strong><br>Publicidad Comercial /Account Manager',
+    'client' => '<strong>Benito Camelo</strong><br>Un Hemisferio - Agencia Digital',
     'clientLogo' => null,
     'side' => 'left',
 ];
@@ -199,6 +199,7 @@ $parameters = [
 
 @contain_testimonial_T1( $parameters )
 @endcontain_testimonial_T1
+
 
 
     @php
@@ -265,7 +266,7 @@ $parameters = [
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/dashboard 1.png'),
                         'title' => null,
-                        'text' => 'Medir y optimizar mediante <br class="desktopTabletElement"> dashboards amigables',
+                        'text' => 'Medir y optimizar mediante <br class="desktopTabletElement"> <strong>dashboards amigables</strong>',
                         'enableButton' => true,
                         'enableButton' => true,
                         'urlButton' => '#lead-form',
