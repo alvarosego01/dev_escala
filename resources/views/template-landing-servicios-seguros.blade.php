@@ -15,7 +15,7 @@
                 $parameters = [
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingServSeguros0',
-                    'title' => 'Descubre como Escala <br class="desktopTabletElement">
+                    'title' => 'Descubre cómo Escala <br class="desktopTabletElement">
                                 ayuda a las empresas <br class="desktopTabletElement">
                                 aseguradoras a crecer',
                     'text' => null,
@@ -68,7 +68,7 @@
                                 </span>
                             ',
                             'text' => '
-                            En Escala entendemos que las empresas aseguradoras necesitan dar a <br class="desktopElement"> conocer múltiples servicios y generar tráfico a sus páginas o landing <br class="desktopElement"> pages. Por ello puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma.
+                            En Escala entendemos que las empresas aseguradoras necesitan dar a <br class="desktopElement"> conocer múltiples servicios y generar tráfico a sus páginas o landing <br class="desktopElement"> pages. Por ello, puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma.
                             <br class="space"><br class="space">
                             Empodera a tu equipo de marketing y comienza a atraer más leads <br class="desktopElement"> calificados con campañas segmentadas por intereses como: salud, vida,<br class="desktopElement"> auto y seguros de hogar.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
