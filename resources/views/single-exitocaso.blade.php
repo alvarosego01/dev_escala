@@ -27,6 +27,8 @@
 
                             <div class="info col-md-12 col-lg-6">
 
+                                <div class="floatInfo">
+
                                 @php
                                 $categories = get_the_category( $item->ID );
                             @endphp
@@ -49,6 +51,9 @@
                                 <h1 class="principalBigTitle">
                                     {!! ACF_CUSTOM::_getField( 'excerpt_single_caso_exito', get_the_ID() ) !!}
                                 </h1>
+
+                            </div>
+
 
                                 <div class="autor">
 
