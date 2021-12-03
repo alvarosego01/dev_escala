@@ -15,7 +15,7 @@
   <div class="sections">
 
     <div
-    style="background-image: url({!! App::setFilePath('/assets/images/backgrounds/backgroundBlueDegrade.jpg') !!})"
+    style="background-image: url({!! App::setFilePath('/assets/images/backgrounds/backgroundBlueDegrade3.png') !!})"
     class="specialHeader">
 
       @php
