@@ -13,7 +13,10 @@
                 $parameters = [
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingServSalud0',
-                    'title' => '<span class="greenBlueColor">¡Genera <br class="space"> más leads!</span> <br class="space"> e incrementa tus ventas<br class="space"> para tus servicios<br class="space"> de salud con Escala',
+                    'title' => '<span class="greenBlueColor">¡Genera más leads <br class="space"> con Escala! </span>
+                     <br class="space">
+                     Presta más servicios a tus pacientes <br class="space">
+                    y genera relaciones a largo plazo.',
                     'text' => null,
                     'textForm' => 'Comienza ahora',
                     'threeCol' => true,
