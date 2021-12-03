@@ -33,7 +33,7 @@
             @endheader_t1
 
 
-            <section class="customSection sectionParent landingPartners1 fullWidth">
+            {{-- <section class="customSection sectionParent landingPartners1 fullWidth">
 
                 <span class="blueLabelSpecial">
 
@@ -41,7 +41,7 @@
 
                 </span>
 
-            </section>
+            </section> --}}
 
 
             @php
