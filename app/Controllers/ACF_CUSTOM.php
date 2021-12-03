@@ -85,6 +85,14 @@ class ACF_CUSTOM extends Controller
             array (
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' => "views/template-landing-partners.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
                 'value' => "views/template-landing-servicios-salud.blade.php",
             ),
 
