@@ -11,8 +11,8 @@
                 font-family: Nunito
                 font-style: normal
                 font-weight: bold
-                font-size: 45px
-                line-height: 48px
+                font-size: 30px
+                line-height: 34px
                 text-align: center
 
         section.innerSectionElement.sct2
@@ -54,10 +54,10 @@
                 width: 90%
             @include responsivo(general)
                 width: 100%!important
-                max-width: 1140px!important
+                max-width: 1275px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1200px!important
+                max-width: 1300px!important
 
             .groupElements
                 // display: none!important
@@ -86,8 +86,8 @@
                             font-family: Nunito
                             font-style: normal
                             font-weight: bold
-                            font-size: 35px
-                            line-height: 39px
+                            font-size: 45px
+                            line-height: 48px
                             text-align: left
                             @include responsivo(telefonoTable)
                                 text-align: center!important
@@ -98,6 +98,11 @@
                                 text-align: center!important
                                 width: 100%
                                 margin-bottom: 25px
+                            @include responsivo(general)
+                                width: 700px!important
+                            @include responsivo(resto)
+                                width: 700px!important
+                            
 
                         p.principalBigText
                             font-family: Nunito
