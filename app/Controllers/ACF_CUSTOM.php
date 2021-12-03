@@ -117,6 +117,30 @@ class ACF_CUSTOM extends Controller
             array (
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' => "views/template-landing-landingPages.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-landingPages2.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-masive-mailing.blade.php",
+            ),
+
+        ),
+        array (
+            array (
+                'param' => 'page_template',
+                'operator' => '==',
                 'value' => "views/template-landing-incredible-am.blade.php",
             ),
 
