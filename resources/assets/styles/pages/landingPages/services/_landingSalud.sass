@@ -361,18 +361,26 @@
 
 
     .customSection.sectionParent.landingServSalud3
-        background-color: #E6F2F8
-        padding: 35px 0
-        padding-top: 0
+        padding: 0
+        .backgroundFull
+            padding: 0
         .innerSectionElement.sct2
             .groupElements.row
                 .image
-                    padding: 0
+                    @include responsivo(general)
+                        padding-bottom: 35px!important
+                    @include responsivo(resto)
+                        padding-bottom: 35px!important
                     .containerImage
                         padding: 0
                         margin-bottom: 0
                         img
-                            height: 375px
+                            height: 400px
+                .info
+                    h3
+                        color: white!important
+                    .text
+                        color: white
 
     .customSection.sectionParent.landingServSalud4
         padding: 60px 0
@@ -627,10 +635,10 @@
                 width: 90%
             @include responsivo(general)
                 width: 100%!important
-                max-width: 1140px!important
+                max-width: 1200px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1240px!important
+                max-width: 1300px!important
         .groupElements
             @include responsivo(telefonoTable)
                 display: flex

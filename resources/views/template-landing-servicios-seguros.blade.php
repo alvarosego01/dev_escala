@@ -37,8 +37,7 @@
                 $parameters = [
                     'classSection' => 'landingServSeguros1 func',
                     'title' => '<span class="blackColor2">Escala es perfecto <br class="desktopElement"> para tu empresa</span>',
-                    'description' => 'Escala ayuda a tu aseguradora a generar leads de calidad y <br class="desktopElement"> optimizar toda la gestión de ventas con las herramientas de <br class="desktopElement"> marketing digital y ventas que tu equipo necesita.  Sabemos que <br class="desktopElement"> es una industria desafiante, cada vez más regulada y con un <br class="desktopElement"> proceso de ventas complejo. Desde Escala te ayudaremos a <br class="desktopElement"> optimizar tus resultados con una menor inversión de tiempo y <br class="desktopElement"> dinero.
-                    ',
+                    'description' => 'Escala ayuda a tu aseguradora a generar leads de calidad y <br class="desktopTabletElement"> optimizar toda la gestión de ventas. Sabemos que es una <br class="desktopTabletElement"> industria desafiante, cada vez más regulada y con un proceso de <br class="desktopTabletElement"> ventas complejo. Desde Escala te ayudaremos a optimizar tus <br class="desktopTabletElement"> resultados con una menor inversión de tiempo y dinero.',
                     'byAm' => null,
                     'team' => null,
                     'image' => App::setFilePath('/assets/images/person/homebanner_persona-3B-1.png'),
@@ -62,20 +61,15 @@
                     'titlePrincipal' => '<span class="blackColor2">¿Cómo te ayudamos a crecer?</span>',
                     'elements' => [
                         [
-                            'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopTabletElement"> desde Facebook
-                                <br class="desktopElement">
-                                <br class="desktopElement">
-                                </span>
+                            'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopTabletElement"> desde Facebook</span>
                             ',
                             'text' => '
-                            En Escala entendemos que las empresas aseguradoras necesitan dar a <br class="desktopElement"> conocer múltiples servicios y generar tráfico a sus páginas o landing <br class="desktopElement"> pages. Por ello, puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma.
-                            <br class="space"><br class="space">
-                            Empodera a tu equipo de marketing y comienza a atraer más leads <br class="desktopElement"> calificados con campañas segmentadas por intereses como: salud, vida,<br class="desktopElement"> auto y seguros de hogar.',
+                            Entendemos que las empresas aseguradoras necesitan dar a conocer <br class="desktopElement"> múltiples servicios  y generar tráfico a sus landing pages. Con Escala <br class="desktopElement"> podrás crear, administrar y publicar campañas de anuncios digitales, sin <br class="desktopElement"> salir de nuestra plataforma. Segmentándolas por intereses como: salud, <br class="desktopElement"> vida, auto y seguros de hogar, entre otros.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
                         ],
                         [
-                            'title' => '<span class="greenBlueColor">Convierte a tus visitantes <br class="desktopTabletElement"> en leads con landing pages <br class="desktopTabletElement"> optimizadas</span>',
-                            'text' => 'Genera diferentes landing pages según tu oferta de servicios,<br class="desktopElement"> sin programar o diseñar. Tu equipo de marketing podrá crear y <br class="desktopElement"> publicar landing pages optimizadas y personalizadas en pocos <br class="desktopElement"> minutos. ',
+                            'title' => '<span class="greenBlueColor">Date a conocer con <br class="desktopTabletElement"> landing pages optimizadas',
+                            'text' => 'Genera diferentes landing pages según tu oferta de servicios,<br class="desktopElement"> sin programar o diseñar. Tu equipo de marketing podrá crear y <br class="desktopElement"> publicar landing pages optimizadas y personalizadas en pocos <br class="desktopElement"> minutos.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
                         ],
                         [
@@ -85,9 +79,7 @@
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Organiza y gestiona <br class="desktopTabletElement"> tu base de datos</span>',
-                            'text' => 'Entendemos que la adquisición de un seguro implica un proceso <br class="desktopElement"> complejo con varios pasos. Optimiza el seguimiento de cada <br class="desktopElement"> cliente con el CRM de Escala que simplifica toda tu gestión de <br class="desktopElement"> ventas.
-                            <br class="space">
-                            Crea actividades y tareas para tu equipo, mantén comunicación <br class="desktopElement"> con leads hipersegmentados según sus áreas de interés,<br class="desktopElement"> incrementa la recompra con promociones customizadas y ofrece <br class="desktopElement"> nuevos servicios.',
+                            'text' => 'Entendemos que la adquisición de un seguro implica un proceso <br class="desktopElement"> complejo con varios pasos. Optimiza el seguimiento de cada <br class="desktopElement"> cliente y genera más ventas con el CRM de Escala. ',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_3.png'),
                         ],
                         [
@@ -95,21 +87,13 @@
                                 <br class="desktopElement">
                                 <br class="desktopElement">
                                 </span>
-
                             ',
-                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes.  Envía emails <br class="desktopElement"> masivos, en el momento adecuado para:
-                            <br class="space"><br class="space">
-                            <ul>
-                                <li>Presentar nuevos servicios</li>
-                                <li>Reforzar las ventajas de tu empresa aseguradora</li>
-                                <li>Mantenerlos informados sobre las novedades</li>
-                            </ul>
-                            ',
+                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes. Envía emails <br class="desktopElement"> masivos para: Presentar nuevos servicios, reforzar las ventajas de tu <br class="desktopElement"> empresa aseguradora, mantenerlos informados sobre las novedades.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Mide y optimiza <br class="desktopTabletElement"> tus resultados <br class="desktopTabletElement"> con analíticas relevantes</span>',
-                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede optimizar tu equipo para <br class="desktopElement"> mejorar tus resultados en marketing digital. Mediante tableros <br class="desktopElement"> amigables mide el rendimiento de Ads, Landing Pages y <br class="desktopElement"> campañas de Email Marketing.',
+                            'text' => 'Ten visibilidad con dashboards amigables de las métricas que <br class="desktopElement"> realmente importan para entender qué funciona y qué puede <br class="desktopElement"> optimizar tu equipo para mejorar tus resultados en marketing <br class="desktopElement"> digital.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-11.png'),
                         ],
                     ],
@@ -121,12 +105,13 @@
 
             @php
             $parameters = [
-                'type' => 'backgroundColor',
+                'type' => 'backgroundImage',
+                'backgroundImageFile' => App::setFilePath('/assets/images/backgrounds/degradeDarkBlue2.png'),
                 'classSection' => 'landingServSeguros3',
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'title' => '<span class="greenBlueColor">¿Escala tiene todo <br class="desktopTabletElement"> lo que mi aseguradora necesita?</span>',
+                'title' => '¿Escala tiene todo <br class="desktopTabletElement"> lo que mi aseguradora necesita?',
                 'img' => App::setFilePath('/assets/images/illustrations/otto/seguros-5 1.png'),
                 'text' => 'No importa el tamaño de tu empresa. Empodera a tus equipos: <br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio',
                 'enableButton' => true,
@@ -141,7 +126,7 @@
 
         @endcontain_text_image_T1
 
-            @php
+            {{-- @php
             $parameters = [
                 'type' => 'backgroundColor',
                 'classSection' => 'landingServSeguros4',
@@ -161,7 +146,7 @@
 
         @contain_text_image_T1( $parameters )
 
-        @endcontain_text_image_T1
+        @endcontain_text_image_T1 --}}
 
                 {{-- @php
                 $parameters = [
