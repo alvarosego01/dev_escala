@@ -84,7 +84,13 @@ $items = [
         'details' => [
             [
                 'title' => null,
-                'items' => ['Usuarios de venta: <strong>1</strong>', 'Contactos en base de datos: <strong>1.000</strong>', 'Emails marketing al mes: <strong>5.000</strong>', 'Dominios propios: <strong>1</strong>', 'Cuentas de Facebook Ads Manager: <strong>1</strong>'],
+                'items' => [
+                    'Usuarios de venta: <strong>1</strong>',
+                    // 'Contactos en base de datos: <strong>1.000.000</strong>',
+                    'Emails marketing al mes: <strong>5.000</strong>',
+                    'Dominios propios: <strong>1</strong>',
+                    'Cuentas de Facebook Ads Manager: <strong>1</strong>'
+                ],
             ],
         ],
     ],
@@ -156,7 +162,13 @@ $items = [
         'details' => [
             [
                 'title' => null,
-                'items' => ['Usuarios de venta: <strong>2</strong>', 'Contactos en base de datos: <strong>1.000.000</strong>', 'Emails marketing al mes: <strong>20.000</strong>', 'Dominios propios: <strong>5</strong>', 'Cuentas de Facebook Ads Manager: <strong>3</strong>'],
+                'items' => [
+                'Usuarios de venta: <strong>2</strong>',
+                // 'Contactos en base de datos: <strong>1.000.000</strong>',
+                'Emails marketing al mes: <strong>20.000</strong>',
+                'Dominios propios: <strong>5</strong>',
+                'Cuentas de Facebook Ads Manager: <strong>3</strong>'
+            ],
             ],
         ],
     ],
@@ -209,7 +221,7 @@ $items = [
                 'title' => null,
                 'items' => [
                     'Usuarios de venta: <strong>10</strong>',
-                    'Contactos en base de datos: <strong>1.000.000</strong>',
+                    // 'Contactos en base de datos: <strong>1.000.000</strong>',
                     'Emails marketing al mes: <br class="space">
                     <strong>20 x contactos de marketing</strong>',
                     'Dominios propios: <strong>10</strong>',
