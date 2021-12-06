@@ -85,7 +85,9 @@
                         ],
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/icons-afiliados_3.png'),
-                            'title' => '<span class="greenBlueColor">Aliados en ventas</span>',
+                            'title' => '<span class="greenBlueColor">Aliados en ventas
+                                <br class="desktopElement"><br class="desktopElement">
+                                </span>',
                             'text' => 'Si eres un usuario de Escala o un vendedor <br class="desktopTabletElement"> nato y te encanta recomendar para obtener <br class="desktopTabletElement"> ganancias por cada referido. Escala te da una <br class="desktopTabletElement"> gran oportunidad para ganar comisiones <br class="desktopTabletElement"> mensualmente.',
                             'enableButton' => false,
                         ],
@@ -102,12 +104,12 @@
                     'classSection' => 'landingAfiliados3',
                     'enableTitle' => true,
                     'titlePrincipal' => '¿Cómo ser un afiliado Escala?',
-                    'subTitlePrincipal' => 'Ser un afiliado de Escala es muy fácil, debes: Compartir, convertir y recibir tu comisión, pero aquí te <br class="desktopTabletElement"> describimos paso a paso para que tomes la decisión hoy mismo.',
+                    'subTitlePrincipal' => 'Ser un afiliado de Escala es muy fácil, debes: Compartir, convertir y recibir tu comisión.',
                     'overlay' => false,
                     'overlayImage' => null,
                     'enableButton' => true,
                     'urlButton' => '#',
-                    'textButton' => 'Regístrarse ahora',
+                    'textButton' => 'Regístrarme ahora',
                     'typeButton' => 'primaryButton hoverInEffect',
                     'elements' => [
                         [
@@ -142,11 +144,11 @@
                     'type' => 'backgroundColor',
                     'classSection' => 'landingAfiliados4',
                     'enableTitle' => true,
-                    'titlePrincipal' => 'Tu decides cómo cobrar',
+                    'titlePrincipal' => 'Tú decides dónde y cómo cobrar',
                     'subTitlePrincipal' => null,
-                    'title' => '<span class="greenBlueColor">Danos tus datos bancarios</span>',
+                    'title' => '<span class="greenBlueColor">Envíanos tus datos bancarios</span>',
                     'img' => App::setFilePath('/assets/images/illustrations/others/02_CRM 3.png'),
-                    'text' => 'Recibirás un email de bienvenida con tu <br class="desktopTabletElement"> link único de afiliado. Podrás darnos tus <br class="desktopTabletElement"> datos bancarios para cobrar tus <br class="desktopTabletElement"> comisiones, a través de transferencias <br class="desktopTabletElement"> electrónicas o PayPal',
+                    'text' => 'Recibirás un email de bienvenida con tu link <br class="desktopTabletElement"> único de afiliado. En ese mismo correo te <br class="desktopTabletElement"> solicitaremos tus datos bancarios para cobrar <br class="desktopTabletElement"> tus comisiones, a través de transferencias <br class="desktopTabletElement"> electrónicas o PayPal',
                     'enableButton' => false,
                     'side' => 'right',
                 ];
@@ -287,7 +289,8 @@
                     'classSection' => 'landingAfiliados10',
                     'title' => '¡Regístrate hoy mismo <br class="space"> y gana grandes comisiones!',
                     'textForm' => '¡Comienza a ganar comisiones!',
-                    'text' => 'Llena este formulario y envía tu postulación, pronto recibirás <br class="desktopTabletElement"> la respuesta y podrás ser parte del programa.',
+                    'text' => 'Llena este formulario y regístrate en nuestro programa <br class="desktopTabletElement"> de afiliados hoy mismo
+                    ',
                     'image' => App::setFilePath('/assets/images/illustrations/otto/otto-ventas 1.png'),
                 ];
             @endphp
