@@ -102,12 +102,13 @@
             'elements' => [
                 [
                     'title' => '<span class="greenBlueColor">Comisiones <br class="space"> irresistibles</span>',
-                    'text' => 'Obtén el 20% de comisión <br class="desktopElement"> sobre los planes de Escala <br class="desktopElement"> adquiridos por tus clientes',
+                    'text' => 'Obtén el 20% de comisión sobre los <br class="desktopElement"> planes de Escala adquiridos por tus <br class="desktopElement"> clientes
+                    ',
                     'overImage' => App::setFilePath('/assets/images/illustrations/others/elementos_nov2021 1.png'),
                 ],
                 [
                     'title' => '<span class="greenBlueColor">Asistencia <br class="space"> personalizada</span>',
-                    'text' => 'Tu agencia tendrá un Especialista <br class="desktopElement"> de Customer Success asignado <br class="desktopElement"> a tu cuenta y a tus clientes, recibiendo <br class="desktopElement"> atención prioritaria y soporte 24/7',
+                    'text' => 'Tu agencia tendrá un Especialista de Customer Success <br class="desktopElement"> asignado a tu cuenta y a tus clientes, recibiendo <br class="desktopElement"> atención prioritaria y soporte 24/7',
                     'overImage' => App::setFilePath('/assets/images/illustrations/team/free-trail_06 1.png'),
                 ],
                 [
@@ -116,7 +117,9 @@
                     'overImage' => App::setFilePath('/assets/images/illustrations/others/todo-uno 1.png'),
                 ],
                 [
-                    'title' => '<span class="greenBlueColor">Directorio Escala <br class="space"> de Agencias</span>',
+                    'title' => '<span class="greenBlueColor">Directorio Escala <br class="space"> de Agencias
+                        <br class="desktopElement"><br class="desktopElement">
+                        </span>',
                     'text' => 'Da a conocer tu agencia y los servicios que prestan a clientes de <br class="desktopElement"> toda hispanoamérica y Estados Unidos, dentro de la comunidad <br class="desktopElement"> de negocio y emprendimiento más grande de la región. El lugar <br class="desktopElement"> ideal para expandir tu oferta de servicios',
                     'overImage' => App::setFilePath('/assets/images/illustrations/others/directorio 1.png'),
                 ],
@@ -141,7 +144,7 @@
         'overlayImage' => null,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => '¡Comenzar ahora!',
+        'textButton' => 'Quiero ser partner',
         'typeButton' => 'primaryButton hoverInEffect',
         'elements' => array(
                     [
@@ -191,7 +194,7 @@ $parameters = [
     'text' => '“Desde que mi agencia está con Escala <br class="desktopElement"> hemos crecido un 40%. Nuestros clientes <br class="desktopElement"> están más felices, generando leads y ventas”',
     'enableButton' => false,
     'imageTop' => null,
-    'client' => '<strong>Benito Camelo</strong><br class="space">Un Hemisferio - Agencia Digital',
+    'client' => '<strong>Braulio Rodríguez</strong><br class="space">Un Hemisferio - Agencia Digital',
     'clientLogo' => null,
     'side' => 'left',
 ];
@@ -218,7 +221,7 @@ $parameters = [
                         'title' => null,
                         'text' => 'Simplificar su gestión de ventas <br class="sspace"> <strong>con el CRM más fácil de usar</strong>',
                         'enableButton' => true,
-                        'urlButton' => '#lead-form',
+                        'urlButton' => App::setTypeUrl().'/crm-escala',
                         'typeButton' => 'hiperButtonGreenBlue',
                         'textButton' => 'Conocer más'
                     ],
@@ -227,7 +230,7 @@ $parameters = [
                         'title' => null,
                         'text' => 'Crear landing pages optimizadas <br class="space"> <strong>sin programar</strong>',
                         'enableButton' => true,
-                        'urlButton' => '#lead-form',
+                        'urlButton' => App::setTypeUrl().'/landing-pages',
                         'typeButton' => 'hiperButtonGreenBlue',
                         'textButton' => 'Conocer más'
                     ],
@@ -236,7 +239,7 @@ $parameters = [
                         'title' => null,
                         'text' => 'Crear, administrar y publicar <strong>campañas <br class="space"> de ads digitales,</strong> sin salir de Escala',
                         'enableButton' => true,
-                        'urlButton' => '#lead-form',
+                        'urlButton' => App::setTypeUrl().'/anuncios-digitales',
                         'typeButton' => 'hiperButtonGreenBlue',
                         'textButton' => 'Conocer más'
                     ],
@@ -245,7 +248,7 @@ $parameters = [
                         'title' => null,
                         'text' => 'Enviar <strong>campañas masivas</strong> <br class="space"> de Email Marketing',
                         'enableButton' => true,
-                        'urlButton' => '#lead-form',
+                        'urlButton' => App::setTypeUrl().'/email',
                         'typeButton' => 'hiperButtonGreenBlue',
                         'textButton' => 'Conocer más'
 
@@ -255,7 +258,7 @@ $parameters = [
                         'title' => null,
                         'text' => '<strong>Automatizar</strong> <br class="space"> tareas repetitivas',
                         'enableButton' => true,
-                        'urlButton' => '#lead-form',
+                        'urlButton' => App::setTypeUrl().'/automatizacion',
                         'typeButton' => 'hiperButtonGreenBlue',
                         'textButton' => 'Conocer más'
                     ],
@@ -264,7 +267,7 @@ $parameters = [
                         'title' => null,
                         'text' => 'Medir y optimizar mediante <br class="space"> <strong>dashboards amigables</strong>',
                         'enableButton' => true,
-                        'urlButton' => '#lead-form',
+                        'urlButton' => App::setTypeUrl().'/analiticas',
                         'typeButton' => 'hiperButtonGreenBlue',
                         'textButton' => 'Conocer más',
                     ]
