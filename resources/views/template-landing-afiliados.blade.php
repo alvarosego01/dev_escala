@@ -35,7 +35,7 @@
             <section class="customSection sectionParent landingAfiliados1 fullWidth">
                 <span class="blueLabelSpecial blue">
 
-                    Hasta 30% de manera recurrente
+                    Obten hasta un 30% de comisiones
 
                 </span>
 
@@ -45,9 +45,8 @@
 
 
                         <p class="primaryText grayColorTexts">
-                            Con cada plan adquirido por tus referidos ganas hasta un 30% de comisiones . Crecen tus <br
-                                class="desktopElement"> ingresos pasivos, mientras tu comunidad de negocios incrementa
-                            sus ventas con Escala.
+                            Con cada plan adquirido por tus referidos ganas hasta un 30% de comisiones. Crecen tus <br
+                                class="desktopElement"> ingresos pasivos, mientras tu comunidad de negocios incrementa sus ventas con Escala.
                         </p>
 
                     </div>
@@ -104,7 +103,7 @@
                     'classSection' => 'landingAfiliados3',
                     'enableTitle' => true,
                     'titlePrincipal' => '¿Cómo ser un afiliado Escala?',
-                    'subTitlePrincipal' => 'Ser un afiliado de Escala es muy fácil, debes: Compartir, convertir y recibir tu comisión.',
+                    'subTitlePrincipal' => 'Ser un afiliado de Escala es muy fácil. Regístrate,   promociona y comienza a ganar comisiones.',
                     'overlay' => false,
                     'overlayImage' => null,
                     'enableButton' => true,
@@ -233,7 +232,7 @@
                     'title' => '<span class="greenBlueColor">Te ayudamos a enamorar <br class="space">
                 a tus referidos</span>',
                     'img' => App::setFilePath('/assets/images/illustrations/team/crm_afiliates.png'),
-                    'text' => 'Te damos todo el material de comunicación que necesitas para <br class="desktopTabletElement"> que tus referidos entiendan los grandes beneficios que obtienen <br class="desktopTabletElement"> con Escala. Desde lead magnets como: ebook, webinar. artículos <br class="desktopTabletElement"> de blog, hasta PDF explicando cada plan.',
+                    'text' => 'Te damos todo el material de comunicación que necesitas para <br class="desktopTabletElement"> que tus referidos entiendan los grandes beneficios que obtienen <br class="desktopTabletElement"> con Escala. Desde lead magnets como: ebooks, webinars, artículos <br class="desktopTabletElement"> de blog y material white label para promoción.',
                     'enableButton' => false,
                     // 'urlButton' => '#lead-form',
                     // 'textButton' => 'Segmentar ahora',

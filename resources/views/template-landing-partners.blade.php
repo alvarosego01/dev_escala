@@ -191,10 +191,14 @@ $parameters = [
     'subTitlePrincipal' => null,
     'title' => null,
     'img' => App::setFilePath('/assets/images/person/person_banner3.png'),
-    'text' => '“Desde que mi agencia está con Escala <br class="desktopElement"> hemos crecido un 40%. Nuestros clientes <br class="desktopElement"> están más felices, generando leads y ventas”',
+    'text' => '“Son muchas herramientras integradas en un solo sitio, una herramienta muy
+sencilla de utilizar y le da mucho beneficio al cliente. Nunca me habían
+atendido de esta manera en ningún tipo de plataforma similar. Primera vez
+que me atienden de esta manera y agradecidos enormemente. Felicidades
+porque tienen un equipo de trabajo increíble.”',
     'enableButton' => false,
     'imageTop' => null,
-    'client' => '<strong>Braulio Rodríguez</strong><br class="space">Un Hemisferio - Agencia Digital',
+    'client' => '<strong>Ernesto Valery y Edher Nieves </strong><br class="space">Director Creativo - Huella Studio',
     'clientLogo' => null,
     'side' => 'left',
 ];
@@ -291,7 +295,7 @@ $parameters = [
                     'title' => '¡Quiero ser una <br class="space"> agencia partner <br class="space"> de Escala!',
                     'textForm' => 'Quiero ser Partner',
                     'text' => null,
-                    'image' => App::setFilePath('/assets/images/person/am/andres-partners 1.png'),
+                    'image' => App::setFilePath('/assets/images/person/am/andres-partners-2.png'),
                     'side' => 'left'
                 ];
             @endphp
