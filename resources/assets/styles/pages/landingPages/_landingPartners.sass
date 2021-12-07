@@ -54,10 +54,10 @@
                 width: 90%
             @include responsivo(general)
                 width: 100%!important
-                max-width: 1275px!important
+                max-width: 1200px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1300px!important
+                max-width: 1240px!important
 
             .groupElements
                 // display: none!important
@@ -102,7 +102,7 @@
                                 width: 700px!important
                             @include responsivo(resto)
                                 width: 700px!important
-                            
+
 
                         p.principalBigText
                             font-family: Nunito
@@ -194,7 +194,7 @@
                         // center
 
     .customSection.sectionParent.landingPartners2
-        padding-top: 75px
+        padding-top: 40px
         padding-bottom: 25px
         // background-color: $colorBlueLight7
         .section-row
@@ -419,10 +419,10 @@
                 width: 90%
             @include responsivo(general)
                 width: 100%!important
-                max-width: 1140px!important
+                max-width: 1225px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1140px!important
+                max-width: 1275px!important
 
             section.innerSectionElement.sct2
                 .groupElements
@@ -464,8 +464,8 @@
                             font-family: Nunito
                             font-style: normal
                             font-weight: 600
-                            font-size: 24px
-                            line-height: 28px
+                            font-size: 20px
+                            line-height: 25px
                             text-align: right
                             color: white
                             width: auto!important
@@ -481,8 +481,8 @@
                                 font-family: Nunito
                                 font-style: normal
                                 font-weight: bold
-                                font-size: 18px
-                                line-height: 22px
+                                font-size: 16px
+                                line-height: 20px
                                 text-align: right
                                 color: white
                             @include responsivo(telefonoTable)
@@ -598,7 +598,7 @@
         .groupElements
 
             .form7
-                padding-right: 25px
+                padding-right: 0
                 padding-bottom: 50px
                 margin-top: 0
                 margin-bottom: 0
@@ -626,8 +626,10 @@
                         flex-direction: column
                     @include responsivo(general)
                         flex-direction: row
+
                     @include responsivo(resto)
                         flex-direction: row
+
                     h2.principalBigTitle
                         font-family: Nunito
                         font-style: normal
@@ -635,19 +637,20 @@
                         font-size: 35px
                         line-height: 42px
                         text-align: center
-                        margin-bottom: 0
                         @include responsivo(telefonoTable)
                             margin-bottom: 25px
                         @include responsivo(pcMedio)
                             margin-bottom: 25px
                         @include responsivo(general)
-                            position: absolute
-                            margin-bottom: auto
-                            margin-top: 10%
+                            // position: absolute
+                            padding-bottom: 40px
+                            margin: auto 0
+
                         @include responsivo(resto)
-                            position: absolute
-                            margin-bottom: auto
-                            margin-top: 10%
+                            // position: absolute
+                            padding-bottom: 40px
+                            margin: auto 0
+
                     .containerImage
                         margin-bottom: 0
                         display: flex
@@ -655,8 +658,14 @@
                         padding: 0
                         @include responsivo(general)
                             margin-left: auto
+                            position: absolute
+                            right: -50px
+                            bottom: 0
                         @include responsivo(resto)
                             margin-left: auto
+                            position: absolute
+                            right: -50px
+                            bottom: 0
 
                         img
                             display: block
