@@ -28,10 +28,10 @@
                 width: 90%
             @include responsivo(general)
                 width: 100%!important
-                max-width: 1140px!important
+                max-width: 1200px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1175px!important
+                max-width: 1225px!important
 
             .groupElements
                 // display: none!important
@@ -46,7 +46,8 @@
                         width: 100%
                         .principalBigTitle
                             text-align: right
-                            margin-bottom: 100px
+                            // margin-bottom: 100px
+                            margin: auto 0
                             font-family: Nunito
                             font-style: normal
                             font-weight: bold
@@ -73,6 +74,10 @@
                                 span
                                     text-align: center!important
                                     width: 100%
+                            @include responsivo(general)
+                                padding-bottom: 40px
+                            @include responsivo(resto)
+                                padding-bottom: 40px
                         // .principalBigText
                             // text-align: right
                         .containerImage
@@ -104,7 +109,7 @@
 
                 .form7
                     padding-right: 0
-                    padding-left: 25px
+                    padding-left: 15px
                     .formatForm
                         margin-left: auto
                         @include responsivo(telefonoTable)
