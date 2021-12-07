@@ -35,7 +35,7 @@
             <section class="customSection sectionParent landingAfiliados1 fullWidth">
                 <span class="blueLabelSpecial blue">
 
-                    Obten hasta un 30% de comisiones
+                    Obtén hasta un 30% de comisiones
 
                 </span>
 
