@@ -277,6 +277,10 @@
     .customSection.sectionParent.landingCRM3
         padding-bottom: 50px
         background-color: #E9F4F9
+        @include responsivo(telefonoTable)
+            padding-bottom: 300px
+        @include responsivo(pcMedio)
+            padding-bottom: 300px
         .section-row
             @include responsivo(telefonoTable)
                 width: 95%
@@ -310,9 +314,11 @@
                 box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.07)
                 border-radius: 20px
                 @include responsivo(general)
-                   padding-right: 0!important
+                    padding-right: 0!important
+                    top: -60px
                 @include responsivo(resto)
                     padding-right: 0!important
+                    top: -60px
                 @include responsivo(general)
                     padding-left: 75px!important
                     top: -140px
@@ -400,7 +406,12 @@
                             color: #322C2E
 
     .customSection.sectionParent.landingCRM4
-        padding: 50px 0
+        // padding: 50px 0
+        padding-bottom: 50px
+        @include responsivo(telefonoTable)
+            padding-top: 300px!important
+        @include responsivo(pcMedio)
+            padding-top: 300px
         @include responsivo(general)
             padding-top: 200px
 
