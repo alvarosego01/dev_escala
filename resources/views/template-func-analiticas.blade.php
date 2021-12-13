@@ -133,7 +133,7 @@ Mientras más sabes ¡mayor capacidad tendrás de optimizar resultados!',
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/otto/banner_05.png'),
   'title' => '"Esa campaña de emails fue exitosa..." <br> ¡Compruébalo!',
-  'text' => 'Las métricas de Escala te permiten verlo todo. Conoce el <br>  rendimiento de tus campañas de emails, descubre cuántas <br> personas lo han abireto, qué titulos han funcionado mejor y en <br> qué parte del email hicieron más click.
+  'text' => 'Las métricas de Escala te permiten verlo todo. Conoce el <br>  rendimiento de tus campañas de emails, descubre cuántas <br> personas lo han abierto, qué titulos han funcionado mejor y en <br> qué parte del email hicieron más clic.
 <br class="space"><br class="space">
 Utiliza esta información valiosa para construir tu próxima <br> campaña de email y conseguir mejores resultados.',
   'enableButton' => false,
@@ -157,7 +157,7 @@ Utiliza esta información valiosa para construir tu próxima <br> campaña de em
   'title' => 'Aumenta la productividad <br> <span class="greenBlueColor">de tu gerente de ventas</span>',
   'text' => 'Las analíticas son parte esencial de una buena estrategia de ventas.
 <br class="space"><br class="space">
-Con las métricas de Escala, tu gerente de ventas tendrá la visibilidad que <br> necesita sobre el rendimiento de cada uno de los miembros de su equipo. <br> No más adivinanzas, toma acciones basadas en informaicón objetiva y <br> aumenta la probabbilidad de cumplir tus metas de venta.',
+Con las métricas de Escala, tu gerente de ventas tendrá la visibilidad que <br> necesita sobre el rendimiento de cada uno de los miembros de su equipo. <br> No más adivinanzas, toma acciones basadas en información objetiva y <br> aumenta la probabilidad de cumplir tus metas de venta.',
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Conseguir mejores resultados',
