@@ -191,11 +191,8 @@ $parameters = [
     'subTitlePrincipal' => null,
     'title' => null,
     'img' => App::setFilePath('/assets/images/person/person_banner3.png'),
-    'text' => '“Son muchas herramientras integradas en un solo sitio, una herramienta muy
-sencilla de utilizar y le da mucho beneficio al cliente. Nunca me habían
-atendido de esta manera en ningún tipo de plataforma similar. Primera vez
-que me atienden de esta manera y agradecidos enormemente. Felicidades
-porque tienen un equipo de trabajo increíble.”',
+    'text' => '“Son muchas herramientas integradas en un solo sitio, una herramienta muy sencilla de utilizar y le da mucho beneficio al cliente. Nunca me habían atendido de esta manera en ningún tipo de plataforma similar. Primera vez que nos atienden así y estamos enormemente agradecidos. Felicidades porque tienen un equipo de trabajo increíble.”
+',
     'enableButton' => false,
     'imageTop' => null,
     'client' => '<strong>Ernesto Valery y Edher Nieves </strong><br class="space">Director Creativo - Huella Studio',
