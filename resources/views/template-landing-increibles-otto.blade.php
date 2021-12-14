@@ -22,10 +22,10 @@
        'overlay' => false,
        'classSection' => 'threeCol LandingPagesOtto0',
        'title' => '
-        Crea <br class="desktopTabletElement">
-        Landing pages <br class="desktopTabletElement">
+        Crea <br class="space">
+        Landing pages <br class="space">
         <span class="blueLightColor10">
-          increíbles <br class="desktopTabletElement">
+          increíbles <br class="space">
           con Escala
         </span>',
        'text' => null,

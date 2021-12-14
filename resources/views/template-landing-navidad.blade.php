@@ -15,21 +15,25 @@
   <div class="sections">
 
     <div
-    style="background-image: url({!! App::setFilePath('/assets/images/backgrounds/backgroundBlueDegrade.jpg') !!})"
+    style="background-image: url({!! App::setFilePath('/assets/images/backgrounds/backgroundBlueDegrade3.png') !!})"
     class="specialHeader">
 
       @php
       $parameters = array(
        'backgroundImageType' => false,
-       'overlay' => false,
+       'overlay' => true,
+       'overlayImage' => App::setFilePath('/assets/images/overlays/santa-landing-2a 1.png'),
        'classSection' => 'threeCol landingChristmas0',
-       'title' => 'Landing pages <br class="desktopElement"> <span class="blueLightColor10">increíbles <br class="space"> con Escala</span>',
-       'text' => null,
+       'title' => '
+       <span class="blueLightColor10">Estas navidades crea</span> <br class="space">
+       Increibles <br class="space"> Landing pages <br class="space">
+       <span class="blueLightColor10">y convierte más</span>
+       ',
+       'text' => 'Aprovecha estas fechas para generar <br class="space"> más leads con páginas optimizadas.',
        'textForm' => 'Comienza ahora',
        'threeCol' => true,
        'backgroundImage' => null,
-        'overlayImage' => null,
-        'image' => App::setFilePath('/assets/images/person/morena_banco-landing-2.png'),
+        'image' => App::setFilePath('/assets/images/person/santa-landing-2 1.png'),
       ) ;
       @endphp
 
@@ -105,7 +109,7 @@
     </div>
 
 
-    @php
+    {{-- @php
     $parameters = array(
      'classSection' => 'landingChristmas2 func',
      'description' => '<span class="greenBlueColor"><strong>«En Open English generamos cientos de landing pages al mes que <br> generan más de 1 millón de contactos al año.</strong></span> Ese ha sido parte del secreto <br> de nuestro éxito. Basados en esa experiencia, creamos el Landing Page <br> Builder más robusto del mercado”.',
@@ -117,7 +121,7 @@
 
    @contain_am_T1( $parameters )
 
-   @endcontain_am_T1
+   @endcontain_am_T1 --}}
 
 
    @php
@@ -191,7 +195,7 @@
       'title' => '<span class="greenBlueColor">¿Estás listo para</span> impulsar tus ventas?',
       'textForm' => 'Pruébalo gratis ahora',
       'text' => null,
-      'image' => App::setFilePath('/assets/images/illustrations/otto/otto-ventas 1.png'),
+      'image' => App::setFilePath('/assets/images/illustrations/otto/otto-santa-3 1.png'),
   ];
 @endphp
 @bannerForms7_T1( $parameters )
