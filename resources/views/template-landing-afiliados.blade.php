@@ -62,7 +62,7 @@
                     'type' => 'backgroundColor',
                     'classSection' => 'landingAfiliados2',
                     'enableTitle' => true,
-                    'titlePrincipal' => '¿Quiénes pueden ser afiliados de Escala?',
+                    'titlePrincipal' => '¿Para quién está diseñado el <br class="space"> programa de afiliados de Escala?',
                     'overlay' => false,
                     'overlayImage' => null,
                     'enableButton' => true,
@@ -73,7 +73,7 @@
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/icons-afiliados_1.png'),
                             'title' => '<span class="greenBlueColor">Creadores <br class="space"> de contenidos</span>',
-                            'text' => 'Si eres un creador de contenido en <br class="desktopTabletElement"> marketing digital y ventas, y parte de tu <br class="desktopTabletElement"> contenido va a pequeñas y grandes <br class="desktopTabletElement"> empresas que quieren llevar  su negocio al <br class="desktopTabletElement"> mundo digital escalando a gran velocidad, <br class="desktopTabletElement"> tú puedes ser un afiliado de Escala',
+                            'text' => 'Si eres un creador de contenido en <br class="desktopTabletElement"> marketing digital y ventas, y parte de tu <br class="desktopTabletElement"> contenido va a pequeñas y grandes <br class="desktopTabletElement"> empresas que quieren llevar  su negocio al <br class="desktopTabletElement"> mundo digital escalando a gran velocidad, <br class="desktopTabletElement"> tú puedes ser un afiliado de Escala.',
                             'enableButton' => false,
                         ],
                         [
@@ -108,13 +108,13 @@
                     'overlayImage' => null,
                     'enableButton' => true,
                     'urlButton' => '#',
-                    'textButton' => 'Regístrarme ahora',
+                    'textButton' => 'Registrarme ahora',
                     'typeButton' => 'primaryButton hoverInEffect',
                     'elements' => [
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/afiliados-steps_1.png'),
                             'title' => '<span class="greenBlueColor">Regístrate</span>',
-                            'text' => 'Llena nuestro formulario con tus datos <br class="desktopTabletElement"> y envíanos tu postulación',
+                            'text' => 'Llena nuestro formulario con tus datos <br class="desktopTabletElement"> y envíanos tu postulación.',
                             'enableButton' => false,
                         ],
                         [
@@ -147,7 +147,8 @@
                     'subTitlePrincipal' => null,
                     'title' => '<span class="greenBlueColor">Envíanos tus datos bancarios</span>',
                     'img' => App::setFilePath('/assets/images/illustrations/others/02_CRM 3.png'),
-                    'text' => 'Recibirás un email de bienvenida con tu link <br class="desktopTabletElement"> único de afiliado. En ese mismo correo te <br class="desktopTabletElement"> solicitaremos tus datos bancarios para cobrar <br class="desktopTabletElement"> tus comisiones, a través de transferencias <br class="desktopTabletElement"> electrónicas o PayPal',
+                    'text' => 'Recibirás un email de bienvenida con tu link <br class="desktopTabletElement"> único de afiliado. En ese mismo correo te <br class="desktopTabletElement"> solicitaremos tus datos bancarios para que <br class="desktopTabletElement"> puedas cobrar tus comisiones, a través de <br class="desktopTabletElement"> transferencias electrónicas o PayPal
+                    ',
                     'enableButton' => false,
                     'side' => 'right',
                 ];
