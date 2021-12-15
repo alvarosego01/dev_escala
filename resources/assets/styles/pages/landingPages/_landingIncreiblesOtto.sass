@@ -61,10 +61,10 @@
                     width: 90%
                 @include responsivo(general)
                     width: 100%!important
-                    max-width: 1240px!important
+                    max-width: 1300px!important
                 @include responsivo(resto)
                     width: 100%!important
-                    max-width: 1300px!important
+                    max-width: 1325px!important
                 section.innerSectionElement.sct1
                     .groupElements.row
                         .info
@@ -96,6 +96,11 @@
                                         line-height: 35px
                                         text-align: center
                                         letter-spacing: -1px
+                                    @include responsivo(general)
+                                        font-size: 40px
+                                        line-height: 45px
+
+
 
 
                                 .ele1
@@ -118,11 +123,9 @@
                                         @include responsivo(general)
                                             margin: auto 0
                                             margin-right: auto
-                                            margin-top: 5%
                                         @include responsivo(resto)
                                             margin: auto 0
                                             margin-right: auto
-                                            margin-top: 5%
                                         img
                                             // position: absolute
                                             height: 400px
@@ -132,6 +135,9 @@
                                             @include responsivo(pcMedio)
                                                 height: 400px
                                                 position: unset
+                                            @include responsivo(general)
+                                                height: 350px
+
 
                                 .ele2
                                     display: block
@@ -167,6 +173,14 @@
                             padding: 0!important
                             .formatForm
                                 width: 400px!important
+                                @include responsivo(general)
+                                    margin-left: 0
+                                    margin-right: auto
+                                @include responsivo(resto)
+                                    margin-left: 0
+                                    margin-right: auto
+                                    // margin-left: auto
+                                    // margin-right: 0
 
         .customSection.sectionParent.LandingPagesOtto1
             padding-bottom: 25px
