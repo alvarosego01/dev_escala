@@ -45,7 +45,7 @@
           'type' => 'backgroundColor',
           'classSection' => 'landingChristmas1',
           'enableTitle' => true,
-          'titlePrincipal' => '<span class="whiteColor">No programes más.<br class="space">Construye páginas atractivas <br class="mobileElement"> en 4 simples pasos</span>',
+          'titlePrincipal' => '<span class="whiteColor">Crea  en 4 pasos landing pages hermosas,<br class="space"> sin programar y en pocos minutos</span>',
           'subTitlePrincipal' => null,
           'overlay' => false,
           // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
@@ -128,23 +128,22 @@
  $parameters = array(
    'type' => 'regular',
   'classSection' => 'landingChristmas3',
-  'title' => 'Tu landing page estará ya integrada <br class="mobileElement"> a la plataforma <span class="greenBlueColor">“todo-en-uno” <br class="space"> de marketing digital y ventas</span>
-',
+  'title' => '<span class="greenBlueColor">Ten todas las herramientas de marketing digital y ventas</span><br class="space">para potenciar esta temporada',
   'subTitle' => '<strong class="subtitle">Conoce Escala</strong>',
   'img1' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
-  'title1' => 'Multiplica las visitas <br class="space"> <span class="greenBlueColor">con anuncios digitales</span>',
+  'title1' => 'Multiplica las visitas <br class="space">con anuncios digitales</span>',
   'desc1' => 'Comienza a generar tráfico a tu landing <br> page. <br class="mobileElement"> Crea, publica y gestiona <br> campañas de anuncios <br class="mobileElement"> digitales <br> directamente desde Escala.',
   'img2' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
-  'title2' => '<span class="greenBlueColor">Gestiona y organiza</span> <br class="space"> la información de tus contactos',
+  'title2' => 'Gestiona y organiza</span> <br class="space"> la información <span class="greenBlueColor">de tus contactos</span>',
   'desc2' => 'Empodera a tu equipo de ventas con el CRM <br> más <br class="mobileElement"> amigable y fácil de usar. Incrementa la <br> productividad <br class="mobileElement"> planificando actividades y <br> mantén comunicación <br class="mobileElement"> constante con tus leads.',
   'img3' => App::setFilePath('/assets/images/illustrations/others/icono-12 1.png'),
-  'title3' => 'Envía Emails <br class="space"> <span class="greenBlueColor">profesionales</span>',
+  'title3' => '<span class="greenBlueColor">Envía Emails</span> <br class="space"> profesionales',
   'desc3' => 'Nutre la relación con tus contactos enviando <br class="space"> efectivas campañas de emails. Con nuestras <br class="space"> plantillas prediseñadas logras enviar masivamente <br class="space"> mensajes personalizados con tan solo un clic.',
   'img4' => App::setFilePath('/assets/images/illustrations/others/icono-13 1.png'),
-  'title4' => 'Automatiza para ahorrar <br class="space"> tiempo y <span class="greenBlueColor">evitar errores</span>',
+  'title4' => 'Automatiza para ahorrar <br class="space"> tiempo y evitar errores',
   'desc4' => 'Nunca más realices tareas repetitivas de <br class="space"> marketing digital y ventas. Programa <br class="space"> recordatorios, acciones y mensajes que <br class="space"> aumentan tu productividad.',
   'img5' => App::setFilePath('/assets/images/illustrations/others/icono-15 1.png'),
-  'title5' => '<span class="greenBlueColor">Ten la visibilidad</span> de los <br class="space"> resultados de tu negocio',
+  'title5' => 'Ten la visibilidad de los <br class="space"> resultados de tu negocio',
   'desc5' => 'Lo que no se mide, no mejora. Escala te da <br class="space"> las analíticas necesarias en dashboards <br class="space"> amigables para que optimices tus <br> esfuerzos <br class="mobileElement"> de venta y marketing.',
  ) ;
 @endphp
@@ -192,7 +191,7 @@
   @php
   $parameters = [
       'classSection' => 'landingChristmas5',
-      'title' => '<span class="greenBlueColor">¿Estás listo para</span> impulsar tus ventas?',
+      'title' => '¿Estás listo para hacer las landig pages más<br class="space"> vendedoras de estas fiestas?',
       'textForm' => 'Pruébalo gratis ahora',
       'text' => null,
       'image' => App::setFilePath('/assets/images/illustrations/otto/otto-santa-3 1.png'),
