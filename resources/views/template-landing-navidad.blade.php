@@ -26,7 +26,7 @@
        'classSection' => 'threeCol landingChristmas0',
        'title' => '
        <span class="blueLightColor10">Estas navidades crea</span> <br class="space">
-       Increibles <br class="space"> Landing pages <br class="space">
+       Increíbles <br class="space"> Landing pages <br class="space">
        <span class="blueLightColor10">y convierte más</span>
        ',
        'text' => 'Aprovecha estas fechas para generar <br class="space"> más leads con páginas optimizadas.',
