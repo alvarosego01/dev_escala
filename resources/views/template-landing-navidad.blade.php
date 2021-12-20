@@ -191,10 +191,10 @@
   @php
   $parameters = [
       'classSection' => 'landingChristmas5',
-      'title' => '¿Estás listo para hacer las landig pages más<br class="space"> vendedoras de estas fiestas?',
+      'title' => '¿Estás listo para hacer <br class="space"> las landig pages más vendedoras <br class="space"> de estas fiestas?',
       'textForm' => 'Pruébalo gratis ahora',
       'text' => null,
-      'image' => App::setFilePath('/assets/images/illustrations/otto/otto-santa-3 1.png'),
+      'image' => App::setFilePath('/assets/images/person/am/andres-partners-2.png'),
   ];
 @endphp
 @bannerForms7_T1( $parameters )
