@@ -27,7 +27,10 @@
             background-position: center 62.5%
             padding-bottom: 0
             margin-bottom: 0
-            // background: radial-gradient(58.78% 162.71% at 47.21% 36.25%, #63AEC6 26.56%, #36768A 58.23%, #00506B 87.5%)
+            @include responsivo(telefonoTable)
+                background-position: right
+            @include responsivo(pcMedio)
+                background-position: right
             .extraButton
                 padding-top: 50px
                 padding-bottom: 50px
