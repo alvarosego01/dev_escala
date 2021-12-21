@@ -95,7 +95,7 @@
                                     font-size: 50px
                                     line-height: 47.5px
                                     color: white
-                                    margin-bottom: 10px
+                                    margin-bottom: 5px
                                     padding-top: 25px
                                     @include responsivo(telefonoTable)
                                         font-family: Nunito
@@ -116,16 +116,16 @@
                                         letter-spacing: -1px
                                     span
                                         font-weight: bold
-                                        font-size: 35px
-                                        line-height: 37.5px
+                                        font-size: 30px
+                                        line-height: 30px
 
                                 p.principalBigText
                                     font-family: Nunito
                                     font-style: normal
-                                    font-weight: 600
-                                    font-size: 16px
-                                    line-height: 20px
-                                    color: #FFFFFF
+                                    font-weight: bold
+                                    font-size: 28px
+                                    line-height: 28px
+                                    margin-bottom: 0
 
 
                                 .ele1
@@ -169,11 +169,11 @@
                                         @include responsivo(telefonoTable)
                                             position: unset
                                             padding-top: 0
-                                            margin-bottom: 25px
+                                            // margin-bottom: 25px
                                         @include responsivo(pcMedio)
                                             position: unset
                                             padding-top: 0
-                                            margin-bottom: 25px
+                                            // margin-bottom: 25px
                                         @include responsivo(general)
                                             padding-top: 25px
                                         @include responsivo(resto)
@@ -183,6 +183,10 @@
 
                         .form7
                             padding: 0!important
+                            @include responsivo(general)
+                                height: 450px
+                            @include responsivo(resto)
+                                height: 450px
                             .formatForm
                                 width: 400px!important
 
@@ -215,11 +219,11 @@
                     top: 0
                 @include responsivo(general)
                     left: -450px
-                    top: 350px
+                    top: 250px
 
                 @include responsivo(resto)
                     left: -450px
-                    top: 350px
+                    top: 250px
 
 
         .customSection.sectionParent.landingChristmas1
@@ -692,7 +696,7 @@
                             @include responsivo(resto)
                                 margin-left: auto
                                 position: absolute
-                                right: -75px
+                                right: -40px
                                 bottom: 0
 
                             img
