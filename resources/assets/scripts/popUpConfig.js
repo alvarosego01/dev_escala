@@ -79,6 +79,8 @@ jQuery(document).ready(function () {
                 // popUpOpenButton
                 if (popupID != null) {
 
+                    console.log('popupid', popupID);
+
                     // jQuery('.popUpOpenIndexButton[popUp="popup-general-t1"]').click();
                     jQuery('[indexpopupbutton][popup="'+ popupID +'"]')[0].click();
 

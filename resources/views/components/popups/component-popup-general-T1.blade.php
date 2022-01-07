@@ -1,5 +1,5 @@
-<div class="customPopUp modal fade popup-general-t1" id="popup-general-t1" aria-hidden="true"
-    aria-labelledby="popup-general-t1" tabindex="-1">
+<div class="customPopUp modal fade popup-bootstrap-general-t1" id="popup-bootstrap-general-t1" aria-hidden="true"
+    aria-labelledby="popup-bootstrap-general-t1" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
 
         <div class="modal-content">
@@ -84,6 +84,6 @@
 </div>
 
 
-<a style="display: none" popup="popup-general-t1" indexpopupbutton class="btn btn-primary" data-bs-toggle="modal"
-    href="#popup-general-t1" role="button">
+<a style="display: none" popup="popup-bootstrap-general-t1" indexpopupbutton class="btn btn-primary" data-bs-toggle="modal"
+    href="#popup-bootstrap-general-t1" role="button">
 </a>

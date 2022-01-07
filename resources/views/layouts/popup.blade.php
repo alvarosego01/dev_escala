@@ -13,15 +13,13 @@ $l = ACF_CUSTOM::_getField('enable_popup');
     @if ($l2 != null && $l2 == 'bootstrap_popup')
 
         @php
-            $x = ACF_CUSTOM::_getField('bootstrap_popup_type');
+            $x = ACF_CUSTOM::_getField('bootstrap_popup_types');
         @endphp
 
-        @if ($x != null && $x == 'boostrap_popup_general_1')
+        @if ($x != null && $x == 'popup-bootstrap-general-t1')
 
-            @php
-                $parameters = [];
-            @endphp
-            @popup_general_t1( $parameters )
+
+            @popup_general_t1(  )
             @endpopup_general_t1
 
         @endif

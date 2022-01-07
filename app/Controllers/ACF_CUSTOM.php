@@ -409,15 +409,13 @@ class ACF_CUSTOM extends Controller
                     ]
                 ),
                 array(
-                    'key' => 'bootstrap_popup_type',
+                    'key' => 'bootstrap_popup_types',
                     'label' => 'Bootstrap PopUp Type',
                     'name' => 'Bootstrap PopUp Type',
                     'type' => 'select',
                     'choices' => array(
-
-                        'boostrap_popup_general_1' => 'Boostrap popup general 1',
-                        'boostrap_popup_general_2' => 'Boostrap popup general 2',
-
+                        'popup-bootstrap-general-t1' => 'Popup general 1, ID: popup-bootstrap-general-t1',
+                        'popup-bootstrap-general-t2' => 'Popup general 2, ID: popup-bootstrap-general-t2',
                     ),
                     'conditional_logic' => [
                         array(
