@@ -67,7 +67,7 @@
 {{-- mobileElement --}}
 
 
-<div class="mobileElement animate__animated animate__faster" id="sideNavBar">
+<div class=" animate__animated animate__faster" id="sideNavBar">
 
 
 
@@ -89,6 +89,7 @@
                 </a>
             </div>
 
+            <div class="containSideBar">
 
             <div class="container-fluid sct1">
 
@@ -127,9 +128,9 @@
             </div>
 
         </div>
+        </div>
 
 
 </div>
 </div>
-
 

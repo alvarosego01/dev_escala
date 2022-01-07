@@ -1,4 +1,4 @@
-{{--
+
 @php
     $typeNav = ACF_CUSTOM::_getField('nav_settings');
 
@@ -42,11 +42,11 @@ get_header();
 
 @endif
 
---}}
 
 
 
 
+{{--
 @php
 get_header();
-@endphp
+@endphp --}}
