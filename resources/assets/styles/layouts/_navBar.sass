@@ -29,8 +29,9 @@ header.customHeader.customSection
         box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%)
         transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s
         width: 100%
+        height: max-content
         background-color: white!important
-        z-index: 999999999!important
+        z-index: 1000!important
         box-sizing: border-box
         padding: 0!important
         .section-row
@@ -185,17 +186,24 @@ body
         display: flex
         z-index: 999999999999
         display: none
+        @include responsivo(general)
+            display: none!important
+        @include responsivo(resto)
+            display: none!important
+        .containSideBar
+            overflow-y: scroll
+            height: inherit
         .logo
             display: flex
             justify-content: center
             align-content: center
-            margin-bottom: 20px
+            margin-bottom: 15px
             a.navbar-brand
                 // margin: auto
                 margin-right: auto
                 img
                     width: auto
-                    height: 37.5px
+                    height: 32.5px
         nav.principal.navbar
             height: 100%
             padding: 0
@@ -208,12 +216,17 @@ body
             .section-row
                 height: 100%
                 padding: 25px 25px
+                position: relative
                 @include responsivo(telefonoTable)
                     width: 100%
 
             .closeButtonSideBar
                 display: flex
                 margin-bottom: 15px
+                position: absolute
+                width: 90%
+                // right: 0
+                // top: 0
                 button.closeButton
                     display: block
                     margin-left: auto

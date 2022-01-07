@@ -8,11 +8,8 @@ use Sober\Controller\Controller;
 class SetComponents extends Controller
 {
 
-
-
     public function setAllComponents()
     {
-
 
         $components = array_merge(
             $this->setBannersForms7Components(),
@@ -22,9 +19,9 @@ class SetComponents extends Controller
             $this->setBlogComponents(),
             $this->setNavbarsComponents(),
             $this->setExitoCasoComponents(),
+            $this->setPopUpsComponents(),
 
         );
-
 
         return $components;
     }
@@ -35,6 +32,14 @@ class SetComponents extends Controller
 
         return array(
             'components.bannerForms7.component-banner-forms7-T1' => 'bannerForms7_T1'
+        );
+    }
+
+    private function setPopUpsComponents()
+    {
+
+        return array(
+            'components.popups.component-popup-general-T1' => 'popup_general_t1'
         );
     }
 

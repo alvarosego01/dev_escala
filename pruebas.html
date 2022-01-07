@@ -1,0 +1,59 @@
+<div class="show modal fade component-popup-general-t1" id="component-popup-general-t1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        {{-- <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div> --}}
+        <div class="modal-body">
+
+            <section class="innerSectionElement sct1">
+
+                <div class="groupElements">
+
+                  <div class="row">
+
+                    <div class="col-md-12 col-lg-6 image col1">
+                      imagen
+                    </div>
+                    <div class="col-md-12 col-lg-6 form col2">
+
+                      <div class="containElements">
+
+                        <div class="formatForm" redirectWeb="true">
+
+                            <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
+
+                            {{-- {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!} --}}
+
+                            @php
+                            $f =  ACF_CUSTOM::_getField('form7');
+                        @endphp
+                         @if (isset($f) && $f != null)
+                         {!! do_shortcode( $f ) !!}
+                         @else
+                         {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!}
+                         @endif
+
+
+                        </div>
+
+                    </div>
+
+                    </div>
+
+                  </div>
+
+
+                </div>
+
+
+            </section>
+
+        </div>
+        {{-- <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
+        </div> --}}
+      </div>
+    </div>
+  </div>
