@@ -20,6 +20,7 @@ class SetComponents extends Controller
             $this->setNavbarsComponents(),
             $this->setExitoCasoComponents(),
             $this->setPopUpsComponents(),
+            $this->setHeaderBandsComponents(),
 
         );
 
@@ -40,6 +41,14 @@ class SetComponents extends Controller
 
         return array(
             'components.popups.component-popup-general-T1' => 'popup_general_t1'
+        );
+    }
+
+    private function setHeaderBandsComponents()
+    {
+
+        return array(
+            'components.headerBands.component-headerBand-promo-T1' => 'headerBand_promo_T1'
         );
     }
 

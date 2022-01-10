@@ -320,6 +320,11 @@ class ACF_CUSTOM extends Controller
                 $this->allWeb()
 
             );
+            acf_add_local_field_group(
+
+                $this->setheaderBand()
+
+            );
 
             acf_add_local_field_group(
 
@@ -370,6 +375,98 @@ class ACF_CUSTOM extends Controller
     }
 
 
+    private function setheaderBand(){
+
+        return array(
+            'key' => 'headerband_page_config',
+            'title' => 'HeaderBand selector bootstrap',
+            'fields' => array(
+                array(
+
+                    'key' => 'enable_headerband',
+                    'label' => '¿Use headerband?',
+                    'name' => '¿Use headerband?',
+                    'type' => 'true_false',
+
+                ),
+                array(
+                    'key' => 'headerband_type',
+                    'label' => 'Headerband type',
+                    'name' => 'Headerband type',
+                    'type' => 'select',
+                    'choices' => array(
+
+                        'headerband_promo_t1' => 'Adquiere un Plan PRO y llévate hasta 2 meses TOTALMENTE GRATIS. Haz clic aquí y habla con un asesor',
+
+                    ),
+                    'conditional_logic' => [
+
+                        [
+                            [
+                                'field' => 'enable_headerband',
+                                'operator' => '==',
+                                'value' => 1
+                            ]
+                        ]
+                    ]
+                ),
+                array(
+
+                    'key' => 'enable_custom_headerband',
+                    'label' => '¿Custom text headerband?',
+                    'name' => '¿Custom text headerband?',
+                    'type' => 'true_false',
+                    'conditional_logic' => [
+                        array(
+                            [
+                                'field' => 'enable_headerband',
+                                'operator' => '==',
+                                'value' => 1
+                            ],
+                        )
+                    ]
+
+                ),
+                array(
+                    'key' => 'custom_headerband_text',
+                    'label' => 'HeaderBand custom text',
+                    'name' => 'HeaderBand custom text',
+                    'type' => 'text',
+                    'conditional_logic' => [
+                        array(
+
+                            [
+                                'field' => 'enable_custom_headerband',
+                                'operator' => '==',
+                                'value' => 1
+                            ],
+                            // [
+                            //     'field' => 'popup_type',
+                            //     'operator' => '==',
+                            //     'value' => 'bootstrap_popup'
+                            // ]
+
+                        ),
+
+                    ]
+                ),
+
+
+            ),
+
+            'location' => array(
+                array(
+                    array(
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'page',
+                    ),
+                ),
+            ),
+
+        );
+
+    }
 
     private function allWeb()
     {
