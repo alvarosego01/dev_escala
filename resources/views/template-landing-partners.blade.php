@@ -111,18 +111,18 @@
                     'text' => 'Tu agencia tendrá un Especialista de Customer Success <br class="desktopElement"> asignado a tu cuenta y a tus clientes, recibiendo <br class="desktopElement"> atención prioritaria y soporte 24/7',
                     'overImage' => App::setFilePath('/assets/images/illustrations/team/free-trail_06 1.png'),
                 ],
-                [
-                    'title' => '<span class="greenBlueColor">Centraliza el manejo <br class="space"> de todos tus clientes <br class="space"> en un solo lugar</span>',
-                    'text' => 'Lleva el control de los embudos de ventas de tus clientes en un <br class="desktopElement"> solo lugar. Automatiza, mide y optimiza en Escala, garantizando <br class="desktopElement"> la mejor gestión y el seguimiento para tus clientes',
-                    'overImage' => App::setFilePath('/assets/images/illustrations/others/todo-uno 1.png'),
-                ],
-                [
-                    'title' => '<span class="greenBlueColor">Directorio Escala <br class="space"> de Agencias
-                        <br class="desktopElement"><br class="desktopElement">
-                        </span>',
-                    'text' => 'Da a conocer tu agencia y los servicios que prestan a clientes de <br class="desktopElement"> toda hispanoamérica y Estados Unidos, dentro de la comunidad <br class="desktopElement"> de negocio y emprendimiento más grande de la región. El lugar <br class="desktopElement"> ideal para expandir tu oferta de servicios',
-                    'overImage' => App::setFilePath('/assets/images/illustrations/others/directorio 1.png'),
-                ],
+                // [
+                //     'title' => '<span class="greenBlueColor">Centraliza el manejo <br class="space"> de todos tus clientes <br class="space"> en un solo lugar</span>',
+                //     'text' => 'Lleva el control de los embudos de ventas de tus clientes en un <br class="desktopElement"> solo lugar. Automatiza, mide y optimiza en Escala, garantizando <br class="desktopElement"> la mejor gestión y el seguimiento para tus clientes',
+                //     'overImage' => App::setFilePath('/assets/images/illustrations/others/todo-uno 1.png'),
+                // ],
+                // [
+                //     'title' => '<span class="greenBlueColor">Directorio Escala <br class="space"> de Agencias
+                //         <br class="desktopElement"><br class="desktopElement">
+                //         </span>',
+                //     'text' => 'Da a conocer tu agencia y los servicios que prestan a clientes de <br class="desktopElement"> toda hispanoamérica y Estados Unidos, dentro de la comunidad <br class="desktopElement"> de negocio y emprendimiento más grande de la región. El lugar <br class="desktopElement"> ideal para expandir tu oferta de servicios',
+                //     'overImage' => App::setFilePath('/assets/images/illustrations/others/directorio 1.png'),
+                // ],
 
 
             ],
@@ -163,7 +163,7 @@
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/whitelabel 1.png'),
-                        'title' => '<span class="greenBlueColor">Material <br class="space"> white label</span>',
+                        'title' => '<span class="greenBlueColor">Material <br class="space"> de promoción</span>',
                         'text' => 'En Escala diseñamos todo el kit de ventas y <br class="desktopElement"> comunicación para que tu agencia solo tenga <br class="desktopElement"> que personalizarlo y comience a crecer en <br class="desktopElement"> inbound marketing y ventas',
                         'enableButton' => false,
                 ]
