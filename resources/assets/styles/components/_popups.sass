@@ -1,0 +1,103 @@
+
+
+.customPopUp.modal
+    width: 100%
+    position: fixed
+    height: 100%
+    padding: 0!important
+    z-index: 9999999999
+    // display: none!important
+    .modal-dialog.modal-dialog-centered
+        @include responsivo(telefonoTable)
+            width: 90%
+            max-width: unset!important
+            margin: auto
+
+        @include responsivo(pcMedio)
+            width: 80%
+            max-width: unset!important
+
+        @include responsivo(general)
+            width: 70%
+            max-width: unset!important
+
+        @include responsivo(resto)
+            width: 50%
+            max-width: 800px!important
+
+        .modal-content
+            border-radius: 12.5px
+            .modal-body
+                padding: 35px
+                .innerSectionElement.sct1
+                    .groupElements
+                        position: relative
+                        .closePopUp
+                            position: absolute
+                            right: 0
+                            top: 0
+                            width: 30px
+                            height: 30px
+                            font-size: 25px
+                            font-weight: bold
+                            transition: $trans
+                            color: #322C2E
+                            background-color: transparent
+                            &:hover
+                                cursor: pointer
+                                color: #f34f36!important
+                        .row
+                            .image.col1
+                                .containerImage.logo
+                                    padding: 0
+                                    margin-bottom: 75px
+                                    @include responsivo(telefonoTable)
+                                        margin-bottom: 30px!important
+                                    @include responsivo(pcMedio)
+                                        margin-bottom: 50px
+                                    img
+                                        height: 37.5px
+                                        margin-left: 0
+                                .primaryTitle
+                                    color: #322C2E
+                                    font-family: "Nunito Sans",Sans-serif
+                                    font-size: 42.5px
+                                    font-weight: 700
+                                    line-height: 1
+                                    margin-bottom: 5px
+                                    @include responsivo(telefonoTable)
+                                        text-align: center
+                                        font-size: 35px
+                                    @include responsivo(pcMedio)
+                                        text-align: center
+                                        font-size: 40px
+                                .containerImage.imageHero
+                                    margin-bottom: 0
+                                    padding: 0
+                                    img
+                                        height: 250px
+                                        margin: auto
+                                        margin-left: 0
+                                        @include responsivo(telefonoTable)
+                                            height: 200px
+                                            margin: auto
+                                        @include responsivo(pcMedio)
+                                            height: 225px
+                                            margin: auto
+
+
+                            .form.col2
+                                .containElements
+                                    height: 100%
+                                    display: flex
+                                    flex-direction: column
+                                    justify-content: center
+                                    padding-top: 35px
+                                    padding-bottom: 20px
+                                    .formatForm
+                                        // max-width: 350px!important
+                                        .titleFormat
+                                            font-size: 20px
+                                            line-height: 1
+                                            color: #565153
+

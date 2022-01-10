@@ -3,9 +3,6 @@
   Template Name: [B] Landing - Masive mailing
 --}}
 
-
-
-
 @extends('layouts.app')
 
 @section('content')

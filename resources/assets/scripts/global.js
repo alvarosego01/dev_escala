@@ -7,12 +7,14 @@ var inner = null;
 
 var sideNavBar = jQuery('#sideNavBar');
 
+var sidebarStatus = false;
+
 function navScrollFixed() {
 
-    if ( navbar != null && inner != null) {
+    if (navbar != null && inner != null) {
 
         if (window.pageYOffset > 0) {
-            inner[ 0 ].classList.add("fixedNav")
+            inner[0].classList.add("fixedNav")
 
             navbar.css({
                 'height': navBarHeight + 'px'
@@ -25,7 +27,7 @@ function navScrollFixed() {
 
 
         } else {
-            inner[ 0 ].classList.remove("fixedNav");
+            inner[0].classList.remove("fixedNav");
             // navbar.css({
             //     'height': heightNavbar + 'px'
             // })
@@ -53,11 +55,11 @@ function _serializeFormToObject(form) {
     var paramObj = {};
     jQuery.each(jQuery(form).serializeArray(), function (_, kv) {
         if (paramObj.hasOwnProperty(kv.name)) {
-            paramObj[ kv.name ] = jQuery.makeArray(paramObj[ kv.name ]);
-            paramObj[ kv.name ].push(kv.value);
+            paramObj[kv.name] = jQuery.makeArray(paramObj[kv.name]);
+            paramObj[kv.name].push(kv.value);
         }
         else {
-            paramObj[ kv.name ] = kv.value;
+            paramObj[kv.name] = kv.value;
         }
     });
 
@@ -69,16 +71,17 @@ function _serializeFormToObject(form) {
 function _openSideNav(type) {
 
     if (type == 'close') {
-
-        jQuery('nav', sideNavBar)[ 0 ].classList.add("animate__slideOutRight");
-        jQuery('nav', sideNavBar)[ 0 ].addEventListener('animationend', (e) => {
+        console.log('close sidenav');
+        jQuery('nav', sideNavBar)[0].classList.add("animate__slideOutRight");
+        jQuery('nav', sideNavBar)[0].addEventListener('animationend', (e) => {
             // do something
             if (e.animationName == 'slideOutRight') {
+                console.log('abre');
                 sideNavBar.css({
                     'display': 'none'
                 });
-                jQuery('nav', sideNavBar)[ 0 ].classList.add("animate__slideInRight")
-                jQuery('nav', sideNavBar)[ 0 ].classList.remove("animate__slideOutRight")
+                jQuery('nav', sideNavBar)[0].classList.add("animate__slideInRight")
+                jQuery('nav', sideNavBar)[0].classList.remove("animate__slideOutRight")
                 // sideNavBar[0].classList.add("animate__fadeOut")
 
                 e.target.removeEventListener('animationend', () => {
@@ -89,11 +92,13 @@ function _openSideNav(type) {
 
         });
 
+        sidebarStatus = false;
     }
 
     if (type == 'open') {
 
         // animate__slideInRight
+        console.log('open sidenav');
         let w = window.innerWidth;
         if (w <= 991) {
 
@@ -101,18 +106,13 @@ function _openSideNav(type) {
                 'display': 'block'
             });
             // sideNavBar[0].classList.add("animate__fadeIn")
-            jQuery('nav', sideNavBar)[ 0 ].classList.add("animate__slideInRight")
+            jQuery('nav', sideNavBar)[0].classList.add("animate__slideInRight")
 
         }
 
+        sidebarStatus = true;
 
     }
-
-
-
-
-
-
 
 }
 
@@ -150,23 +150,44 @@ function setInnerElement() {
 
 }
 
-function deviceType(){
+function deviceType() {
 
     let w = window.innerWidth;
 
     if (w <= 991) {
 
-       return 'mobile';
+        return 'mobile';
 
     }
     if (w >= 992) {
 
-       return 'desktop';
+        return 'desktop';
 
     }
 
 
 }
+
+
+
+function closingSidebarClick() {
+
+    jQuery('#sideNavBar').on('click', function (e) {
+        if (e.target === this) {
+
+            // closeSidebarButton
+            if(sidebarStatus == true){
+
+                _openSideNav('close');
+
+            }
+
+        }
+   });
+
+}
+
+
 
 jQuery(document).ready(function () {
 
@@ -181,6 +202,6 @@ jQuery(document).ready(function () {
     window.onscroll = function () { navScrollFixed() };
 
 
-
+    closingSidebarClick();
 
 });

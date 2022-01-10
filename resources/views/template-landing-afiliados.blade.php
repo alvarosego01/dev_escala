@@ -233,7 +233,7 @@
                     'title' => '<span class="greenBlueColor">Te ayudamos a enamorar <br class="space">
                 a tus referidos</span>',
                     'img' => App::setFilePath('/assets/images/illustrations/team/crm_afiliates.png'),
-                    'text' => 'Te damos todo el material de comunicación que necesitas para <br class="desktopTabletElement"> que tus referidos entiendan los grandes beneficios que obtienen <br class="desktopTabletElement"> con Escala. Desde lead magnets como: ebooks, webinars, artículos <br class="desktopTabletElement"> de blog y material white label para promoción.',
+                    'text' => 'Te damos todo el material de comunicación que necesitas para <br class="desktopTabletElement"> que tus referidos entiendan los grandes beneficios que obtienen <br class="desktopTabletElement"> con Escala. Desde lead magnets como: ebooks, webinars, artículos <br class="desktopTabletElement"> de blog y material para promoción.',
                     'enableButton' => false,
                     // 'urlButton' => '#lead-form',
                     // 'textButton' => 'Segmentar ahora',

@@ -52,13 +52,13 @@
 
 
 
-    <nav class="animate__animated animate__faster principal navbar">
+    <nav id="innerNavBar" class="animate__animated animate__faster principal navbar">
 
         <div class="section-row">
 
             <div class="closeButtonSideBar">
 
-                <button onclick="_openSideNav('close')" class="closeButton">
+                <button id="closeSidebarButton" onclick="_openSideNav('close')" class="closeButton">
                     <i class="fas fa-times    "></i>
                 </button>
 
