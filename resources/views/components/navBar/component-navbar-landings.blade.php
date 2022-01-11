@@ -65,7 +65,7 @@ $navBar = ACF_CUSTOM::_getField('nav_settings');
 @if ( isset($navBar) && $navBar ==  'landing-global1' )
 
 
-<div class="mobileElement animate__animated animate__faster" id="sideNavBar">
+<div class="animate__animated animate__faster" id="sideNavBar">
 
 
 
