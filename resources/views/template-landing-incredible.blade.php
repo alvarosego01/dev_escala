@@ -1,115 +1,144 @@
 
 {{--
-  Template Name: [B] Landing pages increibles
+  Template Name: [B] Landing pages increibles trial
 --}}
-
-
-
-
 
 @extends('layouts.app')
 
 @section('content')
 
-
-<div id="landingIncBootstrap">
+<div id="landingIncTrialBootstrap">
 
   <div class="sections">
 
-@php
- $parameters = array(
-  'backgroundImageType' => false,
-  'classSection' => 'landingPageInc0',
-  'title' => '<span class="greenBlueColor">Crea landing pages</span> <br> increíbles',
-  'text' => null,
-  'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0102.png',
-  'textForm' => '¡Comienza ahora!',
- ) ;
-@endphp
+    <div
+    style="background-image: url({!! App::setFilePath('/assets/images/backgrounds/backgroundBlueDegrade3.png') !!})"
+    class="specialHeader">
 
-@header_t1( $parameters )
+      @php
+      $parameters = array(
+       'backgroundImageType' => false,
+       'overlay' => false,
+       'classSection' => 'threeCol landingPageIncTrial0',
+       'title' => 'Crea landing <br class="desktopElement"> pages <br class="mobileElement"> <span class="blueLightColor10">increíbles  <br class="desktopElement"> con Escala</span>',
+       'text' => null,
+       'textForm' => 'Comienza ahora',
+       'threeCol' => true,
+       'backgroundImage' => null,
+        'overlayImage' => null,
+        'image' => App::setFilePath('/assets/images/illustrations/others/laptop-gente.png'),
+      ) ;
+      @endphp
 
-@endheader_t1
+      @header_t1( $parameters )
+      @endheader_t1
 
+      @php
+      $parameters = [
+          'type' => 'backgroundColor',
+          'classSection' => 'landingPageIncTrial1',
+          'enableTitle' => true,
+          'titlePrincipal' => '<span class="whiteColor">No programes más.<br class="space">Construye páginas atractivas <br class="mobileElement"> en 4 simples pasos</span>',
+          'subTitlePrincipal' => null,
+          'overlay' => false,
+          // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
+          'elements' => [
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/count-step-1.png'),
+                  'title' => '<span class="greenBlueColor3">Elige tu plantilla</span>',
+                  'text' => 'Elige entre cientos de plantillas <br class="space"> pre-diseñadas 100% responsive <br class="space"> para que luzcan bien en <br class="space"> cualquier dispositivo',
+                  'enableButton' => false,
+              ],
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/count-step-2.png'),
+                  'title' => '<span class="greenBlueColor3">Personaliza</span>',
+                  'text' => 'Edita fácilmente imágenes, <br class="space"> textos, colores y el formulario <br class="space"> para que enamores a tus <br class="space"> visitantes y compartan su <br class="space"> información de contacto',
+                  'enableButton' => false,
+              ],
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/count-step-3.png'),
+                  'title' => '<span class="greenBlueColor3">Publica</span>',
+                  'text' => 'Con tan solo un clic, programa <br class="space"> tu landing page y comienza a <br class="space"> atraer visitantes. ¡No más <br class="space"> códigos!',
+                  'enableButton' => false,
+              ],
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/count-step-4.png'),
+                  'title' => '<span class="greenBlueColor3">Optimiza</span>',
+                  'text' => 'Mide el rendimiento de tus <br class="space"> páginas con métricas <br class="space"> relevantes.Visualiza tus resultados <br class="space"> en tiempo real en un dashboard <br class="space"> amigable',
+                  'enableButton' => false,
+              ],
+          ],
+      ];
+      @endphp
 
+      @contain_multiple_cards_T2( $parameters )
 
-@php
- $parameters = array(
-  'classSection' => 'landingPageInc1',
-  'title' => '4 pasos para construir exitosas landing pages <span class="orangeColor">en minutos</span>',
-  'img1' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0116.png',
-  'title1' => 'Elige tu plantilla',
-  'desc1' => 'Elige entre cientos de plantillas pre-diseñadas 100% responsive. Sin necesidad de programar.',
-  'img2' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0117.png',
-  'title2' => 'Personaliza',
-  'desc2' => 'Dale tu toque personal y edita fácilmente imágenes, textos, colores, tipografías, etc.',
-  'img3' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0118.png',
-  'title3' => 'Publica',
-  'desc3' => 'Con un solo clic publica tu landing page y comienza a recibir visitas de tus clientes.',
-  'img4' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0119.png',
-  'title4' => 'Optimiza',
-  'desc4' => 'Analiza y optimiza tus landing pages a través de dashboards sencillos para obtener increíbles resultados.',
- ) ;
-@endphp
-
-@contain_4steps_loading( $parameters )
-
-@endcontain_4steps_loading
-
-
-@php
- $parameters = array(
-  'type' => 'backColor',
-  'classSection' => 'landingPageInc2',
-  'title' => '¡Comienza a crear tu <span class="orangeColor">landing page</span> ahora!',
-  'textButton' => '¡Pruébalo ahora!',
-  'goToUrl' => '#lead-form',
- ) ;
-@endphp
-
-@callToAction_T1( $parameters )
-
-@endcallToAction_T1
-
-
-
-
-
-@php
- $parameters = array(
-  'classSection' => 'landingPageInc3',
-  'description' => '"<strong>Al generar más de 1 millón de contactos por año utilizando las páginas de destino de Open English</strong>, hemos obtenido información sobre cómo optimizar con éxito nuestros sitios web para impulsar nuestras ventas. Basándonos en una década de experiencia, hemos creado el mejor creador de páginas de destino del mercado".',
-  'byAm' => '<span class="orangeColor">Andrés Moreno</span>',
-  'team' => 'Fundador de <span class="orangeColor">Escala</span> y Open English',
-  'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2020/09/escala-Andre%CC%81s-Moreno-founder-Ceo-Open-English-1.png'
- ) ;
-@endphp
-
-@contain_am_T1( $parameters )
-
-@endcontain_am_T1
+      @endcontain_multiple_cards_T2
 
 
-@php
+      <section class="customSection sectionParent extraButton">
+
+        <div class="section-row">
+
+              <section class="innerSectionElement">
+
+                <h2 class="primaryTitle whiteColor">
+                  ¡Descubre cuán fácil es diseñar y <br class="mobileElement"> publicar landing pages en Escala!
+                </h2>
+
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                  Comenzar ahora
+                </a>
+
+
+              </section>
+
+        </div>
+
+
+      </section>
+
+
+    </div>
+
+
+    @php
+    $parameters = array(
+     'classSection' => 'landingPageIncTrial2 func',
+     'description' => '<span class="greenBlueColor"><strong>«En Open English generamos cientos de landing pages al mes que <br> generan más de 1 millón de contactos al año.</strong></span> Ese ha sido parte del secreto <br> de nuestro éxito. Basados en esa experiencia, creamos el Landing Page <br> Builder más robusto del mercado”.',
+     'byAm' => '<strong class="blackColor2">Andrés Moreno</strong>',
+     'team' => 'Fundador de <span class="greenBlueColor">Escala</span> y Open English',
+     'image' => App::setFilePath('/assets/images/person/am/02_andres.png'),
+    ) ;
+   @endphp
+
+   @contain_am_T1( $parameters )
+
+   @endcontain_am_T1
+
+
+   @php
  $parameters = array(
    'type' => 'regular',
-  'classSection' => 'landingPageInc4',
-  'title' => 'Conoce la plataforma “todo en uno” de ventas y marketing que acelerará <span class="orangeColor">el crecimiento de tu negocio</span>',
-  'img1' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0110.png',
-  'title1' => 'Atrae visitantes <br> a tu landing page',
-  'desc1' => 'Conecta tu cuenta de Facebook y <br> comienza a generar tráfico a tu landing <br> page. Crea campañas de anuncios <br> digitales directamente desde <span class="orangeColor">Escala</span>.',
-  'img2' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0111.png',
-  'title2' => 'Simplifica tu <br> gestión de ventas',
-  'desc2' => 'Empodera a tu equipo de ventas con el <brr> CRM más amigable y fácil de usar. <br> Incrementa la productividad planificando <br> actividades y mantén comunicación <br> constante con tus leads.',
-  'img3' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0112.png',
-  'title3' => 'Construye poderosas campañas de <br> email marketing',
-  'desc3' => 'Envía fácilmente campañas masivas de emails con una de nuestras plantillas <br> prediseñadas. Con <span class="orangeColor">Escala</span> dile adiós a la <br> bandeja de spam.',
-  'img4' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0113.png',
-  'title4' => 'Activa el piloto <br> automático',
-  'desc4' => 'Ahorra tiempo automatizando tareas <br> repetitivas con <span class="orangeColor">Escala</span> para lograr tus metas <br> de ventas. Programa recordatorios y <br> configura emails de respuestas automáticas.',
-  'img5' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0114.png',
-  'title5' => 'Las analíticas que necesitas <br> para optimizar',
-  'desc5' => 'Lo que no se mide, no mejora. <span class="orangeColor">Escala</span> te da <br> las analíticas necesarias en dashboards <br> amigables para que optimices tus esfuerzos <br> de venta y marketing. La salud de tu negocio <br> en un solo vistazo.',
+  'classSection' => 'landingPageIncTrial3',
+  'title' => 'Tu landing page estará ya integrada <br class="mobileElement"> a la plataforma <span class="greenBlueColor">“todo-en-uno” <br class="space"> de marketing digital y ventas</span>
+',
+  'subTitle' => '<strong class="subtitle">Conoce Escala</strong>',
+  'img1' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
+  'title1' => 'Multiplica las visitas <br class="space"> <span class="greenBlueColor">con anuncios digitales</span>',
+  'desc1' => 'Comienza a generar tráfico a tu landing <br> page. <br class="mobileElement"> Crea, publica y gestiona <br> campañas de anuncios <br class="mobileElement"> digitales <br> directamente desde Escala.',
+  'img2' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
+  'title2' => '<span class="greenBlueColor">Gestiona y organiza</span> <br class="space"> la información de tus contactos',
+  'desc2' => 'Empodera a tu equipo de ventas con el CRM <br> más <br class="mobileElement"> amigable y fácil de usar. Incrementa la <br> productividad <br class="mobileElement"> planificando actividades y <br> mantén comunicación <br class="mobileElement"> constante con tus leads.',
+  'img3' => App::setFilePath('/assets/images/illustrations/others/icono-12 1.png'),
+  'title3' => 'Envía Emails <br class="space"> <span class="greenBlueColor">profesionales</span>',
+  'desc3' => 'Nutre la relación con tus contactos enviando <br class="space"> efectivas campañas de emails. Con nuestras <br class="space"> plantillas prediseñadas logras enviar masivamente <br class="space"> mensajes personalizados con tan solo un clic.',
+  'img4' => App::setFilePath('/assets/images/illustrations/others/icono-13 1.png'),
+  'title4' => 'Automatiza para ahorrar <br class="space"> tiempo y <span class="greenBlueColor">evitar errores</span>',
+  'desc4' => 'Nunca más realices tareas repetitivas de <br class="space"> marketing digital y ventas. Programa <br class="space"> recordatorios, acciones y mensajes que <br class="space"> aumentan tu productividad.',
+  'img5' => App::setFilePath('/assets/images/illustrations/others/icono-15 1.png'),
+  'title5' => '<span class="greenBlueColor">Ten la visibilidad</span> de los <br class="space"> resultados de tu negocio',
+  'desc5' => 'Lo que no se mide, no mejora. Escala te da <br class="space"> las analíticas necesarias en dashboards <br class="space"> amigables para que optimices tus <br> esfuerzos <br class="mobileElement"> de venta y marketing.',
  ) ;
 @endphp
 
@@ -119,14 +148,48 @@
 
 
 
-@php
- $parameters = array(
-  'classSection' => 'landingPageInc5',
-  'title' => '<span class="greenBlueColor">¿Estás listo para</span> acelerar tus ventas?',
-  'text' => null,
-  'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0115.png',
-  'textForm' => '¡Comienza ahora!'
- ) ;
+   <section class="customSection sectionParent landingPageIncTrial4 fullWidth">
+
+    <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/banner-3-1.png')" class="backgroundFull sct1">
+
+
+      <div class="section-row">
+
+        <div class="containElements">
+
+          <h3 class="primaryTitle whiteText">Acelera el crecimiento de tu negocio
+          </h3>
+
+          <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+            Comenzar ahora
+          </a>
+
+
+        </div>
+
+
+
+
+      </div>
+
+      <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/astrorocket.svg')" class="imageBackground">
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+  @php
+  $parameters = [
+      'classSection' => 'landingPageIncTrial5',
+      'title' => '<span class="greenBlueColor">¿Estás listo para</span> impulsar tus ventas?',
+      'textForm' => 'Pruébalo gratis ahora',
+      'text' => null,
+      'image' => App::setFilePath('/assets/images/illustrations/otto/otto-ventas 1.png'),
+  ];
 @endphp
 @bannerForms7_T1( $parameters )
 
@@ -134,11 +197,12 @@
 
 
 
+
+
+
   </div>
 
 </div>
-
-
 
 
 
