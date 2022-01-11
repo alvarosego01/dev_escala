@@ -1,6 +1,6 @@
 
 {{--
-  Template Name: [B] Landing - Landing pages
+  Template Name: [B] Landing - increibles (AM/OTTO)
 --}}
 
 
@@ -15,7 +15,7 @@
   <div class="sections">
 
     <div
-    style="background-image: url({!! App::setFilePath('/assets/images/backgrounds/backgroundBlueDegrade.jpg') !!})"
+    style="background-image: url({!! App::setFilePath('/assets/images/backgrounds/backgroundBlueDegrade3.png') !!})"
     class="specialHeader">
 
       @php
@@ -23,13 +23,13 @@
        'backgroundImageType' => false,
        'overlay' => false,
        'classSection' => 'threeCol landingLandingPages0',
-       'title' => 'Landing pages <br class="desktopElement"> <span class="blueLightColor10">increíbles <br class="space"> con Escala</span>',
+       'title' => 'Crea landing <br class="desktopElement"> pages <br class="mobileElement"> <span class="blueLightColor10">increíbles  <br class="desktopElement"> con Escala</span>',
        'text' => null,
        'textForm' => 'Comienza ahora',
        'threeCol' => true,
        'backgroundImage' => null,
         'overlayImage' => null,
-        'image' => App::setFilePath('/assets/images/person/morena_banco-landing-2.png'),
+        'image' => App::setFilePath('/assets/images/person/am/am_otto1.png'),
       ) ;
       @endphp
 

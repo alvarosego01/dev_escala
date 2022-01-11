@@ -18,7 +18,7 @@
  $parameters = array(
   'backgroundImageType' => true,
   'overlay' => true,
-  'classSection' => 'landingPageIncAm0',
+  'classSection' => 'landingPageIncTrialAm0',
   'title' => '<span class="greenBlueColor">Crea landing pages</span><br>increíbles',
   'text' => null,
   'image' => 'https://escala.com/wp-content/uploads/2021/04/banner-hero_montaje-02-1.png',
@@ -36,7 +36,7 @@
 
 @php
  $parameters = array(
-  'classSection' => 'landingPageIncAm1',
+  'classSection' => 'landingPageIncTrialAm1',
   'title' => '4 fáciles pasos para construir <span class="greenBlueColor">landing pages en minutos</span>',
   'img1' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0116.png',
   'title1' => '<span class="greenBlueColor">Elige tu plantilla</span>',
@@ -64,7 +64,7 @@
   'overlay2' => null,
   'backgroundImage' => App::setTypeUrl().'/wp-content/uploads/2021/04/Group-1815.png',
   'overlay' => App::setTypeUrl().'/wp-content/uploads/2021/04/Group-1821.svg',
-  'classSection' => 'landingPageIncAm2',
+  'classSection' => 'landingPageIncTrialAm2',
   'title' => '¡Comienza a crear tu landing page ahora!',
   'textButton' => '¡Pruébalo ahora!',
   'goToUrl' => '#lead-form',
@@ -81,7 +81,7 @@
  $parameters = array(
    'type' => 'backgroundImage',
    'backgroundImageFile' => 'https://cdn.escala.com/wp-content/uploads/2021/04/sdfssdf.png',
-  'classSection' => 'landingPageIncAm3',
+  'classSection' => 'landingPageIncTrialAm3',
   'title' => 'Conoce la plataforma “todo en uno” de ventas y marketing que acelerará <span class="greenBlueColor">el crecimiento de tu negocio</span>',
   'img1' => 'https://cdn.escala.com/wp-content/uploads/2021/04/icono_04.svg',
   'title1' => 'Multiplica tus visitas web <br> con anuncios digitales',
@@ -112,7 +112,7 @@
   'backgroundImage' => 'https://cdn.escala.com/wp-content/uploads/2021/04/fondo_azul.svg',
   'overlay' => 'https://cdn.escala.com/wp-content/uploads/2021/04/Banner-Astro-4.svg',
   'overlay2' => 'https://cdn.escala.com/wp-content/uploads/2021/04/banner_astronauta.svg',
-  'classSection' => 'landingPageIncAm4',
+  'classSection' => 'landingPageIncTrialAm4',
   'title' => '¡Quiero todas las herramientas <br> de esta plataforma!',
   'textButton' => 'Comenzar ahora',
   'goToUrl' => '#lead-form-bottom',
@@ -127,7 +127,7 @@
 
 @php
  $parameters = array(
-  'classSection' => 'landingPageIncAm5',
+  'classSection' => 'landingPageIncTrialAm5',
   'title' => '<span class="greenBlueColor">¿Estás listo para</span><br> acelerar tus ventas?',
   'text' => null,
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0115.png',

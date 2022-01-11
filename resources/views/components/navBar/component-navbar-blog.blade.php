@@ -48,7 +48,7 @@
 {{-- mobileElement --}}
 
 
-<div class="mobileElement animate__animated animate__faster" id="sideNavBar">
+<div class=" animate__animated animate__faster" id="sideNavBar">
 
 
 
