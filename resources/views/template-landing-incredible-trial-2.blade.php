@@ -1,16 +1,13 @@
 
 {{--
-  Template Name: [B] Landing - increibles (AM/OTTO)
+  Template Name: [B] Landing - increibles trial 2
 --}}
-
-
-
 
 @extends('layouts.app')
 
 @section('content')
 
-<div id="landing-LandingPages-bootstrap">
+<div id="landingIncTrial2Bootstrap">
 
   <div class="sections">
 
@@ -22,14 +19,14 @@
       $parameters = array(
        'backgroundImageType' => false,
        'overlay' => false,
-       'classSection' => 'threeCol landingLandingPages0',
+       'classSection' => 'threeCol landingPageIncTrial2_0',
        'title' => 'Crea landing <br class="desktopElement"> pages <br class="mobileElement"> <span class="blueLightColor10">increíbles  <br class="desktopElement"> con Escala</span>',
        'text' => null,
        'textForm' => 'Comienza ahora',
        'threeCol' => true,
        'backgroundImage' => null,
         'overlayImage' => null,
-        'image' => App::setFilePath('/assets/images/person/am/am_otto1.png'),
+        'image' => App::setFilePath('/assets/images/illustrations/others/laptop-gente.png'),
       ) ;
       @endphp
 
@@ -39,7 +36,7 @@
       @php
       $parameters = [
           'type' => 'backgroundColor',
-          'classSection' => 'landingLandingPages1',
+          'classSection' => 'landingPageIncTrial2_1',
           'enableTitle' => true,
           'titlePrincipal' => '<span class="whiteColor">No programes más.<br class="space">Construye páginas atractivas <br class="mobileElement"> en 4 simples pasos</span>',
           'subTitlePrincipal' => null,
@@ -107,7 +104,7 @@
 
     @php
     $parameters = array(
-     'classSection' => 'landingLandingPages2 func',
+     'classSection' => 'landingPageIncTrial2_2 func',
      'description' => '<span class="greenBlueColor"><strong>«En Open English generamos cientos de landing pages al mes que <br> generan más de 1 millón de contactos al año.</strong></span> Ese ha sido parte del secreto <br> de nuestro éxito. Basados en esa experiencia, creamos el Landing Page <br> Builder más robusto del mercado”.',
      'byAm' => '<strong class="blackColor2">Andrés Moreno</strong>',
      'team' => 'Fundador de <span class="greenBlueColor">Escala</span> y Open English',
@@ -123,7 +120,7 @@
    @php
  $parameters = array(
    'type' => 'regular',
-  'classSection' => 'landingLandingPages3',
+  'classSection' => 'landingPageIncTrial2_3',
   'title' => 'Tu landing page estará ya integrada <br class="mobileElement"> a la plataforma <span class="greenBlueColor">“todo-en-uno” <br class="space"> de marketing digital y ventas</span>
 ',
   'subTitle' => '<strong class="subtitle">Conoce Escala</strong>',
@@ -151,7 +148,7 @@
 
 
 
-   <section class="customSection sectionParent landingLandingPages4 fullWidth">
+   <section class="customSection sectionParent landingPageIncTrial2_4 fullWidth">
 
     <div style="background-image: url('{!! App::setTypeUrl() !!}/wp-content/uploads/2021/04/banner-3-1.png')" class="backgroundFull sct1">
 
@@ -187,7 +184,7 @@
 
   @php
   $parameters = [
-      'classSection' => 'landingLandingPages5',
+      'classSection' => 'landingPageIncTrial2_5',
       'title' => '<span class="greenBlueColor">¿Estás listo para</span> impulsar tus ventas?',
       'textForm' => 'Pruébalo gratis ahora',
       'text' => null,
