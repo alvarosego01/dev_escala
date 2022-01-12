@@ -213,6 +213,8 @@ class SetComponents extends Controller
                 "views/template-landing-CRM.blade.php",
                 "views/template-landing-increibles-otto.blade.php",
                 "views/template-landing-navidad.blade.php",
+                "views/template-landing-incredible-trial-2.blade.php",
+                "views/template-landing-increibles-am-otto.blade.php",
 
 
             );
@@ -259,6 +261,8 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-landing-incredible-trial-2.blade.php",
+                "views/template-landing-increibles-am-otto.blade.php",
                 "views/template-landing-incredible.blade.php",
                 "views/template-landing-incredible-demo.blade.php",
                 "views/template-landing-whatsapp.blade.php",
