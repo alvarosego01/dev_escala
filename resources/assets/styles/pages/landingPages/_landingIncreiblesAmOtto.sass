@@ -2,8 +2,9 @@
 
 
 
-#landing-LandingPages2-bootstrap
+#landing-increibles-am-otto-1-bootstrap
     .sections
+
 
         .customSection.sectionParent
             .primaryTitle
@@ -26,7 +27,6 @@
             background-position: center right
             padding-bottom: 0
             margin-bottom: 75px
-            position: relative
             .extraButton
                 @include responsivo(telefonoTable)
                     width: 80%
@@ -41,39 +41,28 @@
                         .primaryButton
                             display: block
                             margin: 0 auto
-            .overlayNave
-                position: absolute
-                height: 125px
-                margin: 0 auto
-                display: block
-                right: 0
-                left: 100px
-                top: 75px
-                @include responsivo(telefonoTable)
-                    left: unset
-                    right: 50px
-                    display: none
-                @include responsivo(pcMedio)
-                    left: unset
-                    right: 50px
-                @include responsivo(general)
-                    top: 50px
-
 
 
         .customSection.sectionParent.landingPagesIncAmOtto0
             padding-bottom: 100px
+            padding-top: 100px
             @include responsivo(telefonoTable)
-                padding-bottom: 50px
+                padding-bottom: 25px
+                padding-top: 75px
             @include responsivo(pcMedio)
-                padding-bottom: 50px
-            @include responsivo(general)
-                padding-top: 100px
-                padding-bottom: 100px
-            @include responsivo(resto)
-                padding-top: 100px
-                padding-bottom: 100px
+                padding-bottom: 25px
+                padding-top: 75px
             .section-row
+                @include responsivo(telefonoTable)
+                    width: 95%
+                @include responsivo(pcMedio)
+                    width: 90%
+                @include responsivo(general)
+                    width: 100%!important
+                    max-width: 1240px!important
+                @include responsivo(resto)
+                    width: 100%!important
+                    max-width: 1300px!important
                 section.innerSectionElement.sct1
                     .groupElements.row
                         .info
@@ -110,28 +99,35 @@
                                         line-height: 35px
                                         text-align: center
                                         letter-spacing: -1px
+
                                 .ele1
+                                    @include responsivo(telefonoTable)
+                                        margin-bottom: 275px
+                                    @include responsivo(pcMedio)
+                                        margin-bottom: 325px
                                     .containerImage
                                         position: relative
                                         display: flex
                                         justify-content: center
                                         align-content: center
                                         align-items: initial
-                                        @include responsivo(telefonoTable)
-                                            margin-bottom: 0
-                                        @include responsivo(pcMedio)
-                                            margin-bottom: 0
+                                        padding-top: 0
+                                        margin-bottom: 0
                                         img
                                             position: absolute
-                                            height: 400px
-                                            top: 100px
-                                            right: 75px
+                                            height: 665px
                                             @include responsivo(telefonoTable)
-                                                position: unset
-                                                height: 275px
+                                                height: 400px
                                             @include responsivo(pcMedio)
-                                                position: unset
                                                 height: 450px
+                                            @include responsivo(general)
+                                                left: -150px
+                                                top: 25px
+                                                height: 625px
+                                            @include responsivo(resto)
+                                                left: -145px
+                                                top: 25px
+
                                             // bottom: 0
                                             // right: 0
                                             // left: 0
@@ -152,19 +148,21 @@
                                             padding-top: 0
                                             margin-bottom: 25px
                                         @include responsivo(general)
-                                            padding-left: 100px
+                                            top: 75px
                                         @include responsivo(resto)
-                                            padding-left: 100px
+                                            top: 75px
 
 
                         .form7
                             padding: 0!important
+                            height: 450px
                             .formatForm
-                                width: 400px!important
 
+                                width: 400px!important
 
         .customSection.sectionParent.landingPagesIncAmOtto1
             padding-bottom: 25px
+            padding-top: 50px
             .section-row
                 // section.innerSectionElement.sct1
                 @include responsivo(telefonoTable)
@@ -213,6 +211,10 @@
                             padding-right: 0
                             h3.secondaryTitle
                                 margin-bottom: 15px
+                            p.text
+                                font-weight: 600
+                                font-size: 16px
+                                line-height: 22px
 
 
 
@@ -296,6 +298,8 @@
                                 text-align: center
                             @include responsivo(pcMedio)
                                 text-align: center
+                            strong
+                                font-weight: 800
                         .personData
                             @include responsivo(telefonoTable)
                                 position: relative
@@ -343,6 +347,8 @@
                                     text-align: center
                                 @include responsivo(pcMedio)
                                     text-align: center
+                                i
+                                    display: none
 
         .customSection.sectionParent.landingPagesIncAmOtto3
             padding: 50px 0
@@ -372,7 +378,7 @@
                         margin: 0 auto
                         font-family: Nunito
                         font-style: normal
-                        font-weight: bold
+                        font-weight: 800
                         font-size: 25px
                         line-height: 28px
                         text-align: center
@@ -402,7 +408,7 @@
                             h2.commonTitle
                                 font-family: Nunito
                                 font-style: normal
-                                font-weight: bold
+                                font-weight: 800
                                 font-size: 22px
                                 line-height: 25px
                                 text-align: center
@@ -495,10 +501,13 @@
                             margin-bottom: 25px
                             color: $colorWhite
                             font-weight: 600
+                            font-size: 35px
+                            line-height: 33px
                             @include responsivo(telefonoTable)
                                 margin-bottom: 30px!important
                             @include responsivo(pcMedio)
                                 margin-bottom: 30px!important
+
                         a.primaryButton
                             // margin: 0 auto
                             margin-left: auto
@@ -546,8 +555,12 @@
                     padding-right: 75px
                     padding-bottom: 75px
                     margin-top: 0
+                    h5.titleFormat
+                        font-weight: bold
+                        font-size: 26px
+                        line-height: 35px
                 .info
-                    padding-left: 75px
+                    padding-left: 0
                     @include responsivo(telefonoTable)
                         padding: 0
                     @include responsivo(pcMedio)
