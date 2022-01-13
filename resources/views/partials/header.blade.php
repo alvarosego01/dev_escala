@@ -36,15 +36,27 @@ $navBar = ACF_CUSTOM::_getField('nav_settings');
 
 @endif
 
-@if ( $navBar == 'landing-global1' || $navBar == 'landing-global2' )
+@if ( $navBar == 'landing-global1' )
 
-    @navBar_landings()
+    @landing_global1()
 
     @slot('classSection')
     {{$navBar}}
     @endslot
 
-    @endnavBar_landings
+    @endlanding_global1
+
+@endif
+
+@if ( $navBar == 'landing-global2' )
+
+    @landing_global2()
+
+    @slot('classSection')
+    {{$navBar}}
+    @endslot
+
+    @endlanding_global2
 
 @endif
 

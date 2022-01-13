@@ -150,7 +150,7 @@
                                             scalePro
                                             class="rangeLimits">
                                                 <span class="rangeContactLimit">
-                                                    2.000
+                                                    3.000
                                                 </span class="rangeContactLimit">
 
                                                 <span class="desktopTabletElement rangeContactLimit">
@@ -209,7 +209,7 @@
                                         <div class="customSelectorRange">
 
                                             <div class="slidecontainer">
-                                                <input typeProcess="1" name="_rangeContacts" class="rangeContacts" type="range" min="2"
+                                                <input typeProcess="1" name="_rangeContacts" class="rangeContacts" type="range" min="3"
                                                     max="100" value="0" class="sliderSelector">
                                             </div>
 
@@ -244,7 +244,7 @@
                                             scalePro
                                             class="rangeLimits">
                                                 <span class="rangeContactLimit">
-                                                    2.000
+                                                    3.000
                                                 </span class="rangeContactLimit">
 
                                                 <span class="desktopTabletElement rangeContactLimit">

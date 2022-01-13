@@ -86,7 +86,7 @@ $items = [
                 'title' => null,
                 'items' => [
                     'Usuarios de venta: <strong>1</strong>',
-                    // 'Contactos en base de datos: <strong>1.000.000</strong>',
+                    'Contactos en base de datos: <strong>1.000.000</strong>',
                     'Emails marketing al mes: <strong>5.000</strong>',
                     'Dominios propios: <strong>1</strong>',
                     'Cuentas de Facebook Ads Manager: <strong>1</strong>'
@@ -101,10 +101,10 @@ $items = [
         'price' => 'A partir de <br class="space">
         <span class="cost">
             <i class="fas fa-dollar-sign"></i>
-            <span class="numerCost">60</span>
+            <span class="numerCost">75</span>
             <span
             style="display: none"
-            class="discountCost">48</span>
+            class="discountCost">60</span>
             <span class="usd">
                 USD
             </span>
@@ -122,10 +122,10 @@ $items = [
                 <span class="ncost">
                     usd/mes
                 </span>
-                <span class="t1">Pago total anual <span class="priceDotted">720 $USD</span></span>
+                <span class="t1">Pago total anual <span class="priceDotted">900 $USD</span></span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento 576 $USD
+                        Con descuento 720 $USD
                     </strong>
                 </span>
         </p>',
@@ -136,7 +136,7 @@ $items = [
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <br class="space"> <strong>20.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => ['Emails marketing al mes: <br class="space"> <strong>30.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
@@ -148,7 +148,7 @@ $items = [
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong> 1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>2.000</strong>', 'Usuarios de venta: <strong>2</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>3.000</strong>', 'Usuarios de venta: <strong>2</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Anuncios Digitales',
@@ -164,8 +164,8 @@ $items = [
                 'title' => null,
                 'items' => [
                 'Usuarios de venta: <strong>2</strong>',
-                // 'Contactos en base de datos: <strong>1.000.000</strong>',
-                'Emails marketing al mes: <strong>20.000</strong>',
+                'Contactos en base de datos: <strong>1.000.000</strong>',
+                'Emails marketing al mes: <strong>10.000</strong>',
                 'Dominios propios: <strong>5</strong>',
                 'Cuentas de Facebook Ads Manager: <strong>3</strong>'
             ],

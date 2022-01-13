@@ -59,7 +59,7 @@ $parameters = array(
 $parameters = array(
  'classSection' => 'landingPricingPage2',
  'titlePrincipal' => '<span class="blueColor">Conoce los beneficios <br class="mobileSmallElement"> de nuestros planes</span>',
- 'subTitlePrincipal' => 'Cada uno de nuestros planes tiene las funcionalidades de <br class="mobileSmallElement"> marketing <br class="desktopTabletElement"> digital y ventas para acelerar el crecimiento de tu <br class="mobileSmallElement"> negocio.<br class="desktopTabletElement">Solo inviertes en lo que necesitas..'
+ 'subTitlePrincipal' => 'Cada uno de nuestros planes tiene las funcionalidades de <br class="mobileSmallElement"> marketing <br class="desktopTabletElement"> digital y ventas para acelerar el crecimiento de tu <br class="mobileSmallElement"> negocio.<br class="desktopTabletElement">Solo inviertes en lo que necesitas'
 ) ;
 @endphp
 
