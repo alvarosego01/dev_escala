@@ -306,6 +306,14 @@ class ACF_CUSTOM extends Controller
             ),
 
         ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-increibles-am-otto.blade.php",
+            ),
+
+        ),
 
 
     );
