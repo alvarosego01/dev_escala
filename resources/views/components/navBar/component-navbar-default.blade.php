@@ -1,4 +1,4 @@
-<header id="masthead" class="customHeader component-header-default customSection fullWidth {{ $classSection }}">
+<header id="masthead" class="customHeader component-header-default navBar_default customSection fullWidth {{ $classSection }}">
 
 
     <nav class="principal navbar navbar-expand-md">

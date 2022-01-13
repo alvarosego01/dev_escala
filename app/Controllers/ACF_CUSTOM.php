@@ -655,9 +655,9 @@ class ACF_CUSTOM extends Controller
                     'choices' => array(
                         'elementor_navbar' => 'Elementor nav',
                         'principal-global1'    => 'Principal white menu 1 - Complete menu',
-                        // 'blog-global1'	=> 'Blog white menu 1 - Categories, login, call to action',
-                        // 'landing-global1'	=> 'Landing white menu 1 - Logo, 1 button',
-                        // 'landing-global2'	=> 'Landing white menu 2 - Only logo',
+                        'blog-global1'	=> 'Blog white menu 1 - Categories, login, call to action',
+                        'landing-global1'	=> 'Landing white menu 1 - Logo, 1 button',
+                        'landing-global2'	=> 'Landing white menu 2 - Only logo',
                     ),
                 )
             ),
@@ -1012,8 +1012,6 @@ class ACF_CUSTOM extends Controller
     public static function _getField($field, $id = null)
     {
 
-
-
         if (function_exists('get_field')) {
 
             $l = null;
@@ -1033,5 +1031,7 @@ class ACF_CUSTOM extends Controller
 
             return null;
         }
+
     }
+
 }

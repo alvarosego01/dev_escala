@@ -1,12 +1,6 @@
 
 
-@php
-
-$navBar = ACF_CUSTOM::_getField('nav_settings');
-@endphp
-
-
-<header id="masthead" class="customHeader component-header-landing customSection fullWidth {{ $classSection }}">
+<header id="masthead" class="customHeader component-header-landing landing_global1 customSection fullWidth {{ $classSection }}">
 
 
     <nav class="principal navbar navbar-expand-md">
@@ -24,16 +18,15 @@ $navBar = ACF_CUSTOM::_getField('nav_settings');
                     </a>
                 </div>
 
-            @if (isset($navBar) && $navBar ==  'landing-global1')
 
 
-            <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button" >
+            {{-- <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button" >
 
                 <i class="fas fa-bars    "></i>
 
-            </button>
+            </button> --}}
 
-            <div class="desktopElement menusSection" id="main-menu">
+            <div class=" menusSection" id="main-menu">
 
                 {!! wp_nav_menu([
                     'theme_location' => 'landing-global1',
@@ -48,7 +41,6 @@ $navBar = ACF_CUSTOM::_getField('nav_settings');
 
 
             </div>
-@endif
 
 
             </div>
@@ -62,10 +54,10 @@ $navBar = ACF_CUSTOM::_getField('nav_settings');
 {{-- mobileElement --}}
 
 
-@if ( isset($navBar) && $navBar ==  'landing-global1' )
 
 
-<div class="animate__animated animate__faster" id="sideNavBar">
+
+{{-- <div class="animate__animated animate__faster" id="sideNavBar">
 
 
 
@@ -108,8 +100,6 @@ $navBar = ACF_CUSTOM::_getField('nav_settings');
 
 
     </div>
-</div>
+</div> --}}
 
 
-
-@endif
