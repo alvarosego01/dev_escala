@@ -590,8 +590,8 @@ function setConfigModeSelect(element){
 
     if(l == 'pro'){
 
-        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').attr('min', '2');
-        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val('2');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').attr('min', '3');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val('3');
         jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').css({
             'background-image': 'none'
         });
@@ -603,8 +603,8 @@ function setConfigModeSelect(element){
             'display': 'flex'
         });
 
-        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '2000');
-        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val('2000');
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '3000');
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val('3000');
 
     }
 
@@ -676,7 +676,7 @@ jQuery(document).ready(function () {
         calculateFinal(calculate);
 
         // var m = jQuery('input.contactsField[typeProcess='+typeProcess+']').val();
-        // if( m < 2000 ){
+        // if( m < 3000 ){
 
         //     jQuery('input#checkPro').attr('disabled', true);
 
@@ -684,7 +684,7 @@ jQuery(document).ready(function () {
 
         // }
 
-        // if( m >= 2000 ){
+        // if( m >= 3000 ){
 
         //     jQuery('input#checkPro').attr('disabled', false);
 
