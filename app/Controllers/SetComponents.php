@@ -125,7 +125,8 @@ class SetComponents extends Controller
 
             'components.navBar.component-navbar-default' => 'navBar_default',
             'components.navBar.component-navbar-blog' => 'navBar_blog',
-            'components.navBar.component-navbar-landings' => 'navBar_landings',
+            'components.navBar.landingPages.component-navbar-landing-global1' => 'landing_global1',
+            'components.navBar.landingPages.component-navbar-landing-global2' => 'landing_global2',
 
         );
     }
