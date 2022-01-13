@@ -314,6 +314,14 @@ class ACF_CUSTOM extends Controller
             ),
 
         ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-incredible-trial-2.blade.php",
+            ),
+
+        ),
 
 
     );
