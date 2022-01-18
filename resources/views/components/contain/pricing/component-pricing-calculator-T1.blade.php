@@ -305,7 +305,7 @@
                                         </div>
 
                                         <div class="customPriceInput">
-                                            <input typeProcess="0" name="_userAccess" class="userAccess" min="1" type="number" value="2">
+                                            <input typeProcess="0" name="_userAccess" class="userAccess" min="1" type="number" value="1">
                                         </div>
 
                                     </div>
