@@ -15,7 +15,7 @@
                     </p>
                     @else
                     <p>
-                        <span class="greenBlueColor6">Adquiere un</span> Plan PRO <span class="greenBlueColor6">y obtén hasta <br class="mobileElement"></span> 2 meses GRATIS. <a href="{!! App::setTypeUrl() !!}/zoom-meeting">Hablar con un asesor</a>
+                        <span class="greenBlueColor6">Adquiere un</span> Plan PRO <span class="greenBlueColor6">y obtén hasta <br class="mobileElement"></span> 2 meses GRATIS. <a href="#lead-form">Hablar con un asesor</a>
                     </p>
                     @endif
 
