@@ -148,7 +148,7 @@ $items = [
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>3.000</strong>', 'Usuarios de venta: <strong>2</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>3.000</strong>', 'Usuarios de venta: <strong>1</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
             ],
             [
                 'title' => 'Anuncios Digitales',
@@ -163,7 +163,7 @@ $items = [
             [
                 'title' => null,
                 'items' => [
-                'Usuarios de venta: <strong>2</strong>',
+                'Usuarios de venta: <strong>1</strong>',
                 'Contactos en base de datos: <strong>1.000.000</strong>',
                 'Emails marketing al mes: <strong>10.000</strong>',
                 'Dominios propios: <strong>5</strong>',

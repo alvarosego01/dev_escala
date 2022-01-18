@@ -29,8 +29,8 @@ var typeplan = 'yearly';
 // escala de costos contactos
 
 var escalaContactsStarter = [
-    // 30,
-    _costStarter,
+
+    30,
     15,
     15,
     15,
@@ -56,11 +56,13 @@ var escalaContactsStarter = [
     5,
     5,
     // 3,
-]
+
+];
+
 
 var escalaContactsPro = [
-    // 45,
-    _costPro,
+
+    45,
     15,
     15,
     15,
@@ -328,7 +330,7 @@ function calculateFinal(data) {
             costFinal = _contacts.pro + _users.pro;
 
         }
-        discount = costFinal * 0.20;
+        discount = costFinal * 0.30;
         costNoDiscount = costFinal;
         costFinal = costFinal - discount;
         discount = discount.toFixed(2);
@@ -359,8 +361,6 @@ function calculateFinal(data) {
 
 function trimDecimals(costFinal){
 
-//     console.log('Number(Number(costFinal).toFixed())', Number(Number(costFinal).toFixed()) );
-    // console.log('Number(costFinal)/1', Number(costFinal)/1 );
 
     if( Number(Number(costFinal).toFixed()) == Number(costFinal)/1  ){
 
@@ -430,7 +430,6 @@ function discountByPlanCard(type, element){
 
         if(element.checked == true){
 
-            console.log('pro select');
 
             if(jQuery('[typeplan='+ type +']').length > 0){
 
@@ -485,7 +484,6 @@ function discountByPlanCard(type, element){
         }
         if(element.checked == false){
 
-            console.log('starter select');
 
             if(jQuery('[typeplan='+ type +']').length > 0){
 
