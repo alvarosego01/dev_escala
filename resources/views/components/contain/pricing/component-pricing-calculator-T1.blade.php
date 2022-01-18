@@ -12,18 +12,16 @@
 
                 <div class="controls ">
 
-
                     <section class="innerSectionElement sct1">
 
                         <div class="containElements">
 
-
                             <div class="plansSection desktopElement">
                                 <small>
+
                                     Elige tu plan
+
                                 </small>
-
-
 
                                 <div class="box">
 
@@ -47,7 +45,7 @@
                                             <h3 class="secondaryTitle">
                                                 Plan Starter
                                             </h3>
-                                            <span class="priceTag">
+                                            <span calculator_price_starter class="priceTag">
                                                 USD $ 30
                                             </span>
 
@@ -73,8 +71,10 @@
                                             <h3 class="secondaryTitle">
                                                 Plan Pro
                                             </h3>
-                                            <span class="priceTag">
-                                                USD $ 60
+                                            <span
+                                            calculator_price_pro
+                                            class="priceTag">
+                                                USD $ 75
                                             </span>
 
 

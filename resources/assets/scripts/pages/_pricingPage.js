@@ -8,8 +8,8 @@ var device = null;
 var typeProcess = 0;
 
 // costos planes
-const _costStarter = 30;
-const _costPro = 45;
+var _costStarter = 30;
+var _costPro = 75;
 
 
 // costos individuales
@@ -29,7 +29,8 @@ var typeplan = 'yearly';
 // escala de costos contactos
 
 var escalaContactsStarter = [
-    30,
+    // 30,
+    _costStarter,
     15,
     15,
     15,
@@ -58,7 +59,8 @@ var escalaContactsStarter = [
 ]
 
 var escalaContactsPro = [
-    45,
+    // 45,
+    _costPro,
     15,
     15,
     15,
@@ -129,7 +131,6 @@ function converContacts(contacts) {
     var l = contacts / 1000;
     l = Math.trunc(l);
 
-
     var cost = {
         starter: getContactScale(l).starter,
         pro: getContactScale(l).pro,
@@ -139,14 +140,12 @@ function converContacts(contacts) {
 
 }
 
-
 function convertUsers(data) {
 
     // _contactsField: "3000"
     // _rangeContacts: "7"
     // _typePlan: "starter"
     // _userAccess: "5"
-
 
     if (data._typePlan == 'starter') {
 
@@ -193,15 +192,10 @@ function convertUsers(data) {
 
     }
 
-
 }
 
 
-
-
 function typeCustomPay(type, e) {
-
-
 
     jQuery('.selectorPricingButton').removeClass('active');
     jQuery(e).addClass('active');
@@ -210,7 +204,6 @@ function typeCustomPay(type, e) {
 
     var f = jQuery('form#formCalcGeneral');
     calculate = _serializeFormToObject(f);
-
 
     calculateFinal(calculate);
 
@@ -433,11 +426,11 @@ function actionInfoCards(type){
 planCheck = null;
 function discountByPlanCard(type, element){
 
-
     if(type != null){
 
-
         if(element.checked == true){
+
+            console.log('pro select');
 
             if(jQuery('[typeplan='+ type +']').length > 0){
 
@@ -462,7 +455,7 @@ function discountByPlanCard(type, element){
 
                 // }
 
-                    jQuery('.modePlanSelect').prop( "checked", true );
+                jQuery('.modePlanSelect').prop( "checked", true );
 
                 jQuery('.discountCost').css({
                     'display': 'block'
@@ -480,10 +473,19 @@ function discountByPlanCard(type, element){
                     'margin-bottom': '60' + 'px'
                 });
 
+                _costStarter = 24;
+                _costPro = 60;
+
+
+                jQuery('[calculator_price_starter]').text( 'USD $ ' + _costStarter );
+                jQuery('[calculator_price_pro]').text( 'USD $ ' + _costPro );
+
                 return;
             }
         }
         if(element.checked == false){
+
+            console.log('starter select');
 
             if(jQuery('[typeplan='+ type +']').length > 0){
 
@@ -506,6 +508,12 @@ function discountByPlanCard(type, element){
             jQuery('.price').css({
                 'margin-bottom': '25' + 'px'
             });
+
+            _costStarter = 30;
+            _costPro = 75;
+
+            jQuery('[calculator_price_starter]').text( 'USD $ ' + _costStarter );
+            jQuery('[calculator_price_pro]').text( 'USD $ ' + _costPro );
 
             return;
         }
