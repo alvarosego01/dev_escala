@@ -165,7 +165,7 @@ $items = [
                 'items' => [
                 'Usuarios de venta: <strong>1</strong>',
                 'Contactos en base de datos: <strong>1.000.000</strong>',
-                'Emails marketing al mes: <strong>10.000</strong>',
+                'Emails marketing al mes: <strong>30.000</strong>',
                 'Dominios propios: <strong>5</strong>',
                 'Cuentas de Facebook Ads Manager: <strong>3</strong>'
             ],
