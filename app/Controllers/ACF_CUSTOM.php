@@ -8,6 +8,8 @@ use Sober\Controller\Controller;
 class ACF_CUSTOM extends Controller
 {
 
+    // private $allNavMenus = wp_get_nav_menus();
+
     private $allTemplates = array(
         array(
             array(
@@ -620,8 +622,43 @@ class ACF_CUSTOM extends Controller
         );
     }
 
+    private function getListMenus(){
+
+        $aux = wp_get_nav_menus();
+
+        $body = array();
+
+        foreach ($aux as $key => $value) {
+            # code...
+            // array_push( $body, [
+                // $value['term_id' => $value['name']]
+            // ])
+            $body[$value->term_id] = $value->name;
+
+        }
+
+
+        return $body;
+
+    }
+
+
+
     private function allPages()
     {
+
+        $aux = wp_get_nav_menus();
+
+        $body = array();
+
+        foreach ($aux as $key => $value) {
+            # code...
+            // array_push( $body, [
+                // $value['term_id' => $value['name']]
+            // ])
+            $body[$value->term_id] = $value->name;
+
+        }
 
 
         return array(
@@ -649,8 +686,8 @@ class ACF_CUSTOM extends Controller
 
                 array(
                     'key' => 'nav_settings',
-                    'label' => 'NavBar settings',
-                    'name' => 'NavBar settings',
+                    'label' => 'NavBar base',
+                    'name' => 'NavBar base',
                     'type' => 'select',
                     'choices' => array(
                         'elementor_navbar' => 'Elementor nav',
@@ -659,6 +696,22 @@ class ACF_CUSTOM extends Controller
                         'landing-global1'	=> 'Landing white menu 1 - Logo, 1 button',
                         'landing-global2'	=> 'Landing white menu 2 - Only logo',
                     ),
+                ),
+                array(
+                    'key' => 'nav_global',
+                    'label' => 'NavBar type register',
+                    'name' => 'NavBar type register',
+                    'type' => 'select',
+                    'choices' => $body,
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'nav_settings',
+                                'operator' => '!=',
+                                'value' => 'elementor_navbar'
+                            ]
+                        ]
+                    ]
                 )
             ),
             'location' => $this->allTemplates
