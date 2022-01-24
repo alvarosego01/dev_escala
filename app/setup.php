@@ -409,10 +409,6 @@ function registerCustomMenu()
 
     register_nav_menus(array(
         'header-top' => __('Principal top menu - Whatsapp, login, language', 'escala'),
-        'principal-global1' => __('Principal white menu 1 - Complete menu', 'escala'),
-        'landing-global1' => __('Landing white menu 1 - Logo, 1 button', 'escala'),
-        'landing-global2' => __('Landing white menu 2 - Only logo', 'escala'),
-        'blog-global1' => __('Blog white menu 1 - Categories, login, call to action', 'escala')
     ));
 }
 

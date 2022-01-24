@@ -1,3 +1,12 @@
+@php
+
+$navBar_ID = ACF_CUSTOM::_getField('nav_global');
+
+
+@endphp
+
+
+
 <header id="masthead" class="customHeader component-header-blog navBar_blog customSection fullWidth {{ $classSection }}">
 
 
@@ -25,7 +34,7 @@
                 <div class="desktopElement menusSection" id="main-menu">
 
                     {!! wp_nav_menu([
-    'theme_location' => 'blog-global1',
+    'menu' => $navBar_ID,
     'container' => false,
     'menu_class' => '',
     'fallback_cb' => '__return_false',
@@ -77,7 +86,7 @@
                 <div class="menusSection">
 
                     {!! wp_nav_menu([
-    'theme_location' => 'blog-global1',
+    'menu' => $navBar_ID,
     'container' => false,
     'menu_class' => '',
     'fallback_cb' => '__return_false',
