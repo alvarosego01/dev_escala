@@ -123,7 +123,7 @@
             'enableButton' => false,
             'textButton' => null,
             'typeButton' => null,
-            'titlePrincipal' => '<span class="greenBlueColor">¿Qué ganas al convertir tu agencia</span> <br class="space"> en parte del programa? ',
+            'titlePrincipal' => '<span class="greenBlueColor">¿Qué ganas al convertir tu agencia</span> <br class="desktopElement"> en parte del programa? ',
             'elements' => [
                 [
                     'title' => '<span class="greenBlueColor">Comisiones <br class="space"> irresistibles</span>',
