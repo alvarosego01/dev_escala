@@ -9,9 +9,9 @@
 
 
         @include responsivo(telefonoTable)
-            padding-bottom: 75px!important
+            padding-bottom: 0!important
         @include responsivo(pcMedio)
-            padding-bottom: 75px!important
+            padding-bottom: 0!important
         @include responsivo(general)
             padding-top: 50px
             padding-bottom: 0!important
@@ -67,17 +67,25 @@
                             @include responsivo(telefonoTable)
                                 text-align: center!important
                                 width: 100%
-                                margin-bottom: 35px
+                                margin-bottom: 25px
+                                font-size: 32.5px
+                                line-height: 35.5px
                                 span
                                     text-align: center!important
                                     width: 100%
+                                    font-size: 47.5px!important
+                                    line-height: 50px!important
                             @include responsivo(pcMedio)
                                 text-align: center!important
                                 width: 100%
                                 margin-bottom: 35px
+                                font-size: 35px
+                                line-height: 37.5px
                                 span
                                     text-align: center!important
                                     width: 100%
+                                    font-size: 50px!important
+                                    line-height: 52.5px!important
                             @include responsivo(general)
                                 padding-bottom: 35px
                             @include responsivo(resto)
@@ -94,9 +102,11 @@
                                 height: 575px
                                 margin-right: auto
                                 @include responsivo(telefonoTable)
-                                    height: 400px
+                                    height: 300px
+                                    margin: 0 auto
                                 @include responsivo(pcMedio)
-                                    height: 400px
+                                    height: 350px
+                                    margin: 0 auto
                             @include responsivo(telefonoTable)
                                 margin: 0 auto!important
                             @include responsivo(pcMedio)
@@ -231,6 +241,12 @@
                                     line-height: 35px
                                     text-align: center
                                     margin-bottom: 40px!important
+                                    @include responsivo(telefonoTable)
+                                        font-size: 27.5px
+                                        line-height: 32.5px
+                                    @include responsivo(pcMedio)
+                                        font-size: 27.5px
+                                        line-height: 32.5px
 
                                 .text
                                     font-family: Nunito
@@ -636,6 +652,12 @@
 
             .groupElements
                 // display: none!important
+                @include responsivo(telefonoTable)
+                    display: flex
+                    flex-direction: column-reverse
+                @include responsivo(pcMedio)
+                    display: flex
+                    flex-direction: column-reverse
                 .info
                     display: flex
                     @include responsivo(telefonoTable)
@@ -655,16 +677,20 @@
                         font-style: normal
                         font-weight: bold
                         font-size: 40px
-                        line-height: 34px
+                        line-height: 42.5px
                         text-align: left
                         @include responsivo(telefonoTable)
                             text-align: center!important
                             width: 100%
                             margin-bottom: 25px
+                            font-size: 35px
+                            line-height: 37.5px
                         @include responsivo(pcMedio)
                             text-align: center!important
                             width: 100%
                             margin-bottom: 25px
+                            font-size: 37.5px
+                            line-height: 40.5px
                         @include responsivo(general)
                             width: 700px!important
                         @include responsivo(resto)
@@ -676,6 +702,10 @@
                         font-size: 18px
                         line-height: 22px
                         text-align: left
+                        @include responsivo(telefonoTable)
+                            text-align: center
+                        @include responsivo(pcMedio)
+                            text-align: center
 
                 .image
                     .containerImage
@@ -690,10 +720,10 @@
                             margin-right: auto
                             @include responsivo(telefonoTable)
                                 height: 375px
-                                margin-bottom: 25px
+                                margin-bottom: 0
                             @include responsivo(pcMedio)
                                 height: 375px
-                                margin-bottom: 25px
+                                margin-bottom: 0
                         @include responsivo(telefonoTable)
                             margin: 0 auto!important
                         @include responsivo(pcMedio)
