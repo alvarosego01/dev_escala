@@ -13,7 +13,7 @@
 
         <div class="sections">
 
-            @php
+            {{-- @php
                 $parameters = [
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingPartners0',
@@ -30,7 +30,32 @@
 
             @header_t1( $parameters )
 
-            @endheader_t1
+            @endheader_t1 --}}
+            <div
+            class="specialHeader">
+
+
+            @php
+                $parameters = [
+                    'type' => 'backgroundColor',
+                    'classSection' => 'landingPartners0',
+                    'enableTitle' => false,
+                    'titlePrincipal' => null,
+                    'subTitlePrincipal' => null,
+                    'title' => 'Únete al Programa <br class="space"> de Partners de Escala',
+                    'img' => App::setFilePath('/assets/images/illustrations/team/partners_header.png'),
+                    'text' => 'Comienza a acelerar la rentabilidad de tu <br class="desktopTabletElement"> agencia, garantizando el crecimiento del <br class="desktopTabletElement"> negocio de tus clientes.',
+                    'enableButton' => false,
+                    // 'urlButton' => '#lead-form',
+                    // 'textButton' => 'Segmentar ahora',
+                    'side' => 'right',
+                ];
+            @endphp
+
+            @contain_text_image_T1( $parameters )
+
+            @endcontain_text_image_T1
+
 
 
             {{-- <section class="customSection sectionParent landingPartners1 fullWidth">
@@ -87,7 +112,7 @@
 
         @endcontain_multiple_cards_T2
 
-
+            </div>
 
         @php
         $parameters = [
@@ -142,29 +167,29 @@
         'titlePrincipal' => 'También te ofrecemos',
         'overlay' => false,
         'overlayImage' => null,
-        'enableButton' => true,
-        'urlButton' => '#',
-        'textButton' => 'Quiero ser partner',
-        'typeButton' => 'primaryButton hoverInEffect',
+        'enableButton' => false,
+        // 'urlButton' => '#',
+        // 'textButton' => 'Quiero ser partner',
+        // 'typeButton' => 'primaryButton hoverInEffect',
         'elements' => array(
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/free-trail_07 1.png'),
-                        'title' => '<span class="greenBlueColor">Formación <br class="space"> constante</span>',
-                        'text' => 'Tu equipo será acompañado siempre para <br class="desktopElement"> conseguir una formación integral en inbound <br class="desktopElement"> marketing y ventas. On-boarding guiado,<br class="desktopElement"> webinars customizados y guías prácticas',
-                        'enableButton' => false,
-                        // 'urlButton' => '#lead-form',
-                        // 'textButton' => '¡Asombroso! Adiós integraciones',
-                    ],
+                    // [
+                    //     'img' => App::setFilePath('/assets/images/illustrations/others/free-trail_07 1.png'),
+                    //     'title' => '<span class="greenBlueColor">Formación <br class="space"> constante</span>',
+                    //     'text' => 'Tu equipo será acompañado siempre para <br class="desktopElement"> conseguir una formación integral en inbound <br class="desktopElement"> marketing y ventas. On-boarding guiado,<br class="desktopElement"> webinars customizados y guías prácticas',
+                    //     'enableButton' => false,
+                    //     // 'urlButton' => '#lead-form',
+                    //     // 'textButton' => '¡Asombroso! Adiós integraciones',
+                    // ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/blog 1.png'),
-                        'title' => '<span class="greenBlueColor">Crear contenido <br class="spacee"> para el blog</span>',
-                        'text' => 'Convierte a tu agencia en un referente de creación <br class="desktopElement"> de contenido especializado en marketing digital y <br class="desktopElement"> ventas, aportando tus conocimientos en artículos <br class="desktopElement"> dentro del Blog de Escala',
+                        'title' => '<span class="greenBlueColor">Crear contenido para el blog</span>',
+                        'text' => 'Convierte a tu agencia en un referente de creación  de contenido <br class="desktopElement"> especializado en marketing digital y ventas, aportando tus <br class="desktopElement"> conocimientos en artículos dentro del Blog de Escala',
                         'enableButton' => false,
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/whitelabel 1.png'),
-                        'title' => '<span class="greenBlueColor">Material <br class="space"> de promoción</span>',
-                        'text' => 'En Escala diseñamos todo el kit de ventas y <br class="desktopElement"> comunicación para que tu agencia solo tenga <br class="desktopElement"> que personalizarlo y comience a crecer en <br class="desktopElement"> inbound marketing y ventas',
+                        'title' => '<span class="greenBlueColor">Material promocional</span>',
+                        'text' => 'En Escala dispones de material para promocionar nuestra <br class="desktopElement"> plataforma: presentación Escala y pdf´s de funcionalidades para <br class="desktopElement"> que tus clientes puedan ver todo lo que pueden lograr <br class="desktopElement"> acelerando sus ventas.',
                         'enableButton' => false,
                 ]
 
@@ -177,6 +202,30 @@
 
 @contain_5_cards_T1( $parameters )
 @endcontain_5_cards_T1
+
+
+<section class="customSection sectionParent extraText4">
+
+    <div class="section-row">
+
+          <section class="innerSectionElement">
+
+            <h2 class="primaryTitle whiteColor">
+              <span class="greenBlueColor">Para mayor informacion escríbenos a</span> <span class="orangeColor">agencias@escala.com</span>
+            </h2>
+
+            {{-- <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+              Comenzar ahora
+            </a> --}}
+
+
+          </section>
+
+    </div>
+
+
+  </section>
+
 
 
 @php
@@ -212,7 +261,7 @@ $parameters = [
         'classSection' => 'landingPartners6',
         'enableTitle' => true,
         'titlePrincipal' => '¿Cómo impulsas el crecimiento <br class="space"> <span class="greenBlueColor">de tus clientes con Escala?</span>',
-        'subTitlePrincipal' => 'El crecimiento de tus clientes es la clave para el desarrollo de tu agencia. Por eso,<br class="desktopTabletElement"> Escala es la herramienta ideal para acompañarlos en su camino al éxito.<br class="desktopTabletElement"> Con nuestra plataforma tus clientes podrán:',
+        'subTitlePrincipal' => 'El crecimiento de tus clientes es la clave para el desarrollo de tu agencia. Por eso, <br class="desktopTabletElement"> Escala es la herramienta ideal para acompañarlos en su camino al éxito.<br class="desktopTabletElement"> Con nuestra plataforma tus clientes podrán:',
         'overlay' => false,
         'overlayImage' => null,
         'enableButton' => false,
@@ -286,7 +335,7 @@ $parameters = [
 
 
 
-            @php
+            {{-- @php
                 $parameters = [
                     'classSection' => 'landingPartners7',
                     'title' => '¡Quiero ser una <br class="space"> agencia partner <br class="space"> de Escala!',
@@ -299,10 +348,31 @@ $parameters = [
             @bannerForms7_T1( $parameters )
 
             @endbannerForms7_T1
+ --}}
 
 
 
 
+ @php
+ $parameters = [
+     'type' => 'backgroundColor',
+     'classSection' => 'landingPartners7',
+     'enableTitle' => false,
+     'titlePrincipal' => null,
+     'subTitlePrincipal' => null,
+     'title' => '¡Quiero ser una <br class="space"> agencia partner <br class="space"> de Escala!',
+     'img' => App::setFilePath('/assets/images/person/am/andres-partners-2.png'),
+     'text' => '<span class="greenBlueColor">Para mayor informacion escríbenos a</span><br class="space"><span class="orangeColor">agencias@escala.com</span>',
+     'enableButton' => false,
+     // 'urlButton' => '#lead-form',
+     // 'textButton' => 'Segmentar ahora',
+     'side' => 'right',
+ ];
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
 
 
         </div>
