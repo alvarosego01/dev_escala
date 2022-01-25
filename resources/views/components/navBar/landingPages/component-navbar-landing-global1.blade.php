@@ -1,5 +1,15 @@
 
 
+@php
+
+$navBar_ID = ACF_CUSTOM::_getField('nav_global');
+
+
+@endphp
+
+
+
+
 <header id="masthead" class="customHeader component-header-landing landing_global1 customSection fullWidth {{ $classSection }}">
 
 
@@ -29,7 +39,9 @@
             <div class=" menusSection" id="main-menu">
 
                 {!! wp_nav_menu([
-                    'theme_location' => 'landing-global1',
+                    // 'menu' => 'Landing_1b_pruebalo_ahora',
+                    // 'theme_location' => 'landing-global1',
+                    'menu' => $navBar_ID,
                     'container' => false,
                     'menu_class' => '',
                     'fallback_cb' => '__return_false',
