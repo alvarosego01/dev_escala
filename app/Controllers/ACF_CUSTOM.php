@@ -922,10 +922,94 @@ class ACF_CUSTOM extends Controller
                     'type' => 'textarea',
                 ),
                 array(
+
+                    'key' => 'enable_custom_background',
+                    'label' => '¿Use custom background?',
+                    'name' => '¿Use custom background?',
+                    'type' => 'true_false',
+
+                ),
+                array(
+
+                    'key' => 'custom_background_type',
+                    'label' => 'Custom background type',
+                    'name' => 'Custom background type',
+                    'type' => 'select',
+                    'choices' => array(
+                        'solid_color' => 'Solid color',
+                        'color_gradient' => 'Color gradient',
+                        'background_image' => 'Background image',
+                    ),
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_background',
+                                'operator' => '==',
+                                'value' => 1
+                            ]
+                        ]
+                    ]
+
+                ),
+                array(
                     'key' => 'popup_background_color',
                     'label' => 'Popup background color',
                     'name' => 'Popup background color',
                     'type' => 'color_picker',
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_background',
+                                'operator' => '==',
+                                'value' => 1
+                            ],
+                            [
+                                'field' => 'custom_background_type',
+                                'operator' => '==',
+                                'value' => 'solid_color'
+                            ]
+                        ]
+                    ]
+                ),
+                array(
+                    'key' => 'popup_background_gradient',
+                    'label' => 'Popup background gradient CSS',
+                    'name' => 'Popup background gradient CSS',
+                    'type' => 'textarea',
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_background',
+                                'operator' => '==',
+                                'value' => 1
+                            ],
+                            [
+                                'field' => 'custom_background_type',
+                                'operator' => '==',
+                                'value' => 'color_gradient'
+                            ]
+                        ]
+                    ]
+                ),
+                array(
+                    'key' => 'popup_background_image',
+                    'label' => 'Popup background image',
+                    'name' => 'Popup background image',
+                    'type' => 'image',
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_background',
+                                'operator' => '==',
+                                'value' => 1
+                            ],
+                            [
+                                'field' => 'custom_background_type',
+                                'operator' => '==',
+                                'value' => 'background_image'
+                            ]
+                        ]
+                    ]
                 ),
                 array(
                     'key' => 'form_title',
