@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 use Sober\Controller\Controller;
-
+use WP_Query;
 
 class ACF_CUSTOM extends Controller
 {
@@ -366,6 +366,11 @@ class ACF_CUSTOM extends Controller
             );
             acf_add_local_field_group(
 
+                $this->settingsBootstrapPopups()
+
+            );
+            acf_add_local_field_group(
+
                 $this->settingsCasosExitoHome()
 
             );
@@ -489,6 +494,24 @@ class ACF_CUSTOM extends Controller
     private function allWeb()
     {
 
+        $body = array();
+
+        $args = array(
+            'post_type'=> 'bootstrap_popups',
+            'order'    => 'ASC'
+        );
+
+        $the_query = new WP_Query( $args );
+        $the_query = $the_query->posts;
+
+        foreach ($the_query as $key => $value) {
+            # code...
+            $a = $value->post_title;
+            $body[$value->ID] = $a;
+
+        }
+
+
         return array(
             'key' => 'popup_page_config',
             'title' => 'PopUp selector bootstrap',
@@ -525,13 +548,10 @@ class ACF_CUSTOM extends Controller
                 ),
                 array(
                     'key' => 'bootstrap_popup_types',
-                    'label' => 'Bootstrap PopUp Type',
-                    'name' => 'Bootstrap PopUp Type',
+                    'label' => 'Bootstrap popUp model',
+                    'name' => 'Bootstrap popUp model',
                     'type' => 'select',
-                    'choices' => array(
-                        'popup-bootstrap-general-t1' => 'Popup general 1, ID: popup-bootstrap-general-t1',
-                        'popup-bootstrap-general-t2' => 'Popup general 2, ID: popup-bootstrap-general-t2',
-                    ),
+                    'choices' => $body,
                     'conditional_logic' => [
                         array(
                             [
@@ -864,6 +884,82 @@ class ACF_CUSTOM extends Controller
 
         );
     }
+
+    private function settingsBootstrapPopups()
+    {
+
+        return array(
+
+            'key' => 'bootstrap_popups_settings',
+            'title' => 'Bootstrap popups options',
+            'fields' => array(
+                array(
+                    'key' => 'popup_call_class',
+                    'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                    'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                    'type' => 'text',
+                ),
+                array(
+                    'key' => 'popup_image',
+                    'label' => 'Popup image',
+                    'name' => 'Popup image',
+                    'type' => 'image',
+                ),
+                array(
+                    'key' => 'popup_title_text',
+                    'label' => 'Popup title text',
+                    'name' => 'Popup title text',
+                    'type' => 'textarea',
+                ),
+                array(
+                    'key' => 'popup_background_color',
+                    'label' => 'Popup background color',
+                    'name' => 'Popup background color',
+                    'type' => 'color_picker',
+                ),
+                array(
+                    'key' => 'form_title',
+                    'label' => 'Form title',
+                    'name' => 'Form title',
+                    'type' => 'text',
+                ),
+                array(
+                    'key' => 'form_shortcode',
+                    'label' => 'Shortcode form',
+                    'name' => 'Shortcode form',
+                    'type' => 'text',
+                ),
+                array(
+                    'key' => 'form_redirect',
+                    'label' => 'Form redirect url',
+                    'name' => 'Form redirect url',
+                    'type' => 'url',
+                ),
+                array(
+                    'key' => 'bootstrap_popup_template',
+                    'label' => 'Bootstrap popup model',
+                    'name' => 'Bootstrap popup model',
+                    'type' => 'select',
+                    'choices' => array(
+                        'popup-bootstrap-general-t1' => 'Popup general 1',
+                    ),
+                )
+            ),
+            'location' => array(
+                array(
+                    array(
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'bootstrap_popups',
+                    ),
+                ),
+            ),
+
+        );
+    }
+
+
+
     private function settingsCasosExito2()
     {
 

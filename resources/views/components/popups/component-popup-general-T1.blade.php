@@ -1,8 +1,25 @@
-<div class="customPopUp modal fade popup-bootstrap-general-t1" id="popup-bootstrap-general-t1" aria-hidden="true"
-    aria-labelledby="popup-bootstrap-general-t1" tabindex="-1">
+
+@php
+
+    // popup_call_class
+    // popup_image
+    // popup_title_text
+    // popup_background_color
+    // form_title
+    // form_shortcode
+    // form_redirect
+    // bootstrap_popup_template
+
+@endphp
+
+<div class="customPopUp modal fade {{ $popup_call_class }}" id="{{ $popup_call_class }}" aria-hidden="true"
+    aria-labelledby="{{ $popup_call_class }}" tabindex="-1">
+
     <div class="modal-dialog modal-dialog-centered">
 
-        <div class="modal-content">
+        <div
+        style="background-color: {{ $popup_background_color }}"
+        class="modal-content">
 
             <div class="modal-body">
 
@@ -26,15 +43,33 @@
 
                                 <h2 class="primaryTitle">
 
+                                    @if (isset($popup_title_text) && $popup_title_text != null)
+                                        {!! $popup_title_text !!}
+                                    @else
+
                                     ¡Comienza a <br class="space"> <span class="orangeColor">impulsar tus
                                         <br class="space"> ventas</span> ahora!
 
+                                        @endif
 
                                 </h2>
 
                                 <div class="containerImage imageHero">
 
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/team/escala-acelera-ventas-ahora.png') !!}">
+                                    @if (isset($popup_image) && $popup_image != null)
+
+                                    @php
+                                        $i = $popup_image;
+                                        $i = $i['url'];
+                                     @endphp
+
+                                        <img src="{{ $i }}" >
+
+                                    @else
+
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/team/escala-acelera-ventas-ahora.png') !!}">
+
+                                    @endif
 
                                 </div>
 
@@ -47,19 +82,21 @@
                                     <div class="formatForm" redirectWeb="true">
 
                                         <h5 class="titleFormat blackcolor">
-                                            Solicita una prueba
+                                            @if (isset($form_title) && $form_title != null)
+                                                {!! $form_title !!}
+                                            @else
+                                                Solicita una prueba
+                                            @endif
                                         </h5>
 
                                         {{-- {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!} --}}
 
-                                        @php
-                                            $f = ACF_CUSTOM::_getField('form7');
-                                        @endphp
-                                        @if (isset($f) && $f != null)
-                                            {!! do_shortcode($f) !!}
+                                        @if (isset($form_shortcode) && $form_shortcode != null)
+                                        {!! do_shortcode($form_shortcode) !!}
                                         @else
-                                            {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
+                                        {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
                                         @endif
+
 
 
                                     </div>
@@ -84,6 +121,6 @@
 </div>
 
 
-<a style="display: none" popup="popup-bootstrap-general-t1" indexpopupbutton class="btn btn-primary" data-bs-toggle="modal"
-    href="#popup-bootstrap-general-t1" role="button">
+<a style="display: none" popup="{{ $popup_call_class }}" indexpopupbutton class="btn btn-primary" data-bs-toggle="modal"
+    href="#{{ $popup_call_class }}" role="button">
 </a>
