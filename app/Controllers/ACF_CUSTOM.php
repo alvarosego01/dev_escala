@@ -504,13 +504,16 @@ class ACF_CUSTOM extends Controller
         $the_query = new WP_Query( $args );
         $the_query = $the_query->posts;
 
-        foreach ($the_query as $key => $value) {
-            # code...
-            $a = $value->post_title;
-            $body[$value->ID] = $a;
+        if(count( $the_query ) > 0){
+
+            foreach ($the_query as $key => $value) {
+                # code...
+                $a = $value->post_title;
+                $body[$value->ID] = $a;
+
+            }
 
         }
-
 
         return array(
             'key' => 'popup_page_config',
@@ -648,12 +651,16 @@ class ACF_CUSTOM extends Controller
 
         $body = array();
 
-        foreach ($aux as $key => $value) {
-            # code...
-            // array_push( $body, [
-                // $value['term_id' => $value['name']]
-            // ])
-            $body[$value->term_id] = $value->name;
+        if(count( $aux ) > 0){
+
+            foreach ($aux as $key => $value) {
+                # code...
+                // array_push( $body, [
+                    // $value['term_id' => $value['name']]
+                    // ])
+                    $body[$value->term_id] = $value->name;
+
+                }
 
         }
 
@@ -671,15 +678,18 @@ class ACF_CUSTOM extends Controller
 
         $body = array();
 
-        foreach ($aux as $key => $value) {
+        if(count( $aux ) > 0){
+
+            foreach ($aux as $key => $value) {
             # code...
             // array_push( $body, [
                 // $value['term_id' => $value['name']]
-            // ])
+                // ])
             $body[$value->term_id] = $value->name;
 
         }
 
+        }
 
         return array(
             'key' => 'general_config',
