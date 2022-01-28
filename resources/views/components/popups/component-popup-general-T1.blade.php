@@ -1,14 +1,17 @@
 
 @php
 
-    // popup_call_class
-    // popup_image
-    // popup_title_text
-    // popup_background_color
-    // form_title
-    // form_shortcode
-    // form_redirect
-    // bootstrap_popup_template
+// popup_call_class
+// popup_image
+// popup_title_text
+// custom_background_type
+// popup_background_color
+// popup_background_gradient
+// popup_background_image
+// form_title
+// form_shortcode
+// form_redirect
+// bootstrap_popup_template
 
 @endphp
 
@@ -17,9 +20,38 @@
 
     <div class="modal-dialog modal-dialog-centered">
 
-        <div
-        style="background-color: {{ $popup_background_color }}"
+        @if ( isset($enable_custom_background) && $enable_custom_background == 1 )
+
+            @if ( isset($custom_background_type) && $custom_background_type == 'solid_color' )
+            <div
+            style="background-color: {{ $popup_background_color }}"
+            class="modal-content solidColor">
+            @endif
+
+            @if ( isset($custom_background_type) && $custom_background_type == 'color_gradient' )
+            <div
+            style="{{ $popup_background_gradient }}"
+            class="modal-content gradient">
+            @endif
+
+            @if ( isset($custom_background_type) && $custom_background_type == 'background_image' )
+
+            @php
+               $i = $popup_background_image;
+               $i = $i['url'];
+            @endphp
+
+            <div
+            style="background-image: url('{{ $i }}')"
+            class="modal-content image">
+
+            @endif
+
+            @else
+            <div
         class="modal-content">
+
+        @endif
 
             <div class="modal-body">
 
@@ -117,6 +149,9 @@
             </div>
 
         </div>
+
+
+
     </div>
 </div>
 
