@@ -815,13 +815,17 @@
                             @include responsivo(telefonoTable)
                                 padding-left: 50px!important
                                 padding-right: 50px!important
-                                padding-top: 80px!important
+                                padding-top: 175px!important
                                 border-radius: 15px
+                                display: flex
+                                flex-direction: column
                             @include responsivo(pcMedio)
                                 padding-left: 50px!important
                                 padding-right: 50px!important
-                                padding-top: 80px!important
+                                padding-top: 175px!important
                                 border-radius: 15px
+                                display: flex
+                                flex-direction: column
                             .secondaryTitle
                                 display: flex
                                 flex-direction: row
@@ -858,14 +862,18 @@
                                 margin-left: auto
                                 @include responsivo(telefonoTable)
                                     height: 100px
-                                //     right: 0
-                                //     left: 0
-                                //     margin: 0 auto
+                                    display: block
+                                    left: 0
+                                    right: 0
+                                    margin: 0 auto
+
                                 @include responsivo(pcMedio)
                                     height: 100px
-                                //     right: 0
-                                //     left: 0
-                                //     margin: 0 auto
+                                    display: block
+                                    left: 0
+                                    right: 0
+                                    margin: 0 auto
+
                                 @include responsivo(general)
                                     height: 80px
                                 @include responsivo(resto)
