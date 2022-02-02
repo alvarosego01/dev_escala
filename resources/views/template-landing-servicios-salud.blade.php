@@ -22,7 +22,7 @@
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => true,
-                    'overlayImage' => nulls,
+                    'overlayImage' => null,
                     'image' => App::setFilePath('/assets/images/person/Doctor_Servicios_Salud.png'),
                 ];
             @endphp
