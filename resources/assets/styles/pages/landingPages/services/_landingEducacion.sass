@@ -2,10 +2,10 @@
 
 
 
-#landing-servicios-finanzas-bootstrap
+#landing-servicios-educacion-bootstrap
 
-    .customSection.sectionParent.landingServFinanzas0
-        background: linear-gradient(180deg, #C8EAEC 39.35%, rgba(200, 234, 236, 0) 118.96%)
+    .customSection.sectionParent.landingServEducacion0
+        background: linear-gradient(180deg, #34768A 49.69%, rgba(52, 118, 138, 0) 103.73%)
         @include responsivo(telefonoTable)
             padding-bottom: 75px!important
         @include responsivo(pcMedio)
@@ -44,16 +44,19 @@
                             margin-bottom: 0
                             font-family: Nunito
                             font-style: normal
-                            font-weight: 700
-                            font-size: 37px
-                            line-height: 37px
+                            font-weight: bold
+                            font-size: 35px
+                            line-height: 39px
                             margin-top: 50px
                             margin-right: 25px
+                            color: white
                             span
+                                font-weight: bold
+                                font-size: 44px
+                                line-height: 40px
                                 text-align: right
-                                font-size: 47.5px
-                                line-height: 50px
-                                font-weight: 700
+                                letter-spacing: -0.06em
+                                color: #C5E5E9
                             @include responsivo(telefonoTable)
                                 text-align: center!important
                                 width: 100%
@@ -73,12 +76,16 @@
                                     text-align: center!important
                                     width: 100%
                             @include responsivo(general)
-                                font-size: 35px
-                                line-height: 35px
+                                font-size: 30px
+                                line-height: 30px
                                 margin-bottom: 50%
+                                position: absolute
                                 span
-                                    font-size: 45px
-                                    line-height: 45px
+                                    font-size: 40px
+                                    line-height: 40px
+                            @include responsivo(resto)
+                                position: absolute
+
 
                         // .principalBigText
                             // text-align: right
@@ -126,30 +133,74 @@
                             margin: 0 auto
 
 
-    .customSection.sectionParent.landingServFinanzas1
-        padding: 50px 0
+
+    .customSection.sectionParent.landingServEducacion1
+        background-color: #F9FDFF
+        padding: 75px 0
         .section-row
+            padding: 0
             @include responsivo(telefonoTable)
                 width: 95%
             @include responsivo(pcMedio)
                 width: 90%
             @include responsivo(general)
                 width: 100%!important
-                max-width: 1140px!important
+                max-width: 1100px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1200px!important
+                max-width: 1140px!important
 
-        section.innerSectionElement
-            p.primaryText
-                text-align: center
-                margin-bottom: 0
+            .innerSectionElement.sct1
+                margin-bottom: 50px
+                .containElements
+                    .primaryTitle
+                        font-family: Nunito
+                        font-style: normal
+                        font-weight: bold
+                        font-size: 35px
+                        line-height: 45px
+                        text-align: center
+
+            .innerSectionElement.sct2
+                .groupElements.row
+                    .info
+                        h3.secondaryTitle
+                            font-family: Nunito
+                            font-style: normal
+                            font-weight: bold
+                            font-size: 30px
+                            line-height: 34px
+                        p.text
+                            font-family: Nunito
+                            font-style: normal
+                            font-weight: normal
+                            font-size: 16px
+                            line-height: 22px
+
+                        ul
+                            li
+                                font-family: Nunito
+                                font-style: normal
+                                font-weight: normal
+                                font-size: 16px
+                                line-height: 22px
+                                color: #73676D
+                    .image
+                        padding: 0
+                        .containerImage
+                            padding: 0
+                            margin-bottom: 0
+                            img
+                                height: 300px
+                        @include responsivo(telefonoTable)
+                            margin-bottom: 40px
+                        @include responsivo(pcMedio)
+                            margin-bottom: 40px
 
 
-    .customSection.sectionParent.landingServFinanzas2
+    .customSection.sectionParent.landingServEducacion2
         // .blueLabelSpecial
         padding: 75px 0
-        padding-top: 0
         .section-row
             padding: 0
             @include responsivo(telefonoTable)
@@ -171,10 +222,6 @@
                         font-size: 30px
                         line-height: 34px
                         text-align: center
-                        @include responsivo(telefonoTable)
-                            margin-bottom: 50px
-                        @include responsivo(pcMedio)
-                            margin-bottom: 50px
             .innerSectionElement.sct2
                 margin-bottom: 50px!important
                 .containElements
@@ -209,6 +256,9 @@
 
                                     @include responsivo(resto)
                                         border-radius: 0px 15px 15px 0px
+
+
+
 
                             .boxInfoCheck
                                 position: relative
@@ -245,9 +295,18 @@
                                     font-size: 14px
                                     line-height: 18px
                                     color: #73676D
+                                // img.overImage
+                                //     position: absolute
+                                //     top: 40px
+                                //     right: 50px
+                                //     height: 75px
+                                //     width: auto
+                                //     display: block
+                                //     margin-left: auto
 
-    .customSection.sectionParent.landingServFinanzas3,
-    .customSection.sectionParent.landingServFinanzas4
+
+    .customSection.sectionParent.landingServEducacion3,
+    .customSection.sectionParent.landingServEducacion4
         .section-row
             padding: 0
             @include responsivo(telefonoTable)
@@ -298,14 +357,15 @@
                             margin-bottom: 40px
 
 
-    .customSection.sectionParent.landingServFinanzas3
-        padding: 50px 0
+    .customSection.sectionParent.landingServEducacion3
         background-color: #F9FDFF
+        padding: 50px 0
         .backgroundFull
             padding: 0
         .innerSectionElement.sct2
             .groupElements.row
                 .image
+
                     .containerImage
                         padding: 0
                         margin-bottom: 0
@@ -313,7 +373,7 @@
                             height: 300px
 
 
-    .customSection.sectionParent.landingServFinanzas4
+    .customSection.sectionParent.landingServEducacion4
         padding: 50px 0
         .innerSectionElement.sct2
             .groupElements.row
@@ -355,7 +415,7 @@
 
 
 
-    .customSection.sectionParent.landingServFinanzas5
+    .customSection.sectionParent.landingServEducacion5
         background-color: #FAFAFA
         padding: 65px 0
         .section-row
@@ -413,7 +473,7 @@
                     .video
                         display: none!important
 
-    .customSection.sectionParent.landingServFinanzas6
+    .customSection.sectionParent.landingServEducacion6
         background: linear-gradient(81.76deg, #33768B -10.55%, rgba(51, 118, 139, 0) 44.08%), #264857
         padding: 75px 0
         position: relative
@@ -532,7 +592,7 @@
                 margin-right: 7.5%
 
 
-    .customSection.sectionParent.landingServFinanzas7
+    .customSection.sectionParent.landingServEducacion7
         background-color: #E6F2F8
         padding-bottom: 75px
         // padding-bottom: 0

@@ -26,7 +26,7 @@
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => false,
-                    'overlayImage' => nulls,
+                    'overlayImage' => null,
                     'image' => App::setFilePath('/assets/images/person/Finanzas-2.png'),
                 ];
             @endphp
