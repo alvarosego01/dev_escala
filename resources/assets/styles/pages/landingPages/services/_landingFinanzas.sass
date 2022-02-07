@@ -2,11 +2,10 @@
 
 
 
-#landing-servicios-salud-bootstrap
+#landing-servicios-finanzas-bootstrap
 
-    .customSection.sectionParent.landingServSalud0
-        background: linear-gradient(180deg, #E6F2F8 23.04%, rgba(230, 242, 248, 0) 100%)
-
+    .customSection.sectionParent.landingServFinanzas0
+        background: linear-gradient(180deg, #C8EAEC 39.35%, rgba(200, 234, 236, 0) 118.96%)
         @include responsivo(telefonoTable)
             padding-bottom: 75px!important
         @include responsivo(pcMedio)
@@ -24,10 +23,10 @@
                 width: 90%
             @include responsivo(general)
                 width: 100%!important
-                max-width: 1300px!important
+                max-width: 1175px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1325px!important
+                max-width: 1240px!important
 
             .groupElements
                 // display: none!important
@@ -41,22 +40,26 @@
                     .containElements
                         width: 100%
                         .principalBigTitle
-                            text-align: center
-                            margin-bottom: 180px
+                            text-align: right
+                            margin-bottom: 0
                             font-family: Nunito
                             font-style: normal
-                            font-weight: 600
-                            font-size: 24px
-                            line-height: 29px
+                            font-weight: 700
+                            font-size: 37px
+                            line-height: 37px
+                            margin-top: 50px
+                            margin-right: 25px
                             span
-                                text-align: center
-                                font-size: 50px
-                                line-height: 53px
-                                font-weight: bold
+                                text-align: right
+                                font-size: 47.5px
+                                line-height: 50px
+                                font-weight: 700
                             @include responsivo(telefonoTable)
                                 text-align: center!important
                                 width: 100%
                                 margin-bottom: 25px
+                                margin-right: 0
+                                margin-top: 0
                                 span
                                     text-align: center!important
                                     width: 100%
@@ -64,16 +67,18 @@
                                 text-align: center!important
                                 width: 100%
                                 margin-bottom: 25px
+                                margin-right: 0
+                                margin-top: 0
                                 span
                                     text-align: center!important
                                     width: 100%
                             @include responsivo(general)
-                                font-size: 20px
-                                line-height: 25px
+                                font-size: 35px
+                                line-height: 35px
                                 margin-bottom: 50%
                                 span
-                                    font-size: 47.5px
-                                    line-height: 52.5px
+                                    font-size: 45px
+                                    line-height: 45px
 
                         // .principalBigText
                             // text-align: right
@@ -81,14 +86,18 @@
                             padding: 0
                             margin-top: auto
                             display: block
+                            margin-bottom: 0
                             img
-                                // height: 325px
-                                height: 425px
+                                // height: 300px
+                                height: 525px
                                 margin-right: auto
                                 @include responsivo(telefonoTable)
-                                    height: 375px
+                                    height: 350px
                                 @include responsivo(pcMedio)
-                                    height: 375px
+                                    height: 350px
+                                @include responsivo(general)
+                                    height: 500px
+
 
                             @include responsivo(telefonoTable)
                                 margin: 0 auto!important
@@ -100,13 +109,14 @@
                         // padding-top: 5%
                         display: flex
                         flex-direction: column
-                        justify-content: flex-end
+                        justify-content: flex-start
                         align-content: flex-end
                         align-items: flex-end
 
                 .form7
                     padding-right: 0
                     padding-left: 0
+                    padding-bottom: 50px
                     .formatForm
                         margin-left: auto
                         margin-right: 0
@@ -114,32 +124,10 @@
                             margin: 0 auto
                         @include responsivo(pcMedio)
                             margin: 0 auto
-        .backgroundPlanets
-            background-position: center 25%
-            background-repeat: no-repeat
-            background-size: 90% auto
-            opacity: 1
-            transition: background 0.3s, border-radius 0.3s, opacity 0.3s
-            height: 100%
-            width: 100%
-            top: -5%
-            left: 0
-            right: 0
-            position: absolute
-            margin: 0 auto
-            @include responsivo(telefonoTable)
-                // background-position: 2.5% 2.5%
-                // background-size: initial
-                top: 0
-                background-position: 0 50px
-                background-size: 100% auto
-            @include responsivo(pcMedio)
-                background-position: 0 50px
-                background-size: 100% auto
-                top: 0
 
-    .customSection.sectionParent.landingServSalud1
-        padding-bottom: 0
+
+    .customSection.sectionParent.landingServFinanzas1
+        padding: 50px 0
         .section-row
             @include responsivo(telefonoTable)
                 width: 95%
@@ -151,61 +139,17 @@
             @include responsivo(resto)
                 width: 100%!important
                 max-width: 1200px!important
-            .groupElements
-                padding-top: 0!important
-                padding-bottom: 0!important
-                .image
-                    .containerImage
-                        margin-bottom: 0
-                        padding: 0
-                @include responsivo(telefonoTable)
-                    padding: 50px 2.5%!important
-                @include responsivo(pcMedio)
-                    padding: 50px 2.5%!important
-        section.innerSectionElement.sct1
-            .groupElements
-                background-color: #FAFAFA
-                @include responsivo(general)
-                    padding: 25px 5%!important
 
-                @include responsivo(resto)
-                    padding: 25px 100px!important
-                .info
-                    .primaryText
-                        font-family: Nunito
-                        font-style: normal
-                        font-weight: normal
-                        font-size: 18px
-                        line-height: 28px
-                        letter-spacing: -0.03em
-                        color: #5B5B5B
-                        margin-bottom: 0
-                .image
-                    position: relative
-                    .containerImage
-                        display: flex
-                        margin: auto
-                        img
-                            // position: absolute
-                            height: 300px
-                            margin: auto
-                            display: block
-                            // top: 0
-                        @include responsivo(telefonoTable)
-                            position: unset!important
-                            margin-bottom: 50px
-                            img
-                                height: 275px
-                        @include responsivo(pcMedio)
-                            position: unset!important
-                            margin-bottom: 50px
-                            img
-                                height: 275px
+        section.innerSectionElement
+            p.primaryText
+                text-align: center
+                margin-bottom: 0
 
 
-    .customSection.sectionParent.landingServSalud2
+    .customSection.sectionParent.landingServFinanzas2
         // .blueLabelSpecial
         padding: 75px 0
+        padding-top: 0
         .section-row
             padding: 0
             @include responsivo(telefonoTable)
@@ -227,6 +171,10 @@
                         font-size: 30px
                         line-height: 34px
                         text-align: center
+                        @include responsivo(telefonoTable)
+                            margin-bottom: 50px
+                        @include responsivo(pcMedio)
+                            margin-bottom: 50px
             .innerSectionElement.sct2
                 margin-bottom: 50px!important
                 .containElements
@@ -261,9 +209,6 @@
 
                                     @include responsivo(resto)
                                         border-radius: 0px 15px 15px 0px
-
-
-
 
                             .boxInfoCheck
                                 position: relative
@@ -300,17 +245,9 @@
                                     font-size: 14px
                                     line-height: 18px
                                     color: #73676D
-                                // img.overImage
-                                //     position: absolute
-                                //     top: 40px
-                                //     right: 50px
-                                //     height: 75px
-                                //     width: auto
-                                //     display: block
-                                //     margin-left: auto
 
-    .customSection.sectionParent.landingServSalud3,
-    .customSection.sectionParent.landingServSalud4
+    .customSection.sectionParent.landingServFinanzas3,
+    .customSection.sectionParent.landingServFinanzas4
         .section-row
             padding: 0
             @include responsivo(telefonoTable)
@@ -361,30 +298,23 @@
                             margin-bottom: 40px
 
 
-    .customSection.sectionParent.landingServSalud3
-        padding: 0
+    .customSection.sectionParent.landingServFinanzas3
+        padding: 50px 0
+        background-color: #F9FDFF
         .backgroundFull
             padding: 0
         .innerSectionElement.sct2
             .groupElements.row
                 .image
-                    @include responsivo(general)
-                        padding-bottom: 35px!important
-                    @include responsivo(resto)
-                        padding-bottom: 35px!important
                     .containerImage
                         padding: 0
                         margin-bottom: 0
                         img
-                            height: 325px
-                .info
-                    h3
-                        color: white!important
-                    .text
-                        color: white
+                            height: 300px
 
-    .customSection.sectionParent.landingServSalud4
-        padding: 60px 0
+
+    .customSection.sectionParent.landingServFinanzas4
+        padding: 50px 0
         .innerSectionElement.sct2
             .groupElements.row
                 .info
@@ -402,9 +332,11 @@
                     p.text
                         @include responsivo(general)
                             margin-left: auto
+                            text-align: right
 
                         @include responsivo(resto)
                             margin-left: auto
+                            text-align: right
 
                     p.text
                         text-align: right
@@ -419,12 +351,12 @@
                         padding: 0
                         margin-bottom: 0
                         img
-                            height: 325px
+                            height: 300px
 
 
 
-    .customSection.sectionParent.landingServSalud5
-        background-color: #F2F8FB
+    .customSection.sectionParent.landingServFinanzas5
+        background-color: #FAFAFA
         padding: 65px 0
         .section-row
             padding: 0
@@ -453,41 +385,35 @@
             .innerSectionElement.sct2
                 .groupElements.row
                     .info
+                        width: 100%!important
+                        max-width: unset!important
                         @include responsivo(general)
-                            padding-left: 75px
-                            padding-top: 25px
+                            padding-left: 0
+                            padding-top: 0
                         @include responsivo(resto)
-                            padding-left: 75px
-                            padding-top: 25px
+                            padding-left: 0
+                            padding-top: 0
                         h3.secondaryTitle
                             font-family: Nunito
                             font-style: normal
                             font-weight: bold
                             font-size: 30px
                             line-height: 35px
+                            text-align: center
                         p.text
                             font-family: Nunito
                             font-style: normal
                             font-weight: normal
                             font-size: 20px
                             line-height: 28px
-                    .image
-                        padding: 0
-                        .containerImage
-                            background-color: #F2F8FB
-                            padding: 0
-                            padding-top: 30px
-                            box-sizing: border-box
-                            border-radius: 25px
-                            margin-bottom: 0
-                            img
-                                height: 350px
-                        @include responsivo(telefonoTable)
-                            margin-bottom: 25px
-                        @include responsivo(pcMedio)
-                            margin-bottom: 25px
+                            width: 100%!important
+                            text-align: center
+                        .autor
+                            margin: 0 auto
+                    .video
+                        display: none!important
 
-    .customSection.sectionParent.landingServSalud6
+    .customSection.sectionParent.landingServFinanzas6
         background: linear-gradient(81.76deg, #33768B -10.55%, rgba(51, 118, 139, 0) 44.08%), #264857
         padding: 75px 0
         position: relative
@@ -606,9 +532,9 @@
                 margin-right: 7.5%
 
 
-    .customSection.sectionParent.landingServSalud7
+    .customSection.sectionParent.landingServFinanzas7
         background-color: #E6F2F8
-        padding-bottom: 0
+        padding-bottom: 75px
         // padding-bottom: 0
         @include responsivo(telefonoTable)
             padding: 50px 0
@@ -619,15 +545,20 @@
             font-style: normal
             font-weight: bold
             font-size: 45px
-            line-height: 40px
-            margin-bottom: 25px
+            line-height: 48px
+            margin: auto 0
             text-align: center
-            color: #264857
-            span
-                color: #264857
-                text-align: center
-                font-size: 35px
-                line-height: 40px
+            display: block
+            @include responsivo(telefonoTable)
+                margin-bottom: 25px
+                font-size: 40px
+                line-height: 42.5px
+            @include responsivo(pcMedio)
+                margin-bottom: 25px
+                font-size: 40px
+                line-height: 42.5px
+
+
         .section-row
             padding: 10px
             @include responsivo(telefonoTable)
@@ -649,7 +580,7 @@
                 flex-direction: column-reverse
             .form7
                 padding-right: 75px
-                padding-bottom: 75px
+                padding-bottom: 0
                 margin-top: 0
             .info
                 padding-left: 0
@@ -662,25 +593,15 @@
                     padding: 0
                     margin-bottom: 0
                 .containElements
-                    padding-left: 0
+                    padding: 0
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    flex-direction: column
                     @include responsivo(telefonoTable)
                         margin: 0 auto
                     @include responsivo(pcMedio)
                         margin: 0 auto
-                    @include responsivo(general)
-                        margin-top: auto
-                    @include responsivo(resto)
-                        margin-top: auto
-                .containerImage
-                    margin-bottom: 0
-                    display: flex
-                    justify-content: flex-end
-                    padding: 0
-                    img
-                        display: block
-                        height: 425px
-                        @include responsivo(telefonoTable)
-                            height: 375px
-                        @include responsivo(pcMedio)
-                            height: 375px
 
+                    .containerImage
+                        display: none

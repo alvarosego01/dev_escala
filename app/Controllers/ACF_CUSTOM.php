@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 use Sober\Controller\Controller;
-
+use WP_Query;
 
 class ACF_CUSTOM extends Controller
 {
@@ -112,6 +112,38 @@ class ACF_CUSTOM extends Controller
                 'param' => 'page_template',
                 'operator' => '==',
                 'value' => "views/template-landing-servicios-salud.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-servicios-inmobiliarias.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-servicios-coaching.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-servicios-educacion.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-servicios-finanzas.blade.php",
             ),
 
         ),
@@ -366,6 +398,11 @@ class ACF_CUSTOM extends Controller
             );
             acf_add_local_field_group(
 
+                $this->settingsBootstrapPopups()
+
+            );
+            acf_add_local_field_group(
+
                 $this->settingsCasosExitoHome()
 
             );
@@ -489,6 +526,27 @@ class ACF_CUSTOM extends Controller
     private function allWeb()
     {
 
+        $body = array();
+
+        $args = array(
+            'post_type'=> 'bootstrap_popups',
+            'order'    => 'ASC'
+        );
+
+        $the_query = new WP_Query( $args );
+        $the_query = $the_query->posts;
+
+        if(count( $the_query ) > 0){
+
+            foreach ($the_query as $key => $value) {
+                # code...
+                $a = $value->post_title;
+                $body[$value->ID] = $a;
+
+            }
+
+        }
+
         return array(
             'key' => 'popup_page_config',
             'title' => 'PopUp selector bootstrap',
@@ -525,13 +583,10 @@ class ACF_CUSTOM extends Controller
                 ),
                 array(
                     'key' => 'bootstrap_popup_types',
-                    'label' => 'Bootstrap PopUp Type',
-                    'name' => 'Bootstrap PopUp Type',
+                    'label' => 'Bootstrap popUp model',
+                    'name' => 'Bootstrap popUp model',
                     'type' => 'select',
-                    'choices' => array(
-                        'popup-bootstrap-general-t1' => 'Popup general 1, ID: popup-bootstrap-general-t1',
-                        'popup-bootstrap-general-t2' => 'Popup general 2, ID: popup-bootstrap-general-t2',
-                    ),
+                    'choices' => $body,
                     'conditional_logic' => [
                         array(
                             [
@@ -628,12 +683,16 @@ class ACF_CUSTOM extends Controller
 
         $body = array();
 
-        foreach ($aux as $key => $value) {
-            # code...
-            // array_push( $body, [
-                // $value['term_id' => $value['name']]
-            // ])
-            $body[$value->term_id] = $value->name;
+        if(count( $aux ) > 0){
+
+            foreach ($aux as $key => $value) {
+                # code...
+                // array_push( $body, [
+                    // $value['term_id' => $value['name']]
+                    // ])
+                    $body[$value->term_id] = $value->name;
+
+                }
 
         }
 
@@ -651,15 +710,18 @@ class ACF_CUSTOM extends Controller
 
         $body = array();
 
-        foreach ($aux as $key => $value) {
+        if(count( $aux ) > 0){
+
+            foreach ($aux as $key => $value) {
             # code...
             // array_push( $body, [
                 // $value['term_id' => $value['name']]
-            // ])
+                // ])
             $body[$value->term_id] = $value->name;
 
         }
 
+        }
 
         return array(
             'key' => 'general_config',
@@ -864,6 +926,166 @@ class ACF_CUSTOM extends Controller
 
         );
     }
+
+    private function settingsBootstrapPopups()
+    {
+
+        return array(
+
+            'key' => 'bootstrap_popups_settings',
+            'title' => 'Bootstrap popups options',
+            'fields' => array(
+                array(
+                    'key' => 'popup_call_class',
+                    'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                    'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                    'type' => 'text',
+                ),
+                array(
+                    'key' => 'popup_image',
+                    'label' => 'Popup image',
+                    'name' => 'Popup image',
+                    'type' => 'image',
+                ),
+                array(
+                    'key' => 'popup_title_text',
+                    'label' => 'Popup title text',
+                    'name' => 'Popup title text',
+                    'type' => 'textarea',
+                ),
+                array(
+
+                    'key' => 'enable_custom_background',
+                    'label' => '¿Use custom background?',
+                    'name' => '¿Use custom background?',
+                    'type' => 'true_false',
+
+                ),
+                array(
+
+                    'key' => 'custom_background_type',
+                    'label' => 'Custom background type',
+                    'name' => 'Custom background type',
+                    'type' => 'select',
+                    'choices' => array(
+                        'solid_color' => 'Solid color',
+                        'color_gradient' => 'Color gradient',
+                        'background_image' => 'Background image',
+                    ),
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_background',
+                                'operator' => '==',
+                                'value' => 1
+                            ]
+                        ]
+                    ]
+
+                ),
+                array(
+                    'key' => 'popup_background_color',
+                    'label' => 'Popup background color',
+                    'name' => 'Popup background color',
+                    'type' => 'color_picker',
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_background',
+                                'operator' => '==',
+                                'value' => 1
+                            ],
+                            [
+                                'field' => 'custom_background_type',
+                                'operator' => '==',
+                                'value' => 'solid_color'
+                            ]
+                        ]
+                    ]
+                ),
+                array(
+                    'key' => 'popup_background_gradient',
+                    'label' => 'Popup background gradient CSS',
+                    'name' => 'Popup background gradient CSS',
+                    'type' => 'textarea',
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_background',
+                                'operator' => '==',
+                                'value' => 1
+                            ],
+                            [
+                                'field' => 'custom_background_type',
+                                'operator' => '==',
+                                'value' => 'color_gradient'
+                            ]
+                        ]
+                    ]
+                ),
+                array(
+                    'key' => 'popup_background_image',
+                    'label' => 'Popup background image',
+                    'name' => 'Popup background image',
+                    'type' => 'image',
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_background',
+                                'operator' => '==',
+                                'value' => 1
+                            ],
+                            [
+                                'field' => 'custom_background_type',
+                                'operator' => '==',
+                                'value' => 'background_image'
+                            ]
+                        ]
+                    ]
+                ),
+                array(
+                    'key' => 'form_title',
+                    'label' => 'Form title',
+                    'name' => 'Form title',
+                    'type' => 'text',
+                ),
+                array(
+                    'key' => 'form_shortcode',
+                    'label' => 'Shortcode form',
+                    'name' => 'Shortcode form',
+                    'type' => 'text',
+                ),
+                array(
+                    'key' => 'form_redirect',
+                    'label' => 'Form redirect url',
+                    'name' => 'Form redirect url',
+                    'type' => 'url',
+                ),
+                array(
+                    'key' => 'bootstrap_popup_template',
+                    'label' => 'Bootstrap popup model',
+                    'name' => 'Bootstrap popup model',
+                    'type' => 'select',
+                    'choices' => array(
+                        'popup-bootstrap-general-t1' => 'Popup general 1',
+                    ),
+                )
+            ),
+            'location' => array(
+                array(
+                    array(
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'bootstrap_popups',
+                    ),
+                ),
+            ),
+
+        );
+    }
+
+
+
     private function settingsCasosExito2()
     {
 
