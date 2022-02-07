@@ -224,6 +224,8 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-landing-servicios-salud.blade.php",
+                "views/template-landing-servicios-inmobiliarias.blade.php",
+                "views/template-landing-servicios-coaching.blade.php",
                 "views/template-landing-servicios-educacion.blade.php",
                 "views/template-landing-servicios-finanzas.blade.php",
                 "views/template-landing-servicios-seguros.blade.php",
@@ -304,6 +306,8 @@ class SetComponents extends Controller
                 "views/template-zoom-demo-home-step2.blade.php",
                 "views/template-landing-pricing-page.blade.php",
                 "views/template-landing-servicios-salud.blade.php",
+                "views/template-landing-servicios-inmobiliarias.blade.php",
+                "views/template-landing-servicios-coaching.blade.php",
                 "views/template-landing-servicios-educacion.blade.php",
                 "views/template-landing-servicios-finanzas.blade.php",
                 "views/template-landing-servicios-seguros.blade.php",
