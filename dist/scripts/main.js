@@ -231,5 +231,67 @@ jQuery(document).ready(function () {
 
     }, false);
 
+    document.addEventListener('wpcf7spam', function (e) {
+
+        let inputs = e['detail']['inputs'];
+        let l = e.path;
+        let re = null;
+
+        window.dataLayer.push({
+            "event": "cf7submission",
+            "formId": event.detail.contactFormId,
+            "response": event.detail.inputs
+        });
+
+        let specialRedirect = l.filter(r => {
+            if (r.name == 'special-redirect') {
+                return r.value;
+            }
+        });
+
+        if ( (specialRedirect != null) && (specialRedirect[0] != null) &&  (specialRedirect[0].value != 0) ) {
+
+            re = specialRedirect[0].value;
+
+        }
+
+        // redirect
+        if (typeof (dataPHP) !== 'undefined') {
+
+            if (dataPHP.redirect) {
+
+                re = dataPHP.redirect;
+
+            }
+
+        }
+
+        if( jQuery('#redirectParam').val() != null ){
+
+            re = jQuery('#redirectParam').val();
+
+        }
+
+        if (jQuery(l[1]).attr('redirectWeb')) {
+
+            var x = jQuery(l[1]).attr('redirectWeb');
+            if (x == 'true') {
+
+                if (re && re != null && re != '') {
+
+                    re = parametersToRedirect( re, inputs );
+
+                    console.log('redirect form wpcf7spam', re);
+                    window.location.replace(re);
+
+                }
+
+            }
+
+        }
+
+
+    }, false);
+
 
 });
