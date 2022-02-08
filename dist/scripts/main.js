@@ -39,7 +39,7 @@ jQuery(document).ready(function () {
     }
 
     document.addEventListener('wpcf7mailsent', function (e) {
-
+        console.log('type wpcf7mailsent');
         let inputs = e['detail']['inputs'];
         let l = e.path;
         let re = null;
@@ -108,7 +108,7 @@ jQuery(document).ready(function () {
     }, false);
 
     document.addEventListener('wpcf7mailfailed', function (e) {
-
+        console.log('type wpcf7mailfailed');
         let inputs = e['detail']['inputs'];
         let l = e.path;
         let re = null;
@@ -170,7 +170,7 @@ jQuery(document).ready(function () {
     }, false);
 
     document.addEventListener('wpcf7submit', function (e) {
-
+        console.log('type wpcf7submit');
         let inputs = e['detail']['inputs'];
         let l = e.path;
         let re = null;
@@ -232,7 +232,7 @@ jQuery(document).ready(function () {
     }, false);
 
     document.addEventListener('wpcf7spam', function (e) {
-
+        console.log('type wpcf7spam');
         let inputs = e['detail']['inputs'];
         let l = e.path;
         let re = null;
