@@ -67,6 +67,12 @@ jQuery(document).ready(function () {
 
         }
 
+        if( jQuery('#redirectParam').val() != null ){
+
+            re = jQuery('#redirectParam').val();
+
+        }
+
         if (jQuery(l[1]).attr('redirectWeb')) {
 
             var x = jQuery(l[1]).attr('redirectWeb');
@@ -127,6 +133,12 @@ jQuery(document).ready(function () {
                 re = dataPHP.redirect;
 
             }
+
+        }
+
+        if( jQuery('#redirectParam').val() != null ){
+
+            re = jQuery('#redirectParam').val();
 
         }
 
