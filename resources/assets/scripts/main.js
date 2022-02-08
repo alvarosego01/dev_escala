@@ -32,6 +32,12 @@ function parametersToRedirect( redirect, params ){
 
 jQuery(document).ready(function () {
 
+    if( jQuery('#redirectParam').val() != null ){
+
+        console.log('redirect on tag', jQuery('#redirectParam').val());
+
+    }
+
     document.addEventListener('wpcf7mailsent', function (e) {
 
         let inputs = e['detail']['inputs'];
