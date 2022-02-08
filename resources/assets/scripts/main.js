@@ -153,7 +153,7 @@ jQuery(document).ready(function () {
 
                     console.log('redirect form failed', re);
 
-                    // window.location.replace(re);
+                    window.location.replace(re);
                 }
 
             }
