@@ -474,7 +474,7 @@ function discountByPlanCard(type, element){
                 });
 
                 _costStarter = 24;
-                _costPro = 60;
+                _costPro = 52.50;
 
 
                 jQuery('[calculator_price_starter]').text( 'USD $ ' + _costStarter );
