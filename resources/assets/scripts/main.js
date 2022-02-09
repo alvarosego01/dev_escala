@@ -86,9 +86,9 @@ jQuery(document).ready(function () {
 
         }
 
-            var x = jQuery(l[1]).attr('redirectWeb');
+            var x = jQuery(l[0]).parents('[redirectWeb]');
             console.log('x', x);
-            if (x == 'true') {
+            if (x.attr('redirectWeb') == 'true') {
                 console.log('redirect true');
 
                 if (re && re != null && re != '') {
@@ -121,7 +121,7 @@ jQuery(document).ready(function () {
         let l = e.path;
         let re = null;
 
-
+        console.log('que es l', l);
 
         window.dataLayer.push({
             "event": "cf7submission",
@@ -158,9 +158,9 @@ jQuery(document).ready(function () {
 
         }
 
-            var x = jQuery(l[1]).attr('redirectWeb');
+            var x = jQuery(l[0]).parents('[redirectWeb]');
             console.log('x', x);
-            if (x == 'true') {
+            if (x.attr('redirectWeb') == 'true') {
                 console.log('redirect true');
 
                 if (re && re != null && re != '') {
