@@ -27,7 +27,7 @@ $items = [
             <span class="numerCost">30</span>
             <span
             style="display: none"
-            class="discountCost">24</span>
+            class="discountCost">21</span>
             <span class="usd">
                 USD
             </span>
@@ -47,7 +47,7 @@ $items = [
                 <span class="t1">Pago total anual <span class="priceDotted">360 $USD</span></span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento 288 $USD
+                        Con descuento 252 $USD
                     </strong>
                 </span>
         </p>',
