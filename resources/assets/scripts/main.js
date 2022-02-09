@@ -2,7 +2,10 @@
 
 function parametersToRedirect( redirect, params ){
 
-    let aux = redirect;
+    return new Promise((resolve, reject) => {
+
+
+        let aux = redirect;
     if( redirect.includes("{{-- special --}}") ){
 
         aux = aux.replace("{{-- special --}}", "");
@@ -26,7 +29,8 @@ function parametersToRedirect( redirect, params ){
 
     }
 
-    return aux;
+    resolve(aux);
+});
 
 }
 
@@ -38,11 +42,13 @@ jQuery(document).ready(function () {
 
     }
 
-    document.addEventListener('wpcf7mailsent', function (e) {
+    document.addEventListener('wpcf7mailsent', async function (e) {
 
         let inputs = e['detail']['inputs'];
         let l = e.path;
         let re = null;
+
+        console.log('que es l', l);
 
         window.dataLayer.push({
             "event": "cf7submission",
@@ -73,29 +79,31 @@ jQuery(document).ready(function () {
 
         }
 
+
         if( jQuery('#redirectParam').val() != null ){
 
             re = jQuery('#redirectParam').val();
 
         }
 
-        if (jQuery(l[1]).attr('redirectWeb')) {
-
             var x = jQuery(l[1]).attr('redirectWeb');
+            console.log('x', x);
             if (x == 'true') {
+                console.log('redirect true');
 
                 if (re && re != null && re != '') {
 
-                    re = parametersToRedirect( re, inputs );
+                    re = await parametersToRedirect( re, inputs ).then(r => {
+                        return r;
+                    });
+                    console.log('redirect form sent', re);
 
-                    console.log('redirect form', re);
-                    window.location.replace(re);
+                    window.location.href = re;
 
                 }
 
             }
 
-        }
 
         //   var encodedStr = Base64.encode( email );
         //   console.log("Encoded string:", encodedStr);
@@ -107,11 +115,13 @@ jQuery(document).ready(function () {
 
     }, false);
 
-    document.addEventListener('wpcf7mailfailed', function (e) {
+    document.addEventListener('wpcf7mailfailed', async function (e) {
 
         let inputs = e['detail']['inputs'];
         let l = e.path;
         let re = null;
+
+
 
         window.dataLayer.push({
             "event": "cf7submission",
@@ -148,88 +158,29 @@ jQuery(document).ready(function () {
 
         }
 
-        if (jQuery(l[1]).attr('redirectWeb')) {
-
             var x = jQuery(l[1]).attr('redirectWeb');
+            console.log('x', x);
             if (x == 'true') {
+                console.log('redirect true');
 
                 if (re && re != null && re != '') {
 
-                    re = parametersToRedirect( re, inputs );
+                    re = await parametersToRedirect( re, inputs ).then(r => {
+                        return r;
+                    });
 
                     console.log('redirect form failed', re);
 
-                    window.location.replace(re);
+                    // window.location.href = re;
                 }
 
             }
 
-        }
 
 
     }, false);
 
-    document.addEventListener('wpcf7submit', function (e) {
 
-        let inputs = e['detail']['inputs'];
-        let l = e.path;
-        let re = null;
-
-        window.dataLayer.push({
-            "event": "cf7submission",
-            "formId": event.detail.contactFormId,
-            "response": event.detail.inputs
-        });
-
-        let specialRedirect = l.filter(r => {
-            if (r.name == 'special-redirect') {
-                return r.value;
-            }
-        });
-
-        if ( (specialRedirect != null) && (specialRedirect[0] != null) &&  (specialRedirect[0].value != 0) ) {
-
-            re = specialRedirect[0].value;
-
-        }
-
-        // redirect
-        if (typeof (dataPHP) !== 'undefined') {
-
-            if (dataPHP.redirect) {
-
-                re = dataPHP.redirect;
-
-            }
-
-        }
-
-        if( jQuery('#redirectParam').val() != null ){
-
-            re = jQuery('#redirectParam').val();
-
-        }
-
-        if (jQuery(l[1]).attr('redirectWeb')) {
-
-            var x = jQuery(l[1]).attr('redirectWeb');
-            if (x == 'true') {
-
-                if (re && re != null && re != '') {
-
-                    re = parametersToRedirect( re, inputs );
-
-                    console.log('redirect form wpcf7submit ', re);
-                    window.location.replace(re);
-
-                }
-
-            }
-
-        }
-
-
-    }, false);
 
 
 });
