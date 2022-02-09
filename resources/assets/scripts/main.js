@@ -86,10 +86,10 @@ jQuery(document).ready(function () {
 
         }
 
-            var x = jQuery(l[0]).parents('[redirectWeb]');
-            console.log('x', x);
-            if (x.attr('redirectWeb') == 'true') {
-                console.log('redirect true');
+        var x = jQuery(l[0]).parents('#redirectWeb');
+        console.log('x', x);
+        if (x.length > 0) {
+            console.log('redirect true');
 
                 if (re && re != null && re != '') {
 
@@ -158,9 +158,9 @@ jQuery(document).ready(function () {
 
         }
 
-            var x = jQuery(l[0]).parents('[redirectWeb]');
+            var x = jQuery(l[0]).parents('#redirectWeb');
             console.log('x', x);
-            if (x.attr('redirectWeb') == 'true') {
+            if (x.length > 0) {
                 console.log('redirect true');
 
                 if (re && re != null && re != '') {
