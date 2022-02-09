@@ -88,7 +88,7 @@ jQuery(document).ready(function () {
 
         var x = jQuery(l[0]).parents('#redirectWeb');
         console.log('x', x);
-        if (x.length > 0) {
+        if (jQuery(l[0]).parents('#redirectWeb')) {
             console.log('redirect true');
 
                 if (re && re != null && re != '') {
@@ -160,7 +160,7 @@ jQuery(document).ready(function () {
 
             var x = jQuery(l[0]).parents('#redirectWeb');
             console.log('x', x);
-            if (x.length > 0) {
+            if (jQuery(l[0]).parents('#redirectWeb')) {
                 console.log('redirect true');
 
                 if (re && re != null && re != '') {
