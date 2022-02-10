@@ -1,42 +1,42 @@
 
 
-function parametersToRedirect( redirect, params ){
+function parametersToRedirect(redirect, params) {
 
     return new Promise((resolve, reject) => {
 
 
         let aux = redirect;
-    if( redirect.includes("{{-- special --}}") ){
+        if (redirect.includes("{{-- special --}}")) {
 
-        aux = aux.replace("{{-- special --}}", "");
+            aux = aux.replace("{{-- special --}}", "");
 
-        let email = params.filter(r => {
-            if (r.name == 'your-email') {
-                return r.value;
+            let email = params.filter(r => {
+                if (r.name == 'your-email') {
+                    return r.value;
+                }
+            });
+
+            if ((email != null) && (email[0] != null) && (email[0].value != 0)) {
+
+                let e = email[0].value;
+                e = Base64.encode(e);
+                aux = aux.replace("{{-- email64 --}}", e);
+
             }
-        });
 
-        if ( (email != null) && (email[0] != null) &&  (email[0].value != 0) ) {
-
-            let e = email[0].value;
-            e = Base64.encode( e );
-            aux = aux.replace("{{-- email64 --}}", e);
+            aux = aux.replace("{{-- leadSignUp --}}", 'trial');
+            aux = aux.replace(/\s+/g, '');
 
         }
 
-        aux = aux.replace("{{-- leadSignUp --}}", 'trial');
-        aux = aux.replace(/\s+/g, '');
-
-    }
-
-    resolve(aux);
-});
+        resolve(aux);
+    });
 
 }
 
 jQuery(document).ready(function () {
 
-    if( jQuery('#redirectParam').val() != null ){
+    if (jQuery('#redirectParam').val() != null) {
 
         console.log('redirect on tag', jQuery('#redirectParam').val());
 
@@ -62,7 +62,7 @@ jQuery(document).ready(function () {
             }
         });
 
-        if ( (specialRedirect != null) && (specialRedirect[0] != null) &&  (specialRedirect[0].value != 0) ) {
+        if ((specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0)) {
 
             re = specialRedirect[0].value;
 
@@ -80,29 +80,24 @@ jQuery(document).ready(function () {
         }
 
 
-        if( jQuery('#redirectParam').val() != null ){
+        if (jQuery('#redirectParam').val() != null) {
 
             re = jQuery('#redirectParam').val();
 
         }
 
-        var x = jQuery(l[0]).parents('#redirectWeb');
-        console.log('x', x);
-        if (jQuery(l[0]).parents('#redirectWeb')) {
-            console.log('redirect true');
 
-                if (re && re != null && re != '') {
+        if (re && re != null && re != '') {
 
-                    re = await parametersToRedirect( re, inputs ).then(r => {
-                        return r;
-                    });
-                    console.log('redirect form sent', re);
+            re = await parametersToRedirect(re, inputs).then(r => {
+                return r;
+            });
+            console.log('redirect form sent', re);
 
-                    window.location.href = re;
+            window.location.href = re;
 
-                }
+        }
 
-            }
 
 
         //   var encodedStr = Base64.encode( email );
@@ -135,7 +130,7 @@ jQuery(document).ready(function () {
             }
         });
 
-        if ( (specialRedirect != null) && (specialRedirect[0] != null) &&  (specialRedirect[0].value != 0) ) {
+        if ((specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0)) {
 
             re = specialRedirect[0].value;
 
@@ -152,30 +147,24 @@ jQuery(document).ready(function () {
 
         }
 
-        if( jQuery('#redirectParam').val() != null ){
+        if (jQuery('#redirectParam').val() != null) {
 
             re = jQuery('#redirectParam').val();
 
         }
 
-            var x = jQuery(l[0]).parents('#redirectWeb');
-            console.log('x', x);
-            if (jQuery(l[0]).parents('#redirectWeb')) {
-                console.log('redirect true');
 
-                if (re && re != null && re != '') {
 
-                    re = await parametersToRedirect( re, inputs ).then(r => {
-                        return r;
-                    });
+        if (re && re != null && re != '') {
 
-                    console.log('redirect form failed', re);
+            re = await parametersToRedirect(re, inputs).then(r => {
+                return r;
+            });
 
-                    // window.location.href = re;
-                }
+            console.log('redirect form failed', re);
 
-            }
-
+            // window.location.href = re;
+        }
 
 
     }, false);
