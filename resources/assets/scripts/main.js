@@ -42,7 +42,7 @@ jQuery(document).ready(function () {
 
     }
 
-    document.addEventListener('wpcf7mailsent', async function (e) {
+    document.addEventListener('wpcf7mailsent wpcf7submit', async function (e) {
 
         let inputs = e['detail']['inputs'];
         let l = e.path;
@@ -79,13 +79,17 @@ jQuery(document).ready(function () {
 
         }
 
-
         if (jQuery('#redirectParam').val() != null) {
 
             re = jQuery('#redirectParam').val();
 
         }
 
+
+        alert('variables', {
+            re: re
+
+        })
 
         if (re && re != null && re != '') {
 
@@ -97,8 +101,6 @@ jQuery(document).ready(function () {
             window.location.href = re;
 
         }
-
-
 
         //   var encodedStr = Base64.encode( email );
         //   console.log("Encoded string:", encodedStr);
@@ -153,8 +155,6 @@ jQuery(document).ready(function () {
 
         }
 
-
-
         if (re && re != null && re != '') {
 
             re = await parametersToRedirect(re, inputs).then(r => {
@@ -166,10 +166,7 @@ jQuery(document).ready(function () {
             // window.location.href = re;
         }
 
-
     }, false);
-
-
 
 
 });
