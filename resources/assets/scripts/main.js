@@ -36,13 +36,29 @@ function parametersToRedirect(redirect, params) {
 
 jQuery(document).ready(function () {
 
-    if (jQuery('#redirectParam').val() != null) {
 
-        console.log('redirect on tag', jQuery('#redirectParam').val());
 
+});
+
+
+
+function ready(fn) {
+    if (document.readyState != 'loading'){
+      fn();
+    } else {
+      document.addEventListener('DOMContentLoaded', fn);
     }
+  }
 
-    document.addEventListener('wpcf7mailsent wpcf7submit', async function (e) {
+
+  ready(function (e) {
+    // do something here...
+
+    console.log('prueba esa e', e);
+
+    console.log('version 3');
+
+    document.addEventListener('wpcf7mailsent', async function (e) {
 
         let inputs = e['detail']['inputs'];
         let l = e.path;
@@ -86,10 +102,7 @@ jQuery(document).ready(function () {
         }
 
 
-        alert('variables', {
-            re: re
-
-        })
+        alert('variables' + re);
 
         if (re && re != null && re != '') {
 
@@ -169,4 +182,5 @@ jQuery(document).ready(function () {
     }, false);
 
 
-});
+
+  });
