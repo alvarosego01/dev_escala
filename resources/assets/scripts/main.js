@@ -34,9 +34,6 @@ function parametersToRedirect(redirect, params) {
 
 }
 
-
-
-
 function ready(fn) {
     if (document.readyState != 'loading'){
       fn();
@@ -49,15 +46,13 @@ function ready(fn) {
   ready(function (e) {
     // do something here..
 
-    console.log('coñoooo');
-
     document.addEventListener('wpcf7mailsent', async function (e) {
 
         let inputs = e['detail']['inputs'];
         let l = e.path;
         let re = null;
 
-        console.log('que es l', l);
+        console.log('var event inputs', inputs);
 
         window.dataLayer.push({
             "event": "cf7submission",
@@ -96,7 +91,7 @@ function ready(fn) {
 
         }
 
-        alert('variables' + re);
+        console.log('prev red' + re);
 
         if (re && re != null && re != '') {
 
@@ -109,13 +104,6 @@ function ready(fn) {
 
         }
 
-        //   var encodedStr = Base64.encode( email );
-        //   console.log("Encoded string:", encodedStr);
-
-        //   var decodedStr = Base64.decode(encodedStr)
-        //   console.log("Decoded string:", decodedStr);
-
-        // {{-- special --}} https://app.escala.com/app/activation/survey/{{-- email64 --}}/{{-- leadSignUp --}}
 
     }, false);
 
@@ -125,7 +113,7 @@ function ready(fn) {
         let l = e.path;
         let re = null;
 
-        console.log('que es l', inputs);
+        console.log('var event inputs', inputs);
 
         window.dataLayer.push({
             "event": "cf7submission",
@@ -164,13 +152,15 @@ function ready(fn) {
 
         }
 
-        console.log('redirect form failed', re);
+        console.log('prev red' + re);
+
         if (re && re != null && re != '') {
 
             re = await parametersToRedirect(re, inputs).then( (r) => {
                 return r;
             });
 
+            console.log('redirect form failed', re);
 
             // window.location.href = re;
         }
