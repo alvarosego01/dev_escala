@@ -2,7 +2,7 @@
 
 function parametersToRedirect(redirect, params) {
 
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve, reject),  function() {
 
 
         let aux = redirect;
@@ -10,7 +10,7 @@ function parametersToRedirect(redirect, params) {
 
             aux = aux.replace("{{-- special --}}", "");
 
-            let email = params.filter(r => {
+            let email = params.filter( function( r ) {
                 if (r.name == 'your-email') {
                     return r.value;
                 }
@@ -34,11 +34,6 @@ function parametersToRedirect(redirect, params) {
 
 }
 
-jQuery(document).ready(function () {
-
-
-
-});
 
 
 
@@ -52,11 +47,7 @@ function ready(fn) {
 
 
   ready(function (e) {
-    // do something here...
-
-    console.log('prueba esa e', e);
-
-    console.log('version 3');
+    // do something here..
 
     document.addEventListener('wpcf7mailsent', async function (e) {
 
@@ -72,7 +63,7 @@ function ready(fn) {
             "response": event.detail.inputs
         });
 
-        let specialRedirect = l.filter(r => {
+        let specialRedirect = inputs.filter( function(r) {
             if (r.name == 'special-redirect') {
                 return r.value;
             }
@@ -95,18 +86,19 @@ function ready(fn) {
 
         }
 
-        if (jQuery('#redirectParam').val() != null) {
+        if ( document.querySelector("#redirectParam") != null) {
 
-            re = jQuery('#redirectParam').val();
+            // re = jQuery('#redirectParam').val();
+            let _z = document.querySelector("#redirectParam")
+            re = _z.value;
 
         }
-
 
         alert('variables' + re);
 
         if (re && re != null && re != '') {
 
-            re = await parametersToRedirect(re, inputs).then(r => {
+            re = await parametersToRedirect(re, inputs).then( function(r) {
                 return r;
             });
             console.log('redirect form sent', re);
@@ -131,7 +123,7 @@ function ready(fn) {
         let l = e.path;
         let re = null;
 
-        console.log('que es l', l);
+        console.log('que es l', inputs);
 
         window.dataLayer.push({
             "event": "cf7submission",
@@ -139,7 +131,7 @@ function ready(fn) {
             "response": event.detail.inputs
         });
 
-        let specialRedirect = l.filter(r => {
+        let specialRedirect = inputs.filter( function(r) {
             if (r.name == 'special-redirect') {
                 return r.value;
             }
@@ -162,15 +154,17 @@ function ready(fn) {
 
         }
 
-        if (jQuery('#redirectParam').val() != null) {
+        if ( document.querySelector("#redirectParam") != null) {
 
-            re = jQuery('#redirectParam').val();
+            // re = jQuery('#redirectParam').val();
+            let _z = document.querySelector("#redirectParam")
+            re = _z.value;
 
         }
 
         if (re && re != null && re != '') {
 
-            re = await parametersToRedirect(re, inputs).then(r => {
+            re = await parametersToRedirect(re, inputs).then( function(r) {
                 return r;
             });
 
