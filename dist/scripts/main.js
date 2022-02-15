@@ -37,7 +37,7 @@ function parametersToRedirect(redirect, params) {
 
 jQuery(document).ready(function () {
 
-    document.addEventListener('wpcf7mailsent', async function (e) {
+    document.addEventListener('wpcf7mailsent', async (e) => {
 
         let inputs = e['detail']['inputs'];
         let l = e.path;
@@ -95,10 +95,9 @@ jQuery(document).ready(function () {
 
         }
 
-
     }, false);
 
-    document.addEventListener('wpcf7mailfailed', function (e)  {
+    document.addEventListener('wpcf7mailfailed', async (e) =>  {
 
         let inputs = e['detail']['inputs'];
         let l = e.path;
@@ -157,7 +156,6 @@ jQuery(document).ready(function () {
         }
 
     }, false);
-
 
 
   });
