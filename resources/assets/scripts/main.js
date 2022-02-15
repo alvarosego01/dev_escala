@@ -2,15 +2,14 @@
 
 function parametersToRedirect(redirect, params) {
 
-    return new Promise((resolve, reject) => {
-
+    return new Promise( (resolve, reject), () => {
 
         let aux = redirect;
         if (redirect.includes("{{-- special --}}")) {
 
             aux = aux.replace("{{-- special --}}", "");
 
-            let email = params.filter(r => {
+            let email = params.filter( ( r ) => {
                 if (r.name == 'your-email') {
                     return r.value;
                 }
@@ -30,19 +29,29 @@ function parametersToRedirect(redirect, params) {
         }
 
         resolve(aux);
+
     });
 
 }
 
-jQuery(document).ready(function () {
 
-    if (jQuery('#redirectParam').val() != null) {
 
-        console.log('redirect on tag', jQuery('#redirectParam').val());
 
+function ready(fn) {
+    if (document.readyState != 'loading'){
+      fn();
+    } else {
+      document.addEventListener('DOMContentLoaded', fn);
     }
+  }
 
-    document.addEventListener('wpcf7mailsent wpcf7submit', async function (e) {
+
+  ready(function (e) {
+    // do something here..
+
+    console.log('coñoooo');
+
+    document.addEventListener('wpcf7mailsent', async function (e) {
 
         let inputs = e['detail']['inputs'];
         let l = e.path;
@@ -56,7 +65,7 @@ jQuery(document).ready(function () {
             "response": event.detail.inputs
         });
 
-        let specialRedirect = l.filter(r => {
+        let specialRedirect = inputs.filter( (r) => {
             if (r.name == 'special-redirect') {
                 return r.value;
             }
@@ -79,21 +88,19 @@ jQuery(document).ready(function () {
 
         }
 
-        if (jQuery('#redirectParam').val() != null) {
+        if ( document.querySelector("#redirectParam") != null) {
 
-            re = jQuery('#redirectParam').val();
+            // re = jQuery('#redirectParam').val();
+            let _z = document.querySelector("#redirectParam")
+            re = _z.value;
 
         }
 
-
-        alert('variables', {
-            re: re
-
-        })
+        alert('variables' + re);
 
         if (re && re != null && re != '') {
 
-            re = await parametersToRedirect(re, inputs).then(r => {
+            re = await parametersToRedirect(re, inputs).then( (r) => {
                 return r;
             });
             console.log('redirect form sent', re);
@@ -112,13 +119,13 @@ jQuery(document).ready(function () {
 
     }, false);
 
-    document.addEventListener('wpcf7mailfailed', async function (e) {
+    document.addEventListener('wpcf7mailfailed', function (e)  {
 
         let inputs = e['detail']['inputs'];
         let l = e.path;
         let re = null;
 
-        console.log('que es l', l);
+        console.log('que es l', inputs);
 
         window.dataLayer.push({
             "event": "cf7submission",
@@ -126,7 +133,7 @@ jQuery(document).ready(function () {
             "response": event.detail.inputs
         });
 
-        let specialRedirect = l.filter(r => {
+        let specialRedirect = inputs.filter( (r) => {
             if (r.name == 'special-redirect') {
                 return r.value;
             }
@@ -149,19 +156,21 @@ jQuery(document).ready(function () {
 
         }
 
-        if (jQuery('#redirectParam').val() != null) {
+        if ( document.querySelector("#redirectParam") != null) {
 
-            re = jQuery('#redirectParam').val();
+            // re = jQuery('#redirectParam').val();
+            let _z = document.querySelector("#redirectParam")
+            re = _z.value;
 
         }
 
+        console.log('redirect form failed', re);
         if (re && re != null && re != '') {
 
-            re = await parametersToRedirect(re, inputs).then(r => {
+            re = await parametersToRedirect(re, inputs).then( (r) => {
                 return r;
             });
 
-            console.log('redirect form failed', re);
 
             // window.location.href = re;
         }
@@ -169,4 +178,5 @@ jQuery(document).ready(function () {
     }, false);
 
 
-});
+
+  });

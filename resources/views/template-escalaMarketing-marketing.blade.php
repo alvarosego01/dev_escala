@@ -36,14 +36,14 @@
         'type' => 'backgroundColor',
         'classSection' => 'eMarketing1',
         'enableTitle' => true,
-        'titlePrincipal' => '<span class="greenBlueColor">La plataforrma todo-en-uno de Marketing y Ventas</span> <br class="space"> que potencia tu crecimiento',
+        'titlePrincipal' => '<span class="greenBlueColor">La plataforma todo-en-uno de Marketing y Ventas</span> <br class="space"> que potencia tu crecimiento',
         'subTitlePrincipal' => null,
         'overlay' => false,
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-2a.png'),
-                'title' => '<span class="grayColorTexts5"Genera más leads o una <br class="space"> base de datos de nuevos <br class="space"> clientes potenciales</span>',
+                'title' => '<span class="grayColorTexts5">Genera más leads o una <br class="space"> base de datos de nuevos <br class="space"> clientes potenciales</span>',
                 'enableButton' => false,
             ],
             [

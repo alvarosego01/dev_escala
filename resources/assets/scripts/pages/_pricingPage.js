@@ -173,10 +173,10 @@ function convertUsers(data) {
 
     if (data._typePlan == 'pro') {
 
-        if (data._userAccess[typeProcess] > 1) {
+        if (data._userAccess[typeProcess] > 2) {
 
             var starter = (data._userAccess[typeProcess] - 1) * 15;
-            var pro = (data._userAccess[typeProcess] - 1) * 15;
+            var pro = ((data._userAccess[typeProcess] - 1) * 15) - 15;
 
 
             return {

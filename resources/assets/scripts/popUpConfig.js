@@ -27,7 +27,7 @@ jQuery(document).ready(function () {
 
             if(popup_config.seconds){
 
-                setTimeout( () => {
+                setTimeout( function() {
 
                     console.log('abre a los segundos ', popup_config.seconds * 1000 );
                     jQuery('[indexpopupbutton]')[0].click();
@@ -52,7 +52,7 @@ jQuery(document).ready(function () {
 
         var classList = [];
 
-        e.currentTarget.classList.forEach(r => {
+        e.currentTarget.classList.forEach( function(r) {
             classList.push(r);
         });
 
@@ -62,7 +62,7 @@ jQuery(document).ready(function () {
 
         if (classList && classList.length > 0) {
 
-            var i = classList.findIndex(r => {
+            var i = classList.findIndex( function(r) {
 
                 // str1.startsWith('Sat')
                 if (r.startsWith('popup-')) {

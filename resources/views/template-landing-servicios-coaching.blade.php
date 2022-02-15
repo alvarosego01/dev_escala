@@ -34,7 +34,8 @@
             @php
                 $parameters = [
                     'classSection' => 'landingServCoaching1 func',
-                    'description' => 'En Escala estamos para ayudarte a ofrecer todos tus <br class="desktopElement"> servicios de consultoría, generando más leads de <br class="desktopElement"> calidad y ventas. Todas las herramientas de marketing <br class="desktopElement"> digital y ventas en un solo lugar para que te diferencies <br class="desktopElement"> en una industria cada día con mayor oferta.
+                    'description' => '
+                    En Escala estamos para ayudarte a ofrecer todos tus <br class="desktopElement"> servicios de consultoría, generando más leads,<br class="desktopElement"> cerrando más ventas y fidelizando a más clientes.<br class="desktopElement"> Obtén todas las herramientas de marketing digital y <br class="desktopElement"> ventas en un solo lugar para que te diferencies en una <br class="desktopElement"> industria cada día con mayor oferta.
                     ',
                     'byAm' => null,
                     'team' => null,
@@ -82,20 +83,20 @@
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Organiza y gestiona <br class="desktopElement"> tu base de datos</span>',
-                            'text' => 'En Escala tenemos el CRM más fácil de usar para que tú mismo <br class="desktopElement"> puedas hacerle seguimiento a cada lead o cliente hasta cerrar la venta <br class="desktopElement"> de tus servicios, pasando por el desarrollo profesional de <br class="desktopElement"> las sesiones de training y formación. <br class="space">
-                            Crea actividades, tareas y recordatorios, clasifica a tus leads <br class="desktopElement"> según las terapias o cursos de interés, mantén comunicación <br class="desktopElement"> con tus leads o clientes con campañas personalizadas.',
+                            'text' => 'En Escala tenemos el CRM más fácil de usar para que tú mismo <br class="desktopElement"> puedas hacerle seguimiento a cada lead o cliente hasta cerrar <br class="desktopElement"> la venta de tus servicios, pasando por el desarrollo profesional <br class="desktopElement"> de las sesiones de training y formación.
+                            <br class="space">
+                            Crea actividades, tareas y recordatorios para tu equipo de <br class="desktopElement"> ventas. Clasifica a tus leads según las terapias o cursos de <br class="desktopElement"> interés, mantén comunicación constante con campañas personalizadas.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_3.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">
                                 Nutre la relación <br class="desktopElement"> con tus leads y clientes
                                 </span>',
-                            'text' => '
-                            Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes. Envía emails <br class="desktopElement"> masivos, en el momento adecuado para:
+                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes.  Envía emails <br class="desktopElement"> masivos, en el momento adecuado para:
                             <br class="space"><br class="space">
                             <ul>
                                 <li>Presentar nuevos servicios</li>
-                                <li>Reforzar las razones de la elección de tu seguro</li>
+                                <li>Reforzar las razones de la elección de tu consultoría</li>
                                 <li>Mantenerlos informados sobre las novedades</li>
                             </ul>',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
@@ -122,12 +123,12 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'title' => '<span class="greenBlueColor">¿Escala tiene todo <br class="desktopTabletElement"> lo que mi seguro necesita?</span>',
+                'title' => '<span class="greenBlueColor">
+                    ¿Escala tiene todo <br class="desktopTabletElement">
+                    lo que necesito?
+                    </span>',
                 'img' => App::setFilePath('/assets/images/illustrations/otto/seguros-5 1.png'),
-                'text' => '
-                No importa el tamaño de su empresa. Empodera a tus equipos:<br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio
-                <br class="space"><br class="space">
-                Quiero conocer el plan para empresas de seguro',
+                'text' => 'Empodera tus servicios de coaching con todas las herramientas <br class="desktopTabletElement"> digitales en un solo lugar. Es momento de acelerar el crecimiento de tu <br class="desktopTabletElement"> emprendimiento.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
                 'typeButton' => 'primaryButton',
@@ -152,9 +153,9 @@
                 'text' => '
                 Conoce nuestros planes para profesionales <br class="desktopElement"> de coaching. Paga por número de contactos <br class="desktopElement"> de marketing y ten todas las herramientas en <br class="desktopElement"> una sola plataforma.',
                 'enableButton' => true,
-                'urlButton' => App::setTypeUrl().'/pricing',
+                'urlButton' => App::setTypeUrl().'/zoom-meeting',
                 'typeButton' => 'primaryButton',
-                'textButton' => 'Conoce nuestros planes',
+                'textButton' => 'Hablar con un asesor',
                 'side' => 'left',
             ];
         @endphp
@@ -162,7 +163,7 @@
         @contain_text_image_T1( $parameters )
 
         @endcontain_text_image_T1
-
+{{--
             @php
                 $parameters = [
                     'type' => 'backgroundColor',
@@ -187,12 +188,9 @@
 
             @contain_testimonial_text_video_T1( $parameters )
 
-            @endcontain_testimonial_text_video_T1
+            @endcontain_testimonial_text_video_T1 --}}
 
-
-            <section class="customSection sectionParent landingServCoaching6">
-
-
+            {{-- <section class="customSection sectionParent landingServCoaching6">
 
                 <section class="innerSectionElement">
 
@@ -210,7 +208,6 @@
 
                         <h2 class="primaryTitle whiteColor">
                             Conocimiento es poder
-
                         </h2>
 
                         <p class="text">
@@ -226,17 +223,15 @@
 
                 </section>
 
-
                 <div style="background-image: url('{!! App::setFilePath('/assets/images/overlays/estrellas-inv 3.png') !!}')" class="backgroundPlanets">
                 </div>
 
-
-            </section>
+            </section> --}}
 
             @php
             $parameters = [
                 'classSection' => 'landingServCoaching7',
-                'title' => 'Atrae leads de calidad <br class="desktopTabletElement"> y convierte más ventas <br class="desktopTabletElement"> con Escala.',
+                'title' => 'Atrae más leads de calidad <br class="desktopTabletElement"> y convierte más ventas <br class="desktopTabletElement"> con Escala',
                 'textForm' => 'Pruébalo gratis ahora',
                 'text' => null,
                 'image' => App::setFilePath('/assets/images/illustrations/others/escalaventas_05.png'),

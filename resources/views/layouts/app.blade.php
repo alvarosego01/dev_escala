@@ -23,7 +23,7 @@ wp_localize_script(
 );
 @endphp
 
-{{-- <input type="hidden" id="redirectParam" name="redirectParam" value="{{ $redirect }}"> --}}
+<input type="hidden" id="redirectParam" name="redirectParam" value="{{ $redirect }}">
 
 @endif
 
