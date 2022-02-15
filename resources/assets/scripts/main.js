@@ -83,9 +83,7 @@ jQuery(document).ready(function () {
         if (re && re != null && re != '') {
             console.log('prev 1 red' + re);
 
-            re = await parametersToRedirect(re, inputs).then( (r) => {
-                return r;
-            });
+            re = parametersToRedirect(re, inputs);
             console.log('redirect form sent', re);
 
             window.location.href = re;
@@ -143,9 +141,7 @@ jQuery(document).ready(function () {
 
         if (re && re != null && re != '') {
             console.log('prev 1 red' + re);
-            re = await parametersToRedirect(re, inputs).then( (r) => {
-                return r;
-            });
+            re = parametersToRedirect(re, inputs);
 
             console.log('redirect form failed', re);
 
