@@ -2,8 +2,6 @@
 
 function parametersToRedirect(redirect, params) {
 
-    return new Promise( (resolve, reject), () => {
-
         let aux = redirect;
         if (redirect.includes("{{-- special --}}")) {
 
@@ -28,9 +26,7 @@ function parametersToRedirect(redirect, params) {
 
         }
 
-        resolve(aux);
-
-    });
+        return aux;
 
 }
 
@@ -85,6 +81,7 @@ jQuery(document).ready(function () {
         console.log('prev red' + re);
 
         if (re && re != null && re != '') {
+            console.log('prev 1 red' + re);
 
             re = await parametersToRedirect(re, inputs).then( (r) => {
                 return r;
@@ -145,7 +142,7 @@ jQuery(document).ready(function () {
         console.log('prev red' + re);
 
         if (re && re != null && re != '') {
-
+            console.log('prev 1 red' + re);
             re = await parametersToRedirect(re, inputs).then( (r) => {
                 return r;
             });
