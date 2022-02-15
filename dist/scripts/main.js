@@ -1,1 +1,154 @@
-function parametersToRedirect(e,r){let t=e;return e.includes("{{-- special --}}")&&(t=t.replace("{{-- special --}}",""),null!=(r=r.filter(e=>{if("your-email"==e.name)return e.value}))&&null!=r[0]&&0!=r[0].value&&(r=r[0].value,r=Base64.encode(r),t=t.replace("{{-- email64 --}}",r)),t=t.replace("{{-- leadSignUp --}}","trial"),t=t.replace(/\s+/g,"")),t}jQuery(document).ready(function(){document.addEventListener("wpcf7mailsent",function(e){var r=e.detail.inputs;let t=e.path,a=null;window.dataLayer.push({event:"cf7submission",formId:event.detail.contactFormId,response:event.detail.inputs});e=t.filter(e=>{if("special-redirect"==e.name)return e.value});null!=e&&null!=e[0]&&0!=e[0].value&&(a=e[0].value),"undefined"!=typeof dataPHP&&dataPHP.redirect&&(a=dataPHP.redirect),null!=jQuery("#redirectParam").val()&&(a=jQuery("#redirectParam").val()),jQuery(t[1]).attr("redirectWeb")&&"true"==jQuery(t[1]).attr("redirectWeb")&&a&&null!=a&&""!=a&&(a=parametersToRedirect(a,r),console.log("redirect form",a),window.location.replace(a))},!1),document.addEventListener("wpcf7mailfailed",function(e){var r=e.detail.inputs;let t=e.path,a=null;window.dataLayer.push({event:"cf7submission",formId:event.detail.contactFormId,response:event.detail.inputs});e=t.filter(e=>{if("special-redirect"==e.name)return e.value});null!=e&&null!=e[0]&&0!=e[0].value&&(a=e[0].value),"undefined"!=typeof dataPHP&&dataPHP.redirect&&(a=dataPHP.redirect),null!=jQuery("#redirectParam").val()&&(a=jQuery("#redirectParam").val()),jQuery(t[1]).attr("redirectWeb")&&"true"==jQuery(t[1]).attr("redirectWeb")&&a&&null!=a&&""!=a&&(a=parametersToRedirect(a,r),console.log("redirect form failed",a))},!1)});
+
+
+function parametersToRedirect(redirect, params) {
+
+        let aux = redirect;
+        if (redirect.includes("{{-- special --}}")) {
+
+            aux = aux.replace("{{-- special --}}", "");
+
+            let email = params.filter( ( r ) => {
+                if (r.name == 'your-email') {
+                    return r.value;
+                }
+            });
+
+            if ((email != null) && (email[0] != null) && (email[0].value != 0)) {
+
+                let e = email[0].value;
+                e = Base64.encode(e);
+                aux = aux.replace("{{-- email64 --}}", e);
+
+            }
+
+            aux = aux.replace("{{-- leadSignUp --}}", 'trial');
+            aux = aux.replace(/\s+/g, '');
+
+        }
+
+        return aux;
+
+}
+
+
+jQuery(document).ready(function () {
+
+    document.addEventListener('wpcf7mailsent', async (e) => {
+
+        let inputs = e['detail']['inputs'];
+        let l = e.path;
+        let re = null;
+
+        console.log('var event inputs', inputs);
+
+        window.dataLayer.push({
+            "event": "cf7submission",
+            "formId": event.detail.contactFormId,
+            "response": event.detail.inputs
+        });
+
+        let specialRedirect = inputs.filter( (r) => {
+            if (r.name == 'special-redirect') {
+                return r.value;
+            }
+        });
+
+        if ((specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0)) {
+
+            re = specialRedirect[0].value;
+
+        }
+
+        // redirect
+        if (typeof (dataPHP) !== 'undefined') {
+
+            if (dataPHP.redirect) {
+
+                re = dataPHP.redirect;
+
+            }
+
+        }
+
+        if ( document.querySelector("#redirectParam") != null) {
+
+            // re = jQuery('#redirectParam').val();
+            let _z = document.querySelector("#redirectParam")
+            re = _z.value;
+
+        }
+
+        console.log('prev red' + re);
+
+        if (re && re != null && re != '') {
+            console.log('prev 1 red' + re);
+
+            re = parametersToRedirect(re, inputs);
+            console.log('redirect form sent', re);
+
+            window.location.href = re;
+
+        }
+
+    }, false);
+
+    document.addEventListener('wpcf7mailfailed', async (e) =>  {
+
+        let inputs = e['detail']['inputs'];
+        let l = e.path;
+        let re = null;
+
+        console.log('var event inputs', inputs);
+
+        window.dataLayer.push({
+            "event": "cf7submission",
+            "formId": event.detail.contactFormId,
+            "response": event.detail.inputs
+        });
+
+        let specialRedirect = inputs.filter( (r) => {
+            if (r.name == 'special-redirect') {
+                return r.value;
+            }
+        });
+
+        if ((specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0)) {
+
+            re = specialRedirect[0].value;
+
+        }
+
+        // redirect
+        if (typeof (dataPHP) !== 'undefined') {
+
+            if (dataPHP.redirect) {
+
+                re = dataPHP.redirect;
+
+            }
+
+        }
+
+        if ( document.querySelector("#redirectParam") != null) {
+
+            // re = jQuery('#redirectParam').val();
+            let _z = document.querySelector("#redirectParam")
+            re = _z.value;
+
+        }
+
+        console.log('prev red' + re);
+
+        if (re && re != null && re != '') {
+            console.log('prev 1 red' + re);
+            re = parametersToRedirect(re, inputs);
+
+            console.log('redirect form failed', re);
+
+            // window.location.href = re;
+        }
+
+    }, false);
+
+
+  });

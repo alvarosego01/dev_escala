@@ -12,8 +12,7 @@ $redirect = strval($redirect);
 
 @if (isset($redirect) && $redirect != null)
 
-{{-- @php
-
+@php
 wp_localize_script(
     'sage/main.js',
     'dataPHP',
@@ -22,9 +21,7 @@ wp_localize_script(
     )
 
 );
-
-@endphp --}}
-
+@endphp
 
 <input type="hidden" id="redirectParam" name="redirectParam" value="{{ $redirect }}">
 

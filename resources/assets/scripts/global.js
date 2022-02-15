@@ -73,7 +73,7 @@ function _openSideNav(type) {
     if (type == 'close') {
         console.log('close sidenav');
         jQuery('nav', sideNavBar)[0].classList.add("animate__slideOutRight");
-        jQuery('nav', sideNavBar)[0].addEventListener('animationend', (e) => {
+        jQuery('nav', sideNavBar)[0].addEventListener('animationend', function(e) {
             // do something
             if (e.animationName == 'slideOutRight') {
                 console.log('abre');
@@ -84,7 +84,7 @@ function _openSideNav(type) {
                 jQuery('nav', sideNavBar)[0].classList.remove("animate__slideOutRight")
                 // sideNavBar[0].classList.add("animate__fadeOut")
 
-                e.target.removeEventListener('animationend', () => {
+                e.target.removeEventListener('animationend', function() {
 
                 });
 

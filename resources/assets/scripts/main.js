@@ -1,42 +1,45 @@
 
 
-function parametersToRedirect( redirect, params ){
+function parametersToRedirect(redirect, params) {
 
-    let aux = redirect;
-    if( redirect.includes("{{-- special --}}") ){
+        let aux = redirect;
+        if (redirect.includes("{{-- special --}}")) {
 
-        aux = aux.replace("{{-- special --}}", "");
+            aux = aux.replace("{{-- special --}}", "");
 
-        let email = params.filter(r => {
-            if (r.name == 'your-email') {
-                return r.value;
+            let email = params.filter( ( r ) => {
+                if (r.name == 'your-email') {
+                    return r.value;
+                }
+            });
+
+            if ((email != null) && (email[0] != null) && (email[0].value != 0)) {
+
+                let e = email[0].value;
+                e = Base64.encode(e);
+                aux = aux.replace("{{-- email64 --}}", e);
+
             }
-        });
 
-        if ( (email != null) && (email[0] != null) &&  (email[0].value != 0) ) {
-
-            let e = email[0].value;
-            e = Base64.encode( e );
-            aux = aux.replace("{{-- email64 --}}", e);
+            aux = aux.replace("{{-- leadSignUp --}}", 'trial');
+            aux = aux.replace(/\s+/g, '');
 
         }
 
-        aux = aux.replace("{{-- leadSignUp --}}", 'trial');
-        aux = aux.replace(/\s+/g, '');
-
-    }
-
-    return aux;
+        return aux;
 
 }
 
+
 jQuery(document).ready(function () {
 
-    document.addEventListener('wpcf7mailsent', function (e) {
+    document.addEventListener('wpcf7mailsent', async (e) => {
 
         let inputs = e['detail']['inputs'];
         let l = e.path;
         let re = null;
+
+        console.log('var event inputs', inputs);
 
         window.dataLayer.push({
             "event": "cf7submission",
@@ -44,13 +47,13 @@ jQuery(document).ready(function () {
             "response": event.detail.inputs
         });
 
-        let specialRedirect = l.filter(r => {
+        let specialRedirect = inputs.filter( (r) => {
             if (r.name == 'special-redirect') {
                 return r.value;
             }
         });
 
-        if ( (specialRedirect != null) && (specialRedirect[0] != null) &&  (specialRedirect[0].value != 0) ) {
+        if ((specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0)) {
 
             re = specialRedirect[0].value;
 
@@ -67,45 +70,35 @@ jQuery(document).ready(function () {
 
         }
 
-        if( jQuery('#redirectParam').val() != null ){
+        if ( document.querySelector("#redirectParam") != null) {
 
-            re = jQuery('#redirectParam').val();
-
-        }
-
-        if (jQuery(l[1]).attr('redirectWeb')) {
-
-            var x = jQuery(l[1]).attr('redirectWeb');
-            if (x == 'true') {
-
-                if (re && re != null && re != '') {
-
-                    re = parametersToRedirect( re, inputs );
-
-                    console.log('redirect form', re);
-                    window.location.replace(re);
-
-                }
-
-            }
+            // re = jQuery('#redirectParam').val();
+            let _z = document.querySelector("#redirectParam")
+            re = _z.value;
 
         }
 
-        //   var encodedStr = Base64.encode( email );
-        //   console.log("Encoded string:", encodedStr);
+        console.log('prev red' + re);
 
-        //   var decodedStr = Base64.decode(encodedStr)
-        //   console.log("Decoded string:", decodedStr);
+        if (re && re != null && re != '') {
+            console.log('prev 1 red' + re);
 
-        // {{-- special --}} https://app.escala.com/app/activation/survey/{{-- email64 --}}/{{-- leadSignUp --}}
+            re = parametersToRedirect(re, inputs);
+            console.log('redirect form sent', re);
+
+            window.location.href = re;
+
+        }
 
     }, false);
 
-    document.addEventListener('wpcf7mailfailed', function (e) {
+    document.addEventListener('wpcf7mailfailed', async (e) =>  {
 
         let inputs = e['detail']['inputs'];
         let l = e.path;
         let re = null;
+
+        console.log('var event inputs', inputs);
 
         window.dataLayer.push({
             "event": "cf7submission",
@@ -113,13 +106,13 @@ jQuery(document).ready(function () {
             "response": event.detail.inputs
         });
 
-        let specialRedirect = l.filter(r => {
+        let specialRedirect = inputs.filter( (r) => {
             if (r.name == 'special-redirect') {
                 return r.value;
             }
         });
 
-        if ( (specialRedirect != null) && (specialRedirect[0] != null) &&  (specialRedirect[0].value != 0) ) {
+        if ((specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0)) {
 
             re = specialRedirect[0].value;
 
@@ -136,39 +129,26 @@ jQuery(document).ready(function () {
 
         }
 
-        if( jQuery('#redirectParam').val() != null ){
+        if ( document.querySelector("#redirectParam") != null) {
 
-            re = jQuery('#redirectParam').val();
-
-        }
-
-        if (jQuery(l[1]).attr('redirectWeb')) {
-
-            var x = jQuery(l[1]).attr('redirectWeb');
-            if (x == 'true') {
-
-                if (re && re != null && re != '') {
-
-                    re = parametersToRedirect( re, inputs );
-
-                    console.log('redirect form failed', re);
-
-                    // window.location.replace(re);
-                }
-
-            }
+            // re = jQuery('#redirectParam').val();
+            let _z = document.querySelector("#redirectParam")
+            re = _z.value;
 
         }
 
-        //   var encodedStr = Base64.encode( email );
-        //   console.log("Encoded string:", encodedStr);
+        console.log('prev red' + re);
 
-        //   var decodedStr = Base64.decode(encodedStr)
-        //   console.log("Decoded string:", decodedStr);
+        if (re && re != null && re != '') {
+            console.log('prev 1 red' + re);
+            re = parametersToRedirect(re, inputs);
 
-        // {{-- special --}} https://app.escala.com/app/activation/survey/{{-- email64 --}}/{{-- leadSignUp --}}
+            console.log('redirect form failed', re);
+
+            // window.location.href = re;
+        }
 
     }, false);
 
 
-});
+  });
