@@ -2,15 +2,14 @@
 
 function parametersToRedirect(redirect, params) {
 
-    return new Promise((resolve, reject),  function() {
-
+    return new Promise( (resolve, reject), () => {
 
         let aux = redirect;
         if (redirect.includes("{{-- special --}}")) {
 
             aux = aux.replace("{{-- special --}}", "");
 
-            let email = params.filter( function( r ) {
+            let email = params.filter( ( r ) => {
                 if (r.name == 'your-email') {
                     return r.value;
                 }
@@ -30,6 +29,7 @@ function parametersToRedirect(redirect, params) {
         }
 
         resolve(aux);
+
     });
 
 }
@@ -49,6 +49,8 @@ function ready(fn) {
   ready(function (e) {
     // do something here..
 
+    console.log('coñoooo');
+
     document.addEventListener('wpcf7mailsent', async function (e) {
 
         let inputs = e['detail']['inputs'];
@@ -63,7 +65,7 @@ function ready(fn) {
             "response": event.detail.inputs
         });
 
-        let specialRedirect = inputs.filter( function(r) {
+        let specialRedirect = inputs.filter( (r) => {
             if (r.name == 'special-redirect') {
                 return r.value;
             }
@@ -98,7 +100,7 @@ function ready(fn) {
 
         if (re && re != null && re != '') {
 
-            re = await parametersToRedirect(re, inputs).then( function(r) {
+            re = await parametersToRedirect(re, inputs).then( (r) => {
                 return r;
             });
             console.log('redirect form sent', re);
@@ -117,7 +119,7 @@ function ready(fn) {
 
     }, false);
 
-    document.addEventListener('wpcf7mailfailed', async function (e) {
+    document.addEventListener('wpcf7mailfailed', function (e)  {
 
         let inputs = e['detail']['inputs'];
         let l = e.path;
@@ -131,7 +133,7 @@ function ready(fn) {
             "response": event.detail.inputs
         });
 
-        let specialRedirect = inputs.filter( function(r) {
+        let specialRedirect = inputs.filter( (r) => {
             if (r.name == 'special-redirect') {
                 return r.value;
             }
@@ -162,13 +164,13 @@ function ready(fn) {
 
         }
 
+        console.log('redirect form failed', re);
         if (re && re != null && re != '') {
 
-            re = await parametersToRedirect(re, inputs).then( function(r) {
+            re = await parametersToRedirect(re, inputs).then( (r) => {
                 return r;
             });
 
-            console.log('redirect form failed', re);
 
             // window.location.href = re;
         }
