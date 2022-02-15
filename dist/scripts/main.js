@@ -34,17 +34,8 @@ function parametersToRedirect(redirect, params) {
 
 }
 
-function ready(fn) {
-    if (document.readyState != 'loading'){
-      fn();
-    } else {
-      document.addEventListener('DOMContentLoaded', fn);
-    }
-  }
 
-
-  ready(function (e) {
-    // do something here..
+jQuery(document).ready(function () {
 
     document.addEventListener('wpcf7mailsent', async function (e) {
 
