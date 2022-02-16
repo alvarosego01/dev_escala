@@ -75,7 +75,7 @@
                         ],
                         [
                             'title' => '<span class="greenBlueColor">No pierdas ningún <br class="space"> dato de tus futuros <br class="space"> pacientes</span>',
-                            'text' => 'Nuestras landing pages tienen formularios inteligentes. Lo que <br class="desktopElement"> te ayudará a registrar toda su información de tus futuros <br class="desktopElement"> pacientes, guardándola automáticamente en tu CRM de Escala.<br class="desktopElement"> Así podrás tener mejor control de sus datos, sin perder ninguna <br class="desktopElement"> información.',
+                            'text' => 'Nuestras landing pages tienen formularios integrados. Lo que <br class="desktopElement"> te ayudará a registrar toda su información de tus futuros <br class="desktopElement"> pacientes, guardándola automáticamente en tu CRM de Escala.<br class="desktopElement"> Así podrás tener mejor control de sus datos, sin perder ninguna <br class="desktopElement"> información.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_2.png'),
                         ],
                         [

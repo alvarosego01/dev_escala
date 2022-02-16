@@ -57,7 +57,7 @@
                     'urlButton' =>  App::setTypeUrl().'/zoom-meeting',
                     'textButton' => 'Conocer más',
                     'typeButton' => 'primaryButton hoverInEffect',
-                    'titlePrincipal' => '  <span class="greenBlueColor">En Escala impulsa tu negocio</span> <br class="desktopElement"> de coaching online',
+                    'titlePrincipal' => '  <span class="greenBlueColor">Con Escala impulsas tu negocio</span> <br class="desktopElement"> a crecer',
                     'elements' => [
                         [
                             'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopElement"> desde Facebook</span>
@@ -78,7 +78,7 @@
                             'title' => '<span class="greenBlueColor">
                                 No pierdas ningún <br class="desktopElement"> dato de tus leads
                                </span>',
-                            'text' => 'Nuestras landing pages tienen formularios inteligentes. Cuando <br class="desktopElement"> tus visitantes registran toda su información en ellos, queda <br class="desktopElement"> guardada automáticamente en tu CRM de Escala. Así podrás <br class="desktopElement"> tener mejor control de los datos de tus leads.',
+                            'text' => 'Nuestras landing pages tienen formularios integrados. Cuando <br class="desktopElement"> tus visitantes registran toda su información en ellos, queda <br class="desktopElement"> guardada automáticamente en tu CRM de Escala. Así podrás <br class="desktopElement"> tener mejor control de los datos de tus leads.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_2.png'),
                         ],
                         [

@@ -57,7 +57,7 @@
                     'urlButton' =>  App::setTypeUrl().'/zoom-meeting',
                     'textButton' => 'Conocer más',
                     'typeButton' => 'primaryButton hoverInEffect',
-                    'titlePrincipal' => '<span class="blackColor2">¿Cómo te ayudamos a crecer?</span>',
+                    'titlePrincipal' => '<span class="blackColor2">¿Cómo te impulsamos a crecer?</span>',
                     'elements' => [
                         [
                             'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopTabletElement"> desde Facebook</span>
@@ -73,7 +73,7 @@
                         ],
                         [
                             'title' => '<span class="greenBlueColor">No pierdas <br class="desktopTabletElement"> ningún dato </span>',
-                            'text' => 'Ahora podrás tener mejor control de los datos de tus leads. Nuestras <br class="desktopElement"> landing pages tienen formularios inteligentes que te garantizan guardar <br class="desktopElement"> automáticamente en tu CRM todos la información de tus visitantes.',
+                            'text' => 'Ahora podrás tener mejor control de los datos de tus leads. Nuestras <br class="desktopElement"> landing pages tienen formularios integrados que te garantizan guardar <br class="desktopElement"> automáticamente en tu CRM todos la información de tus visitantes.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_2.png'),
                         ],
                         [
@@ -219,7 +219,7 @@
             @php
                 $parameters = [
                     'classSection' => 'landingServSeguros7',
-                    'title' => 'Atrae leads de calidad <br class="desktopTabletElement"> <span>y convierte más ventas con Escala</span>',
+                    'title' => 'Atrae leads de calidad y convierte <br class="desktopTabletElement"> más ventas con Escala',
                     'textForm' => 'Pruébalo gratis ahora',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/person/am/am-dedicado.png'),

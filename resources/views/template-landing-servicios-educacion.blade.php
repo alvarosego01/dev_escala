@@ -90,7 +90,7 @@
                         ],
                         [
                             'title' => '<span class="greenBlueColor">No pierdas ningún <br class="space"> dato de los alumnos</span>',
-                            'text' => 'Nuestras landing pages tienen formularios inteligentes.<br class="desktopElement"> Cuando tus visitantes registran toda su información en ellos,<br class="desktopElement"> queda guardada automáticamente en tu CRM de Escala. Así <br class="desktopElement"> podrás tener mejor control de los datos de tus alumnos.',
+                            'text' => 'Nuestras landing pages tienen formularios integrados.<br class="desktopElement"> Cuando tus visitantes registran toda su información en ellos,<br class="desktopElement"> queda guardada automáticamente en tu CRM de Escala. Así <br class="desktopElement"> podrás tener mejor control de los datos de tus alumnos.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_2.png'),
                         ],
                         [
