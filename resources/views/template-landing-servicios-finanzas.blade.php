@@ -45,7 +45,9 @@
 
 
                         <p class="primaryText colorDarkGrey3">
-                            Escala ayuda a las empresas dedicadas a los servicios financieros como: <br class="desktopElement"> aseguradoras, banca, coaching financieros u otras compañías de la industria <br class="desktopElement"> a generar más leads de calidad y cerrar más ventas.
+
+                            Escala ayuda a las empresas dedicadas a los servicios financieros como: <br class="desktopElement"> aseguradoras, banca u otras compañías de la industria <br class="desktopElement"> a generar más leads de calidad y cerrar más ventas.
+
 
                         </p>
 
@@ -71,17 +73,16 @@
                     'elements' => [
                         [
                             'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopElement"> desde Facebook</span>',
-                            'text' => 'En Escala entendemos que las empresas aseguradoras necesitan dar a <br class="desktopElement"> conocer múltiples servicios  y generar tráfico a sus páginas o landing <br class="desktopElement"> pages. Por ello puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma.
+                            'text' => 'En Escala entendemos que tu industria necesita dar información y generar <br class="desktopElement"> curiosidad en los servicios de tu empresa. Por ello puedes crear, <br class="desktopElement"> administrar y publicar campañas de anuncios digitales, sin salir de nuestra <br class="desktopElement"> plataforma.
                             <br class="space"><br class="space">
-                            Empodera a tu equipo de growth marketing para atraer más leads <br class="desktopElement"> calificados con campañas de retargeting y segmentadas por intereses <br class="desktopElement"> como: salud, vida, auto y seguros de hogar.
-
-                                       ',
+                            Empodera a tu equipo de growth marketing, para generar <br class="desktopElement"> tráfico a tus páginas o landing pages, con campañas de retargeting y <br class="desktopElement"> segmentadas por intereses como: seguros, bancos, hipotecas e <br class="desktopElement"> instrumentos financieros',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Convierte a tus visitantes <br class="desktopElement"> en leads con landing <br class="desktopElement"> pages optimizadas</span>',
-                            'text' => 'Haz que todos conozcan tus servicios de salud y capta la <br class="desktopElement"> información de contacto de tus posibles pacientes e <br class="desktopElement"> interesados con landing pages optimizadas. <br class="space">
-                            Elige una de nuestras plantillas, personalízala y publícala con <br class="desktopElement"> un clic,sin programar o diseñar. ',
+                            'text' => 'Genera diferentes landing pages según tu oferta de servicios,<br class="desktopElement"> sin programar o diseñar. Tu equipo de marketing podrá crear y <br class="desktopElement"> publicar landing pages optimizadas en pocos minutos. Solo <br class="desktopElement"> deberán personalizarlas y listo.
+                            <br class="space"><br class="space">
+                            Genera mayor conversión de visitantes en leads de calidad,<br class="desktopElement"> pre-fíltralos y guárdalos directamente en tu CRM con <br class="desktopElement"> nuestros formularios inteligentes, integrados a tus páginas.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icon-finanzas.png'),
                         ],
                         [
@@ -91,17 +92,20 @@
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Organiza y gestiona <br class="desktopElement"> tu base de datos</span>',
-                            'text' => 'Entendemos que la adquisición de un seguro implica varios pasos; desde la <br class="desktopElement"> cotización, comparación de precios con la competencia, hasta la decisión <br class="desktopElement"> final de compra y una posterior fidelización del cliente (retención de pólizas).
+                            'text' => 'Entendemos que la adquisición de un servicio financiero implica varios <br class="desktopElement"> pasos; desde la cotización, comparación de precios con la competencia,<br class="desktopElement"> hasta la decisión final de compra y una posterior fidelización del cliente.
                             <br class="space"><br class="space">
-                            Optimiza el seguimiento de cada cliente con el CRM de Escala que simplifica <br class="desktopElement"> toda tu gestión de ventas. Crea actividades y tareas para tu equipo de <br class="desktopElement"> ventas, mantén comunicación con leads hipersegmentados según sus áreas <br class="desktopElement"> de interés, incrementa la recompra con promociones customizadas, ofrece nuevos servicios.',
+                            Optimiza el seguimiento de cada cliente con el CRM de Escala que <br class="desktopElement"> simplifica toda tu gestión de ventas. Crea actividades y tareas para tu <br class="desktopElement"> equipo de ventas, mantén comunicación con leads hipersegmentados <br class="desktopElement"> según sus áreas de interés, incrementa la recompra con promociones <br class="desktopElement"> customizadas, ofrece nuevos servicios.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_3.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Nutre la relación <br class="desktopElement"> con tus leads y clientes</span>',
-                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes. Envía emails <br class="desktopElement"> masivos, en el momento adecuado para: <br class="space">
-                            Presentar nuevos servicios <br class="space">
-                            Reforzar las razones de la elección de tu seguro <br class="space">
-                            Mantenerlos informados sobre las novedades',
+                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes. potenciales.<br class="desktopElement"> Envía emails masivos, en el momento adecuado para: <br class="space">
+                            <ul>
+                                <li>Presentar nuevos servicios</li>
+                                <li>Reforzar las razones de la elección de tus servicios financieros</li>
+                                <li>Mantenerlos informados sobre las novedades</li>
+                                <li>Incrementar el ticket de compra ofreciéndoles up grades en: pólizas,<br class="desktopElement"> financieros, préstamos e hipotecas.</li>
+                            </ul>',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
                         ],
                         [
@@ -129,9 +133,9 @@
                 'subTitlePrincipal' => null,
                 'title' => '<span class="greenBlueColor">¿Escala tiene todo <br class="space"> lo que mi empresa necesita? </span>',
                 'img' => App::setFilePath('/assets/images/illustrations/otto/Otto_CRM-01.png'),
-                'text' => 'No importa el tamaño de su empresa. Empodera a tus equipos: <br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio
+                'text' => 'No importa el tamaño de su empresa. Empodera a tus equipos:<br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio
                 <br class="space"><br class="space">
-                Quiero conocer el plan para empresas de seguro',
+                Quiero conocer el plan para empresas de finanzas',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
                 'typeButton' => 'primaryButton',
@@ -155,9 +159,9 @@
                 'img' => App::setFilePath('/assets/images/illustrations/others/paymentpages-1 1.png'),
                 'text' => 'En Escala tenemos un plan a la medida de tus necesidades. <br class="desktopElement"> Conoce nuestros planes para cada tamaño de empresa y número <br class="desktopElement"> de contactos de marketing. Optimiza tu inversión en ventas <br class="desktopElement"> y marketing digital.',
                 'enableButton' => true,
-                'urlButton' => App::setTypeUrl().'/pricing',
+                'urlButton' => App::setTypeUrl().'/zoom-meeting',
                 'typeButton' => 'primaryButton',
-                'textButton' => 'Conoce nuestros planes',
+                'textButton' => 'Hablar con un asesor',
                 'side' => 'left',
             ];
         @endphp
@@ -173,14 +177,16 @@
                     'enableTitle' => false,
                     'titlePrincipal' => null,
                     'subTitlePrincipal' => null,
-                    'title' => '<span class="greenBlueColor">Conoce cómo hemos ayudado <br class="space"> a otras compañías aseguradoras</span>',
+                    'title' => '<span class="greenBlueColor">
+                        Conoce cómo hemos ayudado <br class="desktopElement"> a otras compañías de finanzas
+                        </span>',
                     'video' => 'https://www.youtube.com/embed/XUPOcRPXuzA',
                     'text' => '“Todo nuestro equipo trabaja con Escala: ventas, marketing y comercial.<br class="desktopElement"> Nuestro plan de negocios va sobre ruedas. Nuestras ventas han crecido <br class="desktopElement"> en un 300%. Es la mejor inversión que hemos hecho”',
                     'enableButton' => false,
                     // 'urlButton' => '#lead-form',
                     // 'textButton' => 'Segmentar ahora',
                     'enableAutor' => true,
-                    'autor' => '<span>Luisa Osorio</span><small>Seguros La Previsora</small>',
+                    'autor' => '<span>Luisa Osorio</span><small>Banca Mía</small>',
                     'side' => 'right',
                 ];
 
@@ -193,7 +199,7 @@
             @endcontain_testimonial_text_video_T1
 
 
-            <section class="customSection sectionParent landingServFinanzas6">
+            {{-- <section class="customSection sectionParent landingServFinanzas6">
 
 
 
@@ -234,7 +240,7 @@
                 </div>
 
 
-            </section>
+            </section> --}}
 
             @php
             $parameters = [
