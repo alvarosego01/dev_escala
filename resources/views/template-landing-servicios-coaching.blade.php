@@ -57,14 +57,14 @@
                     'urlButton' =>  App::setTypeUrl().'/zoom-meeting',
                     'textButton' => 'Conocer más',
                     'typeButton' => 'primaryButton hoverInEffect',
-                    'titlePrincipal' => '  <span class="greenBlueColor">Con Escala impulsas tu negocio</span> <br class="desktopElement"> a crecer',
+                    'titlePrincipal' => '<span class="greenBlueColor">Con Escala crece tu negocio</span> <br class="desktopElement"> de coaching online',
                     'elements' => [
                         [
                             'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopElement"> desde Facebook</span>
                             ',
-                            'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes a tus <br class="desktopElement"> landing pages.
+                            'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes a tus landing pages.
                             <br class="space"><br class="space">
-                            Genera tus campañas de Facebook con la audiencia y el presupuesto ideal, <br class="desktopElement"> sin necesidad de contratar un profesional.',
+                            Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="desktopElement"> ideal, sin necesidad de contratar a un profesional.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
                         ],
                         [

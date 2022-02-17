@@ -74,8 +74,11 @@
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
                         ],
                         [
-                            'title' => '<span class="greenBlueColor">No pierdas ningún <br class="space"> dato de tus futuros <br class="space"> pacientes</span>',
-                            'text' => 'Nuestras landing pages tienen formularios integrados. Lo que <br class="desktopElement"> te ayudará a registrar toda su información de tus futuros <br class="desktopElement"> pacientes, guardándola automáticamente en tu CRM de Escala.<br class="desktopElement"> Así podrás tener mejor control de sus datos, sin perder ninguna <br class="desktopElement"> información.',
+                            'title' => '<span class="greenBlueColor">
+                            No pierdas ningún <br class="desktopElement"> dato de tus pacientes <br class="desktopElement"> potenciales
+                            </span>
+                            ',
+                            'text' => 'Nuestras landing pages tienen formularios integrados, lo que <br class="desktopElement"> te ayudará a registrar toda la información de contacto de tus <br class="desktopElement"> futuros pacientes, guardándola automáticamente en el CRM de <br class="desktopElement"> Escala. Así podrás tener mejor control de sus datos, sin perder <br class="desktopElement"> ninguna información.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_2.png'),
                         ],
                         [
@@ -118,7 +121,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'title' => '¿Escala tiene todo lo qué <br class="desktopTabletElement"> mi servicio de salud necesita? ',
+                'title' => '¿Escala tiene todo lo que <br class="desktopTabletElement"> mi servicio de salud necesita?',
                 'img' => App::setFilePath('/assets/images/illustrations/otto/seguros-5 1.png'),
                 'text' => 'No importa el tamaño de tu servicio de salud, empodera tu generación <br class="desktopElement"> de demanda, la capacidad de afianzar relaciones con tus pacientes y la <br class="desktopElement"> posibilidad de seguir brindándoles servicios customizados.',
                 'enableButton' => false,

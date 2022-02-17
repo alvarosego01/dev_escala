@@ -36,7 +36,7 @@
                 $parameters = [
                     'classSection' => 'landingServSeguros1 func',
                     'title' => '<span class="blackColor2">Escala es perfecto <br class="desktopElement"> para tu empresa</span>',
-                    'description' => 'Escala ayuda a tu aseguradora a generar más leads de calidad,<br class="desktopTabletElement"> optimizar toda la gestión de ventas y fidelizar a tus clientes. <br class="desktopTabletElement"> Sabemos que es una industria desafiante, cada vez más regulada <br class="desktopTabletElement"> y con un proceso de ventas complejo. Desde Escala te <br class="desktopTabletElement"> ayudaremos a optimizar tus resultados con una menor inversión <br class="desktopTabletElement"> de tiempo y dinero.',
+                    'description' => 'Escala ayuda a tu aseguradora a generar más leads de calidad,<br class="desktopTabletElement"> optimizar toda la gestión de ventas y fidelizar a tus clientes. <br class="desktopTabletElement"> Sabemos que es una industria desafiante, cada vez más <br class="desktopTabletElement"> regulada y con un proceso de ventas complejo. Desde Escala te <br class="desktopTabletElement"> ayudaremos a optimizar tus resultados con una menor inversión <br class="desktopTabletElement"> de tiempo y dinero.',
                     'byAm' => null,
                     'team' => null,
                     'image' => App::setFilePath('/assets/images/person/homebanner_persona-3B-1.png'),

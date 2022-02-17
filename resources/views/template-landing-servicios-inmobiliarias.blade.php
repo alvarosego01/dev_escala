@@ -69,7 +69,7 @@
                                 </span>',
                             'text' => 'Haz que todos conozcan tus servicios profesionales y capta la <br class="desktopElement"> información de contacto de tus visitantes con landing pages <br class="desktopElement"> optimizadas.
                             <br class="space"><br class="space">
-                            Elige una de nuestras plantillas, personalízala y publícala con un clic, sin programar o diseñar.',
+                            Elige una de nuestras plantillas, personalízala y publícala con <br class="desktopElement"> un clic, sin programar o diseñar.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
                         ],
                         [
@@ -92,7 +92,8 @@
                                 </span>',
                             'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes. potenciales. <br class="space">
                             Envía emails masivos, en el momento adecuado para:
-                            <br class="space"><br class="space">
+                            <br class="space">
+                            <br class="space">
                             <ul>
                                 <li>Presentar nuevos inmuebles en las zonas más buscadas</li>
                                 <li>Reforzar las razones de la elección de tus servicios</li>
