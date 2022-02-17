@@ -73,16 +73,16 @@
                     'elements' => [
                         [
                             'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopElement"> desde Facebook</span>',
-                            'text' => 'En Escala entendemos que tu industria necesita dar información y generar <br class="desktopElement"> curiosidad en los servicios de tu empresa. Por ello puedes crear, <br class="desktopElement"> administrar y publicar campañas de anuncios digitales, sin salir de nuestra <br class="desktopElement"> plataforma.
+                            'text' => 'En Escala entendemos que tu industria necesita dar información y generar curiosidad en los servicios de tu empresa. Por ello puedes crear,<br class="desktopElement"> administrar y publicar campañas de anuncios digitales, sin salir de <br class="desktopElement"> nuestra plataforma.
                             <br class="space"><br class="space">
-                            Empodera a tu equipo de growth marketing, para generar <br class="desktopElement"> tráfico a tus páginas o landing pages, con campañas de retargeting y <br class="desktopElement"> segmentadas por intereses como: seguros, bancos, hipotecas e <br class="desktopElement"> instrumentos financieros',
+                            Empodera a tu equipo de growth marketing, para generar <br class="desktopElement"> tráfico a tus páginas o landing pages, con campañas de retargeting <br class="desktopElement"> segmentadas por intereses como: seguros, bancos, hipotecas e <br class="desktopElement"> instrumentos financieros.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Convierte a tus visitantes <br class="desktopElement"> en leads con landing <br class="desktopElement"> pages optimizadas</span>',
-                            'text' => 'Genera diferentes landing pages según tu oferta de servicios,<br class="desktopElement"> sin programar o diseñar. Tu equipo de marketing podrá crear y <br class="desktopElement"> publicar landing pages optimizadas en pocos minutos. Solo <br class="desktopElement"> deberán personalizarlas y listo.
+                            'text' => 'Genera diferentes landing pages según tu oferta de servicios,<br class="desktopElement"> sin programar o diseñar. Tu equipo de marketing podrá crear y <br class="desktopElement"> publicar landing pages optimizadas en pocos minutos, solo <br class="desktopElement"> deberán personalizarlas y publicarlas.
                             <br class="space"><br class="space">
-                            Genera mayor conversión de visitantes en leads de calidad,<br class="desktopElement"> pre-fíltralos y guárdalos directamente en tu CRM con <br class="desktopElement"> nuestros formularios inteligentes, integrados a tus páginas.',
+                            Genera mayor conversión de visitantes en leads de calidad,<br class="desktopElement"> prefíltralos y guárdalos directamente en tu CRM con <br class="desktopElement"> nuestros formularios integrados a tus páginas.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icon-finanzas.png'),
                         ],
                         [
@@ -170,7 +170,7 @@
 
         @endcontain_text_image_T1
 
-            @php
+            {{-- @php
                 $parameters = [
                     'type' => 'backgroundColor',
                     'classSection' => 'landingServFinanzas5',
@@ -196,7 +196,7 @@
 
             @contain_testimonial_text_video_T1( $parameters )
 
-            @endcontain_testimonial_text_video_T1
+            @endcontain_testimonial_text_video_T1 --}}
 
 
             {{-- <section class="customSection sectionParent landingServFinanzas6">
