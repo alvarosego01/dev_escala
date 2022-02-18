@@ -45,12 +45,12 @@
                     Descubre cómo Escala ayuda a las <br class="desktopElement"> universidades, colegios e institutos <br class="desktopElement"> de formación
                     </span>',
                 'img' => App::setFilePath('/assets/images/illustrations/others/01_CRM 1.png'),
-                'text' => 'Conoce Escala la plataforma más fácil de usar con todas las <br class="desktopElement"> herramientas de marketing digital y ventas para que puedas:
+                'text' => 'Conoce Escala como la plataforma más fácil de usar con todas las <br class="desktopElement"> herramientas de marketing digital y ventas para que puedas:
                 <br class="space">
                 <ul>
                     <li>Captar mayor cantidad de estudiantes</li>
                     <li>Ofrecerles los cursos según sus áreas de interés</li>
-                    <li>Fidelizarlos como egresados a tu institución</li>
+                    <li>Fidelizarlos como egresados de tu institución</li>
                 </ul>',
                 'enableButton' => false,
                 'urlButton' => null,
@@ -246,7 +246,7 @@
                 'classSection' => 'landingServEducacion7',
                 'title' => '
                 <span class="greenBlueColor">
-                    Atrae más alumnos <br class="desktopElement"> y haz crecer tu institución <br class="desktopElement"> con Escala.
+                    Atrae más alumnos <br class="desktopElement"> y haz crecer tu institución <br class="desktopElement"> con Escala
                 </span>',
                 'textForm' => 'Pruébalo gratis ahora',
                 'text' => null,

@@ -63,7 +63,7 @@
                             'title' => '<span class="greenBlueColor">Genera tráfico <br class="space"> desde Facebook</span>',
                             'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes y <br class="desktopElement"> pacientes a tus páginas.
                              <br class="space"><br class="space">
-                            Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="desktopElement"> ideal, sin necesidad de contratar un profesional.',
+                            Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="desktopElement"> ideal, sin necesidad de contratar a un profesional.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
                         ],
                         [
@@ -148,7 +148,7 @@
                 'subTitlePrincipal' => null,
                 'title' => '<span class="greenBlueColor">Un plan hecho a tu medida</span>',
                 'img' => App::setFilePath('/assets/images/illustrations/others/paymentpages-1 1.png'),
-                'text' => 'Conoce nuestros planes para profesionales de salud.<br class="desktopElement"> Paga por número de contactos de marketing y ten todas <br class="desktopElement"> las herramientas en una sola plataforma.',
+                'text' => 'Conoce nuestros planes para profesionales de la salud.<br class="desktopElement"> Paga por número de contactos de marketing y ten todas <br class="desktopElement"> las herramientas en una sola plataforma.',
                 'enableButton' => true,
                 'urlButton' => App::setTypeUrl().'/zoom-meeting',
                 'typeButton' => 'primaryButton',

@@ -80,7 +80,7 @@
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Convierte a tus visitantes <br class="desktopElement"> en leads con landing <br class="desktopElement"> pages optimizadas</span>',
-                            'text' => 'Genera diferentes landing pages según tu oferta de servicios,<br class="desktopElement"> sin programar o diseñar. Tu equipo de marketing podrá crear y <br class="desktopElement"> publicar landing pages optimizadas en pocos minutos, solo <br class="desktopElement"> deberán personalizarlas y publicarlas.
+                            'text' => 'Genera diferentes landing pages según tu oferta de servicios,<br class="desktopElement"> sin programar o diseñar. Tu equipo de marketing podrá crear y <br class="desktopElement"> publicar landing pages optimizadas en pocos minutos, solo <br class="desktopElement"> deberán personalizarlas y con un clic dar a conocer tus  <br class="desktopElement"> servicios financieros.
                             <br class="space"><br class="space">
                             Genera mayor conversión de visitantes en leads de calidad,<br class="desktopElement"> prefíltralos y guárdalos directamente en tu CRM con <br class="desktopElement"> nuestros formularios integrados a tus páginas.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icon-finanzas.png'),
@@ -94,19 +94,19 @@
                             'title' => '<span class="greenBlueColor">Organiza y gestiona <br class="desktopElement"> tu base de datos</span>',
                             'text' => 'Entendemos que la adquisición de un servicio financiero implica varios <br class="desktopElement"> pasos; desde la cotización, comparación de precios con la competencia,<br class="desktopElement"> hasta la decisión final de compra y una posterior fidelización del cliente.
                             <br class="space"><br class="space">
-                            Optimiza el seguimiento de cada cliente con el CRM de Escala que <br class="desktopElement"> simplifica toda tu gestión de ventas. Crea actividades y tareas para tu <br class="desktopElement"> equipo de ventas, mantén comunicación con leads hipersegmentados <br class="desktopElement"> según sus áreas de interés, incrementa la recompra con promociones <br class="desktopElement"> customizadas, ofrece nuevos servicios.',
+                            Optimiza el seguimiento de cada cliente con el CRM de Escala que <br class="desktopElement"> simplifica toda tu gestión de ventas. Crea actividades y tareas para tu <br class="desktopElement"> equipo de ventas, mantén comunicación con leads hipersegmentados <br class="desktopElement"> según sus áreas de interés, incrementa la recompra con promociones <br class="desktopElement"> customizadas y ofrece nuevos servicios.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_3.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Nutre la relación <br class="desktopElement"> con tus leads y clientes</span>',
-                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes. potenciales.<br class="desktopElement"> Envía emails masivos, en el momento adecuado para:
+                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes potenciales.<br class="desktopElement"> Envía emails masivos, en el momento adecuado para:
                             <br class="space">
                             <br class="space">
                             <ul>
                                 <li>Presentar nuevos servicios</li>
                                 <li>Reforzar las razones de la elección de tus servicios financieros</li>
                                 <li>Mantenerlos informados sobre las novedades</li>
-                                <li>Incrementar el ticket de compra ofreciéndoles up grades en: pólizas,<br class="desktopElement"> financieros, préstamos e hipotecas.</li>
+                                <li>Incrementar el ticket de compra ofreciéndoles upgrades en: pólizas,<br class="desktopElement"> financieros, préstamos e hipotecas.</li>
                             </ul>',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
                         ],

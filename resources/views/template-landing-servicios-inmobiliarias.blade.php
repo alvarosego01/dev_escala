@@ -86,7 +86,7 @@
                             'title' => '<span class="greenBlueColor">Organiza y gestiona <br class="desktopElement"> tu base de datos</span>',
                             'text' => 'En Escala tenemos el CRM más fácil de usar para que tu equipo <br class="desktopElement"> comercial  pueda hacerle seguimiento a cada lead o cliente <br class="desktopElement"> hasta cerrar la venta de tus servicios.
                             <br class="space"><br class="space">
-                            Crea actividades, tareas y recordatorios para tu equipo. Clasifica <br class="desktopElement"> a tus leads y clientes según sus necesidades, mantén <br class="desktopElement"> comunicación constante con campañas personalizadas.',
+                            Crea actividades, tareas y recordatorios para tu equipo. Clasifica <br class="desktopElement"> a tus leads y clientes según sus necesidades, mantén comunicación <br class="desktopElement"> constante con campañas personalizadas.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_3.png'),
                         ],
                         [
