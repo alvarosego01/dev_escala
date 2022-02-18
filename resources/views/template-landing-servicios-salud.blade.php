@@ -14,10 +14,10 @@
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingServSalud0',
                     'title' => '<span class="greenBlueColor">
-                        ¡Genera <br class="desktopElement"> más pacientes!
+                        ¡Genera más <br class="desktopElement"> pacientes!
                     </span>
                     <br class="space">
-                    e incrementa tu <br class="desktopElement"> demanda de servicios <br class="desktopElement"> de salud con Escala',
+                    e incrementa tu demanda de <br class="desktopElement"> servicios de salud con Escala',
                     'text' => null,
                     'textForm' => 'Comienza ahora',
                     'threeCol' => true,
@@ -70,7 +70,10 @@
                             'title' => '<span class="greenBlueColor">
                                 Da a conocer tus <br class="space"> servicios de salud <br class="space"> y genera leads calificados
                                 </span>',
-                            'text' => 'Haz que todos conozcan tus servicios de salud y capta la <br class="desktopElement"> información de contacto de tus posibles pacientes e <br class="desktopElement"> interesados con landing pages optimizadas. <br class="desktopElement"> Elige una de nuestras plantillas, personalízala y publícala con <br class="desktopElement"> un clic, sin programar o diseñar.',
+                            'text' => 'Haz que todos conozcan tus servicios de salud y capta la <br class="desktopElement"> información de contacto de tus posibles pacientes e <br class="desktopElement"> interesados con landing pages optimizadas.
+                            <br class="space">
+                            <br class="space">
+                             Elige una de nuestras plantillas, personalízala y publícala con <br class="desktopElement"> un clic, sin programar o diseñar.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
                         ],
                         [
@@ -83,7 +86,7 @@
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Organiza y gestiona <br class="space"> tu base de datos</span>',
-                            'text' => 'En Escala tenemos el CRM más fácil de usar para que tú mismo <br class="desktopElement"> puedas hacerle seguimiento a cada posible paciente o cliente <br class="desktopElement"> hasta generar la preferencia de tus servicios. Crea actividades, <br class="desktopElement"> tareas y recordatorios para tu equipo de trabajo. Clasifica a tus <br class="desktopElement"> pacientes según sus necesidades y mantén comunicación <br class="desktopElement"> constante con ellos.',
+                            'text' => 'En Escala tenemos el CRM más fácil de usar para que tú mismo <br class="desktopElement"> puedas hacerle seguimiento a cada posible paciente o usuario <br class="desktopElement"> hasta generar la preferencia de tus servicios. Crea actividades, <br class="desktopElement"> tareas y recordatorios para tu equipo de trabajo. Clasifica a tus <br class="desktopElement"> pacientes según sus necesidades y mantén comunicación <br class="desktopElement"> constante con ellos.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_3.png'),
                         ],
                         [
@@ -102,7 +105,7 @@
                         [
                             'title' => '<span class="greenBlueColor">Mide y optimiza <br class="space"> tus resultados <br class="space"> con analíticas relevantes
                             </span>',
-                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu marketing digital.<br class="desktopElement"> Mediante tableros amigables mide el rendimiento de Ads, Landing <br class="desktopElement"> Pages y campañas de Email Marketing.',
+                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu marketing digital.<br class="desktopElement"> Mediante tableros amigables mide el rendimiento de ads, landing <br class="desktopElement"> pages y campañas de emails marketing.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-11.png'),
                         ],
 

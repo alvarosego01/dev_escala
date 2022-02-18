@@ -62,7 +62,7 @@
                         [
                             'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopElement"> desde Facebook</span>
                             ',
-                            'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes a tus landing pages.
+                            'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes a tus <br class="desktopElement"> landing pages.
                             <br class="space"><br class="space">
                             Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="desktopElement"> ideal, sin necesidad de contratar a un profesional.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
@@ -84,8 +84,8 @@
                         [
                             'title' => '<span class="greenBlueColor">Organiza y gestiona <br class="desktopElement"> tu base de datos</span>',
                             'text' => 'En Escala tenemos el CRM más fácil de usar para que tú mismo <br class="desktopElement"> puedas hacerle seguimiento a cada lead o cliente hasta cerrar <br class="desktopElement"> la venta de tus servicios, pasando por el desarrollo profesional <br class="desktopElement"> de las sesiones de training y formación.
-                            <br class="space">
-                            Crea actividades, tareas y recordatorios para tu equipo de <br class="desktopElement"> ventas. Clasifica a tus leads según las terapias o cursos de <br class="desktopElement"> interés, mantén comunicación constante con campañas personalizadas.',
+                            <br class="space"><br class="space">
+                            Crea actividades, tareas y recordatorios para tu equipo de <br class="desktopElement"> ventas. Clasifica a tus leads según sus sesiones o cursos de <br class="desktopElement"> interés y mantén comunicación constante con campañas <br class="desktopElement"> personalizadas.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_3.png'),
                         ],
                         [
@@ -104,7 +104,7 @@
                         [
                             'title' => '<span class="greenBlueColor">Mide y optimiza <br class="desktopElement"> tus resultados <br class="desktopElement"> con analíticas relevantes
                             </span>',
-                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu marketing digital.<br class="desktopElement"> Ten tableros amigables que miden el rendimiento de Ads, Landing <br class="desktopElement"> Pages y campañas de Email.',
+                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu marketing digital.<br class="desktopElement"> Ten tableros amigables que miden el rendimiento de ads, landing <br class="desktopElement"> pages y campañas de emails.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-11.png'),
                         ],
 

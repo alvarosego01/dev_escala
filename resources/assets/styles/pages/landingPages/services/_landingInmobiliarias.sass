@@ -24,10 +24,10 @@
                 width: 90%
             @include responsivo(general)
                 width: 100%!important
-                max-width: 1125px!important
+                max-width: 1240px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1175px!important
+                max-width: 1240px!important
 
             .groupElements
                 // display: none!important
@@ -48,8 +48,8 @@
                             font-weight: 600
                             span
                                 text-align: right
-                                font-size: 42.5px
-                                line-height: 45px
+                                font-size: 40px
+                                line-height: 42.5px
                                 font-weight: bold
                             @include responsivo(telefonoTable)
                                 text-align: center!important
@@ -70,15 +70,30 @@
                                 line-height: 32.5px
                                 margin-bottom: auto!important
                                 margin-top: 25%!important
-                                margin-right: 40px
+                                margin-right: 0px
+                                position: relative
                                 span
-                                    font-size: 42.5px
-                                    line-height: 45px
+                                    position: absolute
+                                    font-size: 37.5px
+                                    line-height: 40px
+                                    right: 0
+                                    top: 0
+                                    bottom: 0
+                                    width: 800px
 
                             @include responsivo(resto)
-                                margin-right: 50px
+                                margin-right: 0
                                 margin-bottom: auto!important
                                 margin-top: 25%!important
+                                position: relative
+                                span
+                                    position: absolute
+                                    font-size: 40px
+                                    line-height: 42.5px
+                                    right: 0
+                                    top: 0
+                                    bottom: 0
+                                    width: 800px
 
                         // .principalBigText
                             // text-align: right

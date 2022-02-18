@@ -73,7 +73,7 @@
                     'elements' => [
                         [
                             'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopElement"> desde Facebook</span>',
-                            'text' => 'En Escala entendemos que tu industria necesita dar información y generar curiosidad en los servicios de tu empresa. Por ello puedes crear,<br class="desktopElement"> administrar y publicar campañas de anuncios digitales, sin salir de <br class="desktopElement"> nuestra plataforma.
+                            'text' => 'En Escala entendemos que tu industria necesita dar información y <br class="desktopElement"> generar curiosidad en los servicios de tu empresa. Por ello puedes crear,<br class="desktopElement"> administrar y publicar campañas de anuncios digitales, sin salir de <br class="desktopElement"> nuestra plataforma.
                             <br class="space"><br class="space">
                             Empodera a tu equipo de growth marketing, para generar <br class="desktopElement"> tráfico a tus páginas o landing pages, con campañas de retargeting <br class="desktopElement"> segmentadas por intereses como: seguros, bancos, hipotecas e <br class="desktopElement"> instrumentos financieros.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
@@ -86,7 +86,7 @@
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icon-finanzas.png'),
                         ],
                         [
-                            'title' => '<span class="greenBlueColor">No pierdas ningún <br class="desktopElement"> dato</span>',
+                            'title' => '<span class="greenBlueColor">No pierdas <br class="desktopElement"> ningún dato</span>',
                             'text' => 'Nuestras landing pages tienen formularios integrados. Cuando <br class="desktopElement"> tus visitantes registran toda su información en ellos, queda <br class="desktopElement"> guardada automáticamente en tu CRM de Escala. Así podrás <br class="desktopElement"> tener mejor control de los datos de tus leads.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_2.png'),
                         ],
@@ -99,7 +99,9 @@
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Nutre la relación <br class="desktopElement"> con tus leads y clientes</span>',
-                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes. potenciales.<br class="desktopElement"> Envía emails masivos, en el momento adecuado para: <br class="space">
+                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes. potenciales.<br class="desktopElement"> Envía emails masivos, en el momento adecuado para:
+                            <br class="space">
+                            <br class="space">
                             <ul>
                                 <li>Presentar nuevos servicios</li>
                                 <li>Reforzar las razones de la elección de tus servicios financieros</li>
@@ -112,7 +114,7 @@
                             'title' => '<span class="greenBlueColor">Mide y optimiza <br class="desktopElement"> tus resultados <br class="desktopElement"> con analíticas relevantes
                             </span>',
                             'text' => 'Ten visibilidad sobre las métricas que realmente importan <br class="desktopElement"> para entender qué funciona y qué puede mejorar tu <br class="desktopElement"> equipo para optimizar
-                            tu marketing digital. Ten tableros <br class="desktopElement"> amigables que miden el rendimiento de Ads, Landing <br class="desktopElement"> Pages y campañas de Email.',
+                            tu marketing digital. Ten tableros <br class="desktopElement"> amigables que miden el rendimiento de ads, landing <br class="desktopElement"> pages y campañas de emails.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-11.png'),
                         ],
 
@@ -133,9 +135,7 @@
                 'subTitlePrincipal' => null,
                 'title' => '<span class="greenBlueColor">¿Escala tiene todo <br class="space"> lo que mi empresa necesita? </span>',
                 'img' => App::setFilePath('/assets/images/illustrations/otto/Otto_CRM-01.png'),
-                'text' => 'No importa el tamaño de su empresa. Empodera a tus equipos:<br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio
-                <br class="space"><br class="space">
-                Quiero conocer el plan para empresas de finanzas',
+                'text' => 'No importa el tamaño de su empresa. Empodera a tus equipos:<br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
                 'typeButton' => 'primaryButton',

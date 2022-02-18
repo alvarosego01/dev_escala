@@ -15,9 +15,10 @@
                 $parameters = [
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingServEducacion0',
-                    'title' => '<span >Descubre como Escala</span>
-                     <br class="space">
-                    ayuda a universidades, colegio <br class="desktopElement"> y academias de formación',
+                    'title' => '<span>
+                        Atrae y convierte <br class="desktopElement"> más
+                    </span> estudiantes <br class="desktopElement"> con Escala
+                    ',
                     'text' => null,
                     'textForm' => 'Comienza ahora',
                     'threeCol' => true,
@@ -41,10 +42,10 @@
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
                 'title' => '<span class="greenBlueColor">
-                    Con Escala atrae más <br class="desktopElement"> estudiantes los 365 días del año
+                    Descubre cómo Escala ayuda a las <br class="desktopElement"> universidades, colegios e institutos <br class="desktopElement"> de formación
                     </span>',
                 'img' => App::setFilePath('/assets/images/illustrations/others/01_CRM 1.png'),
-                'text' => 'Conoce Escala la plataforma más fácil de usar con todas las herramientas <br class="desktopElement"> de marketing digital y ventas para que puedas:
+                'text' => 'Conoce Escala la plataforma más fácil de usar con todas las <br class="desktopElement"> herramientas de marketing digital y ventas para que puedas:
                 <br class="space">
                 <ul>
                     <li>Captar mayor cantidad de estudiantes</li>
@@ -72,13 +73,13 @@
                     'urlButton' =>  App::setTypeUrl().'/zoom-meeting',
                     'textButton' => 'Conocer más',
                     'typeButton' => 'primaryButton hoverInEffect',
-                    'titlePrincipal' => '¿Cómo te ayudamos en todas las áreas <br class="desktopElement"> con una sola plataforma?',
+                    'titlePrincipal' => 'Encuentra todas las herramientas <br class="desktopElement"> en un solo lugar',
                     'elements' => [
                         [
                             'title' => '<span class="greenBlueColor">Atrae más estudiantes <br class="space"> con anuncios de Facebook</span>',
                             'text' => 'Crea, administra y publica campañas de anuncios digitales,<br class="desktopElement"> sin salir de nuestra plataforma.
-                             <br class="space"><br class="space">
-                            Empodera a tu equipo de growth marketing para atraer más <br class="desktopElement"> estudiantes con campañas de retargeting y segmentadas por <br class="desktopElement"> intereses de cursos o carreras',
+                            <br class="space"><br class="space">
+                            Empodera a tu equipo de growth marketing para atraer más <br class="desktopElement"> estudiantes con campañas de retargeting, segmentadas por <br class="desktopElement"> intereses de cursos o carreras',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
                         ],
                         [
@@ -104,16 +105,15 @@
                         <br class="space"><br class="space">
                         <ul>
                             <li>Presentar nuevos cursos y carreras</li>
-                            <li>Hacer programas para egresados</li>
-                            <li>Mantenerlos informados sobre las novedades</li>
-                        </ul>
-                        ',
+                            <li>Informar programas para egresados</li>
+                            <li>Mantenerlos al día sobre las novedades</li>
+                        </ul>',
                         'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Mide y optimiza <br class="space"> tus resultados <br class="space"> con analíticas relevantes
                             </span>',
-                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu equipo para <br class="desktopElement"> optimizar tu marketing digital. Ten tableros amigables que miden <br class="desktopElement"> el rendimiento de Ads, Landing Pages y campañas de Email.',
+                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu equipo para <br class="desktopElement"> optimizar tu marketing digital. Ten tableros amigables que miden <br class="desktopElement"> el rendimiento de ads, landing pages y campañas de emails.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-11.png'),
                         ],
 
@@ -134,9 +134,11 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'title' => '<span class="greenBlueColor">¿Escala tiene todo <br class="desktopElement"> lo que mi empresa necesita? </span>',
+                'title' => '<span class="greenBlueColor">
+                    ¿Escala tiene todo lo <br class="desktopElement"> que mi institución necesita?
+                    </span>',
                 'img' => App::setFilePath('/assets/images/illustrations/otto/Otto_CRM-01.png'),
-                'text' => 'En Escala tienes todas las herramientas de marketing digital y ventas <br class="desktopElement"> en un solo lugar. Capta mayor cantidad de alumnos, haz seguimiento <br class="desktopElement"> de su relación con tu institución, fideliza a tus estudiantes egresados,<br class="desktopElement"> mantén una comunicación constante con todos tus stakeholders.',
+                'text' => 'En Escala tienes todas las herramientas de marketing digital y ventas <br class="desktopElement"> en un solo lugar. Capta mayor cantidad de alumnos, haz seguimiento <br class="desktopElement"> de su relación con tu institución, fideliza a tus estudiantes egresados, <br class="desktopElement"> mantén una comunicación constante con todos tus stakeholders.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
                 'typeButton' => 'primaryButton',
@@ -160,9 +162,9 @@
                 'img' => App::setFilePath('/assets/images/illustrations/others/paymentpages-1 1.png'),
                 'text' => 'En Escala tenemos un plan a la medida de tus necesidades.<br class="desktopElement"> Conoce nuestros planes para cada tamaño de institución <br class="desktopElement"> académica y número de contactos de marketing. Optimiza tu <br class="desktopElement"> inversión en ventas y marketing digital.',
                 'enableButton' => true,
-                'urlButton' => App::setTypeUrl().'/pricing',
+                'urlButton' => App::setTypeUrl().'/zoom-meeting',
                 'typeButton' => 'primaryButton',
-                'textButton' => 'Conoce nuestros planes',
+                'textButton' => 'Hablar con un asesor',
                 'side' => 'left',
             ];
         @endphp
@@ -170,7 +172,7 @@
         @contain_text_image_T1( $parameters )
 
         @endcontain_text_image_T1
-
+{{--
             @php
                 $parameters = [
                     'type' => 'backgroundColor',
@@ -193,10 +195,10 @@
 
             @contain_testimonial_text_video_T1( $parameters )
 
-            @endcontain_testimonial_text_video_T1
+            @endcontain_testimonial_text_video_T1 --}}
 
 
-            <section class="customSection sectionParent landingServEducacion6">
+            {{-- <section class="customSection sectionParent landingServEducacion6">
 
 
 
@@ -237,14 +239,14 @@
                 </div>
 
 
-            </section>
+            </section> --}}
 
             @php
             $parameters = [
                 'classSection' => 'landingServEducacion7',
                 'title' => '
                 <span class="greenBlueColor">
-                    Atrae alumnos <br class="desktopElement"> y convierte más ventas <br class="desktopElement"> con Escala.
+                    Atrae más alumnos <br class="desktopElement"> y haz crecer tu institución <br class="desktopElement"> con Escala.
                 </span>',
                 'textForm' => 'Pruébalo gratis ahora',
                 'text' => null,
