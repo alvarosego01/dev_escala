@@ -15,7 +15,9 @@
                 $parameters = [
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingServInmobiliarias0',
-                    'title' => '<span class="greenBlueColor">¡Genera más <br class="desktopElement"> leads, cierra más <br class="desktopElement"> ventas y fideliza <br class="desktopElement"> a más clientes <br class="desktopElement"> con Escala!</span>',
+                    'title' => '<span class="greenBlueColor">
+                        ¡Genera más leads y cierra <br class="desktopElement"> más ventas para tu <br class="desktopElement"> inmobiliaria con Escala!
+                        </span>',
                     'text' => null,
                     'textForm' => 'Comienza ahora',
                     'threeCol' => true,
@@ -59,8 +61,9 @@
                     'elements' => [
                         [
                             'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopElement"> desde Facebook</span>',
-                            'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes a tus <br class="desktopElement"> landing pages. <br class="space">
-                            Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="desktopElement"> ideal, sin necesidad de contratar a un profesional. Publica tantas <br class="desktopElement"> campañas como servicios inmobiliarios tengas: venta de inmuebles, <br class="desktopElement"> alquiler, rentas vacacionales, inmuebles empresariales.',
+                            'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes a tus <br class="desktopElement"> landing pages.
+                            <br class="space"><br class="space">
+                            Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="desktopElement"> ideal, sin necesidad de contratar a un profesional. Publica tantas <br class="desktopElement"> campañas como servicios inmobiliarios tengas: venta de inmuebles,<br class="desktopElement"> alquiler, rentas vacacionales, inmuebles empresariales, entre otros.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
                         ],
                         [
@@ -104,7 +107,7 @@
                         [
                             'title' => '<span class="greenBlueColor">Mide y optimiza <br class="space"> tus resultados <br class="space"> con analíticas relevantes
                             </span>',
-                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu marketing digital,<br class="desktopElement"> con tableros amigables que miden el rendimiento de Ads, Landing <br class="desktopElement"> Pages y campañas de Email.',
+                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu marketing digital,<br class="desktopElement"> con tableros amigables que miden el rendimiento de ads, landing <br class="desktopElement"> pages y campañas de emails.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-11.png'),
                         ],
 
@@ -232,7 +235,7 @@
             @php
             $parameters = [
                 'classSection' => 'landingServInmobiliarias7',
-                'title' => 'Atrae leads de calidad <br class="desktopElement"> y convierte más ventas con Escala',
+                'title' => 'Haz crecer tu negocio <br class="desktopElement"> inmobiliario con Escala',
                 'textForm' => 'Pruébalo gratis ahora',
                 'text' => null,
                 'image' => App::setFilePath('/assets/images/illustrations/otto/otto-happy.png'),

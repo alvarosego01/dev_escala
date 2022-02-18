@@ -73,7 +73,7 @@
                         ],
                         [
                             'title' => '<span class="greenBlueColor">No pierdas <br class="desktopTabletElement"> ningún dato </span>',
-                            'text' => 'Ahora podrás tener mejor control de los datos de tus leads. Nuestras <br class="desktopElement"> landing pages tienen formularios integrados que te garantizan guardar <br class="desktopElement"> automáticamente en tu CRM todos la información de tus visitantes.',
+                            'text' => 'Ahora podrás tener mejor control de los datos de tus leads. Nuestras <br class="desktopElement"> landing pages tienen formularios inteligentes que te garantizan guardar <br class="desktopElement"> automáticamente en tu CRM toda la información de tus visitantes.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_2.png'),
                         ],
                         [
