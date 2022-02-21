@@ -17,8 +17,10 @@ function parametersToRedirect(redirect, params) {
                 if (redirect.includes("{{-- email64 --}}")){
 
                     let e = email[0].value;
-                    e = encodeURIComponent(e);
                     e = Base64.encode(e);
+                    console.log('email', e)
+                    e = encodeURIComponent(e);
+                    console.log('email', e)
                     aux = aux.replace("{{-- email64 --}}", e);
 
                 }
