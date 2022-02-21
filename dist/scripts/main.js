@@ -3,7 +3,6 @@
 function parametersToRedirect(redirect, params) {
 
         let aux = redirect;
-        if (redirect.includes("{{-- special --}}")) {
 
             aux = aux.replace("{{-- special --}}", "");
 
@@ -15,16 +14,25 @@ function parametersToRedirect(redirect, params) {
 
             if ((email != null) && (email[0] != null) && (email[0].value != 0)) {
 
-                let e = email[0].value;
-                e = Base64.encode(e);
-                aux = aux.replace("{{-- email64 --}}", e);
+                if (redirect.includes("{{-- email64 --}}")){
+
+                    let e = email[0].value;
+                    e = Base64.encode(e);
+                    console.log('email', e)
+                    e = encodeURIComponent(e);
+                    console.log('email', e)
+                    aux = aux.replace("{{-- email64 --}}", e);
+
+                }
 
             }
 
-            aux = aux.replace("{{-- leadSignUp --}}", 'trial');
-            aux = aux.replace(/\s+/g, '');
+            if (redirect.includes("{{-- leadSignUp --}}")){
 
-        }
+                aux = aux.replace("{{-- leadSignUp --}}", 'trial');
+                aux = aux.replace(/\s+/g, '');
+
+            }
 
         return aux;
 
