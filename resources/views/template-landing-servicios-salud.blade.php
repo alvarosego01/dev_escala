@@ -16,8 +16,9 @@
                     'title' => '<span class="greenBlueColor">
                         ¡Genera más <br class="desktopElement"> pacientes!
                     </span>
-                    <br class="space">
-                    e incrementa tu demanda de <br class="desktopElement"> servicios de salud con Escala',
+                    <p>
+                        e incrementa tu demanda de <br class="desktopElement"> servicios de salud con Escala
+                    </p>',
                     'text' => null,
                     'textForm' => 'Comienza ahora',
                     'threeCol' => true,
