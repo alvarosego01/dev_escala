@@ -15,8 +15,8 @@
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingServSeguros0',
                     'title' => 'Descubre cómo Escala <br class="desktopTabletElement">
-                                ayuda a las empresas <br class="desktopTabletElement">
-                                aseguradoras a crecer',
+                                 ayuda a tu empresa <br class="desktopTabletElement">
+                                 aseguradora a crecer',
                     'text' => null,
                     'textForm' => 'Comienza ahora',
                     'threeCol' => true,
@@ -112,7 +112,7 @@
                 'subTitlePrincipal' => null,
                 'title' => '¿Escala tiene todo <br class="desktopTabletElement"> lo que mi aseguradora necesita?',
                 'img' => App::setFilePath('/assets/images/illustrations/otto/seguros-5 1.png'),
-                'text' => 'No importa el tamaño de tu empresa. Empodera a tus equipos: <br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio',
+                'text' => 'No importa el tamaño de tu empresa. Empodera a tus equipos: <br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
                 'typeButton' => 'primaryButton',

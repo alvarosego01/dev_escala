@@ -45,7 +45,7 @@
                     Descubre cómo Escala ayuda a las <br class="desktopElement"> universidades, colegios e institutos <br class="desktopElement"> de formación
                     </span>',
                 'img' => App::setFilePath('/assets/images/illustrations/others/01_CRM 1.png'),
-                'text' => 'Conoce Escala como la plataforma más fácil de usar con todas las <br class="desktopElement"> herramientas de marketing digital y ventas para que puedas:
+                'text' => 'Conoce Escala, la plataforma más fácil de usar con todas las <br class="desktopElement"> herramientas de marketing digital y ventas para que puedas:
                 <br class="space">
                 <ul>
                     <li>Captar mayor cantidad de estudiantes</li>
@@ -79,7 +79,7 @@
                             'title' => '<span class="greenBlueColor">Atrae más estudiantes <br class="space"> con anuncios de Facebook</span>',
                             'text' => 'Crea, administra y publica campañas de anuncios digitales,<br class="desktopElement"> sin salir de nuestra plataforma.
                             <br class="space"><br class="space">
-                            Empodera a tu equipo de growth marketing para atraer más <br class="desktopElement"> estudiantes con campañas de retargeting, segmentadas por <br class="desktopElement"> intereses de cursos o carreras',
+                            Empodera a tu equipo de growth marketing para atraer más <br class="desktopElement"> estudiantes con campañas de retargeting segmentadas por <br class="desktopElement"> intereses de cursos o carreras',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
                         ],
                         [
@@ -113,7 +113,7 @@
                         [
                             'title' => '<span class="greenBlueColor">Mide y optimiza <br class="space"> tus resultados <br class="space"> con analíticas relevantes
                             </span>',
-                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu equipo para <br class="desktopElement"> optimizar tu marketing digital. Ten tableros amigables que miden <br class="desktopElement"> el rendimiento de ads, landing pages y campañas de emails.',
+                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu equipo para <br class="desktopElement"> optimizar tu marketing digital. Cuenta con tableros amigables que <br class="desktopElement"> miden el rendimiento de ads, landing pages y campañas de emails.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-11.png'),
                         ],
 

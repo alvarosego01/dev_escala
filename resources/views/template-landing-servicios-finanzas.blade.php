@@ -76,7 +76,8 @@
                             'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopElement"> desde Facebook</span>',
                             'text' => 'En Escala entendemos que tu industria necesita dar información y <br class="desktopElement"> generar curiosidad en los servicios de tu empresa. Por ello puedes crear,<br class="desktopElement"> administrar y publicar campañas de anuncios digitales, sin salir de <br class="desktopElement"> nuestra plataforma.
                             <br class="space"><br class="space">
-                            Empodera a tu equipo de growth marketing, para generar <br class="desktopElement"> tráfico a tus páginas o landing pages, con campañas de retargeting <br class="desktopElement"> segmentadas por intereses como: seguros, bancos, hipotecas e <br class="desktopElement"> instrumentos financieros.',
+                            Empodera a tu equipo de growth marketing para generar <br class="desktopElement"> tráfico a tus páginas o landing pages, con campañas de retargeting <br class="desktopElement"> segmentadas por intereses como: seguros, bancos, hipotecas e <br class="desktopElement"> instrumentos financieros
+                            ',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
                         ],
                         [
@@ -115,7 +116,7 @@
                             'title' => '<span class="greenBlueColor">Mide y optimiza <br class="desktopElement"> tus resultados <br class="desktopElement"> con analíticas relevantes
                             </span>',
                             'text' => 'Ten visibilidad sobre las métricas que realmente importan <br class="desktopElement"> para entender qué funciona y qué puede mejorar tu <br class="desktopElement"> equipo para optimizar
-                            tu marketing digital. Ten tableros <br class="desktopElement"> amigables que miden el rendimiento de ads, landing <br class="desktopElement"> pages y campañas de emails.',
+                            tu marketing digital. Cuenta con tableros <br class="desktopElement"> amigables que miden el rendimiento de ads, landing <br class="desktopElement"> pages y campañas de emails.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-11.png'),
                         ],
 

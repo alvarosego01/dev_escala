@@ -71,7 +71,7 @@
                             'title' => '<span class="greenBlueColor">
                                 Da a conocer <br class="desktopElement"> tus servicios de coaching <br class="desktopElement"> y genera leads calificados
                                 </span>',
-                            'text' => 'Haz que todos conozcan tus servicios profesionales y capta la <br class="desktopElement"> información de contacto de tus visitantes con landing pages <br class="desktopElement"> optimizadas. Elige una de nuestras plantillas, personalízala y <br class="desktopElement"> publícala con un clic,sin programar o diseñar.',
+                            'text' => 'Haz que todos conozcan tus servicios profesionales y capta la <br class="desktopElement"> información de contacto de tus visitantes con landing pages <br class="desktopElement"> optimizadas. Elige una de nuestras plantillas, personalízala y <br class="desktopElement"> publícala con un clic, sin programar o diseñar.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
                         ],
                         [
@@ -104,7 +104,7 @@
                         [
                             'title' => '<span class="greenBlueColor">Mide y optimiza <br class="desktopElement"> tus resultados <br class="desktopElement"> con analíticas relevantes
                             </span>',
-                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu marketing digital.<br class="desktopElement"> Ten tableros amigables que miden el rendimiento de ads, landing <br class="desktopElement"> pages y campañas de emails.',
+                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu marketing digital.<br class="desktopElement"> Cuenta con tableros amigables que miden el rendimiento de ads, <br class="desktopElement"> landing pages y campañas de emails.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-11.png'),
                         ],
 
