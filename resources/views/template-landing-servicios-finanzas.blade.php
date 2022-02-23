@@ -17,10 +17,11 @@
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingServFinanzas0',
                     'title' => '<span class="greenBlueColor">Haz crecer</span>
-                     <br class="space">
-                     tus servicios <br class="space">
-                     financieros con <br class="space">
-                    Escala',
+                     <p>
+                        tus servicios <br class="space">
+                        financieros con <br class="space">
+                        Escala
+                    </p>',
                     'text' => null,
                     'textForm' => 'Comienza ahora',
                     'threeCol' => true,

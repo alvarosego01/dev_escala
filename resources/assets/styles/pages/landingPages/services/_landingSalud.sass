@@ -43,16 +43,20 @@
                         .principalBigTitle
                             text-align: right
                             margin-bottom: 180px
-                            font-family: Nunito
-                            font-style: normal
-                            font-weight: 600
-                            font-size: 24px
-                            line-height: 29px
+                            p
+                                font-family: Nunito
+                                font-style: normal
+                                font-weight: 600
+                                font-size: 25px
+                                line-height: 1
+                                display: block
                             span
+                                display: block
                                 text-align: right
                                 font-size: 50px
-                                line-height: 53px
                                 font-weight: bold
+                                line-height: 0.9
+                                margin-bottom: 10px
                             @include responsivo(telefonoTable)
                                 text-align: center!important
                                 width: 100%
@@ -68,12 +72,11 @@
                                     text-align: center!important
                                     width: 100%
                             @include responsivo(general)
-                                font-size: 20px
-                                line-height: 22.5px
                                 margin-bottom: 50%
+                                p
+                                    font-size: 22.5px
                                 span
                                     font-size: 45px
-                                    line-height: 47.5px
 
                         // .principalBigText
                             // text-align: right

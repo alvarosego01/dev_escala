@@ -16,7 +16,7 @@
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingServEducacion0',
                     'title' => '<span>
-                        Atrae y convierte <br class="desktopElement"> más
+                        Atrae y convierte <br class="desktopElement"> más<br class="mobileElement">
                     </span> estudiantes <br class="desktopElement"> con Escala
                     ',
                     'text' => null,
