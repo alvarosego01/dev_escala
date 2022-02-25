@@ -76,8 +76,7 @@
                             'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopElement"> desde Facebook</span>',
                             'text' => 'En Escala entendemos que tu industria necesita dar información y <br class="desktopElement"> generar curiosidad en los servicios de tu empresa. Por ello puedes crear,<br class="desktopElement"> administrar y publicar campañas de anuncios digitales, sin salir de <br class="desktopElement"> nuestra plataforma.
                             <br class="space"><br class="space">
-                            Empodera a tu equipo de growth marketing para generar <br class="desktopElement"> tráfico a tus páginas o landing pages, con campañas de retargeting <br class="desktopElement"> segmentadas por intereses como: seguros, bancos, hipotecas e <br class="desktopElement"> instrumentos financieros
-                            ',
+                            Empodera a tu equipo de growth marketing para generar <br class="desktopElement"> tráfico a tus páginas o landing pages, con campañas de retargeting <br class="desktopElement"> segmentadas por intereses como: seguros, bancos, hipotecas e <br class="desktopElement"> instrumentos financieros.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
                         ],
                         [
@@ -108,7 +107,7 @@
                                 <li>Presentar nuevos servicios</li>
                                 <li>Reforzar las razones de la elección de tus servicios financieros</li>
                                 <li>Mantenerlos informados sobre las novedades</li>
-                                <li>Incrementar el ticket de compra ofreciéndoles upgrades en: pólizas,<br class="desktopElement"> financieros, préstamos e hipotecas.</li>
+                                <li>Incrementar el ticket de compra ofreciéndoles upgrades en: pólizas,<br class="desktopElement"> instrumentos financieros, préstamos e hipotecas</li>
                             </ul>',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
                         ],
@@ -137,7 +136,7 @@
                 'subTitlePrincipal' => null,
                 'title' => '<span class="greenBlueColor">¿Escala tiene todo <br class="space"> lo que mi empresa necesita? </span>',
                 'img' => App::setFilePath('/assets/images/illustrations/otto/Otto_CRM-01.png'),
-                'text' => 'No importa el tamaño de su empresa. Empodera a tus equipos:<br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio.',
+                'text' => 'No importa el tamaño de tu empresa. Empodera a tus equipos:<br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
                 'typeButton' => 'primaryButton',
