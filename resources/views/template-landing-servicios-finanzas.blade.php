@@ -107,7 +107,7 @@
                                 <li>Presentar nuevos servicios</li>
                                 <li>Reforzar las razones de la elección de tus servicios financieros</li>
                                 <li>Mantenerlos informados sobre las novedades</li>
-                                <li>Incrementar el ticket de compra ofreciéndoles upgrades en: pólizas,<br class="desktopElement"> instrumentos financieros, préstamos e hipotecas.</li>
+                                <li>Incrementar el ticket de compra ofreciéndoles upgrades en: pólizas,<br class="desktopElement"> instrumentos financieros, préstamos e hipotecas</li>
                             </ul>',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
                         ],
