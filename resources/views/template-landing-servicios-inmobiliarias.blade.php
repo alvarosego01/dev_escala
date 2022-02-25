@@ -93,7 +93,7 @@
                             'title' => '<span class="greenBlueColor">
                                 Nutre la relación <br class="desktopElement"> con tus leads y clientes
                                 </span>',
-                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes. potenciales. <br class="space">
+                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes potenciales. <br class="space">
                             Envía emails masivos, en el momento adecuado para:
                             <br class="space">
                             <br class="space">

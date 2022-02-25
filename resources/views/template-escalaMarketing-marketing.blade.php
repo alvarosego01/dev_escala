@@ -164,7 +164,7 @@
   'subTitlePrincipal' => null,
   'title' => '<span class="greenBlueColor">Mide y optimiza tus resultados</span> <br class="space"> con analíticas relevantes',
   'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-121.png'),
-  'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br> entender qué funciona y qué puedes mejorar para optimizar tu <br> marketing digital. Ten tableros amigables que miden el <br> rendimiento de ads, landing pages y campañas de emails.
+  'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br> entender qué funciona y qué puedes mejorar para optimizar tu <br> marketing digital. Cuenta con tableros amigables que miden el <br> rendimiento de ads, landing pages y campañas de emails.
 ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
