@@ -58,7 +58,7 @@
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-2d1.png'),
-                'title' => '<span class="grayColorTexts5">Nutre la relación con tus <br class="space"> contactos y comúnicate más <br class="space"> efectivamente con poderosas <br class="space"> campañas de Email Marketing</span>',
+                'title' => '<span class="grayColorTexts5">Nutre la relación con tus <br class="space"> contactos y comunícate más <br class="space"> efectivamente con poderosas <br class="space"> campañas de Email Marketing</span>',
                 'enableButton' => false,
             ],
         ],

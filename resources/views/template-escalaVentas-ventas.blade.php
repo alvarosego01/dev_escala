@@ -38,8 +38,12 @@
                     'type' => 'backgroundColor',
                     'classSection' => 'eVentas2',
                     'enableTitle' => true,
-                    'titlePrincipal' => '<span class="greenBlueColor">¡Que no se te escape un lead!</span> <br class="space"> Con Escala podrás',
-                    'subTitlePrincipal' => 'Escala es la plataforma <span class="greenBlueColor"><strong>todo en uno</strong></span>, diseñada para acelerar <br> el crecimiento de tus ventas y aumentar la productividad de tu equipo. <br> Todas las herramientas que necesitas <span class="greenBlueColor"><strong>en un solo lugar.</strong></span>',
+                    'titlePrincipal' => '<span class="greenBlueColor">¡Que no se te escape un lead!</span>',
+                    'subTitlePrincipal' => 'Escala es la plataforma <span class="greenBlueColor"><strong>todo en uno</strong></span>, diseñada para acelerar <br> el crecimiento de tus ventas y aumentar la productividad de tu equipo. <br> Todas las herramientas que necesitas <span class="greenBlueColor"><strong>en un solo lugar.</strong></span>
+                    <br class="space">
+                    <br class="space">
+                    <strong style="color: black">Con Escala podrás lograr:</strong>
+                    ',
                     'overlay' => false,
                     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
                     'elements' => [
@@ -125,8 +129,6 @@
 
             @contain_5_cards_T1( $parameters )
             @endcontain_5_cards_T1
-
-
 
             <section class="customSection sectionParent eVentas4">
                 <div class="section-row">

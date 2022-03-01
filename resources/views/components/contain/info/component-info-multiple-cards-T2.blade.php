@@ -110,6 +110,17 @@
 
                 </section>
 
+                @if ($enableButton != null)
+                <section class="innerSectionElement sct3 ">
+
+                       <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
+                           {{ $textButton }}
+                       </a>
+
+                   </section>
+
+               @endif
+
 
 
             </div>
@@ -197,9 +208,18 @@
 
                 @endforeach
 
-
-
             </section>
+
+            @if ($enableButton != null)
+            <section class="innerSectionElement sct3 ">
+
+                   <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
+                       {{ $textButton }}
+                   </a>
+
+               </section>
+
+           @endif
 
 
 
