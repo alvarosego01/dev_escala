@@ -1,13 +1,13 @@
 
 {{--
-  Template Name: [B] Landing - Landing Pages 2022
+  Template Name: [B] Landing - Email mk 2022
 --}}
 
 @extends('layouts.app')
 
 @section('content')
 
-<div id="landing-landingPages2022-bootstrap">
+<div id="landing-emailMk-bootstrap">
 
   <div class="sections">
 
@@ -15,15 +15,17 @@
     $parameters = array(
      'backgroundImageType' => false,
      'overlay' => false,
-     'classSection' => 'threeCol landingLandingPages2022_0',
+     'classSection' => 'threeCol landingemailMk_0',
      'title' => '<span class="whiteColor">
-        Genera má leads con <br class="desktopTabletElement"> las landing pages <br class="desktopTabletElement"> de Escala
+Genera más leads y fideliza <br class="desktopTabletElement">
+más clientes con los emails <br class="desktopTabletElement">
+de Escala
         </span>',
      'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span> ',
      'threeCol' => true,
      'backgroundImage' => null,
   'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/person/am/headerlanding2022.png'),
+  'image' => App::setFilePath('/assets/images/person/am/landings_emails_andres_01.png'),
     ) ;
     @endphp
 
@@ -34,9 +36,12 @@
     @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landingLandingPages2022_1',
+        'classSection' => 'landingemailMk_1',
         'enableTitle' => true,
-        'titlePrincipal' => '¿Qué obtienes con <br class="desktopTabletElement"> nuestras landing pages?',
+        'titlePrincipal' => '
+        Conoce los beneficios de <br class="space">
+        nuestro Email marketing
+        ',
         'subTitlePrincipal' => null,
         'overlay' => false,
         'enableButton' => true,
@@ -46,23 +51,33 @@
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/2_queobtienes_01.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_01.png'),
                 'title' => '<span class="grayColorTexts5">
-                    Da a conocer <br class="desktopTabletElement"> tus productos y servicios
+                    Date a conocer <br class="desktopTabletElement"> con nuevos leads
                     </span>',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/2_queobtienes_02.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_02.png'),
                 'title' => '<span class="grayColorTexts5">
-                    Registra los datos de tus visitantes <br class="desktopTabletElement"> para convertirlos en clientes
+                    Mantén comunicación <br class="desktopTabletElement"> constante
+                    con tus clientes
                     </span>',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/2_queobtienes_03.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_03.png'),
                 'title' => '<span class="grayColorTexts5">
-                    Genera demanda <br class="desktopTabletElement"> y consideración de tu marca
+                    Hazle seguimiento a tus leads <br class="desktopTabletElement">
+                    hasta cerrar la venta
+                    </span>',
+                'enableButton' => false,
+            ],
+            [
+                'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_04.png'),
+                'title' => '<span class="grayColorTexts5">
+                    Sé más efectivo con <br class="desktopTabletElement"> emails que no
+                    llegan a la <br class="desktopTabletElement"> bandeja de Spam
                     </span>',
                 'enableButton' => false,
             ],
@@ -78,9 +93,11 @@
     @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landingLandingPages2022_2',
+        'classSection' => 'landingemailMk_2',
         'enableTitle' => true,
-        'titlePrincipal' => 'Ahorra tiempo y dinero. <br class="space"> Construye páginas atractivas <br class="desktopTabletElement"> en minutos y sin programar',
+        'titlePrincipal' => '
+        Crea campañas de <br class="desktopTabletElement"> email Marketing efectivas
+        ',
         'subTitlePrincipal' => null,
         'overlay' => false,
         'enableButton' => true,
@@ -90,35 +107,43 @@
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/3_ahorratiempo_01.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_12.png'),
                 'title' => '<span class="greenBlueColor7">
                     Elige tu Plantilla
                 </span>',
-                'text' => 'Elige entre cientos de plantillas pre-diseñadas <br class="desktopTabletElement"> 100% responsive para que luzcan bien en <br class="desktopTabletElement"> cualquier dispositivo.',
+                'text' => '
+                En Escala hemos creado plantillas optimizadas <br class="desktopTabletElement"> con las mejores prácticas para no caer en la <br class="desktopTabletElement"> bandeja de spam. Elige la más adecuada para <br class="desktopTabletElement"> tu campaña y dale tu toque personal.
+                ',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/3_ahorratiempo_02.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_09.png'),
                 'title' => '<span class="greenBlueColor7">
-                    Personalízala
+                    Envía
                 </span>',
-                'text' => 'Dale tu toque personal y edita fácilmente imágenes,<br class="desktopTabletElement"> textos, colores y el formulario para que enamores a tus <br class="desktopTabletElement"> visitantes y compartan su información de contacto',
+                'text' => '
+                Haz envíos masivos a tus leads y clientes con <br class="desktopTabletElement"> campañas relevantes para: lanzar nuevos productos <br class="desktopTabletElement"> o servicios, mandar promociones customizadas,<br class="desktopTabletElement"> evaluar cómo se sienten y fidelizar a tus clientes.
+                ',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/3_ahorratiempo_03.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_10.png'),
                 'title' => '<span class="greenBlueColor7">
-                    Publica
+                    Automatiza
                 </span>',
-                'text' => 'Con tan solo un clic, programa tu landing <br class="desktopTabletElement"> page y comienza a atraer visitantes.<br class="space"> ¡No más códigos!',
+                'text' => '
+                En Escala programa el día y la hora de tu envío.<br class="desktopTabletElement"> Automatiza respuestas según el feedback de tus <br class="desktopTabletElement"> clientes y leads. Mantén comunicación constante,<br class="desktopTabletElement"> sin hacer tareas repetitivas.
+                ',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/3_ahorratiempo_04.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_11.png'),
                 'title' => '<span class="greenBlueColor7">
                     Optimiza
                 </span>',
-                'text' => 'Mide el rendimiento de tus páginas con métricas <br class="desktopTabletElement"> relevantes. Visualiza tus resultados en tiempo <br class="desktopTabletElement"> real con dashboards amigables',
+                'text' => '
+                Mide el rendimiento de tus campañas de email <br class="desktopTabletElement"> marketing en tiempo real y mejora los índices de <br class="desktopTabletElement"> apertura, clics y rebote para hacer exitosas tus <br class="desktopTabletElement"> campañas.
+                ',
                 'enableButton' => false,
             ],
 
@@ -133,12 +158,12 @@
     @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landingLandingPages2022_3',
+        'classSection' => 'landingemailMk_3',
         'enableTitle' => true,
         'titlePrincipal' => '
         <span class="whiteColor">
-            Las landing pages de <br class="desktopTabletElement">
-            Escala lo tienen todo
+            Los emails de Escala son <br class="space">
+            realmente poderosos
         </span>',
         'subTitlePrincipal' => null,
         'overlay' => false,
@@ -149,20 +174,23 @@
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/4_tienentodo_01.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_05.png'),
                 'title' => '<span class="whiteColor">
-                    Botón de WhatsApp integrado
+                    Dile adiós <br class="space"> a la bandeja de Spam
                     </span>',
-                'text' => 'Registra los datos de tus visitantes <br class="desktopTabletElement"> y recibe consultas en tiempo real.',
+                'text' => '
+                Nuestra tecnología permite que todos tus emails <br class="desktopTabletElement"> lleguen al lugar correcto en el momento correcto.<br class="space"> Emails realmente efectivos.
+                ',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/4_tienentodo_02.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_06.png'),
                 'title' => '<span class="whiteColor">
-                    Cuentan con formularios integrados
+                    Plantillas <br class="space">
+                    Optimizadas
                     </span>',
                 'text' => '
-                Con los formularios integrados de tus landing pages,<br class="desktopTabletElement"> los datos de tus visitantes quedan guardados <br class="desktopTabletElement"> automáticamente en tu CRM.
+                Nuestra plantillas están diseñadas en base a las <br class="desktopTabletElement"> mejores prácticas, tomando en cuenta todo lo que <br class="desktopTabletElement"> necesitas para que tus emails puedan ser leídos <br class="desktopTabletElement"> sin problemas en todas las plataformas de correo.
                 ',
                 'enableButton' => false,
             ],
@@ -176,7 +204,7 @@
 
 @endcontain_multiple_cards_T2
 
-<section class="customSection sectionParent landingLandingPages2022_4">
+<section class="customSection sectionParent landingemailMk_4">
 
     <div class="section-row">
 
@@ -224,10 +252,14 @@
 @php
 $parameters = [
     'type' => 'backgroundColor',
-    'classSection' => 'landingLandingPages2022_5',
+    'classSection' => 'landingemailMk_5',
     'enableTitle' => true,
     'titlePrincipal' => '
-    Además de crear landing pages increíbles,<br class="desktopTabletElement"> conoce lo que puedes lograr con Escala <br class="desktopTabletElement"> nuestra plataforma todo en uno',
+    Potencia tu marketing digital con <br class="desktopTabletElement"> nuestra plataforma todo en uno
+    ',
+    'subTitlePrincipal' => '
+    Tu email marketing estará ya integrado a la plataforma “todo en uno” de marketing digital <br class="desktopTabletElement"> y ventas más completa de todas y fácil de usar
+    ',
     'overlay' => false,
     'overlayImage' => null,
     'enableButton' => false,
@@ -235,32 +267,22 @@ $parameters = [
                 [
                     'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_01.png'),
                     'title' => '<span class="greenBlueColor7">
-                        Multiplica las visitas <br class="desktopTabletElement"> a tu landing page con <br class="desktopTabletElement"> anuncios digitales
+                        Multiplica las visitas a tu <br class="desktopTabletElement"> landing page con anuncios <br class="desktopTabletElement"> digitales
                         </span>',
                     'text' => '
-                    Genera tráfico a tu landing page. Crea, publica y <br class="desktopTabletElement"> gestiona campañas de anuncios digitales de Facebook,<br class="desktopTabletElement"> directamente desde Escala.
+                    Comienza a generar tráfico a tu landing page.<br class="space"> Crea, publica y gestiona campañas de anuncios <br class="desktopTabletElement"> digitales directamente desde Escala.
                     ',
                     'enableButton' => false,
 
                 ],
                 [
-                    'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_02.png'),
+                    'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_13.png'),
                     'title' => '<span class="greenBlueColor7">
-                        Envía mensajes <br class="desktopTabletElement"> importantes con emails <br class="desktopTabletElement"> profesionales
+                        Crea landing pages <br class="desktopTabletElement"> en minutos
                         </span>
                     ',
                     'text' => '
-                    Nutre la relación con tus contactos enviando efectivas <br class="desktopTabletElement"> campañas de emails. Con nuestras plantillas <br class="desktopTabletElement"> prediseñadas logras enviar masivamente mensajes <br class="desktopTabletElement"> personalizados con tan solo un clic.
-                    ',
-                    'enableButton' => false,
-                ],
-                [
-                    'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_03.png'),
-                    'title' => '<span class="greenBlueColor7">
-                        Ten la visibilidad de <br class="desktopTabletElement"> la salud de tu negocio con <br class="desktopTabletElement"> dashboards amigables
-                        </span>',
-                    'text' => '
-                    Lo que no se mide, no mejora. Escala te da las <br class="desktopTabletElement"> analíticas necesarias en dashboards amigables <br class="desktopTabletElement"> para que optimices tus esfuerzos de venta y <br class="desktopTabletElement"> marketing.
+                    Crea landing pages para darte a conocer y registrar <br class="desktopTabletElement"> la data de tus visitantes, sin escribir una línea de <br class="desktopTabletElement"> código, no diseñar. Solo eliges tú plantillas, la <br class="desktopTabletElement"> personalizas y en un clic la puedes publicar.
                     ',
                     'enableButton' => false,
                 ],
@@ -270,7 +292,7 @@ $parameters = [
                         Gestiona y organiza <br class="desktopTabletElement"> la información de tus contactos <br class="desktopTabletElement"> con el CRM integrado
                         </span>',
                     'text' => '
-                    La información que registran tus visitantes en los formularios <br class="desktopTabletElement"> integrados de tus landing pages se guarda automáticamente <br class="desktopTabletElement"> en el CRM de Escala. Organiza y simplifica tu gestión de <br class="desktopTabletElement"> ventas con el CRM más fácil de usar.
+                    La información que registran tus visitantes en <br class="desktopTabletElement"> los formularios integrados de tus landing pages <br class="desktopTabletElement"> se guarda automáticamente en el CRM de <br class="desktopTabletElement"> Escala. No más integraciones para organizar,<br class="desktopTabletElement"> gestionar y vender a tus contactos.
                     ',
                     'enableButton' => false,
                 ],
@@ -278,11 +300,20 @@ $parameters = [
                     'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_05.png'),
                     'title' => '<span class="greenBlueColor7">
                         Automatiza para ahorrar <br class="desktopTabletElement"> tiempo y evitar errores
-                        <br class="desktopTabletElement">
-                        <br class="desktopTabletElement">
                         </span>',
                     'text' => '
-                    Nunca más realices tareas repetitivas de marketing <br class="desktopTabletElement"> digital y ventas. Programa recordatorios, acciones y <br class="desktopTabletElement"> mensajes que aumentan tu productividad.',
+                    Nunca más realices tareas repetitivas de <br class="desktopTabletElement"> marketing digital y ventas. Programa <br class="desktopTabletElement"> recordatorios, acciones y mensajes que <br class="desktopTabletElement"> aumentan tu productividad.
+                    ',
+                    'enableButton' => false,
+                ],
+                [
+                    'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_02.png'),
+                    'title' => '<span class="greenBlueColor7">
+                        Analíticas <br class="desktopTabletElement"> en tiempo real
+                        </span>',
+                    'text' => '
+                    Ten las métricas más relevantes para poder <br class="desktopTabletElement"> optimizar tus resultados de marketing digital <br class="desktopTabletElement"> y ventas. Cuenta con dashboards amigables <br class="desktopTabletElement"> para ver las analíticas de landing pages, ads,<br class="desktopTabletElement"> ventas y emails.
+                    ',
                     'enableButton' => false,
                 ],
 
@@ -297,7 +328,7 @@ $parameters = [
 
 {{-- 6 --}}
 
-<section class="customSection sectionParent landingLandingPages2022_6">
+<section class="customSection sectionParent landingemailMk_6">
 
     <div class="section-row">
 
@@ -307,8 +338,7 @@ $parameters = [
 
               <div class="element">
 
-                  <img class="desktopElement" src="{!! App::setFilePath('/assets/images/illustrations/others/6_banner-plantillas-1.png') !!}" alt="">
-                  <img class="mobileElement" src="{!! App::setFilePath('/assets/images/illustrations/others/6_banner-plantillas.png') !!}" alt="">
+                  <img  src="{!! App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_07.png') !!}" alt="">
 
               </div>
           </div>
@@ -317,7 +347,9 @@ $parameters = [
           <section class="innerSectionElement2">
 
             <h2 class="primaryTitle whiteColor">
-              En Escala hay una plantilla ideal <br class="desktopTabletElement"> para cada tipo de negocio
+                Los emails de Escala, la herramienta <br class="desktopTabletElement">
+                más efectiva para generar relaciones <br class="desktopTabletElement">
+                a largo plazo con tus clientes
             </h2>
 
             <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
@@ -336,12 +368,13 @@ $parameters = [
 @php
 $parameters = [
     'type' => 'backgroundColor',
-    'classSection' => 'landingLandingPages2022_7',
+    'classSection' => 'landingemailMk_7',
     'enableTitle' => true,
     'titlePrincipal' => '
     Servicio Premium
     ',
-    'subTitlePrincipal' => 'No solo te ayudamos a crear landing pages, también <br class="desktopTabletElement"> te vamos a acompañar en todo el camino al éxito',
+    'subTitlePrincipal' => 'No solo te ayudamos a crear landing pages, también <br class="desktopTabletElement"> te vamos a acompañar en todo el camino al éxito
+    ',
     'overlay' => false,
     'enableButton' => true,
     'urlButton' => '#',
@@ -390,13 +423,16 @@ $parameters = [
 
 @php
 $parameters = [
-    'classSection' => 'landingLandingPages2022_8',
+    'classSection' => 'landingemailMk_8',
     'title' => '
-    Quiero crear en minutos <br class="desktopTabletElement"> hermosas landing pages
+    Quiero generar más leads y <br class="desktopTabletElement">
+fidelizar más clientes con <br class="desktopTabletElement">
+campañas de email marketing
+
         </span>',
     'textForm' => 'Pruébalo gratis ahora',
-    'text' => 'Lo que antes tardaba días en programación y diseño, ahora lo <br class="desktopTabletElement"> puedes hacer en minutos, sin programadores ni diseñadores.<br class="space"> ¡Créalas tú mismo!',
-    'image' => App::setFilePath('/assets/images/illustrations/others/8_bannerfinal_01.png'),
+    'text' => null,
+    'image' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_14.png'),
     'side' => 'left',
 ];
 @endphp
