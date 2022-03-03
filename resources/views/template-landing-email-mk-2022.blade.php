@@ -257,7 +257,8 @@ $parameters = [
     'classSection' => 'landingemailMk_5',
     'enableTitle' => true,
     'titlePrincipal' => '
-    Potencia tu marketing digital con <br class="desktopTabletElement"> nuestra plataforma todo en uno
+    Acelera tu crecimiento con <br class="desktopTabletElement">
+    nuestra plataforma todo en uno
     ',
     'subTitlePrincipal' => '
     Tu email marketing estará ya integrado a la plataforma “todo en uno” de marketing digital <br class="desktopTabletElement"> y ventas más completa de todas y fácil de usar
