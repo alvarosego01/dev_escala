@@ -17,9 +17,9 @@
      'overlay' => false,
      'classSection' => 'threeCol landingemailMk_0',
      'title' => '<span class="whiteColor">
-Genera más leads y fideliza <br class="desktopTabletElement">
-más clientes con los emails <br class="desktopTabletElement">
-de Escala
+Con los emails de Escala <br class="desktopTabletElement">
+Genera más leads y mantén la <br class="desktopTabletElement">
+comunicación con tus clientes
         </span>',
      'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span> ',
      'threeCol' => true,
@@ -39,8 +39,8 @@ de Escala
         'classSection' => 'landingemailMk_1',
         'enableTitle' => true,
         'titlePrincipal' => '
-        Conoce los beneficios de <br class="space">
-        nuestro Email marketing
+        Conoce cómo nuestro software <br class="desktopTabletElement">
+        potencia tu email marketing
         ',
         'subTitlePrincipal' => null,
         'overlay' => false,
@@ -53,23 +53,24 @@ de Escala
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_01.png'),
                 'title' => '<span class="grayColorTexts5">
-                    Date a conocer <br class="desktopTabletElement"> con nuevos leads
+                    Obtén el mejor índice de <br class="desktopTabletElement">
+                     apertura de la industria
                     </span>',
                 'enableButton' => false,
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_02.png'),
                 'title' => '<span class="grayColorTexts5">
-                    Mantén comunicación <br class="desktopTabletElement"> constante
-                    con tus clientes
+                    Automatiza la comunicación <br class="desktopTabletElement">
+                    con tus leads y clientes
                     </span>',
                 'enableButton' => false,
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_03.png'),
                 'title' => '<span class="grayColorTexts5">
-                    Hazle seguimiento a tus leads <br class="desktopTabletElement">
-                    hasta cerrar la venta
+                    Intengra los resultados de <br class="desktopTabletElement">
+                    email marketing con tu CRM
                     </span>',
                 'enableButton' => false,
             ],
@@ -278,7 +279,10 @@ $parameters = [
                 [
                     'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_13.png'),
                     'title' => '<span class="greenBlueColor7">
-                        Crea landing pages <br class="desktopTabletElement"> en minutos
+                        Crea landing pages <br class="desktopTabletElement">
+                        en minutos
+                        <br class="desktopTabletElement">
+                        <br class="desktopTabletElement">
                         </span>
                     ',
                     'text' => '
@@ -434,6 +438,10 @@ campañas de email marketing
     'text' => null,
     'image' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_14.png'),
     'side' => 'left',
+    'enableButton' => true,
+  'urlButton' => '#lead-form',
+  'textButton' => '¡Quiero fidelizarlos ahora!',
+  'typeButton' => 'primaryButton hoverInEffect',
 ];
 @endphp
 @bannerForms7_T1( $parameters )
