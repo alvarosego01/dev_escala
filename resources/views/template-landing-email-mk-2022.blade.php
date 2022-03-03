@@ -17,7 +17,7 @@
      'overlay' => false,
      'classSection' => 'threeCol landingemailMk_0',
      'title' => '<span class="whiteColor">
-Con los emails de Escala <br class="desktopTabletElement">
+<span class="preTitle">Con los emails de Escala</span> <br class="space">
 Genera más leads y mantén la <br class="desktopTabletElement">
 comunicación con tus clientes
         </span>',
@@ -358,7 +358,7 @@ $parameters = [
             </h2>
 
             <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-                Comenzar ahora
+                ¡Comenzar ahora!
               </a>
 
 
@@ -378,7 +378,7 @@ $parameters = [
     'titlePrincipal' => '
     Servicio Premium
     ',
-    'subTitlePrincipal' => 'No solo te ayudamos a crear landing pages, también <br class="desktopTabletElement"> te vamos a acompañar en todo el camino al éxito
+    'subTitlePrincipal' => 'No solo te ayudamos a crear efectivas campañas de email marketing, también <br class="desktopTabletElement"> te vamos a acompañar en todo el camino al éxito
     ',
     'overlay' => false,
     'enableButton' => true,

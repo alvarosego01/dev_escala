@@ -17,7 +17,7 @@
      'overlay' => false,
      'classSection' => 'threeCol landingLandingPages2022_0',
      'title' => '<span class="whiteColor">
-        Genera má leads con <br class="desktopTabletElement"> las landing pages <br class="desktopTabletElement"> de Escala
+        Genera más leads con <br class="desktopTabletElement"> las landing pages <br class="desktopTabletElement"> de Escala
         </span>',
      'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span> ',
      'threeCol' => true,
@@ -322,7 +322,7 @@ $parameters = [
             </h2>
 
             <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-                Comenzar ahora
+                ¡Comenzar ahora!
               </a>
 
 
