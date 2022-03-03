@@ -200,6 +200,8 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-landing-incredible.blade.php",
+                "views/template-landing-landing-pages-2022.blade.php",
+                "views/template-landing-email-mk-2022.blade.php",
                 "views/template-landing-pricing-page.blade.php",
                 "views/template-landing-incredible-demo.blade.php",
                 "views/template-landing-whatsapp.blade.php",
@@ -216,7 +218,6 @@ class SetComponents extends Controller
                 "views/template-landing-navidad.blade.php",
                 "views/template-landing-incredible-trial-2.blade.php",
                 "views/template-landing-increibles-am-otto.blade.php",
-
 
             );
         }
@@ -269,6 +270,8 @@ class SetComponents extends Controller
                 "views/template-landing-incredible-trial-2.blade.php",
                 "views/template-landing-increibles-am-otto.blade.php",
                 "views/template-landing-incredible.blade.php",
+                "views/template-landing-landing-pages-2022.blade.php",
+                "views/template-landing-email-mk-2022.blade.php",
                 "views/template-landing-incredible-demo.blade.php",
                 "views/template-landing-whatsapp.blade.php",
                 "views/template-landing-correos-masivos.blade.php",

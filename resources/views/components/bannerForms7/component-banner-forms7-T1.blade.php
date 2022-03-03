@@ -59,6 +59,12 @@
                                 </p>
                             @endif
 
+                            @if ($enableButton != null)
+                            <a href="{{ $urlButton }}" class="goToHash boton {{ $typeButton }}">
+                                {{ $textButton }}
+                            </a>
+                        @endif
+
                             <div class="containerImage">
                                 <img src="{{ $image }}" alt="" loading="lazy">
                             </div>
@@ -87,6 +93,12 @@
                                     {!! $text !!}
                                 </p>
                             @endif
+
+                            @if ($enableButton != null)
+                            <a href="{{ $urlButton }}" class="goToHash boton {{ $typeButton }}">
+                                {{ $textButton }}
+                            </a>
+                        @endif
 
                             <div class="containerImage">
                                 <img src="{{ $image }}" alt="" loading="lazy">
