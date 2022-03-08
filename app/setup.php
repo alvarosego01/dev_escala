@@ -128,6 +128,8 @@ add_action('wp_enqueue_scripts', function () {
     }
 
     wp_enqueue_script('global.js', asset_path('scripts/global.js'), ['jquery'], THEME_VERSION, true);
+    wp_enqueue_script('redirectScript.js', asset_path('scripts/redirectScript.js'), ['jquery'], THEME_VERSION, true);
+
     wp_enqueue_script('popUpConfig.js', asset_path('scripts/popUpConfig.js'), ['jquery'], THEME_VERSION, true);
     wp_enqueue_script('trustpilot.js', "//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" , ['jquery'], THEME_VERSION, true);
 
