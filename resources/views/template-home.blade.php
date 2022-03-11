@@ -358,14 +358,61 @@ sin programar
 
 
 
-{{-- seccion de viedeos --}}
-    {{-- <section class="customSection sectionParent homeSection5">
+{{-- seccion de videos --}}
+    <section class="customSection sectionParent homeSection5">
 
       <div class="section-row">
 
+        <section class="innerSectionElement1">
 
-      </div>
-    </section> --}}
+          <h2 class="primaryTitle blackColor">
+            Los expertos en marketing digital lo dicen: “Escala es muy fácil de usar”
+          </h2>
+          <p class="primaryText grayColorTexts">
+            En <strong>Escala</strong> tienes todas las herramientas <br class="desktopTabletElement"> que necesitas integradas para impulsar tu éxito
+          </p>
+
+        </section>
+
+        <section class="innerSectionElement2">
+
+          <div class="imagesSection">
+
+              <div class="element">
+
+                  <div class="videoContent">
+
+                  </div>
+
+                  <div class="info">
+
+                    <h3 class="secondaryTitle">
+                    <span class="grayColorTexts5">
+                    Da a conocer <br class="desktopTabletElement">
+                    tu negocio
+                    </span>
+                    </h3>
+
+                </div>
+
+              </div>
+              <div class="element">
+
+                  <img src="{!! App::setFilePath('/assets/images/illustrations/v2.png') !!}" alt="">
+
+              </div>
+              <div class="element">
+
+                  <img src="{!! App::setFilePath('/assets/images/illustrations/v3.png') !!}" alt="">
+
+              </div>
+
+          </div>
+
+        </section>
+
+  </div>
+    </section>
 
 
     @php
@@ -603,8 +650,6 @@ te vamos a acompañar en todo el camino al éxito
 
                           <div class="info">
 
-
-
                             <h3 class="tertiaryTitle blackColor">
 
                               <span class="greenBlueColor">
@@ -633,19 +678,13 @@ te vamos a acompañar en todo el camino al éxito
                   </div>
 
 
-                  {{-- <div class="carousel-item">
+                  <div class="carousel-item">
 
                     <div class="row">
 
                     <div class="testimonial col-md-12 col-lg-6 ">
                       <div class="containElements">
-                        <div class="containInfo">
-                          <h3 class="secondaryTitle blackColor">Turismo</h3>
-                          <span class="tag greenBlueColor">Venezuela</span>
-                          <p class="commonText grayColorTexts">
-                            “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos <br> la misma esencia. Encontrarme con Escala fue importante porque es más <br> completa. Tienes todo lo que necesitas, desde captar el interés de los <br>  clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo <br> de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi <br> mercado se redujo por la pandemia, Escala es sumamente oportuno. <br> Además, estoy muy contenta por todo el apoyo que he recibido por el <br> equipo de Escala.”
-                          </p>
-                        </div>
+
                         <div class="referElements">
                           <div class="containerImage">
 
@@ -654,11 +693,26 @@ te vamos a acompañar en todo el camino al éxito
                           </div>
 
                           <div class="info">
-                            <h3 class="tertiaryTitle blackColor">Michell Peláez <br> <span>Ejecutiva de cuentas corporativas</span>
+
+                            <h3 class="tertiaryTitle blackColor">
+
+                              <span class="greenBlueColor">
+                                Michell Peláez <br class="space">
+                                Ejecutiva de cuentas corporativas / Turismo <br class="space">
+                              </span>
+                              Infinito Producciones / Venezuela
+
                             </h3>
-                            <p class="commonText grayColorTexts">Infinito Producciones</p>
+
                           </div>
 
+                        </div>
+
+                        <div class="containInfo">
+
+                          <p class="commonText grayColorTexts">
+                            “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos <br> la misma esencia. Encontrarme con Escala fue importante porque es más <br> completa. Tienes todo lo que necesitas, desde captar el interés de los <br>  clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo <br> de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi <br> mercado se redujo por la pandemia, Escala es sumamente oportuno. <br> Además, estoy muy contenta por todo el apoyo que he recibido por el <br> equipo de Escala.”
+                          </p>
                         </div>
 
                       </div>
@@ -667,15 +721,8 @@ te vamos a acompañar en todo el camino al éxito
 
                     <div class="testimonial col-md-12 col-lg-6 ">
                       <div class="containElements">
-                        <div class="containInfo">
-                          <h3 class="secondaryTitle blackColor">Agencia de Comunicaciones</h3>
-                          <span class="tag greenBlueColor">Costa Rica</span>
-                          <p class="commonText grayColorTexts">
-                            La herramienta es muy amigable, y permite que la gestión pueda realizarla <br> casi que cualquier persona con conocimientos básicos en plataformas <br> digitales. <br class="space">
-                            El servicio es expedito y el equipo a cargo se preocupa por extender <br> capacitaciones necesarias que garantizan que los equipos estén sacando <br> el mayor provecho de la herramienta. <br class="space">
-                            La organización visual de la pantalla de entrada es muy intuitiva, esto <br> permite la exploración y el autoaprendizaje de las diferentes variables que <br> se pueden configurar en la plataforma.
-                          </p>
-                        </div>
+
+
                         <div class="referElements">
                           <div class="containerImage">
 
@@ -684,11 +731,29 @@ te vamos a acompañar en todo el camino al éxito
                           </div>
 
                           <div class="info">
-                            <h3 class="tertiaryTitle blackColor">Dayana Palacios <br> <span>Directora de medios y marketing digital</span>
-                            </h3>
-                            <p class="commonText grayColorTexts">Initiative</p>
+
+
+                        <h3 class="tertiaryTitle blackColor">
+
+                          <span class="greenBlueColor">
+                            Dayana Palacios <br class="space">
+                            Directora de medios y marketing digital / Agencia de Comunicaciones <br class="space">
+                          </span>
+                          Initiative / Costa Rica
+
+                        </h3>
+
                           </div>
 
+                        </div>
+
+                        <div class="containInfo">
+
+                          <p class="commonText grayColorTexts">
+                            La herramienta es muy amigable, y permite que la gestión pueda realizarla <br> casi que cualquier persona con conocimientos básicos en plataformas <br> digitales. <br class="space">
+                            El servicio es expedito y el equipo a cargo se preocupa por extender <br> capacitaciones necesarias que garantizan que los equipos estén sacando <br> el mayor provecho de la herramienta. <br class="space">
+                            La organización visual de la pantalla de entrada es muy intuitiva, esto <br> permite la exploración y el autoaprendizaje de las diferentes variables que <br> se pueden configurar en la plataforma.
+                          </p>
                         </div>
 
                       </div>
@@ -706,17 +771,6 @@ te vamos a acompañar en todo el camino al éxito
 
                       <div class="containElements">
 
-                        <div class="containInfo">
-                          <h3 class="secondaryTitle blackColor">Academia de Coaching</h3>
-                          <span class="tag greenBlueColor">Estados Unidos</span>
-                          <p class="commonText grayColorTexts">
-                            ¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad <br>
-                            de lanzamientos de iniciativas de aprendizaje y crecimiento!!!
-                            <br class="space">
-                            🔥🔥🔥🔥👏👏👏👏🙌
-
-                          </p>
-                        </div>
                         <div class="referElements">
                           <div class="containerImage">
 
@@ -725,11 +779,30 @@ te vamos a acompañar en todo el camino al éxito
                           </div>
 
                           <div class="info">
-                            <h3 class="tertiaryTitle blackColor">Fernando Celis <br> <span>CEO y Fundador</span>
+
+                            <h3 class="tertiaryTitle blackColor">
+
+                              <span class="greenBlueColor">
+                                Fernando Celis <br class="space">
+                                CEO y Fundador / Academia de Coaching <br class="space">
+                              </span>
+                              ILC Academy / Estados Unidos
+
                             </h3>
-                            <p class="commonText grayColorTexts">ILC Academy</p>
+
                           </div>
 
+                        </div>
+
+                        <div class="containInfo">
+
+                          <p class="commonText grayColorTexts">
+                            ¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad <br>
+                            de lanzamientos de iniciativas de aprendizaje y crecimiento!!!
+                            <br class="space">
+                            🔥🔥🔥🔥👏👏👏👏🙌
+
+                          </p>
                         </div>
 
                       </div>
@@ -738,13 +811,7 @@ te vamos a acompañar en todo el camino al éxito
                     <div class="testimonial col-md-12 col-lg-6 ">
 
                       <div class="containElements">
-                        <div class="containInfo">
-                          <h3 class="secondaryTitle blackColor">Entretenimiento Deportivo</h3>
-                          <span class="tag greenBlueColor">Venezuela</span>
-                          <p class="commonText grayColorTexts">
-                            Felicitaciones al equipo de Escala, pues de verdad la plataforma me <br> gusta bastante. Posee herramientas muy útiles y lo mejor e  que es <br> simple de manipular.
-                          </p>
-                        </div>
+
                         <div class="referElements">
                           <div class="containerImage">
 
@@ -753,11 +820,26 @@ te vamos a acompañar en todo el camino al éxito
                           </div>
 
                           <div class="info">
-                            <h3 class="tertiaryTitle blackColor">Felix Pacheco
+
+                            <h3 class="tertiaryTitle blackColor">
+
+                              <span class="greenBlueColor">
+                                Felix Pacheco <br class="space">
+                                Entretenimiento Deportivo <br class="space">
+                              </span>
+                              Savage Paintball / Venezuela
+
                             </h3>
-                            <p class="commonText grayColorTexts">Savage Paintball</p>
+
                           </div>
 
+                        </div>
+
+                        <div class="containInfo">
+
+                          <p class="commonText grayColorTexts">
+                            Felicitaciones al equipo de Escala, pues de verdad la plataforma me <br> gusta bastante. Posee herramientas muy útiles y lo mejor e  que es <br> simple de manipular.
+                          </p>
                         </div>
 
                       </div>
@@ -766,7 +848,7 @@ te vamos a acompañar en todo el camino al éxito
 
 
                   </div>
-                  </div> --}}
+                  </div>
 
               </div>
 
@@ -827,7 +909,7 @@ te vamos a acompañar en todo el camino al éxito
 
 
 
-<section class="customSection sectionParent homeSection8 fullWidth">
+<section class="customSection sectionParent homeSection10 fullWidth">
 
 
 

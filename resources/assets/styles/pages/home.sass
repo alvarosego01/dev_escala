@@ -583,6 +583,72 @@
 
 
 
+#homeBootstrap .customSection.sectionParent.homeSection5
+    padding: 0
+    padding-bottom: 50px
+    background-color: #EFF8FF
+    // background-color: $colorBlueLight7
+    .section-row
+        background-color: #FFFFFF
+        border-radius: 18px
+        @include responsivo(telefonoTable)
+            width: 95%
+            padding: 50px 25px
+        @include responsivo(pcMedio)
+            width: 90%
+            padding: 50px 25px
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1125px!important
+            padding: 50px 50px
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1250px!important
+            padding: 50px 75px
+        .innerSectionElement1
+            h2.primaryTitle
+                font-family: Nunito
+                font-style: normal
+                font-weight: bold
+                font-size: 35px
+                line-height: 0.9
+                text-align: center
+                letter-spacing: -2px
+                @include responsivo(telefonoTable)
+                    font-size: 25px
+                @include responsivo(pcMedio)
+                    font-size: 25px
+        .innerSectionElement2
+            .imagesSection
+                display: flex
+                @include responsivo(telefonoTable)
+                    flex-direction: column
+                    justify-content: center
+                    align-content: center
+                    align-items: center
+                @include responsivo(pcMedio)
+                    flex-direction: column
+                    justify-content: center
+                    align-content: center
+                    align-items: center
+                @include responsivo(general)
+                    flex-direction: row
+                    justify-content: space-evenly
+                    align-content: center
+                    align-items: center
+                @include responsivo(resto)
+                    flex-direction: row
+                    justify-content: space-evenly
+                    align-content: center
+                    align-items: center
+                .element
+                    img
+                        height: 180px
+                        @include responsivo(general)
+                            height: 170px
+
+
+
 #homeBootstrap .customSection.sectionParent.homeSection6
     padding-top: 0
     padding-bottom: 50px!important
@@ -759,7 +825,7 @@
         @include responsivo(resto)
             width: 100%!important
             max-width: 1250px!important
-            padding: 50px 50px
+            padding: 50px 75px
         h2.primaryTitle
             font-family: Nunito
             font-style: normal
@@ -789,13 +855,33 @@
             flex-flow: row wrap
             height: fit-content
             justify-content: center
-            margin-bottom: 50px
+            margin-bottom: 25px
             @include responsivo(telefonoTable)
                 margin-bottom: 0
             @include responsivo(pcMedio)
                 margin-bottom: 0
             &::before
                 display: block
+
+            .carousel
+                // .carousel-inner
+                .controlsSlideshow
+                    position: absolute
+                    width: 100%
+                    height: 100%
+                    left: 0
+                    right: 0
+                    top: 0
+                    bottom: 0
+                    button.carousel-control-prev
+                        left: -75px
+                    button.carousel-control-next
+                        right: -75px
+
+                    button
+                        width: 7.5%
+                        font-size: 57.5px
+                        color: #BCD9F3
 
             .testimonial
                 box-sizing: border-box
@@ -814,10 +900,6 @@
 
                     @include responsivo(pcMedio)
                         padding-bottom: 0
-
-
-
-
 
                     .secondaryTitle
                         font-size: 22px
@@ -966,7 +1048,7 @@
 #homeBootstrap .customSection.sectionParent.homeSection9
     background-color: white
     .section-row
-        // padding-top: 60px
+        padding-top: 50px
         padding-bottom: 50px
         @include responsivo(telefonoTable)
             width: 95%
@@ -1053,17 +1135,17 @@
 
 
 
-// #homeBootstrap .customSection.sectionParent.homeSection8
-//     padding: 25px 0 75px!important
-//     background-color: white
-//     .section-row
-//         .containElements
-//             display: flex
-//             flex-direction: column
-//             .primaryTitle
-//                 margin-bottom: 25px
-//             .primaryButton
-//                 margin: 0 auto
+#homeBootstrap .customSection.sectionParent.homeSection10
+    padding: 25px 0 75px!important
+    background-color: white
+    .section-row
+        .containElements
+            display: flex
+            flex-direction: column
+            .primaryTitle
+                margin-bottom: 25px
+            .primaryButton
+                margin: 0 auto
 
 
 
