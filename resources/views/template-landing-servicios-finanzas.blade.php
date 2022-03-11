@@ -149,7 +149,7 @@
 
         @endcontain_text_image_T1
 
-                @php
+        @php
             $parameters = [
                 'type' => 'backgroundColor',
                 'classSection' => 'landingServFinanzas4',
@@ -168,7 +168,6 @@
         @endphp
 
         @contain_text_image_T1( $parameters )
-
         @endcontain_text_image_T1
 
             {{-- @php
