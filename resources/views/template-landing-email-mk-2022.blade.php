@@ -89,7 +89,6 @@ comunicación con tus clientes
 @endphp
 
 @contain_multiple_cards_T2( $parameters )
-
 @endcontain_multiple_cards_T2
 
     @php
@@ -249,8 +248,6 @@ comunicación con tus clientes
   </section>
 
 
-
-
 @php
 $parameters = [
     'type' => 'backgroundColor',
@@ -322,10 +319,7 @@ $parameters = [
                     ',
                     'enableButton' => false,
                 ],
-
-
     )
-
 ];
 @endphp
 
@@ -423,7 +417,6 @@ $parameters = [
 @endphp
 
 @contain_multiple_cards_T2( $parameters )
-
 @endcontain_multiple_cards_T2
 
 
