@@ -45,7 +45,16 @@
         </span>',
      'text' => '<span class="whiteColor">
       Escala es el software todo en uno de <br class="desktopTabletElement"> marketing digital y ventas más fácil de usar <br class="desktopTabletElement"> que impulsará el crecimiento de tu negocio.
-      </span> ',
+      </span>
+      <p class="byAutor">
+        <span class="up">
+          Andrés Moreno
+          </span>
+        <span class="bottom">
+          Fundador de Escala & Open English
+          </span>
+        </p>
+      ',
      'threeCol' => true,
      'textForm' => 'Comienza ahora',
      'backgroundImage' => null,
@@ -369,43 +378,189 @@ sin programar
             Los expertos en marketing digital lo dicen: “Escala es muy fácil de usar”
           </h2>
           <p class="primaryText grayColorTexts">
-            En <strong>Escala</strong> tienes todas las herramientas <br class="desktopTabletElement"> que necesitas integradas para impulsar tu éxito
+            Descubre en estos videos como expertos de marketing digital y ventas de toda <br class="desktopTabletElement"> Latinoamérica le sacan provecho a cada funcionalidad de Escala.
           </p>
 
         </section>
 
         <section class="innerSectionElement2">
 
-          <div class="imagesSection">
+          <div id="carousel-videoHome" class="carousel carousel-fade" data-bs-ride="carousel">
 
-              <div class="element">
+            <div class="carousel-inner mobileElement">
+              <div class="carousel-item  active">
+
+                <div class="imagesSection row">
+
+                <div class="element col-md-12 col-lg-4">
 
                   <div class="videoContent">
+
+                    <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                   </div>
 
                   <div class="info">
 
-                    <h3 class="secondaryTitle">
-                    <span class="grayColorTexts5">
-                    Da a conocer <br class="desktopTabletElement">
-                    tu negocio
-                    </span>
+                    <h3 class="titleVideo">
+                      Cómo CREAR una LANDING PAGE <br class="desktopTabletElement">
+                      profesional sin programar con ESCALA
                     </h3>
 
                 </div>
 
               </div>
-              <div class="element">
+              </div>
+              </div>
+              <div class="carousel-item">
 
-                  <img src="{!! App::setFilePath('/assets/images/illustrations/v2.png') !!}" alt="">
+                <div class="imagesSection row">
+
+
+                <div class="element col-md-12 col-lg-4">
+
+                  <div class="videoContent">
+
+                    <iframe src="https://www.youtube.com/embed/elw0_VBWSiY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                  </div>
+
+                  <div class="info">
+
+                    <h3 class="titleVideo">
+                      Herramienta de marketing <br class="desktopTabletElement">
+                      todo en uno 2022
+                    </h3>
+
+                </div>
+              </div>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <div class="imagesSection row">
+
+                <div class="element col-md-12 col-lg-4">
+
+                  <div class="videoContent">
+
+                    <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                  </div>
+
+                  <div class="info">
+
+                    <h3 class="titleVideo">
+                      ¿Qué es un CRM y para qué sirve? <br class="desktopTabletElement">
+                      Aumenta tus ventas con Escala
+                    </h3>
+
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+
+            <div class="carousel-inner desktopElement">
+
+                <div class="carousel-item active">
+
+          <div class="imagesSection row">
+
+            <div class="element col-md-12 col-lg-4">
+
+                <div class="videoContent">
+
+                  <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+
+                <div class="info">
+
+                  <h3 class="titleVideo">
+                    Cómo CREAR una LANDING PAGE <br class="desktopTabletElement">
+                    profesional sin programar con ESCALA
+                  </h3>
 
               </div>
-              <div class="element">
 
-                  <img src="{!! App::setFilePath('/assets/images/illustrations/v3.png') !!}" alt="">
+            </div>
+
+            <div class="element col-md-12 col-lg-4">
+
+              <div class="videoContent">
+
+                <iframe src="https://www.youtube.com/embed/elw0_VBWSiY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               </div>
+
+              <div class="info">
+
+                <h3 class="titleVideo">
+                  Herramienta de marketing <br class="desktopTabletElement">
+                  todo en uno 2022
+                </h3>
+
+            </div>
+
+            </div>
+            <div class="element col-md-12 col-lg-4">
+
+              <div class="videoContent">
+
+                <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              </div>
+
+              <div class="info">
+
+                <h3 class="titleVideo">
+                  ¿Qué es un CRM y para qué sirve? <br class="desktopTabletElement">
+                  Aumenta tus ventas con Escala
+                </h3>
+
+            </div>
+
+          </div>
+
+
+
+                  </div>
+
+                </div>
+
+            </div>
+
+            <div class="controlsSlideshow">
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-videoHome" data-bs-slide="prev">
+
+                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-videoHome" data-bs-slide="next">
+
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+              </button>
+
+          </div>
+
+          </div>
+
+
+        </section>
+        <section class="innerSectionElement3">
+
+          <div class="containElements">
+
+            {{-- <h3 class="primaryTitle greenBlueColor">
+              Comienza a generar más leads, clientes y ventas
+            </h3> --}}
+
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+              ¡Comenzar ahora!
+            </a>
+
 
           </div>
 
@@ -592,14 +747,284 @@ te vamos a acompañar en todo el camino al éxito
           <div class="groupElements row">
 
 
-            <div id="carousel-testimonialHome" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
+            <div id="carousel-testimonialHome" class="carousel carousel-fade" data-bs-ride="carousel">
+
+
+              <div class="carousel-inner mobileElement">
+
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="testimonial col-md-12 col-lg-6 ">
+
+                        <div class="containElements">
+
+
+                          <div class="referElements">
+                            <div class="containerImage">
+
+                              <img alt="Agencia de Publicidad" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Publicidad-Comercial2-1.png" alt="" loading="lazy">
+
+                            </div>
+
+                            <div class="info">
+                              <h3 class="tertiaryTitle blackColor">
+
+                                <span class="greenBlueColor">
+                                  Verónica Bolaños <br class="space">
+                                  Account Manager / Agencia de Publicidad <br class="space">
+                                </span>
+                                Publicidad Comercial / El Salvador
+
+                              </h3>
+
+                            </div>
+
+                          </div>
+
+                          <div class="containInfo">
+                            <p class="commonText grayColorTexts">
+                              “Escala tiene el email builder más amigable que he utilizado en los últimos <br> años, y su equipo está comprometido a mantener la plataforma en <br> constante actualización en el dinámico mundo digital.”
+                            </p>
+                          </div>
+
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+
+                    <div class="testimonial col-md-12 col-lg-6 ">
+                      <div class="containElements">
+
+                        <div class="referElements">
+                          <div class="containerImage">
+
+                            <img alt="Agencia de Marketing" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Huella-Studio-1.png" alt="" loading="lazy">
+
+                          </div>
+
+                          <div class="info">
+
+                            <h3 class="tertiaryTitle blackColor">
+
+                              <span class="greenBlueColor">
+                                Ernesto Valery y Edher Nieves <br class="space">
+                                Director Creativo / Agencia de Marketing <br class="space">
+                              </span>
+                              Huella Studio / México
+
+                            </h3>
+
+                          </div>
+
+                        </div>
+
+                         <div class="containInfo">
+                          <p class="commonText grayColorTexts">
+                            “Son muchas herramientras integradas en un solo sitio, una herramienta muy <br> sencilla de utilizar y le da mucho beneficio al cliente. Nunca me habían <br> atendido de esta manera en ningún tipo de plataforma similar. Primera vez <br> que me atienden de esta manera y agradecidos enormemente. Felicidades <br> porque tienen un equipo de trabajo increíble.”
+                          <p>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+
+                      <div class="testimonial col-md-12 col-lg-6 ">
+                        <div class="containElements">
+
+                          <div class="referElements">
+                            <div class="containerImage">
+
+                              <img alt="Turismo" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Infinito-Producciones-1.png" alt="" loading="lazy">
+
+                            </div>
+
+                            <div class="info">
+
+                              <h3 class="tertiaryTitle blackColor">
+
+                                <span class="greenBlueColor">
+                                  Michell Peláez <br class="space">
+                                  Ejecutiva de cuentas corporativas / Turismo <br class="space">
+                                </span>
+                                Infinito Producciones / Venezuela
+
+                              </h3>
+
+                            </div>
+
+                          </div>
+
+                          <div class="containInfo">
+
+                            <p class="commonText grayColorTexts">
+                              “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos <br> la misma esencia. Encontrarme con Escala fue importante porque es más <br> completa. Tienes todo lo que necesitas, desde captar el interés de los <br>  clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo <br> de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi <br> mercado se redujo por la pandemia, Escala es sumamente oportuno. <br> Además, estoy muy contenta por todo el apoyo que he recibido por el <br> equipo de Escala.”
+                            </p>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="row">
+
+                    <div class="testimonial col-md-12 col-lg-6 ">
+                      <div class="containElements">
+
+
+                        <div class="referElements">
+                          <div class="containerImage">
+
+                            <img alt="Agencia de Comunicaciones" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Initiative-1.png" alt="" loading="lazy">
+
+                          </div>
+
+                          <div class="info">
+
+
+                        <h3 class="tertiaryTitle blackColor">
+
+                          <span class="greenBlueColor">
+                            Dayana Palacios <br class="space">
+                            Directora de medios y marketing digital / Agencia de Comunicaciones <br class="space">
+                          </span>
+                          Initiative / Costa Rica
+
+                        </h3>
+
+                          </div>
+
+                        </div>
+
+                        <div class="containInfo">
+
+                          <p class="commonText grayColorTexts">
+                            La herramienta es muy amigable, y permite que la gestión pueda realizarla <br> casi que cualquier persona con conocimientos básicos en plataformas <br> digitales. <br class="space">
+                            El servicio es expedito y el equipo a cargo se preocupa por extender <br> capacitaciones necesarias que garantizan que los equipos estén sacando <br> el mayor provecho de la herramienta. <br class="space">
+                            La organización visual de la pantalla de entrada es muy intuitiva, esto <br> permite la exploración y el autoaprendizaje de las diferentes variables que <br> se pueden configurar en la plataforma.
+                          </p>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="row">
+
+                      <div class="testimonial col-md-12 col-lg-6 ">
+
+                        <div class="containElements">
+
+                          <div class="referElements">
+                            <div class="containerImage">
+
+                              <img alt="Academia de Coaching" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Logo-ILC-Academy-1-1.png" alt="" loading="lazy">
+
+                            </div>
+
+                            <div class="info">
+
+                              <h3 class="tertiaryTitle blackColor">
+
+                                <span class="greenBlueColor">
+                                  Fernando Celis <br class="space">
+                                  CEO y Fundador / Academia de Coaching <br class="space">
+                                </span>
+                                ILC Academy / Estados Unidos
+
+                              </h3>
+
+                            </div>
+
+                          </div>
+
+                          <div class="containInfo">
+
+                            <p class="commonText grayColorTexts">
+                              ¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad <br>
+                              de lanzamientos de iniciativas de aprendizaje y crecimiento!!!
+                              <br class="space">
+                              🔥🔥🔥🔥👏👏👏👏🙌
+
+                            </p>
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+
+                    <div class="testimonial col-md-12 col-lg-6 ">
+
+                      <div class="containElements">
+
+                        <div class="referElements">
+                          <div class="containerImage">
+
+                            <img alt="Entretenimiento Deportivo" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Savage-Paintball-1.png" alt="" loading="lazy">
+
+                          </div>
+
+                          <div class="info">
+
+                            <h3 class="tertiaryTitle blackColor">
+
+                              <span class="greenBlueColor">
+                                Felix Pacheco <br class="space">
+                                Entretenimiento Deportivo <br class="space">
+                              </span>
+                              Savage Paintball / Venezuela
+
+                            </h3>
+
+                          </div>
+
+                        </div>
+
+                        <div class="containInfo">
+
+                          <p class="commonText grayColorTexts">
+                            Felicitaciones al equipo de Escala, pues de verdad la plataforma me <br> gusta bastante. Posee herramientas muy útiles y lo mejor e  que es <br> simple de manipular.
+                          </p>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+                  </div>
+                  </div>
+
+              </div>
+
+              <div class="carousel-inner desktopElement">
 
                   <div class="carousel-item active">
 
                     <div class="row">
-
-
 
                     <div class="testimonial col-md-12 col-lg-6 ">
 
