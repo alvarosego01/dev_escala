@@ -661,8 +661,23 @@
                     img
                         display: block
                         margin: auto
-                        height: 100px!important
-                        width: 120px!important
+
+                        @include responsivo(telefonoTable)
+                            height: 125px
+                            width: 150px
+
+                        @include responsivo(pcMedio)
+                            height: 125px
+                            width: 150px
+
+                        @include responsivo(general)
+                            height: 125px
+                            width: 150px
+
+                        @include responsivo(resto)
+                            height: 125px
+                            width: 150px
+
                 .containerElements
                     padding: 10px
                     .secondaryTitle
@@ -690,8 +705,7 @@
                         display: flex
                         img
                             margin: 0 auto
-                            width: auto!important
-                            height: 140px!important
+
                     .containerElements
                         display: flex
                         justify-content: center
@@ -708,8 +722,7 @@
                         display: flex
                         img
                             margin: 0 auto
-                            width: auto!important
-                            height: 140px!important
+
                     .containerElements
                         display: flex
                         justify-content: center
