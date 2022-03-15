@@ -647,6 +647,10 @@
     .accordion-item.itemChild
         &:last-child
             margin-bottom: 40px
+            @include responsivo(telefonoTable)
+                margin-bottom: 12.5px
+            @include responsivo(pcMedio)
+                margin-bottom: 20px
 
 
     .accordion-item.itemParent
