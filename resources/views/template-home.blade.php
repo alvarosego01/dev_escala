@@ -41,7 +41,7 @@
      'overlay' => false,
      'classSection' => 'threeCol homeSection0',
      'title' => '<span style="color: #B9E6E9">
-        Genera más leads,<br class="desktopTabletElement"> aumenta tus ventas y <br class="desktopTabletElement"> fideliza a más clientes
+        Genera más leads,<br class="desktopElement"> aumenta tus <br class="mobileElement"> ventas y <br class="desktopElement"> fideliza a más clientes
         </span>',
      'text' => '<span class="whiteColor">
       Escala es el software todo en uno de <br class="desktopTabletElement"> marketing digital y ventas más fácil de usar <br class="desktopTabletElement"> que impulsará el crecimiento de tu negocio.
@@ -51,7 +51,7 @@
           Andrés Moreno
           </span>
         <span class="bottom">
-          Fundador de Escala & Open English
+          Fundador de Escala & <br class="mobileElement"> Open English
           </span>
         </p>
       ',
@@ -74,7 +74,7 @@
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
         'title' => '
-        Con Escala tus clientes <br class="desktopTabletElement">
+        Con Escala tus clientes <br class="space">
         <span class="greenBlueColor">están en el centro de tu estrategia</span>',
         'img' => App::setFilePath('/assets/images/illustrations/others/Group_home1.png'),
         'text' => 'Flywheel es la estrategia de crecimiento acelerado implementada por Andrés Moreno <br class="desktopTabletElement">
@@ -128,7 +128,7 @@ la estrategia probada para hacer crecer empresas de manera rentable, sostenible 
         [
             'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_02.png'),
             'title' => '<span class="grayColorTexts5">
-                Multiplica el interés <br class="desktopTabletElement">
+                Multiplica el interés <br class="space">
 por tus productos y servicios
                 </span>',
             'enableButton' => false,
@@ -164,7 +164,7 @@ a tus clientes
         <section class="innerSectionElement1">
 
           <h2 class="primaryTitle blackColor">
-            Nuestros clientes te dicen porque <br class="desktopTabletElement">
+            Nuestros clientes te dicen <br class="mobileElement"> porque <br class="desktopElement">
 prefieren Escala
           </h2>
 
@@ -195,6 +195,23 @@ prefieren Escala
 
         </section>
 
+        <section class="innerSectionElement3">
+
+          <div class="containElements">
+
+            {{-- <h3 class="primaryTitle greenBlueColor">
+              Comienza a generar más leads, clientes y ventas
+            </h3> --}}
+
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+              ¡Comenzar ahora!
+            </a>
+
+
+          </div>
+
+        </section>
+
   </div>
 
 
@@ -211,11 +228,11 @@ prefieren Escala
             <div class="containElements">
 
               <h2 class="primaryTitle blackColor">
-                <span class="greenBlueColor">La plataforma todo-en-uno</span> <br class="desktopTabletElement">
+                <span class="greenBlueColor">La plataforma todo-en-uno</span> <br class="space">
                 de marketing digital y ventas
               </h2>
               <p class="primaryText grayColorTexts">
-                En <strong>Escala</strong> tienes todas las herramientas <br class="desktopTabletElement"> que necesitas integradas para impulsar tu éxito
+                En <strong>Escala</strong> tienes todas las herramientas <br class="space"> que necesitas integradas para impulsar tu éxito
               </p>
 
             </div>
@@ -227,7 +244,7 @@ prefieren Escala
 
 
 
-              <div class="col-6 col-md-6 col-lg-6 infoGroup">
+              <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
                   <img alt="Crea increíbles páginas sin programar" src="{!! App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_13.png') !!}" alt="" loading="lazy">
@@ -235,7 +252,7 @@ prefieren Escala
 
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
-                    Crea increíbles páginas <br class="desktopTabletElement">
+                    Crea increíbles páginas <br class="space">
 sin programar
                   </h3>
                   <p class="primaryText  grayColorTexts">¡Y que queden hermosas!</p>
@@ -244,7 +261,7 @@ sin programar
 
               </div>
 
-              <div class="col-6 col-md-6 col-lg-6 infoGroup">
+              <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
                   <img alt="Organiza tus contactos y gestiona procesos de venta" src="{!! App::setFilePath('/assets/images/illustrations/others/5_todoenuno_04.png') !!}" alt="" loading="lazy">
@@ -252,7 +269,7 @@ sin programar
 
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
-                    Organiza tus contactos <br class="desktopTabletElement">
+                    Organiza tus contactos <br class="space">
                     y gestiona procesos de venta
                   </h3>
                   <p class="primaryText  grayColorTexts">Con un CRM sencillo de usar</p>
@@ -265,7 +282,7 @@ sin programar
 
             </div>
             <div class="groupElements row">
-              <div class="col-6 col-md-6 col-lg-6 infoGroup">
+              <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
                   <img alt="Envía emails de marketing profesionales" src="{!! App::setFilePath('/assets/images/illustrations/others/5_todoenuno_01.png') !!}" alt="" loading="lazy">
@@ -273,7 +290,7 @@ sin programar
 
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
-                    Envía emails de marketing <br class="desktopTabletElement"> profesionales
+                    Envía emails de marketing <br class="space"> profesionales
 
                   </h3>
                   <p class="primaryText  grayColorTexts">
@@ -286,7 +303,7 @@ sin programar
 
               </div>
 
-              <div class="col-6 col-md-6 col-lg-6 infoGroup">
+              <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
                   <img alt="Multiplica tus visitas web con anuncios digitales" src="{!! App::setFilePath('/assets/images/illustrations/others/3_ahorratiempo_03.png') !!}" alt="" loading="lazy">
@@ -294,7 +311,7 @@ sin programar
 
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
-                    Multiplica tus visitas web <br class="desktopTabletElement"> con anuncios digitales
+                    Multiplica tus visitas web <br class="space"> con anuncios digitales
 
                   </h3>
                   <p class="primaryText  grayColorTexts">
@@ -309,7 +326,7 @@ sin programar
             </div>
 
             <div class="groupElements row">
-              <div class="col-6 col-md-6 col-lg-6 infoGroup">
+              <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
                   <img alt="Automatiza tareas y flujos de comunicación" src="{!! App::setFilePath('/assets/images/illustrations/others/5_todoenuno_05.png') !!}" alt="" loading="lazy">
@@ -317,7 +334,7 @@ sin programar
 
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
-                    Automatiza tareas y <br class="desktopTabletElement">
+                    Automatiza tareas y <br class="space">
                     flujos de comunicación
                   </h3>
 
@@ -332,7 +349,7 @@ sin programar
 
 
 
-              <div class="col-6 col-md-6 col-lg-6 infoGroup">
+              <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
                 <div class="containerImage">
                   <img alt="Obtén métricas de marketing y ventas en tiempo real" src="{!! App::setFilePath('/assets/images/illustrations/others/3_ahorratiempo_04.png') !!}" alt="" loading="lazy">
@@ -340,7 +357,7 @@ sin programar
 
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
-                    Obtén métricas de marketing <br class="desktopTabletElement"> y ventas en  tiempo real
+                    Obtén métricas de marketing <br class="space"> y ventas en  tiempo real
 
                   </h3>
                   <p class="primaryText  grayColorTexts">con dashboards inteligentes</p>
@@ -375,7 +392,7 @@ sin programar
         <section class="innerSectionElement1">
 
           <h2 class="primaryTitle blackColor">
-            Los expertos en marketing digital lo dicen: “Escala es muy fácil de usar”
+            Los expertos en marketing digital <br class="mobileElement"> lo dicen: “Escala es muy fácil de usar”
           </h2>
           <p class="primaryText grayColorTexts">
             Descubre en estos videos como expertos de marketing digital y ventas de toda <br class="desktopTabletElement"> Latinoamérica le sacan provecho a cada funcionalidad de Escala.
@@ -385,7 +402,7 @@ sin programar
 
         <section class="innerSectionElement2">
 
-          <div id="carousel-videoHome" class="carousel carousel-fade" data-bs-ride="carousel">
+          <div id="carousel-videoHome-Mobile" class="carousel carousel-fade mobileElement" data-bs-ride="carousel">
 
             <div class="carousel-inner mobileElement">
               <div class="carousel-item  active">
@@ -460,6 +477,26 @@ sin programar
             </div>
             </div>
 
+
+            <div class="controlsSlideshow">
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide="prev">
+
+                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide="next">
+
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+              </button>
+
+          </div>
+
+          </div>
+          <div id="carousel-videoHome" class="carousel carousel-fade desktopElement" data-bs-ride="carousel">
+
+
             <div class="carousel-inner desktopElement">
 
                 <div class="carousel-item active">
@@ -522,8 +559,6 @@ sin programar
 
           </div>
 
-
-
                   </div>
 
                 </div>
@@ -577,7 +612,7 @@ sin programar
         'enableTitle' => true,
         'titlePrincipal' => '
         <span style="color: #B9E6E9">
-          5 Ventajas de potenciar <br class="desktopTabletElement">
+          5 Ventajas de potenciar <br class="space">
           tu negocio con
         </span> Escala
         ',
@@ -589,7 +624,7 @@ sin programar
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_01.png'),
                         'title' => '<span class="blueLightColor11">
-                            Una herramientas <br class="desktopTabletElement">
+                            Una herramientas <br class="space">
                             muy amigable
                             </span>',
                         'text' => '
@@ -604,12 +639,12 @@ sin programar
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_13.png'),
                         'title' => '<span class="blueLightColor11">
-                            Un equipo de servicio <br class="desktopTabletElement">
+                            Un equipo de servicio <br class="space">
 extraordinario y bien entrenado
                             </span>
                         ',
                         'text' => '
-                        Tienen un equipo atento <br class="desktopTabletElement">
+                        Tienen un equipo atento <br class="space">
 y disponible cuando lo necesitas
 <br class="space">
 <br class="space">
@@ -620,15 +655,15 @@ Michelle Palaez / Fundadora Infinito Producciones
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_04.png'),
                         'title' => '<span class="blueLightColor11">
-                            No dependes de un equipo <br class="desktopTabletElement">
+                            No dependes de un equipo <br class="space">
 técnico o de programación
                             </span>',
                         'text' => '
-                        Cualquiera con nivel básico <br class="desktopTabletElement">
+                        Cualquiera con nivel básico <br class="space">
 sabría utilizar escala.
 <br class="space">
 <br class="space">
-Verónica Bolaños / Account Manager, <br class="desktopTabletElement">
+Verónica Bolaños / Account Manager, <br class="space">
 Publicidad Comercial
                         ',
                         'enableButton' => false,
@@ -641,7 +676,7 @@ Publicidad Comercial
                             </span>',
                         'text' => '
 
-                        Finalmente un software donde la plataforma, <br class="desktopTabletElement">
+                        Finalmente un software donde la plataforma, <br class="space">
 el servicio y la educación es en español
 <br class="space">
 <br class="space">
@@ -652,7 +687,7 @@ Verónica Bolaños / Account Manager, Publicidad Comercial
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_02.png'),
                         'title' => '<span class="blueLightColor11">
-                            Todas las funcionalidades <br class="desktopTabletElement">
+                            Todas las funcionalidades <br class="space">
 en un solo lugar
                             </span>',
                         'text' => '
@@ -679,7 +714,7 @@ en un solo lugar
         Servicio Premium
         ',
         'subTitlePrincipal' => '
-        No solo te ayudamos a crear landing pages, también <br class="desktopTabletElement">
+        No solo te ayudamos a crear landing pages, también <br class="space">
 te vamos a acompañar en todo el camino al éxito
         ',
         'overlay' => false,
@@ -747,7 +782,7 @@ te vamos a acompañar en todo el camino al éxito
           <div class="groupElements row">
 
 
-            <div id="carousel-testimonialHome" class="carousel carousel-fade" data-bs-ride="carousel">
+            <div id="carousel-testimonialHome-Mobile" class="carousel carousel-fade mobileElement" data-bs-ride="carousel">
 
 
               <div class="carousel-inner mobileElement">
@@ -1019,6 +1054,30 @@ te vamos a acompañar en todo el camino al éxito
                   </div>
 
               </div>
+
+              <div class="controlsSlideshow">
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-testimonialHome-Mobile" data-bs-slide="prev">
+
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-testimonialHome-Mobile" data-bs-slide="next">
+
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+                </button>
+
+            </div>
+
+            </div>
+
+            {{--  --}}
+
+            <div id="carousel-testimonialHome" class="carousel carousel-fade desktopElement" data-bs-ride="carousel">
+
+
+
 
               <div class="carousel-inner desktopElement">
 
@@ -1293,7 +1352,6 @@ te vamos a acompañar en todo el camino al éxito
             </div>
 
             </div>
-
 
           </div>
 
