@@ -44,7 +44,7 @@
         Genera más leads,<br class="desktopElement"> aumenta tus <br class="mobileElement"> ventas y <br class="desktopElement"> fideliza a más clientes
         </span>',
      'text' => '<span class="whiteColor">
-      Escala es el software todo en uno de <br class="desktopTabletElement"> marketing digital y ventas más fácil de usar <br class="desktopTabletElement"> que impulsará el crecimiento de tu negocio.
+      Escala es el software todo en uno más fácil <br class="desktopTabletElement"> de usar que te da todas las herramientas <br class="desktopTabletElement"> para ayudarte a crecer: CRM, Email <br class="desktopTabletElement"> Marketing, Landing pages, Automatización <br class="desktopTabletElement"> y Analíticas.
       </span>
       <p class="byAutor">
         <span class="up">
@@ -77,16 +77,19 @@
         Con Escala tus clientes <br class="space">
         <span class="greenBlueColor">están en el centro de tu estrategia</span>',
         'img' => App::setFilePath('/assets/images/illustrations/others/Group_home1.png'),
-        'text' => 'Flywheel es la estrategia de crecimiento acelerado implementada por Andrés Moreno <br class="desktopTabletElement">
+        'text' => '
+  Flywheel es la estrategia de crecimiento acelerado implementada por Andrés Moreno <br class="desktopTabletElement">
 y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrando:
 <br class="space">
+<br class="space">
 <ul>
-  <li>Generar demanda de tus productos y servicios a través de herramientas <br class="desktopTabletElement"> de marketing digital</li>
+  <li>Generar demanda de tus productos y servicios a través de herramientas <br class="desktopTabletElement"> de marketing digital como:  CRM, email marketing, landing pages y automatizaciones.</li>
   <li>Aumentar las ventas gestionando todo el proceso desde un solo lugar</li>
   <li>Fidelizar a más clientes creando relaciones a largo plazo</li>
   </ul>
-<p class="text">
-  <strong>Impulsa el crecimiento de tu negocio con Escala.</strong>
+  <br class="space">
+  <p class="text">
+<strong>Impulsa el crecimiento de tu negocio con Escala.</strong>
   </p>
         ',
         'enableButton' => false,
@@ -269,10 +272,12 @@ sin programar
 
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
-                    Organiza tus contactos <br class="space">
-                    y gestiona procesos de venta
+                    Organiza y gestiona tus ventas <br class="space">
+                    con nuestro CRM
                   </h3>
-                  <p class="primaryText  grayColorTexts">Con un CRM sencillo de usar</p>
+                  <p class="primaryText  grayColorTexts">
+                    Con el sistema más fácil de usar
+                  </p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/crm-escala/">
                     Conocer más
                   </a>
@@ -631,7 +636,7 @@ sin programar
                         Para mercadeo y ventas
                         <br class="space">
                         <br class="space">
-                        Ernesto Valery / Director Huella Studio
+                        <span>Ernesto Valery / Director Huella Studio</span>
                         ',
                         'enableButton' => false,
 
@@ -648,7 +653,7 @@ extraordinario y bien entrenado
 y disponible cuando lo necesitas
 <br class="space">
 <br class="space">
-Michelle Palaez / Fundadora Infinito Producciones
+<span>Michelle Palaez / Fundadora Infinito Producciones</span>
                         ',
                         'enableButton' => false,
                     ],
@@ -663,8 +668,10 @@ técnico o de programación
 sabría utilizar escala.
 <br class="space">
 <br class="space">
-Verónica Bolaños / Account Manager, <br class="space">
-Publicidad Comercial
+<span>
+  Verónica Bolaños / Account Manager, <br class="space">
+  Publicidad Comercial
+</span>
                         ',
                         'enableButton' => false,
                     ],
@@ -680,7 +687,7 @@ Publicidad Comercial
 el servicio y la educación es en español
 <br class="space">
 <br class="space">
-Verónica Bolaños / Account Manager, Publicidad Comercial
+<span>Verónica Bolaños / Account Manager, Publicidad Comercial</span>
                         ',
                         'enableButton' => false,
                     ],
@@ -694,7 +701,7 @@ en un solo lugar
                         Escala programa las páginas por ti
                          <br class="space">
                          <br class="space">
-                        Michelle Palaez / Fundadora Infinito Producciones
+                        <span>Michelle Palaez / Fundadora Infinito Producciones</span>
                         ',
                         'enableButton' => false,
                     ],
@@ -714,8 +721,9 @@ en un solo lugar
         Servicio Premium
         ',
         'subTitlePrincipal' => '
-        No solo te ayudamos a crear landing pages, también <br class="space">
-te vamos a acompañar en todo el camino al éxito
+En Escala te acompañamos desde el primer día con nuestros <br class="desktopTabletElement">
+Especialistas de éxito, quienes te guiarán en todo tu camino para <br class="desktopTabletElement">
+hacer crecer tu negocio.
         ',
         'overlay' => false,
         'enableButton' => true,
