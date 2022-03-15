@@ -39,12 +39,14 @@
     $parameters = array(
      'backgroundImageType' => false,
      'overlay' => false,
-     'classSection' => 'threeCol homeSection0',
+     'classSection' => 'threeCol homeSection0 mobileElement',
      'title' => '<span style="color: #B9E6E9">
         Genera más leads,<br class="desktopElement"> aumenta tus <br class="mobileElement"> ventas y <br class="desktopElement"> fideliza a más clientes
         </span>',
      'text' => '<span class="whiteColor">
-      Escala es el software todo en uno más fácil <br class="desktopTabletElement"> de usar que te da todas las herramientas <br class="desktopTabletElement"> para ayudarte a crecer: CRM, Email <br class="desktopTabletElement"> Marketing, Landing pages, Automatización <br class="desktopTabletElement"> y Analíticas.
+      Escala es el software todo en uno de <br class="space">
+      marketing digital y ventas más fácil de usar <br class="space">
+      que impulsará el crecimiento de tu negocio.
       </span>
       <p class="byAutor">
         <span class="up">
@@ -59,8 +61,16 @@
      'textForm' => 'Comienza ahora',
      'backgroundImage' => null,
   'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/person/am/andres_2022_02.png'),
+  'image' => App::setFilePath('/assets/images/person/am/andreshomev2.png'),
     ) ;
+    @endphp
+
+    @header_t1( $parameters )
+    @endheader_t1
+
+    @php
+       $parameters['classSection'] = 'threeCol homeSection0 desktopElement';
+       $parameters['image'] = App::setFilePath('/assets/images/person/am/andreshomev2pc.png');
     @endphp
 
     @header_t1( $parameters )
