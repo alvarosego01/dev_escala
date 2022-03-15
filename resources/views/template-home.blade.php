@@ -627,7 +627,7 @@ sin programar
         'enableButton' => false,
         'elements' => array(
                     [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_01.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_05.png'),
                         'title' => '<span class="blueLightColor11">
                             Una herramientas <br class="space">
                             muy amigable
@@ -642,7 +642,7 @@ sin programar
 
                     ],
                     [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_13.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_06.png'),
                         'title' => '<span class="blueLightColor11">
                             Un equipo de servicio <br class="space">
 extraordinario y bien entrenado
@@ -658,7 +658,7 @@ y disponible cuando lo necesitas
                         'enableButton' => false,
                     ],
                     [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_04.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_07.png'),
                         'title' => '<span class="blueLightColor11">
                             No dependes de un equipo <br class="space">
 técnico o de programación
@@ -676,7 +676,7 @@ sabría utilizar escala.
                         'enableButton' => false,
                     ],
                     [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_05.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_08.png'),
                         'title' => '<span class="blueLightColor11">
                             Todo está 100% en español
                             <br class="desktopTabletElement">
@@ -692,7 +692,7 @@ el servicio y la educación es en español
                         'enableButton' => false,
                     ],
                     [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_02.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_09.png'),
                         'title' => '<span class="blueLightColor11">
                             Todas las funcionalidades <br class="space">
 en un solo lugar
