@@ -245,7 +245,8 @@ prefieren Escala
                 de marketing digital y ventas
               </h2>
               <p class="primaryText grayColorTexts">
-                En <strong>Escala</strong> tienes todas las herramientas <br class="space"> que necesitas integradas para impulsar tu éxito
+
+                En <strong>Escala</strong> tienes todas las herramientas <br class="space"> integradas que necesitas para impulsar tu éxito.
               </p>
 
             </div>
@@ -410,7 +411,7 @@ sin programar
             Los expertos en marketing digital <br class="mobileElement"> lo dicen: “Escala es muy fácil de usar”
           </h2>
           <p class="primaryText grayColorTexts">
-            Descubre en estos videos como expertos de marketing digital y ventas de toda <br class="desktopTabletElement"> Latinoamérica le sacan provecho a cada funcionalidad de Escala.
+            Descubre en estos videos cómo los expertos de marketing digital y ventas de toda <br class="desktopTabletElement"> Latinoamérica le sacan provecho a cada funcionalidad de Escala.
           </p>
 
         </section>
@@ -675,7 +676,7 @@ técnico o de programación
                             </span>',
                         'text' => '
                         Cualquiera con nivel básico <br class="space">
-sabría utilizar escala.
+sabría utilizar Escala.
 <br class="space">
 <br class="space">
 <span>
