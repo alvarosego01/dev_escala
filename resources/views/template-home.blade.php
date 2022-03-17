@@ -88,7 +88,7 @@
         <span class="greenBlueColor">están en el centro de tu estrategia</span>',
         'img' => App::setFilePath('/assets/images/illustrations/others/Group_home1.png'),
         'text' => '
-  Flywheel es la estrategia de crecimiento acelerado implementada por Andrés Moreno <br class="desktopTabletElement">
+  Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="desktopTabletElement">
 y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrando:
 <br class="space">
 <br class="space">
@@ -177,7 +177,7 @@ a tus clientes
         <section class="innerSectionElement1">
 
           <h2 class="primaryTitle blackColor">
-            Nuestros clientes te dicen <br class="mobileElement"> porque <br class="desktopElement">
+            Nuestros clientes te dicen <br class="mobileElement"> por qué <br class="desktopElement">
 prefieren Escala
           </h2>
 
@@ -495,9 +495,9 @@ sin programar
 
             <ol class="carousel-indicators">
 
-              <button type="button" data-bs-target="#carousel-testimonialHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel-testimonialHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel-testimonialHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="2" aria-label="Slide 3"></button>
 
             </ol>
 
@@ -712,7 +712,7 @@ en un solo lugar
         ',
         'subTitlePrincipal' => '
 En Escala te acompañamos desde el primer día con nuestros <br class="desktopTabletElement">
-especialistas de éxito, quienes te guiarán en todo tu camino para <br class="desktopTabletElement">
+especialistas del éxito, quienes te guiarán en todo tu camino para <br class="desktopTabletElement">
 hacer crecer tu negocio.
         ',
         'overlay' => false,
@@ -796,7 +796,8 @@ hacer crecer tu negocio.
                           <div class="referElements">
                             <div class="containerImage">
 
-                              <img alt="Agencia de Publicidad" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Publicidad-Comercial2-1.png" alt="" loading="lazy">
+                              <img alt="Agencia de Publicidad" src="{!! App::setFilePath('/assets/images/logos/Publicidad-Comercial2.png') !!}" alt="" loading="lazy">
+
 
                             </div>
 
@@ -836,7 +837,7 @@ hacer crecer tu negocio.
                         <div class="referElements">
                           <div class="containerImage">
 
-                            <img alt="Agencia de Marketing" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Huella-Studio-1.png" alt="" loading="lazy">
+                            <img alt="Agencia de Marketing" src="{!! App::setFilePath('/assets/images/logos/Huella Studio.png') !!}"  alt="" loading="lazy">
 
                           </div>
 
@@ -879,7 +880,7 @@ hacer crecer tu negocio.
                           <div class="referElements">
                             <div class="containerImage">
 
-                              <img alt="Turismo" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Infinito-Producciones-1.png" alt="" loading="lazy">
+                              <img alt="Turismo" src="{!! App::setFilePath('/assets/images/logos/Infinito Producciones copia.png') !!}" alt="" loading="lazy">
 
                             </div>
 
@@ -926,7 +927,7 @@ hacer crecer tu negocio.
                         <div class="referElements">
                           <div class="containerImage">
 
-                            <img alt="Agencia de Comunicaciones" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Initiative-1.png" alt="" loading="lazy">
+                            <img alt="Agencia de Comunicaciones" src="{!! App::setFilePath('/assets/images/logos/Initiative.png') !!}" alt="" loading="lazy">
 
                           </div>
 
@@ -979,7 +980,7 @@ hacer crecer tu negocio.
                           <div class="referElements">
                             <div class="containerImage">
 
-                              <img alt="Academia de Coaching" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Logo-ILC-Academy-1-1.png" alt="" loading="lazy">
+                              <img alt="Academia de Coaching" src="{!! App::setFilePath('/assets/images/logos/Logo ILC Academy-1.png') !!}" alt="" loading="lazy">
 
                             </div>
 
@@ -1029,7 +1030,7 @@ hacer crecer tu negocio.
                         <div class="referElements">
                           <div class="containerImage">
 
-                            <img alt="Entretenimiento Deportivo" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Savage-Paintball-1.png" alt="" loading="lazy">
+                            <img alt="Entretenimiento Deportivo" src="{!! App::setFilePath('/assets/images/logos/Savage Paintball.png') !!}" alt="" loading="lazy">
 
                           </div>
 
