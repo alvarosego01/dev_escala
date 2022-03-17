@@ -88,19 +88,25 @@
         <span class="greenBlueColor">están en el centro de tu estrategia</span>',
         'img' => App::setFilePath('/assets/images/illustrations/others/Group_home1.png'),
         'text' => '
-  Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="desktopTabletElement">
+Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="desktopTabletElement">
 y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrando:
 <br class="space">
 <br class="space">
 <ul>
-  <li>Generar demanda de tus productos y servicios a través de herramientas <br class="desktopTabletElement"> de marketing digital como:  CRM, email marketing, landing pages y automatizaciones.</li>
-  <li>Aumentar las ventas gestionando todo el proceso desde un solo lugar</li>
-  <li>Fidelizar a más clientes creando relaciones a largo plazo</li>
-  </ul>
-  <br class="space">
-  <p class="text">
-<strong>Impulsa el crecimiento de tu negocio con Escala.</strong>
-  </p>
+  <li>
+    Generar demanda de tus productos y servicios a través de herramientas <br class="desktopTabletElement"> de marketing digital cómo: CRM, email marketing, landing pages y automatizaciones.
+  </li>
+  <li>
+    Aumentar las ventas gestionando todo el proceso desde un solo lugar
+  </li>
+  <li>
+    Aumentar la retención de tus clientes creando relaciones a largo plazo
+  </li>
+</ul>
+<br class="space">
+<p class="text">
+  <strong>Impulsa el crecimiento de tu negocio con Escala.</strong>
+</p>
         ',
         'enableButton' => false,
         // 'urlButton' => App::setTypeUrl().'/zoom-meeting',
@@ -672,7 +678,6 @@ sabría utilizar Escala.
                             <br class="desktopTabletElement">
                             </span>',
                         'text' => '
-
                         Finalmente un software donde la plataforma, <br class="space">
 el servicio y la educación es en español
 <br class="space">
