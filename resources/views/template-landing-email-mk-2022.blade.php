@@ -399,14 +399,14 @@ $parameters = [
         [
             'img' => App::setFilePath('/assets/images/illustrations/others/7_serviciopremium_03.png'),
             'title' => '<span class="greenBlueColor7">
-                Atención Oportuna
+                Atención oportuna
                 </span>',
             'enableButton' => false,
         ],
         [
             'img' => App::setFilePath('/assets/images/illustrations/others/7_serviciopremium_04.png'),
             'title' => '<span class="greenBlueColor7">
-                Servicios Especializados
+                Servicios especializados
                 </span>',
             'enableButton' => false,
         ],

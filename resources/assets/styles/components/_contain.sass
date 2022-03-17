@@ -561,11 +561,11 @@
 
         @include responsivo(general)
             padding: 12.5px 0
-            padding-left: 25px
+            padding-left: 65px
 
         @include responsivo(resto)
             padding: 12.5px 0
-            padding-left: 25px
+            padding-left: 65px
 
         h4.accordion-header
             // background-color: white!important
@@ -592,8 +592,16 @@
                 font-family: Nunito
                 font-style: normal
                 font-weight: bold
-                font-size: 16px
+                font-size: 20px
                 line-height: 125.1%
+                @include responsivo(telefonoTable)
+                    text-align: left
+                    width: 100%
+                    font-size: 16px
+                @include responsivo(pcMedio)
+                    text-align: left
+                    font-size: 16px
+                    width: 100%
 
 
         h4.accordion-header.openChildContain
@@ -646,7 +654,7 @@
 
     .accordion-item.itemChild
         &:last-child
-            margin-bottom: 40px
+            margin-bottom: 20px
             @include responsivo(telefonoTable)
                 margin-bottom: 12.5px
             @include responsivo(pcMedio)
@@ -684,9 +692,9 @@
                 padding-top: 10px
                 padding-bottom: 0
             @include responsivo(general)
-                padding-left: 67.5px
+                padding-left: 97.5px
             @include responsivo(resto)
-                padding-left: 67.5px
+                padding-left: 97.5px
             button.accordion-button
                 // color: $colorOrange
                 color: $colorBlack2
@@ -719,7 +727,7 @@
 
         .accordion-body.principal
             padding-top: 0
-            padding-left: 40px
+            padding-left: 0
             @include responsivo(telefonoTable)
                 padding-left: 0
             @include responsivo(pcMedio)
