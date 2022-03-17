@@ -167,6 +167,7 @@
     padding-top: 75px
     padding-bottom: 0
     margin-bottom: 0
+    overflow: hidden
     @include responsivo(telefonoTable)
         padding-bottom: 50px
         padding-top: 50px
@@ -352,9 +353,11 @@
                             @include responsivo(pcMedio)
                                 height: 450px
                             @include responsivo(general)
-                                right: -7.5%
+                                right: 0
+                                height: 525px
                             @include responsivo(resto)
-                                right: -7.5%
+                                right: 0
+                                height: 550px
                             img
                                 height: 525px
                                 @include responsivo(telefonoTable)
@@ -364,11 +367,14 @@
                                 @include responsivo(pcMedio)
                                     height: 500px
                                 @include responsivo(general)
-                                    height: 500px
+                                    height: 625px
+                                    position: relative
                                 @include responsivoSpecial(1000px, 1050px)
-                                    height: 450px
-                                @include responsivoSpecial(1051px, 1150px)
-                                    height: 475px
+                                    height: 575px
+                                    position: relative
+                                @include responsivo(resto)
+                                    height: 700px
+                                    position: relative
 
                 .form7
                     margin-bottom: 50px

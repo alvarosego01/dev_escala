@@ -70,7 +70,7 @@
 
     @php
        $parameters['classSection'] = 'threeCol homeSection0 desktopElement';
-       $parameters['image'] = App::setFilePath('/assets/images/person/am/andreshomev2pc.png');
+       $parameters['image'] = App::setFilePath('/assets/images/person/am/andreshomev2.png');
     @endphp
 
     @header_t1( $parameters )
