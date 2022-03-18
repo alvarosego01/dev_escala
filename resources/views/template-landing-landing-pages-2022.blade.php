@@ -4,13 +4,9 @@
 --}}
 
 @extends('layouts.app')
-
 @section('content')
-
 <div id="landing-landingPages2022-bootstrap">
-
   <div class="sections">
-
     @php
     $parameters = array(
      'backgroundImageType' => false,
@@ -27,11 +23,8 @@
   'image' => App::setFilePath('/assets/images/person/am/headerlanding2022.png'),
     ) ;
     @endphp
-
     @header_t1( $parameters )
-
     @endheader_t1
-
     @php
     $parameters = [
         'type' => 'backgroundColor',
