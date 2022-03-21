@@ -629,6 +629,7 @@
 
         .innerSectionElement2
             margin-bottom: 30px
+            padding-bottom: 0 25px
             .imagesSection
                 display: flex
                 @include responsivo(telefonoTable)
@@ -636,11 +637,15 @@
                     justify-content: center
                     align-content: center
                     align-items: center
+                    width: 90%
+                    margin: 0 auto
                 @include responsivo(pcMedio)
                     flex-direction: column
                     justify-content: center
                     align-content: center
                     align-items: center
+                    width: 75%
+                    margin: 0 auto
                 @include responsivo(general)
                     flex-direction: row
                     justify-content: space-evenly
@@ -653,19 +658,19 @@
                     align-items: center
                 .element
                     @include responsivo(telefonoTable)
-                        margin-bottom: 10px
+                        margin-bottom: 0
                     @include responsivo(pcMedio)
-                        margin-bottom: 10px
+                        margin-bottom: 0
                     img
-                        height: 200px
+                        height: 425px
                         @include responsivo(telefonoTable)
                             height: auto
-                            width: 100%
+                            width: auto
                         @include responsivo(pcMedio)
                             height: auto
-                            width: 100%
+                            width: auto
                         @include responsivo(general)
-                            height: 170px
+                            height: 400px
 
         .innerSectionElement3
             .containElements
