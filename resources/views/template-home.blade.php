@@ -187,7 +187,6 @@ a tus clientes
 prefieren Escala
           </h2>
 
-
         </section>
 
         <section class="innerSectionElement2">
@@ -226,17 +225,13 @@ prefieren Escala
               ¡Comenzar ahora!
             </a>
 
-
           </div>
 
         </section>
 
   </div>
 
-
 </section>
-
-
 
     <section class="customSection sectionParent homeSection4">
 
@@ -261,8 +256,6 @@ prefieren Escala
           <section class="innerSectionElement sct2">
 
             <div class="groupElements row">
-
-
 
               <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
