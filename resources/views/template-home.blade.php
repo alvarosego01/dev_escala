@@ -70,7 +70,7 @@
 
     @php
        $parameters['classSection'] = 'threeCol homeSection0 desktopElement';
-       $parameters['image'] = App::setFilePath('/assets/images/person/am/andreshomev2pc.png');
+       $parameters['image'] = App::setFilePath('/assets/images/person/am/andreshomev2.png');
     @endphp
 
     @header_t1( $parameters )
@@ -88,19 +88,25 @@
         <span class="greenBlueColor">están en el centro de tu estrategia</span>',
         'img' => App::setFilePath('/assets/images/illustrations/others/Group_home1.png'),
         'text' => '
-  Flywheel es la estrategia de crecimiento acelerado implementada por Andrés Moreno <br class="desktopTabletElement">
+Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="desktopTabletElement">
 y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrando:
 <br class="space">
 <br class="space">
 <ul>
-  <li>Generar demanda de tus productos y servicios a través de herramientas <br class="desktopTabletElement"> de marketing digital como:  CRM, email marketing, landing pages y automatizaciones.</li>
-  <li>Aumentar las ventas gestionando todo el proceso desde un solo lugar</li>
-  <li>Fidelizar a más clientes creando relaciones a largo plazo</li>
-  </ul>
-  <br class="space">
-  <p class="text">
-<strong>Impulsa el crecimiento de tu negocio con Escala.</strong>
-  </p>
+  <li>
+    Generar demanda de tus productos y servicios a través de herramientas <br class="desktopTabletElement"> de marketing digital cómo: CRM, email marketing, landing pages y automatizaciones.
+  </li>
+  <li>
+    Aumentar las ventas gestionando todo el proceso desde un solo lugar
+  </li>
+  <li>
+    Aumentar la retención de tus clientes creando relaciones a largo plazo
+  </li>
+</ul>
+<br class="space">
+<p class="text">
+  <strong>Impulsa el crecimiento de tu negocio con Escala.</strong>
+</p>
         ',
         'enableButton' => false,
         // 'urlButton' => App::setTypeUrl().'/zoom-meeting',
@@ -177,7 +183,7 @@ a tus clientes
         <section class="innerSectionElement1">
 
           <h2 class="primaryTitle blackColor">
-            Nuestros clientes te dicen <br class="mobileElement"> porque <br class="desktopElement">
+            Nuestros clientes te dicen <br class="mobileElement"> por qué <br class="desktopElement">
 prefieren Escala
           </h2>
 
@@ -190,17 +196,17 @@ prefieren Escala
 
               <div class="element">
 
-                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust1.jpeg') !!}" alt="">
+                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust1.png') !!}" alt="">
 
               </div>
               <div class="element">
 
-                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust2.jpeg') !!}" alt="">
+                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust2.png') !!}" alt="">
 
               </div>
               <div class="element">
 
-                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust3.jpeg') !!}" alt="">
+                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust3.png') !!}" alt="">
 
               </div>
 
@@ -245,7 +251,8 @@ prefieren Escala
                 de marketing digital y ventas
               </h2>
               <p class="primaryText grayColorTexts">
-                En <strong>Escala</strong> tienes todas las herramientas <br class="space"> que necesitas integradas para impulsar tu éxito
+
+                En <strong>Escala</strong> tienes todas las herramientas <br class="space"> integradas que necesitas para impulsar tu éxito.
               </p>
 
             </div>
@@ -375,7 +382,7 @@ sin programar
                     Obtén métricas de marketing <br class="space"> y ventas en  tiempo real
 
                   </h3>
-                  <p class="primaryText  grayColorTexts">con dashboards inteligentes</p>
+                  <p class="primaryText  grayColorTexts">Con dashboards inteligentes</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/analiticas/">
                     Conocer más
                   </a>
@@ -410,16 +417,16 @@ sin programar
             Los expertos en marketing digital <br class="mobileElement"> lo dicen: “Escala es muy fácil de usar”
           </h2>
           <p class="primaryText grayColorTexts">
-            Descubre en estos videos como expertos de marketing digital y ventas de toda <br class="desktopTabletElement"> Latinoamérica le sacan provecho a cada funcionalidad de Escala.
+            Descubre en estos videos cómo los expertos de marketing digital y ventas de toda <br class="desktopTabletElement"> Latinoamérica le sacan provecho a cada funcionalidad de Escala.
           </p>
 
         </section>
 
         <section class="innerSectionElement2">
 
-          <div id="carousel-videoHome-Mobile" class="carousel carousel-fade mobileElement" data-bs-ride="carousel">
+          <div id="carousel-videoHome-Mobile" class="carousel slide mobileElement" data-bs-ride="carousel">
 
-            <div class="carousel-inner mobileElement">
+            <div class="carousel-inner"   role="listbox">
               <div class="carousel-item  active">
 
                 <div class="imagesSection row">
@@ -435,8 +442,8 @@ sin programar
                   <div class="info">
 
                     <h3 class="titleVideo">
-                      Cómo CREAR una LANDING PAGE <br class="desktopTabletElement">
-                      profesional sin programar con ESCALA
+                      Cómo crear una landing page <br class="desktopTabletElement">
+                      profesional sin programar con Escala
                     </h3>
 
                 </div>
@@ -492,27 +499,19 @@ sin programar
             </div>
             </div>
 
+            <ol class="carousel-indicators">
 
-            <div class="controlsSlideshow">
+              <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="2" aria-label="Slide 3"></button>
 
-              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide="prev">
+            </ol>
 
-                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
-
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide="next">
-
-                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
-
-              </button>
 
           </div>
+          <div id="carousel-videoHome" class="carousel slide desktopElement" data-bs-ride="carousel">
 
-          </div>
-          <div id="carousel-videoHome" class="carousel carousel-fade desktopElement" data-bs-ride="carousel">
-
-
-            <div class="carousel-inner desktopElement">
+            <div class="carousel-inner"   role="listbox">
 
                 <div class="carousel-item active">
 
@@ -580,20 +579,7 @@ sin programar
 
             </div>
 
-            <div class="controlsSlideshow">
 
-              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-videoHome" data-bs-slide="prev">
-
-                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
-
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carousel-videoHome" data-bs-slide="next">
-
-                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
-
-              </button>
-
-          </div>
 
           </div>
 
@@ -675,7 +661,7 @@ técnico o de programación
                             </span>',
                         'text' => '
                         Cualquiera con nivel básico <br class="space">
-sabría utilizar escala.
+sabría utilizar Escala.
 <br class="space">
 <br class="space">
 <span>
@@ -692,7 +678,6 @@ sabría utilizar escala.
                             <br class="desktopTabletElement">
                             </span>',
                         'text' => '
-
                         Finalmente un software donde la plataforma, <br class="space">
 el servicio y la educación es en español
 <br class="space">
@@ -732,12 +717,12 @@ en un solo lugar
         ',
         'subTitlePrincipal' => '
 En Escala te acompañamos desde el primer día con nuestros <br class="desktopTabletElement">
-Especialistas de éxito, quienes te guiarán en todo tu camino para <br class="desktopTabletElement">
+especialistas del éxito, quienes te guiarán en todo tu camino para <br class="desktopTabletElement">
 hacer crecer tu negocio.
         ',
         'overlay' => false,
         'enableButton' => true,
-        'urlButton' => '/zoom-meeting',
+        'urlButton' => '#lead-form',
         'textButton' => 'Hablar con un asesor',
         'typeButton' => 'primaryButton hoverInEffect',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
@@ -759,14 +744,14 @@ hacer crecer tu negocio.
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/7_serviciopremium_03.png'),
                 'title' => '<span class="greenBlueColor7">
-                    Atención Oportuna
+                    Atención oportuna
                     </span>',
                 'enableButton' => false,
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/7_serviciopremium_04.png'),
                 'title' => '<span class="greenBlueColor7">
-                    Servicios Especializados
+                    Servicios especializados
                     </span>',
                 'enableButton' => false,
             ],
@@ -788,7 +773,8 @@ hacer crecer tu negocio.
 
           <div class="containElements">
 
-            <h2 class="primaryTitle blackColor">Clientes que hacen crecer <br> sus negocios con <span class="orangeColor">Escala</span>
+            <h2 class="primaryTitle blackColor">
+              Clientes que hacen crecer sus negocios con <span class="orangeColor">Escala</span>
             </h2>
 
           </div>
@@ -800,14 +786,14 @@ hacer crecer tu negocio.
           <div class="groupElements row">
 
 
-            <div id="carousel-testimonialHome-Mobile" class="carousel carousel-fade mobileElement" data-bs-ride="carousel">
+            <div id="carousel-testimonialHome" class="carousel slide" data-bs-ride="carousel">
 
 
-              <div class="carousel-inner mobileElement">
+              <div class="carousel-inner"  role="listbox">
 
                   <div class="carousel-item active">
                     <div class="row">
-                      <div class="testimonial col-md-12 col-lg-6 ">
+                      <div class="testimonial ">
 
                         <div class="containElements">
 
@@ -815,20 +801,8 @@ hacer crecer tu negocio.
                           <div class="referElements">
                             <div class="containerImage">
 
-                              <img alt="Agencia de Publicidad" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Publicidad-Comercial2-1.png" alt="" loading="lazy">
+                              <img alt="Agencia de Publicidad" src="{!! App::setFilePath('/assets/images/logos/Publicidad-Comercial2.png') !!}" alt="" loading="lazy">
 
-                            </div>
-
-                            <div class="info">
-                              <h3 class="tertiaryTitle blackColor">
-
-                                <span class="greenBlueColor">
-                                  Verónica Bolaños <br class="space">
-                                  Account Manager / Agencia de Publicidad <br class="space">
-                                </span>
-                                Publicidad Comercial / El Salvador
-
-                              </h3>
 
                             </div>
 
@@ -838,278 +812,6 @@ hacer crecer tu negocio.
                             <p class="commonText grayColorTexts">
                               “Escala tiene el email builder más amigable que he utilizado en los últimos <br> años, y su equipo está comprometido a mantener la plataforma en <br> constante actualización en el dinámico mundo digital.”
                             </p>
-                          </div>
-
-                        </div>
-
-
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row">
-
-                    <div class="testimonial col-md-12 col-lg-6 ">
-                      <div class="containElements">
-
-                        <div class="referElements">
-                          <div class="containerImage">
-
-                            <img alt="Agencia de Marketing" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Huella-Studio-1.png" alt="" loading="lazy">
-
-                          </div>
-
-                          <div class="info">
-
-                            <h3 class="tertiaryTitle blackColor">
-
-                              <span class="greenBlueColor">
-                                Ernesto Valery y Edher Nieves <br class="space">
-                                Director Creativo / Agencia de Marketing <br class="space">
-                              </span>
-                              Huella Studio / México
-
-                            </h3>
-
-                          </div>
-
-                        </div>
-
-                         <div class="containInfo">
-                          <p class="commonText grayColorTexts">
-                            “Son muchas herramientras integradas en un solo sitio, una herramienta muy <br> sencilla de utilizar y le da mucho beneficio al cliente. Nunca me habían <br> atendido de esta manera en ningún tipo de plataforma similar. Primera vez <br> que me atienden de esta manera y agradecidos enormemente. Felicidades <br> porque tienen un equipo de trabajo increíble.”
-                          <p>
-                        </div>
-
-                      </div>
-
-                    </div>
-                  </div>
-
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row">
-
-                      <div class="testimonial col-md-12 col-lg-6 ">
-                        <div class="containElements">
-
-                          <div class="referElements">
-                            <div class="containerImage">
-
-                              <img alt="Turismo" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Infinito-Producciones-1.png" alt="" loading="lazy">
-
-                            </div>
-
-                            <div class="info">
-
-                              <h3 class="tertiaryTitle blackColor">
-
-                                <span class="greenBlueColor">
-                                  Michell Peláez <br class="space">
-                                  Ejecutiva de cuentas corporativas / Turismo <br class="space">
-                                </span>
-                                Infinito Producciones / Venezuela
-
-                              </h3>
-
-                            </div>
-
-                          </div>
-
-                          <div class="containInfo">
-
-                            <p class="commonText grayColorTexts">
-                              “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos <br> la misma esencia. Encontrarme con Escala fue importante porque es más <br> completa. Tienes todo lo que necesitas, desde captar el interés de los <br>  clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo <br> de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi <br> mercado se redujo por la pandemia, Escala es sumamente oportuno. <br> Además, estoy muy contenta por todo el apoyo que he recibido por el <br> equipo de Escala.”
-                            </p>
-                          </div>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                  </div>
-
-                  <div class="carousel-item">
-                    <div class="row">
-
-                    <div class="testimonial col-md-12 col-lg-6 ">
-                      <div class="containElements">
-
-
-                        <div class="referElements">
-                          <div class="containerImage">
-
-                            <img alt="Agencia de Comunicaciones" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Initiative-1.png" alt="" loading="lazy">
-
-                          </div>
-
-                          <div class="info">
-
-
-                        <h3 class="tertiaryTitle blackColor">
-
-                          <span class="greenBlueColor">
-                            Dayana Palacios <br class="space">
-                            Directora de medios y marketing digital / Agencia de Comunicaciones <br class="space">
-                          </span>
-                          Initiative / Costa Rica
-
-                        </h3>
-
-                          </div>
-
-                        </div>
-
-                        <div class="containInfo">
-
-                          <p class="commonText grayColorTexts">
-                            La herramienta es muy amigable, y permite que la gestión pueda realizarla <br> casi que cualquier persona con conocimientos básicos en plataformas <br> digitales. <br class="space">
-                            El servicio es expedito y el equipo a cargo se preocupa por extender <br> capacitaciones necesarias que garantizan que los equipos estén sacando <br> el mayor provecho de la herramienta. <br class="space">
-                            La organización visual de la pantalla de entrada es muy intuitiva, esto <br> permite la exploración y el autoaprendizaje de las diferentes variables que <br> se pueden configurar en la plataforma.
-                          </p>
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                  </div>
-                  </div>
-
-                  <div class="carousel-item">
-                    <div class="row">
-
-                      <div class="testimonial col-md-12 col-lg-6 ">
-
-                        <div class="containElements">
-
-                          <div class="referElements">
-                            <div class="containerImage">
-
-                              <img alt="Academia de Coaching" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Logo-ILC-Academy-1-1.png" alt="" loading="lazy">
-
-                            </div>
-
-                            <div class="info">
-
-                              <h3 class="tertiaryTitle blackColor">
-
-                                <span class="greenBlueColor">
-                                  Fernando Celis <br class="space">
-                                  CEO y Fundador / Academia de Coaching <br class="space">
-                                </span>
-                                ILC Academy / Estados Unidos
-
-                              </h3>
-
-                            </div>
-
-                          </div>
-
-                          <div class="containInfo">
-
-                            <p class="commonText grayColorTexts">
-                              ¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad <br>
-                              de lanzamientos de iniciativas de aprendizaje y crecimiento!!!
-                              <br class="space">
-                              🔥🔥🔥🔥👏👏👏👏🙌
-
-                            </p>
-                          </div>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row">
-
-                    <div class="testimonial col-md-12 col-lg-6 ">
-
-                      <div class="containElements">
-
-                        <div class="referElements">
-                          <div class="containerImage">
-
-                            <img alt="Entretenimiento Deportivo" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Savage-Paintball-1.png" alt="" loading="lazy">
-
-                          </div>
-
-                          <div class="info">
-
-                            <h3 class="tertiaryTitle blackColor">
-
-                              <span class="greenBlueColor">
-                                Felix Pacheco <br class="space">
-                                Entretenimiento Deportivo <br class="space">
-                              </span>
-                              Savage Paintball / Venezuela
-
-                            </h3>
-
-                          </div>
-
-                        </div>
-
-                        <div class="containInfo">
-
-                          <p class="commonText grayColorTexts">
-                            Felicitaciones al equipo de Escala, pues de verdad la plataforma me <br> gusta bastante. Posee herramientas muy útiles y lo mejor e  que es <br> simple de manipular.
-                          </p>
-                        </div>
-
-                      </div>
-
-                    </div>
-
-
-                  </div>
-                  </div>
-
-              </div>
-
-              <div class="controlsSlideshow">
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-testimonialHome-Mobile" data-bs-slide="prev">
-
-                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
-
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel-testimonialHome-Mobile" data-bs-slide="next">
-
-                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
-
-                </button>
-
-            </div>
-
-            </div>
-
-            {{--  --}}
-
-            <div id="carousel-testimonialHome" class="carousel carousel-fade desktopElement" data-bs-ride="carousel">
-
-              <div class="carousel-inner desktopElement">
-
-                  <div class="carousel-item active">
-
-                    <div class="row">
-
-                    <div class="testimonial col-md-12 col-lg-6 ">
-
-                      <div class="containElements desktopElement">
-
-
-                        <div class="referElements">
-                          <div class="containerImage">
-
-                            <img alt="Agencia de Publicidad" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Publicidad-Comercial2-1.png" alt="" loading="lazy">
-
                           </div>
 
                           <div class="info">
@@ -1127,39 +829,24 @@ hacer crecer tu negocio.
 
                         </div>
 
-                        <div class="containInfo">
-                          <p class="commonText grayColorTexts">
-                            “Escala tiene el email builder más amigable que he utilizado en los últimos <br> años, y su equipo está comprometido a mantener la plataforma en <br> constante actualización en el dinámico mundo digital.”
-                          </p>
-                        </div>
 
                       </div>
-
-
                     </div>
-                    <div class="testimonial col-md-12 col-lg-6 ">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+
+                    <div class="testimonial ">
                       <div class="containElements">
 
                         <div class="referElements">
                           <div class="containerImage">
 
-                            <img alt="Agencia de Marketing" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Huella-Studio-1.png" alt="" loading="lazy">
+                            <img alt="Agencia de Marketing" src="{!! App::setFilePath('/assets/images/logos/Huella Studio.png') !!}"  alt="" loading="lazy">
 
                           </div>
 
-                          <div class="info">
 
-                            <h3 class="tertiaryTitle blackColor">
-
-                              <span class="greenBlueColor">
-                                Ernesto Valery y Edher Nieves <br class="space">
-                                Director Creativo / Agencia de Marketing <br class="space">
-                              </span>
-                              Huella Studio / México
-
-                            </h3>
-
-                          </div>
 
                         </div>
 
@@ -1169,26 +856,48 @@ hacer crecer tu negocio.
                           <p>
                         </div>
 
+                        <div class="info">
+
+                          <h3 class="tertiaryTitle blackColor">
+
+                            <span class="greenBlueColor">
+                              Ernesto Valery y Edher Nieves <br class="space">
+                              Director Creativo / Agencia de Marketing <br class="space">
+                            </span>
+                            Huella Studio / México
+
+                          </h3>
+
+                        </div>
+
                       </div>
 
                     </div>
                   </div>
 
                   </div>
-
-
                   <div class="carousel-item">
-
                     <div class="row">
 
-                    <div class="testimonial col-md-12 col-lg-6 ">
-                      <div class="containElements">
+                      <div class="testimonial ">
+                        <div class="containElements">
 
-                        <div class="referElements">
-                          <div class="containerImage">
+                          <div class="referElements">
+                            <div class="containerImage">
 
-                            <img alt="Turismo" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Infinito-Producciones-1.png" alt="" loading="lazy">
+                              <img alt="Turismo" src="{!! App::setFilePath('/assets/images/logos/Infinito Producciones copia.png') !!}" alt="" loading="lazy">
 
+                            </div>
+
+
+
+                          </div>
+
+                          <div class="containInfo">
+
+                            <p class="commonText grayColorTexts">
+                              “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos <br> la misma esencia. Encontrarme con Escala fue importante porque es más <br> completa. Tienes todo lo que necesitas, desde captar el interés de los <br>  clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo <br> de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi <br> mercado se redujo por la pandemia, Escala es sumamente oportuno. <br> Además, estoy muy contenta por todo el apoyo que he recibido por el <br> equipo de Escala.”
+                            </p>
                           </div>
 
                           <div class="info">
@@ -1207,53 +916,57 @@ hacer crecer tu negocio.
 
                         </div>
 
-                        <div class="containInfo">
-
-                          <p class="commonText grayColorTexts">
-                            “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos <br> la misma esencia. Encontrarme con Escala fue importante porque es más <br> completa. Tienes todo lo que necesitas, desde captar el interés de los <br>  clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo <br> de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi <br> mercado se redujo por la pandemia, Escala es sumamente oportuno. <br> Además, estoy muy contenta por todo el apoyo que he recibido por el <br> equipo de Escala.”
-                          </p>
-                        </div>
-
                       </div>
 
                     </div>
 
-                    <div class="testimonial col-md-12 col-lg-6 ">
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="row">
+
+                    <div class="testimonial ">
                       <div class="containElements">
 
 
                         <div class="referElements">
                           <div class="containerImage">
 
-                            <img alt="Agencia de Comunicaciones" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Initiative-1.png" alt="" loading="lazy">
+                            <img alt="Agencia de Comunicaciones" src="{!! App::setFilePath('/assets/images/logos/Initiative.png') !!}" alt="" loading="lazy">
 
                           </div>
 
-                          <div class="info">
 
-
-                        <h3 class="tertiaryTitle blackColor">
-
-                          <span class="greenBlueColor">
-                            Dayana Palacios <br class="space">
-                            Directora de medios y marketing digital / Agencia de Comunicaciones <br class="space">
-                          </span>
-                          Initiative / Costa Rica
-
-                        </h3>
-
-                          </div>
 
                         </div>
 
                         <div class="containInfo">
 
                           <p class="commonText grayColorTexts">
-                            La herramienta es muy amigable, y permite que la gestión pueda realizarla <br> casi que cualquier persona con conocimientos básicos en plataformas <br> digitales. <br class="space">
-                            El servicio es expedito y el equipo a cargo se preocupa por extender <br> capacitaciones necesarias que garantizan que los equipos estén sacando <br> el mayor provecho de la herramienta. <br class="space">
+                            La herramienta es muy amigable, y permite que la gestión pueda realizarla <br> casi que cualquier persona con conocimientos básicos en plataformas <br> digitales.
+                            <br class="space">
+                            <br class="space">
+                            El servicio es expedito y el equipo a cargo se preocupa por extender <br> capacitaciones necesarias que garantizan que los equipos estén sacando <br> el mayor provecho de la herramienta.
+                             <br class="space">
+                             <br class="space">
                             La organización visual de la pantalla de entrada es muy intuitiva, esto <br> permite la exploración y el autoaprendizaje de las diferentes variables que <br> se pueden configurar en la plataforma.
                           </p>
                         </div>
+
+                        <div class="info">
+
+
+                          <h3 class="tertiaryTitle blackColor">
+
+                            <span class="greenBlueColor">
+                              Dayana Palacios <br class="space">
+                              Directora de medios y marketing digital / Agencia de Comunicaciones <br class="space">
+                            </span>
+                            Initiative / Costa Rica
+
+                          </h3>
+
+                            </div>
 
                       </div>
 
@@ -1263,18 +976,32 @@ hacer crecer tu negocio.
                   </div>
 
                   <div class="carousel-item">
-
                     <div class="row">
 
-                    <div class="testimonial col-md-12 col-lg-6 ">
+                      <div class="testimonial ">
 
-                      <div class="containElements">
+                        <div class="containElements">
 
-                        <div class="referElements">
-                          <div class="containerImage">
+                          <div class="referElements">
+                            <div class="containerImage">
 
-                            <img alt="Academia de Coaching" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Logo-ILC-Academy-1-1.png" alt="" loading="lazy">
+                              <img alt="Academia de Coaching" src="{!! App::setFilePath('/assets/images/logos/Logo ILC Academy-1.png') !!}" alt="" loading="lazy">
 
+                            </div>
+
+
+
+                          </div>
+
+                          <div class="containInfo">
+
+                            <p class="commonText grayColorTexts">
+                              ¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad <br>
+                              de lanzamientos de iniciativas de aprendizaje y crecimiento!!!
+                              <br class="space">
+                              🔥🔥🔥🔥👏👏👏👏🙌
+
+                            </p>
                           </div>
 
                           <div class="info">
@@ -1293,44 +1020,26 @@ hacer crecer tu negocio.
 
                         </div>
 
-                        <div class="containInfo">
-
-                          <p class="commonText grayColorTexts">
-                            ¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad <br>
-                            de lanzamientos de iniciativas de aprendizaje y crecimiento!!!
-                            <br class="space">
-                            🔥🔥🔥🔥👏👏👏👏🙌
-
-                          </p>
-                        </div>
-
                       </div>
 
                     </div>
-                    <div class="testimonial col-md-12 col-lg-6 ">
+
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+
+                    <div class="testimonial ">
 
                       <div class="containElements">
 
                         <div class="referElements">
                           <div class="containerImage">
 
-                            <img alt="Entretenimiento Deportivo" src="{!! App::setTypeUrl() !!}/wp-content/uploads/2021/05/Savage-Paintball-1.png" alt="" loading="lazy">
+                            <img alt="Entretenimiento Deportivo" src="{!! App::setFilePath('/assets/images/logos/Savage Paintball.png') !!}" alt="" loading="lazy">
 
                           </div>
 
-                          <div class="info">
 
-                            <h3 class="tertiaryTitle blackColor">
-
-                              <span class="greenBlueColor">
-                                Felix Pacheco <br class="space">
-                                Entretenimiento Deportivo <br class="space">
-                              </span>
-                              Savage Paintball / Venezuela
-
-                            </h3>
-
-                          </div>
 
                         </div>
 
@@ -1339,6 +1048,20 @@ hacer crecer tu negocio.
                           <p class="commonText grayColorTexts">
                             Felicitaciones al equipo de Escala, pues de verdad la plataforma me <br> gusta bastante. Posee herramientas muy útiles y lo mejor e  que es <br> simple de manipular.
                           </p>
+                        </div>
+
+                        <div class="info">
+
+                          <h3 class="tertiaryTitle blackColor">
+
+                            <span class="greenBlueColor">
+                              Felix Pacheco <br class="space">
+                              Entretenimiento Deportivo <br class="space">
+                            </span>
+                            Savage Paintball / Venezuela
+
+                          </h3>
+
                         </div>
 
                       </div>
@@ -1351,20 +1074,16 @@ hacer crecer tu negocio.
 
               </div>
 
-              <div class="controlsSlideshow">
+              <ol class="carousel-indicators">
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-testimonialHome" data-bs-slide="prev">
+                <button type="button" data-bs-target="#carousel-testimonialHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-testimonialHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-testimonialHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel-testimonialHome" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel-testimonialHome" data-bs-slide-to="4" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel-testimonialHome" data-bs-slide-to="5" aria-label="Slide 3"></button>
+              </ol>
 
-                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
-
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel-testimonialHome" data-bs-slide="next">
-
-                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
-
-                </button>
-
-            </div>
 
             </div>
 
@@ -1436,12 +1155,13 @@ hacer crecer tu negocio.
 </section>
 
 
-</div>
+
 
 </div>
 
 </div>
 
+</div>
 
 
 

@@ -4,13 +4,9 @@
 --}}
 
 @extends('layouts.app')
-
 @section('content')
-
 <div id="landing-landingPages2022-bootstrap">
-
   <div class="sections">
-
     @php
     $parameters = array(
      'backgroundImageType' => false,
@@ -27,11 +23,8 @@
   'image' => App::setFilePath('/assets/images/person/am/headerlanding2022.png'),
     ) ;
     @endphp
-
     @header_t1( $parameters )
-
     @endheader_t1
-
     @php
     $parameters = [
         'type' => 'backgroundColor',
@@ -367,14 +360,14 @@ $parameters = [
         [
             'img' => App::setFilePath('/assets/images/illustrations/others/7_serviciopremium_03.png'),
             'title' => '<span class="greenBlueColor7">
-                Atención Oportuna
+                Atención oportuna
                 </span>',
             'enableButton' => false,
         ],
         [
             'img' => App::setFilePath('/assets/images/illustrations/others/7_serviciopremium_04.png'),
             'title' => '<span class="greenBlueColor7">
-                Servicios Especializados
+                Servicios especializados
                 </span>',
             'enableButton' => false,
         ],

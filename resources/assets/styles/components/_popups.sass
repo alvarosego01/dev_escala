@@ -8,14 +8,17 @@
     z-index: 9999999999
     // display: none!important
     .modal-dialog.modal-dialog-centered
+
         @include responsivo(telefonoTable)
             width: 90%
             max-width: unset!important
             margin: auto
+            padding: 25px 0
 
         @include responsivo(pcMedio)
-            width: 80%
+            width: 90%
             max-width: unset!important
+            padding: 25px 0
 
         @include responsivo(general)
             width: 70%
@@ -27,9 +30,14 @@
 
         .modal-content
             border-radius: 12.5px
-            border: 0
+            border: 10px
+            box-shadow: 0 9px 10px 0 rgb(0 0 0 / 12%)
             .modal-body
                 padding: 50px
+                @include responsivo(telefonoTable)
+                    padding: 25px
+                @include responsivo(pcMedio)
+                    padding: 50px 25px
                 .innerSectionElement.sct1
                     .groupElements
                         position: relative
