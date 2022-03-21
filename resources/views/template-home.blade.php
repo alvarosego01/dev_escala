@@ -196,17 +196,17 @@ prefieren Escala
 
               <div class="element">
 
-                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust1.jpeg') !!}" alt="">
+                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust1.png') !!}" alt="">
 
               </div>
               <div class="element">
 
-                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust2.jpeg') !!}" alt="">
+                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust2.png') !!}" alt="">
 
               </div>
               <div class="element">
 
-                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust3.jpeg') !!}" alt="">
+                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust3.png') !!}" alt="">
 
               </div>
 
@@ -722,7 +722,7 @@ hacer crecer tu negocio.
         ',
         'overlay' => false,
         'enableButton' => true,
-        'urlButton' => '/zoom-meeting',
+        'urlButton' => '#lead-form',
         'textButton' => 'Hablar con un asesor',
         'typeButton' => 'primaryButton hoverInEffect',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',

@@ -31,7 +31,7 @@
 
             </div>
 
-
+{{--
                 @if (isset($overlayImage1) && $overlayImage1 != null)
 
                 <img src="{{ $overlayImage1 }}" alt="" class="desktopElement overlay1">
@@ -50,7 +50,7 @@
                 <img src="{{ $overlayImage3 }}" alt="" class="desktopElement overlay3">
 
 
-                @endif
+                @endif --}}
 
         </section>
 
