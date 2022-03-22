@@ -3,43 +3,15 @@
   Template Name: [B] Home
 --}}
 
-
-
 @extends('layouts.app')
-
 @section('content')
-
 <div id="homeBootstrap">
-
   <div class="sections">
-
-
-{{--
-    @php
-    $parameters = array(
-     'backgroundImageType' => false,
-     'overlay' => false,
-     'classSection' => 'threeCol homeSection0',
-     'title' => 'Genera más leads, <br class="space"> <span class="greenBlueColor">clientes y ventas</span>',
-     'text' => 'Con Escala, la plataforma de <br class="space"> marketing digital y ventas más completa <br class="space"> y fácil de utilizar.',
-     'textForm' => 'Empieza a probar Escala',
-     'threeCol' => true,
-     'backgroundImage' => null,
-  'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/person/am/andres-home1.png'),
-    ) ;
-    @endphp
-
-    @header_t1( $parameters )
-
-    @endheader_t1
- --}}
-
 @php
     $parameters = array(
      'backgroundImageType' => false,
      'overlay' => false,
-     'classSection' => 'threeCol homeSection0 mobileElement',
+     'classSection' => 'threeCol homeSection0',
      'title' => '<span style="color: #B9E6E9">
         Genera más leads,<br class="desktopElement"> aumenta tus <br class="mobileElement"> ventas y <br class="desktopElement"> fideliza a más clientes
         </span>',
@@ -63,14 +35,6 @@
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/am/andreshomev2.png'),
     ) ;
-    @endphp
-
-    @header_t1( $parameters )
-    @endheader_t1
-
-    @php
-       $parameters['classSection'] = 'threeCol homeSection0 desktopElement';
-       $parameters['image'] = App::setFilePath('/assets/images/person/am/andreshomev2.png');
     @endphp
 
     @header_t1( $parameters )

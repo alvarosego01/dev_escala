@@ -561,14 +561,14 @@
         // background-color: rgba(255, 255, 255, 0.8)!important
         background-color: transparent
         @include responsivo(telefonoTable)
-            padding: 12.5px 0
-            padding-bottom: 10px
+            padding: 7.5px 0
+            // padding-bottom: 10px
             // padding-left: 25px
-            padding-left: 20px
+            padding-left: 10px
 
         @include responsivo(pcMedio)
-            padding: 12.5px 0
-            padding-bottom: 10px
+            padding: 7.5px 0
+            // padding-bottom: 10px
             // padding-left: 25px
             padding-left: 20px
 
@@ -636,8 +636,13 @@
             padding-bottom: 5px
             padding-right: 0
             @include responsivo(telefonoTable)
-                padding-left: 0
+                padding-left: 12.5px
                 padding-top: 12.5px
+                padding-bottom: 0
+            @include responsivo(pcMedio)
+                padding-top: 12.5px
+                padding-bottom: 0
+
 
 
 
@@ -752,9 +757,10 @@
 
             @include responsivo(telefonoTable)
                 padding-left: 30px
+                padding-top: 10px
             @include responsivo(pcMedio)
                 padding-left: 50px
-                padding-top: 5px
+                padding-top: 12.5px
 
 
 

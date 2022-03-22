@@ -189,11 +189,23 @@ function closingSidebarClick() {
 
 
 
+function scrollToHash(){
+
+    jQuery('.goToHash').click(function (e) {
+        e.preventDefault();
+        console.log('scroll to hash', e);
+        document.getElementById('lead-form').scrollIntoView();
+
+    });
+
+}
+
 jQuery(document).ready(function () {
 
 
     setInnerElement();
 
+    scrollToHash();
 
     window.onload = function () {
         setResize();
