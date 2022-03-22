@@ -73,7 +73,7 @@ function _openSideNav(type) {
     if (type == 'close') {
         console.log('close sidenav');
         jQuery('nav', sideNavBar)[0].classList.add("animate__slideOutRight");
-        jQuery('nav', sideNavBar)[0].addEventListener('animationend', function(e) {
+        jQuery('nav', sideNavBar)[0].addEventListener('animationend', function (e) {
             // do something
             if (e.animationName == 'slideOutRight') {
                 console.log('abre');
@@ -84,7 +84,7 @@ function _openSideNav(type) {
                 jQuery('nav', sideNavBar)[0].classList.remove("animate__slideOutRight")
                 // sideNavBar[0].classList.add("animate__fadeOut")
 
-                e.target.removeEventListener('animationend', function() {
+                e.target.removeEventListener('animationend', function () {
 
                 });
 
@@ -176,24 +176,57 @@ function closingSidebarClick() {
         if (e.target === this) {
 
             // closeSidebarButton
-            if(sidebarStatus == true){
+            if (sidebarStatus == true) {
 
                 _openSideNav('close');
 
             }
 
         }
-   });
+    });
 
 }
 
 
+
+function scrollToHash() {
+
+    jQuery('.goToHash').click(function (e) {
+        e.preventDefault();
+        console.log('scroll to hash', e);
+
+        // let w = window.innerWidth;
+        // document.getElementById('lead-form').scrollIntoView();
+
+        var yOffset = -10;
+        var element = jQuery('#lead-form .formatForm')[0];
+        if(element){
+
+            if(window.innerWidth <= 999){
+
+                var y = element.getBoundingClientRect().top + window.pageYOffset + yOffset - 100;
+
+                window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+            if(window.innerWidth >= 1000){
+
+                var y = element.getBoundingClientRect().top + window.pageYOffset + yOffset - 150;
+
+                window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+        }
+
+
+    });
+
+}
 
 jQuery(document).ready(function () {
 
 
     setInnerElement();
 
+    scrollToHash();
 
     window.onload = function () {
         setResize();
