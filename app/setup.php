@@ -125,8 +125,10 @@ add_action('wp_enqueue_scripts', function () {
     } else {
 
         wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, THEME_VERSION);
+
     }
 
+    wp_enqueue_style('global.css', asset_path('styles/global.css'), false, THEME_VERSION);
     wp_enqueue_script('global.js', asset_path('scripts/global.js'), ['jquery'], THEME_VERSION, true);
     wp_enqueue_script('redirectScript.js', asset_path('scripts/redirectScript.js'), ['jquery'], THEME_VERSION, true);
 
