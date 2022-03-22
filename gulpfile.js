@@ -57,10 +57,10 @@ gulp.task('browserSync-Server', () => {
     online: true,
     notify: true,
     injectChanges: true,
-    proxy: "https://goescala.com/",
+    proxy: "https://escala.com/",
 
-  serveStatic: ["assets/css"],
-    files: "assets/css/escalaEstilos.css",
+  serveStatic: ["dist/styles"],
+    files: "dist/styles/global.css",
     snippetOptions: {
         rule: {
             match: /<\/head>/i,
