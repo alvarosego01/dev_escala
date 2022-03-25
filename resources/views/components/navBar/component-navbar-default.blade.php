@@ -43,13 +43,21 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
                     </a>
                 </div>
 
+                <div
+                style="display: flex; flex-direction: row"
+                class="buttonSections">
 
-                <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button" >
+                    <button style="margin-right: 25px;" class="openPopUpButton popup-general-blue-t2 primaryButton hoverInEffect mobileElement">
+                        Prueba Escala ahora
+                    </button>
 
-                    <i class="fas fa-bars    "></i>
+                    <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button" >
 
-                </button>
+                        <i class="fas fa-bars    "></i>
 
+                    </button>
+
+                </div>
                 <div class="desktopElement menusSection" id="main-menu">
 
                     {!! wp_nav_menu([

@@ -2,6 +2,46 @@
 
 @import common/global
 
+
+.swal2-container
+    padding-bottom: 2.5%!important
+    padding-top: 5%!important
+    z-index: 9999999999!important
+    @include responsivo(telefonoTable)
+
+    @include responsivo(pcMedio)
+        width: 500px!important
+
+    @include responsivo(general)
+        width: 600px!important
+
+    @include responsivo(resto)
+        width: 600px!important
+
+    .swal2-popup.swal2-toast.swal2-show
+        font-size: 1rem
+        h2#swal2-title
+            font-size: 18px
+            line-height: 0.9
+            margin-right: 0
+            @include responsivo(telefonoTable)
+                font-size: 13px
+            @include responsivo(pcMedio)
+                font-size: 14px
+    .swal2-timer-progress-bar
+        height: 3.5px
+        background: $colorOrange
+
+    .swal2-icon.swal2-icon-show
+        font-size: 1.85rem
+    //     width: 20px
+    //     height: 20px
+    //     min-height: auto
+    //     max-height: auto
+    //     min-width: auto
+    //     max-width: auto
+
+
 div#jet-popup-5458
     .jet-popup__inner
         .jet-popup__container

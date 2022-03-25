@@ -38,9 +38,9 @@ class SetComponents extends Controller
 
     private function setPopUpsComponents()
     {
-
         return array(
-            'components.popups.component-popup-general-T1' => 'popup_general_t1'
+            'components.popups.component-popup-general-T1' => 'popup_general_t1',
+            'components.popups.component-popup-general-blue-T2' => 'popup_general_blue_t2'
         );
     }
 
@@ -160,7 +160,8 @@ class SetComponents extends Controller
         if ($type == 'escalaVentas') {
             return array(
 
-                "views/template-escalaVentas-ventas.blade.php"
+                "views/template-escalaVentas-ventas.blade.php",
+                "views/template-escala-ventas.blade.php"
 
             );
         }
@@ -286,6 +287,7 @@ class SetComponents extends Controller
                 "views/template-landing-partners.blade.php",
                 "views/template-landing-landingPages2.blade.php",
                 "views/template-escalaVentas-ventas.blade.php",
+                "views/template-escala-ventas.blade.php",
                 "views/template-escalaMarketing-marketing.blade.php",
                 "views/template-func-page-builder.blade.php",
                 "views/template-func-analiticas.blade.php",

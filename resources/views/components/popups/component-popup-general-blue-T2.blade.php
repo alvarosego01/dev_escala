@@ -15,7 +15,7 @@
 
 @endphp
 
-<div class="customPopUp general1 modal fade {{ $popup_call_class }}" id="{{ $popup_call_class }}" aria-hidden="true"
+<div class="customPopUp general2Blue modal fade {{ $popup_call_class }}" id="{{ $popup_call_class }}" aria-hidden="true"
     aria-labelledby="{{ $popup_call_class }}" tabindex="-1">
 
     <div class="modal-dialog modal-dialog-centered">
@@ -65,26 +65,48 @@
 
                         <div class="row">
 
-                            <div class="col-md-12 col-lg-6 image col1">
+                            <div class="row">
+                                <div class="col-12">
 
-                                <div class="containerImage logo">
+                                    <div class="containerImage logo">
 
-                                    <img src="{!! App::setFilePath('/assets/images/logos/escala_logo.svg') !!}" alt="Logo" class="logo-img">
+                                        <img src="{!! App::setFilePath('/assets/images/logos/logoEscalaWhite.svg') !!}" alt="Logo" class="logo-img">
+
+                                    </div>
 
                                 </div>
+                            </div>
 
-                                <h2 class="primaryTitle">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 class="primaryTitle">
 
-                                    @if (isset($popup_title_text) && $popup_title_text != null)
-                                        {!! $popup_title_text !!}
-                                    @else
+                                        @if (isset($popup_title_text) && $popup_title_text != null)
+                                            {!! $popup_title_text !!}
+                                        @else
 
-                                    ¡Comienza a <br class="space"> <span class="orangeColor">impulsar tus
-                                        <br class="space"> ventas</span> ahora!
+                                            <span style="color: #B9E6E9;">
+                                                ¡Impulsa tus ventas <br class="space">
+                                                con Escala!
+                                            </span>
 
                                         @endif
 
-                                </h2>
+                                    </h2>
+
+                                    <p class="text">
+                                        <span class="whiteColor">
+                                    ¡Completa los siguientes campos y prueba <strong>Escala</strong> ahora!
+                                    </span>
+                                    </p>
+
+
+
+                                </div>
+                            </div>
+                            <div class="row">
+
+                            <div class="col-md-12 col-lg-6 image col1">
 
                                 <div class="containerImage imageHero">
 
@@ -99,7 +121,7 @@
 
                                     @else
 
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/team/escala-acelera-ventas-ahora.png') !!}">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/otto/ottoUp.png') !!}">
 
                                     @endif
 
@@ -117,7 +139,7 @@
                                             @if (isset($form_title) && $form_title != null)
                                                 {!! $form_title !!}
                                             @else
-                                                Solicita una prueba
+                                                ¡Comienza Ahora!
                                             @endif
                                         </h5>
 
@@ -129,13 +151,12 @@
                                         {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
                                         @endif
 
-
-
                                     </div>
 
 
                                 </div>
 
+                            </div>
                             </div>
 
                         </div>

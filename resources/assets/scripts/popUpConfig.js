@@ -50,6 +50,8 @@ jQuery(document).ready(function () {
 
         e.preventDefault();
 
+        _openSideNav('close');
+
         var classList = [];
 
         e.currentTarget.classList.forEach( function(r) {
@@ -86,9 +88,29 @@ jQuery(document).ready(function () {
 
                 }
 
+
+
             }
 
         }
+
+        const Toast = Swal.mixin({
+            toast: true,
+            position: 'bottom',
+            showConfirmButton: false,
+            timer: 4500,
+            timerProgressBar: true,
+            // didOpen: (toast) => {
+            //   toast.addEventListener('mouseenter', Swal.stopTimer)
+            //   toast.addEventListener('mouseleave', Swal.resumeTimer)
+            // }
+          })
+
+          Toast.fire({
+            icon: 'success',
+            title: '¡Completa este formulario para probar <strong>Escala</strong> ahora!'
+          })
+
 
     });
 

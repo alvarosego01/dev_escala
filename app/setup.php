@@ -137,6 +137,8 @@ add_action('wp_enqueue_scripts', function () {
 
     wp_enqueue_script('base64js', "https://cdn.jsdelivr.net/npm/js-base64@2.5.2/base64.min.js" , ['jquery'], THEME_VERSION, true);
 
+    wp_enqueue_script('sweetAlert', "https://cdn.jsdelivr.net/npm/sweetalert2@11" , ['jquery'], THEME_VERSION, true);
+
 
 }, 100);
 

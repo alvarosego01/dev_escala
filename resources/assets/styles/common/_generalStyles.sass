@@ -444,7 +444,8 @@ a[disabled]
     transform: scale(1)
     font-family: Nunito
     @include responsivo(telefonoTable)
-        font-size: 16px
+        font-size: 14px!important
+        padding: 7.5px 12.5px
 
 
 
@@ -681,6 +682,10 @@ a[disabled]
         font-weight: normal!important
         margin: 0
         line-height: normal
+        @include responsivo(telefonoTable)
+            font-size: 14px!important
+        @include responsivo(pcMedio)
+            font-size: 14px!important
     input.wpcf7-form-control.wpcf7-number,
     input[type="number"]
         width: 100%!important
@@ -698,6 +703,10 @@ a[disabled]
         box-sizing: border-box
         width: 100%!important
         line-height: normal
+        @include responsivo(telefonoTable)
+            font-size: 14px!important
+        @include responsivo(pcMedio)
+            font-size: 14px!important
     span.ewp-phonetype-radio
         margin-top: 20px
         margin-bottom: 30px
