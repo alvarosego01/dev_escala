@@ -216,6 +216,24 @@ function scrollToHash() {
             }
         }
 
+        const Toast = Swal.mixin({
+            toast: true,
+            position: 'top',
+            showConfirmButton: false,
+            timer: 4500,
+            timerProgressBar: true,
+            // didOpen: (toast) => {
+            //   toast.addEventListener('mouseenter', Swal.stopTimer)
+            //   toast.addEventListener('mouseleave', Swal.resumeTimer)
+            // }
+          })
+
+          Toast.fire({
+            icon: 'success',
+            title: '¡Completa este formulario para probar <strong>Escala</strong> ahora!'
+          })
+
+
 
     });
 

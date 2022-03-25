@@ -95,6 +95,14 @@ class ACF_CUSTOM extends Controller
             array(
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' => "views/template-escala-ventas.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
                 'value' => "views/template-landing-afiliados.blade.php",
             ),
 
@@ -1084,6 +1092,7 @@ class ACF_CUSTOM extends Controller
                     'type' => 'select',
                     'choices' => array(
                         'popup-bootstrap-general-t1' => 'Popup general 1',
+                        'popup-bootstrap-general-blue-t2' => 'Popup general 2 blue',
                     ),
                 )
             ),
