@@ -195,9 +195,9 @@ editando y programando el día a día de trabajo.
 Guarda tu data automáticamente
                   </h3>
                   <p class="primaryText  grayColorTexts">
-                    Toda la información que registren tus visitantes en <br class="desktopTabletElement">
+Toda la información que registren tus visitantes en <br class="desktopTabletElement">
 nuestros formularios inteligentes será guardada, de <br class="desktopTabletElement">
-manera automática, en tu CRM de Escala. Olvídate de
+manera automática, en tu CRM de Escala. Olvídate de <br class="desktopTabletElement">
 perder datos clave.
 
                   </p>
@@ -288,9 +288,9 @@ con WhatsApp Web Escala
 
                   </h3>
                   <p class="primaryText  grayColorTexts">
-                    El CRM de Escala te ofrece su integración a tu <br class="desktopTabletElement">
+El CRM de Escala te ofrece su integración a tu <br class="desktopTabletElement">
 WhatsApp Web para que puedas convertir a cada <br class="desktopTabletElement">
-contacto nuevo en un lead, guardando su  información de
+contacto nuevo en un lead, guardando su  información de <br class="desktopTabletElement">
 manera automática en tu CRM.
                   </p>
                 </div>
@@ -305,6 +305,18 @@ manera automática en tu CRM.
 
 
           </section>
+
+
+        <section class="innerSectionElement sct3">
+
+          <div class="containElements">
+
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+              ¡Probar Escala ahora!
+            </a>
+
+          </div>
+        </section>
 
         </div>
 
@@ -323,7 +335,10 @@ manera automática en tu CRM.
         'subTitlePrincipal' => null,
         'overlay' => false,
         'overlayImage' => null,
-        'enableButton' => false,
+        'enableButton' => true,
+        'urlButton' => '#',
+        'textButton' => '¡Comenzar ahora!',
+        'typeButton' => 'primaryButton hoverInEffect goToHash',
         'elements' => array(
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3a.png'),

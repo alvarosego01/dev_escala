@@ -94,22 +94,22 @@ jQuery(document).ready(function () {
 
         }
 
-        const Toast = Swal.mixin({
-            toast: true,
-            position: 'bottom',
-            showConfirmButton: false,
-            timer: 4500,
-            timerProgressBar: true,
-            // didOpen: (toast) => {
-            //   toast.addEventListener('mouseenter', Swal.stopTimer)
-            //   toast.addEventListener('mouseleave', Swal.resumeTimer)
-            // }
-          })
+        // const Toast = Swal.mixin({
+        //     toast: true,
+        //     position: 'bottom',
+        //     showConfirmButton: false,
+        //     timer: 4500,
+        //     timerProgressBar: true,
+        //     // didOpen: (toast) => {
+        //     //   toast.addEventListener('mouseenter', Swal.stopTimer)
+        //     //   toast.addEventListener('mouseleave', Swal.resumeTimer)
+        //     // }
+        //   })
 
-          Toast.fire({
-            icon: 'success',
-            title: '¡Completa este formulario para probar <strong>Escala</strong> ahora!'
-          })
+        //   Toast.fire({
+        //     icon: 'success',
+        //     title: '¡Completa este formulario para probar <strong>Escala</strong> ahora!'
+        //   })
 
 
     });
