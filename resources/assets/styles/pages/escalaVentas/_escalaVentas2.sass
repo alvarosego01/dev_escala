@@ -295,10 +295,10 @@
                             align-content: centers
                             img
                                 @include responsivo(telefonoTable)
-                                    height: 300px
+                                    height: 225px
                                     margin-bottom: 15px
                                 @include responsivo(pcMedio)
-                                    height: 325px
+                                    height: 250px
                                     margin-bottom: 15px
                                 @include responsivo(general)
                                     height: 400px
@@ -527,7 +527,7 @@
                         font-style: normal
                         font-weight: normal
                         font-size: 16px
-                        line-height: 22px
+                        line-height: 1
                         @include responsivo(telefonoTable)
                             font-size: 14px
                         @include responsivo(pcMedio)
@@ -554,6 +554,11 @@
                     .containerImage
                         padding: 0
                         margin-bottom: 0
+                        img
+                            @include responsivo(telefonoTable)
+                                height: 200px
+                            @include responsivo(pcMedio)
+                                height: 250px
                     @include responsivo(telefonoTable)
                         margin-bottom: 25px
                     @include responsivo(pcMedio)
@@ -745,7 +750,7 @@
                         margin: auto 0
                 @include responsivo(telefonoTable)
                     flex-direction: column
-                    margin-bottom: 30px
+                    margin-bottom: 15px
                     .containerImage
                         display: flex
                         img
@@ -898,19 +903,19 @@
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
-            padding: 50px 0
+            padding: 50px 10px
         @include responsivo(pcMedio)
             width: 90%
             padding: 50px 25px
         @include responsivo(general)
             width: 100%!important
-            max-width: 1275px!important
+            max-width: 1240px!important
             padding: 50px 0
         @include responsivoSpecial(992px, 1125px)
             padding: 75px 5px
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1350px!important
+            max-width: 1300px!important
             padding: 75px 0
         .innerSectionElement.sct1
             .groupElements
@@ -940,16 +945,16 @@
                             font-family: Nunito
                             font-style: normal
                             font-weight: 700
-                            font-size: 25px
+                            font-size: 22.5px
                             line-height: 1
                             letter-spacing: -1px
                             color: #FFFFFF
                             margin-bottom: 30px
                             @include responsivo(telefonoTable)
-                                font-size: 18px
+                                font-size: 16px
                                 font-weight: 600
                             @include responsivo(pcMedio)
-                                font-size: 20px
+                                font-size: 18px
                         .personData
                             display: flex
                             flex-direction: row
@@ -978,8 +983,8 @@
                                 height: fit-content
                                 font-family: Nunito
                                 font-style: normal
-                                font-weight: 700
-                                font-size: 22px
+                                font-weight: 600
+                                font-size: 20px
                                 line-height: 1
                                 letter-spacing: -1px
                                 color: #FFFFFF
@@ -1003,15 +1008,15 @@
                             margin-bottom: 25px
                         img
                             @include responsivo(telefonoTable)
-                                height: 250px
+                                height: 225px
 
                             @include responsivo(pcMedio)
-                                height: 275px
+                                height: 250px
 
                             @include responsivo(general)
-                                height: 350px
+                                height: 325px
                             @include responsivo(resto)
-                                height: 375px
+                                height: 350px
 
 
 
@@ -1023,20 +1028,20 @@
         font-family: Nunito
         font-style: normal
         font-weight: bold
-        font-size: 35px
-        line-height: 33px
+        font-size: 25px
+        line-height: 1
         text-align: center
         margin-bottom: 25px
         @include responsivo(telefonoTable)
             font-size: 20px
-            line-height: 25px
+            margin-bottom: 15px
         @include responsivo(pcMedio)
-            font-size: 25px
-            line-height: 30px
+            font-size: 22.5px
+            margin-bottom: 15px
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
-            padding: 25px
+            padding: 50px 25px
         @include responsivo(pcMedio)
             width: 90%
             padding: 50px 25px
@@ -1045,18 +1050,24 @@
             width: 100%!important
             max-width: 1275px!important
             padding: 50px 25px
+            padding-top: 75px
         @include responsivo(resto)
             width: 100%!important
             max-width: 1350px!important
             padding: 75px 25px
     .groupElements
+        @include responsivo(telefonoTable)
+            display: flex
+            flex-direction: column-reverse
+        @include responsivo(pcMedio)
+
         .form7
             padding: 0
             margin-top: 0
             h5.titleFormat
                 font-weight: bold
-                font-size: 26px
-                line-height: 35px
+                font-size: 20px
+                line-height: 1
         .info
             padding-left: 0
             @include responsivo(telefonoTable)
@@ -1076,20 +1087,21 @@
                 position: relative
                 display: flex
                 justify-content: flex-end
-                margin-bottom: 25px
+                margin-bottom: 20px
                 img
                     display: block
                     // position: absolute
-                    height: 325px
+                    height: 300px
                     margin-top: auto
                 @include responsivo(telefonoTable)
-                    margin-bottom: 50px
+                    margin-bottom: 25px
+                    padding-bottom: 25px
                     img
                         position: unset
                         margin: 0 auto
-                        height: 275px
+                        height: 200px
                 @include responsivo(pcMedio)
-                    margin-bottom: 50px
+                    margin-bottom: 25px
                     img
                         position: unset
                         margin: 0 auto

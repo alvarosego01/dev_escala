@@ -41,7 +41,7 @@ $parameters = [
     'classSection' => 'escalaVentas2Section1',
     'enableTitle' => true,
     'titlePrincipal' => '
-    ¡Que no se te escape <span class="greenBlueColor">ningún lead!</span>
+    ¡Que no se te escape <br class="mobileElement"><span class="greenBlueColor">ningún lead!</span>
     ',
     'subTitlePrincipal' => 'Con las funcionalidades de ventas de <strong>Escala</strong> podrás lograr:',
     'overlay' => false,
@@ -146,7 +146,7 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
             <div class="containElements">
 
               <h2 class="primaryTitle blackColor">
-                <span class="greenBlueColor">El CRM de Escala</span> <br class="space">
+                <span class="greenBlueColor">El CRM de Escala</span> <br class="desktopTabletElement">
                 la máquina de ventas de tu negocio
               </h2>
               <p class="primaryText grayColorTexts">
@@ -219,9 +219,9 @@ perder datos clave.
 a tus contactos
                   </h3>
                   <p class="primaryText  grayColorTexts">
-                    Te ayudamos a organizar el día a día de tu compañía. <br class="desktopTabletElement">
-A través de tareas, actividades y recordatorios para cada <br class="desktopTabletElement">
-miembro de tu equipo de ventas.
+Con la etiquetas avanzadas de Escala podrás clasificar <br class="desktopTabletElement">
+mejor a tus leads y clientes, personalizando cada <br class="desktopTabletElement">
+comunicación para ayudarte a convertir más.
                   </p>
                 </div>
 
@@ -329,7 +329,7 @@ manera automática en tu CRM.
         'classSection' => 'escalaVentas2Section4',
         'enableTitle' => true,
         'titlePrincipal' => '
-        Fortalece tu estrategia de ventas <br class="space">
+        Fortalece tu estrategia de ventas <br class="desktopTabletElement">
 <span class="greenBlueColor">con más funcionalidades</span>
         ',
         'subTitlePrincipal' => null,
@@ -428,7 +428,7 @@ manera automática en tu CRM.
 
           <div class="groupElements row">
 
-              <div class="col-md-12 col-lg-6 info">
+              <div class="col-md-12 col-lg-7 info">
 
                 <div class="containElements">
 
@@ -462,7 +462,7 @@ manera automática en tu CRM.
               </div>
 
               </div>
-              <div class="col-md-12 col-lg-6 image">
+              <div class="col-md-12 col-lg-5 image">
 
                 <div class="containerImage">
                   <img src="{!! App::setFilePath('/assets/images/illustrations/others/CRM_escala_ventas.png') !!}" alt="" loading="lazy">
@@ -484,7 +484,7 @@ manera automática en tu CRM.
   $parameters = [
       'classSection' => 'escalaVentas2Section6',
       'title' => '
-      ¿Listo para acelerar <br class="space">
+      ¿Listo para acelerar <br class="desktopTabletElement">
 el crecimiento de tu negocio?
       ',
       'textForm' => 'Pruébalo gratis ahora',
