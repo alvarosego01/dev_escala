@@ -1,13 +1,13 @@
 {{--
 
-    Template Name: [B] Escala ventas V2
+    Template Name: [B] Escala subpages - Ventas V2
 
 --}}
 
 @extends('layouts.app')
 @section('content')
 
-<div id="bootstrap-escala-ventas-2">
+<div id="bootstrap-escala-subpages-ventas-2">
   <div class="sections">
 @php
     $parameters = array(
@@ -191,13 +191,13 @@ editando y programando el día a día de trabajo.
 
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
-                    Formularios integrados. <br class="space">
+                    Formularios inteligentes. <br class="space">
 Guarda tu data automáticamente
                   </h3>
                   <p class="primaryText  grayColorTexts">
 Toda la información que registren tus visitantes en <br class="desktopTabletElement">
 nuestros formularios inteligentes será guardada, de <br class="desktopTabletElement">
-manera automática, en tu CRM de Escala. Olvídate de <br class="desktopTabletElement">
+manera automática en tu CRM de Escala. Olvídate de <br class="desktopTabletElement">
 perder datos clave.
 
                   </p>
@@ -219,7 +219,7 @@ perder datos clave.
 a tus contactos
                   </h3>
                   <p class="primaryText  grayColorTexts">
-Con la etiquetas avanzadas de Escala podrás clasificar <br class="desktopTabletElement">
+Con las etiquetas avanzadas de Escala podrás clasificar <br class="desktopTabletElement">
 mejor a tus leads y clientes, personalizando cada <br class="desktopTabletElement">
 comunicación para ayudarte a convertir más.
                   </p>
@@ -348,7 +348,7 @@ manera automática en tu CRM.
                         'text' => '
                         Da a conocer tus productos o servicios con landing <br class="desktopTabletElement">
                         pages optimizadas. Créalas, personalízalas y <br class="desktopTabletElement">
-                        publícalas Con un clic, sin programar, ni diseñar.
+                        publícalas con un clic, sin programar, ni diseñar.
                         ',
                         'enableButton' => false,
 

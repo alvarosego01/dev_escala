@@ -87,6 +87,22 @@ class ACF_CUSTOM extends Controller
             array(
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' => "views/template-escala-subpages-marketing.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-escala-subpages-fidelizacion.blade",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
                 'value' => "views/template-escalaVentas-ventas.blade.php",
             ),
 
@@ -95,7 +111,7 @@ class ACF_CUSTOM extends Controller
             array(
                 'param' => 'page_template',
                 'operator' => '==',
-                'value' => "views/template-escala-ventas.blade.php",
+                'value' => "views/template-escala-subpages-ventas.blade.php",
             ),
 
         ),
