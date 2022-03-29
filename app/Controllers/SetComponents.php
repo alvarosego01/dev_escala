@@ -157,18 +157,28 @@ class SetComponents extends Controller
         }
 
 
+        if ($type == 'subPages') {
+            return array(
+
+                "views/template-escala-subpages-fidelizacion.blade.php",
+                "views/template-escala-subpages-ventas.blade.php",
+                "views/template-escala-subpages-marketing.blade.php"
+
+            );
+        }
         if ($type == 'escalaVentas') {
             return array(
 
                 "views/template-escalaVentas-ventas.blade.php",
-                "views/template-escala-ventas.blade.php"
+                // "views/template-escala-ventas.blade.php"
 
             );
         }
         if ($type == 'escalaMarketing') {
             return array(
 
-                "views/template-escalaMarketing-marketing.blade.php"
+                "views/template-escalaMarketing-marketing.blade.php",
+                // "views/template-escala-marketing.blade.php"
 
             );
         }
@@ -287,8 +297,9 @@ class SetComponents extends Controller
                 "views/template-landing-partners.blade.php",
                 "views/template-landing-landingPages2.blade.php",
                 "views/template-escalaVentas-ventas.blade.php",
-                "views/template-escala-ventas.blade.php",
+                "views/template-escala-subpages-ventas.blade.php",
                 "views/template-escalaMarketing-marketing.blade.php",
+                "views/template-escala-subpages-marketing.blade.php",
                 "views/template-func-page-builder.blade.php",
                 "views/template-func-analiticas.blade.php",
                 "views/template-func-automatization.blade.php",
@@ -316,6 +327,8 @@ class SetComponents extends Controller
                 "views/template-landing-servicios-educacion.blade.php",
                 "views/template-landing-servicios-finanzas.blade.php",
                 "views/template-landing-servicios-seguros.blade.php",
+                "views/template-escala-subpages-fidelizacion.blade.php"
+
 
             );
         }

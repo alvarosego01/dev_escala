@@ -1,8 +1,5 @@
 
-
-
-
-#bootstrap-escala-ventas-2
+#bootstrap-escala-subpages-fidelizacion
     .carousel
         // ol.carousel-indicators
         .carousel-indicators
@@ -160,7 +157,7 @@
                 // display: none!important
 
 
-#bootstrap-escala-ventas-2 .customSection.sectionParent.escalaVentas2Section0
+#bootstrap-escala-subpages-fidelizacion .customSection.sectionParent.escalaFidelizacionSection0
     background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
     padding-top: 75px
     padding-bottom: 0
@@ -178,10 +175,10 @@
             width: 90%
         @include responsivo(general)
             width: 100%!important
-            max-width: 1225px!important
+            max-width: 1275px!important
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1275px!important
+            max-width: 1340px!important
         .containerImage
             margin: 0
             padding: 0
@@ -202,6 +199,9 @@
                         margin-bottom: 0
                     @include responsivo(pcMedio)
                         margin-bottom: 0
+                    @include responsivo(general)
+                        padding: 0
+
                     .containElements
                         position: relative
                         padding-bottom: 0
@@ -212,18 +212,20 @@
                         @include responsivo(pcMedio)
                             flex-direction: column-reverse
                         @include responsivo(general)
-                            flex-direction: row-reverse
+                            flex-direction: row
                             margin-top: 5%
+                        @include responsivoSpecial(992px, 1125px)
+                            margin-top: 10%
                         @include responsivo(resto)
-                            flex-direction: row-reverse
-                            margin-top: 0
+                            flex-direction: row
+                            margin-top: 5%
                         .ele
                             position: relative
                             .principalBigTitle
                                 font-family: Nunito
                                 font-style: normal
                                 font-weight: 700
-                                text-align: left
+                                text-align: center
                                 margin-bottom: 25px
                                 line-height: 1
                                 @include responsivo(telefonoTable)
@@ -244,7 +246,7 @@
                                 font-family: Nunito
                                 font-style: normal
                                 font-weight: 400
-                                text-align: left
+                                text-align: center
                                 margin-bottom: 0
                                 display: flex
                                 flex-direction: column
@@ -279,13 +281,9 @@
                             @include responsivo(pcMedio)
                                 margin-bottom: 0
                             @include responsivo(general)
-                                position: absolute
-                                width: 100%
                                 margin-top: 7.5%
                             @include responsivo(resto)
                                 margin-top: 7.5%
-                                position: absolute
-                                width: 100%
                         .containerImage
                             position: relative
                             width: 100%
@@ -295,17 +293,17 @@
                             align-content: centers
                             img
                                 @include responsivo(telefonoTable)
-                                    height: 225px
+                                    height: 200px
                                     margin-bottom: 15px
                                 @include responsivo(pcMedio)
-                                    height: 250px
+                                    height: 225px
                                     margin-bottom: 15px
                                 @include responsivo(general)
-                                    height: 400px
+                                    height: 300px
                                 @include responsivoSpecial(992px, 1050px)
-                                    height: 375px
+                                    height: 250px
                                 @include responsivo(resto)
-                                    height: 425px
+                                    height: 325px
 
                 .form7
                     margin-bottom: 50px
@@ -321,33 +319,11 @@
                         margin: 0 auto
                     .containElements
                         margin: 0 auto
-    .backgroundPlanets
-        background-position: center 0
-        background-repeat: no-repeat
-        background-size: 90% auto
-        opacity: 1
-        transition: background 0.3s, border-radius 0.3s, opacity 0.3s
-        height: 100%
-        width: 100%
-        top: 0
-        left: 0
-        right: 0
-        position: absolute
-        @include responsivo(telefonoTable)
-            top: 0
-            // background-position: center 2.5%
-            background-size: 100% auto
-        @include responsivo(pcMedio)
-            // background-position: center 2.5%
-            background-size: 100% auto
-            top: 0
 
 
-
-
-#bootstrap-escala-ventas-2 .customSection.sectionParent.escalaVentas2Section1,
-#bootstrap-escala-ventas-2 .customSection.sectionParent.escalaVentas2Section3,
-#bootstrap-escala-ventas-2 .customSection.sectionParent.escalaVentas2Section4
+#bootstrap-escala-subpages-fidelizacion .customSection.sectionParent.escalaFidelizacionSection1,
+#bootstrap-escala-subpages-fidelizacion .customSection.sectionParent.escalaFidelizacionSection3,
+#bootstrap-escala-subpages-fidelizacion .customSection.sectionParent.escalaFidelizacionSection4
     padding: 0
     padding-bottom: 50px
     background-color: #EFF8FF
@@ -425,7 +401,7 @@
                         line-height: 0.9
                         margin-bottom: 0
 
-#bootstrap-escala-ventas-2 .customSection.sectionParent.escalaVentas2Section1
+#bootstrap-escala-subpages-fidelizacion .customSection.sectionParent.escalaFidelizacionSection1
     padding-top: 50px
     @include responsivo(telefonoTable)
         padding-bottom: 25px
@@ -439,14 +415,12 @@
                 .image
                     .containerImage
                         img
-                            height: 125px
+                            height: 100px
 
                             @include responsivo(telefonoTable)
                                 height: 100px
                             @include responsivo(pcMedio)
                                 height: 125px
-                            @include responsivoSpecial(992px, 1125px)
-                                height: 115px
                 .info
                     h3.secondaryTitle
                         font-weight: 700
@@ -463,7 +437,7 @@
                             font-size: 14px
 
 
-#bootstrap-escala-ventas-2 .customSection.sectionParent.escalaVentas2Section2
+#bootstrap-escala-subpages-fidelizacion .customSection.sectionParent.escalaFidelizacionSection2
     padding: 0
     padding-bottom: 50px
     background-color: #EFF8FF
@@ -541,6 +515,7 @@
                             width: fit-content
                             margin: 0 auto
                             display: block
+
                     p.text
                         margin-bottom: 0
                     strong
@@ -566,7 +541,7 @@
 
 
 
-#bootstrap-escala-ventas-2 .customSection.sectionParent.escalaVentas2Section3
+#bootstrap-escala-subpages-fidelizacion .customSection.sectionParent.escalaFidelizacionSection3
     background-color: #EFF8FF
     padding: 50px 0
     padding-top: 0
@@ -595,7 +570,7 @@
             a
                 margin: 0 auto
     .innerSectionElement.sct1
-        margin-bottom: 30px
+        margin-bottom: 0
         .containElements
             .primaryTitle,
             p.primaryText
@@ -614,13 +589,18 @@
                 line-height: 1
                 text-align: center
                 letter-spacing: -2px
+                margin-bottom: 35px
                 @include responsivo(telefonoTable)
                     font-size: 25px
                 @include responsivo(pcMedio)
                     font-size: 25px
 
     .innerSectionElement.sct2
-        margin-bottom: 15px
+        margin-bottom: 25px
+        @include responsivo(telefonoTable)
+            margin-bottom: 0
+        @include responsivo(pcMedio)
+            margin-bottom: 0
         .groupElements
             @include responsivo(telefonoTable)
                 width: 90%!important
@@ -667,15 +647,15 @@
                         margin-bottom: 10px
 
                     @include responsivo(general)
-                        width: 150px
-                        min-width: 150px
+                        width: 125px
+                        min-width: 125px
                         padding: 0
                         padding-right: 25px
 
 
                     @include responsivo(resto)
-                        width: 175px
-                        min-width: 175px
+                        width: 150px
+                        min-width: 150px
                         padding: 0
                         padding-right: 25px
 
@@ -697,7 +677,8 @@
                             // margin: auto
 
                         @include responsivo(general)
-                            width: 150px
+                            margin-top: 0
+                            width: 125px
                             height: auto
                             position: absolute
                             left: 0
@@ -706,7 +687,8 @@
                             right: 0
 
                         @include responsivo(resto)
-                            width: 175px
+                            margin-top: 0
+                            width: 150px
                             height: auto
                             position: absolute
                             left: 0
@@ -716,12 +698,15 @@
 
                 .containerElements
                     padding: 10px
+                    margin-top: 0!important
                     @include responsivo(general)
                         padding-right: 0
+                        padding-left: 22.5px
                     @include responsivo(resto)
                         padding-right: 0
+                        padding-left: 22.5px
                     .secondaryTitle
-                        margin-bottom: 10px
+                        margin-bottom: 15px
                         font-style: normal
                         font-weight: 700
                         font-size: 20px
@@ -732,7 +717,8 @@
                         @include responsivo(pcMedio)
                             font-size: 20px
 
-                    p.primaryText
+                    p.primaryText,
+                    li
                         font-weight: 400
                         font-size: 15px
                         line-height: 1.25
@@ -741,6 +727,20 @@
                             text-align: center
                         @include responsivo(pcMedio)
                             text-align: center
+                    ul
+                        @include responsivo(telefonoTable)
+                            padding: 0
+                            margin: 0 auto
+                        @include responsivo(pcMedio)
+                            padding: 0
+                            margin: 0 auto
+                        li
+                            @include responsivo(telefonoTable)
+                                width: fit-content
+                                margin: 0 auto
+                            @include responsivo(pcMedio)
+                                width: fit-content
+                                margin: 0 auto
 
                     @include responsivo(general)
                         height: auto
@@ -784,19 +784,21 @@
                             margin-right: auto
 
 
-#bootstrap-escala-ventas-2 .customSection.sectionParent.escalaVentas2Section4
-    padding-top: 0
-    padding-bottom: 50px
+
+
+#bootstrap-escala-subpages-fidelizacion .customSection.sectionParent.escalaFidelizacionSection4
+
+    padding: 0
     position: relative
     z-index: 1
-    @include responsivo(telefonoTable)
-        padding-bottom: 25px
+    background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
 
     .section-row
+        background-color: transparent
         section.innerSectionElement.sct1
             margin-bottom: 30px
             h2.primaryTitle
-                margin-bottom: 25px
+                margin-bottom: 30px
                 line-height: 0.9
                 font-size: 35px
                 @include responsivo(telefonoTable)
@@ -871,7 +873,7 @@
                                 line-height: 1
                                 text-align: center
                                 letter-spacing: -1px
-                                color: #606267
+                                color: white
                                 padding: 0
                                 @include responsivo(telefonoTable)
                                     font-size: 14px
@@ -897,9 +899,9 @@
                 width: fit-content
 
 
-#bootstrap-escala-ventas-2 .customSection.sectionParent.escalaVentas2Section5
+#bootstrap-escala-subpages-fidelizacion .customSection.sectionParent.escalaFidelizacionSection5
     padding: 0
-    background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
+    background: linear-gradient(180deg, rgba(158, 191, 221, 0.5) -27.38%, rgba(158, 191, 221, 0) 89.29%)
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -909,13 +911,13 @@
             padding: 50px 25px
         @include responsivo(general)
             width: 100%!important
-            max-width: 1240px!important
+            max-width: 1140px!important
             padding: 50px 0
         @include responsivoSpecial(992px, 1125px)
             padding: 75px 5px
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1300px!important
+            max-width: 1200px!important
             padding: 75px 0
         .innerSectionElement.sct1
             .groupElements
@@ -945,16 +947,18 @@
                             font-family: Nunito
                             font-style: normal
                             font-weight: 700
-                            font-size: 22.5px
+                            font-size: 30px
                             line-height: 1
                             letter-spacing: -1px
-                            color: #FFFFFF
+                            color: #150D27
                             margin-bottom: 30px
+                            text-align: left
                             @include responsivo(telefonoTable)
-                                font-size: 16px
-                                font-weight: 600
-                            @include responsivo(pcMedio)
                                 font-size: 18px
+                                text-align: center
+                            @include responsivo(pcMedio)
+                                font-size: 20px
+                                text-align: center
                         .personData
                             display: flex
                             flex-direction: row
@@ -964,7 +968,7 @@
                                 margin: 0 auto
                             .logo
                                 margin-right: 35px
-                                border-right: 1px solid white
+                                border-right: 1px solid #C4C4C4
                                 @include responsivo(telefonoTable)
                                     margin-right: 10px
                                 @include responsivo(pcMedio)
@@ -983,11 +987,11 @@
                                 height: fit-content
                                 font-family: Nunito
                                 font-style: normal
-                                font-weight: 600
+                                font-weight: 700
                                 font-size: 20px
-                                line-height: 1
+                                line-height: 1.25
                                 letter-spacing: -1px
-                                color: #FFFFFF
+                                color: #150D27
                                 span
                                     font-size: 16px
                                 @include responsivo(telefonoTable)
@@ -1008,21 +1012,22 @@
                             margin-bottom: 25px
                         img
                             @include responsivo(telefonoTable)
-                                height: 225px
-
-                            @include responsivo(pcMedio)
                                 height: 250px
 
+                            @include responsivo(pcMedio)
+                                height: 275px
+
                             @include responsivo(general)
-                                height: 325px
-                            @include responsivo(resto)
                                 height: 350px
+                            @include responsivo(resto)
+                                height: 375px
 
 
 
 
-#bootstrap-escala-ventas-2 .customSection.sectionParent.escalaVentas2Section6
-    background-color: #EFF8FF
+#bootstrap-escala-subpages-fidelizacion .customSection.sectionParent.escalaFidelizacionSection6
+
+    background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
     padding: 0
     h2.principalBigTitle
         font-family: Nunito
@@ -1032,6 +1037,7 @@
         line-height: 1
         text-align: center
         margin-bottom: 25px
+        color: white
         @include responsivo(telefonoTable)
             font-size: 20px
             margin-bottom: 15px
