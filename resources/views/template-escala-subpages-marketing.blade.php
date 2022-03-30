@@ -45,7 +45,7 @@ $parameters = [
     ',
     'subTitlePrincipal' => '
     Las funcionalidades de marketing digital de <strong>Escala</strong> te permiten hacer crecer tu negocio <br class="desktopTabletElement">
-    de manera rentable, sostenible y escalable, logrando:
+    de manera rentable, sostenible. Con nuestra plataforma lograrás:
     ',
     'overlay' => false,
     'enableButton' => false,
@@ -170,7 +170,7 @@ con Ads de Facebook
                   <p class="primaryText  grayColorTexts">
 Crea, publica y gestiona tus campañas de anuncios digitales, <br class="desktopTabletElement">
 sin salir de Escala. De la manera más fácil e intuitiva, ten <br class="desktopTabletElement">
-visibilidad sobrer el retorno de inversión con analíticas <br class="desktopTabletElement">
+visibilidad sobre el retorno de inversión con analíticas <br class="desktopTabletElement">
 relevantes que se integran a tus esfuerzos de venta.
                   </p>
                 </div>

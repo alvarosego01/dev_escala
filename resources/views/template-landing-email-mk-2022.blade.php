@@ -224,17 +224,17 @@ comunicación con tus clientes
 
                 <div class="element">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust1.jpeg') !!}" alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust1.png') !!}" alt="">
 
                 </div>
                 <div class="element">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust2.jpeg') !!}" alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust2.png') !!}" alt="">
 
                 </div>
                 <div class="element">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust3.jpeg') !!}" alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust3.png') !!}" alt="">
 
                 </div>
 

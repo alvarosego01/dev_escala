@@ -3,17 +3,69 @@
   Template Name: [B] Landing - Landing Pages 2022
 --}}
 
+@php
+    $customHeaderActive = ACF_CUSTOM::_getField('enable_custom_header');
+@endphp
+
 @extends('layouts.app')
 @section('content')
 <div id="landing-landingPages2022-bootstrap">
   <div class="sections">
+
+    @if ( isset($customHeaderActive) && $customHeaderActive == 1 )
+
+    @php
+
+    $custom_header_title = ACF_CUSTOM::_getField('custom_header_title');
+    $custom_header_subText = ACF_CUSTOM::_getField('custom_header_subText');
+    $custom_header_image = ACF_CUSTOM::_getField('custom_header_image');
+    $custom_header_formTitle = ACF_CUSTOM::_getField('custom_header_formTitle');
+
+    if ( !isset($custom_header_title) || $custom_header_title == null ) {
+        # code...
+        $custom_header_title = '<span class="whiteColor">Genera más leads <br class="space"> con las landing pages <br class="space"> de Escala</span>';
+    }
+    if ( !isset($custom_header_subText) || $custom_header_subText == null ) {
+        # code...
+        $custom_header_subText = '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span>';
+    }
+    if ( !isset($custom_header_formTitle) || $custom_header_formTitle == null ) {
+        # code...
+        $custom_header_formTitle = 'Comienza ahora';
+    }
+    if ( !isset($custom_header_image) || $custom_header_image == null ) {
+        # code...
+        $custom_header_image = App::setFilePath('/assets/images/person/am/headerlanding2022.png');
+    }else{
+        $custom_header_image = $custom_header_image['url'];
+    }
+
+    $parameters = array(
+     'backgroundImageType' => false,
+     'overlay' => false,
+     'classSection' => 'threeCol landingLandingPages2022_0',
+     'title' => $custom_header_title,
+     'text' => $custom_header_subText,
+     'threeCol' => true,
+     'textForm' => $custom_header_formTitle,
+     'backgroundImage' => null,
+  'overlayImage' => null,
+  'image' => $custom_header_image,
+    ) ;
+    @endphp
+    @header_t1( $parameters )
+    @endheader_t1
+
+    @else
     @php
     $parameters = array(
      'backgroundImageType' => false,
      'overlay' => false,
      'classSection' => 'threeCol landingLandingPages2022_0',
      'title' => '<span class="whiteColor">
-        Genera más leads con <br class="desktopTabletElement"> las landing pages <br class="desktopTabletElement"> de Escala
+        Genera más leads <br class="space">
+        con las landing pages <br class="space">
+        de Escala
         </span>',
      'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span> ',
      'threeCol' => true,
@@ -25,6 +77,10 @@
     @endphp
     @header_t1( $parameters )
     @endheader_t1
+
+@endif
+
+
     @php
     $parameters = [
         'type' => 'backgroundColor',
@@ -189,17 +245,17 @@
 
                 <div class="element">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust1.jpeg') !!}" alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust1.png') !!}" alt="">
 
                 </div>
                 <div class="element">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust2.jpeg') !!}" alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust2.png') !!}" alt="">
 
                 </div>
                 <div class="element">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust3.jpeg') !!}" alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust3.png') !!}" alt="">
 
                 </div>
 

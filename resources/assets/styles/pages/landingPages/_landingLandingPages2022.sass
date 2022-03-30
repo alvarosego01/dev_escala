@@ -41,7 +41,6 @@
             .section-row
                 .innerSectionElement.sct1
                     .groupElements
-
                         .info
                             padding-top: 0
                             display: flex
@@ -75,15 +74,19 @@
                                         margin-bottom: 35px
                                         line-height: 0.9
                                         @include responsivo(telefonoTable)
-                                            font-size: 42.5px
+                                            font-size: 25px
                                             text-align: center
+                                            margin-bottom: 25px
                                         @include responsivo(pcMedio)
-                                            font-size: 42.5px
+                                            font-size: 35px
                                             text-align: center
+                                            margin-bottom: 30px
                                         @include responsivo(general)
-                                            font-size: 45px
+                                            font-size: 40px
+                                        @include responsivoSpecial(992px, 1125px)
+                                            font-size: 37.5px
                                         @include responsivo(resto)
-                                            font-size: 50px
+                                            font-size: 45px
 
                                     .principalBigText
                                         font-family: Nunito
@@ -130,6 +133,12 @@
                                                 font-size: 20px
                                                 text-align: right
 
+                                        @include responsivoSpecial(992px, 1125px)
+                                            span.sub
+                                                font-size: 14px
+                                            span.whiteColor
+                                                font-size: 18px
+
                                 .ele2
                                     @include responsivo(telefonoTable)
                                         margin-bottom: 0
@@ -140,12 +149,14 @@
                                         left: 0
                                         top: 0
                                         width: 100%
+                                        padding-top: 30px
 
                                     @include responsivo(resto)
                                         position: absolute
                                         left: 0
                                         top: 0
                                         width: 100%
+                                        padding-top: 32.5px
 
 
                                 .containerImage
