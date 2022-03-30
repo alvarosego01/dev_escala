@@ -18,7 +18,7 @@
         Aumenta tus <br class="space"> ventas con Escala
         </span>',
      'text' => '<span class="whiteColor">
-        Escala es la plataforma todo en uno, diseñada <br class="space">
+        Escala es la plataforma todo en uno diseñada <br class="space">
         para acelerar el crecimiento de tus ventas y <br class="space">
         aumentar la productividad de tu equipo. Todas <br class="space">
         las herramientas que necesitas en un solo lugar.
@@ -176,8 +176,8 @@ en una sola plataforma
                   </h3>
                   <p class="primaryText  grayColorTexts">
                     En el CRM de Escala, tu equipo de ventas trabajará de <br class="desktopTabletElement">
-manera integrada cada uno tendrá un rol administrando, <br class="desktopTabletElement">
-editando y programando el día a día de trabajo.
+                    manera integrada. Cada miembro de tu equipo tendrá un rol, <br class="desktopTabletElement">
+                    administrando editando y programando el día a día de trabajo.
                   </p>
                 </div>
 
@@ -191,12 +191,12 @@ editando y programando el día a día de trabajo.
 
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
-                    Formularios inteligentes. <br class="space">
+                    Formularios integrados. <br class="space">
 Guarda tu data automáticamente
                   </h3>
                   <p class="primaryText  grayColorTexts">
 Toda la información que registren tus visitantes en <br class="desktopTabletElement">
-nuestros formularios inteligentes será guardada, de <br class="desktopTabletElement">
+nuestros formularios integrados será guardada, de <br class="desktopTabletElement">
 manera automática en tu CRM de Escala. Olvídate de <br class="desktopTabletElement">
 perder datos clave.
 
