@@ -44,7 +44,7 @@ $parameters = [
     ¿Cómo logras fidelizar <br class="mobileElement"><span class="greenBlueColor">a tus clientes con Escala?</span>
     ',
     'subTitlePrincipal' => '
-    Con las funcionalidades de retención de Escala fideliza a más clientes, logrando:
+    Con las funcionalidades de retención de Escala fideliza a más clientes, conviértelos en <br class="desktopTabletElement"> fans de tu marca alcanzando estos objetivos:
     ',
     'overlay' => false,
     'enableButton' => false,
@@ -186,9 +186,9 @@ Crea y publica landing pages optimizadas en minutos <br class="desktopTabletElem
 para lanzar nuevos productos y servicios personalizados <br class="desktopTabletElement">
 por tipo de clientes. Solo debes elegir la plantilla que más <br class="desktopTabletElement">
 se adapta a tu nuevo lanzamiento, personalizarla y con un <br class="desktopTabletElement">
-clic publicarla. Páginas que te ayudarán a dar a conocer <br class="desktopTabletElement">
-esa nueva oferta que atrapará nuevamente la atención de <br class="desktopTabletElement">
-tu cliente, sin necesidad de programar o diseñar.
+clic publicarla. Páginas que darán a conocer esa interesante <br class="desktopTabletElement">
+oferta que atrapará nuevamente la atención de tu cliente, <br class="desktopTabletElement">
+sin necesidad de programar o diseñar.
                   </p>
                 </div>
 
@@ -282,10 +282,10 @@ Automatiza para ahorrar tiempo
                   </h3>
 
                   <p class="primaryText  grayColorTexts">
-Para estar en contacto de forma permanente programa flujo <br class="desktopTabletElement">
-de emails, workflows, tareas y actividades para tu equipo de <br class="desktopTabletElement">
-ventas. Ahorra tiempo en tareas repetitivas y llega a tus <br class="desktopTabletElement">
-clientes en el momento correcto con la oferta correcta.
+Para estar en contacto de forma permanente programa flujos <br class="desktopTabletElement">
+automatizados de emails y tareas para tu fuerza de ventas. <br class="desktopTabletElement">
+Ahorra tiempo en tareas repetitivas y llega a tus clientes <br class="desktopTabletElement">
+en el momento correcto con la oferta correcta.
                   </p>
                 </div>
 
@@ -405,7 +405,7 @@ objetivos, experiencia y necesidades.
     @endcontain_5_cards_T1 --}}
 
 
-    <section class="customSection sectionParent escalaFidelizacionSection5">
+    {{-- <section class="customSection sectionParent escalaFidelizacionSection5">
 
       <div class="section-row">
 
@@ -436,7 +436,6 @@ compras en un 150% con Escala”
                   <h2 class="team whiteColor">
                     Lorena  García <br class="space">
                     <span class="greenBlueColor">Inmobiliaria ATA </span> <br class="space">
-                    {{-- <span>Account Manager</span> --}}
                   </h2>
 
                 </div>
@@ -459,7 +458,7 @@ compras en un 150% con Escala”
 
       </div>
 
-    </section>
+    </section> --}}
 
 
   @php

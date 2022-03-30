@@ -955,6 +955,9 @@
                             @include responsivo(pcMedio)
                                 font-size: 22px
                                 text-align: center
+                            @include responsivo(general)
+                                font-size: 25px
+
                         .personData
                             display: flex
                             flex-direction: row
@@ -1088,7 +1091,7 @@
                 img
                     display: block
                     // position: absolute
-                    height: 400px
+                    height: 350px
                     margin-top: auto
                 @include responsivo(telefonoTable)
                     margin-bottom: 25px
@@ -1103,3 +1106,7 @@
                         position: unset
                         margin: 0 auto
                         height: 275px
+                @include responsivo(general)
+                    img
+                        height: 300px
+
