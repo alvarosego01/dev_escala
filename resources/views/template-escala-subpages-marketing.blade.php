@@ -45,7 +45,7 @@ $parameters = [
     ',
     'subTitlePrincipal' => '
     Las funcionalidades de marketing digital de <strong>Escala</strong> te permiten hacer crecer tu negocio <br class="desktopTabletElement">
-    de manera rentable, sostenible. Con nuestra plataforma lograrás:
+    de manera rentable y sostenible. Con nuestra plataforma lograrás:
     ',
     'overlay' => false,
     'enableButton' => false,
