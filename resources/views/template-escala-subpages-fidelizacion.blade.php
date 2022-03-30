@@ -232,7 +232,7 @@ No pierdas ningún dato <br class="space">
 con los Formularios integrados
                   </h3>
                   <p class="primaryText  grayColorTexts">
-No pierdas ningún dato. Cada vez que tus clientes llenan los <br class="desktopTabletElement">
+Cada vez que tus clientes llenan los <br class="desktopTabletElement">
 formularios integrados, sus datos se guardan <br class="desktopTabletElement">
 automáticamente en el CRM de Escala, asociados a la <br class="desktopTabletElement">
 landing que despertó su interés. Así puedes tener un mejor <br class="desktopTabletElement">
@@ -282,7 +282,7 @@ Automatiza para ahorrar tiempo
                   </h3>
 
                   <p class="primaryText  grayColorTexts">
-Para estar en contacto de forma permanente programa flujos <br class="desktopTabletElement">
+Para estar en contacto de forma permanente, programa flujos <br class="desktopTabletElement">
 automatizados de emails y tareas para tu fuerza de ventas. <br class="desktopTabletElement">
 Ahorra tiempo en tareas repetitivas y llega a tus clientes <br class="desktopTabletElement">
 en el momento correcto con la oferta correcta.
