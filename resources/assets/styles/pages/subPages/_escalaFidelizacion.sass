@@ -160,7 +160,7 @@
 #bootstrap-escala-subpages-fidelizacion .customSection.sectionParent.escalaFidelizacionSection0
     background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
     padding-top: 75px
-    padding-bottom: 0
+    padding-bottom: 75px
     margin-bottom: 0
     overflow: hidden
     @include responsivo(telefonoTable)
@@ -213,12 +213,12 @@
                             flex-direction: column-reverse
                         @include responsivo(general)
                             flex-direction: row
-                            margin-top: 5%
-                        @include responsivoSpecial(992px, 1125px)
-                            margin-top: 10%
+                            // margin-top: 5%
+                        // @include responsivoSpecial(992px, 1125px)
+                            // margin-top: 10%
                         @include responsivo(resto)
                             flex-direction: row
-                            margin-top: 5%
+                            // margin-top: 5%
                         .ele
                             position: relative
                             .principalBigTitle
@@ -281,9 +281,9 @@
                             @include responsivo(pcMedio)
                                 margin-bottom: 0
                             @include responsivo(general)
-                                margin-top: 7.5%
+                                margin-top: 2.5%
                             @include responsivo(resto)
-                                margin-top: 7.5%
+                                margin-top: 2.5%
                         .containerImage
                             position: relative
                             width: 100%
@@ -299,21 +299,23 @@
                                     height: 225px
                                     margin-bottom: 15px
                                 @include responsivo(general)
-                                    height: 300px
+                                    height: 350px
                                 @include responsivoSpecial(992px, 1050px)
-                                    height: 250px
+                                    height: 275px
                                 @include responsivo(resto)
-                                    height: 325px
+                                    height: 375px
 
                 .form7
+                    padding: 0
                     margin-bottom: 50px
-                    padding: 0 50px
                     display: flex
                     margin: 0 auto
                     @include responsivo(general)
-                        padding-bottom: 65px
+                        padding: 0 25px
+                    //     padding-bottom: 65px
                     @include responsivo(resto)
-                        padding-bottom: 65px
+                        padding: 0 25px
+                    //     padding-bottom: 65px
                     .formatForm
                         display: block
                         margin: 0 auto
