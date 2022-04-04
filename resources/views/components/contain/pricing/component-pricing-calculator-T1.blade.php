@@ -391,11 +391,10 @@
                                             </button>
 
                                         </div>
-
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
-                                                USD $36 /mes
+                                                USD $21 /mes
                                             </span>
 
                                         </div>
@@ -405,18 +404,15 @@
                                             <p class="primaryText grayColorTexts5">
 
                                                 <span id="priceDotted">
-                                                    $USD 45 /mes
+                                                    $USD 30 /mes
                                                 </span> <br class="space">
                                                 <strong id="priceSaves">
                                                     Ahorras USD $9
                                                 </strong>
 
-
-
                                             </p>
 
                                         </div>
-
                                         <div class="finalButtons">
 
                                             <a class="primaryButton btn-popup-header hoverInEffect">

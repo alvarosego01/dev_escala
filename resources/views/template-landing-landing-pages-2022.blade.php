@@ -144,7 +144,7 @@
                 'title' => '<span class="greenBlueColor7">
                     Elige tu Plantilla
                 </span>',
-                'text' => 'Elige entre cientos de plantillas pre-diseñadas <br class="desktopTabletElement"> 100% responsive para que luzcan bien en <br class="desktopTabletElement"> cualquier dispositivo.',
+                'text' => 'Elige entre cientos de plantillas pre-diseñadas, <br class="desktopTabletElement"> 100% responsive para que luzcan bien en <br class="desktopTabletElement"> cualquier dispositivo.',
                 'enableButton' => false,
             ],
             [
@@ -288,7 +288,7 @@ $parameters = [
                         Multiplica las visitas <br class="desktopTabletElement"> a tu landing page con <br class="desktopTabletElement"> anuncios digitales
                         </span>',
                     'text' => '
-                    Genera tráfico a tu landing page. Crea, publica y <br class="desktopTabletElement"> gestiona campañas de anuncios digitales de Facebook,<br class="desktopTabletElement"> directamente desde Escala.
+                    Genera tráfico a tu landing page. Crea, publica y <br class="desktopTabletElement"> gestiona campañas de anuncios digitales <br class="desktopTabletElement"> de Instagram y Facebook, directamente <br class="desktopTabletElement"> desde Escala.
                     ',
                     'enableButton' => false,
 

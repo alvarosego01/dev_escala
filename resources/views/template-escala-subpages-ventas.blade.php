@@ -175,9 +175,10 @@ Todo tu equipo <br class="space">
 en una sola plataforma
                   </h3>
                   <p class="primaryText  grayColorTexts">
-                    En el CRM de Escala, tu equipo de ventas trabajará de <br class="desktopTabletElement">
-                    manera integrada. Cada miembro de tu equipo tendrá un rol, <br class="desktopTabletElement">
-                    administrando editando y programando el día a día de trabajo.
+                    En el CRM de Escala, tu equipo de ventas trabajará <br class="desktopTabletElement">
+                    de manera integrada. Cada miembro de tu equipo <br class="desktopTabletElement">
+                    tendrá un rol, administrando editando, programando <br class="desktopTabletElement">
+                    el día a día de trabajo.
                   </p>
                 </div>
 
@@ -265,8 +266,8 @@ concretarse, cuál es el vendedor estrella de tu equipo.
                   </h3>
 
                   <p class="primaryText  grayColorTexts">
-                    Te ayudamos a organizar el día a día de tu compañía. <br class="desktopTabletElement">
-A través de tareas, actividades y recordatorios para cada <br class="desktopTabletElement">
+                    Te ayudamos a organizar el día a día de tu compañía, <br class="desktopTabletElement">
+a través de tareas, actividades y recordatorios para cada <br class="desktopTabletElement">
 miembro de tu equipo de ventas.
                   </p>
                 </div>
