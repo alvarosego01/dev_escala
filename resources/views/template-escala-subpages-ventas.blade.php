@@ -176,8 +176,8 @@ en una sola plataforma
                   </h3>
                   <p class="primaryText  grayColorTexts">
                     En el CRM de Escala, tu equipo de ventas trabajará <br class="desktopTabletElement">
-                    de manera integrada. Cada miembro de tu equipo <br class="desktopTabletElement">
-                    tendrá un rol, administrando editando, programando <br class="desktopTabletElement">
+                    de manera integrada, cada miembro de tu equipo <br class="desktopTabletElement">
+                    tendrá un rol, administrando, editando y programando <br class="desktopTabletElement">
                     el día a día de trabajo.
                   </p>
                 </div>

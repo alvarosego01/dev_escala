@@ -333,7 +333,7 @@ $parameters = [
     'enableTitle' => true,
     'titlePrincipal' => '
     Potencia tu marketing digital con <br class="desktopTabletElement">
-nuestra plataforma todo en uno
+    Escala, nuestra plataforma todo en uno
     ',
     'subTitlePrincipal' => '
     Tu email marketing estará ya integrado a la plataforma “todo en uno” de marketing digital <br class="desktopElement">
@@ -347,8 +347,8 @@ y ventas más completa de todas y fácil de usar
                     'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_01.png'),
                     'title' => '<span class="greenBlueColor7">
                         Multiplica las visitas a tu <br class="desktopTabletElement">
-landing page con anuncios <br class="desktopTabletElement">
-digitales
+                        landing page con anuncios <br class="desktopTabletElement">
+                        digitales
                         </span>',
                     'text' => '
                     Comienza a generar tráfico a tu landing page. <br class="space">
@@ -370,9 +370,9 @@ digitales
                     ',
                     'text' => '
                     Crea landing pages para darte a conocer y registrar <br class="space">
-la data de tus visitantes, sin escribir una línea de <br class="space">
-código, ni diseñar. Solo eliges tu plantilla, la <br class="space">
-personalizas y en un clic la puedes publicar.
+                    la data de tus visitantes, sin escribir una línea de <br class="space">
+                    código, ni diseñar. Solo eliges tu plantilla, la <br class="space">
+                    personalizas y en un clic la puedes publicar.
                     ',
                     'enableButton' => false,
                 ],
