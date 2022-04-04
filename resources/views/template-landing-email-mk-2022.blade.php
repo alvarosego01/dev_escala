@@ -173,9 +173,9 @@ Email Marketing efectivas
                 </span>',
                 'text' => '
                 En Escala hemos creado plantillas optimizadas <br class="desktopTabletElement">
-con las mejores prácticas para no caer en la <br class="desktopTabletElement">
-bandeja de spam. Elige la más adecuada para <br class="desktopTabletElement">
-tu campaña y dale tu toque personal.
+con las las mejores prácticas de email marketing <br class="desktopTabletElement">
+para no caer en la  bandeja de spam. Elige la más <br class="desktopTabletElement">
+adecuada para tu campaña y dale tu toque personal.
                 ',
                 'enableButton' => false,
             ],
@@ -352,8 +352,9 @@ digitales
                         </span>',
                     'text' => '
                     Comienza a generar tráfico a tu landing page. <br class="space">
-Crea, publica y gestiona campañas de anuncios <br class="desktopTabletElement">
-digitales directamente desde Escala.
+                    Crea, publica y gestiona campañas de <br class="desktopTabletElement">
+                    anuncios digitales de Instagram y Facebook, <br class="desktopTabletElement">
+                    directamente desde Escala.
                     ',
                     'enableButton' => false,
 
@@ -370,9 +371,8 @@ digitales directamente desde Escala.
                     'text' => '
                     Crea landing pages para darte a conocer y registrar <br class="space">
 la data de tus visitantes, sin escribir una línea de <br class="space">
-código, no diseñar. Solo eliges tú plantillas, la <br class="space">
+código, ni diseñar. Solo eliges tu plantilla, la <br class="space">
 personalizas y en un clic la puedes publicar.
-
                     ',
                     'enableButton' => false,
                 ],

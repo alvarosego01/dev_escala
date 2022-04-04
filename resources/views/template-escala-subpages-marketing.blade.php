@@ -165,7 +165,7 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
 Llega a más clientes potenciales <br class="space">
-con Ads de Facebook
+con Ads de Instagram y Facebook
                   </h3>
                   <p class="primaryText  grayColorTexts">
 Crea, publica y gestiona tus campañas de anuncios digitales, <br class="desktopTabletElement">
