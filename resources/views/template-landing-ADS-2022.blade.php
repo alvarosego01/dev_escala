@@ -1,6 +1,6 @@
 
 {{--
-  Template Name: [B] Landing - CRM 2022
+  Template Name: [B] Landing - ADS 2022
 --}}
 
 
@@ -8,7 +8,7 @@
 
 @section('content')
 
-<div id="landing-CRM2022-bootstrap">
+<div id="landing-ADS-2022-bootstrap">
 
   <div class="sections">
 
@@ -16,23 +16,23 @@
     $parameters = array(
      'backgroundImageType' => false,
      'overlay' => false,
-     'classSection' => 'threeCol landingCRM_2022_0',
+     'classSection' => 'threeCol landing_ADS_2022_0',
      'title' => '<span style="color: #B9E6E9">
-Concreta más ventas <br class="space">
-y fideliza a más clientes
+Crea, administra y <br class="desktopTabletElement">
+publica ads de <br class="desktopTabletElement">
+Facebook desde Escala
         </span>',
      'text' => '<span class="whiteColor">
-El CRM de Escala integra todos las funcionalidades que <br class="space">
-necesitas para organizar y gestionar tu base de datos,<br class="space">
-aumentar tus ventas y fidelizar a tus clientes generando <br class="space">
-upsells. El CRM de Escala es fácil de usar y potente.
+Haz que todos conozcan tus productos y servicios con <br class="desktopTabletElement">
+anuncios digitales de Facebook e Instagram que puedes <br class="desktopTabletElement">
+crear, administrar y publicar sin salir de Escala
       </span>
       ',
      'threeCol' => true,
      'textForm' => 'Empieza a probar Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/illustrations/others/escala_CRM_gestion_datos_01.png'),
+  'image' => App::setFilePath('/assets/images/illustrations/others/escala_ads_avisos_facebook.png'),
     ) ;
     @endphp
 
@@ -43,10 +43,13 @@ upsells. El CRM de Escala es fácil de usar y potente.
     @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landingCRM_2022_1',
+        'classSection' => 'landing_ADS_2022_1',
         'enableTitle' => true,
         'titlePrincipal' => '
-<span class="greenBlueColor">Conoce los beneficios</span> del CRM de Escala
+<span class="greenBlueColor">
+  ¿Qué puedes lograr con los anuncios <br class="desktopTabletElement">
+  digitales de
+</span> Facebook e Instagram?
         ',
         'subTitlePrincipal' => '
         El CRM de Escala es el más fácil de usar del mercado permitiéndote:
@@ -59,50 +62,51 @@ upsells. El CRM de Escala es fácil de usar y potente.
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/escala_CRM_gestion_datos_icono_01a.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_01a.png'),
                 'title' => '<span class="grayColorTexts5">
-Organizar y gestionar <br class="desktopTabletElement">
-tu base de datos
+Promocionar tus <br class="desktopTabletElement">
+productos o servicios
+
                     </span>',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/escala_CRM_gestion_datos_icono_01b.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_01b.png'),
                 'title' => '<span class="grayColorTexts5">
-Guardar información relevante <br class="desktopTabletElement">
-sobre tus contactos
+Generar tráfico a tus <br class="desktopTabletElement">
+landing pages
                     </span>',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/escala_CRM_gestion_datos_icono_01c.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_01c.png'),
                 'title' => '<span class="grayColorTexts5">
-Automatizar tus  procesos <br class="desktopTabletElement">
-de venta y marketing digital
+Aumentar las ventas <br class="desktopTabletElement">
+en tus páginas
                     </span>',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/escala_CRM_gestion_datos_icono_01d.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_01d.png'),
                 'title' => '<span class="grayColorTexts5">
-Vender con o sin <br class="desktopTabletElement">
-vendedores
+Atraer a tu audiencia ideal <br class="desktopTabletElement">
+para cerrar más ventas
                     </span>',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/escala_CRM_gestion_datos_icono_01e.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_01e.png'),
                 'title' => '<span class="grayColorTexts5">
-Fidelizar más <br class="desktopTabletElement">
-clientes
+Convertir interesados <br class="desktopTabletElement">
+en leads en un clic
                     </span>',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/escala_CRM_gestion_datos_icono_01f.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_01f.png'),
                 'title' => '<span class="grayColorTexts5">
-Personalizar tu comunicación <br class="desktopTabletElement">
-para convertir más
+Obtener mayor alcance <br class="desktopTabletElement">
+de tu público digital
                     </span>',
                 'enableButton' => false,
             ],
@@ -115,7 +119,7 @@ para convertir más
 @endcontain_multiple_cards_T2
 
 
-<section class="customSection sectionParent landingCRM_2022_2">
+<section class="customSection sectionParent landing_ADS_2022_2">
 
     <div class="section-row">
 
@@ -124,10 +128,8 @@ para convertir más
         <div class="containElements">
 
           <h2 class="primaryTitle blackColor ">
-              4 pasos para potenciar tus ventas <br class="space">
-            <span class="greenBlueColor">
-                con nuestro CRM
-            </span>
+            <span class="greenBlueColor">4 pasos para generar tráfico a tus páginas,</span> <br class="desktopTabletElement">
+sin que tu billetera sufra
           </h2>
           {{-- <p class="primaryText grayColorTexts">
             Aumenta tus ventas y la productividad de tu equipo con el CRM más fácil de usar del mercado, <br class="desktopTabletElement">
@@ -144,17 +146,17 @@ para convertir más
           <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
             <div class="containerImage">
-              <img alt="Crea increíbles páginas sin programar" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_CRM_gestion_datos_icono_02a.png') !!}" alt="" loading="lazy">
+              <img alt="Crea increíbles páginas sin programar" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_02a.png') !!}" alt="" loading="lazy">
             </div>
 
             <div class="containerElements">
               <h3 class="secondaryTitle blackColor">
-Organiza tu base de datos
+Elige a tu audiencia ideal
               </h3>
               <p class="primaryText  grayColorTexts">
-Organiza y segmenta a tus leads y clientes con nuestras <br class="desktopTabletElement">
-etiquetas avanzadas para crear campañas <br class="desktopTabletElement">
-personalizadas. Dile adiós a las hojas de Excel!
+En nuestro Ad Manager podrás elegir a tu público ideal, <br class="desktopTabletElement">
+segmentándolo por: edad, región, intereses. Planifica <br class="desktopTabletElement">
+cuál es el alcance que esperas lograr con tu campaña.
               </p>
             </div>
 
@@ -163,17 +165,18 @@ personalizadas. Dile adiós a las hojas de Excel!
           <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
             <div class="containerImage">
-              <img alt="Organiza tus contactos y gestiona procesos de venta" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_CRM_gestion_datos_icono_02b.png') !!}" alt="" loading="lazy">
+              <img alt="Organiza tus contactos y gestiona procesos de venta" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_02b.png') !!}" alt="" loading="lazy">
             </div>
 
             <div class="containerElements">
               <h3 class="secondaryTitle blackColor">
-Haz productivo a tu equipo
+Crea tu anuncio digital
               </h3>
               <p class="primaryText  grayColorTexts">
-Programa el día a día de tu equipo: Tareas, <br class="desktopTabletElement">
-actividades, recordatorios y llamadas para hacer <br class="desktopTabletElement">
-más eficiente el seguimiento de cada oportunidad.
+Combina la imagen más impactante con los textos <br class="desktopTabletElement">
+que atraerán a tu audiencia como un imán. Súbelos <br class="desktopTabletElement">
+en Escala y listo. Solo espera por la aprobación de <br class="desktopTabletElement">
+Facebook para verlos online.
               </p>
             </div>
 
@@ -184,18 +187,20 @@ más eficiente el seguimiento de cada oportunidad.
           <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
             <div class="containerImage">
-              <img alt="Envía emails de marketing profesionales" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_CRM_gestion_datos_icono_02c.png') !!}" alt="" loading="lazy">
+              <img alt="Envía emails de marketing profesionales" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_02c.png') !!}" alt="" loading="lazy">
             </div>
 
             <div class="containerElements">
               <h3 class="secondaryTitle blackColor">
-Cierra más ventas
+Conecta tu anuncio digital <br class="space">
+a tu landing page
               </h3>
               <p class="primaryText  grayColorTexts">
-Logra mejores resultados orientando estrategias <br class="desktopTabletElement">
-para: lanzar nuevos productos, enviar promociones <br class="desktopTabletElement">
-personalizadas, conseguir up sales y recompra <br class="desktopTabletElement">
-de tus clientes.
+Una vez que creaste tu potentes campañas de anuncios <br class="desktopTabletElement">
+digitales  en Escala, simplemente selecciona el landing <br class="desktopTabletElement">
+page al que deseas  dirigir el tráfico ¡y voilà! Estás listo para <br class="desktopTabletElement">
+recibir visitantes.
+
               </p>
             </div>
 
@@ -204,18 +209,17 @@ de tus clientes.
           <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
             <div class="containerImage">
-              <img alt="Multiplica tus visitas web con anuncios digitales" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_CRM_gestion_datos_icono_02d.png') !!}" alt="" loading="lazy">
+              <img alt="Multiplica tus visitas web con anuncios digitales" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_02d.png') !!}" alt="" loading="lazy">
             </div>
 
             <div class="containerElements">
               <h3 class="secondaryTitle blackColor">
-Fideliza a tus clientes
+Pública y optimiza
               </h3>
               <p class="primaryText  grayColorTexts">
-Mantén la llama viva con tus clientes. La primera <br class="desktopTabletElement">
-venta es el primer paso para lograr relaciones a largo <br class="desktopTabletElement">
-plazo. Recuerda hay entre 60-70% de probabilidades <br class="desktopTabletElement">
-de venderle a un cliente fiel que a uno nuevo.
+En un clic publica tu campaña y mide en todo <br class="desktopTabletElement">
+momento con nuestros dashboards amigables para <br class="desktopTabletElement">
+que puedas corregir y optimizar tus ads digitales.
               </p>
             </div>
 
@@ -239,92 +243,64 @@ de venderle a un cliente fiel que a uno nuevo.
 
 </section>
 
-<section class="customSection sectionParent landingCRM_2022_3">
 
-    <div class="section-row">
+<section class="customSection sectionParent landing_ADS_2022_3">
 
-      <section class="innerSectionElement sct1">
+  <div class="section-row">
+      <section class="innerSectionElement1">
 
-        <div class="containElements">
+        <div class="imagesSection">
 
-          <h2 class="primaryTitle whiteColor ">
-            El CRM de Escala es el arma secreta <br class="space">
-            <span style="color: #B9E6E9">de tu fuerza de ventas y marketing</span>
+            <div class="element">
+                <img  src="{!! App::setFilePath('/assets/images/illustrations/others/escala_crear_avisos_digitales_facebook.png') !!}" alt="">
+            </div>
+        </div>
+
+      </section>
+        <section class="innerSectionElement2">
+
+          <h2 class="primaryTitle whiteColor">
+            Quiero crear, administrar y publicar <br class="space">
+            mis ads de Facebook e Instagram <br class="space">
+            desde Escala. Es muy fácil hacerlo.
           </h2>
-          {{-- <p class="primaryText grayColorTexts">
-            Aumenta tus ventas y la productividad de tu equipo con el CRM más fácil de usar del mercado, <br class="desktopTabletElement">
-            el arma secreta de los negocios para escalar con éxito.
-          </p> --}}
 
-        </div>
+          <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+              Quiero comenzar ahora
+            </a>
 
-      </section>
-      <section class="innerSectionElement sct2">
-
-        <div class="groupElements row">
-
-          <div class="col-12 col-md-12 col-lg-6 infoGroup">
-
-            <div class="containerImage">
-              <img alt="Crea increíbles páginas sin programar" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_CRM_gestion_datos_icono_03a.png') !!}" alt="" loading="lazy">
-            </div>
-
-            <div class="containerElements">
-              <h3 class="secondaryTitle blackColor">
-Integrado con WhatsApp Web
-              </h3>
-              <p class="primaryText  grayColorTexts">
-El CRM de Escala te ofrece su integración a tu <br class="desktopTabletElement">
-WhatsApp Web para que puedas convertir a cada <br class="desktopTabletElement">
-contacto nuevo en un lead, guardando su  información <br class="desktopTabletElement">
-de manera automática en tu CRM.
-              </p>
-            </div>
-
-          </div>
-
-          <div class="col-12 col-md-12 col-lg-6 infoGroup">
-
-            <div class="containerImage">
-              <img alt="Organiza tus contactos y gestiona procesos de venta" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_CRM_gestion_datos_icono_03b.png') !!}" alt="" loading="lazy">
-            </div>
-
-            <div class="containerElements">
-              <h3 class="secondaryTitle blackColor">
-Etiquetas avanzadas
-              </h3>
-              <p class="primaryText  grayColorTexts">
-Segmenta a tus leads y clientes colocándoles etiquetas <br class="desktopTabletElement">
-avanzadas. Al conocer sus intereses podrás generar <br class="desktopTabletElement">
-campañas personalizadas para cada grupo y lograr <br class="desktopTabletElement">
-mayor conversión .
-              </p>
-            </div>
-
-          </div>
-
-        </div>
-
-
-      </section>
-
-    <section class="innerSectionElement sct3">
-
-      <div class="containElements">
-
-        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-          Quiero mi CRM de Escala
-        </a>
-
-      </div>
-    </section>
-
-    </div>
+        </section>
+  </div>
 
 </section>
 
+@php
+$parameters = array(
+'type' => 'backgroundColor',
+'classSection' => 'landing_ADS_2022_4',
+'enableTitle' => false,
+'img' => App::setFilePath('/assets/images/illustrations/others/escala_ads_avisos_redes_sociales.png'),
+'title' => '
+<span class="greenBlueColor">El píxel de facebook</span> <br class="space">
+de tu campaña <br class="space">
+ya está integrado
+',
+'text' => '
+En Escala el píxel de Facebook ya viene integrado a tu landing <br class="desktopTabletElement">
+page para que puedas obtener información relevante para <br class="desktopTabletElement">
+optimizar rápidamente tus campañas de anuncios digitales.
+',
+'enableButton' => false,
+// 'urlButton' => '#lead-form',
+// 'textButton' => 'Conectarlas ahora',
+'side' => 'right',
+);
+@endphp
+@contain_text_image_T1( $parameters )
+@endcontain_text_image_T1
 
-<section class="customSection sectionParent landingCRM_2022_4">
+
+<section class="customSection sectionParent landing_ADS_2022_5">
 
     <div class="section-row">
 
@@ -332,7 +308,7 @@ mayor conversión .
 
             <h2 class="primaryTitle blackColor">
               Nuestros clientes te dicen <br class="space">
-<span class="greenBlueColor">qué tan fácil es usar Escala</span>
+              <span class="greenBlueColor">qué tan fácil es usar Escala</span>
             </h2>
 
 
@@ -368,19 +344,18 @@ mayor conversión .
   </section>
 
 
-
     @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landingCRM_2022_5',
+        'classSection' => 'landing_ADS_2022_6',
         'enableTitle' => true,
         'titlePrincipal' => '
-<span class="greenBlueColor">Además de gestionar tu base de datos,</span> <br class="desktopTabletElement">
+<span class="greenBlueColor">Además publicar potentes ads digitales,</span> <br class="desktopTabletElement">
 conoce todo lo que puedes lograr con Escala
         ',
         'subTitlePrincipal' => '
-        Tu CRM ya viene integrado a la plataforma “todo-en-uno” de marketing digital <br class="desktopTabletElement">
-y ventas más completa de todas y fácil de usar
+Tus anuncios digitales ya estarán  integrados a <strong>la plataforma “todo-en-uno”</strong> <br class="desktopTabletElement">
+<strong>de marketing digital y ventas</strong> más completa de todas y fácil de usar
         ',
         'overlay' => false,
         'enableButton' => false,
@@ -392,7 +367,7 @@ y ventas más completa de todas y fácil de usar
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3a.png'),
                 'title' => '<span class="greenBlueColor7">
-                    Date a conocer con landing <br class="space">
+Date a conocer con landing <br class="space">
 pages vendedoras
                 </span>',
                 'text' => '
@@ -407,7 +382,7 @@ programar o diseñar.
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_marketing_2d.png'),
                 'title' => '<span class="greenBlueColor7">
-                    Automatiza para personalizar <br class="space">
+Automatiza para personalizar <br class="space">
 tu comunicación y convertir más
                 </span>',
                 'text' => '
@@ -422,7 +397,7 @@ aumentar tu conversión y retención.
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_marketing_2c.png'),
                 'title' => '<span class="greenBlueColor7">
-                    Envía Emails <br class="space">
+Envía Emails <br class="space">
 profesionales
                 </span>',
                 'text' => '
@@ -437,7 +412,7 @@ marketing gracias al CRM de Escala.
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3b.png'),
                 'title' => '<span class="greenBlueColor7">
-                    Multiplica tus visitas con <br class="space">
+Multiplica tus visitas con <br class="space">
 anuncios digitales de Facebook
                 </span>',
                 'text' => '
@@ -470,51 +445,13 @@ tus esfuerzos de venta y marketing.
 @endcontain_multiple_cards_T2
 
 
-
-<section class="customSection sectionParent landingCRM_2022_6">
-
-    <div class="section-row">
-
-        <section class="innerSectionElement1">
-
-          <div class="imagesSection">
-
-              <div class="element">
-
-                  <img  src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_escala_CRM_gestion_datos_1.png') !!}" alt="">
-
-              </div>
-          </div>
-
-        </section>
-          <section class="innerSectionElement2">
-
-            <h2 class="primaryTitle whiteColor">
-El CRM de Escala es genial, <br class="desktopTabletElement">
-es como tener un súper gerente <br class="desktopTabletElement">
-de ventas ayudándote
-            </h2>
-
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-                Quiero comenzar ahora
-              </a>
-
-
-          </section>
-
-
-    </div>
-
-</section>
-
-
 @php
 $parameters = [
     'type' => 'backgroundColor',
-    'classSection' => 'landingCRM_2022_7',
+    'classSection' => 'landing_ADS_2022_7',
     'enableTitle' => true,
     'titlePrincipal' => '
-    CRM de Escala viene repotenciado <br class="space">
+Tus campañas digitales vienen repotenciadas <br class="desktopTabletElement">
 con un servicio premium
     ',
     'subTitlePrincipal' => '
@@ -568,18 +505,18 @@ también te vamos a acompañar en todo el camino al éxito
 
 @php
 $parameters = [
-    'classSection' => 'landingCRM_2022_8',
+    'classSection' => 'landing_ADS_2022_8',
     'title' => '
-Quiero el CRM de Escala para <br class="space">
-personalizar mis campañas
+Quiero crear potentes campañas de <br class="space">
+Facebook desde Escala
         </span>',
         'textForm' => 'Empieza a probar Escala',
     'text' => null,
-    'image' => App::setFilePath('/assets/images/illustrations/others/contactos_escala_CRM_gestion_datos_1.png'),
+    'image' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_redes_sociales.png'),
     'side' => 'left',
     'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => '¡Comenzar ya!',
+  'textButton' => '¡Probar Escala ahora!',
   'typeButton' => 'primaryButton hoverInEffect',
 ];
 @endphp
