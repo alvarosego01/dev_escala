@@ -137,9 +137,6 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
 @contain_text_image_T1( $parameters )
 @endcontain_text_image_T1
 
-
-
-
     <section class="customSection sectionParent escalaFidelizacionSection3">
 
         <div class="section-row">
