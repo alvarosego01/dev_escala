@@ -46,10 +46,10 @@ upsells. El CRM de Escala es fácil de usar y potente.
         'classSection' => 'landingCRM_2022_1',
         'enableTitle' => true,
         'titlePrincipal' => '
-<span class="greenBlueColor">Conoce los beneficios</span> del CRM de Escala
+        <span class="greenBlueColor">Conoce los beneficios</span> del CRM de Escala
         ',
         'subTitlePrincipal' => '
-        El CRM de Escala es el más fácil de usar del mercado permitiéndote:
+        El CRM de Escala es el más fácil de usar del mercado, permitiéndote:
         ',
         'overlay' => false,
         'enableButton' => true,
@@ -154,7 +154,7 @@ Organiza tu base de datos
               <p class="primaryText  grayColorTexts">
 Organiza y segmenta a tus leads y clientes con nuestras <br class="desktopTabletElement">
 etiquetas avanzadas para crear campañas <br class="desktopTabletElement">
-personalizadas. Dile adiós a las hojas de Excel!
+personalizadas. ¡Dile adiós a las hojas de Excel!
               </p>
             </div>
 
@@ -379,8 +379,7 @@ mayor conversión .
 conoce todo lo que puedes lograr con Escala
         ',
         'subTitlePrincipal' => '
-        Tu CRM ya viene integrado a la plataforma “todo-en-uno” de marketing digital <br class="desktopTabletElement">
-y ventas más completa de todas y fácil de usar
+Tu CRM ya viene integrado a <strong>la plataforma “todo-en-uno” de marketing digital <br class="desktopTabletElement"> y ventas </strong> más completa de todas y fácil de usar
         ',
         'overlay' => false,
         'enableButton' => false,
@@ -420,10 +419,11 @@ aumentar tu conversión y retención.
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/escala_marketing_2c.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3d.png'),
                 'title' => '<span class="greenBlueColor7">
                     Envía Emails <br class="space">
 profesionales
+<br class="space"><br class="space">
                 </span>',
                 'text' => '
 Nutre la relación con tus contactos enviando efectivas <br class="desktopTabletElement">
@@ -435,15 +435,17 @@ marketing gracias al CRM de Escala.
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3b.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/escala_marketing_2c.png'),
                 'title' => '<span class="greenBlueColor7">
-                    Multiplica tus visitas con <br class="space">
-anuncios digitales de Facebook
+Gestiona y organiza la <br class="spac">
+información de tus contactos <br class="spac">
+con el CRM integrado
                 </span>',
                 'text' => '
-Comienza a generar tráfico a tu landing page. <br class="space">
-Crea, publica y gestiona campañas de anuncios <br class="desktopTabletElement">
-digitales directamente desde Escala.
+La información que registran tus visitantes en los formularios <br class="desktopTabletElement">
+inteligentes de tus landing pages se guarda automáticamente en <br class="desktopTabletElement">
+el CRM de Escala. No más integraciones para organizar, gestionar <br class="desktopTabletElement">
+y vender a tus contactos.
                 ',
                 'enableButton' => false,
             ],

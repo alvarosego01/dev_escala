@@ -173,7 +173,7 @@ Email Marketing efectivas
                 </span>',
                 'text' => '
                 En Escala hemos creado plantillas optimizadas <br class="desktopTabletElement">
-con las las mejores prácticas de email marketing <br class="desktopTabletElement">
+con las mejores prácticas de email marketing <br class="desktopTabletElement">
 para no caer en la  bandeja de spam. Elige la más <br class="desktopTabletElement">
 adecuada para tu campaña y dale tu toque personal.
                 ',
@@ -369,9 +369,9 @@ y ventas más completa de todas y fácil de usar
                         </span>
                     ',
                     'text' => '
-                    Crea landing pages para darte a conocer y registrar <br class="space">
-                    la data de tus visitantes, sin escribir una línea de <br class="space">
-                    código, ni diseñar. Solo eliges tu plantilla, la <br class="space">
+                    Crea landing pages para darte a conocer y registrar <br class="desktopTabletElement">
+                    la data de tus visitantes, sin escribir una línea de <br class="desktopTabletElement">
+                    código, ni diseñar. Solo eliges tu plantilla, la <br class="desktopTabletElement">
                     personalizas y en un clic la puedes publicar.
                     ',
                     'enableButton' => false,
