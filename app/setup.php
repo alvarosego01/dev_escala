@@ -106,6 +106,11 @@ add_action('wp_enqueue_scripts', function () {
 
 
         }
+        if (  is_page_template("views/template-home-2021.blade.php" ) ){
+
+            wp_enqueue_style('home2021.css', asset_path('styles/pages/home2021.css'), false, THEME_VERSION);
+
+        }
 
         if ( is_page_template("views/template-zoom-demo-meeting.blade.php") ) {
 
