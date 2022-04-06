@@ -46,13 +46,11 @@ crear, administrar y publicar sin salir de Escala
         'classSection' => 'landing_ADS_2022_1',
         'enableTitle' => true,
         'titlePrincipal' => '
-<span class="greenBlueColor">
-  ¿Qué puedes lograr con los anuncios <br class="desktopTabletElement">
-  digitales de
-</span> Facebook e Instagram?
+¿Qué puedes lograr con los anuncios <br class="desktopTabletElement">
+<span class="greenBlueColor">digitales de Facebook e Instagram?</span>
         ',
         'subTitlePrincipal' => '
-        El CRM de Escala es el más fácil de usar del mercado permitiéndote:
+        Con las campañas de anuncios digitales lograrás:
         ',
         'overlay' => false,
         'enableButton' => true,
@@ -194,13 +192,13 @@ Facebook para verlos online.
               <h3 class="secondaryTitle blackColor">
 Conecta tu anuncio digital <br class="space">
 a tu landing page
+
               </h3>
               <p class="primaryText  grayColorTexts">
 Una vez que creaste tu potentes campañas de anuncios <br class="desktopTabletElement">
 digitales  en Escala, simplemente selecciona el landing <br class="desktopTabletElement">
-page al que deseas  dirigir el tráfico ¡y voilà! Estás listo para <br class="desktopTabletElement">
-recibir visitantes.
-
+page al que deseas  dirigir el tráfico ¡y voilà!, estás listo <br class="desktopTabletElement">
+para recibir visitantes.
               </p>
             </div>
 
@@ -350,7 +348,7 @@ optimizar rápidamente tus campañas de anuncios digitales.
         'classSection' => 'landing_ADS_2022_6',
         'enableTitle' => true,
         'titlePrincipal' => '
-<span class="greenBlueColor">Además publicar potentes ads digitales,</span> <br class="desktopTabletElement">
+<span class="greenBlueColor">Además de publicar potentes ads digitales,</span> <br class="desktopTabletElement">
 conoce todo lo que puedes lograr con Escala
         ',
         'subTitlePrincipal' => '
@@ -395,7 +393,7 @@ aumentar tu conversión y retención.
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/escala_marketing_2c.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3d.png'),
                 'title' => '<span class="greenBlueColor7">
 Envía Emails <br class="space">
 profesionales
@@ -455,8 +453,8 @@ Tus campañas digitales vienen repotenciadas <br class="desktopTabletElement">
 con un servicio premium
     ',
     'subTitlePrincipal' => '
-    No solo te ayudamos a optimizar la gerencia de tu base de datos, <br class="desktopTabletElement">
-también te vamos a acompañar en todo el camino al éxito
+No solo te ayudamos a generar tráfico a tus páginas con ads digitales, también te vamos <br class="desktopTabletElement">
+a acompañar en todo el camino al éxito con nuestras otras funcionalidades.
     ',
     'overlay' => false,
     'enableButton' => true,

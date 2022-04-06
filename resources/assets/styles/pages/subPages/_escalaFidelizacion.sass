@@ -726,9 +726,9 @@
                         line-height: 1.25
                         text-align: left
                         @include responsivo(telefonoTable)
-                            text-align: center
+                            text-align: left
                         @include responsivo(pcMedio)
-                            text-align: center
+                            text-align: left
                     ul
                         @include responsivo(telefonoTable)
                             padding: 0
@@ -736,13 +736,7 @@
                         @include responsivo(pcMedio)
                             padding: 0
                             margin: 0 auto
-                        li
-                            @include responsivo(telefonoTable)
-                                width: fit-content
-                                margin: 0 auto
-                            @include responsivo(pcMedio)
-                                width: fit-content
-                                margin: 0 auto
+
 
                     @include responsivo(general)
                         height: auto

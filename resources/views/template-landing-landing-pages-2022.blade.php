@@ -277,7 +277,7 @@ $parameters = [
     'classSection' => 'landingLandingPages2022_5',
     'enableTitle' => true,
     'titlePrincipal' => '
-    Además de crear landing pages increíbles,<br class="desktopTabletElement"> conoce lo que puedes lograr con Escala <br class="desktopTabletElement"> nuestra plataforma todo en uno',
+    Además de crear landing pages increíbles,<br class="desktopTabletElement"> conoce lo que puedes lograr con Escala, <br class="desktopTabletElement"> nuestra plataforma todo en uno',
     'overlay' => false,
     'overlayImage' => null,
     'enableButton' => false,
