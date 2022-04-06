@@ -252,6 +252,7 @@ class SetComponents extends Controller
 
                 "views/template-home.blade.php",
                 "views/template-escala-fex.blade.php",
+                // "views/template-home-2021.blade.php",
 
             );
         }
@@ -261,10 +262,12 @@ class SetComponents extends Controller
            return array(
 
                 "views/template-home.blade.php",
+                // "views/template-home-2021.blade.php",
 
             );
 
         }
+
         if ($type == 'casoExito') {
 
            return array(
@@ -280,6 +283,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-home-2021.blade.php",
                 "views/template-landing-incredible-trial-2.blade.php",
                 "views/template-landing-increibles-am-otto.blade.php",
                 "views/template-landing-incredible.blade.php",

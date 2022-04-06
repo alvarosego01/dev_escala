@@ -23,6 +23,14 @@ class ACF_CUSTOM extends Controller
             array(
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' => "views/template-home-2021.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
                 'value' => "views/template-landing-incredible.blade.php",
             ),
 
