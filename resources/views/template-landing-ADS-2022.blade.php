@@ -11,7 +11,6 @@
 <div id="landing-ADS-2022-bootstrap">
 
   <div class="sections">
-
     @php
     $parameters = array(
      'backgroundImageType' => false,
@@ -411,7 +410,7 @@ marketing gracias al CRM de Escala.
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3b.png'),
                 'title' => '<span class="greenBlueColor7">
 Multiplica tus visitas con <br class="space">
-anuncios digitales de Facebook
+anuncios digitales de Instagram y Facebook
                 </span>',
                 'text' => '
 Comienza a generar tráfico a tu landing page. <br class="space">

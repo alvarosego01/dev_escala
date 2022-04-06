@@ -362,7 +362,7 @@ manera automática en tu CRM.
                         ',
                         'text' => '
                           Atrae a más clientes potenciales con anuncios <br class="desktopTabletElement">
-                          digitales de Facebook. Crea, administra y publica tus <br class="desktopTabletElement">
+                          digitales de Instagram y Facebook. Crea, administra y publica tus <br class="desktopTabletElement">
                           campañas desde Escala generando más tráfico a tus <br class="desktopTabletElement">
                           páginas vendedoras.
                         ',
