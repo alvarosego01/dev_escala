@@ -38,9 +38,9 @@ class SetComponents extends Controller
 
     private function setPopUpsComponents()
     {
-
         return array(
-            'components.popups.component-popup-general-T1' => 'popup_general_t1'
+            'components.popups.component-popup-general-T1' => 'popup_general_t1',
+            'components.popups.component-popup-general-blue-T2' => 'popup_general_blue_t2'
         );
     }
 
@@ -157,17 +157,28 @@ class SetComponents extends Controller
         }
 
 
+        if ($type == 'subPages') {
+            return array(
+
+                "views/template-escala-subpages-fidelizacion.blade.php",
+                "views/template-escala-subpages-ventas.blade.php",
+                "views/template-escala-subpages-marketing.blade.php"
+
+            );
+        }
         if ($type == 'escalaVentas') {
             return array(
 
-                "views/template-escalaVentas-ventas.blade.php"
+                "views/template-escalaVentas-ventas.blade.php",
+                // "views/template-escala-ventas.blade.php"
 
             );
         }
         if ($type == 'escalaMarketing') {
             return array(
 
-                "views/template-escalaMarketing-marketing.blade.php"
+                "views/template-escalaMarketing-marketing.blade.php",
+                // "views/template-escala-marketing.blade.php"
 
             );
         }
@@ -214,6 +225,8 @@ class SetComponents extends Controller
                 "views/template-landing-afiliados.blade.php",
                 "views/template-landing-partners.blade.php",
                 "views/template-landing-CRM.blade.php",
+                "views/template-landing-CRM-2022.blade.php",
+                "views/template-landing-ADS-2022.blade.php",
                 "views/template-landing-increibles-otto.blade.php",
                 "views/template-landing-navidad.blade.php",
                 "views/template-landing-incredible-trial-2.blade.php",
@@ -239,6 +252,7 @@ class SetComponents extends Controller
 
                 "views/template-home.blade.php",
                 "views/template-escala-fex.blade.php",
+                // "views/template-home-2021.blade.php",
 
             );
         }
@@ -248,10 +262,12 @@ class SetComponents extends Controller
            return array(
 
                 "views/template-home.blade.php",
+                // "views/template-home-2021.blade.php",
 
             );
 
         }
+
         if ($type == 'casoExito') {
 
            return array(
@@ -267,6 +283,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-home-2021.blade.php",
                 "views/template-landing-incredible-trial-2.blade.php",
                 "views/template-landing-increibles-am-otto.blade.php",
                 "views/template-landing-incredible.blade.php",
@@ -282,11 +299,16 @@ class SetComponents extends Controller
                 "views/template-landing-navidad.blade.php",
                 "views/template-landing-masive-mailing.blade.php",
                 "views/template-landing-CRM.blade.php",
+                "views/template-landing-CRM-2022.blade.php",
+                "views/template-landing-ADS-2022.blade.php",
+                "views/template-landing-ADS-2022.blade.php",
                 "views/template-landing-afiliados.blade.php",
                 "views/template-landing-partners.blade.php",
                 "views/template-landing-landingPages2.blade.php",
                 "views/template-escalaVentas-ventas.blade.php",
+                "views/template-escala-subpages-ventas.blade.php",
                 "views/template-escalaMarketing-marketing.blade.php",
+                "views/template-escala-subpages-marketing.blade.php",
                 "views/template-func-page-builder.blade.php",
                 "views/template-func-analiticas.blade.php",
                 "views/template-func-automatization.blade.php",
@@ -314,6 +336,8 @@ class SetComponents extends Controller
                 "views/template-landing-servicios-educacion.blade.php",
                 "views/template-landing-servicios-finanzas.blade.php",
                 "views/template-landing-servicios-seguros.blade.php",
+                "views/template-escala-subpages-fidelizacion.blade.php"
+
 
             );
         }

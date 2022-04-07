@@ -104,7 +104,7 @@
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/others/05_FB.png'),
   'title' => '<span class="greenBlueColor">Conecta fácilmente</span> <br> tus anuncios digitales <br> a tus páginas',
-  'text' => 'Una vez que has creado potentes campañas de anuncios digitales <br> en Escala, simplemente selecciona el landing page al que deseas <br> dirigir el tráfico ¡y voilà!
+  'text' => 'Una vez que has creado potentes campañas de anuncios digitales <br> en Escala, simplemente selecciona la landing page a la cual deseas <br> dirigir el tráfico ¡y voilà!
 <br class="space"><br class="space">
 Estás listo para desbordar tus landing pages con visitantes.',
   'enableButton' => false,
@@ -113,6 +113,9 @@ Estás listo para desbordar tus landing pages con visitantes.',
   'side' => 'right',
  ) ;
 @endphp
+
+
+
 
 @contain_text_image_T1( $parameters )
 

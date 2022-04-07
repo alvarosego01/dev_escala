@@ -15,7 +15,7 @@
 
 @endphp
 
-<div class="customPopUp modal fade {{ $popup_call_class }}" id="{{ $popup_call_class }}" aria-hidden="true"
+<div class="customPopUp general1 modal fade {{ $popup_call_class }}" id="{{ $popup_call_class }}" aria-hidden="true"
     aria-labelledby="{{ $popup_call_class }}" tabindex="-1">
 
     <div class="modal-dialog modal-dialog-centered">

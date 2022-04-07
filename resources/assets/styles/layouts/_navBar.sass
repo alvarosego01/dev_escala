@@ -91,6 +91,9 @@ header.customHeader.customSection
                         svg
                             width: auto
                             height: 37.5px
+                            @include responsivo(telefonoTable)
+                                height: 27.5px
+
                 div.menusSection
                     display: flex
                     flex-direction: row
@@ -269,6 +272,7 @@ body
                         position: relative
                         a
                             color: #9E989A
+
             ul
                 margin-left: 0!important
                 padding: 0
@@ -280,7 +284,7 @@ body
                         font-size: 16px
                         font-family: Nunito
                         line-height: 16px
-                        padding: 10px
+                        padding: 7.5px
                         display: flex
                         align-content: center
                         align-items: center
@@ -311,8 +315,8 @@ body
             .container-fluid.sct1,
             .container-fluid.sct2
                 position: relative
-                padding-bottom: 20px
-                margin-bottom: 20px
+                padding-bottom: 10px
+                margin-bottom: 10px
                 &::after
                     content: ""
                     border-bottom: 1px solid rgba(0,0,0,0.25)

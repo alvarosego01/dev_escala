@@ -66,6 +66,10 @@ add_action('wp_enqueue_scripts', function () {
         if (is_page_template($t)) {
             wp_enqueue_style('func.css', asset_path('styles/pages/func/funcMain.css'), false, THEME_VERSION);
         }
+        $t = SetComponents::setTemplates('subPages');
+        if (is_page_template($t)) {
+            wp_enqueue_style('escalaSubPages.css', asset_path('styles/pages/subPages/subPagesMan.css'), false, THEME_VERSION);
+        }
         $t = SetComponents::setTemplates('escalaVentas');
         if (is_page_template($t)) {
             wp_enqueue_style('escalaVentas.css', asset_path('styles/pages/escalaVentas/escalaVentasMain.css'), false, THEME_VERSION);
@@ -102,6 +106,11 @@ add_action('wp_enqueue_scripts', function () {
 
 
         }
+        if (  is_page_template("views/template-home-2021.blade.php" ) ){
+
+            wp_enqueue_style('home2021.css', asset_path('styles/pages/home2021.css'), false, THEME_VERSION);
+
+        }
 
         if ( is_page_template("views/template-zoom-demo-meeting.blade.php") ) {
 
@@ -136,6 +145,8 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('trustpilot.js', "//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" , ['jquery'], THEME_VERSION, true);
 
     wp_enqueue_script('base64js', "https://cdn.jsdelivr.net/npm/js-base64@2.5.2/base64.min.js" , ['jquery'], THEME_VERSION, true);
+
+    wp_enqueue_script('sweetAlert', "https://cdn.jsdelivr.net/npm/sweetalert2@11" , ['jquery'], THEME_VERSION, true);
 
 
 }, 100);

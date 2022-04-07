@@ -5,6 +5,8 @@ $index_page = ACF_CUSTOM::_getField('index_page');
 $redirect = ACF_CUSTOM::_getField('cf7_redirect');
 $redirect = strval($redirect);
 
+$customClass = ACF_CUSTOM::_getField('custom_parent_class_section');
+
 @endphp
 
 @include('partials.head')
@@ -36,7 +38,7 @@ type="text/css" media="all">
 
 
 
-<div class="wrap container global typeBootstrap" role="document">
+<div class="wrap container global typeBootstrap {{ $customClass }}" role="document">
     <div class="content">
         <main class="main">
 

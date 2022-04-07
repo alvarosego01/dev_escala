@@ -391,7 +391,6 @@
                                             </button>
 
                                         </div>
-
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
@@ -414,7 +413,6 @@
                                             </p>
 
                                         </div>
-
                                         <div class="finalButtons">
 
                                             <a class="primaryButton btn-popup-header hoverInEffect">

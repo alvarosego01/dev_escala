@@ -23,6 +23,14 @@ class ACF_CUSTOM extends Controller
             array(
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' => "views/template-home-2021.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
                 'value' => "views/template-landing-incredible.blade.php",
             ),
 
@@ -87,7 +95,31 @@ class ACF_CUSTOM extends Controller
             array(
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' => "views/template-escala-subpages-marketing.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-escala-subpages-fidelizacion.blade",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
                 'value' => "views/template-escalaVentas-ventas.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-escala-subpages-ventas.blade.php",
             ),
 
         ),
@@ -208,6 +240,22 @@ class ACF_CUSTOM extends Controller
                 'param' => 'page_template',
                 'operator' => '==',
                 'value' => "views/template-landing-CRM.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-CRM-2022.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-landing-ADS-2022.blade.php",
             ),
 
         ),
@@ -420,6 +468,11 @@ class ACF_CUSTOM extends Controller
             acf_add_local_field_group(
 
                 $this->settingsCasosExitoHome()
+
+            );
+            acf_add_local_field_group(
+
+                $this->landingPage_customSettings()
 
             );
             acf_add_local_field_group(
@@ -744,6 +797,12 @@ class ACF_CUSTOM extends Controller
             'title' => 'General settings',
             'fields' => array(
                 array(
+                    'key' => 'custom_parent_class_section',
+                    'label' => 'Custom parent class',
+                    'name' => 'Custom parent class',
+                    'type' => 'text',
+                ),
+                array(
                     'key' => 'form7',
                     'label' => 'Contact form 7 shortcode',
                     'name' => 'Contact form 7 shortcode',
@@ -800,7 +859,6 @@ class ACF_CUSTOM extends Controller
 
     private function settingsSingleBlog()
     {
-
         return array(
             'key' => 'single_blog_config',
             'title' => 'Single blog settings',
@@ -872,6 +930,107 @@ class ACF_CUSTOM extends Controller
 
         );
     }
+
+    private function landingPage_customSettings()
+    {
+        return array(
+
+            'key' => 'landing_page_custom_header',
+            'title' => 'Landing page custom header',
+            'fields' => array(
+
+                array(
+
+                    'key' => 'enable_custom_header',
+                    'label' => '¿Custom landing page header?',
+                    'name' => '¿Custom landing page header?',
+                    'type' => 'true_false',
+
+                ),
+
+                array(
+                    'key' => 'custom_header_title',
+                    'label' => 'Title custom header',
+                    'name' => 'Title custom header',
+                    'type' => 'textarea',
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_header',
+                                'operator' => '==',
+                                'value' => 1
+                            ]
+                        ]
+                    ]
+                ),
+                array(
+                    'key' => 'custom_header_subText',
+                    'label' => 'SubText custom header',
+                    'name' => 'SubText custom header',
+                    'type' => 'textarea',
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_header',
+                                'operator' => '==',
+                                'value' => 1
+                            ]
+                        ]
+                    ]
+                ),
+
+                array(
+                    'key' => 'custom_header_image',
+                    'label' => 'Image custom header',
+                    'name' => 'Image custom header',
+                    'type' => 'image',
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_header',
+                                'operator' => '==',
+                                'value' => 1
+                            ]
+                        ]
+                    ]
+                ),
+
+                array(
+                    'key' => 'custom_header_formTitle',
+                    'label' => 'Title form custom header',
+                    'name' => 'Title form custom header',
+                    'type' => 'text',
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_header',
+                                'operator' => '==',
+                                'value' => 1
+                            ]
+                        ]
+                    ]
+                ),
+
+            ),
+            'location' => array(
+                array(
+                    array(
+                        'param' => 'page_template',
+                        'operator' => '==',
+                        'value' => 'views/template-landing-landing-pages-2022.blade.php',
+                    ),
+                ),
+                array(
+                    array(
+                        'param' => 'page_template',
+                        'operator' => '==',
+                        'value' => 'views/template-landing-email-mk-2022.blade.php',
+                    ),
+                ),
+            ),
+        );
+    }
+
     private function settingsCasosExito()
     {
 
@@ -1084,6 +1243,7 @@ class ACF_CUSTOM extends Controller
                     'type' => 'select',
                     'choices' => array(
                         'popup-bootstrap-general-t1' => 'Popup general 1',
+                        'popup-bootstrap-general-blue-t2' => 'Popup general 2 blue',
                     ),
                 )
             ),

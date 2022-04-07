@@ -79,7 +79,7 @@
                         ],
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/icons-afiliados_2.png'),
-                            'title' => '<span class="greenBlueColor">Influenciadores <br class="spac"> de PYMES</span>',
+                            'title' => '<span class="greenBlueColor">Influenciadores <br class="space"> de PYMES</span>',
                             'text' => 'Si eres un conocedor de las plataformas todo en uno <br class="desktopTabletElement"> y tienes una comunidad de PYMES a <br class="desktopTabletElement"> la cual puedes orientar para acelerar el <br class="desktopTabletElement"> crecimiento de sus negocios, eres perfecto <br class="desktopTabletElement"> para convertirte en un afiliado.',
                             'enableButton' => false,
                         ],
