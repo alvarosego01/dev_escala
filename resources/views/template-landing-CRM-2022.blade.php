@@ -214,7 +214,7 @@ Fideliza a tus clientes
               <p class="primaryText  grayColorTexts">
 Mantén la llama viva con tus clientes. La primera <br class="desktopTabletElement">
 venta es el primer paso para lograr relaciones a largo <br class="desktopTabletElement">
-plazo. Recuerda que hay 60% más de probabilidades <br class="desktopTabletElement">
+plazo. Recuerda que hay un 60% más de probabilidades <br class="desktopTabletElement">
 de venderle a un cliente fiel que a uno nuevo.
               </p>
             </div>
@@ -248,8 +248,8 @@ de venderle a un cliente fiel que a uno nuevo.
         <div class="containElements">
 
           <h2 class="primaryTitle whiteColor ">
-            El CRM de Escala es el arma secreta <br class="space">
-            <span style="color: #B9E6E9">de tu fuerza de ventas y marketing</span>
+            El CRM de Escala es el arma secreta de tu fuerza <br class="space">
+            <span style="color: #B9E6E9">de ventas y marketing</span>
           </h2>
           {{-- <p class="primaryText grayColorTexts">
             Aumenta tus ventas y la productividad de tu equipo con el CRM más fácil de usar del mercado, <br class="desktopTabletElement">
