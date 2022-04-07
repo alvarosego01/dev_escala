@@ -243,7 +243,7 @@ a tus resultados
                   <p class="primaryText  grayColorTexts">
 
                     Ten las métricas que necesitas en tiempo real con <br class="desktopTabletElement">
-dashboards amigables para saber la salud de tu negocio. <br class="desktopTabletElement">
+dashboards amigables para conocer la salud de tu negocio. <br class="desktopTabletElement">
 Cuántas ventas han sido cerradas, cuántas están por <br class="desktopTabletElement">
 concretarse, cuál es el vendedor estrella de tu equipo.
                   </p>

@@ -12,7 +12,7 @@
                         font-style: normal
                         font-weight: bold
                         font-size: 32px
-                        line-height: 30px
+                        line-height: 0.9
                         text-align: center
 
         .customSection.sectionParent.landingCRM_2022_0
@@ -208,7 +208,7 @@
                     font-style: normal
                     font-weight: 600
                     font-size: 20px
-                    line-height: 26px
+                    line-height: 1
                     text-align: center
                     letter-spacing: -1px
                     @include responsivo(telefonoTable)
@@ -221,8 +221,18 @@
                         background-color: transparent
                         @include responsivo(telefonoTable)
                             margin-bottom: 25px
+                            padding-left: 0
+                            padding-right: 0
                         @include responsivo(pcMedio)
                             margin-bottom: 25px
+                            padding-left: 0
+                            padding-right: 0
+                        @include responsivoSpecial(992px, 1125px)
+                            padding-left: 20px
+                            padding-right: 20px
+                        .info
+                            .secondaryTitle
+                                line-height: 0.9
                         .image
                             .containerImage
                                 img
@@ -619,6 +629,12 @@
             .section-row
                 .innerSectionElement.sct2
                     .groupElements
+                        @include responsivo(telefonoTable)
+                            padding-left: 0
+                            padding-right: 0
+                        @include responsivo(pcMedio)
+                            padding-left: 0
+                            padding-right: 0
                         @include responsivo(general)
                             margin-bottom: 20px
                         @include responsivo(resto)
@@ -630,6 +646,7 @@
                         .info
                             h3.secondaryTitle
                                 font-size: 25px
+                                line-height: 0.9
                                 color: #150D27
                                 @include responsivo(telefonoTable)
                                     font-size: 20px
@@ -640,7 +657,7 @@
                                 font-style: normal
                                 font-weight: 600
                                 font-size: 16px
-                                line-height: 23px
+                                line-height: 1
                                 text-align: center
                                 letter-spacing: -0.03em
                                 color: #606267
@@ -760,7 +777,7 @@
                                 @include responsivo(pcMedio)
                                     height: 250px
                                 @include responsivo(general)
-                                    height: 400px
+                                    height: 350px
 
                 .innerSectionElement2
                     display: flex
@@ -779,6 +796,8 @@
                             text-align: center
                         @include responsivo(general)
                             font-size: 32.5px
+                        @include responsivoSpecial(992px, 1125px)
+                            font-size: 30px
 
                     .primaryButton
                         margin: 0 auto
@@ -802,7 +821,7 @@
                     font-style: normal
                     font-weight: normal
                     font-size: 18px
-                    line-height: 25px
+                    line-height: 1
                     text-align: center
                     letter-spacing: -0.02em
                     color: #5A5A5A
@@ -823,12 +842,12 @@
                 letter-spacing: -2px
                 color: white
                 @include responsivo(telefonoTable)
-                    font-size: 20px
-                    margin-bottom: 15px
+                    font-size: 25px
+                    margin-bottom: 20px
                     padding-top: 175px
                 @include responsivo(pcMedio)
-                    font-size: 22.5px
-                    margin-bottom: 15px
+                    font-size: 25px
+                    margin-bottom: 20px
                     padding-top: 300px
                 @include responsivo(general)
                     font-size: 30px

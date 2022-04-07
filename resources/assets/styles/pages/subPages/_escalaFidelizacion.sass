@@ -708,7 +708,7 @@
                         padding-right: 0
                         padding-left: 22.5px
                     .secondaryTitle
-                        margin-bottom: 15px
+                        margin-bottom: 15pxF
                         font-style: normal
                         font-weight: 700
                         font-size: 20px
@@ -719,12 +719,19 @@
                         @include responsivo(pcMedio)
                             font-size: 20px
 
+                    p.primaryText
+                        @include responsivo(telefonoTable)
+                            text-align: center
+                        @include responsivo(pcMedio)
+                            text-align: center
                     p.primaryText,
                     li
                         font-weight: 400
                         font-size: 15px
                         line-height: 1.25
                         text-align: left
+
+                    li
                         @include responsivo(telefonoTable)
                             text-align: left
                         @include responsivo(pcMedio)

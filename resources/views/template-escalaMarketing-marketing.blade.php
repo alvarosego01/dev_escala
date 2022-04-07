@@ -143,7 +143,7 @@
   'subTitlePrincipal' => null,
   'title' => 'Deja de hacer tareas <br class="space"> repetitivas. <span class="greenBlueColor">Automatiza y <br class="space"> aumenta tu productividad</span>',
   'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-131.png'),
-  'text' => 'Programa el envío de emails y rercordatorios para que no <br> pierdas oportundiades de venta.  Automatiza tareas como <br> la asignación de leads a vendedores, el cambio de status en <br> el CRM y la segmentación de tu base de datos para que <br> ahorres tiempo y energía al escalar tu negocio.',
+  'text' => 'Programa el envío de emails y rercordatorios para que no <br> pierdas oportunidades  de venta.  Automatiza tareas como <br> la asignación de leads a vendedores, el cambio de status en <br> el CRM y la segmentación de tu base de datos para que <br> ahorres tiempo y energía al escalar tu negocio.',
   'enableButton' => false,
   'urlButton' => '#lead-form',
   'typeButton' => 'primaryButton',
