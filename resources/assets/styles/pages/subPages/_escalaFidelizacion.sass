@@ -719,17 +719,12 @@
                         @include responsivo(pcMedio)
                             font-size: 20px
 
-                    p.primaryText
-                        @include responsivo(telefonoTable)
-                            text-align: center
-                        @include responsivo(pcMedio)
-                            text-align: center
                     p.primaryText,
                     li
                         font-weight: 400
                         font-size: 15px
                         line-height: 1.25
-                        text-align: left
+
 
                     li
                         @include responsivo(telefonoTable)
@@ -743,6 +738,11 @@
                         @include responsivo(pcMedio)
                             padding: 0
                             margin: 0 auto
+                    p.primaryText
+                        @include responsivo(telefonoTable)
+                            text-align: center
+                        @include responsivo(pcMedio)
+                            text-align: center
 
 
                     @include responsivo(general)
