@@ -111,7 +111,7 @@
                                 [
                                     'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icon_4.png'),
                                     'title' => 'Hazle seguimiento <br class="space"> <span class="greenBlueColor">a tus resultados</span>',
-                                    'text' => 'Ten las métricas que necesitas en tiempo real con dashboards amigables para saber la salud de tu negocio. Cuántas ventas han sido cerradas, cuántas están por concretarse, cuál es el vendedor estrella de tu equipo.',
+                                    'text' => 'Ten las métricas que necesitas en tiempo real con dashboards amigables para conocer la salud de tu negocio. Cuántas ventas han sido cerradas, cuántas están por concretarse, cuál es el vendedor estrella de tu equipo.',
                                     'enableButton' => false,
                                 ],
                                 [

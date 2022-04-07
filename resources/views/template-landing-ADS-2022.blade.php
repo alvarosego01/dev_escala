@@ -49,7 +49,7 @@ crear, administrar y publicar sin salir de Escala
 <span class="greenBlueColor">digitales de Facebook e Instagram?</span>
         ',
         'subTitlePrincipal' => '
-        Con las campañas de anuncios digitales lograrás:
+        Con las campañas de anuncios digitales podrás obtener:
         ',
         'overlay' => false,
         'enableButton' => true,
@@ -195,9 +195,9 @@ a tu landing page
               </h3>
               <p class="primaryText  grayColorTexts">
 Una vez que creaste tu potentes campañas de anuncios <br class="desktopTabletElement">
-digitales  en Escala, simplemente selecciona el landing <br class="desktopTabletElement">
-page al que deseas  dirigir el tráfico ¡y voilà!, estás listo <br class="desktopTabletElement">
-para recibir visitantes.
+digitales en Escala, simplemente selecciona la landing <br class="desktopTabletElement">
+page a la cual deseas dirigir el tráfico ¡y voilà!, <br class="desktopTabletElement">
+estás listo para recibir visitantes.
               </p>
             </div>
 
@@ -211,12 +211,13 @@ para recibir visitantes.
 
             <div class="containerElements">
               <h3 class="secondaryTitle blackColor">
-Pública y optimiza
+Publícala y optimízala
               </h3>
               <p class="primaryText  grayColorTexts">
 En un clic publica tu campaña y mide en todo <br class="desktopTabletElement">
-momento con nuestros dashboards amigables para <br class="desktopTabletElement">
-que puedas corregir y optimizar tus ads digitales.
+momento tus resultados con nuestros dashboards <br class="desktopTabletElement">
+amigables para que puedas corregir y optimizar tus <br class="desktopTabletElement">
+ads digitales.
               </p>
             </div>
 
@@ -363,8 +364,8 @@ Tus anuncios digitales ya estarán  integrados a <strong>la plataforma “todo-e
         'elements' => [
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3a.png'),
-                'title' => '<span class="greenBlueColor7">
-Date a conocer con landing <br class="space">
+                'title' => '<span style="color: #150D27" >
+Date a conocer con landing <br class="desktopTabletElement">
 pages vendedoras
                 </span>',
                 'text' => '
@@ -378,14 +379,14 @@ programar o diseñar.
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_marketing_2d.png'),
-                'title' => '<span class="greenBlueColor7">
-Automatiza para personalizar <br class="space">
+                'title' => '<span style="color: #150D27" >
+Automatiza para personalizar <br class="desktopTabletElement">
 tu comunicación y convertir más
                 </span>',
                 'text' => '
 Automatiza el flujo de tus acciones de marketing y ventas: <br class="desktopTabletElement">
-enviar emails, recordatorios a tu fuerza de ventas <br class="desktopTabletElement">
-(llamadas, enviar mensajes). Programa todo en base a <br class="desktopTabletElement">
+enviar emails, recordatorios a tu equipo de ventas <br class="desktopTabletElement">
+(llamadas, tareas y actividades). Programa todo en base a <br class="desktopTabletElement">
 patrones de comportamiento de tus contactos para <br class="desktopTabletElement">
 aumentar tu conversión y retención.
                 ',
@@ -393,36 +394,38 @@ aumentar tu conversión y retención.
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3d.png'),
-                'title' => '<span class="greenBlueColor7">
-Envía Emails <br class="space">
+                'title' => '<span style="color: #150D27" >
+Envía Emails <br class="desktopTabletElement">
 profesionales
+<br class="desktopElement"><br class="desktopElement">
                 </span>',
                 'text' => '
 Nutre la relación con tus contactos enviando efectivas <br class="desktopTabletElement">
 campañas de emails. Con nuestras plantillas prediseñadas <br class="desktopTabletElement">
 logras enviar masivamente mensajes personalizados con <br class="desktopTabletElement">
-tan solo un clic. Personaliza tus campañas de email <br class="desktopTabletElement">
-marketing gracias al CRM de Escala.
+tan solo un clic.
                 ',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3b.png'),
-                'title' => '<span class="greenBlueColor7">
-Multiplica tus visitas con <br class="space">
-anuncios digitales de Instagram y Facebook
+                'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_04.png'),
+                'title' => '<span style="color: #150D27" >
+Gestiona y organiza la <br class="desktopTabletElement">
+información de tus contactos <br class="desktopTabletElement">
+con el CRM integrado
                 </span>',
                 'text' => '
-Comienza a generar tráfico a tu landing page. <br class="space">
-Crea, publica y gestiona campañas de anuncios <br class="desktopTabletElement">
-digitales directamente desde Escala.
+La información que registran tus visitantes en los formularios <br class="desktopTabletElement">
+inteligentes de tus landing pages se guarda automáticamente en <br class="desktopTabletElement">
+el CRM de Escala. No más integraciones para organizar, gestionar <br class="desktopTabletElement">
+y vender a tus contactos.
                 ',
                 'enableButton' => false,
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_2d.png'),
-                'title' => '<span class="greenBlueColor7">
-Ten la visibilidad de <br class="space">
+                'title' => '<span style="color: #150D27" >
+Ten la visibilidad de <br class="desktopTabletElement">
 la salud de tu negocio
                 </span>',
                 'text' => '
@@ -504,7 +507,7 @@ a acompañar en todo el camino al éxito con nuestras otras funcionalidades.
 $parameters = [
     'classSection' => 'landing_ADS_2022_8',
     'title' => '
-Quiero crear potentes campañas de <br class="space">
+Quiero crear potentes campañas de <br class="desktopTabletElement">
 Facebook desde Escala
         </span>',
         'textForm' => 'Empieza a probar Escala',

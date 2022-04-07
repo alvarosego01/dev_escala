@@ -214,7 +214,7 @@ Fideliza a tus clientes
               <p class="primaryText  grayColorTexts">
 Mantén la llama viva con tus clientes. La primera <br class="desktopTabletElement">
 venta es el primer paso para lograr relaciones a largo <br class="desktopTabletElement">
-plazo. Recuerda hay entre 60-70% de probabilidades <br class="desktopTabletElement">
+plazo. Recuerda que hay 60% más de probabilidades <br class="desktopTabletElement">
 de venderle a un cliente fiel que a uno nuevo.
               </p>
             </div>
@@ -390,7 +390,7 @@ Tu CRM ya viene integrado a <strong>la plataforma “todo-en-uno” de marketing
         'elements' => [
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3a.png'),
-                'title' => '<span class="greenBlueColor7">
+                'title' => '<span style="color: #150D27;">
                     Date a conocer con landing <br class="space">
 pages vendedoras
                 </span>',
@@ -405,53 +405,50 @@ programar o diseñar.
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_marketing_2d.png'),
-                'title' => '<span class="greenBlueColor7">
+                'title' => '<span style="color: #150D27;">
                     Automatiza para personalizar <br class="space">
 tu comunicación y convertir más
                 </span>',
                 'text' => '
 Automatiza el flujo de tus acciones de marketing y ventas: <br class="desktopTabletElement">
-enviar emails, recordatorios a tu fuerza de ventas <br class="desktopTabletElement">
-(llamadas, enviar mensajes). Programa todo en base a <br class="desktopTabletElement">
+enviar emails, recordatorios a tu equipo de ventas <br class="desktopTabletElement">
+(llamadas, tareas y actividades). Programa todo en base a <br class="desktopTabletElement">
 patrones de comportamiento de tus contactos para <br class="desktopTabletElement">
 aumentar tu conversión y retención.
                 ',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3d.png'),
-                'title' => '<span class="greenBlueColor7">
+                'img' => App::setFilePath('/assets/images/illustrations/others/escala_marketing_2c.png'),
+                'title' => '<span style="color: #150D27;">
                     Envía Emails <br class="space">
 profesionales
-<br class="space"><br class="space">
+
                 </span>',
                 'text' => '
 Nutre la relación con tus contactos enviando efectivas <br class="desktopTabletElement">
 campañas de emails. Con nuestras plantillas prediseñadas <br class="desktopTabletElement">
 logras enviar masivamente mensajes personalizados con <br class="desktopTabletElement">
-tan solo un clic. Personaliza tus campañas de email <br class="desktopTabletElement">
-marketing gracias al CRM de Escala.
+tan solo un clic.
                 ',
                 'enableButton' => false,
             ],
             [
-                'img' => App::setFilePath('/assets/images/illustrations/others/escala_marketing_2c.png'),
-                'title' => '<span class="greenBlueColor7">
-Gestiona y organiza la <br class="spac">
-información de tus contactos <br class="spac">
-con el CRM integrado
+                'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3b.png'),
+                'title' => '<span style="color: #150D27;">
+Multiplica tus visitas con <br class="space">
+anuncios digitales de Facebook
                 </span>',
                 'text' => '
-La información que registran tus visitantes en los formularios <br class="desktopTabletElement">
-inteligentes de tus landing pages se guarda automáticamente en <br class="desktopTabletElement">
-el CRM de Escala. No más integraciones para organizar, gestionar <br class="desktopTabletElement">
-y vender a tus contactos.
+Comienza a generar tráfico a tu landing page. <br class="space">
+Crea, publica y gestiona campañas de anuncios <br class="desktopTabletElement">
+digitales directamente desde Escala.
                 ',
                 'enableButton' => false,
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_2d.png'),
-                'title' => '<span class="greenBlueColor7">
+                'title' => '<span style="color: #150D27;">
 Ten la visibilidad de <br class="space">
 la salud de tu negocio
                 </span>',
@@ -492,8 +489,8 @@ tus esfuerzos de venta y marketing.
           <section class="innerSectionElement2">
 
             <h2 class="primaryTitle whiteColor">
-El CRM de Escala es genial, <br class="desktopTabletElement">
-es como tener un súper gerente <br class="desktopTabletElement">
+El CRM de Escala es genial, <br class="space">
+es como tener un súper gerente <br class="space">
 de ventas ayudándote
             </h2>
 
@@ -572,7 +569,7 @@ también te vamos a acompañar en todo el camino al éxito
 $parameters = [
     'classSection' => 'landingCRM_2022_8',
     'title' => '
-Quiero el CRM de Escala para <br class="space">
+Quiero el CRM de Escala para <br class="desktopTabletElement">
 personalizar mis campañas
         </span>',
         'textForm' => 'Empieza a probar Escala',

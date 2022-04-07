@@ -263,7 +263,7 @@ Automatiza y aumenta tu productividad
 
                   <p class="primaryText  grayColorTexts">
 Programa el envío de emails y recordatorios para que no <br class="desktopTabletElement">
-pierdas oportundiades de venta. Automatiza tareas como la <br class="desktopTabletElement">
+pierdas oportunidades  de venta. Automatiza tareas como la <br class="desktopTabletElement">
 asignación de leads a vendedores, el cambio de status en el <br class="desktopTabletElement">
 CRM y la segmentación de tu base de datos para que ahorres <br class="desktopTabletElement">
 tiempo y energía al escalar tu negocio.
