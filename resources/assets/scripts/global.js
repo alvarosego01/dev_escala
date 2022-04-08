@@ -239,6 +239,48 @@ function scrollToHash() {
 
 }
 
+function showTestimonials(type){
+
+    var l = jQuery('#landing-AllInOne-bootstrap .testimonial');
+
+
+    if(l.length > 0){
+
+        if(type == 'show'){
+
+            l.each((idx, element) => {
+
+                jQuery(element).css({
+                    'display': 'block'
+                });
+
+            });
+
+            jQuery('.showMore').remove();
+
+        }
+
+        if(type == 'hide'){
+
+            l.each((idx, element) => {
+
+
+                if(idx > 2){
+
+                    jQuery(element).css({
+                        'display': 'none'
+                    });
+
+                }
+            });
+
+        }
+
+    }
+
+}
+
+
 jQuery(document).ready(function () {
 
 

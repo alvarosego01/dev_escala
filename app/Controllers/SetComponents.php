@@ -231,6 +231,7 @@ class SetComponents extends Controller
                 "views/template-landing-navidad.blade.php",
                 "views/template-landing-incredible-trial-2.blade.php",
                 "views/template-landing-increibles-am-otto.blade.php",
+                "views/template-landing-allinone.blade.php",
 
             );
         }
@@ -286,6 +287,7 @@ class SetComponents extends Controller
                 "views/template-home-2021.blade.php",
                 "views/template-landing-incredible-trial-2.blade.php",
                 "views/template-landing-increibles-am-otto.blade.php",
+                "views/template-landing-allinone.blade.php",
                 "views/template-landing-incredible.blade.php",
                 "views/template-landing-landing-pages-2022.blade.php",
                 "views/template-landing-email-mk-2022.blade.php",
