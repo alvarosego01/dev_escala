@@ -94,11 +94,11 @@
 
                                     </h2>
 
-                                    <p class="text">
+                                    {{-- <p class="text">
                                         <span class="whiteColor">
                                     ¡Completa los siguientes campos y prueba <strong>Escala</strong> ahora!
                                     </span>
-                                    </p>
+                                    </p> --}}
 
 
 
