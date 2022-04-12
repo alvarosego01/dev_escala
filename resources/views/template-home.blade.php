@@ -485,7 +485,11 @@ sin programar
 
                 <div class="videoContent">
 
-                  <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="youtube" data-embed="AqcjdkPMPJA">
+                    <div class="play-button"></div>
+                  </div>
+
+                  {{-- <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
 
                 </div>
 
@@ -504,7 +508,11 @@ sin programar
 
               <div class="videoContent">
 
-                <iframe src="https://www.youtube.com/embed/elw0_VBWSiY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="youtube" data-embed="AqcjdkPMPJA">
+                  <div class="play-button"></div>
+                </div>
+
+                {{-- <iframe src="https://www.youtube.com/embed/elw0_VBWSiY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
 
               </div>
 
@@ -522,7 +530,11 @@ sin programar
 
               <div class="videoContent">
 
-                <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="youtube" data-embed="AqcjdkPMPJA">
+                  <div class="play-button"></div>
+                </div>
+
+                {{-- <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
 
               </div>
 
