@@ -5,6 +5,10 @@
     .carousel
         // ol.carousel-indicators
         width: 100%
+        @include responsivo(telefonoTable)
+            width: 90%
+        @include responsivo(pcMedio)
+            width: 75%
         .carousel-indicators
             position: unset
             right: 0
