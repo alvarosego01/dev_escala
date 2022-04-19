@@ -399,7 +399,9 @@ sin programar
 
                   <div class="videoContent">
 
-                    <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="youtube" data-embed="AtwdW3mpiKU">
+                      <div class="play-button"></div>
+                    </div>
 
                   </div>
 
@@ -424,7 +426,9 @@ sin programar
 
                   <div class="videoContent">
 
-                    <iframe src="https://www.youtube.com/embed/elw0_VBWSiY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="youtube" data-embed="elw0_VBWSiY">
+                      <div class="play-button"></div>
+                    </div>
 
                   </div>
 
@@ -446,7 +450,9 @@ sin programar
 
                   <div class="videoContent">
 
-                    <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="youtube" data-embed="jRaO6-VBFEU">
+                      <div class="play-button"></div>
+                    </div>
 
                   </div>
 
@@ -485,7 +491,11 @@ sin programar
 
                 <div class="videoContent">
 
-                  <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="youtube" data-embed="AtwdW3mpiKU">
+                    <div class="play-button"></div>
+                  </div>
+
+                  {{-- <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
 
                 </div>
 
@@ -504,7 +514,11 @@ sin programar
 
               <div class="videoContent">
 
-                <iframe src="https://www.youtube.com/embed/elw0_VBWSiY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="youtube" data-embed="elw0_VBWSiY">
+                  <div class="play-button"></div>
+                </div>
+
+                {{-- <iframe src="https://www.youtube.com/embed/elw0_VBWSiY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
 
               </div>
 
@@ -522,7 +536,11 @@ sin programar
 
               <div class="videoContent">
 
-                <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="youtube" data-embed="jRaO6-VBFEU">
+                  <div class="play-button"></div>
+                </div>
+
+                {{-- <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
 
               </div>
 

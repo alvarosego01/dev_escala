@@ -200,15 +200,15 @@ function scrollToHash() {
 
         var yOffset = -10;
         var element = jQuery('#lead-form .formatForm')[0];
-        if(element){
+        if (element) {
 
-            if(window.innerWidth <= 999){
+            if (window.innerWidth <= 999) {
 
                 var y = element.getBoundingClientRect().top + window.pageYOffset + yOffset - 100;
 
                 window.scrollTo({ top: y, behavior: 'smooth' });
             }
-            if(window.innerWidth >= 1000){
+            if (window.innerWidth >= 1000) {
 
                 var y = element.getBoundingClientRect().top + window.pageYOffset + yOffset - 150;
 
@@ -239,14 +239,14 @@ function scrollToHash() {
 
 }
 
-function showTestimonials(type){
+function showTestimonials(type) {
 
     var l = jQuery('#landing-AllInOne-bootstrap .testimonial');
 
 
-    if(l.length > 0){
+    if (l.length > 0) {
 
-        if(type == 'show'){
+        if (type == 'show') {
 
             l.each((idx, element) => {
 
@@ -260,12 +260,12 @@ function showTestimonials(type){
 
         }
 
-        if(type == 'hide'){
+        if (type == 'hide') {
 
             l.each((idx, element) => {
 
 
-                if(idx > 2){
+                if (idx > 2) {
 
                     jQuery(element).css({
                         'display': 'none'
@@ -277,6 +277,40 @@ function showTestimonials(type){
         }
 
     }
+
+}
+
+
+
+function instanceYoutube() {
+
+    var youtube = document.querySelectorAll(".youtube");
+
+    console.log('youtube plugin', youtube);
+
+    for (var i = 0; i < youtube.length; i++) {
+
+        var source = "https://img.youtube.com/vi/" + youtube[i].dataset.embed + "/sddefault.jpg";
+
+        var image = new Image();
+        image.src = source;
+        image.addEventListener("load", function () {
+            youtube[i].appendChild(image);
+        }(i));
+
+        youtube[i].addEventListener("click", function () {
+
+            var iframe = document.createElement("iframe");
+
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute("allowfullscreen", "");
+            iframe.setAttribute("allow", "autoplay");
+            iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.embed + "?rel=0&showinfo=0&autoplay=1");
+
+            this.innerHTML = "";
+            this.appendChild(iframe);
+        });
+    };
 
 }
 
@@ -296,5 +330,7 @@ jQuery(document).ready(function () {
 
 
     closingSidebarClick();
+
+    instanceYoutube();
 
 });

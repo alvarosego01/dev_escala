@@ -4,6 +4,11 @@
 #homeBootstrap
     .carousel
         // ol.carousel-indicators
+        width: 100%
+        @include responsivo(telefonoTable)
+            width: 90%
+        @include responsivo(pcMedio)
+            width: 75%
         .carousel-indicators
             position: unset
             right: 0
@@ -986,19 +991,20 @@
                         justify-content: center
                         align-content: center
                         align-items: center
-                        iframe
-                            border-radius: 18px
-                            overflow: hidden
-                            width: 100%
-                            @include responsivo(telefonoTable)
-                                height: 225px
-                            @include responsivo(pcMedio)
-                                height: 375px
-                                width: 425px
-                            @include responsivo(general)
-                                height: 200px
-                            @include responsivo(resto)
-                                height: 225px
+                        width: 100%
+                        // iframe
+                        //     border-radius: 18px
+                        //     overflow: hidden
+                        //     width: 100%
+                        //     @include responsivo(telefonoTable)
+                        //         height: 225px
+                        //     @include responsivo(pcMedio)
+                        //         height: 375px
+                        //         width: 425px
+                        //     @include responsivo(general)
+                        //         height: 200px
+                        //     @include responsivo(resto)
+                        //         height: 225px
                     .info
                         .titleVideo
                             font-family: Nunito
