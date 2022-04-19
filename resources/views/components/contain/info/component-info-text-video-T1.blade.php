@@ -86,11 +86,16 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                 @if ( isset($typeVideo) && $typeVideo == 'imageVideo' )
                                 @if ( isset($videoEmbed) && $videoEmbed != null )
 
-                                <div class="youtube" data-embed="{{ $videoEmbed }}">
-                                    <div class="play-button"></div>
+                                <div class="youtubeImageContainer">
+                                    <div class="youtube" data-embed="{{ $videoEmbed }}">
+                                        <div class="play-button"></div>
+
+                                    </div>
                                 </div>
 
                                 @endif
+                                @else
+                                <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 @endif
 
                             </div>
@@ -147,11 +152,15 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             <div class="video col-md-12 col-lg-6">
                                 @if ( isset($typeVideo) && $typeVideo == 'imageVideo' )
                                 @if ( isset($videoEmbed) && $videoEmbed != null )
+                                <div class="youtubeImageContainer">
                                     <div class="youtube" data-embed="{{ $videoEmbed }}">
                                         <div class="play-button"></div>
                                     </div>
-                                @endif
-                                @endif
+                                </div>
+                                    @endif
+                                    @else
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    @endif
                             </div>
 
 
@@ -187,11 +196,15 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             <div class="video col-md-12 col-lg-6">
                                 @if ( isset($typeVideo) && $typeVideo == 'imageVideo' )
                                 @if ( isset($videoEmbed) && $videoEmbed != null )
+                                <div class="youtubeImageContainer">
                                     <div class="youtube" data-embed="{{ $videoEmbed }}">
                                         <div class="play-button"></div>
                                     </div>
-                                @endif
-                                @endif
+                                </div>
+                                    @endif
+                                    @else
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    @endif
                             </div>
 
                         </div>
@@ -257,11 +270,15 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                         <div class="video col-md-12 col-lg-6">
                             @if ( isset($typeVideo) && $typeVideo == 'imageVideo' )
                             @if ( isset($videoEmbed) && $videoEmbed != null )
+                            <div class="youtubeImageContainer">
                                 <div class="youtube" data-embed="{{ $videoEmbed }}">
                                     <div class="play-button"></div>
                                 </div>
-                            @endif
-                            @endif
+                                </div>
+                                @endif
+                                @else
+                                <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                @endif
                         </div>
 
                         <div class="info col-md-12 col-lg-6">
@@ -317,11 +334,15 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                         <div class="video col-md-12 col-lg-6">
                             @if ( isset($typeVideo) && $typeVideo == 'imageVideo' )
                             @if ( isset($videoEmbed) && $videoEmbed != null )
+                            <div class="youtubeImageContainer">
                                 <div class="youtube" data-embed="{{ $videoEmbed }}">
                                     <div class="play-button"></div>
                                 </div>
-                            @endif
-                            @endif
+                                </div>
+                                @endif
+                                @else
+                                <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                @endif
                         </div>
 
                     </div>
@@ -355,11 +376,15 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                         <div class="video col-md-12 col-lg-6">
                             @if ( isset($typeVideo) && $typeVideo == 'imageVideo' )
                             @if ( isset($videoEmbed) && $videoEmbed != null )
+                            <div class="youtubeImageContainer">
                                 <div class="youtube" data-embed="{{ $videoEmbed }}">
                                     <div class="play-button"></div>
                                 </div>
-                            @endif
-                            @endif
+                                </div>
+                                @endif
+                                @else
+                                <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                @endif
                         </div>
 
                     </div>
