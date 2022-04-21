@@ -429,9 +429,9 @@ sin programar
 
             <div class="element col-md-12 col-lg-4">
 
-              <div class="videoContent">
+              <div class="videoContent hytPlayerWrap">
 
-                <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               </div>
 
@@ -454,9 +454,9 @@ sin programar
 
             <div class="element col-md-12 col-lg-4">
 
-              <div class="videoContent">
+              <div class="videoContent hytPlayerWrap">
 
-                <iframe src="https://www.youtube.com/embed/elw0_VBWSiY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/elw0_VBWSiY?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               </div>
 
@@ -476,9 +476,9 @@ sin programar
 
             <div class="element col-md-12 col-lg-4">
 
-              <div class="videoContent">
+              <div class="videoContent hytPlayerWrap">
 
-                <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               </div>
 
@@ -515,9 +515,9 @@ sin programar
 
         <div class="element col-md-12 col-lg-4">
 
-            <div class="videoContent">
+            <div class="videoContent hytPlayerWrap">
 
-              <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             </div>
 
@@ -534,9 +534,9 @@ sin programar
 
         <div class="element col-md-12 col-lg-4">
 
-          <div class="videoContent">
+          <div class="videoContent hytPlayerWrap">
 
-            <iframe src="https://www.youtube.com/embed/elw0_VBWSiY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/elw0_VBWSiY?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
           </div>
 
@@ -552,9 +552,9 @@ sin programar
         </div>
         <div class="element col-md-12 col-lg-4">
 
-          <div class="videoContent">
+          <div class="videoContent hytPlayerWrap">
 
-            <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
           </div>
 
