@@ -96,6 +96,7 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
 lograr con Escala',
   'typeVideo' =>  'imageVideo',
   'videoEmbed' =>  'AHgA0QTtWBY',
+  'videoCover' => App::setFilePath('/assets/images/illustrations/others/tapa_video_home_03a.jpg'),
   'text' => '
   Escala fue creada por Andrés Moreno y un <br class="desktopTabletElement">
 equipo de expertos y es la herramienta preferida <br class="desktopTabletElement">
@@ -429,7 +430,7 @@ sin programar
 
             <div class="element col-md-12 col-lg-4">
 
-              <div class="videoContent">
+              <div class="videoContent hytPlayerWrap">
 
                     <div class="youtube" data-embed="AtwdW3mpiKU">
                                     <div class="play-button"></div>
@@ -458,7 +459,7 @@ sin programar
 
             <div class="element col-md-12 col-lg-4">
 
-              <div class="videoContent">
+              <div class="videoContent hytPlayerWrap">
 
                     <div class="youtube" data-embed="elw0_VBWSiY">
                                     <div class="play-button"></div>
@@ -484,7 +485,7 @@ sin programar
 
             <div class="element col-md-12 col-lg-4">
 
-              <div class="videoContent">
+              <div class="videoContent hytPlayerWrap">
 
                     <div class="youtube" data-embed="jRaO6-VBFEU">
                                     <div class="play-button"></div>
@@ -527,7 +528,7 @@ sin programar
 
         <div class="element col-md-12 col-lg-4">
 
-            <div class="videoContent">
+            <div class="videoContent hytPlayerWrap">
 
                   <div class="youtube" data-embed="AtwdW3mpiKU">
                                     <div class="play-button"></div>
@@ -550,7 +551,7 @@ sin programar
 
         <div class="element col-md-12 col-lg-4">
 
-          <div class="videoContent">
+          <div class="videoContent hytPlayerWrap">
 
                 <div class="youtube" data-embed="elw0_VBWSiY">
                                     <div class="play-button"></div>
@@ -572,7 +573,7 @@ sin programar
         </div>
         <div class="element col-md-12 col-lg-4">
 
-          <div class="videoContent">
+          <div class="videoContent hytPlayerWrap">
 
                 <div class="youtube" data-embed="jRaO6-VBFEU">
                                     <div class="play-button"></div>
