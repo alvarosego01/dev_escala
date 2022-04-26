@@ -1,2 +1,40 @@
 
 
+
+
+
+$("#myiFrame").on("load", function() {
+    let head = $("#myiFrame").contents().find("head");
+    let css = '<style>.ytp-ce-element.ytp-ce-element-show {display: none!important;}.ytp-pause-overlay-controls-hidden .ytp-pause-overlay {display: none!important;}</style>';
+    $(head).append(css);
+});
+
+
+
+
+    let frameElement = document.getElementById("myiFrame");
+    let css = '<style>.ytp-ce-element.ytp-ce-element-show {display: none!important;}.ytp-pause-overlay-controls-hidden .ytp-pause-overlay {display: none!important;}</style>';
+    let doc = frameElement.contentDocument;
+    doc.body.innerHTML = doc.body.innerHTML + css;
+
+
+    .ytp-chrome-top.ytp-show-cards-title {display: none;}
+
+
+
+    document.getElementsByClassName("ytp-pause-overlay")[0].innerHTML = '';
+    document.getElementsByClassName("ytp-chrome-top.ytp-show-cards-title")[0].innerHTML = '';
+
+
+
+    $('.ytp-pause-overlay').remove();
+    $('.ytp-chrome-top').remove();
+    $('.ytp-ce-element').remove();
+
+
+    .ytp-ce-element.ytp-ce-element-show {
+        display: none!important;
+    }
+    .ytp-pause-overlay-controls-hidden .ytp-pause-overlay {
+        display: none!important;
+    }

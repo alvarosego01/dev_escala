@@ -84,6 +84,9 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
 @endcontain_text_image_T1 --}}
 
 
+
+
+
 @php
  $parameters = array(
   'type' => 'backgroundColor',
@@ -95,7 +98,7 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
   Descubre todo lo que puedes <br class="space">
 lograr con Escala',
   'typeVideo' =>  'imageVideo',
-  'videoEmbed' =>  'AHgA0QTtWBY',
+  'videoEmbed' =>  'https://www.youtube.com/watch?v=AHgA0QTtWBY&t=2s',
   'videoCover' => App::setFilePath('/assets/images/illustrations/others/tapa_video_home_03a.jpg'),
   'text' => '
   Escala fue creada por Andrés Moreno y un <br class="desktopTabletElement">
@@ -432,9 +435,27 @@ sin programar
 
               <div class="videoContent hytPlayerWrap">
 
-                    <div class="youtube" data-embed="AtwdW3mpiKU">
+                    {{-- <div class="youtube" data-embed="AtwdW3mpiKU">
                                     <div class="play-button"></div>
-                                </div>
+                                </div> --}}
+
+                                <video
+                                class="video-js"
+                                controls
+                                preload="none"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{}"
+                              >
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
 
 
 
@@ -461,10 +482,28 @@ sin programar
 
               <div class="videoContent hytPlayerWrap">
 
-                    <div class="youtube" data-embed="elw0_VBWSiY">
+                    {{-- <div class="youtube" data-embed="elw0_VBWSiY">
                                     <div class="play-button"></div>
-                                </div>
+                                </div> --}}
 
+
+                                <video
+                                class="video-js"
+                                controls
+                                preload="none"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{}"
+                              >
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
 
 
               </div>
@@ -487,10 +526,17 @@ sin programar
 
               <div class="videoContent hytPlayerWrap">
 
-                    <div class="youtube" data-embed="jRaO6-VBFEU">
+                    {{-- <div class="youtube" data-embed="jRaO6-VBFEU">
                                     <div class="play-button"></div>
-                                </div>
+                                </div> --}}
 
+                                <video
+                                class="video-js vjs-default-skin"
+                                controls
+                                {{-- poster="{{ $videoCover }}" --}}
+                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=jRaO6-VBFEU"}] }'
+                                >
+                                </video>
 
 
               </div>
@@ -530,10 +576,21 @@ sin programar
 
             <div class="videoContent hytPlayerWrap">
 
-                  <div class="youtube" data-embed="AtwdW3mpiKU">
+                  {{-- <div class="youtube" data-embed="AtwdW3mpiKU">
                                     <div class="play-button"></div>
-                                </div>
+                                </div> --}}
 
+
+                                <video
+                                {{-- id="vid1" --}}
+                                class="video-js vjs-default-skin"
+                                controls
+                                data-setup='{ "techOrder": ["dailymotion"], "sources": [{ "type": "video/dailymotion", "src": "https://www.dailymotion.com/video/k7Hz23o4l6ryoSxUml5"}] }'
+                              >
+                              </video>
+
+
+                              aaaa
 
 
             </div>
@@ -553,10 +610,17 @@ sin programar
 
           <div class="videoContent hytPlayerWrap">
 
-                <div class="youtube" data-embed="elw0_VBWSiY">
+                {{-- <div class="youtube" data-embed="elw0_VBWSiY">
                                     <div class="play-button"></div>
-                                </div>
+                                </div> --}}
 
+                                <video
+                                class="video-js vjs-default-skin"
+                                controls
+                                {{-- poster="{{ $videoCover }}" --}}
+                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=elw0_VBWSiY"}] }'
+                                >
+                                </video>
 
 
           </div>
@@ -575,11 +639,17 @@ sin programar
 
           <div class="videoContent hytPlayerWrap">
 
-                <div class="youtube" data-embed="jRaO6-VBFEU">
+                {{-- <div class="youtube" data-embed="jRaO6-VBFEU">
                                     <div class="play-button"></div>
-                                </div>
+                                </div> --}}
 
-
+                                <video
+                                class="video-js vjs-default-skin"
+                                controls
+                                {{-- poster="{{ $videoCover }}" --}}
+                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=jRaO6-VBFEU"}] }'
+                                >
+                                </video>
 
           </div>
 

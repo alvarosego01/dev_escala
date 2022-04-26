@@ -554,7 +554,10 @@ sin programar
 
           <div class="videoContent hytPlayerWrap">
 
-            <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+              <style>.ytp-ce-element.ytp-ce-element-show {display: none!important;}.ytp-pause-overlay-controls-hidden .ytp-pause-overlay {display: none!important;}</style>
+            </iframe>
 
           </div>
 

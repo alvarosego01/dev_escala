@@ -98,15 +98,21 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
 
 
                                 <div class="youtubeImageContainer ">
-                                    <div class="youtube" data-embed="{{ $videoEmbed }}" videoCover="{{ $videoCover }}">
+                                    {{-- <div class="youtube" data-embed="{{ $videoEmbed }}" videoCover="{{ $videoCover }}">
                                         <div class="play-button"></div>
-
-                                    </div>
-                                </div>
+                                    </div> --}}
+                                    <video
+                                    class="video-js vjs-default-skin"
+                                    controls
+                                    poster="{{ $videoCover }}"
+                                    data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ $videoEmbed }}"}] }'
+                                    >
+                                </video>
+                            </div>
 
                                 @endif
                                 @else
-                                <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}?showinfo=0&amp;rel=0&loop=1&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 @endif
 
                             </div>
@@ -172,13 +178,20 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
 
                             @endphp
                                 <div class="youtubeImageContainer ">
-                                     <div class="youtube" data-embed="{{ $videoEmbed }}" videoCover="{{ $videoCover }}">
+                                    {{-- <div class="youtube" data-embed="{{ $videoEmbed }}" videoCover="{{ $videoCover }}">
                                         <div class="play-button"></div>
-                                    </div>
-                                </div>
+                                    </div> --}}
+                                    <video
+                                    class="video-js vjs-default-skin"
+                                    controls
+                                    poster="{{ $videoCover }}"
+                                    data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ $videoEmbed }}"}] }'
+                                    >
+                                </video>
+                            </div>
                                     @endif
                                     @else
-                                    <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}?showinfo=0&amp;rel=0&loop=1&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     @endif
                             </div>
 
@@ -223,14 +236,21 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                 }
 
                             @endphp
-                                <div class="youtubeImageContainer ">
-                                     <div class="youtube" data-embed="{{ $videoEmbed }}" videoCover="{{ $videoCover }}">
-                                        <div class="play-button"></div>
-                                    </div>
+                                    <div class="youtubeImageContainer ">
+                                        {{-- <div class="youtube" data-embed="{{ $videoEmbed }}" videoCover="{{ $videoCover }}">
+                                            <div class="play-button"></div>
+                                        </div> --}}
+                                        <video
+                                        class="video-js vjs-default-skin"
+                                        controls
+                                        poster="{{ $videoCover }}"
+                                        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ $videoEmbed }}"}] }'
+                                        >
+                                    </video>
                                 </div>
                                     @endif
                                     @else
-                                    <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}?showinfo=0&amp;rel=0&loop=1&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     @endif
                             </div>
 
@@ -305,14 +325,21 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             }
 
                         @endphp
-                            <div class="youtubeImageContainer ">
-                                 <div class="youtube" data-embed="{{ $videoEmbed }}" videoCover="{{ $videoCover }}">
+                              <div class="youtubeImageContainer ">
+                                {{-- <div class="youtube" data-embed="{{ $videoEmbed }}" videoCover="{{ $videoCover }}">
                                     <div class="play-button"></div>
-                                </div>
-                                </div>
+                                </div> --}}
+                                <video
+                                class="video-js vjs-default-skin"
+                                controls
+                                poster="{{ $videoCover }}"
+                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ $videoEmbed }}"}] }'
+                                >
+                            </video>
+                        </div>
                                 @endif
                                 @else
-                                <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}?showinfo=0&amp;rel=0&loop=1&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 @endif
                         </div>
 
@@ -377,14 +404,21 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             }
 
                         @endphp
-                            <div class="youtubeImageContainer ">
-                                 <div class="youtube" data-embed="{{ $videoEmbed }}" videoCover="{{ $videoCover }}">
+                             <div class="youtubeImageContainer ">
+                                {{-- <div class="youtube" data-embed="{{ $videoEmbed }}" videoCover="{{ $videoCover }}">
                                     <div class="play-button"></div>
-                                </div>
-                                </div>
+                                </div> --}}
+                                <video
+                                class="video-js vjs-default-skin"
+                                controls
+                                poster="{{ $videoCover }}"
+                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ $videoEmbed }}"}] }'
+                                >
+                            </video>
+                        </div>
                                 @endif
                                 @else
-                                <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}?showinfo=0&amp;rel=0&loop=1&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 @endif
                         </div>
 
@@ -427,14 +461,21 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             }
 
                         @endphp
-                            <div class="youtubeImageContainer ">
-                                 <div class="youtube" data-embed="{{ $videoEmbed }}" videoCover="{{ $videoCover }}">
+                             <div class="youtubeImageContainer ">
+                                {{-- <div class="youtube" data-embed="{{ $videoEmbed }}" videoCover="{{ $videoCover }}">
                                     <div class="play-button"></div>
-                                </div>
-                                </div>
+                                </div> --}}
+                                <video
+                                class="video-js vjs-default-skin"
+                                controls
+                                poster="{{ $videoCover }}"
+                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ $videoEmbed }}"}] }'
+                                >
+                                </video>
+                        </div>
                                 @endif
                                 @else
-                                <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}?showinfo=0&amp;rel=0&loop=1&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 @endif
                         </div>
 
