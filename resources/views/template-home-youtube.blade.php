@@ -97,8 +97,8 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
   'title' => '
   Descubre todo lo que puedes <br class="space">
 lograr con Escala',
-  'typeVideo' =>  'imageVideo',
-  'videoEmbed' =>  'https://www.youtube.com/watch?v=AHgA0QTtWBY&t=2s',
+'typeVideo' =>  'localvideo',
+  'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
   'videoCover' => App::setFilePath('/assets/images/illustrations/others/tapa_video_home_03a.jpg'),
   'text' => '
   Escala fue creada por Andrés Moreno y un <br class="desktopTabletElement">
@@ -445,6 +445,7 @@ sin programar
                                 preload="none"
                                 {{-- poster="MY_VIDEO_POSTER.jpg" --}}
                                 data-setup="{}"
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap1.jpg') !!}"
                               >
                                 <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/mp4" />
                                 <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/webm" />
@@ -493,9 +494,10 @@ sin programar
                                 preload="none"
                                 {{-- poster="MY_VIDEO_POSTER.jpg" --}}
                                 data-setup="{}"
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap2.jpg') !!}"
                               >
-                                <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/mp4" />
-                                <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/webm" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_2.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_2.mp4') !!}" type="video/webm" />
                                 <p class="vjs-no-js">
                                   To view this video please enable JavaScript, and consider upgrading to a
                                   web browser that
@@ -531,12 +533,23 @@ sin programar
                                 </div> --}}
 
                                 <video
-                                class="video-js vjs-default-skin"
+                                class="video-js"
                                 controls
-                                {{-- poster="{{ $videoCover }}" --}}
-                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=jRaO6-VBFEU"}] }'
-                                >
-                                </video>
+                                preload="none"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{}"
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap3.jpg') !!}"
+                              >
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_3.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_3.mp4') !!}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
 
 
               </div>
@@ -582,15 +595,24 @@ sin programar
 
 
                                 <video
-                                {{-- id="vid1" --}}
-                                class="video-js vjs-default-skin"
+                                class="video-js"
                                 controls
-                                data-setup='{ "techOrder": ["dailymotion"], "sources": [{ "type": "video/dailymotion", "src": "https://www.dailymotion.com/video/k7Hz23o4l6ryoSxUml5"}] }'
+                                preload="none"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{}"
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap1.jpg') !!}"
                               >
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
                               </video>
 
-
-                              aaaa
 
 
             </div>
@@ -615,12 +637,24 @@ sin programar
                                 </div> --}}
 
                                 <video
-                                class="video-js vjs-default-skin"
+                                class="video-js"
                                 controls
-                                {{-- poster="{{ $videoCover }}" --}}
-                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=elw0_VBWSiY"}] }'
-                                >
-                                </video>
+                                preload="none"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{}"
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap2.jpg') !!}"
+                              >
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_2.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_2.mp4') !!}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
+
 
 
           </div>
@@ -643,13 +677,26 @@ sin programar
                                     <div class="play-button"></div>
                                 </div> --}}
 
+
                                 <video
-                                class="video-js vjs-default-skin"
+                                class="video-js"
                                 controls
-                                {{-- poster="{{ $videoCover }}" --}}
-                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=jRaO6-VBFEU"}] }'
-                                >
-                                </video>
+                                preload="none"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{}"
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap3.jpg') !!}"
+                              >
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_3.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_3.mp4') !!}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
+
 
           </div>
 
