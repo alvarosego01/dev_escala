@@ -281,6 +281,23 @@ function showTestimonials(type) {
 }
 
 
+function removeYoutubeElements(type){
+
+    var aux = $(type) || null;
+    if( (aux != null && aux != undefined) ){
+
+        try {
+
+        $(type).remove();
+        } catch (error) {
+            console.error('no se pudo retirar ', type);
+        }
+
+    }
+
+}
+
+
 
 function instanceYoutube() {
 
@@ -325,6 +342,55 @@ function instanceYoutube() {
 
     }
 
+    if( jQuery('.video-js').length > 0 ){
+
+         var aux_video = jQuery('.video-js');
+
+
+
+    for (var i = 0; i < aux_video.length; i++) {
+
+
+     videojs( jQuery(aux_video[i])[0]  /* or selector string */, {
+
+        techOrder: ['html5', 'flash'],
+        controls: false,
+        autoplay: true,
+        preload: 'false'
+
+        // flash: {
+        //     swf: 'video-js.swf'
+        // }
+    }, function(){
+        // Player (this) is initialized and ready.
+        this.on('pause', function(){
+            console.log('ended');
+            console.log('ended', this);
+
+        });
+        this.on('ended', function(){
+            console.log('ended');
+            console.log('ended', this);
+
+            this.posterImage.show(); //shows your poster image//
+            this.currentTime(0);
+            this.controlBar.hide(); //hides your controls//
+            this.bigPlayButton.show(); //shows your play button//
+            // this.hasStarted(false);
+
+        });
+
+        this.on("play", function()  //function to play the video again//
+        {
+            console.log('play', this);
+            this.posterImage.hide(); //hides your poster//
+            this.controlBar.show(); //shows your controls//
+            this.bigPlayButton.hide(); //hides your play button//
+        });
+    });
+
+    }
+    }
 
 }
 
