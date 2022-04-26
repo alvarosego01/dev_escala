@@ -84,7 +84,7 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
 
                             <div class="video col-md-12 col-lg-6">
 
-                                @if ( isset($typeVideo) && $typeVideo == 'imageVideo' )
+                                @if ( isset($typeVideo) && $typeVideo == 'localvideo' )
                                 @if ( isset($videoEmbed) && $videoEmbed != null )
 
                                 @php
@@ -101,17 +101,32 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                     {{-- <div class="youtube" data-embed="{{ $videoEmbed }}" videoCover="{{ $videoCover }}">
                                         <div class="play-button"></div>
                                     </div> --}}
-                                    <video
-                                    class="video-js vjs-default-skin"
-                                    controls
-                                    poster="{{ $videoCover }}"
-                                    data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ $videoEmbed }}"}] }'
-                                    >
-                                </video>
+
+
+                                <video
+                                class="video-js"
+                                controls
+                                preload="none"
+                                poster="{{ $videoCover }}"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{}"
+                              >
+                                <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                <source src="{{ $videoEmbed }}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
+
+
+
                             </div>
 
-                                @endif
-                                @else
+                            @endif
                                 <iframe class="iframe" src="https://www.youtube.com/embed/{{ $videoEmbed }}?showinfo=0&amp;rel=0&loop=1&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 @endif
 
@@ -167,7 +182,7 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             </div>
 
                             <div class="video col-md-12 col-lg-6">
-                                @if ( isset($typeVideo) && $typeVideo == 'imageVideo' )
+                                @if ( isset($typeVideo) && $typeVideo == 'localvideo' )
                                 @if ( isset($videoEmbed) && $videoEmbed != null )
                                 @php
 
@@ -182,12 +197,23 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                         <div class="play-button"></div>
                                     </div> --}}
                                     <video
-                                    class="video-js vjs-default-skin"
+                                    class="video-js"
                                     controls
+                                    preload="none"
                                     poster="{{ $videoCover }}"
-                                    data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ $videoEmbed }}"}] }'
-                                    >
-                                </video>
+                                    {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                    data-setup="{}"
+                                  >
+                                    <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                    <source src="{{ $videoEmbed }}" type="video/webm" />
+                                    <p class="vjs-no-js">
+                                      To view this video please enable JavaScript, and consider upgrading to a
+                                      web browser that
+                                      <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                        >supports HTML5 video</a
+                                      >
+                                    </p>
+                                  </video>
                             </div>
                                     @endif
                                     @else
@@ -226,7 +252,7 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             </div>
 
                             <div class="video col-md-12 col-lg-6">
-                                @if ( isset($typeVideo) && $typeVideo == 'imageVideo' )
+                                @if ( isset($typeVideo) && $typeVideo == 'localvideo' )
                                 @if ( isset($videoEmbed) && $videoEmbed != null )
                                 @php
 
@@ -241,12 +267,23 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                             <div class="play-button"></div>
                                         </div> --}}
                                         <video
-                                        class="video-js vjs-default-skin"
+                                        class="video-js"
                                         controls
+                                        preload="none"
                                         poster="{{ $videoCover }}"
-                                        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ $videoEmbed }}"}] }'
-                                        >
-                                    </video>
+                                        {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                        data-setup="{}"
+                                      >
+                                        <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                        <source src="{{ $videoEmbed }}" type="video/webm" />
+                                        <p class="vjs-no-js">
+                                          To view this video please enable JavaScript, and consider upgrading to a
+                                          web browser that
+                                          <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                            >supports HTML5 video</a
+                                          >
+                                        </p>
+                                      </video>
                                 </div>
                                     @endif
                                     @else
@@ -315,7 +352,7 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                     <div class="groupElements row">
 
                         <div class="video col-md-12 col-lg-6">
-                            @if ( isset($typeVideo) && $typeVideo == 'imageVideo' )
+                            @if ( isset($typeVideo) && $typeVideo == 'localvideo' )
                             @if ( isset($videoEmbed) && $videoEmbed != null )
                             @php
 
@@ -330,12 +367,23 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                     <div class="play-button"></div>
                                 </div> --}}
                                 <video
-                                class="video-js vjs-default-skin"
+                                class="video-js"
                                 controls
+                                preload="none"
                                 poster="{{ $videoCover }}"
-                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ $videoEmbed }}"}] }'
-                                >
-                            </video>
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{}"
+                              >
+                                <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                <source src="{{ $videoEmbed }}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
                         </div>
                                 @endif
                                 @else
@@ -394,7 +442,7 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                         </div>
 
                         <div class="video col-md-12 col-lg-6">
-                            @if ( isset($typeVideo) && $typeVideo == 'imageVideo' )
+                            @if ( isset($typeVideo) && $typeVideo == 'localvideo' )
                             @if ( isset($videoEmbed) && $videoEmbed != null )
                             @php
 
@@ -409,12 +457,23 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                     <div class="play-button"></div>
                                 </div> --}}
                                 <video
-                                class="video-js vjs-default-skin"
+                                class="video-js"
                                 controls
+                                preload="none"
                                 poster="{{ $videoCover }}"
-                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ $videoEmbed }}"}] }'
-                                >
-                            </video>
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{}"
+                              >
+                                <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                <source src="{{ $videoEmbed }}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
                         </div>
                                 @endif
                                 @else
@@ -451,7 +510,7 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                         </div>
 
                         <div class="video col-md-12 col-lg-6">
-                            @if ( isset($typeVideo) && $typeVideo == 'imageVideo' )
+                            @if ( isset($typeVideo) && $typeVideo == 'localvideo' )
                             @if ( isset($videoEmbed) && $videoEmbed != null )
                             @php
 
@@ -466,12 +525,23 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                     <div class="play-button"></div>
                                 </div> --}}
                                 <video
-                                class="video-js vjs-default-skin"
+                                class="video-js"
                                 controls
+                                preload="none"
                                 poster="{{ $videoCover }}"
-                                data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{ $videoEmbed }}"}] }'
-                                >
-                                </video>
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{}"
+                              >
+                                <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                <source src="{{ $videoEmbed }}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
                         </div>
                                 @endif
                                 @else
