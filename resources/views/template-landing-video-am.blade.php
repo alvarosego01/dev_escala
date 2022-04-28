@@ -8,85 +8,9 @@
 <div id="landing-video-amotto-bootstrap">
   <div class="sections">
 
+
+
 {{-- @php
-    $parameters = array(
-     'backgroundImageType' => false,
-     'overlay' => false,
-     'classSection' => 'threeCol landingVideoAmOtto0',
-     'title' => '<span style="color: #B9E6E9">
-        Genera más leads,<br class="desktopElement"> aumenta tus <br class="mobileElement"> ventas y <br class="desktopElement"> fideliza a más clientes
-        </span>',
-     'text' => '<span class="whiteColor">
-      Escala es el software todo en uno de <br class="space">
-      marketing digital y ventas más fácil de usar <br class="space">
-      que impulsará el crecimiento de tu negocio.
-      </span>
-      <p class="byAutor">
-        <span class="up">
-          Andrés Moreno
-          </span>
-        <span class="bottom">
-          Fundador de Escala & <br class="mobileElement"> Open English
-          </span>
-        </p>
-      ',
-     'threeCol' => true,
-     'textForm' => 'Comienza ahora',
-     'backgroundImage' => null,
-  'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/person/am/andreshomev2.png'),
-    ) ;
-    @endphp
-
-    @header_t1( $parameters )
-    @endheader_t1 --}}
-
-    {{-- @php
-    $parameters = [
-        'type' => 'backgroundColor',
-        'classSection' => 'landingVideoAmOtto1',
-        'enableTitle' => false,
-        'titlePrincipal' => null,
-        'subTitlePrincipal' => null,
-        'title' => '
-        Con Escala tus clientes <br class="space">
-        <span class="greenBlueColor">están en el centro de tu estrategia</span>',
-        'img' => App::setFilePath('/assets/images/illustrations/others/Group_home1.png'),
-        'text' => '
-Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="desktopTabletElement">
-y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrando:
-<br class="space">
-<br class="space">
-<ul>
-  <li>
-    Generar demanda de tus productos y servicios a través de herramientas <br class="desktopTabletElement"> de marketing digital cómo: CRM, email marketing, landing pages y automatizaciones.
-  </li>
-  <li>
-    Aumentar las ventas gestionando todo el proceso desde un solo lugar
-  </li>
-  <li>
-    Aumentar la retención de tus clientes creando relaciones a largo plazo
-  </li>
-</ul>
-<br class="space">
-<p class="text">
-  <strong>Impulsa el crecimiento de tu negocio con Escala.</strong>
-</p>
-        ',
-        'enableButton' => false,
-        // 'urlButton' => App::setTypeUrl().'/zoom-meeting',
-        // 'typeButton' => 'primaryButton',
-        // 'textButton' => 'Hablar con un asesor',
-        'side' => 'left',
-    ];
-@endphp
-
-@contain_text_image_T1( $parameters )
-@endcontain_text_image_T1 --}}
-
-
-
-@php
 $parameters = [
     'type' => 'backgroundColor',
     'classSection' => 'landingVideoAmOtto0',
@@ -109,7 +33,7 @@ $parameters = [
 
 @contain_text_image_T1( $parameters )
 
-@endcontain_text_image_T1
+@endcontain_text_image_T1 --}}
 
 
 @php
@@ -149,7 +73,7 @@ herramientas para:
   'urlButton' => '#lead-form',
   'typeButton' => 'primaryButton',
   'textButton' => 'Prueba Escala ya',
-  'side' => 'left',
+  'side' => 'right',
  ) ;
 @endphp
 
@@ -203,7 +127,7 @@ $parameters = [
     'img' => App::setFilePath('/assets/images/illustrations/team/landing_pages_escala_4.png'),
     'title' => '
       No pierdas ninguna venta, <br class="space">
-      <span class="greenBlueColor">comienza ahora</span>
+      <span style="color: #B9E6E9">comienza ahora</span>
     ',
     'text' => '
     Entra en este link y solicita <br class="space">
