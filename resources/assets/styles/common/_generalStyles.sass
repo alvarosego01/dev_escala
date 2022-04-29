@@ -430,12 +430,14 @@ a[disabled]
     &:hover
         color: $colorOrange!important
 
-.primaryButton
+.primaryButton,
+.menuButton.menuPrimaryButton a,
+.menuButton.menuPrimaryButton button
     display: inline-block
     text-decoration: none
     font-size: 18px
     line-height: 1
-    padding: 12.5px 27.5px
+    padding: 12.5px 27.5px!important
     border-radius: 7px
     color: $colorWhite
     background-color: $colorOrange
@@ -444,8 +446,12 @@ a[disabled]
     transform: scale(1)
     font-family: Nunito
     @include responsivo(telefonoTable)
+        font-size: 12px!important
+        padding: 7.5px 10px!important
+    @include responsivo(pcMedio)
         font-size: 14px!important
-        padding: 7.5px 12.5px
+        padding: 7.5px 15px!important
+
 
 
 
@@ -502,10 +508,12 @@ a[disabled]
     @include responsivo(telefonoTable)
         font-size: 16px
 
-.secondaryButton
+.secondaryButton,
+.menuButton.menuSecondaryButton a,
+.menuButton.menuSecondaryButton button
     font-size: 18px
     line-height: 1
-    padding: 12.5px 27.5px
+    padding: 12.5px 27.5px!important
     font-family: Nunito
     font-weight: 400
     border-radius: 5px
@@ -520,20 +528,28 @@ a[disabled]
     align-content: center
     align-items: center
     @include responsivo(telefonoTable)
-        font-size: 16px
+        font-size: 12px!important
+        padding: 7.5px 10px!important
+    @include responsivo(pcMedio)
+        font-size: 14px!important
+        padding: 7.5px 15px!important
 
 .hoverSecondaryButton
     &:hover
         background-color: $colorBlueLight4
         color: $colorGreenBlue2
 
-.hoverInEffect.primaryButton
+.hoverInEffect.primaryButton,
+.menuHoverInEffect.menuButton.menuPrimaryButton a,
+.menuHoverInEffect.menuButton.menuPrimaryButton button
     &:hover
         transform: scale(1.1)
         color: white
         background-color: $orangeLight
 
-.hoverInEffect.secondaryButton
+.hoverInEffect.secondaryButton,
+.menuHoverInEffect.menuButton.menuSecondaryButton a,
+.menuHoverInEffect.menuButton.menuSecondaryButton button
     &:hover
         transform: scale(1.1)
         color: white
@@ -642,210 +658,6 @@ a[disabled]
     @include responsivo(pcMedio)
         max-width: 600px
 
-
-
-.formatForm,
-.elementor-widget-void-section-cf7,
-.form_cf7,
-.wpcf7
-    .fields
-        margin-bottom: 0
-    p
-        position: relative
-    .ajax-loader
-        margin: auto 12.5px!important
-        position: absolute
-        top: 0
-        bottom: 0
-    #loading
-        height: 50px!important
-        width: 50px!important
-    .titleFormat
-        font-family: Nunito
-        font-size: 22px
-        line-height: normal
-        font-weight: 700
-        padding-top: 30px
-        padding-bottom: 20px
-        text-align: center
-        // margin-bottom: 20px
-    p
-        margin-bottom: 20px
-        text-align: center
-        // padding: 10px 0!important
-    input
-        border-width: 0px 0px 1px 0px!important
-        border-radius: 0!important
-        box-sizing: border-box
-        font-family: Nunito
-        font-size: 18px!important
-        font-weight: normal!important
-        margin: 0
-        line-height: normal
-        @include responsivo(telefonoTable)
-            font-size: 14px!important
-        @include responsivo(pcMedio)
-            font-size: 14px!important
-    input.wpcf7-form-control.wpcf7-number,
-    input[type="number"]
-        width: 100%!important
-        min-width: 100%!important
-    .wpcf7-text
-        color: #706B6D!important
-        // color: #333!important
-    select
-        padding: 6px 10px
-        border-width: 0px 0px 1px 0px
-        font-family: Nunito
-        font-size: 18px!important
-        color: #706B6D!important
-        font-weight: normal!important
-        box-sizing: border-box
-        width: 100%!important
-        line-height: normal
-        @include responsivo(telefonoTable)
-            font-size: 14px!important
-        @include responsivo(pcMedio)
-            font-size: 14px!important
-    span.ewp-phonetype-radio
-        margin-top: 20px
-        margin-bottom: 30px
-        font-family: Nunito
-        font-size: 16px
-        // height: 45px
-        height: min-content
-        span.wpcf7-list-item
-            width: 50%
-            background-color: #FAFBFD
-            color: #706B6D
-            border-color: #EDF0F4
-            .input-checked
-                background-color: #b1ecef
-                color: #6C929F
-                font-weight: 700
-    br
-        display: none
-
-    label
-        display: flex
-        justify-content: center
-        align-content: center
-        align-self: center
-    // span.wpcf7-form-control-wrap
-
-    input[type="checkbox"]
-        margin: auto 0!important
-        border: 0.25px solid rgba(0,0,0,0.125)!important
-    .customField
-        display: flex
-        flex-direction: column
-        // padding: 6px 12px
-        margin-bottom: 20px
-
-        span.wpcf7-form-control-wrap
-            width: 100%!important
-            span.wpcf7-form-control.wpcf7-radio
-                // display: none
-                width: 100%
-                display: block
-                // height: 75px
-                display: flex
-                flex-direction: row
-                span.wpcf7-list-item
-                    // display: none
-                    display: flex!important
-                    flex-direction: row!important
-                    // width: 50px
-                    margin: 0 7.5px!important
-                    background-color: transparent
-                    border: none
-                    border-radius: 0
-                    padding-top: 0
-                    padding-bottom: 0
-                    span.wpcf7-list-item-label
-                        float: unset
-                        padding: unset
-                        background-color: transparent
-                        font-size: 14px
-                        padding: 5px 7.5px!important
-                        text-transform: uppercase
-                        color: #706B6D!important
-                    input[type="radio"]
-                        float: unset
-                        margin: auto 0
-                        position: unset!important
-            span.wpcf7-form-control.wpcf7-checkbox
-                width: 100%
-                display: flex
-                flex-direction: row
-                span.wpcf7-list-item
-                    display: flex!important
-                    flex-direction: row!important
-                    margin: 0 7.5px!important
-                    background-color: transparent
-                    border: none
-                    border-radius: 0
-                    padding-top: 0
-                    padding-bottom: 0
-                    span.wpcf7-list-item-label
-                        float: unset
-                        padding: unset
-                        background-color: transparent
-                        font-size: 14px
-                        padding: 5px 7.5px!important
-                        color: #706B6D!important
-                    input[type="checkbox"]
-                        float: unset
-                        margin: auto 0
-                        position: unset!important
-
-        label
-            box-sizing: border-box
-            font-family: Nunito
-            font-size: 18px!important
-            font-weight: normal!important
-            color: #706B6D!important
-            width: 100%
-            display: block
-            margin-bottom: 15px
-            padding: 0 12px
-    .customField
-        @include responsivo(telefonoTable)
-            display: flex
-            flex-direction: column!important
-            justify-content: flex-start
-            align-items: flex-start
-            label
-                // width: 100%
-                text-align: left
-                margin-right: auto
-        @include responsivo(pcMedio)
-            display: flex
-            flex-direction: column!important
-            justify-content: flex-start
-            align-items: flex-start
-            label
-                // width: 100%
-                text-align: left
-                margin-right: auto
-
-
-
-.wpcf7-not-valid-tip
-    font-size: 14px
-
-.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output
-    border: none
-    color: #5B5B5B
-    font-family: Nunito!important
-    text-align: center!important
-    font-size: 14px!important
-
-
-form input[type="text"][disabled], form input[type="password"][disabled], form input[type="email"][disabled], form input[type="url"][disabled], form input[type="date"][disabled], form input[type="month"][disabled], form input[type="time"][disabled], form input[type="datetime"][disabled], form input[type="datetime-local"][disabled], form input[type="week"][disabled], form input[type="number"][disabled], form input[type="search"][disabled], form input[type="tel"][disabled], form input[type="color"][disabled], form select[disabled], form textarea[disabled]
-    background-color: #FAFBFD
-    color: #706B6D
-    // height: 100%
 
 
 
@@ -1194,3 +1006,13 @@ input[type=range]
                 margin-top: 3.5%!important
             @include responsivo(resto)
                 margin-top: 3.5%!important
+
+
+.vjs-poster
+    background-size: cover!important
+
+.video-js
+    .vjs-big-play-button
+        top: 50%!important
+        left: 50%!important
+        transform: translate(-50%,-50%)!important

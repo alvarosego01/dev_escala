@@ -39,6 +39,14 @@ class ACF_CUSTOM extends Controller
             array(
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' =>  "views/template-landing-video-am.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
                 'value' => "views/template-landing-incredible.blade.php",
             ),
 
@@ -664,6 +672,7 @@ class ACF_CUSTOM extends Controller
                     'name' => 'Bootstrap popUp model',
                     'type' => 'select',
                     'choices' => $body,
+                    'multiple' => 1,
                     'conditional_logic' => [
                         array(
                             [
@@ -681,63 +690,63 @@ class ACF_CUSTOM extends Controller
 
                     ]
                 ),
-                array(
-                    'key' => 'bootstrap_popup_appear_config',
-                    'label' => 'Bootstrap PopUp Special Appear Config',
-                    'name' => 'Bootstrap PopUp Special Appear Config',
-                    'type' => 'radio',
-                    'choices' => array(
+                // array(
+                //     'key' => 'bootstrap_popup_appear_config',
+                //     'label' => 'Bootstrap PopUp Special Appear Config',
+                //     'name' => 'Bootstrap PopUp Special Appear Config',
+                //     'type' => 'radio',
+                //     'choices' => array(
 
-                        'special_appear_disabled' => 'No',
-                        'onload_webpage' => 'Onload page',
-                        'on_seconds' => 'On seconds',
+                //         'special_appear_disabled' => 'No',
+                //         'onload_webpage' => 'Onload page',
+                //         'on_seconds' => 'On seconds',
 
-                    ),
-                    'conditional_logic' => [
-                        array(
-                            [
-                                'field' => 'enable_popup',
-                                'operator' => '==',
-                                'value' => 1
-                            ],
-                            [
-                                'field' => 'popup_type',
-                                'operator' => '==',
-                                'value' => 'bootstrap_popup'
-                            ]
+                //     ),
+                //     'conditional_logic' => [
+                //         array(
+                //             [
+                //                 'field' => 'enable_popup',
+                //                 'operator' => '==',
+                //                 'value' => 1
+                //             ],
+                //             [
+                //                 'field' => 'popup_type',
+                //                 'operator' => '==',
+                //                 'value' => 'bootstrap_popup'
+                //             ]
 
-                        ),
+                //         ),
 
-                    ]
-                ),
-                array(
-                    'key' => 'bootstrap_popup_time_appear',
-                    'label' => 'Bootstrap popup seconds to appear',
-                    'name' => 'Bootstrap popup seconds to appear',
-                    'type' => 'number',
+                //     ]
+                // ),
+                // array(
+                //     'key' => 'bootstrap_popup_time_appear',
+                //     'label' => 'Bootstrap popup seconds to appear',
+                //     'name' => 'Bootstrap popup seconds to appear',
+                //     'type' => 'number',
 
-                    'conditional_logic' => [
-                        array(
-                            [
-                                'field' => 'enable_popup',
-                                'operator' => '==',
-                                'value' => 1
-                            ],
-                            [
-                                'field' => 'popup_type',
-                                'operator' => '==',
-                                'value' => 'bootstrap_popup'
-                            ],
-                            [
-                                'field' => 'bootstrap_popup_appear_config',
-                                'operator' => '==',
-                                'value' => 'on_seconds'
-                            ]
+                //     'conditional_logic' => [
+                //         array(
+                //             [
+                //                 'field' => 'enable_popup',
+                //                 'operator' => '==',
+                //                 'value' => 1
+                //             ],
+                //             [
+                //                 'field' => 'popup_type',
+                //                 'operator' => '==',
+                //                 'value' => 'bootstrap_popup'
+                //             ],
+                //             [
+                //                 'field' => 'bootstrap_popup_appear_config',
+                //                 'operator' => '==',
+                //                 'value' => 'on_seconds'
+                //             ]
 
-                        ),
+                //         ),
 
-                    ]
-                )
+                //     ]
+                // )
 
             ),
 
@@ -1252,6 +1261,7 @@ class ACF_CUSTOM extends Controller
                     'choices' => array(
                         'popup-bootstrap-general-t1' => 'Popup general 1',
                         'popup-bootstrap-general-blue-t2' => 'Popup general 2 blue',
+                        'popup-bootstrap-general-2022' => 'Popup general 2022',
                     ),
                 )
             ),

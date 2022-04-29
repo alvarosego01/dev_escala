@@ -40,7 +40,8 @@ class SetComponents extends Controller
     {
         return array(
             'components.popups.component-popup-general-T1' => 'popup_general_t1',
-            'components.popups.component-popup-general-blue-T2' => 'popup_general_blue_t2'
+            'components.popups.component-popup-general-blue-T2' => 'popup_general_blue_t2',
+            'components.popups.component-popup-general-2022' => 'popup_general_2022'
         );
     }
 
@@ -104,6 +105,7 @@ class SetComponents extends Controller
             'components.contain.info.component-info-aio-5steps' => 'contain_aio5',
             'components.contain.info.component-info-4steps-loading' => 'contain_4steps_loading',
             'components.contain.info.component-info-text-image-T1' => 'contain_text_image_T1',
+            'components.contain.info.component-info-text-video-T1' => 'contain_text_video_T1',
             'components.contain.info.component-info-testimonial-image-T1' => 'contain_testimonial_T1',
             'components.contain.info.component-info-FAQ-T1' => 'contain_FAQ_T1',
             'components.contain.info.component-info-accordion-T1' => 'contain_accordion_T1',
@@ -211,6 +213,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-landing-incredible.blade.php",
+                "views/template-landing-video-am.blade.php",
                 "views/template-landing-landing-pages-2022.blade.php",
                 "views/template-landing-email-mk-2022.blade.php",
                 "views/template-landing-pricing-page.blade.php",
@@ -252,6 +255,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-home-youtube.blade.php",
                 "views/template-escala-fex.blade.php",
                 // "views/template-home-2021.blade.php",
 
@@ -284,6 +288,8 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-home-youtube.blade.php",
+                "views/template-landing-video-am.blade.php",
                 "views/template-home-2021.blade.php",
                 "views/template-landing-incredible-trial-2.blade.php",
                 "views/template-landing-increibles-am-otto.blade.php",

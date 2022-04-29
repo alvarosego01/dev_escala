@@ -2,11 +2,18 @@
 
 button.toggleSideMenu
     background-color: transparent
+    @include responsivo(telefonoTable)
+        padding-left: 10px
+    @include responsivo(pcMedio)
+        padding-left: 15px
     i
         color: black
         font-size: 22px
         transition: $trans
         transform: scale(1)
+        @include responsivo(telefonoTable)
+            font-size: 18px
+
     &:hover
         i
             transform: scale(1.1)
@@ -27,6 +34,17 @@ button.toggleSideMenu
             margin-top: 0
 
 
+.buttonsCTA
+    @include responsivo(telefonoTable)
+        display: flex
+        flex-direction: row
+    @include responsivo(pcMedio)
+        display: flex
+        flex-direction: row
+    li:not(.menuButton)
+        display: none!important
+
+
 
 
 
@@ -34,6 +52,8 @@ button.toggleSideMenu
 header.customHeader.customSection
     display: flex
     background-color: transparent
+    .buttonSections
+        height: 100%
     nav.navbar
         box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%)
         transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s
@@ -92,7 +112,7 @@ header.customHeader.customSection
                             width: auto
                             height: 37.5px
                             @include responsivo(telefonoTable)
-                                height: 27.5px
+                                height: 22.5px
 
                 div.menusSection
                     display: flex
@@ -106,7 +126,7 @@ header.customHeader.customSection
                         margin-top: auto!important
                         margin-bottom: auto!important
                         margin-left: 0
-                        li
+                        li:not(.menuButton)
                             position: relative
                             a
                                 color: #9E989A
@@ -132,6 +152,18 @@ header.customHeader.customSection
                     display: flex
                     justify-content: center
                     align-items: center
+                    @include responsivo(telefonoTable)
+                        margin-left: 10px
+
+                    @include responsivo(pcMedio)
+                        margin-left: 10px
+
+                    @include responsivo(general)
+                        margin-left: 14px
+
+                    @include responsivo(smallPcTablet)
+                        margin-left: 10px
+
                     a
                         transition: $trans
                         font-size: 16px
@@ -148,6 +180,18 @@ header.customHeader.customSection
                             margin-right: 7.5px
                         i.fab
                             font-size: 23px
+                        @include responsivo(telefonoTable)
+                            font-size: 12.5px
+
+                        @include responsivo(pcMedio)
+                            font-size: 14px
+
+                        @include responsivo(general)
+                            font-size: 15px
+                        @include responsivo(smallPcTablet)
+                            font-size: 14px
+
+
                     a.dropdown-toggle
                         display: flex
                         &::after
@@ -268,7 +312,7 @@ body
                     margin-top: auto!important
                     margin-bottom: auto!important
                     margin-left: 0
-                    li
+                    li:not(.menuButton)
                         position: relative
                         a
                             color: #9E989A
@@ -279,25 +323,37 @@ body
                 li.menu-item
                     margin-left: 0
                     transition: $trans
+                    padding: 5px 7.5px
                     a
                         transition: $trans
                         font-size: 16px
                         font-family: Nunito
                         line-height: 16px
-                        padding: 7.5px
                         display: flex
                         align-content: center
                         align-items: center
+                        padding: 0
                         i
-                            font-size: 20px
+                            font-size: 18px
                             margin-right: 7.5px
                         i.fab
-                            font-size: 23px
+                            font-size: 18px
+                            margin-right: 7.5px
                         &:hover
                             color: $colorOrange
                             background-color: #F2675A12
                         &:focus
                             outline: none!important
+                        @include responsivo(telefonoTable)
+                            font-size: 12.5px
+
+                        @include responsivo(pcMedio)
+                            font-size: 14px
+
+                        @include responsivo(general)
+                            font-size: 15px
+                        @include responsivo(smallPcTablet)
+                            font-size: 14px
                     a.dropdown-toggle
                         &::after
                             margin-left: 5px

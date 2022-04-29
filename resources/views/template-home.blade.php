@@ -40,7 +40,7 @@
     @header_t1( $parameters )
     @endheader_t1
 
-    @php
+    {{-- @php
     $parameters = [
         'type' => 'backgroundColor',
         'classSection' => 'homeSection1',
@@ -81,7 +81,40 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
 @endphp
 
 @contain_text_image_T1( $parameters )
-@endcontain_text_image_T1
+@endcontain_text_image_T1 --}}
+
+
+@php
+ $parameters = array(
+  'type' => 'backgroundColor',
+  'classSection' => 'homeSection_1_2',
+  'enableTitle' => false,
+  'titlePrincipal' => null,
+  'subTitlePrincipal' => null,
+  'title' => '
+  Descubre todo lo que puedes <br class="space">
+lograr con Escala',
+  'typeVideo' =>  'iframe',
+  'videoEmbed' =>  'AHgA0QTtWBY',
+  'text' => '
+  Escala fue creada por Andrés Moreno y un <br class="desktopTabletElement">
+equipo de expertos y es la herramienta preferida <br class="desktopTabletElement">
+por los emprendedores hispanoamericanos para <br class="desktopTabletElement">
+aumentar las ventas en sus negocios.
+  ',
+  'enableButton' => false,
+  'urlButton' => '#lead-form',
+  'typeButton' => 'primaryButton',
+  'textButton' => 'Prueba Escala ya',
+  'side' => 'left',
+ ) ;
+@endphp
+
+
+@contain_text_video_T1( $parameters )
+
+@endcontain_text_video_T1
+
 
 @php
 $parameters = [
@@ -91,8 +124,7 @@ $parameters = [
     'titlePrincipal' => '
     Acelera el éxito <span class="greenBlueColor">de tu negocio</span>
     ',
-    'subTitlePrincipal' => '<strong>Escala</strong> te permite implementar el Flywheel: <br class="desktopTabletElement">
-la estrategia probada para hacer crecer empresas de manera rentable, sostenible y escalable',
+    'subTitlePrincipal' => 'Haz crecer tu empresa de manera rentable, sostenible y escalable.',
     'overlay' => false,
     'enableButton' => false,
     // 'urlButton' => '#',
@@ -364,140 +396,60 @@ sin programar
 
 
 {{-- seccion de videos --}}
-    <section class="customSection sectionParent homeSection5">
+<section class="customSection sectionParent homeSection5">
 
-      <div class="section-row">
+  <div class="section-row">
 
-        <section class="innerSectionElement1">
+    <section class="innerSectionElement1">
 
-          <h2 class="primaryTitle blackColor">
-            Los expertos en marketing digital <br class="mobileElement"> lo dicen: “Escala es muy fácil de usar”
-          </h2>
-          <p class="primaryText grayColorTexts">
-            Descubre en estos videos cómo los expertos de marketing digital y ventas de toda <br class="desktopTabletElement"> Latinoamérica le sacan provecho a cada funcionalidad de Escala.
-          </p>
+      <h2 class="primaryTitle blackColor">
+        Los expertos en marketing digital <br class="mobileElement"> lo dicen: “Escala es muy fácil de usar”
+      </h2>
+      <p class="primaryText grayColorTexts">
+        Descubre en estos videos cómo los expertos de marketing digital y ventas de toda <br class="desktopTabletElement"> Latinoamérica le sacan provecho a cada funcionalidad de Escala.
+      </p>
 
-        </section>
+    </section>
 
-        <section class="innerSectionElement2">
+    <section class="innerSectionElement2">
 
-          <div id="carousel-videoHome-Mobile" class="carousel slide mobileElement" data-bs-ride="carousel">
+      <div id="carousel-videoHome-Mobile" class="carousel slide mobileElement" data-bs-ride="carousel">
 
-            <div class="carousel-inner"   role="listbox">
-              <div class="carousel-item  active">
+        <div class="carousel-inner"   role="listbox">
+          <div class="carousel-item  active">
 
-                <div class="imagesSection row">
+            <div class="imagesSection row">
 
-                <div class="element col-md-12 col-lg-4">
+            <div class="element col-md-12 col-lg-4">
 
-                  <div class="videoContent">
+              <div class="videoContent hytPlayerWrap">
 
-                    <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                  </div>
-
-                  <div class="info">
-
-                    <h3 class="titleVideo">
-                      Cómo crear una landing page <br class="desktopTabletElement">
-                      profesional sin programar con Escala
-                    </h3>
-
-                </div>
+                <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               </div>
-              </div>
-              </div>
-              <div class="carousel-item">
 
-                <div class="imagesSection row">
+              <div class="info">
 
+                <h3 class="titleVideo">
+                  Cómo crear una landing page <br class="desktopTabletElement">
+                  profesional sin programar con Escala
+                </h3>
 
-                <div class="element col-md-12 col-lg-4">
-
-                  <div class="videoContent">
-
-                    <iframe src="https://www.youtube.com/embed/elw0_VBWSiY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                  </div>
-
-                  <div class="info">
-
-                    <h3 class="titleVideo">
-                      Herramienta de marketing <br class="desktopTabletElement">
-                      todo en uno 2022
-                    </h3>
-
-                </div>
-              </div>
-              </div>
-              </div>
-              <div class="carousel-item">
-                <div class="imagesSection row">
-
-                <div class="element col-md-12 col-lg-4">
-
-                  <div class="videoContent">
-
-                    <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                  </div>
-
-                  <div class="info">
-
-                    <h3 class="titleVideo">
-                      ¿Qué es un CRM y para qué sirve? <br class="desktopTabletElement">
-                      Aumenta tus ventas con Escala
-                    </h3>
-
-                </div>
-              </div>
             </div>
-            </div>
-            </div>
-
-            <ol class="carousel-indicators">
-
-              <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="2" aria-label="Slide 3"></button>
-
-            </ol>
-
 
           </div>
-          <div id="carousel-videoHome" class="carousel slide desktopElement" data-bs-ride="carousel">
+          </div>
+          </div>
+          <div class="carousel-item">
 
-            <div class="carousel-inner"   role="listbox">
+            <div class="imagesSection row">
 
-                <div class="carousel-item active">
-
-          <div class="imagesSection row">
-
-            <div class="element col-md-12 col-lg-4">
-
-                <div class="videoContent">
-
-                  <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                </div>
-
-                <div class="info">
-
-                  <h3 class="titleVideo">
-                    Cómo CREAR una LANDING PAGE <br class="desktopTabletElement">
-                    profesional sin programar con ESCALA
-                  </h3>
-
-              </div>
-
-            </div>
 
             <div class="element col-md-12 col-lg-4">
 
-              <div class="videoContent">
+              <div class="videoContent hytPlayerWrap">
 
-                <iframe src="https://www.youtube.com/embed/elw0_VBWSiY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/elw0_VBWSiY?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               </div>
 
@@ -509,13 +461,17 @@ sin programar
                 </h3>
 
             </div>
+          </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="imagesSection row">
 
-            </div>
             <div class="element col-md-12 col-lg-4">
 
-              <div class="videoContent">
+              <div class="videoContent hytPlayerWrap">
 
-                <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
               </div>
 
@@ -527,40 +483,119 @@ sin programar
                 </h3>
 
             </div>
-
           </div>
+        </div>
+        </div>
+        </div>
 
-                  </div>
+        <ol class="carousel-indicators">
 
-                </div>
+          <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+        </ol>
+
+
+      </div>
+      <div id="carousel-videoHome" class="carousel slide desktopElement" data-bs-ride="carousel">
+
+        <div class="carousel-inner"   role="listbox">
+
+            <div class="carousel-item active">
+
+      <div class="imagesSection row">
+
+        <div class="element col-md-12 col-lg-4">
+
+            <div class="videoContent hytPlayerWrap">
+
+              <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             </div>
 
+            <div class="info">
 
-
-          </div>
-
-
-        </section>
-        <section class="innerSectionElement3">
-
-          <div class="containElements">
-
-            {{-- <h3 class="primaryTitle greenBlueColor">
-              Comienza a generar más leads, clientes y ventas
-            </h3> --}}
-
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-              ¡Comenzar ahora!
-            </a>
-
+              <h3 class="titleVideo">
+                Cómo CREAR una LANDING PAGE <br class="desktopTabletElement">
+                profesional sin programar con ESCALA
+              </h3>
 
           </div>
 
-        </section>
+        </div>
 
-  </div>
+        <div class="element col-md-12 col-lg-4">
+
+          <div class="videoContent hytPlayerWrap">
+
+            <iframe src="https://www.youtube.com/embed/elw0_VBWSiY?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          </div>
+
+          <div class="info">
+
+            <h3 class="titleVideo">
+              Herramienta de marketing <br class="desktopTabletElement">
+              todo en uno 2022
+            </h3>
+
+        </div>
+
+        </div>
+        <div class="element col-md-12 col-lg-4">
+
+          <div class="videoContent hytPlayerWrap">
+
+            <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+              <style>.ytp-ce-element.ytp-ce-element-show {display: none!important;}.ytp-pause-overlay-controls-hidden .ytp-pause-overlay {display: none!important;}</style>
+            </iframe>
+
+          </div>
+
+          <div class="info">
+
+            <h3 class="titleVideo">
+              ¿Qué es un CRM y para qué sirve? <br class="desktopTabletElement">
+              Aumenta tus ventas con Escala
+            </h3>
+
+        </div>
+
+      </div>
+
+              </div>
+
+            </div>
+
+        </div>
+
+
+
+      </div>
+
+
     </section>
+    <section class="innerSectionElement3">
+
+      <div class="containElements">
+
+        {{-- <h3 class="primaryTitle greenBlueColor">
+          Comienza a generar más leads, clientes y ventas
+        </h3> --}}
+
+        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+          ¡Comenzar ahora!
+        </a>
+
+
+      </div>
+
+    </section>
+
+</div>
+</section>
 
 
     @php

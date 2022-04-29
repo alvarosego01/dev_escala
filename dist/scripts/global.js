@@ -200,15 +200,15 @@ function scrollToHash() {
 
         var yOffset = -10;
         var element = jQuery('#lead-form .formatForm')[0];
-        if(element){
+        if (element) {
 
-            if(window.innerWidth <= 999){
+            if (window.innerWidth <= 999) {
 
                 var y = element.getBoundingClientRect().top + window.pageYOffset + yOffset - 100;
 
                 window.scrollTo({ top: y, behavior: 'smooth' });
             }
-            if(window.innerWidth >= 1000){
+            if (window.innerWidth >= 1000) {
 
                 var y = element.getBoundingClientRect().top + window.pageYOffset + yOffset - 150;
 
@@ -239,14 +239,14 @@ function scrollToHash() {
 
 }
 
-function showTestimonials(type){
+function showTestimonials(type) {
 
     var l = jQuery('#landing-AllInOne-bootstrap .testimonial');
 
 
-    if(l.length > 0){
+    if (l.length > 0) {
 
-        if(type == 'show'){
+        if (type == 'show') {
 
             l.each((idx, element) => {
 
@@ -260,12 +260,12 @@ function showTestimonials(type){
 
         }
 
-        if(type == 'hide'){
+        if (type == 'hide') {
 
             l.each((idx, element) => {
 
 
-                if(idx > 2){
+                if (idx > 2) {
 
                     jQuery(element).css({
                         'display': 'none'
@@ -279,6 +279,122 @@ function showTestimonials(type){
     }
 
 }
+
+
+function removeYoutubeElements(type){
+
+    var aux = $(type) || null;
+    if( (aux != null && aux != undefined) ){
+
+        try {
+
+        $(type).remove();
+        } catch (error) {
+            console.error('no se pudo retirar ', type);
+        }
+
+    }
+
+}
+
+
+
+function instanceYoutube() {
+
+    var youtube = document.querySelectorAll(".youtube");
+
+    if(youtube.length > 0){
+
+    for (var i = 0; i < youtube.length; i++) {
+
+        var x = jQuery(youtube[i]).attr('videoCover');
+
+        var source = '';
+
+        if(x != null && x != undefined){
+            source = x;
+        }else{
+            source = "https://img.youtube.com/vi/" + youtube[i].dataset.embed + "/maxresdefault.jpg";
+            // source = "https://i3.ytimg.com/vi/" + youtube[i].dataset.embed + "/sddefault.jpg";
+
+            // https://i3.ytimg.com/vi/AHgA0QTtWBY/maxresdefault.jpg
+        }
+
+        var image = new Image();
+        image.src = source;
+        image.addEventListener("load", function () {
+            youtube[i].appendChild(image);
+        }(i));
+
+        youtube[i].addEventListener("click", function () {
+
+            var iframe = document.createElement("iframe");
+
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute("allowfullscreen", "");
+            iframe.setAttribute("allow", "autoplay");
+            iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.embed + "?showinfo=0&amp;rel=0&amp;enablejsapi=1&autoplay=1");
+
+            this.innerHTML = "";
+            this.appendChild(iframe);
+        });
+    };
+
+    }
+
+    if( jQuery('.video-js').length > 0 ){
+
+         var aux_video = jQuery('.video-js');
+
+
+
+    for (var i = 0; i < aux_video.length; i++) {
+
+
+     videojs( jQuery(aux_video[i])[0]  /* or selector string */, {
+
+        techOrder: ['html5', 'flash'],
+        controls: false,
+        autoplay: true,
+        preload: 'false'
+
+        // flash: {
+        //     swf: 'video-js.swf'
+        // }
+    }, function(){
+        // Player (this) is initialized and ready.
+        this.on('pause', function(){
+            console.log('ended');
+            console.log('ended', this);
+
+        });
+        this.on('ended', function(){
+            console.log('ended');
+            console.log('ended', this);
+
+            this.posterImage.show(); //shows your poster image//
+            this.currentTime(0);
+            this.controlBar.hide(); //hides your controls//
+            this.bigPlayButton.show(); //shows your play button//
+            // this.hasStarted(false);
+
+        });
+
+        this.on("play", function()  //function to play the video again//
+        {
+            console.log('play', this);
+            this.posterImage.hide(); //hides your poster//
+            this.controlBar.show(); //shows your controls//
+            this.bigPlayButton.hide(); //hides your play button//
+        });
+    });
+
+    }
+    }
+
+}
+
+
 
 
 jQuery(document).ready(function () {
@@ -296,5 +412,7 @@ jQuery(document).ready(function () {
 
 
     closingSidebarClick();
+
+    instanceYoutube();
 
 });
