@@ -40,7 +40,8 @@ class SetComponents extends Controller
     {
         return array(
             'components.popups.component-popup-general-T1' => 'popup_general_t1',
-            'components.popups.component-popup-general-blue-T2' => 'popup_general_blue_t2'
+            'components.popups.component-popup-general-blue-T2' => 'popup_general_blue_t2',
+            'components.popups.component-popup-general-2022' => 'popup_general_2022'
         );
     }
 

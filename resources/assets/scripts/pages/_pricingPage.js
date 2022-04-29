@@ -55,18 +55,18 @@ var escalaContactsStarter = [
     5,
     5,
     5,
-    // 3,
+    // 4
 
 ];
 
 
 var escalaContactsPro = [
 
-    45,
-    15,
-    15,
-    15,
-    15,
+    55,
+    20,
+    20,
+    20,
+    20,
     10,
     10,
     10,
@@ -87,7 +87,7 @@ var escalaContactsPro = [
     5,
     5,
     5,
-    // 3,
+    // 4
 ]
 
 
@@ -119,8 +119,8 @@ function getContactScale(n) {
 
         var x = n - 25;
 
-        l.starter = l.starter + (x * 3);
-        l.pro = l.pro + (x * 3);
+        l.starter = l.starter + (x * 4);
+        l.pro = l.pro + (x * 4);
 
     }
 
@@ -144,14 +144,14 @@ function converContacts(contacts) {
 
 function convertUsers(data) {
 
-    // _contactsField: "3000"
+    // _contactsField: "5000"
     // _rangeContacts: "7"
     // _typePlan: "starter"
     // _userAccess: "5"
 
     if (data._typePlan == 'starter') {
 
-        if (data._userAccess[typeProcess] > 1) {
+        if (data._userAccess[typeProcess] >= 2) {
 
             var starter = (data._userAccess[typeProcess] - 1) * 15;
             var pro = (data._userAccess[typeProcess] - 1) * 15;
@@ -173,10 +173,10 @@ function convertUsers(data) {
 
     if (data._typePlan == 'pro') {
 
-        if (data._userAccess[typeProcess] > 2) {
+        if (data._userAccess[typeProcess] >= 2) {
 
             var starter = (data._userAccess[typeProcess] - 1) * 15;
-            var pro = ((data._userAccess[typeProcess] - 1) * 15) - 15;
+            var pro = ((data._userAccess[typeProcess] - 1) * 15);
 
 
             return {
@@ -292,7 +292,7 @@ function calculateRangeValue(data) {
 
 function calculateFinal(data) {
 
-    // _contactsField: "3000"
+    // _contactsField: "5000"
     // _rangeContacts: "7"
     // _typePlan: "starter"
     // _userAccess: "5"
@@ -426,6 +426,8 @@ function actionInfoCards(type){
 
 planCheck = null;
 function discountByPlanCard(type, element){
+
+
 
     if(type != null){
 
@@ -598,8 +600,8 @@ function setConfigModeSelect(element){
 
     if(l == 'pro'){
 
-        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').attr('min', '3');
-        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val('3');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').attr('min', '5');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val('5');
         jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').css({
             'background-image': 'none'
         });
@@ -611,8 +613,8 @@ function setConfigModeSelect(element){
             'display': 'flex'
         });
 
-        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '3000');
-        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val('3000');
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '5000');
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val('5000');
 
     }
 
@@ -627,6 +629,9 @@ jQuery(document).ready(function () {
 
     device = deviceType();
 
+
+
+    jQuery('.modePlanSelect').click();
 
     jQuery("input[type=range]").load(function (e) {
         // Handler for .load() called.
@@ -684,7 +689,7 @@ jQuery(document).ready(function () {
         calculateFinal(calculate);
 
         // var m = jQuery('input.contactsField[typeProcess='+typeProcess+']').val();
-        // if( m < 3000 ){
+        // if( m < 5000 ){
 
         //     jQuery('input#checkPro').attr('disabled', true);
 
@@ -692,7 +697,7 @@ jQuery(document).ready(function () {
 
         // }
 
-        // if( m >= 3000 ){
+        // if( m >= 5000 ){
 
         //     jQuery('input#checkPro').attr('disabled', false);
 
