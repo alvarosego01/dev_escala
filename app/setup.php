@@ -433,6 +433,7 @@ function registerCustomMenu()
 
     register_nav_menus(array(
         'header-top' => __('Principal top menu - Whatsapp, login, language', 'escala'),
+        // 'navBar-CTAS' => __('Principal CTAS', 'escala'),
     ));
 }
 

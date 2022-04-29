@@ -39,16 +39,26 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
             <div class=" menusSection" id="main-menu">
 
                 {!! wp_nav_menu([
-                    // 'menu' => 'Landing_1b_pruebalo_ahora',
-                    // 'theme_location' => 'landing-global1',
                     'menu' => $navBar_ID,
                     'container' => false,
                     'menu_class' => '',
                     'fallback_cb' => '__return_false',
                     'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
-    'depth' => 3,
-    'walker' => new \App\wp_bootstrap5_navwalker(),
-    ]) !!}
+                    'depth' => 3,
+                    'walker' => new \App\wp_bootstrap5_navwalker(),
+                ]) !!}
+
+                {{-- {!! wp_nav_menu([
+                    'menu' => 'navBar-CTAS',
+                    'container' => false,
+                    'menu_class' => '',
+                    'fallback_cb' => '__return_false',
+                    'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
+                    'depth' => 3,
+                    'walker' => new \App\wp_bootstrap5_navwalker(),
+                ]) !!} --}}
+
+
 
 
 

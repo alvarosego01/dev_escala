@@ -430,12 +430,14 @@ a[disabled]
     &:hover
         color: $colorOrange!important
 
-.primaryButton
+.primaryButton,
+.menuButton.menuPrimaryButton a,
+.menuButton.menuPrimaryButton button
     display: inline-block
     text-decoration: none
     font-size: 18px
     line-height: 1
-    padding: 12.5px 27.5px
+    padding: 12.5px 27.5px!important
     border-radius: 7px
     color: $colorWhite
     background-color: $colorOrange
@@ -444,8 +446,12 @@ a[disabled]
     transform: scale(1)
     font-family: Nunito
     @include responsivo(telefonoTable)
+        font-size: 12px!important
+        padding: 7.5px 10px!important
+    @include responsivo(pcMedio)
         font-size: 14px!important
-        padding: 7.5px 12.5px
+        padding: 7.5px 15px!important
+
 
 
 
@@ -502,10 +508,12 @@ a[disabled]
     @include responsivo(telefonoTable)
         font-size: 16px
 
-.secondaryButton
+.secondaryButton,
+.menuButton.menuSecondaryButton a,
+.menuButton.menuSecondaryButton button
     font-size: 18px
     line-height: 1
-    padding: 12.5px 27.5px
+    padding: 12.5px 27.5px!important
     font-family: Nunito
     font-weight: 400
     border-radius: 5px
@@ -520,20 +528,28 @@ a[disabled]
     align-content: center
     align-items: center
     @include responsivo(telefonoTable)
-        font-size: 16px
+        font-size: 12px!important
+        padding: 7.5px 10px!important
+    @include responsivo(pcMedio)
+        font-size: 14px!important
+        padding: 7.5px 15px!important
 
 .hoverSecondaryButton
     &:hover
         background-color: $colorBlueLight4
         color: $colorGreenBlue2
 
-.hoverInEffect.primaryButton
+.hoverInEffect.primaryButton,
+.menuHoverInEffect.menuButton.menuPrimaryButton a,
+.menuHoverInEffect.menuButton.menuPrimaryButton button
     &:hover
         transform: scale(1.1)
         color: white
         background-color: $orangeLight
 
-.hoverInEffect.secondaryButton
+.hoverInEffect.secondaryButton,
+.menuHoverInEffect.menuButton.menuSecondaryButton a,
+.menuHoverInEffect.menuButton.menuSecondaryButton button
     &:hover
         transform: scale(1.1)
         color: white

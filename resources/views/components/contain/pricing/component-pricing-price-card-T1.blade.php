@@ -322,6 +322,7 @@ $items = [
                                                     </small>
                                                     <label class="switchCustom">
                                                         <input
+                                                        checked
                                                             class="modePlanSelect"
                                                             onclick="discountByPlanCard('{{ $item['name'] }}', this)"
                                                             value="1" type="checkbox" />
@@ -552,6 +553,7 @@ $items = [
                                                     </small>
                                                     <label class="switchCustom">
                                                         <input
+                                                        checked
                                                             class="modePlanSelect"
                                                             onchange="discountByPlanCard('{{ $item['name'] }}', this)"
                                                             value="1" type="checkbox" />
