@@ -1,7 +1,4 @@
 
-
-
-
 #landing-pricing-page-bootstrap
     .primaryTitle
         font-family: Nunito
@@ -50,6 +47,10 @@
                         display: flex
                         padding-bottom: 0
                         padding-top: 25px
+                        @include responsivo(telefonoTable)
+                            flex-direction: column-reverse
+                        @include responsivo(pcMedio)
+                            flex-direction: column-reverse
                         @include responsivo(general)
                             flex-direction: row-reverse
                         @include responsivo(resto)
@@ -61,6 +62,10 @@
                                     padding: 0
                                     img
                                         height: 425px
+                                        @include responsivo(telefonoTable)
+                                            height: 300px
+                                        @include responsivo(pcMedio)
+                                            height: 350px
 
                         .info
                             .containElements
@@ -74,12 +79,16 @@
                                     letter-spacing: -1px
                                     color: #FFFFFF
                                     span
-                                        font-size: 37.5px
+                                        font-size: 37.5px!important
                                         color: #B9E6E9
-
-
-
-
+                                    @include responsivo(telefonoTable)
+                                        font-size: 35px!important
+                                        span
+                                            font-size: 25px!important
+                                    @include responsivo(pcMedio)
+                                        font-size: 35px!important
+                                        span
+                                            font-size: 25px!important
 
         .customSection.sectionParent.landingPricingPage2
             padding-top: 50px
@@ -93,7 +102,7 @@
                 @include responsivo(telefonoTable)
                     width: 95%
                 @include responsivo(pcMedio)
-                    width: 70%
+                    width: 90%
                 @include responsivo(general)
                     width: 100%!important
                     max-width: 1140px!important
@@ -106,6 +115,11 @@
                         .primaryTitle
                             text-align: center
                             margin-bottom: 25px
+                        p.primaryText
+                            @include responsivo(telefonoTable)
+                                font-size: 16px
+                            @include responsivo(pcMedio)
+                                font-size: 16px
 
                 .innerSectionElement.sct2
                     .selectorPlansTab
@@ -280,7 +294,6 @@
                                             @include responsivo(pcMedio)
                                                 margin-bottom: 0
 
-
                                 .middle
                                     margin-bottom: 15px
                                     position: relative
@@ -369,7 +382,6 @@
                                             &:nth-of-type(2)
                                                 right: -65px
                                                 top: unset
-
 
                                     .primaryText
                                         text-align: center
@@ -538,8 +550,6 @@
                                             @include responsivo(resto)
                                                 display: none
 
-
-
                             .elementPrice.cardPlan3
                                 .featuresPrice.short
                                     ul
@@ -548,7 +558,152 @@
                                             span
                                                 line-height: 20px!important
 
+        .customSection.sectionParent.landingPricingPage3_2022
+            padding: 0
+            padding-bottom: 25px
+            background-color: #F3FAFD
+            @include responsivo(telefonoTable)
+                padding-top: 50px
+            @include responsivo(pcMedio)
+                padding-top: 50px
+            .section-row
+                @include responsivo(telefonoTable)
+                    width: 95%
+                @include responsivo(pcMedio)
+                    width: 90%
+                @include responsivo(general)
+                    width: 100%!important
+                    max-width: 1000px!important
+                @include responsivo(resto)
+                    width: 100%!important
+                    max-width: 1100px!important
+                .innerSectionElement.sct1
+                    .containElements
+                        .primaryTitle
+                            font-family: Nunito
+                            font-style: normal
+                            font-weight: 700
+                            font-size: 35px
+                            line-height: 36px
+                            text-align: center
+                            letter-spacing: -2px
+                            color: #00506B
 
+                        .primaryText
+                            font-family: Nunito
+                            font-style: normal
+                            font-weight: 400
+                            font-size: 18px
+                            line-height: 21px
+                            text-align: center
+                            letter-spacing: -1px
+                            color: #4D4D4D
+                            margin-bottom: 25px
+
+                .innerSectionElement.sct2
+                    .containElements
+                        table
+                            border-radius: 15px
+                            overflow: hidden
+                            th
+                                padding: 10px 0
+                                padding-left: 35px
+                                text-transform: initial
+                                border: 0
+                            thead
+                                .b1
+                                    background-color: #B9E6E9
+                                    font-family: Nunito
+                                    font-style: normal
+                                    font-weight: 700
+                                    font-size: 20px
+                                    line-height: 0.9
+                                    letter-spacing: -1px
+                                    color: #00506B
+                                .b2
+                                    background-color: #36768A
+                                    font-family: Nunito
+                                    font-style: normal
+                                    font-weight: 700
+                                    font-size: 20px
+                                    line-height: 0.9
+                                    letter-spacing: -1px
+                                    color: white
+                                .n1
+                                    background-color: #FF4E33
+                                    font-family: Nunito
+                                    font-style: normal
+                                    font-weight: 700
+                                    font-size: 20px
+                                    line-height: 0.9
+                                    letter-spacing: -1px
+                                    color: white
+                            tbody
+                                tr
+
+                                    td
+                                        padding: 10px 0
+                                        padding-left: 35px
+                                        font-family: Nunito
+                                        font-style: normal
+                                        font-weight: 600
+                                        font-size: 14px
+                                        line-height: 1
+                                        letter-spacing: -1px
+                                        color: #5C5C5C
+                                        border: none
+                                        border-left: 1px solid #D9EAF1
+                                        border-right: 1px solid #D9EAF1
+                                        .checkIcon
+                                            height: 20px
+                                            margin: 0 auto
+                                            display: block
+                                    td.beginRow
+                                        font-family: Nunito
+                                        font-style: normal
+                                        font-weight: 700
+                                        font-size: 16px
+                                        line-height: 1
+                                        letter-spacing: -1px
+                                        color: #00506B
+                                        background-color: white
+                                        vertical-align: middle
+                                        @include responsivo(general)
+                                            border-left: none
+                                        @include responsivo(resto)
+                                            border-left: none
+
+
+                                    td.ch
+                                        padding-left: 0
+                                        padding-right: 0
+
+                                td.beginRow.t1
+                                    background-color: #F7F9FA
+                                td.beginRow.t2
+                                    background-color: white
+
+                                tr.borderB
+                                    border-bottom: 1px solid #D9EAF1
+                                tr
+                                    background-color: white
+                                    &:nth-of-type(odd)
+                                        background-color: #F7F9FA
+
+                                    td
+                                        &:first-child
+                                            @include responsivo(general)
+                                                border-left: none
+                                            @include responsivo(resto)
+                                                border-left: none
+
+                                    td
+                                        &:last-child
+                                            @include responsivo(general)
+                                                border-right: none
+
+                                            @include responsivo(resto)
+                                                border-right: none
 
         .customSection.sectionParent.landingPricingPage3
             padding: 0
@@ -585,14 +740,11 @@
                                     margin-bottom: 35px
                                     padding-bottom: 50px
 
-
                             .element
                                 position: relative
                                 padding: 0
                                 display: flex
                                 flex-direction: column
-
-
 
                                 .had
                                     padding: 25px 15%
@@ -660,8 +812,6 @@
                                             margin-left: auto
                                             display: flex
 
-
-
                                 .primaryText
                                     font-family: Nunito
                                     font-style: normal
@@ -700,7 +850,6 @@
                                         @include responsivo(pcMedio)
                                             margin-bottom: 25px
 
-
                                         li
                                             @include responsivo(telefonoTable)
                                                 width: fit-content
@@ -713,7 +862,6 @@
                                                 display: block
                                                 margin-left: auto
                                                 margin-right: auto
-
 
                                             span
                                                 font-family: Nunito
@@ -751,7 +899,6 @@
                             //             padding-left: 10%
                             //             @include responsivo(telefonoTable)
                             //                 padding: 25px 10%
-
 
         .customSection.sectionParent.landingPricingPage4
             // padding: 0!important
@@ -803,7 +950,6 @@
                             color: #5C5C5C
                             display: block
                             margin-bottom: 25px
-
 
                         img
                             height: 200px
@@ -947,8 +1093,6 @@
                     @include responsivo(resto)
                         background-color: white
 
-
-
                     // padding-left: 10px
                     .containElements
                         .plansSection
@@ -1002,7 +1146,6 @@
                                             display: flex
                                             justify-content: center
 
-
                                         img
                                             height: 175px
                                             margin: auto 0
@@ -1015,7 +1158,6 @@
 
                                             @include responsivo(general)
                                                 height: 150px
-
 
                                 .info
                                     // width: 60%
@@ -1070,7 +1212,6 @@
                                             @include responsivo(pcMedio)
                                                 width: max(10vw, 200px)
 
-
                                     .buttonPriceSelector
                                         margin-bottom: 10px
                                         width: 100%
@@ -1100,10 +1241,6 @@
                                             text-align: center
                                             span
                                                 text-decoration-line: line-through
-
-
-
-
 
                 .innerSectionElement.sct3
                     margin-bottom: 0
@@ -1148,7 +1285,6 @@
                                         display: flex
                                         justify-content: center
 
-
                                         @include responsivo(telefonoTable)
                                             justify-content: flex-start
                                         @include responsivo(pcMedio)
@@ -1165,7 +1301,6 @@
                                 @include responsivo(telefonoTable)
                                     font-size: 14px
                                     line-height: 14px
-
 
                             .box
                                 background-color: transparent
@@ -1236,7 +1371,6 @@
                                             font-weight: bold
                                             text-align: right
 
-
                                 .rw.rw2
                                     width: 75%
                                     @include responsivo(telefonoTable)
@@ -1275,7 +1409,6 @@
                                 @include responsivo(telefonoTable)
                                     font-size: 14px
                                     line-height: 16px
-
 
                             .box
                                 background-color: transparent
@@ -1403,7 +1536,6 @@
                                     &:nth-of-type(2)
                                         background-color: #EAF7FD
 
-
         .customSection.sectionParent.landingPricingPage5
             background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
             padding: 50px 0
@@ -1461,7 +1593,6 @@
                                             display: flex
                                         margin-right: 15px
 
-
                                 .subText
                                     display: flex
                                     flex-direction: row
@@ -1493,17 +1624,12 @@
                                             letter-spacing: -1px
                                             color: white
 
-
-
                                 .subText.mobileSmallElement
                                     span
                                         padding: 0
                                         margin: 0
                                         &::before
                                             display: none!important
-
-
-
 
                             .image
                                 .containerImage
@@ -1559,7 +1685,6 @@
                             @include responsivo(resto)
                                 font-size: 35px
                                 margin-top: 35px
-
 
                         a
                             margin: 0 auto

@@ -105,121 +105,183 @@ $parameters = array(
         <table class="table">
           <thead>
             <tr>
-              <th scope="col">Servicio</th>
-              <th scope="col">Descripción</th>
-              <th scope="col">Plan Starter</th>
-              <th scope="col">Plan Pro</th>
+              <th class="b1" scope="col">Servicio</th>
+              <th class="b1" scope="col">Descripción</th>
+              <th class="b2" scope="col">Plan Starter</th>
+              <th class="n1" scope="col">Plan Pro</th>
             </tr>
           </thead>
           <tbody>
 
-            <tr>
-              <th rowspan="7">Implementación</th>
+            <tr >
+              <td class="beginRow t1" rowspan="7">
+                <span>
+                  Implementación
+                </span>
+              </td>
               <td>Gerente de cuenta asignado</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
             <tr>
-              {{-- <th>Canales de comunicación</th> --}}
+              {{-- <th>Canales de comunicación</td> --}}
               <td>Sesiones de acompañamiento privadas</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
             <tr>
-              {{-- <th>Complementarios</th> --}}
+              {{-- <th>Complementarios</td> --}}
               <td>Plan personalizado de implementación</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
             <tr>
-              {{-- <th>Complementarios</th> --}}
+              {{-- <th>Complementarios</td> --}}
               <td>Análisis de resultados y plan de optimización</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
             <tr>
-              {{-- <th>Complementarios</th> --}}
+              {{-- <th>Complementarios</td> --}}
               <td>Contactos de seguimiento</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
             <tr>
-              {{-- <th>Complementarios</th> --}}
+              {{-- <th>Complementarios</td> --}}
               <td>Configuración de dominios, emails y cuentas publicitarias</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
-            <tr>
-              {{-- <th>Complementarios</th> --}}
+            <tr class="borderB">
+              {{-- <th>Complementarios</td> --}}
               <td>Transferencia de data con descuento</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
-            <tr>
-              <th rowspan="5">Escala Academy</th>
+            <tr >
+              <td class="beginRow t2" rowspan="5">
+                <span>
+                  Escala Academy
+                  </span>
+              </td>
               <td>Capacitaciones grupales de plataforma con casos prácticos</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td class="ch">
+                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
             <tr>
-              {{-- <th>Complementarios</th> --}}
+              {{-- <th>Complementarios</td> --}}
               <td>Capacitaciones grupales estratégicas</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
             <tr>
-              {{-- <th>Complementarios</th> --}}
+              {{-- <th>Complementarios</td> --}}
               <td>Librería de tutoriales para cada herramienta</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td class="ch">
+                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
             <tr>
-              {{-- <th>Complementarios</th> --}}
+              {{-- <th>Complementarios</td> --}}
               <td>Guías estratégicas de marketing, ventas y fidelización</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td class="ch">
+                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
-            <tr>
-              {{-- <th>Complementarios</th> --}}
+            <tr class="borderB">
+              {{-- <th>Complementarios</td> --}}
               <td>Webinars grabados con casos prácticos y estrategia</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td class="ch">
+                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
-            <tr>
-              {{-- <th>Complementarios</th> --}}
+            <tr >
+              <td class="beginRow t1" rowspan="3">
+                <span>
+                  Canales de comunicación
+                  </span>
+                  </td>
               <td>Chat en plataforma</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td class="ch">
+                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
             <tr>
-              <th>Complementarios</th>
+              {{-- <th>Complementarios</td> --}}
               <td>Email de servicio</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
-            <tr>
-              <th>Complementarios</th>
+            <tr class="borderB">
+              {{-- <th>Complementarios</td> --}}
               <td>Whatsapp de servicio</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
-            <tr>
-              <th>Complementarios</th>
+            <tr >
+              <td class="beginRow t2" rowspan="3">
+                <span>
+                  Complementarios
+                </span>
+              </td>
               <td>Soporte técnico con atención prioritaria</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
             <tr>
-              <th>Complementarios</th>
+              {{-- <th>Complementarios</td> --}}
               <td>Sesiones estratégicas extra con descuento</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
             <tr>
-              <th>Complementarios</th>
+              {{-- <th>Complementarios</td> --}}
               <td>Diseño plantillas personalizadas con descuento</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
             </tr>
 
           </tbody>
