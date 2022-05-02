@@ -7,7 +7,7 @@
     padding: 0!important
     z-index: 9999999999
     // display: none!important
-    .modal-dialog.modal-dialog-centered
+    .modal-dialog.modal-dialog-centered.type2022
 
         @include responsivo(telefonoTable)
             width: 90%
@@ -29,11 +29,39 @@
             margin-bottom: 0
 
         @include responsivo(general)
-            width: 75%
-            max-width: 675px!important
+            width: 90%
+            max-width: 850px!important
 
         @include responsivo(resto)
-            width: 65%
+            width: 90%
+            max-width: 900px!important
+
+    .modal-dialog.modal-dialog-centered
+        @include responsivo(telefonoTable)
+            width: 90%
+            max-width: unset!important
+            margin: auto
+            padding: 0
+            padding-top: 50px
+            padding-bottom: 25px
+            margin-top: 0
+            margin-bottom: 0
+
+        @include responsivo(pcMedio)
+            width: 90%
+            max-width: unset!important
+            padding: 0
+            padding-top: 50px
+            padding-bottom: 25px
+            margin-top: 0
+            margin-bottom: 0
+
+        @include responsivo(general)
+            width: 75%
+            max-width: 750px!important
+
+        @include responsivo(resto)
+            width: 70%
             max-width: 800px!important
 
         .modal-content
@@ -155,7 +183,7 @@
                         height: 32.5px
                         margin: 0 auto
                 .primaryTitle
-                    margin-bottom: 25px
+                    margin-bottom: 20px
                     *
                         color: #322C2E
                         font-family: "Nunito Sans", Sans-serif
@@ -188,9 +216,9 @@
                         display: flex
                         justify-content: center
                         @include responsivo(telefonoTable)
-                            margin-bottom: 25px
+                            margin-bottom: 20px
                         @include responsivo(pcMedio)
-                            margin-bottom: 25px
+                            margin-bottom: 20px
                         @include responsivo(general)
                             height: 100%
 
@@ -235,5 +263,142 @@
                                 color: #565153
                                 @include responsivo(general)
                                     font-size: 18px
+
+
+.customPopUp.modal.general_2022
+    .modal-content
+        border-radius: 25px!important
+        overflow: hidden
+    .modal-body
+        padding: 0!important
+    .innerSectionElement
+        .groupElements
+            position: relative
+            .closePopUp
+                position: absolute
+                left: 10
+                top: 15px
+                width: 25px
+                height: 25px
+                font-size: 20px
+                font-weight: bold
+                transition: $trans
+                color: #322C2E
+                background-color: transparent
+                &:hover
+                    cursor: pointer
+                    color: #f34f36!important
+            .row
+                .info
+                    padding: 50px 25px
+                    padding-bottom: 25px
+                    .containElements
+                        .sect1
+                            position: relative
+                            margin-bottom: 20px
+                            padding-bottom: 25px
+                            .primaryTitle
+                                font-family: Nunito
+                                font-style: normal
+                                font-weight: 700
+                                font-size: 25px
+                                line-height: 0.9
+                                text-align: center
+                                letter-spacing: -1px
+                                margin-bottom: 20px
+                            .secondaryTitle,
+                            .thirdTitle
+                                margin-bottom: 20px
+                                font-family: Nunito
+                                font-style: normal
+                                font-size: 20px
+                                line-height: 1
+                                text-align: center
+                                letter-spacing: -1px
+                            .secondaryTitle
+                                font-weight: 500
+                            .thirdTitle
+                                font-weight: 600
+                                margin-bottom: 0
+                            &::after
+                                content: ''
+                                width: 90%
+                                height: 1px
+                                border-bottom: 1px solid rgba(0,0,0,0.25)
+                                margin: 0 auto
+                                position: absolute
+                                bottom: 0
+                                right: 0
+                                left: 0
+                                display: blocks
+
+                        .sect2
+                            .formatForm
+                                box-shadow: unset
+                                border-radius: 0
+                                padding: 0
+                                .titleFormat
+                                    font-size: 17px
+                                    padding-top: 0
+                                    padding: 0
+                                    margin-bottom: 5px
+                                .wpcf7
+                                    width: 75%
+                                    margin: 0 auto
+                                    label,
+                                    input,
+                                    select,
+                                    span
+                                        font-size: 14px!important
+                                    input,
+                                    select,
+                                    span.wpcf7-list-item-label
+                                        height: 30px!important
+                                        min-height: 30px!important
+                                        padding-top: 5px!important
+                                        padding-bottom: 5px!important
+                                    input.wpcf7-form-control.wpcf7-submit
+                                        position: relative
+                                        top: -10px
+
+
+                        // .sect2
+
+                .image
+                    background-color: #F1685A
+                    border-radius: 25px 0 0 25px
+                    // padding: 75px
+                    // padding-bottom: 0
+                    .containElements
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-between
+                        align-items: center
+                        height: 100%
+                        .sect1
+                            padding: 0 25px
+                            padding-top: 50px
+                            .containerImage.logo
+                                padding: 0
+                                margin-bottom: 20px
+                                img
+                                    height: 25px
+                            .thirdTitle
+                                margin-bottom: 20px
+                                font-family: Nunito
+                                font-style: normal
+                                font-weight: 700
+                                font-size: 20px
+                                line-height: 1
+                                text-align: center
+                                letter-spacing: -1px
+
+                        .sect2
+                            .containerImage
+                                padding: 0
+                                margin: 0
+                                img
+                                    height: 325px
+
 
 

@@ -194,7 +194,7 @@ function bootstrap_popups() {
             'supports'           => array( 'title', 'custom-fields' ),
             // You can associate this CPT with a taxonomy or custom taxonomy.
                 // This is where we add taxonomies to our CPT
-            // 'taxonomies'          => array( 'genres', 'category' ),
+            'taxonomies'          => array( 'popup-category' ),
             /* A hierarchical CPT is like Pages and can have
             * Parent and child items. A non-hierarchical CPT
             * is like Posts.
@@ -336,3 +336,74 @@ function bootstrap_popups() {
 // 	);
 
 // }
+
+
+// add_filter('acf/location/rule_types', function($rules) {
+
+//     $rules['By Fields']['popupTemplate'] = 'Popup template';
+
+//     return $rules;
+//   });
+
+//   add_filter('acf/location/rule_operators/popupTemplate', function($choices) {
+
+//     if(isset($choices['=='])) {
+//       unset($choices['==']);
+//     }
+
+//     if(isset($choices['!='])) {
+//       unset($choices['!=']);
+//     }
+
+//     $choices['popupTemplate'] = '-';
+
+//     return $choices;
+//   });
+
+//   add_filter('acf/location/rule_values/popupTemplate', function($choices) {
+//     return ['popupTemplate' => '-'];
+//   });
+
+//   add_filter('acf/location/rule_match/popupTemplate', function($match, $rule, $options) {
+//     return false;
+//   }, 10, 3);
+
+
+function bootstrap_popups_taxo() {
+
+    register_taxonomy(
+        'popup-category-tax',
+        'bootstrap_popups',
+        array(
+            'label' => __( 'Category popup' ),
+            'rewrite' => array( 'slug' => 'popup-category-tax' ),
+            'hierarchical' => true,
+            'capabilities' => array(
+                'manage_terms' => '',
+                'edit_terms' => '',
+                'delete_terms' => '',
+                'assign_terms' => 'edit_posts'
+            ),
+
+        ),
+    );
+
+    /*---------------------------------------Check to see if the days are created..if not, create them----*/
+$parent_term = term_exists( 'popup-category-tax', 'popup-category-tax' ); // array is returned if taxonomy is given
+$parent_term_id = $parent_term['term_id']; // get numeric term id
+
+wp_insert_term(//this should probably be an array, but I kept getting errors..
+        'General popup | 2021', // the term
+        'popup-category-tax', // the taxonomy
+        array(
+        'slug' => 'general_popup_old',
+        'parent'=> $parent_term_id ));
+
+wp_insert_term(
+        'General popup 2022 (Trial | Demo)', // the term
+        'popup-category-tax', // the taxonomy
+        array(
+        'slug' => 'general_popup_2022',
+        'parent'=> $parent_term_id ));
+}
+add_action( 'init', 'bootstrap_popups_taxo' );

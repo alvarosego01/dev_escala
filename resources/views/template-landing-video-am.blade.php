@@ -40,22 +40,21 @@ $parameters = [
  $parameters = array(
   'type' => 'backgroundColor',
   'classSection' => 'landingVideoAmOtto1',
-  'enableTitle' => false,
-  'titlePrincipal' => null,
+  'enableTitle' => true,
+  'titlePrincipal' => '
+  <span class="greenBlueColor">
+    Escala te ayudará a</span>
+    <br class="space">
+    hacer crecer tu negocio',
   'subTitlePrincipal' => null,
-  'title' => '
-<span class="greenBlueColor">Escala te ayudará a</span> <br class="space">
-hacer crecer tu negocio
-',
+  'title' => null,
   'typeVideo' =>  'localvideo',
   'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
   'videoCover' => App::setFilePath('/assets/images/illustrations/others/tapa_video_thankyou_page.jpg'),
   'text' => '
-Estás a un clic de comenzar a hacer crecer tu negocio con Escala, <br class="desktopTabletElement">
-la plataforma todo en uno en marketing digital y ventas 100% <br class="desktopTabletElement">
-en español de LATAM, que te da en un solo lugar, todas las <br class="desktopTabletElement">
-herramientas para:
-<br class="space"><br class="space">
+  Estás a un clic de comenzar a hacer crecer tu negocio con Escala, la plataforma todo en uno en marketing digital y ventas
+  <br class="desktopElement"> 100% en español de LATAM, que te da en un solo lugar, todas las herramientas para:
+  <br class="space"><br class="space">
 <p class="text">
   <ul>
     <li>Generar demanda de tus productos y servicios</li>
@@ -73,7 +72,7 @@ herramientas para:
   'urlButton' => '#lead-form',
   'typeButton' => 'primaryButton',
   'textButton' => 'Prueba Escala ya',
-  'side' => 'right',
+  'side' => 'center',
  ) ;
 @endphp
 
