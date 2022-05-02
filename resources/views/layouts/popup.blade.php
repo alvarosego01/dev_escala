@@ -75,9 +75,13 @@ $l = ACF_CUSTOM::_getField('enable_popup');
 
                 @php
                     $parameters = [
+
                         'popup_call_class' => ACF_CUSTOM::_getField('popup_call_class', $item),
+                        'popup_imageTitle' => ACF_CUSTOM::_getField('popup_imageTitle', $item),
                         'popup_image' => ACF_CUSTOM::_getField('popup_image', $item),
-                        'popup_title_text' => ACF_CUSTOM::_getField('popup_title_text', $item),
+                        'popup_principalTitle' => ACF_CUSTOM::_getField('popup_principalTitle', $item),
+                        'popup_subTitle' => ACF_CUSTOM::_getField('popup_subTitle', $item),
+                        'popup_thirdTitle' => ACF_CUSTOM::_getField('popup_thirdTitle', $item),
                         'enable_custom_background' => ACF_CUSTOM::_getField('enable_custom_background', $item),
                         'custom_background_type' => ACF_CUSTOM::_getField('custom_background_type', $item),
                         'popup_background_color' => ACF_CUSTOM::_getField('popup_background_color', $item),
@@ -86,8 +90,12 @@ $l = ACF_CUSTOM::_getField('enable_popup');
                         'form_title' => ACF_CUSTOM::_getField('form_title', $item),
                         'form_shortcode' => ACF_CUSTOM::_getField('form_shortcode', $item),
                         'form_redirect' => ACF_CUSTOM::_getField('form_redirect', $item),
-                        'bootstrap_popup_template' => ACF_CUSTOM::_getField('bootstrap_popup_template', $item),
+
                     ];
+
+
+
+
                 @endphp
 
                 @popup_general_2022( $parameters )

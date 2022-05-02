@@ -96,6 +96,7 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
 lograr con Escala',
   'typeVideo' =>  'iframe',
   'videoEmbed' =>  'AHgA0QTtWBY',
+    'videoCover' => App::setFilePath('/assets/images/illustrations/others/tapa_video_home_03a.jpg'),
   'text' => '
   Escala fue creada por Andrés Moreno y un <br class="desktopTabletElement">
 equipo de expertos y es la herramienta preferida <br class="desktopTabletElement">
@@ -110,9 +111,7 @@ aumentar las ventas en sus negocios.
  ) ;
 @endphp
 
-
 @contain_text_video_T1( $parameters )
-
 @endcontain_text_video_T1
 
 
