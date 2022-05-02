@@ -9,7 +9,7 @@ var typeProcess = 0;
 
 // costos planes
 var _costStarter = 30;
-var _costPro = 75;
+var _costPro = 135;
 
 
 // costos individuales
@@ -478,7 +478,7 @@ function discountByPlanCard(type, element){
                 // _costStarter = 24;
                 // _costPro = 65;
                 _costStarter = 21;
-                _costPro = 52.50;
+                _costPro = 95;
 
                 jQuery('[calculator_price_starter]').text( 'USD $ ' + _costStarter );
                 jQuery('[calculator_price_pro]').text( 'USD $ ' + _costPro );
@@ -512,7 +512,7 @@ function discountByPlanCard(type, element){
             });
 
             _costStarter = 30;
-            _costPro = 75;
+            _costPro = 135;
 
             jQuery('[calculator_price_starter]').text( 'USD $ ' + _costStarter );
             jQuery('[calculator_price_pro]').text( 'USD $ ' + _costPro );
