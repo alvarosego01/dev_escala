@@ -83,7 +83,7 @@
 
                                     <div class="sect2">
 
-                                        <div class="formatForm" id="redirectWeb" redirectWeb="true">
+                                        <div class="formatForm {{ uniqid() }}" id="redirectWeb" redirectWeb="true">
 
                                             <h5 class="titleFormat blackcolor">
                                                 @if (isset($form_title) && $form_title != null)
