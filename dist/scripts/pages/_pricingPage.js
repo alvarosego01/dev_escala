@@ -641,12 +641,12 @@ jQuery(document).ready(function () {
 
         jQuery(this).css('background-image',
             '-webkit-gradient(linear, left top, right top, ' +
-            'color-stop(' + percent + '%, #F34F36), ' +
-            'color-stop(' + percent + '%, #d3d3d3)' +
+            'color-stop(' + percent + '%, #97C7D1), ' +
+            'color-stop(' + percent + '%, #D9EEF9)' +
             ')');
 
         jQuery(this).css('background-image',
-            '-moz-linear-gradient(left center, #F34F36 0%, #F34F36 ' + percent + '%, #d3d3d3 ' + percent + '%, #d3d3d3 100%)');
+            '-moz-linear-gradient(left center, #97C7D1 0%, #97C7D1 ' + percent + '%, #D9EEF9 ' + percent + '%, #D9EEF9 100%)');
     });
 
 
@@ -659,12 +659,12 @@ jQuery(document).ready(function () {
 
         jQuery(this).css('background-image',
             '-webkit-gradient(linear, left top, right top, ' +
-            'color-stop(' + percent + '%, #F34F36), ' +
-            'color-stop(' + percent + '%, #d3d3d3)' +
+            'color-stop(' + percent + '%, #97C7D1), ' +
+            'color-stop(' + percent + '%, #D9EEF9)' +
             ')');
 
         jQuery(this).css('background-image',
-            '-moz-linear-gradient(left center, #F34F36 0%, #F34F36 ' + percent + '%, #d3d3d3 ' + percent + '%, #d3d3d3 100%)');
+            '-moz-linear-gradient(left center, #97C7D1 0%, #97C7D1 ' + percent + '%, #D9EEF9 ' + percent + '%, #D9EEF9 100%)');
     });
 
 

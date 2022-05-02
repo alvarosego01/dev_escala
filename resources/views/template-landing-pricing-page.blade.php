@@ -18,8 +18,13 @@
 @php
 $parameters = array(
  'classSection' => 'landingPricingPage0',
- 'title' => '<span class="greenBlueColor">Con nuestra plataforma todo en uno,</span> <br class="space"> tenemos un plan hecho a tu medida <br class="space"> <span class="greenBlueColor">para impulsar el crecimiento de tu negocio</span> ',
- 'image' => App::setFilePath('/assets/images/illustrations/team/paginas-rapidas.png'),
+ 'title' => '
+ <span >
+  Crece con Escala,</span> <br class="space">
+  tenemos un plan <br class="space">
+  hecho a tu medida
+   ',
+ 'image' => App::setFilePath('/assets/images/person/funnel_chica_escala.png'),
 ) ;
 @endphp
 
@@ -58,18 +63,178 @@ $parameters = array(
 @php
 $parameters = array(
  'classSection' => 'landingPricingPage2',
- 'titlePrincipal' => '<span class="blueColor">Conoce los beneficios <br class="mobileSmallElement"> de nuestros planes</span>',
- 'subTitlePrincipal' => 'Cada uno de nuestros planes tiene las funcionalidades de <br class="mobileSmallElement"> marketing <br class="desktopTabletElement"> digital y ventas para acelerar el crecimiento de tu <br class="mobileSmallElement"> negocio.<br class="desktopTabletElement">Solo inviertes en lo que necesitas'
+ 'titlePrincipal' => '<span class="blueColor">
+  Conoce los beneficios
+  <br class="mobileSmallElement">
+  de nuestros planes
+  </span>',
+ 'subTitlePrincipal' => '
+  Cada uno de nuestros planes tiene las funcionalidades de marketing digital y ventas <br class="desktopTabletElement">
+  para acelerar el crecimiento de tu negocio. Solo inviertes en lo que necesitas.
+ '
 ) ;
 @endphp
-
 @pricing_card_T1( $parameters )
-
 @endpricing_card_T1
 
 
+<section class="customSection sectionParent landingPricingPage3_2022">
 
-<section class="customSection sectionParent landingPricingPage3">
+  <div class="section-row">
+
+    <section class="innerSectionElement row sct1">
+
+      <div class="containElements">
+
+        <h2 class="primaryTitle greenBlueColor">
+          Servicio
+        </h2>
+
+        <p class="primaryText grayColorTexts">
+          En Escala te acompañamos desde el primer día para guiarte en todo tu camino al éxito.
+        </p>
+
+
+      </div>
+
+    </section>
+    <section class="innerSectionElement row sct2">
+
+      <div class="containElements">
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Servicio</th>
+              <th scope="col">Descripción</th>
+              <th scope="col">Plan Starter</th>
+              <th scope="col">Plan Pro</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <th rowspan="7">Implementación</th>
+              <td>Gerente de cuenta asignado</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              {{-- <th>Canales de comunicación</th> --}}
+              <td>Sesiones de acompañamiento privadas</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</th> --}}
+              <td>Plan personalizado de implementación</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</th> --}}
+              <td>Análisis de resultados y plan de optimización</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</th> --}}
+              <td>Contactos de seguimiento</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</th> --}}
+              <td>Configuración de dominios, emails y cuentas publicitarias</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</th> --}}
+              <td>Transferencia de data con descuento</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th rowspan="5">Escala Academy</th>
+              <td>Capacitaciones grupales de plataforma con casos prácticos</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</th> --}}
+              <td>Capacitaciones grupales estratégicas</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</th> --}}
+              <td>Librería de tutoriales para cada herramienta</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</th> --}}
+              <td>Guías estratégicas de marketing, ventas y fidelización</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</th> --}}
+              <td>Webinars grabados con casos prácticos y estrategia</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</th> --}}
+              <td>Chat en plataforma</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th>Complementarios</th>
+              <td>Email de servicio</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th>Complementarios</th>
+              <td>Whatsapp de servicio</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th>Complementarios</th>
+              <td>Soporte técnico con atención prioritaria</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th>Complementarios</th>
+              <td>Sesiones estratégicas extra con descuento</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th>Complementarios</th>
+              <td>Diseño plantillas personalizadas con descuento</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+
+          </tbody>
+        </table>
+
+
+      </div>
+
+    </section>
+
+  </div>
+
+</section>
+
+{{-- <section class="customSection sectionParent landingPricingPage3">
 
   <div class="section-row">
 
@@ -245,7 +410,7 @@ $parameters = array(
   </div>
 
 
-</section>
+</section> --}}
 
 
 @php
@@ -278,7 +443,13 @@ $parameters = array(
             </div>
 
             <p class="text primaryText grayColorTexts">
-              Escala tiene el email builder más amigable que he <br class="mobileSmallElement"> utilizado en los <br class="desktopTabletElement"> últimos años, y su equipo está <br class="mobileSmallElement"> comprometido a mantener la <br class="desktopTabletElement"> plataforma en constante <br class="mobileSmallElement"> actualización en el dinámico mundo digital.
+
+              Escala tiene el email builder más amigable <br class="desktopTabletElement">
+              que he utilizado en los últimos años, y su <br class="desktopTabletElement">
+              equipo está comprometido a mantener la <br class="desktopTabletElement">
+              plataforma en constante actualización en <br class="desktopTabletElement">
+              el dinámico mundo digital.
+
             </p>
 
 
@@ -297,14 +468,11 @@ $parameters = array(
             </div>
 
 
-
-
-
           </div>
           <div class="image col-md-12 col-lg-6">
             <div class="containerImage">
 
-              <img src="{!! App::setFilePath('/assets/images/illustrations/team/astro-precios-sinplata_1.png') !!}" alt="" loading="lazy">
+              <img src="{!! App::setFilePath('/assets/images/illustrations/others/tablet_otto_1.png') !!}" alt="" loading="lazy">
 
           </div>
           </div>
@@ -328,12 +496,16 @@ $parameters = array(
   'classSection' => 'landingPricingPage6',
   'backgroundImageFile' => null,
   'enableTitle' => false,
-  'img' =>  App::setFilePath('/assets/images/person/am/am_pricing.png'),
-  'title' => 'En Escala hay un plan <br class="space"> del tamaño de tus sueños',
+  'img' =>  App::setFilePath('/assets/images/person/am/andres_moreno_email_marketing.png'),
+  'title' => '
+  <span class="greenBlueColor">
+    En Escala hay un plan</span> <br class="space">
+    del tamaño de tus sueños
+  ',
   'text' => null,
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Escala ahora',
+  'textButton' => 'Prueba gratis',
   'typeButton' => 'primaryButton',
   'side' => 'right',
 

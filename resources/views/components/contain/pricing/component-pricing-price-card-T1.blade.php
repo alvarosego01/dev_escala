@@ -85,11 +85,11 @@ $items = [
             [
                 'title' => null,
                 'items' => [
-                    'Usuarios de venta: <strong>1</strong>',
                     'Contactos en base de datos: <strong>1.000.000</strong>',
                     'Emails marketing al mes: <strong>5.000</strong>',
                     'Dominios propios: <strong>1</strong>',
-                    'Cuentas de Facebook Ads Manager: <strong>1</strong>'
+                    '<br>',
+                    '<br>'
                 ],
             ],
         ],
@@ -101,10 +101,10 @@ $items = [
         'price' => 'A partir de <br class="space">
         <span class="cost">
             <i class="fas fa-dollar-sign"></i>
-            <span class="numerCost">75</span>
+            <span class="numerCost">135</span>
             <span
             style="display: none"
-            class="discountCost">52.5</span>
+            class="discountCost">95</span>
             <span class="usd">
                 USD
             </span>
@@ -122,10 +122,10 @@ $items = [
                 <span class="ncost">
                     usd/mes
                 </span>
-                <span class="t1">Pago total anual <span class="priceDotted">900 $USD</span></span>
+                <span class="t1">Pago total anual <span class="priceDotted">1620 $USD</span></span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento 630 $USD
+                        Con descuento 1140 $USD
                     </strong>
                 </span>
         </p>',
@@ -163,12 +163,14 @@ $items = [
             [
                 'title' => null,
                 'items' => [
-                'Usuarios de venta: <strong>1</strong>',
                 'Contactos en base de datos: <strong>1.000.000</strong>',
-                'Emails marketing al mes: <strong>30.000</strong>',
+                'Emails marketing al mes: <strong>10.000</strong>',
                 'Dominios propios: <strong>5</strong>',
-                'Cuentas de Facebook Ads Manager: <strong>3</strong>'
+                'Cuentas de Facebook Ads Manager: <strong>3</strong>',
+                'Lead Scoring'
             ],
+
+
             ],
         ],
     ],
@@ -220,12 +222,12 @@ $items = [
             [
                 'title' => null,
                 'items' => [
-                    'Usuarios de venta: <strong>10</strong>',
-                    // 'Contactos en base de datos: <strong>1.000.000</strong>',
-                    'Emails marketing al mes: <br class="space">
+                    'Contactos en base de datos: <strong>1.000.000</strong>',
+                    'Emails marketing al mes: <br class="space">,
                     <strong>20 x contactos de marketing</strong>',
                     'Dominios propios: <strong>10</strong>',
                     'Cuentas de Facebook Ads Manager: <strong>5</strong>',
+                    'Lead Scoring'
                 ],
             ],
         ],
@@ -235,16 +237,14 @@ $items = [
 @endphp
 
 
-<section class="component-pricing-price-card-T1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section class="component-pricing-price-card-T1 customSection sectionParent {{ $classSection }} ">
 
     <div class="section-row">
-
 
         @if (isset($titlePrincipal) && $titlePrincipal != null)
             <section class="innerSectionElement sct1">
 
                 <div class="containElements">
-
 
                     <h2 class="primaryTitle whiteColor">
                         {!! $titlePrincipal !!}
@@ -257,7 +257,6 @@ $items = [
                         </p>
 
                     @endif
-
 
                 </div>
 
@@ -378,12 +377,18 @@ $items = [
                                                         @endif
                                                         @foreach ($item2['items'] as $item3)
 
+                                                            @if ( $item3 == '<br>' )
+                                                                <li style="height: 23.984px">
+                                                                </li>
+                                                            @else
+
                                                             <li>
                                                                 <i class="fa fa-check" aria-hidden="true"></i>
                                                                 <span class="blueColor">
                                                                     {!! $item3 !!}
                                                                 </span>
                                                             </li>
+                                                            @endif
 
                                                         @endforeach
                                                     </ul>
@@ -442,6 +447,7 @@ $items = [
 
                                                 <a onclick="actionInfoCards('open')" class="extendButton">
                                                     Ver más
+                                                    <img src="{!! App::setFilePath('/assets/images/icons/Rectangle 1342.png') !!}" alt="">
                                                 </a>
                                                 {{-- style="display: none" --}}
                                                 <a onclick="actionInfoCards('close')" style="display: none;"
