@@ -286,18 +286,22 @@
             max-width: 1250px!important
             padding: 0
 
-        .innerSectionElement.sct2
-            .groupElements.row
-                .info
-                    // @include responsivo(general)
-                    //     width: 60%!important
-                    // @include responsivo(resto)
-                    //     width: 60%!important
+        section.innerSectionElement.sct1
+            margin-bottom: 35px
+            .containElements
+                h2.primaryTitle
+                    margin-bottom: 0
+                    @include responsivo(telefonoTable)
+                        font-size: 25px
+                    @include responsivo(pcMedio)
+                        font-size: 30px
                     @include responsivo(general)
-                        padding-left: 35px
-
-                    @include responsivo(resto)
-                        padding-left: 50px
+                        font-size: 32.5px
+        section.innerSectionElement.sct2.center
+            .groupElements.row
+                display: flex
+                flex-direction: column-reverse
+                .info
 
                     h3.secondaryTitle
                         font-family: Nunito
@@ -314,6 +318,8 @@
                         @include responsivo(general)
                             font-size: 32.5px
 
+                    p.text
+                        width: 100%!important
                     p.text,
                     ul,
                     li
@@ -324,24 +330,20 @@
                         line-height: 1
                         color: #606267
                         @include responsivo(telefonoTable)
-                            font-size: 14px
+                            font-size: 14px!important
                         @include responsivo(pcMedio)
-                            font-size: 14px
+                            font-size: 14px!important
                     ul
-                        @include responsivo(telefonoTable)
-                            width: fit-content
-                            margin: 0 auto
-                            display: block
-                        @include responsivo(pcMedio)
-                            width: fit-content
-                            margin: 0 auto
-                            display: block
+                        width: fit-content
+                        margin: 0 auto
+                        display: block
                     p.text
                         margin-bottom: 0
                     strong
                         font-weight: 800!important
                 .video
                     padding: 0
+                    margin-bottom: 35px
                     // @include responsivo(general)
                     //     width: 40%!important
                     // @include responsivo(resto)
@@ -353,8 +355,6 @@
                         margin-bottom: 25px
 
                     .youtubeImageContainer
-                        height: 350px
-                        width: 90%
                         margin: 0 auto
                         display: block
                         @include responsivo(telefonoTable)
@@ -364,16 +364,34 @@
                             height: 200px
 
                         @include responsivo(pcMedio)
-                            margin-bottom: 32.5px
-                            height: 300px
+                            // margin-bottom: 32.5px
+                            height: 350px
+                            width: 85%
+                        @include responsivo(general)
+                            height: 400px
+                            width: 60%
+
+                        @include responsivo(resto)
+                            height: 400px
+                            width: 60%
+
 
                     iframe.iframe
-                        height: 350px
-                        width: 90%
+                        height: 400px
                         margin: 0 auto
                         display: block
                         @include responsivo(telefonoTable)
                             width: 100%
+
+                        @include responsivo(pcMedio)
+                            width: 80%
+
+                        @include responsivo(general)
+                            width: 60%
+
+                        @include responsivo(resto)
+                            width: 60%
+
 
 
 
@@ -485,7 +503,7 @@
     padding-bottom: 0
     background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
     @include responsivo(telefonoTable)
-        padding-bottom: 25px
+        padding-bottom: 0
     @include responsivo(telefonoTable)
         padding-top: 50px
     @include responsivo(pcMedio)
@@ -545,16 +563,16 @@
                         font-family: Nunito
                         font-style: normal
                         font-weight: normal
-                        font-size: 16px
+                        font-size: 16px!important
                         line-height: 1
                         color: white
                         text-align: center
                         margin-bottom: 25px
                         width: 100%!important
                         @include responsivo(telefonoTable)
-                            font-size: 14px
+                            font-size: 14px!important
                         @include responsivo(pcMedio)
-                            font-size: 14px
+                            font-size: 14px!important
 
                     a.primaryButton
                         margin: 0 auto

@@ -9,7 +9,7 @@ var typeProcess = 0;
 
 // costos planes
 var _costStarter = 30;
-var _costPro = 75;
+var _costPro = 135;
 
 
 // costos individuales
@@ -478,7 +478,7 @@ function discountByPlanCard(type, element){
                 // _costStarter = 24;
                 // _costPro = 65;
                 _costStarter = 21;
-                _costPro = 52.50;
+                _costPro = 95;
 
                 jQuery('[calculator_price_starter]').text( 'USD $ ' + _costStarter );
                 jQuery('[calculator_price_pro]').text( 'USD $ ' + _costPro );
@@ -512,7 +512,7 @@ function discountByPlanCard(type, element){
             });
 
             _costStarter = 30;
-            _costPro = 75;
+            _costPro = 135;
 
             jQuery('[calculator_price_starter]').text( 'USD $ ' + _costStarter );
             jQuery('[calculator_price_pro]').text( 'USD $ ' + _costPro );
@@ -641,12 +641,12 @@ jQuery(document).ready(function () {
 
         jQuery(this).css('background-image',
             '-webkit-gradient(linear, left top, right top, ' +
-            'color-stop(' + percent + '%, #F34F36), ' +
-            'color-stop(' + percent + '%, #d3d3d3)' +
+            'color-stop(' + percent + '%, #97C7D1), ' +
+            'color-stop(' + percent + '%, #D9EEF9)' +
             ')');
 
         jQuery(this).css('background-image',
-            '-moz-linear-gradient(left center, #F34F36 0%, #F34F36 ' + percent + '%, #d3d3d3 ' + percent + '%, #d3d3d3 100%)');
+            '-moz-linear-gradient(left center, #97C7D1 0%, #97C7D1 ' + percent + '%, #D9EEF9 ' + percent + '%, #D9EEF9 100%)');
     });
 
 
@@ -659,12 +659,12 @@ jQuery(document).ready(function () {
 
         jQuery(this).css('background-image',
             '-webkit-gradient(linear, left top, right top, ' +
-            'color-stop(' + percent + '%, #F34F36), ' +
-            'color-stop(' + percent + '%, #d3d3d3)' +
+            'color-stop(' + percent + '%, #97C7D1), ' +
+            'color-stop(' + percent + '%, #D9EEF9)' +
             ')');
 
         jQuery(this).css('background-image',
-            '-moz-linear-gradient(left center, #F34F36 0%, #F34F36 ' + percent + '%, #d3d3d3 ' + percent + '%, #d3d3d3 100%)');
+            '-moz-linear-gradient(left center, #97C7D1 0%, #97C7D1 ' + percent + '%, #D9EEF9 ' + percent + '%, #D9EEF9 100%)');
     });
 
 

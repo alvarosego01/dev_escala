@@ -17,10 +17,14 @@
                         <div class="containElements">
 
                             <div class="plansSection desktopElement">
-                                <small>
+                                <small class="miniTitle">
 
                                     Elige tu plan
 
+                                </small>
+
+                                <small class="miniText">
+                                    Recuerda que solo puedes acceder al Plan Pro a partir de 5.000 contactos
                                 </small>
 
                                 <div class="box">
@@ -103,7 +107,7 @@
                         <div class="containElements">
 
                             <div class="plansSection desktopElement">
-                                <small>
+                                <small class="miniTitle">
                                     Coloca el número de contactos de marketing
                                 </small>
 
@@ -190,7 +194,7 @@
                             </div>
 
                             <div class="plansSection mobileElement">
-                                <small>
+                                <small class="miniTitle">
                                     Coloca el número de <br class="mobileElement"> contactos de marketing
 
 
@@ -287,7 +291,7 @@
                         <div class="containElements">
 
                             <div class="plansSection desktopElement">
-                                <small>
+                                <small class="miniTitle">
                                     Coloca el número de usuarios con acceso a la plataforma
                                 </small>
 
@@ -359,20 +363,6 @@
 
                                 <div class="box">
 
-                                    <div class="image">
-
-
-                                        <div class="containerImage">
-
-                                            <img class="desktopElement" alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_pricing.png') !!}"
-                                                loading="lazy">
-
-                                            <img class="mobileElement" alt="Otto pricing" src="{!! App::setFilePath('/assets/images/illustrations/otto/otto-pricing-up.png') !!}"
-                                                loading="lazy">
-
-                                        </div>
-
-                                    </div>
                                     <div class="info">
 
                                         <small>
@@ -415,14 +405,14 @@
                                         </div>
                                         <div class="finalButtons">
 
-                                            <a class="primaryButton btn-popup-header hoverInEffect">
-                                                Comienza ahora
+                                            <a class="primaryButton hoverInEffect btn-popup-header">
+                                                Prueba gratis
                                             </a>
 
                                             <a
                                             target="_blank"
                                             href="{!! App::setTypeUrl() !!}/zoom-demo"
-                                            class="greyButton ">
+                                            class="secondaryButton hoverInEffect">
                                                 Habla con un asesor
                                             </a>
 

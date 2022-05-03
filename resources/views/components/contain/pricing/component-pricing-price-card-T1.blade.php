@@ -36,7 +36,7 @@ $items = [
         'middleType' => 'selectorAnual',
         'textMiddle' => null,
         'button' => true,
-        'textButton' => 'Prueba Escala ahora',
+        'textButton' => 'Prueba gratis',
         'extendInfoButton' => true,
         'customClasses' => 'cardPlan1',
         'discountTest' => '
@@ -62,7 +62,7 @@ $items = [
             ],
             [
                 'title' => 'Automatizaciones',
-                'items' => ['Flujos: <strong>ilimitados</strong>'],
+                'items' => ['Flujos: <strong>5</strong>'],
             ],
             [
                 'title' => 'Formularios',
@@ -70,12 +70,11 @@ $items = [
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>1.000</strong>', 'Usuarios de venta: <strong>1</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>1.000</strong>', 'Usuarios de venta: <strong>1</strong>', 'Emails de CRM: <strong>ilimitados</strong>',
+                'Embudos de oportunidades: 1'
             ],
-            [
-                'title' => 'Anuncios Digitales',
-                'items' => ['Cuentas de Facebook Ads Manager: <strong>1</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'],
             ],
+
             [
                 'title' => 'Analíticas',
                 'items' => ['Dashboard de <strong>administradores y vendedores</strong>'],
@@ -85,11 +84,11 @@ $items = [
             [
                 'title' => null,
                 'items' => [
-                    'Usuarios de venta: <strong>1</strong>',
                     'Contactos en base de datos: <strong>1.000.000</strong>',
                     'Emails marketing al mes: <strong>5.000</strong>',
                     'Dominios propios: <strong>1</strong>',
-                    'Cuentas de Facebook Ads Manager: <strong>1</strong>'
+                    '<br>',
+                    '<br>'
                 ],
             ],
         ],
@@ -101,10 +100,10 @@ $items = [
         'price' => 'A partir de <br class="space">
         <span class="cost">
             <i class="fas fa-dollar-sign"></i>
-            <span class="numerCost">75</span>
+            <span class="numerCost">135</span>
             <span
             style="display: none"
-            class="discountCost">52.5</span>
+            class="discountCost">95</span>
             <span class="usd">
                 USD
             </span>
@@ -113,7 +112,7 @@ $items = [
         'middleType' => 'selectorAnual',
         'textMiddle' => null,
         'button' => true,
-        'textButton' => 'Prueba Escala ahora',
+        'textButton' => 'Hablar con un asesor',
         'extendInfoButton' => true,
         'customClasses' => 'cardPlan2',
         'discountTest' => '
@@ -122,10 +121,10 @@ $items = [
                 <span class="ncost">
                     usd/mes
                 </span>
-                <span class="t1">Pago total anual <span class="priceDotted">900 $USD</span></span>
+                <span class="t1">Pago total anual <span class="priceDotted">1620 $USD</span></span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento 630 $USD
+                        Con descuento 1140 $USD
                     </strong>
                 </span>
         </p>',
@@ -136,11 +135,13 @@ $items = [
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <br class="space"> <strong>30.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => ['Emails marketing al mes: <br class="space"> <strong>10.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
-                'items' => ['Flujos: <strong>ilimitados</strong>'],
+                'items' => ['Flujos: <strong>100</strong>',
+                'Bifurcaciones'
+            ],
             ],
             [
                 'title' => 'Formularios',
@@ -148,7 +149,15 @@ $items = [
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>3.000</strong>', 'Usuarios de venta: <strong>1</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>',
+                'Contactos de marketing: <br class="space"> <strong>5.000</strong>',
+                'Usuarios de venta: <strong>1</strong>',
+                'Emails de CRM: <strong>ilimitados</strong>',
+                'Embudos de oportunidades: <strong>10</strong>',
+                'Lead scoring',
+                'Segmentaciòn avanzada',
+                'Extensiòn de Whatsapp web'
+            ],
             ],
             [
                 'title' => 'Anuncios Digitales',
@@ -163,12 +172,14 @@ $items = [
             [
                 'title' => null,
                 'items' => [
-                'Usuarios de venta: <strong>1</strong>',
                 'Contactos en base de datos: <strong>1.000.000</strong>',
-                'Emails marketing al mes: <strong>30.000</strong>',
+                'Emails marketing al mes: <strong>10.000</strong>',
                 'Dominios propios: <strong>5</strong>',
-                'Cuentas de Facebook Ads Manager: <strong>3</strong>'
+                'Cuentas de Facebook Ads Manager: <strong>3</strong>',
+                'Lead Scoring'
             ],
+
+
             ],
         ],
     ],
@@ -183,21 +194,30 @@ $items = [
         'middleType' => null,
         'textMiddle' => 'Contáctanos para crear un plan hecho<br class="space">a la medida de tu necesidades',
         'button' => true,
-        'textButton' => 'Habla con un asesor',
+        'textButton' => 'Hablar con un asesor',
         'customClasses' => 'cardPlan3',
         'extendInfoButton' => true,
         'extendDetails' => [
             [
                 'title' => 'Landing page',
-                'items' => ['Páginas: <strong>ilimitadas</strong>', 'Subdominio personalizado', 'Dominios propios: <strong>10</strong>'],
+                'items' => [
+                    'Páginas: <strong>ilimitadas</strong>',
+                    'Subdominio personalizado',
+                    'Dominios propios: <strong>10</strong>'
+                ],
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <br class="space"> <strong> 20 x contactos de marketing</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => [
+                    'Emails marketing al mes: <br class="space"> <strong> 20 x contactos de marketing</strong>',
+                    'Plantillas: <strong>Todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
-                'items' => ['Flujos: <strong>ilimitados</strong>'],
+                'items' => [
+                    'Flujos: <strong>ilimitados</strong>',
+                    'Bifurcaciones'
+            ],
             ],
             [
                 'title' => 'Formularios',
@@ -205,7 +225,13 @@ $items = [
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>A partir de 100.000</strong>', 'Usuarios de venta: <strong>10</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>A partir de 100.000</strong>', 'Usuarios de venta: <strong>10</strong>',
+                'Emails de CRM: <strong>ilimitados</strong>',
+                'Embudos de oportunidades: <strong>10</strong>',
+                'Lead scoring',
+                'Segmentaciòn avanzada',
+                'Extensiòn de Whatsapp web',
+            ],
             ],
             [
                 'title' => 'Anuncios Digitales',
@@ -220,12 +246,12 @@ $items = [
             [
                 'title' => null,
                 'items' => [
-                    'Usuarios de venta: <strong>10</strong>',
-                    // 'Contactos en base de datos: <strong>1.000.000</strong>',
-                    'Emails marketing al mes: <br class="space">
+                    'Contactos en base de datos: <strong>1.000.000</strong>',
+                    'Emails marketing al mes: <br class="space">,
                     <strong>20 x contactos de marketing</strong>',
                     'Dominios propios: <strong>10</strong>',
                     'Cuentas de Facebook Ads Manager: <strong>5</strong>',
+                    'Lead Scoring'
                 ],
             ],
         ],
@@ -235,16 +261,14 @@ $items = [
 @endphp
 
 
-<section class="component-pricing-price-card-T1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section class="component-pricing-price-card-T1 customSection sectionParent {{ $classSection }} ">
 
     <div class="section-row">
-
 
         @if (isset($titlePrincipal) && $titlePrincipal != null)
             <section class="innerSectionElement sct1">
 
                 <div class="containElements">
-
 
                     <h2 class="primaryTitle whiteColor">
                         {!! $titlePrincipal !!}
@@ -257,7 +281,6 @@ $items = [
                         </p>
 
                     @endif
-
 
                 </div>
 
@@ -378,12 +401,18 @@ $items = [
                                                         @endif
                                                         @foreach ($item2['items'] as $item3)
 
+                                                            @if ( $item3 == '<br>' )
+                                                                <li style="height: 23.984px">
+                                                                </li>
+                                                            @else
+
                                                             <li>
                                                                 <i class="fa fa-check" aria-hidden="true"></i>
                                                                 <span class="blueColor">
                                                                     {!! $item3 !!}
                                                                 </span>
                                                             </li>
+                                                            @endif
 
                                                         @endforeach
                                                     </ul>
@@ -442,12 +471,13 @@ $items = [
 
                                                 <a onclick="actionInfoCards('open')" class="extendButton">
                                                     Ver más
+                                                    <img src="{!! App::setFilePath('/assets/images/icons/Rectangle 1342.png') !!}" alt="">
                                                 </a>
                                                 {{-- style="display: none" --}}
-                                                <a onclick="actionInfoCards('close')" style="display: none;"
+                                                {{-- <a onclick="actionInfoCards('close')" style="display: none;"
                                                     class="hideButton">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/arrowClose.png') !!}" alt="">
-                                                </a>
+                                                </a> --}}
 
                                             </div>
 

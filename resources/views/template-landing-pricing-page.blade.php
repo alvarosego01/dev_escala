@@ -18,8 +18,13 @@
 @php
 $parameters = array(
  'classSection' => 'landingPricingPage0',
- 'title' => '<span class="greenBlueColor">Con nuestra plataforma todo en uno,</span> <br class="space"> tenemos un plan hecho a tu medida <br class="space"> <span class="greenBlueColor">para impulsar el crecimiento de tu negocio</span> ',
- 'image' => App::setFilePath('/assets/images/illustrations/team/paginas-rapidas.png'),
+ 'title' => '
+ <span >
+  Crece con Escala,</span> <br class="space">
+  tenemos un plan <br class="space">
+  hecho a tu medida
+   ',
+ 'image' => App::setFilePath('/assets/images/person/funnel_chica_escala.png'),
 ) ;
 @endphp
 
@@ -58,18 +63,251 @@ $parameters = array(
 @php
 $parameters = array(
  'classSection' => 'landingPricingPage2',
- 'titlePrincipal' => '<span class="blueColor">Conoce los beneficios <br class="mobileSmallElement"> de nuestros planes</span>',
- 'subTitlePrincipal' => 'Cada uno de nuestros planes tiene las funcionalidades de <br class="mobileSmallElement"> marketing <br class="desktopTabletElement"> digital y ventas para acelerar el crecimiento de tu <br class="mobileSmallElement"> negocio.<br class="desktopTabletElement">Solo inviertes en lo que necesitas'
+ 'titlePrincipal' => '<span class="blueColor">
+  Conoce los beneficios
+  <br class="mobileSmallElement">
+  de nuestros planes
+  </span>',
+ 'subTitlePrincipal' => '
+  Cada uno de nuestros planes tiene las funcionalidades de marketing digital y ventas <br class="desktopTabletElement">
+  para acelerar el crecimiento de tu negocio. Solo inviertes en lo que necesitas.
+ '
 ) ;
 @endphp
-
 @pricing_card_T1( $parameters )
-
 @endpricing_card_T1
 
 
+<section class="customSection sectionParent landingPricingPage3_2022">
 
-<section class="customSection sectionParent landingPricingPage3">
+  <div class="section-row">
+
+    <section class="innerSectionElement row sct1">
+
+      <div class="containElements">
+
+        <h2 class="primaryTitle greenBlueColor">
+          Servicio
+        </h2>
+
+        <p class="primaryText grayColorTexts">
+          En Escala te acompañamos desde el primer día para guiarte en todo tu camino al éxito.
+        </p>
+
+
+      </div>
+
+    </section>
+    <section class="innerSectionElement row sct2">
+
+      <div class="containElements">
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="b1" scope="col">Servicio</th>
+              <th class="b1" scope="col">Descripción</th>
+              <th class="b2" scope="col">Plan Starter</th>
+              <th class="n1" scope="col">Plan Pro</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr >
+              <td class="beginRow t1" rowspan="8">
+                <span>
+                  Implementación
+                </span>
+              </td>
+              <td>Gerente de cuenta asignado</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr>
+              {{-- <th>Canales de comunicación</td> --}}
+              <td>Sesiones de acompañamiento privadas</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</td> --}}
+              <td>Plan personalizado de implementación</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</td> --}}
+              <td>Capacitaciones privadas de plataforma para equipo</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</td> --}}
+              <td>Análisis de resultados y plan de optimización</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</td> --}}
+              <td>Contactos de seguimiento</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</td> --}}
+              <td>Configuración de dominios, emails y cuentas publicitarias</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr class="borderB">
+              {{-- <th>Complementarios</td> --}}
+              <td>Migraciòn de data</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr >
+              <td class="beginRow t2" rowspan="5">
+                <span>
+                  Escala Academy
+                  </span>
+              </td>
+              <td>Capacitaciones grupales de plataforma con casos prácticos</td>
+              <td class="ch">
+                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</td> --}}
+              <td>Capacitaciones grupales estratégicas</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</td> --}}
+              <td>Librería de tutoriales para cada herramienta</td>
+              <td class="ch">
+                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</td> --}}
+              <td>Guías estratégicas de marketing, ventas y fidelización</td>
+              <td class="ch">
+                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr class="borderB">
+              {{-- <th>Complementarios</td> --}}
+              <td>Webinars grabados con casos prácticos y estrategia</td>
+              <td class="ch">
+                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</td> --}}
+                <td class="beginRow t1" rowspan="3">
+                  <span>
+                    Canales de comunicación
+                    </span>
+                    </td>
+              <td>Email de servicio</td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+             </td>
+             <td class="ch">
+               <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+             </td>
+            </tr>
+            <tr >
+
+              <td>Chat en plataforma</td>
+             <td></td>
+             <td class="ch">
+              <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+            </td>
+            </tr>
+
+            <tr class="borderB">
+              {{-- <th>Complementarios</td> --}}
+
+              <td>Whatsapp de servicio</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr >
+              <td class="beginRow t2" rowspan="3">
+                <span>
+                  Complementarios
+                </span>
+              </td>
+              <td>Soporte técnico con atención prioritaria</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</td> --}}
+              <td>Sesiones estratégicas extra con descuento</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</td> --}}
+              <td>Diseño plantillas personalizadas con descuento</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+
+      </div>
+
+    </section>
+
+  </div>
+
+</section>
+
+{{-- <section class="customSection sectionParent landingPricingPage3">
 
   <div class="section-row">
 
@@ -245,7 +483,7 @@ $parameters = array(
   </div>
 
 
-</section>
+</section> --}}
 
 
 @php
@@ -278,7 +516,13 @@ $parameters = array(
             </div>
 
             <p class="text primaryText grayColorTexts">
-              Escala tiene el email builder más amigable que he <br class="mobileSmallElement"> utilizado en los <br class="desktopTabletElement"> últimos años, y su equipo está <br class="mobileSmallElement"> comprometido a mantener la <br class="desktopTabletElement"> plataforma en constante <br class="mobileSmallElement"> actualización en el dinámico mundo digital.
+
+              Escala tiene el email builder más amigable <br class="desktopTabletElement">
+              que he utilizado en los últimos años, y su <br class="desktopTabletElement">
+              equipo está comprometido a mantener la <br class="desktopTabletElement">
+              plataforma en constante actualización en <br class="desktopTabletElement">
+              el dinámico mundo digital.
+
             </p>
 
 
@@ -297,14 +541,11 @@ $parameters = array(
             </div>
 
 
-
-
-
           </div>
           <div class="image col-md-12 col-lg-6">
             <div class="containerImage">
 
-              <img src="{!! App::setFilePath('/assets/images/illustrations/team/astro-precios-sinplata_1.png') !!}" alt="" loading="lazy">
+              <img src="{!! App::setFilePath('/assets/images/illustrations/others/tablet_otto_1.png') !!}" alt="" loading="lazy">
 
           </div>
           </div>
@@ -328,12 +569,16 @@ $parameters = array(
   'classSection' => 'landingPricingPage6',
   'backgroundImageFile' => null,
   'enableTitle' => false,
-  'img' =>  App::setFilePath('/assets/images/person/am/am_pricing.png'),
-  'title' => 'En Escala hay un plan <br class="space"> del tamaño de tus sueños',
+  'img' =>  App::setFilePath('/assets/images/person/am/andres_moreno_email_marketing.png'),
+  'title' => '
+  <span class="greenBlueColor">
+    En Escala hay un plan</span> <br class="space">
+    del tamaño de tus sueños
+  ',
   'text' => null,
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Escala ahora',
+  'textButton' => 'Prueba gratis',
   'typeButton' => 'primaryButton',
   'side' => 'right',
 
