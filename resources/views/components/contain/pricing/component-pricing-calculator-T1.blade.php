@@ -406,7 +406,7 @@
                                         <div class="finalButtons">
 
                                             <a class="primaryButton hoverInEffect btn-popup-header">
-                                                Comienza ahora
+                                                Prueba gratis
                                             </a>
 
                                             <a
