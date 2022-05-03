@@ -114,7 +114,7 @@ $parameters = array(
           <tbody>
 
             <tr >
-              <td class="beginRow t1" rowspan="7">
+              <td class="beginRow t1" rowspan="8">
                 <span>
                   Implementación
                 </span>
@@ -136,6 +136,14 @@ $parameters = array(
             <tr>
               {{-- <th>Complementarios</td> --}}
               <td>Plan personalizado de implementación</td>
+              <td></td>
+              <td class="ch">
+                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+              </td>
+            </tr>
+            <tr>
+              {{-- <th>Complementarios</td> --}}
+              <td>Capacitaciones privadas de plataforma para equipo</td>
               <td></td>
               <td class="ch">
                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
@@ -167,7 +175,7 @@ $parameters = array(
             </tr>
             <tr class="borderB">
               {{-- <th>Complementarios</td> --}}
-              <td>Transferencia de data con descuento</td>
+              <td>Migraciòn de data</td>
               <td></td>
               <td class="ch">
                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
@@ -225,30 +233,33 @@ $parameters = array(
                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
               </td>
             </tr>
-            <tr >
-              <td class="beginRow t1" rowspan="3">
-                <span>
-                  Canales de comunicación
-                  </span>
-                  </td>
-              <td>Chat en plataforma</td>
-              <td class="ch">
-                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
-              </td>
-              <td class="ch">
-                <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
-              </td>
-            </tr>
             <tr>
               {{-- <th>Complementarios</td> --}}
+                <td class="beginRow t1" rowspan="3">
+                  <span>
+                    Canales de comunicación
+                    </span>
+                    </td>
               <td>Email de servicio</td>
-              <td></td>
               <td class="ch">
                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
-              </td>
+             </td>
+             <td class="ch">
+               <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+             </td>
             </tr>
+            <tr >
+
+              <td>Chat en plataforma</td>
+             <td></td>
+             <td class="ch">
+              <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
+            </td>
+            </tr>
+
             <tr class="borderB">
               {{-- <th>Complementarios</td> --}}
+
               <td>Whatsapp de servicio</td>
               <td></td>
               <td class="ch">
