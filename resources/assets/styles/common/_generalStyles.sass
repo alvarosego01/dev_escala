@@ -1010,9 +1010,14 @@ input[type=range]
 
 .vjs-poster
     background-size: cover!important
+    @include responsivo(telefonoTable)
+        display: none
+    @include responsivo(pcMedio)
+        display: none
 
 .video-js
     .vjs-big-play-button
         top: 50%!important
         left: 50%!important
         transform: translate(-50%,-50%)!important
+
