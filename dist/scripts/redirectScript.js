@@ -63,14 +63,14 @@ document.addEventListener('wpcf7mailsent', async (e) => {
 
     console.log('specialRedirect',specialRedirect);
 
-    if ((specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0)) {
+    if ( (specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0) ) {
 
         re = specialRedirect[0].value;
 
     }
 
     // redirect
-    if (typeof (dataPHP) !== 'undefined') {
+    if (typeof (dataPHP) !== 'undefined' && re == null) {
 
         if (dataPHP.redirect) {
 
@@ -80,7 +80,7 @@ document.addEventListener('wpcf7mailsent', async (e) => {
 
     }
 
-    if ( document.querySelector("#redirectParam") != null) {
+    if ( document.querySelector("#redirectParam") != null && re == null) {
 
         // re = jQuery('#redirectParam').val();
         let _z = document.querySelector("#redirectParam")
@@ -104,7 +104,7 @@ document.addEventListener('wpcf7mailsent', async (e) => {
 
 document.addEventListener('wpcf7mailfailed', async (e) =>  {
 
-    let inputs = e['detail']['inputs'];
+   let inputs = e['detail']['inputs'];
     let l = e.path;
     let re = null;
 
@@ -124,14 +124,14 @@ document.addEventListener('wpcf7mailfailed', async (e) =>  {
 
     console.log('specialRedirect',specialRedirect);
 
-    if ((specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0)) {
+    if ( (specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0) ) {
 
         re = specialRedirect[0].value;
 
     }
 
     // redirect
-    if (typeof (dataPHP) !== 'undefined') {
+    if (typeof (dataPHP) !== 'undefined' && re == null) {
 
         if (dataPHP.redirect) {
 
@@ -141,7 +141,7 @@ document.addEventListener('wpcf7mailfailed', async (e) =>  {
 
     }
 
-    if ( document.querySelector("#redirectParam") != null) {
+    if ( document.querySelector("#redirectParam") != null && re == null) {
 
         // re = jQuery('#redirectParam').val();
         let _z = document.querySelector("#redirectParam")
@@ -153,11 +153,12 @@ document.addEventListener('wpcf7mailfailed', async (e) =>  {
 
     if (re && re != null && re != '') {
         console.log('prev 1 red' + re);
+
         re = parametersToRedirect(re, inputs);
+        console.log('redirect form sent', re);
 
-        console.log('redirect form failed', re);
+        window.location.href = re;
 
-        // window.location.href = re;
     }
 
 }, false);

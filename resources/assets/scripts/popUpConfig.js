@@ -50,8 +50,6 @@ jQuery(document).ready(function () {
 
         e.preventDefault();
 
-        _openSideNav('close');
-
         var classList = [];
 
         e.currentTarget.classList.forEach( function(r) {
