@@ -17,7 +17,7 @@
 
 @endphp
 
-<div class="customPopUp general_2022 modal fade {{ $popup_call_class }}" id="{{ $popup_call_class }}"
+<div class= "customPopUp  general_2022 modal fade {{ $popup_call_class }}" id="{{ $popup_call_class }}"
     aria-hidden="true" aria-labelledby="{{ $popup_call_class }}" tabindex="-1">
 
     <div class="modal-dialog modal-dialog-centered type2022">
@@ -83,7 +83,7 @@
 
                                     <div class="sect2">
 
-                                        <div class="formatForm {{ uniqid() }}" id="redirectWeb" redirectWeb="true">
+                                        <div class="formatForm redirectWeb"   redirectWeb="true">
 
                                             <h5 class="titleFormat blackcolor">
                                                 @if (isset($form_title) && $form_title != null)
@@ -98,7 +98,7 @@
                                             @if (isset($form_shortcode) && $form_shortcode != null)
                                                 {!! do_shortcode($form_shortcode) !!}
                                             @else
-                                                {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!}
+                                                {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1" ]') !!}
                                             @endif
 
 
