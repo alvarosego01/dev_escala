@@ -18,6 +18,17 @@ $l = ACF_CUSTOM::_getField('enable_popup');
 
         @if (isset($x) && $x != null && count( $x ) > 0)
 
+        <script type="text/javascript">
+
+jQuery(document).ready(function () {
+console.log('jet popup retirado');
+jQuery('.jet-popup.jet-popup--front-mode').remove();
+
+
+});
+
+
+        </script>
             @foreach ($x as $item)
 
                 @php

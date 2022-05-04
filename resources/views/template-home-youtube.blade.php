@@ -1272,8 +1272,9 @@ hacer crecer tu negocio.
 
       <div class="containElements">
 
-        <h3 class="primaryTitle greenBlueColor">
-          Comienza a generar más leads, clientes y ventas
+        <h3 class="primaryTitle">
+          Comienza a generar más leads, <br class="space">
+          <span class="greenBlueColor">clientes y ventas</span>
         </h3>
 
         <a href="#lead-form" class="goToHash primaryButton hoverInEffect">

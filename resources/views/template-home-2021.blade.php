@@ -80,7 +80,7 @@
 
                   <div class="containElements">
 
-                      <div class="formatForm" id="redirectWeb" redirectWeb="true">
+                      <div class="formatForm redirectWeb"   redirectWeb="true">
 
                           <h4 class="titleFormat blackcolor">
                             Empieza a probar Escala
