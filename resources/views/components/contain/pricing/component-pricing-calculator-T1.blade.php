@@ -24,7 +24,7 @@
                                 </small>
 
                                 <small class="miniText">
-                                    Recuerda que solo puedes acceder al Plan Pro a partir de 5.000 contactos
+                                    Plan Pro: A partir de 5.000 contactos
                                 </small>
 
                                 <div class="box">
@@ -371,13 +371,13 @@
 
                                         <div class="buttonPriceSelector">
 
-                                            <button type="button" onclick="typeCustomPay('yearly', this)"
-                                                id="buttonPayTime-year" class="selectorPricingButton active">
-                                                PAGAR ANUAL
-                                            </button>
                                             <button type="button" onclick="typeCustomPay('monthly', this)"
                                                 id="buttonPayTime-month" class="selectorPricingButton ">
                                                 PAGAR MENSUAL
+                                            </button>
+                                            <button type="button" onclick="typeCustomPay('yearly', this)"
+                                                id="buttonPayTime-year" class="selectorPricingButton active">
+                                                PAGAR ANUAL
                                             </button>
 
                                         </div>
