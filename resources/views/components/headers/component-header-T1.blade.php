@@ -115,7 +115,7 @@ if (!$threeCol) {
 
                             <div class="containElements">
 
-                                <div class="formatForm" id="redirectWeb" redirectWeb="true">
+                                <div class="formatForm redirectWeb"   redirectWeb="true">
 
                                     <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 
@@ -242,7 +242,7 @@ if (!$threeCol) {
 
                         <div class="containElements">
 
-                            <div class="formatForm" id="redirectWeb" redirectWeb="true">
+                            <div class="formatForm redirectWeb"   redirectWeb="true">
 
                                 <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 

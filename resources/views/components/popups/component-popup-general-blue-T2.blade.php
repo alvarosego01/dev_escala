@@ -15,7 +15,7 @@
 
 @endphp
 
-<div class="customPopUp general2Blue modal fade {{ $popup_call_class }}" id="{{ $popup_call_class }}" aria-hidden="true"
+<div class= "customPopUp {!! uniqid() !!} general2Blue modal fade {{ $popup_call_class }}" id="{{ $popup_call_class }}" aria-hidden="true"
     aria-labelledby="{{ $popup_call_class }}" tabindex="-1">
 
     <div class="modal-dialog modal-dialog-centered">
@@ -133,7 +133,7 @@
                                 <div class="containElements">
 
 
-                                    <div class="formatForm" id="redirectWeb" redirectWeb="true">
+                                    <div class="formatForm redirectWeb"   redirectWeb="true">
 
                                         <h5 class="titleFormat blackcolor">
                                             @if (isset($form_title) && $form_title != null)
