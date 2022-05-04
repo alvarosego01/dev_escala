@@ -274,7 +274,7 @@
             position: relative
             .closePopUp
                 position: absolute
-                left: 10
+                // left: 10
                 top: 15px
                 width: 25px
                 height: 25px
@@ -300,17 +300,27 @@
                     left: unset
                     right: 15px
                     margin-left: auto
+                @include responsivo(general)
+                    right: 20px
+                    margin-left: auto
+                    color: white!important
+
+                @include responsivo(resto)
+                    right: 20px
+                    margin-left: auto
+                    color: white!important
+
             .row
                 .info
                     padding: 50px 25px
                     padding-bottom: 25px
                     @include responsivo(telefonoTable)
                         padding: 25px
-                        padding-bottom: 0
+                        // padding-bottom: 0
                         padding-top: 35px
                     @include responsivo(pcMedio)
                         padding: 25px
-                        padding-bottom: 0
+                        // padding-bottom: 0
                         padding-top: 35px
                     .containElements
                         .sect1
@@ -333,7 +343,7 @@
                                 letter-spacing: -1px
                                 margin-bottom: 20px
                                 @include responsivo(telefonoTable)
-                                    font-size: 16px
+                                    font-size: 18px
                                     margin-bottom: 15px
 
                                 @include responsivo(pcMedio)
@@ -353,7 +363,7 @@
                                 text-align: center
                                 letter-spacing: -1px
                                 @include responsivo(telefonoTable)
-                                    font-size: 12px
+                                    font-size: 13px
                                     margin-bottom: 15px
 
                                 @include responsivo(pcMedio)
@@ -419,7 +429,7 @@
                                         padding-bottom: 5px!important
                                     input.wpcf7-form-control.wpcf7-submit
                                         position: relative
-                                        top: -10px
+                                        top: 5px
 
 
                         // .sect2
@@ -486,7 +496,7 @@
                                     margin-bottom: 15px
 
                                 @include responsivo(pcMedio)
-                                    font-size: 18px
+                                    font-size: 16.5px
                                     margin-bottom: 15px
 
                                 @include responsivo(general)
