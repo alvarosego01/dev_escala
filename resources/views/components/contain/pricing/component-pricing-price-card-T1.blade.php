@@ -24,9 +24,11 @@ $items = [
         'price' => 'A partir de <br class="space">
         <span class="cost">
             <i class="fas fa-dollar-sign"></i>
-            <span class="numerCost">30</span>
             <span
             style="display: none"
+            class="numerCost">30</span>
+            <span
+
             class="discountCost">21</span>
             <span class="usd">
                 USD
@@ -51,14 +53,22 @@ $items = [
                     </strong>
                 </span>
         </p>',
+
         'extendDetails' => [
             [
                 'title' => 'Landing page',
-                'items' => ['Páginas: <strong>ilimitadas</strong>', 'Subdominio personalizado', 'Dominios propios: <strong>1</strong>'],
+                'items' => ['
+                Páginas: <strong>ilimitadas</strong>',
+                'Subdominio personalizado',
+                'Dominios propios: <strong>1</strong>'
+            ],
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <br class="space"> <strong>5.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => [
+                    'Emails marketing al mes: <br class="space"> <strong>5.000</strong>',
+                    'Plantillas: <strong>todas las disponibles</strong>'
+                ],
             ],
             [
                 'title' => 'Automatizaciones',
@@ -66,29 +76,37 @@ $items = [
             ],
             [
                 'title' => 'Formularios',
-                'items' => ['Número de formularios: <strong>ilimitados</strong>'],
+                'items' => [
+                    'Número de formularios: <strong>ilimitados</strong>'
+                ],
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>1.000</strong>', 'Usuarios de venta: <strong>1</strong>', 'Emails de CRM: <strong>ilimitados</strong>',
-                'Embudos de oportunidades: 1'
+                'items' => [
+                    'Contactos en base de datos: <strong>1.000</strong>',
+                    'Contactos de marketing: <br class="space"> <strong>1.000</strong>',
+                    'Usuarios de venta: <strong>1</strong>',
+                    'Emails de CRM: <strong>ilimitados</strong>',
+                    'Embudos de oportunidades: 1'
             ],
             ],
 
             [
                 'title' => 'Analíticas',
-                'items' => ['Dashboard de <strong>administradores y vendedores</strong>'],
+                'items' => [
+                    'Dashboard de <strong>administradores y vendedores</strong>'
+                ],
             ],
         ],
         'details' => [
             [
                 'title' => null,
                 'items' => [
-                    'Contactos en base de datos: <strong>1.000.000</strong>',
-                    'Emails marketing al mes: <strong>5.000</strong>',
-                    'Dominios propios: <strong>1</strong>',
-                    '<br>',
-                    '<br>'
+                    'Landing Pages limitadas',
+                    'Dominio personalizado',
+                    'CRM integrado',
+                    'Formularios ilimitados',
+                    'Analíticas',
                 ],
             ],
         ],
@@ -100,9 +118,10 @@ $items = [
         'price' => 'A partir de <br class="space">
         <span class="cost">
             <i class="fas fa-dollar-sign"></i>
-            <span class="numerCost">135</span>
             <span
             style="display: none"
+            class="numerCost">135</span>
+            <span
             class="discountCost">95</span>
             <span class="usd">
                 USD
@@ -131,52 +150,65 @@ $items = [
         'extendDetails' => [
             [
                 'title' => 'Landing page',
-                'items' => ['Páginas: <strong>ilimitadas</strong>', 'Subdominio personalizado', 'Dominios propios: <strong>5</strong>'],
+                'items' => [
+                    'Páginas: <strong>ilimitadas</strong>',
+                    'Subdominio personalizado',
+                    'Dominios propios: <strong>5</strong>'],
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <br class="space"> <strong>10.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => [
+                    'Emails marketing al mes: <br class="space"> <strong>50.000</strong>',
+                    'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
-                'items' => ['Flujos: <strong>100</strong>',
-                'Bifurcaciones'
+                'items' => [
+                    'Flujos: <strong>100</strong>',
+                    'Bifurcaciones de flujos'
             ],
             ],
             [
                 'title' => 'Formularios',
-                'items' => ['Número de formularios: <strong>ilimitados</strong>'],
+                'items' => [
+                    'Número de formularios: <strong>ilimitados</strong>'
+                ],
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>',
-                'Contactos de marketing: <br class="space"> <strong>5.000</strong>',
-                'Usuarios de venta: <strong>1</strong>',
-                'Emails de CRM: <strong>ilimitados</strong>',
-                'Embudos de oportunidades: <strong>10</strong>',
-                'Lead scoring',
-                'Segmentaciòn avanzada',
-                'Extensiòn de Whatsapp web'
+                'items' => [
+                    'Contactos en base de datos: <strong>5.000</strong>',
+                    'Contactos de marketing: <br class="space"> <strong>5.000</strong>',
+                    'Usuarios de venta: <strong>1</strong>',
+                    'Emails de CRM: <strong>ilimitados</strong>',
+                    'Embudos de oportunidades: <strong>10</strong>',
+                    'Lead scoring',
+                    'Segmentaciòn avanzada',
+                    'Extensiòn de WhatsApp Web'
             ],
             ],
             [
                 'title' => 'Anuncios Digitales',
-                'items' => ['Cuentas de Facebook Ads Manager: <strong>3</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'],
+                'items' => [
+                    'Cuentas de Facebook Ads Manager: <strong>3</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'
+                ],
             ],
             [
                 'title' => 'Analíticas',
-                'items' => ['Dashboard de <strong>administradores y vendedores</strong>'],
+                'items' => [
+                    'Dashboard de <strong>administradores y vendedores</strong>'
+                ],
             ],
         ],
         'details' => [
             [
                 'title' => null,
                 'items' => [
-                'Contactos en base de datos: <strong>1.000.000</strong>',
-                'Emails marketing al mes: <strong>10.000</strong>',
-                'Dominios propios: <strong>5</strong>',
-                'Cuentas de Facebook Ads Manager: <strong>3</strong>',
-                'Lead Scoring'
+                    'Bifurcaciones de flujos',
+                    'Múltiples embudos de ventas',
+                    'Lead scoring',
+                    'Segmentación avanzada',
+                    'Extensión WhatsApp Web',
             ],
 
 
@@ -192,7 +224,13 @@ $items = [
         </span>',
         'typePrice' => null,
         'middleType' => null,
-        'textMiddle' => 'Contáctanos para crear un plan hecho<br class="space">a la medida de tu necesidades',
+        'textMiddle' => '
+            <strong>A partir de 100.000 contactos de Marketing</strong>
+            <br class="space">
+            <br class="space">
+            Contáctanos para crear un plan hecho <br class="space">
+            a la medida de tu necesidades
+        ',
         'button' => true,
         'textButton' => 'Hablar con un asesor',
         'customClasses' => 'cardPlan3',
@@ -203,55 +241,65 @@ $items = [
                 'items' => [
                     'Páginas: <strong>ilimitadas</strong>',
                     'Subdominio personalizado',
-                    'Dominios propios: <strong>10</strong>'
+                    'Dominios propios'
                 ],
             ],
             [
                 'title' => 'Email Marketing',
                 'items' => [
                     'Emails marketing al mes: <br class="space"> <strong> 20 x contactos de marketing</strong>',
-                    'Plantillas: <strong>Todas las disponibles</strong>'],
+                    'Plantillas: <strong>Todas las disponibles</strong>'
+                ],
             ],
             [
                 'title' => 'Automatizaciones',
                 'items' => [
                     'Flujos: <strong>ilimitados</strong>',
-                    'Bifurcaciones'
+                    'Bifurcaciones de flujos'
             ],
             ],
             [
                 'title' => 'Formularios',
-                'items' => ['Número de formularios: <strong>ilimitados</strong>'],
+                'items' => [
+                    'Número de formularios: <strong>ilimitados</strong>'
+                ],
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>A partir de 100.000</strong>', 'Usuarios de venta: <strong>10</strong>',
-                'Emails de CRM: <strong>ilimitados</strong>',
-                'Embudos de oportunidades: <strong>10</strong>',
-                'Lead scoring',
-                'Segmentaciòn avanzada',
-                'Extensiòn de Whatsapp web',
+                'items' => [
+                    'Contactos en base de datos: <strong>1.000.000</strong>',
+                    'Contactos de marketing: <br class="space"> <strong>A partir de 100.000</strong>',
+                    'Usuarios de venta',
+                    'Emails de CRM: <strong>ilimitados</strong>',
+                    'Embudos de oportunidades',
+                    'Lead scoring',
+                    'Segmentación avanzada',
+                    'Extensiòn de WhatsApp Web',
             ],
             ],
             [
                 'title' => 'Anuncios Digitales',
-                'items' => ['Cuentas de Facebook Ads Manager: <strong>5</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'],
+                'items' => [
+                    'Cuentas de Facebook Ads Manager',
+                    'Campañas publicadas: <strong>ilimitadas</strong>'],
             ],
             [
                 'title' => 'Analíticas',
-                'items' => ['Dashboard de <strong>administradores y vendedores</strong>'],
+                'items' => [
+                    'Dashboard de <strong>administradores y vendedores</strong>'
+                ],
             ],
         ],
         'details' => [
             [
                 'title' => null,
                 'items' => [
-                    'Contactos en base de datos: <strong>1.000.000</strong>',
-                    'Emails marketing al mes: <br class="space">,
-                    <strong>20 x contactos de marketing</strong>',
-                    'Dominios propios: <strong>10</strong>',
-                    'Cuentas de Facebook Ads Manager: <strong>5</strong>',
-                    'Lead Scoring'
+                    'Bifurcaciones de flujos',
+                    'Múltiples embudos de ventas',
+                    'Lead scoring',
+                    'Segmentación avanzada',
+                    'Extensión WhatsApp Web',
+                    // '<br>'
                 ],
             ],
         ],
@@ -308,7 +356,7 @@ $items = [
 
 
                                     <div
-                                    style="margin-bottom: 25px"
+                                    style="margin-bottom: 60px"
                                     class="price">
 
                                         <p>
@@ -331,7 +379,9 @@ $items = [
 
                                                     <div class="extraPriceInfo">
 
-                                                        <div style="display: none;" typeplan="{{ $item['name'] }}"
+                                                        {{-- style="display: none;"  --}}
+                                                        <div
+                                                        typeplan="{{ $item['name'] }}"
                                                             class="discountData">
                                                             {!! $item['discountTest'] !!}
                                                         </div>
@@ -471,13 +521,13 @@ $items = [
 
                                                 <a onclick="actionInfoCards('open')" class="extendButton">
                                                     Ver más
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/Rectangle 1342.png') !!}" alt="">
+                                                    {{-- <img src="{!! App::setFilePath('/assets/images/icons/Rectangle 1342.png') !!}" alt=""> --}}
                                                 </a>
                                                 {{-- style="display: none" --}}
-                                                {{-- <a onclick="actionInfoCards('close')" style="display: none;"
+                                                <a onclick="actionInfoCards('close')" style="display: none;"
                                                     class="hideButton">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/arrowClose.png') !!}" alt="">
-                                                </a> --}}
+                                                </a>
 
                                             </div>
 
@@ -546,7 +596,7 @@ $items = [
 
 
                                     <div
-                                    style="margin-bottom: 25px"
+                                    style="margin-bottom: 60px"
                                     class="price">
 
                                         <p>
@@ -569,7 +619,9 @@ $items = [
 
                                                     <div class="extraPriceInfo">
 
-                                                        <div style="display: none;" typeplan="{{ $item['name'] }}"
+                                                        {{-- style="display: none;"  --}}
+                                                        <div
+                                                        typeplan="{{ $item['name'] }}"
                                                             class="discountData">
                                                             {!! $item['discountTest'] !!}
                                                         </div>

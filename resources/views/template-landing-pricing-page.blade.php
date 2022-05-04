@@ -87,11 +87,11 @@ $parameters = array(
       <div class="containElements">
 
         <h2 class="primaryTitle greenBlueColor">
-          Servicio
+          En Escala lo tienes todo: Plataforma + servicio
         </h2>
 
         <p class="primaryText grayColorTexts">
-          En Escala te acompañamos desde el primer día para guiarte en todo tu camino al éxito.
+          No solamente somos una plataforma fácil de usar, somos un equipo de servicio al cliente <br class="desktopTabletElement"> comprometido con el crecimiento de tu negocio.
         </p>
 
 
@@ -260,7 +260,7 @@ $parameters = array(
             <tr class="borderB">
               {{-- <th>Complementarios</td> --}}
 
-              <td>Whatsapp de servicio</td>
+              <td>WhatsApp de servicio</td>
               <td></td>
               <td class="ch">
                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
