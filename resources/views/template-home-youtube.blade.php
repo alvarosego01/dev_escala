@@ -114,9 +114,7 @@ aumentar las ventas en sus negocios.
  ) ;
 @endphp
 
-
 @contain_text_video_T1( $parameters )
-
 @endcontain_text_video_T1
 
 
