@@ -452,6 +452,11 @@ a[disabled]
         font-size: 18px!important
         padding: 10px 25px!important
 
+.menuButton.menuPrimaryButton a,
+.menuButton.menuPrimaryButton button
+    @include responsivo(telefonoTable)
+        font-size: 11px!important
+        padding: 10px 10px!important
 
 
 
@@ -533,6 +538,12 @@ a[disabled]
     @include responsivo(pcMedio)
         font-size: 18px!important
         padding: 10px 25px!important
+
+.menuButton.menuSecondaryButton a,
+.menuButton.menuSecondaryButton button
+    @include responsivo(telefonoTable)
+        font-size: 11px!important
+        padding: 10px 10px!important
 
 .hoverSecondaryButton
     &:hover

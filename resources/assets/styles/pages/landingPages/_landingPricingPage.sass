@@ -216,14 +216,14 @@
                                     padding-top: 35px
                             .elementBody
                                 padding: 25px 0
-                                padding-bottom: 35px
+                                padding-bottom: 50px
                                 transition: $trans
                                 @include responsivo(telefonoTable)
                                     padding-inline-end: 25px 0
                                     padding-top: 0
                                     padding-bottom: 15px
 
-                                @include responsivo(general)
+                                @include responsivo(pcMedio)
                                     padding: 25px 0
                                     padding-bottom: 40px
                                     padding-top: 0
@@ -531,19 +531,20 @@
                                     ul
                                         margin: 0
                                         li
-                                            margin-bottom: 7.5px!important
+                                            margin-bottom: 10px!important
                                             i
                                                 font-family: Nunito
                                                 font-style: normal
                                                 font-weight: bold
                                                 font-size: 12px
+                                                top: 2px
                                                 line-height: 18px
                                             span
                                                 font-family: Nunito
                                                 font-style: normal
                                                 font-weight: 300
                                                 font-size: 14px
-                                                line-height: 16px!important
+                                                line-height: 18px!important
                                                 letter-spacing: -1px
                                                 strong
                                                     font-weight: bold
@@ -662,6 +663,7 @@
                             text-align: center
                             letter-spacing: -2px
                             color: #00506B
+                            margin-bottom: 25px
                             @include responsivo(telefonoTable)
                                 font-size: 25px
                             @include responsivo(pcMedio)
