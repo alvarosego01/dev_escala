@@ -161,6 +161,18 @@
                             border: none
 
                     .containElements
+                        @include responsivo(telefonoTable)
+                            width: 90%
+                            margin: 0 auto
+                        @include responsivo(pcMedio)
+                            width: 80%
+                            margin: 0 auto
+                        .preViewPriceTag
+                            color: #140c28!important
+                            display: block
+                            font-size: 14px
+                            line-height: 1
+                            letter-spacing: -1
                         #plan3.elementParent
                             .innerMiddle
                                 @include responsivo(general)
@@ -170,7 +182,7 @@
 
                         .elementParent
                             @include responsivo(telefonoTable)
-                                margin-bottom: 50px
+                                margin-bottom: 25px
                             @include responsivo(pcMedio)
                                 margin-bottom: 50px
                             .elementPrice
@@ -198,16 +210,25 @@
                                     line-height: 35px
                                     margin-bottom: 0
                                     letter-spacing: -1px
+                                @include responsivo(telefonoTable)
+                                    padding-top: 35px
+                                @include responsivo(pcMedio)
+                                    padding-top: 35px
                             .elementBody
                                 padding: 25px 0
                                 padding-bottom: 35px
                                 transition: $trans
                                 @include responsivo(telefonoTable)
                                     padding-inline-end: 25px 0
+                                    padding-top: 0
+                                    padding-bottom: 15px
 
                                 @include responsivo(general)
                                     padding: 25px 0
                                     padding-bottom: 40px
+                                    padding-top: 0
+                                    padding-bottom: 15px
+
                                 .listCustom
                                     h4
                                         color: $colorBlue
@@ -217,10 +238,22 @@
                                             span
                                                 font-weight: 500
                                                 color: $colorGrey5
+                                .preView
+                                    .price
+                                        @include responsivo(telefonoTable)
+                                            margin-bottom: 25px!important
+                                        @include responsivo(pcMedio)
+                                            margin-bottom: 25px!important
+                                        .cost
+                                            @include responsivo(telefonoTable)
+                                                margin-bottom: 0
+                                            @include responsivo(pcMedio)
+                                                margin-bottom: 0
                                 .price
                                     position: relative
                                     height: 100px
                                     // margin-bottom: 50px
+
                                     @include responsivo(telefonoTable)
                                         display: flex
                                         justify-content: center
@@ -481,13 +514,13 @@
                                     transition: $trans
                                     @include responsivo(telefonoTable)
                                         padding: 15px 0
-                                        padding-top: 25px
+                                        padding-top: 15px
                                         width: fit-content
                                         margin: 0
                                         margin-left: 27.5%
                                     @include responsivo(pcMedio)
                                         padding: 15px 0
-                                        padding-top: 25px
+                                        padding-top: 15px
                                         width: fit-content
                                         margin: 0
                                         margin-left: 20vw
@@ -820,8 +853,10 @@
                                     padding-right: 0
                                     @include responsivo(telefonoTable)
                                         padding-left: 0
+                                        padding-bottom: 15px
                                     @include responsivo(pcMedio)
                                         padding-left: 0
+                                        padding-bottom: 15px
                                     .secondaryTitle
                                         font-family: Nunito
                                         font-style: normal
@@ -977,8 +1012,10 @@
                 padding: 50px 0
                 @include responsivo(telefonoTable)
                     width: 90%
+                    padding-top: 0
                 @include responsivo(pcMedio)
                     width: 70%
+                    padding-top: 0
                 @include responsivo(general)
                     width: 100%!important
                     max-width: 1140px!important
@@ -1034,9 +1071,11 @@
                     @include responsivo(telefonoTable)
                         font-size: 25px
                         text-align: center
+                        margin-bottom: 15px
                     @include responsivo(pcMedio)
                         font-size: 30px
                         text-align: center
+                        margin-bottom: 15px
                     @include responsivo(general)
                         font-size: 32.5px
                     @include responsivoSpecial(992px, 1125px)
@@ -1272,14 +1311,16 @@
                                             font-weight: 600
                                             font-size: 16px
 
-                                            width: max(10vw, 200px)
-                                            padding-left: 10px
-                                            padding-right: 10px
+                                            width: max(10vw, 250px)
+                                            padding-left: auto
+                                            padding-right: auto
                                             @include responsivo(telefonoTable)
-                                                width: max(10vw, 200px)
+                                                width: max(10vw, 250px)!important
+                                                font-size: 14px
 
                                             @include responsivo(pcMedio)
-                                                width: max(10vw, 200px)
+                                                width: max(10vw, 300px)!important
+                                                font-size: 14px
 
                                     .buttonPriceSelector
                                         margin-bottom: 10px
@@ -1489,6 +1530,16 @@
 
                 .innerSectionElement.sct1
                     .containElements
+                        .miniTitle,
+                        .miniText
+                            @include responsivo(telefonoTable)
+                                text-align: center
+                                margin: 0
+                                margin-bottom: 20px!important
+                            @include responsivo(pcMedio)
+                                text-align: center
+                                margin: 0
+                                margin-bottom: 20px!important
                         h2
                             text-align: center
                             color: $colorGrey5
@@ -1540,9 +1591,9 @@
                                 flex-direction: row
                                 width: 100%
                                 @include responsivo(telefonoTable)
-                                    flex-direction: column
+                                    flex-direction: row
                                 @include responsivo(pcMedio)
-                                    flex-direction: column
+                                    flex-direction: row
                                 .opt
                                     // display: none
                                     display: flex
@@ -1555,6 +1606,7 @@
                                     @include responsivo(telefonoTable)
                                         width: 100%
                                         justify-content: flex-start
+                                        padding: 10px 15px
                                         .customCheckBox,
                                         h3,
                                         .priceTag
@@ -1562,6 +1614,7 @@
                                     @include responsivo(pcMedio)
                                         width: 100%
                                         justify-content: flex-start
+                                        padding: 10px 15px
                                         .customCheckBox,
                                         h3,
                                         .priceTag
@@ -1582,6 +1635,18 @@
                                             svg
                                                 width: 25px
                                                 height: 25px
+                                                @include responsivo(telefonoTable)
+                                                    height: 20px
+                                                    width: 20px
+                                                @include responsivo(pcMedio)
+                                                    height: 20px
+                                                    width: 20px
+                                        @include responsivo(telefonoTable)
+                                            margin-right: 15px
+                                            width: 20px
+                                        @include responsivo(pcMedio)
+                                            margin-right: 15px
+                                            width: 20px
 
                                     h3
                                         color: $colorGrey5
@@ -1594,9 +1659,10 @@
                                         line-height: 31px
                                         letter-spacing: -1px
                                         @include responsivo(telefonoTable)
-                                            font-size: 18px
+                                            font-size: 14px
+                                            margin: 0
                                         @include responsivo(pcMedio)
-                                            font-size: 18px
+                                            font-size: 16px
                                     .priceTag
                                         display: none!important
                                         padding: 0

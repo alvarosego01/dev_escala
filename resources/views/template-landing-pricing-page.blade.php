@@ -577,9 +577,9 @@ $parameters = array(
   ',
   'text' => null,
   'enableButton' => true,
-  'urlButton' => '#lead-form',
+  'urlButton' => '#',
   'textButton' => 'Prueba gratis',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton openPopUpButton popup-general-trial-2022',
   'side' => 'right',
 
  ) ;
