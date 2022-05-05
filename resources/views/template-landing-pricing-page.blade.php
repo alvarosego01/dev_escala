@@ -78,7 +78,7 @@ $parameters = array(
 @endpricing_card_T1
 
 
-<section class="customSection sectionParent landingPricingPage3_2022">
+<section class="customSection sectionParent landingPricingPage3_2022 desktopElement">
 
   <div class="section-row">
 
