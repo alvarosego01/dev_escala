@@ -16,7 +16,7 @@
 
                         <div class="containElements">
 
-                            <div class="plansSection desktopElement">
+                            <div class="plansSection">
                                 <small class="miniTitle">
 
                                     Elige tu plan
@@ -89,12 +89,7 @@
 
                             </div>
 
-                            <div class="plansSection mobileElement">
-                                <small mobPlan>
-                                    Plan Starter
-                                </small>
 
-                            </div>
 
 
 
@@ -405,15 +400,15 @@
                                         </div>
                                         <div class="finalButtons">
 
-                                            <a class="primaryButton hoverInEffect btn-popup-header">
+                                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                                                 Prueba gratis
                                             </a>
 
                                             <a
-                                            target="_blank"
-                                            href="{!! App::setTypeUrl() !!}/zoom-demo"
-                                            class="secondaryButton hoverInEffect">
-                                                Habla con un asesor
+
+
+                                            class="secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                                Hablar con un asesor
                                             </a>
 
                                         </div>

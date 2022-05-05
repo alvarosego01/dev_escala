@@ -289,6 +289,48 @@ function calculateRangeValue(data) {
 }
 
 
+function revealMobileView( type = null, plan ){
+
+
+    if( type != null ){
+
+    console.log('type', type);
+    console.log('plan', plan);
+
+        if( type == 'open' ){
+
+            jQuery('#' + plan + ' .versionMobile2022 .preView').hide();
+            jQuery('#' + plan + ' .versionMobile2022 .fullView').show();
+
+        }
+        if( type == 'close' ){
+
+            jQuery('#' + plan + ' .versionMobile2022 .fullView').hide();
+            jQuery('#' + plan + ' .versionMobile2022 .preView').show();
+
+            if( jQuery('.modePlanSelect')[0].checked == false){
+
+
+                // discountByPlanCard('plan1', jQuery('.modePlanSelect')[0] );
+
+                // console.log('cambiado a true');
+
+                jQuery('.modePlanSelect')[0].click();
+
+
+
+            }
+
+        }
+
+
+
+    }
+
+}
+
+
+
 
 function calculateFinal(data) {
 
@@ -430,6 +472,7 @@ function discountByPlanCard(type, element){
 
 
     if(type != null){
+
 
         if(element.checked == true){
 

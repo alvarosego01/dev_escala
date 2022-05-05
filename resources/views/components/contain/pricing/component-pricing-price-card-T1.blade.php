@@ -34,6 +34,23 @@ $items = [
                 USD
             </span>
         </span>',
+        'pricePreviewMobie' => 'A partir de <br class="space">
+        <span class="cost">
+            <i class="fas fa-dollar-sign"></i>
+            <span
+            style="display: none"
+            class="numerCost">30</span>
+            <span
+
+            class="discountCost">21</span>
+            <span class="usd">
+                USD
+            </span>
+        </span>
+        <small class="preViewPriceTag">
+            Precio mensual en plan anual
+        </small>
+        ',
         'typePrice' => 'Dollar',
         'middleType' => 'selectorAnual',
         'textMiddle' => null,
@@ -127,6 +144,22 @@ $items = [
                 USD
             </span>
         </span>',
+        'pricePreviewMobie' => 'A partir de <br class="space">
+        <span class="cost">
+            <i class="fas fa-dollar-sign"></i>
+            <span
+            style="display: none"
+            class="numerCost">135</span>
+            <span
+            class="discountCost">95</span>
+            <span class="usd">
+                USD
+            </span>
+        </span>
+        <small class="preViewPriceTag">
+            Precio mensual en plan anual
+        </small>
+        ',
         'typePrice' => 'Dollar',
         'middleType' => 'selectorAnual',
         'textMiddle' => null,
@@ -222,6 +255,15 @@ $items = [
         'price' => '<span class="contactos">
             <span><i class="fas fa-dollar-sign"></i> CONSULTAR</span>
         </span>',
+        'pricePreviewMobie' => '
+        <small class="preViewPriceTag">
+            <strong>A partir de 100.000 contactos de Marketing</strong>
+            <br class="space">
+            <br class="space">
+            Contáctanos para crear un plan hecho <br class="space">
+            a la medida de tu necesidades
+        </small>
+        ',
         'typePrice' => null,
         'middleType' => null,
         'textMiddle' => '
@@ -314,7 +356,7 @@ $items = [
     <div class="section-row">
 
         @if (isset($titlePrincipal) && $titlePrincipal != null)
-            <section class="innerSectionElement sct1">
+            <section class="innerSectionElement sct1 desktopElement">
 
                 <div class="containElements">
 
@@ -335,7 +377,7 @@ $items = [
             </section>
         @endif
 
-        <section class="desktopElement pcVersion innerSectionElement sct2">
+        <section class=" innerSectionElement sct2">
 
             <div class="containElements row">
 
@@ -352,8 +394,7 @@ $items = [
                                     </h3>
                                 </div>
 
-                                <div class="elementBody">
-
+                                <div class="elementBody desktopElement versionPc2022">
 
                                     <div
                                     style="margin-bottom: 60px"
@@ -362,8 +403,6 @@ $items = [
                                         <p>
 
                                             {!! $item['price'] !!}
-
-
 
                                         </p>
 
@@ -424,7 +463,7 @@ $items = [
 
                                         <div class="buttonSection">
 
-                                            <a class="btn-popup-header primaryButton hoverInEffect">
+                                            <a class="openPopUpButton popup-general-trial-2022 primaryButton hoverInEffect">
                                                 {!! $item['textButton'] !!}
                                             </a>
 
@@ -537,62 +576,35 @@ $items = [
                                     @endif
 
                                 </div>
-                            </div>
 
-                        </div>
+                                {{-- estoy trabajando aqui --}}
+                                <div class="elementBody mobileElement versionMobile2022">
 
-                    @endforeach
+                                    <div class="preView">
 
+                                        <div
+                                        style="margin-bottom: 60px"
+                                        class="price">
+                                            <p>
 
-                @endif
+                                                {!! $item['pricePreviewMobie'] !!}
 
+                                            </p>
+                                        </div>
 
-            </div>
+                                        <div class="buttonSection">
+                                            <a onclick="revealMobileView( 'open', '{{ $item['name'] }}' )" class=" primaryButton hoverInEffect">
+                                                Ver plan completo
+                                            </a>
 
-        </section>
+                                        </div>
 
-        <section class="mobileElement mobileVersion innerSectionElement sct2">
+                                    </div>
 
+                                    <div
+                                    style="display: none"
+                                    class="fullView">
 
-            <div class="nav nav-tabs selectorPlansTab" id="nav-tab" role="tablist">
-
-                @foreach ($items as $item)
-
-                <button onclick="planSelectProcess('{{ $item['name'] }}')" class="nav-link @if ($loop->first) active @endif" id="_{{ $item['name'] }}tab" data-bs-toggle="tab" data-bs-target="#{{ $item['name'] }}tab"
-                  type="button" role="tab" aria-controls="{{ $item['name'] }}tab" @if ($loop->first) aria-selected="true" @endif>
-
-                  <div class="had">
-                    <h3 class="secondaryTitle blackColor">
-                        {!! $item['title'] !!}
-                    </h3>
-                </div>
-
-                </button>
-
-                @endforeach
-
-            </div>
-
-
-
-    <div class="containElements row">
-
-        @if (isset($items) && count($items) > 0)
-
-        <div class="tab-content" id="nav-tabContent">
-            @foreach ($items as $item)
-                    <div class="tab-pane fade @if ($loop->first) active show @endif" id="{{ $item['name'] }}tab" role="tabpanel" aria-labelledby="_{{ $item['name'] }}tab" >
-                        <div id="{{ $item['name'] }}" class="col-md-12 col-lg-4 elementParent">
-
-                            <div class="elementPrice @if (isset($item['customClasses']) && $item['customClasses'] != '') {!! $item['customClasses'] !!} @endif">
-
-                                <div class="had">
-                                    <h3 class="secondaryTitle blackColor">
-                                        {!! $item['title'] !!}
-                                    </h3>
-                                </div>
-
-                                <div class="elementBody">
 
 
                                     <div
@@ -602,8 +614,6 @@ $items = [
                                         <p>
 
                                             {!! $item['price'] !!}
-
-
 
                                         </p>
 
@@ -637,7 +647,7 @@ $items = [
                                                         <input
                                                         checked
                                                             class="modePlanSelect"
-                                                            onchange="discountByPlanCard('{{ $item['name'] }}', this)"
+                                                            onclick="discountByPlanCard('{{ $item['name'] }}', this)"
                                                             value="1" type="checkbox" />
                                                         <div></div>
                                                     </label>
@@ -672,9 +682,9 @@ $items = [
 
                                     @endif
 
-                                    @if (isset($item['details']) && count($item['details'] > 0))
+                                    {{-- @if (isset($item['details']) && count($item['details'] > 0))
 
-                                        <div style="display: block" class="desktopElement featuresPrice short">
+                                        <div style="display: block" class="featuresPrice short">
 
                                             @foreach ($item['details'] as $item2)
 
@@ -691,27 +701,34 @@ $items = [
                                                         @endif
                                                         @foreach ($item2['items'] as $item3)
 
+                                                            @if ( $item3 == '<br>' )
+                                                                <li style="height: 23.984px">
+                                                                </li>
+                                                            @else
+
                                                             <li>
                                                                 <i class="fa fa-check" aria-hidden="true"></i>
                                                                 <span class="blueColor">
                                                                     {!! $item3 !!}
                                                                 </span>
                                                             </li>
+                                                            @endif
 
                                                         @endforeach
                                                     </ul>
                                                 </div>
+                                                <br class="space">
                                                 <br class="space">
 
                                             @endforeach
 
                                         </div>
 
-                                    @endif
+                                    @endif --}}
 
                                     @if (isset($item['extendDetails']) && count($item['extendDetails'] > 0))
 
-                                        <div style="display: none" class="featuresPrice extendDetails">
+                                        <div class="featuresPrice extendDetails">
 
                                             @foreach ($item['extendDetails'] as $item2)
 
@@ -752,18 +769,12 @@ $items = [
 
                                             <div class="buttonSection">
 
-                                                <a onclick="actionInfoCards('open')" class="desktopElement extendButton">
+                                                {{-- <a onclick="actionInfoCards('open')" class="extendButton">
                                                     Ver más
-                                                </a>
 
-
-                                                <button onclick="actionInfoCards('open')" class="thinButton2 extendButton ">
-                                                    Ver detalles del plan
-                                                </button>
-
-
+                                                </a> --}}
                                                 {{-- style="display: none" --}}
-                                                <a onclick="actionInfoCards('close')" style="display: none;"
+                                                <a onclick="revealMobileView('close', '{{ $item['name'] }}')"
                                                     class="hideButton">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/arrowClose.png') !!}" alt="">
                                                 </a>
@@ -776,13 +787,14 @@ $items = [
                                     @endif
 
                                 </div>
+
+                            </div>
+
                             </div>
 
                         </div>
-                    </div>
 
-            @endforeach
-        </div>
+                    @endforeach
 
 
                 @endif
@@ -791,6 +803,8 @@ $items = [
             </div>
 
         </section>
+
+
 
 
 

@@ -78,7 +78,7 @@ $parameters = array(
 @endpricing_card_T1
 
 
-<section class="customSection sectionParent landingPricingPage3_2022">
+<section class="customSection sectionParent landingPricingPage3_2022 desktopElement">
 
   <div class="section-row">
 
@@ -577,9 +577,9 @@ $parameters = array(
   ',
   'text' => null,
   'enableButton' => true,
-  'urlButton' => '#lead-form',
+  'urlButton' => '#',
   'textButton' => 'Prueba gratis',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton openPopUpButton popup-general-trial-2022',
   'side' => 'right',
 
  ) ;
