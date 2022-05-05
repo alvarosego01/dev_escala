@@ -54,6 +54,12 @@ header.customHeader.customSection
     background-color: transparent
     .buttonSections
         height: 100%
+        @include responsivo(telefonoTable)
+            margin-top: auto!important
+            margin-bottom: auto!important
+        @include responsivo(pcMedio)
+            margin-top: auto!important
+            margin-bottom: auto!important
     nav.navbar
         box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%)
         transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s
@@ -65,9 +71,9 @@ header.customHeader.customSection
         padding: 0!important
         .section-row
             @include responsivo(telefonoTable)
-                width: 95%
+                width: 97.5%
             @include responsivo(pcMedio)
-                width: 90%
+                width: 95%
             @include responsivo(general)
                 width: 100%!important
                 max-width: 1140px!important
@@ -121,6 +127,9 @@ header.customHeader.customSection
                 display: flex
                 flex-direction: row
                 justify-content: space-between
+                @include responsivo(telefonoTable)
+                    padding: 0
+
                 .logo
                     display: flex
                     justify-content: center
@@ -173,13 +182,13 @@ header.customHeader.customSection
                     justify-content: center
                     align-items: center
                     @include responsivo(telefonoTable)
-                        margin-left: 10px
+                        margin-left: 5px
 
                     @include responsivo(pcMedio)
-                        margin-left: 10px
+                        margin-left: 7.5px
 
                     @include responsivo(general)
-                        margin-left: 14px
+                        margin-left: 12.5px
 
                     @include responsivo(smallPcTablet)
                         margin-left: 10px
@@ -365,7 +374,7 @@ body
                         &:focus
                             outline: none!important
                         @include responsivo(telefonoTable)
-                            font-size: 12.5px
+                            font-size: 12px
 
                         @include responsivo(pcMedio)
                             font-size: 14px
