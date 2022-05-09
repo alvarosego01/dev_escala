@@ -163,7 +163,7 @@
             <h3 class="primaryTitle whiteText">¿Quieres activar WhatsApp en tu landing page?
             </h3>
 
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
               Comenzar ahora
             </a>
 
@@ -302,7 +302,7 @@
 
                 <p class="primaryText grayColorTexts"><strong>¿No estás seguro de qué hacer o cómo avanzar?</strong> Nuestros estrategas expertos en marketing digital y ventas conocen acerca de tus necesidades y comparten conocimientos probados para conseguir mejores resultados.</p>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                   Probar Escala ahora
                 </a>
 

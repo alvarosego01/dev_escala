@@ -25,14 +25,14 @@ jQuery(document).ready(function () {
 
         if (popup_config.type && popup_config.type == 'on_seconds') {
 
-            if(popup_config.seconds){
+            if (popup_config.seconds) {
 
-                setTimeout( function() {
+                setTimeout(function () {
 
-                    console.log('abre a los segundos ', popup_config.seconds * 1000 );
+                    console.log('abre a los segundos ', popup_config.seconds * 1000);
                     jQuery('[indexpopupbutton]')[0].click();
 
-                }, popup_config.seconds * 1000 );
+                }, popup_config.seconds * 1000);
 
             }
         }
@@ -52,7 +52,7 @@ jQuery(document).ready(function () {
 
         var classList = [];
 
-        e.currentTarget.classList.forEach( function(r) {
+        e.currentTarget.classList.forEach(function (r) {
             classList.push(r);
         });
 
@@ -62,7 +62,7 @@ jQuery(document).ready(function () {
 
         if (classList && classList.length > 0) {
 
-            var i = classList.findIndex( function(r) {
+            var i = classList.findIndex(function (r) {
 
                 // str1.startsWith('Sat')
                 if (r.startsWith('popup-')) {
@@ -81,9 +81,11 @@ jQuery(document).ready(function () {
 
                     console.log('popupid', popupID);
 
-                    // jQuery('.popUpOpenIndexButton[popUp="popup-general-t1"]').click();
-                    jQuery('[indexpopupbutton][popup="'+ popupID +'"]')[0].click();
+                    if (jQuery('[indexpopupbutton][popup="' + popupID + '"]').length > 0) {
 
+                        jQuery('[indexpopupbutton][popup="' + popupID + '"]')[0].click();
+
+                    }
                 }
 
 

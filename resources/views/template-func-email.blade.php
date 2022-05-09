@@ -71,7 +71,7 @@ relaciones se enfríen!',
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Comenzar ahora',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -95,7 +95,7 @@ Aún mejor, ¡sabrás si tus emails están generando ventas!',
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Comenzar ahora',
-  // 'typeButton' => 'primaryButton',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -141,7 +141,7 @@ Con Escala, hemos desarrollado la tecnología que minimiza el riesgo de <br> cae
 'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Publicar modo flash',
-  // 'typeButton' => 'primaryButton',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -162,7 +162,7 @@ Con Escala, hemos desarrollado la tecnología que minimiza el riesgo de <br> cae
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Optimizar resultados',
-  // 'typeButton' => 'primaryButton',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -189,7 +189,7 @@ de las conversaciones uno a uno.',
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Enviar emails',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -251,7 +251,7 @@ de las conversaciones uno a uno.',
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Probar email marketing ahora',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'left',
 
  ) ;

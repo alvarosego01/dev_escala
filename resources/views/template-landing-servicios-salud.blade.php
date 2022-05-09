@@ -57,7 +57,7 @@
                     'enableButton' => true,
                     'urlButton' =>  App::setTypeUrl().'/zoom-meeting',
                     'textButton' => 'Conocer más',
-                    'typeButton' => 'primaryButton hoverInEffect',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                     'titlePrincipal' => '<span class="greenBlueColor">Con Escala</span> crece sin límites',
                     'elements' => [
                         [
@@ -130,7 +130,7 @@
                 'text' => 'No importa el tamaño de tu servicio de salud, empodera tu generación <br class="desktopElement"> de demanda, la capacidad de afianzar relaciones con tus pacientes y la <br class="desktopElement"> posibilidad de seguir brindándoles servicios customizados.',
                 'enableButton' => false,
                 'urlButton' => App::setTypeUrl().'/zoom-meeting',
-                'typeButton' => 'primaryButton',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                 'textButton' => 'Hablar con un asesor',
                 'side' => 'right',
             ];
@@ -152,7 +152,7 @@
                 'text' => 'Conoce nuestros planes para profesionales de la salud.<br class="desktopElement"> Paga por número de contactos de marketing y ten todas <br class="desktopElement"> las herramientas en una sola plataforma.',
                 'enableButton' => true,
                 'urlButton' => App::setTypeUrl().'/zoom-meeting',
-                'typeButton' => 'primaryButton',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                 'textButton' => 'Hablar con un asesor',
                 'side' => 'left',
             ];
@@ -215,7 +215,7 @@
                             <span>Inbound marketing para salud y farma</span>
                         </p>
 
-                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                             ¡Descargar ahora!
                         </a>
 

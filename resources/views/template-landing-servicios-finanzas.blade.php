@@ -139,7 +139,7 @@
                 'text' => 'No importa el tamaño de tu empresa. Empodera a tus equipos:<br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
-                'typeButton' => 'primaryButton',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                 'textButton' => '¡Comenzar ahora!',
                 'side' => 'right',
             ];
@@ -161,7 +161,7 @@
                 'text' => 'En Escala tenemos un plan a la medida de tus necesidades. <br class="desktopElement"> Conoce nuestros planes para cada tamaño de empresa y número <br class="desktopElement"> de contactos de marketing. Optimiza tu inversión en ventas <br class="desktopElement"> y marketing digital.',
                 'enableButton' => true,
                 'urlButton' => App::setTypeUrl().'/zoom-meeting',
-                'typeButton' => 'primaryButton',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                 'textButton' => 'Hablar con un asesor',
                 'side' => 'left',
             ];
@@ -227,7 +227,7 @@
                             <span>Inbound marketing para seguros</span>
                         </p>
 
-                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                             ¡Descargar ahora!
                         </a>
 

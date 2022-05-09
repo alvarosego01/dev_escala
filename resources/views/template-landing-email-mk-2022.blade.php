@@ -105,7 +105,7 @@ de nuestro email marketing
         'enableButton' => true,
         'urlButton' => '#',
         'textButton' => '¡Comenzar ahora!',
-        'typeButton' => 'primaryButton hoverInEffect',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -163,7 +163,7 @@ Email Marketing efectivas
         'enableButton' => true,
         'urlButton' => '#',
         'textButton' => '¡Comenzar ahora!',
-        'typeButton' => 'primaryButton hoverInEffect',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -242,7 +242,7 @@ realmente poderosos
         'enableButton' => true,
         'urlButton' => '#',
         'textButton' => '¡Comenzar ahora!',
-        'typeButton' => 'primaryButton hoverInEffect',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -455,7 +455,7 @@ más efectiva para generar relaciones <br class="desktopElement">
 a largo plazo con tus clientes
             </h2>
 
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                 ¡Compruébalo ahora!
               </a>
 
@@ -482,7 +482,7 @@ $parameters = [
     'enableButton' => true,
     'urlButton' => '#',
     'textButton' => '¡Comenzar ahora!',
-    'typeButton' => 'primaryButton hoverInEffect',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -538,7 +538,7 @@ campañas de email marketing
     'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => '¡Quiero fidelizarlos ahora!',
-  'typeButton' => 'primaryButton hoverInEffect',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
 ];
 @endphp
 @bannerForms7_T1( $parameters )

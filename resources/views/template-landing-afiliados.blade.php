@@ -69,7 +69,7 @@
                     'enableButton' => false,
                     // 'urlButton' => '#',
                     // 'textButton' => 'Comenzar ahora',
-                    // 'typeButton' => 'primaryButton hoverInEffect',
+                    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                     'elements' => [
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/icons-afiliados_1.png'),
@@ -110,7 +110,7 @@
                     'enableButton' => false,
                     // 'urlButton' => '#',
                     // 'textButton' => 'Registrarme ahora',
-                    // 'typeButton' => 'primaryButton hoverInEffect',
+                    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                     'elements' => [
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/afiliados-steps_1.png'),
@@ -147,7 +147,7 @@
                           <span class="greenBlueColor">Para mayor informacion escríbenos a</span> <span class="orangeColor">afiliados@escala.com</span>
                         </h2>
 
-                        {{-- <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                        {{-- <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                           Comenzar ahora
                         </a> --}}
 
@@ -235,7 +235,7 @@
                             ¿Estás listo para ganar comisiones con Escala?
                         </h2>
 
-                        {{-- <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                        {{-- <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                             ¡Sí, más que listo!
                         </a> --}}
 
@@ -296,7 +296,7 @@
                             ¡Tus finanzas crecen con <br class="space"> Escala!
                         </h2>
 
-                        {{-- <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                        {{-- <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                             Quiero ser afiliado
                         </a> --}}
 

@@ -68,7 +68,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Aumentar la productividad ahora',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -128,7 +128,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Gana más tiempo',
-  // 'typeButton' => 'primaryButton',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -156,7 +156,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Email 4: Bienvenido a Escala',
-  // 'typeButton' => 'primaryButton',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -179,7 +179,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Notificarles ahora',
-  // 'typeButton' => 'primaryButton',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -201,7 +201,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Hacer mi vida más facil',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -222,7 +222,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Disfrutar de la vista',
-  // 'typeButton' => 'primaryButton',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -246,7 +246,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => '¡Pruébalo ahora!',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'right',
 
  ) ;

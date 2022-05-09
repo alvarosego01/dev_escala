@@ -358,7 +358,7 @@
             <h3 class="primaryTitle whiteText">Empieza a escalar tu negocio con éxito
             </h3>
 
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
               Probar Escala ahora
             </a>
 
@@ -540,7 +540,7 @@
 
                 </p>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                   Probar Escala ahora
                 </a>
 
@@ -987,7 +987,7 @@
           Comienza a generar más leads, clientes y ventas
         </h3>
 
-        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
           Prueba Escala ahora
         </a>
 

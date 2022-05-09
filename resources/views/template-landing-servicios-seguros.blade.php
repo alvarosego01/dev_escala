@@ -56,7 +56,7 @@
                     'enableButton' => true,
                     'urlButton' =>  App::setTypeUrl().'/zoom-meeting',
                     'textButton' => 'Conocer más',
-                    'typeButton' => 'primaryButton hoverInEffect',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                     'titlePrincipal' => '<span class="blackColor2">¿Cómo te impulsamos a crecer?</span>',
                     'elements' => [
                         [
@@ -115,7 +115,7 @@
                 'text' => 'No importa el tamaño de tu empresa. Empodera a tus equipos: <br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
-                'typeButton' => 'primaryButton',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                 'textButton' => '¡Comenzar ahora!',
                 'side' => 'right',
             ];
@@ -137,7 +137,7 @@
                 'text' => 'En Escala tenemos un plan a la medida de tus <br class="desktopElement"> necesidades. Conoce nuestros planes para cada tamaño <br class="desktopElement"> de empresa y número de contactos de marketing.',
                 'enableButton' => true,
                 'urlButton' => App::setTypeUrl().'/zoom-meeting',
-                'typeButton' => 'primaryButton',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                 'textButton' => 'Hablar con un asesor',
                 'side' => 'left',
             ];
@@ -200,7 +200,7 @@
                             <span>Inbound marketing para seguros</span>
                         </p>
 
-                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                             ¡Descargar ahora!
                         </a>
 

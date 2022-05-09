@@ -9,10 +9,10 @@ $navBar = null;
 
 if( is_page() != null && is_page() == 1 && get_post_type() == 'page' ){
 
-$navBar = ACF_CUSTOM::_getField('nav_settings');
+  $navBar = ACF_CUSTOM::_getField('nav_settings');
 
 } elseif ( is_singular() != null && is_singular() == 1 && get_post_type() == 'post' ) {
-# code...
+  # code...
 $idPostParent = url_to_postid('blog');
 $navBar = ACF_CUSTOM::_getField('nav_settings', $idPostParent );
 
