@@ -13,6 +13,7 @@
 
     <div id="blog-home-bootstrap">
 
+
         <div class="sections">
 
             @header_t1

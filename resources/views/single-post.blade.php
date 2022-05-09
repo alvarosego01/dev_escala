@@ -5,7 +5,6 @@
 
 
 
-
 <?php
   $catevory = get_the_category();
   if( $category != null && count($category) > 0 ){
@@ -137,6 +136,37 @@
 
 
         @endarticlesBlog_T1
+
+
+        @php
+
+          if ( get_post_type() === 'post' ) {
+          # code...
+
+          $idPostParent = url_to_postid( 'blog' );
+          $setForm = ACF_CUSTOM::_getField( 'form7', $idPostParent );
+
+          }else{
+            $setForm = null;
+          }
+
+        $parameters = [
+            'classSection' => 'blogSingleSection4',
+            'title' => '<span style="color: #A4E7EA">
+              Comienza a impulsar el crecimiento <br class="desktopTabletElement"> de tu negocio con Escala
+              </span>',
+              'text' => '
+              Estás a un clic de probar Escala, la plataforma todo <br class="desktopTabletElement">
+              en uno de marketing digital y ventas que te ayudará <br class="desktopTabletElement">
+              a crecer de manera acelerada',
+            'textForm' => 'Pruébalo gratis ahora',
+            'image' => App::setFilePath('/assets/images/illustrations/otto/otto_blog_form.png'),
+            'setForm' => $setForm
+        ];
+      @endphp
+      @bannerForms7_T1( $parameters )
+
+      @endbannerForms7_T1
 
 
 

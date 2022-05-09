@@ -59,9 +59,17 @@
 
                     <h4 class="titleFormat blackcolor">¡Comienza ahora!</h4>
 
-                    @php
-                    $f = ACF_CUSTOM::_getField('form7');
-                @endphp
+                    @if ( isset( $setForm ) && $setForm != null && $setForm != '' )
+
+                                    @php
+                                        $f = $setForm;
+                                    @endphp
+
+                                @else
+                                    @php
+                                        $f = ACF_CUSTOM::_getField('form7');
+                                    @endphp
+                                @endif
                  @if (isset($f) && $f != null)
                  {!! do_shortcode( $f ) !!}
                  @else
