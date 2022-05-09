@@ -588,13 +588,20 @@
 
         .innerSectionElement.sct2
             .groupElements
+                position: relative!important
                 @include responsivo(telefonoTable)
                     padding-left: 5%!important
                     padding-right: 5%!important
+
                 @include responsivo(pcMedio)
                     padding-left: 5%!important
                     padding-right: 5%!important
+
                 .video
+                    @include responsivo(telefonoTable)
+                        padding-top: 70px!important
+                    @include responsivo(pcMedio)
+                        padding-top: 75px!important
                     .containerImage
                         img
                             height: 300px
@@ -614,6 +621,18 @@
                         line-height: 33px
                         font-weight: 800
                         margin-bottom: 25px
+                        @include responsivo(telefonoTable)
+                            position: absolute
+                            left: 0
+                            right: 0
+                            top: 0
+                            margin-bottom: auto
+                        @include responsivo(pcMedio)
+                            position: absolute
+                            left: 0
+                            right: 0
+                            top: 0
+                            margin-bottom: auto
                     p.text
                         color: $colorGrey
                         font-weight: 500

@@ -763,6 +763,14 @@ class ACF_CUSTOM extends Controller
                         'value' => 'page',
                     ),
                 ),
+                // array(
+                //     array(
+                //         'param' => 'post_type',
+                //         'operator' => '==',
+                //         'value' => 'post',
+                //     ),
+                // ),
+
             ),
 
         );
@@ -874,12 +882,20 @@ class ACF_CUSTOM extends Controller
                 )
             ),
             'location' => array(
+                // array(
+                //     array(
+                //         'param' => 'post_type',
+                //         'operator' => '==',
+                //         'value' => 'post',
+                //     ),
+                // ),
                 array(
                     array(
                         'param' => 'post_type',
                         'operator' => '==',
                         'value' => 'page',
                     ),
+
                 ),
             ),
 

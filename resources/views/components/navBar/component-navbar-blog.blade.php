@@ -24,28 +24,52 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
                     </a>
                 </div>
 
+                <div class="mobileElement">
 
-                <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button" >
-
-                    <i class="fas fa-bars    "></i>
-
-                </button>
-
-                <div class="desktopElement menusSection" id="main-menu">
-
-                    {!! wp_nav_menu([
-    'menu' => $navBar_ID,
-    'container' => false,
-    'menu_class' => '',
-    'fallback_cb' => '__return_false',
-    'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
-    'depth' => 3,
-    'walker' => new \App\wp_bootstrap5_navwalker(),
-]) !!}
+                    <div style="display: flex; flex-direction: row" class="buttonSections">
 
 
+                        {!! wp_nav_menu([
+        'menu' => $navBar_ID,
+        'container' => false,
+        'menu_class' => 'buttonsCTA',
+        'fallback_cb' => '__return_false',
+        'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
+        'depth' => 3,
+        'walker' => new \App\wp_bootstrap5_navwalker(),
+        ]) !!}
 
+
+                        <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button">
+
+                            <i class="fas fa-bars    "></i>
+
+                        </button>
+
+                    </div>
                 </div>
+                <div class="desktopElement">
+                    <div class="menusSection" id="main-menu">
+
+
+
+                        {!! wp_nav_menu([
+        'menu' => $navBar_ID,
+        'container' => false,
+        'menu_class' => '',
+        'fallback_cb' => '__return_false',
+        'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
+        'depth' => 3,
+        'walker' => new \App\wp_bootstrap5_navwalker(),
+    ]) !!}
+
+
+
+
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </nav>

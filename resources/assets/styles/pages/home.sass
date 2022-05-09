@@ -528,16 +528,16 @@
             padding: 25px 5px
         @include responsivo(pcMedio)
             width: 90%
-            padding: 50px 25px
+            padding: 25px 25px
 
         @include responsivo(general)
             width: 100%!important
             max-width: 1125px!important
-            padding: 50px 50px
+            padding: 25px 50px
         @include responsivo(resto)
             width: 100%!important
             max-width: 1250px!important
-            padding: 50px 75px
+            padding: 25px 75px
 
         .innerSectionElement.sct2
             .groupElements.row
@@ -606,27 +606,66 @@
                     @include responsivo(pcMedio)
                         margin-bottom: 25px
 
+                    // .youtubeImageContainer
+                    //     height: 275px
+                    //     width: 90%
+                    //     margin: 0 auto
+                    //     display: block
+                    //     @include responsivo(telefonoTable)
+                    //         margin-bottom: 0
+                    //         width: 95%
+                    //         height: 250px
+                    //         margin-bottom: 10px
+
+                    //     @include responsivo(pcMedio)
+                    //         margin-bottom: 10px
+
+                    // iframe.iframe
+                    //     height: 275px
+                    //     width: 90%
+                    //     margin: 0 auto
+                    //     display: block
+                    //     @include responsivo(telefonoTable)
+                    //         width: 100%
+
                     .youtubeImageContainer
-                        height: 275px
-                        width: 90%
                         margin: 0 auto
                         display: block
                         @include responsivo(telefonoTable)
                             margin-bottom: 0
-                            width: 95%
-                            height: 250px
-                            margin-bottom: 10px
+                            width: 100%
+                            height: fit-content
+                            height: 200px
 
                         @include responsivo(pcMedio)
-                            margin-bottom: 10px
+                            // margin-bottom: 32.5px
+                            height: 350px
+                            width: 100%
+                        @include responsivo(general)
+                            height: 400px
+                            width: 100%
+
+                        @include responsivo(resto)
+                            height: 400px
+                            width: 100%
+
 
                     iframe.iframe
-                        height: 275px
-                        width: 90%
+                        height: 400px
                         margin: 0 auto
                         display: block
+
                         @include responsivo(telefonoTable)
                             width: 100%
+
+                        @include responsivo(pcMedio)
+                            width: 90%
+
+                        @include responsivo(general)
+                            width: 90%
+
+                        @include responsivo(resto)
+                            width: 90%
 
 
 

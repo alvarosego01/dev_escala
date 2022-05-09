@@ -102,10 +102,13 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                 <video
                                 class="video-js"
                                 controls
+
                                 preload="none"
                                 poster="{{ $videoCover }}"
                                 {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                data-setup="{}"
+                                data-setup="{
+                                  autoplay: false
+                                }"
                               >
                                 <source src="{{ $videoEmbed }}" type="video/mp4" />
                                 <source src="{{ $videoEmbed }}" type="video/webm" />
@@ -195,10 +198,13 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                     <video
                                     class="video-js"
                                     controls
+
                                     preload="none"
                                     poster="{{ $videoCover }}"
                                     {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                    data-setup="{}"
+                                    data-setup="{
+                                  autoplay: false
+                                }"
                                   >
                                     <source src="{{ $videoEmbed }}" type="video/mp4" />
                                     <source src="{{ $videoEmbed }}" type="video/webm" />
@@ -265,10 +271,13 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                         <video
                                         class="video-js"
                                         controls
+
                                         preload="none"
                                         poster="{{ $videoCover }}"
                                         {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                        data-setup="{}"
+                                        data-setup="{
+                                  autoplay: false
+                                }"
                                       >
                                         <source src="{{ $videoEmbed }}" type="video/mp4" />
                                         <source src="{{ $videoEmbed }}" type="video/webm" />
@@ -365,10 +374,13 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                 <video
                                 class="video-js"
                                 controls
+
                                 preload="none"
                                 poster="{{ $videoCover }}"
                                 {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                data-setup="{}"
+                                data-setup="{
+                                  autoplay: false
+                                }"
                               >
                                 <source src="{{ $videoEmbed }}" type="video/mp4" />
                                 <source src="{{ $videoEmbed }}" type="video/webm" />
@@ -455,10 +467,13 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                 <video
                                 class="video-js"
                                 controls
+
                                 preload="none"
                                 poster="{{ $videoCover }}"
                                 {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                data-setup="{}"
+                                data-setup="{
+                                  autoplay: false
+                                }"
                               >
                                 <source src="{{ $videoEmbed }}" type="video/mp4" />
                                 <source src="{{ $videoEmbed }}" type="video/webm" />
@@ -523,10 +538,13 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                 <video
                                 class="video-js"
                                 controls
+
                                 preload="none"
                                 poster="{{ $videoCover }}"
                                 {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                data-setup="{}"
+                                data-setup="{
+                                  autoplay: false
+                                }"
                               >
                                 <source src="{{ $videoEmbed }}" type="video/mp4" />
                                 <source src="{{ $videoEmbed }}" type="video/webm" />

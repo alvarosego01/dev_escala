@@ -51,7 +51,7 @@ if (class_exists('\Walker_Nav_Menu')) {
                 }
                 $indent = str_repeat($t, $depth);
                 // Default class to add to the file.
-                $classes = array( 'dropdown-menu' );
+                $classes = array( 'dropdown-menu', 'animate', 'slideIn' );
                 /**
                  * Filters the CSS class(es) applied to a menu list element.
                  *

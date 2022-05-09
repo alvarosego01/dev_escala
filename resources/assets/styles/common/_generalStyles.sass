@@ -440,7 +440,7 @@ a[disabled]
     padding: 12.5px 25px!important
     border-radius: 7px
     color: $colorWhite
-    background-color: $colorOrange
+    background-color: $colorOrange!important
     width: fit-content
     transition: $transitionButton
     transform: scale(1)
@@ -457,6 +457,17 @@ a[disabled]
     @include responsivo(telefonoTable)
         font-size: 11px!important
         padding: 10px 10px!important
+    @include responsivo(pcMedio)
+        font-size: 16px!important
+        padding: 10px 20px!important
+    @include responsivo(general)
+        font-size: 17px!important
+        padding: 10px 20px!important
+    @include responsivo(smallPcTablet)
+        font-size: 15px!important
+        padding: 10px 15px!important
+
+
 
 
 
@@ -523,7 +534,7 @@ a[disabled]
     font-weight: 400
     border-radius: 5px
     transition: all .2s
-    background-color: $colorGreenBlue3
+    background-color: $colorGreenBlue3!important
     color: white
     border-width: 0
     text-decoration: none
@@ -544,6 +555,15 @@ a[disabled]
     @include responsivo(telefonoTable)
         font-size: 11px!important
         padding: 10px 10px!important
+    @include responsivo(pcMedio)
+        font-size: 16px!important
+        padding: 10px 20px!important
+    @include responsivo(general)
+        font-size: 17px!important
+        padding: 10px 20px!important
+    @include responsivo(smallPcTablet)
+        font-size: 15px!important
+        padding: 10px 15px!important
 
 .hoverSecondaryButton
     &:hover
@@ -554,7 +574,7 @@ a[disabled]
 .menuHoverInEffect.menuButton.menuPrimaryButton a,
 .menuHoverInEffect.menuButton.menuPrimaryButton button
     &:hover
-        transform: scale(1.1)
+        transform: scale(1.075)
         color: white
         background-color: $orangeLight
 
@@ -562,12 +582,12 @@ a[disabled]
 .menuHoverInEffect.menuButton.menuSecondaryButton a,
 .menuHoverInEffect.menuButton.menuSecondaryButton button
     &:hover
-        transform: scale(1.1)
+        transform: scale(1.075)
         color: white
 
 .hoverInEffect.thinButton
     &:hover
-        transform: scale(1.1)
+        transform: scale(1.075)
         // color: white
 
 .buttonPriceSelector
@@ -956,50 +976,7 @@ input[type=range]
 
 
 
-.desktopElement
-    @include responsivo(telefonoTable)
-        display: none!important
-    @include responsivo(pcMedio)
-        display: none!important
-    @include responsivo(general)
-        display: block!important
-    @include responsivo(resto)
-        display: block!important
-.mobileElement
-    @include responsivo(telefonoTable)
-        display: block!important
-    @include responsivo(pcMedio)
-        display: block!important
-    @include responsivo(general)
-        display: none!important
-    @include responsivo(resto)
-        display: none!important
 
-.desktopTabletElement
-    @include responsivo(telefonoTable)
-        display: none!important
-    @include responsivo(pcMedio)
-        display: block!important
-
-    @include responsivo(general)
-        display: block!important
-
-    @include responsivoSpecial(1000px, 1125px)
-        display: none!important
-
-    @include responsivo(resto)
-        display: block!important
-
-
-.mobileSmallElement
-    @include responsivo(telefonoTable)
-        display: block!important
-    @include responsivo(pcMedio)
-        display: none!important
-    @include responsivo(general)
-        display: none!important
-    @include responsivo(resto)
-        display: none!important
 
 
 

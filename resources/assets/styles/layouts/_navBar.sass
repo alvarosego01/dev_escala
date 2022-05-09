@@ -23,15 +23,21 @@ button.toggleSideMenu
 
 
 @media all and (min-width: 992px)
-    .navbar .nav-item
-        .dropdown-menu
-            display: none
-        &:hover
-            // .nav-link
+    .navbar
+        .nav-item
             .dropdown-menu
-                display: block
-        .dropdown-menu
-            margin-top: 0
+                display: none
+                transition: $trans
+                // visibility: hidden
+                // opacity: 0
+
+            // &:hover
+                // .dropdown-menu
+                    // display: block
+                    // visibility: visible
+            .dropdown-menu
+                margin-top: 0
+
 
 
 .buttonsCTA
@@ -60,6 +66,9 @@ header.customHeader.customSection
         @include responsivo(pcMedio)
             margin-top: auto!important
             margin-bottom: auto!important
+
+
+
     nav.navbar
         box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%)
         transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s
@@ -94,6 +103,10 @@ header.customHeader.customSection
             .container-fluid.sct1
                 display: flex
                 margin-bottom: 7.5px
+                div#main-menu-top
+                    width: 100%
+                    ul
+                        margin-left: auto!important
                 ul#menu-main-top-v2,
                 div#main-menu-top
                     display: flex
@@ -102,6 +115,7 @@ header.customHeader.customSection
                     li
                         a
                             color: black
+                            height: 100%
                             &:hover
                                     color: $colorOrange
                             @include responsivo(telefonoTable)
@@ -139,9 +153,13 @@ header.customHeader.customSection
                         img,
                         svg
                             width: auto
-                            height: 37.5px
+                            height: 35px
                             @include responsivo(telefonoTable)
                                 height: 22.5px
+
+                            @include responsivo(pcMedio)
+                                height: 30px
+
 
                 div.menusSection
                     display: flex
@@ -149,6 +167,7 @@ header.customHeader.customSection
                     justify-content: center
                     align-content: center
                     width: fit-content
+                    height: 100%
                     ul
                         height: fit-content!important
                         // margin: auto 0
@@ -158,6 +177,7 @@ header.customHeader.customSection
                         li:not(.menuButton)
                             position: relative
                             a
+                                height: 100%
                                 color: #9E989A
                                 &:hover
                                     color: $colorOrange
@@ -229,31 +249,50 @@ header.customHeader.customSection
                             margin-top: auto
                             margin-bottom: auto
 
-                li.menu-item.menu-item-has-children
-                    position: relative
-                    ul.dropdown-menu
-                        margin: 0 auto
-                        padding: 0
-                        border-radius: 5px
-                        min-width: 200px
-                        border: 0
-                        box-shadow: 2px 2px 5px rgb(0 0 0 / 20%)
-                        position: absolute
-                        top: 50px
-                        left: 0
-                        right: 0
-                        li
-                            margin: 0
+            li.menu-item.menu-item-has-children
+                position: relative
+                ul.dropdown-menu
+                    margin: 0 auto
+                    padding: 0
+                    border-radius: 5px
+                    min-width: 200px
+                    border: 0
+                    box-shadow: 2px 2px 5px rgb(0 0 0 / 20%)
+                    position: absolute
+                    // top: 50px
+                    left: 0
+                    right: 0
+                    //
+                    // opacity: 0
+                    // visibility: hidden
+                    // transition-delay: .5s
+                    li
+                        margin: 0
+                        a
+                            padding: 10px
+                            color: black
+                            font-size: 16px
+                            line-height: 16px
+                            transition: $trans
+                        &:hover
                             a
-                                padding: 10px
-                                color: black
-                                font-size: 16px
-                                line-height: 16px
-                                transition: $trans
-                            &:hover
-                                a
-                                    color: $colorOrange
-                                    background-color: #F2675A12
+                                color: $colorOrange
+                                background-color: #F2675A12
+                // &:hover
+                //     ul.dropdown-menu
+                //         opacity: 1
+                //         visibility: visible
+
+        .container-fluid.sct1
+            div.menusSection
+                height: 100%
+            li.menu-item.menu-item-has-children
+                ul.dropdown-menu
+                    top: 32.5px
+        .container-fluid.sct2
+            li.menu-item.menu-item-has-children
+                ul.dropdown-menu
+                    top: 47.5px
 
 
 
@@ -416,10 +455,15 @@ body
                     position: absolute
 
 
+
+
 header.customHeader.customSection.landing-global2
     .container-fluid.sct2
         display: flex
         justify-content: center
         .logo
             margin: 0 auto
+
+
+
 

@@ -121,9 +121,17 @@ if (!$threeCol) {
 
                                     {{-- {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!} --}}
 
+                                    @if ( isset( $setForm ) && $setForm != null && $setForm != '' )
+
                                     @php
-                                    $f =  ACF_CUSTOM::_getField('form7');
-                                @endphp
+                                        $f = $setForm;
+                                    @endphp
+
+                                @else
+                                    @php
+                                        $f = ACF_CUSTOM::_getField('form7');
+                                    @endphp
+                                @endif
                                  @if (isset($f) && $f != null)
                                  {!! do_shortcode( $f ) !!}
                                  @else
@@ -248,9 +256,17 @@ if (!$threeCol) {
 
                                 {{-- {!! do_shortcode('[contact-form-7 id="73" title="Contacto Paso 1"]') !!} --}}
 
-                                @php
-                                $f =  ACF_CUSTOM::_getField('form7');
-                            @endphp
+                                @if ( isset( $setForm ) && $setForm != null && $setForm != '' )
+
+                                    @php
+                                        $f = $setForm;
+                                    @endphp
+
+                                @else
+                                    @php
+                                        $f = ACF_CUSTOM::_getField('form7');
+                                    @endphp
+                                @endif
                              @if (isset($f) && $f != null)
                              {!! do_shortcode( $f ) !!}
                              @else
