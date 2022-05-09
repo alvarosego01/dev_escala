@@ -285,7 +285,18 @@
                 background-color: transparent
                 &:hover
                     cursor: pointer
-                    color: #f34f36!important
+                    @include responsivo(telefonoTable)
+                        color: #f34f36!important
+
+                    @include responsivo(pcMedio)
+                        color: #f34f36!important
+
+                    @include responsivo(general)
+                        color: white!important
+
+                    @include responsivo(resto)
+                        color: white!important
+
                 @include responsivo(telefonoTable)
                     width: 20px
                     height: 20px

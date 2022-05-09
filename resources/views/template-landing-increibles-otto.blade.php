@@ -93,7 +93,7 @@
                   ¡Descubre cuán fácil es diseñar y <br class="mobileElement"> publicar landing pages en Escala!
                 </h2>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                   Comenzar ahora
                 </a>
 
@@ -167,7 +167,7 @@
           <h3 class="primaryTitle whiteText">Acelera el crecimiento de tu negocio
           </h3>
 
-          <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
             Comenzar ahora
           </a>
 

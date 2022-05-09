@@ -55,7 +55,7 @@ crear, administrar y publicar sin salir de Escala
         'enableButton' => true,
         'urlButton' => '#',
         'textButton' => '¡Comenzar ahora!',
-        'typeButton' => 'primaryButton hoverInEffect',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -230,7 +230,7 @@ ads digitales.
 
       <div class="containElements">
 
-        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
           ¡Probar Escala ahora!
         </a>
 
@@ -263,7 +263,7 @@ ads digitales.
             desde Escala. Es muy fácil hacerlo.
           </h2>
 
-          <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
               Quiero comenzar ahora
             </a>
 
@@ -359,7 +359,7 @@ Tus anuncios digitales ya estarán  integrados a <strong>la plataforma “todo-e
         'enableButton' => false,
         'urlButton' => '#',
         'textButton' => '¡Comenzar ahora!',
-        'typeButton' => 'primaryButton hoverInEffect',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -462,7 +462,7 @@ a acompañar en todo el camino al éxito con nuestras otras funcionalidades.
     'enableButton' => true,
     'urlButton' => '#',
     'textButton' => '¡Comenzar ahora!',
-    'typeButton' => 'primaryButton hoverInEffect',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -517,7 +517,7 @@ Facebook desde Escala
     'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => '¡Probar Escala ahora!',
-  'typeButton' => 'primaryButton hoverInEffect',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
 ];
 @endphp
 @bannerForms7_T1( $parameters )

@@ -2,6 +2,7 @@
 
 @php
 
+    $typeNav = null;
     if( is_page() != null && is_page() == 1 && get_post_type() == 'page' ){
 
       $typeNav = ACF_CUSTOM::_getField('nav_settings');
@@ -18,6 +19,7 @@
     }
 
 @endphp
+
 
 
 

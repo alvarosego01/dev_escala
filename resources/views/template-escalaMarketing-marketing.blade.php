@@ -82,7 +82,7 @@
   'text' => 'Crea, publica y gestiona tus campañas de anuncios digitales, <br> sin salir de Escala. De la manera más fácil e intuitiva, ten <br> visibilidad sobrer el retorno de inversión con analíticas <br> relevantes que se integran a tus esfuerzos de venta.',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'textButton' => 'Prueba Escala ya',
   'side' => 'right',
  ) ;
@@ -125,7 +125,7 @@
   'text' => '<span class="whiteColor">Segmenta tu base de datos y envía mensajes relevantes en <br> el momento oportuno para potenciar tu crecimiento. Es fácil <br> y rápido. Diseña hermosos emails personalizando plantillas <br> y envíalos masivamente con solo un clic.</span>',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'textButton' => 'Prueba Escala ya',
   'side' => 'right',
  ) ;
@@ -146,7 +146,7 @@
   'text' => 'Programa el envío de emails y rercordatorios para que no <br> pierdas oportunidades  de venta.  Automatiza tareas como <br> la asignación de leads a vendedores, el cambio de status en <br> el CRM y la segmentación de tu base de datos para que <br> ahorres tiempo y energía al escalar tu negocio.',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'textButton' => 'Prueba Escala ya',
   'side' => 'left',
  ) ;
@@ -168,7 +168,7 @@
 ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'textButton' => 'Prueba Escala ya',
   'side' => 'right',
  ) ;
@@ -191,7 +191,7 @@
 ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'textButton' => 'Prueba Escala ya',
   'side' => 'left',
  ) ;
@@ -236,7 +236,7 @@
   'title' => '¿Listo para acelerar el crecimiento <br> de tu negocio? <span class="greenBlueColor">Descubre cuán simple <br> es implementar tus estrategias <br> de Marketing Digital con Escala</span>',
   'text' => null,
   'enableButton' => true,
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
     'urlButton' => '#lead-form',
   'textButton' => 'Prueba Escala ya',
   'side' => 'left',

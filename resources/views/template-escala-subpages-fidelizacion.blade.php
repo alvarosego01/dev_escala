@@ -50,7 +50,7 @@ $parameters = [
     'enableButton' => false,
     // 'urlButton' => '#',
     // 'textButton' => '¡Comenzar ahora!',
-    // 'typeButton' => 'primaryButton hoverInEffect',
+    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -320,7 +320,7 @@ enamorando a tus clientes.
 
           <div class="containElements">
 
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
               ¡Probar Escala ahora!
             </a>
 
@@ -348,7 +348,7 @@ En Escala siempre te damos más
         'enableButton' => true,
         'urlButton' => '#',
         'textButton' => '¡Probar Escala ahora!',
-        'typeButton' => 'primaryButton hoverInEffect goToHash',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 goToHash',
         'elements' => array(
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3a.png'),

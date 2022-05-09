@@ -72,7 +72,7 @@ toda esa información quedará <strong>automáticamente almacenada en tu CRM de 
 'enableButton' => true,
 'urlButton' => '#lead-form',
 'textButton' => 'Comenzar ahora',
-'typeButton' => 'primaryButton',
+'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
 'side' => 'left',
 ) ;
 @endphp
@@ -95,7 +95,7 @@ Nutrir la relación y ¡cerrar la venta!
 'enableButton' => false,
 // 'urlButton' => '#lead-form',
 // 'textButton' => 'Comenzar ahora',
-// 'typeButton' => 'primaryButton',
+// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
 'side' => 'right',
 ) ;
 @endphp
@@ -138,7 +138,7 @@ con etiquetas avanzadas</span>',
 'enableButton' => true,
 'urlButton' => '#lead-form',
 'textButton' => 'Pruébalo ahora',
-'typeButton' => 'primaryButton',
+'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
 'side' => 'right',
 ) ;
 @endphp
@@ -162,7 +162,7 @@ Con nuestro CRM, puedes responder las siguientes preguntas <br> para construir r
 'enableButton' => false,
 // 'urlButton' => '#lead-form',
 // 'textButton' => 'Optimizar resultados',
-// 'typeButton' => 'primaryButton',
+// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
 'side' => 'left',
 ) ;
 @endphp
@@ -188,7 +188,7 @@ En minutos puedes analizar para optimizar tu ventas.',
 'enableButton' => false,
 // 'urlButton' => '#lead-form',
 // 'textButton' => 'Optimizar resultados',
-// 'typeButton' => 'primaryButton',
+// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
 'side' => 'right',
 ) ;
 @endphp
@@ -211,7 +211,7 @@ Escala será el mejor amigo de tu gerente de ventas',
 'enableButton' => true,
 'urlButton' => '#lead-form',
 'textButton' => 'Comenzar ahora',
-'typeButton' => 'primaryButton',
+'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
 'side' => 'left',
 ) ;
 @endphp
@@ -236,7 +236,7 @@ $parameters = array(
 'enableButton' => false,
 // 'urlButton' => '#lead-form',
 // 'textButton' => 'Comenzar ahora',
-// 'typeButton' => 'primaryButton',
+// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
 'side' => 'right',
 ) ;
 @endphp
@@ -256,7 +256,7 @@ $parameters = array(
 'enableButton' => false,
 // 'urlButton' => '#lead-form',
 // 'textButton' => 'Comenzar ahora',
-// 'typeButton' => 'primaryButton',
+// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
 'side' => 'left',
 ) ;
 @endphp
@@ -276,7 +276,7 @@ $parameters = array(
 <sspan class="blueLightColor3">como si tu crecimiento <br> dependiera de ello.</sspan>',
 'text' => null,
 'enableButton' => true,
-'typeButton' => 'primaryButton',
+'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
 'urlButton' => '#lead-form',
 'textButton' => 'Probar el CRM ahora',
 'side' => 'right',
