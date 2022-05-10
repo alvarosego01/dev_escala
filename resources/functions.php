@@ -407,3 +407,6 @@ wp_insert_term(
         'parent'=> $parent_term_id ));
 }
 add_action( 'init', 'bootstrap_popups_taxo' );
+
+
+

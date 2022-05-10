@@ -1,4 +1,3 @@
-
 @php
 
 $index_page = ACF_CUSTOM::_getField('index_page');
