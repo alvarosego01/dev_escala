@@ -4,7 +4,7 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
     $navBar_ID = ACF_CUSTOM::_getField('nav_global');
 } elseif (is_singular() != null && is_singular() == 1 && get_post_type() == 'post') {
     # code...
-    echo ' entra por blog';
+
     $idPostParent = url_to_postid('blog');
     $navBar_ID = ACF_CUSTOM::_getField('nav_global', $idPostParent);
 
