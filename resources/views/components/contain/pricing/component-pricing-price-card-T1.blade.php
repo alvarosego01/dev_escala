@@ -28,12 +28,9 @@ $items = [
             style="display: none"
             class="numerCost">30</span>
             <span
-
-            class="discountCost">21
-
-            <span class="ncost">
-                    /mes
-            </span>
+            class="discountCost">
+            <span>21 </span>
+            <span class="smallDecimal"> /mes</span>
             </span>
             <span class="usd">
                 USD
@@ -47,11 +44,10 @@ $items = [
             class="numerCost">30</span>
             <span
 
-            class="discountCost">21
+            class="discountCost">
+            <span>21 </span>
+            <span class="smallDecimal"> /mes</span>
 
-            <span class="ncost">
-                    /mes
-            </span>
             </span>
             <span class="usd">
                 USD
@@ -149,10 +145,9 @@ $items = [
             class="numerCost">135</span>
             <span
             class="discountCost">
-            94<span class="smallDecimal">.50</span>
-            <span class="ncost">
-                /mes
-            </span>
+            <span>94</span>
+            <span class="smallDecimal">.50 /mes</span>
+
             </span>
             <span class="usd">
                 USD
@@ -166,10 +161,8 @@ $items = [
             class="numerCost">135</span>
             <span
             class="discountCost">
-            94<span class="smallDecimal">.50</span>
-            <span class="ncost">
-                /mes
-            </span>
+            <span>94</span><span class="smallDecimal">.50 /mes</span>
+
             </span>
             <span class="usd">
                 USD
