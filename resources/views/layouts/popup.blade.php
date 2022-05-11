@@ -14,6 +14,7 @@ $l = ACF_CUSTOM::_getField('enable_popup');
 
         @php
             $x = ACF_CUSTOM::_getField('bootstrap_popup_types');
+
         @endphp
 
         @if (isset($x) && $x != null && count( $x ) > 0)

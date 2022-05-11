@@ -53,6 +53,10 @@ type="text/css" media="all">
     </div>
 </div>
 
+
+@include('layouts.popup')
+
+
 @include('partials.footer')
 
 
