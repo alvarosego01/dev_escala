@@ -503,7 +503,7 @@ function discountByPlanCard(type, element){
                 jQuery('.modePlanSelect').prop( "checked", true );
 
                 jQuery('.discountCost').css({
-                    'display': 'block'
+                    'display': 'flex'
                 });
                 jQuery('.numerCost').css({
                     'display': 'none'
