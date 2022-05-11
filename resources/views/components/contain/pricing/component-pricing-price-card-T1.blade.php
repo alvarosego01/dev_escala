@@ -66,6 +66,7 @@ $items = [
         'textMiddle' => null,
         'button' => true,
         'textButton' => 'Prueba gratis',
+        'typeButton' => 'openPopUpButton popup-general-trial-2022 primaryButton hoverInEffect',
         'extendInfoButton' => true,
         'customClasses' => 'cardPlan1',
         'discountTest' => '
@@ -183,6 +184,7 @@ $items = [
         'textMiddle' => null,
         'button' => true,
         'textButton' => 'Hablar con un asesor',
+        'typeButton' => 'openPopUpButton popup-general-trial-2022 primaryButton hoverInEffect',
         'extendInfoButton' => true,
         'customClasses' => 'cardPlan2',
         'discountTest' => '
@@ -292,6 +294,7 @@ $items = [
         ',
         'button' => true,
         'textButton' => 'Hablar con un asesor',
+        'typeButton' => 'openPopUpButton popup-general-trial-2022 primaryButton hoverInEffect',
         'customClasses' => 'cardPlan3',
         'extendInfoButton' => true,
         'extendDetails' => [
@@ -480,7 +483,7 @@ $items = [
 
                                         <div class="buttonSection">
 
-                                            <a class="openPopUpButton popup-general-trial-2022 primaryButton hoverInEffect">
+                                            <a class="{{ $item['typeButton'] }}">
                                                 {!! $item['textButton'] !!}
                                             </a>
 
@@ -610,7 +613,7 @@ $items = [
                                         </div>
 
                                         <div class="buttonSection">
-                                            <a onclick="revealMobileView( 'open', '{{ $item['name'] }}' )" class=" primaryButton hoverInEffect">
+                                            <a onclick="revealMobileView( 'open', '{{ $item['name'] }}' )" class="primaryButton hoverInEffect">
                                                 Ver plan completo
                                             </a>
 
@@ -691,7 +694,7 @@ $items = [
 
                                         <div class="buttonSection">
 
-                                            <a class="btn-popup-header primaryButton hoverInEffect">
+                                            <a class="{{ $item['typeButton'] }}">
                                                 {!! $item['textButton'] !!}
                                             </a>
 
