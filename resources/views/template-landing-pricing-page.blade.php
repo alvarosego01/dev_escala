@@ -69,7 +69,7 @@ $parameters = array(
   de nuestros planes
   </span>',
  'subTitlePrincipal' => '
-  Cada uno de nuestros planes tiene las funcionalidades de marketing digital y ventas <br class="desktopTabletElement">
+  Nuestros planes tienen las funcionalidades de marketing digital y ventas <br class="desktopTabletElement">
   para acelerar el crecimiento de tu negocio. Solo inviertes en lo que necesitas.
  '
 ) ;
@@ -175,7 +175,7 @@ $parameters = array(
             </tr>
             <tr class="borderB">
               {{-- <th>Complementarios</td> --}}
-              <td>Migraciòn de data</td>
+              <td>Migración de data</td>
               <td></td>
               <td class="ch">
                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
@@ -280,7 +280,7 @@ $parameters = array(
             </tr>
             <tr>
               {{-- <th>Complementarios</td> --}}
-              <td>Sesiones estratégicas extra con descuento</td>
+              <td>Sesiones estratégicas extras con descuento</td>
               <td></td>
               <td class="ch">
                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
@@ -509,7 +509,7 @@ $parameters = array(
 
           <div class="info col-md-12 col-lg-6">
 
-            <div class="containerImage">
+            <div class="containerImage imageQuote">
 
               <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector.png') !!}" alt="" loading="lazy">
 
@@ -518,17 +518,17 @@ $parameters = array(
             <p class="text primaryText grayColorTexts">
 
               Escala tiene el email builder más amigable <br class="desktopTabletElement">
-              que he utilizado en los últimos años, y su <br class="desktopTabletElement">
-              equipo está comprometido a mantener la <br class="desktopTabletElement">
+              que he utilizado <br class="mobileSmallElement"> en los últimos años, y su <br class="desktopTabletElement">
+              equipo está comprometido a <br class="mobileSmallElement"> mantener la <br class="desktopTabletElement">
               plataforma en constante actualización en <br class="desktopTabletElement">
-              el dinámico mundo digital.
+              el <br class="mobileSmallElement"> dinámico mundo digital.
 
             </p>
 
 
             <div class="subText model1 primaryText grayColorTexts">
 
-            <div class="containerImage">
+            <div class="containerImage logoMark">
 
               <img src="{!! App::setFilePath('/assets/images/illustrations/others/Publicidad-Comercial21.png') !!}" alt="" loading="lazy">
 
@@ -545,7 +545,9 @@ $parameters = array(
           <div class="image col-md-12 col-lg-6">
             <div class="containerImage">
 
-              <img src="{!! App::setFilePath('/assets/images/illustrations/others/tablet_otto_1.png') !!}" alt="" loading="lazy">
+              <img class="desktopElement" src="{!! App::setFilePath('/assets/images/illustrations/others/tablet_otto_1.png') !!}" alt="" loading="lazy">
+
+              <img class="mobileElement" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_tablet_fidelizacion.png') !!}" alt="" loading="lazy">
 
           </div>
           </div>
