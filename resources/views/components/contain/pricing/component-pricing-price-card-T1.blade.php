@@ -113,7 +113,7 @@ $items = [
                     'Contactos de marketing: <strong>1.000</strong>',
                     'Usuarios de venta: <strong>1</strong>',
                     'Emails de CRM: <strong>ilimitados</strong>',
-                    'Multiembudos de ventas: 1'
+                    'Múltiples embudos de ventas: 1'
             ],
             ],
 
@@ -232,10 +232,10 @@ $items = [
                     'Contactos de marketing: <strong>5.000</strong>',
                     'Usuarios de venta: <strong>1</strong>',
                     'Emails de CRM: <strong>ilimitados</strong>',
-                    'Multiembudos de ventas: <strong>10</strong>',
+                    'Múltiples embudos de ventas: <strong>10</strong>',
                     'Lead scoring',
-                    'Segmentaciòn avanzada',
-                    'Extensiòn de WhatsApp Web'
+                    'Segmentación avanzada',
+                    'Extensión de WhatsApp Web'
             ],
             ],
             [
@@ -333,10 +333,10 @@ $items = [
                     'Contactos de marketing: <strong>A partir de 100.000</strong>',
                     'Usuarios de venta',
                     'Emails de CRM: <strong>ilimitados</strong>',
-                    'Multiembudos de ventas',
+                    'Múltiples embudos de ventas',
                     'Lead scoring',
                     'Segmentación avanzada',
-                    'Extensiòn de WhatsApp Web',
+                    'Extensión de WhatsApp Web',
             ],
             ],
             [
