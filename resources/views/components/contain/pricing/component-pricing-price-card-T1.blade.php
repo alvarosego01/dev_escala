@@ -327,7 +327,7 @@ $items = [
                 'title' => 'CRM',
                 'items' => [
                     'Contactos en base de datos: <strong>10.000.000</strong>',
-                    'Contactos de marketing: <br class="space"> <strong>A partir de 100.000</strong>',
+                    'Contactos de marketing: <strong>A partir de 100.000</strong>',
                     'Usuarios de venta',
                     'Emails de CRM: <strong>ilimitados</strong>',
                     'Multiembudos de ventas',
