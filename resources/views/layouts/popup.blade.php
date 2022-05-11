@@ -1,19 +1,39 @@
 {{-- enable_popup --}}
 
 @php
-$l = ACF_CUSTOM::_getField('enable_popup');
+
+    $idPagePopups = null;
+    if( is_page() != null && is_page() == 1 && get_post_type() == 'page' ){
+
+      $idPagePopups = get_the_ID();
+
+    } elseif ( is_singular() != null && is_singular() == 1 && get_post_type() == 'post' ) {
+      # code...
+      $idPagePopups = url_to_postid('blog');
+
+    } else {
+
+      $idPagePopups = get_the_ID();
+
+    }
+
+@endphp
+
+
+@php
+$l = ACF_CUSTOM::_getField('enable_popup', $idPagePopups);
 @endphp
 
 @if ($l != null && $l == 1)
 
     @php
-        $l2 = ACF_CUSTOM::_getField('popup_type');
+        $l2 = ACF_CUSTOM::_getField('popup_type', $idPagePopups);
     @endphp
 
     @if ($l2 != null && $l2 == 'bootstrap_popup')
 
         @php
-            $x = ACF_CUSTOM::_getField('bootstrap_popup_types');
+            $x = ACF_CUSTOM::_getField('bootstrap_popup_types', $idPagePopups);
 
         @endphp
 
@@ -21,13 +41,12 @@ $l = ACF_CUSTOM::_getField('enable_popup');
 
         <script type="text/javascript">
 
-jQuery(document).ready(function () {
-console.log('jet popup retirado');
-jQuery('.jet-popup.jet-popup--front-mode').remove();
+        jQuery(document).ready(function () {
+        console.log('jet popup retirado');
+        jQuery('.jet-popup.jet-popup--front-mode').remove();
 
 
-});
-
+        });
 
         </script>
             @foreach ($x as $item)
