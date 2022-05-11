@@ -387,8 +387,8 @@ function calculateFinal(data) {
             'visibility': 'visible'
         })
 
-        jQuery('#priceDotted').text('$USD ' + costNoDiscount + ' /mes');
-        jQuery('#priceSaves').text('Ahorras USD $' + discount);
+        jQuery('#priceDotted').text('USD ' + costNoDiscount + ' /mes');
+        jQuery('#priceSaves').text('Ahorras USD ' + discount);
     }
 
             // var costFinal = 332.01;
@@ -511,8 +511,11 @@ function discountByPlanCard(type, element){
                 jQuery('[typeplan*="plan"]').css({
                     'display': 'block'
                 });
-                jQuery('.usd').css({
-                    'display': 'none'
+                // jQuery('.usd').css({
+                //     'display': 'none'
+                // });
+                jQuery('.ncost').css({
+                    'display': 'block'
                 });
                 jQuery('.price').css({
                     'margin-bottom': '60' + 'px'
@@ -545,8 +548,11 @@ function discountByPlanCard(type, element){
                 jQuery('[typeplan*="plan"]').css({
                     'display': 'none'
                 });
-                jQuery('.usd').css({
-                    'display': 'block'
+                // jQuery('.usd').css({
+                //     'display': 'block'
+                // });
+                jQuery('.ncost').css({
+                    'display': 'none'
                 });
 
 

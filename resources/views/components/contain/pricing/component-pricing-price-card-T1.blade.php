@@ -23,26 +23,36 @@ $items = [
         'title' => 'Plan <span class="greenBlueColor">Starter</span>',
         'price' => 'A partir de <br class="space">
         <span class="cost">
-            <i class="fas fa-dollar-sign"></i>
+
             <span
             style="display: none"
             class="numerCost">30</span>
             <span
 
-            class="discountCost">21</span>
+            class="discountCost">21
+
+            <span class="ncost">
+                    /mes
+            </span>
+            </span>
             <span class="usd">
                 USD
             </span>
         </span>',
         'pricePreviewMobie' => 'A partir de <br class="space">
         <span class="cost">
-            <i class="fas fa-dollar-sign"></i>
+
             <span
             style="display: none"
             class="numerCost">30</span>
             <span
 
-            class="discountCost">21</span>
+            class="discountCost">21
+
+            <span class="ncost">
+                    /mes
+            </span>
+            </span>
             <span class="usd">
                 USD
             </span>
@@ -60,13 +70,11 @@ $items = [
         'customClasses' => 'cardPlan1',
         'discountTest' => '
         <p class="primaryText">
-                <span class="ncost">
-                    usd/mes
-                </span>
-                <span class="t1">Pago total anual <span class="priceDotted">360 $USD</span></span>
+
+                <span class="t1">Pago total anual <span class="priceDotted">360 USD</span></span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento 252 $USD
+                        Con descuento 252 USD
                     </strong>
                 </span>
         </p>',
@@ -83,7 +91,7 @@ $items = [
             [
                 'title' => 'Email Marketing',
                 'items' => [
-                    'Emails marketing al mes: <br class="space"> <strong>5.000</strong>',
+                    'Emails marketing al mes: <strong>5.000</strong>',
                     'Plantillas: <strong>todas las disponibles</strong>'
                 ],
             ],
@@ -100,11 +108,11 @@ $items = [
             [
                 'title' => 'CRM',
                 'items' => [
-                    'Contactos en base de datos: <strong>1.000</strong>',
-                    'Contactos de marketing: <br class="space"> <strong>1.000</strong>',
+                    'Contactos en base de datos: <strong>1.000.000</strong>',
+                    'Contactos de marketing: <strong>1.000</strong>',
                     'Usuarios de venta: <strong>1</strong>',
                     'Emails de CRM: <strong>ilimitados</strong>',
-                    'Embudos de oportunidades: 1'
+                    'Multiembudos de ventas: 1'
             ],
             ],
 
@@ -134,24 +142,34 @@ $items = [
         'title' => 'Plan <span class="orangeColor">Pro</span>',
         'price' => 'A partir de <br class="space">
         <span class="cost">
-            <i class="fas fa-dollar-sign"></i>
+
             <span
             style="display: none"
             class="numerCost">135</span>
             <span
-            class="discountCost">95</span>
+            class="discountCost">
+            94<span class="smallDecimal">.50</span>
+            <span class="ncost">
+                /mes
+            </span>
+            </span>
             <span class="usd">
                 USD
             </span>
         </span>',
         'pricePreviewMobie' => 'A partir de <br class="space">
         <span class="cost">
-            <i class="fas fa-dollar-sign"></i>
+
             <span
             style="display: none"
             class="numerCost">135</span>
             <span
-            class="discountCost">95</span>
+            class="discountCost">
+            94<span class="smallDecimal">.50</span>
+            <span class="ncost">
+                /mes
+            </span>
+            </span>
             <span class="usd">
                 USD
             </span>
@@ -170,13 +188,11 @@ $items = [
         'discountTest' => '
         <p class="primaryText">
 
-                <span class="ncost">
-                    usd/mes
-                </span>
-                <span class="t1">Pago total anual <span class="priceDotted">1620 $USD</span></span>
+
+                <span class="t1">Pago total anual <span class="priceDotted">1620 USD</span></span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento 1140 $USD
+                        Con descuento 1140 USD
                     </strong>
                 </span>
         </p>',
@@ -191,7 +207,7 @@ $items = [
             [
                 'title' => 'Email Marketing',
                 'items' => [
-                    'Emails marketing al mes: <br class="space"> <strong>50.000</strong>',
+                    'Emails marketing al mes: <strong>50.000</strong>',
                     'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
@@ -210,11 +226,11 @@ $items = [
             [
                 'title' => 'CRM',
                 'items' => [
-                    'Contactos en base de datos: <strong>5.000</strong>',
-                    'Contactos de marketing: <br class="space"> <strong>5.000</strong>',
+                    'Contactos en base de datos: <strong>1.000.000</strong>',
+                    'Contactos de marketing: <strong>5.000</strong>',
                     'Usuarios de venta: <strong>1</strong>',
                     'Emails de CRM: <strong>ilimitados</strong>',
-                    'Embudos de oportunidades: <strong>10</strong>',
+                    'Multiembudos de ventas: <strong>10</strong>',
                     'Lead scoring',
                     'Segmentaciòn avanzada',
                     'Extensiòn de WhatsApp Web'
@@ -223,7 +239,8 @@ $items = [
             [
                 'title' => 'Anuncios Digitales',
                 'items' => [
-                    'Cuentas de Facebook Ads Manager: <strong>3</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'
+                    'Cuentas de Facebook Ads Manager: <strong>3</strong>',
+                    'Campañas publicadas: <strong>ilimitadas</strong>'
                 ],
             ],
             [
@@ -253,7 +270,7 @@ $items = [
         'type' => 'master',
         'title' => 'Plan <span class="greenBlueColor">Enterprise</span>',
         'price' => '<span class="contactos">
-            <span><i class="fas fa-dollar-sign"></i> CONSULTAR</span>
+            <span>CONSULTAR</span>
         </span>',
         'pricePreviewMobie' => '
         <small class="preViewPriceTag">
@@ -289,7 +306,7 @@ $items = [
             [
                 'title' => 'Email Marketing',
                 'items' => [
-                    'Emails marketing al mes: <br class="space"> <strong> 20 x contactos de marketing</strong>',
+                    'Emails marketing al mes',
                     'Plantillas: <strong>Todas las disponibles</strong>'
                 ],
             ],
@@ -309,11 +326,11 @@ $items = [
             [
                 'title' => 'CRM',
                 'items' => [
-                    'Contactos en base de datos: <strong>1.000.000</strong>',
+                    'Contactos en base de datos: <strong>10.000.000</strong>',
                     'Contactos de marketing: <br class="space"> <strong>A partir de 100.000</strong>',
                     'Usuarios de venta',
                     'Emails de CRM: <strong>ilimitados</strong>',
-                    'Embudos de oportunidades',
+                    'Multiembudos de ventas',
                     'Lead scoring',
                     'Segmentación avanzada',
                     'Extensiòn de WhatsApp Web',
