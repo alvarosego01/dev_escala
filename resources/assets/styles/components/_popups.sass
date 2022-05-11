@@ -369,10 +369,10 @@
                                 margin-bottom: 20px
                                 font-family: Nunito
                                 font-style: normal
-                                font-size: 20px
                                 line-height: 1
                                 text-align: center
                                 letter-spacing: -1px
+                                font-size: 20px
                                 @include responsivo(telefonoTable)
                                     font-size: 13px
                                     margin-bottom: 15px
@@ -408,7 +408,6 @@
                                 right: 0
                                 left: 0
                                 display: blocks
-
                         .sect2
                             .formatForm
                                 box-shadow: unset
@@ -427,11 +426,11 @@
                                     width: 75%
                                     margin: 0 auto
                                     label,
-                                    input,
+                                    input:not([type='submit']),
                                     select,
                                     span
                                         font-size: 14px!important
-                                    input,
+                                    input:not([type='submit']),
                                     select,
                                     span.wpcf7-list-item-label
                                         height: 30px!important
@@ -441,6 +440,19 @@
                                     input.wpcf7-form-control.wpcf7-submit
                                         position: relative
                                         top: 5px
+                                        line-height: 1!important
+                                        @include responsivo(telefonoTable)
+                                            font-size: 13px!important
+
+                                        @include responsivo(pcMedio)
+                                            font-size: 16px!important
+
+                                        @include responsivo(general)
+                                            font-size: 18px!important
+
+                                        @include responsivo(resto)
+                                            font-size: 20px!important
+
 
 
                         // .sect2
