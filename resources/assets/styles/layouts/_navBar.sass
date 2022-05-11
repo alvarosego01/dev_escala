@@ -60,12 +60,13 @@ header.customHeader.customSection
     background-color: transparent
     .buttonSections
         height: 100%
-        @include responsivo(telefonoTable)
-            margin-top: auto!important
-            margin-bottom: auto!important
-        @include responsivo(pcMedio)
-            margin-top: auto!important
-            margin-bottom: auto!important
+        ul
+            @include responsivo(telefonoTable)
+                margin-top: auto!important
+                margin-bottom: auto!important
+            @include responsivo(pcMedio)
+                margin-top: auto!important
+                margin-bottom: auto!important
 
 
 
