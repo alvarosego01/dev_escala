@@ -518,10 +518,10 @@ $parameters = array(
             <p class="text primaryText grayColorTexts">
 
               Escala tiene el email builder más amigable <br class="desktopTabletElement">
-              que he utilizado <br class="mobileSmallElement"> en los últimos años, y su <br class="desktopTabletElement">
-              equipo está comprometido a <br class="mobileSmallElement"> mantener la <br class="desktopTabletElement">
+              que he utilizado en los últimos años, y su <br class="desktopTabletElement">
+              equipo está comprometido a mantener la <br class="desktopTabletElement">
               plataforma en constante actualización en <br class="desktopTabletElement">
-              el <br class="mobileSmallElement"> dinámico mundo digital.
+              el dinámico mundo digital.
 
             </p>
 
