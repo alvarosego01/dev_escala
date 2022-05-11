@@ -50,7 +50,7 @@
                                                 Plan Starter
                                             </h3>
                                             <span calculator_price_starter class="priceTag">
-                                                USD $ 30
+                                                USD 30
                                             </span>
 
 
@@ -78,7 +78,7 @@
                                             <span
                                             calculator_price_pro
                                             class="priceTag">
-                                                USD $ 75
+                                                USD 75
                                             </span>
 
 
@@ -379,7 +379,7 @@
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
-                                                USD $21 /mes
+                                                USD 21 /mes
                                             </span>
 
                                         </div>
@@ -389,10 +389,10 @@
                                             <p class="primaryText grayColorTexts5">
 
                                                 <span id="priceDotted">
-                                                    $USD 30 /mes
+                                                    USD 30 /mes
                                                 </span> <br class="space">
                                                 <strong id="priceSaves">
-                                                    Ahorras USD $9
+                                                    Ahorras USD 9
                                                 </strong>
 
                                             </p>
