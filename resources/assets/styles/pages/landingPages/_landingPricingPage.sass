@@ -316,13 +316,18 @@
                                                 //     font-size: 60px
                                             .smallDecimal
                                                 font-size: 30px
-                                                line-height: 0.5
+                                                line-height: .5
                                                 float: right
                                                 height: fit-content
                                                 display: block
-                                                position: relative
-                                                right: -2.5px
+                                                position: absolute
+                                                right: 0
+                                                left: 87.5px
                                                 margin-top: auto
+                                                width: 110px
+                                                display: flex
+                                                flex-direction: row
+                                                bottom: 0
 
 
                                             .discountCost
@@ -410,6 +415,7 @@
                                         position: absolute
                                         left: 0
                                         right: 0
+
 
                                         @include responsivo(telefonoTable)
                                             position: unset
