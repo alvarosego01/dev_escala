@@ -273,6 +273,16 @@ class SetComponents extends Controller
 
         }
 
+        if ($type == 'termsText') {
+
+           return array(
+
+                "views/template-document-terms-text.blade.php",
+
+            );
+
+        }
+
         if ($type == 'casoExito') {
 
            return array(
@@ -288,6 +298,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-document-terms-text.blade.php",
                 "views/template-home-youtube.blade.php",
                 "views/template-landing-video-am.blade.php",
                 "views/template-home-2021.blade.php",
