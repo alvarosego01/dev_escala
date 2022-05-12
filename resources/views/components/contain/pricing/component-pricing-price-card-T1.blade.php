@@ -187,7 +187,7 @@ $items = [
                 <span class="t1">Pago total anual <span class="priceDotted">1620 USD</span></span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento 1140 USD
+                        Con descuento 1134 USD
                     </strong>
                 </span>
         </p>',
