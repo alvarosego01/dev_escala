@@ -92,7 +92,7 @@
                   ¡Quiero mi CRM de Escala ahora!
                 </h2>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                   Pruébalo gratis ahora
                 </a>
 
@@ -122,7 +122,7 @@
         'enableButton' => true,
         'urlButton' => '#lead-form',
         'textButton' => 'Comenzar ahora',
-        'typeButton' => 'primaryButton hoverInEffect',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         'side' => 'right',
     ];
 @endphp
@@ -200,7 +200,7 @@ con anuncios digitales',
             ¡Quiero acelerar mis ventas con Escala!
           </h3>
 
-          <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
             Comenzar ahora
           </a>
 

@@ -16,7 +16,7 @@
 
                         <div class="containElements">
 
-                            <div class="plansSection desktopElement">
+                            <div class="plansSection">
                                 <small class="miniTitle">
 
                                     Elige tu plan
@@ -24,7 +24,7 @@
                                 </small>
 
                                 <small class="miniText">
-                                    Recuerda que solo puedes acceder al Plan Pro a partir de 5.000 contactos
+                                    Plan Pro: A partir de 5.000 contactos
                                 </small>
 
                                 <div class="box">
@@ -50,7 +50,7 @@
                                                 Plan Starter
                                             </h3>
                                             <span calculator_price_starter class="priceTag">
-                                                USD $ 30
+                                                USD 30
                                             </span>
 
 
@@ -78,7 +78,7 @@
                                             <span
                                             calculator_price_pro
                                             class="priceTag">
-                                                USD $ 75
+                                                USD 75
                                             </span>
 
 
@@ -89,12 +89,7 @@
 
                             </div>
 
-                            <div class="plansSection mobileElement">
-                                <small mobPlan>
-                                    Plan Starter
-                                </small>
 
-                            </div>
 
 
 
@@ -336,7 +331,7 @@
                                         </div>
 
                                         <div class="customPriceInput">
-                                            <input typeProcess="1" name="_userAccess" class="userAccess" min="1" type="number" value="2">
+                                            <input typeProcess="1" name="_userAccess" class="userAccess" min="1" type="number" value="1">
                                         </div>
 
                                     </div>
@@ -371,20 +366,20 @@
 
                                         <div class="buttonPriceSelector">
 
-                                            <button type="button" onclick="typeCustomPay('yearly', this)"
-                                                id="buttonPayTime-year" class="selectorPricingButton active">
-                                                PAGAR ANUAL
-                                            </button>
                                             <button type="button" onclick="typeCustomPay('monthly', this)"
                                                 id="buttonPayTime-month" class="selectorPricingButton ">
                                                 PAGAR MENSUAL
+                                            </button>
+                                            <button type="button" onclick="typeCustomPay('yearly', this)"
+                                                id="buttonPayTime-year" class="selectorPricingButton active">
+                                                PAGAR ANUAL
                                             </button>
 
                                         </div>
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
-                                                USD $21 /mes
+                                                USD 21 /mes
                                             </span>
 
                                         </div>
@@ -394,10 +389,10 @@
                                             <p class="primaryText grayColorTexts5">
 
                                                 <span id="priceDotted">
-                                                    $USD 30 /mes
+                                                    USD 30 /mes
                                                 </span> <br class="space">
                                                 <strong id="priceSaves">
-                                                    Ahorras USD $9
+                                                    Ahorras USD 9
                                                 </strong>
 
                                             </p>
@@ -405,15 +400,15 @@
                                         </div>
                                         <div class="finalButtons">
 
-                                            <a class="primaryButton hoverInEffect btn-popup-header">
+                                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                                                 Prueba gratis
                                             </a>
 
                                             <a
-                                            target="_blank"
-                                            href="{!! App::setTypeUrl() !!}/zoom-demo"
-                                            class="secondaryButton hoverInEffect">
-                                                Habla con un asesor
+
+
+                                            class="secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                                Hablar con un asesor
                                             </a>
 
                                         </div>

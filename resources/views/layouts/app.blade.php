@@ -1,4 +1,3 @@
-
 @php
 
 $index_page = ACF_CUSTOM::_getField('index_page');
@@ -6,6 +5,7 @@ $redirect = ACF_CUSTOM::_getField('cf7_redirect');
 $redirect = strval($redirect);
 
 $customClass = ACF_CUSTOM::_getField('custom_parent_class_section');
+
 
 @endphp
 
@@ -36,8 +36,6 @@ type="text/css" media="all">
 
 
 
-
-
 <div class="wrap container global typeBootstrap {{ $customClass }}" role="document">
     <div class="content">
         <main class="main">
@@ -55,9 +53,10 @@ type="text/css" media="all">
     </div>
 </div>
 
+
 @include('layouts.popup')
 
 
-@php
-get_footer();
-@endphp
+@include('partials.footer')
+
+

@@ -72,7 +72,7 @@
                     'enableButton' => true,
                     'urlButton' =>  App::setTypeUrl().'/zoom-meeting',
                     'textButton' => 'Conocer más',
-                    'typeButton' => 'primaryButton hoverInEffect',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 openPopUpButton popup-general-trial-2022',
                     'titlePrincipal' => 'Encuentra todas las herramientas <br class="desktopElement"> en un solo lugar',
                     'elements' => [
                         [
@@ -141,7 +141,7 @@
                 'text' => 'En Escala tienes todas las herramientas de marketing digital y ventas <br class="desktopElement"> en un solo lugar. Capta mayor cantidad de alumnos, haz seguimiento <br class="desktopElement"> de su relación con tu institución, fideliza a tus estudiantes egresados, <br class="desktopElement"> mantén una comunicación constante con todos tus stakeholders.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
-                'typeButton' => 'primaryButton',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                 'textButton' => '¡Comenzar ahora!',
                 'side' => 'right',
             ];
@@ -163,7 +163,7 @@
                 'text' => 'En Escala tenemos un plan a la medida de tus necesidades.<br class="desktopElement"> Conoce nuestros planes para cada tamaño de institución <br class="desktopElement"> académica y número de contactos de marketing. Optimiza tu <br class="desktopElement"> inversión en ventas y marketing digital.',
                 'enableButton' => true,
                 'urlButton' => App::setTypeUrl().'/zoom-meeting',
-                'typeButton' => 'primaryButton',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                 'textButton' => 'Hablar con un asesor',
                 'side' => 'left',
             ];
@@ -226,7 +226,7 @@
                             <span>Inbound marketing para seguros</span>
                         </p>
 
-                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 openPopUpButton popup-general-trial-2022">
                             ¡Descargar ahora!
                         </a>
 

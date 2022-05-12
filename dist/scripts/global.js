@@ -399,7 +399,6 @@ function instanceYoutube() {
 
 jQuery(document).ready(function () {
 
-
     setInnerElement();
 
     scrollToHash();
@@ -410,9 +409,17 @@ jQuery(document).ready(function () {
 
     window.onscroll = function () { navScrollFixed() };
 
-
     closingSidebarClick();
 
     instanceYoutube();
 
+    jQuery('.customHeader .dropdown').hover(function() {
+        jQuery(this).find('.dropdown-menu').first().stop(true, true).delay(100).fadeIn(100);
+    }, function() {
+        jQuery(this).find('.dropdown-menu').first().stop(true, true).delay(200).fadeOut(200);
+    });
+
 });
+
+
+

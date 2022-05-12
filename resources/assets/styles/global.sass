@@ -597,4 +597,152 @@ input.ewp-phone-call-code
 .elementor-widget-void-section-cf7 #loading, .form_cf7 #loading, .formatForm #loading, .wpcf7 #loading, span.ewp-phonetype-radio
     display: none
 
+.desktopElement
+    @include responsivo(telefonoTable)
+        display: none!important
+    @include responsivo(pcMedio)
+        display: none!important
+    @include responsivo(general)
+        display: block!important
+    @include responsivo(resto)
+        display: block!important
+.mobileElement
+    @include responsivo(telefonoTable)
+        display: block!important
+    @include responsivo(pcMedio)
+        display: block!important
+    @include responsivo(general)
+        display: none!important
+    @include responsivo(resto)
+        display: none!important
+
+.desktopTabletElement
+    @include responsivo(telefonoTable)
+        display: none!important
+    @include responsivo(pcMedio)
+        display: block!important
+
+    @include responsivo(general)
+        display: block!important
+
+    @include responsivoSpecial(1000px, 1125px)
+        display: none!important
+
+    @include responsivo(resto)
+        display: block!important
+
+
+.mobileSmallElement
+    @include responsivo(telefonoTable)
+        display: block!important
+    @include responsivo(pcMedio)
+        display: none!important
+    @include responsivo(general)
+        display: none!important
+    @include responsivo(resto)
+        display: none!important
+
+.desktopElement_flex
+    @include responsivo(telefonoTable)
+        display: none!important
+    @include responsivo(pcMedio)
+        display: none!important
+    @include responsivo(general)
+        display: block!important
+    @include responsivo(resto)
+        display: block!important
+.mobileElement_flex
+    @include responsivo(telefonoTable)
+        display: block!important
+    @include responsivo(pcMedio)
+        display: block!important
+    @include responsivo(general)
+        display: none!important
+    @include responsivo(resto)
+        display: none!important
+
+.desktopTabletElement_flex
+    @include responsivo(telefonoTable)
+        display: none!important
+    @include responsivo(pcMedio)
+        display: block!important
+
+    @include responsivo(general)
+        display: block!important
+
+    @include responsivoSpecial(1000px, 1125px)
+        display: none!important
+
+    @include responsivo(resto)
+        display: block!important
+
+.mobileSmallElement_flex
+    @include responsivo(telefonoTable)
+        display: block!important
+    @include responsivo(pcMedio)
+        display: none!important
+    @include responsivo(general)
+        display: none!important
+    @include responsivo(resto)
+        display: none!important
+
+
+@include responsivo(general)
+    .animate
+        animation-duration: 0.3s
+        -webkit-animation-duration: 0.3s
+        animation-fill-mode: both
+        -webkit-animation-fill-mode: both
+
+@include responsivo(smallPcTablet)
+    .animate
+        animation-duration: 0.3s
+        -webkit-animation-duration: 0.3s
+        animation-fill-mode: both
+        -webkit-animation-fill-mode: both
+
+@include responsivo(resto)
+    .animate
+        animation-duration: 0.3s
+        -webkit-animation-duration: 0.3s
+        animation-fill-mode: both
+        -webkit-animation-fill-mode: both
+
+@keyframes slideIn
+    0%
+        transform: translateY(1rem)
+        opacity: 0
+    100%
+        transform: translateY(0rem)
+        opacity: 1
+    0%
+        transform: translateY(1rem)
+        opacity: 0
+@-webkit-keyframes slideIn
+    0%
+        -webkit-transform: transform
+        -webkit-opacity: 0
+    100%
+        -webkit-transform: translateY(0)
+        -webkit-opacity: 1
+    0%
+        -webkit-transform: translateY(1rem)
+        -webkit-opacity: 0
+
+.slideIn
+    -webkit-animation-name: slideIn
+    animation-name: slideIn
+
+
+
+header.customHeader.customSection.component-header-landing nav.navbar .section-row ul
+    @include responsivo(telefonoTable)
+        margin-left: 0!important
+        display: flex
+        flex-direction: row
+
+    @include responsivo(pcMedio)
+        margin-left: 0!important
+        display: flex
+        flex-direction: row
 

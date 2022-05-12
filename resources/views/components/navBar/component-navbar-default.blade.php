@@ -1,13 +1,12 @@
-
 @php
 
 $navBar_ID = ACF_CUSTOM::_getField('nav_global');
 
-
 @endphp
 
 
-<header id="masthead" class="customHeader component-header-default navBar_default customSection fullWidth {{ $classSection }}">
+<header id="masthead"
+    class="customHeader component-header-default navBar_default customSection fullWidth {{ $classSection }}">
 
 
     <nav class="principal navbar navbar-expand-md">
@@ -15,100 +14,84 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
         <div class="section-row">
 
 
-            @if ( has_nav_menu( 'header-top' ) )
-            <div class=" container-fluid sct1">
+            @if (has_nav_menu('header-top'))
+                <div class="desktopElement container-fluid sct1">
 
-                <div class="desktopElement menusSectionTop" id="main-menu-top">
+                    <div class=" menusSectionTop" id="main-menu-top">
 
-                    {!! wp_nav_menu([
-                        'theme_location' => 'header-top',
-                        'container' => false,
-                        'menu_class' => '',
-                        'fallback_cb' => '__return_false',
-                        'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
-                        'depth' => 3,
-                        'walker' => new \App\wp_bootstrap5_navwalker(),
-                    ]) !!}
+                        {!! wp_nav_menu([
+    'theme_location' => 'header-top',
+    'container' => false,
+    'menu_class' => '',
+    'fallback_cb' => '__return_false',
+    'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
+    'depth' => 3,
+    'walker' => new \App\wp_bootstrap5_navwalker(),
+]) !!}
 
-                    @endif
-
-
-                </div>
 
             </div>
 
-            <div class="container-fluid sct2">
+            </div>
+            @endif
 
-                <div class="logo">
-                    <a class="navbar-brand" href="{!! home_url() !!}">
-                        <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-                        <img src="{!! App::setFilePath('/assets/images/logos/escala_logo.svg') !!}" alt="Logo" class="logo-img">
-                    </a>
-                </div>
+        <div class="container-fluid sct2">
+
+            <div class="logo">
+                <a class="navbar-brand" href="{!! home_url() !!}">
+                    <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+                    <img src="{!! App::setFilePath('/assets/images/logos/escala_logo.svg') !!}" alt="Logo" class="logo-img">
+                </a>
+            </div>
+
 
                 <div class="mobileElement">
 
-                <div
-                style="display: flex; flex-direction: row"
-                class="buttonSections">
+                <div style="display: flex; flex-direction: row" class="buttonSections">
 
 
-                {!! wp_nav_menu([
-                    'menu' => $navBar_ID,
-                  'container' => false,
-                  'menu_class' => 'buttonsCTA',
-                  'fallback_cb' => '__return_false',
-                  'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
-                  'depth' => 3,
-                  'walker' => new \App\wp_bootstrap5_navwalker(),
-              ]) !!}
+                    {!! wp_nav_menu([
+    'menu' => $navBar_ID,
+    'container' => false,
+    'menu_class' => 'buttonsCTA',
+    'fallback_cb' => '__return_false',
+    'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
+    'depth' => 3,
+    'walker' => new \App\wp_bootstrap5_navwalker(),
+    ]) !!}
 
 
-                    <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button" >
+                    <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button">
 
                         <i class="fas fa-bars    "></i>
 
                     </button>
 
                 </div>
-                </div>
-                <div class="desktopElement">
+            </div>
+            <div class="desktopElement">
                 <div class="menusSection" id="main-menu">
 
 
 
-                        {!! wp_nav_menu([
-                          'menu' => $navBar_ID,
-                        'container' => false,
-                        'menu_class' => '',
-                        'fallback_cb' => '__return_false',
-                        'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
-                        'depth' => 3,
-                        'walker' => new \App\wp_bootstrap5_navwalker(),
-                    ]) !!}
-
-
-                {{-- @if ( has_nav_menu( 'navBar-CTAS' ) )
-
-                {!! wp_nav_menu([
-                    'menu' => 'navBar-CTAS',
-                    'container' => false,
-                    'menu_class' => '',
-                    'fallback_cb' => '__return_false',
-                    'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
-                    'depth' => 3,
-                    'walker' => new \App\wp_bootstrap5_navwalker(),
-                    ]) !!}
-
-
-                @endif --}}
+                    {!! wp_nav_menu([
+    'menu' => $navBar_ID,
+    'container' => false,
+    'menu_class' => '',
+    'fallback_cb' => '__return_false',
+    'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
+    'depth' => 3,
+    'walker' => new \App\wp_bootstrap5_navwalker(),
+]) !!}
 
 
 
 
-                </div>
                 </div>
             </div>
+
+
+        </div>
         </div>
     </nav>
 
@@ -143,32 +126,12 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
 
             <div class="containSideBar">
 
-            <div class="container-fluid sct1">
+                <div class="container-fluid sct1">
 
-                <div class="menusSectionTop" id="main-menu-top">
+                    <div class="menusSectionTop" id="main-menu-top">
 
-                    {!! wp_nav_menu([
-                        'theme_location' => 'header-top',
-                        'container' => false,
-                        'menu_class' => '',
-                        'fallback_cb' => '__return_false',
-                        'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
-                        'depth' => 3,
-                        'walker' => new \App\wp_bootstrap5_navwalker(),
-                    ]) !!}
-
-
-                </div>
-
-            </div>
-
-            <div class="container-fluid sct2">
-
-
-                <div class="menusSection">
-
-                    {!! wp_nav_menu([
-      'menu' => $navBar_ID,
+                        {!! wp_nav_menu([
+    'theme_location' => 'header-top',
     'container' => false,
     'menu_class' => '',
     'fallback_cb' => '__return_false',
@@ -177,12 +140,31 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
     'walker' => new \App\wp_bootstrap5_navwalker(),
 ]) !!}
 
+
+                    </div>
+
+                </div>
+
+                <div class="container-fluid sct2">
+
+
+                    <div class="menusSection">
+
+                        {!! wp_nav_menu([
+    'menu' => $navBar_ID,
+    'container' => false,
+    'menu_class' => '',
+    'fallback_cb' => '__return_false',
+    'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
+    'depth' => 3,
+    'walker' => new \App\wp_bootstrap5_navwalker(),
+]) !!}
+
+                    </div>
+
+                </div>
             </div>
 
+
         </div>
-        </div>
-
-
 </div>
-</div>
-

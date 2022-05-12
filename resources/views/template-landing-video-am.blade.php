@@ -26,7 +26,7 @@ $parameters = [
     'enableButton' => false,
     'urlButton' => '#lead-form',
     'textButton' => 'Hablar con un asesor',
-    'typeButton' => 'primaryButton',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
     'side' => 'right',
 ];
 @endphp
@@ -40,28 +40,28 @@ $parameters = [
  $parameters = array(
   'type' => 'backgroundColor',
   'classSection' => 'landingVideoAmOtto1',
-  'enableTitle' => true,
-  'titlePrincipal' => '
-  <span class="greenBlueColor">
-    Escala te ayudará a</span>
-    <br class="space">
-    hacer crecer tu negocio',
+  'enableTitle' => false,
+  'titlePrincipal' => null,
   'subTitlePrincipal' => null,
-  'title' => null,
-  'typeVideo' =>  'localvideo',
+  'title' => '
+  <span class="greenBlueColor">Escala te ayudará a</span> <br class="space">
+    hacer crecer tu negocio',
+'typeVideo' =>  'localvideo',
   'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
   'videoCover' => App::setFilePath('/assets/images/illustrations/others/tapa_video_thankyou_page.jpg'),
   'text' => '
-  Estás a un clic de comenzar a hacer crecer tu negocio con Escala, la plataforma todo en uno en marketing digital y ventas
-  <br class="desktopElement"> 100% en español de LATAM, que te da en un solo lugar, todas las herramientas para:
-  <br class="space"><br class="space">
+Estás a un clic de comenzar a hacer crecer tu negocio con Escala, la <br class="desktopTabletElement">
+plataforma todo en uno en marketing digital y ventas <br class="desktopTabletElement">
+100% en español de LATAM, que te da en un solo lugar, todas las <br class="desktopTabletElement">
+herramientas para:
+<br class="space"><br class="space">
 <p class="text">
   <ul>
     <li>Generar demanda de tus productos y servicios</li>
     <li>Aumentar tus ventas</li>
     <li>Aumentar el índice de retención de tus clientes <br class="desktopTabletElement"> para lograr upsells y recompra</li>
     </ul>
-    </p>
+</p>
 <br class="space"><br class="space">
 <p class="text">
   Dale un vistazo a este video y descubre todo lo que puedes <br class="desktopTabletElement">
@@ -70,9 +70,9 @@ $parameters = [
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'textButton' => 'Prueba Escala ya',
-  'side' => 'center',
+  'side' => 'right',
  ) ;
 @endphp
 
@@ -108,8 +108,8 @@ $parameters = [
     'enableButton' => false,
     'urlButton' => '#lead-form',
     'textButton' => 'Hablar con un asesor',
-    'typeButton' => 'primaryButton',
-    'side' => 'right',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+    'side' => 'left',
 ];
 @endphp
 
@@ -123,20 +123,20 @@ $parameters = [
     'classSection' => 'landingVideoAmOtto3',
     'backgroundImageFile' => null,
     'enableTitle' => false,
-    'img' => App::setFilePath('/assets/images/illustrations/team/landing_pages_escala_4.png'),
+    'img' => App::setFilePath('/assets/images/person/pagina_registro_escala 1.png'),
     'title' => '
-      No pierdas ninguna venta, <br class="space">
-      <span style="color: #B9E6E9">comienza ahora</span>
+      <span class="greenBlueColor">No pierdas ninguna venta,</span> <br class="space">
+      comienza ahora
     ',
     'text' => '
     Entra en este link y solicita <br class="space">
-    una DEMO GRATIS de Escala ahora
+una demo gratis de Escala ahora
     ',
     'enableButton' => true,
-    'urlButton' => '#lead-form',
-    'textButton' => '¡DEMO GRATIS ahora!',
-    'typeButton' => 'primaryButton',
-    'side' => 'left',
+    'urlButton' => '#',
+    'textButton' => 'Solicitar Demo',
+    'typeButton' => ' hoverInEffect secondaryButton openPopUpButton popup-general-demo-2022',
+    'side' => 'right',
 ];
 @endphp
 

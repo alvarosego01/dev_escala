@@ -99,7 +99,7 @@ $zoomLink = ACF_CUSTOM::_getField('link_zoom');
 
                                 <a target="_blank" href="@php
                                     echo $zoomLink;
-                                @endphp" class="primaryButton hoverInEffect">
+                                @endphp" class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                                     Ingresar al Webinar ahora
                                 </a>
 

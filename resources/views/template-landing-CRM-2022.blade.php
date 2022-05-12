@@ -55,7 +55,7 @@ upsells. El CRM de Escala es fácil de usar y potente.
         'enableButton' => true,
         'urlButton' => '#',
         'textButton' => '¡Comenzar ahora!',
-        'typeButton' => 'primaryButton hoverInEffect',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -228,7 +228,7 @@ de venderle a un cliente fiel que a uno nuevo.
 
       <div class="containElements">
 
-        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
           ¡Probar Escala ahora!
         </a>
 
@@ -312,7 +312,7 @@ mayor conversión .
 
       <div class="containElements">
 
-        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
           Quiero mi CRM de Escala
         </a>
 
@@ -385,7 +385,7 @@ Tu CRM ya viene integrado a <strong>la plataforma “todo-en-uno” de marketing
         'enableButton' => false,
         'urlButton' => '#',
         'textButton' => '¡Comenzar ahora!',
-        'typeButton' => 'primaryButton hoverInEffect',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -494,7 +494,7 @@ es como tener un súper gerente <br class="space">
 de ventas ayudándote
             </h2>
 
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                 Quiero comenzar ahora
               </a>
 
@@ -524,7 +524,7 @@ también te vamos a acompañar en todo el camino al éxito
     'enableButton' => true,
     'urlButton' => '#',
     'textButton' => '¡Comenzar ahora!',
-    'typeButton' => 'primaryButton hoverInEffect',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -579,7 +579,7 @@ personalizar mis campañas
     'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => '¡Comenzar ya!',
-  'typeButton' => 'primaryButton hoverInEffect',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
 ];
 @endphp
 @bannerForms7_T1( $parameters )

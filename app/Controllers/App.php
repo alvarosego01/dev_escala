@@ -67,4 +67,20 @@ class App extends Controller
     }
 
 
+
+    public static function get_page_by_template($template = '') {
+
+        $args = [
+            'post_type'  => 'page',
+            'fields'     => 'ids',
+            'nopaging'   => true,
+            'meta_key'   => '_wp_page_template',
+            'meta_value' => $template
+        ];
+        $pages = get_posts( $args );
+        return $pages;
+
+    }
+
+
 }

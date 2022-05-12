@@ -1,9 +1,28 @@
 
-@php
-    $typeNav = ACF_CUSTOM::_getField('nav_settings');
 
+@php
+
+    $typeNav = null;
+    if( is_page() != null && is_page() == 1 && get_post_type() == 'page' ){
+
+      $typeNav = ACF_CUSTOM::_getField('nav_settings');
+
+    } elseif ( is_singular() != null && is_singular() == 1 && get_post_type() == 'post' ) {
+      # code...
+      $idPostParent = url_to_postid('blog');
+      $typeNav = ACF_CUSTOM::_getField('nav_settings', $idPostParent );
+
+    } else {
+
+      $typeNav = ACF_CUSTOM::_getField('nav_settings');
+
+    }
 
 @endphp
+
+
+
+
 
 @if (isset($typeNav) && $typeNav != 'elementor_navbar' )
 
@@ -47,9 +66,3 @@ get_header();
 
 
 
-
-
-{{--
-@php
-get_header();
-@endphp --}}

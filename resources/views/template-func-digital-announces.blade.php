@@ -88,7 +88,7 @@
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Comenzar ahora',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -163,7 +163,7 @@ Lo que no se mide no mejora. Conoce lo que funciona, <br> aprende de lo que no y
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Optimizar resultados',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -216,7 +216,7 @@ Las páginas creadas en Escala ya vienen con el <br> Pixel de Facebook integrado
   'title' => '<span class="blueLightColor3">¡Consigue más visitantes</span> <br> calificados ahora!',
   'text' => null,
   'enableButton' => true,
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
     'urlButton' => '#lead-form',
   'textButton' => 'Pruébalo ahora',
   'side' => 'right',

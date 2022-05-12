@@ -69,7 +69,7 @@ $parameters = array(
   de nuestros planes
   </span>',
  'subTitlePrincipal' => '
-  Cada uno de nuestros planes tiene las funcionalidades de marketing digital y ventas <br class="desktopTabletElement">
+  Nuestros planes tienen las funcionalidades de marketing digital y ventas <br class="desktopTabletElement">
   para acelerar el crecimiento de tu negocio. Solo inviertes en lo que necesitas.
  '
 ) ;
@@ -78,7 +78,7 @@ $parameters = array(
 @endpricing_card_T1
 
 
-<section class="customSection sectionParent landingPricingPage3_2022">
+<section class="customSection sectionParent landingPricingPage3_2022 desktopElement">
 
   <div class="section-row">
 
@@ -87,11 +87,11 @@ $parameters = array(
       <div class="containElements">
 
         <h2 class="primaryTitle greenBlueColor">
-          Servicio
+          En Escala lo tienes todo: Plataforma + servicio
         </h2>
 
         <p class="primaryText grayColorTexts">
-          En Escala te acompañamos desde el primer día para guiarte en todo tu camino al éxito.
+          No solamente somos una plataforma fácil de usar, somos un equipo de servicio al cliente <br class="desktopTabletElement"> comprometido con el crecimiento de tu negocio.
         </p>
 
 
@@ -175,7 +175,7 @@ $parameters = array(
             </tr>
             <tr class="borderB">
               {{-- <th>Complementarios</td> --}}
-              <td>Migraciòn de data</td>
+              <td>Migración de data</td>
               <td></td>
               <td class="ch">
                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
@@ -260,7 +260,7 @@ $parameters = array(
             <tr class="borderB">
               {{-- <th>Complementarios</td> --}}
 
-              <td>Whatsapp de servicio</td>
+              <td>WhatsApp de servicio</td>
               <td></td>
               <td class="ch">
                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
@@ -280,7 +280,7 @@ $parameters = array(
             </tr>
             <tr>
               {{-- <th>Complementarios</td> --}}
-              <td>Sesiones estratégicas extra con descuento</td>
+              <td>Sesiones estratégicas extras con descuento</td>
               <td></td>
               <td class="ch">
                 <img class="checkIcon" src="{!! App::setFilePath('/assets/images/icons/check_vector.png') !!}" alt="">
@@ -509,7 +509,7 @@ $parameters = array(
 
           <div class="info col-md-12 col-lg-6">
 
-            <div class="containerImage">
+            <div class="containerImage imageQuote">
 
               <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector.png') !!}" alt="" loading="lazy">
 
@@ -528,7 +528,7 @@ $parameters = array(
 
             <div class="subText model1 primaryText grayColorTexts">
 
-            <div class="containerImage">
+            <div class="containerImage logoMark">
 
               <img src="{!! App::setFilePath('/assets/images/illustrations/others/Publicidad-Comercial21.png') !!}" alt="" loading="lazy">
 
@@ -545,7 +545,9 @@ $parameters = array(
           <div class="image col-md-12 col-lg-6">
             <div class="containerImage">
 
-              <img src="{!! App::setFilePath('/assets/images/illustrations/others/tablet_otto_1.png') !!}" alt="" loading="lazy">
+              <img class="desktopElement" src="{!! App::setFilePath('/assets/images/illustrations/others/tablet_otto_1.png') !!}" alt="" loading="lazy">
+
+              <img class="mobileElement" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_tablet_fidelizacion.png') !!}" alt="" loading="lazy">
 
           </div>
           </div>
@@ -577,9 +579,9 @@ $parameters = array(
   ',
   'text' => null,
   'enableButton' => true,
-  'urlButton' => '#lead-form',
+  'urlButton' => '#',
   'textButton' => 'Prueba gratis',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'hoverInEffect primaryButton openPopUpButton popup-general-trial-2022',
   'side' => 'right',
 
  ) ;

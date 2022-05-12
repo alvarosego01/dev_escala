@@ -86,7 +86,7 @@
                     'enableButton' => true,
                     'urlButton' => '#',
                     'textButton' => '¡Comenzar ahora!',
-                    'typeButton' => 'primaryButton hoverInEffect',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                     'elements' => array(
                                 [
                                     'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icon_1.png'),

@@ -170,7 +170,7 @@
         'enableButton' => false,
         // 'urlButton' => '#',
         // 'textButton' => 'Quiero ser partner',
-        // 'typeButton' => 'primaryButton hoverInEffect',
+        // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         'elements' => array(
                     // [
                     //     'img' => App::setFilePath('/assets/images/illustrations/others/free-trail_07 1.png'),
@@ -214,7 +214,7 @@
               <span class="greenBlueColor">Para mayor informacion escríbenos a</span> <span class="orangeColor">agencias@escala.com</span>
             </h2>
 
-            {{-- <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+            {{-- <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
               Comenzar ahora
             </a> --}}
 

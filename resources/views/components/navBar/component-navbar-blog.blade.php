@@ -1,13 +1,23 @@
 @php
 
-$navBar_ID = ACF_CUSTOM::_getField('nav_global');
+if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
+    $navBar_ID = ACF_CUSTOM::_getField('nav_global');
+} elseif (is_singular() != null && is_singular() == 1 && get_post_type() == 'post') {
+    # code...
 
+    $idPostParent = url_to_postid('blog');
+    $navBar_ID = ACF_CUSTOM::_getField('nav_global', $idPostParent);
+
+} else {
+    $navBar_ID = ACF_CUSTOM::_getField('nav_global');
+}
 
 @endphp
 
 
 
-<header id="masthead" class="customHeader component-header-blog navBar_blog customSection fullWidth {{ $classSection }}">
+<header id="masthead"
+    class="customHeader component-header-blog navBar_blog customSection fullWidth {{ $classSection }}">
 
 
     <nav class="principal navbar navbar-expand-md">
@@ -24,16 +34,36 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
                     </a>
                 </div>
 
+                <div class="mobileElement">
 
-                <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button" >
+                    <div style="display: flex; flex-direction: row" class="buttonSections">
 
-                    <i class="fas fa-bars    "></i>
 
-                </button>
+                        {!! wp_nav_menu([
+    'menu' => $navBar_ID,
+    'container' => false,
+    'menu_class' => 'buttonsCTA',
+    'fallback_cb' => '__return_false',
+    'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
+    'depth' => 3,
+    'walker' => new \App\wp_bootstrap5_navwalker(),
+]) !!}
 
-                <div class="desktopElement menusSection" id="main-menu">
 
-                    {!! wp_nav_menu([
+                        <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button">
+
+                            <i class="fas fa-bars    "></i>
+
+                        </button>
+
+                    </div>
+                </div>
+                <div class="desktopElement">
+                    <div class="menusSection" id="main-menu">
+
+
+
+                        {!! wp_nav_menu([
     'menu' => $navBar_ID,
     'container' => false,
     'menu_class' => '',
@@ -45,7 +75,11 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
 
 
 
+
+                    </div>
                 </div>
+
+
             </div>
         </div>
     </nav>
@@ -95,12 +129,10 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
     'walker' => new \App\wp_bootstrap5_navwalker(),
 ]) !!}
 
+                </div>
+
             </div>
 
+
         </div>
-
-
 </div>
-</div>
-
-

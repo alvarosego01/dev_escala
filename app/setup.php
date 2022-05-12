@@ -26,20 +26,15 @@ add_action('wp_enqueue_scripts', function () {
 
     $bootstrapPages = SetComponents::setTemplates('all');
 
+    wp_register_style('bootstrapCss', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
+    wp_enqueue_style('bootstrapCss');
+
+    wp_register_script('bootstrapJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/bootstrap.min.js', array('jquery'), rand(), 'all');
+    wp_enqueue_script('bootstrapJs');
+
     if (is_page_template($bootstrapPages)) {
 
         $t = null;
-        // styles
-
-        // bootstrap
-        wp_register_style('bootstrapCss', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
-        wp_enqueue_style('bootstrapCss');
-
-        wp_register_script('bootstrapJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/bootstrap.min.js', array('jquery'), rand(), 'all');
-        wp_enqueue_script('bootstrapJs');
-
-        // wp_register_script('popperJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/popper.min.js', array('jquery'), rand(), 'all');
-        // wp_enqueue_script('popperJs');
 
         // generals
         wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, THEME_VERSION);
@@ -438,6 +433,7 @@ function registerCustomMenu()
 }
 
 add_action('init', registerCustomMenu() ); // Add HTML5 Blank Menu
+
 
 
 
