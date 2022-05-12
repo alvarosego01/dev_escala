@@ -137,8 +137,8 @@
 
         @endarticlesBlog_T1
 
-
-        {{-- @php
+{{--
+        @php
 
           if ( get_post_type() === 'post' ) {
           # code...

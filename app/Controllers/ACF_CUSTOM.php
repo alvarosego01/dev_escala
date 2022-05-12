@@ -864,17 +864,7 @@ class ACF_CUSTOM extends Controller
                         'landing-global2'	=> 'Landing white menu 2 - Only logo',
                     ),
                 ),
-                array(
-                    'key' => 'footer_settings',
-                    'label' => 'Footer base',
-                    'name' => 'Footer base',
-                    'type' => 'select',
-                    'choices' => array(
-                        'elementor_navbar' => 'Elementor nav',
-                        'principal-footer1'    => '[B] Principal general footer',
 
-                    ),
-                ),
                 array(
                     'key' => 'nav_global',
                     'label' => 'NavBar type register',
@@ -890,7 +880,18 @@ class ACF_CUSTOM extends Controller
                             ]
                         ]
                     ]
-                )
+                ),
+                array(
+                    'key' => 'footer_settings',
+                    'label' => 'Footer base',
+                    'name' => 'Footer base',
+                    'type' => 'select',
+                    'choices' => array(
+                        'elementor_footer' => 'Elementor footer',
+                        'principal-footer1' => '[B] Principal general footer',
+
+                    ),
+                ),
             ),
             'location' => array(
                 // array(
