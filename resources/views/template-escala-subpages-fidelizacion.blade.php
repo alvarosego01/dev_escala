@@ -127,7 +127,7 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
 <p class="text"><strong>Impulsa el crecimiento de tu negocio con Escala.</strong></p>
     ',
     'enableButton' => false,
-    // 'urlButton' => App::setTypeUrl().'/zoom-meeting',
+
     // 'typeButton' => 'primaryButton',
     // 'textButton' => 'Hablar con un asesor',
     'side' => 'left',

@@ -28,7 +28,7 @@ $items = [
     //             'text' =>
     //                 'No. nuestra herramienta es muy intuitiva y fácil de usar. Para que estés más tranquilo, hemos preparado una serie de tutoriales muy<br>prácticos, que te ayudarán a despejar cualquier duda que tengas mientras vives la experiencia. También puedes contar con nuestro<br>acompañamiento, a través de asesorías, que te serán de gran ayuda en los primeros momentos de uso de la plataforma. <a class="hiperButtonGreenBlueT2"href="' .
     //                 $escalaUrl .
-    //                 '/zoom-meeting">Atención al cliente.</a>'
+
     //         ],
     //         [
     //             'type' => 'item',

@@ -119,7 +119,7 @@
             'type' => 'backgroundColor',
             'classSection' => 'landingPartners3',
             'enableTitle' => true,
-            'urlButton' =>  App::setTypeUrl().'/zoom-meeting',
+            'urlButton' =>  '#',
             'enableButton' => false,
             'textButton' => null,
             'typeButton' => null,
