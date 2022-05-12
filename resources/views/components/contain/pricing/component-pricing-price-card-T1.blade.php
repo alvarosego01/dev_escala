@@ -15,6 +15,26 @@
 
 @var $typeButton - set type off button (secondaryButton || primaryButton) --}}
 
+
+@php
+    $pb_starter = 30;
+    $pb_pro = 135;
+    $c_desc = 0.30;
+
+    $pd_starter = $pb_starter - ( $pb_starter * $c_desc );
+    $pd_pro = $pb_pro - ( $pb_pro * $c_desc );
+
+    $pg_ta_starter = $pb_starter * 12;
+    $pg_ta_pro = $pb_pro * 12;
+
+    $pg_desc_starter = $pd_starter * 12;
+    $pg_desc_pro = $pd_pro * 12;
+
+
+@endphp
+
+
+
 @php
 $items = [
     [
@@ -68,10 +88,10 @@ $items = [
         'discountTest' => '
         <p class="primaryText">
 
-                <span class="t1">Pago total anual <span class="priceDotted">360 USD</span></span>
+                <span class="t1">Pago total anual <span class="priceDotted">'. $pg_ta_starter .' USD</span></span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento 252 USD
+                        Con descuento '. $pg_desc_starter .' USD
                     </strong>
                 </span>
         </p>',
@@ -184,10 +204,10 @@ $items = [
         <p class="primaryText">
 
 
-                <span class="t1">Pago total anual <span class="priceDotted">1620 USD</span></span>
+                <span class="t1">Pago total anual <span class="priceDotted">'. $pg_ta_pro .' USD</span></span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento 1134 USD
+                        Con descuento '. $pg_desc_pro .' USD
                     </strong>
                 </span>
         </p>',
