@@ -160,7 +160,7 @@
                 'img' => App::setFilePath('/assets/images/illustrations/others/paymentpages-1 1.png'),
                 'text' => 'En Escala tenemos un plan a la medida de tus necesidades. <br class="desktopElement"> Conoce nuestros planes para cada tamaño de empresa y número <br class="desktopElement"> de contactos de marketing. Optimiza tu inversión en ventas <br class="desktopElement"> y marketing digital.',
                 'enableButton' => true,
-                'urlButton' => App::setTypeUrl().'/zoom-meeting',
+                'urlButton' => '#',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                 'textButton' => 'Hablar con un asesor',
                 'side' => 'left',

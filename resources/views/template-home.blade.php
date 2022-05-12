@@ -75,7 +75,7 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
 </p>
         ',
         'enableButton' => false,
-        // 'urlButton' => App::setTypeUrl().'/zoom-meeting',
+
         // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'textButton' => 'Hablar con un asesor',
         'side' => 'left',

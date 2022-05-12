@@ -54,7 +54,7 @@
                     'classSection' => 'landingServCoaching2',
                     'enableTitle' => true,
                     'enableButton' => true,
-                    'urlButton' =>  App::setTypeUrl().'/zoom-meeting',
+                    'urlButton' =>  '#',
                     'textButton' => 'Conocer más',
                     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                     'titlePrincipal' => '<span class="greenBlueColor">Con Escala crece tu negocio</span> <br class="desktopElement"> de coaching online',
