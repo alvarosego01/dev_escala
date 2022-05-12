@@ -137,7 +137,7 @@
 
         @endarticlesBlog_T1
 
-{{--
+
         @php
 
           if ( get_post_type() === 'post' ) {
@@ -166,7 +166,7 @@
       @endphp
       @bannerForms7_T1( $parameters )
 
-      @endbannerForms7_T1 --}}
+      @endbannerForms7_T1
 
 
 
