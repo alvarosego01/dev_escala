@@ -177,7 +177,7 @@ $items = [
         'textMiddle' => null,
         'button' => true,
         'textButton' => 'Hablar con un asesor',
-        'typeButton' => 'openPopUpButton popup-general-trial-2022 primaryButton hoverInEffect',
+        'typeButton' => 'openPopUpButton popup-general-demo-2022 primaryButton hoverInEffect',
         'extendInfoButton' => true,
         'customClasses' => 'cardPlan2',
         'discountTest' => '
@@ -287,7 +287,7 @@ $items = [
         ',
         'button' => true,
         'textButton' => 'Hablar con un asesor',
-        'typeButton' => 'openPopUpButton popup-general-trial-2022 primaryButton hoverInEffect',
+        'typeButton' => 'openPopUpButton popup-general-demo-2022 primaryButton hoverInEffect',
         'customClasses' => 'cardPlan3',
         'extendInfoButton' => true,
         'extendDetails' => [
