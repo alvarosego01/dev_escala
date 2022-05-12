@@ -15,23 +15,25 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
 
 @endphp
 
+
+
 @if (isset($typeFooter) && $typeFooter != 'elementor_footer' )
 
 @if (isset($typeFooter) && $typeFooter == 'principal-footer1' )
 
 @php
+
     wp_footer();
 
-    // get_footer();
-
-
-
 @endphp
+
 <footer id="bootstrapFooter" class="content-info customFooter bootstrapFooter principal-footer1">
 
   <div class="section-row">
-      @php dynamic_sidebar('sidebar-footer') @endphp
-  </div>
+
+    @php dynamic_sidebar('sidebar-footer') @endphp
+
+    </div>
 
 </footer>
 
@@ -40,7 +42,7 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
 @endif
 
 
-@if (!isset($typeFooter) || (isset($typeFooter) && $typeFooter == 'elementor_footer'))
+@if ( !isset($typeFooter) || ( isset($typeFooter) && $typeFooter == 'elementor_footer' ) )
     @php
 
         get_footer();
