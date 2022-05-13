@@ -40,10 +40,9 @@ $items = [
     [
         'name' => 'plan1',
         'type' => 'master',
-        'title' => 'Plan <span class="greenBlueColor">Starter</span>',
+        'title' => 'Plan <span class="orangeColor">Starter</span>',
         'price' => 'A partir de <br class="space">
         <span class="cost">
-
             <span
             style="display: none"
             class="numerCost">30</span>
@@ -81,10 +80,10 @@ $items = [
         'middleType' => 'selectorAnual',
         'textMiddle' => null,
         'button' => true,
-        'textButton' => 'Prueba gratis',
-        'typeButton' => 'openPopUpButton popup-general-trial-2022 primaryButton hoverInEffect',
-        'extendInfoButton' => true,
+        'textButton' => 'Prueba Gratis',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         'customClasses' => 'cardPlan1',
+        'extendInfoButton' => true,
         'discountTest' => '
         <p class="primaryText">
 
@@ -156,7 +155,8 @@ $items = [
     [
         'name' => 'plan2',
         'type' => 'master',
-        'title' => 'Plan <span class="orangeColor">Pro</span>',
+        'recomend' => true,
+        'title' => 'Plan <span class="greenBlueColor">Pro</span>',
         'price' => 'A partir de <br class="space">
         <span class="cost">
 
@@ -196,8 +196,8 @@ $items = [
         'middleType' => 'selectorAnual',
         'textMiddle' => null,
         'button' => true,
-        'textButton' => 'Hablar con un asesor',
-        'typeButton' => 'openPopUpButton popup-general-demo-2022 primaryButton hoverInEffect',
+        'textButton' => 'Solicitar Demo',
+        'typeButton' => 'secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         'extendInfoButton' => true,
         'customClasses' => 'cardPlan2',
         'discountTest' => '
@@ -307,7 +307,7 @@ $items = [
         ',
         'button' => true,
         'textButton' => 'Hablar con un asesor',
-        'typeButton' => 'openPopUpButton popup-general-demo-2022 primaryButton hoverInEffect',
+        'typeButton' => 'openPopUpButton popup-general-demo-2022 primaryWhiteButton hoverInEffect',
         'customClasses' => 'cardPlan3',
         'extendInfoButton' => true,
         'extendDetails' => [
@@ -420,6 +420,22 @@ $items = [
                         <div id="{{ $item['name'] }}" class="col-md-12 col-lg-4 elementParent">
 
                             <div class="elementPrice @if (isset($item['customClasses']) && $item['customClasses'] != '') {!! $item['customClasses'] !!} @endif">
+
+                                @if (isset($item['recomend']) && $item['recomend'] == true)
+
+                                    {{-- <span class="recomendTag">
+                                        Recomendado
+                                    </span> --}}
+
+                                    {{-- resources/assets/images\icons\recomend-tag.png --}}
+
+                                    <div class="containerImage recomendTagImage">
+
+                                        <img src="{!! App::setFilePath('/assets/images/icons/recomend-tag.png') !!}" alt="" loading="lazy">
+
+                                    </div>
+
+                                @endif
 
                                 <div class="had">
                                     <h3 class="secondaryTitle blackColor">

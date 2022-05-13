@@ -673,8 +673,11 @@ function setConfigModeSelect(element){
 
 }
 
+
+
 jQuery(document).ready(function () {
 
+jQuery('#checkPro').click();
 
     device = deviceType();
 
