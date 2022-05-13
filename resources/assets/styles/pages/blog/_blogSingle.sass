@@ -135,6 +135,7 @@
     .customSection.sectionParent.blogSingleSection4
         // display: none
         background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
+        padding: 50px 0
         @include responsivo(telefonoTable)
             padding: 0
         @include responsivo(pcMedio)
@@ -149,10 +150,16 @@
                 padding: 50px 50px
             @include responsivo(general)
                 width: 80%!important
-                max-width: 1140px!important
+                max-width: 1200px!important
+            @include responsivo(smallPcTablet)
+                width: 90%!important
+                max-width: 1200px!important
             @include responsivo(resto)
                 width: 80%!important
                 max-width: 1240px!important
+
+
+
 
             // .innerSectionElement.sct1
             .innerSectionElement.sct1
@@ -210,7 +217,7 @@
                                 align-content: center
                                 height: 100%
                             @include responsivo(smallPcTablet)
-                                width: 65%
+                                width: 60%
                                 margin-right: 35px
 
 
@@ -304,11 +311,11 @@
                             margin-bottom: 10px
                             @include responsivo(general)
                                 position: absolute
-                                left: -50%
+                                left: -45%
                                 bottom: 0
                                 top: 0
                             @include responsivo(smallPcTablet)
-                                left: -60%!important
+                                left: -50%!important
 
                             @include responsivo(resto)
                                 position: absolute
@@ -324,7 +331,7 @@
                                     height: 250px
                                     margin-bottom: 25px
                                 @include responsivo(general)
-                                    height: 300px
+                                    height: 275px
                                     margin: auto 0
                                 @include responsivo(smallPcTablet)
                                     height: 225px

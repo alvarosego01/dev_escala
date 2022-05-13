@@ -47,6 +47,11 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_style('escalaFex.css', asset_path('styles/pages/escalaFex.css'), false, THEME_VERSION);
         }
 
+        $t = SetComponents::setTemplates('termsText');
+        if (is_page_template($t)) {
+            wp_enqueue_style('termsText.css', asset_path('styles/pages/document-terms-text/dttsMain.css'), false, THEME_VERSION);
+        }
+
         $t = SetComponents::setTemplates('landings');
         if (is_page_template($t)) {
             wp_enqueue_style('landingPages.css', asset_path('styles/pages/landingPages/landingPagesMain.css'), false, THEME_VERSION);
@@ -428,6 +433,9 @@ function registerCustomMenu()
 
     register_nav_menus(array(
         'header-top' => __('Principal top menu - Whatsapp, login, language', 'escala'),
+        'social_networks' => __('Escala social networks', 'escala'),
+        'func_footer' => __('Functionalities footer', 'escala'),
+        'us_footer' => __('About us footer', 'escala'),
         // 'navBar-CTAS' => __('Principal CTAS', 'escala'),
     ));
 }
