@@ -87,7 +87,7 @@ $parameters = array(
       <div class="containElements">
 
         <h2 class="primaryTitle greenBlueColor">
-          En Escala lo tienes todo: Plataforma + servicio
+          En Escala lo tienes todo: CRM + Expertos
         </h2>
 
         <p class="primaryText grayColorTexts">

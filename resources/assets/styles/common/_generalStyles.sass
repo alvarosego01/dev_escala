@@ -452,6 +452,8 @@ a[disabled]
         font-size: 18px!important
         padding: 10px 25px!important
 
+
+
 .menuButton.menuPrimaryButton a,
 .menuButton.menuPrimaryButton button
     @include responsivo(telefonoTable)
@@ -467,8 +469,43 @@ a[disabled]
         font-size: 14px!important
         padding: 10px 15px!important
 
+.primaryWhiteButton,
+.menuButton.menuprimaryWhiteButton a,
+.menuButton.menuprimaryWhiteButton button
+    display: inline-block
+    text-decoration: none
+    font-size: 18px
+    line-height: 1
+    padding: 12.5px 25px!important
+    border-radius: 7px
+    color: $colorOrange
+    background-color: white!important
+    border: 1px solid $colorOrange
+    width: fit-content
+    transition: $transitionButton
+    transform: scale(1)
+    font-family: Nunito
+    @include responsivo(telefonoTable)
+        font-size: 12.5px!important
+        padding: 10px 12.5px!important
+    @include responsivo(pcMedio)
+        font-size: 18px!important
+        padding: 10px 25px!important
 
-
+.menuButton.menuprimaryWhiteButton a,
+.menuButton.menuprimaryWhiteButton button
+    @include responsivo(telefonoTable)
+        font-size: 11px!important
+        padding: 7.5px 10px!important
+    @include responsivo(pcMedio)
+        font-size: 16px!important
+        padding: 10px 20px!important
+    @include responsivo(general)
+        font-size: 16px!important
+        padding: 10px 20px!important
+    @include responsivo(smallPcTablet)
+        font-size: 14px!important
+        padding: 10px 15px!important
 
 
 
@@ -577,6 +614,15 @@ a[disabled]
         transform: scale(1.075)
         color: white
         background-color: $orangeLight
+
+.hoverInEffect.primaryWhiteButton,
+.menuHoverInEffect.menuButton.menuprimaryWhiteButton a,
+.menuHoverInEffect.menuButton.menuprimaryWhiteButton button
+    &:hover
+        transform: scale(1.075)
+        color: $colorOrange
+        background-color: white!important
+        border: 1px solid $colorOrange
 
 .hoverInEffect.secondaryButton,
 .menuHoverInEffect.menuButton.menuSecondaryButton a,

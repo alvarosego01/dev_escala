@@ -35,7 +35,7 @@
                                         <div class="customCheckBox">
 
                                             <label class="checkboxCustom path">
-                                                <input checked onchange="setConfigModeSelect(this)" value="starter" id="checkStarter" name="_typePlan"
+                                                <input onchange="setConfigModeSelect(this)" value="starter" id="checkStarter" name="_typePlan"
                                                     type="radio">
                                                 <svg viewBox="0 0 21 21">
                                                     <path
@@ -62,7 +62,7 @@
                                         <div class="customCheckBox">
 
                                             <label class="checkboxCustom path">
-                                                <input  onchange="setConfigModeSelect(this)" value="pro" id="checkPro" name="_typePlan" type="radio">
+                                                <input checked onchange="setConfigModeSelect(this)" value="pro" id="checkPro" name="_typePlan" type="radio">
                                                 <svg viewBox="0 0 21 21">
                                                     <path
                                                         d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186">
@@ -120,6 +120,7 @@
 
                                             <div
                                             scaleStarter
+                                            style="display: none"
                                             class="rangeLimits">
                                                 <span class="rangeContactLimit">
                                                     1.000
@@ -145,8 +146,9 @@
                                             </div>
 
                                             <div
-                                            style="display: none"
+
                                             scalePro
+
                                             class="rangeLimits">
                                                 <span class="rangeContactLimit">
                                                     5.000
@@ -178,7 +180,7 @@
                                     <div class="rw rw1">
 
                                         <div class="customPriceInput">
-                                            <input typeProcess="0" name="_contactsField" class="contactsField" step="1000" type="number" value="1000">
+                                            <input typeProcess="0" name="_contactsField" class="contactsField" step="1000" type="number" value="5000">
                                         </div>
 
                                     </div>
@@ -194,7 +196,7 @@
 
 
                                     <div class="customPriceInput">
-                                        <input typeProcess="1" name="_contactsField" class="contactsField" step="1000" type="number" min="1000" value="1000">
+                                        <input typeProcess="1" name="_contactsField" class="contactsField" step="1000" type="number" min="5000" value="5000">
                                     </div>
 
 
@@ -214,6 +216,7 @@
 
                                             <div
                                             scaleStarter
+                                            style="display: none"
                                             class="rangeLimits">
                                                 <span class="rangeContactLimit">
                                                     1.000
@@ -239,7 +242,7 @@
                                             </div>
 
                                             <div
-                                            style="display: none"
+
                                             scalePro
                                             class="rangeLimits">
                                                 <span class="rangeContactLimit">
@@ -379,7 +382,7 @@
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
-                                                USD 21 /mes
+                                                USD $94.50 /mes
                                             </span>
 
                                         </div>
@@ -389,13 +392,14 @@
                                             <p class="primaryText grayColorTexts5">
 
                                                 <span id="priceDotted">
-                                                    USD 30 /mes
+                                                    USD 135 /mes
                                                 </span> <br class="space">
                                                 <strong id="priceSaves">
-                                                    Ahorras USD 9
+                                                    Ahorras USD 40.50
                                                 </strong>
 
                                             </p>
+
 
                                         </div>
                                         <div class="finalButtons">
@@ -405,10 +409,8 @@
                                             </a>
 
                                             <a
-
-
                                             class="secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                                Hablar con un asesor
+                                                Solicitar Demo
                                             </a>
 
                                         </div>

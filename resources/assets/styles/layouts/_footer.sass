@@ -1,0 +1,66 @@
+
+
+footer#bootstrapFooter.customFooter.bootstrapFooter.principal-footer1
+    background-color: #322c2e
+    padding: 35px 0
+    padding-bottom: 15px
+
+    .section-row
+        margin-left: auto
+        margin-right: auto
+        @include responsivo(telefonoTable)
+            width: 95%
+        @include responsivo(pcMedio)
+            width: 90%
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 800px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 900px!important
+
+        p.footerText
+            font-family: Nunito
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 1
+            letter-spacing: -1px
+            color: #FFFFFF
+        p.footerText.copyright
+            text-align: center
+            font-size: 13px
+            margin-top: 15px
+        section.widget.block-3.widget_block
+            .wp-block-columns
+                .wp-block-column
+                    figure.wp-block-image.size-full
+                        margin-bottom: 35px
+                        img
+                            margin-left: 0
+                            height: 50px
+                            width: auto
+
+                .wp-block-column
+                    flex-basis: unset
+                    @include responsivo(general)
+                        width: fit-content
+                    @include responsivo(resto)
+                        width: fit-content
+                    &:nth-of-type(1)
+                        @include responsivo(general)
+                            width: 50%
+                        @include responsivo(resto)
+                            width: 50%
+                        .footerText
+                            margin-bottom: 25px
+
+                    .widget.widget_nav_menu
+                        h2.widgettitle
+                            color: white
+                            font-size: 18px
+                            line-height: 1
+                            font-family: Nunito
+                            font-style: normal
+                            font-weight: 700
+
