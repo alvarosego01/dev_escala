@@ -17,7 +17,7 @@ $parameters = [
     'enableTitle' => false,
     'img' => App::setFilePath('/assets/images/person/am/tapa_video_thankyou_page .png'),
     'title' => '
-    Erase una vez...
+    Érase una vez...
     ',
     'text' => '
       Hace más de una década, Andrés Moreno fundó Open English, la plataforma #1 de aprendizaje <br class="desktopTabletElement">
@@ -143,21 +143,7 @@ Cubano – papá, fanático de la guitarra y fotógrafo
       ',
       'img' => App::setFilePath('/assets/images/illustrations/team/manuel.png')
   ],
-    [
-      'name' => '
-      Matías Beeck <br class="space">
-<span class="greenBlueColor">As del producto</span>
-      ',
-      'textInfo' => '
-          Experto en Data Science y marketing digital, trabajó recientemente <br class="desktopTabletElement">
-con una consultora de datos y SaaS con sede en Londres.
-    <br class="space"><br class="space">
-Peruano-cubano – entusiasta de la música, ha vivido en tres <br class="desktopTabletElement">
-continentes y cuatro ciudades (Lima, Miami, Londres y Nueva York).
-      ',
-      'img' => App::setFilePath('/assets/images/illustrations/team/matias.png')
-  ],
-    [
+  [
       'name' => '
       Vanessa Durán <br class="space">
 <span class="greenBlueColor">La mejor aliada de los clientes</span>
@@ -173,7 +159,22 @@ reconocida por el Congreso de los EE. UU. por su talento y <br class="desktopTab
 contribución a la comunidad multicultural.
       ',
       'img' => App::setFilePath('/assets/images/illustrations/team/vane5.png')
-    ]
+    ],
+    [
+      'name' => '
+      Matías Beeck <br class="space">
+<span class="greenBlueColor">As del producto</span>
+      ',
+      'textInfo' => '
+          Experto en Data Science y marketing digital, trabajó recientemente <br class="desktopTabletElement">
+con una consultora de datos y SaaS con sede en Londres.
+    <br class="space"><br class="space">
+Peruano-cubano – entusiasta de la música, ha vivido en tres <br class="desktopTabletElement">
+continentes y cuatro ciudades (Lima, Miami, Londres y Nueva York).
+      ',
+      'img' => App::setFilePath('/assets/images/illustrations/team/matias.png')
+  ],
+
   );
 
 
@@ -237,7 +238,7 @@ contribución a la comunidad multicultural.
     </section>
 
 
-    <section class="innerSectionElement sct3">
+    {{-- <section class="innerSectionElement sct3">
 
       <div class="groupElements row">
 
@@ -256,7 +257,7 @@ contribución a la comunidad multicultural.
 
       </div>
 
-    </section>
+    </section> --}}
 
 
 
