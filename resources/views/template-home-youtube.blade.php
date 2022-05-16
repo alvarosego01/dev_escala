@@ -13,7 +13,7 @@
     $parameters = array(
      'backgroundImageType' => false,
      'overlay' => false,
-     'classSection' => 'threeCol homeSection0',
+     'classSection' => 'threeCol homeSection0 oldHome',
      'title' => '<span style="color: #B9E6E9">
         Genera más leads,<br class="desktopElement"> aumenta tus <br class="mobileElement"> ventas y <br class="desktopElement"> fideliza a más clientes
         </span>',
