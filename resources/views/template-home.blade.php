@@ -3,87 +3,44 @@
   Template Name: [B] Home
 --}}
 
+
 @extends('layouts.app')
 @section('content')
+
 <div id="homeBootstrap">
   <div class="sections">
-@php
-    $parameters = array(
-     'backgroundImageType' => false,
-     'overlay' => false,
-     'classSection' => 'threeCol homeSection0',
-     'title' => '<span style="color: #B9E6E9">
-        Genera más leads,<br class="desktopElement"> aumenta tus <br class="mobileElement"> ventas y <br class="desktopElement"> fideliza a más clientes
-        </span>',
-     'text' => '<span class="whiteColor">
-      Escala es el software todo en uno de <br class="space">
-      marketing digital y ventas más fácil de usar <br class="space">
-      que impulsará el crecimiento de tu negocio.
-      </span>
-      <p class="byAutor">
-        <span class="up">
-          Andrés Moreno
-          </span>
-        <span class="bottom">
-          Fundador de Escala & <br class="mobileElement"> Open English
-          </span>
-        </p>
-      ',
-     'threeCol' => true,
-     'textForm' => 'Comienza ahora',
-     'backgroundImage' => null,
-  'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/person/am/andreshomev2.png'),
-    ) ;
-    @endphp
 
-    @header_t1( $parameters )
-    @endheader_t1
-
-
-
-    {{-- @php
+    @php
     $parameters = [
-        'type' => 'backgroundColor',
-        'classSection' => 'homeSection1',
-        'enableTitle' => false,
-        'titlePrincipal' => null,
-        'subTitlePrincipal' => null,
+        'backgroundImageType' => false,
+        'classSection' => 'threeCol homeSection0',
         'title' => '
-        Con Escala tus clientes <br class="space">
-        <span class="greenBlueColor">están en el centro de tu estrategia</span>',
-        'img' => App::setFilePath('/assets/images/illustrations/others/Group_home1.png'),
-        'text' => '
-Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="desktopTabletElement">
-y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrando:
-<br class="space">
-<br class="space">
-<ul>
-  <li>
-    Generar demanda de tus productos y servicios a través de herramientas <br class="desktopTabletElement"> de marketing digital cómo: CRM, email marketing, landing pages y automatizaciones.
-  </li>
-  <li>
-    Aumentar las ventas gestionando todo el proceso desde un solo lugar
-  </li>
-  <li>
-    Aumentar la retención de tus clientes creando relaciones a largo plazo
-  </li>
-</ul>
-<br class="space">
-<p class="text">
-  <strong>Impulsa el crecimiento de tu negocio con Escala.</strong>
-</p>
+        CRM + Expertos = <br class="space">
+        <span>
+          Escalar con éxito
+        </span>
         ',
-        'enableButton' => false,
-
-        // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-        // 'textButton' => 'Hablar con un asesor',
-        'side' => 'left',
+        'text' => '
+          La plataforma todo-en-uno de <br class="desktopTabletElement">
+          marketing, ventas y fidelización con <br class="desktopTabletElement">
+          acompañamiento en vivo para impulsar <br class="desktopTabletElement">
+          el crecimiento de tu negocio
+        ',
+        'textForm' => 'Empieza a probar Escala',
+        'threeCol' => true,
+        'backgroundImage' => null,
+        'overlay' => false,
+        'overlayImage' => null,
+        'image' => App::setFilePath('/assets/images/person/home_hombre_silla-chat.png'),
     ];
 @endphp
 
-@contain_text_image_T1( $parameters )
-@endcontain_text_image_T1 --}}
+@header_t1( $parameters )
+
+@endheader_t1
+
+
+
 
 
 @php
@@ -96,9 +53,9 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
   'title' => '
   Descubre todo lo que puedes <br class="space">
 lograr con Escala',
-  'typeVideo' =>  'iframe',
-  'videoEmbed' =>  'AHgA0QTtWBY',
-    'videoCover' => App::setFilePath('/assets/images/illustrations/others/tapa_video_home_03a.jpg'),
+'typeVideo' =>  'localvideo',
+  'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
+  'videoCover' => App::setFilePath('/assets/images/illustrations/others/tapa_video_home_03a.jpg'),
   'text' => '
   Escala fue creada por Andrés Moreno y un <br class="desktopTabletElement">
 equipo de expertos y es la herramienta preferida <br class="desktopTabletElement">
@@ -130,7 +87,7 @@ $parameters = [
     'enableButton' => false,
     // 'urlButton' => '#',
     // 'textButton' => '¡Comenzar ahora!',
-    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -432,7 +389,33 @@ sin programar
 
               <div class="videoContent hytPlayerWrap">
 
-                <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    {{-- <div class="youtube" data-embed="AtwdW3mpiKU">
+                                    <div class="play-button"></div>
+                                </div> --}}
+
+                                <video
+                                class="video-js"
+                                controls
+
+                                preload="none"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{
+                                  autoplay: false
+                                }"
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap1.jpg') !!}"
+                              >
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
+
+
 
               </div>
 
@@ -457,7 +440,33 @@ sin programar
 
               <div class="videoContent hytPlayerWrap">
 
-                <iframe src="https://www.youtube.com/embed/elw0_VBWSiY?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    {{-- <div class="youtube" data-embed="elw0_VBWSiY">
+                                    <div class="play-button"></div>
+                                </div> --}}
+
+
+                                <video
+                                class="video-js"
+                                controls
+
+                                preload="none"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{
+                                  autoplay: false
+                                }"
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap2.jpg') !!}"
+                              >
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_2.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_2.mp4') !!}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
+
 
               </div>
 
@@ -479,7 +488,32 @@ sin programar
 
               <div class="videoContent hytPlayerWrap">
 
-                <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    {{-- <div class="youtube" data-embed="jRaO6-VBFEU">
+                                    <div class="play-button"></div>
+                                </div> --}}
+
+                                <video
+                                class="video-js"
+                                controls
+
+                                preload="none"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{
+                                  autoplay: false
+                                }"
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap3.jpg') !!}"
+                              >
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_3.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_3.mp4') !!}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
+
 
               </div>
 
@@ -518,7 +552,34 @@ sin programar
 
             <div class="videoContent hytPlayerWrap">
 
-              <iframe src="https://www.youtube.com/embed/AtwdW3mpiKU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  {{-- <div class="youtube" data-embed="AtwdW3mpiKU">
+                                    <div class="play-button"></div>
+                                </div> --}}
+
+
+                                <video
+                                class="video-js"
+                                controls
+
+                                preload="none"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{
+                                  autoplay: false
+                                }"
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap1.jpg') !!}"
+                              >
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
+
+
 
             </div>
 
@@ -537,7 +598,33 @@ sin programar
 
           <div class="videoContent hytPlayerWrap">
 
-            <iframe src="https://www.youtube.com/embed/elw0_VBWSiY?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {{-- <div class="youtube" data-embed="elw0_VBWSiY">
+                                    <div class="play-button"></div>
+                                </div> --}}
+
+                                <video
+                                class="video-js"
+                                controls
+
+                                preload="none"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{
+                                  autoplay: false
+                                }"
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap2.jpg') !!}"
+                              >
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_2.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_2.mp4') !!}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
+
+
 
           </div>
 
@@ -555,10 +642,33 @@ sin programar
 
           <div class="videoContent hytPlayerWrap">
 
-            <iframe src="https://www.youtube.com/embed/jRaO6-VBFEU?showinfo=0&amp;rel=0&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                {{-- <div class="youtube" data-embed="jRaO6-VBFEU">
+                                    <div class="play-button"></div>
+                                </div> --}}
 
-              <style>.ytp-ce-element.ytp-ce-element-show {display: none!important;}.ytp-pause-overlay-controls-hidden .ytp-pause-overlay {display: none!important;}</style>
-            </iframe>
+
+                                <video
+                                class="video-js"
+                                controls
+
+                                preload="none"
+                                {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                data-setup="{
+                                  autoplay: false
+                                }"
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap3.jpg') !!}"
+                              >
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_3.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/video_home_3.mp4') !!}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript, and consider upgrading to a
+                                  web browser that
+                                  <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
+
 
           </div>
 
