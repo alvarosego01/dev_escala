@@ -13,7 +13,7 @@
     @php
     $parameters = [
         'backgroundImageType' => false,
-        'classSection' => 'threeCol homeSection0',
+        'classSection' => 'threeCol homeSection0 newHome',
         'title' => '
         CRM + Expertos = <br class="space">
         <span>
