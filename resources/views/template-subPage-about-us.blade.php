@@ -50,7 +50,7 @@ $parameters = [
   $teamList = array(
     [
       'name' => '
-      Andrés Moreno. <br class="space">
+      Andrés Moreno <br class="space">
       <span class="greenBlueColor">El visionario</span>
       ',
       'textInfo' => '
@@ -66,7 +66,7 @@ $parameters = [
   ],
     [
       'name' => '
-      Paul Medrisch. <br class="space">
+      Paul Medrisch <br class="space">
       <span class="greenBlueColor">Comandando la tripulación</span>
       ',
       'textInfo' => '
@@ -80,7 +80,7 @@ $parameters = [
   ],
     [
       'name' => '
-      John McIntire. <br class="space">
+      John McIntire <br class="space">
       <span class="greenBlueColor">Alquimista financiero</span>
       ',
       'textInfo' => '
@@ -97,8 +97,8 @@ hasta un 10% en performance.
   ],
     [
       'name' => '
-      Andrea Dalle Molle. <br class="space">
-<span class="greenBlueColor">La mente maestra operativa</span>
+      Andrea Dalle Molle <br class="space">
+<span class="greenBlueColor">La mente estratégica</span>
       ',
       'textInfo' => '
           Director de la firma de consultoría: “Éxito Ventures”, ha trabajado <br class="desktopTabletElement">
@@ -114,7 +114,7 @@ el European Poker Tour.
   ],
     [
       'name' => '
-      Alex Guevara. <br class="space">
+      Alex Guevara <br class="space">
 <span class="greenBlueColor">El motor de ventas</span>
       ',
       'textInfo' => '
@@ -130,7 +130,7 @@ Finanzas.
   ],
     [
       'name' => '
-      Manuel Gil. <br class="space">
+      Manuel Gil <br class="space">
 <span class="greenBlueColor">Chief de tech</span>
       ',
       'textInfo' => '
@@ -145,7 +145,7 @@ Cubano – papá, fanático de la guitarra y fotógrafo
   ],
     [
       'name' => '
-      Matías Beeck. <br class="space">
+      Matías Beeck <br class="space">
 <span class="greenBlueColor">As del producto</span>
       ',
       'textInfo' => '
@@ -159,15 +159,15 @@ continentes y cuatro ciudades (Lima, Miami, Londres y Nueva York).
   ],
     [
       'name' => '
-      Vanessa Durán. <br class="space">
+      Vanessa Durán <br class="space">
 <span class="greenBlueColor">La mejor aliada de los clientes</span>
       ',
       'textInfo' => '
-          Directora de la consultora: “Éxito Ventures”, tiene una amplia <br class="desktopTabletElement">
-experiencia en mejorar las ventas y las comunicaciones de las <br class="desktopTabletElement">
-marcas para docenas de compañías en los Estados Unidos y <br class="desktopTabletElement">
-América Latina.
- <br class="space"><br class="space">
+Directora de la consultora: “Éxito Ventures”, tiene una amplia <br class="desktopTabletElement">
+experiencia en mejorar las ventas, atención al cliente y las <br class="desktopTabletElement">
+comunicaciones de las marcas para docenas de compañías en <br class="desktopTabletElement">
+los Estados Unidos y América Latina.
+<br class="space"><br class="space">
 Venezolana – fundadora de organizaciones sin fines de lucro, <br class="desktopTabletElement">
 reconocida por el Congreso de los EE. UU. por su talento y <br class="desktopTabletElement">
 contribución a la comunidad multicultural.
@@ -243,9 +243,12 @@ contribución a la comunidad multicultural.
 
         <div class="containElements">
 
+          <h3 class="primaryTitle">
+            ¡Únete al equipo!
+          </h3>
 
           <button class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-            ¿Y tú? Conéctemos..
+            Envíanos tu CV
           </button>
 
 

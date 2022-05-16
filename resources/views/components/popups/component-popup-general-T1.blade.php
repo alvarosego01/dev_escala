@@ -69,7 +69,7 @@
 
                                 <div class="containerImage logo">
 
-                                    <img src="{!! App::setFilePath('/assets/images/logos/escala_logo.svg') !!}" alt="Logo" class="logo-img">
+                                    <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
 
                                 </div>
 
