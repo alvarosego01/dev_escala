@@ -109,7 +109,7 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
 
             <div class="mobileSmallElement logo">
                 <a class="navbar-brand" href="{!! home_url() !!}">
-                    <img src="{!! App::setFilePath('/assets/images/logos/escala_logo.svg') !!}" alt="Logo" class="logo-img">
+                    <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
                 </a>
             </div>
 

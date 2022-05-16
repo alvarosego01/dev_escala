@@ -1,4 +1,4 @@
-{{--
+
 
 @php
 
@@ -48,12 +48,12 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
         get_footer();
 
     @endphp
-@endif --}}
+@endif
 
 
 
-    @php
+    {{-- @php
 
         get_footer();
 
-    @endphp
+    @endphp --}}
