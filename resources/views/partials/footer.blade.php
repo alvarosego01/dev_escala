@@ -1,48 +1,43 @@
-
-
 @php
 
 $typeFooter = null;
 if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
-    $typeFooter = ACF_CUSTOM::_getField('footer_settings');
+    $typeFooter = ACF_CUSTOM::_getField('footBoots_settings');
 } elseif (is_singular() != null && is_singular() == 1 && get_post_type() == 'post') {
     # code...
     $idPostParent = url_to_postid('blog');
-    $typeFooter = ACF_CUSTOM::_getField('footer_settings', $idPostParent);
+    $typeFooter = ACF_CUSTOM::_getField('footBoots_settings', $idPostParent);
 } else {
-    $typeFooter = ACF_CUSTOM::_getField('footer_settings');
+    $typeFooter = ACF_CUSTOM::_getField('footBoots_settings');
 }
 
 @endphp
 
 
+@if (isset($typeFooter) && $typeFooter != 'elementor_foot')
 
-@if (isset($typeFooter) && $typeFooter != 'elementor_footer' )
+    @if (isset($typeFooter) && $typeFooter == 'principal-footBoots1')
+        @php
 
-@if (isset($typeFooter) && $typeFooter == 'principal-footer1' )
+            wp_footer();
 
-@php
+        @endphp
 
-    wp_footer();
+        <footer id="bootstrapFooter" class="content-info customFooter bootstrapFooter principal-footer1">
 
-@endphp
+            <div class="section-row">
 
-<footer id="bootstrapFooter" class="content-info customFooter bootstrapFooter principal-footer1">
+                @php dynamic_sidebar('sidebar-footer') @endphp
 
-  <div class="section-row">
+            </div>
 
-    @php dynamic_sidebar('sidebar-footer') @endphp
+        </footer>
 
-    </div>
-
-</footer>
-
-
-@endif
+    @endif
 @endif
 
 
-@if ( !isset($typeFooter) || ( isset($typeFooter) && $typeFooter == 'elementor_footer' ) )
+@if (!isset($typeFooter) || (isset($typeFooter) && $typeFooter == 'elementor_foot'))
     @php
 
         get_footer();
@@ -52,7 +47,7 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
 
 
 
-    {{-- @php
+{{-- @php
 
         get_footer();
 

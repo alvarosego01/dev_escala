@@ -22,8 +22,17 @@
        'overlay' => false,
        'classSection' => 'threeCol landingCRM0',
        'title' => '
-       Genera más ventas <br class="space"> <span class="blueLightColor10">con el CRM de Escala</span>',
-       'text' => null,
+       <span style="color: #B9E6E9">CRM + Expertos =</span> <br class="space">
+        Genera más ventas <br class="space">
+        con Escala
+      ',
+       'text' => '
+        Aumenta tus ventas con la plataforma de CRM <br class="space">
+        todo en uno de Escala y el acompañamiento de <br class="space">
+        especialistas en marketing digital, ventas y <br class="space">
+        fidelización, quienes te guiarán desde el primer <br class="space">
+        día para implementar tu estrategia.
+       ',
        'textForm' => 'Comienza ahora',
        'threeCol' => true,
        'backgroundImage' => null,
@@ -48,13 +57,19 @@
               [
                   'img' => App::setFilePath('/assets/images/illustrations/others/count-step-1.png'),
                   'title' => '<span class="greenBlueColor3">No pierdas ninguna <br class="space"> información</span>',
-                  'text' => 'Con los formularios inteligentes de <br class="desktopTabletElement"> Escala guardar automáticamente <br class="desktopTabletElement"> toda la información de tus <br class="desktopTabletElement"> visitantes en tu CRM.
+                  'text' => '
+                  Con los formularios inteligentes de <br class="desktopTabletElement">
+                  Escala guarda automáticamente <br class="desktopTabletElement">
+                  toda la información de tus <br class="desktopTabletElement">
+                  visitantes en tu CRM.
                   ',
                   'enableButton' => false,
               ],
               [
                   'img' => App::setFilePath('/assets/images/illustrations/others/count-step-2.png'),
-                  'title' => '<span class="greenBlueColor3">Ordena y gestiona <br class="space"> tus datos</span>',
+                  'title' => '<span class="greenBlueColor3">
+                    Ordena y gestiona <br class="space"> tus datos
+                    </span>',
                   'text' => 'Ordena, segmenta y gestiona los <br class="desktopTabletElement"> datos de tus leads y clientes. Asigna <br class="desktopTabletElement"> tareas, actividades y llamadas a tu <br class="desktopTabletElement"> equipo de ventas,  priorizando el <br class="desktopTabletElement"> seguimiento de cada  contacto.
                   ',
                   'enableButton' => false,
@@ -93,7 +108,7 @@
                 </h2>
 
                 <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                  Pruébalo gratis ahora
+                  Prueba Gratis
                 </a>
 
 
@@ -115,13 +130,18 @@
         'enableTitle' => false,
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
-        'title' => '<span class="greenBlueColor">Con el CRM de Escala</span> todo es fácil',
+        'title' => '
+          Expertos comprometidos <span class="greenBlueColor">con tu éxito</span>
+          ',
         'img' => App::setFilePath('/assets/images/illustrations/others/09_CRM_1.png'),
-        'text' => 'No te preocupes, el CRM de Escala es muy simple de <br class="desktopTabletElement"> utilizar, además cuentas con videos tutoriales y nuestro <br class="desktopTabletElement"> acompañamiento paso a paso.
+        'text' => '
+        Además de contar con el CRM más completo y fácil de <br class="desktopTabletElement">
+usar, los expertos de Escala te ayudaraán a maximizar el <br class="desktopTabletElement">
+uso de la herramienta para lograr los mejores resultados.
         ',
         'enableButton' => true,
         'urlButton' => '#lead-form',
-        'textButton' => 'Comenzar ahora',
+        'textButton' => 'Prueba Gratis',
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         'side' => 'right',
     ];
@@ -134,7 +154,11 @@
     @php
     $parameters = array(
      'classSection' => 'landingCRM3 func',
-     'description' => '“Después de construir una base de datos de clientes potenciales,<br> <strong>tu CRM es la herramienta más importante para convertirlos</strong><br> en clientes leales y construir relaciones a largo plazo”',
+     'description' => '
+      “Después de construir una base de datos de clientes potenciales, <br class="desktopTabletElement">
+      <strong>tu CRM es la herramienta más importante para convertirlos</strong> <br class="desktopTabletElement">
+      en clientes leales y construir relaciones a largo plazo”.
+     ',
      'byAm' => '<span class="orangeColor"><strong>Andrés Moreno</strong></span>',
      'team' => 'Fundador de Escala y Open English',
      'image' => App::setFilePath('/assets/images/person/am/escala-Andrés-Moreno-founder-Ceo-Open-English-1 1.png'),
@@ -151,12 +175,18 @@
    'type' => 'regular',
   'classSection' => 'landingCRM4',
   'title' => '
-  Tu CRM integrado <span class="greenBlueColor">con la plataforma
-    <br class="desktopTabletElement">
-    “todo en uno” de marketing y ventas
+  Una Plataforma de CRM integrado <span class="greenBlueColor">
+    a todas las <br class="desktopTabletElement">
+    funcionalidades que necesitas para potenciar tu crecimiento
   </span>
   ',
-  'subTitle' => null,
+  'subTitle' => '
+  <p class="text">
+    El CRM de Escala solo es poderoso, pero cuando trabaja junto a las demás <br class="desktopTabletElement">
+    funcionalidades de la plataforma es imparable. Conoce el verdadero <br class="desktopTabletElement">
+    significado de una plataforma todo en uno.
+  </p>
+  ',
   'img1' => App::setFilePath('/assets/images/illustrations/others/icono-11.png'),
   'title1' => 'Date a conocer con <br class="desktopTabletElement">
 landing pages optimizadas
@@ -201,7 +231,7 @@ con anuncios digitales',
           </h3>
 
           <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-            Comenzar ahora
+            Prueba Gratis
           </a>
 
 
