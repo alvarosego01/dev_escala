@@ -193,7 +193,7 @@ landing pages optimizadas
   ',
   'desc1' => 'Elige una de nuestras plantillas: edítala,<br class="desktopTabletElement"> personalízala, publícala y ¡listo!. Con Escala <br class="desktopTabletElement"> puedes construir landing pages fácil y <br class="desktopTabletElement"> rápido, sin necesidad de programar.
   ',
-  'img2' => App::setFilePath('/assets/images/illustrations/others/salud_2.png'),
+  'img2' => App::setFilePath('/assets/images/illustrations/others/iman_crm.png'),
   'title2' => 'Multiplica las visitas <br class="desktopTabletElement">
 con anuncios digitales',
   'desc2' => 'Comienza a generar tráfico a tu landing <br class="desktopTabletElement"> page. Crea, publica y gestiona <br class="desktopTabletElement"> campañas de anuncios digitales <br class="desktopTabletElement"> directamente desde Escala.

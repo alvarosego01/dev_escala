@@ -10,7 +10,7 @@
 <div id="homeBootstrap">
   <div class="sections">
 
-    @php
+    {{-- @php
     $parameters = [
         'backgroundImageType' => false,
         'classSection' => 'threeCol homeSection0 newHome',
@@ -37,7 +37,33 @@
 
 @header_t1( $parameters )
 
-@endheader_t1
+@endheader_t1 --}}
+
+@php
+    $parameters = array(
+     'backgroundImageType' => false,
+     'overlay' => false,
+     'classSection' => 'threeCol homeSection0 newHome',
+     'title' => '
+     <span style="color: #B9E6E9" >CRM+Expertos=</span> <br class="space">
+     Escala con éxito
+    ',
+     'text' => '<span class="whiteColor">
+      La plataforma todo-en-uno de marketing, <br class="space">
+      ventas y fidelización con acompañamiento en <br class="space">
+      vivo para impulsar el crecimiento de tu negocio
+      </span>
+      ',
+     'threeCol' => true,
+     'textForm' => 'Comienza ahora',
+     'backgroundImage' => null,
+  'overlayImage' => null,
+  'image' => App::setFilePath('/assets/images/person/home_hombre_silla-chat_flip-2a.png'),
+    ) ;
+    @endphp
+
+    @header_t1( $parameters )
+    @endheader_t1
 
 
 
