@@ -21,9 +21,9 @@
         </span>
         ',
         'text' => '
-          La plataforma todo-en-uno de <br class="desktopTabletElement">
-          marketing, ventas y fidelización con <br class="desktopTabletElement">
-          acompañamiento en vivo para impulsar <br class="desktopTabletElement">
+          La plataforma todo-en-uno de <br class="space">
+          marketing, ventas y fidelización con <br class="space">
+          acompañamiento en vivo para impulsar <br class="space">
           el crecimiento de tu negocio
         ',
         'textForm' => 'Empieza a probar Escala',

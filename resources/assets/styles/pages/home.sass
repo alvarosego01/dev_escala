@@ -405,35 +405,17 @@
                         background-color: rgba(white, 0.95)
                     .containElements
                         margin: 0 auto
-    // .backgroundPlanets
-    //     background-position: center 0
-    //     background-repeat: no-repeat
-    //     background-size: 90% auto
-    //     opacity: 1
-    //     transition: background 0.3s, border-radius 0.3s, opacity 0.3s
-    //     height: 100%
-    //     width: 100%
-    //     top: 0
-    //     left: 0
-    //     right: 0
-    //     position: absolute
-    //     @include responsivo(telefonoTable)
-    //         top: 0
-    //         // background-position: center 2.5%
-    //         background-size: 100% auto
-    //     @include responsivo(pcMedio)
-    //         // background-position: center 2.5%
-    //         background-size: 100% auto
-    //         top: 0
 
 #homeBootstrap .customSection.sectionParent.homeSection0.newHome
 
     background: linear-gradient(180deg,rgba(26,20,43,.49) 0%,rgba(26,20,43,0) 100%),#36768a
     padding-bottom: 50px
     @include responsivo(telefonoTable)
-        padding-bottom: 75px!important
+        padding-top: 50px
+        padding-bottom: 50px!important
     @include responsivo(pcMedio)
-        padding-bottom: 75px!important
+        padding-top: 50px
+        padding-bottom: 50px!important
 
     .section-row
         // background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)
@@ -527,9 +509,11 @@
                             height: 450px
                             margin-right: auto
                             @include responsivo(telefonoTable)
-                                height: 350px
+                                height: 275px
+                                margin-bottom: 25px
                             @include responsivo(pcMedio)
-                                height: 350px
+                                height: 300px
+                                margin-bottom: 25px
                         @include responsivo(telefonoTable)
                             margin: 0 auto!important
                         @include responsivo(pcMedio)
@@ -545,13 +529,20 @@
                     align-content: center
                     align-items: center
             .form7
-                padding: 0
+                margin-bottom: 50px
+                padding: 0 50px
+                display: flex
+                margin: 0 auto
+                @include responsivo(general)
+                    padding-bottom: 50px
+                @include responsivo(resto)
+                    padding-bottom: 50px
                 .formatForm
-                    margin-left: auto
-                    @include responsivo(telefonoTable)
-                        margin: 0 auto
-                    @include responsivo(pcMedio)
-                        margin: 0 auto
+                    display: block
+                    margin: 0 auto
+                    background-color: rgba(white, 0.95)
+                .containElements
+                    margin: 0 auto
 
 #homeBootstrap .customSection.sectionParent.homeSection1
     padding: 0
