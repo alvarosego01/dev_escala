@@ -154,12 +154,16 @@ header.customHeader.customSection
                         img,
                         svg
                             width: auto
-                            height: 35px
+                            height: 37.5px
                             @include responsivo(telefonoTable)
                                 height: 22.5px
-
                             @include responsivo(pcMedio)
                                 height: 30px
+                            @include responsivo(general)
+                                height: 35px
+
+
+
 
 
                 div.menusSection
@@ -330,7 +334,13 @@ body
                 img,
                 svg
                     width: auto
-                    height: 32.5px
+                    height: 37.5px
+                    @include responsivo(telefonoTable)
+                        height: 22.5px
+                    @include responsivo(pcMedio)
+                        height: 30px
+                    @include responsivo(general)
+                        height: 35px
         nav.principal.navbar
             height: 100%
             padding: 0

@@ -1,9 +1,15 @@
 
 
+
+
 footer#bootstrapFooter.customFooter.bootstrapFooter.principal-footer1
     background-color: #322c2e
     padding: 35px 0
-    padding-bottom: 15px
+    padding-bottom: 25px
+    @include responsivo(telefonoTable)
+        padding-top: 20px
+    @include responsivo(pcMedio)
+        padding-top: 20px
 
     .section-row
         margin-left: auto
@@ -14,53 +20,226 @@ footer#bootstrapFooter.customFooter.bootstrapFooter.principal-footer1
             width: 90%
         @include responsivo(general)
             width: 100%!important
-            max-width: 800px!important
+            max-width: 950px!important
         @include responsivo(resto)
             width: 100%!important
-            max-width: 900px!important
+            max-width: 1000px!important
 
         p.footerText
             font-family: Nunito
             font-style: normal
             font-weight: 400
-            font-size: 14px
-            line-height: 1
+            font-size: 15px
+            line-height: 1.25
             letter-spacing: -1px
             color: #FFFFFF
+            a
+                color: white
+                text-decoration: none
+                transition: $trans
+                &:hover
+                    color: $colorOrange
+            @include responsivo(telefonoTable)
+                font-size: 14px
+                text-align: center
+            @include responsivo(pcMedio)
+                font-size: 14px
+            @include responsivo(general)
+                font-size: 14px
+
+
+
+
         p.footerText.copyright
             text-align: center
-            font-size: 13px
+            font-size: 15px
             margin-top: 15px
-        section.widget.block-3.widget_block
-            .wp-block-columns
+            @include responsivo(telefonoTable)
+                font-size: 14px
+            @include responsivo(pcMedio)
+                font-size: 14px
+            @include responsivo(general)
+                font-size: 14px
+        section.widget.widget_block
+            .principal-footer1Columns
+                margin-bottom: 50px
+                @include responsivo(telefonoTable)
+                    display: flex
+                    flex-direction: column
+                @include responsivo(pcMedio)
+                    display: flex
+                    flex-direction: row
+                    flex-flow: wrap
                 .wp-block-column
-                    figure.wp-block-image.size-full
-                        margin-bottom: 35px
+                    figure.wp-block-image.size-full.logoFooter
+                        margin-bottom: 17.5px
                         img
                             margin-left: 0
-                            height: 50px
+                            height: 60px
                             width: auto
+                            @include responsivo(telefonoTable)
+                                height: 50px
+                                margin: auto
+                            @include responsivo(pcMedio)
+                                height: 50px
+                            @include responsivo(general)
+                                height: 55px
 
                 .wp-block-column
                     flex-basis: unset
+                    position: relative
+                    @include responsivo(telefonoTable)
+                        width: 100%
+                        margin-left: 0
+                        padding: 25px
+                        padding-bottom: 0
+                    @include responsivo(pcMedio)
+                        width: 50%
+                        margin-left: 0
+                        padding: 25px
+                        padding-bottom: 0
                     @include responsivo(general)
                         width: fit-content
+                        padding-top: 22.5px
                     @include responsivo(resto)
                         width: fit-content
+                        padding-top: 22.5px
                     &:nth-of-type(1)
+                        @include responsivo(telefonoTable)
+                            width: 100%
+                        @include responsivo(pcMedio)
+                            width: 100%
                         @include responsivo(general)
                             width: 50%
+                            padding-top: 0
                         @include responsivo(resto)
                             width: 50%
+                            padding-top: 0
                         .footerText
-                            margin-bottom: 25px
+                            margin-bottom: 35px
+
+                        .widget.widget_nav_menu
+                            h2.widgettitle
+                                margin-bottom: 25px
+
+                    &:nth-of-type(2)
+                        .widget.widget_nav_menu
+                            &::after
+                                @include responsivo(general)
+                                    border-right: 1px solid #EFEDEE
+                                    height: 100%
+                                    width: 1px
+                                    display: block
+                                    margin: auto
+                                    margin-right: 0
+                                    top: 0
+                                    // bottom: 0
+                                    right: 22.5px
+                                    content: ""
+                                    position: absolute
+                                @include responsivo(resto)
+                                    border-right: 1px solid #EFEDEE
+                                    height: 100%
+                                    width: 1px
+                                    display: block
+                                    margin: auto
+                                    margin-right: 0
+                                    top: 0
+                                    // bottom: 0
+                                    right: 22.5px
+                                    content: ""
+                                    position: absolute
 
                     .widget.widget_nav_menu
+                        position: relative
                         h2.widgettitle
                             color: white
-                            font-size: 18px
+                            font-size: 20px
                             line-height: 1
                             font-family: Nunito
                             font-style: normal
                             font-weight: 700
+                            margin-bottom: 35px
+                            @include responsivo(telefonoTable)
+                                font-size: 18px
+                                margin-bottom: 25px
+                                text-align: center
+                            @include responsivo(pcMedio)
+                                font-size: 18px
+                                margin-bottom: 25px
+                            @include responsivo(general)
+                                font-size: 18px
+
+
+                        ul.menu
+                            list-style: none
+                            padding: 0
+                            margin: 0
+
+                            li
+                                margin-bottom: 12.5px
+                                @include responsivo(telefonoTable)
+                                    display: flex
+                                    width: 100%
+
+
+                                a
+                                    font-size: 15px
+                                    font-family: Nunito
+                                    font-style: normal
+                                    font-weight: 300
+                                    line-height: 1
+                                    letter-spacing: -1px
+                                    color: #FFFFFF
+                                    text-decoration: none
+                                    transition: $trans
+                                    @include responsivo(telefonoTable)
+                                        font-size: 14px
+                                        text-align: center
+                                        margin-left: auto
+                                        margin-right: auto
+                                    @include responsivo(pcMedio)
+                                        font-size: 14px
+                                    @include responsivo(general)
+                                        font-size: 14px
+                                    &:hover
+                                        color: $colorOrange
+
+                        .menu-b-social-networks-container
+                            .menu
+                                display: flex
+                                flex-direction: row
+                                @include responsivo(telefonoTable)
+                                    justify-items: center
+                                    align-items: center
+                                    align-content: center
+                                    justify-content: center
+
+                                li
+                                    margin-right: 20px
+                                    @include responsivo(telefonoTable)
+                                        width: fit-content
+                                    a
+                                        font-size: 27.5px
+
+                    figure.wp-block-image.size-full.trustPilot
+                        display: block
+                        margin: auto
+                        position: relative
+                        left: -7.5px
+                        @include responsivo(telefonoTable)
+                            display: flex
+
+                        img
+                            height: 100px
+                            width: auto
+                            margin-left: 0
+                            @include responsivo(telefonoTable)
+                                margin: auto
+
+
+
+
+
+
 
