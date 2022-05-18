@@ -46,16 +46,16 @@
      'classSection' => 'threeCol homeSection0 newHome',
      'title' => '
      <span style="color: #B9E6E9" >CRM + Expertos =</span> <br class="space">
-     Escala con éxito
+     Escalar con éxito
     ',
      'text' => '<span class="whiteColor">
-      La plataforma todo-en-uno de marketing, <br class="space">
-      ventas y fidelización con acompañamiento en <br class="space">
-      vivo para impulsar el crecimiento de tu negocio
+        La plataforma todo-en-uno de marketing, <br class="space">
+        ventas y fidelización con acompañamiento en <br class="space">
+        vivo para impulsar el crecimiento de tu empresa
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Comienza ahora',
+     'textForm' => 'Empieza a probar Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/home_hombre_silla-chat_flip-2a.png'),
@@ -81,7 +81,7 @@
 lograr con Escala',
 'typeVideo' =>  'localvideo',
   'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
-  'videoCover' => App::setFilePath('/assets/images/illustrations/others/tapa_video_home_03a.jpg'),
+  'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
   'text' => '
   Escala fue creada por Andrés Moreno y un <br class="desktopTabletElement">
 equipo de expertos y es la herramienta preferida <br class="desktopTabletElement">
@@ -106,7 +106,7 @@ $parameters = [
     'classSection' => 'homeSection2',
     'enableTitle' => true,
     'titlePrincipal' => '
-    Acelera el éxito <span class="greenBlueColor">de tu negocio</span>
+    Acelera el éxito <span class="greenBlueColor">de tu empresa</span>
     ',
     'subTitlePrincipal' => 'Haz crecer tu empresa de manera rentable, sostenible y escalable.',
     'overlay' => false,
