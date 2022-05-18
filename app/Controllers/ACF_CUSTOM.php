@@ -882,13 +882,13 @@ class ACF_CUSTOM extends Controller
                     ]
                 ),
                 array(
-                    'key' => 'footer_settings',
-                    'label' => 'Footer base',
-                    'name' => 'Footer base',
+                    'key' => 'footBoots_settings',
+                    'label' => 'FootBoots base',
+                    'name' => 'FootBoots base',
                     'type' => 'select',
                     'choices' => array(
-                        'elementor_footer' => 'Elementor footer',
-                        'principal-footer1' => '[B] Principal general footer',
+                        'elementor_foot' => 'Elementor Foot',
+                        'principal-footBoots1' => '[B] Principal general FootBoots',
 
                     ),
                 ),

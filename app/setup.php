@@ -16,10 +16,6 @@ use App\Controllers\MenuSettings;
  * Theme assets
  */
 
-
-// print_r($bootstrapPages);
-
-
 add_action('wp_enqueue_scripts', function () {
 
     // acá se añaden los templates que usarán bootstrap
@@ -150,7 +146,9 @@ add_action('wp_enqueue_scripts', function () {
 
     wp_enqueue_style('videoJS.css', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/video.js/video-js.min.css', false, THEME_VERSION);
 
-    wp_enqueue_style('fontawesome.css', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/fontAwesome/all.min.css', false, THEME_VERSION);
+    wp_enqueue_style('fontawesome.css', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/fontAwesome/css/all.min.css', false, THEME_VERSION);
+
+    // wp_enqueue_script('fontawesome.js', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/fontAwesome/js/all.min.js', ['jquery'], THEME_VERSION, true);
 
     wp_enqueue_script('videoJS.js', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/video.js/video.min.js', ['jquery'], THEME_VERSION, true);
 
@@ -439,8 +437,8 @@ function registerCustomMenu()
     register_nav_menus(array(
         'header-top' => __('Principal top menu - Whatsapp, login, language', 'escala'),
         'social_networks' => __('Escala social networks', 'escala'),
-        'func_footer' => __('Functionalities footer', 'escala'),
-        'us_footer' => __('About us footer', 'escala'),
+        'func_footBoots' => __('Functionalities footBoots', 'escala'),
+        'us_footBoots' => __('About us footBoots', 'escala'),
         // 'navBar-CTAS' => __('Principal CTAS', 'escala'),
     ));
 }
