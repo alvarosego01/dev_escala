@@ -419,6 +419,8 @@
     @include responsivo(pcMedio)
         padding-top: 50px
         padding-bottom: 50px
+    @include responsivo(smallPcTablet)
+        padding-bottom: 0
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -476,11 +478,15 @@
                                 line-height: 1
                                 color: white
                                 @include responsivo(telefonoTable)
-                                    font-size: 25px
+                                    font-size: 30px
                                     text-align: center
+                                    margin-bottom: 15px
+                                    line-height: 1.1
                                 @include responsivo(pcMedio)
                                     font-size: 30px
                                     text-align: center
+                                    margin-bottom: 15px
+                                    line-height: 1.1
                                 @include responsivo(general)
                                     font-size: 45px
                                     margin-top: 30px
@@ -501,12 +507,12 @@
                                 @include responsivo(telefonoTable)
                                     font-size: 14px
                                     text-align: center
-                                    margin-bottom: 25px
+                                    margin-bottom: 20px
 
                                 @include responsivo(pcMedio)
                                     font-size: 14px
                                     text-align: center
-                                    margin-bottom: 25px
+                                    margin-bottom: 20px
 
                                 @include responsivo(general)
                                     font-size: 15px
@@ -542,23 +548,23 @@
                             @include responsivo(general)
                                 right: 35px
                                 height: 525px
-                            @include responsivoSpecial(992px, 1050px)
-                                right: 35px
-                                height: 425px
+                            @include responsivo(smallPcTablet)
+                                right: 50px
+                                height: 475px
                             @include responsivo(resto)
                                 right: 35px
                                 height: 550px
                             img
                                 @include responsivo(telefonoTable)
-                                    height: 250px
+                                    height: 275px
                                 @include responsivo(pcMedio)
-                                    height: 300px
+                                    height: 300px!important
 
                                 @include responsivo(general)
                                     height: 500px
                                     position: relative
                                     margin-top: auto
-                                @include responsivoSpecial(992px, 1050px)
+                                @include responsivo(smallPcTablet)
                                     height: 425px
                                     position: relative
                                 @include responsivo(resto)
@@ -575,10 +581,18 @@
                         padding-bottom: 50px
                     @include responsivo(resto)
                         padding-bottom: 50px
+                    @include responsivo(smallPcTablet)
+                        padding-left: 0
+                        padding-bottom: 0
                     .formatForm
                         display: block
                         margin: 0 auto
                         background-color: rgba(white, 0.95)
+                        h5.titleFormat.blackcolor
+                            @include responsivo(general)
+                                font-size: 20px
+                            @include responsivo(smallPcTablet)
+                                font-size: 18px
                     .containElements
                         margin: 0 auto
 

@@ -55,7 +55,7 @@
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Comienza ahora',
+     'textForm' => 'Empieza a probar Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/home_hombre_silla-chat_flip-2a.png'),
@@ -106,7 +106,7 @@ $parameters = [
     'classSection' => 'homeSection2',
     'enableTitle' => true,
     'titlePrincipal' => '
-    Acelera el éxito <span class="greenBlueColor">de tu negocio</span>
+    Acelera el éxito <span class="greenBlueColor">de tu empresa</span>
     ',
     'subTitlePrincipal' => 'Haz crecer tu empresa de manera rentable, sostenible y escalable.',
     'overlay' => false,
