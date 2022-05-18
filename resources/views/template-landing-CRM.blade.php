@@ -13,8 +13,120 @@
   <div class="sections">
 
     <div
+    style="background-image: url({!! App::setFilePath('/assets/images/backgrounds/backgroundBlueDegrade.jpg') !!})"
+    class="specialHeader desktopElement">
+
+      @php
+      $parameters = array(
+       'backgroundImageType' => false,
+       'overlay' => false,
+       'classSection' => 'threeCol landingCRM0',
+       'title' => '
+       <span style="color: #B9E6E9">CRM + Expertos =</span> <br class="space">
+        Genera más ventas <br class="space">
+        con Escala
+      ',
+       'text' => '
+        Aumenta tus ventas con la plataforma de CRM <br class="space">
+        todo en uno de Escala y el acompañamiento de <br class="space">
+        especialistas en marketing digital, ventas y <br class="space">
+        fidelización, quienes te guiarán desde el primer <br class="space">
+        día para implementar tu estrategia.
+       ',
+       'textForm' => 'Comienza ahora',
+       'threeCol' => true,
+       'backgroundImage' => null,
+        'overlayImage' => null,
+        'image' => App::setFilePath('/assets/images/person/mujersentada_laptop.png'),
+      ) ;
+      @endphp
+
+      @header_t1( $parameters )
+      @endheader_t1
+
+      @php
+      $parameters = [
+          'type' => 'backgroundColor',
+          'classSection' => 'landingCRM1',
+          'enableTitle' => true,
+          'titlePrincipal' => '<span class="whiteColor">Simplifica tu gestión de ventas <br class="space"> 4 pasos para organizar y gestionar tus leads y clientes</span>',
+          'subTitlePrincipal' => null,
+          'overlay' => false,
+          // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
+          'elements' => [
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/count-step-1.png'),
+                  'title' => '<span class="greenBlueColor3">No pierdas ninguna <br class="space"> información</span>',
+                  'text' => '
+                  Con los formularios inteligentes de <br class="desktopTabletElement">
+                  Escala guarda automáticamente <br class="desktopTabletElement">
+                  toda la información de tus <br class="desktopTabletElement">
+                  visitantes en tu CRM.
+                  ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/count-step-2.png'),
+                  'title' => '<span class="greenBlueColor3">
+                    Ordena y gestiona <br class="space"> tus datos
+                    </span>',
+                  'text' => 'Ordena, segmenta y gestiona los <br class="desktopTabletElement"> datos de tus leads y clientes. Asigna <br class="desktopTabletElement"> tareas, actividades y llamadas a tu <br class="desktopTabletElement"> equipo de ventas,  priorizando el <br class="desktopTabletElement"> seguimiento de cada  contacto.
+                  ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/count-step-3.png'),
+                  'title' => '<span class="greenBlueColor3">Segmenta con etiquetas <br class="space"> avanzadas</span>',
+                  'text' => 'Utiliza las etiquetas avanzadas para <br class="desktopTabletElement"> clasificar a tus leads y clientes por <br class="desktopTabletElement"> áreas de interés. Así podrás enviar <br class="desktopTabletElement"> campañas customizadas más <br class="desktopTabletElement"> efectivas.
+                  ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/count-step-4.png'),
+                  'title' => '<span class="greenBlueColor3">Mantén comunicación <br class="space"> constante</span>',
+                  'text' => 'Crea relaciones a largo plazo con tus <br class="desktopTabletElement"> leads y clientes. Comunícate con ellos <br class="desktopTabletElement"> de manera frecuente para: evaluar <br class="desktopTabletElement"> tus servicios o productos, darles <br class="desktopTabletElement"> ofertas especiales o informarles tus <br class="desktopTabletElement"> lanzamientos.
+                  ',
+                  'enableButton' => false,
+              ],
+          ],
+      ];
+      @endphp
+
+      @contain_multiple_cards_T2( $parameters )
+
+      @endcontain_multiple_cards_T2
+
+
+      <section class="customSection sectionParent extraButton">
+
+        <div class="section-row">
+
+              <section class="innerSectionElement">
+
+                <h2 class="primaryTitle whiteColor">
+                  ¡Quiero mi CRM de Escala ahora!
+                </h2>
+
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                  Prueba Gratis
+                </a>
+
+
+              </section>
+
+        </div>
+
+
+      </section>
+
+
+    </div>
+
+
+
+    <div
     style="background-image: url({!! App::setFilePath('/assets/images/backgrounds/backgroundBlueDegrade3.png') !!})"
-    class="specialHeader">
+    class="specialHeader mobileElement">
 
       @php
       $parameters = array(
