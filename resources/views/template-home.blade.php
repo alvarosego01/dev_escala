@@ -46,7 +46,7 @@
      'classSection' => 'threeCol homeSection0 newHome',
      'title' => '
      <span style="color: #B9E6E9" >CRM + Expertos =</span> <br class="space">
-     Escala con éxito
+     Escalar con éxito
     ',
      'text' => '<span class="whiteColor">
       La plataforma todo-en-uno de marketing, <br class="space">
@@ -81,7 +81,7 @@
 lograr con Escala',
 'typeVideo' =>  'localvideo',
   'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
-  'videoCover' => App::setFilePath('/assets/images/illustrations/others/tapa_video_home_03a.jpg'),
+  'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
   'text' => '
   Escala fue creada por Andrés Moreno y un <br class="desktopTabletElement">
 equipo de expertos y es la herramienta preferida <br class="desktopTabletElement">
