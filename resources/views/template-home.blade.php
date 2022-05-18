@@ -45,7 +45,7 @@
      'overlay' => false,
      'classSection' => 'threeCol homeSection0 newHome',
      'title' => '
-     <span style="color: #B9E6E9" >CRM+Expertos=</span> <br class="space">
+     <span style="color: #B9E6E9" >CRM + Expertos =</span> <br class="space">
      Escala con éxito
     ',
      'text' => '<span class="whiteColor">
