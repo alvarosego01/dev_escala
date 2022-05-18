@@ -379,11 +379,32 @@ div#jet-popup-4200
         margin-bottom: 0
     p
         position: relative
-    .ajax-loader
-        // margin: auto 12.5px!important
+    .ajax-loader,
+    span.wpcf7-spinner
         position: absolute
         bottom: 10px
         margin: 0 10px
+        @include responsivo(telefonoTable)
+            right: 15px!important
+            bottom: 7.5px
+            height: 20px
+            width: 20px
+        @include responsivo(pcMedio)
+            right: 25px!important
+            bottom: 7.5px
+            height: 20px
+            width: 20px
+        @include responsivo(general)
+            right: 0!important
+        @include responsivo(smallPcTablet)
+            height: 20px
+            width: 20px
+            right: -12.5px!important
+        @include responsivo(resto)
+            right: 0!important
+
+    // span.ajax-loader
+        // display: none!important
     #loading
         height: 50px!important
         width: 50px!important
