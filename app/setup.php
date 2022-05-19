@@ -154,7 +154,7 @@ add_action('wp_enqueue_scripts', function () {
 
     wp_enqueue_script('YoutubevideoJS.js', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/video.js/videojs.youtube.min.js', ['jquery'], THEME_VERSION, true);
 
-    wp_enqueue_script('Dailymotion.min.js', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/video.js/Dailymotion.min.js', ['jquery'], THEME_VERSION, true);
+    // wp_enqueue_script('Dailymotion.min.js', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/video.js/Dailymotion.min.js', ['jquery'], THEME_VERSION, true);
 
 
 
@@ -218,20 +218,31 @@ add_action('after_setup_theme', function () {
  * Register sidebars
  */
 add_action('widgets_init', function () {
+
     $config = [
         'before_widget' => '<section class="widget %1$s %2$s">',
         'after_widget'  => '</section>',
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'
     ];
+
     register_sidebar([
         'name'          => __('Primary', 'sage'),
         'id'            => 'sidebar-primary'
     ] + $config);
+
     register_sidebar([
         'name'          => __('Footer', 'sage'),
         'id'            => 'sidebar-footer'
     ] + $config);
+
+    register_sidebar( [
+        'name'          => 'PiePagina_general_1',
+        'id'            => 'PiePagina_general_1',
+        'description'   => 'Configuración de pie de pagina general 1',
+    ] + $config );
+
+
 });
 
 /**
@@ -417,6 +428,7 @@ function casoExitoArticlesFormat($wp_rewrite)
 }
 add_action('generate_rewrite_rules', 'casoExitoArticlesFormat');
 
+
 function golden_oak_web_design_update_post_link($post_link, $id = 0)
 {
     $post = get_post($id);
@@ -428,24 +440,18 @@ function golden_oak_web_design_update_post_link($post_link, $id = 0)
 add_filter('post_link', 'golden_oak_web_design_update_post_link', 1, 3);
 
 
-
-
-
 function registerCustomMenu()
 {
 
     register_nav_menus(array(
         'header-top' => __('Principal top menu - Whatsapp, login, language', 'escala'),
         'social_networks' => __('Escala social networks', 'escala'),
-        'func_footBoots' => __('Functionalities footBoots', 'escala'),
-        'us_footBoots' => __('About us footBoots', 'escala'),
+        'func_piePagina' => __('Functionalities pie de página', 'escala'),
+        'us_piePagina' => __('About us pie de página', 'escala'),
         // 'navBar-CTAS' => __('Principal CTAS', 'escala'),
     ));
 }
 
 add_action('init', registerCustomMenu() ); // Add HTML5 Blank Menu
-
-
-
 
 

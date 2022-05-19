@@ -409,4 +409,36 @@ wp_insert_term(
 add_action( 'init', 'bootstrap_popups_taxo' );
 
 
+function abc_getWidgetContentbyTitle($widget_title)
+{
+    $contect = '';
+    $widgets = get_option('widget_text');
+    if (!empty($widgets)):
+        foreach ($widgets as $widget)
+        {
+            if ((!empty($widget['title'])) && $widget['title'] == $widget_title):
+                $contect = $widget['text'];
+            endif;
+        }
+    endif;
+    return $contect;
+}
+
+
+// function register_widget_generalFooter1() {
+
+//     register_sidebar( array(
+//       'name'          => 'Pie de pagina general 1',
+//       'id'            => 'PiePagina_general1',
+//       'description'   => 'Configuración de pie de pagina general 1',
+//       'before_widget' => '<section class="footer-area piePagina_general1">',
+//       'after_widget'  => '</section>',
+//       'before_title'  => '<h4>',
+//       'after_title'   => '</h4>',
+//     ));
+
+//   }
+
+//   add_action( 'widgets_init', 'register_widget_generalFooter1' );
+
 

@@ -55,7 +55,7 @@
                     'enableTitle' => true,
                     'enableButton' => true,
                     'urlButton' =>  '#',
-                    'textButton' => 'Conocer más',
+                    'textButton' => 'Prueba Gratis',
                     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                     'titlePrincipal' => '<span class="blackColor2">¿Cómo te impulsamos a crecer?</span>',
                     'elements' => [
@@ -116,7 +116,7 @@
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-                'textButton' => '¡Comenzar ahora!',
+                'textButton' => 'Prueba Gratis',
                 'side' => 'right',
             ];
         @endphp
@@ -138,7 +138,7 @@
                 'enableButton' => true,
                 'urlButton' => '#',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-                'textButton' => 'Hablar con un asesor',
+                'textButton' => 'Prueba Gratis',
                 'side' => 'left',
             ];
         @endphp
