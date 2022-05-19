@@ -428,7 +428,11 @@
             width: 90%
         @include responsivo(general)
             width: 100%!important
-            max-width: 1240px!important
+            max-width: 1100px!important
+        @include responsivo(smallPcTablet)
+            width: 100%!important
+            max-width: 1000px!important
+
         @include responsivo(resto)
             width: 100%!important
             max-width: 1340px!important
@@ -490,7 +494,7 @@
                                 @include responsivo(general)
                                     font-size: 45px
                                     margin-top: 30px
-                                @include responsivoSpecial(992px, 1125px)
+                                @include responsivo(smallPcTablet)
                                     font-size: 42.5px
                                 @include responsivo(resto)
                                     font-size: 50px
@@ -516,7 +520,7 @@
 
                                 @include responsivo(general)
                                     font-size: 15px
-                                @include responsivoSpecial(992px, 1125px)
+                                @include responsivo(smallPcTablet)
                                     font-size: 13px
                                 @include responsivo(resto)
                                     font-size: 16px
@@ -579,11 +583,13 @@
                     margin: 0 auto
                     @include responsivo(general)
                         padding-bottom: 50px
+                        padding-right: 25px
+                    @include responsivo(smallPcTablet)
+                        padding-left: 25px
+                        padding-right: 12.5px
+                        padding-bottom: 0
                     @include responsivo(resto)
                         padding-bottom: 50px
-                    @include responsivo(smallPcTablet)
-                        padding-left: 0
-                        padding-bottom: 0
                     .formatForm
                         display: block
                         margin: 0 auto
