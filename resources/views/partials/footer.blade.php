@@ -23,7 +23,7 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
 
         @endphp
 
-        <footer id="bootstrapFooter" class="content-info customFooter bootstrapFooter principal-footer1">
+        <footer id="bootstrap_PiePagina" class="content-info custom_PiePagina bootstrap_PiePagina principal_PiePagina1">
 
             <div class="section-row">
 
