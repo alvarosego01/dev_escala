@@ -35,9 +35,6 @@ type="text/css" media="all">
 
 {{-- <link rel="stylesheet" href="{{ get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/fontAwesome/css/all.min.css' }}"> --}}
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
-
 <div class="wrap container global typeBootstrap {{ $customClass }}" role="document">
     <div class="content">
         <main class="main">
@@ -60,5 +57,9 @@ type="text/css" media="all">
 
 
 @include('partials.footer')
+
+
+
+
 
 

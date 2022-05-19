@@ -27,12 +27,17 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
 
             <div class="section-row">
 
-                @php dynamic_sidebar('sidebar-footer') @endphp
+                @php
+
+                    dynamic_sidebar('PiePagina_general_1');
+
+                @endphp
+
+
 
             </div>
 
         </footer>
-
     @endif
 @endif
 
@@ -46,9 +51,3 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
 @endif
 
 
-
-{{-- @php
-
-        get_footer();
-
-    @endphp --}}
