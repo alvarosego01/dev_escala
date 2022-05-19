@@ -91,7 +91,7 @@
         'overlay' => false,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => '¡Comenzar ahora!',
+        'textButton' => 'Prueba Gratis',
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
@@ -135,7 +135,7 @@
         'overlay' => false,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => '¡Comenzar ahora!',
+        'textButton' => 'Prueba Gratis',
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
@@ -194,7 +194,7 @@
         'overlay' => false,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => '¡Comenzar ahora!',
+        'textButton' => 'Prueba Gratis',
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
@@ -371,7 +371,7 @@ $parameters = [
             </h2>
 
             <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                ¡Comenzar ahora!
+                Prueba Gratis
               </a>
 
 
@@ -395,7 +395,7 @@ $parameters = [
     'overlay' => false,
     'enableButton' => true,
     'urlButton' => '#',
-    'textButton' => '¡Comenzar ahora!',
+    'textButton' => 'Prueba Gratis',
     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [

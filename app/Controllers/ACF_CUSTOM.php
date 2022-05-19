@@ -882,13 +882,13 @@ class ACF_CUSTOM extends Controller
                     ]
                 ),
                 array(
-                    'key' => 'footBoots_settings',
-                    'label' => 'FootBoots base',
-                    'name' => 'FootBoots base',
+                    'key' => 'piePagina_settings',
+                    'label' => 'Pie de pagina base',
+                    'name' => 'Pie de pagina base',
                     'type' => 'select',
                     'choices' => array(
-                        'elementor_foot' => 'Elementor Foot',
-                        'principal-footBoots1' => '[B] Principal general FootBoots',
+                        'elementor_piePagina' => 'Elementor pie de Pagina',
+                        'principal-piePagina1' => '[B] Principal general Pie de Pagina',
 
                     ),
                 ),

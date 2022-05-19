@@ -90,7 +90,7 @@
                 </h2>
 
                 <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                  Comenzar ahora
+                  Prueba Gratis
                 </a>
 
 
@@ -164,7 +164,7 @@
           </h3>
 
           <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-            Comenzar ahora
+            Prueba Gratis
           </a>
 
 
