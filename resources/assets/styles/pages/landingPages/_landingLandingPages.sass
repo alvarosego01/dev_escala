@@ -31,9 +31,13 @@
                 @include responsivo(telefonoTable)
                     width: 80%
                     margin: 0 auto
+                    padding-top: 25px
+                    padding-bottom: 25px
                 @include responsivo(pcMedio)
                     width: 80%
                     margin: 0 auto
+                    padding-top: 50px
+                    padding-bottom: 50px
                 .section-row
                     .innerSectionElement
                         display: flex
@@ -47,10 +51,10 @@
             padding-bottom: 100px
             padding-top: 100px
             @include responsivo(telefonoTable)
-                padding-bottom: 50px
+                padding-bottom: 25px
                 padding-top: 50px
             @include responsivo(pcMedio)
-                padding-bottom: 50px
+                padding-bottom: 25px
                 padding-top: 50px
             .section-row
                 @include responsivo(telefonoTable)
@@ -160,8 +164,10 @@
             padding-bottom: 25px
             @include responsivo(telefonoTable)
                 padding-top: 25px
+                padding-bottom: 0
             @include responsivo(pcMedio)
                 padding-top: 25px
+                padding-bottom: 0
             .section-row
                 // section.innerSectionElement.sct1
                 @include responsivo(telefonoTable)
@@ -219,6 +225,12 @@
 
         .customSection.sectionParent.landingLandingPages2
             padding-bottom: 50px
+            @include responsivo(telefonoTable)
+                padding-bottom: 25px
+                padding-top: 25px
+            @include responsivo(pcMedio)
+                padding-bottom: 25px
+                padding-top: 25px
             .section-row
                 @include responsivo(telefonoTable)
                     width: 95%
@@ -505,6 +517,11 @@
                             @include responsivo(pcMedio)
                                 margin-bottom: 30px!important
 
+                            @include responsivo(telefonoTable)
+                                font-size: 25px
+                            @include responsivo(pcMedio)
+                                font-size: 25px
+
                         a.primaryButton
                             // margin: 0 auto
                             margin-left: auto
@@ -556,6 +573,16 @@
                         font-weight: bold
                         font-size: 26px
                         line-height: 35px
+                        @include responsivo(telefonoTable)
+                            font-size: 18px
+                        @include responsivo(pcMedio)
+                            font-size: 18px
+                    @include responsivo(telefonoTable)
+                        padding-left: 25px
+                        padding-right: 25px
+                    @include responsivo(pcMedio)
+                        padding-left: 50px
+                        padding-right: 50px
                 .info
                     padding-left: 0
                     @include responsivo(telefonoTable)
@@ -580,13 +607,15 @@
                             // right: 0
                             // bottom: 0
                         @include responsivo(telefonoTable)
-                            margin-bottom: 50px
+                            margin-bottom: 25px
+                            padding: 0
                             img
                                 position: unset
                                 margin: 0 auto
-                                height: 275px
+                                height: 250px
                         @include responsivo(pcMedio)
-                            margin-bottom: 50px
+                            margin-bottom: 25px
+                            padding: 0
                             img
                                 position: unset
                                 margin: 0 auto
@@ -594,6 +623,3 @@
                 @include responsivo(telefonoTable)
                     display: flex
                     flex-direction: column-reverse
-                    .info
-                        img
-                            height: 350px!important

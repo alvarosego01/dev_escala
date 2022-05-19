@@ -54,7 +54,7 @@ crear, administrar y publicar sin salir de Escala
         'overlay' => false,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => '¡Comenzar ahora!',
+        'textButton' => 'Prueba Gratis',
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
@@ -231,7 +231,7 @@ ads digitales.
       <div class="containElements">
 
         <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-          ¡Probar Escala ahora!
+          Prueba Gratis
         </a>
 
       </div>
@@ -264,7 +264,7 @@ ads digitales.
           </h2>
 
           <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-              Quiero comenzar ahora
+            Prueba Gratis
             </a>
 
         </section>
@@ -290,7 +290,7 @@ optimizar rápidamente tus campañas de anuncios digitales.
 ',
 'enableButton' => false,
 // 'urlButton' => '#lead-form',
-// 'textButton' => 'Conectarlas ahora',
+// 'textButton' => 'Prueba Gratis',
 'side' => 'right',
 );
 @endphp
@@ -358,7 +358,7 @@ Tus anuncios digitales ya estarán  integrados a <strong>la plataforma “todo-e
         'overlay' => false,
         'enableButton' => false,
         'urlButton' => '#',
-        'textButton' => '¡Comenzar ahora!',
+        'textButton' => 'Prueba Gratis',
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
@@ -461,7 +461,7 @@ a acompañar en todo el camino al éxito con nuestras otras funcionalidades.
     'overlay' => false,
     'enableButton' => true,
     'urlButton' => '#',
-    'textButton' => '¡Comenzar ahora!',
+    'textButton' => 'Prueba Gratis',
     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
@@ -516,7 +516,7 @@ Facebook desde Escala
     'side' => 'left',
     'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => '¡Probar Escala ahora!',
+  'textButton' => 'Prueba Gratis',
   'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
 ];
 @endphp
