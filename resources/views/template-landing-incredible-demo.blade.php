@@ -61,7 +61,7 @@
   'type' => 'backColor',
   'classSection' => 'landingPageIncTrial2_Demo2',
   'title' => '¡Comienza a crear tu <span class="orangeColor">landing page</span> ahora!',
-  'textButton' => '¡Pruébalo ahora!',
+  'textButton' => 'Prueba Gratis',
   'goToUrl' => '#lead-form',
  ) ;
 @endphp

@@ -2,21 +2,21 @@
 
 $typeFooter = null;
 if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
-    $typeFooter = ACF_CUSTOM::_getField('footBoots_settings');
+    $typeFooter = ACF_CUSTOM::_getField('piePagina_settings');
 } elseif (is_singular() != null && is_singular() == 1 && get_post_type() == 'post') {
     # code...
     $idPostParent = url_to_postid('blog');
-    $typeFooter = ACF_CUSTOM::_getField('footBoots_settings', $idPostParent);
+    $typeFooter = ACF_CUSTOM::_getField('piePagina_settings', $idPostParent);
 } else {
-    $typeFooter = ACF_CUSTOM::_getField('footBoots_settings');
+    $typeFooter = ACF_CUSTOM::_getField('piePagina_settings');
 }
 
 @endphp
 
 
-@if (isset($typeFooter) && $typeFooter != 'elementor_foot')
+@if (isset($typeFooter) && $typeFooter != 'elementor_piePagina')
 
-    @if (isset($typeFooter) && $typeFooter == 'principal-footBoots1')
+    @if (isset($typeFooter) && $typeFooter == 'principal-piePagina1')
         @php
 
             wp_footer();
@@ -37,7 +37,7 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
 @endif
 
 
-@if (!isset($typeFooter) || (isset($typeFooter) && $typeFooter == 'elementor_foot'))
+@if (!isset($typeFooter) || (isset($typeFooter) && $typeFooter == 'elementor_piePagina'))
     @php
 
         get_footer();

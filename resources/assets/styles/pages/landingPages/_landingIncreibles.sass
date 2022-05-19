@@ -24,14 +24,37 @@
 
     .customSection.sectionParent.landingPageInc0
         background-image: linear-gradient(180deg,#C5E5E9 38%,#DAEFF1 100%)
-
-        h2.principalBigTitle
-                font-family: Nunito
-                font-size: 60px!important
-                font-weight: 600!important
-                @include responsivo(telefonoTable)
-                    font-size: 35px!important
-                    line-height: 1.2em!important
+        padding-top: 50px
+        padding-bottom: 25px
+        @include responsivo(telefonoTable)
+            padding-top: 50px
+            padding-bottom: 50px
+        @include responsivo(pcMedio)
+            padding-top: 50px
+            padding-bottom: 50px
+        h1.principalBigTitle
+            font-family: Nunito
+            // font-size: 60px!important
+            font-weight: 600!important
+            line-height: 0.9
+            @include responsivo(telefonoTable)
+                font-size: 30px
+                text-align: center
+                margin-bottom: 15px
+                line-height: 1.1
+            @include responsivo(pcMedio)
+                font-size: 30px
+                text-align: center
+                margin-bottom: 15px
+                line-height: 1.1
+            @include responsivo(general)
+                font-size: 45px
+                margin-top: 30px
+            @include responsivoSpecial(992px, 1125px)
+                font-size: 42.5px
+            @include responsivo(resto)
+                font-size: 50px
+                margin-top: 35px
 
 
         .section-row
@@ -47,10 +70,21 @@
                 width: 100%!important
                 max-width: 1140px!important
 
+            .containerImage
+                img
+                    @include responsivo(telefonoTable)
+                        height: 250px
+                    @include responsivo(pcMedio)
+                        height: 275px
+                    @include responsivo(general)
+                        height: 300px
+                    @include responsivo(resto)
+                        height: 375px
+
         .form7
             display: flex
             justify-content: center
-            align-items: center
+            align-items: flex-start
 
 
     .customSection.sectionParent.landingPageInc1
@@ -223,9 +257,25 @@
             padding: 50px 0
 
         h2.principalBigTitle
-                font-size: 45px!important
-                font-weight: 600!important
-                font-family: Nunito!important
+            font-weight: 600!important
+            font-family: Nunito!important
+            line-height: 1
+            @include responsivo(telefonoTable)
+                font-size: 30px
+                text-align: center
+                margin-bottom: 15px
+                line-height: 1.1
+            @include responsivo(pcMedio)
+                font-size: 30px
+                text-align: center
+                margin-bottom: 15px
+                line-height: 1.1
+            @include responsivo(general)
+                font-size: 45px
+            @include responsivoSpecial(992px, 1125px)
+                font-size: 42.5px
+            @include responsivo(resto)
+                font-size: 50px
         .section-row
             padding: 10px
             @include responsivo(telefonoTable)
@@ -242,14 +292,32 @@
 
             .form7
                 padding-right: 75px
+                margin-top: 0
+                @include responsivo(telefonoTable)
+                    padding-left: 25px
+                    padding-right: 25px
+                @include responsivo(pcMedio)
+                    padding-left: 50px
+                    padding-right: 50px
             .info
                 .containElements
                     padding-left: 0
+                .containerImage
+                    padding: 0
+                    margin-bottom: 0
+                img
+                    height: 330px
+                    @include responsivo(telefonoTable)
+                        height: 250px
+                    @include responsivo(pcMedio)
+                        height: 250px
+                    @include responsivo(general)
+                        height: 325px
             @include responsivo(telefonoTable)
                 display: flex
                 flex-direction: column-reverse
-                .info
-                    img
-                        height: 330px!important
+
+
+
 
 

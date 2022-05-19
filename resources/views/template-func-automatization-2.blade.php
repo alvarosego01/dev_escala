@@ -67,7 +67,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
 ¡Sigue leyendo, te diremos cómo hacerlo!',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Aumentar la productividad ahora',
+  'textButton' => 'Prueba Gratis',
   'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'right',
  ) ;
@@ -200,7 +200,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'text' => 'Con Escala puedes segmentar tus contactos y asignarles <br>  etiquetas. Esas etiquetas pueden activar emails, notificaciones <br> y otras acciones de ventas sin que tengas que mover un solo <br> dedo. Pruébalo. ¡Funciona como magia!',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Hacer mi vida más facil',
+  'textButton' => 'Prueba Gratis',
   'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'left',
  ) ;
