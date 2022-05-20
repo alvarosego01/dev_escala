@@ -219,13 +219,63 @@ function bootstrap_popups() {
         register_post_type( 'bootstrap_popups', $args );
 
     }
-
-    /* Hook into the 'init' action so that the function
-    * Containing our post type registration is not
-    * unnecessarily executed.
-    */
-
     add_action( 'init', 'bootstrap_popups');
+
+function bootstrap_pie_pagina() {
+
+    // Set UI labels for Custom Post Type
+        $labels = array(
+            'name'                => _x( 'Bootstrap pie de paginas', 'Post Type General Name', 'bootstrap_pie_pagina' ),
+            'singular_name'       => _x( 'Bootstrap pie de pagina', 'Post Type Singular Name', 'bootstrap_pie_pagina' ),
+            'menu_name'           => __( 'Bootstrap pie de paginas', 'bootstrap_pie_pagina' ),
+            'parent_item_colon'   => __( 'Principal Bootstrap pie de paginas', 'bootstrap_pie_pagina' ),
+            'all_items'           => __( 'Todos los Bootstrap pie de paginas', 'bootstrap_pie_pagina' ),
+            'view_item'           => __( 'Ver Bootstrap pie de paginas', 'bootstrap_pie_pagina' ),
+            'add_new_item'        => __( 'Añadir nuevo Bootstrap pie de pagina', 'bootstrap_pie_pagina' ),
+            'add_new'             => __( 'Añadir nuevo', 'bootstrap_pie_pagina' ),
+            'edit_item'           => __( 'Editar Bootstrap pie de pagina', 'bootstrap_pie_pagina' ),
+            'update_item'         => __( 'Actualizar Bootstrap pie de pagina', 'bootstrap_pie_pagina' ),
+            'search_items'        => __( 'Buscar Bootstrap pie de paginas', 'bootstrap_pie_pagina' ),
+            'not_found'           => __( 'No se encuentra', 'bootstrap_pie_pagina' ),
+            'not_found_in_trash'  => __( 'No se encuentra en papelera', 'bootstrap_pie_pagina' ),
+        );
+
+    // Set other options for Custom Post Type
+
+        $args = array(
+            'label'               => __( 'Bootstrap pie de paginas', 'bootstrap_pie_pagina' ),
+            'description'         => __( 'Bootstrap pie de paginas nuevos y revisiones', 'bootstrap_pie_pagina' ),
+            'labels'              => $labels,
+            // Features this CPT supports in Post Editor
+            'supports'           => array( 'title', 'custom-fields' ),
+            // You can associate this CPT with a taxonomy or custom taxonomy.
+                // This is where we add taxonomies to our CPT
+            'taxonomies'          => array( 'pie_pagina-category' ),
+            /* A hierarchical CPT is like Pages and can have
+            * Parent and child items. A non-hierarchical CPT
+            * is like Posts.
+            */
+            'hierarchical'        => false,
+            'public'              => false,
+            'show_ui'             => true,
+            'show_in_menu'        => true,
+            'show_in_nav_menus'   => true,
+            'show_in_admin_bar'   => true,
+            'menu_position'       => 5,
+            'can_export'          => true,
+            'has_archive'         => true,
+            'exclude_from_search' => true,
+            'publicly_queryable'  => false,
+            'capability_type'     => 'post',
+            'show_in_rest' => false,
+
+        );
+
+        // Registering your Custom Post Type
+        register_post_type( 'bootstrap_pie_pagina', $args );
+
+    }
+    add_action( 'init', 'bootstrap_pie_pagina');
 
 
 
@@ -405,8 +455,51 @@ wp_insert_term(
         array(
         'slug' => 'general_popup_2022',
         'parent'=> $parent_term_id ));
+
+wp_insert_term(
+        'Nota special message', // the term
+        'popup-category-tax', // the taxonomy
+        array(
+        'slug' => 'special_message_popup',
+        'parent'=> $parent_term_id ));
+
 }
 add_action( 'init', 'bootstrap_popups_taxo' );
+
+function bootstrap_pie_pagina_taxo() {
+
+    register_taxonomy(
+        'pie-pagina-category-tax',
+        'bootstrap_pie_pagina',
+        array(
+            'label' => __( 'Category pie de pagina' ),
+            'rewrite' => array( 'slug' => 'pie-pagina-category-tax' ),
+            'hierarchical' => true,
+            'capabilities' => array(
+                'manage_terms' => '',
+                'edit_terms' => '',
+                'delete_terms' => '',
+                'assign_terms' => 'edit_posts'
+            ),
+
+        ),
+    );
+
+        /*---------------------------------------Check to see if the days are created..if not, create them----*/
+    $parent_term = term_exists( 'pie-pagina-category-tax', 'pie-pagina-category-tax' ); // array is returned if taxonomy is given
+    $parent_term_id = $parent_term['term_id']; // get numeric term id
+
+    wp_insert_term(
+        'Pie de pagina 3 columnas', // the term
+        'pie-pagina-category-tax', // the taxonomy
+        array(
+            'slug' => 'general_pie_pagina_3c',
+            'parent'=> $parent_term_id
+        )
+    );
+
+}
+add_action( 'init', 'bootstrap_pie_pagina_taxo' );
 
 
 function abc_getWidgetContentbyTitle($widget_title)
@@ -429,9 +522,9 @@ function abc_getWidgetContentbyTitle($widget_title)
 
 //     register_sidebar( array(
 //       'name'          => 'Pie de pagina general 1',
-//       'id'            => 'PiePagina_general1',
+//       'id'            => 'pie_pagina_general1',
 //       'description'   => 'Configuración de pie de pagina general 1',
-//       'before_widget' => '<section class="footer-area piePagina_general1">',
+//       'before_widget' => '<section class="footer-area pie_pagina_general1">',
 //       'after_widget'  => '</section>',
 //       'before_title'  => '<h4>',
 //       'after_title'   => '</h4>',

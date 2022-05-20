@@ -134,6 +134,24 @@ $l = ACF_CUSTOM::_getField('enable_popup', $idPagePopups);
 
             @endif
 
+            @if ($nav != null && $nav == 'popup-bootstrap-special-message')
+
+                @php
+                    $parameters = [
+
+                        'popup_call_class' => ACF_CUSTOM::_getField('popup_call_class', $item),
+                        'popup_special_message_image' => ACF_CUSTOM::_getField('popup_special_message_image', $item),
+                        'popup_special_message_text' => ACF_CUSTOM::_getField('popup_special_message_text', $item),
+
+                    ];
+
+                @endphp
+
+                @popup_special_message( $parameters )
+                @endpopup_special_message
+
+            @endif
+
 
             @endforeach
 

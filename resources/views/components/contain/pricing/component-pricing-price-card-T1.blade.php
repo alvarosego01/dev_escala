@@ -16,6 +16,21 @@
 @var $typeButton - set type off button (secondaryButton || primaryButton) --}}
 
 
+{{-- <div class="checkbox_slider_container">
+    <input type="radio" class="planSelect check_opc1" name="planSelect" id="planSelect1" checked hidden/>
+    <label for="planSelect1">
+        Pago mensual
+    </label>
+    <input type="radio" class="planSelect check_opc2" name="planSelect" id="planSelect2" hidden/>
+    <label for="planSelect2">
+        Pago anual. <br class="space">
+        <span class="greenBlueColor">Ahorras 30%</span>
+    </label>
+</div> --}}
+
+
+
+
 @php
     $pb_starter = 30;
     $pb_pro = 135;
@@ -49,7 +64,7 @@ $items = [
             <span
             class="discountCost" style="display: flex">
             <span>21 </span>
-            <span class="smallDecimal"> /mes</span>
+
             </span>
             <span class="usd">
                 USD
@@ -65,7 +80,7 @@ $items = [
 
             class="discountCost" style="display: flex">
             <span>21 </span>
-            <span class="smallDecimal"> /mes</span>
+
 
             </span>
             <span class="usd">
@@ -166,13 +181,22 @@ $items = [
             <span
             class="discountCost" style="display: flex">
             <span>94</span>
-            <span class="smallDecimal">.50 /mes</span>
+            <span class="smallDecimal">.50</span>
 
             </span>
             <span class="usd">
                 USD
             </span>
-        </span>',
+        </span>
+        <span class="specialNote">
+            <small>
+                Implementación personalizada: <strong>Pago único 450 USD</strong>
+            </small>
+            <button class="hoverInEffect openPopUpButton popup-pricing-implement">
+                <i class="la la-question-circle"></i>
+            </button>
+        </span>
+        ',
         'pricePreviewMobie' => 'A partir de <br class="space">
         <span class="cost">
 
@@ -181,7 +205,7 @@ $items = [
             class="numerCost">135</span>
             <span
             class="discountCost" style="display: flex">
-            <span>94</span><span class="smallDecimal">.50 /mes</span>
+            <span>94</span><span class="smallDecimal">.50</span>
 
             </span>
             <span class="usd">
@@ -423,17 +447,10 @@ $items = [
 
                                 @if (isset($item['recomend']) && $item['recomend'] == true)
 
-                                    {{-- <span class="recomendTag">
+                                    <span class="recomendTag">
                                         Recomendado
-                                    </span> --}}
+                                    </span>
 
-                                    {{-- resources/assets/images\icons\recomend-tag.png --}}
-
-                                    <div class="containerImage recomendTagImage">
-
-                                        <img src="{!! App::setFilePath('/assets/images/icons/recomend-tag.png') !!}" alt="" loading="lazy">
-
-                                    </div>
 
                                 @endif
 
@@ -446,7 +463,7 @@ $items = [
                                 <div class="elementBody desktopElement versionPc2022">
 
                                     <div
-                                    style="margin-bottom: 60px"
+                                    style="margin-bottom: 100px"
                                     class="price">
 
                                         <p>
@@ -463,21 +480,7 @@ $items = [
 
                                             @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
 
-                                                @if (isset($item['discountTest']) && $item['discountTest'] != null)
-
-                                                    <div class="extraPriceInfo">
-
-                                                        {{-- style="display: none;"  --}}
-                                                        <div
-                                                        typeplan="{{ $item['name'] }}"
-                                                            class="discountData">
-                                                            {!! $item['discountTest'] !!}
-                                                        </div>
-                                                    </div>
-
-                                                @endif
-
-                                                <div class="selectorSwitch">
+                                                {{-- <div class="selectorSwitch">
                                                     <small>
                                                         Mensual
                                                     </small>
@@ -492,7 +495,38 @@ $items = [
                                                     <small>
                                                         Anual
                                                     </small>
+                                                </div> --}}
+
+                                                <div class="selectorSlizeButton">
+
+                                                    <input slizeRadioButton type="checkbox" class="pill-button-input" checked="checked" value="1" onclick="discountByPlanCard('{{ $item['name'] }}', this)" >
+                                                    <span class="pill-button">
+                                                        <span class="pill-button-selection pill-button-selection_on">
+                                                            Pago mensual
+                                                        </span>
+                                                        <span class="pill-button-selection pill-button-selection_off pill-button-selection_active">
+                                                            Pago anual. <br class="space">
+                                                            <span class="greenBlueColor">Ahorras 30%</span>
+                                                        </span>
+                                                        <span class="pill-button-highlight"></span>
+                                                    </span>
+
                                                 </div>
+
+
+                                                @if (isset($item['discountTest']) && $item['discountTest'] != null)
+
+                                                <div class="extraPriceInfo">
+
+                                                    {{-- style="display: none;"  --}}
+                                                    <div
+                                                    typeplan="{{ $item['name'] }}"
+                                                        class="discountData">
+                                                        {!! $item['discountTest'] !!}
+                                                    </div>
+                                                </div>
+
+                                            @endif
 
                                             @endif
 
@@ -632,7 +666,7 @@ $items = [
                                     <div class="preView">
 
                                         <div
-                                        style="margin-bottom: 60px"
+                                        style="margin-bottom: 100px"
                                         class="price">
                                             <p>
 
@@ -657,7 +691,7 @@ $items = [
 
 
                                     <div
-                                    style="margin-bottom: 60px"
+                                    style="margin-bottom: 100px"
                                     class="price">
 
                                         <p>
