@@ -644,14 +644,18 @@ a[disabled]
         font-family: Nunito
         font-style: normal
         font-weight: bold
-        font-size: 13px
-        height: 30px!important
-        text-align: center
+        font-size: 14px!important
+        height: 45px!important
+        text-alig: 50px center
         // height: 32.5px
-        padding: 5px 7.5px
+        padding: 10px
         color: $colorGrey5
         transition: $trans
         background-color: #F3FAFD
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
         &:hover
             color: $colorOrange
         @include responsivo(telefonoTable)
@@ -664,10 +668,17 @@ a[disabled]
         &:nth-of-type(2)
             border-radius: 0 15px 15px 0
 
+        small
+            margin-bottom: 0!important
+            color: #36768A!important
+            font-size: 14px!important
+            text-align: center!important
+
+
 
 
     button.selectorPricingButton.active
-        font-weight: bold!important
+        font-weight: 800!important
         background-color: #B9E6E9!important
         color: black!important
 
@@ -1056,4 +1067,128 @@ input[type=range]
         top: 50%!important
         left: 50%!important
         transform: translate(-50%,-50%)!important
+
+
+
+
+.checkbox_slider_container
+    margin: 70px auto 0
+    font-size: 0
+    // border: 1px solid black
+    border-radius: 40px
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-content: center
+    align-items: center
+    overflow: hidden
+    // background-color: #F3FAFD
+
+    label
+        position: relative
+        cursor: pointer
+        font-family: Nunito
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        width: 50%
+        height: 100%
+        padding: 0
+        transition: all 0.3s ease
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        align-content: center
+        position: relative
+        span
+            font-weight: 700
+
+    .check_opc1 + label:before
+        content: ""
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 100%
+        z-index: -1
+        background-color: #CAF1F3
+        transition: all 0.3s ease
+
+
+
+
+    .check_opc1:checked + label:before
+        left: 0
+
+    .check_opc1:checked + label,
+    .check_opc2:checked + label
+        color: #000
+        // background-color: red
+
+
+
+$button-z: 0
+$button-highlight: 1
+$button-selection: 2
+
+.pill-button
+    display: inline-block
+    position: relative
+    padding: 0
+    height: 100%
+    width: 50%
+    font-size: 12px
+    background: #F3FAFD
+    border-radius: 28px
+    color: #4D4D4D
+    z-index: $button-z
+    border-radius: 22px
+    overflow: hidden
+    &-input
+        display: none
+        visibility: hidden
+
+    .pill-button-highlight
+        transform: translate(0,-50%)
+        transition: all 0.2s
+        position: absolute
+        top: 50%
+        left: 0
+        height: 100%
+        width: 50%!important
+
+        background: #CAF1F3
+        border-radius: 22px
+        z-index: $button-highlight
+
+    &-selection
+        transition: all 0.2s
+        display: inline-block
+        position: relative
+        padding: 0.4em 0.9em
+        cursor: pointer
+        z-index: $button-selection
+        &_active
+            // display: inline-block
+            // background: #fff
+            // border-radius: 22px
+            color: #2f8195
+
+    .pill-button-selection
+        height: 100%
+
+
+
+
+
+
+
+
+//
+
+
+.checkbox_slider_container
+    height: 75px
+    width: 375px
 

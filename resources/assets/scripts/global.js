@@ -283,12 +283,12 @@ function showTestimonials(type) {
 
 function removeYoutubeElements(type){
 
-    var aux = $(type) || null;
+    var aux = jQuery(type) || null;
     if( (aux != null && aux != undefined) ){
 
         try {
 
-        $(type).remove();
+        jQuery(type).remove();
         } catch (error) {
             console.error('no se pudo retirar ', type);
         }
@@ -395,6 +395,71 @@ function instanceYoutube() {
 }
 
 
+function setInitSlizeButton(){
+
+    if( !jQuery('[slizeRadioButton]').length > 0 ){
+
+        return;
+
+    }
+
+    console.log('seteado el slize button');
+
+    let pillButtonOnText = jQuery('.pill-button-selection_on'),
+    pillButtonOffText = jQuery('.pill-button-selection_off'),
+    pillButtonHighlight = jQuery('.pill-button-highlight'),
+    pillButtonOnTextWidth = pillButtonOnText.outerWidth(),
+    pillButtonOffTextWidth = pillButtonOffText.outerWidth(),
+    pillButtonOnTextPosition = pillButtonOnText.position(),
+    pillButtonOffTextPosition = pillButtonOffText.position(),
+    pillButtonInput = jQuery('.pill-button-input');
+
+jQuery('.pillButtonHighlight').css('width', pillButtonOnTextWidth);
+
+jQuery('.pill-button-selection').on('click', function() {
+  if(!jQuery(this).hasClass('pill-button-selection_active')) {
+
+    jQuery('.pill-button-selection').removeClass('pill-button-selection_active');
+    jQuery(this).addClass('pill-button-selection_active');
+
+    jQuery('input.pill-button-input')[0].click();
+
+    // if(jQuery(this).hasClass('pill-button-selection_off') && pillButtonInput.prop('checked',true)) {
+    if(jQuery(this).hasClass('pill-button-selection_off') && pillButtonInput.prop('checked',true)) {
+
+    //   pillButtonInput.prop('checked',false);
+      pillButtonHighlight.css({
+        'width': pillButtonOffTextWidth,
+        // 'left': pillButtonOffTextPosition.left
+        'left': 'unset',
+        'right': 0
+      });
+      console.log("Is Checked - OFF");
+    }
+    else {
+    //   pillButtonInput.prop('checked',true);
+      pillButtonHighlight.css({
+        'width': pillButtonOnTextWidth,
+        // 'left': pillButtonOnTextPosition.left
+        'left': 0,
+        'right': 'unset'
+      });
+      console.log("Is Checked - ON");
+    }
+
+  }
+});
+
+// if(pillButtonInput.prop('checked',true)) {// default on cold start
+//   console.log('is checked - cold start');
+//   pillButtonHighlight.css('width', pillButtonOnTextWidth);
+// } else {
+//   console.log('is not checked - cold start');
+//   pillButtonHighlight.css('width', pillButtonOffTextWidth);
+// }
+
+}
+
 
 
 jQuery(document).ready(function () {
@@ -418,6 +483,9 @@ jQuery(document).ready(function () {
     }, function() {
         jQuery(this).find('.dropdown-menu').first().stop(true, true).delay(200).fadeOut(200);
     });
+
+
+    setInitSlizeButton();
 
 });
 

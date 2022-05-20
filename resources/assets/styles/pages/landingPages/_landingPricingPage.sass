@@ -185,6 +185,7 @@
                                 margin-bottom: 25px
                             @include responsivo(pcMedio)
                                 margin-bottom: 50px
+
                             .elementPrice
                                 height: 100%
                                 border-radius: 25px
@@ -193,11 +194,11 @@
                                 position: relative
 
                                 .recomendTag
-                                    font-size: 20px
+                                    font-size: 25px
                                     color: white
                                     background: #FF4E33
-                                    border-radius: 0 0 14px 14px
-                                    padding: 10px 17.5px
+                                    border-radius: 14px 14px 0 0
+                                    padding: 12.5px 0
                                     margin: 0 auto
                                     left: 0
                                     right: 0
@@ -210,19 +211,7 @@
                                     line-height: 1
                                     text-align: center
                                     letter-spacing: -2px
-                                .recomendTagImage
-                                    position: absolute
-                                    left: 0
-                                    right: 0
-                                    top: -2px
-                                    margin: 0 auto
-                                    width: auto
-                                    display: block
-                                    padding: 0
-                                    img
-                                        height: 35px
-                                        padding: 0
-                                        margin: auto
+                                    width: 100%
 
 
 
@@ -230,11 +219,13 @@
                                 .smallDecimal
                                     left: 65px!important
                             .elementPrice.cardPlan2
+                                border: 1px solid #FF4E33
                                 .smallDecimal
                                     left: 80px!important
                             .had
                                 padding: 25px 0
-                                padding-top: 55px
+                                padding-top: 70px
+                                padding-bottom: 0
                                 background-color: white
                                 h3
                                     font-family: Nunito
@@ -288,6 +279,31 @@
                                     position: relative
                                     height: 100px
                                     // margin-bottom: 50px
+                                    span.specialNote
+                                        font-family: Nunito
+                                        font-style: normal
+                                        font-weight: 400
+                                        font-size: 15px
+                                        line-height: 1x
+                                        letter-spacing: -1px
+                                        color: #5C5C5C
+                                        display: flex
+                                        flex-direction: row
+                                        justify-items: center
+                                        justify-items: center
+                                        align-content: center
+                                        align-items: center
+                                        button
+                                            background-color: transparent
+                                            width: fit-content
+                                            padding-left: 5px
+                                            padding: 5px
+                                            transition: $trans
+                                            i
+                                                font-size: 22px
+                                            &:hover
+                                                color: $colorOrange
+
 
                                     @include responsivo(telefonoTable)
                                         display: flex
@@ -308,7 +324,7 @@
                                         text-align: center
                                         letter-spacing: -2px
                                         // color: $colorGreenBlue
-                                        color: #73676D
+                                        color: #36768A
                                         margin-bottom: 0!important
                                         position: absolute
                                         display: flex
@@ -330,7 +346,7 @@
 
 
                                         span.cost
-                                            flex-direction: row
+                                            flex-direction: column
                                             display: flex
                                             justify-content: center
                                             margin: 0 auto
@@ -355,7 +371,7 @@
                                                 height: fit-content
                                                 display: block
                                                 position: absolute
-                                                width: 110px
+                                                width: 55px
                                                 display: block
                                                 bottom: 0
                                                 right: 0
@@ -365,10 +381,11 @@
                                             .discountCost
                                                 position: relative
                                                 color: #36768A
-                                                height: 60px!important
+                                                height: 57.5px!important
 
                                             .numerCost
                                                 color: #36768A
+                                                height: 57.5px
                                             .ncost
                                                 font-family: Nunito
                                                 font-style: normal
@@ -401,16 +418,21 @@
                                                 left: -15px
                                                 top: 15px
                                             span.usd
-                                                position: absolute
+                                                position: unset
                                                 margin-top: auto
                                                 display: block
-                                                font-size: 22.5px
+                                                font-size: 35px
                                                 line-height: 1
-                                                letter-spacing: 0.25px
+                                                letter-spacing: -1px
                                                 font-weight: bold
-                                                left: -50px
-                                                top: 7.5px
-                                                color: #73676D
+                                                left: 0
+                                                right: 0
+                                                bottom: -50px
+                                                color: #36768A
+                                                margin-top: 10px
+
+
+
 
                                         span.contactos
                                             flex-direction: column
@@ -436,17 +458,22 @@
                                                 margin-bottom: 0
 
                                 .middle
-                                    margin-bottom: 15px
+                                    margin-bottom: 0
                                     position: relative
-                                    height: 40px
+                                    height: 110px
+                                    display: flex
+                                    flex-direction: column
+                                    justify-content: center
+                                    justify-items: center
+                                    align-content: center
+                                    align-items: center
                                     @include responsivo(telefonoTable)
                                         height: auto
                                     @include responsivo(pcMedio)
                                         height: auto
                                     .innerMiddle
-                                        position: absolute
-                                        left: 0
-                                        right: 0
+                                        position: unset
+                                        width: 100%
 
 
                                         @include responsivo(telefonoTable)
@@ -457,9 +484,9 @@
                                             position: relative
                                         .discountData
                                             margin-bottom: 15px
-                                            position: absolute
+                                            margin-top: 15px
+                                            position: relative
                                             width: 100%
-                                            top: -55px
                                             .primaryText
                                                 text-align: center
                                                 display: flex
@@ -513,6 +540,46 @@
                                             &:nth-of-type(2)
                                                 right: -65px
                                                 top: unset
+
+                                    .selectorSlizeButton
+                                        width: 85%
+                                        margin-left: auto
+                                        margin-right: auto
+                                        height: 50px
+                                        input
+                                            display: none
+                                        span.pill-button
+                                            width: 100%
+                                            display: flex
+                                            flex-direction: row
+                                            justify-content: center
+                                            justify-items: center
+                                            align-content: center
+                                            align-items: center
+                                            span
+                                                width: 50%
+                                            .pill-button-selection
+                                                display: flex
+                                                flex-direction: column
+                                                justify-items: center
+                                                align-items: center
+                                                align-content: center
+                                                justify-content: center
+                                                font-size: 13px
+                                                line-height: 1
+                                                text-align: center
+                                                font-weight: 400
+                                                span
+                                                    font-weight: 700
+                                                    width: 100%
+                                                    display: block
+
+                                            .pill-button-highlight
+                                                right: 0
+                                                left: unset
+
+
+
 
                                     .primaryText
                                         text-align: center
@@ -1389,7 +1456,7 @@
                                             font-weight: 600
                                             font-size: 16px
 
-                                            width: max(10vw, 250px)
+                                            width: max(250px, 5vw)
                                             padding-left: auto
                                             padding-right: auto
                                             @include responsivo(telefonoTable)
@@ -1506,7 +1573,6 @@
                     .containElements
 
                         .plansSection
-
                             .box
                                 // background-color: $colorBlueLight6
                                 background-color: #F3FAFD
@@ -1618,6 +1684,8 @@
                                 text-align: center
                                 margin: 0
                                 margin-bottom: 20px!important
+                        .miniTitle
+                            margin-bottom: 25px
                         h2
                             text-align: center
                             color: $colorGrey5
@@ -1681,6 +1749,7 @@
                                     box-sizing: border-box
                                     justify-content: flex-start
                                     align-content: center
+                                    align-items: center
                                     @include responsivo(telefonoTable)
                                         width: 100%
                                         justify-content: flex-start
@@ -1702,8 +1771,8 @@
                                         width: 25px
                                         justify-content: center
                                         align-content: center
-                                        margin-right: 25px
-                                        margin-left: 10px
+                                        margin-right: 10px
+                                        margin-left: 0
                                         label
                                             width: fit-content
                                             height: fit-content
@@ -1727,31 +1796,31 @@
                                             width: 20px
 
                                     h3
-                                        color: $colorGrey5
+                                        color: #150D27
                                         margin-bottom: 0
                                         text-align: center
                                         font-family: Nunito
                                         font-style: normal
-                                        font-weight: bold
-                                        font-size: 20px
-                                        line-height: 31px
+                                        font-weight: 800
+                                        font-size: 18px
+                                        line-height: 1
                                         letter-spacing: -1px
+
                                         @include responsivo(telefonoTable)
                                             font-size: 14px
                                             margin: 0
                                         @include responsivo(pcMedio)
                                             font-size: 16px
-                                    .priceTag
-                                        display: none!important
+                                    small
                                         padding: 0
                                         font-family: Nunito
                                         font-style: normal
-                                        font-weight: 300
-                                        font-size: 20px
-                                        line-height: 31px
-                                        text-align: right
-                                        letter-spacing: -1px
-                                        text-transform: uppercase
+                                        font-weight: 400
+                                        font-size: 16px
+                                        margin-left: 7.5px
+                                        width: fit-content
+                                        margin-bottom: 0
+                                        color: #36768A
                                     &:nth-of-type(1)
                                         background-color: #F3FAFD
                                     &:nth-of-type(2)

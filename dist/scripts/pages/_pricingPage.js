@@ -469,13 +469,12 @@ function actionInfoCards(type){
 planCheck = null;
 function discountByPlanCard(type, element){
 
-
+    console.log('que recibe por acá', type);
+    console.log('que recibe por acá', element);
 
     if(type != null){
 
-
         if(element.checked == true){
-
 
             if(jQuery('[typeplan='+ type +']').length > 0){
 
@@ -518,7 +517,7 @@ function discountByPlanCard(type, element){
                     'display': 'block'
                 });
                 jQuery('.price').css({
-                    'margin-bottom': '60' + 'px'
+                    'margin-bottom': '100' + 'px'
                 });
 
                 // _costStarter = 24;
@@ -557,7 +556,7 @@ function discountByPlanCard(type, element){
 
 
             jQuery('.price').css({
-                'margin-bottom': '25' + 'px'
+                'margin-bottom': '70' + 'px'
             });
 
             _costStarter = 30;
