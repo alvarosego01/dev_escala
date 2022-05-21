@@ -463,7 +463,7 @@ $items = [
                                 <div class="elementBody desktopElement versionPc2022">
 
                                     <div
-                                    style="margin-bottom: 100px"
+                                    style="margin-bottom: 90px"
                                     class="price">
 
                                         <p>
@@ -666,7 +666,7 @@ $items = [
                                     <div class="preView">
 
                                         <div
-                                        style="margin-bottom: 100px"
+                                        style="margin-bottom: 90px"
                                         class="price">
                                             <p>
 
@@ -691,7 +691,7 @@ $items = [
 
 
                                     <div
-                                    style="margin-bottom: 100px"
+                                    style="margin-bottom: 90px"
                                     class="price">
 
                                         <p>
@@ -722,7 +722,7 @@ $items = [
 
                                                 @endif
 
-                                                <div class="selectorSwitch">
+                                                {{-- <div class="selectorSwitch">
                                                     <small>
                                                         Mensual
                                                     </small>
@@ -737,7 +737,24 @@ $items = [
                                                     <small>
                                                         Anual
                                                     </small>
+                                                </div> --}}
+
+                                                <div class="selectorSlizeButton">
+
+                                                    <input slizeRadioButton type="checkbox" class="pill-button-input" checked="checked" value="1" onclick="discountByPlanCard('{{ $item['name'] }}', this)" >
+                                                    <span class="pill-button">
+                                                        <span class="pill-button-selection pill-button-selection_on">
+                                                            Pago mensual
+                                                        </span>
+                                                        <span class="pill-button-selection pill-button-selection_off pill-button-selection_active">
+                                                            Pago anual. <br class="space">
+                                                            <span class="greenBlueColor">Ahorras 30%</span>
+                                                        </span>
+                                                        <span class="pill-button-highlight"></span>
+                                                    </span>
+
                                                 </div>
+
 
                                             @endif
 
