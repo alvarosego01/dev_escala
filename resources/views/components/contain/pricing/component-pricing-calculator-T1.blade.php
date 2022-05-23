@@ -381,7 +381,7 @@
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
-                                                USD $94.50 /mes
+                                                USD 94.50 /mes
                                             </span>
 
                                         </div>
