@@ -12,6 +12,7 @@ class SetComponents extends Controller
     {
 
         $components = array_merge(
+
             $this->setBannersForms7Components(),
             $this->setHeadersComponents(),
             $this->setCallToActionsComponents(),
@@ -20,7 +21,8 @@ class SetComponents extends Controller
             $this->setNavbarsComponents(),
             $this->setExitoCasoComponents(),
             $this->setPopUpsComponents(),
-            $this->setHeaderBandsComponents(),
+            $this->setPiePaginaComponents(),
+            $this->setHeaderBandsComponents()
 
         );
 
@@ -43,6 +45,15 @@ class SetComponents extends Controller
             'components.popups.component-popup-general-blue-T2' => 'popup_general_blue_t2',
             'components.popups.component-popup-general-2022' => 'popup_general_2022',
             'components.popups.component-popup-special-message-2022' => 'popup_special_message'
+        );
+    }
+
+    private function setPiePaginaComponents()
+    {
+        return array(
+
+            'components.footers.component-footer-general' => 'piePagina_general'
+
         );
     }
 

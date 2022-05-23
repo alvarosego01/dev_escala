@@ -397,7 +397,7 @@ function calculateFinal(data) {
 
 
 
-    jQuery('#finalPriceCalc').text('USD $' + costFinal + ' /mes');
+    jQuery('#finalPriceCalc').text('USD' + costFinal + ' /mes');
 
 
 }
@@ -529,8 +529,8 @@ function discountByPlanCard(type, element){
                 _costStarter = 21;
                 _costPro = 95;
 
-                jQuery('[calculator_price_starter]').text( 'USD $ ' + _costStarter );
-                jQuery('[calculator_price_pro]').text( 'USD $ ' + _costPro );
+                jQuery('[calculator_price_starter]').text( 'USD ' + _costStarter );
+                jQuery('[calculator_price_pro]').text( 'USD ' + _costPro );
 
                 return;
             }
@@ -572,8 +572,8 @@ function discountByPlanCard(type, element){
             _costStarter = 30;
             _costPro = 135;
 
-            jQuery('[calculator_price_starter]').text( 'USD $ ' + _costStarter );
-            jQuery('[calculator_price_pro]').text( 'USD $ ' + _costPro );
+            jQuery('[calculator_price_starter]').text( 'USD ' + _costStarter );
+            jQuery('[calculator_price_pro]').text( 'USD ' + _costPro );
 
             return;
         }
