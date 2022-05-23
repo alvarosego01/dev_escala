@@ -476,14 +476,17 @@ class ACF_CUSTOM extends Controller
                 $this->settingsSingleBlog()
 
             );
-            // acf_add_local_field_group(
-
-            //     $this->settingsBootstrapPopups()
-
-            // );
 
             $this->registerFieldGroups(
                 $this->settingsBootstrapPopups()
+            );
+
+            $this->registerFieldGroups(
+                $this->settingsBootstrap_pie_pagina()
+            );
+
+            $this->registerFieldGroups(
+                $this->all_pages_footer()
             );
 
             acf_add_local_field_group(
@@ -616,7 +619,7 @@ class ACF_CUSTOM extends Controller
     private function allWeb()
     {
 
-        $body = array();
+        $popupList = array();
 
         $args = array(
             'post_type'=> 'bootstrap_popups',
@@ -631,10 +634,29 @@ class ACF_CUSTOM extends Controller
             foreach ($the_query as $key => $value) {
                 # code...
                 $a = $value->post_title;
-                $body[$value->ID] = $a;
+                $popupList[$value->ID] = $a;
 
             }
 
+        }
+
+        $pie_paginaList = array();
+        $args = array(
+            'post_type'=> 'bootstrap_pie_pagina',
+            'order'    => 'ASC'
+        );
+
+        $the_query = new WP_Query( $args );
+        $the_query = $the_query->posts;
+
+        if(count( $the_query ) > 0){
+
+            foreach ($the_query as $key => $value) {
+                # code...
+                $a = $value->post_title;
+                $pie_paginaList[$value->ID] = $a;
+
+            }
         }
 
         return array(
@@ -676,7 +698,7 @@ class ACF_CUSTOM extends Controller
                     'label' => 'Bootstrap PopUp - Template',
                     'name' => 'Bootstrap PopUp - Template',
                     'type' => 'select',
-                    'choices' => $body,
+                    'choices' => $popupList,
                     'multiple' => 1,
                     'conditional_logic' => [
                         array(
@@ -695,6 +717,7 @@ class ACF_CUSTOM extends Controller
 
                     ]
                 ),
+
                 // array(
                 //     'key' => 'bootstrap_popup_appear_config',
                 //     'label' => 'Bootstrap PopUp Special Appear Config',
@@ -756,6 +779,7 @@ class ACF_CUSTOM extends Controller
             ),
 
             'location' => array(
+
                 array(
                     array(
                         'param' => 'post_type',
@@ -763,15 +787,88 @@ class ACF_CUSTOM extends Controller
                         'value' => 'page',
                     ),
                 ),
-                // array(
-                //     array(
-                //         'param' => 'post_type',
-                //         'operator' => '==',
-                //         'value' => 'post',
-                //     ),
-                // ),
 
             ),
+
+
+        );
+    }
+
+    private function all_pages_footer()
+    {
+
+        $pie_paginaList = array();
+        $args = array(
+            'post_type'=> 'bootstrap_pie_pagina',
+            'order'    => 'ASC'
+        );
+
+        $the_query = new WP_Query( $args );
+        $the_query = $the_query->posts;
+
+        if(count( $the_query ) > 0){
+
+            foreach ($the_query as $key => $value) {
+                # code...
+                $a = $value->post_title;
+                $pie_paginaList[$value->ID] = $a;
+
+            }
+        }
+
+        return array(
+            array(
+            'key' => 'footer_page_config',
+            'title' => 'Pie de pagina selector bootstrap',
+            'fields' => array(
+
+                array(
+                    'key' => 'pie_pagina_settings',
+                    'label' => 'Pie de pagina base',
+                    'name' => 'Pie de pagina base',
+                    'type' => 'select',
+                    'choices' => array(
+
+                        'elementor_pie_pagina' => 'Elementor pie de Pagina',
+                        'bootstrap_pie_pagina' => 'Bootstrap pie de pagina',
+
+                    ),
+                ),
+
+                array(
+                    'key' => 'bootstrap_pie_pagina_types',
+                    'label' => 'Bootstrap pie de pagina - Template',
+                    'name' => 'Bootstrap pie de pagina - Template',
+                    'type' => 'select',
+                    'choices' => $pie_paginaList,
+                    'conditional_logic' => [
+                        array(
+
+                            [
+                                'field' => 'pie_pagina_settings',
+                                'operator' => '==',
+                                'value' => 'bootstrap_pie_pagina'
+                            ]
+
+                        ),
+
+                    ]
+                ),
+            ),
+
+            'location' => array(
+
+                array(
+                    array(
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'page',
+                    ),
+                ),
+
+            ),
+        ),
+
 
         );
     }
@@ -881,17 +978,7 @@ class ACF_CUSTOM extends Controller
                         ]
                     ]
                 ),
-                array(
-                    'key' => 'piePagina_settings',
-                    'label' => 'Pie de pagina base',
-                    'name' => 'Pie de pagina base',
-                    'type' => 'select',
-                    'choices' => array(
-                        'elementor_piePagina' => 'Elementor pie de Pagina',
-                        'principal-piePagina1' => '[B] Principal general Pie de Pagina',
 
-                    ),
-                ),
             ),
             'location' => array(
                 // array(
@@ -1160,6 +1247,312 @@ class ACF_CUSTOM extends Controller
         );
     }
 
+    private function settingsBootstrap_pie_pagina() {
+
+        $aux = wp_get_nav_menus();
+
+        $body = array();
+
+        if(count( $aux ) > 0){
+
+            foreach ($aux as $key => $value) {
+            # code...
+            // array_push( $body, [
+                // $value['term_id' => $value['name']]
+                // ])
+                $body[$value->term_id] = $value->name;
+
+            }
+
+        }
+
+        return array(
+
+            array(
+                'key' => 'bootstrap_pie_pagina_settings_1c_3c',
+                'title' => 'Columna 1 ( 3c )',
+                'fields' => array(
+
+                    array(
+                        'key' => 'pie_pagina_logo_1c_3c',
+                        'label' => 'Pie de pagina logo',
+                        'name' => 'Pie de pagina logo',
+                        'type' => 'image',
+                    ),
+
+                    array(
+                        'key' => 'pie_pagina_texto_1c_3c',
+                        'label' => 'Texto columna 1',
+                        'name' => 'Texto columna 1',
+                        'type' => 'textarea',
+                    ),
+
+                    array(
+
+                        'key' => 'enable_menu_1c_3c',
+                        'label' => 'Habilitar menu columna 1',
+                        'name' => 'Habilitar menu columna 1',
+                        'type' => 'true_false',
+
+                    ),
+
+                    array(
+                        'key' => 'title_menu_1c_3c',
+                        'label' => 'Titulo Menu columna 1',
+                        'name' => 'Titulo Menu columna 1',
+                        'type' => 'text',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_menu_1c_3c',
+                                    'operator' => '==',
+                                    'value' => 1
+                                ]
+                            ]
+                        ]
+                    ),
+
+                    array(
+                        'key' => 'menu_1c_3c',
+                        'label' => 'Menu columna 1',
+                        'name' => 'Menu columna 1',
+                        'type' => 'select',
+                        'choices' => $body,
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_menu_1c_3c',
+                                    'operator' => '==',
+                                    'value' => 1
+                                ]
+                            ]
+                        ]
+                    ),
+
+                ),
+                'location' => array(
+
+                    array(
+                        array(
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_pie_pagina',
+                        ),
+                        array(
+                            'param' => 'post_taxonomy',
+                            'operator' => '==',
+                            'value' => 'pie-pagina-category-tax:general_pie_pagina_3c',
+                        ),
+                    ),
+
+                ),
+
+            ),
+            array(
+                'key' => 'bootstrap_pie_pagina_settings_2c_3c',
+                'title' => 'Columna 2 ( 3c )',
+                'fields' => array(
+
+                    array(
+
+                        'key' => 'enable_menu_2c_3c',
+                        'label' => 'Habilitar menu columna 2',
+                        'name' => 'Habilitar menu columna 2',
+                        'type' => 'true_false',
+
+                    ),
+
+                    array(
+                        'key' => 'title_menu_2c_3c',
+                        'label' => 'Titulo Menu columna 2',
+                        'name' => 'Titulo Menu columna 2',
+                        'type' => 'text',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_menu_2c_3c',
+                                    'operator' => '==',
+                                    'value' => 1
+                                ]
+                            ]
+                        ]
+                    ),
+
+                    array(
+                        'key' => 'menu_2c_3c',
+                        'label' => 'Menu columna 2',
+                        'name' => 'Menu columna 2',
+                        'type' => 'select',
+                        'choices' => $body,
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_menu_2c_3c',
+                                    'operator' => '==',
+                                    'value' => 1
+                                ]
+                            ]
+                        ]
+                    ),
+
+                ),
+                'location' => array(
+
+                    array(
+                        array(
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_pie_pagina',
+                        ),
+                        array(
+                            'param' => 'post_taxonomy',
+                            'operator' => '==',
+                            'value' => 'pie-pagina-category-tax:general_pie_pagina_3c',
+                        ),
+                    ),
+
+                ),
+
+            ),
+            array(
+                'key' => 'bootstrap_pie_pagina_settings_3c_3c',
+                'title' => 'Columna 3 ( 3c )',
+                'fields' => array(
+
+                    array(
+
+                        'key' => 'enable_menu_3c_3c',
+                        'label' => 'Habilitar menu columna 2',
+                        'name' => 'Habilitar menu columna 2',
+                        'type' => 'true_false',
+
+                    ),
+
+                    array(
+                        'key' => 'title_menu_3c_3c',
+                        'label' => 'Titulo Menu columna 2',
+                        'name' => 'Titulo Menu columna 2',
+                        'type' => 'text',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_menu_3c_3c',
+                                    'operator' => '==',
+                                    'value' => 1
+                                ]
+                            ]
+                        ]
+                    ),
+
+                    array(
+                        'key' => 'menu_3c_3c',
+                        'label' => 'Menu columna 2',
+                        'name' => 'Menu columna 2',
+                        'type' => 'select',
+                        'choices' => $body,
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_menu_3c_3c',
+                                    'operator' => '==',
+                                    'value' => 1
+                                ]
+                            ]
+                        ]
+                    ),
+
+                    array(
+                        'key' => 'pie_pagina_logo_3c_3c',
+                        'label' => 'Imagen columna 3',
+                        'name' => 'Imagen columna 3',
+                        'type' => 'image',
+                    ),
+
+                ),
+                'location' => array(
+
+                    array(
+                        array(
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_pie_pagina',
+                        ),
+                        array(
+                            'param' => 'post_taxonomy',
+                            'operator' => '==',
+                            'value' => 'pie-pagina-category-tax:general_pie_pagina_3c',
+                        ),
+                    ),
+
+                ),
+
+            ),
+
+            array(
+                'key' => 'bootstrap_pie_pagina_settings_base_3c',
+                'title' => 'Pie de pagina base ( 3c )',
+                'fields' => array(
+
+                    array(
+                        'key' => 'pie_pagina_texto_base_3c',
+                        'label' => 'Texto base',
+                        'name' => 'Texto base',
+                        'type' => 'text',
+                    ),
+
+                ),
+                'location' => array(
+
+                    array(
+                        array(
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_pie_pagina',
+                        ),
+                        array(
+                            'param' => 'post_taxonomy',
+                            'operator' => '==',
+                            'value' => 'pie-pagina-category-tax:general_pie_pagina_3c',
+                        ),
+                    ),
+
+                ),
+            ),
+
+            array(
+                'key' => 'bootstrap_pie_pagina_settings_general_3c',
+                'title' => 'Pie de pagina general ( 3c )',
+                'fields' => array(
+
+                    array(
+                        'key' => 'bootstrap_pie_pagina_template',
+                        'label' => 'Bootstrap pie de pagina model',
+                        'name' => 'Bootstrap pie de pagina model',
+                        'type' => 'select',
+                        'choices' => array(
+                            'pie_pagina_bootstrap_general_t1' => 'Pie de pagina general 1',
+                        ),
+                    )
+
+                ),
+                'location' => array(
+
+                    array(
+                        array(
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_pie_pagina',
+                        ),
+
+                    ),
+
+                ),
+            )
+
+        );
+
+    }
+
     private function settingsBootstrapPopups()
     {
         return array(
@@ -1176,6 +1569,7 @@ class ACF_CUSTOM extends Controller
                         'popup-bootstrap-general-t1' => 'Popup general 1',
                         'popup-bootstrap-general-blue-t2' => 'Popup general 2 blue',
                         'popup-bootstrap-general-2022' => 'Popup general 2022',
+                        'popup-bootstrap-special-message' => 'Nota special message',
                     ),
                 )
 
@@ -1517,6 +1911,48 @@ class ACF_CUSTOM extends Controller
 
         ),
 
+        array(
+            'key' => 'bootstrap_popups_special_message_settings',
+            'title' => 'Bootstrap popups options',
+            'fields' => array(
+
+                array(
+                    'key' => 'popup_call_class',
+                    'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                    'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                    'type' => 'text',
+                ),
+
+                array(
+                    'key' => 'popup_special_message_image',
+                    'label' => 'Popup image',
+                    'name' => 'Popup image',
+                    'type' => 'image',
+                ),
+                array(
+                    'key' => 'popup_special_message_text',
+                    'label' => 'Popup text',
+                    'name' => 'Popup text',
+                    'type' => 'textarea',
+                ),
+
+            ),
+            'location' => array(
+                array(
+                    array(
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'bootstrap_popups',
+                    ),
+                    array(
+                        'param' => 'post_taxonomy',
+                        'operator' => '==',
+                        'value' => 'popup-category-tax:special_message_popup',
+                    ),
+                ),
+            ),
+        )
+
 
         );
     }
@@ -1724,6 +2160,8 @@ class ACF_CUSTOM extends Controller
     {
         if( count($fieldsPack) > 0 ){
 
+
+
             foreach ($fieldsPack as $key => $fieldGroup) {
                 // $fieldGroup['location'] = self::$rules[$key];
                 if ( function_exists('acf_add_local_field_group') ) {
@@ -1761,4 +2199,8 @@ class ACF_CUSTOM extends Controller
 
     }
 
+
+
+
 }
+

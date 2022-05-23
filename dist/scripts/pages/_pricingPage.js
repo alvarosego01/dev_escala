@@ -397,7 +397,7 @@ function calculateFinal(data) {
 
 
 
-    jQuery('#finalPriceCalc').text('USD $' + costFinal + ' /mes');
+    jQuery('#finalPriceCalc').text('USD' + costFinal + ' /mes');
 
 
 }
@@ -470,12 +470,9 @@ planCheck = null;
 function discountByPlanCard(type, element){
 
 
-
     if(type != null){
 
-
         if(element.checked == true){
-
 
             if(jQuery('[typeplan='+ type +']').length > 0){
 
@@ -517,21 +514,28 @@ function discountByPlanCard(type, element){
                 jQuery('.ncost').css({
                     'display': 'block'
                 });
-                jQuery('.price').css({
-                    'margin-bottom': '60' + 'px'
-                });
+
+
+                    jQuery('.price').css({
+                        'margin-bottom': '90' + 'px'
+                    });
+
+
+                jQuery('#plan3.elementParent .middle .innerMiddle').removeClass('reduceDiv');
+
 
                 // _costStarter = 24;
                 // _costPro = 65;
                 _costStarter = 21;
                 _costPro = 95;
 
-                jQuery('[calculator_price_starter]').text( 'USD $ ' + _costStarter );
-                jQuery('[calculator_price_pro]').text( 'USD $ ' + _costPro );
+                jQuery('[calculator_price_starter]').text( 'USD ' + _costStarter );
+                jQuery('[calculator_price_pro]').text( 'USD ' + _costPro );
 
                 return;
             }
         }
+
         if(element.checked == false){
 
 
@@ -556,18 +560,24 @@ function discountByPlanCard(type, element){
                 });
 
 
-            jQuery('.price').css({
-                'margin-bottom': '25' + 'px'
-            });
+
+
+                jQuery('.price').css({
+                    'margin-bottom': '60' + 'px'
+                });
+
+
+            jQuery('#plan3.elementParent .middle .innerMiddle').addClass('reduceDiv');
 
             _costStarter = 30;
             _costPro = 135;
 
-            jQuery('[calculator_price_starter]').text( 'USD $ ' + _costStarter );
-            jQuery('[calculator_price_pro]').text( 'USD $ ' + _costPro );
+            jQuery('[calculator_price_starter]').text( 'USD ' + _costStarter );
+            jQuery('[calculator_price_pro]').text( 'USD ' + _costPro );
 
             return;
         }
+
         }
 
     }

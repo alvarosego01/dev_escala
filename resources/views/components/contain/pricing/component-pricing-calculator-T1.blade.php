@@ -49,9 +49,6 @@
                                             <h3 class="secondaryTitle">
                                                 Plan Starter
                                             </h3>
-                                            <span calculator_price_starter class="priceTag">
-                                                USD 30
-                                            </span>
 
 
 
@@ -75,11 +72,10 @@
                                             <h3 class="secondaryTitle">
                                                 Plan Pro
                                             </h3>
-                                            <span
-                                            calculator_price_pro
-                                            class="priceTag">
-                                                USD 75
-                                            </span>
+
+                                            <small>
+                                                (30% de descuento)
+                                            </small>
 
 
                                     </div>
@@ -376,13 +372,16 @@
                                             <button type="button" onclick="typeCustomPay('yearly', this)"
                                                 id="buttonPayTime-year" class="selectorPricingButton active">
                                                 PAGAR ANUAL
+                                                <small>
+                                                    30% de descuento
+                                                </small>
                                             </button>
 
                                         </div>
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
-                                                USD $94.50 /mes
+                                                USD 94.50 /mes
                                             </span>
 
                                         </div>

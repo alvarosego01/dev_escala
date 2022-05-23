@@ -144,15 +144,17 @@ add_action('wp_enqueue_scripts', function () {
 
     wp_enqueue_script('sweetAlert', "https://cdn.jsdelivr.net/npm/sweetalert2@11" , ['jquery'], THEME_VERSION, true);
 
-    wp_enqueue_style('videoJS.css', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/video.js/video-js.min.css', false, THEME_VERSION);
+    wp_enqueue_style('videoJS.css', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/video.js/video-js.min.css', false);
 
-    wp_enqueue_style('fontawesome.css', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/fontAwesome/css/all.min.css', false, THEME_VERSION);
+    wp_enqueue_style('fontawesome.css', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/fontAwesome/css/all.min.css', false);
+
+    wp_enqueue_style('lineAwesome.css', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/line-awesome/css/line-awesome.min.css', false);
 
     // wp_enqueue_script('fontawesome.js', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/fontAwesome/js/all.min.js', ['jquery'], THEME_VERSION, true);
 
-    wp_enqueue_script('videoJS.js', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/video.js/video.min.js', ['jquery'], THEME_VERSION, true);
+    wp_enqueue_script('videoJS.js', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/video.js/video.min.js', ['jquery'], true);
 
-    wp_enqueue_script('YoutubevideoJS.js', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/video.js/videojs.youtube.min.js', ['jquery'], THEME_VERSION, true);
+    wp_enqueue_script('YoutubevideoJS.js', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/video.js/videojs.youtube.min.js', ['jquery'], true);
 
     // wp_enqueue_script('Dailymotion.min.js', get_template_directory_uri() . '/../oceanwp-child/resources/assets/library/video.js/Dailymotion.min.js', ['jquery'], THEME_VERSION, true);
 

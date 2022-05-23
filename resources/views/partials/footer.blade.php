@@ -1,29 +1,50 @@
 @php
-
-$typeFooter = null;
+// bootstrap_pie_pagina_settings_1c_3c
+$idFooter = null;
 if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
-    $typeFooter = ACF_CUSTOM::_getField('piePagina_settings');
+    $idFooter = get_the_ID();
 } elseif (is_singular() != null && is_singular() == 1 && get_post_type() == 'post') {
     # code...
-    $idPostParent = url_to_postid('blog');
-    $typeFooter = ACF_CUSTOM::_getField('piePagina_settings', $idPostParent);
+    $idFooter = url_to_postid('blog');
 } else {
-    $typeFooter = ACF_CUSTOM::_getField('piePagina_settings');
+    $idFooter = get_the_ID();
 }
 
 @endphp
 
+@php
+$typeFooter = ACF_CUSTOM::_getField('pie_pagina_settings', $idFooter);
+@endphp
 
-@if (isset($typeFooter) && $typeFooter != 'elementor_piePagina')
 
-    @if (isset($typeFooter) && $typeFooter == 'principal-piePagina1')
+
+@if (isset($typeFooter) && $typeFooter != 'elementor_pie_pagina')
+
+    @if (isset($typeFooter) && $typeFooter == 'bootstrap_pie_pagina')
         @php
-
             wp_footer();
-
         @endphp
 
-        <footer id="bootstrapFooter" class="content-info customFooter bootstrapFooter principal-footer1">
+        @php
+            $footerTemplate_id = ACF_CUSTOM::_getField('bootstrap_pie_pagina_types', $idFooter);
+        @endphp
+
+        @if (isset($footerTemplate_id) && $footerTemplate_id != null)
+            @php
+                $footerTemplate = ACF_CUSTOM::_getField('bootstrap_pie_pagina_template', $idFooter);
+            @endphp
+
+
+            @if (isset($footerTemplate) && $footerTemplate == 'pie_pagina_bootstrap_general_t1')
+                @piePagina_general()
+                @endpiePagina_general
+
+            @endif
+
+        @endif
+
+
+        {{-- <footer id="bootstrap_PiePagina" class="content-info custom_PiePagina bootstrap_PiePagina principal_PiePagina1">
 
             <div class="section-row">
 
@@ -33,21 +54,23 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
 
                 @endphp
 
-
-
             </div>
 
-        </footer>
+        </footer> --}}
+
+
+
+
+
     @endif
+
 @endif
 
 
-@if (!isset($typeFooter) || (isset($typeFooter) && $typeFooter == 'elementor_piePagina'))
+@if (!isset($typeFooter) || (isset($typeFooter) && $typeFooter == 'elementor_pie_pagina'))
     @php
 
         get_footer();
 
     @endphp
 @endif
-
-
