@@ -397,7 +397,7 @@ function calculateFinal(data) {
 
 
 
-    jQuery('#finalPriceCalc').text('USD' + costFinal + ' /mes');
+    jQuery('#finalPriceCalc').text('USD ' + costFinal + ' /mes');
 
 
 }
