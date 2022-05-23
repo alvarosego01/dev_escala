@@ -487,6 +487,16 @@ jQuery(document).ready(function () {
 
     setInitSlizeButton();
 
+
+    jQuery(".hoverClick").hover(function(){
+
+        jQuery(this).click();
+
+        }, function(){
+
+    });
+
+
 });
 
 

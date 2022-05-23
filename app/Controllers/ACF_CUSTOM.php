@@ -1414,6 +1414,7 @@ class ACF_CUSTOM extends Controller
                 ),
 
             ),
+
             array(
                 'key' => 'bootstrap_pie_pagina_settings_3c_3c',
                 'title' => 'Columna 3 ( 3c )',
@@ -1422,16 +1423,16 @@ class ACF_CUSTOM extends Controller
                     array(
 
                         'key' => 'enable_menu_3c_3c',
-                        'label' => 'Habilitar menu columna 2',
-                        'name' => 'Habilitar menu columna 2',
+                        'label' => 'Habilitar menu columna 3',
+                        'name' => 'Habilitar menu columna 3',
                         'type' => 'true_false',
 
                     ),
 
                     array(
                         'key' => 'title_menu_3c_3c',
-                        'label' => 'Titulo Menu columna 2',
-                        'name' => 'Titulo Menu columna 2',
+                        'label' => 'Titulo Menu columna 3',
+                        'name' => 'Titulo Menu columna 3',
                         'type' => 'text',
                         'conditional_logic' => [
                             [
@@ -1446,8 +1447,8 @@ class ACF_CUSTOM extends Controller
 
                     array(
                         'key' => 'menu_3c_3c',
-                        'label' => 'Menu columna 2',
-                        'name' => 'Menu columna 2',
+                        'label' => 'Menu columna 3',
+                        'name' => 'Menu columna 3',
                         'type' => 'select',
                         'choices' => $body,
                         'conditional_logic' => [
@@ -2198,6 +2199,36 @@ class ACF_CUSTOM extends Controller
         }
 
     }
+
+    public static function _getFields( $post_id, $format_value = 0 )
+    {
+
+        if (function_exists('get_fields')) {
+
+            $l = null;
+            if ($format_value) {
+                $l = get_fields($post_id, $format_value);
+            } else {
+                $l = get_fields($post_id);
+            }
+
+            if ($l != null || $l != '') {
+
+                return $l;
+            } else {
+                return null;
+            }
+
+
+
+        } else {
+
+            return null;
+        }
+
+    }
+
+
 
 
 

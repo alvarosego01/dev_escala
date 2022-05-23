@@ -30,13 +30,21 @@ $typeFooter = ACF_CUSTOM::_getField('pie_pagina_settings', $idFooter);
         @endphp
 
         @if (isset($footerTemplate_id) && $footerTemplate_id != null)
+
             @php
-                $footerTemplate = ACF_CUSTOM::_getField('bootstrap_pie_pagina_template', $idFooter);
+                $footerTemplate = ACF_CUSTOM::_getField('bootstrap_pie_pagina_template', $footerTemplate_id);
             @endphp
 
 
+
             @if (isset($footerTemplate) && $footerTemplate == 'pie_pagina_bootstrap_general_t1')
-                @piePagina_general()
+                @php
+                    $parameters = array(
+                        'footerTemplate_id' => $footerTemplate_id
+                    )
+                @endphp
+
+                @piePagina_general( $parameters )
                 @endpiePagina_general
 
             @endif

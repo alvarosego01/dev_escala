@@ -213,6 +213,8 @@
                         .elementParent
                             @include responsivo(telefonoTable)
                                 margin-bottom: 25px
+                                padding-left: 0
+                                padding-right: 0
                             @include responsivo(pcMedio)
                                 margin-bottom: 50px
 
@@ -656,8 +658,10 @@
                                         padding: 12px 0
                                         @include responsivo(telefonoTable)
                                             margin: 0 auto
+                                            width: max(10vw,250px)!important
                                         @include responsivo(pcMedio)
                                             margin: 0 auto
+                                            width: max(10vw,300px)!important
                                         @include responsivo(telefonoTable)
                                             width: fit-content
                                             padding: 12px 50px
@@ -710,13 +714,16 @@
                                         padding-top: 15px
                                         width: fit-content
                                         margin: 0
-                                        margin-left: 27.5%
+                                        margin-left: auto
+                                        margin-right: auto
                                     @include responsivo(pcMedio)
                                         padding: 15px 0
                                         padding-top: 15px
                                         width: fit-content
                                         margin: 0
-                                        margin-left: 20vw
+                                        margin-left: auto
+                                        margin-right: auto
+
                                     h4.thirdTitle
                                         color: #5c5c5c
                                         font-size: 14px
@@ -1391,7 +1398,7 @@
                     margin-bottom: 0
                     height: 100%
                     @include responsivo(telefonoTable)
-                        padding: 25px 5%
+                        padding: 25px 2.5%
                     @include responsivo(general)
                         background-color: white
 
