@@ -77,16 +77,16 @@
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
   'title' => '
-  Descubre todo lo que puedes <br class="space">
-lograr con Escala',
+Descubre todo lo que puedes <br class="space">
+lograr con Escala
+',
 'typeVideo' =>  'localvideo',
   'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
   'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
   'text' => '
-  Escala fue creada por Andrés Moreno y un <br class="desktopTabletElement">
-equipo de expertos y es la herramienta preferida <br class="desktopTabletElement">
-por los emprendedores hispanoamericanos para <br class="desktopTabletElement">
-aumentar las ventas en sus negocios.
+Escala fue creada por Andrés Moreno y un equipo <br class="desktopTabletElement">
+de expertos en marketing digital y ventas y es la <br class="desktopTabletElement">
+herramienta preferida de la empresas hispanas.
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
@@ -163,8 +163,8 @@ a tus clientes
         <section class="innerSectionElement1">
 
           <h2 class="primaryTitle blackColor">
-            Nuestros clientes te dicen <br class="mobileElement"> por qué <br class="desktopElement">
-prefieren Escala
+Nuestros clientes te dicen <br class="space">
+por qué prefieren Escala
           </h2>
 
 
@@ -203,7 +203,7 @@ prefieren Escala
             </h3> --}}
 
             <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-              ¡Comenzar ahora!
+              Prueba Gratis
             </a>
 
 
@@ -227,12 +227,13 @@ prefieren Escala
             <div class="containElements">
 
               <h2 class="primaryTitle blackColor">
-                <span class="greenBlueColor">La plataforma todo-en-uno</span> <br class="space">
-                de marketing digital y ventas
+                <span class="greenBlueColor">La plataforma todo-en-uno <br class="space"></span>
+                de marketing, ventas y fidelización
               </h2>
               <p class="primaryText grayColorTexts">
-
-                En <strong>Escala</strong> tienes todas las herramientas <br class="space"> integradas que necesitas para impulsar tu éxito.
+                En Escala tienes una plataforma de CRM poderosa con todas las funcionalidades <br class="desktopTabletElement">
+                que necesitas para generar más demanda, aumentar tus ventas y retener más <br class="desktopTabletElement">
+                clientes.
               </p>
 
             </div>
@@ -253,9 +254,11 @@ prefieren Escala
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
                     Crea increíbles páginas <br class="space">
-sin programar
+                    sin programar
                   </h3>
-                  <p class="primaryText  grayColorTexts">¡Y que queden hermosas!</p>
+                  <p class="primaryText  grayColorTexts">
+                    ¡Y que queden hermosas!
+                  </p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/landing-pages/">Conocer más</a>
                 </div>
 
@@ -292,11 +295,12 @@ sin programar
 
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
-                    Envía emails de marketing <br class="space"> profesionales
-
+                    Envía emails de marketing <br class="space">
+                    profesionales
                   </h3>
                   <p class="primaryText  grayColorTexts">
-                    Personalizados y masivos, sin caer <br class="space"> en la bandeja de SPAM
+                    Personalizados y masivos, sin caer <br class="space">
+                    en la bandeja de SPAM
                   </p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/email/">
                     Conocer más
@@ -313,8 +317,8 @@ sin programar
 
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
-                    Multiplica tus visitas web <br class="space"> con anuncios digitales
-
+                    Multiplica tus visitas web <br class="space">
+                    con anuncios digitales
                   </h3>
                   <p class="primaryText  grayColorTexts">
                     En Facebook, Instagram y Google
@@ -340,7 +344,9 @@ sin programar
                     flujos de comunicación
                   </h3>
 
-                  <p class="primaryText  grayColorTexts">Escala trabaja por ti 24/7</p>
+                  <p class="primaryText  grayColorTexts">
+                    Escala trabaja por ti 24/7
+                  </p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/automatizacion/">
                     Conocer más
                   </a>
@@ -359,10 +365,12 @@ sin programar
 
                 <div class="containerElements">
                   <h3 class="secondaryTitle blackColor">
-                    Obtén métricas de marketing <br class="space"> y ventas en  tiempo real
-
+                    Obtén métricas de marketing <br class="space">
+                    y ventas en tiempo real
                   </h3>
-                  <p class="primaryText  grayColorTexts">Con dashboards inteligentes</p>
+                  <p class="primaryText  grayColorTexts">
+                    Con Dashboards inteligentes
+                  </p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/analiticas/">
                     Conocer más
                   </a>
@@ -394,10 +402,11 @@ sin programar
     <section class="innerSectionElement1">
 
       <h2 class="primaryTitle blackColor">
-        Los expertos en marketing digital <br class="mobileElement"> lo dicen: “Escala es muy fácil de usar”
+        Los expertos en marketing digital lo dicen: “Escala es muy fácil de usar”
       </h2>
       <p class="primaryText grayColorTexts">
-        Descubre en estos videos cómo los expertos de marketing digital y ventas de toda <br class="desktopTabletElement"> Latinoamérica le sacan provecho a cada funcionalidad de Escala.
+        Descubre en estos videos cómo los expertos de marketing digital y ventas de toda <br class="desktopTabletElement">
+        Latinoamérica le sacan provecho a cada funcionalidad de Escala.
       </p>
 
     </section>
@@ -730,9 +739,8 @@ sin programar
         </h3> --}}
 
         <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-          ¡Comenzar ahora!
+          Prueba Gratis
         </a>
-
 
       </div>
 
@@ -748,10 +756,10 @@ sin programar
         'classSection' => 'homeSection6',
         'enableTitle' => true,
         'titlePrincipal' => '
-        <span style="color: #B9E6E9">
-          5 Ventajas de potenciar <br class="space">
-          tu negocio con
-        </span> Escala
+          <span style="color: #B9E6E9">
+            5 Ventajas de potenciar <br class="space">
+            tu negocio con
+          </span> Escala
         ',
         'subTitlePrincipal' => null,
         'overlay' => false,
@@ -760,78 +768,79 @@ sin programar
         'elements' => array(
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_05.png'),
-                        'title' => '<span class="blueLightColor11">
-                            Una herramientas <br class="space">
-                            muy amigable
-                            </span>',
+                        'title' => '
+                            Una herramienta <br class="space">
+                            muy amigable <span class="blueLightColor11">
+                              para <br class="space">
+                              mercadeo y ventas
+                            </span>
+                            ',
                         'text' => '
-                        Para mercadeo y ventas
-                        <br class="space">
-                        <br class="space">
-                        <span>Ernesto Valery / Director Huella Studio</span>
+                        <span>
+                          Ernesto Valery / Director Huella Studio
+                        </span>
                         ',
                         'enableButton' => false,
 
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_06.png'),
-                        'title' => '<span class="blueLightColor11">
+                        'title' => '
                             Un equipo de servicio <br class="space">
-extraordinario y bien entrenado
+                            extraordinario y bien entrenado. <br class="space">
+                            <span class="blueLightColor11">
+                              Tienen un equipo atento <br class="space">
+                              y disponible cuando lo necesitas
                             </span>
                         ',
                         'text' => '
-                        Tienen un equipo atento <br class="space">
-y disponible cuando lo necesitas
-<br class="space">
-<br class="space">
-<span>Michelle Palaez / Fundadora Infinito Producciones</span>
+                          <span>Michelle Palaez / Fundadora Infinito Producciones</span>
                         ',
                         'enableButton' => false,
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_07.png'),
-                        'title' => '<span class="blueLightColor11">
-                            No dependes de un equipo <br class="space">
-técnico o de programación
-                            </span>',
+                        'title' => '
+                              No dependes de un equipo <br class="space">
+                              técnico o de programación. <br class="space">
+                              <span class="blueLightColor11">
+                                Cualquiera con nivel básico <br class="space">
+                                sabría utilizar Escala.
+                              </span>
+                            ',
                         'text' => '
-                        Cualquiera con nivel básico <br class="space">
-sabría utilizar Escala.
-<br class="space">
-<br class="space">
-<span>
-  Verónica Bolaños / Account Manager, <br class="space">
-  Publicidad Comercial
-</span>
+                          <span>
+                            Verónica Bolaños / Account Manager, <br class="space">
+                            Publicidad Comercial
+                          </span>
                         ',
                         'enableButton' => false,
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_08.png'),
-                        'title' => '<span class="blueLightColor11">
-                            Todo está 100% en español
-                            <br class="desktopTabletElement">
-                            </span>',
+                        'title' => '
+                              Todo está 100% en español. <br class="space">
+                              <span class="blueLightColor11">
+                                Finalmente un software donde la <br class="space">
+                                plataforma, el servicio y la educación <br class="space">
+                                es en español
+                              </span>
+                            ',
                         'text' => '
-                        Finalmente un software donde la plataforma, <br class="space">
-el servicio y la educación es en español
-<br class="space">
-<br class="space">
-<span>Verónica Bolaños / Account Manager, Publicidad Comercial</span>
+                          <span>Verónica Bolaños / Account Manager, Publicidad Comercial</span>
                         ',
                         'enableButton' => false,
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_09.png'),
-                        'title' => '<span class="blueLightColor11">
-                            Todas las funcionalidades <br class="space">
-en un solo lugar
-                            </span>',
+                        'title' => '
+                                Todas las funcionalidades <br class="space">
+                                en un solo lugar, <span class="blueLightColor11">
+                                Escala <br class="space">
+                                programa las páginas por ti
+                              </span>
+                            ',
                         'text' => '
-                        Escala programa las páginas por ti
-                         <br class="space">
-                         <br class="space">
                         <span>Michelle Palaez / Fundadora Infinito Producciones</span>
                         ',
                         'enableButton' => false,
@@ -852,43 +861,70 @@ en un solo lugar
         Servicio Premium
         ',
         'subTitlePrincipal' => '
-En Escala te acompañamos desde el primer día con nuestros <br class="desktopTabletElement">
-especialistas del éxito, quienes te guiarán en todo tu camino para <br class="desktopTabletElement">
-hacer crecer tu negocio.
+          En Escala te acompañamos desde el primer día con nuestros gerentes de <br class="desktopTabletElement">
+          cuentas, quienes te guiarán en todo tu camino para hacer crecer tu negocio.
+
         ',
         'overlay' => false,
         'enableButton' => true,
         'urlButton' => '#lead-form',
-        'textButton' => 'Hablar con un asesor',
+        'textButton' => 'Prueba Gratis',
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/7_serviciopremium_01.png'),
-                'title' => '<span class="greenBlueColor7">
-                    Acompañamiento Premium
-                    </span>',
+                'title' => '
+                Implementación Guiada
+                ',
+                'text' => '
+                  Obtén el acompañamiento de un gerente de cuentas <br class="desktopTabletElement">
+                  especializado en marketing digital, ventas y fidelización, <br class="desktopTabletElement">
+                  asignado a tu negocio. Cuenta con sesiones <br class="desktopTabletElement">
+                  estratégicas y configuraciones personalizadas, análisis <br class="desktopTabletElement">
+                  de tus resultados para optimizar tu progreso y <br class="desktopTabletElement">
+                  migración de data para poner tu CRM a punto.
+                ',
                 'enableButton' => false,
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/7_serviciopremium_02.png'),
-                'title' => '<span class="greenBlueColor7">
-                    Formación constante
-                    </span>',
+                'title' => '
+                Escala Academy
+                ',
+                'text' => '
+                  Conviértete en un experto de marketing digital y <br class="desktopTabletElement">
+                  ventas con formación en vivo. Con capacitaciones <br class="desktopTabletElement">
+                  basadas en casos prácticos y estratégicos según tu <br class="desktopTabletElement">
+                  plan. Cuenta con recursos autoguiados: guías <br class="desktopTabletElement">
+                  prácticas, webinars grabados y más de 80 tutoriales <br class="desktopTabletElement">
+                  de nuestra plataforma.
+                ',
                 'enableButton' => false,
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/7_serviciopremium_03.png'),
-                'title' => '<span class="greenBlueColor7">
-                    Atención oportuna
-                    </span>',
+                'title' => '
+                Canales de comunicación
+                ',
+                'text' => '
+                  Ten la atención oportuna comunicándote <br class="desktopTabletElement">
+                  constantemente con el equipo de Escala por chat, <br class="desktopTabletElement">
+                  email y whatsApp de servicio.
+                ',
                 'enableButton' => false,
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/7_serviciopremium_04.png'),
-                'title' => '<span class="greenBlueColor7">
-                    Servicios especializados
-                    </span>',
+                'title' => '
+                Servicios Complementarios
+                ',
+                'text' => '
+                  Disfruta de sesiones de configuración personalizadas <br class="desktopTabletElement">
+                  y el diseño de tus plantillas de landing pages y <br class="desktopTabletElement">
+                  correos electrónicos adaptados a tu negocio.
+                ',
+
                 'enableButton' => false,
             ],
 
