@@ -818,7 +818,7 @@ class ACF_CUSTOM extends Controller
 
         return array(
             array(
-            'key' => 'footer_page_config',
+            'key' => 'pie_pagina_page_config',
             'title' => 'Pie de pagina selector bootstrap',
             'fields' => array(
 
