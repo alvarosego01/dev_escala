@@ -192,7 +192,7 @@ $items = [
             <small>
                 Implementación personalizada: <strong>Pago único 450 USD</strong>
             </small>
-            <button class="hoverInEffect openPopUpButton popup-pricing-implement">
+            <button class=" hoverClick hoverInEffect openPopUpButton popup-pricing-implement">
                 <i class="la la-question-circle"></i>
             </button>
         </span>
