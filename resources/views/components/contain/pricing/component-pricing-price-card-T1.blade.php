@@ -190,7 +190,8 @@ $items = [
         </span>
         <span class="specialNote">
             <small>
-                Implementación personalizada: <strong>Pago único 450 USD</strong>
+                Implementación personalizada: <br class="mobileElement">
+                <strong>Pago único 450 USD</strong>
             </small>
             <button class=" hoverClick hoverInEffect openPopUpButton popup-pricing-implement">
                 <i class="la la-question-circle"></i>

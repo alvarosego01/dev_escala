@@ -18,22 +18,17 @@
 
                             <div class="plansSection">
                                 <small class="miniTitle">
-
                                     Elige tu plan
-
                                 </small>
 
                                 <small class="miniText">
                                     Plan Pro: A partir de 5.000 contactos
                                 </small>
 
-                                <div class="box">
+                                <div class="box desktopElement_flex">
 
                                     <div class="opt">
-
-
                                         <div class="customCheckBox">
-
                                             <label class="checkboxCustom path">
                                                 <input onchange="setConfigModeSelect(this)" value="starter" id="checkStarter" name="_typePlan"
                                                     type="radio">
@@ -45,19 +40,14 @@
                                             </label>
 
                                         </div>
-
                                             <h3 class="secondaryTitle">
                                                 Plan Starter
                                             </h3>
-
-
-
 
                                     </div>
                                     <div class="opt">
 
                                         <div class="customCheckBox">
-
                                             <label class="checkboxCustom path">
                                                 <input checked onchange="setConfigModeSelect(this)" value="pro" id="checkPro" name="_typePlan" type="radio">
                                                 <svg viewBox="0 0 21 21">
@@ -68,7 +58,6 @@
                                             </label>
 
                                         </div>
-
                                             <h3 class="secondaryTitle">
                                                 Plan Pro
                                             </h3>
@@ -77,17 +66,28 @@
                                                 (30% de descuento)
                                             </small>
 
+                                    </div>
+
+                                </div>
+
+                                <div class="box mobileElement">
+
+                                    <div class="planSelector ">
+
+                                        <button type="button" onclick="selectPlanMobile(this, 'starter')"
+                                           class="selectorPlanMobile buttonSelectPlan-Mobile">
+                                            Plan Starter
+                                        </button>
+                                        <button type="button" onclick="selectPlanMobile(this, 'pro')"
+                                       class="selectorPlanMobile buttonSelectPlan-Mobile active">
+                                            Plan Pro
+                                        </button>
 
                                     </div>
 
                                 </div>
 
-
                             </div>
-
-
-
-
 
                         </div>
 
@@ -363,7 +363,7 @@
                                             Calcula el precio final
                                         </small>
 
-                                        <div class="buttonPriceSelector">
+                                        <div class="buttonPriceSelector ">
 
                                             <button type="button" onclick="typeCustomPay('monthly', this)"
                                                 id="buttonPayTime-month" class="selectorPricingButton ">
@@ -372,12 +372,15 @@
                                             <button type="button" onclick="typeCustomPay('yearly', this)"
                                                 id="buttonPayTime-year" class="selectorPricingButton active">
                                                 PAGAR ANUAL
-                                                <small>
+                                                <small class="desktopElement">
                                                     30% de descuento
                                                 </small>
                                             </button>
 
                                         </div>
+
+
+
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
