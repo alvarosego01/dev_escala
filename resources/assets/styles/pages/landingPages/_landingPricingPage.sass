@@ -88,11 +88,13 @@
                                     @include responsivo(telefonoTable)
                                         font-size: 35px!important
                                         span
-                                            font-size: 30px!important
+                                            font-size: 25px!important
+                                            line-height: 1.2
                                     @include responsivo(pcMedio)
                                         font-size: 35px!important
                                         span
-                                            font-size: 30px!important
+                                            font-size: 25px!important
+                                            line-height: 1.2
 
         .customSection.sectionParent.landingPricingPage2
             padding-top: 50px
@@ -351,6 +353,15 @@
                                                 font-size: 22px
                                             &:hover
                                                 color: $colorOrange
+
+                                            @include responsivo(telefonoTable)
+                                                i
+                                                    color: #B9E6E9
+                                                    font-size: 32px
+                                            @include responsivo(pcMedio)
+                                                i
+                                                    color: #B9E6E9
+                                                    font-size: 32px
                                         @include responsivo(telefonoTable)
                                             margin-bottom: 10px
                                         @include responsivo(pcMedio)
@@ -1412,7 +1423,7 @@
                                 margin-left: 0!important
                                 width: 100%!important
                                 text-align: center!important
-                                display: block!important
+                                display: block
                                 margin-bottom: 50px
                             .box
                                 width: 100%
@@ -1802,6 +1813,40 @@
 
                                 @include responsivo(pcMedio)
                                     flex-direction: row
+                                .planSelector
+                                    display: flex
+                                    justify-content: center
+                                    justify-items: center
+                                    align-content: center
+                                    align-items: center
+                                    button
+                                        font-family: Nunito
+                                        font-style: normal
+                                        font-weight: 400
+                                        font-size: 16px
+                                        line-height: 31px
+                                        text-align: center
+                                        letter-spacing: -1px
+                                        color: #150D27
+                                        padding: 7.5px 50px
+                                        background-color: #F3FAFD
+                                        transition: $trans
+                                        &:nth-of-type(1)
+                                            border-radius: 20px 0 0 20px
+                                        &:nth-of-type(2)
+                                            border-radius: 0 20px 20px 0
+
+                                        @include responsivo(telefonoTable)
+                                            padding: 7.5px 25px
+                                        // @include responsivo(pcMedio)
+
+
+                                    button.active
+                                        background-color: #B9E6E9
+                                        font-weight: 800
+
+
+
                                 .opt
                                     // display: none
                                     display: flex
