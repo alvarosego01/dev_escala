@@ -177,6 +177,7 @@ class SetComponents extends Controller
                 "views/template-escala-subpages-fidelizacion.blade.php",
                 "views/template-escala-subpages-ventas.blade.php",
                 "views/template-escala-subpages-marketing.blade.php",
+                "views/template-subPage-implementacion.blade.php",
                 "views/template-subPage-about-us.blade.php"
 
             );
@@ -369,7 +370,8 @@ class SetComponents extends Controller
                 "views/template-landing-servicios-educacion.blade.php",
                 "views/template-landing-servicios-finanzas.blade.php",
                 "views/template-landing-servicios-seguros.blade.php",
-                "views/template-escala-subpages-fidelizacion.blade.php"
+                "views/template-escala-subpages-fidelizacion.blade.php",
+                "views/template-subPage-implementacion.blade.php"
 
 
             );
