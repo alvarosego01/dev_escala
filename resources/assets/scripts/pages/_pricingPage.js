@@ -212,6 +212,30 @@ function typeCustomPay(type, e) {
 
 }
 
+function selectPlanMobile( element, type ) {
+
+    // checkStarter
+    // checkPro
+    jQuery('.buttonSelectPlan-Mobile').removeClass('active');
+    if( type == 'starter' ){
+
+        jQuery('#checkStarter')[0].click();
+
+        jQuery(element).addClass('active');
+
+    }
+
+    if( type == 'pro' ){
+
+        jQuery('#checkPro')[0].click();
+
+        jQuery(element).addClass('active');
+
+    }
+
+
+}
+
 function redondeaAlAlza(x,r) {
     xx = Math.floor(x/r)
     if (xx!=x/r) {xx++}
