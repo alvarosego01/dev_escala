@@ -173,8 +173,7 @@ a tus clientes
         </h2>
         <p class="primaryText grayColorTexts">
           En Escala tienes una plataforma de CRM poderosa con todas las funcionalidades <br class="desktopTabletElement">
-          que necesitas para generar más demanda, aumentar tus ventas y retener más <br class="desktopTabletElement">
-          clientes.
+          que necesitas para generar más demanda, aumentar tus ventas y retener más clientes.
         </p>
 
       </div>
@@ -1285,9 +1284,7 @@ por qué prefieren Escala
 
 <section class="customSection sectionParent homeSection10 fullWidth">
 
-
   <img  src="{!! App::setFilePath('/assets/images/overlays/overlay_stars.png') !!}"  alt="" class="backOverlay">
-
 
     <div class="section-row">
 
@@ -1319,10 +1316,6 @@ por qué prefieren Escala
       </div>
 
     </div>
-
-
-
-
 
 </section>
 

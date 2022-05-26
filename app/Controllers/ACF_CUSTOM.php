@@ -127,6 +127,14 @@ class ACF_CUSTOM extends Controller
             array(
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' => "views/template-subPage-implementacion.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
                 'value' => "views/template-escalaVentas-ventas.blade.php",
             ),
 
