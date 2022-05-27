@@ -86,11 +86,161 @@
                     </section>
                     <section class="innerSectionElement sct2">
                         <div class="containElements desktopElement">
-                            <div class="image">
+                            {{-- <div class="image">
                                 <div class="containerImage">
                                     <img alt="Escala implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/implementacion_tabla.png') !!}" alt="" loading="lazy">
                                 </div>
-                            </div>
+                            </div> --}}
+
+                            <table class="tableDesktop">
+                                <thead>
+                                  <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Objetivo</th>
+                                    <th class="center" scope="col">Entregable 1</th>
+                                    <th class="center" scope="col">Entregable 2</th>
+                                    <th class="center" scope="col">Entregable 3</th>
+                                    <th class="center" scope="col">Entregable 4</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td  scope="row">
+                                        <span class="numer">
+                                            1
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="title">
+                                            Generar <br class="space">
+                                            leads online
+                                        </span>
+                                        <br class="space">
+                                        <a href="https://academy.escala.com/plan-generacion-leads" class="example">
+                                            Ver ejemplo
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <p class="text">
+                                            Entendimiento del negocio y <br class="space">
+                                            metas de marketing con <br class="space">
+                                            Escala
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="text">
+                                            Dominios conectados y <br class="space">
+                                            formularios integrados
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="text">
+                                            Landing page creada y <br class="space">
+                                            publicada <br class="space">
+                                            Campaña de anunucis <br class="space">
+                                            creada y lanzada
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="text">
+                                            Análisis y recomendaciones <br class="space">
+                                            para optimizar leads
+                                        </p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td  scope="row">
+                                        <span class="numer">
+                                            2
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="title">
+                                            Optimizar operaciones <br class="space">
+                                            de venta o servicio
+                                        </span>
+                                        <br class="space">
+                                        <a href="https://academy.escala.com/plan-optimizacion/" class="example">
+                                            Ver ejemplo
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <p class="text">
+                                            Entendimiento del negocio y <br class="space">
+                                            metas de venta o servicio <br class="space">
+                                            con Escala
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="text">
+                                            Base de datos importada y <br class="space">
+                                            organizada
+                                            <br class="space"><br class="space">
+                                            Embudo personalizado
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="text">
+                                            Fuerza de ventas entrenada <br class="space">
+                                            y ganando oportunidades
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="text">
+                                            Análisis y recomendaciones <br class="space">
+                                            para optimizar ventas
+                                        </p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td  scope="row">
+                                        <span class="numer">
+                                            3
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="title">
+                                            Automatizar <br class="space">
+                                            Comunicaciones
+                                        </span>
+                                        <br class="space">
+                                        <a href="https://academy.escala.com/plan-automatizacion/" class="example">
+                                            Ver ejemplo
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <p class="text">
+                                            Entendimiento del negocio y <br class="space">
+                                            metas de comunicación con <br class="space">
+                                            Escala
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="text">
+                                            Cuentas de email conectadas <br class="space">
+                                            y remitentes creados
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="text">
+                                            Plantillas de email creadas
+                                            <br class="space"><br class="space">
+                                            Flujos automáticos creados y <br class="space">
+                                            habilitados
+                                        </p>
+                                    </td>
+                                    <td>
+                                        <p class="text">
+                                            Análisis y recomendaciones <br class="space">
+                                            para optimizar <br class="space">
+                                            comunicaciones
+                                        </p>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+
+
                         </div>
                         <div class="containElements mobileElement">
 
@@ -108,7 +258,7 @@
                                         </span>
                                     </h3>
 
-                                    <a href="" class="example">
+                                    <a href="https://academy.escala.com/plan-generacion-leads" class="example">
                                         Ver ejemplo
                                     </a>
 
@@ -183,7 +333,7 @@
                                         </span>
                                     </h3>
 
-                                    <a href="" class="example">
+                                    <a href="https://academy.escala.com/plan-optimizacion/" class="example">
                                         Ver ejemplo
                                     </a>
 
@@ -258,7 +408,7 @@
                                         </span>
                                     </h3>
 
-                                    <a href="" class="example">
+                                    <a href="https://academy.escala.com/plan-automatizacion/" class="example">
                                         Ver ejemplo
                                     </a>
 
@@ -396,15 +546,15 @@
                     Revisa estos ejemplos para entender qué puede <br class="desktopTabletElement">
                     contener tu plan de implementación:
                     <br class="space"><br class="space">
-                    <a href="" class="hiperButtonGreenBlue">
+                    <a href="https://academy.escala.com/plan-generacion-leads/" class="hiperButtonGreenBlue">
                         Plan de generación de leads
                     </a>
                     <br class="space"><br class="space">
-                    <a href="" class="hiperButtonGreenBlue">
+                    <a href="https://academy.escala.com/plan-optimizacion/" class="hiperButtonGreenBlue">
                         Plan de optimización
                     </a>
                     <br class="space"><br class="space">
-                    <a href="" class="hiperButtonGreenBlue">
+                    <a href="https://academy.escala.com/plan-automatizacion/" class="hiperButtonGreenBlue">
                         Plan de automatización
                     </a>
                     <br class="space"><br class="space">
@@ -674,7 +824,7 @@
                             servicios de migración, diseño de plantillas, <br class="desktopTabletElement">
                             organización de contactos y más.
                           ',
-                            'enableButton' => true,
+                            'enableButton' => false,
                             'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                             'urlButton' => '#',
                             'textButton' => 'Aprender más'
@@ -690,7 +840,7 @@
                             éxito y mejores prácticas de marketing, <br class="desktopTabletElement">
                             ventas y fidelización
                           ',
-                          'enableButton' => true,
+                          'enableButton' => false,
                             'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                             'urlButton' => '#',
                             'textButton' => 'Aprender más'
@@ -706,7 +856,7 @@
                             sugerencias para optimizarlos.
                             <br class="desktopElement"><br class="desktopElement">
                             ',
-                            'enableButton' => true,
+                            'enableButton' => false,
                             'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                             'urlButton' => '#',
                             'textButton' => 'Aprender más'
