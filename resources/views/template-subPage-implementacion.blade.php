@@ -171,6 +171,156 @@
 
                                 </div>
 
+                                <div class="fase">
+
+                                    <h3 class="secondaryTitle">
+                                        <span class="numer">
+                                            2
+                                        </span>
+                                        <span class="title">
+                                            Optimizar operaciones <br class="space">
+                                            de venta o servicio
+                                        </span>
+                                    </h3>
+
+                                    <a href="" class="example">
+                                        Ver ejemplo
+                                    </a>
+
+                                    <div class="group">
+                                        <div class="tagFase">
+                                            <span>
+                                                Fase 1
+                                            </span>
+                                        </div>
+                                        <h4 class="title">
+                                            Planificación
+                                        </h4>
+                                        <p class="text">
+                                            Entendimiento delnegocio y metas <br class="space">
+                                            de venta o servicio con Escala
+                                        </p>
+                                    </div>
+                                    <div class="group">
+                                        <div class="tagFase">
+                                            <span>
+                                                Fase 2
+                                            </span>
+                                        </div>
+                                        <h4 class="title">
+                                            Configuración
+                                        </h4>
+                                        <p class="text">
+                                            Base de datos importada y organizada. <br class="space">
+                                            Embudo personalizado.
+                                        </p>
+                                    </div>
+                                    <div class="group">
+                                        <div class="tagFase">
+                                            <span>
+                                                Fase 3
+                                            </span>
+                                        </div>
+                                        <h4 class="title">
+                                            Producción
+                                        </h4>
+                                        <p class="text">
+                                            Fuerza de venta entrenada <br class="space">
+                                            y ganando oportunidades
+                                        </p>
+                                    </div>
+                                    <div class="group">
+                                        <div class="tagFase">
+                                            <span>
+                                                Fase 4
+                                            </span>
+                                        </div>
+                                        <h4 class="title">
+                                            Optimización
+                                        </h4>
+                                        <p class="text">
+                                            Análisis y recomendaciones para <br class="space">
+                                            optimizar ventas
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                                <div class="fase">
+
+                                    <h3 class="secondaryTitle">
+                                        <span class="numer">
+                                            3
+                                        </span>
+                                        <span class="title">
+                                            Automatizar <br class="space">
+                                            comunicaciones
+                                        </span>
+                                    </h3>
+
+                                    <a href="" class="example">
+                                        Ver ejemplo
+                                    </a>
+
+                                    <div class="group">
+                                        <div class="tagFase">
+                                            <span>
+                                                Fase 1
+                                            </span>
+                                        </div>
+                                        <h4 class="title">
+                                            Planificación
+                                        </h4>
+                                        <p class="text">
+                                            Entendimiento del negocio y metas <br class="space">
+                                            de comunicación con Escala
+                                        </p>
+                                    </div>
+                                    <div class="group">
+                                        <div class="tagFase">
+                                            <span>
+                                                Fase 2
+                                            </span>
+                                        </div>
+                                        <h4 class="title">
+                                            Configuración
+                                        </h4>
+                                        <p class="text">
+                                            Cuentas de email conectadas y <br class="space">
+                                            remitentes creados
+                                        </p>
+                                    </div>
+                                    <div class="group">
+                                        <div class="tagFase">
+                                            <span>
+                                                Fase 3
+                                            </span>
+                                        </div>
+                                        <h4 class="title">
+                                            Producción
+                                        </h4>
+                                        <p class="text">
+                                            Plantillas de Email creadas. <br class="space">
+                                            Flujos automáticos creados y habilitados.
+                                        </p>
+                                    </div>
+                                    <div class="group">
+                                        <div class="tagFase">
+                                            <span>
+                                                Fase 4
+                                            </span>
+                                        </div>
+                                        <h4 class="title">
+                                            Optimización
+                                        </h4>
+                                        <p class="text">
+                                            Análisis y recomendaciones para <br class="space">
+                                            optimizar comunicaciones
+                                        </p>
+                                    </div>
+
+                                </div>
+
                             </div>
 
                         </div>
@@ -397,6 +547,104 @@
 
                 </div>
             </section>
+
+            {{-- aca testimoniales --}}
+
+            <section class="customSection sectionParent implementacionSection7">
+
+                <div class="section-row">
+
+                  <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+
+                      <h2 class="primaryTitle blackColor">
+                        <span class="greenBlueColor">En Escala el servicio</span> hace la diferencia
+                      </h2>
+
+                    </div>
+
+                  </section>
+
+                  <section class="innerSectionElement sct2">
+
+                    <div class="groupElements row">
+
+
+                      <div id="carousel-trustPilot" class="carousel slide" data-bs-ride="carousel">
+
+
+                        <div class="carousel-inner"  role="listbox">
+
+                            <div class="carousel-item active">
+                              <div class="row">
+                                <div class="testimonial ">
+
+                                  <div class="containElements">
+
+                                    <div class="referElements">
+                                      <div class="containerImage">
+
+                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/trustTest.png') !!}" alt="" loading="lazy">
+
+                                      </div>
+
+                                    </div>
+
+                                  </div>
+
+
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="row">
+                                <div class="testimonial ">
+
+                                  <div class="containElements">
+
+                                    <div class="referElements">
+                                      <div class="containerImage">
+
+                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/trustTest.png') !!}" alt="" loading="lazy">
+
+                                      </div>
+
+                                    </div>
+
+                                  </div>
+
+
+                                </div>
+                              </div>
+                            </div>
+
+
+                        </div>
+
+
+                        <ol class="carousel-indicators">
+
+                          <button type="button" data-bs-target="#carousel-trustPilot" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel-trustPilot" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          {{-- <button type="button" data-bs-target="#carousel-trustPilot" data-bs-slide-to="2" aria-label="Slide 3"></button> --}}
+
+                        </ol>
+
+
+                      </div>
+
+                    </div>
+
+
+
+                  </section>
+
+
+
+                </div>
+            </section>
+
 
             @php
                 $parameters = [
