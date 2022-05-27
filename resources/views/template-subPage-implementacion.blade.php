@@ -22,8 +22,8 @@
                                     </h1>
                                     <p class="text">
                                         Recibe la guía estratégica y técnica que <br class="space">
-                                        necesitas para impulsar el crecimiento de <br class="space">
-                                        tu negocio con Escala.
+                                        necesitas para potenciar el crecimiento de <br class="space">
+                                        tu empresa con Escala.
                                     </p>
                                 </div>
                             </div>
@@ -46,10 +46,10 @@
                     'img' => App::setFilePath('/assets/images/person/implementacion_banner_principal-1.png'),
                     'text' => '
                         En Escala te acompañaremos desde el primer día asignándote <br class="desktopTabletElement">
-                        un gerente especializado en marketing digital, ventas y <br class="desktopTabletElement">
-                        fidelización para que te guíe paso a paso.  Tu gerente diseñará <br class="desktopTabletElement">
-                        un plan personalizado para que maximices el uso de nuestra <br class="desktopTabletElement">
-                        plataforma e implementes tu estrategia exitosamente.
+                        un gerente de cuenta especializado en marketing digital, ventas <br class="desktopTabletElement">
+                        y fidelización para que te guíe a conseguir tus objetivos con <br class="desktopTabletElement">
+                        Escala.  Desarrolla un plan personalizado para aterrizar tu <br class="desktopTabletElement">
+                        estrategia e implementar exitosamente.
                     ',
                     'enableButton' => false,
                     'urlButton' => '#lead-form',
@@ -389,7 +389,7 @@
                     'subTitlePrincipal' => null,
                     'img' => App::setFilePath('/assets/images/illustrations/team/implementacion_plan.png'),
                     'title' => '
-                        <span class="greenBlueColor">¿Quieres saber qué contiene un <br class="space"></span>
+                        <span class="greenBlueColor">¿Quieres saber qué contiene un <br class="desktopTabletElement"></span>
                         plan de implementación?
                   ',
                     'text' => '
@@ -739,14 +739,15 @@
                         <div class="info">
 
                             <h3 class="primaryTitle">
-                                <span class="blueLightColor11">¿Listo para subir a bordo? <br
-                                        class="space"></span>
-                                Nuestro equipo está preparado <br class="space">
-                                para acompañarte
+                                ¿Listo para subir a bordo? <br class="space">
+                                <span class="greenBlueColor">
+                                    Nuestro equipo está preparado <br class="space">
+                                    para acompañarte
+                                </span>
                             </h3>
 
-                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                                Prueba Gratis
+                            <a class="secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                Conversar con un asesor
                             </a>
 
                         </div>
