@@ -805,14 +805,17 @@
 
 #implementacionBootstrap .sections .customSection.sectionParent.implementacionSection6
     background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
-    padding-bottom: 0
     @include responsivo(telefonoTable)
         padding-top: 0
+        padding-bottom: 0
     @include responsivo(pcMedio)
         padding-top: 50px
+        padding-bottom: 25px
     @include responsivo(general)
         padding-top: 50px
-
+        padding-bottom: 35px
+    @include responsivo(resto)
+        padding-bottom: 50px
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
