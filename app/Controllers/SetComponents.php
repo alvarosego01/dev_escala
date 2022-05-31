@@ -161,6 +161,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-zoom-demo-meeting.blade.php",
+                "views/template-zoom-demo-escala.blade.php",
                 "views/template-zoom-demo-home.blade.php",
                 "views/template-zoom-demo-home-landing.blade.php",
                 "views/template-zoom-demo-home-step1.blade.php",
@@ -248,6 +249,7 @@ class SetComponents extends Controller
                 "views/template-landing-navidad.blade.php",
                 "views/template-landing-incredible-trial-2.blade.php",
                 "views/template-landing-increibles-am-otto.blade.php",
+                "views/template-landing-home-crm-mas-expertos.blade.php",
                 "views/template-landing-allinone.blade.php",
 
             );
@@ -318,6 +320,7 @@ class SetComponents extends Controller
                 "views/template-home-2021.blade.php",
                 "views/template-landing-incredible-trial-2.blade.php",
                 "views/template-landing-increibles-am-otto.blade.php",
+                "views/template-landing-home-crm-mas-expertos.blade.php",
                 "views/template-landing-allinone.blade.php",
                 "views/template-landing-incredible.blade.php",
                 "views/template-landing-landing-pages-2022.blade.php",
@@ -352,6 +355,7 @@ class SetComponents extends Controller
                 "views/template-func-digital-announces.blade.php",
                 "views/template-escala-fex.blade.php",
                 "views/template-zoom-demo-meeting.blade.php",
+                "views/template-zoom-demo-escala.blade.php",
                 "views/template-open-webinar-escala.blade.php",
                 "views/template-open-webinar-escala-meeting.blade.php",
                 "views/template-blog-home.blade.php",

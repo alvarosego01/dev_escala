@@ -159,6 +159,14 @@ class ACF_CUSTOM extends Controller
             array(
                 'param' => 'page_template',
                 'operator' => '==',
+                'value' => "views/template-landing-home-crm-mas-expertos.blade",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
                 'value' => "views/template-landing-partners.blade.php",
             ),
 
@@ -360,6 +368,14 @@ class ACF_CUSTOM extends Controller
                 'param' => 'page_template',
                 'operator' => '==',
                 'value' => "views/template-zoom-demo-meeting.blade.php",
+            ),
+
+        ),
+        array(
+            array(
+                'param' => 'page_template',
+                'operator' => '==',
+                'value' => "views/template-zoom-demo-escala.blade.php",
             ),
 
         ),

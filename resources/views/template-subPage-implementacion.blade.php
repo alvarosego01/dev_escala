@@ -96,11 +96,35 @@
                                 <thead>
                                   <tr>
                                     <th scope="col"></th>
-                                    <th scope="col">Objetivo</th>
-                                    <th class="center" scope="col">Entregable 1</th>
-                                    <th class="center" scope="col">Entregable 2</th>
-                                    <th class="center" scope="col">Entregable 3</th>
-                                    <th class="center" scope="col">Entregable 4</th>
+                                    <th scope="col">
+                                        <span class="headerTitle">
+                                            Objetivo
+                                        </span>
+                                    </th>
+                                    <th class="center" scope="col">
+                                        <span class="headerTitle">
+                                            Fase 1 <br class="space">
+                                            Planificación
+                                        </span>
+                                    </th>
+                                    <th class="center" scope="col">
+                                        <span class="headerTitle">
+                                            Fase 2 <br class="space">
+                                            Configuración
+                                        </span>
+                                    </th>
+                                    <th class="center" scope="col">
+                                        <span class="headerTitle">
+                                            Fase 3 <br class="space">
+                                            Producción
+                                        </span>
+                                    </th>
+                                    <th class="center" scope="col">
+                                        <span class="headerTitle">
+                                            Fase 4 <br class="space">
+                                            Optimización
+                                        </span>
+                                    </th>
                                   </tr>
                                 </thead>
                                 <tbody>
@@ -137,7 +161,7 @@
                                         <p class="text">
                                             Landing page creada y <br class="space">
                                             publicada <br class="space">
-                                            Campaña de anunucis <br class="space">
+                                            Campaña de anuncios <br class="space">
                                             creada y lanzada
                                         </p>
                                     </td>
@@ -286,7 +310,7 @@
                                             Configuración
                                         </h4>
                                         <p class="text">
-                                            Dominio conectado y <br class="space">
+                                            Dominios conectados y <br class="space">
                                             formularios integrados
                                         </p>
                                     </div>
@@ -300,8 +324,8 @@
                                             Producción
                                         </h4>
                                         <p class="text">
-                                            Landing page creada y publicada. <br class="space">
-                                            Campaña de anuncios creada y lanzada.
+                                            Landing page creada y publicada <br class="space">
+                                            Campaña de anuncios creada y lanzada
                                         </p>
                                     </div>
                                     <div class="group">
@@ -347,8 +371,8 @@
                                             Planificación
                                         </h4>
                                         <p class="text">
-                                            Entendimiento delnegocio y metas <br class="space">
-                                            de venta o servicio con Escala
+                                            Entendimiento del negocio y metas <br class="space">
+de venta o servicio con Escala
                                         </p>
                                     </div>
                                     <div class="group">
@@ -362,7 +386,7 @@
                                         </h4>
                                         <p class="text">
                                             Base de datos importada y organizada. <br class="space">
-                                            Embudo personalizado.
+Embudo personalizado
                                         </p>
                                     </div>
                                     <div class="group">
@@ -375,8 +399,8 @@
                                             Producción
                                         </h4>
                                         <p class="text">
-                                            Fuerza de venta entrenada <br class="space">
-                                            y ganando oportunidades
+                                            Fuerza de ventas entrenada <br class="space">
+y ganando oportunidades
                                         </p>
                                     </div>
                                     <div class="group">
@@ -389,8 +413,8 @@
                                             Optimización
                                         </h4>
                                         <p class="text">
-                                            Análisis y recomendaciones para <br class="space">
-                                            optimizar ventas
+                                            Análisis y recomendaciones <br class="space">
+para optimizar ventas
                                         </p>
                                     </div>
 
@@ -404,7 +428,7 @@
                                         </span>
                                         <span class="title">
                                             Automatizar <br class="space">
-                                            comunicaciones
+comunicaciones
                                         </span>
                                     </h3>
 
@@ -423,7 +447,7 @@
                                         </h4>
                                         <p class="text">
                                             Entendimiento del negocio y metas <br class="space">
-                                            de comunicación con Escala
+de comunicación con Escala
                                         </p>
                                     </div>
                                     <div class="group">
@@ -437,7 +461,7 @@
                                         </h4>
                                         <p class="text">
                                             Cuentas de email conectadas y <br class="space">
-                                            remitentes creados
+remitentes creados
                                         </p>
                                     </div>
                                     <div class="group">
@@ -451,7 +475,7 @@
                                         </h4>
                                         <p class="text">
                                             Plantillas de Email creadas. <br class="space">
-                                            Flujos automáticos creados y habilitados.
+Flujos automáticos creados y habilitados.
                                         </p>
                                     </div>
                                     <div class="group">
@@ -465,7 +489,7 @@
                                         </h4>
                                         <p class="text">
                                             Análisis y recomendaciones para <br class="space">
-                                            optimizar comunicaciones
+optimizar comunicaciones
                                         </p>
                                     </div>
 
