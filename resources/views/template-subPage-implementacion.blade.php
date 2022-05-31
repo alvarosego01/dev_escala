@@ -71,9 +71,10 @@
                                 <span class="greenBlueColor">4 Fases que culminas a tu ritmo</span>
                             </h2>
                             <p class="primaryText grayColorTexts desktopElement">
-                                Una vez priorices tu objetivo y definas “éxito”, tu gerente te apoya a definir un cronograma de acciones que tú y tu equipo necesitan implementar <br class="desktopTabletElement">
-                                en la plataforma para lograr sus metas. Durante el proceso, tienes hasta 8 horas de sesiones privadas con tu gerente que programas según lo <br class="desktopTabletElement">
-                                necesiten para asegurarse que estén progresando y utilizando las herramientas efectivamente.
+                                Una vez priorices tu objetivo y definas tus KPIs para medir tu éxito, tu gerente te apoya a definir un cronograma de acciones que<br class="desktopTabletElement">
+                                tú y tu equipo necesitan implementar en la plataforma para lograr sus metas. Durante el proceso, tienes hasta 8 horas de sesiones<br class="desktopTabletElement">
+                                privadas con tu gerente que programas según lo necesiten para asegurarse que estén progresando y utilizando las<br class="desktopTabletElement">
+                                herramientas efectivamente.
                             </p>
                             <p class="primaryText grayColorTexts mobileElement">
                                 Una vez hayas acordado tu plan con Escala, tu <br class="mobileElement">
