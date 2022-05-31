@@ -71,17 +71,21 @@
                                 <span class="greenBlueColor">4 Fases que culminas a tu ritmo</span>
                             </h2>
                             <p class="primaryText grayColorTexts desktopElement">
-                                Una vez priorices tu objetivo y definas tus KPIs para medir tu éxito, tu gerente te apoya a definir un cronograma de acciones que<br class="desktopTabletElement">
-                                tú y tu equipo necesitan implementar en la plataforma para lograr sus metas. Durante el proceso, tienes hasta 8 horas de sesiones<br class="desktopTabletElement">
-                                privadas con tu gerente que programas según lo necesiten para asegurarse que estén progresando y utilizando las<br class="desktopTabletElement">
-                                herramientas efectivamente.
+                                Una vez priorices tu objetivo y definas los KPI’s para medir tu “éxito”, tu gerente te apoya a definir un cronograma de acciones que tú y tu equipo <br class="desktopTabletElement">
+                                necesitan implementar en la plataforma para lograr sus metas. Durante el proceso, tienes hasta 8 horas de sesiones privadas con tu gerente que <br class="desktopTabletElement">
+                                programas según lo necesiten para asegurarse que estén progresando y utilizando las herramientas efectivamente.
+
                             </p>
                             <p class="primaryText grayColorTexts mobileElement">
-                                Una vez hayas acordado tu plan con Escala, tu <br class="mobileElement">
-                                gerente de cuenta asigna tareas al responsable de <br class="mobileElement">
-                                tu equipo por fase y los apoya a implementar <br class="mobileElement">
-                                acciones en la plataforma de ser necesario. Tienes <br class="mobileElement">
-                                hasta 8 horas de sesiones en vivo con tu gerente.
+                                Una vez priorices tu objetivo y definas los KPI’s <br class="mobileElement">
+                                para medir tu “éxito”, tu gerente te apoya a <br class="mobileElement">
+                                definir un cronograma de acciones que tú y tu <br class="mobileElement">
+                                equipo necesitan implementar en la plataforma <br class="mobileElement">
+                                para lograr sus metas. Durante el proceso, <br class="mobileElement">
+                                tienes hasta 8 horas de sesiones privadas con <br class="mobileElement">
+                                tu gerente que programas según lo necesiten <br class="mobileElement">
+                                para asegurarse que estén progresando y <br class="mobileElement">
+                                utilizando las herramientas efectivamente.
                             </p>
                         </div>
                     </section>
@@ -511,7 +515,7 @@ optimizar comunicaciones
                             </p>
 
                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                                Prueba Gratis
+                                ¡Prueba Escala gratis!
                             </a>
                         </div>
                     </section>
@@ -555,7 +559,7 @@ optimizar comunicaciones
             @contain_text_image_T1($parameters)
             @endcontain_text_image_T1
 
-            @php
+            {{-- @php
                 $parameters = [
                     'type' => 'backgroundColor',
                     'classSection' => 'implementacionSection4',
@@ -595,7 +599,7 @@ optimizar comunicaciones
             @endphp
 
             @contain_text_image_T1($parameters)
-            @endcontain_text_image_T1
+            @endcontain_text_image_T1 --}}
 
             @php
                 $parameters = [
@@ -620,7 +624,7 @@ optimizar comunicaciones
                     'urlButton' => '#lead-form',
                     'textButton' => 'Prueba Gratis',
                     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-                    'side' => 'right',
+                    'side' => 'left',
                 ];
             @endphp
 
@@ -969,7 +973,7 @@ optimizar comunicaciones
                             </h3>
 
                             <a class="secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Conversar con un asesor
+                                Recibe Demo gratis
                             </a>
 
                         </div>

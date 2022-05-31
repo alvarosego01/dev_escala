@@ -805,6 +805,10 @@
                     display: flex
                     flex-direction: column
                 .image
+                    @include responsivo(telefonoTable)
+                        margin-bottom: 15px
+                    @include responsivo(pcMedio)
+                        margin-bottom: 15px
                     .containerImage
                         margin-bottom: 0
                         padding-bottom: 0

@@ -49,9 +49,10 @@
      Escalar con éxito
     ',
      'text' => '<span class="whiteColor">
-        La plataforma todo-en-uno de marketing, <br class="space">
-        ventas y fidelización con acompañamiento en <br class="space">
-        vivo para impulsar el crecimiento de tu empresa
+        La plataforma CRM todo-en-uno con <br class="space">
+        acompañamiento en vivo  de especialistas <br class="space">
+        en marketing, ventas y fidelización para <br class="space">
+        impulsar el crecimiento de tu empresa
       </span>
       ',
      'threeCol' => true,
