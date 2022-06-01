@@ -55,8 +55,7 @@ $agendar = ACF_CUSTOM::_getField('program_date');
                         <div class="containElements">
 
                             <h1 class="principalBigTitle blackColor">
-
-                                Conversa con un asesor Escala <br class="space">
+                                Conversa con un asesor de Escala <br class="space">
                                 <span class="greenBlueColor">
                                     Elige cuándo quieres recibir una <br class="desktopTabletElement">
                                     demostración gratis
