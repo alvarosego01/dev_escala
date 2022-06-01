@@ -800,12 +800,9 @@ Nuestros clientes te dicen <br class="space">
 por qué prefieren Escala
           </h2>
 
-
         </section>
 
         <section class="innerSectionElement2">
-
-
 
                       <div id="carousel-trustPilot-mob" class=" carousel slide mobileElement" data-bs-ride="carousel">
 
@@ -1024,8 +1021,6 @@ por qué prefieren Escala
 
                       </div>
 
-
-
                       <div id="carousel-trustPilot-desktop" class="carousel slide desktopElement" data-bs-ride="carousel">
 
 
@@ -1209,8 +1204,6 @@ por qué prefieren Escala
                       </div>
 
 
-
-
         </section>
 
         <section class="innerSectionElement3">
@@ -1224,7 +1217,6 @@ por qué prefieren Escala
             <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
               Prueba Gratis
             </a>
-
 
           </div>
 
