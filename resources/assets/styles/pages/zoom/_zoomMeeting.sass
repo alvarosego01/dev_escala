@@ -7,6 +7,7 @@
     padding-bottom: 350px
     background-color: $colorBlueLight
     position: relative
+    overflow: hidden
 
     h1,
     h2,
@@ -67,7 +68,7 @@
                 .innerSectionElement
                     .containElements
                         .principalBigTitle
-                            font-size: 48
+                            font-size: 48px
                             line-height: 0.9
                             font-weight: 700!important
                             font-family: Nunito
@@ -75,6 +76,8 @@
                             text-align: center
                             span.greenBlueColor
                                 font-size: 38px
+                                position: relative
+                                top: 5px
                             @include responsivo(telefonoTable)
                                 font-size: 27.5px
                                 span.greenBlueColor
