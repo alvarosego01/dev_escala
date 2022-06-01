@@ -58,8 +58,8 @@ $agendar = ACF_CUSTOM::_getField('program_date');
 
                                 Conversa con un asesor Escala <br class="space">
                                 <span class="greenBlueColor">
-                                    Agenda una demostración gratis <br class="desktopTabletElement">
-                                    para responder tus preguntas
+                                    Elige cuándo quieres recibir una <br class="desktopTabletElement">
+                                    demostración gratis
                                 </span>
 
                             </h1>
