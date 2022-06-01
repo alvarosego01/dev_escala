@@ -1486,12 +1486,12 @@ class ACF_CUSTOM extends Controller
                         ]
                     ),
 
-                    array(
-                        'key' => 'pie_pagina_logo_3c_3c',
-                        'label' => 'Imagen columna 3',
-                        'name' => 'Imagen columna 3',
-                        'type' => 'image',
-                    ),
+                    // array(
+                    //     'key' => 'pie_pagina_logo_3c_3c',
+                    //     'label' => 'Imagen columna 3',
+                    //     'name' => 'Imagen columna 3',
+                    //     'type' => 'image',
+                    // ),
 
                 ),
                 'location' => array(

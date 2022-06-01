@@ -97,7 +97,7 @@
                     padding-left: 0
                     padding-right: 0
                     @include responsivo(telefonoTable)
-                        margin-bottom: 10px!important
+                        margin-bottom: 15px!important
                     img
                         margin-left: 0
                         height: 60px
@@ -125,6 +125,22 @@
                         margin-left: 0
                         @include responsivo(telefonoTable)
                             margin: auto
+                        @include responsivo(telefonoTable)
+                            height: 150px
+                        @include responsivo(pcMedio)
+                            height: 125px
+
+                .containerImage.logoTrustPilot.desktop
+                    @include responsivo(telefonoTable)
+                        display: none
+
+                .containerImage.logoTrustPilot.mobi
+                    @include responsivo(pcMedio)
+                        display: none
+                    @include responsivo(general)
+                        display: none
+                    @include responsivo(resto)
+                        display: none
 
                 .menuContainer
                     h3.titleMenu
@@ -154,6 +170,13 @@
                             @include responsivo(telefonoTable)
                                 display: flex
                                 width: 100%
+                                margin-bottom: 20px
+                            @include responsivo(pcMedio)
+                                margin-bottom: 15px
+                            @include responsivo(general)
+                                margin-bottom: 12.5px
+                            @include responsivo(resto)
+                                margin-bottom: 12.5px
                             a
                                 font-size: 15px
                                 font-family: Nunito
@@ -211,6 +234,14 @@
                 ul.menu
                     li
                         margin-bottom: 10px
+                        @include responsivo(telefonoTable)
+                            margin-bottom: 20px
+                        @include responsivo(pcMedio)
+                            margin-bottom: 15px
+                        @include responsivo(general)
+                            margin-bottom: 2.5px
+                        @include responsivo(resto)
+                            margin-bottom: 2.5px
             .columnItem.c2
                 &::after
                     @include responsivo(general)
