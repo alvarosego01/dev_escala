@@ -100,7 +100,7 @@ empresas hispanas a alcanzar el éxito.
 <div class="specialButton">
   <img src="'. App::setFilePath('/assets/images/illustrations/otto/ottoHomeButton.png') .'" >
 
-  <a href="">
+  <a href="#" class=" openPopUpButton popup-general-trial-2022">
     Solicita tu Prueba Gratis
   </a>
 
