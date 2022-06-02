@@ -151,7 +151,7 @@
                     @endif
 
 
-                    @php
+                    {{-- @php
                         $pie_pagina_logo_3c_3c = ACF_CUSTOM::_getField('pie_pagina_logo_3c_3c', $footerTemplate_id);
                     @endphp
                     @if (isset($pie_pagina_logo_3c_3c) && $pie_pagina_logo_3c_3c != null)
@@ -164,7 +164,21 @@
                             <img src="{{ $i }}">
 
                         </div>
-                    @endif
+                    @endif --}}
+
+                    <div class="containerImage logoTrustPilot desktop">
+
+
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust-stars.png') !!}">
+
+                    </div>
+
+                    <div class="containerImage logoTrustPilot mobi">
+
+
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust-stars-mobile.png') !!}">
+
+                    </div>
 
 
 

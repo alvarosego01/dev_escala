@@ -2,10 +2,11 @@
 
 
 
-footer#bootstrap_PiePagina.custom_PiePagina.bootstrap_PiePagina.principal_PiePagina1
+#bootstrap_PiePagina.custom_PiePagina.bootstrap_PiePagina.principal_PiePagina1
     background-color: #322c2e
     padding: 35px 0
     padding-bottom: 25px
+    display: block
     @include responsivo(telefonoTable)
         padding-top: 25px
         padding-bottom: 35px
@@ -93,8 +94,10 @@ footer#bootstrap_PiePagina.custom_PiePagina.bootstrap_PiePagina.principal_PiePag
 
                 .logoPiePagina
                     margin-bottom: 17.5px
+                    padding-left: 0
+                    padding-right: 0
                     @include responsivo(telefonoTable)
-                        margin-bottom: 10px!important
+                        margin-bottom: 15px!important
                     img
                         margin-left: 0
                         height: 60px
@@ -122,6 +125,22 @@ footer#bootstrap_PiePagina.custom_PiePagina.bootstrap_PiePagina.principal_PiePag
                         margin-left: 0
                         @include responsivo(telefonoTable)
                             margin: auto
+                        @include responsivo(telefonoTable)
+                            height: 150px
+                        @include responsivo(pcMedio)
+                            height: 125px
+
+                .containerImage.logoTrustPilot.desktop
+                    @include responsivo(telefonoTable)
+                        display: none
+
+                .containerImage.logoTrustPilot.mobi
+                    @include responsivo(pcMedio)
+                        display: none
+                    @include responsivo(general)
+                        display: none
+                    @include responsivo(resto)
+                        display: none
 
                 .menuContainer
                     h3.titleMenu
@@ -151,6 +170,13 @@ footer#bootstrap_PiePagina.custom_PiePagina.bootstrap_PiePagina.principal_PiePag
                             @include responsivo(telefonoTable)
                                 display: flex
                                 width: 100%
+                                margin-bottom: 20px
+                            @include responsivo(pcMedio)
+                                margin-bottom: 15px
+                            @include responsivo(general)
+                                margin-bottom: 12.5px
+                            @include responsivo(resto)
+                                margin-bottom: 12.5px
                             a
                                 font-size: 15px
                                 font-family: Nunito
@@ -208,6 +234,14 @@ footer#bootstrap_PiePagina.custom_PiePagina.bootstrap_PiePagina.principal_PiePag
                 ul.menu
                     li
                         margin-bottom: 10px
+                        @include responsivo(telefonoTable)
+                            margin-bottom: 20px
+                        @include responsivo(pcMedio)
+                            margin-bottom: 15px
+                        @include responsivo(general)
+                            margin-bottom: 2.5px
+                        @include responsivo(resto)
+                            margin-bottom: 2.5px
             .columnItem.c2
                 &::after
                     @include responsivo(general)
