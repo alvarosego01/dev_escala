@@ -58,7 +58,7 @@ $agendar = ACF_CUSTOM::_getField('program_date');
                                 Conversa con un asesor de Escala <br class="space">
                                 <span class="greenBlueColor">
                                     Elige cuándo quieres recibir una <br class="desktopTabletElement">
-                                    demostración gratis
+                                    demostración
                                 </span>
 
                             </h1>
@@ -165,7 +165,7 @@ $agendar = ACF_CUSTOM::_getField('program_date');
 
                             <div class="subContain">
                                 <a class="whatsappButton" target="_blank"
-                                    href="https://api.whatsapp.com/send?phone=17863042407">
+                                    href="https://api.whatsapp.com/send?phone=+17863042407&text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20demostraci%C3%B3n%20de%20Escala">
                                     <img class="whatsapp-icon"
                                         src="https://cdn.escala.com/wp-content/uploads/2021/02/whatsapp-arcos-mountain.svg">
                                     Chat por WhatsApp
