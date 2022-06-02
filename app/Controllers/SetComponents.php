@@ -250,6 +250,7 @@ class SetComponents extends Controller
                 "views/template-landing-incredible-trial-2.blade.php",
                 "views/template-landing-increibles-am-otto.blade.php",
                 "views/template-landing-home-crm-mas-expertos.blade.php",
+                "views/template-landing-home-crm-todo-en-uno.blade.php",
                 "views/template-landing-allinone.blade.php",
 
             );
@@ -321,6 +322,7 @@ class SetComponents extends Controller
                 "views/template-landing-incredible-trial-2.blade.php",
                 "views/template-landing-increibles-am-otto.blade.php",
                 "views/template-landing-home-crm-mas-expertos.blade.php",
+                "views/template-landing-home-crm-todo-en-uno.blade.php",
                 "views/template-landing-allinone.blade.php",
                 "views/template-landing-incredible.blade.php",
                 "views/template-landing-landing-pages-2022.blade.php",

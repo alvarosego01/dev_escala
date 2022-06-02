@@ -229,7 +229,7 @@
                                     <td>
                                         <span class="title">
                                             Automatizar <br class="space">
-                                            Comunicaciones
+                                            comunicaciones
                                         </span>
                                         <br class="space">
                                         <a href="https://academy.escala.com/plan-automatizacion/" class="example">
