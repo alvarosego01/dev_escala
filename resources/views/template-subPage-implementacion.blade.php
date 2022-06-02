@@ -77,15 +77,14 @@
 
                             </p>
                             <p class="primaryText grayColorTexts mobileElement">
-                                Una vez priorices tu objetivo y definas los KPI’s <br class="mobileElement">
-                                para medir tu “éxito”, tu gerente te apoya a <br class="mobileElement">
-                                definir un cronograma de acciones que tú y tu <br class="mobileElement">
-                                equipo necesitan implementar en la plataforma <br class="mobileElement">
-                                para lograr sus metas. Durante el proceso, <br class="mobileElement">
-                                tienes hasta 8 horas de sesiones privadas con <br class="mobileElement">
-                                tu gerente que programas según lo necesiten <br class="mobileElement">
-                                para asegurarse que estén progresando y <br class="mobileElement">
-                                utilizando las herramientas efectivamente.
+                                Una vez priorices tu objetivo y definas los KPI’s <br class="tabletElement">
+                                para medir tu “éxito”, tu gerente te apoyará a <br class="tabletElement">
+                                definir un cronograma de acciones para que tú y tu <br class="tabletElement">
+                                equipo puedan implementar su estrategia, logrando <br class="tabletElement">
+                                sus metas. Durante el proceso, tienes hasta 8 horas <br class="tabletElement">
+                                de sesiones privadas con tu gerente para que programes <br class="tabletElement">
+                                según tus necesidades, asegurandote maximizar el uso de <br class="tabletElement">
+                                nuestras herramientas.
                             </p>
                         </div>
                     </section>
@@ -514,9 +513,9 @@ optimizar comunicaciones
                                 y desarrollen habilidades que los conviertan en Escala Pros <br class="desktopTabletElement">
                             </p>
 
-                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                            {{-- <a class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                                 ¡Prueba Escala gratis!
-                            </a>
+                            </a> --}}
                         </div>
                     </section>
                 </div>
