@@ -95,7 +95,7 @@
   'text' => '
 Escala es la Plataforma de CRM todo-en-uno creada por <br class="desktopTabletElement">
 expertos de marketing, ventas y fidelización para ayudar a las <br class="desktopTabletElement">
-empresas hispanas a alcanzar el éxito.
+empresas de habla hispana a alcanzar el éxito.
 
 <div class="specialButton">
   <img src="'. App::setFilePath('/assets/images/illustrations/otto/ottoHomeButton.png') .'" >
