@@ -48,7 +48,7 @@
                         En Escala te acompañaremos desde el primer día asignándote <br class="desktopTabletElement">
                         un gerente de cuenta especializado en marketing digital, ventas <br class="desktopTabletElement">
                         y fidelización para que te guíe a conseguir tus objetivos con <br class="desktopTabletElement">
-                        Escala.  Desarrolla un plan personalizado para aterrizar tu <br class="desktopTabletElement">
+                        nuestra plataforma. Desarrolla un plan personalizado para aterrizar tu <br class="desktopTabletElement">
                         estrategia e implementar exitosamente.
                     ',
                     'enableButton' => false,
@@ -71,9 +71,9 @@
                                 <span class="greenBlueColor">4 Fases que culminas a tu ritmo</span>
                             </h2>
                             <p class="primaryText grayColorTexts desktopElement">
-                                Una vez priorices tu objetivo y definas los KPI’s para medir tu “éxito”, tu gerente te apoya a definir un cronograma de acciones que tú y tu equipo <br class="desktopTabletElement">
-                                necesitan implementar en la plataforma para lograr sus metas. Durante el proceso, tienes hasta 8 horas de sesiones privadas con tu gerente que <br class="desktopTabletElement">
-                                programas según lo necesiten para asegurarse que estén progresando y utilizando las herramientas efectivamente.
+                                Una vez priorices tu objetivo y definas los KPI’s para medir tu “éxito”, tu gerente te apoyará a definir un cronograma de acciones para que tú y tu equipo <br class="desktopTabletElement">
+                                puedan implementar su estrategia, logrando sus metas. Durante el proceso, tienes hasta 8 horas de sesiones privadas con tu gerente para que <br class="desktopTabletElement">
+                                programes según tus necesidades, asegurandote maximizar el uso de nuestras herramientas.
 
                             </p>
                             <p class="primaryText grayColorTexts mobileElement">
@@ -616,9 +616,9 @@ optimizar comunicaciones
                     'text' => '
                 Experto en Escala y cómo utilizar la plataforma para generar demanda, <br class="desktopTabletElement">
                 vender y fidelizar clientes – tu gerente de cuentas es un guía estratégico <br class="desktopTabletElement">
-                y de proyecto que simplifica la implementación, acelera su aprendizaje, <br class="desktopTabletElement">
-                motiva su progreso y vela porque usen efectivamente las herramientas <br class="desktopTabletElement">
-                para impulsar el crecimiento de su negocio.
+                y de proyecto que simplifica la implementación, acelera tu aprendizaje, <br class="desktopTabletElement">
+                motiva tu progreso y vela porque se usen efectivamente las herramientas <br class="desktopTabletElement">
+                para impulsar el crecimiento de tu negocio.
             ',
                     'enableButton' => false,
                     'urlButton' => '#lead-form',
