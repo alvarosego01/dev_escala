@@ -193,7 +193,7 @@ $items = [
                 Implementación personalizada: <br class="mobileElement">
                 <strong>Pago único 450 USD</strong>
             </small>
-            <button class=" hoverClick hoverInEffect openPopUpButton popup-pricing-implement">
+            <button class=" hoverInEffect openPopUpButton popup-pricing-implement">
                 <i class="la la-question-circle"></i>
             </button>
         </span>

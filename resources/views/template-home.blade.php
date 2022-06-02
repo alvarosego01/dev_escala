@@ -39,26 +39,29 @@
 
 @endheader_t1 --}}
 
-@php
+
+    @php
     $parameters = array(
      'backgroundImageType' => false,
      'overlay' => false,
      'classSection' => 'threeCol homeSection0 newHome',
      'title' => '
-     <span style="color: #B9E6E9" >CRM + Expertos =</span> <br class="space">
-     Escalar con éxito
+     <span class="bold" style="color: #B9E6E9" >CRM + Expertos =</span> <br class="space">
+      <span style="color: #FAD872">
+        Escalar con éxito
+      </span>
     ',
      'text' => '<span class="whiteColor">
-        La plataforma todo-en-uno de marketing, <br class="space">
-        ventas y fidelización con acompañamiento en <br class="space">
-        vivo para impulsar el crecimiento de tu empresa
+        La plataforma CRM todo-en-uno con acompañamiento <br class="space">
+        en vivo de especialistas para impulsar el crecimiento de <br class="space">
+        tu empresa.
       </span>
       ',
      'threeCol' => true,
      'textForm' => 'Empieza a probar Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/person/home_hombre_silla-chat_flip-2a.png'),
+  'image' => App::setFilePath('/assets/images/person/landing_home_latin.png'),
     ) ;
     @endphp
 
@@ -77,16 +80,31 @@
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
   'title' => '
-Descubre todo lo que puedes <br class="space">
-lograr con Escala
+    “Es la plataforma que me hubiese gustado <br class="space">
+    tener cuando comencé, tiene todas las <br class="space">
+    herramientas en un solo lugar”
+    <br class="space"><br class="space">
+    <small>
+      Andrés Moreno, Fundador de Escala y Open English
+    </small>
+
 ',
 'typeVideo' =>  'localvideo',
   'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
   'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
   'text' => '
-Escala fue creada por Andrés Moreno y un equipo <br class="desktopTabletElement">
-de expertos en marketing digital y ventas y es la <br class="desktopTabletElement">
-herramienta preferida de la empresas hispanas.
+Escala es la Plataforma de CRM todo-en-uno creada por <br class="desktopTabletElement">
+expertos de marketing, ventas y fidelización para ayudar a las <br class="desktopTabletElement">
+empresas hispanas a alcanzar el éxito.
+
+<div class="specialButton">
+  <img src="'. App::setFilePath('/assets/images/illustrations/otto/ottoHomeButton.png') .'" >
+
+  <a href="">
+    Solicita tu Prueba Gratis
+  </a>
+
+  </div>
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',

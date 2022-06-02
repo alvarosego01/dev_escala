@@ -899,7 +899,7 @@ optimizar comunicaciones
                             'textButton' => 'Aprender más'
                         ],
                         [
-                            'img' => App::setFilePath('/assets/images/illustrations/others/implementacion-servicios-3.png'),
+                            'img' => App::setFilePath('/assets/images/illustrations/others/ajedrez.png'),
                             'title' => '
                             Consultoría
                           ',
@@ -950,7 +950,7 @@ optimizar comunicaciones
                             </h3>
 
                             <a class="secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Recibe Demo gratis
+                                Solicitar Demo
                             </a>
 
                         </div>
