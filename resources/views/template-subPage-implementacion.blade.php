@@ -73,7 +73,7 @@
                             <p class="primaryText grayColorTexts desktopElement">
                                 Una vez priorices tu objetivo y definas los KPI’s para medir tu “éxito”, tu gerente te apoyará a definir un cronograma de acciones para que tú y tu equipo <br class="desktopTabletElement">
                                 puedan implementar su estrategia, logrando sus metas. Durante el proceso, tienes hasta 8 horas de sesiones privadas con tu gerente para que <br class="desktopTabletElement">
-                                programes según tus necesidades, asegurandote maximizar el uso de nuestras herramientas.
+                                programes según tus necesidades, asegurándote maximizar el uso de nuestras herramientas.
 
                             </p>
                             <p class="primaryText grayColorTexts mobileElement">
@@ -83,7 +83,7 @@
                                 equipo puedan implementar su estrategia, logrando <br class="tabletElement">
                                 sus metas. Durante el proceso, tienes hasta 8 horas <br class="tabletElement">
                                 de sesiones privadas con tu gerente para que programes <br class="tabletElement">
-                                según tus necesidades, asegurandote maximizar el uso de <br class="tabletElement">
+                                según tus necesidades, asegurándote maximizar el uso de <br class="tabletElement">
                                 nuestras herramientas.
                             </p>
                         </div>
@@ -479,7 +479,7 @@ remitentes creados
                                         </h4>
                                         <p class="text">
                                             Plantillas de Email creadas. <br class="space">
-Flujos automáticos creados y habilitados.
+Flujos automáticos creados y habilitados
                                         </p>
                                     </div>
                                     <div class="group">
@@ -689,7 +689,7 @@ optimizar comunicaciones
                                 </h3>
                                 <p class="text">
                                     Cuenta con una librería de capacitaciones <br class="desktopTabletElement">
-                                    grabadas, más de 140 artículos y <br class="desktopTabletElement">
+                                    grabadas, más de cien artículos y <br class="desktopTabletElement">
                                     videotutoriales para aprender a tu ritmo.
                                 </p>
                             </div>
@@ -856,9 +856,9 @@ optimizar comunicaciones
                     'titlePrincipal' => '
                         <span class="greenBlueColor">
                             ¿Necesitas más horas de acompañamiento <br class="space">
-                            durante o después del Onboarding? <br class="space">
+                            durante o después del onboarding? <br class="space">
                         </span>
-                        Adquiere Servicios profesionales
+                        Adquiere servicios profesionales
                     ',
                     'subTitlePrincipal' => null,
                     'overlay' => true,
@@ -890,7 +890,7 @@ optimizar comunicaciones
                             Brindamos entrenamiento especializado a tu <br class="desktopTabletElement">
                             equipo en la plataforma, nuestra Filosofía de <br class="desktopTabletElement">
                             éxito y mejores prácticas de marketing, <br class="desktopTabletElement">
-                            ventas y fidelización
+                            ventas y fidelización.
                           ',
                           'enableButton' => false,
                             'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
