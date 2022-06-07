@@ -9,7 +9,7 @@ const browserSync = require('browser-sync').create(),
   sourcemaps = require('gulp-sourcemaps'),
   csso = require('gulp-csso'),
   pump = require('pump'),
-  uglify = require('gulp-uglify'),
+  // uglify = require('gulp-uglify'),
   concat = require('gulp-concat'),
   plumber = require('gulp-plumber'),
   scp = require('gulp-scp2'),
@@ -108,7 +108,7 @@ gulp.task('js', () => {
         this.emit('end');
       }
     ))
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(gulp.dest('./dist/scripts/'))
     .pipe(browserSync.stream());
 });
@@ -117,7 +117,7 @@ gulp.task('jsGeneral', (cb) => {
   pump([
     gulp.src('./resources/assets/scripts/**/*.js'),
     // concat('funciones.js'),
-    uglify(),
+    // uglify(),
     gulp.dest('./dist/scripts/')
   ],
     cb
