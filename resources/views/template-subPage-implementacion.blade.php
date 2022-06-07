@@ -144,7 +144,7 @@
                                             leads online
                                         </span>
                                         <br class="space">
-                                        <a href="https://academy.escala.com/plan-generacion-leads" class="example">
+                                        <a target="_blank" href="https://academy.escala.com/plan-generacion-leads" class="example">
                                             Ver ejemplo
                                         </a>
                                     </td>
@@ -188,7 +188,7 @@
                                             de venta o servicio
                                         </span>
                                         <br class="space">
-                                        <a href="https://academy.escala.com/plan-optimizacion/" class="example">
+                                        <a target="_blank" href="https://academy.escala.com/plan-optimizacion/" class="example">
                                             Ver ejemplo
                                         </a>
                                     </td>
@@ -232,7 +232,7 @@
                                             comunicaciones
                                         </span>
                                         <br class="space">
-                                        <a href="https://academy.escala.com/plan-automatizacion/" class="example">
+                                        <a target="_blank" href="https://academy.escala.com/plan-automatizacion/" class="example">
                                             Ver ejemplo
                                         </a>
                                     </td>
@@ -286,7 +286,7 @@
                                         </span>
                                     </h3>
 
-                                    <a href="https://academy.escala.com/plan-generacion-leads" class="example">
+                                    <a target="_blank" href="https://academy.escala.com/plan-generacion-leads" class="example">
                                         Ver ejemplo
                                     </a>
 
@@ -361,7 +361,7 @@
                                         </span>
                                     </h3>
 
-                                    <a href="https://academy.escala.com/plan-optimizacion/" class="example">
+                                    <a target="_blank" href="https://academy.escala.com/plan-optimizacion/" class="example">
                                         Ver ejemplo
                                     </a>
 
@@ -436,7 +436,7 @@ comunicaciones
                                         </span>
                                     </h3>
 
-                                    <a href="https://academy.escala.com/plan-automatizacion/" class="example">
+                                    <a target="_blank" href="https://academy.escala.com/plan-automatizacion/" class="example">
                                         Ver ejemplo
                                     </a>
 
@@ -574,15 +574,15 @@ optimizar comunicaciones
                     Revisa estos ejemplos para entender qué puede <br class="desktopTabletElement">
                     contener tu plan de implementación:
                     <br class="space"><br class="space">
-                    <a href="https://academy.escala.com/plan-generacion-leads/" class="hiperButtonGreenBlue">
+                    <a target="_blank" href="https://academy.escala.com/plan-generacion-leads/" class="hiperButtonGreenBlue">
                         Plan de generación de leads
                     </a>
                     <br class="space"><br class="space">
-                    <a href="https://academy.escala.com/plan-optimizacion/" class="hiperButtonGreenBlue">
+                    <a target="_blank" href="https://academy.escala.com/plan-optimizacion/" class="hiperButtonGreenBlue">
                         Plan de optimización
                     </a>
                     <br class="space"><br class="space">
-                    <a href="https://academy.escala.com/plan-automatizacion/" class="hiperButtonGreenBlue">
+                    <a target="_blank" href="https://academy.escala.com/plan-automatizacion/" class="hiperButtonGreenBlue">
                         Plan de automatización
                     </a>
                     <br class="space"><br class="space">
