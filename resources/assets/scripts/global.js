@@ -459,6 +459,18 @@ jQuery('.pill-button-selection').on('click', function() {
 }
 
 
+function preventResetForms(){
+
+
+    jQuery(document).on('reset', 'form.wpcf7-form', function(e) {
+        e.preventDefault();
+
+        console.log('dispara reset form');
+    });
+
+}
+
+preventResetForms();
 
 jQuery(document).ready(function () {
 
