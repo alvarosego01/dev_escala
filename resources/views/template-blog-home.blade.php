@@ -5,77 +5,43 @@
 --}}
 
 
-
 @extends('layouts.app')
 
 @section('content')
 
-
     <div id="blog-home-bootstrap">
-
 
         <div class="sections">
 
-            @header_t1
 
-            @slot('backgroundImageType')
-                true
-            @endslot
-
-            @slot('overlay')
-                true
-            @endslot
-
-            @slot('classSection')
-                threeCol func blogHome0
-            @endslot
-
-            @slot('title')
-                Conviértete en un experto <br> <span class="greenBlueColor">en ventas y marketing</span>
-            @endslot
-
-            @slot('text')
-                Todos los conocimientos que necesitas <br> para construir potentes embudos de venta.
-            @endslot
-
-            @slot('image')
-                {!! App::setFilePath('/assets/images/illustrations/otto/otto_einstein.png') !!}
-            @endslot
-
-            @slot('textForm')
-                Empieza a probar Escala
-            @endslot
-
-            @slot('threeCol')
-                true
-            @endslot
-
-            @slot('backgroundImage')
-                {!! App::setFilePath('/assets/images/backgrounds/degradeBlue1.png') !!}
-            @endslot
-
-            @slot('overlayImage')
-                {!! App::setFilePath('/assets/images/overlays/estrellas 2.png') !!}
-            @endslot
-
-            @endheader_t1
+            @php
+            $parameters = array(
+               'backgroundImageType' => false,
+               'overlay' => false,
+               'classSection' => 'threeCol blogHome0',
+               'title' => '
+                <span style="color: #B9E6E9">
+                    Conviértete en un experto <br class="space">
+                    en ventas y marketing
+                </span>
+               ',
+               'text' => '
+               <span class="whiteColor">
+                Todos los conocimientos que necesitas <br class="space">
+                para construir potentes embudos de venta
+                </span>
+               ',
+               'threeCol' => true,
+               'textForm' => 'Comienza ahora',
+               'backgroundImage' => null,
+            'overlayImage' => null,
+            'image' =>  App::setFilePath('/assets/images/person/blog_header.png')
+              ) ;
+              @endphp
+              @header_t1( $parameters )
+              @endheader_t1
 
 
-            @subscribers_T1
-
-                @slot('classSection')
-                    blogHome1
-                @endslot
-
-                @slot('image')
-                    {!! App::setFilePath('/assets/images/illustrations/team/avatar-chica.png') !!}
-                @endslot
-
-                @slot('title')
-                    Suscríbete a <span class="greenBlueColor">nuestro blog</span>
-                @endslot
-
-            @endheader_t1
 
 
 
@@ -109,7 +75,8 @@
                 @endslot
 
                 @slot('subTitlePrincipal')
-                    Todos los conocimientos que necesitas para construir potentes embudos de venta.
+                    We share common trends, strategies ideas, opinions, short & long stories from the <br class="desktopTabletElement">
+team behind company.
                 @endslot
 
                 @slot('overlay')

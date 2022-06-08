@@ -272,6 +272,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-pruebas.blade.php",
                 "views/template-home-youtube.blade.php",
                 "views/template-escala-fex.blade.php",
                 // "views/template-home-2021.blade.php",
@@ -284,6 +285,7 @@ class SetComponents extends Controller
            return array(
 
                 "views/template-home.blade.php",
+                "views/template-pruebas.blade.php",
                 // "views/template-home-2021.blade.php",
 
             );
@@ -315,6 +317,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-pruebas.blade.php",
                 "views/template-document-terms-text.blade.php",
                 "views/template-home-youtube.blade.php",
                 "views/template-landing-video-am.blade.php",

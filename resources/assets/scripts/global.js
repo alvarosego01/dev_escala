@@ -355,7 +355,7 @@ function instanceYoutube() {
 
         techOrder: ['html5', 'flash'],
         controls: false,
-        autoplay: true,
+        autoplay: false,
         preload: 'false'
 
         // flash: {
@@ -364,12 +364,10 @@ function instanceYoutube() {
     }, function(){
         // Player (this) is initialized and ready.
         this.on('pause', function(){
-            console.log('ended');
             console.log('ended', this);
 
         });
         this.on('ended', function(){
-            console.log('ended');
             console.log('ended', this);
 
             this.posterImage.show(); //shows your poster image//
@@ -461,6 +459,18 @@ jQuery('.pill-button-selection').on('click', function() {
 }
 
 
+function preventResetForms(){
+
+
+    jQuery(document).on('reset', 'form.wpcf7-form', function(e) {
+        e.preventDefault();
+
+        console.log('dispara reset form');
+    });
+
+}
+
+preventResetForms();
 
 jQuery(document).ready(function () {
 

@@ -59,9 +59,23 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
                     </div>
                 </div>
                 <div class="desktopElement">
+
                     <div class="menusSection" id="main-menu">
 
+                    <div class="searchContainer">
 
+                        <div class="containElements">
+                            <div class="container-2">
+                                <form action="{{App::setTypeUrl().'/blog-search'}}" method="get">
+
+                                <span class="icon"><i class="fa fa-search"></i></span>
+                                <input type="search" id="search" placeholder="Buscar..." />
+
+                                </form>
+                            </div>
+                          </div>
+
+                    </div>
 
                         {!! wp_nav_menu([
     'menu' => $navBar_ID,
