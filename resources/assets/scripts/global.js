@@ -465,12 +465,32 @@ function preventResetForms(){
     jQuery(document).on('reset', 'form.wpcf7-form', function(e) {
         e.preventDefault();
 
-        jQuery('.ewp-phone-text').val('');
 
         console.log('dispara reset form');
+        jQuery('.ewp-phone-text').val('');
+
+
+
     });
 
+        jQuery('.ewp-phone-text').on('focus click keypress', function () {
+
+        if (this.value == '   -   -    ') {
+            console.log('focus text phone');
+            this.value = "";
+            // jQuery('.ewp-phone-text').val('');
+        }
+
+    });
+
+
+
+
 }
+
+
+
+
 
 preventResetForms();
 
