@@ -7,6 +7,7 @@
     padding-bottom: 350px
     background-color: $colorBlueLight
     position: relative
+    overflow: hidden
 
     h1,
     h2,
@@ -15,11 +16,13 @@
     @include responsivo(telefonoTable)
         padding-bottom: 200px
         padding-top: 50px
-        padding-left: 5%
-        padding-right: 5%
+        padding-left: 25px
+        padding-right: 25px
     @include responsivo(pcMedio)
         padding-bottom: 225px
         padding-top: 50px
+        padding-left: 50px
+        padding-right: 50px
 
     .backgroundOverlay
         position: absolute
@@ -47,7 +50,7 @@
 
     .section-row
         @include responsivo(telefonoTable)
-            width: 95%
+            width: 100%
         @include responsivo(pcMedio)
             width: 90%
         @include responsivo(general)
@@ -65,22 +68,22 @@
                 .innerSectionElement
                     .containElements
                         .principalBigTitle
-                            font-size: 48
-                            line-height: 50px
+                            font-size: 48px
+                            line-height: 0.9
                             font-weight: 700!important
                             font-family: Nunito
                             margin-bottom: 35px
                             text-align: center
                             span.greenBlueColor
                                 font-size: 38px
+                                position: relative
+                                top: 5px
                             @include responsivo(telefonoTable)
-                                font-size: 40px
-                                line-height: 42px
+                                font-size: 27.5px
                                 span.greenBlueColor
-                                    font-size: 30px
-                                    line-height: 35px
+                                    font-size: 22.5px
                             @include responsivo(pcMedio)
-                                font-size: 40px!important
+                                font-size: 35px!important
                                 span.greenBlueColor
                                     font-size: 30px
                         .hor

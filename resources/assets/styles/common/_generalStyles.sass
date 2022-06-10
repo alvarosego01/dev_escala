@@ -48,6 +48,15 @@ html,
 body
     width: 100%
     overflow-x: hidden
+    padding: 0!important
+
+body.modal-open
+    padding: 0!important
+
+
+#wpadminbar
+    z-index: 999
+
 
 
 .primaryTitle,
@@ -203,6 +212,10 @@ span.category.tag
     color: $colorGreenBlue3
 .greenBlueColor4
     color: $colorGreenBlue4
+.greenBlueColor6
+    color: $colorGreenBlue6
+.greenBlueColor7
+    color: $colorGreenBlue7
     // color
 
 .blueColor
@@ -221,6 +234,9 @@ span.category.tag
 
 .blueLightColor10
     color: $colorBlueLight10
+
+.blueLightColor11
+    color: $colorBlueLight11
 
 .grayColor
     color: $colorGrey
@@ -414,22 +430,82 @@ a[disabled]
     &:hover
         color: $colorOrange!important
 
-.primaryButton
+.primaryButton,
+.menuButton.menuPrimaryButton a,
+.menuButton.menuPrimaryButton button
     display: inline-block
     text-decoration: none
     font-size: 18px
     line-height: 1
-    padding: 12.5px 27.5px
+    padding: 12.5px 25px!important
     border-radius: 7px
     color: $colorWhite
-    background-color: $colorOrange
+    background-color: $colorOrange!important
     width: fit-content
     transition: $transitionButton
     transform: scale(1)
     font-family: Nunito
     @include responsivo(telefonoTable)
-        font-size: 16px
+        font-size: 12.5px!important
+        padding: 10px 12.5px!important
+    @include responsivo(pcMedio)
+        font-size: 18px!important
+        padding: 10px 25px!important
 
+
+
+.menuButton.menuPrimaryButton a,
+.menuButton.menuPrimaryButton button
+    @include responsivo(telefonoTable)
+        font-size: 11px!important
+        padding: 7.5px 10px!important
+    @include responsivo(pcMedio)
+        font-size: 16px!important
+        padding: 10px 20px!important
+    @include responsivo(general)
+        font-size: 16px!important
+        padding: 10px 20px!important
+    @include responsivo(smallPcTablet)
+        font-size: 14px!important
+        padding: 10px 15px!important
+
+.primaryWhiteButton,
+.menuButton.menuprimaryWhiteButton a,
+.menuButton.menuprimaryWhiteButton button
+    display: inline-block
+    text-decoration: none
+    font-size: 18px
+    line-height: 1
+    padding: 12.5px 25px!important
+    border-radius: 7px
+    color: $colorOrange
+    background-color: white!important
+    border: 1px solid $colorOrange
+    width: fit-content
+    transition: $transitionButton
+    transform: scale(1)
+    font-family: Nunito
+    @include responsivo(telefonoTable)
+        font-size: 12.5px!important
+        padding: 10px 12.5px!important
+    @include responsivo(pcMedio)
+        font-size: 18px!important
+        padding: 10px 25px!important
+
+.menuButton.menuprimaryWhiteButton a,
+.menuButton.menuprimaryWhiteButton button
+    @include responsivo(telefonoTable)
+        font-size: 11px!important
+        padding: 7.5px 10px!important
+    @include responsivo(pcMedio)
+        font-size: 16px!important
+        padding: 10px 20px!important
+    @include responsivo(general)
+        font-size: 16px!important
+        padding: 10px 20px!important
+    @include responsivo(smallPcTablet)
+        font-size: 14px!important
+        padding: 10px 15px!important
 
 
 
@@ -438,7 +514,7 @@ a[disabled]
     text-decoration: none
     font-size: 18px
     line-height: 1
-    padding: 12.5px 27.5px
+    padding: 12.5px 25px
     border-radius: 5px
     background-color: $colorBlueLight6
     color: $colorGrey3
@@ -485,15 +561,17 @@ a[disabled]
     @include responsivo(telefonoTable)
         font-size: 16px
 
-.secondaryButton
+.secondaryButton,
+.menuButton.menuSecondaryButton a,
+.menuButton.menuSecondaryButton button
     font-size: 18px
     line-height: 1
-    padding: 12.5px 27.5px
+    padding: 12.5px 25px!important
     font-family: Nunito
     font-weight: 400
     border-radius: 5px
     transition: all .2s
-    background-color: $colorGreenBlue3
+    background-color: $colorGreenBlue3!important
     color: white
     border-width: 0
     text-decoration: none
@@ -503,27 +581,59 @@ a[disabled]
     align-content: center
     align-items: center
     @include responsivo(telefonoTable)
-        font-size: 16px
+        font-size: 12.5px!important
+        padding: 10px 12.5px!important
+    @include responsivo(pcMedio)
+        font-size: 18px!important
+        padding: 10px 25px!important
+
+.menuButton.menuSecondaryButton a,
+.menuButton.menuSecondaryButton button
+    @include responsivo(telefonoTable)
+        font-size: 11px!important
+        padding: 7.5px 10px!important
+    @include responsivo(pcMedio)
+        font-size: 16px!important
+        padding: 10px 20px!important
+    @include responsivo(general)
+        font-size: 16px!important
+        padding: 10px 20px!important
+    @include responsivo(smallPcTablet)
+        font-size: 14px!important
+        padding: 10px 15px!important
 
 .hoverSecondaryButton
     &:hover
         background-color: $colorBlueLight4
         color: $colorGreenBlue2
 
-.hoverInEffect.primaryButton
+.hoverInEffect.primaryButton,
+.menuHoverInEffect.menuButton.menuPrimaryButton a,
+.menuHoverInEffect.menuButton.menuPrimaryButton button
     &:hover
-        transform: scale(1.1)
+        transform: scale(1.075)
         color: white
         background-color: $orangeLight
 
-.hoverInEffect.secondaryButton
+.hoverInEffect.primaryWhiteButton,
+.menuHoverInEffect.menuButton.menuprimaryWhiteButton a,
+.menuHoverInEffect.menuButton.menuprimaryWhiteButton button
     &:hover
-        transform: scale(1.1)
+        transform: scale(1.075)
+        color: $colorOrange
+        background-color: white!important
+        border: 1px solid $colorOrange
+
+.hoverInEffect.secondaryButton,
+.menuHoverInEffect.menuButton.menuSecondaryButton a,
+.menuHoverInEffect.menuButton.menuSecondaryButton button
+    &:hover
+        transform: scale(1.075)
         color: white
 
 .hoverInEffect.thinButton
     &:hover
-        transform: scale(1.1)
+        transform: scale(1.075)
         // color: white
 
 .buttonPriceSelector
@@ -534,32 +644,43 @@ a[disabled]
         font-family: Nunito
         font-style: normal
         font-weight: bold
-        font-size: 13px
-        height: 30px!important
-        text-align: center
+        font-size: 14px!important
+        height: 45px!important
+        text-alig: 50px center
         // height: 32.5px
-        padding: 5px 7.5px
+        padding: 10px
         color: $colorGrey5
         transition: $trans
-        background-color: #F1F1F1
+        background-color: #F3FAFD
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
         &:hover
             color: $colorOrange
         @include responsivo(telefonoTable)
-            width: max( 10vw, 150px )
+            width: max( 10vw, 175px )
             font-size: 13px
         @include responsivo(pcMedio)
-            width: max( 10vw, 150px )
+            width: max( 10vw, 175px )
         &:nth-of-type(1)
-            border-radius: 15px 0 0 15px
+            border-radius: 20px 0 0 20px
         &:nth-of-type(2)
-            border-radius: 0 15px 15px 0
+            border-radius: 0 20px 20px 0
+
+        small
+            margin-bottom: 0!important
+            color: #36768A!important
+            font-size: 14px!important
+            text-align: center!important
+
 
 
 
     button.selectorPricingButton.active
-        font-weight: bold!important
-        background-color: $colorGreyLight4!important
-
+        font-weight: 800!important
+        background-color: #B9E6E9!important
+        color: black!important
 
 
 
@@ -574,7 +695,7 @@ a[disabled]
     text-transform: none
     margin-top: 1.5%
     letter-spacing: 0
-    min-height: 48px
+    min-height: 32.5px
     text-transform: initial
     &:hover
         background-color: $colorOrange
@@ -625,202 +746,6 @@ a[disabled]
     @include responsivo(pcMedio)
         max-width: 600px
 
-
-
-.formatForm,
-.elementor-widget-void-section-cf7,
-.form_cf7,
-.wpcf7
-    .fields
-        margin-bottom: 0
-    p
-        position: relative
-    .ajax-loader
-        margin: auto 12.5px!important
-        position: absolute
-        top: 0
-        bottom: 0
-    #loading
-        height: 50px!important
-        width: 50px!important
-    .titleFormat
-        font-family: Nunito
-        font-size: 22px
-        line-height: normal
-        font-weight: 700
-        padding-top: 30px
-        padding-bottom: 20px
-        text-align: center
-        // margin-bottom: 20px
-    p
-        margin-bottom: 20px
-        text-align: center
-        // padding: 10px 0!important
-    input
-        border-width: 0px 0px 1px 0px!important
-        border-radius: 0!important
-        box-sizing: border-box
-        font-family: Nunito
-        font-size: 18px!important
-        font-weight: normal!important
-        margin: 0
-        line-height: normal
-    input.wpcf7-form-control.wpcf7-number,
-    input[type="number"]
-        width: 100%!important
-        min-width: 100%!important
-    .wpcf7-text
-        color: #706B6D!important
-        // color: #333!important
-    select
-        padding: 6px 10px
-        border-width: 0px 0px 1px 0px
-        font-family: Nunito
-        font-size: 18px!important
-        color: #706B6D!important
-        font-weight: normal!important
-        box-sizing: border-box
-        width: 100%!important
-        line-height: normal
-    span.ewp-phonetype-radio
-        margin-top: 20px
-        margin-bottom: 30px
-        font-family: Nunito
-        font-size: 16px
-        // height: 45px
-        height: min-content
-        span.wpcf7-list-item
-            width: 50%
-            background-color: #FAFBFD
-            color: #706B6D
-            border-color: #EDF0F4
-            .input-checked
-                background-color: #b1ecef
-                color: #6C929F
-                font-weight: 700
-    br
-        display: none
-
-    label
-        display: flex
-        justify-content: center
-        align-content: center
-        align-self: center
-    // span.wpcf7-form-control-wrap
-
-    input[type="checkbox"]
-        margin: auto 0!important
-        border: 0.25px solid rgba(0,0,0,0.125)!important
-    .customField
-        display: flex
-        flex-direction: column
-        // padding: 6px 12px
-        margin-bottom: 20px
-
-        span.wpcf7-form-control-wrap
-            width: 100%!important
-            span.wpcf7-form-control.wpcf7-radio
-                // display: none
-                width: 100%
-                display: block
-                // height: 75px
-                display: flex
-                flex-direction: row
-                span.wpcf7-list-item
-                    // display: none
-                    display: flex!important
-                    flex-direction: row!important
-                    // width: 50px
-                    margin: 0 7.5px!important
-                    background-color: transparent
-                    border: none
-                    border-radius: 0
-                    padding-top: 0
-                    padding-bottom: 0
-                    span.wpcf7-list-item-label
-                        float: unset
-                        padding: unset
-                        background-color: transparent
-                        font-size: 14px
-                        padding: 5px 7.5px!important
-                        text-transform: uppercase
-                        color: #706B6D!important
-                    input[type="radio"]
-                        float: unset
-                        margin: auto 0
-                        position: unset!important
-            span.wpcf7-form-control.wpcf7-checkbox
-                width: 100%
-                display: flex
-                flex-direction: row
-                span.wpcf7-list-item
-                    display: flex!important
-                    flex-direction: row!important
-                    margin: 0 7.5px!important
-                    background-color: transparent
-                    border: none
-                    border-radius: 0
-                    padding-top: 0
-                    padding-bottom: 0
-                    span.wpcf7-list-item-label
-                        float: unset
-                        padding: unset
-                        background-color: transparent
-                        font-size: 14px
-                        padding: 5px 7.5px!important
-                        color: #706B6D!important
-                    input[type="checkbox"]
-                        float: unset
-                        margin: auto 0
-                        position: unset!important
-
-        label
-            box-sizing: border-box
-            font-family: Nunito
-            font-size: 18px!important
-            font-weight: normal!important
-            color: #706B6D!important
-            width: 100%
-            display: block
-            margin-bottom: 15px
-            padding: 0 12px
-    .customField
-        @include responsivo(telefonoTable)
-            display: flex
-            flex-direction: column!important
-            justify-content: flex-start
-            align-items: flex-start
-            label
-                // width: 100%
-                text-align: left
-                margin-right: auto
-        @include responsivo(pcMedio)
-            display: flex
-            flex-direction: column!important
-            justify-content: flex-start
-            align-items: flex-start
-            label
-                // width: 100%
-                text-align: left
-                margin-right: auto
-
-
-
-.wpcf7-not-valid-tip
-    font-size: 14px
-
-.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output
-    border: none
-    color: #5B5B5B
-    font-family: Nunito!important
-    text-align: center!important
-    font-size: 14px!important
-
-
-form input[type="text"][disabled], form input[type="password"][disabled], form input[type="email"][disabled], form input[type="url"][disabled], form input[type="date"][disabled], form input[type="month"][disabled], form input[type="time"][disabled], form input[type="datetime"][disabled], form input[type="datetime-local"][disabled], form input[type="week"][disabled], form input[type="number"][disabled], form input[type="search"][disabled], form input[type="tel"][disabled], form input[type="color"][disabled], form select[disabled], form textarea[disabled]
-    background-color: #FAFBFD
-    color: #706B6D
-    // height: 100%
 
 
 
@@ -882,6 +807,7 @@ footer
                 color: $colorOrange
                 // top: 1.5px
                 left: -15px
+                top: 2.5px
                 font-size: 12px
                 display: block
                 margin: auto 0
@@ -1108,47 +1034,7 @@ input[type=range]
 
 
 
-.desktopElement
-    @include responsivo(telefonoTable)
-        display: none!important
-    @include responsivo(pcMedio)
-        display: none!important
-    @include responsivo(general)
-        display: block!important
-    @include responsivo(resto)
-        display: block!important
-.mobileElement
-    @include responsivo(telefonoTable)
-        display: block!important
-    @include responsivo(pcMedio)
-        display: block!important
-    @include responsivo(general)
-        display: none!important
-    @include responsivo(resto)
-        display: none!important
 
-.desktopTabletElement
-    @include responsivo(telefonoTable)
-        display: none!important
-    @include responsivo(pcMedio)
-        display: block!important
-
-    @include responsivo(general)
-        display: block!important
-
-    @include responsivo(resto)
-        display: block!important
-
-
-.mobileSmallElement
-    @include responsivo(telefonoTable)
-        display: block!important
-    @include responsivo(pcMedio)
-        display: none!important
-    @include responsivo(general)
-        display: none!important
-    @include responsivo(resto)
-        display: none!important
 
 
 
@@ -1166,3 +1052,145 @@ input[type=range]
                 margin-top: 3.5%!important
             @include responsivo(resto)
                 margin-top: 3.5%!important
+
+
+.vjs-poster
+    background-size: cover!important
+    width: max-content
+    // @include responsivo(telefonoTable)
+        // display: none
+    // @include responsivo(pcMedio)
+        // display: none
+
+.video-js
+    .vjs-big-play-button
+        top: 50%!important
+        left: 50%!important
+        transform: translate(-50%,-50%)!important
+
+
+
+
+.checkbox_slider_container
+    margin: 70px auto 0
+    font-size: 0
+    // border: 1px solid black
+    border-radius: 40px
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-content: center
+    align-items: center
+    overflow: hidden
+    // background-color: #F3FAFD
+
+    label
+        position: relative
+        cursor: pointer
+        font-family: Nunito
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        width: 50%
+        height: 100%
+        padding: 0
+        transition: all 0.3s ease
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        align-content: center
+        position: relative
+        span
+            font-weight: 700
+
+    .check_opc1 + label:before
+        content: ""
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 100%
+        z-index: -1
+        background-color: #CAF1F3
+        transition: all 0.3s ease
+
+
+
+
+    .check_opc1:checked + label:before
+        left: 0
+
+    .check_opc1:checked + label,
+    .check_opc2:checked + label
+        color: #000
+        // background-color: red
+
+
+
+$button-z: 0
+$button-highlight: 1
+$button-selection: 2
+
+.pill-button
+    display: inline-block
+    position: relative
+    padding: 0
+    height: 100%
+    width: 50%
+    font-size: 12px
+    background: #F3FAFD
+    border-radius: 28px
+    color: #4D4D4D
+    z-index: $button-z
+    border-radius: 22px
+    overflow: hidden
+    &-input
+        display: none
+        visibility: hidden
+
+    .pill-button-highlight
+        transform: translate(0,-50%)
+        transition: all 0.2s
+        position: absolute
+        top: 50%
+        left: 0
+        height: 100%
+        width: 50%!important
+
+        background: #CAF1F3
+        border-radius: 22px
+        z-index: $button-highlight
+
+    &-selection
+        transition: all 0.2s
+        display: inline-block
+        position: relative
+        padding: 0.4em 0.9em
+        cursor: pointer
+        z-index: $button-selection
+        &_active
+            // display: inline-block
+            // background: #fff
+            // border-radius: 22px
+            color: #2f8195
+
+    .pill-button-selection
+        height: 100%
+
+
+
+
+
+
+
+
+//
+
+
+.checkbox_slider_container
+    height: 75px
+    width: 375px
+
+
+

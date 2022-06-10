@@ -1,10 +1,25 @@
 
+
+
 @php
 
-$navBar = ACF_CUSTOM::_getField('nav_settings');
+$navBar = null;
+
+if( is_page() != null && is_page() == 1 && get_post_type() == 'page' ){
+
+  $navBar = ACF_CUSTOM::_getField('nav_settings');
+
+} elseif ( is_singular() != null && is_singular() == 1 && get_post_type() == 'post' ) {
+  # code...
+$idPostParent = url_to_postid('blog');
+$navBar = ACF_CUSTOM::_getField('nav_settings', $idPostParent );
+
+}
 
 
 @endphp
+
+
 
 
 {{-- navBar_default --}}
@@ -36,15 +51,27 @@ $navBar = ACF_CUSTOM::_getField('nav_settings');
 
 @endif
 
-@if ( $navBar == 'landing-global1' || $navBar == 'landing-global2' )
+@if ( $navBar == 'landing-global1' )
 
-    @navBar_landings()
+    @landing_global1()
 
     @slot('classSection')
     {{$navBar}}
     @endslot
 
-    @endnavBar_landings
+    @endlanding_global1
+
+@endif
+
+@if ( $navBar == 'landing-global2' )
+
+    @landing_global2()
+
+    @slot('classSection')
+    {{$navBar}}
+    @endslot
+
+    @endlanding_global2
 
 @endif
 

@@ -18,7 +18,7 @@
 @php
  $parameters = array(
   'backgroundImageType' => false,
-  'classSection' => 'landingPageIncDemo0',
+  'classSection' => 'landingPageIncTrial2_Demo0',
   'title' => '<span class="greenBlueColor">Crea landing pages</span> <br> increíbles',
   'text' => null,
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0102.png',
@@ -34,7 +34,7 @@
 
 @php
  $parameters = array(
-  'classSection' => 'landingPageIncDemo1',
+  'classSection' => 'landingPageIncTrial2_Demo1',
   'title' => '4 pasos para construir exitosas landing pages <span class="orangeColor">en minutos</span>',
   'img1' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0116.png',
   'title1' => 'Elige tu plantilla',
@@ -59,9 +59,9 @@
 @php
  $parameters = array(
   'type' => 'backColor',
-  'classSection' => 'landingPageIncDemo2',
+  'classSection' => 'landingPageIncTrial2_Demo2',
   'title' => '¡Comienza a crear tu <span class="orangeColor">landing page</span> ahora!',
-  'textButton' => '¡Pruébalo ahora!',
+  'textButton' => 'Prueba Gratis',
   'goToUrl' => '#lead-form',
  ) ;
 @endphp
@@ -76,7 +76,7 @@
 
 @php
  $parameters = array(
-  'classSection' => 'landingPageIncDemo3',
+  'classSection' => 'landingPageIncTrial2_Demo3',
   'description' => '"<strong>Al generar más de 1 millón de contactos por año utilizando las páginas de destino de Open English</strong>, hemos obtenido información sobre cómo optimizar con éxito nuestros sitios web para impulsar nuestras ventas. Basándonos en una década de experiencia, hemos creado el mejor creador de páginas de destino del mercado".',
   'byAm' => '<span class="orangeColor">Andrés Moreno</span>',
   'team' => 'Fundador de <span class="orangeColor">Escala</span> y Open English',
@@ -92,7 +92,7 @@
 @php
  $parameters = array(
    'type' => 'regular',
-  'classSection' => 'landingPageIncDemo4',
+  'classSection' => 'landingPageIncTrial2_Demo4',
   'title' => 'Conoce la plataforma “todo en uno” de ventas y marketing que acelerará <span class="orangeColor">el crecimiento de tu negocio</span>',
   'img1' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0110.png',
   'title1' => 'Atrae visitantes <br> a tu landing page',
@@ -120,7 +120,7 @@
 
 @php
  $parameters = array(
-  'classSection' => 'landingPageIncDemo5',
+  'classSection' => 'landingPageIncTrial2_Demo5',
   'title' => '<span class="greenBlueColor">¿Estás listo para</span> acelerar tus ventas?',
   'text' => null,
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0115.png',

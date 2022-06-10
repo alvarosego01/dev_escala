@@ -26,10 +26,17 @@
        'classSection' => 'threeCol landingChristmas0',
        'title' => '
        <span class="blueLightColor10">Estas navidades crea</span> <br class="space">
+<<<<<<< HEAD
        Increíbles <br class="space"> Landing pages <br class="space">
        <span class="blueLightColor10">y convierte más</span>
        ',
        'text' => 'Aprovecha estas fechas para generar <br class="space"> más leads con páginas optimizadas.',
+=======
+       Landing pages <br class="space"> Increíbles',
+       'text' => '<span class="blueLightColor10">
+        y prepárate para ver crecer <br class="space"> tus leads y tus ventas.
+        </span>',
+>>>>>>> test
        'textForm' => 'Comienza ahora',
        'threeCol' => true,
        'backgroundImage' => null,
@@ -93,7 +100,7 @@
                   ¡Descubre cuán fácil es diseñar y <br class="mobileElement"> publicar landing pages en Escala!
                 </h2>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                   Comenzar ahora
                 </a>
 
@@ -166,7 +173,7 @@
           <h3 class="primaryTitle whiteText">Acelera el crecimiento de tu negocio
           </h3>
 
-          <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
             Comenzar ahora
           </a>
 
@@ -191,10 +198,10 @@
   @php
   $parameters = [
       'classSection' => 'landingChristmas5',
-      'title' => '¿Estás listo para hacer las landig pages más<br class="space"> vendedoras de estas fiestas?',
+      'title' => '¿Estás listo para hacer <br class="space"> las landig pages más vendedoras <br class="space"> de estas fiestas?',
       'textForm' => 'Pruébalo gratis ahora',
       'text' => null,
-      'image' => App::setFilePath('/assets/images/illustrations/otto/otto-santa-3 1.png'),
+      'image' => App::setFilePath('/assets/images/person/am/andres-partners-2.png'),
   ];
 @endphp
 @bannerForms7_T1( $parameters )

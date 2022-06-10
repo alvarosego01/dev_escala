@@ -2,7 +2,6 @@
     Template Name: [B] Landing - Servicios - Seguros
 --}}
 
-
 @extends('layouts.app')
 
 @section('content')
@@ -16,8 +15,8 @@
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingServSeguros0',
                     'title' => 'Descubre cómo Escala <br class="desktopTabletElement">
-                                ayuda a las empresas <br class="desktopTabletElement">
-                                aseguradoras a crecer',
+                                 ayuda a tu empresa <br class="desktopTabletElement">
+                                 aseguradora a crecer',
                     'text' => null,
                     'textForm' => 'Comienza ahora',
                     'threeCol' => true,
@@ -37,7 +36,7 @@
                 $parameters = [
                     'classSection' => 'landingServSeguros1 func',
                     'title' => '<span class="blackColor2">Escala es perfecto <br class="desktopElement"> para tu empresa</span>',
-                    'description' => 'Escala ayuda a tu aseguradora a generar leads de calidad y <br class="desktopTabletElement"> optimizar toda la gestión de ventas. Sabemos que es una <br class="desktopTabletElement"> industria desafiante, cada vez más regulada y con un proceso de <br class="desktopTabletElement"> ventas complejo. Desde Escala te ayudaremos a optimizar tus <br class="desktopTabletElement"> resultados con una menor inversión de tiempo y dinero.',
+                    'description' => 'Escala ayuda a tu aseguradora a generar más leads de calidad,<br class="desktopTabletElement"> optimizar toda la gestión de ventas y fidelizar a tus clientes. <br class="desktopTabletElement"> Sabemos que es una industria desafiante, cada vez más <br class="desktopTabletElement"> regulada y con un proceso de ventas complejo. Desde Escala te <br class="desktopTabletElement"> ayudaremos a optimizar tus resultados con una menor inversión <br class="desktopTabletElement"> de tiempo y dinero.',
                     'byAm' => null,
                     'team' => null,
                     'image' => App::setFilePath('/assets/images/person/homebanner_persona-3B-1.png'),
@@ -55,10 +54,10 @@
                     'classSection' => 'landingServSeguros2',
                     'enableTitle' => true,
                     'enableButton' => true,
-                    'urlButton' =>  App::setTypeUrl().'/zoom-meeting',
-                    'textButton' => 'Conocer más',
-                    'typeButton' => 'primaryButton hoverInEffect',
-                    'titlePrincipal' => '<span class="blackColor2">¿Cómo te ayudamos a crecer?</span>',
+                    'urlButton' =>  '#',
+                    'textButton' => 'Prueba Gratis',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                    'titlePrincipal' => '<span class="blackColor2">¿Cómo te impulsamos a crecer?</span>',
                     'elements' => [
                         [
                             'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopTabletElement"> desde Facebook</span>
@@ -74,12 +73,12 @@
                         ],
                         [
                             'title' => '<span class="greenBlueColor">No pierdas <br class="desktopTabletElement"> ningún dato </span>',
-                            'text' => 'Ahora podrás tener mejor control de los datos de tus leads. Nuestras <br class="desktopElement"> landing pages tienen formularios inteligentes que te garantizan guardar <br class="desktopElement"> automáticamente en tu CRM todos la información de tus visitantes.',
+                            'text' => 'Ahora podrás tener mejor control de los datos de tus leads. Nuestras <br class="desktopElement"> landing pages tienen formularios integrados que te garantizan guardar <br class="desktopElement"> automáticamente en tu CRM toda la información de tus visitantes.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_2.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Organiza y gestiona <br class="desktopTabletElement"> tu base de datos</span>',
-                            'text' => 'Entendemos que la adquisición de un seguro implica un proceso <br class="desktopElement"> complejo con varios pasos. Optimiza el seguimiento de cada <br class="desktopElement"> cliente y genera más ventas con el CRM de Escala. ',
+                            'text' => 'Sabemos que la adquisición de un seguro implica un proceso <br class="desktopElement"> complejo con varios pasos. Optimiza el seguimiento de cada <br class="desktopElement"> cliente y genera más ventas con el CRM de Escala.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_3.png'),
                         ],
                         [
@@ -113,11 +112,11 @@
                 'subTitlePrincipal' => null,
                 'title' => '¿Escala tiene todo <br class="desktopTabletElement"> lo que mi aseguradora necesita?',
                 'img' => App::setFilePath('/assets/images/illustrations/otto/seguros-5 1.png'),
-                'text' => 'No importa el tamaño de tu empresa. Empodera a tus equipos: <br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio',
+                'text' => 'No importa el tamaño de tu empresa. Empodera a tus equipos: <br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
-                'typeButton' => 'primaryButton',
-                'textButton' => '¡Comenzar ahora!',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'textButton' => 'Prueba Gratis',
                 'side' => 'right',
             ];
         @endphp
@@ -126,7 +125,7 @@
 
         @endcontain_text_image_T1
 
-            {{-- @php
+            @php
             $parameters = [
                 'type' => 'backgroundColor',
                 'classSection' => 'landingServSeguros4',
@@ -137,16 +136,16 @@
                 'img' => App::setFilePath('/assets/images/illustrations/others/paymentpages-1 1.png'),
                 'text' => 'En Escala tenemos un plan a la medida de tus <br class="desktopElement"> necesidades. Conoce nuestros planes para cada tamaño <br class="desktopElement"> de empresa y número de contactos de marketing.',
                 'enableButton' => true,
-                'urlButton' =>  App::setTypeUrl().'/pricing',
-                'typeButton' => 'primaryButton',
-                'textButton' => 'Conoce nuestros planes',
+                'urlButton' => '#',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'textButton' => 'Prueba Gratis',
                 'side' => 'left',
             ];
         @endphp
 
         @contain_text_image_T1( $parameters )
 
-        @endcontain_text_image_T1 --}}
+        @endcontain_text_image_T1
 
                 {{-- @php
                 $parameters = [
@@ -201,7 +200,7 @@
                             <span>Inbound marketing para seguros</span>
                         </p>
 
-                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                             ¡Descargar ahora!
                         </a>
 
@@ -220,7 +219,7 @@
             @php
                 $parameters = [
                     'classSection' => 'landingServSeguros7',
-                    'title' => 'Atrae leads de calidad <br class="desktopTabletElement"> <span>y convierte más ventas con Escala</span>',
+                    'title' => 'Atrae leads de calidad y convierte <br class="desktopTabletElement"> más ventas con Escala',
                     'textForm' => 'Pruébalo gratis ahora',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/person/am/am-dedicado.png'),

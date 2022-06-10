@@ -55,13 +55,21 @@
 
                 <div class="containElements">
 
-                  <div class="formatForm" redirectWeb="true">
+                  <div class="formatForm redirectWeb"   redirectWeb="true">
 
                     <h4 class="titleFormat blackcolor">¡Comienza ahora!</h4>
 
-                    @php
-                    $f = ACF_CUSTOM::_getField('form7');
-                @endphp
+                    @if ( isset( $setForm ) && $setForm != null && $setForm != '' )
+
+                                    @php
+                                        $f = $setForm;
+                                    @endphp
+
+                                @else
+                                    @php
+                                        $f = ACF_CUSTOM::_getField('form7');
+                                    @endphp
+                                @endif
                  @if (isset($f) && $f != null)
                  {!! do_shortcode( $f ) !!}
                  @else
@@ -105,7 +113,7 @@
 
                 <p class="primaryText grayColorTexts"><strong>¿No estás seguro de qué hacer o cómo avanzar?</strong> Nuestros estrategas expertos en marketing digital y ventas conocen acerca de tus necesidades y comparten conocimientos probados para conseguir mejores resultados.</p>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                   Probar escala ahora
                 </a>
 
@@ -357,7 +365,7 @@
             <h3 class="primaryTitle whiteText">Empieza a escalar tu negocio con éxito
             </h3>
 
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
               Probar escala ahora
             </a>
 
@@ -496,7 +504,7 @@
 
                 <p class="primaryText grayColorTexts"><strong>¿No estás seguro de qué hacer o cómo avanzar?</strong> Nuestros estrategas expertos en marketing digital y ventas conocen acerca de tus necesidades y comparten conocimientos probados para conseguir mejores resultados.</p>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                   Probar escala ahora
                 </a>
 

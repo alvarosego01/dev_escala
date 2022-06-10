@@ -4,8 +4,6 @@
 
 
 
-
-
     @php
         $category = ACF_CUSTOM::_getField('category_base');
     @endphp
@@ -18,8 +16,6 @@
     <div id="blog-category-bootstrap">
 
         <div class="sections">
-
-
 
             @php
             $query = array(

@@ -89,8 +89,8 @@
                   ¡Descubre cuán fácil es diseñar y <br class="mobileElement"> publicar landing pages en Escala!
                 </h2>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-                  Comenzar ahora
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                  Prueba Gratis
                 </a>
 
 
@@ -108,7 +108,7 @@
     @php
     $parameters = array(
      'classSection' => 'landingLandingPages2 func',
-     'description' => '<span class="greenBlueColor"><strong>«En Open English generamos cientos de landing pages al mes que <br> generan más de 1 millón de contactos al año.</strong></span> Ese ha sido parte del secreto <br> de nuestro éxito. Basados en esa experiencia, creamos el Landing Page <br> Builder más robusto del mercado”.',
+     'description' => '<span class="greenBlueColor"><strong>«En Open English generamos cientos de landing pages al mes que <br class="desktopTabletElement"> generan más de 1 millón de contactos al año.</strong></span> Ese ha sido parte del secreto <br class="desktopTabletElement"> de nuestro éxito. Basados en esa experiencia, creamos el Landing Page <br class="desktopTabletElement"> Builder más robusto del mercado”.',
      'byAm' => '<strong class="blackColor2">Andrés Moreno</strong>',
      'team' => 'Fundador de <span class="greenBlueColor">Escala</span> y Open English',
      'image' => App::setFilePath('/assets/images/person/am/02_andres.png'),
@@ -129,19 +129,24 @@
   'subTitle' => '<strong class="subtitle">Conoce Escala</strong>',
   'img1' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
   'title1' => 'Multiplica las visitas <br class="space"> <span class="greenBlueColor">con anuncios digitales</span>',
-  'desc1' => 'Comienza a generar tráfico a tu landing <br> page. <br class="mobileElement"> Crea, publica y gestiona <br> campañas de anuncios <br class="mobileElement"> digitales <br> directamente desde Escala.',
+  'desc1' => '
+  Comienza a generar tráfico a tu landing <br class="desktopTabletElement"> page. Crea, publica y gestiona <br class="desktopTabletElement"> campañas de anuncios digitales <br class="desktopTabletElement"> directamente desde Escala.',
   'img2' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
   'title2' => '<span class="greenBlueColor">Gestiona y organiza</span> <br class="space"> la información de tus contactos',
-  'desc2' => 'Empodera a tu equipo de ventas con el CRM <br> más <br class="mobileElement"> amigable y fácil de usar. Incrementa la <br> productividad <br class="mobileElement"> planificando actividades y <br> mantén comunicación <br class="mobileElement"> constante con tus leads.',
+  'desc2' => '
+  Empodera a tu equipo de ventas con el CRM <br class="desktopTabletElement"> más amigable y fácil de usar. Incrementa la <br class="desktopTabletElement"> productividad planificando actividades y <br class="desktopTabletElement"> mantén comunicación constante con tus leads.',
   'img3' => App::setFilePath('/assets/images/illustrations/others/icono-12 1.png'),
   'title3' => 'Envía Emails <br class="space"> <span class="greenBlueColor">profesionales</span>',
-  'desc3' => 'Nutre la relación con tus contactos enviando <br class="space"> efectivas campañas de emails. Con nuestras <br class="space"> plantillas prediseñadas logras enviar masivamente <br class="space"> mensajes personalizados con tan solo un clic.',
+  'desc3' => '
+  Nutre la relación con tus contactos enviando <br class="space"> efectivas campañas de emails. Con nuestras <br class="space"> plantillas prediseñadas logras enviar masivamente <br class="space"> mensajes personalizados con tan solo un clic.',
   'img4' => App::setFilePath('/assets/images/illustrations/others/icono-13 1.png'),
   'title4' => 'Automatiza para ahorrar <br class="space"> tiempo y <span class="greenBlueColor">evitar errores</span>',
-  'desc4' => 'Nunca más realices tareas repetitivas de <br class="space"> marketing digital y ventas. Programa <br class="space"> recordatorios, acciones y mensajes que <br class="space"> aumentan tu productividad.',
+  'desc4' => '
+  Nunca más realices tareas repetitivas de <br class="space"> marketing digital y ventas. Programa <br class="space"> recordatorios, acciones y mensajes que <br class="space"> aumentan tu productividad.',
   'img5' => App::setFilePath('/assets/images/illustrations/others/icono-15 1.png'),
   'title5' => '<span class="greenBlueColor">Ten la visibilidad</span> de los <br class="space"> resultados de tu negocio',
-  'desc5' => 'Lo que no se mide, no mejora. Escala te da <br class="space"> las analíticas necesarias en dashboards <br class="space"> amigables para que optimices tus <br> esfuerzos <br class="mobileElement"> de venta y marketing.',
+  'desc5' => '
+  Lo que no se mide, no mejora. Escala te da <br class="space"> las analíticas necesarias en dashboards <br class="space"> amigables para que optimices tus <br class="desktopTabletElement"> esfuerzos de venta y marketing.',
  ) ;
 @endphp
 
@@ -160,11 +165,12 @@
 
         <div class="containElements">
 
-          <h3 class="primaryTitle whiteText">Acelera el crecimiento de tu negocio
+          <h3 class="primaryTitle whiteText">
+            Acelera el crecimiento de tu negocio
           </h3>
 
-          <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-            Comenzar ahora
+          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+            Prueba Gratis
           </a>
 
 

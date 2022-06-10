@@ -45,7 +45,8 @@
 
 
                         <p class="primaryText grayColorTexts">
-                            Con cada plan adquirido por tus referidos ganas hasta un 30% de comisiones. Crecen tus <br
+
+                                Con cada plan adquirido por tus referidos ganas hasta un 30% de comisiones. Crecen tus <br
                                 class="desktopElement"> ingresos pasivos, mientras tu comunidad de negocios incrementa sus ventas con Escala.
                         </p>
 
@@ -62,13 +63,13 @@
                     'type' => 'backgroundColor',
                     'classSection' => 'landingAfiliados2',
                     'enableTitle' => true,
-                    'titlePrincipal' => '¿Para quién está diseñado el <br class="space"> programa de afiliados de Escala?',
+                    'titlePrincipal' => '¿Para quién está diseñado el <br class="desktopTabletElement"> programa de afiliados de Escala?',
                     'overlay' => false,
                     'overlayImage' => null,
-                    'enableButton' => true,
-                    'urlButton' => '#',
-                    'textButton' => 'Comenzar ahora',
-                    'typeButton' => 'primaryButton hoverInEffect',
+                    'enableButton' => false,
+                    // 'urlButton' => '#',
+                    // 'textButton' => 'Comenzar ahora',
+                    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                     'elements' => [
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/icons-afiliados_1.png'),
@@ -78,7 +79,7 @@
                         ],
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/icons-afiliados_2.png'),
-                            'title' => '<span class="greenBlueColor">Influenciadores <br class="spac"> de PYMES</span>',
+                            'title' => '<span class="greenBlueColor">Influenciadores <br class="space"> de PYMES</span>',
                             'text' => 'Si eres un conocedor de las plataformas todo en uno <br class="desktopTabletElement"> y tienes una comunidad de PYMES a <br class="desktopTabletElement"> la cual puedes orientar para acelerar el <br class="desktopTabletElement"> crecimiento de sus negocios, eres perfecto <br class="desktopTabletElement"> para convertirte en un afiliado.',
                             'enableButton' => false,
                         ],
@@ -103,18 +104,18 @@
                     'classSection' => 'landingAfiliados3',
                     'enableTitle' => true,
                     'titlePrincipal' => '¿Cómo ser un afiliado Escala?',
-                    'subTitlePrincipal' => 'Ser un afiliado de Escala es muy fácil. Regístrate,   promociona y comienza a ganar comisiones.',
+                    'subTitlePrincipal' => 'Ser un afiliado de Escala es muy fácil, debes: Compartir, convertir y recibir tu comisión.',
                     'overlay' => false,
                     'overlayImage' => null,
-                    'enableButton' => true,
-                    'urlButton' => '#',
-                    'textButton' => 'Registrarme ahora',
-                    'typeButton' => 'primaryButton hoverInEffect',
+                    'enableButton' => false,
+                    // 'urlButton' => '#',
+                    // 'textButton' => 'Registrarme ahora',
+                    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
                     'elements' => [
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/afiliados-steps_1.png'),
                             'title' => '<span class="greenBlueColor">Regístrate</span>',
-                            'text' => 'Llena nuestro formulario con tus datos <br class="desktopTabletElement"> y envíanos tu postulación.',
+                            'text' => 'Escríbenos y envíanos tu <br class="desktopTabletElement"> postulación',
                             'enableButton' => false,
                         ],
                         [
@@ -134,6 +135,29 @@
             @endphp
             @contain_5_cards_T1( $parameters )
             @endcontain_5_cards_T1
+
+
+            <section class="customSection sectionParent extraText3">
+
+                <div class="section-row">
+
+                      <section class="innerSectionElement">
+
+                        <h2 class="primaryTitle whiteColor">
+                          <span class="greenBlueColor">Para mayor informacion escríbenos a</span> <span class="orangeColor">afiliados@escala.com</span>
+                        </h2>
+
+                        {{-- <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                          Comenzar ahora
+                        </a> --}}
+
+
+                      </section>
+
+                </div>
+
+
+              </section>
 
 
 
@@ -211,9 +235,13 @@
                             ¿Estás listo para ganar comisiones con Escala?
                         </h2>
 
-                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                        {{-- <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                             ¡Sí, más que listo!
-                        </a>
+                        </a> --}}
+
+                        <p>
+                            <span class="greenBlueColor">Para mayor informacion escríbenos a</span> <span class="orangeColor">afiliados@escala.com</span>
+                        </p>
 
 
                     </section>
@@ -233,7 +261,7 @@
                     'title' => '<span class="greenBlueColor">Te ayudamos a enamorar <br class="space">
                 a tus referidos</span>',
                     'img' => App::setFilePath('/assets/images/illustrations/team/crm_afiliates.png'),
-                    'text' => 'Te damos todo el material de comunicación que necesitas para <br class="desktopTabletElement"> que tus referidos entiendan los grandes beneficios que obtienen <br class="desktopTabletElement"> con Escala. Desde lead magnets como: ebooks, webinars, artículos <br class="desktopTabletElement"> de blog y material white label para promoción.',
+                    'text' => 'Te damos todo el material de comunicación que necesitas para <br class="desktopTabletElement"> que tus referidos entiendan los grandes beneficios que obtienen <br class="desktopTabletElement"> con Escala. Tendrás lead magnets como: artículos de blog y PDF´s <br class="desktopTabletElement"> explicando cada plan.',
                     'enableButton' => false,
                     // 'urlButton' => '#lead-form',
                     // 'textButton' => 'Segmentar ahora',
@@ -268,9 +296,9 @@
                             ¡Tus finanzas crecen con <br class="space"> Escala!
                         </h2>
 
-                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
+                        {{-- <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
                             Quiero ser afiliado
-                        </a>
+                        </a> --}}
 
                     </div>
 
@@ -284,7 +312,7 @@
             </section>
 
 
-            @php
+            {{-- @php
                 $parameters = [
                     'classSection' => 'landingAfiliados10',
                     'title' => '¡Regístrate hoy mismo <br class="space"> y gana grandes comisiones!',
@@ -296,7 +324,30 @@
             @endphp
             @bannerForms7_T1( $parameters )
 
-            @endbannerForms7_T1
+            @endbannerForms7_T1 --}}
+
+
+ @php
+ $parameters = [
+     'type' => 'backgroundColor',
+     'classSection' => 'landingAfiliados10',
+     'enableTitle' => false,
+     'titlePrincipal' => null,
+     'subTitlePrincipal' => null,
+     'title' => '¡Regístrate hoy mismo <br class="desktopTabletElement"> y gana grandes comisiones!',
+     'img' => App::setFilePath('/assets/images/illustrations/otto/otto-ventas 1.png'),
+     'text' => 'Escríbenos a <span class="orangeColor">afiliados@escala.com</span> y regístrate en <br class="desktopTabletElement"> nuestro programa de afiliados hoy mismo',
+     'enableButton' => false,
+     // 'urlButton' => '#lead-form',
+     // 'textButton' => 'Segmentar ahora',
+     'side' => 'left',
+ ];
+@endphp
+
+@contain_text_image_T1( $parameters )
+
+@endcontain_text_image_T1
+
 
 
 

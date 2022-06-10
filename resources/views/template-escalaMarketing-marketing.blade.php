@@ -36,14 +36,14 @@
         'type' => 'backgroundColor',
         'classSection' => 'eMarketing1',
         'enableTitle' => true,
-        'titlePrincipal' => '<span class="greenBlueColor">La plataforrma todo-en-uno de Marketing y Ventas</span> <br class="space"> que potencia tu crecimiento',
+        'titlePrincipal' => '<span class="greenBlueColor">La plataforma todo-en-uno de Marketing y Ventas</span> <br class="space"> que potencia tu crecimiento',
         'subTitlePrincipal' => null,
         'overlay' => false,
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-2a.png'),
-                'title' => '<span class="grayColorTexts5"Genera más leads o una <br class="space"> base de datos de nuevos <br class="space"> clientes potenciales</span>',
+                'title' => '<span class="grayColorTexts5">Genera más leads o una <br class="space"> base de datos de nuevos <br class="space"> clientes potenciales</span>',
                 'enableButton' => false,
             ],
             [
@@ -58,7 +58,7 @@
             ],
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-2d1.png'),
-                'title' => '<span class="grayColorTexts5">Nutre la relación con tus <br class="space"> contactos y comúnicate más <br class="space"> efectivamente con poderosas <br class="space"> campañas de Email Marketing</span>',
+                'title' => '<span class="grayColorTexts5">Nutre la relación con tus <br class="space"> contactos y comunícate más <br class="space"> efectivamente con poderosas <br class="space"> campañas de Email Marketing</span>',
                 'enableButton' => false,
             ],
         ],
@@ -82,7 +82,7 @@
   'text' => 'Crea, publica y gestiona tus campañas de anuncios digitales, <br> sin salir de Escala. De la manera más fácil e intuitiva, ten <br> visibilidad sobrer el retorno de inversión con analíticas <br> relevantes que se integran a tus esfuerzos de venta.',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'textButton' => 'Prueba Escala ya',
   'side' => 'right',
  ) ;
@@ -125,7 +125,7 @@
   'text' => '<span class="whiteColor">Segmenta tu base de datos y envía mensajes relevantes en <br> el momento oportuno para potenciar tu crecimiento. Es fácil <br> y rápido. Diseña hermosos emails personalizando plantillas <br> y envíalos masivamente con solo un clic.</span>',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'textButton' => 'Prueba Escala ya',
   'side' => 'right',
  ) ;
@@ -143,10 +143,10 @@
   'subTitlePrincipal' => null,
   'title' => 'Deja de hacer tareas <br class="space"> repetitivas. <span class="greenBlueColor">Automatiza y <br class="space"> aumenta tu productividad</span>',
   'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-131.png'),
-  'text' => 'Programa el envío de emails y rercordatorios para que no <br> pierdas oportundiades de venta.  Automatiza tareas como <br> la asignación de leads a vendedores, el cambio de status en <br> el CRM y la segmentación de tu base de datos para que <br> ahorres tiempo y energía al escalar tu negocio.',
+  'text' => 'Programa el envío de emails y rercordatorios para que no <br> pierdas oportunidades  de venta.  Automatiza tareas como <br> la asignación de leads a vendedores, el cambio de status en <br> el CRM y la segmentación de tu base de datos para que <br> ahorres tiempo y energía al escalar tu negocio.',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'textButton' => 'Prueba Escala ya',
   'side' => 'left',
  ) ;
@@ -164,11 +164,11 @@
   'subTitlePrincipal' => null,
   'title' => '<span class="greenBlueColor">Mide y optimiza tus resultados</span> <br class="space"> con analíticas relevantes',
   'img' => App::setFilePath('/assets/images/illustrations/others/escalamarketing_nuevasilust-121.png'),
-  'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br> entender qué funciona y qué puedes mejorar para optimizar tu <br> marketing digital. Ten tableros amigables que miden el <br> rendimiento de Ads, Landing Pages y campañas de Email.
+  'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br> entender qué funciona y qué puedes mejorar para optimizar tu <br> marketing digital. Cuenta con tableros amigables que miden el <br> rendimiento de ads, landing pages y campañas de emails.
 ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'textButton' => 'Prueba Escala ya',
   'side' => 'right',
  ) ;
@@ -191,7 +191,7 @@
 ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'textButton' => 'Prueba Escala ya',
   'side' => 'left',
  ) ;
@@ -236,7 +236,7 @@
   'title' => '¿Listo para acelerar el crecimiento <br> de tu negocio? <span class="greenBlueColor">Descubre cuán simple <br> es implementar tus estrategias <br> de Marketing Digital con Escala</span>',
   'text' => null,
   'enableButton' => true,
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
     'urlButton' => '#lead-form',
   'textButton' => 'Prueba Escala ya',
   'side' => 'left',

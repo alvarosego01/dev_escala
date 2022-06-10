@@ -8,13 +8,11 @@ use Sober\Controller\Controller;
 class SetComponents extends Controller
 {
 
-
-
     public function setAllComponents()
     {
 
-
         $components = array_merge(
+
             $this->setBannersForms7Components(),
             $this->setHeadersComponents(),
             $this->setCallToActionsComponents(),
@@ -22,9 +20,12 @@ class SetComponents extends Controller
             $this->setBlogComponents(),
             $this->setNavbarsComponents(),
             $this->setExitoCasoComponents(),
+            $this->setPopUpsComponents(),
+            $this->setPiePaginaComponents(),
+            $this->setReviewsComponents(),
+            $this->setHeaderBandsComponents()
 
         );
-
 
         return $components;
     }
@@ -35,6 +36,40 @@ class SetComponents extends Controller
 
         return array(
             'components.bannerForms7.component-banner-forms7-T1' => 'bannerForms7_T1'
+        );
+    }
+
+    private function setPopUpsComponents()
+    {
+        return array(
+            'components.popups.component-popup-general-T1' => 'popup_general_t1',
+            'components.popups.component-popup-general-blue-T2' => 'popup_general_blue_t2',
+            'components.popups.component-popup-general-2022' => 'popup_general_2022',
+            'components.popups.component-popup-special-message-2022' => 'popup_special_message'
+        );
+    }
+
+    private function setPiePaginaComponents()
+    {
+        return array(
+
+            'components.footers.component-footer-general' => 'piePagina_general'
+
+        );
+    }
+
+    private function setHeaderBandsComponents()
+    {
+
+        return array(
+            'components.headerBands.component-headerBand-promo-T1' => 'headerBand_promo_T1'
+        );
+    }
+
+    private function setReviewsComponents()
+    {
+        return array(
+            'components.reviews.component-trustPilots-reviews-slider-T1' => 'reviews_sliders_T1'
         );
     }
 
@@ -90,6 +125,7 @@ class SetComponents extends Controller
             'components.contain.info.component-info-aio-5steps' => 'contain_aio5',
             'components.contain.info.component-info-4steps-loading' => 'contain_4steps_loading',
             'components.contain.info.component-info-text-image-T1' => 'contain_text_image_T1',
+            'components.contain.info.component-info-text-video-T1' => 'contain_text_video_T1',
             'components.contain.info.component-info-testimonial-image-T1' => 'contain_testimonial_T1',
             'components.contain.info.component-info-FAQ-T1' => 'contain_FAQ_T1',
             'components.contain.info.component-info-accordion-T1' => 'contain_accordion_T1',
@@ -111,7 +147,8 @@ class SetComponents extends Controller
 
             'components.navBar.component-navbar-default' => 'navBar_default',
             'components.navBar.component-navbar-blog' => 'navBar_blog',
-            'components.navBar.component-navbar-landings' => 'navBar_landings',
+            'components.navBar.landingPages.component-navbar-landing-global1' => 'landing_global1',
+            'components.navBar.landingPages.component-navbar-landing-global2' => 'landing_global2',
 
         );
     }
@@ -132,6 +169,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-zoom-demo-meeting.blade.php",
+                "views/template-zoom-demo-escala.blade.php",
                 "views/template-zoom-demo-home.blade.php",
                 "views/template-zoom-demo-home-landing.blade.php",
                 "views/template-zoom-demo-home-step1.blade.php",
@@ -142,17 +180,30 @@ class SetComponents extends Controller
         }
 
 
+        if ($type == 'subPages') {
+            return array(
+
+                "views/template-escala-subpages-fidelizacion.blade.php",
+                "views/template-escala-subpages-ventas.blade.php",
+                "views/template-escala-subpages-marketing.blade.php",
+                "views/template-subPage-implementacion.blade.php",
+                "views/template-subPage-about-us.blade.php"
+
+            );
+        }
         if ($type == 'escalaVentas') {
             return array(
 
-                "views/template-escalaVentas-ventas.blade.php"
+                "views/template-escalaVentas-ventas.blade.php",
+                // "views/template-escala-ventas.blade.php"
 
             );
         }
         if ($type == 'escalaMarketing') {
             return array(
 
-                "views/template-escalaMarketing-marketing.blade.php"
+                "views/template-escalaMarketing-marketing.blade.php",
+                // "views/template-escala-marketing.blade.php"
 
             );
         }
@@ -185,6 +236,9 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-landing-incredible.blade.php",
+                "views/template-landing-video-am.blade.php",
+                "views/template-landing-landing-pages-2022.blade.php",
+                "views/template-landing-email-mk-2022.blade.php",
                 "views/template-landing-pricing-page.blade.php",
                 "views/template-landing-incredible-demo.blade.php",
                 "views/template-landing-whatsapp.blade.php",
@@ -197,9 +251,15 @@ class SetComponents extends Controller
                 "views/template-landing-afiliados.blade.php",
                 "views/template-landing-partners.blade.php",
                 "views/template-landing-CRM.blade.php",
+                "views/template-landing-CRM-2022.blade.php",
+                "views/template-landing-ADS-2022.blade.php",
                 "views/template-landing-increibles-otto.blade.php",
                 "views/template-landing-navidad.blade.php",
-
+                "views/template-landing-incredible-trial-2.blade.php",
+                "views/template-landing-increibles-am-otto.blade.php",
+                "views/template-landing-home-crm-mas-expertos.blade.php",
+                "views/template-landing-home-crm-todo-en-uno.blade.php",
+                "views/template-landing-allinone.blade.php",
 
             );
         }
@@ -207,6 +267,10 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-landing-servicios-salud.blade.php",
+                "views/template-landing-servicios-inmobiliarias.blade.php",
+                "views/template-landing-servicios-coaching.blade.php",
+                "views/template-landing-servicios-educacion.blade.php",
+                "views/template-landing-servicios-finanzas.blade.php",
                 "views/template-landing-servicios-seguros.blade.php",
 
             );
@@ -216,7 +280,9 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-home-youtube.blade.php",
                 "views/template-escala-fex.blade.php",
+                // "views/template-home-2021.blade.php",
 
             );
         }
@@ -226,10 +292,22 @@ class SetComponents extends Controller
            return array(
 
                 "views/template-home.blade.php",
+                // "views/template-home-2021.blade.php",
 
             );
 
         }
+
+        if ($type == 'termsText') {
+
+           return array(
+
+                "views/template-document-terms-text.blade.php",
+
+            );
+
+        }
+
         if ($type == 'casoExito') {
 
            return array(
@@ -245,7 +323,18 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-document-terms-text.blade.php",
+                "views/template-home-youtube.blade.php",
+                "views/template-landing-video-am.blade.php",
+                "views/template-home-2021.blade.php",
+                "views/template-landing-incredible-trial-2.blade.php",
+                "views/template-landing-increibles-am-otto.blade.php",
+                "views/template-landing-home-crm-mas-expertos.blade.php",
+                "views/template-landing-home-crm-todo-en-uno.blade.php",
+                "views/template-landing-allinone.blade.php",
                 "views/template-landing-incredible.blade.php",
+                "views/template-landing-landing-pages-2022.blade.php",
+                "views/template-landing-email-mk-2022.blade.php",
                 "views/template-landing-incredible-demo.blade.php",
                 "views/template-landing-whatsapp.blade.php",
                 "views/template-landing-correos-masivos.blade.php",
@@ -256,11 +345,17 @@ class SetComponents extends Controller
                 "views/template-landing-navidad.blade.php",
                 "views/template-landing-masive-mailing.blade.php",
                 "views/template-landing-CRM.blade.php",
+                "views/template-landing-CRM-2022.blade.php",
+                "views/template-landing-ADS-2022.blade.php",
+                "views/template-landing-ADS-2022.blade.php",
                 "views/template-landing-afiliados.blade.php",
                 "views/template-landing-partners.blade.php",
                 "views/template-landing-landingPages2.blade.php",
                 "views/template-escalaVentas-ventas.blade.php",
+                "views/template-escala-subpages-ventas.blade.php",
                 "views/template-escalaMarketing-marketing.blade.php",
+                "views/template-escala-subpages-marketing.blade.php",
+                "views/template-subPage-about-us.blade.php",
                 "views/template-func-page-builder.blade.php",
                 "views/template-func-analiticas.blade.php",
                 "views/template-func-automatization.blade.php",
@@ -270,6 +365,7 @@ class SetComponents extends Controller
                 "views/template-func-digital-announces.blade.php",
                 "views/template-escala-fex.blade.php",
                 "views/template-zoom-demo-meeting.blade.php",
+                "views/template-zoom-demo-escala.blade.php",
                 "views/template-open-webinar-escala.blade.php",
                 "views/template-open-webinar-escala-meeting.blade.php",
                 "views/template-blog-home.blade.php",
@@ -283,7 +379,14 @@ class SetComponents extends Controller
                 "views/template-zoom-demo-home-step2.blade.php",
                 "views/template-landing-pricing-page.blade.php",
                 "views/template-landing-servicios-salud.blade.php",
+                "views/template-landing-servicios-inmobiliarias.blade.php",
+                "views/template-landing-servicios-coaching.blade.php",
+                "views/template-landing-servicios-educacion.blade.php",
+                "views/template-landing-servicios-finanzas.blade.php",
                 "views/template-landing-servicios-seguros.blade.php",
+                "views/template-escala-subpages-fidelizacion.blade.php",
+                "views/template-subPage-implementacion.blade.php"
+
 
             );
         }

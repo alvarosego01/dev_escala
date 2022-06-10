@@ -88,7 +88,7 @@
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Comenzar ahora',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -104,7 +104,7 @@
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/others/05_FB.png'),
   'title' => '<span class="greenBlueColor">Conecta fácilmente</span> <br> tus anuncios digitales <br> a tus páginas',
-  'text' => 'Una vez que has creado potentes campañas de anuncios digitales <br> en Escala, simplemente selecciona el landing page al que deseas <br> dirigir el tráfico ¡y voilà!
+  'text' => 'Una vez que has creado potentes campañas de anuncios digitales <br> en Escala, simplemente selecciona la landing page a la cual deseas <br> dirigir el tráfico ¡y voilà!
 <br class="space"><br class="space">
 Estás listo para desbordar tus landing pages con visitantes.',
   'enableButton' => false,
@@ -113,6 +113,9 @@ Estás listo para desbordar tus landing pages con visitantes.',
   'side' => 'right',
  ) ;
 @endphp
+
+
+
 
 @contain_text_image_T1( $parameters )
 
@@ -160,7 +163,7 @@ Lo que no se mide no mejora. Conoce lo que funciona, <br> aprende de lo que no y
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Optimizar resultados',
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -213,7 +216,7 @@ Las páginas creadas en Escala ya vienen con el <br> Pixel de Facebook integrado
   'title' => '<span class="blueLightColor3">¡Consigue más visitantes</span> <br> calificados ahora!',
   'text' => null,
   'enableButton' => true,
-  'typeButton' => 'primaryButton',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
     'urlButton' => '#lead-form',
   'textButton' => 'Pruébalo ahora',
   'side' => 'right',

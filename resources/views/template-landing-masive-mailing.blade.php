@@ -3,9 +3,6 @@
   Template Name: [B] Landing - Masive mailing
 --}}
 
-
-
-
 @extends('layouts.app')
 
 @section('content')
@@ -90,8 +87,8 @@
                   ¡Comienza a crear tus campañas de email marketing efectivas ahora!
                 </h2>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-                  Comenzar ahora
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                  Prueba Gratis
                 </a>
 
 
@@ -163,8 +160,8 @@
           <h3 class="primaryTitle whiteText">Acelera el crecimiento de tu negocio
           </h3>
 
-          <a href="#lead-form" class="goToHash primaryButton hoverInEffect">
-            Comenzar ahora
+          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+            Prueba Gratis
           </a>
 
 

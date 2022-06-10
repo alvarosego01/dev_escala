@@ -21,15 +21,24 @@
 
                         <div class="containElements">
 
-                            <div class="formatForm" redirectWeb="true">
+                            <div class="formatForm redirectWeb"   redirectWeb="true">
 
                                 <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 
                                 {{-- {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!} --}}
 
-                                @php
-                                    $f = ACF_CUSTOM::_getField('form7');
-                                @endphp
+                                @if ( isset( $setForm ) && $setForm != null && $setForm != '' )
+
+                                    @php
+                                        $f = $setForm;
+                                    @endphp
+
+                                @else
+                                    @php
+                                        $f = ACF_CUSTOM::_getField('form7');
+                                    @endphp
+                                @endif
+
                                 @if (isset($f) && $f != null)
                                     {!! do_shortcode($f) !!}
                                 @else
@@ -58,6 +67,12 @@
                                     {!! $text !!}
                                 </p>
                             @endif
+
+                            @if ($enableButton != null)
+                            <a href="{{ $urlButton }}" class="goToHash boton {{ $typeButton }}">
+                                {{ $textButton }}
+                            </a>
+                        @endif
 
                             <div class="containerImage">
                                 <img src="{{ $image }}" alt="" loading="lazy">
@@ -88,6 +103,12 @@
                                 </p>
                             @endif
 
+                            @if ($enableButton != null)
+                            <a href="{{ $urlButton }}" class="goToHash boton {{ $typeButton }}">
+                                {{ $textButton }}
+                            </a>
+                        @endif
+
                             <div class="containerImage">
                                 <img src="{{ $image }}" alt="" loading="lazy">
                             </div>
@@ -102,15 +123,24 @@
 
                         <div class="containElements">
 
-                            <div class="formatForm" redirectWeb="true">
+                            <div class="formatForm redirectWeb"   redirectWeb="true">
 
                                 <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 
                                 {{-- {!! do_shortcode( '[contact-form-7 id="73" title="Contacto Paso 1"]' ); !!} --}}
 
-                                @php
-                                    $f = ACF_CUSTOM::_getField('form7');
-                                @endphp
+                                @if ( isset( $setForm ) && $setForm != null && $setForm != '' )
+
+                                    @php
+                                        $f = $setForm;
+                                    @endphp
+
+                                @else
+                                    @php
+                                        $f = ACF_CUSTOM::_getField('form7');
+                                    @endphp
+                                @endif
+
                                 @if (isset($f) && $f != null)
                                     {!! do_shortcode($f) !!}
                                 @else

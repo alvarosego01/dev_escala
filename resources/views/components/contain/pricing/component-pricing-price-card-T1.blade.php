@@ -15,81 +15,162 @@
 
 @var $typeButton - set type off button (secondaryButton || primaryButton) --}}
 
+
+{{-- <div class="checkbox_slider_container">
+    <input type="radio" class="planSelect check_opc1" name="planSelect" id="planSelect1" checked hidden/>
+    <label for="planSelect1">
+        Pago mensual
+    </label>
+    <input type="radio" class="planSelect check_opc2" name="planSelect" id="planSelect2" hidden/>
+    <label for="planSelect2">
+        Pago anual. <br class="space">
+        <span class="greenBlueColor">Ahorras 30%</span>
+    </label>
+</div> --}}
+
+
+
+
+@php
+    $pb_starter = 30;
+    $pb_pro = 135;
+    $c_desc = 0.30;
+
+    $pd_starter = $pb_starter - ( $pb_starter * $c_desc );
+    $pd_pro = $pb_pro - ( $pb_pro * $c_desc );
+
+    $pg_ta_starter = $pb_starter * 12;
+    $pg_ta_pro = $pb_pro * 12;
+
+    $pg_desc_starter = $pd_starter * 12;
+    $pg_desc_pro = $pd_pro * 12;
+
+
+@endphp
+
+
+
 @php
 $items = [
     [
         'name' => 'plan1',
         'type' => 'master',
-        'title' => 'Plan <span class="greenBlueColor">Starter</span>',
+        'title' => 'Plan <span class="orangeColor">Starter</span>',
         'price' => 'A partir de <br class="space">
         <span class="cost">
-            <i class="fas fa-dollar-sign"></i>
-            <span class="numerCost">30</span>
             <span
             style="display: none"
-            class="discountCost">24</span>
+            class="numerCost">30</span>
+            <span
+            class="discountCost" style="display: flex">
+            <span>21 </span>
+
+            </span>
             <span class="usd">
                 USD
             </span>
         </span>',
+        'pricePreviewMobie' => 'A partir de <br class="space">
+        <span class="cost">
+
+            <span
+            style="display: none"
+            class="numerCost">30</span>
+            <span
+
+            class="discountCost" style="display: flex">
+            <span>21 </span>
+
+
+            </span>
+            <span class="usd">
+                USD
+            </span>
+        </span>
+        <small class="preViewPriceTag">
+            Precio mensual en plan anual
+        </small>
+        ',
         'typePrice' => 'Dollar',
         'middleType' => 'selectorAnual',
         'textMiddle' => null,
         'button' => true,
-        'textButton' => 'Prueba Escala ahora',
-        'extendInfoButton' => true,
+        'textButton' => 'Prueba Gratis',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         'customClasses' => 'cardPlan1',
+        'extendInfoButton' => true,
         'discountTest' => '
         <p class="primaryText">
-                <span class="ncost">
-                    usd/mes
-                </span>
-                <span class="t1">Pago total anual <span class="priceDotted">360 $USD</span></span>
+
+                <span class="t1">Pago total anual <span class="priceDotted">'. $pg_ta_starter .' USD</span></span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento 288 $USD
+                        Con descuento '. $pg_desc_starter .' USD
                     </strong>
                 </span>
         </p>',
+
         'extendDetails' => [
             [
                 'title' => 'Landing page',
-                'items' => ['Páginas: <strong>ilimitadas</strong>', 'Subdominio personalizado', 'Dominios propios: <strong>1</strong>'],
+                'items' => ['
+                Páginas: <strong>ilimitadas</strong>',
+                'Subdominio personalizado',
+                'Dominios propios: <strong>1</strong>'
+            ],
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <br class="space"> <strong>5.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => [
+                    'Emails marketing al mes: <strong>5.000</strong>',
+                    'Plantillas: <strong>todas las disponibles</strong>'
+                ],
             ],
             [
                 'title' => 'Automatizaciones',
-                'items' => ['Flujos: <strong>ilimitados</strong>'],
+                'items' => ['Flujos: <strong>5</strong>'],
             ],
             [
                 'title' => 'Formularios',
-                'items' => ['Número de formularios: <strong>ilimitados</strong>'],
+                'items' => [
+                    'Número de formularios: <strong>ilimitados</strong>'
+                ],
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong>1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>1.000</strong>', 'Usuarios de venta: <strong>1</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => [
+                    'Contactos en base de datos: <strong>1.000.000</strong>',
+                    'Contactos de marketing: <strong>1.000</strong>',
+                    'Usuarios de venta: <strong>1</strong>',
+                    'Emails de CRM: <strong>ilimitados</strong>',
+                    'Múltiples embudos de ventas: 1'
+                ],
             ],
+
             [
                 'title' => 'Anuncios Digitales',
-                'items' => ['Cuentas de Facebook Ads Manager: <strong>1</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'],
+                'items' => [
+                    'Cuentas de Facebook Ads Manager: <strong>1</strong>',
+                    'Campañas publicadas: <strong>ilimitadas</strong>'
+                ],
             ],
+
             [
                 'title' => 'Analíticas',
-                'items' => ['Dashboard de <strong>administradores y vendedores</strong>'],
+                'items' => [
+                    'Dashboard de <strong>administradores y vendedores</strong>'
+                ],
             ],
         ],
         'details' => [
             [
                 'title' => null,
                 'items' => [
-                    'Usuarios de venta: <strong>1</strong>',
-                    // 'Contactos en base de datos: <strong>1.000.000</strong>',
-                    'Emails marketing al mes: <strong>5.000</strong>',
-                    'Dominios propios: <strong>1</strong>',
-                    'Cuentas de Facebook Ads Manager: <strong>1</strong>'
+                    'Landing Pages limitadas',
+                    'Dominio personalizado',
+                    'CRM integrado',
+                    'Formularios ilimitados',
+                    'Analíticas',
                 ],
             ],
         ],
@@ -97,78 +178,138 @@ $items = [
     [
         'name' => 'plan2',
         'type' => 'master',
-        'title' => 'Plan <span class="orangeColor">Pro</span>',
+        'recomend' => true,
+        'title' => 'Plan <span class="greenBlueColor">Pro</span>',
         'price' => 'A partir de <br class="space">
         <span class="cost">
-            <i class="fas fa-dollar-sign"></i>
-            <span class="numerCost">60</span>
+
             <span
             style="display: none"
-            class="discountCost">48</span>
+            class="numerCost">135</span>
+            <span
+            class="discountCost" style="display: flex">
+            <span>94</span>
+            <span class="smallDecimal">.50</span>
+
+            </span>
             <span class="usd">
                 USD
             </span>
-        </span>',
+        </span>
+        <span class="specialNote">
+            <small>
+                Implementación personalizada: <br class="mobileElement">
+                <strong>Pago único 450 USD</strong>
+            </small>
+            <button class=" hoverInEffect openPopUpButton popup-pricing-implement">
+                <i class="la la-question-circle"></i>
+            </button>
+        </span>
+        ',
+        'pricePreviewMobie' => 'A partir de <br class="space">
+        <span class="cost">
+
+            <span
+            style="display: none"
+            class="numerCost">135</span>
+            <span
+            class="discountCost" style="display: flex">
+            <span>94</span><span class="smallDecimal">.50</span>
+
+            </span>
+            <span class="usd">
+                USD
+            </span>
+        </span>
+        <small class="preViewPriceTag">
+            Precio mensual en plan anual
+        </small>
+        ',
         'typePrice' => 'Dollar',
         'middleType' => 'selectorAnual',
         'textMiddle' => null,
         'button' => true,
-        'textButton' => 'Prueba Escala ahora',
+        'textButton' => 'Solicitar Demo',
+        'typeButton' => 'secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         'extendInfoButton' => true,
         'customClasses' => 'cardPlan2',
         'discountTest' => '
         <p class="primaryText">
 
-                <span class="ncost">
-                    usd/mes
-                </span>
-                <span class="t1">Pago total anual <span class="priceDotted">720 $USD</span></span>
+
+                <span class="t1">Pago total anual <span class="priceDotted">'. $pg_ta_pro .' USD</span></span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento 576 $USD
+                        Con descuento '. $pg_desc_pro .' USD
                     </strong>
                 </span>
         </p>',
         'extendDetails' => [
             [
                 'title' => 'Landing page',
-                'items' => ['Páginas: <strong>ilimitadas</strong>', 'Subdominio personalizado', 'Dominios propios: <strong>5</strong>'],
+                'items' => [
+                    'Páginas: <strong>ilimitadas</strong>',
+                    'Subdominio personalizado',
+                    'Dominios propios: <strong>5</strong>'],
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <br class="space"> <strong>20.000</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => [
+                    'Emails marketing al mes: <strong>50.000</strong>',
+                    'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
                 'title' => 'Automatizaciones',
-                'items' => ['Flujos: <strong>ilimitados</strong>'],
+                'items' => [
+                    'Flujos: <strong>100</strong>',
+                    'Bifurcaciones de flujos'
+            ],
             ],
             [
                 'title' => 'Formularios',
-                'items' => ['Número de formularios: <strong>ilimitados</strong>'],
+                'items' => [
+                    'Número de formularios: <strong>ilimitados</strong>'
+                ],
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong> 1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>2.000</strong>', 'Usuarios de venta: <strong>2</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => [
+                    'Contactos en base de datos: <strong>1.000.000</strong>',
+                    'Contactos de marketing: <strong>5.000</strong>',
+                    'Usuarios de venta: <strong>1</strong>',
+                    'Emails de CRM: <strong>ilimitados</strong>',
+                    'Múltiples embudos de ventas: <strong>10</strong>',
+                    'Lead scoring',
+                    'Segmentación avanzada',
+                    'Extensión de WhatsApp Web'
+            ],
             ],
             [
                 'title' => 'Anuncios Digitales',
-                'items' => ['Cuentas de Facebook Ads Manager: <strong>3</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'],
+                'items' => [
+                    'Cuentas de Facebook Ads Manager: <strong>3</strong>',
+                    'Campañas publicadas: <strong>ilimitadas</strong>'
+                ],
             ],
             [
                 'title' => 'Analíticas',
-                'items' => ['Dashboard de <strong>administradores y vendedores</strong>'],
+                'items' => [
+                    'Dashboard de <strong>administradores y vendedores</strong>'
+                ],
             ],
         ],
         'details' => [
             [
                 'title' => null,
                 'items' => [
-                'Usuarios de venta: <strong>2</strong>',
-                // 'Contactos en base de datos: <strong>1.000.000</strong>',
-                'Emails marketing al mes: <strong>20.000</strong>',
-                'Dominios propios: <strong>5</strong>',
-                'Cuentas de Facebook Ads Manager: <strong>3</strong>'
+                    'Bifurcaciones de flujos',
+                    'Múltiples embudos de ventas',
+                    'Lead scoring',
+                    'Segmentación avanzada',
+                    'Extensión WhatsApp Web',
             ],
+
+
             ],
         ],
     ],
@@ -177,55 +318,96 @@ $items = [
         'type' => 'master',
         'title' => 'Plan <span class="greenBlueColor">Enterprise</span>',
         'price' => '<span class="contactos">
-            <span><i class="fas fa-dollar-sign"></i> CONSULTAR</span>
+            <span>CONSULTAR</span>
         </span>',
+        'pricePreviewMobie' => '
+        <small class="preViewPriceTag">
+            <strong>A partir de 100.000 contactos de Marketing</strong>
+            <br class="space">
+            <br class="space">
+            Contáctanos para crear un plan hecho <br class="space">
+            a la medida de tu necesidades
+        </small>
+        ',
         'typePrice' => null,
         'middleType' => null,
-        'textMiddle' => 'Contáctanos para crear un plan hecho<br class="space">a la medida de tu necesidades',
+        'textMiddle' => '
+            <strong>A partir de 100.000 contactos de Marketing</strong>
+            <br class="space">
+            <br class="space">
+            Contáctanos para crear un plan hecho <br class="space">
+            a la medida de tu necesidades
+        ',
         'button' => true,
-        'textButton' => 'Habla con un asesor',
+        'textButton' => 'Hablar con un asesor',
+        'typeButton' => 'openPopUpButton popup-general-demo-2022 primaryWhiteButton hoverInEffect',
         'customClasses' => 'cardPlan3',
         'extendInfoButton' => true,
         'extendDetails' => [
             [
                 'title' => 'Landing page',
-                'items' => ['Páginas: <strong>ilimitadas</strong>', 'Subdominio personalizado', 'Dominios propios: <strong>10</strong>'],
+                'items' => [
+                    'Páginas: <strong>ilimitadas</strong>',
+                    'Subdominio personalizado',
+                    'Dominios propios'
+                ],
             ],
             [
                 'title' => 'Email Marketing',
-                'items' => ['Emails marketing al mes: <br class="space"> <strong> 20 x contactos de marketing</strong>', 'Plantillas: <strong>todas las disponibles</strong>'],
+                'items' => [
+                    'Emails marketing al mes',
+                    'Plantillas: <strong>Todas las disponibles</strong>'
+                ],
             ],
             [
                 'title' => 'Automatizaciones',
-                'items' => ['Flujos: <strong>ilimitados</strong>'],
+                'items' => [
+                    'Flujos: <strong>ilimitados</strong>',
+                    'Bifurcaciones de flujos'
+            ],
             ],
             [
                 'title' => 'Formularios',
-                'items' => ['Número de formularios: <strong>ilimitados</strong>'],
+                'items' => [
+                    'Número de formularios: <strong>ilimitados</strong>'
+                ],
             ],
             [
                 'title' => 'CRM',
-                'items' => ['Contactos en base de datos: <strong> 1.000.000</strong>', 'Contactos de marketing: <br class="space"> <strong>A partir de 100.000</strong>', 'Usuarios de venta: <strong>10</strong>', 'Emails de CRM: <strong>ilimitados</strong>'],
+                'items' => [
+                    'Contactos en base de datos: <strong>10.000.000</strong>',
+                    'Contactos de marketing: <strong>A partir de 100.000</strong>',
+                    'Usuarios de venta',
+                    'Emails de CRM: <strong>ilimitados</strong>',
+                    'Múltiples embudos de ventas',
+                    'Lead scoring',
+                    'Segmentación avanzada',
+                    'Extensión de WhatsApp Web',
+            ],
             ],
             [
                 'title' => 'Anuncios Digitales',
-                'items' => ['Cuentas de Facebook Ads Manager: <strong>5</strong>', 'Campañas publicadas: <strong>ilimitadas</strong>'],
+                'items' => [
+                    'Cuentas de Facebook Ads Manager',
+                    'Campañas publicadas: <strong>ilimitadas</strong>'],
             ],
             [
                 'title' => 'Analíticas',
-                'items' => ['Dashboard de <strong>administradores y vendedores</strong>'],
+                'items' => [
+                    'Dashboard de <strong>administradores y vendedores</strong>'
+                ],
             ],
         ],
         'details' => [
             [
                 'title' => null,
                 'items' => [
-                    'Usuarios de venta: <strong>10</strong>',
-                    // 'Contactos en base de datos: <strong>1.000.000</strong>',
-                    'Emails marketing al mes: <br class="space">
-                    <strong>20 x contactos de marketing</strong>',
-                    'Dominios propios: <strong>10</strong>',
-                    'Cuentas de Facebook Ads Manager: <strong>5</strong>',
+                    'Bifurcaciones de flujos',
+                    'Múltiples embudos de ventas',
+                    'Lead scoring',
+                    'Segmentación avanzada',
+                    'Extensión WhatsApp Web',
+                    // '<br>'
                 ],
             ],
         ],
@@ -235,16 +417,14 @@ $items = [
 @endphp
 
 
-<section class="component-pricing-price-card-T1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section class="component-pricing-price-card-T1 customSection sectionParent {{ $classSection }} ">
 
     <div class="section-row">
 
-
         @if (isset($titlePrincipal) && $titlePrincipal != null)
-            <section class="innerSectionElement sct1">
+            <section class="innerSectionElement sct1 desktopElement">
 
                 <div class="containElements">
-
 
                     <h2 class="primaryTitle whiteColor">
                         {!! $titlePrincipal !!}
@@ -258,13 +438,12 @@ $items = [
 
                     @endif
 
-
                 </div>
 
             </section>
         @endif
 
-        <section class="desktopElement pcVersion innerSectionElement sct2">
+        <section class=" innerSectionElement sct2">
 
             <div class="containElements row">
 
@@ -275,24 +454,30 @@ $items = [
 
                             <div class="elementPrice @if (isset($item['customClasses']) && $item['customClasses'] != '') {!! $item['customClasses'] !!} @endif">
 
+                                @if (isset($item['recomend']) && $item['recomend'] == true)
+
+                                    <span class="recomendTag">
+                                        Recomendado
+                                    </span>
+
+
+                                @endif
+
                                 <div class="had">
                                     <h3 class="secondaryTitle blackColor">
                                         {!! $item['title'] !!}
                                     </h3>
                                 </div>
 
-                                <div class="elementBody">
-
+                                <div class="elementBody desktopElement versionPc2022">
 
                                     <div
-                                    style="margin-bottom: 25px"
+                                    style="margin-bottom: 90px"
                                     class="price">
 
                                         <p>
 
                                             {!! $item['price'] !!}
-
-
 
                                         </p>
 
@@ -304,24 +489,13 @@ $items = [
 
                                             @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
 
-                                                @if (isset($item['discountTest']) && $item['discountTest'] != null)
-
-                                                    <div class="extraPriceInfo">
-
-                                                        <div style="display: none;" typeplan="{{ $item['name'] }}"
-                                                            class="discountData">
-                                                            {!! $item['discountTest'] !!}
-                                                        </div>
-                                                    </div>
-
-                                                @endif
-
-                                                <div class="selectorSwitch">
+                                                {{-- <div class="selectorSwitch">
                                                     <small>
                                                         Mensual
                                                     </small>
                                                     <label class="switchCustom">
                                                         <input
+                                                        checked
                                                             class="modePlanSelect"
                                                             onclick="discountByPlanCard('{{ $item['name'] }}', this)"
                                                             value="1" type="checkbox" />
@@ -330,7 +504,38 @@ $items = [
                                                     <small>
                                                         Anual
                                                     </small>
+                                                </div> --}}
+
+                                                <div class="selectorSlizeButton">
+
+                                                    <input slizeRadioButton type="checkbox" class="pill-button-input" checked="checked" value="1" onclick="discountByPlanCard('{{ $item['name'] }}', this)" >
+                                                    <span class="pill-button">
+                                                        <span class="pill-button-selection pill-button-selection_on">
+                                                            Pago mensual
+                                                        </span>
+                                                        <span class="pill-button-selection pill-button-selection_off pill-button-selection_active">
+                                                            Pago anual. <br class="space">
+                                                            <span class="greenBlueColor">Ahorras 30%</span>
+                                                        </span>
+                                                        <span class="pill-button-highlight"></span>
+                                                    </span>
+
                                                 </div>
+
+
+                                                @if (isset($item['discountTest']) && $item['discountTest'] != null)
+
+                                                <div class="extraPriceInfo">
+
+                                                    {{-- style="display: none;"  --}}
+                                                    <div
+                                                    typeplan="{{ $item['name'] }}"
+                                                        class="discountData">
+                                                        {!! $item['discountTest'] !!}
+                                                    </div>
+                                                </div>
+
+                                            @endif
 
                                             @endif
 
@@ -350,7 +555,7 @@ $items = [
 
                                         <div class="buttonSection">
 
-                                            <a class="btn-popup-header primaryButton hoverInEffect">
+                                            <a class="{{ $item['typeButton'] }}">
                                                 {!! $item['textButton'] !!}
                                             </a>
 
@@ -377,12 +582,18 @@ $items = [
                                                         @endif
                                                         @foreach ($item2['items'] as $item3)
 
+                                                            @if ( $item3 == '<br>' )
+                                                                <li style="height: 23.984px">
+                                                                </li>
+                                                            @else
+
                                                             <li>
                                                                 <i class="fa fa-check" aria-hidden="true"></i>
                                                                 <span class="blueColor">
                                                                     {!! $item3 !!}
                                                                 </span>
                                                             </li>
+                                                            @endif
 
                                                         @endforeach
                                                     </ul>
@@ -441,6 +652,7 @@ $items = [
 
                                                 <a onclick="actionInfoCards('open')" class="extendButton">
                                                     Ver más
+                                                    {{-- <img src="{!! App::setFilePath('/assets/images/icons/Rectangle 1342.png') !!}" alt=""> --}}
                                                 </a>
                                                 {{-- style="display: none" --}}
                                                 <a onclick="actionInfoCards('close')" style="display: none;"
@@ -456,73 +668,44 @@ $items = [
                                     @endif
 
                                 </div>
-                            </div>
 
-                        </div>
+                                {{-- estoy trabajando aqui --}}
+                                <div class="elementBody mobileElement versionMobile2022">
 
-                    @endforeach
+                                    <div class="preView">
 
+                                        <div
+                                        style="margin-bottom: 90px"
+                                        class="price">
+                                            <p>
 
-                @endif
+                                                {!! $item['pricePreviewMobie'] !!}
 
+                                            </p>
+                                        </div>
 
-            </div>
+                                        <div class="buttonSection">
+                                            <a onclick="revealMobileView( 'open', '{{ $item['name'] }}' )" class="primaryButton hoverInEffect">
+                                                Ver plan completo
+                                            </a>
 
-        </section>
+                                        </div>
 
-        <section class="mobileElement mobileVersion innerSectionElement sct2">
+                                    </div>
 
+                                    <div
+                                    style="display: none"
+                                    class="fullView">
 
-            <div class="nav nav-tabs selectorPlansTab" id="nav-tab" role="tablist">
-
-                @foreach ($items as $item)
-
-                <button onclick="planSelectProcess('{{ $item['name'] }}')" class="nav-link @if ($loop->first) active @endif" id="_{{ $item['name'] }}tab" data-bs-toggle="tab" data-bs-target="#{{ $item['name'] }}tab"
-                  type="button" role="tab" aria-controls="{{ $item['name'] }}tab" @if ($loop->first) aria-selected="true" @endif>
-
-                  <div class="had">
-                    <h3 class="secondaryTitle blackColor">
-                        {!! $item['title'] !!}
-                    </h3>
-                </div>
-
-                </button>
-
-                @endforeach
-
-            </div>
-
-
-
-    <div class="containElements row">
-
-        @if (isset($items) && count($items) > 0)
-
-        <div class="tab-content" id="nav-tabContent">
-            @foreach ($items as $item)
-                    <div class="tab-pane fade @if ($loop->first) active show @endif" id="{{ $item['name'] }}tab" role="tabpanel" aria-labelledby="_{{ $item['name'] }}tab" >
-                        <div id="{{ $item['name'] }}" class="col-md-12 col-lg-4 elementParent">
-
-                            <div class="elementPrice @if (isset($item['customClasses']) && $item['customClasses'] != '') {!! $item['customClasses'] !!} @endif">
-
-                                <div class="had">
-                                    <h3 class="secondaryTitle blackColor">
-                                        {!! $item['title'] !!}
-                                    </h3>
-                                </div>
-
-                                <div class="elementBody">
 
 
                                     <div
-                                    style="margin-bottom: 25px"
+                                    style="margin-bottom: 90px"
                                     class="price">
 
                                         <p>
 
                                             {!! $item['price'] !!}
-
-
 
                                         </p>
 
@@ -538,7 +721,9 @@ $items = [
 
                                                     <div class="extraPriceInfo">
 
-                                                        <div style="display: none;" typeplan="{{ $item['name'] }}"
+                                                        {{-- style="display: none;"  --}}
+                                                        <div
+                                                        typeplan="{{ $item['name'] }}"
                                                             class="discountData">
                                                             {!! $item['discountTest'] !!}
                                                         </div>
@@ -546,21 +731,39 @@ $items = [
 
                                                 @endif
 
-                                                <div class="selectorSwitch">
+                                                {{-- <div class="selectorSwitch">
                                                     <small>
                                                         Mensual
                                                     </small>
                                                     <label class="switchCustom">
                                                         <input
+                                                        checked
                                                             class="modePlanSelect"
-                                                            onchange="discountByPlanCard('{{ $item['name'] }}', this)"
+                                                            onclick="discountByPlanCard('{{ $item['name'] }}', this)"
                                                             value="1" type="checkbox" />
                                                         <div></div>
                                                     </label>
                                                     <small>
                                                         Anual
                                                     </small>
+                                                </div> --}}
+
+                                                <div class="selectorSlizeButton">
+
+                                                    <input slizeRadioButton type="checkbox" class="pill-button-input" checked="checked" value="1" onclick="discountByPlanCard('{{ $item['name'] }}', this)" >
+                                                    <span class="pill-button">
+                                                        <span class="pill-button-selection pill-button-selection_on">
+                                                            Pago mensual
+                                                        </span>
+                                                        <span class="pill-button-selection pill-button-selection_off pill-button-selection_active">
+                                                            Pago anual. <br class="space">
+                                                            <span class="greenBlueColor">Ahorras 30%</span>
+                                                        </span>
+                                                        <span class="pill-button-highlight"></span>
+                                                    </span>
+
                                                 </div>
+
 
                                             @endif
 
@@ -580,7 +783,7 @@ $items = [
 
                                         <div class="buttonSection">
 
-                                            <a class="btn-popup-header primaryButton hoverInEffect">
+                                            <a class="{{ $item['typeButton'] }}">
                                                 {!! $item['textButton'] !!}
                                             </a>
 
@@ -588,9 +791,9 @@ $items = [
 
                                     @endif
 
-                                    @if (isset($item['details']) && count($item['details'] > 0))
+                                    {{-- @if (isset($item['details']) && count($item['details'] > 0))
 
-                                        <div style="display: block" class="desktopElement featuresPrice short">
+                                        <div style="display: block" class="featuresPrice short">
 
                                             @foreach ($item['details'] as $item2)
 
@@ -607,27 +810,34 @@ $items = [
                                                         @endif
                                                         @foreach ($item2['items'] as $item3)
 
+                                                            @if ( $item3 == '<br>' )
+                                                                <li style="height: 23.984px">
+                                                                </li>
+                                                            @else
+
                                                             <li>
                                                                 <i class="fa fa-check" aria-hidden="true"></i>
                                                                 <span class="blueColor">
                                                                     {!! $item3 !!}
                                                                 </span>
                                                             </li>
+                                                            @endif
 
                                                         @endforeach
                                                     </ul>
                                                 </div>
+                                                <br class="space">
                                                 <br class="space">
 
                                             @endforeach
 
                                         </div>
 
-                                    @endif
+                                    @endif --}}
 
                                     @if (isset($item['extendDetails']) && count($item['extendDetails'] > 0))
 
-                                        <div style="display: none" class="featuresPrice extendDetails">
+                                        <div class="featuresPrice extendDetails">
 
                                             @foreach ($item['extendDetails'] as $item2)
 
@@ -668,18 +878,12 @@ $items = [
 
                                             <div class="buttonSection">
 
-                                                <a onclick="actionInfoCards('open')" class="desktopElement extendButton">
+                                                {{-- <a onclick="actionInfoCards('open')" class="extendButton">
                                                     Ver más
-                                                </a>
 
-
-                                                <button onclick="actionInfoCards('open')" class="thinButton2 extendButton ">
-                                                    Ver detalles del plan
-                                                </button>
-
-
+                                                </a> --}}
                                                 {{-- style="display: none" --}}
-                                                <a onclick="actionInfoCards('close')" style="display: none;"
+                                                <a onclick="revealMobileView('close', '{{ $item['name'] }}')"
                                                     class="hideButton">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/arrowClose.png') !!}" alt="">
                                                 </a>
@@ -692,13 +896,14 @@ $items = [
                                     @endif
 
                                 </div>
+
+                            </div>
+
                             </div>
 
                         </div>
-                    </div>
 
-            @endforeach
-        </div>
+                    @endforeach
 
 
                 @endif
@@ -707,6 +912,8 @@ $items = [
             </div>
 
         </section>
+
+
 
 
 

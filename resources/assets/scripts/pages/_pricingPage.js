@@ -8,8 +8,8 @@ var device = null;
 var typeProcess = 0;
 
 // costos planes
-const _costStarter = 30;
-const _costPro = 45;
+var _costStarter = 30;
+var _costPro = 135;
 
 
 // costos individuales
@@ -29,6 +29,7 @@ var typeplan = 'yearly';
 // escala de costos contactos
 
 var escalaContactsStarter = [
+
     30,
     15,
     15,
@@ -54,15 +55,18 @@ var escalaContactsStarter = [
     5,
     5,
     5,
-    // 3,
-]
+    // 4
+
+];
+
 
 var escalaContactsPro = [
-    45,
-    15,
-    15,
-    15,
-    15,
+
+    55,
+    20,
+    20,
+    20,
+    20,
     10,
     10,
     10,
@@ -83,7 +87,7 @@ var escalaContactsPro = [
     5,
     5,
     5,
-    // 3,
+    // 4
 ]
 
 
@@ -115,8 +119,8 @@ function getContactScale(n) {
 
         var x = n - 25;
 
-        l.starter = l.starter + (x * 3);
-        l.pro = l.pro + (x * 3);
+        l.starter = l.starter + (x * 4);
+        l.pro = l.pro + (x * 4);
 
     }
 
@@ -129,7 +133,6 @@ function converContacts(contacts) {
     var l = contacts / 1000;
     l = Math.trunc(l);
 
-
     var cost = {
         starter: getContactScale(l).starter,
         pro: getContactScale(l).pro,
@@ -139,21 +142,19 @@ function converContacts(contacts) {
 
 }
 
-
 function convertUsers(data) {
 
-    // _contactsField: "3000"
+    // _contactsField: "5000"
     // _rangeContacts: "7"
     // _typePlan: "starter"
     // _userAccess: "5"
 
-
     if (data._typePlan == 'starter') {
 
-        if (data._userAccess[typeProcess] > 1) {
+        if (data._userAccess[typeProcess] >= 2) {
 
             var starter = (data._userAccess[typeProcess] - 1) * 15;
-            var pro = (data._userAccess[typeProcess] - 1) * 15 - 15;
+            var pro = (data._userAccess[typeProcess] - 1) * 15;
 
             return {
                 starter: starter,
@@ -172,10 +173,11 @@ function convertUsers(data) {
 
     if (data._typePlan == 'pro') {
 
-        if (data._userAccess[typeProcess] > 2) {
+        if (data._userAccess[typeProcess] >= 2) {
 
             var starter = (data._userAccess[typeProcess] - 1) * 15;
-            var pro = (data._userAccess[typeProcess] - 1) * 15 - 15;
+            var pro = ((data._userAccess[typeProcess] - 1) * 15);
+
 
             return {
                 starter: starter,
@@ -193,15 +195,10 @@ function convertUsers(data) {
 
     }
 
-
 }
 
 
-
-
 function typeCustomPay(type, e) {
-
-
 
     jQuery('.selectorPricingButton').removeClass('active');
     jQuery(e).addClass('active');
@@ -211,8 +208,31 @@ function typeCustomPay(type, e) {
     var f = jQuery('form#formCalcGeneral');
     calculate = _serializeFormToObject(f);
 
-
     calculateFinal(calculate);
+
+}
+
+function selectPlanMobile( element, type ) {
+
+    // checkStarter
+    // checkPro
+    jQuery('.buttonSelectPlan-Mobile').removeClass('active');
+    if( type == 'starter' ){
+
+        jQuery('#checkStarter')[0].click();
+
+        jQuery(element).addClass('active');
+
+    }
+
+    if( type == 'pro' ){
+
+        jQuery('#checkPro')[0].click();
+
+        jQuery(element).addClass('active');
+
+    }
+
 
 }
 
@@ -293,10 +313,52 @@ function calculateRangeValue(data) {
 }
 
 
+function revealMobileView( type = null, plan ){
+
+
+    if( type != null ){
+
+    console.log('type', type);
+    console.log('plan', plan);
+
+        if( type == 'open' ){
+
+            jQuery('#' + plan + ' .versionMobile2022 .preView').hide();
+            jQuery('#' + plan + ' .versionMobile2022 .fullView').show();
+
+        }
+        if( type == 'close' ){
+
+            jQuery('#' + plan + ' .versionMobile2022 .fullView').hide();
+            jQuery('#' + plan + ' .versionMobile2022 .preView').show();
+
+            if( jQuery('.modePlanSelect')[0].checked == false){
+
+
+                // discountByPlanCard('plan1', jQuery('.modePlanSelect')[0] );
+
+                // console.log('cambiado a true');
+
+                jQuery('.modePlanSelect')[0].click();
+
+
+
+            }
+
+        }
+
+
+
+    }
+
+}
+
+
+
 
 function calculateFinal(data) {
 
-    // _contactsField: "3000"
+    // _contactsField: "5000"
     // _rangeContacts: "7"
     // _typePlan: "starter"
     // _userAccess: "5"
@@ -335,7 +397,7 @@ function calculateFinal(data) {
             costFinal = _contacts.pro + _users.pro;
 
         }
-        discount = costFinal * 0.20;
+        discount = costFinal * 0.30;
         costNoDiscount = costFinal;
         costFinal = costFinal - discount;
         discount = discount.toFixed(2);
@@ -349,8 +411,8 @@ function calculateFinal(data) {
             'visibility': 'visible'
         })
 
-        jQuery('#priceDotted').text('$USD ' + costNoDiscount + ' /mes');
-        jQuery('#priceSaves').text('Ahorras USD $' + discount);
+        jQuery('#priceDotted').text('USD ' + costNoDiscount + ' /mes');
+        jQuery('#priceSaves').text('Ahorras USD ' + discount);
     }
 
             // var costFinal = 332.01;
@@ -359,15 +421,13 @@ function calculateFinal(data) {
 
 
 
-    jQuery('#finalPriceCalc').text('USD $' + costFinal + ' /mes');
+    jQuery('#finalPriceCalc').text('USD ' + costFinal + ' /mes');
 
 
 }
 
 function trimDecimals(costFinal){
 
-//     console.log('Number(Number(costFinal).toFixed())', Number(Number(costFinal).toFixed()) );
-    // console.log('Number(costFinal)/1', Number(costFinal)/1 );
 
     if( Number(Number(costFinal).toFixed()) == Number(costFinal)/1  ){
 
@@ -436,7 +496,6 @@ function discountByPlanCard(type, element){
 
     if(type != null){
 
-
         if(element.checked == true){
 
             if(jQuery('[typeplan='+ type +']').length > 0){
@@ -462,10 +521,10 @@ function discountByPlanCard(type, element){
 
                 // }
 
-                    jQuery('.modePlanSelect').prop( "checked", true );
+                jQuery('.modePlanSelect').prop( "checked", true );
 
                 jQuery('.discountCost').css({
-                    'display': 'block'
+                    'display': 'flex'
                 });
                 jQuery('.numerCost').css({
                     'display': 'none'
@@ -473,17 +532,36 @@ function discountByPlanCard(type, element){
                 jQuery('[typeplan*="plan"]').css({
                     'display': 'block'
                 });
-                jQuery('.usd').css({
-                    'display': 'none'
+                // jQuery('.usd').css({
+                //     'display': 'none'
+                // });
+                jQuery('.ncost').css({
+                    'display': 'block'
                 });
-                jQuery('.price').css({
-                    'margin-bottom': '60' + 'px'
-                });
+
+
+                    jQuery('.price').css({
+                        'margin-bottom': '90' + 'px'
+                    });
+
+
+                jQuery('#plan3.elementParent .middle .innerMiddle').removeClass('reduceDiv');
+
+
+                // _costStarter = 24;
+                // _costPro = 65;
+                _costStarter = 21;
+                _costPro = 95;
+
+                jQuery('[calculator_price_starter]').text( 'USD ' + _costStarter );
+                jQuery('[calculator_price_pro]').text( 'USD ' + _costPro );
 
                 return;
             }
         }
+
         if(element.checked == false){
+
 
             if(jQuery('[typeplan='+ type +']').length > 0){
 
@@ -498,17 +576,32 @@ function discountByPlanCard(type, element){
                 jQuery('[typeplan*="plan"]').css({
                     'display': 'none'
                 });
-                jQuery('.usd').css({
-                    'display': 'block'
+                // jQuery('.usd').css({
+                //     'display': 'block'
+                // });
+                jQuery('.ncost').css({
+                    'display': 'none'
                 });
 
 
-            jQuery('.price').css({
-                'margin-bottom': '25' + 'px'
-            });
+
+
+                jQuery('.price').css({
+                    'margin-bottom': '60' + 'px'
+                });
+
+
+            jQuery('#plan3.elementParent .middle .innerMiddle').addClass('reduceDiv');
+
+            _costStarter = 30;
+            _costPro = 135;
+
+            jQuery('[calculator_price_starter]').text( 'USD ' + _costStarter );
+            jQuery('[calculator_price_pro]').text( 'USD ' + _costPro );
 
             return;
         }
+
         }
 
     }
@@ -590,8 +683,8 @@ function setConfigModeSelect(element){
 
     if(l == 'pro'){
 
-        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').attr('min', '2');
-        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val('2');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').attr('min', '5');
+        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val('5');
         jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').css({
             'background-image': 'none'
         });
@@ -603,8 +696,8 @@ function setConfigModeSelect(element){
             'display': 'flex'
         });
 
-        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '2000');
-        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val('2000');
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '5000');
+        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val('5000');
 
     }
 
@@ -614,11 +707,17 @@ function setConfigModeSelect(element){
 
 }
 
+
+
 jQuery(document).ready(function () {
 
+jQuery('#checkPro').click();
 
     device = deviceType();
 
+
+
+    jQuery('.modePlanSelect').click();
 
     jQuery("input[type=range]").load(function (e) {
         // Handler for .load() called.
@@ -628,12 +727,12 @@ jQuery(document).ready(function () {
 
         jQuery(this).css('background-image',
             '-webkit-gradient(linear, left top, right top, ' +
-            'color-stop(' + percent + '%, #F34F36), ' +
-            'color-stop(' + percent + '%, #d3d3d3)' +
+            'color-stop(' + percent + '%, #97C7D1), ' +
+            'color-stop(' + percent + '%, #D9EEF9)' +
             ')');
 
         jQuery(this).css('background-image',
-            '-moz-linear-gradient(left center, #F34F36 0%, #F34F36 ' + percent + '%, #d3d3d3 ' + percent + '%, #d3d3d3 100%)');
+            '-moz-linear-gradient(left center, #97C7D1 0%, #97C7D1 ' + percent + '%, #D9EEF9 ' + percent + '%, #D9EEF9 100%)');
     });
 
 
@@ -646,12 +745,12 @@ jQuery(document).ready(function () {
 
         jQuery(this).css('background-image',
             '-webkit-gradient(linear, left top, right top, ' +
-            'color-stop(' + percent + '%, #F34F36), ' +
-            'color-stop(' + percent + '%, #d3d3d3)' +
+            'color-stop(' + percent + '%, #97C7D1), ' +
+            'color-stop(' + percent + '%, #D9EEF9)' +
             ')');
 
         jQuery(this).css('background-image',
-            '-moz-linear-gradient(left center, #F34F36 0%, #F34F36 ' + percent + '%, #d3d3d3 ' + percent + '%, #d3d3d3 100%)');
+            '-moz-linear-gradient(left center, #97C7D1 0%, #97C7D1 ' + percent + '%, #D9EEF9 ' + percent + '%, #D9EEF9 100%)');
     });
 
 
@@ -676,7 +775,7 @@ jQuery(document).ready(function () {
         calculateFinal(calculate);
 
         // var m = jQuery('input.contactsField[typeProcess='+typeProcess+']').val();
-        // if( m < 2000 ){
+        // if( m < 5000 ){
 
         //     jQuery('input#checkPro').attr('disabled', true);
 
@@ -684,7 +783,7 @@ jQuery(document).ready(function () {
 
         // }
 
-        // if( m >= 2000 ){
+        // if( m >= 5000 ){
 
         //     jQuery('input#checkPro').attr('disabled', false);
 

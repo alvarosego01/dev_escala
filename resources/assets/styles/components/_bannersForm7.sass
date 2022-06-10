@@ -12,34 +12,46 @@
         .groupElements
             .info
                 .containElements
+                    .boton
+                        margin: 15px auto
+
                     img
                         height: 430px
                     @include responsivo(telefonoTable)
                         // display: none
                         img
-                            height: 225px!important
+                            height: 225px
                         .principalBigTitle,
                         .principalBigText,
                         .containerImage
-                            text-align: center!important
+                            text-align: center
+
+                        .boton
+                            margin-left: auto
+                            margin-right: auto
                     @include responsivo(pcMedio)
                         img
                             height: 320px
                         .principalBigTitle,
                         .principalBigText,
                         .containerImage
-                            text-align: center!important
+                            text-align: center
+
+                        .boton
+                            margin-left: auto
+                            margin-right: auto
+
+
             .form7
                 padding: 0
                 // display: flex
                 margin: auto
                 @include responsivo(telefonoTable)
-                    padding: 0!important
+                    padding: 0
                 @include responsivo(pcMedio)
-                    padding: 0 5%!important
+                    padding: 0 5%
                 .containElements
                     margin: auto 0
-            @include responsivo(telefonoTable)
 
             @include responsivo(pcMedio)
                 display: flex
