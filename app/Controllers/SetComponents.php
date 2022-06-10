@@ -22,6 +22,7 @@ class SetComponents extends Controller
             $this->setExitoCasoComponents(),
             $this->setPopUpsComponents(),
             $this->setPiePaginaComponents(),
+            $this->setReviewsComponents(),
             $this->setHeaderBandsComponents()
 
         );
@@ -62,6 +63,13 @@ class SetComponents extends Controller
 
         return array(
             'components.headerBands.component-headerBand-promo-T1' => 'headerBand_promo_T1'
+        );
+    }
+
+    private function setReviewsComponents()
+    {
+        return array(
+            'components.reviews.component-trustPilots-reviews-slider-T1' => 'reviews_sliders_T1'
         );
     }
 
