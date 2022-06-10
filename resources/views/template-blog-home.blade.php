@@ -114,7 +114,7 @@ team behind company.
             @articlesBlog_T1($parameters)
 
                 @slot('titlePrincipal')
-                    <span class="greenBlueColor">Artículos</span> recientes
+                    <span class="greenBlueColor">Artículos</span> de ventas
                 @endslot
 
 
@@ -144,6 +144,12 @@ team behind company.
             @endphp
 
             @articlesBlog_T1($parameters)
+
+            @slot('titlePrincipal')
+            <span class="greenBlueColor">Artículos</span> de marketing
+
+        @endslot
+
 
             @endarticlesBlog_T1
 

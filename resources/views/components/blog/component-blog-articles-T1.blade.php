@@ -110,7 +110,7 @@ posts
                 @if ( isset($linkCategory) && $linkCategory != null )
 
                 <a class="hiperButtonGray" href="{{ $linkCategory }}">
-                    Leer más
+                    Ver más
                 </a>
 
                 @endif

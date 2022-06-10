@@ -1,22 +1,15 @@
-
-
-{{--
-
-classSection
+{{-- classSection
 enableTitle
 titlePrincipal
 categoryTag
 categoryTagList
 item
 linkCategory
-posts
-
-
-    --}}
+posts --}}
 
 
 
-<section class="component-articlesBlog-T1 customSection sectionParent  {{ $classSection }}">
+<section class="component-articlesBlog-paginate-T1 customSection sectionParent  {{ $classSection }}">
 
     <div class="section-row">
 
@@ -27,30 +20,26 @@ posts
                 <div class="containElements">
 
                     @if (isset($titlePrincipal) && $titlePrincipal != null)
-
-                    <h2 class="primaryTitle blackColor">
-                        {!! $titlePrincipal !!}
-                    </h2>
-
+                        <h2 class="primaryTitle blackColor">
+                            {!! $titlePrincipal !!}
+                        </h2>
                     @endif
 
                     @if ($categoryTag == true)
 
-                    <div class="groupTag">
+                        <div class="groupTag">
 
 
-                        @if (isset($categoryTagList) && $categoryTagList != null)
-                        @foreach ($categoryTagList as $item)
+                            @if (isset($categoryTagList) && $categoryTagList != null)
+                                @foreach ($categoryTagList as $item)
+                                    <div class="tagsCategory">
+                                        {{ $item }}
+                                    </div>
+                                @endforeach
+                            @endif
 
-                        <div class="tagsCategory">
-                            {{ $item }}
+
                         </div>
-
-                        @endforeach
-                        @endif
-
-
-                    </div>
                     @endif
 
                 </div>
@@ -61,66 +50,83 @@ posts
         <section class="innerSectionElement sct2 ">
 
             {{-- get_the_tags(id) --}}
-            <div class="groupElements row">
+            <div class="groupElements">
 
-                @if ( isset($posts) && $posts != null )
-                    @foreach ($posts->get_posts() as $index => $item)
+                @if (isset($posts) && $posts != null)
+                <div class="articlesSection row">
 
-                    @php
-                        $post_tags = get_the_tags( $item->ID );
-                    @endphp
+                        @foreach ($posts->get_posts() as $index => $item)
+                            @php
+                                $post_tags = get_the_tags($item->ID);
+                            @endphp
 
-                    <div class="principal col-md-12 col-lg-4">
-                        <div class="card">
+                            <div class="principal col-md-12 col-lg-4">
+                                <div class="card">
 
-                            <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
+                                    <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
 
-                                    <img src="{{ Posts::getPhoto($item->ID) }}" class="card-img-top" >
+                                        <img src="{{ Posts::getPhoto($item->ID) }}" class="card-img-top">
 
-                            </a>
-                        <div class="card-body">
-                            <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
-                            @if ( isset($post_tags) && $post_tags != null && count($post_tags) > 0)
-                            <span class="tags greenBlueColor">
+                                    </a>
+                                    <div class="card-body">
+                                        <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
+                                            @if (isset($post_tags) && $post_tags != null && count($post_tags) > 0)
+                                                <span class="tags greenBlueColor">
 
-                                @foreach ($post_tags as $key => $x)
-                                    @php echo $x->name;if ($key != array_key_last($post_tags)){ echo ', '; } @endphp
-                                    @endforeach
+                                                    @foreach ($post_tags as $key => $x)
+                                                        @php
+                                                            echo $x->name;
+                                                            if ($key != array_key_last($post_tags)) {
+                                                                echo ', ';
+                                                            }
+                                                        @endphp
+                                                    @endforeach
 
-                            </span>
-                                @endif
-                                <h3 class="secondaryTitle blackColor card-title">
-                                    {{ $item->post_title }}
-                                </h3>
-                                <p class="commonText  blackColor card-text">
-                                    {!! ACF_CUSTOM::_getField('excerpt_single', $item->ID) !!}
-                                </p>
-                            </a>
-                        </div>
-                            {{-- <div class="card-footer">
+                                                </span>
+                                            @endif
+                                            <h3 class="secondaryTitle blackColor card-title">
+                                                {{ $item->post_title }}
+                                            </h3>
+                                            <p class="commonText  blackColor card-text">
+                                                {!! ACF_CUSTOM::_getField('excerpt_single', $item->ID) !!}
+                                            </p>
+                                        </a>
+                                    </div>
+                                    {{-- <div class="card-footer">
 
                             </div> --}}
+                                </div>
+                            </div>
+                        @endforeach
+
+                    </div>
+                    <div class="paginationArticlesSection">
+
+                        <div class="pagination">
+                            {{-- @foreach ($posts->get_posts() as $index => $item) --}}
+
+                            <a href="#">
+                                Anterior
+                            </a>
+                            <a href="#" class="active">
+                                2
+                            </a>
+                            <a href="#">
+                                Siguiente
+                            </a>
+
+                            {{-- @endforeach --}}
                         </div>
+
                     </div>
 
-
-                    @endforeach
-                @endif
-
-                @if ( isset($linkCategory) && $linkCategory != null )
-
-                <a class="hiperButtonGray" href="{{ $linkCategory }}">
-                    Leer más
-                </a>
-
-                @endif
-
+                    @endif
             </div>
 
 
         </section>
 
 
-</div>
+    </div>
 
 </section>
