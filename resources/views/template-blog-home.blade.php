@@ -145,8 +145,6 @@ team behind company.
 
             @articlesBlog_T1($parameters)
 
-
-
             @endarticlesBlog_T1
 
 

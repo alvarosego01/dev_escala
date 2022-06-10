@@ -1209,7 +1209,6 @@ $button-selection: 2
     position: relative
     height: 100%
     input#search
-        width: 0
         height: 20px
         background: #F7F7F7
         border: none
@@ -1221,6 +1220,13 @@ $button-selection: 2
         // transition: width .55s ease
         transition: $trans
         box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.05)
+        width: 300px
+        padding-left: 20px
+        padding-right: 45px
+        @include responsivo(general)
+            width: 250px
+        @include responsivo(resto)
+            width: 275px
         &::-webkit-input-placeholder
             color: #65737e
         &:-moz-placeholder
@@ -1256,10 +1262,3 @@ $button-selection: 2
             width: 300px
             padding-left: 20px
             padding-right: 45px
-    &:hover
-        input#search
-            width: 300px
-            padding-left: 20px
-            padding-right: 45px
-        // .icon
-            // color: #93a2ad

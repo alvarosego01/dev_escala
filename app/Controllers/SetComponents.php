@@ -72,7 +72,8 @@ class SetComponents extends Controller
         return array(
             'components.subscribers.component-subscribers-T1' => 'subscribers_T1',
             'components.blog.component-blog-slideshow-T1' => 'slideshowBlog_T1',
-            'components.blog.component-blog-articles-T1' => 'articlesBlog_T1'
+            'components.blog.component-blog-articles-T1' => 'articlesBlog_T1',
+            'components.blog.component-blog-articles-paginate-T2' => 'articlesBlog_paginate_T1'
         );
     }
 
@@ -219,6 +220,7 @@ class SetComponents extends Controller
 
                 "views/template-blog-home.blade.php",
                 "views/template-blog-category.blade.php",
+                "views/template-blog-search-results.blade.php",
                 "views/single-post.blade.php"
 
             );
@@ -366,6 +368,7 @@ class SetComponents extends Controller
                 "views/template-blog-home.blade.php",
                 "views/template-caso-exito-home.blade.php",
                 "views/template-blog-category.blade.php",
+                "views/template-blog-search-results.blade.php",
                 "views/single-post.blade.php",
                 "views/single-exitocaso.blade.php",
                 "views/template-zoom-demo-home.blade.php",
