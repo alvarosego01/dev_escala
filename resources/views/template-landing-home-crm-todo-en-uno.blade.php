@@ -725,15 +725,17 @@ $parameters = [
               [
                   'img' => App::setFilePath('/assets/images/illustrations/team/home_ventajas-1.png'),
                   'title' => '
-                      Una herramienta <br class="space">
-                      muy amigable <span class="blueLightColor11">
-                        para <br class="space">
-                        mercadeo y ventas
+                      El CRM de Escala es muy completo, nos <br class="desktopTabletElement">
+                      permitió manejar nuestros leads y clientes <br class="desktopTabletElement">
+                      <span class="blueLightColor11">
+                        de una forma más eficiente. Además tiene <br class="desktopTabletElement">
+                        otras herramientas integradas de <br class="desktopTabletElement">
+                        marketing digital
                       </span>
                       ',
                   'text' => '
                   <span>
-                    Ernesto Valery / Director Huella Studio
+                    Diego Celis / Director Ejecutivo. Luxury Hime
                   </span>
                   ',
                   'enableButton' => false,
@@ -742,12 +744,14 @@ $parameters = [
               [
                   'img' => App::setFilePath('/assets/images/illustrations/team/home_ventajas-2.png'),
                   'title' => '
-                      Un equipo de servicio <br class="space">
-                      extraordinario y bien entrenado. <br class="space">
+                      Un equipo de servicio <br class="desktopTabletElement">
+                      extraordinario y bien entrenado. <br class="desktopTabletElement">
                       <span class="blueLightColor11">
-                        Tienen un equipo atento <br class="space">
+                        Tienen un equipo atento <br class="desktopTabletElement">
                         y disponible cuando lo necesitas
                       </span>
+                      <br class="space">
+                      <br class="space">
                   ',
                   'text' => '
                     <span>Michelle Palaez / Fundadora Infinito Producciones</span>
@@ -757,16 +761,18 @@ $parameters = [
               [
                   'img' => App::setFilePath('/assets/images/illustrations/others/home_ventajas-3.png'),
                   'title' => '
-                        No dependes de un equipo <br class="space">
-                        técnico o de programación. <br class="space">
+                        No dependes de un equipo <br class="desktopTabletElement">
+                        técnico o de programación. <br class="desktopTabletElement">
                         <span class="blueLightColor11">
-                          Cualquiera con nivel básico <br class="space">
+                          Cualquiera con nivel básico <br class="desktopTabletElement">
                           sabría utilizar Escala.
                         </span>
+                        <br class="space">
+                        <br class="space">
                       ',
                   'text' => '
                     <span>
-                      Verónica Bolaños / Account Manager, <br class="space">
+                      Verónica Bolaños / Account Manager, <br class="desktopTabletElement">
                       Publicidad Comercial
                     </span>
                   ',
@@ -775,10 +781,10 @@ $parameters = [
               [
                   'img' => App::setFilePath('/assets/images/illustrations/others/home_ventajas-4.png'),
                   'title' => '
-                        Todo está 100% en español. <br class="space">
+                        Todo está 100% en español. <br class="desktopTabletElement">
                         <span class="blueLightColor11">
-                          Finalmente un software donde la <br class="space">
-                          plataforma, el servicio y la educación <br class="space">
+                          Finalmente un software donde la <br class="desktopTabletElement">
+                          plataforma, el servicio y la educación <br class="desktopTabletElement">
                           es en español
                         </span>
                       ',
@@ -790,11 +796,13 @@ $parameters = [
               [
                   'img' => App::setFilePath('/assets/images/illustrations/others/home_ventajas-5.png'),
                   'title' => '
-                          Todas las funcionalidades <br class="space">
+                          Todas las funcionalidades <br class="desktopTabletElement">
                           en un solo lugar, <span class="blueLightColor11">
-                          Escala <br class="space">
+                          Escala <br class="desktopTabletElement">
                           programa las páginas por ti
                         </span>
+                        <br class="space">
+                      <br class="space">
                       ',
                   'text' => '
                   <span>Michelle Palaez / Fundadora Infinito Producciones</span>
@@ -811,442 +819,49 @@ $parameters = [
 
 <section class="customSection sectionParent landingHomeCRM_exp_3">
 
-  <div class="section-row">
-
-        <section class="innerSectionElement1">
-
-          <h2 class="primaryTitle blackColor">
-Nuestros clientes te dicen <br class="space">
-por qué prefieren Escala
-          </h2>
-
-        </section>
-
-        <section class="innerSectionElement2">
-
-                      <div id="carousel-trustPilot-mob" class=" carousel slide mobileElement" data-bs-ride="carousel">
-
-                        <div class="carousel-inner"  role="listbox">
-
-                            <div class="carousel-item active">
-                              <div class="row">
-                                <div class="testimonial ">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(1).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="carousel-item">
-                              <div class="row">
-                                <div class="testimonial ">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(2).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="carousel-item">
-                              <div class="row">
-                                <div class="testimonial ">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(3).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-
-                                </div>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <div class="row">
-                                <div class="testimonial ">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(4).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-
-                                </div>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <div class="row">
-                                <div class="testimonial ">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(5).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-
-                                </div>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <div class="row">
-                                <div class="testimonial ">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(6).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-
-                                </div>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <div class="row">
-                                <div class="testimonial ">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(7).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-
-                                </div>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <div class="row">
-                                <div class="testimonial ">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(8).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-
-                                </div>
-                              </div>
-                            </div>
-                            <div class="carousel-item">
-                              <div class="row">
-                                <div class="testimonial ">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(9).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-
-                                </div>
-                              </div>
-                            </div>
-
-
-                        </div>
-
-
-                        <ol class="carousel-indicators">
-
-                          <button type="button" data-bs-target="#carousel-trustPilot-mob" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carousel-trustPilot-mob" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carousel-trustPilot-mob" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                          <button type="button" data-bs-target="#carousel-trustPilot-mob" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                          <button type="button" data-bs-target="#carousel-trustPilot-mob" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                          <button type="button" data-bs-target="#carousel-trustPilot-mob" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                          <button type="button" data-bs-target="#carousel-trustPilot-mob" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                          <button type="button" data-bs-target="#carousel-trustPilot-mob" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                          <button type="button" data-bs-target="#carousel-trustPilot-mob" data-bs-slide-to="8" aria-label="Slide 9"></button>
-
-                        </ol>
-
-
-                      </div>
-
-                      <div id="carousel-trustPilot-desktop" class="carousel slide desktopElement" data-bs-ride="carousel">
-
-
-                        <div class="carousel-inner"  role="listbox">
-
-                            <div class="carousel-item active">
-                              <div class="row">
-                                <div class="testimonial col-md-12 col-lg-4">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(1).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-                                </div>
-                                <div class="testimonial col-md-12 col-lg-4">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(2).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-                                </div>
-                                <div class="testimonial col-md-12 col-lg-4">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(3).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-                                </div>
-
-                              </div>
-                            </div>
-
-                            <div class="carousel-item">
-                              <div class="row">
-                                <div class="testimonial col-md-12 col-lg-4">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(4).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-                                </div>
-                                <div class="testimonial col-md-12 col-lg-4">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(5).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-                                </div>
-                                <div class="testimonial col-md-12 col-lg-4">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(6).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-                                </div>
-
-                              </div>
-                            </div>
-
-                            <div class="carousel-item">
-                              <div class="row">
-                                <div class="testimonial col-md-12 col-lg-4">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(7).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-                                </div>
-                                <div class="testimonial col-md-12 col-lg-4">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(8).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-                                </div>
-                                <div class="testimonial col-md-12 col-lg-4">
-
-                                  <div class="containElements">
-
-                                    <div class="referElements">
-                                      <div class="containerImage">
-
-                                        <img alt="Implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilot-home(9).jpg') !!}" alt="" loading="lazy">
-
-                                      </div>
-
-                                    </div>
-
-                                  </div>
-
-                                </div>
-
-                              </div>
-                            </div>
-
-
-                        </div>
-
-
-                        <ol class="carousel-indicators">
-
-                          <button type="button" data-bs-target="#carousel-trustPilot-desktop" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carousel-trustPilot-desktop" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carousel-trustPilot-desktop" data-bs-slide-to="2" aria-label="Slide 3"></button>
-
-                        </ol>
-
-
-                      </div>
-
-
-        </section>
-
-        <section class="innerSectionElement3">
-
-          <div class="containElements">
-
-            {{-- <h3 class="primaryTitle greenBlueColor">
-              Comienza a generar más leads, clientes y ventas
-            </h3> --}}
-
-            <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-              Prueba Gratis
-            </a>
-
-          </div>
-
-        </section>
-
-  </div>
-
-
-</section>
-
+  @php
+  $parameters = [
+   'classSection' => 'landingHomeCRM_exp_3',
+   'enableTitle' => true,
+   'titlePrincipal' => 'Nuestros clientes te dicen <br class="space"> por qué prefieren Escala',
+   'subTitlePrincipal' => null,
+   'enableContainerButton' => true,
+   'urlButton' => '#',
+   'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+   'textButton' => 'Prueba Gratis',
+   'mob_reviews' => array(
+     App::setFilePath('/assets/images/illustrations/others/trustpilot-home-1.jpg'),
+     App::setFilePath('/assets/images/illustrations/others/trustpilot-home-2.jpeg'),
+     App::setFilePath('/assets/images/illustrations/others/trustpilot-home-3.jpg'),
+     App::setFilePath('/assets/images/illustrations/others/trustpilot-home-4.jpg'),
+     App::setFilePath('/assets/images/illustrations/others/trustpilot-home-5.jpg'),
+     App::setFilePath('/assets/images/illustrations/others/trustpilot-home-6.jpg'),
+     App::setFilePath('/assets/images/illustrations/others/trustpilot-home-7.jpg'),
+     App::setFilePath('/assets/images/illustrations/others/trustpilot-home-8.jpg'),
+     App::setFilePath('/assets/images/illustrations/others/trustpilot-home-9.jpg')
+   ),
+   'desk_reviews' => array(
+     [
+       App::setFilePath('/assets/images/illustrations/others/trustpilot-home-1.jpg'),
+       App::setFilePath('/assets/images/illustrations/others/trustpilot-home-2.jpeg'),
+       App::setFilePath('/assets/images/illustrations/others/trustpilot-home-3.jpg')
+     ],
+     [
+       App::setFilePath('/assets/images/illustrations/others/trustpilot-home-4.jpg'),
+       App::setFilePath('/assets/images/illustrations/others/trustpilot-home-5.jpg'),
+       App::setFilePath('/assets/images/illustrations/others/trustpilot-home-6.jpg')
+     ],
+     [
+       App::setFilePath('/assets/images/illustrations/others/trustpilot-home-7.jpg'),
+       App::setFilePath('/assets/images/illustrations/others/trustpilot-home-8.jpg'),
+       App::setFilePath('/assets/images/illustrations/others/trustpilot-home-9.jpg')
+     ]
+   ),
+ ];
+@endphp
+
+@reviews_sliders_T1( $parameters )
+@endreviews_sliders_T1
 
     @php
     $parameters = [
