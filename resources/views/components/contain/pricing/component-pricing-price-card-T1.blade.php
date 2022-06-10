@@ -144,7 +144,15 @@ $items = [
                     'Usuarios de venta: <strong>1</strong>',
                     'Emails de CRM: <strong>ilimitados</strong>',
                     'Múltiples embudos de ventas: 1'
+                ],
             ],
+
+            [
+                'title' => 'Anuncios Digitales',
+                'items' => [
+                    'Cuentas de Facebook Ads Manager: <strong>1</strong>',
+                    'Campañas publicadas: <strong>ilimitadas</strong>'
+                ],
             ],
 
             [
