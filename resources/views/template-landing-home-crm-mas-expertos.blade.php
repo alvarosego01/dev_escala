@@ -825,31 +825,31 @@ $parameters = [
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         'textButton' => 'Prueba Gratis',
         'mob_reviews' => array(
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home-1.jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home-2.jpeg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home-3.jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home-4.jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home-5.jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home-6.jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home-7.jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home-8.jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home-9.jpg')
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-1.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-2.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-3.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-4.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-5.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-6.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-7.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-8.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-9.jpeg')
         ),
         'desk_reviews' => array(
           [
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home-1.jpg'),
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home-2.jpeg'),
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home-3.jpg')
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-1.jpeg'),
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-2.jpeg'),
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-3.jpeg')
           ],
           [
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home-4.jpg'),
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home-5.jpg'),
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home-6.jpg')
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-4.jpeg'),
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-5.jpeg'),
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-6.jpeg')
           ],
           [
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home-7.jpg'),
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home-8.jpg'),
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home-9.jpg')
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-7.jpeg'),
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-8.jpeg'),
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-9.jpeg')
           ]
         ),
       ];
