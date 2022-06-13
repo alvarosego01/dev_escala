@@ -1,11 +1,23 @@
 {{-- classSection
-enableTitle
-titlePrincipal
+posts
 categoryTag
-categoryTagList
-item
-linkCategory
-posts --}}
+classSection
+enableTitle
+paginate
+
+$paginateData = [
+  'per_page' => $per_page,
+    'offset_start' => $offset_start,
+    'offset' => $offset,
+    'current_page' => $current_page,
+    'totalPosts' => $totalPosts,
+    'totalPages' => $totalPages,
+    'params' => $params
+]; --}}
+
+@php
+$actualUrl = $get_permalink;
+@endphp
 
 
 
@@ -52,8 +64,8 @@ posts --}}
             {{-- get_the_tags(id) --}}
             <div class="groupElements">
 
-                @if (isset($posts) && $posts != null)
-                <div class="articlesSection row">
+                @if (isset($posts) && $posts != null && count($posts->get_posts()) > 0)
+                    <div class="articlesSection row">
 
                         @foreach ($posts->get_posts() as $index => $item)
                             @php
@@ -70,7 +82,7 @@ posts --}}
                                     </a>
                                     <div class="card-body">
                                         <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
-                                            @if (isset($post_tags) && $post_tags != null && count($post_tags) > 0)
+                                            {{-- @if (isset($post_tags) && $post_tags != null && count($post_tags) > 0)
                                                 <span class="tags greenBlueColor">
 
                                                     @foreach ($post_tags as $key => $x)
@@ -83,13 +95,24 @@ posts --}}
                                                     @endforeach
 
                                                 </span>
-                                            @endif
+                                            @endif --}}
                                             <h3 class="secondaryTitle blackColor card-title">
                                                 {{ $item->post_title }}
                                             </h3>
                                             <p class="commonText  blackColor card-text">
                                                 {!! ACF_CUSTOM::_getField('excerpt_single', $item->ID) !!}
                                             </p>
+                                            <span class="date">
+                                                @php
+                                                    // $date = '2022-06-13 09:59:45';
+                                                    $date = $item->post_date;
+                                                    $sec = strtotime($date);
+                                                    $newdate = date ("j M ", $sec);
+                                                    echo $newdate;
+                                                @endphp
+
+
+                                            </span>
                                         </a>
                                     </div>
                                     {{-- <div class="card-footer">
@@ -100,27 +123,66 @@ posts --}}
                         @endforeach
 
                     </div>
-                    <div class="paginationArticlesSection">
+                    @if (isset($paginateData) && $paginateData['totalPages'] > 1)
 
-                        <div class="pagination">
-                            {{-- @foreach ($posts->get_posts() as $index => $item) --}}
+                        <div class="paginationArticlesSection">
 
-                            <a href="#">
-                                Anterior
-                            </a>
-                            <a href="#" class="active">
-                                2
-                            </a>
-                            <a href="#">
-                                Siguiente
-                            </a>
+                            <div class="pagination">
 
-                            {{-- @endforeach --}}
+                                @if ($paginateData['current_page'] > 1)
+                                    @php
+                                        $arg = $paginateData['params']['arg'];
+                                        $pag = $paginateData['params']['pag'] - 1;
+                                        $url = $actualUrl . '?arg=' . $arg . '&pag=' . $pag;
+                                    @endphp
+                                    <a class="arrow" href="{{ $url }}">
+                                        Anterior
+                                    </a>
+                                @endif
+
+                                @for ($i = 0; $i < $paginateData['totalPages']; $i++)
+                                    @php
+                                        $arg = $paginateData['params']['arg'];
+                                        $pag = $i + 1;
+                                        $url = $actualUrl . '?arg=' . $arg . '&pag=' . $pag;
+                                    @endphp
+                                    <a class="number  @if ($paginateData['current_page'] == $i + 1) active @endif"
+                                        href="{{ $url }}">
+                                        {{ $i + 1 }}
+                                    </a>
+                                @endfor
+
+                                @if ($paginateData['current_page'] < $paginateData['totalPages'])
+                                    @php
+                                        $arg = $paginateData['params']['arg'];
+                                        $pag = $paginateData['params']['pag'] + 1;
+                                        $url = $actualUrl . '?arg=' . $arg . '&pag=' . $pag;
+                                    @endphp
+                                    <a class="arrow" href="{{ $url }}">
+                                        Siguiente
+                                    </a>
+                                @endif
+
+                            </div>
+
                         </div>
 
+                    @endif
+                @else
+                    <div class="articlesSection row">
+
+                        <div class="principal col-md-12 col-lg-12">
+
+                            <p class="text noResults">
+
+                                No hay resultados de busqueda
+
+                            </p>
+
+                        </div>
                     </div>
 
-                    @endif
+                @endif
             </div>
 
 

@@ -1,19 +1,22 @@
-{{-- Template Name: [B] Blog - Search results --}}
-
+{{--
+    Template Name: [B] Blog - Search results
+--}}
 
 @php
-
 $link = $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI];
 $escaped_link = htmlspecialchars($link, ENT_QUOTES, 'UTF-8');
 
 $url_components = parse_url($escaped_link);
 
-$params = null;
+$params = array(
+    'arg' => $_GET['arg'],
+    'pag' => $_GET['pag']
+);
 
 $args = null;
 $current_page = 1;
+$query = null;
 
-parse_str($url_components['query'], $params);
 
 if (isset($params['arg']) && $params['arg'] != null) {
     $args = $params['arg'];
@@ -22,75 +25,120 @@ if (isset($params['pag']) && $params['pag'] != null) {
     $current_page = $params['pag'];
 }
 
-$per_page = 3;
+$per_page = 6;
 $offset_start = 1;
 $offset = ($current_page - 1) * $per_page + $offset_start;
 
+if($args != null) {
+    $query = [
+        'post_type' => 'post',
+        'posts_per_page' => -1,
+        'order' => 'DESC',
+        's' => $args,
+    ];
+}else{
+    $query = [
+        'post_type' => 'post',
+        'posts_per_page' => -1,
+        'order' => 'DESC',
+    ];
+}
+$query = Posts::getPosts($query);
+
+$totalPosts = $query->post_count;
+$totalPages = $query->post_count / $per_page;
+$totalPages = ceil($totalPages);
+
+if($args != null) {
 $query = [
     'post_type' => 'post',
-    // 'category_name' => 'Ventas',
     'posts_per_page' => $per_page,
     'paged' => $current_page,
     'offset' => $offset,
     'order' => 'DESC',
     's' => $args,
 ];
+}else{
+    $query = [
+        'post_type' => 'post',
+        'posts_per_page' => $per_page,
+        'paged' => $current_page,
+        'offset' => $offset,
+        'order' => 'DESC',
+    ];
+
+}
 $query = Posts::getPosts($query);
+
+$paginateData = [
+    'per_page' => $per_page,
+    'offset_start' => $offset_start,
+    'offset' => $offset,
+    'current_page' => $current_page,
+    'totalPosts' => $totalPosts,
+    'totalPages' => $totalPages,
+    'params' => $params
+];
 
 @endphp
 
-<pre>
-
-    @php
-        print_r($params);
-    @endphp
-
-</pre>
 
 
 @extends('layouts.app')
 
 @section('content')
 
-
     <div id="blog-search-results-bootstrap">
 
         <div class="sections">
 
-
             @php
-
+                $title = '<span class="greenBlueColor">Últimas Publicaciones</span>';
+                $title .= (isset( $args ) && $args != null)? ' "' .$args. '"' : '';
                 $parameters = [
                     'posts' => $query,
                     'categoryTag' => false,
-                    // 'categoryTagList' null,
-                    // 'classSection' => 'blogHome3 searchResultsBlog0',
                     'classSection' => 'searchResultsBlog0',
                     'enableTitle' => true,
-                    'linkCategory' => App::setTypeUrl() . '/blog/ventas',
+                    'paginateData' => $paginateData,
+                    'titlePrincipal' => $title
                 ];
 
             @endphp
 
-            <pre>
+            @articlesBlog_paginate_T1($parameters)
+            @endarticlesBlog_paginate_T1
+
+
 
             @php
-                print_r($query->posts)
-                // print_r($query->found_posts)
-            @endphp
+             $parameters = [
+            'classSection' => 'blogSingleSection4 searchResultsBlog1',
+            'title' => '<span style="color: #A4E7EA">
+                Impulsar el crecimiento de <br class="space">
+                tu negocio con Escala
+              </span>',
+              'text' => '
+                Estás a un clic de probar Escala, la plataforma todo <br class="desktopTabletElement">
+                en uno de marketing digital y ventas que te <br class="desktopTabletElement">
+                ayudará a crecer de manera acelerada
+              ',
+            'textForm' => 'Pruébalo gratis ahora',
+            'image' => App::setFilePath('/assets/images/illustrations/otto/otto_blog_form.png'),
+            // 'setForm' => $setForm
+        ];
+      @endphp
+      @bannerForms7_T1( $parameters )
 
-        </pre>
+      @endbannerForms7_T1
 
-            @articlesBlog_paginate_T1($parameters)
-                @slot('titlePrincipal')
-                    <span class="greenBlueColor">Últimas Publicaciones</span> “{{ $args }}”
-                @endslot
-            @endarticlesBlog_paginate_T1
 
 
         </div>
 
     </div>
+
+
 
 
 

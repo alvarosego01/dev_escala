@@ -84,7 +84,7 @@
                                         text-align: center
                                         margin-bottom: 25px
                                     @include responsivo(general)
-                                        font-size: 42.5px
+                                        font-size: 40px
                                     @include responsivo(smallPcTablet)
                                         font-size: 32.5px
                                     @include responsivo(resto)
@@ -140,11 +140,11 @@
                                 justify-content: center
                                 align-content: centers
                                 @include responsivo(general)
-                                    right: 5%
+                                    right: 2.5%
                                 @include responsivo(smallPcTablet)
                                     right: 12.5%
                                 @include responsivo(resto)
-                                    right: 5%
+                                    right: 0
                                 img
                                     height: 450px
                                     @include responsivo(telefonoTable)
@@ -172,7 +172,31 @@
                         .formatForm
                             display: block
                             margin: 0 auto
-                            background-color: rgba(white, 0.9)
+                            background-color: rgba(white, 0.85)
+                            .titleFormat
+                                // padding-bottom: 10px
+                                font-family: Nunito
+                                font-style: normal
+                                font-weight: 700
+                                font-size: 20px
+                                line-height: 1
+                                text-align: center
+                                letter-spacing: -0.02em
+                                color: #150D27
+                                @include responsivo(telefonoTable)
+                                    font-size: 18px
+                                @include responsivo(pcMedio)
+                                    font-size: 18px
+                                @include responsivo(general)
+                                    font-size: 18px
+                                @include responsivo(smallPcTablet)
+                                    font-size: 16px
+                            div.contain
+                                margin-bottom: 35px
+                                .element
+                                    margin: 5px 0
+
+
                         .containElements
                             margin: 0 auto
         .backgroundPlanets
@@ -241,14 +265,11 @@
         padding: 50px 0
         padding-top: 75px
         padding-bottom: 12.5px
+        @include responsivo(telefonoTable)
+            padding-top: 50px!important
+        @include responsivo(pcMedio)
+            padding-top: 50px!important
         .section-row
-            .innerSectionElement
-                .containElements
-                    .groupTag
-                        .tagsCategory
-                            background-color: $colorBlack
-                            font-size: 18px
-                            padding: 10px 50px
 
             section.innerSectionElement.sct1
                 .containElements
@@ -260,15 +281,37 @@
                         line-height: 1
                         text-align: left
                         letter-spacing: -1px
-                        margin-bottom: 35px
+                        margin-bottom: 50px
                         @include responsivo(telefonoTable)
                             font-size: 25px
                             text-align: center
+                            margin-bottom: 35px
                         @include responsivo(pcMedio)
                             font-size: 25px
                             text-align: center
+                            margin-bottom: 35px
 
     section.customSection.sectionParent.blogHome4
         background-color: $colorGreyLight
         padding: 50px 0
         padding-top: 12.5px
+        .section-row
+            section.innerSectionElement.sct1
+                .containElements
+                    h2.primaryTitle
+                        font-family: Nunito
+                        font-style: normal
+                        font-weight: 700
+                        font-size: 35px
+                        line-height: 1
+                        text-align: left
+                        letter-spacing: -1px
+                        margin-bottom: 50px
+                        @include responsivo(telefonoTable)
+                            font-size: 25px
+                            text-align: center
+                            margin-bottom: 35px
+                        @include responsivo(pcMedio)
+                            font-size: 25px
+                            text-align: center
+                            margin-bottom: 35px
