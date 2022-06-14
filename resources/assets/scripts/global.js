@@ -458,26 +458,6 @@ jQuery('.pill-button-selection').on('click', function() {
 
 }
 
-function preventResetForms(){
-
-    jQuery(document).on('reset', 'form.wpcf7-form', function(e) {
-        e.preventDefault();
-
-        jQuery('.ewp-phone-text').val('');
-
-    });
-
-        jQuery('.ewp-phone-text').on('focus click keypress', function () {
-
-        if (this.value == '   -   -    ') {
-            this.value = "";
-        }
-
-    });
-
-}
-
-preventResetForms();
 
 function _preventResetForms(){
 

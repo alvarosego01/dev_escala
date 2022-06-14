@@ -119,8 +119,8 @@ $paginateData = [
                 tu negocio con Escala
               </span>',
               'text' => '
-                Estás a un clic de probar Escala, la plataforma todo <br class="desktopTabletElement">
-                en uno de marketing digital y ventas que te <br class="desktopTabletElement">
+                Estás a un clic de probar Escala, la plataforma <strong>todo <br class="desktopTabletElement">
+                en uno de marketing digital y ventas </strong> que te <br class="desktopTabletElement">
                 ayudará a crecer de manera acelerada
               ',
             'textForm' => 'Pruébalo gratis ahora',
