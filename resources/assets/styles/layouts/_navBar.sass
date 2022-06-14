@@ -199,6 +199,10 @@ header.customHeader.customSection
                                 right: -12px
                                 position: absolute
                                 border-right: 2px solid rgba(0,0,0,0.1)
+
+                        li
+                            &:first-child
+                                margin-left: 0!important
             ul
                 margin-left: 0!important
                 li.menu-item
@@ -382,6 +386,8 @@ body
                     li
                         a
                             color: black
+                        &:first-child
+                            margin-left: 0!important
             .container-fluid.sct2
                 padding: 0
                 position: relative
@@ -395,6 +401,10 @@ body
                         position: relative
                         a
                             color: #9E989A
+
+                    li
+                        &:first-of-type
+                            margin-left: 0!important
 
             ul
                 margin-left: 0!important
@@ -475,6 +485,22 @@ header.customHeader.customSection.landing-global2
         .logo
             margin: 0 auto
 
+
+
+
+header.customHeader.customSection.component-header-blog.navBar_blog.blog-global1
+    nav.navbar
+        .section-row
+            .container-fluid.sct2
+                .logo
+                    a.navbar-brand
+                        img,
+                        svg
+
+                            @include responsivo(telefonoTable)
+                                height: 20px
+                            @include responsivo(pcMedio)
+                                height: 25px
 
 
 

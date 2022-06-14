@@ -1192,3 +1192,136 @@ $button-selection: 2
     height: 75px
     width: 375px
 
+
+.searchContainer
+    height: 100%
+    .containElements
+        height: 100%
+        form
+            height: 100%
+            display: flex
+            position: relative
+
+    .container-2
+        width: fit-content
+        vertical-align: middle
+        white-space: nowrap
+        position: relative
+        height: 100%
+        input#search
+            height: 20px
+            background: #F7F7F7
+            border: none
+            font-size: 14px
+            float: left
+            color: #858585
+            padding: 0
+            border-radius: 10px
+            // transition: width .55s ease
+            transition: $trans
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.05)
+            width: 300px
+            padding-left: 20px
+            padding-right: 45px
+            @include responsivo(general)
+                width: 250px
+            @include responsivo(resto)
+                width: 275px
+            &::-webkit-input-placeholder
+                color: #65737e
+            &:-moz-placeholder
+                /* Firefox 18-
+                color: #65737e
+            &::-moz-placeholder
+                /* Firefox 19+
+                color: #65737e
+            &:-ms-input-placeholder
+                color: #65737e
+            @include responsivo(smallPcTablet)
+                font-size: 12px
+
+        .icon
+            position: absolute
+            top: 0
+            bottom: 0
+            // left: 0
+            right: 10px
+            margin-left: auto
+            margin-top: auto
+            margin-bottom: auto
+            z-index: 10
+            color: #4f5b66
+            display: flex
+            width: 25px
+            background-color: transparent
+
+            i
+                margin: auto
+                display: block
+                font-size: 20px
+
+
+.paginationArticlesSection
+    padding: 50px 0
+    width: 100%
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-content: center
+    @include responsivo(telefonoTable)
+        padding: 0
+        padding-top: 10px
+    @include responsivo(pcMedio)
+        padding: 0
+        padding-top: 10px
+
+    .pagination
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-content: center
+        margin: 0 auto
+        a
+            font-family: Nunito
+            margin: 0 10px
+            text-decoration: none
+            font-size: 18px
+            line-height: 1
+            letter-spacing: -1px
+            font-weight: 600
+            display: flex
+            justify-self: center
+            justify-content: center
+            align-items: center
+            align-content: center
+            align-self: center
+            justify-self: center
+            transition: $trans
+            @include responsivo(telefonoTable)
+                margin: 0 2.5px
+                font-size: 14px
+            @include responsivo(pcMedio)
+                margin: 0 2.5px
+                font-size: 16px
+        a.number
+            color: #34768A
+            border-radius: 100%
+            width: 40px
+            height: 40px
+            &:hover
+                background-color: #34768A
+                color: white
+            @include responsivo(telefonoTable)
+                width: 30px
+                height: 30px
+            @include responsivo(pcMedio)
+                width: 30px
+                height: 30px
+
+        a.number.active
+            background-color: #34768A
+            color: white
+        a.arrow
+            color: #322C2E
+            &:hover
+                color: #34768A

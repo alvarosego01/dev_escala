@@ -1,0 +1,116 @@
+
+
+
+.component-trustPilots-reviews-slider-T1.customSection.sectionParent
+    padding: 0
+    background-color: white
+    .section-row
+        background-color: white
+        border-radius: 18px
+        @include responsivo(telefonoTable)
+            width: 95%
+            padding: 25px 15px
+        @include responsivo(pcMedio)
+            width: 90%!important
+            padding: 50px 15px
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1100px
+            padding: 50px 0
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1340px
+            padding: 50px 0
+
+        .innerSectionElement1
+            h2.primaryTitle
+                font-family: Nunito
+                font-style: normal
+                font-weight: bold
+                font-size: 35px
+                line-height: 0.9
+                text-align: center
+                letter-spacing: -2px
+                @include responsivo(telefonoTable)
+                    font-size: 25px
+                    margin-bottom: 0
+                @include responsivo(pcMedio)
+                    font-size: 25px
+                    margin-bottom: 0
+
+        .innerSectionElement2
+            margin-bottom: 30px
+            padding-bottom: 0 25px
+            .carousel.slide
+                @include responsivo(telefonoTable)
+                    width: 95%
+                    margin-left: auto
+                    margin-right: auto
+                @include responsivo(pcMedio)
+                    width: 85%
+                    margin-left: auto
+                    margin-right: auto
+                .carousel-inner
+                    .carousel-item
+                        .row
+                            .testimonial
+                                box-sizing: border-box
+                                padding: 0
+                                .containElements
+                                    background-color: transparent
+                                    height: 100%
+                                    padding: 0
+                                    display: flex
+                                    flex-direction: column
+                                    justify-content: space-between
+                                    // margin: 30px
+                                    @include responsivo(telefonoTable)
+                                        padding-bottom: 0
+
+                                    @include responsivo(pcMedio)
+                                        padding-bottom: 0
+
+                                    .referElements
+                                        display: flex
+                                        justify-content: center
+                                        padding: 0
+                                        margin-bottom: 0
+
+                                        .containerImage
+                                            margin: 0 auto
+                                            padding: 0
+                                            margin-bottom: 0!important
+                                            position: relative
+                                            display: flex
+                                            justify-content: centar
+                                            align-items: center
+                                            @include responsivo(telefonoTable)
+                                                height: auto
+
+                                            @include responsivo(general)
+                                                margin-bottom: 15px
+                                            @include responsivo(resto)
+                                                margin-bottom: 15px
+                                            img
+                                                height: 250px
+                                                width: auto
+                                                @include responsivo(telefonoTable)
+                                                    height: auto
+                                                    width: 90%
+                                                @include responsivo(pcMedio)
+                                                    height: auto
+                                                    width: 75%
+                                                @include responsivo(general)
+                                                    height: 225px
+                                                @include responsivo(smallPcTablet)
+                                                    height: 190px
+
+        .innerSectionElement3
+            .containElements
+                display: flex
+                flex-direction: row
+                justify-content: center
+                align-content: center
+                align-items: center
+                a
+                    margin: 0 auto

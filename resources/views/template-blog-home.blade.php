@@ -5,78 +5,45 @@
 --}}
 
 
-
 @extends('layouts.app')
 
 @section('content')
 
-
     <div id="blog-home-bootstrap">
-
 
         <div class="sections">
 
-            @header_t1
 
-            @slot('backgroundImageType')
-                true
-            @endslot
-
-            @slot('overlay')
-                true
-            @endslot
-
-            @slot('classSection')
-                threeCol func blogHome0
-            @endslot
-
-            @slot('title')
-                Conviértete en un experto <br> <span class="greenBlueColor">en ventas y marketing</span>
-            @endslot
-
-            @slot('text')
-                Todos los conocimientos que necesitas <br> para construir potentes embudos de venta.
-            @endslot
-
-            @slot('image')
-                {!! App::setFilePath('/assets/images/illustrations/otto/otto_einstein.png') !!}
-            @endslot
-
-            @slot('textForm')
-                Empieza a probar Escala
-            @endslot
-
-            @slot('threeCol')
-                true
-            @endslot
-
-            @slot('backgroundImage')
-                {!! App::setFilePath('/assets/images/backgrounds/degradeBlue1.png') !!}
-            @endslot
-
-            @slot('overlayImage')
-                {!! App::setFilePath('/assets/images/overlays/estrellas 2.png') !!}
-            @endslot
-
-            @endheader_t1
-
-
-            @subscribers_T1
-
-                @slot('classSection')
-                    blogHome1
-                @endslot
-
-                @slot('image')
-                    {!! App::setFilePath('/assets/images/illustrations/team/avatar-chica.png') !!}
-                @endslot
-
-                @slot('title')
-                    Suscríbete a <span class="greenBlueColor">nuestro blog</span>
-                @endslot
-
-            @endheader_t1
-
+            @php
+            $parameters = array(
+               'backgroundImageType' => false,
+               'overlay' => false,
+               'classSection' => 'threeCol blogHome0',
+               'title' => '
+                <span style="color: #B9E6E9">
+Mantén tu conocimiento <br class="space">
+de marketing y ventas al día
+                </span>
+               ',
+               'text' => '
+               <span class="whiteColor">
+Encuentra en nuestro blog tendencias, <br class="space">
+novedades y mejores prácticas <br class="space">
+para empoderar tu formación.
+                </span>
+               ',
+               'threeCol' => true,
+               'textForm' => '
+                ¡Sigue formándote! <br class="space">
+Suscríbete a nuestro newsletter
+               ',
+               'backgroundImage' => null,
+            'overlayImage' => null,
+            'image' =>  App::setFilePath('/assets/images/person/blog_header.png')
+              ) ;
+              @endphp
+              @header_t1( $parameters )
+              @endheader_t1
 
 
                 @php
@@ -90,7 +57,7 @@
 
             @slideshowBlog_T1(array(
                 "posts" => $query,
-                'categoryTag' => true,
+                'categoryTag' => false,
                 'categoryTagList' =>  [
                     "Marketing",
                     // "Ventas"
@@ -109,7 +76,8 @@
                 @endslot
 
                 @slot('subTitlePrincipal')
-                    Todos los conocimientos que necesitas para construir potentes embudos de venta.
+Dale un vistazo a los artículos más leídos. Tendencias de las principales industrias, mejores <br class="desktopTabletElement">
+prácticas y conocimientos estratégicos sobre marketing, ventas y fidelización.
                 @endslot
 
                 @slot('overlay')
@@ -133,7 +101,7 @@
 
                 $parameters = array(
                     "posts" => $query,
-                    'categoryTag' => true,
+                    'categoryTag' => false,
                     'categoryTagList' =>  [
                         "Ventas"
                     ],
@@ -147,7 +115,11 @@
             @articlesBlog_T1($parameters)
 
                 @slot('titlePrincipal')
-                    <span class="greenBlueColor">Artículos</span> recientes
+
+                <a href="{{ App::setTypeUrl().'/blog/ventas' }}">
+                    <span class="greenBlueColor">Artículos</span> de ventas
+                </a>
+
                 @endslot
 
 
@@ -165,7 +137,7 @@
 
                 $parameters = array(
                 "posts" => $query,
-                'categoryTag' => true,
+                'categoryTag' => false,
                 'categoryTagList' =>  [
                     "Marketing"
                 ],
@@ -178,6 +150,13 @@
 
             @articlesBlog_T1($parameters)
 
+            @slot('titlePrincipal')
+
+            <a href="{{ App::setTypeUrl().'/blog/marketing' }}">
+                <span class="greenBlueColor">Artículos</span> de marketing
+            </a>
+
+        @endslot
 
 
             @endarticlesBlog_T1

@@ -76,7 +76,8 @@ add_action('wp_enqueue_scripts', function () {
         }
         $t = SetComponents::setTemplates('blog');
         if (is_page_template($t)) {
-            wp_enqueue_style('blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
+            wp_enqueue_style('_blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
+            wp_enqueue_script('_blog.js', asset_path('scripts/pages/_blog.js'), ['jquery'], THEME_VERSION, true);
         }
         $t = SetComponents::setTemplates('casoExito');
         if (is_page_template($t)) {
@@ -457,3 +458,9 @@ function registerCustomMenu()
 add_action('init', registerCustomMenu() ); // Add HTML5 Blank Menu
 
 
+add_action('wpcf7_enqueue_scripts', 'prefix_fix_form_reset');
+
+function prefix_fix_form_reset() {
+    $wpcf7 = array();
+    wp_localize_script( 'contact-form-7', 'wpcf7', $wpcf7 );
+}
