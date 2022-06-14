@@ -25,7 +25,7 @@ if (isset($params['pag']) && $params['pag'] != null) {
     $current_page = $params['pag'];
 }
 
-$per_page = 6;
+$per_page = 9;
 $offset_start = 1;
 $offset = ($current_page - 1) * $per_page + $offset_start;
 
