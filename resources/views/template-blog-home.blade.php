@@ -56,7 +56,7 @@ para empoderar tu formación.
 
             @slideshowBlog_T1(array(
                 "posts" => $query,
-                'categoryTag' => true,
+                'categoryTag' => false,
                 'categoryTagList' =>  [
                     "Marketing",
                     // "Ventas"
@@ -114,7 +114,11 @@ prácticas y conocimientos estratégicos sobre marketing ventas y fidelización
             @articlesBlog_T1($parameters)
 
                 @slot('titlePrincipal')
+
+                <a href="{{ App::setTypeUrl().'/blog/ventas' }}">
                     <span class="greenBlueColor">Artículos</span> de ventas
+                </a>
+
                 @endslot
 
 
@@ -146,7 +150,10 @@ prácticas y conocimientos estratégicos sobre marketing ventas y fidelización
             @articlesBlog_T1($parameters)
 
             @slot('titlePrincipal')
-            <span class="greenBlueColor">Artículos</span> de marketing
+
+            <a href="{{ App::setTypeUrl().'/blog/marketing' }}">
+                <span class="greenBlueColor">Artículos</span> de marketing
+            </a>
 
         @endslot
 

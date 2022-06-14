@@ -146,15 +146,15 @@
                                 @include responsivo(resto)
                                     right: 0
                                 img
-                                    height: 450px
+                                    height: 375px
                                     @include responsivo(telefonoTable)
                                         height: 250px
                                     @include responsivo(pcMedio)
                                         height: 275px
                                     @include responsivo(general)
-                                        height: 475px
+                                        height: 350px
                                     @include responsivo(smallPcTablet)
-                                        height: 425px
+                                        height: 325px
                     .form7
                         margin-bottom: 0
                         padding: 0 50px
@@ -263,7 +263,6 @@
     section.customSection.sectionParent.blogHome3
         background-color: #F9F9F9
         padding: 50px 0
-        padding-top: 75px
         padding-bottom: 12.5px
         @include responsivo(telefonoTable)
             padding-top: 50px!important
@@ -291,6 +290,12 @@
                             text-align: center
                             margin-bottom: 35px
 
+                        a
+                            color: unset
+                            text-decoration: none
+                        &:hover
+                            cursor: pointer
+
     section.customSection.sectionParent.blogHome4
         background-color: $colorGreyLight
         padding: 50px 0
@@ -315,3 +320,8 @@
                             font-size: 25px
                             text-align: center
                             margin-bottom: 35px
+                        a
+                            color: unset
+                            text-decoration: none
+                        &:hover
+                            cursor: pointer
