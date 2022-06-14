@@ -186,11 +186,11 @@ a tus clientes
       <div class="containElements">
 
         <h2 class="primaryTitle blackColor">
-          <span class="greenBlueColor">La plataforma todo-en-uno <br class="space"></span>
-          de marketing, ventas y fidelización
+          <span class="greenBlueColor">La plataforma de CRM todo-en-uno</span> <br class="space">
+          más poderosa
         </h2>
         <p class="primaryText grayColorTexts">
-          En Escala tienes una plataforma de CRM poderosa con todas las funcionalidades <br class="desktopTabletElement">
+          En Escala tienes una plataforma de CRM todo-en-uno con todas las funcionalidades integradas <br class="desktopTabletElement">
           que necesitas para generar más demanda, aumentar tus ventas y retener más clientes.
         </p>
 
@@ -721,82 +721,60 @@ $parameters = [
   'enableButton' => false,
   'elements' => array(
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/team/home_ventajas-1.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-01.png'),
                   'title' => '
-                      Una herramienta <br class="space">
-                      muy amigable <span class="blueLightColor11">
-                        para <br class="space">
-                        mercadeo y ventas
-                      </span>
+                      Una plataforma <br class="desktopTabletElement">
+                      CRM todo-en-uno <br class="desktopTabletElement">
+                      <span class="blueLightColor11">amigable e intuitiva</span>
                       ',
-                  'text' => '
-                  <span>
-                    Ernesto Valery / Director Huella Studio
-                  </span>
-                  ',
+                  'text' => null,
                   'enableButton' => false,
 
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/team/home_ventajas-2.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-02.png'),
                   'title' => '
-                      Un equipo de servicio <br class="space">
-                      extraordinario y bien entrenado. <br class="space">
-                      <span class="blueLightColor11">
-                        Tienen un equipo atento <br class="space">
-                        y disponible cuando lo necesitas
-                      </span>
-                  ',
-                  'text' => '
-                    <span>Michelle Palaez / Fundadora Infinito Producciones</span>
-                  ',
-                  'enableButton' => false,
-              ],
-              [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/home_ventajas-3.png'),
-                  'title' => '
-                        No dependes de un equipo <br class="space">
-                        técnico o de programación. <br class="space">
-                        <span class="blueLightColor11">
-                          Cualquiera con nivel básico <br class="space">
-                          sabría utilizar Escala.
-                        </span>
-                      ',
-                  'text' => '
-                    <span>
-                      Verónica Bolaños / Account Manager, <br class="space">
-                      Publicidad Comercial
+                    Acompañamiento de expertos <br class="desktopTabletElement">
+                    <span class="blueLightColor11">
+                      en vivo para implementar tu <br class="desktopTabletElement">
+                      estrategia digital con éxito
                     </span>
                   ',
+                  'text' => null,
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/home_ventajas-4.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-03.png'),
                   'title' => '
-                        Todo está 100% en español. <br class="space">
-                        <span class="blueLightColor11">
-                          Finalmente un software donde la <br class="space">
-                          plataforma, el servicio y la educación <br class="space">
-                          es en español
-                        </span>
+                        Todas las funcionalidades de <br class="desktopTabletElement">
+                        marketing, ventas y fidelización <br class="desktopTabletElement">
+                        <span class="blueLightColor11">en un solpo lugar</span>
                       ',
-                  'text' => '
-                    <span>Verónica Bolaños / Account Manager, Publicidad Comercial</span>
-                  ',
+                      'text' => null,
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/home_ventajas-5.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-04.png'),
                   'title' => '
-                          Todas las funcionalidades <br class="space">
-                          en un solo lugar, <span class="blueLightColor11">
-                          Escala <br class="space">
-                          programa las páginas por ti
+                        100% en español, <span class="blueLightColor11">
+                          pensada para <br class="desktopTabletElement">
+                          impulsar el crecimiento de las <br class="desktopTabletElement">
+                          empresas latinoamericanas
                         </span>
                       ',
-                  'text' => '
-                  <span>Michelle Palaez / Fundadora Infinito Producciones</span>
-                  ',
+                      'text' => null,
+                  'enableButton' => false,
+              ],
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-05.png'),
+                  'title' => '
+                        Planes hechos a la medida de <br class="desktopTabletElement">
+                        cada necesidad, <span class="blueLightColor11">
+                           con precios <br class="desktopTabletElement">
+                          realmente competitivos
+                        </span>
+                      ',
+                      'text' => null,
                   'enableButton' => false,
               ],
   )
@@ -818,31 +796,31 @@ $parameters = [
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         'textButton' => 'Prueba Gratis',
         'mob_reviews' => array(
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home(1).jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home(2).jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home(3).jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home(4).jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home(5).jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home(6).jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home(7).jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home(8).jpg'),
-          App::setFilePath('/assets/images/illustrations/others/trustpilot-home(9).jpg')
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-1.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-2.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-3.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-4.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-5.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-6.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-7.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-8.jpeg'),
+          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-9.jpeg')
         ),
         'desk_reviews' => array(
           [
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home(1).jpg'),
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home(2).jpg'),
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home(3).jpg')
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-1.jpeg'),
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-2.jpeg'),
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-3.jpeg')
           ],
           [
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home(4).jpg'),
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home(5).jpg'),
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home(6).jpg')
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-4.jpeg'),
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-5.jpeg'),
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-6.jpeg')
           ],
           [
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home(7).jpg'),
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home(8).jpg'),
-            App::setFilePath('/assets/images/illustrations/others/trustpilot-home(9).jpg')
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-7.jpeg'),
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-8.jpeg'),
+            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-9.jpeg')
           ]
         ),
       ];
