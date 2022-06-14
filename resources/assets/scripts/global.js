@@ -355,7 +355,7 @@ function instanceYoutube() {
 
         techOrder: ['html5', 'flash'],
         controls: false,
-        autoplay: true,
+        autoplay: false,
         preload: 'false'
 
         // flash: {
