@@ -21,20 +21,21 @@
                'classSection' => 'threeCol blogHome0',
                'title' => '
                 <span style="color: #B9E6E9">
-                    Mantén tu conocimiento <br class="space">
+Mantén tu conocimiento <br class="space">
 de marketing y ventas al día
                 </span>
                ',
                'text' => '
                <span class="whiteColor">
-                Tendencias, novedades y mejores prácticas <br class="space">
+Encuentra en nuestro blog tendencias, <br class="space">
+novedades y mejores prácticas <br class="space">
 para empoderar tu formación.
                 </span>
                ',
                'threeCol' => true,
                'textForm' => '
-                ¡Mantente al día! <br class="space">
-                Suscríbete a nuestro newsletter
+                ¡Sigue formándote! <br class="space">
+Suscríbete a nuestro newsletter
                ',
                'backgroundImage' => null,
             'overlayImage' => null,
@@ -76,7 +77,7 @@ para empoderar tu formación.
 
                 @slot('subTitlePrincipal')
 Dale un vistazo a los artículos más leídos. Tendencias de las principales industrias, mejores <br class="desktopTabletElement">
-prácticas y conocimientos estratégicos sobre marketing ventas y fidelización
+prácticas y conocimientos estratégicos sobre marketing, ventas y fidelización.
                 @endslot
 
                 @slot('overlay')

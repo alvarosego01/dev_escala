@@ -108,8 +108,6 @@ document.addEventListener('wpcf7mailfailed', async (e) =>  {
     let l = e.path;
     let re = null;
 
-    console.log('var event inputs', inputs);
-
     window.dataLayer.push({
         "event": "cf7submission",
         "formId": event.detail.contactFormId,

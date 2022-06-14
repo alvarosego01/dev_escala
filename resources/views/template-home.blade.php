@@ -190,7 +190,7 @@ a tus clientes
           más poderosa
         </h2>
         <p class="primaryText grayColorTexts">
-          En Escala tienes una plataforma de CRM todo-en-uno con todas las funcionalidades integradas <br class="desktopTabletElement">
+          En Escala tienes una plataforma de CRM todo-en-uno con todas las funcionalidades integradas <br class="space">
           que necesitas para generar más demanda, aumentar tus ventas y retener más clientes.
         </p>
 
@@ -710,10 +710,11 @@ $parameters = [
   'classSection' => 'homeSection6',
   'enableTitle' => true,
   'titlePrincipal' => '
-    <span style="color: #B9E6E9">
       5 Ventajas de potenciar <br class="space">
-      tu negocio con
-    </span> Escala
+      <span style="color: #B9E6E9">
+      tu empresa con Escala
+      </span>
+
   ',
   'subTitlePrincipal' => null,
   'overlay' => true,
@@ -723,9 +724,9 @@ $parameters = [
               [
                   'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-01.png'),
                   'title' => '
-                      Una plataforma <br class="desktopTabletElement">
-                      CRM todo-en-uno <br class="desktopTabletElement">
-                      <span class="blueLightColor11">amigable e intuitiva</span>
+                        Una plataforma <br class="space">
+                        CRM todo-en-uno <br class="space">
+                        <span class="blueLightColor11">amigable e intuitiva</span>
                       ',
                   'text' => null,
                   'enableButton' => false,
@@ -734,9 +735,9 @@ $parameters = [
               [
                   'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-02.png'),
                   'title' => '
-                    Acompañamiento de expertos <br class="desktopTabletElement">
+                    Acompañamiento de expertos <br class="space">
                     <span class="blueLightColor11">
-                      en vivo para implementar tu <br class="desktopTabletElement">
+                      en vivo para implementar tu <br class="space">
                       estrategia digital con éxito
                     </span>
                   ',
@@ -746,9 +747,9 @@ $parameters = [
               [
                   'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-03.png'),
                   'title' => '
-                        Todas las funcionalidades de <br class="desktopTabletElement">
-                        marketing, ventas y fidelización <br class="desktopTabletElement">
-                        <span class="blueLightColor11">en un solpo lugar</span>
+                        Todas las funcionalidades de <br class="space">
+                        marketing, ventas y fidelización <br class="space">
+                        <span class="blueLightColor11">en un solo lugar</span>
                       ',
                       'text' => null,
                   'enableButton' => false,
@@ -757,8 +758,8 @@ $parameters = [
                   'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-04.png'),
                   'title' => '
                         100% en español, <span class="blueLightColor11">
-                          pensada para <br class="desktopTabletElement">
-                          impulsar el crecimiento de las <br class="desktopTabletElement">
+                          pensada para <br class="space">
+                          impulsar el crecimiento de las <br class="space">
                           empresas latinoamericanas
                         </span>
                       ',
@@ -768,10 +769,10 @@ $parameters = [
               [
                   'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-05.png'),
                   'title' => '
-                        Planes hechos a la medida de <br class="desktopTabletElement">
-                        cada necesidad, <span class="blueLightColor11">
-                           con precios <br class="desktopTabletElement">
-                          realmente competitivos
+                        Con planes hechos a tu medida, <br class="space">
+                        <span class="blueLightColor11">
+                          del tamaño de las necesidades <br class="space">
+                          de tu empresa
                         </span>
                       ',
                       'text' => null,
@@ -789,7 +790,10 @@ $parameters = [
        $parameters = [
         'classSection' => 'homeSection3',
         'enableTitle' => true,
-        'titlePrincipal' => 'Nuestros clientes te dicen <br class="space"> por qué prefieren Escala',
+        'titlePrincipal' => '
+        Nuestros clientes te dicen <br class="space">
+        <span class="greenBlueColor">por qué prefieren Escala</span>
+        ',
         'subTitlePrincipal' => null,
         'enableContainerButton' => true,
         'urlButton' => '#',
@@ -837,11 +841,13 @@ $parameters = [
         'classSection' => 'homeSection7',
         'enableTitle' => true,
         'titlePrincipal' => '
-        Servicio Premium
+        ¡Somos un equipo! <br class="space">
+        <span class="greenBlueColor">Te acompañamos desde el primer día</span>
         ',
         'subTitlePrincipal' => '
-          En Escala te acompañamos desde el primer día con nuestros gerentes de <br class="desktopTabletElement">
-          cuentas, quienes te guiarán en todo tu camino para hacer crecer tu negocio.
+          En Escala te asignamos un gerente de cuentas, quien te guiará paso a paso para que implementes tu <br class="desktopTabletElement">
+          estrategia digital con éxito y maximices el uso de nuestra plataforma. Además dispones de contenido de <br class="desktopTabletElement">
+          formación, atención oportuna y servicios complementarios adaptados a tus necesidades.
 
         ',
         'overlay' => false,
@@ -872,12 +878,12 @@ $parameters = [
                 Escala Academy
                 ',
                 'text' => '
-                  Conviértete en un experto de marketing digital y <br class="desktopTabletElement">
-                  ventas con formación en vivo. Con capacitaciones <br class="desktopTabletElement">
-                  basadas en casos prácticos y estratégicos según tu <br class="desktopTabletElement">
-                  plan. Cuenta con recursos autoguiados: guías <br class="desktopTabletElement">
-                  prácticas, webinars grabados y más de 80 tutoriales <br class="desktopTabletElement">
-                  de nuestra plataforma.
+                    Conviértete en un experto de marketing digital y <br class="desktopTabletElement">
+                    ventas con formación en vivo. Con capacitaciones <br class="desktopTabletElement">
+                    basadas en casos prácticos y estratégicos según tu <br class="desktopTabletElement">
+                    plan. En Escala te damos recursos autoguiados: guías <br class="desktopTabletElement">
+                    prácticas, webinars grabados y tutoriales para <br class="desktopTabletElement">
+                    aprovechar nuestra plataforma.
                 ',
                 'enableButton' => false,
             ],
@@ -901,9 +907,8 @@ $parameters = [
                 'text' => '
                   Disfruta de sesiones de configuración personalizadas <br class="desktopTabletElement">
                   y el diseño de tus plantillas de landing pages y <br class="desktopTabletElement">
-                  correos electrónicos adaptados a tu negocio.
+                  correos electrónicos adaptados a tu empresa.
                 ',
-
                 'enableButton' => false,
             ],
 
