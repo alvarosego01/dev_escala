@@ -479,40 +479,28 @@ function preventResetForms(){
 
 preventResetForms();
 
-function preventResetForms(){
-
+function _preventResetForms(){
 
     jQuery(document).on('reset', 'form.wpcf7-form', function(e) {
         e.preventDefault();
 
-
-        console.log('dispara reset form');
         jQuery('.ewp-phone-text').val('');
-
-
 
     });
 
         jQuery('.ewp-phone-text').on('focus click keypress', function () {
 
         if (this.value == '   -   -    ') {
-            console.log('focus text phone');
             this.value = "";
-            // jQuery('.ewp-phone-text').val('');
         }
 
     });
 
-
-
-
 }
 
+_preventResetForms();
 
 
-
-
-preventResetForms();
 
 jQuery(document).ready(function () {
 

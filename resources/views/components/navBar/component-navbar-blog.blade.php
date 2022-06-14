@@ -39,6 +39,7 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
                     <div style="display: flex; flex-direction: row" class="buttonSections">
 
 
+
                         {!! wp_nav_menu([
     'menu' => $navBar_ID,
     'container' => false,
@@ -69,7 +70,8 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
                                 <form action="{{App::setTypeUrl().'/blog-search'}}" method="get">
 
                                 <span class="icon"><i class="fa fa-search"></i></span>
-                                <input type="search" id="search" placeholder="Buscar..." />
+                                <input type="search" name="arg" id="search" placeholder="Escribe aquí una palabra clave" />
+                                <input type="hidden" name="pag" value="1" />
 
                                 </form>
                             </div>

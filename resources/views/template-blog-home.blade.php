@@ -21,18 +21,21 @@
                'classSection' => 'threeCol blogHome0',
                'title' => '
                 <span style="color: #B9E6E9">
-                    Conviértete en un experto <br class="space">
-                    en ventas y marketing
+                    Mantén tu conocimiento <br class="space">
+de marketing y ventas al día
                 </span>
                ',
                'text' => '
                <span class="whiteColor">
-                Todos los conocimientos que necesitas <br class="space">
-                para construir potentes embudos de venta
+                Tendencias, novedades y mejores prácticas <br class="space">
+para empoderar tu formación.
                 </span>
                ',
                'threeCol' => true,
-               'textForm' => 'Comienza ahora',
+               'textForm' => '
+                ¡Mantente al día! <br class="space">
+                Suscríbete a nuestro newsletter
+               ',
                'backgroundImage' => null,
             'overlayImage' => null,
             'image' =>  App::setFilePath('/assets/images/person/blog_header.png')
@@ -40,9 +43,6 @@
               @endphp
               @header_t1( $parameters )
               @endheader_t1
-
-
-
 
 
                 @php
@@ -75,8 +75,8 @@
                 @endslot
 
                 @slot('subTitlePrincipal')
-                    We share common trends, strategies ideas, opinions, short & long stories from the <br class="desktopTabletElement">
-team behind company.
+Dale un vistazo a los artículos más leídos. Tendencias de las principales industrias, mejores <br class="desktopTabletElement">
+prácticas y conocimientos estratégicos sobre marketing ventas y fidelización
                 @endslot
 
                 @slot('overlay')
@@ -100,7 +100,7 @@ team behind company.
 
                 $parameters = array(
                     "posts" => $query,
-                    'categoryTag' => true,
+                    'categoryTag' => false,
                     'categoryTagList' =>  [
                         "Ventas"
                     ],
@@ -114,7 +114,7 @@ team behind company.
             @articlesBlog_T1($parameters)
 
                 @slot('titlePrincipal')
-                    <span class="greenBlueColor">Artículos</span> recientes
+                    <span class="greenBlueColor">Artículos</span> de ventas
                 @endslot
 
 
@@ -132,7 +132,7 @@ team behind company.
 
                 $parameters = array(
                 "posts" => $query,
-                'categoryTag' => true,
+                'categoryTag' => false,
                 'categoryTagList' =>  [
                     "Marketing"
                 ],
@@ -145,6 +145,10 @@ team behind company.
 
             @articlesBlog_T1($parameters)
 
+            @slot('titlePrincipal')
+            <span class="greenBlueColor">Artículos</span> de marketing
+
+        @endslot
 
 
             @endarticlesBlog_T1
