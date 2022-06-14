@@ -721,7 +721,7 @@ $parameters = [
   'enableButton' => false,
   'elements' => array(
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/team/home_ventajas-1.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-01.png'),
                   'title' => '
                       Una plataforma <br class="desktopTabletElement">
                       CRM todo-en-uno <br class="desktopTabletElement">
@@ -732,7 +732,7 @@ $parameters = [
 
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/team/home_ventajas-2.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-02.png'),
                   'title' => '
                     Acompañamiento de expertos <br class="desktopTabletElement">
                     <span class="blueLightColor11">
@@ -744,7 +744,7 @@ $parameters = [
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/home_ventajas-3.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-03.png'),
                   'title' => '
                         Todas las funcionalidades de <br class="desktopTabletElement">
                         marketing, ventas y fidelización <br class="desktopTabletElement">
@@ -754,7 +754,7 @@ $parameters = [
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/home_ventajas-4.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-04.png'),
                   'title' => '
                         100% en español, <span class="blueLightColor11">
                           pensada para <br class="desktopTabletElement">
@@ -766,7 +766,7 @@ $parameters = [
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/home_ventajas-5.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-05.png'),
                   'title' => '
                         Planes hechos a la medida de <br class="desktopTabletElement">
                         cada necesidad, <span class="blueLightColor11">
