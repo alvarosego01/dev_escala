@@ -846,7 +846,7 @@ $parameters = [
         ',
         'subTitlePrincipal' => '
           En Escala te asignamos un gerente de cuentas, quien te guiará paso a paso para que implementes tu <br class="desktopTabletElement">
-          estrategia digital con éxito y maximices el uso de nuestra plataforma. Además dispones de contenido de <br class="desktopTabletElement">
+          estrategia digital con éxito y maximices el uso de nuestra plataforma. Además, dispones de contenido de <br class="desktopTabletElement">
           formación, atención oportuna y servicios complementarios adaptados a tus necesidades.
 
         ',
