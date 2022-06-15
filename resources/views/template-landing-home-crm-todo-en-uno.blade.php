@@ -45,10 +45,12 @@
        'overlay' => false,
        'classSection' => 'threeCol landingHomeCRM_exp_0 newHome',
        'title' => '
-       <span class="bold" style="color: #B9E6E9" >CRM + Expertos =</span> <br class="space">
-        <span style="color: #FAD872">
-          Escalar con éxito
-        </span>
+       <span class="bold" style="color: #B9E6E9" >
+      CRM todo-en-uno
+      </span> <br class="space">
+      <span style="color: #FAD872">
+        Escalar con éxito
+      </span>
       ',
        'text' => '<span class="whiteColor">
           La plataforma CRM todo-en-uno con acompañamiento <br class="space">
