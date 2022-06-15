@@ -535,3 +535,6 @@ function abc_getWidgetContentbyTitle($widget_title)
 //   add_action( 'widgets_init', 'register_widget_generalFooter1' );
 
 
+// require get_stylesheet_directory() . '/resources/shortcodes/main.php';
+
+require CHILD_DIR . '/resources/shortcodes/main.php';

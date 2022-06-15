@@ -113,7 +113,7 @@ $paginateData = [
 
             @php
              $parameters = [
-            'classSection' => 'blogSingleSection4 searchResultsBlog1',
+            'classSection' => 'searchResultsBlog1',
             'title' => '<span style="color: #A4E7EA">
                 Impulsar el crecimiento de <br class="space">
                 tu negocio con Escala

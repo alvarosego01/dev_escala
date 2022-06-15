@@ -13,6 +13,9 @@
 
         <div class="sections">
 
+            @php
+                   $setForm = ACF_CUSTOM::_getField( 'newsletter_form' );
+            @endphp
 
             @php
             $parameters = array(
@@ -39,7 +42,8 @@ Suscríbete a nuestro newsletter
                ',
                'backgroundImage' => null,
             'overlayImage' => null,
-            'image' =>  App::setFilePath('/assets/images/person/blog_header.png')
+            'image' =>  App::setFilePath('/assets/images/person/blog_header.png'),
+            'setForm' => $setForm
               ) ;
               @endphp
               @header_t1( $parameters )
@@ -107,7 +111,7 @@ prácticas y conocimientos estratégicos sobre marketing, ventas y fidelización
                     ],
                     'classSection' => 'blogHome3',
                     'enableTitle' => true,
-                    'linkCategory' => App::setTypeUrl().'/blog/ventas',
+                    'linkCategory' => App::setTypeUrl().'/blog/ventas?pag=1',
                 )
 
             @endphp
@@ -116,7 +120,7 @@ prácticas y conocimientos estratégicos sobre marketing, ventas y fidelización
 
                 @slot('titlePrincipal')
 
-                <a href="{{ App::setTypeUrl().'/blog/ventas' }}">
+                <a href="{{ App::setTypeUrl().'/blog/ventas?pag=1' }}">
                     <span class="greenBlueColor">Artículos</span> de ventas
                 </a>
 
@@ -144,7 +148,7 @@ prácticas y conocimientos estratégicos sobre marketing, ventas y fidelización
                 'classSection' => 'blogHome4',
                 'enableTitle' => true,
                 'titlePrincipal' => null,
-                'linkCategory' => App::setTypeUrl().'/blog/marketing',
+                'linkCategory' => App::setTypeUrl().'/blog/marketing?pag=1',
                 )
             @endphp
 
@@ -152,7 +156,7 @@ prácticas y conocimientos estratégicos sobre marketing, ventas y fidelización
 
             @slot('titlePrincipal')
 
-            <a href="{{ App::setTypeUrl().'/blog/marketing' }}">
+            <a href="{{ App::setTypeUrl().'/blog/marketing?pag=1' }}">
                 <span class="greenBlueColor">Artículos</span> de marketing
             </a>
 
