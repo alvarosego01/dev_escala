@@ -21,25 +21,31 @@
                 padding-top: 50px
             @include responsivo(general)
                 width: 100%!important
-                max-width: 1100px!important
-                padding-top: 50px
+                max-width: 1240px!important
+                padding-top: 25px
             @include responsivo(smallPcTablet)
                 width: 100%!important
-                max-width: 1000px!important
+                max-width: 1100px!important
 
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1175px!important
-                padding-top: 50px
+                max-width: 1300px!important
+                padding-top: 25px
             .innerSectionElement.sct2
                 .groupElements.row
+                    display: flex
+                    flex-direction: row
                     @include responsivo(telefonoTable)
-                        display: flex
                         flex-direction: column-reverse
                     @include responsivo(pcMedio)
-                        display: flex
                         flex-direction: column-reverse
                     .image
+                        @include responsivo(general)
+                            width: fit-content
+                            margin-right: 25px
+                        @include responsivo(resto)
+                            width: fit-content
+                            margin-right: 25px
                         .containerImage
                             padding-bottom: 0
                             margin-bottom: 0
@@ -55,11 +61,11 @@
                                 @include responsivo(pcMedio)
                                     height: 250px
                                 @include responsivo(general)
-                                    height: 375px
-                                @include responsivo(smallPcTablet)
                                     height: 350px
+                                @include responsivo(smallPcTablet)
+                                    height: 325px
                                 @include responsivo(resto)
-                                    height: 400px
+                                    height: 375px
                     .info
                         display: flex
                         flex-direction: column
@@ -67,6 +73,10 @@
                         align-content: center
                         align-items: center
                         justify-items: center
+                        @include responsivo(general)
+                            width: fit-content
+                        @include responsivo(resto)
+                            width: fit-content
                         .containElements
                             .primaryTitle
                                 font-family: Nunito
@@ -85,12 +95,12 @@
                                     margin-bottom: 15px
                                     line-height: 1.1
                                 @include responsivo(general)
-                                    font-size: 45px
+                                    font-size: 40px
                                     margin-top: 30px
                                 @include responsivo(smallPcTablet)
-                                    font-size: 42.5px
+                                    font-size: 37.5px
                                 @include responsivo(resto)
-                                    font-size: 50px
+                                    font-size: 45px
                                     margin-top: 35px
                             .text
                                 font-family: Nunito

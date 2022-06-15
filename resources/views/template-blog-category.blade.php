@@ -6,6 +6,7 @@
 
     @php
         $category = ACF_CUSTOM::_getField('category_base');
+
     @endphp
 
 
@@ -78,16 +79,18 @@ $paginateData = [
 
         <div class="sections">
 
+            @if (isset($category) && $category == 'Ventas')
+
             <section class="customSection sectionParent blogCategory0">
                 <div class="section-row">
                     <section class="innerSectionElement sct2">
                         <div class="groupElements row">
-                            <div class="image col-md-12 col-lg-4">
+                            <div class="image ">
                                 <div class="containerImage">
                                     <img alt="Escala implementación" src="{!! App::setFilePath('/assets/images/person/men_blog_category.png') !!}" alt="" loading="lazy">
                                 </div>
                             </div>
-                            <div class="info col-md-12 col-lg-8">
+                            <div class="info ">
                                 <div class="containElements">
                                     <h1 class="primaryTitle">
                                         <span style="color: #A4E7EA;">Potencia tus ventas</span>
@@ -104,6 +107,39 @@ $paginateData = [
                 </div>
             </section>
 
+            @endif
+
+            @if (isset($category) && $category == 'Marketing')
+
+            <section class="customSection sectionParent blogCategory0">
+                <div class="section-row">
+                    <section class="innerSectionElement sct2">
+                        <div class="groupElements row">
+                            <div class="image marketing ">
+                                <div class="containerImage">
+                                    <img alt="Escala implementación" src="{!! App::setFilePath('/assets/images/person/women_blog_category.png') !!}" alt="" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="info ">
+                                <div class="containElements">
+                                    <h1 class="primaryTitle">
+                                        <span style="color: #A4E7EA;">
+                                            El conocimiento es poder
+                                        </span>
+                                    </h1>
+                                    <p class="text">
+                                        Empodera tus acciones de marketing <br class="desktopTabletElement">
+                                        digital con el contenido más actualizado <br class="desktopTabletElement">
+                                        de la industria.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            @endif
 
             @php
             $title = ' <span class="greenBlueColor">Últimas</span> Publicaciones de Ventas';

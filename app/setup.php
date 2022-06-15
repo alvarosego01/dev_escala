@@ -464,3 +464,5 @@ function prefix_fix_form_reset() {
     $wpcf7 = array();
     wp_localize_script( 'contact-form-7', 'wpcf7', $wpcf7 );
 }
+
+
