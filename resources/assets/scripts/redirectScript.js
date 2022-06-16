@@ -89,6 +89,7 @@ document.addEventListener('wpcf7mailsent', async (e) => {
     }
 
     console.log('prev red' + re);
+    // return;
 
     if (re && re != null && re != '') {
         console.log('prev 1 red' + re);
@@ -148,6 +149,7 @@ document.addEventListener('wpcf7mailfailed', async (e) =>  {
     }
 
     console.log('prev red' + re);
+    // return;
 
     if (re && re != null && re != '') {
         console.log('prev 1 red' + re);
