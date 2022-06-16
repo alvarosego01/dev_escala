@@ -12,18 +12,20 @@
     .customSection.sectionParent.blogSingleSection0
         margin-top: 0
         .backgroundFull
-            height: 450px
+            // background-blend-mode: multiply!important
             background-repeat: no-repeat!important
             background-size: cover!important
             background-position: center!important
-            background-blend-mode: multiply!important
             display: flex
             justify-content: center
             align-content: center
+            height: 500px
             @include responsivo(telefonoTable)
                 height: 275px
             @include responsivo(pcMedio)
                 height: 350px
+            @include responsivo(general)
+                height: 450px
             .section-row
                 margin: auto
                 .containElements
@@ -39,7 +41,15 @@
                         width: 100%
                         color: $colorWhite
                         text-align: center
-                        line-height: normal
+                        line-height: 1
+                        @include responsivo(telefonoTable)
+                            height: 30px
+                        @include responsivo(pcMedio)
+                            height: 35px
+                        @include responsivo(general)
+                            height: 40px
+                        @include responsivo(resto)
+                            height: 45px
 
     .customSection.sectionParent.blogSingleSection1
         padding: 75px 0

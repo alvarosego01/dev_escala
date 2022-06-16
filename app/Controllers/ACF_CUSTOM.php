@@ -1039,6 +1039,13 @@ class ACF_CUSTOM extends Controller
                     'type' => 'textarea',
                 ),
 
+                array(
+                    'key' => 'post_herader_image',
+                    'label' => 'Post header base image',
+                    'name' => 'Post header base image',
+                    'type' => 'image',
+                ),
+
             ),
             'location' => array(
                 array(

@@ -22,16 +22,24 @@
 
         <div class="sections">
 
-
             <section class="customSection sectionParent blogSingleSection0 fullWidth">
 
-              <div class="backgroundFull" style="background: url('{{ Posts::getPhoto(get_the_ID()) }}') rgba(13,46,56, 0.7)" >
+              @php
+                // acf id post_herader_image
+                $i = ACF_CUSTOM::_getField( 'post_herader_image', get_the_ID() );
+                if( $i != null ){
+                  $i = $i['url'];
+                }else{
+                  $i = Posts::getPhoto(get_the_ID());
+                }
 
+              @endphp
+
+              <div class="backgroundFull" style="background: url('{{ $i }}')" >
 
                     <div class="section-row">
 
                             <div class="containElements">
-
 
                               <h1 class="principalBigTitle blackColor">
 
@@ -39,12 +47,10 @@
 
                               </h1>
 
-
-
                         </div>
 
-
                     </div>
+
               </div>
 
             </section>
@@ -86,9 +92,6 @@
 
             </section>
 
-
-
-
             <section class="customSection sectionParent blogSingleSection2">
 
 
@@ -99,13 +102,11 @@
               {!! do_shortcode( '[social-share align="center" style="icon" animation="essb_icon_animation3" counters="0" buttons="facebook,twitter,linkedin"]' ) !!}
             </div>
 
-
             </section>
-
 
             @php
 
-            echo $category;
+            // echo $category;
 
             $query = array(
                 'post_type' => 'post',
@@ -133,10 +134,7 @@
             @slot('titlePrincipal')
               <span class="greenBlueColor">Artículos</span> relacionados
             @endslot
-
-
         @endarticlesBlog_T1
-
 
         @php
 
@@ -167,8 +165,6 @@
       @bannerForms7_T1( $parameters )
 
       @endbannerForms7_T1
-
-
 
 
         </div>
