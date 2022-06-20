@@ -269,6 +269,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-OLD_landingPagesIncAM_2.blade.php",
+                "views/template-OLD-crea-landing-pages-increibles-2.blade.php",
 
             );
         }
@@ -350,6 +351,7 @@ class SetComponents extends Controller
                 "views/template-landing-incredible-demo.blade.php",
                 "views/template-landing-whatsapp.blade.php",
                 "views/template-OLD_landingPagesIncAM_2.blade.php",
+                "views/template-OLD-crea-landing-pages-increibles-2.blade.php",
                 "views/template-landing-correos-masivos.blade.php",
                 "views/template-landing-incredible-no-program.blade.php",
                 "views/template-landing-incredible-am.blade.php",
