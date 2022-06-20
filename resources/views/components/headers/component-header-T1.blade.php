@@ -36,8 +36,15 @@ if (!$threeCol) {
 
         <div style="background-image: url('{{ $backgroundImage }}')" class="backgroundFull">
 
+            @if ($overlay == true)
+            <div style="background-image: url('{{ $overlayImage }}')" class="backgroundPlanets">
+            </div>
+        @endif
+            @if ( isset($overlayMultiple) && $overlayMultiple != null)
 
+            {!! $overlayMultiple !!}
 
+        @endif
 
             <div class="section-row">
                 <section class="innerSectionElement sct1">
@@ -154,15 +161,7 @@ if (!$threeCol) {
 
             </div>
 
-            @if ($overlay == true)
-            <div style="background-image: url('{{ $overlayImage }}')" class="backgroundPlanets">
-            </div>
-        @endif
-            @if ( isset($overlayMultiple) && $overlayMultiple != null)
 
-            {!! $overlayMultiple !!}
-
-        @endif
 
         </div>
 
