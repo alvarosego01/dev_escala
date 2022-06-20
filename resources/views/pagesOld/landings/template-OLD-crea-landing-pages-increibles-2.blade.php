@@ -96,7 +96,7 @@ $parameters = array(
    Conoce la plataforma “todo en uno” de marketing <br class="desktopTabletElement">
   digital y ventas que acelerará <span class="greenBlueColor">el crecimiento de tu negocio</span>
  ',
- 'img1' => App::setFilePath('/assets/images/illustrations/others/02a_landings_increibles.png'),
+ 'img1' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala02.png'),
  'title1' => '
    Multiplica tus visitas web <br class="space">
    con anuncios digitales
@@ -107,7 +107,7 @@ $parameters = array(
    page. Crea campañas de anuncios <br class="desktopTabletElement">
    digitales directamente desde <strong >Escala</strong>.
  ',
- 'img2' => App::setFilePath('/assets/images/illustrations/others/02b_landings_increibles.png'),
+ 'img2' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala03.png'),
  'title2' => '
    Organiza tus contactos y <br class="space">
    gestiona procesos de venta
@@ -119,7 +119,7 @@ $parameters = array(
  actividades y manteniendo comunicación <br class="desktopTabletElement">
  constante con tus leads.
    ',
- 'img3' => App::setFilePath('/assets/images/illustrations/others/02c_landings_increibles.png'),
+ 'img3' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala04.png'),
  'title3' => '
  Envía emails de <br class="space">
 marketing profesionales
@@ -131,7 +131,7 @@ marketing profesionales
  bandeja de spam.
  ',
 
- 'img4' => App::setFilePath('/assets/images/illustrations/others/02e_landings_increibles.png'),
+ 'img4' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala06.png'),
  'title4' => '
  Automatiza tareas y <br class="space">
 flujos de comunicación
@@ -141,7 +141,7 @@ flujos de comunicación
  con <strong >Escala</strong> para lograr tus metas de ventas. <br class="desktopTabletElement">
  Programa recordatorios y configura emails de <br class="desktopTabletElement"> respuestas automáticas.
  ',
- 'img5' => App::setFilePath('/assets/images/illustrations/others/02d_landings_increibles.png'),
+ 'img5' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala05.png'),
  'title5' => '
  Obtén métricas de marketing <br class="space">
 y ventas en tiempo real

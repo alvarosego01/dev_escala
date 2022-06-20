@@ -94,7 +94,7 @@
   'title' => '
     Conoce la plataforma “todo en uno” de ventas y marketing <br class="desktopTabletElement"> que acelerará <span class="greenBlueColor">el crecimiento de tu negocio</span>
   ',
-  'img1' => App::setFilePath('/assets/images/illustrations/others/02a_landings_increibles.png'),
+  'img1' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala02.png'),
   'title1' => '
     Multiplica tus visitas web <br class="space">
     con anuncios digitales
@@ -105,7 +105,7 @@
     page. Crea campañas de anuncios <br class="desktopTabletElement">
     digitales directamente desde <span class="orangeColor">Escala</span>.
   ',
-  'img2' => App::setFilePath('/assets/images/illustrations/others/02b_landings_increibles.png'),
+  'img2' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala03.png'),
   'title2' => '
     Organiza tus contactos y <br class="space">
     gestiona procesos de venta
@@ -117,7 +117,7 @@
   actividades y manteniendo comunicación <br class="desktopTabletElement">
   constante con tus leads.
     ',
-  'img3' => App::setFilePath('/assets/images/illustrations/others/02c_landings_increibles.png'),
+  'img3' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala04.png'),
   'title3' => '
   Envía emails de <br class="space">
 marketing profesionales
@@ -128,7 +128,7 @@ marketing profesionales
   prediseñadas. Con <span class="orangeColor">Escala</span> dile adiós a la <br class="desktopTabletElement">
   bandeja de spam.
   ',
-  'img4' => App::setFilePath('/assets/images/illustrations/others/02d_landings_increibles.png'),
+  'img4' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala05.png'),
   'title4' => '
   Automatiza tareas y <br class="space">
 flujos de comunicación
@@ -138,7 +138,7 @@ flujos de comunicación
   con <span class="orangeColor">Escala</span> para lograr tus metas de ventas. <br class="desktopTabletElement">
   Programa recordatorios y configura emails de <br class="desktopTabletElement"> respuestas automáticas.
   ',
-  'img5' => App::setFilePath('/assets/images/illustrations/others/02e_landings_increibles.png'),
+  'img5' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala06.png'),
   'title5' => '
   Obtén métricas de marketing <br class="space">
 y ventas en tiempo real
@@ -154,7 +154,6 @@ y ventas en tiempo real
 @endphp
 
 @contain_aio5( $parameters )
-
 @endcontain_aio5
 
 <section class="customSection sectionParent OLD_LandingPagesIncreibles_am_2_4 fullWidth">
