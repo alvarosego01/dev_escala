@@ -130,7 +130,8 @@ marketing profesionales
  prediseñadas. Con <strong >Escala</strong> dile adiós a la <br class="desktopTabletElement">
  bandeja de spam.
  ',
- 'img4' => App::setFilePath('/assets/images/illustrations/others/02d_landings_increibles.png'),
+
+ 'img4' => App::setFilePath('/assets/images/illustrations/others/02e_landings_increibles.png'),
  'title4' => '
  Automatiza tareas y <br class="space">
 flujos de comunicación
@@ -140,7 +141,7 @@ flujos de comunicación
  con <strong >Escala</strong> para lograr tus metas de ventas. <br class="desktopTabletElement">
  Programa recordatorios y configura emails de <br class="desktopTabletElement"> respuestas automáticas.
  ',
- 'img5' => App::setFilePath('/assets/images/illustrations/others/02e_landings_increibles.png'),
+ 'img5' => App::setFilePath('/assets/images/illustrations/others/02d_landings_increibles.png'),
  'title5' => '
  Obtén métricas de marketing <br class="space">
 y ventas en tiempo real
