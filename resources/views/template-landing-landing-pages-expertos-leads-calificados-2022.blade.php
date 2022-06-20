@@ -1,75 +1,41 @@
 
 {{--
-  Template Name: [B] Landing - Landing Pages 2022
+  Template Name: [B] Landing LP -  Expertos leads calificados 2022
 --}}
 
-@php
-    $customHeaderActive = ACF_CUSTOM::_getField('enable_custom_header');
-@endphp
 
 @extends('layouts.app')
 @section('content')
-<div id="landing-landingPages2022-bootstrap">
+<div id="landing-landingPages2022_ExpertosLeadsCalificados-bootstrap">
   <div class="sections">
 
-    @if ( isset($customHeaderActive) && $customHeaderActive == 1 )
-
-    @php
-
-    $custom_header_title = ACF_CUSTOM::_getField('custom_header_title');
-    $custom_header_subText = ACF_CUSTOM::_getField('custom_header_subText');
-    $custom_header_image = ACF_CUSTOM::_getField('custom_header_image');
-    $custom_header_formTitle = ACF_CUSTOM::_getField('custom_header_formTitle');
-
-    if ( !isset($custom_header_title) || $custom_header_title == null ) {
-        # code...
-        $custom_header_title = '<span class="whiteColor">Genera más leads <br class="space"> con las landing pages <br class="space"> de Escala</span>';
-    }
-    if ( !isset($custom_header_subText) || $custom_header_subText == null ) {
-        # code...
-        $custom_header_subText = '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span>';
-    }
-    if ( !isset($custom_header_formTitle) || $custom_header_formTitle == null ) {
-        # code...
-        $custom_header_formTitle = 'Comienza ahora';
-    }
-    if ( !isset($custom_header_image) || $custom_header_image == null ) {
-        # code...
-        $custom_header_image = App::setFilePath('/assets/images/person/am/headerlanding2022.png');
-    }else{
-        $custom_header_image = $custom_header_image['url'];
-    }
-
+   @php
     $parameters = array(
      'backgroundImageType' => false,
      'overlay' => false,
-     'classSection' => 'threeCol landingLandingPages2022_0',
-     'title' => $custom_header_title,
-     'text' => $custom_header_subText,
-     'threeCol' => true,
-     'textForm' => $custom_header_formTitle,
-     'backgroundImage' => null,
-  'overlayImage' => null,
-  'image' => $custom_header_image,
-    ) ;
-    @endphp
-    @header_t1( $parameters )
-    @endheader_t1
-
-    @else
-    @php
-    $parameters = array(
-     'backgroundImageType' => false,
-     'overlay' => false,
-     'classSection' => 'threeCol landingLandingPages2022_0',
+     'classSection' => 'threeCol landingLandingPages2022_ExpertosLeadsCalificados_0',
      'title' => '
+        <div style="color: #B9E6E9">
+            Landing pages + <br class="space">
+            Expertos = <br class="space">
+        </div>
         <span class="whiteColor">
-            Genera más leads <br class="space">
-            con las landing pages <br class="space">
-            de Escala
+            Genera leads <br class="space">
+            calificados
         </span>
+
         ',
-     'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span> ',
+     'text' => '
+     <span class="whiteColor">
+        En Escala crea landing pages de alta <br class="space">
+        conversión con acompañamiento en vivo de <br class="space">
+        especialistas en marketing digital y ventas para <br class="space">
+        que consigas los mejores resultados.
+    </span>
+    <div class="byAm">
+        <span class="whiteColor">Andrés Moreno</span> <br class="space">
+        <span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span>
+    </div>',
      'threeCol' => true,
      'textForm' => 'Comienza ahora',
      'backgroundImage' => null,
@@ -80,13 +46,12 @@
     @header_t1( $parameters )
     @endheader_t1
 
-@endif
 
 
     @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landingLandingPages2022_1',
+        'classSection' => 'landingLandingPages2022_ExpertosLeadsCalificados_1',
         'enableTitle' => true,
         'titlePrincipal' => '¿Qué obtienes con <br class="desktopTabletElement"> nuestras landing pages?',
         'subTitlePrincipal' => null,
@@ -130,7 +95,7 @@
     @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landingLandingPages2022_2',
+        'classSection' => 'landingLandingPages2022_ExpertosLeadsCalificados_2',
         'enableTitle' => true,
         'titlePrincipal' => 'Ahorra tiempo y dinero. <br class="space"> Construye páginas atractivas <br class="desktopTabletElement"> en minutos y sin programar',
         'subTitlePrincipal' => null,
@@ -185,7 +150,7 @@
     @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landingLandingPages2022_3',
+        'classSection' => 'landingLandingPages2022_ExpertosLeadsCalificados_3',
         'enableTitle' => true,
         'titlePrincipal' => '
         <span class="whiteColor">
@@ -228,7 +193,7 @@
 
 @endcontain_multiple_cards_T2
 
-<section class="customSection sectionParent landingLandingPages2022_4">
+<section class="customSection sectionParent landingLandingPages2022_ExpertosLeadsCalificados_4">
 
     <div class="section-row">
 
@@ -276,7 +241,7 @@
 @php
 $parameters = [
     'type' => 'backgroundColor',
-    'classSection' => 'landingLandingPages2022_5',
+    'classSection' => 'landingLandingPages2022_ExpertosLeadsCalificados_5',
     'enableTitle' => true,
     'titlePrincipal' => '
     Además de crear landing pages increíbles,<br class="desktopTabletElement"> conoce lo que puedes lograr con Escala, <br class="desktopTabletElement"> nuestra plataforma todo en uno',
@@ -349,7 +314,7 @@ $parameters = [
 
 {{-- 6 --}}
 
-<section class="customSection sectionParent landingLandingPages2022_6">
+<section class="customSection sectionParent landingLandingPages2022_ExpertosLeadsCalificados_6">
 
     <div class="section-row">
 
@@ -388,7 +353,7 @@ $parameters = [
 @php
 $parameters = [
     'type' => 'backgroundColor',
-    'classSection' => 'landingLandingPages2022_7',
+    'classSection' => 'landingLandingPages2022_ExpertosLeadsCalificados_7',
     'enableTitle' => true,
     'titlePrincipal' => '
     Servicio Premium
@@ -442,7 +407,7 @@ $parameters = [
 
 @php
 $parameters = [
-    'classSection' => 'landingLandingPages2022_8',
+    'classSection' => 'landingLandingPages2022_ExpertosLeadsCalificados_8',
     'title' => '
     Quiero crear en minutos <br class="desktopTabletElement"> hermosas landing pages
         </span>',
