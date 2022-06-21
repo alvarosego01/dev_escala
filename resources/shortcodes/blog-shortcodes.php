@@ -29,6 +29,7 @@ function setUrl($type)
 
 function component_blog_cta_1($atts)
 {
+    ob_start();
     $default = array(
         'type_button' => null,
         'url' => null
@@ -108,11 +109,17 @@ function component_blog_cta_1($atts)
 
 
     <?php
+
+$output = ob_get_contents();
+ob_end_clean();
+return  $output;
+
 }
 add_shortcode('component_blog_cta_1', 'component_blog_cta_1');
 
 function component_blog_cta_2($atts)
 {
+    ob_start();
     $default = array(
         'type_button' => null,
         'url' => null
@@ -182,6 +189,9 @@ function component_blog_cta_2($atts)
 
 
     <?php
+    $output = ob_get_contents();
+    ob_end_clean();
+    return  $output;
 }
 add_shortcode('component_blog_cta_2', 'component_blog_cta_2');
 
@@ -189,6 +199,7 @@ add_shortcode('component_blog_cta_2', 'component_blog_cta_2');
 
 function component_blog_cta_3($atts)
 {
+    ob_start();
     $default = array(
         'type_button' => null,
         'url' => null
@@ -271,6 +282,10 @@ function component_blog_cta_3($atts)
 
 
     <?php
+
+$output = ob_get_contents();
+ob_end_clean();
+return  $output;
 }
 add_shortcode('component_blog_cta_3', 'component_blog_cta_3');
 
