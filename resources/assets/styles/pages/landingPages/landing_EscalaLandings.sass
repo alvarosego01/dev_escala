@@ -515,6 +515,10 @@
     background-color: #F3FAFD
     padding-bottom: 0
     padding-top: 25px
+    @include responsivo(telefonoTable)
+        padding-top: 0
+    @include responsivo(pcMedio)
+        padding-top: 0
     .section-row
         padding: 0
         @include responsivo(telefonoTable)
@@ -662,22 +666,30 @@
                         width: fit-content!important
                         margin: 0 auto
                         margin-bottom: 10px
+                        &:last-child
+                            margin-bottom: 0!important
                         @include responsivo(telefonoTable)
                             text-align: center
                             font-size: 14px
+                            width: fit-content!important
+                            margin: 0 auto
                             margin-bottom: 10px
-                            width: 100%!important
                         @include responsivo(pcMedio)
                             text-align: center
                             font-size: 15px
+                            width: fit-content!important
+                            margin: 0 auto
                             margin-bottom: 10px
-                            width: 100%!important
                         @include responsivo(smallPcTablet)
                             font-size: 15px
                 .containerImage
                     padding-left: 0
                     padding-right: 0
                     img
+                        @include responsivo(telefonoTable)
+                            height: 250px
+                        @include responsivo(pcMedio)
+                            height: 300px
                         @include responsivo(general)
                             height: 550px
                         @include responsivo(resto)
