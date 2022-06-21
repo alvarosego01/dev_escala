@@ -23,6 +23,7 @@
             @include responsivo(pcMedio)
                 flex-direction: column-reverse
             .image
+                display: flex
                 @include responsivo(telefonoTable)
                     width: 100%
                 @include responsivo(pcMedio)
@@ -34,6 +35,12 @@
                 .containerImage
                     margin-bottom: 0
                     padding-bottom: 0
+                    margin-top: auto
+                    display: block
+                    @include responsivo(telefonoTable)
+                        margin: 0 auto!important
+                    @include responsivo(pcMedio)
+                        margin: 0 auto!important
                     img
                         width: auto!important
                         @include responsivo(telefonoTable)
@@ -46,7 +53,7 @@
                             height: 175px
 
                         @include responsivo(resto)
-                            height: 200px
+                            height: 225px
 
             .info
                 display: flex
@@ -65,6 +72,21 @@
                     width: 50%
                 @include responsivo(resto)
                     width: 50%
+                .logo
+                    margin-bottom: 25px
+                    padding: 0
+
+                    img
+                        height: 30px
+                        @include responsivo(telefonoTable)
+                            height: 25px
+                            margin-bottom: 20px
+                        @include responsivo(pcMedio)
+                            height: 25px
+                            margin-bottom: 20px
+                        @include responsivo(general)
+                            height: 25px
+
                 .secondaryTitle
                     font-family: Nunito
                     font-style: normal
@@ -81,6 +103,8 @@
                         font-size: 22px
                     @include responsivo(general)
                         font-size: 25px
+                    @include responsivo(smallPcTablet)
+                        font-size: 22.5px
 
 
 
@@ -103,6 +127,20 @@
                 align-content: center
                 align-items: center
                 width: 100%
+                .logo
+                    margin-bottom: 25px
+                    padding: 0
+                    img
+                        height: 25px
+                        @include responsivo(telefonoTable)
+                            height: 20px
+                            margin-bottom: 25px
+                        @include responsivo(pcMedio)
+                            height: 20px
+                            margin-bottom: 25px
+                        @include responsivo(general)
+                            height: 20px
+
                 .secondaryTitle
                     font-family: Nunito
                     font-style: normal
@@ -193,6 +231,7 @@
                 align-items: center
                 border-radius: 15px
                 padding: 35px 0
+                padding-bottom: 0
                 @include responsivo(telefonoTable)
                     width: 100%
 
@@ -212,11 +251,23 @@
                     text-align: center
                     letter-spacing: -1px
                     color: #FFFFFF
-                    margin-bottom: 0
+                    margin-bottom: 25px
                     @include responsivo(telefonoTable)
                         font-size: 20px
                     @include responsivo(pcMedio)
                         font-size: 22px
                     @include responsivo(general)
                         font-size: 25px
+
+                .logo
+                    padding: 0
+                    margin: 0
+                    img
+                        height: 25px
+                        @include responsivo(telefonoTable)
+                            height: 20px
+                        @include responsivo(pcMedio)
+                            height: 20px
+                        @include responsivo(general)
+                            height: 20px
 

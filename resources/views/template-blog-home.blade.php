@@ -111,7 +111,7 @@ prácticas y conocimientos estratégicos sobre marketing, ventas y fidelización
                     ],
                     'classSection' => 'blogHome3',
                     'enableTitle' => true,
-                    'linkCategory' => App::setTypeUrl().'/blog/ventas?pag=1',
+                    'linkCategory' => App::setTypeUrl().'/blog/ventas',
                 )
 
             @endphp
@@ -120,7 +120,7 @@ prácticas y conocimientos estratégicos sobre marketing, ventas y fidelización
 
                 @slot('titlePrincipal')
 
-                <a href="{{ App::setTypeUrl().'/blog/ventas?pag=1' }}">
+                <a href="{{ App::setTypeUrl().'/blog/ventas' }}">
                     <span class="greenBlueColor">Artículos</span> de ventas
                 </a>
 
@@ -148,7 +148,7 @@ prácticas y conocimientos estratégicos sobre marketing, ventas y fidelización
                 'classSection' => 'blogHome4',
                 'enableTitle' => true,
                 'titlePrincipal' => null,
-                'linkCategory' => App::setTypeUrl().'/blog/marketing?pag=1',
+                'linkCategory' => App::setTypeUrl().'/blog/marketing',
                 )
             @endphp
 
@@ -156,7 +156,7 @@ prácticas y conocimientos estratégicos sobre marketing, ventas y fidelización
 
             @slot('titlePrincipal')
 
-            <a href="{{ App::setTypeUrl().'/blog/marketing?pag=1' }}">
+            <a href="{{ App::setTypeUrl().'/blog/marketing' }}">
                 <span class="greenBlueColor">Artículos</span> de marketing
             </a>
 

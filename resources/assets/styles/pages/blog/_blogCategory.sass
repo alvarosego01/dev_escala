@@ -131,12 +131,62 @@
             .innerSectionElement.sct1
                 .containElements
                     h2.primaryTitle
-                        margin-bottom: 75px
-                        text-align: center
+                        padding-bottom: 35px
+                        margin-bottom: 35px
+                        font-family: Nunito
+                        font-style: normal
+                        font-weight: bold
+                        font-size: 35px
+                        line-height: 0.9
+                        text-align: left
+                        letter-spacing: -2px
+                        position: relative
                         @include responsivo(telefonoTable)
-                            margin-bottom: 25px
+                            font-size: 25px
+                            text-align: center
                         @include responsivo(pcMedio)
-                            margin-bottom: 50px
+                            font-size: 25px
+                            text-align: center
+
+                        &::after
+                            content: ''
+                            position: absolute
+                            width: 100%
+                            height: 1px
+                            border-bottom: 1px solid rgba(0,0,0,0.15)
+                            display: block
+                            bottom: 0
+                            left: 0
+                            right: 0
+                            margin: 0 auto
+                            @include responsivo(telefonoTable)
+                                width: 90%
+                            @include responsivo(pcMedio)
+                                width: 75%
+
+
+                        p
+                            text-align: left
+                            font-family: Nunito
+                            font-style: normal
+                            font-weight: 400
+                            font-size: 16px
+                            line-height: 1.25
+                            letter-spacing: -0.02em
+                            color: #606267
+                            padding-bottom: 0
+                            margin-bottom: 0
+                            padding-top: 20px
+                            @include responsivo(telefonoTable)
+                                font-size: 13px
+                                text-align: center
+                            @include responsivo(pcMedio)
+                                font-size: 14px
+                                text-align: center
+                            @include responsivo(general)
+                                font-size: 15px
+                            @include responsivo(smallPcTablet)
+                                font-size: 13px
 
 
     .customSection.sectionParent.blogCategory2

@@ -124,14 +124,22 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage.js'), ['jquery'], THEME_VERSION, true);
 
         }
-          // jvascripts
+
+        // LANDINGS
+        // -------------------------------------- //
+
+        if ( is_page_template("views/template-landing-escala-landings-2022.blade.php") ) {
+            wp_enqueue_style('landing_EscalaLandings.css', asset_path('styles/pages/landingPages/landing_EscalaLandings.css'), false, THEME_VERSION);
+        }
+
+        // -------------------------------------- //
+
+        // jvascripts
         wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], THEME_VERSION, true);
 
 
 
-        // if (is_single() && comments_open() && get_option('thread_comments')) {
-            // wp_enqueue_script('comment-reply');
-        // }
+
     } else {
 
         wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, THEME_VERSION);
@@ -468,5 +476,4 @@ function prefix_fix_form_reset() {
     $wpcf7 = array();
     wp_localize_script( 'contact-form-7', 'wpcf7', $wpcf7 );
 }
-
 
