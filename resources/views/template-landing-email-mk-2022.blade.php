@@ -535,7 +535,7 @@ campañas de email marketing
     'text' => null,
     'image' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_14.png'),
     'side' => 'left',
-    'enableButton' => true,
+    'enableButton' => false,
   'urlButton' => '#lead-form',
   'textButton' => 'Prueba Gratis',
   'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
