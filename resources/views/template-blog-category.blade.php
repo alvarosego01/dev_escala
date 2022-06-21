@@ -27,6 +27,8 @@ $query = null;
 
 if (isset($params['pag']) && $params['pag'] != null) {
     $current_page = $params['pag'];
+}else{
+    $current_page = 1;
 }
 
 $per_page = 9;
@@ -81,7 +83,7 @@ $paginateData = [
 
             @if (isset($category) && $category == 'Ventas')
 
-            <section class="customSection sectionParent blogCategory0">
+            <section style="display: none" class="customSection sectionParent blogCategory0">
                 <div class="section-row">
                     <section class="innerSectionElement sct2">
                         <div class="groupElements row">
@@ -106,12 +108,21 @@ $paginateData = [
                     </section>
                 </div>
             </section>
-
+            @php
+            $title = '
+            <span class="greenBlueColor">Últimas</span> Publicaciones de Ventas
+            <br class="space">
+            <p>
+                Encuentra en el BLOG de Escala todo lo que necesitas saber para impulsar todas tus acciones <br class="desktopTabletElement">
+                de venta y hacer más productivo a tu equipo.
+                </p>
+            ';
+        @endphp
             @endif
 
             @if (isset($category) && $category == 'Marketing')
 
-            <section class="customSection sectionParent blogCategory0">
+            <section style="display: none" class="customSection sectionParent blogCategory0">
                 <div class="section-row">
                     <section class="innerSectionElement sct2">
                         <div class="groupElements row">
@@ -138,11 +149,19 @@ $paginateData = [
                     </section>
                 </div>
             </section>
-
+            @php
+                $title = '
+                <span class="greenBlueColor">Últimas</span> Publicaciones de Marketing
+                <br class="space">
+                <p>
+                    Empodera tus acciones de marketing digital con el contenido más actualizado <br class="desktopTabletElement">
+                    de la industria.
+                    </p>
+                ';
+            @endphp
             @endif
 
             @php
-            $title = ' <span class="greenBlueColor">Últimas</span> Publicaciones de Ventas';
 
             $parameters = [
                 'posts' => $query,

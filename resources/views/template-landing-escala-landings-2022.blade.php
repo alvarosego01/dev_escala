@@ -56,8 +56,8 @@ Sin programar una línea <br class="space">
 de código, <span class="greenBlueColor">¡así de fácil!</span>
    ',
    'typeVideo' =>  'localvideo',
-     'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
-     'videoCover' => App::setFilePath('/assets/images/illustrations/others/tapa_video_home_03a.jpg'),
+   'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
+  'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
      'text' => '
         El creador de landing pages de Escala es intuitivo y fácil <br class="desktopTabletElement">
         de usar. Elige una de nuestras plantillas, personalízalas <br class="desktopTabletElement">
@@ -79,7 +79,7 @@ de código, <span class="greenBlueColor">¡así de fácil!</span>
    @contain_text_video_T1( $parameters )
    @endcontain_text_video_T1
 
-   {{-- <section class="customSection sectionParent landing_escalaLandings_2022_2">
+   <section class="customSection sectionParent landing_escalaLandings_2022_2">
 
     <div class="section-row">
 
@@ -181,7 +181,7 @@ de código, <span class="greenBlueColor">¡así de fácil!</span>
 
     </div>
 
-   </section> --}}
+   </section>
 
     @php
     $parameters = [
@@ -217,7 +217,7 @@ de código, <span class="greenBlueColor">¡así de fácil!</span>
 @endcontain_text_image_T1
 
 
-{{-- <section class="customSection sectionParent landing_escalaLandings_2022_4">
+<section class="customSection sectionParent landing_escalaLandings_2022_4">
 
   <div class="section-row">
 
@@ -255,7 +255,7 @@ de código, <span class="greenBlueColor">¡así de fácil!</span>
 
   </div>
 
-</section> --}}
+</section>
 
 
 <section class="customSection sectionParent landing_escalaLandings_2022_5">
@@ -278,17 +278,17 @@ de código, <span class="greenBlueColor">¡así de fácil!</span>
 
               <div class="element">
 
-                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust1.png') !!}" alt="">
+                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot_escalaLanding-1.jpeg') !!}" alt="">
 
               </div>
               <div class="element">
 
-                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust2.png') !!}" alt="">
+                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot_escalaLanding-2.jpeg') !!}" alt="">
 
               </div>
               <div class="element">
 
-                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust3.png') !!}" alt="">
+                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot_escalaLanding-3.jpeg') !!}" alt="">
 
               </div>
 
