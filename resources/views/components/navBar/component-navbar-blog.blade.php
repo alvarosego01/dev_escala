@@ -70,7 +70,7 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
                                 <form action="{{App::setTypeUrl().'/blog-search'}}" method="get">
 
                                 <span class="icon"><i class="fa fa-search"></i></span>
-                                <input type="search" name="arg" id="search" placeholder="Escribe aquí una palabra clave" />
+                                <input type="search" name="arg" id="search" placeholder="Buscar..." />
                                 <input type="hidden" name="pag" value="1" />
 
                                 </form>
