@@ -1,7 +1,5 @@
 
 
-
-
 {{--
 
     Template Name: [B] Landing - Escala Landings 2022
@@ -191,19 +189,14 @@ de código, <span class="greenBlueColor">¡así de fácil!</span>
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
         'title' => '
-          <span class="greenBlueColor">
-            ¡Somos un equipo! <br class="space">
-            Nuestros expertos te ayudan <br class="space">
-          </span>
-          a impulsar tus ventas
+          <strong>¡Nuestra arma secreta! </strong><br class="space">
+          <span class="greenBlueColor">Los Expertos</span>
           ',
-        'img' => App::setFilePath('/assets/images/person/implementacion_banner_principal-1.png'),
+        'img' => App::setFilePath('/assets/images/person/capacitacion_pareja.png'),
         'text' => '
-            Nuestros expertos te acompañan en vivo, paso a paso para <br class="desktopTabletElement">
-            implementar tu estrategia con nuestras landing pages. Con el Plan <br class="desktopTabletElement">
-            PRO de Escala, nuestros especialistas en marketing digital y <br class="desktopTabletElement">
-            ventas crean un plan personalizado para que puedas implementar <br class="desktopTabletElement">
-            páginas de alta conversión con éxito.
+            Con el Plan PRO de Escala, nuestros especialistas en marketing <br class="desktopTabletElement">
+            digital y ventas te guiarán paso a paso en la construcción de tu <br class="desktopTabletElement">
+            landing page. Sácale máximo provecho a nuestro creador de páginas.
         ',
         'enableButton' => false,
         'urlButton' => '#lead-form',
@@ -215,6 +208,77 @@ de código, <span class="greenBlueColor">¡así de fácil!</span>
 
 @contain_text_image_T1($parameters)
 @endcontain_text_image_T1
+
+@php
+$parameters = [
+  'type' => 'backgroundColor',
+  'classSection' => 'landing_escalaLandings_2022_3_2',
+  'enableTitle' => false,
+  'titlePrincipal' => null,
+  'subTitlePrincipal' => null,
+  'overlay' => false,
+  'overlayImage' => null,
+  'enableButton' => false,
+  'elements' => array(
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-1.png'),
+                  'title' => '
+                    Acompañamiento en vivo <br class="space">
+                    para crear, publicar y <br class="space">
+                    optimizar tus páginas
+                  ',
+                  'text' => null,
+                  'enableButton' => false,
+
+              ],
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-2.png'),
+                  'title' => '
+                    Capacitaciones grupales <br class="space">
+                    basadas en mejores prácticas <br class="space">
+                    para hacer una landing page ideal
+                  ',
+                  'text' => null,
+                  'enableButton' => false,
+              ],
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-3.png'),
+                  'title' => '
+                      Atención prioritaria por <br class="space">
+                      WhatsApp, Email y Chat <br class="space">
+                      de servicio
+                    ',
+                    'text' => null,
+                  'enableButton' => false,
+              ],
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-4.png'),
+                  'title' => '
+                        Gerente de cuentas asignado <br class="space">
+                        con plan personalizado de <br class="space">
+                        implementación
+                    ',
+                    'text' => null,
+                  'enableButton' => false,
+              ],
+              [
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-5.png'),
+                  'title' => '
+                      Configuraciones personalizadas <br class="space">
+                      y creación de plantillas <br class="space">
+                      customizadas a tu industria
+                    ',
+                    'text' => null,
+                  'enableButton' => false,
+              ],
+  )
+];
+@endphp
+
+@contain_5_cards_T1( $parameters )
+@endcontain_5_cards_T1
+
+
 
 
 <section class="customSection sectionParent landing_escalaLandings_2022_4">
