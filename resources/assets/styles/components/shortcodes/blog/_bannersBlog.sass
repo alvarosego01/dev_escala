@@ -5,13 +5,14 @@
 
 .customShortCode.innerBanner.customBannerBlog.component_blog_cta_1
     background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
-    width: 100%
+    width: 90%
     padding: 10px 50px
     padding-bottom: 0
     border-radius: 10px
-    margin: 25px 0
+    margin: 25px auto
     @include responsivo(telefonoTable)
         padding-top: 25px
+        width: 100%
     @include responsivo(pcMedio)
         padding-top: 25px
     .innerSectionElement
@@ -23,6 +24,7 @@
             @include responsivo(pcMedio)
                 flex-direction: column-reverse
             .image
+                display: flex
                 @include responsivo(telefonoTable)
                     width: 100%
                 @include responsivo(pcMedio)
@@ -34,6 +36,12 @@
                 .containerImage
                     margin-bottom: 0
                     padding-bottom: 0
+                    margin-top: auto
+                    display: block
+                    @include responsivo(telefonoTable)
+                        margin: 0 auto!important
+                    @include responsivo(pcMedio)
+                        margin: 0 auto!important
                     img
                         width: auto!important
                         @include responsivo(telefonoTable)
@@ -44,7 +52,6 @@
                             height: 200px
                         @include responsivo(smallPcTablet)
                             height: 175px
-
                         @include responsivo(resto)
                             height: 200px
 
@@ -63,13 +70,30 @@
                     margin-bottom: 10px
                 @include responsivo(general)
                     width: 50%
+                    padding: 25px 0
                 @include responsivo(resto)
                     width: 50%
+                    padding: 25px 0
+                .logo
+                    margin-bottom: 25px
+                    padding: 0
+
+                    img
+                        height: 30px
+                        @include responsivo(telefonoTable)
+                            height: 25px
+                            margin-bottom: 20px
+                        @include responsivo(pcMedio)
+                            height: 25px
+                            margin-bottom: 20px
+                        @include responsivo(general)
+                            height: 25px
+
                 .secondaryTitle
                     font-family: Nunito
                     font-style: normal
                     font-weight: 700
-                    font-size: 27.5px
+                    font-size: 22px
                     line-height: 1
                     text-align: center
                     letter-spacing: -1px
@@ -78,9 +102,11 @@
                     @include responsivo(telefonoTable)
                         font-size: 20px
                     @include responsivo(pcMedio)
-                        font-size: 22px
+                        font-size: 20px
                     @include responsivo(general)
-                        font-size: 25px
+                        font-size: 20px
+                    @include responsivo(smallPcTablet)
+                        font-size: 18px
 
 
 
@@ -88,9 +114,11 @@
     background: linear-gradient(180deg, rgba(241, 104, 90, 0.4) 9.14%, rgba(243, 79, 54, 0.4) 84%)
     background-color: #FF4E33
     border-radius: 10px
-    width: 100%
+    width: 90%
     padding: 35px 0
-    margin: 25px 0
+    margin: 25px auto
+    @include responsivo(telefonoTable)
+        width: 100%
     .innerSectionElement
         .containElements
             display: flex
@@ -103,11 +131,25 @@
                 align-content: center
                 align-items: center
                 width: 100%
+                .logo
+                    margin-bottom: 25px
+                    padding: 0
+                    img
+                        height: 25px
+                        @include responsivo(telefonoTable)
+                            height: 20px
+                            margin-bottom: 15px
+                        @include responsivo(pcMedio)
+                            height: 20px
+                            margin-bottom: 0
+                        @include responsivo(general)
+                            height: 20px
+
                 .secondaryTitle
                     font-family: Nunito
                     font-style: normal
                     font-weight: 700
-                    font-size: 27.5px
+                    font-size: 22px
                     line-height: 1
                     text-align: center
                     letter-spacing: -1px
@@ -116,9 +158,11 @@
                     @include responsivo(telefonoTable)
                         font-size: 20px
                     @include responsivo(pcMedio)
-                        font-size: 22px
+                        font-size: 20px
                     @include responsivo(general)
-                        font-size: 25px
+                        font-size: 20px
+                    @include responsivo(smallPcTablet)
+                        font-size: 18px
 
                 a
                     background-color: white!important
@@ -128,14 +172,15 @@
 
 .customShortCode.innerBanner.customBannerBlog.component_blog_cta_3
     background-color: white
-    width: 100%
+    width: 90%
     padding: 10px 0
     padding-bottom: 0
     border-radius: 10px
     overflow: hidden
-    margin: 25px 0
+    margin: 25px auto
     @include responsivo(telefonoTable)
         padding-top: 25px
+        width: 100%
     @include responsivo(pcMedio)
         padding-top: 25px
     .innerSectionElement
@@ -192,7 +237,7 @@
                 align-content: center
                 align-items: center
                 border-radius: 15px
-                padding: 35px 0
+                padding: 25px 0
                 @include responsivo(telefonoTable)
                     width: 100%
 
@@ -207,16 +252,30 @@
                     font-family: Nunito
                     font-style: normal
                     font-weight: 700
-                    font-size: 27.5px
+                    font-size: 22px
                     line-height: 1
                     text-align: center
                     letter-spacing: -1px
                     color: #FFFFFF
-                    margin-bottom: 0
+                    margin-bottom: 25px
                     @include responsivo(telefonoTable)
                         font-size: 20px
                     @include responsivo(pcMedio)
-                        font-size: 22px
+                        font-size: 20px
                     @include responsivo(general)
-                        font-size: 25px
+                        font-size: 20px
+                    @include responsivo(smallPcTablet)
+                        font-size: 18px
+
+                .logo
+                    padding: 0
+                    margin: 0
+                    img
+                        height: 25px
+                        @include responsivo(telefonoTable)
+                            height: 20px
+                        @include responsivo(pcMedio)
+                            height: 20px
+                        @include responsivo(general)
+                            height: 20px
 

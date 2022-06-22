@@ -1,7 +1,7 @@
 
 
 
-<div id="OLD_LandingCreaLPInc2">
+<div id="OLD_LandingCreaLPInc">
 
   <div class="sections">
 
@@ -9,7 +9,7 @@
     $parameters = array(
      'backgroundImageType' => false,
      'overlay' => false,
-     'classSection' => 'threeCol OLD_LandingCreaLPInc2_0 escalaFidelizacionSection0',
+     'classSection' => 'threeCol OLD_LandingCreaLPInc_0 escalaFidelizacionSection0',
      'title' => '
         Crea landing pages <br class="space">
         <span class="greenBlueColor">increíbles</span>
@@ -19,7 +19,7 @@
      'textForm' => '¡Comienza ahora!',
      'backgroundImage' => null,
   'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/person/morena_banco-landing-1.png'),
+  'image' => App::setFilePath('/assets/images/person/01a_landings_increibles.png'),
     ) ;
     @endphp
 
@@ -30,7 +30,7 @@
 
 @php
  $parameters = array(
-  'classSection' => 'OLD_LandingCreaLPInc2_1',
+  'classSection' => 'OLD_LandingCreaLPInc_1',
   'title' => '<span class="greenBlueColor">4 pasos para construir</span> exitosas landing pages en minutos',
   'img1' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0116.png',
   'title1' => 'Elige tu plantilla',
@@ -55,7 +55,7 @@
 @php
  $parameters = array(
   'type' => 'backColor',
-  'classSection' => 'OLD_LandingCreaLPInc2_2',
+  'classSection' => 'OLD_LandingCreaLPInc_2',
   'title' => '
   ¡Comienza a crear tu landing page ahora!
   ',
@@ -72,7 +72,7 @@
 
 @php
 $parameters = array(
- 'classSection' => 'OLD_LandingCreaLPInc2_3 func',
+ 'classSection' => 'OLD_LandingCreaLPInc_3 func',
  'description' => '
  <span class="greenBlueColor"><strong>«En las landing pages de Open English generamos más de 1 <br class="desktopTabletElement"> millón de contactos al año.</strong></span> Así acumulamos aprendizajes <br class="desktopTabletElement"> para optimizar nuestras páginas y potenciar nuestras ventas. <br class="desktopTabletElement">Basados en una década de experiencia, creamos el Page <br class="desktopTabletElement"> Builder más robusto del mercado”.
 
@@ -91,12 +91,12 @@ $parameters = array(
 @php
 $parameters = array(
   'type' => 'regular',
- 'classSection' => 'OLD_LandingCreaLPInc2_4',
+ 'classSection' => 'OLD_LandingCreaLPInc_4',
  'title' => '
    Conoce la plataforma “todo en uno” de marketing <br class="desktopTabletElement">
   digital y ventas que acelerará <span class="greenBlueColor">el crecimiento de tu negocio</span>
  ',
- 'img1' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala02.png'),
+ 'img1' => App::setFilePath('/assets/images/illustrations/others/02a_landings_increibles.png'),
  'title1' => '
    Multiplica tus visitas web <br class="space">
    con anuncios digitales
@@ -107,7 +107,7 @@ $parameters = array(
    page. Crea campañas de anuncios <br class="desktopTabletElement">
    digitales directamente desde <strong >Escala</strong>.
  ',
- 'img2' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala03.png'),
+ 'img2' => App::setFilePath('/assets/images/illustrations/others/02b_landings_increibles.png'),
  'title2' => '
    Organiza tus contactos y <br class="space">
    gestiona procesos de venta
@@ -119,7 +119,7 @@ $parameters = array(
  actividades y manteniendo comunicación <br class="desktopTabletElement">
  constante con tus leads.
    ',
- 'img3' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala04.png'),
+ 'img3' => App::setFilePath('/assets/images/illustrations/others/02c_landings_increibles.png'),
  'title3' => '
  Envía emails de <br class="space">
 marketing profesionales
@@ -131,7 +131,7 @@ marketing profesionales
  bandeja de spam.
  ',
 
- 'img4' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala06.png'),
+ 'img4' => App::setFilePath('/assets/images/illustrations/others/02e_landings_increibles.png'),
  'title4' => '
  Automatiza tareas y <br class="space">
 flujos de comunicación
@@ -141,7 +141,7 @@ flujos de comunicación
  con <strong >Escala</strong> para lograr tus metas de ventas. <br class="desktopTabletElement">
  Programa recordatorios y configura emails de <br class="desktopTabletElement"> respuestas automáticas.
  ',
- 'img5' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala05.png'),
+ 'img5' => App::setFilePath('/assets/images/illustrations/others/02d_landings_increibles.png'),
  'title5' => '
  Obtén métricas de marketing <br class="space">
 y ventas en tiempo real
@@ -160,7 +160,7 @@ y ventas en tiempo real
 @endcontain_aio5
 
 
-<section class="customSection sectionParent OLD_LandingCreaLPInc2_5 fullWidth">
+<section class="customSection sectionParent OLD_LandingCreaLPInc_5 fullWidth">
 
   <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/Banner-Astro-4.jpg') !!}')" class="backgroundFull sct1">
 
@@ -192,7 +192,7 @@ y ventas en tiempo real
 
 @php
  $parameters = array(
-  'classSection' => 'OLD_LandingCreaLPInc2_6',
+  'classSection' => 'OLD_LandingCreaLPInc_6',
   'title' => '
   <span class="greenBlueColor">¿Estás listo para <br class="space"></span>
   acelerar tus ventas?

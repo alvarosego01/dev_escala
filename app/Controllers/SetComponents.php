@@ -240,10 +240,12 @@ class SetComponents extends Controller
                 "views/template-landing-incredible.blade.php",
                 "views/template-landing-video-am.blade.php",
                 "views/template-landing-landing-pages-2022.blade.php",
+                "views/template-landing-landing-pages-expertos-leads-calificados-2022.blade.php",
                 "views/template-landing-email-mk-2022.blade.php",
+                "views/template-landing-email-mk-expertos-escalar-exito-2022.blade.php",
                 "views/template-landing-pricing-page.blade.php",
                 "views/template-landing-incredible-demo.blade.php",
-                "views/template-landing-whatsapp.blade.php",
+                "views/template-OLD_landing-whatsapp.blade.php",
                 "views/template-landing-correos-masivos.blade.php",
                 "views/template-landing-incredible-no-program.blade.php",
                 "views/template-landing-incredible-am.blade.php",
@@ -270,6 +272,7 @@ class SetComponents extends Controller
 
                 "views/template-OLD_landingPagesIncAM_2.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles-2.blade.php",
+                "views/template-OLD-crea-landing-pages-increibles.blade.php",
 
             );
         }
@@ -335,6 +338,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-landing-escala-landings-2022.blade.php",
                 "views/template-pruebas.blade.php",
                 "views/template-document-terms-text.blade.php",
                 "views/template-home-youtube.blade.php",
@@ -347,11 +351,14 @@ class SetComponents extends Controller
                 "views/template-landing-allinone.blade.php",
                 "views/template-landing-incredible.blade.php",
                 "views/template-landing-landing-pages-2022.blade.php",
+                "views/template-landing-landing-pages-expertos-leads-calificados-2022.blade.php",
                 "views/template-landing-email-mk-2022.blade.php",
+                "views/template-landing-email-mk-expertos-escalar-exito-2022.blade.php",
                 "views/template-landing-incredible-demo.blade.php",
-                "views/template-landing-whatsapp.blade.php",
+                "views/template-OLD_landing-whatsapp.blade.php",
                 "views/template-OLD_landingPagesIncAM_2.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles-2.blade.php",
+                "views/template-OLD-crea-landing-pages-increibles.blade.php",
                 "views/template-landing-correos-masivos.blade.php",
                 "views/template-landing-incredible-no-program.blade.php",
                 "views/template-landing-incredible-am.blade.php",

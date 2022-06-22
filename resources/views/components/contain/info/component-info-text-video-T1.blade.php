@@ -146,11 +146,21 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                 </p>
                                 @endif
 
-                                @if ($enableButton != null)
-                                    <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
+                                @if ($enableButton != null || $enableButton2 != null)
+                                <div class="buttonsSection">
+                                    @if ($enableButton != null)
+                                    <a href="{{ $urlButton }}" class="{{ $typeButton }}">
                                         {{ $textButton }}
                                     </a>
+                                    @endif
+                                    @if ($enableButton2 != null)
+                                    <a href="{{ $urlButton2 }}" class="{{ $typeButton2 }}">
+                                        {{ $textButton2 }}
+                                    </a>
+                                    @endif
+                                </div>
                                 @endif
+
                             </div>
 
                         </div>
@@ -175,10 +185,19 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                 </p>
                                 @endif
 
-                                @if ($enableButton != null)
-                                    <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
+                            @if ($enableButton != null || $enableButton2 != null)
+                                <div class="buttonsSection">
+                                    @if ($enableButton != null)
+                                    <a href="{{ $urlButton }}" class="{{ $typeButton }}">
                                         {{ $textButton }}
                                     </a>
+                                    @endif
+                                    @if ($enableButton2 != null)
+                                    <a href="{{ $urlButton2 }}" class="{{ $typeButton2 }}">
+                                        {{ $textButton2 }}
+                                    </a>
+                                    @endif
+                                </div>
                                 @endif
                             </div>
 
@@ -248,10 +267,19 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                 </p>
                                 @endif
 
-                                @if ($enableButton != null)
-                                    <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
+                                @if ($enableButton != null || $enableButton2 != null)
+                                <div class="buttonsSection">
+                                    @if ($enableButton != null)
+                                    <a href="{{ $urlButton }}" class="{{ $typeButton }}">
                                         {{ $textButton }}
                                     </a>
+                                    @endif
+                                    @if ($enableButton2 != null)
+                                    <a href="{{ $urlButton2 }}" class="{{ $typeButton2 }}">
+                                        {{ $textButton2 }}
+                                    </a>
+                                    @endif
+                                </div>
                                 @endif
                             </div>
 
@@ -416,10 +444,19 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             </p>
                             @endif
 
-                            @if ($enableButton != null)
-                                <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
+                            @if ($enableButton != null || $enableButton2 != null)
+                            <div class="buttonsSection">
+                                @if ($enableButton != null)
+                                <a href="{{ $urlButton }}" class="{{ $typeButton }}">
                                     {{ $textButton }}
                                 </a>
+                                @endif
+                                @if ($enableButton2 != null)
+                                <a href="{{ $urlButton2 }}" class="{{ $typeButton2 }}">
+                                    {{ $textButton2 }}
+                                </a>
+                                @endif
+                            </div>
                             @endif
                         </div>
 
@@ -444,10 +481,19 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             </p>
                             @endif
 
-                            @if ($enableButton != null)
-                                <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
+                            @if ($enableButton != null || $enableButton2 != null)
+                            <div class="buttonsSection">
+                                @if ($enableButton != null)
+                                <a href="{{ $urlButton }}" class="{{ $typeButton }}">
                                     {{ $textButton }}
                                 </a>
+                                @endif
+                                @if ($enableButton2 != null)
+                                <a href="{{ $urlButton2 }}" class="{{ $typeButton2 }}">
+                                    {{ $textButton2 }}
+                                </a>
+                                @endif
+                            </div>
                             @endif
                         </div>
 
@@ -515,10 +561,19 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             </p>
                             @endif
 
-                            @if ($enableButton != null)
-                                <a href="{{ $urlButton }}" class="goToHash {{ $typeButton }}">
+                            @if ($enableButton != null || $enableButton2 != null)
+                            <div class="buttonsSection">
+                                @if ($enableButton != null)
+                                <a href="{{ $urlButton }}" class="{{ $typeButton }}">
                                     {{ $textButton }}
                                 </a>
+                                @endif
+                                @if ($enableButton2 != null)
+                                <a href="{{ $urlButton2 }}" class="{{ $typeButton2 }}">
+                                    {{ $textButton2 }}
+                                </a>
+                                @endif
+                            </div>
                             @endif
                         </div>
 

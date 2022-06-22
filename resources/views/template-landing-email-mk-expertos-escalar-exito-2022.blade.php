@@ -1,6 +1,6 @@
 
 {{--
-  Template Name: [B] Landing - Email mk 2022
+  Template Name: [B] Landing - Email mk exitos escalar exito 2022
 --}}
 
 @php
@@ -12,69 +12,35 @@
 
 @section('content')
 
-<div id="landing-emailMk-bootstrap">
+<div id="landing-emailMk_exitoEscalarExito-bootstrap">
 
   <div class="sections">
 
 
-    @if ( isset($customHeaderActive) && $customHeaderActive == 1 )
-
-    @php
-
-    $custom_header_title = ACF_CUSTOM::_getField('custom_header_title');
-    $custom_header_subText = ACF_CUSTOM::_getField('custom_header_subText');
-    $custom_header_image = ACF_CUSTOM::_getField('custom_header_image');
-    $custom_header_formTitle = ACF_CUSTOM::_getField('custom_header_formTitle');
-
-    if ( !isset($custom_header_title) || $custom_header_title == null ) {
-        # code...
-        $custom_header_title = '<span class="whiteColor"><span class="preTitle">Con los emails de Escala</span> <br class="space"> Genera más leads y mantén la <br class="desktopTabletElement"> comunicación con tus clientes</span>';
-    }
-    if ( !isset($custom_header_subText) || $custom_header_subText == null ) {
-        # code...
-        $custom_header_subText = '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span>';
-    }
-    if ( !isset($custom_header_formTitle) || $custom_header_formTitle == null ) {
-        # code...
-        $custom_header_formTitle = 'Comienza ahora';
-    }
-    if ( !isset($custom_header_image) || $custom_header_image == null ) {
-        # code...
-        $custom_header_image = App::setFilePath('/assets/images/person/am/landings_emails_andres_01.png');
-    }else{
-        $custom_header_image = $custom_header_image['url'];
-    }
-
-    $parameters = array(
-     'backgroundImageType' => false,
-     'overlay' => false,
-     'classSection' => 'threeCol landingemailMk_0',
-     'title' => $custom_header_title,
-     'text' => $custom_header_subText,
-     'threeCol' => true,
-     'textForm' => $custom_header_formTitle,
-     'backgroundImage' => null,
-  'overlayImage' => null,
-  'image' => $custom_header_image,
-    ) ;
-    @endphp
-    @header_t1( $parameters )
-    @endheader_t1
-
-    @else
-
-
     @php
     $parameters = array(
      'backgroundImageType' => false,
      'overlay' => false,
-     'classSection' => 'threeCol landingemailMk_0',
+     'classSection' => 'threeCol landingemailMk_exitoEscalarExito_0',
      'title' => '<span class="whiteColor">
-<span class="preTitle">Con los emails de Escala</span> <br class="space">
-Genera más leads y mantén la <br class="desktopTabletElement">
-comunicación con tus clientes
+        <span style="color: #B9E6E9;">
+            Email Marketing + <br class="space">
+            Expertos = <br class="space">
+        </span>
+        Escalar con éxito
         </span>',
-     'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span> ',
+     'text' => '
+        <span class="whiteColor">
+            Genera efectivas campañas de email marketing con el <br class="space">
+            acompañamiento en vivo de especialistas en marketing <br class="space">
+            digital y ventas para logres mayor conversión e <br class="space">
+            interacción.
+        </span>
+        <div class="byAm">
+            <span class="whiteColor">Andrés Moreno</span> <br class="space">
+            <span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span>
+        </div>
+    ',
      'threeCol' => true,
      'textForm' => 'Comienza ahora',
      'backgroundImage' => null,
@@ -86,7 +52,6 @@ comunicación con tus clientes
     @header_t1( $parameters )
     @endheader_t1
 
-    @endif
 
 
 
@@ -94,7 +59,7 @@ comunicación con tus clientes
     @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landingemailMk_1',
+        'classSection' => 'landingemailMk_exitoEscalarExito_1',
         'enableTitle' => true,
         'titlePrincipal' => '
         Conoce los beneficios <br class="desktopTabletElement">
@@ -152,7 +117,7 @@ bandeja de Spam
     @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landingemailMk_2',
+        'classSection' => 'landingemailMk_exitoEscalarExito_2',
         'enableTitle' => true,
         'titlePrincipal' => '
         Crea campañas de <br class="desktopTabletElement">
@@ -230,7 +195,7 @@ campañas.
     @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landingemailMk_3',
+        'classSection' => 'landingemailMk_exitoEscalarExito_3',
         'enableTitle' => true,
         'titlePrincipal' => '
         <span class="whiteColor">
@@ -282,7 +247,7 @@ sin problemas en todas las plataformas de correo.
 
 @endcontain_multiple_cards_T2
 
-<section class="customSection sectionParent landingemailMk_4">
+<section class="customSection sectionParent landingemailMk_exitoEscalarExito_4">
 
     <div class="section-row">
 
@@ -329,7 +294,7 @@ sin problemas en todas las plataformas de correo.
 @php
 $parameters = [
     'type' => 'backgroundColor',
-    'classSection' => 'landingemailMk_5',
+    'classSection' => 'landingemailMk_exitoEscalarExito_5',
     'enableTitle' => true,
     'titlePrincipal' => '
     Potencia tu marketing digital con <br class="desktopTabletElement">
@@ -431,7 +396,7 @@ ventas y emails.
 
 {{-- 6 --}}
 
-<section class="customSection sectionParent landingemailMk_6">
+<section class="customSection sectionParent landingemailMk_exitoEscalarExito_6">
 
     <div class="section-row">
 
@@ -471,7 +436,7 @@ a largo plazo con tus clientes
 @php
 $parameters = [
     'type' => 'backgroundColor',
-    'classSection' => 'landingemailMk_7',
+    'classSection' => 'landingemailMk_exitoEscalarExito_7',
     'enableTitle' => true,
     'titlePrincipal' => '
     Servicio Premium
@@ -525,7 +490,7 @@ $parameters = [
 
 @php
 $parameters = [
-    'classSection' => 'landingemailMk_8',
+    'classSection' => 'landingemailMk_exitoEscalarExito_8',
     'title' => '
 Quiero generar más leads y <br class="desktopTabletElement">
 fidelizar más clientes con <br class="desktopTabletElement">

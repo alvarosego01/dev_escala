@@ -29,6 +29,7 @@ function setUrl($type)
 
 function component_blog_cta_1($atts)
 {
+    ob_start();
     $default = array(
         'type_button' => null,
         'url' => null
@@ -69,10 +70,18 @@ function component_blog_cta_1($atts)
 
                 <div class="info">
 
+
+                <div class="containerImage logo">
+                    <?php
+                    $src = App::setFilePath('/assets/images/logos/logo_escala_F34F36_blanco.png');
+                    ?>
+                    <img alt="Escala logo" src="<?php echo $src ?>" alt="" loading="lazy">
+                </div>
+
+
                         <h3 class="secondaryTitle">
-                        ¡Obtén 10 días <br class="space">
-                        de nuestra plataforma <br class="space">
-                        sin costo alguno!
+                        ¡Obtén 10 días de nuestra <br class="space">
+                         plataforma sin costo alguno!
                         </h3>
 
                         <?php
@@ -100,11 +109,17 @@ function component_blog_cta_1($atts)
 
 
     <?php
+
+$output = ob_get_contents();
+ob_end_clean();
+return  $output;
+
 }
 add_shortcode('component_blog_cta_1', 'component_blog_cta_1');
 
 function component_blog_cta_2($atts)
 {
+    ob_start();
     $default = array(
         'type_button' => null,
         'url' => null
@@ -135,6 +150,14 @@ function component_blog_cta_2($atts)
 
                 <div class="info">
 
+
+                <div class="containerImage logo">
+                    <?php
+                    $src = App::setFilePath('/assets/images/logos/logoEscalaWhite.svg');
+                    ?>
+                    <img alt="Escala logo" src="<?php echo $src ?>" alt="" loading="lazy">
+                </div>
+
                         <h3 class="secondaryTitle">
                         ¡Obtén 10 días <br class="space">
                         de nuestra plataforma <br class="space">
@@ -166,6 +189,9 @@ function component_blog_cta_2($atts)
 
 
     <?php
+    $output = ob_get_contents();
+    ob_end_clean();
+    return  $output;
 }
 add_shortcode('component_blog_cta_2', 'component_blog_cta_2');
 
@@ -173,6 +199,7 @@ add_shortcode('component_blog_cta_2', 'component_blog_cta_2');
 
 function component_blog_cta_3($atts)
 {
+    ob_start();
     $default = array(
         'type_button' => null,
         'url' => null
@@ -202,11 +229,19 @@ function component_blog_cta_3($atts)
 
                 <div class="info">
 
+
                     <h3 class="secondaryTitle">
                     ¡Obtén 10 días <br class="space">
                     de nuestra plataforma <br class="space">
                     sin costo alguno!
                     </h3>
+
+                    <div class="containerImage logo">
+                        <?php
+                        $src = App::setFilePath('/assets/images/logos/logoEscalaWhite.svg');
+                        ?>
+                        <img alt="Escala logo" src="<?php echo $src ?>" alt="" loading="lazy">
+                    </div>
 
                     </div>
 
@@ -247,6 +282,10 @@ function component_blog_cta_3($atts)
 
 
     <?php
+
+$output = ob_get_contents();
+ob_end_clean();
+return  $output;
 }
 add_shortcode('component_blog_cta_3', 'component_blog_cta_3');
 

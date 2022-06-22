@@ -192,6 +192,8 @@ function closingSidebarClick() {
 function scrollToHash() {
 
     jQuery('.goToHash').click(function (e) {
+
+        return;
         e.preventDefault();
         console.log('scroll to hash', e);
 
