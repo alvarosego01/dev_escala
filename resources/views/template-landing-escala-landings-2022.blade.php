@@ -189,8 +189,8 @@ de código, <span class="greenBlueColor">¡así de fácil!</span>
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
         'title' => '
-          <strong>¡Nuestra arma secreta! </strong><br class="space">
-          <span class="greenBlueColor">Los Expertos</span>
+          <strong>Los Expertos</strong><br class="space">
+          <span class="greenBlueColor">¡Nuestra arma secreta!</span>
           ',
         'img' => App::setFilePath('/assets/images/person/capacitacion_pareja.png'),
         'text' => '
