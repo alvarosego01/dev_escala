@@ -413,6 +413,38 @@
                             width: 650px
                         @include responsivo(resto)
                             width: 700px!important
+                    .buttonsSection
+                        display: flex
+                        flex-direction: row
+                        @include responsivo(telefonoTable)
+                            flex-direction: column
+                            justify-content: center
+                            align-content: center
+                            align-items: center
+                        @include responsivo(pcMedio)
+                            flex-direction: row
+                            justify-content: space-evenly
+                            align-items: center
+                        a,
+                        button
+                            margin-right: 20px
+                            @include responsivo(telefonoTable)
+                                margin: 0
+                                margin-bottom: 15px
+                            @include responsivo(pcMedio)
+                                margin: 0
+                            @include responsivo(general)
+                                margin: 0
+                                margin-right: 10px
+                            &:last-child
+                                @include responsivo(telefonoTable)
+                                    margin: 0
+                                @include responsivo(pcMedio)
+                                    margin: 0
+                                @include responsivo(general)
+                                    margin: 0
+                                @include responsivo(resto)
+                                    margin: 0
                 @include responsivo(telefonoTable)
                     .image
                         padding-left: 0

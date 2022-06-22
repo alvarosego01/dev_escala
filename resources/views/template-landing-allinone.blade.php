@@ -80,10 +80,7 @@
                       <div class="formatForm redirectWeb"   redirectWeb="true">
 
                           <h4 class="titleFormat blackcolor">
-                            Empieza a probar Escala <br class="space">
-                            <small>
-                              Sin tarjeta requerida
-                            </small>
+                            Empieza a probar Escala
                           </h4>
 
 

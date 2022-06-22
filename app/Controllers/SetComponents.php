@@ -80,7 +80,8 @@ class SetComponents extends Controller
         return array(
             'components.subscribers.component-subscribers-T1' => 'subscribers_T1',
             'components.blog.component-blog-slideshow-T1' => 'slideshowBlog_T1',
-            'components.blog.component-blog-articles-T1' => 'articlesBlog_T1'
+            'components.blog.component-blog-articles-T1' => 'articlesBlog_T1',
+            'components.blog.component-blog-articles-paginate-T2' => 'articlesBlog_paginate_T1'
         );
     }
 
@@ -227,6 +228,7 @@ class SetComponents extends Controller
 
                 "views/template-blog-home.blade.php",
                 "views/template-blog-category.blade.php",
+                "views/template-blog-search-results.blade.php",
                 "views/single-post.blade.php"
 
             );
@@ -238,10 +240,12 @@ class SetComponents extends Controller
                 "views/template-landing-incredible.blade.php",
                 "views/template-landing-video-am.blade.php",
                 "views/template-landing-landing-pages-2022.blade.php",
+                "views/template-landing-landing-pages-expertos-leads-calificados-2022.blade.php",
                 "views/template-landing-email-mk-2022.blade.php",
+                "views/template-landing-email-mk-expertos-escalar-exito-2022.blade.php",
                 "views/template-landing-pricing-page.blade.php",
                 "views/template-landing-incredible-demo.blade.php",
-                "views/template-landing-whatsapp.blade.php",
+                "views/template-OLD_landing-whatsapp.blade.php",
                 "views/template-landing-correos-masivos.blade.php",
                 "views/template-landing-incredible-no-program.blade.php",
                 "views/template-landing-incredible-am.blade.php",
@@ -263,6 +267,15 @@ class SetComponents extends Controller
 
             );
         }
+        if ($type == 'OLD_Pages') {
+            return array(
+
+                "views/template-OLD_landingPagesIncAM_2.blade.php",
+                "views/template-OLD-crea-landing-pages-increibles-2.blade.php",
+                "views/template-OLD-crea-landing-pages-increibles.blade.php",
+
+            );
+        }
         if ($type == 'services') {
             return array(
 
@@ -280,6 +293,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-pruebas.blade.php",
                 "views/template-home-youtube.blade.php",
                 "views/template-escala-fex.blade.php",
                 // "views/template-home-2021.blade.php",
@@ -292,6 +306,7 @@ class SetComponents extends Controller
            return array(
 
                 "views/template-home.blade.php",
+                "views/template-pruebas.blade.php",
                 // "views/template-home-2021.blade.php",
 
             );
@@ -323,6 +338,8 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-landing-escala-landings-2022.blade.php",
+                "views/template-pruebas.blade.php",
                 "views/template-document-terms-text.blade.php",
                 "views/template-home-youtube.blade.php",
                 "views/template-landing-video-am.blade.php",
@@ -334,9 +351,14 @@ class SetComponents extends Controller
                 "views/template-landing-allinone.blade.php",
                 "views/template-landing-incredible.blade.php",
                 "views/template-landing-landing-pages-2022.blade.php",
+                "views/template-landing-landing-pages-expertos-leads-calificados-2022.blade.php",
                 "views/template-landing-email-mk-2022.blade.php",
+                "views/template-landing-email-mk-expertos-escalar-exito-2022.blade.php",
                 "views/template-landing-incredible-demo.blade.php",
-                "views/template-landing-whatsapp.blade.php",
+                "views/template-OLD_landing-whatsapp.blade.php",
+                "views/template-OLD_landingPagesIncAM_2.blade.php",
+                "views/template-OLD-crea-landing-pages-increibles-2.blade.php",
+                "views/template-OLD-crea-landing-pages-increibles.blade.php",
                 "views/template-landing-correos-masivos.blade.php",
                 "views/template-landing-incredible-no-program.blade.php",
                 "views/template-landing-incredible-am.blade.php",
@@ -371,6 +393,7 @@ class SetComponents extends Controller
                 "views/template-blog-home.blade.php",
                 "views/template-caso-exito-home.blade.php",
                 "views/template-blog-category.blade.php",
+                "views/template-blog-search-results.blade.php",
                 "views/single-post.blade.php",
                 "views/single-exitocaso.blade.php",
                 "views/template-zoom-demo-home.blade.php",

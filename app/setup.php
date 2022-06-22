@@ -52,6 +52,10 @@ add_action('wp_enqueue_scripts', function () {
         if (is_page_template($t)) {
             wp_enqueue_style('landingPages.css', asset_path('styles/pages/landingPages/landingPagesMain.css'), false, THEME_VERSION);
         }
+        $t = SetComponents::setTemplates('OLD_Pages');
+        if (is_page_template($t)) {
+            wp_enqueue_style('oldMain.css', asset_path('styles/pages/old/oldMain.css'), false, THEME_VERSION);
+        }
         $t = SetComponents::setTemplates('services');
         if (is_page_template($t)) {
 
@@ -76,7 +80,8 @@ add_action('wp_enqueue_scripts', function () {
         }
         $t = SetComponents::setTemplates('blog');
         if (is_page_template($t)) {
-            wp_enqueue_style('blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
+            wp_enqueue_style('_blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
+            wp_enqueue_script('_blog.js', asset_path('scripts/pages/_blog.js'), ['jquery'], THEME_VERSION, true);
         }
         $t = SetComponents::setTemplates('casoExito');
         if (is_page_template($t)) {
@@ -119,14 +124,22 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage.js'), ['jquery'], THEME_VERSION, true);
 
         }
-          // jvascripts
+
+        // LANDINGS
+        // -------------------------------------- //
+
+        if ( is_page_template("views/template-landing-escala-landings-2022.blade.php") ) {
+            wp_enqueue_style('landing_EscalaLandings.css', asset_path('styles/pages/landingPages/landing_EscalaLandings.css'), false, THEME_VERSION);
+        }
+
+        // -------------------------------------- //
+
+        // jvascripts
         wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], THEME_VERSION, true);
 
 
 
-        // if (is_single() && comments_open() && get_option('thread_comments')) {
-            // wp_enqueue_script('comment-reply');
-        // }
+
     } else {
 
         wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, THEME_VERSION);
@@ -456,4 +469,11 @@ function registerCustomMenu()
 
 add_action('init', registerCustomMenu() ); // Add HTML5 Blank Menu
 
+
+add_action('wpcf7_enqueue_scripts', 'prefix_fix_form_reset');
+
+function prefix_fix_form_reset() {
+    $wpcf7 = array();
+    wp_localize_script( 'contact-form-7', 'wpcf7', $wpcf7 );
+}
 

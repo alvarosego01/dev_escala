@@ -89,6 +89,7 @@ document.addEventListener('wpcf7mailsent', async (e) => {
     }
 
     console.log('prev red' + re);
+    // return;
 
     if (re && re != null && re != '') {
         console.log('prev 1 red' + re);
@@ -107,8 +108,6 @@ document.addEventListener('wpcf7mailfailed', async (e) =>  {
    let inputs = e['detail']['inputs'];
     let l = e.path;
     let re = null;
-
-    console.log('var event inputs', inputs);
 
     window.dataLayer.push({
         "event": "cf7submission",
@@ -150,6 +149,7 @@ document.addEventListener('wpcf7mailfailed', async (e) =>  {
     }
 
     console.log('prev red' + re);
+    // return;
 
     if (re && re != null && re != '') {
         console.log('prev 1 red' + re);
