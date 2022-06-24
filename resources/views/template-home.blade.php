@@ -349,8 +349,7 @@ a tus clientes
 
 </section>
 
-{{-- seccion de videos --}}
-<section class="customSection sectionParent homeSection5">
+{{-- <section class="customSection sectionParent homeSection5">
 
 <div class="section-row">
 
@@ -379,16 +378,11 @@ a tus clientes
 
         <div class="videoContent hytPlayerWrap">
 
-              {{-- <div class="youtube" data-embed="AtwdW3mpiKU">
-                              <div class="play-button"></div>
-                          </div> --}}
-
                           <video
                           class="video-js"
                           controls
 
                           preload="none"
-                          {{-- poster="MY_VIDEO_POSTER.jpg" --}}
                           data-setup="{
                             autoplay: false
                           }"
@@ -430,17 +424,11 @@ a tus clientes
 
         <div class="videoContent hytPlayerWrap">
 
-              {{-- <div class="youtube" data-embed="elw0_VBWSiY">
-                              <div class="play-button"></div>
-                          </div> --}}
-
-
                           <video
                           class="video-js"
                           controls
 
                           preload="none"
-                          {{-- poster="MY_VIDEO_POSTER.jpg" --}}
                           data-setup="{
                             autoplay: false
                           }"
@@ -478,16 +466,12 @@ a tus clientes
 
         <div class="videoContent hytPlayerWrap">
 
-              {{-- <div class="youtube" data-embed="jRaO6-VBFEU">
-                              <div class="play-button"></div>
-                          </div> --}}
 
                           <video
                           class="video-js"
                           controls
 
                           preload="none"
-                          {{-- poster="MY_VIDEO_POSTER.jpg" --}}
                           data-setup="{
                             autoplay: false
                           }"
@@ -503,7 +487,6 @@ a tus clientes
                             >
                           </p>
                         </video>
-
 
         </div>
 
@@ -542,17 +525,11 @@ a tus clientes
 
       <div class="videoContent hytPlayerWrap">
 
-            {{-- <div class="youtube" data-embed="AtwdW3mpiKU">
-                              <div class="play-button"></div>
-                          </div> --}}
-
-
                           <video
                           class="video-js"
                           controls
 
                           preload="none"
-                          {{-- poster="MY_VIDEO_POSTER.jpg" --}}
                           data-setup="{
                             autoplay: false
                           }"
@@ -588,16 +565,11 @@ a tus clientes
 
     <div class="videoContent hytPlayerWrap">
 
-          {{-- <div class="youtube" data-embed="elw0_VBWSiY">
-                              <div class="play-button"></div>
-                          </div> --}}
-
                           <video
                           class="video-js"
                           controls
 
                           preload="none"
-                          {{-- poster="MY_VIDEO_POSTER.jpg" --}}
                           data-setup="{
                             autoplay: false
                           }"
@@ -632,17 +604,11 @@ a tus clientes
 
     <div class="videoContent hytPlayerWrap">
 
-          {{-- <div class="youtube" data-embed="jRaO6-VBFEU">
-                              <div class="play-button"></div>
-                          </div> --}}
-
-
                           <video
                           class="video-js"
                           controls
 
                           preload="none"
-                          {{-- poster="MY_VIDEO_POSTER.jpg" --}}
                           data-setup="{
                             autoplay: false
                           }"
@@ -658,7 +624,6 @@ a tus clientes
                             >
                           </p>
                         </video>
-
 
     </div>
 
@@ -679,19 +644,12 @@ a tus clientes
 
   </div>
 
-
-
 </div>
-
 
 </section>
 <section class="innerSectionElement3">
 
 <div class="containElements">
-
-  {{-- <h3 class="primaryTitle greenBlueColor">
-    Comienza a generar más leads, clientes y ventas
-  </h3> --}}
 
   <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
     Prueba Gratis
@@ -702,7 +660,7 @@ a tus clientes
 </section>
 
 </div>
-</section>
+</section> --}}
 
 @php
 $parameters = [
