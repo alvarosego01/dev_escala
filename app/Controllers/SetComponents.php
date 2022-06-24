@@ -270,7 +270,9 @@ class SetComponents extends Controller
         if ($type == 'OLD_Pages') {
             return array(
 
+                "views/template-OLD_landing-whatsapp.blade.php",
                 "views/template-OLD_landingPagesIncAM_2.blade.php",
+                "views/template-OLD_landing-pages-sin-programar.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles-2.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles.blade.php",
 
@@ -357,6 +359,7 @@ class SetComponents extends Controller
                 "views/template-landing-incredible-demo.blade.php",
                 "views/template-OLD_landing-whatsapp.blade.php",
                 "views/template-OLD_landingPagesIncAM_2.blade.php",
+                "views/template-OLD_landing-pages-sin-programar.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles-2.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles.blade.php",
                 "views/template-landing-correos-masivos.blade.php",
@@ -379,6 +382,7 @@ class SetComponents extends Controller
                 "views/template-escala-subpages-marketing.blade.php",
                 "views/template-subPage-about-us.blade.php",
                 "views/template-func-page-builder.blade.php",
+                "views/template-func-page-builder-2022.blade.php",
                 "views/template-func-analiticas.blade.php",
                 "views/template-func-automatization.blade.php",
                 "views/template-func-automatization-2.blade.php",
