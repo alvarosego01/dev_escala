@@ -176,7 +176,7 @@
                                     <div class="rw rw1">
 
                                         <div class="customPriceInput">
-                                            <input typeProcess="0" name="_contactsField" class="contactsField" step="1000" type="number" value="5000">
+                                            <input typeProcess="0" name="_contactsField" class="contactsField" step="1000" type="number" value="5000" min="5000">
                                         </div>
 
                                     </div>

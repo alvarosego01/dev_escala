@@ -212,12 +212,12 @@ function typeCustomPay(type, e) {
 
 }
 
-function selectPlanMobile( element, type ) {
+function selectPlanMobile(element, type) {
 
     // checkStarter
     // checkPro
     jQuery('.buttonSelectPlan-Mobile').removeClass('active');
-    if( type == 'starter' ){
+    if (type == 'starter') {
 
         jQuery('#checkStarter')[0].click();
 
@@ -225,7 +225,7 @@ function selectPlanMobile( element, type ) {
 
     }
 
-    if( type == 'pro' ){
+    if (type == 'pro') {
 
         jQuery('#checkPro')[0].click();
 
