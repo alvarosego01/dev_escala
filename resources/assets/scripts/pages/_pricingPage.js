@@ -212,12 +212,12 @@ function typeCustomPay(type, e) {
 
 }
 
-function selectPlanMobile( element, type ) {
+function selectPlanMobile(element, type) {
 
     // checkStarter
     // checkPro
     jQuery('.buttonSelectPlan-Mobile').removeClass('active');
-    if( type == 'starter' ){
+    if (type == 'starter') {
 
         jQuery('#checkStarter')[0].click();
 
@@ -225,7 +225,7 @@ function selectPlanMobile( element, type ) {
 
     }
 
-    if( type == 'pro' ){
+    if (type == 'pro') {
 
         jQuery('#checkPro')[0].click();
 
@@ -236,10 +236,10 @@ function selectPlanMobile( element, type ) {
 
 }
 
-function redondeaAlAlza(x,r) {
-    xx = Math.floor(x/r)
-    if (xx!=x/r) {xx++}
-    return (xx*r)
+function redondeaAlAlza(x, r) {
+    xx = Math.floor(x / r)
+    if (xx != x / r) { xx++ }
+    return (xx * r)
 }
 
 
@@ -288,51 +288,51 @@ function calculateRangeValue(data) {
     range = data._rangeContacts[typeProcess];
 
 
-        if (range >= 0 && range <= 25) {
+    if (range >= 0 && range <= 25) {
 
-            return percentOfRange(range, 0, 25, 'rangeToNumber', 1000, 25000);
+        return percentOfRange(range, 0, 25, 'rangeToNumber', 1000, 25000);
 
-        }
-        if (range >= 25 && range <= 50) {
+    }
+    if (range >= 25 && range <= 50) {
 
-            return percentOfRange(range, 24, 48, 'rangeToNumber', 25000, 50000);
+        return percentOfRange(range, 24, 48, 'rangeToNumber', 25000, 50000);
 
-        }
+    }
 
-        if (range >= 50 && range <= 75) {
+    if (range >= 50 && range <= 75) {
 
-            return percentOfRange(range, 48, 73, 'rangeToNumber', 50000, 75000);
-        }
+        return percentOfRange(range, 48, 73, 'rangeToNumber', 50000, 75000);
+    }
 
-        if (range >= 75 && range <= 100) {
+    if (range >= 75 && range <= 100) {
 
-            return percentOfRange(range, 73, 100, 'rangeToNumber', 75000, 100000);
-        }
+        return percentOfRange(range, 73, 100, 'rangeToNumber', 75000, 100000);
+    }
 
 
 }
 
 
-function revealMobileView( type = null, plan ){
+function revealMobileView(type = null, plan) {
 
 
-    if( type != null ){
+    if (type != null) {
 
-    console.log('type', type);
-    console.log('plan', plan);
+        console.log('type', type);
+        console.log('plan', plan);
 
-        if( type == 'open' ){
+        if (type == 'open') {
 
             jQuery('#' + plan + ' .versionMobile2022 .preView').hide();
             jQuery('#' + plan + ' .versionMobile2022 .fullView').show();
 
         }
-        if( type == 'close' ){
+        if (type == 'close') {
 
             jQuery('#' + plan + ' .versionMobile2022 .fullView').hide();
             jQuery('#' + plan + ' .versionMobile2022 .preView').show();
 
-            if( jQuery('.modePlanSelect')[0].checked == false){
+            if (jQuery('.modePlanSelect')[0].checked == false) {
 
 
                 // discountByPlanCard('plan1', jQuery('.modePlanSelect')[0] );
@@ -415,7 +415,7 @@ function calculateFinal(data) {
         jQuery('#priceSaves').text('Ahorras USD ' + discount);
     }
 
-            // var costFinal = 332.01;
+    // var costFinal = 332.01;
 
     costFinal = trimDecimals(costFinal);
 
@@ -426,25 +426,25 @@ function calculateFinal(data) {
 
 }
 
-function trimDecimals(costFinal){
+function trimDecimals(costFinal) {
 
 
-    if( Number(Number(costFinal).toFixed()) == Number(costFinal)/1  ){
+    if (Number(Number(costFinal).toFixed()) == Number(costFinal) / 1) {
 
         costFinal = Number(Number(costFinal).toFixed());
 
 
         return costFinal;
 
-    }else{
+    } else {
         return costFinal;
     }
 
 }
 
-function actionInfoCards(type){
+function actionInfoCards(type) {
 
-    if(type == 'open'){
+    if (type == 'open') {
 
         jQuery('.extendButton').css({
             'display': 'none'
@@ -465,7 +465,7 @@ function actionInfoCards(type){
 
     }
 
-    if(type == 'close'){
+    if (type == 'close') {
 
         jQuery('.hideButton').css({
             'display': 'none'
@@ -491,14 +491,14 @@ function actionInfoCards(type){
 }
 
 planCheck = null;
-function discountByPlanCard(type, element){
+function discountByPlanCard(type, element) {
 
 
-    if(type != null){
+    if (type != null) {
 
-        if(element.checked == true){
+        if (element.checked == true) {
 
-            if(jQuery('[typeplan='+ type +']').length > 0){
+            if (jQuery('[typeplan=' + type + ']').length > 0) {
 
 
                 // if(planCheck != null && planCheck != type){
@@ -521,7 +521,7 @@ function discountByPlanCard(type, element){
 
                 // }
 
-                jQuery('.modePlanSelect').prop( "checked", true );
+                jQuery('.modePlanSelect').prop("checked", true);
 
                 jQuery('.discountCost').css({
                     'display': 'flex'
@@ -540,9 +540,9 @@ function discountByPlanCard(type, element){
                 });
 
 
-                    jQuery('.price').css({
-                        'margin-bottom': '90' + 'px'
-                    });
+                jQuery('.price').css({
+                    'margin-bottom': '90' + 'px'
+                });
 
 
                 jQuery('#plan3.elementParent .middle .innerMiddle').removeClass('reduceDiv');
@@ -553,19 +553,19 @@ function discountByPlanCard(type, element){
                 _costStarter = 21;
                 _costPro = 95;
 
-                jQuery('[calculator_price_starter]').text( 'USD ' + _costStarter );
-                jQuery('[calculator_price_pro]').text( 'USD ' + _costPro );
+                jQuery('[calculator_price_starter]').text('USD ' + _costStarter);
+                jQuery('[calculator_price_pro]').text('USD ' + _costPro);
 
                 return;
             }
         }
 
-        if(element.checked == false){
+        if (element.checked == false) {
 
 
-            if(jQuery('[typeplan='+ type +']').length > 0){
+            if (jQuery('[typeplan=' + type + ']').length > 0) {
 
-                jQuery('.modePlanSelect').prop( "checked", false );
+                jQuery('.modePlanSelect').prop("checked", false);
 
                 jQuery('.discountCost').css({
                     'display': 'none'
@@ -584,23 +584,21 @@ function discountByPlanCard(type, element){
                 });
 
 
-
-
                 jQuery('.price').css({
                     'margin-bottom': '60' + 'px'
                 });
 
 
-            jQuery('#plan3.elementParent .middle .innerMiddle').addClass('reduceDiv');
+                jQuery('#plan3.elementParent .middle .innerMiddle').addClass('reduceDiv');
 
-            _costStarter = 30;
-            _costPro = 135;
+                _costStarter = 30;
+                _costPro = 135;
 
-            jQuery('[calculator_price_starter]').text( 'USD ' + _costStarter );
-            jQuery('[calculator_price_pro]').text( 'USD ' + _costPro );
+                jQuery('[calculator_price_starter]').text('USD ' + _costStarter);
+                jQuery('[calculator_price_pro]').text('USD ' + _costPro);
 
-            return;
-        }
+                return;
+            }
 
         }
 
@@ -610,9 +608,10 @@ function discountByPlanCard(type, element){
 }
 
 
-function planSelectProcess(plan){
+function planSelectProcess(plan) {
 
-    if(plan == 'plan1'){
+    if (plan == 'plan1') {
+
         jQuery('#checkStarter').click();
         planSelect = plan;
         jQuery('small[mobPlan]').text('Plan Starter');
@@ -620,8 +619,11 @@ function planSelectProcess(plan){
             'display': 'block'
         });
         setConfigModeSelect('starter')
+
     }
-    if(plan == 'plan2'){
+
+    if (plan == 'plan2') {
+
         jQuery('#checkPro').click();
         planSelect = plan;
         jQuery('small[mobPlan]').text('Plan Pro');
@@ -629,18 +631,20 @@ function planSelectProcess(plan){
             'display': 'block'
         });
         setConfigModeSelect('pro')
+
     }
-    if(plan == 'plan3'){
+
+    if (plan == 'plan3') {
 
         planSelect = plan;
 
-    jQuery('[regularPlansCalc]').css({
-        'display': 'none'
-    });
-    jQuery('[enterprisePlanCalc]').css({
-        'display': 'block'
-    });
-    return;
+        jQuery('[regularPlansCalc]').css({
+            'display': 'none'
+        });
+        jQuery('[enterprisePlanCalc]').css({
+            'display': 'block'
+        });
+        return;
 
     }
 
@@ -651,23 +655,28 @@ function planSelectProcess(plan){
         'display': 'none'
     });
 
-
 }
 
-function setConfigModeSelect(element){
+
+function setConfigModeSelect(element) {
+
     // starter
     // pro
     let l = jQuery(element).val();
 
+    var range_value = jQuery('input.rangeContacts').val();
+    var input_value = jQuery('input.contactsField').val();
 
-    if(l == 'starter'){
+    console.log('range_value', range_value);
+    console.log('input_value', input_value);
 
-        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').attr('min', '0');
-        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val('0');
-        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').css({
+    if (l == 'starter') {
+
+        jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').attr('min', '0');
+        jQuery('.contactsField[typeProcess="' + typeProcess + '"]').attr('min', '1000');
+        jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').css({
             'background-image': 'none'
         });
-
 
         jQuery('[scaleStarter]').css({
             'display': 'flex'
@@ -676,16 +685,29 @@ function setConfigModeSelect(element){
             'display': 'none'
         });
 
-        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '1000');
-        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val('1000');
+        if (range_value > 0 &&
+            input_value > 0
+        ) {
+
+            jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').val( range_value );
+            jQuery('.contactsField[typeProcess="' + typeProcess + '"]').val( input_value );
+
+        } else {
+
+            jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').val('0');
+            jQuery('.contactsField[typeProcess="' + typeProcess + '"]').val('1000');
+
+        }
+
+        jQuery('input.rangeContacts').click();
 
     }
 
-    if(l == 'pro'){
+    if (l == 'pro') {
 
-        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').attr('min', '5');
-        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').val('5');
-        jQuery('.rangeContacts[typeProcess="'+typeProcess+'"]').css({
+        jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').attr('min', '5');
+        jQuery('.contactsField[typeProcess="' + typeProcess + '"]').attr('min', '5000');
+        jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').css({
             'background-image': 'none'
         });
 
@@ -696,8 +718,22 @@ function setConfigModeSelect(element){
             'display': 'flex'
         });
 
-        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').attr('min', '5000');
-        jQuery('.contactsField[typeProcess="'+typeProcess+'"]').val('5000');
+
+        if (range_value >= 5 &&
+            input_value >= 5000
+            ) {
+
+                jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').val(range_value);
+                jQuery('.contactsField[typeProcess="' + typeProcess + '"]').val(input_value);
+
+            } else {
+
+                jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').val('5');
+                jQuery('.contactsField[typeProcess="' + typeProcess + '"]').val('5000');
+
+        }
+
+        jQuery('input.rangeContacts').click();
 
     }
 
@@ -707,19 +743,57 @@ function setConfigModeSelect(element){
 
 }
 
+function preventContactField(){
+
+    jQuery('input.contactsField').on('click change', function () {
+
+        var number = jQuery(this).val();
+        var min = jQuery(this).attr('min');
+
+        if( number < min ){
+            number = min;
+        }
+
+        var rest = number % 1000;
+
+        if(rest > 0){
+            number = number - rest + 1000;
+            console.log('')
+        }
+
+        jQuery('input.contactsField').val(number);
+
+        console.log('number', number);
+        console.log('min', min);
+        console.log('rest', rest);
+        console.log('typeProcess', typeProcess);
+
+        var l = number / 1000;
+        l = Math.trunc(l);
+
+        console.log('la l', l);
+
+        jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').val( l );
+        jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').click();
+
+
+    });
+
+}
 
 
 jQuery(document).ready(function () {
 
-jQuery('#checkPro').click();
+    jQuery('#checkPro').click();
 
     device = deviceType();
 
-
+    preventContactField();
 
     jQuery('.modePlanSelect').click();
 
-    jQuery("input[type=range]").load(function (e) {
+    jQuery("input[type=range]").on('load click change', function () {
+
         // Handler for .load() called.
 
         var val = (jQuery(this).val() - jQuery(this).attr('min')) / (jQuery(this).attr('max') - jQuery(this).attr('min'));
@@ -734,8 +808,6 @@ jQuery('#checkPro').click();
         jQuery(this).css('background-image',
             '-moz-linear-gradient(left center, #97C7D1 0%, #97C7D1 ' + percent + '%, #D9EEF9 ' + percent + '%, #D9EEF9 100%)');
     });
-
-
 
 
     jQuery("input[type=range]").on("input change", function (e) {
@@ -754,11 +826,10 @@ jQuery('#checkPro').click();
     });
 
 
-    jQuery("form#formCalcGeneral").change( async function (e) {
+    jQuery("form#formCalcGeneral").change(async function (e) {
         e.preventDefault();
 
-
-        if ( jQuery(e.target).attr('typeProcess') ) {
+        if (jQuery(e.target).attr('typeProcess')) {
 
             typeProcess = jQuery(e.target).attr('typeProcess');
 
@@ -788,8 +859,6 @@ jQuery('#checkPro').click();
         //     jQuery('input#checkPro').attr('disabled', false);
 
         // }
-
-
 
 
 
