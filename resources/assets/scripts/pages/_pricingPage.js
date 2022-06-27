@@ -707,6 +707,43 @@ function setConfigModeSelect(element){
 
 }
 
+function preventContactField(){
+
+    jQuery('input.contactsField').on('click change', function () {
+
+        var number = jQuery(this).val();
+        var min = jQuery(this).attr('min');
+
+        if( number < min ){
+            number = min;
+        }
+
+        var rest = number % 1000;
+
+        if(rest > 0){
+            number = number - rest + 1000;
+            console.log('')
+        }
+
+        jQuery('input.contactsField').val(number);
+
+        console.log('number', number);
+        console.log('min', min);
+        console.log('rest', rest);
+        console.log('typeProcess', typeProcess);
+
+        var l = number / 1000;
+        l = Math.trunc(l);
+
+        console.log('la l', l);
+
+        jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').val( l );
+        jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').click();
+
+
+    });
+
+}
 
 
 jQuery(document).ready(function () {
@@ -715,7 +752,7 @@ jQuery('#checkPro').click();
 
     device = deviceType();
 
-
+    preventContactField();
 
     jQuery('.modePlanSelect').click();
 
