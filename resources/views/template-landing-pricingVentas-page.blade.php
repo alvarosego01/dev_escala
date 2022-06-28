@@ -1,6 +1,6 @@
 
 {{--
-  Template Name: [B] Page - Pricing page
+  Template Name: [B] Page - Pricing page ventas
 --}}
 
 
