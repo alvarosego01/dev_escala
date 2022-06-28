@@ -34,33 +34,50 @@
 
     @php
     $parameters = array(
-     'type' => 'backgroundColor',
-     'classSection' => 'landing_escalaLandings_2022_1',
-     'enableTitle' => false,
-     'titlePrincipal' => null,
-     'subTitlePrincipal' => null,
-     'title' => '
-Sin programar una línea <br class="space">
-de código, <span class="greenBlueColor">¡así de fácil!</span>
-   ',
-   'typeVideo' =>  'localvideo',
-   'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
-  'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
-     'text' => '
-        El creador de landing pages de Escala es intuitivo y fácil <br class="desktopTabletElement">
-        de usar. Elige una de nuestras plantillas, personalízalas <br class="desktopTabletElement">
-        y publícalas en un clic. Dale rienda suelta a tu <br class="desktopTabletElement">
-        creatividad y comienza a generar leads calificados.
-     ',
-     'enableButton' => true,
-     'urlButton' => '#lead-form',
-     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-     'textButton' => 'Prueba Gratis por 10 días',
-     'enableButton2' => true,
-     'urlButton2' => '#lead-form',
-     'typeButton2' => 'secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-     'textButton2' => 'Solicita una DEMO',
-     'side' => 'right',
+      'type' => 'backgroundColor',
+      'classSection' => 'landing_escalaLandings_2022_1',
+      'enableTitle' => false,
+      'titlePrincipal' => null,
+      'subTitlePrincipal' => null,
+      'title' => null,
+      'typeVideo' =>  'localvideo',
+      'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
+      'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
+      'text' => '
+          <span class="greenBlueColor">
+            <strong>
+              "Las landing pages han sido clave para generar <br class="desktopTabletElement">
+              millones de contactos al año en mis empresas.
+            </strong>
+          </span> <br class="desktopTabletElement">
+          Basados en estas prácticas de alta conversión, diseñamos <br class="desktopTabletElement">
+          el Creador de Páginas de Escala, el más fácil de usar”.
+          <br class="space"><br class="space">
+            <span class="byam">
+              <strong class="greenBlueColor">
+                Andrés Moreno
+              </strong>
+              <br class="space">
+              <small>
+                Fundador de Escala y Open English
+              </small>
+            </span>
+            <div class="specialButton">
+              <img src="'. App::setFilePath('/assets/images/illustrations/otto/ottoHomeButton.png') .'" >
+              <a href="#" class=" openPopUpButton popup-general-trial-2022">
+                Solicita tu Prueba Gratis
+              </a>
+            </div>
+      ',
+      'enableButton' => false,
+      'urlButton' => '#lead-form',
+      'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+      'textButton' => 'Prueba Gratis por 10 días',
+      // 'enableButton2' => true,
+      // 'urlButton2' => '#lead-form',
+      // 'typeButton2' => 'secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+      // 'textButton2' => 'Solicita una DEMO',
+      'side' => 'right',
     ) ;
    @endphp
 

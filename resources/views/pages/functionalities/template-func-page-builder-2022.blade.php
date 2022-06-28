@@ -38,18 +38,32 @@
      'classSection' => 'funcPageBuilder_2022_1 func',
      'description' => '
      <span class="greenBlueColor">
-       <strong>
-         "En las landing pages de Open English generamos más <br class="desktopTabletElement">
-          de 1 millón de contactos al año.
-       </strong>
-     </span> Así acumulamos aprendizajes <br class="desktopTabletElement">
-      para optimizar nuestras páginas y potenciar nuestras ventas. <br class="desktopTabletElement">
-      Basados en una década de experiencia, creamos el Page <br class="desktopTabletElement">
-      Builder de Escala, el más robusto del mercado”.
+            <strong>
+              "Las landing pages han sido clave para generar <br class="desktopTabletElement">
+              millones de contactos al año en mis empresas.
+            </strong>
+          </span> <br class="desktopTabletElement">
+          Basados en estas prácticas de alta conversión, diseñamos <br class="desktopTabletElement">
+          el Creador de Páginas de Escala, el más fácil de usar”.
+          <br class="space"><br class="space">
+            <span class="byam">
+              <strong class="greenBlueColor">
+                Andrés Moreno
+              </strong>
+              <br class="space">
+              <small>
+                Fundador de Escala y Open English
+              </small>
+            </span>
+            <div class="specialButton">
+              <img src="'. App::setFilePath('/assets/images/illustrations/otto/ottoHomeButton.png') .'" >
+              <a href="#" class=" openPopUpButton popup-general-trial-2022">
+                Solicita tu Prueba Gratis
+              </a>
+            </div>
      ',
-     'byAm' => '<span class="greenBlueColor">Andrés Moreno</span>
-     ',
-     'team' => 'Fundador de Escala y Open English',
+     'byAm' => null,
+     'team' => null,
      'image' => App::setFilePath('/assets/images/person/am/andres_landing_page.png'),
     ) ;
    @endphp

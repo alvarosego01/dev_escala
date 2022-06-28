@@ -134,12 +134,12 @@ add_action('wp_enqueue_scripts', function () {
         }
         //  SUB PAGES
         // ---Pricing page
-        if ( is_page_template("views/template-landing-pricing-page.blade.php") ) {
+        if ( is_page_template("views/template-subPage-pricing-page.blade.php") ) {
             wp_enqueue_style('pricingPage.css', asset_path('styles/pages/subPages/pricingPage.css'), false, THEME_VERSION);
             wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage.js'), ['jquery'], THEME_VERSION, true);
         }
         // ---Pricing page - Ventas
-        if ( is_page_template("views/template-landing-pricingVentas-page.blade.php") ) {
+        if ( is_page_template("views/template-subPage-pricingVentas-page.blade.php") ) {
             wp_enqueue_style('pricingPageVentas.css', asset_path('styles/pages/subPages/pricingPage_ventas.css'), false, THEME_VERSION);
             wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage_ventas.js'), ['jquery'], THEME_VERSION, true);
         }
