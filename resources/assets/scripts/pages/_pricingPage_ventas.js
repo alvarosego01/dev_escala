@@ -551,7 +551,7 @@ function discountByPlanCard(type, element) {
 
 
                 jQuery('.price').css({
-                    'margin-bottom': '90' + 'px'
+                    'margin-bottom': '60' + 'px'
                 });
 
 
