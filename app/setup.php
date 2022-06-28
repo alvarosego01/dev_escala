@@ -119,12 +119,6 @@ add_action('wp_enqueue_scripts', function () {
 
         }
 
-        if ( is_page_template("views/template-landing-pricing-page.blade.php") ) {
-
-            wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage.js'), ['jquery'], THEME_VERSION, true);
-
-        }
-
         // TEMPLATE STYLES DIRECT
         // -------------------------------------- //
         //  LANDINGS
@@ -138,7 +132,19 @@ add_action('wp_enqueue_scripts', function () {
         if ( is_page_template("views/template-func-page-builder-2022.blade.php") ) {
             wp_enqueue_style('func_pageBuilder2022.css', asset_path('styles/pages/func/2022/pageBuilder_2022.css'), false, THEME_VERSION);
         }
+        //  SUB PAGES
+        // ---Pricing page
+        if ( is_page_template("views/template-landing-pricing-page.blade.php") ) {
+            wp_enqueue_style('pricingPage.css', asset_path('styles/pages/subPages/pricingPage.css'), false, THEME_VERSION);
+            wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage.js'), ['jquery'], THEME_VERSION, true);
+        }
+        // ---Pricing page - Ventas
+        if ( is_page_template("views/template-landing-pricingVentas-page.blade.php") ) {
+            wp_enqueue_style('pricingPageVentas.css', asset_path('styles/pages/subPages/pricingPage_ventas.css'), false, THEME_VERSION);
+            wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage_ventas.js'), ['jquery'], THEME_VERSION, true);
+        }
         // -------------------------------------- //
+
         // jvascripts
         wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], THEME_VERSION, true);
 
