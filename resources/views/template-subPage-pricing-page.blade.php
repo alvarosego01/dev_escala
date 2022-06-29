@@ -4,20 +4,18 @@
 --}}
 
 
-
-
 @extends('layouts.app')
 
 @section('content')
 
-<div id="landing-pricing-page-bootstrap">
+<div id="pricing-page-bootstrap">
 
   <div class="sections">
 
 
 @php
 $parameters = array(
- 'classSection' => 'landingPricingPage0',
+ 'classSection' => 'pricingPage0',
  'title' => '
  <span >
   Crece con Escala,</span> <br class="space">
@@ -33,7 +31,7 @@ $parameters = array(
 @endheader_small_t2
 
 {{--
-<section class="customSection sectionParent landingPricingPage1">
+<section class="customSection sectionParent pricingPage1">
 
   <div class="section-row">
 
@@ -62,7 +60,7 @@ $parameters = array(
 
 @php
 $parameters = array(
- 'classSection' => 'landingPricingPage2',
+ 'classSection' => 'pricingPage2',
  'titlePrincipal' => '<span class="blueColor">
   Conoce los beneficios
   <br class="mobileSmallElement">
@@ -78,7 +76,7 @@ $parameters = array(
 @endpricing_card_T1
 
 
-<section class="customSection sectionParent landingPricingPage3_2022 desktopElement">
+<section class="customSection sectionParent pricingPage3_2022 desktopElement">
 
   <div class="section-row">
 
@@ -307,7 +305,7 @@ $parameters = array(
 
 </section>
 
-{{-- <section class="customSection sectionParent landingPricingPage3">
+{{-- <section class="customSection sectionParent pricingPage3">
 
   <div class="section-row">
 
@@ -488,7 +486,7 @@ $parameters = array(
 
 @php
  $parameters = array(
-  'classSection' => 'landingPricingPage4',
+  'classSection' => 'pricingPage4',
  ) ;
 @endphp
 
@@ -497,7 +495,7 @@ $parameters = array(
 @endpricing_calculator_T1
 
 
-<section class="customSection sectionParent landingPricingPage5">
+<section class="customSection sectionParent pricingPage5">
 
   <div class="section-row">
 
@@ -568,7 +566,7 @@ $parameters = array(
 @php
  $parameters = array(
   'type' => 'backgroundColor',
-  'classSection' => 'landingPricingPage6',
+  'classSection' => 'pricingPage6',
   'backgroundImageFile' => null,
   'enableTitle' => false,
   'img' =>  App::setFilePath('/assets/images/person/am/andres_moreno_email_marketing.png'),

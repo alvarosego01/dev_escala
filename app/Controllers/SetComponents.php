@@ -122,6 +122,8 @@ class SetComponents extends Controller
         return array(
             'components.contain.pricing.component-pricing-calculator-T1' => 'pricing_calculator_T1',
             'components.contain.pricing.component-pricing-price-card-T1' => 'pricing_card_T1',
+            'components.contain.pricing.component-pricing-ventas-calculator-T1' => 'pricing_ventas_calculator_T1',
+            'components.contain.pricing.component-pricing-ventas-price-card-T1' => 'pricing_ventas_card_T1',
             'components.contain.am.component-info-am-T1' => 'contain_am_T1',
             'components.contain.info.component-info-aio-5steps' => 'contain_aio5',
             'components.contain.info.component-info-4steps-loading' => 'contain_4steps_loading',
@@ -243,7 +245,6 @@ class SetComponents extends Controller
                 "views/template-landing-landing-pages-expertos-leads-calificados-2022.blade.php",
                 "views/template-landing-email-mk-2022.blade.php",
                 "views/template-landing-email-mk-expertos-escalar-exito-2022.blade.php",
-                "views/template-landing-pricing-page.blade.php",
                 "views/template-landing-incredible-demo.blade.php",
                 "views/template-OLD_landing-whatsapp.blade.php",
                 "views/template-landing-correos-masivos.blade.php",
@@ -270,7 +271,9 @@ class SetComponents extends Controller
         if ($type == 'OLD_Pages') {
             return array(
 
+                "views/template-OLD_landing-whatsapp.blade.php",
                 "views/template-OLD_landingPagesIncAM_2.blade.php",
+                "views/template-OLD_landing-pages-sin-programar.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles-2.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles.blade.php",
 
@@ -357,6 +360,7 @@ class SetComponents extends Controller
                 "views/template-landing-incredible-demo.blade.php",
                 "views/template-OLD_landing-whatsapp.blade.php",
                 "views/template-OLD_landingPagesIncAM_2.blade.php",
+                "views/template-OLD_landing-pages-sin-programar.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles-2.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles.blade.php",
                 "views/template-landing-correos-masivos.blade.php",
@@ -379,6 +383,7 @@ class SetComponents extends Controller
                 "views/template-escala-subpages-marketing.blade.php",
                 "views/template-subPage-about-us.blade.php",
                 "views/template-func-page-builder.blade.php",
+                "views/template-func-page-builder-2022.blade.php",
                 "views/template-func-analiticas.blade.php",
                 "views/template-func-automatization.blade.php",
                 "views/template-func-automatization-2.blade.php",
@@ -400,7 +405,8 @@ class SetComponents extends Controller
                 "views/template-zoom-demo-home-landing.blade.php",
                 "views/template-zoom-demo-home-step1.blade.php",
                 "views/template-zoom-demo-home-step2.blade.php",
-                "views/template-landing-pricing-page.blade.php",
+                "views/template-subPage-pricing-page.blade.php",
+                "views/template-subPage-pricingVentas-page.blade.php",
                 "views/template-landing-servicios-salud.blade.php",
                 "views/template-landing-servicios-inmobiliarias.blade.php",
                 "views/template-landing-servicios-coaching.blade.php",

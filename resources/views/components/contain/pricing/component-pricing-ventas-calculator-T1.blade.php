@@ -379,6 +379,11 @@
 
                                         </div>
 
+                                        <span class="discountExtra">
+                                            <span class="discounter">
+                                                USD 360 / anual
+                                            </span>
+                                        </span>
 
 
                                         <div class="priceFinalCalc">
