@@ -287,16 +287,16 @@ function calculateRangeValue(data) {
 
     range = data._rangeContacts[typeProcess];
 
+    setAllField(range, '.rangeContacts');
+
     var aux = jQuery('.rangeContacts').attr('min_aux');
     aux = parseInt(aux);
     range = parseInt(range);
 
-    console.log('aux min', aux);
     if(range <= 95){
         range = range + aux;
     }
 
-    console.log('range', range);
 
     if (range >= 0 && range <= 25) {
 
@@ -328,8 +328,6 @@ function revealMobileView(type = null, plan) {
 
     if (type != null) {
 
-        console.log('type', type);
-        console.log('plan', plan);
 
         if (type == 'open') {
 
@@ -347,7 +345,6 @@ function revealMobileView(type = null, plan) {
 
                 // discountByPlanCard('plan1', jQuery('.modePlanSelect')[0] );
 
-                // console.log('cambiado a true');
 
                 jQuery('.modePlanSelect')[0].click();
 
@@ -428,8 +425,6 @@ function calculateFinal(data) {
     // var costFinal = 332.01;
 
     costFinal = trimDecimals(costFinal);
-
-
 
     jQuery('#finalPriceCalc').text('USD ' + costFinal + ' /mes');
 
@@ -680,9 +675,6 @@ function setConfigModeSelect(element) {
     range_value = parseInt(range_value);
     input_value = parseInt(input_value);
 
-    console.log('range_value', range_value);
-    console.log('input_value', input_value);
-
     if (l == 'starter') {
 
         jQuery('.rangeContacts').attr('min_aux', '0');
@@ -702,17 +694,21 @@ function setConfigModeSelect(element) {
             input_value > 0
         ) {
 
-            jQuery('.rangeContacts').val(range_value);
-            jQuery('.contactsField').val(input_value);
+            setAllField(range_value, '.rangeContacts');
+            setAllField(input_value, '.contactsField');
 
         } else {
-            console.log('setea default 1');
-            jQuery('.rangeContacts').val('0');
-            jQuery('.contactsField').val('1000');
+            // jQuery('.rangeContacts').val('0');
+            // jQuery('.contactsField').val('1000');
+
+            setAllField(0, '.rangeContacts');
+            setAllField(1000, '.contactsField');
 
         }
 
-        jQuery('input.rangeContacts').click();
+
+
+        clickAllField('.rangeContacts');
 
     }
 
@@ -731,22 +727,24 @@ function setConfigModeSelect(element) {
             'display': 'flex'
         });
 
-
         if (range_value > 0 &&
             input_value >= 5000
         ) {
 
-            jQuery('.rangeContacts').val(range_value);
-            jQuery('.contactsField').val(input_value);
+            setAllField(range_value, '.rangeContacts');
+            setAllField(input_value, '.contactsField');
 
         } else {
-            console.log('setea default 2');
-            jQuery('.rangeContacts').val('0');
-            jQuery('.contactsField').val('5000');
+
+            setAllField(0, '.rangeContacts');
+            setAllField(5000, '.contactsField');
+
 
         }
 
-        jQuery('input.rangeContacts').click();
+
+
+        clickAllField('.rangeContacts');
 
     }
 
@@ -757,7 +755,8 @@ function setConfigModeSelect(element) {
 
 function preventContactField() {
 
-    jQuery('input.contactsField').on('click change', function () {
+    jQuery('input.contactsField').on('change click', function () {
+
 
         var number = jQuery(this).val();
         var min = jQuery(this).attr('min');
@@ -765,8 +764,24 @@ function preventContactField() {
         number = parseInt(number);
         min = parseInt(min);
 
-        if (number < min) {
+
+        if ( number < min || Number.isNaN(number) ) {
             number = min;
+            jQuery('.rangeContacts').val(0);
+
+            clickAllField('.rangeContacts');
+
+            var rest = number % 1000;
+
+            if (rest > 0) {
+                number = number - rest + 1000;
+            }
+
+            // jQuery('input.contactsField').val(number);
+
+            setAllField(number, 'input.contactsField');
+
+            return;
         }
 
         var rest = number % 1000;
@@ -775,17 +790,75 @@ function preventContactField() {
             number = number - rest + 1000;
         }
 
-        jQuery('input.contactsField').val(number);
-
+        // jQuery('input.contactsField').val(number);
+        setAllField(number, 'input.contactsField');
 
         var l = number / 1000;
         l = Math.trunc(l);
 
-        jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').val(l);
-        jQuery('.rangeContacts[typeProcess="' + typeProcess + '"]').click();
+        if(min == 5000){
+            l = l - 5;
+        }
+
+
+
+        jQuery('.rangeContacts').val(l);
+
+        clickAllField('.rangeContacts');
 
 
     });
+
+    jQuery('input.contactsField').on('keydown', function (ele) {
+
+        if(event.key === 'Enter') {
+            jQuery(this).click();
+        }else{
+            return;
+        }
+
+
+    });
+
+}
+
+function setAllField(value, field){
+
+    if( field != null ){
+
+        var v = jQuery(field);
+
+            if( v.length > 0 ){
+
+                jQuery.each( v, function ( indexInArray, valueOfElement ) {
+
+                    jQuery(valueOfElement).val(value);
+
+                });
+
+            }
+
+
+    }
+
+}
+function clickAllField(field){
+
+    if( field != null ){
+
+        var v = jQuery(field);
+
+            if( v.length > 0 ){
+
+                jQuery.each( v, function ( indexInArray, valueOfElement ) {
+
+                    jQuery(valueOfElement).click();
+
+                });
+
+            }
+
+    }
 
 }
 
@@ -847,6 +920,8 @@ jQuery(document).ready(function () {
         calculate = _serializeFormToObject(e.currentTarget)
 
         if (jQuery(e.target).is('.rangeContacts')) {
+
+            console.log('etarget', e.target);
 
             calculate._contactsField[typeProcess] = calculateRangeValue(calculate);
 
