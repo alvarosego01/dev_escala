@@ -784,6 +784,85 @@
 
 
 #func-PageBuilder-2022-bootstrap .customSection.sectionParent.funcPageBuilder_2022_4
+    padding: 50px 0
+    background-color: white
+    @include responsivo(telefonoTable)
+        padding: 25px 0
+    .section-row
+        border-radius: 18px
+        @include responsivo(telefonoTable)
+            width: 95%
+            padding: 0
+        @include responsivo(pcMedio)
+            width: 90%
+            padding: 0
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1125px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1250px!important
+        .innerSectionElement1
+            h2.primaryTitle
+                font-family: Nunito
+                font-style: normal
+                font-weight: bold
+                font-size: 35px
+                line-height: 1
+                text-align: center
+                letter-spacing: -1px
+                @include responsivo(telefonoTable)
+                    font-size: 25px
+                    margin-bottom: 0
+                @include responsivo(pcMedio)
+                    font-size: 25px
+        .innerSectionElement2
+            .imagesSection
+                display: flex
+                @include responsivo(telefonoTable)
+                    flex-direction: column
+                    justify-content: center
+                    align-content: center
+                    align-items: center
+                @include responsivo(pcMedio)
+                    flex-direction: column
+                    justify-content: center
+                    align-content: center
+                    align-items: center
+                @include responsivo(general)
+                    flex-direction: row
+                    justify-content: space-evenly
+                    align-content: center
+                    align-items: center
+                @include responsivo(resto)
+                    flex-direction: row
+                    justify-content: space-evenly
+                    align-content: center
+                    align-items: center
+                .element
+                    @include responsivo(telefonoTable)
+                        margin-bottom: 15px
+                        display: flex
+                    @include responsivo(pcMedio)
+                        margin-bottom: 15px
+                        display: flex
+                    img
+                        height: 225px
+                        @include responsivo(telefonoTable)
+                            width: 90%
+                            height: auto
+                            margin: 0 auto
+                            display: block
+                        @include responsivo(pcMedio)
+                            margin: 0 auto
+                            display: block
+
+                        @include responsivo(general)
+                            height: 200px
+                        @include responsivo(smallPcTablet)
+                            height: 190px
+
+#func-PageBuilder-2022-bootstrap .customSection.sectionParent.funcPageBuilder_2022_5
     background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
     padding-top: 50px
     padding-bottom: 50px
