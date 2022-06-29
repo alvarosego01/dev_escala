@@ -563,6 +563,9 @@ function discountByPlanCard(type, element) {
 
                 return;
             }
+
+            setEnableElements('pro');
+
         }
 
         if (element.checked == false) {
@@ -604,6 +607,8 @@ function discountByPlanCard(type, element) {
 
                 return;
             }
+
+            setEnableElements('starter');
 
         }
 
@@ -857,6 +862,27 @@ function clickAllField(field){
                 });
 
             }
+
+    }
+
+}
+
+
+function setEnableElements(type){
+
+    jQuery('.anualElement').removeClass('aux_hidden');
+    jQuery('.monthElement').removeClass('aux_hidden');
+
+    if(type == 'pro'){
+
+        jQuery('.anualElement').addClass('aux_visible');
+        jQuery('.monthElement').addClass('aux_hidden');
+
+    }
+    if(type == 'starter'){
+
+        jQuery('.monthElement').addClass('aux_visible');
+        jQuery('.anualElement').addClass('aux_hidden');
 
     }
 
