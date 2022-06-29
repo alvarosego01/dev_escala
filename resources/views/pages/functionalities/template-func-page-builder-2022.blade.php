@@ -134,7 +134,7 @@
                       ],
                       [
                         'title' => 'Automatiza tus flujos de comunicación',
-                        'text' => 'Ahorrando tiempo y recursos'
+                        'text' => 'ahorrando tiempo y recursos'
                       ],
                       [
                         'title' => 'Intégralas con Facebook ads e Instagram',
@@ -147,11 +147,11 @@
                       ],
                       [
                         'title' => 'Agrega el botón de WhatsApp',
-                        'text' => 'Y comunícate en tiempo real con tus leads '
+                        'text' => 'y comunícate en tiempo real con tus leads '
                       ],
                       [
                         'title' => 'Analiza y optimiza tu página',
-                        'text' => 'Con dashboards que te dan métricas en tiempo real'
+                        'text' => 'con dashboards que te dan métricas en tiempo real'
                       ],
                       [
                         'title' => 'Convierte visitantes en leads',
@@ -211,7 +211,7 @@
         'text' => '
             Con el Plan PRO de Escala, nuestros especialistas en marketing <br class="desktopTabletElement">
             digital y ventas te guiarán paso a paso en la construcción de tu <br class="desktopTabletElement">
-            landing page. Sácale máximo provecho a nuestro creador de páginas.
+            landing page. Sácale máximo provecho a nuestro Creador de Páginas.
         ',
         'enableButton' => false,
         'urlButton' => '#lead-form',
@@ -293,11 +293,51 @@ $parameters = [
 @contain_5_cards_T1( $parameters )
 @endcontain_5_cards_T1
 
+<section class="customSection sectionParent funcPageBuilder_2022_4">
+
+  <div class="section-row">
+
+        <section class="innerSectionElement1">
+
+          <h2 class="primaryTitle blackColor">
+            Lo que dicen nuestros clientes <br class="space">
+            <span class="greenBlueColor">sobre las landing pages de Escala</span>
+          </h2>
+
+        </section>
+
+        <section class="innerSectionElement2">
+
+          <div class="imagesSection">
+
+            <div class="element">
+
+              <img src="{!! App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot_escalaLanding-1.jpeg') !!}" alt="">
+
+          </div>
+          <div class="element">
+
+              <img src="{!! App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot_escalaLanding-2.jpeg') !!}" alt="">
+
+          </div>
+          <div class="element">
+
+              <img src="{!! App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot_escalaLanding-3.jpeg') !!}" alt="">
+
+          </div>
+
+          </div>
+
+        </section>
+
+  </div>
+
+</section>
 
 @php
 $parameters = [
     'type' => 'backgroundColor',
-    'classSection' => 'funcPageBuilder_2022_4',
+    'classSection' => 'funcPageBuilder_2022_5',
     'backgroundImageFile' => null,
     'enableTitle' => false,
     'img' => App::setFilePath('/assets/images/illustrations/others/landing_pages_escala_sin_programar.png'),
@@ -307,9 +347,9 @@ $parameters = [
     ',
     'text' => null,
     'enableButton' => true,
-    'urlButton' => '#lead-form',
-    'textButton' => 'Hablar con un asesor',
-    'typeButton' => 'primaryButton',
+    'urlButton' => '#',
+    'textButton' => 'Prueba gratis',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
     'side' => 'left',
 ];
 @endphp
