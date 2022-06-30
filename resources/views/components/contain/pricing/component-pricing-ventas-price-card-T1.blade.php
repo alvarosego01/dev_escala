@@ -58,7 +58,11 @@ $items = [
         'title' => 'Plan <span class="orangeColor">Starter</span>',
         'price' => 'A partir de <br class="space">
 
-        <span class="discountExtra">
+        <span class="discountExtra monthElement aux_hidden">
+
+        </span>
+
+        <span class="discountExtra anualElement aux_visible">
             <span class="discounter">
                 USD 360 / anual
             </span>
@@ -76,7 +80,10 @@ $items = [
             <span class="usd">
                 USD
             </span>
-            <span class="ahorro discount">
+            <span class="ahorro discount monthElement aux_hidden">
+                Pago anual USD 252
+            </span>
+            <span class="ahorro discount anualElement aux_visible">
                 Ahorras USD 108 al año
             </span>
         </span>',
@@ -193,7 +200,15 @@ $items = [
         'recomend' => true,
         'title' => 'Plan <span class="greenBlueColor">Pro</span>',
         'price' => 'A partir de <br class="space">
-        <span class="discountExtra">
+
+        <span class="discountExtra monthElement aux_hidden">
+            <span class="discounter">
+                USD 135 / mensual
+            </span>
+        </span>
+
+
+        <span class="discountExtra anualElement aux_visible">
             <span class="discounter">
                 USD 1620 / anual
             </span>
@@ -201,7 +216,7 @@ $items = [
         <span class="cost">
             <span
             style="display: none"
-            class="numerCost">USD 135</span>
+            class="numerCost">USD 94.50</span>
             <span
             class="discountCost" style="display: flex">
             <span>USD 1134</span>
@@ -209,9 +224,13 @@ $items = [
 
             </span>
 
-            <span class="ahorro discount">
-               Ahorras USD 486 al año
+            <span class="ahorro discount monthElement aux_hidden">
+                Ahorras USD 40.50 al mes
             </span>
+            <span class="ahorro discount anualElement aux_visible">
+                Ahorras USD 486 al año
+            </span>
+
         </span>
 
         ',
@@ -542,7 +561,7 @@ $items = [
 
                                                     {{-- style="display: none;"  --}}
                                                     <div
-                                                    typeplan="{{ $item['name'] }}"
+
                                                         class="discountData">
                                                         {!! $item['discountTest'] !!}
                                                     </div>

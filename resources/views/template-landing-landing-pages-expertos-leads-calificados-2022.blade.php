@@ -203,7 +203,6 @@
               Nuestros clientes te dicen <br class="desktopTabletElement"> qué tan fácil es usar Escala
             </h2>
 
-
           </section>
 
           <section class="innerSectionElement2">
@@ -212,17 +211,17 @@
 
                 <div class="element">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust1.png') !!}" alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot_escalaLanding-1.jpeg') !!}" alt="">
 
                 </div>
                 <div class="element">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust2.png') !!}" alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot_escalaLanding-2.jpeg') !!}" alt="">
 
                 </div>
                 <div class="element">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust3.png') !!}" alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot_escalaLanding-3.jpeg') !!}" alt="">
 
                 </div>
 
@@ -232,9 +231,7 @@
 
     </div>
 
-
-  </section>
-
+</section>
 
 
 

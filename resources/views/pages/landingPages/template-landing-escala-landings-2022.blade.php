@@ -128,7 +128,7 @@
                       ],
                       [
                         'title' => 'Agrega el botón de WhatsApp',
-                        'text' => 'Y comunícate en tiempo real con tus leads'
+                        'text' => 'y comunícate en tiempo real con tus leads'
                       ],
                       [
                         'title' => 'Guarda los datos en tu CRM',
@@ -136,7 +136,7 @@
                       ],
                       [
                         'title' => '100% responsive',
-                        'text' => 'Perfectas en todos los dispositivos'
+                        'text' => 'perfectas en todos los dispositivos'
                       ],
                       [
                         'title' => 'Comunícate con Email Marketing',
@@ -144,11 +144,11 @@
                       ],
                       [
                         'title' => 'Analiza y optimiza tu página',
-                        'text' => 'Con dashboards que te dan métricas en tiempo real'
+                        'text' => 'con dashboards que te dan métricas en tiempo real'
                       ],
                       [
                         'title' => 'Automatiza tus flujos de comunicación',
-                        'text' => 'Ahorrando tiempo y recursos'
+                        'text' => 'ahorrando tiempo y recursos'
                       ]
                     );
 
@@ -203,7 +203,7 @@
         'text' => '
             Con el Plan PRO de Escala, nuestros especialistas en marketing <br class="desktopTabletElement">
             digital y ventas te guiarán paso a paso en la construcción de tu <br class="desktopTabletElement">
-            landing page. Sácale máximo provecho a nuestro creador de páginas.
+            landing page. Sácale máximo provecho a nuestro Creador de Páginas.
         ',
         'enableButton' => false,
         'urlButton' => '#lead-form',

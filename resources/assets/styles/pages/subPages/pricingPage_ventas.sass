@@ -413,7 +413,9 @@
                                             position: relative
                                             width: 100%
                                             padding: 5px
+                                            min-height: 37.5px
                                             .discounter
+                                                position: relative
                                                 font-family: Nunito
                                                 font-style: normal
                                                 font-weight: 400
@@ -422,18 +424,18 @@
                                                 text-align: center
                                                 letter-spacing: -1px
                                                 color: #73676D
-                                            &::after
-                                                content: ''
-                                                width: 60%
-                                                border-bottom: 1px solid $colorOrange
-                                                position: absolute
-                                                height: 1px
-                                                display: block
-                                                margin: auto
-                                                top: 0
-                                                bottom: 0
-                                                left: 0
-                                                right: 0
+                                                &::after
+                                                    content: ''
+                                                    width: 110%
+                                                    border-bottom: 1px solid $colorOrange
+                                                    position: absolute
+                                                    height: 1px
+                                                    display: block
+                                                    margin: auto
+                                                    top: 0
+                                                    bottom: 0
+                                                    left: -5%
+                                                    right: 0
 
 
                                         span.cost
