@@ -75,9 +75,6 @@
 
     <div class="section-row">
 
-
-
-
           <section class="innerSectionElement">
 
             <div class=" row groupElements">
@@ -138,7 +135,7 @@
                       ],
                       [
                         'title' => 'Intégralas con Facebook ads e Instagram',
-                        'text' => 'y atrae miles de leads a tus landing pages'
+                        'text' => 'y atrae miles de leads a tus <br class="space"> landing pages'
                       ],
                       [
                         'title' => 'Las más veloces del mercado',
