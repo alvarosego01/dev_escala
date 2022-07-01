@@ -490,9 +490,8 @@ $parameters = array(
  ) ;
 @endphp
 
-@pricing_calculator_T1( $parameters )
-
-@endpricing_calculator_T1
+@pricing_ventas_calculator_T1( $parameters )
+@endpricing_ventas_calculator_T1
 
 
 <section class="customSection sectionParent pricingPage_ventas_5">
