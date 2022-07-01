@@ -213,6 +213,7 @@ $items = [
                 USD 1620 / anual
             </span>
         </span>
+
         <span class="cost">
             <span
             style="display: none"

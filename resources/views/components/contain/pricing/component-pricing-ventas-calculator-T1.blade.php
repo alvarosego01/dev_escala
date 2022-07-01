@@ -379,36 +379,45 @@
 
                                         </div>
 
-                                        <span class="discountExtra">
+                                        <div class="showInfosection">
+
+                                        <span class="discountExtra ">
                                             <span class="discounter">
-                                                USD 360 / anual
+                                                USD 1620 / anual
                                             </span>
                                         </span>
-
 
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
-                                                USD 94.50 /mes
+                                                USD 1134
                                             </span>
 
                                         </div>
 
-                                        <div class="offert">
+                                        <span class="ahorro discount ">
+                                            Ahorras USD 486 al año
+                                        </span>
 
-                                            <p class="primaryText grayColorTexts5">
+                                        <div class="implementacion">
 
-                                                <span id="priceDotted">
-                                                    USD 135 /mes
-                                                </span> <br class="space">
-                                                <strong id="priceSaves">
-                                                    Ahorras USD 40.50
-                                                </strong>
-
-                                            </p>
-
+                                            <p class="primaryText">
+                                                <span class="t1">
+                                                    Implementación personalizada: <br class="space">
+                                                </span>
+                                                <span class="t2">
+                                                    <strong class="priceSaves">
+                                                        Pago único 450 USD
+                                                    </strong>
+                                                    <button class=" hoverInEffect openPopUpButton popup-pricing-implement">
+                                                        <i class="la la-question-circle"></i>
+                                                    </button>
+                                                </span>
+                                        </p>
 
                                         </div>
+                                        </div>
+
                                         <div class="finalButtons">
 
                                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
