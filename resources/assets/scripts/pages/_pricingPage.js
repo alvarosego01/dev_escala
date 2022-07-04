@@ -817,11 +817,21 @@ function preventContactField() {
     jQuery('input.contactsField').on('keydown', function (ele) {
 
         if(event.key === 'Enter') {
+            jQuery('#formCalcGeneral').trigger('_action');
             jQuery(this).click();
         }else{
             return;
         }
 
+    });
+    jQuery('input.userAccess').on('keydown', function (ele) {
+
+        if(event.key === 'Enter') {
+            jQuery(this).click();
+            jQuery('#formCalcGeneral').trigger('_action');
+        }else{
+            return;
+        }
 
     });
 
@@ -934,7 +944,8 @@ jQuery(document).ready(function () {
     });
 
 
-    jQuery("form#formCalcGeneral").change(async function (e) {
+    jQuery("form#formCalcGeneral").on('change _action', async function (e) {
+
         e.preventDefault();
 
         if (jQuery(e.target).attr('typeProcess')) {

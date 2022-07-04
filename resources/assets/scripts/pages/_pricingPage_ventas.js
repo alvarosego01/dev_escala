@@ -979,8 +979,6 @@ jQuery(document).ready(function () {
 
         e.preventDefault();
 
-
-
         if (jQuery(e.target).attr('typeProcess')) {
 
             typeProcess = jQuery(e.target).attr('typeProcess');
