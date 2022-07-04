@@ -179,7 +179,7 @@ $parameters = [
               <div class="containElements">
 
                 <div class="containerImage">
-                  <img alt="Landing Escala Landings" src="{!! App::setFilePath('/assets/images/illustrations/others/builder-pantallas 1.png') !!}" alt="" loading="lazy">
+                  <img alt="Landing Escala Landings" src="{!! App::setFilePath('/assets/images/illustrations/others/CRM_home.png') !!}" alt="" loading="lazy">
                 </div>
 
               </div>
@@ -791,8 +791,7 @@ $parameters = [
 @endreviews_sliders_T1
 
 
-
-    @php
+    {{-- @php
     $parameters = [
         'type' => 'backgroundColor',
         'classSection' => 'homeSection7',
@@ -872,10 +871,10 @@ $parameters = [
 
         ],
     ];
-    @endphp
+    @endphp --}}
 
-    @contain_multiple_cards_T2( $parameters )
-    @endcontain_multiple_cards_T2
+    {{-- @contain_multiple_cards_T2( $parameters )
+    @endcontain_multiple_cards_T2 --}}
 
     <section class="customSection sectionParent homeSection8">
 
