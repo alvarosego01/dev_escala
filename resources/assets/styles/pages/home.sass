@@ -972,6 +972,7 @@
                     margin: 0
                 .image
                     .containerImage
+                        padding-bottom: 0
                         img
                             height: 150px
                             @include responsivo(telefonoTable)
@@ -1078,20 +1079,20 @@
                                 @include responsivo(pcMedio)
                                     height: 300px
                                 @include responsivo(general)
-                                    height: 500px
-                                @include responsivo(smallPcTablet)
                                     height: 475px
+                                @include responsivo(smallPcTablet)
+                                    height: 425px
                                 @include responsivo(resto)
-                                    height: 525px
+                                    height: 500px
 
                 .info
                     display: flex
                     flex-direction: column
                     @include responsivo(general)
-                        padding-left: 75px
+                        padding-left: 50px
                         padding-top: 0
                     @include responsivo(resto)
-                        padding-left: 75px
+                        padding-left: 50px
                         padding-top: 0
                     .containElements
                         margin: auto 0
@@ -1137,7 +1138,7 @@
                                         @include responsivo(general)
                                             font-size: 18px
                                         @include responsivo(smallPcTablet)
-                                            font-size: 17px
+                                            font-size: 16px
                                     p
                                         text-align: left
                                         font-family: Nunito
