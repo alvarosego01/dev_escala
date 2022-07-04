@@ -181,6 +181,31 @@
                                 margin-bottom: 20px!important
                             @include responsivo(pcMedio)
                                 margin-bottom: 20px!important
+                        #plan1.elementParent
+                            .middle
+                                @include responsivo(telefonoTable)
+                                    margin: 25px 0
+                                @include responsivo(pcMedio)
+                                    margin: 25px 0
+                                .innerMiddle
+                                    .extraPriceInfo
+                                        @include responsivo(telefonoTable)
+                                            display: none
+                                        @include responsivo(pcMedio)
+                                            display: none
+                        #plan2.elementParent
+                            .middle
+                                @include responsivo(telefonoTable)
+                                    margin: 25px 0
+                                @include responsivo(pcMedio)
+                                    margin: 25px 0
+                                .innerMiddle
+                                    .extraPriceInfo
+                                        .discountData
+                                            @include responsivo(telefonoTable)
+                                                margin-bottom: 0
+                                            @include responsivo(pcMedio)
+                                                margin-bottom: 0
                         #plan3.elementParent
                             .middle
                                 @include responsivo(telefonoTable)
