@@ -88,6 +88,17 @@ $items = [
             </span>
         </span>',
         'pricePreviewMobie' => 'A partir de <br class="space">
+
+            <span class="discountExtra monthElement aux_hidden">
+
+            </span>
+
+            <span class="discountExtra anualElement aux_visible">
+                <span class="discounter">
+                    USD 360 / anual
+                </span>
+            </span>
+
         <span class="cost">
 
             <span
@@ -213,6 +224,7 @@ $items = [
                 USD 1620 / anual
             </span>
         </span>
+
         <span class="cost">
             <span
             style="display: none"
@@ -235,6 +247,20 @@ $items = [
 
         ',
         'pricePreviewMobie' => 'A partir de <br class="space">
+
+        <span class="discountExtra monthElement aux_hidden">
+            <span class="discounter">
+                USD 135 / mensual
+            </span>
+        </span>
+
+
+        <span class="discountExtra anualElement aux_visible">
+            <span class="discounter">
+                USD 1620 / anual
+            </span>
+        </span>
+
         <span class="cost">
 
             <span
@@ -749,37 +775,6 @@ $items = [
 
                                             @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
 
-                                                @if (isset($item['discountTest']) && $item['discountTest'] != null)
-
-                                                    <div class="extraPriceInfo">
-
-                                                        {{-- style="display: none;"  --}}
-                                                        <div
-                                                        typeplan="{{ $item['name'] }}"
-                                                            class="discountData">
-                                                            {!! $item['discountTest'] !!}
-                                                        </div>
-                                                    </div>
-
-                                                @endif
-
-                                                {{-- <div class="selectorSwitch">
-                                                    <small>
-                                                        Mensual
-                                                    </small>
-                                                    <label class="switchCustom">
-                                                        <input
-                                                        checked
-                                                            class="modePlanSelect"
-                                                            onclick="discountByPlanCard('{{ $item['name'] }}', this)"
-                                                            value="1" type="checkbox" />
-                                                        <div></div>
-                                                    </label>
-                                                    <small>
-                                                        Anual
-                                                    </small>
-                                                </div> --}}
-
                                                 <div class="selectorSlizeButton">
 
                                                     <input slizeRadioButton type="checkbox" class="pill-button-input" checked="checked" value="1" onclick="discountByPlanCard('{{ $item['name'] }}', this)" >
@@ -795,6 +790,21 @@ $items = [
                                                     </span>
 
                                                 </div>
+
+                                                @if (isset($item['discountTest']) && $item['discountTest'] != null)
+
+                                                <div class="extraPriceInfo">
+
+                                                    {{-- style="display: none;"  --}}
+                                                    <div
+                                                    typeplan="{{ $item['name'] }}"
+                                                        class="discountData">
+                                                        {!! $item['discountTest'] !!}
+                                                    </div>
+                                                </div>
+
+                                            @endif
+
 
 
                                             @endif
