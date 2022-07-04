@@ -786,15 +786,11 @@ function setConfigModeSelect(element) {
 
     }
 
-
-
-
 }
 
 function preventContactField() {
 
     jQuery('input.contactsField').on('change click', function () {
-
 
         var number = jQuery(this).val();
         var min = jQuery(this).attr('min');
@@ -838,8 +834,6 @@ function preventContactField() {
             l = l - 5;
         }
 
-
-
         jQuery('.rangeContacts').val(l);
 
         clickAllField('.rangeContacts');
@@ -850,11 +844,21 @@ function preventContactField() {
     jQuery('input.contactsField').on('keydown', function (ele) {
 
         if(event.key === 'Enter') {
+            jQuery('#formCalcGeneral').trigger('_action');
             jQuery(this).click();
         }else{
             return;
         }
 
+    });
+    jQuery('input.userAccess').on('keydown', function (ele) {
+
+        if(event.key === 'Enter') {
+            jQuery(this).click();
+            jQuery('#formCalcGeneral').trigger('_action');
+        }else{
+            return;
+        }
 
     });
 
@@ -971,8 +975,11 @@ jQuery(document).ready(function () {
     });
 
 
-    jQuery("form#formCalcGeneral").change(async function (e) {
+    jQuery("form#formCalcGeneral").on('change _action', async function (e) {
+
         e.preventDefault();
+
+
 
         if (jQuery(e.target).attr('typeProcess')) {
 

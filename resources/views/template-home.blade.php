@@ -262,9 +262,9 @@ $parameters = [
        ',
      'img' => App::setFilePath('/assets/images/person/capacitacion_pareja.png'),
      'text' => '
-         Con el Plan PRO de Escala, nuestros especialistas en marketing <br class="desktopTabletElement">
-         digital y ventas te guiarán paso a paso en la construcción de tu <br class="desktopTabletElement">
-         landing page. Sácale máximo provecho a nuestro Creador de Páginas.
+          Con el Plan PRO de Escala, nuestros especialistas en <br class="desktopTabletElement">
+          marketing digital y ventas te guiarán paso a paso para <br class="desktopTabletElement">
+          que implementes con éxito tu estrategia digital.
      ',
      'enableButton' => false,
      'urlButton' => '#lead-form',
@@ -291,9 +291,9 @@ $parameters = [
            [
                'img' => App::setFilePath('/assets/images/illustrations/others/icono-1.png'),
                'title' => '
-                 Acompañamiento en vivo <br class="space">
-                 para crear, publicar y <br class="space">
-                 optimizar tus páginas
+                  Acompañamiento <br class="space">
+                  en vivo para optimizar <br class="space">
+                  tu implementación
                ',
                'text' => null,
                'enableButton' => false,
@@ -302,9 +302,9 @@ $parameters = [
            [
                'img' => App::setFilePath('/assets/images/illustrations/others/icono-2.png'),
                'title' => '
-                 Capacitaciones grupales <br class="space">
-                 basadas en mejores prácticas <br class="space">
-                 para hacer una landing page ideal
+                  Capacitaciones grupales <br class="space">
+                  basadas en mejores prácticas <br class="space">
+                  y en los casos de éxito de tu industria
                ',
                'text' => null,
                'enableButton' => false,
@@ -312,9 +312,9 @@ $parameters = [
            [
                'img' => App::setFilePath('/assets/images/illustrations/others/icono-3.png'),
                'title' => '
-                   Atención prioritaria por <br class="space">
-                   WhatsApp, Email y Chat <br class="space">
-                   de servicio
+                    Atención prioritaria por <br class="space">
+                    WhatsApp, Email y Chat <br class="space">
+                    de servicio
                  ',
                  'text' => null,
                'enableButton' => false,
@@ -322,9 +322,9 @@ $parameters = [
            [
                'img' => App::setFilePath('/assets/images/illustrations/others/icono-4.png'),
                'title' => '
-                     Gerente de cuentas asignado <br class="space">
-                     con plan personalizado de <br class="space">
-                     implementación
+                      Gerente de cuentas asignado <br class="space">
+                      con plan personalizado <br class="space">
+                      de implementación
                  ',
                  'text' => null,
                'enableButton' => false,
@@ -332,9 +332,9 @@ $parameters = [
            [
                'img' => App::setFilePath('/assets/images/illustrations/others/icono-5.png'),
                'title' => '
-                   Configuraciones personalizadas <br class="space">
-                   y creación de plantillas <br class="space">
-                   customizadas a tu industria
+                    Configuraciones personalizadas <br class="space">
+                    y creación de plantillas  de páginas <br class="space">
+                    y correos para tu empresa
                  ',
                  'text' => null,
                'enableButton' => false,
@@ -346,320 +346,6 @@ $parameters = [
 @contain_5_cards_T1( $parameters )
 @endcontain_5_cards_T1
 
-
-
-{{-- <section class="customSection sectionParent homeSection5">
-
-<div class="section-row">
-
-<section class="innerSectionElement1">
-
-<h2 class="primaryTitle blackColor">
-  Los expertos en marketing digital lo dicen: “Escala es muy fácil de usar”
-</h2>
-<p class="primaryText grayColorTexts">
-  Descubre en estos videos cómo los expertos de marketing digital y ventas de toda <br class="desktopTabletElement">
-  Latinoamérica le sacan provecho a cada funcionalidad de Escala.
-</p>
-
-</section>
-
-<section class="innerSectionElement2">
-
-<div id="carousel-videoHome-Mobile" class="carousel slide mobileElement" data-bs-ride="carousel">
-
-  <div class="carousel-inner"   role="listbox">
-    <div class="carousel-item  active">
-
-      <div class="imagesSection row">
-
-      <div class="element col-md-12 col-lg-4">
-
-        <div class="videoContent hytPlayerWrap">
-
-                          <video
-                          class="video-js"
-                          controls
-
-                          preload="none"
-                          data-setup="{
-                            autoplay: false
-                          }"
-                          poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap1.jpg') !!}"
-                        >
-                          <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/mp4" />
-                          <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/webm" />
-                          <p class="vjs-no-js">
-                            To view this video please enable JavaScript, and consider upgrading to a
-                            web browser that
-                            <a href="https://videojs.com/html5-video-support/" target="_blank"
-                              >supports HTML5 video</a
-                            >
-                          </p>
-                        </video>
-
-
-
-        </div>
-
-        <div class="info">
-
-          <h3 class="titleVideo">
-            Cómo crear una landing page <br class="desktopTabletElement">
-            profesional sin programar con Escala
-          </h3>
-
-      </div>
-
-    </div>
-    </div>
-    </div>
-    <div class="carousel-item">
-
-      <div class="imagesSection row">
-
-
-      <div class="element col-md-12 col-lg-4">
-
-        <div class="videoContent hytPlayerWrap">
-
-                          <video
-                          class="video-js"
-                          controls
-
-                          preload="none"
-                          data-setup="{
-                            autoplay: false
-                          }"
-                          poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap2.jpg') !!}"
-                        >
-                          <source src="{!! App::setFilePath('/assets/videos/video_home_2.mp4') !!}" type="video/mp4" />
-                          <source src="{!! App::setFilePath('/assets/videos/video_home_2.mp4') !!}" type="video/webm" />
-                          <p class="vjs-no-js">
-                            To view this video please enable JavaScript, and consider upgrading to a
-                            web browser that
-                            <a href="https://videojs.com/html5-video-support/" target="_blank"
-                              >supports HTML5 video</a
-                            >
-                          </p>
-                        </video>
-
-
-        </div>
-
-        <div class="info">
-
-          <h3 class="titleVideo">
-            Herramienta de marketing <br class="desktopTabletElement">
-            todo en uno 2022
-          </h3>
-
-      </div>
-    </div>
-    </div>
-    </div>
-    <div class="carousel-item">
-      <div class="imagesSection row">
-
-      <div class="element col-md-12 col-lg-4">
-
-        <div class="videoContent hytPlayerWrap">
-
-
-                          <video
-                          class="video-js"
-                          controls
-
-                          preload="none"
-                          data-setup="{
-                            autoplay: false
-                          }"
-                          poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap3.jpg') !!}"
-                        >
-                          <source src="{!! App::setFilePath('/assets/videos/video_home_3.mp4') !!}" type="video/mp4" />
-                          <source src="{!! App::setFilePath('/assets/videos/video_home_3.mp4') !!}" type="video/webm" />
-                          <p class="vjs-no-js">
-                            To view this video please enable JavaScript, and consider upgrading to a
-                            web browser that
-                            <a href="https://videojs.com/html5-video-support/" target="_blank"
-                              >supports HTML5 video</a
-                            >
-                          </p>
-                        </video>
-
-        </div>
-
-        <div class="info">
-
-          <h3 class="titleVideo">
-            ¿Qué es un CRM y para qué sirve? <br class="desktopTabletElement">
-            Aumenta tus ventas con Escala
-          </h3>
-
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-
-  <ol class="carousel-indicators">
-
-    <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carousel-videoHome-Mobile" data-bs-slide-to="2" aria-label="Slide 3"></button>
-
-  </ol>
-
-
-</div>
-<div id="carousel-videoHome" class="carousel slide desktopElement" data-bs-ride="carousel">
-
-  <div class="carousel-inner"   role="listbox">
-
-      <div class="carousel-item active">
-
-<div class="imagesSection row">
-
-  <div class="element col-md-12 col-lg-4">
-
-      <div class="videoContent hytPlayerWrap">
-
-                          <video
-                          class="video-js"
-                          controls
-
-                          preload="none"
-                          data-setup="{
-                            autoplay: false
-                          }"
-                          poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap1.jpg') !!}"
-                        >
-                          <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/mp4" />
-                          <source src="{!! App::setFilePath('/assets/videos/video_home_1.mp4') !!}" type="video/webm" />
-                          <p class="vjs-no-js">
-                            To view this video please enable JavaScript, and consider upgrading to a
-                            web browser that
-                            <a href="https://videojs.com/html5-video-support/" target="_blank"
-                              >supports HTML5 video</a
-                            >
-                          </p>
-                        </video>
-
-
-
-      </div>
-
-      <div class="info">
-
-        <h3 class="titleVideo">
-          Cómo CREAR una LANDING PAGE <br class="desktopTabletElement">
-          profesional sin programar con ESCALA
-        </h3>
-
-    </div>
-
-  </div>
-
-  <div class="element col-md-12 col-lg-4">
-
-    <div class="videoContent hytPlayerWrap">
-
-                          <video
-                          class="video-js"
-                          controls
-
-                          preload="none"
-                          data-setup="{
-                            autoplay: false
-                          }"
-                          poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap2.jpg') !!}"
-                        >
-                          <source src="{!! App::setFilePath('/assets/videos/video_home_2.mp4') !!}" type="video/mp4" />
-                          <source src="{!! App::setFilePath('/assets/videos/video_home_2.mp4') !!}" type="video/webm" />
-                          <p class="vjs-no-js">
-                            To view this video please enable JavaScript, and consider upgrading to a
-                            web browser that
-                            <a href="https://videojs.com/html5-video-support/" target="_blank"
-                              >supports HTML5 video</a
-                            >
-                          </p>
-                        </video>
-
-
-
-    </div>
-
-    <div class="info">
-
-      <h3 class="titleVideo">
-        Herramienta de marketing <br class="desktopTabletElement">
-        todo en uno 2022
-      </h3>
-
-  </div>
-
-  </div>
-  <div class="element col-md-12 col-lg-4">
-
-    <div class="videoContent hytPlayerWrap">
-
-                          <video
-                          class="video-js"
-                          controls
-
-                          preload="none"
-                          data-setup="{
-                            autoplay: false
-                          }"
-                          poster="{!! App::setFilePath('/assets/images/illustrations/others/home_cap3.jpg') !!}"
-                        >
-                          <source src="{!! App::setFilePath('/assets/videos/video_home_3.mp4') !!}" type="video/mp4" />
-                          <source src="{!! App::setFilePath('/assets/videos/video_home_3.mp4') !!}" type="video/webm" />
-                          <p class="vjs-no-js">
-                            To view this video please enable JavaScript, and consider upgrading to a
-                            web browser that
-                            <a href="https://videojs.com/html5-video-support/" target="_blank"
-                              >supports HTML5 video</a
-                            >
-                          </p>
-                        </video>
-
-    </div>
-
-    <div class="info">
-
-      <h3 class="titleVideo">
-        ¿Qué es un CRM y para qué sirve? <br class="desktopTabletElement">
-        Aumenta tus ventas con Escala
-      </h3>
-
-  </div>
-
-</div>
-
-        </div>
-
-      </div>
-
-  </div>
-
-</div>
-
-</section>
-<section class="innerSectionElement3">
-
-<div class="containElements">
-
-  <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-    Prueba Gratis
-  </a>
-
-</div>
-
-</section>
-
-</div>
-</section> --}}
 
 @php
 $parameters = [
