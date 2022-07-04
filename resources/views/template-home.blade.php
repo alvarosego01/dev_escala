@@ -742,10 +742,9 @@ $parameters = [
 @contain_5_cards_T1( $parameters )
 @endcontain_5_cards_T1
 
-{{-- <section class="customSection sectionParent homeSection3"> --}}
 @php
        $parameters = [
-        'classSection' => 'homeSection3',
+        'classSection' => 'homeSection7',
         'enableTitle' => true,
         'titlePrincipal' => '
         Nuestros clientes te dicen <br class="space">
