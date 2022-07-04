@@ -10,34 +10,6 @@
 <div id="homeBootstrap">
   <div class="sections">
 
-    {{-- @php
-    $parameters = [
-        'backgroundImageType' => false,
-        'classSection' => 'threeCol homeSection0 newHome',
-        'title' => '
-        CRM + Expertos = <br class="space">
-        <span>
-          Escalar con éxito
-        </span>
-        ',
-        'text' => '
-          La plataforma todo-en-uno de <br class="space">
-          marketing, ventas y fidelización con <br class="space">
-          acompañamiento en vivo para impulsar <br class="space">
-          el crecimiento de tu negocio
-        ',
-        'textForm' => 'Empieza a probar Escala',
-        'threeCol' => true,
-        'backgroundImage' => null,
-        'overlay' => false,
-        'overlayImage' => null,
-        'image' => App::setFilePath('/assets/images/person/home_hombre_silla-chat.png'),
-    ];
-@endphp
-
-@header_t1( $parameters )
-
-@endheader_t1 --}}
 
 
     @php
@@ -52,9 +24,9 @@
       </span>
     ',
      'text' => '<span class="whiteColor">
-        La plataforma CRM todo-en-uno con acompañamiento <br class="space">
-        en vivo de especialistas para impulsar el crecimiento de <br class="space">
-        tu empresa.
+          La plataforma CRM todo-en-uno con <br class="space">
+          acompañamiento en vivo de especialistas <br class="space">
+          para impulsar el crecimiento de tu empresa.
       </span>
       ',
      'threeCol' => true,
@@ -67,9 +39,6 @@
 
     @header_t1( $parameters )
     @endheader_t1
-
-
-
 
 
 @php
@@ -124,7 +93,7 @@ $parameters = [
     'classSection' => 'homeSection2',
     'enableTitle' => true,
     'titlePrincipal' => '
-    Acelera el éxito <span class="greenBlueColor">de tu empresa</span>
+    <span class="greenBlueColor">Potencia el crecimiento de tu empresa</span>
     ',
     'subTitlePrincipal' => 'Haz crecer tu empresa de manera rentable, sostenible y escalable.',
     'overlay' => false,
@@ -135,34 +104,38 @@ $parameters = [
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
-            'img' => App::setFilePath('/assets/images/illustrations/team/home_acelera_el_exito-1.png'),
+            'img' => App::setFilePath('/assets/images/illustrations/others/home_iconos_space-1.png'),
             'title' => '<span class="grayColorTexts5">
-                 Da a conocer <br class="desktopTabletElement">
-        tu negocio
+          Genera demanda <br class="space">
+          de todos tus productos <br class="space">
+          y servicios
                 </span>',
             'enableButton' => false,
         ],
         [
-            'img' => App::setFilePath('/assets/images/illustrations/team/home_acelera_el_exito-2.png'),
+            'img' => App::setFilePath('/assets/images/illustrations/others/home_iconos_space-2.png'),
             'title' => '<span class="grayColorTexts5">
-                Multiplica el interés <br class="space">
-por tus productos y servicios
+          Convierte clics <br class="space">
+          en clientes, <br class="space">
+          sin perder ningún dato
                 </span>',
             'enableButton' => false,
         ],
         [
-            'img' => App::setFilePath('/assets/images/illustrations/team/home_acelera_el_exito-3.png'),
+            'img' => App::setFilePath('/assets/images/illustrations/others/home_iconos_space-3.png'),
             'title' => '<span class="grayColorTexts5">
-                Cierra más <br class="desktopTabletElement">
-ventas
+          Haz más eficientes <br class="space">
+          tus procesos de <br class="space">
+          venta
                 </span>',
             'enableButton' => false,
         ],
         [
-            'img' => App::setFilePath('/assets/images/illustrations/team/home_acelera_el_exito-4.png'),
+            'img' => App::setFilePath('/assets/images/illustrations/others/home_iconos_space-4.png'),
             'title' => '<span class="grayColorTexts5">
-                Fideliza <br class="desktopTabletElement">
-a tus clientes
+          Ahorra más tiempo <br class="space">
+          automatizando tus acciones <br class="space">
+          de marketing digital y ventas
                 </span>',
             'enableButton' => false,
         ],
@@ -175,179 +148,205 @@ a tus clientes
 @endcontain_multiple_cards_T2
 
 
-
-
-<section class="customSection sectionParent homeSection4">
+<section class="customSection sectionParent homeSection3">
 
   <div class="section-row">
 
-    <section class="innerSectionElement sct1">
+        <section class="innerSectionElement sct1">
 
-      <div class="containElements">
+          <div class="containElements">
 
-        <h2 class="primaryTitle blackColor">
-          <span class="greenBlueColor">La plataforma de CRM todo-en-uno</span> <br class="space">
-          más poderosa
-        </h2>
-        <p class="primaryText grayColorTexts">
-          En Escala tienes una plataforma de CRM todo-en-uno con todas las funcionalidades integradas <br class="space">
-          que necesitas para generar más demanda, aumentar tus ventas y retener más clientes.
-        </p>
+            <h2 class="primaryTitle blackColor">
+              <span class="greenBlueColor">La plataforma de CRM</span> <br class="space">
+              todo-en-uno más poderosa
+            </h2>
 
-      </div>
-
-    </section>
-    <section class="innerSectionElement sct2">
-
-      <div class="groupElements row">
-
-
-
-        <div class="col-12 col-md-12 col-lg-6 infoGroup">
-
-          <div class="containerImage">
-            <img alt="Crea increíbles páginas sin programar" src="{!! App::setFilePath('/assets/images/illustrations/others/home_icono-1.png') !!}" alt="" loading="lazy">
-          </div>
-
-          <div class="containerElements">
-            <h3 class="secondaryTitle blackColor">
-              Crea increíbles páginas <br class="space">
-              sin programar
-            </h3>
-            <p class="primaryText  grayColorTexts">
-              ¡Y que queden hermosas!
+            <p class="primaryText grayColorTexts">
+              En Escala tienes una plataforma de CRM todo-en-uno con todas las funcionalidades integradas <br class="space">
+              que necesitas para generar más demanda, aumentar tus ventas y retener más clientes.
             </p>
-            <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/landing-pages/">Conocer más</a>
+
           </div>
 
-        </div>
+        </section>
 
-        <div class="col-12 col-md-12 col-lg-6 infoGroup">
+        <section class="innerSectionElement sct2">
 
-          <div class="containerImage">
-            <img alt="Organiza tus contactos y gestiona procesos de venta" src="{!! App::setFilePath('/assets/images/illustrations/others/home_icono-2.png') !!}" alt="" loading="lazy">
+          <div class=" row groupElements">
+
+            <div class="image col-md-12 col-lg-6">
+
+              <div class="containElements">
+
+                <div class="containerImage">
+                  <img alt="Landing Escala Landings" src="{!! App::setFilePath('/assets/images/illustrations/others/CRM_home.png') !!}" alt="" loading="lazy">
+                </div>
+
+              </div>
+
+            </div>
+            <div class="info col-md-12 col-lg-6">
+              @php
+                  $elements = array(
+                    [
+                      'title' => 'Crea increíbles páginas sin programar.',
+                      'text' => '¡Y que queden hermosas!'
+                    ],
+                    [
+                      'title' => 'Envía emails de marketing profesionales.',
+                      'text' => 'Personalizados y masivos, sin caer en la bandeja de SPAM'
+                    ],
+                    [
+                      'title' => 'Automatiza tareas y flujos de comunicación.',
+                      'text' => 'Escala trabaja por ti 24/7'
+                    ],
+                    [
+                      'title' => 'Organiza y gestiona tus ventas con nuestro CRM.',
+                      'text' => 'Con el sistema más fácil de usar'
+                    ],
+                    [
+                      'title' => 'Multiplica tus visitas web con anuncios digitales.',
+                      'text' => 'En Facebook, Instagram y Google'
+                    ],
+                    [
+                      'title' => 'Obtén métricas de marketing y ventas en tiempo real.',
+                      'text' => 'Con Dashboards inteligentes'
+                    ],
+
+                  );
+              @endphp
+
+              <div class="containElements">
+
+                <ul class="elements">
+                  @foreach ($elements as $item)
+                  <li class="item">
+                    <div class="containerImage">
+                      <img alt="Landing Escala Landings" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector_check.png') !!}" alt="" loading="lazy">
+                    </div>
+                    <div class="text">
+                      <h3>
+                        {!! $item['title'] !!}
+                      </h3>
+                      <p class="text">
+                        {!! $item['text'] !!}
+                      </p>
+                    </div>
+                  </li>
+                  @endforeach
+                </ul>
+
+              </div>
+
+            </div>
+
           </div>
 
-          <div class="containerElements">
-            <h3 class="secondaryTitle blackColor">
-              Organiza y gestiona tus ventas <br class="space">
-              con nuestro CRM
-            </h3>
-            <p class="primaryText  grayColorTexts">
-              Con el sistema más fácil de usar
-            </p>
-            <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/crm-escala/">
-              Conocer más
-            </a>
-          </div>
+        </section>
 
-        </div>
-
-      </div>
-      <div class="groupElements row">
-        <div class="col-12 col-md-12 col-lg-6 infoGroup">
-
-          <div class="containerImage">
-            <img alt="Envía emails de marketing profesionales" src="{!! App::setFilePath('/assets/images/illustrations/others/home_icono-3.png') !!}" alt="" loading="lazy">
-          </div>
-
-          <div class="containerElements">
-            <h3 class="secondaryTitle blackColor">
-              Envía emails de marketing <br class="space">
-              profesionales
-            </h3>
-            <p class="primaryText  grayColorTexts">
-              Personalizados y masivos, sin caer <br class="space">
-              en la bandeja de SPAM
-            </p>
-            <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/email/">
-              Conocer más
-            </a>
-          </div>
-
-        </div>
-
-        <div class="col-12 col-md-12 col-lg-6 infoGroup">
-
-          <div class="containerImage">
-            <img alt="Multiplica tus visitas web con anuncios digitales" src="{!! App::setFilePath('/assets/images/illustrations/others/home_icono-4.png') !!}" alt="" loading="lazy">
-          </div>
-
-          <div class="containerElements">
-            <h3 class="secondaryTitle blackColor">
-              Multiplica tus visitas web <br class="space">
-              con anuncios digitales
-            </h3>
-            <p class="primaryText  grayColorTexts">
-              En Facebook, Instagram y Google
-            </p>
-            <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/anuncios-digitales/">
-              Conocer más
-            </a>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="groupElements row">
-        <div class="col-12 col-md-12 col-lg-6 infoGroup">
-
-          <div class="containerImage">
-            <img alt="Automatiza tareas y flujos de comunicación" src="{!! App::setFilePath('/assets/images/illustrations/others/home_icono-5.png') !!}" alt="" loading="lazy">
-          </div>
-
-          <div class="containerElements">
-            <h3 class="secondaryTitle blackColor">
-              Automatiza tareas y <br class="space">
-              flujos de comunicación
-            </h3>
-
-            <p class="primaryText  grayColorTexts">
-              Escala trabaja por ti 24/7
-            </p>
-            <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/automatizacion/">
-              Conocer más
-            </a>
-          </div>
-
-        </div>
-
-
-
-
-        <div class="col-12 col-md-12 col-lg-6 infoGroup">
-
-          <div class="containerImage">
-            <img alt="Obtén métricas de marketing y ventas en tiempo real" src="{!! App::setFilePath('/assets/images/illustrations/others/home_icono-6.png') !!}" alt="" loading="lazy">
-          </div>
-
-          <div class="containerElements">
-            <h3 class="secondaryTitle blackColor">
-              Obtén métricas de marketing <br class="space">
-              y ventas en tiempo real
-            </h3>
-            <p class="primaryText  grayColorTexts">
-              Con Dashboards inteligentes
-            </p>
-            <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/analiticas/">
-              Conocer más
-            </a>
-          </div>
-
-        </div>
-
-
-
-
-
-      </div>
-
-
-    </section>
 
   </div>
 
-</section>
+ </section>
+
+ @php
+ $parameters = [
+     'type' => 'backgroundColor',
+     'classSection' => 'homeSection4',
+     'enableTitle' => false,
+     'titlePrincipal' => null,
+     'subTitlePrincipal' => null,
+     'title' => '
+       <strong>Los Expertos</strong><br class="space">
+       <span class="greenBlueColor">¡Nuestra arma secreta!</span>
+       ',
+     'img' => App::setFilePath('/assets/images/person/capacitacion_pareja.png'),
+     'text' => '
+         Con el Plan PRO de Escala, nuestros especialistas en marketing <br class="desktopTabletElement">
+         digital y ventas te guiarán paso a paso en la construcción de tu <br class="desktopTabletElement">
+         landing page. Sácale máximo provecho a nuestro Creador de Páginas.
+     ',
+     'enableButton' => false,
+     'urlButton' => '#lead-form',
+     'textButton' => 'Prueba Gratis',
+     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+     'side' => 'left',
+ ];
+@endphp
+
+@contain_text_image_T1($parameters)
+@endcontain_text_image_T1
+
+@php
+$parameters = [
+'type' => 'backgroundColor',
+'classSection' => 'homeSection4_2',
+'enableTitle' => false,
+'titlePrincipal' => null,
+'subTitlePrincipal' => null,
+'overlay' => false,
+'overlayImage' => null,
+'enableButton' => false,
+'elements' => array(
+           [
+               'img' => App::setFilePath('/assets/images/illustrations/others/icono-1.png'),
+               'title' => '
+                 Acompañamiento en vivo <br class="space">
+                 para crear, publicar y <br class="space">
+                 optimizar tus páginas
+               ',
+               'text' => null,
+               'enableButton' => false,
+
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/illustrations/others/icono-2.png'),
+               'title' => '
+                 Capacitaciones grupales <br class="space">
+                 basadas en mejores prácticas <br class="space">
+                 para hacer una landing page ideal
+               ',
+               'text' => null,
+               'enableButton' => false,
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/illustrations/others/icono-3.png'),
+               'title' => '
+                   Atención prioritaria por <br class="space">
+                   WhatsApp, Email y Chat <br class="space">
+                   de servicio
+                 ',
+                 'text' => null,
+               'enableButton' => false,
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/illustrations/others/icono-4.png'),
+               'title' => '
+                     Gerente de cuentas asignado <br class="space">
+                     con plan personalizado de <br class="space">
+                     implementación
+                 ',
+                 'text' => null,
+               'enableButton' => false,
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/illustrations/others/icono-5.png'),
+               'title' => '
+                   Configuraciones personalizadas <br class="space">
+                   y creación de plantillas <br class="space">
+                   customizadas a tu industria
+                 ',
+                 'text' => null,
+               'enableButton' => false,
+           ],
+)
+];
+@endphp
+
+@contain_5_cards_T1( $parameters )
+@endcontain_5_cards_T1
+
+
 
 {{-- <section class="customSection sectionParent homeSection5">
 
@@ -743,10 +742,9 @@ $parameters = [
 @contain_5_cards_T1( $parameters )
 @endcontain_5_cards_T1
 
-{{-- <section class="customSection sectionParent homeSection3"> --}}
 @php
        $parameters = [
-        'classSection' => 'homeSection3',
+        'classSection' => 'homeSection7',
         'enableTitle' => true,
         'titlePrincipal' => '
         Nuestros clientes te dicen <br class="space">
@@ -792,8 +790,7 @@ $parameters = [
 @endreviews_sliders_T1
 
 
-
-    @php
+    {{-- @php
     $parameters = [
         'type' => 'backgroundColor',
         'classSection' => 'homeSection7',
@@ -873,10 +870,10 @@ $parameters = [
 
         ],
     ];
-    @endphp
+    @endphp --}}
 
-    @contain_multiple_cards_T2( $parameters )
-    @endcontain_multiple_cards_T2
+    {{-- @contain_multiple_cards_T2( $parameters )
+    @endcontain_multiple_cards_T2 --}}
 
     <section class="customSection sectionParent homeSection8">
 
