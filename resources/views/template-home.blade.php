@@ -133,7 +133,7 @@ $parameters = [
         [
             'img' => App::setFilePath('/assets/images/illustrations/others/home_iconos_space-4.png'),
             'title' => '<span class="grayColorTexts5">
-          Ahorra más tiempo <br class="space">
+          Ahorra tiempo <br class="space">
           automatizando tus acciones <br class="space">
           de marketing digital y ventas
                 </span>',

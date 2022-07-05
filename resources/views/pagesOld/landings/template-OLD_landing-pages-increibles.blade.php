@@ -3,16 +3,16 @@
 
 
 
-<div id="landingInc_sinProgramar_2_Bootstrap">
+<div id="landing-pages-increibles_Bootstrap">
 
   <div class="sections">
 @php
  $parameters = array(
   'backgroundImageType' => false,
-  'classSection' => 'landingInc_sinProgramar_2_0',
+  'classSection' => 'landing-pages-increibles_0',
   'title' => '
   <span class="greenBlueColor">Crea landing pages <br class="space"></span>
-  sin programar
+  increíbles
   ',
   'text' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/01_landings_increibles.png'),
@@ -28,7 +28,7 @@
 
 @php
  $parameters = array(
-  'classSection' => 'landingInc_sinProgramar_2_1',
+  'classSection' => 'landing-pages-increibles_1',
   'title' => '4 pasos para construir exitosas landing pages <span class="orangeColor">en minutos</span>',
   'img1' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0116.png',
   'title1' => 'Elige tu plantilla',
@@ -53,7 +53,7 @@
 @php
  $parameters = array(
   'type' => 'backColor',
-  'classSection' => 'landingInc_sinProgramar_2_2',
+  'classSection' => 'landing-pages-increibles_2',
   'title' => '¡Comienza a crear tu <span class="orangeColor">landing page</span> ahora!',
   'textButton' => 'Prueba Gratis',
   'goToUrl' => '#lead-form',
@@ -70,7 +70,7 @@
 
 @php
  $parameters = array(
-  'classSection' => 'landingInc_sinProgramar_2_3',
+  'classSection' => 'landing-pages-increibles_3',
   'description' => '
   <strong>“Al generar más de 1 millón de contactos por año utilizando <br class="desktopTabletElement">
   las páginas de destino de Open English</strong>, hemos obtenido <br class="desktopTabletElement">
@@ -93,7 +93,7 @@
 @php
  $parameters = array(
    'type' => 'regular',
-  'classSection' => 'landingInc_sinProgramar_2_4',
+  'classSection' => 'landing-pages-increibles_4',
   'title' => '
   Conoce la plataforma “todo en uno” de ventas y marketing que <br class="desktopTabletElement"> acelerará <span class="orangeColor">el crecimiento de tu negocio</span>
   ',
@@ -149,7 +149,7 @@
 
 @php
  $parameters = array(
-  'classSection' => 'landingInc_sinProgramar_2_5',
+  'classSection' => 'landing-pages-increibles_5',
   'title' => '<span class="greenBlueColor">¿Estás listo para</span> acelerar tus ventas?',
   'text' => null,
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0115.png',
