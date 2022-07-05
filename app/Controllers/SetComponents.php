@@ -246,7 +246,6 @@ class SetComponents extends Controller
                 "views/template-landing-email-mk-2022.blade.php",
                 "views/template-landing-email-mk-expertos-escalar-exito-2022.blade.php",
                 "views/template-landing-incredible-demo.blade.php",
-                "views/template-OLD_landing-whatsapp.blade.php",
                 "views/template-landing-correos-masivos.blade.php",
                 "views/template-landing-incredible-no-program.blade.php",
                 "views/template-landing-incredible-am.blade.php",
@@ -276,6 +275,7 @@ class SetComponents extends Controller
                 "views/template-OLD_landing-pages-sin-programar.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles-2.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles.blade.php",
+                "views/template-OLD_landing-pages-increibles.blade.php",
 
             );
         }
@@ -363,6 +363,7 @@ class SetComponents extends Controller
                 "views/template-OLD_landing-pages-sin-programar.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles-2.blade.php",
                 "views/template-OLD-crea-landing-pages-increibles.blade.php",
+                "views/template-OLD_landing-pages-increibles.blade.php",
                 "views/template-landing-correos-masivos.blade.php",
                 "views/template-landing-incredible-no-program.blade.php",
                 "views/template-landing-incredible-am.blade.php",
