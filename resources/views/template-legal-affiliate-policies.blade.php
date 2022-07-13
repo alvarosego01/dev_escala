@@ -1,5 +1,5 @@
 {{--
-  Template Name: [B] Legal - Affiliate Agreement
+  Template Name: [B] Legal - Affiliate Policies
 --}}
 
 @extends('layouts.app')
@@ -21,15 +21,11 @@ h2 {
 <div id="documentTermsTextBootstrap">
     <div class="sections">
         <div class="container"
-            style="padding: 30px 0px; background: linear-gradient(180deg, rgba(243,250,253,1) 0%, rgba(222,243,245,1) 100%);">
+            style="padding: 40px 0px; background: linear-gradient(180deg, rgba(243,250,253,1) 0%, rgba(222,243,245,1) 100%);">
             <div class="row align-items-center">
-                <div class="col-6">
-                    <h1 style="color: #322B42; font-family: 'Nunito'; font-weight: bold; font-size: 50px;">Marketing
-                        Affiliate<br> Program Agreement</h1>
-                </div>
-                <div class="col-6" style="text-align: center;">
-                    <img src="http://localhost/escala/wp-content/uploads/2022/07/afiliados-1.png" alt="" srcset=""
-                        width="350px">
+                <div class="col-12" style="text-align: center;">
+                    <h1 style="color: #322B42; font-family: 'Nunito'; font-weight: bold; font-size: 50px;">Escala Affiliate Program Policies</h1>
+                    <p style="color: #36768A; font-size: 20px; font-family: 'Nunito';">All Escala Affiliates are required to complete an agreement and remain in compliance<br> with these terms. This list contains everything you need to know to be an Escala affiliate.</p>
                 </div>
             </div>
         </div>
@@ -45,8 +41,8 @@ h2 {
                     </a>
 
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Agreement</a>
-                        <a class="dropdown-item" href="#">Policies</a>
+                        <a class="dropdown-item" href="/affiliate-agreement">Agreement</a>
+                        <a class="dropdown-item" href="/affiliate-policies">Policies</a>
                         <a class="dropdown-item" href="#">Page 3</a>
                     </div>
                 </div>
