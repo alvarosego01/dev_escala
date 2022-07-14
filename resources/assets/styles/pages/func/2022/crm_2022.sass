@@ -1381,19 +1381,23 @@
 #func_escala_crm .customSection.sectionParent.func_escala_crm_9
     background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
     position: relative
-    @include responsivo(telefonoTable)
-        display: flex
-        flex-direction: column
-        padding: 25px 0!important
-    @include responsivo(pcMedio)
-        display: flex
-        flex-direction: column
-        padding: 50px 0!important
-    @include responsivo(general)
-        padding: 75px 0!important
-    @include responsivo(resto)
-        padding: 100px 0!important
     .section-row
+        @include responsivo(telefonoTable)
+            width: 95%
+            padding: 0
+            padding-top: 25px
+        @include responsivo(pcMedio)
+            width: 90%
+            padding: 0
+            padding-top: 50px
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1125px!important
+        @include responsivo(smallPcTablet)
+            max-width: 1000px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1250px!important
         .containElements
             display: flex
             flex-direction: row-reverse
