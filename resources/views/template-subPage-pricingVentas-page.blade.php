@@ -1,23 +1,21 @@
 
 {{--
-  Template Name: [B] Page - Pricing page
+  Template Name: [B] Page - Pricing page ventas
 --}}
-
-
 
 
 @extends('layouts.app')
 
 @section('content')
 
-<div id="landing-pricing-page-bootstrap">
+<div id="pricing-pageVentas-bootstrap">
 
   <div class="sections">
 
 
 @php
 $parameters = array(
- 'classSection' => 'landingPricingPage0',
+ 'classSection' => 'pricingPage_ventas_0',
  'title' => '
  <span >
   Crece con Escala,</span> <br class="space">
@@ -33,7 +31,7 @@ $parameters = array(
 @endheader_small_t2
 
 {{--
-<section class="customSection sectionParent landingPricingPage1">
+<section class="customSection sectionParent pricingPage_ventas_1">
 
   <div class="section-row">
 
@@ -62,7 +60,7 @@ $parameters = array(
 
 @php
 $parameters = array(
- 'classSection' => 'landingPricingPage2',
+ 'classSection' => 'pricingPage_ventas_2',
  'titlePrincipal' => '<span class="blueColor">
   Conoce los beneficios
   <br class="mobileSmallElement">
@@ -74,11 +72,11 @@ $parameters = array(
  '
 ) ;
 @endphp
-@pricing_card_T1( $parameters )
-@endpricing_card_T1
+@pricing_ventas_card_T1( $parameters )
+@endpricing_ventas_card_T1
 
 
-<section class="customSection sectionParent landingPricingPage3_2022 desktopElement">
+<section class="customSection sectionParent pricingPage_ventas_3_2022 desktopElement">
 
   <div class="section-row">
 
@@ -307,7 +305,7 @@ $parameters = array(
 
 </section>
 
-{{-- <section class="customSection sectionParent landingPricingPage3">
+{{-- <section class="customSection sectionParent pricingPage_ventas_3">
 
   <div class="section-row">
 
@@ -488,16 +486,15 @@ $parameters = array(
 
 @php
  $parameters = array(
-  'classSection' => 'landingPricingPage4',
+  'classSection' => 'pricingPage_ventas_4',
  ) ;
 @endphp
 
-@pricing_calculator_T1( $parameters )
+@pricing_ventas_calculator_T1( $parameters )
+@endpricing_ventas_calculator_T1
 
-@endpricing_calculator_T1
 
-
-<section class="customSection sectionParent landingPricingPage5">
+<section class="customSection sectionParent pricingPage_ventas_5">
 
   <div class="section-row">
 
@@ -568,7 +565,7 @@ $parameters = array(
 @php
  $parameters = array(
   'type' => 'backgroundColor',
-  'classSection' => 'landingPricingPage6',
+  'classSection' => 'pricingPage_ventas_6',
   'backgroundImageFile' => null,
   'enableTitle' => false,
   'img' =>  App::setFilePath('/assets/images/person/am/andres_moreno_email_marketing.png'),

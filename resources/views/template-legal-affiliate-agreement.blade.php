@@ -17,6 +17,28 @@ h2 {
   font-weight: Bold;
   margin: 30px 0px;
 }
+
+div#documentTermsTextBootstrap .sections .container {
+    width: 100%;
+    max-width: 100%;
+}
+
+div#documentTermsTextBootstrap .container {
+    max-width: 100%;
+}
+
+div#documentTermsTextBootstrap .container .row {
+    max-width: 1340px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div#documentTermsTextBootstrap .container .row .col-4 {
+    width: fit-content;
+}
+
 </style>
 <div id="documentTermsTextBootstrap">
     <div class="sections">
@@ -28,7 +50,7 @@ h2 {
                         Affiliate<br> Program Agreement</h1>
                 </div>
                 <div class="col-6" style="text-align: center;">
-                    <img src="http://localhost/escala/wp-content/uploads/2022/07/afiliados-1.png" alt="" srcset=""
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/afiliados 1.png') !!}" alt="" srcset=""
                         width="350px">
                 </div>
             </div>
@@ -83,7 +105,7 @@ h2 {
             </div>
         </div>
     </div>
-    
+
     <section class="customSection sectionParent documentTermsTextSection0">
 
         <div class="section-row">

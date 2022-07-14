@@ -119,19 +119,38 @@ add_action('wp_enqueue_scripts', function () {
 
         }
 
-        if ( is_page_template("views/template-landing-pricing-page.blade.php") ) {
-
-            wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage.js'), ['jquery'], THEME_VERSION, true);
-
-        }
-
-        // LANDINGS
+        // TEMPLATE STYLES DIRECT
         // -------------------------------------- //
-
+        //  LANDINGS
+        // ---Landing escala landings 2022
         if ( is_page_template("views/template-landing-escala-landings-2022.blade.php") ) {
             wp_enqueue_style('landing_EscalaLandings.css', asset_path('styles/pages/landingPages/landing_EscalaLandings.css'), false, THEME_VERSION);
         }
-
+        // ---Landing escala crm 2022
+        if ( is_page_template("views/template-landing-escala-crm-2022.blade.php") ) {
+            wp_enqueue_style('landing_EscalaCRM.css', asset_path('styles/pages/landingPages/landing_Escala_crm.css'), false, THEME_VERSION);
+        }
+        // -------------------------------------- //
+        //  FUNCTIONALITIES 2022
+        // ---Page builder
+        if ( is_page_template("views/template-func-page-builder-2022.blade.php") ) {
+            wp_enqueue_style('func_pageBuilder2022.css', asset_path('styles/pages/func/2022/pageBuilder_2022.css'), false, THEME_VERSION);
+        }
+        // ---CRM
+        if ( is_page_template("views/template-func-crm-2022.blade.php") ) {
+            wp_enqueue_style('func_CRM2022.css', asset_path('styles/pages/func/2022/crm_2022.css'), false, THEME_VERSION);
+        }
+        //  SUB PAGES
+        // ---Pricing page
+        if ( is_page_template("views/template-subPage-pricing-page.blade.php") ) {
+            wp_enqueue_style('pricingPage.css', asset_path('styles/pages/subPages/pricingPage.css'), false, THEME_VERSION);
+            wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage.js'), ['jquery'], THEME_VERSION, true);
+        }
+        // ---Pricing page - Ventas
+        if ( is_page_template("views/template-subPage-pricingVentas-page.blade.php") ) {
+            wp_enqueue_style('pricingPageVentas.css', asset_path('styles/pages/subPages/pricingPage_ventas.css'), false, THEME_VERSION);
+            wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage_ventas.js'), ['jquery'], THEME_VERSION, true);
+        }
         // -------------------------------------- //
 
         // jvascripts

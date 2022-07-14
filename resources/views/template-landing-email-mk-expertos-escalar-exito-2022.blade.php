@@ -267,19 +267,21 @@ sin problemas en todas las plataformas de correo.
 
                 <div class="element">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust1.png') !!}" alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-1.jpeg') !!}" alt="">
 
                 </div>
                 <div class="element">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust2.png') !!}" alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-2.jpeg') !!}" alt="">
 
                 </div>
                 <div class="element">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/trust3.png') !!}" alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-3.jpeg') !!}" alt="">
 
                 </div>
+
+
 
             </div>
 

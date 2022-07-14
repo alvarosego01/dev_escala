@@ -96,6 +96,7 @@ posts
                                     {!! ACF_CUSTOM::_getField('excerpt_single', $item->ID) !!}
                                 </p>
 
+                            </a>
                                 <span class="date">
                                     @php
                                         // $date = '2022-06-13 09:59:45';
@@ -106,7 +107,6 @@ posts
                                     @endphp
                                 </span>
 
-                            </a>
                         </div>
                             {{-- <div class="card-footer">
 

@@ -110,7 +110,7 @@
                                         <div class="customSelectorRange">
 
                                             <div class="slidecontainer">
-                                                <input typeProcess="0" name="_rangeContacts" class="rangeContacts" type="range" min="0"
+                                                <input typeProcess="0" name="_rangeContacts" class="rangeContacts" min_aux="5" type="range" min="0"
                                                     max="100" value="0" class="sliderSelector">
                                             </div>
 
@@ -176,7 +176,7 @@
                                     <div class="rw rw1">
 
                                         <div class="customPriceInput">
-                                            <input typeProcess="0" name="_contactsField" class="contactsField" step="1000" type="number" value="5000">
+                                            <input typeProcess="0" name="_contactsField" class="contactsField" step="1000" type="number" value="5000" min="5000">
                                         </div>
 
                                     </div>
@@ -206,7 +206,7 @@
                                         <div class="customSelectorRange">
 
                                             <div class="slidecontainer">
-                                                <input typeProcess="1" name="_rangeContacts" class="rangeContacts" type="range" min="5"
+                                                <input typeProcess="1" name="_rangeContacts" class="rangeContacts" min_aux="5" type="range" min="0"
                                                     max="100" value="0" class="sliderSelector">
                                             </div>
 
