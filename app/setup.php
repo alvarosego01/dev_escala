@@ -126,11 +126,19 @@ add_action('wp_enqueue_scripts', function () {
         if ( is_page_template("views/template-landing-escala-landings-2022.blade.php") ) {
             wp_enqueue_style('landing_EscalaLandings.css', asset_path('styles/pages/landingPages/landing_EscalaLandings.css'), false, THEME_VERSION);
         }
+        // ---Landing escala crm 2022
+        if ( is_page_template("views/template-landing-escala-crm-2022.blade.php") ) {
+            wp_enqueue_style('landing_EscalaCRM.css', asset_path('styles/pages/landingPages/landing_Escala_crm.css'), false, THEME_VERSION);
+        }
         // -------------------------------------- //
         //  FUNCTIONALITIES 2022
         // ---Page builder
         if ( is_page_template("views/template-func-page-builder-2022.blade.php") ) {
             wp_enqueue_style('func_pageBuilder2022.css', asset_path('styles/pages/func/2022/pageBuilder_2022.css'), false, THEME_VERSION);
+        }
+        // ---CRM
+        if ( is_page_template("views/template-func-crm-2022.blade.php") ) {
+            wp_enqueue_style('func_CRM2022.css', asset_path('styles/pages/func/2022/crm_2022.css'), false, THEME_VERSION);
         }
         //  SUB PAGES
         // ---Pricing page
@@ -384,7 +392,6 @@ add_action('acf/init', $setACF->setACF());
 
 
 
-
 /**
  * Rewrite WordPress URLs to Include /blog/ in Post Permalink Structure
  *
@@ -422,6 +429,7 @@ function golden_oak_web_design_blog_generate_rewrite_rules($wp_rewrite)
     $wp_rewrite->rules = $new_rules + $wp_rewrite->rules;
 }
 add_action('generate_rewrite_rules', 'golden_oak_web_design_blog_generate_rewrite_rules');
+
 function casoExitoArticlesFormat($wp_rewrite)
 {
     $new_rules = array(

@@ -834,8 +834,6 @@
   @reviews_sliders_T1( $parameters )
   @endreviews_sliders_T1
 
-
-
       @php
       $parameters = [
           'type' => 'backgroundColor',
