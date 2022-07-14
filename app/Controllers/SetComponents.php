@@ -387,6 +387,8 @@ class SetComponents extends Controller
                 "views/template-func-page-builder.blade.php",
                 "views/template-func-page-builder-2022.blade.php",
                 "views/template-func-crm-2022.blade.php",
+                "views/template-legal-affiliate-agreement.blade.php",
+                "views/template-legal-affiliate-policies.blade.php",
                 "views/template-func-analiticas.blade.php",
                 "views/template-func-automatization.blade.php",
                 "views/template-func-automatization-2.blade.php",
