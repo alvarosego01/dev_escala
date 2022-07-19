@@ -71,11 +71,11 @@ $items = [
         <span class="cost">
             <span
             style="display: none"
-            class="numerCost">USD 30</span>
+            class="numerCost">USD 30 <small>/ mes</small></span>
             <span
             class="discountCost" style="display: flex">
             <span>
-                USD 21
+                USD 21 <small>/ mes</small>
             </span>
 
             </span>
@@ -83,10 +83,10 @@ $items = [
                 USD
             </span>
             <span class="ahorro discount monthElement aux_hidden">
-                Pago anual USD 360
+
             </span>
             <span class="ahorro discount anualElement aux_visible">
-                Ahorras USD 9 al mes
+                Pago total de <span>USD 360</span> <strong>- USD 252 / año</strong>
             </span>
         </span>',
         'pricePreviewMobie' => 'A partir de <br class="space">
@@ -105,11 +105,11 @@ $items = [
 
             <span
             style="display: none"
-            class="numerCost">USD 30</span>
+            class="numerCost">USD 30 <small>/ mes</small></span>
             <span
 
             class="discountCost" style="display: flex">
-            <span>USD 21</span>
+            <span>USD 21 <small>/ mes</small></span>
 
             </span>
 
@@ -231,22 +231,22 @@ $items = [
             <span
             style="display: none"
             class="numerCost">
-            USD 135
+            USD 135 <small>/ mes</small>
             </span>
             <span
             class="discountCost" style="display: flex">
             <span>
-                USD 94.50
+                USD 94.50 <small>/ mes</small>
                 </span>
 
 
             </span>
 
             <span class="ahorro discount monthElement aux_hidden">
-                Pago anual USD 1620
+
             </span>
             <span class="ahorro discount anualElement aux_visible">
-              Ahorras USD 40.50 al mes
+              Pago total de <span>USD 1.620</span> <strong>- USD 1.134 / año</strong>
             </span>
 
         </span>
@@ -271,16 +271,16 @@ $items = [
 
             <span
             style="display: none"
-            class="numerCost">USD 135</span>
+            class="numerCost">USD 135 <small>/ mes</small></span>
             <span
             class="discountCost" style="display: flex">
             <span>
-                USD 94.50
+                USD 94.50 <small>/ mes</small>
                 </span>
 
             </span>
             <span class="ahorro discount">
-             Ahorras USD 40.50 al mes
+             Pago total de <span>USD 1.620</span> <strong>- USD 1.134 / año</strong>
             </span>
 
         </span>

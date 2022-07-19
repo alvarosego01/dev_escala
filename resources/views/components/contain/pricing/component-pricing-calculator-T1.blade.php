@@ -381,22 +381,22 @@
 
                                         <div class="showInfosection">
 
-                                        <span class="discountExtra ">
+                                        {{-- <span class="discountExtra ">
                                             <span class="discounter">
                                                 USD 135 / anual
                                             </span>
-                                        </span>
+                                        </span> --}}
 
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
-                                                USD 94.50
+                                                USD 94.50 / mes
                                             </span>
 
                                         </div>
 
                                         <span class="ahorro discount ">
-                                            Ahorras USD 40.50 al año
+                                            Pago total de <span>USD 1.620</span> <strong>- USD 1.134 / año</strong>
                                         </span>
 
                                         <div class="implementacion">
