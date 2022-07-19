@@ -376,8 +376,6 @@ function calculateFinal(data) {
             jQuery('form#formCalcGeneral .implementacion').addClass('aux_hidden');
 
 
-            jQuery('form#formCalcGeneral .ahorro').removeClass('aux_visible');
-            jQuery('form#formCalcGeneral .ahorro').addClass('aux_hidden');
 
 
 
@@ -391,14 +389,20 @@ function calculateFinal(data) {
 
 
 
+
+
+
         }
 
         jQuery('.offert').css({
             'visibility': 'hidden'
         });
 
-        jQuery('form#formCalcGeneral .discountExtra').removeClass('aux_visible');
-        jQuery('form#formCalcGeneral .discountExtra').addClass('aux_hidden');
+        jQuery('form#formCalcGeneral .ahorro').removeClass('aux_visible');
+        jQuery('form#formCalcGeneral .ahorro').addClass('aux_hidden');
+
+
+
 
 
     }
@@ -410,18 +414,22 @@ function calculateFinal(data) {
         if (data._typePlan == 'starter') {
 
             costFinal = _contacts.starter + _users.starter;
-            priceTach = costFinal;
-            costFinal = costFinal;
+            priceTach = costFinal * 12;
+            discountTotal = priceTach - (priceTach * 0.30);
             jQuery('form#formCalcGeneral .implementacion').removeClass('aux_visible');
             jQuery('form#formCalcGeneral .implementacion').addClass('aux_hidden');
+
+
+
 
         }
 
         if (data._typePlan == 'pro') {
 
             costFinal = _contacts.pro + _users.pro;
-            priceTach = costFinal;
-            costFinal = costFinal;
+            priceTach = costFinal * 12;
+            discountTotal = priceTach - (priceTach * 0.30);
+            // costFinal = costFinal;
             jQuery('form#formCalcGeneral .implementacion').removeClass('aux_hidden');
             jQuery('form#formCalcGeneral .implementacion').addClass('aux_visible');
 
@@ -434,8 +442,13 @@ function calculateFinal(data) {
         costNoDiscount = costNoDiscount.toFixed(2);
         costFinal = costFinal.toFixed(2);
 
+        priceTach = priceTach.toFixed(2);
+        discountTotal = discountTotal.toFixed(2);
+
         costNoDiscount = trimDecimals(costNoDiscount);
         discount = trimDecimals(discount);
+        priceTach = trimDecimals(priceTach);
+        discountTotal = trimDecimals(discountTotal);
 
         jQuery('.offert').css({
             'visibility': 'visible'
@@ -443,21 +456,22 @@ function calculateFinal(data) {
 
         jQuery('form#formCalcGeneral .ahorro').removeClass('aux_hidden');
         jQuery('form#formCalcGeneral .ahorro').addClass('aux_visible');
-        jQuery('form#formCalcGeneral .ahorro ').text('Ahorras USD '+ discount +' al año');
+        jQuery('form#formCalcGeneral .ahorro ').html('Pago total de <span>USD '+ priceTach +'</span> <strong>- USD '+ discountTotal +' / año</strong>');
 
         jQuery('form#formCalcGeneral .discountExtra').removeClass('aux_hidden');
         jQuery('form#formCalcGeneral .discountExtra').addClass('aux_visible');
         jQuery('form#formCalcGeneral .discountExtra .discounter').text('USD '+ priceTach +' / anual');
 
         jQuery('#priceDotted').text('USD ' + costNoDiscount + ' /mes');
-        jQuery('#priceSaves').text('Ahorras USD ' + discount);
+        // jQuery('#priceSaves').text('Ahorras USD ' + discount);
+        // jQuery('#priceSaves').text('Pago total de <span>USD '+ priceTach +'</span> <strong>- USD 1.134 / año</strong>' + discount);
     }
 
     // var costFinal = 332.01;
 
     costFinal = trimDecimals(costFinal);
 
-    jQuery('#finalPriceCalc').text('USD ' + costFinal );
+    jQuery('#finalPriceCalc').text('USD ' + costFinal + ' / mes');
 
 
 }
