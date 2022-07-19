@@ -342,6 +342,7 @@ class SetComponents extends Controller
 
                 "views/template-home.blade.php",
                 "views/template-landing-escala-landings-2022.blade.php",
+                "views/template-landing-escala-crm-2022.blade.php",
                 "views/template-pruebas.blade.php",
                 "views/template-document-terms-text.blade.php",
                 "views/template-home-youtube.blade.php",
@@ -385,6 +386,9 @@ class SetComponents extends Controller
                 "views/template-subPage-about-us.blade.php",
                 "views/template-func-page-builder.blade.php",
                 "views/template-func-page-builder-2022.blade.php",
+                "views/template-func-crm-2022.blade.php",
+                "views/template-legal-affiliate-agreement.blade.php",
+                "views/template-legal-affiliate-policies.blade.php",
                 "views/template-func-analiticas.blade.php",
                 "views/template-func-automatization.blade.php",
                 "views/template-func-automatization-2.blade.php",

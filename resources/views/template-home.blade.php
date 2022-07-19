@@ -946,9 +946,6 @@ $parameters = [
 
 </section>
 
-
-
-
 </div>
 
 </div>
