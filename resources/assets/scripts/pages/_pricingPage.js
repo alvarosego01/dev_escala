@@ -249,7 +249,6 @@ function percentOfRange(value, lowLimit, limit, type, completeLowLimit, complete
 
     if (type == 'rangeToNumber') {
 
-
         if (value == 0) {
 
             jQuery('.contactsField').val(1000);
@@ -260,14 +259,11 @@ function percentOfRange(value, lowLimit, limit, type, completeLowLimit, complete
 
         var valToPerc = ((value - lowLimit) / (limit - lowLimit)) * 100;
 
-
         var PercTonumber = (completeLimit - completeLowLimit) * (valToPerc / 100) + completeLowLimit;
-
 
         PercTonumber = Math.trunc(PercTonumber);
 
         PercTonumber = redondeaAlAlza(PercTonumber, -1000);
-
 
         jQuery('.contactsField').val(PercTonumber);
 
@@ -275,8 +271,6 @@ function percentOfRange(value, lowLimit, limit, type, completeLowLimit, complete
         return PercTonumber;
 
     }
-
-
 
 }
 
@@ -378,32 +372,69 @@ function calculateFinal(data) {
 
             costFinal = _contacts.starter + _users.starter;
             discount = 0;
+            jQuery('form#formCalcGeneral .implementacion').removeClass('aux_visible');
+            jQuery('form#formCalcGeneral .implementacion').addClass('aux_hidden');
+
+
+
+
 
         }
         if (data._typePlan == 'pro') {
+
             costFinal = _contacts.pro + _users.pro;
             discount = 0;
+            jQuery('form#formCalcGeneral .implementacion').removeClass('aux_hidden');
+            jQuery('form#formCalcGeneral .implementacion').addClass('aux_visible');
+
+
+
+
+
+
         }
 
         jQuery('.offert').css({
             'visibility': 'hidden'
-        })
+        });
+
+        jQuery('form#formCalcGeneral .ahorro').removeClass('aux_visible');
+        jQuery('form#formCalcGeneral .ahorro').addClass('aux_hidden');
+
+
+
+
 
     }
 
     if (typeplan == 'yearly') {
 
+        var priceTach = null;
+        var priceAhorro = null
         if (data._typePlan == 'starter') {
 
             costFinal = _contacts.starter + _users.starter;
+            priceTach = costFinal * 12;
+            discountTotal = priceTach - (priceTach * 0.30);
+            jQuery('form#formCalcGeneral .implementacion').removeClass('aux_visible');
+            jQuery('form#formCalcGeneral .implementacion').addClass('aux_hidden');
+
+
+
 
         }
 
         if (data._typePlan == 'pro') {
 
             costFinal = _contacts.pro + _users.pro;
+            priceTach = costFinal * 12;
+            discountTotal = priceTach - (priceTach * 0.30);
+            // costFinal = costFinal;
+            jQuery('form#formCalcGeneral .implementacion').removeClass('aux_hidden');
+            jQuery('form#formCalcGeneral .implementacion').addClass('aux_visible');
 
         }
+
         discount = costFinal * 0.30;
         costNoDiscount = costFinal;
         costFinal = costFinal - discount;
@@ -411,22 +442,36 @@ function calculateFinal(data) {
         costNoDiscount = costNoDiscount.toFixed(2);
         costFinal = costFinal.toFixed(2);
 
+        priceTach = priceTach.toFixed(2);
+        discountTotal = discountTotal.toFixed(2);
+
         costNoDiscount = trimDecimals(costNoDiscount);
         discount = trimDecimals(discount);
+        priceTach = trimDecimals(priceTach);
+        discountTotal = trimDecimals(discountTotal);
 
         jQuery('.offert').css({
             'visibility': 'visible'
         })
 
+        jQuery('form#formCalcGeneral .ahorro').removeClass('aux_hidden');
+        jQuery('form#formCalcGeneral .ahorro').addClass('aux_visible');
+        jQuery('form#formCalcGeneral .ahorro ').html('Pago total de <span>USD '+ priceTach +'</span> <strong>- USD '+ discountTotal +' / año</strong>');
+
+        jQuery('form#formCalcGeneral .discountExtra').removeClass('aux_hidden');
+        jQuery('form#formCalcGeneral .discountExtra').addClass('aux_visible');
+        jQuery('form#formCalcGeneral .discountExtra .discounter').text('USD '+ priceTach +' / anual');
+
         jQuery('#priceDotted').text('USD ' + costNoDiscount + ' /mes');
-        jQuery('#priceSaves').text('Ahorras USD ' + discount);
+        // jQuery('#priceSaves').text('Ahorras USD ' + discount);
+        // jQuery('#priceSaves').text('Pago total de <span>USD '+ priceTach +'</span> <strong>- USD 1.134 / año</strong>' + discount);
     }
 
     // var costFinal = 332.01;
 
     costFinal = trimDecimals(costFinal);
 
-    jQuery('#finalPriceCalc').text('USD ' + costFinal + ' /mes');
+    jQuery('#finalPriceCalc').text('USD ' + costFinal + ' / mes');
 
 
 }
@@ -546,7 +591,7 @@ function discountByPlanCard(type, element) {
 
 
                 jQuery('.price').css({
-                    'margin-bottom': '90' + 'px'
+                    'margin-bottom': '60' + 'px'
                 });
 
 
@@ -561,10 +606,10 @@ function discountByPlanCard(type, element) {
                 jQuery('[calculator_price_starter]').text('USD ' + _costStarter);
                 jQuery('[calculator_price_pro]').text('USD ' + _costPro);
 
+                setEnableElements('pro');
                 return;
             }
 
-            setEnableElements('pro');
 
         }
 
@@ -605,10 +650,10 @@ function discountByPlanCard(type, element) {
                 jQuery('[calculator_price_starter]').text('USD ' + _costStarter);
                 jQuery('[calculator_price_pro]').text('USD ' + _costPro);
 
+                setEnableElements('starter');
                 return;
             }
 
-            setEnableElements('starter');
 
         }
 
@@ -711,8 +756,6 @@ function setConfigModeSelect(element) {
 
         }
 
-
-
         clickAllField('.rangeContacts');
 
     }
@@ -747,21 +790,15 @@ function setConfigModeSelect(element) {
 
         }
 
-
-
         clickAllField('.rangeContacts');
 
     }
-
-
-
 
 }
 
 function preventContactField() {
 
     jQuery('input.contactsField').on('change click', function () {
-
 
         var number = jQuery(this).val();
         var min = jQuery(this).attr('min');
@@ -804,8 +841,6 @@ function preventContactField() {
         if(min == 5000){
             l = l - 5;
         }
-
-
 
         jQuery('.rangeContacts').val(l);
 
@@ -880,6 +915,7 @@ function clickAllField(field){
 
 function setEnableElements(type){
 
+
     jQuery('.anualElement').removeClass('aux_hidden');
     jQuery('.monthElement').removeClass('aux_hidden');
 
@@ -902,6 +938,9 @@ function setEnableElements(type){
 jQuery(document).ready(function () {
 
     jQuery('#checkPro').click();
+
+    setEnableElements('pro');
+
 
     device = deviceType();
 

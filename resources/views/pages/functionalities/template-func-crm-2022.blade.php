@@ -517,7 +517,7 @@ $parameters = [
 
 
 
-<section class="customSection sectionParent func_escala_crm_7">
+{{-- <section class="customSection sectionParent func_escala_crm_7">
 
   <div class="section-row">
 
@@ -551,7 +551,7 @@ $parameters = [
 
   </div>
 
-</section>
+</section> --}}
 
 
 <section class="customSection sectionParent func_escala_crm_8">

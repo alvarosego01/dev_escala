@@ -392,7 +392,6 @@ add_action('acf/init', $setACF->setACF());
 
 
 
-
 /**
  * Rewrite WordPress URLs to Include /blog/ in Post Permalink Structure
  *
@@ -430,6 +429,7 @@ function golden_oak_web_design_blog_generate_rewrite_rules($wp_rewrite)
     $wp_rewrite->rules = $new_rules + $wp_rewrite->rules;
 }
 add_action('generate_rewrite_rules', 'golden_oak_web_design_blog_generate_rewrite_rules');
+
 function casoExitoArticlesFormat($wp_rewrite)
 {
     $new_rules = array(
