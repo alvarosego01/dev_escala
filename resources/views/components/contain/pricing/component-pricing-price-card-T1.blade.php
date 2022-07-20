@@ -113,12 +113,12 @@ $items = [
 
             </span>
 
-            <span class="ahorro discount">
-                Pago anual USD 360
+            <span class="ahorro discount anualElement aux_visible">
+                Pago total de <span>USD 360</span> <strong>- USD 252 / año</strong>
             </span>
 
         </span>
-        <small class="preViewPriceTag">
+        <small class="preViewPriceTag anualElement aux_visible">
             Precio mensual en plan anual
         </small>
         ',
@@ -279,12 +279,12 @@ $items = [
                 </span>
 
             </span>
-            <span class="ahorro discount">
-             Pago total de <span>USD 1.620</span> <strong>- USD 1.134 / año</strong>
+            <span class="ahorro discount anualElement aux_visible">
+              Pago total de <span>USD 1.620</span> <strong>- USD 1.134 / año</strong>
             </span>
 
         </span>
-        <small class="preViewPriceTag">
+        <small class="preViewPriceTag anualElement aux_visible">
             Precio mensual en plan anual
         </small>
         ',
