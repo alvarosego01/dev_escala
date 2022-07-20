@@ -225,10 +225,10 @@
                                         position: absolute
                                 .innerMiddle.reduceDiv
                                     @include responsivo(general)
-                                        top: -15px
+                                        top: -45px
                                         position: absolute
                                     @include responsivo(resto)
-                                        top: -15px
+                                        top: -45px
                                         position: absolute
 
                             .preView
@@ -348,7 +348,7 @@
                                                 margin-bottom: 15px
                                 .price
                                     position: relative
-                                    height: 100px
+                                    height: 75px
                                     // margin-bottom: 50px
                                     @include responsivo(telefonoTable)
                                         height: auto!important
@@ -439,16 +439,21 @@
                                             width: 100%
                                             padding: 5px
                                             min-height: 37.5px
+                                            display: flex
+                                            justify-content: center
+                                            justify-items: center
+                                            display: none!important
                                             .discounter
                                                 position: relative
                                                 font-family: Nunito
                                                 font-style: normal
                                                 font-weight: 400
-                                                font-size: 27.5px
+                                                font-size: 20px
                                                 line-height: 1
                                                 text-align: center
                                                 letter-spacing: -1px
                                                 color: #73676D
+                                                margin: auto
                                                 &::after
                                                     content: ''
                                                     width: 110%
@@ -468,6 +473,7 @@
                                             display: flex
                                             justify-content: center
                                             margin: 0 auto
+                                            margin-top: 5px
                                             position: relative
                                             width: fit-content
                                             span
@@ -498,12 +504,19 @@
                                             .discountCost
                                                 position: relative
                                                 color: #36768A
-                                                height: 57.5px!important
+                                                height: 55px!important
                                                 margin: 0 auto
+                                                span
+                                                    font-size: 45px!important
+                                                small
+                                                    font-size: 32.5px
 
                                             .numerCost
                                                 color: #36768A
-                                                height: 57.5px
+                                                height: 55px
+                                                font-size: 45px!important
+                                                small
+                                                    font-size: 32.5px
                                             .ncost
                                                 font-family: Nunito
                                                 font-style: normal
@@ -554,13 +567,22 @@
                                             .ahorro
                                                 font-family: Nunito
                                                 font-style: normal
-                                                font-weight: 700
-                                                font-size: 20px
+                                                font-weight: 400
+                                                font-size: 18px
                                                 line-height: 1
                                                 text-align: center
                                                 letter-spacing: -1px
                                                 color: #73676D
                                                 margin-top: 0
+                                                *
+                                                    font-weight: 400
+                                                    line-height: 1
+                                                    font-size: 18px
+                                                strong
+                                                    font-weight: 700
+
+                                                span
+                                                    text-decoration: line-through
 
 
 
@@ -926,6 +948,18 @@
                                         li
                                             span
                                                 line-height: 20px!important
+                                .price
+                                    .contactos
+                                        @include responsivo(general)
+                                            margin-top: 35px!important
+                                        @include responsivo(resto)
+                                            margin-top: 35px!important
+
+                                p.primaryText
+                                    @include responsivo(general)
+                                        font-size: 15px
+                                    @include responsivo(resto)
+                                        font-size: 15px
 
         .customSection.sectionParent.pricingPage3_2022
             padding: 0
@@ -1658,6 +1692,10 @@
                                         position: relative
                                         display: flex
                                         margin-bottom: 7.5px
+                                        display: flex
+                                        justify-content: center
+                                        justify-items: center
+                                        display: none!important
                                         .discounter
                                             position: relative
                                             font-family: Nunito
@@ -1669,7 +1707,7 @@
                                             letter-spacing: -1px
                                             color: #73676D
                                             width: fit-content
-                                            margin: 0 auto
+                                            margin: auto
                                             display: block
                                             &::after
                                                 content: ''
@@ -1690,16 +1728,29 @@
                                     .ahorro
                                         font-family: Nunito
                                         font-style: normal
-                                        font-weight: 700
-                                        font-size: 18px
+                                        font-weight: 400
+                                        font-size: 16px
                                         line-height: 1
                                         text-align: center
                                         letter-spacing: -1px
                                         color: #73676D
                                         @include responsivo(telefonoTable)
-                                            font-size: 16px
+                                            font-size: 14px
                                         @include responsivo(pcMedio)
+                                            font-size: 14px
+                                        *
+                                            line-height: 1
                                             font-size: 16px
+                                            font-weight: 400
+                                            @include responsivo(telefonoTable)
+                                                font-size: 14px
+                                            @include responsivo(pcMedio)
+                                                font-size: 14px
+                                        strong
+                                            font-weight: 700
+                                        span
+                                            text-decoration: line-through
+
 
                                     .implementacion
                                         margin-top: 15px
