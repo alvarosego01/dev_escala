@@ -121,10 +121,14 @@ add_action('wp_enqueue_scripts', function () {
 
         // TEMPLATE STYLES DIRECT
         // -------------------------------------- //
-        //  LANDINGS
+        // ---------------  LANDINGS
         // ---Landing escala landings 2022
         if ( is_page_template("views/template-landing-escala-landings-2022.blade.php") ) {
             wp_enqueue_style('landing_EscalaLandings.css', asset_path('styles/pages/landingPages/landing_EscalaLandings.css'), false, THEME_VERSION);
+        }
+        // ---Landing escala landings 2022 - sin expertos
+        if ( is_page_template("views/template-landing-escala-landings-sin-expertos-2022.blade.php") ) {
+            wp_enqueue_style('landing_EscalaLandings-sin-expertos.css', asset_path('styles/pages/landingPages/landing_EscalaLandings_sin_expertos.css'), false, THEME_VERSION);
         }
         // ---Landing escala crm 2022
         if ( is_page_template("views/template-landing-escala-crm-2022.blade.php") ) {
@@ -132,7 +136,7 @@ add_action('wp_enqueue_scripts', function () {
         }
         // ---Landing escala crm 2022 - sin expertos
         if ( is_page_template("views/template-landing-escala-crm-sin-expertos-2022.blade.php") ) {
-            wp_enqueue_style('func_CRM2022-sin-expertos.css', asset_path('styles/pages/landingPages/landing_Escala_crm_sin_expertos.css'), false, THEME_VERSION);
+            wp_enqueue_style('landing_EscalaCRM-sin-expertos.css', asset_path('styles/pages/landingPages/landing_Escala_crm_sin_expertos.css'), false, THEME_VERSION);
         }
         // -------------------------------------- //
         //  FUNCTIONALITIES 2022
