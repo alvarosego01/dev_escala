@@ -130,6 +130,10 @@ add_action('wp_enqueue_scripts', function () {
         if ( is_page_template("views/template-landing-escala-crm-2022.blade.php") ) {
             wp_enqueue_style('landing_EscalaCRM.css', asset_path('styles/pages/landingPages/landing_Escala_crm.css'), false, THEME_VERSION);
         }
+        // ---Landing escala crm 2022 - sin expertos
+        if ( is_page_template("views/template-landing-escala-crm-sin-expertos-2022.blade.php") ) {
+            wp_enqueue_style('func_CRM2022-sin-expertos.css', asset_path('styles/pages/landingPages/landing_Escala_crm_sin_expertos.css'), false, THEME_VERSION);
+        }
         // -------------------------------------- //
         //  FUNCTIONALITIES 2022
         // ---Page builder
@@ -140,6 +144,7 @@ add_action('wp_enqueue_scripts', function () {
         if ( is_page_template("views/template-func-crm-2022.blade.php") ) {
             wp_enqueue_style('func_CRM2022.css', asset_path('styles/pages/func/2022/crm_2022.css'), false, THEME_VERSION);
         }
+
         //  SUB PAGES
         // ---Pricing page
         if ( is_page_template("views/template-subPage-pricing-page.blade.php") ) {
