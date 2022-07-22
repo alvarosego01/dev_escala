@@ -312,7 +312,7 @@ a largo plazo </span>'
        ',
        'subTitlePrincipal' => '
           Al adquirir el plan Pro de Escala cuentas con <br class="mobileElement"> funcionalidades más avanzadas para que <br class="space">
-          puedas personalizar tus acciones de marketing, <br class="mobileElement"> ventas y aumentar tus conversiones.
+          puedas personalizar tus acciones de marketing y ventas, <br class="mobileElement"> aumentado tus conversiones.
        ',
        'overlay' => false,
        'enableButton' => true,
