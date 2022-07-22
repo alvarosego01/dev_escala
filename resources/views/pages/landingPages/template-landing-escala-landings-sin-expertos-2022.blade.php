@@ -1,28 +1,30 @@
 
 
-<div id="landing_escalaLandings_2022">
+<div id="landing_escalaLandings_2022_sin_expertos">
   <div class="sections">
 @php
     $parameters = array(
      'backgroundImageType' => false,
      'overlay' => false,
-     'classSection' => 'threeCol landing_escalaLandings_2022_0',
+     'classSection' => 'threeCol landing_escalaLandings_2022_sin_expertos_0',
      'title' => '
-        Construye increíbles <br class="space">
-        landing pages <br class="space">
-        <span style="color: #B9E6E9">guiado por especialistas</span>
+        Crea landing pages <br class="space">
+        increíbles <span style="color: #B9E6E9">
+          acompañado <br class="space">
+          por expertos
+        </span>
         ',
      'text' => '<span class="whiteColor">
-        Con Escala  puedes crear, personalizar y publicar <br class="space">
-        páginas de alta conversión, acompañado por <br class="space">
-        especialistas de  marketing digital y ventas.
+        En Escala construye  landing pages de alta <br class="space">
+        conversión en un abrir y cerrar de ojos, con la guía <br class="space">
+        de especialistas en marketing digital y ventas.
       </span>
       ',
      'threeCol' => true,
      'textForm' => 'Empieza a probar Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/illustrations/others/landing_builder_laptop-expertos-2022.png'),
+  'image' => App::setFilePath('/assets/images/illustrations/others/landing_builder_page-2022.png'),
     ) ;
     @endphp
 
@@ -33,7 +35,7 @@
     @php
     $parameters = array(
       'type' => 'backgroundColor',
-      'classSection' => 'landing_escalaLandings_2022_1',
+      'classSection' => 'landing_escalaLandings_2022_sin_expertos_1',
       'enableTitle' => false,
       'titlePrincipal' => null,
       'subTitlePrincipal' => null,
@@ -82,7 +84,7 @@
    @contain_text_video_T1( $parameters )
    @endcontain_text_video_T1
 
-   <section class="customSection sectionParent landing_escalaLandings_2022_2">
+   <section class="customSection sectionParent landing_escalaLandings_2022_sin_expertos_2">
 
     <div class="section-row">
 
@@ -189,7 +191,7 @@
     @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landing_escalaLandings_2022_3',
+        'classSection' => 'landing_escalaLandings_2022_sin_expertos_3',
         'enableTitle' => false,
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
@@ -217,7 +219,7 @@
 @php
 $parameters = [
   'type' => 'backgroundColor',
-  'classSection' => 'landing_escalaLandings_2022_3_2',
+  'classSection' => 'landing_escalaLandings_2022_sin_expertos_3_2',
   'enableTitle' => false,
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
@@ -286,7 +288,7 @@ $parameters = [
 
 
 
-<section class="customSection sectionParent landing_escalaLandings_2022_4">
+<section class="customSection sectionParent landing_escalaLandings_2022_sin_expertos_4">
 
   <div class="section-row">
 
@@ -327,7 +329,7 @@ $parameters = [
 </section>
 
 
-<section class="customSection sectionParent landing_escalaLandings_2022_5">
+<section class="customSection sectionParent landing_escalaLandings_2022_sin_expertos_5">
 
   <div class="section-row">
 
@@ -373,7 +375,7 @@ $parameters = [
 
     @php
   $parameters = [
-      'classSection' => 'landing_escalaLandings_2022_6',
+      'classSection' => 'landing_escalaLandings_2022_sin_expertos_6',
       'title' => '
 <span style="color: #B9E6E9">Comienza hoy mismo a generar leads <br class="desktopTabletElement"></span>
 de calidad con las landing pages de Escala
