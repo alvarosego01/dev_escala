@@ -1,41 +1,32 @@
 
 
-<div id="landing_escala_crm">
+<div id="landing_escala_crm_sin_expertos">
   <div class="sections">
 @php
     $parameters = array(
      'backgroundImageType' => false,
      'overlay' => false,
-     'classSection' => 'threeCol landing_escala_crm_0',
+     'classSection' => 'threeCol landing_escala_crm_sin_expertos_0',
      'title' => '
-        CRM todo-en-uno <br class="space">
+        Aumenta tus ventas <br class="space">
         <span style="color: #A4E7EA">
-          + acompañamiento <br class="desktopElement">
-          de expertos
+          con nuestro CRM <br class="space">
+          todo-en-uno
         </span>
         ',
-     'text' => '
-      <span class="whiteColor desktopElement">
-          Con el CRM de Escala haz más eficiente todo tu <br class="space">
-          proceso de marketing y ventas, guiado por  <br class="space">
-          nuestros especialistas. Segmenta tus contactos, <br class="space">
-          personaliza tu comunicación y dale seguimiento a <br class="space">
-          tus oportunidades hasta cerrar la venta.
-      </span>
-
-      <span class="whiteColor mobileElement">
-        Con el CRM de Escala haz más eficiente todo tu <br class="space">
-        proceso de marketing y ventas, guiado por nuestros <br class="space">
-        especialistas. Segmenta tus contactos, personaliza <br class="space">
-        tu comunicación y dale seguimiento a tus <br class="space">
-        oportunidades hasta cerrar la venta.
+     'text' => '<span class="whiteColor">
+          Con el CRM de Escala haz más eficiente todo <br class="space">
+          tu proceso de marketing y ventas. <br class="space">
+          Segmentando tus contactos, personalizando <br class="space">
+          tu comunicación y dándole seguimiento a tus <br class="space">
+          oportunidades hasta cerrar la venta.
       </span>
       ',
      'threeCol' => true,
      'textForm' => 'Empieza a probar Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/illustrations/others/home_hombre-lentes_silla-chat.png'),
+  'image' => App::setFilePath('/assets/images/illustrations/others/tablet_CRM.png'),
     ) ;
     @endphp
 
@@ -46,7 +37,7 @@
     @php
     $parameters = array(
       'type' => 'backgroundColor',
-      'classSection' => 'landing_escala_crm_1',
+      'classSection' => 'landing_escala_crm_sin_expertos_1',
       'enableTitle' => false,
       'titlePrincipal' => null,
       'subTitlePrincipal' => null,
@@ -100,7 +91,7 @@
    @php
    $parameters = [
        'type' => 'backgroundColor',
-       'classSection' => 'landing_escala_crm_2',
+       'classSection' => 'landing_escala_crm_sin_expertos_2',
        'enableTitle' => true,
        'titlePrincipal' => '
           <span class="greenBlueColor">El CRM todo-en-uno de Escala <br class="desktopTabletElement"></span>
@@ -188,7 +179,7 @@
 @contain_multiple_cards_T2( $parameters )
 @endcontain_multiple_cards_T2
 
-   <section class="customSection sectionParent landing_escala_crm_3">
+   <section class="customSection sectionParent landing_escala_crm_sin_expertos_3">
 
     <div class="section-row">
 
@@ -311,7 +302,7 @@ a largo plazo </span>'
    @php
    $parameters = [
        'type' => 'backgroundColor',
-       'classSection' => 'landing_escala_crm_4',
+       'classSection' => 'landing_escala_crm_sin_expertos_4',
        'enableTitle' => true,
        'titlePrincipal' => '
         <span style="color: #C5E5E9">
@@ -369,7 +360,7 @@ a largo plazo </span>'
     @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landing_escala_crm_5_',
+        'classSection' => 'landing_escala_crm_sin_expertos_5_',
         'enableTitle' => false,
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
@@ -397,7 +388,7 @@ a largo plazo </span>'
 @php
 $parameters = [
   'type' => 'backgroundColor',
-  'classSection' => 'landing_escala_crm_5_2',
+  'classSection' => 'landing_escala_crm_sin_expertos_5_2',
   'enableTitle' => false,
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
@@ -464,7 +455,7 @@ $parameters = [
 @endcontain_5_cards_T1
 
 
-<section class="component-info-text-image-T1 customSection sectionParent landing_escala_crm_6 ">
+<section class="component-info-text-image-T1 customSection sectionParent landing_escala_crm_sin_expertos_6 ">
 
   <div class="section-row">
 
@@ -530,7 +521,7 @@ $parameters = [
 
 
 
-{{-- <section class="customSection sectionParent landing_escala_crm_7">
+{{-- <section class="customSection sectionParent landing_escala_crm_sin_expertos_7">
 
   <div class="section-row">
 
@@ -567,7 +558,7 @@ $parameters = [
 </section> --}}
 
 
-<section class="customSection sectionParent landing_escala_crm_8">
+<section class="customSection sectionParent landing_escala_crm_sin_expertos_8">
 
   <div class="section-row">
 
@@ -612,7 +603,7 @@ $parameters = [
 
 
 
-<section class="customSection sectionParent landing_escala_crm_9 fullWidth">
+<section class="customSection sectionParent landing_escala_crm_sin_expertos_9 fullWidth">
 
   <div class="section-row">
 
@@ -658,7 +649,5 @@ $parameters = [
 </div>
 
 </div>
-
-
 
 

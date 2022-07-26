@@ -1529,7 +1529,7 @@ class ACF_CUSTOM extends Controller
                         'key' => 'pie_pagina_texto_base_3c',
                         'label' => 'Texto base',
                         'name' => 'Texto base',
-                        'type' => 'text',
+                        'type' => 'textarea',
                     ),
 
                 ),
