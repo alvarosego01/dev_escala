@@ -155,6 +155,10 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_style('pricingPage.css', asset_path('styles/pages/subPages/pricingPage.css'), false, THEME_VERSION);
             wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage.js'), ['jquery'], THEME_VERSION, true);
         }
+        // ---Servicios
+        if ( is_page_template("views/template-subPage-implementacion.blade.php") ) {
+            wp_enqueue_style('implementacion.css', asset_path('styles/pages/subPages/implementacion.css'), false, THEME_VERSION);
+        }
         // ---Pricing page - Ventas
         if ( is_page_template("views/template-subPage-pricingVentas-page.blade.php") ) {
             wp_enqueue_style('pricingPageVentas.css', asset_path('styles/pages/subPages/pricingPage_ventas.css'), false, THEME_VERSION);
