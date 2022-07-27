@@ -920,7 +920,167 @@ optimizar comunicaciones
             @endcontain_5_cards_T1
 
 
-            <section class="customSection sectionParent implementacionSection9 fullWidth">
+  @php
+  $escalaUrl = 'https://escala.com';
+  $items = [
+      [
+          'type' => 'master',
+          'title' => '¿De qué trata el servicio de implementación Escala?',
+          'text' => '
+            Con el servicio de implementación recibes acompañamiento personalizado de un Gerente de Cuenta asignado para que, desde el día 1, <br class="desktopTabletElement">
+            consigas más eficientemente tus objetivos con Escala. <br class="space">
+            Juntos desarrollan un plan personalizado para aterrizar e implementar exitosamente tu estrategia en la plataforma.
+          '
+      ],
+      [
+          'type' => 'master',
+          'title' => '¿Cómo es el proceso de implementación?',
+          'text' => '
+            El proceso de implementación de Escala consta de 4 fases que tú y tu equipo culminan a su propio ritmo bajo la guía de su Gerente de <br class="desktopTabletElement">
+            Cuenta, un especialista en marketing digital y ventas con experticia en el software de Escala.
+            <br class="space"><br class="space">
+            <p class="text"><strong>Fase 1 Planificación</strong></p>
+            <br class="space"><br class="space">
+            <ul style="list-style: disc; padding-left: 20px">
+            <li>El Gerente de Cuenta entiende a mayor profundidad tu negocio, objetivos, necesidades y recursos disponibles.</li>
+            <li>Se crea un Plan de Implementación Personalizado con acciones, tiempos y responsables claros para los siguientes meses con Escala.</li>
+            <li>Se definen las primeras tareas a ejecutar en la plataforma y se acuerdan las próximas sesiones con el Gerente de Cuenta y los <br class="desktopTabletElement"> especialistas pertinentes del equipo de servicio de Escala (Soporte, diseño de plantillas, migración, etc.).</li>
+            </ul>
+            <br class="space"><br class="space">
+            <p class="text"><strong>Fase 2 Configuración</strong></p>
+            <br class="space"><br class="space">
+            <ul style="list-style: disc; padding-left: 20px">
+            <li>Si lo necesitas, nuestro equipo de soporte te apoya a conectar cuentas de email, cuentas publicitarias y dominios de página propios.</li>
+            <li>Tu Gerente de Cuenta te guía a personalizar el CRM según los requerimientos de tu negocio y te apoyamos a migrar activos digitales <br class="desktopTabletElement"> como tu base de datos, formularios y automatizaciones.</li>
+            <li>También podrás añadir miembros claves de tu equipo como usuarios de la plataforma para que la usen de acuerdo a sus funciones.</li>
+            <li>Ten en cuenta que las fases 1 y 2 suelen culminarse en un periodo máximo de 2 semanas, siempre que brindes la información <br class="desktopTabletElement"> necesaria y trabajes en conjunto con tu Gerente de Cuenta.</li>
+            </ul>
+            <br class="space"><br class="space">
+            <p class="text"><strong>Fase 3 Producción</strong></p>
+            <br class="space"><br class="space">
+            <ul style="list-style: disc; padding-left: 20px">
+                <li>Tú y tu equipo crearán piezas (landing pages, anuncios,</li>
+                <li>plantillas de email), programarán automatizaciones y desarrollarán</li>
+                <li>habilidades para empezar a generar leads y ventas con Escala.</li>
+                <li>Tu Gerente de Cuenta te guía para que segmentes y organices tu base</li>
+                <li>de datos, implementes mejores prácticas al crear campañas de</li>
+                <li>marketing, y entrenes a tu equipo comercial y/o de servicio para que</li>
+                <li>usen efectivamente el CRM.</li>
+                <li>Usualmente, esta es esta es la fase que tomará un poco más de tiempo.</li>
+            </ul>
+            <br class="space"><br class="space">
+            <p class="text"><strong>Fase 4 Optimización</strong></p>
+            <br class="space"><br class="space">
+            <ul style="list-style: disc; padding-left: 20px">
+                <li>Después de una o dos semanas de activar tu campaña y empezar a</li>
+                <li>vender con Escala, podrás revisar resultados con tu Gerente de Cuenta</li>
+                <li>gracias a los Dashboards y métricas que brinda Escala.</li>
+                <li>Juntos identificarán factores de éxito, oportunidades de mejora, y</li>
+                <li>próximas acciones para continuar crecimiento con Escala.</li>
+            </ul>
+          '
+      ],
+      [
+          'type' => 'master',
+          'title' => '¿Cuántas horas tengo de acompañamiento con mi Gerente de Cuenta?',
+          'text' => '
+          <ul style="list-style: disc; padding-left: 20px">
+            <li><strong>Durante el período de Implementación</strong> <br class="space">
+            Usualmente, tendrás 8 horas disponibles con tu Gerente de Cuenta para culminar la implementación. Estas horas las consumes a tu <br class="desktopTabletElement"> propio ritmo, en un máximo de 3 meses.
+            <br class="space">
+            <br class="space">
+            Dependiendo de la complejidad del negocio, el progreso y compromiso de tu equipo, pueden recibir hasta 15 horas de acompañamiento <br class="desktopTabletElement"> en el período de implementación. Esto lo acuerdas con tu Gerente de Cuenta y Escala se reserva el derecho de aprobar o no la extensión.</li>
+            <br class="space">
+            <li><strong>Posterior a la Implementación</strong> <br class="space">
+            Una vez terminen las 4 fases, tienes 1 hora de acompañamiento con tu gerente de cuenta al mes y contactos ad hoc.</li>
+            <br class="space">
+            <li><strong>Horas extras Equipo de Servicio</strong> <br class="space">
+            Además de tu gerente de cuentas, en Escala cuentas con entrenadores durante capacitaciones en vivo semanales que puedes atender <br class="desktopTabletElement"> ilimitadamente y representantes de servicio al cliente por chat en plataforma, email y WhatsApp.</li>
+          </ul>
+
+          '
+        ],
+        [
+          'type' => 'master',
+          'title' => '¿Qué pasa después de los 3 meses de implementación?',
+          'text' => '
+          <ul style="list-style: disc; padding-left: 20px">
+            <li>Podrás comunicarte con tu Gerente de Cuenta y tendrás una hora al mes para revisar tus actividades, planificar tus nuevos proyectos, <br class="desktopTabletElement"> implementar nuevas funcionalidades y más.</li>
+            <li>Tendrás la posibilidad de asistir a capacitaciones en vivo con expertos, en las que podrás participar todas las veces que quieras.</li>
+            <li>Si tú y/o tu equipo llegan a necesitar mayor apoyo, puedes contratar servicios profesionales adicionales de consultoría, diseño, <br class="desktopTabletElement"> implementación y capacitación.</li>
+          </ul>
+          '
+        ],
+        [
+          'type' => 'master',
+          'title' => '¿Las piezas son elaboradas por mi equipo o Escala lo hace por nosotros?',
+          'text' => '
+            En Escala hay plantillas tanto de landing pages como de emails. Tu equipo puede tomar cualquier diseño de nuestra galería de plantillas, <br class="desktopTabletElement">
+            modificar muy fácilmente el texto que deseen y publicarlas, sin necesitar un equipo de programación.
+            <br class="space"><br class="space">
+            De necesitar mayor apoyo, puedes contratar a nuestro equipo de diseño para recibir plantillas personalizadas y maquetadas en Escala, <br class="desktopTabletElement">
+            alineadas a tu marca.
+          '
+        ],
+        [
+          'type' => 'master',
+          'title' => '¿Cómo funciona el servicio de plantillas personalizadas?',
+          'text' => '
+            Sigue los pasos para obtener el diseño de plantillas <br class="desktopTabletElement">
+            personalizadas que se adapten a los objetivos de tu empresa:
+            <br class="space">
+            <br class="space">
+            <ul style="list-style: disc; padding-left: 20px">
+                <li><strong>Cotiza:</strong> Conversa con tu asesor, gerente de cuenta o representante de servicio sobre tus necesidades y recibe una inversión estimada.</li>
+                <br class="space">
+                <li><strong>Contrata:</strong> Invierte, acuerda los términos de servicio y recibirás un email con la información.</li>
+                <br class="space">
+                <li><strong>Brief:</strong> Completa los campos solicitados y compártenos los materiales que necesitamos para crear tus plantillas.</li>
+                <br class="space">
+                <li><strong>Recibe:</strong> Te entregamos las plantillas maquetadas en Escala, máximo 1 semana después de haber recibido el brief completo.</li>
+            </ul>
+          '
+        ],
+        [
+          'type' => 'master',
+          'title' => '¿Cuánto cuesta el paquete de plantillas personalizadas?',
+          'text' => '
+            Las plantillas personalizadas tienen un valor adicional dependiendo del servicio que solicites. <br class="space">
+            Los precios de las plantillas pueden variar según el brief y los requerimientos de cada cliente.
+            <br class="space"><br class="space">
+            <li><strong>Plantillas de landing pages:</strong>sualmente, las plantillas de landing pages requieren una inversión de USD 100 / paquete.</li>
+            <li><strong>Plantillas de email:</strong> Las plantillas de email suelen tener un precio de USD 80 / paquete.</li>
+            <li><strong>Plantillas de email y landing pages:</strong> Si requieres ambas al mismo tiempo, ofrecemos un paquete por USD 150.</li>
+          '
+        ],
+        [
+          'type' => 'master',
+          'title' => '¿Qué hago en los encuentros con mi gerente de cuenta luego del período de implementación?',
+          'text' => '
+            La fase de optimización es extendida; esto quiere decir que mes a mes podrás analizar con tu Gerente de Cuenta qué hacer para mejorar <br class="desktopTabletElement">
+            tus resultados y optimizar el uso de la plataforma.
+            <br class="space"><br class="space">
+            También puedes pedirle apoyo en planificar acciones según tus metas de negocio, incorporar nuevas estrategias, o bien, pedirle asesoría <br class="desktopTabletElement">
+            acerca de cómo sacarle provecho a otras herramientas de Escala.
+          '
+      ]
+
+  ];
+
+
+   $parameters = array(
+     'classSection' => 'implementacionSection9',
+     'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+     'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+     'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+     'items' => $items
+     ) ;
+     @endphp
+  @contain_FAQ_T1( $parameters )
+  @endcontain_FAQ_T1
+
+
+            <section class="customSection sectionParent implementacionSection10 fullWidth">
 
                 <img src="{!! App::setFilePath('/assets/images/overlays/escala_galaxia_fondo.png') !!}" alt="" class="backOverlay">
 

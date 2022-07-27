@@ -1,9 +1,4 @@
-
-
-
-// #implementacionBootstrap
-//     .sections
-
+@import ../../common/global
 
 #implementacionBootstrap
     .carousel
@@ -1162,9 +1157,100 @@
                                 @include responsivo(smallPcTablet)
                                     font-size: 14px
 
-
-
 #implementacionBootstrap .customSection.sectionParent.implementacionSection9
+    background-color: white
+    .section-row
+        padding-top: 50px
+        padding-bottom: 50px
+        @include responsivo(telefonoTable)
+            width: 95%
+            padding-top: 25px
+            padding-bottom: 25px
+
+        @include responsivo(pcMedio)
+            width: 90%
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1000px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1100px!important
+    .innerSectionElement.sct1
+        margin-bottom: 50px
+
+        .containElements
+            .primaryTitle
+                margin-bottom: 0
+                text-align: center
+        @include responsivo(telefonoTable)
+            margin-bottom: 30px
+        @include responsivo(pcMedio)
+            margin-bottom: 30px
+    ul
+        list-style: none
+
+    .innerSectionElement.sct2
+        position: relative
+        z-index: 1
+        div#accordionPanelsFAQ
+            z-index: 10
+        .overlay1
+            margin: auto 0
+            top: 0
+            left: -75px
+            bottom: 0
+            position: absolute
+            display: block
+            height: 400px
+            width: auto
+            z-index: -1
+            @include responsivo(telefonoTable)
+                height: 250px
+                left: -10px
+            @include responsivo(pcMedio)
+                height: 250px
+                left: -10px
+        .overlay2
+            margin: auto 0
+            margin-top: 0
+            right: -75px
+            top: 0
+            bottom: 0
+            position: absolute
+            display: block
+            height: 400px
+            width: auto
+            z-index: -1
+            transform: rotate(180deg)
+            @include responsivo(telefonoTable)
+                height: 250px
+                right: -10px
+            @include responsivo(pcMedio)
+                height: 250px
+                right: -10px
+
+        .overlay3
+            margin: auto 0
+            margin-top: 5%
+            right: -75px
+            // top: 0
+            bottom: 0
+            position: absolute
+            height: 400px
+            width: auto
+            z-index: -1
+            transform: rotate(180deg)
+            display: none
+            @include responsivo(telefonoTable)
+                height: 250px
+                right: -10px
+            @include responsivo(pcMedio)
+                height: 250px
+                right: -10px
+
+
+
+#implementacionBootstrap .customSection.sectionParent.implementacionSection10
     // background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
     background-color: #F3FAFD
     position: relative

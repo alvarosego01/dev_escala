@@ -24,10 +24,19 @@
 
 
 
-               @contain_accordion_T1(  )
+                @if ( isset($items) && count($items) > 0 )
 
-               @endcontain_accordion_T1
+                    @php
+                        $parameters = array(
+                            'items' => $items
+                        )
+                    @endphp
 
+                @contain_accordion_T1( $parameters )
+
+                @endcontain_accordion_T1
+
+                @endif
 
             </div>
 
