@@ -940,7 +940,7 @@ optimizar comunicaciones
             Cuenta, un especialista en marketing digital y ventas con experticia en el software de Escala.
             <br class="space"><br class="space">
             <p class="text"><strong>Fase 1 Planificación</strong></p>
-            <br class="space"><br class="space">
+            <br class="space">
             <ul style="list-style: disc; padding-left: 20px">
             <li>El Gerente de Cuenta entiende a mayor profundidad tu negocio, objetivos, necesidades y recursos disponibles.</li>
             <li>Se crea un Plan de Implementación Personalizado con acciones, tiempos y responsables claros para los siguientes meses con Escala.</li>
@@ -948,7 +948,7 @@ optimizar comunicaciones
             </ul>
             <br class="space"><br class="space">
             <p class="text"><strong>Fase 2 Configuración</strong></p>
-            <br class="space"><br class="space">
+            <br class="space">
             <ul style="list-style: disc; padding-left: 20px">
             <li>Si lo necesitas, nuestro equipo de soporte te apoya a conectar cuentas de email, cuentas publicitarias y dominios de página propios.</li>
             <li>Tu Gerente de Cuenta te guía a personalizar el CRM según los requerimientos de tu negocio y te apoyamos a migrar activos digitales <br class="desktopTabletElement"> como tu base de datos, formularios y automatizaciones.</li>
@@ -957,26 +957,18 @@ optimizar comunicaciones
             </ul>
             <br class="space"><br class="space">
             <p class="text"><strong>Fase 3 Producción</strong></p>
-            <br class="space"><br class="space">
+            <br class="space">
             <ul style="list-style: disc; padding-left: 20px">
-                <li>Tú y tu equipo crearán piezas (landing pages, anuncios,</li>
-                <li>plantillas de email), programarán automatizaciones y desarrollarán</li>
-                <li>habilidades para empezar a generar leads y ventas con Escala.</li>
-                <li>Tu Gerente de Cuenta te guía para que segmentes y organices tu base</li>
-                <li>de datos, implementes mejores prácticas al crear campañas de</li>
-                <li>marketing, y entrenes a tu equipo comercial y/o de servicio para que</li>
-                <li>usen efectivamente el CRM.</li>
+                <li>Tú y tu equipo crearán piezas (landing pages, anuncios, plantillas de email), programarán automatizaciones y desarrollarán <br class="desktopTabletElement"> habilidades para empezar a generar leads y ventas con Escala.</li>
+                <li>Tu Gerente de Cuenta te guía para que segmentes y organices tu base de datos, implementes mejores prácticas al crear campañas <br class="desktopTabletElement"> de marketing, y entrenes a tu equipo comercial y/o de servicio para que usen efectivamente el CRM.</li>
                 <li>Usualmente, esta es esta es la fase que tomará un poco más de tiempo.</li>
             </ul>
             <br class="space"><br class="space">
             <p class="text"><strong>Fase 4 Optimización</strong></p>
-            <br class="space"><br class="space">
+            <br class="space">
             <ul style="list-style: disc; padding-left: 20px">
-                <li>Después de una o dos semanas de activar tu campaña y empezar a</li>
-                <li>vender con Escala, podrás revisar resultados con tu Gerente de Cuenta</li>
-                <li>gracias a los Dashboards y métricas que brinda Escala.</li>
-                <li>Juntos identificarán factores de éxito, oportunidades de mejora, y</li>
-                <li>próximas acciones para continuar crecimiento con Escala.</li>
+                <li>Después de una o dos semanas de activar tu campaña y empezar a vender con Escala, podrás revisar resultados con tu Gerente de <br class="desktopTabletElement"> cuenta gracias a los Dashboards y métricas que brinda Escala.</li>
+                <li>Juntos identificarán factores de éxito, oportunidades de mejora, y próximas acciones para continuar crecimiento con Escala.</li>
             </ul>
           '
       ],
@@ -1020,6 +1012,10 @@ optimizar comunicaciones
             <br class="space"><br class="space">
             De necesitar mayor apoyo, puedes contratar a nuestro equipo de diseño para recibir plantillas personalizadas y maquetadas en Escala, <br class="desktopTabletElement">
             alineadas a tu marca.
+            <br class="space"><br class="space">
+            <p class="text">
+                <strong>Para mas información visita:</strong> <a class="hiperButtonGreenBlueT2" href="https://academy.escala.com/servicio-de-diseno">https://academy.escala.com/servicio-de-diseno</a>
+            </p>
           '
         ],
         [
@@ -1039,6 +1035,10 @@ optimizar comunicaciones
                 <br class="space">
                 <li><strong>Recibe:</strong> Te entregamos las plantillas maquetadas en Escala, máximo 1 semana después de haber recibido el brief completo.</li>
             </ul>
+            <br class="space"><br class="space">
+            <p class="text">
+                <strong>Para mas información visita:</strong> <a class="hiperButtonGreenBlueT2" href="https://academy.escala.com/servicio-de-diseno">https://academy.escala.com/servicio-de-diseno</a>
+            </p>
           '
         ],
         [
@@ -1048,14 +1048,20 @@ optimizar comunicaciones
             Las plantillas personalizadas tienen un valor adicional dependiendo del servicio que solicites. <br class="space">
             Los precios de las plantillas pueden variar según el brief y los requerimientos de cada cliente.
             <br class="space"><br class="space">
-            <li><strong>Plantillas de landing pages:</strong>sualmente, las plantillas de landing pages requieren una inversión de USD 100 / paquete.</li>
-            <li><strong>Plantillas de email:</strong> Las plantillas de email suelen tener un precio de USD 80 / paquete.</li>
-            <li><strong>Plantillas de email y landing pages:</strong> Si requieres ambas al mismo tiempo, ofrecemos un paquete por USD 150.</li>
+            <ul style="list-style: disc; padding-left: 20px">
+                <li><strong>Plantillas de landing pages:</strong> Sualmente, las plantillas de landing pages requieren una inversión de <strong>USD 100 / paquete.</strong></li>
+                <li><strong>Plantillas de email:</strong> Las plantillas de email suelen tener un precio de <strong>USD 80 / paquete.</strong></li>
+                <li><strong>Plantillas de email y landing pages:</strong> Si requieres ambas al mismo tiempo, ofrecemos un <strong>paquete por USD 150.</strong></li>
+            </ul>
+            <br class="space"><br class="space">
+            <p class="text">
+                <strong>Para mas información visita:</strong> <a class="hiperButtonGreenBlueT2" href="https://academy.escala.com/servicio-de-diseno">https://academy.escala.com/servicio-de-diseno</a>
+            </p>
           '
         ],
         [
           'type' => 'master',
-          'title' => '¿Qué hago en los encuentros con mi gerente de cuenta luego del período de implementación?',
+          'title' => '¿Qué hago en los encuentros con mi gerente de cuenta luego del período de <br class="desktopTabletElement"> implementación?',
           'text' => '
             La fase de optimización es extendida; esto quiere decir que mes a mes podrás analizar con tu Gerente de Cuenta qué hacer para mejorar <br class="desktopTabletElement">
             tus resultados y optimizar el uso de la plataforma.
