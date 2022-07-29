@@ -75,7 +75,7 @@
               </small>
             </span>
             <div class="specialButton">
-              <img src="'. App::setFilePath('/assets/images/illustrations/otto/ottoHomeButton.png') .'" >
+              <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una prueba gratis de Escala CRM>
               <a href="#" class=" openPopUpButton popup-general-trial-2022">
                 Solicita tu Prueba Gratis
               </a>
@@ -377,7 +377,8 @@ a largo plazo </span>'
           <strong>Los Expertos</strong><br class="space">
           <span class="greenBlueColor">¡Nuestra arma secreta!</span>
           ',
-        'img' => App::setFilePath('/assets/images/person/capacitacion_pareja.png'),
+        'img' => App::setFilePath('/assets/images/person/soporte-equipo-escala-clientes.png'),
+'img_alt' => 'Foto de una pareja mirando su computador portátil sorprendidos en referencia a la calidad del acompañamiento que brinda el equipo de soporte de Escala',
         'text' => '
             Con el Plan PRO de Escala, nuestros <br class="mobileElement"> especialistas en <br class="desktopElement">
             marketing digital y ventas te <br class="mobileElement"> guiarán paso a paso para <br class="desktopElement">
@@ -406,7 +407,8 @@ $parameters = [
   'enableButton' => false,
   'elements' => array(
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-1.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/acompanamiento-en-vivo-implementacion-escala.png'),
+'img_alt' => 'Ilustración de un astronauta mostrando en su computador un cohete que va de un punto A a un punto B en referencia al acompañamiento en vivo para optimizar la implementación de Escala en una empresa',
                   'title' => '
                     Acompañamiento <br class="desktopElement">
                     en vivo para <br class="mobileElement"> optimizar <br class="desktopElement">
@@ -417,7 +419,8 @@ $parameters = [
 
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-2.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/capacitaciones-grupales-equipo-escala.png'),
+'img_alt' => 'Ilustración de un astronauta mostrando en su computador un cohete que va de un punto A a un punto D en referencia a las capacitaciones grupales que ofrece el equipo de Escala',
                   'title' => '
                     Capacitaciones grupales <br class="desktopElement">
                     basadas en <br class="mobileElement"> mejores prácticas <br class="desktopElement">
@@ -427,7 +430,8 @@ $parameters = [
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-3.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/atencion-prioritaria-clientes-equipo-escala.png'),
+'img_alt' => 'Ilustración de un computador con un botón de WhatsApp en referencia a la atención prioritaria por WhatsApp, Email y Chat de parte de nuestro equipo',
                   'title' => '
                       Atención prioritaria por <br class="desktopElement">
                       WhatsApp, <br class="mobileElement"> Email y Chat <br class="desktopElement">
@@ -437,7 +441,8 @@ $parameters = [
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-4.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/gerente-cuentas-asignado-equipo-escala.png'),
+'img_alt' => 'Ilustración de un astronauta con capa y un computador en sus manos en referencia al gerente de cuentas que se asigna a clientes por parte de Escala',
                   'title' => '
                         Gerente de cuentas asignado <br class="desktopElement">
                         con plan <br class="mobileElement"> personalizado <br class="desktopElement">
@@ -447,7 +452,8 @@ $parameters = [
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-5.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/configuraciones-personalizadas-creacion-plantillas-landing-pages-escala.png'),
+'img_alt' => 'Ilustración de una hoja en la se está escribiendo en referencia a las configuraciones personalizadas y creación de plantillas de landing pages por parte del equipo de Escala',
                   'title' => '
                       Configuraciones personalizadas <br class="space">
                       y creación de plantillas  de páginas <br class="space">

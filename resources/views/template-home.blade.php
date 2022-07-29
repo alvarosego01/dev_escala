@@ -33,7 +33,8 @@
      'textForm' => 'Empieza a probar Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/person/landing_home_latin.png'),
+  'image' => App::setFilePath('/assets/images/person/plataforma-escala-home.png'),
+'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM'
     ) ;
     @endphp
 
@@ -67,7 +68,7 @@ expertos de marketing, ventas y fidelización para ayudar a las <br class="deskt
 empresas de habla hispana a alcanzar el éxito.
 
 <div class="specialButton">
-  <img src="'. App::setFilePath('/assets/images/illustrations/otto/ottoHomeButton.png') .'" >
+  <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una prueba gratis de Escala CRM">
 
   <a href="#" class=" openPopUpButton popup-general-trial-2022">
     Solicita tu Prueba Gratis
@@ -104,7 +105,8 @@ $parameters = [
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
-            'img' => App::setFilePath('/assets/images/illustrations/others/home_iconos_space-1.png'),
+            'img' => App::setFilePath('/assets/images/illustrations/others/generacion-demanda-productos-servicios-escala.png'),
+            'img_alt' => 'Ilustración de astronauta recibiendo flechas de juguete en su frente en referencia a la generación de demanda por productos y servicios con Escala como plataforma de marketing y ventas todo en uno para el crecimiento de negocios',
             'title' => '<span class="grayColorTexts5">
           Genera demanda <br class="space">
           de todos tus productos <br class="space">
@@ -113,7 +115,8 @@ $parameters = [
             'enableButton' => false,
         ],
         [
-            'img' => App::setFilePath('/assets/images/illustrations/others/home_iconos_space-2.png'),
+            'img' => App::setFilePath('/assets/images/illustrations/others/convierte-clics-en-clientes-escala.png'),
+            'img_alt' => 'Ilustración de un astronauta celebrando el crecimiento de seguidores en redes sociales en referencia a la conversión de visitas en clientes gracias a Escala',
             'title' => '<span class="grayColorTexts5">
           Convierte clics <br class="space">
           en clientes, <br class="space">
@@ -122,7 +125,8 @@ $parameters = [
             'enableButton' => false,
         ],
         [
-            'img' => App::setFilePath('/assets/images/illustrations/others/home_iconos_space-3.png'),
+            'img' => App::setFilePath('/assets/images/illustrations/others/eficiencia-procesos-venta-escala.png'),
+            'img_alt' => 'Ilustración de astronauta celebrando la conquista de la luna con una bandera en referencia a el incremento de la eficiencia de los procesos de venta gracias a Escala',
             'title' => '<span class="grayColorTexts5">
           Haz más eficientes <br class="space">
           tus procesos de <br class="space">
@@ -131,7 +135,8 @@ $parameters = [
             'enableButton' => false,
         ],
         [
-            'img' => App::setFilePath('/assets/images/illustrations/others/home_iconos_space-4.png'),
+            'img' => App::setFilePath('/assets/images/illustrations/others/automatizacion-marketing-digital-ventas-escala.png'),
+            'img_alt' => 'Ilustración de dos atronautas jugando con aviones de papel en referencia a la automatización de procesos de marketing digital y ventas gracias a Escala',
             'title' => '<span class="grayColorTexts5">
           Ahorra tiempo <br class="space">
           automatizando tus acciones <br class="space">
@@ -260,7 +265,8 @@ $parameters = [
        <strong>Los Expertos</strong><br class="space">
        <span class="greenBlueColor">¡Nuestra arma secreta!</span>
        ',
-     'img' => App::setFilePath('/assets/images/person/capacitacion_pareja.png'),
+     'img' => App::setFilePath('/assets/images/person/soporte-equipo-escala-clientes.png'),
+'img_alt' => 'Foto de una pareja mirando su computador portátil sorprendidos en referencia a la calidad del acompañamiento que brinda el equipo de soporte de Escala',
      'text' => '
           Con el Plan PRO de Escala, nuestros especialistas en <br class="desktopTabletElement">
           marketing digital y ventas te guiarán paso a paso para <br class="desktopTabletElement">
@@ -289,7 +295,8 @@ $parameters = [
 'enableButton' => false,
 'elements' => array(
            [
-               'img' => App::setFilePath('/assets/images/illustrations/others/icono-1.png'),
+               'img' => App::setFilePath('/assets/images/illustrations/others/acompanamiento-en-vivo-implementacion-escala.png'),
+'img_alt' => 'Ilustración de un astronauta mostrando en su computador un cohete que va de un punto A a un punto B en referencia al acompañamiento en vivo para optimizar la implementación de Escala en una empresa',
                'title' => '
                   Acompañamiento <br class="space">
                   en vivo para optimizar <br class="space">
@@ -300,7 +307,8 @@ $parameters = [
 
            ],
            [
-               'img' => App::setFilePath('/assets/images/illustrations/others/icono-2.png'),
+               'img' => App::setFilePath('/assets/images/illustrations/others/capacitaciones-grupales-equipo-escala.png'),
+'img_alt' => 'Ilustración de un astronauta mostrando en su computador un cohete que va de un punto A a un punto D en referencia a las capacitaciones grupales que ofrece el equipo de Escala',
                'title' => '
                   Capacitaciones grupales <br class="space">
                   basadas en mejores prácticas <br class="space">
@@ -310,7 +318,8 @@ $parameters = [
                'enableButton' => false,
            ],
            [
-               'img' => App::setFilePath('/assets/images/illustrations/others/icono-3.png'),
+               'img' => App::setFilePath('/assets/images/illustrations/others/atencion-prioritaria-clientes-equipo-escala.png'),
+'img_alt' => 'Ilustración de un computador con un botón de WhatsApp en referencia a la atención prioritaria por WhatsApp, Email y Chat de parte de nuestro equipo',
                'title' => '
                     Atención prioritaria por <br class="space">
                     WhatsApp, Email y Chat <br class="space">
@@ -320,7 +329,8 @@ $parameters = [
                'enableButton' => false,
            ],
            [
-               'img' => App::setFilePath('/assets/images/illustrations/others/icono-4.png'),
+               'img' => App::setFilePath('/assets/images/illustrations/others/gerente-cuentas-asignado-equipo-escala.png'),
+'img_alt' => 'Ilustración de un astronauta con capa y un computador en sus manos en referencia al gerente de cuentas que se asigna a clientes por parte de Escala',
                'title' => '
                       Gerente de cuentas asignado <br class="space">
                       con plan personalizado <br class="space">
@@ -330,7 +340,8 @@ $parameters = [
                'enableButton' => false,
            ],
            [
-               'img' => App::setFilePath('/assets/images/illustrations/others/icono-5.png'),
+               'img' => App::setFilePath('/assets/images/illustrations/others/configuraciones-personalizadas-creacion-plantillas-landing-pages-escala.png'),
+'img_alt' => 'Ilustración de una hoja en la se está escribiendo en referencia a las configuraciones personalizadas y creación de plantillas de landing pages por parte del equipo de Escala',
                'title' => '
                     Configuraciones personalizadas <br class="space">
                     y creación de plantillas  de páginas <br class="space">
@@ -365,7 +376,8 @@ $parameters = [
   'enableButton' => false,
   'elements' => array(
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-01.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/escala-plataforma-crm-todo-en-uno-amigable-intuitiva.png'),
+'img_alt' => 'Ilustración de una libreta de notas con un imán en referencia a Escala como una plataforma CRM todo en uno amigable e intuitiva',
                   'title' => '
                         Una plataforma <br class="space">
                         CRM todo-en-uno <br class="space">
@@ -376,7 +388,8 @@ $parameters = [
 
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-02.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/acompanamiento-en-vivo-implementacion-equipo-escala.png'),
+'img_alt' => 'Ilustración de una libreta de notas con un imán en referencia a Escala como una plataforma CRM todo en uno amigable e intuitiva',
                   'title' => '
                     Acompañamiento de expertos <br class="space">
                     <span class="blueLightColor11">
@@ -388,7 +401,8 @@ $parameters = [
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-03.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/funcionalidades-marketing-ventas-fidelizacion-escala.png'),
+'img_alt' => 'Ilustración de un megáfono en referencia a todas las funcionalidades de marketing, ventas y fidelización en un solo lugar, Escala',
                   'title' => '
                         Todas las funcionalidades de <br class="space">
                         marketing, ventas y fidelización <br class="space">
@@ -398,7 +412,8 @@ $parameters = [
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-04.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/escala-plataforma-100-espanol-empresas-latam.png'),
+'img_alt' => 'Ilustración de un computador con una letra Ñ gigante en su pantalla en referencia a que Escala es una plataforma 100% en español, pensada para impulsar el crecimiento de las empresas latinoamericanas',
                   'title' => '
                         100% en español, <span class="blueLightColor11">
                           pensada para <br class="space">
@@ -410,7 +425,8 @@ $parameters = [
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/5ventajas-icono-05.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/planes-medida-tamano-empresas-escala.png'),
+'img_alt' => 'Ilustración de un computador con una línea de crecimiento monetario en su teclado en referencia a los planes hechos a la medida y tamaños de empresas de Escala',
                   'title' => '
                         Con planes hechos a tu medida, <br class="space">
                         <span class="blueLightColor11">
@@ -1188,7 +1204,7 @@ $items = [
 
           <div class="containerImage">
 
-            <img  src="{!! App::setFilePath('/assets/images/illustrations/others/escala_ship.png') !!}" alt="" loading="lazy">
+            <img  src="{!! App::setFilePath('/assets/images/illustrations/others/escala-plataforma-generar-leads-clientes-ventas.png') !!}" alt="Ilustración de un cohete en curso en referencia a Escala como la plataforma ideal para crecer y generar más leads, clientes y ventas" alt="" loading="lazy">
 
           </div>
 
