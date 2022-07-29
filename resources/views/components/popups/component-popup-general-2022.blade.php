@@ -185,7 +185,7 @@
 
                                             @else
 
-                                                <img src="{!! App::setFilePath('/assets/images/person/image_popup1.png') !!}">
+                                                <img src="{!! App::setFilePath('/assets/images/person/prueba-escala-popup-cta.png') !!}" alt="Ilustración de un hombre con un computador en sus manos y gráficos de crecimiento a su alrededor en referencia a Escala como la plataforma de marketing y ventas ideal para el crecimiento de negocios en línea">
 
                                             @endif
 

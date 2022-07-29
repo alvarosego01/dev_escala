@@ -77,7 +77,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{{ $r['img'] }}" alt="" loading="lazy">
+                                    <img src="{{ $r['img'] }}" loading="lazy" @if(isset($r['img_alt']) && $r['img_alt'] != null) alt="{!! $r['img_alt'] !!}" @endif>
                                 </div>
                             </div>
 
@@ -176,7 +176,8 @@
 
                     <div class="image">
                         <div class="containerImage">
-                            <img src="{{ $r['img'] }}" alt="" loading="lazy">
+
+                            <img src="{{ $r['img'] }}" loading="lazy" @if(isset($r['img_alt']) && $r['img_alt'] != null) alt="{!! $r['img_alt'] !!}" @endif>
                         </div>
                     </div>
 
