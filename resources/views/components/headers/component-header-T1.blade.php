@@ -67,7 +67,7 @@ if (!$threeCol) {
                                     <div class="ele ele1 col-md-12 col-lg-6">
 
                                         <div class="containerImage">
-                                            <img src="{{ $image }}" alt="" loading="lazy">
+                                            <img @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif src="{{ $image }}" alt="" loading="lazy">
                                         </div>
 
                                     </div>
@@ -101,7 +101,7 @@ if (!$threeCol) {
                                     @endif
 
                                     <div class="containerImage">
-                                        <img src="{{ $image }}" alt="" loading="lazy">
+                                        <img @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif src="{{ $image }}" alt="" loading="lazy">
                                     </div>
 
 
@@ -195,7 +195,7 @@ if (!$threeCol) {
                                 <div class="ele ele1 col-md-12 col-lg-6">
 
                                     <div class="containerImage">
-                                        <img src="{{ $image }}" alt="" loading="lazy">
+                                        <img @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif src="{{ $image }}" alt="" loading="lazy">
                                     </div>
 
                                 </div>
@@ -229,7 +229,7 @@ if (!$threeCol) {
                                 @endif
 
                                 <div class="containerImage">
-                                    <img src="{{ $image }}" alt="" loading="lazy">
+                                    <img @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif src="{{ $image }}" alt="" loading="lazy">
                                 </div>
 
 
