@@ -386,6 +386,7 @@ class SetComponents extends Controller
                 "views/template-escalaMarketing-marketing.blade.php",
                 "views/template-escala-subpages-marketing.blade.php",
                 "views/template-subPage-about-us.blade.php",
+                "views/template-vn-program-alliance.blade.php",
                 "views/template-func-page-builder.blade.php",
                 "views/template-func-page-builder-2022.blade.php",
                 "views/template-func-crm-2022.blade.php",

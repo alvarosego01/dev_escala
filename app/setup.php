@@ -149,6 +149,11 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_style('func_CRM2022.css', asset_path('styles/pages/func/2022/crm_2022.css'), false, THEME_VERSION);
         }
 
+        //  SUB PAGES - Programa de alianzas vane
+        // --- Program alliance
+        if ( is_page_template("views/template-vn-program-alliance.blade.php") ) {
+            wp_enqueue_style('programAlliance.css', asset_path('styles/pages/subPages/vn/programAlliance.css'), false, THEME_VERSION);
+        }
         //  SUB PAGES
         // ---Pricing page
         if ( is_page_template("views/template-subPage-pricing-page.blade.php") ) {

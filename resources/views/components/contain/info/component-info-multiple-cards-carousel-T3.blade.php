@@ -66,18 +66,11 @@ $customId = uniqid();
 
                 @endif
 
-
-
-                {{-- desktopElement --}}
-                {{-- mobileElement --}}
-
                 <section class="desktopElement innerSectionElement sct2 ">
-                    <!--Carousel Wrapper-->
                     <div id="carousel-{{ $classSection }}" class="carousel slide carousel-fade carousel-multi-item"
                         data-ride="carousel">
 
                         @foreach ($elements as $x)
-                            <!--First slide-->
                             <div class="carousel-item  @if ($loop->first) active @endif">
                                 <div class="row">
                                     @foreach ($x as $r)
@@ -279,11 +272,9 @@ $customId = uniqid();
             <section class="desktopElement innerSectionElement sct2 ">
 
 
-                <!--Carousel Wrapper-->
                 <div id="carousel-{{ $classSection }}" class="carousel slide carousel-fade carousel-multi-item" data-ride="carousel">
 
                     @foreach ($elements as $x)
-                        <!--First slide-->
 
                         <div class="carousel-item  @if ($loop->first) active @endif">
                             <div class="row">

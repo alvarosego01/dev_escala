@@ -70,7 +70,6 @@ $customId = uniqid();
 
                     <div class="row">
                         @foreach ($elements as $r)
-                            <!--First slide-->
                             <div class="item col-md-12 col-lg-4 ">
 
 
@@ -180,7 +179,6 @@ $customId = uniqid();
 
                 <div class="row">
                      @foreach ($elements as $r)
-                         <!--First slide-->
                          <div class="item col-md-12 col-lg-4 ">
 
 
