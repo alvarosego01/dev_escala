@@ -114,7 +114,7 @@ Elige el programa de alianza
                     'enableButton' => true,
                     'textButton' => 'Aplicar',
                     'typeButton' => 'secondary_lineButton',
-                    'urlButton' => '#',
+                    'urlButton' => 'https://alianzas.escala.com/programa-partners',
                 ],
                 [
                     'img' => App::setFilePath('/assets/images/illustrations/others/alianza_icono-02.png'),
@@ -151,7 +151,7 @@ Elige el programa de alianza
                     'enableButton' => true,
                     'textButton' => 'Aplicar',
                     'typeButton' => 'secondary_lineButton',
-                    'urlButton' => '#',
+                    'urlButton' => 'https://alianzas.escala.com/programa-afiliados',
                 ],
                 [
                     'img' => App::setFilePath('/assets/images/illustrations/others/alianza_icono-03.png'),
@@ -188,7 +188,7 @@ Elige el programa de alianza
                     'enableButton' => true,
                     'textButton' => 'Consultar asesor',
                     'typeButton' => 'secondary_lineButton',
-                    'urlButton' => '#',
+                    'urlButton' => 'https://qrco.de/bdCATF',
                 ],
                 [
                     'img' => App::setFilePath('/assets/images/illustrations/others/alianza_icono-04.png'),
@@ -228,7 +228,7 @@ Elige el programa de alianza
                     'enableButton' => true,
                     'textButton' => 'Consultar asesor',
                     'typeButton' => 'secondary_lineButton',
-                    'urlButton' => '#',
+                    'urlButton' => 'https://qrco.de/bdCATF',
                 ],
             ],
         ];
@@ -346,7 +346,7 @@ Elige el programa de alianza
 
                         </div>
 
-                        <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                        <a  class=" primaryButton hoverInEffect " href="https://qrco.de/bdCATF">
                           Conectar
                         </a>
 
