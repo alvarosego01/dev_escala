@@ -996,21 +996,45 @@ jQuery(document).ready(function () {
         }
 
         calculateFinal(calculate);
+        var m = jQuery('input.contactsField[typeProcess='+typeProcess+']').val();
 
-        // var m = jQuery('input.contactsField[typeProcess='+typeProcess+']').val();
-        // if( m < 5000 ){
+        m = parseInt(m);
 
-        //     jQuery('input#checkPro').attr('disabled', true);
+        console.log('la eme', m);
 
-        //     jQuery('input#checkStarter').click();
+        if(m > 100000){
 
-        // }
+            jQuery('.showInfosection').css({
+                'display': 'none'
+            });
+            jQuery('.finalButtons').css({
+                'display': 'none'
+            });
 
-        // if( m >= 5000 ){
+            jQuery('.showInfosection.outLimit').css({
+                'display': 'flex'
+            });
+            jQuery('.finalButtons.outLimit').css({
+                'display': 'flex'
+            });
 
-        //     jQuery('input#checkPro').attr('disabled', false);
+        }else{
 
-        // }
+            jQuery('.showInfosection').css({
+                'display': 'flex'
+            });
+            jQuery('.finalButtons').css({
+                'display': 'flex'
+            });
+
+            jQuery('.showInfosection.outLimit').css({
+                'display': 'none'
+            });
+            jQuery('.finalButtons.outLimit').css({
+                'display': 'none'
+            });
+
+        }
 
 
 
