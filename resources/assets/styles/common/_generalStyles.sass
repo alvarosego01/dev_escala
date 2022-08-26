@@ -438,6 +438,54 @@ a[disabled]
     &:hover
         color: $colorOrange!important
 
+.secondary_lineButton,
+.menuButton.menuSecondary_lineButton a,
+.menuButton.menuSecondary_lineButton button
+    display: block
+    text-decoration: none
+    font-size: 18px
+    line-height: 1
+    padding: 12.5px 5px!important
+    border-radius: 7px
+    color: $colorGreenBlue
+    background-color: transparent!important
+    width: fit-content
+    transition: $transitionButton
+    transform: scale(1)
+    font-family: Nunito
+    position: relative
+    font-weight: 700
+    @include responsivo(telefonoTable)
+        font-size: 12.5px!important
+        padding: 10px!important
+    @include responsivo(pcMedio)
+        font-size: 18px!important
+        padding: 10px!important
+    @include responsivo(smallPcTablet)
+        font-size: 14px
+
+    &::after
+        content: ''
+        width: 100%
+        position: absolute
+        left: 0
+        bottom: 5px
+        right: 0
+        height: 1px
+        border-bottom: 1px solid $colorGreenBlue
+        display: block
+        margin: 0 auto
+        // transform: translateX(-2.5%)
+        transition: $transitionButton
+
+    &:hover
+        color: $colorOrange
+        &::after
+            // width: 120%
+            border-bottom: 1px solid $colorOrange
+
+
+
 .primaryButton,
 .menuButton.menuPrimaryButton a,
 .menuButton.menuPrimaryButton button
