@@ -122,7 +122,7 @@
 
 ',
 'typeVideo' =>  'localvideo',
-  'videoEmbed' =>  App::setFilePath('/assets/videos/escala_post_registro_lead.mp4'),
+  'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
   'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
   'text' => '
 Escala es la Plataforma de CRM todo-en-uno creada por <br class="desktopTabletElement">
