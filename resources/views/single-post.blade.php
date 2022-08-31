@@ -158,7 +158,8 @@
               en uno de marketing digital y ventas que te ayudará <br class="desktopTabletElement">
               a crecer de manera acelerada',
             'textForm' => 'Pruébalo gratis ahora',
-            'image' => App::setFilePath('/assets/images/illustrations/otto/otto_blog_form.png'),
+            'image' => App::setFilePath('/assets/images/illustrations/otto/otto-escala-cta-formulario-blogs.png'),
+'img_alt' => 'Ilustración de Otto (mascota de Escala) con las manos arriba celebrando en referencia a invitar a las personas a registrarse en el formulario de contacto de los rtículos del blog',
             'setForm' => $setForm
         ];
       @endphp

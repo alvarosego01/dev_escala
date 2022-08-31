@@ -14,32 +14,94 @@
 
     @php
     $parameters = array(
-     'backgroundImageType' => false,
+     'backgroundImageType' => true,
      'overlay' => false,
      'classSection' => 'threeCol homeSection0 newHome',
      'title' => '
-     <span class="bold" style="color: #B9E6E9" >CRM + Expertos =</span> <br class="space">
+     <small>Escala CRM</small> <br class="space">
+     <span class="bold" style="color: #fff" >Atrae y convierte</span> <br class="space">
       <span style="color: #FAD872">
-        Escalar con éxito
+        más clientes fieles
       </span>
+
     ',
      'text' => '<span class="whiteColor">
-          La plataforma CRM todo-en-uno con <br class="space">
-          acompañamiento en vivo de especialistas <br class="space">
-          para impulsar el crecimiento de tu empresa.
+          Con nuestras herramientas de <br class="space">
+          automatización de marketing, <br class="space">
+          ventas y el CRM más fácil de usar
       </span>
       ',
      'threeCol' => true,
      'textForm' => 'Empieza a probar Escala',
-     'backgroundImage' => null,
+     'backgroundImage' => App::setFilePath('/assets/images/backgrounds/fondo banner principal.png'),
   'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/person/plataforma-escala-home.png'),
+  'image' => App::setFilePath('/assets/images/person/home_header_person.png'),
 'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM'
     ) ;
     @endphp
 
     @header_t1( $parameters )
     @endheader_t1
+
+
+    <section class="customSection sectionParent homeSection1_1">
+
+      <div class="section-row">
+
+            <section class="innerSectionElement sct1">
+
+              <div class="containElements">
+
+                <div class="element">
+                  <div class="numbers">
+                      <span>
+                        1000+
+                      </span>
+                  </div>
+                  <p class="text">
+                    Clientes han confiado <br class="space">
+                    en nosotros
+                  </p>
+                </div>
+                <div class="element">
+                  <div class="numbers">
+                      <span>
+                        300%
+                      </span>
+                  </div>
+                  <p class="text">
+                    Tasa de crecimiento en <br class="space"> clientes con + 6 meses
+                  </p>
+                </div>
+                <div class="element">
+                  <div class="numbers">
+                      <span>
+                        100K+
+                      </span>
+                  </div>
+                  <p class="text">
+                    Emails enviados <br class="space">
+                    con Escala
+                  </p>
+                </div>
+                <div class="element">
+                  <div class="numbers">
+                      <span>
+                        2.500
+                      </span>
+                  </div>
+                  <p class="text">
+                    Aplicaciones que se <br class="space"> pueden integrar a Escala
+                  </p>
+                </div>
+
+              </div>
+
+            </section>
+
+      </div>
+
+    </section>
 
 
 @php
@@ -60,7 +122,7 @@
 
 ',
 'typeVideo' =>  'localvideo',
-  'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
+  'videoEmbed' =>  App::setFilePath('/assets/videos/escala_post_registro_lead.mp4'),
   'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
   'text' => '
 Escala es la Plataforma de CRM todo-en-uno creada por <br class="desktopTabletElement">
