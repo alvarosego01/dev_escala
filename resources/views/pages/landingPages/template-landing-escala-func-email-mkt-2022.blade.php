@@ -40,7 +40,7 @@
       'subTitlePrincipal' => null,
       'title' => null,
       'typeVideo' =>  'localvideo',
-      'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
+      'videoEmbed' =>  App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4'),
       'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
       'text' => '
           <span class="greenBlueColor">
@@ -480,32 +480,16 @@
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         'textButton' => 'Prueba Gratis',
         'mob_reviews' => array(
-          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-1.jpeg'),
-          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-2.jpeg'),
-          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-3.jpeg'),
-          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-4.jpeg'),
-          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-5.jpeg'),
-          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-6.jpeg'),
-          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-7.jpeg'),
-          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-8.jpeg'),
-          App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-9.jpeg')
+          App::setFilePath('/assets/images/illustrations/others/email_mkt_trust_1.png'),
+
         ),
         'desk_reviews' => array(
           [
-            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-1.jpeg'),
-            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-2.jpeg'),
-            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-3.jpeg')
+            App::setFilePath('/assets/images/illustrations/others/email_mkt_trust_1.png'),
+            App::setFilePath('/assets/images/illustrations/others/email_mkt_trust_1.png'),
+            App::setFilePath('/assets/images/illustrations/others/email_mkt_trust_1.png')
           ],
-          [
-            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-4.jpeg'),
-            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-5.jpeg'),
-            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-6.jpeg')
-          ],
-          [
-            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-7.jpeg'),
-            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-8.jpeg'),
-            App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-9.jpeg')
-          ]
+
         ),
       ];
 @endphp
