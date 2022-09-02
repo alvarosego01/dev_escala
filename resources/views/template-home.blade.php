@@ -119,6 +119,7 @@
     <small>
       Andrés Moreno, Fundador de Escala y Open English
     </small>
+
 ',
 'typeVideo' =>  'localvideo',
   'videoEmbed' =>  App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4'),
@@ -130,9 +131,11 @@ empresas de habla hispana a alcanzar el éxito.
 
 <div class="specialButton">
   <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una prueba gratis de Escala CRM">
+
   <a href="#" class=" openPopUpButton popup-general-trial-2022">
     Solicita tu Prueba Gratis
   </a>
+
   </div>
   ',
   'enableButton' => false,
@@ -142,6 +145,7 @@ empresas de habla hispana a alcanzar el éxito.
   'side' => 'left',
  ) ;
 @endphp
+
 @contain_text_video_T1( $parameters )
 @endcontain_text_video_T1
 
