@@ -353,7 +353,6 @@ a largo plazo </span>'
        ],
    ];
    @endphp
-
    @contain_multiple_cards_T2( $parameters )
    @endcontain_multiple_cards_T2
 

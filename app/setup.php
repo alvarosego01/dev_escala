@@ -138,6 +138,10 @@ add_action('wp_enqueue_scripts', function () {
         if ( is_page_template("views/template-landing-escala-crm-sin-expertos-2022.blade.php") ) {
             wp_enqueue_style('landing_EscalaCRM-sin-expertos.css', asset_path('styles/pages/landingPages/landing_Escala_crm_sin_expertos.css'), false, THEME_VERSION);
         }
+        // ---Landing escala email marketing 2022
+        if ( is_page_template("views/template-landing-escala-func-email-mkt-2022.blade.php") ) {
+            wp_enqueue_style('landing_escala_func_email_mkt_2022.css', asset_path('styles/pages/landingPages/landing_escala_func_email_mkt_2022.css'), false, THEME_VERSION);
+        }
         // -------------------------------------- //
         //  FUNCTIONALITIES 2022
         // ---Page builder
