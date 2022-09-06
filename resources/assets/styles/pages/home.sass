@@ -527,7 +527,7 @@
                                     font-family: Nunito
                                     font-style: normal
                                     font-weight: 600
-                                    font-size: 20px
+                                    // font-size: 20px
                                     line-height: 1.25
                                     letter-spacing: -0.03em
                                     text-transform: uppercase
@@ -536,8 +536,11 @@
                                     @include responsivo(pcMedio)
                                         font-size: 16px
                                     @include responsivo(general)
-                                        font-size: 18px
-
+                                        font-size: 16px
+                                    @include responsivo(smallPcTablet)
+                                        font-size: 15px
+                                    @include responsivo(resto)
+                                        font-size: 16px
 
 
 
