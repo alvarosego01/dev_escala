@@ -18,8 +18,8 @@
      'overlay' => false,
      'classSection' => 'threeCol homeSection0 newHome',
      'title' => '
-     <small>Escala CRM</small> <br class="space">
-     <span class="bold" style="color: #fff" >Atrae y convierte</span> <br class="space">
+     <small>Escala CRM y automatizaciones</small> <br class="space">
+     <span style="color: #fff; font-weight: 700;" >Atrae y convierte</span> <br class="space">
       <span style="color: #FAD872">
         más clientes fieles
       </span>
@@ -122,7 +122,6 @@ Escala basándonos en nuestra <strong>
       <span>- Andrés Moreno</span> <br class="space">
       <small>Fundador de Escala y Open English</small>
     </span>
-
 ',
 'typeVideo' =>  'localvideo',
   'videoEmbed' =>  App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4'),
