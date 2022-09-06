@@ -207,7 +207,6 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
 @endphp
 
 @contain_text_image_T1( $parameters )
-
 @endcontain_text_image_T1
 
 

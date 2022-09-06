@@ -14,32 +14,94 @@
 
     @php
     $parameters = array(
-     'backgroundImageType' => false,
+     'backgroundImageType' => true,
      'overlay' => false,
      'classSection' => 'threeCol homeSection0 newHome',
      'title' => '
-     <span class="bold" style="color: #B9E6E9" >CRM + Expertos =</span> <br class="space">
+     <small >Escala CRM y automatizaciones</small> <br class="space">
+     <span style="color: #fff; font-weight: 700;" >Atrae y convierte</span> <br class="space">
       <span style="color: #FAD872">
-        Escalar con éxito
+        más clientes fieles
       </span>
+
     ',
      'text' => '<span class="whiteColor">
-          La plataforma CRM todo-en-uno con <br class="space">
-          acompañamiento en vivo de especialistas <br class="space">
-          para impulsar el crecimiento de tu empresa.
+          Con nuestras herramientas de <br class="space">
+          automatización de marketing, <br class="space">
+          ventas y el CRM más fácil de usar
       </span>
       ',
      'threeCol' => true,
      'textForm' => 'Empieza a probar Escala',
-     'backgroundImage' => null,
+     'backgroundImage' => App::setFilePath('/assets/images/backgrounds/fondo banner principal.png'),
   'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/person/plataforma-escala-home.png'),
+  'image' => App::setFilePath('/assets/images/person/home_header_person.png'),
 'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM'
     ) ;
     @endphp
 
     @header_t1( $parameters )
     @endheader_t1
+
+
+    <section class="customSection sectionParent homeSection1_1">
+
+      <div class="section-row">
+
+            <section class="innerSectionElement sct1">
+
+              <div class="containElements">
+
+                <div class="element">
+                  <div class="numbers">
+                      <span>
+                        1000+
+                      </span>
+                  </div>
+                  <p class="text">
+                    Clientes han confiado <br class="space">
+                    en nosotros
+                  </p>
+                </div>
+                <div class="element">
+                  <div class="numbers">
+                      <span>
+                        300%
+                      </span>
+                  </div>
+                  <p class="text">
+                    Tasa de crecimiento en <br class="space"> clientes con + 6 meses
+                  </p>
+                </div>
+                <div class="element">
+                  <div class="numbers">
+                      <span>
+                        100K+
+                      </span>
+                  </div>
+                  <p class="text">
+                    Emails enviados <br class="space">
+                    con Escala
+                  </p>
+                </div>
+                <div class="element">
+                  <div class="numbers">
+                      <span>
+                        2.500
+                      </span>
+                  </div>
+                  <p class="text">
+                    Aplicaciones que se <br class="space"> pueden integrar a Escala
+                  </p>
+                </div>
+
+              </div>
+
+            </section>
+
+      </div>
+
+    </section>
 
 
 @php
@@ -50,37 +112,35 @@
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
   'title' => '
-    “Es la plataforma que me hubiese gustado <br class="space">
-    tener cuando comencé, tiene todas las <br class="space">
-    herramientas en un solo lugar”
+  “Después de décadas construyendo negocios, creamos <br class="desktopTabletElement">
+Escala basándonos en nuestra <strong>
+  metodología para escalar <br class="desktopTabletElement">
+  pequeñas y medianas empresas”
+</strong>.
     <br class="space"><br class="space">
-    <small>
-      Andrés Moreno, Fundador de Escala y Open English
-    </small>
-
+    <span>
+      <span>- Andrés Moreno</span> <br class="space">
+      <small>Fundador de Escala y Open English</small>
+    </span>
 ',
 'typeVideo' =>  'localvideo',
-  'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
+  'videoEmbed' =>  App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4'),
   'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
   'text' => '
-Escala es la Plataforma de CRM todo-en-uno creada por <br class="desktopTabletElement">
-expertos de marketing, ventas y fidelización para ayudar a las <br class="desktopTabletElement">
-empresas de habla hispana a alcanzar el éxito.
-
-<div class="specialButton">
-  <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una prueba gratis de Escala CRM">
-
-  <a href="#" class=" openPopUpButton popup-general-trial-2022">
-    Solicita tu Prueba Gratis
-  </a>
-
-  </div>
-  ',
+<span>
+  Reconocido "Emprendedor de la Década", con apariciones en:
+  </span>
+<div class="specialIcons">
+  <img src="'.App::setFilePath('/assets/images/illustrations/others/icon_prensa_cnn.png').'" alt="Escala CNN icono prensa" class="prensaIcon">
+  <img src="'.App::setFilePath('/assets/images/illustrations/others/icon_prensa_wst.png').'" alt="Escala The wall street journal icono prensa" class="prensaIcon">
+  <img src="'.App::setFilePath('/assets/images/illustrations/others/icon_prensa_bbc.png').'" alt="Escala BBC icono prensa" class="prensaIcon">
+  <img src="'.App::setFilePath('/assets/images/illustrations/others/icon_prensa_mh.png').'" alt="Escala The miami herald icono prensa" class="prensaIcon">
+  </div>',
   'enableButton' => false,
   'urlButton' => '#lead-form',
   'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'textButton' => 'Prueba Escala ya',
-  'side' => 'left',
+  'side' => 'right',
  ) ;
 @endphp
 

@@ -75,7 +75,7 @@
                         @endif
 
                             <div class="containerImage">
-                                <img src="{{ $image }}" alt="" loading="lazy">
+                                <img src="{{ $image }}" alt="@if (isset($img_alt)) {{ $img_alt }} @endif" loading="lazy">
                             </div>
 
 
@@ -110,7 +110,7 @@
                         @endif
 
                             <div class="containerImage">
-                                <img src="{{ $image }}" alt="" loading="lazy">
+                                <img  src="{{ $image }}" alt="@if (isset($img_alt)) {{ $img_alt }} @endif" loading="lazy">
                             </div>
 
 

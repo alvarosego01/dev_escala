@@ -42,7 +42,7 @@ $l = ACF_CUSTOM::_getField('enable_popup', $idPagePopups);
         <script type="text/javascript">
 
         jQuery(document).ready(function () {
-        console.log('jet popup retirado');
+
         jQuery('.jet-popup.jet-popup--front-mode').remove();
 
 
