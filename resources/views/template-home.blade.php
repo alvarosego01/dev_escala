@@ -112,37 +112,36 @@
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
   'title' => '
-    “Es la plataforma que me hubiese gustado <br class="space">
-    tener cuando comencé, tiene todas las <br class="space">
-    herramientas en un solo lugar”
+  “Después de décadas construyendo negocios, creamos <br class="desktopTabletElement">
+Escala basándonos en nuestra <strong>
+  metodología para escalar <br class="desktopTabletElement">
+  pequeñas y medianas empresas”
+</strong>.
     <br class="space"><br class="space">
-    <small>
-      Andrés Moreno, Fundador de Escala y Open English
-    </small>
+    <span>
+      <span>- Andrés Moreno</span> <br class="space">
+      <small>Fundador de Escala y Open English</small>
+    </span>
 
 ',
 'typeVideo' =>  'localvideo',
   'videoEmbed' =>  App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4'),
   'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
   'text' => '
-Escala es la Plataforma de CRM todo-en-uno creada por <br class="desktopTabletElement">
-expertos de marketing, ventas y fidelización para ayudar a las <br class="desktopTabletElement">
-empresas de habla hispana a alcanzar el éxito.
-
-<div class="specialButton">
-  <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una prueba gratis de Escala CRM">
-
-  <a href="#" class=" openPopUpButton popup-general-trial-2022">
-    Solicita tu Prueba Gratis
-  </a>
-
-  </div>
-  ',
+<span>
+  Reconocido "Emprendedor de la Década", con apariciones en:
+  </span>
+<div class="specialIcons">
+  <img src="'.App::setFilePath('/assets/images/illustrations/others/icon_prensa_cnn.png').'" alt="Escala CNN icono prensa" class="prensaIcon">
+  <img src="'.App::setFilePath('/assets/images/illustrations/others/icon_prensa_wst.png').'" alt="Escala The wall street journal icono prensa" class="prensaIcon">
+  <img src="'.App::setFilePath('/assets/images/illustrations/others/icon_prensa_bbc.png').'" alt="Escala BBC icono prensa" class="prensaIcon">
+  <img src="'.App::setFilePath('/assets/images/illustrations/others/icon_prensa_mh.png').'" alt="Escala The miami herald icono prensa" class="prensaIcon">
+  </div>',
   'enableButton' => false,
   'urlButton' => '#lead-form',
   'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'textButton' => 'Prueba Escala ya',
-  'side' => 'left',
+  'side' => 'right',
  ) ;
 @endphp
 
