@@ -18,7 +18,7 @@
      'overlay' => false,
      'classSection' => 'threeCol homeSection0 newHome',
      'title' => '
-     <small>Escala CRM y automatizaciones</small> <br class="space">
+     <small >Escala CRM y automatizaciones</small> <br class="space">
      <span style="color: #fff; font-weight: 700;" >Atrae y convierte</span> <br class="space">
       <span style="color: #FAD872">
         más clientes fieles
