@@ -55,7 +55,7 @@
                 <div class="element">
                   <div class="numbers">
                       <span>
-                        1000+
+                        +1000
                       </span>
                   </div>
                   <p class="text">
@@ -76,7 +76,7 @@
                 <div class="element">
                   <div class="numbers">
                       <span>
-                        100K+
+                        +4.5M
                       </span>
                   </div>
                   <p class="text">
@@ -87,7 +87,7 @@
                 <div class="element">
                   <div class="numbers">
                       <span>
-                        2.500
+                        +5000
                       </span>
                   </div>
                   <p class="text">

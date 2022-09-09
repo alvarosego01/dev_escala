@@ -1,12 +1,12 @@
 
-<div id="landing_crm_expertos_funcionalidades">
+<div id="landing_crm_atrae_convierte_funcionalidades">
   <div class="sections">
 
     @php
     $parameters = array(
      'backgroundImageType' => true,
      'overlay' => false,
-     'classSection' => 'threeCol landing_crm_expertos_funcionalidades_0 newHome',
+     'classSection' => 'threeCol landing_crm_atrae_convierte_funcionalidades_0 newHome',
      'title' => '
      <small >Escala CRM y automatizaciones</small> <br class="space">
      <span style="color: #fff; font-weight: 700;" >Atrae y convierte</span> <br class="space">
@@ -34,62 +34,62 @@
     @endheader_t1
 
 
-    <section class="customSection sectionParent landing_crm_expertos_funcionalidades_1_1">
+    <section class="customSection sectionParent landing_crm_atrae_convierte_funcionalidades_1_1">
 
       <div class="section-row">
 
-            <section class="innerSectionElement sct1">
+        <section class="innerSectionElement sct1">
 
-              <div class="containElements">
+          <div class="containElements">
 
-                <div class="element">
-                  <div class="numbers">
-                      <span>
-                        1000+
-                      </span>
-                  </div>
-                  <p class="text">
-                    Clientes han confiado <br class="space">
-                    en nosotros
-                  </p>
-                </div>
-                <div class="element">
-                  <div class="numbers">
-                      <span>
-                        300%
-                      </span>
-                  </div>
-                  <p class="text">
-                    Tasa de crecimiento en <br class="space"> clientes con + 6 meses
-                  </p>
-                </div>
-                <div class="element">
-                  <div class="numbers">
-                      <span>
-                        100K+
-                      </span>
-                  </div>
-                  <p class="text">
-                    Emails enviados <br class="space">
-                    con Escala
-                  </p>
-                </div>
-                <div class="element">
-                  <div class="numbers">
-                      <span>
-                        2.500
-                      </span>
-                  </div>
-                  <p class="text">
-                    Aplicaciones que se <br class="space"> pueden integrar a Escala
-                  </p>
-                </div>
-
+            <div class="element">
+              <div class="numbers">
+                  <span>
+                    +1000
+                  </span>
               </div>
+              <p class="text">
+                Clientes han confiado <br class="space">
+                en nosotros
+              </p>
+            </div>
+            <div class="element">
+              <div class="numbers">
+                  <span>
+                    300%
+                  </span>
+              </div>
+              <p class="text">
+                Tasa de crecimiento en <br class="space"> clientes con + 6 meses
+              </p>
+            </div>
+            <div class="element">
+              <div class="numbers">
+                  <span>
+                    +4.5M
+                  </span>
+              </div>
+              <p class="text">
+                Emails enviados <br class="space">
+                con Escala
+              </p>
+            </div>
+            <div class="element">
+              <div class="numbers">
+                  <span>
+                    +5000
+                  </span>
+              </div>
+              <p class="text">
+                Aplicaciones que se <br class="space"> pueden integrar a Escala
+              </p>
+            </div>
 
-            </section>
+          </div>
 
-      </div>
+        </section>
+
+  </div>
 
     </section>
 
@@ -97,7 +97,7 @@
 @php
  $parameters = array(
   'type' => 'backgroundColor',
-  'classSection' => 'landing_crm_expertos_funcionalidades__1_2',
+  'classSection' => 'landing_crm_atrae_convierte_funcionalidades__1_2',
   'enableTitle' => false,
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
@@ -141,7 +141,7 @@ Escala basándonos en nuestra <strong>
 @php
 $parameters = [
     'type' => 'backgroundColor',
-    'classSection' => 'landing_crm_expertos_funcionalidades__1_3',
+    'classSection' => 'landing_crm_atrae_convierte_funcionalidades__1_3',
     'enableTitle' => true,
     'titlePrincipal' => '
        <span class="greenBlueColor">El CRM todo-en-uno de Escala <br class="desktopTabletElement"></span>
@@ -233,7 +233,7 @@ $parameters = [
 @php
 $parameters = [
     'type' => 'backgroundColor',
-    'classSection' => 'landing_crm_expertos_funcionalidades_2',
+    'classSection' => 'landing_crm_atrae_convierte_funcionalidades_2',
     'enableTitle' => true,
     'titlePrincipal' => '
     <span class="greenBlueColor">Potencia el crecimiento de tu empresa</span>
@@ -295,7 +295,7 @@ $parameters = [
 @endcontain_multiple_cards_T2
 
 
-<section class="customSection sectionParent landing_crm_expertos_funcionalidades_3">
+<section class="customSection sectionParent landing_crm_atrae_convierte_funcionalidades_3">
 
   <div class="section-row">
 
@@ -399,7 +399,7 @@ $parameters = [
  @php
  $parameters = [
      'type' => 'backgroundColor',
-     'classSection' => 'landing_crm_expertos_funcionalidades_4',
+     'classSection' => 'landing_crm_atrae_convierte_funcionalidades_4',
      'enableTitle' => false,
      'titlePrincipal' => null,
      'subTitlePrincipal' => null,
@@ -428,7 +428,7 @@ $parameters = [
 @php
 $parameters = [
 'type' => 'backgroundColor',
-'classSection' => 'landing_crm_expertos_funcionalidades_4_2',
+'classSection' => 'landing_crm_atrae_convierte_funcionalidades_4_2',
 'enableTitle' => false,
 'titlePrincipal' => null,
 'subTitlePrincipal' => null,
@@ -503,7 +503,7 @@ $parameters = [
 @php
 $parameters = [
   'type' => 'backgroundColor',
-  'classSection' => 'landing_crm_expertos_funcionalidades_6',
+  'classSection' => 'landing_crm_atrae_convierte_funcionalidades_6',
   'enableTitle' => true,
   'titlePrincipal' => '
       5 Ventajas de potenciar <br class="space">
@@ -588,7 +588,7 @@ $parameters = [
 
 @php
        $parameters = [
-        'classSection' => 'landing_crm_expertos_funcionalidades_7',
+        'classSection' => 'landing_crm_atrae_convierte_funcionalidades_7',
         'enableTitle' => true,
         'titlePrincipal' => '
         Nuestros clientes te dicen <br class="space">
@@ -637,7 +637,7 @@ $parameters = [
     {{-- @php
     $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landing_crm_expertos_funcionalidades_7',
+        'classSection' => 'landing_crm_atrae_convierte_funcionalidades_7',
         'enableTitle' => true,
         'titlePrincipal' => '
         ¡Somos un equipo! <br class="space">
@@ -719,7 +719,7 @@ $parameters = [
     {{-- @contain_multiple_cards_T2( $parameters )
     @endcontain_multiple_cards_T2 --}}
 
-    <section class="customSection sectionParent landing_crm_expertos_funcionalidades_8">
+    <section class="customSection sectionParent landing_crm_atrae_convierte_funcionalidades_8">
 
       <div class="section-row">
 
@@ -1311,7 +1311,7 @@ $items = [
 
 
  $parameters = array(
-   'classSection' => 'landing_crm_expertos_funcionalidades_9',
+   'classSection' => 'landing_crm_atrae_convierte_funcionalidades_9',
    'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
    'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
    'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
@@ -1321,7 +1321,7 @@ $items = [
 @contain_FAQ_T1( $parameters )
 @endcontain_FAQ_T1
 
-<section class="customSection sectionParent landing_crm_expertos_funcionalidades_10 fullWidth">
+<section class="customSection sectionParent landing_crm_atrae_convierte_funcionalidades_10 fullWidth">
 
   <img  src="{!! App::setFilePath('/assets/images/overlays/overlay_stars.png') !!}"  alt="" class="backOverlay">
 

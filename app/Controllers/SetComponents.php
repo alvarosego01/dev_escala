@@ -345,7 +345,7 @@ class SetComponents extends Controller
                 "views/template-landing-escala-func-email-mkt-2022.blade.php",
                 "views/template-landing-escala-landings-sin-expertos-2022.blade.php",
                 "views/template-landing-escala-crm-2022.blade.php",
-                "views/template-landing-escala-crm-mas-expertos-funcionalidades.blade.php",
+                "views/template-landing-escala-crm-atrae-convierte-9sep22.blade.php",
                 "views/template-landing-escala-crm-sin-expertos-2022.blade.php",
                 "views/template-pruebas.blade.php",
                 "views/template-document-terms-text.blade.php",
