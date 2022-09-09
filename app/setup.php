@@ -142,9 +142,9 @@ add_action('wp_enqueue_scripts', function () {
         if ( is_page_template("views/template-landing-escala-func-email-mkt-2022.blade.php") ) {
             wp_enqueue_style('landing_escala_func_email_mkt_2022.css', asset_path('styles/pages/landingPages/landing_escala_func_email_mkt_2022.css'), false, THEME_VERSION);
         }
-        // ---Landing escala crm expertos funcionalidades
-        if ( is_page_template("views/template-landing-escala-crm-mas-expertos-funcionalidades.blade.php") ) {
-            wp_enqueue_style('landing_crm_expertos_funcionalidades.css', asset_path('styles/pages/landingPages/landing_crm_expertos_funcionalidades.css'), false, THEME_VERSION);
+        // ---Landing escala crm landing_crm_atrae_convierte_9sept22.sass
+        if ( is_page_template("views/template-landing-escala-crm-atrae-convierte-9sep22.blade.php") ) {
+            wp_enqueue_style('landing_crm_atrae_convierte_9sept22.css', asset_path('styles/pages/landingPages/landing_crm_atrae_convierte_9sept22.css'), false, THEME_VERSION);
         }
         // -------------------------------------- //
         //  FUNCTIONALITIES 2022
