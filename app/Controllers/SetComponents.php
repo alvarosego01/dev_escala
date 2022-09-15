@@ -120,6 +120,7 @@ class SetComponents extends Controller
     {
 
         return array(
+            'components.contain.features.component-features-image-T1' => 'contain_features_image_T1',
             'components.contain.pricing.component-pricing-calculator-T1' => 'pricing_calculator_T1',
             'components.contain.pricing.component-pricing-price-card-T1' => 'pricing_card_T1',
             'components.contain.pricing.component-pricing-ventas-calculator-T1' => 'pricing_ventas_calculator_T1',
