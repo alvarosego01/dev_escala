@@ -46,23 +46,7 @@
                     width: 12.5px
                     margin-left: 7.5px
                     margin-right: 7.5px
-                // Use pseudo classes to increase the hit area by 10px on top and bottom.
-                // &::before
-                //     position: absolute
-                //     top: -10px
-                //     left: 0
-                //     display: inline-block
-                //     width: 100%
-                //     height: 10px
-                //     content: ""
-                // &::after
-                //     position: absolute
-                //     bottom: -10px
-                //     left: 0
-                //     display: inline-block
-                //     width: 100%
-                //     height: 10px
-                //     content: ""
+
             .active
                 background-color: #A4E7EA
 
@@ -862,7 +846,7 @@
     background-color: #FFFFFF
     @include responsivo(telefonoTable)
         padding: 25px 0
-        padding-top: 40px
+        padding-top: 25px
     @include responsivo(pcMedio)
         padding-top: 100px
     @include responsivo(smallPcTablet)
@@ -2043,32 +2027,39 @@
 
 
 #homeBootstrap .customSection.sectionParent.homeSection_13
-    padding: 50px 0
+
     background-color: white
-    @include responsivo(telefonoTable)
-        padding-bottom: 0
-    @include responsivo(pcMedio)
-        padding-bottom: 0
-    @include responsivo(general)
-        padding-bottom: 25px
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
+            padding: 25px 0
+            padding-bottom: 0
         @include responsivo(pcMedio)
             width: 90%
+            padding: 50px 0
+            padding-bottom: 0
 
         @include responsivo(general)
             width: 100%!important
             max-width: 1140px!important
+            padding: 50px 0
+            padding-bottom: 15px
         @include responsivo(smallPcTablet)
             max-width: 1100px!important
 
         @include responsivo(resto)
             width: 100%!important
             max-width: 1340px!important
+            padding: 50px 0
+            padding-bottom: 15px
 
-        .innerSectionElement.sct1
-            margin-bottom: 25px
+        section.innerSectionElement1
+            margin-bottom: 50px
+            @include responsivo(telefonoTable)
+                margin-bottom: 25px
+
+
+            // display: none
             .containElements
                 h2.primaryTitle
                     font-family: Nunito
@@ -2102,44 +2093,75 @@
                     @include responsivo(pcMedio)
                         font-size: 15px
 
-        .innerSectionElement.sct2
-            .containElements
-                display: flex
-                flex-direction: row
-                justify-content: space-around
-                align-content: center
-                align-items: center
-                @include responsivo(telefonoTable)
-                    display: flex
-                    flex-direction: row
-                    flex-flow: wrap
-                    justify-content: center
-                    align-content: center
-                    align-items: center
-                @include responsivo(pcMedio)
-                    display: flex
-                    flex-direction: row
-                    flex-flow: wrap
-                    justify-content: center
-                    align-content: center
-                    align-items: center
-                .logoImg
-                    @include responsivo(telefonoTable)
-                        width: 50%
-                    @include responsivo(pcMedio)
-                        width: 50%
-                    .containerImage
-                        padding: 0
-                        margin: 0
-                        img
-                            @include responsivo(telefonoTable)
-                                height: 50px
-                            @include responsivo(pcMedio)
-                                height: 50px
+        section.innerSectionElement2
+            .carousel.slide
+                margin: 0 auto
+            .carousel.slide.mobileElement
+
+                ol.carousel-indicators
+                    button
+                        background-color: #EFEDEE
+                    .active
+                        background-color: #36768A
+
+                .carousel-inner
+                    .carousel-item
+                        .row
+                            display: flex
+                            justify-content: center
+                            align-content: center
+                            align-items: center
+                            .sliderItem
+                                margin: 0 auto
+                                width: fit-content
+                                .containElements
+                                    .imageItem
+                                        .containerImage
+                                            padding: 0
+                                            margin: 0
+                                            img
+                                                @include responsivo(telefonoTable)
+                                                    height: 125px
+                                                @include responsivo(pcMedio)
+                                                    height: 125px
+                                                @include responsivo(general)
+                                                    height: 75px
+                                                @include responsivo(resto)
+                                                    height: 100px
+            .carousel.slide.desktopElement
+                ol.carousel-indicators
+                    display: none
+                .carousel-inner
+                    .carousel-item
+                        .row
                             @include responsivo(general)
-                                height: 75px
+                                display: flex
+                                flex-direction: row
+                                align-content: center
+                                align-items: center
+                                justify-content: space-evenly
                             @include responsivo(resto)
-                                height: 100px
+                                display: flex
+                                flex-direction: row
+                                align-content: center
+                                align-items: center
+                                justify-content: space-evenly
+                            .sliderItem
+                                width: fit-content
+                                .containElements
+                                    .imageItem
+                                        .containerImage
+                                            padding: 0
+                                            margin: 0
+                                            img
+                                                @include responsivo(telefonoTable)
+                                                    height: 50px
+                                                @include responsivo(pcMedio)
+                                                    height: 50px
+                                                @include responsivo(general)
+                                                    height: 75px
+                                                @include responsivo(resto)
+                                                    height: 100px
 
 #homeBootstrap .customSection.sectionParent.homeSection9
     background-color: white

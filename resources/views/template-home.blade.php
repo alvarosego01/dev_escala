@@ -744,72 +744,53 @@ $parameters = [
 @reviews_sliders_T1( $parameters )
 @endreviews_sliders_T1
 
-<section class="customSection sectionParent homeSection_13">
 
-  <div class="section-row">
+@php
+       $parameters = [
+        'classSection' => 'homeSection_13',
+        'enableTitle' => true,
+        'titlePrincipal' => '
+        Clientes que han confiado <span class="greenBlueColor">en nosotros</span>
+        ',
+        'subTitlePrincipal' => null,
+        'enableContainerButton' => true,
+        'urlButton' => '#',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        'textButton' => 'Prueba Gratis',
+        'enableContainerButton' => false,
+        'customID' => 'coop_logos_home',
+        'mob_reviews' => array(
 
-        <section class="innerSectionElement sct1">
+          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_4.png").'" loading="lazy"></div></div>',
+          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_5.png").'" loading="lazy"></div></div>',
+          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_1.png").'" loading="lazy"></div></div>',
+          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_3.png").'" loading="lazy"></div></div>',
+          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_2.png").'" loading="lazy"></div></div>'
 
-          <div class="containElements">
+        ),
+        'desk_reviews' => array(
+          [
+          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_4.png").'" loading="lazy"></div></div>',
+          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_5.png").'" loading="lazy"></div></div>',
+          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_1.png").'" loading="lazy"></div></div>',
+          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_3.png").'" loading="lazy"></div></div>',
+          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_2.png").'" loading="lazy"></div></div>'
+          ],
 
-            <h2 class="primaryTitle blackColor">
-              Clientes que han confiado <span class="greenBlueColor">en nosotros</span>
-            </h2>
+        ),
+      ];
+@endphp
 
-
-          </div>
-
-        </section>
-
-        <section class="innerSectionElement sct2">
-
-          <div class="containElements">
-
-
-              <div class="logoImg">
-                <div class="containerImage">
-
-                  <img  src="{!! App::setFilePath('/assets/images/logos/logo_coop_escala_4.png') !!}"  loading="lazy">
-
-                </div>
-              </div>
-              <div class="logoImg">
-                <div class="containerImage">
-
-                  <img  src="{!! App::setFilePath('/assets/images/logos/logo_coop_escala_5.png') !!}"  loading="lazy">
-
-                </div>
-              </div>
-              <div class="logoImg">
-                <div class="containerImage">
-
-                  <img  src="{!! App::setFilePath('/assets/images/logos/logo_coop_escala_1.png') !!}"  loading="lazy">
-
-                </div>
-              </div>
-              <div class="logoImg">
-                <div class="containerImage">
-
-                  <img  src="{!! App::setFilePath('/assets/images/logos/logo_coop_escala_3.png') !!}"  loading="lazy">
-
-                </div>
-              </div>
-              <div class="logoImg">
-                <div class="containerImage">
-
-                  <img  src="{!! App::setFilePath('/assets/images/logos/logo_coop_escala_2.png') !!}"  loading="lazy">
-
-                </div>
-              </div>
-
-            </div>
+@component_sections_sliders_T1( $parameters )
+@endcomponent_sections_sliders_T1
 
 
-        </section>
+{{-- // App::setFilePath('/assets/images/logos/logo_coop_escala_4.png'),
+//             App::setFilePath('/assets/images/logos/logo_coop_escala_5.png'),
+//             App::setFilePath('/assets/images/logos/logo_coop_escala_1.png'),
+//             App::setFilePath('/assets/images/logos/logo_coop_escala_3.png'),
+//             App::setFilePath('/assets/images/logos/logo_coop_escala_2.png') --}}
 
-  </div>
-
-</section>
 
 
   @php
