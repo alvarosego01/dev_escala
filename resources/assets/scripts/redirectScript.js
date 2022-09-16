@@ -18,9 +18,7 @@ function parametersToRedirect(redirect, params) {
 
                 let e = email[0].value;
                 e = Base64.encode(e);
-                console.log('email', e)
                 e = encodeURIComponent(e);
-                console.log('email', e)
                 aux = aux.replace("{{-- email64 --}}", e);
 
             }
@@ -47,7 +45,6 @@ document.addEventListener('wpcf7mailsent', async (e) => {
     let l = e.path;
     let re = null;
 
-    console.log('var event inputs', inputs);
 
     window.dataLayer.push({
         "event": "cf7submission",
@@ -61,7 +58,6 @@ document.addEventListener('wpcf7mailsent', async (e) => {
         }
     });
 
-    console.log('specialRedirect',specialRedirect);
 
     if ( (specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0) ) {
 
@@ -88,14 +84,11 @@ document.addEventListener('wpcf7mailsent', async (e) => {
 
     }
 
-    console.log('prev red' + re);
     // return;
 
     if (re && re != null && re != '') {
-        console.log('prev 1 red' + re);
 
         re = parametersToRedirect(re, inputs);
-        console.log('redirect form sent', re);
 
         window.location.href = re;
 
@@ -121,7 +114,6 @@ document.addEventListener('wpcf7mailfailed', async (e) =>  {
         }
     });
 
-    console.log('specialRedirect',specialRedirect);
 
     if ( (specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0) ) {
 
@@ -148,14 +140,11 @@ document.addEventListener('wpcf7mailfailed', async (e) =>  {
 
     }
 
-    console.log('prev red' + re);
     // return;
 
     if (re && re != null && re != '') {
-        console.log('prev 1 red' + re);
 
         re = parametersToRedirect(re, inputs);
-        console.log('redirect form sent', re);
 
         window.location.href = re;
 

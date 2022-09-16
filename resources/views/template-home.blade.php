@@ -53,7 +53,7 @@
                 <div class="element">
                   <div class="numbers">
                       <span>
-                        1000+
+                        +1000
                       </span>
                   </div>
                   <p class="text">
@@ -445,7 +445,7 @@ con todas las herramientas en una plataforma',
   'img' => App::setFilePath('/assets/images/illustrations/others/Group 8758.png'),
   'title' => '
   <small class="smallEscalaTag">
-    Landings + Formularios
+    Ads + Emails
     </small> <br class="space">
   Lleva tráfico calificado a <br class="desktopTabletElement">
   tus páginas
