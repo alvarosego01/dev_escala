@@ -78,18 +78,18 @@ section.component-features-image-T1.customSection.sectionParent
                             flex-direction: column
                             justify-content: center
                             align-content: center
-                            align-items: center
-                            flex-flow: wrap
-                            width: 70%
+                            align-items: flex-start
+                            width: fit-content
                             margin: 0 auto
+                            flex-direction: column
 
                         @include responsivo(pcMedio)
                             flex-direction: row
                             justify-content: center
                             align-content: center
-                            align-items: center
+                            align-items: flex-start
                             flex-flow: wrap
-                            width: 80%
+                            width: 70%
                             margin: 0 auto
 
                         @include responsivo(general)
@@ -110,10 +110,10 @@ section.component-features-image-T1.customSection.sectionParent
                             flex-direction: row
                             margin-bottom: 25px
                             @include responsivo(telefonoTable)
-                                width: 100%
+                                width: fit-content
 
                             @include responsivo(pcMedio)
-                                width: 50%
+                                width: 47%
 
                             @include responsivo(general)
                                 width: 50%

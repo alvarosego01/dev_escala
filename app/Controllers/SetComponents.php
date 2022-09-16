@@ -23,6 +23,7 @@ class SetComponents extends Controller
             $this->setPopUpsComponents(),
             $this->setPiePaginaComponents(),
             $this->setReviewsComponents(),
+            $this->setSlideshowsComponents(),
             $this->setHeaderBandsComponents()
 
         );
@@ -70,6 +71,12 @@ class SetComponents extends Controller
     {
         return array(
             'components.reviews.component-trustPilots-reviews-slider-T1' => 'reviews_sliders_T1'
+        );
+    }
+    private function setSlideshowsComponents()
+    {
+        return array(
+            'components.contain.slideshows.component-sections-slider-T1' => 'component_sections_sliders_T1'
         );
     }
 
