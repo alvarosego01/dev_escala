@@ -23,6 +23,7 @@ class SetComponents extends Controller
             $this->setPopUpsComponents(),
             $this->setPiePaginaComponents(),
             $this->setReviewsComponents(),
+            $this->setSlideshowsComponents(),
             $this->setHeaderBandsComponents()
 
         );
@@ -70,6 +71,12 @@ class SetComponents extends Controller
     {
         return array(
             'components.reviews.component-trustPilots-reviews-slider-T1' => 'reviews_sliders_T1'
+        );
+    }
+    private function setSlideshowsComponents()
+    {
+        return array(
+            'components.contain.slideshows.component-sections-slider-T1' => 'component_sections_sliders_T1'
         );
     }
 
@@ -120,6 +127,7 @@ class SetComponents extends Controller
     {
 
         return array(
+            'components.contain.features.component-features-image-T1' => 'contain_features_image_T1',
             'components.contain.pricing.component-pricing-calculator-T1' => 'pricing_calculator_T1',
             'components.contain.pricing.component-pricing-price-card-T1' => 'pricing_card_T1',
             'components.contain.pricing.component-pricing-ventas-calculator-T1' => 'pricing_ventas_calculator_T1',
@@ -345,6 +353,7 @@ class SetComponents extends Controller
                 "views/template-landing-escala-func-email-mkt-2022.blade.php",
                 "views/template-landing-escala-landings-sin-expertos-2022.blade.php",
                 "views/template-landing-escala-crm-2022.blade.php",
+                "views/template-landing-escala-crm-atrae-convierte-9sep22.blade.php",
                 "views/template-landing-escala-crm-sin-expertos-2022.blade.php",
                 "views/template-pruebas.blade.php",
                 "views/template-document-terms-text.blade.php",
