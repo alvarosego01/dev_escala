@@ -148,7 +148,7 @@
 @php
 $parameters = [
     'type' => 'backgroundColor',
-    'classSection' => 'dev_homeSection2',
+    'classSection' => 'dev_homeSection2 desktopElement',
     'enableTitle' => true,
     'titlePrincipal' => '
     Qué puede lograr tu empresa <span class="greenBlueColor">con Escala</span>
@@ -160,6 +160,72 @@ $parameters = [
     'textButton' => 'Prueba Escala ahora',
     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
     'overlayImage' => App::setFilePath('/assets/images/overlays/overlay_home_sect.png'),
+    'side' => 'left',
+    'img' => App::setFilePath('/assets/images/illustrations/others/escala-pagina-confirmación-registro 1.png'),
+    'img_alt' => null,
+    'features_items' => [
+        [
+            'title'=> '<span class="greenBlueColor">Generar prospectos</span> <br class="space">
+              online con publicidad <br class="space">
+              paga o email',
+            'text' => null,
+
+        ],
+        [
+          'title'=> '<span class="greenBlueColor">Optimizar procesos</span> <br class="space">
+            comerciales y de servicios',
+            'text' => null
+        ],
+        [
+          'title'=> '<span class="greenBlueColor">Aumentar la productividad</span> <br class="space">
+            del equipo de ventas',
+            'text' => null
+        ],
+        [
+          'title'=> '<span class="greenBlueColor">
+            Integrar y agilizar <br class="space">
+              esfuerzos
+          </span> de marketing <br class="space">
+            y ventas',
+            'text' => null
+        ],
+        [
+          'title'=> '<span class="greenBlueColor">Nutrir la relación con clientes</span> <br class="space">
+            para que recompren,
+            promuevan y refieran',
+            'text' => null,
+        ],
+        [
+          'title'=> '<span class="greenBlueColor">
+            Analizar la salud de tu <br class="space">
+              negocio
+          </span> con métricas en <br class="space">
+            tiempo real',
+            'text' => null,
+        ],
+
+    ],
+];
+@endphp
+
+@contain_features_image_T1( $parameters )
+@endcontain_features_image_T1
+
+@php
+$parameters = [
+    'type' => 'backgroundColor',
+    'classSection' => 'dev_homeSection2 mobileElement',
+    'enableTitle' => true,
+    'titlePrincipal' => '
+    Qué puede lograr tu empresa <span class="greenBlueColor">con Escala</span>
+    ',
+    'subTitlePrincipal' => null,
+    'overlay' => true,
+    'enableButton' => true,
+    'urlButton' => '#',
+    'textButton' => 'Prueba Escala ahora',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+    'overlayImage' => App::setFilePath('/assets/images/overlays/overlay_home_sect_mobile.png'),
     'side' => 'left',
     'img' => App::setFilePath('/assets/images/illustrations/others/escala-pagina-confirmación-registro 1.png'),
     'img_alt' => null,
@@ -452,10 +518,12 @@ con todas las herramientas en una plataforma',
   ',
   'text' => '
     Tienes dos opciones para llevar visitantes a <br class="desktopTabletElement">
-    tus landing pages: <br class="space">
-    <span class="greenBlueColor">1.</span> Crear o importar campañas de anuncios <br class="desktopTabletElement">
-    pagas en Facebook e Instagram <br class="space">
-    <span class="greenBlueColor">2.</span> Enviar campañas de email a tu base de datos
+    tus landing pages:
+    <ul class="text">
+      <li><span class="greenBlueColor">1.</span> Crear o importar campañas de anuncios <br class="desktopTabletElement">
+      pagas en Facebook e Instagram</li>
+      <li><span class="greenBlueColor">2.</span> Enviar campañas de email a tu base de datos</li>
+    </ul>
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
