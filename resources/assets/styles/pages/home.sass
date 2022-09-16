@@ -1065,11 +1065,49 @@
             bottom: 0
             width: auto
             z-index: 1
+
+
+            @include responsivo(general)
+                height: 300%
+                left: -35%
+                top: -150px
+                margin: auto auto auto 0
+            @include responsivo(smallPcTablet)
+                left: -30vw
+            @include responsivo(resto)
+                height: 325%
+                left: -35%
+                top: -200px
+                margin: auto auto auto 0
+
+#homeBootstrap .customSection.sectionParent.dev_homeSection2.mobileElement
+    .section-row
+        .specialOverlay
+            position: absolute
+            right: 0
+            bottom: 0
+            width: auto
+            z-index: 1
             @include responsivo(telefonoTable)
-                display: none
+                height: 70%
+                left: -80%
+                top: -430px
+                margin: auto
+                display: block!important
+
+            @include responsivoSpecial(350px, 500px)
+                height: 50%
+                left: -70%
+                top: -475px
+                margin: auto
+
 
             @include responsivo(pcMedio)
-                display: none
+                height: 90%
+                left: -70%
+                top: -280px
+                margin: auto
+                display: block!important
 
             @include responsivo(general)
                 height: 300%
@@ -1506,6 +1544,9 @@
                         span
                             font-weight: 800
                     ul.text
+                        list-style: none
+                        padding: 0
+                        margin-bottom: 0
                         @include responsivo(telefonoTable)
                             width: fit-content
                             margin: 0 auto
@@ -1514,6 +1555,20 @@
                             width: fit-content
                             margin: 0 auto
                             text-align: left
+                        li
+                            position: relative
+                            line-height: 1.25
+                            &::before
+                                content: "\2022"
+                                color: #36768A
+                                font-weight: bold
+                                display: inline-block
+                                width: 1em
+                                position: absolute
+                                left: -17.5px
+                                top: 0
+                                bottom: 0
+                                // margin-left: -1em
                 .image
                     .containerImage
                         margin: 0!important
@@ -1536,6 +1591,24 @@
     padding: 50px 0
     @include responsivo(telefonoTable)
         padding: 25px 0
+
+#homeBootstrap .sections .customSection.sectionParent.homeSection_5
+    .section-row
+        section.innerSectionElement.sct2
+            .groupElements.row
+                .info
+                    p.text
+                        margin-bottom: 5px
+                    ul.text
+                        list-style: none!important
+
+                        li
+                            display: flex
+                            flex-direction: row
+                            span
+                                margin-right: 5px
+                            &::before
+                                display: none
 
 #homeBootstrap .sections .customSection.sectionParent.homeSection_10
     padding: 0
