@@ -262,13 +262,13 @@ class SetComponents extends Controller
                 "views/template-landing-landingPages2.blade.php",
                 "views/template-landing-afiliados.blade.php",
                 "views/template-landing-partners.blade.php",
-                "views/template-landing-CRM.blade.php",
-                "views/template-landing-CRM-2022.blade.php",
+
+
                 "views/template-landing-ADS-2022.blade.php",
-                "views/template-landing-increibles-otto.blade.php",
+
                 "views/template-landing-navidad.blade.php",
-                "views/template-landing-incredible-trial-2.blade.php",
-                "views/template-landing-increibles-am-otto.blade.php",
+
+
                 "views/template-landing-home-crm-mas-expertos.blade.php",
                 "views/template-landing-home-crm-todo-en-uno.blade.php",
                 "views/template-landing-allinone.blade.php",
@@ -360,8 +360,8 @@ class SetComponents extends Controller
                 "views/template-home-youtube.blade.php",
                 "views/template-landing-video-am.blade.php",
                 "views/template-home-2021.blade.php",
-                "views/template-landing-incredible-trial-2.blade.php",
-                "views/template-landing-increibles-am-otto.blade.php",
+
+
                 "views/template-landing-home-crm-mas-expertos.blade.php",
                 "views/template-landing-home-crm-todo-en-uno.blade.php",
                 "views/template-landing-allinone.blade.php",
@@ -381,11 +381,11 @@ class SetComponents extends Controller
                 "views/template-landing-incredible-no-program.blade.php",
                 "views/template-landing-incredible-am.blade.php",
                 "views/template-landing-landingPages.blade.php",
-                "views/template-landing-increibles-otto.blade.php",
+
                 "views/template-landing-navidad.blade.php",
                 "views/template-landing-masive-mailing.blade.php",
-                "views/template-landing-CRM.blade.php",
-                "views/template-landing-CRM-2022.blade.php",
+
+
                 "views/template-landing-ADS-2022.blade.php",
                 "views/template-landing-ADS-2022.blade.php",
                 "views/template-landing-afiliados.blade.php",
