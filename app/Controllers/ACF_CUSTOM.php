@@ -51,14 +51,7 @@ class ACF_CUSTOM extends Controller
             ),
 
         ),
-        array(
-            array(
-                'param' => 'page_template',
-                'operator' => '==',
-                'value' => "views/template-landing-increibles-otto.blade.php",
-            ),
 
-        ),
         array(
             array(
                 'param' => 'page_template',
@@ -267,22 +260,7 @@ class ACF_CUSTOM extends Controller
             ),
 
         ),
-        array(
-            array(
-                'param' => 'page_template',
-                'operator' => '==',
-                'value' => "views/template-landing-CRM.blade.php",
-            ),
 
-        ),
-        array(
-            array(
-                'param' => 'page_template',
-                'operator' => '==',
-                'value' => "views/template-landing-CRM-2022.blade.php",
-            ),
-
-        ),
         array(
             array(
                 'param' => 'page_template',
@@ -444,22 +422,8 @@ class ACF_CUSTOM extends Controller
             ),
 
         ),
-        array(
-            array(
-                'param' => 'page_template',
-                'operator' => '==',
-                'value' => "views/template-landing-increibles-am-otto.blade.php",
-            ),
 
-        ),
-        array(
-            array(
-                'param' => 'page_template',
-                'operator' => '==',
-                'value' => "views/template-landing-incredible-trial-2.blade.php",
-            ),
 
-        ),
 
 
     );
