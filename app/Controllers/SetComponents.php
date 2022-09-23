@@ -354,12 +354,14 @@ class SetComponents extends Controller
                 "views/template-landing-escala-landings-sin-expertos-2022.blade.php",
                 "views/template-landing-escala-crm-2022.blade.php",
                 "views/template-landing-escala-crm-atrae-convierte-9sep22.blade.php",
+                "views/template-landing-escala-competitors-brands-2022.blade.php",
                 "views/template-landing-escala-crm-sin-expertos-2022.blade.php",
                 "views/template-pruebas.blade.php",
                 "views/template-document-terms-text.blade.php",
                 "views/template-home-youtube.blade.php",
                 "views/template-landing-video-am.blade.php",
                 "views/template-home-2021.blade.php",
+                "views/template-subPage-partners-2022.blade.php",
 
 
                 "views/template-landing-home-crm-mas-expertos.blade.php",
