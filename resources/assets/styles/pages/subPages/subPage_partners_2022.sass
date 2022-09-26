@@ -842,9 +842,13 @@
                 @include responsivo(telefonoTable)
                     margin-left: 0
                     margin-right: 0
+                    padding-left: 25px
+                    padding-right: 25px
                 @include responsivo(pcMedio)
                     margin-left: 0
                     margin-right: 0
+                    padding-left: 25px
+                    padding-right: 25px
                 &:first-child
                     @include responsivo(general)
                         margin-left: 0
@@ -1138,6 +1142,8 @@
         @include responsivo(telefonoTable)
             font-size: 25px
             margin-bottom: 25px
+            padding-left: 25px
+            padding-right: 25px
         @include responsivo(pcMedio)
             font-size: 25px
             margin-bottom: 25px
@@ -1167,7 +1173,7 @@
 
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1240px!important
+            max-width: 1340px!important
     .groupElements
         @include responsivo(telefonoTable)
             display: flex
@@ -1265,21 +1271,21 @@
                 padding: 0
                 margin-bottom: 0
                 @include responsivo(general)
-                    height: 475px
+                    height: 450px
                 @include responsivo(smallPcTablet)
                     height: 350px
                 @include responsivo(resto)
-                    height: 500px
+                    height: 550px
                 img
                     display: block
                     @include responsivo(general)
                         position: absolute
-                        height: 500px!important
-                        left: 50px
+                        height: 450px!important
+                        left: 25px
                     @include responsivo(smallPcTablet)
                         position: unset
                         height: 350px!important
                     @include responsivo(resto)
                         position: absolute
                         height: 550px!important
-                        left: 50px
+                        left: 40px
