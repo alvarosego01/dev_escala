@@ -19,7 +19,7 @@
       <ul class="principalBigText ">
           <li>Gana hasta 30% de comisión</li>
           <li>Potencia el crecimiento de tu negocio</li>
-          <li>Contribuye al progreso de empresas <br class="desktopTabletElement">
+          <li>Contribuye al progreso de empresas <br class="space">
           en Hispanoamérica.</li>
       </ul>
       ',
@@ -37,6 +37,165 @@
   @endheader_t1
 
 
+
+  <section class="customSection sectionParent subPage_partners_2022_01">
+
+    <div class="section-row">
+
+          <section class="innerSectionElement sct1">
+
+            <div class="containElements">
+
+              <h2 class="primaryTitle blackColor">
+                Tu éxito es nuestro éxito <br class="space">
+                <span class="greenBlueColor">Qué logran nuestros Partners</span>
+              </h2>
+
+            </div>
+
+          </section>
+
+          <section class="innerSectionElement sct2">
+
+            <div class=" row groupElements">
+
+              <div class="element col-md-12 col-lg-6">
+                <div class="containElements">
+
+                  <h3>
+                    <div class="containerImage">
+                      <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
+                    </div>
+                    Vender más y mejor
+                    <br class="desktopElement">
+                    <br class="desktopElement">
+                  </h3>
+
+                  <p class="text">
+                    Como socio de Escala, te apoyamos a: <br class="space">
+                    <span>1.</span> Generar nuevas oportunidades de negocio <br class="space">
+                    <span>2.</span> Conectar con empresas que necesitan tus servicios <br class="space">
+                    <span>3.</span> Cerrar mejores acuerdos con clientes
+                  </p>
+
+                </div>
+
+              </div>
+              <div class="element col-md-12 col-lg-6">
+                <div class="containElements">
+
+                  <h3>
+                    <div class="containerImage">
+                      <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
+                    </div>
+                    Construir relaciones más <br class="space">
+                    duraderas con clientes
+                  </h3>
+
+                  <p class="text">
+                    Al asociarte a Escala, adquieres oportunidades para: <br class="space">
+                    <span>1.</span> Retener clientes por más tiempo <br class="space">
+                    <span>2.</span> Expandir tu cartera de servicios <br class="space">
+                    <span>3.</span> Aumentar LTV: los ingresos que cada cliente genera
+                  </p>
+
+                </div>
+              </div>
+              <div class="element col-md-12 col-lg-6">
+                <div class="containElements">
+
+                  <h3>
+                    <div class="containerImage">
+                      <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
+                    </div>
+                    Optimizar <br class="space">
+                    operaciones
+                  </h3>
+
+                  <p class="text">
+                    Con las herramientas integradas y el soporte de <br class="space">
+                    nuestro equipo de Partners, logras: <br class="space">
+                    <span>1.</span> Implementar más ágilmente tácticas de crecimiento <br class="space">
+                    <span>2.</span> Automatizar parte de la gestión de tu equipo <br class="space">
+                    <span>3.</span> Evitar hacer todo por tus clientes
+                  </p>
+
+                </div>
+              </div>
+              <div class="element col-md-12 col-lg-6">
+                <div class="containElements">
+
+                  <h3>
+                    <div class="containerImage">
+                      <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
+                    </div>
+                    Aumentar la rentabilidad <br class="space">
+                    de la empresa
+                  </h3>
+
+                  <p class="text">
+                    Al recibir los beneficios de Partner: <br class="space">
+                    <span>1.</span> Reduces costos operativos <br class="space">
+                    <span>2.</span> Aumentas la productividad de tu equipo <br class="space">
+                    <span>3.</span> Amplías márgenes de ganancias
+                  </p>
+
+                </div>
+              </div>
+              <div class="element col-md-12 col-lg-6">
+                <div class="containElements">
+
+                  <h3>
+                    <div class="containerImage">
+                      <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
+                    </div>
+                    Potenciar las <br class="space">
+                    habilidades de su <br class="space">
+                    equipo
+                  </h3>
+
+                  <p class="text">
+                    Con las herramientas integradas de Escala y el soporte de <br class="space">
+                    nuestro equipo de Partners, logras: <br class="space">
+                    <span>1.</span> Implementar más ágilmente tácticas de marketing y ventas <br class="space">
+                    <span>2.</span> Automatizar parte de la gestión de tu equipo <br class="space">
+                    <span>3.</span> Evitar hacer todo por tus clientes
+                  </p>
+
+                </div>
+              </div>
+              <div class="element col-md-12 col-lg-6">
+                <div class="containElements">
+
+                  <h3>
+                    <div class="containerImage">
+                      <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
+                    </div>
+                    Expandir su red
+                    <br class="desktopElement">
+                    <br class="desktopElement">
+                    <br class="desktopElement">
+                  </h3>
+
+                  <p class="text">
+                    Al ganar hasta 30% de comisiones por clientes <br class="space">
+                    suscritos, hacer más eficiente tus operaciones, <br class="space">
+                    conseguir más clientes fieles: <br class="space">
+                    <span>1.</span> Reduces costos operativos <br class="space">
+                    <span>2.</span> Aumentas la productividad de tu equipo <br class="space">
+                    <span>3.</span> Amplías márgenes de ganancias
+                  </p>
+
+                </div>
+              </div>
+
+            </div>
+
+          </section>
+
+    </div>
+
+  </section>
 
 @php
 $parameters = [
@@ -104,6 +263,66 @@ $parameters = [
 @contain_multiple_cards_T2( $parameters )
 @endcontain_multiple_cards_T2
 
+
+<section class="customSection sectionParent subPage_partners_2022_03">
+
+  <div class="section-row">
+
+        <section class="innerSectionElement1">
+
+          <p class="primaryText grayColorTexts">
+            Te especializas en impulsar empresas B2B, o con productos / servicios de alto <br class="desktopTabletElement">
+            valor, o que requieren equipo comercial para cerrar ventas.
+          </p>
+
+
+          <h2 class="primaryTitle blackColor">
+            Nuestros clientes <span class="greenBlueColor">pueden beneficiarse de:</span>
+          </h2>
+
+
+        </section>
+
+        <section class="innerSectionElement2">
+
+          <div class="containElements">
+
+            <div class="containerImage">
+              <img   src="{!! App::setFilePath('/assets/images/person/implementacion_banner_principal-1-1 2.png') !!}"  loading="lazy">
+            </div>
+
+            <div class="info">
+
+              <ul>
+                <li>
+                  <span class="specialNumber">
+                    1
+                  </span>
+                  Tu asesoría
+                </li>
+                <li>
+                  <span class="specialNumber">
+                    2
+                  </span>
+                  Tu entrenamiento
+                </li>
+                <li>
+                  <span class="specialNumber">
+                    3
+                  </span>
+                  Tu servicio práctico
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+
+        </section>
+
+  </div>
+
+</section>
 
 @php
 $parameters = [
@@ -356,7 +575,7 @@ $parameters = [
         </span>',
         'textForm' => 'Comienza ahora',
     'text' => null,
-    'image' => App::setFilePath('/assets/images/illustrations/others/Copy of Copy of free-trail_08 1.png'),
+    'image' => App::setFilePath('/assets/images/illustrations/others/astronaut_jump.png'),
     'side' => 'left',
 ];
 @endphp
