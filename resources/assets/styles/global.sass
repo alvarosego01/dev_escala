@@ -369,6 +369,13 @@ div#jet-popup-4200
 .elementor-widget-void-section-cf7,
 .form_cf7,
 .wpcf7
+    @include responsivo(general)
+        padding-left: 10px
+        padding-right: 10px
+
+    @include responsivo(smallPcTablet)
+        padding-left: 5px
+        padding-right: 5px
     .wpcf7-response-output
         margin: 20px 0!important
         margin-bottom: 10px!important
@@ -436,6 +443,8 @@ div#jet-popup-4200
             font-size: 14px!important
         @include responsivo(pcMedio)
             font-size: 14px!important
+        @include responsivo(smallPcTablet)
+            font-size: 14px!important
     input.wpcf7-form-control.wpcf7-submit
         position: relative
         top: 10px
@@ -460,6 +469,8 @@ div#jet-popup-4200
             font-size: 14px!important
         @include responsivo(pcMedio)
             font-size: 14px!important
+        @include responsivo(smallPcTablet)
+            font-size: 14px!important
     span.ewp-phonetype-radio
         margin-top: 20px
         margin-bottom: 30px
@@ -476,6 +487,9 @@ div#jet-popup-4200
                 background-color: #b1ecef
                 color: #6C929F
                 font-weight: 700
+            span.wpcf7-list-item-label
+                @include responsivo(smallPcTablet)
+                    font-size: 14px!important
     br
         display: none
 
@@ -523,6 +537,9 @@ div#jet-popup-4200
                         padding: 5px 7.5px!important
                         text-transform: uppercase
                         color: #706B6D!important
+                        @include responsivo(smallPcTablet)
+                            font-size: 14px!important
+
                     input[type="radio"]
                         float: unset
                         margin: auto 0
@@ -547,6 +564,8 @@ div#jet-popup-4200
                         font-size: 14px
                         padding: 5px 7.5px!important
                         color: #706B6D!important
+                        @include responsivo(smallPcTablet)
+                            font-size: 14px!important
                     input[type="checkbox"]
                         float: unset
                         margin: auto 0
