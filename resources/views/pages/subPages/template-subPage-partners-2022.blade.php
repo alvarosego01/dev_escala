@@ -3,7 +3,7 @@
 <div id="subPage_partners_2022">
   <div class="sections">
 
-    @php
+    {{-- @php
     $parameters = array(
      'backgroundImageType' => false,
      'overlay' => false,
@@ -34,7 +34,92 @@
   @endphp
 
   @header_t1( $parameters )
-  @endheader_t1
+  @endheader_t1 --}}
+
+  <section id="lead-form" class="component-header-t1 bg-color customSection sectionParent threeCol subPage_partners_2022_0  ">
+
+    <div class="section-row">
+
+        <section class="innerSectionElement sct1">
+
+            <div class="groupElements row">
+
+                <div class="info
+                                                col-md-12 col-lg-8
+                                        ">
+
+                        <div class="containElements row threeCol">
+
+                            <div class="ele ele1 col-md-12 col-lg-6">
+
+                                <div class="containerImage">
+                                    <img   src="{!! App::setFilePath('/assets/images/person/am/Group 8185.png') !!}" loading="lazy">
+                                </div>
+
+                            </div>
+
+                            <div class="ele ele2 col-md-12 col-lg-6">
+                                <h1 class="principalBigTitle blackColor">
+
+  Sé partner de <br class="space">
+  Escala y <span class="greenBlueColor">
+    multiplica <br class="space">
+    tus ingresos
+  </span>
+
+                                </h1>
+
+                                                                        <p class="principalBigText grayColorTexts">
+
+  </p><ul class="principalBigText ">
+      <li>Gana hasta 30% de comisión</li>
+      <li>Potencia el crecimiento de tu negocio</li>
+      <li>Contribuye al progreso de empresas <br class="space">
+      en Hispanoamérica.</li>
+  </ul>
+
+                                    <p></p>
+
+                            </div>
+
+                        </div>
+
+                </div>
+
+                <div class="form7
+                                        col-md-12 col-lg-4
+                                    ">
+
+                    <div class="containElements">
+
+                        <div class="formatForm redirectWeb" redirectweb="true">
+
+                            <h5 class="titleFormat blackcolor">Aplica para ser Partner</h5>
+
+                            <!-- Escala embed form ffb24e48-3198-4ee5-901c-bfb344fff010 -->
+<script id=“escala-form-ffb24e48-3198-4ee5-901c-bfb344fff010-ran045927946986457524dom” data-version=“0.1.0">
+  window[“escala-form-ffb24e48-3198-4ee5-901c-bfb344fff010-ran045927946986457524dom”]={e:“page”,f:“ffb24e48-3198-4ee5-901c-bfb344fff010”,l:“es”,r:“ran045927946986457524dom”};function escInitFormImpl(e){!function(){var a=window.addEventListener?“addEventListener”:“attachEvent”;(0,window[a])(“attachEvent”===a?“onmessage”:“message”,function(e){if(“escalaForm”===e.data.origin)if(“init”===e.data.eventName&&e.data.height){const a=document.querySelector(‘[escala-element-form=“escala-form-‘+e.data.instance+‘“]’);a&&(a.height=e.data.height)}else”escala_lead”===e.data.eventName&&(“function”==typeof fbq&&(e.data.leadData&&e.data.leadData.contact_email?fbq(“trackCustom”,“escala_lead”,{email:e.data.leadData.contact_email},{eventID:e.data.leadData.deduplicationId}):fbq(“trackCustom”,“escala_lead”,{},{eventID:e.data.leadData.deduplicationId})),“function”==typeof gtag&&(e.data.leadData&&e.data.leadData.contact_email?gtag(“event”,“generate_lead”,{event_category:“engagement”,event_label:“escala_lead”,email:e.data.leadData.contact_email}):gtag(“event”,“generate_lead”,{event_category:“engagement”,event_label:“escala_lead”})),“undefined”!=typeof dataLayer&&dataLayer.push&&“function”==typeof dataLayer.push&&(e.data.leadData&&e.data.leadData.contact_email?dataLayer.push({event:“escala_lead”,email:e.data.leadData.contact_email}):dataLayer.push({event:“escala_lead”})))});var t=“escala-iframe-{f}-{l}-{r}“.replace(“{f}“,e.f).replace(“{l}“,e.l).replace(“{r}“,e.r),n=document.getElementById(t);n&&n.remove(),n=document.createElement(“iframe”);var o=btoa(JSON.stringify({loc:location.href,title:encodeURIComponent(document.title),ref:document.referrer})),d=(e.f+“-”+e.r+“-”+Math.random()).replace(“.”,“-”),l=“form=“+e.f+“&lang=“+e.l+“&instance=“+d+“&host=“+o+“&v=“+Math.random();n.setAttribute(“src”,“https://escalapages.com/plugins/forms/embed.html?“+l);for(var r=[“marginwidth”,“marginheight”,“frameborder”,“vspace”,“hspace”],c=0;c<r.length;c++)n.setAttribute(r[c],“0");n.setAttribute(“scrolling”,“no”),n.width=“100%“,n.setAttribute(“escala-element-form”,“escala-form-“+d),n.setAttribute(“id”,t);var i=document.getElementById(“escala-form-“+e.f+“-”+e.r),m=document.getElementsByTagName(“body”)[0];m.contains(i)?i.parentElement.appendChild(n):m.appendChild(n)}()}function escInitForm(){var e=window[“escala-form-ffb24e48-3198-4ee5-901c-bfb344fff010-ran045927946986457524dom”];“elementor-popup”===e.e?jQuery(document).ready(function(){jQuery(document).on(“elementor/popup/show”,()=>{escInitFormImpl(e)})}):escInitFormImpl(e)}window.addEventListener?window.addEventListener(“load”,escInitForm,!1):window.attachEvent?window.attachEvent(“onload”,escInitForm):window.onload=escInitForm;
+</script>
+<!-- Escala embed form ffb24e48-3198-4ee5-901c-bfb344fff010 -->
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+</section>
 
 
 
