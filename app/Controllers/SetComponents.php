@@ -362,8 +362,7 @@ class SetComponents extends Controller
                 "views/template-landing-video-am.blade.php",
                 "views/template-home-2021.blade.php",
                 "views/template-subPage-partners-2022.blade.php",
-
-
+                "views/template-subPage-alliances-2022.blade.php",
                 "views/template-landing-home-crm-mas-expertos.blade.php",
                 "views/template-landing-home-crm-todo-en-uno.blade.php",
                 "views/template-landing-allinone.blade.php",
