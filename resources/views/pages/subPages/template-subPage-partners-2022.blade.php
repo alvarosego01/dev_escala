@@ -24,7 +24,7 @@
       </ul>
       ',
      'threeCol' => true,
-     'textForm' => 'Empieza a probar Escala',
+     'textForm' => 'Aplica para ser Partner',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/am/Group 8185.png'),
@@ -573,7 +573,7 @@ $parameters = [
     transforma empresas e influye <br class="desktopTabletElement">
     en el desarrollo del mercado
         </span>',
-        'textForm' => 'Comienza ahora',
+        'textForm' => 'Aplica para ser Partner',
     'text' => null,
     'image' => App::setFilePath('/assets/images/illustrations/others/astronaut_jump.png'),
     'side' => 'left',
