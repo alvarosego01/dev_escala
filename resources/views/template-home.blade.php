@@ -694,7 +694,7 @@ con todas las herramientas en una plataforma',
   ',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Aliarme a Escala',
+  'textButton' => 'Asociarme a Escala',
   'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
   'side' => 'right',
  ) ;

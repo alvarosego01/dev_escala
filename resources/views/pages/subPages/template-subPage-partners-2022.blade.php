@@ -1,5 +1,7 @@
 
 
+
+
 <div id="subPage_partners_2022">
   <div class="sections">
 
@@ -96,9 +98,9 @@
 
                             <h5 class="titleFormat blackcolor">Aplica para ser Partner</h5>
 
-                            <!-- Escala embed form ffb24e48-3198-4ee5-901c-bfb344fff010 -->
-<script id=“escala-form-ffb24e48-3198-4ee5-901c-bfb344fff010-ran045927946986457524dom” data-version=“0.1.0">
-  window[“escala-form-ffb24e48-3198-4ee5-901c-bfb344fff010-ran045927946986457524dom”]={e:“page”,f:“ffb24e48-3198-4ee5-901c-bfb344fff010”,l:“es”,r:“ran045927946986457524dom”};function escInitFormImpl(e){!function(){var a=window.addEventListener?“addEventListener”:“attachEvent”;(0,window[a])(“attachEvent”===a?“onmessage”:“message”,function(e){if(“escalaForm”===e.data.origin)if(“init”===e.data.eventName&&e.data.height){const a=document.querySelector(‘[escala-element-form=“escala-form-‘+e.data.instance+‘“]’);a&&(a.height=e.data.height)}else”escala_lead”===e.data.eventName&&(“function”==typeof fbq&&(e.data.leadData&&e.data.leadData.contact_email?fbq(“trackCustom”,“escala_lead”,{email:e.data.leadData.contact_email},{eventID:e.data.leadData.deduplicationId}):fbq(“trackCustom”,“escala_lead”,{},{eventID:e.data.leadData.deduplicationId})),“function”==typeof gtag&&(e.data.leadData&&e.data.leadData.contact_email?gtag(“event”,“generate_lead”,{event_category:“engagement”,event_label:“escala_lead”,email:e.data.leadData.contact_email}):gtag(“event”,“generate_lead”,{event_category:“engagement”,event_label:“escala_lead”})),“undefined”!=typeof dataLayer&&dataLayer.push&&“function”==typeof dataLayer.push&&(e.data.leadData&&e.data.leadData.contact_email?dataLayer.push({event:“escala_lead”,email:e.data.leadData.contact_email}):dataLayer.push({event:“escala_lead”})))});var t=“escala-iframe-{f}-{l}-{r}“.replace(“{f}“,e.f).replace(“{l}“,e.l).replace(“{r}“,e.r),n=document.getElementById(t);n&&n.remove(),n=document.createElement(“iframe”);var o=btoa(JSON.stringify({loc:location.href,title:encodeURIComponent(document.title),ref:document.referrer})),d=(e.f+“-”+e.r+“-”+Math.random()).replace(“.”,“-”),l=“form=“+e.f+“&lang=“+e.l+“&instance=“+d+“&host=“+o+“&v=“+Math.random();n.setAttribute(“src”,“https://escalapages.com/plugins/forms/embed.html?“+l);for(var r=[“marginwidth”,“marginheight”,“frameborder”,“vspace”,“hspace”],c=0;c<r.length;c++)n.setAttribute(r[c],“0");n.setAttribute(“scrolling”,“no”),n.width=“100%“,n.setAttribute(“escala-element-form”,“escala-form-“+d),n.setAttribute(“id”,t);var i=document.getElementById(“escala-form-“+e.f+“-”+e.r),m=document.getElementsByTagName(“body”)[0];m.contains(i)?i.parentElement.appendChild(n):m.appendChild(n)}()}function escInitForm(){var e=window[“escala-form-ffb24e48-3198-4ee5-901c-bfb344fff010-ran045927946986457524dom”];“elementor-popup”===e.e?jQuery(document).ready(function(){jQuery(document).on(“elementor/popup/show”,()=>{escInitFormImpl(e)})}):escInitFormImpl(e)}window.addEventListener?window.addEventListener(“load”,escInitForm,!1):window.attachEvent?window.attachEvent(“onload”,escInitForm):window.onload=escInitForm;
+<!-- Escala embed form ffb24e48-3198-4ee5-901c-bfb344fff010 -->
+<script id="escala-form-ffb24e48-3198-4ee5-901c-bfb344fff010-ran0006316216380260364dom" data-version="0.1.0">
+  window["escala-form-ffb24e48-3198-4ee5-901c-bfb344fff010-ran0006316216380260364dom"]={e:"page",f:"ffb24e48-3198-4ee5-901c-bfb344fff010",l:"es",r:"ran0006316216380260364dom"};function escInitFormImpl(e){!function(){var a=window.addEventListener?"addEventListener":"attachEvent";(0,window[a])("attachEvent"===a?"onmessage":"message",function(e){if("escalaForm"===e.data.origin)if("init"===e.data.eventName&&e.data.height){const a=document.querySelector('[escala-element-form="escala-form-'+e.data.instance+'"]');a&&(a.height=e.data.height)}else"escala_lead"===e.data.eventName&&("function"==typeof fbq&&(e.data.leadData&&e.data.leadData.contact_email?fbq("trackCustom","escala_lead",{email:e.data.leadData.contact_email},{eventID:e.data.leadData.deduplicationId}):fbq("trackCustom","escala_lead",{},{eventID:e.data.leadData.deduplicationId})),"function"==typeof gtag&&(e.data.leadData&&e.data.leadData.contact_email?gtag("event","generate_lead",{event_category:"engagement",event_label:"escala_lead",email:e.data.leadData.contact_email}):gtag("event","generate_lead",{event_category:"engagement",event_label:"escala_lead"})),"undefined"!=typeof dataLayer&&dataLayer.push&&"function"==typeof dataLayer.push&&(e.data.leadData&&e.data.leadData.contact_email?dataLayer.push({event:"escala_lead",email:e.data.leadData.contact_email}):dataLayer.push({event:"escala_lead"})))});var t="escala-iframe-{f}-{l}-{r}".replace("{f}",e.f).replace("{l}",e.l).replace("{r}",e.r),n=document.getElementById(t);n&&n.remove(),n=document.createElement("iframe");var o=btoa(JSON.stringify({loc:location.href,title:encodeURIComponent(document.title),ref:document.referrer})),d=(e.f+"-"+e.r+"-"+Math.random()).replace(".","-"),l="form="+e.f+"&lang="+e.l+"&instance="+d+"&host="+o+"&v="+Math.random();n.setAttribute("src","https://escalapages.com/plugins/forms/embed.html?"+l);for(var r=["marginwidth","marginheight","frameborder","vspace","hspace"],c=0;c<r.length;c++)n.setAttribute(r[c],"0");n.setAttribute("scrolling","no"),n.width="100%",n.setAttribute("escala-element-form","escala-form-"+d),n.setAttribute("id",t);var i=document.getElementById("escala-form-"+e.f+"-"+e.r),m=document.getElementsByTagName("body")[0];m.contains(i)?i.parentElement.appendChild(n):m.appendChild(n)}()}function escInitForm(){var e=window["escala-form-ffb24e48-3198-4ee5-901c-bfb344fff010-ran0006316216380260364dom"];"elementor-popup"===e.e?jQuery(document).ready(function(){jQuery(document).on("elementor/popup/show",()=>{escInitFormImpl(e)})}):escInitFormImpl(e)}window.addEventListener?window.addEventListener("load",escInitForm,!1):window.attachEvent?window.attachEvent("onload",escInitForm):window.onload=escInitForm;
 </script>
 <!-- Escala embed form ffb24e48-3198-4ee5-901c-bfb344fff010 -->
 
@@ -650,24 +652,67 @@ $parameters = [
 </section>
 
 
-@php
-$parameters = [
-    'classSection' => 'subPage_partners_2022_06',
-    'title' => '
-    <span style="color: #FAD872">Gana hasta 30% de comisión,</span> <br class="desktopTabletElement">
-    transforma empresas e influye <br class="desktopTabletElement">
-    en el desarrollo del mercado
-        </span>',
-        'textForm' => 'Aplica para ser Partner',
-    'text' => null,
-    'image' => App::setFilePath('/assets/images/illustrations/others/astronaut_jump.png'),
-    'side' => 'left',
-];
-@endphp
-@bannerForms7_T1( $parameters )
+<section id="lead-form-bottom" class="component-bannerForms7-t1 bg-color customSection sectionParent subPage_partners_2022_06 ">
 
-@endbannerForms7_T1
+  <div class="section-row">
 
+      <section class="innerSectionElement sct1">
+
+          <div class="groupElements row">
+
+
+
+                  <div class="form7 col-md-12 col-lg-6">
+
+                      <div class="containElements">
+
+                          <div class="formatForm redirectWeb" redirectweb="true">
+
+                              <h5 class="titleFormat blackcolor">Aplica para ser Partner</h5>
+
+                              <!-- Escala embed form ffb24e48-3198-4ee5-901c-bfb344fff010 -->
+<script id="escala-form-ffb24e48-3198-4ee5-901c-bfb344fff010-ran09596642574117911dom" data-version="0.1.0">
+  window["escala-form-ffb24e48-3198-4ee5-901c-bfb344fff010-ran09596642574117911dom"]={e:"page",f:"ffb24e48-3198-4ee5-901c-bfb344fff010",l:"es",r:"ran09596642574117911dom"};function escInitFormImpl(e){!function(){var a=window.addEventListener?"addEventListener":"attachEvent";(0,window[a])("attachEvent"===a?"onmessage":"message",function(e){if("escalaForm"===e.data.origin)if("init"===e.data.eventName&&e.data.height){const a=document.querySelector('[escala-element-form="escala-form-'+e.data.instance+'"]');a&&(a.height=e.data.height)}else"escala_lead"===e.data.eventName&&("function"==typeof fbq&&(e.data.leadData&&e.data.leadData.contact_email?fbq("trackCustom","escala_lead",{email:e.data.leadData.contact_email},{eventID:e.data.leadData.deduplicationId}):fbq("trackCustom","escala_lead",{},{eventID:e.data.leadData.deduplicationId})),"function"==typeof gtag&&(e.data.leadData&&e.data.leadData.contact_email?gtag("event","generate_lead",{event_category:"engagement",event_label:"escala_lead",email:e.data.leadData.contact_email}):gtag("event","generate_lead",{event_category:"engagement",event_label:"escala_lead"})),"undefined"!=typeof dataLayer&&dataLayer.push&&"function"==typeof dataLayer.push&&(e.data.leadData&&e.data.leadData.contact_email?dataLayer.push({event:"escala_lead",email:e.data.leadData.contact_email}):dataLayer.push({event:"escala_lead"})))});var t="escala-iframe-{f}-{l}-{r}".replace("{f}",e.f).replace("{l}",e.l).replace("{r}",e.r),n=document.getElementById(t);n&&n.remove(),n=document.createElement("iframe");var o=btoa(JSON.stringify({loc:location.href,title:encodeURIComponent(document.title),ref:document.referrer})),d=(e.f+"-"+e.r+"-"+Math.random()).replace(".","-"),l="form="+e.f+"&lang="+e.l+"&instance="+d+"&host="+o+"&v="+Math.random();n.setAttribute("src","https://escalapages.com/plugins/forms/embed.html?"+l);for(var r=["marginwidth","marginheight","frameborder","vspace","hspace"],c=0;c<r.length;c++)n.setAttribute(r[c],"0");n.setAttribute("scrolling","no"),n.width="100%",n.setAttribute("escala-element-form","escala-form-"+d),n.setAttribute("id",t);var i=document.getElementById("escala-form-"+e.f+"-"+e.r),m=document.getElementsByTagName("body")[0];m.contains(i)?i.parentElement.appendChild(n):m.appendChild(n)}()}function escInitForm(){var e=window["escala-form-ffb24e48-3198-4ee5-901c-bfb344fff010-ran09596642574117911dom"];"elementor-popup"===e.e?jQuery(document).ready(function(){jQuery(document).on("elementor/popup/show",()=>{escInitFormImpl(e)})}):escInitFormImpl(e)}window.addEventListener?window.addEventListener("load",escInitForm,!1):window.attachEvent?window.attachEvent("onload",escInitForm):window.onload=escInitForm;
+</script>
+<!-- Escala embed form ffb24e48-3198-4ee5-901c-bfb344fff010 -->
+
+                          </div>
+
+                      </div>
+                  </div>
+
+
+                  <div class="info col-md-12 col-lg-6">
+
+                      <div class="containElements">
+
+                          <h2 class="principalBigTitle blackColor">
+
+  <span style="color: #FAD872">Gana hasta 30% de comisión,</span> <br class="desktopTabletElement">
+  transforma empresas e influye <br class="desktopTabletElement">
+  en el desarrollo del mercado
+
+                          </h2>
+
+                          <div class="containerImage">
+                              <img src="{!! App::setFilePath('/assets/images/illustrations/others/astronaut_jump.png') !!}" alt="" loading="lazy">
+                          </div>
+
+
+
+                      </div>
+
+
+                  </div>
+
+
+          </div>
+
+      </section>
+
+  </div>
+
+</section>
 
 
 </div>
