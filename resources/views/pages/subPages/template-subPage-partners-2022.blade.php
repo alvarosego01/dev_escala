@@ -134,7 +134,7 @@
             <div class="containElements">
 
               <h2 class="primaryTitle blackColor">
-                Tu éxito es nuestro éxito <br class="space">
+                Escala tu empresa de marketing y ventas <br class="space">
                 <span class="greenBlueColor">Qué logran nuestros Partners</span>
               </h2>
 
@@ -153,16 +153,14 @@
                     <div class="containerImage">
                       <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
                     </div>
-                    Vender más y mejor
+                    Conseguir más clientes
                     <br class="desktopElement">
                     <br class="desktopElement">
                   </h3>
 
                   <p class="text">
-                    Como socio de Escala, te apoyamos a: <br class="space">
-                    <span>1.</span> Generar nuevas oportunidades de negocio <br class="space">
-                    <span>2.</span> Conectar con empresas que necesitan tus servicios <br class="space">
-                    <span>3.</span> Cerrar mejores acuerdos con clientes
+                    Te apoyamos a llegar a nuevos mercados, generar nuevas <br class="desktopTabletElement">
+                    oportunidades de negocio y negociar mejores acuerdos.
                   </p>
 
                 </div>
@@ -175,15 +173,13 @@
                     <div class="containerImage">
                       <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
                     </div>
-                    Construir relaciones más <br class="space">
-                    duraderas con clientes
+                    Retener y construir relaciones de <br class="space">
+                    más largo plazo con sus clientes
                   </h3>
 
                   <p class="text">
-                    Al asociarte a Escala, adquieres oportunidades para: <br class="space">
-                    <span>1.</span> Retener clientes por más tiempo <br class="space">
-                    <span>2.</span> Expandir tu cartera de servicios <br class="space">
-                    <span>3.</span> Aumentar LTV: los ingresos que cada cliente genera
+                    Te enseñamos una metodología probada de Customer <br class="desktopTabletElement">
+                    Success para implementar y fidelizar clientes.
                   </p>
 
                 </div>
@@ -195,16 +191,13 @@
                     <div class="containerImage">
                       <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
                     </div>
-                    Optimizar <br class="space">
-                    operaciones
+                    Brindar beneficios especiales <br class="space">
+                    a sus clientes
                   </h3>
 
                   <p class="text">
-                    Con las herramientas integradas y el soporte de <br class="space">
-                    nuestro equipo de Partners, logras: <br class="space">
-                    <span>1.</span> Implementar más ágilmente tácticas de crecimiento <br class="space">
-                    <span>2.</span> Automatizar parte de la gestión de tu equipo <br class="space">
-                    <span>3.</span> Evitar hacer todo por tus clientes
+                    Te apoyamos a ganar ventajas competitivas con recursos, <br class="desktopTabletElement">
+                    descuentos especiales y experiencias únicas para tus clientes.
                   </p>
 
                 </div>
@@ -216,15 +209,14 @@
                     <div class="containerImage">
                       <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
                     </div>
-                    Aumentar la rentabilidad <br class="space">
-                    de la empresa
+                    Desarrollar las <br class="space">
+                    habilidades de su equipo
                   </h3>
 
                   <p class="text">
-                    Al recibir los beneficios de Partner: <br class="space">
-                    <span>1.</span> Reduces costos operativos <br class="space">
-                    <span>2.</span> Aumentas la productividad de tu equipo <br class="space">
-                    <span>3.</span> Amplías márgenes de ganancias
+                    Te brindamos entrenamientos exclusivos y asesorías <br class="desktopTabletElement">
+                    personalizadas para aumentar la productividad de <br class="desktopTabletElement">
+                    miembros que consiguen y sirven a clientes.
                   </p>
 
                 </div>
@@ -236,17 +228,13 @@
                     <div class="containerImage">
                       <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
                     </div>
-                    Potenciar las <br class="space">
-                    habilidades de su <br class="space">
-                    equipo
+                    Optimizar operaciones
                   </h3>
 
                   <p class="text">
-                    Con las herramientas integradas de Escala y el soporte de <br class="space">
-                    nuestro equipo de Partners, logras: <br class="space">
-                    <span>1.</span> Implementar más ágilmente tácticas de marketing y ventas <br class="space">
-                    <span>2.</span> Automatizar parte de la gestión de tu equipo <br class="space">
-                    <span>3.</span> Evitar hacer todo por tus clientes
+                    Nuestras herramientas y soporte te permiten implementar <br class="desktopTabletElement">
+                    estrategias más ágilmente, automatizar tareas y aumentar la <br class="desktopTabletElement">
+                    rentabilidad de la empresa.
                   </p>
 
                 </div>
@@ -259,18 +247,11 @@
                       <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
                     </div>
                     Expandir su red
-                    <br class="desktopElement">
-                    <br class="desktopElement">
-                    <br class="desktopElement">
                   </h3>
 
                   <p class="text">
-                    Al ganar hasta 30% de comisiones por clientes <br class="space">
-                    suscritos, hacer más eficiente tus operaciones, <br class="space">
-                    conseguir más clientes fieles: <br class="space">
-                    <span>1.</span> Reduces costos operativos <br class="space">
-                    <span>2.</span> Aumentas la productividad de tu equipo <br class="space">
-                    <span>3.</span> Amplías márgenes de ganancias
+                    Gana mayor visibilidad y oportunidades de conectar <br class="desktopTabletElement">
+                    con potenciales clientes, aliados y proveedores.
                   </p>
 
                 </div>
@@ -357,14 +338,8 @@ $parameters = [
 
         <section class="innerSectionElement1">
 
-          <p class="primaryText grayColorTexts">
-            Te especializas en impulsar empresas B2B, o con productos / servicios de alto <br class="desktopTabletElement">
-            valor, o que requieren equipo comercial para cerrar ventas.
-          </p>
-
-
           <h2 class="primaryTitle blackColor">
-            Nuestros clientes <span class="greenBlueColor">pueden beneficiarse de:</span>
+            Qué dicen <span class="greenBlueColor">nuestros partners</span>
           </h2>
 
 
@@ -375,31 +350,27 @@ $parameters = [
           <div class="containElements">
 
             <div class="containerImage">
-              <img   src="{!! App::setFilePath('/assets/images/person/implementacion_banner_principal-1-1 2.png') !!}"  loading="lazy">
+              <img   src="{!! App::setFilePath('/assets/images/person/partners_person.png') !!}"  loading="lazy">
             </div>
 
             <div class="info">
 
-              <ul>
-                <li>
-                  <span class="specialNumber">
-                    1
-                  </span>
-                  Tu asesoría
-                </li>
-                <li>
-                  <span class="specialNumber">
-                    2
-                  </span>
-                  Tu entrenamiento
-                </li>
-                <li>
-                  <span class="specialNumber">
-                    3
-                  </span>
-                  Tu servicio práctico
-                </li>
-              </ul>
+              <p class="text">
+                <span class="greenBlueColor">
+                  "Gracias a Escala <br class="space">
+                  hemos podido crecer...
+                </span>
+                <br class="space">
+                Al entrar a Escala, se estructura más la agencia. No solo <br class="desktopTabletElement">
+                conseguimos más leads calificados sino logramos tener una cita <br class="desktopTabletElement">
+                y entregar una propuesta a cada uno de ellos. <br class="space">
+                Consistentemente, con cada campaña convertimos un 10.5% <br class="desktopTabletElement"> en clientes."
+                <br class="space">
+                <small>
+                  - Milena Osorio, fundadora MO Comunicaciones
+                </small>
+              </p>
+
             </div>
 
           </div>
@@ -515,7 +486,7 @@ $parameters = [
           <div class="containElements">
 
             <h2 class="primaryTitle blackColor">
-              Nuestra Relación <span class="greenBlueColor">Ganar-Ganar</span>
+              La Oportunidad <span class="greenBlueColor">Ganar-Ganar</span>
             </h2>
 
           </div>
@@ -524,9 +495,7 @@ $parameters = [
 
         <section class="innerSectionElement sct2">
 
-          <h3>
-            El problema
-          </h3>
+
           <div class=" row groupElements">
 
             <div class="element col-md-12 col-lg-6">
