@@ -693,9 +693,9 @@ con todas las herramientas en una plataforma',
       mientras tus clientes se mantienen suscritos a Escala.
   ',
   'enableButton' => true,
-  'urlButton' => '#lead-form',
+  'urlButton' => 'http://escala.com/alianzas',
   'textButton' => 'Asociarme a Escala',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'typeButton' => 'primaryButton hoverInEffect ',
   'side' => 'right',
  ) ;
 @endphp
