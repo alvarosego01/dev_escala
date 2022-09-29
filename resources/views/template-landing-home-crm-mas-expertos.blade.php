@@ -98,7 +98,7 @@ Escala es la Plataforma de CRM todo-en-uno creada por <br class="desktopTabletEl
 expertos de marketing, ventas y fidelización para ayudar a las <br class="desktopTabletElement">
 empresas de habla hispana a alcanzar el éxito.
 
-<div class="specialButton">
+<div class="ottoSpecialButton">
   <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una prueba gratis de Escala CRM>
 
   <a href="#" class=" openPopUpButton popup-general-trial-2022">

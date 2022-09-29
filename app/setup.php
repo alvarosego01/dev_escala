@@ -146,6 +146,10 @@ add_action('wp_enqueue_scripts', function () {
         if ( is_page_template("views/template-landing-escala-crm-atrae-convierte-9sep22.blade.php") ) {
             wp_enqueue_style('landing_crm_atrae_convierte_9sept22.css', asset_path('styles/pages/landingPages/landing_crm_atrae_convierte_9sept22.css'), false, THEME_VERSION);
         }
+        // ---Landing escala competitors brands
+        if ( is_page_template("views/template-landing-escala-competitors-brands-2022.blade.php") ) {
+            wp_enqueue_style('landing_escala_competitors_brands.css', asset_path('styles/pages/landingPages/landing_escala_competitors_brands.css'), false, THEME_VERSION);
+        }
         // -------------------------------------- //
         //  FUNCTIONALITIES 2022
         // ---Page builder
@@ -157,6 +161,14 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_style('func_CRM2022.css', asset_path('styles/pages/func/2022/crm_2022.css'), false, THEME_VERSION);
         }
 
+        // --- Seccion partners
+        if ( is_page_template("views/template-subPage-partners-2022.blade.php") ) {
+            wp_enqueue_style('subPage_partners_2022.css', asset_path('styles/pages/subPages/subPage_partners_2022.css'), false, THEME_VERSION);
+        }
+        // --- Seccion alliances
+        if ( is_page_template("views/template-subPage-alliances-2022.blade.php") ) {
+            wp_enqueue_style('subPage_alliances_2022.css', asset_path('styles/pages/subPages/subPage_alliances_2022.css'), false, THEME_VERSION);
+        }
         //  SUB PAGES - Programa de alianzas vane
         // --- Program alliance
         if ( is_page_template("views/template-vn-program-alliance.blade.php") ) {
