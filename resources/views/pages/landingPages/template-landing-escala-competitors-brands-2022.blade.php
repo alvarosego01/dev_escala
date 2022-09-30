@@ -8,22 +8,19 @@
      'overlay' => false,
      'classSection' => 'threeCol landing_escala_competitors_brands_0',
      'title' => '
-        Crea campañas <br class="space">
-        de <span style="color: #A4E7EA">Email Marketing</span> <br class="space">
-        impactantes con Escala
+        Escala es más que <br class="space">
+        un potente CRM
         ',
-     'text' => '<span class="whiteColor">
-        Nuestro creador de emails es súper intuitivo y fácil <br class="space">
-        de usar. Envia campañas de correos masivos con <br class="space">
-        información relevante, aumentando tus  índices de <br class="space">
-        apertura y clics para generar mayor conversión.
-      </span>
+     'text' => '
+        Descubre por qué nuestro software <br class="space">
+        es el más fácil de usar e <br class="space">
+        implementar junto a expertos
       ',
      'threeCol' => true,
      'textForm' => 'Empieza a probar Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/illustrations/others/email_banner_principal_07.png'),
+  'image' => App::setFilePath('/assets/images/illustrations/otto/tablet_otto_1 3.png'),
     ) ;
     @endphp
 
@@ -31,162 +28,153 @@
     @endheader_t1
 
 
+
     @php
     $parameters = array(
-      'type' => 'backgroundColor',
-      'classSection' => 'landing_escala_competitors_brands_1',
-      'enableTitle' => false,
-      'titlePrincipal' => null,
-      'subTitlePrincipal' => null,
-      'title' => null,
-      'typeVideo' =>  'localvideo',
-      'videoEmbed' =>  App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4'),
-      'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
-      'text' => '
-          <span class="greenBlueColor">
-            “La gestión inteligente de campañas de email <br class="desktopTabletElement">
-            marketing es una estrategia fundamental para <br class="desktopTabletElement">
-            mantenerse en contacto, y quizás el método de <br class="desktopTabletElement">
-            menor costo y mayor ROI”.
-          </span>
-          <br class="space"><br class="space">
-            <span class="byam">
-              <strong class="greenBlueColor">
-                Andrés Moreno
-              </strong>
-              <br class="space">
-              <small>
-                Fundador de Escala y Open English
-              </small>
-            </span>
-
-      ',
-      'enableButton' => false,
-      'urlButton' => '#lead-form',
-      'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-      'textButton' => 'Prueba Gratis por 10 días',
-      // 'enableButton2' => true,
-      // 'urlButton2' => '#lead-form',
-      // 'typeButton2' => 'secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-      // 'textButton2' => 'Solicita una DEMO',
-      'side' => 'right',
+     'type' => 'backgroundColor',
+     'classSection' => 'landing_escala_competitors_brands_1',
+     'enableTitle' => true,
+     'titlePrincipal' => '
+        <span class="greenBlueColor">Compara el software CRM de Escala y descubre <br class="desktopTabletElement"></span>
+        por qué representa el poder de lo simple
+     ',
+    'subTitlePrincipal' => '
+      Hallar el CRM  perfecto para tu empresa puede ser una decisión difícil. Hay muchas opciones y no puedes tomar una <br class="desktopTabletElement">
+      decisión apresurada. En Escala te guiamos para que te hagas las preguntas correctas, antes de elegir:
+    ',
+     'img' => App::setFilePath('/assets/images/person/home_hombre-lentes_silla-chat-flip 2.png'),
+     'title' => null,
+     'text' => '
+       <span>
+        ¿Es fácil de usar y me acompañan?
+        </span>
+        <br class="space"><br class="space">
+        Puedes tener el CRM más potente de todos, pero de nada te sirve si tus <br class="desktopTabletElement">
+equipos necesitan meses para poder implementar tu estrategia  y configurarlo. <br class="space">
+En Escala te acompañamos desde el primer día, asesorándote para dejarlo listo <br class="desktopTabletElement">
+para ejecutar y conseguir tus resultados.
+<br class="space">
+<br class="space">
+<br class="space">
+<span>
+  ¿Puedo personalizarlo?
+  </span>
+<br class="space"><br class="space">
+Los CRMs te ofrecen algún tipo de personalización adaptada a tu empresa: <br class="desktopTabletElement">
+campos personalizados, embudos de ventas, etiquetas avanzadas, flujos <br class="desktopTabletElement">
+inteligentes. Consulta si debes pagar extra por personalizar estas funcionalidades.
+<br class="space">
+<br class="space">
+<br class="space">
+<span>
+  ¿Crecerá con mi empresa?
+  </span>
+<br class="space"><br class="space">
+  Al elegir un CRM revisa si sus funcionalidades pueden crecer contigo y si tiene la <br class="desktopTabletElement">
+  capacidad para gestionar el número de contactos que esperas manejar en el futuro.
+     ',
+     'enableButton' => false,
+     'urlButton' => '#lead-form',
+     'textButton' => 'Prueba Gratis',
+     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+     'side' => 'right',
     ) ;
    @endphp
 
-   @contain_text_video_T1( $parameters )
-   @endcontain_text_video_T1
-
-   <section class="customSection sectionParent landing_escala_competitors_brands_2">
-
-    <div class="section-row">
-
-          <section class="innerSectionElement">
-
-            <div class=" row groupElements">
-
-              <div class="image col-md-12 col-lg-6">
-
-                <div class="containElements">
-
-                  <div class="containerImage">
-                    <img alt="Landing Escala Landings" src="{!! App::setFilePath('/assets/images/illustrations/others/email_sobre-3-Vminimal-2.png') !!}" alt="" loading="lazy">
-                  </div>
-
-                </div>
-
-              </div>
-              <div class="info col-md-12 col-lg-6">
-
-                <h2 class="primaryTitle blackColor">
-                  <span class="greenBlueColor">Conoce por qué es tan poderoso</span> <br class="desktopTabletElement">
-                  el Email Marketing de Escala
-                </h2>
-
-                @php
+   @contain_text_image_T1( $parameters )
+   @endcontain_text_image_T1
 
 
-                    $elements = array(
+   @php
+   $parameters = [
+       'type' => 'backgroundColor',
+       'classSection' => 'landing_escala_competitors_brands_2',
+       'enableTitle' => true,
+       'titlePrincipal' => '
+          <span class="greenBlueColor">El CRM todo-en-uno de Escala <br class="desktopTabletElement"></span>
+          Tu Máquina de Marketing y Ventas
+       ',
+       'subTitlePrincipal' => '
+          En el CRM de Escala están todas las herramientas de marketing digital y ventas integradas, <br class="desktopTabletElement">
+          para que puedas: generar más demanda, aumentar tus ventas y fidelizar más clientes.
+       ',
+       'overlay' => false,
+       'enableButton' => true,
+       'urlButton' => '#',
+       'textButton' => 'Prueba Gratis',
+       'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+       // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
+       'elements' => [
+           [
+               'img' => App::setFilePath('/assets/images/illustrations/others/competitors_crm_serie1.png'),
+               'title' => '<span class="greenBlueColor">
+                Anuncios
+                   </span>',
+                'text' => '
+                  Atrae leads de calidad con <br class="space">
+                  Ads de Facebook e <br class="space">
+                  Instagram desde nuestra <br class="space">
+                  plataforma
+                ',
+               'enableButton' => false,
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/illustrations/others/competitors_crm_serie2.png'),
+               'title' => '<span class="greenBlueColor">
+                  Landing pages
+                </span>',
+               'enableButton' => false,
+               'text' => '
+                  Crea, personaliza y <br class="space">
+                  publica páginas en <br class="space">
+                  minutos, sin programar
+               '
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/illustrations/others/competitors_crm_serie3.png'),
+               'title' => '<span class="greenBlueColor">
+                  Emails
+                </span>',
+               'enableButton' => false,
+               'text' => '
+                Comunícate constantemente <br class="space">
+                con tus contactos y crea <br class="space">
+                relaciones a largo plazo
+               '
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/illustrations/others/competitors_crm_serie4.png'),
+               'title' => '<span class="greenBlueColor">
+                  Automatización
+                </span>',
+               'enableButton' => false,
+               'text' => '
+                  Ahorra tiempo y dinero <br class="space">
+                  programando secuencias <br class="space">
+                  de emails y acciones de <br class="space">
+                  marketing y ventas
+               '
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/illustrations/others/competitors_crm_serie5.png'),
+               'title' => '<span class="greenBlueColor">
+                  Analítica
+                </span>',
+               'enableButton' => false,
+               'text' => '
+                Mide en tiempo real tus <br class="space">
+                resultados con dashboards <br class="space">
+                amigables para optimizar tus <br class="space">
+                embudos de ventas
+               '
+           ]
 
-                      [
-                        'title' => 'Aumenta tus tasas de apertura y clics, <span>incrementando tu ROI <br class="desktopTabletElement"> de marketing con campañas de emails altamente rentables</span>',
-                        'text' => null
-                      ],
-                      [
-                        'title' => 'Automatiza tus flujos de emails <span>según el comportamiento <br class="desktopTabletElement">
-                        de tus contactos</span>',
-                        'text' => null
-                      ],
-                      [
-                        'title' => 'Llega a la bandeja correcta, <span>cuidando la reputación de tu dominio</span>',
-                        'text' => null
-                      ],
-                      [
-                        'title' => 'Mantén comunicación constante <span>y nutre tus relaciones a largo plazo</span>',
-                        'text' => null
-                      ],
-                      [
-                        'title' => 'Crea hermosos emails, <span>eligiendo una de nuestras plantillas <br class="desktopTabletElement"> 100% responsivas, listas-para-usar de Escala</span>',
-                        'text' => null
-                      ],
-                      [
-                        'title' => 'Segmenta y personaliza tus campañas <span>
-                          de Email Marketing <br class="desktopTabletElement">
-                          con etiquetas avanzadas
-                        </span>',
-                        'text' => null
-                      ],
-                      [
-                        'title' => 'Envía emails masivos <span>con planes hechos a la medida para tu empresa</span>',
-                        'text' => null
-                      ],
-                      [
-                        'title' => 'Fideliza a más clientes <span>con campañas de: Upsells, promociones <br class="desktopTabletElement"> customizadas, evaluaciones post venta y nuevos lanzamientos</span>',
-                        'text' => null
-                      ],
-                      [
-                        'title' => 'Analiza y optimiza, <span>con dashboards amigables y mejora tus resultados</span>',
-                        'text' => null
-                      ],
+       ],
+   ];
+   @endphp
 
-                    );
-
-                @endphp
-
-
-                <div class="containElements">
-
-                  <ul class="elements">
-                    @foreach ($elements as $item)
-                    <li class="item">
-                      <div class="containerImage">
-                        <img alt="Landing Escala Landings" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector_check.png') !!}" alt="" loading="lazy">
-                      </div>
-                      <div class="text">
-                        <h3>
-                          {!! $item['title'] !!}
-                        </h3>
-                        <p class="text">
-                          {!! $item['text'] !!}
-                        </p>
-                      </div>
-                    </li>
-                    @endforeach
-                  </ul>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </section>
-
-
-    </div>
-
-   </section>
-
-
+   @contain_multiple_cards_T2( $parameters )
+   @endcontain_multiple_cards_T2
 
 
    @php
@@ -195,58 +183,145 @@
        'classSection' => 'landing_escala_competitors_brands_3',
        'enableTitle' => true,
        'titlePrincipal' => '
-       <span class="whiteColor">
-      Descubre 3 formas de hacer más eficiente <br class="desktopTabletElement">
-      <span style="color: #A4E7EA">tu Email Marketing con Escala</span>
-       </span>',
-       'subTitlePrincipal' => '
-         El Email Marketing tiene +80% de eficacia para lograr la conversión <br class="desktopTabletElement">
-        a ventas. Es una funcionalidad altamente rentable y fácil de usar.
+          <span class="greenBlueColor">Compara con los CRMs</span> <br class="space">
+          más conocidos del mercado
        ',
+       'subTitlePrincipal' => null,
        'overlay' => false,
-       'enableButton' => true,
+       'enableButton' => false,
        'urlButton' => '#',
        'textButton' => '¡Prueba Gratis!',
        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
        // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
        'elements' => [
            [
-               'img' => App::setFilePath('/assets/images/illustrations/others/iconos-emails_01.png'),
-               'title' => '<span style="color: #A4E7EA">
-                1. Incrementa tus aperturas
-                   </span>',
+               'img' => App::setFilePath('/assets/images/logos/competitor_icon_1.png'),
+               'title' => null,
                'text' => '
-                Un correo que no es leído, es una oportunidad de <br class="desktopTabletElement">
-                ventas perdida. Con Escala crea efectivos emails <br class="desktopTabletElement">
-                para todas las plataformas, garantizando que <br class="desktopTabletElement">
-                llegarán a la bandeja correcta, en el momento <br class="desktopTabletElement">
-                correcto.
+               Salesforce es un CRM para empresas grandes con funcionalidades integradas y <br class="desktopTabletElement">
+muy potentes. Salesforce requiere administradores expertos y debidamente <br class="desktopTabletElement">
+capacitados para la implementación y el mantenimiento de su sistema, (puede <br class="desktopTabletElement">
+ser difícil si no has tomado un curso avanzado de CRMs) y con la necesidad de <br class="desktopTabletElement">
+recursos y costos bastante elevados.
+
                ',
                'enableButton' => false,
            ],
            [
-               'img' => App::setFilePath('/assets/images/illustrations/others/iconos-emails-02.png'),
-               'title' => '<span style="color: #A4E7EA">
-                2. Aumenta tu CTR
-                   </span>',
+               'img' => App::setFilePath('/assets/images/logos/competitor_icon_2.png'),
+               'title' => null,
                'text' => '
-                Mejora la tasa de clics de tus correos, creando <br class="desktopTabletElement">
-                contenido que sea relevante para tus contactos. <br class="desktopTabletElement">
-                Segmenta y personaliza para aumentar la interacción <br class="desktopTabletElement">
-                y tus posibilidades de convertir.
+               El CRM de HubSpot es muy completo y potente. Tiene recursos autogestionados <br class="desktopTabletElement">
+de aprendizaje, pero la cosa se complica cuando no quieras solo hablar con un <br class="desktopTabletElement">
+chatbot. Además, es limitado en su plan gratuito y cuando quieras hacer más, <br class="desktopTabletElement">
+tendrás que pagar cientos de dólares para poder contar con funcionalidades más <br class="desktopTabletElement">
+avanzadas.
                ',
                'enableButton' => false,
            ],
            [
-               'img' => App::setFilePath('/assets/images/illustrations/others/iconos-emails_03.png'),
-               'title' => '<span style="color: #A4E7EA">
-                3. Automatiza tu flujo de emails
-                   </span>',
+               'img' => App::setFilePath('/assets/images/logos/competitor_icon_3.png'),
+               'title' => null,
                'text' => '
-                Crea secuencias de emails según el <br class="desktopTabletElement">
-                comportamiento de tus contactos. Patrones que <br class="desktopTabletElement">
-                definen qué acción dispara un tipo de email, <br class="desktopTabletElement">
-                para lograr la venta.
+               El CRM de Zoho centra todas las tareas de los equipos de marketing, ventas y <br class="desktopTabletElement">
+asistencia, lo que en ocasiones, hace más complicado gestionar e implementar. <br class="desktopTabletElement">
+También tendrás que pagar más por funcionalidades básicas. Encontramos <br class="desktopTabletElement">
+comentarios de usuarios que hablan de: «Fallas en la programación, sobre todo <br class="desktopTabletElement">
+con las integraciones de terceros. El servicio de asistencia técnica no presta <br class="desktopTabletElement">
+atención a los detalles y debes explicar varias veces hasta recibir la ayuda que <br class="desktopTabletElement">
+necesitas, lo que suele demorar varios días» . Servicio 100% inglés.
+
+               ',
+               'enableButton' => false,
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/logos/competitor_icon_4.png'),
+               'title' => null,
+               'text' => '
+               El CRM de RD Station está pensado para PYMES, integra funcionalidades de <br class="desktopTabletElement">
+marketing y permite automatizar acciones del equipo de ventas. Todo va muy <br class="desktopTabletElement">
+bien hasta que necesitas asesoría para configurar e implementar, podrás <br class="desktopTabletElement">
+comunicarte perfectamente si hablas portuñol.
+
+               ',
+               'enableButton' => false,
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/logos/competitor_icon_5.png'),
+               'title' => null,
+               'text' => '
+               El CRM de Mailchimp te permite hacer seguimiento a través de una App, hacer <br class="desktopTabletElement">
+segmentaciones conductuales e integración con  plataformas e-commerce. Pero <br class="desktopTabletElement">
+nos preguntamos quién conoce a Mailchimp por su CRM, su funcionalidad más <br class="desktopTabletElement">
+exitosa ha sido email marketing,
+
+               ',
+               'enableButton' => false,
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/logos/competitor_icon_6.png'),
+               'title' => null,
+               'text' => '
+               Pipedrive tiene un CRM con muy buena usabilidad y flexibilidad. Su interfaz es <br class="desktopTabletElement">
+muy sencilla y no requiere conocimientos previos. Sin embargo, puedes tener <br class="desktopTabletElement">
+limitaciones por: falta de funcionalidades de marketing, servicio y poca <br class="desktopTabletElement">
+escalabilidad en email marketing. Haciendo necesario que integres otras <br class="desktopTabletElement">
+plataformas para que tus datos no queden aislados.
+
+               ',
+               'enableButton' => false,
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/logos/competitor_icon_7.png'),
+               'title' => null,
+               'text' => '
+               Su CRM está integrado con WhatsApp con envío masivos y conversaciones <br class="desktopTabletElement">
+sincronizadas por este canal. Organización y seguimiento de todas las <br class="desktopTabletElement">
+oportunidades abiertas, mando centralizado para toma de decisiones, conexión <br class="desktopTabletElement">
+con más de 1500 aplicaciones. Pero a la hora de implementar deberás pagar más <br class="desktopTabletElement">
+por funcionalidades avanzadas y si quieres ser acompañado en todo tu camino, <br class="desktopTabletElement">
+este CRM no es la mejor opción.
+
+               ',
+               'enableButton' => false,
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/logos/competitor_icon_8.png'),
+               'title' => null,
+               'text' => '
+               AmoCRM está basado en la mensajería instantánea. Fue diseñado para <br class="desktopTabletElement">
+automatizar procesos de ventas a través de una integración con distintos canales <br class="desktopTabletElement">
+de comunicación: Email, WhatsApp, Facebook Messenger, etc. Es ideal para <br class="desktopTabletElement">
+hacerle un seguimiento eficiente a tus clientes, siempre y cuando no estés <br class="desktopTabletElement">
+interesado en captar nuevos leads o hacer crecer tu base de datos, ya que no <br class="desktopTabletElement">
+cuenta con la opción de hacer formularios ni landing pages.
+
+               ',
+               'enableButton' => false,
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/logos/competitor_icon_9.png'),
+               'title' => null,
+               'text' => '
+               Keap es un CRM reconocido por su potencial para automatizar necesidades de <br class="desktopTabletElement">
+marketing y ventas, personalizar campañas e incluso integrarlas con herramientas <br class="desktopTabletElement">
+de terceros. Lo único que necesitarás para iniciar una vez te suscribas, será un <br class="desktopTabletElement">
+equipo en tu empresa que cuente con: experiencia en CRMs, un nivel de inglés <br class="desktopTabletElement">
+avanzado y disponibilidad de tiempo completo para aprender a utilizarlo.
+
+               ',
+               'enableButton' => false,
+           ],
+           [
+               'img' => App::setFilePath('/assets/images/logos/competitor_icon_10.png'),
+               'title' => null,
+               'text' => '
+               Bitrix24 es un espacio de trabajo bastante completo que integra un CRM, <br class="desktopTabletElement">
+herramientas de gestión de proyectos y una plataforma de colaboración para <br class="desktopTabletElement">
+todo lo relacionado a la gestión empresarial. Es la mejor opción para aquellas <br class="desktopTabletElement">
+empresas que desean aprender a implementar un CRM de forma autodidacta <br class="desktopTabletElement">
+solo con el uso de lecturas y videos sin guía ni apoyo personalizado.
+
                ',
                'enableButton' => false,
            ],
@@ -257,222 +332,17 @@
 @endphp
 
 @contain_multiple_cards_T2( $parameters )
-
 @endcontain_multiple_cards_T2
-
-
-
-<section class="customSection sectionParent landing_escala_competitors_brands_4">
-
-  <div class="section-row">
-
-        <section class="innerSectionElement">
-
-          <div class=" row groupElements">
-
-            <div class="image col-md-12 col-lg-6">
-
-              <div class="containElements">
-
-                <div class="containerImage">
-                  <img alt="Landing Escala email marketing" src="{!! App::setFilePath('/assets/images/person/banner-expertos_A.png') !!}" alt="" loading="lazy">
-                </div>
-
-              </div>
-
-            </div>
-            <div class="info col-md-12 col-lg-6">
-
-              <h2 class="primaryTitle blackColor">
-                El acompañamiento <br class="desktopTabletElement">
-                <span class="greenBlueColor">¡Nuestra arma secreta!</span>
-              </h2>
-
-              @php
-
-
-                  $elements = array(
-
-                    [
-                      'title' => 'Gerente de cuenta <span>asignado para guiar tu implementación</span>',
-                      'text' => null
-                    ],
-                    [
-                      'title' => '100% es español, <span>ideal para empresas de LATAM</span>',
-                      'text' => null
-                    ],
-                    [
-                      'title' => 'Capacitaciones en vivo <span>semanales con expertos</span>',
-                      'text' => null
-                    ],
-                    [
-                      'title' => 'Atención por WhatsApp, <span>Email y Chat de servicio</span>',
-                      'text' => null
-                    ],
-                    [
-                      'title' => '<span>Diseño de plantillas</span> personalizadas',
-                      'text' => null
-                    ],
-                    [
-                      'title' => '<span>Asistencia y soporte en vivo, a un WhatsApp <br class="desktopTabletElement"> de distancia,</span> sin chatbots',
-                      'text' => null
-                    ],
-                    [
-                      'title' => 'Hasta 15 horas de sesiones privadas <span>los primeros 3 meses</span>',
-                      'text' => null
-                    ],
-
-                    [
-                      'title' => 'Posibilidad de contratar <span>servicios profesionales</span>',
-                      'text' => null
-                    ],
-                    [
-                      'title' => 'Cientos de videotutoriales, <span>artículos y webinars</span>',
-                      'text' => null
-                    ],
-
-
-                  );
-
-              @endphp
-
-
-              <div class="containElements">
-
-                <ul class="elements">
-                  @foreach ($elements as $item)
-                  <li class="item">
-                    <div class="containerImage">
-                      <img alt="Landing Escala Landings" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector_check.png') !!}" alt="" loading="lazy">
-                    </div>
-                    <div class="text">
-                      <h3>
-                        {!! $item['title'] !!}
-                      </h3>
-                      <p class="text">
-                        {!! $item['text'] !!}
-                      </p>
-                    </div>
-                  </li>
-                  @endforeach
-                </ul>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </section>
-
-
-  </div>
-
- </section>
-
-
- @php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'landing_escala_competitors_brands_5',
-  'enableTitle' => false,
-  'img' => App::setFilePath('/assets/images/illustrations/others/esquema_emails_3.png'),
-  'title' => '
-  <span class="greenBlueColor">Automatiza con Escala: <br class="desktopTabletElement"></span>
-  más fácil imposible
-  ',
-  'text' => '
-    Reactiva el interés de un lead que está a punto de comprar, <br class="desktopTabletElement">
-    programando la secuencia de emails que le llegan a partir de una <br class="desktopTabletElement">
-    interacción. gracias a nuestras bifurcaciones de flujos inteligentes.
-    <br class="space"><br class="space">
-    Automatizando con Escala, tu empresa crece, aún mientras duermes.
-  ',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-  'side' => 'right',
- ) ;
-@endphp
-
-@contain_text_image_T1( $parameters )
-@endcontain_text_image_T1
-
-
- @php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'landing_escala_competitors_brands_6',
-  'enableTitle' => false,
-  'img' => App::setFilePath('/assets/images/illustrations/others/Group 8436.png'),
-  'title' => '
-    <span style="color: #B9E6E9">
-      La receta perfecta para <br class="desktopTabletElement">
-      un Email Marketing exitoso: <br class="desktopTabletElement">
-    </span>
-    Automatizaciones + CRM
-  ',
-  'text' => '
-    En Escala, tu Email Marketing está integrado <br class="desktopTabletElement">
-    con todas las herramientas que necesitas para <br class="desktopTabletElement">
-    generar más demanda, aumentar tus ventas y <br class="desktopTabletElement">
-    generar mayor fidelización de tus clientes, sin <br class="desktopTabletElement">
-    costos adicionales. Todo lo que necesitas para <br class="desktopTabletElement">
-    hacer crecer tu empresa en un solo lugar.
-  ',
-  'enableButton' => true,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Escala gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-  'side' => 'left',
- ) ;
-@endphp
-
-@contain_text_image_T1( $parameters )
-@endcontain_text_image_T1
-
-
-
-
-
-<section class="customSection sectionParent landing_escala_competitors_brands_7 ">
-
-
-    <div class="section-row">
-
-      <div class="containElements">
-
-        <div class="info">
-
-          <h3 class="primaryTitle">
-            Comienza a vender más <br class="desktopTabletElement">
-            <span class="greenBlueColor">con el Email Marketing de Escala</span>
-          </h3>
-
-          <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-            Prueba Gratis
-          </a>
-
-        </div>
-
-
-
-      </div>
-
-    </div>
-
-</section>
 
 
 
 @php
        $parameters = [
-        'classSection' => 'landing_escala_competitors_brands_8',
+        'classSection' => 'landing_escala_competitors_brands_4',
         'enableTitle' => true,
         'titlePrincipal' => '
-        Nuestros clientes te dicen <br class="desktopTabletElement">
-        <span class="greenBlueColor">por qué prefieren Escala</span>
+        <span class="greenBlueColor">Nuestros clientes lo dicen:</span>
+        El CRM de Escala es ganador
         ',
         'subTitlePrincipal' => null,
         'enableContainerButton' => true,
@@ -480,14 +350,13 @@
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         'textButton' => 'Prueba Gratis',
         'mob_reviews' => array(
-          App::setFilePath('/assets/images/illustrations/others/email_mkt_trust_1.png'),
-
+          App::setFilePath('/assets/images/illustrations/others/competitor_trust_1.png'),
+            App::setFilePath('/assets/images/illustrations/others/competitor_trust_2.png')
         ),
         'desk_reviews' => array(
           [
-            App::setFilePath('/assets/images/illustrations/others/email_mkt_trust_1.png'),
-            App::setFilePath('/assets/images/illustrations/others/email_mkt_trust_1.png'),
-            App::setFilePath('/assets/images/illustrations/others/email_mkt_trust_1.png')
+            App::setFilePath('/assets/images/illustrations/others/competitor_trust_1.png'),
+            App::setFilePath('/assets/images/illustrations/others/competitor_trust_2.png')
           ],
 
         ),
@@ -499,20 +368,94 @@
 
 
 @php
-$parameters = [
-    'classSection' => 'landing_escala_competitors_brands_9',
-    'title' => '
-      <span style="color: #B9E6E9">Emails leídos = clientes ganados</span> <br class="desktopTabletElement">
-      con el Email Marketing de Escala
-    ',
-    'textForm' => 'Pruébalo gratis ahora',
-    'text' => null,
-    'image' => App::setFilePath('/assets/images/person/hombre_puf_emailmk_1_.png'),
-];
+$parameters = array(
+ 'type' => 'backgroundColor',
+ 'classSection' => 'landing_escala_competitors_brands_5',
+ 'enableTitle' => false,
+ 'titlePrincipal' => '
+    <span class="greenBlueColor">Compara el software CRM de Escala y descubre <br class="desktopTabletElement"></span>
+    por qué representa el poder de lo simple
+ ',
+'subTitlePrincipal' => '
+  Hallar el CRM  perfecto para tu empresa puede ser una decisión difícil. Hay muchas opciones y no puedes tomar una <br class="desktopTabletElement">
+  decisión apresurada. En Escala te guiamos para que te hagas las preguntas correctas, antes de elegir:
+',
+ 'img' => App::setFilePath('/assets/images/illustrations/others/CRM_laptop 1.png'),
+ 'title' => '
+  <span class="greenBlueColor">¿Qué hace al CRM de Escala</span> tan completo?
+ ',
+ 'text' => '
+ <ul class="text">
+  <li><strong>Está Integrado a todas</strong> las herramientas de marketing digital y ventas</li>
+  <li><strong>Atención prioritaria 100% en español</strong> y a un WhatsApp de distancia</li>
+  <li><strong>Organiza en un solo lugar:</strong> tus contactos, embudos, flujos y oportunidades</li>
+  <li><strong>Extensión de WhatsApp Web</strong> para hacerle mejor seguimiento <br class="desktopTabletElement">
+    a todos tus contactos</li>
+  <li><strong>Simple de usar,</strong> diseñado por expertos para vendedores y equipos de marketing</li>
+  <li><strong>Gestiona tu base de datos</strong> y guarda automáticamente la data con formularios <br class="desktopTabletElement">
+      integrados desde tus landing pages</li>
+  <li><strong>Segmenta y personaliza</strong> tus comunicaciones con etiquetas avanzadas. <br class="space">
+      Ten trazabilidad e historial de tus contactos</li>
+  <li><strong>Visualiza todo</strong> tu proceso de venta, fase por fase</li>
+  <li><strong>Potencia la productividad de tu equipo</strong> con la asignación de tareas, <br class="desktopTabletElement">
+    actividades y recordatorios</li>
+  <li><strong>Automatiza tu flujo de acciones</strong> según la segmentación de tus contactos</li>
+  <li><strong>Analiza tus resultados</strong> de ventas con dashboards amigables y optimiza tus <br class="desktopTabletElement"> acciones</li>
+  <li><strong>Fideliza más clientes</strong> nutriendo tus relaciones a largo plazo</li>
+  <li><strong>Pagas en moneda local,</strong> justo por lo que necesitas</li>
+  </ul>
+ ',
+ 'enableButton' => false,
+ 'urlButton' => '#lead-form',
+ 'textButton' => 'Prueba Gratis',
+ 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+ 'side' => 'left',
+) ;
 @endphp
-@bannerForms7_T1( $parameters )
 
-@endbannerForms7_T1
+@contain_text_image_T1( $parameters )
+@endcontain_text_image_T1
+
+
+@php
+$parameters = array(
+ 'type' => 'backgroundColor',
+ 'classSection' => 'landing_escala_competitors_brands_6',
+ 'enableTitle' => false,
+ 'titlePrincipal' => '
+    <span class="greenBlueColor">Compara el software CRM de Escala y descubre <br class="desktopTabletElement"></span>
+    por qué representa el poder de lo simple
+ ',
+'subTitlePrincipal' => '
+  Hallar el CRM  perfecto para tu empresa puede ser una decisión difícil. Hay muchas opciones y no puedes tomar una <br class="desktopTabletElement">
+  decisión apresurada. En Escala te guiamos para que te hagas las preguntas correctas, antes de elegir:
+',
+ 'img' => App::setFilePath('/assets/images/person/home_pantalla_CRM_09_chica 1.png'),
+ 'title' => '
+ <span class="greenBlueColor">Con el CRM de Escala</span> puedes lograr:
+ ',
+ 'text' => '
+ <ul class="text">
+    <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Organizar y gestionar eficientemente tu base de datos</li>
+    <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Integrar las acciones del equipo de marketing y comercial</li>
+    <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Mejorar la productividad de tu equipo de ventas</li>
+    <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Implementar tu estrategia digital con acompañamiento
+    de tu Gerente de Cuenta</li>
+    <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Segmentar y personalizar la comunicación con tus contactos</li>
+    <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Cerrar ventas de manera más acelerada</li>
+    <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Tener los resultados en tiempo real</li>
+  </ul>
+ ',
+ 'enableButton' => false,
+ 'urlButton' => '#lead-form',
+ 'textButton' => 'Prueba Gratis',
+ 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+ 'side' => 'right',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+@endcontain_text_image_T1
 
 
 
