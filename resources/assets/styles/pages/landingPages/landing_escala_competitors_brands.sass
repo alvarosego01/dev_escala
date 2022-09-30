@@ -629,34 +629,28 @@
                     .containerImage
                         position: relative
                         display: flex
+                        padding: 0
+                        margin-bottom: 5px
                         @include responsivo(telefonoTable)
                             padding: 0
-                            margin-bottom: 20px!important
+                            margin-bottom: 10px!important
                         @include responsivo(pcMedio)
                             padding: 0
-                            margin-bottom: 20px!important
-                        @include responsivo(general)
-                            height: 75px
-                        @include responsivo(resto)
-                            height: 100px
+                            margin-bottom: 10px!important
+
                         img
-                            position: absolute
-                            top: 0
-                            right: 0
-                            left: 0
-                            bottom: 0
-                            margin: auto
                             display: block
+                            margin: auto
                             @include responsivo(telefonoTable)
                                 height: 50px
-                                position: unset
                             @include responsivo(pcMedio)
                                 height: 75px
-                                position: unset
                             @include responsivo(general)
-                                height: 50px
-                            @include responsivo(resto)
+                                height: 100px
+                            @include responsivo(smallPcTablet)
                                 height: 75px
+                            @include responsivo(resto)
+                                height: 125px
                 .info
                     h3.secondaryTitle
                         font-family: Nunito
