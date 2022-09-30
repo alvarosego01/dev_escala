@@ -154,7 +154,7 @@
                         </p>
 
 
-                      <a href="https://api.whatsapp.com/send?phone=17863042407&text=%C2%A1Hola!%20Estoy%20interesad%40%20en%20los%20programas%20de%20Alianza%20de%20Escala" target="_blank" class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                      <a href="https://api.whatsapp.com/send?phone=17863042407&text=%C2%A1Hola!%20Estoy%20interesad%40%20en%20los%20programas%20de%20Alianza%20de%20Escala" target="_blank" class=" secondaryButton hoverInEffect">
                         Hablar con asesor
                       </a>
 
@@ -191,7 +191,7 @@
                         </p>
 
 
-                      <a href="https://api.whatsapp.com/send?phone=17863042407&text=%C2%A1Hola!%20Estoy%20interesad%40%20en%20los%20programas%20de%20Alianza%20de%20Escala" target="_blank" class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                      <a href="https://api.whatsapp.com/send?phone=17863042407&text=%C2%A1Hola!%20Estoy%20interesad%40%20en%20los%20programas%20de%20Alianza%20de%20Escala" target="_blank" class=" secondaryButton hoverInEffect">
                         Hablar con asesor
                       </a>
 
@@ -228,7 +228,7 @@
                         </p>
 
 
-                      <a href="https://api.whatsapp.com/send?phone=17863042407&text=%C2%A1Hola!%20Estoy%20interesad%40%20en%20los%20programas%20de%20Alianza%20de%20Escala" target="_blank" class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                      <a href="https://api.whatsapp.com/send?phone=17863042407&text=%C2%A1Hola!%20Estoy%20interesad%40%20en%20los%20programas%20de%20Alianza%20de%20Escala" target="_blank" class=" secondaryButton hoverInEffect">
                         Hablar con asesor
                       </a>
 
