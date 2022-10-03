@@ -150,6 +150,10 @@ add_action('wp_enqueue_scripts', function () {
         if ( is_page_template("views/template-landing-escala-competitors-brands-2022.blade.php") ) {
             wp_enqueue_style('landing_escala_competitors_brands.css', asset_path('styles/pages/landingPages/landing_escala_competitors_brands.css'), false, THEME_VERSION);
         }
+        // ---Landing escala competitors no brands
+        if ( is_page_template("views/template-landing-escala-competitors-noBrands-2022.blade.php") ) {
+            wp_enqueue_style('landing_escala_competitors_brands.css', asset_path('styles/pages/landingPages/landing_escala_competitors_brands.css'), false, THEME_VERSION);
+        }
         // -------------------------------------- //
         //  FUNCTIONALITIES 2022
         // ---Page builder
