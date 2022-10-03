@@ -43,6 +43,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 <!-- End TrustBox script -->
 
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
 </head>
 
 @include('partials.header')
