@@ -183,9 +183,11 @@ inteligentes. Consulta si debes pagar extra por personalizar estas funcionalidad
        'classSection' => 'landing_escala_competitors_brands_3',
        'enableTitle' => true,
        'titlePrincipal' => '
-          <span class="greenBlueColor">Compara con los CRMs</span> <br class="space">
-          más conocidos del mercado
-       ',
+          <span class="greenBlueColor">
+            ¿Por qué elegir Escala?
+          </span> <br class="space">
+          Compara con otros CRMs
+          ',
        'subTitlePrincipal' => null,
        'overlay' => false,
        'enableButton' => false,
