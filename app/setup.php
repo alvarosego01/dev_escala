@@ -165,6 +165,7 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_style('func_CRM2022.css', asset_path('styles/pages/func/2022/crm_2022.css'), false, THEME_VERSION);
         }
 
+        //  SUB PAGES----------------------------------------------------
         // --- Seccion partners
         if ( is_page_template("views/template-subPage-partners-2022.blade.php") ) {
             wp_enqueue_style('subPage_partners_2022.css', asset_path('styles/pages/subPages/subPage_partners_2022.css'), false, THEME_VERSION);
@@ -178,7 +179,6 @@ add_action('wp_enqueue_scripts', function () {
         if ( is_page_template("views/template-vn-program-alliance.blade.php") ) {
             wp_enqueue_style('programAlliance.css', asset_path('styles/pages/subPages/vn/programAlliance.css'), false, THEME_VERSION);
         }
-        //  SUB PAGES
         // ---Pricing page
         if ( is_page_template("views/template-subPage-pricing-page.blade.php") ) {
             wp_enqueue_style('pricingPage.css', asset_path('styles/pages/subPages/pricingPage.css'), false, THEME_VERSION);
@@ -192,6 +192,9 @@ add_action('wp_enqueue_scripts', function () {
         if ( is_page_template("views/template-subPage-pricingVentas-page.blade.php") ) {
             wp_enqueue_style('pricingPageVentas.css', asset_path('styles/pages/subPages/pricingPage_ventas.css'), false, THEME_VERSION);
             wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage_ventas.js'), ['jquery'], THEME_VERSION, true);
+        }
+        if ( is_page_template("views/template-casoExito-educacion-2022.blade.php") ) {
+            wp_enqueue_style('caso_exito_educacion.css', asset_path('styles/pages/subPages/casosExito/subPage_casoExito_educacion.css'), false, THEME_VERSION);
         }
         // -------------------------------------- //
 

@@ -349,6 +349,7 @@ class SetComponents extends Controller
             return array(
 
                 "views/template-home.blade.php",
+                "views/template-casoExito-educacion-2022.blade.php",
                 "views/template-landing-escala-landings-2022.blade.php",
                 "views/template-landing-escala-func-email-mkt-2022.blade.php",
                 "views/template-landing-escala-landings-sin-expertos-2022.blade.php",
