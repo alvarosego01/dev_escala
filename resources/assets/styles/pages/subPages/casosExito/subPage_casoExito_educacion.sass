@@ -426,7 +426,7 @@
     .section-row
 
         @include responsivo(telefonoTable)
-            width: 95%
+            width: 90%
         @include responsivo(pcMedio)
             width: 90%
         @include responsivo(general)
@@ -455,16 +455,22 @@
             margin-bottom: 25px
 
         .innerSectionElement.sct2
+            display: grid
+            grid-template-columns: repeat(4, 1fr)
+            grid-auto-rows: 1fr
+            grid-column-gap: 30px
+            grid-row-gap: 30px
+            width: 100%
             @include responsivo(telefonoTable)
                 display: grid
-                grid-template-columns: repeat(2, 1fr)
+                grid-template-columns: repeat(4, 1fr)
                 grid-auto-rows: 1fr
                 grid-column-gap: 30px
                 grid-row-gap: 30px
                 width: 100%
             @include responsivo(pcMedio)
                 display: grid
-                grid-template-columns: repeat(2, 1fr)
+                grid-template-columns: repeat(4, 1fr)
                 grid-auto-rows: 1fr
                 grid-column-gap: 30px
                 grid-row-gap: 30px
@@ -474,6 +480,10 @@
                 padding: 0
                 background-color: transparent
                 margin: 0 10px
+                @include responsivo(telefonoTable)
+                    margin: 0
+                @include responsivo(pcMedio)
+                    margin: 0
                 .image
                     margin-bottom: 15px
                     .containerImage
@@ -501,9 +511,9 @@
                         color: $colorBlack
                         letter-spacing: -1px
                         @include responsivo(telefonoTable)
-                            font-size: 16px
+                            font-size: 13px
                         @include responsivo(pcMedio)
-                            font-size: 18px
+                            font-size: 16px
                         @include responsivo(general)
                             font-size: 20px
                         @include responsivo(smallPcTablet)
