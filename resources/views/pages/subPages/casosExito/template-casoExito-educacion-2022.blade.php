@@ -372,7 +372,7 @@ $parameters = array(
     Optimiza tus resultados <span class="greenBlueColor">de marketing y ventas</span>
  ',
 'subTitlePrincipal' => null,
- 'img' => App::setFilePath('/assets/images/gifs/reportes.gif'),
+ 'img' => App::setFilePath('/assets/images/gifs/Landing-gif.gif'),
  'title' => null,
  'text' => '
     <span>
@@ -404,7 +404,7 @@ $parameters = array(
  'enableTitle' => false,
  'titlePrincipal' => null,
 'subTitlePrincipal' => null,
- 'img' => App::setFilePath('/assets/images/gifs/Landing-gif.gif'),
+ 'img' => App::setFilePath('/assets/images/gifs/anuncios-2.gif'),
  'title' => null,
  'text' => '
     <span>
@@ -434,7 +434,7 @@ $parameters = array(
  'enableTitle' => false,
  'titlePrincipal' => null,
 'subTitlePrincipal' => null,
- 'img' => App::setFilePath('/assets/images/gifs/Email.gif'),
+ 'img' => App::setFilePath('/assets/images/gifs/crm2.gif'),
  'title' => null,
  'text' => '
     <span>
@@ -467,7 +467,7 @@ $parameters = array(
  'enableTitle' => false,
  'titlePrincipal' => null,
 'subTitlePrincipal' => null,
- 'img' => App::setFilePath('/assets/images/gifs/crm2.gif'),
+ 'img' => App::setFilePath('/assets/images/gifs/Email.gif'),
  'title' => null,
  'text' => '
     <span>
@@ -529,7 +529,7 @@ $parameters = array(
  'enableTitle' => false,
  'titlePrincipal' => null,
 'subTitlePrincipal' => null,
- 'img' => App::setFilePath('/assets/images/gifs/automatizaciones.gif'),
+ 'img' => App::setFilePath('/assets/images/gifs/reportes.gif'),
  'title' => null,
  'text' => '
     <span>
