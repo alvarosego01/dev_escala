@@ -363,6 +363,195 @@ $parameters = [
 @endcontain_multiple_cards_T2
 
 
+@php
+$parameters = array(
+ 'type' => 'backgroundColor',
+ 'classSection' => 'subPage_casoExito_educacion_5',
+ 'enableTitle' => true,
+ 'titlePrincipal' => '
+    Optimiza tus resultados <span class="greenBlueColor">de marketing y ventas</span>
+ ',
+'subTitlePrincipal' => null,
+ 'img' => App::setFilePath('/assets/images/gifs/reportes.gif'),
+ 'title' => null,
+ 'text' => '
+    <span>
+      "Recibo visitas en mi sitio web, <br class="desktopTabletElement">
+      pero no capturo registros <br class="desktopTabletElement">
+      de los interesados adecuados" <br class="desktopTabletElement">
+    </span>
+    Las landing pages de Escala recolectan <br class="desktopTabletElement">
+    datos clave de tus aspirantes  y posibles <br class="desktopTabletElement">
+    prospectos, brindan información útil y activan <br class="desktopTabletElement">
+    tus procesos comerciales para matricular.
+
+ ',
+ 'enableButton' => false,
+ 'urlButton' => '#lead-form',
+ 'textButton' => 'Prueba Gratis',
+ 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+ 'side' => 'left',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+@endcontain_text_image_T1
+
+@php
+$parameters = array(
+ 'type' => 'backgroundColor',
+ 'classSection' => 'subPage_casoExito_educacion_6',
+ 'enableTitle' => false,
+ 'titlePrincipal' => null,
+'subTitlePrincipal' => null,
+ 'img' => App::setFilePath('/assets/images/gifs/Landing-gif.gif'),
+ 'title' => null,
+ 'text' => '
+    <span>
+      "Tengo un proceso ineficiente que <br class="desktopTabletElement">
+      no me permite llegar al público <br class="desktopTabletElement">
+      objetivo de la institución" <br class="desktopTabletElement">
+    </span>
+    Con los anuncios digitales de Escala, <br class="desktopTabletElement">
+    consigue aspirantes calificados para <br class="desktopTabletElement">
+    alcanzar tus metas comerciales.
+ ',
+ 'enableButton' => false,
+ 'urlButton' => '#lead-form',
+ 'textButton' => 'Prueba Gratis',
+ 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+ 'side' => 'right',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+@endcontain_text_image_T1
+
+@php
+$parameters = array(
+ 'type' => 'backgroundColor',
+ 'classSection' => 'subPage_casoExito_educacion_7',
+ 'enableTitle' => false,
+ 'titlePrincipal' => null,
+'subTitlePrincipal' => null,
+ 'img' => App::setFilePath('/assets/images/gifs/Email.gif'),
+ 'title' => null,
+ 'text' => '
+    <span>
+      "Necesitamos organizar el <br class="desktopTabletElement">
+      manejo de la información para <br class="desktopTabletElement">
+      nuestros asesores"
+    </span> <br class="desktopTabletElement">
+    En el CRM de Escala, filtras, etiquetas <br class="desktopTabletElement">
+    y segmentas tu base de datos para <br class="desktopTabletElement">
+    organizarla de acuerdo a cada <br class="desktopTabletElement">
+    programa de la oferta académica.
+
+
+ ',
+ 'enableButton' => false,
+ 'urlButton' => '#lead-form',
+ 'textButton' => 'Prueba Gratis',
+ 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+ 'side' => 'left',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+@endcontain_text_image_T1
+
+@php
+$parameters = array(
+ 'type' => 'backgroundColor',
+ 'classSection' => 'subPage_casoExito_educacion_8',
+ 'enableTitle' => false,
+ 'titlePrincipal' => null,
+'subTitlePrincipal' => null,
+ 'img' => App::setFilePath('/assets/images/gifs/crm2.gif'),
+ 'title' => null,
+ 'text' => '
+    <span>
+      "Me gustaría impulsar las <br class="desktopTabletElement">
+      matriculaciones con promociones <br class="desktopTabletElement">
+      para mi base de datos"
+    </span> <br class="desktopTabletElement">
+    Ejecuta tu plan de comunicaciones con la <br class="desktopTabletElement">
+    herramienta de email marketing  <br class="desktopTabletElement">
+    de Escala para atraer, mantener y convertir <br class="desktopTabletElement">
+    en ventas el interés de tus contactos.
+ ',
+ 'enableButton' => false,
+ 'urlButton' => '#lead-form',
+ 'textButton' => 'Prueba Gratis',
+ 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+ 'side' => 'right',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+@endcontain_text_image_T1
+
+@php
+$parameters = array(
+ 'type' => 'backgroundColor',
+ 'classSection' => 'subPage_casoExito_educacion_9',
+ 'enableTitle' => false,
+ 'titlePrincipal' => null,
+'subTitlePrincipal' => null,
+ 'img' => App::setFilePath('/assets/images/gifs/automatizaciones.gif'),
+ 'title' => null,
+ 'text' => '
+     <span>
+       "No logramos responder a <br class="desktopTabletElement">
+        tiempo a los aspirantes <br class="desktopTabletElement">
+        y perdemos gran parte de la <br class="desktopTabletElement">
+        inversión en marketing"
+     </span> <br class="desktopTabletElement">
+    Optimiza tus operaciones para <br class="desktopTabletElement">
+    asignar leads a tu equipo comercial <br class="desktopTabletElement">
+    con las automatizaciones de Escala.
+ ',
+ 'enableButton' => false,
+ 'urlButton' => '#lead-form',
+ 'textButton' => 'Prueba Gratis',
+ 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+ 'side' => 'left',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+@endcontain_text_image_T1
+
+@php
+$parameters = array(
+ 'type' => 'backgroundColor',
+ 'classSection' => 'subPage_casoExito_educacion_10',
+ 'enableTitle' => false,
+ 'titlePrincipal' => null,
+'subTitlePrincipal' => null,
+ 'img' => App::setFilePath('/assets/images/gifs/automatizaciones.gif'),
+ 'title' => null,
+ 'text' => '
+    <span>
+      "Quisiera obtener reportes  <br class="desktopTabletElement">
+      en tiempo real para conocer el  <br class="desktopTabletElement">
+      estatus de las metas y tomar  <br class="desktopTabletElement">
+      decisiones acertadas"
+    </span><br class="desktopTabletElement">
+    Visualiza el dashboard y las analíticas <br class="desktopTabletElement">
+    de Escala para conocer rápidamente <br class="desktopTabletElement">
+    la salud de tu negocio.
+ ',
+ 'enableButton' => false,
+ 'urlButton' => '#lead-form',
+ 'textButton' => 'Prueba Gratis',
+ 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+ 'side' => 'right',
+) ;
+@endphp
+
+@contain_text_image_T1( $parameters )
+@endcontain_text_image_T1
 
 
 @php
