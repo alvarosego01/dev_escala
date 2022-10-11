@@ -561,7 +561,14 @@
                     @include responsivo(smallPcTablet)
                         font-size: 30px
         .innerSectionElement.sct2
-
+            @include responsivo(pcMedio)
+                width: 70%
+            @include responsivo(general)
+                width: 55%
+            @include responsivo(smallPcTablet)
+                width: 65%
+            @include responsivo(resto)
+                width: 55%
             .video-js
                 @include responsivo(telefonoTable)
                     height: 250px
