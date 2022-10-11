@@ -248,14 +248,14 @@
             padding: 50px 25px
         @include responsivo(general)
             width: 100%!important
-            max-width: 1125px!important
+            max-width: 1000px!important
             padding: 50px 0
         @include responsivo(smallPcTablet)
             max-width: 1000px!important
 
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1250px!important
+            max-width: 1100px!important
             padding: 50px 0
 
         background-color: transparent
@@ -362,54 +362,55 @@
                 .image
                     .containerImage
                         padding: 0
+                        margin-bottom: 10px
                         img
                             @include responsivo(telefonoTable)
                                 height: 50px
                             @include responsivo(pcMedio)
                                 height: 75px
                             @include responsivo(general)
-                                height: 75px
+                                height: 55px
                             @include responsivo(smallPcTablet)
                                 height: 50px
                             @include responsivo(resto)
-                                height: 75px
+                                height: 60px
 
                 .info
                     h3.secondaryTitle
                         font-family: Nunito
                         font-style: normal
-                        font-weight: bold
-                        font-size: 22px
+                        font-size: 20px
                         line-height: 0.9
                         text-align: center
                         color: $colorBlack
+                        font-weight: 700
                         // letter-spacing: -1px
                         @include responsivo(telefonoTable)
                             font-size: 16px
                         @include responsivo(pcMedio)
                             font-size: 18px
                         @include responsivo(general)
-                            font-size: 20px
-                        @include responsivo(smallPcTablet)
                             font-size: 18px
+                        @include responsivo(smallPcTablet)
+                            font-size: 16px
                     p.text
                         color: $colorGrey
                         margin-bottom: 0
                         font-family: Nunito
                         font-style: normal
-                        font-weight: normal
-                        font-size: 20px
+                        font-size: 16px
                         line-height: 1.1
                         text-align: center
                         padding: 0
+                        font-weight: 400
                         @include responsivo(telefonoTable)
                             font-size: 14px
                         @include responsivo(pcMedio)
                             font-size: 16px
                         @include responsivo(general)
-                            font-size: 18px
+                            font-size: 14px
                         @include responsivo(smallPcTablet)
-                            font-size: 16px
+                            font-size: 14px
 
 
 #subPage_casoExito_educacion .customSection.sectionParent.subPage_casoExito_educacion_2
@@ -676,13 +677,13 @@
                         position: relative
                         display: flex
                         padding: 0
-                        margin-bottom: 5px
+                        margin-bottom: 25px
                         @include responsivo(telefonoTable)
                             padding: 0
-                            margin-bottom: 10px!important
+                            margin-bottom: 25px!important
                         @include responsivo(pcMedio)
                             padding: 0
-                            margin-bottom: 10px!important
+                            margin-bottom: 25px!important
 
                         img
                             display: block
@@ -814,12 +815,12 @@
             width: 90%
         @include responsivo(general)
             width: 100%!important
-            max-width: 900px!important
+            max-width: 1140px!important
         @include responsivo(smallPcTablet)
-            max-width: 800px!important
+            max-width: 1000px!important
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1000px!important
+            max-width: 1240px!important
         section.innerSectionElement.sct1
             @include responsivo(telefonoTable)
                 margin-bottom: 25px
@@ -857,36 +858,39 @@
                     p.text
                         font-family: Nunito
                         font-style: normal
-                        font-size: 18px
+                        font-size: 20px
                         line-height: 1
                         color: $colorGrey
                         font-weight: 500
                         width: 100%!important
                         margin-bottom: 0
+                        letter-spacing: -1px
                         @include responsivo(telefonoTable)
-                            font-size: 14px
+                            font-size: 16px
                         @include responsivo(pcMedio)
-                            font-size: 16px
+                            font-size: 18px
                         @include responsivo(general)
-                            font-size: 16px
+                            font-size: 18px
                         @include responsivo(smallPcTablet)
-                            font-size: 14px
+                            font-size: 16px
+
+                        strong
+                            color: $colorBlack
+                            font-weight: 700
 
                         span
                             color: #36768A
-                            font-size: 20px
+                            font-size: 22px
                             font-family: Nunito
                             font-weight: 700
                             @include responsivo(telefonoTable)
-                                font-size: 16px
+                                font-size: 18p
                             @include responsivo(pcMedio)
-                                font-size: 18px
+                                font-size: 20px
                             @include responsivo(general)
-                                font-size: 18px
+                                font-size: 20px
                             @include responsivo(smallPcTablet)
-                                font-size: 16px
-
-
+                                font-size: 18px
 
                 .image
                     padding: 0
@@ -903,9 +907,11 @@
                                 height: 300px
                                 margin-bottom: 0
                             @include responsivo(general)
-                                height: 225px
+                                height: 350px
+                            @include responsivo(smallPcTablet)
+                                height: 325px
                             @include responsivo(resto)
-                                height: 275px
+                                height: 375px
 
 
         section.innerSectionElement.sct2.right
@@ -920,18 +926,24 @@
                     p.text
                         @include responsivo(general)
                             text-align: right
-                            padding-right: 35px
+                            padding-right: 25px
                         @include responsivo(resto)
                             text-align: right
-                            padding-right: 35px
+                            padding-right: 25px
 
-                .image
-                    .containerImage
-                        img
-                            @include responsivo(general)
-                                margin-left: 0!important
-                            @include responsivo(resto)
-                                margin-left: 0!important
+        section.innerSectionElement.sct2.left
+            .groupElements.row
+                .info
+                    p.text
+                        @include responsivo(general)
+                            padding-left: 25px
+                        @include responsivo(resto)
+                            padding-left: 25px
+
+                // .image
+                //     .containerImage
+                //         img
+
 
 
 #subPage_casoExito_educacion .customSection.sectionParent.subPage_casoExito_educacion_10

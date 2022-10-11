@@ -62,10 +62,7 @@ $parameters = [
     'titlePrincipal' => '
     Acelera el crecimiento <span class="greenBlueColor">de tu institución</span>
     ',
-    'subTitlePrincipal' => '
-      Implementa y mide tus estrategias con Escala <br class="desktopTabletElement">
-      para cumplir tus metas
-    ',
+    'subTitlePrincipal' => null,
     'overlay' => false,
     'enableButton' => true,
     'urlButton' => '#',
@@ -76,9 +73,7 @@ $parameters = [
         [
             'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_1.png'),
             'title' => '
-              Genera mejores leads
-              <br class="desktopElement">
-              <br class="desktopElement">
+              Genera mejores <br class="space"> leads
                ',
             'text' => '
               Aumenta la cantidad de <br class="desktopTabletElement">
@@ -149,11 +144,10 @@ $parameters = [
               interna
                ',
             'text' => '
-              Utiliza la licencia de Escala, <br class="desktopTabletElement">
-              elabora segmentos exclusivos <br class="desktopTabletElement">
-              para empleados de tu institución <br class="desktopTabletElement">
-              y mantén una comunicación <br class="desktopTabletElement">
-              activa por email marketing
+              Utiliza la licencia de Escala, elabora <br class="desktopTabletElement">
+              segmentos exclusivos para empleados <br class="desktopTabletElement">
+              de tu institución y mantén una <br class="desktopTabletElement">
+              comunicación activa por email marketing
             ',
             'enableButton' => false,
         ],
@@ -286,10 +280,7 @@ $parameters = [
     'classSection' => 'subPage_casoExito_educacion_4',
     'enableTitle' => true,
     'titlePrincipal' => '
-       <span class="greenBlueColor">
-         ¿Por qué elegir Escala?
-       </span> <br class="space">
-       Compara con otros CRMs
+       Alcanza el éxito <span class="greenBlueColor">con las herramientas de Escala</span>
        ',
     'subTitlePrincipal' => null,
     'overlay' => false,
@@ -300,7 +291,7 @@ $parameters = [
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
-            'img' => App::setFilePath('/assets/images/illustrations/others/nave2 3.png'),
+            'img' => App::setFilePath('/assets/images/illustrations/otto/otto_worry.png'),
             'title' =>
             'Antes de Escala'
             ,
@@ -376,15 +367,13 @@ $parameters = array(
  'title' => null,
  'text' => '
     <span>
-      "Recibo visitas en mi sitio web, <br class="desktopTabletElement">
-      pero no capturo registros <br class="desktopTabletElement">
-      de los interesados adecuados" <br class="desktopTabletElement">
+      "Recibo visitas en mi sitio web, pero no capturo <br class="desktopTabletElement">
+      registros de los interesados adecuados"
     </span>
-    Las landing pages de Escala recolectan <br class="desktopTabletElement">
-    datos clave de tus aspirantes  y posibles <br class="desktopTabletElement">
-    prospectos, brindan información útil y activan <br class="desktopTabletElement">
-    tus procesos comerciales para matricular.
-
+    <br class="space"><br class="space">
+    Las <strong>landing pages</strong> de Escala recolectan datos clave de tus <br class="desktopTabletElement">
+    aspirantes y posibles prospectos, brindan información útil <br class="desktopTabletElement">
+    y activan tus procesos comerciales para matricular.
  ',
  'enableButton' => false,
  'urlButton' => '#lead-form',
@@ -408,13 +397,12 @@ $parameters = array(
  'title' => null,
  'text' => '
     <span>
-      "Tengo un proceso ineficiente que <br class="desktopTabletElement">
-      no me permite llegar al público <br class="desktopTabletElement">
-      objetivo de la institución" <br class="desktopTabletElement">
+      "Tengo un proceso ineficiente que no me permite <br class="desktopTabletElement">
+      llegar al público objetivo de la institución"
     </span>
-    Con los anuncios digitales de Escala, <br class="desktopTabletElement">
-    consigue aspirantes calificados para <br class="desktopTabletElement">
-    alcanzar tus metas comerciales.
+    <br class="space"><br class="space">
+    Con los <strong>anuncios digitales</strong> de Escala, consigue aspirantes <br class="desktopTabletElement">
+    calificados para alcanzar tus metas comerciales.
  ',
  'enableButton' => false,
  'urlButton' => '#lead-form',
@@ -438,16 +426,13 @@ $parameters = array(
  'title' => null,
  'text' => '
     <span>
-      "Necesitamos organizar el <br class="desktopTabletElement">
-      manejo de la información para <br class="desktopTabletElement">
-      nuestros asesores"
-    </span> <br class="desktopTabletElement">
-    En el CRM de Escala, filtras, etiquetas <br class="desktopTabletElement">
-    y segmentas tu base de datos para <br class="desktopTabletElement">
-    organizarla de acuerdo a cada <br class="desktopTabletElement">
-    programa de la oferta académica.
-
-
+      "Necesitamos organizar el manejo de la <br class="desktopTabletElement">
+      información para nuestros asesores"
+    </span>
+    <br class="space"><br class="space">
+    En el <strong>CRM de Escala</strong>, filtras, etiquetas y segmentas tu base <br class="desktopTabletElement">
+    de datos para organizarla de acuerdo a cada programa <br class="desktopTabletElement">
+    de la oferta académica.
  ',
  'enableButton' => false,
  'urlButton' => '#lead-form',
@@ -471,14 +456,13 @@ $parameters = array(
  'title' => null,
  'text' => '
     <span>
-      "Me gustaría impulsar las <br class="desktopTabletElement">
-      matriculaciones con promociones <br class="desktopTabletElement">
-      para mi base de datos"
-    </span> <br class="desktopTabletElement">
-    Ejecuta tu plan de comunicaciones con la <br class="desktopTabletElement">
-    herramienta de email marketing  <br class="desktopTabletElement">
-    de Escala para atraer, mantener y convertir <br class="desktopTabletElement">
-    en ventas el interés de tus contactos.
+      "Me gustaría impulsar las matriculaciones con <br class="desktopTabletElement">
+      promociones para mi base de datos"
+    </span>
+    <br class="space"><br class="space">
+    Ejecuta tu plan de comunicaciones con la herramienta <br class="desktopTabletElement">
+    de <strong>email marketing</strong> de Escala para atraer, mantener <br class="desktopTabletElement">
+    y convertir en ventas el interés de tus contactos.
  ',
  'enableButton' => false,
  'urlButton' => '#lead-form',
@@ -502,14 +486,12 @@ $parameters = array(
  'title' => null,
  'text' => '
      <span>
-       "No logramos responder a <br class="desktopTabletElement">
-        tiempo a los aspirantes <br class="desktopTabletElement">
-        y perdemos gran parte de la <br class="desktopTabletElement">
-        inversión en marketing"
-     </span> <br class="desktopTabletElement">
-    Optimiza tus operaciones para <br class="desktopTabletElement">
-    asignar leads a tu equipo comercial <br class="desktopTabletElement">
-    con las automatizaciones de Escala.
+        "No logramos responder a tiempo a los aspirantes y <br class="desktopTabletElement">
+        perdemos gran parte de la inversión en marketing"
+     </span>
+     <br class="space"><br class="space">
+    Optimiza tus operaciones para asignar leads a tu equipo <br class="desktopTabletElement">
+    comercial con las <strong>automatizaciones</strong> de Escala.
  ',
  'enableButton' => false,
  'urlButton' => '#lead-form',
@@ -533,14 +515,12 @@ $parameters = array(
  'title' => null,
  'text' => '
     <span>
-      "Quisiera obtener reportes  <br class="desktopTabletElement">
-      en tiempo real para conocer el  <br class="desktopTabletElement">
-      estatus de las metas y tomar  <br class="desktopTabletElement">
-      decisiones acertadas"
-    </span><br class="desktopTabletElement">
-    Visualiza el dashboard y las analíticas <br class="desktopTabletElement">
-    de Escala para conocer rápidamente <br class="desktopTabletElement">
-    la salud de tu negocio.
+      "Quisiera obtener reportes en tiempo real para conocer el <br class="desktopTabletElement">
+      estatus de las metas y tomar decisiones acertadas"
+    </span>
+    <br class="space"><br class="space">
+    Visualiza el <strong>dashboard y las analíticas</strong> de Escala <br class="desktopTabletElement">
+    para conocer rápidamente la salud de tu negocio.
  ',
  'enableButton' => false,
  'urlButton' => '#lead-form',
