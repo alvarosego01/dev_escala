@@ -18,7 +18,7 @@
 
             <section
             style="background-image: url('{!! App::setFilePath('/assets/images/backgrounds/degradesingleexito.png') !!}')"
-            class="customSection sectionParent casoExitoSingle0">
+            class="customSection sectionParent casoUsoSingle0">
 
 
                 <div class="section-row">
@@ -112,7 +112,7 @@
 
             </section>
 
-            <section class="customSection sectionParent casoExitoSingle1">
+            <section class="customSection sectionParent casoUsoSingle1">
 
 
                 <div class="section-row">
@@ -227,7 +227,7 @@
 
             <section
             style="background-image: url('{!! App::setFilePath('/assets/images/backgrounds/Mask-Group.png') !!}')"
-            class="customSection sectionParent casoExitoSingle2">
+            class="customSection sectionParent casoUsoSingle2">
 
 
             <div class="section-row">
@@ -261,7 +261,7 @@
 
                 $parameters = [
                     'posts' => $query,
-                    'classSection' => 'casoExitoSingle3',
+                    'classSection' => 'casoUsoSingle3',
                     'enableTitle' => true,
                     'titlePrincipal' => 'Estos clientes cuentan con Escala <span class="orangeColor">para hacer crecer sus negocios</span>',
                 ];
@@ -275,7 +275,7 @@
 
             @php
                 $parameters = [
-                    'classSection' => 'casoExitoSingle4',
+                    'classSection' => 'casoUsoSingle4',
                     'title' => '<span class="greenBlueColor">¡Los emprendedores</span> <br class="space"> hispanoamericanos nos prefieren!',
                     'textForm' => '¡Conoce cómo los ayudamos <br class="space"> a hacer crecer sus negocios!',
                     'text' => null,

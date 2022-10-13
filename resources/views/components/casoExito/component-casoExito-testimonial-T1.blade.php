@@ -18,7 +18,7 @@
 
 
 
-    <section class="component-casoExito-testimonial-image-T1 customSection sectionParent {{ $classSection }} ">
+    <section class="component-casoUso-testimonial-image-T1 customSection sectionParent {{ $classSection }} ">
 
 
             <div class="section-row">
