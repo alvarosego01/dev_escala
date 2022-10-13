@@ -20,7 +20,7 @@
                 $parameters = [
                     'backgroundImageType' => false,
                     'overlay' => false,
-                    'classSection' => 'casoExitoPrincipal0',
+                    'classSection' => 'casoUsoPrincipal0',
                     'title' => 'Conoce los casos <br class="space"> de éxito de <span class="blueLightColor10">Escala</span>',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/illustrations/otto/otto_canon.png'),
@@ -43,7 +43,7 @@
                 $team = ACF_CUSTOM::_getField( 'team_embed_case' );
 
                 // $parameters = [
-                //     'classSection' => 'casoExitoPrincipal1',
+                //     'classSection' => 'casoUsoPrincipal1',
                 //     // 'description' => '<span class="greenBlueColor4">“Escala nos ha ayudado a optimizar <br class="space"> la excelencia operacional.”</span>.',
                 //     'description' => $t,
                 //     'byAm' => $byAm,
@@ -61,7 +61,7 @@
             @endcontain_am_T1 --}}
 
 
-            <section class="component-contain-info-am-t1 bg-color customSection sectionParent casoExitoPrincipal1 ">
+            <section class="component-contain-info-am-t1 bg-color customSection sectionParent casoUsoPrincipal1 ">
 
                 <div class="section-row">
 
@@ -139,7 +139,7 @@
 
             $parameters = [
                 "posts" => $query,
-                "classSection" => 'casoExitoPrincipal2',
+                "classSection" => 'casoUsoPrincipal2',
                 "enableTitle" => true,
                 "titlePrincipal" => 'Estos clientes cuentan con Escala <span class="orangeColor">para hacer crecer sus negocios</span>',
             ]
@@ -154,7 +154,7 @@
             @php
                 $parameters = [
                     'type' => 'backgroundColor',
-                    'classSection' => 'casoExitoPrincipal3',
+                    'classSection' => 'casoUsoPrincipal3',
                     'backgroundImageFile' => null,
                     'enableTitle' => false,
                     'img' => App::setFilePath('/assets/images/person/callcenter1.png'),
@@ -182,7 +182,7 @@
                     "position" => 'Directora de medios y marketing digital',
                     "logo" => App::setFilePath('/assets/images/illustrations/others/Initiative-logo.png'),
                 ),
-                "classSection" => 'casoExitoPrincipal4',
+                "classSection" => 'casoUsoPrincipal4',
                 "enableTitle" => true,
                 "titlePrincipal" => 'Somos la plataforma más completa y fácil de usar, <br class="desktopTabletElement"> <span class="orangeColor">lo dicen nuestros clientes</span>',
             ]
@@ -197,7 +197,7 @@
 
             @php
                 $parameters = [
-                    'classSection' => 'casoExitoPrincipal5',
+                    'classSection' => 'casoUsoPrincipal5',
                     'title' => '<span class="greenBlueColor">¡Los emprendedores</span> <br class="space"> hispanoamericanos nos prefieren!',
                     'textForm' => '¡Conoce cómo los ayudamos <br class="space"> a hacer crecer sus negocios!',
                     'text' => null,
