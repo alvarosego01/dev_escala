@@ -418,6 +418,23 @@
                                         </div>
                                         </div>
 
+                                        <div style="display: none" class="showInfosection outLimit">
+
+                                            <p class="primaryText grayColorTexts">
+
+                                                Si estás interesado en <span class="greenBlueColor"><strong>
+                                                    un plan mayor <br class="desktopTabletElement">
+                                                    a 100.000 contactos,
+                                                </strong>
+                                                </span> habla con uno de <br class="desktopTabletElement">
+                                                nuestros asesores y te ayudaremos a <br class="desktopTabletElement">
+                                                personalizar tu plan.
+
+                                             </p>
+
+                                        </div>
+
+
                                         <div class="finalButtons">
 
                                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
@@ -427,6 +444,14 @@
                                             <a
                                             class="secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                                 Solicitar Demo
+                                            </a>
+
+                                        </div>
+
+                                        <div style="display: none" class="finalButtons outLimit">
+
+                                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                                                Hablar con un asesor
                                             </a>
 
                                         </div>

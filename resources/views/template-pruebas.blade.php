@@ -32,7 +32,8 @@
      'textForm' => 'Empieza a probar Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/person/landing_home_latin.png'),
+  'image' => App::setFilePath('/assets/images/person/plataforma-escala-home.png'),
+'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM'
     ) ;
     @endphp
 

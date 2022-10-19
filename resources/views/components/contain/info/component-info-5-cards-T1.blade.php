@@ -70,7 +70,6 @@ $customId = uniqid();
 
                     <div class="row">
                         @foreach ($elements as $r)
-                            <!--First slide-->
                             <div class="item col-md-12 col-lg-4 ">
 
 
@@ -80,7 +79,7 @@ $customId = uniqid();
 
                                                     <div class="image">
                                                         <div class="containerImage">
-                                                            <img src="{{ $r['img'] }}" alt="" loading="lazy">
+                                                            <img src="{{ $r['img'] }}" @if(isset($r['img_alt']) && $r['img_alt'] != null) alt="{!! $r['img_alt'] !!}" @endif loading="lazy">
                                                         </div>
                                                     </div>
 
@@ -180,7 +179,6 @@ $customId = uniqid();
 
                 <div class="row">
                      @foreach ($elements as $r)
-                         <!--First slide-->
                          <div class="item col-md-12 col-lg-4 ">
 
 
@@ -190,7 +188,7 @@ $customId = uniqid();
 
                                                  <div class="image">
                                                      <div class="containerImage">
-                                                         <img src="{{ $r['img'] }}" alt="" loading="lazy">
+                                                         <img src="{{ $r['img'] }}" @if(isset($r['img_alt']) && $r['img_alt'] != null) alt="{!! $r['img_alt'] !!}" @endif loading="lazy">
                                                      </div>
                                                  </div>
 

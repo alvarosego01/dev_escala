@@ -73,9 +73,9 @@ function component_blog_cta_1($atts)
 
                 <div class="containerImage logo">
                     <?php
-                    $src = App::setFilePath('/assets/images/logos/logo_escala_F34F36_blanco.png');
+                    $src = App::setFilePath('/assets/images/logos/logoEscalaWhite.svg');
                     ?>
-                    <img alt="Escala logo" src="<?php echo $src ?>" alt="" loading="lazy">
+                    <img alt="Logotipo de Escala color blanco" src="<?php echo $src ?>" alt="" loading="lazy">
                 </div>
 
 

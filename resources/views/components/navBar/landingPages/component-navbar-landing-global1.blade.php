@@ -22,13 +22,11 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
             <div class="container-fluid sct2">
 
                 <div class="logo">
-                    <a class="navbar-brand" href="{!! home_url() !!}">
+                    <span class="navbar-brand" >
                         <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
                         <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
-                    </a>
+                    </span>
                 </div>
-
-
 
 
                 <div class="mobileElement">
@@ -84,56 +82,6 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
 
 </header>
 
-{{-- desktopElement --}}
-{{-- mobileElement --}}
 
-
-
-
-
-{{-- <div class="animate__animated animate__faster" id="sideNavBar">
-
-
-
-    <nav class="animate__animated animate__faster principal navbar">
-
-        <div class="section-row">
-
-            <div class="closeButtonSideBar">
-
-                <button onclick="_openSideNav('close')" class="closeButton">
-                    <i class="fas fa-times    "></i>
-                </button>
-
-            </div>
-
-            <div class="mobileSmallElement logo">
-                <a class="navbar-brand" href="{!! home_url() !!}">
-                    <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
-                </a>
-            </div>
-
-            <div class="container-fluid sct2">
-
-
-                <div class="menusSection">
-
-                    {!! wp_nav_menu([
-                        'theme_location' => 'landing-global1',
-                        'container' => false,
-                        'menu_class' => '',
-                        'fallback_cb' => '__return_false',
-    'items_wrap' => '<ul id="%1$s" class="navbar-nav  mb-2 mb-md-0 %2$s">%3$s</ul>',
-    'depth' => 3,
-    'walker' => new \App\wp_bootstrap5_navwalker(),
-]) !!}
-
-            </div>
-
-        </div>
-
-
-    </div>
-</div> --}}
 
 

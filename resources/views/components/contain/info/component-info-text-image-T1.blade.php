@@ -84,7 +84,7 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                 <div class="containerImage">
                                     @if (isset($img) && $img != null)
 
-                                    <img src="{{ $img }}" alt="" loading="lazy">
+                                    <img src="{{ $img }}" @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif loading="lazy">
                                     @endif
 
                                 </div>
@@ -143,7 +143,7 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                 <div class="containerImage">
                                     @if (isset($img) && $img != null)
 
-                                    <img src="{{ $img }}" alt="" loading="lazy">
+                                    <img src="{{ $img }}" @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif loading="lazy">
                                     @endif
 
                                 </div>
@@ -182,7 +182,7 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                                 <div class="containerImage">
                                     @if (isset($img) && $img != null)
 
-                                    <img src="{{ $img }}" alt="" loading="lazy">
+                                    <img src="{{ $img }}" @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif loading="lazy">
                                     @endif
 
                                 </div>
@@ -252,7 +252,7 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             <div class="containerImage">
                                 @if (isset($img) && $img != null)
 
-                                <img src="{{ $img }}" alt="" loading="lazy">
+                                <img src="{{ $img }}" @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif loading="lazy">
                                 @endif
 
                             </div>
@@ -311,7 +311,7 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             <div class="containerImage">
                                 @if (isset($img) && $img != null)
 
-                                <img src="{{ $img }}" alt="" loading="lazy">
+                                <img src="{{ $img }}" @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif loading="lazy">
                                 @endif
 
                             </div>
@@ -349,7 +349,7 @@ if( isset($typeButton) && $typeButton == 'primaryButton' ){
                             <div class="containerImage">
                                 @if (isset($img) && $img != null)
 
-                                <img src="{{ $img }}" alt="" loading="lazy">
+                                <img src="{{ $img }}" @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif loading="lazy">
                                 @endif
 
                             </div>

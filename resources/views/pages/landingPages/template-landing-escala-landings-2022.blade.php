@@ -8,23 +8,22 @@
      'overlay' => false,
      'classSection' => 'threeCol landing_escalaLandings_2022_0',
      'title' => '
-        Crea landing pages <br class="space">
-        increíbles <span style="color: #B9E6E9">
-          acompañado <br class="space">
-          por expertos
-        </span>
+        Construye <br class="mobileElement"> increíbles <br class="desktopElement">
+        landing pages <br class="space">
+        <span style="color: #B9E6E9">guiado por especialistas</span>
         ',
      'text' => '<span class="whiteColor">
-        En Escala construye  landing pages de alta <br class="space">
-        conversión en un abrir y cerrar de ojos, con la guía <br class="space">
-        de especialistas en marketing digital y ventas.
+        Con Escala  puedes crear, personalizar y publicar <br class="space">
+        páginas de alta conversión, acompañado por <br class="space">
+        especialistas de  marketing digital y ventas.
+
       </span>
       ',
      'threeCol' => true,
      'textForm' => 'Empieza a probar Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/illustrations/others/escala_landings_header.png'),
+  'image' => App::setFilePath('/assets/images/illustrations/others/landing_builder_laptop-expertos-2022.png'),
     ) ;
     @endphp
 
@@ -46,12 +45,12 @@
       'text' => '
           <span class="greenBlueColor">
             <strong>
-              "Las landing pages han sido clave para generar <br class="desktopTabletElement">
-              millones de contactos al año en mis empresas.
+              "Las landing pages han sido clave para <br class="mobileElement"> generar <br class="desktopElement">
+              millones de contactos al año en mis <br class="mobileElement"> empresas.
             </strong>
-          </span> <br class="desktopTabletElement">
-          Basados en estas prácticas de alta conversión, diseñamos <br class="desktopTabletElement">
-          el Creador de Páginas de Escala, el más fácil de usar”.
+          </span> <br class="desktopElement">
+          Basados en estas prácticas de <br class="mobileElement"> alta conversión, diseñamos <br class="desktopElement">
+          el Creador de <br class="mobileElement"> Páginas de Escala, el más fácil de usar”.
           <br class="space"><br class="space">
             <span class="byam">
               <strong class="greenBlueColor">
@@ -62,8 +61,8 @@
                 Fundador de Escala y Open English
               </small>
             </span>
-            <div class="specialButton">
-              <img src="'. App::setFilePath('/assets/images/illustrations/otto/ottoHomeButton.png') .'" >
+            <div class="ottoSpecialButton">
+              <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una prueba gratis de Escala CRM>
               <a href="#" class=" openPopUpButton popup-general-trial-2022">
                 Solicita tu Prueba Gratis
               </a>
@@ -97,7 +96,7 @@
                 <div class="containElements">
 
                   <h2 class="primaryTitle blackColor">
-                    Conoce todo lo que puedes lograr <br class="desktopTabletElement">
+                    Conoce todo lo que puedes lograr <br class="space">
                     <span class="greenBlueColor">con las landing pages de Escala</span>
                   </h2>
 
@@ -132,7 +131,7 @@
                       ],
                       [
                         'title' => 'Guarda los datos en tu CRM',
-                        'text' => 'y hazle seguimiento a tu lead hasta cerrar la venta'
+                        'text' => 'y hazle seguimiento a tu lead hasta <br class="mobileElement"> cerrar la venta'
                       ],
                       [
                         'title' => '100% responsive',
@@ -140,11 +139,11 @@
                       ],
                       [
                         'title' => 'Comunícate con Email Marketing',
-                        'text' => 'generando relaciones a largo plazo con tus <br class="space"> leads '
+                        'text' => 'generando relaciones a largo plazo <br class="mobileElement"> con tus <br class="space"> leads '
                       ],
                       [
                         'title' => 'Analiza y optimiza tu página',
-                        'text' => 'con dashboards que te dan métricas en tiempo real'
+                        'text' => 'con dashboards que te dan métricas <br class="mobileElement"> en tiempo real'
                       ],
                       [
                         'title' => 'Automatiza tus flujos de comunicación',
@@ -199,11 +198,12 @@
           <strong>Los Expertos</strong><br class="space">
           <span class="greenBlueColor">¡Nuestra arma secreta!</span>
           ',
-        'img' => App::setFilePath('/assets/images/person/capacitacion_pareja.png'),
+        'img' => App::setFilePath('/assets/images/person/soporte-equipo-escala-clientes.png'),
+'img_alt' => 'Foto de una pareja mirando su computador portátil sorprendidos en referencia a la calidad del acompañamiento que brinda el equipo de soporte de Escala',
         'text' => '
-            Con el Plan PRO de Escala, nuestros especialistas en marketing <br class="desktopTabletElement">
-            digital y ventas te guiarán paso a paso en la construcción de tu <br class="desktopTabletElement">
-            landing page. Sácale máximo provecho a nuestro Creador de Páginas.
+            Con el Plan PRO de Escala, nuestros especialistas <br class="mobileElement"> en marketing <br class="desktopElement">
+            digital y ventas te guiarán paso a paso <br class="mobileElement"> en la construcción de tu <br class="desktopElement">
+            landing page. Sácale <br class="mobileElement"> máximo provecho a nuestro Creador de Páginas.
         ',
         'enableButton' => false,
         'urlButton' => '#lead-form',
@@ -228,10 +228,11 @@ $parameters = [
   'enableButton' => false,
   'elements' => array(
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-1.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/acompanamiento-en-vivo-implementacion-escala.png'),
+'img_alt' => 'Ilustración de un astronauta mostrando en su computador un cohete que va de un punto A a un punto B en referencia al acompañamiento en vivo para optimizar la implementación de Escala en una empresa',
                   'title' => '
-                    Acompañamiento en vivo <br class="space">
-                    para crear, publicar y <br class="space">
+                    Acompañamiento en vivo <br class="desktopElement">
+                    para crear, <br class="mobileElement"> publicar y <br class="desktopElement">
                     optimizar tus páginas
                   ',
                   'text' => null,
@@ -239,7 +240,8 @@ $parameters = [
 
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-2.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/capacitaciones-grupales-equipo-escala.png'),
+'img_alt' => 'Ilustración de un astronauta mostrando en su computador un cohete que va de un punto A a un punto D en referencia a las capacitaciones grupales que ofrece el equipo de Escala',
                   'title' => '
                     Capacitaciones grupales <br class="space">
                     basadas en mejores prácticas <br class="space">
@@ -249,27 +251,30 @@ $parameters = [
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-3.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/atencion-prioritaria-clientes-equipo-escala.png'),
+'img_alt' => 'Ilustración de un computador con un botón de WhatsApp en referencia a la atención prioritaria por WhatsApp, Email y Chat de parte de nuestro equipo',
                   'title' => '
-                      Atención prioritaria por <br class="space">
-                      WhatsApp, Email y Chat <br class="space">
+                      Atención prioritaria por <br class="desktopElement">
+                      WhatsApp, Email <br class="mobileElement"> y Chat <br class="desktopElement">
                       de servicio
                     ',
                     'text' => null,
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-4.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/gerente-cuentas-asignado-equipo-escala.png'),
+'img_alt' => 'Ilustración de un astronauta con capa y un computador en sus manos en referencia al gerente de cuentas que se asigna a clientes por parte de Escala',
                   'title' => '
-                        Gerente de cuentas asignado <br class="space">
-                        con plan personalizado de <br class="space">
+                        Gerente de cuentas asignado <br class="desktopElement">
+                        con plan <br class="mobileElement"> personalizado de <br class="desktopElement">
                         implementación
                     ',
                     'text' => null,
                   'enableButton' => false,
               ],
               [
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icono-5.png'),
+                  'img' => App::setFilePath('/assets/images/illustrations/others/configuraciones-personalizadas-creacion-plantillas-landing-pages-escala.png'),
+'img_alt' => 'Ilustración de una hoja en la se está escribiendo en referencia a las configuraciones personalizadas y creación de plantillas de landing pages por parte del equipo de Escala',
                   'title' => '
                       Configuraciones personalizadas <br class="space">
                       y creación de plantillas <br class="space">
@@ -298,18 +303,18 @@ $parameters = [
 
             <h2 class="primaryTitle blackColor">
               La combinación perfecta: <br class="space">
-              <span style="color: #B9E6E9">Landing page increíble + CRM poderoso</span>
+              <span style="color: #B9E6E9">Landing page increíble <br class="mobileElement"> + CRM poderoso</span>
             </h2>
 
             <p class="primaryText grayColorTexts">
-              Haz todas tus acciones de marketing digital y ventas en nuestra plataforma:
+              Haz todas tus acciones de marketing digital <br class="mobileElement"> y ventas en nuestra plataforma:
             </p>
 
             <ul class="elements">
-              <li>Atrae  tráfico a  tus landing pages con Facebook Ads e Instagram </li>
-              <li>Registra la data de tus visitantes en tus páginas</li>
-              <li>Haz seguimiento  a tus leads, automatiza tus flujos de comunicación <br class="desktopTabletElement">
-              y cierra más ventas con nuestro CRM integrado. </li>
+              <li>Atrae  tráfico a  tus landing pages <br class="mobileElement"> con Facebook Ads e Instagram </li>
+              <li>Registra la data de tus visitantes <br class="mobileElement"> en tus páginas</li>
+              <li>Haz seguimiento  a tus leads, automatiza <br class="mobileElement"> tus flujos de comunicación <br class="desktopElement">
+              y cierra más ventas <br class="mobileElement"> con nuestro CRM integrado. </li>
             </ul>
 
             <div class="containerImage">
@@ -336,7 +341,7 @@ $parameters = [
         <section class="innerSectionElement1">
 
           <h2 class="primaryTitle blackColor">
-            Lo que dicen nuestros clientes <br class="desktopTabletElement">
+            Lo que dicen nuestros clientes <br class="space">
             <span class="greenBlueColor">sobre las landing pages de Escala</span>
           </h2>
 
@@ -377,8 +382,8 @@ $parameters = [
   $parameters = [
       'classSection' => 'landing_escalaLandings_2022_6',
       'title' => '
-<span style="color: #B9E6E9">Comienza hoy mismo a generar leads <br class="desktopTabletElement"></span>
-de calidad con las landing pages de Escala
+        <span style="color: #B9E6E9">Comienza hoy mismo a generar <br class="mobileElement"> leads <br class="desktopElement"></span>
+        de calidad con las landing <br class="mobileElement"> pages de Escala
       ',
       'textForm' => 'Empieza a probar Escala',
       'text' => null,
@@ -388,6 +393,8 @@ de calidad con las landing pages de Escala
 @bannerForms7_T1( $parameters )
 
 @endbannerForms7_T1
+
+
 
 
 
