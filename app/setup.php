@@ -178,10 +178,16 @@ add_action('wp_enqueue_scripts', function () {
         }
         // --- Casos uso
         if (is_page_template('views/template-casoUso-educacion-2022.blade.php')) {
-            wp_enqueue_style('subPage_casoUso_educacion.sass.css', asset_path('styles/pages/subPages/casosUso/subPage_casoUso_educacion.css'), false, THEME_VERSION);
+            wp_enqueue_style('subPage_casoUso_educacion.css', asset_path('styles/pages/subPages/casosUso/subPage_casoUso_educacion.css'), false, THEME_VERSION);
         }
         if (is_page_template('views/template-casoUso-asesoria-2022.blade.php')) {
-            wp_enqueue_style('subPage_casoUso_asesoria.sass.css', asset_path('styles/pages/subPages/casosUso/subPage_casoUso_asesoria.css'), false, THEME_VERSION);
+            wp_enqueue_style('subPage_casoUso_asesoria.css', asset_path('styles/pages/subPages/casosUso/subPage_casoUso_asesoria.css'), false, THEME_VERSION);
+        }
+        if (is_page_template('views/template-casoUso-agencia-marketing-2022.blade.php')) {
+            wp_enqueue_style('subPage_casoUso_agencia_marketing.css', asset_path('styles/pages/subPages/casosUso/subPage_casoUso_agencia_marketing.css'), false, THEME_VERSION);
+        }
+        if (is_page_template('views/template-casoUso-bienes-raices-2022.blade.php')) {
+            wp_enqueue_style('subPage_casoUso_bienes_raices.css', asset_path('styles/pages/subPages/casosUso/subPage_casoUso_bienes_raices.css'), false, THEME_VERSION);
         }
         // -------------------------------------- //
 

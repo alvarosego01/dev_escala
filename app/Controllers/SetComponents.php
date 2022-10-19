@@ -287,6 +287,8 @@ class SetComponents extends Controller
                 'views/template-home.blade.php',
                 'views/template-casoUso-asesoria-2022.blade.php',
                 'views/template-casoUso-educacion-2022.blade.php',
+                'views/template-casoUso-agencia-marketing-2022.blade.php',
+                'views/template-casoUso-bienes-raices-2022.blade.php',
                 'views/template-landing-escala-landings-2022.blade.php',
                 'views/template-landing-escala-func-email-mkt-2022.blade.php',
                 'views/template-landing-escala-landings-sin-expertos-2022.blade.php',
