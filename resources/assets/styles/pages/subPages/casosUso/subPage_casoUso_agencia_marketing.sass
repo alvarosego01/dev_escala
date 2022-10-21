@@ -507,7 +507,7 @@
                         color: $colorBlack
                         letter-spacing: -1px
                         @include responsivo(telefonoTable)
-                            font-size: 13px
+                            font-size: 12px
                         @include responsivo(pcMedio)
                             font-size: 16px
                         @include responsivo(general)
@@ -748,7 +748,7 @@
                             font-size: 20px
                             line-height: 1
                             display: flex
-                            align-items: center
+                            align-items: flex-start
                             letter-spacing: -0.02em
                             color: $colorGrey
                             padding: 0
@@ -782,16 +782,10 @@
                                 &::after
                                     display: none
 
-                            &::before
-                                content: "\2022"
-                                color: #36768A
-                                font-weight: bold
-                                display: inline-block
-                                width: 1em
-                                position: absolute
-                                left: 5px
-                                top: 0
-                                bottom: 0
+                            img.checkCase
+                                position: relative
+                                left: -7.5px
+                                top: 5px
 
 #subPage_casoUso_agencia_marketing .customSection.sectionParent.subPage_casoUso_agencia_marketing_5,
 #subPage_casoUso_agencia_marketing .customSection.sectionParent.subPage_casoUso_agencia_marketing_6,
@@ -881,7 +875,7 @@
                             font-family: Nunito
                             font-weight: 700
                             @include responsivo(telefonoTable)
-                                font-size: 18p
+                                font-size: 18px
                             @include responsivo(pcMedio)
                                 font-size: 20px
                             @include responsivo(general)
@@ -1010,11 +1004,15 @@
                         height: 4px
                         border-bottom: 4px solid #A4E7EA
                         z-index: 5px
-                        // @include responsivo(telefonoTable)
+                        @include responsivo(telefonoTable)
+                            top: 25px
+                            width: 75%
+                            border-bottom: 2px solid #A4E7EA
 
                         @include responsivo(pcMedio)
                             top: 35px
                             width: 75%
+                            border-bottom: 4px solid #A4E7EA
 
                         @include responsivo(general)
                             top: 35px
@@ -1032,7 +1030,7 @@
                                     position: relative
                                     display: block
                                     @include responsivo(telefonoTable)
-                                        height: 50px
+                                        height: 35px
                                     @include responsivo(pcMedio)
                                         height: 50px
                                     @include responsivo(general)
@@ -1050,7 +1048,8 @@
                                 letter-spacing: -1px
                                 margin-bottom: 25px
                                 @include responsivo(telefonoTable)
-                                    font-size: 13px
+                                    font-size: 12px
+                                    margin-bottom: 20px
                                 @include responsivo(pcMedio)
                                     font-size: 16px
                                 @include responsivo(general)
@@ -1070,9 +1069,9 @@
                                 padding: 0
                                 font-weight: 400
                                 @include responsivo(telefonoTable)
-                                    font-size: 14px
+                                    font-size: 11px
                                 @include responsivo(pcMedio)
-                                    font-size: 16px
+                                    font-size: 14px
                                 @include responsivo(general)
                                     font-size: 14px
                                 @include responsivo(smallPcTablet)
@@ -1089,8 +1088,10 @@
 
     @include responsivo(telefonoTable)
         padding: 25px
+        padding-top: 0
     @include responsivo(pcMedio)
         padding: 50px 25px
+        padding-top: 0
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -1145,9 +1146,9 @@
                     img
                         padding: 0
                         @include responsivo(telefonoTable)
-                            height: 250px
+                            height: 225px
                         @include responsivo(pcMedio)
-                            height: 275px
+                            height: 250px
                         @include responsivo(general)
                             height: 300px
                             margin-left: auto
