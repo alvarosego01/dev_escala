@@ -1,8 +1,8 @@
-<div id="subPage_casoUso_educacion">
+<div id="subPage_casoUso_bienes_raices">
     <div class="sections">
 
 
-        <section class="component-info-text-image-T1 customSection sectionParent subPage_casoUso_educacion_0 ">
+        <section class="component-info-text-image-T1 customSection sectionParent subPage_casoUso_bienes_raices_0 ">
 
 
             <div class="section-row">
@@ -15,18 +15,13 @@
                         <div class="info col-md-12 col-lg-6">
 
                             <h1 class="primaryTitle">
-
-                                Aumenta las nuevas <br class="space">
-                                matrículas <span class="greenBlueColor">
-                                    para tu <br class="space">
-                                    institución educativa
-                                </span>
-
+                                Potencia las ventas de tus <br class="space">
+                                <span class="greenBlueColor">proyectos inmobiliarios</span>
                             </h1>
 
                             <p class="text">
-                                Con nuestras herramientas de automatización de <br class="desktopTabletElement">
-                                marketing, ventas y el CRM más fácil de usar
+                                Enfócate en los prospectos calificados con el CRM más fácil <br class="desktopTabletElement">
+                                de usar que mantiene tu gestión comercial automatizada
                             </p>
 
                         </div>
@@ -34,7 +29,7 @@
                         <div class="image col-md-12 col-lg-6">
                             <div class="containerImage">
 
-                                <img src="{!! App::setFilePath('/assets/images/person/home_pantalla_CRM_08_chica 6.png') !!}" loading="lazy">
+                                <img src="{!! App::setFilePath('/assets/images/person/portrait_bienes_raices.png') !!}" loading="lazy">
 
                             </div>
                         </div>
@@ -55,11 +50,11 @@
         @php
             $parameters = [
                 'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_educacion_1',
+                'classSection' => 'subPage_casoUso_bienes_raices_1',
                 'enableTitle' => true,
                 'titlePrincipal' => '
-    Acelera el crecimiento <span class="greenBlueColor">de tu institución</span>
-    ',
+                    Acelera el crecimiento <span class="greenBlueColor">de tu inmobiliaria</span>
+                ',
                 'subTitlePrincipal' => null,
                 'overlay' => false,
                 'enableButton' => true,
@@ -71,82 +66,79 @@
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_1.png'),
                         'title' => '
-              Genera mejores <br class="space"> leads
-               ',
+                            Captura mejores <br class="space">
+                            prospectos
+                        ',
                         'text' => '
-              Aumenta la cantidad de <br class="desktopTabletElement">
-              aspirantes calificados con <br class="desktopTabletElement">
-              formularios personalizados para <br class="desktopTabletElement">
-              cada programa y sede
-            ',
+                            Califica a tus potenciales clientes con <br class="desktopTabletElement">
+                            formularios específicos para cada <br class="desktopTabletElement">
+                            proyecto inmobiliario.
+                        ',
                         'enableButton' => false,
                     ],
                     [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_2.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_0_1.png'),
                         'title' => '
-              Optimiza tus operaciones <br class="space">
-              de venta
-               ',
+                            Aumenta tus <br class="space">
+                            oportunidades de venta
+                        ',
                         'text' => '
-              Mejora la tasa de conversión de <br class="desktopTabletElement">
-              aspirantes a estudiantes con procesos <br class="desktopTabletElement">
-              de seguimiento efectivo
-            ',
+                            Concreta un mayor número de <br class="desktopTabletElement">
+                            visitas a tus proyectos mediante <br class="desktopTabletElement">
+                            una gestión comercial oportuna.
+                        ',
                         'enableButton' => false,
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_3.png'),
                         'title' => '
-              Fideliza a la comunidad <br class="space">
-              estudiantil
-               ',
+                            Nutre la relación con <br class="space">
+                            tus clientes
+                        ',
                         'text' => '
-              Nutre la relación con estudiantes <br class="desktopTabletElement">
-              y egresados para incrementa el <br class="desktopTabletElement">
-              retorno de inversión
-            ',
+                            Ten una comunicación efectiva con <br class="desktopTabletElement">
+                            tus clientes e informa sobre los <br class="desktopTabletElement">
+                            avances del proyecto que adquirieron.
+                        ',
+                        'enableButton' => false,
+                    ],
+                    [
+                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_asesoria_0_6.png'),
+                        'title' => '
+                            Cumple tus metas <br class="space">
+                            comerciales
+                            ',
+                        'text' => '
+                            Incentiva la productividad de tu equipo <br class="desktopTabletElement">
+                            de agentes con una herramienta que <br class="desktopTabletElement">
+                            facilita el seguimiento comercial.
+                        ',
+                        'enableButton' => false,
+                    ],
+                    [
+                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_0_2.png'),
+                        'title' => '
+                            Rescata el interés de <br class="space">
+                            antiguos prospectos
+                        ',
+                        'text' => '
+                            Mantente en contacto con los <br class="desktopTabletElement">
+                            compradores y arrendatarios que no <br class="desktopTabletElement">
+                            cerraron y ofrece otras alternativas de <br class="desktopTabletElement">
+                            tu portafolio inmobiliario.
+                        ',
                         'enableButton' => false,
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_4.png'),
                         'title' => '
-              Reduce costos operativos
-              <br class="desktopElement">
-              <br class="desktopElement">
-               ',
+                            Reduce costos
+                        ',
                         'text' => '
-              Ahorra recursos en el proceso <br class="desktopTabletElement">
-              de matriculación mediante <br class="desktopTabletElement">
-              automatizaciones
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_5.png'),
-                        'title' => '
-              Incrementa tus productos <br class="space">
-              académicos
-               ',
-                        'text' => '
-              Impulsa programas educativos <br class="desktopTabletElement">
-              complementarios a tu oferta <br class="desktopTabletElement">
-              principal para atraer nuevos leads <br class="desktopTabletElement">
-              y gestiónalos desde el CRM.
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_6.png'),
-                        'title' => '
-              Mejora la comunicación <br class="space">
-              interna
-               ',
-                        'text' => '
-              Utiliza la licencia de Escala, elabora <br class="desktopTabletElement">
-              segmentos exclusivos para empleados <br class="desktopTabletElement">
-              de tu institución y mantén una <br class="desktopTabletElement">
-              comunicación activa por email marketing
-            ',
+                            Integra en una misma <br class="desktopTabletElement">
+                            plataforma los procesos de <br class="desktopTabletElement">
+                            marketing y ventas.
+                        ',
                         'enableButton' => false,
                     ],
                 ],
@@ -159,12 +151,12 @@
         @php
             $parameters = [
                 'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_educacion_2',
+                'classSection' => 'subPage_casoUso_bienes_raices_2',
                 'enableTitle' => true,
                 'titlePrincipal' => '
-    El CRM de marketing y ventas <br class="space">
-    <span class="greenBlueColor">para el sector de Educación</span>
-    ',
+                    La plataforma para optimizar los resultados <br class="desktopTabletElement">
+                    comerciales <span class="greenBlueColor">del sector inmobiliario</span>
+                ',
                 'subTitlePrincipal' => null,
                 'overlay' => false,
                 'enableButton' => false,
@@ -175,34 +167,37 @@
                 'elements' => [
                     [
                         'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_1_1.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_1.png'),
                         'title' => '
-            Colegios
-            ',
+                            Lotes
+                        ',
                         'enableButton' => false,
                     ],
                     [
                         'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_1_2.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_2.png'),
                         'title' => '
-            Academias
-            ',
+                            Proyectos de <br class="space">
+                            construcción
+                        ',
                         'enableButton' => false,
                     ],
                     [
                         'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_1_3.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_3.png'),
                         'title' => '
-            Universidades
-            ',
+                            Alquiler y venta <br class="space">
+                            de inmuebles
+                        ',
                         'enableButton' => false,
                     ],
                     [
                         'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_1_4.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_4.png'),
                         'title' => '
-            E-learning
-            ',
+                            Asesoría <br class="space">
+                            inmobiliaria
+                        ',
                         'enableButton' => false,
                     ],
                 ],
@@ -213,7 +208,7 @@
         @endcontain_multiple_cards_T2
 
 
-        <section class="customSection sectionParent subPage_casoUso_educacion_3">
+        <section class="customSection sectionParent subPage_casoUso_bienes_raices_3">
 
             <div class="section-row">
 
@@ -265,11 +260,11 @@
         @php
             $parameters = [
                 'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_educacion_4',
+                'classSection' => 'subPage_casoUso_bienes_raices_4',
                 'enableTitle' => true,
                 'titlePrincipal' => '
-       Alcanza el éxito <span class="greenBlueColor">con las herramientas de Escala</span>
-       ',
+                    Alcanza el éxito <span class="greenBlueColor">con las herramientas de Escala</span>
+                ',
                 'subTitlePrincipal' => null,
                 'overlay' => false,
                 'enableButton' => false,
@@ -287,28 +282,31 @@
             <ul class="text">
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Captar aspirantes no calificados por <br class="desktopTabletElement">
-                procedimientos ineficaces</li>
-                <li>
-                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Dificultad para brindar una respuesta rápida a <br class="desktopTabletElement">
-                  los leads interesados</li>
-                <li>
-                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Complicaciones para identificar aspirantes <br class="desktopTabletElement">
-                  con probabilidades de cierre</li>
-                <li>
-                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Pérdida de datos en hojas de cálculo e <br class="desktopTabletElement">
-                  imposibilidad de obtener reportes en tiempo <br class="desktopTabletElement">
-                  real sobre las metas del cierre de matrículas</li>
-                <li>
-                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Fallas en la difusión de promociones e <br class="desktopTabletElement">
-                  información atractiva para cerrar ventas y <br class="desktopTabletElement">
-                  fidelizar a la comunidad</li>
-              </ul>
+                    Poca información para priorizar a los prospectos <br class="desktopTabletElement">
+                mejor calificados para cada propiedad. </li>
 
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Proceso desorganizado de conversión de leads que <br class="desktopTabletElement">
+                impide el cierre de ventas y la proyección <br class="desktopTabletElement">
+                de resultados. </li>
+
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Almacenamiento ineficiente de los documentos clave <br class="desktopTabletElement">
+                de cada comprador, vendedor o propiedad. </li>
+
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Poca interacción con clientes que impide ofrecer <br class="desktopTabletElement">
+                nuevas promociones, crear una comunidad e <br class="desktopTabletElement">
+                implementar nuevas estrategias de venta </li>
+
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Fallas en la difusión de promociones e información <br class="desktopTabletElement">
+                atractiva para cerrar ventas y fidelizar a la comunidad </li>
+              </ul>
             ',
                         'enableButton' => false,
                     ],
@@ -322,31 +320,29 @@
             nuestras herramientas
 
             <ul class="text">
-                <li>
-                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                    Anuncios y Landing pages que atraen y recolectan <br class="desktopTabletElement">
-              datos útiles sobre posibles estudiantes</li>
-
-              <li>
+            <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Asignación veloz y automatizada a los asesores <br class="desktopTabletElement">
-              que mejora la gestión de las comunicaciones</li>
-
-              <li>
+                Evalúa tus prospectos con formularios que te permitan <br class="desktopTabletElement">
+            identificar las características del comprador ideal para <br class="desktopTabletElement">
+            cada proyecto.</li>
+            <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Lead Scoring para calificar el estado del prospecto <br class="desktopTabletElement">
-              y hacer seguimiento adecuado</li>
-
-              <li>
+                Organiza un embudo de ventas en el CRM para <br class="desktopTabletElement">
+            brindar una mejor experiencia a los prospectos y ten <br class="desktopTabletElement">
+            claridad sobre el avance de tus procesos comerciales.</li>
+            <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                El CRM y el Dashboard sustituyen las hojas de <br class="desktopTabletElement">
-              cálculo, optimizan tu sistema de gestión y <br class="desktopTabletElement">
-              proporcionan reportes en tiempo real.</li>
-
-              <li>
+                Archiva la información y documentos importantes de <br class="desktopTabletElement">
+            cada cliente y accede a ellos con facilidad en el CRM.</li>
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Mantén una comunicación efectiva con campañas de <br class="desktopTabletElement">
+            email marketing y comparte incentivos con tus clientes <br class="desktopTabletElement">
+            para sumar nuevos prospectos.</li>
+            <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
                 Uso de Email Marketing y Automatizaciones para <br class="desktopTabletElement">
-              promocionar programas atractivos a la comunidad</li>
+            promocionar programas atractivos a la comunidad</li>
               </ul>
             ',
                         'enableButton' => false,
@@ -362,24 +358,24 @@
         @php
             $parameters = [
                 'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_educacion_5',
+                'classSection' => 'subPage_casoUso_bienes_raices_5',
                 'enableTitle' => true,
                 'titlePrincipal' => '
-    Optimiza tus resultados <span class="greenBlueColor">de marketing y ventas</span>
- ',
+                   Optimiza tus resultados <span class="greenBlueColor">de marketing y ventas</span>
+                ',
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/Landing1.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/Landing-gif.gif'),
                 'title' => null,
                 'text' => '
-    <span>
-      "Recibo visitas en mi sitio web, pero no capturo <br class="desktopTabletElement">
-      registros de los interesados adecuados"
-    </span>
-    <br class="space"><br class="space">
-    Las <strong>landing pages</strong> de Escala recolectan datos clave de tus <br class="desktopTabletElement">
-    aspirantes y posibles prospectos, brindan información útil <br class="desktopTabletElement">
-    y activan tus procesos comerciales para matricular.
- ',
+                    <span>
+                        "Debo contratar un desarrollador web cada vez que <br class="desktopTabletElement">
+                        necesito dar a conocer mis proyectos de inmuebles"
+                    </span>
+                    <br class="space"><br class="space">
+                    Crea <strong>landing pages</strong> rápidamente con plantillas <br class="desktopTabletElement">
+                    prediseñadas de acuerdo a tu necesidad, sin invertir <br class="desktopTabletElement">
+                    recursos en programación.
+                ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
                 'textButton' => 'Prueba Gratis',
@@ -394,21 +390,24 @@
         @php
             $parameters = [
                 'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_educacion_6',
+                'classSection' => 'subPage_casoUso_bienes_raices_6',
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/anuncios-educación.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/anuncios-2.gif'),
                 'title' => null,
                 'text' => '
-    <span>
-      "Tengo un proceso ineficiente que no me permite <br class="desktopTabletElement">
-      llegar al público objetivo de la institución"
-    </span>
-    <br class="space"><br class="space">
-    Con los <strong>anuncios digitales</strong> de Escala, consigue aspirantes <br class="desktopTabletElement">
-    calificados para alcanzar tus metas comerciales.
- ',
+                    <span>
+                        "Mi base de datos no está segmentada y no puedo <br class="desktopTabletElement">
+                        diferenciar con qué interés llegan los leads"
+                    </span>
+                    <br class="space"><br class="space">
+                        Organiza rápidamente tu base de datos con el <strong>CRM</strong>, <br class="desktopTabletElement">
+                        mediante filtros, segmentos y etiquetas para tener una <br class="desktopTabletElement">
+                        mejor gestión de prospectos.
+
+
+                ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
                 'textButton' => 'Prueba Gratis',
@@ -423,22 +422,23 @@
         @php
             $parameters = [
                 'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_educacion_7',
+                'classSection' => 'subPage_casoUso_bienes_raices_7',
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/CRM-educación.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/crm2.gif'),
                 'title' => null,
                 'text' => '
-    <span>
-      "Necesitamos organizar el manejo de la <br class="desktopTabletElement">
-      información para nuestros asesores"
-    </span>
-    <br class="space"><br class="space">
-    En el <strong>CRM de Escala</strong>, filtras, etiquetas y segmentas tu base <br class="desktopTabletElement">
-    de datos para organizarla de acuerdo a cada programa <br class="desktopTabletElement">
-    de la oferta académica.
- ',
+                   <span>
+                       "No logramos brindar una respuesta rápida a <br class="desktopTabletElement">
+                        los leads interesados y perdemos gran parte <br class="desktopTabletElement">
+                        del dinero que invertimos en marketing"
+                   </span>
+                   <br class="space"><br class="space">
+                   Automatiza la asignación de potenciales compradores <br class="desktopTabletElement">
+                    y actividades comerciales a tus agentes inmobiliarios, <br class="desktopTabletElement">
+                    para tener una gestión  efectiva.
+                ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
                 'textButton' => 'Prueba Gratis',
@@ -453,22 +453,23 @@
         @php
             $parameters = [
                 'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_educacion_8',
+                'classSection' => 'subPage_casoUso_bienes_raices_8',
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/Email-marketing-educación.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/Email.gif'),
                 'title' => null,
                 'text' => '
-    <span>
-      "Me gustaría impulsar las matriculaciones con <br class="desktopTabletElement">
-      promociones para mi base de datos"
-    </span>
-    <br class="space"><br class="space">
-    Ejecuta tu plan de comunicaciones con la herramienta <br class="desktopTabletElement">
-    de <strong>email marketing</strong> de Escala para atraer, mantener <br class="desktopTabletElement">
-    y convertir en ventas el interés de tus contactos.
- ',
+                   <span>
+                       "Me gustaría dar a conocer información <br class="desktopTabletElement">
+                        sobre descuentos, lanzamientos y créditos <br class="desktopTabletElement">
+                        para incentivar la compra"
+                   </span>
+                   <br class="space"><br class="space">
+                    Elabora un plan de comunicaciones para mantener <br class="desktopTabletElement">
+                    informada a tu comunidad con las herramientas de <br class="desktopTabletElement">
+                    <strong>Email Marketing y Automatizaciones.</strong>
+                ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
                 'textButton' => 'Prueba Gratis',
@@ -483,21 +484,23 @@
         @php
             $parameters = [
                 'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_educacion_9',
+                'classSection' => 'subPage_casoUso_bienes_raices_9',
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/Automatizaciones.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/automatizaciones.gif'),
                 'title' => null,
                 'text' => '
-     <span>
-        "No logramos responder a tiempo a los aspirantes y <br class="desktopTabletElement">
-        perdemos gran parte de la inversión en marketing"
-     </span>
-     <br class="space"><br class="space">
-    Optimiza tus operaciones para asignar leads a tu equipo <br class="desktopTabletElement">
-    comercial con las <strong>automatizaciones</strong> de Escala.
- ',
+                    <span>
+                        "Invierto mucho tiempo en la creación y <br class="desktopTabletElement">
+                        revisión de reportes para saber cuáles <br class="desktopTabletElement">
+                        están siendo los proyectos mejor vendidos"
+                    </span>
+                    <br class="space"><br class="space">
+                    Visualiza reportes en tiempo real con los <br class="desktopTabletElement">
+                    resultados comerciales de cada agente <br class="desktopTabletElement">
+                    inmobiliario en los Dashboards de Escala.
+                ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
                 'textButton' => 'Prueba Gratis',
@@ -511,37 +514,7 @@
 
         @php
             $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_educacion_10',
-                'enableTitle' => false,
-                'titlePrincipal' => null,
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/dashboard.gif'),
-                'title' => null,
-                'text' => '
-    <span>
-      "Quisiera obtener reportes en tiempo real para conocer el <br class="desktopTabletElement">
-      estatus de las metas y tomar decisiones acertadas"
-    </span>
-    <br class="space"><br class="space">
-    Visualiza el <strong>dashboard y las analíticas</strong> de Escala <br class="desktopTabletElement">
-    para conocer rápidamente la salud de tu negocio.
- ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Prueba Gratis',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-                'side' => 'right',
-            ];
-        @endphp
-
-        @contain_text_image_T1($parameters)
-        @endcontain_text_image_T1
-
-
-        @php
-            $parameters = [
-                'classSection' => 'subPage_casoUso_educacion_12',
+                'classSection' => 'subPage_casoUso_bienes_raices_12',
                 'enableTitle' => true,
                 'titlePrincipal' => '
         Nuestros usuarios <span class="greenBlueColor">cuentan su experiencia</span>
