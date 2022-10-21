@@ -476,7 +476,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/automatizaciones.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/Automatizaciones.gif'),
                 'title' => null,
                 'text' => '
                        <span>
