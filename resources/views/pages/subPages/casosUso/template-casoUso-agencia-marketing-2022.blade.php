@@ -171,7 +171,7 @@
                         'img_alt' => null,
                         'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_1.png'),
                         'title' => '
-                        Expertos en <br class="space">
+                        Expertos en <br class="desktopElement">
                         generación de leads
             ',
                         'enableButton' => false,
@@ -180,7 +180,7 @@
                         'img_alt' => null,
                         'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_2.png'),
                         'title' => '
-                        Estrategas en <br class="space">
+                        Estrategas en <br class="desktopElement">
                         comunicaciones masivas
             ',
                         'enableButton' => false,
@@ -189,7 +189,7 @@
                         'img_alt' => null,
                         'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_3.png'),
                         'title' => '
-                        Especialistas en <br class="space">
+                        Especialistas en <br class="desktopElement">
                         embudos de conversión
             ',
                         'enableButton' => false,
@@ -198,7 +198,7 @@
                         'img_alt' => null,
                         'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_4.png'),
                         'title' => '
-                        Consultoras de marketing, ventas <br class="space">
+                        Consultoras de marketing, ventas <br class="desktopElement">
                         o estrategia de Crecimiento
             ',
                         'enableButton' => false,
@@ -283,21 +283,31 @@
             Desafíos que impedían el crecimiento <br class="space">
             de nuestros clientes
             <ul class="text">
-                    <li>Captar aspirantes no calificados por procedimientos <br class="desktopTabletElement">
+                    <li>
+                         <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                        Captar aspirantes no calificados por procedimientos <br class="desktopTabletElement">
                     ineficaces.</li>
 
-                    <li>Procesos ineficientes para la creación de landing <br class="desktopTabletElement">
+                    <li>
+                         <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                        Procesos ineficientes para la creación de landing <br class="desktopTabletElement">
                     pages e emails que representan altos gastos en <br class="desktopTabletElement">
                     recursos humanos y herramientas.</li>
 
-                    <li>Dificultad para captar y organizar leads calificados <br class="desktopTabletElement">
+                    <li>
+                         <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                        Dificultad para captar y organizar leads calificados <br class="desktopTabletElement">
                     según el target audience de cada producto/servicio.</li>
 
-                    <li>Falta de herramientas para identificar a prospectos con <br class="desktopTabletElement">
+                    <li>
+                         <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                        Falta de herramientas para identificar a prospectos con <br class="desktopTabletElement">
                     altas probabilidades de cierre según su interacción con <br class="desktopTabletElement">
                     las campañas.</li>
 
-                    <li>Los clientes potenciales pierden interés al no <br class="desktopTabletElement">
+                    <li>
+                         <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                        Los clientes potenciales pierden interés al no <br class="desktopTabletElement">
                     conseguir respuestas rápidas del equipo <br class="desktopTabletElement">
                     de la agencia.</li>
 
@@ -316,16 +326,27 @@
             nuestras herramientas
 
             <ul class="text">
-                <li> y Landing pages que atraen y recolectan datos <br class="desktopTabletElement">
-                útiles sobre posibles estudiantes</li>
-                <li>Unifica el trabajo de tus diseñadores con las <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                    Anuncios y Landing pages que atraen y recolectan datos <br class="desktopTabletElement">
+                    útiles sobre posibles estudiantes
+                </li>
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                    Unifica el trabajo de tus diseñadores con las <br class="desktopTabletElement">
                 herramientas de diseño de Escala para crear landing <br class="desktopTabletElement">
                 pages y campañas de email sin necesitar programación.</li>
-                <li>Centraliza tus campañas de anuncios y landing pages y <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                    Centraliza tus campañas de anuncios y landing pages y <br class="desktopTabletElement">
                 organiza tu base de datos en el CRM de Escala.</li>
-                <li>Evalúa el interés de tus prospectos con la herramienta de <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                    Evalúa el interés de tus prospectos con la herramienta de <br class="desktopTabletElement">
                 Lead Scoring y prioriza a tus potenciales clientes.</li>
-                <li>Asigna tareas y actividades a tus asesores comerciales <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                    Asigna tareas y actividades a tus asesores comerciales <br class="desktopTabletElement">
                 mediante automatizaciones para gestionar los procesos <br class="desktopTabletElement">
                 de contacto, venta y post-venta de forma efectiva.</li>
               </ul>
@@ -513,7 +534,7 @@
                                         La oportunidad
                                     </h3>
                                     <p class="text">
-                                        30 millones de PYMES <br class="space">
+                                        30 millones de PYMES <br class="desktopElement">
                                         en Hispanoamérica
                                     </p>
                                 </div>
@@ -531,8 +552,8 @@
                                         El problema
                                     </h3>
                                     <p class="text">
-                                        Muchos dejan de crecer por <br class="space">
-                                        fallas estratégicas e <br class="space">
+                                        Muchos dejan de crecer por <br class="desktopElement">
+                                        fallas estratégicas e <br class="desktopElement">
                                         ineficiencias operativas
                                     </p>
                                 </div>
@@ -550,8 +571,8 @@
                                         La solución
                                     </h3>
                                     <p class="text">
-                                        Herramientas costo-eficientes, <br class="space">
-                                        metodologías probadas y <br class="space">
+                                        Herramientas costo-eficientes, <br class="desktopElement">
+                                        metodologías probadas y <br class="desktopElement">
                                         servicio de primera
                                     </p>
                                 </div>
@@ -566,11 +587,11 @@
 
                                 <div class="info">
                                     <h3 class="secondaryTitle">
-                                        Juntos <br class="space">
+                                        Juntos <br class="desktopElement">
                                         multiplicamos
                                     </h3>
                                     <p class="text">
-                                        Alcance e impacto mientras <br class="space">
+                                        Alcance e impacto mientras <br class="desktopElement">
                                         hacemos crecer nuestras empresas
                                     </p>
                                 </div>

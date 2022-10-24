@@ -281,15 +281,25 @@
             Desafíos que impedían el crecimiento <br class="space">
             de nuestros clientes
             <ul class="text">
-                <li>Poca asistencia a los eventos de promoción <br class="desktopTabletElement">
+                <li>
+                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Poca asistencia a los eventos de promoción <br class="desktopTabletElement">
                     y dificultad para llegar al público objetivo.</li>
-                <li>Falta de registro de las actividades <br class="desktopTabletElement">
+                <li>
+                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Falta de registro de las actividades <br class="desktopTabletElement">
                     comunicaciones intercambiadas con cada cliente</li>
-                <li>Base de datos sin segmentación que obstaculiza <br class="desktopTabletElement">
+                <li>
+                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Base de datos sin segmentación que obstaculiza <br class="desktopTabletElement">
                     la interacción personalizada</li>
-                <li>Pérdida de oportunidades con prospectos <br class="desktopTabletElement">
+                <li>
+                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Pérdida de oportunidades con prospectos <br class="desktopTabletElement">
                     calificados por retrasos en la comunicación.</li>
-                <li>Retrasos e incumplimientos en las actividades <br class="desktopTabletElement">
+                <li>
+                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Retrasos e incumplimientos en las actividades <br class="desktopTabletElement">
                     acordadas con la cartera de clientes</li>
               </ul>
 
@@ -306,11 +316,21 @@
             nuestras herramientas
 
             <ul class="text">
-            <li>Anuncios y landing pages para promover eventos,<br class="desktopTabletElement"> obtener registros y asistencia de leads calificados.</li>
-            <li>Historial de eventos clave para cada contacto que <br class="desktopTabletElement"> guardes en el CRM</li>
-            <li>Etiquetas del CRM para segmentar a tus contactos <br class="desktopTabletElement"> y comunicarte de manera asertiva.</li>
-            <li>Email marketing y automatizaciones para atender <br class="desktopTabletElement"> oportunamente a tus leads.</li>
-            <li>Automatiza las actividades y notificaciones que <br class="desktopTabletElement"> deban cumplirse en cada etapa para que los <br class="desktopTabletElement"> proyectos de tus clientes avancen en los tiempos <br class="desktopTabletElement"> acordados</li>
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Anuncios y landing pages para promover eventos,<br class="desktopTabletElement"> obtener registros y asistencia de leads calificados.</li>
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Historial de eventos clave para cada contacto que <br class="desktopTabletElement"> guardes en el CRM</li>
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Etiquetas del CRM para segmentar a tus contactos <br class="desktopTabletElement"> y comunicarte de manera asertiva.</li>
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Email marketing y automatizaciones para atender <br class="desktopTabletElement"> oportunamente a tus leads.</li>
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Automatiza las actividades y notificaciones que <br class="desktopTabletElement"> deban cumplirse en cada etapa para que los <br class="desktopTabletElement"> proyectos de tus clientes avancen en los tiempos <br class="desktopTabletElement"> acordados</li>
               </ul>
             ',
                         'enableButton' => false,

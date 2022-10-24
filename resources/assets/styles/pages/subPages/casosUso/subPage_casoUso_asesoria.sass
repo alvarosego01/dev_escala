@@ -507,7 +507,7 @@
                         color: $colorBlack
                         letter-spacing: -1px
                         @include responsivo(telefonoTable)
-                            font-size: 13px
+                            font-size: 12px
                         @include responsivo(pcMedio)
                             font-size: 16px
                         @include responsivo(general)
@@ -748,7 +748,7 @@
                             font-size: 20px
                             line-height: 1
                             display: flex
-                            align-items: center
+                            align-items: flex-start
                             letter-spacing: -0.02em
                             color: $colorGrey
                             padding: 0
@@ -781,17 +781,10 @@
                                 margin-bottom: 0
                                 &::after
                                     display: none
-
-                            &::before
-                                content: "\2022"
-                                color: #36768A
-                                font-weight: bold
-                                display: inline-block
-                                width: 1em
-                                position: absolute
-                                left: 5px
-                                top: 0
-                                bottom: 0
+                            img.checkCase
+                                position: relative
+                                left: -7.5px
+                                top: 5px
 
 #subPage_casoUso_asesoria .customSection.sectionParent.subPage_casoUso_asesoria_5,
 #subPage_casoUso_asesoria .customSection.sectionParent.subPage_casoUso_asesoria_6,
@@ -882,7 +875,7 @@
                             font-family: Nunito
                             font-weight: 700
                             @include responsivo(telefonoTable)
-                                font-size: 18p
+                                font-size: 18px
                             @include responsivo(pcMedio)
                                 font-size: 20px
                             @include responsivo(general)
