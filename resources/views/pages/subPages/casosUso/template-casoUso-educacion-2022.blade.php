@@ -285,16 +285,26 @@
             Desafíos que impedían el crecimiento <br class="space">
             de nuestros clientes
             <ul class="text">
-                <li>Captar aspirantes no calificados por <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Captar aspirantes no calificados por <br class="desktopTabletElement">
                 procedimientos ineficaces</li>
-                <li>Dificultad para brindar una respuesta rápida a <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Dificultad para brindar una respuesta rápida a <br class="desktopTabletElement">
                   los leads interesados</li>
-                <li>Complicaciones para identificar aspirantes <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Complicaciones para identificar aspirantes <br class="desktopTabletElement">
                   con probabilidades de cierre</li>
-                <li>Pérdida de datos en hojas de cálculo e <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Pérdida de datos en hojas de cálculo e <br class="desktopTabletElement">
                   imposibilidad de obtener reportes en tiempo <br class="desktopTabletElement">
                   real sobre las metas del cierre de matrículas</li>
-                <li>Fallas en la difusión de promociones e <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Fallas en la difusión de promociones e <br class="desktopTabletElement">
                   información atractiva para cerrar ventas y <br class="desktopTabletElement">
                   fidelizar a la comunidad</li>
               </ul>
@@ -312,20 +322,30 @@
             nuestras herramientas
 
             <ul class="text">
-                <li>Anuncios y Landing pages que atraen y recolectan <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                    Anuncios y Landing pages que atraen y recolectan <br class="desktopTabletElement">
               datos útiles sobre posibles estudiantes</li>
 
-              <li>Asignación veloz y automatizada a los asesores <br class="desktopTabletElement">
+              <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Asignación veloz y automatizada a los asesores <br class="desktopTabletElement">
               que mejora la gestión de las comunicaciones</li>
 
-              <li>Lead Scoring para calificar el estado del prospecto <br class="desktopTabletElement">
+              <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Lead Scoring para calificar el estado del prospecto <br class="desktopTabletElement">
               y hacer seguimiento adecuado</li>
 
-              <li>El CRM y el Dashboard sustituyen las hojas de <br class="desktopTabletElement">
+              <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                El CRM y el Dashboard sustituyen las hojas de <br class="desktopTabletElement">
               cálculo, optimizan tu sistema de gestión y <br class="desktopTabletElement">
               proporcionan reportes en tiempo real.</li>
 
-              <li>Uso de Email Marketing y Automatizaciones para <br class="desktopTabletElement">
+              <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Uso de Email Marketing y Automatizaciones para <br class="desktopTabletElement">
               promocionar programas atractivos a la comunidad</li>
               </ul>
             ',
@@ -348,7 +368,7 @@
     Optimiza tus resultados <span class="greenBlueColor">de marketing y ventas</span>
  ',
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/Landing-gif.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/Landing1.gif'),
                 'title' => null,
                 'text' => '
     <span>
@@ -378,7 +398,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/anuncios-2.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/anuncios-educación.gif'),
                 'title' => null,
                 'text' => '
     <span>
@@ -407,7 +427,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/crm2.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/CRM-educación.gif'),
                 'title' => null,
                 'text' => '
     <span>
@@ -437,7 +457,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/Email.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/Email-marketing-educación.gif'),
                 'title' => null,
                 'text' => '
     <span>
@@ -496,7 +516,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/reportes.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/dashboard.gif'),
                 'title' => null,
                 'text' => '
     <span>

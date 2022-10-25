@@ -280,21 +280,31 @@
             Desafíos que impedían el crecimiento <br class="space">
             de nuestros clientes
             <ul class="text">
-                <li>Poca información para priorizar a los prospectos <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Poca información para priorizar a los prospectos <br class="desktopTabletElement">
                 mejor calificados para cada propiedad. </li>
 
-                <li>Proceso desorganizado de conversión de leads que <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Proceso desorganizado de conversión de leads que <br class="desktopTabletElement">
                 impide el cierre de ventas y la proyección <br class="desktopTabletElement">
                 de resultados. </li>
 
-                <li>Almacenamiento ineficiente de los documentos clave <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Almacenamiento ineficiente de los documentos clave <br class="desktopTabletElement">
                 de cada comprador, vendedor o propiedad. </li>
 
-                <li>Poca interacción con clientes que impide ofrecer <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Poca interacción con clientes que impide ofrecer <br class="desktopTabletElement">
                 nuevas promociones, crear una comunidad e <br class="desktopTabletElement">
                 implementar nuevas estrategias de venta </li>
 
-                <li>Fallas en la difusión de promociones e información <br class="desktopTabletElement">
+                <li>
+                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                    Fallas en la difusión de promociones e información <br class="desktopTabletElement">
                 atractiva para cerrar ventas y fidelizar a la comunidad </li>
               </ul>
             ',
@@ -310,18 +320,28 @@
             nuestras herramientas
 
             <ul class="text">
-            <li>Evalúa tus prospectos con formularios que te permitan <br class="desktopTabletElement">
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Evalúa tus prospectos con formularios que te permitan <br class="desktopTabletElement">
             identificar las características del comprador ideal para <br class="desktopTabletElement">
             cada proyecto.</li>
-            <li>Organiza un embudo de ventas en el CRM para <br class="desktopTabletElement">
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Organiza un embudo de ventas en el CRM para <br class="desktopTabletElement">
             brindar una mejor experiencia a los prospectos y ten <br class="desktopTabletElement">
             claridad sobre el avance de tus procesos comerciales.</li>
-            <li>Archiva la información y documentos importantes de <br class="desktopTabletElement">
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Archiva la información y documentos importantes de <br class="desktopTabletElement">
             cada cliente y accede a ellos con facilidad en el CRM.</li>
-            <li>Mantén una comunicación efectiva con campañas de <br class="desktopTabletElement">
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Mantén una comunicación efectiva con campañas de <br class="desktopTabletElement">
             email marketing y comparte incentivos con tus clientes <br class="desktopTabletElement">
             para sumar nuevos prospectos.</li>
-            <li>Uso de Email Marketing y Automatizaciones para <br class="desktopTabletElement">
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
+                Uso de Email Marketing y Automatizaciones para <br class="desktopTabletElement">
             promocionar programas atractivos a la comunidad</li>
               </ul>
             ',
