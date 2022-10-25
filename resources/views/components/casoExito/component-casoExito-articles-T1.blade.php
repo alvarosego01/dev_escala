@@ -16,7 +16,7 @@ posts
 
 
 
-<section class="component-casoExito-articles-T1 customSection sectionParent  {{ $classSection }}">
+<section class="component-casoUso-articles-T1 customSection sectionParent  {{ $classSection }}">
 
     <div class="section-row">
 
