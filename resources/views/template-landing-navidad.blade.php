@@ -26,10 +26,17 @@
        'classSection' => 'threeCol landingChristmas0',
        'title' => '
        <span class="blueLightColor10">Estas navidades crea</span> <br class="space">
+<<<<<<< HEAD
+       Increíbles <br class="space"> Landing pages <br class="space">
+       <span class="blueLightColor10">y convierte más</span>
+       ',
+       'text' => 'Aprovecha estas fechas para generar <br class="space"> más leads con páginas optimizadas.',
+=======
        Landing pages <br class="space"> Increíbles',
        'text' => '<span class="blueLightColor10">
         y prepárate para ver crecer <br class="space"> tus leads y tus ventas.
         </span>',
+>>>>>>> test
        'textForm' => 'Comienza ahora',
        'threeCol' => true,
        'backgroundImage' => null,
