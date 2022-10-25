@@ -332,7 +332,7 @@
                    Optimiza tus resultados <span class="greenBlueColor">de marketing y ventas</span>
                 ',
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/Landing-gif.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/1Anuncios-consultoría.gif'),
                 'title' => null,
                 'text' => '
                     <span>
@@ -363,7 +363,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/anuncios-2.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/2Landing-consultoria.gif'),
                 'title' => null,
                 'text' => '
                     <span>
@@ -394,7 +394,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/crm2.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/3leads-score.gif'),
                 'title' => null,
                 'text' => '
                    <span>
@@ -425,7 +425,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/Email.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/4dashboard-consu.gif'),
                 'title' => null,
                 'text' => '
                    <span>
@@ -456,7 +456,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/automatizaciones.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/5Segmentos-consultoria.gif'),
                 'title' => null,
                 'text' => '
                        <span>
