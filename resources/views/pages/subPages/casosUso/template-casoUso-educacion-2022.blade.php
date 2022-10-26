@@ -102,7 +102,7 @@
                ',
                         'text' => '
               Nutre la relación con estudiantes <br class="desktopTabletElement">
-              y egresados para incrementa el <br class="desktopTabletElement">
+              y egresados para incrementar el <br class="desktopTabletElement">
               retorno de inversión
             ',
                         'enableButton' => false,
@@ -142,7 +142,7 @@
               interna
                ',
                         'text' => '
-              Utiliza la licencia de Escala, elabora <br class="desktopTabletElement">
+              Elabora <br class="desktopTabletElement">
               segmentos exclusivos para empleados <br class="desktopTabletElement">
               de tu institución y mantén una <br class="desktopTabletElement">
               comunicación activa por email marketing
@@ -163,7 +163,7 @@
                 'enableTitle' => true,
                 'titlePrincipal' => '
     El CRM de marketing y ventas <br class="space">
-    <span class="greenBlueColor">para el sector de Educación</span>
+    <span class="greenBlueColor">para el Sector educativo</span>
     ',
                 'subTitlePrincipal' => null,
                 'overlay' => false,
