@@ -114,7 +114,7 @@
                         'text' => '
                             Evita gastar en múltiples herramientas <br class="desktopTabletElement">
                             digitales y simplifica tus procesos con el <br class="desktopTabletElement">
-                            CRM y las automazaciones de Escala
+                            CRM y las automatizaciones de Escala
                         ',
                         'enableButton' => false,
                     ],
@@ -140,7 +140,7 @@
                         'text' => '
                             Revisa las métricas de cada <br class="desktopTabletElement">
                             campaña y utiliza dashboards <br class="desktopTabletElement">
-                            para conocer los resultados <br class="desktopTabletElement">
+                            para monitorear los resultados <br class="desktopTabletElement">
                             de marketing y ventas
                         ',
                         'enableButton' => false,
@@ -287,7 +287,7 @@
                     y dificultad para llegar al público objetivo.</li>
                 <li>
                      <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Falta de registro de las actividades <br class="desktopTabletElement">
+                    Falta de registro de las actividades y <br class="desktopTabletElement">
                     comunicaciones intercambiadas con cada cliente</li>
                 <li>
                      <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
@@ -424,8 +424,8 @@
                    </span>
                    <br class="space"><br class="space">
                    Detecta los contactos fríos, tibios y calientes con
-                   Lead scoring y define las estrategias para tener
-                   una gestión adecuada en el <strong>CRM.</strong>
+                   <strong>Lead scoring</strong> y define las estrategias para tener
+                   una gestión adecuada en el CRM.
                 ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
