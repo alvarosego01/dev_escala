@@ -142,10 +142,9 @@
               interna
                ',
                         'text' => '
-              Elabora <br class="desktopTabletElement">
-              segmentos exclusivos para empleados <br class="desktopTabletElement">
-              de tu institución y mantén una <br class="desktopTabletElement">
-              comunicación activa por email marketing
+              Elabora segmentos exclusivos <br class="desktopTabletElement">para empleados
+              de tu institución<br class="desktopTabletElement"> y mantén una 
+              comunicación <br class="desktopTabletElement">activa por email marketing
             ',
                         'enableButton' => false,
                     ],
@@ -163,7 +162,7 @@
                 'enableTitle' => true,
                 'titlePrincipal' => '
     El CRM de marketing y ventas <br class="space">
-    <span class="greenBlueColor">para el Sector educativo</span>
+    <span class="greenBlueColor">para el sector educativo</span>
     ',
                 'subTitlePrincipal' => null,
                 'overlay' => false,
