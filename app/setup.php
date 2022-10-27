@@ -109,6 +109,10 @@ add_action('wp_enqueue_scripts', function () {
         if (is_page_template('views/template-landing-escala-landings-2022.blade.php')) {
             wp_enqueue_style('landing_EscalaLandings.css', asset_path('styles/pages/landingPages/landing_EscalaLandings.css'), false, THEME_VERSION);
         }
+        // ---Landing Home Oct22
+        if (is_page_template('views/template-landing-home-oct22.blade.php')) {
+            wp_enqueue_style('landing_HomeOct22.css', asset_path('styles/pages/landingPages/landing_HomeOct22.css'), false, THEME_VERSION);
+        }
         // ---Landing escala landings 2022 - sin expertos
         if (is_page_template('views/template-landing-escala-landings-sin-expertos-2022.blade.php')) {
             wp_enqueue_style('landing_EscalaLandings-sin-expertos.css', asset_path('styles/pages/landingPages/landing_EscalaLandings_sin_expertos.css'), false, THEME_VERSION);
