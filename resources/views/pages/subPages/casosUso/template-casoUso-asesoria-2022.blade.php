@@ -235,9 +235,9 @@
                                 data-setup="{
                             autoplay: false
                           }"
-                                poster="{!! App::setFilePath('/assets/images/illustrations/others/video_front_home.png') !!}">
-                                <source src="{!! App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4') !!}" type="video/mp4" />
-                                <source src="{!! App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4') !!}" type="video/webm" />
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/caso_de_uso_industria_consultoria.png') !!}">
+                                <source src="{!! App::setFilePath('/assets/videos/caso_de_uso_industria_consultoria.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/caso_de_uso_industria_consultoria.mp4') !!}" type="video/webm" />
                                 <p class="vjs-no-js">
                                     To view this video please enable JavaScript, and consider upgrading to a
                                     web browser that
