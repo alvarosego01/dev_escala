@@ -208,7 +208,7 @@
         @endcontain_multiple_cards_T2
 
 
-        <section class="customSection sectionParent subPage_casoUso_bienes_raices_3">
+        {{-- <section class="customSection sectionParent subPage_casoUso_bienes_raices_3">
 
             <div class="section-row">
 
@@ -230,7 +230,7 @@
 
                         <div class="videoContent hytPlayerWrap">
 
-                            <video class="video-js" controls preload="none" {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                            <video class="video-js" controls preload="none"
                                 data-setup="{
                             autoplay: false
                           }"
@@ -253,7 +253,7 @@
 
             </div>
 
-        </section>
+        </section> --}}
 
 
 
@@ -364,7 +364,7 @@
                    Optimiza tus resultados <span class="greenBlueColor">de marketing y ventas</span>
                 ',
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/Landing-gif.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/1. Landing-bienes-raices.gif'),
                 'title' => null,
                 'text' => '
                     <span>
@@ -394,7 +394,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/anuncios-2.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/2-Segmentos-bienes-raices.gif'),
                 'title' => null,
                 'text' => '
                     <span>
@@ -426,7 +426,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/crm2.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/3-Automatizaciones bienes raices.gif'),
                 'title' => null,
                 'text' => '
                    <span>
@@ -457,7 +457,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/Email.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/4-Automatizaciones-tasa-de-interés.gif'),
                 'title' => null,
                 'text' => '
                    <span>
@@ -488,7 +488,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/automatizaciones.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/5-dashboard-bienes-raices.gif'),
                 'title' => null,
                 'text' => '
                     <span>
