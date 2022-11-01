@@ -5,7 +5,7 @@
     <div id="implementacionBootstrap">
         <div class="sections">
 
-            <section class="customSection sectionParent implementacionSection0">
+            {{-- <section class="customSection sectionParent implementacionSection0">
                 <div class="section-row">
                     <section class="innerSectionElement sct2">
                         <div class="groupElements row">
@@ -30,7 +30,38 @@
                         </div>
                     </section>
                 </div>
-            </section>
+            </section> --}}
+
+
+            @php
+ $parameters = array(
+  'type' => 'backgroundColor',
+  'classSection' => 'implementacionSection0',
+  'enableTitle' => false,
+  'titlePrincipal' => null,
+  'subTitlePrincipal' => null,
+  'title' => '
+  <small>
+    Nuestro gran diferenciador
+    </small>
+    <br class="space">
+    <span style="color: #D6F4F6">Te guiamos a implementar</span> <br class="space">
+    Escala exitosamente
+    ',
+'typeVideo' =>  'localvideo',
+  'videoEmbed' =>  App::setFilePath('/assets/videos/video escala optimizado.mp4'),
+  'videoCover' => App::setFilePath('/assets/images/person/Portadas-de-videos_Mesa-de-trabajo.jpg'),
+  'text' => null,
+  'enableButton' => false,
+  'urlButton' => '#lead-form',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Prueba Escala ya',
+  'side' => 'right',
+ ) ;
+@endphp
+
+@contain_text_video_T1( $parameters )
+@endcontain_text_video_T1
 
 
             @php
@@ -41,7 +72,7 @@
                     'titlePrincipal' => null,
                     'subTitlePrincipal' => null,
                     'title' => '
-                      Te guiamos <span class="greenBlueColor">paso a paso</span>
+                      Acompañamiento <span class="greenBlueColor">experto 1:1</span>
                       ',
                     'img' => App::setFilePath('/assets/images/person/implementacion_banner_principal-1.png'),
                     'text' => '
