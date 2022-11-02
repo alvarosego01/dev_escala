@@ -12,11 +12,11 @@
                     <div class="containElements">
 
                         <h1 class="primaryTitle blackColor">
-                            Que puedes lograr con Escala
+                            Qué puedes lograr con Escala
                             <br class="space">
                             <span class="greenBlueColor">
                                 Descubre cómo distintos negocios utilizan las <br class="desktopTabletElement">
-                                herramientas para atraer y convertir clientes fieles
+                                herramientas para atraer, convertir y fidelizar clientes
                             </span>
                         </h1>
                     </div>
