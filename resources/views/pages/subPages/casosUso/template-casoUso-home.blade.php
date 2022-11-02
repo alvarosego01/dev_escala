@@ -23,13 +23,12 @@
 
                 </section>
 
-
                 {{--
                     https://escala.com/casos-de-uso-marketing
                     https://escala.com/casos-de-uso-bienes-raices
                     https://escala.com/casos-de-uso-educacion
                     https://escala.com/casos-de-uso-asesoria
- --}}
+                --}}
 
                 <section class="innerSectionElement sct2">
 
@@ -253,7 +252,7 @@
                                     </h3>
 
                                     <div class="containerImage">
-                                        <img alt="Caso de uso Servicios profesionales" src="{!! App::setFilePath('/assets/images/illustrations/others/z - profesionales 2.png') !!}"  loading="lazy">
+                                        <img alt="Caso de uso Servicios profesionales" src="{!! App::setFilePath('/assets/images/illustrations/others/Escala-capacitaciones-en-vivo-4.png') !!}"  loading="lazy">
                                     </div>
 
                                     <a  class="disabledLink">
