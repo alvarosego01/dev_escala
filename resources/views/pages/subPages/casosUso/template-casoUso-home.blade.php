@@ -61,11 +61,11 @@
                                 <div class="containItem">
 
                                     <h3>
-                                        Consultoría
+                                        Asesoría
                                     </h3>
 
                                     <div class="containerImage">
-                                        <img alt="Caso de uso Consultoría" src="{!! App::setFilePath('/assets/images/illustrations/others/servicios-financieros 2.png') !!}"  loading="lazy">
+                                        <img alt="Caso de uso Asesoría" src="{!! App::setFilePath('/assets/images/illustrations/others/servicios-financieros 2.png') !!}"  loading="lazy">
                                     </div>
 
                                     <a href="{!! App::setTypeUrl() . '/casos-de-uso-asesoria' !!}" class="hiperButtonGreenBlue">
