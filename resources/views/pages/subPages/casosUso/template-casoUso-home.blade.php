@@ -44,11 +44,17 @@
                                         Educación
                                     </h3>
 
+                                    @php
+                                        $link = App::setTypeUrl() . '/casos-de-uso-educacion';
+                                    @endphp
+
                                     <div class="containerImage">
-                                        <img alt="Caso de uso educación" src="{!! App::setFilePath('/assets/images/illustrations/others/Educacion-Entrenamiento 2.png') !!}"  loading="lazy">
+                                        <a href="{!! $link !!}"  >
+                                            <img alt="Caso de uso educación" src="{!! App::setFilePath('/assets/images/illustrations/others/Educacion-Entrenamiento 2.png') !!}"  loading="lazy">
+                                        </a>
                                     </div>
 
-                                    <a href="{!! App::setTypeUrl() . '/casos-de-uso-educacion' !!}" class="hiperButtonGreenBlue">
+                                    <a href="{!! $link !!}" class="hiperButtonGreenBlue">
                                         Ver caso de uso
                                     </a>
 
@@ -64,11 +70,18 @@
                                         Consultoría
                                     </h3>
 
+                                    @php
+                                    $link = App::setTypeUrl() . '/casos-de-uso-consultoria';
+                                @endphp
+
+
                                     <div class="containerImage">
+                                        <a href="{!! $link !!}"  >
                                         <img alt="Caso de uso Consultoría" src="{!! App::setFilePath('/assets/images/illustrations/others/servicios-financieros 2.png') !!}"  loading="lazy">
+                                        </a>
                                     </div>
 
-                                    <a href="{!! App::setTypeUrl() . '/casos-de-uso-consultoria' !!}" class="hiperButtonGreenBlue">
+                                    <a href="{!! $link !!}" class="hiperButtonGreenBlue">
                                         Ver caso de uso
                                     </a>
 
@@ -84,11 +97,18 @@
                                         Bienes raíces
                                     </h3>
 
+                                    @php
+                                    $link = App::setTypeUrl() . '/casos-de-uso-bienes-raices';
+                                @endphp
+
+
                                     <div class="containerImage">
+                                        <a href="{!! $link !!}"  >
                                         <img alt="Caso de uso Bienes raíces" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_03.png') !!}"  loading="lazy">
+                                        </a>
                                     </div>
 
-                                    <a href="{!! App::setTypeUrl() . '/casos-de-uso-bienes-raices' !!}" class="hiperButtonGreenBlue">
+                                    <a href="{!! $link !!}" class="hiperButtonGreenBlue">
                                         Ver caso de uso
                                     </a>
 
@@ -104,11 +124,17 @@
                                         Marketing y publicidad
                                     </h3>
 
+                                    @php
+                                    $link = App::setTypeUrl() . '/casos-de-uso-marketing';
+                                @endphp
+
                                     <div class="containerImage">
+                                        <a href="{!! $link !!}"  >
                                         <img alt="Caso de uso Marketing y publicidad" src="{!! App::setFilePath('/assets/images/illustrations/others/casos-Marketing-y-Publicidad-1 2.png') !!}"  loading="lazy">
+                                        </a>
                                     </div>
 
-                                    <a href="{!! App::setTypeUrl() . '/casos-de-uso-marketing' !!}" class="hiperButtonGreenBlue">
+                                    <a href="{!! $link !!}" class="hiperButtonGreenBlue">
                                         Ver caso de uso
                                     </a>
 
