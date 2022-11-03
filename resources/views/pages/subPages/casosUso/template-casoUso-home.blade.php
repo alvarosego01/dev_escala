@@ -71,7 +71,7 @@
                                     </h3>
 
                                     @php
-                                    $link = App::setTypeUrl() . '/caso-de-uso-consultoria';
+                                    $link = App::setTypeUrl() . '/caso-de-uso-asesoria';
                                 @endphp
 
 
@@ -130,7 +130,7 @@
 
                                     <div class="containerImage">
                                         <a href="{!! $link !!}"  >
-                                        <img alt="Caso de uso Marketing y publicidad" src="{!! App::setFilePath('/assets/images/illustrations/others/caso-Marketing-y-Publicidad-1 2.png') !!}"  loading="lazy">
+                                        <img alt="Caso de uso Marketing y publicidad" src="{!! App::setFilePath('/assets/images/illustrations/others/casos-Marketing-y-Publicidad-1 2.png') !!}"  loading="lazy">
                                         </a>
                                     </div>
 
