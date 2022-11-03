@@ -24,7 +24,7 @@
                 </section>
 
                 {{--
-                    https://escala.com/caso-de-uso-marketing
+                    https://escala.com/caso-de-uso-agencia-marketing
                     https://escala.com/caso-de-uso-bienes-raices
                     https://escala.com/caso-de-uso-educacion
                     https://escala.com/caso-de-uso-asesoria
@@ -125,7 +125,7 @@
                                     </h3>
 
                                     @php
-                                    $link = App::setTypeUrl() . '/caso-de-uso-marketing';
+                                    $link = App::setTypeUrl() . '/caso-de-uso-agencia-marketing';
                                 @endphp
 
                                     <div class="containerImage">
