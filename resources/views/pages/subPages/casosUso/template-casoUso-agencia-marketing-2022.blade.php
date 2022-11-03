@@ -56,10 +56,9 @@
          'classSection' => 'threeCol subPage_casoUso_agencia_marketing_0',
          'title' => '
             <small >Caso de Uso: <span class="orangeColor">Marketing y Publicidad</span></small> <br class="space">
-            Haz crecer tu agencia <span class="greenBlueColor">
-                y llega <br class="space">
-                a más clientes potenciales
-            </span>
+            Haz crecer tu agencia <br class="space">
+            ganando y reteniendo <br class="space">
+            a más clientes
         ',
          'text' => '
             Administra tu base de datos y automatiza tus procesos <br class="desktopTabletElement">
