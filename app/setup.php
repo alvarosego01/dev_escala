@@ -181,6 +181,9 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage_ventas.js'), ['jquery'], THEME_VERSION, true);
         }
         // --- Casos uso
+        if (is_page_template('views/template-casoUso-home.blade.php')) {
+            wp_enqueue_style('template_casoUso_home.css', asset_path('styles/pages/subPages/casosUso/subPage_casoUso_home.css'), false, THEME_VERSION);
+        }
         if (is_page_template('views/template-casoUso-educacion-2022.blade.php')) {
             wp_enqueue_style('subPage_casoUso_educacion.css', asset_path('styles/pages/subPages/casosUso/subPage_casoUso_educacion.css'), false, THEME_VERSION);
         }
