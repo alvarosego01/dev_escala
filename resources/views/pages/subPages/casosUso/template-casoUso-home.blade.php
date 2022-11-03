@@ -24,10 +24,10 @@
                 </section>
 
                 {{--
-                    https://escala.com/casos-de-uso-marketing
-                    https://escala.com/casos-de-uso-bienes-raices
-                    https://escala.com/casos-de-uso-educacion
-                    https://escala.com/casos-de-uso-asesoria
+                    https://escala.com/caso-de-uso-marketing
+                    https://escala.com/caso-de-uso-bienes-raices
+                    https://escala.com/caso-de-uso-educacion
+                    https://escala.com/caso-de-uso-asesoria
                 --}}
 
                 <section class="innerSectionElement sct2">
@@ -45,7 +45,7 @@
                                     </h3>
 
                                     @php
-                                        $link = App::setTypeUrl() . '/casos-de-uso-educacion';
+                                        $link = App::setTypeUrl() . '/caso-de-uso-educacion';
                                     @endphp
 
                                     <div class="containerImage">
@@ -71,7 +71,7 @@
                                     </h3>
 
                                     @php
-                                    $link = App::setTypeUrl() . '/casos-de-uso-consultoria';
+                                    $link = App::setTypeUrl() . '/caso-de-uso-consultoria';
                                 @endphp
 
 
@@ -98,7 +98,7 @@
                                     </h3>
 
                                     @php
-                                    $link = App::setTypeUrl() . '/casos-de-uso-bienes-raices';
+                                    $link = App::setTypeUrl() . '/caso-de-uso-bienes-raices';
                                 @endphp
 
 
@@ -125,12 +125,12 @@
                                     </h3>
 
                                     @php
-                                    $link = App::setTypeUrl() . '/casos-de-uso-marketing';
+                                    $link = App::setTypeUrl() . '/caso-de-uso-marketing';
                                 @endphp
 
                                     <div class="containerImage">
                                         <a href="{!! $link !!}"  >
-                                        <img alt="Caso de uso Marketing y publicidad" src="{!! App::setFilePath('/assets/images/illustrations/others/casos-Marketing-y-Publicidad-1 2.png') !!}"  loading="lazy">
+                                        <img alt="Caso de uso Marketing y publicidad" src="{!! App::setFilePath('/assets/images/illustrations/others/caso-Marketing-y-Publicidad-1 2.png') !!}"  loading="lazy">
                                         </a>
                                     </div>
 
