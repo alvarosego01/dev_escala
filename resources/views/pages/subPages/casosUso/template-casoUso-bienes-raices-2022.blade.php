@@ -136,7 +136,7 @@
   @contain_multiple_cards_T2($parameters)
   @endcontain_multiple_cards_T2
 
-
+{{--
         <section class="customSection sectionParent subPage_casoUso_bienes_raices_3">
 
             <div class="section-row">
@@ -193,7 +193,7 @@
 
             </div>
 
-        </section>
+        </section> --}}
 
 
 

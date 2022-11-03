@@ -141,7 +141,7 @@
   @endcontain_multiple_cards_T2
 
 
-  <section class="customSection sectionParent subPage_casoUso_agencia_marketing_3">
+  {{-- <section class="customSection sectionParent subPage_casoUso_agencia_marketing_3">
 
     <div class="section-row">
 
@@ -198,7 +198,7 @@
 
                 </div>
 
-</section>
+</section> --}}
 
 
         @php
