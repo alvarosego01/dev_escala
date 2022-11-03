@@ -2,7 +2,7 @@
     <div class="sections">
 
 
-        <section class="component-info-text-image-T1 customSection sectionParent subPage_casoUso_agencia_marketing_0 ">
+        {{-- <section class="component-info-text-image-T1 customSection sectionParent subPage_casoUso_agencia_marketing_0 ">
 
 
             <div class="section-row">
@@ -45,8 +45,160 @@
 
             </div>
 
+        </section> --}}
+
+
+
+        @php
+        $parameters = array(
+         'backgroundImageType' => false,
+         'overlay' => false,
+         'classSection' => 'threeCol subPage_casoUso_agencia_marketing_0',
+         'title' => '
+            <small >Caso de Uso: <span class="orangeColor">Marketing y Publicidad</span></small> <br class="space">
+            Haz crecer tu agencia <span class="greenBlueColor">
+                y llega <br class="space">
+                a más clientes potenciales
+            </span>
+        ',
+         'text' => '
+            Administra tu base de datos y automatiza tus procesos <br class="desktopTabletElement">
+            con el CRM más fácil de usar
+          ',
+         'threeCol' => true,
+         'textForm' => '
+            Empieza a probar Escala
+         ',
+         'backgroundImage' => null,
+      'overlayImage' => null,
+      'image' => App::setFilePath('/assets/images/person/Marketing2 1.png'),
+      'img_alt' => 'Escala caso de uso marketing'
+      ) ;
+      @endphp
+
+      @header_t1( $parameters )
+      @endheader_t1
+
+
+      @php
+      $parameters = [
+          'type' => 'backgroundColor',
+          'classSection' => 'subPage_casoUso_agencia_marketing_2',
+          'enableTitle' => true,
+          'titlePrincipal' => '
+              La herramienta de gestión y automatización <br class="desktopTabletElement">
+              <span class="greenBlueColor">para agencias de marketing</span>
+          ',
+          'subTitlePrincipal' => null,
+          'overlay' => false,
+          'enableButton' => false,
+          // 'urlButton' => '#',
+          // 'textButton' => '¡Comenzar ahora!',
+          // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+          // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
+          'elements' => [
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_1.png'),
+                  'title' => '
+                  Expertos en <br class="desktopElement">
+                  generación de leads
+      ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_2.png'),
+                  'title' => '
+                  Estrategas en <br class="desktopElement">
+                  comunicaciones masivas
+      ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_3.png'),
+                  'title' => '
+                  Especialistas en <br class="desktopElement">
+                  embudos de conversión
+      ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_4.png'),
+                  'title' => '
+                  Consultoras de marketing, ventas <br class="desktopElement">
+                  o estrategia de Crecimiento
+      ',
+                  'enableButton' => false,
+              ],
+          ],
+      ];
+  @endphp
+
+  @contain_multiple_cards_T2($parameters)
+  @endcontain_multiple_cards_T2
+
+
+  <section class="customSection sectionParent subPage_casoUso_agencia_marketing_3">
+
+    <div class="section-row">
+
+        <section class="innerSectionElement sct1">
+
+            <div class="containElements">
+
+                <h2 class="primaryTitle blackColor">
+                    Cómo los usuarios implementan <span class="greenBlueColor">sus estrategias con Escala</span>
+                </h2>
+
+            </div>
+
         </section>
 
+        <section class="innerSectionElement sct2">
+
+            <div class="containElements">
+
+                <div class="videoContent hytPlayerWrap">
+
+                    <video class="video-js" controls preload="none"
+                        data-setup="{
+                            autoplay: false
+                        }"
+                        poster="{!! App::setFilePath('/assets/images/illustrations/others/video_front_home.png') !!}">
+                        <source src="{!! App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4') !!}" type="video/mp4" />
+                        <source src="{!! App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4') !!}" type="video/webm" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5
+                                video</a>
+                            </p>
+                        </video>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="innerSectionElement sct3">
+
+                <div class="containElements">
+
+                    <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                        ¡Prueba Gratis!
+                    </a>
+
+                </div>
+            </section>
+
+
+                </div>
+
+</section>
 
 
         @php
@@ -59,7 +211,7 @@
                 ',
                 'subTitlePrincipal' => null,
                 'overlay' => false,
-                'enableButton' => true,
+                'enableButton' => false,
                 'urlButton' => '#',
                 'textButton' => '¡Prueba Gratis!',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
@@ -150,113 +302,8 @@
         @contain_multiple_cards_T2($parameters)
         @endcontain_multiple_cards_T2
 
-        @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_agencia_marketing_2',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-                    La herramienta de gestión y automatización <br class="desktopTabletElement">
-                    <span class="greenBlueColor">para agencias de marketing</span>
-                ',
-                'subTitlePrincipal' => null,
-                'overlay' => false,
-                'enableButton' => false,
-                // 'urlButton' => '#',
-                // 'textButton' => '¡Comenzar ahora!',
-                // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
-                // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
-                'elements' => [
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_1.png'),
-                        'title' => '
-                        Expertos en <br class="desktopElement">
-                        generación de leads
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_2.png'),
-                        'title' => '
-                        Estrategas en <br class="desktopElement">
-                        comunicaciones masivas
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_3.png'),
-                        'title' => '
-                        Especialistas en <br class="desktopElement">
-                        embudos de conversión
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_4.png'),
-                        'title' => '
-                        Consultoras de marketing, ventas <br class="desktopElement">
-                        o estrategia de Crecimiento
-            ',
-                        'enableButton' => false,
-                    ],
-                ],
-            ];
-        @endphp
-
-        @contain_multiple_cards_T2($parameters)
-        @endcontain_multiple_cards_T2
 
 
-        {{-- <section class="customSection sectionParent subPage_casoUso_agencia_marketing_3">
-
-            <div class="section-row">
-
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h2 class="primaryTitle blackColor">
-                            Cómo los usuarios implementan <span class="greenBlueColor">sus estrategias con Escala</span>
-                        </h2>
-
-                    </div>
-
-                </section>
-
-                <section class="innerSectionElement sct2">
-
-                    <div class="containElements">
-
-                        <div class="videoContent hytPlayerWrap">
-
-                            <video class="video-js" controls preload="none"
-                                data-setup="{
-                            autoplay: false
-                          }"
-                                poster="{!! App::setFilePath('/assets/images/illustrations/others/video_front_home.png') !!}">
-                                <source src="{!! App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4') !!}" type="video/mp4" />
-                                <source src="{!! App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4') !!}" type="video/webm" />
-                                <p class="vjs-no-js">
-                                    To view this video please enable JavaScript, and consider upgrading to a
-                                    web browser that
-                                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5
-                                        video</a>
-                                </p>
-                            </video>
-
-                        </div>
-
-                    </div>
-
-                </section>
-
-            </div>
-
-        </section> --}}
 
 
 
