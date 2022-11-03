@@ -2,7 +2,7 @@
     <div class="sections">
 
 
-        <section class="component-info-text-image-T1 customSection sectionParent subPage_casoUso_bienes_raices_0 ">
+        {{-- <section class="component-info-text-image-T1 customSection sectionParent subPage_casoUso_bienes_raices_0 ">
 
 
             <div class="section-row">
@@ -43,6 +43,156 @@
 
             </div>
 
+        </section> --}}
+
+
+        @php
+        $parameters = array(
+         'backgroundImageType' => false,
+         'overlay' => false,
+         'classSection' => 'threeCol subPage_casoUso_bienes_raices_0',
+         'title' => '
+            <small>
+                Caso de Uso: <span class="orangeColor">Bienes Raíces</span>
+            </small> <br class="space">
+            Potencia las ventas de tus <br class="space">
+            <span class="greenBlueColor">proyectos inmobiliarios</span>
+        ',
+         'text' => '
+            Enfócate en los prospectos calificados con el CRM más fácil <br class="desktopTabletElement">
+            de usar que mantiene tu gestión comercial automatizada
+          ',
+         'threeCol' => true,
+         'textForm' => '
+            Empieza a probar Escala
+         ',
+         'backgroundImage' => null,
+      'overlayImage' => null,
+      'image' => App::setFilePath('/assets/images/person/portrait_bienes_raices.png'),
+      'img_alt' => 'Escala caso de uso marketing'
+      ) ;
+      @endphp
+
+      @header_t1( $parameters )
+      @endheader_t1
+
+
+      @php
+      $parameters = [
+          'type' => 'backgroundColor',
+          'classSection' => 'subPage_casoUso_bienes_raices_2',
+          'enableTitle' => true,
+          'titlePrincipal' => '
+              La plataforma para optimizar los resultados <br class="desktopTabletElement">
+              comerciales <span class="greenBlueColor">del sector inmobiliario</span>
+          ',
+          'subTitlePrincipal' => null,
+          'overlay' => false,
+          'enableButton' => false,
+          // 'urlButton' => '#',
+          // 'textButton' => '¡Comenzar ahora!',
+          // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+          // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
+          'elements' => [
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_1.png'),
+                  'title' => '
+                      Lotes
+                  ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_2.png'),
+                  'title' => '
+                      Proyectos de <br class="space">
+                      construcción
+                  ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_3.png'),
+                  'title' => '
+                      Alquiler y venta <br class="space">
+                      de inmuebles
+                  ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_4.png'),
+                  'title' => '
+                      Asesoría <br class="space">
+                      inmobiliaria
+                  ',
+                  'enableButton' => false,
+              ],
+          ],
+      ];
+  @endphp
+
+  @contain_multiple_cards_T2($parameters)
+  @endcontain_multiple_cards_T2
+
+
+        <section class="customSection sectionParent subPage_casoUso_bienes_raices_3">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+
+                        <h2 class="primaryTitle blackColor">
+                            Cómo los usuarios implementan <span class="greenBlueColor">sus estrategias con Escala</span>
+                        </h2>
+
+                    </div>
+
+                </section>
+
+                <section class="innerSectionElement sct2">
+
+                    <div class="containElements">
+
+                        <div class="videoContent hytPlayerWrap">
+
+                            <video class="video-js" controls preload="none"
+                                data-setup="{
+                            autoplay: false
+                          }"
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/video_front_home.png') !!}">
+                                <source src="{!! App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4') !!}" type="video/webm" />
+                                <p class="vjs-no-js">
+                                    To view this video please enable JavaScript, and consider upgrading to a
+                                    web browser that
+                                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5
+                                        video</a>
+                                </p>
+                            </video>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section class="innerSectionElement sct3">
+
+                    <div class="containElements">
+
+                        <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                            ¡Prueba Gratis!
+                        </a>
+
+                    </div>
+                </section>
+
+            </div>
+
         </section>
 
 
@@ -57,7 +207,7 @@
                 ',
                 'subTitlePrincipal' => null,
                 'overlay' => false,
-                'enableButton' => true,
+                'enableButton' => false,
                 'urlButton' => '#',
                 'textButton' => '¡Prueba Gratis!',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
@@ -148,64 +298,6 @@
         @contain_multiple_cards_T2($parameters)
         @endcontain_multiple_cards_T2
 
-        @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_bienes_raices_2',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-                    La plataforma para optimizar los resultados <br class="desktopTabletElement">
-                    comerciales <span class="greenBlueColor">del sector inmobiliario</span>
-                ',
-                'subTitlePrincipal' => null,
-                'overlay' => false,
-                'enableButton' => false,
-                // 'urlButton' => '#',
-                // 'textButton' => '¡Comenzar ahora!',
-                // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
-                // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
-                'elements' => [
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_1.png'),
-                        'title' => '
-                            Lotes
-                        ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_2.png'),
-                        'title' => '
-                            Proyectos de <br class="space">
-                            construcción
-                        ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_3.png'),
-                        'title' => '
-                            Alquiler y venta <br class="space">
-                            de inmuebles
-                        ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_4.png'),
-                        'title' => '
-                            Asesoría <br class="space">
-                            inmobiliaria
-                        ',
-                        'enableButton' => false,
-                    ],
-                ],
-            ];
-        @endphp
-
-        @contain_multiple_cards_T2($parameters)
-        @endcontain_multiple_cards_T2
 
 
         {{-- <section class="customSection sectionParent subPage_casoUso_bienes_raices_3">

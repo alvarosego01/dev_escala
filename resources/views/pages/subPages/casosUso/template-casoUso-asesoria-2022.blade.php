@@ -1,7 +1,7 @@
 <div id="subPage_casoUso_asesoria">
     <div class="sections">
 
-
+{{--
         <section class="component-info-text-image-T1 customSection sectionParent subPage_casoUso_asesoria_0 ">
 
 
@@ -46,7 +46,153 @@
 
             </div>
 
+        </section> --}}
+
+        @php
+        $parameters = array(
+         'backgroundImageType' => false,
+         'overlay' => false,
+         'classSection' => 'threeCol subPage_casoUso_asesoria_0',
+         'title' => '
+            <small >
+                Caso de Uso: <span class="orangeColor">Consultoría y Coaching</span></small> <br class="space">
+                Cierra más contratos y <br class="space">
+                <span class="greenBlueColor">fideliza a tus clientes</span>
+        ',
+         'text' => '
+            Con el CRM más fácil de usar y nuestras herramientas <br class="desktopTabletElement">
+            de automatización de marketing y ventas
+          ',
+         'threeCol' => true,
+         'textForm' => '
+            Empieza a probar Escala
+         ',
+         'backgroundImage' => null,
+      'overlayImage' => null,
+      'image' => App::setFilePath('/assets/images/person/home_pantalla_CRM_09_chica_asesoria.png'),
+      'img_alt' => 'Escala caso de uso marketing'
+      ) ;
+      @endphp
+
+      @header_t1( $parameters )
+      @endheader_t1
+
+      @php
+      $parameters = [
+          'type' => 'backgroundColor',
+          'classSection' => 'subPage_casoUso_asesoria_2',
+          'enableTitle' => true,
+          'titlePrincipal' => '
+            Otos profesionales que pueden <span class="greenBlueColor">
+                atraer, <br class="desktopTabletElement">
+                convertir y fidelizar clientes con Escala
+            </span>
+          ',
+          'subTitlePrincipal' => null,
+          'overlay' => false,
+          'enableButton' => false,
+          // 'urlButton' => '#',
+          // 'textButton' => '¡Comenzar ahora!',
+          // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+          // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
+          'elements' => [
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_asesoria_a1_1.png'),
+                  'title' => '
+                  Abogados
+      ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_asesoria_a1_2.png'),
+                  'title' => '
+                  Coaches
+      ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_asesoria_a1_3.png'),
+                  'title' => '
+                  Contadores
+      ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_asesoria_a1_4.png'),
+                  'title' => '
+                  Ingenieros
+      ',
+                  'enableButton' => false,
+              ],
+          ],
+      ];
+  @endphp
+
+  @contain_multiple_cards_T2($parameters)
+  @endcontain_multiple_cards_T2
+
+
+  <section class="customSection sectionParent subPage_casoUso_asesoria_3">
+
+    <div class="section-row">
+
+        <section class="innerSectionElement sct1">
+
+            <div class="containElements">
+
+                <h2 class="primaryTitle blackColor">
+                    Cómo los usuarios implementan <span class="greenBlueColor">sus estrategias con Escala</span>
+                </h2>
+
+            </div>
+
         </section>
+
+        <section class="innerSectionElement sct2">
+
+            <div class="containElements">
+
+                <div class="videoContent hytPlayerWrap">
+
+                    <video class="video-js" controls preload="none" {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                        data-setup="{
+                    autoplay: false
+                  }"
+                        poster="{!! App::setFilePath('/assets/images/illustrations/others/caso_de_uso_industria_consultoria.png') !!}">
+                        <source src="{!! App::setFilePath('/assets/videos/caso_de_uso_industria_consultoria.mp4') !!}" type="video/mp4" />
+                        <source src="{!! App::setFilePath('/assets/videos/caso_de_uso_industria_consultoria.mp4') !!}" type="video/webm" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5
+                                video</a>
+                        </p>
+                    </video>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="innerSectionElement sct3">
+
+            <div class="containElements">
+
+                <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                    ¡Prueba Gratis!
+                </a>
+
+            </div>
+        </section>
+
+    </div>
+
+</section>
 
 
 
@@ -61,7 +207,7 @@
                 ',
                 'subTitlePrincipal' => null,
                 'overlay' => false,
-                'enableButton' => true,
+                'enableButton' => false,
                 'urlButton' => '#',
                 'textButton' => '¡Prueba Gratis!',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
@@ -151,112 +297,6 @@
 
         @contain_multiple_cards_T2($parameters)
         @endcontain_multiple_cards_T2
-
-        @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_asesoria_2',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-                    La herramienta de gestión para que profesionales <br class="desktopTabletElement">
-                    expertos <span class="greenBlueColor">otorguen valor a su cliente ideal</span>
-                ',
-                'subTitlePrincipal' => null,
-                'overlay' => false,
-                'enableButton' => false,
-                // 'urlButton' => '#',
-                // 'textButton' => '¡Comenzar ahora!',
-                // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
-                // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
-                'elements' => [
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_asesoria_a1_1.png'),
-                        'title' => '
-                        Abogados
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_asesoria_a1_2.png'),
-                        'title' => '
-                        Coaches
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_asesoria_a1_3.png'),
-                        'title' => '
-                        Contadores
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_asesoria_a1_4.png'),
-                        'title' => '
-                        Ingenieros
-            ',
-                        'enableButton' => false,
-                    ],
-                ],
-            ];
-        @endphp
-
-        @contain_multiple_cards_T2($parameters)
-        @endcontain_multiple_cards_T2
-
-
-        <section class="customSection sectionParent subPage_casoUso_asesoria_3">
-
-            <div class="section-row">
-
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h2 class="primaryTitle blackColor">
-                            Cómo los usuarios implementan <span class="greenBlueColor">sus estrategias con Escala</span>
-                        </h2>
-
-                    </div>
-
-                </section>
-
-                <section class="innerSectionElement sct2">
-
-                    <div class="containElements">
-
-                        <div class="videoContent hytPlayerWrap">
-
-                            <video class="video-js" controls preload="none" {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                data-setup="{
-                            autoplay: false
-                          }"
-                                poster="{!! App::setFilePath('/assets/images/illustrations/others/caso_de_uso_industria_consultoria.png') !!}">
-                                <source src="{!! App::setFilePath('/assets/videos/caso_de_uso_industria_consultoria.mp4') !!}" type="video/mp4" />
-                                <source src="{!! App::setFilePath('/assets/videos/caso_de_uso_industria_consultoria.mp4') !!}" type="video/webm" />
-                                <p class="vjs-no-js">
-                                    To view this video please enable JavaScript, and consider upgrading to a
-                                    web browser that
-                                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5
-                                        video</a>
-                                </p>
-                            </video>
-
-                        </div>
-
-                    </div>
-
-                </section>
-
-            </div>
-
-        </section>
-
-
 
         @php
             $parameters = [

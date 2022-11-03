@@ -2,7 +2,7 @@
     <div class="sections">
 
 
-        <section class="component-info-text-image-T1 customSection sectionParent subPage_casoUso_educacion_0 ">
+        {{-- <section class="component-info-text-image-T1 customSection sectionParent subPage_casoUso_educacion_0 ">
 
 
             <div class="section-row">
@@ -48,7 +48,158 @@
 
             </div>
 
+        </section> --}}
+
+
+        @php
+        $parameters = array(
+         'backgroundImageType' => false,
+         'overlay' => false,
+         'classSection' => 'threeCol subPage_casoUso_educacion_0',
+         'title' => '
+                <small>
+                    Caso de Uso: <span class="orangeColor">Educación</span>
+                    </small> <br class="space">
+                Aumenta las nuevas <br class="space">
+                matrículas <span class="greenBlueColor">
+                    para tu <br class="space">
+                    institución educativa
+                </span>
+        ',
+         'text' => '
+            Con nuestras herramientas de automatización <br class="desktopTabletElement">
+            de marketing, ventas y el CRM más fácil de usar
+
+          ',
+         'threeCol' => true,
+         'textForm' => '
+            Empieza a probar Escala
+         ',
+         'backgroundImage' => null,
+      'overlayImage' => null,
+      'image' => App::setFilePath('/assets/images/person/home_pantalla_CRM_08_chica 6.png'),
+      'img_alt' => 'Escala caso de uso marketing'
+      ) ;
+      @endphp
+
+      @header_t1( $parameters )
+      @endheader_t1
+
+      @php
+      $parameters = [
+          'type' => 'backgroundColor',
+          'classSection' => 'subPage_casoUso_educacion_2',
+          'enableTitle' => true,
+          'titlePrincipal' => '
+El CRM de marketing y ventas <br class="space">
+<span class="greenBlueColor">para el sector de Educación</span>
+',
+          'subTitlePrincipal' => null,
+          'overlay' => false,
+          'enableButton' => false,
+          // 'urlButton' => '#',
+          // 'textButton' => '¡Comenzar ahora!',
+          // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+          // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
+          'elements' => [
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_1_1.png'),
+                  'title' => '
+      Colegios
+      ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_1_2.png'),
+                  'title' => '
+      Academias
+      ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_1_3.png'),
+                  'title' => '
+      Universidades
+      ',
+                  'enableButton' => false,
+              ],
+              [
+                  'img_alt' => null,
+                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_1_4.png'),
+                  'title' => '
+      E-learning
+      ',
+                  'enableButton' => false,
+              ],
+          ],
+      ];
+  @endphp
+
+  @contain_multiple_cards_T2($parameters)
+  @endcontain_multiple_cards_T2
+
+
+  <section class="customSection sectionParent subPage_casoUso_educacion_3">
+
+    <div class="section-row">
+
+        <section class="innerSectionElement sct1">
+
+            <div class="containElements">
+
+                <h2 class="primaryTitle blackColor">
+                    Cómo los usuarios implementan <span class="greenBlueColor">sus estrategias con Escala</span>
+                </h2>
+
+            </div>
+
         </section>
+
+        <section class="innerSectionElement sct2">
+
+            <div class="containElements">
+
+                <div class="videoContent hytPlayerWrap">
+
+                    <video class="video-js" controls preload="none" {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                        data-setup="{
+                    autoplay: false
+                  }"
+                        poster="{!! App::setFilePath('/assets/images/illustrations/others/tour-educacion.png') !!}">
+                        <source src="{!! App::setFilePath('/assets/videos/tour_educación.mp4') !!}" type="video/mp4" />
+                        <source src="{!! App::setFilePath('/assets/videos/tour_educación.mp4') !!}" type="video/webm" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5
+                                video</a>
+                        </p>
+                    </video>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="innerSectionElement sct3">
+
+            <div class="containElements">
+
+                <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                    ¡Prueba Gratis!
+                </a>
+
+            </div>
+        </section>
+
+
+    </div>
+
+</section>
 
 
 
@@ -62,7 +213,7 @@
     ',
                 'subTitlePrincipal' => null,
                 'overlay' => false,
-                'enableButton' => true,
+                'enableButton' => false,
                 'urlButton' => '#',
                 'textButton' => '¡Prueba Gratis!',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
@@ -143,7 +294,7 @@
                ',
                         'text' => '
               Elabora segmentos exclusivos <br class="desktopTabletElement">para empleados
-              de tu institución<br class="desktopTabletElement"> y mantén una 
+              de tu institución<br class="desktopTabletElement"> y mantén una
               comunicación <br class="desktopTabletElement">activa por email marketing
             ',
                         'enableButton' => false,
@@ -154,111 +305,6 @@
 
         @contain_multiple_cards_T2($parameters)
         @endcontain_multiple_cards_T2
-
-        @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_educacion_2',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-    El CRM de marketing y ventas <br class="space">
-    <span class="greenBlueColor">para el sector educativo</span>
-    ',
-                'subTitlePrincipal' => null,
-                'overlay' => false,
-                'enableButton' => false,
-                // 'urlButton' => '#',
-                // 'textButton' => '¡Comenzar ahora!',
-                // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
-                // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
-                'elements' => [
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_1_1.png'),
-                        'title' => '
-            Colegios
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_1_2.png'),
-                        'title' => '
-            Academias
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_1_3.png'),
-                        'title' => '
-            Universidades
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img_alt' => null,
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_1_4.png'),
-                        'title' => '
-            E-learning
-            ',
-                        'enableButton' => false,
-                    ],
-                ],
-            ];
-        @endphp
-
-        @contain_multiple_cards_T2($parameters)
-        @endcontain_multiple_cards_T2
-
-
-        <section class="customSection sectionParent subPage_casoUso_educacion_3">
-
-            <div class="section-row">
-
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h2 class="primaryTitle blackColor">
-                            Cómo los usuarios implementan <span class="greenBlueColor">sus estrategias con Escala</span>
-                        </h2>
-
-                    </div>
-
-                </section>
-
-                <section class="innerSectionElement sct2">
-
-                    <div class="containElements">
-
-                        <div class="videoContent hytPlayerWrap">
-
-                            <video class="video-js" controls preload="none" {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                data-setup="{
-                            autoplay: false
-                          }"
-                                poster="{!! App::setFilePath('/assets/images/illustrations/others/tour-educacion.png') !!}">
-                                <source src="{!! App::setFilePath('/assets/videos/tour_educación.mp4') !!}" type="video/mp4" />
-                                <source src="{!! App::setFilePath('/assets/videos/tour_educación.mp4') !!}" type="video/webm" />
-                                <p class="vjs-no-js">
-                                    To view this video please enable JavaScript, and consider upgrading to a
-                                    web browser that
-                                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5
-                                        video</a>
-                                </p>
-                            </video>
-
-                        </div>
-
-                    </div>
-
-                </section>
-
-            </div>
-
-        </section>
-
 
 
         @php
