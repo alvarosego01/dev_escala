@@ -136,7 +136,7 @@
   @contain_multiple_cards_T2($parameters)
   @endcontain_multiple_cards_T2
 
-{{--
+
         <section class="customSection sectionParent subPage_casoUso_bienes_raices_3">
 
             <div class="section-row">
@@ -163,9 +163,9 @@
                                 data-setup="{
                             autoplay: false
                           }"
-                                poster="{!! App::setFilePath('/assets/images/illustrations/others/video_front_home.png') !!}">
-                                <source src="{!! App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4') !!}" type="video/mp4" />
-                                <source src="{!! App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4') !!}" type="video/webm" />
+                                poster="{!! App::setFilePath('/assets/images/illustrations/others/portrait_bienes_raices_video.jpg') !!}">
+                                <source src="{!! App::setFilePath('/assets/videos/Caso Bienes raíces_2.mp4') !!}" type="video/mp4" />
+                                <source src="{!! App::setFilePath('/assets/videos/Caso Bienes raíces_2.mp4') !!}" type="video/webm" />
                                 <p class="vjs-no-js">
                                     To view this video please enable JavaScript, and consider upgrading to a
                                     web browser that
@@ -193,7 +193,7 @@
 
             </div>
 
-        </section> --}}
+        </section>
 
 
 
