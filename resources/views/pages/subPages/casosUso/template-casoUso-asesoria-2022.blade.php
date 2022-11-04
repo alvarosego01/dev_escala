@@ -83,7 +83,7 @@
           'classSection' => 'subPage_casoUso_asesoria_2',
           'enableTitle' => true,
           'titlePrincipal' => '
-            Otos profesionales que pueden <span class="greenBlueColor">
+            Otros  profesionales que pueden <span class="greenBlueColor">
                 atraer, <br class="desktopTabletElement">
                 convertir y fidelizar clientes con Escala
             </span>
