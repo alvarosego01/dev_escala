@@ -11,14 +11,18 @@
 
     // $prueba = App::wp_get_menu_array($navBar_ID);
 
-    $menu_nav_extended = App::create_bootstrap_menu($navBar_ID, $classSection);
+    // $menu_nav_extended = App::create_bootstrap_menu($navBar_ID, $classSection);
 
     //     $prueba = wp_nav_menu([
     //         'menu' => $navBar_ID
     // ]);
 
 @endphp
-
+{{-- <pre>
+    @php
+        // print_r($prueba);
+    @endphp
+</pre> --}}
 
 <header id="masthead"
     class="customHeader component-header-default-extended navBar_default-extended customSection fullWidth {{ $classSection }}">
@@ -77,6 +81,12 @@
 
                         --}}
 
+                        @php
+                            $menu_nav_extended = App::create_bootstrap_menu($navBar_ID, $classSection, 'buttonsCTA');
+                        @endphp
+
+                    {!! $menu_nav_extended; !!}
+
 
                         <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button">
 
@@ -100,6 +110,10 @@
                             'depth' => 3,
                             'walker' => new \App\wp_bootstrap5_navwalker(),
                         ]) !!} --}}
+
+                        @php
+                            $menu_nav_extended = App::create_bootstrap_menu($navBar_ID, $classSection);
+                        @endphp
 
                         {!! $menu_nav_extended; !!}
 
