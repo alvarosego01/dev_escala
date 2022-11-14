@@ -17,6 +17,7 @@ class App extends Controller
             if ($home = get_option('page_for_posts', true)) {
                 return get_the_title($home);
             }
+
             return __('Latest Posts', 'sage');
         }
         if (is_archive()) {
@@ -28,59 +29,324 @@ class App extends Controller
         if (is_404()) {
             return __('Not Found', 'sage');
         }
+
         return get_the_title();
     }
 
-
-    public static function setTypeUrl(){
-
-        if($_SERVER['SERVER_NAME'] == 'localhost') {
-
+    public static function setTypeUrl()
+    {
+        if ($_SERVER['SERVER_NAME'] == 'localhost') {
             return '/escala';
-
-        }else{
-
+        } else {
             return '';
-
         }
-
     }
 
-    public static function setElementByServer($server, $element){
-
-        if($_SERVER['SERVER_NAME'] == $server) {
-
+    public static function setElementByServer($server, $element)
+    {
+        if ($_SERVER['SERVER_NAME'] == $server) {
             return $element;
-
-        }else{
-
+        } else {
             return '';
+        }
+    }
 
+    public static function setFilePath($file)
+    {
+        return get_stylesheet_directory_uri().$file;
+    }
+
+    public static function get_page_by_template($template = '')
+    {
+        $args = [
+            'post_type' => 'page',
+            'fields' => 'ids',
+            'nopaging' => true,
+            'meta_key' => '_wp_page_template',
+            'meta_value' => $template,
+        ];
+        $pages = get_posts($args);
+
+        return $pages;
+    }
+
+    public static function wp_get_menu_array($current_menu)
+    {
+        $array_menu = wp_get_nav_menu_items($current_menu);
+        $menu = [];
+        foreach ($array_menu as $m) {
+            if (empty($m->menu_item_parent)) {
+                $menu[$m->ID] = [];
+                $menu[$m->ID]['ID'] = $m->ID;
+                $menu[$m->ID]['title'] = $m->title;
+                $menu[$m->ID]['url'] = $m->url;
+                $menu[$m->ID]['children'] = [];
+            }
+        }
+        $submenu = [];
+        foreach ($array_menu as $m) {
+            if ($m->menu_item_parent) {
+                $submenu[$m->ID] = [];
+                $submenu[$m->ID]['ID'] = $m->ID;
+                $submenu[$m->ID]['title'] = $m->title;
+                $submenu[$m->ID]['url'] = $m->url;
+                $menu[$m->menu_item_parent]['children'][$m->ID] = $submenu[$m->ID];
+            }
         }
 
+        return $menu;
     }
 
-    public static function setFilePath($file){
+    public function create_bootstrap_menu($menu_id = null, $classSection = null)
+    {
+        if (isset($menu_id) && $menu_id != null && isset($classSection) && $classSection != null) {
+            // $menu = get_term( $locations[$theme_location], 'nav_menu' );
+            $menu_items = wp_get_nav_menu_items($menu_id);
+            // echo '<pre>';
+            // die;
 
-        return get_stylesheet_directory_uri().$file;
+            $column_1 = null;
+            $column_2 = null;
 
+            $menu_list = '<ul id="menu-'.$classSection.'" class="navbar-nav  mb-2 mb-md-0 ">';
+            $menucount = 1;
+            $bool = true;
+            foreach ($menu_items as $menu_item) {
+                if ($menu_item->menu_item_parent == 0) {
+                    $parent = $menu_item->ID;
+
+                    $menu_array = [];
+                    $menu_array2 = [];
+
+                    $itemsCount = 0;
+                    $two_columns = 0;
+                    $child_elements = [];
+                    $columns = [
+                        'column_1' => [],
+                        'column_2' => [],
+                    ];
+
+                    foreach ($menu_items as $submenu) {
+                        if ($submenu->menu_item_parent == $parent) {
+                            array_push($child_elements, $submenu);
+                        }
+                    }
+
+                    if (count($child_elements) >= 3) {
+                        // echo 'division '.ceil(7 / 2);
+                        $aux_first = ceil(count($child_elements) / 2);
+                        $columns['column_1'] = array_slice($child_elements, 0, $aux_first);
+                        $columns['column_2'] = array_slice($child_elements, $aux_first, count($child_elements));
+                        $two_columns = 1;
+                    }
+
+                    if ($two_columns === 1) {
+                        foreach ($columns['column_1'] as $submenu) {
+                            if ($submenu->menu_item_parent == $parent) {
+                                $bool = true;
+                                $containItem = null;
+
+                                if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1) {
+                                    $containItem = '<a p1 class="dropdown-item" role="menuitem"  href="#" disabled ><span class="specialItem">';
+                                } else {
+                                    $containItem = '<a p1 class="dropdown-item" role="menuitem"  href="'.$submenu->url.'" ><span class="specialItem">';
+                                }
+
+                                if (ACF_CUSTOM::_getField('enable_menu_item_icon', $submenu->ID) == 1) {
+                                    // '.$submenu->title.
+                                    if (ACF_CUSTOM::_getField('menu_item_icon', $submenu->ID) != null) {
+                                        $containItem .= '<span class="icon">';
+                                        $containItem .= ACF_CUSTOM::_getField('menu_item_icon', $submenu->ID);
+                                        $containItem .= '</span>';
+                                    }
+                                }
+
+                                if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1 &&
+                                    ACF_CUSTOM::_getField('coming_soon', $submenu->ID) != null) {
+                                    $a = ACF_CUSTOM::_getField('coming_soon', $submenu->ID);
+                                    $containItem .= '<span class="infoItem"><span><t>'.$submenu->title.'</t><small>'.$a.'</small></span>';
+                                } else {
+                                    $containItem .= '<span class="infoItem"><span><t>'.$submenu->title.'</t></span>';
+                                }
+
+                                if (ACF_CUSTOM::_getField('enable_menu_item_description', $submenu->ID) == 1) {
+                                    // '.$submenu->title.
+                                    if (ACF_CUSTOM::_getField('menu_item_description', $submenu->ID) != null) {
+                                        $containItem .= '<p>';
+                                        $containItem .= ACF_CUSTOM::_getField('menu_item_description', $submenu->ID);
+                                        $containItem .= '</p>';
+                                    }
+                                }
+
+                                $containItem .= '</span></a>';
+
+                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item  menu-item-'.$submenus->ID.' nav-item">'.$containItem.'</li>';
+
+                                // $parents = $submenu->ID;
+
+                                // foreach ($columns['column_1'] as $submenus) {
+                                //     if ($submenus->menu_item_parent == $parents) {
+                                //         $menu_array[] .= '<li itemscope="itemscope" class="menu-item nav-item menu-item-'.$submenus->ID.'"><a p2 class="nav-link" href="'.$submenus->url.'" >'.$submenus->title.'</a></li>';
+                                //     }
+                                // }
+                                // $menu_array[] .= '</ul></li>';
+                            }
+                        }
+                        foreach ($columns['column_2'] as $submenu) {
+                            if ($submenu->menu_item_parent == $parent) {
+                                $bool = true;
+                                $containItem = null;
+
+                                if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1) {
+                                    $containItem = '<a p1 class="dropdown-item" role="menuitem"  href="#" disabled ><span class="specialItem">';
+                                } else {
+                                    $containItem = '<a p1 class="dropdown-item" role="menuitem"  href="'.$submenu->url.'" ><span class="specialItem">';
+                                }
+
+                                if (ACF_CUSTOM::_getField('enable_menu_item_icon', $submenu->ID) == 1) {
+                                    // '.$submenu->title.
+                                    if (ACF_CUSTOM::_getField('menu_item_icon', $submenu->ID) != null) {
+                                        $containItem .= '<span class="icon">';
+                                        $containItem .= ACF_CUSTOM::_getField('menu_item_icon', $submenu->ID);
+                                        $containItem .= '</span>';
+                                    }
+                                }
+
+                                if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1 &&
+                                    ACF_CUSTOM::_getField('coming_soon', $submenu->ID) != null) {
+                                    $a = ACF_CUSTOM::_getField('coming_soon', $submenu->ID);
+                                    $containItem .= '<span class="infoItem"><span><t>'.$submenu->title.'</t><small>'.$a.'</small></span>';
+                                } else {
+                                    $containItem .= '<span class="infoItem"><span><t>'.$submenu->title.'</t></span>';
+                                }
+
+                                if (ACF_CUSTOM::_getField('enable_menu_item_description', $submenu->ID) == 1) {
+                                    // '.$submenu->title.
+                                    if (ACF_CUSTOM::_getField('menu_item_description', $submenu->ID) != null) {
+                                        $containItem .= '<p>';
+                                        $containItem .= ACF_CUSTOM::_getField('menu_item_description', $submenu->ID);
+                                        $containItem .= '</p>';
+                                    }
+                                }
+
+                                $containItem .= '</span></a>';
+
+                                $menu_array2[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item  menu-item-'.$submenus->ID.' nav-item">'.$containItem.'</li>';
+                                // $parents = $submenu->ID;
+
+                                // foreach ($columns['column_2'] as $submenus) {
+                                //     if ($submenus->menu_item_parent == $parents) {
+                                //         $menu_array2[] .= '<li itemscope="itemscope" class="menu-item nav-item menu-item-'.$submenus->ID.'"><a p2 class="nav-link" href="'.$submenus->url.'" >'.$submenus->title.'</a></li>';
+                                //     }
+                                // }
+                                // $menu_array2[] .= '</ul></li>';
+                            }
+                        }
+
+                        if ($bool == true && count($menu_array) > 0 && count($menu_array2) > 0) {
+                            $menu_list .= '<li 2 class="menu-item menu-item-has-children dropdown menu-item-'.$menu_item->ID.'">';
+                            $menu_list .= '<a p3 class="nav-link" href="#" data-href="'.$menu_item->url.'" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-'.$menu_item->ID.'" ><span>'.$menu_item->title.'</span> <i class="fas fa-caret-down"></i></a>';
+
+                            $menu_list .= '<div class="dropdown_two_columns dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-'.$menu_item->ID.'" role="menu" style="display: none;">'."\n";
+                            $menu_list .= '<ul  >'."\n";
+                            $menu_list .= implode($menu_array);
+                            $menu_list .= '</ul>';
+                            $menu_list .= '<ul  >'."\n";
+                            $menu_list .= implode($menu_array2);
+                            $menu_list .= '</ul>';
+                            $menu_list .= '</div>';
+                        // $menu_list .= '<ul class="dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-'.$menu_item->ID.'" role="menu" style="display: none;">'."\n";
+                            // $menu_list .= implode($menu_array);
+                            // $menu_list .= '</ul>';
+                        } else {
+                            // echo "<pre>"; print_r($menu_item);
+                            $menu_list .= '<li itemscope="itemscope" class="menu-item nav-item menu-item-'.$menu_item->ID.'">';
+                            $menu_list .= '<a p4 class="nav-link scrollto active" href="'.$menu_item->url.'">'.$menu_item->title.'</a>';
+                        }
+                    }
+                    if ($two_columns != 1) {
+                        foreach ($menu_items as $submenu) {
+                            if ($submenu->menu_item_parent == $parent) {
+                                $bool = true;
+
+                                $containItem = null;
+
+                                if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1) {
+                                    $containItem = '<a p1 class="dropdown-item" role="menuitem"  href="#" disabled ><span class="specialItem">';
+                                } else {
+                                    $containItem = '<a p1 class="dropdown-item" role="menuitem"  href="'.$submenu->url.'" ><span class="specialItem">';
+                                }
+                                if (ACF_CUSTOM::_getField('enable_menu_item_icon', $submenu->ID) == 1) {
+                                    // '.$submenu->title.
+                                    if (ACF_CUSTOM::_getField('menu_item_icon', $submenu->ID) != null) {
+                                        $containItem .= '<span class="icon">';
+                                        $containItem .= ACF_CUSTOM::_getField('menu_item_icon', $submenu->ID);
+                                        $containItem .= '</span>';
+                                    }
+                                }
+
+                                if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1 &&
+                                    ACF_CUSTOM::_getField('coming_soon', $submenu->ID) != null) {
+                                    $a = ACF_CUSTOM::_getField('coming_soon', $submenu->ID);
+                                    $containItem .= '<span class="infoItem"><span><t>'.$submenu->title.'</t><small>'.$a.'</small></span>';
+                                } else {
+                                    $containItem .= '<span class="infoItem"><span><t>'.$submenu->title.'</t></span>';
+                                }
+
+                                if (ACF_CUSTOM::_getField('enable_menu_item_description', $submenu->ID) == 1) {
+                                    // '.$submenu->title.
+                                    if (ACF_CUSTOM::_getField('menu_item_description', $submenu->ID) != null) {
+                                        $containItem .= '<p>';
+                                        $containItem .= ACF_CUSTOM::_getField('menu_item_description', $submenu->ID);
+                                        $containItem .= '</p>';
+                                    }
+                                }
+
+                                $containItem .= '</span></a>';
+
+                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement"
+                            class="menu-item  menu-item-'.$submenus->ID.' nav-item">'.$containItem.'</li><ul>';
+                                $parents = $submenu->ID;
+
+                                foreach ($menu_items as $submenus) {
+                                    if ($submenus->menu_item_parent == $parents) {
+                                        $menu_array[] .= '<li itemscope="itemscope" class="menu-item nav-item menu-item-'.$submenus->ID.'"><a p2 class="nav-link" href="'.$submenus->url.'" >'.$submenus->title.'</a></li>';
+                                    }
+                                }
+                                $menu_array[] .= '</ul></li>';
+                            }
+                        }
+
+                        if ($bool == true && count($menu_array) > 0) {
+                            $menu_list .= '<li 2 class="menu-item menu-item-has-children dropdown menu-item-'.$menu_item->ID.'">';
+                            $menu_list .= '<a p3 class="nav-link" href="#" data-href="'.$menu_item->url.'" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-'.$menu_item->ID.'" ><span>'.$menu_item->title.'</span> <i class="fas fa-caret-down"></i></a>';
+
+                            // $menu_list .= '<ul class="dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-'.$menu_item->ID.'" role="menu" style="display: none;">'."\n";
+                            // $menu_list .= implode($menu_array);
+                            // $menu_list .= '</ul>';
+
+                            $menu_list .= '<div class="no_two_columns dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-'.$menu_item->ID.'" role="menu" style="display: none;">'."\n";
+                            $menu_list .= '<ul  >'."\n";
+                            $menu_list .= implode($menu_array);
+                            $menu_list .= '</ul>';
+                            $menu_list .= '</div>';
+                        } else {
+                            // echo "<pre>"; print_r($menu_item);
+                            $menu_list .= '<li itemscope="itemscope" class="menu-item nav-item menu-item-'.$menu_item->ID.'">';
+                            $menu_list .= '<a p4 class="nav-link scrollto active" href="'.$menu_item->url.'">'.$menu_item->title.'</a>';
+                        }
+                    }
+                }
+
+                // end <li>
+                $menu_list .= '</li>';
+
+                ++$menucount;
+            }
+        } else {
+            $menu_list = '<!-- no menu defined in location "'.$theme_location.'" -->';
+        }
+
+        return $menu_list;
     }
-
-
-
-    public static function get_page_by_template($template = '') {
-
-        $args = [
-            'post_type'  => 'page',
-            'fields'     => 'ids',
-            'nopaging'   => true,
-            'meta_key'   => '_wp_page_template',
-            'meta_value' => $template
-        ];
-        $pages = get_posts( $args );
-        return $pages;
-
-    }
-
-
 }
