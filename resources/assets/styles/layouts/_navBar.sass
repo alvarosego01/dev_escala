@@ -91,7 +91,7 @@ header.customHeader.customSection
                 max-width: 1140px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1400px!important
+                max-width: 1240px!important
             display: flex
             flex-direction: column
             margin: 0 auto
@@ -307,15 +307,18 @@ header.customHeader.customSection
                     @include responsivo(general)
                         width: 800px
                         padding: 25px
-                        left: -300px
+                        left: -275px
                         ul
                             width: 50%
                             display: block
                             float: left
+                    @include responsivo(smallPcTablet)
+                        width: 600px!important
+                        left: -250px
                     @include responsivo(resto)
                         width: 800px
                         padding: 25px
-                        left: -300px
+                        left: -275px
                         ul
                             width: 50%
                             display: block
