@@ -79,3 +79,9 @@ $typeFooter = ACF_CUSTOM::_getField('pie_pagina_settings', $idFooter);
 
     @endphp
 @endif
+
+
+
+</body>
+
+</html>

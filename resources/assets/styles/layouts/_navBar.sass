@@ -42,11 +42,13 @@ button.toggleSideMenu
 
 .buttonsCTA
     @include responsivo(telefonoTable)
-        display: flex
-        flex-direction: row
+        display: flex!important
+        flex-direction: row!important
+
     @include responsivo(pcMedio)
-        display: flex
-        flex-direction: row
+        display: flex!important
+        flex-direction: row!important
+
     li:not(.menuButton)
         display: none!important
 
@@ -132,7 +134,8 @@ header.customHeader.customSection
                             @include responsivo(resto)
                                 font-size: 16px
 
-                        ul.dropdown-menu.show
+                        ul.dropdown-menu.show,
+                        div.dropdown-menu.show
                             min-width: auto
                             // width:
 
@@ -260,7 +263,8 @@ header.customHeader.customSection
 
             li.menu-item.menu-item-has-children
                 position: relative
-                ul.dropdown-menu
+                ul.dropdown-menu,
+                div.dropdown-menu
                     margin: 0 auto
                     padding: 0
                     border-radius: 5px
@@ -291,17 +295,216 @@ header.customHeader.customSection
                 //     ul.dropdown-menu
                 //         opacity: 1
                 //         visibility: visible
+                // div.dropdown-menu.dropdown_two_columns.dropdown-menu
+                // display: none!important
+
+
+                div.dropdown-menu.dropdown-menu
+                    // display: flex!important
+                    // flex-direction: row!important
+                    // left: -375px
+                    // display: block!important
+                    @include responsivo(general)
+                        width: 800px
+                        padding: 25px
+                        left: -300px
+                        ul
+                            width: 50%
+                            display: block
+                            float: left
+                    @include responsivo(resto)
+                        width: 800px
+                        padding: 25px
+                        left: -300px
+                        ul
+                            width: 50%
+                            display: block
+                            float: left
+
+                    ul
+                        display: block
+                        padding: 0
+                        position: relative
+                        &:first-child
+                            @include responsivo(general)
+                                padding-right: 0
+                            @include responsivo(resto)
+                                padding-right: 0
+                        &:last-child
+                            @include responsivo(general)
+                                padding-left: 25px
+                            @include responsivo(resto)
+                                padding-left: 25px
+                        @include responsivo(general)
+                            &:first-child
+                                &::after
+                                    border-right: 1px solid #D6F4F6
+                                    content: ''
+                                    display: block
+                                    margin: auto
+                                    margin-right: 0
+                                    height: 90%
+                                    width: 1px
+                                    position: absolute
+                                    top: 0
+                                    right: 0
+                                    bottom: 0
+                        @include responsivo(resto)
+                            &:first-child
+                                &::after
+                                    border-right: 1px solid #D6F4F6
+                                    content: ''
+                                    display: block
+                                    margin: auto
+                                    margin-right: 0
+                                    height: 90%
+                                    width: 1px
+                                    position: absolute
+                                    top: 0
+                                    right: 0
+                                    bottom: 0
+                        li.menu-item.nav-item
+                            border-bottom: 0!important
+                            a.dropdown-item
+                                width: 100%
+                                display: block
+                                background-color: transparent!important
+                                box-sizing: border-box
+                                span.specialItem
+                                    width: 100%
+                                    display: flex
+                                    flex-direction: row
+                                    span.icon
+                                        width: 60px
+                                        @include responsivo(general)
+                                            margin-right: 10px
+                                        @include responsivo(resto)
+                                            margin-right: 10px
+                                        img
+                                            @include responsivo(general)
+                                                height: 35px
+                                                width: 45px
+                                            @include responsivo(resto)
+                                                height: 35px
+                                                width: 45px
+                                    span
+                                        width: 100%
+                                        display: block
+                                        box-sizing: border-box
+                                        word-break: break-all
+
+                                    span.infoItem
+                                        span
+                                            display: flex
+                                            flex-flow: wrap
+                                            justify-self: center
+                                            width: 100%
+                                            margin-bottom: 10px
+                                            t
+                                                transition: $trans
+                                                font-family: Nunito
+                                                font-style: normal
+                                                font-weight: 600
+                                                line-height: 1
+                                                color: #36768A
+                                                @include responsivo(general)
+                                                    font-size: 18px
+                                                    margin-right: 5px
+                                                @include responsivo(resto)
+                                                    font-size: 18px
+                                                    margin-right: 5px
+                                        p
+                                            font-family: Nunito
+                                            font-style: normal
+                                            font-weight: 300
+                                            line-height: 1
+                                            letter-spacing: -0.04em
+                                            display: block
+                                            color: #797979!important
+                                            @include responsivo(general)
+                                                font-size: 14px
+                                            @include responsivo(resto)
+                                                font-size: 14px
+
+                            a.dropdown-item[disabled]
+                                span.specialItem
+                                    span.infoItem
+                                        span
+                                            t
+                                                color: #797979!important
+                                            small
+                                                color: #36768A!important
+                                                // margin-left: 5px
+                                                font-weight: 500
+                                                letter-spacing: -0.03em
+                                                display: flex
+                                                align-self: flex-end
+                                                justify-self: flex-end
+                                                margin-top: 2.5px
+                                                @include responsivo(general)
+                                                    font-size: 12px
+                                                @include responsivo(resto)
+                                                    font-size: 12px
+
+
+                        li.menu-item.nav-item
+                            &:hover
+                                a.dropdown-item
+                                    span.specialItem
+                                        span.infoItem
+                                            span
+                                                t
+                                                    color: #FF4D27
+                                            p
+                                                color: #797979
+
+                div.no_two_columns.dropdown-menu
+                    @include responsivo(general)
+                        width: fit-content!important
+                    @include responsivo(resto)
+                        width: fit-content!important
+                    ul
+                        width: 100%!important
+                        padding: 0!important
+                        &::after
+                            display: none!important
+
+                        li.menu-item.nav-item
+                            @include responsivo(general)
+                                padding-bottom: 10px
+                                margin-bottom: 10px
+                                border-bottom: 1px solid #D6F4F6!important
+                            @include responsivo(resto)
+                                padding-bottom: 10px
+                                margin-bottom: 10px
+                                border-bottom: 1px solid #D6F4F6!important
+
+
 
         .container-fluid.sct1
             div.menusSection
                 height: 100%
             li.menu-item.menu-item-has-children
-                ul.dropdown-menu
+                ul.dropdown-menu,
+                div.dropdown-menu
                     top: 32.5px
+            li.menu-item.menu-item-has-children
+                a.nav-link
+                    i
+                        margin-left: 5px
+                        margin-right: 0
+                        font-size: 12px
         .container-fluid.sct2
             li.menu-item.menu-item-has-children
-                ul.dropdown-menu
+                ul.dropdown-menu,
+                div.dropdown-menu
                     top: 47.5px
+            li.menu-item.menu-item-has-children
+                a.nav-link
+                    i
+                        margin-left: 5px
+                        margin-right: 0
+                        font-size: 12px
 
 
 
@@ -449,7 +652,8 @@ body
                             margin-top: auto
                             margin-bottom: auto
                 li.menu-item.menu-item-has-children
-                    ul.dropdown-menu.show
+                    ul.dropdown-menu.show,
+                    div.dropdown-menu.show
                         border: none
                         margin-left: 15px!important
 
