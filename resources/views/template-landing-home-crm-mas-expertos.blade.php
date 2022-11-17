@@ -99,7 +99,7 @@ expertos de marketing, ventas y fidelización para ayudar a las <br class="deskt
 empresas de habla hispana a alcanzar el éxito.
 
 <div class="ottoSpecialButton">
-  <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una prueba gratis de Escala CRM>
+  <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una prueba gratis de Escala CRM">
 
   <a href="#" class=" openPopUpButton popup-general-trial-2022">
     Solicita tu Prueba Gratis
