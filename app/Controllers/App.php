@@ -243,8 +243,27 @@ class App extends Controller
                         }
 
                         if ($bool == true && count($menu_array) > 0 && count($menu_array2) > 0) {
+                            $href = null;
+                            $data_href = null;
+                            $openAtt = 'openLink';
+
+                            if (ACF_CUSTOM::_getField('enable_extra_link', $menu_item->ID) == 1) {
+                                if (ACF_CUSTOM::_getField('extra_link', $menu_item->ID) != null) {
+                                    $href = ACF_CUSTOM::_getField('extra_link', $menu_item->ID);
+                                    $data_href = ACF_CUSTOM::_getField('extra_link', $menu_item->ID);
+                                } else {
+                                    $href = '#';
+                                    $data_href = $menu_item->url;
+                                    $openAtt = null;
+                                }
+                            } else {
+                                $href = '#';
+                                $data_href = $menu_item->url;
+                                $openAtt = null;
+                            }
+
                             $menu_list .= '<li 2 class="menu-item menu-item-has-children dropdown menu-item-'.$menu_item->ID.'">';
-                            $menu_list .= '<a p3 class="nav-link" href="#" data-href="'.$menu_item->url.'" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-'.$menu_item->ID.'" ><span>'.$menu_item->title.'</span> <i class="fas fa-caret-down"></i></a>';
+                            $menu_list .= '<a p3 class="nav-link" href="'.$href.'" data-href="'.$data_href.'" '.$openAtt.' data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-'.$menu_item->ID.'" ><span>'.$menu_item->title.'</span> <i class="fas fa-caret-down"></i></a>';
 
                             $menu_list .= '<div class="dropdown_two_columns dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-'.$menu_item->ID.'" role="menu" style="display: none;">'."\n";
                             $menu_list .= '<ul  >'."\n";
@@ -323,8 +342,27 @@ class App extends Controller
                         }
 
                         if ($bool == true && count($menu_array) > 0) {
+                            $href = null;
+                            $data_href = null;
+                            $openAtt = 'openLink';
+
+                            if (ACF_CUSTOM::_getField('enable_extra_link', $menu_item->ID) == 1) {
+                                if (ACF_CUSTOM::_getField('extra_link', $menu_item->ID) != null) {
+                                    $href = ACF_CUSTOM::_getField('extra_link', $menu_item->ID);
+                                    $data_href = ACF_CUSTOM::_getField('extra_link', $menu_item->ID);
+                                } else {
+                                    $href = '#';
+                                    $data_href = $menu_item->url;
+                                    $openAtt = null;
+                                }
+                            } else {
+                                $href = '#';
+                                $data_href = $menu_item->url;
+                                $openAtt = null;
+                            }
+
                             $menu_list .= '<li 2 class="menu-item menu-item-has-children dropdown menu-item-'.$menu_item->ID.'">';
-                            $menu_list .= '<a p3 class="nav-link" href="#" data-href="'.$menu_item->url.'" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-'.$menu_item->ID.'" ><span>'.$menu_item->title.'</span> <i class="fas fa-caret-down"></i></a>';
+                            $menu_list .= '<a p3 class="nav-link" href="'.$href.'" data-href="'.$data_href.'" '.$openAtt.' data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-'.$menu_item->ID.'" ><span>'.$menu_item->title.'</span> <i class="fas fa-caret-down"></i></a>';
 
                             // $menu_list .= '<ul class="dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-'.$menu_item->ID.'" role="menu" style="display: none;">'."\n";
                             // $menu_list .= implode($menu_array);

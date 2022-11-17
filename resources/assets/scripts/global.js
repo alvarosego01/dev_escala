@@ -468,6 +468,27 @@ function _preventResetForms(){
 
 }
 
+
+function _openLinks(){
+
+    jQuery('a[openLink]').click(function (e) {
+        e.preventDefault();
+
+        // console.log('force openLink', e.attr('href') );
+        // console.log('force openLink', e );
+        // console.log('force openLink', e.currentTarget.href );
+
+        let aux = e.currentTarget.href || null;
+
+        if( aux != null ){
+            window.location.href = aux;
+        }
+
+    });
+
+}
+
+
 _preventResetForms();
 
 
@@ -477,6 +498,8 @@ jQuery(document).ready(function () {
     setInnerElement();
 
     scrollToHash();
+
+    _openLinks();
 
     window.onload = function () {
         setResize();
