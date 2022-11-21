@@ -453,6 +453,7 @@ class ACF_CUSTOM extends Controller
                     'type' => 'select',
                     'choices' => [
                         'headerband_promo_t1' => 'Adquiere un Plan PRO y llévate hasta 2 meses TOTALMENTE GRATIS. Haz clic aquí y habla con un asesor',
+                        'headerband_blackFriday_promo_t2' => 'Black Friday & Cyber Monday - 40% OFF + beneficios especiales - CUPOS LIMITADOS',
                     ],
                     'conditional_logic' => [
                         [
