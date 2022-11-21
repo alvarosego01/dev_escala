@@ -29,6 +29,12 @@
             @endheaderBand_promo_T1
 
         @endif
+        @if ($l2 != null && $l2 == 'headerband_blackFriday_promo_t2')
+
+            @headerband_blackFriday_promo_t2($parameters)
+            @endheaderband_blackFriday_promo_t2
+
+        @endif
 
 
     @endif
