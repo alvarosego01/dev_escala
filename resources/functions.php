@@ -319,6 +319,13 @@ wp_insert_term(
         'parent'=> $parent_term_id ));
 
 wp_insert_term(
+        'BlackFriday popup 2022', // the term
+        'popup-category-tax', // the taxonomy
+        array(
+        'slug' => 'blackFriday_popup_2022',
+        'parent'=> $parent_term_id ));
+
+wp_insert_term(
         'Nota special message', // the term
         'popup-category-tax', // the taxonomy
         array(
