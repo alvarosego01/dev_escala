@@ -8,7 +8,14 @@
         # code...
         $idPostParent = url_to_postid('blog');
         $navBar = ACF_CUSTOM::_getField('nav_settings', $idPostParent);
+    } elseif ( is_singular() != null && is_singular() == 1 && get_post_type() == 'caso-de-exito' ) {
+      # code...
+      $idPostParent = url_to_postid('casos-de-exito');
+      $navBar = ACF_CUSTOM::_getField('nav_settings', $idPostParent );
+
     }
+
+
 
 @endphp
 

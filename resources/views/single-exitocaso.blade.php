@@ -16,7 +16,7 @@
 
             <section
             style="background-image: url('{!! App::setFilePath('/assets/images/backgrounds/degradesingleexito.png') !!}')"
-            class="customSection sectionParent casoUsoSingle0">
+            class="customSection sectionParent casoExitoSingle0">
 
 
                 <div class="section-row">
@@ -110,7 +110,7 @@
 
             </section>
 
-            <section class="customSection sectionParent casoUsoSingle1">
+            <section class="customSection sectionParent casoExitoSingle1">
 
 
                 <div class="section-row">
@@ -197,7 +197,7 @@
                             @endif
 
 
-                            <a class="primaryButton hoverInEffect" href="#lead-form-bottom">
+                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022" href="#lead-form-bottom">
                                 Pruébalo ahora
                             </a>
 
@@ -225,7 +225,7 @@
 
             <section
             style="background-image: url('{!! App::setFilePath('/assets/images/backgrounds/Mask-Group.png') !!}')"
-            class="customSection sectionParent casoUsoSingle2">
+            class="customSection sectionParent casoExitoSingle2">
 
 
             <div class="section-row">
@@ -259,7 +259,7 @@
 
                 $parameters = [
                     'posts' => $query,
-                    'classSection' => 'casoUsoSingle3',
+                    'classSection' => 'casoExitoSingle3',
                     'enableTitle' => true,
                     'titlePrincipal' => 'Estos clientes cuentan con Escala <span class="orangeColor">para hacer crecer sus negocios</span>',
                 ];
@@ -273,7 +273,7 @@
 
             @php
                 $parameters = [
-                    'classSection' => 'casoUsoSingle4',
+                    'classSection' => 'casoExitoSingle4',
                     'title' => '<span class="greenBlueColor">¡Los emprendedores</span> <br class="space"> hispanoamericanos nos prefieren!',
                     'textForm' => '¡Conoce cómo los ayudamos <br class="space"> a hacer crecer sus negocios!',
                     'text' => null,
