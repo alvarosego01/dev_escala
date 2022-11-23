@@ -194,7 +194,7 @@ popup_direction
                                                 Cupos limitados
                                             </span>
                                             <p>
-                                                Condiciones aplican - válido hasta el 30 Nov*
+                                                <a href="http://escala.com/blackfriday">Terminos & condiciones</a> - válido hasta el 30 Nov*
                                             </p>
                                         @endif
 
