@@ -76,10 +76,11 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_style('_blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
             wp_enqueue_script('_blog.js', asset_path('scripts/pages/_blog.js'), ['jquery'], THEME_VERSION, true);
         }
-        $t = SetComponents::setTemplates('casoUso');
+        $t = SetComponents::setTemplates('casoExito');
         if (is_page_template($t)) {
-            wp_enqueue_style('casoUsoMain.css', asset_path('styles/pages/casoUso/casoUsoMain.css'), false, THEME_VERSION);
+            wp_enqueue_style('casoExitoMain.css', asset_path('styles/pages/casoExito/casoExitoMain.css'), false, THEME_VERSION);
         }
+
         $t = SetComponents::setTemplates('zoom');
         if (is_page_template($t)) {
             wp_enqueue_style('zoom.css', asset_path('styles/pages/zoom/zoomMain.css'), false, THEME_VERSION);
@@ -140,6 +141,10 @@ add_action('wp_enqueue_scripts', function () {
         // ---Landing escala competitors no brands
         if (is_page_template('views/template-landing-escala-competitors-noBrands-2022.blade.php')) {
             wp_enqueue_style('landing_escala_competitors_brands.css', asset_path('styles/pages/landingPages/landing_escala_competitors_brands.css'), false, THEME_VERSION);
+        }
+        // ---Landing escala black friday
+        if (is_page_template('views/template-landing-escala-blackFriday-2022.blade.php')) {
+            wp_enqueue_style('landing_blackFriday_2022.css', asset_path('styles/pages/landingPages/landing_blackFriday_2022.css'), false, THEME_VERSION);
         }
         // -------------------------------------- //
         //  FUNCTIONALITIES 2022

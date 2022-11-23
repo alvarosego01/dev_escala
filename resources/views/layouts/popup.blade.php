@@ -1,5 +1,7 @@
 {{-- enable_popup --}}
 
+
+
 @php
 
     $idPagePopups = null;
@@ -8,6 +10,12 @@
     } elseif (is_singular() != null && is_singular() == 1 && get_post_type() == 'post') {
         # code...
         $idPagePopups = url_to_postid('blog');
+    } elseif ( is_singular() != null && is_singular() == 1 && get_post_type() == 'caso-de-exito' ) {
+      # code...
+      $idPostParent = url_to_postid('casos-de-exito');
+      $idPagePopups = $idPostParent;
+    //   $typeNav = ACF_CUSTOM::_getField('nav_settings', $idPostParent );
+
     } else {
         $idPagePopups = get_the_ID();
     }

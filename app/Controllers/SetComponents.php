@@ -86,8 +86,8 @@ class SetComponents extends Controller
     private function setExitoCasoComponents()
     {
         return [
-            'components.casoUso.component-casoUso-articles-T1' => 'articlesExitoCaso_T1',
-            'components.casoUso.component-casoUso-testimonial-T1' => 'testimonialExitoCaso_T1',
+            'components.casoExito.component-casoExito-articles-T1' => 'articlesExitoCaso_T1',
+            'components.casoExito.component-casoExito-testimonial-T1' => 'testimonialExitoCaso_T1',
         ];
     }
 
@@ -279,7 +279,7 @@ class SetComponents extends Controller
             ];
         }
 
-        if ($type == 'casoUso') {
+        if ($type == 'casoExito') {
             return [
             'views/template-caso-exito-home.blade.php',
             'views/single-exitocaso.blade.php',
@@ -295,6 +295,7 @@ class SetComponents extends Controller
                 'views/template-casoUso-agencia-marketing-2022.blade.php',
                 'views/template-casoUso-bienes-raices-2022.blade.php',
                 'views/template-landing-escala-landings-2022.blade.php',
+                'views/template-landing-escala-blackFriday-2022.blade.php',
                 'views/template-landing-escala-func-email-mkt-2022.blade.php',
                 'views/template-landing-escala-landings-sin-expertos-2022.blade.php',
                 'views/template-landing-escala-crm-2022.blade.php',
