@@ -97,10 +97,6 @@ El CRM de marketing y ventas <br class="space">
           'subTitlePrincipal' => null,
           'overlay' => false,
           'enableButton' => false,
-          // 'urlButton' => '#',
-          // 'textButton' => '¡Comenzar ahora!',
-          // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
-          // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
           'elements' => [
               [
                   'img_alt' => null,
