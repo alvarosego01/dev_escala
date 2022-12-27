@@ -33,6 +33,20 @@
   @header_t1( $parameters )
   @endheader_t1
 
+  <script type="text/javascript">
+
+    // jQuery(document).ready(function () {
+
+      if(jQuery('.subpage_whatsapp_0 .wpcf7 input.wpcf7-form-control.wpcf7-submit').length > 0){
+
+        jQuery('.subpage_whatsapp_0 .wpcf7 input.wpcf7-form-control.wpcf7-submit').attr('value', 'Recibir tour ahora');
+
+      }
+
+    // });
+
+
+  </script>
 
   <section class="customSection sectionParent subpage_whatsapp_1_1">
 
@@ -259,11 +273,11 @@
 
           <div class="containElements">
 
-            <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+            <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
               Recibe un tour guiado
             </a>
 
-            <a href="#" class="secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+            <a href="#" class="secondaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
               Prueba Escala ahora
             </a>
 
@@ -467,7 +481,7 @@ $parameters = [
         <span class="greenBlueColor">por qué prefieren Escala</span>
         ',
         'subTitlePrincipal' => null,
-        'enableContainerButton' => true,
+        'enableContainerButton' => false,
         'urlButton' => '#',
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
         'textButton' => 'Prueba Gratis',
