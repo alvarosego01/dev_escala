@@ -250,8 +250,8 @@ function convertUsers(data) {
 
     if (data._userAccess[typeProcess] >= 2) {
 
-      let starter = (data._userAccess[typeProcess] - 1) * 15;
-      let pro = (data._userAccess[typeProcess] - 1) * 15;
+      let starter = (data._userAccess[typeProcess] - 1) * 25;
+      let pro = (data._userAccess[typeProcess] - 1) * 25;
 
       return {
         starter: starter,
@@ -272,8 +272,8 @@ function convertUsers(data) {
 
     if (data._userAccess[typeProcess] >= 2) {
 
-      let starter = (data._userAccess[typeProcess] - 1) * 15;
-      let pro = ((data._userAccess[typeProcess] - 1) * 15);
+      let starter = (data._userAccess[typeProcess] - 1) * 25;
+      let pro = ((data._userAccess[typeProcess] - 1) * 25);
 
 
       return {
