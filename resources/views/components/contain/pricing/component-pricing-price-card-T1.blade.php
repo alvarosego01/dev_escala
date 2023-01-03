@@ -246,7 +246,7 @@ $items = [
 
             </span>
             <span class="ahorro discount anualElement aux_visible">
-              Pago total de <span>USD 1.584</span> <strong>- USD 1.267.20 / año</strong>
+              Pago total de <span>USD 1.584</span> <strong>- USD 1.267,20 / año</strong>
             </span>
 
         </span>
