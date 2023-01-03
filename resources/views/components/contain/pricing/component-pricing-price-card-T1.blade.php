@@ -33,7 +33,7 @@
 
 @php
     $pb_starter = 30;
-    $pb_pro = 135;
+    $pb_pro = 132;
     $c_desc = 0.30;
 
     $pd_starter = $pb_starter - ( $pb_starter * $c_desc );
@@ -223,7 +223,7 @@ $items = [
 
         <span class="discountExtra anualElement aux_visible">
             <span class="discounter">
-                USD 135 / mensual
+                USD 132 / mensual
             </span>
         </span>
 
@@ -231,12 +231,12 @@ $items = [
             <span
             style="display: none"
             class="numerCost">
-            USD 135 <small>/ mes</small>
+            USD 132 <small>/ mes</small>
             </span>
             <span
             class="discountCost" style="display: flex">
             <span>
-                USD 94.50 <small>/ mes</small>
+                USD 105.60 <small>/ mes</small>
                 </span>
 
 
@@ -246,7 +246,7 @@ $items = [
 
             </span>
             <span class="ahorro discount anualElement aux_visible">
-              Pago total de <span>USD 1.620</span> <strong>- USD 1.134 / año</strong>
+              Pago total de <span>USD 1.584</span> <strong>- USD 1.267.20 / año</strong>
             </span>
 
         </span>
@@ -256,14 +256,14 @@ $items = [
 
         <span class="discountExtra monthElement aux_hidden">
             <span class="discounter">
-                USD 135 / mensual
+                USD 132 / mensual
             </span>
         </span>
 
 
         <span class="discountExtra anualElement aux_visible">
             <span class="discounter">
-                USD 135 / mensual
+                USD 132 / mensual
             </span>
         </span>
 
@@ -271,16 +271,16 @@ $items = [
 
             <span
             style="display: none"
-            class="numerCost">USD 135 <small>/ mes</small></span>
+            class="numerCost">USD 132 <small>/ mes</small></span>
             <span
             class="discountCost" style="display: flex">
             <span>
-                USD 94.50 <small>/ mes</small>
+                USD 105.60 <small>/ mes</small>
                 </span>
 
             </span>
             <span class="ahorro discount anualElement aux_visible">
-              Pago total de <span>USD 1.620</span> <strong>- USD 1.134 / año</strong>
+              Pago total de <span>USD 1.584</span> <strong>- USD 1.267.20 / año</strong>
             </span>
 
         </span>
@@ -341,7 +341,7 @@ $items = [
                 'title' => 'CRM',
                 'items' => [
                     'Contactos en base de datos: <strong>1.000.000</strong>',
-                    'Contactos de marketing: <strong>2.000</strong>',
+                    'Contactos de marketing: <strong>5.000</strong>',
                     'Usuarios de venta: <strong>1</strong>',
                     'Emails de CRM: <strong>ilimitados</strong>',
                     'Múltiples embudos de ventas: <strong>10</strong>',
