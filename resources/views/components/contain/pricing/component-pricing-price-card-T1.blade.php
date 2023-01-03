@@ -24,7 +24,7 @@
     <input type="radio" class="planSelect check_opc2" name="planSelect" id="planSelect2" hidden/>
     <label for="planSelect2">
         Pago anual. <br class="space">
-        <span class="greenBlueColor">Ahorras 30%</span>
+        <span class="greenBlueColor">Ahorras 20%</span>
     </label>
 </div> --}}
 
@@ -33,7 +33,7 @@
 
 @php
     $pb_starter = 30;
-    $pb_pro = 135;
+    $pb_pro = 97;
     $c_desc = 0.30;
 
     $pd_starter = $pb_starter - ( $pb_starter * $c_desc );
@@ -75,7 +75,7 @@ $items = [
             <span
             class="discountCost" style="display: flex">
             <span>
-                USD 21 <small>/ mes</small>
+                USD 24 <small>/ mes</small>
             </span>
 
             </span>
@@ -86,7 +86,7 @@ $items = [
 
             </span>
             <span class="ahorro discount anualElement aux_visible">
-                Pago total de <span>USD 360</span> <strong>- USD 252 / año</strong>
+                Pago total de <span>USD 360</span> <strong>- USD 288 / año</strong>
             </span>
         </span>',
         'pricePreviewMobie' => 'A partir de <br class="space">
@@ -109,12 +109,12 @@ $items = [
             <span
 
             class="discountCost" style="display: flex">
-            <span>USD 21 <small>/ mes</small></span>
+            <span>USD 24 <small>/ mes</small></span>
 
             </span>
 
             <span class="ahorro discount anualElement aux_visible">
-                Pago total de <span>USD 360</span> <strong>- USD 252 / año</strong>
+                Pago total de <span>USD 360</span> <strong>- USD 288 / año</strong>
             </span>
 
         </span>
@@ -223,7 +223,7 @@ $items = [
 
         <span class="discountExtra anualElement aux_visible">
             <span class="discounter">
-                USD 135 / mensual
+                USD 97 / mensual
             </span>
         </span>
 
@@ -231,12 +231,12 @@ $items = [
             <span
             style="display: none"
             class="numerCost">
-            USD 135 <small>/ mes</small>
+            USD 97 <small>/ mes</small>
             </span>
             <span
             class="discountCost" style="display: flex">
             <span>
-                USD 94.50 <small>/ mes</small>
+                USD 77.60 <small>/ mes</small>
                 </span>
 
 
@@ -246,7 +246,7 @@ $items = [
 
             </span>
             <span class="ahorro discount anualElement aux_visible">
-              Pago total de <span>USD 1.620</span> <strong>- USD 1.134 / año</strong>
+              Pago total de <span>USD 1.164</span> <strong>- USD 931.20 / año</strong>
             </span>
 
         </span>
@@ -256,14 +256,14 @@ $items = [
 
         <span class="discountExtra monthElement aux_hidden">
             <span class="discounter">
-                USD 135 / mensual
+                USD 97 / mensual
             </span>
         </span>
 
 
         <span class="discountExtra anualElement aux_visible">
             <span class="discounter">
-                USD 135 / mensual
+                USD 97 / mensual
             </span>
         </span>
 
@@ -271,16 +271,16 @@ $items = [
 
             <span
             style="display: none"
-            class="numerCost">USD 135 <small>/ mes</small></span>
+            class="numerCost">USD 97 <small>/ mes</small></span>
             <span
             class="discountCost" style="display: flex">
             <span>
-                USD 94.50 <small>/ mes</small>
+                USD 77.60 <small>/ mes</small>
                 </span>
 
             </span>
             <span class="ahorro discount anualElement aux_visible">
-              Pago total de <span>USD 1.620</span> <strong>- USD 1.134 / año</strong>
+              Pago total de <span>USD 1.164</span> <strong>- USD 931.20 / año</strong>
             </span>
 
         </span>
@@ -321,7 +321,7 @@ $items = [
             [
                 'title' => 'Email Marketing',
                 'items' => [
-                    'Emails marketing al mes: <strong>50.000</strong>',
+                    'Emails marketing al mes: <strong>10.000</strong>',
                     'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
@@ -341,7 +341,7 @@ $items = [
                 'title' => 'CRM',
                 'items' => [
                     'Contactos en base de datos: <strong>1.000.000</strong>',
-                    'Contactos de marketing: <strong>5.000</strong>',
+                    'Contactos de marketing: <strong>1.000</strong>',
                     'Usuarios de venta: <strong>1</strong>',
                     'Emails de CRM: <strong>ilimitados</strong>',
                     'Múltiples embudos de ventas: <strong>10</strong>',
@@ -581,7 +581,7 @@ $items = [
                                                         </span>
                                                         <span class="pill-button-selection pill-button-selection_off pill-button-selection_active">
                                                             Pago anual. <br class="space">
-                                                            <span class="greenBlueColor">Ahorras 30%</span>
+                                                            <span class="greenBlueColor">Ahorras 20%</span>
                                                         </span>
                                                         <span class="pill-button-highlight"></span>
                                                     </span>
@@ -792,7 +792,7 @@ $items = [
                                                         </span>
                                                         <span class="pill-button-selection pill-button-selection_off pill-button-selection_active">
                                                             Pago anual. <br class="space">
-                                                            <span class="greenBlueColor">Ahorras 30%</span>
+                                                            <span class="greenBlueColor">Ahorras 20%</span>
                                                         </span>
                                                         <span class="pill-button-highlight"></span>
                                                     </span>
