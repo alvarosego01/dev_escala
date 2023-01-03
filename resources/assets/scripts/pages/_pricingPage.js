@@ -144,11 +144,8 @@ function calculate_contact_per_steps(n) {
 
   let aux_result = 0;
 
-  if( n == 0){
-    n = 1;
-  }
 
-  console.log('que numero n', n);
+
 
   let aux_index = new_escalaContactsPro.findIndex(r => {
 
@@ -163,7 +160,6 @@ function calculate_contact_per_steps(n) {
 
   if (new_escalaContactsPro[aux_index].range[1] != 'infinite') {
 
-    console.log('entonces no es infinito');
     for (let i = 0; i <= aux_index; i++) {
 
       aux_result = aux_result + new_escalaContactsPro[i].price;
@@ -172,7 +168,6 @@ function calculate_contact_per_steps(n) {
 
   } else {
 
-    console.log('entonces es infinito');
 
     for (let i = 0; i <= aux_index; i++) {
 
@@ -184,8 +179,6 @@ function calculate_contact_per_steps(n) {
 
   }
 
-  console.log('index', aux_index);
-  console.log('aux result', aux_result);
 
   return aux_result;
 
@@ -199,11 +192,10 @@ function getContactScale(n) {
     pro: 0,
   }
   // caso pro
-    for (let index = 0; index < n; index++) {
+    for (let index = 1; index <= n; index++) {
 
       let aux = calculate_contact_per_steps(index);
       l.pro = aux;
-      console.log('que coño retorna aux', aux);
 
     }
 
@@ -1101,7 +1093,6 @@ jQuery(document).ready(function () {
 
     m = parseInt(m);
 
-    console.log('la eme', m);
 
     if (m > 100000) {
 
