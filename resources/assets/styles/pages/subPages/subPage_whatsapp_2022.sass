@@ -1408,52 +1408,38 @@
                         font-size: 25px
                     @include responsivo(general)
                         font-size: 30px
-
-                .containInfo
-                    margin: 0 auto
-                    display: block
-                    margin-bottom: 25px
-                    &:last-child
-                        padding-bottom: 15px
-                        border-bottom: 1px solid #E5E5E5
-
-                    span
-                        font-family: Nunito
-                        font-style: normal
-                        font-weight: 700
-                        line-height: 1
-                        letter-spacing: -1px
-                        color: #36768A
+        .innerSectionElement.sct2
+            .containElements
+                width: fit-content
+                margin: 0 auto
+                display: block
+                div#accordionPanelsFAQ
+                    .accordion-item.itemParent
+                        margin: 0 auto
                         display: block
-                        padding-bottom: 10px
-                        @include responsivo(telefonoTable)
-                            font-size: 18px
-                        @include responsivo(pcMedio)
-                            font-size: 20px
-                        @include responsivo(general)
-                            font-size: 20px
-                        @include responsivo(resto)
-                            font-size: 22px
-                    p.text
-                        font-family: Nunito
-                        font-style: normal
-                        font-weight: 400
-                        font-size: 20px
-                        line-height: 1.1
-                        letter-spacing: -1px
-                        color: #606267
-                        @include responsivo(telefonoTable)
-                            font-size: 16px
-                        @include responsivo(pcMedio)
-                            font-size: 18px
-                        @include responsivo(general)
-                            font-size: 18px
-                        @include responsivo(resto)
-                            font-size: 20px
-                    ul
-                        // padding: 0
-                        margin: 0
-                        li
+                        margin-bottom: 25px
+                        &:last-child
+                            padding-bottom: 15px
+                            border-bottom: 1px solid #E5E5E5
+                        h3.accordion-header.parent
+                            span
+                                font-family: Nunito
+                                font-style: normal
+                                font-weight: 700
+                                line-height: 1
+                                letter-spacing: -1px
+                                color: #36768A
+                                display: block
+                                padding-bottom: 10px
+                                @include responsivo(telefonoTable)
+                                    font-size: 18px
+                                @include responsivo(pcMedio)
+                                    font-size: 20px
+                                @include responsivo(general)
+                                    font-size: 20px
+                                @include responsivo(resto)
+                                    font-size: 22px
+                        p.text
                             font-family: Nunito
                             font-style: normal
                             font-weight: 400
@@ -1469,6 +1455,25 @@
                                 font-size: 18px
                             @include responsivo(resto)
                                 font-size: 20px
+                        ul
+                            // padding: 0
+                            margin: 0
+                            li
+                                font-family: Nunito
+                                font-style: normal
+                                font-weight: 400
+                                font-size: 20px
+                                line-height: 1.1
+                                letter-spacing: -1px
+                                color: #606267
+                                @include responsivo(telefonoTable)
+                                    font-size: 16px
+                                @include responsivo(pcMedio)
+                                    font-size: 18px
+                                @include responsivo(general)
+                                    font-size: 18px
+                                @include responsivo(resto)
+                                    font-size: 20px
 
 
 
