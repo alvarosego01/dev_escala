@@ -397,13 +397,13 @@
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
-                                                USD 94.50 / mes
+                                                USD 77.60 / mes
                                             </span>
 
                                         </div>
 
                                         <span class="ahorro discount ">
-                                            Pago total de <span>USD 1.620</span> <strong>- USD 1.134 / año</strong>
+                                            Pago total de <span>USD 1.164</span> <strong>- USD 931.20 / año</strong>
                                         </span>
 
                                         <div class="implementacion">
