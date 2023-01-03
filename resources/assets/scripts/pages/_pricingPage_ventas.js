@@ -1,4 +1,7 @@
 
+
+console.log('pricing ventas');
+
 var planSelect = null;
 
 var calculate = null;
