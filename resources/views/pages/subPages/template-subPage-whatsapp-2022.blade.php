@@ -125,7 +125,7 @@
           <span class="greenBlueColor">la plataforma de marketing y ventas que tu equipo sí quiere usar</span>
 ',
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/Landing1.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/01.Automatizaciones-Whatsapp-min.gif'),
                 'title' => '
           <span class="greenBlueColor">
             Automatizaciones
@@ -161,7 +161,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/anuncios-educación.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/01.Automatizaciones-Whatsapp-min.gif'),
                 'title' => '
           <span class="greenBlueColor">
             Inbox
@@ -196,7 +196,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/anuncios-educación.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/03.Escala-whats-min.gif'),
                 'title' => '
           <span class="greenBlueColor">
             Extensión para Chrome
@@ -232,7 +232,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/anuncios-educación.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/04.Boton-landing-min.gif'),
                 'title' => '
           <span class="greenBlueColor">
             Botón en Landing Pages
@@ -513,72 +513,6 @@ en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:<
 
 
                     </div>
-
-                </section>
-
-            </div>
-
-        </section>
-
-
-
-        <section class="customSection sectionParent subpage_whatsapp_12">
-
-            <div class="section-row">
-
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h2 class="primaryTitle blackColor">
-                            Preguntas frecuentes
-                        </h2>
-
-                        <div class="containInfo">
-                            <span>
-                                ¿Cuáles son los requisitos de Meta para poder usar WhatsApp en Escala?
-                            </span>
-                            <p class="text">
-                                Para hacer uso de WhatsApp Business, Meta solicita contar con los siguientes <br
-                                    class="desktopTabletElement"> requerimientos técnicos:
-                            <ul>
-                                <li>Cuenta en Meta for developers</li>
-                                <li>Página web o perfil de Meta asociado a Business</li>
-                                <li>Número de teléfono nuevo o que no se haya usado previamente con WhatsApp</li>
-                            </ul>
-                            </p>
-                        </div>
-                        <div class="containInfo">
-                            <span>
-                                ¿En cuál plan de Escala está incluido WhatsApp?
-                            </span>
-                            <p class="text">
-                                Las herramientas de automatizaciones, inbox y extensión de Chrome para <br
-                                    class="desktopTabletElement">
-                                WhatsApp están incluidas en los planes: <strong>Escala Pro y Enterprise</strong>. En
-                                cambio, <br class="desktopTabletElement">
-                                el botón de WhatsApp para landing pages está incluido en todos los planes.
-                            </p>
-                        </div>
-                        <div class="containInfo">
-                            <span>
-                                ¿Puedo conectar mi número actual para utilizar el Inbox y las Automatizaciones en
-                                Escala?
-                            </span>
-                            <p class="text">
-                                No. Solo con la extensión de Chrome puedes usar tu número de teléfono <br
-                                    class="desktopTabletElement">
-                                actual. Para utilizar las herramientas de inbox y automatizaciones, Meta <br
-                                    class="desktopTabletElement">
-                                solicitita que el número que se integre a Business sea completamente nuevo <br
-                                    class="desktopTabletElement">
-                                y no esté asociado a ninguna otra cuenta de WhatsApp.
-                            </p>
-                        </div>
-
-
-                    </div>
-
 
                 </section>
 
