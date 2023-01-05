@@ -36,5 +36,12 @@
 
         @endif
 
+        @if ($l2 != null && $l2 == 'headerband_special_1m_promo_t1')
+
+            @headerband_special_1m_promo_t1($parameters)
+            @endheaderband_special_1m_promo_t1
+
+        @endif
+
 
     @endif

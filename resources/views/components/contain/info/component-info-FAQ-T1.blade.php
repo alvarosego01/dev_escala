@@ -61,7 +61,7 @@
 
                 @endif --}}
 
-        </section>
+        </section
 
 
 

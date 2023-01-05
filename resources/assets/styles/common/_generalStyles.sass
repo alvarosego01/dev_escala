@@ -514,6 +514,30 @@ a
     @include responsivo(smallPcTablet)
         font-size: 14px
 
+.orangeButton,
+.menuButton.menuOrangeButton a,
+.menuButton.menuOrangeButton button
+    display: inline-block
+    text-decoration: none
+    font-size: 18px
+    line-height: 1
+    padding: 12.5px 25px!important
+    border-radius: 7px
+    color: #00506B
+    background-color: #FAD872!important
+    width: fit-content
+    transition: $transitionButton
+    transform: scale(1)
+    font-family: Nunito
+    @include responsivo(telefonoTable)
+        font-size: 12.5px!important
+        padding: 10px 12.5px!important
+    @include responsivo(pcMedio)
+        font-size: 18px!important
+        padding: 10px 25px!important
+    @include responsivo(smallPcTablet)
+        font-size: 14px
+
 
 
 .menuButton.menuPrimaryButton a,
@@ -692,6 +716,15 @@ a
     &:hover
         background-color: $colorBlueLight4
         color: $colorGreenBlue2
+
+.hoverInEffect.orangeButton,
+.menuHoverInEffect.menuButton.menuOrangeButton a,
+.menuHoverInEffect.menuButton.menuOrangeButton button
+    &:hover
+        transform: scale(1.075)
+        color: #00506B!important
+        background-color: #FAD872!important
+
 
 .hoverInEffect.primaryButton,
 .menuHoverInEffect.menuButton.menuPrimaryButton a,
