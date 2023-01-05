@@ -193,10 +193,9 @@ form_button_text
 
     <script type="text/javascript">
       // jQuery(document).ready(function () {
-        let aux = '{{$form_button_text}}';
       if (jQuery('.{{$popup_call_class}}.popup_promo_1m .wpcf7 input.wpcf7-form-control.wpcf7-submit').length > 0) {
 
-          jQuery('.{{$popup_call_class}}.popup_promo_1m .wpcf7 input.wpcf7-form-control.wpcf7-submit').attr('value', aux);
+          jQuery('.{{$popup_call_class}}.popup_promo_1m .wpcf7 input.wpcf7-form-control.wpcf7-submit').attr('value', '{{$form_button_text}}');
 
       }
 
