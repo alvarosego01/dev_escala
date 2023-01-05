@@ -161,7 +161,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/01.Automatizaciones-Whatsapp-min.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/02.Escala-Inbox-min.gif'),
                 'title' => '
           <span class="greenBlueColor">
             Inbox

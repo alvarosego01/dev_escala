@@ -454,6 +454,7 @@ class ACF_CUSTOM extends Controller
                     'choices' => [
                         'headerband_promo_t1' => 'Adquiere un Plan PRO y llévate hasta 2 meses TOTALMENTE GRATIS. Haz clic aquí y habla con un asesor',
                         'headerband_blackFriday_promo_t2' => 'Black Friday & Cyber Monday - 40% OFF + beneficios especiales - CUPOS LIMITADOS',
+                        'headerband_special_1m_promo_t1' => '¡POR POCOS DÍAS! Gana un mes gratis para escalar tu negocio este 2023',
                     ],
                     'conditional_logic' => [
                         [
@@ -1486,6 +1487,7 @@ class ACF_CUSTOM extends Controller
                         'popup-bootstrap-general-blue-t2' => 'Popup general 2 blue',
                         'popup-bootstrap-general-2022' => 'Popup general 2022',
                         'popup-bootstrap-blackFriday-2022' => 'Popup black friday 2022',
+                        'popup-general-special-1m-promo-2023' => 'Popup promo 1m 2023',
                         'popup-bootstrap-special-message' => 'Nota special message',
                     ],
                 ],
@@ -1675,8 +1677,8 @@ class ACF_CUSTOM extends Controller
             ],
         ],
             [
-            'key' => 'bootstrap_popups_blackFriday_2022_settings',
-            'title' => 'Bootstrap popup blackFriday 2022 options',
+                'key' => 'bootstrap_popups_blackFriday_2022_settings',
+                'title' => 'Bootstrap popup blackFriday 2022 options',
             'fields' => [
                 [
                     'key' => 'popup_call_class',
@@ -1834,6 +1836,72 @@ class ACF_CUSTOM extends Controller
                         'param' => 'post_taxonomy',
                         'operator' => '==',
                         'value' => 'popup-category-tax:blackFriday_popup_2022',
+                    ],
+                ],
+            ],
+        ],
+            [
+                'key' => 'bootstrap_popups_promo_1m_2023_settings',
+                'title' => 'Bootstrap popup promo 1m 2023 options',
+            'fields' => [
+                [
+                    'key' => 'popup_call_class',
+                    'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                    'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                    'type' => 'text',
+                ],
+                [
+                    'key' => 'popup_principalTitle',
+                    'label' => 'Popup title text',
+                    'name' => 'Popup title text',
+                    'type' => 'textarea',
+                ],
+                [
+                    'key' => 'form_title',
+                    'label' => 'Form title',
+                    'name' => 'Form title',
+                    'type' => 'text',
+                ],
+                [
+                    'key' => 'form_button_text',
+                    'label' => 'Popup form button text',
+                    'name' => 'Popup form button text',
+                    'type' => 'text',
+                ],
+                [
+                    'key' => 'form_shortcode',
+                    'label' => 'Shortcode form',
+                    'name' => 'Shortcode form',
+                    'type' => 'text',
+                ],
+                [
+                    'key' => 'form_redirect',
+                    'label' => 'Form redirect url',
+                    'name' => 'Form redirect url',
+                    'type' => 'url',
+                ],
+                [
+                    'key' => 'popup_direction',
+                    'label' => 'Popup direction',
+                    'name' => 'Popup direction',
+                    'type' => 'select',
+                    'choices' => [
+                        'right_side' => 'Right side',
+                        'left_side' => 'Left side',
+                    ],
+                ],
+            ],
+            'location' => [
+                [
+                    [
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'bootstrap_popups',
+                    ],
+                    [
+                        'param' => 'post_taxonomy',
+                        'operator' => '==',
+                        'value' => 'popup-category-tax:promo_1m_popup_2023',
                     ],
                 ],
             ],
