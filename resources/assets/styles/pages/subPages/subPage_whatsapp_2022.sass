@@ -154,9 +154,10 @@
 
 #subPage_whatsapp_2022 .customSection.sectionParent.subpage_whatsapp_0
     // background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
+    // background-color: #F3FAFD
+    background: linear-gradient(117.04deg, #F1F9FC 13.12%, #DEF3F5 66.9%)
     margin-bottom: 0
     overflow: hidden
-    background-color: #F3FAFD
     @include responsivo(telefonoTable)
         padding-bottom: 25px
 
@@ -294,14 +295,14 @@
                                 position: absolute
                                 width: 100%
                                 left: 0px
-                                top: -25px
+                                top: 10px
                             @include responsivo(smallPcTablet)
                                 left: -50px
                                 top: -160px
                             @include responsivo(resto)
                                 position: absolute
                                 width: 100%
-                                top: -20px
+                                top: 20px
                                 left: 10px
 
 
@@ -450,7 +451,7 @@
                         align-content: center
                         justify-content: center
                         align-items: center
-                        font-weight: 800
+                        font-weight: bold
                         line-height: 1
                         margin-bottom: 10px
                         color: #DEF3F5
@@ -592,10 +593,8 @@
 #subPage_whatsapp_2022 .sections .customSection.sectionParent.subpage_whatsapp_3,
 #subPage_whatsapp_2022 .sections .customSection.sectionParent.subpage_whatsapp_4,
 #subPage_whatsapp_2022 .sections .customSection.sectionParent.subpage_whatsapp_5
-    padding: 50px 0
-    padding-top: 0
+    padding: 25px 0
     background-color: white
-    padding-bottom: 0
     @include responsivo(telefonoTable)
         padding: 25px
         padding-bottom: 0
@@ -816,6 +815,36 @@
     @include responsivo(resto)
         padding-top: 235px
 
+    .section-row
+        section.innerSectionElement.sct1
+            .containElements
+                h2.primaryTitle
+                    font-family: Nunito
+                    font-style: normal
+                    font-weight: bold
+                    line-height: 0.9
+                    text-align: center
+                    margin-bottom: 25px
+                    @include responsivo(telefonoTable)
+                        font-size: 25px
+                    @include responsivo(pcMedio)
+                        font-size: 30px
+                    @include responsivo(general)
+                        font-size: 42.5px
+                    @include responsivo(smallPcTablet)
+                        font-size: 40px
+                    @include responsivo(resto)
+                        font-size: 45px
+                    span
+                        @include responsivo(telefonoTable)
+                            font-size: 25px
+                        @include responsivo(pcMedio)
+                            font-size: 25px
+                        @include responsivo(smallPcTablet)
+                            font-size: 30px
+                        @include responsivo(resto)
+                            font-size: 35px
+
 #subPage_whatsapp_2022 .sections .customSection.sectionParent.subpage_whatsapp_6
     padding-top: 50px
     padding-bottom: 100px
@@ -842,7 +871,6 @@
 
 #subPage_whatsapp_2022 .sections .customSection.sectionParent.subpage_whatsapp_7
     padding: 0
-    position: relative
     overflow: visible
     @include responsivo(telefonoTable)
         padding: 0
@@ -850,42 +878,16 @@
 
     @include responsivo(pcMedio)
         padding-bottom: 0
-    .backgroundPlanets
-        background-position: center
-        background-repeat: no-repeat
-        background-size: contain
-        position: absolute
-        right: 0
-        top: 125px
-        bottom: 0
-        margin: auto
-        height: 500%
-        width: 600px
-        z-index: 10!important
-        @include responsivo(telefonoTable)
-            height: 500%
-            left: 40%
-            width: 600px
-
-        @include responsivo(pcMedio)
-            height: 350%
-            left: 60%
-            width: 400px
-        @include responsivo(general)
-            left: 950px
-        @include responsivo(smallPcTablet)
-            left: 800px
-
-        @include responsivo(resto)
-            left: 1250px
 
 
     .section-row
         overflow: visible
-        background: linear-gradient(180deg, #017E95 0%, #016784 100%)
-        border-radius: 12px
-        z-index: 1
         position: relative
+        // display: flex
+        // flex-direction: column
+        // justify-content: center
+        // align-content: center
+        // align-items: center
         @include responsivo(telefonoTable)
             width: 95%
         @include responsivo(pcMedio)
@@ -898,7 +900,42 @@
         @include responsivo(resto)
             width: 100%!important
             max-width: 1340px!important
+
+        img.backOverlay
+            position: absolute
+            bottom: 0
+            left: 0
+            margin: auto
+            margin-right: 0
+            z-index: 5
+            height: auto
+            // width: auto
+            display: block
+            @include responsivo(telefonoTable)
+                top: 155px
+                right: -65%
+                width: 100%
+            @include responsivo(pcMedio)
+                top: 165px
+                right: -275px
+                width: 90%
+            @include responsivo(general)
+                top: 255px
+                right: -750px
+                width: 90%
+            @include responsivo(smallPcTablet)
+                top: 225px
+                right: -675px
+            @include responsivo(resto)
+                top: 275px
+                right: -850px
+                width: 90%
+
         section.innerSectionElement.sct2
+            z-index: 10
+            position: relative
+            background: linear-gradient(180deg, #017E95 0%, #016784 100%)
+            border-radius: 12px
             .groupElements.row
                 @include responsivo(telefonoTable)
                     display: flex
@@ -992,7 +1029,7 @@
     padding: 50px 0
     background-color: white
     padding-top: 75px
-    padding-bottom: 25px
+    padding-bottom: 50px
     @include responsivo(telefonoTable)
         padding: 25px 0
         padding-bottom: 25px
