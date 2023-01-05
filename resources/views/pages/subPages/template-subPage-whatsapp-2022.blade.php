@@ -128,7 +128,7 @@
                 'img' => App::setFilePath('/assets/images/gifs/01.Automatizaciones-Whatsapp-min.gif'),
                 'title' => '
           <span class="greenBlueColor">
-            Automatizaciones
+            Automatizaciones <span class="beta"></span>
           </span> <br class="space">
           Opera manos libres programando <br class="desktopTabletElement"> acciones y respuestas',
                 'text' => '
@@ -288,7 +288,8 @@
 
 
 
-        @php
+        {{-- @php
+
             $parameters = [
                 'type' => 'backgroundColor',
                 'backgroundImageFile' => null,
@@ -316,7 +317,62 @@
         @endphp
 
         @contain_text_image_T1($parameters)
-        @endcontain_text_image_T1
+        @endcontain_text_image_T1 --}}
+
+
+        <section class="component-info-text-image-T1 customSection sectionParent subpage_whatsapp_7 ">
+
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct2 left">
+
+
+                    <div class="groupElements row">
+
+                        <div class="image col-md-12 col-lg-6">
+                            <div class="containerImage">
+
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsap_group_happy.png') !!}"
+                                    loading="lazy">
+
+                            </div>
+                        </div>
+                        <div class="info col-md-12 col-lg-6">
+
+
+                            <h3 class="secondaryTitle">
+
+                                ¡Y tranquilo! Te guiamos a <br class="space">
+                                implementarlo exitosamente :)
+
+                            </h3>
+
+                            <p class="text">
+
+                                Al ser cliente de Escala, te asignamos un especialista que acelera <br
+                                    class="desktopTabletElement">
+                                tu aprendizaje y potencia tus resultados con las herramientas.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                </section>
+
+
+                <img class="backOverlay" loading="lazy" src="{!! App::setFilePath('/assets/images/overlays/whatsapp_overlay.png') !!}" alt="Overlay marco de whatsapp">
+
+            </div>
+
+
+
+
+        </section>
 
 
 
