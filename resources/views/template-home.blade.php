@@ -439,7 +439,10 @@ $parameters = [
                   </li>
                 </ul>
 
-                <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                {{-- <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                  Aprender más
+              </a> --}}
+                <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
                   Aprender más
               </a>
 
