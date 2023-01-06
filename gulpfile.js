@@ -1,5 +1,5 @@
 
-
+'use strict';
 
 const browserSync = require('browser-sync').create(),
   reload = browserSync.reload,
@@ -15,7 +15,9 @@ const browserSync = require('browser-sync').create(),
   scp = require('gulp-scp2'),
   autoprefixer = require('autoprefixer'),
   postcss = require('gulp-postcss'),
-  watch = require('gulp-watch');
+  watch = require('gulp-watch'),
+  gulpcache = require('gulp-cached');
+
 var i;
 // browser-sync task for starting the server.
 
@@ -77,6 +79,7 @@ gulp.task('browserSync-Server', () => {
 
 gulp.task('sass', () => {
   return gulp.src('./resources/assets/styles/*.sass')
+    .pipe(gulpcache('linting'))
     .pipe(watch('./resources/assets/styles/**/*.sass'))
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
@@ -89,6 +92,7 @@ gulp.task('sass', () => {
 
 gulp.task('sassGeneral', () => {
   return gulp.src('./resources/assets/styles/**/*.sass')
+    .pipe(gulpcache('linting'))
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write())

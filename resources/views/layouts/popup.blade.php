@@ -148,6 +148,24 @@
                     @endpopup_blackFriday_2022
                 @endif
 
+                @if ($nav != null && $nav == 'popup-general-special-1m-promo-2023')
+                    @php
+                        $parameters = [
+                            'popup_call_class' => ACF_CUSTOM::_getField('popup_call_class', $item),
+                            'popup_principalTitle' => ACF_CUSTOM::_getField('popup_principalTitle', $item),
+                            'form_title' => ACF_CUSTOM::_getField('form_title', $item),
+                            'form_shortcode' => ACF_CUSTOM::_getField('form_shortcode', $item),
+                            'form_redirect' => ACF_CUSTOM::_getField('form_redirect', $item),
+                            'form_button_text' => ACF_CUSTOM::_getField('form_button_text', $item),
+                            'popup_direction' => ACF_CUSTOM::_getField('popup_direction', $item),
+                        ];
+
+                    @endphp
+
+                    @popup_promo_1m_2023( $parameters )
+                    @endpopup_promo_1m_2023
+                @endif
+
                 @if ($nav != null && $nav == 'popup-bootstrap-special-message')
                     @php
                         $parameters = [

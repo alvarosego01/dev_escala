@@ -125,10 +125,10 @@
           <span class="greenBlueColor">la plataforma de marketing y ventas que tu equipo sí quiere usar</span>
 ',
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/Landing1.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/01.Automatizaciones-Whatsapp-min.gif'),
                 'title' => '
           <span class="greenBlueColor">
-            Automatizaciones
+            Automatizaciones <span class="betaTag">Beta</span>
           </span> <br class="space">
           Opera manos libres programando <br class="desktopTabletElement"> acciones y respuestas',
                 'text' => '
@@ -161,10 +161,10 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/anuncios-educación.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/02.Escala-Inbox-min.gif'),
                 'title' => '
           <span class="greenBlueColor">
-            Inbox
+            Inbox <span class="betaTag">Beta</span>
           </span> <br class="space">
           Comunícate en tiempo real y gestiona tus <br class="desktopTabletElement">
           conversaciones desde una sola herramienta
@@ -196,7 +196,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/anuncios-educación.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/03.Escala-whats-min.gif'),
                 'title' => '
           <span class="greenBlueColor">
             Extensión para Chrome
@@ -232,7 +232,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/anuncios-educación.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/04.Boton-landing-min.gif'),
                 'title' => '
           <span class="greenBlueColor">
             Botón en Landing Pages
@@ -288,7 +288,8 @@
 
 
 
-        @php
+        {{-- @php
+
             $parameters = [
                 'type' => 'backgroundColor',
                 'backgroundImageFile' => null,
@@ -316,7 +317,62 @@
         @endphp
 
         @contain_text_image_T1($parameters)
-        @endcontain_text_image_T1
+        @endcontain_text_image_T1 --}}
+
+
+        <section class="component-info-text-image-T1 customSection sectionParent subpage_whatsapp_7 ">
+
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct2 left">
+
+
+                    <div class="groupElements row">
+
+                        <div class="image col-md-12 col-lg-6">
+                            <div class="containerImage">
+
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsap_group_happy.png') !!}"
+                                    loading="lazy">
+
+                            </div>
+                        </div>
+                        <div class="info col-md-12 col-lg-6">
+
+
+                            <h3 class="secondaryTitle">
+
+                                ¡Y tranquilo! Te guiamos a <br class="space">
+                                implementarlo exitosamente :)
+
+                            </h3>
+
+                            <p class="text">
+
+                                Al ser cliente de Escala, te asignamos un especialista que acelera <br
+                                    class="desktopTabletElement">
+                                tu aprendizaje y potencia tus resultados con las herramientas.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                </section>
+
+
+                <img class="backOverlay" loading="lazy" src="{!! App::setFilePath('/assets/images/overlays/whatsapp_overlay.png') !!}" alt="Overlay marco de whatsapp">
+
+            </div>
+
+
+
+
+        </section>
 
 
 
@@ -513,72 +569,6 @@ en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:<
 
 
                     </div>
-
-                </section>
-
-            </div>
-
-        </section>
-
-
-
-        <section class="customSection sectionParent subpage_whatsapp_12">
-
-            <div class="section-row">
-
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h2 class="primaryTitle blackColor">
-                            Preguntas frecuentes
-                        </h2>
-
-                        <div class="containInfo">
-                            <span>
-                                ¿Cuáles son los requisitos de Meta para poder usar WhatsApp en Escala?
-                            </span>
-                            <p class="text">
-                                Para hacer uso de WhatsApp Business, Meta solicita contar con los siguientes <br
-                                    class="desktopTabletElement"> requerimientos técnicos:
-                            <ul>
-                                <li>Cuenta en Meta for developers</li>
-                                <li>Página web o perfil de Meta asociado a Business</li>
-                                <li>Número de teléfono nuevo o que no se haya usado previamente con WhatsApp</li>
-                            </ul>
-                            </p>
-                        </div>
-                        <div class="containInfo">
-                            <span>
-                                ¿En cuál plan de Escala está incluido WhatsApp?
-                            </span>
-                            <p class="text">
-                                Las herramientas de automatizaciones, inbox y extensión de Chrome para <br
-                                    class="desktopTabletElement">
-                                WhatsApp están incluidas en los planes: <strong>Escala Pro y Enterprise</strong>. En
-                                cambio, <br class="desktopTabletElement">
-                                el botón de WhatsApp para landing pages está incluido en todos los planes.
-                            </p>
-                        </div>
-                        <div class="containInfo">
-                            <span>
-                                ¿Puedo conectar mi número actual para utilizar el Inbox y las Automatizaciones en
-                                Escala?
-                            </span>
-                            <p class="text">
-                                No. Solo con la extensión de Chrome puedes usar tu número de teléfono <br
-                                    class="desktopTabletElement">
-                                actual. Para utilizar las herramientas de inbox y automatizaciones, Meta <br
-                                    class="desktopTabletElement">
-                                solicitita que el número que se integre a Business sea completamente nuevo <br
-                                    class="desktopTabletElement">
-                                y no esté asociado a ninguna otra cuenta de WhatsApp.
-                            </p>
-                        </div>
-
-
-                    </div>
-
 
                 </section>
 
