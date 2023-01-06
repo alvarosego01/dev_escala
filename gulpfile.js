@@ -79,7 +79,7 @@ gulp.task('browserSync-Server', () => {
 
 gulp.task('sass', () => {
   return gulp.src('./resources/assets/styles/*.sass')
-    .pipe(gulpcache('linting'))
+    // .pipe(gulpcache('linting'))
     .pipe(watch('./resources/assets/styles/**/*.sass'))
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
@@ -92,7 +92,7 @@ gulp.task('sass', () => {
 
 gulp.task('sassGeneral', () => {
   return gulp.src('./resources/assets/styles/**/*.sass')
-    .pipe(gulpcache('linting'))
+    // .pipe(gulpcache('linting'))
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write())
