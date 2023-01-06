@@ -159,7 +159,8 @@ form_button_text
                                               Oferta válida hasta el 15 de enero de 2023
                                             </span>
                                             <p>
-                                                <a href="#">*Aplican condiciones</a>
+                                                    *Aplican condiciones
+                                                {{-- <a href="#">*Aplican condiciones</a> --}}
                                             </p>
                                         @endif
 
