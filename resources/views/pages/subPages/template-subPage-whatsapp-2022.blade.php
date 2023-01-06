@@ -128,7 +128,7 @@
                 'img' => App::setFilePath('/assets/images/gifs/01.Automatizaciones-Whatsapp-min.gif'),
                 'title' => '
           <span class="greenBlueColor">
-            Automatizaciones <span class="beta"></span>
+            Automatizaciones <span class="betaTag">Beta</span>
           </span> <br class="space">
           Opera manos libres programando <br class="desktopTabletElement"> acciones y respuestas',
                 'text' => '
@@ -164,7 +164,7 @@
                 'img' => App::setFilePath('/assets/images/gifs/02.Escala-Inbox-min.gif'),
                 'title' => '
           <span class="greenBlueColor">
-            Inbox
+            Inbox <span class="betaTag">Beta</span>
           </span> <br class="space">
           Comunícate en tiempo real y gestiona tus <br class="desktopTabletElement">
           conversaciones desde una sola herramienta
