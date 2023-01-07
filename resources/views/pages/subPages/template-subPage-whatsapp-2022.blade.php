@@ -201,8 +201,8 @@
           <span class="greenBlueColor">
             Extensión para Chrome
           </span> <br class="space">
-          Desde tu WhatsApp Web también <br class="desktopTabletElement">
-          puedes gestionar tus contactos
+            Gestiona tus contactos ¡desde tu <br class="desktopTabletElement">
+            propio WhatsApp Web también!
           ',
                 'text' => '
           <ul class="text">
@@ -237,8 +237,8 @@
           <span class="greenBlueColor">
             Botón en Landing Pages
           </span> <br class="space">
-          Guarda automáticamente los <br class="desktopTabletElement">
-          datos de tus leads en el CRM
+            Captura y guarda automáticamente <br class="desktopTabletElement">
+            los datos de tus leads en el CRM
           ',
                 'text' => '
           <ul class="text">
