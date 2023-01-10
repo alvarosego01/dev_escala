@@ -55,7 +55,18 @@
                         @foreach ($posts->get_posts() as $index => $item)
                         <div class="carousel-item @if ($index === array_key_first($posts->get_posts())) active @endif ">
 
-                            <div class="backgroundImage" style="background: url('{{ Posts::getPhoto($item->ID) }}') rgba(13,46,56, 0.7)" >
+                            @php
+                            // acf id post_herader_image
+                            $i = ACF_CUSTOM::_getField( 'post_herader_image', $item->ID );
+                            if( $i != null ){
+                              $i = $i['url'];
+                            }else{
+                              $i = Posts::getPhoto( $item->ID );
+                            }
+
+                          @endphp
+
+                            <div class="backgroundImage" style="background: url('{{ $i }}') rgba(13,46,56, 0.7)" >
 
                                 <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
 

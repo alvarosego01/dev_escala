@@ -36,8 +36,15 @@ if (!$threeCol) {
 
         <div style="background-image: url('{{ $backgroundImage }}')" class="backgroundFull">
 
+            @if ($overlay == true)
+            <div style="background-image: url('{{ $overlayImage }}')" class="backgroundPlanets">
+            </div>
+        @endif
+            @if ( isset($overlayMultiple) && $overlayMultiple != null)
 
+            {!! $overlayMultiple !!}
 
+        @endif
 
             <div class="section-row">
                 <section class="innerSectionElement sct1">
@@ -60,7 +67,7 @@ if (!$threeCol) {
                                     <div class="ele ele1 col-md-12 col-lg-6">
 
                                         <div class="containerImage">
-                                            <img src="{{ $image }}" alt="" loading="lazy">
+                                            <img @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif src="{{ $image }}" alt="" loading="lazy">
                                         </div>
 
                                     </div>
@@ -94,7 +101,7 @@ if (!$threeCol) {
                                     @endif
 
                                     <div class="containerImage">
-                                        <img src="{{ $image }}" alt="" loading="lazy">
+                                        <img @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif src="{{ $image }}" alt="" loading="lazy">
                                     </div>
 
 
@@ -154,15 +161,7 @@ if (!$threeCol) {
 
             </div>
 
-            @if ($overlay == true)
-            <div style="background-image: url('{{ $overlayImage }}')" class="backgroundPlanets">
-            </div>
-        @endif
-            @if ( isset($overlayMultiple) && $overlayMultiple != null)
 
-            {!! $overlayMultiple !!}
-
-        @endif
 
         </div>
 
@@ -196,7 +195,7 @@ if (!$threeCol) {
                                 <div class="ele ele1 col-md-12 col-lg-6">
 
                                     <div class="containerImage">
-                                        <img src="{{ $image }}" alt="" loading="lazy">
+                                        <img @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif src="{{ $image }}" alt="" loading="lazy">
                                     </div>
 
                                 </div>
@@ -230,7 +229,7 @@ if (!$threeCol) {
                                 @endif
 
                                 <div class="containerImage">
-                                    <img src="{{ $image }}" alt="" loading="lazy">
+                                    <img @if(isset($img_alt) && $img_alt != null) alt="{!! $img_alt !!}" @endif src="{{ $image }}" alt="" loading="lazy">
                                 </div>
 
 

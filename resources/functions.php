@@ -1,5 +1,7 @@
 <?php
 
+
+
 /**
  * Do not edit anything in this file unless you know what you're doing
  */
@@ -279,146 +281,6 @@ function bootstrap_pie_pagina() {
 
 
 
-// -------------------------------------------------------------------------------- //
-
-
-//     add_action( 'admin_menu', 'misha_menu_page' );
-
-//     function misha_menu_page() {
-
-//         add_menu_page(
-//             'Navbars & footers', // page <title>Title</title>
-//             'Navbars & footers', // menu link text
-//             'manage_options', // capability to access the page
-//             'misha-slug', // page URL slug
-//             'misha_page_content', // callback function /w content
-//             'dashicons-star-half', // menu icon
-//             5 // priority
-//         );
-
-//     }
-//     function misha_page_content(){
-
-//         echo '<div class="wrap">
-//         <h1>Navbars & footers Settings</h1>
-//         <form method="post" action="options.php">';
-
-//         $templates = wp_get_theme()->get_page_templates();
-
-//         $args = array(
-//             'sort_order' => 'asc',
-//             'sort_column' => 'post_title',
-//             'hierarchical' => 1,
-//             'exclude' => '',
-//             'include' => '',
-//             'meta_key' => '',
-//             'meta_value' => '',
-//             'authors' => '',
-//             'child_of' => 0,
-//             'parent' => -1,
-//             'exclude_tree' => '',
-//             'number' => '',
-//             'offset' => 0,
-//             'post_type' => 'page',
-//             'post_status' => 'publish'
-//         );
-//         $pages = get_pages($args); // get all pages based on supplied args
-//         $paginas = array();
-
-//         foreach($pages as $page){ // $pages is array of object
-//             $l = array(
-//                 'ID' => $page->ID,
-//                 'post_title' => $page->post_title,
-//                 'navBar' =>
-//             );
-
-//             array_push($paginas, $l);
-//          }
-
-
-//             // settings_fields( 'misha_settings' ); // settings group name
-//             // do_settings_sections( 'misha-slug' ); // just a page slug
-
-//             submit_button();
-
-//         echo '</form></div>';
-
-//     }
-
-//     add_action( 'admin_init',  'misha_register_setting' );
-
-// function misha_register_setting(){
-
-// 	register_setting(
-// 		'misha_settings', // settings group name
-// 		'homepage_text', // option name
-// 		'sanitize_text_field' // sanitization function
-// 	);
-
-// 	add_settings_section(
-// 		'some_settings_section_id', // section ID
-// 		'', // title (if needed)
-// 		'', // callback function (if needed)
-// 		'misha-slug' // page slug
-// 	);
-
-// 	add_settings_field(
-// 		'homepage_text',
-// 		'Homepage text',
-// 		'misha_text_field_html', // function which prints the field
-// 		'misha-slug', // page slug
-// 		'some_settings_section_id', // section ID
-// 		array(
-// 			'label_for' => 'homepage_text',
-// 			'class' => 'misha-class', // for <tr> element
-// 		)
-// 	);
-
-// }
-
-// function misha_text_field_html(){
-
-// 	$text = get_option( 'homepage_text' );
-
-// 	printf(
-// 		'<input type="text" id="homepage_text" name="homepage_text" value="%s" />',
-// 		esc_attr( $text )
-// 	);
-
-// }
-
-
-// add_filter('acf/location/rule_types', function($rules) {
-
-//     $rules['By Fields']['popupTemplate'] = 'Popup template';
-
-//     return $rules;
-//   });
-
-//   add_filter('acf/location/rule_operators/popupTemplate', function($choices) {
-
-//     if(isset($choices['=='])) {
-//       unset($choices['==']);
-//     }
-
-//     if(isset($choices['!='])) {
-//       unset($choices['!=']);
-//     }
-
-//     $choices['popupTemplate'] = '-';
-
-//     return $choices;
-//   });
-
-//   add_filter('acf/location/rule_values/popupTemplate', function($choices) {
-//     return ['popupTemplate' => '-'];
-//   });
-
-//   add_filter('acf/location/rule_match/popupTemplate', function($match, $rule, $options) {
-//     return false;
-//   }, 10, 3);
-
-
 function bootstrap_popups_taxo() {
 
     register_taxonomy(
@@ -454,6 +316,20 @@ wp_insert_term(
         'popup-category-tax', // the taxonomy
         array(
         'slug' => 'general_popup_2022',
+        'parent'=> $parent_term_id ));
+
+wp_insert_term(
+        'BlackFriday popup 2022', // the term
+        'popup-category-tax', // the taxonomy
+        array(
+        'slug' => 'blackFriday_popup_2022',
+        'parent'=> $parent_term_id ));
+
+wp_insert_term(
+        'Promo 1m popup 2023', // the term
+        'popup-category-tax', // the taxonomy
+        array(
+        'slug' => 'promo_1m_popup_2023',
         'parent'=> $parent_term_id ));
 
 wp_insert_term(
@@ -535,3 +411,22 @@ function abc_getWidgetContentbyTitle($widget_title)
 //   add_action( 'widgets_init', 'register_widget_generalFooter1' );
 
 
+
+// include get_stylesheet_directory().'/shortcodes/main.php';
+// require CHILD_DIR . '/resources/shortcodes/main.php';
+
+function get_include_contents($filename) {
+    if (is_file($filename)) {
+        ob_start();
+        include $filename;
+        return ob_get_clean();
+    }
+    return false;
+}
+
+
+get_include_contents(CHILD_DIR . '/resources/shortcodes/main.php');
+
+
+
+ ?>

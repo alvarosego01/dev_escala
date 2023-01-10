@@ -1,19 +1,24 @@
 @php
-// bootstrap_pie_pagina_settings_1c_3c
-$idFooter = null;
-if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
-    $idFooter = get_the_ID();
-} elseif (is_singular() != null && is_singular() == 1 && get_post_type() == 'post') {
-    # code...
-    $idFooter = url_to_postid('blog');
-} else {
-    $idFooter = get_the_ID();
-}
+    // bootstrap_pie_pagina_settings_1c_3c
+    $idFooter = null;
+    if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
+        $idFooter = get_the_ID();
+    } elseif (is_singular() != null && is_singular() == 1 && get_post_type() == 'post') {
+        # code...
+        $idFooter = url_to_postid('blog');
+    } elseif (is_singular() != null && is_singular() == 1 && get_post_type() == 'caso-de-exito') {
+        # code...
+        $idPostParent = url_to_postid('casos-de-exito');
+        $idFooter = $idPostParent;
+        // $typeNav = ACF_CUSTOM::_getField('nav_settings', $idPostParent);
+    } else {
+        $idFooter = get_the_ID();
+    }
 
 @endphp
 
 @php
-$typeFooter = ACF_CUSTOM::_getField('pie_pagina_settings', $idFooter);
+    $typeFooter = ACF_CUSTOM::_getField('pie_pagina_settings', $idFooter);
 @endphp
 
 
@@ -36,12 +41,12 @@ $typeFooter = ACF_CUSTOM::_getField('pie_pagina_settings', $idFooter);
 
             @if (isset($footerTemplate) && $footerTemplate == 'pie_pagina_bootstrap_general_t1')
                 @php
-                    $parameters = array(
-                        'footerTemplate_id' => $footerTemplate_id
-                    )
+                    $parameters = [
+                        'footerTemplate_id' => $footerTemplate_id,
+                    ];
                 @endphp
 
-                @piePagina_general( $parameters )
+                @piePagina_general($parameters)
                 @endpiePagina_general
 
             @endif
@@ -79,3 +84,9 @@ $typeFooter = ACF_CUSTOM::_getField('pie_pagina_settings', $idFooter);
 
     @endphp
 @endif
+
+
+
+</body>
+
+</html>

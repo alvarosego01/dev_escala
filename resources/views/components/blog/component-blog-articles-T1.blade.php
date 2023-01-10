@@ -80,7 +80,7 @@ posts
                             </a>
                         <div class="card-body">
                             <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
-                            @if ( isset($post_tags) && $post_tags != null && count($post_tags) > 0)
+                            {{-- @if ( isset($post_tags) && $post_tags != null && count($post_tags) > 0)
                             <span class="tags greenBlueColor">
 
                                 @foreach ($post_tags as $key => $x)
@@ -88,14 +88,25 @@ posts
                                     @endforeach
 
                             </span>
-                                @endif
+                                @endif --}}
                                 <h3 class="secondaryTitle blackColor card-title">
                                     {{ $item->post_title }}
                                 </h3>
                                 <p class="commonText  blackColor card-text">
                                     {!! ACF_CUSTOM::_getField('excerpt_single', $item->ID) !!}
                                 </p>
+
                             </a>
+                                <span class="date">
+                                    @php
+                                        // $date = '2022-06-13 09:59:45';
+                                        $date = $item->post_date;
+                                        $sec = strtotime($date);
+                                        $newdate = date ("j M ", $sec);
+                                        echo $newdate;
+                                    @endphp
+                                </span>
+
                         </div>
                             {{-- <div class="card-footer">
 
@@ -110,7 +121,7 @@ posts
                 @if ( isset($linkCategory) && $linkCategory != null )
 
                 <a class="hiperButtonGray" href="{{ $linkCategory }}">
-                    Leer más
+                    Ver más
                 </a>
 
                 @endif

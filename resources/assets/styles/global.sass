@@ -369,8 +369,16 @@ div#jet-popup-4200
 .elementor-widget-void-section-cf7,
 .form_cf7,
 .wpcf7
-    span.wpcf7-spinner
-        display: none!important
+    @include responsivo(general)
+        padding-left: 10px
+        padding-right: 10px
+
+    @include responsivo(smallPcTablet)
+        padding-left: 5px
+        padding-right: 5px
+    .wpcf7-response-output
+        margin: 20px 0!important
+        margin-bottom: 10px!important
     .ewp-region-select,
     .ewp-city-select,
     .ewp-phone-text
@@ -384,6 +392,7 @@ div#jet-popup-4200
         position: absolute
         bottom: 10px
         margin: 0 10px
+        top: 20px
         @include responsivo(telefonoTable)
             right: 15px!important
             bottom: 7.5px
@@ -434,6 +443,16 @@ div#jet-popup-4200
             font-size: 14px!important
         @include responsivo(pcMedio)
             font-size: 14px!important
+        @include responsivo(smallPcTablet)
+            font-size: 14px!important
+    .g-recaptcha
+        @include responsivo(telefonoTable)
+            margin-bottom: 5px
+        @include responsivo(pcMedio)
+            margin-bottom: 5px
+    input.wpcf7-form-control.wpcf7-submit
+        position: relative
+        top: 10px
     input.wpcf7-form-control.wpcf7-number,
     input[type="number"]
         width: 100%!important
@@ -455,6 +474,8 @@ div#jet-popup-4200
             font-size: 14px!important
         @include responsivo(pcMedio)
             font-size: 14px!important
+        @include responsivo(smallPcTablet)
+            font-size: 14px!important
     span.ewp-phonetype-radio
         margin-top: 20px
         margin-bottom: 30px
@@ -471,6 +492,9 @@ div#jet-popup-4200
                 background-color: #b1ecef
                 color: #6C929F
                 font-weight: 700
+            span.wpcf7-list-item-label
+                @include responsivo(smallPcTablet)
+                    font-size: 14px!important
     br
         display: none
 
@@ -518,6 +542,9 @@ div#jet-popup-4200
                         padding: 5px 7.5px!important
                         text-transform: uppercase
                         color: #706B6D!important
+                        @include responsivo(smallPcTablet)
+                            font-size: 14px!important
+
                     input[type="radio"]
                         float: unset
                         margin: auto 0
@@ -542,6 +569,8 @@ div#jet-popup-4200
                         font-size: 14px
                         padding: 5px 7.5px!important
                         color: #706B6D!important
+                        @include responsivo(smallPcTablet)
+                            font-size: 14px!important
                     input[type="checkbox"]
                         float: unset
                         margin: auto 0
@@ -657,12 +686,11 @@ input.ewp-phone-call-code
     @include responsivo(general)
         display: block!important
 
-    @include responsivoSpecial(1000px, 1125px)
+    @include responsivo(smallPcTablet)
         display: none!important
 
     @include responsivo(resto)
         display: block!important
-
 
 .mobileSmallElement
     @include responsivo(telefonoTable)
@@ -702,7 +730,7 @@ input.ewp-phone-call-code
     @include responsivo(general)
         display: flex!important
 
-    @include responsivoSpecial(1000px, 1125px)
+    @include responsivo(smallPcTablet)
         display: none!important
 
     @include responsivo(resto)

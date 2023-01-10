@@ -29,6 +29,19 @@
             @endheaderBand_promo_T1
 
         @endif
+        @if ($l2 != null && $l2 == 'headerband_blackFriday_promo_t2')
+
+            @headerband_blackFriday_promo_t2($parameters)
+            @endheaderband_blackFriday_promo_t2
+
+        @endif
+
+        @if ($l2 != null && $l2 == 'headerband_special_1m_promo_t1')
+
+            @headerband_special_1m_promo_t1($parameters)
+            @endheaderband_special_1m_promo_t1
+
+        @endif
 
 
     @endif

@@ -62,11 +62,13 @@
      'backgroundImageType' => false,
      'overlay' => false,
      'classSection' => 'threeCol landingLandingPages2022_0',
-     'title' => '<span class="whiteColor">
-        Genera más leads <br class="space">
-        con las landing pages <br class="space">
-        de Escala
-        </span>',
+     'title' => '
+        <span class="whiteColor">
+            Genera más leads <br class="space">
+            con las landing pages <br class="space">
+            de Escala
+        </span>
+        ',
      'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span> ',
      'threeCol' => true,
      'textForm' => 'Comienza ahora',

@@ -71,12 +71,10 @@ function _serializeFormToObject(form) {
 function _openSideNav(type) {
 
     if (type == 'close') {
-        console.log('close sidenav');
         jQuery('nav', sideNavBar)[0].classList.add("animate__slideOutRight");
         jQuery('nav', sideNavBar)[0].addEventListener('animationend', function (e) {
             // do something
             if (e.animationName == 'slideOutRight') {
-                console.log('abre');
                 sideNavBar.css({
                     'display': 'none'
                 });
@@ -98,7 +96,6 @@ function _openSideNav(type) {
     if (type == 'open') {
 
         // animate__slideInRight
-        console.log('open sidenav');
         let w = window.innerWidth;
         if (w <= 991) {
 
@@ -192,8 +189,9 @@ function closingSidebarClick() {
 function scrollToHash() {
 
     jQuery('.goToHash').click(function (e) {
+
+        return;
         e.preventDefault();
-        console.log('scroll to hash', e);
 
         // let w = window.innerWidth;
         // document.getElementById('lead-form').scrollIntoView();
@@ -355,7 +353,7 @@ function instanceYoutube() {
 
         techOrder: ['html5', 'flash'],
         controls: false,
-        autoplay: true,
+        autoplay: false,
         preload: 'false'
 
         // flash: {
@@ -364,13 +362,9 @@ function instanceYoutube() {
     }, function(){
         // Player (this) is initialized and ready.
         this.on('pause', function(){
-            console.log('ended');
-            console.log('ended', this);
 
         });
         this.on('ended', function(){
-            console.log('ended');
-            console.log('ended', this);
 
             this.posterImage.show(); //shows your poster image//
             this.currentTime(0);
@@ -382,7 +376,6 @@ function instanceYoutube() {
 
         this.on("play", function()  //function to play the video again//
         {
-            console.log('play', this);
             this.posterImage.hide(); //hides your poster//
             this.controlBar.show(); //shows your controls//
             this.bigPlayButton.hide(); //hides your play button//
@@ -403,7 +396,6 @@ function setInitSlizeButton(){
 
     }
 
-    console.log('seteado el slize button');
 
     let pillButtonOnText = jQuery('.pill-button-selection_on'),
     pillButtonOffText = jQuery('.pill-button-selection_off'),
@@ -434,7 +426,6 @@ jQuery('.pill-button-selection').on('click', function() {
         'left': 'unset',
         'right': 0
       });
-      console.log("Is Checked - OFF");
     }
     else {
     //   pillButtonInput.prop('checked',true);
@@ -444,21 +435,61 @@ jQuery('.pill-button-selection').on('click', function() {
         'left': 0,
         'right': 'unset'
       });
-      console.log("Is Checked - ON");
     }
 
   }
 });
 
 // if(pillButtonInput.prop('checked',true)) {// default on cold start
-//   console.log('is checked - cold start');
 //   pillButtonHighlight.css('width', pillButtonOnTextWidth);
 // } else {
-//   console.log('is not checked - cold start');
 //   pillButtonHighlight.css('width', pillButtonOffTextWidth);
 // }
 
 }
+
+
+function _preventResetForms(){
+
+    jQuery(document).on('reset', 'form.wpcf7-form', function(e) {
+        e.preventDefault();
+
+        jQuery('.ewp-phone-text').val('');
+
+    });
+
+        jQuery('.ewp-phone-text').on('focus click keypress', function () {
+
+        if (this.value == '   -   -    ') {
+            this.value = "";
+        }
+
+    });
+
+}
+
+
+function _openLinks(){
+
+    jQuery('a[openLink]').click(function (e) {
+        e.preventDefault();
+
+        // console.log('force openLink', e.attr('href') );
+        // console.log('force openLink', e );
+        // console.log('force openLink', e.currentTarget.href );
+
+        let aux = e.currentTarget.href || null;
+
+        if( aux != null ){
+            window.location.href = aux;
+        }
+
+    });
+
+}
+
+
+_preventResetForms();
 
 
 
@@ -467,6 +498,8 @@ jQuery(document).ready(function () {
     setInnerElement();
 
     scrollToHash();
+
+    _openLinks();
 
     window.onload = function () {
         setResize();

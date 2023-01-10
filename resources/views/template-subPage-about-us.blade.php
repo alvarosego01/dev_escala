@@ -112,22 +112,7 @@ el European Poker Tour.
       ',
       'img' => App::setFilePath('/assets/images/illustrations/team/andrea.png')
   ],
-    [
-      'name' => '
-      Alex Guevara <br class="space">
-<span class="greenBlueColor">El motor de ventas</span>
-      ',
-      'textInfo' => '
-          Más de 15 años liderando proyectos de transformación, <br class="desktopTabletElement">
-optimización de recursos asegurando el cumplimiento de los KPI´s <br class="desktopTabletElement">
-del cliente y liderando equipos de alto desempeño.
-  <br class="space"><br class="space">
-Contact Center & BPO en las áreas de Ventas, Experiencia de <br class="desktopTabletElement">
-Clientes, Gestión de Cuentas Claves, Workforce, Planeación y <br class="desktopTabletElement">
-Finanzas.
-      ',
-      'img' => App::setFilePath('/assets/images/illustrations/team/alex-1.png')
-  ],
+
     [
       'name' => '
       Manuel Gil <br class="space">

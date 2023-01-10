@@ -4,8 +4,6 @@
 --}}
 
 
-
-
 @extends('layouts.app')
 
 @section('content')
@@ -199,7 +197,7 @@
                             @endif
 
 
-                            <a class="primaryButton hoverInEffect" href="#lead-form-bottom">
+                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022" href="#lead-form-bottom">
                                 Pruébalo ahora
                             </a>
 

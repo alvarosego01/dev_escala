@@ -22,7 +22,7 @@
                                 </small>
 
                                 <small class="miniText">
-                                    Plan Pro: A partir de 5.000 contactos
+                                    Plan Pro: A partir de 1.000 contactos
                                 </small>
 
                                 <div class="box desktopElement_flex">
@@ -63,7 +63,7 @@
                                             </h3>
 
                                             <small>
-                                                (30% de descuento)
+                                                (20% de descuento)
                                             </small>
 
                                     </div>
@@ -110,7 +110,7 @@
                                         <div class="customSelectorRange">
 
                                             <div class="slidecontainer">
-                                                <input typeProcess="0" name="_rangeContacts" class="rangeContacts" type="range" min="0"
+                                                <input typeProcess="0" name="_rangeContacts" class="rangeContacts" min_aux="1" type="range" min="1"
                                                     max="100" value="0" class="sliderSelector">
                                             </div>
 
@@ -120,7 +120,11 @@
                                             class="rangeLimits">
                                                 <span class="rangeContactLimit">
                                                     1.000
-                                                </span class="rangeContactLimit">
+                                                </span>
+
+                                                <span class="rangeContactLimit">
+                                                  5.000
+                                                 </span>
 
                                                 <span class="desktopTabletElement rangeContactLimit">
                                                     25.000
@@ -147,8 +151,12 @@
 
                                             class="rangeLimits">
                                                 <span class="rangeContactLimit">
+                                                    1.000
+                                                </span>
+
+                                                <span class="rangeContactLimit">
                                                     5.000
-                                                </span class="rangeContactLimit">
+                                                </span>
 
                                                 <span class="desktopTabletElement rangeContactLimit">
                                                     25.000
@@ -176,7 +184,7 @@
                                     <div class="rw rw1">
 
                                         <div class="customPriceInput">
-                                            <input typeProcess="0" name="_contactsField" class="contactsField" step="1000" type="number" value="5000">
+                                            <input typeProcess="0" name="_contactsField" class="contactsField" step="1000" type="number" value="1000" min="1000">
                                         </div>
 
                                     </div>
@@ -192,7 +200,7 @@
 
 
                                     <div class="customPriceInput">
-                                        <input typeProcess="1" name="_contactsField" class="contactsField" step="1000" type="number" min="5000" value="5000">
+                                        <input typeProcess="1" name="_contactsField" class="contactsField" step="1000" type="number" min="1000" value="1000">
                                     </div>
 
 
@@ -206,7 +214,7 @@
                                         <div class="customSelectorRange">
 
                                             <div class="slidecontainer">
-                                                <input typeProcess="1" name="_rangeContacts" class="rangeContacts" type="range" min="5"
+                                                <input typeProcess="1" name="_rangeContacts" class="rangeContacts" min_aux="1" type="range" min="1"
                                                     max="100" value="0" class="sliderSelector">
                                             </div>
 
@@ -216,7 +224,7 @@
                                             class="rangeLimits">
                                                 <span class="rangeContactLimit">
                                                     1.000
-                                                </span class="rangeContactLimit">
+                                                </span>
 
                                                 <span class="desktopTabletElement rangeContactLimit">
                                                     25.000
@@ -238,7 +246,6 @@
                                             </div>
 
                                             <div
-
                                             scalePro
                                             class="rangeLimits">
                                                 <span class="rangeContactLimit">
@@ -373,37 +380,69 @@
                                                 id="buttonPayTime-year" class="selectorPricingButton active">
                                                 PAGAR ANUAL
                                                 <small class="desktopElement">
-                                                    30% de descuento
+                                                    20% de descuento
                                                 </small>
                                             </button>
 
                                         </div>
 
+                                        <div class="showInfosection">
 
+                                        {{-- <span class="discountExtra ">
+                                            <span class="discounter">
+                                                USD 135 / anual
+                                            </span>
+                                        </span> --}}
 
                                         <div class="priceFinalCalc">
 
                                             <span id="finalPriceCalc" class="finalPriceCalc">
-                                                USD 94.50 /mes
+                                                USD 77.60 / mes
                                             </span>
 
                                         </div>
 
-                                        <div class="offert">
+                                        <span class="ahorro discount ">
+                                            Pago total de <span>USD 1.164</span> <strong>- USD 931.20 / año</strong>
+                                        </span>
 
-                                            <p class="primaryText grayColorTexts5">
+                                        <div class="implementacion">
 
-                                                <span id="priceDotted">
-                                                    USD 135 /mes
-                                                </span> <br class="space">
-                                                <strong id="priceSaves">
-                                                    Ahorras USD 40.50
-                                                </strong>
-
-                                            </p>
-
+                                            <p class="primaryText">
+                                                <span class="t1">
+                                                    Implementación personalizada: <br class="space">
+                                                </span>
+                                                <span class="t2">
+                                                    <strong class="priceSaves">
+                                                        Pago único 450 USD
+                                                    </strong>
+                                                    <button class=" hoverInEffect openPopUpButton popup-pricing-implement">
+                                                        <i class="la la-question-circle"></i>
+                                                    </button>
+                                                </span>
+                                        </p>
 
                                         </div>
+                                        </div>
+
+
+                                        <div style="display: none" class="showInfosection outLimit">
+
+                                            <p class="primaryText grayColorTexts">
+
+                                                Si estás interesado en <span class="greenBlueColor"><strong>
+                                                    un plan mayor <br class="desktopTabletElement">
+                                                    a 100.000 contactos,
+                                                </strong>
+                                                </span> habla con uno de <br class="desktopTabletElement">
+                                                nuestros asesores y te ayudaremos a <br class="desktopTabletElement">
+                                                personalizar tu plan.
+
+                                             </p>
+
+                                        </div>
+
+
                                         <div class="finalButtons">
 
                                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
@@ -413,6 +452,13 @@
                                             <a
                                             class="secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                                 Solicitar Demo
+                                            </a>
+
+                                        </div>
+                                        <div style="display: none" class="finalButtons outLimit">
+
+                                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                                                Hablar con un asesor
                                             </a>
 
                                         </div>

@@ -4,14 +4,10 @@ namespace App\Controllers;
 
 use Sober\Controller\Controller;
 
-
 class Posts extends Controller
 {
-
-
     public static function getPosts($args)
     {
-
         $loop = new \Wp_Query($args);
         if ($loop->have_posts()) {
             return $loop;
@@ -20,18 +16,15 @@ class Posts extends Controller
         }
     }
 
-
     public static function getPhoto($id)
     {
-
         return wp_get_attachment_url(get_post_thumbnail_id($id));
     }
-
 
     public static function getWords($string, $num_of_words)
     {
         $string = preg_replace('/\s+/', ' ', trim($string));
-        $words = explode(" ", $string); // an array
+        $words = explode(' ', $string); // an array
 
         // if number of words you want to get is greater than number of words in the string
         if ($num_of_words > count($words)) {
@@ -39,16 +32,14 @@ class Posts extends Controller
             $num_of_words = count($words);
         }
 
-        $new_string = "";
-        for ($i = 0; $i < $num_of_words; $i++) {
-            $new_string .= $words[$i] . " ";
+        $new_string = '';
+        for ($i = 0; $i < $num_of_words; ++$i) {
+            $new_string .= $words[$i].' ';
         }
 
         return trim($new_string);
     }
 }
-
-
 
 // {WP_Post Object
 //     (
@@ -57,7 +48,6 @@ class Posts extends Controller
 //         [post_date] =&gt; 2021-06-01 11:05:10
 //         [post_date_gmt] =&gt; 2021-06-01 16:05:10
 //         [post_content] =&gt;
-
 
 // [post_title] =&gt; Estrategias de venta
 // [post_excerpt] =&gt;

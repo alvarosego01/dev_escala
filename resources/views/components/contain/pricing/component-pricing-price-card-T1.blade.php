@@ -24,7 +24,7 @@
     <input type="radio" class="planSelect check_opc2" name="planSelect" id="planSelect2" hidden/>
     <label for="planSelect2">
         Pago anual. <br class="space">
-        <span class="greenBlueColor">Ahorras 30%</span>
+        <span class="greenBlueColor">Ahorras 20%</span>
     </label>
 </div> --}}
 
@@ -33,7 +33,7 @@
 
 @php
     $pb_starter = 30;
-    $pb_pro = 135;
+    $pb_pro = 97;
     $c_desc = 0.30;
 
     $pd_starter = $pb_starter - ( $pb_starter * $c_desc );
@@ -55,39 +55,70 @@ $items = [
     [
         'name' => 'plan1',
         'type' => 'master',
-        'title' => 'Plan <span class="orangeColor">Starter</span>',
+        'title' => 'Plan <span class="greenBlueColor">Starter</span>',
         'price' => 'A partir de <br class="space">
+
+        <span class="discountExtra monthElement aux_hidden">
+
+        </span>
+
+        <span class="discountExtra anualElement aux_visible">
+            <span class="discounter">
+                USD 30 / mensual
+            </span>
+        </span>
+
         <span class="cost">
             <span
             style="display: none"
-            class="numerCost">30</span>
+            class="numerCost">USD 30 <small>/ mes</small></span>
             <span
             class="discountCost" style="display: flex">
-            <span>21 </span>
+            <span>
+                USD 24 <small>/ mes</small>
+            </span>
 
             </span>
             <span class="usd">
                 USD
+            </span>
+            <span class="ahorro discount monthElement aux_hidden">
+
+            </span>
+            <span class="ahorro discount anualElement aux_visible">
+                Pago total de <span>USD 360</span> <strong>- USD 288 / año</strong>
             </span>
         </span>',
         'pricePreviewMobie' => 'A partir de <br class="space">
+
+            <span class="discountExtra monthElement aux_hidden">
+
+            </span>
+
+            <span class="discountExtra anualElement aux_visible">
+                <span class="discounter">
+                    USD 30 / mensual
+                </span>
+            </span>
+
         <span class="cost">
 
             <span
             style="display: none"
-            class="numerCost">30</span>
+            class="numerCost">USD 30 <small>/ mes</small></span>
             <span
 
             class="discountCost" style="display: flex">
-            <span>21 </span>
-
+            <span>USD 24 <small>/ mes</small></span>
 
             </span>
-            <span class="usd">
-                USD
+
+            <span class="ahorro discount anualElement aux_visible">
+                Pago total de <span>USD 360</span> <strong>- USD 288 / año</strong>
             </span>
+
         </span>
-        <small class="preViewPriceTag">
+        <small class="preViewPriceTag anualElement aux_visible">
             Precio mensual en plan anual
         </small>
         ',
@@ -100,12 +131,13 @@ $items = [
         'customClasses' => 'cardPlan1',
         'extendInfoButton' => true,
         'discountTest' => '
-        <p class="primaryText">
+        <p style="visibility: hidden!important" class="primaryText">
 
-                <span class="t1">Pago total anual <span class="priceDotted">'. $pg_ta_starter .' USD</span></span>
+                <span class="t1">
+                    <span class="priceDotted"></span>
+                </span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento '. $pg_desc_starter .' USD
                     </strong>
                 </span>
         </p>',
@@ -179,49 +211,80 @@ $items = [
         'name' => 'plan2',
         'type' => 'master',
         'recomend' => true,
-        'title' => 'Plan <span class="greenBlueColor">Pro</span>',
+        'title' => 'Plan <span class="orangeColor">Pro</span>',
         'price' => 'A partir de <br class="space">
-        <span class="cost">
 
+        <span class="discountExtra monthElement aux_hidden">
+            <span class="discounter">
+
+            </span>
+        </span>
+
+
+        <span class="discountExtra anualElement aux_visible">
+            <span class="discounter">
+                USD 97 / mensual
+            </span>
+        </span>
+
+        <span class="cost">
             <span
             style="display: none"
-            class="numerCost">135</span>
+            class="numerCost">
+            USD 97 <small>/ mes</small>
+            </span>
             <span
             class="discountCost" style="display: flex">
-            <span>94</span>
-            <span class="smallDecimal">.50</span>
+            <span>
+                USD 77.60 <small>/ mes</small>
+                </span>
+
 
             </span>
-            <span class="usd">
-                USD
+
+            <span class="ahorro discount monthElement aux_hidden">
+
             </span>
+            <span class="ahorro discount anualElement aux_visible">
+              Pago total de <span>USD 1.164</span> <strong>- USD 931.20 / año</strong>
+            </span>
+
         </span>
-        <span class="specialNote">
-            <small>
-                Implementación personalizada: <br class="mobileElement">
-                <strong>Pago único 450 USD</strong>
-            </small>
-            <button class=" hoverInEffect openPopUpButton popup-pricing-implement">
-                <i class="la la-question-circle"></i>
-            </button>
-        </span>
+
         ',
         'pricePreviewMobie' => 'A partir de <br class="space">
+
+        <span class="discountExtra monthElement aux_hidden">
+            <span class="discounter">
+                USD 97 / mensual
+            </span>
+        </span>
+
+
+        <span class="discountExtra anualElement aux_visible">
+            <span class="discounter">
+                USD 97 / mensual
+            </span>
+        </span>
+
         <span class="cost">
 
             <span
             style="display: none"
-            class="numerCost">135</span>
+            class="numerCost">USD 97 <small>/ mes</small></span>
             <span
             class="discountCost" style="display: flex">
-            <span>94</span><span class="smallDecimal">.50</span>
+            <span>
+                USD 77.60 <small>/ mes</small>
+                </span>
 
             </span>
-            <span class="usd">
-                USD
+            <span class="ahorro discount anualElement aux_visible">
+              Pago total de <span>USD 1.164</span> <strong>- USD 931.20 / año</strong>
             </span>
+
         </span>
-        <small class="preViewPriceTag">
+        <small class="preViewPriceTag anualElement aux_visible">
             Precio mensual en plan anual
         </small>
         ',
@@ -235,13 +298,16 @@ $items = [
         'customClasses' => 'cardPlan2',
         'discountTest' => '
         <p class="primaryText">
-
-
-                <span class="t1">Pago total anual <span class="priceDotted">'. $pg_ta_pro .' USD</span></span>
+                <span class="t1">
+                    Implementación personalizada: <br class="space">
+                </span>
                 <span class="t2">
                     <strong class="priceSaves">
-                        Con descuento '. $pg_desc_pro .' USD
+                        Pago único 450 USD
                     </strong>
+                    <button class=" hoverInEffect openPopUpButton popup-pricing-implement">
+                        <i class="la la-question-circle"></i>
+                    </button>
                 </span>
         </p>',
         'extendDetails' => [
@@ -255,7 +321,7 @@ $items = [
             [
                 'title' => 'Email Marketing',
                 'items' => [
-                    'Emails marketing al mes: <strong>50.000</strong>',
+                    'Emails marketing al mes: <strong>10.000</strong>',
                     'Plantillas: <strong>todas las disponibles</strong>'],
             ],
             [
@@ -275,7 +341,7 @@ $items = [
                 'title' => 'CRM',
                 'items' => [
                     'Contactos en base de datos: <strong>1.000.000</strong>',
-                    'Contactos de marketing: <strong>5.000</strong>',
+                    'Contactos de marketing: <strong>1.000</strong>',
                     'Usuarios de venta: <strong>1</strong>',
                     'Emails de CRM: <strong>ilimitados</strong>',
                     'Múltiples embudos de ventas: <strong>10</strong>',
@@ -472,7 +538,7 @@ $items = [
                                 <div class="elementBody desktopElement versionPc2022">
 
                                     <div
-                                    style="margin-bottom: 90px"
+                                    style="margin-bottom: 60px"
                                     class="price">
 
                                         <p>
@@ -515,7 +581,7 @@ $items = [
                                                         </span>
                                                         <span class="pill-button-selection pill-button-selection_off pill-button-selection_active">
                                                             Pago anual. <br class="space">
-                                                            <span class="greenBlueColor">Ahorras 30%</span>
+                                                            <span class="greenBlueColor">Ahorras 20%</span>
                                                         </span>
                                                         <span class="pill-button-highlight"></span>
                                                     </span>
@@ -529,7 +595,7 @@ $items = [
 
                                                     {{-- style="display: none;"  --}}
                                                     <div
-                                                    typeplan="{{ $item['name'] }}"
+
                                                         class="discountData">
                                                         {!! $item['discountTest'] !!}
                                                     </div>
@@ -675,7 +741,7 @@ $items = [
                                     <div class="preView">
 
                                         <div
-                                        style="margin-bottom: 90px"
+                                        style="margin-bottom: 60px"
                                         class="price">
                                             <p>
 
@@ -700,7 +766,7 @@ $items = [
 
 
                                     <div
-                                    style="margin-bottom: 90px"
+                                    style="margin-bottom: 60px"
                                     class="price">
 
                                         <p>
@@ -717,37 +783,6 @@ $items = [
 
                                             @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
 
-                                                @if (isset($item['discountTest']) && $item['discountTest'] != null)
-
-                                                    <div class="extraPriceInfo">
-
-                                                        {{-- style="display: none;"  --}}
-                                                        <div
-                                                        typeplan="{{ $item['name'] }}"
-                                                            class="discountData">
-                                                            {!! $item['discountTest'] !!}
-                                                        </div>
-                                                    </div>
-
-                                                @endif
-
-                                                {{-- <div class="selectorSwitch">
-                                                    <small>
-                                                        Mensual
-                                                    </small>
-                                                    <label class="switchCustom">
-                                                        <input
-                                                        checked
-                                                            class="modePlanSelect"
-                                                            onclick="discountByPlanCard('{{ $item['name'] }}', this)"
-                                                            value="1" type="checkbox" />
-                                                        <div></div>
-                                                    </label>
-                                                    <small>
-                                                        Anual
-                                                    </small>
-                                                </div> --}}
-
                                                 <div class="selectorSlizeButton">
 
                                                     <input slizeRadioButton type="checkbox" class="pill-button-input" checked="checked" value="1" onclick="discountByPlanCard('{{ $item['name'] }}', this)" >
@@ -757,12 +792,27 @@ $items = [
                                                         </span>
                                                         <span class="pill-button-selection pill-button-selection_off pill-button-selection_active">
                                                             Pago anual. <br class="space">
-                                                            <span class="greenBlueColor">Ahorras 30%</span>
+                                                            <span class="greenBlueColor">Ahorras 20%</span>
                                                         </span>
                                                         <span class="pill-button-highlight"></span>
                                                     </span>
 
                                                 </div>
+
+                                                @if (isset($item['discountTest']) && $item['discountTest'] != null)
+
+                                                <div class="extraPriceInfo">
+
+                                                    {{-- style="display: none;"  --}}
+                                                    <div
+                                                    typeplan="{{ $item['name'] }}"
+                                                        class="discountData">
+                                                        {!! $item['discountTest'] !!}
+                                                    </div>
+                                                </div>
+
+                                            @endif
+
 
 
                                             @endif
