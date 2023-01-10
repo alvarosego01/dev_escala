@@ -43,5 +43,12 @@
 
         @endif
 
+        @if ($l2 != null && $l2 == 'headerBand_whatsapp_T1')
+
+            @headerBand_whatsapp_T1($parameters)
+            @endheaderBand_whatsapp_T1
+
+        @endif
+
 
     @endif

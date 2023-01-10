@@ -571,9 +571,45 @@ con todas las herramientas en una plataforma',
   'side' => 'right',
  ) ;
 @endphp
-
 @contain_text_image_T1( $parameters )
 @endcontain_text_image_T1
+
+ @php
+ $parameters = array(
+  'type' => 'backgroundColor',
+  'classSection' => 'homeSection_6',
+  'enableTitle' => false,
+  'titlePrincipal' => null,
+  'subTitlePrincipal' => null,
+  'img' => App::setFilePath('/assets/images/illustrations/others/whatsapp_home_image.png'),
+  'title' => '
+  <small class="smallEscalaTag">
+   WhatsApp
+  </small> <br class="space">
+    Mejorar tu capacidad <br class="desktopTabletElement">
+    de respuesta e integra ágilmente <br class="desktopTabletElement">
+    WhatsApp a tu estrategia
+  ',
+  'text' => '
+    <ul class="text">
+        <li>Opera manos libres programando acciones y respuestas</li>
+        <li>Comunícate en tiempo real y gestiona tus <br class="desktopTabletElement">
+        conversaciones desde una sola herramienta</li>
+        <li>Gestiona tus contactos ¡desde tu propio <br class="desktopTabletElement"> WhatsApp Web también!</li>
+        <li>Captura y guarda automáticamente los datos <br class="desktopTabletElement">
+       de tus leads en el CRM</li>
+    </ul>
+  ',
+  'enableButton' => false,
+  'urlButton' => '#lead-form',
+  'textButton' => 'Prueba Gratis',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'side' => 'left',
+ ) ;
+@endphp
+@contain_text_image_T1( $parameters )
+@endcontain_text_image_T1
+
  @php
  $parameters = array(
   'type' => 'backgroundColor',
@@ -600,7 +636,7 @@ con todas las herramientas en una plataforma',
   'urlButton' => '#lead-form',
   'textButton' => 'Prueba Gratis',
   'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-  'side' => 'left',
+  'side' => 'right',
  ) ;
 @endphp
 
@@ -632,7 +668,7 @@ con todas las herramientas en una plataforma',
   'urlButton' => '#lead-form',
   'textButton' => 'Prueba Gratis',
   'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-  'side' => 'right',
+  'side' => 'left',
  ) ;
 @endphp
 
@@ -665,7 +701,7 @@ con todas las herramientas en una plataforma',
   'urlButton' => '#lead-form',
   'textButton' => 'Prueba Gratis',
   'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-  'side' => 'left',
+  'side' => 'right',
  ) ;
 @endphp
 
