@@ -502,6 +502,127 @@ function revealMobileView(type = null, plan) {
 
 
 
+function discountByPlanCard(type, element) {
+
+  if (type != null) {
+
+    if (element.checked == true) {
+
+      if (jQuery('[typeplan=' + type + ']').length > 0) {
+
+
+        // if(planCheck != null && planCheck != type){
+
+        //     jQuery('#' + planCheck + ' .modePlanSelect').prop( "checked", false );
+
+        //     jQuery('[typeplan='+ planCheck +']').css({
+        //         'display': 'none'
+        //     });
+        //     jQuery('#'+ planCheck +' .usd').css({
+        //         'display': 'block'
+        //     });
+
+        //     jQuery('#' + planCheck + ' .'+ planCheck).css({
+        //             'display': 'none'
+        //         });
+        //         jQuery('#' + planCheck + ' .numerCost').css({
+        //         'display': 'block'
+        //     });
+
+        // }
+
+        jQuery('.modePlanSelect').prop('checked', true);
+
+        jQuery('.discountCost').css({
+          'display': 'flex',
+        });
+        jQuery('.numerCost').css({
+          'display': 'none',
+        });
+        jQuery('[typeplan*="plan"]').css({
+          'display': 'block',
+        });
+        // jQuery('.usd').css({
+        //     'display': 'none'
+        // });
+        jQuery('.ncost').css({
+          'display': 'block',
+        });
+
+
+        jQuery('.price').css({
+          'margin-bottom': '60' + 'px',
+        });
+
+
+        jQuery('#plan3.elementParent .middle .innerMiddle').removeClass('reduceDiv');
+
+
+        // _costStarter = 24;
+        // _costPro = 65;
+        _costStarter = 21;
+        _costPro = 95;
+
+        jQuery('[calculator_price_starter]').text('USD ' + _costStarter);
+        jQuery('[calculator_price_pro]').text('USD ' + _costPro);
+
+        setEnableElements('pro');
+        return;
+      }
+
+
+    }
+
+    if (element.checked == false) {
+
+
+      if (jQuery('[typeplan=' + type + ']').length > 0) {
+
+        jQuery('.modePlanSelect').prop('checked', false);
+
+        jQuery('.discountCost').css({
+          'display': 'none',
+        });
+        jQuery('.numerCost').css({
+          'display': 'block',
+        });
+        jQuery('[typeplan*="plan"]').css({
+          'display': 'none',
+        });
+        // jQuery('.usd').css({
+        //     'display': 'block'
+        // });
+        jQuery('.ncost').css({
+          'display': 'none',
+        });
+
+
+        jQuery('.price').css({
+          'margin-bottom': '60' + 'px',
+        });
+
+
+        jQuery('#plan3.elementParent .middle .innerMiddle').addClass('reduceDiv');
+
+        _costStarter = 30;
+        _costPro = 135;
+
+        jQuery('[calculator_price_starter]').text('USD ' + _costStarter);
+        jQuery('[calculator_price_pro]').text('USD ' + _costPro);
+
+        setEnableElements('starter');
+        return;
+      }
+
+
+    }
+
+  }
+
+
+}
+
+
 
 function calculateFinal(data) {
 
