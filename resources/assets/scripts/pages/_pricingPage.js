@@ -144,9 +144,6 @@ function calculate_contact_per_steps(n) {
 
     let aux_result = 0;
 
-
-
-
     let aux_index = new_escalaContactsPro.findIndex(r => {
 
         if (n >= r.range[0] && n <= r.range[1]) {
@@ -409,6 +406,7 @@ function percentOfRange(value, type) {
 
             PercTonumber = Math.trunc(PercTonumber);
 
+
             PercTonumber = redondeaAlAlza(PercTonumber, -1000);
 
 
@@ -420,6 +418,94 @@ function percentOfRange(value, type) {
 
 }
 
+
+function calculateRangeValue_byField(value){
+
+    let lowLimit, limit, completeLowLimit, completeLimit;
+
+    if(value < 1000){
+        value = 1000;
+    }
+
+
+    value = value / 1000;
+
+    if(value > 100){
+        jQuery('.rangeContacts').val(100);
+        value = 100;
+        return;
+    }
+
+       if (value >= 0 && value <= 5) {
+
+            lowLimit = 0;
+            limit = 5;
+
+            rangeLimit = 20;
+            rangeLowLimit = 0;
+
+        }
+       if (value >= 6 && value <= 25) {
+
+            lowLimit = 6;
+            limit = 25;
+
+            rangeLimit = 36;
+            rangeLowLimit = 21;
+
+        }
+       if (value >= 26 && value <= 50) {
+
+            lowLimit = 26;
+            limit = 50;
+
+            rangeLimit = 55;
+            rangeLowLimit = 37;
+
+        }
+       if (value >= 51 && value <= 75) {
+
+            lowLimit = 51;
+            limit = 75;
+
+            rangeLimit = 75;
+            rangeLowLimit = 56;
+
+        }
+       if (value >= 76 && value <= 100) {
+
+            lowLimit = 76;
+            limit = 100;
+
+            rangeLimit = 100;
+            rangeLowLimit = 76;
+
+        }
+
+            let PercTonumber = null;
+            let valToPerc = ((value - lowLimit) / (limit - lowLimit)) * 100;
+
+
+            PercTonumber = (rangeLimit - rangeLowLimit) * (valToPerc / 100) + rangeLowLimit;
+
+
+            PercTonumber = Math.trunc(PercTonumber);
+
+            // PercTonumber = redondeaAlAlza(PercTonumber, +1);
+            PercTonumber =  Math.round(PercTonumber);
+
+
+            if(PercTonumber <= 4){
+                PercTonumber = 1;
+            }
+
+
+            jQuery('.rangeContacts').val(PercTonumber);
+            // jQuery('.rangeContacts').click();
+
+
+
+}
 
 function calculateRangeValue(data) {
 
@@ -433,7 +519,6 @@ function calculateRangeValue(data) {
     aux = parseInt(aux);
     range = parseInt(range);
 
-    console.log('rango', range);
 
     //   if (range <= 95) {
     //     range = range + aux;
@@ -921,7 +1006,6 @@ function setConfigModeSelect(element) {
 
         }
 
-        console.log('el input este', input_value);
 
         clickAllField('.rangeContacts');
 
@@ -968,14 +1052,14 @@ function preventContactField() {
         // jQuery('input.contactsField').val(number);
         setAllField(number, 'input.contactsField');
 
-        let l = number / 1000;
-        l = Math.trunc(l);
+        // let l = number / 1000;
+        // l = Math.trunc(l);
 
-        if (min == 1000) {
-            l = l - 5;
-        }
+        // if (min == 1000) {
+        //     l = l - 5;
+        // }
 
-        jQuery('.rangeContacts').val(l);
+        // jQuery('.rangeContacts').val(l);
 
         clickAllField('.rangeContacts');
 
@@ -1130,17 +1214,20 @@ jQuery(document).ready(function () {
 
         if (jQuery(e.target).is('.rangeContacts')) {
 
-
             calculate._contactsField[typeProcess] = calculateRangeValue(calculate);
-
-
         }
 
         calculateFinal(calculate);
 
         let m = jQuery('input.contactsField[typeProcess=' + typeProcess + ']').val();
-
         m = parseInt(m);
+
+
+        if (jQuery(e.target).is('.contactsfield')) {
+
+            calculateRangeValue_byField(m)
+
+        }
 
 
         if (m > 100000) {
