@@ -20,7 +20,7 @@
                         <span style="color: #36768A">
                             <strong>¡Escala ahora potencia WhatsApp!</strong> - conoce las nuevas herramientas
                         </span>
-                        <a href="#" class="greenWhatsappButton hoverInEffect openPopUpButton popup-general-special-1m-promo-2023">
+                        <a href="/whatsapp" class="greenWhatsappButton hoverInEffect ">
                            Conocerlas ahora
                         </a>
                     </p>

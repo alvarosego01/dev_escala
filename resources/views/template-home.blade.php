@@ -586,7 +586,7 @@ con todas las herramientas en una plataforma',
   <small class="smallEscalaTag">
    WhatsApp
   </small> <br class="space">
-    Mejorar tu capacidad <br class="desktopTabletElement">
+    Mejora tu capacidad <br class="desktopTabletElement">
     de respuesta e integra ágilmente <br class="desktopTabletElement">
     WhatsApp a tu estrategia
   ',
