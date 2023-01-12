@@ -538,6 +538,30 @@ a
     @include responsivo(smallPcTablet)
         font-size: 14px
 
+.greenWhatsappButton,
+.menuButton.menugreenWhatsappButton a,
+.menuButton.menugreenWhatsappButton button
+    display: inline-block
+    text-decoration: none
+    font-size: 18px
+    line-height: 1
+    padding: 12.5px 25px!important
+    border-radius: 7px
+    color: #FFFFFF
+    background-color: #00D35B!important
+    width: fit-content
+    transition: $transitionButton
+    transform: scale(1)
+    font-family: Nunito
+    @include responsivo(telefonoTable)
+        font-size: 12.5px!important
+        padding: 10px 12.5px!important
+    @include responsivo(pcMedio)
+        font-size: 18px!important
+        padding: 10px 25px!important
+    @include responsivo(smallPcTablet)
+        font-size: 14px
+
 
 
 .menuButton.menuPrimaryButton a,
@@ -724,6 +748,14 @@ a
         transform: scale(1.075)
         color: #00506B!important
         background-color: #FAD872!important
+
+.hoverInEffect.greenWhatsappButton,
+.menuHoverInEffect.menuButton.menugreenWhatsappButton a,
+.menuHoverInEffect.menuButton.menugreenWhatsappButton button
+    &:hover
+        transform: scale(1.075)
+        color: #fff!important
+        background-color: #00D35B!important
 
 
 .hoverInEffect.primaryButton,

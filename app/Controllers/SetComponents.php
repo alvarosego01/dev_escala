@@ -56,6 +56,7 @@ class SetComponents extends Controller
     {
         return [
             'components.headerBands.component-headerBand-promo-T1' => 'headerBand_promo_T1',
+            'components.headerBands.component-headerBand-whatsapp-T1' => 'headerBand_whatsapp_T1',
             'components.headerBands.component-headerBand-blackFriday-T1' => 'headerband_blackFriday_promo_t2',
             'components.headerBands.component-headerBand-special-promo-1m-T1' => 'headerband_special_1m_promo_t1',
         ];
