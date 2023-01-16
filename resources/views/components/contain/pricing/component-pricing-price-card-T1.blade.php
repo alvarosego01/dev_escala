@@ -146,7 +146,7 @@ $items = [
             [
                 'title' => 'Landing page',
                 'items' => ['
-                Páginas: <strong>ilimitadas</strong>',
+                Páginas: <strong>Ilimitadas</strong>',
                 'Subdominio personalizado',
                 'Dominios propios: <strong>1</strong>'
             ],
@@ -165,7 +165,7 @@ $items = [
             [
                 'title' => 'Formularios',
                 'items' => [
-                    'Número de formularios: <strong>ilimitados</strong>'
+                    'Número de formularios: <strong>Ilimitados</strong>'
                 ],
             ],
             [
@@ -174,7 +174,7 @@ $items = [
                     'Contactos en base de datos: <strong>1.000.000</strong>',
                     'Contactos de marketing: <strong>1.000</strong>',
                     'Usuarios de venta: <strong>1</strong>',
-                    'Emails de CRM: <strong>ilimitados</strong>',
+                    'Emails de CRM: <strong>Ilimitados</strong>',
                     'Múltiples embudos de ventas: 1'
                 ],
             ],
@@ -183,7 +183,7 @@ $items = [
                 'title' => 'Anuncios Digitales',
                 'items' => [
                     'Cuentas de Facebook Ads Manager: <strong>1</strong>',
-                    'Campañas publicadas: <strong>ilimitadas</strong>'
+                    'Campañas publicadas: <strong>Ilimitadas</strong>'
                 ],
             ],
 
@@ -198,7 +198,7 @@ $items = [
             [
                 'title' => null,
                 'items' => [
-                    'Landing Pages limitadas',
+                    'Landing Pages ilimitadas',
                     'Dominio personalizado',
                     'CRM integrado',
                     'Formularios ilimitados',
@@ -314,7 +314,7 @@ $items = [
             [
                 'title' => 'Landing page',
                 'items' => [
-                    'Páginas: <strong>ilimitadas</strong>',
+                    'Páginas: <strong>Ilimitadas</strong>',
                     'Subdominio personalizado',
                     'Dominios propios: <strong>5</strong>'],
             ],
@@ -334,7 +334,7 @@ $items = [
             [
                 'title' => 'Formularios',
                 'items' => [
-                    'Número de formularios: <strong>ilimitados</strong>'
+                    'Número de formularios: <strong>Ilimitados</strong>'
                 ],
             ],
             [
@@ -343,7 +343,7 @@ $items = [
                     'Contactos en base de datos: <strong>1.000.000</strong>',
                     'Contactos de marketing: <strong>1.000</strong>',
                     'Usuarios de venta: <strong>1</strong>',
-                    'Emails de CRM: <strong>ilimitados</strong>',
+                    'Emails de CRM: <strong>Ilimitados</strong>',
                     'Múltiples embudos de ventas: <strong>10</strong>',
                     'Lead scoring',
                     'Segmentación avanzada',
@@ -354,7 +354,7 @@ $items = [
                 'title' => 'Anuncios Digitales',
                 'items' => [
                     'Cuentas de Facebook Ads Manager: <strong>3</strong>',
-                    'Campañas publicadas: <strong>ilimitadas</strong>'
+                    'Campañas publicadas: <strong>Ilimitadas</strong>'
                 ],
             ],
             [
@@ -413,7 +413,7 @@ $items = [
             [
                 'title' => 'Landing page',
                 'items' => [
-                    'Páginas: <strong>ilimitadas</strong>',
+                    'Páginas: <strong>Ilimitadas</strong>',
                     'Subdominio personalizado',
                     'Dominios propios'
                 ],
@@ -428,14 +428,14 @@ $items = [
             [
                 'title' => 'Automatizaciones',
                 'items' => [
-                    'Flujos: <strong>ilimitados</strong>',
+                    'Flujos: <strong>Ilimitados</strong>',
                     'Bifurcaciones de flujos'
             ],
             ],
             [
                 'title' => 'Formularios',
                 'items' => [
-                    'Número de formularios: <strong>ilimitados</strong>'
+                    'Número de formularios: <strong>Ilimitados</strong>'
                 ],
             ],
             [
@@ -444,7 +444,7 @@ $items = [
                     'Contactos en base de datos: <strong>10.000.000</strong>',
                     'Contactos de marketing: <strong>A partir de 100.000</strong>',
                     'Usuarios de venta',
-                    'Emails de CRM: <strong>ilimitados</strong>',
+                    'Emails de CRM: <strong>Ilimitados</strong>',
                     'Múltiples embudos de ventas',
                     'Lead scoring',
                     'Segmentación avanzada',
@@ -455,7 +455,7 @@ $items = [
                 'title' => 'Anuncios Digitales',
                 'items' => [
                     'Cuentas de Facebook Ads Manager',
-                    'Campañas publicadas: <strong>ilimitadas</strong>'],
+                    'Campañas publicadas: <strong>Ilimitadas</strong>'],
             ],
             [
                 'title' => 'Analíticas',
