@@ -784,7 +784,7 @@
                             display: block
                             margin: auto
                             @include responsivo(telefonoTable)
-                                height: 250px
+                                height: 200px
                                 margin-bottom: 0
                             @include responsivo(pcMedio)
                                 height: 275px
@@ -1218,8 +1218,8 @@
 
 
         .innerSectionElement.sct2
-            @include responsivo(telefonoTable)
-
+            // @include responsivo(telefonoTable)
+                // width: 100%!important
             @include responsivo(pcMedio)
                 width: 50%
             .groupElements
@@ -1230,6 +1230,9 @@
                 margin: 0 10px
                 display: flex
                 flex-direction: column
+                @include responsivo(telefonoTable)
+                    margin: 0
+
                 @include responsivo(general)
                     padding-top: 70px
                 @include responsivo(resto)
