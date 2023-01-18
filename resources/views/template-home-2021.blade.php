@@ -96,10 +96,23 @@
                               {!! do_shortcode($f) !!}
 
                           @else
-
-                              {!! do_shortcode('[contact-form-7 id="5844" title="Profile demo - Prueba Escala Ahora"]') !!}
-
-                          @endif
+                                    @php
+                                        $_args = array('post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1);
+                                        $_rs = array();
+                                        $_formShortcode = null;
+                                        if( $_data = get_posts($_args)){
+                                            foreach($_data as $_key){
+                                                $_rs[$_key->ID] = $_key->post_title;
+                                                if( $_key->post_title === 'Profile demo - Flujo Demo' ){
+                                                    $_formShortcode = '[contact-form-7 id="'.$_key->ID.'"]';
+                                                }
+                                            }
+                                        }else{
+                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
+                                    @endphp
+                                {!! do_shortcode($_formShortcode); !!}
+                                @endif
 
 
                       </div>
