@@ -24,7 +24,7 @@
                     'title' => 'Conoce los casos <br class="space"> de éxito de <span class="blueLightColor10">Escala</span>',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/illustrations/otto/otto_canon.png'),
-                    'textForm' => '¡Comienza ahora!',
+                    'textForm' => 'Recibe un tour guiado de Escala',
                     'overlayImage' => null,
                     'threeCol' => false,
                     'overlayMultiple' => $overlayMultiple,
@@ -97,7 +97,7 @@
                                         </div>
                                     @endif
 
-                                    <a href="{{ $turl }}" class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                                    <a href="{{ $turl }}" class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                         Ver caso de éxito
                                     </a>
 
@@ -158,7 +158,7 @@
                     'enableButton' => true,
                     'urlButton' => '#lead-form',
                     'textButton' => 'Hablar con un asesor',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                     'side' => 'right',
                 ];
             @endphp

@@ -27,7 +27,7 @@ contactos en clientes',
   'text' => 'El arma secreta de tu fuerza de ventas: <br>
 el CRM de Escala. Un sistema para <br> administrar la relación con tus clientes.',
   'image' => App::setFilePath('/assets/images/illustrations/otto/Otto_CRM-01.png'),
-  'textForm' => 'Empieza a probar Escala',
+  'textForm' => 'Recibe un tour guiado de Escala',
   'overlayImage' => null,
   'threeCol' => false,
  ) ;
@@ -71,8 +71,8 @@ toda esa información quedará <strong>automáticamente almacenada en tu CRM de 
 ¡Tu día, mes y año podrían ser 1000% más productivos!',
 'enableButton' => true,
 'urlButton' => '#lead-form',
-'textButton' => 'Comenzar ahora',
-'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+'textButton' => 'Recibe un demo',
+'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 'side' => 'left',
 ) ;
 @endphp
@@ -94,8 +94,8 @@ Nutrir la relación y ¡cerrar la venta!
 ',
 'enableButton' => false,
 // 'urlButton' => '#lead-form',
-// 'textButton' => 'Comenzar ahora',
-// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+// 'textButton' => 'Recibe un demo',
+// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 'side' => 'right',
 ) ;
 @endphp
@@ -137,8 +137,8 @@ con etiquetas avanzadas</span>',
 'text' => 'La clave para aprovechar al máximo tu CRM es organizar la información. <br> Segmenta tus bases de datos por campaña, productos/servicios de <br> interés, clientes de alto potencial y clientes desafiantes. No solo llegarás <br> a tu público más fácilmente, sino que podrás enviar mensajes relevantes <br> a contactos específicos.',
 'enableButton' => true,
 'urlButton' => '#lead-form',
-'textButton' => 'Pruébalo ahora',
-'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+'textButton' => 'Recibe un tour guiado de Escala',
+'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 'side' => 'right',
 ) ;
 @endphp
@@ -162,7 +162,7 @@ Con nuestro CRM, puedes responder las siguientes preguntas <br> para construir r
 'enableButton' => false,
 // 'urlButton' => '#lead-form',
 // 'textButton' => 'Optimizar resultados',
-// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 'side' => 'left',
 ) ;
 @endphp
@@ -188,7 +188,7 @@ En minutos puedes analizar para optimizar tu ventas.',
 'enableButton' => false,
 // 'urlButton' => '#lead-form',
 // 'textButton' => 'Optimizar resultados',
-// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 'side' => 'right',
 ) ;
 @endphp
@@ -210,8 +210,8 @@ $parameters = array(
 Escala será el mejor amigo de tu gerente de ventas',
 'enableButton' => true,
 'urlButton' => '#lead-form',
-'textButton' => 'Comenzar ahora',
-'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+'textButton' => 'Recibe un demo',
+'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 'side' => 'left',
 ) ;
 @endphp
@@ -235,8 +235,8 @@ $parameters = array(
 ¡Toma mejores decisiones considerando esta información!',
 'enableButton' => false,
 // 'urlButton' => '#lead-form',
-// 'textButton' => 'Comenzar ahora',
-// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+// 'textButton' => 'Recibe un demo',
+// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 'side' => 'right',
 ) ;
 @endphp
@@ -255,8 +255,8 @@ $parameters = array(
 'text' => 'Obtén datos claves e identifica patrones de comportamiento para mejorar <br> la comunicación con tus clientes. Usa esta información para tomar mejores <br> decisiones y optimizar una estrategia de ventas exitosa.',
 'enableButton' => false,
 // 'urlButton' => '#lead-form',
-// 'textButton' => 'Comenzar ahora',
-// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+// 'textButton' => 'Recibe un demo',
+// 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 'side' => 'left',
 ) ;
 @endphp
@@ -276,7 +276,7 @@ $parameters = array(
 <sspan class="blueLightColor3">como si tu crecimiento <br> dependiera de ello.</sspan>',
 'text' => null,
 'enableButton' => true,
-'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 'urlButton' => '#lead-form',
 'textButton' => 'Probar el CRM ahora',
 'side' => 'right',

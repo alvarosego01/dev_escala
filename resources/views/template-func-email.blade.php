@@ -30,7 +30,7 @@ relaciones se enfríen!',
      'text' => 'Diseña y envía campañas <br> de emails atractivas con Escala.',
     //  'image' => '//localhost:3000/escala/wp-content/themes/oceanwp-child/resources/assets/images/illustrations/team/10 1.png',
      'image' => App::setFilePath('/assets/images/illustrations/team/10 1.png'),
-     'textForm' => 'Empieza a probar Escala',
+     'textForm' => 'Recibe un tour guiado de Escala',
      'threeCol' => true,
      'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
   'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas 2.png'),
@@ -70,8 +70,8 @@ relaciones se enfríen!',
 ¡En minutos, tendrás una campaña con emails pidiendo ser abiertos!',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Comenzar ahora',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -94,8 +94,8 @@ Con Escala sabrás quiénes de tus contactos abrieron los emails y cuándo.
 Aún mejor, ¡sabrás si tus emails están generando ventas!',
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
-  // 'textButton' => 'Comenzar ahora',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'textButton' => 'Recibe un demo',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -141,7 +141,7 @@ Con Escala, hemos desarrollado la tecnología que minimiza el riesgo de <br> cae
 'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Publicar modo flash',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -162,7 +162,7 @@ Con Escala, hemos desarrollado la tecnología que minimiza el riesgo de <br> cae
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Optimizar resultados',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -189,7 +189,7 @@ de las conversaciones uno a uno.',
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Enviar emails',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -251,7 +251,7 @@ de las conversaciones uno a uno.',
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Probar email marketing ahora',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
 
  ) ;

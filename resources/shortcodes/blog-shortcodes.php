@@ -5,7 +5,7 @@ function type_button($type)
     $type_button = null;
     if (isset($type)) {
         if ($type == 'trial') {
-            $type_button = 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022';
+            $type_button = 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022';
         }
         if ($type == 'demo') {
             $type_button = 'secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022';
@@ -88,14 +88,14 @@ function component_blog_cta_1($atts)
 
                         if (isset($a['type_button']) && $a['type_button'] != null) { ?>
                             <a class="<?php echo $type_button ?>" >
-                                ¡Prueba Gratis!
+                                ¡Recibe un demo!
                             </a>
                             <?php
                         }
                             if (isset($a['url']) && $a['url'] != null) {
                                 ?>
                                 <a class="<?php echo $type_button ?>" href="<?php echo $url ?>">
-                                    ¡Prueba Gratis!
+                                    ¡Recibe un demo!
                                 </a>
                                 <?php
                             } ?>
@@ -168,14 +168,14 @@ function component_blog_cta_2($atts)
 
                         if (isset($a['type_button']) && $a['type_button'] != null) { ?>
                             <a class="<?php echo $type_button ?>" >
-                                ¡Prueba Gratis!
+                                ¡Recibe un demo!
                             </a>
                             <?php
                         }
                             if (isset($a['url']) && $a['url'] != null) {
                                 ?>
                                 <a class="<?php echo $type_button ?>" href="<?php echo $url ?>">
-                                    ¡Prueba Gratis!
+                                    ¡Recibe un demo!
                                 </a>
                                 <?php
                             } ?>
@@ -258,14 +258,14 @@ function component_blog_cta_3($atts)
 
                 if (isset($a['type_button']) && $a['type_button'] != null) { ?>
                         <a class="<?php echo $type_button ?>" >
-                            ¡Prueba Gratis!
+                            ¡Recibe un demo!
                         </a>
                         <?php
                     }
                         if (isset($a['url']) && $a['url'] != null) {
                             ?>
                             <a class="<?php echo $type_button ?>" href="<?php echo $url ?>">
-                                ¡Prueba Gratis!
+                                ¡Recibe un demo!
                             </a>
                             <?php
                         }

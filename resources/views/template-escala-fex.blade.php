@@ -113,8 +113,8 @@
 
                 <p class="primaryText grayColorTexts"><strong>¿No estás seguro de qué hacer o cómo avanzar?</strong> Nuestros estrategas expertos en marketing digital y ventas conocen acerca de tus necesidades y comparten conocimientos probados para conseguir mejores resultados.</p>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                  Probar escala ahora
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                  Recibe un demo
                 </a>
 
 
@@ -365,8 +365,8 @@
             <h3 class="primaryTitle whiteText">Empieza a escalar tu negocio con éxito
             </h3>
 
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-              Probar escala ahora
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+              Recibe un demo
             </a>
 
 
@@ -504,8 +504,8 @@
 
                 <p class="primaryText grayColorTexts"><strong>¿No estás seguro de qué hacer o cómo avanzar?</strong> Nuestros estrategas expertos en marketing digital y ventas conocen acerca de tus necesidades y comparten conocimientos probados para conseguir mejores resultados.</p>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                  Probar escala ahora
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                  Recibe un demo
                 </a>
 
 

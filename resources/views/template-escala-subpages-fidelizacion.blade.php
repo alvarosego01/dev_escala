@@ -25,7 +25,7 @@ para acelerar el crecimiento de tu negocio.
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Comienza ahora',
+     'textForm' => 'Recibe un tour guiado de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/escala_tablet_fidelizacion.png'),
@@ -49,8 +49,8 @@ $parameters = [
     'overlay' => false,
     'enableButton' => false,
     // 'urlButton' => '#',
-    // 'textButton' => '¡Comenzar ahora!',
-    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+    // 'textButton' => 'Recibe un demo',
+    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -320,8 +320,8 @@ enamorando a tus clientes.
 
           <div class="containElements">
 
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-              ¡Probar Escala ahora!
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+              ¡Recibe un demo!
             </a>
 
           </div>
@@ -347,8 +347,8 @@ En Escala siempre te damos más
         'overlayImage' => null,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => '¡Probar Escala ahora!',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 goToHash',
+        'textButton' => '¡Recibe un demo!',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 goToHash',
         'elements' => array(
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3a.png'),
@@ -466,7 +466,7 @@ Además de fidelizar a tus clientes,<br class="space">
 también podrás generar más leads y <br class="space">
 consolidar más ventas.
       ',
-      'textForm' => 'Pruébalo gratis ahora',
+      'textForm' => 'Recibe un tour guiado de Escala',
       'text' => null,
       'image' => App::setFilePath('/assets/images/illustrations/others/escala_fidelizacion_leads_contactos_banner.png'),
   ];

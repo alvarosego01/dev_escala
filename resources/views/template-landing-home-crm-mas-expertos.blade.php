@@ -26,7 +26,7 @@
           acompañamiento en vivo para impulsar <br class="space">
           el crecimiento de tu negocio
         ',
-        'textForm' => 'Empieza a probar Escala',
+        'textForm' => 'Recibe un tour guiado de Escala',
         'threeCol' => true,
         'backgroundImage' => null,
         'overlay' => false,
@@ -58,7 +58,7 @@
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Empieza a probar Escala',
+     'textForm' => 'Recibe un tour guiado de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/plataforma-escala-home.png'),
@@ -99,18 +99,18 @@ expertos de marketing, ventas y fidelización para ayudar a las <br class="deskt
 empresas de habla hispana a alcanzar el éxito.
 
 <div class="ottoSpecialButton">
-  <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una prueba gratis de Escala CRM">
+  <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una Recibe un demo de Escala CRM">
 
-  <a href="#" class=" openPopUpButton popup-general-trial-2022">
-    Solicita tu Prueba Gratis
+  <a href="#" class=" openPopUpButton popup-general-demo-2022">
+    Solicita tu Recibe un demo
   </a>
 
   </div>
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-  'textButton' => 'Prueba Escala ya',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+  'textButton' => 'Recibe un demo',
   'side' => 'left',
  ) ;
 @endphp
@@ -131,8 +131,8 @@ $parameters = [
     'overlay' => false,
     'enableButton' => false,
     // 'urlButton' => '#',
-    // 'textButton' => '¡Comenzar ahora!',
-    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+    // 'textButton' => 'Recibe un demo',
+    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -694,8 +694,8 @@ a tus clientes
     Comienza a generar más leads, clientes y ventas
   </h3> --}}
 
-  <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-    Prueba Gratis
+  <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+    Recibe un demo
   </a>
 
 </div>
@@ -803,8 +803,8 @@ $parameters = [
         'subTitlePrincipal' => null,
         'enableContainerButton' => true,
         'urlButton' => '#',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-        'textButton' => 'Prueba Gratis',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'textButton' => 'Recibe un demo',
         'mob_reviews' => array(
           App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-1.jpeg'),
           App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-2.jpeg'),
@@ -859,8 +859,8 @@ $parameters = [
         'overlay' => false,
         'enableButton' => true,
         'urlButton' => '#lead-form',
-        'textButton' => 'Prueba Gratis',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -1289,8 +1289,8 @@ $parameters = [
             más leads, clientes y ventas
           </h3>
 
-          <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-            Prueba Gratis
+          <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+            Recibe un demo
           </a>
 
         </div>

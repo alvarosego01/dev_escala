@@ -32,7 +32,7 @@
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Empieza a probar Escala',
+     'textForm' => 'Recibe un tour guiado de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/home_hombre-lentes_silla-chat.png'),
@@ -75,16 +75,16 @@
               </small>
             </span>
             <div class="ottoSpecialButton">
-              <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una prueba gratis de Escala CRM">
-              <a href="#" class=" openPopUpButton popup-general-trial-2022">
-                Solicita tu Prueba Gratis
+              <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una Recibe un demo de Escala CRM">
+              <a href="#" class=" openPopUpButton popup-general-demo-2022">
+                Solicita tu Recibe un demo
               </a>
             </div>
       ',
       'enableButton' => false,
       'urlButton' => '#lead-form',
-      'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-      'textButton' => 'Prueba Gratis por 10 días',
+      'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+      'textButton' => 'Recibe un demo por 10 días',
       // 'enableButton2' => true,
       // 'urlButton2' => '#lead-form',
       // 'typeButton2' => 'secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
@@ -113,8 +113,8 @@
        'overlay' => false,
        'enableButton' => true,
        'urlButton' => '#',
-       'textButton' => 'Prueba Gratis',
-       'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+       'textButton' => 'Recibe un demo',
+       'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
        // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
        'elements' => [
            [
@@ -326,8 +326,8 @@ a largo plazo </span>'
        'overlay' => false,
        'enableButton' => true,
        'urlButton' => '#lead-form',
-       'textButton' => 'Prueba el CRM de Escala',
-       'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+       'textButton' => 'Recibe un demo',
+       'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
        // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
        'elements' => [
            [
@@ -386,8 +386,8 @@ a largo plazo </span>'
         ',
         'enableButton' => false,
         'urlButton' => '#lead-form',
-        'textButton' => 'Prueba Gratis',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         'side' => 'left',
     ];
 @endphp
@@ -501,8 +501,8 @@ $parameters = [
 
           </p>
 
-          <a  class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-            Prueba Gratis
+          <a  class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+            Recibe un demo
         </a>
 
         </div>
@@ -560,8 +560,8 @@ $parameters = [
               <img alt="Landing Escala Landings" src="{!! App::setFilePath('/assets/images/illustrations/others/CRM_tableta-landing-texto.png') !!}" alt="" loading="lazy">
             </div>
 
-            <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-              Prueba Escala gratis
+            <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+              Recibe un demo
             </a>
 
           </div>
@@ -632,8 +632,8 @@ $parameters = [
         </h3>
 
 
-        <a  class="desktopElement primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-          Prueba Gratis
+        <a  class="desktopElement primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+          Recibe un demo
         </a>
 
 
@@ -649,8 +649,8 @@ $parameters = [
 
       </div>
 
-      <a  class="mobileElement primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-        Prueba Gratis
+      <a  class="mobileElement primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+        Recibe un demo
       </a>
 
     </div>

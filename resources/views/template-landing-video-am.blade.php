@@ -26,7 +26,7 @@ $parameters = [
     'enableButton' => false,
     'urlButton' => '#lead-form',
     'textButton' => 'Hablar con un asesor',
-    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     'side' => 'right',
 ];
 @endphp
@@ -70,8 +70,8 @@ herramientas para:
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-  'textButton' => 'Prueba Escala ya',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+  'textButton' => 'Recibe un demo',
   'side' => 'right',
  ) ;
 @endphp
@@ -108,7 +108,7 @@ $parameters = [
     'enableButton' => false,
     'urlButton' => '#lead-form',
     'textButton' => 'Hablar con un asesor',
-    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     'side' => 'left',
 ];
 @endphp

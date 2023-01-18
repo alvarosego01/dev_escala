@@ -16,7 +16,7 @@
   ',
   'text' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/01_landings_increibles.png'),
-  'textForm' => '¡Comienza ahora!',
+  'textForm' => 'Recibe un tour guiado de Escala',
  ) ;
 @endphp
 
@@ -55,7 +55,7 @@
   'type' => 'backColor',
   'classSection' => 'landing-pages-increibles_2',
   'title' => '¡Comienza a crear tu <span class="orangeColor">landing page</span> ahora!',
-  'textButton' => 'Prueba Gratis',
+  'textButton' => 'Recibe un demo',
   'goToUrl' => '#lead-form',
  ) ;
 @endphp
@@ -153,7 +153,7 @@
   'title' => '<span class="greenBlueColor">¿Estás listo para</span> acelerar tus ventas?',
   'text' => null,
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0115.png',
-  'textForm' => '¡Comienza ahora!'
+ 'textForm' => 'Recibe un tour guiado de Escala',
  ) ;
 @endphp
 @bannerForms7_T1( $parameters )

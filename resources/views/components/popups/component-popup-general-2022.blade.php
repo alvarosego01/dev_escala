@@ -89,7 +89,7 @@
                                                 @if (isset($form_title) && $form_title != null)
                                                     {!! $form_title !!}
                                                 @else
-                                                    Completa los siguientes datos
+                                                    Recibe un tour guiado de Escala
                                                 @endif
                                             </h5>
 
