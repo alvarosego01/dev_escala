@@ -23,7 +23,7 @@
                         Escala
                     </p>',
                     'text' => null,
-                    'textForm' => 'Recibe un tour guiado de Escala',
+                    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => false,
@@ -246,7 +246,7 @@
             $parameters = [
                 'classSection' => 'landingServFinanzas7',
                 'title' => '<span class="greenBlueColor">Atrae leads de calidad <br class="desktopElement"> y convierte más ventas <br class="desktopElement"> con Escala.</span>',
-                'textForm' => 'Recibe un tour guiado de Escala',
+                'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                 'text' => null,
                 'image' => null,
                 'side' => 'left',

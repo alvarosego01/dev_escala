@@ -26,7 +26,7 @@
           acompañamiento en vivo para impulsar <br class="space">
           el crecimiento de tu negocio
         ',
-        'textForm' => 'Recibe un tour guiado de Escala',
+        'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
         'threeCol' => true,
         'backgroundImage' => null,
         'overlay' => false,
@@ -58,7 +58,7 @@
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Recibe un tour guiado de Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/plataforma-escala-home.png'),

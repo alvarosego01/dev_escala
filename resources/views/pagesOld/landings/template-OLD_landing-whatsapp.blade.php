@@ -16,7 +16,7 @@ $parameters = array(
   <span class="greenBlueColor">en tus landing pages</span>
  ',
  'text' => null,
- 'textForm' => 'Recibe un tour guiado de Escala',
+ 'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
  'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue2.png'),
  'overlayImage' => App::setFilePath('/assets/images/overlays/overlay-planets_3.svg'),
  'image' => App::setFilePath('/assets/images/person/01_landings_increibles.png'),
@@ -321,7 +321,7 @@ $parameters = [
     ',
     'text' => null,
     'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0115.png',
-    'textForm' => 'Recibe un tour guiado de Escala'
+    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala'
    ) ;
   @endphp
   @bannerForms7_T1( $parameters )

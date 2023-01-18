@@ -19,7 +19,7 @@
                         ¡Genera más leads y cierra <br class="desktopElement"> más ventas para tu <br class="desktopElement"> inmobiliaria con Escala!
                         </span>',
                     'text' => null,
-                    'textForm' => 'Recibe un tour guiado de Escala',
+                    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => true,
@@ -236,7 +236,7 @@
             $parameters = [
                 'classSection' => 'landingServInmobiliarias7',
                 'title' => 'Haz crecer tu negocio <br class="desktopElement"> inmobiliario con Escala',
-                'textForm' => 'Recibe un tour guiado de Escala',
+                'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                 'text' => null,
                 'image' => App::setFilePath('/assets/images/illustrations/otto/otto-happy.png'),
                 'side' => 'left',

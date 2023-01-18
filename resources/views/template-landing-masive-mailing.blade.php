@@ -23,7 +23,7 @@
        'title' => '
        Crea campaña <br class="space"> de emails efectivas <br class="space"> con un solo clic',
        'text' => null,
-       'textForm' => 'Recibe un tour guiado de Escala',
+       'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
        'threeCol' => true,
        'backgroundImage' => null,
         'overlayImage' => null,
@@ -187,7 +187,7 @@
       'classSection' => 'landingMasiveMailing5',
       'title' => '<span class="greenBlueColor">¿Estás listo para hacer</span> <br class="desktopTabletElement">
       envíos masivos de emails?',
-      'textForm' => 'Recibe un tour guiado de Escala',
+      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
       'text' => null,
       'image' => App::setFilePath('/assets/images/illustrations/otto/email-otto-5 1.png'),
   ];

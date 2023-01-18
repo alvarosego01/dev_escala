@@ -25,7 +25,7 @@
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Recibe un tour guiado de Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_laptop.png'),
@@ -488,7 +488,7 @@ manera automática en tu CRM.
       ¿Listo para acelerar <br class="desktopTabletElement">
 el crecimiento de tu negocio?
       ',
-      'textForm' => 'Recibe un tour guiado de Escala',
+      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
       'text' => null,
       'image' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_pantalla.png'),
   ];

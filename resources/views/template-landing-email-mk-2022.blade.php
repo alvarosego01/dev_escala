@@ -76,7 +76,7 @@ comunicación con tus clientes
         </span>',
      'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span> ',
      'threeCol' => true,
-     'textForm' => 'Recibe un tour guiado de Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/am/landings_emails_andres_01.png'),
@@ -531,7 +531,7 @@ Quiero generar más leads y <br class="desktopTabletElement">
 fidelizar más clientes con <br class="desktopTabletElement">
 campañas de email marketing
         </span>',
-        'textForm' => 'Recibe un tour guiado de Escala',
+        'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
     'text' => null,
     'image' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_14.png'),
     'side' => 'left',

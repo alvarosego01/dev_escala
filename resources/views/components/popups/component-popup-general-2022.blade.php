@@ -89,7 +89,7 @@
                                                 @if (isset($form_title) && $form_title != null)
                                                     {!! $form_title !!}
                                                 @else
-                                                    Recibe un tour guiado de Escala
+                                                    Recibe un tour guiado <br class="space"> de Escala
                                                 @endif
                                             </h5>
 

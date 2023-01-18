@@ -22,7 +22,7 @@
                     'title' => 'Simplifica tu gestión <br class="space"> de ventas y escala tu negocio',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/illustrations/others/CRM-screen-1.png'),
-                    'textForm' => 'Recibe un tour guiado de Escala',
+                    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                     'overlayImage' => App::setFilePath('/assets/images/overlays/stars_space.png'),
                     'threeCol' => false,
                 ];

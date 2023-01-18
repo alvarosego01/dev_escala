@@ -25,7 +25,7 @@
        'classSection' => 'threeCol landingLandingPages0',
        'title' => 'Landing pages <br class="desktopElement"> <span class="blueLightColor10">increíbles <br class="space"> con Escala</span>',
        'text' => null,
-       'textForm' => 'Recibe un tour guiado de Escala',
+       'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
        'threeCol' => true,
        'backgroundImage' => null,
         'overlayImage' => null,
@@ -195,7 +195,7 @@
   $parameters = [
       'classSection' => 'landingLandingPages5',
       'title' => '<span class="greenBlueColor">¿Estás listo para</span> impulsar tus ventas?',
-      'textForm' => 'Recibe un tour guiado de Escala',
+      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
       'text' => null,
       'image' => App::setFilePath('/assets/images/illustrations/otto/otto-ventas 1.png'),
   ];

@@ -18,7 +18,7 @@
                                  ayuda a tu empresa <br class="desktopTabletElement">
                                  aseguradora a crecer',
                     'text' => null,
-                    'textForm' => 'Recibe un tour guiado de Escala',
+                    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => false,
@@ -220,7 +220,7 @@
                 $parameters = [
                     'classSection' => 'landingServSeguros7',
                     'title' => 'Atrae leads de calidad y convierte <br class="desktopTabletElement"> más ventas con Escala',
-                    'textForm' => 'Recibe un tour guiado de Escala',
+                    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/person/am/am-dedicado.png'),
                     'side' => 'left',

@@ -20,7 +20,7 @@
                     </span> estudiantes <br class="desktopElement"> con Escala
                     ',
                     'text' => null,
-                    'textForm' => 'Recibe un tour guiado de Escala',
+                    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => true,
@@ -248,7 +248,7 @@
                 <span class="greenBlueColor">
                     Atrae más alumnos <br class="desktopElement"> y haz crecer tu institución <br class="desktopElement"> con Escala
                 </span>',
-                'textForm' => 'Recibe un tour guiado de Escala',
+                'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                 'text' => null,
                 'image' => null,
                 'side' => 'left',

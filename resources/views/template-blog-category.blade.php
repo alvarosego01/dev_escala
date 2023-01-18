@@ -190,7 +190,7 @@ $paginateData = [
            en uno de marketing digital y ventas </strong> que te <br class="desktopTabletElement">
            ayudará a crecer de manera acelerada
          ',
-       'textForm' => 'Recibe un tour guiado de Escala',
+       'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
        'image' => App::setFilePath('/assets/images/illustrations/otto/otto-escala-cta-formulario-blogs.png'),
 'img_alt' => 'Ilustración de Otto (mascota de Escala) con las manos arriba celebrando en referencia a invitar a las personas a registrarse en el formulario de contacto de los rtículos del blog',
        // 'setForm' => $setForm

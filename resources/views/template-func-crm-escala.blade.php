@@ -27,7 +27,7 @@ contactos en clientes',
   'text' => 'El arma secreta de tu fuerza de ventas: <br>
 el CRM de Escala. Un sistema para <br> administrar la relación con tus clientes.',
   'image' => App::setFilePath('/assets/images/illustrations/otto/Otto_CRM-01.png'),
-  'textForm' => 'Recibe un tour guiado de Escala',
+  'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
   'overlayImage' => null,
   'threeCol' => false,
  ) ;
@@ -137,7 +137,7 @@ con etiquetas avanzadas</span>',
 'text' => 'La clave para aprovechar al máximo tu CRM es organizar la información. <br> Segmenta tus bases de datos por campaña, productos/servicios de <br> interés, clientes de alto potencial y clientes desafiantes. No solo llegarás <br> a tu público más fácilmente, sino que podrás enviar mensajes relevantes <br> a contactos específicos.',
 'enableButton' => true,
 'urlButton' => '#lead-form',
-'textButton' => 'Recibe un tour guiado de Escala',
+'textButton' => 'Recibe un tour guiado <br class="space"> de Escala',
 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 'side' => 'right',
 ) ;

@@ -25,7 +25,7 @@ de programación o integración
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Recibe un tour guiado de Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/tablet_marketing_1.png'),
@@ -453,7 +453,7 @@ actualización en el dinámico mundo digital”
 ¿Listo para acelerar <br class="space">
 el crecimiento de tu negocio?
       ',
-      'textForm' => 'Recibe un tour guiado de Escala',
+      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
       'text' => null,
       'image' => App::setFilePath('/assets/images/person/hombre_puf_emailmk_1.png'),
   ];

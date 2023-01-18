@@ -22,7 +22,7 @@
      'classSection' => 'threeCol homeSection_2021_0',
      'title' => 'Genera más leads, <br class="space"> <span class="greenBlueColor">clientes y ventas</span>',
      'text' => 'Con Escala, la plataforma de <br class="space"> marketing digital y ventas más completa <br class="space"> y fácil de utilizar.',
-     'textForm' => 'Recibe un tour guiado de Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'threeCol' => true,
      'backgroundImage' => null,
   'overlayImage' => null,
@@ -83,7 +83,7 @@
                       <div class="formatForm redirectWeb"   redirectWeb="true">
 
                           <h4 class="titleFormat blackcolor">
-                            Recibe un tour guiado de Escala
+                            Recibe un tour guiado <br class="space"> de Escala
                           </h4>
 
 

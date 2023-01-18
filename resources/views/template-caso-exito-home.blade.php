@@ -24,7 +24,7 @@
                     'title' => 'Conoce los casos <br class="space"> de éxito de <span class="blueLightColor10">Escala</span>',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/illustrations/otto/otto_canon.png'),
-                    'textForm' => 'Recibe un tour guiado de Escala',
+                    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                     'overlayImage' => null,
                     'threeCol' => false,
                     'overlayMultiple' => $overlayMultiple,

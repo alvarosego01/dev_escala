@@ -18,7 +18,7 @@
      'classSection' => 'threeCol eMarketing0',
      'title' => '<span class="whiteColor">Genera más <br class="space"> demanda con <br class="space"> Marketing Digital</span>',
      'text' => '<span class="whiteColor">Desarrolla potentes campañas sin <br class="space"> depender de equipos de <br class="space"> programación o integración</span>',
-     'textForm' => 'Recibe un tour guiado de Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'threeCol' => true,
      'backgroundImage' => null,
   'overlayImage' => null,

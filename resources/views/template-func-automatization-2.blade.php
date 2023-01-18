@@ -23,7 +23,7 @@
   'classSection' => 'func funcAutomatization2_0',
   'title' => '<span class="greenBlueColor">Haz crecer tu negocio</span> <br> en piloto automático',
   'text' => 'Escala trabaja por ti 25 horas al día, 366 días al año.',
-  'textForm' => 'Recibe un tour guiado de Escala',
+  'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
   'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
   'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas 2.png'),
   'image' => App::setFilePath('/assets/images/illustrations/team/banner_01.png'),
@@ -242,7 +242,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'title' => '<span class="greenBlueColor">Automatiza y ahorra tiempo</span>',
   'text' => null,
   'image' => App::setFilePath('/assets/images/person/escala_sofa1.png'),
-  'textForm' => 'Recibe un tour guiado de Escala'
+  'textForm' => 'Recibe un tour guiado <br class="space"> de Escala'
  ) ;
 @endphp
 @bannerForms7_T1( $parameters )

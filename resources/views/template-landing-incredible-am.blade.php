@@ -22,7 +22,7 @@
   'title' => '<span class="greenBlueColor">Crea landing pages</span><br>increíbles',
   'text' => null,
   'image' => 'https://escala.com/wp-content/uploads/2021/04/banner-hero_montaje-02-1.png',
-  'textForm' => 'Recibe un tour guiado de Escala',
+  'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
   'backgroundImage' => App::setTypeUrl().'/wp-content/uploads/2021/04/Rectangle-1037-1.png',
   'overlayImage' => App::setTypeUrl().'/wp-content/uploads/2021/04/Group-1820.svg',
  ) ;
@@ -131,7 +131,7 @@
   'title' => '<span class="greenBlueColor">¿Estás listo para</span><br> acelerar tus ventas?',
   'text' => null,
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0115.png',
- 'textForm' => 'Recibe un tour guiado de Escala',
+ 'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
  ) ;
 @endphp
 @bannerForms7_T1( $parameters )

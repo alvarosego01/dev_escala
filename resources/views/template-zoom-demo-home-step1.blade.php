@@ -58,7 +58,7 @@
                                     <div class="formatForm redirectWeb"   redirectWeb="true">
 
                                         <h4 class="titleFormat blackcolor">
-                                           Recibe un tour guiado de Escala
+                                           Recibe un tour guiado <br class="space"> de Escala
                                         </h4>
 
 
