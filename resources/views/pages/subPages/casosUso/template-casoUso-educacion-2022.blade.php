@@ -73,7 +73,7 @@
           ',
          'threeCol' => true,
          'textForm' => '
-            Recibe un tour guiado de Escala
+            Recibe un tour guiado <br class="space"> de Escala
          ',
          'backgroundImage' => null,
       'overlayImage' => null,

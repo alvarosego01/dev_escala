@@ -28,7 +28,7 @@ crear, administrar y publicar sin salir de Escala
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Recibe un tour guiado de Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/escala_ads_avisos_facebook.png'),
@@ -510,7 +510,7 @@ $parameters = [
 Quiero crear potentes campañas de <br class="desktopTabletElement">
 Facebook desde Escala
         </span>',
-        'textForm' => 'Recibe un tour guiado de Escala',
+        'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
     'text' => null,
     'image' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_redes_sociales.png'),
     'side' => 'left',

@@ -29,7 +29,7 @@
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Recibe un tour guiado de Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => App::setFilePath('/assets/images/backgrounds/fondo banner principal.png'),
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/home_header_person.png'),

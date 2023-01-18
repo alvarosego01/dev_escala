@@ -25,7 +25,7 @@ para acelerar el crecimiento de tu negocio.
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Recibe un tour guiado de Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/escala_tablet_fidelizacion.png'),
@@ -466,7 +466,7 @@ Además de fidelizar a tus clientes,<br class="space">
 también podrás generar más leads y <br class="space">
 consolidar más ventas.
       ',
-      'textForm' => 'Recibe un tour guiado de Escala',
+      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
       'text' => null,
       'image' => App::setFilePath('/assets/images/illustrations/others/escala_fidelizacion_leads_contactos_banner.png'),
   ];

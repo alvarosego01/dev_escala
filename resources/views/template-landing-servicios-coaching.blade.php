@@ -17,7 +17,7 @@
                     'classSection' => 'threeCol landingServCoaching0',
                     'title' => 'Genera más leads de calidad <br class="desktopElement"> para tus servicios de <br class="desktopElement"> consultoría con Escala',
                     'text' => null,
-                    'textForm' => 'Recibe un tour guiado de Escala',
+                    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => true,
@@ -232,7 +232,7 @@
             $parameters = [
                 'classSection' => 'landingServCoaching7',
                 'title' => 'Atrae más leads de calidad <br class="desktopTabletElement"> y convierte más ventas <br class="desktopTabletElement"> con Escala',
-                'textForm' => 'Recibe un tour guiado de Escala',
+                'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                 'text' => null,
                 'image' => App::setFilePath('/assets/images/illustrations/others/escalaventas_05.png'),
                 'side' => 'left',

@@ -20,7 +20,7 @@
                         e incrementa tu demanda de <br class="desktopElement"> servicios de salud con Escala
                     </p>',
                     'text' => null,
-                    'textForm' => 'Recibe un tour guiado de Escala',
+                    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => true,
@@ -235,7 +235,7 @@
                 'classSection' => 'landingServSalud7',
                 'title' => '
                 Atrae más pacientes y da a conocer tus <br class="desktopTabletElement"> <span>servicios de salud con Escala</span>',
-                'textForm' => 'Recibe un tour guiado de Escala',
+                'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                 'text' => null,
                 'image' => App::setFilePath('/assets/images/person/am/am-dedicado.png'),
                 'side' => 'left',

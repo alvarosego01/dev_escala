@@ -30,7 +30,7 @@
        'text' => '<span class="blueLightColor10">
         y prepárate para ver crecer <br class="space"> tus leads y tus ventas.
         </span>',
-       'textForm' => 'Recibe un tour guiado de Escala',
+       'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
        'threeCol' => true,
        'backgroundImage' => null,
         'image' => App::setFilePath('/assets/images/person/santa-landing-2 1.png'),
@@ -192,7 +192,7 @@
   $parameters = [
       'classSection' => 'landingChristmas5',
       'title' => '¿Estás listo para hacer <br class="space"> las landig pages más vendedoras <br class="space"> de estas fiestas?',
-      'textForm' => 'Recibe un tour guiado de Escala',
+      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
       'text' => null,
       'image' => App::setFilePath('/assets/images/person/am/andres-partners-2.png'),
   ];

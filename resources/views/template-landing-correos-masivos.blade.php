@@ -21,7 +21,7 @@
   'title' => 'Correos masivos <br> <span class="greenBlueColor">en segundos</span>',
   'text' => null,
   'image' => App::setFilePath('/assets/images/illustrations/otto/ottoMailing.png'),
-  'textForm' => 'Recibe un tour guiado de Escala',
+  'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
  ) ;
 @endphp
 
@@ -125,7 +125,7 @@
   <span class="greenBlueColor">¿Estás listo para hacer <br> envíos</span> masivos de emails?',
   'text' => null,
   'image' => App::setFilePath('/assets/images/illustrations/otto/otto_crm_01-1.png'),
- 'textForm' => 'Recibe un tour guiado de Escala',
+ 'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
  ) ;
 @endphp
 @bannerForms7_T1( $parameters )

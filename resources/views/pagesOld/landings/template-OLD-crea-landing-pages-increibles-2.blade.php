@@ -16,7 +16,7 @@
         ',
      'text' => null,
      'threeCol' => true,
-     'textForm' => 'Recibe un tour guiado de Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/morena_banco-landing-1.png'),
@@ -199,7 +199,7 @@ y ventas en tiempo real
   ',
   'text' => null,
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0115.png',
-  'textForm' => 'Recibe un tour guiado de Escala'
+  'textForm' => 'Recibe un tour guiado <br class="space"> de Escala'
  ) ;
 @endphp
 @bannerForms7_T1( $parameters )

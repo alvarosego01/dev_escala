@@ -20,7 +20,7 @@
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Recibe un tour guiado de Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/email_banner_principal_07.png'),
@@ -504,7 +504,7 @@ $parameters = [
       <span style="color: #B9E6E9">Emails leídos = clientes ganados</span> <br class="desktopTabletElement">
       con el Email Marketing de Escala
     ',
-    'textForm' => 'Recibe un tour guiado de Escala',
+    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
     'text' => null,
     'image' => App::setFilePath('/assets/images/person/hombre_puf_emailmk_1_.png'),
 ];

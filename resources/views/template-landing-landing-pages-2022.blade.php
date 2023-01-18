@@ -71,7 +71,7 @@
         ',
      'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span> ',
      'threeCol' => true,
-     'textForm' => 'Recibe un tour guiado de Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/am/headerlanding2022.png'),
@@ -446,7 +446,7 @@ $parameters = [
     'title' => '
     Quiero crear en minutos <br class="desktopTabletElement"> hermosas landing pages
         </span>',
-        'textForm' => 'Recibe un tour guiado de Escala',
+        'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
     'text' => 'Lo que antes tardaba días en programación y diseño, ahora lo <br class="desktopTabletElement"> puedes hacer en minutos, sin programadores ni diseñadores.<br class="space"> ¡Créalas tú mismo!',
     'image' => App::setFilePath('/assets/images/illustrations/others/8_bannerfinal_01.png'),
     'side' => 'left',

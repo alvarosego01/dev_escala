@@ -20,7 +20,7 @@
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Recibe un tour guiado de Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/landing_builder_page-2022.png'),
@@ -385,7 +385,7 @@ $parameters = [
         <span style="color: #B9E6E9">Comienza hoy mismo a generar <br class="mobileElement"> leads <br class="desktopElement"></span>
         de calidad con las landing <br class="mobileElement"> pages de Escala
       ',
-      'textForm' => 'Recibe un tour guiado de Escala',
+      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
       'text' => null,
       'image' => App::setFilePath('/assets/images/illustrations/otto/tablet_otto_1 2.png'),
   ];
