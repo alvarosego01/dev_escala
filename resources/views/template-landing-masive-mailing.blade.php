@@ -23,7 +23,7 @@
        'title' => '
        Crea campaña <br class="space"> de emails efectivas <br class="space"> con un solo clic',
        'text' => null,
-       'textForm' => 'Comienza ahora',
+       'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
        'threeCol' => true,
        'backgroundImage' => null,
         'overlayImage' => null,
@@ -87,8 +87,8 @@
                   ¡Comienza a crear tus campañas de email marketing efectivas ahora!
                 </h2>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                  Prueba Gratis
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                  Recibe un demo
                 </a>
 
 
@@ -160,8 +160,8 @@
           <h3 class="primaryTitle whiteText">Acelera el crecimiento de tu negocio
           </h3>
 
-          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-            Prueba Gratis
+          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+            Recibe un demo
           </a>
 
 
@@ -187,7 +187,7 @@
       'classSection' => 'landingMasiveMailing5',
       'title' => '<span class="greenBlueColor">¿Estás listo para hacer</span> <br class="desktopTabletElement">
       envíos masivos de emails?',
-      'textForm' => 'Pruébalo gratis ahora',
+      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
       'text' => null,
       'image' => App::setFilePath('/assets/images/illustrations/otto/email-otto-5 1.png'),
   ];

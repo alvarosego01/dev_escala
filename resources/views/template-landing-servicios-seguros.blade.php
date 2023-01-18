@@ -18,7 +18,7 @@
                                  ayuda a tu empresa <br class="desktopTabletElement">
                                  aseguradora a crecer',
                     'text' => null,
-                    'textForm' => 'Comienza ahora',
+                    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => false,
@@ -55,8 +55,8 @@
                     'enableTitle' => true,
                     'enableButton' => true,
                     'urlButton' =>  '#',
-                    'textButton' => 'Prueba Gratis',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                    'textButton' => 'Recibe un demo',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                     'titlePrincipal' => '<span class="blackColor2">¿Cómo te impulsamos a crecer?</span>',
                     'elements' => [
                         [
@@ -115,8 +115,8 @@
                 'text' => 'No importa el tamaño de tu empresa. Empodera a tus equipos: <br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-                'textButton' => 'Prueba Gratis',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'textButton' => 'Recibe un demo',
                 'side' => 'right',
             ];
         @endphp
@@ -137,8 +137,8 @@
                 'text' => 'En Escala tenemos un plan a la medida de tus <br class="desktopElement"> necesidades. Conoce nuestros planes para cada tamaño <br class="desktopElement"> de empresa y número de contactos de marketing.',
                 'enableButton' => true,
                 'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-                'textButton' => 'Prueba Gratis',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'textButton' => 'Recibe un demo',
                 'side' => 'left',
             ];
         @endphp
@@ -200,7 +200,7 @@
                             <span>Inbound marketing para seguros</span>
                         </p>
 
-                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                             ¡Descargar ahora!
                         </a>
 
@@ -220,7 +220,7 @@
                 $parameters = [
                     'classSection' => 'landingServSeguros7',
                     'title' => 'Atrae leads de calidad y convierte <br class="desktopTabletElement"> más ventas con Escala',
-                    'textForm' => 'Pruébalo gratis ahora',
+                    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/person/am/am-dedicado.png'),
                     'side' => 'left',

@@ -28,7 +28,7 @@ crear, administrar y publicar sin salir de Escala
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Empieza a probar Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/escala_ads_avisos_facebook.png'),
@@ -54,8 +54,8 @@ crear, administrar y publicar sin salir de Escala
         'overlay' => false,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => 'Prueba Gratis',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -230,8 +230,8 @@ ads digitales.
 
       <div class="containElements">
 
-        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-          Prueba Gratis
+        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+          Recibe un demo
         </a>
 
       </div>
@@ -263,8 +263,8 @@ ads digitales.
             desde Escala. Es muy fácil hacerlo.
           </h2>
 
-          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-            Prueba Gratis
+          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+            Recibe un demo
             </a>
 
         </section>
@@ -290,7 +290,7 @@ optimizar rápidamente tus campañas de anuncios digitales.
 ',
 'enableButton' => false,
 // 'urlButton' => '#lead-form',
-// 'textButton' => 'Prueba Gratis',
+// 'textButton' => 'Recibe un demo',
 'side' => 'right',
 );
 @endphp
@@ -358,8 +358,8 @@ Tus anuncios digitales ya estarán  integrados a <strong>la plataforma “todo-e
         'overlay' => false,
         'enableButton' => false,
         'urlButton' => '#',
-        'textButton' => 'Prueba Gratis',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -461,8 +461,8 @@ a acompañar en todo el camino al éxito con nuestras otras funcionalidades.
     'overlay' => false,
     'enableButton' => true,
     'urlButton' => '#',
-    'textButton' => 'Prueba Gratis',
-    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+    'textButton' => 'Recibe un demo',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -510,14 +510,14 @@ $parameters = [
 Quiero crear potentes campañas de <br class="desktopTabletElement">
 Facebook desde Escala
         </span>',
-        'textForm' => 'Empieza a probar Escala',
+        'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
     'text' => null,
     'image' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_redes_sociales.png'),
     'side' => 'left',
     'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 ];
 @endphp
 @bannerForms7_T1( $parameters )

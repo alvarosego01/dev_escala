@@ -437,8 +437,8 @@
 
                                         <div class="finalButtons">
 
-                                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                                                Prueba gratis
+                                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                                Recibe un demo
                                             </a>
 
                                             <a
@@ -450,7 +450,7 @@
 
                                         <div style="display: none" class="finalButtons outLimit">
 
-                                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                                 Hablar con un asesor
                                             </a>
 

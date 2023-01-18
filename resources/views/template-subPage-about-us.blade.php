@@ -35,7 +35,7 @@ $parameters = [
     'enableButton' => false,
     'urlButton' => '#lead-form',
     'textButton' => 'Hablar con un asesor',
-    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     'side' => 'right',
 ];
 @endphp
@@ -233,7 +233,7 @@ continentes y cuatro ciudades (Lima, Miami, Londres y Nueva York).
             ¡Únete al equipo!
           </h3>
 
-          <button class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+          <button class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
             Envíanos tu CV
           </button>
 

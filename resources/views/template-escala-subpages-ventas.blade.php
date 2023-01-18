@@ -25,7 +25,7 @@
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Comienza ahora',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_laptop.png'),
@@ -47,8 +47,8 @@ $parameters = [
     'overlay' => false,
     'enableButton' => false,
     // 'urlButton' => '#',
-    // 'textButton' => '¡Comenzar ahora!',
-    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+    // 'textButton' => 'Recibe un demo',
+    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -312,8 +312,8 @@ manera automática en tu CRM.
 
           <div class="containElements">
 
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-              ¡Probar Escala ahora!
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+              ¡Recibe un demo!
             </a>
 
           </div>
@@ -338,8 +338,8 @@ manera automática en tu CRM.
         'overlayImage' => null,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => '¡Comenzar ahora!',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 goToHash',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 goToHash',
         'elements' => array(
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3a.png'),
@@ -488,7 +488,7 @@ manera automática en tu CRM.
       ¿Listo para acelerar <br class="desktopTabletElement">
 el crecimiento de tu negocio?
       ',
-      'textForm' => 'Pruébalo gratis ahora',
+      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
       'text' => null,
       'image' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_pantalla.png'),
   ];

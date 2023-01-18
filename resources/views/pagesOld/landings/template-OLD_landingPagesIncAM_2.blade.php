@@ -17,7 +17,7 @@
   increíbles
   ',
   'text' => null,
-  'textForm' => '¡Comienza ahora!',
+  'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
   'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue2.png'),
   'overlayImage' => App::setFilePath('/assets/images/overlays/overlay-planets_3.svg'),
   'image' => App::setFilePath('/assets/images/person/01_landings_increibles.png'),
@@ -71,7 +71,7 @@
               ¡Comienza a crear tu landing page ahora!
             </h3>
 
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
               Comenzar ahora
             </a>
 
@@ -170,7 +170,7 @@ y ventas en tiempo real
           de esta plataforma!
         </h3>
 
-        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
           Comenzar ahora
         </a>
 
@@ -199,7 +199,7 @@ y ventas en tiempo real
   ',
   'text' => null,
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0115.png',
-  'textForm' => 'Pruébalo ahora'
+  'textForm' => 'Recibe un tour guiado <br class="space"> de Escala'
  ) ;
 @endphp
 @bannerForms7_T1( $parameters )

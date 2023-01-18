@@ -24,7 +24,7 @@
   'classSection' => 'func funcAnaliticas0',
   'title' => '<span class="greenBlueColor">¡Medir, medir,</span> medir!',
   'text' => 'Lo que no se mide, no mejora. Escala lo hace <br> más sencillo con dashboards amigables',
-  'textForm' => 'Empieza a probar Escala',
+  'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
   'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
   'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas 2.png'),
   'image' => App::setFilePath('/assets/images/illustrations/others/banner_01.png'),
@@ -70,7 +70,7 @@ Visualiza dónde tus embudos de venta son altamente efectivos y dónde <br>  nec
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Muéstrame las métricas',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -95,7 +95,7 @@ Visualiza dónde tus embudos de venta son altamente efectivos y dónde <br>  nec
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Medir mis resultados ahora',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -117,7 +117,7 @@ Mientras más sabes ¡mayor capacidad tendrás de optimizar resultados!',
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Mejorar mis páginas',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -139,7 +139,7 @@ Utiliza esta información valiosa para construir tu próxima <br> campaña de em
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Conseguir mejores resultados',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -161,7 +161,7 @@ Con las métricas de Escala, tu gerente de ventas tendrá la visibilidad que <br
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Conseguir mejores resultados',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -185,7 +185,7 @@ Logra que Escala se convierta en uno de tus mejores aliados estratégicos.',
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Conseguir mejores resultados',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -206,7 +206,7 @@ $parameters = array(
 'title' => 'Toma decisiones <br> acertadas con métricas <br> relevantes',
 'text' => null,
 'enableButton' => true,
-'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 'urlButton' => '#lead-form',
 'textButton' => 'Probar las analíticas ahora',
 'side' => 'right',

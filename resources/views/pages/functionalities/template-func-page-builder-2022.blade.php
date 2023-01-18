@@ -22,7 +22,7 @@
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Empieza a probar Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/landings_laptop_pagebuilder-1a.png'),
@@ -56,9 +56,9 @@
               </small>
             </span>
             <div class="ottoSpecialButton">
-              <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una prueba gratis de Escala CRM">
-              <a href="#" class=" openPopUpButton popup-general-trial-2022">
-                Solicita tu Prueba Gratis
+              <img src="'. App::setFilePath('/assets/images/illustrations/otto/otto-boton-cta-prueba-escala.png') .'" alt="Ilustración de Otto como figura de Escala señalando un botón para iniciar una Recibe un demo de Escala CRM">
+              <a href="#" class=" openPopUpButton popup-general-demo-2022">
+                Solicita tu Recibe un demo
               </a>
             </div>
      ',
@@ -213,8 +213,8 @@
         ',
         'enableButton' => false,
         'urlButton' => '#lead-form',
-        'textButton' => 'Prueba Gratis',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         'side' => 'left',
     ];
 @endphp
@@ -351,8 +351,8 @@ $parameters = [
     'text' => null,
     'enableButton' => true,
     'urlButton' => '#',
-    'textButton' => 'Prueba gratis',
-    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+    'textButton' => 'Recibe un demo',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     'side' => 'left',
 ];
 @endphp

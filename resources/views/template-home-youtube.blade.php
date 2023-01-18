@@ -32,7 +32,7 @@
         </p>
       ',
      'threeCol' => true,
-     'textForm' => 'Comienza ahora',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/am/andreshomev2.png'),
@@ -76,7 +76,7 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
         ',
         'enableButton' => false,
 
-        // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         // 'textButton' => 'Hablar con un asesor',
         'side' => 'left',
     ];
@@ -110,8 +110,8 @@ aumentar las ventas en sus negocios.
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-  'textButton' => 'Prueba Escala ya',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+  'textButton' => 'Recibe un demo',
   'side' => 'left',
  ) ;
 @endphp
@@ -132,8 +132,8 @@ $parameters = [
     'overlay' => false,
     'enableButton' => false,
     // 'urlButton' => '#',
-    // 'textButton' => '¡Comenzar ahora!',
-    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+    // 'textButton' => 'Recibe un demo',
+    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -222,8 +222,8 @@ prefieren Escala
               Comienza a generar más leads, clientes y ventas
             </h3> --}}
 
-            <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-              ¡Comenzar ahora!
+            <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+              Recibe un demo
             </a>
 
 
@@ -749,8 +749,8 @@ sin programar
           Comienza a generar más leads, clientes y ventas
         </h3> --}}
 
-        <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-          ¡Comenzar ahora!
+        <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+          Recibe un demo
         </a>
 
 
@@ -880,7 +880,7 @@ hacer crecer tu negocio.
         'enableButton' => true,
         'urlButton' => '#lead-form',
         'textButton' => 'Hablar con un asesor',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -1295,8 +1295,8 @@ hacer crecer tu negocio.
           <span class="greenBlueColor">clientes y ventas</span>
         </h3>
 
-        <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-          Prueba Escala ahora
+        <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+          Recibe un demo
         </a>
 
 

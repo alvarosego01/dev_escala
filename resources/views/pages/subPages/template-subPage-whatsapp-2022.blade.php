@@ -145,8 +145,8 @@
         ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
-                'textButton' => 'Prueba Gratis',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'side' => 'left',
             ];
         @endphp
@@ -181,8 +181,8 @@
         ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
-                'textButton' => 'Prueba Gratis',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'side' => 'right',
             ];
         @endphp
@@ -217,8 +217,8 @@
         ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
-                'textButton' => 'Prueba Gratis',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'side' => 'left',
             ];
         @endphp
@@ -251,8 +251,8 @@
         ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
-                'textButton' => 'Prueba Gratis',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'side' => 'right',
             ];
         @endphp
@@ -274,8 +274,8 @@
                         </a>
 
                         <a href="#"
-                            class="secondaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                            Prueba Escala ahora
+                            class="secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                            Recibe un demo
                         </a>
 
                     </div>
@@ -469,8 +469,8 @@ en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:<
                 'overlay' => false,
                 'enableButton' => false,
                 // 'urlButton' => '#',
-                // 'textButton' => '¡Comenzar ahora!',
-                // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+                // 'textButton' => 'Recibe un demo',
+                // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
                 // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
                 'elements' => [
                     [
@@ -535,8 +535,8 @@ en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:<
                 'subTitlePrincipal' => null,
                 'enableContainerButton' => false,
                 'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-                'textButton' => 'Prueba Gratis',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'textButton' => 'Recibe un demo',
                 'mob_reviews' => [App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_1.png'), App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_2.png'), App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_3.png')],
                 'desk_reviews' => [[App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_1.png'), App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_2.png'), App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_3.png')]],
             ];
@@ -563,8 +563,8 @@ en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:<
                             WhatsApp sumadas al resto de funcionalidades de la plataforma.
                         </p>
 
-                        <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                            Prueba Escala ahora
+                        <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                            Recibe un demo
                         </a>
 
 

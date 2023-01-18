@@ -22,7 +22,7 @@
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Empieza a probar Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => App::setFilePath('/assets/images/backgrounds/fondo banner principal.png'),
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/home_header_person.png'),
@@ -128,8 +128,8 @@ Escala basándonos en nuestra <strong>
   </div>',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-  'textButton' => 'Prueba Escala ya',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+  'textButton' => 'Recibe un demo',
   'side' => 'right',
  ) ;
 @endphp
@@ -154,8 +154,8 @@ $parameters = [
     'overlay' => false,
     'enableButton' => true,
     'urlButton' => '#',
-    'textButton' => 'Prueba Gratis',
-    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+    'textButton' => 'Recibe un demo',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -242,8 +242,8 @@ $parameters = [
     'overlay' => false,
     'enableButton' => false,
     // 'urlButton' => '#',
-    // 'textButton' => '¡Comenzar ahora!',
-    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+    // 'textButton' => 'Recibe un demo',
+    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -416,8 +416,8 @@ $parameters = [
      ',
      'enableButton' => false,
      'urlButton' => '#lead-form',
-     'textButton' => 'Prueba Gratis',
-     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+     'textButton' => 'Recibe un demo',
+     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
      'side' => 'left',
  ];
 @endphp
@@ -597,8 +597,8 @@ $parameters = [
         'subTitlePrincipal' => null,
         'enableContainerButton' => true,
         'urlButton' => '#',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-        'textButton' => 'Prueba Gratis',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'textButton' => 'Recibe un demo',
         'mob_reviews' => array(
           App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-1.jpeg'),
           App::setFilePath('/assets/images/illustrations/others/review_home_trustpilot-2.jpeg'),
@@ -1096,7 +1096,7 @@ $items = [
             [
                 'title' => '¿Cómo creo una cuenta?',
                 'text' =>
-                    'Para crear una cuenta debes ingresar tus datos haciendo clic en en el botón “Prueba Escala Ahora” en <a class="hiperButtonGreenBlueT2"href="https://escala.com/">https://escala.com/</a> y te <br class="desktopElement"> contactará uno de nuestros asesores para comenzar tu free trial.',
+                    'Para crear una cuenta debes ingresar tus datos haciendo clic en en el botón “Recibe un demo” en <a class="hiperButtonGreenBlueT2"href="https://escala.com/">https://escala.com/</a> y te <br class="desktopElement"> contactará uno de nuestros asesores para comenzar tu free trial.',
                 'type' => 'item'
             ],
             [
@@ -1252,8 +1252,8 @@ $items = [
             más leads, clientes y ventas
           </h3>
 
-          <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-            Prueba Gratis
+          <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+            Recibe un demo
           </a>
 
         </div>

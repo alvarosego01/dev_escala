@@ -22,7 +22,7 @@
                     'title' => 'Simplifica tu gestión <br class="space"> de ventas y escala tu negocio',
                     'text' => null,
                     'image' => App::setFilePath('/assets/images/illustrations/others/CRM-screen-1.png'),
-                    'textForm' => 'Pruébalo ahora',
+                    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                     'overlayImage' => App::setFilePath('/assets/images/overlays/stars_space.png'),
                     'threeCol' => false,
                 ];
@@ -85,8 +85,8 @@
                     'overlayImage' => App::setFilePath('/assets/images/overlays/blueWaveOverlay.png'),
                     'enableButton' => true,
                     'urlButton' => '#',
-                    'textButton' => '¡Comenzar ahora!',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                    'textButton' => 'Recibe un demo',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                     'elements' => array(
                                 [
                                     'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icon_1.png'),

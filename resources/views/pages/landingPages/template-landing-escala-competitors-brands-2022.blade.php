@@ -17,7 +17,7 @@
         implementar junto a expertos
       ',
      'threeCol' => true,
-     'textForm' => 'Empieza a probar Escala',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/illustrations/otto/tablet_otto_1 3.png'),
@@ -75,8 +75,8 @@ inteligentes. Consulta si debes pagar extra por personalizar estas funcionalidad
      ',
      'enableButton' => false,
      'urlButton' => '#lead-form',
-     'textButton' => 'Prueba Gratis',
-     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+     'textButton' => 'Recibe un demo',
+     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
      'side' => 'right',
     ) ;
    @endphp
@@ -101,8 +101,8 @@ inteligentes. Consulta si debes pagar extra por personalizar estas funcionalidad
        'overlay' => false,
        'enableButton' => true,
        'urlButton' => '#',
-       'textButton' => 'Prueba Gratis',
-       'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+       'textButton' => 'Recibe un demo',
+       'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
        // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
        'elements' => [
            [
@@ -192,8 +192,8 @@ inteligentes. Consulta si debes pagar extra por personalizar estas funcionalidad
        'overlay' => false,
        'enableButton' => false,
        'urlButton' => '#',
-       'textButton' => '¡Prueba Gratis!',
-       'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+       'textButton' => '¡Recibe un demo!',
+       'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
        // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
        'elements' => [
            [
@@ -349,8 +349,8 @@ solo con el uso de lecturas y videos sin guía ni apoyo personalizado.
         'subTitlePrincipal' => null,
         'enableContainerButton' => true,
         'urlButton' => '#',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-        'textButton' => 'Prueba Gratis',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'textButton' => 'Recibe un demo',
         'mob_reviews' => array(
           App::setFilePath('/assets/images/illustrations/others/competitor_trust_1.png'),
             App::setFilePath('/assets/images/illustrations/others/competitor_trust_2.png')
@@ -409,8 +409,8 @@ $parameters = array(
  ',
  'enableButton' => false,
  'urlButton' => '#lead-form',
- 'textButton' => 'Prueba Gratis',
- 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+ 'textButton' => 'Recibe un demo',
+ 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
  'side' => 'left',
 ) ;
 @endphp
@@ -450,8 +450,8 @@ $parameters = array(
  ',
  'enableButton' => true,
  'urlButton' => '#lead-form',
- 'textButton' => 'Prueba Gratis',
- 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+ 'textButton' => 'Recibe un demo',
+ 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
  'side' => 'right',
 ) ;
 @endphp

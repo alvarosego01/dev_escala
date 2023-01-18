@@ -37,7 +37,7 @@
         <span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span>
     </div>',
      'threeCol' => true,
-     'textForm' => 'Comienza ahora',
+     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/am/headerlanding2022.png'),
@@ -58,8 +58,8 @@
         'overlay' => false,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => 'Prueba Gratis',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -102,8 +102,8 @@
         'overlay' => false,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => 'Prueba Gratis',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -161,8 +161,8 @@
         'overlay' => false,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => 'Prueba Gratis',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -334,8 +334,8 @@ $parameters = [
               En Escala hay una plantilla ideal <br class="desktopTabletElement"> para cada tipo de negocio
             </h2>
 
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                Prueba Gratis
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                Recibe un demo
               </a>
 
 
@@ -359,8 +359,8 @@ $parameters = [
     'overlay' => false,
     'enableButton' => true,
     'urlButton' => '#',
-    'textButton' => 'Prueba Gratis',
-    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+    'textButton' => 'Recibe un demo',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -408,7 +408,7 @@ $parameters = [
     'title' => '
     Quiero crear en minutos <br class="desktopTabletElement"> hermosas landing pages
         </span>',
-        'textForm' => 'Comienza ahora',
+        'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
     'text' => 'Lo que antes tardaba días en programación y diseño, ahora lo <br class="desktopTabletElement"> puedes hacer en minutos, sin programadores ni diseñadores.<br class="space"> ¡Créalas tú mismo!',
     'image' => App::setFilePath('/assets/images/illustrations/others/8_bannerfinal_01.png'),
     'side' => 'left',

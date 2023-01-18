@@ -20,7 +20,7 @@
                         e incrementa tu demanda de <br class="desktopElement"> servicios de salud con Escala
                     </p>',
                     'text' => null,
-                    'textForm' => 'Comienza ahora',
+                    'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => true,
@@ -57,7 +57,7 @@
                     'enableButton' => true,
                     'urlButton' =>  '#',
                     'textButton' => 'Conocer más',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                     'titlePrincipal' => '<span class="greenBlueColor">Con Escala</span> crece sin límites',
                     'elements' => [
                         [
@@ -130,7 +130,7 @@
                 'text' => 'No importa el tamaño de tu servicio de salud, empodera tu generación <br class="desktopElement"> de demanda, la capacidad de afianzar relaciones con tus pacientes y la <br class="desktopElement"> posibilidad de seguir brindándoles servicios customizados.',
                 'enableButton' => false,
                 'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'textButton' => 'Hablar con un asesor',
                 'side' => 'right',
             ];
@@ -152,7 +152,7 @@
                 'text' => 'Conoce nuestros planes para profesionales de la salud.<br class="desktopElement"> Paga por número de contactos de marketing y ten todas <br class="desktopElement"> las herramientas en una sola plataforma.',
                 'enableButton' => true,
                 'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'textButton' => 'Hablar con un asesor',
                 'side' => 'left',
             ];
@@ -215,7 +215,7 @@
                             <span>Inbound marketing para salud y farma</span>
                         </p>
 
-                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                             ¡Descargar ahora!
                         </a>
 
@@ -235,7 +235,7 @@
                 'classSection' => 'landingServSalud7',
                 'title' => '
                 Atrae más pacientes y da a conocer tus <br class="desktopTabletElement"> <span>servicios de salud con Escala</span>',
-                'textForm' => 'Pruébalo gratis ahora',
+                'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                 'text' => null,
                 'image' => App::setFilePath('/assets/images/person/am/am-dedicado.png'),
                 'side' => 'left',

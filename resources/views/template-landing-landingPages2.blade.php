@@ -30,7 +30,7 @@
        'classSection' => 'threeCol landingPagesIncAmOtto0',
        'title' => 'Landing pages <br class="desktopElement"> <span class="blueLightColor10">increíbles <br class="space"> con Escala</span>',
        'text' => null,
-       'textForm' => 'Comienza ahora',
+       'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
        'threeCol' => true,
        'backgroundImage' => null,
         'overlayImage' => null,
@@ -96,7 +96,7 @@
                   ¡Descubre cuán fácil es diseñar y <br class="mobileElement"> publicar landing pages en Escala!
                 </h2>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                   Comenzar ahora
                 </a>
 
@@ -171,8 +171,8 @@
           <h3 class="primaryTitle whiteText">Acelera el crecimiento de tu negocio
           </h3>
 
-          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-            Prueba Gratis
+          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+            Recibe un demo
           </a>
 
 
@@ -197,7 +197,7 @@
   $parameters = [
       'classSection' => 'landingPagesIncAmOtto5',
       'title' => '<span class="greenBlueColor">¿Estás listo para</span> impulsar tus ventas?',
-      'textForm' => 'Pruébalo gratis ahora',
+      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
       'text' => null,
       'image' => App::setFilePath('/assets/images/illustrations/otto/otto-ventas 1.png'),
   ];

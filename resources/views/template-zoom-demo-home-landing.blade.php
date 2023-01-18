@@ -74,7 +74,7 @@
                                    <div class="formatForm redirectWeb"   redirectWeb="true">
 
                                        <h4 class="titleFormat blackcolor">
-                                            Solicita una prueba gratuita
+                                            Recibe un tour guiado <br class="space"> de Escala
                                        </h4>
 
 

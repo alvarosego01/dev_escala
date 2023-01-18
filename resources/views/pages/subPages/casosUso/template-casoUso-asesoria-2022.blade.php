@@ -65,7 +65,7 @@
           ',
          'threeCol' => true,
          'textForm' => '
-            Empieza a probar Escala
+            Recibe un tour guiado <br class="space"> de Escala
          ',
          'backgroundImage' => null,
       'overlayImage' => null,
@@ -92,8 +92,8 @@
           'overlay' => false,
           'enableButton' => false,
           // 'urlButton' => '#',
-          // 'textButton' => '¡Comenzar ahora!',
-          // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+          // 'textButton' => 'Recibe un demo',
+          // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
           // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
           'elements' => [
               [
@@ -183,8 +183,8 @@
 
             <div class="containElements">
 
-                <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                    ¡Prueba Gratis!
+                <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                    ¡Recibe un demo!
                 </a>
 
             </div>
@@ -209,8 +209,8 @@
                 'overlay' => false,
                 'enableButton' => false,
                 'urlButton' => '#',
-                'textButton' => '¡Prueba Gratis!',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'textButton' => '¡Recibe un demo!',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
                 'elements' => [
                     [
@@ -310,8 +310,8 @@
                 'overlay' => false,
                 'enableButton' => false,
                 'urlButton' => '#',
-                'textButton' => '¡Prueba Gratis!',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'textButton' => '¡Recibe un demo!',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
                 'elements' => [
                     [
@@ -407,8 +407,8 @@
                 ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
-                'textButton' => 'Prueba Gratis',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'side' => 'left',
             ];
         @endphp
@@ -438,8 +438,8 @@
                 ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
-                'textButton' => 'Prueba Gratis',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'side' => 'right',
             ];
         @endphp
@@ -469,8 +469,8 @@
                 ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
-                'textButton' => 'Prueba Gratis',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'side' => 'left',
             ];
         @endphp
@@ -500,8 +500,8 @@
                 ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
-                'textButton' => 'Prueba Gratis',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'side' => 'right',
             ];
         @endphp
@@ -531,8 +531,8 @@
                 ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
-                'textButton' => 'Prueba Gratis',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'side' => 'left',
             ];
         @endphp
@@ -553,8 +553,8 @@
                 'subTitlePrincipal' => null,
                 'enableContainerButton' => true,
                 'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-                'textButton' => 'Prueba Gratis',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'textButton' => 'Recibe un demo',
                 'mob_reviews' => [App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-1.png'), App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-2.png'), App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-3.png')],
                 'desk_reviews' => [[App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-1.png'), App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-2.png'), App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-3.png')]],
             ];

@@ -29,7 +29,7 @@
             </span>
           ',
          'threeCol' => true,
-         'textForm' => 'Empieza a probar Escala',
+         'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
          'backgroundImage' => null,
       'overlayImage' => null,
       'image' => App::setFilePath('/assets/images/illustrations/others/black_friday_promo.png'),
@@ -210,7 +210,7 @@
             Aprovecha el descuento ahora
           </h3>
 
-          <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+          <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
             Hablar con asesor
           </a>
 
@@ -236,8 +236,8 @@
         'subTitlePrincipal' => null,
         'enableContainerButton' => false,
         'urlButton' => '#',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-        'textButton' => 'Prueba Gratis',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'textButton' => 'Recibe un demo',
         'mob_reviews' => array(
           App::setFilePath('/assets/images/illustrations/others/trust_home_01.png'),
           App::setFilePath('/assets/images/illustrations/others/trust_home_02.png'),

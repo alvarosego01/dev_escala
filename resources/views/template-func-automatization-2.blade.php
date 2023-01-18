@@ -23,7 +23,7 @@
   'classSection' => 'func funcAutomatization2_0',
   'title' => '<span class="greenBlueColor">Haz crecer tu negocio</span> <br> en piloto automático',
   'text' => 'Escala trabaja por ti 25 horas al día, 366 días al año.',
-  'textForm' => '¡Comienza ahora!',
+  'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
   'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
   'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas 2.png'),
   'image' => App::setFilePath('/assets/images/illustrations/team/banner_01.png'),
@@ -67,8 +67,8 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
 ¡Sigue leyendo, te diremos cómo hacerlo!',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -128,7 +128,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Gana más tiempo',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -156,7 +156,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Email 4: Bienvenido a Escala',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -179,7 +179,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Notificarles ahora',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -200,8 +200,8 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'text' => 'Con Escala puedes segmentar tus contactos y asignarles <br>  etiquetas. Esas etiquetas pueden activar emails, notificaciones <br> y otras acciones de ventas sin que tengas que mover un solo <br> dedo. Pruébalo. ¡Funciona como magia!',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -222,7 +222,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Disfrutar de la vista',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -242,7 +242,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'title' => '<span class="greenBlueColor">Automatiza y ahorra tiempo</span>',
   'text' => null,
   'image' => App::setFilePath('/assets/images/person/escala_sofa1.png'),
-  'textForm' => 'Pruébalo ahora'
+  'textForm' => 'Recibe un tour guiado <br class="space"> de Escala'
  ) ;
 @endphp
 @bannerForms7_T1( $parameters )

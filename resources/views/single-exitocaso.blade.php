@@ -197,8 +197,8 @@
                             @endif
 
 
-                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-trial-2022" href="#lead-form-bottom">
-                                Pruébalo ahora
+                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022" href="#lead-form-bottom">
+                                Recibe un demo
                             </a>
 
                         </div>
