@@ -22,7 +22,7 @@
                     {!! $title !!}
                 </h2>
 
-                <a href="{{ $goToUrl }}" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                <a href="{{ $goToUrl }}" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                     {!! $textButton !!}
                 </a>
 
@@ -49,7 +49,7 @@
                         {!! $title !!}
                     </h2>
 
-                    <a href="{{ $goToUrl }}" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                    <a href="{{ $goToUrl }}" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                         {!! $textButton !!}
                     </a>
 
@@ -82,7 +82,7 @@
                         {!! $title !!}
                     </h2>
 
-                    <a href="{{ $goToUrl }}" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                    <a href="{{ $goToUrl }}" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                         {!! $textButton !!}
                     </a>
 

@@ -21,7 +21,7 @@
       'classSection' => 'threeCol funcAnnounceDigital0 func',
       'title' => '<span class="greenBlueColor">Atrae visitantes</span> <br> como un imán',
       'text' => 'Crea, publica y administra tus <br> campañas de anuncios digitales, <br> desde una sola plataforma.',
-      'textForm' => 'Empieza a probar Escala',
+      'textForm' => 'Recibe un tour guiado de Escala',
       'threeCol' => true,
       'overlay' => true,
       'backgroundImageType' => true,
@@ -87,8 +87,8 @@
 ¡Todo es más fácil desde la plataforma!',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Comenzar ahora',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -163,7 +163,7 @@ Lo que no se mide no mejora. Conoce lo que funciona, <br> aprende de lo que no y
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Optimizar resultados',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -216,9 +216,9 @@ Las páginas creadas en Escala ya vienen con el <br> Pixel de Facebook integrado
   'title' => '<span class="blueLightColor3">¡Consigue más visitantes</span> <br> calificados ahora!',
   'text' => null,
   'enableButton' => true,
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     'urlButton' => '#lead-form',
-  'textButton' => 'Pruébalo ahora',
+  'textButton' => 'Recibe un tour guiado de Escala',
   'side' => 'right',
   'overlay' => true,
   'overlayImage' => App::setFilePath('/assets/images/overlays/planets2.svg'),

@@ -20,7 +20,7 @@
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Empieza a probar Escala',
+     'textForm' => 'Recibe un tour guiado de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/illustrations/others/email_banner_principal_07.png'),
@@ -63,8 +63,8 @@
       ',
       'enableButton' => false,
       'urlButton' => '#lead-form',
-      'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-      'textButton' => 'Prueba Gratis por 10 días',
+      'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+      'textButton' => 'Recibe un demo por 10 días',
       // 'enableButton2' => true,
       // 'urlButton2' => '#lead-form',
       // 'typeButton2' => 'secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
@@ -206,8 +206,8 @@
        'overlay' => false,
        'enableButton' => true,
        'urlButton' => '#',
-       'textButton' => '¡Prueba Gratis!',
-       'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+       'textButton' => '¡Recibe un demo!',
+       'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
        // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
        'elements' => [
            [
@@ -389,8 +389,8 @@
   ',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -422,8 +422,8 @@
   ',
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Escala gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -449,8 +449,8 @@
             <span class="greenBlueColor">con el Email Marketing de Escala</span>
           </h3>
 
-          <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-            Prueba Gratis
+          <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+            Recibe un demo
           </a>
 
         </div>
@@ -476,8 +476,8 @@
         'subTitlePrincipal' => null,
         'enableContainerButton' => true,
         'urlButton' => '#',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-        'textButton' => 'Prueba Gratis',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'textButton' => 'Recibe un demo',
         'mob_reviews' => array(
           App::setFilePath('/assets/images/illustrations/others/email_mkt_trust_1.png'),
 
@@ -504,7 +504,7 @@ $parameters = [
       <span style="color: #B9E6E9">Emails leídos = clientes ganados</span> <br class="desktopTabletElement">
       con el Email Marketing de Escala
     ',
-    'textForm' => 'Pruébalo gratis ahora',
+    'textForm' => 'Recibe un tour guiado de Escala',
     'text' => null,
     'image' => App::setFilePath('/assets/images/person/hombre_puf_emailmk_1_.png'),
 ];

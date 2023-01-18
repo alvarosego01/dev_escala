@@ -23,7 +23,7 @@
                         Escala
                     </p>',
                     'text' => null,
-                    'textForm' => 'Comienza ahora',
+                    'textForm' => 'Recibe un tour guiado de Escala',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => false,
@@ -139,8 +139,8 @@
                 'text' => 'No importa el tamaño de tu empresa. Empodera a tus equipos:<br class="desktopElement"> comercial, ventas y marketing con todas las herramientas digitales <br class="desktopElement"> en un solo lugar. Es momento de acelerar el crecimiento de tu negocio.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-                'textButton' => '¡Comenzar ahora!',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'textButton' => 'Recibe un demo',
                 'side' => 'right',
             ];
         @endphp
@@ -161,7 +161,7 @@
                 'text' => 'En Escala tenemos un plan a la medida de tus necesidades. <br class="desktopElement"> Conoce nuestros planes para cada tamaño de empresa y número <br class="desktopElement"> de contactos de marketing. Optimiza tu inversión en ventas <br class="desktopElement"> y marketing digital.',
                 'enableButton' => true,
                 'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'textButton' => 'Hablar con un asesor',
                 'side' => 'left',
             ];
@@ -227,7 +227,7 @@
                             <span>Inbound marketing para seguros</span>
                         </p>
 
-                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                             ¡Descargar ahora!
                         </a>
 
@@ -246,7 +246,7 @@
             $parameters = [
                 'classSection' => 'landingServFinanzas7',
                 'title' => '<span class="greenBlueColor">Atrae leads de calidad <br class="desktopElement"> y convierte más ventas <br class="desktopElement"> con Escala.</span>',
-                'textForm' => 'Pruébalo gratis ahora',
+                'textForm' => 'Recibe un tour guiado de Escala',
                 'text' => null,
                 'image' => null,
                 'side' => 'left',

@@ -22,7 +22,7 @@
   'title' => '<span class="greenBlueColor">Crea landing pages</span><br>increíbles',
   'text' => null,
   'image' => 'https://escala.com/wp-content/uploads/2021/04/banner-hero_montaje-02-1.png',
-  'textForm' => '¡Comienza ahora!',
+  'textForm' => 'Recibe un tour guiado de Escala',
   'backgroundImage' => App::setTypeUrl().'/wp-content/uploads/2021/04/Rectangle-1037-1.png',
   'overlayImage' => App::setTypeUrl().'/wp-content/uploads/2021/04/Group-1820.svg',
  ) ;
@@ -66,7 +66,7 @@
   'overlay' => App::setTypeUrl().'/wp-content/uploads/2021/04/Group-1821.svg',
   'classSection' => 'landingPageIncTrial2_Am2',
   'title' => '¡Comienza a crear tu landing page ahora!',
-  'textButton' => '¡Pruébalo ahora!',
+  'textButton' => '¡Recibe un demo!',
   'goToUrl' => '#lead-form',
  ) ;
 @endphp
@@ -114,7 +114,7 @@
   'overlay2' => 'https://cdn.escala.com/wp-content/uploads/2021/04/banner_astronauta.svg',
   'classSection' => 'landingPageIncTrial2_Am4',
   'title' => '¡Quiero todas las herramientas <br> de esta plataforma!',
-  'textButton' => 'Comenzar ahora',
+  'textButton' => 'Recibe un demo',
   'goToUrl' => '#lead-form-bottom',
  ) ;
 @endphp
@@ -131,7 +131,7 @@
   'title' => '<span class="greenBlueColor">¿Estás listo para</span><br> acelerar tus ventas?',
   'text' => null,
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0115.png',
-  'textForm' => '¡Comienza ahora!'
+ 'textForm' => 'Recibe un tour guiado de Escala',
  ) ;
 @endphp
 @bannerForms7_T1( $parameters )

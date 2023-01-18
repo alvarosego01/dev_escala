@@ -54,8 +54,8 @@
   'text' => null,
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-  'textButton' => 'Prueba Escala ya',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+  'textButton' => 'Recibe un demo',
   'side' => 'right',
  ) ;
 @endphp
@@ -84,8 +84,8 @@
                     ',
                     'enableButton' => false,
                     'urlButton' => '#lead-form',
-                    'textButton' => 'Prueba Gratis',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                    'textButton' => 'Recibe un demo',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                     'side' => 'right',
                 ];
             @endphp
@@ -544,8 +544,8 @@ optimizar comunicaciones
                                 y desarrollen habilidades que los conviertan en Escala Pros <br class="desktopTabletElement">
                             </p>
 
-                            {{-- <a class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                                ¡Prueba Escala gratis!
+                            {{-- <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                ¡Recibe un demo!
                             </a> --}}
                         </div>
                     </section>
@@ -580,8 +580,8 @@ optimizar comunicaciones
                 ',
                     'enableButton' => false,
                     'urlButton' => '#lead-form',
-                    'textButton' => 'Prueba Gratis',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                    'textButton' => 'Recibe un demo',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                     'side' => 'right',
                 ];
             @endphp
@@ -622,8 +622,8 @@ optimizar comunicaciones
                 ',
                     'enableButton' => false,
                     'urlButton' => '#lead-form',
-                    'textButton' => 'Prueba Gratis',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                    'textButton' => 'Recibe un demo',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                     'side' => 'left',
                 ];
             @endphp
@@ -652,8 +652,8 @@ optimizar comunicaciones
             ',
                     'enableButton' => false,
                     'urlButton' => '#lead-form',
-                    'textButton' => 'Prueba Gratis',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                    'textButton' => 'Recibe un demo',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                     'side' => 'left',
                 ];
             @endphp
@@ -908,7 +908,7 @@ optimizar comunicaciones
                             organización de contactos y más.
                           ',
                             'enableButton' => false,
-                            'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                            'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                             'urlButton' => '#',
                             'textButton' => 'Aprender más'
                         ],
@@ -924,7 +924,7 @@ optimizar comunicaciones
                             ventas y fidelización.
                           ',
                           'enableButton' => false,
-                            'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                            'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                             'urlButton' => '#',
                             'textButton' => 'Aprender más'
                         ],
@@ -940,7 +940,7 @@ optimizar comunicaciones
                             <br class="desktopElement"><br class="desktopElement">
                             ',
                             'enableButton' => false,
-                            'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                            'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                             'urlButton' => '#',
                             'textButton' => 'Aprender más'
                         ],

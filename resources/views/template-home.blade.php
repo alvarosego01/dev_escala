@@ -29,7 +29,7 @@
       </span>
       ',
      'threeCol' => true,
-     'textForm' => 'Empieza a probar Escala',
+     'textForm' => 'Recibe un tour guiado de Escala',
      'backgroundImage' => App::setFilePath('/assets/images/backgrounds/fondo banner principal.png'),
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/home_header_person.png'),
@@ -135,8 +135,8 @@
   </div>',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-  'textButton' => 'Prueba Escala ya',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+  'textButton' => 'Recibe un demo',
   'side' => 'right',
  ) ;
 @endphp
@@ -157,8 +157,8 @@ $parameters = [
     'overlay' => true,
     'enableButton' => true,
     'urlButton' => '#',
-    'textButton' => 'Prueba Escala ahora',
-    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+    'textButton' => 'Recibe un demo',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
     'overlayImage' => App::setFilePath('/assets/images/overlays/overlay_home_sect.png'),
     'side' => 'left',
     'img' => App::setFilePath('/assets/images/illustrations/others/escala-pagina-confirmación-registro 1.png'),
@@ -223,8 +223,8 @@ $parameters = [
     'overlay' => true,
     'enableButton' => true,
     'urlButton' => '#',
-    'textButton' => 'Prueba Escala ahora',
-    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+    'textButton' => 'Recibe un demo',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
     'overlayImage' => App::setFilePath('/assets/images/overlays/overlay_home_sect_mobile.png'),
     'side' => 'left',
     'img' => App::setFilePath('/assets/images/illustrations/others/escala-pagina-confirmación-registro 1.png'),
@@ -289,8 +289,8 @@ $parameters = [
     'overlay' => false,
     'enableButton' => false,
     // 'urlButton' => '#',
-    // 'textButton' => '¡Comenzar ahora!',
-    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+    // 'textButton' => 'Recibe un demo',
+    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -439,10 +439,10 @@ $parameters = [
                   </li>
                 </ul>
 
-                {{-- <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                {{-- <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                   Aprender más
               </a> --}}
-                <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                   Aprender más
               </a>
 
@@ -496,8 +496,8 @@ con todas las herramientas en una plataforma',
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -530,8 +530,8 @@ con todas las herramientas en una plataforma',
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -566,8 +566,8 @@ con todas las herramientas en una plataforma',
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -602,8 +602,8 @@ con todas las herramientas en una plataforma',
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -634,8 +634,8 @@ con todas las herramientas en una plataforma',
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -666,8 +666,8 @@ con todas las herramientas en una plataforma',
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -699,8 +699,8 @@ con todas las herramientas en una plataforma',
   ',
   'enableButton' => false,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -757,8 +757,8 @@ $parameters = [
     'overlay' => false,
     'enableButton' => false,
     // 'urlButton' => '#',
-    // 'textButton' => '¡Comenzar ahora!',
-    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 hoverInEffect',
+    // 'textButton' => 'Recibe un demo',
+    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -815,8 +815,8 @@ $parameters = [
         'subTitlePrincipal' => null,
         'enableContainerButton' => true,
         'urlButton' => '#',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-        'textButton' => 'Prueba Gratis',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'textButton' => 'Recibe un demo',
         'mob_reviews' => array(
           App::setFilePath('/assets/images/illustrations/others/trust_home_01.png'),
           App::setFilePath('/assets/images/illustrations/others/trust_home_02.png'),
@@ -862,8 +862,8 @@ $parameters = [
         'subTitlePrincipal' => null,
         'enableContainerButton' => true,
         'urlButton' => '#',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-        'textButton' => 'Prueba Gratis',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'textButton' => 'Recibe un demo',
         'enableContainerButton' => false,
         'customID' => 'coop_logos_home',
         'mob_reviews' => array(
@@ -1025,7 +1025,7 @@ $items = [
             [
                 'title' => '¿Cómo creo una cuenta?',
                 'text' =>
-                    'Para crear una cuenta debes ingresar tus datos haciendo clic en en el botón “Prueba Escala Ahora” en <a class="hiperButtonGreenBlueT2"href="https://escala.com/">https://escala.com/</a> y te <br class="desktopElement"> contactará uno de nuestros asesores para comenzar tu free trial.',
+                    'Para crear una cuenta debes ingresar tus datos haciendo clic en en el botón “Recibe un demo” en <a class="hiperButtonGreenBlueT2"href="https://escala.com/">https://escala.com/</a> y te <br class="desktopElement"> contactará uno de nuestros asesores para comenzar tu free trial.',
                 'type' => 'item'
             ],
             [
@@ -1184,8 +1184,8 @@ class="customSection sectionParent homeSection10 fullWidth">
             más leads y clientes fieles
           </h3>
 
-          <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-            Prueba Escala ahora
+          <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+            Recibe un demo
           </a>
 
         </div>

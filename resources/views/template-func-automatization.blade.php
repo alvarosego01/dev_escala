@@ -23,7 +23,7 @@
   'classSection' => 'func funcAutomatization0',
   'title' => '<span class="greenBlueColor">Haz crecer tu negocio</span> <br> en piloto automático',
   'text' => 'Escala trabaja por ti 25 horas al día, 366 días al año.',
-  'textForm' => 'Empieza a probar Escala',
+  'textForm' => 'Recibe un tour guiado de Escala',
   'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
   'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas 2.png'),
   'image' => App::setFilePath('/assets/images/illustrations/team/banner_01.png'),
@@ -68,7 +68,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Aumentar la productividad ahora',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -128,7 +128,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Gana más tiempo',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -156,7 +156,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Email 4: Bienvenido a Escala',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -179,7 +179,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Notificarles ahora',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -201,7 +201,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => true,
   'urlButton' => '#lead-form',
   'textButton' => 'Hacer mi vida más facil',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'left',
  ) ;
 @endphp
@@ -221,7 +221,7 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'enableButton' => false,
   // 'urlButton' => '#lead-form',
   // 'textButton' => 'Disfrutar de la vista',
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
  ) ;
 @endphp
@@ -244,8 +244,8 @@ Imagina que se han registrado 1,000 contactos en tu base de datos en una <br> ho
   'text' => null,
   'enableButton' => true,
   'urlButton' => '#lead-form',
-  'textButton' => '¡Pruébalo ahora!',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => '¡Recibe un demo!',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'side' => 'right',
 
  ) ;

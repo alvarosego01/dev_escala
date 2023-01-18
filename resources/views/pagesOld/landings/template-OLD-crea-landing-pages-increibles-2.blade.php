@@ -16,7 +16,7 @@
         ',
      'text' => null,
      'threeCol' => true,
-     'textForm' => '¡Comienza ahora!',
+     'textForm' => 'Recibe un tour guiado de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/morena_banco-landing-1.png'),
@@ -59,7 +59,7 @@
   'title' => '
   ¡Comienza a crear tu landing page ahora!
   ',
-  'textButton' => 'Prueba Gratis',
+  'textButton' => 'Recibe un demo',
   'goToUrl' => '#lead-form',
  ) ;
 @endphp
@@ -173,7 +173,7 @@ y ventas en tiempo real
           ¡Quiero todas las herramientas de esta plataforma!
         </h3>
 
-        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
           Comenzar ahora
         </a>
 
@@ -199,7 +199,7 @@ y ventas en tiempo real
   ',
   'text' => null,
   'image' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0115.png',
-  'textForm' => 'Pruébalo ahora'
+  'textForm' => 'Recibe un tour guiado de Escala'
  ) ;
 @endphp
 @bannerForms7_T1( $parameters )

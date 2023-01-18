@@ -17,7 +17,7 @@
                     'classSection' => 'threeCol landingServCoaching0',
                     'title' => 'Genera más leads de calidad <br class="desktopElement"> para tus servicios de <br class="desktopElement"> consultoría con Escala',
                     'text' => null,
-                    'textForm' => 'Comienza ahora',
+                    'textForm' => 'Recibe un tour guiado de Escala',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => true,
@@ -56,7 +56,7 @@
                     'enableButton' => true,
                     'urlButton' =>  '#',
                     'textButton' => 'Conocer más',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                     'titlePrincipal' => '<span class="greenBlueColor">Con Escala crece tu negocio</span> <br class="desktopElement"> de coaching online',
                     'elements' => [
                         [
@@ -131,8 +131,8 @@
                 'text' => 'Empodera tus servicios de coaching con todas las herramientas <br class="desktopTabletElement"> digitales en un solo lugar. Es momento de acelerar el crecimiento de tu <br class="desktopTabletElement"> emprendimiento.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-                'textButton' => '¡Comenzar ahora!',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'textButton' => 'Recibe un demo',
                 'side' => 'right',
             ];
         @endphp
@@ -154,7 +154,7 @@
                 Conoce nuestros planes para profesionales <br class="desktopElement"> de coaching. Paga por número de contactos <br class="desktopElement"> de marketing y ten todas las herramientas en <br class="desktopElement"> una sola plataforma.',
                 'enableButton' => true,
                 'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'textButton' => 'Hablar con un asesor',
                 'side' => 'left',
             ];
@@ -215,7 +215,7 @@
                             <span>Inbound marketing para salud y farma</span>
                         </p>
 
-                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                             ¡Descargar ahora!
                         </a>
 
@@ -232,7 +232,7 @@
             $parameters = [
                 'classSection' => 'landingServCoaching7',
                 'title' => 'Atrae más leads de calidad <br class="desktopTabletElement"> y convierte más ventas <br class="desktopTabletElement"> con Escala',
-                'textForm' => 'Pruébalo gratis ahora',
+                'textForm' => 'Recibe un tour guiado de Escala',
                 'text' => null,
                 'image' => App::setFilePath('/assets/images/illustrations/others/escalaventas_05.png'),
                 'side' => 'left',

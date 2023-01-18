@@ -76,7 +76,7 @@ comunicación con tus clientes
         </span>',
      'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span> ',
      'threeCol' => true,
-     'textForm' => 'Comienza ahora',
+     'textForm' => 'Recibe un tour guiado de Escala',
      'backgroundImage' => null,
   'overlayImage' => null,
   'image' => App::setFilePath('/assets/images/person/am/landings_emails_andres_01.png'),
@@ -104,8 +104,8 @@ de nuestro email marketing
         'overlay' => false,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => 'Prueba Gratis',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -162,8 +162,8 @@ Email Marketing efectivas
         'overlay' => false,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => 'Prueba Gratis',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -241,8 +241,8 @@ realmente poderosos
         'overlay' => false,
         'enableButton' => true,
         'urlButton' => '#',
-        'textButton' => 'Prueba Gratis',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
         'elements' => [
             [
@@ -455,8 +455,8 @@ más efectiva para generar relaciones <br class="desktopElement">
 a largo plazo con tus clientes
             </h2>
 
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                Prueba Gratis
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                Recibe un demo
               </a>
 
 
@@ -481,8 +481,8 @@ $parameters = [
     'overlay' => false,
     'enableButton' => true,
     'urlButton' => '#',
-    'textButton' => 'Prueba Gratis',
-    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+    'textButton' => 'Recibe un demo',
+    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
         [
@@ -531,14 +531,14 @@ Quiero generar más leads y <br class="desktopTabletElement">
 fidelizar más clientes con <br class="desktopTabletElement">
 campañas de email marketing
         </span>',
-        'textForm' => 'Comienza ahora',
+        'textForm' => 'Recibe un tour guiado de Escala',
     'text' => null,
     'image' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_14.png'),
     'side' => 'left',
     'enableButton' => false,
   'urlButton' => '#lead-form',
-  'textButton' => 'Prueba Gratis',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 ];
 @endphp
 @bannerForms7_T1( $parameters )

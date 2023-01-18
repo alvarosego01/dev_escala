@@ -24,7 +24,7 @@
   'classSection' => 'func funcPageBuilder0',
   'title' => 'Crea potentes páginas.<br> <span class="greenBlueColor">Es tan fácil como copiar y pegar</span>',
   'text' => 'En Escala puedes construir rápidamente landing pages = «websites <br> optimizados» para capturar la información de contacto de tus visitantes, <br> sin necesidad de programar o integrar.',
-  'textForm' => 'Empieza a probar Escala',
+  'textForm' => 'Recibe un tour guiado de Escala',
   'backgroundImage' => App::setFilePath('/assets/images/backgrounds/degradeBlue1.png'),
   'overlayImage' => App::setFilePath('/assets/images/overlays/estrellas 2.png'),
   'image' => App::setFilePath('/assets/images/illustrations/team/pagebuilder_01.png'),
@@ -109,9 +109,9 @@ Arrastra y suelta las secciones pre-diseñadas, ajusta sus tamaños, <br> agrega
 En Escala podrás activar fácilmente este botón y te llegará <br>
 un correo electrónico de los visitantes que dejen su data.',
   'enableButton' => true,
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
   'urlButton' => '#lead-form',
-  'textButton' => 'Comenzar ahora',
+  'textButton' => 'Recibe un demo',
   'side' => 'left',
  ) ;
 @endphp
@@ -190,9 +190,9 @@ Antes de publicar, podrás revisar fácilmente cada versión para <br> previsual
 <strong class="greenBlueColor">¿Ya tienes un dominio propio?</strong> <br class="space">
 Conéctalo a Escala rápidamente con un click. Si lo deseas, se conectará <br> también con tu CRM y campañas digitales.',
   'enableButton' => true,
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     'urlButton' => '#lead-form',
-  'textButton' => 'Pruébalo ahora',
+  'textButton' => 'Recibe un tour guiado de Escala',
   'side' => 'left',
  ) ;
 @endphp
@@ -290,9 +290,9 @@ para guardar las información de tus contactos.',
       <div></div>
       <span class="greenBlueColor" style="text-align: left; font-size: 22px; font-weight: 600!important">¡Asombroso!</span>',
 'enableButton' => false,
-  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     // 'urlButton' => '#lead-form',
-  // 'textButton' => 'Comenzar ahora',
+  // 'textButton' => 'Recibe un demo',
   'side' => 'left',
  ) ;
 @endphp
@@ -318,9 +318,9 @@ Escala utiliza tecnología avanzada para asegurar <br> que tus paginas carguen a
 <span class="greenBlueColor" style="text-align: center; font-size: 25px; font-weight: 600!important">El tiempo es dinero</span>
 ',
 'enableButton' => true,
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     'urlButton' => '#lead-form',
-  'textButton' => 'Comenzar ahora',
+  'textButton' => 'Recibe un demo',
   'side' => 'right',
  ) ;
 @endphp
@@ -411,7 +411,7 @@ Descúbrelo en tiempo real utilizando nuestras herramientas <br> de analíticas 
   'title' => '<span class="blueLightColor3">Empieza a construir</span> páginas <br> optimizadas para ventas',
   'text' => null,
   'enableButton' => true,
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     'urlButton' => '#lead-form',
   'textButton' => 'Probar ahora',
   'side' => 'right',

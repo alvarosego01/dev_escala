@@ -20,7 +20,7 @@
                     </span> estudiantes <br class="desktopElement"> con Escala
                     ',
                     'text' => null,
-                    'textForm' => 'Comienza ahora',
+                    'textForm' => 'Recibe un tour guiado de Escala',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => true,
@@ -72,7 +72,7 @@
                     'enableButton' => true,
                     'urlButton' =>  '#',
                     'textButton' => 'Conocer más',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 openPopUpButton popup-general-trial-2022',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 openPopUpButton popup-general-demo-2022',
                     'titlePrincipal' => 'Encuentra todas las herramientas <br class="desktopElement"> en un solo lugar',
                     'elements' => [
                         [
@@ -141,8 +141,8 @@
                 'text' => 'En Escala tienes todas las herramientas de marketing digital y ventas <br class="desktopElement"> en un solo lugar. Capta mayor cantidad de alumnos, haz seguimiento <br class="desktopElement"> de su relación con tu institución, fideliza a tus estudiantes egresados, <br class="desktopElement"> mantén una comunicación constante con todos tus stakeholders.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-                'textButton' => '¡Comenzar ahora!',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'textButton' => 'Recibe un demo',
                 'side' => 'right',
             ];
         @endphp
@@ -163,7 +163,7 @@
                 'text' => 'En Escala tenemos un plan a la medida de tus necesidades.<br class="desktopElement"> Conoce nuestros planes para cada tamaño de institución <br class="desktopElement"> académica y número de contactos de marketing. Optimiza tu <br class="desktopElement"> inversión en ventas y marketing digital.',
                 'enableButton' => true,
                 'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'textButton' => 'Hablar con un asesor',
                 'side' => 'left',
             ];
@@ -226,7 +226,7 @@
                             <span>Inbound marketing para seguros</span>
                         </p>
 
-                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 openPopUpButton popup-general-trial-2022">
+                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 openPopUpButton popup-general-demo-2022">
                             ¡Descargar ahora!
                         </a>
 
@@ -248,7 +248,7 @@
                 <span class="greenBlueColor">
                     Atrae más alumnos <br class="desktopElement"> y haz crecer tu institución <br class="desktopElement"> con Escala
                 </span>',
-                'textForm' => 'Pruébalo gratis ahora',
+                'textForm' => 'Recibe un tour guiado de Escala',
                 'text' => null,
                 'image' => null,
                 'side' => 'left',

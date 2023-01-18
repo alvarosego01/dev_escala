@@ -19,7 +19,7 @@
                         ¡Genera más leads y cierra <br class="desktopElement"> más ventas para tu <br class="desktopElement"> inmobiliaria con Escala!
                         </span>',
                     'text' => null,
-                    'textForm' => 'Comienza ahora',
+                    'textForm' => 'Recibe un tour guiado de Escala',
                     'threeCol' => true,
                     'backgroundImage' => null,
                     'overlay' => true,
@@ -56,7 +56,7 @@
                     'enableButton' => true,
                     'urlButton' =>  '#',
                     'textButton' => 'Conocer más',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                     'titlePrincipal' => '<span class="greenBlueColor">Con Escala</span> tu negocio crece',
                     'elements' => [
                         [
@@ -132,8 +132,8 @@
                 'text' => 'No importa el tamaño de tu servicio de salud. <br class="desktopElement"> Empodera a tu generación de leads con todas las <br class="desktopElement"> herramientas digitales y de ventas en un solo lugar.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
-                'textButton' => '¡Comenzar ahora!',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'textButton' => 'Recibe un demo',
                 'side' => 'right',
             ];
         @endphp
@@ -154,7 +154,7 @@
                 'text' => 'Conoce nuestros planes para empresas inmobiliarias.<br class="desktopElement"> Paga por número de contactos de marketing y ten todas <br class="desktopElement"> las herramientas en una sola plataforma.',
                 'enableButton' => true,
                 'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'textButton' => 'Hablar con un asesor',
                 'side' => 'left',
             ];
@@ -217,7 +217,7 @@
                             <span>Inbound marketing para empresas inmobiliarias</span>
                         </p>
 
-                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                             ¡Descargar ahora!
                         </a>
 
@@ -236,7 +236,7 @@
             $parameters = [
                 'classSection' => 'landingServInmobiliarias7',
                 'title' => 'Haz crecer tu negocio <br class="desktopElement"> inmobiliario con Escala',
-                'textForm' => 'Pruébalo gratis ahora',
+                'textForm' => 'Recibe un tour guiado de Escala',
                 'text' => null,
                 'image' => App::setFilePath('/assets/images/illustrations/otto/otto-happy.png'),
                 'side' => 'left',

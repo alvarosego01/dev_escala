@@ -30,7 +30,7 @@
        'text' => '<span class="blueLightColor10">
         y prepárate para ver crecer <br class="space"> tus leads y tus ventas.
         </span>',
-       'textForm' => 'Comienza ahora',
+       'textForm' => 'Recibe un tour guiado de Escala',
        'threeCol' => true,
        'backgroundImage' => null,
         'image' => App::setFilePath('/assets/images/person/santa-landing-2 1.png'),
@@ -93,7 +93,7 @@
                   ¡Descubre cuán fácil es diseñar y <br class="mobileElement"> publicar landing pages en Escala!
                 </h2>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                   Comenzar ahora
                 </a>
 
@@ -166,7 +166,7 @@
           <h3 class="primaryTitle whiteText">Acelera el crecimiento de tu negocio
           </h3>
 
-          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
+          <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
             Comenzar ahora
           </a>
 
@@ -192,7 +192,7 @@
   $parameters = [
       'classSection' => 'landingChristmas5',
       'title' => '¿Estás listo para hacer <br class="space"> las landig pages más vendedoras <br class="space"> de estas fiestas?',
-      'textForm' => 'Pruébalo gratis ahora',
+      'textForm' => 'Recibe un tour guiado de Escala',
       'text' => null,
       'image' => App::setFilePath('/assets/images/person/am/andres-partners-2.png'),
   ];

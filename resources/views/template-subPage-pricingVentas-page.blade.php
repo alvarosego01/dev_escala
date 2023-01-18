@@ -577,8 +577,8 @@ $parameters = array(
   'text' => null,
   'enableButton' => true,
   'urlButton' => '#',
-  'textButton' => 'Prueba gratis',
-  'typeButton' => 'hoverInEffect primaryButton openPopUpButton popup-general-trial-2022',
+  'textButton' => 'Recibe un demo',
+  'typeButton' => 'hoverInEffect primaryButton openPopUpButton popup-general-demo-2022',
   'side' => 'right',
 
  ) ;

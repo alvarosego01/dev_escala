@@ -253,8 +253,8 @@ Elige el programa de alianza
             'overlayImage' => null,
             'enableButton' => false,
             'urlButton' => '#',
-            'textButton' => '¡Probar Escala ahora!',
-            'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-trial-2022 goToHash',
+            'textButton' => '¡Recibe un demo!',
+            'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 goToHash',
             'elements' => [
                 [
                     'img' => App::setFilePath('/assets/images/illustrations/others/alliance_step1.png'),

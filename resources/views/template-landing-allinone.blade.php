@@ -22,7 +22,7 @@
      'classSection' => 'threeCol landing_AllInOne_0',
      'title' => 'Genera más leads, <br class="space"> <span class="greenBlueColor">clientes y ventas</span>',
      'text' => 'Con Escala, la plataforma de <br class="space"> marketing digital y ventas más completa <br class="space"> y fácil de utilizar.',
-     'textForm' => 'Empieza a probar Escala',
+     'textForm' => 'Recibe un tour guiado de Escala',
      'threeCol' => true,
      'backgroundImage' => null,
   'overlayImage' => null,
@@ -80,7 +80,7 @@
                       <div class="formatForm redirectWeb"   redirectWeb="true">
 
                           <h4 class="titleFormat blackcolor">
-                            Empieza a probar Escala
+                            Recibe un tour guiado de Escala
                           </h4>
 
 
@@ -355,8 +355,8 @@
             <h3 class="primaryTitle whiteText">Empieza a escalar tu negocio con éxito
             </h3>
 
-            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-              Prueba Gratis
+            <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+              Recibe un demo
             </a>
 
 
@@ -537,8 +537,8 @@
 
                 </p>
 
-                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-                  Prueba Gratis
+                <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                  Recibe un demo
                 </a>
 
 
@@ -984,8 +984,8 @@
           Comienza a generar más leads, clientes y ventas
         </h3>
 
-        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-trial-2022">
-          Prueba Gratis
+        <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+          Recibe un demo
         </a>
 
 
