@@ -75,7 +75,7 @@ $items = [
             <span
             class="discountCost" style="display: flex">
             <span>
-                USD 24 <small>/ mes</small>
+                USD 30 <small>/ mes</small>
             </span>
 
             </span>
@@ -86,7 +86,7 @@ $items = [
 
             </span>
             <span class="ahorro discount anualElement aux_visible">
-                Pago total de <span>USD 360</span> <strong>- USD 288 / año</strong>
+                Pago total de USD 360 / año
             </span>
         </span>',
         'pricePreviewMobie' => 'A partir de <br class="space">
@@ -109,12 +109,12 @@ $items = [
             <span
 
             class="discountCost" style="display: flex">
-            <span>USD 24 <small>/ mes</small></span>
+            <span>USD 30 <small>/ mes</small></span>
 
             </span>
 
             <span class="ahorro discount anualElement aux_visible">
-                Pago total de <span>USD 360</span> <strong>- USD 288 / año</strong>
+                Pago total de USD 360 / año
             </span>
 
         </span>
@@ -126,8 +126,8 @@ $items = [
         'middleType' => 'selectorAnual',
         'textMiddle' => null,
         'button' => true,
-        'textButton' => 'Recibe un demo',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'textButton' => 'Solicitar Demo',
+        'typeButton' => 'secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         'customClasses' => 'cardPlan1',
         'extendInfoButton' => true,
         'discountTest' => '
@@ -293,7 +293,7 @@ $items = [
         'textMiddle' => null,
         'button' => true,
         'textButton' => 'Solicitar Demo',
-        'typeButton' => 'secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         'extendInfoButton' => true,
         'customClasses' => 'cardPlan2',
         'discountTest' => '
@@ -551,26 +551,12 @@ $items = [
 
                                     <div class="middle">
 
+                                           @if (isset($item['name']) && $item['name'] != 'plan1')
+
+
                                         <div class="innerMiddle">
 
                                             @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
-
-                                                {{-- <div class="selectorSwitch">
-                                                    <small>
-                                                        Mensual
-                                                    </small>
-                                                    <label class="switchCustom">
-                                                        <input
-                                                        checked
-                                                            class="modePlanSelect"
-                                                            onclick="discountByPlanCard('{{ $item['name'] }}', this)"
-                                                            value="1" type="checkbox" />
-                                                        <div></div>
-                                                    </label>
-                                                    <small>
-                                                        Anual
-                                                    </small>
-                                                </div> --}}
 
                                                 <div class="selectorSlizeButton">
 
@@ -615,6 +601,8 @@ $items = [
                                             @endif
 
                                         </div>
+
+                                                  @endif
                                     </div>
 
                                     @if (isset($item['button']) && $item['button'] == true)
@@ -778,7 +766,7 @@ $items = [
                                     </div>
 
                                     <div class="middle">
-
+                                           @if (isset($item['name']) && $item['name'] != 'plan1')
                                         <div class="innerMiddle">
 
                                             @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
@@ -827,6 +815,7 @@ $items = [
                                             @endif
 
                                         </div>
+                                            @endif
                                     </div>
 
                                     @if (isset($item['button']) && $item['button'] == true)
