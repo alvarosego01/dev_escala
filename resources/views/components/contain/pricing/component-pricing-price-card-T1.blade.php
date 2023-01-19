@@ -766,7 +766,7 @@ $items = [
                                     </div>
 
                                     <div class="middle">
-
+                                           @if (isset($item['name']) && $item['name'] != 'plan1')
                                         <div class="innerMiddle">
 
                                             @if (isset($item['middleType']) && $item['middleType'] == 'selectorAnual')
@@ -815,6 +815,7 @@ $items = [
                                             @endif
 
                                         </div>
+                                            @endif
                                     </div>
 
                                     @if (isset($item['button']) && $item['button'] == true)
