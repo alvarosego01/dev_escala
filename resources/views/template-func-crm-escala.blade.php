@@ -137,7 +137,7 @@ con etiquetas avanzadas</span>',
 'text' => 'La clave para aprovechar al máximo tu CRM es organizar la información. <br> Segmenta tus bases de datos por campaña, productos/servicios de <br> interés, clientes de alto potencial y clientes desafiantes. No solo llegarás <br> a tu público más fácilmente, sino que podrás enviar mensajes relevantes <br> a contactos específicos.',
 'enableButton' => true,
 'urlButton' => '#lead-form',
-'textButton' => 'Recibe un tour guiado <br class="space"> de Escala',
+'textButton' => 'Recibe un demo',
 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
 'side' => 'right',
 ) ;
