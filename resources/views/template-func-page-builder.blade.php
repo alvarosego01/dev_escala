@@ -192,7 +192,7 @@ Conéctalo a Escala rápidamente con un click. Si lo deseas, se conectará <br> 
   'enableButton' => true,
   'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     'urlButton' => '#lead-form',
-  'textButton' => 'Recibe un tour guiado <br class="space"> de Escala',
+  'textButton' => 'Recibe un demo',
   'side' => 'left',
  ) ;
 @endphp

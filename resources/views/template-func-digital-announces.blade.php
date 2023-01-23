@@ -218,7 +218,7 @@ Las páginas creadas en Escala ya vienen con el <br> Pixel de Facebook integrado
   'enableButton' => true,
   'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     'urlButton' => '#lead-form',
-  'textButton' => 'Recibe un tour guiado <br class="space"> de Escala',
+  'textButton' => 'Recibe un demo',
   'side' => 'right',
   'overlay' => true,
   'overlayImage' => App::setFilePath('/assets/images/overlays/planets2.svg'),
