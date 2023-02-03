@@ -118,7 +118,9 @@ form_button_text
                                         </div>
 
                                             <h3  class="thirdTitle">
-
+                                                <small class="smallTag">
+                                                    San Valentín te flecha con
+                                                </small>
                                                 <div class="title">
                                                     30% <span style="color: #322C2E">
                                                         de <br class="space">
