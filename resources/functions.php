@@ -333,6 +333,13 @@ wp_insert_term(
         'parent'=> $parent_term_id ));
 
 wp_insert_term(
+        'Promo 14f popup 2023', // the term
+        'popup-category-tax', // the taxonomy
+        array(
+        'slug' => 'promo_14f_popup_2023',
+        'parent'=> $parent_term_id ));
+
+wp_insert_term(
         'Nota special message', // the term
         'popup-category-tax', // the taxonomy
         array(

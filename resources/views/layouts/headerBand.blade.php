@@ -43,6 +43,13 @@
 
         @endif
 
+        @if ($l2 != null && $l2 == 'headerband_special_14f_promo_t1')
+
+            @headerband_special_14f_promo_t1($parameters)
+            @endheaderband_special_14f_promo_t1
+
+        @endif
+
         @if ($l2 != null && $l2 == 'headerBand_whatsapp_T1')
 
             @headerBand_whatsapp_T1($parameters)
