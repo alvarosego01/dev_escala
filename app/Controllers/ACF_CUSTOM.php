@@ -455,6 +455,7 @@ class ACF_CUSTOM extends Controller
                         'headerband_promo_t1' => 'Adquiere un Plan PRO y llévate hasta 2 meses TOTALMENTE GRATIS. Haz clic aquí y habla con un asesor',
                         'headerband_blackFriday_promo_t2' => 'Black Friday & Cyber Monday - 40% OFF + beneficios especiales - CUPOS LIMITADOS',
                         'headerband_special_1m_promo_t1' => '¡POR POCOS DÍAS! Gana un mes gratis para escalar tu negocio este 2023',
+                        'headerband_special_14f_promo_t1' => 'San Valentín te flecha con  30% de descuento*',
                         'headerBand_whatsapp_T1' => '¡Escala ahora potencia WhatsApp! - conoce las nuevas herramientas',
                     ],
                     'conditional_logic' => [
@@ -1489,6 +1490,7 @@ class ACF_CUSTOM extends Controller
                         'popup-bootstrap-general-2022' => 'Popup general 2022',
                         'popup-bootstrap-blackFriday-2022' => 'Popup black friday 2022',
                         'popup-general-special-1m-promo-2023' => 'Popup promo 1m 2023',
+                        'popup-general-special-14f-promo-2023' => 'Popup promo 14f 2023',
                         'popup-bootstrap-special-message' => 'Nota special message',
                     ],
                 ],
@@ -1903,6 +1905,72 @@ class ACF_CUSTOM extends Controller
                         'param' => 'post_taxonomy',
                         'operator' => '==',
                         'value' => 'popup-category-tax:promo_1m_popup_2023',
+                    ],
+                ],
+            ],
+        ],
+            [
+                'key' => 'bootstrap_popups_promo_14f_2023_settings',
+                'title' => 'Bootstrap popup promo 14f 2023 options',
+            'fields' => [
+                [
+                    'key' => 'popup_call_class',
+                    'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                    'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                    'type' => 'text',
+                ],
+                [
+                    'key' => 'popup_principalTitle',
+                    'label' => 'Popup title text',
+                    'name' => 'Popup title text',
+                    'type' => 'textarea',
+                ],
+                [
+                    'key' => 'form_title',
+                    'label' => 'Form title',
+                    'name' => 'Form title',
+                    'type' => 'text',
+                ],
+                [
+                    'key' => 'form_button_text',
+                    'label' => 'Popup form button text',
+                    'name' => 'Popup form button text',
+                    'type' => 'text',
+                ],
+                [
+                    'key' => 'form_shortcode',
+                    'label' => 'Shortcode form',
+                    'name' => 'Shortcode form',
+                    'type' => 'text',
+                ],
+                [
+                    'key' => 'form_redirect',
+                    'label' => 'Form redirect url',
+                    'name' => 'Form redirect url',
+                    'type' => 'url',
+                ],
+                [
+                    'key' => 'popup_direction',
+                    'label' => 'Popup direction',
+                    'name' => 'Popup direction',
+                    'type' => 'select',
+                    'choices' => [
+                        'right_side' => 'Right side',
+                        'left_side' => 'Left side',
+                    ],
+                ],
+            ],
+            'location' => [
+                [
+                    [
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'bootstrap_popups',
+                    ],
+                    [
+                        'param' => 'post_taxonomy',
+                        'operator' => '==',
+                        'value' => 'popup-category-tax:promo_14f_popup_2023',
                     ],
                 ],
             ],

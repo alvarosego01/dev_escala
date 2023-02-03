@@ -93,7 +93,7 @@ gulp.task('sass', () => {
 
 gulp.task('sassGeneral', () => {
     return gulp.src('./resources/assets/styles/**/*.sass')
-        .pipe(cached("sass_compile"))
+        // .pipe(cached("sass_compile"))
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(sourcemaps.write())
