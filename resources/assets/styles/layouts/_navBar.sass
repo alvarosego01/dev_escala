@@ -297,8 +297,15 @@ header.customHeader.customSection
                 //     ul.dropdown-menu
                 //         opacity: 1
                 //         visibility: visible
-                // div.dropdown-menu.dropdown_two_columns.dropdown-menu
                 // display: none!important
+                div.dropdown-menu.dropdown_two_columns.dropdown-menu
+                    .menu-item
+                        @include responsivo(general)
+                            margin-bottom: 15px
+                        @include responsivo(resto)
+                            margin-bottom: 15px
+                        &:last-child
+                            margin-bottom: 0
 
 
                 div.dropdown-menu.dropdown-menu
