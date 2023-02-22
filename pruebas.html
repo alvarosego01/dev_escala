@@ -22,3 +22,24 @@ Servicios de desarrollo web para múltiples proyectos personalizados y clientes.
 ✔ Configuración de SSL y DNS mediante Cloudflare
 ✔ Testing & documentación de proyectos
 ✔ Creación y despliegue de proyectos en sistemas VPS linux (Ubuntu y Debian)
+
+
+
+<script>
+function download(url, filename) {
+  fetch(url)
+    .then(response => response.blob())
+    .then(blob => {
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = filename;
+      link.click();
+  })
+  .catch(console.error);
+}
+
+download("https://escala.com/wp-content/themes/oceanwp-child/resources/assets/documents/Presentacion-Corporativa-Escala-(Feb_2023).pdf","presentacion.pdf");
+
+window.location.href = ‘https://escala.com/’;
+
+</script>

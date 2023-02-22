@@ -420,6 +420,9 @@ class ACF_CUSTOM extends Controller
                 $this->landingPage_customSettings()
             );
             acf_add_local_field_group(
+                $this->settings_corporative_presentation()
+            );
+            acf_add_local_field_group(
                 $this->settingsCasosExito()
             );
             acf_add_local_field_group(
@@ -927,6 +930,31 @@ class ACF_CUSTOM extends Controller
                         'param' => 'page_template',
                         'operator' => '==',
                         'value' => 'views/template-caso-exito-home.blade.php',
+                    ],
+                ],
+            ],
+        ];
+    }
+
+    private function settings_corporative_presentation()
+    {
+        return [
+            'key' => 'corporative_presentation_settings',
+            'title' => 'Presentación corporativa opciones',
+            'fields' => [
+                [
+                    'key' => 'url_presentation',
+                    'label' => 'Url presentation',
+                    'name' => 'Url presentation',
+                    'type' => 'text',
+                ],
+            ],
+            'location' => [
+                [
+                    [
+                        'param' => 'page_template',
+                        'operator' => '==',
+                        'value' => 'views/template-corporative-resentation.blade.php',
                     ],
                 ],
             ],
