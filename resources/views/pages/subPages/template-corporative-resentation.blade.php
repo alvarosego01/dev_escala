@@ -30,9 +30,6 @@ window.location = ('{{$home}}');
 
 @if ($file != null)
 <object style="min-height: 1500px" data="{{$file}}" type="application/pdf">
-    <iframe  src="https://docs.google.com/viewer?url=your_url_to_pdf&embedded=true"></iframe>
+    <iframe  src="https://docs.google.com/viewer?url={{$file}}&embedded=true"></iframe>
 </object>
-----
-<iframe src="http://docs.google.com/gview?url={{$file}}&embedded=true" style="width:100%; height:1500px;" frameborder="0"></iframe>
-
 @endif
