@@ -1,10 +1,9 @@
 
-
 @php
     $file = ACF_CUSTOM::_getField('url_presentation');
 
-    $home = get_home_url();
 @endphp
+{{--
 
     <script>
  let $file_url = "{{ $file }}";
@@ -25,4 +24,11 @@ download( $file_url,"presentacion.pdf");
 window.location = ('{{$home}}');
 
 
-</script>
+</script> --}}
+
+
+@if ($file != null)
+<object style="min-height: 1500px" data="{{$file}}" type="application/pdf">
+    <iframe  src="https://docs.google.com/viewer?url=your_url_to_pdf&embedded=true"></iframe>
+</object>
+@endif
