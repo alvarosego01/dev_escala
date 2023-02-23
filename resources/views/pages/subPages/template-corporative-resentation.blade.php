@@ -2,7 +2,6 @@
 @php
     $file = ACF_CUSTOM::_getField('url_presentation');
 
-    echo $file;
 @endphp
 {{--
 
@@ -30,6 +29,6 @@ window.location = ('{{$home}}');
 
 @if ($file != null)
 <object style="min-height: 1500px" data="{{$file}}" type="application/pdf">
-    <iframe  src="https://docs.google.com/viewer?url={{$file}}&embedded=true"></iframe>
+    <iframe style="min-height: 1500px" src="https://docs.google.com/viewer?url={{$file}}&embedded=true"></iframe>
 </object>
 @endif
