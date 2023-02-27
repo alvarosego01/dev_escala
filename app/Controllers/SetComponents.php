@@ -293,6 +293,7 @@ class SetComponents extends Controller
         if ($type == 'all') {
             return [
                 'views/template-home.blade.php',
+                'views/template-subPage-pricingPro.blade.php',
                 'views/template-corporative-resentation.blade.php',
                 'views/template-subPage-whatsapp-2022.blade.php',
                 'views/template-landing-home-oct22.blade.php',
