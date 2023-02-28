@@ -171,6 +171,10 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_style('subPage_alliances_2022.css', asset_path('styles/pages/subPages/subPage_alliances_2022.css'), false, THEME_VERSION);
         }
         //  SUB PAGES - Programa de alianzas vane
+        // --- Pricing Pro
+        if (is_page_template('views/template-subPage-pricingPro.blade.php')) {
+            wp_enqueue_style('subPage_pricingPro.css', asset_path('styles/pages/subPages/subPage_pricingPro.css'), false, THEME_VERSION);
+        }
         // --- Program alliance
         if (is_page_template('views/template-vn-program-alliance.blade.php')) {
             wp_enqueue_style('programAlliance.css', asset_path('styles/pages/subPages/vn/programAlliance.css'), false, THEME_VERSION);

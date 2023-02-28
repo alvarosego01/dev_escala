@@ -224,6 +224,7 @@ span.category.tag
     color: $colorGreenBlue6
 .greenBlueColor7
     color: $colorGreenBlue7
+
     // color
 
 .blueColor
@@ -245,6 +246,9 @@ span.category.tag
 
 .blueLightColor11
     color: $colorBlueLight11
+
+.blueLightColor12
+    color: $colorBlueLight12
 
 .grayColor
     color: $colorGrey
@@ -1548,12 +1552,10 @@ $button-selection: 2
     width: 12.5px
 
 
-#pdfVisor
-    @include responsivo(telefonoTable)
-        min-height: 750px
-    @include responsivo(pcMedio)
-        min-height: 750px
+#adobe-dc-view
     @include responsivo(general)
-        min-height: 1500px
+        min-height: 500px!important
+        height: 100%
     @include responsivo(resto)
-        min-height: 1500px
+        min-height: 500px!important
+        height: 100%
