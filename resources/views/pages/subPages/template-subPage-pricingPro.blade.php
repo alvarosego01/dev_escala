@@ -269,7 +269,7 @@
                     "subItems" => array(
                         [
                             "name" => "Primeros 2 meses",
-                            "value" => "3 horas"
+                            "value" => "Hasta 3 horas"
                         ],
                         [
                             "name" => "1 hora trimestral de por vida",
@@ -283,7 +283,7 @@
                     "subItems" => array(
                         [
                             "name" => "Primeros 2 meses",
-                            "value" => "6 horas"
+                            "value" => "Hasta 6 horas"
                         ],
                      )
 
@@ -292,8 +292,8 @@
                     "name" => 'Configuración plataforma',
                     "subItems" => array(
                         [
-                            "name" => "Primer mes",
-                            "value" => "1 hora"
+                            "name" => "Primeros 3 meses",
+                            "value" => "Hasta 1 hora"
                         ],
                     )
 
@@ -327,15 +327,15 @@
                     "name" => 'Educación autoguiada',
                     "subItems" => array(
                         [
-                            "name" => "Curso online plataforma",
+                            "name" => "Tutoriales plataforma",
                             "value" => "checkIcon"
                         ],
                         [
-                            "name" => "200+ Tutoriales",
+                            "name" => "Curso online por herramienta",
                             "value" => "checkIcon"
                         ],
                         [
-                            "name" => "Grabación eventos",
+                            "name" => "Acceso a grabaciones eventos",
                             "value" => "checkIcon"
                         ],
                      )
@@ -395,29 +395,61 @@
 
                                             <h3>A partir de <br class="space" /></h3>
 
-                                            <span class="discountExtra monthElement aux_visible aux_hidden">
-                                              <span class="discounter"> </span>
-                                            </span>
 
                                             <span class="discountExtra anualElement aux_visible">
                                               <span class="discounter"> USD 97 / mensual </span>
                                             </span>
 
                                             <span class="cost">
-                                              <span style="display: none" class="numerCost">
-                                                USD 97 <small>/ mes</small>
-                                              </span>
+
                                               <span class="discountCost" style="display: flex">
                                                 <span> USD 77.60 <small>/ mes</small> </span>
                                               </span>
 
-                                              <span class="ahorro discount monthElement aux_visible aux_hidden"> </span>
                                               <span class="ahorro discount anualElement aux_visible">
                                                 Pago total de <span>USD 1.164</span> <strong>- USD 931.20 / año</strong>
                                               </span>
                                             </span>
 
+                                    </div>
+
+                                     <div class="middle">
+
+                                        <div class="innerMiddle">
+
+                                                <div class="selectorSlizeButton">
+
+                                                    <input slizeRadioButton type="checkbox" class="pill-button-input" checked="checked" value="1"  >
+                                                    <span class="pill-button">
+                                                        <span class="pill-button-selection pill-button-selection_on">
+                                                            Pago mensual
+                                                        </span>
+                                                        <span class="pill-button-selection pill-button-selection_off pill-button-selection_active">
+                                                            Pago anual. <br class="space">
+                                                            <span class="greenBlueColor">Ahorras 20%</span>
+                                                        </span>
+                                                        <span class="pill-button-highlight"></span>
+                                                    </span>
+
+                                                </div>
+
+                                                <div class="extraPriceInfo">
+
+                                                    <div class="discountData">
+                                                   <p class="primaryText">
+
+                                                                <strong><span style="color: #FF4D27">Te eximimos</span> del pago único de</strong> USD 450 <br class="space">
+                                                                por Servicio de Acompañamiento <br class="space">
+                                                                Personalizado obligatorio
+
+                                                    </p>
+                                                    </div>
+                                                </div>
+
+
                                         </div>
+
+                                    </div>
 
                                 </div>
                                 <div class="col-md-12 col-lg-6 inputs">
@@ -440,7 +472,7 @@
                                         </div>
                                         <div class="field">
                                             <select name="_whatsappField">
-                                                <option value="No" selected>Si</option>
+                                                <option value="No" selected>No</option>
                                                 <option value="Si">Si</option>
                                             </select>
                                             <label for="_contactsField">
@@ -475,8 +507,13 @@
                                     @foreach ($featuresElements['access']['items'] as $key => $item)
                                         <li class="itemParent">
                                             <button type="button" data-bs-toggle="collapse" data-bs-target="#parentAccess_{{ $key }}" aria-expanded="false" aria-controls="parentAccess_{{ $key }}">
+
                                                 {!! $item['name'] !!}
-                                                <i class="fas fa-caret-down"></i>
+
+                                                @if ( isset($item['subItems']) && count($item['subItems']) >= 1 )
+                                                    <i class="fas fa-caret-down"></i>
+                                                @endif
+
                                             </button>
                                             <div id="parentAccess_{{ $key }}" class="accordion-collapse collapse subItemList" aria-labelledby="parentAccess_{{ $key }}">
                                                 <div class="accordion-body">
@@ -512,17 +549,51 @@
                                 <h3>
                                      {!! $featuresElements['services']['name'] !!}
                                 </h3>
-                                 @if ( isset($featuresElements['services']['items']) )
+                                @if ( isset($featuresElements['services']['items']) )
                                 <ul class="pricingList">
 
                                     @foreach ($featuresElements['services']['items'] as $key => $item)
                                         <li class="itemParent">
-                                            {!! $item['name'] !!}
+                                            <button type="button" data-bs-toggle="collapse" data-bs-target="#parentServices_{{ $key }}" aria-expanded="false" aria-controls="parentServices_{{ $key }}">
+
+                                                {!! $item['name'] !!}
+
+                                                @if ( isset($item['subItems']) && count($item['subItems']) >= 1 )
+                                                    <i class="fas fa-caret-down"></i>
+                                                @endif
+
+                                            </button>
+                                            <div id="parentServices_{{ $key }}" class="accordion-collapse collapse subItemList" aria-labelledby="parentServices_{{ $key }}">
+                                                <div class="accordion-body">
+
+                                                    @if (isset($item['subItems']))
+                                                        <table class="table">
+                                                            <tbody>
+                                                                @foreach ($item['subItems'] as $subKey => $subItem)
+                                                                    <tr>
+                                                                      <td>{!! $subItem['name'] !!}</td>
+                                                                      <td>
+                                                                            @if ( isset($subItem['value']) && $subItem['value'] == 'checkIcon')
+                                                                                   <img class="checkIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/vector_check_orange.png') !!}" alt="">
+                                                                            @else
+                                                                                {!! $subItem['value'] !!}
+                                                                            @endif
+
+                                                                        </td>
+                                                                    </tr>
+                                                                @endforeach
+                                                            </tbody>
+                                                        </table>
+                                                    @endif
+                                                </div>
+                                            </div>
                                         </li>
                                     @endforeach
 
                                 </ul>
                                 @endif
+
+
                             </div>
 
                         </div>
