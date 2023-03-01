@@ -1,1 +1,156 @@
-function parametersToRedirect(e,t){let l=e;l=l.replace("{{-- special --}}","");t=t.filter(e=>{if("your-email"==e.name)return e.value});return null!=t&&null!=t[0]&&0!=t[0].value&&e.includes("{{-- email64 --}}")&&(t=t[0].value,t=Base64.encode(t),t=encodeURIComponent(t),l=l.replace("{{-- email64 --}}",t)),e.includes("{{-- leadSignUp --}}")&&(l=l.replace("{{-- leadSignUp --}}","trial"),l=l.replace(/\s+/g,"")),l}jQuery(document).ready(function(){document.addEventListener("wpcf7mailsent",async e=>{let t=e.detail.inputs;e.path;let l=null;window.dataLayer.push({event:"cf7submission",formId:event.detail.contactFormId,response:event.detail.inputs});e=t.filter(e=>{if("special-redirect"==e.name)return e.value});null!=e&&null!=e[0]&&0!=e[0].value&&(l=e[0].value),"undefined"!=typeof dataPHP&&null==l&&dataPHP.redirect&&(l=dataPHP.redirect),null!=document.querySelector("#redirectParam")&&null==l&&(e=document.querySelector("#redirectParam"),l=e.value),l&&null!=l&&""!=l&&(l=parametersToRedirect(l,t),window.location.href=l)},!1),document.addEventListener("wpcf7mailfailed",async e=>{let t=e.detail.inputs;e.path;let l=null;window.dataLayer.push({event:"cf7submission",formId:event.detail.contactFormId,response:event.detail.inputs});e=t.filter(e=>{if("special-redirect"==e.name)return e.value});null!=e&&null!=e[0]&&0!=e[0].value&&(l=e[0].value),"undefined"!=typeof dataPHP&&null==l&&dataPHP.redirect&&(l=dataPHP.redirect),null!=document.querySelector("#redirectParam")&&null==l&&(e=document.querySelector("#redirectParam"),l=e.value),l&&null!=l&&""!=l&&(l=parametersToRedirect(l,t),window.location.href=l)},!1)});
+
+
+function parametersToRedirect(redirect, params) {
+
+    let aux = redirect;
+
+        aux = aux.replace("{{-- special --}}", "");
+
+        let email = params.filter( ( r ) => {
+            if (r.name == 'your-email') {
+                return r.value;
+            }
+        });
+
+        if ((email != null) && (email[0] != null) && (email[0].value != 0)) {
+
+            if (redirect.includes("{{-- email64 --}}")){
+
+                let e = email[0].value;
+                e = Base64.encode(e);
+                e = encodeURIComponent(e);
+                aux = aux.replace("{{-- email64 --}}", e);
+
+            }
+
+        }
+
+        if (redirect.includes("{{-- leadSignUp --}}")){
+
+            aux = aux.replace("{{-- leadSignUp --}}", 'trial');
+            aux = aux.replace(/\s+/g, '');
+
+        }
+
+    return aux;
+
+}
+
+
+jQuery(document).ready(function () {
+
+document.addEventListener('wpcf7mailsent', async (e) => {
+
+    let inputs = e['detail']['inputs'];
+    let l = e.path;
+    let re = null;
+
+
+    window.dataLayer.push({
+        "event": "cf7submission",
+        "formId": event.detail.contactFormId,
+        "response": event.detail.inputs
+    });
+
+    let specialRedirect = inputs.filter( (r) => {
+        if (r.name == 'special-redirect') {
+            return r.value;
+        }
+    });
+
+
+    if ( (specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0) ) {
+
+        re = specialRedirect[0].value;
+
+    }
+
+    // redirect
+    if (typeof (dataPHP) !== 'undefined' && re == null) {
+
+        if (dataPHP.redirect) {
+
+            re = dataPHP.redirect;
+
+        }
+
+    }
+
+    if ( document.querySelector("#redirectParam") != null && re == null) {
+
+        // re = jQuery('#redirectParam').val();
+        let _z = document.querySelector("#redirectParam")
+        re = _z.value;
+
+    }
+
+    // return;
+
+    if (re && re != null && re != '') {
+
+        re = parametersToRedirect(re, inputs);
+
+        window.location.href = re;
+
+    }
+
+}, false);
+
+document.addEventListener('wpcf7mailfailed', async (e) =>  {
+
+   let inputs = e['detail']['inputs'];
+    let l = e.path;
+    let re = null;
+
+    window.dataLayer.push({
+        "event": "cf7submission",
+        "formId": event.detail.contactFormId,
+        "response": event.detail.inputs
+    });
+
+    let specialRedirect = inputs.filter( (r) => {
+        if (r.name == 'special-redirect') {
+            return r.value;
+        }
+    });
+
+
+    if ( (specialRedirect != null) && (specialRedirect[0] != null) && (specialRedirect[0].value != 0) ) {
+
+        re = specialRedirect[0].value;
+
+    }
+
+    // redirect
+    if (typeof (dataPHP) !== 'undefined' && re == null) {
+
+        if (dataPHP.redirect) {
+
+            re = dataPHP.redirect;
+
+        }
+
+    }
+
+    if ( document.querySelector("#redirectParam") != null && re == null) {
+
+        // re = jQuery('#redirectParam').val();
+        let _z = document.querySelector("#redirectParam")
+        re = _z.value;
+
+    }
+
+    // return;
+
+    if (re && re != null && re != '') {
+
+        re = parametersToRedirect(re, inputs);
+
+        window.location.href = re;
+
+    }
+
+}, false);
+
+
+});

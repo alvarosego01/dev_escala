@@ -386,10 +386,10 @@
 
                         <div class="calculatorSection">
 
-                            <form action="">
+                            <form regularPlansCalc onkeydown="if (event.keyCode == 13) { return false; }" action="" id="formCalcGeneral">
 
                             <div class="row">
-                                <div class="col-md-12 col-lg-6 selector">
+                                <div class=" selector">
 
                                     <div  class="price">
 
@@ -407,7 +407,7 @@
                                               </span>
 
                                               <span class="ahorro discount anualElement aux_visible">
-                                                Pago total de <span>USD 1.164</span> <strong>- USD 931.20 / año</strong>
+                                                Pago total de <span>USD 1.164</span> - USD 931.20 / año
                                               </span>
                                             </span>
 
@@ -420,13 +420,14 @@
                                                 <div class="selectorSlizeButton">
 
                                                     <input slizeRadioButton type="checkbox" class="pill-button-input" checked="checked" value="1"  >
+
                                                     <span class="pill-button">
-                                                        <span class="pill-button-selection pill-button-selection_on">
+                                                        <span onclick="selectorSlizePlan('monthly')" class="pill-button-selection pill-button-selection_on">
                                                             Pago mensual
                                                         </span>
-                                                        <span class="pill-button-selection pill-button-selection_off pill-button-selection_active">
+                                                        <span onclick="selectorSlizePlan('yearly')" class="pill-button-selection pill-button-selection_off pill-button-selection_active">
                                                             Pago anual. <br class="space">
-                                                            <span class="greenBlueColor">Ahorras 20%</span>
+                                                            <span >Ahorras 20%</span>
                                                         </span>
                                                         <span class="pill-button-highlight"></span>
                                                     </span>
@@ -452,31 +453,62 @@
                                     </div>
 
                                 </div>
-                                <div class="col-md-12 col-lg-6 inputs">
+                                <div class=" inputs">
                                     <div  class="price">
-                                        <h3>A partir de</h3>
+                                        <h3>Calcula el precio de tu plan</h3>
 
-                                        <div class="field">
-                                            <input name="_contactsField" class="contactsField" step="1000" type="number" value="1000">
+                                        <div class="field number">
+                                            <input name="_contactsField" class="contactsField" step="1000" type="number" value="5000" min="5000">
+
+                                            <div class="quantity-nav">
+                                                <div class="quantity-button quantity-up">
+                                                    <i class="fas fa-caret-up"></i>
+                                                </div>
+                                                <div class="quantity-button quantity-down">
+                                                    <i class="fas fa-caret-down"></i>
+                                                </div>
+                                            </div>
+
                                             <label for="_contactsField">
                                                 Coloca el número de <br class="space">
                                                 contactos de marketing
                                             </label>
                                         </div>
-                                        <div class="field">
-                                            <input name="_usersField" class="usersField" step="1" type="number" value="1">
+                                        <div class="field number">
+                                            <input name="_usersField" class="usersField" step="1" type="number" value="1" min="1">
+
+                                            <div class="quantity-nav">
+                                                <div class="quantity-button quantity-up">
+                                                    <i class="fas fa-caret-up"></i>
+                                                </div>
+                                                <div class="quantity-button quantity-down">
+                                                    <i class="fas fa-caret-down"></i>
+                                                </div>
+                                            </div>
+
                                             <label for="_usersField">
                                                 Coloca el número de usuarios <br class="space">
                                                 con acceso a la plataforma
                                             </label>
                                         </div>
-                                        <div class="field">
+                                        <div class="field select">
                                             <select name="_whatsappField">
                                                 <option value="No" selected>No</option>
                                                 <option value="Si">Si</option>
                                             </select>
+
+                                            <div class="quantity-nav">
+                                                <div class="quantity-button quantity-up">
+                                                    <i class="fas fa-caret-up"></i>
+                                                </div>
+                                                <div class="quantity-button quantity-down">
+                                                    <i class="fas fa-caret-down"></i>
+                                                </div>
+                                            </div>
+
                                             <label for="_contactsField">
-                                                Incluye Inbox y automatizaciones <br class="space"> de WhatsApp
+                                                Incluye Inbox y automatizaciones <br class="space"> de <span style="color:
+                                                #00D35B"><strong>WhatsApp</strong></span>
                                             </label>
                                         </div>
 
@@ -756,6 +788,8 @@
 
     </div>
 </div>
+
+
 
 
 

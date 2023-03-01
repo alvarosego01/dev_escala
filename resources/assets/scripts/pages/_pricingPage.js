@@ -238,11 +238,6 @@ function converContacts(contacts) {
 
 function convertUsers(data) {
 
-    // _contactsField: "1000"
-    // _rangeContacts: "7"
-    // _typePlan: "starter"
-    // _userAccess: "5"
-
     if (data._typePlan == 'starter') {
 
         if (data._userAccess[typeProcess] >= 1) {
