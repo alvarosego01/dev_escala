@@ -561,6 +561,7 @@ $items = [
                                                 <div class="selectorSlizeButton">
 
                                                     <input slizeRadioButton type="checkbox" class="pill-button-input" checked="checked" value="1" onclick="discountByPlanCard('{{ $item['name'] }}', this)" >
+
                                                     <span class="pill-button">
                                                         <span class="pill-button-selection pill-button-selection_on">
                                                             Pago mensual

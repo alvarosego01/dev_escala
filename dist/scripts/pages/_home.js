@@ -1,1 +1,131 @@
-var mobile=!1;function initMode(){var e=jQuery(document).width();e<=991&&(mobile=!0),991<e&&(mobile=!1)}function showTestimonials(e){var o=jQuery(".homeSection6 .testimonial");0<o.length&&("show"==e&&(o.each((e,o)=>{jQuery(o).css({display:"block"})}),jQuery(".showMore").remove()),"hide"==e&&o.each((e,o)=>{2<e&&jQuery(o).css({display:"none"})}))}jQuery(document).ready(function(){initMode(),jQuery(document).on("show.bs.collapse","#accordionPanelsFAQ",function(e){1200<jQuery("div#accordionPanelsFAQ").height()?jQuery("img.overlay3").css({display:"block"}):jQuery("img.overlay3").css({display:"none"})}),jQuery(document).on("hide.bs.collapse","#accordionPanelsFAQ",function(e){1200<jQuery("div#accordionPanelsFAQ").height()?jQuery("img.overlay3").css({display:"block"}):jQuery("img.overlay3").css({display:"none"})}),1==mobile&&showTestimonials("hide")});
+
+var mobile = false;
+
+
+
+function initMode(){
+
+    var l = jQuery( document ).width();
+
+    if( l <= 991 ){
+
+        mobile = true;
+
+    }
+    if( l > 991 ){
+
+        mobile = false;
+
+    }
+
+}
+
+function showTestimonials(type){
+
+    var l = jQuery('.homeSection6 .testimonial');
+
+
+    if(l.length > 0){
+
+        if(type == 'show'){
+
+            l.each((idx, element) => {
+
+                jQuery(element).css({
+                    'display': 'block'
+                });
+
+            });
+
+            jQuery('.showMore').remove();
+
+        }
+
+        if(type == 'hide'){
+
+            l.each((idx, element) => {
+
+
+                if(idx > 2){
+
+                    jQuery(element).css({
+                        'display': 'none'
+                    });
+
+                }
+            });
+
+        }
+
+    }
+
+}
+
+jQuery(document).ready(function () {
+
+
+
+    initMode();
+
+    jQuery(document).on('show.bs.collapse','#accordionPanelsFAQ',function (e){
+
+
+
+        var l = jQuery('div#accordionPanelsFAQ');
+
+        if (l.height() > 1200) {
+
+            jQuery('img.overlay3').css({
+
+                'display': 'block'
+
+            })
+
+        }else{
+
+            jQuery('img.overlay3').css({
+
+                'display': 'none'
+
+            })
+        }
+
+
+
+    });
+    jQuery(document).on('hide.bs.collapse','#accordionPanelsFAQ',function (e){
+
+
+
+        var l = jQuery('div#accordionPanelsFAQ');
+
+        if (l.height() > 1200) {
+
+            jQuery('img.overlay3').css({
+
+                'display': 'block'
+
+            })
+
+        }else{
+
+            jQuery('img.overlay3').css({
+
+                'display': 'none'
+
+            })
+        }
+
+
+
+    });
+
+
+    if(mobile == true){
+
+        showTestimonials('hide');
+
+    }
+
+
+});
