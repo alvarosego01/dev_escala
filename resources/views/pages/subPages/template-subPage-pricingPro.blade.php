@@ -437,11 +437,18 @@
                                                 <div class="extraPriceInfo">
 
                                                     <div class="discountData">
-                                                   <p class="primaryText">
+                                                   <p monthly_mode class="primaryText hideMode">
+
+                                                                <strong>Más pago único de</strong> USD 450 por <br class="space">
+                                                                Servicio de Acompañamiento <br class="space">
+                                                                Personalizado obligatorio <button class="questionIcon openPopUpButton popup-pricingPro_Message_PagoUnico">?</button>
+
+                                                    </p>
+                                                   <p yearly_mode class="primaryText">
 
                                                                 <strong><span style="color: #FF4D27">Te eximimos</span> del pago único de</strong> USD 450 <br class="space">
                                                                 por Servicio de Acompañamiento <br class="space">
-                                                                Personalizado obligatorio
+                                                                Personalizado obligatorio <button class="questionIcon openPopUpButton popup-pricingPro_Message_PagoUnico">?</button>
 
                                                     </p>
                                                     </div>
@@ -458,7 +465,7 @@
                                         <h3>Calcula el precio de tu plan</h3>
 
                                         <div class="field number">
-                                            <input name="_contactsField" class="contactsField" step="1000" type="number" value="5000" min="5000">
+                                            <input name="_contactsField" class="contactsField" step="1000" type="number" value="1000" min="1000">
 
                                             <div class="quantity-nav">
                                                 <div class="quantity-button quantity-up">
@@ -471,7 +478,7 @@
 
                                             <label for="_contactsField">
                                                 Coloca el número de <br class="space">
-                                                contactos de marketing
+                                                contactos de marketing <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
                                             </label>
                                         </div>
                                         <div class="field number">
@@ -508,7 +515,7 @@
 
                                             <label for="_contactsField">
                                                 Incluye Inbox y automatizaciones <br class="space"> de <span style="color:
-                                                #00D35B"><strong>WhatsApp</strong></span>
+                                                #00D35B"><strong>WhatsApp</strong></span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Whatsapp">?</button>
                                             </label>
                                         </div>
 
@@ -753,8 +760,8 @@
                                     </li>
                                 </ul>
 
-                                <a href="#"
-                                    class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                <a href="https://escala.com/servicio"
+                                    class=" primaryButton hoverInEffect ">
                                     Más información
                                 </a>
 
@@ -793,5 +800,173 @@
 
 
 
+
+
+
+<div class="customPopUp  pricingPro_special_message modal fade popup-pricingPro_Message_Contacts" id="popup-pricingPro_Message_Contacts"
+    aria-hidden="true" aria-labelledby="popup-pricingPro_Message_Contacts" tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered  pricingPro_special_message">
+
+        <div class="modal-content">
+
+            <div class="modal-body">
+
+                <section class="innerSectionElement">
+
+                    <div class="groupElements">
+
+                        <div class="row">
+
+                            <div class="info">
+
+                                <div class="containElements">
+
+                                    <div class="sect1">
+
+                                        <div class="containElements">
+
+                                            <p class="text">
+                                                Los contactos de marketing son contactos a quienes les puedes <br class="desktopTabletElement">
+                                                enviar campañas de Email marketing e emails automatizados.<br class="desktopTabletElement">
+                                                Los contactos de NO marketing solo se pueden contactar uno a <br class="desktopTabletElement">
+                                                uno vía el CRM y puedes guardar hasta 1 millón de este tipo en <br class="desktopTabletElement">
+                                                el CRM sin cobro adicional. <a class="hiperButtonGreenBlue" href="https://support.escala.com/portal/es/kb/articles/como-influye-el-aumento-de-contactos-de-marketing">Aprender más</a>
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<a style="display: none" popup="popup-pricingPro_Message_Contacts" indexpopupbutton class="btn btn-primary"
+    data-bs-toggle="modal" href="#popup-pricingPro_Message_Contacts" role="button">
+</a>
+
+{{--  --}}
+
+<div class="customPopUp  pricingPro_special_message modal fade popup-pricingPro_Message_Whatsapp" id="popup-pricingPro_Message_Whatsapp"
+    aria-hidden="true" aria-labelledby="popup-pricingPro_Message_Whatsapp" tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered  pricingPro_special_message">
+
+        <div class="modal-content">
+
+            <div class="modal-body">
+
+                <section class="innerSectionElement">
+
+                    <div class="groupElements">
+
+                        <div class="row">
+
+                            <div class="info">
+
+                                <div class="containElements">
+
+                                    <div class="sect1">
+
+                                        <div class="containElements">
+
+                                            <p class="text">
+                                                Escala tiene integrado <span style="color: #00D35B"><strong>WhatsApp API</strong></span> para que puedas <br class="desktopTabletElement">
+                                                automatizar respuestas, enviar mensajes masivos, conversar, <br class="desktopTabletElement">
+                                                guardar esas conversaciones en el CRM ¡y más!
+                                                <br class="space"><br class="space">
+                                                Potencia tu capacidad de respuesta y escala tus operaciones <br class="desktopTabletElement">
+                                                con el Inbox y las Automatizaciones de WhatsApp
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<a style="display: none" popup="popup-pricingPro_Message_Whatsapp" indexpopupbutton class="btn btn-primary"
+    data-bs-toggle="modal" href="#popup-pricingPro_Message_Whatsapp" role="button">
+</a>
+{{--  --}}
+<div class="customPopUp  pricingPro_special_message modal fade popup-pricingPro_Message_PagoUnico" id="popup-pricingPro_Message_PagoUnico"
+    aria-hidden="true" aria-labelledby="popup-pricingPro_Message_PagoUnico" tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered  pricingPro_special_message">
+
+        <div class="modal-content">
+
+            <div class="modal-body">
+
+                <section class="innerSectionElement">
+
+                    <div class="groupElements">
+
+                        <div class="row">
+
+                            <div class="info">
+
+                                <div class="containElements">
+
+                                    <div class="sect1">
+
+                                        <div class="containElements">
+
+                                            <p class="text">
+                                                Cuenta con un especialista que te apoya a <br class="desktopTabletElement">
+                                                definir un plan estratégico de marketing y/o <br class="desktopTabletElement">
+                                                ventas con Escala para luego guiarte a <br class="desktopTabletElement">
+                                                implementarlo paso a paso. <a class="hiperButtonGreenBlue" href="https://escala.com/servicio">Aprender más</a>
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<a style="display: none" popup="popup-pricingPro_Message_PagoUnico" indexpopupbutton class="btn btn-primary"
+    data-bs-toggle="modal" href="#popup-pricingPro_Message_PagoUnico" role="button">
+</a>
 
 

@@ -3,7 +3,13 @@
 var _typePlan = 'yearly';
 
 
-console.log('pricing pro', _typePlan);
+// descuentos
+let discount = 0;
+
+// costo final
+let costFinal = 0;
+let costNoDiscount = 0;
+
 
 let new_escalaContactsPro = [
     {
@@ -161,6 +167,20 @@ function selectorSlizePlan(type) {
 
     _typePlan = type;
 
+    if (_typePlan == 'monthly') {
+
+        jQuery('[yearly_mode]').addClass('hideMode');
+        jQuery('[monthly_mode]').removeClass('hideMode');
+
+    }
+
+    if (_typePlan == 'yearly') {
+
+        jQuery('[monthly_mode]').addClass('hideMode');
+        jQuery('[yearly_mode]').removeClass('hideMode');
+
+    }
+
 }
 
 function trimDecimals(costFinal) {
@@ -181,16 +201,26 @@ function trimDecimals(costFinal) {
 
 function calculateFinal(data) {
 
-    console.log('aaa', _typePlan);
+    let _contacts = converContacts(data._contactsField);
+    let _users = convertUsers(data);
+    let _whatsapp = (data._whatsappField === 'Si')? 40 : 0;
 
-    _contacts = converContacts(data._contactsField);
-    _users = convertUsers(data);
+    console.log('data', _whatsapp);
 
     if (_typePlan == 'monthly') {
 
+        let priceTach = null;
 
-        costFinal = _contacts.pro + _users.pro;
+        costFinal = _contacts.pro + _users.pro + _whatsapp;
         discount = 0;
+
+        priceTach = costFinal * 12;
+
+        priceTach = priceTach.toFixed(2);
+
+        priceTach = trimDecimals(priceTach);
+
+        jQuery('form#formCalcGeneral .ahorro ').html('Inversión total <strong>USD ' + priceTach + ' / año</strong>');
 
     }
 
@@ -200,11 +230,14 @@ function calculateFinal(data) {
         let priceAhorro = null;
         let discountTotal = null;
 
-        costFinal = _contacts.pro + _users.pro;
+        costFinal = _contacts.pro + _users.pro + _whatsapp;
+
         priceTach = costFinal * 12;
+
         discountTotal = priceTach - (priceTach * 0.20);
 
         discount = costFinal * 0.20;
+
         costNoDiscount = costFinal;
         costFinal = costFinal - discount;
         discount = discount.toFixed(2);
@@ -233,7 +266,7 @@ function calculateFinal(data) {
 
     costFinal = trimDecimals(costFinal);
 
-    // jQuery('#finalPriceCalc').text('USD ' + costFinal + ' / mes');
+    jQuery('.price .discountCost').html('<span>USD ' + costFinal + ' <small>/ mes</small> </span>');
 
 
 }
@@ -241,6 +274,9 @@ function calculateFinal(data) {
 
 
 jQuery(document).ready(function () {
+
+
+    selectorSlizePlan(_typePlan);
 
     jQuery('.field.number').each(function () {
         var spinner = jQuery(this),
