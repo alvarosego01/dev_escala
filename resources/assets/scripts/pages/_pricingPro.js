@@ -278,6 +278,15 @@ jQuery(document).ready(function () {
 
     selectorSlizePlan(_typePlan);
 
+    jQuery('.questionIcon').on('mouseover', function(e) {
+
+
+        // console.log('aaa', e);
+
+        jQuery(this).click();
+
+    })
+
     jQuery('.field.number').each(function () {
         var spinner = jQuery(this),
             input = spinner.find('input[type="number"]'),
