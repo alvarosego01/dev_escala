@@ -174,6 +174,8 @@ add_action('wp_enqueue_scripts', function () {
         // --- Pricing Pro
         if (is_page_template('views/template-subPage-pricingPro.blade.php')) {
             wp_enqueue_style('subPage_pricingPro.css', asset_path('styles/pages/subPages/subPage_pricingPro.css'), false, THEME_VERSION);
+
+              wp_enqueue_script('_pricingPro.js', asset_path('scripts/pages/_pricingPro.js'), ['jquery'], THEME_VERSION, true);
         }
         // --- Program alliance
         if (is_page_template('views/template-vn-program-alliance.blade.php')) {
