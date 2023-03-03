@@ -1,7 +1,5 @@
 
-
 var _typePlan = 'yearly';
-
 
 // descuentos
 let discount = 0;
@@ -60,7 +58,6 @@ function formula_infinite(n) {
     return x;
 
 }
-
 
 function calculate_contact_per_steps(n) {
 
@@ -143,24 +140,20 @@ function convertUsers(data) {
 
 
         return {
-
             pro: pro,
+
         }
 
     } else {
 
         return {
-
             pro: 0,
+
         };
 
     }
 
-
 }
-
-
-
 
 
 function selectorSlizePlan(type) {
@@ -197,15 +190,12 @@ function trimDecimals(costFinal) {
 
 }
 
-
-
 function calculateFinal(data) {
 
     let _contacts = converContacts(data._contactsField);
     let _users = convertUsers(data);
     let _whatsapp = (data._whatsappField === 'Si')? 40 : 0;
 
-    console.log('data', _whatsapp);
 
     if (_typePlan == 'monthly') {
 
@@ -252,40 +242,19 @@ function calculateFinal(data) {
         priceTach = trimDecimals(priceTach);
         discountTotal = trimDecimals(discountTotal);
 
-
         jQuery('form#formCalcGeneral .ahorro ').html('Pago total de <span>USD ' + priceTach + '</span> <strong>- USD ' + discountTotal + ' / año</strong>');
 
-
-        // jQuery('form#formCalcGeneral .discountExtra .discounter').text('USD ' + priceTach + ' / anual');
-
-        // jQuery('#priceDotted').text('USD ' + costNoDiscount + ' /mes');
-
     }
-
-    // let costFinal = 332.01;
 
     costFinal = trimDecimals(costFinal);
 
     jQuery('.price .discountCost').html('<span>USD ' + costFinal + ' <small>/ mes</small> </span>');
 
-
 }
-
-
 
 jQuery(document).ready(function () {
 
-
     selectorSlizePlan(_typePlan);
-
-    jQuery('.questionIcon').on('mouseover', function(e) {
-
-
-        // console.log('aaa', e);
-
-        jQuery(this).click();
-
-    })
 
     jQuery('.field.number').each(function () {
         var spinner = jQuery(this),
@@ -326,19 +295,14 @@ jQuery(document).ready(function () {
             input = spinner.find('select'),
             btnUp = spinner.find('.quantity-up'),
             btnDown = spinner.find('.quantity-down');
-        // min = input.attr('min'),
-        // max = input.attr('max');
 
         btnUp.click(function () {
             // input.click();
-
-
 
         });
 
         btnDown.click(function () {
             // input.click();
-
 
         });
 
@@ -346,24 +310,11 @@ jQuery(document).ready(function () {
 
     jQuery('form#formCalcGeneral').on('change', async function (e) {
 
-        // e.preventDefault();
-
         calculate = _serializeFormToObject(e.currentTarget)
-
-        // calculateFinal(calculate);
-
-        console.log('que es calculate', calculate);
-
-        // let m = jQuery('input.contactsField[typeProcess=' + typeProcess + ']').val();
-        // m = parseInt(m);
 
         calculateFinal(calculate);
 
-
     });
-
-
-
 
 
 });
