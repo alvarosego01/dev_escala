@@ -514,7 +514,7 @@
                                             </div>
 
                                             <label for="_contactsField">
-                                                Incluye Inbox y automatizaciones <br class="space"> de <span style="color:
+                                                Inbox y Automatizaciones <br class="space"> de <span style="color:
                                                 #00D35B"><strong>WhatsApp</strong></span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Whatsapp">?</button>
                                             </label>
                                         </div>
