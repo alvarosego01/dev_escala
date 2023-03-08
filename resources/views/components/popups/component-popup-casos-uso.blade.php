@@ -163,38 +163,31 @@ Conocer más casos de uso
             switch (industry) {
                 case 'Belleza':
                     jQuery('.popup-casosUso_general.popup_casos_uso .info span.wpcf7-form-control-wrap.your-industry select').val('Salud, estética y bienestar');
-
                     break;
                 case 'Seguros y Finanzas':
                     jQuery('.popup-casosUso_general.popup_casos_uso .info span.wpcf7-form-control-wrap.your-industry select').val('Financiera, legal y seguros');
-
                     break;
                 case 'Software & Cloud':
                     jQuery('.popup-casosUso_general.popup_casos_uso .info span.wpcf7-form-control-wrap.your-industry select').val('Software y cloud');
-
                     break;
                 case 'Salud':
                     jQuery('.popup-casosUso_general.popup_casos_uso .info span.wpcf7-form-control-wrap.your-industry select').val('Salud, estética y bienestar');
-
                     break;
                 case 'Turismo y entretenimiento':
                     jQuery('.popup-casosUso_general.popup_casos_uso .info span.wpcf7-form-control-wrap.your-industry select').val('Turismo y entretenimiento');
-
                     break;
                 case 'E-commerce':
                     jQuery('.popup-casosUso_general.popup_casos_uso .info span.wpcf7-form-control-wrap.your-industry select').val('E-commerce');
-
                     break;
                 case 'Servicios profesionales':
                     jQuery('.popup-casosUso_general.popup_casos_uso .info span.wpcf7-form-control-wrap.your-industry select').val('Servicios en general');
-
                     break;
 
                 default:
-                    jQuery('.popup-casosUso_general.popup_casos_uso .info span.wpcf7-form-control-wrap.your-industry select').val('Selecciona tu Industria');
-
+                      jQuery('.popup-casosUso_general.popup_casos_uso .info span.wpcf7-form-control-wrap.your-industry select option:first').prop('selected', true);
                     break;
             }
+
 
         }
 
@@ -259,6 +252,7 @@ Conocer más casos de uso
                     jQuery('.popup-casosUso_general.popup_casos_uso .image .sect1 .thirdTitle').html('');
                     jQuery('.popup-casosUso_general.popup_casos_uso .image .sect1 .thirdTitle').html(reemp);
 
+                        setItemPopupCasos('null');
                 }
 
             }
