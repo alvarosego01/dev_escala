@@ -1,5 +1,4 @@
 
-console.log('popup.js');
 
 // $("html, body").animate({ scrollTop: 0 }, "slow");
 
@@ -7,7 +6,6 @@ function modalScrollTop() {
 
     jQuery("html, body").animate({ scrollTop: 0 }, "slow");
 
-    console.log('scroll top');
 
 }
 
@@ -15,10 +13,8 @@ jQuery(document).ready(function () {
 
     // redirect
     if (typeof (popup_config) !== 'undefined') {
-        console.log('popup_config', popup_config);
         if (popup_config.type && popup_config.type == 'onload_webpage') {
 
-            console.log('abre al cargar');
             jQuery('[indexpopupbutton]')[0].click();
 
         }
@@ -29,7 +25,6 @@ jQuery(document).ready(function () {
 
                 setTimeout(function () {
 
-                    console.log('abre a los segundos ', popup_config.seconds * 1000);
                     jQuery('[indexpopupbutton]')[0].click();
 
                 }, popup_config.seconds * 1000);
@@ -56,8 +51,6 @@ jQuery(document).ready(function () {
             classList.push(r);
         });
 
-        console.log('e', classList);
-
         var popupID = null;
 
         if (classList && classList.length > 0) {
@@ -71,15 +64,12 @@ jQuery(document).ready(function () {
 
             });
 
-            console.log('i', i);
-
             if (i) {
 
                 popupID = classList[i];
                 // popUpOpenButton
                 if (popupID != null) {
 
-                    console.log('popupid', popupID);
 
                     if (jQuery('[indexpopupbutton][popup="' + popupID + '"]').length > 0) {
 
@@ -88,29 +78,9 @@ jQuery(document).ready(function () {
                     }
                 }
 
-
-
             }
 
         }
-
-        // const Toast = Swal.mixin({
-        //     toast: true,
-        //     position: 'bottom',
-        //     showConfirmButton: false,
-        //     timer: 4500,
-        //     timerProgressBar: true,
-        //     // didOpen: (toast) => {
-        //     //   toast.addEventListener('mouseenter', Swal.stopTimer)
-        //     //   toast.addEventListener('mouseleave', Swal.resumeTimer)
-        //     // }
-        //   })
-
-        //   Toast.fire({
-        //     icon: 'success',
-        //     title: '¡Completa este formulario para probar <strong>Escala</strong> ahora!'
-        //   })
-
 
     });
 
