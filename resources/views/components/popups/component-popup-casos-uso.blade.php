@@ -188,7 +188,6 @@ Conocer más casos de uso
                     break;
             }
 
-
         }
 
         if (jQuery('.popup-casosUso_general.popup_casos_uso .wpcf7 input.wpcf7-form-control.wpcf7-submit').length > 0) {
