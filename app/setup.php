@@ -177,6 +177,13 @@ add_action('wp_enqueue_scripts', function () {
 
               wp_enqueue_script('_pricingPro.js', asset_path('scripts/pages/_pricingPro.js'), ['jquery'], THEME_VERSION, true);
         }
+        // --- Pricing 2023
+        if (is_page_template('views/template-subPage-pricing-2023.blade.php')) {
+
+            wp_enqueue_style('subPage_pricing_2023.css', asset_path('styles/pages/subPages/subPage_pricing_2023.css'), false, THEME_VERSION);
+            wp_enqueue_script('_pricing2023.js', asset_path('scripts/pages/_pricing2023.js'), ['jquery'], THEME_VERSION, true);
+
+        }
         // --- Program alliance
         if (is_page_template('views/template-vn-program-alliance.blade.php')) {
             wp_enqueue_style('programAlliance.css', asset_path('styles/pages/subPages/vn/programAlliance.css'), false, THEME_VERSION);

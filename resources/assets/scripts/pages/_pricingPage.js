@@ -56,7 +56,6 @@ let escalaContactsStarter = [
     5,
     5,
     // 4
-
 ];
 
 
@@ -798,16 +797,13 @@ function calculateFinal(data) {
         jQuery('form#formCalcGeneral .discountExtra .discounter').text('USD ' + priceTach + ' / anual');
 
         jQuery('#priceDotted').text('USD ' + costNoDiscount + ' /mes');
-        // jQuery('#priceSaves').text('Ahorras USD ' + discount);
-        // jQuery('#priceSaves').text('Pago total de <span>USD '+ priceTach +'</span> <strong>- USD 1.134 / año</strong>' + discount);
+
     }
 
     // let costFinal = 332.01;
-
     costFinal = trimDecimals(costFinal);
 
     jQuery('#finalPriceCalc').text('USD ' + costFinal + ' / mes');
-
 
 }
 
