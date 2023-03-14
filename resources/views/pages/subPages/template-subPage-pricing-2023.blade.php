@@ -406,8 +406,13 @@
 
                         <div class="row">
 
+                            <div class="col-md-12 col-lg-3">
 
-                            <div class="col-md-12 col-lg-4 pricingCard starter">
+                                      <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_space_landing.png') !!}" alt="" class="overlaySpace">
+
+                            </div>
+
+                            <div class="col-md-12 col-lg-3 pricingCard starter">
 
                                  <div class="head">
                                      <h3 class="secondaryTitle blackColor">
@@ -460,7 +465,7 @@
                                             </div>
 
                                             <label for="_contactsField">
-                                                Coloca el número de <br class="space">
+                                                Coloca el número de <br class="desktopTabletElement">
                                                 contactos de marketing <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
                                             </label>
                                         </div>
@@ -477,7 +482,7 @@
                                             </div>
 
                                             <label for="_usersField">
-                                                Coloca el número de usuarios <br class="space">
+                                                Coloca el número de usuarios <br class="desktopTabletElement">
                                                 con acceso a la plataforma
                                             </label>
                                         </div>
@@ -500,7 +505,7 @@
 
                                 </div>
 
-                            <div class="col-md-12 col-lg-4 pricingCard pro">
+                            <div class="col-md-12 col-lg-3 pricingCard pro">
 
                                      <img src="{!! App::setFilePath('/assets/images/illustrations/others/principal_star.png') !!}" alt="" class="principalStar">
 
@@ -592,7 +597,7 @@
                                             </div>
 
                                             <label for="_contactsField">
-                                                Coloca el número de <br class="space">
+                                                Coloca el número de <br class="desktopTabletElement">
                                                 contactos de marketing <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
                                             </label>
                                         </div>
@@ -609,7 +614,7 @@
                                             </div>
 
                                             <label for="_usersField">
-                                                Coloca el número de usuarios <br class="space">
+                                                Coloca el número de usuarios <br class="desktopTabletElement">
                                                 con acceso a la plataforma
                                             </label>
                                         </div>
@@ -629,7 +634,7 @@
                                             </div>
 
                                             <label for="_contactsField">
-                                                Inbox y Automatizaciones <br class="space"> de <span style="color:
+                                                Inbox y Automatizaciones <br class="desktopTabletElement"> de <span style="color:
                                                 #00D35B"><strong>WhatsApp</strong></span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Whatsapp">?</button>
                                             </label>
                                         </div>
@@ -654,10 +659,7 @@
 
                             </div>
 
-                            <div class="col-md-12 col-lg-4 pricingCard enterprise">
-
-
-
+                            <div class="col-md-12 col-lg-3 pricingCard enterprise">
 
                                     <div class="head">
                                      <h3 class="secondaryTitle blackColor">
@@ -754,7 +756,7 @@
 
                         <div class="row">
 
-                            <div class="list col-md-12 col-lg-12">
+                            <div class="list col-md-12 col-lg-9">
                                 <h3>
                                     {!! $featuresElements['services']['name'] !!}
                                 </h3>
@@ -827,7 +829,7 @@
                                     </ul>
                                 @endif
                             </div>
-                            <div class="list col-md-12 col-lg-12">
+                            <div class="list col-md-12 col-lg-9">
                                 <h3>
                                     {!! $featuresElements['access']['name'] !!}
                                 </h3>
