@@ -71,7 +71,7 @@
                             "name" => "Clases técnicas por herramienta",
                             "value" => [
                             "checkIcon",
-                            "Ilimitadas"
+                            "checkIcon"
                             ]
                         ],
                         [
@@ -501,6 +501,13 @@
 
                                      </div>
 
+                                            <div class="openComparation">
+                                        <a onclick="openCompare()" >
+                                            Ver comparación completa
+                                            <i class="fas fa-caret-up"></i>
+                                        </a>
+                                     </div>
+
                                 </div>
 
                                 </div>
@@ -653,6 +660,13 @@
 
                                      </div>
 
+                                     <div class="openComparation">
+                                        <a onclick="openCompare()" >
+                                            Ver comparación completa
+                                            <i class="fas fa-caret-up"></i>
+                                        </a>
+                                     </div>
+
 
 
                                 </div>
@@ -729,13 +743,14 @@
 
                                       </div>
 
-                                            <div class="buttonSection">
+                                    <div class="buttonSection">
 
                                         <a class="primaryWhiteButton   hoverInEffect openPopUpButton popup-general-demo-2022">
                                             Solicitar Demo
                                         </a>
 
                                      </div>
+
 
                                     </div>
 
@@ -807,7 +822,7 @@
                                                                                     <img class="checkIcon"
                                                                                         src="{!! App::setFilePath('/assets/images/illustrations/others/vector_check_orange.png') !!}"
                                                                                         alt="">
-                                                                                @elseif( isset($subItem['value'][0]) && $subItem['value'][0] == 'disabledIcon' )
+                                                                                @elseif( isset($subItem['value'][1]) && $subItem['value'][1] == 'disabledIcon' )
                                                                                     <img class="disabledIcon"
                                                                                         src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
                                                                                         alt="">
@@ -880,7 +895,7 @@
                                                                                     <img class="checkIcon"
                                                                                         src="{!! App::setFilePath('/assets/images/illustrations/others/vector_check_orange.png') !!}"
                                                                                         alt="">
-                                                                                @elseif( isset($subItem['value'][0]) && $subItem['value'][0] == 'disabledIcon' )
+                                                                                @elseif( isset($subItem['value'][1]) && $subItem['value'][1] == 'disabledIcon' )
                                                                                     <img class="disabledIcon"
                                                                                         src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
                                                                                         alt="">
