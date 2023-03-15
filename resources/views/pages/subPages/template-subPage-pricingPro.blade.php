@@ -236,11 +236,11 @@
                         ],
                          [
                             "name" => "Número de cuentas de <br class='space'> Fb Ads Manager ",
-                            "value" => "Ilimitadas"
+                            "value" => "Hasta 3"
                         ],
                          [
                             "name" => "Número de campañas publicadas",
-                            "value" => "Hasta 3"
+                            "value" => "Ilimitadas"
                         ],
                          [
                             "name" => "Integración nativa Fb Ads Manager",
