@@ -440,6 +440,10 @@
                                     <div class="middle">
                                         <div class="innerMiddle">
 
+                                            <span class="extraTag">
+                                                Únicamente pago <span style="color: #FF4E33">anual</span>
+                                            </span>
+
                                         </div>
                                     </div>
 
@@ -562,20 +566,20 @@
                                                 <div class="extraPriceInfo">
 
                                                     <div class="discountData">
-                                                   <p monthly_mode class="primaryText hideMode">
+                                                   <p  class="primaryText">
 
                                                                 <strong>Más pago único de</strong> USD 450 por <br class="space">
                                                                 Servicio de Acompañamiento <br class="space">
                                                                 Personalizado obligatorio <button class="questionIcon openPopUpButton popup-pricingPro_Message_PagoUnico">?</button>
 
                                                     </p>
-                                                   <p yearly_mode class="primaryText">
+                                                   {{-- <p yearly_mode class="primaryText">
 
                                                                 <strong><span style="color: #FF4D27">Te eximimos</span> del pago único de</strong> USD 450 <br class="space">
                                                                 por Servicio de Acompañamiento <br class="space">
                                                                 Personalizado obligatorio <button class="questionIcon openPopUpButton popup-pricingPro_Message_PagoUnico">?</button>
 
-                                                    </p>
+                                                    </p> --}}
                                                     </div>
                                                 </div>
 
@@ -703,6 +707,11 @@
 
                                     <div class="middle">
                                         <div class="innerMiddle">
+                                                 <span class="extraTag">
+                                                A partir de <span style="color: #FF4E33">100.000</span> <br class="space">
+                                                contactos
+
+                                            </span>
 
                                         </div>
                                     </div>
@@ -730,8 +739,8 @@
                                             </div>
 
                                             <label for="_contactsField">
-                                                A partir de este <br class="space">
-                                                número de contactos <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
+                                                Coloca el número de <br class="desktopTabletElement">
+                                                contactos de marketing<button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
                                             </label>
                                         </div>
 

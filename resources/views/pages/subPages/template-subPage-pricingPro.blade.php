@@ -437,20 +437,20 @@
                                                 <div class="extraPriceInfo">
 
                                                     <div class="discountData">
-                                                   <p monthly_mode class="primaryText hideMode">
+                                                   <p class="primaryText">
 
                                                                 <strong>Más pago único de</strong> USD 450 por <br class="space">
                                                                 Servicio de Acompañamiento <br class="space">
                                                                 Personalizado obligatorio <button class="questionIcon openPopUpButton popup-pricingPro_Message_PagoUnico">?</button>
 
                                                     </p>
-                                                   <p yearly_mode class="primaryText">
+                                                   {{-- <p yearly_mode class="primaryText">
 
                                                                 <strong><span style="color: #FF4D27">Te eximimos</span> del pago único de</strong> USD 450 <br class="space">
                                                                 por Servicio de Acompañamiento <br class="space">
                                                                 Personalizado obligatorio <button class="questionIcon openPopUpButton popup-pricingPro_Message_PagoUnico">?</button>
 
-                                                    </p>
+                                                    </p> --}}
                                                     </div>
                                                 </div>
 
