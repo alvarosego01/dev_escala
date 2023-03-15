@@ -440,6 +440,27 @@ function calculateFinal(data) {
 
 }
 
+function openCompare(){
+
+    let items = jQuery('li.itemParent');
+
+
+    jQuery.each(items, function (indexInArray, valueOfElement) {
+
+            // aria-expanded="false"
+
+            if( jQuery('button', valueOfElement).attr('aria-expanded') === 'false' ){
+
+                jQuery('button', valueOfElement).click();
+
+            }
+
+    });
+
+
+}
+
+
 jQuery(document).ready(function () {
 
     selectorSlizePlan(_typePlan);

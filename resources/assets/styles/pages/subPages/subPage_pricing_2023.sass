@@ -100,16 +100,18 @@
                         background: #FFFFFF
                         position: relative
                         @include responsivo(telefonoTable)
-                            padding: 50px 25px!important
+                            padding: 25px!important
 
                         @include responsivo(pcMedio)
-                            padding: 50px 25px!important
+                            padding: 25px!important
 
                         @include responsivo(general)
                             padding: 50px 15px!important
+                            padding-bottom: 25px!important
 
                         @include responsivo(resto)
                             padding: 50px 25px!important
+                            padding-bottom: 25px!important
 
                         &:nth-of-type(2)
                             border-radius: 14px 0px 0px 0px
@@ -560,6 +562,34 @@
                                 justify-content: center
                                 align-content: center
                                 align-items: center
+                                margin-bottom: 25px
+
+                            .openComparation
+                                display: flex
+                                justify-content: center
+                                align-content: center
+                                align-items: center
+                                a
+                                    font-family: Nunito
+                                    font-style: normal
+                                    font-weight: 600
+                                    font-size: 16px
+                                    line-height: 1
+                                    text-align: center
+                                    letter-spacing: -1px
+                                    color: #36768A
+                                    display: flex
+                                    flex-direction: column
+                                    justify-content: center
+                                    align-content: center
+
+                                    @include responsivo(telefonoTable)
+                                        font-size: 12px
+                                    @include responsivo(pcMedio)
+                                        font-size: 14px
+                                    @include responsivo(general)
+                                        font-size: 14px
+
 
 
         .innerSectionElement.sct3
@@ -629,11 +659,9 @@
                                     position: relative
                                     border-bottom: 1px solid #B9E6E9
                                     @include responsivo(telefonoTable)
-                                        padding-top: 12.5px
-                                        padding-bottom: 12.5px
+                                        padding: 12.5px 10px
                                     @include responsivo(pcMedio)
-                                        padding-top: 12.5px
-                                        padding-bottom: 12.5px
+                                        padding: 12.5px 15px
                                     i
                                         position: absolute
                                         right: 20px
@@ -661,6 +689,8 @@
                                                     background-color: #FFFFFF
                                                     border: 0
                                                     width: 100%
+                                                    display: flex
+                                                    flex-direction: row
                                                     &:nth-of-type(odd)
                                                         background-color: #F7F9FA
                                                     td
@@ -675,12 +705,24 @@
                                                         letter-spacing: -0.907315px
                                                         color: #797979
                                                         border-right: 1px solid #B9E6E9
+                                                        @include responsivo(telefonoTable)
+                                                            padding: 10px
+                                                        @include responsivo(pcMedio)
+                                                            padding: 10px 15px
                                                         &:last-child
                                                             color: #FF4E33
                                                         &:nth-child(2)
                                                             text-align: center
+                                                            display: flex
+                                                            align-content: center
+                                                            align-items: center
+                                                            justify-content: center
                                                         &:nth-child(3)
                                                             text-align: center
+                                                            display: flex
+                                                            align-content: center
+                                                            align-items: center
+                                                            justify-content: center
 
                                                         @include responsivo(telefonoTable)
                                                             font-size: 14px
