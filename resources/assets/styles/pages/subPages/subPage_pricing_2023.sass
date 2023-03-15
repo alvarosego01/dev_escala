@@ -342,10 +342,43 @@
 
                             .middle
                                 margin-bottom: 25px
-                                @include responsivo(general)
-                                    height: 105px
-                                @include responsivo(resto)
-                                    height: 105px
+                                .innerMiddle
+                                    position: relative
+                                    @include responsivo(general)
+                                        height: 105px
+                                    @include responsivo(resto)
+                                        height: 105px
+                                    .extraTag
+                                        font-family: Nunito
+                                        font-style: normal
+                                        font-weight: 400
+                                        font-size: 20px
+                                        line-height: 1
+                                        letter-spacing: -1px
+                                        color: #36768A
+                                        text-align: center
+                                        width: 100%
+                                        margin: 0 auto
+                                        display: block
+                                        @include responsivo(telefonoTable)
+                                            font-size: 14px
+                                        @include responsivo(pcMedio)
+                                            font-size: 16px
+                                        @include responsivo(general)
+                                            font-size: 18px
+
+                                        @include responsivo(general)
+                                            position: absolute
+                                            left: 0
+                                            right: 0
+                                            height: 46px
+                                            margin-top: 55px
+                                        @include responsivo(resto)
+                                            position: absolute
+                                            left: 0
+                                            right: 0
+                                            height: 46px
+                                            margin-top: 55px
 
                                 .extraPriceInfo
                                     .discountData
@@ -479,7 +512,7 @@
                                                     width: 90px!important
                                                 @include responsivo(smallPcTablet)
                                                     font-size: 14px
-                                                    width: 80px!important
+                                                    width: 75px!important
 
                                                 @include responsivo(resto)
                                                     font-size: 18px
