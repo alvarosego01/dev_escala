@@ -35,9 +35,7 @@
   'image' => App::setFilePath('/assets/images/person/home_header_person.png'),
   'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM'
   ) ;
-
   @endphp
-
   @header_t1( $parameters )
   @endheader_t1
 
