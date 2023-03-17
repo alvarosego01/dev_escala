@@ -5,38 +5,6 @@
 <div id="subPage_partners_2022">
   <div class="sections">
 
-    {{-- @php
-    $parameters = array(
-     'backgroundImageType' => false,
-     'overlay' => false,
-     'classSection' => 'threeCol subPage_partners_2022_0',
-     'title' => '
-      Sé partner de <br class="space">
-      Escala y <span class="greenBlueColor">
-        multiplica <br class="space">
-        tus ingresos
-      </span>
-    ',
-     'text' => '
-      <ul class="principalBigText ">
-          <li>Gana hasta 30% de comisión</li>
-          <li>Potencia el crecimiento de tu negocio</li>
-          <li>Contribuye al progreso de empresas <br class="space">
-          en Hispanoamérica.</li>
-      </ul>
-      ',
-     'threeCol' => true,
-     'textForm' => 'Aplica para ser Partner',
-     'backgroundImage' => null,
-  'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/person/am/Group 8185.png'),
-  'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM'
-  ) ;
-
-  @endphp
-
-  @header_t1( $parameters )
-  @endheader_t1 --}}
 
   <section id="lead-form" class="component-header-t1 bg-color customSection sectionParent threeCol subPage_partners_2022_0  ">
 
