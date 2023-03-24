@@ -7,21 +7,18 @@
                 'backgroundImageType' => true,
                 'overlay' => false,
                 'classSection' => 'threeCol casoExito_firma_consultoria_0 newHome',
-                'title' =>
-                    '
-     <img class="logo-img" src="' .
-                    App::setFilePath('/assets/images/illustrations/others/logo_firma_consultoria.png') .
-                    '">
-     <small ><span>Caso de éxito:</span> Firma de consultoría</small>
-     <span style="color: #A4E7EA; font-weight: 700;" >
-      Aumentó 2X
-      </span>
-    ',
+                'title' =>'
+                <img class="logo-img" src="'.App::setFilePath('/assets/images/illustrations/others/logo_firma_consultoria.png').'">
+                 <small ><span>Caso de éxito:</span> Firma de consultoría</small>
+                 <span style="color: #A4E7EA; font-weight: 700;" >
+                  Aumentó 2X
+                  </span>
+                ',
                 'text' => '<span class="whiteColor">
-      su facturación con Escala <br class="space">
-      en menos de 6 meses
-      </span>
-      ',
+                su facturación con Escala <br class="space">
+                en menos de 6 meses
+                </span>
+                ',
                 'threeCol' => true,
                 'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
                 'backgroundImage' => App::setFilePath('/assets/images/backgrounds/fondo banner principal.png'),
