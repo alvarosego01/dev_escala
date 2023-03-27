@@ -78,24 +78,23 @@ function component_blog_cta_1($atts)
                     <img alt="Logotipo de Escala color blanco" src="<?php echo $src ?>" alt="" loading="lazy">
                 </div>
 
-
                         <h3 class="secondaryTitle">
-                        ¡Obtén 10 días de nuestra <br class="space">
-                         plataforma sin costo alguno!
+                            Estás a un clic de recibir <br class="space">
+                            una Demo Gratis
                         </h3>
 
                         <?php
 
                         if (isset($a['type_button']) && $a['type_button'] != null) { ?>
                             <a class="<?php echo $type_button ?>" >
-                                ¡Recibe un demo!
+                                Recibe un demo
                             </a>
                             <?php
                         }
                             if (isset($a['url']) && $a['url'] != null) {
                                 ?>
                                 <a class="<?php echo $type_button ?>" href="<?php echo $url ?>">
-                                    ¡Recibe un demo!
+                                    Recibe un demo
                                 </a>
                                 <?php
                             } ?>
@@ -159,23 +158,22 @@ function component_blog_cta_2($atts)
                 </div>
 
                         <h3 class="secondaryTitle">
-                        ¡Obtén 10 días <br class="space">
-                        de nuestra plataforma <br class="space">
-                        sin costo alguno!
+                            Estás a un clic de recibir <br class="space">
+                            una Demo Gratis
                         </h3>
 
                         <?php
 
                         if (isset($a['type_button']) && $a['type_button'] != null) { ?>
                             <a class="<?php echo $type_button ?>" >
-                                ¡Recibe un demo!
+                                Recibe un demo
                             </a>
                             <?php
                         }
                             if (isset($a['url']) && $a['url'] != null) {
                                 ?>
                                 <a class="<?php echo $type_button ?>" href="<?php echo $url ?>">
-                                    ¡Recibe un demo!
+                                    Recibe un demo
                                 </a>
                                 <?php
                             } ?>
@@ -229,12 +227,10 @@ function component_blog_cta_3($atts)
 
                 <div class="info">
 
-
-                    <h3 class="secondaryTitle">
-                    ¡Obtén 10 días <br class="space">
-                    de nuestra plataforma <br class="space">
-                    sin costo alguno!
-                    </h3>
+                        <h3 class="secondaryTitle">
+                            Estás a un clic de recibir <br class="space">
+                            una Demo Gratis
+                        </h3>
 
                     <div class="containerImage logo">
                         <?php
@@ -258,14 +254,14 @@ function component_blog_cta_3($atts)
 
                 if (isset($a['type_button']) && $a['type_button'] != null) { ?>
                         <a class="<?php echo $type_button ?>" >
-                            ¡Recibe un demo!
+                            Recibe un demo
                         </a>
                         <?php
                     }
                         if (isset($a['url']) && $a['url'] != null) {
                             ?>
                             <a class="<?php echo $type_button ?>" href="<?php echo $url ?>">
-                                ¡Recibe un demo!
+                                Recibe un demo
                             </a>
                             <?php
                         }
