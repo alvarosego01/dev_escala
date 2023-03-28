@@ -53,6 +53,10 @@
 
     .customSection.sectionParent.blogSingleSection1
         padding: 75px 0
+        @include responsivo(telefonoTable)
+            padding: 50px 0
+        @include responsivo(pcMedio)
+            padding: 50px 0
 
         .section-row
             @include responsivo(telefonoTable)
@@ -71,6 +75,10 @@
                 display: flex
                 .row
                     .social
+                        @include responsivo(telefonoTable)
+                            margin-bottom: 25px
+                        @include responsivo(pcMedio)
+                            margin-bottom: 25px
                         h2
                             color: #706B6D
                             font-family: Nunito

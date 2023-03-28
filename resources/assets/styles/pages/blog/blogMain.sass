@@ -13,30 +13,90 @@
 
 // [class$="something"]
 .post-template
-    p
-        color: $colorGrey3
-        font-size: 18px
-        line-height: 30px
-        font-family: Nunito
-        margin-bottom: 25px
+    .content
+        p
+            color: $colorGrey
+            font-size: 18px
+            line-height: 1.1
+            font-family: Nunito
+            margin-bottom: 25px
+            @include responsivo(telefonoTable)
+                font-size: 14px!important
+            @include responsivo(pcMedio)
+                font-size: 16px!important
+        ul li,
+        ul li p
+            font-size: 18px
+            line-height: 1.1
+            font-family: Nunito
+            margin-bottom: 25px
+            color: $colorGrey
+            @include responsivo(telefonoTable)
+                font-size: 14px!important
+            @include responsivo(pcMedio)
+                font-size: 16px!important
+            &:last-child
+                margin-bottom: 0
+        ul li
+            display: flex
+            flex-direction: row
 
-    .h2-blogpost,
-    .h2\.blogpost
-        font-family: Nunito
-        color: #150D27
-        font-size: 36px
-        font-weight: Bold
-        margin-bottom: 25px
-        margin-top: 25px
+        ul
+            margin-bottom: 25px
 
-    .h3-blogpost,
-    .h3\.blogpost
-        font-family: Nunito
-        color: #34768A !important
-        font-size: 22px
-        font-weight: Bold
-        margin-bottom: 25px
-        margin-top: 25px
+        .h2-blogpost,
+        .h2\.blogpost
+            // color: $colorBlack
+            font-family: Nunito
+            font-size: 35px
+            line-height: 1
+            font-weight: Bold
+            margin-bottom: 25px
+            margin-top: 0
+            @include responsivo(telefonoTable)
+                font-size: 25px!important
+                text-align: center
+            @include responsivo(pcMedio)
+                font-size: 25px!important
+                text-align: center
+
+        .h3-blogpost,
+        .h3\.blogpost
+            font-family: Nunito
+            color: #34768A
+            font-size: 25px
+            line-height: 1
+            font-weight: Bold
+            margin-bottom: 25px
+            margin-top: 0
+            @include responsivo(telefonoTable)
+                font-size: 18px!important
+            @include responsivo(pcMedio)
+                font-size: 20px!important
+
+        .h4-blogpost,
+        .h4\.blogpost
+            font-family: Nunito
+            // color: #34768A
+            font-size: 20px
+            font-weight: Bold
+            margin-bottom: 25px
+            margin-top: 0
+            line-height: 1
+            @include responsivo(telefonoTable)
+                font-size: 16px!important
+            @include responsivo(pcMedio)
+                font-size: 18px!important
+
+        // h3.h3-paragraphTitle,
+        // h4.h4-paragraphTitle
+        //     font-weight: bold
+        //     font-family: Nunito
+
+        img
+            &.aligncenter
+                &.size-full
+                    margin: 25px 0 25px 0
 
     /* Blog Newsletter */
     h3.elementor-icon-box-title
@@ -86,20 +146,3 @@
 .essb_links.essb_displayed_top.essb_share.essb_template_default4-retina,
 .essb_links.essb_displayed_bottom.essb_share.essb_template_default4-retina
     display: none
-
-// .h2-blogpost{
-// 	font-family: Nunito;
-// 	color: #150D27;
-// 	font-size: 36px;
-// 	font-weight: Bold;
-// }
-// .h3-blogpost{
-// 	font-family: Nunito;
-// 	color: #34768A !important;
-// 	font-size: 22px;
-// 	font-weight: Bold;
-// }
-// /* Blog Newsletter */
-// h3.elementor-icon-box-title{
-// 	margin-bottom: 0px;
-// }

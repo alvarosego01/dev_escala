@@ -18,7 +18,7 @@
 @section('content')
 
 
-    <div id="blog-single-bootstrap">
+    <div id="blog-single-bootstrap" class="post-template">
 
         <div class="sections">
 
@@ -76,7 +76,7 @@
                             </div>
                           </div>
 
-                          <div class="col-md-12 col-lg-10 content">
+                          <div class="col-md-12 col-lg-10 content ">
 
                             {!! the_content() !!}
 
