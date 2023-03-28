@@ -76,7 +76,7 @@
                             </div>
                           </div>
 
-                          <div class="col-md-12 col-lg-10 content">
+                          <div class="col-md-12 col-lg-10 content ">
 
                             {!! the_content() !!}
 
