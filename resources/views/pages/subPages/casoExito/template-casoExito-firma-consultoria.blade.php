@@ -46,7 +46,7 @@
                             </div>
                             <p class="text">
                                 De aumento en generación de <br class="space">
-                                leads gracias a Escala.
+                                leads gracias a Escala
                             </p>
                         </div>
                         <div class="element">
