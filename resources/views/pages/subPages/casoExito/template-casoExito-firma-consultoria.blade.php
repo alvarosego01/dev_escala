@@ -197,7 +197,7 @@
                                     <span class="number">
                                         4
                                     </span>
-                Optimizaron sus campañas de email masivo, beneficiándose de tener <br class="greenBlueColor">
+                <span class="greenBlueColor">Optimizaron sus campañas de email masivo,</span> beneficiándose de tener <br class="greenBlueColor">
                 integradas todas las herramientas que necesitan en un mismo lugar. Antes <br class="greenBlueColor">
                 utilizaban Mailchimp y muchos de sus emails llegaban a spam. Ahora con <br class="greenBlueColor">
                 Escala tienen las comunicaciones integradas y mejoraron su tasa de apertura.

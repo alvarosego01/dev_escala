@@ -17,9 +17,10 @@
         p
             color: $colorGrey
             font-size: 18px
-            line-height: 1.1
+            line-height: 1.25
             font-family: Nunito
             margin-bottom: 25px
+            text-align: justify
             @include responsivo(telefonoTable)
                 font-size: 14px!important
             @include responsivo(pcMedio)
@@ -27,19 +28,17 @@
         ul li,
         ul li p
             font-size: 18px
-            line-height: 1.1
+            line-height: 1.25
             font-family: Nunito
             margin-bottom: 25px
             color: $colorGrey
+            text-align: justify
             @include responsivo(telefonoTable)
                 font-size: 14px!important
             @include responsivo(pcMedio)
                 font-size: 16px!important
             &:last-child
                 margin-bottom: 0
-        ul li
-            display: flex
-            flex-direction: row
 
         ul
             margin-bottom: 25px
