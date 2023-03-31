@@ -41,14 +41,24 @@
                         <div class="element">
                             <div class="numbers">
                                 <span>
+                                    4X
+                                </span>
+                            </div>
+                            <p class="text">
+                                De aumento en generación de <br class="space">
+                                leads gracias a Escala.
+                            </p>
+                        </div>
+                        <div class="element">
+                            <div class="numbers">
+                                <span>
                                     50%
                                 </span>
                             </div>
                             <p class="text">
-                                Reducción en <br class="space">
-                                tiempo invertido <br class="space">
-                                por su equipo en <br class="space">
-                                tareas operativas
+                                Reducción en tiempo <br class="space">
+                                invertido por su equipo <br class="space">
+                                en tareas operativas
                             </p>
                         </div>
                         <div class="element">
@@ -58,9 +68,9 @@
                                 </span>
                             </div>
                             <p class="text">
-                                De aumento en la<br class="space">
-                                productividad de su equipo<br class="space">
-                                comercial redujo quejas y<br class="space">
+                                De aumento en la <br class="space">
+                                productividad de su equipo <br class="space">
+                                comercial redujo quejas y <br class="space">
                                 solicitudes de contratación
                             </p>
                         </div>
@@ -92,15 +102,10 @@
                             </h3>
 
                             <p class="text">
-
-                                Empresa de consultoría y capacitación empresarial enfocada en apoyar <br
-                                    class="desktopTabletElement">
-                                a PYMES a fortalecer procesos en toda su cadena de valor. Ofrecen <br
-                                    class="desktopTabletElement">
-                                cursos y programas de asesoría en metodologías Lean, gestión de <br
-                                    class="desktopTabletElement">
+                                Empresa de consultoría y capacitación empresarial enfocada en apoyar <br class="desktopTabletElement">
+                                a PYMES a fortalecer procesos en toda su cadena de valor. Ofrecen <br class="desktopTabletElement">
+                                cursos y programas de asesoría en metodologías Lean, gestión de <br class="desktopTabletElement">
                                 calidad, logística y operaciones.
-
                             </p>
 
                         </div>
@@ -120,10 +125,7 @@
                                         <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/icono locacion.png') !!}" alt=""></div>
                                         <strong>Locación:</strong> El Salvador
                                     </li>
-                                    <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/icono contacto.png') !!}" alt=""></div>
-                                        <strong>Contacto:</strong> www.websitecompañía.com
-                                    </li>
+
                                 </ul>
                             </div>
                         </div>
@@ -167,42 +169,38 @@
                                     <span class="number">
                                         1
                                     </span>
-                                    <span class="greenBlueColor">Enviaron campañas de emails</span> masivos para llegar
-                                    a más empresas (antes <br class="desktopTabletElement">
-                                    llegaban más a individuos)
+                    <span class="greenBlueColor">Sustituyeron el Excel por el CRM,</span> pasando de gestionar contactos en listas <br class="desktopTabletElement">
+                    difíciles de integrar a las herramientas de Escala lo que les permite acceder más <br class="desktopTabletElement">
+                    fácil a información, ganar visibilidad sobre procesos comerciales, estandarizar <br class="desktopTabletElement">
+                    comunicaciones e interactuar de manera oportuna para cerrar la venta.
                                 </li>
 
                                 <li>
                                     <span class="number">
                                         2
                                     </span>
-                                    <span class="greenBlueColor">Automatizaron tareas manuales</span> durante todo el
-                                    recorrido del cliente, como el <br class="desktopTabletElement">
-                                    envío de emails de bienvenida, confirmación y agradecimiento.
+                    <span class="greenBlueColor">Automatizaron tareas manuales</span> durante todo el recorrido del cliente, como el <br class="desktopTabletElement">
+                    envío de emails de bienvenida, confirmación y agradecimiento.
+
                                 </li>
 
                                 <li>
                                     <span class="number">
                                         3
                                     </span>
-                                    <span class="greenBlueColor">Tomaron control sobre el contenido</span> de su
-                                    website, creando una landing page <br class="desktopTabletElement">
-                                    para cada programa, que editan sin tener que pagar a terceros, y luego las <br
-                                        class="desktopTabletElement">
-                                    envían por WhatsApp según el interés de cada persona
+                <span class="greenBlueColor">Tomaron control sobre el contenido</span> de su website, creando una landing page <br class="desktopTabletElement">
+                para cada programa, que editan sin tener que pagar a terceros, y luego las <br class="desktopTabletElement">
+                envían por WhatsApp según el interés de cada persona
                                 </li>
 
                                 <li>
                                     <span class="number">
                                         4
                                     </span>
-                                    <span class="greenBlueColor">Sustituyeron el Excel por el CRM,</span> pasando de
-                                    gestionar contactos en listas <br class="desktopTabletElement">
-                                    difíciles de integrar a nuestro sistema de relacionamiento que permite acceder <br
-                                        class="desktopTabletElement">
-                                    más fácil a información, ganar visibilidad sobre procesos comerciales, estandarizar
-                                    <br class="desktopTabletElement">
-                                    comunicaciones e interactuar de manera oportuna para cerrar la venta.
+                <span class="greenBlueColor">Optimizaron sus campañas de email masivo,</span> beneficiándose de tener <br class="greenBlueColor">
+                integradas todas las herramientas que necesitan en un mismo lugar. Antes <br class="greenBlueColor">
+                utilizaban Mailchimp y muchos de sus emails llegaban a spam. Ahora con <br class="greenBlueColor">
+                Escala tienen las comunicaciones integradas y mejoraron su tasa de apertura.
                                 </li>
 
                             </ul>
@@ -327,8 +325,7 @@
                     <div class="containElements">
 
                             <h3 class="secondaryTitle">
-                                Empieza a acelerar <span style="color
-                                #A4E7EA">el crecimiento de tu negocio</span>
+                                Empieza a acelerar <span style="color: #A4E7EA!important">el crecimiento de tu negocio</span>
                             </h3>
 
                                 <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
