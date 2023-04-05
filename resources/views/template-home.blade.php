@@ -537,6 +537,7 @@ con todas las herramientas en una plataforma',
 
 @contain_text_image_T1( $parameters )
 @endcontain_text_image_T1
+
  @php
  $parameters = array(
   'type' => 'backgroundColor',

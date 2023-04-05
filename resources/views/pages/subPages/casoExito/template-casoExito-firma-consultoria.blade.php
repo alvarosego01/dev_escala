@@ -125,6 +125,11 @@
                                         <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/icono locacion.png') !!}" alt=""></div>
                                         <strong>Locación:</strong> El Salvador
                                     </li>
+                                    <li>
+                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/icon_globe.png') !!}" alt=""></div>
+                                        <strong>Website:</strong> <a target="_blank" href="https://academy.causaysolucion.net/cysleanconsultingandtraining">academy.causaysolucion.net</a>
+
+                                    </li>
 
                                 </ul>
                             </div>
@@ -339,6 +344,7 @@
             </div>
 
         </section>
+
 
     </div>
 
