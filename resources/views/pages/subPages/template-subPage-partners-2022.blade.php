@@ -6,7 +6,7 @@
   <div class="sections">
 
 
-  <section id="lead-form" class="component-header-t1 bg-color customSection sectionParent threeCol subPage_partners_2022_0  ">
+  <section id="lead-form" class="component-header-t1 bg-color customSection sectionParent threeCol subPage_partners_2022_0 ">
 
     <div class="section-row">
 
@@ -14,9 +14,7 @@
 
             <div class="groupElements row">
 
-                <div class="info
-                                                col-md-12 col-lg-8
-                                        ">
+                <div class="info col-md-12 col-lg-8 ">
 
                         <div class="containElements row threeCol">
 
@@ -56,9 +54,7 @@
 
                 </div>
 
-                <div class="form7
-                                        col-md-12 col-lg-4
-                                    ">
+                <div class="form7 col-md-12 col-lg-4 ">
 
                     <div class="containElements">
 

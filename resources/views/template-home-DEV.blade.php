@@ -184,8 +184,8 @@
 
                         <div class="containElements">
                             <h2 class="primaryTitle blackColor">
-                            Más de 1.000 empresas <br class="space">
-                            <span>han confiado en Escala</span>
+                                Más de 1.000 empresas <br class="space">
+                                <span>han confiado en Escala</span>
                             </h2>
                             <p class="primaryText grayColorTexts">
                                 Con todas herramientas que necesitas en un mismo lugar
@@ -202,15 +202,14 @@
                             <div class="image col-md-12 col-lg-6">
                                 <div class="containerImage">
 
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/temporal_funnel_big.png') !!}"
-                                        loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/temporal_funnel_big.png') !!}" loading="lazy">
 
                                 </div>
                             </div>
                             <div class="info col-md-12 col-lg-6">
 
                                 <h3 class="secondaryTitle">
-                                   Atrae
+                                    Atrae
                                 </h3>
                                 <p class="text">
                                     A más clientes ideales e inicia la relación comercial <br class="desktopTabletElement">
@@ -218,15 +217,16 @@
                                     pages y formularios
                                 </p>
                                 <h3 class="secondaryTitle">
-                                   Nutre
+                                    Nutre
                                 </h3>
                                 <p class="text">
-                                     La relación con cada contacto usando páginas de confirmación, <br class="desktopTabletElement">
+                                    La relación con cada contacto usando páginas de confirmación, <br
+                                        class="desktopTabletElement">
                                     emails automatizados, WhatsApp, flujos y más
 
                                 </p>
                                 <h3 class="secondaryTitle">
-                                   Convierte
+                                    Convierte
                                 </h3>
                                 <p class="text">
                                     Contactos en clientes fieles que recompran y refieren <br class="desktopTabletElement">
@@ -248,6 +248,171 @@
 
 
 
+
+            </section>
+
+
+            <section class="component-info-multiple-cards-T2 customSection sectionParent homeSection_DEV_3 ">
+
+                <div class="section-row">
+
+
+                    <section class="innerSectionElement sct1">
+
+                        <div class="containElements">
+
+                            <h2 class="primaryTitle blackColor">
+
+                                En Escala tienes todas las herramientas para <br class="space">
+                                <span>adquirir y fidelizar clientes en un mismo lugar</span>
+
+                            </h2>
+                            <p class="primaryText grayColorTexts">
+                                Integradas <span>•</span> Fáciles de usar <span>•</span> Asequibles <span>•</span> En tu
+                                idioma
+
+                            </p>
+
+                        </div>
+
+                    </section>
+                    @php
+                        $items = array(
+                              [
+                            'img_alt' => null,
+                            'img' => App::setFilePath('/assets/images/illustrations/others/icon_funnel_otto.png'),
+                            'title' => '
+                <span>Plantillas probadas</span> <br class="space">
+                de Embudos
+            ',
+                            'text' => null,
+                            'enableButton' => false,
+                        ],
+                        [
+                            'img_alt' => null,
+                            'img' => App::setFilePath('/assets/images/illustrations/others/icon_funnel_otto.png'),
+                            'title' => '
+                <span>Landing Pages</span> <br class="space">
+                editables en minutos
+            ',
+                            'text' => null,
+                            'enableButton' => false,
+                        ],
+                        [
+                            'img_alt' => null,
+                            'img' => App::setFilePath('/assets/images/illustrations/others/icon_funnel_otto.png'),
+                            'title' => '
+              <span>
+                  Gestión ágil de <br class="space">
+                  contactos
+              </span> y relaciones
+            ',
+                            'text' => null,
+                            'enableButton' => false,
+                        ],
+                        [
+                            'img_alt' => null,
+                            'img' => App::setFilePath('/assets/images/illustrations/others/icon_funnel_otto.png'),
+                            'title' => '
+                <span>Envío de Emails</span> masivos <br class="space">
+                y personalizables
+            ',
+                            'text' => null,
+                            'enableButton' => false,
+                        ],
+                        [
+                            'img_alt' => null,
+                            'img' => App::setFilePath('/assets/images/illustrations/others/icon_funnel_otto.png'),
+                            'title' => '
+                <span>
+                    Gestión y Envío <br class="space">
+                    de WhatsApps
+                </span> <br class="space">
+                automáticos
+            ',
+                            'text' => null,
+                            'enableButton' => false,
+                        ],
+                        [
+                            'img_alt' => null,
+                            'img' => App::setFilePath('/assets/images/illustrations/others/icon_funnel_otto.png'),
+                            'title' => '
+                <span>Automatizaciones</span> que <br class="space">
+                escalan operaciones
+            ',
+                            'text' => null,
+                            'enableButton' => false,
+                        ],
+                        [
+                            'img_alt' => null,
+                            'img' => App::setFilePath('/assets/images/illustrations/others/icon_funnel_otto.png'),
+                            'title' => '
+                <span>
+                    Anuncios digitales <br class="space">
+                    conectados
+                </span> a tus <br class="space">
+                páginas y CRM
+            ',
+                            'text' => null,
+                            'enableButton' => false,
+                        ],
+                        [
+                            'img_alt' => null,
+                            'img' => App::setFilePath('/assets/images/illustrations/others/icon_funnel_otto.png'),
+                            'title' => '
+                <span>Analíticas</span> relevantes <br class="space">
+                en tiempo real
+            ',
+                            'text' => null,
+                            'enableButton' => false,
+                        ],
+                        )
+                    @endphp
+                    <section class="innerSectionElement sct2 ">
+
+                        @foreach ($items as $item)
+
+                        <div class="groupElements">
+                            <div class="image">
+                                <div class="containerImage">
+                                    <img src="{!! $item['img'] !!}"
+                                        loading="lazy" alt="{!! $item['img_alt'] !!}">
+                                </div>
+                            </div>
+
+                            <div class="info">
+
+                                <h3 class="secondaryTitle">
+                                    {!! $item['title'] !!}
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+                        @endforeach
+                    </section>
+
+                     <section class="innerSectionElement sct3">
+
+                        <div class="containElements">
+
+                            <span class="tagPlus">
+                                ¡Y más!
+                            </span>
+
+                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                Ver todas las herramientas
+                            </a>
+
+                        </div>
+
+                    </section>
+
+
+                </div>
+
+                <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_3.png') !!}" alt="" class="overlaysky">
 
             </section>
 
