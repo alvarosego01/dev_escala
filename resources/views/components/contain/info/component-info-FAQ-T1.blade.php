@@ -9,7 +9,12 @@
             <div class="containElements">
 
                 <h2 class="primaryTitle blackColor2">
-                    Preguntas Frecuentes
+                    @if ( isset($title) && $title != '' )
+                        {!! $title !!}
+                    @else
+                        Preguntas Frecuentes
+                    @endif
+
                 </h2>
 
             </div>

@@ -104,7 +104,6 @@ textButton --}}
 
                       <div id="carousel-trustPilot-desktop" class="carousel slide desktopElement" data-bs-ride="carousel">
 
-
                         <div class="carousel-inner"  role="listbox">
 
                                 @if (isset($desk_reviews) && $desk_reviews != null   )
