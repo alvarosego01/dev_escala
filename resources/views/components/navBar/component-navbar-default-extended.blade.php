@@ -57,10 +57,19 @@
             <div class="container-fluid sct2">
 
                 <div class="logo">
-                    <a class="navbar-brand" href="{!! home_url() !!}">
-                        <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+                    @if (isset($transparent) && $transparent === true)
+                      <a class="navbar-brand normal" href="{!! home_url() !!}">
+                        <img src="{!! App::setFilePath('/assets/images/logos/logotipo-escala-blanco.png') !!}" alt="Logo" class="logo-img">
+                    </a>
+                    <a class="fixed navbar-brand" href="{!! home_url() !!}">
                         <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
                     </a>
+                    @else
+                      <a class="navbar-brand normal" href="{!! home_url() !!}">
+                      <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
+                    </a>
+                    @endif
+
                 </div>
 
 
@@ -90,7 +99,7 @@
 
                         <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button">
 
-                            <i class="fas fa-bars    "></i>
+                            <i class="fas fa-bars "></i>
 
                         </button>
 
@@ -145,7 +154,7 @@
             <div class="closeButtonSideBar">
 
                 <button onclick="_openSideNav('close')" class="closeButton">
-                    <i class="fas fa-times    "></i>
+                    <i class="fas fa-times "></i>
                 </button>
 
             </div>
@@ -172,14 +181,11 @@
                             'walker' => new \App\wp_bootstrap5_navwalker(),
                         ]) !!}
 
-
                     </div>
 
                 </div>
 
                 <div class="container-fluid sct2">
-
-
 
                     <div class="menusSection">
 

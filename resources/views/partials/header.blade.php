@@ -47,6 +47,20 @@
 
 @endif
 
+@if ($navBar == 'principal-global-extended-trasp')
+
+    @php
+        $p = array(
+            'transparent' => true,
+            'classSection' => $navBar . ' transparent'
+        )
+    @endphp
+
+    @navBar_default_extended($p)
+    @endnavBar_default_extended
+
+@endif
+
 @if ($navBar == 'blog-global1')
 
     @navBar_blog()
