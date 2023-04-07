@@ -1032,10 +1032,8 @@ img
         justify-self: center
     @include responsivoSpecial(2000px, 99999px)
         overflow: hidden
-
     @include responsivoSpecial(2500px, 99999px)
         overflow: hidden
-
     img.overlaySpace
         width: 75%
         height: auto
@@ -1060,7 +1058,6 @@ img
             width: 75%
         @include responsivoSpecial(2000px, 999999px)
             width: 67.5%
-
         @include responsivoSpecial(2500px, 99999px)
             width: 1750px
             margin: 0 auto
@@ -1072,19 +1069,15 @@ img
         @include responsivo(telefonoTable)
             width: 100%!important
             max-width: 95%!important
-
         @include responsivo(pcMedio)
             width: 100%!important
             max-width: 90%!important
-
         @include responsivo(general)
             width: 100%!important
             max-width: 100%!important
-
         @include responsivo(resto)
             width: 100%!important
             max-width: 100%!important
-
         section.innerSectionElement.sct1
             @include responsivo(general)
                 margin-right: 10%
@@ -1104,7 +1097,6 @@ img
                     @include responsivo(pcMedio)
                         padding: 0
                     .containElements
-                        // display: none
                         .owl-carousel.owl-theme
                             .owl-dots
                                 display: none!important
@@ -1148,11 +1140,11 @@ img
                                         color: #216880
                             .owl-stage
                                 @include responsivo(general)
-                                    height: 400px
+                                    height: 425px
                                     display: flex
                                     margin: auto 0
                                 @include responsivo(resto)
-                                    height: 400px
+                                    height: 425px
                                     display: flex
                                     margin: auto 0
                                 .owl-item
@@ -1164,22 +1156,29 @@ img
 
                             .item
                                 padding: 10px
-                                width: 410px
+                                width: 400px
+                                height: 435px
                                 @include responsivo(telefonoTable)
                                     width: 260px
+                                    height: 300px
                                     margin: 0 auto
                                 @include responsivo(pcMedio)
                                     width: 260px
+                                    height: 335px
+
                                 .testimonial
                                     background: #FFFFFF
                                     box-shadow: 0px 6px 30px rgba(54, 118, 138, 0.1)
                                     border-radius: 30px
                                     padding: 50px
+                                    height: 100%
                                     @include responsivo(telefonoTable)
                                         padding: 25px
                                     @include responsivo(pcMedio)
                                         padding: 25px
                                     .containElements
+                                        position: relative
+                                        height: 100%
                                         .area
                                             margin-bottom: 25px
                                             h3
@@ -1230,12 +1229,27 @@ img
                                             display: flex
                                             flex-direction: row
                                             align-content: center
+                                            position: absolute
+                                            bottom: 0
+                                            left: 0
+                                            right: 0
                                             .logo
+                                                @include responsivo(telefonoTable)
+                                                    display: flex
+                                                    justify-content: center
+                                                    align-items: center
+                                                    align-content: center
+                                                @include responsivo(pcMedio)
+                                                    display: flex
+                                                    justify-content: center
+                                                    align-items: center
+                                                    align-content: center
                                                 .containerImage
                                                     margin: 0
                                                     padding: 0
                                                     img
                                                         height: 75px
+                                                        margin: auto
                                                         @include responsivo(telefonoTable)
                                                             height: 35px
                                                         @include responsivo(pcMedio)
@@ -1255,7 +1269,8 @@ img
                                                     color: #36768A
                                                     margin-bottom: 10px
                                                     @include responsivo(telefonoTable)
-                                                        font-size: 16px
+                                                        font-size: 14px
+                                                        margin-bottom: 5px
                                                     @include responsivo(pcMedio)
                                                         font-size: 16px
                                                 .stars
@@ -1268,6 +1283,14 @@ img
                                                                 height: 20px
                                                             @include responsivo(pcMedio)
                                                                 height: 20px
+                            .owl-item
+                                &:nth-child(even)
+                                    .item
+                                        .testimonial
+                                            background: linear-gradient(180deg, #DEF3F5 99.99%, rgba(222, 243, 245, 0) 100%)
+                                            filter: drop-shadow(0px 6px 30px rgba(54, 118, 138, 0.1))
+
+
                 .info
                     display: flex
                     @include responsivo(telefonoTable)

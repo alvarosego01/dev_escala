@@ -405,29 +405,27 @@
             @php
                 $desk_reviews = [
                     [
-                        'area' => 'Educación',
-                        'text' => '<strong>Logramos 2X nuestra facturación</strong> en menos de 6 meses y reducir a la mitad el tiempo que nuestro equipo comercial dedica a tareas operativas.',
+                        'area' => 'Finanzas',
+                        'text' => '
+                        <strong>“Gracias a Escala ahorramos 70% del tiempo invertido</strong> por el equipo comercial en tareas operativas y aumentamos 20% la cantidad de clientes.”
+                        ',
+                        'logo' => App::setFilePath('/assets/images/logos/logo_saeta.png'),
+                        'name' => 'Claudio Radovich, Fundador',
+                    ],
+                    [
+                        'area' => 'Consultoría',
+                        'text' => '
+                        <strong>“Logramos 2X nuestra facturación</strong> en menos de 6 meses y multiplicar 4X los nuevos leads gracias a Escala.”
+                        ',
                         'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
                         'name' => 'William Ávila, CEO',
                     ],
                     [
-                        'area' => 'Educación',
-                        'text' => '<strong>Logramos 2X nuestra facturación</strong> en menos de 6 meses y reducir a la mitad el tiempo que nuestro equipo comercial dedica a tareas operativas.',
-                        'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
-                        'name' => 'William Ávila, CEO',
-                    ],
-                    [
-                        'area' => 'Educación',
-                        'text' => '<strong>Logramos 2X nuestra facturación</strong> en menos de 6 meses y reducir a la mitad el tiempo que nuestro equipo comercial dedica a tareas operativas.',
-                        'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
-                        'name' => 'William Ávila, CEO',
-                    ],
-                    [
-                        'area' => 'Educación',
-                        'text' => '<strong>Logramos 2X nuestra facturación</strong> en menos de 6 meses y reducir a la mitad el tiempo que nuestro equipo comercial dedica a tareas operativas.',
-                        'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
-                        'name' => 'William Ávila, CEO',
-                    ],
+                        'area' => 'Salud y bienestar',
+                        'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
+                       'logo' => App::setFilePath('/assets/images/logos/logo_rg.png'),
+                        'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
+                    ]
                 ];
 
             @endphp

@@ -780,19 +780,18 @@ header.customHeader.customSection.principal-global-extended-trasp.transparent
             transition: unset!important
             .section-row
                 // .sct1
-                .sct2
-                    .desktopElement
-                        div#main-menu
-                            .navbar-nav
-                                li.menu-item.nav-item.menuButton
-                                    position: absolute
-                                    right: 0
-                                    top: 0
-                                    bottom: 0
-                                li.menu-item
+                .sct1,
+                .sct2 .desktopElement div#main-menu
+                    .navbar-nav
+                        li.menu-item.nav-item.menuButton
+                            position: absolute
+                            right: 0
+                            top: 0
+                            bottom: 0
+                        li.menu-item
+                            &:not(.menuButton)
+                                .nav-link
+                                    color: #FFFFFF!important
+                                &:hover
                                     .nav-link
-                                        color: #FFFFFF
-                                    &:hover
-                                        .nav-link
-                                            color: #A4E7EA
-
+                                        color: #A4E7EA!important
