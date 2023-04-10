@@ -2,14 +2,10 @@
 
 @import ../../common/global
 
-
-
 @import blogHome
 @import blogCategory
 @import blogSingle
 @import searchResultsBlog
-
-
 
 // [class$="something"]
 .post-template
@@ -26,7 +22,9 @@
             @include responsivo(pcMedio)
                 font-size: 16px!important
         ul li,
-        ul li p
+        ul li p,
+        ol li,
+        ol li p
             font-size: 18px
             line-height: 1.25
             font-family: Nunito
@@ -39,8 +37,8 @@
                 font-size: 16px!important
             &:last-child
                 margin-bottom: 0
-
-        ul
+        ul,
+        ol
             margin-bottom: 25px
 
         .h2-blogpost,

@@ -6,7 +6,6 @@
 
 
 @extends('layouts.app')
-
 @section('content')
 
     <div id="blog-home-bootstrap">
@@ -37,8 +36,8 @@ para empoderar tu formación.
                ',
                'threeCol' => true,
                'textForm' => '
-                ¡Sigue formándote! <br class="space">
-Suscríbete a nuestro newsletter
+                Recibe un tour guiado <br class="space">
+                de Escala
                ',
                'backgroundImage' => null,
             'overlayImage' => null,
