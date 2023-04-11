@@ -70,8 +70,6 @@ header.customHeader.customSection
                 margin-top: auto!important
                 margin-bottom: auto!important
 
-
-
     nav.navbar
         box-shadow: 0 0 10px 0 rgb(0 0 0 / 12%)
         transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s
@@ -720,3 +718,80 @@ header.customHeader.customSection.component-header-blog.navBar_blog.blog-global1
 
 
 
+
+header.customHeader.customSection.principal-global-extended-trasp.transparent
+    box-shadow: none
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    nav.principal.navbar.navbar-expand-md
+        .section-row
+            // .sct1
+            .sct2
+                position: relative
+                @include responsivo(general)
+                    justify-content: flex-start
+                @include responsivo(resto)
+                    justify-content: flex-start
+                .logo
+                    @include responsivo(general)
+                        margin-right: 25px
+                    @include responsivo(resto)
+                        margin-right: 25px
+                    a.navbar-brand.fixed
+                        display: none
+                    a.navbar-brand.normal
+                        display: block
+
+                .desktopElement
+                    div#main-menu
+                        .navbar-nav
+                            li.menu-item
+                                &:not(.menuButton)
+                                    .nav-link
+                                        padding-bottom: 0!important
+
+
+    nav.principal.navbar.navbar-expand-md
+        &.fixedNav
+            background-color: white!important
+            .section-row
+                // .sct1
+                .sct2
+                    .logo
+                        a.navbar-brand.normal
+                            display: none
+                        a.navbar-brand.fixed
+                            display: block
+                    .desktopElement
+                        div#main-menu
+                            .navbar-nav
+                                li.menu-item.nav-item.menuButton
+                                    position: absolute
+                                    right: 0
+                                    top: 0
+                                    bottom: 0
+
+
+        &:not(.fixedNav)
+            background-color: transparent!important
+            box-shadow: none
+            transition: unset!important
+            .section-row
+                // .sct1
+                .sct1,
+                .sct2 .desktopElement div#main-menu
+                    .navbar-nav
+                        li.menu-item.nav-item.menuButton
+                            position: absolute
+                            right: 0
+                            top: 0
+                            bottom: 0
+                        li.menu-item
+                            &:not(.menuButton)
+                                .nav-link
+                                    color: #FFFFFF!important
+                                &:hover
+                                    .nav-link
+                                        color: #A4E7EA!important

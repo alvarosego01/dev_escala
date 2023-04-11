@@ -818,6 +818,7 @@ class ACF_CUSTOM extends Controller
                     'choices' => [
                         'elementor_navbar' => 'Elementor nav',
                         'principal-global-extended' => 'Principal menu - extended',
+                        'principal-global-extended-trasp' => 'Principal menu -ex-transp',
                         'principal-global1' => 'Principal white menu 1 - Complete menu',
                         'blog-global1' => 'Blog white menu 1 - Categories, login, call to action',
                         'landing-global1' => 'Landing white menu 1 - Logo, 1 button',

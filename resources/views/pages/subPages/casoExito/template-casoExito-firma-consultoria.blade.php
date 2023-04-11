@@ -330,12 +330,18 @@
                     <div class="containElements">
 
                             <h3 class="secondaryTitle">
-                                Empieza a acelerar <span style="color: #A4E7EA!important">el crecimiento de tu negocio</span>
+                                Tú también puedes acelerar <span style="color: #A4E7EA!important">el crecimiento de tu negocio</span>
                             </h3>
 
+                            <div class="buttonSection">
                                 <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                  Recibe un demo
+                                  Recibir un demo
                                 </a>
+
+                                <a href="https://escala.com/caso-de-uso-consultoria" class="whiteHiper" target="_blank">
+                                    Ver otro caso de uso
+                                </a>
+                            </div>
 
                     </div>
 
