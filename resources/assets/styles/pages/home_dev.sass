@@ -1013,18 +1013,25 @@ img
 #homeBootstrap_DEV .customSection.sectionParent.homeSection_DEV_4
     position: relative
     overflow: visible
-    @include responsivo(general)
-        top: -50px
-    @include responsivo(resto)
-        top: -50px
+
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+    @include responsivo(telefonoTable)
+        margin-bottom: 25px
+    @include responsivo(pcMedio)
+        margin-bottom: 25px
     @include responsivo(general)
         height: 700px
         padding-top: 50px
         padding-bottom: 50px
+        margin-bottom: 50px
     @include responsivo(resto)
         height: 700px
         padding-top: 75px
         padding-bottom: 75px
+        margin-bottom: 50px
     @include responsivoSpecial(1750px, 99999px)
         display: flex
         align-content: center
@@ -1034,33 +1041,34 @@ img
         overflow: hidden
     @include responsivoSpecial(2500px, 99999px)
         overflow: hidden
-    img.overlaySpace
-        width: 75%
-        height: auto
-        position: absolute
-        top: 0
-        right: 0
-        bottom: 0
-        z-index: 2
-        margin: auto
-        margin-top: 0
-        margin-bottom: 0
-        margin-right: 0
-        @include responsivo(telefonoTable)
-            width: 100%
-        @include responsivo(pcMedio)
-            width: 100%
-        @include responsivo(general)
-            width: 80%
-        @include responsivo(smallPcTablet)
-            width: 90%
-        @include responsivoSpecial(1700px, 999999px)
-            width: 75%
-        @include responsivoSpecial(2000px, 999999px)
-            width: 67.5%
-        @include responsivoSpecial(2500px, 99999px)
-            width: 1750px
-            margin: 0 auto
+    // img.overlaySpace
+
+        // width: 75%
+        // height: auto
+        // position: absolute
+        // top: 0
+        // right: 0
+        // bottom: 0
+        // z-index: 2
+        // margin: auto
+        // margin-top: 0
+        // margin-bottom: 0
+        // margin-right: 0
+        // @include responsivo(telefonoTable)
+        //     width: 100%
+        // @include responsivo(pcMedio)
+        //     width: 100%
+        // @include responsivo(general)
+        //     width: 80%
+        // @include responsivo(smallPcTablet)
+        //     width: 90%
+        // @include responsivoSpecial(1700px, 999999px)
+        //     width: 75%
+        // @include responsivoSpecial(2000px, 999999px)
+        //     width: 67.5%
+        // @include responsivoSpecial(2500px, 99999px)
+        //     width: 1750px
+        //     margin: 0 auto
 
     .section-row
         padding: 0
@@ -1370,26 +1378,8 @@ img
 
 #homeBootstrap_DEV .sections .customSection.sectionParent.homeSection_DEV_5
     padding: 50px 0
-    @include responsivo(general)
-        top: -50px
-        padding-top: 0
-        margin-top: -50px
-    @include responsivo(smallPcTablet)
-        margin-top: -75px
 
-    @include responsivo(resto)
-        top: -50px
-        margin-top: 0
-    @include responsivoSpecial(1400px, 1500px )
-        margin-top: 25px
-    // @include responsivoSpecial(1400px, 1500px )
 
-    @include responsivoSpecial(1700px, 99999px )
-        margin-top: 100px
-    @include responsivoSpecial(1900px, 2000px )
-        margin-top: 125px!important
-    @include responsivoSpecial(2000px, 99999px )
-        margin-top: 50px
 
     .section-row
         // background-color: #fff
