@@ -480,7 +480,9 @@
 
             @endphp
 
-            <section class="customSection sectionParent homeSection_DEV_4 ">
+            <section
+            style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_4.png') !!})"
+            class="customSection sectionParent homeSection_DEV_4 ">
 
                 <div class="section-row">
 
@@ -596,7 +598,7 @@
 
                 </div>
 
-                <img src="{!! App::setFilePath('/assets/images/overlays/overlay_space_4.png') !!}" alt="" class="overlaySpace">
+                {{-- <img src="{!! App::setFilePath('/assets/images/banners/background_space_4.png') !!}" alt="" class="overlaySpace"> --}}
 
 
             </section>
