@@ -1025,9 +1025,11 @@
             </section>
 
 
-             <section class="component-info-text-image-T1 customSection sectionParent homeSection_DEV_10 ">
+             <section
+             style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_3.png') !!})"
+             class="component-info-text-image-T1 customSection sectionParent homeSection_DEV_10 ">
 
-                 <img src="{!! App::setFilePath('/assets/images/overlays/overlay_space_3.png') !!}" alt="" class="overlaySky1">
+
 
                 <div class="section-row">
 
