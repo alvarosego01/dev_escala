@@ -41,6 +41,58 @@
         ol
             margin-bottom: 25px
 
+        .table-responsive
+            table.table
+                thead
+                    background-color: #f0f7ff
+                    tr
+                        th
+                            color: #322C2E
+                            font-size: 18px
+                            line-height: 1.25
+                            font-family: Nunito
+                            margin-bottom: 25px
+                            text-align: justify
+                            font-weight: bold
+                            padding: 15px 0
+                            @include responsivo(telefonoTable)
+                                font-size: 14px!important
+                            @include responsivo(pcMedio)
+                                font-size: 16px!important
+
+                            &:first-child
+                                padding-left: 25px
+                            &:last-child
+                                padding-right: 25px
+
+                tbody
+                    tr
+                        td
+                            font-size: 18px
+                            line-height: 1.25
+                            font-family: Nunito
+                            margin-bottom: 25px
+                            color: $colorGrey
+                            text-align: justify
+                            padding: 15px 0
+                            @include responsivo(telefonoTable)
+                                font-size: 14px!important
+                            @include responsivo(pcMedio)
+                                font-size: 16px!important
+                            &:first-child
+                                padding-left: 25px
+                            &:last-child
+                                padding-right: 25px
+
+                        &:last-child
+                            td
+                                border-bottom: 0!important
+
+
+            .table>:not(:last-child)>:last-child>*
+                border-bottom: 0
+
+
         .h2-blogpost,
         .h2\.blogpost
             // color: $colorBlack
