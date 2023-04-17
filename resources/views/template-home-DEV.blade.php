@@ -773,12 +773,12 @@
 
 
 
+            {{-- style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_2.png') !!})" --}}
             <section
-            style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_2.png') !!})"
             class="component-info-multiple-cards-T2 customSection sectionParent homeSection_DEV_7 ">
 
 
-                {{-- <img src="{!! App::setFilePath('/assets/images/overlays/overlay_space_2.png') !!}" alt="" class="overlaysky"> --}}
+                <img src="{!! App::setFilePath('/assets/images/banners/background_space_2.png') !!}" alt="" class="overlaysky">
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -924,9 +924,11 @@
 
             </section>
 
-      <section class="component-info-text-image-T1 customSection sectionParent homeSection_DEV_8 ">
+      <section
+      style="background-image: url('{!! App::setFilePath('/assets/images/banners/background_sky_2.png.png') !!}')"
+      class="component-info-text-image-T1 customSection sectionParent homeSection_DEV_8 ">
 
-                 <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_2.png') !!}" alt="" class="overlaySky1">
+                 {{-- <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_2.png') !!}" alt="" class="overlaySky1"> --}}
 
                 <div class="section-row">
 
