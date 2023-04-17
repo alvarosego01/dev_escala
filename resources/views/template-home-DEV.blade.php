@@ -773,10 +773,12 @@
 
 
 
-            <section class="component-info-multiple-cards-T2 customSection sectionParent homeSection_DEV_7 ">
+            <section
+            style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_2.png') !!})"
+            class="component-info-multiple-cards-T2 customSection sectionParent homeSection_DEV_7 ">
 
 
-                <img src="{!! App::setFilePath('/assets/images/overlays/overlay_space_2.png') !!}" alt="" class="overlaysky">
+                {{-- <img src="{!! App::setFilePath('/assets/images/overlays/overlay_space_2.png') !!}" alt="" class="overlaysky"> --}}
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
