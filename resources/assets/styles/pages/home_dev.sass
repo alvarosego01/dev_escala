@@ -1133,8 +1133,8 @@ img
                                 display: none!important
                             .owl-nav
                                 position: absolute
-                                bottom: -75px
-                                right: 50px
+                                bottom: -25px
+                                right: 100px
                                 margin-left: auto
                                 margin-right: 0
                                 display: flex
@@ -1150,6 +1150,8 @@ img
                                     left: 0
                                     right: 0
                                     bottom: -50px
+                                @include responsivo(general)
+                                    right: 50px
                                 button
                                     background: #FAD872
                                     padding: 5px
@@ -1170,14 +1172,17 @@ img
                                         justify-self: center
                                         color: #216880
                             .owl-stage
+                                position: relative
                                 @include responsivo(general)
-                                    height: 425px
+                                    height: 500px
                                     display: flex
                                     margin: auto 0
+                                    top: 25px
                                 @include responsivo(resto)
-                                    height: 425px
+                                    height: 500px
                                     display: flex
                                     margin: auto 0
+                                    top: 25px
                                 .owl-item
                                     @include responsivo(general)
                                         width: 410px!important
@@ -1843,7 +1848,7 @@ img
                 margin: 0 12.5px
                 display: flex
                 flex-direction: column
-                margin-bottom: 50px
+                margin-bottom: 35px
                 background: transparent
                 // box-shadow: 0px 6px 30px rgba(54, 118, 138, 0.1)
                 border-radius: 30px
@@ -1860,6 +1865,7 @@ img
                     bottom: 0
                     top: 0
                     margin: 0 auto
+                    height: 100%
                     z-index: 2
                     @include responsivo(telefonoTable)
                         width: 350px
@@ -1920,22 +1926,27 @@ img
                     font-family: Nunito
                     font-style: normal
                     font-weight: 500
-                    font-size: 25px
+                    font-size: 20px
                     line-height: 1
                     text-align: center
-                    letter-spacing: -2px
+                    letter-spacing: -1px
                     color: #797979
                     margin-bottom: 10px
                     span
                         color: #36768A
                     @include responsivo(telefonoTable)
-                        font-size: 16px
+                        font-size: 14px
                     @include responsivo(pcMedio)
-                        font-size: 18px
+                        font-size: 16px
                     @include responsivo(general)
-                        font-size: 22.5px
+                        font-size: 18px
                     @include responsivo(smallPcTablet)
-                        font-size: 20px
+                        font-size: 16px
+
+                    @include responsivo(general)
+                        height: 135px
+                    @include responsivo(resto)
+                        height: 135px
                 span.name
                     position: relative
                     z-index: 5
@@ -1945,7 +1956,7 @@ img
                     font-size: 18px
                     line-height: 1
                     text-align: center
-                    letter-spacing: -2px
+                    letter-spacing: -1px
                     color: #322C2E
                     margin-bottom: 10px
                     @include responsivo(telefonoTable)
