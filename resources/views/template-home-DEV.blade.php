@@ -773,12 +773,12 @@
 
 
 
+            {{-- style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_2.png') !!})" --}}
             <section
-            style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_2.png') !!})"
             class="component-info-multiple-cards-T2 customSection sectionParent homeSection_DEV_7 ">
 
 
-                {{-- <img src="{!! App::setFilePath('/assets/images/overlays/overlay_space_2.png') !!}" alt="" class="overlaysky"> --}}
+                <img src="{!! App::setFilePath('/assets/images/banners/background_space_2.png') !!}" alt="" class="overlaysky">
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -804,12 +804,14 @@
                                     <span>Dueño</span> de negocio
                                 ',
                                 'text' => '
-                                    “<span>Extraordinario servicio</span> en <br class="space">
-                                    Escala me apoyaron a definir <br class="space">
-                                    mejor el plan...
+                                    <span>“Escala está resolviendo con su <br class="space">
+                                    sistema de atención el cliente y <br class="space">
+                                    por supuesto el software, un <br class="space">
+                                    problema que tuve por años...</span> Lo <br class="space">
+                                    recomiendo infinitamente.”
                                 ',
                                 'name' => '
-                                    María González
+                                    Paulina Pizarro Santana
                                 ',
                             ],
                             [
@@ -817,14 +819,30 @@
                                     <span>Lider</span> de Marketing
                                 ',
                                 'text' => '
-                                    “Por fin una herramienta <br class="space">
-                                    donde <span>
-                                        se preocupan por <br class="space">
-                                        atender...
-                                    </span>
+                                    <span>“Con Escala he podido <br class="space">
+                                    automatizar mejor los procesos <br class="space">
+                                    de prospección.</span> Es una <br class="space">
+                                    plataforma fácil de implementar <br class="space">
+                                    y de manejo muy intuitivo.”
                                 ',
                                 'name' => '
-                                    Ernesto Pérez
+                                   Andrea Sánchez
+                                ',
+                            ],
+                            [
+                                'title' => '
+                                    <span>Gerente</span> de Operaciones
+                                ',
+                                'text' => '
+                                   <span>“Escala es una plataforma super  <br class="space">
+                                   amigable en la que encuentro todo <br class="space">
+                                   lo que necesito</span> para mis  <br class="space">
+                                   campañas, personalización de  <br class="space">
+                                   envíos, CRM, automatización y <br class="space">
+                                embudos de ventas.”
+                                ',
+                                'name' => '
+                                   Octavio Ruiz Loza
                                 ',
                             ],
                             [
@@ -832,55 +850,53 @@
                                     <span>Gerente</span> de Ventas
                                 ',
                                 'text' => '
+                             <span>
+                                 “Escala es la plataforma ideal para <br class="space">
+                                  impulsar tus ventas. Cuentan con un  <br class="space">
+                                  equipo de soporte eficiente y atento.
+                             </span> <br class="space">
+                               Fui asesorada en todo momento y  <br class="space">
+                               fueron muy serviciales para ayudarme <br class="space">
+                                a lograr mis requerimientos.”
+                                ',
+                                'name' => '
+                                Pierina Barajas
+                                ',
+                            ],
+                            [
+                                'title' => '
+                                <span>Director</span> Creativo
+                                ',
+                                'text' => '
+                               <span>
+                                   “Se han tomado el tiempo para <br class="space">
+                                   hacer una plataforma en donde no <br class="space">
+                                   solamente brindan herramientas de <br class="space">
+                                    calidad,
+                               </span> sino lo más importante un <br class="space">
+                                servicio al cliente que es <br class="space">
+                                recomendadísimo.”
+                                ',
+                                'name' => '
+                                  Hernan Bedoya
+                                ',
+                            ],
+                            [
+                                'title' => '
+                                   <span>Co-fundador</span> de Empresa
+                                ',
+                                'text' => '
                                     <span>
-                                        “Entrenaron muy bien a a mi <br class="space">
-                                        equipo
-                                    </span> y logramos que...
+                                        “Encontré en Escala una plataforma <br class="space">
+                                         que me permite integrar Landing <br class="space">
+                                          Pages, automatización, email y CRM <br class="space">
+                                           en un solo lugar.
+                                    </span> Tiene una gran <br class="space">
+                                        posibilidad de convertirse en un <br class="space">
+                                         referente en el mercado latino.”
                                 ',
                                 'name' => '
-                                   Carlos Ibañez
-                                ',
-                            ],
-                            [
-                                'title' => '
-                                    <span>Vendedor</span>
-                                ',
-                                'text' => '
-                                     “<span>Extraordinario servicio</span> en <br class="space">
-                                    Escala me apoyaron a definir <br class="space">
-                                    mejor el plan...
-                                ',
-                                'name' => '
-                                    María González
-                                ',
-                            ],
-                            [
-                                'title' => '
-                                <span>Creadora</span> de Contenido
-                                ',
-                                'text' => '
-                                    “Por fin una herramienta <br class="space">
-                                    donde <span>
-                                        se preocupan por <br class="space">
-                                        atender...
-                                    </span>
-                                ',
-                                'name' => '
-                                    Ernesto Pérez
-                                ',
-                            ],
-                            [
-                                'title' => '
-                                    <span>Analista</span> comercial
-                                ',
-                                'text' => '
-                                 <span>
-                                        “Entrenaron muy bien a a mi <br class="space">
-                                        equipo
-                                    </span> y logramos que...
-                                ',
-                                'name' => '
-                                   Carlos Ibañez
+                                 Mauricio Córdova Lara
                                 ',
                             ],
                         ];
@@ -924,9 +940,11 @@
 
             </section>
 
-      <section class="component-info-text-image-T1 customSection sectionParent homeSection_DEV_8 ">
+      <section
+      style="background-image: url('{!! App::setFilePath('/assets/images/banners/background_sky_2.png.png') !!}')"
+      class="component-info-text-image-T1 customSection sectionParent homeSection_DEV_8 ">
 
-                 <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_2.png') !!}" alt="" class="overlaySky1">
+                 {{-- <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_2.png') !!}" alt="" class="overlaySky1"> --}}
 
                 <div class="section-row">
 
