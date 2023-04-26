@@ -165,6 +165,9 @@ add_action('wp_enqueue_scripts', function () {
         if (is_page_template('views/template-subPage-whatsapp-2022.blade.php')) {
             wp_enqueue_style('subPage_whatsapp_2022.css', asset_path('styles/pages/subPages/subPage_whatsapp_2022.css'), false, THEME_VERSION);
         }
+        if (is_page_template('views/template-subPage-campaña-AI.blade.php')) {
+            wp_enqueue_style('subpageCampañaAI.css', asset_path('styles/pages/subPages/subpageCampañaAI.css'), false, THEME_VERSION);
+        }
         // --- Seccion partners
         if (is_page_template('views/template-subPage-partners-2022.blade.php')) {
             wp_enqueue_style('subPage_partners_2022.css', asset_path('styles/pages/subPages/subPage_partners_2022.css'), false, THEME_VERSION);
