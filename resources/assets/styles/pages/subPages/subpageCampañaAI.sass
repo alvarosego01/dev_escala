@@ -652,7 +652,7 @@ img
                 .info
                     @include responsivo(general)
                         position: relative
-                        left: 150px
+                        left: 50px
                     @include responsivo(smallPcTablet)
                         left: 75px
                     @include responsivo(resto)
@@ -1200,8 +1200,16 @@ img
                                                 .containerImage
                                                     margin: 0
                                                     padding: 0
+                                                    @include responsivo(telefonoTable)
+                                                        margin-right: 5px
+                                                    @include responsivo(pcMedio)
+                                                        margin-right: 5px
+                                                    @include responsivo(general)
+                                                        margin-right: 10px
+                                                    @include responsivo(resto)
+                                                        margin-right: 10px
                                                     img
-                                                        height: 75px
+                                                        height: 70px
                                                         margin: auto
                                                         @include responsivo(telefonoTable)
                                                             height: 35px
@@ -1226,7 +1234,7 @@ img
                                                         font-size: 14px
                                                         margin-bottom: 5px
                                                     @include responsivo(pcMedio)
-                                                        font-size: 16px
+                                                        font-size: 14px
                                                 .stars
                                                     .containerImage
                                                         padding: 0!important
@@ -1240,6 +1248,7 @@ img
                                                                 margin-left: 0
                                                             @include responsivo(pcMedio)
                                                                 width: auto
+                                                                margin-left: 0
                                                                 height: 20px
                             .owl-item
                                 &:nth-child(even)
