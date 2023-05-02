@@ -467,7 +467,7 @@
                     [
                         'area' => 'Salud y bienestar',
                         'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
-                       'logo' => App::setFilePath('/assets/images/logos/logo_rg.png'),
+                       'logo' => App::setFilePath('/assets/images/logos/logo_rgg.png'),
                         'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
                     ]
                 ];
