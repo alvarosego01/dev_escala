@@ -49,16 +49,13 @@
             La plataforma todo-en-uno para mejorar tus <br class="space">
             resultados de marketing y ventas
       </span>
-      <img class="funnelImage" src="' .
-                        App::setFilePath('/assets/images/illustrations/others/temporal_funnel.png') .
-                        '" alt="">
       ',
                     'threeCol' => true,
                     'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
                     'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1_big.png'),
                     'overlayImage' => null,
-                    'image' => App::setFilePath('/assets/images/person/am/temporal_am.png'),
-                    'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM',
+                    'image' => App::setFilePath('/assets/images/illustrations/others/escala_home_am.png'),
+                    'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta',
                 ])
             @endheader_t1
 
@@ -75,16 +72,13 @@
             La plataforma todo-en-uno para mejorar tus <br class="space">
             resultados de marketing y ventas
       </span>
-      <img class="funnelImage" src="' .
-                        App::setFilePath('/assets/images/illustrations/others/temporal_funnel.png') .
-                        '" alt="">
       ',
                     'threeCol' => true,
                     'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
                     'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1.png'),
                     'overlayImage' => null,
-                    'image' => App::setFilePath('/assets/images/person/am/temporal_am.png'),
-                    'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM',
+             'image' => App::setFilePath('/assets/images/illustrations/others/escala_home_am.png'),
+                    'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta',
                 ])
             @endheader_t1
 
@@ -116,7 +110,7 @@
 
                                 @php
                                     $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
-                                    $videoCover = App::setFilePath('/assets/images/illustrations/others/video_front_home.png');
+                                    $videoCover = App::setFilePath('/assets/images/illustrations/others/home_portrait.png');
                                 @endphp
 
                                 @if (isset($videoEmbed) && $videoEmbed != null)
@@ -244,7 +238,7 @@
                             <div class="image col-md-12 col-lg-6">
                                 <div class="containerImage">
 
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/temporal_funnel_big.png') !!}" loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/home_funnel.png') !!}" loading="lazy">
 
                                 </div>
                             </div>
@@ -553,23 +547,6 @@
                                             @endforeach
                                         @endif
 
-
-
-                                        {{-- <ol class="carousel-indicators">
-
-                            @if (isset($desk_reviews) && $desk_reviews != null)
-
-                            @foreach ($desk_reviews as $index => $item)
-
-                            <button type="button" data-bs-target="#carousel-testimonials-desktop" data-bs-slide-to="{{ $index }}" @if ($index === array_key_first($desk_reviews)) class="active" aria-current="true" @endif aria-label="Slide {{ $index }}"></button>
-
-                            @endforeach
-
-                            @endif
-
-                        </ol> --}}
-
-
                                     </div>
 
 
@@ -614,7 +591,7 @@
                             items: 1
                         },
                         768: {
-                            items: 3
+                            items: 1
                         },
                         1000: {
                             items: 3
@@ -639,13 +616,11 @@
 
                         <div class="containElements">
                             <h2 class="primaryTitle blackColor">
-                                Ningún otro CRM te brinda un mejor servicio <br class="space">
+                                Ningún otro software te brinda un mejor servicio <br class="space">
                                 <span>Te acompañamos paso a paso para acelerar tu éxito</span>
                             </h2>
                             <p class="primaryText grayColorTexts">
-                                Desde el día 1, te asignamos un Gerente de Éxito que guía tu estrategia e implementación
-                                apoyándose <br class="desktopTabletElement"> de nuestro ecosistema de expertos. ¿Nuestro
-                                objetivo? Que crezcas continuamente con Escala
+                                Desde el día 1, te asignamos un Gerente de Éxito que guía tu estrategia e implementación apoyándose <br class="desktopTabletElement"> de nuestro ecosistema de expertos. ¿Nuestro objetivo? Que crezcas continuamente con Escala
                             </p>
                         </div>
 
@@ -656,7 +631,13 @@
 
                         <div class="containElements">
                             <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/tools_escala.png') !!}" loading="lazy">
+
+                                <img
+                                class="desktopElement"
+                                 src="{!! App::setFilePath('/assets/images/illustrations/others/home_imple.png') !!}" loading="lazy">
+                                <img
+                                class="mobileElement"
+                                 src="{!! App::setFilePath('/assets/images/illustrations/others/home_imple_mobile.png') !!}" loading="lazy">
 
                             </div>
                         </div>
@@ -723,6 +704,16 @@
                                 'title' => '
                                     <span>Educación</span> online
                                     a tu ritmo
+            ',
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_partners.png'),
+                                'title' => '
+                                    <span>Comunidad</span> <br class="space">
+                                    de Partners
             ',
                                 'text' => null,
                                 'enableButton' => false,
@@ -901,12 +892,9 @@
                             ],
                         ];
                     @endphp
-                    <section class="innerSectionElement sct2 ">
-
+                    <section class=" innerSectionElement sct2">
                         @foreach ($items as $item)
-
                             <div
-
                             class="groupElements">
 
                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
@@ -965,8 +953,8 @@
 
                               <div class="image col-md-12 col-lg-6">
                                 <div class="containerImage">
-
-                                    <img src="{!! App::setFilePath('/assets/images/person/am/am_back_circle.png') !!}" loading="lazy">
+                                    <img class="desktopElement" src="{!! App::setFilePath('/assets/images/person/am/am_back_circle.png') !!}" loading="lazy">
+                                    <img class="mobileElement" src="{!! App::setFilePath('/assets/images/person/am/am_home_escala.png') !!}" loading="lazy">
 
                                 </div>
                             </div>
@@ -1067,7 +1055,8 @@
                                     <span>aceleran su éxito con Escala</span>
                                 </h3>
                                 <p class="text">
-                                     Descubre lo que Escala puede hacer por ti y tu empresa
+                                    Descubre lo que Escala puede hacer <br class="mobileElement">
+                                    por ti y tu empresa
                                 </p>
 
                                 <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
