@@ -127,7 +127,7 @@
         Potencia tus <span>Landing Pages en Escala</span>
 ',
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/illustrations/others/img_ia_escala.png'),
+                'img' => App::setFilePath('/assets/images/gifs/campa_ia_anim_1.gif'),
                 'title' => '
 La IA crea el texto de <span>títulos, botones y párrafos</span>
   ',
@@ -162,7 +162,7 @@ La IA crea el texto de <span>títulos, botones y párrafos</span>
         Potencia tus <span>Landing Pages en Escala</span>
 ',
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/illustrations/others/img_ia_escala.png'),
+               'img' => App::setFilePath('/assets/images/gifs/campa_ia_anim_2.gif'),
                 'title' => '
 La IA consigue <span>imágenes</span>
   ',
@@ -196,7 +196,7 @@ La IA consigue <span>imágenes</span>
         Optimiza tus <span>Emails en Escala</span>
 ',
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/illustrations/others/img_ia_escala.png'),
+        'img' => App::setFilePath('/assets/images/gifs/campa_ia_anim_3.gif'),
                 'title' => '
 La IA crea el texto <span>de tus asuntos</span>
   ',
@@ -231,7 +231,7 @@ La IA crea el texto <span>de tus asuntos</span>
         Potencia tus <span>Landing Pages en Escala</span>
 ',
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/illustrations/others/img_ia_escala.png'),
+             'img' => App::setFilePath('/assets/images/gifs/campa_ia_anim_4.gif'),
                 'title' => '
 La IA Consigue <span>imágenes</span>
   ',

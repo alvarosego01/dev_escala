@@ -209,9 +209,15 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_script('_pricingPage.js', asset_path('scripts/pages/_pricingPage_ventas.js'), ['jquery'], THEME_VERSION, true);
         }
         // --- Casos exito
+        //  Firma consultoria
         if (is_page_template('views/template-casoExito-firma-consultoria.blade.php')) {
             wp_enqueue_style('subPage_casoExito_firma_consultoria.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_firma_consultoria.css'), false, THEME_VERSION);
         }
+        //  Gestión financiera
+        if (is_page_template('views/template-casoExito-gestion-financiera.blade.php')) {
+            wp_enqueue_style('subPage_casoExito_gestion_financiera.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_gestion_financiera.css'), false, THEME_VERSION);
+        }
+        // ---
         // --- Casos uso
         if (is_page_template('views/template-casoUso-home.blade.php')) {
             wp_enqueue_style('template_casoUso_home.css', asset_path('styles/pages/subPages/casosUso/subPage_casoUso_home.css'), false, THEME_VERSION);

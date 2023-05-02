@@ -93,23 +93,21 @@ img
 
         padding-top: 150px
         @include responsivo(telefonoTable)
-            background-position: unset
+            background-position: 40%
         @include responsivo(pcMedio)
-            background-position: unset
+            background-position: 40%
         @include responsivo(general)
             padding-top: 275px
             padding-bottom: 200px
 
         @include responsivo(resto)
             padding-top: 300px
-            padding-bottom: 250px
+            padding-bottom: 325px
             background-size: cover
 
         @include responsivoSpecial(1700px, 99999px)
             padding-bottom: 350px
 
-        @include responsivoSpecial(3000px, 99999px)
-            background-size: inherit
 
     .section-row
         position: relative
@@ -145,6 +143,9 @@ img
                             flex-direction: row-reverse
                         @include responsivo(resto)
                             flex-direction: row-reverse
+                        @include responsivoSpecial(1700px, 99999px)
+                            margin-bottom: 0
+
                         .ele
                             position: relative
                             .principalBigTitle
@@ -639,9 +640,11 @@ img
                                 height: 225px
                                 margin-bottom: 25px
                             @include responsivo(general)
+                                height: 275px
+                            @include responsivo(smallPcTablet)
                                 height: 250px
                             @include responsivo(resto)
-                                height: 275px
+                                height: 300px
 
         section.innerSectionElement.sct2.right
             .groupElements.row
