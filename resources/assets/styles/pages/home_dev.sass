@@ -262,9 +262,11 @@ img
                             align-content: centers
 
                             @include responsivo(general)
-                                left: -15px
+                                left: -175px
+                                top: 0
                             @include responsivo(smallPcTablet)
-                                left: -25px
+                                left: -175px
+
                             @include responsivo(resto)
                                 left: -175px
                                 top: -50px
@@ -276,11 +278,11 @@ img
                                     height: 225px!important
                                     margin-bottom: 25px
                                 @include responsivo(general)
-                                    height: 425px
+                                    height: 400px
                                     position: relative
                                     margin-top: auto
                                 @include responsivo(smallPcTablet)
-                                    height: 400px
+                                    height: 375px
                                     position: relative
                                 @include responsivo(resto)
                                     height: 450px
@@ -1297,20 +1299,26 @@ img
                                                 @include responsivo(telefonoTable)
                                                     display: flex
                                                     justify-content: flex-start
-                                                    align-items: flex-start
+                                                    align-items: center
                                                     align-content: center
-                                                    margin-right: 5px
                                                 @include responsivo(pcMedio)
                                                     display: flex
                                                     justify-content: center
-                                                    align-items: flex-start
+                                                    align-items: center
                                                     align-content: center
-                                                    margin-right: 5px
                                                 .containerImage
                                                     margin: 0
                                                     padding: 0
+                                                    @include responsivo(telefonoTable)
+                                                        margin-right: 5px
+                                                    @include responsivo(pcMedio)
+                                                        margin-right: 5px
+                                                    @include responsivo(general)
+                                                        margin-right: 10px
+                                                    @include responsivo(resto)
+                                                        margin-right: 10px
                                                     img
-                                                        height: 75px
+                                                        height: 60px
                                                         margin: auto
                                                         @include responsivo(telefonoTable)
                                                             height: 35px
@@ -1326,13 +1334,13 @@ img
                                                     font-family: Nunito
                                                     font-style: normal
                                                     font-weight: 500
-                                                    font-size: 18px
+                                                    font-size: 16px
                                                     line-height: 1
                                                     letter-spacing: -1px
                                                     color: #36768A
                                                     margin-bottom: 10px
                                                     @include responsivo(telefonoTable)
-                                                        font-size: 12px
+                                                        font-size: 14px
                                                         margin-bottom: 5px
                                                     @include responsivo(pcMedio)
                                                         font-size: 14px
@@ -1349,8 +1357,8 @@ img
                                                                 margin-left: 0
                                                             @include responsivo(pcMedio)
                                                                 width: auto
-                                                                height: 17.5px
                                                                 margin-left: 0
+                                                                height: 20px
                             .owl-item
                                 &:nth-child(even)
                                     .item
@@ -1717,7 +1725,7 @@ img
                         @include responsivo(general)
                             font-size: 20px
                         @include responsivo(smallPcTablet)
-                            font-size: 18px
+                            font-size: 16px
 
 
 
