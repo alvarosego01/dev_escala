@@ -244,7 +244,7 @@ La IA Consigue <span>imágenes</span>
     <br class="space">
     <br class="space">
     <span style="color: #36768A; font-weight: 700!important">
-      ¡Y se inserta sola en tu página!
+   ¡Y se inserta sola en tu email!
     </span>
 
   ',
