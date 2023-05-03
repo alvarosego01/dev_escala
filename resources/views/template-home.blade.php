@@ -7,900 +7,1072 @@
 @extends('layouts.app')
 @section('content')
 
-<div id="homeBootstrap">
-  <div class="sections">
+    <div id="homeSection">
+        <div class="sections">
 
-    @php
-    $parameters = array(
-     'backgroundImageType' => true,
-     'overlay' => false,
-     'classSection' => 'threeCol homeSection0 newHome',
-     'title' => '
-     <small >Escala CRM y automatizaciones</small> <br class="space">
-     <span style="color: #fff; font-weight: 700;" >Atrae y convierte</span> <br class="space">
-      <span style="color: #FAD872">
-        más clientes fieles
-      </span>
+            {{-- @php
+                $parameters = [
+                    'backgroundImageType' => true,
+                    'overlay' => false,
+                    'classSection' => 'threeCol homeSection_0 newHome',
+                    'title' => '
+        Acelera el crecimiento <br class="space">
+        <span style="color: #DEF3F5">de tu empresa con Escala</span>
     ',
-     'text' => '<span class="whiteColor">
-          Con nuestras herramientas de <br class="space">
-          automatización de marketing, <br class="space">
-          ventas y el CRM más fácil de usar
+                    'text' =>
+                        '<span class="whiteColor">
+            La plataforma todo-en-uno para mejorar tus <br class="space">
+            resultados de marketing y ventas
+      </span>
+      <img class="funnelImage" src="' .
+                        App::setFilePath('/assets/images/illustrations/others/temporal_funnel.png') .
+                        '" alt="">
+      ',
+                    'threeCol' => true,
+                    'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
+                    'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1_big.png'),
+                    'overlayImage' => null,
+                    'image' => App::setFilePath('/assets/images/person/am/temporal_am.png'),
+                    'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM',
+                ];
+            @endphp --}}
+
+            @header_t1([
+                    'backgroundImageType' => true,
+                    'overlay' => false,
+                    'classSection' => 'desktopElement threeCol homeSection_0 newHome',
+                    'title' => '
+        Acelera el crecimiento <br class="space">
+        <span style="color: #DEF3F5">de tu empresa con Escala</span>
+    ',
+                    'text' =>
+                        '<span class="whiteColor">
+            La plataforma todo-en-uno para mejorar tus <br class="space">
+            resultados de marketing y ventas
       </span>
       ',
-     'threeCol' => true,
-     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
-     'backgroundImage' => App::setFilePath('/assets/images/backgrounds/fondo banner principal.png'),
-  'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/person/home_header_person.png'),
-  'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM'
-  ) ;
-  @endphp
-  @header_t1( $parameters )
-  @endheader_t1
+                    'threeCol' => true,
+                    'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
+                    'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1_big.png'),
+                    'overlayImage' => null,
+                    'image' => App::setFilePath('/assets/images/illustrations/others/escala_home_am.png'),
+                    'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta',
+                ])
+            @endheader_t1
+
+            @header_t1([
+                    'backgroundImageType' => true,
+                    'overlay' => false,
+                    'classSection' => 'mobileElement threeCol homeSection_0 newHome',
+                    'title' => '
+        Acelera el crecimiento <br class="space">
+        <span style="color: #DEF3F5">de tu empresa con Escala</span>
+    ',
+                    'text' =>
+                        '<span class="whiteColor">
+            La plataforma todo-en-uno para mejorar tus <br class="space">
+            resultados de marketing y ventas
+      </span>
+      ',
+                    'threeCol' => true,
+                    'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
+                    'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1.png'),
+                    'overlayImage' => null,
+             'image' => App::setFilePath('/assets/images/illustrations/others/escala_home_am.png'),
+                    'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta',
+                ])
+            @endheader_t1
 
 
-  <section class="customSection sectionParent homeSection1_1">
 
-    <div class="section-row">
+            <section class="component-info-text-video-T1 customSection sectionParent homeSection_1 ">
+                <div class="section-row">
 
-            <section class="innerSectionElement sct1">
+                    <section class="innerSectionElement sct1">
 
-              <div class="containElements">
+                        <div class="containElements">
 
-                <div class="element">
-                  <div class="numbers">
-                      <span>
-                        +1000
-                      </span>
-                  </div>
-                  <p class="text">
-                    Clientes han confiado <br class="space">
-                    en nosotros
-                  </p>
+                            <h2 class="primaryTitle whiteColor">
+                                Más de 1.000 empresas <br class="space">
+                                <span>han confiado en Escala</span>
+                            </h2>
+
+                        </div>
+
+                    </section>
+
+                    <section class="innerSectionElement sct2">
+
+                        <div class="groupElements row">
+
+                            <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_1.png') !!}" alt="" class="overlaySky1">
+
+                            <div class="video col-md-12 col-lg-7">
+
+                                @php
+                                    $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
+                                    $videoCover = App::setFilePath('/assets/images/illustrations/others/home_portrait.png');
+                                @endphp
+
+                                @if (isset($videoEmbed) && $videoEmbed != null)
+                                    <div class="youtubeImageContainer ">
+
+                                        <video class="video-js" controls preload="none" poster="{{ $videoCover }}"
+                                            {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                            data-setup="{
+                                  autoplay: false
+                                }">
+                                            <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                            <source src="{{ $videoEmbed }}" type="video/webm" />
+                                            <p class="vjs-no-js">
+                                                To view this video please enable JavaScript, and consider upgrading to a
+                                                web browser that
+                                                <a href="https://videojs.com/html5-video-support/" target="_blank">supports
+                                                    HTML5 video</a>
+                                            </p>
+                                        </video>
+
+
+                                        <a class=" secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                            Ver el demo
+                                        </a>
+
+                                    </div>
+                                @endif
+
+                            </div>
+
+                            <div class="info col-md-12 col-lg-5">
+
+
+                                @php
+                                    $elements = [
+                                        [
+                                            'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
+                                            'text' => 'Escala / plataforma CRM',
+                                            'points' => '4.8 / 5',
+                                        ],
+                                        [
+                                            'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                                            'text' => 'Escala / plataforma CRM',
+                                            'points' => '4.9 / 5',
+                                        ],
+                                        [
+                                            'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                                            'text' => 'Escala / plataforma CRM',
+                                            'points' => '4.8 / 5',
+                                        ],
+                                    ];
+                                @endphp
+
+                                <div class="elements">
+
+                                    @foreach ($elements as $item)
+                                        <div class="refersElement">
+                                            <div class="logo">
+                                                <div class="containerImage">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/iso_escala.png') !!}" loading="lazy">
+                                                </div>
+                                            </div>
+
+                                            <div class="infoInner">
+                                                <div class="tag">
+                                                    <div class="containerImage">
+                                                        <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                    </div>
+                                                </div>
+                                                <p class="text">
+                                                    {!! $item['text'] !!}
+                                                </p>
+                                                <div class="stars">
+                                                    <div class="containerImage">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
+                                                    </div>
+                                                </div>
+                                                <span class="points">
+                                                    {!! $item['points'] !!}
+                                                </span>
+                                            </div>
+
+                                        </div>
+                                    @endforeach
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </section>
+
                 </div>
-                <div class="element">
-                  <div class="numbers">
-                      <span>
-                        300%
-                      </span>
-                  </div>
-                  <p class="text">
-                    Tasa de crecimiento en <br class="space"> clientes con + 6 meses
-                  </p>
-                </div>
-                <div class="element">
-                  <div class="numbers">
-                      <span>
-                        4.8/5
-                      </span>
-                  </div>
-                  <p class="text">
-                    Puntuación de clientes en <br class="space">
-                    reviews de Trustpilot
-                  </p>
-                </div>
-                <div class="element">
-                  <div class="numbers">
-                      <span>
-                        +5000
-                      </span>
-                  </div>
-                  <p class="text">
-                    Aplicaciones que se <br class="space">
-                    pueden integrar a Escala
-                  </p>
-                </div>
-
-              </div>
 
             </section>
 
-      </div>
 
-    </section>
-
-
-@php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'homeSection_1_2',
-  'enableTitle' => false,
-  'titlePrincipal' => null,
-  'subTitlePrincipal' => null,
-  'title' => '
-
-  “<span class="greenBlueColor">Después de décadas construyendo negocios,</span> creamos <br class="desktopTabletElement">
-  Escala basándonos en nuestra metodología para escalar empresas”.
-    <br class="space"><br class="space">
-    <span class="subText">
-      <span>- Andrés Moreno</span> <br class="space">
-      <small>Fundador de Escala y Open English reconocido</small>
-    </span>
-',
-'typeVideo' =>  'localvideo',
-  'videoEmbed' =>  App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4'),
-  'videoCover' => App::setFilePath('/assets/images/illustrations/others/video_front_home.png'),
-  'text' => '
-<span>
-  “Emprendedor de la Década”, con apariciones en:
-  </span>
-<div class="specialIcons">
-  <img src="'.App::setFilePath('/assets/images/illustrations/others/icon_prensa_cnn.png').'" alt="Escala CNN icono prensa" class="prensaIcon">
-  <img src="'.App::setFilePath('/assets/images/illustrations/others/icon_prensa_wst.png').'" alt="Escala The wall street journal icono prensa" class="prensaIcon">
-  <img src="'.App::setFilePath('/assets/images/illustrations/others/icon_prensa_bbc.png').'" alt="Escala BBC icono prensa" class="prensaIcon">
-  <img src="'.App::setFilePath('/assets/images/illustrations/others/icon_prensa_mh.png').'" alt="Escala The miami herald icono prensa" class="prensaIcon">
-  </div>',
-  'enableButton' => false,
-  'urlButton' => '#lead-form',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-  'textButton' => 'Recibe un demo',
-  'side' => 'right',
- ) ;
-@endphp
-
-@contain_text_video_T1( $parameters )
-@endcontain_text_video_T1
+            <section class="component-info-text-image-T1 customSection sectionParent homeSection_2 ">
 
 
-@php
-$parameters = [
-    'type' => 'backgroundColor',
-    'classSection' => 'dev_homeSection2 desktopElement',
-    'enableTitle' => true,
-    'titlePrincipal' => '
-    Qué puede lograr tu empresa <span class="greenBlueColor">con Escala</span>
-    ',
-    'subTitlePrincipal' => null,
-    'overlay' => true,
-    'enableButton' => true,
-    'urlButton' => '#',
-    'textButton' => 'Recibe un demo',
-    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
-    'overlayImage' => App::setFilePath('/assets/images/overlays/overlay_home_sect.png'),
-    'side' => 'left',
-    'img' => App::setFilePath('/assets/images/illustrations/others/escala-pagina-confirmación-registro 1.png'),
-    'img_alt' => null,
-    'features_items' => [
-        [
-            'title'=> '<span class="greenBlueColor">Generar prospectos</span> <br class="space">
-              online con publicidad <br class="space">
-              paga o email',
-            'text' => null,
-
-        ],
-        [
-          'title'=> '<span class="greenBlueColor">Optimizar procesos</span> <br class="space">
-            comerciales y de servicios',
-            'text' => null
-        ],
-        [
-          'title'=> '<span class="greenBlueColor">Aumentar la productividad</span> <br class="space">
-            del equipo de ventas',
-            'text' => null
-        ],
-        [
-          'title'=> '<span class="greenBlueColor">
-            Integrar y agilizar <br class="space">
-              esfuerzos
-          </span> de marketing <br class="space">
-            y ventas',
-            'text' => null
-        ],
-        [
-          'title'=> '<span class="greenBlueColor">Nutrir la relación con clientes</span> <br class="space">
-            para que recompren,
-            promuevan y refieran',
-            'text' => null,
-        ],
-        [
-          'title'=> '<span class="greenBlueColor">
-            Analizar la salud de tu <br class="space">
-              negocio
-          </span> con métricas en <br class="space">
-            tiempo real',
-            'text' => null,
-        ],
-
-    ],
-];
-@endphp
-
-@contain_features_image_T1( $parameters )
-@endcontain_features_image_T1
-
-@php
-$parameters = [
-    'type' => 'backgroundColor',
-    'classSection' => 'dev_homeSection2 mobileElement',
-    'enableTitle' => true,
-    'titlePrincipal' => '
-    Qué puede lograr tu empresa <span class="greenBlueColor">con Escala</span>
-    ',
-    'subTitlePrincipal' => null,
-    'overlay' => true,
-    'enableButton' => true,
-    'urlButton' => '#',
-    'textButton' => 'Recibe un demo',
-    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
-    'overlayImage' => App::setFilePath('/assets/images/overlays/overlay_home_sect_mobile.png'),
-    'side' => 'left',
-    'img' => App::setFilePath('/assets/images/illustrations/others/escala-pagina-confirmación-registro 1.png'),
-    'img_alt' => null,
-    'features_items' => [
-        [
-            'title'=> '<span class="greenBlueColor">Generar prospectos</span> <br class="space">
-              online con publicidad <br class="space">
-              paga o email',
-            'text' => null,
-
-        ],
-        [
-          'title'=> '<span class="greenBlueColor">Optimizar procesos</span> <br class="space">
-            comerciales y de servicios',
-            'text' => null
-        ],
-        [
-          'title'=> '<span class="greenBlueColor">Aumentar la productividad</span> <br class="space">
-            del equipo de ventas',
-            'text' => null
-        ],
-        [
-          'title'=> '<span class="greenBlueColor">
-            Integrar y agilizar <br class="space">
-              esfuerzos
-          </span> de marketing <br class="space">
-            y ventas',
-            'text' => null
-        ],
-        [
-          'title'=> '<span class="greenBlueColor">Nutrir la relación con clientes</span> <br class="space">
-            para que recompren,
-            promuevan y refieran',
-            'text' => null,
-        ],
-        [
-          'title'=> '<span class="greenBlueColor">
-            Analizar la salud de tu <br class="space">
-              negocio
-          </span> con métricas en <br class="space">
-            tiempo real',
-            'text' => null,
-        ],
-
-    ],
-];
-@endphp
-
-@contain_features_image_T1( $parameters )
-@endcontain_features_image_T1
-
-@php
-$parameters = [
-    'type' => 'backgroundColor',
-    'classSection' => 'homeSection2',
-    'enableTitle' => true,
-    'titlePrincipal' => '
-    Por qué <span class="greenBlueColor">Escala</span>
-    ',
-    'subTitlePrincipal' => null,
-    'overlay' => false,
-    'enableButton' => false,
-    // 'urlButton' => '#',
-    // 'textButton' => 'Recibe un demo',
-    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
-    // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
-    'elements' => [
-        [
-            'img_alt' => null,
-            'img' => null,
-            'title' => '<span class="greenBlueColor">
-              Todas las herramientas <br class="space">
-                  integradas
-            </span> para empresas <br class="space">
-                con equipo comercial, <br class="space">
-                negocios de servicio o B2B',
-            'enableButton' => false,
-        ],
-        [
-            'img_alt' => null,
-            'img' => null,
-            'title' => '<span class="greenBlueColor">Interfaz amigable</span> para <br class="space">
-              que disfrutes trabajar en <br class="space">
-              ella todos los días',
-            'enableButton' => false,
-        ],
-        [
-            'img_alt' => null,
-            'img' => null,
-            'title' => '
-              <span class="greenBlueColor">Altísimo nivel de servicio:</span> <br class="space">
-              Nadie en la industria te <br class="space">
-              acompaña y atiende mejor
-            ',
-            'enableButton' => false,
-        ],
-        [
-            'img_alt' => null,
-            'img' => null,
-            'title' => '<span class="greenBlueColor">100% en español:</span> la <br class="space">
-              plataforma, el servicio y <br class="space">
-              los recursos en tu idioma',
-            'enableButton' => false,
-        ],
-
-    ],
-];
-@endphp
-
-@contain_multiple_cards_T2( $parameters )
-@endcontain_multiple_cards_T2
+                <div class="section-row">
 
 
-<section class="customSection sectionParent homeSection3">
+                    <section class="innerSectionElement sct1">
 
-  <div class="section-row">
-
-        <section class="innerSectionElement sct1">
-
-          <div class="containElements">
-
-            <h2 class="primaryTitle blackColor">
-                Nuestro gran diferenciador: <br class="space">
-              <span class="greenBlueColor">Acompañamiento experto personalizado</span>
-            </h2>
-
-            <p class="primaryText grayColorTexts">
-              Desde el día 1, le asignamos a ti y a tu equipo un gerente especialista en marketing digital y <br class="desktopTabletElement">
-              ventas que guía sus pasos para que integren exitosamente la plataforma a sus operaciones.
-            </p>
-
-          </div>
-
-        </section>
-
-        <section class="innerSectionElement sct2">
-
-          <div class=" row groupElements">
-
-
-            <div class="info col-md-12 col-lg-6">
-
-              <div class="containElements">
-
-                <h3 class="secondaryTitle">
-                  ¿Cómo funciona?
-                </h3>
-
-                <p class="text">
-                  Una vez se sucriben a Escala, su Gerente de Cuenta los apoya a definir un <br class="desktopTabletElement">
-                  plan, que tú y tu equipo implementen a su propio ritmo, basándose en <br class="desktopTabletElement">
-                  nuestra Metodología probada de Éxito. La misma se divide en 4 fases:
-                </p>
-
-                <ul class="elements">
-                  <li class="item">
-
-                    <div class="text">
-                      <h3>
-                        <div class="count">
-                          <span>1</span>
+                        <div class="containElements">
+                            <h2 class="primaryTitle blackColor">
+                                Construye una máquina de <br class="space">
+                                <span>marketing y venta</span>
+                            </h2>
+                            <p class="primaryText grayColorTexts">
+                                Con todas herramientas que necesitas en un mismo lugar
+                            </p>
                         </div>
-                        Planificación
-                      </h3>
-                      <p class="text">
-                        Se desarrolla un plan personalizado para aterrizar tu estrategia en Escala
-                      </p>
-                    </div>
-                  </li>
-                  <li class="item">
 
-                    <div class="text">
-                      <h3>
-                        <div class="count">
-                          <span>2</span>
+                    </section>
+
+                    <section class="innerSectionElement sct2 left">
+
+
+                        <div class="groupElements row">
+
+                            <div class="image col-md-12 col-lg-6">
+                                <div class="containerImage">
+
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/home_funnel.png') !!}" loading="lazy">
+
+                                </div>
+                            </div>
+                            <div class="info col-md-12 col-lg-6">
+
+                                <h3 class="secondaryTitle">
+                                    Atrae
+                                </h3>
+                                <p class="text">
+                                    A más clientes ideales e inicia la relación comercial <br class="desktopTabletElement">
+                                    capturando su contacto con anuncios digitales, landing <br class="desktopTabletElement">
+                                    pages y formularios
+                                </p>
+                                <h3 class="secondaryTitle">
+                                    Nutre
+                                </h3>
+                                <p class="text">
+                                    La relación con cada contacto usando páginas de confirmación, <br
+                                        class="desktopTabletElement">
+                                    emails automatizados, WhatsApp, flujos y más
+
+                                </p>
+                                <h3 class="secondaryTitle">
+                                    Convierte
+                                </h3>
+                                <p class="text">
+                                    Contactos en clientes fieles que recompran y refieren <br class="desktopTabletElement">
+                                    usando el CRM para gestionar procesos, escalar <br class="desktopTabletElement">
+                                    operaciones y optimizar resultados continuamente
+                                </p>
+
+                            </div>
+
                         </div>
-                        Configuración
-                      </h3>
-                      <p class="text">
-                        Se realizan las importaciones, conexiones técnicas y personalización del CRM
-                      </p>
-                    </div>
-                  </li>
-                  <li class="item">
 
-                    <div class="text">
-                      <h3>
-                        <div class="count">
-                          <span>3</span>
-                        </div>
-                        Producción
-                      </h3>
-                      <p class="text">
-                        Se lanza la primera campaña de marketing y se entrena al equipo comercial
-                      </p>
-                    </div>
-                  </li>
-                  <li class="item">
 
-                    <div class="text">
-                      <h3>
-                        <div class="count">
-                          <span>4</span>
-                        </div>
-                        Optimización
-                      </h3>
-                      <p class="text">
-                        Se monitorean resultados y se define el próximo plan
-                      </p>
-                    </div>
-                  </li>
-                </ul>
 
-                {{-- <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                  Aprender más
-              </a> --}}
-                <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                  Aprender más
-              </a>
+                    </section>
 
-              </div>
 
-            </div>
 
-            <div class="image col-md-12 col-lg-6">
-
-              <div class="containElements">
-
-                <div class="containerImage">
-                  <img alt="Landing Escala Landings" src="{!! App::setFilePath('/assets/images/person/Chica-1.png') !!}"  loading="lazy">
                 </div>
 
-              </div>
-
-            </div>
-
-          </div>
-
-        </section>
+            </section>
 
 
-  </div>
+            <section class="component-info-multiple-cards-T2 customSection sectionParent homeSection_3 ">
 
- </section>
+                <div class="section-row">
+                    <section class="innerSectionElement sct1">
 
+                        <div class="containElements">
 
- @php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'homeSection_4',
-  'enableTitle' => true,
-  'titlePrincipal' => '
-  <span class="greenBlueColor">Mejora el crecimiento de tu empresa </span><br class="desktopTabletElement">
-con todas las herramientas en una plataforma',
-  'subTitlePrincipal' => null,
-  'img' => App::setFilePath('/assets/images/illustrations/others/Group 8765.png'),
-  'title' => '
-  <small class="smallEscalaTag">
-    Landings + Formularios
-    </small> <br class="space">
-  Mejora tu presencia online <br class="desktopTabletElement">
-  y captura leads calificados
-  ',
-  'text' => '
-    Crea hermosas páginas de aterrizaje en minutos para <br class="desktopTabletElement">
-    despertar el interés de clientes potenciales e incentívalos a <br class="desktopTabletElement">
-    registrar su contacto para iniciar una relación comercial.
-  ',
-  'enableButton' => false,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Recibe un demo',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-  'side' => 'right',
- ) ;
-@endphp
+                            <h2 class="primaryTitle blackColor">
 
-@contain_text_image_T1( $parameters )
-@endcontain_text_image_T1
+                                En Escala tienes todas las herramientas para <br class="space">
+                                <span>adquirir y fidelizar clientes en un mismo lugar</span>
 
- @php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'homeSection_5',
-  'enableTitle' => false,
-  'titlePrincipal' => null,
-  'subTitlePrincipal' => null,
-  'img' => App::setFilePath('/assets/images/illustrations/others/Group 8758.png'),
-  'title' => '
-  <small class="smallEscalaTag">
-    Ads + Emails
-    </small> <br class="space">
-  Lleva tráfico calificado a <br class="desktopTabletElement">
-  tus páginas
-  ',
-  'text' => '
-    Tienes dos opciones para llevar visitantes a <br class="desktopTabletElement">
-    tus landing pages:
-    <ul class="text">
-      <li><span class="greenBlueColor">1.</span> Crear o importar campañas de anuncios <br class="desktopTabletElement">
-      pagas en Facebook e Instagram</li>
-      <li><span class="greenBlueColor">2.</span> Enviar campañas de email a tu base de datos</li>
-    </ul>
-  ',
-  'enableButton' => false,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Recibe un demo',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-  'side' => 'left',
- ) ;
-@endphp
+                            </h2>
+                            <p class="primaryText grayColorTexts">
+                                Integradas <span>•</span> Fáciles de usar <span>•</span> Asequibles <span>•</span> En tu
+                                idioma
 
-@contain_text_image_T1( $parameters )
-@endcontain_text_image_T1
+                            </p>
 
- @php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'homeSection_6',
-  'enableTitle' => false,
-  'titlePrincipal' => null,
-  'subTitlePrincipal' => null,
-  'img' => App::setFilePath('/assets/images/illustrations/others/Group 8764.png'),
-  'title' => '
-  <small class="smallEscalaTag">
-    CRM fácil de usar
-  </small> <br class="space">
-  Gestiona contactos y optimiza <br class="desktopTabletElement">
-  procesos comerciales
-  ',
-  'text' => '
-    Con el CRM de Escala logras: <br class="space">
-    <ul class="text">
-      <li>Organizar tu base de datos</li>
-      <li>Llevar un historial de interacciones</li>
-      <li>Programa actividades y recordatorios</li>
-      <li>Controlar procesos con embudos</li>
-      <li>Hacer mejor seguimiento a tu equipo hasta <br class="desktopTabletElement">
-        ganar oportunidades de negocio </li>
-    </ul>
-  ',
-  'enableButton' => false,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Recibe un demo',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-  'side' => 'right',
- ) ;
-@endphp
-@contain_text_image_T1( $parameters )
-@endcontain_text_image_T1
+                        </div>
 
- @php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'homeSection_6',
-  'enableTitle' => false,
-  'titlePrincipal' => null,
-  'subTitlePrincipal' => null,
-  'img' => App::setFilePath('/assets/images/illustrations/others/whatsapp_home_image.png'),
-  'title' => '
-  <small class="smallEscalaTag">
-   WhatsApp
-  </small> <br class="space">
-    Mejora tu capacidad <br class="desktopTabletElement">
-    de respuesta e integra ágilmente <br class="desktopTabletElement">
-    WhatsApp a tu estrategia
-  ',
-  'text' => '
-    <ul class="text">
-        <li>Opera manos libres programando acciones y respuestas</li>
-        <li>Comunícate en tiempo real y gestiona tus <br class="desktopTabletElement">
-        conversaciones desde una sola herramienta</li>
-        <li>Gestiona tus contactos ¡desde tu propio <br class="desktopTabletElement"> WhatsApp Web también!</li>
-        <li>Captura y guarda automáticamente los datos <br class="desktopTabletElement">
-       de tus leads en el CRM</li>
-    </ul>
-  ',
-  'enableButton' => false,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Recibe un demo',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-  'side' => 'left',
- ) ;
-@endphp
-@contain_text_image_T1( $parameters )
-@endcontain_text_image_T1
-
- @php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'homeSection_7',
-  'enableTitle' => false,
-  'titlePrincipal' => null,
-  'subTitlePrincipal' => null,
-  'img' => App::setFilePath('/assets/images/illustrations/others/Group 8766.png'),
-  'title' => '
-  <small class="smallEscalaTag">
-    Email Marketing + Plantillas de venta
-  </small> <br class="space">
-  Comunícate efectivamente <br class="desktopTabletElement">
-  con emails profesionales
-  ',
-  'text' => '
-    Envía campañas de email impactantes con <br class="desktopTabletElement">
-    plantillas optimizadas para mejorar tu tasa de <br class="desktopTabletElement">
-    apertura y tu índice de clics, generar mayor <br class="desktopTabletElement">
-    interacción, aumentar tu ROI e incrementar tu <br class="desktopTabletElement">
-    conversión.
-  ',
-  'enableButton' => false,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Recibe un demo',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-  'side' => 'right',
- ) ;
-@endphp
-
-@contain_text_image_T1( $parameters )
-@endcontain_text_image_T1
- @php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'homeSection_8',
-  'enableTitle' => false,
-  'titlePrincipal' => null,
-  'subTitlePrincipal' => null,
-  'img' => App::setFilePath('/assets/images/illustrations/others/Group 8767.png'),
-  'title' => '
-  <small class="smallEscalaTag">
-    Automatizaciones
-  </small> <br class="space">
-    ¡Ahorra tiempo y esfuerzo <br class="desktopTabletElement">
-    automatizando acciones!
-  ',
-  'text' => '
-    Evita realizar tareas repetitivas y cometer errores <br class="desktopTabletElement">
-    humanos creando flujos y programando acciones <br class="desktopTabletElement">
-    que se ejecuten automáticamente para optimizar <br class="desktopTabletElement">
-    tus resultados de marketing, ventas y fidelización <br class="desktopTabletElement">
-    de clientes.
-  ',
-  'enableButton' => false,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Recibe un demo',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-  'side' => 'left',
- ) ;
-@endphp
-
-@contain_text_image_T1( $parameters )
-@endcontain_text_image_T1
-
-@php
- $parameters = array(
-  'type' => 'backgroundColor',
-  'classSection' => 'homeSection_9',
-  'enableTitle' => false,
-  'titlePrincipal' => null,
-  'subTitlePrincipal' => null,
-  'img' => App::setFilePath('/assets/images/illustrations/others/Group 8761.png'),
-  'title' => '
-  <small class="smallEscalaTag">
-    Analíticas
-  </small> <br class="space">
-    Lo que no se mide <br class="desktopTabletElement">
-    no se mejora
-  ',
-  'text' => '
-    Analiza tus esfuerzos comerciales con métricas y <br class="desktopTabletElement">
-    dashboards actualizados en tiempo real. <br class="space">
-    Entiende  rápidamente lo que funciona y lo que <br class="desktopTabletElement">
-    debes mejorar al usar cada herramienta de <br class="desktopTabletElement">
-    Escala.
-  ',
-  'enableButton' => false,
-  'urlButton' => '#lead-form',
-  'textButton' => 'Recibe un demo',
-  'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-  'side' => 'right',
- ) ;
-@endphp
-
-@contain_text_image_T1( $parameters )
-@endcontain_text_image_T1
-
-@php
- $parameters = array(
-  'type' => 'backgroundImage',
-  'backgroundImageFile' => App::setFilePath('/assets/images/backgrounds/fondo banner principal.png'),
-  'classSection' => 'homeSection_10',
-  'enableTitle' => false,
-  'titlePrincipal' => null,
-  'subTitlePrincipal' => null,
-  'img' => App::setFilePath('/assets/images/person/implementacion_banner_principal-1-1.png'),
-  'title' => '
-    Conviértete en Partner <br class="desktopTabletElement">
-    o Afiliado de Escala
-    <br class="space">
-    <small class="subTitle">
-      Construye tu negocio mientras <br class="desktopTabletElement">
-      impulsas el crecimiento de otros
-      </small>
-  ',
-  'text' => '
-      Al asociarte a Escala, obtienes recursos especiales y <br class="desktopTabletElement">
-      hasta 20% de comisión por ventas y servicios prestados <br class="desktopTabletElement">
-      mientras tus clientes se mantienen suscritos a Escala.
-  ',
-  'enableButton' => true,
-  'urlButton' => 'http://escala.com/alianzas',
-  'textButton' => 'Asociarme a Escala',
-  'typeButton' => 'primaryButton hoverInEffect ',
-  'side' => 'right',
- ) ;
-@endphp
-
-@contain_text_image_T1( $parameters )
-@endcontain_text_image_T1
-
-
-@php
-$parameters = [
-    'type' => 'backgroundColor',
-    'classSection' => 'homeSection_11',
-    'enableTitle' => true,
-    'titlePrincipal' => '
-    Acelera tu aprendizaje <span class="greenBlueColor">con Escala Academy</span>
-    ',
-    'subTitlePrincipal' => '
-    Ten acceso a una variedad de recursos para aprender a tu propio ritmo <br class="desktopTabletElement">
-    y conecta con nuestro equipo de servicio para atender a preguntas.',
-    'overlay' => false,
-    'enableButton' => false,
-    // 'urlButton' => '#',
-    // 'textButton' => 'Recibe un demo',
-    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
-    // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
-    'elements' => [
-        [
-            'img_alt' => null,
-            'img' => App::setFilePath('/assets/images/illustrations/others/Copy of webinar.png'),
-            'title' => '
-            Capacitaciones en vivo <br class="space">
-            semanales ilimitadas',
-            'enableButton' => false,
-        ],
-        [
-            'img_alt' => null,
-            'img' => App::setFilePath('/assets/images/illustrations/others/embudo-tipo_3.png'),
-            'title' => '
-            Artículos y videotutoriales <br class="space">
-            por herramienta',
-            'enableButton' => false,
-        ],
-        [
-            'img_alt' => null,
-            'img' => App::setFilePath('/assets/images/illustrations/others/escala-page-builder-create-landing-website-1.png'),
-            'title' => '
-            Casos de uso y  guías <br class="space">
-            con mejores prácticas
+                    </section>
+                    @php
+                        $items = [
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_funnel_otto.png'),
+                                'title' => '
+                <span>Plantillas probadas</span> <br class="space">
+                de Embudos
             ',
-            'enableButton' => false,
-        ],
-        [
-            'img_alt' => null,
-            'img' => App::setFilePath('/assets/images/illustrations/others/Hombre call center 2.png'),
-            'title' => '
-              Chat plataforma y <br class="space">
-              soporte técnico
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/Landing 1.png'),
+                                'title' => '
+                <span>Landing Pages</span> <br class="space">
+                editables en minutos
             ',
-            'enableButton' => false,
-        ],
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm.png'),
+                                'title' => '
+              <span>
+                  Gestión ágil de <br class="space">
+                  contactos
+              </span> y relaciones
+            ',
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_emailing.png'),
+                                'title' => '
+                <span>Envío de Emails</span> masivos <br class="space">
+                y personalizables
+            ',
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/Ws 1.png'),
+                                'title' => '
+                <span>
+                    Gestión y Envío <br class="space">
+                    de WhatsApps
+                </span> <br class="space">
+                automáticos
+            ',
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_automat.png'),
+                                'title' => '
+                <span>Automatizaciones</span> que <br class="space">
+                escalan operaciones
+            ',
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_social_ads.png'),
+                                'title' => '
+                <span>
+                    Anuncios digitales <br class="space">
+                    conectados
+                </span> a tus <br class="space">
+                páginas y CRM
+            ',
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_analytics.png'),
+                                'title' => '
+                <span>Analíticas</span> relevantes <br class="space">
+                en tiempo real
+            ',
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                        ];
+                    @endphp
+                    <section class="innerSectionElement sct2 ">
 
-    ],
-];
-@endphp
+                        @foreach ($items as $item)
+                            <div class="groupElements">
+                                <div class="image">
+                                    <div class="containerImage">
+                                        <img src="{!! $item['img'] !!}" loading="lazy" alt="{!! $item['img_alt'] !!}">
+                                    </div>
+                                </div>
 
-@contain_multiple_cards_T2( $parameters )
-@endcontain_multiple_cards_T2
+                                <div class="info">
 
+                                    <h3 class="secondaryTitle">
+                                        {!! $item['title'] !!}
+                                    </h3>
 
-@php
-       $parameters = [
-        'classSection' => 'homeSection_12',
-        'enableTitle' => true,
-        'titlePrincipal' => '
-        Nuestros clientes comentan <br class="space">
-        <span class="greenBlueColor">por qué prefieren Escala</span>
-        ',
-        'subTitlePrincipal' => null,
-        'enableContainerButton' => true,
-        'urlButton' => '#',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-        'textButton' => 'Recibe un demo',
-        'mob_reviews' => array(
-          App::setFilePath('/assets/images/illustrations/others/trust_home_01.png'),
-          App::setFilePath('/assets/images/illustrations/others/trust_home_02.png'),
-          App::setFilePath('/assets/images/illustrations/others/trust_home_03.png'),
-          App::setFilePath('/assets/images/illustrations/others/trust_home_04.png'),
-          App::setFilePath('/assets/images/illustrations/others/trust_home_05.png'),
-          App::setFilePath('/assets/images/illustrations/others/trust_home_06.png'),
-          App::setFilePath('/assets/images/illustrations/others/trust_home_07.png'),
-          App::setFilePath('/assets/images/illustrations/others/trust_home_08.png'),
-          App::setFilePath('/assets/images/illustrations/others/trust_home_09.png')
-        ),
-        'desk_reviews' => array(
-          [
-            App::setFilePath('/assets/images/illustrations/others/trust_home_01.png'),
-            App::setFilePath('/assets/images/illustrations/others/trust_home_02.png'),
-            App::setFilePath('/assets/images/illustrations/others/trust_home_03.png')
-          ],
-          [
-            App::setFilePath('/assets/images/illustrations/others/trust_home_04.png'),
-            App::setFilePath('/assets/images/illustrations/others/trust_home_05.png'),
-            App::setFilePath('/assets/images/illustrations/others/trust_home_06.png')
-          ],
-          [
-            App::setFilePath('/assets/images/illustrations/others/trust_home_07.png'),
-            App::setFilePath('/assets/images/illustrations/others/trust_home_08.png'),
-            App::setFilePath('/assets/images/illustrations/others/trust_home_09.png')
-          ]
-        ),
-      ];
-@endphp
+                                </div>
 
-@reviews_sliders_T1( $parameters )
-@endreviews_sliders_T1
+                            </div>
+                        @endforeach
+                    </section>
+
+                    <section class="innerSectionElement sct3">
+
+                        <div class="containElements">
+
+                            <span class="tagPlus">
+                                ¡Y más!
+                            </span>
+
+                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                Ver todas las herramientas
+                            </a>
+
+                        </div>
+
+                    </section>
 
 
-@php
-       $parameters = [
-        'classSection' => 'homeSection_13',
-        'enableTitle' => true,
-        'titlePrincipal' => '
-        Clientes que han confiado <span class="greenBlueColor">en nosotros</span>
-        ',
-        'subTitlePrincipal' => null,
-        'enableContainerButton' => true,
-        'urlButton' => '#',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-        'textButton' => 'Recibe un demo',
-        'enableContainerButton' => false,
-        'customID' => 'coop_logos_home',
-        'mob_reviews' => array(
+                </div>
 
-          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_4.png").'" loading="lazy"></div></div>',
-          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_5.png").'" loading="lazy"></div></div>',
-          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_1.png").'" loading="lazy"></div></div>',
-          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_3.png").'" loading="lazy"></div></div>',
-          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_2.png").'" loading="lazy"></div></div>'
+                <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_3.png') !!}" alt="" class="overlaysky">
 
-        ),
-        'desk_reviews' => array(
-          [
-          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_4.png").'" loading="lazy"></div></div>',
-          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_5.png").'" loading="lazy"></div></div>',
-          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_1.png").'" loading="lazy"></div></div>',
-          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_3.png").'" loading="lazy"></div></div>',
-          '<div class="imageItem"><div class="containerImage"><img src="'.App::setFilePath("/assets/images/logos/logo_coop_escala_2.png").'" loading="lazy"></div></div>'
-          ],
-
-        ),
-      ];
-@endphp
-
-@component_sections_sliders_T1( $parameters )
-@endcomponent_sections_sliders_T1
-
-
-{{-- // App::setFilePath('/assets/images/logos/logo_coop_escala_4.png'),
-//             App::setFilePath('/assets/images/logos/logo_coop_escala_5.png'),
-//             App::setFilePath('/assets/images/logos/logo_coop_escala_1.png'),
-//             App::setFilePath('/assets/images/logos/logo_coop_escala_3.png'),
-//             App::setFilePath('/assets/images/logos/logo_coop_escala_2.png') --}}
+            </section>
 
 
 
-  @php
+            @php
+                $desk_reviews = [
+                    [
+                        'area' => 'Finanzas',
+                        'text' => '
+                        <strong>“Gracias a Escala ahorramos 70% del tiempo invertido</strong> por el equipo comercial en tareas operativas y aumentamos 20% la cantidad de clientes.”
+                        ',
+                        'logo' => App::setFilePath('/assets/images/logos/logo_saeta.png'),
+                        'name' => 'Claudio Radovich, Fundador',
+                    ],
+                    [
+                        'area' => 'Consultoría',
+                        'text' => '
+                        <strong>“Logramos 2X nuestra facturación</strong> en menos de 6 meses y multiplicar 4X los nuevos leads gracias a Escala.”
+                        ',
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
+                        'name' => 'William Ávila, CEO',
+                    ],
+                    [
+                        'area' => 'Salud y bienestar',
+                        'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
+                       'logo' => App::setFilePath('/assets/images/logos/logo_rgg.png'),
+                        'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
+                    ]
+                ];
+
+            @endphp
+
+            <section
+            style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_4.png') !!})"
+            class="customSection sectionParent homeSection_4 ">
+
+                <div class="section-row">
+
+
+                    <section class="innerSectionElement sct1">
+
+
+                        <div class="row">
+
+                            <div class="slideshowCards col-md-12 col-lg-9">
+                                <div class="containElements">
+
+                                    <div id="carousel-testimonials-desktop" class="owl-carousel owl-theme">
+
+                                        @if (isset($desk_reviews) && $desk_reviews != null)
+                                            @foreach ($desk_reviews as $index => $item)
+                                                <div class="item @if ($index === array_key_first($desk_reviews)) active @endif ">
+
+                                                    <div class="testimonial">
+
+                                                        <div class="containElements">
+
+                                                            <div class="area">
+                                                                <h3>
+                                                                    {!! $item['area'] !!}
+                                                                </h3>
+                                                            </div>
+
+                                                            <div class="quote">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
+
+                                                                </div>
+                                                            </div>
+
+                                                            <p class="text">
+                                                                {!! $item['text'] !!}
+                                                            </p>
+
+                                                            <div class="byCompany">
+                                                                <div class="logo">
+                                                                    <div class="containerImage">
+                                                                        <img alt="TrustPilot review"
+                                                                            src="{!! $item['logo'] !!}" alt=""
+                                                                            loading="lazy">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="data">
+                                                                    <span class="name">
+                                                                        {!! $item['name'] !!}
+                                                                    </span>
+                                                                    <div class="stars">
+                                                                        <div class="containerImage">
+                                                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}"
+                                                                                loading="lazy">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+
+                                                    </div>
+
+
+                                                </div>
+                                            @endforeach
+                                        @endif
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="info col-md-12 col-lg-3">
+                                <div class="containElements">
+                                    <h2 class="primaryTitle blackColor">
+
+                                        Nuestros clientes <br class="space">
+                                        <span>lo comprueban</span>
+
+                                    </h2>
+                                    <p class="primaryText">
+                                        Conoce sus casos de éxito
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </section>
+
+
+                </div>
+
+                {{-- <img src="{!! App::setFilePath('/assets/images/banners/background_space_4.png') !!}" alt="" class="overlaySpace"> --}}
+
+
+            </section>
+
+
+            <script>
+                jQuery('.owl-carousel').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        768: {
+                            items: 1
+                        },
+                        1000: {
+                            items: 3
+                        },
+                        1250: {
+                            items: 3
+                        },
+                        1500: {
+                            items: 4
+                        }
+                    }
+                })
+            </script>
+
+
+            <section class="customSection sectionParent homeSection_5 ">
+
+                <div class="section-row">
+
+
+                    <section class="innerSectionElement sct1">
+
+                        <div class="containElements">
+                            <h2 class="primaryTitle blackColor">
+                                Ningún otro software te brinda un mejor servicio <br class="space">
+                                <span>Te acompañamos paso a paso para acelerar tu éxito</span>
+                            </h2>
+                            <p class="primaryText grayColorTexts">
+                                Desde el día 1, te asignamos un Gerente de Éxito que guía tu estrategia e implementación apoyándose <br class="desktopTabletElement"> de nuestro ecosistema de expertos. ¿Nuestro objetivo? Que crezcas continuamente con Escala
+                            </p>
+                        </div>
+
+                    </section>
+
+
+                    <section class="innerSectionElement sct2">
+
+                        <div class="containElements">
+                            <div class="containerImage">
+
+                                <img
+                                class="desktopElement"
+                                 src="{!! App::setFilePath('/assets/images/illustrations/others/home_imple.png') !!}" loading="lazy">
+                                <img
+                                class="mobileElement"
+                                 src="{!! App::setFilePath('/assets/images/illustrations/others/home_imple_mobile.png') !!}" loading="lazy">
+
+                            </div>
+                        </div>
+
+                    </section>
+
+                </div>
+
+
+            </section>
+
+
+            <section class="component-info-multiple-cards-T2 customSection sectionParent homeSection_6 ">
+
+                <div class="section-row">
+                    <section class="innerSectionElement sct1">
+
+                        <div class="containElements">
+
+                            <h2 class="primaryTitle blackColor">
+
+                                <span>Adicionalmente</span>, obtienes:
+                            </h2>
+
+                        </div>
+
+                    </section>
+                    @php
+                        $items = [
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_fix_help.png'),
+                                'title' => '
+                <span>Configuración</span> <br class="space">
+                incluida
+            ',
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_help_support.png'),
+                                'title' => '
+                                    <span>Chat de soporte</span> <br class="space">
+                                    casi 24/7
+            ',
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_welcome.png'),
+                                'title' => '
+                                    <span>Capacitaciones</span> en <br class="space">
+                                    vivo con expertos <br class="space">
+                                    de primera
+            ',
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_play.png'),
+                                'title' => '
+                                    <span>Educación</span> online
+                                    a tu ritmo
+            ',
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                            [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_partners.png'),
+                                'title' => '
+                                    <span>Comunidad</span> <br class="space">
+                                    de Partners
+            ',
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                        ];
+                    @endphp
+                    <section class="innerSectionElement sct2 ">
+
+                        @foreach ($items as $item)
+                            <div class="groupElements">
+                                <div class="image">
+                                    <div class="containerImage">
+                                        <img src="{!! $item['img'] !!}" loading="lazy"
+                                            alt="{!! $item['img_alt'] !!}">
+                                    </div>
+                                </div>
+
+                                <div class="info">
+
+                                    <h3 class="secondaryTitle">
+                                        {!! $item['title'] !!}
+                                    </h3>
+
+                                </div>
+
+                            </div>
+                        @endforeach
+                    </section>
+
+                    <section class="innerSectionElement sct3">
+
+                        <div class="containElements">
+
+                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                Aprender más
+                            </a>
+
+                        </div>
+
+                    </section>
+
+
+                </div>
+
+
+            </section>
+
+
+
+
+            {{-- style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_2.png') !!})" --}}
+            <section
+            class="component-info-multiple-cards-T2 customSection sectionParent homeSection_7 ">
+
+
+                <img src="{!! App::setFilePath('/assets/images/banners/background_space_2.png') !!}" alt="" class="overlaysky">
+
+                <div class="section-row">
+                    <section class="innerSectionElement sct1">
+
+                        <div class="containElements">
+
+                            <h2 class="primaryTitle blackColor">
+
+                                Conoce la experiencia según tu cargo
+
+                            </h2>
+                            <p class="primaryText grayColorTexts">
+                                Todos se benefician al usar Escala
+                            </p>
+
+                        </div>
+
+                    </section>
+                    @php
+                        $items = [
+                            [
+                                'title' => '
+                                    <span>Dueño</span> de negocio
+                                ',
+                                'text' => '
+                                    <span>“Escala está resolviendo con su <br class="space">
+                                    sistema de atención el cliente y <br class="space">
+                                    por supuesto el software, un <br class="space">
+                                    problema que tuve por años...</span> Lo <br class="space">
+                                    recomiendo infinitamente.”
+                                ',
+                                'name' => '
+                                    Paulina Pizarro Santana
+                                ',
+                            ],
+                            [
+                                'title' => '
+                                    <span>Lider</span> de Marketing
+                                ',
+                                'text' => '
+                                    <span>“Con Escala he podido <br class="space">
+                                    automatizar mejor los procesos <br class="space">
+                                    de prospección.</span> Es una <br class="space">
+                                    plataforma fácil de implementar <br class="space">
+                                    y de manejo muy intuitivo.”
+                                ',
+                                'name' => '
+                                   Andrea Sánchez
+                                ',
+                            ],
+                            [
+                                'title' => '
+                                    <span>Gerente</span> de Operaciones
+                                ',
+                                'text' => '
+                                   <span>“Escala es una plataforma super  <br class="space">
+                                   amigable en la que encuentro todo <br class="space">
+                                   lo que necesito</span> para mis  <br class="space">
+                                   campañas, personalización de  <br class="space">
+                                   envíos, CRM, automatización y <br class="space">
+                                embudos de ventas.”
+                                ',
+                                'name' => '
+                                   Octavio Ruiz Loza
+                                ',
+                            ],
+                            [
+                                'title' => '
+                                    <span>Gerente</span> de Ventas
+                                ',
+                                'text' => '
+                             <span>
+                                 “Escala es la plataforma ideal para <br class="space">
+                                  impulsar tus ventas. Cuentan con un  <br class="space">
+                                  equipo de soporte eficiente y atento.
+                             </span> <br class="space">
+                               Fui asesorada en todo momento y  <br class="space">
+                               fueron muy serviciales para ayudarme <br class="space">
+                                a lograr mis requerimientos.”
+                                ',
+                                'name' => '
+                                Pierina Barajas
+                                ',
+                            ],
+                            [
+                                'title' => '
+                                <span>Director</span> Creativo
+                                ',
+                                'text' => '
+                               <span>
+                                   “Se han tomado el tiempo para <br class="space">
+                                   hacer una plataforma en donde no <br class="space">
+                                   solamente brindan herramientas de <br class="space">
+                                    calidad,
+                               </span> sino lo más importante un <br class="space">
+                                servicio al cliente que es <br class="space">
+                                recomendadísimo.”
+                                ',
+                                'name' => '
+                                  Hernan Bedoya
+                                ',
+                            ],
+                            [
+                                'title' => '
+                                   <span>Co-fundador</span> de Empresa
+                                ',
+                                'text' => '
+                                    <span>
+                                        “Encontré en Escala una plataforma <br class="space">
+                                         que me permite integrar Landing <br class="space">
+                                          Pages, automatización, email y CRM <br class="space">
+                                           en un solo lugar.
+                                    </span> Tiene una gran <br class="space">
+                                        posibilidad de convertirse en un <br class="space">
+                                         referente en el mercado latino.”
+                                ',
+                                'name' => '
+                                 Mauricio Córdova Lara
+                                ',
+                            ],
+                        ];
+                    @endphp
+                    <section class=" innerSectionElement sct2">
+                        @foreach ($items as $item)
+                            <div
+                            class="groupElements">
+
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
+
+                                <h3 class="secondaryTitle">
+                                    {!! $item['title'] !!}
+                                </h3>
+
+                                <p class="text">
+                                    {!! $item['text'] !!}
+                                </p>
+
+                                <span class="name">
+                                    {!! $item['name'] !!}
+                                </span>
+
+                                <div class="stars">
+                                    <div class="containerImage">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
+                                    </div>
+                                </div>
+
+                            </div>
+                        @endforeach
+                    </section>
+
+
+
+                </div>
+
+
+            </section>
+
+      <section
+      style="background-image: url('{!! App::setFilePath('/assets/images/banners/background_sky_2.png.png') !!}')"
+      class="component-info-text-image-T1 customSection sectionParent homeSection_8 ">
+
+                 {{-- <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_2.png') !!}" alt="" class="overlaySky1"> --}}
+
+                <div class="section-row">
+
+                    <section class="innerSectionElement sct1">
+
+                        <div class="containElements">
+                            <h2 class="primaryTitle blackColor">
+                                Participa en nuestra próxima Masterclass gratuita <br class="space">
+                                <span>con Andrés Moreno y expertos</span>
+                            </h2>
+
+                        </div>
+
+                    </section>
+
+                    <section class="innerSectionElement sct2">
+                        <div class="groupElements row">
+
+                              <div class="image col-md-12 col-lg-6">
+                                <div class="containerImage">
+                                    <img class="desktopElement" src="{!! App::setFilePath('/assets/images/person/am/am_back_circle.png') !!}" loading="lazy">
+                                    <img class="mobileElement" src="{!! App::setFilePath('/assets/images/person/am/am_home_escala.png') !!}" loading="lazy">
+
+                                </div>
+                            </div>
+
+                            <div class="info col-md-12 col-lg-6">
+
+                                <h3 class="secondaryTitle">
+                                    <span>“Cómo escalar</span> empresas <br class="space">
+                                    con embudos que conviertan”
+                                </h3>
+                                <p class="text">
+                                    A más clientes ideales e inicia la relación comercial <br class="desktopTabletElement">
+                                    capturando su contacto con anuncios digitales, landing <br class="desktopTabletElement">
+                                    pages y formularios
+                                </p>
+
+                                <a target="_blank" class=" secondaryButton hoverInEffect" href="https://experiencia.escala.com/pm-masterclass-escala-may3">
+                                    Participar
+                                </a>
+
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </section>
+
+
+                <section class="component-info-text-image-T1 customSection sectionParent homeSection_9 ">
+
+                 <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_4.png') !!}" alt="" class="overlaySky1">
+
+                <div class="section-row">
+
+                    <section class="innerSectionElement sct2">
+                        <div class="groupElements row">
+
+                            <div class="info col-md-12 col-lg-6">
+
+                                <small>
+                                    ¿Brindas servicios de marketing, <br class="desktopTabletElement">
+                                    ventas o consultoría de negocios?
+                                </small>
+                                <h3 class="secondaryTitle">
+                                    Multiplica tu impacto e <br class="desktopTabletElement">
+                                    ingresos convirtiéndote en <br class="desktopTabletElement">
+                                    <span>Aliado de Escala</span>
+                                </h3>
+                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                      Aprender más
+                                </a>
+
+                            </div>
+
+                              <div class="image col-md-12 col-lg-6">
+                                <div class="containerImage">
+
+                                    <img src="{!! App::setFilePath('/assets/images/person/group_team_colab.png') !!}" loading="lazy">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </section>
+
+
+             <section
+             style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_3.png') !!})"
+             class="component-info-text-image-T1 customSection sectionParent homeSection_10 ">
+
+
+
+                <div class="section-row">
+
+                    <section class="innerSectionElement sct2">
+                        <div class="groupElements row">
+
+                              <div class="image col-md-12 col-lg-4">
+
+                            </div>
+
+                            <div class="info col-md-12 col-lg-8">
+
+                                <h3 class="secondaryTitle">
+                                    Únete a la comunidad de empresas que <br class="space">
+                                    <span>aceleran su éxito con Escala</span>
+                                </h3>
+                                <p class="text">
+                                    Descubre lo que Escala puede hacer <br class="mobileElement">
+                                    por ti y tu empresa
+                                </p>
+
+                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                   Recibir un demo
+                                </a>
+
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </section>
+
+            @php
 $escalaUrl = 'https://escala.com';
 $items = [
     [
@@ -1156,62 +1328,29 @@ $items = [
 
 
  $parameters = array(
-   'classSection' => 'homeSection9',
+   'classSection' => 'homeSection_11',
    'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
    'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
    'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-   'items' => $items
+   'items' => $items,
+   'title' => '
+    Preguntas <span>frecuentes</span>
+   '
    ) ;
    @endphp
 @contain_FAQ_T1( $parameters )
 @endcontain_FAQ_T1
 
 
-<section
-style="background-image: url({!! App::setFilePath('/assets/images/banners/background_overlay_spaceship.png') !!})"
-class="customSection sectionParent homeSection10 fullWidth">
 
-  <img  src="{!! App::setFilePath('/assets/images/overlays/overlay_stars.png') !!}"   class="backOverlay">
 
-    <div class="section-row">
-
-      <div class="containElements">
-
-        <div class="info">
-
-          <h3 class="primaryTitle">
-            <span class="blueLightColor11">Comienza a generar</span> <br class="space">
-            más leads y clientes fieles
-          </h3>
-
-          <a  class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-            Recibe un demo
-          </a>
 
         </div>
 
-        <div class="image">
 
-          <div class="containerImage">
 
-            <img  src="{!! App::setFilePath('/assets/images/illustrations/others/Group.png') !!}" alt="Ilustración de un cohete en curso en referencia a Escala como la plataforma ideal para crecer y generar más leads, clientes y ventas"  loading="lazy">
-
-          </div>
-
-        </div>
-
-      </div>
 
     </div>
-
-</section>
-
-</div>
-
-</div>
-
-</div>
-
 
 
 
