@@ -143,6 +143,16 @@
 
             <div class="section-row">
 
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+
+                            <h3 class="secondaryTitle">
+                           Qué hicieron para <span class="greenBlueColor">lograrlo con Escala</span>
+                            </h3>
+
+                    </div>
+
                 <section class="innerSectionElement sct2 left">
 
 
@@ -155,11 +165,11 @@
                         </div>
                         <div class="info col-md-12 col-lg-8">
 
-                            <h3 class="secondaryTitle">
+                            {{-- <h3 class="secondaryTitle">
 
                                 Qué hicieron para <span class="greenBlueColor">lograrlo con Escala</span>
 
-                            </h3>
+                            </h3> --}}
 
                             <ul class="text">
 
