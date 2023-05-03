@@ -8,17 +8,19 @@
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
+            padding-top: 50px
         @include responsivo(pcMedio)
+            padding-top: 50px
             width: 90%
         @include responsivo(general)
             width: 100%!important
-            max-width: 1175px!important
+            max-width: 1200px!important
         @include responsivo(smallPcTablet)
             width: 100%!important
             max-width: 1000px!important
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1340px!important
+            max-width: 1240px!important
         .containerImage
             margin: 0
             padding: 0
@@ -26,16 +28,18 @@
         background-position: center
         background-repeat: no-repeat
         background-size: cover
-        padding-top: 75px
+        padding-top: 175px
         padding-bottom: 175px
         @include responsivo(telefonoTable)
             padding-bottom: 50px!important
-            padding-top: 50px!important
+            padding-top: 30px!important
             background-position: 37.5%
         @include responsivo(pcMedio)
             padding-top: 50px!important
             padding-bottom: 100px!important
             background-position: 37.5%
+        @include responsivo(general)
+            padding-top: 150px
     .section-row
         .innerSectionElement.sct1
             .groupElements

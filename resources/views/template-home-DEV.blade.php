@@ -961,9 +961,6 @@
 
                             <div class="info col-md-12 col-lg-6">
 
-                                <small>
-                                    MARZO 23, 5:00 pm COL | 6:00 pm MIA
-                                </small>
                                 <h3 class="secondaryTitle">
                                     <span>“Cómo escalar</span> empresas <br class="space">
                                     con embudos que conviertan”
@@ -974,7 +971,7 @@
                                     pages y formularios
                                 </p>
 
-                                <a class=" secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                <a target="_blank" class=" secondaryButton hoverInEffect" href="https://experiencia.escala.com/pm-masterclass-escala-may3">
                                     Participar
                                 </a>
 
