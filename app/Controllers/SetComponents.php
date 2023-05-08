@@ -298,6 +298,7 @@ class SetComponents extends Controller
                 'views/template-home-DEV.blade.php',
                 'views/template-casoExito-firma-consultoria.blade.php',
                 'views/template-casoExito-gestion-financiera.blade.php',
+                'views/template-casoExito-salud-fitness.blade.php',
                 'views/template-subPage-pricingPro.blade.php',
                 'views/template-subPage-pricing-2023.blade.php',
                 'views/template-corporative-resentation.blade.php',
