@@ -672,7 +672,7 @@ La IA Consigue <span>imágenes</span>
                     'title' => '¿Cómo hago para contratar la herramienta de IA de Escala?',
                     'text' => '
                     Contacta a nuestros asesores de venta o ingresa a:
-                    <a class="hiperButtonGreenBlueT2"href="' . $url . '/zoom-meeting">Whatsapp</a>
+                    <a class="hiperButtonGreenBlueT2"href="' . $url . '">Whatsapp</a>
                     ',
                 ],
             ];
