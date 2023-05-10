@@ -8,16 +8,16 @@
                 'overlay' => false,
                 'classSection' => 'threeCol casoExito_gestion_financiera_0 newHome',
                 'title' =>'
-                <img class="logo-img" src="'.App::setFilePath('/assets/images/illustrations/others/logo_saeta.png').'">
-                 <small ><span>Caso de éxito:</span> Gestión financiera</small>
-                 <span style="color: #A4E7EA; font-weight: 700;" >
+                <small ><span>Caso de éxito:</span> Gestión financiera</small>
+                <span style="color: #A4E7EA; font-weight: 700;" >
                   Aumentó 20%
-                  </span>
+                </span>
                 ',
-                'text' => '<span class="whiteColor">
+                'text' => '<span style="color: #D6F4F6">
                 su cantidad de clientes <br class="space">
                 con Escala
                 </span>
+                <img class="logo-img" src="'.App::setFilePath('/assets/images/illustrations/others/logo_saeta.png').'">
                 ',
                 'threeCol' => true,
                 'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
