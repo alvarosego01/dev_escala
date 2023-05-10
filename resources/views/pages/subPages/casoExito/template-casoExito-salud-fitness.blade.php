@@ -8,7 +8,6 @@
                 'overlay' => false,
                 'classSection' => 'threeCol casoExito_salud_fitness_0 newHome',
                 'title' =>'
-                <img class="logo-img" src="'.App::setFilePath('/assets/images/illustrations/others/rg_nutrition_logo.png').'">
                  <small ><span>Caso de éxito:</span> Salud y fitness</small>
                  <span style="color: #DEF3F5; font-weight: 700;" >
                   Aumentó 5X
@@ -18,6 +17,8 @@
                 su tasa de recuperación de <br class="space">
                 carrito de compra abandonado
                 </span>
+
+                          <img class="logo-img" src="'.App::setFilePath('/assets/images/illustrations/others/rg_nutrition_logo.png').'">
                 ',
                 'threeCol' => true,
                 'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
