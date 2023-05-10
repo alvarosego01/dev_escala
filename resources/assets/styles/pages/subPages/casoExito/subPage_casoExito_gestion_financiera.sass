@@ -14,13 +14,13 @@
             width: 90%
         @include responsivo(general)
             width: 100%!important
-            max-width: 1140px!important
+            max-width: 1100px!important
         @include responsivo(smallPcTablet)
             width: 100%!important
-            max-width: 1000px!important
+            max-width: 900px!important
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1240px!important
+            max-width: 1300px!important
         .containerImage
             margin: 0
             padding: 0
@@ -28,8 +28,8 @@
         background-position: center
         background-repeat: no-repeat
         background-size: cover
-        padding-top: 175px
-        padding-bottom: 175px
+        padding-top: 150px
+        padding-bottom: 125px
         @include responsivo(telefonoTable)
             padding-bottom: 50px!important
             padding-top: 30px!important
@@ -67,16 +67,7 @@
                             flex-direction: row-reverse
                         .ele
                             position: relative
-                            img.logo-img
-                                height: 50px!important
-                                width: 150px
-                                margin-bottom: 10px
-                                @include responsivo(telefonoTable)
-                                    margin-left: auto
-                                    margin-right: auto
-                                @include responsivo(pcMedio)
-                                    margin-left: auto
-                                    margin-right: auto
+
 
                             .principalBigTitle
                                 display: flex
@@ -89,15 +80,15 @@
                                 line-height: 1
                                 color: white
                                 @include responsivo(telefonoTable)
-                                    font-size: 35px
+                                    font-size: 32.5px
                                 @include responsivo(pcMedio)
-                                    font-size: 40px
+                                    font-size: 35px
                                 @include responsivo(general)
-                                    font-size: 55px
+                                    font-size: 42.5px
                                 @include responsivo(smallPcTablet)
-                                    font-size: 45px
+                                    font-size: 37.5px
                                 @include responsivo(resto)
-                                    font-size: 60px
+                                    font-size: 45px
                                 small
                                     font-family: Nunito
                                     font-style: normal
@@ -107,12 +98,15 @@
                                     color: #fff
                                     position: relative
                                     left: 5px
+                                    top: -15px
                                     span
                                         color: #DEF3F5
                                     @include responsivo(telefonoTable)
                                         font-size: 16px
+                                        top: -5px
                                     @include responsivo(pcMedio)
                                         font-size: 18px
+                                        top: -5px
                                     @include responsivo(general)
                                         font-size: 20px
                                     @include responsivo(smallPcTablet)
@@ -131,25 +125,39 @@
                                 line-height: 1
                                 letter-spacing: -1px
                                 @include responsivo(telefonoTable)
-                                    font-size: 25px
-                                    text-align: center
-                                    margin-bottom: 25px
+                                    font-size: 32.5px
                                 @include responsivo(pcMedio)
-                                    font-size: 30px
-                                    text-align: center
-                                    margin-bottom: 25px
-                                @include responsivo(general)
                                     font-size: 35px
+                                @include responsivo(general)
+                                    font-size: 42.5px
                                 @include responsivo(smallPcTablet)
-                                    font-size: 30px
+                                    font-size: 37.5px
                                 @include responsivo(resto)
-                                    font-size: 39px
+                                    font-size: 45px
+
+                            img.logo-img
+                                height: 60px!important
+                                width: 165px
+                                margin-top: 25px
+                                @include responsivo(telefonoTable)
+                                    margin-left: auto
+                                    margin-right: auto
+                                    width: 150px
+                                    height: 50px!important
+                                @include responsivo(pcMedio)
+                                    margin-left: auto
+                                    margin-right: auto
+                                    width: 150px
+                                    height: 50px!important
+                                @include responsivo(smallPcTablet)
+                                    width: 150px
+                                    height: 50px!important
 
                         .ele2
                             @include responsivo(telefonoTable)
-                                margin-bottom: 0
+                                margin-bottom: 15px
                             @include responsivo(pcMedio)
-                                margin-bottom: 0
+                                margin-bottom: 15px
                             @include responsivo(general)
                                 position: absolute
                                 width: 100%
@@ -157,12 +165,12 @@
                                 top: 40px
                             @include responsivo(smallPcTablet)
                                 left: -10px
-                                top: 35px
+                                top: 0
                             @include responsivo(resto)
                                 position: absolute
                                 width: 100%
                                 top: 50px
-                                left: 10px
+                                left: 75px
 
                         .containerImage
                             position: relative
@@ -176,25 +184,28 @@
                             @include responsivo(pcMedio)
                                 margin-bottom: 25px!important
                             @include responsivo(general)
-                                left: 15px
+                                left: 50px
+                                top: 10px
                             @include responsivo(smallPcTablet)
-                                left: 10px
+                                left: 50px
+
                             @include responsivo(resto)
-                                left: 25px
+                                left: 115px
+                                top: 15px
                             img
                                 @include responsivo(telefonoTable)
                                     height: 200px
                                 @include responsivo(pcMedio)
                                     height: 225px!important
                                 @include responsivo(general)
-                                    height: 350px
+                                    height: 300px
                                     position: relative
                                     margin-top: auto
                                 @include responsivo(smallPcTablet)
-                                    height: 325px
+                                    height: 275px
                                     position: relative
                                 @include responsivo(resto)
-                                    height: 375px
+                                    height: 325px
                                     position: relative
                                     margin-top: auto
                 .form7
