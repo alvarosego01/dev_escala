@@ -216,8 +216,6 @@
 
                     </div>
 
-
-
                 </section>
 
             </div>
@@ -351,7 +349,6 @@
                 </section>
 
             </div>
-
 
                     <img src="{!! App::setFilePath('/assets/images/banners/background_space_6.png') !!}" alt="" class="overlaysky">
 
