@@ -1,20 +1,11 @@
-
-{{--
-  Template Name: [B] Home
---}}
-
-
-@extends('layouts.app')
-@section('content')
-
-    <div id="homeSection">
+  <div id="program_alliances">
         <div class="sections">
 
             {{-- @php
                 $parameters = [
                     'backgroundImageType' => true,
                     'overlay' => false,
-                    'classSection' => 'threeCol homeSection_0 newHome',
+                    'classSection' => 'threeCol program_alliances_0 newHome',
                     'title' => '
         Acelera el crecimiento <br class="space">
         <span style="color: #DEF3F5">de tu empresa con Escala</span>
@@ -40,7 +31,7 @@
             @header_t1([
                     'backgroundImageType' => true,
                     'overlay' => false,
-                    'classSection' => 'desktopElement threeCol homeSection_0 newHome',
+                    'classSection' => 'desktopElement threeCol program_alliances_0 newHome',
                     'title' => '
         Acelera el crecimiento <br class="space">
         <span style="color: #DEF3F5">de tu empresa con Escala</span>
@@ -63,7 +54,7 @@
             @header_t1([
                     'backgroundImageType' => true,
                     'overlay' => false,
-                    'classSection' => 'mobileElement threeCol homeSection_0 newHome',
+                    'classSection' => 'mobileElement threeCol program_alliances_0 newHome',
                     'title' => '
         Acelera el crecimiento <br class="space">
         <span style="color: #DEF3F5">de tu empresa con Escala</span>
@@ -85,7 +76,7 @@
 
 
 
-            <section class="component-info-text-video-T1 customSection sectionParent homeSection_1 ">
+            <section class="component-info-text-video-T1 customSection sectionParent program_alliances_1 ">
                 <div class="section-row">
 
                     <section class="innerSectionElement sct1">
@@ -211,7 +202,7 @@
             </section>
 
 
-            <section class="component-info-text-image-T1 customSection sectionParent homeSection_2 ">
+            <section class="component-info-text-image-T1 customSection sectionParent program_alliances_2 ">
 
 
                 <div class="section-row">
@@ -225,7 +216,7 @@
                                 <span>marketing y venta</span>
                             </h2>
                             <p class="primaryText grayColorTexts">
-                                Con todas las herramientas que necesitas en un mismo lugar
+                                Con todas herramientas que necesitas en un mismo lugar
                             </p>
                         </div>
 
@@ -286,7 +277,7 @@
             </section>
 
 
-            <section class="component-info-multiple-cards-T2 customSection sectionParent homeSection_3 ">
+            <section class="component-info-multiple-cards-T2 customSection sectionParent program_alliances_3 ">
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -296,7 +287,7 @@
                             <h2 class="primaryTitle blackColor">
 
                                 En Escala tienes todas las herramientas para <br class="space">
-                                <span>adquirir y fidelizar clientes</span>
+                                <span>adquirir y fidelizar clientes en un mismo lugar</span>
 
                             </h2>
                             <p class="primaryText grayColorTexts">
@@ -477,7 +468,7 @@
 
             <section
             style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_4.png') !!})"
-            class="customSection sectionParent homeSection_4 ">
+            class="customSection sectionParent program_alliances_4 ">
 
                 <div class="section-row">
 
@@ -608,7 +599,7 @@
             </script>
 
 
-            <section class="customSection sectionParent homeSection_5 ">
+            <section class="customSection sectionParent program_alliances_5 ">
 
                 <div class="section-row">
 
@@ -651,7 +642,7 @@
             </section>
 
 
-            <section class="component-info-multiple-cards-T2 customSection sectionParent homeSection_6 ">
+            <section class="component-info-multiple-cards-T2 customSection sectionParent program_alliances_6 ">
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -767,7 +758,7 @@
 
             {{-- style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_2.png') !!})" --}}
             <section
-            class="component-info-multiple-cards-T2 customSection sectionParent homeSection_7 ">
+            class="component-info-multiple-cards-T2 customSection sectionParent program_alliances_7 ">
 
 
                 <img src="{!! App::setFilePath('/assets/images/banners/background_space_2.png') !!}" alt="" class="overlaysky">
@@ -931,7 +922,7 @@
 
       <section
       style="background-image: url('{!! App::setFilePath('/assets/images/banners/background_sky_2.png.png') !!}')"
-      class="component-info-text-image-T1 customSection sectionParent homeSection_8 ">
+      class="component-info-text-image-T1 customSection sectionParent program_alliances_8 ">
 
                  {{-- <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_2.png') !!}" alt="" class="overlaySky1"> --}}
 
@@ -988,7 +979,7 @@
             </section>
 
 
-                <section class="component-info-text-image-T1 customSection sectionParent homeSection_9 ">
+                <section class="component-info-text-image-T1 customSection sectionParent program_alliances_9 ">
 
                  <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_4.png') !!}" alt="" class="overlaySky1">
 
@@ -1033,7 +1024,7 @@
 
              <section
              style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_3.png') !!})"
-             class="component-info-text-image-T1 customSection sectionParent homeSection_10 ">
+             class="component-info-text-image-T1 customSection sectionParent program_alliances_10 ">
 
 
 
@@ -1328,7 +1319,7 @@ $items = [
 
 
  $parameters = array(
-   'classSection' => 'homeSection_11',
+   'classSection' => 'program_alliances_11',
    'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
    'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
    'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
@@ -1351,7 +1342,3 @@ $items = [
 
 
     </div>
-
-
-
-@endsection
