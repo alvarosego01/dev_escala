@@ -96,6 +96,162 @@
                                 '
                             ]
                         ],
+                        [
+                            "name" => '
+                            Revisión de <br class="space">
+                            desempeño',
+                            "type" => "closed",
+                            "subItems" => [
+                                'Mensual',
+                                'Mensual para subir de nivel<br class="space"> 
+                                Anual para bajar de nivel',
+                                'Mensual para subir de nivel<br class="space"> 
+                                Anual para bajar de nivel'
+                            ]
+                        ],
+                        [
+                            "name" => '
+                            Cuándo se gana<br class="space">
+                            la comisión',
+                            "type" => "closed",
+                            "subItems" => [
+                                '1 mes y 1 día después<br class="space">
+                                 del pago del cliente',
+                                '1 mes y 1 día después<br class="space">
+                                 del pago del cliente',
+                                '1 mes y 1 día después<br class="space">
+                                 del pago del cliente'
+                            ]
+                        ],
+                        [
+                            "name" => '
+                            Monto mínimo para<br class="space">
+                             pagar comisiones',
+                            "type" => "closed",
+                            "subItems" => [
+                                '$500(De no llegar, se acumula)',
+                                '$100(De no llegar, se acumula)',
+                                '$100(De no llegar, se acumula)'
+                            ]
+                        ],
+                        [
+                            "name" => '
+                            Método Pago',
+                            "type" => "closed",
+                            "subItems" => [
+                                '- Transferencia bancaria<br class="space"> 
+                                - Zelle<br class="space"> 
+                                - Paypal',
+                                '- Transferencia bancaria<br class="space"> 
+                                - Zelle<br class="space"> 
+                                - Paypal',
+                                '- Transferencia bancaria<br class="space"> 
+                                - Zelle<br class="space"> 
+                                - Paypal'
+                            ]
+                        ],
+                        [
+                            "name" => '
+                            Beneficios<br class="space"> 
+                            Suscrpción Escala<br class="space"> 
+                            para el Partner',
+                            "type" => "closed",
+                            "subItems" => [
+                                '1. Free Trial = 10 días<br class="space"> 
+                                Sin descuento',
+                                '<span>1.</span> Free Trial = 30 días Plan Pro<br class="space"> 
+                                <span>2</span>. Descuento en Anual<br class="space"> 
+                                20% Al iniciar camino de Partner Comercial<br class="space"> 
+                                65% Al traer 1 cliente antes de acabarse tu Free Trial',
+                                '<span>1.</span> Free Trial = 30 días Plan Pro<br class="space"> 
+                                <span>2.</span> Descuento en Anual<br class="space"> 
+                                30% Al iniciar camino de Partner de Servicio<br class="space"> 
+                                65% Al vender 1 licencia Pro antes de culminarse tu Free Trial'
+                            ]
+                        ],
+                        [
+                            "name" => '
+                            Beneficios<br class="space"> 
+                            Training para<br class="space"> 
+                            el Partner',
+                            "type" => "closed",
+                            "subItems" => [
+                                '<span>1.</span> Acceso a Curso online Afiliados',
+                                '<span>1.</span> Acceso a Curso online Partner Comercial<br class="space"> 
+                                <span>2.</span> Invitación a Eventos de Marketing Escala',
+                                '<span>1.</span> Acceso a Curso online Partner de Servicio<br class="space"> 
+                                <span>2.</span> Invitación a Eventos de Marketing Escala<br class="space"> 
+                                <span>3.</span> Invitación a Eventos de Servicio Escala<br class="space"> 
+                                <span>4.</span> Acceso a Capacitaciones en Vivo herramienta'
+                            ]
+                        ],
+                        [
+                            "name" => '
+                            Beneficios<br class="space"> 
+                            Venta para el<br class="space">
+                             Partner',
+                            "type" => "closed",
+                            "subItems" => [
+                                'N/A',
+                                '<span>1.</span> Ejecutivo de Cuenta asignado<br class="space"> 
+                                <span>2.</span> Cuenta Demo con Dummy Data<br class="space"> 
+                                <span>3.</span> Link de PayPal para recolectar Pago ágil<br class="space"> 
+                                <span>4.</span> Cartas y contratos facturación a terceros',
+                                '<span>1.</span> Ejecutivo de Cuenta asignado<br class="space"> 
+                                <span>2.</span> Cuenta Demo con Dummy Data<br class="space"> 
+                                <span>3.</span> Link de PayPal para recolectar Pago ágil<br class="space"> 
+                                <span>4.</span> Cartas y contratos facturación a terceros'
+                            ]
+                        ],
+                        [
+                            "name" => '
+                            Beneficios<br class="space"> 
+                            Servicio para<br class="space"> 
+                            el Partner',
+                            "type" => "closed",
+                            "subItems" => [
+                                'N/A',
+                                'N/A',
+                                '<span>1.</span> Gerente de Éxito asignado<br class="space"> 
+                                <span>2.</span> Especialista de Implementación asignado<br class="space"> 
+                                <span>3.</span> Sesión de configuración'
+                            ]
+                        ],
+                        [
+                            "name" => '
+                            Beneficios<br class="space"> 
+                            Marketing para<br class="space"> 
+                            el Partner',
+                            "type" => "closed",
+                            "subItems" => [
+                                '<span>1.</span> Contenido disponible en redes Escala<br class="space"> 
+                                <span>2.</span> Link con código referido (próximamente)',
+                                '1. Contenido disponible en redes Escala<br class="space"> 
+                                2. Materiales<br class="space"> 
+                                - Presentación Corporativa Escala<br class="space"> 
+                                - Plantilla Propuesta Comercial<br class="space"> 
+                                3. Speaker en Eventos del Partner<br class="space"> 
+                                - < 100 personas Ejecutivo / Gerente de Éxito<br class="space"> 
+                                - 100-400 personas: Estratega MKT y Ventas<br class="space"> 
+                                - 400+ Participantes: Andrés Moreno (bajo aprobación y disponibilidad)',
+                                '1. Contenido disponible en redes Escala<br class="space"> 
+                                2. Materiales<br class="space"> 
+                                - Presentación Corporativa Escala<br class="space"> 
+                                - Plantilla Propuesta Comercial<br class="space"> 
+                                3. Speaker en Eventos del Partner<br class="space"> 
+                                - < 100 personas Ejecutivo / Gerente de Éxito<br class="space"> 
+                                - 100-400 personas: Estratega MKT y Ventas<br class="space"> 
+                                - 400+ Participantes: Andrés Moreno (bajo aprobación y disponibilidad)<br class="space"> 
+                                4. Presencia en Marketplace Escala (Próximamente)<br class="space"> 
+                                Silver: Logo, link a página individual, badge<br class="space"> 
+                                Gold: Silver + Breve Descripción<br class="space"> 
+                                Diamond: Gold + Prioridad en lista/buscador<br class="space"> 
+                                5. Posibilidad de publicar contenido en Blog Escala (bajo aprobación)<br class="space"> 
+                                6. Prospectos<br class="space"> 
+                                Diamond: Te conectamos con leads y/o clientes de Escala que identifiquemos necesiten tus servicios'
+                            ]
+                        ],
+                        
 
 
 
