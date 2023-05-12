@@ -2,7 +2,6 @@
 
     $featuresElements = [
             "items" => array(
-
                         [
                             "name" => "¿Qué es?",
                             "type" => "solid",
@@ -77,7 +76,7 @@
                             Requisitos para <br class="space">
                             mantenerte activo <br class="space">
                             y subir de nivel',
-                            "type" => "solid",
+                            "type" => "closed",
                             "subItems" => [
                                 '<span>1.</span> Estar en cumplimiento con el acuerdo',
                                 '<span>1.</span> Al día con training <br class="space">
@@ -97,6 +96,7 @@
                                 '
                             ]
                         ],
+
 
 
         ),
