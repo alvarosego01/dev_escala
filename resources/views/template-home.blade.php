@@ -621,7 +621,8 @@
                                 <span>Te acompañamos paso a paso para acelerar tu éxito</span>
                             </h2>
                             <p class="primaryText grayColorTexts">
-                                Desde el día 1, te asignamos un Gerente de Éxito que guía tu estrategia e implementación apoyándose <br class="desktopTabletElement"> de nuestro ecosistema de expertos. ¿Nuestro objetivo? Que crezcas continuamente con Escala
+                                Desde el día 1, tú y tu equipo reciben el apoyo de un Gerente de Éxito asignado que los guía paso a paso para que <br class="desktopTabletElement">
+                                aprovechen al máximo la plataforma. ¿Nuestro objetivo? Que tu empresa crezca rentablemente con Escala
                             </p>
                         </div>
 

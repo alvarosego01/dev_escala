@@ -165,6 +165,10 @@ add_action('wp_enqueue_scripts', function () {
         if (is_page_template('views/template-subPage-whatsapp-2022.blade.php')) {
             wp_enqueue_style('subPage_whatsapp_2022.css', asset_path('styles/pages/subPages/subPage_whatsapp_2022.css'), false, THEME_VERSION);
         }
+        // --- Sección programa alianzas 2023
+        if (is_page_template('views/template-subPage-program-alliances.blade.php')) {
+            wp_enqueue_style('subPage_program_alliances.css', asset_path('styles/pages/subPages/subPage_program_alliances.css'), false, THEME_VERSION);
+        }
         if (is_page_template('views/template-subPage-campaña-AI.blade.php')) {
             wp_enqueue_style('subpageCampañaAI.css', asset_path('styles/pages/subPages/subpageCampañaAI.css'), false, THEME_VERSION);
         }
