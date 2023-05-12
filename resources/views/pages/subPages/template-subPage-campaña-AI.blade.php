@@ -38,6 +38,8 @@
 
                             Produce <span>mejor contenido a menor costo</span>
 
+                        </h2>
+
                     </div>
 
                 </section>
