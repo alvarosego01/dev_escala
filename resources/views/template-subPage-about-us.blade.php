@@ -66,20 +66,6 @@ $parameters = [
   ],
     [
       'name' => '
-      Paul Medrisch <br class="space">
-      <span class="greenBlueColor">Comandando la tripulación</span>
-      ',
-      'textInfo' => '
-          Extensa experiencia en cargos directivos en empresas digitales en <br class="desktopTabletElement">
-          Latam: Business development Director Latam de PedidosYa, <br class="desktopTabletElement">
-          Country manager de Glovo en Argentina, COO de Letgo para <br class="desktopTabletElement">
-          países emergentes y director de marketing para OLX. Antes de eso <br class="desktopTabletElement">
-          trabajó como consultor de estrategia en BCG basado en Chile.
-      ',
-      'img' => App::setFilePath('/assets/images/illustrations/team/paul.png')
-  ],
-    [
-      'name' => '
       John McIntire <br class="space">
       <span class="greenBlueColor">Alquimista financiero</span>
       ',
