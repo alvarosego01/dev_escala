@@ -6,6 +6,7 @@
                             "name" => "¿Qué es?",
                             "type" => "solid",
                             "subItems" => [
+                                '¿Qué es?',
                                 'Marketing Partner',
                                 'Sales Partner <br class="space">
                                 Autorizado (Reseller)',
@@ -16,6 +17,7 @@
                             "name" => "Valor para Escala",
                             "type" => "solid",
                             "subItems" => [
+                                'Valor para Escala',
                                 'Consiguen leads para Escala',
                                 'Consiguen el lead y se encargan del proceso de vender Escala',
                                 '- Brinda el servicio de implementación a clientes Escala y gestión de cuenta post-venta <br class="space">
@@ -26,6 +28,7 @@
                             "name" => "Rol Escala",
                             "type" => "solid",
                             "subItems" => [
+                                'Rol Escala',
                                 '- Vende <br class="space">
                                 - Brinda servicio de implementación y gestión de cuenta',
                                 '- Asiste al partner en el proceso de vender Escala <br class="space">
@@ -43,6 +46,7 @@
                             "name" => "Requisitos para entrar",
                             "type" => "solid",
                             "subItems" => [
+                                'Requisitos <br class="space"> para entrar',
                                 '<span>1.</span> Firmar Acuerdo Afiliado',
                                 '<span>1.</span> Completar training de reseller <br class="space">
                                 <span>2.</span> Firmar Acuerdo Partner Comercial autorizado',
@@ -56,6 +60,7 @@
                             "name" => "Comisión",
                             "type" => "solid",
                             "subItems" => [
+                                'Comisión',
                                 '15% Recurrent for 12 months',
                                 'Mientras se mantenga como Parner Comercial autorizado <br class="space">
                                 <span>Silver:</span> 20% Recurrent for 12 months  <br class="space">
@@ -73,11 +78,14 @@
                         ],
                         [
                             "name" => '
-                            Requisitos para <br class="space">
-                            mantenerte activo <br class="space">
+                            Requisitos para
+                            mantenerte activo
                             y subir de nivel',
                             "type" => "closed",
                             "subItems" => [
+                                '  Requisitos para <br class="space">
+                            mantenerte activo <br class="space">
+                            y subir de nivel',
                                 '<span>1.</span> Estar en cumplimiento con el acuerdo',
                                 '<span>1.</span> Al día con training <br class="space">
                                 <span>2.</span> Estar en cumplimiento con acuerdo <br class="space">
@@ -86,35 +94,39 @@
                                 <span>Gold:</span> MRR = $15,001 - $30,000 (~13-24) <br class="space">
                                 <span>Diamond:</span> MRR > $30,001 (~25+)',
                                 '
-                                <span>1.</span> Suscripción activa Escala
-                                <span>2.</span> Al día con certificacioens
-                                <span>3.</span> Estar en cumplimiento con acuerdo
-                                <span>4.</span> Retención de MRR y NDR:
-                                <span>Silver:</span> MRR < $1,000 y NDR > 80%
-                                <span>Gold:</span> MRR = $1,000 - $,5000 y NDR > 90%
+                                <span>1.</span> Suscripción activa Escala <br class="space">
+                                <span>2.</span> Al día con certificacioens <br class="space">
+                                <span>3.</span> Estar en cumplimiento con acuerdo <br class="space">
+                                <span>4.</span> Retención de MRR y NDR: <br class="space">
+                                <span>Silver:</span> MRR < $1,000 y NDR > 80% <br class="space">
+                                <span>Gold:</span> MRR = $1,000 - $,5000 y NDR > 90% <br class="space">
                                 <span>Diamond:</span> MRR > $5,000 y NDR > 95%
                                 '
                             ]
                         ],
                         [
                             "name" => '
-                            Revisión de <br class="space">
+                            Revisión de
                             desempeño',
                             "type" => "closed",
                             "subItems" => [
+                                'Revisión de <br class="space">
+                            desempeño',
                                 'Mensual',
-                                'Mensual para subir de nivel<br class="space"> 
+                                'Mensual para subir de nivel<br class="space">
                                 Anual para bajar de nivel',
-                                'Mensual para subir de nivel<br class="space"> 
+                                'Mensual para subir de nivel<br class="space">
                                 Anual para bajar de nivel'
                             ]
                         ],
                         [
                             "name" => '
-                            Cuándo se gana<br class="space">
+                            Cuándo se gana
                             la comisión',
                             "type" => "closed",
                             "subItems" => [
+                                'Cuándo se gana<br class="space">
+                            la comisión',
                                 '1 mes y 1 día después<br class="space">
                                  del pago del cliente',
                                 '1 mes y 1 día después<br class="space">
@@ -125,10 +137,12 @@
                         ],
                         [
                             "name" => '
-                            Monto mínimo para<br class="space">
+                            Monto mínimo para
                              pagar comisiones',
                             "type" => "closed",
                             "subItems" => [
+                                '  Monto mínimo para<br class="space">
+                             pagar comisiones',
                                 '$500(De no llegar, se acumula)',
                                 '$100(De no llegar, se acumula)',
                                 '$100(De no llegar, se acumula)'
@@ -139,119 +153,136 @@
                             Método Pago',
                             "type" => "closed",
                             "subItems" => [
-                                '- Transferencia bancaria<br class="space"> 
-                                - Zelle<br class="space"> 
+                                ' Método Pago',
+                                '- Transferencia bancaria<br class="space">
+                                - Zelle<br class="space">
                                 - Paypal',
-                                '- Transferencia bancaria<br class="space"> 
-                                - Zelle<br class="space"> 
+                                '- Transferencia bancaria<br class="space">
+                                - Zelle<br class="space">
                                 - Paypal',
-                                '- Transferencia bancaria<br class="space"> 
-                                - Zelle<br class="space"> 
+                                '- Transferencia bancaria<br class="space">
+                                - Zelle<br class="space">
                                 - Paypal'
                             ]
                         ],
                         [
                             "name" => '
-                            Beneficios<br class="space"> 
-                            Suscrpción Escala<br class="space"> 
+                            Beneficios
+                            Suscrpción Escala
                             para el Partner',
                             "type" => "closed",
                             "subItems" => [
-                                '1. Free Trial = 10 días<br class="space"> 
+                                'Beneficios<br class="space">
+                            Suscrpción Escala<br class="space">
+                            para el Partner',
+                                '<span>1.</span> Free Trial = 10 días<br class="space">
                                 Sin descuento',
-                                '<span>1.</span> Free Trial = 30 días Plan Pro<br class="space"> 
-                                <span>2</span>. Descuento en Anual<br class="space"> 
-                                20% Al iniciar camino de Partner Comercial<br class="space"> 
+                                '<span>1.</span> Free Trial = 30 días Plan Pro<br class="space">
+                                <span>2</span>. Descuento en Anual<br class="space">
+                                20% Al iniciar camino de Partner Comercial<br class="space">
                                 65% Al traer 1 cliente antes de acabarse tu Free Trial',
-                                '<span>1.</span> Free Trial = 30 días Plan Pro<br class="space"> 
-                                <span>2.</span> Descuento en Anual<br class="space"> 
-                                30% Al iniciar camino de Partner de Servicio<br class="space"> 
+                                '<span>1.</span> Free Trial = 30 días Plan Pro<br class="space">
+                                <span>2.</span> Descuento en Anual<br class="space">
+                                30% Al iniciar camino de Partner de Servicio<br class="space">
                                 65% Al vender 1 licencia Pro antes de culminarse tu Free Trial'
                             ]
                         ],
                         [
                             "name" => '
-                            Beneficios<br class="space"> 
-                            Training para<br class="space"> 
+                            Beneficios
+                            Training para
                             el Partner',
                             "type" => "closed",
                             "subItems" => [
+                                'Beneficios<br class="space">
+                            Training para<br class="space">
+                            el Partner',
                                 '<span>1.</span> Acceso a Curso online Afiliados',
-                                '<span>1.</span> Acceso a Curso online Partner Comercial<br class="space"> 
+                                '<span>1.</span> Acceso a Curso online Partner Comercial<br class="space">
                                 <span>2.</span> Invitación a Eventos de Marketing Escala',
-                                '<span>1.</span> Acceso a Curso online Partner de Servicio<br class="space"> 
-                                <span>2.</span> Invitación a Eventos de Marketing Escala<br class="space"> 
-                                <span>3.</span> Invitación a Eventos de Servicio Escala<br class="space"> 
+                                '<span>1.</span> Acceso a Curso online Partner de Servicio<br class="space">
+                                <span>2.</span> Invitación a Eventos de Marketing Escala<br class="space">
+                                <span>3.</span> Invitación a Eventos de Servicio Escala<br class="space">
                                 <span>4.</span> Acceso a Capacitaciones en Vivo herramienta'
                             ]
                         ],
                         [
                             "name" => '
-                            Beneficios<br class="space"> 
-                            Venta para el<br class="space">
+                            Beneficios
+                            Venta para el
                              Partner',
                             "type" => "closed",
                             "subItems" => [
+                                ' Beneficios<br class="space">
+                            Venta para el<br class="space">',
                                 'N/A',
-                                '<span>1.</span> Ejecutivo de Cuenta asignado<br class="space"> 
-                                <span>2.</span> Cuenta Demo con Dummy Data<br class="space"> 
-                                <span>3.</span> Link de PayPal para recolectar Pago ágil<br class="space"> 
+                                '<span>1.</span> Ejecutivo de Cuenta asignado<br class="space">
+                                <span>2.</span> Cuenta Demo con Dummy Data<br class="space">
+                                <span>3.</span> Link de PayPal para recolectar Pago ágil<br class="space">
                                 <span>4.</span> Cartas y contratos facturación a terceros',
-                                '<span>1.</span> Ejecutivo de Cuenta asignado<br class="space"> 
-                                <span>2.</span> Cuenta Demo con Dummy Data<br class="space"> 
-                                <span>3.</span> Link de PayPal para recolectar Pago ágil<br class="space"> 
+                                '<span>1.</span> Ejecutivo de Cuenta asignado<br class="space">
+                                <span>2.</span> Cuenta Demo con Dummy Data<br class="space">
+                                <span>3.</span> Link de PayPal para recolectar Pago ágil<br class="space">
                                 <span>4.</span> Cartas y contratos facturación a terceros'
                             ]
                         ],
                         [
                             "name" => '
-                            Beneficios<br class="space"> 
-                            Servicio para<br class="space"> 
+                            Beneficios
+                            Servicio para
                             el Partner',
                             "type" => "closed",
                             "subItems" => [
+                                'Beneficios<br class="space">
+                            Servicio para<br class="space">
+                            el Partner',
                                 'N/A',
                                 'N/A',
-                                '<span>1.</span> Gerente de Éxito asignado<br class="space"> 
-                                <span>2.</span> Especialista de Implementación asignado<br class="space"> 
+                                '<span>1.</span> Gerente de Éxito asignado<br class="space">
+                                <span>2.</span> Especialista de Implementación asignado<br class="space">
                                 <span>3.</span> Sesión de configuración'
                             ]
                         ],
                         [
                             "name" => '
-                            Beneficios<br class="space"> 
-                            Marketing para<br class="space"> 
+                            Beneficios
+                            Marketing para
                             el Partner',
                             "type" => "closed",
                             "subItems" => [
-                                '<span>1.</span> Contenido disponible en redes Escala<br class="space"> 
+                                ' Beneficios<br class="space">
+                            Marketing para<br class="space">
+                            el Partner',
+                                '<span>1.</span> Contenido disponible en redes Escala<br class="space">
                                 <span>2.</span> Link con código referido (próximamente)',
-                                '1. Contenido disponible en redes Escala<br class="space"> 
-                                2. Materiales<br class="space"> 
-                                - Presentación Corporativa Escala<br class="space"> 
-                                - Plantilla Propuesta Comercial<br class="space"> 
-                                3. Speaker en Eventos del Partner<br class="space"> 
-                                - < 100 personas Ejecutivo / Gerente de Éxito<br class="space"> 
-                                - 100-400 personas: Estratega MKT y Ventas<br class="space"> 
+                                '
+                                <span>1.</span> Contenido disponible en redes Escala<br class="space">
+                                <span>2.</span> Materiales<br class="space">
+                                - Presentación Corporativa Escala<br class="space">
+                                - Plantilla Propuesta Comercial<br class="space">
+                                <span>3.</span> Speaker en Eventos del Partner<br class="space">
+                                - < 100 personas Ejecutivo / Gerente de Éxito<br class="space">
+                                - 100-400 personas: Estratega MKT y Ventas<br class="space">
                                 - 400+ Participantes: Andrés Moreno (bajo aprobación y disponibilidad)',
-                                '1. Contenido disponible en redes Escala<br class="space"> 
-                                2. Materiales<br class="space"> 
-                                - Presentación Corporativa Escala<br class="space"> 
-                                - Plantilla Propuesta Comercial<br class="space"> 
-                                3. Speaker en Eventos del Partner<br class="space"> 
-                                - < 100 personas Ejecutivo / Gerente de Éxito<br class="space"> 
-                                - 100-400 personas: Estratega MKT y Ventas<br class="space"> 
-                                - 400+ Participantes: Andrés Moreno (bajo aprobación y disponibilidad)<br class="space"> 
-                                4. Presencia en Marketplace Escala (Próximamente)<br class="space"> 
-                                Silver: Logo, link a página individual, badge<br class="space"> 
-                                Gold: Silver + Breve Descripción<br class="space"> 
-                                Diamond: Gold + Prioridad en lista/buscador<br class="space"> 
-                                5. Posibilidad de publicar contenido en Blog Escala (bajo aprobación)<br class="space"> 
-                                6. Prospectos<br class="space"> 
-                                Diamond: Te conectamos con leads y/o clientes de Escala que identifiquemos necesiten tus servicios'
+                                '
+                                <span>1.</span> Contenido disponible en redes Escala<br class="space">
+                                <span>2.</span> Materiales<br class="space">
+                                - Presentación Corporativa Escala<br class="space">
+                                - Plantilla Propuesta Comercial<br class="space">
+                                <span>3.</span> Speaker en Eventos del Partner<br class="space">
+                                - < 100 personas Ejecutivo / Gerente de Éxito<br class="space">
+                                - 100-400 personas: Estratega MKT y Ventas<br class="space">
+                                - 400+ Participantes: Andrés Moreno (bajo aprobación y disponibilidad)<br class="space">
+                                <span>4.</span> Presencia en Marketplace Escala (Próximamente)<br class="space">
+                                <span>Silver:</span> Logo, link a página individual, badge<br class="space">
+                                <span>Gold:</span> Silver + Breve Descripción<br class="space">
+                                <span>Diamond:</span> Gold + Prioridad en lista/buscador<br class="space">
+                                <span>5.</span> Posibilidad de publicar contenido en Blog Escala (bajo aprobación)<br class="space">
+                                <span>6.</span> Prospectos<br class="space">
+                                <span>Diamond:</span> Te conectamos con leads y/o clientes de Escala que identifiquemos necesiten tus servicios'
                             ]
                         ],
-                        
+
 
 
 
@@ -368,7 +399,7 @@
 
                         <div class="row">
 
-                            <div class="list col-md-12 col-lg-11">
+                            <div class="list col-md-12 col-lg-12">
 
                                 <div class="headerList row">
                                     <div style="background-color: #DEF3F5" class="element col-3">
@@ -422,7 +453,7 @@
                                 </div>
 
                                 @if (isset($featuresElements['items']))
-                                    <ul class="pricingList">
+                                    <ul class="itemsList">
 
                                         @foreach ($featuresElements['items'] as $key => $item)
                                             <li class="itemParent">
@@ -435,7 +466,10 @@
                                                     aria-expanded="false"
                                                     aria-controls="parentservices_{{ $key }}"
                                                     >
-                                                    {{-- {!! $item['name'] !!} --}}
+
+                                                    <span >
+                                                        {!! $item['name'] !!}
+                                                    </span>
 
                                                     @if (isset($item['subItems']) && count($item['subItems']) >= 1)
                                                         <i class="fas fa-caret-down"></i>
@@ -453,10 +487,11 @@
                                                             <table class="table">
                                                                 <tbody>
                                                                         <tr>
-                                                                            <td class="col-3">{!! $item['name'] !!}</td>
                                                                     @foreach ($item['subItems'] as $subKey => $subItem)
                                                                             <td class="col-3">
+                                                                                <p>
                                                                                     {!! $subItem !!}
+                                                                                </p>
                                                                             </td>
                                                                     @endforeach
                                                                         </tr>
