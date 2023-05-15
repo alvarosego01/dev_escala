@@ -7,10 +7,10 @@
                             "type" => "solid",
                             "subItems" => [
                                 '¿Qué es?',
-                                'Marketing Partner',
-                                'Sales Partner <br class="space">
-                                Autorizado (Reseller)',
-                                'Service Partner Sales Partner (opcional)'
+                                '<span>Marketing Partner</span>',
+                                '<span>Sales Partner <br class="space">
+                                Autorizado (Reseller)</span>',
+                                '<span>Service Partner Sales Partner (opcional)</span>'
                             ]
                         ],
                         [
@@ -399,17 +399,17 @@
 
                         <div class="row">
 
-                            <div class="list col-md-12 col-lg-12">
+                            <div statusShow="false" class="list">
 
                                 <div class="headerList row">
-                                    <div style="background-color: #DEF3F5" class="element col-3">
+                                    <div style="background-color: #DEF3F5" class="element itemCol col-4">
 
 
                                     <h3 style="color: #00506B" >
                                        Nombre programa
                                     </h3>
                                     </div>
-                                    <div style="background-color: #FAD873" class="element col-3">
+                                    <div style="background-color: #FAD873" class="element itemCol col-4">
 
                                          <div class="containerImage">
                                             @php
@@ -423,7 +423,7 @@
                                     </h3>
 
                                     </div>
-                                    <div style="background-color: #FF4F28" class="element col-3">
+                                    <div style="background-color: #FF4F28" class="element itemCol col-4">
 
                                       <div class="containerImage">
                                             @php
@@ -436,7 +436,8 @@
                                     </h3>
 
                                     </div>
-                                    <div style="background-color: #01516F" class="element col-3">
+
+                                    <div style="background-color: #01516F" class="element itemCol col-4 hideElement">
 
                                       <div class="containerImage">
                                             @php
@@ -447,6 +448,15 @@
                                     <h3 style="color: white" >
                                     Partner de servicio
                                     </h3>
+
+                                    </div>
+
+                                    <div class="openButtonSection">
+
+                                         <button onclick="openList()">
+                                            Partner de servicio  <i class="fas fa-caret-down"></i>
+                                        </button>
+
 
                                     </div>
 
@@ -486,13 +496,15 @@
                                                         @if (isset($item['subItems']))
                                                             <table class="table">
                                                                 <tbody>
-                                                                        <tr>
+                                                                        <tr class="row">
                                                                     @foreach ($item['subItems'] as $subKey => $subItem)
-                                                                            <td class="col-3">
+                                                                            <td class="col-4 itemCol @if ($loop->last) hideElement @endif">
                                                                                 <p>
                                                                                     {!! $subItem !!}
                                                                                 </p>
                                                                             </td>
+
+
                                                                     @endforeach
                                                                         </tr>
                                                                 </tbody>
@@ -660,3 +672,45 @@
 
 
     </div>
+
+
+
+<script type="text/javascript">
+
+    var statusShow = false;
+
+
+
+    function openList(){
+
+        statusShow = !statusShow;
+
+        if(statusShow){
+
+            jQuery('.itemCol').removeClass('hideElement');
+
+            jQuery('.itemCol').removeClass('col-4');
+
+            jQuery('.itemCol').addClass('col-3');
+
+            jQuery('.openButtonSection').addClass('hideElement');
+
+            jQuery('.list').attr('statusShow', 'true');
+
+            // statusShow="false" class="list"
+
+        }else{
+
+            // jQuery('.itemCol').addClass('hideElement');
+
+            // jQuery('.itemCol').removeClass('col-3');
+
+            // jQuery('.itemCol').addClass('col-4');
+
+            // jQuery('.openButtonSection').removeClass('hideElement');
+
+        }
+
+    }
+
+</script>
