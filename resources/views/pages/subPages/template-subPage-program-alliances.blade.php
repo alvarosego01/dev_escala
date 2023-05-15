@@ -328,15 +328,13 @@
                     'overlay' => false,
                     'classSection' => '  threeCol program_alliances_0 newHome',
                     'title' => '
-                        Lorem Ipsum is <br class="space">
-                        simply dummy text
+                        Impulsa tu impacto y tus <br class="space">
+                        <span>ingresos recurrentes</span>
                     ',
                     'text' => '
-                        <span style="color: #DEF3F5">of the printing and typesetting industry</span> <br class="space">
-                        Lorem Ipsum has been the industrys standard  <br class="space">
-                        dummy text ever since the 1500s, when an <br class="space">
-                        unknown printer took a galley of type and <br class="space">
-                        scrambled it to make a type specimen
+                        Conoce los programas de alianza de Escala, <br class="space">
+                        sus beneficios y requisitos para acelerar el <br class="space">
+                        crecimiento de tu negocio.
                         ',
                     'threeCol' => true,
                     'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
@@ -348,33 +346,7 @@
             @endheader_t1
 
 
-            @php
-                $desk_reviews = [
-                    [
-                        'area' => 'Finanzas',
-                        'text' => '
-                        <strong>“Gracias a Escala ahorramos 70% del tiempo invertido</strong> por el equipo comercial en tareas operativas y aumentamos 20% la cantidad de clientes.”
-                        ',
-                        'logo' => App::setFilePath('/assets/images/logos/logo_saeta.png'),
-                        'name' => 'Claudio Radovich, Fundador',
-                    ],
-                    [
-                        'area' => 'Consultoría',
-                        'text' => '
-                        <strong>“Logramos 2X nuestra facturación</strong> en menos de 6 meses y multiplicar 4X los nuevos leads gracias a Escala.”
-                        ',
-                        'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
-                        'name' => 'William Ávila, CEO',
-                    ],
-                    [
-                        'area' => 'Salud y bienestar',
-                        'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
-                       'logo' => App::setFilePath('/assets/images/logos/logo_rgg.png'),
-                        'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
-                    ]
-                ];
 
-            @endphp
 
 
 
@@ -437,7 +409,9 @@
 
                                     </div>
 
-                                    <div style="background-color: #01516F" class="element itemCol col-4 hideElement">
+                                    <div
+                                    onclick="toggleList()"
+                                     style="background-color: #01516F" class="element itemCol col-4 hideElement closeButtonSection">
 
                                       <div class="containerImage">
                                             @php
@@ -447,13 +421,15 @@
                                          </div>
                                     <h3 style="color: white" >
                                     Partner de servicio
+                                    <i class="fas fa-caret-down"></i>
                                     </h3>
+
 
                                     </div>
 
                                     <div class="openButtonSection">
 
-                                         <button onclick="openList()">
+                                         <button onclick="toggleList()">
                                             Partner de servicio  <i class="fas fa-caret-down"></i>
                                         </button>
 
@@ -528,15 +504,41 @@
 
         </section>
 
-            <section
+
+                    @php
+                // $desk_reviews = [
+                //     [
+                //         'area' => 'Finanzas',
+                //         'text' => '
+                //         <strong>“Gracias a Escala ahorramos 70% del tiempo invertido</strong> por el equipo comercial en tareas operativas y aumentamos 20% la cantidad de clientes.”
+                //         ',
+                //         'logo' => App::setFilePath('/assets/images/logos/logo_saeta.png'),
+                //         'name' => 'Claudio Radovich, Fundador',
+                //     ],
+                //     [
+                //         'area' => 'Consultoría',
+                //         'text' => '
+                //         <strong>“Logramos 2X nuestra facturación</strong> en menos de 6 meses y multiplicar 4X los nuevos leads gracias a Escala.”
+                //         ',
+                //         'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
+                //         'name' => 'William Ávila, CEO',
+                //     ],
+                //     [
+                //         'area' => 'Salud y bienestar',
+                //         'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
+                //        'logo' => App::setFilePath('/assets/images/logos/logo_rgg.png'),
+                //         'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
+                //     ]
+                // ];
+
+            @endphp
+
+            {{-- <section
             style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_4.png') !!})"
             class="customSection sectionParent program_alliances_2 ">
 
                 <div class="section-row">
-
-
                     <section class="innerSectionElement sct1">
-
 
                         <div class="row">
 
@@ -593,16 +595,13 @@
 
                                                         </div>
 
-
                                                     </div>
-
 
                                                 </div>
                                             @endforeach
                                         @endif
 
                                     </div>
-
 
                                 </div>
                             </div>
@@ -623,19 +622,13 @@
 
                         </div>
 
-
                     </section>
-
 
                 </div>
 
-                {{-- <img src="{!! App::setFilePath('/assets/images/banners/background_space_4.png') !!}" alt="" class="overlaySpace"> --}}
+            </section> --}}
 
-
-            </section>
-
-
-            <script>
+            {{-- <script>
                 jQuery('.owl-carousel').owlCarousel({
                     loop: true,
                     margin: 10,
@@ -658,10 +651,7 @@
                         }
                     }
                 })
-            </script>
-
-
-
+            </script> --}}
 
 
 
@@ -681,13 +671,15 @@
 
 
 
-    function openList(){
+    function toggleList(){
 
         statusShow = !statusShow;
 
         if(statusShow){
 
-            jQuery('.itemCol').removeClass('hideElement');
+            jQuery('.itemCol.hideElement').addClass('hideable');
+
+            jQuery('.itemCol.hideElement').removeClass('hideElement');
 
             jQuery('.itemCol').removeClass('col-4');
 
@@ -701,13 +693,17 @@
 
         }else{
 
-            // jQuery('.itemCol').addClass('hideElement');
+              jQuery('.itemCol.hideable').addClass('hideElement');
 
-            // jQuery('.itemCol').removeClass('col-3');
+            jQuery('.itemCol.hideable').removeClass('hideable');
 
-            // jQuery('.itemCol').addClass('col-4');
+            jQuery('.itemCol').addClass('col-4');
 
-            // jQuery('.openButtonSection').removeClass('hideElement');
+            jQuery('.itemCol').removeClass('col-3');
+
+            jQuery('.openButtonSection').removeClass('hideElement');
+
+            jQuery('.list').attr('statusShow', 'false');
 
         }
 

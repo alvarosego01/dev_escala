@@ -144,33 +144,29 @@ img
                             .principalBigTitle
                                 font-family: Nunito
                                 font-style: normal
-                                font-weight: 700
-                                line-height: 0.9
+                                font-weight: 400
+                                line-height: 1
                                 letter-spacing: -3px
                                 color: #FFFFFF
                                 margin-bottom: 15px
                                 span
-                                    font-weight: 500
+                                    color: #DEF3F5
+                                    font-weight: 700
                                 @include responsivo(telefonoTable)
                                     font-size: 35px
-                                    span
-                                        font-size: 30px
+
                                 @include responsivo(pcMedio)
                                     font-size: 40px
-                                    span
-                                        font-size: 35px
+
                                 @include responsivo(general)
                                     font-size: 50px
-                                    span
-                                        font-size: 40px
+
                                 @include responsivo(smallPcTablet)
                                     font-size: 45px
-                                    span
-                                        font-size: 35px
+
                                 @include responsivo(resto)
-                                    font-size: 55px
-                                    span
-                                        font-size: 45px
+                                    font-size: 50px
+
 
                             .principalBigText
                                 font-family: Nunito
@@ -210,14 +206,14 @@ img
                                 position: absolute
                                 width: 100%
                                 left: 0px
-                                top: 5px
+                                top: 25px
                             @include responsivo(smallPcTablet)
                                 left: -10px
-                                top: 5px
+                                top: 15px
                             @include responsivo(resto)
                                 position: absolute
                                 width: 100%
-                                top: 5px
+                                top: 25px
                                 left: 10px
 
 
@@ -234,12 +230,12 @@ img
                                 margin-bottom: 25px!important
                             @include responsivo(general)
                                 left: 50px
-                                top: 0
+                                top: -25px
                             @include responsivo(smallPcTablet)
                                 left: 50px
                             @include responsivo(resto)
                                 left: 75px
-                                top: 0
+                                top: -25px
                             img
                                 @include responsivo(telefonoTable)
                                     height: 200px
@@ -426,6 +422,10 @@ img
                         .element
                             position: relative
                             padding: 0
+                            @include responsivo(telefonoTable)
+                                display: flex
+                            @include responsivo(pcMedio)
+                                display: flex
                             &:first-child
                                 border-radius: 15px 0 0 0
                             &:nth-child(4)
@@ -472,11 +472,40 @@ img
                                 display: block
                                 font-size: 24px
                                 @include responsivo(telefonoTable)
-                                    font-size: 16px
+                                    font-size: 14px
+                                    margin: auto
                                 @include responsivo(pcMedio)
-                                    font-size: 18px
+                                    font-size: 16px
+                                    margin: auto
                                 @include responsivo(general)
                                     font-size: 22px
+                                @include responsivo(smallPcTablet)
+                                    font-size: 20px
+
+                        .element.closeButtonSection
+                            &:hover
+                                cursor: pointer
+                            h3
+                                i
+                                    position: relative
+                                    right: -25px
+                                    transform: rotate(90deg)
+                                    color: #DEF3F5
+                                    font-size: 20px
+                                    @include responsivo(telefonoTable)
+                                        font-size: 14px
+                                        right: -5px
+
+                                    @include responsivo(pcMedio)
+                                        font-size: 16px
+                                        right: -5px
+                                    @include responsivo(general)
+                                        font-size: 18px
+                                        right: -20px
+                                    @include responsivo(smallPcTablet)
+                                        font-size: 16px
+                                        right: -10px
+
                     ul.itemsList
                         list-style: none
                         padding: 0
