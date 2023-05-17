@@ -168,12 +168,12 @@
                         [
                             "name" => '
                             Beneficios
-                            Suscrpción Escala
+                            Suscripción Escala
                             para el Partner',
                             "type" => "closed",
                             "subItems" => [
                                 'Beneficios<br class="space">
-                            Suscrpción Escala<br class="space">
+                            Suscripción Escala<br class="space">
                             para el Partner',
                                 '<span>1.</span> Free Trial = 10 días<br class="space">
                                 Sin descuento',
