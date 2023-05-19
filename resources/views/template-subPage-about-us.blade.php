@@ -1,215 +1,254 @@
-
 {{--
   Template Name: [B] Sub page - About us
 --}}
 
 @extends('layouts.app')
 @section('content')
-<div id="subPage-about-us-bootstrap">
-  <div class="sections">
+    <div id="subPage-about-us-bootstrap">
+        <div class="sections">
+
+
+            <section class="component-info-text-image-T1 customSection sectionParent subPage_AboutUs_0 ">
+
+              <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_aboutUs.png') !!}')">
+
+                <div class="section-row">
+
+                    <section class="innerSectionElement sct2 right">
+
+                        <div class="groupElements row">
+
+
+                            <div class="info col-md-12 col-lg-8">
+
+                                <h1 class="primaryTitle">
+
+                                    <span style="color: #00506E;">Érase una vez...</span>
+
+                                </h1>
+
+                                <p class="text">
+
+                                    <span class="greenBlueColor">
+                                        Hace más de una década, Andrés Moreno fundó Open English, la plataforma<br
+                                            class="desktopTabletElement">
+                                        #1 de aprendizaje de idiomas en línea de América Latina – y con ello, empezó<br
+                                            class="desktopTabletElement">
+                                        una historia exitosa de emprendimiento y el desarrollo de empresas líderes en<br
+                                            class="desktopTabletElement">
+                                        sus categorías. <br class="desktopTabletElement"><br class="desktopTabletElement">
+
+                                        Ha recibido numerosos reconocimientos incluyendo el premio a «Emprendedor<br
+                                            class="desktopTabletElement">
+                                        de la Década» en Latinoamérica por Babson College; trayendo talento de clase<br
+                                            class="desktopTabletElement">
+                                        mundial a sus múltiples proyectos.<br class="desktopTabletElement"><br
+                                            class="desktopTabletElement">
+
+                                        Inspirado por las problemáticas de muchas empresas en LATAM, <strong>Andrés y un
+                                            grupo<br class="desktopTabletElement">
+                                            de expertos en marketing digital y ventas, crearon Escala, la Plataforma CRM
+                                            todo<br class="desktopTabletElement">
+                                            en uno pensada para ayudar a los negocios a crecer de una manera
+                                            sostenida.</strong>
+                                    </span>
+
+                                </p>
+
+                            </div>
+
+                            <div class="image col-md-12 col-lg-4">
+                                <div class="containerImage">
+
+                                    <img src="{!! App::setFilePath('/assets/images/person/am/am_aboutUs.png') !!}" loading="lazy">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </section>
 
 
 
-@php
-$parameters = [
-    'type' => 'backgroundColor',
-    'classSection' => 'subPage_AboutUs_0',
-    'enableTitle' => false,
-    'img' => App::setFilePath('/assets/images/person/am/tapa_video_thankyou_page .png'),
-    'title' => '
-    Érase una vez...
-    ',
-    'text' => '
-      Hace más de una década, Andrés Moreno fundó Open English, la plataforma #1 de aprendizaje <br class="desktopTabletElement">
-      de idiomas en línea de América Latina – y con ello, empezó una  historia exitosa de <br class="desktopTabletElement">
-      emprendimiento y el desarrollo de empresas líderes en sus categorías. Ha recibido numerosos <br class="desktopTabletElement">
-      reconocimientos incluyendo el premio a «Emprendedor de la Década» en Latinoamérica por <br class="desktopTabletElement">
-      Babson College; trayendo talento de clase mundial a  sus múltiples proyectos.
-      <br class="space"><br class="space">
-      Inspirado por las problemáticas de muchas empresas en LATAM, <strong>
-        Andrés y un grupo de <br class="desktopTabletElement">
-        expertos en marketing digital y ventas, crearon Escala, la Plataforma CRM todo en uno <br class="desktopTabletElement">
-        pensada para ayudar a los negocios a crecer de una manera sostenida.
-      </strong>
-    ',
-    'enableButton' => false,
-    'urlButton' => '#lead-form',
-    'textButton' => 'Hablar con un asesor',
-    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-    'side' => 'right',
-];
-@endphp
-
-@contain_text_image_T1( $parameters )
-
-@endcontain_text_image_T1
+                </div>
+              </div>
 
 
 
-@php
-  $teamList = array(
-    [
-      'name' => '
+            </section>
+
+            @php
+                $teamList = [
+                    [
+                        'name' => '
       Andrés Moreno <br class="space">
       <span class="greenBlueColor">El visionario</span>
       ',
-      'textInfo' => '
-          Fundador y CEO de Open English, Next U y escala; <br class="desktopTabletElement">
-          Co-presidente de Endeavor Miami. Andrés es ampliamente <br class="desktopTabletElement">
-          reconocido en América Latina como un líder en emprendimiento <br class="desktopTabletElement">
-          y un modelo a seguir.
-          <br class="space"><br class="space">
-          Venezolano – ha vivido en 9 países <br class="desktopTabletElement">
-          y habla 3 idiomas fluidamente.
+                        'textInfo' => '
+      Fundador y CEO de Open English, Next U y escala;<br class="desktopTabletElement">
+      Co-presidente de Endeavor Miami. Andrés es<br class="desktopTabletElement">
+      ampliamente reconocido en América Latina como<br class="desktopTabletElement">
+      un líder en emprendimiento y un modelo a seguir.<br class="space"><br class="space">
+      
+      Venezolano – ha vivido en 9 países<br class="desktopTabletElement">
+      y habla 3 idiomas fluidamente.<br class="desktopTabletElement">
       ',
-      'img' => App::setFilePath('/assets/images/illustrations/team/andres.png')
-  ],
-    [
-      'name' => '
+                        'img' => App::setFilePath('/assets/images/illustrations/team/andres.png'),
+                    ],
+                    [
+                        'name' => '
       John McIntire <br class="space">
       <span class="greenBlueColor">Alquimista financiero</span>
       ',
-      'textInfo' => '
-          Ex-CEO de Goldman Sachs Latinoamérica y director / asesor de <br class="desktopTabletElement">
-múltiples compañías privadas. Inversionista ángel y mentor de <br class="desktopTabletElement">
-fundadores, también ha trabajado en estrecha colaboración con <br class="desktopTabletElement">
-Andrés durante la última década.
-  <br class="space"><br class="space">
-Cubano-americano – un ávido corredor, ha terminado múltiples <br class="desktopTabletElement">
-maratones llegando a estar por encima de su grupo de edad <br class="desktopTabletElement">
-hasta un 10% en performance.
+                        'textInfo' => '
+      Ex-CEO de Goldman Sachs Latinoamérica y<br class="desktopTabletElement">
+      director / asesor de múltiples compañías privadas.<br class="desktopTabletElement"> 
+      Inversionista ángel y mentor de fundadores,<br class="desktopTabletElement"> 
+      también ha trabajado en estrecha colaboración con<br class="desktopTabletElement"> 
+      Andrés durante la última década.<br class="space"><br class="space">
+      
+      Cubano-americano – un ávido corredor, ha<br class="desktopTabletElement"> 
+      terminado múltiples maratones llegando a estar<br class="desktopTabletElement"> 
+      por encima de su grupo de edad hasta un 10%<br class="desktopTabletElement"> 
+      en performance.
       ',
-      'img' => App::setFilePath('/assets/images/illustrations/team/john1.png')
-  ],
-    [
-      'name' => '
+                        'img' => App::setFilePath('/assets/images/illustrations/team/john1.png'),
+                    ],
+                    [
+                        'name' => '
       Andrea Dalle Molle <br class="space">
 <span class="greenBlueColor">La mente estratégica</span>
       ',
-      'textInfo' => '
-          Director de la firma de consultoría: “Éxito Ventures”, ha trabajado <br class="desktopTabletElement">
-en estrecha colaboración con Andrés asesorando a docenas de <br class="desktopTabletElement">
-empresas en estrategia de negocios, performance marketing y <br class="desktopTabletElement">
-embudos de ventas. También ha liderado equipos desarrollando <br class="desktopTabletElement">
-softwares innovadores.
-<br class="space"><br class="space">
-Italiano – ex- jugador profesional de póker, fue «Final Table» en <br class="desktopTabletElement">
-el European Poker Tour.
-      ',
-      'img' => App::setFilePath('/assets/images/illustrations/team/andrea.png')
-  ],
+                        'textInfo' => '
+      Director de la firma de consultoría: “Éxito<br class="desktopTabletElement"> 
+      Ventures”, ha trabajado en estrecha colaboración<br class="desktopTabletElement">  
+      con Andrés asesorando a docenas de empresas en<br class="desktopTabletElement">  
+      estrategia de negocios, performance marketing y<br class="desktopTabletElement"> 
+      embudos de ventas. También ha liderado equipos<br class="desktopTabletElement">  
+      desarrollando softwares innovadores.<br class="space"><br class="space">
 
-    [
-      'name' => '
+      Italiano – ex- jugador profesional de póker, fue<br class="desktopTabletElement"> 
+      «Final Table» en el European Poker Tour.
+      ',
+                        'img' => App::setFilePath('/assets/images/illustrations/team/andrea.png'),
+                    ],
+                
+                    [
+                        'name' => '
       Manuel Gil <br class="space">
 <span class="greenBlueColor">Chief de tech</span>
       ',
-      'textInfo' => '
-          Co-fundador y CEO de CodeLabs, una firma de consultoría y <br class="desktopTabletElement">
-tercerización de software. Ha liderado múltiples proyectos de <br class="desktopTabletElement">
-tecnología en los últimos 15 años, en docenas de países de todo <br class="desktopTabletElement">
-el mundo.
-<br class="space"><br class="space">
-Cubano – papá, fanático de la guitarra y fotógrafo
+                        'textInfo' => '
+      Co-fundador y CEO de CodeLabs, una firma de<br class="desktopTabletElement"> 
+      consultoría y tercerización de software. Ha liderado<br class="desktopTabletElement">  
+      múltiples proyectos de tecnología en los últimos<br class="desktopTabletElement">  
+      15 años, en docenas de países de todo el mundo.<br class="space"><br class="space">
+      
+      Cubano – papá, fanático de la guitarra y fotógrafo
       ',
-      'img' => App::setFilePath('/assets/images/illustrations/team/manuel.png')
-  ],
-  [
-      'name' => '
+                        'img' => App::setFilePath('/assets/images/illustrations/team/manuel.png'),
+                    ],
+                    [
+                        'name' => '
       Vanessa Durán <br class="space">
 <span class="greenBlueColor">La mejor aliada de los clientes</span>
       ',
-      'textInfo' => '
-Directora de la consultora: “Éxito Ventures”, tiene una amplia <br class="desktopTabletElement">
-experiencia en mejorar las ventas, atención al cliente y las <br class="desktopTabletElement">
-comunicaciones de las marcas para docenas de compañías en <br class="desktopTabletElement">
-los Estados Unidos y América Latina.
-<br class="space"><br class="space">
-Venezolana – fundadora de organizaciones sin fines de lucro, <br class="desktopTabletElement">
-reconocida por el Congreso de los EE. UU. por su talento y <br class="desktopTabletElement">
-contribución a la comunidad multicultural.
+                        'textInfo' => '
+      Directora de la consultora: “Éxito Ventures”,<br class="desktopTabletElement">  
+      tiene una amplia experiencia en mejorar las<br class="desktopTabletElement">  
+      ventas, atención al cliente y las comunicaciones<br class="desktopTabletElement">  
+      de las marcas para docenas de compañías en<br class="desktopTabletElement"> 
+      los Estados Unidos y América Latina.<br class="space"><br class="space">
+
+      Venezolana – fundadora de organizaciones sin<br class="desktopTabletElement">  
+      fines de lucro, reconocida por el Congreso de<br class="desktopTabletElement">  
+      los EE. UU. por su talento y contribución a la<br class="desktopTabletElement">  
+      comunidad multicultural.
       ',
-      'img' => App::setFilePath('/assets/images/illustrations/team/vane5.png')
-    ],
-    [
-      'name' => '
+                        'img' => App::setFilePath('/assets/images/illustrations/team/vane5.png'),
+                    ],
+                    [
+                        'name' => '
       Matías Beeck <br class="space">
 <span class="greenBlueColor">As del producto</span>
       ',
-      'textInfo' => '
-          Experto en Data Science y marketing digital, trabajó recientemente <br class="desktopTabletElement">
-con una consultora de datos y SaaS con sede en Londres.
-    <br class="space"><br class="space">
-Peruano-cubano – entusiasta de la música, ha vivido en tres <br class="desktopTabletElement">
-continentes y cuatro ciudades (Lima, Miami, Londres y Nueva York).
+                        'textInfo' => '
+      Experto en Data Science y marketing digital,<br class="desktopTabletElement">  
+      trabajó recientemente con una consultora de datos<br class="desktopTabletElement">  
+      y SaaS con sede en Londres.<br class="desktopTabletElement"> 
+
+      Peruano-cubano – entusiasta de la música, ha<br class="desktopTabletElement">  
+      vivido en tres continentes y cuatro ciudades (Lima,<br class="desktopTabletElement">  
+      Miami, Londres y Nueva York).
       ',
-      'img' => App::setFilePath('/assets/images/illustrations/team/matias.png')
-  ],
-
-  );
-
-
-@endphp
+                        'img' => App::setFilePath('/assets/images/illustrations/team/matias.png'),
+                    ],
+                ];
+                
+            @endphp
 
 
-<section class="customSection sectionParent subPage_AboutUs_1">
+            <section class="customSection sectionParent subPage_AboutUs_1">
 
-  <div class="section-row">
+                <div class="section-row">
 
-    <section class="innerSectionElement sct1">
+                    <section class="innerSectionElement sct1">
 
-      <div class="containElements">
+                        <div class="containElements">
 
-        <h2 class="primaryTitle blackColor">
-          Equipo al Timón
-        </h2>
-        <p class="primaryText grayColorTexts">
-        Contamos con un equipo comprometido en potenciar a las empresas a través de Escala <br class="desktopTabletElement">
-        convirtiéndolas en negocios exitosos en toda la región.
-        </p>
+                            <h2 class="primaryTitle blackColor">
+                                Equipo <span class="greenBlueColor">al Timón</span>
+                            </h2>
 
-      </div>
+                            <p class="primaryText grayColorTexts"><strong>
+                                    Contamos con un equipo comprometido en potenciar a las empresas a<br
+                                        class="desktopTabletElement">
+                                    través de Escala convirtiéndolas en negocios exitosos en toda la región.
+                                </strong>
+                            </p>
 
-    </section>
-    <section class="innerSectionElement sct2">
+                        </div>
 
-      <div class="groupElements row">
+                    </section>
+                    <section class="innerSectionElement sct2">
 
-        @foreach ($teamList as $item)
+                        <div class="groupElements row">
 
-        <div class="col-12 col-md-12 col-lg-6 teamItem">
+                            @foreach ($teamList as $item)
+                                <div class="col-12 col-md-12 col-lg-6 teamItem">
 
-            <div class="containItem">
+                                    <div class="containItem">
 
-              <div class="image">
-                <div class="containerImage">
-                  <img  src="{!! $item['img'] !!}" alt="" loading="lazy">
-                </div>
+                                        <div class="image">
+                                            <div class="containerImage">
+                                                <img src="{!! $item['img'] !!}" alt="" loading="lazy">
+                                            </div>
 
-              </div>
-              <div class="info">
-                <h3 class="secondaryTitle blackColor">
-                  {!! $item['name'] !!}
-                </h3>
-                <p class="commonText ">
-                  {!! $item['textInfo'] !!}
-                </p>
-              </div>
+                                        </div>
+                                        <div class="info">
+                                            <h3 class="secondaryTitle blackColor">
+                                                {!! $item['name'] !!}
+                                            </h3>
+                                            <p class="commonText ">
+                                                {!! $item['textInfo'] !!}
+                                            </p>
+                                        </div>
 
-            </div>
+                                    </div>
 
-        </div>
-
-        @endforeach
-
-
-
-      </div>
-
-    </section>
+                                </div>
+                            @endforeach
 
 
-    {{-- <section class="innerSectionElement sct3">
+
+                        </div>
+
+                    </section>
+
+
+                    {{-- <section class="innerSectionElement sct3">
 
       <div class="groupElements row">
 
@@ -235,13 +274,9 @@ continentes y cuatro ciudades (Lima, Miami, Londres y Nueva York).
 
 
 
-</div>
+                </div>
 
-</div>
+        </div>
 
-</div>
-
-
-
-
+    </div>
 @endsection
