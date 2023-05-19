@@ -36,14 +36,14 @@
                                             class="desktopTabletElement">
                                         una historia exitosa de emprendimiento y el desarrollo de empresas líderes en<br
                                             class="desktopTabletElement">
-                                        sus categorías. <br class="desktopTabletElement"><br class="desktopTabletElement">
+                                        sus categorías. <br class="space"><br class="space">
 
                                         Ha recibido numerosos reconocimientos incluyendo el premio a «Emprendedor<br
                                             class="desktopTabletElement">
                                         de la Década» en Latinoamérica por Babson College; trayendo talento de clase<br
                                             class="desktopTabletElement">
-                                        mundial a sus múltiples proyectos.<br class="desktopTabletElement"><br
-                                            class="desktopTabletElement">
+                                        mundial a sus múltiples proyectos.<br class="space"><br
+                                            class="space">
 
                                         Inspirado por las problemáticas de muchas empresas en LATAM, <strong>Andrés y un
                                             grupo<br class="desktopTabletElement">
@@ -202,11 +202,11 @@
                                 Equipo <span class="greenBlueColor">al Timón</span>
                             </h2>
 
-                            <p class="primaryText grayColorTexts"><strong>
+                            <p class="primaryText grayColorTexts">
                                     Contamos con un equipo comprometido en potenciar a las empresas a<br
                                         class="desktopTabletElement">
                                     través de Escala convirtiéndolas en negocios exitosos en toda la región.
-                                </strong>
+                                
                             </p>
 
                         </div>
