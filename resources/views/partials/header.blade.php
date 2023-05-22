@@ -52,7 +52,22 @@
     @php
         $p = array(
             'transparent' => true,
-            'classSection' => $navBar . ' transparent'
+            'classSection' => $navBar . ' transparent default',
+            'type' => 'default'
+        )
+    @endphp
+
+    @navBar_default_extended($p)
+    @endnavBar_default_extended
+
+@endif
+@if ($navBar == 'principal-global-extended-trasp-white')
+
+    @php
+        $p = array(
+            'transparent' => true,
+            'classSection' => $navBar . ' transparent white',
+            'type' => 'white'
         )
     @endphp
 
