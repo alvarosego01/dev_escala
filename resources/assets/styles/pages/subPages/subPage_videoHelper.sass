@@ -1,0 +1,52 @@
+@import ../../common/global
+
+
+
+#videoHelper .customSection.sectionParent.videoHelper_section_0
+    padding-top: 0!important
+    padding-bottom: 0!important
+    .backgroundFull
+        background-size: cover
+        background-position: center
+        background-repeat: no-repeat
+        padding-top: 100px
+        padding-bottom: 100px
+    .section-row
+        .innerSectionElement.sct1
+            .containElements
+                #videoHolder
+                    .youtubeImageContainer
+                        position: relative
+                        @include responsivo(telefonoTable)
+                            margin-bottom: 0
+                            width: 100%
+                            height: 200px
+                            width: 350px
+                        @include responsivo(pcMedio)
+                            height: 300px
+                            width: 530px!important
+                            margin-bottom: 25px
+                        @include responsivo(telefonoTable)
+                            margin: 0 auto
+                        @include responsivo(pcMedio)
+                            margin: 0 auto
+                        @include responsivo(general)
+                            margin: auto
+
+                            width: 700px!important
+                            height: 395px!important
+                        @include responsivo(resto)
+                            margin: auto
+
+                            width: 700px!important
+                            height: 395px!important
+
+                    iframe.iframe
+                        margin: 0 auto
+                        display: block
+                        @include responsivo(telefonoTable)
+                            width: 100%
+
+                        @include responsivo(pcMedio)
+                            width: 90%
+                    // #zoomVideo
