@@ -32,7 +32,7 @@
                                 @endif --}}
 
                                   @php
-                                    $videoEmbed = 'https://opsstorage.escala.com/'. $urlVideo;
+                                    $videoEmbed = $urlVideo;
                                     $videoCover = App::setFilePath('/assets/images/illustrations/others/home_portrait.png');
                                 @endphp
 
