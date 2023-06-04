@@ -469,7 +469,7 @@
                         'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
                     ],
                 ];
-                
+
             @endphp
 
             <section style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_4.png') !!})"
@@ -966,7 +966,7 @@
                                 </p>
 
                                 <a target="_blank" class=" secondaryButton hoverInEffect"
-                                    href="https://experiencia.escala.com/pm-masterclass-escala-may3">
+                                    href="https://experiencia.escala.com/pm-masterclass-escala-jun6">
                                     Participar
                                 </a>
 
@@ -1275,7 +1275,7 @@
                         ],
                     ],
                 ];
-                
+
                 $parameters = [
                     'classSection' => 'homeSection_11',
                     'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
