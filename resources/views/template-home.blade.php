@@ -309,7 +309,7 @@
                         $items = [
                             [
                                 'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_funnel_otto.png'),
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_funnel_otto_2.png'),
                                 'title' => '
                 <span>Plantillas probadas</span> <br class="space">
                 de Embudos
@@ -329,11 +329,11 @@
                             ],
                             [
                                 'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm.png'),
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_2.png'),
                                 'title' => '
               <span>
-                  Gestión ágil de <br class="space">
-                  contactos
+                  Gestión ágil <br class="space"> de 
+                  contactos <br class="space">
               </span> y relaciones
             ',
                                 'text' => null,
@@ -343,8 +343,8 @@
                                 'img_alt' => null,
                                 'img' => App::setFilePath('/assets/images/illustrations/others/icon_emailing.png'),
                                 'title' => '
-                <span>Envío de Emails</span> masivos <br class="space">
-                y personalizables
+                <span>Envío de Emails</span> <br class="space"> masivos 
+                y <br class="space">personalizables
             ',
                                 'text' => null,
                                 'enableButton' => false,
@@ -366,15 +366,15 @@
                                 'img_alt' => null,
                                 'img' => App::setFilePath('/assets/images/illustrations/others/icon_automat.png'),
                                 'title' => '
-                <span>Automatizaciones</span> que <br class="space">
-                escalan operaciones
+                <span>Automatizaciones</span><br class="space"> 
+                que escalan <br class="space">operaciones
             ',
                                 'text' => null,
                                 'enableButton' => false,
                             ],
                             [
                                 'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_social_ads.png'),
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_social_ads_2.png'),
                                 'title' => '
                 <span>
                     Anuncios digitales <br class="space">
@@ -389,8 +389,19 @@
                                 'img_alt' => null,
                                 'img' => App::setFilePath('/assets/images/illustrations/others/icon_analytics.png'),
                                 'title' => '
-                <span>Analíticas</span> relevantes <br class="space">
-                en tiempo real
+                <span>Analíticas</span> <br class="space">relevantes 
+                en <br class="space">tiempo real
+            ',
+                                'text' => null,
+                                'enableButton' => false,
+                            ],
+                        [
+                                'img_alt' => null,
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_ia_2.png'),
+                                'title' => '
+                <span>Inteligencia artificial</span> <br class="space">
+                para tus emails y <br class="space">
+                landings 
             ',
                                 'text' => null,
                                 'enableButton' => false,
