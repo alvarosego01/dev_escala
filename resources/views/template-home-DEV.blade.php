@@ -353,7 +353,7 @@
                             ],
                             [
                                 'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/Ws 1.png'),
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_space.png'),
                                 'title' => '
                 <span>
                     Gestión y Envío <br class="space">

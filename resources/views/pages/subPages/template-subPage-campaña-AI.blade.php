@@ -332,7 +332,7 @@ La IA Consigue <span>imágenes</span>
                                 'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_2.png'),
                                 'title' => '
               <span>
-                  Gestión ágil <br class="space"> de 
+                  Gestión ágil <br class="space"> de
                   contactos <br class="space">
               </span> y relaciones
             ',
@@ -343,7 +343,7 @@ La IA Consigue <span>imágenes</span>
                                 'img_alt' => null,
                                 'img' => App::setFilePath('/assets/images/illustrations/others/icon_emailing.png'),
                                 'title' => '
-                <span>Envío de Emails</span> <br class="space"> masivos 
+                <span>Envío de Emails</span> <br class="space"> masivos
                 y <br class="space">personalizables
             ',
                                 'text' => null,
@@ -351,7 +351,7 @@ La IA Consigue <span>imágenes</span>
                             ],
                             [
                                 'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/Ws 1.png'),
+                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_space.png'),
                                 'title' => '
                 <span>
                     Gestión y Envío <br class="space">
@@ -366,7 +366,7 @@ La IA Consigue <span>imágenes</span>
                                 'img_alt' => null,
                                 'img' => App::setFilePath('/assets/images/illustrations/others/icon_automat.png'),
                                 'title' => '
-                <span>Automatizaciones</span><br class="space"> 
+                <span>Automatizaciones</span><br class="space">
                 que escalan <br class="space">operaciones
             ',
                                 'text' => null,
@@ -389,7 +389,7 @@ La IA Consigue <span>imágenes</span>
                                 'img_alt' => null,
                                 'img' => App::setFilePath('/assets/images/illustrations/others/icon_analytics.png'),
                                 'title' => '
-                <span>Analíticas</span> <br class="space">relevantes 
+                <span>Analíticas</span> <br class="space">relevantes
                 en <br class="space">tiempo real
             ',
                                 'text' => null,
@@ -401,7 +401,7 @@ La IA Consigue <span>imágenes</span>
                                 'title' => '
                 <span>Inteligencia artificial</span> <br class="space">
                 para tus emails y <br class="space">
-                landings 
+                landings
             ',
                                 'text' => null,
                                 'enableButton' => false,
