@@ -971,7 +971,7 @@
                                     pages y formularios
                                 </p>
 
-                                <a target="_blank" class=" secondaryButton hoverInEffect" href="https://experiencia.escala.com/pm-masterclass-escala-jun6">
+                                <a target="_blank" class=" secondaryButton hoverInEffect" href="https://experiencia.escala.com/eventos-escala">
                                     Participar
                                 </a>
 

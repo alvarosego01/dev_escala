@@ -977,7 +977,7 @@
                                 </p>
 
                                 <a target="_blank" class=" secondaryButton hoverInEffect"
-                                    href="https://experiencia.escala.com/pm-masterclass-escala-jun6">
+                                    href="https://experiencia.escala.com/eventos-escala">
                                     Participar
                                 </a>
 
