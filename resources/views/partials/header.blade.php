@@ -76,6 +76,21 @@
 
 @endif
 
+@if ($navBar == 'principal-global-landing-trasp-white')
+
+    @php
+        $p = array(
+            'transparent' => true,
+            'classSection' => $navBar . ' transparent white',
+            'type' => 'white'
+        )
+    @endphp
+
+    @navBar_default_landing($p)
+    @endnavBar_default_landing
+
+@endif
+
 @if ($navBar == 'blog-global1')
 
     @navBar_blog()

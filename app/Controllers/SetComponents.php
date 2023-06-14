@@ -144,6 +144,7 @@ class SetComponents extends Controller
         return [
             'components.navBar.component-navbar-default' => 'navBar_default',
             'components.navBar.component-navbar-default-extended' => 'navBar_default_extended',
+            'components.navBar.landingPages.component-navbar-landing-extended' => 'navBar_default_landing',
             'components.navBar.component-navbar-blog' => 'navBar_blog',
             'components.navBar.landingPages.component-navbar-landing-global1' => 'landing_global1',
             'components.navBar.landingPages.component-navbar-landing-global2' => 'landing_global2',
