@@ -22,8 +22,8 @@
                         <div class="groupElements row">
                             <div class="col-md-12 col-lg-6 video">
                                 @php
-                                    $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
-                                    $videoCover = App::setFilePath('/assets/images/illustrations/others/home_portrait.png');
+                                    $videoEmbed = App::setFilePath('/assets/videos/zoom_meeting_2023.mp4');
+                                    $videoCover = App::setFilePath('/assets/images/illustrations/others/coverVideo_zoom_meeting_2023.png');
                                 @endphp
 
                                 @if (isset($videoEmbed) && $videoEmbed != null)
@@ -57,7 +57,7 @@
 
                                     <div class="containElements">
 
-                                        <a class="primaryButton hoverInEffect btnPrim">
+                                        <a target="_blank" href="https://us02web.zoom.us/j/6758915436" class="primaryButton hoverInEffect btnPrim">
                                            Iniciar Zoom ahora
                                         </a>
                                         <p class="pText">
@@ -77,7 +77,7 @@
 
                                     <div class="containElements">
 
-                                        <a class="secondaryButton hoverInEffect btnSec">
+                                        <a href="https://reserva.escala.com/#/customer/4073304000000412157" class="secondaryButton hoverInEffect btnSec">
                                            Agendarme
                                         </a>
                                     </div>
@@ -121,7 +121,7 @@
                     </div>
               </section>
               <div class="btnWsp">
-                <a class="secondaryButton hoverInEffect"> <img class="wsp-icon" src="{!! App::setFilePath('/assets/images/illustrations/others/wsp-icon.png') !!}" loading="lazy">
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=17863042407" class="secondaryButton hoverInEffect"> <img class="wsp-icon" src="{!! App::setFilePath('/assets/images/illustrations/others/wsp-icon.png') !!}" loading="lazy">
                 Chat por WhatsApp
                 </a>
             </div>
