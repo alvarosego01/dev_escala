@@ -20,6 +20,8 @@
     .section-row
         // background-color: #FFFFFF
         // border-radius: 18px
+        justify-content: center
+        max-width: 900px
         @include responsivo(telefonoTable)
             width: 95%
             padding: 0
@@ -70,9 +72,9 @@
                         span
                             font-size: 25px!important
                     @include responsivo(general)
-                        font-size: 42.5px
+                        font-size: 45px
                         span
-                            font-size: 32.5px
+                            font-size: 35px
                     @include responsivo(resto)
                         font-size: 45px
                         span
@@ -121,15 +123,16 @@
                     @include responsivo(general)
                         margin: auto
                         margin-right: 25px
-                        width: 375px!important
-                        height: 215px!important
+                        width: 450px!important
+                        height: 244px!important
                     @include responsivo(smallPcTablet)
-                        width: 375px
+                        width: 450px!important
+                        height: 244px!important
                     @include responsivo(resto)
                         margin: auto
                         margin-right: 25px
                         width: 450px!important
-                        height: 255px!important
+                        height: 244px!important
                     iframe.iframe
                         margin: 0 auto
                         display: block
@@ -138,22 +141,35 @@
 
                         @include responsivo(pcMedio)
                             width: 90%
-            
+        .cardsContainer
+            @include responsivo(resto)
+                width: 500px
             .cardBox
                 background-color: #fff
                 border-radius: 20px
-                padding: 31px 19px
+                padding: 31px 16px
                 box-shadow: 0 6px 30px rgba(54,118,138,.1)
                 text-align: -webkit-center
+                width: 215px    
+                height: 244px
+                margin: auto
                 @include responsivo(telefonoTable)
-                    width: 300px
+                    width: 215px    
+                    height: 244px
                     margin: auto
                     margin-bottom: 20px
                 @include responsivo(pcMedio)
-                    width: 300px
+                    width: 215px    
+                    height: 244px
                     margin: auto
-                    margin-bottom: 20px  
+                    margin-bottom: 20px
+                @include responsivo(resto)
+                        margin-left: 20px
+                        margin-right: 0
                 .primaryButton
+                    border-radius: 10px
+                    &.btnPrim
+                        padding: 12px 13px !important
                     @include responsivo(general)
                         margin-left: auto
                         margin-right: 0
@@ -161,7 +177,10 @@
                         margin-left: auto
                         margin-right: 0
                 .secondaryButton
+                    border-radius: 10px
                     margin-bottom: 24px
+                    &.btnSec
+                        padding: 12px 20px !important
             .image
                 z-index: 5
                 .containerImage
@@ -187,7 +206,7 @@
                 font-family: Nunito
                 font-style: normal
                 font-weight: 500
-                font-size: 16px
+                font-size: 14px
                 line-height: 1
                 text-align: center
                 letter-spacing: -0.02em
@@ -269,10 +288,13 @@
                     right: -10px
                     @include responsivo(telefonoTable)
                         right: 0
-    .btnWsp
+    .containElements
         display: flex
         justify-content: center
-        .wsp-icon
-            width: 23px
-            margin-right: 12px
+        .btnWsp
+            border-radius: 10px !important
+            .wsp-icon
+                width: 23px
+                margin-right: 12px
+            
            
