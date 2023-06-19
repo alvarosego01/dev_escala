@@ -48,7 +48,7 @@
                                     </div>
                                 @endif
                             </div>
-                            <div class="row col-md-6 col-lg-6 cardsContainer">
+                            <div class="row col-md-12 col-lg-6 cardsContainer">
                                 <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="groupElements cardBox">
                                         <div class="image">
