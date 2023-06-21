@@ -80,7 +80,8 @@
 
                                         <div class="containElements">
 
-                                            <a href="https://reserva.escala.com/#/customer/4073304000000412157"
+                                            {{-- href="https://reserva.escala.com/#/customer/4073304000000412157" --}}
+                                            <a id="btnAgendar" target="_blank" href="#"
                                                 class="secondaryButton hoverInEffect btnSec">
                                                 Agendarme
                                             </a>
@@ -137,3 +138,34 @@
     </div>
 
 </div>
+
+
+
+<script type="text/javascript">
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const paramsObj = {};
+
+    for (let [key, value] of urlParams.entries()) {
+        paramsObj[key] = value;
+    }
+
+    if(paramsObj && paramsObj['e']){
+
+        let email = paramsObj['e'];
+        let btnAgendar = document.getElementById('btnAgendar');
+        // let href = btnAgendar.getAttribute('href');
+        // href = href + '?e=' + email;
+
+        let link = `https://app.escala.com/app/activation/survey/${email}/demo`;
+
+
+        btnAgendar.setAttribute('href', link);
+
+    }
+
+</script>
+
+
+
+ {{-- <div class="g-recaptcha" data-sitekey="6Le4DVEiAAAAAGjZhQH-vc9bLgt31n0YqE5uZ2TC"></div> --}}
