@@ -81,7 +81,7 @@
                                         <div class="containElements">
 
                                             {{-- href="https://reserva.escala.com/#/customer/4073304000000412157" --}}
-                                            <a id="btnAgendar" target="_blank" href="#"
+                                            <a id="btnAgendar" target="_blank" href="https://reserva.escala.com/#/customer/4073304000000412157"
                                                 class="secondaryButton hoverInEffect btnSec">
                                                 Agendarme
                                             </a>
