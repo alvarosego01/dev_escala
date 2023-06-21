@@ -45,7 +45,6 @@ document.addEventListener('wpcf7mailsent', async (e) => {
     let l = e.path;
     let re = null;
 
-
     window.dataLayer.push({
         "event": "cf7submission",
         "formId": event.detail.contactFormId,
