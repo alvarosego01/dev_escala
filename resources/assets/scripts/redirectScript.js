@@ -41,6 +41,8 @@ jQuery(document).ready(function () {
 
 document.addEventListener('wpcf7mailsent', async (e) => {
 
+      console.log('sent c7f')
+
     let inputs = e['detail']['inputs'];
     let l = e.path;
     let re = null;
@@ -75,6 +77,7 @@ document.addEventListener('wpcf7mailsent', async (e) => {
 
     }
 
+
     if ( document.querySelector("#redirectParam") != null && re == null) {
 
         // re = jQuery('#redirectParam').val();
@@ -96,6 +99,8 @@ document.addEventListener('wpcf7mailsent', async (e) => {
 }, false);
 
 document.addEventListener('wpcf7mailfailed', async (e) =>  {
+
+    console.log('failed c7f')
 
    let inputs = e['detail']['inputs'];
     let l = e.path;
