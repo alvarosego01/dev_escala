@@ -20,8 +20,7 @@
                                 'Valor para Escala',
                                 'Consiguen leads para Escala',
                                 'Consiguen el lead y se encargan del proceso de vender Escala',
-                                '- Brinda el servicio de implementación a clientes Escala y gestión de cuenta post-venta <br class="space">
-                                - Brinda el servicio de implementación a clientes Escala y gestión de cuenta post-venta'
+                                '- Brinda el servicio de implementación a clientes Escala y gestión de cuenta post-venta'
                             ]
                         ],
                         [
@@ -95,7 +94,7 @@
                                 <span>Diamond:</span> MRR > $30,001 (~25+)',
                                 '
                                 <span>1.</span> Suscripción activa Escala <br class="space">
-                                <span>2.</span> Al día con certificacioens <br class="space">
+                                <span>2.</span> Estar al día con certificaciones <br class="space">
                                 <span>3.</span> Estar en cumplimiento con acuerdo <br class="space">
                                 <span>4.</span> Retención de MRR y NDR: <br class="space">
                                 <span>Silver:</span> MRR < $1,000 y NDR > 80% <br class="space">
@@ -177,12 +176,10 @@
                             para el Partner',
                                 '<span>1.</span> Free Trial = 10 días<br class="space">
                                 Sin descuento',
-                                '<span>1.</span> Free Trial = 30 días Plan Pro<br class="space">
-                                <span>2</span>. Descuento en Anual<br class="space">
+                                '<span>1.</span> Descuento en Anual<br class="space">
                                 20% Al iniciar camino de Partner Comercial<br class="space">
                                 65% Al traer 1 cliente antes de acabarse tu Free Trial',
-                                '<span>1.</span> Free Trial = 30 días Plan Pro<br class="space">
-                                <span>2.</span> Descuento en Anual<br class="space">
+                                '<span>1.</span> Descuento en Anual<br class="space">
                                 30% Al iniciar camino de Partner de Servicio<br class="space">
                                 65% Al vender 1 licencia Pro antes de culminarse tu Free Trial'
                             ]
