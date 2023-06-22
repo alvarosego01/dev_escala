@@ -94,7 +94,7 @@
                                 <span>Diamond:</span> MRR > $30,001 (~25+)',
                                 '
                                 <span>1.</span> Suscripción activa Escala <br class="space">
-                                <span>2.</span> Estar al día con certificaciones <br class="space">
+                                <span>2.</span> Al día con certificaciones <br class="space">
                                 <span>3.</span> Estar en cumplimiento con acuerdo <br class="space">
                                 <span>4.</span> Retención de MRR y NDR: <br class="space">
                                 <span>Silver:</span> MRR < $1,000 y NDR > 80% <br class="space">
