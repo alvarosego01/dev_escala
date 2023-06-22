@@ -81,7 +81,8 @@
                                         <div class="containElements">
 
                                             {{-- href="https://reserva.escala.com/#/customer/4073304000000412157" --}}
-                                            <a id="btnAgendar" target="_blank" href="https://reserva.escala.com/#/customer/4073304000000412157"
+                                            <a id="btnAgendar" target="_blank"
+                                                href="https://reserva.escala.com/#/customer/4073304000000412157"
                                                 class="secondaryButton hoverInEffect btnSec">
                                                 Agendarme
                                             </a>
@@ -142,15 +143,18 @@
 
 
 <script type="text/javascript">
-
     const urlParams = new URLSearchParams(window.location.search);
     const paramsObj = {};
 
     for (let [key, value] of urlParams.entries()) {
-        paramsObj[key] = value;
+        const urlSafeValue = value
+            .replace(/\+/g, '-')
+            .replace(/\//g, '_')
+            .replace(/=/g, '');
+        paramsObj[key] = urlSafeValue;
     }
 
-    if(paramsObj && paramsObj['e']){
+    if (paramsObj && paramsObj['e']) {
 
         let email = paramsObj['e'];
         let btnAgendar = document.getElementById('btnAgendar');
@@ -163,9 +167,8 @@
         btnAgendar.setAttribute('href', link);
 
     }
-
 </script>
 
 
 
- {{-- <div class="g-recaptcha" data-sitekey="6Le4DVEiAAAAAGjZhQH-vc9bLgt31n0YqE5uZ2TC"></div> --}}
+{{-- <div class="g-recaptcha" data-sitekey="6Le4DVEiAAAAAGjZhQH-vc9bLgt31n0YqE5uZ2TC"></div> --}}
