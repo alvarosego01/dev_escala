@@ -161,6 +161,11 @@ add_action('wp_enqueue_scripts', function () {
         }
 
         //  SUB PAGES----------------------------------------------------
+
+        // --- Template base 2023
+        if (is_page_template('views/template-base-2023.blade.php')) {
+            wp_enqueue_style('template_base_2023.css', asset_path('styles/pages/subPages/platform/template_base_2023.css'), false, THEME_VERSION);
+        }
         
         // --- Seccion zoom meeting 2023
         if (is_page_template('views/template-subPage-zoom-meeting-2023.blade.php')) {
