@@ -933,7 +933,8 @@
 
             </section>
 
-            <section style="background-image: url('{!! App::setFilePath('/assets/images/banners/background_sky_2.png.png') !!}')"
+            <section
+            style="background-image: url('{!! App::setFilePath('/assets/images/banners/background_sky_2.png.png') !!}')"
                 class="component-info-text-image-T1 customSection sectionParent homeSection_8 ">
 
                 {{-- <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_2.png') !!}" alt="" class="overlaySky1"> --}}
