@@ -40,20 +40,20 @@
             background-position: center
         @include responsivo(general)
             padding-top: 175px
-            padding-bottom: 50px
+            padding-bottom: 0
         @include responsivo(smallPcTablet)
             background-position: center
-            padding-bottom: 25px
+            padding-bottom: 0
         @include responsivo(resto)
             padding-top: 200px
-            padding-bottom: 50px
+            padding-bottom: 0
 
         @include responsivoSpecial(1700px, 99999px)
-            padding-bottom: 50px
+            padding-bottom: 0
         @include responsivoSpecial(1850px, 99999px)
             background-size: cover
             background-position: bottom
-            padding-bottom: 50px
+            padding-bottom: 0
 
     .section-row
         position: relative
@@ -681,6 +681,7 @@
                 justify-content: center
                 img
                     margin-bottom: 0
+                    border-radius: 20px
                     @include responsivo(telefonoTable)
                         height: 200px
                     @include responsivo(pcMedio)
