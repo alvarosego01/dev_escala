@@ -1,21 +1,23 @@
 <div id="CRM_TB_2023">
     <div class="sections">
+
+
         @header_t1([
             'backgroundImageType' => true,
             'overlay' => false,
             'classSection' => 'threeCol CRM-2023 CRM-2023_0',
             'title' => '
-                                                                                CRM todo-en-uno  <br class="space">
-                                                                                <span style="color: #DEF3F5">acompañamiento de expertos</span>
-                                                                                ',
+                                        CRM todo-en-uno  <br class="space">
+                                        <span style="color: #DEF3F5"> <span style="color: #FAD872" class="plus">+</span> acompañamiento de expertos</span>
+                                                                                                        ',
             'text' => '<span class="whiteColor">
-                                                                                                        Con el CRM de Escala haz más eficiente todo tu <br class="space">
-                                                                                                        proceso de ventas, guiado por especialistas. <br class="space">
-                                                                                                        Segmenta tus contactos, personaliza tu <br class="space">
-                                                                                                        comunicación y hazle mejor seguimiento a tus <br class="space">
-                                                                                                        oportunidades hasta cerrar la venta.
-                                                                                  </span>
-                                                                                  ',
+                                                                                                                                Con el CRM de Escala haz más eficiente todo tu <br class="space">
+                                                                                                                                proceso de ventas, guiado por especialistas. <br class="space">
+                                                                                                                                Segmenta tus contactos, personaliza tu <br class="space">
+                                                                                                                                comunicación y hazle mejor seguimiento a tus <br class="space">
+                                                                                                                                oportunidades hasta cerrar la venta.
+                                                                                                          </span>
+                                                                                                          ',
             'threeCol' => true,
             'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
             'backgroundImage' => App::setFilePath('/assets/images/overlays/02-CRM-2023.png'),
@@ -106,7 +108,8 @@
                                 Anuncios
                             </h3>
                             <p class="text">
-                                Atrae leads de calidad con Ads de Facebook e Instagram desde nuestra plataforma
+                                Atrae leads de calidad con Ads de Facebook <br class="desktopTabletElement"> e Instagram
+                                desde nuestra plataforma
                             </p>
                         </div>
                         <div class="col-md-12 col-lg-6">
@@ -126,7 +129,8 @@
                                 Landing pages
                             </h3>
                             <p class="text">
-                                Crea, personaliza y publica páginas en minutos, sin programar
+                                Crea, personaliza y publica páginas <br class="desktopTabletElement"> en minutos, sin
+                                programar
                             </p>
                         </div>
                     </div>
@@ -136,7 +140,8 @@
                                 Emails
                             </h3>
                             <p class="text">
-                                Comunícate constantemente con tus contactos y crea relaciones a largo plazo
+                                Comunícate constantemente con tus <br class="desktopTabletElement"> contactos y crea
+                                relaciones a largo plazo
                             </p>
                         </div>
                         <div class="col-md-12 col-lg-6">
@@ -156,7 +161,8 @@
                                 Automatización
                             </h3>
                             <p class="text">
-                                Ahorra tiempo y dinero programando secuencias de emails y acciones de marketing y ventas
+                                Ahorra tiempo y dinero programando <br class="desktopTabletElement"> secuencias de
+                                emails y acciones de <br class="desktopTabletElement"> marketing y ventas
                             </p>
                         </div>
                     </div>
@@ -166,7 +172,8 @@
                                 Analítica
                             </h3>
                             <p class="text">
-                                Mide en tiempo real tus resultados con dashboards amigables para optimizar tus embudos
+                                Mide en tiempo real tus resultados <br class="desktopTabletElement"> con dashboards
+                                amigables para <br class="desktopTabletElement"> optimizar tus embudos
                                 de ventas
                             </p>
                         </div>
@@ -215,7 +222,7 @@
 
 
                             @php
-                                
+
                                 $elements = [
                                     [
                                         'title' => 'Tu CRM está Integrado <span>
@@ -267,7 +274,7 @@
                 a largo plazo </span>',
                                     ],
                                 ];
-                                
+
                             @endphp
 
 
@@ -306,6 +313,9 @@
         </section>
 
         <section class="sectionParent customSection CRM-2023_4">
+
+            <img src="{!! App::setFilePath('/assets/images/banners/back_overlay_crm_sky_gray.png') !!}" alt="" class="backOverlay">
+
             <div class="section-row">
                 <section class="innerSectionElement sct1">
 
@@ -472,6 +482,190 @@
                 </section>
             </div>
         </section>
+
+
+        <section class="sectionParent customSection CRM-2023_6">
+
+
+
+            <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/back_overlay_crm_sky_blue.png') !!}')"
+            class="backgroundFull"
+            >
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct2">
+                    <div class="groupElements row">
+                        <div class="info col-md-12 col-lg-8 sectionTexts textRight">
+                            <h3 class="secondaryTitle">
+                                <span>
+                                    Nuestro CRM es tu gerente <br class="desktopTabletElement">
+                                    de ventas:
+                                </span> <br class="space">
+                                él se ocupa de gerenciar <br class="desktopTabletElement">
+                                tu proceso y tú te enfocas en hacer <br class="desktopTabletElement">
+                                crecer tu empresa
+                            </h3>
+                            <p class="text">
+                                Tu CRM de Escala es tu máquina de ventas, en un solo lugar <br
+                                    class="desktopTabletElement">
+                                puedes gerenciar tus contactos, segmentar y personalizar tus <br
+                                    class="desktopTabletElement">
+                                acciones de ventas y marketing y darle seguimiento a cada <br
+                                    class="desktopTabletElement">
+                                una de tus oportunidades abiertas. Además hace más <br class="desktopTabletElement">
+                                productivo a tu equipo de ventas asignándoles tareas, <br class="desktopTabletElement">
+                                actividades y recordatorios para convertir más.
+                            </p>
+                        </div>
+                        <div class="image col-md-12 col-lg-4">
+                            <div class="containerImage">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/morena_banco1.png') !!}" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+
+            </div>
+            </div>
+
+
+        </section>
+
+
+
+            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_4.png') !!})"
+                class="sectionParent customSection CRM-2023_7 ">
+
+                <div class="section-row">
+
+
+                    <section class="innerSectionElement sct1">
+
+
+                        <div class="row">
+
+                            <div class="slideshowCards col-md-12 col-lg-9">
+                                <div class="containElements">
+
+                                    <div id="carousel-testimonials-desktop" class="owl-carousel owl-theme">
+
+                                        @if (isset($desk_reviews) && $desk_reviews != null)
+                                            @foreach ($desk_reviews as $index => $item)
+                                                <div class="item @if ($index === array_key_first($desk_reviews)) active @endif ">
+
+                                                    <div class="testimonial">
+
+                                                        <div class="containElements">
+
+                                                            <div class="area">
+                                                                <h3>
+                                                                    {!! $item['area'] !!}
+                                                                </h3>
+                                                            </div>
+
+                                                            <div class="quote">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
+
+                                                                </div>
+                                                            </div>
+
+                                                            <p class="text">
+                                                                {!! $item['text'] !!}
+                                                            </p>
+
+                                                            <div class="byCompany">
+                                                                <div class="logo">
+                                                                    <div class="containerImage">
+                                                                        <img alt="TrustPilot review"
+                                                                            src="{!! $item['logo'] !!}" alt=""
+                                                                            loading="lazy">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="data">
+                                                                    <span class="name">
+                                                                        {!! $item['name'] !!}
+                                                                    </span>
+                                                                    <div class="stars">
+                                                                        <div class="containerImage">
+                                                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}"
+                                                                                loading="lazy">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+
+                                                    </div>
+
+
+                                                </div>
+                                            @endforeach
+                                        @endif
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="info col-md-12 col-lg-3">
+                                <div class="containElements">
+                                    <h2 class="primaryTitle blackColor">
+
+                                        Nuestros clientes <br class="space">
+                                        <span>lo comprueban</span>
+
+                                    </h2>
+                                    <p class="primaryText">
+                                        Conoce sus casos de éxito
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </section>
+
+
+                </div>
+
+                {{-- <img src="{!! App::setFilePath('/assets/images/banners/background_space_4.png') !!}" alt="" class="overlaySpace"> --}}
+
+
+            </section>
+
+
+            <script>
+                jQuery('.owl-carousel').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        768: {
+                            items: 1
+                        },
+                        1000: {
+                            items: 3
+                        },
+                        1250: {
+                            items: 3
+                        },
+                        1500: {
+                            items: 4
+                        }
+                    }
+                })
+            </script>
 
     </div>
 </div>
