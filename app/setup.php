@@ -167,6 +167,11 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_style('landingPage_TB_2023.css', asset_path('styles/pages/subPages/platform/landingPage_TB_2023.css'), false, THEME_VERSION);
         }
 
+        // --- CRM 2023
+        if (is_page_template('views/template-subPage-CRM-2023.blade.php')) {
+            wp_enqueue_style('CRM_TB_2023.css', asset_path('styles/pages/subPages/platform/CRM_TB_2023.css'), false, THEME_VERSION);
+        }
+
         // --- Seccion zoom meeting 2023
         if (is_page_template('views/template-subPage-zoom-meeting-2023.blade.php')) {
             wp_enqueue_style('subPage_zoom_meeting_2023.css', asset_path('styles/pages/subPages/subPage_zoom_meeting_2023.css'), false, THEME_VERSION);
