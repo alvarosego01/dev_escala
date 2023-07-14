@@ -44,7 +44,7 @@
                             </p>
                             <br class="space">
                             <p class="title-video"><b>Andrés Moreno</b> <br class="space">
-                                <span>de escala & Open English</span>
+                                <span>Fundador de escala & Open English</span>
                             </p>
                         </div>
 

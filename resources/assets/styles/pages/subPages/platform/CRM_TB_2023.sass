@@ -313,11 +313,13 @@
     @include responsivo(general)
         padding: 25px
         background-size: cover
+        background-size: 4100px
     @include responsivo(smallPcTablet)
+        background-size: 3750px
         padding: 10px
     @include responsivo(resto)
         padding: 50px
-        background-size: cover
+        background-size: 4300px
 
     .section-row
         @include responsivo(telefonoTable)
@@ -344,6 +346,8 @@
                 @include responsivo(pcMedio)
                     display: flex
                     flex-direction: column-reverse
+                b
+                    font-weight: 700
                 .text-video
                     color: #322C2E
                     font-family: Nunito
@@ -364,8 +368,7 @@
                         font-size: 18px
                     @include responsivo(resto)
                         font-size: 22px
-                    b
-                        font-weight: 700
+
                 .title-video
                     color: #322C2E
                     font-family: Nunito
