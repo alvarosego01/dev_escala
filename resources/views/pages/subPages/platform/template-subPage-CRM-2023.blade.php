@@ -487,7 +487,6 @@
         <section class="sectionParent customSection CRM-2023_6">
 
 
-
             <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/back_overlay_crm_sky_blue.png') !!}')"
             class="backgroundFull"
             >
@@ -534,6 +533,35 @@
 
         </section>
 
+
+
+            @php
+                $desk_reviews = [
+                    [
+                        'area' => 'Finanzas',
+                        'text' => '
+                        <strong>“Gracias a Escala ahorramos 70% del tiempo invertido</strong> por el equipo comercial en tareas operativas y aumentamos 20% la cantidad de clientes.”
+                        ',
+                        'logo' => App::setFilePath('/assets/images/logos/logo_saeta.png'),
+                        'name' => 'Claudio Radovich, Fundador',
+                    ],
+                    [
+                        'area' => 'Consultoría',
+                        'text' => '
+                        <strong>“Logramos 2X nuestra facturación</strong> en menos de 6 meses y multiplicar 4X los nuevos leads gracias a Escala.”
+                        ',
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
+                        'name' => 'William Ávila, CEO',
+                    ],
+                    [
+                        'area' => 'Salud y bienestar',
+                        'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
+                        'logo' => App::setFilePath('/assets/images/logos/logo_rgg.png'),
+                        'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
+                    ],
+                ];
+
+            @endphp
 
 
             <section style="background-image: url({!! App::setFilePath('/assets/images/banners/background_space_4.png') !!})"
@@ -619,12 +647,17 @@
                                     <h2 class="primaryTitle blackColor">
 
                                         Nuestros clientes <br class="space">
-                                        <span>lo comprueban</span>
+                                        <span>dicen por qué</span>
 
                                     </h2>
                                     <p class="primaryText">
-                                        Conoce sus casos de éxito
+                                        el CRM de Escala es el más completo
                                     </p>
+
+                                      <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                        Prueba Gratis
+                                     </a>
+
                                 </div>
                             </div>
 
@@ -666,6 +699,45 @@
                     }
                 })
             </script>
+
+
+               <section class="sectionParent customSection CRM-2023_8">
+
+
+            <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/crm_background_spacesky_blue.png') !!}')"
+            class="backgroundFull"
+            >
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct2">
+                    <div class="groupElements row">
+                        <div class="info col-md-12 col-lg-8 sectionTexts textRight">
+                            <h3 class="secondaryTitle">
+                                Convierte más leads en clientes <br class="space">
+                                <span>con el CRM de Escala</span>
+                            </h3>
+
+                              <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                        Prueba Gratis
+                                </a>
+
+                        </div>
+                        <div class="image col-md-12 col-lg-4">
+                            <div class="containerImage">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/crm_setupimage.png') !!}" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+
+            </div>
+            </div>
+
+
+        </section>
 
     </div>
 </div>
