@@ -8,7 +8,6 @@
             'classSection' => 'threeCol CRM-2023 CRM-2023_0',
             'title' => '
                                         CRM todo-en-uno  <br class="space">
-                                        <span style="color: #DEF3F5"> <span style="color: #FAD872" class="plus">+</span> acompañamiento de expertos</span>
                                                                                                         ',
             'text' => '<span class="whiteColor">
                                                                                                                                 Con el CRM de Escala haz más eficiente todo tu <br class="space">
