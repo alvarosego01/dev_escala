@@ -96,7 +96,7 @@
                         </h2>
                         <p class="text-p">
                             En el CRM de Escala están todas las herramientas de marketing digital y ventas integradas,
-                            <br class="space">
+                            <br class="desktopElement">
                             para que puedas: generar más demanda, aumentar tus ventas y fidelizar más clientes.
                         </p>
                     </div>
@@ -314,7 +314,11 @@
 
         <section class="sectionParent customSection CRM-2023_4">
 
-            <img src="{!! App::setFilePath('/assets/images/banners/back_overlay_crm_sky_gray.png') !!}" alt="" class="backOverlay">
+                  <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/back_overlay_crm_sky_gray.png')!!}')"
+            class="backgroundFull"
+            >
+
+            {{-- <img src="{!! App::setFilePath('/assets/images/banners/back_overlay_crm_sky_gray.png') !!}" alt="" class="backOverlay"> --}}
 
             <div class="section-row">
                 <section class="innerSectionElement sct1">
@@ -327,7 +331,7 @@
                         </h2>
                         <p class="text-p">
                             Al adquirir el plan Pro de Escala cuentas con funcionalidades más avanzadas para que
-                            <br class="space">
+                            <br class="desktopElement">
                             puedas personalizar tus acciones de marketing, ventas y aumentar tus conversiones.
                         </p>
                     </div>
@@ -374,6 +378,7 @@
                         Prueba el CRM de Escala
                     </a>
                 </section>
+            </div>
             </div>
         </section>
 
