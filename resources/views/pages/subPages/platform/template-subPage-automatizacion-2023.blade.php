@@ -7,13 +7,11 @@
             'overlay' => false,
             'classSection' => 'threeCol automatizacion-2023 automatizacion-2023_0',
             'title' => '
-                                                                                Haz Crecer  <br class="space">
-                                                                                tu negocio  <br class="space">                                                                       ',
+                        <span>Haz Crecer</span>  <br class="space">
+                        tu negocio  <class="space">',
             'text' => '<span class="whiteColor">
-                                                        escala trabaja por ti 25 horas al día, <br class="space">   
-                                                        366 días al año.                                                                                                        
-                                                                                                                                                  </span>
-                                                                                                                                                  ',
+                        escala trabaja por ti 25 horas al día, <br class="space">
+                        366 días al año.</span>',
             'threeCol' => true,
             'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
             'backgroundImage' => App::setFilePath('/assets/images/banners/18-automatizacion_2023.png'),
@@ -35,11 +33,11 @@
                         <div class="info col-md-12 col-lg-6">
                             <p class="text-video">
                                 <b>
-                                    “Uno de los mayores retos de liderar un negocio es 
-                                    enfocarse en lo que es importante y hacer que 
-                                    cada minuto cuente. Con la automatización de 
-                                    escala podrás ahorrarte el tiempo de hacer tareas 
-                                    repetitivas e invertirlo en los proyectos que 
+                                    “Uno de los mayores retos de liderar un negocio es
+                                    enfocarse en lo que es importante y hacer que
+                                    cada minuto cuente. Con la automatización de
+                                    escala podrás ahorrarte el tiempo de hacer tareas
+                                    repetitivas e invertirlo en los proyectos que
                                     agregan valor a tu negocio”.
                                 </b>
                             </p>
@@ -49,7 +47,7 @@
                             </p>
                         </div>
 
-                        <div class="col-md-12 col-lg-6">
+                        <div class="col-md-12 col-lg-6 image">
 
                             <div class="containerImage">
                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-automatizacion_2023.png') !!}" loading="lazy">
@@ -71,7 +69,7 @@
 
                     <div class=" row groupElements">
 
-                        <div class="col-md-12 col-lg-6 column-text">
+                        <div class="col-md-12 col-lg-7 column-text">
 
                             <div class="containElements">
 
@@ -80,13 +78,16 @@
                                     tus metas de venta
                                 </h2>
                                 <p class="text-p">
-                                    Utiliza la tecnología automatizada de escala para manejar las tareas repetitivas.
-                                    Cumple tus cuotas de ventas incluso mientras duermes o tomas un café <br
+                                    Utiliza la tecnología automatizada de escala para manejar las tareas <br class="desktopTabletElement">
+                                    repetitivas. Cumple tus cuotas de ventas incluso mientras duermes <br class="desktopTabletElement">
+                                    o tomas un café <br
                                         class="space"> <br class="space">
 
-                                    Imagina que se han registrado 1,000 contactos en tu base de datos en una hora. ¿Cómo
-                                    vas a comunicarte con cada uno de ellos de forma personalizada? ¿Cómo vas a
-                                    distribuir esos contactos entre tu equipo de ventas para convertirlos en clientes?
+                                    Imagina que se han registrado 1,000 contactos en tu base de datos <br class="desktopTabletElement">
+                                    en una hora. ¿Cómo
+                                    vas a comunicarte con cada uno de ellos de <br class="desktopTabletElement">
+                                    forma personalizada? ¿Cómo vas a
+                                    distribuir esos contactos entre tu <br class="desktopTabletElement"> equipo de ventas para convertirlos en clientes?
                                     <br class="space"> <br class="space">
 
                                     ¡Sigue leyendo, te diremos cómo hacerlo!
@@ -96,7 +97,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-12 col-lg-6 column-image">
+                        <div class="col-md-12 col-lg-5 column-image">
                             <div class="containerImage">
                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/03-automatizacion_2023.png') !!}" loading="lazy">
                             </div>
@@ -105,6 +106,7 @@
             </div>
         </section>
         <section class="sectionParent customSection automatizacion-2023_3">
+            <div style="background-image: url('{!! App::setFilePath('/assets/images/overlays/automatization_overlay_sky1.png') !!}')" class="backgroundFull">
             <div class="section-row">
                 <section class="innerSectionElement sct1">
 
@@ -121,7 +123,7 @@
                         </p>
                     </div>
                 </section>
-                
+
                 <section class="innerSectionElement sct2">
                     <div class="groupElements row">
                         <div class="order-last order-md-last order-lg-first col-md-12 col-lg-6 sectionTexts textRight">
@@ -161,9 +163,10 @@
                             </div>
                         </div>
                     </div>
-                
+
                 </section>
-                
+
+            </div>
             </div>
         </section>
         <section class="sectionParent customSection automatizacion-2023_4">
@@ -246,7 +249,9 @@
                                     para tu equipo de ventas
                                 </h2>
                                 <p class="text-p">
-                                    Con escala puedes automatizar notificaciones para recordarle a tus vendedores qué hacer y cuándo. Logra que se comuniquen con clientes potenciales en el momento correcto... <br class="space"> <br class="space">
+                                    Con escala puedes automatizar notificaciones para recordarle a tus vendedores qué
+                                    hacer y cuándo. Logra que se comuniquen con clientes potenciales en el momento
+                                    correcto... <br class="space"> <br class="space">
 
                                     ¡Consigue más ventas!
                                 </p>
@@ -259,35 +264,37 @@
         </section>
         <section class="sectionParent customSection automatizacion-2023_5">
             <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/16-automatizacion_2023.png') !!}')" class="backgroundFull">
-            <div class="section-row">
+                <div class="section-row">
 
-                <section class="innerSectionElement sct1">
+                    <section class="innerSectionElement sct1">
 
-                    <div class=" row groupElements">
+                        <div class=" row groupElements">
 
-                        <div class="col-md-12 col-lg-6">
+                            <div class="col-md-12 col-lg-6 info">
 
-                            <div class="containElements">
+                                <div class="containElements">
 
-                                <h2 class="primaryTitle">
-                                    <span>Automatiza</span> <br class="space">
-                                    ¡tan solo agregándole una etiqueta!
-                                </h2>
-                                <p class="text-p">
-                                    Con escala puedes segmentar tus contactos y asignarles etiquetas. Esas etiquetas pueden activar emails, notificaciones y otras acciones de ventas sin que tengas que mover un solo dedo. Pruébalo. ¡Funciona como magia!
-                                </p>
-                                <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                    Hacer mi vida más fácil
-                                </a>
+                                    <h2 class="primaryTitle">
+                                        <span>Automatiza</span> <br class="space">
+                                        ¡tan solo agregándole una etiqueta!
+                                    </h2>
+                                    <p class="text-p">
+                                        Con escala puedes segmentar tus contactos y asignarles etiquetas. Esas etiquetas
+                                        pueden activar emails, notificaciones y otras acciones de ventas sin que tengas
+                                        que mover un solo dedo. Pruébalo. ¡Funciona como magia!
+                                    </p>
+                                    <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                        Hacer mi vida más fácil
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6 image">
+                                <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/10-automatizacion_2023.png') !!}" loading="lazy">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-12 col-lg-6">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/10-automatizacion_2023.png') !!}" loading="lazy">
-                            </div>
-                        </div>
-                    </div>
-            </div>
+                </div>
             </div>
         </section>
         <section class="sectionParent customSection automatizacion-2023_6">
@@ -310,7 +317,8 @@
                                     tus workflows
                                 </h2>
                                 <p class="text-p">
-                                    Ve en tiempo real tu máquina de ventas en acción. El dashboard de escala te muestra todo lo que has automatizado. Siéntate y relájate.
+                                    Ve en tiempo real tu máquina de ventas en acción. El dashboard de escala te muestra
+                                    todo lo que has automatizado. Siéntate y relájate.
                                 </p>
                             </div>
                         </div>
@@ -322,31 +330,31 @@
 
             <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/17-automatizacion_2023.png') !!}')" class="backgroundFull">
 
-            <div class="section-row">
+                <div class="section-row">
 
-                <section class="innerSectionElement sct2">
-                    <div class="groupElements row">
-                        <div class="info col-md-12 col-lg-8 sectionTexts textRight">
-                            <h3 class="secondaryTitle">
-                                <span>Automatiza y ahorra tiempo</span>
-                            </h3>
+                    <section class="innerSectionElement sct2">
+                        <div class="groupElements row">
+                            <div class="info col-md-12 col-lg-8 sectionTexts textRight">
+                                <h3 class="secondaryTitle">
+                                    <span>Automatiza y ahorra tiempo</span>
+                                </h3>
 
-                              <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Recibe un demo
+                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                    Recibe un demo
                                 </a>
 
-                        </div>
-                        <div class="image col-md-12 col-lg-4">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/12-automatizacion_2023.png') !!}" loading="lazy">
+                            </div>
+                            <div class="image col-md-12 col-lg-4">
+                                <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/12-automatizacion_2023.png') !!}" loading="lazy">
+                                </div>
                             </div>
                         </div>
-                    </div>
 
 
-                </section>
+                    </section>
 
-            </div>
+                </div>
             </div>
 
 
