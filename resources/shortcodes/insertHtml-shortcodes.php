@@ -24,7 +24,7 @@ function insert_html($atts)
 
         $var = $a['html'];
 
-        $html = $var;
+        $html = base64_decode($var);
 
         echo $html;
 
