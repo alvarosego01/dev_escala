@@ -26,10 +26,14 @@
                 <section class="innerSectionElement sct2">
 
                     <div class="groupElements row">
-                        <div class="info col-md-12 col-lg-6">
+                        <div class="info col-md-12 col-lg-8">
                             <p class="text-video">
                                 <b>
-                                    “Admito que estoy obsesionado con ver diariamente las métricas de las empresas en las que estoy involucrado. Ver reportes en tiempo real ayuda al equipo a tomar decisiones inteligentes y oportunas para conseguir mejores resultados.”
+                                    “Admito que estoy obsesionado con ver  <br class="desktopTabletElement">
+                                    diariamente las métricas de las empresas en las <br class="desktopTabletElement">
+                                     que estoy involucrado. Ver reportes en tiempo real <br class="desktopTabletElement">
+                                      ayuda al equipo a tomar decisiones inteligentes y <br class="desktopTabletElement">
+                                       oportunas para conseguir mejores resultados.”
                                 </b>
                             </p>
                             <br class="space">
@@ -38,7 +42,7 @@
                             </p>
                         </div>
 
-                        <div class="col-md-12 col-lg-6">
+                        <div class="col-md-12 col-lg-4">
 
                             <div class="containerImage">
                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-analiticas_2023.png') !!}" loading="lazy">
@@ -59,6 +63,20 @@
 
                 <section class="innerSectionElement sct1">
 
+                    <div class=" groupElements">
+                        <h2 class="primaryTitle">
+                            Analíticas en tiempo real <br class="space">
+                            <span>para escalar tu negocio</span>
+                        </h2>
+                        <p class="text">
+                            ¿Mis embudos están funcionando? <br class="space">
+                            <b>Los números dicen la verdad</b>
+                        </p>
+                    </div>
+
+                </section>
+                <section class="innerSectionElement sct2">
+
                     <div class=" row groupElements">
 
                         <div class="col-md-12 col-lg-6 column-text">
@@ -69,11 +87,13 @@
                                     <span>Prioriza tu día</span> de ventas
                                 </h2>
                                 <p class="text-p">
-                                    ¿Quiénes de mis visitantes se convierten en contactos? ¿Quienes de mis contactos se convierten en clientes?
-                                    ¿En qué parte del embudo los visitantes tienen mayor interacción? <br
-                                    class="space"> <br class="space">
-
-                                    Visualiza dónde tus embudos de venta son altamente efectivos y dónde necesitan algo de trabajo. Todo lo que deseas saber está en un solo lugar: el dashboard inteligente de escala.
+                                    ¿Quiénes de mis visitantes se convierten en contactos? ¿Quienes de <br class="desktopTabletElement">
+                                    mis contactos se convierten en clientes? <br class="space">
+                                    ¿En qué parte del embudo los visitantes tienen mayor interacción?
+                                    <br class="space"> <br class="space">
+                                    Visualiza dónde tus embudos de venta son altamente efectivos y <br class="desktopTabletElement">
+                                    dónde necesitan algo de trabajo. Todo lo que deseas saber está en <br class="desktopTabletElement">
+                                    un solo lugar: el dashboard inteligente de escala.
                                 </p>
                             </div>
                         </div>
@@ -93,13 +113,13 @@
                 <section class="innerSectionElement sct1">
 
                     <div class=" row groupElements">
-                        <div class="col-md-12 col-lg-6">
+                        <div class="col-md-12 col-lg-6 column-image">
                             <div class="containerImage">
                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/04-analiticas_2023.png') !!}" loading="lazy">
                             </div>
                         </div>
 
-                        <div class="col-md-12 col-lg-6">
+                        <div class="col-md-12 col-lg-6 column-text">
 
                             <div class="containElements">
 
@@ -108,9 +128,12 @@
                                     fueron los mejores! ... ¿Cierto?
                                 </h2>
                                 <p class="text-p">
-                                    ¿Qué campaña de anuncios digitales está generando mejores resultados? ¿Cuál atrajo más visitantes a tu página? ¿Cuántos hicieron click en tus anuncios digitales? ¿De dónde vienen tus visitantes?<br class="space"> <br class="space">
+                                    ¿Qué campaña de anuncios digitales está generando mejores <br class="desktopTabletElement">
+                                    resultados? ¿Cuál atrajo más visitantes a tu página? ¿Cuántos <br class="desktopTabletElement">
+                                    hicieron click en tus anuncios digitales? ¿De dónde vienen tus <br class="desktopTabletElement">
+                                    visitantes?<br class="space"> <br class="space">
 
-                                    <b>Ten las métricas que necesitarás para hacer<br class="space">
+                                    <b>Ten las métricas que necesitarás para hacer<br class="desktopTabletElement">
                                     tu inversión en marketing más eficiente.</b>
                                 </p>
                                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -139,9 +162,12 @@
                                     mejores resultados?  ¡Sí!
                                 </h2>
                                 <p class="text-p">
-                                    escala te enseña claramente métricas como: cuántos visitantes han visto tus páginas, qué contenido ha causado mayor interés, cuánto tiempo invirtieron revisando tu oferta, qué productos se han vendido más...<br class="space"> <br class="space">
+                                    escala te enseña claramente métricas como: cuántos visitantes <br class="desktopTabletElement">
+                                     han visto tus páginas, qué contenido ha causado mayor interés, <br class="desktopTabletElement">
+                                      cuánto tiempo invirtieron revisando tu oferta, qué productos se <br class="desktopTabletElement">
+                                       han vendido más...<br class="space"> <br class="space">
 
-                                    <b> más sabes ¡mayor capacidad tendrás de optimizar resultados!</b>
+                                    <b> más sabes ¡mayor capacidad tendrás de optimizar <br class="desktopTabletElement"> resultados!</b>
                                 </p>
                             </div>
                         </div>
@@ -174,9 +200,14 @@
                                     fue exitosa..." ¡Compruébalo!
                                 </h2>
                                 <p class="text-p">
-                                    Las métricas de escala te permiten verlo todo. Conoce el rendimiento de tus campañas de emails, descubre cuántas personas lo han abireto, qué titulos han funcionado mejor y en qué parte del email hicieron más click.<br class="space"> <br class="space">
+                                    Las métricas de escala te permiten verlo todo. Conoce el <br class="desktopTabletElement">
+                                    rendimiento de tus campañas de emails, descubre <br class="desktopTabletElement">
+                                    cuántas personas lo han abireto, qué titulos han <br class="desktopTabletElement">
+                                    funcionado mejor y en qué parte del email hicieron más <br class="desktopTabletElement">
+                                    click.<br class="space"> <br class="space">
 
-                                    Utiliza esta información valiosa para construir tu próxima campaña de email y conseguir mejores resultados.
+                                    Utiliza esta información valiosa para construir tu próxima <br class="desktopTabletElement">
+                                    campaña de email y conseguir mejores resultados.
                                 </p>
                             </div>
                         </div>
@@ -191,7 +222,7 @@
                 <section class="innerSectionElement sct1">
 
                     <div class=" row groupElements">
-                        <div class="col-md-12 col-lg-6">
+                        <div class="col-md-12 col-lg-6 column-text">
 
                             <div class="containElements">
 
@@ -200,13 +231,17 @@
                                     de tu gerente de ventas
                                 </h2>
                                 <p class="text-p">
-                                    Las analíticas son parte esencial de una buena estrategia de ventas.<br class="space"><br class="space">
-
-                                    Con las métricas de escala, tu gerente de ventas tendrá la visibilidad que necesita sobre el rendimiento de cada uno de los miembros de su equipo. No más adivinanzas, toma acciones basadas en informaicón objetiva y aumenta la probabbilidad de cumplir tus metas de venta.
+                                    Las analíticas son parte esencial de una buena estrategia <br class="desktopTabletElement">
+                                    de ventas.<br class="space"><br class="space">
+                                    Con las métricas de escala, tu gerente de ventas tendrá la <br class="desktopTabletElement">
+                                     visibilidad que necesita sobre el rendimiento de cada uno <br class="desktopTabletElement">
+                                     de los miembros de su equipo. No más adivinanzas, toma <br class="desktopTabletElement">
+                                      acciones basadas en informaicón objetiva y aumenta la <br class="desktopTabletElement">
+                                       probabbilidad de cumplir tus metas de venta.
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-12 col-lg-6">
+                        <div class="col-md-12 col-lg-6 column-image">
                             <div class="containerImage">
                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/07-analiticas_2023.png') !!}" loading="lazy">
                             </div>
@@ -236,9 +271,14 @@
                                     está tu negocio en general?
                                 </h2>
                                 <p class="text-p">
-                                    Como dueño de empresa obtén reportes amigables que te permitan diagnosticar la salud de tu negocio. Responde preguntas como: ¿Cuánto han aumentado tus ventas en comparación el trimestre pasado? ¿Qué embudo ha traido el mayor retorno de inversión? ¿Qué producto ha contribuido más al crecimiento de la emrpesa? <br class="space"> <br class="space">
+                                    Como dueño de empresa obtén reportes amigables que te permitan <br class="desktopTabletElement">
+                                     diagnosticar la salud de tu negocio. Responde preguntas como: <br class="desktopTabletElement">
+                                      ¿Cuánto han aumentado tus ventas en comparación el trimestre <br class="desktopTabletElement">
+                                       pasado? ¿Qué embudo ha traido el mayor retorno de inversión? <br class="desktopTabletElement">
+                                        ¿Qué producto ha contribuido más al crecimiento de la emrpesa? <br class="space"> <br class="space">
 
-                                    <b>Logra que escala se convierta en uno de tus mejores aliados estratégicos.</b>
+                                    <b>Logra que escala se convierta en uno de tus <br class="desktopTabletElement">
+                                         mejores aliados estratégicos.</b>
                                 </p>
                             </div>
                         </div>
