@@ -177,6 +177,11 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_style('automatizacion_TB_2023.css', asset_path('styles/pages/subPages/platform/automatizacion_TB_2023.css'), false, THEME_VERSION);
         }
 
+        // --- Automatizacion 2023
+        if (is_page_template('views/template-subPage-analiticas-2023.blade.php')) {
+            wp_enqueue_style('analiticas_TB_2023.css', asset_path('styles/pages/subPages/platform/analiticas_TB_2023.css'), false, THEME_VERSION);
+        }
+
         // --- Seccion zoom meeting 2023
         if (is_page_template('views/template-subPage-zoom-meeting-2023.blade.php')) {
             wp_enqueue_style('subPage_zoom_meeting_2023.css', asset_path('styles/pages/subPages/subPage_zoom_meeting_2023.css'), false, THEME_VERSION);
