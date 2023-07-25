@@ -20,7 +20,7 @@
 
 
         <section class="component-info-text-video-T1 customSection sectionParent analiticas-2023_1"
-            style="background-image: url('{!! App::setFilePath('/assets/images/banners/14-automatizacion_2023.png') !!}')">
+            >
             <div class="section-row">
 
                 <section class="innerSectionElement sct2">
@@ -28,13 +28,11 @@
                     <div class="groupElements row">
                         <div class="info col-md-12 col-lg-8">
                             <p class="text-video">
-                                <b>
                                     “Admito que estoy obsesionado con ver  <br class="desktopTabletElement">
                                     diariamente las métricas de las empresas en las <br class="desktopTabletElement">
                                      que estoy involucrado. Ver reportes en tiempo real <br class="desktopTabletElement">
                                       ayuda al equipo a tomar decisiones inteligentes y <br class="desktopTabletElement">
                                        oportunas para conseguir mejores resultados.”
-                                </b>
                             </p>
                             <br class="space">
                             <p class="title-video"><b>Andrés Moreno</b> <br class="space">

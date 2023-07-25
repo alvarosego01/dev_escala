@@ -24,7 +24,7 @@
 
 
         <section class="component-info-text-video-T1 customSection sectionParent automatizacion-2023_1"
-            style="background-image: url('{!! App::setFilePath('/assets/images/banners/14-automatizacion_2023.png') !!}')">
+        >
             <div class="section-row">
 
                 <section class="innerSectionElement sct2">
@@ -32,14 +32,12 @@
                     <div class="groupElements row">
                         <div class="info col-md-12 col-lg-6">
                             <p class="text-video">
-                                <b>
                                     “Uno de los mayores retos de liderar un negocio es
                                     enfocarse en lo que es importante y hacer que
                                     cada minuto cuente. Con la automatización de
                                     escala podrás ahorrarte el tiempo de hacer tareas
                                     repetitivas e invertirlo en los proyectos que
                                     agregan valor a tu negocio”.
-                                </b>
                             </p>
                             <br class="space">
                             <p class="title-video"><b>Andrés Moreno</b> <br class="space">
@@ -50,7 +48,7 @@
                         <div class="col-md-12 col-lg-6 image">
 
                             <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-automatizacion_2023.png') !!}" loading="lazy">
+                                <img src="{!! App::setFilePath('/assets/images/person/am/am_sit_elipseblue.png') !!}" loading="lazy">
                             </div>
 
                         </div>
@@ -62,7 +60,9 @@
             </div>
 
         </section>
-        <section class="sectionParent customSection automatizacion-2023_2">
+        <section class="sectionParent customSection automatizacion-2023_2"
+         style="background-image: url('{!! App::setFilePath('/assets/images/banners/14-automatizacion_2023.png') !!}')">
+        >
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">

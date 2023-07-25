@@ -289,38 +289,12 @@
                         margin: 0 auto
 
 #automatizacion_TB_2023 .customSection.sectionParent.automatizacion-2023_1
-
-    padding: 75px 0
-    padding-top: 0
-    background-color: white
-    background-position: center
-    background-size: auto
-    background-repeat: no-repeat
-    margin: 0
+    padding: 50px 0
+    padding-top: 25px
     @include responsivo(telefonoTable)
-        margin: 0
         padding: 25px 0
-        background-color: #fff
-        background-position: center
-        background-repeat: no-repeat
-        background-size: cover
     @include responsivo(pcMedio)
-        margin: 0
-        padding: 25px 0
-        background-color: #fff
-        background-repeat: no-repeat
-        background-size: cover
-    @include responsivo(general)
-        padding: 25px
-        background-size: cover
-        background-size: 4100px
-    @include responsivo(smallPcTablet)
-        background-size: 3750px
-        padding: 10px
-    @include responsivo(resto)
-        padding: 50px
-        background-size: 4300px
-
+        padding: 50px 0
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -346,14 +320,13 @@
                 @include responsivo(pcMedio)
                     display: flex
                     flex-direction: column-reverse
-                b
-                    font-weight: 700
+
                 .text-video
                     color: #322C2E
                     font-family: Nunito
                     font-size: 22px
                     font-style: normal
-                    font-weight: 600
+                    font-weight: 500
                     line-height: 1.2
                     letter-spacing: -1px
                     @include responsivo(telefonoTable)
@@ -396,6 +369,9 @@
                             font-size: 16px
                         @include responsivo(resto)
                             font-size: 18px
+
+                    b
+                        font-weight: 700
 
                 .overlaySky1
                     position: absolute
@@ -562,20 +538,26 @@
                                         font-size: 22.5px
 
 #automatizacion_TB_2023 .customSection.sectionParent.automatizacion-2023_2
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    margin-bottom: 75px
     @include responsivo(telefonoTable)
-        margin-bottom: 50px
-        padding-top: 50px
-        padding-bottom: 0
+        padding-top: 25px
+        padding-bottom: 25px
+        margin-bottom: 25px
     @include responsivo(pcMedio)
-        margin-bottom: 0px
-        padding-bottom: 50
+        padding-bottom: 50px
         padding-top: 50px
+        margin-bottom: 50px
     @include responsivo(general)
-        padding-top: 25px
+        padding-top: 50px
         padding-bottom: 50px
+        background-position: 52.5% center
     @include responsivo(resto)
-        padding-top: 25px
+        padding-top: 50px
         padding-bottom: 50px
+        background-position: 52.5% center
 
     .section-row
         display: flex
@@ -671,13 +653,14 @@
                             font-size: 30px
 
 #automatizacion_TB_2023 .customSection.sectionParent.automatizacion-2023_3
-    padding-top: 0
+    padding-top: 175px
     @include responsivo(telefonoTable)
         margin-bottom: 50px
         padding-bottom: 0
     @include responsivo(pcMedio)
         margin-bottom: 0px
         padding-bottom: 50
+
 
     .backgroundFull
         background-position: 45% center
@@ -704,6 +687,7 @@
     .section-row
         display: flex
         flex-direction: column
+        position: relative
         @include responsivo(telefonoTable)
             width: 95%
         @include responsivo(pcMedio)
@@ -722,8 +706,13 @@
             max-width: 1240px!important
         section.innerSectionElement.sct1
             margin-bottom: 50px
+            position: absolute
+            left: 0
+            right: 0
+            top: -225px
             @include responsivo(telefonoTable)
                 margin-bottom: 25px
+                top: -175px
             @include responsivo(pcMedio)
                 margin-bottom: 25px
             .containElements
