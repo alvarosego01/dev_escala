@@ -133,14 +133,14 @@
                         </div>
                         <div class="col-md-12 col-lg-6">
                             <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/04-automatizacion_2023.png') !!}" loading="lazy">
+                                <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-3.gif') !!}" loading="lazy">
                             </div>
                         </div>
                     </div>
                     <div class="groupElements row">
                         <div class="col-md-12 col-lg-6">
                             <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/05-automatizacion_2023.png') !!}" loading="lazy">
+                                <img src="{!! App::setFilePath('/assets/images/gifs/encendido.gif') !!}" loading="lazy">
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-6 sectionTexts">
@@ -159,7 +159,7 @@
                         </div>
                         <div class="col-md-12 col-lg-6">
                             <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/06-automatizacion_2023.png') !!}" loading="lazy">
+                                <img src="{!! App::setFilePath('/assets/images/gifs/notificaciones.gif') !!}" loading="lazy">
                             </div>
                         </div>
                     </div>
