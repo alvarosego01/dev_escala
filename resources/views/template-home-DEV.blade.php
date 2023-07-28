@@ -54,7 +54,7 @@
                     'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
                     'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1_big.png'),
                     'overlayImage' => null,
-                    'image' => App::setFilePath('/assets/images/illustrations/others/escala_home_am.png'),
+                    'image' => App::setFilePath('/assets/images/person/am/escala_home_am.png'),
                     'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta',
                 ])
             @endheader_t1
@@ -77,7 +77,7 @@
                     'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
                     'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1.png'),
                     'overlayImage' => null,
-             'image' => App::setFilePath('/assets/images/illustrations/others/escala_home_am.png'),
+             'image' => App::setFilePath('/assets/images/person/am/escala_home_am.png'),
                     'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta',
                 ])
             @endheader_t1
