@@ -143,7 +143,7 @@
 
 
 
-<script type="text/javascript">
+{{-- <script type="text/javascript">
     const urlParams = new URLSearchParams(window.location.search);
     const paramsObj = {};
 
@@ -165,10 +165,10 @@
         let link = `https://app.escala.com/app/activation/survey/${email}/demo`;
 
 
-        btnAgendar.setAttribute('href', link);
+
 
     }
-</script>
+</script> --}}
 
 
 
