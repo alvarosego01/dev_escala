@@ -165,7 +165,7 @@
         let link = `https://app.escala.com/app/activation/survey/${email}/demo`;
 
 
-        btnAgendar.setAttribute('href', link);
+
 
     }
 </script> --}}
