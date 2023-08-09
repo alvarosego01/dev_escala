@@ -143,7 +143,7 @@
 
 
 
-<script type="text/javascript">
+{{-- <script type="text/javascript">
     const urlParams = new URLSearchParams(window.location.search);
     const paramsObj = {};
 
@@ -168,7 +168,7 @@
         btnAgendar.setAttribute('href', link);
 
     }
-</script>
+</script> --}}
 
 
 
