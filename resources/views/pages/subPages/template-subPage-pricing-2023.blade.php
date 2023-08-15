@@ -8,10 +8,10 @@
                     "name" => 'Gerente Éxito asignado',
                     "subItems" => array(
                         [
-                            "name" => "Primeros 2 meses",
+                            "name" => "Todo el año",
                             "value" => [
                             "disabledIcon",
-                            "Hasta 3 horas"
+                            "8 horas el primer año"
                             ]
                         ],
                         [
@@ -25,13 +25,13 @@
 
                  ],
                  [
-                    "name" => 'Especialista Implementación',
+                    "name" => 'Trainer herramienta',
                     "subItems" => array(
                         [
-                            "name" => "Primeros 2 meses",
+                            "name" => "Todo el año",
                             "value" => [
                             "disabledIcon",
-                            "Hasta 6 horas"
+                            "4 horas el primer año"
                             ]
                         ],
                      )
@@ -41,7 +41,15 @@
                     "name" => 'Configuración plataforma',
                     "subItems" => array(
                         [
-                            "name" => "Primeros 3 meses",
+                            "name" => "Conexión de dominios",
+                            "value" => [
+                            "disabledIcon",
+                            "Hasta 1 hora"
+                            ]
+                        ],
+                        [
+                            "name" => "Migración / importación de datos <br>
+                            y conexión Meta Business ",
                             "value" => [
                             "disabledIcon",
                             "Hasta 1 hora"
@@ -51,8 +59,22 @@
 
                  ],
                  [
-                    "name" => 'Chat Plataforma & WhatsApp',
+                    "name" => 'Chat soporte técnico',
                     "subItems" => array(
+                        [
+                            "name" => "Chat plataforma",
+                            "value" => [
+                            "Ilimitado",
+                            "Ilimitado"
+                            ]
+                        ],
+                        [
+                            "name" => "Chat WhatsApp",
+                            "value" => [
+                            "Ilimitado",
+                            "Ilimitado"
+                            ]
+                        ],
                         [
                             "name" => "Prioridad de atención",
                             "value" => [
@@ -65,12 +87,12 @@
 
                  ],
                  [
-                    "name" => 'Capacitaciones online en vivo',
+                    "name" => 'Trainings online en vivo',
                     "subItems" => array(
                         [
-                            "name" => "Clases técnicas por herramienta",
+                            "name" => "Bootcamp Escala Ventas",
                             "value" => [
-                            "checkIcon",
+                            "disabledIcon",
                             "checkIcon"
                             ]
                         ],
@@ -88,23 +110,16 @@
                     "name" => 'Educación autoguiada',
                     "subItems" => array(
                         [
-                            "name" => "Tutoriales plataforma",
+                            "name" => "Artículos y videotutoriales",
                             "value" => [
                             "checkIcon",
                             "checkIcon"
                             ]
                         ],
                         [
-                            "name" => "Curso online por herramienta",
+                            "name" => "Cursos y Webinars online",
                             "value" => [
-                            "disabledIcon",
-                            "checkIcon"
-                            ]
-                        ],
-                        [
-                            "name" => "Acceso a grabaciones eventos",
-                            "value" => [
-                            "disabledIcon",
+                            "checkIcon",
                             "checkIcon"
                             ]
                         ],
@@ -499,7 +514,7 @@
 
                                      <div class="buttonSection">
 
-                                        <a class="secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                        <a class="secondaryButton roundedButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                             Solicitar Demo
                                         </a>
 
@@ -645,8 +660,31 @@
                                             </div>
 
                                             <label for="_contactsField">
-                                                Inbox y Automatizaciones <br class="desktopTabletElement"> de <span style="color:
+                                                Incluye Inbox y automatizaciones <br class="desktopTabletElement"> de <span style="color:
                                                 #00D35B"><strong>WhatsApp</strong></span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Whatsapp">?</button>
+                                            </label>
+                                        </div>
+                                        <div class="field select">
+                                            <select name="_whatsappField">
+                                                <option value="No" selected>No</option>
+                                                <option value="Si">Si</option>
+                                            </select>
+
+                                            <div class="quantity-nav">
+                                                <div class="quantity-button quantity-up">
+                                                    <i class="fas fa-caret-up"></i>
+                                                </div>
+                                                <div class="quantity-button quantity-down">
+                                                    <i class="fas fa-caret-down"></i>
+                                                </div>
+                                            </div>
+
+                                            <label for="_contactsField">
+                                                Incluye todas las<br>
+                                                herramientas<br>
+                                                disponibles de <span style="color:
+                                                #FF503C"><strong><br>
+                                                Inteligencia A.</strong></span>
                                             </label>
                                         </div>
 
@@ -658,7 +696,7 @@
 
                                      <div class="buttonSection">
 
-                                        <a class="primaryButton  hoverInEffect openPopUpButton popup-general-demo-2022">
+                                        <a class="primaryButton roundedButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                             Solicitar Demo
                                         </a>
 
@@ -754,7 +792,7 @@
 
                                     <div class="buttonSection">
 
-                                        <a class="primaryWhiteButton   hoverInEffect openPopUpButton popup-general-demo-2022">
+                                        <a class="primaryWhiteButton roundedButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                             Solicitar Demo
                                         </a>
 
@@ -940,146 +978,79 @@
 
         </section>
 
+        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/05-pricing_2023.png') !!})" class="customSection sectionParent subPage_pricing_2023_1">
 
-        <section class="customSection sectionParent subPage_pricing_2023_1">
-
-            <div class="section-row">
-
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h2 class="primaryTitle blackColor">
-                            El acompañamiento personalizado <br class="space">
-                            <span class="blueLightColor12">que acelera tu éxito</span>
-                        </h2>
-
-                        {{-- <p class="primaryText grayColorTexts">
-                            Desde el día 1, le asignamos a ti y a tu equipo un gerente especialista en marketing digital
-                            y <br class="desktopTabletElement">
-                            ventas que guía sus pasos para que integren exitosamente la plataforma a sus operaciones.
-                        </p> --}}
-
+            <div class="container mt-5">
+                <div class="row sct1">
+                  <div class="col-12 text-center">
+                    <h1 class="title">Somos más que una potente herramienta</h1>
+                    <p class="subtitle">¡Ningún otro CRM hace tanto por ti!</p>
+                  </div>
+                </div>
+                
+                <div class="row mt-4 sct2">
+                  <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card-box">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                            CRM personalizado y <br>
+                            listo para usarse ¡en <br>
+                            solo 10 días!
+                        </h5>
+                        <p class="card-text">*Alcance limitado</p>
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-pricing_2023.png') !!}" alt="">
+                        <p class="card-text">*Alcance limitado</p>
+                        <button class="btn btn-orange">¡Conocer más!</button>
+                      </div>
                     </div>
-
-                </section>
-
-                <section class="innerSectionElement sct2">
-
-                    <div class=" row groupElements">
-
-
-                        <div class="info col-md-12 col-lg-6">
-
-                            <div class="containElements">
-
-                                <ul class="elements">
-                                    <li class="item">
-
-                                        <div class="text">
-
-                                            <div class="containerImage">
-                                                <img alt="Pricing pro icono gerente de éxito"
-                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon_board.png') !!}" loading="lazy">
-                                            </div>
-
-                                            <h3>
-                                                Gerente de Éxito
-                                            </h3>
-                                            <p class="text">
-
-                                                Conoce a profundidad tu negocio y te guía a<br
-                                                    class="desktopTabletElement">
-                                                fortalecer tu estrategia de marketing y ventas
-
-
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li class="item">
-
-                                        <div class="text">
-                                            <div class="containerImage">
-                                                <img alt="Pricing pro icono especialista de implementación"
-                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon_phone.png') !!}" loading="lazy">
-                                            </div>
-                                            <h3>
-                                                Especialista de Implementación
-                                            </h3>
-                                            <p class="text">
-                                                Te acompaña paso a paso a implementar <br class="desktopTabletElement">
-                                                efectivamente las herramientas
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li class="item">
-
-                                        <div class="text">
-                                            <div class="containerImage">
-                                                <img alt="Pricing pro icono configuración incluida"
-                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon_fix_.png') !!}" loading="lazy">
-                                            </div>
-                                            <h3>
-                                                Configuración incluida
-                                            </h3>
-                                            <p class="text">
-                                                Nuestro equipo de soporte te apoya a conectar <br
-                                                    class="desktopTabletElement">
-                                                tu cuenta de email, dominios, Facebook Ads <br
-                                                    class="desktopTabletElement">
-                                                Manager y más
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li class="item">
-
-                                        <div class="text">
-                                            <div class="containerImage">
-                                                <img alt="Pricing pro icono chat plataforma y whatsapp"
-                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon_whatsapp.png') !!}" loading="lazy">
-                                            </div>
-                                            <h3>
-                                                Chat plataforma y WhatsApp
-                                            </h3>
-                                            <p class="text">
-                                                ¿Preguntas? nuestro equipo de servicios al <br
-                                                    class="desktopTabletElement">
-                                                cliente está listo para atenderlas en horario <br
-                                                    class="desktopTabletElement">
-                                                laboral y parte del fin de semana
-                                            </p>
-                                        </div>
-                                    </li>
-                                </ul>
-
-                                <a href="https://escala.com/servicio" class=" primaryButton hoverInEffect ">
-                                    Más información
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                        <div class="image col-md-12 col-lg-6">
-
-                            <div class="containElements">
-
-                                <div class="containerImage">
-                                    <img alt="Escala pricing mujer exitosa" src="{!! App::setFilePath('/assets/images/illustrations/others/pricing_pro_girl.png') !!}"
-                                        loading="lazy">
-                                </div>
-
-                            </div>
-
-                        </div>
-
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card-box">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                            Te guiamos a vender más <br>
+                            y mejor con Escala <br>
+                            ¡todo el año!
+                        </h5>
+                        <p class="card-text">*Horas limitadas</p>
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/03-pricing_2023.png') !!}" alt="">
+                        <p class="card-text">Servicio de Acompañamiento</p>
+                        <button class="btn btn-orange">¡Conocer más!</button>
+                      </div>
                     </div>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card-box">
+                      <div class="card-body">
+                        <h5 class="card-title">
+                            ¡Te entrenamos en <br>
+                            nuestra metodología <br>
+                            de éxito!
+                        </h5>
+                        <p class="card-text">*Horas grupales ILIMITADAS</p>
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/04-pricing_2023.png') !!}" alt="">
+                        <p class="card-text">Servicio de Educación</p>
+                        <button class="btn btn-orange">¡Conocer más!</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-                </section>
+        </section>
 
-
+        <section class="customSection sectionParent subPage_pricing_2023_2">
+            <div class="container">
+                <div class="row mt-5 sct1">
+                    <div class="col-md-6 offset-md-3 text-center">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/05-pricing_2023.png') !!}" alt="">
+                        <h2 class="title mt-3">¿Listo para subir a bordo?</h2>
+                        <button class="btn btn-orange">¡Conversemos!</button>
+                    </div>
+                </div>
             </div>
-
         </section>
 
 
@@ -1182,16 +1153,22 @@
                                         <div class="containElements">
 
                                             <p class="text">
-                                                Escala tiene integrado <span style="color: #00D35B"><strong>WhatsApp
-                                                        API</strong></span> para que puedas <br
-                                                    class="desktopTabletElement">
-                                                automatizar respuestas, enviar mensajes masivos, conversar, <br
-                                                    class="desktopTabletElement">
-                                                guardar esas conversaciones en el CRM ¡y más!
-                                                <br class="space"><br class="space">
-                                                Potencia tu capacidad de respuesta y escala tus operaciones <br
-                                                    class="desktopTabletElement">
-                                                con el Inbox y las Automatizaciones de WhatsApp
+                                                Escala tiene integrado <span style="color: #00D35B"><strong>WhatsApp API</strong></span> para que puedas<br
+                                                class="desktopTabletElement"> automatizar respuestas, enviar mensajes masivos,<br
+                                                class="desktopTabletElement">
+                                                conversar, guardar esas conversaciones en el CRM ¡y más!
+                                                <br><br>
+                                                Potencia tu capacidad de respuesta y escala tus operaciones<br
+                                                class="desktopTabletElement">
+                                                 con el Inbox y las Automatizaciones de WhatsApp.
+                                                <br><br>
+                                                Nota: La tarifa de Escala cubre la integración de la <br
+                                                class="desktopTabletElement">
+                                                herramienta de WhatsApp en la plataforma. Meta tiene <br
+                                                class="desktopTabletElement">
+                                                 tarifas extras (por ejemplo, por conversaciones) que no <br
+                                                 class="desktopTabletElement">
+                                                  están relacionadas con Escala.
                                             </p>
 
                                         </div>
