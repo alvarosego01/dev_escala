@@ -110,7 +110,7 @@
                             @include responsivo(general)
                                 height: 400px
                                 top: -100px
-                                right: -50px
+                                right: -100px
                                 margin: auto
                                 position: absolute
                                 bottom: 0
@@ -120,7 +120,8 @@
                             @include responsivo(resto)
                                 height: 450px
                                 top: -75px
-                                right: -50px
+                                right: -125px
+
                                 margin: auto
                                 position: absolute
                                 bottom: 0
@@ -826,16 +827,26 @@
 
 
 #subPage_pricing_2023 .customSection.sectionParent.subPage_pricing_2023_1
-    background-position: 30% center
     background-repeat: no-repeat
-    background-size: cover
+    @include responsivo(telefonoTable)
+        background-position: 40% center
+        background-size: cover
+        padding: 25px 0
+    @include responsivo(pcMedio)
+        background-position: 45% center
+        background-size: cover
+    @include responsivo(general)
+        background-position: 37.5% center
+        background-repeat: no-repeat
+        background-size: cover
+        padding-top: 225px
 
-    @include responsivoSpecial(1750px, 99999px)
-        background-position: 20% center
-    @include responsivoSpecial(2000px, 99999px)
-        background-position: 10% center
-    @include responsivoSpecial(2500px, 99999px)
-        background-position: 10% center
+
+    @include responsivo(resto)
+        background-position: 50% center
+        background-repeat: no-repeat
+        background-size: cover
+        padding-top: 250px
 
     .section-row
         @include responsivo(general)
@@ -892,8 +903,10 @@
                 font-size: 40px
     .row.sct2
         margin: auto
-        column-gap: 30px
         flex-wrap: nowrap
+        @include responsivo(resto)
+            column-gap: 30px
+
         @include responsivo(telefonoTable)
             flex-wrap: wrap
         @include responsivo(pcMedio)
@@ -924,6 +937,7 @@
                     font-weight: 700
                     line-height: 18.146px
                     letter-spacing: -0.907px
+
                 .card-text
                     margin-top: 0
                     margin-bottom: 0

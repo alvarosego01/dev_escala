@@ -421,9 +421,9 @@
 
                         <div class="row">
 
-                            <div class="flyingPerson col-md-12 col-lg-2">
+                            <div class="flyingPerson col-md-12 col-lg-3">
 
-                                      <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_space_landing.png') !!}" alt="" class="overlaySpace">
+                                      <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_space_landing.png') !!}" alt="" class="">
 
                             </div>
 
@@ -992,8 +992,8 @@
                     >
                       <div class="card-body">
                         <h5 class="card-title">
-                            CRM personalizado y <br class="desktopTabletElement">
-                            listo para usarse ¡en <br class="desktopTabletElement">
+                            CRM personalizado y <br class="space">
+                            listo para usarse ¡en <br class="space">
                             solo 10 días!
                         </h5>
                         <p class="card-text">*Alcance limitado</p>
@@ -1010,8 +1010,8 @@
                     >
                       <div class="card-body">
                         <h5 class="card-title">
-                            Te guiamos a vender más <br class="desktopTabletElement">
-                            y mejor con Escala <br class="desktopTabletElement">
+                            Te guiamos a vender más <br class="space">
+                            y mejor con Escala <br class="space">
                             ¡todo el año!
                         </h5>
                         <p class="card-text">*Horas limitadas</p>
@@ -1028,7 +1028,7 @@
                     >
                       <div class="card-body">
                         <h5 class="card-title">
-                            ¡Te entrenamos en nuestra <br class="desktopTabletElement">
+                            ¡Te entrenamos en nuestra <br class="space">
                             metodología de éxito!
                             <br class="desktopElement">
                             <br class="desktopElement">
