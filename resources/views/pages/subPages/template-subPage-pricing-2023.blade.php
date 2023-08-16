@@ -421,7 +421,7 @@
 
                         <div class="row">
 
-                            <div class="col-md-12 col-lg-3">
+                            <div class="flyingPerson col-md-12 col-lg-2">
 
                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_space_landing.png') !!}" alt="" class="overlaySpace">
 
@@ -514,7 +514,7 @@
 
                                      <div class="buttonSection">
 
-                                        <a class="secondaryButton roundedButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                        <a class="rounded secondaryButton roundedButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                             Solicitar Demo
                                         </a>
 
@@ -680,11 +680,8 @@
                                             </div>
 
                                             <label for="_contactsField">
-                                                Incluye todas las<br>
-                                                herramientas<br>
-                                                disponibles de <span style="color:
-                                                #FF503C"><strong><br>
-                                                Inteligencia A.</strong></span>
+                                                Incluye todas las herramientas<br class="desktopTabletElement">
+                                                disponibles de <span style="color: #FF503C"><strong> Inteligencia A.</strong></span>
                                             </label>
                                         </div>
 
@@ -696,7 +693,7 @@
 
                                      <div class="buttonSection">
 
-                                        <a class="primaryButton roundedButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                        <a class="rounded primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                             Solicitar Demo
                                         </a>
 
@@ -792,7 +789,7 @@
 
                                     <div class="buttonSection">
 
-                                        <a class="primaryWhiteButton roundedButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                        <a class="rounded primaryWhiteButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                             Solicitar Demo
                                         </a>
 
@@ -980,59 +977,67 @@
 
         <section style="background-image: url({!! App::setFilePath('/assets/images/banners/05-pricing_2023.png') !!})" class="customSection sectionParent subPage_pricing_2023_1">
 
-            <div class="container mt-5">
+            <div class="section-row ">
                 <div class="row sct1">
-                  <div class="col-12 text-center">
+                  <div class="text-center col-12">
                     <h1 class="title">Somos más que una potente herramienta</h1>
                     <p class="subtitle">¡Ningún otro CRM hace tanto por ti!</p>
                   </div>
                 </div>
-                
-                <div class="row mt-4 sct2">
-                  <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card-box">
+
+                <div class=" row sct2">
+                  <div class="mb-4 col-lg-4 col-md-12">
+                    <div class="card-box"
+                    style="background-image: url('{!! App::setFilePath('/assets/images/backgrounds/background_card_1.svg') !!}')"
+                    >
                       <div class="card-body">
                         <h5 class="card-title">
-                            CRM personalizado y <br>
-                            listo para usarse ¡en <br>
+                            CRM personalizado y <br class="desktopTabletElement">
+                            listo para usarse ¡en <br class="desktopTabletElement">
                             solo 10 días!
                         </h5>
                         <p class="card-text">*Alcance limitado</p>
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-pricing_2023.png') !!}" alt="">
                         <p class="card-text">*Alcance limitado</p>
-                        <button class="btn btn-orange">¡Conocer más!</button>
+                        <button class="rounded primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">¡Conocer más!</button>
                       </div>
                     </div>
                   </div>
-                  
-                  <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card-box">
+
+                  <div class="mb-4 col-lg-4 col-md-12">
+                    <div class="card-box"
+                    style="background-image: url('{!! App::setFilePath('/assets/images/backgrounds/background_card_1.svg') !!}')"
+                    >
                       <div class="card-body">
                         <h5 class="card-title">
-                            Te guiamos a vender más <br>
-                            y mejor con Escala <br>
+                            Te guiamos a vender más <br class="desktopTabletElement">
+                            y mejor con Escala <br class="desktopTabletElement">
                             ¡todo el año!
                         </h5>
                         <p class="card-text">*Horas limitadas</p>
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/03-pricing_2023.png') !!}" alt="">
                         <p class="card-text">Servicio de Acompañamiento</p>
-                        <button class="btn btn-orange">¡Conocer más!</button>
+                        <button class="rounded primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">¡Conocer más!</button>
                       </div>
                     </div>
                   </div>
-                  
-                  <div class="col-lg-4 col-md-12 mb-4">
-                    <div class="card-box">
+
+                  <div class="mb-4 col-lg-4 col-md-12">
+                    <div class="card-box"
+                    style="background-image: url('{!! App::setFilePath('/assets/images/backgrounds/background_card_1.svg') !!}')"
+                    >
                       <div class="card-body">
                         <h5 class="card-title">
-                            ¡Te entrenamos en <br>
-                            nuestra metodología <br>
-                            de éxito!
+                            ¡Te entrenamos en nuestra <br class="desktopTabletElement">
+                            metodología de éxito!
+                            <br class="desktopElement">
+                            <br class="desktopElement">
+
                         </h5>
                         <p class="card-text">*Horas grupales ILIMITADAS</p>
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/04-pricing_2023.png') !!}" alt="">
                         <p class="card-text">Servicio de Educación</p>
-                        <button class="btn btn-orange">¡Conocer más!</button>
+                        <button class="rounded primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">¡Conocer más!</button>
                       </div>
                     </div>
                   </div>
@@ -1042,12 +1047,12 @@
         </section>
 
         <section class="customSection sectionParent subPage_pricing_2023_2">
-            <div class="container">
-                <div class="row mt-5 sct1">
-                    <div class="col-md-6 offset-md-3 text-center">
+            <div class="section-row">
+                <div class="mt-5 row sct1">
+                    <div class="text-center col-md-6 offset-md-3">
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/05-pricing_2023.png') !!}" alt="">
-                        <h2 class="title mt-3">¿Listo para subir a bordo?</h2>
-                        <button class="btn btn-orange">¡Conversemos!</button>
+                        <h2 class="mt-3 title">¿Listo para subir a bordo?</h2>
+                        <button class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">¡Conversemos!</button>
                     </div>
                 </div>
             </div>
@@ -1065,11 +1070,11 @@
 
 
 
-<div class="customPopUp  pricingPro_special_message modal fade popup-pricingPro_Message_Contacts"
+<div class="customPopUp pricingPro_special_message modal fade popup-pricingPro_Message_Contacts"
     id="popup-pricingPro_Message_Contacts" aria-hidden="true" aria-labelledby="popup-pricingPro_Message_Contacts"
     tabindex="-1">
 
-    <div class="modal-dialog modal-dialog-centered  pricingPro_special_message">
+    <div class="modal-dialog modal-dialog-centered pricingPro_special_message">
 
         <div class="modal-content">
 
@@ -1128,11 +1133,11 @@
 
 {{--  --}}
 
-<div class="customPopUp  pricingPro_special_message modal fade popup-pricingPro_Message_Whatsapp"
+<div class="customPopUp pricingPro_special_message modal fade popup-pricingPro_Message_Whatsapp"
     id="popup-pricingPro_Message_Whatsapp" aria-hidden="true" aria-labelledby="popup-pricingPro_Message_Whatsapp"
     tabindex="-1">
 
-    <div class="modal-dialog modal-dialog-centered  pricingPro_special_message">
+    <div class="modal-dialog modal-dialog-centered pricingPro_special_message">
 
         <div class="modal-content">
 
@@ -1195,11 +1200,11 @@
     data-bs-toggle="modal" href="#popup-pricingPro_Message_Whatsapp" role="button">
 </a>
 {{--  --}}
-<div class="customPopUp  pricingPro_special_message modal fade popup-pricingPro_Message_PagoUnico"
+<div class="customPopUp pricingPro_special_message modal fade popup-pricingPro_Message_PagoUnico"
     id="popup-pricingPro_Message_PagoUnico" aria-hidden="true" aria-labelledby="popup-pricingPro_Message_PagoUnico"
     tabindex="-1">
 
-    <div class="modal-dialog modal-dialog-centered  pricingPro_special_message">
+    <div class="modal-dialog modal-dialog-centered pricingPro_special_message">
 
         <div class="modal-content">
 

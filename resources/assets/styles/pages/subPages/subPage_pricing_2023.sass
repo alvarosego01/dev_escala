@@ -20,14 +20,14 @@
 
         @include responsivo(general)
             width: 100%!important
-            max-width: 1140px!important
+            max-width: 1240px!important
 
         @include responsivo(smallPcTablet)
             max-width: 1000px!important
 
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1340px!important
+            max-width: 1375px!important
 
         .innerSectionElement.sct1
             margin-bottom: 75px
@@ -96,6 +96,35 @@
                             @include responsivo(general)
                                 height: 425px
 
+                    .flyingPerson
+                        position: relative
+                        display: flex
+                        justify-content: center
+                        align-content: center
+                        align-items: center
+                        img
+                            @include responsivo(telefonoTable)
+                                height: 275px
+                            @include responsivo(pcMedio)
+                                height: 300px
+                            @include responsivo(general)
+                                height: 400px
+                                top: -100px
+                                right: -50px
+                                margin: auto
+                                position: absolute
+                                bottom: 0
+                                left: 0
+                            @include responsivo(smallPcTablet)
+                                height: 350px
+                            @include responsivo(resto)
+                                height: 450px
+                                top: -75px
+                                right: -50px
+                                margin: auto
+                                position: absolute
+                                bottom: 0
+                                left: 0
                     .pricingCard
                         background: #FFFFFF
                         position: relative
@@ -456,8 +485,12 @@
 
                             .calculator
                                 display: flex
-                                margin-bottom: 25px
+                                margin-bottom: 0
                                 flex-direction: column
+                                @include responsivo(telefonoTable)
+                                    margin-bottom: 25px
+                                @include responsivo(pcMedio)
+                                    margin-bottom: 25px
                                 @include responsivo(general)
                                     height: 290px
                                 @include responsivo(resto)
@@ -468,6 +501,18 @@
                                     .price
                                         padding: 0
                                         margin-bottom: 0
+                                        @include responsivo(telefonoTable)
+                                            display: flex
+                                            flex-direction: column
+                                            justify-content: center
+                                            align-content: center
+                                            align-items: center
+                                        @include responsivo(pcMedio)
+                                            display: flex
+                                            flex-direction: column
+                                            justify-content: center
+                                            align-content: center
+                                            align-items: center
                                         h3
                                             font-family: Nunito
                                             font-style: normal
@@ -537,7 +582,7 @@
                                                 font-family: Nunito
                                                 font-style: normal
                                                 font-weight: 400
-                                                font-size: 14px
+                                                font-size: 13px
                                                 line-height: 1.1
                                                 letter-spacing: -0.5px
                                                 color: #797979
@@ -552,7 +597,7 @@
                                                 @include responsivo(general)
                                                     font-size: 12px
                                                 @include responsivo(smallPcTablet)
-                                                    font-size: 12px
+                                                    font-size: 11px
                                     .selector
                                         padding: 0
                                         padding-right: 10px
@@ -597,15 +642,15 @@
                                 align-content: center
                                 align-items: center
                                 margin-bottom: 25px
-                            .secondaryButton
-                                border-radius: 50px !important
-                                padding: 11px 44px !important
-                            .primaryButton
-                                border-radius: 50px !important
-                                padding: 11px 44px !important
-                            .primaryWhiteButton
-                                border-radius: 50px !important
-                                padding: 11px 44px !important
+                            // .secondaryButton
+                            //     border-radius: 50px !important
+                            //     padding: 11px 44px !important
+                            // .primaryButton
+                            //     border-radius: 50px !important
+                            //     padding: 11px 44px !important
+                            // .primaryWhiteButton
+                            //     border-radius: 50px !important
+                            //     padding: 11px 44px !important
 
                             .openComparation
                                 display: flex
@@ -785,16 +830,6 @@
     background-repeat: no-repeat
     background-size: cover
 
-    @include responsivo(telefonoTable)
-        
-    @include responsivo(pcMedio)
-        
-    @include responsivo(general)
-        
-    @include responsivo(smallPcTablet)
-        
-    @include responsivo(resto)
-        
     @include responsivoSpecial(1750px, 99999px)
         background-position: 20% center
     @include responsivoSpecial(2000px, 99999px)
@@ -802,8 +837,22 @@
     @include responsivoSpecial(2500px, 99999px)
         background-position: 10% center
 
+    .section-row
+        @include responsivo(general)
+            width: 100%
+            max-width: 1140px!important
+        // @include responsivo(smallPcTablet)
+            // max-width: 900px!important
+
+        @include responsivo(resto)
+            width: 100%
+            max-width: 1140px!important
+
     .row.sct1
-        margin-bottom: 80px
+        margin-bottom: 50px
+        @include responsivo(telefonoTable)
+            margin-bottom: 25px
+
         .title
             color: #CAF1F3
             text-align: center
@@ -842,7 +891,6 @@
             @include responsivo(smallPcTablet)
                 font-size: 40px
     .row.sct2
-        max-width: 1135px
         margin: auto
         column-gap: 30px
         flex-wrap: nowrap
@@ -853,11 +901,14 @@
         .card-box
             text-align: center
             border-width: 0
-            padding-top: 50px
-            padding-bottom: 22px
-            background-color: #fff
-            opacity: 0.9
-            border-radius: 30px
+            background-color: transparent
+            padding: 50px
+            padding-bottom: 40px
+            background-size: 425px
+            background-repeat: no-repeat
+            background-position: center
+            // @include responsivo(smallPcTablet)
+            //     padding: 25px
             .card-body
                 display: flex
                 row-gap: 20px
@@ -902,6 +953,10 @@
                     width: fit-content
 
 #subPage_pricing_2023 .customSection.sectionParent.subPage_pricing_2023_2
+    padding: 50px 0
+    @include responsivo(telefonoTable)
+        padding: 25px 0
+
     .sct1
         .title
             color: #322C2E
@@ -911,7 +966,7 @@
             font-size: 45px
             font-style: normal
             font-weight: 700
-            line-height: 18.146px
+            line-height: 1
             letter-spacing: -0.907px
             margin-bottom: 30px
             @include responsivo(telefonoTable)
@@ -922,23 +977,18 @@
                 font-size: 42.5px
             @include responsivo(smallPcTablet)
                 font-size: 40px
-        .btn-orange
-            border-radius: 10px
-            background: #FF4E33
-            color: #FFF
-            font-feature-settings: 'clig' off, 'liga' off
-            font-family: Nunito
-            font-size: 18px
-            font-style: normal
-            font-weight: 600
-            line-height: 18.146px
-            letter-spacing: -0.907px
-            width: 202px
-            height: 40px
+
         img
             margin-bottom: 60px
-            width: 454px
-            
+            @include responsivo(telefonoTable)
+                height: 100px
+            @include responsivo(pcMedio)
+                height: 125px
+            @include responsivo(general)
+                height: 150px
+            @include responsivo(resto)
+                height: 175px
+
 
 .quantity-nav
     // float: left
