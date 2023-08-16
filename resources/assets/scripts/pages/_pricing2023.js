@@ -381,14 +381,17 @@ function calculateFinal(data) {
     let _contacts = converContacts(data._contactsField);
     let _users = convertUsers(data);
     let _whatsapp = (data._whatsappField === 'Si')? 40 : 0;
+    let _iaField = (data._iaField === 'Si')? 40 : 0;
 
-    console.log('_typePlan', _typePlan);
+    let extra = 0
+
+    extra = extra + _whatsapp + _iaField;
 
     if (_typePlan == 'monthly') {
 
         let priceTach = null;
 
-        costFinal = _contacts.pro + _users.pro + _whatsapp;
+        costFinal = _contacts.pro + _users.pro + extra;
         discount = 0;
 
         priceTach = costFinal * 12;
@@ -407,7 +410,7 @@ function calculateFinal(data) {
         let priceAhorro = null;
         let discountTotal = null;
 
-        costFinal = _contacts.pro + _users.pro + _whatsapp;
+        costFinal = _contacts.pro + _users.pro + extra;
 
         priceTach = costFinal * 12;
 

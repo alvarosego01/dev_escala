@@ -665,7 +665,7 @@
                                             </label>
                                         </div>
                                         <div class="field select">
-                                            <select name="_whatsappField">
+                                            <select name="_iaField">
                                                 <option value="No" selected>No</option>
                                                 <option value="Si">Si</option>
                                             </select>
