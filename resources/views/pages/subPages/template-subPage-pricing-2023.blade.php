@@ -680,8 +680,7 @@
                                             </div>
 
                                             <label for="_contactsField">
-                                                Incluye todas las herramientas<br class="desktopTabletElement">
-                                                disponibles de <span style="color: #FF503C"><strong> Inteligencia A.</strong></span>
+                                                Incluye <span style="color: #FF503C"><strong> Inteligencia Artificial</strong></span>
                                             </label>
                                         </div>
 
