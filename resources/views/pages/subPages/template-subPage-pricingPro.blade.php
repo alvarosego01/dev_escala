@@ -521,7 +521,7 @@
                                                 </div>
                                             </div>
 
-                                            <label for="_contactsField">
+                                            <label for="_whatsappField">
                                                 Inbox y Automatizaciones <br class="space"> de <span style="color:
                                                 #00D35B"><strong>WhatsApp</strong></span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Whatsapp">?</button>
                                             </label>
@@ -541,7 +541,7 @@
                                                 </div>
                                             </div>
 
-                                            <label for="_contactsField">
+                                            <label for="_iaField">
                                                 Incluye <span style="color: #FF503C"><strong> Inteligencia Artificial</strong></span>
                                             </label>
                                         </div>
@@ -771,10 +771,10 @@
 
 
 
-<div class="customPopUp  pricingPro_special_message modal fade popup-pricingPro_Message_Contacts" id="popup-pricingPro_Message_Contacts"
+<div class="customPopUp pricingPro_special_message modal fade popup-pricingPro_Message_Contacts" id="popup-pricingPro_Message_Contacts"
     aria-hidden="true" aria-labelledby="popup-pricingPro_Message_Contacts" tabindex="-1">
 
-    <div class="modal-dialog modal-dialog-centered  pricingPro_special_message">
+    <div class="modal-dialog modal-dialog-centered pricingPro_special_message">
 
         <div class="modal-content">
 
@@ -827,10 +827,10 @@
 
 {{--  --}}
 
-<div class="customPopUp  pricingPro_special_message modal fade popup-pricingPro_Message_Whatsapp" id="popup-pricingPro_Message_Whatsapp"
+<div class="customPopUp pricingPro_special_message modal fade popup-pricingPro_Message_Whatsapp" id="popup-pricingPro_Message_Whatsapp"
     aria-hidden="true" aria-labelledby="popup-pricingPro_Message_Whatsapp" tabindex="-1">
 
-    <div class="modal-dialog modal-dialog-centered  pricingPro_special_message">
+    <div class="modal-dialog modal-dialog-centered pricingPro_special_message">
 
         <div class="modal-content">
 
@@ -883,10 +883,10 @@
     data-bs-toggle="modal" href="#popup-pricingPro_Message_Whatsapp" role="button">
 </a>
 {{--  --}}
-<div class="customPopUp  pricingPro_special_message modal fade popup-pricingPro_Message_PagoUnico" id="popup-pricingPro_Message_PagoUnico"
+<div class="customPopUp pricingPro_special_message modal fade popup-pricingPro_Message_PagoUnico" id="popup-pricingPro_Message_PagoUnico"
     aria-hidden="true" aria-labelledby="popup-pricingPro_Message_PagoUnico" tabindex="-1">
 
-    <div class="modal-dialog modal-dialog-centered  pricingPro_special_message">
+    <div class="modal-dialog modal-dialog-centered pricingPro_special_message">
 
         <div class="modal-content">
 

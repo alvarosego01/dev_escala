@@ -659,7 +659,7 @@
                                                 </div>
                                             </div>
 
-                                            <label for="_contactsField">
+                                            <label for="_whatsappField">
                                                 Incluye Inbox y automatizaciones <br class="desktopTabletElement"> de <span style="color:
                                                 #00D35B"><strong>WhatsApp</strong></span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Whatsapp">?</button>
                                             </label>
@@ -679,7 +679,7 @@
                                                 </div>
                                             </div>
 
-                                            <label for="_contactsField">
+                                            <label for="_iaField">
                                                 Incluye <span style="color: #FF503C"><strong> Inteligencia Artificial</strong></span>
                                             </label>
                                         </div>
