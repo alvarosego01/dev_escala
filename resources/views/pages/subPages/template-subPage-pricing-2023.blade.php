@@ -997,7 +997,7 @@
                         </h5>
                         <p class="card-text">*Alcance limitado</p>
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-pricing_2023.png') !!}" alt="">
-                        <p class="card-text">*Alcance limitado</p>
+                        <p class="card-text">*Servicio de implementación</p>
                         <button class="rounded primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">¡Conocer más!</button>
                       </div>
                     </div>
