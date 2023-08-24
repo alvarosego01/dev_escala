@@ -37,7 +37,7 @@
                                 - Recolecta el pago <br class="space">
                                 - Asiste por chat al cliente del Partner <br class="space">
                                 - Brinda sesión de configuración a cada cliente del Partner <br class="space">
-                                - Asiste al Partner a brindar servicio de implementación y gestión de cuenta post-venta'
+                                - Asiste al Partner a brindar servicio de implementación y gestión de cuentapost-venta'
 
                             ]
                         ],
