@@ -37,7 +37,7 @@
                                 - Recolecta el pago <br class="space">
                                 - Asiste por chat al cliente del Partner <br class="space">
                                 - Brinda sesión de configuración a cada cliente del Partner <br class="space">
-                                - Asiste al Partner a brindar servicio de implementación y gestión de cuentapost-venta'
+                                - Asiste al Partner a brindar servicio de implementación y gestión de cuentapost venta'
 
                             ]
                         ],
@@ -199,7 +199,8 @@
                                 '<span>1.</span> Acceso a Curso online Afiliados
                                 ',
                                 '<span>1.</span> Acceso a Curso online Partner Comercial <br class="space">
-                                <span>2.</span> Invitación a Eventos de Marketing Escala 3.Capacitaciones de agencia (temas específicos para agencias, especializaciones para agencias-best practices)
+                                <span>2.</span> Invitación a Eventos de Marketing Escala <br class="space">
+                                <span>3.</span>Capacitaciones de agencia (temas específicos para agencias, especializaciones para agencias-best practices)
                                 ',
                                 '<span>1.</span> Acceso a Curso online Partner de Servicio<br class="space">
                                 <span>2.</span> Invitación a Eventos de Marketing Escala<br class="space">
@@ -245,7 +246,7 @@
                                 ',
                                 '<span>4.</span> Gerente de Éxito asignado (TBD) <br class="space">
                                 <span>5.</span> Especialista de Implementación asignado <br class="space">
-                                <span>6.</span> Sesión de configuración 
+                                <span>6.</span> Sesión de configuración
                                 '
                             ]
                         ],
