@@ -37,7 +37,7 @@
                                 - Recolecta el pago <br class="space">
                                 - Asiste por chat al cliente del Partner <br class="space">
                                 - Brinda sesión de configuración a cada cliente del Partner <br class="space">
-                                - Asiste al Partner a brindar servicio de implementación y gestión de cuenta post-venta'
+                                - Asiste al Partner a brindar servicio de implementación y gestión de cuentapost venta'
 
                             ]
                         ],
@@ -49,8 +49,7 @@
                                 '<span>1.</span> Firmar Acuerdo Afiliado',
                                 '<span>1.</span> Completar training de reseller <br class="space">
                                 <span>2.</span> Firmar Acuerdo Partner Comercial autorizado',
-                                '<span>1.</span> Certificarte <br class="space">
-                                <span>2.</span> Comprar Plan Pro <br class="space">
+                                '<span>1.</span> Certificarte 2. Comprar licencia PRO (negociable el primer año). <br class="space">
                                 <span>3.</span> Firmar Acuerdo Partner <br class="space">
                                 <span>4.</span> Ser aprobado/invitado por Escala'
                             ]
@@ -60,17 +59,17 @@
                             "type" => "solid",
                             "subItems" => [
                                 'Comisión',
-                                '15% Recurrent for 12 months',
-                                'Mientras se mantenga como Parner Comercial autorizado <br class="space">
-                                <span>Silver:</span> 20% Recurrent for 12 months  <br class="space">
-                                <span>Gold:</span> 25% Recurrent for 12 months <br class="space">
-                                <span>Diamond:</span> 30% Recurrent for 12 months
+                                '20% 1er. pago y 15% pagos restantes por primer año.',
+                                'Mientras se mantenga como Partner Comercial autorizado <br class="space">
+                                <span>Silver:</span> 20% para el primer año. <br class="space">
+                                <span>Gold:</span> 25% para el primer año. <br class="space">
+                                <span>Diamond:</span> 30% para el primer año.
                                 ',
                                 'Mientras esté activo como Partner de Servicio, recibe este tipo de comisión solo por aquellos clientes que consiguió, le vendió la suscripción de Escala y le brinda el servicio de implementación + gestión de cuenta
                                 <br class="space"><br class="space">
-                                <span>Silver:</span> 20% Recurrent in perpetuity <br class="space">
-                                <span>Gold:</span> 25% Recurrent in perpetuity <br class="space">
-                                <span>Diamond:</span> 30% Recurrent in perpetuity
+                                <span>Silver:</span> 25% Primer año y 20% a partir del segundo año en adelante.<br class="space">
+                                <span>Gold:</span> 30% Primer año y 25% a partir del segundo año en adelante.<br class="space">
+                                <span>Diamond:</span> 35% Primer año y 30% a partir del segundo año en adelante.
                                 ',
 
                             ],
@@ -175,10 +174,13 @@
                             Suscripción Escala<br class="space">
                             para el Partner',
                                 '<span>1.</span> Free Trial = 10 días<br class="space">
-                                Sin descuento',
-                                '<span>1.</span> Descuento en Anual<br class="space">
-                                20% Al iniciar camino de Partner Comercial<br class="space">
-                                65% Al traer 1 cliente antes de acabarse tu Free Trial',
+                                Sin descuento
+                                ',
+                                '<span>1.</span> Free Trial = 30 días Plan Pro <br class="space">
+                                <span>2.</span> Descuento en Anual <br class="space">
+                                --- 30% Al iniciar camino de Partner Comercial <br class="space">
+                                --- 65% Al traer 1 cliente antes de acabarse tu Free Trial
+                                ',
                                 '<span>1.</span> Descuento en Anual<br class="space">
                                 30% Al iniciar camino de Partner de Servicio<br class="space">
                                 65% Al vender 1 licencia Pro antes de culminarse tu Free Trial'
@@ -194,9 +196,12 @@
                                 'Beneficios<br class="space">
                             Training para<br class="space">
                             el Partner',
-                                '<span>1.</span> Acceso a Curso online Afiliados',
-                                '<span>1.</span> Acceso a Curso online Partner Comercial<br class="space">
-                                <span>2.</span> Invitación a Eventos de Marketing Escala',
+                                '<span>1.</span> Acceso a Curso online Afiliados
+                                ',
+                                '<span>1.</span> Acceso a Curso online Partner Comercial <br class="space">
+                                <span>2.</span> Invitación a Eventos de Marketing Escala <br class="space">
+                                <span>3.</span>Capacitaciones de agencia (temas específicos para agencias, especializaciones para agencias-best practices)
+                                ',
                                 '<span>1.</span> Acceso a Curso online Partner de Servicio<br class="space">
                                 <span>2.</span> Invitación a Eventos de Marketing Escala<br class="space">
                                 <span>3.</span> Invitación a Eventos de Servicio Escala<br class="space">
@@ -233,11 +238,16 @@
                                 'Beneficios<br class="space">
                             Servicio para<br class="space">
                             el Partner',
-                                'N/A',
-                                'N/A',
-                                '<span>1.</span> Gerente de Éxito asignado<br class="space">
-                                <span>2.</span> Especialista de Implementación asignado<br class="space">
-                                <span>3.</span> Sesión de configuración'
+                                'N/A
+                                ',
+                                '<span>4.</span> Gerente de Éxito asignado <br class="space">
+                                <span>5.</span> Especialista de Implementación asignado <br class="space">
+                                <span>6.</span> Sesión de configuración
+                                ',
+                                '<span>4.</span> Gerente de Éxito asignado (TBD) <br class="space">
+                                <span>5.</span> Especialista de Implementación asignado <br class="space">
+                                <span>6.</span> Sesión de configuración
+                                '
                             ]
                         ],
                         [
