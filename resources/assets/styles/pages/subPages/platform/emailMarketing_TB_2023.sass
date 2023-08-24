@@ -282,23 +282,13 @@
                         margin: 0 auto
 
 #emailMarketing_TB_2023 .customSection.sectionParent.emailMarketing-2023_1
-    padding: 50px 0
-    padding-top: 25px
+    padding: 75px 0
+    padding-bottom: 100px
     @include responsivo(telefonoTable)
         padding: 25px 0
     @include responsivo(pcMedio)
         padding: 50px 0
-    .backgroundFull
-        background-position: center
-        background-repeat: no-repeat
-        background-size: auto
-        overflow: visible
-        @include responsivo(telefonoTable)
-            background-size: cover
-        @include responsivo(pcMedio)
-            background-size: cover
-        @include responsivo(general)
-            background-position: center
+
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -585,11 +575,45 @@
             max-width: 1240px!important
 
         section.innerSectionElement.sct1
-            margin-bottom: 50px
             @include responsivo(telefonoTable)
-                margin-bottom: 25px
+                margin-bottom: 35px
+            @include responsivo(pcMedio)
+                margin-bottom: 50px
+            @include responsivo(general)
+                margin-bottom: 75px
+            @include responsivo(smallPcTablet)
+                margin-bottom: 75px
+            @include responsivo(resto)
+                margin-bottom: 100px
+
+            .specialOverlay
+                height: 200px
+                position: absolute
+                width: auto
+                top: -25px
+                left: 0
+                right: 0
+                display: block
+                margin: auto
+                z-index: 5
+                @include responsivo(telefonoTable)
+                    height: 150px
+                    top: -10px
+                    object-fit: cover
+                    object-position: center
+                @include responsivo(pcMedio)
+                    height: 135px
+                    top: -10px
+                @include responsivo(general)
+                    top: -25px
+                    height: 175px
+                @include responsivo(smallPcTablet)
+                    height: 175px
+                    top: -25px
 
             .groupElements
+                z-index: 10
+                position: relative
                 .primaryTitle
                     text-align: center
                     color: #322C2E

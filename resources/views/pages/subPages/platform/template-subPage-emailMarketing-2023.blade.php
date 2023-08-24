@@ -29,7 +29,7 @@
 
 
         <section class="component-info-text-video-T1 customSection sectionParent emailMarketing-2023_1">
-            <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/12-emailMarketing-2023.png') !!}')" class="backgroundFull">
+
                 <div class="section-row">
 
                     <section class="innerSectionElement sct2">
@@ -64,15 +64,17 @@
                     </section>
 
                 </div>
-            </div>
         </section>
 
         <section class="sectionParent customSection emailMarketing-2023_2">
             <div class="section-row">
 
-                <section class="innerSectionElement sct1">
+                <section
 
-                    <div class=" groupElements">
+                 class="innerSectionElement sct1">
+
+                    <div
+                    class=" groupElements">
                         <h2 class="primaryTitle">
                             <span>¡Hola! {Primer nombre},</span><br class="space">
                             Empecemos a hablar...
@@ -81,6 +83,10 @@
                             Envía emails personalizados a cientos de contactos en segundos
                         </p>
                     </div>
+
+                    {{-- img.specialOverlay --}}
+
+                    <img src="{!! App::setFilePath('/assets/images/banners/emailMarketing_titleOverlay.svg') !!}" alt="" class="specialOverlay">
 
                 </section>
                 <section class="innerSectionElement sct2">
@@ -340,7 +346,7 @@
                                 más impacto y dale seguimiento para ver cuántas <br
                                 class="desktopTabletElement">
                                 ganancias generó para tu negocio. <br class="space"><br class="space">
-                                
+
                                 ¡Aprende, optimiza y crece!
                             </p>
                         </div>
