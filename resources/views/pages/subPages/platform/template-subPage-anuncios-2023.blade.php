@@ -69,7 +69,7 @@
             </div>
         </section>
 
-        <section class="sectionParent customSection anuncios-2023_2">
+        <section class="component-info-text-image-T1 sectionParent customSection anuncios-2023_2">
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
@@ -89,7 +89,7 @@
 
                     <div class=" row groupElements">
 
-                        <div class="col-md-12 col-lg-6 column-text">
+                        <div class="col-md-12 col-lg-6 column-text info">
 
                             <div class="containElements">
 
@@ -97,7 +97,7 @@
                                     <span>Segmenta y consigue</span> <br class="space">
                                     más clientes potenciales
                                 </h2>
-                                <p class="text-p">
+                                <p class="text-p text">
                                     Una de las claves para crear anuncios exitosos es escoger <br
                                     class="desktopTabletElement">
                                     correctamente el público al que deseas dirigir tus campañas de <br
@@ -124,13 +124,13 @@
                     <section class="innerSectionElement sct1">
 
                         <div class=" row groupElements">
-                            <div class="col-md-12 col-lg-6 column-image">
+                            <div class="col-md-12 col-lg-5 column-image">
                                 <div class="containerImage">
                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/04-anuncios-2023.png') !!}" loading="lazy">
                                 </div>
                             </div>
 
-                            <div class="col-md-12 col-lg-6 column-text">
+                            <div class="col-md-12 col-lg-7 column-text">
 
                                 <div class="containElements">
 
@@ -286,6 +286,8 @@
                         <p class="primaryText">
                             Crea y maneja potentes campañas digitales en Escala
                         </p>
+                    </div>
+                </section>
                 <section class="innerSectionElement sct2">
                         <p class="secondaryText">
                             Imagina poder saber: qué campaña de anuncios digitales generó más visitas a tu landing <br
@@ -302,8 +304,6 @@
                             class="desktopTabletElement">
                             con el Pixel de Facebook integrado.
                         </p>
-                </section>
-                    </div>
                 </section>
             </div>
         </section>
