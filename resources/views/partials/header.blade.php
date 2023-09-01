@@ -71,6 +71,7 @@
         )
     @endphp
 
+
     @navBar_default_extended($p)
     @endnavBar_default_extended
 
