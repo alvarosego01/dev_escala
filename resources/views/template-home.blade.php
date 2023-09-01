@@ -129,12 +129,12 @@
                                             </p>
                                         </video>
 
-
                                         <a class=" secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                             Ver el demo
                                         </a>
 
                                     </div>
+
                                 @endif
 
                             </div>
