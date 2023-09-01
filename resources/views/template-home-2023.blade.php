@@ -5,37 +5,11 @@
 @extends('layouts.app')
 @section('content')
 
-    <div id="homeSection">
+    <div id="homeSection_2023">
         <div class="sections">
 
-            {{-- @php
-                $parameters = [
-                    'backgroundImageType' => true,
-                    'overlay' => false,
-                    'classSection' => 'threeCol homeSection_0 newHome',
-                    'title' => '
-        Acelera el crecimiento <br class="space">
-        <span style="color: #DEF3F5">de tu empresa con Escala</span>
-    ',
-                    'text' =>
-                        '<span class="whiteColor">
-            La plataforma todo-en-uno para mejorar tus <br class="space">
-            resultados de marketing y ventas
-      </span>
-      <img class="funnelImage" src="' .
-                        App::setFilePath('/assets/images/illustrations/others/temporal_funnel.png') .
-                        '" alt="">
-      ',
-                    'threeCol' => true,
-                    'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
-                    'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1_big.png'),
-                    'overlayImage' => null,
-                    'image' => App::setFilePath('/assets/images/person/am/temporal_am.png'),
-                    'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM',
-                ];
-            @endphp --}}
 
-            @header_t1([
+            {{-- @header_t1([
                 'backgroundImageType' => true,
                 'overlay' => false,
                 'classSection' => 'desktopElement threeCol homeSection_0 newHome',
@@ -55,29 +29,232 @@
                 'image' => App::setFilePath('/assets/images/person/am/escala_home_am.png'),
                 'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta'
             ])
-            @endheader_t1
+            @endheader_t1 --}}
 
-            @header_t1([
-                'backgroundImageType' => true,
-                'overlay' => false,
-                'classSection' => 'mobileElement threeCol homeSection_0 newHome',
-                'title' => '
-                                Acelera el crecimiento <br class="space">
-                                <span style="color: #DEF3F5">de tu empresa con Escala</span>
-                            ',
-                'text' => '<span class="whiteColor">
-                                    La plataforma todo-en-uno para mejorar tus <br class="space">
-                                    resultados de marketing y ventas
-                              </span>
-                              ',
-                'threeCol' => true,
-                'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
-                'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1.png'),
-                'overlayImage' => null,
-                'image' => App::setFilePath('/assets/images/person/am/escala_home_am.png'),
-                'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta'
-            ])
-            @endheader_t1
+                 @php
+                                    $elements = [
+                                        [
+                                            'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
+                                            'text' => 'Escala / plataforma CRM',
+                                            'points' => '4.8 / 5',
+                                        ],
+                                        [
+                                            'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                                            'text' => 'Escala / plataforma CRM',
+                                            'points' => '4.9 / 5',
+                                        ],
+                                        [
+                                            'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                                            'text' => 'Escala / plataforma CRM',
+                                            'points' => '4.8 / 5',
+                                        ],
+                                    ];
+                                @endphp
+
+
+             <section id="lead-form"
+        class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol home_2023_0 newHome ">
+
+
+
+
+        <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/background_home_1.svg') }}')" class="backgroundFull">
+
+
+
+            <div class="section-row">
+
+                   <section class="innerSectionElement sct0">
+
+                      <div class="containElements">
+
+                            <h1 class="principalBigTitle ">
+                                <span>Acelera el crecimiento</span> de tu empresa
+                            </h1>
+
+                      </div>
+
+                   </section>
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="groupElements row">
+
+
+                        <div class="info col-md-12 col-lg-9 ">
+
+
+                                <div class="containElements row threeCol">
+
+                                    <div class="ele reviews col-md-12 col-lg-3">
+
+                                         <div class="elements">
+
+                                    @foreach ($elements as $item)
+                                        <div class="refersElement">
+
+                                            <div class="infoInner">
+                                                <div class="tag">
+                                                    <div class="containerImage">
+                                                        <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                    </div>
+
+                                                       <span class="points">
+                                                    {!! $item['points'] !!}
+                                                </span>
+                                                </div>
+                                                <p class="text">
+                                                    {!! $item['text'] !!}
+                                                </p>
+                                                <div class="stars">
+                                                    <div class="containerImage">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_blue.svg') !!}" loading="lazy">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    @endforeach
+
+                                </div>
+
+
+                                    </div>
+
+                                    <div class="ele video col-md-12 col-lg-9">
+
+                                         @php
+                                    $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
+                                    $videoCover = App::setFilePath('/assets/images/illustrations/others/home_portrait.png');
+                                @endphp
+
+                                @if (isset($videoEmbed) && $videoEmbed != null)
+                                    <div class="youtubeImageContainer ">
+
+                                        <video class="video-js" controls preload="none" poster="{{ $videoCover }}"
+                                            {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                            data-setup="{
+                                  autoplay: false
+                                }">
+                                            <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                            <source src="{{ $videoEmbed }}" type="video/webm" />
+                                            <p class="vjs-no-js">
+                                                To view this video please enable JavaScript, and consider upgrading to a
+                                                web browser that
+                                                <a href="https://videojs.com/html5-video-support/" target="_blank">supports
+                                                    HTML5 video</a>
+                                            </p>
+                                        </video>
+
+
+                                    </div>
+
+                                @endif
+
+                                    </div>
+
+                                </div>
+
+
+                        </div>
+
+                        <div class="form7 col-md-12 col-lg-3 ">
+
+                            <div class="containElements">
+
+                                <div class="formatForm redirectWeb"   redirectWeb="true">
+
+                                    <h5 class="titleFormat blackcolor">
+                                       Recibe un tour guiado <br class="space">
+                                       de Escala
+                                    </h5>
+
+
+
+                                    @php
+                                        $_args = array('post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1);
+                                        $_rs = array();
+                                        $_formShortcode = null;
+                                        if( $_data = get_posts($_args)){
+                                            foreach($_data as $_key){
+                                                $_rs[$_key->ID] = $_key->post_title;
+                                                if( $_key->post_title === 'Profile demo - Flujo Demo' ){
+                                                    $_formShortcode = '[contact-form-7 id="'.$_key->ID.'"]';
+                                                }
+                                            }
+                                        }else{
+                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
+                                    @endphp
+                                {!! do_shortcode($_formShortcode); !!}
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                  <section class="innerSectionElement sct2">
+
+                      <div class="containElements">
+
+                        @php
+                            $elements = array(
+                                [
+                                    "text" => 'CRM todo-en-uno fácil de usar <br class="desktopElement"> e implementado en 10 días'
+                                ],
+                                [
+                                    "text" => 'Acompañamiento y entrenamiento <br class="desktopElement"> para escalar empresas'
+                                ],
+                                [
+                                    "text" => 'Generas leads, nutres y <br class="desktopElement"> conviertes más y mejor'
+                                ]
+                            );
+                        @endphp
+
+                        <div class="elementsCheck">
+
+                            @foreach ($elements as $item)
+                                <div class="element">
+
+                                    <div class="info">
+
+                                        <div class="icon">
+
+                                            <div class="containerImage">
+                                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon_check_orange.png') }}" loading="lazy">
+                                            </div>
+                                        </div>
+
+                                        <p class="text">
+                                            {!! $item['text'] !!}
+                                        </p>
+                                    </div>
+
+                                </div>
+                            @endforeach
+
+                        </div>
+
+
+                      </div>
+
+                  </section>
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
 
             <section class="customSection sectionParent home_2023_1">
 
@@ -154,7 +331,50 @@
 
                         <div class="containElements">
 
+                            <div class="row">
 
+                                <div class="col-md-12 col-lg-6 selectors">
+                                        @php
+                                        $elements = array(
+                                            [
+                                                "title" => "Inteligencia Artifical",
+                                                "icon" => ""
+                                            ],
+                                            [
+                                                "title" => "Landing Pages",
+                                                "icon" => ""
+                                            ],
+                                            [
+                                                "title" => "Gestión de contactos y procesos",
+                                                "icon" => ""
+                                            ],
+                                            [
+                                                "title" => "Email Marketing",
+                                                "icon" => ""
+                                            ],
+                                            [
+                                                "title" => "WhatsApp automático y masivo",
+                                                "icon" => ""
+                                            ],
+                                            [
+                                                "title" => "Anuncios digitales integrados ",
+                                                "icon" => ""
+                                            ],
+                                            [
+                                                "title" => "Flujos de automatización",
+                                                "icon" => ""
+                                            ]
+                                        )
+                                    @endphp
+
+                                </div>
+                                <div class="col-md-12 col-lg-6 info">
+
+
+
+                                </div>
+
+                            </div>
 
                         </div>
 
@@ -367,7 +587,7 @@
                                                 </h5>
                                                 <h5 class="card-subtitle">
                                                     Recibe la plataforma de <br class="space">
-                                                    Escala lista para: 
+                                                    Escala lista para:
                                                 </h5>
                                                 <ul>
                                                     <li>
@@ -544,7 +764,7 @@
                                                     </p>
                                                     </div>
                                                     <div class="col-md-4">
-                                                        
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -772,7 +992,7 @@
                         ],
                     ],
                 ];
-                
+
                 $parameters = [
                     'classSection' => 'homeSection_11',
                     'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
