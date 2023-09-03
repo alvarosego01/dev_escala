@@ -679,6 +679,24 @@
                         $items = [
                             [
                                 'title' => '
+                                   <span>Co-fundador</span> de Empresa
+                                ',
+                                'text' => '
+                                    <span>
+                                        “Encontré en Escala una plataforma <br class="space">
+                                         que me permite integrar Landing <br class="space">
+                                          Pages, automatización, email y CRM <br class="space">
+                                           en un solo lugar.
+                                    </span> Tiene una gran <br class="space">
+                                        posibilidad de convertirse en un <br class="space">
+                                         referente en el mercado latino.”
+                                ',
+                                'name' => '
+                                 Mauricio Córdova Lara
+                                ',
+                            ],
+                            [
+                                'title' => '
                                     <span>Dueño</span> de negocio
                                 ',
                                 'text' => '
@@ -690,21 +708,6 @@
                                 ',
                                 'name' => '
                                     Paulina Pizarro Santana
-                                ',
-                            ],
-                            [
-                                'title' => '
-                                    <span>Lider</span> de Marketing
-                                ',
-                                'text' => '
-                                    <span>“Con Escala he podido <br class="space">
-                                    automatizar mejor los procesos <br class="space">
-                                    de prospección.</span> Es una <br class="space">
-                                    plataforma fácil de implementar <br class="space">
-                                    y de manejo muy intuitivo.”
-                                ',
-                                'name' => '
-                                   Andrea Sánchez
                                 ',
                             ],
                             [
@@ -725,20 +728,17 @@
                             ],
                             [
                                 'title' => '
-                                    <span>Gerente</span> de Ventas
+                                    <span>Lider</span> de Marketing
                                 ',
                                 'text' => '
-                             <span>
-                                 “Escala es la plataforma ideal para <br class="space">
-                                  impulsar tus ventas. Cuentan con un  <br class="space">
-                                  equipo de soporte eficiente y atento.
-                             </span> <br class="space">
-                               Fui asesorada en todo momento y  <br class="space">
-                               fueron muy serviciales para ayudarme <br class="space">
-                                a lograr mis requerimientos.”
+                                    <span>“Con Escala he podido <br class="space">
+                                    automatizar mejor los procesos <br class="space">
+                                    de prospección.</span> Es una <br class="space">
+                                    plataforma fácil de implementar <br class="space">
+                                    y de manejo muy intuitivo.”
                                 ',
                                 'name' => '
-                                Pierina Barajas
+                                   Andrea Sánchez
                                 ',
                             ],
                             [
@@ -761,20 +761,20 @@
                             ],
                             [
                                 'title' => '
-                                   <span>Co-fundador</span> de Empresa
+                                    <span>Gerente</span> de Ventas
                                 ',
                                 'text' => '
-                                    <span>
-                                        “Encontré en Escala una plataforma <br class="space">
-                                         que me permite integrar Landing <br class="space">
-                                          Pages, automatización, email y CRM <br class="space">
-                                           en un solo lugar.
-                                    </span> Tiene una gran <br class="space">
-                                        posibilidad de convertirse en un <br class="space">
-                                         referente en el mercado latino.”
+                             <span>
+                                 “Escala es la plataforma ideal para <br class="space">
+                                  impulsar tus ventas. Cuentan con un  <br class="space">
+                                  equipo de soporte eficiente y atento.
+                             </span> <br class="space">
+                               Fui asesorada en todo momento y  <br class="space">
+                               fueron muy serviciales para ayudarme <br class="space">
+                                a lograr mis requerimientos.”
                                 ',
                                 'name' => '
-                                 Mauricio Córdova Lara
+                                Pierina Barajas
                                 ',
                             ],
                         ];
