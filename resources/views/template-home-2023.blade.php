@@ -336,34 +336,71 @@
                                 <div class="col-md-12 col-lg-6 selectors">
                                         @php
                                         $elements = array(
-                                            [
-                                                "title" => "Inteligencia Artifical",
-                                                "icon" => ""
-                                            ],
-                                            [
-                                                "title" => "Landing Pages",
-                                                "icon" => ""
-                                            ],
-                                            [
-                                                "title" => "Gestión de contactos y procesos",
-                                                "icon" => ""
-                                            ],
-                                            [
-                                                "title" => "Email Marketing",
-                                                "icon" => ""
-                                            ],
-                                            [
-                                                "title" => "WhatsApp automático y masivo",
-                                                "icon" => ""
-                                            ],
-                                            [
-                                                "title" => "Anuncios digitales integrados ",
-                                                "icon" => ""
-                                            ],
-                                            [
-                                                "title" => "Flujos de automatización",
-                                                "icon" => ""
-                                            ]
+                                      [
+        "title" => "Inteligencia Artifical",
+        "icon" => "",
+        "text" => '
+            <span>Crea contenido efectivo en segundos</span> <br class="desktopTabletElement">
+            La IA en Escala es como tener un copywriter <br class="desktopTabletElement">
+            estrella a una fracción del costo',
+        "img" => "",
+    ],
+    [
+        "title" => "Landing Pages",
+      "icon" => "",
+        "text" => '
+            <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
+            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
+            ¡sin depender de programadores!
+            ',
+        "img" => "",
+
+    ],
+    [
+        "title" => "Gestión de contactos y procesos",
+        "icon" => "",
+        "text" => '
+            <span>Convierte más leads en clientes fieles</span> <br class="desktopTabletElement">
+            organizando, guardando y supervisando <br class="desktopTabletElement">
+            mejor todo lo que ocurre con tus contactos',
+        "img" => "",
+    ],
+    [
+        "title" => "Email Marketing",
+      "icon" => "",
+        "text" => '
+            <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
+            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
+            ¡sin depender de programadores!',
+        "img" => "",
+    ],
+    [
+        "title" => "WhatsApp automático y masivo",
+       "icon" => "",
+        "text" => '
+            <span>Mejora tu comunicación</span> <br class="desktopTabletElement">
+            automatizando el envío de mensajes a <br class="desktopTabletElement">
+            múltiples contactos al mismo tiempo',
+        "img" => "",
+    ],
+    [
+        "title" => "Anuncios digitales integrados ",
+    "icon" => "",
+        "text" => '
+         <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
+            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
+            ¡sin depender de programadores!',
+        "img" => "",
+    ],
+    [
+        "title" => "Flujos de automatización",
+       "icon" => "",
+        "text" => '
+         <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
+            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
+            ¡sin depender de programadores!',
+        "img" => "",
+    ]
                                         )
                                     @endphp
 
