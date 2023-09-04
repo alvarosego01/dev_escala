@@ -657,7 +657,7 @@ img
                     @include responsivo(general)
                         font-size: 42.5px
                     @include responsivo(resto)
-                        font-size: 45px
+                        font-size: 42.5px
 
                 p.text
                     color: #797979
@@ -719,7 +719,7 @@ img
                         color: #797979
                         font-feature-settings: 'clig' off, 'liga' off
                         font-family: Nunito
-                        font-size: 30px
+                        font-size: 25px
                         font-style: normal
                         font-weight: 500
                         text-align: left
@@ -730,9 +730,9 @@ img
                         @include responsivo(pcMedio)
                             font-size: 25px
                         @include responsivo(general)
-                            font-size: 30px
+                            font-size: 25px
                         @include responsivo(smallPcTablet)
-                            font-size: 30px
+                            font-size: 25px
 
                         span.text-green
                             color: #00D35B
@@ -1448,6 +1448,11 @@ img
     justify-content: center
     justify-items: center
     text-align: left
+    @include responsivo(telefonoTable)
+        text-align: center
+        padding-left: 20px
+        padding-right: 20px
+        margin-top: -160px
     .section-row
         display: flex
         flex-direction: row
@@ -1455,10 +1460,10 @@ img
         @include responsivo(telefonoTable)
             width: 95%
             padding: 25px
+            flex-direction: column
         @include responsivo(pcMedio)
             width: 95%
             padding: 35px 25px
-
         @include responsivo(general)
             width: 100%!important
             max-width: 1250px!important
@@ -1481,7 +1486,8 @@ img
                 row-gap: 5px
                 @include responsivo(telefonoTable)
                     flex-direction: column
-
+                    margin-bottom: 30px
+                    align-items: center
                 h3.sub-title
                     color: #fff
                     font-feature-settings: 'clig' off, 'liga' off
@@ -1546,6 +1552,9 @@ img
                 img
                     width: 416px
                     margin-left: -150px   
+                    @include responsivo(telefonoTable)
+                        margin: 0
+                        width: 300px
         
 #homeSection .customSection.sectionParent.home_2023_10
     background-position: center
@@ -1558,6 +1567,11 @@ img
     justify-content: center
     justify-items: center
     text-align: right
+    @include responsivo(telefonoTable)
+        margin: -100px 0 30px 0
+        text-align: center
+        padding-left: 20px
+        padding-right: 20px
     .section-row
         display: flex
         flex-direction: row-reverse
@@ -1591,7 +1605,7 @@ img
                 align-items: end
                 @include responsivo(telefonoTable)
                     flex-direction: column
-                        
+                    align-items: center
                 h2.title
                     color: #36768A
                     font-feature-settings: 'clig' off, 'liga' off
