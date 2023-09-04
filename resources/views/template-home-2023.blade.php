@@ -2,82 +2,237 @@
   Template Name: [B] Home - 2023
 --}}
 
+
+
 @extends('layouts.app')
 @section('content')
 
-    <div id="homeSection">
+
+
+    <div id="homeSection_2023">
         <div class="sections">
 
-            {{-- @php
-                $parameters = [
-                    'backgroundImageType' => true,
-                    'overlay' => false,
-                    'classSection' => 'threeCol homeSection_0 newHome',
-                    'title' => '
-        Acelera el crecimiento <br class="space">
-        <span style="color: #DEF3F5">de tu empresa con Escala</span>
-    ',
-                    'text' =>
-                        '<span class="whiteColor">
-            La plataforma todo-en-uno para mejorar tus <br class="space">
-            resultados de marketing y ventas
-      </span>
-      <img class="funnelImage" src="' .
-                        App::setFilePath('/assets/images/illustrations/others/temporal_funnel.png') .
-                        '" alt="">
-      ',
-                    'threeCol' => true,
-                    'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
-                    'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1_big.png'),
-                    'overlayImage' => null,
-                    'image' => App::setFilePath('/assets/images/person/am/temporal_am.png'),
-                    'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM',
+            @php
+                $elements = [
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.8 / 5',
+                    ],
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.9 / 5',
+                    ],
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.8 / 5',
+                    ],
                 ];
-            @endphp --}}
+            @endphp
 
-            @header_t1([
-                'backgroundImageType' => true,
-                'overlay' => false,
-                'classSection' => 'desktopElement threeCol homeSection_0 newHome',
-                'title' => '
-                                            Acelera el crecimiento <br class="space">
-                                            <span style="color: #DEF3F5">de tu empresa</span>
-                                        ',
-                'text' => '<span class="whiteColor">
-                                                                con la plataforma de CRM todo-en-uno <br class="space">
-                                                                para aumentar tus ventas
-                                          </span>
-                                          ',
-                'threeCol' => true,
-                'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
-                'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1_big.png'),
-                'overlayImage' => null,
-                'image' => App::setFilePath('/assets/images/person/am/escala_home_am.png'),
-                'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta'
-            ])
-            @endheader_t1
+            <section id="lead-form"
+                class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol home_2023_0 newHome ">
 
-            @header_t1([
-                'backgroundImageType' => true,
-                'overlay' => false,
-                'classSection' => 'mobileElement threeCol homeSection_0 newHome',
-                'title' => '
-                                            Acelera el crecimiento <br class="space">
-                                            <span style="color: #DEF3F5">de tu empresa con Escala</span>
-                                        ',
-                'text' => '<span class="whiteColor">
-                                                La plataforma todo-en-uno para mejorar tus <br class="space">
-                                                resultados de marketing y ventas
-                                          </span>
-                                          ',
-                'threeCol' => true,
-                'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
-                'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1.png'),
-                'overlayImage' => null,
-                'image' => App::setFilePath('/assets/images/person/am/escala_home_am.png'),
-                'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta'
-            ])
-            @endheader_t1
+                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/background_home_1.svg') }}')"
+                    class="backgroundFull">
+
+                    <div class="section-row">
+
+                        <section class="innerSectionElement sct0">
+
+                            <div class="containElements">
+
+                                <h1 class="principalBigTitle ">
+                                    <span>Acelera el crecimiento</span> de tu empresa
+                                </h1>
+
+                            </div>
+
+                        </section>
+
+                        <section class="innerSectionElement sct1">
+
+                            <div class="groupElements row">
+
+
+                                <div class="info col-md-12 col-lg-9 ">
+
+
+                                    <div class="containElements row threeCol">
+
+                                        <div class="ele reviews col-md-12 col-lg-3">
+
+                                            <div class="elements">
+
+                                                @foreach ($elements as $item)
+                                                    <div class="refersElement">
+
+                                                        <div class="infoInner">
+                                                            <div class="tag">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                                </div>
+
+                                                                <span class="points">
+                                                                    {!! $item['points'] !!}
+                                                                </span>
+                                                            </div>
+                                                            <p class="text">
+                                                                {!! $item['text'] !!}
+                                                            </p>
+                                                            <div class="stars">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_blue.svg') !!}" loading="lazy">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                @endforeach
+
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="ele video col-md-12 col-lg-9">
+
+                                            @php
+                                                $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
+                                                $videoCover = App::setFilePath('/assets/images/gifs/home_video_portrait_2023.gif');
+                                            @endphp
+
+                                            @if (isset($videoEmbed) && $videoEmbed != null)
+                                                <div class="youtubeImageContainer ">
+
+                                                    <video class="video-js" controls preload="none"
+                                                        poster="{{ $videoCover }}" {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                                        data-setup="{
+                                  autoplay: false
+                                }">
+                                                        <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                                        <source src="{{ $videoEmbed }}" type="video/webm" />
+                                                        <p class="vjs-no-js">
+                                                            To view this video please enable JavaScript, and consider
+                                                            upgrading to a
+                                                            web browser that
+                                                            <a href="https://videojs.com/html5-video-support/"
+                                                                target="_blank">supports
+                                                                HTML5 video</a>
+                                                        </p>
+                                                    </video>
+
+
+                                                </div>
+                                            @endif
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                                <div class="form7 col-md-12 col-lg-3 ">
+
+                                    <div class="containElements">
+
+                                        <div class="formatForm redirectWeb" redirectWeb="true">
+
+                                            <h5 class="titleFormat blackcolor">
+                                                Recibe un tour guiado <br class="space">
+                                                de Escala
+                                            </h5>
+
+
+
+                                            @php
+                                                $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                                $_rs = [];
+                                                $_formShortcode = null;
+                                                if ($_data = get_posts($_args)) {
+                                                    foreach ($_data as $_key) {
+                                                        $_rs[$_key->ID] = $_key->post_title;
+                                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                                        }
+                                                    }
+                                                } else {
+                                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                                }
+                                            @endphp
+                                            {!! do_shortcode($_formShortcode) !!}
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                        <section class="innerSectionElement sct2">
+
+                            <div class="containElements">
+
+                                @php
+                                    $elements = [
+                                        [
+                                            'text' => 'CRM todo-en-uno fácil de usar <br class="desktopElement"> e implementado en 10 días',
+                                        ],
+                                        [
+                                            'text' => 'Acompañamiento y entrenamiento <br class="desktopElement"> para escalar empresas',
+                                        ],
+                                        [
+                                            'text' => 'Generas leads, nutres y <br class="desktopElement"> conviertes más y mejor',
+                                        ],
+                                    ];
+                                @endphp
+
+                                <div class="elementsCheck">
+
+                                    @foreach ($elements as $item)
+                                        <div class="element">
+
+                                            <div class="info">
+
+                                                <div class="icon">
+
+                                                    <div class="containerImage">
+                                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon_check_orange.png') }}"
+                                                            loading="lazy">
+                                                    </div>
+                                                </div>
+
+                                                <p class="text">
+                                                    {!! $item['text'] !!}
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    @endforeach
+
+                                </div>
+
+
+                            </div>
+
+                        </section>
+
+
+                    </div>
+
+
+
+                </div>
+
+            </section>
+
 
             <section class="customSection sectionParent home_2023_1">
 
@@ -143,7 +298,8 @@
                                 Vende más y mejor con Escala
                             </h2>
                             <p class="text">
-                                Un CRM todo-en-uno muy fácil de usar, done encuentras las herramientas <br class="desktopTabletElement"> de marketing y ventas que necesitas para escalar.
+                                Un CRM todo-en-uno muy fácil de usar, done encuentras las herramientas <br
+                                    class="desktopTabletElement"> de marketing y ventas que necesitas para escalar.
                             </p>
 
                         </div>
@@ -153,6 +309,141 @@
 
                         <div class="containElements">
 
+                            <div class="row">
+
+                                <div class="col-md-12 col-lg-6 selectors">
+                                    @php
+                                        $elements = [
+                                            [
+                                                'title' => 'Inteligencia Artifical',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ia_small.png'),
+                                                'text' => '
+            <span>Crea contenido efectivo en segundos</span> <br class="desktopTabletElement">
+            La IA en Escala es como tener un copywriter <br class="desktopTabletElement">
+            estrella a una fracción del costo',
+                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_ia_home_selector.png'),
+                                            ],
+                                            [
+                                                'title' => 'Landing Pages',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_landingp_small.png'),
+                                                'text' => '
+            <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
+            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
+            ¡sin depender de programadores!
+            ',
+                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_landingp_home_selector.png'),
+                                            ],
+                                            [
+                                                'title' => 'Gestión de contactos y procesos',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_crm_small.png'),
+                                                'text' => '
+            <span>Convierte más leads en clientes fieles</span> <br class="desktopTabletElement">
+            organizando, guardando y supervisando <br class="desktopTabletElement">
+            mejor todo lo que ocurre con tus contactos',
+                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_crm_home_selector.png'),
+                                            ],
+                                            [
+                                                'title' => 'Email Marketing',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailmkt_small.png'),
+                                                'text' => '
+            <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
+            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
+            ¡sin depender de programadores!',
+                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_email_marketing_home_selector.png'),
+                                            ],
+                                            [
+                                                'title' => 'WhatsApp automático y masivo',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_small.png'),
+                                                'text' => '
+            <span>Mejora tu comunicación</span> <br class="desktopTabletElement">
+            automatizando el envío de mensajes a <br class="desktopTabletElement">
+            múltiples contactos al mismo tiempo',
+                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_whatsapp_home_selector.png'),
+                                            ],
+                                            [
+                                                'title' => 'Anuncios digitales integrados ',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ads_small.png'),
+                                                'text' => '
+         <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
+            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
+            ¡sin depender de programadores!',
+                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_ads_home_selector.png'),
+                                            ],
+                                            [
+                                                'title' => 'Flujos de automatización',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_automatizations_small.png'),
+                                                'text' => '
+         <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
+            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
+            ¡sin depender de programadores!',
+                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_automatizations_home_selector.png'),
+                                            ],
+                                        ];
+                                    @endphp
+
+                                    <ul class="elements selectorInfo">
+
+                                        @foreach ($elements as $item)
+                                            <li class="element    @if ($loop->first) active @endif"
+                                                info_index="{!! $loop->index !!}">
+                                                <div class="icon">
+                                                    <div class="containerImage">
+                                                        <img src="{!! $item['icon'] !!}" loading="lazy">
+                                                    </div>
+                                                </div>
+                                                <h3>
+                                                    {!! $item['title'] !!}
+                                                </h3>
+                                            </li>
+                                        @endforeach
+
+                                    </ul>
+
+                                    <script type="text/javascript">
+                                        var infoArray = <?php echo json_encode($elements); ?>;
+
+                                        jQuery('ul.selectorInfo li').click(function(e) {
+
+                                            jQuery('ul.selectorInfo li').removeClass('active');
+                                            jQuery(this).addClass('active');
+
+                                            var index = jQuery(this).attr('info_index');
+
+                                            jQuery('.showInfoSelectors .infoIn .text').html(infoArray[index]['text']);
+                                            jQuery('.showInfoSelectors .infoIn .image .containerImage img').attr('src', infoArray[index]['img']);
+
+                                        });
+                                    </script>
+
+
+                                </div>
+
+                                <div class="col-md-12 col-lg-6 info showInfoSelectors">
+
+                                    <div class="infoIn">
+
+                                        <p class="text">
+                                            {!! $elements[0]['text'] !!}
+                                        </p>
+
+                                        <div class="image">
+
+                                            <div class="containerImage">
+                                                <img src="{!! $elements[0]['img'] !!}" loading="lazy">
+                                            </div>
+
+                                        </div>
+
+                                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                            Recibir un demo
+                                        </a>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
 
 
                         </div>
@@ -163,9 +454,21 @@
 
             </section>
 
-            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/02-bg-home2023.png') !!})" class="customSection sectionParent home_2023_3">
+            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/02-bg-home2023.png') !!})"
+                class="customSection sectionParent home_2023_3">
 
                 <div class="section-row">
+
+                    <section class="innerSectionElement sct0">
+
+                        <div class="containElements">
+                            <p class="text">
+                                Las herramientas son potentes individualmente, <br class="space">
+                                pero realmente escalas cuando las usas en conjunto.
+                            </p>
+                        </div>
+
+                    </section>
 
                     <section class="innerSectionElement sct1">
 
@@ -179,7 +482,7 @@
                                 Los clientes de Escala triplican su productividad <br class="desktopTabletElement">
                                 sin agregar costos operativos a su empresa
                             </p>
-                            <a class=" primaryButton hoverInEffect">
+                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                 Conversa con un asesor Escala
                             </a>
 
@@ -207,7 +510,8 @@
                                 ¡en menos de 10 días!
                             </h2>
                             <p class="text">
-                                Adaptamos la plataforma a tus necesidades para que tú y tu equipo se enfoquen <br class="desktopTabletElement">
+                                Adaptamos la plataforma a tus necesidades para que tú y tu equipo se enfoquen <br
+                                    class="desktopTabletElement">
                                 en lo que verdaderamente importa: ¡generar leads y cerrar ventas!
                             </p>
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/01-home2023.png') !!}" loading="lazy">
@@ -219,13 +523,13 @@
                         <div class="containElements">
 
                             <div class="row">
-                                <div class="col-md-4 column-1">
+                                <div class="col-md-4 cardParent column-1">
                                     <div class="card">
                                         <div class="card-body">
                                             <span class="orange-pill">Día 1</span>
                                             <h5 class="card-number">1</h5>
                                             <h5 class="card-title">
-                                                Conocemos tu <br class="space">
+                                                Conocemos <br class="space"> tu
                                                 negocio
                                             </h5>
                                             <h5 class="card-subtitle">
@@ -261,7 +565,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 column-2">
+                                <div class="col-md-4 cardParent column-2">
                                     <div class="card">
                                         <div class="card-body">
                                             <span class="orange-pill">Día 2-9</span>
@@ -354,7 +658,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 column-3">
+                                <div class="col-md-4 cardParent column-3">
                                     <div class="card">
                                         <div class="card-body">
                                             <span class="orange-pill">Día 10</span>
@@ -399,7 +703,8 @@
 
             </section>
 
-            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/03-bg-home2023.png') !!})" class="customSection sectionParent home_2023_5">
+            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/03-bg-home2023.png') !!})"
+                class="customSection sectionParent home_2023_5">
 
                 <div class="section-row">
 
@@ -442,7 +747,7 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-md-5">
-                                                    <div class="img-container">
+                                                    <div class="img-container img1">
                                                         <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/04-home2023.png') !!}"
                                                             loading="lazy">
                                                     </div>
@@ -468,7 +773,7 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-md-5">
-                                                    <div class="img-container">
+                                                    <div class="img-container img2">
                                                         <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/05-home2023.png') !!}"
                                                             loading="lazy">
                                                     </div>
@@ -493,8 +798,8 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-md-5">
-                                                    <div class="img-container">
-                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/06-home2023.png') !!}"
+                                                    <div class="img-container img3">
+                                                        <img class="img-card " src="{!! App::setFilePath('/assets/images/illustrations/others/06-home2023.png') !!}"
                                                             loading="lazy">
                                                     </div>
                                                 </div>
@@ -519,8 +824,8 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-md-5">
-                                                    <div class="img-container">
-                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/07-home2023.png') !!}"
+                                                    <div class="img-container img4">
+                                                        <img class="img-card " src="{!! App::setFilePath('/assets/images/illustrations/others/07-home2023.png') !!}"
                                                             loading="lazy">
                                                     </div>
                                                 </div>
@@ -608,50 +913,50 @@
 
             <section class="customSection sectionParent home_2023_6">
 
-            <div class="section-row">
+                <div class="section-row">
 
-                <section class="innerSectionElement sct1">
+                    <section class="innerSectionElement sct1">
 
-                    <div class="containElements">
+                        <div class="containElements">
 
-                        <h3 class="sub-title">
-                            ¿Deseas empezar a conocer nuestra metodología probada?
-                        </h3>
-                        <h2 class="title">
-                            Participa en una Masterclass gratuita <br class="desktopElement">
-                            con Andrés Moreno
-                        </h2>
-                        <p class="text">
-                            Fundador de Escala y Open English, <br class="desktopElement">
-                            reconocido “Emprendedor de la década”
-                        </p>
-                    </div>
+                            <h3 class="sub-title">
+                                ¿Deseas empezar a conocer nuestra metodología probada?
+                            </h3>
+                            <h2 class="title">
+                                Participa en una Masterclass gratuita <br class="desktopElement">
+                                con Andrés Moreno
+                            </h2>
+                            <p class="text">
+                                Fundador de Escala y Open English, <br class="desktopElement">
+                                reconocido “Emprendedor de la década”
+                            </p>
+                        </div>
 
-                </section>
-                <section style="background-image: url({!! App::setFilePath('/assets/images/banners/04-bg-home2023.png') !!})" class="innerSectionElement sct2">
+                    </section>
+                    <section style="background-image: url({!! App::setFilePath('/assets/images/banners/04-bg-home2023.png') !!})" class="innerSectionElement sct2">
 
-                    <div class="containElements">
-                        <div class="row">
-                            <div class="col-md-5 column-img">
-                                <div class="img-container">
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/12-home2023.png') !!}" loading="lazy">
+                        <div class="containElements">
+                            <div class="row">
+                                <div class="col-md-5 column-img">
+                                    <div class="img-container">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/12-home2023.png') !!}" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="col-md-7 column-text">
+                                    <p>
+                                        “Recopilamos nuestra experiencia de <br class="desktopElement">
+                                        10+ años construyendo negocios <br class="desktopElement">
+                                        exitosos para compartirla contigo y <br class="desktopElement">
+                                        evitarte la prueba y error.”
+                                    </p>
+                                    <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                        Participar
+                                    </a>
                                 </div>
                             </div>
-                            <div class="col-md-7 column-text">
-                                <p>
-                                    “Recopilamos nuestra experiencia de <br class="desktopElement">
-                                    10+ años construyendo negocios <br class="desktopElement">
-                                    exitosos para compartirla contigo y <br class="desktopElement">
-                                    evitarte la prueba y error.”
-                                </p>
-                                <a class=" primaryButton hoverInEffect">
-                                    Participar
-                                </a>
-                            </div>
                         </div>
-                    </div>
-                </section>
-            </div>
+                    </section>
+                </div>
 
             </section>
 
@@ -823,7 +1128,7 @@
                     <section class="innerSectionElement sct1">
 
                         <div class="containElements">
-    
+
                             <h3 class="sub-title">
                                 ¿Qué esperas?
                             </h3>
@@ -832,7 +1137,7 @@
                                 escalable, predecible y rentable
                             </h2>
                         </div>
-    
+
                     </section>
 
                     <section class="innerSectionElement sct2 left">
@@ -840,20 +1145,20 @@
 
                         <div class="groupElements row">
 
-                            <div class="image col-md-12 col-lg-8">
+                            <div class="image col-md-12 col-lg-7">
                                 <div class="containerImage">
 
                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/13-home2023.png') !!}" loading="lazy">
 
                                 </div>
                             </div>
-                            <div class="info col-md-12 col-lg-4">
+                            <div class="info col-md-12 col-lg-5">
                                 <div class="card-body">
                                     <div class="row">
-                                        <div class="col-md-3 column-1">
+                                        <div class="col-md-2 column-1">
                                             <p class="text-number">1</p>
                                         </div>
-                                        <div class="col-md-9 column-2">
+                                        <div class="col-md-10 column-2">
                                             <h3 class="secondaryTitle">
                                                 Atrae
                                             </h3>
@@ -866,10 +1171,10 @@
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
-                                        <div class="col-md-3 column-1">
+                                        <div class="col-md-2 column-1">
                                             <p class="text-number">2</p>
                                         </div>
-                                        <div class="col-md-9 column-2">
+                                        <div class="col-md-10 column-2">
                                             <h3 class="secondaryTitle">
                                                 Nutre
                                             </h3>
@@ -882,10 +1187,10 @@
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
-                                        <div class="col-md-3 column-1">
+                                        <div class="col-md-2 column-1">
                                             <p class="text-number">3</p>
                                         </div>
-                                        <div class="col-md-9 column-2">
+                                        <div class="col-md-10 column-2">
                                             <h3 class="secondaryTitle">
                                                 Convierte
                                             </h3>
@@ -900,9 +1205,9 @@
                             </div>
                             <div class="btn-cta col-md-12 col-lg-12">
 
-                                    <a class=" primaryButton hoverInEffect">
-                                        Recibe un demo personalilzado
-                                    </a>
+                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                    Recibe un demo personalilzado
+                                </a>
                             </div>
 
                         </div>
@@ -917,14 +1222,15 @@
 
             </section>
 
-            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/06-bg-home2023.png') !!})" class="customSection sectionParent home_2023_9">
+            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/06-bg-home2023.png') !!})"
+                class="customSection sectionParent home_2023_9">
 
                 <div class="section-row">
                     <div class="col-md-8 column-1">
                         <section class="innerSectionElement sct1">
 
                             <div class="containElements">
-    
+
                                 <h3 class="sub-title">
                                     ¿Brindas servicios de marketing o ventas?
                                 </h3>
@@ -937,12 +1243,12 @@
                                     para hacer crecer tu negocio y desarrollar una <br class="desktopTabletElement">
                                     ventaja competitiva única en el mercado.
                                 </p>
-                                <a class=" primaryButton hoverInEffect">
+                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                     Aprender más
                                 </a>
-    
+
                             </div>
-    
+
                         </section>
                     </div>
                     <div class="col-md-4 column-2">
@@ -951,7 +1257,7 @@
                             <div class="containElements">
                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/14-home2023.png') !!}" loading="lazy">
                             </div>
-    
+
                         </section>
                     </div>
 
@@ -959,7 +1265,8 @@
 
             </section>
 
-            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/07-bg-home2023.png') !!})" class="customSection sectionParent home_2023_10">
+            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/07-bg-home2023.png') !!})"
+                class="customSection sectionParent home_2023_10">
 
                 <div class="section-row">
                     <div class="col-md-8 column-1">
@@ -968,29 +1275,29 @@
                             <div class="containElements">
 
                                 <h2 class="title">
-                                    Multiplica tu impacto y tus ingresos <br class="desktopTabletElement">
-                                    convirtiéndote en Escala Partner
+                                    ¿Listo para subir a bordo? <br class="desktopTabletElement">
+                                    la satisfacción es 100% garantizada
+
                                 </h2>
                                 <p class="text">
-                                    Como socio de Escala recibes beneficios únicos <br class="desktopTabletElement">
-                                    para hacer crecer tu negocio y desarrollar una <br class="desktopTabletElement">
-                                    ventaja competitiva única en el mercado.
+                                    Si en los primeros 20 días no estás satisfecho <br class="desktopTabletElement">
+                                    con el valor que recibes, te devolvemos el dinero.
                                 </p>
-                                <a class=" primaryButton hoverInEffect">
-                                    Aprender más
+                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                    Solicita un demo
                                 </a>
-    
+
                             </div>
-    
+
                         </section>
                     </div>
                     <div class="col-md-4 column-2">
                         <section class="innerSectionElement sct2">
 
                             <div class="containElements">
-                                
+
                             </div>
-    
+
                         </section>
                     </div>
 
@@ -998,12 +1305,7 @@
 
             </section>
 
-
-    </div>
-
-</div>
-
-    @php
+                @php
         $escalaUrl = 'https://escala.com';
         $items = [
             [
@@ -1213,9 +1515,9 @@
                 ],
             ],
         ];
-        
+
         $parameters = [
-            'classSection' => 'homeSection_11',
+            'classSection' => 'home_2023_11',
             'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
             'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
             'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
@@ -1227,5 +1529,12 @@
     @endphp
     @contain_FAQ_T1($parameters)
     @endcontain_FAQ_T1
+
+
+
+        </div>
+
+    </div>
+
 
 @endsection
