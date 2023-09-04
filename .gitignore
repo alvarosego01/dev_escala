@@ -8,4 +8,8 @@ yarn-error.log
 # /vendor
 resources/assets/config-local.json
 
+
+
 pruebas.html
+pruebas.js
+pruebas.php
