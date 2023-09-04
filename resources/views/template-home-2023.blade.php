@@ -5,237 +5,79 @@
 @extends('layouts.app')
 @section('content')
 
-    <div id="homeSection_2023">
+    <div id="homeSection">
         <div class="sections">
 
-
-            @php
-                $elements = [
-                    [
-                        'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
-                        'text' => 'Escala / plataforma CRM',
-                        'points' => '4.8 / 5',
-                    ],
-                    [
-                        'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
-                        'text' => 'Escala / plataforma CRM',
-                        'points' => '4.9 / 5',
-                    ],
-                    [
-                        'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
-                        'text' => 'Escala / plataforma CRM',
-                        'points' => '4.8 / 5',
-                    ],
+            {{-- @php
+                $parameters = [
+                    'backgroundImageType' => true,
+                    'overlay' => false,
+                    'classSection' => 'threeCol homeSection_0 newHome',
+                    'title' => '
+        Acelera el crecimiento <br class="space">
+        <span style="color: #DEF3F5">de tu empresa con Escala</span>
+    ',
+                    'text' =>
+                        '<span class="whiteColor">
+            La plataforma todo-en-uno para mejorar tus <br class="space">
+            resultados de marketing y ventas
+      </span>
+      <img class="funnelImage" src="' .
+                        App::setFilePath('/assets/images/illustrations/others/temporal_funnel.png') .
+                        '" alt="">
+      ',
+                    'threeCol' => true,
+                    'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
+                    'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1_big.png'),
+                    'overlayImage' => null,
+                    'image' => App::setFilePath('/assets/images/person/am/temporal_am.png'),
+                    'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM',
                 ];
-            @endphp
-
-
-            <section id="lead-form"
-                class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol home_2023_0 newHome ">
-
-
-
-
-                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/background_home_1.svg') }}')"
-                    class="backgroundFull">
-
-
-
-                    <div class="section-row">
-
-                        <section class="innerSectionElement sct0">
-
-                            <div class="containElements">
-
-                                <h1 class="principalBigTitle ">
-                                    <span>Acelera el crecimiento</span> de tu empresa
-                                </h1>
-
-                            </div>
-
-                        </section>
-
-                        <section class="innerSectionElement sct1">
-
-                            <div class="groupElements row">
-
-
-                                <div class="info col-md-12 col-lg-9 ">
-
-
-                                    <div class="containElements row threeCol">
-
-                                        <div class="ele reviews col-md-12 col-lg-3">
-
-                                            <div class="elements">
-
-                                                @foreach ($elements as $item)
-                                                    <div class="refersElement">
-
-                                                        <div class="infoInner">
-                                                            <div class="tag">
-                                                                <div class="containerImage">
-                                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                                </div>
-
-                                                                <span class="points">
-                                                                    {!! $item['points'] !!}
-                                                                </span>
-                                                            </div>
-                                                            <p class="text">
-                                                                {!! $item['text'] !!}
-                                                            </p>
-                                                            <div class="stars">
-                                                                <div class="containerImage">
-                                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_blue.svg') !!}" loading="lazy">
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-                                                @endforeach
-
-                                            </div>
-
-
-                                        </div>
-
-                                        <div class="ele video col-md-12 col-lg-9">
-
-                                            @php
-                                                $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
-                                                $videoCover = App::setFilePath('/assets/images/illustrations/others/home_portrait.png');
-                                            @endphp
-
-                                            @if (isset($videoEmbed) && $videoEmbed != null)
-                                                <div class="youtubeImageContainer ">
-
-                                                    <video class="video-js" controls preload="none"
-                                                        poster="{{ $videoCover }}" {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                                        data-setup="{
-                                  autoplay: false
-                                }">
-                                                        <source src="{{ $videoEmbed }}" type="video/mp4" />
-                                                        <source src="{{ $videoEmbed }}" type="video/webm" />
-                                                        <p class="vjs-no-js">
-                                                            To view this video please enable JavaScript, and consider
-                                                            upgrading to a
-                                                            web browser that
-                                                            <a href="https://videojs.com/html5-video-support/"
-                                                                target="_blank">supports
-                                                                HTML5 video</a>
-                                                        </p>
-                                                    </video>
-
-
-                                                </div>
-                                            @endif
-
-                                        </div>
-
-                                    </div>
-
-
-                                </div>
-
-                                <div class="form7 col-md-12 col-lg-3 ">
-
-                                    <div class="containElements">
-
-                                        <div class="formatForm redirectWeb" redirectWeb="true">
-
-                                            <h5 class="titleFormat blackcolor">
-                                                Recibe un tour guiado <br class="space">
-                                                de Escala
-                                            </h5>
-
-
-
-                                            @php
-                                                $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                                $_rs = [];
-                                                $_formShortcode = null;
-                                                if ($_data = get_posts($_args)) {
-                                                    foreach ($_data as $_key) {
-                                                        $_rs[$_key->ID] = $_key->post_title;
-                                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                                        }
-                                                    }
-                                                } else {
-                                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                                }
-                                            @endphp
-                                            {!! do_shortcode($_formShortcode) !!}
-
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </section>
-
-                        <section class="innerSectionElement sct2">
-
-                            <div class="containElements">
-
-                                @php
-                                    $elements = [
-                                        [
-                                            'text' => 'CRM todo-en-uno fácil de usar <br class="desktopElement"> e implementado en 10 días',
-                                        ],
-                                        [
-                                            'text' => 'Acompañamiento y entrenamiento <br class="desktopElement"> para escalar empresas',
-                                        ],
-                                        [
-                                            'text' => 'Generas leads, nutres y <br class="desktopElement"> conviertes más y mejor',
-                                        ],
-                                    ];
-                                @endphp
-
-                                <div class="elementsCheck">
-
-                                    @foreach ($elements as $item)
-                                        <div class="element">
-
-                                            <div class="info">
-
-                                                <div class="icon">
-
-                                                    <div class="containerImage">
-                                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon_check_orange.png') }}"
-                                                            loading="lazy">
-                                                    </div>
-                                                </div>
-
-                                                <p class="text">
-                                                    {!! $item['text'] !!}
-                                                </p>
-                                            </div>
-
-                                        </div>
-                                    @endforeach
-
-                                </div>
-
-
-                            </div>
-
-                        </section>
-
-
-                    </div>
-
-
-
-                </div>
-
-            </section>
-
+            @endphp --}}
+
+            @header_t1([
+                'backgroundImageType' => true,
+                'overlay' => false,
+                'classSection' => 'desktopElement threeCol homeSection_0 newHome',
+                'title' => '
+                                            Acelera el crecimiento <br class="space">
+                                            <span style="color: #DEF3F5">de tu empresa</span>
+                                        ',
+                'text' => '<span class="whiteColor">
+                                                                con la plataforma de CRM todo-en-uno <br class="space">
+                                                                para aumentar tus ventas
+                                          </span>
+                                          ',
+                'threeCol' => true,
+                'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
+                'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1_big.png'),
+                'overlayImage' => null,
+                'image' => App::setFilePath('/assets/images/person/am/escala_home_am.png'),
+                'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta'
+            ])
+            @endheader_t1
+
+            @header_t1([
+                'backgroundImageType' => true,
+                'overlay' => false,
+                'classSection' => 'mobileElement threeCol homeSection_0 newHome',
+                'title' => '
+                                            Acelera el crecimiento <br class="space">
+                                            <span style="color: #DEF3F5">de tu empresa con Escala</span>
+                                        ',
+                'text' => '<span class="whiteColor">
+                                                La plataforma todo-en-uno para mejorar tus <br class="space">
+                                                resultados de marketing y ventas
+                                          </span>
+                                          ',
+                'threeCol' => true,
+                'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
+                'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1.png'),
+                'overlayImage' => null,
+                'image' => App::setFilePath('/assets/images/person/am/escala_home_am.png'),
+                'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta'
+            ])
+            @endheader_t1
 
             <section class="customSection sectionParent home_2023_1">
 
@@ -301,8 +143,7 @@
                                 Vende más y mejor con Escala
                             </h2>
                             <p class="text">
-                                Un CRM todo-en-uno muy fácil de usar, done encuentras las herramientas <br class="space">
-                                de marketing y ventas que necesitas para escalar.
+                                Un CRM todo-en-uno muy fácil de usar, done encuentras las herramientas <br class="desktopTabletElement"> de marketing y ventas que necesitas para escalar.
                             </p>
 
                         </div>
@@ -312,86 +153,7 @@
 
                         <div class="containElements">
 
-                            <div class="row">
 
-                                <div class="col-md-12 col-lg-6 selectors">
-                                    @php
-                                        $elements = [
-                                            [
-                                                'title' => 'Inteligencia Artifical',
-                                                'icon' => '',
-                                                'text' => '
-            <span>Crea contenido efectivo en segundos</span> <br class="desktopTabletElement">
-            La IA en Escala es como tener un copywriter <br class="desktopTabletElement">
-            estrella a una fracción del costo',
-                                                'img' => '',
-                                            ],
-                                            [
-                                                'title' => 'Landing Pages',
-                                                'icon' => '',
-                                                'text' => '
-            <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
-            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
-            ¡sin depender de programadores!
-            ',
-                                                'img' => '',
-                                            ],
-                                            [
-                                                'title' => 'Gestión de contactos y procesos',
-                                                'icon' => '',
-                                                'text' => '
-            <span>Convierte más leads en clientes fieles</span> <br class="desktopTabletElement">
-            organizando, guardando y supervisando <br class="desktopTabletElement">
-            mejor todo lo que ocurre con tus contactos',
-                                                'img' => '',
-                                            ],
-                                            [
-                                                'title' => 'Email Marketing',
-                                                'icon' => '',
-                                                'text' => '
-            <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
-            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
-            ¡sin depender de programadores!',
-                                                'img' => '',
-                                            ],
-                                            [
-                                                'title' => 'WhatsApp automático y masivo',
-                                                'icon' => '',
-                                                'text' => '
-            <span>Mejora tu comunicación</span> <br class="desktopTabletElement">
-            automatizando el envío de mensajes a <br class="desktopTabletElement">
-            múltiples contactos al mismo tiempo',
-                                                'img' => '',
-                                            ],
-                                            [
-                                                'title' => 'Anuncios digitales integrados ',
-                                                'icon' => '',
-                                                'text' => '
-         <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
-            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
-            ¡sin depender de programadores!',
-                                                'img' => '',
-                                            ],
-                                            [
-                                                'title' => 'Flujos de automatización',
-                                                'icon' => '',
-                                                'text' => '
-         <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
-            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
-            ¡sin depender de programadores!',
-                                                'img' => '',
-                                            ],
-                                        ];
-                                    @endphp
-
-                                </div>
-                                <div class="col-md-12 col-lg-6 info">
-
-
-
-                                </div>
-
-                            </div>
 
                         </div>
 
@@ -401,8 +163,7 @@
 
             </section>
 
-            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/02-bg-home2023.png') !!})"
-                class="customSection sectionParent home_2023_3">
+            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/02-bg-home2023.png') !!})" class="customSection sectionParent home_2023_3">
 
                 <div class="section-row">
 
@@ -411,11 +172,11 @@
                         <div class="containElements">
 
                             <h2 class="title">
-                                No necesitas invertir en 10+ herramientas <br class="space">
+                                No necesitas invertir en 10+ herramientas <br class="desktopTabletElement">
                                 ni en un equipo grande <span>para escalar tu negocio</span>
                             </h2>
                             <p class="text">
-                                Los clientes de Escala triplican su productividad <br class="space">
+                                Los clientes de Escala triplican su productividad <br class="desktopTabletElement">
                                 sin agregar costos operativos a su empresa
                             </p>
                             <a class=" primaryButton hoverInEffect">
@@ -442,12 +203,11 @@
                                 Ya no requieres meses para adaptar el CRM a tus operaciones
                             </h3>
                             <h2 class="title">
-                                Recibe el CRM implementado <br class="space">
+                                Recibe el CRM implementado <br class="desktopTabletElement">
                                 ¡en menos de 10 días!
                             </h2>
                             <p class="text">
-                                Adaptamos la plataforma a tus necesidades para que tú y tu equipo se enfoquen <br
-                                    class="space">
+                                Adaptamos la plataforma a tus necesidades para que tú y tu equipo se enfoquen <br class="desktopTabletElement">
                                 en lo que verdaderamente importa: ¡generar leads y cerrar ventas!
                             </p>
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/01-home2023.png') !!}" loading="lazy">
@@ -634,16 +394,219 @@
                                 </div>
                             </div>
                         </div>
-
+                    </section>
                 </div>
 
             </section>
 
-        </div>
+            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/03-bg-home2023.png') !!})" class="customSection sectionParent home_2023_5">
 
-        </section>
+                <div class="section-row">
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/03-bg-home2023.png') !!})" class="customSection sectionParent home_2023_5">
+                    <section class="innerSectionElement sct1">
+
+                        <div class="containElements">
+
+                            <h3 class="sub-title">
+                                De nada sirve tener un CRM configurado... ¡si nadie lo quiere o sabe usar!
+                            </h3>
+                            <h2 class="title">
+                                Entrenamos a tu equipo y te guiamos a <br class="desktopElement">
+                                optimizar resultados ¡todo el año!
+                            </h2>
+                            <p class="text">
+                                ¡Tu éxito es nuestro éxito! Recibe acompañamiento de todas las maneras posibles <br
+                                    class="desktopElement">
+                                para que construyas una máquina de marketing y ventas con Escala
+                            </p>
+                        </div>
+
+                    </section>
+                    <section class="innerSectionElement sct2">
+
+                        <div class="containElements">
+
+                            <div class="row card-content">
+                                <div class="col-md-6 card1">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-7">
+                                                    <h5 class="card-title">
+                                                        Gerente de Éxito
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        Te apoya a planificar y <br class="desktopElement">
+                                                        aprovechar al máximo <br class="desktopElement">
+                                                        las soluciones de Escala
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div class="img-container">
+                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/04-home2023.png') !!}"
+                                                            loading="lazy">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 card2">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-7">
+                                                    <h5 class="card-title">
+                                                        Entrenamiento <br class="space">
+                                                        en vivo
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        Bootcamps y workshops <br class="desktopElement">
+                                                        en vivo para aprender y <br class="desktopElement">
+                                                        practicar nuestra <br class="desktopElement">
+                                                        metodología probada
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div class="img-container">
+                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/05-home2023.png') !!}"
+                                                            loading="lazy">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 card3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-7">
+                                                    <h5 class="card-title">
+                                                        Trainer privado
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        Revisa el uso de las <br class="desktopElement">
+                                                        herramientas y se <br class="desktopElement">
+                                                        asegura que las <br class="desktopElement">
+                                                        usen efectivamente <br class="desktopElement">
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div class="img-container">
+                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/06-home2023.png') !!}"
+                                                            loading="lazy">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 card4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-7">
+                                                    <h5 class="card-title">
+                                                        Aprendizaje <br class="space">
+                                                        autoguiado
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        Combinación de cursos, <br class="desktopElement">
+                                                        tutoriales y webinars <br class="desktopElement">
+                                                        para que aprendas a <br class="desktopElement">
+                                                        tu ritmo.
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <div class="img-container">
+                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/07-home2023.png') !!}"
+                                                            loading="lazy">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 card5">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <h5 class="card-title">
+                                                        Chat Soporte Técnico
+                                                    </h5>
+                                                    <p class="card-text">
+                                                        Atendemos preguntas puntuales y <br class="desktopElement">
+                                                        necesidades técnicas en vivo por <br class="desktopElement">
+                                                        <span class="text-green">WhatsApp</span> y <span
+                                                            class="text-blue">Chat de plataforma</span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <div class="row">
+                                                        <div class="col-md-12 container-flags">
+                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/08-home2023.png') !!}"
+                                                                loading="lazy">
+                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
+                                                                loading="lazy">
+                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
+                                                                loading="lazy">
+                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
+                                                                loading="lazy">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12 title-block">
+                                                            <div class="line"></div>
+                                                            <p class="text-day">De Lunes a Viernes:</p>
+                                                            <div class="line"></div>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <p class="text-time">6 am - 8 pm</p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <p class="text-time">7 am - 9 pm</p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <p class="text-time">8 am - 10 pm</p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <p class="text-time">9 am - 11 pm</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12 title-block">
+                                                            <div class="line last-row"></div>
+                                                            <p class="text-day">Sábado:</p>
+                                                            <div class="line last-row"></div>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <p class="text-time">8 am - 12 pm</p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <p class="text-time">9 am - 1 pm</p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <p class="text-time">10 am - 2 pm</p>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <p class="text-time">11 am - 3 pm</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </section>
+
+            <section class="customSection sectionParent home_2023_6">
 
             <div class="section-row">
 
@@ -652,154 +615,393 @@
                     <div class="containElements">
 
                         <h3 class="sub-title">
-                            De nada sirve tener un CRM configurado... ¡si nadie lo quiere o sabe usar!
+                            ¿Deseas empezar a conocer nuestra metodología probada?
                         </h3>
                         <h2 class="title">
-                            Entrenamos a tu equipo y te guiamos a <br class="desktopElement">
-                            optimizar resultados ¡todo el año!
+                            Participa en una Masterclass gratuita <br class="desktopElement">
+                            con Andrés Moreno
                         </h2>
                         <p class="text">
-                            ¡Tu éxito es nuestro éxito! Recibe acompañamiento de todas las maneras posibles <br
-                                class="desktopElement">
-                            para que construyas una máquina de marketing y ventas con Escala
+                            Fundador de Escala y Open English, <br class="desktopElement">
+                            reconocido “Emprendedor de la década”
                         </p>
                     </div>
 
                 </section>
-                <section class="innerSectionElement sct2">
+                <section style="background-image: url({!! App::setFilePath('/assets/images/banners/04-bg-home2023.png') !!})" class="innerSectionElement sct2">
 
                     <div class="containElements">
-
-                        <div class="row card-content">
-                            <div class="col-md-6 card1">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-7">
-                                                <h5 class="card-title">
-                                                    Gerente de Éxito
-                                                </h5>
-                                                <p class="card-text">
-                                                    Te apoya a planificar y <br class="desktopElement">
-                                                    aprovechar al máximo <br class="desktopElement">
-                                                    las soluciones de Escala
-                                                </p>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <div class="img-container">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/04-home2023.png') !!}" loading="lazy">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                        <div class="row">
+                            <div class="col-md-5 column-img">
+                                <div class="img-container">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/12-home2023.png') !!}" loading="lazy">
                                 </div>
                             </div>
-                            <div class="col-md-6 card2">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-7">
-                                                <h5 class="card-title">
-                                                    Entrenamiento <br class="space">
-                                                    en vivo
-                                                </h5>
-                                                <p class="card-text">
-                                                    Bootcamps y workshops <br class="desktopElement">
-                                                    en vivo para aprender y <br class="desktopElement">
-                                                    practicar nuestra <br class="desktopElement">
-                                                    metodología probada
-                                                </p>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <div class="img-container">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/05-home2023.png') !!}" loading="lazy">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 card3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-7">
-                                                <h5 class="card-title">
-                                                    Trainer privado
-                                                </h5>
-                                                <p class="card-text">
-                                                    Revisa el uso de las <br class="desktopElement">
-                                                    herramientas y se <br class="desktopElement">
-                                                    asegura que las <br class="desktopElement">
-                                                    usen efectivamente <br class="desktopElement">
-                                                </p>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <div class="img-container">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/06-home2023.png') !!}" loading="lazy">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 card4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-7">
-                                                <h5 class="card-title">
-                                                    Aprendizaje <br class="space">
-                                                    autoguiado
-                                                </h5>
-                                                <p class="card-text">
-                                                    Combinación de cursos, <br class="desktopElement">
-                                                    tutoriales y webinars <br class="desktopElement">
-                                                    para que aprendas a <br class="desktopElement">
-                                                    tu ritmo.
-                                                </p>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <div class="img-container">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/07-home2023.png') !!}" loading="lazy">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 card5">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-8">
-                                                <h5 class="card-title">
-                                                    Gerente de Éxito
-                                                </h5>
-                                                <p class="card-text">
-                                                    Te apoya a planificar y <br class="space">
-                                                    aprovechar al máximo <br class="space">
-                                                    las soluciones de Escala
-                                                </p>
-                                            </div>
-                                            <div class="col-md-4">
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="col-md-7 column-text">
+                                <p>
+                                    “Recopilamos nuestra experiencia de <br class="desktopElement">
+                                    10+ años construyendo negocios <br class="desktopElement">
+                                    exitosos para compartirla contigo y <br class="desktopElement">
+                                    evitarte la prueba y error.”
+                                </p>
+                                <a class=" primaryButton hoverInEffect">
+                                    Participar
+                                </a>
                             </div>
                         </div>
                     </div>
-
+                </section>
             </div>
 
-        </section>
+            </section>
+
+            <section class="component-info-multiple-cards-T2 customSection sectionParent home_2023_7">
+
+
+                <img src="{!! App::setFilePath('/assets/images/banners/05-bg-home2023.png') !!}" alt="" class="overlaysky">
+
+                <div class="section-row">
+                    <section class="innerSectionElement sct1">
+
+                        <div class="containElements">
+
+                            <h2 class="primaryTitle blackColor">
+
+                                Todos ellos se benefician <br class="desktopElement">
+                                de las soluciones Escala
+
+                            </h2>
+
+                        </div>
+
+                    </section>
+                    @php
+                        $items = [
+                            [
+                                'title' => '
+                                   <span>Co-fundador</span> de Empresa
+                                ',
+                                'text' => '
+                                    <span>
+                                        “Encontré en Escala una plataforma <br class="space">
+                                         que me permite integrar Landing <br class="space">
+                                          Pages, automatización, email y CRM <br class="space">
+                                           en un solo lugar.
+                                    </span> Tiene una gran <br class="space">
+                                        posibilidad de convertirse en un <br class="space">
+                                         referente en el mercado latino.”
+                                ',
+                                'name' => '
+                                 Mauricio Córdova Lara
+                                ',
+                            ],
+                            [
+                                'title' => '
+                                    <span>Dueño</span> de negocio
+                                ',
+                                'text' => '
+                                    <span>“Escala está resolviendo con su <br class="space">
+                                    sistema de atención el cliente y <br class="space">
+                                    por supuesto el software, un <br class="space">
+                                    problema que tuve por años...</span> Lo <br class="space">
+                                    recomiendo infinitamente.”
+                                ',
+                                'name' => '
+                                    Paulina Pizarro Santana
+                                ',
+                            ],
+                            [
+                                'title' => '
+                                    <span>Gerente</span> de Operaciones
+                                ',
+                                'text' => '
+                                   <span>“Escala es una plataforma super  <br class="space">
+                                   amigable en la que encuentro todo <br class="space">
+                                   lo que necesito</span> para mis  <br class="space">
+                                   campañas, personalización de  <br class="space">
+                                   envíos, CRM, automatización y <br class="space">
+                                embudos de ventas.”
+                                ',
+                                'name' => '
+                                   Octavio Ruiz Loza
+                                ',
+                            ],
+                            [
+                                'title' => '
+                                    <span>Lider</span> de Marketing
+                                ',
+                                'text' => '
+                                    <span>“Con Escala he podido <br class="space">
+                                    automatizar mejor los procesos <br class="space">
+                                    de prospección.</span> Es una <br class="space">
+                                    plataforma fácil de implementar <br class="space">
+                                    y de manejo muy intuitivo.”
+                                ',
+                                'name' => '
+                                   Andrea Sánchez
+                                ',
+                            ],
+                            [
+                                'title' => '
+                                <span>Director</span> Creativo
+                                ',
+                                'text' => '
+                               <span>
+                                   “Se han tomado el tiempo para <br class="space">
+                                   hacer una plataforma en donde no <br class="space">
+                                   solamente brindan herramientas de <br class="space">
+                                    calidad,
+                               </span> sino lo más importante un <br class="space">
+                                servicio al cliente que es <br class="space">
+                                recomendadísimo.”
+                                ',
+                                'name' => '
+                                  Hernan Bedoya
+                                ',
+                            ],
+                            [
+                                'title' => '
+                                    <span>Gerente</span> de Ventas
+                                ',
+                                'text' => '
+                             <span>
+                                 “Escala es la plataforma ideal para <br class="space">
+                                  impulsar tus ventas. Cuentan con un  <br class="space">
+                                  equipo de soporte eficiente y atento.
+                             </span> <br class="space">
+                               Fui asesorada en todo momento y  <br class="space">
+                               fueron muy serviciales para ayudarme <br class="space">
+                                a lograr mis requerimientos.”
+                                ',
+                                'name' => '
+                                Pierina Barajas
+                                ',
+                            ],
+                        ];
+                    @endphp
+                    <section class=" innerSectionElement sct2">
+                        @foreach ($items as $item)
+                            <div class="groupElements">
+
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
+
+                                <h3 class="secondaryTitle">
+                                    {!! $item['title'] !!}
+                                </h3>
+
+                                <p class="text">
+                                    {!! $item['text'] !!}
+                                </p>
+
+                                <span class="name">
+                                    {!! $item['name'] !!}
+                                </span>
+
+                                <div class="stars">
+                                    <div class="containerImage">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
+                                    </div>
+                                </div>
+
+                            </div>
+                        @endforeach
+                    </section>
+
+
+
+                </div>
+
+
+            </section>
+
+            <section class="component-info-text-image-T1 customSection sectionParent home_2023_8">
+
+
+                <div class="section-row">
+
+
+                    <section class="innerSectionElement sct1">
+
+                        <div class="containElements">
+    
+                            <h3 class="sub-title">
+                                ¿Qué esperas?
+                            </h3>
+                            <h2 class="title">
+                                Construye una máquina de ventas <br class="desktopElement">
+                                escalable, predecible y rentable
+                            </h2>
+                        </div>
+    
+                    </section>
+
+                    <section class="innerSectionElement sct2 left">
+
+
+                        <div class="groupElements row">
+
+                            <div class="image col-md-12 col-lg-8">
+                                <div class="containerImage">
+
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/13-home2023.png') !!}" loading="lazy">
+
+                                </div>
+                            </div>
+                            <div class="info col-md-12 col-lg-4">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-3 column-1">
+                                            <p class="text-number">1</p>
+                                        </div>
+                                        <div class="col-md-9 column-2">
+                                            <h3 class="secondaryTitle">
+                                                Atrae
+                                            </h3>
+                                            <p class="text">
+                                                A más prospectos ideales <br class="desktopTabletElement">
+                                                con landing pages y ads
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-3 column-1">
+                                            <p class="text-number">2</p>
+                                        </div>
+                                        <div class="col-md-9 column-2">
+                                            <h3 class="secondaryTitle">
+                                                Nutre
+                                            </h3>
+                                            <p class="text">
+                                                la relación con WhatsApps <br class="desktopTabletElement">
+                                                emails y automatizaciones
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-3 column-1">
+                                            <p class="text-number">3</p>
+                                        </div>
+                                        <div class="col-md-9 column-2">
+                                            <h3 class="secondaryTitle">
+                                                Convierte
+                                            </h3>
+                                            <p class="text">
+                                                más clientes fieles con todas <br class="desktopTabletElement">
+                                                las herramientas del CRM
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="btn-cta col-md-12 col-lg-12">
+
+                                    <a class=" primaryButton hoverInEffect">
+                                        Recibe un demo personalilzado
+                                    </a>
+                            </div>
+
+                        </div>
+
+
+
+                    </section>
+
+
+
+                </div>
+
+            </section>
+
+            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/06-bg-home2023.png') !!})" class="customSection sectionParent home_2023_9">
+
+                <div class="section-row">
+                    <div class="col-md-8 column-1">
+                        <section class="innerSectionElement sct1">
+
+                            <div class="containElements">
+    
+                                <h3 class="sub-title">
+                                    ¿Brindas servicios de marketing o ventas?
+                                </h3>
+                                <h2 class="title">
+                                    Multiplica tu impacto y tus ingresos <br class="desktopTabletElement">
+                                    convirtiéndote en Escala Partner
+                                </h2>
+                                <p class="text">
+                                    Como socio de Escala recibes beneficios únicos <br class="desktopTabletElement">
+                                    para hacer crecer tu negocio y desarrollar una <br class="desktopTabletElement">
+                                    ventaja competitiva única en el mercado.
+                                </p>
+                                <a class=" primaryButton hoverInEffect">
+                                    Aprender más
+                                </a>
+    
+                            </div>
+    
+                        </section>
+                    </div>
+                    <div class="col-md-4 column-2">
+                        <section class="innerSectionElement sct2">
+
+                            <div class="containElements">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/14-home2023.png') !!}" loading="lazy">
+                            </div>
+    
+                        </section>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/07-bg-home2023.png') !!})" class="customSection sectionParent home_2023_10">
+
+                <div class="section-row">
+                    <div class="col-md-8 column-1">
+                        <section class="innerSectionElement sct1">
+
+                            <div class="containElements">
+
+                                <h2 class="title">
+                                    Multiplica tu impacto y tus ingresos <br class="desktopTabletElement">
+                                    convirtiéndote en Escala Partner
+                                </h2>
+                                <p class="text">
+                                    Como socio de Escala recibes beneficios únicos <br class="desktopTabletElement">
+                                    para hacer crecer tu negocio y desarrollar una <br class="desktopTabletElement">
+                                    ventaja competitiva única en el mercado.
+                                </p>
+                                <a class=" primaryButton hoverInEffect">
+                                    Aprender más
+                                </a>
+    
+                            </div>
+    
+                        </section>
+                    </div>
+                    <div class="col-md-4 column-2">
+                        <section class="innerSectionElement sct2">
+
+                            <div class="containElements">
+                                
+                            </div>
+    
+                        </section>
+                    </div>
+
+                </div>
+
+            </section>
+
 
     </div>
 
-    </section>
-
+</div>
 
     @php
         $escalaUrl = 'https://escala.com';
@@ -1011,7 +1213,7 @@
                 ],
             ],
         ];
-
+        
         $parameters = [
             'classSection' => 'homeSection_11',
             'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
@@ -1025,18 +1227,5 @@
     @endphp
     @contain_FAQ_T1($parameters)
     @endcontain_FAQ_T1
-
-
-
-
-
-    </div>
-
-
-
-
-    </div>
-
-
 
 @endsection
