@@ -529,6 +529,35 @@ a
         border-radius: 50px!important
         padding: 10px 40px!important
 
+.outlineWhiteButton,
+.menuButton.menuoutlineWhiteButton a,
+.menuButton.menuoutlineWhiteButton button
+    display: inline-block
+    text-decoration: none
+    font-size: 18px
+    line-height: 1
+    padding: 12.5px 25px!important
+    border-radius: 7px
+    color: white
+    background-color: transparent
+    width: fit-content
+    transition: $transitionButton
+    border: 1px solid white
+    transform: scale(1)
+    font-family: Nunito
+    @include responsivo(telefonoTable)
+        font-size: 12.5px!important
+        padding: 10px 12.5px!important
+    @include responsivo(pcMedio)
+        font-size: 18px!important
+        padding: 10px 25px!important
+    @include responsivo(smallPcTablet)
+        font-size: 14px
+
+    &.rounded
+        border-radius: 50px!important
+        padding: 10px 40px!important
+
 
 .orangeButton,
 .menuButton.menuOrangeButton a,
@@ -810,6 +839,15 @@ a
         color: $colorOrange
         background-color: white!important
         border: 1px solid $colorOrange
+
+.hoverInEffect.outlineWhiteButton,
+.menuhoverInEffect.menuButton.menuoutlineWhiteButton a,
+.menuhoverInEffect.menuButton.menuoutlineWhiteButton button
+    &:hover
+        transform: scale(1.075)
+        color: white
+        // background-color: white!important
+        border: 1px solid white
 
 .hoverInEffect.secondaryButton,
 .menuHoverInEffect.menuButton.menuSecondaryButton a,
