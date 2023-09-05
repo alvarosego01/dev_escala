@@ -321,7 +321,9 @@
             <span>Crea contenido efectivo en segundos</span> <br class="desktopTabletElement">
             La IA en Escala es como tener un copywriter <br class="desktopTabletElement">
             estrella a una fracción del costo',
-                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_ia_home_selector.png'),
+
+
+                                                'img' => App::setFilePath('/assets/images/gifs/image_ia_home_selector.gif'),
                                             ],
                                             [
                                                 'title' => 'Landing Pages',
@@ -331,7 +333,7 @@
             Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
             ¡sin depender de programadores!
             ',
-                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_landingp_home_selector.png'),
+                                                'img' => App::setFilePath('/assets/images/gifs/image_landingp_home_selector.gif'),
                                             ],
                                             [
                                                 'title' => 'Gestión de contactos y procesos',
@@ -340,16 +342,16 @@
             <span>Convierte más leads en clientes fieles</span> <br class="desktopTabletElement">
             organizando, guardando y supervisando <br class="desktopTabletElement">
             mejor todo lo que ocurre con tus contactos',
-                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_crm_home_selector.png'),
+                                                'img' => App::setFilePath('/assets/images/gifs/image_crm_home_selector.gif'),
                                             ],
                                             [
                                                 'title' => 'Email Marketing',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailmkt_small.png'),
                                                 'text' => '
-            <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
-            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
-            ¡sin depender de programadores!',
-                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_email_marketing_home_selector.png'),
+            <span>Crea y administra campañas publicitarias</span> <br class="desktopTabletElement">
+            pagas en Facebook a Instagram
+            ',
+                                                'img' => App::setFilePath('/assets/images/gifs/image_email_marketing_home_selector.gif'),
                                             ],
                                             [
                                                 'title' => 'WhatsApp automático y masivo',
@@ -358,25 +360,25 @@
             <span>Mejora tu comunicación</span> <br class="desktopTabletElement">
             automatizando el envío de mensajes a <br class="desktopTabletElement">
             múltiples contactos al mismo tiempo',
-                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_whatsapp_home_selector.png'),
+                                                'img' => App::setFilePath('/assets/images/gifs/image_whatsapp_home_selector.gif'),
                                             ],
                                             [
                                                 'title' => 'Anuncios digitales integrados ',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ads_small.png'),
                                                 'text' => '
-         <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
-            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
-            ¡sin depender de programadores!',
-                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_ads_home_selector.png'),
+            <span>Gestiona mejor tus relaciones</span> y <br class="desktopTabletElement">
+            optimiza tus operaciones comerciales
+            ',
+                                                'img' => App::setFilePath('/assets/images/gifs/image_ads_home_selector.gif'),
                                             ],
                                             [
                                                 'title' => 'Flujos de automatización',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_automatizations_small.png'),
                                                 'text' => '
-         <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
-            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
-            ¡sin depender de programadores!',
-                                                'img' => App::setFilePath('/assets/images/illustrations/others/image_automatizations_home_selector.png'),
+        Ahorra tiempo y dinero <br class="desktopTabletElement">
+        programando tareas y flujos de acciones
+     ',
+                                                'img' => App::setFilePath('/assets/images/gifs/image_automatizations_home_selector.gif'),
                                             ],
                                         ];
                                     @endphp
@@ -733,9 +735,11 @@
 
                             <div class="row card-content">
                                 <div class="col-md-12 col-lg-6 card1">
+
                                     <div
-                                    style="background-image: url('{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}')"
                                     class="card">
+                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard desktopElement">
+                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard mobileElement">
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-7">
@@ -760,8 +764,9 @@
                                 </div>
                                 <div class="col-md-12 col-lg-6 card2">
                                     <div
-                                    style="background-image: url('{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}')"
                                     class="card">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard desktopElement">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard mobileElement">
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-7">
@@ -788,8 +793,9 @@
                                 </div>
                                 <div class="col-md-12 col-lg-6 card3">
                                     <div
-                                    style="background-image: url('{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}')"
                                     class="card">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard desktopElement">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard mobileElement">
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-7">
@@ -815,8 +821,9 @@
                                 </div>
                                 <div class="col-md-12 col-lg-6 card4">
                                     <div
-                                    style="background-image: url('{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}')"
                                     class="card">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard desktopElement">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard mobileElement">
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-7">
@@ -844,8 +851,9 @@
                                 <div class="col-md-12 card5">
 
                                     <div
-                                    style="background-image: url('{{ App::setFilePath('/assets/images/illustrations/others/home_2023_rectangleLine.png') }}')"
-                                    class="card desktopElement">
+                                    class="card">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_rectangleLine.png') }}" alt="" class="backgroundCard desktopElement">
+                                           <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard mobileElement">
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-12 col-lg-5">
@@ -859,54 +867,96 @@
                                                             class="text-blue">Chat de plataforma</span>
                                                     </p>
                                                 </div>
+
                                                 <div class="col-md-12 col-lg-7">
-                                                    <div class="row">
-                                                        <div class="col-md-12 container-flags">
+                                                    <div class="row desktopElement_flex">
+                                                        <div class="col-md-12 col-lg-3 container-flags">
                                                             <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/08-home2023.png') !!}"
                                                                 loading="lazy">
+                                                        </div>
+                                                        <div class="col-md-12 col-lg-3 container-flags">
                                                             <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
                                                                 loading="lazy">
+                                                        </div>
+                                                        <div class="col-md-12 col-lg-3 container-flags">
                                                             <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
                                                                 loading="lazy">
+                                                        </div>
+                                                        <div class="col-md-12 col-lg-3 container-flags">
                                                             <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
                                                                 loading="lazy">
                                                         </div>
                                                     </div>
-                                                    <div class="row">
+                                                    <div class="row timeFlags">
                                                         <div class="col-md-12 title-block">
                                                             <div class="line"></div>
                                                             <p class="text-day">De Lunes a Viernes:</p>
                                                             <div class="line"></div>
                                                         </div>
-                                                        <div class="col-md-3">
+                                                        <div class="col-6 col-lg-3">
+
+                                                           <div class=" container-flags mobileElement">
+                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/08-home2023.png') !!}"
+                                                                loading="lazy">
+                                                        </div>
+
                                                             <p class="text-time">6 am - 8 pm</p>
                                                         </div>
-                                                        <div class="col-md-3">
+                                                        <div class="col-6 col-lg-3">
+                                                         <div class=" container-flags mobileElement">
+                                                              <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
+                                                                loading="lazy">
+                                                        </div>
                                                             <p class="text-time">7 am - 9 pm</p>
                                                         </div>
-                                                        <div class="col-md-3">
+                                                        <div class="col-6 col-lg-3">
+                                                         <div class=" container-flags mobileElement">
+                                                          <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
+                                                                loading="lazy">
+                                                        </div>
                                                             <p class="text-time">8 am - 10 pm</p>
                                                         </div>
-                                                        <div class="col-md-3">
+                                                        <div class="col-6 col-lg-3">
+                                                         <div class=" container-flags mobileElement">
+                                                           <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
+                                                                loading="lazy">
+                                                        </div>
                                                             <p class="text-time">9 am - 11 pm</p>
                                                         </div>
                                                     </div>
-                                                    <div class="row">
+                                                    <div class="row timeFlags">
                                                         <div class="col-md-12 title-block">
                                                             <div class="line last-row"></div>
                                                             <p class="text-day">Sábado:</p>
                                                             <div class="line last-row"></div>
                                                         </div>
-                                                        <div class="col-md-3">
+                                                        <div class="col-6 col-lg-3">
+                                                           <div class=" container-flags mobileElement">
+                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/08-home2023.png') !!}"
+                                                                loading="lazy">
+                                                        </div>
+
                                                             <p class="text-time">8 am - 12 pm</p>
                                                         </div>
-                                                        <div class="col-md-3">
+                                                        <div class="col-6 col-lg-3">
+                                                              <div class=" container-flags mobileElement">
+                                                              <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
+                                                                loading="lazy">
+                                                        </div>
                                                             <p class="text-time">9 am - 1 pm</p>
                                                         </div>
-                                                        <div class="col-md-3">
+                                                        <div class="col-6 col-lg-3">
+                                                          <div class=" container-flags mobileElement">
+                                                          <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
+                                                                loading="lazy">
+                                                        </div>
                                                             <p class="text-time">10 am - 2 pm</p>
                                                         </div>
-                                                        <div class="col-md-3">
+                                                        <div class="col-6 col-lg-3">
+                                                          <div class=" container-flags mobileElement">
+                                                           <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
+                                                                loading="lazy">
+                                                        </div>
                                                             <p class="text-time">11 am - 3 pm</p>
                                                         </div>
                                                     </div>
@@ -915,77 +965,6 @@
                                         </div>
                                     </div>
 
-                                    <div
-                                    style="background-image: url('{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}')"
-                                    class="card mobileElement">
-                                        <div class="card-body">
-                                            <div class="row">
-                                                <div class="col-md-12 col-lg-5">
-                                                    <h5 class="card-title">
-                                                        Chat Soporte Técnico
-                                                    </h5>
-                                                    <p class="card-text">
-                                                        Atendemos preguntas puntuales y <br class="desktopElement">
-                                                        necesidades técnicas en vivo por <br class="desktopElement">
-                                                        <span class="text-green">WhatsApp</span> y <span
-                                                            class="text-blue">Chat de plataforma</span>
-                                                    </p>
-                                                </div>
-                                                <div class="col-md-12 col-lg-7">
-                                                    <div class="row">
-                                                        <div class="col-md-12 container-flags">
-                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/08-home2023.png') !!}"
-                                                                loading="lazy">
-                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
-                                                                loading="lazy">
-                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
-                                                                loading="lazy">
-                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
-                                                                loading="lazy">
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-12 title-block">
-                                                            <div class="line"></div>
-                                                            <p class="text-day">De Lunes a Viernes:</p>
-                                                            <div class="line"></div>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <p class="text-time">6 am - 8 pm</p>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <p class="text-time">7 am - 9 pm</p>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <p class="text-time">8 am - 10 pm</p>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <p class="text-time">9 am - 11 pm</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-12 title-block">
-                                                            <div class="line last-row"></div>
-                                                            <p class="text-day">Sábado:</p>
-                                                            <div class="line last-row"></div>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <p class="text-time">8 am - 12 pm</p>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <p class="text-time">9 am - 1 pm</p>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <p class="text-time">10 am - 2 pm</p>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <p class="text-time">11 am - 3 pm</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
 
 
 
@@ -1035,7 +1014,7 @@
                                         exitosos para compartirla contigo y <br class="desktopElement">
                                         evitarte la prueba y error.”
                                     </p>
-                                    <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                    <a class=" primaryButton hoverInEffect" href="https://experiencia.escala.com/eventos-escala">
                                         Participar
                                     </a>
                                 </div>
@@ -1241,10 +1220,10 @@
                             <div class="info col-md-12 col-lg-5">
                                 <div class="card-body">
                                     <div class="row">
-                                        <div class="col-md-2 column-1">
+                                        <div class="col-2 column-1">
                                             <p class="text-number">1</p>
                                         </div>
-                                        <div class="col-md-10 column-2">
+                                        <div class="col-10 column-2">
                                             <h3 class="secondaryTitle">
                                                 Atrae
                                             </h3>
@@ -1257,10 +1236,10 @@
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
-                                        <div class="col-md-2 column-1">
+                                        <div class="col-2 column-1">
                                             <p class="text-number">2</p>
                                         </div>
-                                        <div class="col-md-10 column-2">
+                                        <div class="col-10 column-2">
                                             <h3 class="secondaryTitle">
                                                 Nutre
                                             </h3>
@@ -1273,10 +1252,10 @@
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
-                                        <div class="col-md-2 column-1">
+                                        <div class="col-2 column-1">
                                             <p class="text-number">3</p>
                                         </div>
-                                        <div class="col-md-10 column-2">
+                                        <div class="col-10 column-2">
                                             <h3 class="secondaryTitle">
                                                 Convierte
                                             </h3>
@@ -1329,7 +1308,7 @@
                                     para hacer crecer tu negocio y desarrollar una <br class="desktopTabletElement">
                                     ventaja competitiva única en el mercado.
                                 </p>
-                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                <a class=" outlineWhiteButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                     Aprender más
                                 </a>
 
