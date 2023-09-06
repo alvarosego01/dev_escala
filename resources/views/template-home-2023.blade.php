@@ -13,7 +13,7 @@
         <div class="sections">
 
             @php
-                $elements = [
+                $elementsReviews = [
                     [
                         'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
                         'text' => 'Escala / plataforma CRM',
@@ -62,11 +62,11 @@
 
                                     <div class="containElements row threeCol">
 
-                                        <div class="ele reviews col-md-12 col-lg-3">
+                                        <div class="ele reviews col-md-12 col-lg-3 desktopElement">
 
                                             <div class="elements">
 
-                                                @foreach ($elements as $item)
+                                                @foreach ($elementsReviews as $item)
                                                     <div class="refersElement">
 
                                                         <div class="infoInner">
@@ -194,6 +194,42 @@
                                     ];
                                 @endphp
 
+                                <div class="ele reviews col-md-12 mobileElement">
+
+                                            <div class="elements">
+
+                                                @foreach ($elementsReviews as $item)
+                                                    <div class="refersElement">
+
+                                                        <div class="infoInner">
+                                                            <div class="tag">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                                </div>
+
+                                                                <span class="points">
+                                                                    {!! $item['points'] !!}
+                                                                </span>
+                                                            </div>
+                                                            <p class="text">
+                                                                {!! $item['text'] !!}
+                                                            </p>
+                                                            <div class="stars">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_blue.svg') !!}" loading="lazy">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                @endforeach
+
+                                            </div>
+
+
+                                        </div>
+
                                 <div class="elementsCheck">
 
                                     @foreach ($elements as $item)
@@ -318,7 +354,7 @@
                                                 'title' => 'Inteligencia Artifical',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ia_small.png'),
                                                 'text' => '
-            <span>Crea contenido efectivo en segundos</span> <br class="desktopTabletElement">
+            <span>Crea contenido efectivo en segundos</span> <br class="space">
             La IA en Escala es como tener un copywriter <br class="desktopTabletElement">
             estrella a una fracción del costo',
 
@@ -329,7 +365,7 @@
                                                 'title' => 'Landing Pages',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_landingp_small.png'),
                                                 'text' => '
-            <span>Captura más leads de calidad</span> <br class="desktopTabletElement">
+            <span>Captura más leads de calidad</span> <br class="space">
             Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
             ¡sin depender de programadores!
             ',
@@ -339,7 +375,7 @@
                                                 'title' => 'Gestión de contactos y procesos',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_crm_small.png'),
                                                 'text' => '
-            <span>Convierte más leads en clientes fieles</span> <br class="desktopTabletElement">
+            <span>Convierte más leads en clientes fieles</span> <br class="space">
             organizando, guardando y supervisando <br class="desktopTabletElement">
             mejor todo lo que ocurre con tus contactos',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_crm_home_selector.gif'),
@@ -348,7 +384,7 @@
                                                 'title' => 'Email Marketing',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailmkt_small.png'),
                                                 'text' => '
-            <span>Crea y administra campañas publicitarias</span> <br class="desktopTabletElement">
+            <span>Crea y administra campañas publicitarias</span> <br class="space">
             pagas en Facebook a Instagram
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_email_marketing_home_selector.gif'),
@@ -357,7 +393,7 @@
                                                 'title' => 'WhatsApp automático y masivo',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_small.png'),
                                                 'text' => '
-            <span>Mejora tu comunicación</span> <br class="desktopTabletElement">
+            <span>Mejora tu comunicación</span> <br class="space">
             automatizando el envío de mensajes a <br class="desktopTabletElement">
             múltiples contactos al mismo tiempo',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_whatsapp_home_selector.gif'),
@@ -366,7 +402,7 @@
                                                 'title' => 'Anuncios digitales integrados ',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ads_small.png'),
                                                 'text' => '
-            <span>Gestiona mejor tus relaciones</span> y <br class="desktopTabletElement">
+            <span>Gestiona mejor tus relaciones</span> y <br class="space">
             optimiza tus operaciones comerciales
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_ads_home_selector.gif'),
