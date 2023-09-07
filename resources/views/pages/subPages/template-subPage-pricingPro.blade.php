@@ -253,36 +253,7 @@
                     )
                 ],
                 [
-                    "name" => 'Integración',
-                    "subItems" => array(
-                         [
-                            "name" => "Número de formularios",
-                            "value" => "Ilimitados"
-                        ],
-                         [
-                            "name" => "Constructor de formularios",
-                            "value" => "checkIcon"
-                        ],
-                         [
-                            "name" => "Inserción externa de formularios",
-                            "value" => "checkIcon"
-                        ],
-                         [
-                            "name" => "Formularios ilimitados",
-                            "value" => "checkIcon"
-                        ],
-                         [
-                            "name" => "Identificación de código postal",
-                            "value" => "checkIcon"
-                        ],
-                        [
-                            "name" => "Verificación de números",
-                            "value" => "checkIcon"
-                        ],
-                    )
-                ],
-                [
-                    "name" => 'Integración',
+                    "name" => 'Integraciones',
                     "subItems" => array(
                          [
                             "name" => "API",
