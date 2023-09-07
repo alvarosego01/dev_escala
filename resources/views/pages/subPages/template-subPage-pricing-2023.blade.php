@@ -380,7 +380,7 @@
                     ],
                 ],
                 [
-                    'name' => 'Integración',
+                    'name' => 'Integraciones',
                     'subItems' => [
                         [
                             'name' => 'API',

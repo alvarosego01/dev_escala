@@ -101,7 +101,7 @@ img
             background-position: 42.5% center
         @include responsivo(resto)
             padding-top: 250px
-            padding-bottom: 175px
+            padding-bottom: 200px
             background-position: 41.5% center
         @include responsivoSpecial(2000px, 2500px)
             background-position: 40% center
@@ -123,11 +123,9 @@ img
         .ele.reviews
             position: relative
             @include responsivo(general)
-                top: -25px
-            @include responsivo(smallPcTablet)
-                top: 0
+                top: 20px
             @include responsivo(resto)
-                top: -25px
+                top: 20px
             .elements
                 width: fit-content
                 display: flex
@@ -292,7 +290,7 @@ img
                         @include responsivo(smallPcTablet)
                             margin: 0 15px
                         @include responsivo(resto)
-                            margin: 0 50px
+                            margin: 0 25px
                         .info
                             display: flex
                             flex-direction: row
@@ -397,9 +395,11 @@ img
                         padding-bottom: 0
                         display: flex
                         margin: auto 0
-                        @include responsivo(general)
-                            top: -10px
                         @include responsivo(smallPcTablet)
+                            margin-top: 0
+                        @include responsivo(general)
+                            margin-top: 0
+                        @include responsivo(resto)
                             margin-top: 0
 
 
@@ -414,6 +414,8 @@ img
                             @include responsivo(pcMedio)
                                 margin-bottom: 25px
                                 right: 0
+                            @include responsivo(general)
+                                right: 10px
                             @include responsivo(smallPcTablet)
                                 right: 0
 
@@ -427,19 +429,17 @@ img
                                     height: 197px
                                     width: 350px
                                     margin-bottom: 25px
+                                    margin: 0 auto
                                 @include responsivo(pcMedio)
                                     height: 300px
                                     width: 530px!important
                                     margin-bottom: 25px
-                                @include responsivo(telefonoTable)
-                                    margin: 0 auto
-                                @include responsivo(pcMedio)
                                     margin: 0 auto
                                 @include responsivo(general)
                                     margin: auto
-                                    top: -55px
+                                    top: 0
                                     width: 625px!important
-                                    height: 350px!important
+                                    height: 350px
 
                                 @include responsivo(smallPcTablet)
                                     top: 0
@@ -447,9 +447,9 @@ img
                                     height: 250px!important
                                 @include responsivo(resto)
                                     margin: auto
-                                    top: -50px
-                                    width: 675px!important
-                                    height: 380px
+                                    top: 0
+                                    width: 700px!important
+                                    height: 395px
 
 
                                 iframe.iframe
@@ -759,6 +759,11 @@ img
                         display: flex
                         justify-content: center
                         align-content: center
+                        position: relative
+                        @include responsivo(general)
+                            left: 50px
+                        @include responsivo(resto)
+                            left: 75px
                         @include responsivo(smallPcTablet)
                             padding-left: 25px
                         .infoIn
@@ -771,7 +776,7 @@ img
                                 font-weight: 400
                                 line-height: 1
                                 letter-spacing: -0.75px
-                                margin-bottom: 25px
+                                margin-bottom: 0
                                 @include responsivo(telefonoTable)
                                     font-size: 16px
                                 @include responsivo(pcMedio)
@@ -780,26 +785,28 @@ img
                                     font-size: 22.5px
                                 @include responsivo(smallPcTablet)
                                     font-size: 20px
+                                    width: 425px
+                                    margin: 0 auto
                                 span
                                     color: #36768A
                                     font-weight: 600
                             .image
-                                margin-bottom: 35px
+                                margin-bottom: 0
                                 .containerImage
                                     padding: 0
                                     margin: 0
                                     img
                                         width: auto
                                         @include responsivo(telefonoTable)
-                                            height: 175px
-                                        @include responsivo(pcMedio)
-                                            height: 200px
-                                        @include responsivo(general)
-                                            height: 275px
-                                        @include responsivo(smallPcTablet)
                                             height: 250px
+                                        @include responsivo(pcMedio)
+                                            height: 350px
+                                        @include responsivo(general)
+                                            height: 500px
+                                        @include responsivo(smallPcTablet)
+                                            height: 450px
                                         @include responsivo(resto)
-                                            height: 300px
+                                            height: 550px
                             // .primaryButton
 
                     .selectors
@@ -848,7 +855,7 @@ img
                                 h3
                                     color: #36768A
                                     font-family: Nunito
-                                    font-size: 32.5px
+                                    font-size: 27.5px
                                     font-style: normal
                                     font-weight: 700
                                     line-height: 0.75
@@ -856,13 +863,13 @@ img
                                     margin: 0
                                     text-align: left
                                     @include responsivo(telefonoTable)
-                                        font-size: 20px
+                                        font-size: 18px
                                     @include responsivo(pcMedio)
-                                        font-size: 22px
+                                        font-size: 20px
                                     @include responsivo(general)
-                                        font-size: 30px
+                                        font-size: 25px
                                     @include responsivo(smallPcTablet)
-                                        font-size: 27.5px
+                                        font-size: 20px
 
                                 &.active,
                                 &:hover

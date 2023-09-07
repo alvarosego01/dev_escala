@@ -183,7 +183,10 @@
                                 @php
                                     $elements = [
                                         [
-                                            'text' => 'CRM todo-en-uno fácil de usar <br class="desktopElement"> e implementado en 10 días',
+                                            'text' => '
+                                            CRM todo-en-uno fácil de usar y <br class="desktopElement">
+                                            ajustado a tus necesidades en 10 días
+                                            ',
                                         ],
                                         [
                                             'text' => 'Acompañamiento y entrenamiento <br class="desktopElement"> para escalar empresas',
@@ -306,8 +309,8 @@
                                 <p class="text">
                                     <span class="title-blue">Equipos de marketing han</span> <br class="space">
                                     <span class="number">5X</span> <br class="space">
-                                    <span class="text-big">sus Ingresos</span> <br class="space">
-                                    <span class="text-small">tasa de ventas</span>
+                                    <span class="text-big">tasa de ventas</span> <br class="space">
+                                    <span class="text-small">recuperadas</span>
                                 </p>
                             </div>
 
@@ -334,7 +337,7 @@
                                 Vende más y mejor con Escala
                             </h2>
                             <p class="text">
-                                Un CRM todo-en-uno muy fácil de usar, done encuentras las herramientas <br
+                                Un CRM todo-en-uno muy fácil de usar, donde encuentras las herramientas <br
                                     class="desktopTabletElement"> de marketing y ventas que necesitas para escalar.
                             </p>
 
@@ -347,7 +350,7 @@
 
                             <div class="row">
 
-                                <div class="col-md-12 col-lg-6 selectors">
+                                <div class="col-md-12 col-lg-5 selectors">
                                     @php
                                         $elements = [
                                             [
@@ -384,13 +387,13 @@
                                                 'title' => 'Email Marketing',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailmkt_small.png'),
                                                 'text' => '
-            <span>Crea y administra campañas publicitarias</span> <br class="space">
-            pagas en Facebook a Instagram
+            <span>Envia campañas profesionales</span> <br class="space">
+            que nutran tus relaciones
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_email_marketing_home_selector.gif'),
                                             ],
                                             [
-                                                'title' => 'WhatsApp automático y masivo',
+                                                'title' => 'WhatsApp',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_small.png'),
                                                 'text' => '
             <span>Mejora tu comunicación</span> <br class="space">
@@ -402,8 +405,8 @@
                                                 'title' => 'Anuncios digitales integrados ',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ads_small.png'),
                                                 'text' => '
-            <span>Gestiona mejor tus relaciones</span> y <br class="space">
-            optimiza tus operaciones comerciales
+            <span>Crea y administra campañas publicitarias</span> <br class="space">
+            pagas en Facebook a Instagram
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_ads_home_selector.gif'),
                                             ],
@@ -456,7 +459,7 @@
 
                                 </div>
 
-                                <div class="col-md-12 col-lg-6 info showInfoSelectors">
+                                <div class="col-md-12 col-lg-7 info showInfoSelectors">
 
                                     <div class="infoIn">
 
@@ -544,11 +547,11 @@
                                 Ya no requieres meses para adaptar el CRM a tus operaciones
                             </h3>
                             <h2 class="title">
-                                Recibe el CRM implementado <br class="desktopTabletElement">
+                                Recibe el CRM ajustado a tus necesidades <br class="desktopTabletElement">
                                 ¡en menos de 10 días!
                             </h2>
                             <p class="text">
-                                Adaptamos la plataforma a tus necesidades para que tú y tu equipo se enfoquen <br
+                                El equipo de Escala adapta la plataforma a tus necesidades para que tú y tu equipo se enfoquen <br
                                     class="desktopTabletElement">
                                 en lo que verdaderamente importa: ¡generar leads y cerrar ventas!
                             </p>
