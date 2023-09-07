@@ -380,6 +380,69 @@
                     ],
                 ],
                 [
+                    'name' => 'Integración',
+                    'subItems' => [
+                        [
+                            'name' => 'API',
+                            'value' => ['checkIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => "Typeform - Próximamente",
+                            'value' => ['disabledIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => 'Calendly - Próximamente',
+                            'value' => ['disabledIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => 'Otras 15.000+ (Zapier)',
+                            'value' => ['checkIcon', 'checkIcon'],
+                        ],
+                    ],
+                ],
+                [
+                    'name' => 'Inteligencia artificial',
+                    'subItems' => [
+                        [
+                            'name' => 'Generador de contenido para landing pages',
+                            'value' => ['checkIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => "Generador de contenido para email marketing",
+                            'value' => ['checkIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => 'Optimizador de textos para emails 1:1',
+                            'value' => ['checkIcon', 'checkIcon'],
+                        ],
+                    ],
+                ],
+                [
+                    'name' => 'Planificador estratégico y táctico',
+                    'subItems' => [
+                        [
+                            'name' => 'Diseñador de embudos',
+                            'value' => ['checkIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => "Definición de metas",
+                            'value' => ['checkIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => 'Herramientas necesarias a implementar',
+                            'value' => ['checkIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => 'Guía personalizada de configuración',
+                            'value' => ['checkIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => 'Constructor de proceso comercial',
+                            'value' => ['checkIcon', 'checkIcon'],
+                        ],
+                    ],
+                ],
+                [
                     'name' => 'Integración API',
                     'subItems' => [],
                 ],
