@@ -253,9 +253,95 @@
                     )
                 ],
                 [
-                    "name" => 'Integración API',
+                    "name" => 'Integración',
                     "subItems" => array(
-
+                         [
+                            "name" => "Número de formularios",
+                            "value" => "Ilimitados"
+                        ],
+                         [
+                            "name" => "Constructor de formularios",
+                            "value" => "checkIcon"
+                        ],
+                         [
+                            "name" => "Inserción externa de formularios",
+                            "value" => "checkIcon"
+                        ],
+                         [
+                            "name" => "Formularios ilimitados",
+                            "value" => "checkIcon"
+                        ],
+                         [
+                            "name" => "Identificación de código postal",
+                            "value" => "checkIcon"
+                        ],
+                        [
+                            "name" => "Verificación de números",
+                            "value" => "checkIcon"
+                        ],
+                    )
+                ],
+                [
+                    "name" => 'Integración',
+                    "subItems" => array(
+                         [
+                            "name" => "API",
+                            "value" => "checkIcon"
+                        ],
+                        [
+                            "name" => "Typeform - Próximamente",
+                            "value" => "checkIcon"
+                        ],
+                        [
+                            "name" => "Calendly - Próximamente",
+                            "value" => "checkIcon"
+                        ],
+                        [
+                            "name" => "Otras 15.000+ (Zapier)",
+                            "value" => "checkIcon"
+                        ],
+                    )
+                ],
+                [
+                    "name" => 'Inteligencia artificial',
+                    "subItems" => array(
+                         [
+                            "name" => "Generador de contenido<br class='space'> para landing pages",
+                            "value" => "checkIcon"
+                        ],
+                        [
+                            "name" => "Generador de contenido<br class='space'> para email marketing",
+                            "value" => "checkIcon"
+                        ],
+                        [
+                            "name" => "Optimizador de textos para emails 1:1",
+                            "value" => "checkIcon"
+                        ],
+                    )
+                ],
+                [
+                    "name" => 'Planificador estratégico y táctico',
+                    "subItems" => array(
+                         [
+                            "name" => "Diseñador de embudos",
+                            "value" => "checkIcon"
+                        ],
+                        [
+                            "name" => "Definición de metas",
+                            "value" => "checkIcon"
+                        ],
+                        [
+                            "name" => "Herramientas necesarias a implementar",
+                            "value" => "checkIcon"
+                        ],
+                        [
+                            "name" => "Guía personalizada de configuración",
+                            "value" => "checkIcon"
+                        ],
+                        [
+                            "name" => "Constructor de proceso comercial",
+                            "value" => "checkIcon"
+                        ],
                     )
                 ],
             )
