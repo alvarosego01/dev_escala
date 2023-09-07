@@ -1,6 +1,9 @@
 
 @import ../../../common/global
 
+
+
+
 #anuncios_TB_2023 .customSection.sectionParent.anuncios-2023_0
     margin-bottom: 0px
     overflow: visible
@@ -282,12 +285,7 @@
                         margin: 0 auto
 
 #anuncios_TB_2023 .customSection.sectionParent.anuncios-2023_1
-    padding: 50px 0
-    padding-top: 25px
-    @include responsivo(telefonoTable)
-        padding: 25px 0
-    @include responsivo(pcMedio)
-        padding: 50px 0
+    padding: 0
     .backgroundFull
         background-position: center
         background-repeat: no-repeat
@@ -575,14 +573,14 @@
             padding-bottom: 0
         @include responsivo(general)
             width: 100%!important
-            max-width: 1140px!important
+            max-width: 1000px!important
         @include responsivo(smallPcTablet)
             width: 100%!important
             max-width: 900px!important
 
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1240px!important
+            max-width: 1140px!important
 
         section.innerSectionElement.sct1
             margin-bottom: 50px
@@ -692,7 +690,7 @@
                             font-weight: 500
                             line-height: 1
                             letter-spacing: -1px
-                            margin-bottom: 30px
+                            margin-bottom: 0
                             @include responsivo(telefonoTable)
                                 font-size: 16px
                                 text-align: center
@@ -739,10 +737,14 @@
         background-repeat: no-repeat
         background-size: cover
         overflow: visible
+        @include responsivo(telefonoTable)
+            padding-bottom: 25px!important
+        @include responsivo(pcMedio)
+            padding-bottom: 25px!important
         @include responsivo(general)
-            padding: 100px 0
+            padding: 75px 0
         @include responsivo(resto)
-            padding: 100px 0
+            padding: 75px 0
 
 
     .section-row
@@ -791,11 +793,11 @@
                                 height: 200px!important
                                 margin-bottom: 25px
                             @include responsivo(general)
-                                height: 225px
-                            @include responsivo(smallPcTablet)
-                                height: 200px
-                            @include responsivo(resto)
                                 height: 250px
+                            @include responsivo(smallPcTablet)
+                                height: 225px
+                            @include responsivo(resto)
+                                height: 275px
 
                 .column-text
                     display: flex
@@ -867,14 +869,14 @@
             padding-bottom: 0
         @include responsivo(general)
             width: 100%!important
-            max-width: 1140px!important
+            max-width: 1000px!important
         @include responsivo(smallPcTablet)
             width: 100%!important
             max-width: 900px!important
 
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1240px!important
+            max-width: 1140px!important
 
         section.innerSectionElement.sct1
             @include responsivo(telefonoTable)
@@ -1097,14 +1099,14 @@
             padding-bottom: 0
         @include responsivo(general)
             width: 100%!important
-            max-width: 1140px!important
+            max-width: 1000px!important
         @include responsivo(smallPcTablet)
             width: 100%!important
             max-width: 900px!important
 
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1240px!important
+            max-width: 1140px!important
 
         section.innerSectionElement.sct1
             @include responsivo(telefonoTable)
@@ -1198,7 +1200,7 @@
 #anuncios_TB_2023 .customSection.sectionParent.anuncios-2023_7
     padding-top: 0
     @include responsivo(telefonoTable)
-        padding-bottom: 0
+        padding-bottom: 50px
     @include responsivo(pcMedio)
         padding-bottom: 50px
     .section-row
@@ -1264,7 +1266,6 @@
                     font-size: 25px
         .innerSectionElement.sct2
             .secondaryText
-                font-size: 22px
                 color: #858585
                 text-align: center
                 font-family: Nunito
@@ -1274,20 +1275,20 @@
                 letter-spacing: -1px
                 margin-bottom: 0px
                 @include responsivo(telefonoTable)
-                    font-size: 16px
+                    font-size: 16px!important
                     text-align: center
                 @include responsivo(pcMedio)
-                    font-size: 18px
+                    font-size: 18px!important
                     text-align: center
                 @include responsivo(general)
-                    font-size: 20px
+                    font-size: 20px!important
                 @include responsivo(resto)
-                    font-size: 22px
+                    font-size: 22px!important
 
 #anuncios_TB_2023 .customSection.sectionParent.anuncios-2023_8
     padding-top: 0
     padding-bottom: 0
-    margin-bottom: 50px
+    margin-bottom: 0
     position: relative
     @include responsivo(telefonoTable)
         padding-top: 0

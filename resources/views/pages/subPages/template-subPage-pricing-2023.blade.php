@@ -659,7 +659,7 @@
                                                 </div>
                                             </div>
 
-                                            <label for="_contactsField">
+                                            <label for="_whatsappField">
                                                 Incluye Inbox y automatizaciones <br class="desktopTabletElement"> de <span style="color:
                                                 #00D35B"><strong>WhatsApp</strong></span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Whatsapp">?</button>
                                             </label>
@@ -679,7 +679,7 @@
                                                 </div>
                                             </div>
 
-                                            <label for="_contactsField">
+                                            <label for="_iaField">
                                                 Incluye <span style="color: #FF503C"><strong> Inteligencia Artificial</strong></span>
                                             </label>
                                         </div>
@@ -995,7 +995,7 @@
                             listo para usarse ¡en <br class="space">
                             solo 10 días!
                         </h5>
-                        <p class="card-text">*Alcance limitado</p>
+                        <p class="card-text">Alcance limitado*</p>
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-pricing_2023.png') !!}" alt="">
                         <p class="card-text">*Servicio de implementación</p>
                         <button class="rounded primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">¡Conocer más!</button>
@@ -1013,9 +1013,9 @@
                             y mejor con Escala <br class="space">
                             ¡todo el año!
                         </h5>
-                        <p class="card-text">*Horas limitadas</p>
+                        <p class="card-text">Horas limitadas*</p>
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/03-pricing_2023.png') !!}" alt="">
-                        <p class="card-text">Servicio de Acompañamiento</p>
+                        <p class="card-text">*Servicio de Acompañamiento</p>
                         <button class="rounded primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">¡Conocer más!</button>
                       </div>
                     </div>
@@ -1033,7 +1033,7 @@
                             <br class="desktopElement">
 
                         </h5>
-                        <p class="card-text">*Horas grupales ILIMITADAS</p>
+                        <p class="card-text">Horas grupales ILIMITADAS</p>
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/04-pricing_2023.png') !!}" alt="">
                         <p class="card-text">Servicio de Educación</p>
                         <button class="rounded primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">¡Conocer más!</button>

@@ -127,17 +127,16 @@ if (!$threeCol) {
                                     <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 
 
-                                    @if ( isset( $setForm ) && $setForm != null && $setForm != '' )
-
+                                @if ( isset( $setForm ) && $setForm != null && $setForm != '' )
                                     @php
                                         $f = $setForm;
                                     @endphp
-
                                 @else
                                     @php
                                         $f = ACF_CUSTOM::_getField('form7');
                                     @endphp
                                 @endif
+
                                  @if (isset($f) && $f != null)
                                  {!! do_shortcode( $f ) !!}
                                 @else

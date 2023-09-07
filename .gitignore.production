@@ -22,3 +22,8 @@ phpcs.xml
 pruebas.html
 yarn-error.log
 yarn.lock
+
+
+pruebas.html
+pruebas.js
+pruebas.php
