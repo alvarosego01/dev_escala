@@ -442,10 +442,6 @@
                         ],
                     ],
                 ],
-                [
-                    'name' => 'Integración API',
-                    'subItems' => [],
-                ],
             ],
         ],
     ];
