@@ -3,11 +3,8 @@
 --}}
 
 
-
 @extends('layouts.app')
 @section('content')
-
-
 
     <div id="homeSection_2023">
         <div class="sections">
@@ -266,12 +263,9 @@
 
                     </div>
 
-
-
                 </div>
 
             </section>
-
 
             <section class="customSection sectionParent home_2023_1">
 
@@ -285,7 +279,7 @@
                                 <p class="text">
                                     <span class="title-blue">Líderes de negocio han</span> <br class="space">
                                     <span class="number">2X</span> <br class="space">
-                                    <span class="text-big">sus Ingresos</span> <br class="space">
+                                    <span class="text-big">sus ingresos</span> <br class="space">
                                     <span class="text-small">en menos de 6 meses</span>
                                 </p>
                             </div>
@@ -334,11 +328,11 @@
                                 Olvida el Excel y los CRMs complicados
                             </h3>
                             <h2 class="title">
-                                Vende más y mejor con Escala
+                                Consigue más y mejores <br class="space"> clientes con el CRM de Escala
                             </h2>
                             <p class="text">
-                                Un CRM todo-en-uno muy fácil de usar, donde encuentras las herramientas <br
-                                    class="desktopTabletElement"> de marketing y ventas que necesitas para escalar.
+                                Es muy fácil de usar y brinda todas las herramientas <br class="desktopTabletElement">
+                                de marketing y ventas que necesitas para escalar.
                             </p>
 
                         </div>
@@ -551,9 +545,8 @@
                                 ¡en menos de 10 días!
                             </h2>
                             <p class="text">
-                                El equipo de Escala adapta la plataforma a tus necesidades para que tú y tu equipo se enfoquen <br
-                                    class="desktopTabletElement">
-                                en lo que verdaderamente importa: ¡generar leads y cerrar ventas!
+                                 Adaptamos la plataforma a tu negocio para que tú y tu equipo empiecen a enfocarse lo más pronto <br class="desktopTabletElement">
+                                 posible en lo que verdaderamente importa: ¡generar leads y cerrar ventas!
                             </p>
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/01-home2023.png') !!}" loading="lazy">
                         </div>
@@ -757,13 +750,11 @@
                                 De nada sirve tener un CRM configurado... ¡si nadie lo quiere o sabe usar!
                             </h3>
                             <h2 class="title">
-                                Entrenamos a tu equipo y te guiamos a <br class="desktopElement">
-                                optimizar resultados ¡todo el año!
+                                Entrenamos a tu equipo y te acompañamos a <br class="desktopTabletElement">
+                                acelerar resultados ¡todo el año!
                             </h2>
                             <p class="text">
-                                ¡Tu éxito es nuestro éxito! Recibe acompañamiento de todas las maneras posibles <br
-                                    class="desktopElement">
-                                para que construyas una máquina de marketing y ventas con Escala
+                                ¡Tu éxito es nuestro éxito! Te apoyamos de todas las maneras posibles para que <br class="desktopTabletElement"> construyas una máquina de marketing y ventas con Escala
                             </p>
                         </div>
 
