@@ -165,6 +165,11 @@ add_action('wp_enqueue_scripts', function () {
 
         //  SUB PAGES----------------------------------------------------
 
+        // --- Template Educacion 2023
+        if (is_page_template('views/template-subPage-educacion-2023.blade.php')) {
+            wp_enqueue_style('subPage_educacion_2023.css', asset_path('styles/pages/subPages/subPage_educacion_2023.css'), false, THEME_VERSION);
+        }
+
         // --- Template Implementacion 2023
         if (is_page_template('views/template-subPage-implementacion-2023.blade.php')) {
             wp_enqueue_style('implementacion-2023.css', asset_path('styles/pages/subPages/implementacion-2023.css'), false, THEME_VERSION);
