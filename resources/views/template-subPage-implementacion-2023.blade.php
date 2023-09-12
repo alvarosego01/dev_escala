@@ -503,16 +503,14 @@
                                                 <li>
                                                     <div class="list-item">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Entrenar al equipo y</p>
+                                                        <p>
+                                                            Entrenar al equipo y <br class="space">
+                                                            comenzar a producir <br class="space">
+                                                            resultados
+                                                        </p>
                                                     </div>
                                                 </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Comenzar a producir <br class="space">
-                                                            resultados</p>
-                                                    </div>
-                                                </li>
+
                                             </ul>
                                             <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/03-home2023.png') !!}" loading="lazy">
                                         </div>

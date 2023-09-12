@@ -713,8 +713,15 @@
                         line-height: 1
                         margin-bottom: 50px
                         @include responsivo(telefonoTable)
-                            font-size: 24px
+                            font-size: 22px
                             margin-bottom: 25px
+                        @include responsivo(pcMedio)
+                            font-size: 25px
+                        @include responsivo(general)
+                            font-size: 35px
+                        @include responsivo(smallPcTablet)
+                            font-size: 32.5px
+
 
                     .card-subtitle
                         color: #36768A
@@ -724,9 +731,15 @@
                         font-weight: 600
                         letter-spacing: -2px
                         text-align: left
-                        margin-bottom: 5px
+                        margin-bottom: 10px
                         @include responsivo(telefonoTable)
                             font-size: 18px
+                        @include responsivo(pcMedio)
+                            font-size: 20px
+                        @include responsivo(general)
+                            font-size: 22.5px
+                        @include responsivo(smallPcTablet)
+                            font-size: 20px
 
                     .list-block
                         margin-bottom: 10px
@@ -759,7 +772,7 @@
                                     font-weight: 500
                                     margin: 0px
                                     text-align: left
-                                    line-height: 1
+                                    line-height: 1.1
                                     @include responsivo(telefonoTable)
                                         font-size: 14px
                                     @include responsivo(pcMedio)
@@ -769,6 +782,9 @@
                                 width: 20px
                                 height: fit-content
                                 margin: auto 0px
+                                margin-top: 0
+                                position: relative
+                                top: 2.5px
 
 #implementacion-2023 .customSection.sectionParent.implementacion-2023-2
     background-position: center
@@ -936,10 +952,12 @@
         margin-bottom: 50px
     @include responsivo(general)
         margin-top: -100px
+        margin-bottom: 0
         background-position: 50% center
     @include responsivo(smallPcTablet)
         background-position: 50% center
         margin-top: -75px
+        margin-bottom: 50px
     @include responsivo(resto)
         margin-top: -125px
         background-position: 50% center
@@ -957,7 +975,6 @@
             width: 100%!important
             max-width: 1250px!important
             padding: 0 35px
-            padding-bottom: 40px
         @include responsivo(smallPcTablet)
             top: -15px
             max-width: 1000px!important
@@ -991,9 +1008,12 @@
                         margin-bottom: 50px
                     @include responsivo(general)
                         font-size: 42.5px
+                        margin-bottom: 100px
+                    @include responsivo(smallPcTablet)
                         margin-bottom: 50px
                     @include responsivo(resto)
                         font-size: 45px
+                        margin-bottom: 50px
 
                 .ele.video
                     position: relative
@@ -1086,30 +1106,30 @@
     padding: 125px 0
     @include responsivo(telefonoTable)
         padding: 50px 0
+        background-position: 90% center
 
     @include responsivo(pcMedio)
         padding: 50px 0
         background-size: cover
-        background-position: center
+        background-position: 91% center
     @include responsivo(general)
         background-size: cover
-        background-position: 100% center
+        padding: 50px 0
+        padding-bottom: 35px
+        background-position: 90% center
+    @include responsivo(smallPcTablet)
+        margin-bottom: 25px
 
     @include responsivo(resto)
         background-size: cover
-        background-position: 100% center
+        padding: 75px 0
+        padding-bottom: 50px
+        background-position: 90% center
+    @include responsivoSpecial(2000px, 999999px)
+        background-position: 95% center
 
 
 
-    // .overlay
-    //     position: absolute
-    //     left: 0
-    //     top: 0
-    //     bottom: 0
-    //     @include responsivo(general)
-    //         width: 85%
-    //     @include responsivo(resto)
-    //         width: 85%
 
     .section-row
         padding-bottom: 0
@@ -1153,7 +1173,8 @@
                         font-size: 42.5px
                     @include responsivo(resto)
                         font-size: 45px
-
+                .containerImage
+                    margin-bottom: 0
                 img
                     height: 275px
                     @include responsivo(telefonoTable)
@@ -1161,7 +1182,7 @@
                     @include responsivo(pcMedio)
                         height: 500px
                     @include responsivo(general)
-                        height: 250px
+                        height: 225px
                     @include responsivo(smallPcTablet)
                         height: 200px
 
@@ -1208,7 +1229,7 @@
         justify-self: center
         background-position: 38% center
     @include responsivoSpecial(2000px, 99999px)
-        background-position: 30% center
+        background-position: 35% center
 
 
     display: flex
@@ -1596,6 +1617,7 @@
 
 #implementacion-2023 .customSection.sectionParent.implementacion-2023-6
     padding-top: 190px
+    padding-bottom: 25px
     background-position: center
     background-size: cover
     background-repeat: no-repeat
@@ -1842,11 +1864,13 @@
             width: 90%
             margin-top: -75px
         @include responsivo(general)
+            padding-top: 25px
             width: 100%!important
             max-width: 1140px!important
         @include responsivo(smallPcTablet)
             max-width: 1000px!important
         @include responsivo(resto)
+            padding-top: 25px
             width: 100%!important
             max-width: 1240px!important
     .innerSectionElement.sct1
