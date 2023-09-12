@@ -8,8 +8,8 @@
             <section id="lead-form"
                 class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol implementacion-2023-0 ">
 
-                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-implementacion-2023-07.png') }}')"
-                    class="backgroundFull">
+                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/mobile-bg-implementacion-2023-07.png') }}')"
+                    class="backgroundFull mobileElement">
 
                     <div class="section-row">
 
@@ -23,22 +23,14 @@
 
                                     <div class="containElements row threeCol">
 
-                                        <div class="ol-md-12 col-lg-5">
-
-                                            <div class="elements">
-
-                                            </div>
-
-                                        </div>
-
-                                        <div class="col-md-12 col-lg-7">
+                                        <div class=" infoTitle">
 
                                             <h1 class="principalTitle">
-                                            Recibe el CRM<br class="desktopTabletElement">
-                                            implementado<br class="desktopTabletElement">
+                                            Recibe el CRM <br class="space">
+                                            implementado <br class="space">
                                             <span>¡en solo 10 días!</span>
                                             </h1>
-                                            
+
                                             <ul>
                                                 <li>
                                                     <div class="list-item">
@@ -60,11 +52,9 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="ol-md-12 col-lg-12">
-                                            <div class="elements img-reviews">
-                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/08-implementacion-2023.png') !!}" loading="lazy">
-                                            </div>
 
+                                        <div class="containerImage mobileElement">
+                                            <img src="{{ App::setFilePath('/assets/images/person/am/am_implement.png') }}" alt="">
                                         </div>
 
                                     </div>
@@ -111,6 +101,220 @@
                             </div>
 
                         </section>
+
+                              <section class="innerSectionElement sct2">
+
+                            <div class="containElements">
+
+                                                              @php
+                $elementsReviews = [
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.8 / 5',
+                    ],
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.9 / 5',
+                    ],
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.8 / 5',
+                    ],
+                ];
+            @endphp
+
+                                            <div class="elements">
+                                                {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/08-implementacion-2023.png') !!}" loading="lazy"> --}}
+
+                                                   @foreach ($elementsReviews as $item)
+                                                    <div class="refersElement">
+
+                                                        <div class="infoInner">
+                                                            <div class="tag">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                                </div>
+
+                                                                <span class="points">
+                                                                    {!! $item['points'] !!}
+                                                                </span>
+                                                            </div>
+                                                            <p class="text">
+                                                                {!! $item['text'] !!}
+                                                            </p>
+                                                            <div class="stars">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                @endforeach
+
+                                            </div>
+
+                            </div>
+
+                              </section>
+
+                    </div>
+
+                </div>
+
+                <div  style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-implementacion-2023-07.png') }}')"
+                    class="backgroundFull desktopElement">
+
+                    <div class="section-row">
+
+                        <section class="innerSectionElement sct1">
+
+                            <div class="groupElements row">
+
+
+                                <div class="info col-md-12 col-lg-8 ">
+
+
+                                    <div class="containElements row threeCol">
+
+                                        <div class=" infoTitle">
+
+                                            <h1 class="principalTitle">
+                                            Recibe el CRM<br class="desktopTabletElement">
+                                            implementado<br class="desktopTabletElement">
+                                            <span>¡en solo 10 días!</span>
+                                            </h1>
+
+                                            <ul>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Creamos piezas de comunicación</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Configuramos el CRM según tu proceso</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Importamos y conectamos cuentas</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                                <div class="form7 col-md-12 col-lg-4 ">
+
+                                    <div class="containElements">
+
+                                        <div class="formatForm redirectWeb" redirectWeb="true">
+
+                                            <h5 class="titleFormat blackcolor">
+                                                Recibe un tour guiado <br class="space">
+                                                de Escala
+                                            </h5>
+
+
+
+                                            @php
+                                                $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                                $_rs = [];
+                                                $_formShortcode = null;
+                                                if ($_data = get_posts($_args)) {
+                                                    foreach ($_data as $_key) {
+                                                        $_rs[$_key->ID] = $_key->post_title;
+                                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                                        }
+                                                    }
+                                                } else {
+                                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                                }
+                                            @endphp
+                                            {!! do_shortcode($_formShortcode) !!}
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                              <section class="innerSectionElement sct2">
+
+                            <div class="containElements">
+
+                                                              @php
+                $elementsReviews = [
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.8 / 5',
+                    ],
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.9 / 5',
+                    ],
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.8 / 5',
+                    ],
+                ];
+            @endphp
+
+                                            <div class="elements">
+                                                {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/08-implementacion-2023.png') !!}" loading="lazy"> --}}
+
+                                                   @foreach ($elementsReviews as $item)
+                                                    <div class="refersElement">
+
+                                                        <div class="infoInner">
+                                                            <div class="tag">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                                </div>
+
+                                                                <span class="points">
+                                                                    {!! $item['points'] !!}
+                                                                </span>
+                                                            </div>
+                                                            <p class="text">
+                                                                {!! $item['text'] !!}
+                                                            </p>
+                                                            <div class="stars">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                @endforeach
+
+                                            </div>
+
+                            </div>
+
+                              </section>
 
                     </div>
 
@@ -359,20 +563,20 @@
 
             </section>
 
-            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-05.png') !!})" class="customSection sectionParent implementacion-2023-3">
+            <section  class="customSection sectionParent implementacion-2023-3">
 
                 <div class="section-row">
 
                     <section class="innerSectionElement sct0">
 
                         <div class="containElements">
-                            <div class="container mt-5">
+                            <div class="container ">
                                 <div class="row">
-                                    <div class="col-md-12 col-lg-12 text-center">
+                                    <div class="text-center col-md-12 col-lg-12">
                                         <h2 class="primaryTitle">
                                             ¿Cómo luce lo que reciben nuestros clientes?
                                         </h2>
-                                        <div class="ele video col-md-12 col-lg-9">
+                                        <div class="ele video col-md-12">
 
                                             @php
                                                 $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
@@ -381,6 +585,10 @@
 
                                             @if (isset($videoEmbed) && $videoEmbed != null)
                                                 <div class="youtubeImageContainer ">
+
+                                                    <img src="{!! App::setFilePath('/assets/images/overlays/video_box_left.svg') !!}" alt="" class="overlayLeft">
+
+                                                    <img src="{!! App::setFilePath('/assets/images/overlays/video_box_right.svg') !!}" alt="" class="overlayRight">
 
                                                     <video class="video-js" controls preload="none"
                                                         poster="{{ $videoCover }}" {{-- poster="MY_VIDEO_POSTER.jpg" --}}
@@ -440,10 +648,14 @@
                         'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
                     ],
                 ];
-                
+
             @endphp
 
-            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-04.png') !!})" class=" customSection sectionParent implementacion-2023-4">
+            <section
+            style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-04.png') !!})"
+             class=" customSection sectionParent implementacion-2023-4">
+
+                    {{-- <img src="{!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-04.png') !!}" alt="" class="overlay"> --}}
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -455,7 +667,8 @@
                             </h2>
 
                             <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/05-implementacion-2023.png') !!}" loading="lazy">
+                                <img class="desktopElement" src="{!! App::setFilePath('/assets/images/illustrations/others/proceso_implement.png') !!}" loading="lazy">
+                                <img class="mobileElement" src="{!! App::setFilePath('/assets/images/illustrations/others/proceso_implement_mobile.png') !!}" loading="lazy">
                             </div>
 
                         </div>
@@ -821,7 +1034,7 @@
           ',
                     ],
                 ];
-                
+
                 $parameters = [
                     'classSection' => 'implementacion-2023-7',
                     'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
