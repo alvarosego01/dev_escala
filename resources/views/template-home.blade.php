@@ -9,33 +9,6 @@
     <div id="homeSection">
         <div class="sections">
 
-            {{-- @php
-                $parameters = [
-                    'backgroundImageType' => true,
-                    'overlay' => false,
-                    'classSection' => 'threeCol homeSection_0 newHome',
-                    'title' => '
-        Acelera el crecimiento <br class="space">
-        <span style="color: #DEF3F5">de tu empresa con Escala</span>
-    ',
-                    'text' =>
-                        '<span class="whiteColor">
-            La plataforma todo-en-uno para mejorar tus <br class="space">
-            resultados de marketing y ventas
-      </span>
-      <img class="funnelImage" src="' .
-                        App::setFilePath('/assets/images/illustrations/others/temporal_funnel.png') .
-                        '" alt="">
-      ',
-                    'threeCol' => true,
-                    'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
-                    'backgroundImage' => App::setFilePath('/assets/images/overlays/overlay_space_1_big.png'),
-                    'overlayImage' => null,
-                    'image' => App::setFilePath('/assets/images/person/am/temporal_am.png'),
-                    'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM',
-                ];
-            @endphp --}}
-
             @header_t1([
                 'backgroundImageType' => true,
                 'overlay' => false,
@@ -452,8 +425,6 @@
                 <img src="{!! App::setFilePath('/assets/images/overlays/overlay_sky_3.png') !!}" alt="" class="overlaysky">
 
             </section>
-
-
 
             @php
                 $desk_reviews = [
