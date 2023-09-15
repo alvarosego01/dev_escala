@@ -294,6 +294,8 @@ class SetComponents extends Controller
         }
         if ($type == 'all') {
             return [
+                'views/template-subPage-acompanamiento-2023.blade.php',
+                'views/template-subPage-educacion-2023.blade.php',
                 'views/template-subPage-implementacion-2023.blade.php',
                 'views/template-subPage-landingPage-base-2023.blade.php',
                 'views/template-subPage-CRM-2023.blade.php',
