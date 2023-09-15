@@ -8,7 +8,7 @@
             <section id="lead-form"
                 class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol acompanamiento-2023-0 ">
 
-                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/mobile-bg-implementacion-2023-07.png') }}')"
+                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_acompanamiento_mobile_2023.svg') }}')"
                     class="backgroundFull mobileElement">
 
                     <div class="section-row">
@@ -27,8 +27,8 @@
 
                                             <h1 class="principalTitle">
                                                 Te guiamos a vender <br class="space">
-                                                más y mejor con Escala <br class="space">
-                                                <span>¡todo el año!</span>
+                                                más y mejor <span> con Escala <br class="space">
+                                                ¡todo el año!</span>
                                             </h1>
 
                                             <ul>
@@ -54,7 +54,7 @@
                                         </div>
 
                                         <div class="containerImage mobileElement">
-                                            <img src="{{ App::setFilePath('/assets/images/person/am/am_implement.png') }}"
+                                            <img src="{{ App::setFilePath('/assets/images/person/am/acompanamiento_am.png') }}"
                                                 alt="">
                                         </div>
 
@@ -167,7 +167,7 @@
 
                 </div>
 
-                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-implementacion-2023-07.png') }}')"
+                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_acompanamiento_desktop_2023.svg') }}')"
                     class="backgroundFull desktopElement">
 
                     <div class="section-row">
@@ -186,8 +186,8 @@
 
                                             <h1 class="principalTitle">
                                                 Te guiamos a vender <br class="space">
-                                                más y mejor con Escala <br class="space">
-                                                <span>¡todo el año!</span>
+                                                más y mejor <span> con Escala <br class="space">
+                                                ¡todo el año!</span>
                                             </h1>
 
                                             <ul>
@@ -257,9 +257,9 @@
 
                         </section>
 
-                        <section class="innerSectionElement sct2">
+                        <section class="row innerSectionElement sct2">
 
-                            <div class="containElements">
+                            <div class="containElements col-md-12 col-lg.8">
 
                                 @php
                                     $elementsReviews = [
@@ -537,13 +537,13 @@
                         'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
                     ],
                 ];
-                
+
             @endphp
 
             <section style="background-image: url({!! App::setFilePath('/assets/images/banners/02-bg-acompanamiento-2023.png') !!})" class="customSection sectionParent acompanamiento-2023-3">
 
                             <div class="section-row">
-                                <div class="col-md-8 column-1">
+                                <div class="col-md-12 col-lg-8 column-1">
                                     <section class="innerSectionElement sct1">
 
                                         <div class="containElements">
@@ -556,14 +556,14 @@
                                                 La primera semana con Escala, agendas una sesión en vivo <br class="desktopTabletElement">
                                                 por Zoom con tu Gerente de Éxito para que conozca a mayor <br class="desktopTabletElement">
                                                 profundidad tu negocio y definan juntos un plan de acción <br class="desktopTabletElement">
-                                                paso a paso con Escala. 
+                                                paso a paso con Escala.
                                             </p>
-                
+
                                         </div>
 
                                     </section>
                                 </div>
-                                <div class="col-md-4 column-2">
+                                <div class="col-md-12 col-lg-4 column-2">
                                     <section class="innerSectionElement sct2">
 
                                         <div class="containElements">
@@ -594,13 +594,13 @@
                         </div>
                     </section>
                     <section class="innerSectionElement sct1">
-    
+
                         <div class="row groupElements">
-    
+
                             <div class="info col-md-12 col-lg-7">
-    
+
                                 @php
-    
+
                                     $elements = [
                                         [
                                             'title' => 'Identificar fortalezas y oportunidades de mejora',
@@ -612,11 +612,11 @@
                                             'title' => 'Definir nuevo plan de crecimiento',
                                         ],
                                     ];
-    
+
                                 @endphp
-    
+
                                 <div class="containElements">
-    
+
                                     <ul class="elements">
                                         @foreach ($elements as $item)
                                             <li class="item">
@@ -635,29 +635,29 @@
                                             </li>
                                         @endforeach
                                     </ul>
-    
+
                                 </div>
-    
+
                             </div>
                             <div class="image col-md-12 col-lg-5">
-    
+
                                 <div class="containElements">
-    
+
                                     <div class="containerImage">
                                         <img alt="Landing Escala Landings" src="{!! App::setFilePath('/assets/images/illustrations/others/11-acompanamiento-2023.png') !!}" alt=""
                                             loading="lazy">
                                     </div>
-    
+
                                 </div>
-    
+
                             </div>
-    
+
                         </div>
-    
+
                     </section>
-    
+
                 </div>
-    
+
             </section>
 
             <section style="background-image: url({!! App::setFilePath('/assets/images/banners/03-bg-acompanamiento-2023.png') !!})" class="customSection sectionParent acompanamiento-2023-5">
@@ -1180,7 +1180,7 @@
           ',
                     ],
                 ];
-                
+
                 $parameters = [
                     'classSection' => 'acompanamiento-2023-10',
                     'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
