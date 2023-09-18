@@ -343,7 +343,12 @@
 
                             <div class="row">
                                 <div class="col-md-12 col-lg-4 cardParent column-1">
-                                    <div class="card">
+
+
+
+                                    <div
+                                    style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/background_imp_section.png') !!}')"
+                                     class="card">
                                         <div class="card-body">
                                             <h5 class="card-number">1</h5>
                                             <h5 class="card-title">
@@ -353,6 +358,8 @@
                                                 Te apoya a planificar y <br class="desktopTabletElement">
                                                 aprovechar al máximo <br class="desktopTabletElement">
                                                 las soluciones de Escala
+                                                <br class="space">
+                                                <br class="space">
                                             </p>
                                             <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/01-acompanamiento-2023.png') !!}" loading="lazy">
                                             <div class="text-bottom">
@@ -378,7 +385,9 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-lg-4 cardParent column-2">
-                                    <div class="card">
+                                    <div
+                                       style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/background_imp_section.png') !!}')"
+                                     class="card">
                                         <div class="card-body">
                                             <h5 class="card-number">2</h5>
                                             <h5 class="card-title">
@@ -414,7 +423,9 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-lg-4 cardParent column-3">
-                                    <div class="card">
+                                    <div
+                                       style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/background_imp_section.png') !!}')"
+                                    class="card">
                                         <div class="card-body">
                                             <h5 class="card-number">3</h5>
                                             <h5 class="card-title">
