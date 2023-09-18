@@ -578,7 +578,7 @@
                     line-height: 1
                     margin-bottom: 25px
                     @include responsivo(telefonoTable)
-                        font-size: 26
+                        font-size: 25px
                         margin-bottom: 10px
                         text-align: center
                     @include responsivo(pcMedio)
@@ -617,35 +617,41 @@
 
                 .cardParent
                     @include responsivo(telefonoTable)
-                        margin-bottom: 10px
+                        margin-bottom: 0
                         &:last-child
                             margin-bottom: 0
                     @include responsivo(pcMedio)
-                        margin-bottom: 50px
+                        margin-bottom: 0
                         &:last-child
                             margin-bottom: 0
 
                 .card
-                    background-color: #fff
-                    filter: drop-shadow(0px 6px 30px rgba(54, 118, 138, 0.10))
+                    background-color: transparent
+                    // filter: drop-shadow(0px 6px 30px rgba(54, 118, 138, 0.10))
                     border-radius: 30px
                     border: none
-                    padding: 0px 50px 25px 50px
+                    // padding: 0px 50px 25px 50px
+                    padding: 80px 0
                     margin: 0!important
+
+
+                    background-size: cover
+                    background-position: center
+                    background-repeat: no-repeat
+
                     @include responsivo(telefonoTable)
+                        padding-left: 15px
+                        padding-right: 15px
+                        background-size: 110% 100%
+                    @include responsivo(pcMedio)
                         padding-left: 25px
                         padding-right: 25px
-                    @include responsivo(pcMedio)
-                        padding-left: 50px
-                        padding-right: 50px
+                        background-size: contain
                     @include responsivo(general)
                         max-width: 350px
-                        padding-right: 35px
-                        padding-left: 35px
+
                     @include responsivo(resto)
                         max-width: 350px
-                        padding-right: 35px
-                        padding-left: 35px
 
                     .card-body
                         padding: 0
@@ -670,27 +676,25 @@
                         @include responsivo(telefonoTable)
                             font-size: 50px
 
-
                     .card-title
                         color: #2C4857
                         text-align: center
                         font-family: Nunito
-                        font-size: 40px
+                        font-size: 35px
                         font-style: normal
                         font-weight: 700
                         letter-spacing: -0.907px
                         line-height: 1
                         margin-bottom: 45px
                         @include responsivo(telefonoTable)
-                            font-size: 22px
+                            font-size: 22.5px
                             margin-bottom: 25px
                         @include responsivo(pcMedio)
                             font-size: 25px
                         @include responsivo(general)
-                            font-size: 35px
-                        @include responsivo(smallPcTablet)
                             font-size: 32.5px
-
+                        @include responsivo(smallPcTablet)
+                            font-size: 30px
 
                     .card-primaryText
                         color: #797979
@@ -704,12 +708,18 @@
                         line-height: 90.5%
                         @include responsivo(telefonoTable)
                             font-size: 18px
+                            width: 300px
+                            margin-left: auto
+                            margin-right: auto
                         @include responsivo(pcMedio)
                             font-size: 20px
                         @include responsivo(general)
                             font-size: 22.5px
                         @include responsivo(smallPcTablet)
                             font-size: 20px
+                            width: 275px
+                            margin-left: auto
+                            margin-right: auto
 
                         .greenText
                             color: #00D35B
@@ -747,8 +757,16 @@
                         letter-spacing: -2px
 
                     img.column-1
-                        width: 150px
-                        margin: 50px 0px
+                        height: 150px
+                        width: auto
+                        margin: 25px 0px
+                        @include responsivo(telefonoTable)
+                            height: 100px
+                            width: auto
+                        @include responsivo(pcMedio)
+                            height: 100px
+                            width: auto
+
 
 #acompanamiento-2023 .customSection.sectionParent.acompanamiento-2023-2
     background-position: center
