@@ -1075,7 +1075,7 @@ img
             width: 100%!important
             max-width: 1140px!important
         @include responsivo(smallPcTablet)
-            max-width: 1000px!important
+            max-width: 900px!important
 
         @include responsivo(resto)
             width: 100%!important
@@ -1148,11 +1148,15 @@ img
                                 @include responsivo(general)
                                     height: 425px
                                 @include responsivo(smallPcTablet)
-                                    height: 475px
+                                    height: 375px
                                 @include responsivo(resto)
                                     height: 450px
 
                 .info
+                    @include responsivo(telefonoTable)
+                        margin-bottom: 25px
+                    @include responsivo(pcMedio)
+                        margin-bottom: 50px
                     @include responsivo(general)
                         padding-left: 0px
                         padding-top: 10px
@@ -1233,6 +1237,7 @@ img
         margin-bottom: 25px
     @include responsivo(general)
         background-position: 47% center
+        margin-top: -160px
     @include responsivo(smallPcTablet)
         background-position: 47% center
     @include responsivo(resto)
