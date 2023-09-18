@@ -715,7 +715,7 @@
                                                 <li>
                                                     <div class="list-item">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Entrenar al equipo y</p>
+                                                        <p>Entrenar al equipo</p>
                                                     </div>
                                                 </li>
                                                 <li>
