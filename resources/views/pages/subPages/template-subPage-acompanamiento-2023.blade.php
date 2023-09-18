@@ -1,7 +1,4 @@
-{{-- Template Name: [B] Sub pagina - Acompanamiento 2023 --}}
 
-@extends('layouts.app')
-@section('content')
     <div id="acompanamiento-2023">
         <div class="sections">
 
@@ -929,7 +926,6 @@
 
                 </div>
 
-                {{-- <img src="{!! App::setFilePath('/assets/images/banners/background_space_4.png') !!}" alt="" class="overlaySpace"> --}}
 
 
             </section>
@@ -1032,8 +1028,6 @@
 
                         </div>
                     </section>
-
-
 
                 </div>
 
@@ -1207,4 +1201,3 @@
     </div>
 
 
-@endsection
