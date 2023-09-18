@@ -584,8 +584,8 @@
                                         <div class="ele video col-md-12">
 
                                             @php
-                                                $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
-                                                $videoCover = App::setFilePath('/assets/images/illustrations/others/07-implementacion-2023.png');
+                                                $videoEmbed =  App::setFilePath('/assets/videos/video escala optimizado.mp4');
+                                                $videoCover = App::setFilePath('/assets/images/person/Portadas-de-videos_Mesa-de-trabajo.jpg');
                                             @endphp
 
                                             @if (isset($videoEmbed) && $videoEmbed != null)
