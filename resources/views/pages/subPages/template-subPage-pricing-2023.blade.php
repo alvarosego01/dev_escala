@@ -11,6 +11,7 @@
                             "name" => "Todo el año",
                             "value" => [
                             "disabledIcon",
+                            "8 horas el primer año",
                             "8 horas el primer año"
                             ]
                         ],
