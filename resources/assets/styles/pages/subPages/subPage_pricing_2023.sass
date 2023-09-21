@@ -685,7 +685,49 @@ img
 
 
         .innerSectionElement.sct3
+            margin-top: 50px
             .containElements
+                .row.table-header
+                    .col2
+                        background-color: #FAFBFD
+                        border-radius: 18px 0px 0px 0px
+                        padding: 18px 0px
+                        @include responsivo(telefonoTable)
+                            padding: 6px 0px
+                    .col3
+                        background-color: #FAFBFD
+                        padding: 18px 0px
+                        border-left: 1px solid #B9E6E9
+                        border-right: 1px solid #B9E6E9
+                        @include responsivo(telefonoTable)
+                            padding: 6px 0px
+                    .col4
+                        background-color: #FAFBFD
+                        border-radius: 0px 18px 0px 0px
+                        padding: 18px 0px
+                        @include responsivo(telefonoTable)
+                            padding: 6px 0px
+                    p
+                        color: #322C2E
+                        text-align: center
+                        font-feature-settings: 'clig' off, 'liga' off
+                        font-family: Nunito
+                        font-size: 24px
+                        font-style: normal
+                        font-weight: 700
+                        line-height: 33px
+                        letter-spacing: -2px
+                        margin: 0px
+                        span.text-blue
+                            color: #36768A
+                        span.text-orange
+                            color: #FF4E33
+                        @include responsivo(telefonoTable)
+                            font-size: 16px
+                        @include responsivo(pcMedio)
+                            font-size: 18px
+                        @include responsivo(general)
+                            font-size: 24px
                 .row
 
                     .list
@@ -795,14 +837,18 @@ img
                                                         font-size: 18px
                                                         line-height: 1
                                                         letter-spacing: -0.907315px
-                                                        color: #797979
+                                                        color: #2C4857
                                                         border-right: 1px solid #B9E6E9
                                                         @include responsivo(telefonoTable)
                                                             padding: 10px
                                                         @include responsivo(pcMedio)
                                                             padding: 10px 15px
                                                         &:last-child
-                                                            color: #FF4E33
+                                                            text-align: center
+                                                            display: flex
+                                                            align-content: center
+                                                            align-items: center
+                                                            justify-content: center
                                                         &:nth-child(2)
                                                             text-align: center
                                                             display: flex
