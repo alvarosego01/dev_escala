@@ -581,7 +581,7 @@
 
                                             @php
                                                 $videoEmbed = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
-                                                $videoCover = App::setFilePath('/assets/images/illustrations/others/07-implementacion-2023.png');
+                                                $videoCover = App::setFilePath('/assets/images/illustrations/others/implement_portrait.png');
                                             @endphp
 
                                             @if (isset($videoEmbed) && $videoEmbed != null)
