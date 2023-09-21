@@ -556,11 +556,11 @@
                                             ¿Qué dicen nuestros clientes <br class="desktopTabletElement">
                                             sobre los entrenamientos?
                                         </h2>
-                                        <div class="ele video col-md-12 col-lg-9">
+                                        <div class="ele video col-md-12">
 
                                             @php
-                                                $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
-                                                $videoCover = App::setFilePath('/assets/images/illustrations/others/07-implementacion-2023.png');
+                                                $videoEmbed = App::setFilePath('/assets/videos/Testimonio_Miguel_Quisnancela_.mp4');
+                                                $videoCover = App::setFilePath('/assets/images/illustrations/others/education_portrait.png');
                                             @endphp
 
                                             @if (isset($videoEmbed) && $videoEmbed != null)
@@ -573,8 +573,8 @@
                                                     <video class="video-js" controls preload="none"
                                                         poster="{{ $videoCover }}" {{-- poster="MY_VIDEO_POSTER.jpg" --}}
                                                         data-setup="{
-                                  autoplay: false
-                                }">
+                                                          autoplay: false
+                                                        }">
                                                         <source src="{{ $videoEmbed }}" type="video/mp4" />
                                                         <source src="{{ $videoEmbed }}" type="video/webm" />
                                                         <p class="vjs-no-js">
