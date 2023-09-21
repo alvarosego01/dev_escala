@@ -163,7 +163,7 @@
 
             </div>
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_acompanamiento_desktop_2023.svg') }}')"
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_acompanamiento_desktop_2023.png') }}')"
                 class="backgroundFull desktopElement">
 
                 <div class="section-row">
