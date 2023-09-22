@@ -462,9 +462,36 @@ function openCompare(){
 
 
 }
+var isSticky = false; // Variable para controlar el estado de "stick"
+
+function rangeTableSticky(numero, rangoInicio, rangoFin) {
+  return numero >= rangoInicio && numero <= rangoFin;
+}
+
+function sticky_headerTable() {
+  var window_top = jQuery(window).scrollTop();
+  var div_top1 = jQuery('#table-header-anchor1').offset().top - 150;
+  var div_top2 = jQuery('#table-header-anchor2').offset().top;
+  var tableHeader = jQuery('.table-header');
+
+    // console.log('window_top: '+window_top, 'div_top1: ' + div_top1, 'div_top2: '+ div_top2);
+
+    if(rangeTableSticky(window_top, div_top1 + 100, div_top2)){
+
+    tableHeader.addClass('stick');
+    }
+
+    if( window_top < div_top1 || window_top + 150 > div_top2  ){
+
+    tableHeader.removeClass('stick');
+    }
+
+}
 
 
 jQuery(document).ready(function () {
+
+jQuery(window).on('scroll', sticky_headerTable);
 
     selectorSlizePlan(_typePlan);
 

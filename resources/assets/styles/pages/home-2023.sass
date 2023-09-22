@@ -407,8 +407,8 @@ img
                         .ele.video
                             position: relative
                             right: 25px
-                            button.vjs-big-play-button
-                                display: none!important
+                            // button.vjs-big-play-button
+                            //     display: none!important
                             @include responsivo(telefonoTable)
                                 margin-bottom: 25px
                                 right: 0
@@ -465,6 +465,18 @@ img
 
                                 video
                                     border-radius: 25px
+
+                                .videoCover
+                                    z-index: 1
+                                    position: absolute
+                                    left: 0
+                                    right: 0
+                                    top: 0
+                                    bottom: 0
+                                button.vjs-big-play-button
+                                    z-index: 5
+                                    position: relative
+                                    // display: none!important
 
                 .form7
                     margin-bottom: 50px
@@ -1174,7 +1186,8 @@ img
                     filter: drop-shadow(0px 6px 30px rgba(54, 118, 138, 0.10))
                     border-radius: 30px
                     border: none
-                    padding: 0px 50px 25px 50px
+                    padding: 0px 50px
+                    padding-bottom: 25px
                     margin: 0!important
                     @include responsivo(telefonoTable)
                         padding-left: 25px
@@ -1237,15 +1250,22 @@ img
                         color: #2C4857
                         text-align: center
                         font-family: Nunito
-                        font-size: 40px
                         font-style: normal
                         font-weight: 700
                         letter-spacing: -0.907px
                         line-height: 1
                         margin-bottom: 50px
                         @include responsivo(telefonoTable)
-                            font-size: 24px
+                            font-size: 20px
                             margin-bottom: 25px
+                        @include responsivo(pcMedio)
+                            font-size: 25px
+                        @include responsivo(general)
+                            font-size: 37.5px
+                        @include responsivo(smallPcTablet)
+                            font-size: 35px
+                        @include responsivo(resto)
+                            font-size: 40px
 
                     .card-subtitle
                         color: #36768A
@@ -1255,28 +1275,42 @@ img
                         font-weight: 600
                         letter-spacing: -2px
                         text-align: left
-                        margin-bottom: 5px
+                        margin-bottom: 25px
                         @include responsivo(telefonoTable)
-                            font-size: 18px
+                            font-size: 16px
+                        @include responsivo(pcMedio)
+                            font-size: 1upx
+                        @include responsivo(general)
+                            font-size: 22px
+                        @include responsivo(smallPcTablet)
+                            font-size: 20px
 
                     .list-block
                         margin-bottom: 10px
 
-
                     img.column-1
-                        width: 150px
-                        margin-top: 50px
+                        height: 135px
+                        margin-top: 25px
+                        @include responsivo(telefonoTable)
+                            height: 125px
+                        @include responsivo(pcMedio)
+                            height: 125px
+
 
                     img.column-3
-                        width: 130px
-                        margin-top: 50px
+                        height: 175px
+                        margin-top: 25px
                         @include responsivo(telefonoTable)
-                            margin-top: 25px
+                            height: 125px
+                        @include responsivo(pcMedio)
+                            height: 125px
+
 
                     ul
                         list-style: none
                         margin: 0
                         padding: 0
+
                         li
                             .list-item
                                 display: flex
@@ -1285,21 +1319,27 @@ img
                                 p
                                     color: #797979
                                     font-family: Nunito
-                                    font-size: 24px
+                                    font-size: 22px
                                     font-style: normal
                                     font-weight: 500
                                     margin: 0px
                                     text-align: left
-                                    line-height: 1.2em
+                                    line-height: 1.1
                                     @include responsivo(telefonoTable)
                                         font-size: 14px
                                     @include responsivo(pcMedio)
                                         font-size: 18px
 
                             img
-                                width: 20px
-                                height: fit-content
+                                width: auto
+                                height: 15px
                                 margin: auto 0px
+                                margin-top: 2.5px
+                                @include responsivo(telefonoTable)
+                                    height: 10px
+                                @include responsivo(pcMedio)
+                                    height: 10px
+
 
 #homeSection_2023 .customSection.sectionParent.home_2023_5
     background-repeat: no-repeat
@@ -2706,6 +2746,10 @@ img
         padding-bottom: 25px!important
 
     .section-row
+        @include responsivo(general)
+            width: 1240px!important
+        @include responsivo(resto)
+            width: 1340px!important
         section.innerSectionElement.sct1
             .containElements
                 h2.primaryTitle

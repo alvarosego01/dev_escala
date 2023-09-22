@@ -99,31 +99,50 @@
 
                                             @php
                                                 $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
-                                                $videoCover = App::setFilePath('/assets/images/gifs/home_video_portrait_2023.gif');
+                                                // $videoCover = App::setFilePath('/assets/images/gifs/home_video_portrait_2023.gif');
+                                                $videoCover = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
                                             @endphp
 
                                             @if (isset($videoEmbed) && $videoEmbed != null)
                                                 <div class="youtubeImageContainer ">
 
-                                                    <video class="video-js" controls preload="none"
-                                                        poster="{{ $videoCover }}" {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                                        data-setup="{
+                                                        <video class="video-js video_1 videoCover" autoplay muted loop>
+                                                       <source src="{{ $videoCover }}" type="video/mp4">
+                                                       Tu navegador no soporta videos HTML5.
+                                                   </video>
+
+                                                             <video id="video_1" class="video-js video_1" controls
+                                                       preload="none" poster="{{ $videoCover }}"
+                                                       {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                                       data-setup="{
                                   autoplay: false
                                 }">
-                                                        <source src="{{ $videoEmbed }}" type="video/mp4" />
-                                                        <source src="{{ $videoEmbed }}" type="video/webm" />
-                                                        <p class="vjs-no-js">
-                                                            To view this video please enable JavaScript, and consider
-                                                            upgrading to a
-                                                            web browser that
-                                                            <a href="https://videojs.com/html5-video-support/"
-                                                                target="_blank">supports
-                                                                HTML5 video</a>
-                                                        </p>
-                                                    </video>
+                                                       <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                                       <source src="{{ $videoEmbed }}" type="video/webm" />
+                                                       <p class="vjs-no-js">
+                                                           To view this video please enable JavaScript, and consider
+                                                           upgrading to a
+                                                           web browser that
+                                                           <a href="https://videojs.com/html5-video-support/"
+                                                               target="_blank">supports
+                                                               HTML5 video</a>
+                                                       </p>
+                                                   </video>
 
 
                                                 </div>
+
+                                                <script type="text/javascript">
+                                                   var player = videojs('video_1');
+
+                                                   // Agrega un oyente de eventos al evento 'play'
+                                                   player.on('play', function() {
+
+                                                       jQuery('.video_1.videoCover').remove();
+
+                                                   });
+                                               </script>
+
                                             @endif
 
                                         </div>
@@ -715,7 +734,7 @@
                                                 <li>
                                                     <div class="list-item">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Entrenar al equipo y</p>
+                                                        <p>Entrenar al equipo</p>
                                                     </div>
                                                 </li>
                                                 <li>

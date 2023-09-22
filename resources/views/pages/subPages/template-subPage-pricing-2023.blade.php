@@ -880,6 +880,7 @@
                 <section class="innerSectionElement sct3">
 
                     <div class="containElements">
+                        <div id="table-header-anchor1"></div>
                         <div class="row table-header">
                             <div class="col-3 col1"></div> <!-- Columna vacía -->
                             <div class="col-3 col2"><p>Plan <span class="text-blue">Starter</p></span></div>
@@ -1150,7 +1151,7 @@
                                 @endif
                             </div>
                         </div>
-
+                              <div id="table-header-anchor2"></div>
                     </div>
                 </section>
 

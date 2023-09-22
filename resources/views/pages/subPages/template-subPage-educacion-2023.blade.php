@@ -1,15 +1,14 @@
 {{-- Template Name: [B] Sub pagina - Implementación 2023 --}}
 
-@extends('layouts.app')
-@section('content')
+
     <div id="educacion-2023">
         <div class="sections">
 
             <section id="lead-form"
                 class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol educacion-2023-0 ">
 
-                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/02-bg-educacion-2023.png') }}')"
-                    class="backgroundFull">
+                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-educacion-mobile-2023-07.png') }}')"
+                    class="backgroundFull mobileElement">
 
                     <div class="section-row">
 
@@ -23,21 +22,13 @@
 
                                     <div class="containElements row threeCol">
 
-                                        <div class="ol-md-12 col-lg-5">
+                                          <div class=" infoTitle">
 
-                                            <div class="elements">
-
-                                            </div>
-
-                                        </div>
-
-                                        <div class="col-md-12 col-lg-7">
-
-                                            <h1 class="principalTitle">
-                                            Desarrolla habilidades<br class="desktopTabletElement">
+                                               <h1 class="principalTitle">
+                                            Desarrolla habilidades<br class="space">
                                             <span>que Escalan Empresas</span>
                                             </h1>
-                                            
+
                                             <ul>
                                                 <li>
                                                     <div class="list-item">
@@ -58,12 +49,11 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                        </div>
-                                        <div class="ol-md-12 col-lg-12">
-                                            <div class="elements img-reviews">
-                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/08-implementacion-2023.png') !!}" loading="lazy">
-                                            </div>
 
+                                        </div>
+
+                                        <div class="containerImage mobileElement">
+                                            <img src="{{ App::setFilePath('/assets/images/person/am/am_education.png') }}" alt="">
                                         </div>
 
                                     </div>
@@ -110,6 +100,226 @@
                             </div>
 
                         </section>
+
+                                    <section class="innerSectionElement sct2">
+
+                            <div class="containElements">
+
+                                                              @php
+                $elementsReviews = [
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.8 / 5',
+                    ],
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.9 / 5',
+                    ],
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.8 / 5',
+                    ],
+                ];
+            @endphp
+
+                                            <div class="elements">
+                                                {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/08-implementacion-2023.png') !!}" loading="lazy"> --}}
+
+                                                   @foreach ($elementsReviews as $item)
+                                                    <div class="refersElement">
+
+                                                        <div class="infoInner">
+                                                            <div class="tag">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                                </div>
+
+                                                                <span class="points">
+                                                                    {!! $item['points'] !!}
+                                                                </span>
+                                                            </div>
+                                                            <p class="text">
+                                                                {!! $item['text'] !!}
+                                                            </p>
+                                                            <div class="stars">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                @endforeach
+
+                                            </div>
+
+                            </div>
+
+                              </section>
+
+
+                    </div>
+
+                </div>
+
+                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-educacion-2023-07.png') }}')"
+                    class="backgroundFull desktopElement">
+
+                    <div class="section-row">
+
+                        <section class="innerSectionElement sct1">
+
+                            <div class="groupElements row">
+
+
+                                <div class="info col-md-12 col-lg-8 ">
+
+
+                                    <div class="containElements row threeCol">
+
+                                          <div class=" infoTitle">
+
+                                               <h1 class="principalTitle">
+                                            Desarrolla habilidades<br class="space">
+                                            <span>que Escalan Empresas</span>
+                                            </h1>
+
+                                            <ul>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Masterclasses con Andrés Moreno</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Bootcamps en vivo</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Educación online a tu ritmo</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+
+                                        <div class="containerImage mobileElement">
+                                            <img src="{{ App::setFilePath('/assets/images/person/am/am_education.png') }}" alt="">
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                                <div class="form7 col-md-12 col-lg-4 ">
+
+                                    <div class="containElements">
+
+                                        <div class="formatForm redirectWeb" redirectWeb="true">
+
+                                            <h5 class="titleFormat blackcolor">
+                                                Recibe un tour guiado <br class="space">
+                                                de Escala
+                                            </h5>
+
+
+
+                                            @php
+                                                $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                                $_rs = [];
+                                                $_formShortcode = null;
+                                                if ($_data = get_posts($_args)) {
+                                                    foreach ($_data as $_key) {
+                                                        $_rs[$_key->ID] = $_key->post_title;
+                                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                                        }
+                                                    }
+                                                } else {
+                                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                                }
+                                            @endphp
+                                            {!! do_shortcode($_formShortcode) !!}
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                                    <section class="innerSectionElement sct2">
+
+                            <div class="containElements">
+
+                                                              @php
+                $elementsReviews = [
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.8 / 5',
+                    ],
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.9 / 5',
+                    ],
+                    [
+                        'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                        'text' => 'Escala / plataforma CRM',
+                        'points' => '4.8 / 5',
+                    ],
+                ];
+            @endphp
+
+                                            <div class="elements">
+                                                {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/08-implementacion-2023.png') !!}" loading="lazy"> --}}
+
+                                                   @foreach ($elementsReviews as $item)
+                                                    <div class="refersElement">
+
+                                                        <div class="infoInner">
+                                                            <div class="tag">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                                </div>
+
+                                                                <span class="points">
+                                                                    {!! $item['points'] !!}
+                                                                </span>
+                                                            </div>
+                                                            <p class="text">
+                                                                {!! $item['text'] !!}
+                                                            </p>
+                                                            <div class="stars">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                @endforeach
+
+                                            </div>
+
+                            </div>
+
+                              </section>
+
 
                     </div>
 
@@ -219,7 +429,7 @@
                                                         </div>
                                                     </li>
                                                 </ul>
-                                            </div>                     
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -332,7 +542,7 @@
 
             </section>
 
-            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-05.png') !!})" class="customSection sectionParent educacion-2023-3">
+            <section class="customSection sectionParent educacion-2023-3">
 
                 <div class="section-row">
 
@@ -341,26 +551,30 @@
                         <div class="containElements">
                             <div class="container mt-5">
                                 <div class="row">
-                                    <div class="col-md-12 col-lg-12 text-center">
+                                    <div class="text-center col-md-12 col-lg-12">
                                         <h2 class="primaryTitle">
                                             ¿Qué dicen nuestros clientes <br class="desktopTabletElement">
                                             sobre los entrenamientos?
                                         </h2>
-                                        <div class="ele video col-md-12 col-lg-9">
+                                        <div class="ele video col-md-12">
 
                                             @php
-                                                $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
-                                                $videoCover = App::setFilePath('/assets/images/illustrations/others/07-implementacion-2023.png');
+                                                $videoEmbed = App::setFilePath('/assets/videos/Testimonio_Miguel_Quisnancela_.mp4');
+                                                $videoCover = App::setFilePath('/assets/images/illustrations/others/education_portrait.png');
                                             @endphp
 
                                             @if (isset($videoEmbed) && $videoEmbed != null)
                                                 <div class="youtubeImageContainer ">
 
+                                                        <img src="{!! App::setFilePath('/assets/images/overlays/video_box_left.svg') !!}" alt="" class="overlayLeft">
+
+                                                    <img src="{!! App::setFilePath('/assets/images/overlays/video_box_right.svg') !!}" alt="" class="overlayRight">
+
                                                     <video class="video-js" controls preload="none"
                                                         poster="{{ $videoCover }}" {{-- poster="MY_VIDEO_POSTER.jpg" --}}
                                                         data-setup="{
-                                  autoplay: false
-                                }">
+                                                          autoplay: false
+                                                        }">
                                                         <source src="{{ $videoEmbed }}" type="video/mp4" />
                                                         <source src="{{ $videoEmbed }}" type="video/webm" />
                                                         <p class="vjs-no-js">
@@ -414,7 +628,7 @@
                         'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
                     ],
                 ];
-                
+
             @endphp
 
             <section class=" customSection sectionParent educacion-2023-4">
@@ -637,21 +851,24 @@
                     </section>
 
                     <section class="innerSectionElement sct2">
-                        <div class="groupElements card-1">
+
+                            <div class="groupElements card-1">
 
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_blue.png') !!}" alt="" class="backOverlay">
 
+
                             <h3 class="secondaryTitle">
-                                Implementación
+                                Entrenamiento
                             </h3>
 
                             <div class="img-box">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-implementacion-2023.png') !!}" loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/04-implementacion-2023.png') !!}" loading="lazy">
                                 </div>
                             </div>
 
                         </div>
+
                         <div class="groupElements">
 
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white_transparent.png') !!}" alt="" class="backOverlay">
@@ -670,25 +887,27 @@
                             </a>
 
                         </div>
-                        <div class="groupElements">
 
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white_transparent.png') !!}" alt="" class="backOverlay">
+                            <div class="groupElements ">
+
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white_transparent.png') !!}" alt="" class="backOverlay">
 
                             <h3 class="secondaryTitle">
-                                Entrenamiento
+                                Implementación
                             </h3>
 
                             <div class="img-box">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/04-implementacion-2023.png') !!}" loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-implementacion-2023.png') !!}" loading="lazy">
                                 </div>
                             </div>
 
-                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                 Conocer más
                             </a>
 
                         </div>
+
                     </section>
 
 
@@ -697,65 +916,47 @@
 
 
             </section>
-
-            @php
+       @php
                 $escalaUrl = 'https://escala.com';
-                $items = [
-                    [
-                        'type' => 'master',
-                        'title' => '¿Cuántas horas tengo disponibles con mi Gerente de Éxito?',
-                        'text' => '
-            <p class="text"><strong>En el Plan Pro:</strong></p> <br class="space">
-            <ul style="list-style: disc; padding-left: 20px">
-                <li>8 horas el primer año que puedes consumir a tu propio ritmo</li>
-                <li>4 horas por año a partir del segundo año</li>
-            </ul>
-            <br class="space">
-            <p class="text primaryText grayColorTexts">El Plan Starter no incluye un Gerente de Éxito asignado.</p>
-          ',
-                    ],
-                    [
-                        'type' => 'master',
-                        'title' => '¿Cuántas horas de entrenamiento privado tengo disponibles?',
-                        'text' => '
-            <p class="text"><strong>En el Plan Pro:</strong></p> <br class="space">
-            <ul style="list-style: disc; padding-left: 20px">
-                <li>4 horas el primer año que puedes consumir a tu propio ritmo</li>
-                <li>2 horas por año a partir del segundo año</li>
-            </ul>
-            <br class="space">
-            <p class="text primaryText grayColorTexts">El Plan Starter no incluye un entrenamiento privado.</p>
-          ',
-                    ],
-                    [
-                        'type' => 'master',
-                        'title' => '¿Qué pasa si necesito más horas con mi Gerente de Éxito o de entrenamiento privado?',
-                        'text' => '
-            <p class="text primaryText grayColorTexts">Puedes solicitar e invertir en horas adicionales. Lo coordinas directamente con tu Gerente de Éxito asignado.</p>
-          ',
-                    ],
-                    [
-                        'type' => 'master',
-                        'title' => '¿El Gerente de Éxito puede implementar acciones en mi cuenta de Escala?',
-                        'text' => '
-            <p class="text primaryText grayColorTexts">No. El Gerente de Éxito sirve de guía para que aprovechen las herramientas al máximo. La responsabilidad de ejecutar las estrategias y campañas es de cada cliente.</p>
-          ',
-                    ],
-                    [
-                        'type' => 'master',
-                        'title' => '¿Cómo me reúno con mi Gerente de Éxito? ',
-                        'text' => '
-            <p class="text primaryText grayColorTexts">Los contactos ocurren por Zoom, Email y WhatsApp dependiendo dell objetivo y la duración de los mismos.</p>
-          ',
-                    ],
-                ];
-                
+
+         $items = [
+    [
+        'type' => 'master',
+        'title' => '¿Cómo diseñan los emails y las landing pages?',
+        'text' => 'Diseñamos los emails y la landing page tomando la referencia de marca del website y/o <br class="desktopTabletElement"> redes sociales del cliente. De no tener, se solicita al cliente una pieza gráfica referencia.'
+    ],
+    [
+        'type' => 'master',
+        'title' => '¿Crean también el copy de emails y landing pages?',
+        'text' => 'El texto de los emails y landing page, es simulado. Es responsabilidad del cliente adaptarlo <br class="desktopTabletElement"> a su negocio y/o necesidades.'
+    ],
+    [
+        'type' => 'master',
+        'title' => '¿Qué pasa si quiero que modifiquen uno de los entregables?',
+        'text' => 'Cualquier modificación de lo entregado, es responsabilidad del cliente. El mismo puede <br class="desktopTabletElement"> utilizar las herramientas de Escala que son muy fáciles de usar.'
+    ],
+    [
+        'type' => 'master',
+        'title' => '¿Si me suscribo un viernes, cuándo recibo el CRM implementado?',
+        'text' => 'Entregamos el CRM implementado en 10 días hábiles desde el momento que tenemos <br class="desktopTabletElement"> toda la información requerida por parte del cliente para personalizar la plataforma y crear las piezas gráficas.'
+    ],
+    [
+        'type' => 'master',
+        'title' => '¿Cuánto cuesta la implementación?',
+        'text' => 'El valor que generamos es de más de USD $6,500 pero dependiendo del plan que <br class="desktopTabletElement"> obtengas puede estar o no incluida en la suscripción.'
+    ]
+];
+
+
                 $parameters = [
                     'classSection' => 'educacion-2023-7',
                     'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
                     'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
                     'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
                     'items' => $items,
+                        'title' => '
+    Preguntas <span>frecuentes</span>
+   ',
                 ];
             @endphp
             @contain_FAQ_T1($parameters)
@@ -764,5 +965,3 @@
         </div>
     </div>
 
-
-@endsection
