@@ -2,7 +2,7 @@
 
     $featuresElements = [
         "services" => array(
-            "name" => 'Servicio de <span class="blueLightColor12">Acompañamiento Personalizado</span>',
+            "name" => '<span class="blueLightColor12">Acompañamiento Personalizado</span>',
             "items" => array(
                  [
                     "name" => 'Gerente Éxito asignado',
@@ -11,6 +11,7 @@
                             "name" => "Todo el año",
                             "value" => [
                             "disabledIcon",
+                            "8 horas el primer año",
                             "8 horas el primer año"
                             ]
                         ],
@@ -18,6 +19,7 @@
                             "name" => "1 hora trimestral de por vida",
                             "value" => [
                             "disabledIcon",
+                            "checkIcon",
                             "checkIcon"
                             ]
                         ],
@@ -25,12 +27,13 @@
 
                  ],
                  [
-                    "name" => 'Trainer herramienta',
+                    "name" => 'Especialista implementación',
                     "subItems" => array(
                         [
                             "name" => "Todo el año",
                             "value" => [
                             "disabledIcon",
+                            "4 horas el primer año",
                             "4 horas el primer año"
                             ]
                         ],
@@ -44,6 +47,7 @@
                             "name" => "Conexión de dominios",
                             "value" => [
                             "disabledIcon",
+                            "Hasta 1 hora",
                             "Hasta 1 hora"
                             ]
                         ],
@@ -52,6 +56,7 @@
                             y conexión Meta Business ",
                             "value" => [
                             "disabledIcon",
+                            "Hasta 1 hora",
                             "Hasta 1 hora"
                             ]
                         ],
@@ -65,12 +70,14 @@
                             "name" => "Chat plataforma",
                             "value" => [
                             "Ilimitado",
+                            "Ilimitado",
                             "Ilimitado"
                             ]
                         ],
                         [
                             "name" => "Chat WhatsApp",
                             "value" => [
+                            "Ilimitado",
                             "Ilimitado",
                             "Ilimitado"
                             ]
@@ -79,124 +86,128 @@
                             "name" => "Prioridad de atención",
                             "value" => [
                             "disabledIcon",
-                            "checkIcon"
-                            ]
-                        ],
-
-                     )
-
-                 ],
-                 [
-                    "name" => 'Trainings online en vivo',
-                    "subItems" => array(
-                        [
-                            "name" => "Bootcamp Escala Ventas",
-                            "value" => [
-                            "disabledIcon",
-                            "checkIcon"
-                            ]
-                        ],
-                        [
-                            "name" => "Workshops estratégicos",
-                            "value" => [
-                            "disabledIcon",
-                            "checkIcon"
-                            ]
-                        ],
-                     )
-
-                 ],
-                 [
-                    "name" => 'Educación autoguiada',
-                    "subItems" => array(
-                        [
-                            "name" => "Artículos y videotutoriales",
-                            "value" => [
                             "checkIcon",
                             "checkIcon"
                             ]
                         ],
-                        [
-                            "name" => "Cursos y Webinars online",
-                            "value" => [
-                            "checkIcon",
-                            "checkIcon"
-                            ]
-                        ],
+
                      )
 
                  ],
             )
         ),
+        'formation' => [
+            'name' => '<span class="blueLightColor12">Formación</span>',
+            'items' => [
+                [
+                    'name' => 'Entrenamiento en vivo',
+                    'subItems' => [
+                        [
+                            'name' => 'Bootcamp Escala Ventas',
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => 'Bootcamp Escala Marketing',
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => 'Talleres Escala Negocios',
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => 'Masterclasses con Andrés Moreno',
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+                        ],
+                    ]
+],
+                [
+                    'name' => 'Educación autoguiada online',
+                    'subItems' => [
+                        [
+                            'name' => 'Artículos y videotutoriales',
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => 'Cursos y certificaciones',
+                            'value' => ['Limitado', 'Limitado', 'Limitado'],
+                        ],
+                        [
+                            'name' => 'Webinars grabados',
+                            'value' => ['Limitado', 'Limitado', 'Limitado'],
+                        ],
+                    ]
+                ]
+                ]
+],
         'access' => [
-            'name' => 'Acceso a <span class="blueLightColor12">Herramientas</span>',
+            'name' => '<span class="blueLightColor12">Herramientas</span>',
             'items' => [
                 [
                     'name' => 'CRM',
                     'subItems' => [
                         [
                             'name' => 'Número de contactos NO marketing',
-                            'value' => ['1 millón', '1 millón'],
+                            'value' => ['1 millón', '1 millón', '1 millón'],
                         ],
                         [
                             'name' => 'Importación de base de datos',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Gestión de contactos',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Historial actividades con contactos',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Segmentación avanzada',
-                            'value' => ['disabledIcon', 'checkIcon'],
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Filtros avanzados',
-                            'value' => ['disabledIcon', 'checkIcon'],
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Múltiples embudos de venta',
-                            'value' => ['disabledIcon', 'checkIcon'],
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Número de embudos de venta',
-                            'value' => ['1', 'Hasta 10'],
+                            'value' => ['1', 'Hasta 10', 'Hasta 10'],
                         ],
                         [
                             'name' => 'Filtros de oportunidades',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Analíticas de oportunidades',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Calendario de tareas y actividades ',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Sincronización con Google Calendar',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Plantillas de email 1:1',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Número de emails CRM',
-                            'value' => ['Ilimitados', 'Ilimitados'],
+                            'value' => ['Ilimitados', 'Ilimitados', 'Ilimitados'],
                         ],
                         [
                             'name' => 'Dashboard vendedores',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Dashboard de administradores',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                     ],
                 ],
@@ -205,15 +216,15 @@
                     'subItems' => [
                         [
                             'name' => 'Múltiples eventos de inicio',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Flujos unidireccionales',
-                            'value' => ['Hasta 5', 'Hasta 100'],
+                            'value' => ['Hasta 5', 'Hasta 100', 'Hasta 100'],
                         ],
                         [
                             'name' => 'Flujos con bifurcaciones',
-                            'value' => ['disabledIcon', 'checkIcon'],
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
                         ],
                     ],
                 ],
@@ -222,11 +233,11 @@
                     'subItems' => [
                         [
                             'name' => 'Reglas de comportamientos ',
-                            'value' => ['disabledIcon', 'checkIcon'],
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Calificación automática de contactos',
-                            'value' => ['disabledIcon', 'checkIcon'],
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
                         ],
                     ],
                 ],
@@ -235,19 +246,19 @@
                     'subItems' => [
                         [
                             'name' => 'Automatizaciones',
-                            'value' => ['disabledIcon', 'checkIcon'],
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Inbox',
-                            'value' => ['disabledIcon', 'checkIcon'],
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Extensión Chrome',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Botón Formulario Página',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                     ],
                 ],
@@ -256,31 +267,31 @@
                     'subItems' => [
                         [
                             'name' => 'Número de emails por mes',
-                            'value' => ['5 por contacto de marketing', '10 por contactos de marketing'],
+                            'value' => ['5 por contacto de marketing', '10 por contactos de marketing', '10 por contactos de marketing'],
                         ],
                         [
                             'name' => 'Constructor Plantillas',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Campañas masivas',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Personalización campos masivos',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Programación de envíos',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Analíticas',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Gestión de rebotes y suscripciones',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                     ],
                 ],
@@ -289,39 +300,39 @@
                     'subItems' => [
                         [
                             'name' => 'Número de páginas',
-                            'value' => ['Ilimitadas', 'Ilimitadas'],
+                            'value' => ['Ilimitadas', 'Ilimitadas', 'Ilimitadas'],
                         ],
                         [
                             'name' => 'Conexión dominio propio',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Número de dominios propios',
-                            'value' => ['1', '5'],
+                            'value' => ['1', '5', '5'],
                         ],
                         [
                             'name' => 'Constructor páginas',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Plantillas de páginas',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Flujo de páginas automatizadas',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Automatización post-registro',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Subdominio personalizado',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Analíticas',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                     ],
                 ],
@@ -330,27 +341,27 @@
                     'subItems' => [
                         [
                             'name' => 'Número de formularios',
-                            'value' => ['Ilimitados', 'Ilimitados'],
+                            'value' => ['Ilimitados', 'Ilimitados', 'Ilimitados'],
                         ],
                         [
                             'name' => 'Constructor de formularios',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Inserción externa de formularios',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Formularios ilimitados',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Identificación de código postal',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Verificación de números ',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                     ],
                 ],
@@ -359,23 +370,23 @@
                     'subItems' => [
                         [
                             'name' => 'Integración con Facebook Lead Ads',
-                            'value' => ['disabledIcon', 'checkIcon'],
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => "Número de cuentas de <br class='space'> Fb Ads Manager ",
-                            'value' => ['1', 'Hasta 3'],
+                            'value' => ['1', 'Hasta 3', 'Hasta 3'],
                         ],
                         [
                             'name' => 'Número de campañas publicadas',
-                            'value' => ['Ilimitados', 'Ilimitadas'],
+                            'value' => ['Ilimitados', 'Ilimitadas', 'Ilimitadas'],
                         ],
                         [
                             'name' => 'Integración nativa Fb Ads Manager',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Gestión de campañas Fb e IG',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                     ],
                 ],
@@ -384,19 +395,19 @@
                     'subItems' => [
                         [
                             'name' => 'API',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => "Typeform - Próximamente",
-                            'value' => ['disabledIcon', 'checkIcon'],
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Calendly - Próximamente',
-                            'value' => ['disabledIcon', 'checkIcon'],
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Otras 15.000+ (Zapier)',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                     ],
                 ],
@@ -405,15 +416,15 @@
                     'subItems' => [
                         [
                             'name' => 'Generador de contenido para landing pages',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => "Generador de contenido para email marketing",
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Optimizador de textos para emails 1:1',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                     ],
                 ],
@@ -422,23 +433,23 @@
                     'subItems' => [
                         [
                             'name' => 'Diseñador de embudos',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => "Definición de metas",
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Herramientas necesarias a implementar',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Guía personalizada de configuración',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                         [
                             'name' => 'Constructor de proceso comercial',
-                            'value' => ['checkIcon', 'checkIcon'],
+                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
                         ],
                     ],
                 ],
@@ -866,14 +877,19 @@
 
 
                 </section>
-
                 <section class="innerSectionElement sct3">
 
                     <div class="containElements">
-
+                        <div id="table-header-anchor1"></div>
+                        <div class="row table-header">
+                            <div class="col-3 col1"></div> <!-- Columna vacía -->
+                            <div class="col-3 col2"><p>Plan <span class="text-blue">Starter</p></span></div>
+                            <div class="col-3 col3"><p>Plan <span class="text-orange">Pro</p></div>
+                            <div class="col-3 col4"><p>Plan <span class="text-blue">Enterprise</p></div>
+                        </div>
                         <div class="row">
 
-                            <div class="list col-md-12 col-lg-9">
+                            <div class="list col-md-12 col-lg-12">
                                 <h3>
                                     {!! $featuresElements['services']['name'] !!}
                                 </h3>
@@ -904,8 +920,8 @@
                                                                 <tbody>
                                                                     @foreach ($item['subItems'] as $subKey => $subItem)
                                                                         <tr>
-                                                                            <td class="col-4">{!! $subItem['name'] !!}</td>
-                                                                            <td class="col-4">
+                                                                            <td class="col-3">{!! $subItem['name'] !!}</td>
+                                                                            <td class="col-3">
                                                                                 @if (isset($subItem['value'][0]) && $subItem['value'][0] == 'checkIcon')
                                                                                     <img class="checkIcon"
                                                                                         src="{!! App::setFilePath('/assets/images/illustrations/others/vector_check_orange.png') !!}"
@@ -919,7 +935,7 @@
                                                                                 @endif
 
                                                                             </td>
-                                                                            <td class="col-4">
+                                                                            <td class="col-3">
                                                                                 @if (isset($subItem['value'][1]) && $subItem['value'][1] == 'checkIcon')
                                                                                     <img class="checkIcon"
                                                                                         src="{!! App::setFilePath('/assets/images/illustrations/others/vector_check_orange.png') !!}"
@@ -930,6 +946,20 @@
                                                                                         alt="">
                                                                                 @else
                                                                                     {!! $subItem['value'][1] !!}
+                                                                                @endif
+
+                                                                            </td>
+                                                                            <td class="col-3">
+                                                                                @if (isset($subItem['value'][2]) && $subItem['value'][2] == 'checkIcon')
+                                                                                    <img class="checkIcon"
+                                                                                        src="{!! App::setFilePath('/assets/images/illustrations/others/vector_check_orange.png') !!}"
+                                                                                        alt="">
+                                                                                @elseif( isset($subItem['value'][2]) && $subItem['value'][2] == 'disabledIcon' )
+                                                                                    <img class="disabledIcon"
+                                                                                        src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                                        alt="">
+                                                                                @else
+                                                                                    {!! $subItem['value'][2] !!}
                                                                                 @endif
 
                                                                             </td>
@@ -946,7 +976,94 @@
                                     </ul>
                                 @endif
                             </div>
-                            <div class="list col-md-12 col-lg-9">
+                            <div class="list col-md-12 col-lg-12">
+                                <h3>
+                                    {!! $featuresElements['formation']['name'] !!}
+                                </h3>
+                                @if (isset($featuresElements['formation']['items']))
+                                    <ul class="pricingList">
+
+                                        @foreach ($featuresElements['formation']['items'] as $key => $item)
+                                            <li class="itemParent">
+                                                <button type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#parentAccess_{{ $key }}"
+                                                    aria-expanded="false"
+                                                    aria-controls="parentAccess_{{ $key }}">
+
+                                                    {!! $item['name'] !!}
+
+                                                    @if (isset($item['subItems']) && count($item['subItems']) >= 1)
+                                                        <i class="fas fa-caret-down"></i>
+                                                    @endif
+
+                                                </button>
+                                                <div id="parentAccess_{{ $key }}"
+                                                    class="accordion-collapse collapse subItemList"
+                                                    aria-labelledby="parentAccess_{{ $key }}">
+                                                    <div class="accordion-body">
+
+                                                        @if (isset($item['subItems']))
+                                                            <table class="table">
+                                                                <tbody>
+                                                                    @foreach ($item['subItems'] as $subKey => $subItem)
+                                                                        <tr>
+                                                                            <td class="col-3">{!! $subItem['name'] !!}</td>
+                                                                            <td class="col-3">
+                                                                                @if (isset($subItem['value'][0]) && $subItem['value'][0] == 'checkIcon')
+                                                                                    <img class="checkIcon"
+                                                                                        src="{!! App::setFilePath('/assets/images/illustrations/others/vector_check_orange.png') !!}"
+                                                                                        alt="">
+                                                                                @elseif( isset($subItem['value'][0]) && $subItem['value'][0] == 'disabledIcon' )
+                                                                                    <img class="disabledIcon"
+                                                                                        src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                                        alt="">
+                                                                                @else
+                                                                                    {!! $subItem['value'][0] !!}
+                                                                                @endif
+
+                                                                            </td>
+                                                                            <td class="col-3">
+                                                                                @if (isset($subItem['value'][1]) && $subItem['value'][1] == 'checkIcon')
+                                                                                    <img class="checkIcon"
+                                                                                        src="{!! App::setFilePath('/assets/images/illustrations/others/vector_check_orange.png') !!}"
+                                                                                        alt="">
+                                                                                @elseif( isset($subItem['value'][1]) && $subItem['value'][1] == 'disabledIcon' )
+                                                                                    <img class="disabledIcon"
+                                                                                        src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                                        alt="">
+                                                                                @else
+                                                                                    {!! $subItem['value'][1] !!}
+                                                                                @endif
+
+                                                                            </td>
+                                                                            <td class="col-3">
+                                                                                @if (isset($subItem['value'][2]) && $subItem['value'][2] == 'checkIcon')
+                                                                                    <img class="checkIcon"
+                                                                                        src="{!! App::setFilePath('/assets/images/illustrations/others/vector_check_orange.png') !!}"
+                                                                                        alt="">
+                                                                                @elseif( isset($subItem['value'][2]) && $subItem['value'][2] == 'disabledIcon' )
+                                                                                    <img class="disabledIcon"
+                                                                                        src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                                        alt="">
+                                                                                @else
+                                                                                    {!! $subItem['value'][2] !!}
+                                                                                @endif
+
+                                                                            </td>
+                                                                        </tr>
+                                                                    @endforeach
+                                                                </tbody>
+                                                            </table>
+                                                        @endif
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        @endforeach
+
+                                    </ul>
+                                @endif
+                            </div>
+                            <div class="list col-md-12 col-lg-12">
                                 <h3>
                                     {!! $featuresElements['access']['name'] !!}
                                 </h3>
@@ -977,8 +1094,8 @@
                                                                 <tbody>
                                                                     @foreach ($item['subItems'] as $subKey => $subItem)
                                                                         <tr>
-                                                                            <td class="col-4">{!! $subItem['name'] !!}</td>
-                                                                            <td class="col-4">
+                                                                            <td class="col-3">{!! $subItem['name'] !!}</td>
+                                                                            <td class="col-3">
                                                                                 @if (isset($subItem['value'][0]) && $subItem['value'][0] == 'checkIcon')
                                                                                     <img class="checkIcon"
                                                                                         src="{!! App::setFilePath('/assets/images/illustrations/others/vector_check_orange.png') !!}"
@@ -992,7 +1109,7 @@
                                                                                 @endif
 
                                                                             </td>
-                                                                            <td class="col-4">
+                                                                            <td class="col-3">
                                                                                 @if (isset($subItem['value'][1]) && $subItem['value'][1] == 'checkIcon')
                                                                                     <img class="checkIcon"
                                                                                         src="{!! App::setFilePath('/assets/images/illustrations/others/vector_check_orange.png') !!}"
@@ -1003,6 +1120,20 @@
                                                                                         alt="">
                                                                                 @else
                                                                                     {!! $subItem['value'][1] !!}
+                                                                                @endif
+
+                                                                            </td>
+                                                                            <td class="col-3">
+                                                                                @if (isset($subItem['value'][2]) && $subItem['value'][2] == 'checkIcon')
+                                                                                    <img class="checkIcon"
+                                                                                        src="{!! App::setFilePath('/assets/images/illustrations/others/vector_check_orange.png') !!}"
+                                                                                        alt="">
+                                                                                @elseif( isset($subItem['value'][2]) && $subItem['value'][2] == 'disabledIcon' )
+                                                                                    <img class="disabledIcon"
+                                                                                        src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                                        alt="">
+                                                                                @else
+                                                                                    {!! $subItem['value'][2] !!}
                                                                                 @endif
 
                                                                             </td>
@@ -1019,9 +1150,8 @@
                                     </ul>
                                 @endif
                             </div>
-
                         </div>
-
+                              <div id="table-header-anchor2"></div>
                     </div>
                 </section>
 
