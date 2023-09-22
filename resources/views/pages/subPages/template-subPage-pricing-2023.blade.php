@@ -27,7 +27,7 @@
 
                  ],
                  [
-                    "name" => 'Trainer herramienta',
+                    "name" => 'Especialista implementación',
                     "subItems" => array(
                         [
                             "name" => "Todo el año",
@@ -91,50 +91,6 @@
                             ]
                         ],
 
-                     )
-
-                 ],
-                 [
-                    "name" => 'Trainings online en vivo',
-                    "subItems" => array(
-                        [
-                            "name" => "Bootcamp Escala Ventas",
-                            "value" => [
-                            "disabledIcon",
-                            "checkIcon",
-                            "checkIcon"
-                            ]
-                        ],
-                        [
-                            "name" => "Workshops estratégicos",
-                            "value" => [
-                            "disabledIcon",
-                            "checkIcon",
-                            "checkIcon"
-                            ]
-                        ],
-                     )
-
-                 ],
-                 [
-                    "name" => 'Educación autoguiada',
-                    "subItems" => array(
-                        [
-                            "name" => "Artículos y videotutoriales",
-                            "value" => [
-                            "checkIcon",
-                            "checkIcon",
-                            "checkIcon"
-                            ]
-                        ],
-                        [
-                            "name" => "Cursos y Webinars online",
-                            "value" => [
-                            "checkIcon",
-                            "checkIcon",
-                            "checkIcon"
-                            ]
-                        ],
                      )
 
                  ],
