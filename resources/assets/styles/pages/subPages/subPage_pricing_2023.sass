@@ -685,7 +685,81 @@ img
 
 
         .innerSectionElement.sct3
+            margin-top: 50px
             .containElements
+                .row.table-header
+                    background-color: #FAFBFD
+                    border-radius: 14px 14px 0px 0px
+                    overflow: hidden
+                    &.stick
+                        position: fixed
+                        top: 0
+                        z-index: 10000
+
+                        position: fixed
+                        top: 108px
+                        // top: 50%
+                        left: 0
+                        right: 0
+                        box-sizing: border-box
+
+                        margin: 0 auto
+                        border-radius: 0 0 14px 14px!important
+                        @include responsivo(telefonoTable)
+                            width: 95%
+                            top: 50px
+                        @include responsivo(pcMedio)
+                            width: 80%
+                            top: 55px
+                        @include responsivo(general)
+                            width: 100%!important
+                            max-width: 1240px!important
+                        @include responsivo(smallPcTablet)
+                            max-width: 1000px!important
+                        @include responsivo(resto)
+                            width: 100%!important
+                            max-width: 1390px!important
+
+                    .col1
+                        padding: 0
+                    .col2
+                        background-color: transparent
+                        padding: 18px 0px
+                        border-left: 1px solid #B9E6E9
+                        @include responsivo(telefonoTable)
+                            padding: 6px 0px
+                    .col3
+                        background-color: transparent
+                        padding: 18px 0px
+                        border-left: 1px solid #B9E6E9
+                        border-right: 1px solid #B9E6E9
+                        @include responsivo(telefonoTable)
+                            padding: 6px 0px
+                    .col4
+                        background-color: transparent
+                        padding: 18px 0px
+                        @include responsivo(telefonoTable)
+                            padding: 6px 0px
+                    p
+                        color: #322C2E
+                        text-align: center
+                        font-family: Nunito
+                        font-size: 24px
+                        font-style: normal
+                        font-weight: 700
+                        line-height: 33px
+                        letter-spacing: -2px
+                        margin: 0px
+                        span.text-blue
+                            color: #36768A
+                        span.text-orange
+                            color: #FF4E33
+                        @include responsivo(telefonoTable)
+                            font-size: 16px
+                        @include responsivo(pcMedio)
+                            font-size: 18px
+                        @include responsivo(general)
+                            font-size: 24px
                 .row
 
                     .list
@@ -795,14 +869,18 @@ img
                                                         font-size: 18px
                                                         line-height: 1
                                                         letter-spacing: -0.907315px
-                                                        color: #797979
+                                                        color: #2C4857
                                                         border-right: 1px solid #B9E6E9
                                                         @include responsivo(telefonoTable)
                                                             padding: 10px
                                                         @include responsivo(pcMedio)
                                                             padding: 10px 15px
                                                         &:last-child
-                                                            color: #FF4E33
+                                                            text-align: center
+                                                            display: flex
+                                                            align-content: center
+                                                            align-items: center
+                                                            justify-content: center
                                                         &:nth-child(2)
                                                             text-align: center
                                                             display: flex
