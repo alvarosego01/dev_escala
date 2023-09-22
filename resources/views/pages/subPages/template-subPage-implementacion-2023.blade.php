@@ -584,8 +584,8 @@
 
                                            @php
                                                $videoEmbed = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
-                                               // $videoCover = App::setFilePath('/assets/images/illustrations/others/implement_portrait.png');
-                                               $videoCover = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
+                                               $videoCover = App::setFilePath('/assets/images/illustrations/others/implement_portrait.png');
+                                            //    $videoCover = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
                                            @endphp
 
                                            @if (isset($videoEmbed) && $videoEmbed != null)
@@ -597,10 +597,12 @@
                                                    <img src="{!! App::setFilePath('/assets/images/overlays/video_box_right.svg') !!}" alt=""
                                                        class="overlayRight">
 
+                                                   {{--
                                                    <video class="video-js video_1 videoCover" autoplay muted loop>
                                                        <source src="{{ $videoCover }}" type="video/mp4">
                                                        Tu navegador no soporta videos HTML5.
                                                    </video>
+                                                   --}}
 
                                                    <video id="video_1" class="video-js video_1" controls
                                                        preload="none" poster="{{ $videoCover }}"
@@ -623,6 +625,7 @@
 
                                                </div>
 
+                                               {{--
                                                <script type="text/javascript">
                                                    var player = videojs('video_1');
 
@@ -634,6 +637,7 @@
 
                                                    });
                                                </script>
+                                               --}}
                                            @endif
 
                                        </div>

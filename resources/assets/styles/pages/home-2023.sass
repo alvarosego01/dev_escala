@@ -407,8 +407,8 @@ img
                         .ele.video
                             position: relative
                             right: 25px
-                            button.vjs-big-play-button
-                                display: none!important
+                            // button.vjs-big-play-button
+                            //     display: none!important
                             @include responsivo(telefonoTable)
                                 margin-bottom: 25px
                                 right: 0
@@ -465,6 +465,18 @@ img
 
                                 video
                                     border-radius: 25px
+
+                                .videoCover
+                                    z-index: 1
+                                    position: absolute
+                                    left: 0
+                                    right: 0
+                                    top: 0
+                                    bottom: 0
+                                button.vjs-big-play-button
+                                    z-index: 5
+                                    position: relative
+                                    // display: none!important
 
                 .form7
                     margin-bottom: 50px
