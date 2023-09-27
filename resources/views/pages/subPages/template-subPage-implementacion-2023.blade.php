@@ -1,8 +1,7 @@
    <div id="implementacion-2023">
        <div class="sections">
 
-           <section id="lead-form"
-               class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol implementacion-2023-0 ">
+           <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol implementacion-2023-0 ">
 
                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/mobile-bg-implementacion-2023-07.png') }}')"
                    class="backgroundFull mobileElement">
@@ -321,227 +320,112 @@
 
            <section class="customSection sectionParent implementacion-2023-1">
 
-               <div class="section-row">
+            <div class="section-row">
 
-                   <section class="innerSectionElement sct1">
+                <section class="innerSectionElement sct0">
 
-                       <div class="containElements">
-                           <h2 class="title">
-                               Enfócate en lo que verdaderamente importa: <br class="desktopTabletElement">
-                               ¡generar leads y cerrar ventas!
-                           </h2>
-                           <p class="text">
-                               ¿Qué recibes en 10 días?
-                           </p>
-                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/01-home2023.png') !!}" loading="lazy">
-                       </div>
+                    <div class="containElements">
+                        <div class="container ">
+                            <div class="row">
+                                <div class="text-center col-md-12 col-lg-12">
+                                    <h2 class="primaryTitle">
+                                        Enfócate en lo que verdaderamente importa: <br class="desktopTabletElement">
+                                        ¡generar leads y cerrar ventas!
+                                    </h2>
+                                    <p class="primaryText">
+                                        Un ejemplo de lo que <br class="desktopTabletElement">
+                                        reciben nuestros clientes
+                                    </p>
+                                    <div class="ele video col-md-12">
 
-                   </section>
-                   <section class="innerSectionElement sct2">
+                                        @php
+                                            $videoEmbed = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
+                                            $videoCover = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
+                                         //    $videoCover = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
+                                        @endphp
 
-                       <div class="containElements">
+                                        @if (isset($videoEmbed) && $videoEmbed != null)
+                                            <div class="youtubeImageContainer ">
 
-                           <div class="row">
-                               <div class="col-md-12 col-lg-4 cardParent column-1">
-                                   <div class="card">
-                                       <div class="card-body">
-                                           <span class="orange-pill">Día 1</span>
-                                           <h5 class="card-number">1</h5>
-                                           <h5 class="card-title">
-                                               Conocemos <br class="space"> tu
-                                               negocio
-                                           </h5>
-                                           <h5 class="card-subtitle">
-                                               Evaluamos factores como:
-                                           </h5>
-                                           <ul>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Industria</p>
-                                                   </div>
-                                               </li>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Necesidades</p>
-                                                   </div>
-                                               </li>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Proceso comercial</p>
-                                                   </div>
-                                               </li>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Equipo</p>
-                                                   </div>
-                                               </li>
-                                           </ul>
-                                           <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/02-home2023.png') !!}" loading="lazy">
-                                       </div>
-                                   </div>
-                               </div>
-                               <div class="col-md-12 col-lg-4 cardParent column-2">
-                                   <div class="card">
-                                       <div class="card-body">
-                                           <span class="orange-pill">Día 2-9</span>
-                                           <h5 class="card-number">2</h5>
-                                           <h5 class="card-title">
-                                               Personalizamos <br class="space">
-                                               el CRM
-                                           </h5>
-                                           <div class="list-block">
-                                               <h5 class="card-subtitle">
-                                                   Creamos Plantillas de:
-                                               </h5>
-                                               <ul>
-                                                   <li>
-                                                       <div class="list-item">
-                                                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                           <p>Landing</p>
-                                                       </div>
-                                                   </li>
-                                                   <li>
-                                                       <div class="list-item">
-                                                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                           <p>Email</p>
-                                                       </div>
-                                                   </li>
-                                                   <li>
-                                                       <div class="list-item">
-                                                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                           <p>WhatsApps</p>
-                                                       </div>
-                                                   </li>
-                                                   <li>
-                                                       <div class="list-item">
-                                                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                           <p>Conectamos:</p>
-                                                       </div>
-                                                   </li>
-                                                   <li>
-                                                       <div class="list-item">
-                                                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                           <p>Embudos</p>
-                                                       </div>
-                                                   </li>
-                                               </ul>
-                                           </div>
-                                           <div class="list-block">
-                                               <h5 class="card-subtitle">
-                                                   Creamos Plantillas de:
-                                               </h5>
-                                               <ul>
-                                                   <li>
-                                                       <div class="list-item">
-                                                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                           <p>Cuentas</p>
-                                                       </div>
-                                                   </li>
-                                                   <li>
-                                                       <div class="list-item">
-                                                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                           <p>Dominios</p>
-                                                       </div>
-                                                   </li>
-                                               </ul>
-                                           </div>
-                                           <div class="list-block">
-                                               <h5 class="card-subtitle">
-                                                   Importamos:
-                                               </h5>
-                                               <ul>
-                                                   <li>
-                                                       <div class="list-item">
-                                                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                           <p>Contactos</p>
-                                                       </div>
-                                                   </li>
-                                                   <li>
-                                                       <div class="list-item">
-                                                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                           <p>Productos</p>
-                                                       </div>
-                                                   </li>
-                                                   <li>
-                                                       <div class="list-item">
-                                                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                           <p>Oportunidades</p>
-                                                       </div>
-                                                   </li>
-                                               </ul>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                               <div class="col-md-12 col-lg-4 cardParent column-3">
-                                   <div class="card">
-                                       <div class="card-body">
-                                           <span class="orange-pill">Día 10</span>
-                                           <h5 class="card-number">3</h5>
-                                           <h5 class="card-title">
-                                               Empiezas a <br class="space">
-                                               vender más
-                                           </h5>
-                                           <h5 class="card-subtitle">
-                                               Recibe la plataforma de <br class="space">
-                                               Escala lista para:
-                                           </h5>
-                                           <ul>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Ajustar textos</p>
-                                                   </div>
-                                               </li>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>
-                                                           Entrenar al equipo
-                                                       </p>
-                                                   </div>
-                                               </li>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>
-                                                           Comenzar a producir <br class="space">
-                                                           resultados
-                                                       </p>
-                                                   </div>
-                                               </li>
+                                                <img src="{!! App::setFilePath('/assets/images/overlays/video_box_left.svg') !!}" alt=""
+                                                    class="overlayLeft">
 
-                                           </ul>
-                                           <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/03-home2023.png') !!}" loading="lazy">
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                   </section>
-               </div>
+                                                <img src="{!! App::setFilePath('/assets/images/overlays/video_box_right.svg') !!}" alt=""
+                                                    class="overlayRight">
 
-           </section>
+                                                {{--
+                                                <video class="video-js video_1 videoCover" autoplay muted loop>
+                                                    <source src="{{ $videoCover }}" type="video/mp4">
+                                                    Tu navegador no soporta videos HTML5.
+                                                </video>
+                                                --}}
+                                                <video class="video-js video_1 videoCover" autoplay muted loop>
+                                                    <source src="{{ $videoCover }}" type="video/mp4">
+                                                    Tu navegador no soporta videos HTML5.
+                                                </video>
 
-           <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-01.png') !!})"
-               class="customSection sectionParent implementacion-2023-2">
+                                                <video id="video_1" class="video-js video_1" controls
+                                                    preload="none" poster="{{ $videoCover }}"
+                                                    {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                                    data-setup="{
+                               autoplay: false
+                             }">
+                                                    <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                                    <source src="{{ $videoEmbed }}" type="video/webm" />
+                                                    <p class="vjs-no-js">
+                                                        To view this video please enable JavaScript, and consider
+                                                        upgrading to a
+                                                        web browser that
+                                                        <a href="https://videojs.com/html5-video-support/"
+                                                            target="_blank">supports
+                                                            HTML5 video</a>
+                                                    </p>
+                                                </video>
+
+
+                                            </div>
+
+                                            <script type="text/javascript">
+                                                var player = videojs('video_1');
+
+                                                // Agrega un oyente de eventos al evento 'play'
+                                                player.on('play', function() {
+
+                                                    jQuery('.video_1.videoCover').remove();
+
+                                                });
+                                            </script>
+
+                                            {{--
+                                            <script type="text/javascript">
+                                                var player = videojs('video_1');
+
+                                                // Agrega un oyente de eventos al evento 'play'
+                                                player.on('play', function() {
+                                                    console.log('El video se está reproduciendo');
+
+                                                    jQuery('.video_1.videoCover').remove();
+
+                                                });
+                                            </script>
+                                            --}}
+                                        @endif
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+
+        </section>
+
+           <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-01.png') !!})" class="customSection sectionParent implementacion-2023-2">
 
                <div class="section-row">
-
-                   <section class="innerSectionElement sct0">
-
-                       <div class="containElements">
-                           <p class="text">
-                               Ya no requieres meses para adaptar un nuevo CRM a tus<br class="desktopTabletElement">
-                               operaciones y arrancar a optimizar tus ventas
-                           </p>
-                       </div>
-
-                   </section>
 
                    <section class="innerSectionElement sct1">
 
@@ -569,88 +453,217 @@
 
            <section class="customSection sectionParent implementacion-2023-3">
 
-               <div class="section-row">
+            <div class="section-row">
 
-                   <section class="innerSectionElement sct0">
+                <section class="innerSectionElement sct1">
 
-                       <div class="containElements">
-                           <div class="container ">
-                               <div class="row">
-                                   <div class="text-center col-md-12 col-lg-12">
-                                       <h2 class="primaryTitle">
-                                           ¿Cómo luce lo que reciben nuestros clientes?
-                                       </h2>
-                                       <div class="ele video col-md-12">
+                    <div class="containElements">
+                        <h2 class="title">
+                            ¿Qué recibes en 10 días?
+                        </h2>
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/01-home2023.png') !!}" loading="lazy">
+                    </div>
 
-                                           @php
-                                               $videoEmbed = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
-                                               $videoCover = App::setFilePath('/assets/images/illustrations/others/implement_portrait.png');
-                                            //    $videoCover = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
-                                           @endphp
+                </section>
+                <section class="innerSectionElement sct2">
 
-                                           @if (isset($videoEmbed) && $videoEmbed != null)
-                                               <div class="youtubeImageContainer ">
+                    <div class="containElements">
 
-                                                   <img src="{!! App::setFilePath('/assets/images/overlays/video_box_left.svg') !!}" alt=""
-                                                       class="overlayLeft">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-4 cardParent column-1">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <span class="orange-pill">Día 1</span>
+                                        <h5 class="card-number">1</h5>
+                                        <h5 class="card-title">
+                                            Conocemos <br class="space"> tu
+                                            negocio
+                                        </h5>
+                                        <h5 class="card-subtitle">
+                                            Evaluamos factores como:
+                                        </h5>
+                                        <ul>
+                                            <li>
+                                                <div class="list-item">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                    <p>Industria</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="list-item">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                    <p>Necesidades</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="list-item">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                    <p>Proceso comercial</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="list-item">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                    <p>Equipo</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/02-home2023.png') !!}" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-4 cardParent column-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <span class="orange-pill">Día 2-9</span>
+                                        <h5 class="card-number">2</h5>
+                                        <h5 class="card-title">
+                                            Personalizamos <br class="space">
+                                            el CRM
+                                        </h5>
+                                        <div class="list-block">
+                                            <h5 class="card-subtitle">
+                                                Creamos Plantillas de:
+                                            </h5>
+                                            <ul>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Landing</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Email</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>WhatsApps</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Conectamos:</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Embudos</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-block">
+                                            <h5 class="card-subtitle">
+                                                Creamos Plantillas de:
+                                            </h5>
+                                            <ul>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Cuentas</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Dominios</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-block">
+                                            <h5 class="card-subtitle">
+                                                Importamos:
+                                            </h5>
+                                            <ul>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Contactos</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Productos</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                        <p>Oportunidades</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-4 cardParent column-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <span class="orange-pill">Día 10</span>
+                                        <h5 class="card-number">3</h5>
+                                        <h5 class="card-title">
+                                            Empiezas a <br class="space">
+                                            vender más
+                                        </h5>
+                                        <h5 class="card-subtitle">
+                                            Recibe la plataforma de <br class="space">
+                                            Escala lista para:
+                                        </h5>
+                                        <ul>
+                                            <li>
+                                                <div class="list-item">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                    <p>Ajustar textos</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="list-item">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                    <p>
+                                                        Entrenar al equipo
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="list-item">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
+                                                    <p>
+                                                        Comenzar a producir <br class="space">
+                                                        resultados
+                                                    </p>
+                                                </div>
+                                            </li>
 
-                                                   <img src="{!! App::setFilePath('/assets/images/overlays/video_box_right.svg') !!}" alt=""
-                                                       class="overlayRight">
+                                        </ul>
+                                        <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/03-home2023.png') !!}" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="innerSectionElement sct3">
 
-                                                   {{--
-                                                   <video class="video-js video_1 videoCover" autoplay muted loop>
-                                                       <source src="{{ $videoCover }}" type="video/mp4">
-                                                       Tu navegador no soporta videos HTML5.
-                                                   </video>
-                                                   --}}
+                    <div class="containElements">
+                        <p class="text">
+                            Ya no requieres meses para adaptar un nuevo CRM a tus<br class="desktopTabletElement">
+                            operaciones y arrancar a optimizar tus ventas
+                        </p>
+                    </div>
 
-                                                   <video id="video_1" class="video-js video_1" controls
-                                                       preload="none" poster="{{ $videoCover }}"
-                                                       {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                                       data-setup="{
-                                  autoplay: false
-                                }">
-                                                       <source src="{{ $videoEmbed }}" type="video/mp4" />
-                                                       <source src="{{ $videoEmbed }}" type="video/webm" />
-                                                       <p class="vjs-no-js">
-                                                           To view this video please enable JavaScript, and consider
-                                                           upgrading to a
-                                                           web browser that
-                                                           <a href="https://videojs.com/html5-video-support/"
-                                                               target="_blank">supports
-                                                               HTML5 video</a>
-                                                       </p>
-                                                   </video>
+                </section>
+            </div>
 
-
-                                               </div>
-
-                                               {{--
-                                               <script type="text/javascript">
-                                                   var player = videojs('video_1');
-
-                                                   // Agrega un oyente de eventos al evento 'play'
-                                                   player.on('play', function() {
-                                                       console.log('El video se está reproduciendo');
-
-                                                       jQuery('.video_1.videoCover').remove();
-
-                                                   });
-                                               </script>
-                                               --}}
-                                           @endif
-
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-
-                   </section>
-
-               </div>
-
-           </section>
+        </section>
 
            @php
                $desk_reviews = [
