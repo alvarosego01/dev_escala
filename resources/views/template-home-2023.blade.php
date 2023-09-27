@@ -106,7 +106,7 @@
                                             @if (isset($videoEmbed) && $videoEmbed != null)
                                                 <div class="youtubeImageContainer ">
 
-                                                        <video class="video-js video_1 videoCover" autoplay muted loop>
+                                                    <video class="video-js video_1 videoCover" autoplay muted loop>
                                                        <source src="{{ $videoCover }}" type="video/mp4">
                                                        Tu navegador no soporta videos HTML5.
                                                    </video>
@@ -115,8 +115,8 @@
                                                        preload="none" poster="{{ $videoCover }}"
                                                        {{-- poster="MY_VIDEO_POSTER.jpg" --}}
                                                        data-setup="{
-                                  autoplay: false
-                                }">
+                                                          autoplay: false
+                                                        }">
                                                        <source src="{{ $videoEmbed }}" type="video/mp4" />
                                                        <source src="{{ $videoEmbed }}" type="video/webm" />
                                                        <p class="vjs-no-js">
