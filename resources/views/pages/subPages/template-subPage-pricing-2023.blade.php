@@ -986,9 +986,9 @@
                                         @foreach ($featuresElements['formation']['items'] as $key => $item)
                                             <li class="itemParent">
                                                 <button type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#parentAccess_{{ $key }}"
+                                                    data-bs-target="#parentFormation_{{ $key }}"
                                                     aria-expanded="false"
-                                                    aria-controls="parentAccess_{{ $key }}">
+                                                    aria-controls="parentFormation_{{ $key }}">
 
                                                     {!! $item['name'] !!}
 
@@ -997,9 +997,9 @@
                                                     @endif
 
                                                 </button>
-                                                <div id="parentAccess_{{ $key }}"
+                                                <div id="parentFormation_{{ $key }}"
                                                     class="accordion-collapse collapse subItemList"
-                                                    aria-labelledby="parentAccess_{{ $key }}">
+                                                    aria-labelledby="parentFormation_{{ $key }}">
                                                     <div class="accordion-body">
 
                                                         @if (isset($item['subItems']))

@@ -98,15 +98,15 @@
                                         <div class="ele video col-md-12 col-lg-9">
 
                                             @php
-                                                $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
+                                                $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1_sub.mp4');
                                                 // $videoCover = App::setFilePath('/assets/images/gifs/home_video_portrait_2023.gif');
-                                                $videoCover = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1.mp4');
+                                                $videoCover = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1_sub.mp4');
                                             @endphp
 
                                             @if (isset($videoEmbed) && $videoEmbed != null)
                                                 <div class="youtubeImageContainer ">
 
-                                                        <video class="video-js video_1 videoCover" autoplay muted loop>
+                                                    <video class="video-js video_1 videoCover" autoplay muted loop>
                                                        <source src="{{ $videoCover }}" type="video/mp4">
                                                        Tu navegador no soporta videos HTML5.
                                                    </video>
@@ -115,8 +115,8 @@
                                                        preload="none" poster="{{ $videoCover }}"
                                                        {{-- poster="MY_VIDEO_POSTER.jpg" --}}
                                                        data-setup="{
-                                  autoplay: false
-                                }">
+                                                          autoplay: false
+                                                        }">
                                                        <source src="{{ $videoEmbed }}" type="video/mp4" />
                                                        <source src="{{ $videoEmbed }}" type="video/webm" />
                                                        <p class="vjs-no-js">
