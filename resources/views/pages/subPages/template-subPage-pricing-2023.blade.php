@@ -2,7 +2,7 @@
 
     $featuresElements = [
         "services" => array(
-            "name" => '<span class="blueLightColor12">Acompañamiento Personalizado</span>',
+            "name" => '<span class="blueLightColor12">Acompañamiento</span>',
             "items" => array(
                  [
                     "name" => 'Gerente Éxito asignado',
@@ -12,7 +12,7 @@
                             "value" => [
                             "disabledIcon",
                             "8 horas el primer año",
-                            "8 horas el primer año"
+                            "Personalizado"
                             ]
                         ],
                         [
@@ -34,7 +34,7 @@
                             "value" => [
                             "disabledIcon",
                             "4 horas el primer año",
-                            "4 horas el primer año"
+                            "Personalizado"
                             ]
                         ],
                      )
@@ -48,7 +48,7 @@
                             "value" => [
                             "disabledIcon",
                             "Hasta 1 hora",
-                            "Hasta 1 hora"
+                            "Personalizado"
                             ]
                         ],
                         [
@@ -57,7 +57,7 @@
                             "value" => [
                             "disabledIcon",
                             "Hasta 1 hora",
-                            "Hasta 1 hora"
+                            "Personalizado"
                             ]
                         ],
                     )
