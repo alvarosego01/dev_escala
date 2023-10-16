@@ -53,7 +53,7 @@ class App extends Controller
 
     public static function setFilePath($file)
     {
-        return get_stylesheet_directory_uri().$file;
+        return get_stylesheet_directory_uri() . $file;
     }
 
     public static function get_page_by_template($template = '')
@@ -107,11 +107,13 @@ class App extends Controller
             $column_1 = null;
             $column_2 = null;
 
-            $menu_list = '<ul id="menu-'.$classSection.'" class="mb-2 navbar-nav mb-md-0 '.$specialClass.'">';
+            $menu_list = '<ul id="menu-' . $classSection . '" class="mb-2 navbar-nav mb-md-0 ' . $specialClass . '">';
             $menucount = 1;
             $bool = true;
             foreach ($menu_items as $menu_item) {
+
                 if ($menu_item->menu_item_parent == 0) {
+
                     $parent = $menu_item->ID;
 
                     $menu_array = [];
@@ -131,7 +133,19 @@ class App extends Controller
                         }
                     }
 
-                    if (count($child_elements) >= 3) {
+                    if (ACF_CUSTOM::_getField('enable_menu_parent_principal',  $menu_item->ID) == 1) {
+
+                        if (ACF_CUSTOM::_getField('parent_menu_principal_columns',  $menu_item->ID) === 'parent_1_columns') {
+                            $two_columns = 0;
+                        }
+                        if (ACF_CUSTOM::_getField('parent_menu_principal_columns',  $menu_item->ID) === 'parent_2_columns') {
+
+                            $aux_first = ceil(count($child_elements) / 2);
+                            $columns['column_1'] = array_slice($child_elements, 0, $aux_first);
+                            $columns['column_2'] = array_slice($child_elements, $aux_first, count($child_elements));
+                            $two_columns = 1;
+                        }
+                    } elseif (count($child_elements) >= 3) {
                         // echo 'division '.ceil(7 / 2);
                         $aux_first = ceil(count($child_elements) / 2);
                         $columns['column_1'] = array_slice($child_elements, 0, $aux_first);
@@ -148,7 +162,7 @@ class App extends Controller
                                 if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1) {
                                     $containItem = '<a p1 class="dropdown-item " role="menuitem"  href="#" disabled ><span class="specialItem">';
                                 } else {
-                                    $containItem = '<a p1 class="dropdown-item '. implode(" ", $submenu->classes) .'" role="menuitem"  href="'.$submenu->url.'" ><span class="specialItem">';
+                                    $containItem = '<a p1 class="dropdown-item ' . implode(" ", $submenu->classes) . '" role="menuitem"  href="' . $submenu->url . '" ><span class="specialItem">';
                                 }
 
                                 if (ACF_CUSTOM::_getField('enable_menu_item_icon', $submenu->ID) == 1) {
@@ -160,12 +174,14 @@ class App extends Controller
                                     }
                                 }
 
-                                if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1 &&
-                                    ACF_CUSTOM::_getField('coming_soon', $submenu->ID) != null) {
+                                if (
+                                    ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1 &&
+                                    ACF_CUSTOM::_getField('coming_soon', $submenu->ID) != null
+                                ) {
                                     $a = ACF_CUSTOM::_getField('coming_soon', $submenu->ID);
-                                    $containItem .= '<span class="infoItem"><span><t>'.$submenu->title.'</t><small>'.$a.'</small></span>';
+                                    $containItem .= '<span class="infoItem"><span><t>' . $submenu->title . '</t><small>' . $a . '</small></span>';
                                 } else {
-                                    $containItem .= '<span class="infoItem"><span><t>'.$submenu->title.'</t></span>';
+                                    $containItem .= '<span class="infoItem"><span><t>' . $submenu->title . '</t></span>';
                                 }
 
                                 if (ACF_CUSTOM::_getField('enable_menu_item_description', $submenu->ID) == 1) {
@@ -179,7 +195,7 @@ class App extends Controller
 
                                 $containItem .= '</span></a>';
 
-                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-'.$submenus->ID.' nav-item ">'.$containItem.'</li>';
+                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-' . $submenus->ID . ' nav-item ">' . $containItem . '</li>';
 
                                 // $parents = $submenu->ID;
 
@@ -200,7 +216,7 @@ class App extends Controller
                                 if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1) {
                                     $containItem = '<a p1 class="dropdown-item " role="menuitem"  href="#" disabled ><span class="specialItem">';
                                 } else {
-                                    $containItem = '<a p1 class="dropdown-item '. implode(" ", $submenu->classes) .'" role="menuitem"  href="'.$submenu->url.'" ><span class="specialItem">';
+                                    $containItem = '<a p1 class="dropdown-item ' . implode(" ", $submenu->classes) . '" role="menuitem"  href="' . $submenu->url . '" ><span class="specialItem">';
                                 }
 
                                 if (ACF_CUSTOM::_getField('enable_menu_item_icon', $submenu->ID) == 1) {
@@ -212,12 +228,14 @@ class App extends Controller
                                     }
                                 }
 
-                                if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1 &&
-                                    ACF_CUSTOM::_getField('coming_soon', $submenu->ID) != null) {
+                                if (
+                                    ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1 &&
+                                    ACF_CUSTOM::_getField('coming_soon', $submenu->ID) != null
+                                ) {
                                     $a = ACF_CUSTOM::_getField('coming_soon', $submenu->ID);
-                                    $containItem .= '<span class="infoItem"><span><t>'.$submenu->title.'</t><small>'.$a.'</small></span>';
+                                    $containItem .= '<span class="infoItem"><span><t>' . $submenu->title . '</t><small>' . $a . '</small></span>';
                                 } else {
-                                    $containItem .= '<span class="infoItem"><span><t>'.$submenu->title.'</t></span>';
+                                    $containItem .= '<span class="infoItem"><span><t>' . $submenu->title . '</t></span>';
                                 }
 
                                 if (ACF_CUSTOM::_getField('enable_menu_item_description', $submenu->ID) == 1) {
@@ -231,7 +249,7 @@ class App extends Controller
 
                                 $containItem .= '</span></a>';
 
-                                $menu_array2[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-'.$submenus->ID.' nav-item ">'.$containItem.'</li>';
+                                $menu_array2[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-' . $submenus->ID . ' nav-item ">' . $containItem . '</li>';
                                 // $parents = $submenu->ID;
 
                                 // foreach ($columns['column_2'] as $submenus) {
@@ -263,18 +281,18 @@ class App extends Controller
                                 $openAtt = null;
                             }
 
-                            $menu_list .= '<li 2 class="menu-item menu-item-has-children dropdown menu-item-'.$menu_item->ID.'">';
-                            $menu_list .= '<a p3 class="nav-link" href="'.$href.'" data-href="'.$data_href.'" '.$openAtt.' data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-'.$menu_item->ID.'" ><span>'.$menu_item->title.'</span> <i class="fas fa-caret-down"></i></a>';
+                            $menu_list .= '<li 2 class="menu-item menu-item-has-children dropdown menu-item-' . $menu_item->ID . '">';
+                            $menu_list .= '<a p3 class="nav-link" href="' . $href . '" data-href="' . $data_href . '" ' . $openAtt . ' data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-' . $menu_item->ID . '" ><span>' . $menu_item->title . '</span> <i class="fas fa-caret-down"></i></a>';
 
-                            $menu_list .= '<div class="dropdown_two_columns dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-'.$menu_item->ID.'" role="menu" style="display: none;">'."\n";
-                            $menu_list .= '<ul  >'."\n";
+                            $menu_list .= '<div class="dropdown_two_columns dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-' . $menu_item->ID . '" role="menu" style="display: none;">' . "\n";
+                            $menu_list .= '<ul  >' . "\n";
                             $menu_list .= implode($menu_array);
                             $menu_list .= '</ul>';
-                            $menu_list .= '<ul  >'."\n";
+                            $menu_list .= '<ul  >' . "\n";
                             $menu_list .= implode($menu_array2);
                             $menu_list .= '</ul>';
                             $menu_list .= '</div>';
-                        // $menu_list .= '<ul class="dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-'.$menu_item->ID.'" role="menu" style="display: none;">'."\n";
+                            // $menu_list .= '<ul class="dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-'.$menu_item->ID.'" role="menu" style="display: none;">'."\n";
                             // $menu_list .= implode($menu_array);
                             // $menu_list .= '</ul>';
                         } else {
@@ -285,8 +303,8 @@ class App extends Controller
                                 $classElements = implode(' ', $menu_item->classes);
                             }
 
-                            $menu_list .= '<li itemscope="itemscope" class="menu-item nav-item menu-item-'.$menu_item->ID.' '.$classElements.' ">';
-                            $menu_list .= '<a p4 class="nav-link " href="'.$menu_item->url.'">'.$menu_item->title.'</a>';
+                            $menu_list .= '<li itemscope="itemscope" class="menu-item nav-item menu-item-' . $menu_item->ID . ' ' . $classElements . ' ">';
+                            $menu_list .= '<a p4 class="nav-link " href="' . $menu_item->url . '">' . $menu_item->title . '</a>';
                         }
                     }
                     if ($two_columns != 1) {
@@ -299,7 +317,7 @@ class App extends Controller
                                 if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1) {
                                     $containItem = '<a p1 class="dropdown-item" role="menuitem"  href="#" disabled ><span class="specialItem">';
                                 } else {
-                                    $containItem = '<a p1 class="dropdown-item '. implode(" ", $submenu->classes) .'" role="menuitem"  href="'.$submenu->url.'" ><span class="specialItem">';
+                                    $containItem = '<a p1 class="dropdown-item ' . implode(" ", $submenu->classes) . '" role="menuitem"  href="' . $submenu->url . '" ><span class="specialItem">';
                                 }
 
                                 if (ACF_CUSTOM::_getField('enable_menu_item_icon', $submenu->ID) == 1) {
@@ -311,12 +329,14 @@ class App extends Controller
                                     }
                                 }
 
-                                if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1 &&
-                                    ACF_CUSTOM::_getField('coming_soon', $submenu->ID) != null) {
+                                if (
+                                    ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1 &&
+                                    ACF_CUSTOM::_getField('coming_soon', $submenu->ID) != null
+                                ) {
                                     $a = ACF_CUSTOM::_getField('coming_soon', $submenu->ID);
-                                    $containItem .= '<span class="infoItem"><span><t>'.$submenu->title.'</t><small>'.$a.'</small></span>';
+                                    $containItem .= '<span class="infoItem"><span><t>' . $submenu->title . '</t><small>' . $a . '</small></span>';
                                 } else {
-                                    $containItem .= '<span class="infoItem"><span><t>'.$submenu->title.'</t></span>';
+                                    $containItem .= '<span class="infoItem"><span><t>' . $submenu->title . '</t></span>';
                                 }
 
                                 if (ACF_CUSTOM::_getField('enable_menu_item_description', $submenu->ID) == 1) {
@@ -330,12 +350,12 @@ class App extends Controller
 
                                 $containItem .= '</span></a>';
 
-                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-'.$submenus->ID.' nav-item">'.$containItem.'</li><ul>';
+                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-' . $submenus->ID . ' nav-item">' . $containItem . '</li><ul>';
                                 $parents = $submenu->ID;
 
                                 foreach ($menu_items as $submenus) {
                                     if ($submenus->menu_item_parent == $parents) {
-                                        $menu_array[] .= '<li itemscope="itemscope" class="menu-item nav-item menu-item-'.$submenus->ID.'"><a p2 class="nav-link" href="'.$submenus->url.'" >'.$submenus->title.'</a></li>';
+                                        $menu_array[] .= '<li itemscope="itemscope" class="menu-item nav-item menu-item-' . $submenus->ID . '"><a p2 class="nav-link" href="' . $submenus->url . '" >' . $submenus->title . '</a></li>';
                                     }
                                 }
                                 $menu_array[] .= '</ul></li>';
@@ -362,15 +382,15 @@ class App extends Controller
                                 $openAtt = null;
                             }
 
-                            $menu_list .= '<li 2 class="menu-item menu-item-has-children dropdown menu-item-'.$menu_item->ID.'">';
-                            $menu_list .= '<a p3 class="nav-link" href="'.$href.'" data-href="'.$data_href.'" '.$openAtt.' data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-'.$menu_item->ID.'" ><span>'.$menu_item->title.'</span> <i class="fas fa-caret-down"></i></a>';
+                            $menu_list .= '<li 2 class="menu-item menu-item-has-children dropdown menu-item-' . $menu_item->ID . '">';
+                            $menu_list .= '<a p3 class="nav-link" href="' . $href . '" data-href="' . $data_href . '" ' . $openAtt . ' data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-' . $menu_item->ID . '" ><span>' . $menu_item->title . '</span> <i class="fas fa-caret-down"></i></a>';
 
                             // $menu_list .= '<ul class="dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-'.$menu_item->ID.'" role="menu" style="display: none;">'."\n";
                             // $menu_list .= implode($menu_array);
                             // $menu_list .= '</ul>';
 
-                            $menu_list .= '<div class="no_two_columns dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-'.$menu_item->ID.'" role="menu" style="display: none;">'."\n";
-                            $menu_list .= '<ul  >'."\n";
+                            $menu_list .= '<div class="no_two_columns dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-' . $menu_item->ID . '" role="menu" style="display: none;">' . "\n";
+                            $menu_list .= '<ul  >' . "\n";
                             $menu_list .= implode($menu_array);
                             $menu_list .= '</ul>';
                             $menu_list .= '</div>';
@@ -382,8 +402,8 @@ class App extends Controller
                                 $classElements = implode(' ', $menu_item->classes);
                             }
 
-                            $menu_list .= '<li itemscope="itemscope" class="menu-item nav-item menu-item-'.$menu_item->ID.' '.$classElements.'">';
-                            $menu_list .= '<a p4 class="nav-link " href="'.$menu_item->url.'">'.$menu_item->title.'</a>';
+                            $menu_list .= '<li itemscope="itemscope" class="menu-item nav-item menu-item-' . $menu_item->ID . ' ' . $classElements . '">';
+                            $menu_list .= '<a p4 class="nav-link " href="' . $menu_item->url . '">' . $menu_item->title . '</a>';
                         }
                     }
                 }
