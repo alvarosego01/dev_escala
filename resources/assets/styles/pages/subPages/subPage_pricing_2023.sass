@@ -540,6 +540,12 @@ img
                                             overflow: hidden
                                             &:last-child
                                                 margin-bottom: 0
+                                            @include responsivo(telefonoTable)
+                                                width: 250px
+                                            @include responsivo(pcMedio)
+                                                width: 275px
+                                                margin-left: auto
+                                                margin-right: auto
                                             input,
                                             select
                                                 border-radius: 6px
@@ -552,20 +558,22 @@ img
                                                 letter-spacing: -1px
                                                 color: #797979
                                                 @include responsivo(telefonoTable)
-                                                    font-size: 16px
-                                                    width: 90px!important
+                                                    font-size: 14px
+                                                    max-width: 75px!important
+                                                    width: 100%!important
                                                 @include responsivo(pcMedio)
                                                     font-size: 16px
-                                                    width: 90px!important
+                                                    max-width: 100px!important
+                                                    width: 100%!important
                                                 @include responsivo(general)
-                                                    font-size: 16px
+                                                    font-size: 14px
                                                     width: 90px!important
                                                 @include responsivo(smallPcTablet)
                                                     font-size: 14px
-                                                    width: 75px!important
-
+                                                    max-width: 80px!important
+                                                    width: 100%!important
                                                 @include responsivo(resto)
-                                                    font-size: 18px
+                                                    font-size: 16px
                                                     width: 100px!important
 
                                             input,
