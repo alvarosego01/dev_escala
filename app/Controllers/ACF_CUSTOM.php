@@ -1405,6 +1405,32 @@ class ACF_CUSTOM extends Controller
             'title' => 'Menus custom field settings',
             'fields' => [
                 [
+                    'key' => 'enable_menu_parent_principal',
+                    'label' => 'Enable parent principal',
+                    'name' => 'Enable parent principal',
+                    'type' => 'true_false',
+                ],
+                [
+                    'key' => 'parent_menu_principal_columns',
+                    'label' => 'Parent menu principal columns',
+                    'name' => 'Parent menu principal columns',
+                    'type' => 'select',
+                    'choices' => [
+                        'parent_1_columns' => '1 Column',
+                        'parent_2_columns' => '2 Columns',
+                    ],
+                     'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_menu_parent_principal',
+                                'operator' => '==',
+                                'value' => 1,
+                            ],
+                        ],
+                    ],
+                ],
+
+                [
                     'key' => 'enable_menu_item_coming_soon',
                     'label' => 'Enable coming soon',
                     'name' => 'Enable coming soon',

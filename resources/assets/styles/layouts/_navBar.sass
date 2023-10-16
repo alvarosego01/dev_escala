@@ -380,6 +380,8 @@ header.customHeader.customSection
                                 display: block
                                 background-color: transparent!important
                                 box-sizing: border-box
+                                // padding-left: 0
+                                // padding-right: 0
                                 span.specialItem
                                     width: 100%
                                     display: flex
@@ -392,11 +394,11 @@ header.customHeader.customSection
                                             margin-right: 10px
                                         img
                                             @include responsivo(general)
-                                                height: 40px
-                                                width: 40px
+                                                height: auto
+                                                width: 45px
                                             @include responsivo(resto)
-                                                height: 40px
-                                                width: 40px
+                                                height: auto
+                                                width: 45px
                                     span
                                         width: 100%
                                         display: block
@@ -482,12 +484,12 @@ header.customHeader.customSection
                         li.menu-item.nav-item
                             @include responsivo(general)
                                 padding-bottom: 10px
-                                margin-bottom: 10px
-                                border-bottom: 1px solid #D6F4F6!important
+                                margin-bottom: 0
+                                border-bottom: none
                             @include responsivo(resto)
                                 padding-bottom: 10px
-                                margin-bottom: 10px
-                                border-bottom: 1px solid #D6F4F6!important
+                                margin-bottom: 0
+                                border-bottom: none
 
 
 
