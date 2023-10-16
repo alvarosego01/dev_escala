@@ -107,7 +107,7 @@ class App extends Controller
             $column_1 = null;
             $column_2 = null;
 
-            $menu_list = '<ul id="menu-'.$classSection.'" class="navbar-nav  mb-2 mb-md-0  '.$specialClass.'">';
+            $menu_list = '<ul id="menu-'.$classSection.'" class="mb-2 navbar-nav mb-md-0 '.$specialClass.'">';
             $menucount = 1;
             $bool = true;
             foreach ($menu_items as $menu_item) {
@@ -179,7 +179,7 @@ class App extends Controller
 
                                 $containItem .= '</span></a>';
 
-                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item  menu-item-'.$submenus->ID.' nav-item ">'.$containItem.'</li>';
+                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-'.$submenus->ID.' nav-item ">'.$containItem.'</li>';
 
                                 // $parents = $submenu->ID;
 
@@ -231,7 +231,7 @@ class App extends Controller
 
                                 $containItem .= '</span></a>';
 
-                                $menu_array2[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item  menu-item-'.$submenus->ID.' nav-item ">'.$containItem.'</li>';
+                                $menu_array2[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-'.$submenus->ID.' nav-item ">'.$containItem.'</li>';
                                 // $parents = $submenu->ID;
 
                                 // foreach ($columns['column_2'] as $submenus) {
@@ -330,7 +330,7 @@ class App extends Controller
 
                                 $containItem .= '</span></a>';
 
-                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item  menu-item-'.$submenus->ID.' nav-item">'.$containItem.'</li><ul>';
+                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-'.$submenus->ID.' nav-item">'.$containItem.'</li><ul>';
                                 $parents = $submenu->ID;
 
                                 foreach ($menu_items as $submenus) {

@@ -474,8 +474,6 @@ function sticky_headerTable() {
   var div_top2 = jQuery('#table-header-anchor2').offset().top;
   var tableHeader = jQuery('.table-header');
 
-    // console.log('window_top: '+window_top, 'div_top1: ' + div_top1, 'div_top2: '+ div_top2);
-
     if(rangeTableSticky(window_top, div_top1 + 100, div_top2)){
 
     tableHeader.addClass('stick');
