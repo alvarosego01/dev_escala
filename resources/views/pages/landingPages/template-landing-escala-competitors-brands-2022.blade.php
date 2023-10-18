@@ -288,10 +288,10 @@ este CRM no es la mejor opción.
                'enableButton' => false,
            ],
            [
-               'img' => App::setFilePath('/assets/images/logos/competitor_icon_8.png'),
+               'img' => App::setFilePath('/assets/images/logos/Kommo-crm-logo.png'),
                'title' => null,
                'text' => '
-               AmoCRM está basado en la mensajería instantánea. Fue diseñado para <br class="desktopTabletElement">
+               Kommo está basado en la mensajería instantánea. Fue diseñado para <br class="desktopTabletElement">
 automatizar procesos de ventas a través de una integración con distintos canales <br class="desktopTabletElement">
 de comunicación: Email, WhatsApp, Facebook Messenger, etc. Es ideal para <br class="desktopTabletElement">
 hacerle un seguimiento eficiente a tus clientes, siempre y cuando no estés <br class="desktopTabletElement">
