@@ -152,6 +152,11 @@ add_action('wp_enqueue_scripts', function () {
         if (is_page_template('views/template-landing-escala-blackFriday-2022.blade.php')) {
             wp_enqueue_style('landing_blackFriday_2022.css', asset_path('styles/pages/landingPages/landing_blackFriday_2022.css'), false, THEME_VERSION);
         }
+        // ---Landing escala landings 2023
+           if (is_page_template('views/template-landing-escala-email-marketing-campaigns-2023.blade.php')) {
+            wp_enqueue_style('landing_emailMarketingCampaigns_2023.css', asset_path('styles/pages/landingPages/landing_emailMarketingCampaigns_2023.css'), false, THEME_VERSION);
+        }
+
         // -------------------------------------- //
         //  FUNCTIONALITIES 2022
         // ---Page builder
