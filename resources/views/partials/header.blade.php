@@ -83,7 +83,7 @@
         $p = array(
             'transparent' => true,
             'classSection' => $navBar . ' transparent white',
-            'type' => 'white'
+            'type' => 'default'
         )
     @endphp
 

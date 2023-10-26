@@ -211,8 +211,8 @@
                     </section>
             </div>
         </section>
-        <section
 
+        <section
         class="component-info-multiple-cards-T2 customSection sectionParent templateBase_3">
 
             <div class="section-row">
@@ -364,5 +364,6 @@
             <img src="{!! App::setFilePath('/assets/images/overlays/03-overlay-template-base-2023.png') !!}" alt="" class="overlaysky">
 
         </section>
+
     </div>
 </div>

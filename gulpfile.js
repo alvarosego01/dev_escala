@@ -4,7 +4,6 @@
 const browserSync = require('browser-sync').create(),
     reload = browserSync.reload,
     gulp = require('gulp'),
-    // autoprefixer = require('gulp-autoprefixer'),
     sass = require('gulp-dart-sass'),
     sourcemaps = require('gulp-sourcemaps'),
     csso = require('gulp-csso'),
@@ -16,23 +15,17 @@ const browserSync = require('browser-sync').create(),
     cached = require("gulp-cached"),
     watch = require('gulp-watch');
 
-// var project = ts.createProject('tsconfig.json');
 
 const changed = require('gulp-changed');
 
-
-
 var i;
-// browser-sync task for starting the server.
 
 gulp.task('browserSync-Local', () => {
-    //watch files
 
     browserSync.init({
         logPrefix: "escala",
         open: false,
-        // http: true,
-        // online: true,
+
         notify: true,
         injectChanges: true,
         proxy: "localhost/escala/",
@@ -54,7 +47,6 @@ gulp.task('browserSync-Local', () => {
 });
 
 gulp.task('browserSync-Server', () => {
-    //watch file
 
     browserSync.init({
         logPrefix: "escala",
@@ -79,21 +71,14 @@ gulp.task('browserSync-Server', () => {
     });
 });
 
-// C:\xampp2\htdocs\escala\wp-content\themes\oceanwp-child\resources\assets\styles
-
 gulp.task('sass', () => {
     return gulp.src('./resources/assets/styles/**/*.sass')
-        // .pipe(watch('./resources/assets/styles/**/*.sass'))
-        // .pipe(changed('./dist/styles', { extension: '.css' }))
+
         .pipe(sourcemaps.init())
-        // .pipe(sass().on('error', sass.logError))
         .pipe(sass({
             outputStyle: 'compressed',
-            // includePaths: ['./node_modules'],
             sourceMap: true,
-            // compila en paralelo con el número de núcleos de CPU disponibles
-            // ajusta el número según la cantidad de núcleos de tu equipo
-            // o usa un número fijo como 4 si lo prefieres
+
             maxConcurrency: 4,
             parallel: true
         }).on('error', sass.logError))
@@ -106,17 +91,12 @@ gulp.task('sass', () => {
 
 gulp.task('sassGeneral', () => {
     return gulp.src('./resources/assets/styles/**/*.sass')
-        // .pipe(cached("sass_compile"))
-        // .pipe(changed('./dist/styles', { extension: '.css' }))
+
         .pipe(sourcemaps.init())
-        // .pipe(sass().on('error', sass.logError))
         .pipe(sass({
             outputStyle: 'compressed',
-            // includePaths: ['./node_modules'],
             sourceMap: true,
-            // compila en paralelo con el número de núcleos de CPU disponibles
-            // ajusta el número según la cantidad de núcleos de tu equipo
-            // o usa un número fijo como 4 si lo prefieres
+
             maxConcurrency: 4,
             parallel: true
         }).on('error', sass.logError))
@@ -142,27 +122,10 @@ gulp.task('js', () => {
         .pipe(browserSync.stream());
 });
 
-
-
-// gulp.task('compile-ts',  () => {
-//     return gulp.src('./resources/assets/scripts/**/*.ts')
-//         .pipe(project())
-//         .pipe(gulp.dest('./dist/scripts/'))
-//         .pipe(browserSync.stream());
-// });
-
-// gulp.task('build-gulp', function () {
-//     gulp.watch('./resources/assets/scripts/**/*.ts', gulp.series(gulp.parallel('compile-ts')));
-// })
-
-
-// gulp.task('compile-init', gulp.series(gulp.parallel('sassGeneral', 'js', 'compile-ts' )));
 gulp.task('compile-init', gulp.series(gulp.parallel('sassGeneral', 'js')));
 gulp.task('watch', () => {
 
     gulp.watch("./resources/assets/styles/**/*.sass", gulp.series('sass'));
-
-    //   gulp.watch("./resources/assets/scripts/**/*.ts", gulp.series('compile-ts'));
 
     gulp.watch("./resources/assets/scripts/**/*.js", gulp.series('js'));
 

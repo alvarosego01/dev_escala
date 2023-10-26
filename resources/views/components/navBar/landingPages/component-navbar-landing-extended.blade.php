@@ -6,33 +6,15 @@
 
 
 
-@php
-    // $prueba = wp_get_nav_menu_items($navBar_ID);
-
-    // $prueba = App::wp_get_menu_array($navBar_ID);
-
-    // $menu_nav_extended = App::create_bootstrap_menu($navBar_ID, $classSection);
-
-    //     $prueba = wp_nav_menu([
-    //         'menu' => $navBar_ID
-    // ]);
-
-@endphp
-{{-- <pre>
-    @php
-        // print_r($prueba);
-    @endphp
-</pre> --}}
-
 <header id="masthead"
     class="customHeader component-header-default-extended-landing navBar_default-extended-landing customSection fullWidth {{ $classSection }}">
-
 
     <nav class="principal navbar navbar-expand-md">
 
         <div class="section-row">
 
             <div class="container-fluid sct2">
+
 
                 <div class="logo">
                     @if (isset($transparent) && $transparent === true)
