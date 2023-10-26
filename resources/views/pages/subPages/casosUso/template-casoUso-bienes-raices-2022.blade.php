@@ -605,21 +605,29 @@
                 'classSection' => 'subPage_casoUso_bienes_raices_12',
                 'enableTitle' => true,
                 'titlePrincipal' => '
-        Nuestros usuarios <span class="greenBlueColor">cuentan su experiencia</span>
-        ',
+                Nuestros usuarios <span class="greenBlueColor">cuentan su experiencia</span>
+                ',
                 'subTitlePrincipal' => null,
                 'enableContainerButton' => true,
                 'urlButton' => '#',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'textButton' => 'Recibe un demo',
-                'mob_reviews' => [App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-1.png'), App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-2.png'), App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-3.png')],
-                'desk_reviews' => [[App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-1.png'), App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-2.png'), App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-3.png')]],
+                'mob_reviews' => [
+                    App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-1.png'),
+                    App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-2.png'),
+                    App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-3.png')
+                ],
+                'desk_reviews' => [
+                    [
+                        App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-1.png'),
+                        App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-2.png'),
+                        App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-3.png')
+                    ]
+                ],
             ];
         @endphp
-
         @reviews_sliders_T1($parameters)
         @endreviews_sliders_T1
-
 
     </div>
 

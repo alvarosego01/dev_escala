@@ -113,8 +113,6 @@
 
         </section>
 
-
-
         @php
             $parameters = [
                 'type' => 'backgroundColor',
@@ -122,8 +120,7 @@
                 'enableTitle' => true,
                 'titlePrincipal' => '
           Qué logras vía WhatsApp gracias a Escala <br class="space">
-          <span class="greenBlueColor">la plataforma de marketing y ventas que tu equipo sí quiere usar</span>
-',
+          <span class="greenBlueColor">la plataforma de marketing y ventas que tu equipo sí quiere usar</span>',
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/01.Automatizaciones-Whatsapp-min.gif'),
                 'title' => '
@@ -150,7 +147,6 @@
                 'side' => 'left',
             ];
         @endphp
-
         @contain_text_image_T1($parameters)
         @endcontain_text_image_T1
 

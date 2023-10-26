@@ -57,6 +57,8 @@
             <div class="container-fluid sct2">
 
                 <div class="logo">
+
+
                     @if (isset($transparent) && $transparent === true)
                         @if (isset($type) && $type === 'default')
                             <a class="navbar-brand normal" href="{!! home_url() !!}">
