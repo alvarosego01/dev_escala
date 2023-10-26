@@ -156,6 +156,9 @@ add_action('wp_enqueue_scripts', function () {
            if (is_page_template('views/template-landing-escala-email-marketing-campaigns-2023.blade.php')) {
             wp_enqueue_style('landing_emailMarketingCampaigns_2023.css', asset_path('styles/pages/landingPages/landing_emailMarketingCampaigns_2023.css'), false, THEME_VERSION);
         }
+           if (is_page_template('views/template-landing-escala-landing-pages-2023.blade.php')) {
+            wp_enqueue_style('landing_landingPage_2023.css', asset_path('styles/pages/landingPages/landing_landingPage_2023.css'), false, THEME_VERSION);
+        }
 
         // -------------------------------------- //
         //  FUNCTIONALITIES 2022

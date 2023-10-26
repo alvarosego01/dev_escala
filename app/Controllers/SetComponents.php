@@ -294,6 +294,7 @@ class SetComponents extends Controller
         }
         if ($type == 'all') {
             return [
+                'views/template-landing-escala-landing-pages-2023.blade.php',
                 'views/template-landing-escala-email-marketing-campaigns-2023.blade.php',
                 'views/template-subPage-acompanamiento-2023.blade.php',
                 'views/template-subPage-educacion-2023.blade.php',
