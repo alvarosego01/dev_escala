@@ -35,7 +35,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/1Elige-entre--plantillas-pre-diseñadas-.gif'),
                 'title' => '
                         Elige entre cientos de hermosas <span>
                             plantillas <br class="desktopTabletElement">
@@ -70,7 +70,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/3.Automatizaciones_emailMkt.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/2-arrastra-y-suelta-final.gif'),
                 'title' => '
                    Arrastra <span>y suelta</span>
                 ',
@@ -98,7 +98,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/3Inteligencia-Artificial.gif'),
                 'title' => '
                     Crea contenido en segundos con <br class="desktopTabletElement">
                     <span>Inteligencia Artificial</span>
@@ -125,7 +125,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/4-contador.gif'),
                 'title' => '
                     <span>Agrega elementos</span> como contador, <br class="desktopTabletElement">
                     formularios, botón de WhatsApp, pop ups,<br class="desktopTabletElement">
@@ -157,7 +157,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/5Secuencias-de-páginas-final.gif'),
                 'title' => '
                     <span>Crea secuencias</span> de páginas para mejorar la <br class="desktopTabletElement">
                     experiencia y agilizar operaciones
@@ -186,7 +186,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/6-responsive.gif'),
                 'title' => '
                     ¡Logra que tus páginas se van bien en <br class="desktopTabletElement">
                     <span>todos los dispositivos!</span>
@@ -213,7 +213,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/7-dominio.gif'),
                 'title' => '
                     <span>¡Publicar es muy rápido!</span> Define el dominio, <br class="desktopTabletElement">
                     edita el SEO y listo
@@ -247,7 +247,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/8-analitics.gif'),
                 'title' => '
                     <span>Visualiza la efectividad</span> de tus landing <br class="desktopTabletElement">
                     pages con analíticas en tiempo real
@@ -291,7 +291,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/9Herramientas-landings-CRM.gif'),
                 'title' => '
                         <span>¡Que no se escape ni una oportunidad!</span> <br class="desktopTabletElement">
                         Tus landing pages están conectadas a las <br class="desktopTabletElement">
@@ -496,7 +496,7 @@ comercial o post-venta
 
                         <div class="info">
                             <p class="text">
-                                Descubre por ti mismo la mejor <br class="desktopTabletElement">
+                                Descubre por ti mismo la mejor <br class="space">
                                 <span>herramienta de landing pages</span>
                             </p>
 
@@ -561,9 +561,10 @@ comercial o post-venta
                                 complicadas o costosas, construimos Escala. <br class="desktopTabletElement">
                                 Gracias a ello, <span>aumentamos 10X nuestra eficiencia</span> <br class="desktopTabletElement">
                                 al crear y publicar landing pages con Escala.”
-
+                                <br class="space">
+                                <br class="space">
                                 <span class="sub">
-                                    Andrés Moreno
+                                    Andrés Moreno <br class="space">
                                     <small>Fundador de escala & Open English</small>
                                 </span>
 
