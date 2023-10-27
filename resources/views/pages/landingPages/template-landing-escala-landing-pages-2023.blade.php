@@ -7,24 +7,22 @@
             'overlay' => false,
             'classSection' => 'threeCol landing_landingPage_2023 landing_landingPage_2023_0',
             'title' => '
-                        Campañas de Email <br class="space">
-                        marketing <span> más efectivas <br class="space">
-                        y fáciles de crear.
-                        </span>
+                        Construye hermosas <br class="space">
+<span>landing pages</span> en <br class="space">
+30min o menos
                     ',
             'text' => '
-                        <span class="whiteColor">
-                            Logra que tu mensaje sea <br class="desktopTabletElement">
-                            escuchado y que tu negocio crezca <br class="desktopTabletElement">
-                            con nuestra plataforma todo-en-<br class="desktopTabletElement">
-                            uno de email marketing.
-                        </span>
+                        Cuenta con más de 200 plantillas <br class="desktopTabletElement">
+                        optimizadas para convertir, ajusta <br class="desktopTabletElement">
+                        fácilmente el diseño y contenido con <br class="desktopTabletElement">
+                        Inteligencia Artificial (sin necesitar <br class="desktopTabletElement">
+                        programar) ¡y publica!
                     ',
             'threeCol' => true,
-            'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
-            'backgroundImage' => App::setFilePath('/assets/images/banners/bg_emailMark_0.svg'),
+            'textForm' => 'Recibe un demo-tour <br class="space"> personalizado de Escala',
+            'backgroundImage' => App::setFilePath('/assets/images/banners/bg_landing_0.svg'),
             'overlayImage' => null,
-            'image' => App::setFilePath('/assets/images/person/am/am_back_circle_yellow.png'),
+            'image' => App::setFilePath('/assets/images/person/am/am_landing_landingpages.png'),
             'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta'
         ])
         @endheader_t1
@@ -37,12 +35,51 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/1.Arrastra y suelta_emailMkt.gif'),
-                'title' => 'Arrastra <span>y suelta</span>',
+                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
+                'title' => '
+                        Elige entre cientos de hermosas <span>
+                            plantillas <br class="desktopTabletElement">
+                            pre-diseñadas
+                        </span>
+                ',
                 'text' => '
-                    Crea increíbles emails que cautivan a tu audiencia en <br class="desktopTabletElement">
-                    cualquier dispositivo con un constructor de emails muy fácil <br class="desktopTabletElement">
-                    de usar y plantillas pre-diseñadas.
+                    Basadas en mejores prácticas, en Escala encuentras una <br class="desktopTabletElement">
+                    seria de páginas estructuradas para que solo tengas que <br class="desktopTabletElement">
+                    editar el contenido y ajustar el diseño a tu marca ¡sin <br class="desktopTabletElement">
+                    depender de programadores!
+                ',
+                'enableButton' => false,
+                'urlButton' => '#lead-form',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'side' => 'right',
+            ];
+        @endphp
+        {{-- style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_landing_1.svg') !!}')" --}}
+        <div
+        class="specialOverlay right">
+        <img class="imageOverlay" src="{!! App::setFilePath('/assets/images/banners/bg_landing_1.svg') !!}" alt="">
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+        </div>
+
+        @php
+            $parameters = [
+                'type' => 'backgroundColor',
+                'classSection' => 'landing_landingPage_2023_2',
+                'enableTitle' => false,
+                'titlePrincipal' => null,
+                'subTitlePrincipal' => null,
+                'img' => App::setFilePath('/assets/images/gifs/3.Automatizaciones_emailMkt.gif'),
+                'title' => '
+                   Arrastra <span>y suelta</span>
+                ',
+                'text' =>
+                    '
+                    Editar el contenido de tus páginas en Escala es ¡muy <br class="desktopTabletElement">
+                    sencillo! Con puros clics, elige los elementos que deseas <br class="desktopTabletElement">
+                    sustituir, muévelos con el mouse o escribe el texto que <br class="desktopTabletElement">
+                    deseas y ¡y listo!
                 ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
@@ -54,10 +91,10 @@
         @contain_text_image_T1($parameters)
         @endcontain_text_image_T1
 
-        @php
+          @php
             $parameters = [
                 'type' => 'backgroundColor',
-                'classSection' => 'landing_landingPage_2023_2',
+                'classSection' => 'landing_landingPage_2023_3',
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
@@ -69,8 +106,8 @@
                 'text' => '
                     Bríndale a Escala un par de palabras clave y tu intención <br class="desktopTabletElement">
                     para que te proponga opciones que puedas elegir y revisar <br class="desktopTabletElement">
-                    si lo necesitas. ¡Esto funciona para tanto para el cuerpo del <br class="desktopTabletElement">
-                    email como para el asunto!
+                    si lo necesitas. ¡Es como contratar a un copywriter estrella <br class="desktopTabletElement">
+                    24/7 a una mínima fracción del costo!
                 ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
@@ -81,80 +118,57 @@
         @endphp
         @contain_text_image_T1($parameters)
         @endcontain_text_image_T1
-
-        @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'landing_landingPage_2023_3',
-                'enableTitle' => false,
-                'titlePrincipal' => null,
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/3.Automatizaciones_emailMkt.gif'),
-                'title' => '
-                    <span>Automatiza flujos</span> de email y escala <br class="desktopTabletElement">
-                    operaciones
-                ',
-                'text' =>
-                    '
-                    Logra que tus contactos reciban tus mensajes en el <br class="desktopTabletElement">
-                    momento oportuno ¡sin tener que estar pendiente de <br class="desktopTabletElement">
-                    enviarlos! Envía emails <br class="space">
-                    <span>
-                    <img class="checkIcon" src="' .
-                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                    '" alt="">Bienvenida inmediatamente después de que compran <br class="space">
-                    </span>
-                    <span>
-                    <img class="checkIcon" src="' .
-                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                    '" alt="">Recordatorios antes de un evento importante <br class="space">
-                    </span>
-                    <span>
-                    <img class="checkIcon" src="' .
-                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                    '" alt="">De nutrición para potenciar el proceso comercial <br class="space"> ¡y más!
-                    </span>
-                ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'left',
-            ];
-        @endphp
-        @contain_text_image_T1($parameters)
-        @endcontain_text_image_T1
-
-        @php
+          @php
             $parameters = [
                 'type' => 'backgroundColor',
                 'classSection' => 'landing_landingPage_2023_4',
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/4.Analiticas-small_emailMkt.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
                 'title' => '
-                    Conoce el resultado y <span>optimiza tus <br class="desktopTabletElement">
-                    campañas</span> con analíticas en tiempo real
+                    <span>Agrega elementos</span> como contador, <br class="desktopTabletElement">
+                    formularios, botón de WhatsApp, pop ups,<br class="desktopTabletElement">
+                    descargables y más
                 ',
-                'text' =>
-                    '
-                    Una vez envíes tus campañas, podrás: <br class="space">
-                    <span>
-                    <img class="checkIcon" src="' .
-                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                    '" alt="">Visualizar métricas como la tasa de apertura y rebote <br class="space">
-                    </span>
-                    <span>
-                    <img class="checkIcon" src="' .
-                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                    '" alt="">Averiguar quiénes hicieron click y cancelaron su suscripción <br class="space">
-                    </span>
-                    <span>
-                    <img class="checkIcon" src="' .
-                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                    '" alt="">Descubrir cuáles links tuvieron más clicks <br class="space"> ¡y más!
-                    </span>
+                'text' => '
+                    Aprovecha nuestra librería de elementos para potenciar la <br class="desktopTabletElement">
+                    efectividad de tus  landing pages. Es tan fácil como <br class="desktopTabletElement">
+                    seleccionarlos en el menú y arrastrarlos a tu página ¡no <br class="desktopTabletElement">
+                    necesitas escribir ni una línea de código!
+                ',
+                'enableButton' => false,
+                'urlButton' => '#lead-form',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'side' => 'left',
+            ];
+        @endphp
+      <div
+        class="specialOverlay left">
+        <img class="imageOverlay"  src="{!! App::setFilePath('/assets/images/banners/bg_landing_1.svg') !!}" alt="">
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+        </div>
+          @php
+            $parameters = [
+                'type' => 'backgroundColor',
+                'classSection' => 'landing_landingPage_2023_5',
+                'enableTitle' => false,
+                'titlePrincipal' => null,
+                'subTitlePrincipal' => null,
+                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
+                'title' => '
+                    <span>Crea secuencias</span> de páginas para mejorar la <br class="desktopTabletElement">
+                    experiencia y agilizar operaciones
+                ',
+                'text' => '
+                    En Escala puedes agregar páginas  de confirmación o post-<br class="desktopTabletElement">
+                    registro que aparecen inmediatamente después de que las <br class="desktopTabletElement">
+                    personas registran sus datos en la primera landing page. <br class="desktopTabletElement">
+                    Así logras comunicar mensajes oportunamente, aliviar el <br class="desktopTabletElement">
+                    trabajo del vendedor, precalificar, incentivar upsells, <br class="desktopTabletElement">
+                    entregar valor y más.
                 ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
@@ -165,24 +179,23 @@
         @endphp
         @contain_text_image_T1($parameters)
         @endcontain_text_image_T1
-
-        @php
+          @php
             $parameters = [
                 'type' => 'backgroundColor',
-                'classSection' => 'landing_landingPage_2023_5',
+                'classSection' => 'landing_landingPage_2023_6',
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/5.responsive_emailMkt.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
                 'title' => '
-                    ¡Logra que tus emails se vean bien en <span>todos <br class="desktopTabletElement">
-                        los dispositivos!
-                    </span>
+                    ¡Logra que tus páginas se van bien en <br class="desktopTabletElement">
+                    <span>todos los dispositivos!</span>
                 ',
                 'text' => '
-                    Encontrarás que Escala facilita el diseño responsive para <br class="desktopTabletElement">
-                    que tu audiencia vea muy bien tus emails en laptops, <br class="desktopTabletElement">
-                    celulares y tablets.
+                    En Escala es muy eficiente crear páginas responsive que se <br class="desktopTabletElement">
+                    vean bien en computadoras, celulares y tablets. Nuestro <br class="desktopTabletElement">
+                    constructor de páginas ajusta la gran mayoría de las <br class="desktopTabletElement">
+                    secciones por ti.
                 ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
@@ -193,23 +206,120 @@
         @endphp
         @contain_text_image_T1($parameters)
         @endcontain_text_image_T1
-
-        @php
+          @php
             $parameters = [
                 'type' => 'backgroundColor',
-                'classSection' => 'landing_landingPage_2023_6',
+                'classSection' => 'landing_landingPage_2023_7',
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/illustrations/others/email_mkt_spam.png'),
+                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
                 'title' => '
-                   <span>Dile ¡Adiós!</span> a la bandeja de spam
+                    <span>¡Publicar es muy rápido!</span> Define el dominio, <br class="desktopTabletElement">
+                    edita el SEO y listo
                 ',
                 'text' => '
-                    Escala tiene la tecnología más avanzada y un equipo de <br class="desktopTabletElement">
-                    expertos que te guían para evitar que tus emails reboten o <br class="desktopTabletElement">
-                    caigan en la bandeja de spam. Así logras que tus emails <br class="desktopTabletElement">
-                    lleguen a donde deben llegar.
+                     Una vez creas tu landing page, puedes conectar tu cuenta <br class="desktopTabletElement">
+                    de Facebook Ads Manager y Google Analytics para enviar <br class="desktopTabletElement">
+                    tráfico y medir resultados.
+                        <br class="space"><br class="space">
+                    También puedes editar el títulos, la descripción, la imagen y <br class="desktopTabletElement">
+                    el Favicon para mejorar su presentación al compartirla en <br class="desktopTabletElement">
+                    distintas plataformas online.
+                ',
+                'enableButton' => false,
+                'urlButton' => '#lead-form',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'side' => 'right',
+            ];
+        @endphp
+         <div
+        class="specialOverlay right">
+        <img class="imageOverlay" src="{!! App::setFilePath('/assets/images/banners/bg_landing_1.svg') !!}" alt="">
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+        </div>
+          @php
+            $parameters = [
+                'type' => 'backgroundColor',
+                'classSection' => 'landing_landingPage_2023_8',
+                'enableTitle' => false,
+                'titlePrincipal' => null,
+                'subTitlePrincipal' => null,
+                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
+                'title' => '
+                    <span>Visualiza la efectividad</span> de tus landing <br class="desktopTabletElement">
+                    pages con analíticas en tiempo real
+                ',
+                'text' => '
+                    Una vez publiques y envíes visitantes a tus páginas, Escala <br class="desktopTabletElement">
+                    permite ver métricas como: <br class="space">
+                      <span>
+                    <img class="checkIcon" src="' .
+                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
+                    '" alt="">
+                    Número de visitantes
+                    </span>
+                      <span>
+                    <img class="checkIcon" src="' .
+                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
+                    '" alt="">
+                    Número de contactos creados y actualizados
+                    </span>
+                      <span>
+                    <img class="checkIcon" src="' .
+                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
+                    '" alt="">
+                    Costo por lead <br class="space">
+                    ¡y más!
+                    </span>
+                ',
+                'enableButton' => false,
+                'urlButton' => '#lead-form',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'side' => 'left',
+            ];
+        @endphp
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+          @php
+            $parameters = [
+                'type' => 'backgroundColor',
+                'classSection' => 'landing_landingPage_2023_9',
+                'enableTitle' => false,
+                'titlePrincipal' => null,
+                'subTitlePrincipal' => null,
+                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
+                'title' => '
+                        <span>¡Que no se escape ni una oportunidad!</span> <br class="desktopTabletElement">
+                        Tus landing pages están conectadas a las <br class="desktopTabletElement">
+                        múltiples herramientas del CRM de Escala
+                ',
+                'text' => '
+                    Olvídate de integraciones o ineficiencias operativas por <br class="desktopTabletElement">
+                    fallas humanas. En Escala todas las herramientas están <br class="desktopTabletElement">
+                    nativamente integradas para que: <br class="space">
+                        <span>
+                    <img class="checkIcon" src="' .
+                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
+                    '" alt="">
+                    Los contactos que se registren se guarden automáticamente en tu <br class="desktopTabletElement"> base de datos
+                    </span>
+                        <span>
+                    <img class="checkIcon" src="' .
+                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
+                    '" alt="">
+                    Puedas automatizar flujos de comunicación post-registro por <br class="desktopTabletElement">
+                    email y/o WhatsApp
+                    </span>
+                        <span>
+                    <img class="checkIcon" src="' .
+                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
+                    '" alt="">
+                    Conectes fácilmente tus campañas de Facebook Ads y Google
+                    </span>
                 ',
                 'enableButton' => false,
                 'urlButton' => '#lead-form',
@@ -222,100 +332,70 @@
         @endcontain_text_image_T1
 
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_emailMark_1.svg') !!})"
-            class='w-full customSection sectionParent landing_landingPage_2023_7'>
-            <div class="section-row">
 
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h2 class="title">
-                            <span>Descubre por ti mismo la mejor</span> <br class="desktopTabletElement">
-                            herramienta de email marketing
-                        </h2>
-
-                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Recibir demo
-                        </a>
-
-                    </div>
-
-                </section>
-
-            </div>
-        </section>
 
         @php
             $elements = [
                     [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_emailMark_01.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/landing_landingpage_img_0.png'),
                         'title' => '
-                <span>Re-despertar el interés</span> <br class="space">
-                de tus contactos en tus <br class="space">
-                productos y servicios
+                <span>Generar más</span> y mejores <br class="space">
+                leads o prospectos
                 ',
                         'enableButton' => false,
                     ],
                     [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_emailMark_02.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/landing_landingpage_img_1.png'),
                         'title' => '
-                <span>Comunicar</span>  <br class="space">
-                promociones <br class="space">
-                especiales
+        Tener una <span>
+            presencia <br class="space">
+            online
+        </span> más profesional
                 ',
                         'enableButton' => false,
                     ],
                     [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_emailMark_03.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/landing_landingpage_img_2.png'),
                         'title' => '
-                <span>
-                    Aumentar el <br class="space">
-                    profesionalismo
-                </span> de tus <br class="space">
-                mensajes en momentos <br class="space">
-                clave
+             <span>Aumentar la efectividad</span> <br class="space">
+de tus brochures físicos <br class="space">
+o digitales
                 ',
                         'enableButton' => false,
                     ],
                     [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_emailMark_04.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/landing_landingpage_img_3.png'),
                         'title' => '
-                <span>Mantenerte “top of mind”</span> <br class="space">
-                y nutrir la relación con tus <br class="space">
-                leads y clientes
+             <span>Promover ofertas</span> <br class="space">
+especiales a un grupo <br class="space">
+de personas target
                 ',
                         'enableButton' => false,
                     ],
                     [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_emailMark_05.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/landing_landingpage_img_4.png'),
                         'title' => '
-                <span>
-                    Llegar a muchísimas <br class="space">
-                    personas
-                </span> de manera <br class="space">
-                masiva y personalizada <br class="space">
-                con un solo click
+              <span>Educar o compartir</span> <br class="space">
+información relevante <br class="space">
+fácil y rápido
             ',
                         'enableButton' => false,
                     ],
                     [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_emailMark_06.png'),
+                        'img' => App::setFilePath('/assets/images/illustrations/others/landing_landingpage_img_5.png'),
                         'title' => '
-                <span>
-                    Recuperar <br class="space">
-                    oportunidades
-                </span> que <br class="space">
-                pierdes en el proceso <br class="space">
-                comercial
+            Facilitar la <span>
+                recolección de <br class="space">
+                información
+            </span> en tu proceso <br class="space">
+comercial o post-venta
                 ',
                         'enableButton' => false,
                     ],
                 ]
         @endphp
 
-
-        <section class="component-info-multiple-cards-T2 customSection sectionParent landing_landingPage_2023_8 ">
+            <section class="component-info-multiple-cards-T2 customSection sectionParent landing_landingPage_2023_10 ">
 
         <div class="section-row">
 
@@ -325,12 +405,15 @@
 
                         <h2 class="primaryTitle blackColor">
 
-                            ¿Qué puedes lograr con tus <br class="space">
-                            campañas email marketing?
+
+                            ¿Qué logras con las Landing Pages <br class="space">
+                            o Páginas de Aterrizaje de Escala?
                                 <br class="space">
                             <span class="subTitle">
                             ¡y mucho más!
                             </span>
+
+
 
                         </h2>
 
@@ -342,7 +425,6 @@
 
                 @foreach ($elements as $item)
 
-                {{-- style="background-image: url({!! App::setFilePath('/assets/images/illustrations/others/box_container_medium.png') !!})" --}}
                 <div
                 class="groupElements">
 
@@ -359,8 +441,6 @@
                         </h3>
 
                     </div>
-
-                    {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/box_container_medium.png') !!}" alt="" class="bgOverlay"> --}}
 
                     <svg
                     class="bgOverlay"
@@ -391,61 +471,125 @@
 
         </div>
 
-                <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_emailMark_4.svg') !!}')" class="backgroundPlanets">
-        </div>
-
-
-
+                {{-- <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_emailMark_4.svg') !!}')" class="backgroundPlanets">
+        </div> --}}
 
     </section>
 
-        <div class="groupBackground">
 
-        <section class="customSection sectionParent landing_landingPage_2023_9">
+     <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_3.svg') !!})"
+            class="customSection sectionParent landing_landingPage_2023_11">
 
             <div class="section-row">
 
-
-                <section class="innerSectionElement sct2">
-                    {{-- style="background-image: url({!! App::setFilePath('/assets/images/banners/am_overlay_email-mkt.png') !!})"  --}}
-                    <img src="{!! App::setFilePath('/assets/images/banners/am_overlay_email-mkt.png') !!}" alt="" class="overlay">
+                <section class="innerSectionElement sct1">
 
                     <div class="containElements">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-5 column-img">
-                                <div class="img-container">
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/12-home2023.png') !!}" loading="lazy">
-                                </div>
+
+                         <div class="image">
+
+                            <div class="containerImage">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing_landingpage_img_6.png') !!}" alt="">
                             </div>
-                            <div class="col-md-12 col-lg-7 column-text">
-                                <p>
-                                    “En mi experiencia, <span>
-                                        la venta se logra luego <br class="desktopTabletElement">
-                                        de varios contactos personalizados.
-                                    </span> La <br class="desktopTabletElement">
-                                    gestión inteligente de campañas de emails <br class="desktopTabletElement">
-                                    es una <span>estrategia fundamental</span> para <br class="desktopTabletElement">
-                                    mantenerse en contacto, y quizás el método <br class="desktopTabletElement">
-                                    de menor costo de todos”.
-                                    <br class="space"><br class="space">
 
-                                    <span class="yellow">
-                                        Andrés Moreno <br class="space">
-                                        <small>Fundador de escala & Open English</small>
-                                    </span>
-
-                                </p>
-
-                            </div>
                         </div>
+
+                        <div class="info">
+                            <p class="text">
+                                Descubre por ti mismo la mejor <br class="desktopTabletElement">
+                                <span>herramienta de landing pages</span>
+                            </p>
+
+
+                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                            Recibir demo
+                        </a>
+
+                        </div>
+
                     </div>
+
                 </section>
+
             </div>
 
         </section>
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_emailMark_2.svg') !!})"
-            class="customSection sectionParent landing_landingPage_2023_10">
+
+                @php
+            $parameters = [
+                'classSection' => 'landing_landingPage_2023_12',
+                'enableTitle' => true,
+                'titlePrincipal' => '
+                Qué dicen nuestros clientes sobre las landing <br class="desktopTabletElement">
+                pages que construyen en Escala
+                ',
+                'subTitlePrincipal' => null,
+                'enableContainerButton' => false,
+                'urlButton' => '#',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'textButton' => 'Recibe un demo',
+                'mob_reviews' => [
+                    App::setFilePath('/assets/images/illustrations/others/email_mkt_review_1.png'),
+                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_2.png'),
+                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_3.png')],
+                'desk_reviews' => [
+                    [
+                    App::setFilePath('/assets/images/illustrations/others/email_mkt_review_1.png'),
+                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_2.png'),
+                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_3.png')]
+                ],
+            ];
+        @endphp
+        @reviews_sliders_T1($parameters)
+        @endreviews_sliders_T1
+
+
+            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_4.svg') !!})"
+            class="customSection sectionParent landing_landingPage_2023_13">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+
+                        <div class="info">
+                            <p class="text">
+                                “En mis compañías creamos decenas de landing <br class="desktopTabletElement">
+                                pages al año. Cansados de las herramientas <br class="desktopTabletElement">
+                                complicadas o costosas, construimos Escala. <br class="desktopTabletElement">
+                                Gracias a ello, <span>aumentamos 10X nuestra eficiencia</span> <br class="desktopTabletElement">
+                                al crear y publicar landing pages con Escala.”
+
+                                <span class="sub">
+                                    Andrés Moreno
+                                    <small>Fundador de escala & Open English</small>
+                                </span>
+
+                            </p>
+
+                        </div>
+
+                             <div class="image">
+
+                            <div class="containerImage">
+                                <img src="{!! App::setFilePath('/assets/images/person/am/andres_landing_page 1.png') !!}" alt="">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </section>
+
+            </div>
+
+        </section>
+
+              <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_5.svg') !!})"
+            class="customSection sectionParent landing_landingPage_2023_14">
 
             <div class="section-row">
 
@@ -454,10 +598,9 @@
                     <div class="containElements">
 
                         <h2 class="primaryTitle blackColor">
-                            ¿Nuevo en email marketing? <br class="space">
+                            ¿Nuevo en creación de landing pages? <br class="space">
                             <span>¡No te preocupes, te entrenamos!</span>
                         </h2>
-
 
                     </div>
 
@@ -481,20 +624,19 @@
                             </p>
                         </div>
                         <div class="image">
-
                             <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_emailMark_07.png') !!}" alt="">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing_landingpage_img_7.png') !!}" alt="">
                             </div>
-
                         </div>
 
                     </div>
 
                 </section>
 
-                <section class="innerSectionElement sct3">
+                   <section class="innerSectionElement sct3">
 
                     <div class="containElements">
+
 
                         <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                             Conocer más
@@ -502,48 +644,14 @@
 
                     </div>
 
-                </section>
-
+                   </section>
 
             </div>
 
-
-            {{-- <img src="{!! App::setFilePath('/assets/images/banners/bg_emailMark_2.svg') !!}" alt="" class="overlay"> --}}
-
         </section>
 
-
-        @php
-            $parameters = [
-                'classSection' => 'landing_landingPage_2023_11',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-                Qué dicen nuestros clientes sobre las campañas <br class="desktopTabletElement">
-                de Email Marketing que crean en Escala
-                ',
-                'subTitlePrincipal' => null,
-                'enableContainerButton' => false,
-                'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'textButton' => 'Recibe un demo',
-                'mob_reviews' => [
-                    App::setFilePath('/assets/images/illustrations/others/email_mkt_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_3.png')],
-                'desk_reviews' => [
-                    [
-                    App::setFilePath('/assets/images/illustrations/others/email_mkt_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_3.png')]
-                ],
-            ];
-        @endphp
-        @reviews_sliders_T1($parameters)
-        @endreviews_sliders_T1
-
-
-        <section
-        class='w-full customSection sectionParent landing_landingPage_2023_12'>
+             <section
+        class='w-full customSection sectionParent landing_landingPage_2023_15'>
 
             <div class="section-row">
 
@@ -562,7 +670,7 @@
 
                         <div class="image">
                             <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_emailMark_08.png') !!}" alt="">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing_landingpage_img_8.png') !!}" alt="">
                             </div>
                         </div>
 
@@ -632,8 +740,8 @@
         </section>
 
             <section
-            style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_emailMark_3_2.svg') !!})"
-        class='w-full customSection sectionParent landing_landingPage_2023_13'>
+            style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_6.svg') !!})"
+        class='w-full customSection sectionParent landing_landingPage_2023_16'>
 
             <div class="section-row">
 
@@ -654,11 +762,9 @@
 
             </div>
 
-         {{-- <img src="{!! App::setFilePath('/assets/images/banners/bg_emailMark_3.svg') !!}" alt="" class="overlay"> --}}
             </section>
 
 
-    </div>
 
     </div>
 

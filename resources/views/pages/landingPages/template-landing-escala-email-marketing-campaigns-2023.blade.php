@@ -21,7 +21,7 @@
                         </span>
                     ',
             'threeCol' => true,
-            'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
+      'textForm' => 'Recibe un demo-tour <br class="space"> personalizado de Escala',
             'backgroundImage' => App::setFilePath('/assets/images/banners/bg_emailMark_0.svg'),
             'overlayImage' => null,
             'image' => App::setFilePath('/assets/images/person/am/am_back_circle_yellow.png'),
@@ -394,9 +394,6 @@
                 <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_emailMark_4.svg') !!}')" class="backgroundPlanets">
         </div>
 
-
-
-
     </section>
 
         <div class="groupBackground">
@@ -458,7 +455,6 @@
                             <span>¡No te preocupes, te entrenamos!</span>
                         </h2>
 
-
                     </div>
 
                 </section>
@@ -504,11 +500,7 @@
 
                 </section>
 
-
             </div>
-
-
-            {{-- <img src="{!! App::setFilePath('/assets/images/banners/bg_emailMark_2.svg') !!}" alt="" class="overlay"> --}}
 
         </section>
 
@@ -654,7 +646,6 @@
 
             </div>
 
-         {{-- <img src="{!! App::setFilePath('/assets/images/banners/bg_emailMark_3.svg') !!}" alt="" class="overlay"> --}}
             </section>
 
 
