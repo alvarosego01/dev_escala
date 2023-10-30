@@ -381,14 +381,14 @@
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'textButton' => 'Recibe un demo',
                 'mob_reviews' => [
-                    App::setFilePath('/assets/images/illustrations/others/email_mkt_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_3.png')],
+                    App::setFilePath('/assets/images/illustrations/others/crm_review_1.png'),
+                App::setFilePath('/assets/images/illustrations/others/crm_review_2.png'),
+                App::setFilePath('/assets/images/illustrations/others/crm_review_3.png')],
                 'desk_reviews' => [
                     [
-                    App::setFilePath('/assets/images/illustrations/others/email_mkt_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_3.png')]
+                    App::setFilePath('/assets/images/illustrations/others/crm_review_1.png'),
+                App::setFilePath('/assets/images/illustrations/others/crm_review_2.png'),
+                App::setFilePath('/assets/images/illustrations/others/crm_review_3.png')]
                 ],
             ];
         @endphp
@@ -406,7 +406,7 @@
                     <div class="containElements">
 
                         <h2 class="primaryTitle blackColor">
-                            ¿Nuevo en email marketing? <br class="space">
+                            ¿Nuevo en configuración y uso de CRM? <br class="space">
                             <span>¡No te preocupes, te entrenamos!</span>
                         </h2>
 

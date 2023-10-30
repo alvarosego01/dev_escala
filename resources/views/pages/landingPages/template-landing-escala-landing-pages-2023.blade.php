@@ -530,14 +530,14 @@ comercial o post-venta
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                 'textButton' => 'Recibe un demo',
                 'mob_reviews' => [
-                    App::setFilePath('/assets/images/illustrations/others/email_mkt_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_3.png')],
+                    App::setFilePath('/assets/images/illustrations/others/landingpages_review_1.png'),
+                App::setFilePath('/assets/images/illustrations/others/landingpages_review_2.png'),
+                App::setFilePath('/assets/images/illustrations/others/landingpages_review_3.png')],
                 'desk_reviews' => [
                     [
-                    App::setFilePath('/assets/images/illustrations/others/email_mkt_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/email_mkt_review_3.png')]
+                    App::setFilePath('/assets/images/illustrations/others/landingpages_review_1.png'),
+                App::setFilePath('/assets/images/illustrations/others/landingpages_review_2.png'),
+                App::setFilePath('/assets/images/illustrations/others/landingpages_review_3.png')]
                 ],
             ];
         @endphp
@@ -754,7 +754,7 @@ comercial o post-venta
                             tu negocio con Escala
                         </h2>
 
-                        <a class=" secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                             Conoce Escala
                         </a>
 
