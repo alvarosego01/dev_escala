@@ -454,7 +454,7 @@ a
 .menuButton.menuSecondary_lineButton button
     display: block
     text-decoration: none
-    font-size: 18px
+    font-size: 22px!important
     line-height: 1
     padding: 12.5px 5px!important
     border-radius: 7px
@@ -506,7 +506,6 @@ a
 .menuButton.menuPrimaryButton button
     display: inline-block
     text-decoration: none
-    font-size: 18px
     line-height: 1
     padding: 12.5px 25px!important
     border-radius: 7px
@@ -516,14 +515,19 @@ a
     transition: $transitionButton
     transform: scale(1)
     font-family: Nunito
+
     @include responsivo(telefonoTable)
         font-size: 12.5px!important
         padding: 10px 12.5px!important
     @include responsivo(pcMedio)
         font-size: 18px!important
         padding: 10px 25px!important
+    @include responsivo(general)
+        font-size: 22px!important
     @include responsivo(smallPcTablet)
-        font-size: 14px
+        font-size: 18px!important
+    @include responsivo(resto)
+        font-size: 22px!important
 
     &.rounded
         border-radius: 50px!important
@@ -534,7 +538,7 @@ a
 .menuButton.menuoutlineWhiteButton button
     display: inline-block
     text-decoration: none
-    font-size: 18px
+
     line-height: 1
     padding: 12.5px 25px!important
     border-radius: 7px
@@ -551,8 +555,12 @@ a
     @include responsivo(pcMedio)
         font-size: 18px!important
         padding: 10px 25px!important
+    @include responsivo(general)
+        font-size: 22px!important
     @include responsivo(smallPcTablet)
-        font-size: 14px
+        font-size: 18px!important
+    @include responsivo(resto)
+        font-size: 22px!important
 
     &.rounded
         border-radius: 50px!important
@@ -564,7 +572,6 @@ a
 .menuButton.menuOrangeButton button
     display: inline-block
     text-decoration: none
-    font-size: 18px
     line-height: 1
     padding: 12.5px 25px!important
     border-radius: 7px
@@ -580,8 +587,12 @@ a
     @include responsivo(pcMedio)
         font-size: 18px!important
         padding: 10px 25px!important
+    @include responsivo(general)
+        font-size: 22px!important
     @include responsivo(smallPcTablet)
-        font-size: 14px
+        font-size: 18px!important
+    @include responsivo(resto)
+        font-size: 22px!important
 
     &.rounded
         border-radius: 50px!important
@@ -592,7 +603,6 @@ a
 .menuButton.menugreenWhatsappButton button
     display: inline-block
     text-decoration: none
-    font-size: 18px
     line-height: 1
     padding: 12.5px 25px!important
     border-radius: 7px
@@ -608,8 +618,12 @@ a
     @include responsivo(pcMedio)
         font-size: 18px!important
         padding: 10px 25px!important
+    @include responsivo(general)
+        font-size: 22px!important
     @include responsivo(smallPcTablet)
-        font-size: 14px
+        font-size: 18px!important
+    @include responsivo(resto)
+        font-size: 22px!important
 
     &.rounded
         border-radius: 50px!important
@@ -637,7 +651,6 @@ a
 .menuButton.menuprimaryWhiteButton button
     display: inline-block
     text-decoration: none
-    font-size: 18px
     line-height: 1
     padding: 12.5px 25px!important
     border-radius: 7px
@@ -654,8 +667,12 @@ a
     @include responsivo(pcMedio)
         font-size: 18px!important
         padding: 10px 25px!important
+    @include responsivo(general)
+        font-size: 22px!important
     @include responsivo(smallPcTablet)
-        font-size: 14px
+        font-size: 18px!important
+    @include responsivo(resto)
+        font-size: 22px!important
 
     &.rounded
         border-radius: 50px!important
@@ -681,7 +698,6 @@ a
 .greyButton
     display: inline-block
     text-decoration: none
-    font-size: 18px
     line-height: 1
     padding: 12.5px 25px
     border-radius: 5px
@@ -699,8 +715,12 @@ a
     @include responsivo(pcMedio)
         font-size: 18px!important
         padding: 10px 25px!important
+    @include responsivo(general)
+        font-size: 22px!important
     @include responsivo(smallPcTablet)
-        font-size: 14px
+        font-size: 18px!important
+    @include responsivo(resto)
+        font-size: 22px!important
 
     &.rounded
         border-radius: 50px!important
@@ -712,7 +732,6 @@ a
     display: inline-block
     line-height: 1
     text-decoration: none
-    font-size: 18px
     line-height: 1
     background-color: $colorBlueLight
     color: grey
@@ -728,14 +747,18 @@ a
     @include responsivo(pcMedio)
         font-size: 18px!important
         padding: 10px 25px!important
+    @include responsivo(general)
+        font-size: 22px!important
     @include responsivo(smallPcTablet)
-        font-size: 14px
+        font-size: 18px!important
+    @include responsivo(resto)
+        font-size: 22px!important
 
 .thinButton2
     display: inline-block
     line-height: 1
     text-decoration: none
-    font-size: 18px
+
     line-height: 1
     background-color: $colorBlueLight8
     color: white
@@ -751,13 +774,16 @@ a
     @include responsivo(pcMedio)
         font-size: 18px!important
         padding: 10px 25px!important
+    @include responsivo(general)
+        font-size: 22px!important
     @include responsivo(smallPcTablet)
-        font-size: 14px
+        font-size: 18px!important
+    @include responsivo(resto)
+        font-size: 22px!important
 
 .secondaryButton,
 .menuButton.menuSecondaryButton a,
 .menuButton.menuSecondaryButton button
-    font-size: 18px
     line-height: 1
     padding: 12.5px 25px!important
     font-family: Nunito
@@ -779,8 +805,12 @@ a
     @include responsivo(pcMedio)
         font-size: 18px!important
         padding: 10px 25px!important
+    @include responsivo(general)
+        font-size: 22px!important
     @include responsivo(smallPcTablet)
-        font-size: 14px
+        font-size: 18px!important
+    @include responsivo(resto)
+        font-size: 22px!important
 
     &.rounded
         border-radius: 50px!important
@@ -910,20 +940,31 @@ a
 
 
 .wpcf7-form-control.wpcf7-submit
-    background-color: $colorOrange
-    font-family: Nunito
-    font-size: 16px
-    font-weight: 700
-    border-radius: 5px!important
+    display: inline-block
+    text-decoration: none
+    line-height: 1
+    padding: 12.5px 25px!important
+    border-radius: 7px!important
     color: $colorWhite
-    padding: 0px 20px 0px 20px
+    background-color: $colorOrange!important
+    width: fit-content
+    transition: $transitionButton
+    transform: scale(1)
+    font-family: Nunito
     text-transform: none
-    margin-top: 1.5%
-    letter-spacing: 0
-    min-height: 32.5px
-    text-transform: initial
-    &:hover
-        background-color: $colorOrange
+    letter-spacing: normal
+    @include responsivo(telefonoTable)
+        font-size: 12.5px!important
+        padding: 10px 12.5px!important
+    @include responsivo(pcMedio)
+        font-size: 18px!important
+        padding: 10px 25px!important
+    @include responsivo(general)
+        font-size: 22px!important
+    @include responsivo(smallPcTablet)
+        font-size: 18px!important
+    @include responsivo(resto)
+        font-size: 22px!important
 
 
 
