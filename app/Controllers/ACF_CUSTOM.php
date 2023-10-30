@@ -821,6 +821,8 @@ class ACF_CUSTOM extends Controller
                         'principal-global-extended-trasp' => 'Principal menu -ex-transp',
                         'principal-global-extended-trasp-white' => 'Principal menu -ex-transp white',
                         'principal-global-landing-trasp-white' => 'Landing menu transp white',
+                        'principal-global-landing-trasp-light' => 'Landing menu transp light',
+                        'principal-global-landing-trasp-default' => 'Landing menu transp default',
                         'principal-global1' => 'Principal white menu 1 - Complete menu',
                         'blog-global1' => 'Blog white menu 1 - Categories, login, call to action',
                         'landing-global1' => 'Landing white menu 1 - Logo, 1 button',

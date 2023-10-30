@@ -372,8 +372,8 @@
                 'classSection' => 'landing_CRM_2023_11',
                 'enableTitle' => true,
                 'titlePrincipal' => '
-                    Qué dicen nuestros clientes sobre las landing <br class="desktopTabletElement">
-                    pages que construyen en Escala
+                    Qué dicen nuestros clientes <br class="desktopTabletElement">
+                    sobre el CRM de Escala
                 ',
                 'subTitlePrincipal' => null,
                 'enableContainerButton' => false,
@@ -423,7 +423,8 @@
                                 Nuestro equipo de servicio y <br class="desktopTabletElement">
                                 entrenadores Escala te orientan desde <br class="desktopTabletElement">
                                 el día 1 para que consigas mejores <br class="desktopTabletElement">
-                                resultados con email marketing.
+                                resultados con tus páginas.
+
                                 <br class="space"><br class="space">
                                 <span>
                                     ¡Ninguna otra plataforma te <br class="space">
@@ -440,6 +441,18 @@
                     </div>
 
                 </section>
+
+                      <section class="innerSectionElement sct3">
+
+                    <div class="containElements">
+
+                           <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                            Conocer más
+                        </a>
+
+                    </div>
+
+                      </section>
 
             </div>
 

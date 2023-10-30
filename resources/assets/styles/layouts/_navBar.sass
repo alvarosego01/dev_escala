@@ -878,7 +878,9 @@ header.customHeader.customSection.principal-global-extended-trasp-white.transpar
 
 
 
-header.customHeader.customSection.principal-global-landing-trasp-white.transparent.white
+header.customHeader.customSection.principal-global-landing-trasp-white.transparent,
+header.customHeader.customSection.principal-global-landing-trasp-default.transparent,
+header.customHeader.customSection.principal-global-landing-trasp-light.transparent
     box-shadow: none
     position: absolute
     top: 0
@@ -890,9 +892,9 @@ header.customHeader.customSection.principal-global-landing-trasp-white.transpare
             .sct2
                 position: relative
                 @include responsivo(general)
-                    justify-content: flex-start
+                    justify-content: space-between
                 @include responsivo(resto)
-                    justify-content: flex-start
+                    justify-content: space-between
                 .logo
                     @include responsivo(general)
                         margin-right: 25px

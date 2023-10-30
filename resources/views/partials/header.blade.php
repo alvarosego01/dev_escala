@@ -91,6 +91,34 @@
     @endnavBar_default_landing
 
 @endif
+@if ($navBar == 'principal-global-landing-trasp-default')
+
+    @php
+        $p = array(
+            'transparent' => true,
+            'classSection' => $navBar . ' transparent default',
+            'type' => 'default'
+        )
+    @endphp
+
+    @navBar_default_landing($p)
+    @endnavBar_default_landing
+
+@endif
+@if ($navBar == 'principal-global-landing-trasp-light')
+
+    @php
+        $p = array(
+            'transparent' => true,
+            'classSection' => $navBar . ' transparent light',
+            'type' => 'light'
+        )
+    @endphp
+
+    @navBar_default_landing($p)
+    @endnavBar_default_landing
+
+@endif
 
 @if ($navBar == 'blog-global1')
 
@@ -104,10 +132,11 @@
 
 @if ($navBar == 'landing-global1')
 
-    @landing_global1()
-        @slot('classSection')
-            {{ $navBar }}
-        @endslot
+    @landing_global1(
+        [
+            'classSection' => $navBar
+        ]
+    )
     @endlanding_global1
 
 @endif
@@ -121,3 +150,28 @@
     @endlanding_global2
 
 @endif
+
+{{-- @if ($navBar == 'landing-global_transp_light')
+
+    @landing_global1(
+        [
+            'classSection' => $navBar . ' transparent light',
+            'type' => 'light',
+
+        ]
+    )
+    @endlanding_global1
+
+@endif
+
+@if ($navBar == 'landing-global_transp_default')
+
+    @landing_global1(
+        [
+            'classSection' => $navBar . ' transparent default',
+            'type' => 'default',
+        ]
+    )
+    @endlanding_global1
+
+@endif --}}

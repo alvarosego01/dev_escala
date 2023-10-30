@@ -48,7 +48,7 @@
                 'urlButton' => '#lead-form',
                 'textButton' => 'Recibe un demo',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'left',
+                'side' => 'right',
             ];
         @endphp
         @contain_text_image_T1($parameters)
@@ -76,7 +76,7 @@
                 'urlButton' => '#lead-form',
                 'textButton' => 'Recibe un demo',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'right',
+                'side' => 'left',
             ];
         @endphp
         @contain_text_image_T1($parameters)
@@ -119,7 +119,7 @@
                 'urlButton' => '#lead-form',
                 'textButton' => 'Recibe un demo',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'left',
+                'side' => 'right',
             ];
         @endphp
         @contain_text_image_T1($parameters)
@@ -160,7 +160,7 @@
                 'urlButton' => '#lead-form',
                 'textButton' => 'Recibe un demo',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'right',
+                'side' => 'left',
             ];
         @endphp
         @contain_text_image_T1($parameters)
@@ -188,7 +188,7 @@
                 'urlButton' => '#lead-form',
                 'textButton' => 'Recibe un demo',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'left',
+                'side' => 'right',
             ];
         @endphp
         @contain_text_image_T1($parameters)
@@ -215,7 +215,7 @@
                 'urlButton' => '#lead-form',
                 'textButton' => 'Recibe un demo',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'right',
+                'side' => 'left',
             ];
         @endphp
         @contain_text_image_T1($parameters)

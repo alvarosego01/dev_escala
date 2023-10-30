@@ -616,7 +616,7 @@ comercial o post-venta
                                 Nuestro equipo de servicio y <br class="desktopTabletElement">
                                 entrenadores Escala te orientan desde <br class="desktopTabletElement">
                                 el día 1 para que consigas mejores <br class="desktopTabletElement">
-                                resultados con email marketing.
+                                resultados con tus páginas.
                                 <br class="space"><br class="space">
                                 <span>
                                     ¡Ninguna otra plataforma te <br class="space">

@@ -440,6 +440,7 @@
                             display: block
                             margin: auto
                             border-radius: 20px
+                            clip-path: inset(0 2px 0 2px)
                             @include responsivo(telefonoTable)
                                 height: 200px
                                 margin-bottom: 0
@@ -891,18 +892,19 @@
     background-repeat: no-repeat
 
     @include responsivo(telefonoTable)
-        margin-bottom: 50px
+        margin-bottom: 100px
         margin-top: 100px
         padding-top: 50px
         background-position: 70% -125px
     @include responsivo(pcMedio)
-        margin-bottom: 50px
+        margin-bottom: 100px
         margin-top: 125px
         background-position: 70% center
     @include responsivo(general)
         margin-top: 275px
     @include responsivo(smallPcTablet)
         margin-top: 200px
+        margin-bottom: 150px
         background-position: 75% center
     @include responsivo(resto)
         margin-top: 300px
@@ -1010,17 +1012,17 @@
                 .image
                     position: relative
                     @include responsivo(telefonoTable)
-                        top: 2px
+                        top: 32.5px
                     @include responsivo(pcMedio)
-                        top: -20px
+                        top: 0
                     @include responsivo(general)
-                        top: -84px
+                        top: -62.5px
                         right: 75px
                     @include responsivo(smallPcTablet)
-                        top: 0
+                        top: 37.5px
                         right: -15px
                     @include responsivo(resto)
-                        top: -95px
+                        top: -75px
                         right: 75px
                     .containerImage
                         padding-bottom: 0

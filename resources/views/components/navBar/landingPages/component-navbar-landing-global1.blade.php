@@ -17,14 +17,27 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
 
         <div class="section-row">
 
-
-
             <div class="container-fluid sct2">
 
                 <div class="logo">
                     <span class="navbar-brand" >
                         <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-                        <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
+                        {{-- <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img"> --}}
+
+                        @if (isset($type) && $type === 'default')
+                            <a class="navbar-brand normal">
+                            <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
+                            </a>
+                        @elseif (isset($type) && $type === 'light')
+                            <a class="navbar-brand normal">
+                            <img src="{!! App::setFilePath('/assets/images/logos/logoEscalaWhite.svg') !!}" alt="Logo" class="logo-img">
+                            </a>
+                        @else
+                          <a class="navbar-brand normal">
+                            <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
+                            </a>
+                        @endif
+
                     </span>
                 </div>
 
@@ -47,7 +60,7 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
 
                         {{-- <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button">
 
-                            <i class="fas fa-bars    "></i>
+                            <i class="fas fa-bars "></i>
 
                         </button>
      --}}

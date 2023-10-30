@@ -63,12 +63,12 @@
         @include responsivo(pcMedio)
             background-position: 40%
         @include responsivo(general)
-            padding-top: 250px
+            padding-top: 200px
             padding-bottom: 200px
             background-position: 40% center
 
         @include responsivo(resto)
-            padding-top: 250px
+            padding-top: 200px
             padding-bottom: 325px
             background-size: cover
             background-position: 40% center
@@ -107,6 +107,10 @@
                         margin-bottom: 0
                     @include responsivo(pcMedio)
                         margin-bottom: 0
+                    @include responsivo(general)
+                        top: -20px
+                    @include responsivo(resto)
+                        top: -20px
 
 
                     .containElements
@@ -437,6 +441,7 @@
                             display: block
                             margin: auto
                             border-radius: 20px
+                            clip-path: inset(0 2px 0 2px)
                             @include responsivo(telefonoTable)
                                 height: 200px
                                 margin-bottom: 0
