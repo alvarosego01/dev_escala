@@ -1273,17 +1273,8 @@
             @contain_FAQ_T1($parameters)
             @endcontain_FAQ_T1
 
-
-
-
-
         </div>
 
-
-
-
     </div>
-
-
 
 @endsection

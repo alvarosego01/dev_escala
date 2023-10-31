@@ -126,8 +126,9 @@ if (!$threeCol) {
 
                                     <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 
-
-                                @if ( isset( $setForm ) && $setForm != null && $setForm != '' )
+         @form_general()
+@endform_general
+                              {{--   @if ( isset( $setForm ) && $setForm != null && $setForm != '' )
                                     @php
                                         $f = $setForm;
                                     @endphp
@@ -157,7 +158,7 @@ if (!$threeCol) {
                                     @endphp
                                 {!! do_shortcode($_formShortcode); !!}
                                 @endif
-
+ --}}
 
                                 </div>
 
@@ -266,8 +267,9 @@ if (!$threeCol) {
 
                                 <h5 class="titleFormat blackcolor">{!! $textForm !!}</h5>
 
-
-                                @if ( isset( $setForm ) && $setForm != null && $setForm != '' )
+     @form_general()
+@endform_general
+                              {{--   @if ( isset( $setForm ) && $setForm != null && $setForm != '' )
 
                                     @php
                                         $f = $setForm;
@@ -297,7 +299,7 @@ if (!$threeCol) {
                                         }
                                     @endphp
                                 {!! do_shortcode($_formShortcode); !!}
-                                @endif
+                                @endif --}}
 
 
                             </div>

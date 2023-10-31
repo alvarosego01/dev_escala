@@ -30,6 +30,7 @@ class SetComponents extends Controller
     {
         return [
             'components.bannerForms7.component-banner-forms7-T1' => 'bannerForms7_T1',
+            'components.bannerForms7.component-forms-container-general' => 'form_general',
         ];
     }
 

@@ -39,6 +39,16 @@ function parametersToRedirect(redirect, params) {
 
 jQuery(document).ready(function () {
 
+      document.addEventListener('nextStep_form', function(e) {
+        console.log('se emite este avance');
+  });
+
+
+document.addEventListener('wpcf7submit', async (e) => {
+
+    console.log('se hace submit');
+
+});
 document.addEventListener('wpcf7mailsent', async (e) => {
 
       console.log('sent c7f')
@@ -77,13 +87,18 @@ document.addEventListener('wpcf7mailsent', async (e) => {
 
     }
 
-
     if ( document.querySelector("#redirectParam") != null && re == null) {
 
         // re = jQuery('#redirectParam').val();
         let _z = document.querySelector("#redirectParam")
         re = _z.value;
 
+    }
+
+    if(re === 'next_step') {
+
+        jQuery(document).trigger('nextStep_form', true)
+        return;
     }
 
     // return;
@@ -111,6 +126,8 @@ document.addEventListener('wpcf7mailfailed', async (e) =>  {
         "formId": event.detail.contactFormId,
         "response": event.detail.inputs
     });
+
+
 
     let specialRedirect = inputs.filter( (r) => {
         if (r.name == 'special-redirect') {
@@ -144,6 +161,11 @@ document.addEventListener('wpcf7mailfailed', async (e) =>  {
 
     }
 
+    if(re === 'next_step') {
+
+        jQuery(document).trigger('nextStep_form', true)
+        return;
+    }
     // return;
 
     if (re && re != null && re != '') {
