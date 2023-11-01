@@ -338,6 +338,7 @@
                     <div class="containElements">
 
                         <div class="row">
+
                             <div class="col-md-12 col-lg-4 cardParent column-1">
 
                                 <div style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/background_imp_section.png') !!}')" class="card">
@@ -378,7 +379,7 @@
 
                             </div>
 
-                            <div class="col-md-12 col-lg-4 cardParent column-2">
+                            {{-- <div class="col-md-12 col-lg-4 cardParent column-2">
 
                                 <img src="{!! App::setFilePath('/assets/images/icons/icon_plus_blue.svg') !!}" alt="" class="iconPlus left">
 
@@ -419,12 +420,13 @@
 
                                 <img src="{!! App::setFilePath('/assets/images/icons/icon_plus_blue.svg') !!}" alt="" class="iconPlus right">
 
-                            </div>
+                            </div> --}}
 
-                            <div class="col-md-12 col-lg-4 cardParent column-3">
+                            <div class="col-md-12 col-lg-4 cardParent column-2">
+                                     <img src="{!! App::setFilePath('/assets/images/icons/icon_plus_blue.svg') !!}" alt="" class="iconPlus left">
                                 <div style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/background_imp_section.png') !!}')" class="card">
                                     <div class="card-body">
-                                        <h5 class="card-number">3</h5>
+                                        <h5 class="card-number">2</h5>
                                         <h5 class="card-title">
                                             ChatSoporte
                                         </h5>
@@ -442,8 +444,9 @@
                                                     Sin límites
                                                 </h5>
                                                 <p class="card-secondaryText">
-                                                    Recibe 8 horas <br class="desktopTabletElement">
-                                                    en sesiones privadas
+                                                    En horario laboral <br class="desktopTabletElement">
+                                                    de lunes a viernes <br class="desktopTabletElement">
+                                                    y mitad del sabado
                                                 </p>
                                             </div>
                                             <div class="block-text">
@@ -458,6 +461,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </section>

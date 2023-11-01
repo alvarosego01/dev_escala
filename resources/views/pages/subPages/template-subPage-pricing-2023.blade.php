@@ -26,20 +26,7 @@
                      )
 
                  ],
-                 [
-                    "name" => 'Especialista implementación',
-                    "subItems" => array(
-                        [
-                            "name" => "Todo el año",
-                            "value" => [
-                            "disabledIcon",
-                            "4 horas el primer año",
-                            "Personalizado"
-                            ]
-                        ],
-                     )
 
-                 ],
                  [
                     "name" => 'Configuración plataforma',
                     "subItems" => array(
