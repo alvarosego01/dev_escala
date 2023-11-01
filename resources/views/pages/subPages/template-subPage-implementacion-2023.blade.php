@@ -547,20 +547,15 @@
                                                 <li>
                                                     <div class="list-item">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Conectamos:</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Embudos</p>
+                                                        <p>Pipeline oportunidades</p>
                                                     </div>
                                                 </li>
                                             </ul>
                                         </div>
+                                        <br class="space">
                                         <div class="list-block">
                                             <h5 class="card-subtitle">
-                                                Creamos Plantillas de:
+                                                Conectamos:
                                             </h5>
                                             <ul>
                                                 <li>
@@ -577,6 +572,7 @@
                                                 </li>
                                             </ul>
                                         </div>
+                                        <br class="space">
                                         <div class="list-block">
                                             <h5 class="card-subtitle">
                                                 Importamos:
