@@ -649,6 +649,22 @@ input.ewp-phone-call-code
 .elementor-widget-void-section-cf7 #loading, .form_cf7 #loading, .formatForm #loading, .wpcf7 #loading, span.ewp-phonetype-radio
     display: none
 
+.hideOnmobile
+    @include responsivo(telefonoTable)
+        display: none!important
+
+.hideOnTablet
+    @include responsivo(pcMedio)
+        display: none!important
+
+.hideOnDesktop
+    @include responsivo(general)
+        display: none!important
+
+    @include responsivo(resto)
+        display: none!important
+
+
 .desktopElement
     @include responsivo(telefonoTable)
         display: none!important

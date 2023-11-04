@@ -2,7 +2,7 @@
 
     <div class="sections">
 
-        @header_t1([
+        {{-- @header_t1([
             'backgroundImageType' => true,
             'overlay' => false,
             'classSection' => 'threeCol landing_emailMarketingCampaigns_2023 landing_emailMarketingCampaigns_2023_0',
@@ -21,13 +21,223 @@
                         </span>
                     ',
             'threeCol' => true,
-      'textForm' => 'Recibe un demo-tour <br class="space"> personalizado de Escala',
+            'textForm' => 'Recibe un demo-tour <br class="space"> personalizado de Escala',
             'backgroundImage' => App::setFilePath('/assets/images/banners/bg_emailMark_0.svg'),
             'overlayImage' => null,
             'image' => App::setFilePath('/assets/images/person/am/am_back_circle_yellow.png'),
             'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta'
         ])
-        @endheader_t1
+        @endheader_t1 --}}
+
+                @php
+                                   $elementsReviews = [
+                                       [
+                                           'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
+                                           'text' => 'Escala / plataforma CRM',
+                                           'points' => '4.8 / 5',
+                                       ],
+                                       [
+                                           'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                                           'text' => 'Escala / plataforma CRM',
+                                           'points' => '4.9 / 5',
+                                       ],
+                                       [
+                                           'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                                           'text' => 'Escala / plataforma CRM',
+                                           'points' => '4.8 / 5',
+                                       ],
+                                   ];
+                               @endphp
+
+        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_emailMarketingCampaigns_2023 landing_emailMarketingCampaigns_2023_0 ">
+
+
+        <div
+        style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_emailMark_0.svg')}}')"
+        class="backgroundFull">
+
+
+            <div class="section-row">
+                <section class="innerSectionElement sct1">
+
+                    <div class="groupElements row">
+
+
+                        <div class="info col-md-12 col-lg-8 ">
+
+
+                                <div class="containElements row threeCol">
+
+                                    <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile">
+
+                                        <div class="containerImage">
+                                            <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta" src="{{ App::setFilePath('/assets/images/person/am/am_back_circle_yellow.png')}}" loading="lazy">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="ele ele2 col-md-12 col-lg-7">
+                                        <h1 class="principalBigTitle blackColor">
+
+                        Campañas de Email <br class="space">
+                        marketing <span> más efectivas <br class="space">
+                        y fáciles de crear.
+                        </span>
+
+                                        </h1>
+
+                        <p class="principalBigText grayColorTexts">
+
+                        <span class="whiteColor">
+                            Logra que tu mensaje sea escuchado y que tu <br class="desktopTabletElement">
+                            negocio crezca con nuestra plataforma todo-<br class="desktopTabletElement">
+                            en-uno de email marketing.
+                        </span>
+
+                                            </p>
+
+
+
+
+                               <div class="elements hideOnmobile">
+
+                                   @foreach ($elementsReviews as $item)
+                                       <div class="refersElement">
+
+                                           <div class="infoInner">
+                                               <div class="tag">
+                                                   <div class="containerImage">
+                                                       <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                   </div>
+
+                                                   <span class="points">
+                                                       {!! $item['points'] !!}
+                                                   </span>
+                                               </div>
+                                               <p class="text">
+                                                   {!! $item['text'] !!}
+                                               </p>
+                                               <div class="stars">
+                                                   <div class="containerImage">
+                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                                   </div>
+                                               </div>
+
+                                           </div>
+
+                                       </div>
+                                   @endforeach
+
+                               </div>
+
+
+                                    </div>
+
+                                </div>
+
+
+
+                        </div>
+                        <div class="form7 col-md-12 col-lg-4 ">
+
+                            <div class="containElements">
+
+                                <div class="formatForm redirectWeb" redirectweb="true">
+
+                                    <h5 class="titleFormat blackcolor">Recibe un demo-tour <br class="space"> personalizado de Escala</h5>
+
+                                    @php
+                                               $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                               $_rs = [];
+                                               $_formShortcode = null;
+                                               if ($_data = get_posts($_args)) {
+                                                   foreach ($_data as $_key) {
+                                                       $_rs[$_key->ID] = $_key->post_title;
+                                                       if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                                           $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                                       }
+                                                   }
+                                               } else {
+                                                   $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                               }
+                                           @endphp
+                                           {!! do_shortcode($_formShortcode) !!}
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="imageReviewsMobile hideOnTablet hideOnDesktop">
+
+                            <div class="image">
+                                      <div class="containerImage">
+                                            <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta" src="{{ App::setFilePath('/assets/images/person/am/am_back_circle_yellow.png')}}" loading="lazy">
+                                        </div>
+
+                            </div>
+
+                               <div class="elements">
+
+                                   @foreach ($elementsReviews as $item)
+                                       <div class="refersElement">
+
+                                           <div class="infoInner">
+                                               <div class="tag">
+                                                   <div class="containerImage">
+                                                       <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                   </div>
+
+                                                   <span class="points">
+                                                       {!! $item['points'] !!}
+                                                   </span>
+                                               </div>
+                                               <p class="text">
+                                                   {!! $item['text'] !!}
+                                               </p>
+                                               <div class="stars">
+                                                   <div class="containerImage">
+                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                                   </div>
+                                               </div>
+
+                                           </div>
+
+                                       </div>
+                                   @endforeach
+
+                               </div>
+
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+
+                </section>
+
+
+           {{--         <section class="innerSectionElement sct2">
+
+                           <div class="containElements">
+
+
+
+                           </div>
+
+                       </section> --}}
+
+            </div>
+
+
+
+        </div>
+
+    </section>
 
 
         @php
@@ -231,8 +441,8 @@
                     <div class="containElements">
 
                         <h2 class="title">
-                            <span>Descubre por ti mismo la mejor</span> <br class="desktopTabletElement">
-                            herramienta de email marketing
+                            <span>Descubre por ti mismo la <br class="mobileSmallElement"> mejor</span> <br class="desktopTabletElement">
+                            herramienta de email <br class="mobileSmallElement"> marketing
                         </h2>
 
                         <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -505,7 +715,7 @@
         </section>
 
 
-        @php
+{{--         @php
             $parameters = [
                 'classSection' => 'landing_emailMarketingCampaigns_2023_11',
                 'enableTitle' => true,
@@ -532,6 +742,48 @@
         @endphp
         @reviews_sliders_T1($parameters)
         @endreviews_sliders_T1
+ --}}
+
+         <section
+        class='w-full customSection sectionParent landing_emailMarketingCampaigns_2023_11'>
+
+            <div class="section-row">
+
+                <section class='innerSectionElement sct0 '>
+                    <div class='containElements'>
+                        <h2 class="primaryTitle">
+                    Qué dicen nuestros clientes sobre las campañas <br class="desktopTabletElement">
+                de Email Marketing que crean en Escala
+
+                </h2>
+                    </div>
+
+                </section>
+                <section class='innerSectionElement sct1 '>
+                    <div class='containElements'>
+
+                    @php
+                        $reviews = [
+                            App::setFilePath('/assets/images/illustrations/others/email_mkt_review_1.png'),
+                            App::setFilePath('/assets/images/illustrations/others/email_mkt_review_2.png'),
+                            App::setFilePath('/assets/images/illustrations/others/email_mkt_review_3.png')
+                        ]
+                    @endphp
+
+                    @foreach ($reviews as $item)
+                        <div class="review">
+                            <div class="containerImage">
+                                <img src="{!! $item !!}" loading="lazy">
+                            </div>
+                        </div>
+                    @endforeach
+
+                    </div>
+
+                </section>
+            </div>
+
+         </section>
 
 
         <section
