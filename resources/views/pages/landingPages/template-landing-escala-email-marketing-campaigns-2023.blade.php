@@ -309,6 +309,7 @@
                     Logra que tus contactos reciban tus mensajes en el <br class="desktopTabletElement">
                     momento oportuno ¡sin tener que estar pendiente de <br class="desktopTabletElement">
                     enviarlos! Envía emails <br class="space">
+                    <span class="items">
                     <span>
                     <img class="checkIcon" src="' .
                     App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
@@ -323,6 +324,7 @@
                     <img class="checkIcon" src="' .
                     App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
                     '" alt="">De nutrición para potenciar el proceso comercial <br class="space"> ¡y más!
+                    </span>
                     </span>
                 ',
                 'enableButton' => false,
@@ -350,6 +352,7 @@
                 'text' =>
                     '
                     Una vez envíes tus campañas, podrás: <br class="space">
+                    <span class="items">
                     <span>
                     <img class="checkIcon" src="' .
                     App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
@@ -364,6 +367,7 @@
                     <img class="checkIcon" src="' .
                     App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
                     '" alt="">Descubrir cuáles links tuvieron más clicks <br class="space"> ¡y más!
+                    </span>
                     </span>
                 ',
                 'enableButton' => false,

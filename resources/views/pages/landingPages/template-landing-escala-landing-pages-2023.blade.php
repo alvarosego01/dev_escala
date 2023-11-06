@@ -439,6 +439,7 @@
                 'text' => '
                     Una vez publiques y envíes visitantes a tus páginas, Escala <br class="desktopTabletElement">
                     permite ver métricas como: <br class="space">
+                      <span class="items">
                       <span>
                     <img class="checkIcon" src="' .
                     App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
@@ -457,6 +458,7 @@
                     '" alt="">
                     Costo por lead <br class="space">
                     ¡y más!
+                    </span>
                     </span>
                 ',
                 'enableButton' => false,
@@ -485,6 +487,7 @@
                     Olvídate de integraciones o ineficiencias operativas por <br class="desktopTabletElement">
                     fallas humanas. En Escala todas las herramientas están <br class="desktopTabletElement">
                     nativamente integradas para que: <br class="space">
+                     <span class="items">
                         <span>
                     <img class="checkIcon" src="' .
                     App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
@@ -503,6 +506,7 @@
                     App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
                     '" alt="">
                     Conectes fácilmente tus campañas de Facebook Ads y Google
+                    </span>
                     </span>
                 ',
                 'enableButton' => false,
