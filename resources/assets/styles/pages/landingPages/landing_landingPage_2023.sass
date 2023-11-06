@@ -499,6 +499,7 @@
                         min-height: 525px
                     @include responsivo(general)
                         padding-bottom: 75px
+                        min-height: 525px
                     @include responsivo(smallPcTablet)
                         padding-left: 0
                         padding-right: 0
@@ -506,6 +507,7 @@
                     @include responsivo(resto)
                         // padding-bottom: 0
                         padding-right: 0
+                        min-height: 525px
                         padding-left: 100px
                     .formatForm
                         display: block
@@ -678,6 +680,18 @@
                         margin-bottom: 0
                         @include responsivo(telefonoTable)
                             font-size: 16px
+                            span.items
+                                display: flex
+                                flex-direction: column
+                                justify-content: flex-start
+                                align-content: center
+                                align-items: center
+                                width: fit-content!important
+                                margin: 0 auto
+                                span
+                                    margin-left: 0
+                                    br
+                                        display: none!important
                         @include responsivo(pcMedio)
                             font-size: 18px
                             text-align: left
@@ -689,6 +703,11 @@
                             font-size: 18px
                         @include responsivo(resto)
                             font-size: 22px
+                        span.items
+                            display: flex
+                            flex-direction: column
+                            span
+                                text-align: left
                         span
                             display: flex
                             flex-direction: row
