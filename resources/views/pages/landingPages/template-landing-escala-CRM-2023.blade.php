@@ -261,14 +261,14 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/1El-CRM-guarda-automáticamente.gif'),
                 'title' => '
-                      <strong>
+
                         El CRM <span>guarda automáticamente</span> los <br class="desktopTabletElement">
                         contactos
-                    </strong> que se registran en formularios y <br class="desktopTabletElement">
-                    landing pages de Escala <strong>
+                     que se registran en formularios y <br class="desktopTabletElement">
+                    landing pages de Escala
                         ¡sin necesitar <br class="desktopTabletElement">
                         integraciones!
-                    </strong>
+
                 ',
                 'text' => null,
                 'enableButton' => false,
@@ -290,10 +290,9 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/2automatiza-post-registro.gif'),
                 'title' => '
-                    <strong>
                         <span>Automatiza</span> en el CRM el envío de <br class="desktopTabletElement">
                         comunicaciones post-registro como:
-                    </strong>
+
                 ',
                 'text' => '
                     <span>
@@ -340,10 +339,9 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/3Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes-.gif'),
                 'title' => '
-                    <strong>
                         <span>Gestiona</span> uno o más procesos para convertir <br class="desktopTabletElement">
                         contactos en clientes
-                    </strong>
+
                 ',
                 'text' =>'
                     Con la herramienta del CRM tipo “Kanban” o “Pipeline” <br class="desktopTabletElement">
@@ -368,10 +366,8 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/4Haz-mejor-seguimiento-a-tus-oportunidades-comerciales-.gif'),
                 'title' => '
-                    <strong>
                         Haz <span>mejor seguimiento</span> a tus <br class="desktopTabletElement">
                         oportunidades comerciales.
-                    </strong>
                 ',
                 'text' =>'
                     El CRM simplifica priorizar, recordar tareas/actividades, <br class="desktopTabletElement">
@@ -397,11 +393,9 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/5-metricas-en-tiempo-real_.gif'),
                 'title' => '
-                    <strong>
                         Visualiza <span>métricas en tiempo real</span> <br class="desktopTabletElement">
                         sobre el rendimiento de tu equipo <br class="desktopTabletElement">
                         comercial y tus ventas
-                    </strong>
                 ',
                 'text' => '
                     Nuestros Dashboards amigables brindan información clave <br class="desktopTabletElement">
@@ -426,10 +420,8 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/6Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes.gif'),
                 'title' => '
-                    <strong>
                         <span>Registra fácilmente</span> información relevante <br class="desktopTabletElement">
                         sobre cada contacto y sus empresas
-                    </strong>
                 ',
                 'text' => '
                     Utiliza los campos que ya están en Escala o crea unos <br class="desktopTabletElement">
@@ -455,10 +447,8 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/7Lleva-un-historial-de-todas-las-interaccione.gif'),
                 'title' => '
-                    <strong>
                         <span>Lleva un historial</span> de todas las interacciones <br class="desktopTabletElement">
                         que has tenido con cada contacto en el CRM
-                    </strong>
                 ',
                 'text' => '
                     Emails recibidos/enviados, formularios completadas, <br class="desktopTabletElement">
