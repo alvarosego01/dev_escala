@@ -65,7 +65,7 @@
 
                                 <div class="containElements row threeCol">
 
-                                    <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile">
+                                    <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
 
                                         <div class="containerImage">
                                             <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta" src="{{ App::setFilePath('/assets/images/person/am/am_landing_landingpages.png') }}" loading="lazy">
@@ -88,7 +88,7 @@
                                         </p>
 
 
-                               <div class="elements hideOnmobile">
+                               <div class="elements hideOnmobile hideOnTablet">
 
                                    @foreach ($elementsReviews as $item)
                                        <div class="refersElement">
@@ -154,7 +154,7 @@
                             </div>
                         </div>
 
-                          <div class="imageReviewsMobile hideOnTablet hideOnDesktop">
+                          <div class="imageReviewsMobile hideOnDesktop">
 
                             <div class="image">
                                       <div class="containerImage">
