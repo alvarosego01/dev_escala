@@ -38,10 +38,9 @@
     @include responsivo(general)
         margin-bottom: -225px
     @include responsivo(smallPcTablet)
-        margin-bottom: -200px
+        margin-bottom: -150px
     @include responsivo(resto)
-        margin-bottom: -225px
-
+        margin-bottom: -275px
 
     .elements
         @include responsivo(telefonoTable)
@@ -211,24 +210,30 @@
             padding-bottom: 575px!important
             background-size: cover
         @include responsivo(general)
-            padding-top: 200px
+            padding-top: 150px
             padding-bottom: 200px
             background-position: 39% center
+        @include responsivo(smallPcTablet)
+            padding-bottom: 325px
+            background-position: 45% center
+
 
         @include responsivo(resto)
-            padding-top: 200px
+            padding-top: 125px
             padding-bottom: 325px
             background-size: cover
-            background-position: 39% center
+            background-position: 38% -25px
         @include responsivoSpecial(2000px, 99999px)
-            padding-bottom: 350px
-            background-position: 35% center
+            padding-bottom: 325px
+            background-position: 35% -25px
         @include responsivoSpecial(2750px, 99999px)
-            background-position: 30% center
+            background-position: 30% -25px
+        @include responsivoSpecial(3200px, 99999px)
+            background-position: 26% -25px
         @include responsivoSpecial(3750px, 99999px)
-            background-position: 15% center
+            background-position: 10% -25px
         @include responsivoSpecial(4000px, 99999px)
-            background-position: 7.5% center
+            background-position: 2.5% -25px
 
 
     .section-row
@@ -237,10 +242,6 @@
             padding-top: 50px
         @include responsivo(pcMedio)
             padding-top: 50px
-        @include responsivo(general)
-            top: -100px
-        @include responsivo(resto)
-            top: -75px
 
         .innerSectionElement.sct1
             .groupElements
@@ -262,10 +263,14 @@
                         width: 50%!important
                     @include responsivo(general)
                         top: 0
+                        margin-top: 3%
+                        left: -50px
                     @include responsivo(smallPcTablet)
                         position: unset!important
+                        margin-top: 15%
                     @include responsivo(resto)
                         top: 0
+                        margin-top: 3%
 
 
                     .containElements
@@ -287,10 +292,6 @@
                             flex-direction: row
                             margin: 0 0
                             left: -75px
-                            top: 50px
-                        @include responsivoSpecial(2000px, 999999px )
-                            top: 75px
-
                         @include responsivoSpecial(3000px, 999999px )
                             left: -100px
 
@@ -397,7 +398,7 @@
 
                             @include responsivo(smallPcTablet)
                                 position: absolute
-                                bottom: -150px
+                                bottom: -175px
                                 left: -75px
                             .containerImage
                                 width: 100%
@@ -422,7 +423,7 @@
                                     @include responsivo(general)
                                         height: 350px
                                     @include responsivo(smallPcTablet)
-                                        height: 250px
+                                        height: 300px
                                     @include responsivo(resto)
                                         height: 400px
 
@@ -475,7 +476,7 @@
                                     width: 575px
                                 @include responsivo(smallPcTablet)
                                     left: 300px
-                                    bottom: -275px
+                                    bottom: -350px
                                     right: 0
                                     width: 575px
                                 @include responsivo(resto)
@@ -600,12 +601,12 @@
             width: 725px
         @include responsivo(general)
             width: 100%!important
-            max-width: 1050px!important
+            max-width: 1025px!important
         @include responsivo(smallPcTablet)
             max-width: 1000px!important
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1140px!important
+            max-width: 1040px!important
         section.innerSectionElement.sct1
             @include responsivo(telefonoTable)
                 margin-bottom: 25px
@@ -742,7 +743,7 @@
                             display: block
                             margin: auto
                             border-radius: 20px
-                            clip-path: inset(0 3px 0 2px)
+                            clip-path: inset(0 3px 0 3px)
                             @include responsivo(telefonoTable)
                                 height: 200px
                                 margin-bottom: 0
@@ -777,6 +778,10 @@
                     img
                         @include responsivo(pcMedio)
                             margin-right: 0
+                        @include responsivo(general)
+                            margin-right: 0
+                        @include responsivo(resto)
+                            margin-right: 0
 
         section.innerSectionElement.sct2.left
             .groupElements.row
@@ -796,6 +801,10 @@
                 .image
                     img
                         @include responsivo(pcMedio)
+                            margin-left: 0
+                        @include responsivo(general)
+                            margin-left: 0
+                        @include responsivo(resto)
                             margin-left: 0
 
 #landing_landingPage_2023 .landing_landingPage_2023_9
@@ -938,8 +947,10 @@
                     width: 47.5%
                 @include responsivo(general)
                     width: 30%
+                    margin-bottom: 125px
                 @include responsivo(resto)
                     width: 30%
+                    margin-bottom: 125px
                 .bgOverlay
                     position: absolute
                     left: 0
