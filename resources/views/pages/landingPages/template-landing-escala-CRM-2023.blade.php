@@ -714,32 +714,32 @@
                                         $elements = [
                                             [
                                                 'title' => 'Potente herramienta de email marketing',
-                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailMkt_elements_0.png'),
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_0.png'),
 
                                             ],
                                             [
                                                 'title' => 'Servicio de Acompañamiento VIP',
-                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailMkt_elements_1.png'),
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_1.png'),
 
                                             ],
                                             [
                                                 'title' => 'Encuentras muchas más herramientas de <br class="desktopTabletElement"> marketing y ventas integradas',
-                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailMkt_elements_2.png'),
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_2.png'),
 
                                             ],
                                             [
                                                 'title' => 'Todo 100% en español',
-                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailMkt_elements_3.png'),
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_3.png'),
 
                                             ],
                                             [
                                                 'title' => 'Educación de negocio de primera',
-                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailMkt_elements_4.png'),
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_4.png'),
 
                                             ],
                                             [
                                                 'title' => 'Implementamos parte de la primera <br class="desktopTabletElement"> campaña por ti ',
-                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailMkt_elements_5.png'),
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_5.png'),
 
                                             ]
                                         ];

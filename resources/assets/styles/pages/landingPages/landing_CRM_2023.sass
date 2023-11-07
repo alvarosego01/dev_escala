@@ -178,6 +178,7 @@
         .containerImage
             margin: 0
             padding: 0
+
     .backgroundFull
         background-position: center
         background-repeat: no-repeat
@@ -192,9 +193,9 @@
             background-position: 63% -50px
             padding-bottom: 150px !important
         @include responsivo(general)
-            background-position: 52% center
+            background-position: 56% center
             padding-top: 150px
-            padding-bottom: 50px
+            padding-bottom: 25px
         @include responsivo(smallPcTablet)
             background-position: 60% center
             padding-bottom: 75px
@@ -229,9 +230,12 @@
                         width: 50%!important
                     @include responsivo(general)
                         top: -25px
+                        margin-top: 5%
+                    @include responsivo(smallPcTablet)
+                        margin-top: 10%
                     @include responsivo(resto)
                         top: -25px
-
+                        margin-top: 5%
                     .containElements
                         position: unset
                         padding-bottom: 0
@@ -255,7 +259,7 @@
                                 font-family: Nunito
                                 font-style: normal
                                 font-weight: 700
-                                line-height: 0.9
+                                line-height: 1
                                 letter-spacing: -3px
                                 color: #00506E
                                 margin-bottom: 15px
@@ -347,8 +351,8 @@
                                     right: 0
                                     width: fit-content
                                 @include responsivo(general)
-                                    left: 290px
-                                    bottom: -25px
+                                    left: 275px
+                                    bottom: 0
                                     right: 0
                                     width: 575px
                                 @include responsivo(smallPcTablet)
@@ -570,7 +574,7 @@
             width: 725px
         @include responsivo(general)
             width: 100%!important
-            max-width: 1140px!important
+            max-width: 1175px!important
         @include responsivo(smallPcTablet)
             max-width: 1000px!important
         @include responsivo(resto)
