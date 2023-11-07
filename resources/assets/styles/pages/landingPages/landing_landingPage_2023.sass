@@ -500,15 +500,16 @@
                         min-height: 525px
                     @include responsivo(general)
                         padding-bottom: 75px
-                        min-height: 525px
+                        min-height: 633px
                     @include responsivo(smallPcTablet)
                         padding-left: 0
                         padding-right: 0
                         padding-bottom: 75px
+                        min-height: 600px
                     @include responsivo(resto)
                         // padding-bottom: 0
                         padding-right: 0
-                        min-height: 525px
+                        min-height: 615px
                         padding-left: 100px
                     .formatForm
                         display: block
@@ -601,12 +602,12 @@
             width: 725px
         @include responsivo(general)
             width: 100%!important
-            max-width: 1025px!important
+            max-width: 1050px!important
         @include responsivo(smallPcTablet)
             max-width: 1000px!important
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1040px!important
+            max-width: 1140px!important
         section.innerSectionElement.sct1
             @include responsivo(telefonoTable)
                 margin-bottom: 25px
@@ -768,12 +769,9 @@
                 .info
                     position: relative
                     @include responsivo(general)
-                        padding-left: 20px
-                        padding-right: 35px
                         left: 30px
                     @include responsivo(resto)
-                        padding-left: 20px
-                        padding-right: 35px
+                        left: 50px
                 .image
                     img
                         @include responsivo(pcMedio)
@@ -795,9 +793,12 @@
                     @include responsivo(pcMedio)
                         left: -25px
                     @include responsivo(general)
-                        padding-left: 35px
+                        left: 30px
+                    @include responsivo(smallPcTablet)
+                        left: -10px
                     @include responsivo(resto)
-                        padding-left: 35px
+                        left: 30px
+
                 .image
                     img
                         @include responsivo(pcMedio)
