@@ -890,7 +890,7 @@
 
                         <h2 class="title">
                            Acelera el crecimiento de <br class="space">
-                            tu negocio con Escala
+                            tu negocio
                         </h2>
 
                         <a class=" secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">

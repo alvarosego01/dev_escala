@@ -28,33 +28,29 @@
         @endheader_t1
  --}}
 
-
     @php
-                                   $elementsReviews = [
-                                       [
-                                           'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
-                                           'text' => 'Escala / plataforma CRM',
-                                           'points' => '4.8 / 5',
-                                       ],
-                                       [
-                                           'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
-                                           'text' => 'Escala / plataforma CRM',
-                                           'points' => '4.9 / 5',
-                                       ],
-                                       [
-                                           'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
-                                           'text' => 'Escala / plataforma CRM',
-                                           'points' => '4.8 / 5',
-                                       ],
-                                   ];
-                               @endphp
-
+        $elementsReviews = [
+            [
+                'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
+                'text' => 'Escala / plataforma CRM',
+                'points' => '4.8 / 5',
+            ],
+            [
+                'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                'text' => 'Escala / plataforma CRM',
+                'points' => '4.9 / 5',
+            ],
+            [
+                'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                'text' => 'Escala / plataforma CRM',
+                'points' => '4.8 / 5',
+            ],
+        ];
+    @endphp
 
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_landingPage_2023 landing_landingPage_2023_0 ">
 
-
         <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_landing_0.svg') }}')" class="backgroundFull">
-
 
             <div class="section-row">
                 <section class="innerSectionElement sct1">
@@ -94,6 +90,7 @@
                                        <div class="refersElement">
 
                                            <div class="infoInner">
+
                                                <div class="tag">
                                                    <div class="containerImage">
                                                        <img src="{!! $item['logo'] !!}" loading="lazy">
@@ -786,11 +783,11 @@ comercial o post-venta
 
                         <div class="info">
                             <p class="text">
-                                “En mis compañías creamos decenas de landing <br class="desktopTabletElement">
-                                pages al año. Cansados de las herramientas <br class="desktopTabletElement">
-                                complicadas o costosas, construimos Escala. <br class="desktopTabletElement">
-                                Gracias a ello, <span>aumentamos 10X nuestra eficiencia</span> <br class="desktopTabletElement">
-                                al crear y publicar landing pages con Escala.”
+                                “En mis compañías utilizamos decenas de landing <br class="desktopTabletElement">
+                                pages para crecer. Gracias a Escala <span>
+                                    aumentamos <br class="desktopTabletElement">
+                                    10X nuestra eficiencia
+                                </span> al crear y publicarlas.”
                                 <br class="space">
                                 <br class="space">
                                 <span class="sub">
@@ -981,7 +978,7 @@ comercial o post-venta
 
                         <h2 class="title">
                            Acelera el crecimiento de <br class="space">
-                            tu negocio con Escala
+                            tu negocio
                         </h2>
 
                         <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
