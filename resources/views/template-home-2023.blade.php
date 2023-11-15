@@ -536,7 +536,12 @@
                                 Los clientes de Escala triplican su productividad <br class="desktopTabletElement">
                                 sin agregar costos operativos a su empresa
                             </p>
+                            {{--
                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                Conversa con un asesor Escala
+                            </a>
+                             --}}
+                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
                                 Conversa con un asesor Escala
                             </a>
 

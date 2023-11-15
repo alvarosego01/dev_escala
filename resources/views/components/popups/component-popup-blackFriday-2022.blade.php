@@ -52,8 +52,7 @@ popup_direction
                                         @else
                                             <h2 class="primaryTitle">
                                                 <span style="color:#006582;">
-                                                    Obtén nuestro <br class="space">
-                                                    súper descuento
+                                                  ¡Empieza ahora!
                                                 </span>
                                             </h2>
 
@@ -132,7 +131,7 @@ popup_direction
 
                                 <div
                                 style="background-image: url('{{ $i }}')"
-                                class="col-md-12 col-lg-6 image image">
+                                class="col-md-12 col-lg-6 image">
 
                                 @endif
 
@@ -146,72 +145,29 @@ popup_direction
 
                                     <div class="sect1">
 
-
-                                        <div class="containerImage logo">
-
-                                            <img src="{!! App::setFilePath('/assets/images/logos/logotipo-escala-blanco.png') !!}" alt="Logo" class="logo-img">
-
-                                        </div>
-
-                                        @if (isset($popup_imageTitle) && $popup_imageTitle != null )
-                                            @if ( $popup_imageTitle != '-' )
-                                                <h3 class="thirdTitle">
-                                                    {!! $popup_imageTitle !!}
-                                                </h3>
-                                            @endif
-                                        @else
-                                            <h3  class="thirdTitle">
+                                          <h3  class="thirdTitle">
                                                 <div class="title">
-                                                    <span style="color: #FAD872;"> Black friday </span> <span style="color: #A4E7EA;">& <br class="space"> Cyber Monday</span>
+                                                    #Escala<span style="color: #FAD872;">Black</span>
                                                 </div>
-                                                <span class="discountTag">
-                                                    40% Off*
-                                                </span>
+
                                             </h3>
-
-
-
-                                        @endif
 
                                     </div>
                                     <div class="sect2">
 
-                                        <div class="containerImage imageHero">
-
-                                            @if (isset($popup_image) && $popup_image != null)
-
-                                            @php
-                                                $i = $popup_image;
-                                                $i = $i['url'];
-                                             @endphp
-
-                                                <img src="{{ $i }}" >
-
-                                            @else
-
-                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/black_friday_promo.png') !!}" alt="Ilustración de promoción oferta black friday viernes negro">
-
-                                            @endif
-
-                                        </div>
+                                       <span class="discountTag">
+                                            Por tiempo limitado
+                                        </span>
 
                                     </div>
 
                                     <div class="sect3">
 
+                                        <p class="text">
+                                            ¡Suscríbete y gana <br class="space">
+                                            2 meses GRATIS!
+                                        </p>
 
-                                        @if (isset($popup_after_imageText) && $popup_after_imageText != null )
-                                            @if ( $popup_after_imageText != '-' )
-                                                    {!! $popup_after_imageText !!}
-                                            @endif
-                                        @else
-                                            <span class="tag">
-                                                Cupos limitados
-                                            </span>
-                                            <p>
-                                                <a href="http://escala.com/blackfriday">Terminos & condiciones</a> - válido hasta el 30 Nov*
-                                            </p>
-                                        @endif
 
                                     </div>
 
