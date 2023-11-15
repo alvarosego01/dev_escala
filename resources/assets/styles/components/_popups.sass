@@ -1531,6 +1531,10 @@
                                 box-shadow: unset
                                 border-radius: 0
                                 padding: 0
+                                @include responsivo(general)
+                                    min-height: 340px
+                                @include responsivo(resto)
+                                    min-height: 340px
                                 .titleFormat
                                     font-size: 17px
                                     padding-top: 0
@@ -1662,7 +1666,7 @@
 
 
                         .sect2
-                            margin-bottom: 25px
+                            margin-bottom: 15px
                             display: flex
                             span.discountTag
                                 color: #F34F36
