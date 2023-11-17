@@ -35,7 +35,7 @@
     background-size: cover
     background-repeat: no-repeat
     @include responsivo(telefonoTable)
-        top: 75px
+        top: 60px
     @include responsivo(pcMedio)
         top: 85px
     @include responsivo(general)
@@ -53,6 +53,9 @@
                 justify-content: center
                 align-content: center
                 position: relative
+                @include responsivo(telefonoTable)
+                    flex-direction: column
+
 
                 .hashTitle
                     color: #FFF
@@ -87,19 +90,16 @@
                     line-height: 1
                     letter-spacing: -1.04px
                     margin-bottom: 0
-                    display: flex
-                    justify-content: center
-                    align-content: center
-                    align-items: center
-                    margin-left: 50px
-                    margin-right: 50px
+                    display: block
+                    margin: auto 50px
                     span
                         padding-left: 5px
                     @include responsivo(telefonoTable)
                         font-size: 14px
-                        margin-left: 0
+                        margin-left: 10px
                         margin-right: 10px
-
+                        margin-bottom: 10px
+                        text-align: center
                     @include responsivo(pcMedio)
                         font-size: 16px
                         margin-left: 25px
@@ -114,6 +114,7 @@
                         margin-right: 25px
                 a.primaryButton
                     @include responsivo(telefonoTable)
+                        margin: 0 auto
                         font-size: 12px!important
                         padding-left: 7.5px!important
                         padding-right: 7.5px!important
