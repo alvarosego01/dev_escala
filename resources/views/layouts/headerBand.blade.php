@@ -34,6 +34,11 @@
             @headerband_blackFriday_promo_t2($parameters)
             @endheaderband_blackFriday_promo_t2
 
+            <script>
+                jQuery('section.headerband_blackFriday_promo_t2').appendTo('header');
+                jQuery('header').addClass('withHeaderBand');
+            </script>
+
         @endif
 
         @if ($l2 != null && $l2 == 'headerband_special_1m_promo_t1')

@@ -792,6 +792,12 @@ class ACF_CUSTOM extends Controller
                     'type' => 'text',
                 ],
                 [
+                    'key' => 'custom_css_section',
+                    'label' => 'Custom CSS Section',
+                    'name' => 'Custom CSS Section',
+                    'type' => 'textarea',
+                ],
+                [
                     'key' => 'form7',
                     'label' => 'Contact form 7 shortcode',
                     'name' => 'Contact form 7 shortcode',
