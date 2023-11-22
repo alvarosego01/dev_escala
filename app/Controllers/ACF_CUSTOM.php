@@ -456,7 +456,7 @@ class ACF_CUSTOM extends Controller
                     'type' => 'select',
                     'choices' => [
                         'headerband_promo_t1' => 'Adquiere un Plan PRO y llévate hasta 2 meses TOTALMENTE GRATIS. Haz clic aquí y habla con un asesor',
-                        'headerband_blackFriday_promo_t2' => 'Black Friday & Cyber Monday - 40% OFF + beneficios especiales - CUPOS LIMITADOS',
+                        'headerband_blackFriday_promo_t2' => 'Black Friday',
                         'headerband_special_1m_promo_t1' => '¡POR POCOS DÍAS! Gana un mes gratis para escalar tu negocio este 2023',
                         'headerband_special_14f_promo_t1' => 'San Valentín te flecha con  30% de descuento*',
                         'headerBand_whatsapp_T1' => '¡Escala ahora potencia WhatsApp! - conoce las nuevas herramientas',

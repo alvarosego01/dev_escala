@@ -856,3 +856,37 @@ header.customHeader.customSection.component-header-landing nav.navbar .section-r
 //     &.aligncenter
 //         &.size-full
 //             margin: 30px 0 30px 0
+
+
+
+.wrap.container.global.typeBootstrap.specialBanner
+    .content
+        .sections
+            .customSection
+                &:nth-child(1)
+                    .backgroundFull
+                        background-position: center top
+                        background-repeat: no-repeat
+                        background-size: cover
+                        padding-top: 150px
+                        overflow: visible
+                        @include responsivo(telefonoTable)
+                            background-position: 55% center!important
+                            padding-bottom: 25px!important
+                            padding-top: 150px!important
+                        @include responsivo(pcMedio)
+                            background-position: 45.5% center!important
+                            padding-top: 150px!important
+                        @include responsivo(general)
+                            padding-top: 335px!important
+                            padding-bottom: 150px!important
+                            background-position: 42.5% center!important
+                        @include responsivo(resto)
+                            padding-top: 350px!important
+                            padding-bottom: 200px!important
+                            background-position: 41.5% center!important
+                        @include responsivoSpecial(2000px, 2500px)
+                            background-position: 40% center!important
+                        @include responsivoSpecial(2501px, 999999px)
+                            background-position: 38.5% center!important
+

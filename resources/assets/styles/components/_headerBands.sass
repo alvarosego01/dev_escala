@@ -26,20 +26,24 @@
 
 
 
-.headerband_blackFriday_promo_t2.customSection.sectionParent
-    background-color: transparent
-    position: absolute
-    top: 135px
-    z-index: 10
-    background-position: center
-    background-size: cover
-    background-repeat: no-repeat
-    @include responsivo(telefonoTable)
-        top: 60px
-    @include responsivo(pcMedio)
-        top: 85px
-    @include responsivo(general)
+.wrap.container.global.typeBootstrap.specialBanner
+    .headerband_blackFriday_promo_t2.customSection.sectionParent
+        background-color: transparent
+        position: absolute
         top: 125px
+        z-index: 10
+        background-position: center
+        background-size: cover
+        background-repeat: no-repeat
+        @include responsivo(telefonoTable)
+            top: 60px
+        @include responsivo(pcMedio)
+            top: 85px
+        @include responsivo(general)
+            top: 125px
+
+.headerband_blackFriday_promo_t2.customSection.sectionParent
+
     .section-row
         padding: 20px 0
         @include responsivo(telefonoTable)
