@@ -85,31 +85,6 @@ img
             width: 100%!important
             max-width: 1240px!important
 
-    // .backgroundFull
-    //     background-position: center top
-    //     background-repeat: no-repeat
-    //     background-size: cover
-    //     padding-top: 150px
-    //     overflow: visible
-    //     @include responsivo(telefonoTable)
-    //         background-position: 55% center
-    //         padding-bottom: 25px!important
-    //         padding-top: 150px!important
-    //     @include responsivo(pcMedio)
-    //         background-position: 45.5% center
-    //         padding-top: 150px!important
-    //     @include responsivo(general)
-    //         padding-top: 335px
-    //         padding-bottom: 150px
-    //         background-position: 42.5% center
-    //     @include responsivo(resto)
-    //         padding-top: 350px
-    //         padding-bottom: 200px
-    //         background-position: 41.5% center
-    //     @include responsivoSpecial(2000px, 2500px)
-    //         background-position: 40% center
-    //     @include responsivoSpecial(2501px, 999999px)
-    //         background-position: 38.5% center
     .backgroundFull
         background-position: center top
         background-repeat: no-repeat
@@ -122,7 +97,7 @@ img
         @include responsivo(pcMedio)
             background-position: 45.5% center
         @include responsivo(general)
-            padding-top: 275px
+            padding-top: 250px
             padding-bottom: 150px
             background-position: 42.5% center
         @include responsivo(resto)
@@ -379,26 +354,36 @@ img
                 .principalBigTitle
                     width: 100%
                     text-align: center
-                    color: #322C2E
+                    color: #2C4857
                     font-family: Nunito
                     font-size: 50px
                     font-style: normal
-                    font-weight: 500
+                    font-weight: 700
                     line-height: 1
                     letter-spacing: -2px
                     span
-                        font-weight: 700
+                        font-weight: 500
                         color: #36768A
                     @include responsivo(telefonoTable)
-                        font-size: 34px
+                        font-size: 35px
+                        span
+                            font-size: 20px
                     @include responsivo(pcMedio)
                         font-size: 40px
+                        span
+                            font-size: 25px
                     @include responsivo(general)
-                        font-size: 50px
+                        font-size: 55px
+                        span
+                            font-size: 30px
                     @include responsivo(smallPcTablet)
-                        font-size: 44px
+                        font-size: 45px
+                        span
+                            font-size: 25px
                     @include responsivo(resto)
-                        font-size: 54px
+                        font-size: 60px
+                        span
+                            font-size: 35px
 
         .innerSectionElement.sct1
             @include responsivo(telefonoTable)

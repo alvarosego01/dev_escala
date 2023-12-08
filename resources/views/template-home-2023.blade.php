@@ -42,7 +42,10 @@
                             <div class="containElements">
 
                                 <h1 class="principalBigTitle ">
-                                    <span>Acelera el crecimiento</span> de tu empresa
+                                    Vende más y mejor<br class="space">
+                                     <span>
+                                     con un CRM completo y fácil de usar
+                                     </span>
                                 </h1>
 
                             </div>
@@ -200,15 +203,21 @@
                                     $elements = [
                                         [
                                             'text' => '
-                                            CRM todo-en-uno fácil de usar y <br class="desktopElement">
-                                            ajustado a tus necesidades en 10 días
+                                            Personalizamos el CRM a tus <br class="desktopElement">
+                                            necesidades en 10 días
                                             ',
                                         ],
                                         [
-                                            'text' => 'Acompañamiento y entrenamiento <br class="desktopElement"> para escalar empresas',
+                                            'text' => '
+                                            Te entrenamos en una metodología <br class="desktopElement">
+                                            probada para escalar ventas
+                                            ',
                                         ],
                                         [
-                                            'text' => 'Generas leads, nutres y <br class="desktopElement"> conviertes más y mejor',
+                                            'text' => '
+                                            Recibe guía 1:1 para <br class="desktopElement">
+                                            optimizar resultados
+                                            ',
                                         ],
                                     ];
                                 @endphp
@@ -347,11 +356,12 @@
                                 Olvida el Excel y los CRMs complicados
                             </h3>
                             <h2 class="title">
-                                Consigue más y mejores <br class="space"> clientes con el CRM de Escala
+                                Simplifica el crecimiento <br class="space">
+                                de tu PYME con Escala
                             </h2>
                             <p class="text">
-                                Es muy fácil de usar y brinda todas las herramientas <br class="desktopTabletElement">
-                                de marketing y ventas que necesitas para escalar.
+                                Encuentra todas las herramientas de marketing y ventas que <br class="desktopTabletElement">
+                                necesitas para generar leads y convertirlos en clientes fieles
                             </p>
 
                         </div>
@@ -366,6 +376,16 @@
                                 <div class="col-md-12 col-lg-5 selectors">
                                     @php
                                         $elements = [
+                                              [
+                                                'title' => 'WhatsApp integrado',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_small.png'),
+                                                'text' => '
+            <span>Optimiza tu comunicación por WhatsApp</span> <br class="space">
+            con envíos masivos ,mensajes <br class="space">
+            automatizados, y gestión por inbox
+            ',
+                                                'img' => App::setFilePath('/assets/images/gifs/image_whatsapp_home_selector.gif'),
+                                            ],
                                             [
                                                 'title' => 'Inteligencia Artifical',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ia_small.png'),
@@ -373,9 +393,25 @@
             <span>Crea contenido efectivo en segundos</span> <br class="space">
             La IA en Escala es como tener un copywriter <br class="desktopTabletElement">
             estrella a una fracción del costo',
-
-
                                                 'img' => App::setFilePath('/assets/images/gifs/image_ia_home_selector.gif'),
+                                            ],
+                                            [
+                                                'title' => 'Gestión de contactos y procesos',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_crm_small.png'),
+                                                'text' => '
+            <span>Convierte más leads en clientes fieles</span> <br class="space">
+            organizando, guardando y supervisando <br class="desktopTabletElement">
+            mejor todo lo que ocurre con tus contactos',
+                                                'img' => App::setFilePath('/assets/images/gifs/image_crm_home_selector.gif'),
+                                            ],
+                                             [
+                                                'title' => 'Flujos de automatización',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_automatizations_small.png'),
+                                                'text' => '
+        Ahorra tiempo y dinero <br class="desktopTabletElement">
+        programando tareas y flujos de acciones
+     ',
+                                                'img' => App::setFilePath('/assets/images/gifs/image_automatizations_home_selector.gif'),
                                             ],
                                             [
                                                 'title' => 'Landing Pages',
@@ -387,15 +423,7 @@
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_landingp_home_selector.gif'),
                                             ],
-                                            [
-                                                'title' => 'Gestión de contactos y procesos',
-                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_crm_small.png'),
-                                                'text' => '
-            <span>Convierte más leads en clientes fieles</span> <br class="space">
-            organizando, guardando y supervisando <br class="desktopTabletElement">
-            mejor todo lo que ocurre con tus contactos',
-                                                'img' => App::setFilePath('/assets/images/gifs/image_crm_home_selector.gif'),
-                                            ],
+
                                             [
                                                 'title' => 'Email Marketing',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailmkt_small.png'),
@@ -405,15 +433,7 @@
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_email_marketing_home_selector.gif'),
                                             ],
-                                            [
-                                                'title' => 'WhatsApp',
-                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_small.png'),
-                                                'text' => '
-            <span>Mejora tu comunicación</span> <br class="space">
-            automatizando el envío de mensajes a <br class="desktopTabletElement">
-            múltiples contactos al mismo tiempo',
-                                                'img' => App::setFilePath('/assets/images/gifs/image_whatsapp_home_selector.gif'),
-                                            ],
+
                                             [
                                                 'title' => 'Anuncios digitales integrados ',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ads_small.png'),
@@ -423,15 +443,7 @@
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_ads_home_selector.gif'),
                                             ],
-                                            [
-                                                'title' => 'Flujos de automatización',
-                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_automatizations_small.png'),
-                                                'text' => '
-        Ahorra tiempo y dinero <br class="desktopTabletElement">
-        programando tareas y flujos de acciones
-     ',
-                                                'img' => App::setFilePath('/assets/images/gifs/image_automatizations_home_selector.gif'),
-                                            ],
+
                                         ];
                                     @endphp
 

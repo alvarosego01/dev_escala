@@ -1,9 +1,13 @@
+{{--
+  Template Name: [B] Home - 2023
+--}}
 
 
+@extends('layouts.app')
+@section('content')
 
-<div id="landing_homePage_2023">
-
-    <div class="sections">
+    <div id="landingHome_2023">
+        <div class="sections">
 
             @php
                 $elementsReviews = [
@@ -26,7 +30,7 @@
             @endphp
 
             <section id="lead-form"
-                class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_homePage_2023_0 newHome ">
+                class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landingHome_section_0 newHome ">
 
                 <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/background_home_1.svg') }}')"
                     class="backgroundFull">
@@ -38,7 +42,10 @@
                             <div class="containElements">
 
                                 <h1 class="principalBigTitle ">
-                                    <span>Acelera el crecimiento</span> de tu empresa
+                                    Vende más y mejor<br class="space">
+                                     <span>
+                                     con un CRM completo y fácil de usar
+                                     </span>
                                 </h1>
 
                             </div>
@@ -196,15 +203,21 @@
                                     $elements = [
                                         [
                                             'text' => '
-                                            CRM todo-en-uno fácil de usar y <br class="desktopElement">
-                                            ajustado a tus necesidades en 10 días
+                                            Personalizamos el CRM a tus <br class="desktopElement">
+                                            necesidades en 10 días
                                             ',
                                         ],
                                         [
-                                            'text' => 'Acompañamiento y entrenamiento <br class="desktopElement"> para escalar empresas',
+                                            'text' => '
+                                            Te entrenamos en una metodología <br class="desktopElement">
+                                            probada para escalar ventas
+                                            ',
                                         ],
                                         [
-                                            'text' => 'Generas leads, nutres y <br class="desktopElement"> conviertes más y mejor',
+                                            'text' => '
+                                            Recibe guía 1:1 para <br class="desktopElement">
+                                            optimizar resultados
+                                            ',
                                         ],
                                     ];
                                 @endphp
@@ -282,7 +295,7 @@
 
             </section>
 
-            <section class="customSection sectionParent landing_homePage_2023_1">
+            <section class="customSection sectionParent landingHome_section_1">
 
                 <div class="section-row">
 
@@ -331,7 +344,7 @@
 
             </section>
 
-            <section class="customSection sectionParent landing_homePage_2023_2">
+            <section class="customSection sectionParent landingHome_section_2">
 
                 <div class="section-row">
 
@@ -343,11 +356,12 @@
                                 Olvida el Excel y los CRMs complicados
                             </h3>
                             <h2 class="title">
-                                Consigue más y mejores <br class="space"> clientes con el CRM de Escala
+                                Simplifica el crecimiento <br class="space">
+                                de tu PYME con Escala
                             </h2>
                             <p class="text">
-                                Es muy fácil de usar y brinda todas las herramientas <br class="desktopTabletElement">
-                                de marketing y ventas que necesitas para escalar.
+                                Encuentra todas las herramientas de marketing y ventas que <br class="desktopTabletElement">
+                                necesitas para generar leads y convertirlos en clientes fieles
                             </p>
 
                         </div>
@@ -362,6 +376,16 @@
                                 <div class="col-md-12 col-lg-5 selectors">
                                     @php
                                         $elements = [
+                                              [
+                                                'title' => 'WhatsApp integrado',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_small.png'),
+                                                'text' => '
+            <span>Optimiza tu comunicación por WhatsApp</span> <br class="space">
+            con envíos masivos ,mensajes <br class="space">
+            automatizados, y gestión por inbox
+            ',
+                                                'img' => App::setFilePath('/assets/images/gifs/image_whatsapp_home_selector.gif'),
+                                            ],
                                             [
                                                 'title' => 'Inteligencia Artifical',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ia_small.png'),
@@ -369,9 +393,25 @@
             <span>Crea contenido efectivo en segundos</span> <br class="space">
             La IA en Escala es como tener un copywriter <br class="desktopTabletElement">
             estrella a una fracción del costo',
-
-
                                                 'img' => App::setFilePath('/assets/images/gifs/image_ia_home_selector.gif'),
+                                            ],
+                                            [
+                                                'title' => 'Gestión de contactos y procesos',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_crm_small.png'),
+                                                'text' => '
+            <span>Convierte más leads en clientes fieles</span> <br class="space">
+            organizando, guardando y supervisando <br class="desktopTabletElement">
+            mejor todo lo que ocurre con tus contactos',
+                                                'img' => App::setFilePath('/assets/images/gifs/image_crm_home_selector.gif'),
+                                            ],
+                                             [
+                                                'title' => 'Flujos de automatización',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_automatizations_small.png'),
+                                                'text' => '
+        Ahorra tiempo y dinero <br class="desktopTabletElement">
+        programando tareas y flujos de acciones
+     ',
+                                                'img' => App::setFilePath('/assets/images/gifs/image_automatizations_home_selector.gif'),
                                             ],
                                             [
                                                 'title' => 'Landing Pages',
@@ -383,15 +423,7 @@
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_landingp_home_selector.gif'),
                                             ],
-                                            [
-                                                'title' => 'Gestión de contactos y procesos',
-                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_crm_small.png'),
-                                                'text' => '
-            <span>Convierte más leads en clientes fieles</span> <br class="space">
-            organizando, guardando y supervisando <br class="desktopTabletElement">
-            mejor todo lo que ocurre con tus contactos',
-                                                'img' => App::setFilePath('/assets/images/gifs/image_crm_home_selector.gif'),
-                                            ],
+
                                             [
                                                 'title' => 'Email Marketing',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailmkt_small.png'),
@@ -401,15 +433,7 @@
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_email_marketing_home_selector.gif'),
                                             ],
-                                            [
-                                                'title' => 'WhatsApp',
-                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_small.png'),
-                                                'text' => '
-            <span>Mejora tu comunicación</span> <br class="space">
-            automatizando el envío de mensajes a <br class="desktopTabletElement">
-            múltiples contactos al mismo tiempo',
-                                                'img' => App::setFilePath('/assets/images/gifs/image_whatsapp_home_selector.gif'),
-                                            ],
+
                                             [
                                                 'title' => 'Anuncios digitales integrados ',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ads_small.png'),
@@ -419,15 +443,7 @@
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_ads_home_selector.gif'),
                                             ],
-                                            [
-                                                'title' => 'Flujos de automatización',
-                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_automatizations_small.png'),
-                                                'text' => '
-        Ahorra tiempo y dinero <br class="desktopTabletElement">
-        programando tareas y flujos de acciones
-     ',
-                                                'img' => App::setFilePath('/assets/images/gifs/image_automatizations_home_selector.gif'),
-                                            ],
+
                                         ];
                                     @endphp
 
@@ -484,7 +500,7 @@
 
                                         </div>
 
-                                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
                                             Recibir un demo
                                         </a>
 
@@ -505,7 +521,7 @@
             </section>
 
             <section style="background-image: url({!! App::setFilePath('/assets/images/banners/02-bg-home2023.png') !!})"
-                class="customSection sectionParent landing_homePage_2023_3">
+                class="customSection sectionParent landingHome_section_3">
 
                 <div class="section-row">
 
@@ -532,7 +548,12 @@
                                 Los clientes de Escala triplican su productividad <br class="desktopTabletElement">
                                 sin agregar costos operativos a su empresa
                             </p>
-                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                            {{--
+                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                                Conversa con un asesor Escala
+                            </a>
+                             --}}
+                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
                                 Conversa con un asesor Escala
                             </a>
 
@@ -544,7 +565,7 @@
 
             </section>
 
-            <section class="customSection sectionParent landing_homePage_2023_4">
+            <section class="customSection sectionParent landingHome_section_4">
 
                 <div class="section-row">
 
@@ -753,7 +774,7 @@
             </section>
 
             <section style="background-image: url({!! App::setFilePath('/assets/images/banners/03-bg-home2023.png') !!})"
-                class="customSection sectionParent landing_homePage_2023_5">
+                class="customSection sectionParent landingHome_section_5">
 
                 <div class="section-row">
 
@@ -1021,7 +1042,7 @@
 
             </section>
 
-            <section class="customSection sectionParent landing_homePage_2023_6">
+            <section class="customSection sectionParent landingHome_section_6">
 
                 <div class="section-row">
 
@@ -1070,7 +1091,7 @@
 
             </section>
 
-            <section class="component-info-multiple-cards-T2 customSection sectionParent landing_homePage_2023_7">
+            <section class="component-info-multiple-cards-T2 customSection sectionParent landingHome_section_7">
 
 
                 <img src="{!! App::setFilePath('/assets/images/banners/05-bg-home2023.png') !!}" alt="" class="overlaysky">
@@ -1229,7 +1250,7 @@
 
             </section>
 
-            <section class="component-info-text-image-T1 customSection sectionParent landing_homePage_2023_8">
+            <section class="component-info-text-image-T1 customSection sectionParent landingHome_section_8">
 
 
                 <div class="section-row">
@@ -1315,7 +1336,7 @@
                             </div>
                             <div class="btn-cta col-md-12 col-lg-12">
 
-                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
                                     Recibe un demo personalilzado
                                 </a>
                             </div>
@@ -1333,7 +1354,7 @@
             </section>
 
             <section style="background-image: url({!! App::setFilePath('/assets/images/banners/06-bg-home2023.png') !!})"
-                class="customSection sectionParent landing_homePage_2023_9">
+                class="customSection sectionParent landingHome_section_9">
 
                 <div class="section-row">
                     <div class="col-md-8 column-1">
@@ -1353,7 +1374,7 @@
                                     para hacer crecer tu negocio y desarrollar una <br class="desktopTabletElement">
                                     ventaja competitiva única en el mercado.
                                 </p>
-                                <a class=" outlineWhiteButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                <a class=" outlineWhiteButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
                                     Aprender más
                                 </a>
 
@@ -1376,7 +1397,7 @@
             </section>
 
             <section style="background-image: url({!! App::setFilePath('/assets/images/banners/07-bg-home2023.png') !!})"
-                class="customSection sectionParent landing_homePage_2023_10">
+                class="customSection sectionParent landingHome_section_10">
 
                 <div class="section-row">
                     <div class="col-md-8 column-1">
@@ -1393,7 +1414,7 @@
                                     Si en los primeros 20 días no estás satisfecho <br class="desktopTabletElement">
                                     con el valor que recibes, te devolvemos el dinero.
                                 </p>
-                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
                                     Solicita un demo
                                 </a>
 
@@ -1627,7 +1648,7 @@
         ];
 
         $parameters = [
-            'classSection' => 'landing_homePage_2023_11',
+            'classSection' => 'landingHome_section_11',
             'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
             'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
             'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
@@ -1641,6 +1662,10 @@
     @endcontain_FAQ_T1
 
 
+
+        </div>
+
     </div>
 
-</div>
+
+@endsection
