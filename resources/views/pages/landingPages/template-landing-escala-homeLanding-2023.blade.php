@@ -376,11 +376,11 @@
                                 <div class="col-md-12 col-lg-5 selectors">
                                     @php
                                         $elements = [
-                                              [
+                                    [
                                                 'title' => 'WhatsApp integrado',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_small.png'),
                                                 'text' => '
-              <span>Optimiza tu comunicación por WhatsApp</span> <br class="space">
+            <span>Optimiza tu comunicación por WhatsApp</span> <br class="space">
             con envíos masivos, mensajes <br class="space">
             automatizados, y gestión por inbox
             ',
@@ -405,7 +405,7 @@
                                                 'img' => App::setFilePath('/assets/images/gifs/image_crm_home_selector.gif'),
                                             ],
                                              [
-                                                'title' => 'Flujos de automatización',
+                                                'title' => 'Automatizaciones',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_automatizations_small.png'),
                                                 'text' => '
         Ahorra tiempo y dinero <br class="desktopTabletElement">
@@ -435,7 +435,7 @@
                                             ],
 
                                             [
-                                                'title' => 'Anuncios digitales integrados ',
+                                                'title' => 'Anuncios digitales ',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ads_small.png'),
                                                 'text' => '
             <span>Crea y administra campañas publicitarias</span> <br class="space">
@@ -443,6 +443,7 @@
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_ads_home_selector.gif'),
                                             ],
+
 
                                         ];
                                     @endphp

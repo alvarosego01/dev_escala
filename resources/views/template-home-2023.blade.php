@@ -405,7 +405,7 @@
                                                 'img' => App::setFilePath('/assets/images/gifs/image_crm_home_selector.gif'),
                                             ],
                                              [
-                                                'title' => 'Flujos de automatización',
+                                                'title' => 'Automatizaciones',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_automatizations_small.png'),
                                                 'text' => '
         Ahorra tiempo y dinero <br class="desktopTabletElement">
@@ -435,7 +435,7 @@
                                             ],
 
                                             [
-                                                'title' => 'Anuncios digitales integrados ',
+                                                'title' => 'Anuncios digitales ',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ads_small.png'),
                                                 'text' => '
             <span>Crea y administra campañas publicitarias</span> <br class="space">
