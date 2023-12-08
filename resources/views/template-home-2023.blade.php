@@ -41,10 +41,10 @@
 
                             <div class="containElements">
 
-                                <h1 class="principalBigTitle ">
-                                    Vende más y mejor<br class="space">
+                                 <h1 class="principalBigTitle ">
+                                   Escala tus ventas con un CRM <br class="space">
                                      <span>
-                                     con un CRM completo y fácil de usar
+                                     completo y fácil de usar para tu PYME
                                      </span>
                                 </h1>
 
@@ -356,8 +356,8 @@
                                 Olvida el Excel y los CRMs complicados
                             </h3>
                             <h2 class="title">
-                                Simplifica el crecimiento <br class="space">
-                                de tu PYME con Escala
+                                Genera más leads y conviértelos <br class="space">
+                                en clientes fieles con Escala
                             </h2>
                             <p class="text">
                                 Encuentra todas las herramientas de marketing y ventas que <br class="desktopTabletElement">
