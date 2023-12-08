@@ -381,7 +381,7 @@
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_small.png'),
                                                 'text' => '
             <span>Optimiza tu comunicación por WhatsApp</span> <br class="space">
-            con envíos masivos ,mensajes <br class="space">
+            con envíos masivos, mensajes <br class="space">
             automatizados, y gestión por inbox
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_whatsapp_home_selector.gif'),
