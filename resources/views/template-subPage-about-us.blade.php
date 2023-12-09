@@ -91,7 +91,7 @@
       Co-presidente de Endeavor Miami. Andrés es<br class="desktopTabletElement">
       ampliamente reconocido en América Latina como<br class="desktopTabletElement">
       un líder en emprendimiento y un modelo a seguir.<br class="space"><br class="space">
-      
+
       Venezolano – ha vivido en 9 países<br class="desktopTabletElement">
       y habla 3 idiomas fluidamente.<br class="desktopTabletElement">
       ',
@@ -104,14 +104,14 @@
       ',
                         'textInfo' => '
       Ex-CEO de Goldman Sachs Latinoamérica y<br class="desktopTabletElement">
-      director / asesor de múltiples compañías privadas.<br class="desktopTabletElement"> 
-      Inversionista ángel y mentor de fundadores,<br class="desktopTabletElement"> 
-      también ha trabajado en estrecha colaboración con<br class="desktopTabletElement"> 
+      director / asesor de múltiples compañías privadas.<br class="desktopTabletElement">
+      Inversionista ángel y mentor de fundadores,<br class="desktopTabletElement">
+      también ha trabajado en estrecha colaboración con<br class="desktopTabletElement">
       Andrés durante la última década.<br class="space"><br class="space">
-      
-      Cubano-americano – un ávido corredor, ha<br class="desktopTabletElement"> 
-      terminado múltiples maratones llegando a estar<br class="desktopTabletElement"> 
-      por encima de su grupo de edad hasta un 10%<br class="desktopTabletElement"> 
+
+      Cubano-americano – un ávido corredor, ha<br class="desktopTabletElement">
+      terminado múltiples maratones llegando a estar<br class="desktopTabletElement">
+      por encima de su grupo de edad hasta un 10%<br class="desktopTabletElement">
       en performance.
       ',
                         'img' => App::setFilePath('/assets/images/illustrations/team/john1.png'),
@@ -122,30 +122,30 @@
 <span class="greenBlueColor">La mente estratégica</span>
       ',
                         'textInfo' => '
-      Director de la firma de consultoría: “Éxito<br class="desktopTabletElement"> 
-      Ventures”, ha trabajado en estrecha colaboración<br class="desktopTabletElement">  
-      con Andrés asesorando a docenas de empresas en<br class="desktopTabletElement">  
-      estrategia de negocios, performance marketing y<br class="desktopTabletElement"> 
-      embudos de ventas. También ha liderado equipos<br class="desktopTabletElement">  
+      Director de la firma de consultoría: “Éxito<br class="desktopTabletElement">
+      Ventures”, ha trabajado en estrecha colaboración<br class="desktopTabletElement">
+      con Andrés asesorando a docenas de empresas en<br class="desktopTabletElement">
+      estrategia de negocios, performance marketing y<br class="desktopTabletElement">
+      embudos de ventas. También ha liderado equipos<br class="desktopTabletElement">
       desarrollando softwares innovadores.<br class="space"><br class="space">
 
-      Italiano – ex- jugador profesional de póker, fue<br class="desktopTabletElement"> 
+      Italiano – ex- jugador profesional de póker, fue<br class="desktopTabletElement">
       «Final Table» en el European Poker Tour.
       ',
                         'img' => App::setFilePath('/assets/images/illustrations/team/andrea.png'),
                     ],
-                
+
                     [
                         'name' => '
       Manuel Gil <br class="space">
 <span class="greenBlueColor">Chief de tech</span>
       ',
                         'textInfo' => '
-      Co-fundador y CEO de CodeLabs, una firma de<br class="desktopTabletElement"> 
-      consultoría y tercerización de software. Ha liderado<br class="desktopTabletElement">  
-      múltiples proyectos de tecnología en los últimos<br class="desktopTabletElement">  
+      Co-fundador y CEO de CodeLabs, una firma de<br class="desktopTabletElement">
+      consultoría y tercerización de software. Ha liderado<br class="desktopTabletElement">
+      múltiples proyectos de tecnología en los últimos<br class="desktopTabletElement">
       15 años, en docenas de países de todo el mundo.<br class="space"><br class="space">
-      
+
       Cubano – papá, fanático de la guitarra y fotógrafo
       ',
                         'img' => App::setFilePath('/assets/images/illustrations/team/manuel.png'),
@@ -156,37 +156,22 @@
 <span class="greenBlueColor">La mejor aliada de los clientes</span>
       ',
                         'textInfo' => '
-      Directora de la consultora: “Éxito Ventures”,<br class="desktopTabletElement">  
-      tiene una amplia experiencia en mejorar las<br class="desktopTabletElement">  
-      ventas, atención al cliente y las comunicaciones<br class="desktopTabletElement">  
-      de las marcas para docenas de compañías en<br class="desktopTabletElement"> 
+      Directora de la consultora: “Éxito Ventures”,<br class="desktopTabletElement">
+      tiene una amplia experiencia en mejorar las<br class="desktopTabletElement">
+      ventas, atención al cliente y las comunicaciones<br class="desktopTabletElement">
+      de las marcas para docenas de compañías en<br class="desktopTabletElement">
       los Estados Unidos y América Latina.<br class="space"><br class="space">
 
-      Venezolana – fundadora de organizaciones sin<br class="desktopTabletElement">  
-      fines de lucro, reconocida por el Congreso de<br class="desktopTabletElement">  
-      los EE. UU. por su talento y contribución a la<br class="desktopTabletElement">  
+      Venezolana – fundadora de organizaciones sin<br class="desktopTabletElement">
+      fines de lucro, reconocida por el Congreso de<br class="desktopTabletElement">
+      los EE. UU. por su talento y contribución a la<br class="desktopTabletElement">
       comunidad multicultural.
       ',
                         'img' => App::setFilePath('/assets/images/illustrations/team/vane5.png'),
                     ],
-                    [
-                        'name' => '
-      Matías Beeck <br class="space">
-<span class="greenBlueColor">As del producto</span>
-      ',
-                        'textInfo' => '
-      Experto en Data Science y marketing digital,<br class="desktopTabletElement">  
-      trabajó recientemente con una consultora de datos<br class="desktopTabletElement">  
-      y SaaS con sede en Londres.<br class="desktopTabletElement"> 
 
-      Peruano-cubano – entusiasta de la música, ha<br class="desktopTabletElement">  
-      vivido en tres continentes y cuatro ciudades (Lima,<br class="desktopTabletElement">  
-      Miami, Londres y Nueva York).
-      ',
-                        'img' => App::setFilePath('/assets/images/illustrations/team/matias.png'),
-                    ],
                 ];
-                
+
             @endphp
 
 
@@ -206,7 +191,7 @@
                                     Contamos con un equipo comprometido en potenciar a las empresas a<br
                                         class="desktopTabletElement">
                                     través de Escala convirtiéndolas en negocios exitosos en toda la región.
-                                
+
                             </p>
 
                         </div>
