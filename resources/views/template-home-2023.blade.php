@@ -29,6 +29,29 @@
                 ];
             @endphp
 
+               @php
+                                    $elementsFeatures = [
+                                        [
+                                            'text' => '
+                                            <strong>Software</strong> de <br class="space">
+                                            emarketing y ventas
+                                            ',
+                                        ],
+                                        [
+                                            'text' => '
+                                            <strong>Entrenamiento</strong> <br class="space">
+                                            estratégico y técnico
+                                            ',
+                                        ],
+                                        [
+                                            'text' => '
+                                            <strong>Acompañamiento</strong> <br class="space">
+                                            personalizado
+                                            ',
+                                        ],
+                                    ];
+                                @endphp
+
             <section id="lead-form"
                 class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol home_2023_0 newHome ">
 
@@ -42,10 +65,11 @@
                             <div class="containElements">
 
                                  <h1 class="principalBigTitle ">
-                                   Escala tus ventas con un CRM <br class="space">
                                      <span>
-                                     completo y fácil de usar para tu PYME
+                                     La mejor solución de CRM para PYMES
                                      </span>
+                                   <br class="space">
+                                   Escala tus ventas más fácil y rápido
                                 </h1>
 
                             </div>
@@ -62,43 +86,7 @@
 
                                     <div class="containElements row threeCol">
 
-                                        <div class="ele reviews col-md-12 col-lg-3 desktopElement">
-
-                                            <div class="elements">
-
-                                                @foreach ($elementsReviews as $item)
-                                                    <div class="refersElement">
-
-                                                        <div class="infoInner">
-                                                            <div class="tag">
-                                                                <div class="containerImage">
-                                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                                </div>
-
-                                                                <span class="points">
-                                                                    {!! $item['points'] !!}
-                                                                </span>
-                                                            </div>
-                                                            <p class="text">
-                                                                {!! $item['text'] !!}
-                                                            </p>
-                                                            <div class="stars">
-                                                                <div class="containerImage">
-                                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_blue.svg') !!}" loading="lazy">
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-                                                @endforeach
-
-                                            </div>
-
-
-                                        </div>
-
-                                        <div class="ele video col-md-12 col-lg-9">
+                                                <div class="ele video col-md-12 col-lg-8">
 
                                             @php
                                                 $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1_sub.mp4');
@@ -150,6 +138,65 @@
 
                                         </div>
 
+                                        <div class="ele features col-md-12 col-lg-4 ">
+
+                                           {{--  <div class="elements">
+
+                                                @foreach ($elementsReviews as $item)
+                                                    <div class="refersElement">
+
+                                                        <div class="infoInner">
+                                                            <div class="tag">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                                </div>
+
+                                                                <span class="points">
+                                                                    {!! $item['points'] !!}
+                                                                </span>
+                                                            </div>
+                                                            <p class="text">
+                                                                {!! $item['text'] !!}
+                                                            </p>
+                                                            <div class="stars">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_blue.svg') !!}" loading="lazy">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                @endforeach
+
+                                            </div> --}}
+
+                                            @foreach ($elementsFeatures as $item)
+                                             <div class="element">
+
+                                            <div class="info">
+
+                                                <div class="icon">
+
+                                                    <div class="containerImage">
+                                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon_check_orange.png') }}"
+                                                            loading="lazy">
+                                                    </div>
+                                                </div>
+
+                                                <p class="text">
+                                                    {!! $item['text'] !!}
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                             @endforeach
+
+
+                                        </div>
+
+
+
                                     </div>
 
 
@@ -190,99 +237,6 @@
 
                                     </div>
                                 </div>
-
-                            </div>
-
-                        </section>
-
-                        <section class="innerSectionElement sct2">
-
-                            <div class="containElements">
-
-                                @php
-                                    $elements = [
-                                        [
-                                            'text' => '
-                                            Personalizamos el CRM a tus <br class="desktopElement">
-                                            necesidades en 10 días
-                                            ',
-                                        ],
-                                        [
-                                            'text' => '
-                                            Te entrenamos en una metodología <br class="desktopElement">
-                                            probada para escalar ventas
-                                            ',
-                                        ],
-                                        [
-                                            'text' => '
-                                            Recibe guía 1:1 para <br class="desktopElement">
-                                            optimizar resultados
-                                            ',
-                                        ],
-                                    ];
-                                @endphp
-
-                                <div class="ele reviews col-md-12 mobileElement">
-
-                                            <div class="elements">
-
-                                                @foreach ($elementsReviews as $item)
-                                                    <div class="refersElement">
-
-                                                        <div class="infoInner">
-                                                            <div class="tag">
-                                                                <div class="containerImage">
-                                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                                </div>
-
-                                                                <span class="points">
-                                                                    {!! $item['points'] !!}
-                                                                </span>
-                                                            </div>
-                                                            <p class="text">
-                                                                {!! $item['text'] !!}
-                                                            </p>
-                                                            <div class="stars">
-                                                                <div class="containerImage">
-                                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_blue.svg') !!}" loading="lazy">
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-                                                @endforeach
-
-                                            </div>
-
-
-                                        </div>
-
-                                <div class="elementsCheck">
-
-                                    @foreach ($elements as $item)
-                                        <div class="element">
-
-                                            <div class="info">
-
-                                                <div class="icon">
-
-                                                    <div class="containerImage">
-                                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon_check_orange.png') }}"
-                                                            loading="lazy">
-                                                    </div>
-                                                </div>
-
-                                                <p class="text">
-                                                    {!! $item['text'] !!}
-                                                </p>
-                                            </div>
-
-                                        </div>
-                                    @endforeach
-
-                                </div>
-
 
                             </div>
 
@@ -335,6 +289,49 @@
                                     <span class="text-small">recuperadas</span>
                                 </p>
                             </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </section>
+
+            <section class="customSection sectionParent home_2023_1_2">
+
+                <div class="section-row">
+
+                    <section class="innerSectionElement sct1">
+
+                        <div class="containElements">
+
+                              @foreach ($elementsReviews as $item)
+                                                    <div class="refersElement">
+
+                                                        <div class="infoInner">
+                                                            <div class="tag">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                                </div>
+
+                                                                <span class="points">
+                                                                    {!! $item['points'] !!}
+                                                                </span>
+                                                            </div>
+                                                            <p class="text">
+                                                                {!! $item['text'] !!}
+                                                            </p>
+                                                            <div class="stars">
+                                                                <div class="containerImage">
+                                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_blue.svg') !!}" loading="lazy">
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                @endforeach
 
                         </div>
 
