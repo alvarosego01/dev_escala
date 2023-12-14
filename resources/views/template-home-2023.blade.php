@@ -34,7 +34,7 @@
                                         [
                                             'text' => '
                                             <strong>Software</strong> de <br class="space">
-                                            emarketing y ventas
+                                            marketing y ventas
                                             ',
                                         ],
                                         [
