@@ -69,7 +69,7 @@ img
     margin-bottom: 0
     overflow: visible
     @include responsivo(telefonoTable)
-        margin-bottom: -75px
+        margin-bottom: 0
     @include responsivo(general)
         margin-bottom: -100px
     @include responsivo(resto)
@@ -124,6 +124,84 @@ img
             top: -100px
         @include responsivo(resto)
             top: -75px
+
+        .innerSectionElement.sct2
+            @include responsivo(telefonoTable)
+                margin-top: 50px
+            @include responsivo(pcMedio)
+                margin-top: 50px
+            .video
+                position: relative
+                right: 100px
+                // button.vjs-big-play-button
+                //     display: none!important
+                @include responsivo(telefonoTable)
+                    margin-bottom: 25px
+                    right: 0
+                @include responsivo(pcMedio)
+                    margin-bottom: 25px
+                    right: 0
+                @include responsivo(general)
+                    right: 50px
+                @include responsivo(smallPcTablet)
+                    right: 25px
+
+                .youtubeImageContainer
+                    position: relative
+                    overflow: visible
+                    &:hover
+                        cursor: pointer
+                    @include responsivo(telefonoTable)
+                        margin-bottom: 0
+                        height: 197px
+                        width: 350px
+                        margin-bottom: 25px
+                        margin: 0 auto
+                    @include responsivo(pcMedio)
+                        height: 300px
+                        width: 530px!important
+                        margin-bottom: 25px
+                        margin: 0 auto
+                    @include responsivo(general)
+                        margin: auto
+                        top: 0
+                        width: 625px!important
+                        height: 350px
+
+                    @include responsivo(smallPcTablet)
+                        top: 0
+                        width: 450px!important
+                        height: 250px!important
+                    @include responsivo(resto)
+                        margin: auto
+                        top: 0
+                        width: 700px!important
+                        height: 395px
+
+
+                    iframe.iframe
+                        margin: 0 auto
+                        display: block
+                        @include responsivo(telefonoTable)
+                            width: 100%
+                        @include responsivo(pcMedio)
+                            width: 90%
+                    // .vjs-control-bar
+                        // display: none
+
+                    video
+                        border-radius: 25px
+
+                    .videoCover
+                        z-index: 1
+                        position: absolute
+                        left: 0
+                        right: 0
+                        top: 0
+                        bottom: 0
+                    button.vjs-big-play-button
+                        z-index: 5
+                        position: relative
 
         .innerSectionElement.sct0
             margin-bottom: 50px
@@ -224,6 +302,7 @@ img
                                 @include responsivo(pcMedio)
                                     margin-left: 15px
                                     margin-right: 15px
+                                    margin-bottom: 0
 
                                 &:last-child
                                     margin-bottom: 0
@@ -341,13 +420,14 @@ img
                     padding: 0 50px
                     display: flex
                     margin: 0 auto
-                    min-height: 615px
                     @include responsivo(general)
                         padding-bottom: 50px
                         padding-left: 0
+                        min-height: 615px
                     @include responsivo(resto)
                         padding-bottom: 50px
                         padding-left: 0
+                        min-height: 615px
 
                     .formatForm
                         display: block
@@ -388,7 +468,7 @@ img
     @include responsivo(telefonoTable)
 
     @include responsivo(pcMedio)
-        margin-top: -75px
+        margin-top: 0
         margin-bottom: 50px
     .section-row
         position: absolute
