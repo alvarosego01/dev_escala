@@ -69,7 +69,8 @@
                                      La mejor solución de CRM para PYMES
                                      </span>
                                    <br class="space">
-                                   Escala tus ventas más fácil y rápido
+                                   Escala tus ventas <br class="mobileElement">
+                                   más fácil y rápido
                                 </h1>
 
                             </div>

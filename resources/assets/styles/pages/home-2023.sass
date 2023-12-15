@@ -110,7 +110,7 @@ img
             padding-bottom: 200px
             background-position: 40% center
         @include responsivoSpecial(2000px, 2500px)
-            background-position: 40% center
+            background-position: 37.5% center
         @include responsivoSpecial(2501px, 999999px)
             background-position: 35.5% center
 
@@ -270,9 +270,12 @@ img
                         @include responsivo(smallPcTablet)
                             margin-top: 0
                         @include responsivo(general)
-                            margin-top: 5%
+                            margin-top: 10%
+                        @include responsivo(smallPcTablet)
+                            margin-top: 15%
+
                         @include responsivo(resto)
-                            margin-top: 5%
+                            margin-top: 7.5%
 
                         .features
                             display: flex
@@ -288,8 +291,6 @@ img
                                 left: 25px
                             @include responsivo(smallPcTablet)
                                 left: 0
-                            // @include responsivo(resto)
-
                             .element
                                 // margin: 50px 0
                                 margin-bottom: 35px
@@ -340,12 +341,9 @@ img
                                                 @include responsivo(telefonoTable)
                                                     height: 25px!important
 
-
                         .ele.video
                             position: relative
                             right: 100px
-                            // button.vjs-big-play-button
-                            //     display: none!important
                             @include responsivo(telefonoTable)
                                 margin-bottom: 25px
                                 right: 0
