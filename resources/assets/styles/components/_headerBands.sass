@@ -172,18 +172,23 @@
                         font-size: 18px
                     span
                         line-height: 1
+                        @include responsivo(general)
+                            margin-right: 7.5px
+                        @include responsivo(resto)
+                            margin-right: 7.5px
 
                 .text
-                    color: #FFF
+                    color: #FAD872
                     font-family: Nunito
                     font-size: 20px
                     font-style: normal
-                    font-weight: 700
+                    font-weight: 600
                     line-height: 1
                     letter-spacing: -1.04px
                     margin-bottom: 0
-                    display: block
-                    margin: auto 50px
+                    display: flex
+                    align-self: center
+                    justify-self: center
                     span
                         padding-left: 5px
                     @include responsivo(telefonoTable)
@@ -218,10 +223,12 @@
                     @include responsivo(general)
                         font-size: 16px!important
                         padding: 7.5px 20px!important
+                        margin: 0 25px
                     @include responsivo(smallPcTablet)
                         padding: 5px 15px!important
 
                     @include responsivo(resto)
+                        margin: 0 25px
                         font-size: 18px!important
                         padding: 7.5px 20px!important
 

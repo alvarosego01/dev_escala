@@ -11,14 +11,16 @@ style="background-image: url({!! App::setFilePath('/assets/images/banners/decemb
                  <div class="containElements">
 
                         <span class="hashTitle" style="color: white">
-                            ¡Planifica tu 2024: Workshop estratégico en vivo!
+                           <span style="color: #FAD872">¡Planifica tu 2024!</span> Workshop estratégico de ventas
                         </span>
-                        <p class="text">
+
+                        <a href="#" class="orangeButton hoverInEffect openPopUpButton popup-general-december">
+                            Inscríbete ahora
+                        </a>
+
+                             <p class="text">
                            Cupos Limitados
                         </p>
-                        <a href="#" class="orangeButton hoverInEffect openPopUpButton popup-general-december">
-                            Inscríbete
-                        </a>
 
                  </div>
 

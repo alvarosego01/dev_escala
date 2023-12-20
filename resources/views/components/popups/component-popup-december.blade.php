@@ -190,5 +190,5 @@
 
 
 <script>
-    jQuery('.customPopUp.modal.blackFriday_2022 .innerSectionElement .groupElements .row .info .containElements .sect2 .formatForm .wpcf7 input.wpcf7-form-control.wpcf7-submit').val('Empezar')
+    jQuery('.customPopUp.modal.december_popup .innerSectionElement .groupElements .row .info .containElements .sect2 .formatForm .wpcf7 input.wpcf7-form-control.wpcf7-submit').val('Empezar')
 </script>
