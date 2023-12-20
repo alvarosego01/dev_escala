@@ -122,20 +122,23 @@
     background-repeat: no-repeat
     @include responsivo(telefonoTable)
         background-size: cover
-    // @include responsivo(pcMedio)
-        // background-size: cover
-    // @include responsivo(smallPcTablet)
-    //     background-size: cover!important
-    // @include responsivo(general)
+    @include responsivo(pcMedio)
+        background-size: 1250px
+    @include responsivo(general)
+        background-size: 1525px
 
+    @include responsivo(smallPcTablet)
+        background-size: 1180px
     // @include responsivo(resto)
 
-    @include responsivoSpecial(2300px, 99999px)
+
+    @include responsivoSpecial(2100px, 99999px)
         background-size: cover
     .section-row
         padding: 20px 0
         @include responsivo(telefonoTable)
-            padding-top: 40px
+            padding: 10px 0
+
         @include responsivo(smallPcTablet)
             max-width: 1000px!important
         .innerSectionElement.sct1
@@ -157,19 +160,28 @@
                     font-style: normal
                     font-weight: 700
                     line-height: 1
-                    display: flex
-                    align-self: center
-                    justify-self: center
+                    display: block
                     @include responsivo(telefonoTable)
                         font-size: 16px
-                        position: absolute
-                        top: -25px
+                        margin-left: auto
+                        margin-right: auto
                     @include responsivo(pcMedio)
                         font-size: 18px
+                        display: flex
+                        align-self: center
+                        justify-self: center
                     @include responsivo(general)
                         font-size: 20px
+                        display: flex
+                        align-self: center
+                        justify-self: center
                     @include responsivo(smallPcTablet)
                         font-size: 18px
+                    @include responsivo(resto)
+                        display: flex
+                        align-self: center
+                        justify-self: center
+
                     span
                         line-height: 1
                         @include responsivo(general)
@@ -197,8 +209,8 @@
                         text-align: center
                     @include responsivo(pcMedio)
                         font-size: 16px
-                        margin-left: 25px
-                        margin-right: 25px
+                        margin-left: 10px
+                        margin-right: 10px
                     @include responsivo(general)
                         font-size: 18px
                         margin-left: 35px
@@ -211,15 +223,14 @@
                 a.orangeButton
                     font-weight: 600!important
                     @include responsivo(telefonoTable)
-                        margin: 0 auto
+                        margin: 15px auto
                         font-size: 12px!important
                         padding-left: 7.5px!important
                         padding-right: 7.5px!important
-                        margin-bottom: 10px
                     @include responsivo(pcMedio)
                         font-size: 14px!important
                         padding: 5px 15px!important
-                        margin-bottom: 10px
+                        margin: 15px auto
                     @include responsivo(general)
                         font-size: 16px!important
                         padding: 7.5px 20px!important
