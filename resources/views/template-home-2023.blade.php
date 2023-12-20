@@ -2,7 +2,7 @@
   Template Name: [B] Home - 2023
 --}}
 
-
+{{-- Model home new  --}}
 @extends('layouts.app')
 @section('content')
 
