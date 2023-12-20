@@ -1381,6 +1381,15 @@
     .modal-content
         border-radius: 25px!important
         overflow: hidden
+        @include responsivo(telefonoTable)
+            width: 350px!important
+            margin-left: auto
+            margin-right: auto
+
+        @include responsivo(pcMedio)
+            width: 507px!important
+            margin-left: auto
+            margin-right: auto
     .modal-body
         padding: 0!important
     .innerSectionElement
@@ -1659,6 +1668,7 @@
                                     font-size: 25px
                                     @include responsivo(telefonoTable)
                                         font-size: 18px
+                                        width: 275px
                                         margin: 0 auto
                                     @include responsivo(pcMedio)
                                         font-size: 22.5px
