@@ -326,6 +326,13 @@ wp_insert_term(
         'parent'=> $parent_term_id ));
 
 wp_insert_term(
+        'December popup', // the term
+        'popup-category-tax', // the taxonomy
+        array(
+        'slug' => 'december_popup',
+        'parent'=> $parent_term_id ));
+
+wp_insert_term(
         'Promo 1m popup 2023', // the term
         'popup-category-tax', // the taxonomy
         array(

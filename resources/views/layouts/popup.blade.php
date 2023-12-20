@@ -52,10 +52,10 @@
             </script>
             @foreach ($x as $item)
                 @php
-                    $nav = ACF_CUSTOM::_getField('bootstrap_popup_template', $item);
+                    $popup = ACF_CUSTOM::_getField('bootstrap_popup_template', $item);
                 @endphp
 
-                @if ($nav != null && $nav == 'popup-bootstrap-general-t1')
+                @if ($popup != null && $popup == 'popup-bootstrap-general-t1')
                     @php
                         $parameters = [
                             'popup_call_class' => ACF_CUSTOM::_getField('popup_call_class', $item),
@@ -76,7 +76,7 @@
                     @popup_general_t1($parameters)
                     @endpopup_general_t1
                 @endif
-                @if ($nav != null && $nav == 'popup-bootstrap-general-blue-t2')
+                @if ($popup != null && $popup == 'popup-bootstrap-general-blue-t2')
                     @php
                         $parameters = [
                             'popup_call_class' => ACF_CUSTOM::_getField('popup_call_class', $item),
@@ -98,7 +98,7 @@
                     @endpopup_general_blue_t2
                 @endif
 
-                @if ($nav != null && $nav == 'popup-bootstrap-general-2022')
+                @if ($popup != null && $popup == 'popup-bootstrap-general-2022')
                     @php
                         $parameters = [
                             'popup_call_class' => ACF_CUSTOM::_getField('popup_call_class', $item),
@@ -123,7 +123,7 @@
                     @endpopup_general_2022
                 @endif
 
-                @if ($nav != null && $nav == 'popup-bootstrap-blackFriday-2022')
+                @if ($popup != null && $popup == 'popup-bootstrap-blackFriday-2022')
                     @php
                         $parameters = [
                             'popup_call_class' => ACF_CUSTOM::_getField('popup_call_class', $item),
@@ -148,7 +148,32 @@
                     @endpopup_blackFriday_2022
                 @endif
 
-                @if ($nav != null && $nav == 'popup-general-special-1m-promo-2023')
+                @if ($popup != null && $popup == 'popup-bootstrap-december')
+                    @php
+                        $parameters = [
+                            'popup_call_class' => ACF_CUSTOM::_getField('popup_call_class', $item),
+                            'popup_imageTitle' => ACF_CUSTOM::_getField('popup_imageTitle', $item),
+                            'popup_image' => ACF_CUSTOM::_getField('popup_image', $item),
+                            'popup_after_imageText' => ACF_CUSTOM::_getField('popup_after_imageText', $item),
+                            'popup_principalTitle' => ACF_CUSTOM::_getField('popup_principalTitle', $item),
+                            'enable_custom_background' => ACF_CUSTOM::_getField('enable_custom_background', $item),
+                            'custom_background_type' => ACF_CUSTOM::_getField('custom_background_type', $item),
+                            'popup_background_color' => ACF_CUSTOM::_getField('popup_background_color', $item),
+                            'popup_background_gradient' => ACF_CUSTOM::_getField('popup_background_gradient', $item),
+                            'popup_background_image' => ACF_CUSTOM::_getField('popup_background_image', $item),
+                            'form_title' => ACF_CUSTOM::_getField('form_title', $item),
+                            'form_shortcode' => ACF_CUSTOM::_getField('form_shortcode', $item),
+                            'form_redirect' => ACF_CUSTOM::_getField('form_redirect', $item),
+                            'popup_direction' => ACF_CUSTOM::_getField('popup_direction', $item),
+                        ];
+
+                    @endphp
+
+                    @popup_december( $parameters )
+                    @endpopup_december
+                @endif
+
+                @if ($popup != null && $popup == 'popup-general-special-1m-promo-2023')
                     @php
                         $parameters = [
                             'popup_call_class' => ACF_CUSTOM::_getField('popup_call_class', $item),
@@ -166,7 +191,7 @@
                     @endpopup_promo_1m_2023
                 @endif
 
-                @if ($nav != null && $nav == 'popup-general-special-14f-promo-2023')
+                @if ($popup != null && $popup == 'popup-general-special-14f-promo-2023')
                     @php
                         $parameters = [
                             'popup_call_class' => ACF_CUSTOM::_getField('popup_call_class', $item),
@@ -184,7 +209,7 @@
                     @endpopup_promo_14f_2023
                 @endif
 
-                @if ($nav != null && $nav == 'popup-bootstrap-special-message')
+                @if ($popup != null && $popup == 'popup-bootstrap-special-message')
                     @php
                         $parameters = [
                             'popup_call_class' => ACF_CUSTOM::_getField('popup_call_class', $item),

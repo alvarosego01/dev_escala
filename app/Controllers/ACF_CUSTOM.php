@@ -457,6 +457,7 @@ class ACF_CUSTOM extends Controller
                     'choices' => [
                         'headerband_promo_t1' => 'Adquiere un Plan PRO y llévate hasta 2 meses TOTALMENTE GRATIS. Haz clic aquí y habla con un asesor',
                         'headerband_blackFriday_promo_t2' => 'Black Friday',
+                        'headerband_december_promo_t1' => 'Promo Diciembre',
                         'headerband_special_1m_promo_t1' => '¡POR POCOS DÍAS! Gana un mes gratis para escalar tu negocio este 2023',
                         'headerband_special_14f_promo_t1' => 'San Valentín te flecha con  30% de descuento*',
                         'headerBand_whatsapp_T1' => '¡Escala ahora potencia WhatsApp! - conoce las nuevas herramientas',
@@ -1554,6 +1555,7 @@ class ACF_CUSTOM extends Controller
                         'popup-bootstrap-general-blue-t2' => 'Popup general 2 blue',
                         'popup-bootstrap-general-2022' => 'Popup general 2022',
                         'popup-bootstrap-blackFriday-2022' => 'Popup black friday 2022',
+                        'popup-bootstrap-december' => 'Popup december',
                         'popup-general-special-1m-promo-2023' => 'Popup promo 1m 2023',
                         'popup-general-special-14f-promo-2023' => 'Popup promo 14f 2023',
                         'popup-bootstrap-special-message' => 'Nota special message',
@@ -1904,6 +1906,170 @@ class ACF_CUSTOM extends Controller
                         'param' => 'post_taxonomy',
                         'operator' => '==',
                         'value' => 'popup-category-tax:blackFriday_popup_2022',
+                    ],
+                ],
+            ],
+        ],
+            [
+                'key' => 'bootstrap_popups_december_settings',
+                'title' => 'Bootstrap popup december options',
+            'fields' => [
+                [
+                    'key' => 'popup_call_class',
+                    'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                    'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                    'type' => 'text',
+                ],
+                [
+                    'key' => 'popup_imageTitle',
+                    'label' => 'Popup image title text',
+                    'name' => 'Popup image title text',
+                    'type' => 'textarea',
+                ],
+                [
+                    'key' => 'popup_image',
+                    'label' => 'Popup image',
+                    'name' => 'Popup image',
+                    'type' => 'image',
+                ],
+                [
+                    'key' => 'popup_after_imageText',
+                    'label' => 'Popup after image title text',
+                    'name' => 'Popup after image title text',
+                    'type' => 'textarea',
+                ],
+                [
+                    'key' => 'popup_principalTitle',
+                    'label' => 'Popup title text',
+                    'name' => 'Popup title text',
+                    'type' => 'textarea',
+                ],
+                [
+                    'key' => 'enable_custom_background',
+                    'label' => '¿Use custom background?',
+                    'name' => '¿Use custom background?',
+                    'type' => 'true_false',
+                ],
+                [
+                    'key' => 'custom_background_type',
+                    'label' => 'Custom background type',
+                    'name' => 'Custom background type',
+                    'type' => 'select',
+                    'choices' => [
+                        'solid_color' => 'Solid color',
+                        'color_gradient' => 'Color gradient',
+                        'background_image' => 'Background image',
+                    ],
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_background',
+                                'operator' => '==',
+                                'value' => 1,
+                            ],
+                        ],
+                    ],
+                ],
+                [
+                    'key' => 'popup_background_color',
+                    'label' => 'Popup background color',
+                    'name' => 'Popup background color',
+                    'type' => 'color_picker',
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_background',
+                                'operator' => '==',
+                                'value' => 1,
+                            ],
+                            [
+                                'field' => 'custom_background_type',
+                                'operator' => '==',
+                                'value' => 'solid_color',
+                            ],
+                        ],
+                    ],
+                ],
+                [
+                    'key' => 'popup_background_gradient',
+                    'label' => 'Popup background gradient CSS',
+                    'name' => 'Popup background gradient CSS',
+                    'type' => 'textarea',
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_background',
+                                'operator' => '==',
+                                'value' => 1,
+                            ],
+                            [
+                                'field' => 'custom_background_type',
+                                'operator' => '==',
+                                'value' => 'color_gradient',
+                            ],
+                        ],
+                    ],
+                ],
+                [
+                    'key' => 'popup_background_image',
+                    'label' => 'Popup background image',
+                    'name' => 'Popup background image',
+                    'type' => 'image',
+                    'conditional_logic' => [
+                        [
+                            [
+                                'field' => 'enable_custom_background',
+                                'operator' => '==',
+                                'value' => 1,
+                            ],
+                            [
+                                'field' => 'custom_background_type',
+                                'operator' => '==',
+                                'value' => 'background_image',
+                            ],
+                        ],
+                    ],
+                ],
+                [
+                    'key' => 'form_title',
+                    'label' => 'Form title',
+                    'name' => 'Form title',
+                    'type' => 'text',
+                ],
+                [
+                    'key' => 'form_shortcode',
+                    'label' => 'Shortcode form',
+                    'name' => 'Shortcode form',
+                    'type' => 'text',
+                ],
+                [
+                    'key' => 'form_redirect',
+                    'label' => 'Form redirect url',
+                    'name' => 'Form redirect url',
+                    'type' => 'url',
+                ],
+                [
+                    'key' => 'popup_direction',
+                    'label' => 'Popup direction',
+                    'name' => 'Popup direction',
+                    'type' => 'select',
+                    'choices' => [
+                        'right_side' => 'Right side',
+                        'left_side' => 'Left side',
+                    ],
+                ],
+            ],
+            'location' => [
+                [
+                    [
+                        'param' => 'post_type',
+                        'operator' => '==',
+                        'value' => 'bootstrap_popups',
+                    ],
+                    [
+                        'param' => 'post_taxonomy',
+                        'operator' => '==',
+                        'value' => 'popup-category-tax:december_popup',
                     ],
                 ],
             ],
