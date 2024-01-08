@@ -63,7 +63,7 @@ class SetComponents extends Controller
             'components.headerBands.component-headerBand-whatsapp-T1' => 'headerBand_whatsapp_T1',
             'components.headerBands.component-headerBand-blackFriday-T1' => 'headerband_blackFriday_promo_t2',
             'components.headerBands.component-headerBand-december-T1' => 'headerband_december_promo_t1',
-            'components.headerBands.component-headerBand-special-promo-1m-T1' => 'headerband_special_1m_promo_t1',
+            'components.headerBands.component-headerBand-free-11' => 'headerband_promo_freeclass_t1',
             'components.headerBands.component-headerBand-special-promo-14f-T1' => 'headerband_special_14f_promo_t1',
         ];
     }

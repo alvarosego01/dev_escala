@@ -53,10 +53,15 @@
 
         @endif
 
-        @if ($l2 != null && $l2 == 'headerband_special_1m_promo_t1')
+        @if ($l2 != null && $l2 == 'headerband_promo_freeclass_t1')
 
-            @headerband_special_1m_promo_t1($parameters)
-            @endheaderband_special_1m_promo_t1
+            @headerband_promo_freeclass_t1($parameters)
+            @endheaderband_promo_freeclass_t1
+
+            <script>
+                jQuery('section.headerband_promo_freeclass_t1').appendTo('header');
+                jQuery('header').addClass('withHeaderBand');
+            </script>
 
         @endif
 
