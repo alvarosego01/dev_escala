@@ -9,7 +9,7 @@
             <div class="containElements">
 
                 <span class="hashTitle" style="color: white">
-                    Planifica tu 2024 para escalar -&nbsp;<span style="color: #FAD872">Masterclass gratuita:</span> Enero 11
+                    Planifica tu 2024 para escalar -&nbsp;<span style="color: #FAD872">Masterclass gratuita:</span> Enero 25
                 </span>
 
                 <a href="https://experiencia.escala.com/eventos-escala" class="secondaryButton hoverInEffect">
