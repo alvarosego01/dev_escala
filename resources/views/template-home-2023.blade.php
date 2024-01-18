@@ -500,7 +500,7 @@
 
                                         </div>
 
-                                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                             Recibir un demo
                                         </a>
 
@@ -549,11 +549,11 @@
                                 sin agregar costos operativos a su empresa
                             </p>
                             {{--
-                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                 Conversa con un asesor Escala
                             </a>
                              --}}
-                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                 Conversa con un asesor Escala
                             </a>
 
@@ -1336,7 +1336,7 @@
                             </div>
                             <div class="btn-cta col-md-12 col-lg-12">
 
-                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                     Recibe un demo personalilzado
                                 </a>
                             </div>
@@ -1374,7 +1374,7 @@
                                     para hacer crecer tu negocio y desarrollar una <br class="desktopTabletElement">
                                     ventaja competitiva única en el mercado.
                                 </p>
-                                <a class=" outlineWhiteButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                                <a class=" outlineWhiteButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                     Aprender más
                                 </a>
 
@@ -1414,7 +1414,7 @@
                                     Si en los primeros 20 días no estás satisfecho <br class="desktopTabletElement">
                                     con el valor que recibes, te devolvemos el dinero.
                                 </p>
-                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                     Solicita un demo
                                 </a>
 

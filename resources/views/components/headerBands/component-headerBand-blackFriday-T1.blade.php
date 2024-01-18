@@ -16,7 +16,7 @@ style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_bla
                         <p class="text">
                             ¡Por tiempo limitado, suscríbete y gana <span style="color: #FAD872;">2 meses gratis!</span>
                         </p>
-                        <a href="#" class="primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                        <a href="#" class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                             Activar oferta
                         </a>
 
