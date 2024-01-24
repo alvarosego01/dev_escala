@@ -440,12 +440,33 @@
                         ],
                     ],
                 ],
+                [
+                    'name' => 'Reportes personalizados',
+                    'subItems' => [
+                        [
+                            'name' => 'Plantillas prediseñadas ',
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => "Distintos tipos de gráficos",
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+                        ],
+                        [
+                            'name' => 'Cantidad de reportes',
+                            'value' => ['disabledIcon', 'Ilimitados', 'Ilimitados'],
+                        ],
+                        [
+                            'name' => 'Descarga de reportes en excel',
+                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+                        ],
+
+                    ],
+                ],
             ],
         ],
     ];
 
 @endphp
-
 
 
 <div id="subPage_pricing_2023">
