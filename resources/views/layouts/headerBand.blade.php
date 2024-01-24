@@ -65,6 +65,18 @@
 
         @endif
 
+        @if ($l2 != null && $l2 == 'headerband_reports')
+
+            @headerband_reports($parameters)
+            @endheaderband_reports
+
+            <script>
+                jQuery('section.headerband_reports').appendTo('header');
+                jQuery('header').addClass('withHeaderBand');
+            </script>
+
+        @endif
+
         @if ($l2 != null && $l2 == 'headerband_special_14f_promo_t1')
 
             @headerband_special_14f_promo_t1($parameters)

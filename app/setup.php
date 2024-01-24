@@ -184,6 +184,11 @@ add_action('wp_enqueue_scripts', function () {
 
         //  SUB PAGES----------------------------------------------------
 
+        // --- Template subpage reportes 2023
+        if (is_page_template('views/template-subPage-reports-2024.blade.php')) {
+            wp_enqueue_style('subPage_reports_2024.css', asset_path('styles/pages/subPages/subPage_reports_2024.css'), false, THEME_VERSION);
+        }
+
         // --- Template Acompanamiento 2023
         if (is_page_template('views/template-subPage-acompanamiento-2023.blade.php')) {
             wp_enqueue_style('subPage_acompanamiento_2023.css', asset_path('styles/pages/subPages/subPage_acompanamiento_2023.css'), false, THEME_VERSION);

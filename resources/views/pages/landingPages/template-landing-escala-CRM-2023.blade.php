@@ -2,32 +2,6 @@
 
     <div class="sections">
 
-     {{--    @header_t1([
-            'backgroundImageType' => true,
-            'overlay' => false,
-            'classSection' => 'threeCol landing_CRM_2023 landing_CRM_2023_0',
-            'title' => '
-                El CRM con IA, WhatsApp <br class="space">
-                y  herramientas de <br class="space">
-                marketing <span>
-                    para vender <br class="space">
-                    más y mejor
-                </span>
-                    ',
-            'text' => '
-                    Convierte más contactos en clientes fieles <br class="desktopTabletElement">
-                    con Escala, una plataforma todo-en-uno muy <br class="desktopTabletElement">
-                    fácil de usar que tu equipo ¡sí querrá usar!
-                    ',
-            'threeCol' => true,
-              'textForm' => 'Recibe un demo-tour <br class="space"> personalizado de Escala',
-            'backgroundImage' => App::setFilePath('/assets/images/banners/bg_landing_CRM_0.svg'),
-            'overlayImage' => null,
-            'image' => App::setFilePath('/assets/images/person/am/landing_crm_am_1.png'),
-            'img_alt' => 'Ilustración Andrés Moreno, CEO de Escala, embudos de venta'
-        ])
-        @endheader_t1 --}}
-
          @php
                                    $elementsReviews = [
                                        [
