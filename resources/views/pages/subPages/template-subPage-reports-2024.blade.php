@@ -45,7 +45,7 @@
 
                                         <div class="containerImage">
                                             <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta"
-                                                src="{{ App::setFilePath('/assets/images/person/am/landing_crm_am_1.png') }}"
+                                                src="{{ App::setFilePath('/assets/images/person/am/am_yellow_circle.png') }}"
                                                 loading="lazy">
                                         </div>
 
@@ -577,7 +577,7 @@
              </section>
 
 
-     <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_4.svg') !!})"
+     <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_4.png') !!})"
             class="customSection sectionParent subPage_reports_9">
 
             <div class="section-row">
