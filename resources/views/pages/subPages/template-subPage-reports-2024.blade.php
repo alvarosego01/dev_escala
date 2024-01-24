@@ -489,6 +489,28 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/2automatiza-post-registro.gif'),
                 'title' => '
+                  Actualización de la <br class="space">
+                información <span>en tiempo real</span>
+                ',
+                'text' => '
+                    Encuentra datos siempre frescos para <br class="desktopTabletElement">
+                    construir reportes que van al ritmo de <br class="desktopTabletElement">
+                    tu negocio.
+                ',
+                'enableButton' => false,
+                'urlButton' => '#lead-form',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'side' => 'right',
+                ],
+                [
+                'type' => 'backgroundColor',
+                'classSection' => 'subPage_reports_6',
+                'enableTitle' => false,
+                'titlePrincipal' => null,
+                'subTitlePrincipal' => null,
+                'img' => App::setFilePath('/assets/images/gifs/2automatiza-post-registro.gif'),
+                'title' => '
                     Las vistas amigables <br class="space">
                     <span>simplifican el análisis</span>
                 ',
@@ -501,7 +523,7 @@
                 'urlButton' => '#lead-form',
                 'textButton' => 'Recibe un demo',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'right',
+                'side' => 'left',
                 ],
                 [
                 'type' => 'backgroundColor',
@@ -522,7 +544,7 @@
                 'urlButton' => '#lead-form',
                 'textButton' => 'Recibe un demo',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'left',
+                'side' => 'right',
                 ]
             )
         @endphp

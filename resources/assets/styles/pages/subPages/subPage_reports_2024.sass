@@ -893,14 +893,14 @@
             background-position: 35% center
         @include responsivo(general)
             height: 575px
-            top: 150px
+            top: 200px
             background-position: 35% center
         @include responsivo(smallPcTablet)
             height: 550px
             top: 200px
         @include responsivo(resto)
             height: 550px
-            top: 150px
+            top: 200px
             background-position: 35% center
     .overlay_2
         left: 0
@@ -918,14 +918,14 @@
             top: 550px
         @include responsivo(general)
             height: 450px
-            top: 725px
-            background-position: 77% center
+            top: 540px
+            background-position: 85% center
         @include responsivo(smallPcTablet)
-            background-position: 70% center
+            background-position: 75% center
         @include responsivo(resto)
             height: 400px
-            top: 725px
-            background-position: 85% center
+            top: 540px
+            background-position: 90% center
     .overlay_3
         right: 0
         bottom: 0
@@ -946,6 +946,14 @@
             height: 350px
             bottom: -100px
             background-position: 32.5% center
+
+#subPage_reports .subPage_reports_3
+    .section-row
+        @include responsivo(telefonoTable)
+            padding-top: 25px!important
+        @include responsivo(pcMedio)
+            padding-top: 50px!important
+
 
 #subPage_reports .subPage_reports_3,
 #subPage_reports .subPage_reports_4,
@@ -1117,10 +1125,13 @@
                     flex-direction: row
                 .info
                     @include responsivo(general)
-                        padding-left: 100px
+                        padding-left: 85px
                         padding-right: 35px
+                    @include responsivo(smallPcTablet)
+                        padding-left: 40px
+                        padding-right: 20px
                     @include responsivo(resto)
-                        padding-left: 100px
+                        padding-left: 85px
                         padding-right: 35px
                 .image
                     img
@@ -1148,6 +1159,10 @@
                             margin-left: 0
 
 #subPage_reports .subPage_reports_8
+    @include responsivo(general)
+        padding-bottom: 0
+    @include responsivo(resto)
+        padding-bottom: 0
     .innerSectionElement.sct1
         display: flex
         justify-content: center
