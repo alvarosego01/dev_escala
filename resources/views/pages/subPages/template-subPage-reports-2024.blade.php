@@ -313,9 +313,11 @@
                         <div class="row">
 
                             <div class="col-md-12 col-lg-5 selectors">
+
                                 @php
                                     $elements = [
                                         [
+                                            'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_01.png'),
                                             'title' => 'Leads generados',
                                             'icon' => null,
                                             'text' => '
@@ -323,18 +325,21 @@
                                                 ',
                                         ],
                                         [
+                                            'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_02.png'),
                                             'title' => 'Cumplimiento en ventas',
                                             'icon' => null,
                                             'text' => '
                                             Compara el resultado comercial, frente <br class="desktopTabletElement"> a los objetivos proyectados.',
                                         ],
                                         [
+                                            'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_03.png'),
                                             'title' => 'Perfil de tus contactos',
                                             'icon' => null,
                                             'text' => '
                                                 Explora fácilmente la distribución <br class="desktopTabletElement"> de perfiles entre clientes y prospectos.',
                                         ],
                                         [
+                                            'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_04.png'),
                                             'title' => 'Estado de tu embudo',
                                             'icon' => null,
                                             'text' => '
@@ -369,10 +374,9 @@
 
                                         var index = jQuery(this).attr('info_index');
 
+                                            setTimeout(() => {
                                         jQuery('.showInfoSelectors .infoIn .text').html(infoArray[index]['text']);
                                         jQuery('.showInfoSelectors .infoIn .image .containerImage img').attr('src', infoArray[index]['img']);
-
-                                            setTimeout(() => {
                                         jQuery('.showInfoSelectors .infoIn .image .containerImage img').addClass('animate__animated animate__fadeInRight');
                                             }, 100);
 
