@@ -12,8 +12,8 @@
 
                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_reports_headerband.png') !!}" alt="" class="icon">
 
-                <span class="hashTitle" style="color: white">
-                   Toma mejores decisiones con reportes que creas en minutos
+                <span class="hashTitle" >
+                   ¡Los reportes personalizados ya están disponibles!
                 </span>
 
                 <span class="sub">
