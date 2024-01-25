@@ -170,7 +170,7 @@
                                 <div class="image">
                                     <div class="containerImage">
                                         <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta"
-                                            src="{{ App::setFilePath('/assets/images/person/am/landing_crm_am_1.png') }}"
+                                            src="{{ App::setFilePath('/assets/images/person/am/am_yellow_circle.png') }}"
                                             loading="lazy">
                                     </div>
 

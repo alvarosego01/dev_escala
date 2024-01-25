@@ -5,7 +5,7 @@
             "name" => '<span class="blueLightColor12">Acompañamiento</span>',
             "items" => array(
                  [
-                    "name" => 'Gerente Éxito asignado',
+                    "name" => 'Gerente Éxito Asignado',
                     "subItems" => array(
                         [
                             "name" => "Todo el año",
@@ -28,7 +28,7 @@
                  ],
 
                  [
-                    "name" => 'Configuración plataforma',
+                    "name" => 'Configuración Plataforma',
                     "subItems" => array(
                         [
                             "name" => "Conexión de dominios",
@@ -51,7 +51,7 @@
 
                  ],
                  [
-                    "name" => 'Chat soporte técnico',
+                    "name" => 'Chat Soporte Técnico',
                     "subItems" => array(
                         [
                             "name" => "Chat plataforma",
@@ -87,7 +87,7 @@
             'name' => '<span class="blueLightColor12">Formación</span>',
             'items' => [
                 [
-                    'name' => 'Entrenamiento en vivo',
+                    'name' => 'Entrenamiento En Vivo',
                     'subItems' => [
                         [
                             'name' => 'Bootcamp Escala Ventas',
@@ -108,7 +108,7 @@
                     ]
 ],
                 [
-                    'name' => 'Educación autoguiada online',
+                    'name' => 'Educación Autoguiada Online',
                     'subItems' => [
                         [
                             'name' => 'Artículos y videotutoriales',
@@ -250,7 +250,7 @@
                     ],
                 ],
                 [
-                    'name' => 'Email marketing',
+                    'name' => 'Email Marketing',
                     'subItems' => [
                         [
                             'name' => 'Número de emails por mes',
@@ -399,7 +399,7 @@
                     ],
                 ],
                 [
-                    'name' => 'Inteligencia artificial',
+                    'name' => 'Inteligencia Artificial',
                     'subItems' => [
                         [
                             'name' => 'Generador de contenido para landing pages',
@@ -416,7 +416,7 @@
                     ],
                 ],
                 [
-                    'name' => 'Planificador estratégico y táctico',
+                    'name' => 'Planificador Estratégico y Táctico',
                     'subItems' => [
                         [
                             'name' => 'Diseñador de embudos',
@@ -441,7 +441,7 @@
                     ],
                 ],
                 [
-                    'name' => 'Reportes personalizados',
+                    'name' => 'Reportes Personalizados',
                     'subItems' => [
                         [
                             'name' => 'Plantillas prediseñadas ',

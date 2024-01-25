@@ -428,9 +428,8 @@
                                                 'title' => 'Email Marketing',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailmkt_small.png'),
                                                 'text' => '
-            <span>Envia campañas profesionales</span> <br class="space">
-            que nutran tus relaciones
-            ',
+                                                <span>Envia campañas profesionales</span> <br class="space">
+                                                que nutran tus relaciones',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_email_marketing_home_selector.gif'),
                                             ],
 
@@ -438,19 +437,17 @@
                                                 'title' => 'Anuncios digitales ',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ads_small.png'),
                                                 'text' => '
-            <span>Crea y administra campañas publicitarias</span> <br class="space">
-            pagas en Facebook a Instagram
-            ',
+                                                    <span>Crea y administra campañas publicitarias</span> <br class="space">
+                                                    pagas en Facebook a Instagram',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_ads_home_selector.gif'),
                                             ],
                                             [
-                                                'title' => 'Reportes ',
+                                                'title' => 'Reportes Personalizados',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_reports_headerband.png'),
                                                 'text' => '
                                                     <span>Toma decisiones estratégicas</span> con <br class="space">
                                                     reportes que creas en minutos. <br class="space">
-                                                    ¡Escala tu empresa con datos clave!
-            ',
+                                                    ¡Escala tu empresa con datos clave!',
                                                 'img' => App::setFilePath('/assets/images/gifs/gif_reports.gif'),
                                             ],
 
@@ -479,7 +476,6 @@
                                         var infoArray = <?php echo json_encode($elements); ?>;
 
                                         jQuery('ul.selectorInfo li').click(function(e) {
-
                                                 //  jQuery('.showInfoSelectors .infoIn .image .containerImage img').removeClass('animate__animated animate__fadeIn');
 
                                             jQuery('ul.selectorInfo li').removeClass('active');
