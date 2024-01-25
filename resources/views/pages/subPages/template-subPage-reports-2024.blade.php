@@ -363,6 +363,8 @@
                                     jQuery('ul.selectorInfo li').click(function(e) {
 
                                         jQuery('ul.selectorInfo li').removeClass('active');
+                                        jQuery('.showInfoSelectors .infoIn .image .containerImage img').removeClass('animate__animated animate__fadeInRight');
+
                                         jQuery(this).addClass('active');
 
                                         var index = jQuery(this).attr('info_index');
@@ -370,9 +372,12 @@
                                         jQuery('.showInfoSelectors .infoIn .text').html(infoArray[index]['text']);
                                         jQuery('.showInfoSelectors .infoIn .image .containerImage img').attr('src', infoArray[index]['img']);
 
+                                            setTimeout(() => {
+                                        jQuery('.showInfoSelectors .infoIn .image .containerImage img').addClass('animate__animated animate__fadeInRight');
+                                            }, 100);
+
                                     });
                                 </script>
-
 
                             </div>
 
@@ -422,7 +427,7 @@
                     se logra en pocos clics
                 ',
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/1El-CRM-guarda-automáticamente.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/1.reports_Plantillas-listas-para-usar.gif'),
                 'title' => '
                     Ahorra tiempo con <br class="space">
                     <span>plantillas pre-diseñadas</span>
@@ -444,7 +449,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2automatiza-post-registro.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/2.reports_Reportes desde cero.gif'),
                 'title' => '
                         Construye reportes <br class="space">
                         <span>fácilmente desde cero</span>
@@ -466,7 +471,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/1El-CRM-guarda-automáticamente.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/3.reports_Distintos tipos de gráficos.gif'),
                 'title' => '
                     Crea distintos tipos <br class="space">
                     <span>de gráficos</span>
@@ -487,7 +492,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2automatiza-post-registro.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/4.reports_Reportes-en-tiempo-real.gif'),
                 'title' => '
                   Actualización de la <br class="space">
                 información <span>en tiempo real</span>
@@ -509,7 +514,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2automatiza-post-registro.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/5.reports_Vista simplificada.gif'),
                 'title' => '
                     Las vistas amigables <br class="space">
                     <span>simplifican el análisis</span>
@@ -531,7 +536,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2automatiza-post-registro.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/6.reports_descargas.gif'),
                 'title' => '
                     Descarga los reportes <br class="space">
                     <span>para compartir</span>

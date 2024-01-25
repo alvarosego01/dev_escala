@@ -345,6 +345,8 @@ add_action('wp_enqueue_scripts', function () {
 
     wp_enqueue_script('sweetAlert', 'https://cdn.jsdelivr.net/npm/sweetalert2@11', ['jquery'], THEME_VERSION, true);
 
+     wp_enqueue_style('animate.css', get_template_directory_uri().'/../oceanwp-child/resources/assets/library/animate.css/animate.min.css', false);
+
     wp_enqueue_style('videoJS.css', get_template_directory_uri().'/../oceanwp-child/resources/assets/library/video.js/video-js.min.css', false);
 
     wp_enqueue_script('owl.js', get_template_directory_uri().'/../oceanwp-child/resources/assets/library/owl/owl.carousel.min.js', ['jquery'], true);

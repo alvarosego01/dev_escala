@@ -443,6 +443,16 @@
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_ads_home_selector.gif'),
                                             ],
+                                            [
+                                                'title' => 'Reportes ',
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_reports_headerband.png'),
+                                                'text' => '
+                                                    <span>Toma decisiones estratégicas</span> con <br class="space">
+                                                    reportes que creas en minutos. <br class="space">
+                                                    ¡Escala tu empresa con datos clave!
+            ',
+                                                'img' => App::setFilePath('/assets/images/gifs/gif_reports.gif'),
+                                            ],
 
                                         ];
                                     @endphp
@@ -470,6 +480,8 @@
 
                                         jQuery('ul.selectorInfo li').click(function(e) {
 
+                                                //  jQuery('.showInfoSelectors .infoIn .image .containerImage img').removeClass('animate__animated animate__fadeIn');
+
                                             jQuery('ul.selectorInfo li').removeClass('active');
                                             jQuery(this).addClass('active');
 
@@ -477,6 +489,11 @@
 
                                             jQuery('.showInfoSelectors .infoIn .text').html(infoArray[index]['text']);
                                             jQuery('.showInfoSelectors .infoIn .image .containerImage img').attr('src', infoArray[index]['img']);
+
+                                        //                    setTimeout(() => {
+                                        // jQuery('.showInfoSelectors .infoIn .image .containerImage img').addClass('animate__animated animate__fadeIn');
+                                        //     }, 100);
+
 
                                         });
                                     </script>
