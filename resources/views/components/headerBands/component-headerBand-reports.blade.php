@@ -18,7 +18,7 @@
 
                 <span class="sub">
                     Mide, analiza y optimiza <br class="space">
-                    tus procesos.
+                    tus resultados
                 </span>
 
                  <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
