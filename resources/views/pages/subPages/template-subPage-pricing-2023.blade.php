@@ -456,7 +456,7 @@
                             'value' => ['disabledIcon', 'Ilimitados', 'Ilimitados'],
                         ],
                         [
-                            'name' => 'Descarga de reportes en excel',
+                            'name' => 'Descarga de reportes en Excel',
                             'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
                         ],
 
