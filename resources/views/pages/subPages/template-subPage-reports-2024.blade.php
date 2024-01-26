@@ -61,8 +61,7 @@
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
-                                            Nuestro CRM facilita obtener la información <br
-                                                class="space">
+                                            Nuestro CRM facilita obtener la información <br class="space">
                                             que necesitas para escalar tu PYME
                                         </p>
 
@@ -344,7 +343,7 @@
                                             'icon' => null,
                                             'text' => '
                                             Mide, evalúa y optimiza las etapas <br class="desktopTabletElement"> de tu proceso comercial.',
-                                        ]
+                                        ],
                                     ];
                                 @endphp
 
@@ -353,7 +352,7 @@
                                     @foreach ($elements as $item)
                                         <li class="element    @if ($loop->first) active @endif"
                                             info_index="{!! $loop->index !!}">
-                                             <h3>
+                                            <h3>
                                                 {!! $item['title'] !!}
                                             </h3>
                                         </li>
@@ -362,23 +361,25 @@
                                 </ul>
 
                                 <script type="text/javascript">
-
                                     var infoArray = @php echo json_encode($elements); @endphp;
 
                                     jQuery('ul.selectorInfo li').click(function(e) {
 
                                         jQuery('ul.selectorInfo li').removeClass('active');
-                                        jQuery('.showInfoSelectors .infoIn .image .containerImage img').removeClass('animate__animated animate__fadeInRight');
+                                        jQuery('.showInfoSelectors .infoIn .image .containerImage img').removeClass(
+                                            'animate__animated animate__fadeInRight');
 
                                         jQuery(this).addClass('active');
 
                                         var index = jQuery(this).attr('info_index');
 
-                                            setTimeout(() => {
-                                        jQuery('.showInfoSelectors .infoIn .text').html(infoArray[index]['text']);
-                                        jQuery('.showInfoSelectors .infoIn .image .containerImage img').attr('src', infoArray[index]['img']);
-                                        jQuery('.showInfoSelectors .infoIn .image .containerImage img').addClass('animate__animated animate__fadeInRight');
-                                            }, 100);
+                                        setTimeout(() => {
+                                            jQuery('.showInfoSelectors .infoIn .text').html(infoArray[index]['text']);
+                                            jQuery('.showInfoSelectors .infoIn .image .containerImage img').attr('src', infoArray[index]
+                                                ['img']);
+                                            jQuery('.showInfoSelectors .infoIn .image .containerImage img').addClass(
+                                                'animate__animated animate__fadeInRight');
+                                        }, 100);
 
                                     });
                                 </script>
@@ -421,194 +422,184 @@
         </section>
 
         @php
-            $elements = array(
+            $elements = [
                 [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_reports_3',
-                'enableTitle' => true,
-                'titlePrincipal' => '
+                    'type' => 'backgroundColor',
+                    'classSection' => 'subPage_reports_3',
+                    'enableTitle' => true,
+                    'titlePrincipal' => '
                     Crear potentes reportes de marketing y ventas <br class="desktopTabletElement">
                     se logra en pocos clics
                 ',
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/1.reports_Plantillas-listas-para-usar.gif'),
-                'title' => '
+                    'subTitlePrincipal' => null,
+                    'img' => App::setFilePath('/assets/images/gifs/1.reports_Plantillas-listas-para-usar.gif'),
+                    'title' => '
                     Ahorra tiempo con <br class="space">
                     <span>plantillas pre-diseñadas</span>
                 ',
-                'text' => '
+                    'text' => '
                     En Escala encontrarás reportes <br class="desktopTabletElement">
                     “base” para agilizar la construcción <br class="desktopTabletElement">
                     de los mismos.
                 ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'left',
+                    'enableButton' => false,
+                    'urlButton' => '#lead-form',
+                    'textButton' => 'Recibe un demo',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                    'side' => 'left',
                 ],
                 [
-                       'type' => 'backgroundColor',
-                'classSection' => 'subPage_reports_4',
-                'enableTitle' => false,
-                'titlePrincipal' => null,
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2.reports_Reportes desde cero.gif'),
-                'title' => '
+                    'type' => 'backgroundColor',
+                    'classSection' => 'subPage_reports_4',
+                    'enableTitle' => false,
+                    'titlePrincipal' => null,
+                    'subTitlePrincipal' => null,
+                    'img' => App::setFilePath('/assets/images/gifs/2.reports_Reportes desde cero.gif'),
+                    'title' => '
                         Construye reportes <br class="space">
                         <span>fácilmente desde cero</span>
                 ',
-                'text' => '
+                    'text' => '
                     ¿No encuentras la plantilla que necesitas? <br class="desktopTabletElement">
                     ¡Calma! construye en pocos pasos los <br class="desktopTabletElement">
                     reportes que necesitas.
                 ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'right',
+                    'enableButton' => false,
+                    'urlButton' => '#lead-form',
+                    'textButton' => 'Recibe un demo',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                    'side' => 'right',
                 ],
                 [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_reports_5',
-                'enableTitle' => false,
-                'titlePrincipal' => null,
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/3.reports_Distintos tipos de gráficos.gif'),
-                'title' => '
+                    'type' => 'backgroundColor',
+                    'classSection' => 'subPage_reports_5',
+                    'enableTitle' => false,
+                    'titlePrincipal' => null,
+                    'subTitlePrincipal' => null,
+                    'img' => App::setFilePath('/assets/images/gifs/3.reports_Distintos tipos de gráficos.gif'),
+                    'title' => '
                     Crea distintos tipos <br class="space">
                     <span>de gráficos</span>
                 ',
-                'text' => '
+                    'text' => '
                     En Escala puedes generar pie charts, <br class="desktopTabletElement">
                     gráficos de barra, embudos, y más.
                 ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'left',
+                    'enableButton' => false,
+                    'urlButton' => '#lead-form',
+                    'textButton' => 'Recibe un demo',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                    'side' => 'left',
                 ],
                 [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_reports_6',
-                'enableTitle' => false,
-                'titlePrincipal' => null,
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/4.reports_Reportes-en-tiempo-real.gif'),
-                'title' => '
-                  Actualización de la <br class="space">
-                información <span>en tiempo real</span>
+                    'type' => 'backgroundColor',
+                    'classSection' => 'subPage_reports_6',
+                    'enableTitle' => false,
+                    'titlePrincipal' => null,
+                    'subTitlePrincipal' => null,
+                    'img' => App::setFilePath('/assets/images/gifs/4.reports_Reportes-en-tiempo-real.gif'),
+                    'title' => '
+                Actualización de la data <br class="space">
+                <span>en tiempo real</span>
                 ',
-                'text' => '
+                    'text' => '
                     Encuentra datos siempre frescos para <br class="desktopTabletElement">
-                    construir reportes que van al ritmo de <br class="desktopTabletElement">
-                    tu negocio.
+                    construir reportes que van al ritmo <br class="desktopTabletElement">
+                    de tu negocio.
                 ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'right',
+                    'enableButton' => false,
+                    'urlButton' => '#lead-form',
+                    'textButton' => 'Recibe un demo',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                    'side' => 'right',
                 ],
                 [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_reports_6',
-                'enableTitle' => false,
-                'titlePrincipal' => null,
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/5.reports_Vista simplificada.gif'),
-                'title' => '
+                    'type' => 'backgroundColor',
+                    'classSection' => 'subPage_reports_6',
+                    'enableTitle' => false,
+                    'titlePrincipal' => null,
+                    'subTitlePrincipal' => null,
+                    'img' => App::setFilePath('/assets/images/gifs/5.reports_Vista simplificada.gif'),
+                    'title' => '
                     Las vistas amigables <br class="space">
                     <span>simplifican el análisis</span>
                 ',
-                'text' => '
-                    Diseñamos tablas visualmente atractivas <br class="desktopTabletElement">
-                    porque leer data de esta forma permite <br class="desktopTabletElement">
-                    tomar decisiones más ágilmente.
+                    'text' => '
+                    Diseñamos reportes visualmente <br class="desktopTabletElement">
+                    atractivos porque leer data de esta forma <br class="desktopTabletElement">
+                    permite tomar decisiones más ágilmente.
                 ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'left',
+                    'enableButton' => false,
+                    'urlButton' => '#lead-form',
+                    'textButton' => 'Recibe un demo',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                    'side' => 'left',
                 ],
                 [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_reports_7',
-                'enableTitle' => false,
-                'titlePrincipal' => null,
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/6.reports_descargas.gif'),
-                'title' => '
+                    'type' => 'backgroundColor',
+                    'classSection' => 'subPage_reports_7',
+                    'enableTitle' => false,
+                    'titlePrincipal' => null,
+                    'subTitlePrincipal' => null,
+                    'img' => App::setFilePath('/assets/images/gifs/6.reports_descargas.gif'),
+                    'title' => '
                     Descarga los reportes <br class="space">
                     <span>para compartir</span>
                 ',
-                'text' => '
+                    'text' => '
                     Con un solo clic podrás descargar <br class="desktopTabletElement">
                     los reportes en formato Excel.
                 ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'right',
-                ]
-            )
+                    'enableButton' => false,
+                    'urlButton' => '#lead-form',
+                    'textButton' => 'Recibe un demo',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                    'side' => 'right',
+                ],
+            ];
         @endphp
 
 
         @if (isset($elements) && count($elements) > 0)
-                <section class="sectionInfo">
-            @foreach ($elements as $item)
-
-                @contain_text_image_T1($item)
-                @endcontain_text_image_T1
-
-
-            @endforeach
-                    {{--
+            <section class="sectionInfo">
+                @foreach ($elements as $item)
+                    @contain_text_image_T1($item)
+                    @endcontain_text_image_T1
+                @endforeach
+                {{--
                      <img src="{!!  App::setFilePath('/assets/images/banners/bg_reports_1.svg') !!}" alt="" class="overlay_1">
                     <img src="{!!  App::setFilePath('/assets/images/banners/bg_reports_2.svg') !!}" alt="" class="overlay_2">
                     <img src="{!!  App::setFilePath('/assets/images/banners/bg_reports_3.svg') !!}" alt="" class="overlay_3">
                     --}}
 
-                    <div
-                    class="overlay_1"
-                     style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_1.svg') !!})">
-                    </div>
-                    <div
-                    class="overlay_2"
-                     style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_2.svg') !!})">
-                    </div>
-                    <div
-                    class="overlay_3"
-                     style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_3.svg') !!})">
-                    </div>
-                </section>
+                <div class="overlay_1" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_1.svg') !!})">
+                </div>
+                <div class="overlay_2" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_2.svg') !!})">
+                </div>
+                <div class="overlay_3" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_3.svg') !!})">
+                </div>
+            </section>
         @endif
 
 
-             <section
-            class="customSection sectionParent subPage_reports_8">
+        <section class="customSection sectionParent subPage_reports_8">
 
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
 
-                         <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Recibir demo
-                        </a>
+                    <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                        Recibir demo
+                    </a>
 
                 </section>
 
             </div>
 
-             </section>
+        </section>
 
 
-     <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_4.png') !!})"
+        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_4.png') !!})"
             class="customSection sectionParent subPage_reports_9">
 
             <div class="section-row">
@@ -617,7 +608,7 @@
 
                     <div class="containElements">
 
-                         <div class="image">
+                        <div class="image">
 
                             <div class="containerImage">
                                 <img src="{!! App::setFilePath('/assets/images/person/am/am_reports_up.png') !!}" alt="">
@@ -636,9 +627,9 @@
                                 <br class="space"><br class="space">
 
                                 <span class="sub">
-                                Andrés Moreno
-                                <br class="space">
-                                <small>Fundador de Escala & Open English</small>
+                                    Andrés Moreno
+                                    <br class="space">
+                                    <small>Fundador de Escala & Open English</small>
                                 </span>
 
                             </p>
@@ -655,18 +646,17 @@
 
 
 
-             <section
-            class="customSection sectionParent subPage_reports_10">
+        <section class="customSection sectionParent subPage_reports_10">
 
             <div class="section-row">
 
-               <section class="innerSectionElement sct1">
+                <section class="innerSectionElement sct1">
 
                     <div class="containElements">
 
                         <h2 class="primaryTitle">
-                          <small>¿Primerizo creando reportes en tu empresa?</small>
-                          ¡Cuenta con el entrenamiento <br class="desktopTabletElement">
+                            <small>¿Primerizo creando reportes en tu empresa?</small>
+                            ¡Cuenta con el entrenamiento <br class="desktopTabletElement">
                             de nuestro equipo!
                         </h2>
 
@@ -676,7 +666,7 @@
                 <section class="innerSectionElement sct2">
 
                     <div class="containElements">
-                         <div class="containerImage">
+                        <div class="containerImage">
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/reports_notification.png') !!}" loading="lazy">
                         </div>
 
@@ -691,9 +681,9 @@
 
             </div>
 
-             </section>
+        </section>
 
-               @php
+        @php
             $parameters = [
                 'type' => 'backgroundImage',
                 'backgroundImageFile' => App::setFilePath('/assets/images/banners/bg_reports_5.svg'),
@@ -748,22 +738,21 @@
 
 
 
-             <section
-            class="customSection sectionParent subPage_reports_12">
+        <section class="customSection sectionParent subPage_reports_12">
 
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
 
-                         <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Recibir demo
-                        </a>
+                    <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                        Recibir demo
+                    </a>
 
                 </section>
 
             </div>
 
-             </section>
+        </section>
 
 
         <section class='w-full customSection sectionParent subPage_reports_13'>
@@ -773,7 +762,7 @@
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
                         <h2 class="primaryTitle">
-                      Qué dicen nuestros clientes sobre Escala
+                            Qué dicen nuestros clientes sobre Escala
                         </h2>
                     </div>
 
@@ -782,10 +771,7 @@
                     <div class='containElements'>
 
                         @php
-                            $reviews = [
-                                App::setFilePath('/assets/images/illustrations/others/report_trust_1.png'),
-                                App::setFilePath('/assets/images/illustrations/others/report_trust_2.png'),
-                                App::setFilePath('/assets/images/illustrations/others/report_trust_3.png')];
+                            $reviews = [App::setFilePath('/assets/images/illustrations/others/report_trust_1.png'), App::setFilePath('/assets/images/illustrations/others/report_trust_2.png'), App::setFilePath('/assets/images/illustrations/others/report_trust_3.png')];
                         @endphp
 
                         @foreach ($reviews as $item)
@@ -803,32 +789,31 @@
 
         </section>
 
-         <section class="sectionParent customSection subPage_reports_14">
-            <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_reports_6.svg') !!}')"
-            class="backgroundFull">
-            <div class="section-row">
-                <section class="innerSectionElement sct2">
-                    <div class="groupElements row">
+        <section class="sectionParent customSection subPage_reports_14">
+            <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_reports_6.svg') !!}')" class="backgroundFull">
+                <div class="section-row">
+                    <section class="innerSectionElement sct2">
+                        <div class="groupElements row">
 
-                         <div class="image col-md-12 col-lg-4">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/reports_rocket_up.png') !!}" loading="lazy">
+                            <div class="image col-md-12 col-lg-4">
+                                <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/reports_rocket_up.png') !!}" loading="lazy">
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="info col-md-12 col-lg-8 sectionTexts textRight">
-                            <h3 class="secondaryTitle">
-                                <span>Lo que no se mide no se puede</span> <br class="desktopTabletElement">
-                                gestionar ni optimizar
-                            </h3>
-                              <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Crear reportes ahora
+                            <div class="info col-md-12 col-lg-8 sectionTexts textRight">
+                                <h3 class="secondaryTitle">
+                                    <span>Lo que no se mide no se puede</span> <br class="desktopTabletElement">
+                                    gestionar ni optimizar
+                                </h3>
+                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                    Crear reportes ahora
                                 </a>
-                        </div>
+                            </div>
 
-                    </div>
-                </section>
-            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </section>
 
