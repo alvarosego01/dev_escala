@@ -521,7 +521,7 @@
                     'subTitlePrincipal' => null,
                     'img' => App::setFilePath('/assets/images/gifs/5.reports_Vista simplificada.gif'),
                     'title' => '
-                    Las vistas amigables <br class="space">
+                    Vistas amigables <br class="space">
                     <span>simplifican el análisis</span>
                 ',
                     'text' => '
