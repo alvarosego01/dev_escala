@@ -21,8 +21,10 @@
                     tus resultados
                 </span>
 
-                 <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Conocer Función
+                 <a
+                 href="/reportes"
+                 class=" primaryButton hoverInEffect">
+                    Conocer Reportes
                 </a>
 
             </div>
