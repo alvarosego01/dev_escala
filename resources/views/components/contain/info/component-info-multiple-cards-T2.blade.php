@@ -16,7 +16,11 @@
     @var $urlButton -  url of button | string
     @var $textButton -  define text of button | string
 
+    @var background_item
+
 )
+
+
 
 
 --}}
@@ -71,7 +75,11 @@
                 <section class="innerSectionElement sct2 ">
 
                     @foreach ($elements as $r)
-                        <div class="groupElements">
+                        <div
+                        @if (isset($r['background_item']) && $r['background_item'] != null)
+                        style="background-image: url('{{ $r['background_item'] }}')"
+                        @endif
+                        class="groupElements">
 
                             @if (isset($r['img']) && $r['img'] != null)
 
@@ -170,7 +178,12 @@
 
                 @foreach ($elements as $r)
 
-                <div class="groupElements">
+                <div
+                           @if (isset($r['background_item']) && $r['background_item'] != null)
+                        style="background-image: url('{{ $r['background_item'] }}')"
+                        @endif
+                 class="groupElements"
+                 >
 
                     @if (isset($r['img']) && $r['img'] != null)
 

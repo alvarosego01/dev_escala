@@ -112,6 +112,10 @@ add_action('wp_enqueue_scripts', function () {
         // TEMPLATE STYLES DIRECT
         // -------------------------------------- //
         // ---------------  LANDINGS
+        // ---Landing CRM automatizacion WA 2024
+        if (is_page_template('views/template-landing-CRM-automatización-WA-2024.blade.php')) {
+            wp_enqueue_style('landing_crm_automat_wa_2024.css', asset_path('styles/pages/landingPages/landing_crm_automat_wa_2024.css'), false, THEME_VERSION);
+        }
         // ---Landing escala landings 2022
         if (is_page_template('views/template-landing-escala-landings-2022.blade.php')) {
             wp_enqueue_style('landing_EscalaLandings.css', asset_path('styles/pages/landingPages/landing_EscalaLandings.css'), false, THEME_VERSION);
