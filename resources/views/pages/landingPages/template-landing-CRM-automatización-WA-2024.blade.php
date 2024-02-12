@@ -316,7 +316,7 @@
                 ',
                     'text' => '
                     <ul>
-                        <li><span>1.</span> Crea “embudos” o “pipelines” de oportunidades para recordar fácilmente dónde se encuentra cada prospecto en el proceso comercial</li>
+                        <li><span>1.</span> Crea "embudos" o "pipelines" de oportunidades, para recordar fácilmente dónde se encuentra cada prospecto en el proceso comercial.</li>
                         <li><span>2.</span> Personaliza las etapas de tu embudo o pipeline según tu proceso de venta o post-venta</li>
                         <li><span>3.</span> Mide la cantidad y el valor de las oportunidades en cada etapa</li>
                         <li><span>4.</span> Crea y asigna oportunidades automáticamente a distintos miembros de tu equipo</li>
@@ -364,7 +364,7 @@
                     'title' => '
                     <span>Ahorra tiempo y dinero</span> con <br class="space">
                     las herramientas de <br class="space">
-                    marketing conectadas el CRM
+                    marketing conectadas al CRM
                 ',
                     'text' => '
                     <ul>
@@ -432,7 +432,7 @@
                 ',
                     'text' => '
                     <ul>
-                    <li><span>1.</span> Diseña flujos de respuesta automatizadas</li>
+                    <li><span>1.</span> Diseña flujos de respuestas automatizadas</li>
                     <li><span>2.</span> Programa recordatorios, emails, etiquetas, etc.</li>
                     <li><span>3.</span> Envía mensajes masivos con plantillas aprobadas por Meta</li>
                     <li><span>4.</span> Asigna conversaciones y actividades a tu equipo</li>
@@ -574,13 +574,13 @@
                     'enableTitle' => true,
                     'titlePrincipal' => '
                     Automatiza una variedad de acciones, <br class="space">
-                    para que ahorres tiempo y esfuerzo... <br class="space">
+                    para que ahorres tiempo y esfuerzo, <br class="space">
                     ¡todo desde el mismo CRM!
                     ',
                     'subTitlePrincipal' => null,
                     'img' => App::setFilePath('/assets/images/gifs/10.landing_crm_automat_wa_Automatiza tareas simples (1).gif'),
                     'title' => '
-               <span>Automatiza</span>areas simples:
+               <span>Automatiza</span> tareas simples:
                 ',
                     'text' => '
                         Configura emails de respuesta automática, programa <br class="desktopTabletElement">
@@ -798,14 +798,14 @@
                                         automatizaciones, se convierte en el corazón <br class="desktopTabletElement">
                                         de las operaciones de todo negocio. <br class="space">
                                     </span>
-                                    Diseñamos Escala para <br class="desktopTabletElement">
+                                    Diseñamos Escala, para <br class="desktopTabletElement">
                                     facilitarle a pequeñas y medianas empresas <br class="desktopTabletElement">
                                     tener una cultura cliente-céntrica y <br class="desktopTabletElement">
                                     optimizar resultados de venta/servicio”.
                                       <br class="space"><br class="space">
                                     <span class="sub">
                                         Andrés Moreno <br class="space">
-                                        <small>Fundador de escala & Open English</small>
+                                        <small>Fundador de Escala & Open English</small>
                                     </span>
                                 </p>
 
@@ -826,7 +826,8 @@
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
                         <h2 class="primaryTitle">
-                            Qué dicen nuestros clientes sobre Escala
+                            Empezar a integrar tus operaciones <br class="space">
+                            con Escala, es muy sencillo:
                         </h2>
                     </div>
 
