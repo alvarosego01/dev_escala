@@ -870,7 +870,7 @@
                     <div class='containElements'>
 
                         @php
-                            $reviews = [App::setFilePath('/assets/images/illustrations/others/report_trust_1.png'), App::setFilePath('/assets/images/illustrations/others/report_trust_2.png'), App::setFilePath('/assets/images/illustrations/others/report_trust_3.png')];
+                            $reviews = [App::setFilePath('/assets/images/illustrations/others/landing_crm_auto_wa_trust_1.png'), App::setFilePath('/assets/images/illustrations/others/landing_crm_auto_wa_trust_2.png'), App::setFilePath('/assets/images/illustrations/others/landing_crm_auto_wa_trust_3.png')];
                         @endphp
 
                         @foreach ($reviews as $item)
