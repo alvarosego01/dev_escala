@@ -798,7 +798,7 @@
                                         automatizaciones, se convierte en el corazón <br class="desktopTabletElement">
                                         de las operaciones de todo negocio. <br class="space">
                                     </span>
-                                    Diseñamos Escala, para <br class="desktopTabletElement">
+                                    Diseñamos Escala para <br class="desktopTabletElement">
                                     facilitarle a pequeñas y medianas empresas <br class="desktopTabletElement">
                                     tener una cultura cliente-céntrica y <br class="desktopTabletElement">
                                     optimizar resultados de venta/servicio”.
