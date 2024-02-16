@@ -39,6 +39,7 @@ jobs:
                     password: ${{ secrets.PASS }}
                     port: ${{ secrets.PORT }}
                     script: |
+                        sudo su
                         rm -rf /home/alvarosegovia/domains/escala.alvarosegovia.com/public_html/wp-content/themes/oceanwp-child/*
                         unzip /tmp/build.zip -d /tmp/build
                         mv /tmp/build/* /home/alvarosegovia/domains/escala.alvarosegovia.com/public_html/wp-content/themes/oceanwp-child
