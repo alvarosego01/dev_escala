@@ -39,9 +39,8 @@ jobs:
                     password: ${{ secrets.PASS }}
                     port: ${{ secrets.PORT }}
                     script: |
-                        sudo su
-                        rm -rf /home/alvarosegovia/domains/escala.alvarosegovia.com/public_html/wp-content/themes/oceanwp-child/*
-                        unzip /tmp/build.zip -d /tmp/build
-                        mv /tmp/build/* /home/alvarosegovia/domains/escala.alvarosegovia.com/public_html/wp-content/themes/oceanwp-child
-                        rm -rf /tmp/build
-                        rm /tmp/build.zip
+                        sudo rm -rf /home/alvarosegovia/domains/escala.alvarosegovia.com/public_html/wp-content/themes/oceanwp-child/*
+                        sudo unzip /tmp/build.zip -d /tmp/build
+                        sudo mv /tmp/build/* /home/alvarosegovia/domains/escala.alvarosegovia.com/public_html/wp-content/themes/oceanwp-child
+                        sudo rm -rf /tmp/build
+                        sudo rm /tmp/build.zip
