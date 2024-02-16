@@ -1,0 +1,47 @@
+on:
+    push:
+        branches: [staging]
+    pull_request:
+        branches: [staging]
+        types: [opened, synchronize]
+
+jobs:
+    # avoid_reduncy:
+    #     runs-on: ubuntu-22.04
+    #     steps:
+    #         -   name: Cancel Previous Redundant Builds
+    #             uses: styfle/cancel-workflow-action@0.9.1
+    #             with:
+    #                 access_token: ${{ github.token }}
+    build-and-deploy:
+        # needs: [avoid_reduncy]
+        runs-on: ubuntu-latest
+        steps:
+            -   name: Checkout Repository
+                uses: actions/checkout@v4
+
+            -   name: Archive Build Output
+                run: zip -r build.zip dist functions resources functions.php style.css screenshot.png single.php
+            -   name: Copy Files to Server
+                uses: appleboy/scp-action@master
+                with:
+                    host: ${{ secrets.HOST }}
+                    username: ${{ secrets.USER }}
+                    password: ${{ secrets.PASS }}
+                    port: ${{ secrets.PORT }}
+                    source: "build.zip"
+                    target: "/tmp"
+
+            -   name: Deploy to Server
+                uses: appleboy/ssh-action@master
+                with:
+                    host: ${{ secrets.HOST }}
+                    username: ${{ secrets.USER }}
+                    password: ${{ secrets.PASS }}
+                    port: ${{ secrets.PORT }}
+                    script: |
+                        rm -rf /home/sebegfve/luiexplica.com/wp-content/themes/betheme-child/*
+                        unzip /tmp/build.zip -d /tmp/build
+                        mv /tmp/build/* /home/sebegfve/luiexplica.com/wp-content/themes/betheme-child
+                        rm -rf /tmp/build
+                        rm /tmp/build.zip
