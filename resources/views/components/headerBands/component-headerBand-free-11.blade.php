@@ -9,16 +9,13 @@
 
             <div class="containElements">
 
-                {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_reports_headerband.png') !!}" alt="" class="icon"> --}}
-
                 <span class="hashTitle" >
-                    Crea procesos comerciales ganadores - <span>Masterclass gratuita:</span>
+                    Crea Procesos Comerciales Ganadores - <span>Masterclass Gratuita:</span>
                 </span>
 
                 <span class="dateTag">
-                    febrero 22
+                    Febrero 22
                 </span>
-
 
                  <a
                  href="https://experiencia.escala.com/eventos-escala"
