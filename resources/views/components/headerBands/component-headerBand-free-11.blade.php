@@ -1,26 +1,30 @@
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_masterclass.svg') !!})"
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_band.svg') !!})"
+
  class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
-    <div class="section-row">
+  <div class="section-row">
 
         <section class="innerSectionElement sct1">
 
             <div class="containElements">
 
+                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_freeclass_reports.png') !!}" alt="" class="icon">
+
                 <span class="hashTitle" >
-                    Crea Procesos Comerciales Ganadores - <span>Masterclass Gratuita:</span>
+                   Capacitación Gratuita: Reportes Personalizados
                 </span>
 
-                <span class="dateTag">
-                    Febrero 22
+                <span class="sub">
+                    Jueves 29 de Febrero <br class="space">
+                    9:00 a.m. ET (Colombia/Miami)
                 </span>
 
                  <a
-                 href="https://experiencia.escala.com/eventos-escala"
+                 href="https://experiencia.escala.com/capacitacion-reportes-personalizados"
                  class=" orangeButton hoverInEffect">
-                    Reserva tu cupo
+                    Reserva tu Cupo
                 </a>
 
             </div>
