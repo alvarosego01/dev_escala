@@ -1068,12 +1068,9 @@
                             </h3>
                             <h2 class="title">
                                 Participa en una Masterclass gratuita <br class="desktopElement">
-                                con Andrés Moreno
+                                con el equipo de expertos de Escala
                             </h2>
-                            <p class="text">
-                                Fundador de Escala y Open English, <br class="desktopElement">
-                                reconocido “Emprendedor de la década”
-                            </p>
+
                         </div>
 
                     </section>
