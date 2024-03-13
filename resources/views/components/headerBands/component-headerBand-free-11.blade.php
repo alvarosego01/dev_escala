@@ -1,6 +1,6 @@
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_band.svg') !!})"
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/class_march_banner.svg') !!})"
 
  class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
@@ -10,20 +10,19 @@
 
             <div class="containElements">
 
-                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_freeclass_reports.png') !!}" alt="" class="icon">
+                {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_freeclass_reports.png') !!}" alt="" class="icon"> --}}
 
                 <span class="hashTitle" >
-                   Capacitación Gratuita: Reportes Personalizados
+                   Escala tus ventas con CRM  y Reportes -&nbsp;<span>Masterclass gratuita</span>
                 </span>
 
                 <span class="sub">
-                    Jueves 29 de Febrero <br class="space">
-                    9:00 a.m. ET (Colombia/Miami)
+                    21 de Marzo
                 </span>
 
                  <a
-                 href="https://experiencia.escala.com/capacitacion-reportes-personalizados"
-                 class=" orangeButton hoverInEffect">
+                 href="https://experiencia.escala.com/eventos-escala"
+                 class="greenButton hoverInEffect">
                     Reserva tu Cupo
                 </a>
 
