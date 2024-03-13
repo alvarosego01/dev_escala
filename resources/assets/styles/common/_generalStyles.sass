@@ -567,6 +567,36 @@ a
         padding: 10px 40px!important
 
 
+.greenButton,
+.menuButton.menuGreenButton a,
+.menuButton.menuGreenButton button
+    display: inline-block
+    text-decoration: none
+    line-height: 1
+    padding: 12.5px 25px!important
+    border-radius: 7px
+    color: white!important
+    background-color: #6EC7B3!important
+    width: fit-content
+    transition: $transitionButton
+    transform: scale(1)
+    font-family: Nunito
+    @include responsivo(telefonoTable)
+        font-size: 12.5px!important
+        padding: 10px 12.5px!important
+    @include responsivo(pcMedio)
+        font-size: 18px!important
+        padding: 10px 25px!important
+    @include responsivo(general)
+        font-size: 22px!important
+    @include responsivo(smallPcTablet)
+        font-size: 18px!important
+    @include responsivo(resto)
+        font-size: 22px!important
+    &.rounded
+        border-radius: 50px!important
+        padding: 10px 40px!important
+
 .orangeButton,
 .menuButton.menuOrangeButton a,
 .menuButton.menuOrangeButton button
@@ -593,7 +623,6 @@ a
         font-size: 18px!important
     @include responsivo(resto)
         font-size: 22px!important
-
     &.rounded
         border-radius: 50px!important
         padding: 10px 40px!important
