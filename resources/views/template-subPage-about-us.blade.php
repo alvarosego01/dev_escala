@@ -85,17 +85,34 @@
                         'name' => '
       Andrés Moreno <br class="space">
       <span class="greenBlueColor">El visionario</span>
-      ',
+                    ',
                         'textInfo' => '
-      Fundador y CEO de Open English, Next U y escala;<br class="desktopTabletElement">
-      Co-presidente de Endeavor Miami. Andrés es<br class="desktopTabletElement">
-      ampliamente reconocido en América Latina como<br class="desktopTabletElement">
-      un líder en emprendimiento y un modelo a seguir.<br class="space"><br class="space">
-
-      Venezolano – ha vivido en 9 países<br class="desktopTabletElement">
-      y habla 3 idiomas fluidamente.<br class="desktopTabletElement">
-      ',
+                        Fundador de Open English, Next U y Escala; <br class="desktopTabletElement">
+                        Co-presidente de Endeavor Miami. Andrés es <br class="desktopTabletElement">
+                        ampliamente reconocido en América Latina como <br class="desktopTabletElement">
+                        un líder en emprendimiento y un modelo a seguir.
+                        <br class="space"><br class="space">
+                        Venezolano – ha vivido en 9 países <br class="desktopTabletElement">
+                        y habla 3 idiomas fluidamente.
+                        ',
                         'img' => App::setFilePath('/assets/images/illustrations/team/andres.png'),
+                    ],
+                    [
+                        'name' => '
+      Alfonso Santiago <br class="space">
+      <span class="greenBlueColor">Líder ejecutivo</span>
+                    ',
+                        'textInfo' => '
+                        Ex-COO de Open English, emprendedor y <br class="desktopTabletElement">
+                        fundador de empresas vendidas en millones de <br class="desktopTabletElement">
+                        dólares. Junto a Andrés Moreno ha sido <br class="desktopTabletElement">
+                        responsable de escalar negocios, levantar cientos <br class="desktopTabletElement">
+                        de millones de capital de inversión y desarrollar <br class="desktopTabletElement">
+                        marcas líderes en LatAm.
+                        <br class="space">
+                        Papá, Argentino e hincha de Talleres de Córdoba.
+                        ',
+                        'img' => App::setFilePath('/assets/images/illustrations/team/Alfonso 1.png'),
                     ],
                     [
                         'name' => '
