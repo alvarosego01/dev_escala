@@ -110,6 +110,7 @@
                         de millones de capital de inversión y desarrollar <br class="desktopTabletElement">
                         marcas líderes en LatAm.
                         <br class="space">
+                        <br class="space">
                         Papá, Argentino e hincha de Talleres de Córdoba.
                         ',
                         'img' => App::setFilePath('/assets/images/illustrations/team/Alfonso 1.png'),
