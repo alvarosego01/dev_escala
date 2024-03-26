@@ -1,6 +1,6 @@
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/class_march_banner.svg') !!})"
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_class_04apr24.svg') !!})"
 
  class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
@@ -13,11 +13,11 @@
                 {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_freeclass_reports.png') !!}" alt="" class="icon"> --}}
 
                 <span class="hashTitle" >
-                   Escala tus ventas con CRM  y Reportes -&nbsp;<span>Masterclass gratuita</span>
+               Escala tus ventas con CRM  y Automatizaciones
                 </span>
-
+                <div class="separator"></div>
                 <span class="sub">
-                    21 de Marzo
+                    Masterclass gratuita - 4 de Abril
                 </span>
 
                  <a
