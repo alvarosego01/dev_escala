@@ -158,8 +158,7 @@
                             Suscripción Escala<br class="space">
                             para el Partner',
                       '<span>1.</span> Descuento en Anual <br class="space">
-                                --- 30% Al iniciar camino de Partner Comercial <br class="space">
-                                --- 65% Al traer 1 cliente antes de acabarse tu Free Trial
+                                --- 30% Al iniciar camino de Partner Comercial
                                 ',
                       '<span>1.</span> Descuento en Anual<br class="space">
                                 30% Al iniciar camino de Partner de Servicio'
