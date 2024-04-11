@@ -2,14 +2,9 @@
   Template Name: [B] Webinar home
 --}}
 
-
-
-
 @extends('layouts.app')
 
-
 @section('content')
-
 
 <div id="openWebinar-Bootstrap">
 

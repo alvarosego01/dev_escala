@@ -2,7 +2,6 @@
   Template Name: [B] Home - 2023
 --}}
 
-
 @extends('layouts.app')
 @section('content')
 
@@ -28,6 +27,8 @@
                     ],
                 ];
             @endphp
+
+
 
             <section id="lead-form"
                 class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol home_2023_0 newHome ">
@@ -476,7 +477,6 @@
                                         var infoArray = <?php echo json_encode($elements); ?>;
 
                                         jQuery('ul.selectorInfo li').click(function(e) {
-                                                //  jQuery('.showInfoSelectors .infoIn .image .containerImage img').removeClass('animate__animated animate__fadeIn');
 
                                             jQuery('ul.selectorInfo li').removeClass('active');
                                             jQuery(this).addClass('active');
@@ -485,10 +485,6 @@
 
                                             jQuery('.showInfoSelectors .infoIn .text').html(infoArray[index]['text']);
                                             jQuery('.showInfoSelectors .infoIn .image .containerImage img').attr('src', infoArray[index]['img']);
-
-                                        //                    setTimeout(() => {
-                                        // jQuery('.showInfoSelectors .infoIn .image .containerImage img').addClass('animate__animated animate__fadeIn');
-                                        //     }, 100);
 
 
                                         });
@@ -561,11 +557,7 @@
                                 Los clientes de Escala triplican su productividad <br class="desktopTabletElement">
                                 sin agregar costos operativos a su empresa
                             </p>
-                            {{--
-                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Conversa con un asesor Escala
-                            </a>
-                             --}}
+
                              <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                 Conversa con un asesor Escala
                             </a>
