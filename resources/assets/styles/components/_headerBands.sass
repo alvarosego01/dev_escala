@@ -414,6 +414,7 @@
     background-color: transparent
     z-index: 10
     background-size: cover
+    background-position: center
     @include responsivoSpecial(2100px, 99999px)
         background-size: cover
     .section-row
@@ -425,7 +426,14 @@
         @include responsivo(smallPcTablet)
             max-width: 1000px!important
         .innerSectionElement.sct1
-            .containElements
+            .contain
+                @include responsivo(general)
+                    position: relative
+                    left: -40px
+                @include responsivo(smallPcTablet)
+                    left: -10px
+            .containElements,
+            .contain
                 display: flex
                 flex-direction: row
                 justify-content: center
@@ -449,7 +457,7 @@
                         margin-right: 10px
 
                 .hashTitle
-                    color: #322C2E
+                    color: #FAD872
                     text-align: center
                     font-family: Nunito
                     font-size: 25px
@@ -486,7 +494,7 @@
                     span
                         line-height: 1
                         // font-weight: 600
-                        color: #2C4857
+                        // color: #2C4857
                         @include responsivo(general)
                             margin-right: 7.5px
                         @include responsivo(resto)
@@ -498,7 +506,7 @@
                     position: relative
                     &::after
                         content: ''
-                        border-right: 1px solid #2C4857
+                        border-right: 1px solid white
                         margin: auto
                         position: absolute
                         left: 0
@@ -512,7 +520,7 @@
                             height: 1
                             width: 100px
                             border-right: none
-                            border-bottom: 1px solid #2C4857
+                            border-bottom: 1px solid white
                             margin: auto
                         @include responsivo(general)
                             height: 25px
@@ -523,7 +531,7 @@
 
 
                 .sub
-                    color: #2C4857
+                    color: white
                     font-family: Nunito
                     font-size: 20px
                     font-style: normal
@@ -584,11 +592,14 @@
                         font-size: 16px!important
                         padding: 7.5px 20px!important
                         margin: 0 25px
+                        left: 25px
                     @include responsivo(smallPcTablet)
                         // padding: 5px 15px!important
                     @include responsivo(resto)
                         margin: 0 25px
                         font-size: 18px!important
+                        position: relative
+                        left: 25px
                         // padding: 7.5px 20px!important
 
 
