@@ -310,6 +310,10 @@ add_action('wp_enqueue_scripts', function () {
         if (is_page_template('views/template-casoExito-gestion-financiera.blade.php')) {
             wp_enqueue_style('subPage_casoExito_gestion_financiera.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_gestion_financiera.css'), false, THEME_VERSION);
         }
+        //  Bienestar salud
+        if (is_page_template('views/template-casoExito-salud-bienestar.blade.php')) {
+            wp_enqueue_style('subPage_casoExito_saludBienestar.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_saludBienestar.css'), false, THEME_VERSION);
+        }
         if (is_page_template('views/template-casoExito-salud-fitness.blade.php')) {
             wp_enqueue_style('subPage_casoExito_salud_fitness.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_salud_fitness.css'), false, THEME_VERSION);
         }

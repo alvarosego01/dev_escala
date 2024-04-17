@@ -413,8 +413,12 @@
                                             color: #36768A
                                             height: 40px!important
                                             margin: 0 auto
-
                                             span
+                                                display: flex
+                                                flex-direction: row
+                                                justify-self: center
+                                                align-self: center
+                                                line-height: 1
                                                 @include responsivo(telefonoTable)
                                                     font-size: 35px
                                                 @include responsivo(pcMedio)
@@ -429,6 +433,8 @@
                                             small
                                                 font-size: 32.5px
                                                 line-height: 1
+                                                position: relative
+                                                left: 5px
                                                 @include responsivo(telefonoTable)
                                                     font-size: 32.5px
                                                 @include responsivo(pcMedio)
@@ -439,6 +445,55 @@
                                                     font-size: 32.5px
                                                 @include responsivo(resto)
                                                     font-size: 40px
+
+                                            // &.lg
+                                            &.md
+                                                span
+                                                    @include responsivo(telefonoTable)
+                                                        font-size: 30px
+                                                    @include responsivo(pcMedio)
+                                                        font-size: 32.5px
+                                                    @include responsivo(general)
+                                                        font-size: 35px
+                                                    @include responsivo(smallPcTablet)
+                                                        font-size: 32.5px
+                                                    @include responsivo(resto)
+                                                        font-size: 37.5px
+                                                small
+                                                    @include responsivo(telefonoTable)
+                                                        font-size: 27.5px
+                                                    @include responsivo(pcMedio)
+                                                        font-size: 30px
+                                                    @include responsivo(general)
+                                                        font-size: 32.5px
+                                                    @include responsivo(smallPcTablet)
+                                                        font-size: 30px
+                                                    @include responsivo(resto)
+                                                        font-size: 35px
+                                            &.sm
+                                                span
+                                                    @include responsivo(telefonoTable)
+                                                        font-size: 27.5px
+                                                    @include responsivo(pcMedio)
+                                                        font-size: 30px
+                                                    @include responsivo(general)
+                                                        font-size: 32.5px
+                                                    @include responsivo(smallPcTablet)
+                                                        font-size: 30px
+                                                    @include responsivo(resto)
+                                                        font-size: 35px
+                                                small
+                                                    @include responsivo(telefonoTable)
+                                                        font-size: 25px
+                                                    @include responsivo(pcMedio)
+                                                        font-size: 27.5px
+                                                    @include responsivo(general)
+                                                        font-size: 30px
+                                                    @include responsivo(smallPcTablet)
+                                                        font-size: 27.5px
+                                                    @include responsivo(resto)
+                                                        font-size: 32.5px
+
 
                                         .ahorro
                                             font-family: Nunito

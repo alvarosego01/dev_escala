@@ -1,6 +1,6 @@
+
 <div id="casoExito_gestion_financiera">
     <div class="sections">
-
 
         @php
             $parameters = [

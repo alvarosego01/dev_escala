@@ -322,6 +322,8 @@ class SetComponents extends Controller
                 'views/template-subPage-reports-2024.blade.php',
                 'views/template-subPage-program-alliances.blade.php',
                 'views/template-casoExito-firma-consultoria.blade.php',
+                'views/template-casoExito-firma-consultoria.blade.php',
+                'views/template-casoExito-salud-bienestar.blade.php',
                 'views/template-casoExito-gestion-financiera.blade.php',
                 'views/template-casoExito-salud-fitness.blade.php',
                 'views/template-subPage-pricingPro.blade.php',
