@@ -1,4 +1,6 @@
 
+console.log('pricing pro')
+
 var _typePlan = 'yearly';
 
 // descuentos
@@ -256,7 +258,22 @@ function calculateFinal(data) {
 
     costFinal = trimDecimals(costFinal);
 
+    resize_byResult(costFinal);
+
     jQuery('.price .discountCost').html('<span>USD ' + costFinal + ' <small>/ mes</small> </span>');
+
+}
+
+function resize_byResult(costFinal){
+
+    if(costFinal.length > 6 && costFinal.length < 8) return jQuery('.discountCost').addClass('md');
+
+    if(costFinal.length >= 8) return (
+        jQuery('.discountCost').removeClass('md'),
+        jQuery('.discountCost').addClass('sm')
+    );
+
+    return jQuery('.discountCost').removeClass('md sm')
 
 }
 
