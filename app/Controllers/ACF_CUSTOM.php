@@ -856,13 +856,6 @@ class ACF_CUSTOM extends Controller
                 ],
             ],
             'location' => [
-                // array(
-                //     array(
-                //         'param' => 'post_type',
-                //         'operator' => '==',
-                //         'value' => 'post',
-                //     ),
-                // ),
                 [
                     [
                         'param' => 'post_type',
