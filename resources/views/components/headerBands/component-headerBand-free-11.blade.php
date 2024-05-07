@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/banner_headerband_freeclass24042024.png') !!})"
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/headerband_freeclass.png') !!})"
     class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
@@ -9,18 +9,21 @@
 
                 <div class="contain">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_headerband.png') !!}" alt="" class="icon">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_headerband_freeclass.png') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-                        Escala tus ventas con CRM<br class="mobileSmallElement"><span>y Automatizaciones</span>
+                        <span style="color: #A4E7EA">Vende más</span> impulsando a tus<br class="mobileSmallElement"> vendedores a usar el CRM
                     </span>
                     <div class="separator"></div>
                     <span class="sub">
-                        Masterclass gratuita - 2 de Mayo
+                        Masterclass gratuita - 16 de Mayo
                     </span>
 
                 </div>
-                <a href="https://experiencia.escala.com/eventos-escala" class="secondaryButton hoverInEffect">
+                <a href="https://experiencia.escala.com/eventos-escala" class="desktopElement secondaryButton hoverInEffect">
+                    Reserva tu Cupo
+                </a>
+                <a href="https://experiencia.escala.com/eventos-escala" class="mobileElement primaryButton hoverInEffect">
                     Reserva tu Cupo
                 </a>
 

@@ -417,9 +417,15 @@
     background-position: center
 
     @include responsivo(pcMedio)
-        background-position: 50.2%
+        background-position: 53.2%
     @include responsivoSpecial(2100px, 99999px)
         background-size: cover
+    @include responsivo(general)
+        background-position: center
+
+    @include responsivo(resto)
+        background-position: 52% center
+
     .section-row
         padding: 7.5px 0
         @include responsivo(telefonoTable)
@@ -462,10 +468,10 @@
                         right: 0
                         bottom: 0
                         margin: 0 auto
-                        height: 25px
+                        height: 40px
                     @include responsivo(pcMedio)
                         margin-right: 5px
-                        height: 20px
+                        height: 35px
                     @include responsivo(smallPcTablet)
                         margin-right: 5px
                         height: 25px
@@ -474,7 +480,7 @@
                     color: #FFFFFF
                     text-align: center
                     font-family: Nunito
-                    font-size: 25px
+                    font-size: 22px
                     font-style: normal
                     font-weight: 500
                     line-height: 1
@@ -486,20 +492,20 @@
                         text-align: center
                         width: 225px
                     @include responsivo(pcMedio)
-                        font-size: 15px
+                        font-size: 14px
                         display: flex
                         text-align: left
                         align-self: center
                         justify-self: center
-                        width: 315px
+                        width: 350px
                     @include responsivo(general)
-                        font-size: 22.5px
+                        font-size: 20px
                         display: flex
                         align-self: center
                         justify-self: center
                         text-align: left
                     @include responsivo(smallPcTablet)
-                        font-size: 20px
+                        font-size: 18px
                     @include responsivo(resto)
                         display: flex
                         text-align: left
@@ -511,10 +517,10 @@
                         color: #3ADF56
                         @include responsivo(general)
                             margin: 0
-                            margin-left: 5px
+                            margin-right: 5px
                         @include responsivo(resto)
                             margin: 0
-                            margin-left: 5px
+                            margin-right: 5px
                 .separator
                     margin: 0 15px
                     height: 100%
@@ -545,20 +551,19 @@
                         width: 100%
                         height: 20px
 
-
                 .sub
                     color: white
                     font-family: Nunito
-                    font-size: 20px
+                    font-size: 18px
                     font-style: normal
                     font-weight: 500
                     line-height: 1
                     display: flex
                     position: relative
                     text-align: left
-                    margin-left: 20px
+                    margin-left: 0
                     @include responsivo(telefonoTable)
-                        font-size: 14px
+                        font-size: 12px
                         display: flex
                         align-self: center
                         justify-self: center
@@ -566,30 +571,29 @@
                         margin-top: 0
                         text-align: center
                     @include responsivo(pcMedio)
-                        font-size: 14px
+                        font-size: 12px
                         display: flex
                         align-self: center
                         justify-self: center
                         padding-left: 0
                         margin-left: 0
                     @include responsivo(general)
-                        font-size: 18px
+                        font-size: 16px
                         display: flex
                         align-self: center
                         justify-self: center
                         text-align: left
-                        margin-right: 25px
+                        margin-right: 0
                         margin-left: 0
                     @include responsivo(smallPcTablet)
-                        font-size: 16px
+                        font-size: 14px
                     @include responsivo(resto)
                         display: flex
                         text-align: left
                         align-self: center
                         justify-self: center
-                        margin-right: 25px
+                        margin-right: 0
                         margin-left: 0
-
 
                 a
                     font-weight: 600!important
@@ -617,7 +621,6 @@
                         position: relative
                         left: 25px
                         // padding: 7.5px 20px!important
-
 
 .headerband_whatsapp_T1.customSection.sectionParent
     background-position: center

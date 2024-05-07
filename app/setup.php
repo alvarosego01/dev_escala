@@ -647,7 +647,6 @@ function registerCustomMenu()
         'social_networks' => __('Escala social networks', 'escala'),
         'func_piePagina' => __('Functionalities pie de página', 'escala'),
         'us_piePagina' => __('About us pie de página', 'escala'),
-        // 'navBar-CTAS' => __('Principal CTAS', 'escala'),
     ]);
 }
 
