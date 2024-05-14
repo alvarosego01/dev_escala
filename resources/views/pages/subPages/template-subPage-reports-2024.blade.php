@@ -556,6 +556,28 @@
                     'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                     'side' => 'right',
                 ],
+                [
+                    'type' => 'backgroundColor',
+                    'classSection' => 'subPage_reports_8',
+                    'enableTitle' => false,
+                    'titlePrincipal' => null,
+                    'subTitlePrincipal' => null,
+                    'img' => App::setFilePath('/assets/images/illustrations/others/personaliza_dashboard.png'),
+                    'title' => '
+                    Personaliza <br class="space">
+                    <span>tu dashboard</span>
+                ',
+                    'text' => '
+                    Arma vistas a medida con tus reportes <br class="desktopTabletElement">
+                    favoritos para que los accedas <br class="desktopTabletElement">
+                    convenientemente.
+                ',
+                    'enableButton' => false,
+                    'urlButton' => '#lead-form',
+                    'textButton' => 'Recibe un demo',
+                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                    'side' => 'left',
+                ],
             ];
         @endphp
 
