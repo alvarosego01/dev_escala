@@ -44,7 +44,7 @@
                                     <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
 
                                         <div class="containerImage">
-                                            <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta"
+                                            <img
                                                 src="{{ App::setFilePath('/assets/images/illustrations/others/marketing_ventas_automat_2024_0.png') }}"
                                                 loading="lazy">
 
@@ -141,8 +141,8 @@
 
                                 <div class="image">
                                     <div class="containerImage">
-                                        <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta"
-                                            src="{{ App::setFilePath('/assets/images/person/am/am_yellow_circle.png') }}"
+                                        <img
+                                            src="{{ App::setFilePath('/assets/images/illustrations/others/marketing_ventas_automat_2024_0.png') }}"
                                             loading="lazy">
                                     </div>
 
