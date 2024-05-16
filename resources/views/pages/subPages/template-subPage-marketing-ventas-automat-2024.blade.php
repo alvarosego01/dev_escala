@@ -325,7 +325,7 @@
                     para que ahorres tiempo y esfuerzo
                     ',
                     'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/1.landing_crm_automat_wa_Guarda y organiza eficientemente  tu base de datos.gif'),
+                    'img' => App::setFilePath('/assets/images/gifs/Plantillas-de-Automatizaciones.gif'),
                     'title' => '
                     <span>Ahorra tiempo</span> con plantillas de <br class="space">
                     Automatizaciones
@@ -347,7 +347,7 @@
                     'enableTitle' => false,
                     'titlePrincipal' => null,
                     'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/2.landing_crm_automat_wa_Registra información relevante relacionada a cada persona .gif'),
+                    'img' => App::setFilePath('/assets/images/gifs/10.landing_crm_automat_wa_Automatiza tareas simples (1).gif'),
                     'title' => '
                        <span>Automatiza</span> tareas simples:
                 ',
@@ -369,7 +369,7 @@
                     'enableTitle' => false,
                     'titlePrincipal' => null,
                     'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/3.landing_crm_automat_wa_Gestiona eficientemente procesos comerciales o de servicio_2.gif'),
+                    'img' => App::setFilePath('/assets/images/gifs/11.landing_crm_automat_wa_Desarrolla secuencias de emails comerciales.gif'),
                     'title' => '
                     <span>Desarrolla secuencias</span> de <br class="space">
                     emails comerciales:
@@ -413,7 +413,7 @@
                     'enableTitle' => false,
                     'titlePrincipal' => null,
                     'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/5.landing_crm_automat_wa_Ahorra tiempo y dinero con las herramientas de marketing conectadas el CRM.gif'),
+                    'img' => App::setFilePath('/assets/images/gifs/13.landing_crm_automat_wa_Realiza automatizaciones, con solo agregar etiquetas.gif'),
                     'title' => '
                     <span>Realiza automatizaciones,</span> <br class="space">
                     con solo agregar etiquetas
@@ -435,7 +435,7 @@
                     'enableTitle' => false,
                     'titlePrincipal' => null,
                     'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/5.landing_crm_automat_wa_Ahorra tiempo y dinero con las herramientas de marketing conectadas el CRM.gif'),
+                    'img' => App::setFilePath('/assets/images/gifs/01.Automatizaciones-Whatsapp-min.gif'),
                     'title' => '
                     <span>Automatiza</span> tu WhatsApp <br class="space">
                     y opera manos libres:
