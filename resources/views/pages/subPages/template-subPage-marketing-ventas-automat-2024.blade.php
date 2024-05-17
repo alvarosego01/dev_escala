@@ -44,8 +44,7 @@
                                     <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
 
                                         <div class="containerImage">
-                                            <img
-                                                src="{{ App::setFilePath('/assets/images/illustrations/others/marketing_ventas_automat_2024_0.png') }}"
+                                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/marketing_ventas_automat_2024_0.png') }}"
                                                 loading="lazy">
 
 
@@ -55,9 +54,9 @@
 
                                     <div class="ele ele2 col-md-12 col-lg-7">
                                         <h1 class="principalBigTitle blackColor">
-                                        Escala tus operaciones de <br class="space">
-                                        marketing y ventas con <br class="space">
-                                        <span>Automatizaciones</span>
+                                            Escala tus operaciones de <br class="space">
+                                            marketing y ventas con <br class="space">
+                                            <span>Automatizaciones</span>
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
@@ -141,8 +140,7 @@
 
                                 <div class="image">
                                     <div class="containerImage">
-                                        <img
-                                            src="{{ App::setFilePath('/assets/images/illustrations/others/marketing_ventas_automat_2024_0.png') }}"
+                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/marketing_ventas_automat_2024_0.png') }}"
                                             loading="lazy">
                                     </div>
 
@@ -226,7 +224,7 @@
                     <div class='containElements'>
 
                         <h2 class="primaryTitle">
-                            ¿Por qué automatizar optimiza procesos <br class="space">
+                            ¿Por qué automatizar procesos <br class="space">
                             comerciales y de servicio?
                         </h2>
 
@@ -240,57 +238,57 @@
 
                         <div class="col-md-12 col-lg-3">
 
-                        <div class="element ">
-                            <span class="number" style="background-color: #97C8D2">
-                                1
-                            </span>
-                            <p>
-                                Aumenta <br class="space">
-                                conversión
-                            </p>
-                        </div>
-                        </div>
-
-                        <div class="col-md-12 col-lg-3">
-
-                        <div class="element ">
-                            <span class="number" style="background-color: #38778B">
-                                2
-                            </span>
-                            <p>
-                                Mejora la <br class="space">
-                                experiencia de <br class="space">
-                                compra
-                            </p>
-                        </div>
+                            <div class="element ">
+                                <span class="number" style="background-color: #97C8D2">
+                                    1
+                                </span>
+                                <p>
+                                    Aumenta <br class="space">
+                                    conversión
+                                </p>
+                            </div>
                         </div>
 
                         <div class="col-md-12 col-lg-3">
 
-                        <div class="element ">
-                            <span class="number" style="background-color: #2C4958">
-                                3
-                            </span>
-                            <p>
-                                Multiplica la <br class="space">
-                                productividad de tu <br class="space">
-                                equipo
-                            </p>
-                        </div>
+                            <div class="element ">
+                                <span class="number" style="background-color: #38778B">
+                                    2
+                                </span>
+                                <p>
+                                    Mejora la <br class="space">
+                                    experiencia de <br class="space">
+                                    compra
+                                </p>
+                            </div>
                         </div>
 
                         <div class="col-md-12 col-lg-3">
 
-                        <div class="element ">
-                            <span class="number" style="background-color: #2C4958">
-                                4
-                            </span>
-                            <p>
-                                Ganas mayor <br class="space">
-                                control sobre tus <br class="space">
-                                operaciones
-                            </p>
+                            <div class="element ">
+                                <span class="number" style="background-color: #2C4958">
+                                    3
+                                </span>
+                                <p>
+                                    Multiplica la <br class="space">
+                                    productividad de tu <br class="space">
+                                    equipo
+                                </p>
+                            </div>
                         </div>
+
+                        <div class="col-md-12 col-lg-3">
+
+                            <div class="element ">
+                                <span class="number" style="background-color: #2C4958">
+                                    4
+                                </span>
+                                <p>
+                                    Ganas mayor <br class="space">
+                                    control sobre tus <br class="space">
+                                    operaciones
+                                </p>
+                            </div>
                         </div>
 
 
@@ -305,9 +303,9 @@
                         </span>
 
 
-                                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                            Recibe un demo
-                                        </a>
+                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                            Recibe un demo
+                        </a>
                     </div>
                 </section>
 
@@ -321,7 +319,7 @@
                     'classSection' => 'marketing_ventas_automat_2024_3',
                     'enableTitle' => true,
                     'titlePrincipal' => '
-                    Automatiza una variedad de acciones, <br class="space">
+                    Automatiza una variedad de acciones, <br class="desktopTabletElement">
                     para que ahorres tiempo y esfuerzo
                     ',
                     'subTitlePrincipal' => null,
@@ -347,7 +345,9 @@
                     'enableTitle' => false,
                     'titlePrincipal' => null,
                     'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/10.landing_crm_automat_wa_Automatiza tareas simples (1).gif'),
+                    'img' => App::setFilePath(
+                        '/assets/images/gifs/10.landing_crm_automat_wa_Automatiza tareas simples (1).gif',
+                    ),
                     'title' => '
                        <span>Automatiza</span> tareas simples:
                 ',
@@ -369,7 +369,9 @@
                     'enableTitle' => false,
                     'titlePrincipal' => null,
                     'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/11.landing_crm_automat_wa_Desarrolla secuencias de emails comerciales.gif'),
+                    'img' => App::setFilePath(
+                        '/assets/images/gifs/11.landing_crm_automat_wa_Desarrolla secuencias de emails comerciales.gif',
+                    ),
                     'title' => '
                     <span>Desarrolla secuencias</span> de <br class="space">
                     emails comerciales:
@@ -391,7 +393,9 @@
                     'enableTitle' => false,
                     'titlePrincipal' => null,
                     'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/4.landing_crm_automat_wa_Mide, analiza y optimiza tus resultados con reportes personalizados.gif'),
+                    'img' => App::setFilePath(
+                        '/assets/images/gifs/4.landing_crm_automat_wa_Mide, analiza y optimiza tus resultados con reportes personalizados.gif',
+                    ),
                     'title' => '
                         <span>Programa actividades</span> clave <br class="space">
                         para tu equipo de ventas:
@@ -413,7 +417,9 @@
                     'enableTitle' => false,
                     'titlePrincipal' => null,
                     'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/13.landing_crm_automat_wa_Realiza automatizaciones, con solo agregar etiquetas.gif'),
+                    'img' => App::setFilePath(
+                        '/assets/images/gifs/13.landing_crm_automat_wa_Realiza automatizaciones, con solo agregar etiquetas.gif',
+                    ),
                     'title' => '
                     <span>Realiza automatizaciones,</span> <br class="space">
                     con solo agregar etiquetas
@@ -463,15 +469,15 @@
         @endphp
         <div class="sectionInfo_1">
 
-        @if (isset($elements) && count($elements) > 0)
-            @foreach ($elements as $item)
-                @contain_text_image_T1($item)
-                @endcontain_text_image_T1
-            @endforeach
-        @endif
+            @if (isset($elements) && count($elements) > 0)
+                @foreach ($elements as $item)
+                    @contain_text_image_T1($item)
+                    @endcontain_text_image_T1
+                @endforeach
+            @endif
 
-                  <div class="overlay" style="background-image: url({!! App::setFilePath('/assets/images/banners/marketing_ventas_automat_2024_2.svg') !!})">
-                </div>
+            <div class="overlay" style="background-image: url({!! App::setFilePath('/assets/images/banners/marketing_ventas_automat_2024_2.svg') !!})">
+            </div>
 
         </div>
 
@@ -519,7 +525,9 @@
                 necesidades.
             ',
                         'enableButton' => false,
-                        'background_item' => App::setFilePath('/assets/images/illustrations/others/card_background_landings.png'),
+                        'background_item' => App::setFilePath(
+                            '/assets/images/illustrations/others/card_background_landings.png',
+                        ),
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/landing_crm_aut_wa_04.png'),
@@ -533,7 +541,9 @@
                probada de crecimiento.
             ',
                         'enableButton' => false,
-                        'background_item' => App::setFilePath('/assets/images/illustrations/others/card_background_landings.png'),
+                        'background_item' => App::setFilePath(
+                            '/assets/images/illustrations/others/card_background_landings.png',
+                        ),
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/landing_crm_aut_wa_05.png'),
@@ -547,7 +557,9 @@
                 máximo Escala.
             ',
                         'enableButton' => false,
-                        'background_item' => App::setFilePath('/assets/images/illustrations/others/card_background_landings.png'),
+                        'background_item' => App::setFilePath(
+                            '/assets/images/illustrations/others/card_background_landings.png',
+                        ),
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/landing_crm_aut_wa_06.png'),
@@ -561,7 +573,9 @@
                 oportunamente.
             ',
                         'enableButton' => false,
-                        'background_item' => App::setFilePath('/assets/images/illustrations/others/card_background_landings.png'),
+                        'background_item' => App::setFilePath(
+                            '/assets/images/illustrations/others/card_background_landings.png',
+                        ),
                     ],
                 ],
             ];
@@ -571,18 +585,18 @@
         @endcontain_multiple_cards_T2 --}}
 
 
-           <div class="sectionInfo_2">
+        <div class="sectionInfo_2">
 
-        @contain_multiple_cards_T2($parameters)
-        @endcontain_multiple_cards_T2
+            @contain_multiple_cards_T2($parameters)
+            @endcontain_multiple_cards_T2
 
-                  <div class="overlay" style="background-image: url({!! App::setFilePath('/assets/images/banners/marketing_ventas_automat_2024_3.svg') !!})">
-                </div>
+            <div class="overlay" style="background-image: url({!! App::setFilePath('/assets/images/banners/marketing_ventas_automat_2024_3.svg') !!})">
+            </div>
 
         </div>
 
 
-                <section class="customSection sectionParent marketing_ventas_automat_2024_16">
+        <section class="customSection sectionParent marketing_ventas_automat_2024_16">
 
             <div class="section-row">
 
@@ -609,7 +623,7 @@
                                     repetitivas e invertirlo en los proyectos que <br class="desktopTabletElement">
                                     agregan valor a tu negocio”.
 
-                                      <br class="space"><br class="space">
+                                    <br class="space"><br class="space">
                                     <span class="sub">
                                         Andrés Moreno <br class="space">
                                         <small>Fundador de Escala & Open English</small>
@@ -642,7 +656,11 @@
                     <div class='containElements'>
 
                         @php
-                            $reviews = [App::setFilePath('/assets/images/illustrations/others/landing_crm_auto_wa_trust_1.png'), App::setFilePath('/assets/images/illustrations/others/landing_crm_auto_wa_trust_2.png'), App::setFilePath('/assets/images/illustrations/others/landing_crm_auto_wa_trust_3.png')];
+                            $reviews = [
+                                App::setFilePath('/assets/images/illustrations/others/landing_crm_auto_wa_trust_1.png'),
+                                App::setFilePath('/assets/images/illustrations/others/landing_crm_auto_wa_trust_2.png'),
+                                App::setFilePath('/assets/images/illustrations/others/landing_crm_auto_wa_trust_3.png'),
+                            ];
                         @endphp
 
                         @foreach ($reviews as $item)
@@ -687,8 +705,6 @@
                 </div>
             </div>
         </section>
-
-
 
     </div>
 
