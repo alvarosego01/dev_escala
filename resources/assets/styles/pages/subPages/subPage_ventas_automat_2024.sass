@@ -48,7 +48,7 @@
 #marketing_ventas_automat_2024 .marketing_ventas_automat_2024_0
     overflow: visible
     @include responsivo(telefonoTable)
-        margin-bottom: 200px
+        margin-bottom: 150px
     @include responsivo(pcMedio)
         margin-bottom: -100px
     @include responsivo(general)
@@ -299,7 +299,7 @@
                                 font-style: normal
                                 font-weight: 700
                                 line-height: 1
-                                letter-spacing: -3px
+                                letter-spacing: -1.5px
                                 color: white
                                 margin-bottom: 25px
                                 span
@@ -590,9 +590,23 @@
                                 margin: 0 10px
 
 #marketing_ventas_automat_2024 .marketing_ventas_automat_2024_1
+    padding: 50px 0
+    @include responsivo(telefonoTable)
+        margin-bottom: -25px
+    @include responsivo(pcMedio)
+        margin-top: -50px
+        margin-bottom: -50px
+    @include responsivo(general)
+        margin-top: -75px
+        margin-bottom: -35px
     @include responsivo(smallPcTablet)
         margin-top: -25px
         margin-bottom: -25px
+
+    @include responsivo(resto)
+        margin-top: -50px
+        margin-bottom: -25px
+
     .section-row
         @include responsivo(telefonoTable)
             width: 100%
@@ -630,7 +644,7 @@
                     font-style: normal
                     font-weight: 700
                     line-height: 1
-                    letter-spacing: -2px
+                    letter-spacing: -1px
                     margin-bottom: 0
                     position: relative
                     @include responsivo(telefonoTable)
@@ -668,9 +682,11 @@
     padding-top: 0
     padding-bottom: 50px
     @include responsivo(telefonoTable)
-        margin-bottom: 50px
+        margin-bottom: 25px
+        padding-bottom: 0
     @include responsivo(pcMedio)
-        margin-bottom: 50px
+        margin-bottom: 0
+        padding-bottom: 25px
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -700,15 +716,19 @@
                 h2.primaryTitle
                     text-align: center
                     @include body_sectionTitle()
+                    @include responsivo(telefonoTable)
+                        margin-bottom: 0
+                    @include responsivo(pcMedio)
+                        margin-bottom: 0
 
         .innerSectionElement.sct1
             margin-bottom: 50px
             .containElements
                 @include responsivo(telefonoTable)
-                    width: 350px
+                    width: 200px
                     margin: 0 auto
                 @include responsivo(pcMedio)
-                    width: 500px
+                    width: 350px
                     margin: 0 auto
                 .element
                     position: relative
@@ -751,8 +771,8 @@
                             width: 40px
                         @include responsivo(pcMedio)
                             font-size: 25px
-                            height: 50px
-                            width: 50px
+                            height: 40px
+                            width: 40px
                         @include responsivo(general)
                             font-size: 27.5px
                     p
@@ -762,7 +782,7 @@
                         font-weight: bold
                         line-height: 1
                         text-align: center
-                        letter-spacing: -1.5px
+                        letter-spacing: -1px
                         font-size: 27.5px
                         @include responsivo(telefonoTable)
                             font-size: 16px
@@ -808,6 +828,7 @@
         padding: 15pxpx
         padding-bottom: 0
         padding-top: 0!important
+        margin-bottom: 25px
     .section-row
         position: relative
         z-index: 10
@@ -1060,14 +1081,26 @@
 
 
 #marketing_ventas_automat_2024 .aux_marketing_ventas_automat_2024_8
-    padding-top: 25px
+    padding-top: 0
+    margin-top: 50px
+    .section-row
+        width: 100%!important
+    @include responsivo(telefonoTable)
+        margin: 0
+        padding: 0
+        margin-bottom: 35px
+    @include responsivo(pcMedio)
+        margin: 0
+        padding: 0
+        margin-bottom: 35px
+
     .innerSectionElement.sct1
         display: flex
         justify-content: center
         align-content: center
         align-items: center
         .primaryButton
-            margin: 0 autos
+            margin: 0 auto
 
 
 
@@ -1101,7 +1134,7 @@
             @include responsivo(telefonoTable)
                 margin-bottom: 25px
             @include responsivo(pcMedio)
-                margin-bottom: 75px
+                margin-bottom: 50px
             @include responsivo(general)
                 margin-bottom: 75px
             @include responsivo(resto)
@@ -1207,7 +1240,7 @@
                         font-style: normal
                         font-weight: bold
                         line-height: 1
-                        letter-spacing: -2px
+                        letter-spacing: -1px
                         width: fit-content
                         @include responsivo(telefonoTable)
                             font-size: 15px
