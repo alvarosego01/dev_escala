@@ -750,9 +750,9 @@
                     >
                       <div class="card-body">
                         <h5 class="card-title">
-                            CRM personalizado y <br class="space">
-                            listo para usarse ¡en <br class="space">
-                            solo 10 días!
+                          Acelera tu implementación <br class="space">
+                            con plantillas y  <br class="space">
+                            el CRM personalizado
                         </h5>
                         <p class="card-text">Alcance limitado*</p>
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-pricing_2023.png') !!}" alt="">
