@@ -12,18 +12,16 @@
                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_headerband_freeclass.png') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-                        <span style="color: #A4E7EA">Vende más</span> impulsando a tus<br class="mobileSmallElement"> vendedores a usar el CRM
+                        Dispara tus ventas con un CRM y automatización
                     </span>
                     <div class="separator"></div>
                     <span class="sub">
-                        Masterclass gratuita - 16 de Mayo
+                        Masterclass gratuita - 23 de Mayo
                     </span>
 
                 </div>
-                <a href="https://experiencia.escala.com/eventos-escala" class="desktopElement secondaryButton hoverInEffect">
-                    Reserva tu Cupo
-                </a>
-                <a href="https://experiencia.escala.com/eventos-escala" class="mobileElement primaryButton hoverInEffect">
+
+                <a href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect">
                     Reserva tu Cupo
                 </a>
 
