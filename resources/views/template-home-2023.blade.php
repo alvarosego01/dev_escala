@@ -102,9 +102,9 @@
                                         <div class="ele video col-md-12 col-lg-9">
 
                                             @php
-                                                $videoEmbed = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1_sub.mp4');
+                                                $videoEmbed = App::setFilePath('/assets/videos/intro_escala__crm_todo-en-uno (1080p).mp4');
                                                 // $videoCover = App::setFilePath('/assets/images/gifs/home_video_portrait_2023.gif');
-                                                $videoCover = App::setFilePath('/assets/videos/Comercial_escala_registro_lead_1_sub.mp4');
+                                                $videoCover = App::setFilePath('/assets/videos/intro_escala__crm_todo-en-uno (1080p).mp4');
                                             @endphp
 
                                             @if (isset($videoEmbed) && $videoEmbed != null)

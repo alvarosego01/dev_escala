@@ -459,8 +459,8 @@ class ACF_CUSTOM extends Controller
                         'headerband_blackFriday_promo_t2' => 'Black Friday',
                         'headerband_december_promo_t1' => 'Promo Diciembre',
                         'headerband_promo_freeclass_t1' => 'Free class',
+                        'headerband_promo_last_news' => 'Last news',
                         'headerband_reports' => 'Reports',
-                         // 'headerband_special_14f_promo_t1' => 'San Valentín te flecha con  30% de descuento*',
                         'headerBand_whatsapp_T1' => '¡Escala ahora potencia WhatsApp! - conoce las nuevas herramientas',
                     ],
                     'conditional_logic' => [

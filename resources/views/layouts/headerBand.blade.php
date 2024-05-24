@@ -65,6 +65,18 @@
 
         @endif
 
+        @if ($l2 != null && $l2 == 'headerband_promo_last_news')
+
+            @headerband_promo_last_news($parameters)
+            @endheaderband_promo_last_news
+
+            <script>
+                jQuery('section.headerband_promo_lastNews').appendTo('header');
+                jQuery('header').addClass('withHeaderBand');
+            </script>
+
+        @endif
+
         @if ($l2 != null && $l2 == 'headerband_reports')
 
             @headerband_reports($parameters)
