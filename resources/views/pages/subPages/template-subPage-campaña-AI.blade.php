@@ -8,7 +8,7 @@
             'title' => '
                               <span style="color: white">
                               Ahorra tiempo creando <br class="space">
-                              Emails y Páginas con <br class="space">
+                              Emails y Páginas<br class="space">
                               </span>
                                 con Inteligencia <br class="space">
                                 Artificial en Escala
