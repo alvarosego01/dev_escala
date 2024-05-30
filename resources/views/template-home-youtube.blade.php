@@ -54,13 +54,13 @@
         <span class="greenBlueColor">están en el centro de tu estrategia</span>',
         'img' => App::setFilePath('/assets/images/illustrations/others/Group_home1.png'),
         'text' => '
-Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="desktopTabletElement">
+Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="DT_e">
 y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrando:
 <br class="space">
 <br class="space">
 <ul>
   <li>
-    Generar demanda de tus productos y servicios a través de herramientas <br class="desktopTabletElement"> de marketing digital cómo: CRM, email marketing, landing pages y automatizaciones.
+    Generar demanda de tus productos y servicios a través de herramientas <br class="DT_e"> de marketing digital cómo: CRM, email marketing, landing pages y automatizaciones.
   </li>
   <li>
     Aumentar las ventas gestionando todo el proceso desde un solo lugar
@@ -103,9 +103,9 @@ lograr con Escala',
   'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
   'videoCover' => App::setFilePath('/assets/images/illustrations/others/tapa_video_home_03a.jpg'),
   'text' => '
-  Escala fue creada por Andrés Moreno y un <br class="desktopTabletElement">
-equipo de expertos y es la herramienta preferida <br class="desktopTabletElement">
-por los emprendedores hispanoamericanos para <br class="desktopTabletElement">
+  Escala fue creada por Andrés Moreno y un <br class="DT_e">
+equipo de expertos y es la herramienta preferida <br class="DT_e">
+por los emprendedores hispanoamericanos para <br class="DT_e">
 aumentar las ventas en sus negocios.
   ',
   'enableButton' => false,
@@ -139,7 +139,7 @@ $parameters = [
         [
             'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_01.png'),
             'title' => '<span class="grayColorTexts5">
-                 Da a conocer <br class="desktopTabletElement">
+                 Da a conocer <br class="DT_e">
         tu negocio
                 </span>',
             'enableButton' => false,
@@ -155,7 +155,7 @@ por tus productos y servicios
         [
             'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_03.png'),
             'title' => '<span class="grayColorTexts5">
-                Cierra más <br class="desktopTabletElement">
+                Cierra más <br class="DT_e">
 ventas
                 </span>',
             'enableButton' => false,
@@ -163,7 +163,7 @@ ventas
         [
             'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_04.png'),
             'title' => '<span class="grayColorTexts5">
-                Fideliza <br class="desktopTabletElement">
+                Fideliza <br class="DT_e">
 a tus clientes
                 </span>',
             'enableButton' => false,
@@ -417,7 +417,7 @@ sin programar
         Los expertos en marketing digital <br class="mobileElement"> lo dicen: “Escala es muy fácil de usar”
       </h2>
       <p class="primaryText grayColorTexts">
-        Descubre en estos videos cómo los expertos de marketing digital y ventas de toda <br class="desktopTabletElement"> Latinoamérica le sacan provecho a cada funcionalidad de Escala.
+        Descubre en estos videos cómo los expertos de marketing digital y ventas de toda <br class="DT_e"> Latinoamérica le sacan provecho a cada funcionalidad de Escala.
       </p>
 
     </section>
@@ -468,7 +468,7 @@ sin programar
               <div class="info">
 
                 <h3 class="titleVideo">
-                  Cómo crear una landing page <br class="desktopTabletElement">
+                  Cómo crear una landing page <br class="DT_e">
                   profesional sin programar con Escala
                 </h3>
 
@@ -519,7 +519,7 @@ sin programar
               <div class="info">
 
                 <h3 class="titleVideo">
-                  Herramienta de marketing <br class="desktopTabletElement">
+                  Herramienta de marketing <br class="DT_e">
                   todo en uno 2022
                 </h3>
 
@@ -566,7 +566,7 @@ sin programar
               <div class="info">
 
                 <h3 class="titleVideo">
-                  ¿Qué es un CRM y para qué sirve? <br class="desktopTabletElement">
+                  ¿Qué es un CRM y para qué sirve? <br class="DT_e">
                   Aumenta tus ventas con Escala
                 </h3>
 
@@ -632,7 +632,7 @@ sin programar
             <div class="info">
 
               <h3 class="titleVideo">
-                Cómo CREAR una LANDING PAGE <br class="desktopTabletElement">
+                Cómo CREAR una LANDING PAGE <br class="DT_e">
                 profesional sin programar con ESCALA
               </h3>
 
@@ -677,7 +677,7 @@ sin programar
           <div class="info">
 
             <h3 class="titleVideo">
-              Herramienta de marketing <br class="desktopTabletElement">
+              Herramienta de marketing <br class="DT_e">
               todo en uno 2022
             </h3>
 
@@ -721,7 +721,7 @@ sin programar
           <div class="info">
 
             <h3 class="titleVideo">
-              ¿Qué es un CRM y para qué sirve? <br class="desktopTabletElement">
+              ¿Qué es un CRM y para qué sirve? <br class="DT_e">
               Aumenta tus ventas con Escala
             </h3>
 
@@ -831,7 +831,7 @@ sabría utilizar Escala.
                         'img' => App::setFilePath('/assets/images/illustrations/others/home_icono_08.png'),
                         'title' => '<span class="blueLightColor11">
                             Todo está 100% en español
-                            <br class="desktopTabletElement">
+                            <br class="DT_e">
                             </span>',
                         'text' => '
                         Finalmente un software donde la plataforma, <br class="space">
@@ -872,8 +872,8 @@ en un solo lugar
         Servicio Premium
         ',
         'subTitlePrincipal' => '
-En Escala te acompañamos desde el primer día con nuestros <br class="desktopTabletElement">
-especialistas del éxito, quienes te guiarán en todo tu camino para <br class="desktopTabletElement">
+En Escala te acompañamos desde el primer día con nuestros <br class="DT_e">
+especialistas del éxito, quienes te guiarán en todo tu camino para <br class="DT_e">
 hacer crecer tu negocio.
         ',
         'overlay' => false,

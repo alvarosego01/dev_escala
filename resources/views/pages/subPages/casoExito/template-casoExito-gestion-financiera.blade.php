@@ -92,10 +92,10 @@
                             </h3>
 
                             <p class="text">
-                                Empresa de gestión financiera enfocada en apoyar personas con <br class="desktopTabletElement">
-                                proyectos inmobiliarios y desarrollos en preventa y venta. Ofrecen <br class="desktopTabletElement">
-                                asesoría en refinanciamiento por sobreendeudamiento personal, <br class="desktopTabletElement">
-                                definición de estrategia y carga financiera óptima, asesoría en <br class="desktopTabletElement">
+                                Empresa de gestión financiera enfocada en apoyar personas con <br class="DT_e">
+                                proyectos inmobiliarios y desarrollos en preventa y venta. Ofrecen <br class="DT_e">
+                                asesoría en refinanciamiento por sobreendeudamiento personal, <br class="DT_e">
+                                definición de estrategia y carga financiera óptima, asesoría en <br class="DT_e">
                                 Créditos Hipotecarios o fines generales y más.
                             </p>
 
@@ -179,35 +179,35 @@
                                     <span class="number">
                                         1
                                     </span>
-                    <span class="greenBlueColor">Promocionaron mejor sus servicios creando landing pages</span><br class="desktopTabletElement"> de fácil uso, que sí convierten.
+                    <span class="greenBlueColor">Promocionaron mejor sus servicios creando landing pages</span><br class="DT_e"> de fácil uso, que sí convierten.
                                 </li>
 
                                 <li>
                                     <span class="number">
                                         2
                                     </span>
-                    <span class="greenBlueColor">Optimizaron su proceso de ventas diseñando páginas de uso interno</span> donde el <br class="desktopTabletElement"> equipo comercial registra información relevante de los potenciales clientes.
+                    <span class="greenBlueColor">Optimizaron su proceso de ventas diseñando páginas de uso interno</span> donde el <br class="DT_e"> equipo comercial registra información relevante de los potenciales clientes.
                                 </li>
 
                                 <li>
                                     <span class="number">
                                         3
                                     </span>
-                <span class="greenBlueColor">Aumentaron su eficiencia operativa automatizando tareas</span> que realizaban <br class="desktopTabletElement"> manualmente como el envío de emails de aprobación a clientes y la <br class="desktopTabletElement"> comunicación de siguientes pasos según la etapa en la que se encuentran.
+                <span class="greenBlueColor">Aumentaron su eficiencia operativa automatizando tareas</span> que realizaban <br class="DT_e"> manualmente como el envío de emails de aprobación a clientes y la <br class="DT_e"> comunicación de siguientes pasos según la etapa en la que se encuentran.
                                 </li>
 
                                 <li>
                                     <span class="number">
                                         4
                                     </span>
-                <span class="greenBlueColor">Organizaron mejor sus oportunidades de negocio creando segmentos</span> <br class="desktopTabletElement"> que les permiten gestionar y acceder más fácilmente a la información <br class="desktopTabletElement"> de cada cliente en el CRM de Escala.
+                <span class="greenBlueColor">Organizaron mejor sus oportunidades de negocio creando segmentos</span> <br class="DT_e"> que les permiten gestionar y acceder más fácilmente a la información <br class="DT_e"> de cada cliente en el CRM de Escala.
                                 </li>
 
                                 <li>
                                     <span class="number">
                                         5
                                     </span>
-                <span class="greenBlueColor">Colaboraron más eficientemente con empresas aliadas,</span> filtrando <br class="desktopTabletElement"> y compartiendo el historial de actividades de cada contacto.
+                <span class="greenBlueColor">Colaboraron más eficientemente con empresas aliadas,</span> filtrando <br class="DT_e"> y compartiendo el historial de actividades de cada contacto.
                                 </li>
 
                             </ul>
@@ -301,8 +301,8 @@
 
                          <p class="text">
                             <img class="comiTagLeft" src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
-                            Antes de tener mi actual empresa, trabajé 13 años en bancos y no había encontrado <br class="desktopTabletElement">
-                            hasta entonces ningún CRM tan amigable como Escala. Además, me gusta que la <br class="desktopTabletElement">
+                            Antes de tener mi actual empresa, trabajé 13 años en bancos y no había encontrado <br class="DT_e">
+                            hasta entonces ningún CRM tan amigable como Escala. Además, me gusta que la <br class="DT_e">
                             plataforma nos genera orden y profesionalismo.
                             <img class="comiTagRight" src="{!! App::setFilePath('/assets/images/illustrations/others/close_comi.png') !!}" loading="lazy">
                          </p>

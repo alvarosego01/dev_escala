@@ -178,31 +178,17 @@
                                        <div class=" infoTitle">
 
                                            <h1 class="principalTitle">
-                                               CRM personalizado <br class="space">
-                                               a tus necesidades <br class="space">
-                                               <span>¡en solo 10 días!</span>
+                                               <span>¡Recibe el CRM personalizado</span> <br class="space">
+                                                con plantillas adaptadas <br class="space">
+                                                a tu marca!
                                            </h1>
 
-                                           <ul>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Creamos piezas de comunicación</p>
-                                                   </div>
-                                               </li>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Configuramos el CRM según tu proceso</p>
-                                                   </div>
-                                               </li>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Importamos y conectamos cuentas</p>
-                                                   </div>
-                                               </li>
-                                           </ul>
+                                            <p class="text">
+                                                Al inscribirte a Escala, adaptamos la <br class="DT_e">
+                                                plataforma para que tú y tu equipo aceleren <br class="DT_e">
+                                                el proceso de implementación.
+                                            </p>
+
                                        </div>
 
                                    </div>
@@ -326,90 +312,20 @@
                         <div class="container ">
                             <div class="row">
                                 <div class="text-center col-md-12 col-lg-12">
+
                                     <h2 class="primaryTitle">
-                                        Enfócate en lo que verdaderamente importa: <br class="desktopTabletElement">
+                                        Enfócate en lo que verdaderamente importa: <br class="DT_e">
                                         ¡generar leads y cerrar ventas!
                                     </h2>
-                                    <p class="primaryText">
-                                        Un ejemplo de lo que <br class="desktopTabletElement">
-                                        reciben nuestros clientes
-                                    </p>
-                                    <div class="ele video col-md-12">
 
-                                        @php
-                                            $videoEmbed = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
-                                            $videoCover = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
-                                         //    $videoCover = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
-                                        @endphp
+                                    <div class="img">
+                                        <div class="containerImage">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/implement_01.png') !!}" loading="lazy" class="DT_e">
 
-                                        @if (isset($videoEmbed) && $videoEmbed != null)
-                                            <div class="youtubeImageContainer ">
-
-                                                <img src="{!! App::setFilePath('/assets/images/overlays/video_box_left.svg') !!}" alt=""
-                                                    class="overlayLeft">
-
-                                                <img src="{!! App::setFilePath('/assets/images/overlays/video_box_right.svg') !!}" alt=""
-                                                    class="overlayRight">
-
-                                                {{--
-                                                <video class="video-js video_1 videoCover" autoplay muted loop>
-                                                    <source src="{{ $videoCover }}" type="video/mp4">
-                                                    Tu navegador no soporta videos HTML5.
-                                                </video>
-                                                --}}
-                                                <video class="video-js video_1 videoCover" autoplay muted loop>
-                                                    <source src="{{ $videoCover }}" type="video/mp4">
-                                                    Tu navegador no soporta videos HTML5.
-                                                </video>
-
-                                                <video id="video_1" class="video-js video_1" controls
-                                                    preload="none" poster="{{ $videoCover }}"
-                                                    {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                                    data-setup="{
-                               autoplay: false
-                             }">
-                                                    <source src="{{ $videoEmbed }}" type="video/mp4" />
-                                                    <source src="{{ $videoEmbed }}" type="video/webm" />
-                                                    <p class="vjs-no-js">
-                                                        To view this video please enable JavaScript, and consider
-                                                        upgrading to a
-                                                        web browser that
-                                                        <a href="https://videojs.com/html5-video-support/"
-                                                            target="_blank">supports
-                                                            HTML5 video</a>
-                                                    </p>
-                                                </video>
-
-
-                                            </div>
-
-                                            <script type="text/javascript">
-                                                var player = videojs('video_1');
-
-                                                // Agrega un oyente de eventos al evento 'play'
-                                                player.on('play', function() {
-
-                                                    jQuery('.video_1.videoCover').remove();
-
-                                                });
-                                            </script>
-
-                                            {{--
-                                            <script type="text/javascript">
-                                                var player = videojs('video_1');
-
-                                                // Agrega un oyente de eventos al evento 'play'
-                                                player.on('play', function() {
-                                                    console.log('El video se está reproduciendo');
-
-                                                    jQuery('.video_1.videoCover').remove();
-
-                                                });
-                                            </script>
-                                            --}}
-                                        @endif
-
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/implement_01.png') !!}" loading="lazy" class="DT_e">
+                                        </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -434,7 +350,7 @@
                            </h2>
                            <p class="text">
                                Aprovecha la oportunidad de tener un CRM implementado en<br
-                                   class="desktopTabletElement">
+                                   class="DT_e">
                                minutos para que aceleres el retorno de tu inversión
                            </p>
                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -649,7 +565,7 @@
 
                     <div class="containElements">
                         <p class="text">
-                            Ya no requieres meses para adaptar un nuevo CRM a tus<br class="desktopTabletElement">
+                            Ya no requieres meses para adaptar un nuevo CRM a tus<br class="DT_e">
                             operaciones y arrancar a optimizar tus ventas
                         </p>
                     </div>
@@ -929,27 +845,27 @@
                    [
                        'type' => 'master',
                        'title' => '¿Cómo diseñan los emails y las landing pages?',
-                       'text' => 'Diseñamos los emails y la landing page tomando la referencia de marca del website y/o <br class="desktopTabletElement"> redes sociales del cliente. De no tener, se solicita al cliente una pieza gráfica referencia.',
+                       'text' => 'Diseñamos los emails y la landing page tomando la referencia de marca del website y/o <br class="DT_e"> redes sociales del cliente. De no tener, se solicita al cliente una pieza gráfica referencia.',
                    ],
                    [
                        'type' => 'master',
                        'title' => '¿Crean también el copy de emails y landing pages?',
-                       'text' => 'El texto de los emails y landing page, es simulado. Es responsabilidad del cliente adaptarlo <br class="desktopTabletElement"> a su negocio y/o necesidades.',
+                       'text' => 'El texto de los emails y landing page, es simulado. Es responsabilidad del cliente adaptarlo <br class="DT_e"> a su negocio y/o necesidades.',
                    ],
                    [
                        'type' => 'master',
                        'title' => '¿Qué pasa si quiero que modifiquen uno de los entregables?',
-                       'text' => 'Cualquier modificación de lo entregado, es responsabilidad del cliente. El mismo puede <br class="desktopTabletElement"> utilizar las herramientas de Escala que son muy fáciles de usar.',
+                       'text' => 'Cualquier modificación de lo entregado, es responsabilidad del cliente. El mismo puede <br class="DT_e"> utilizar las herramientas de Escala que son muy fáciles de usar.',
                    ],
                    [
                        'type' => 'master',
                        'title' => '¿Si me suscribo un viernes, cuándo recibo el CRM implementado?',
-                       'text' => 'Entregamos el CRM implementado en 10 días hábiles desde el momento que tenemos <br class="desktopTabletElement"> toda la información requerida por parte del cliente para personalizar la plataforma y crear las piezas gráficas.',
+                       'text' => 'Entregamos el CRM implementado en 10 días hábiles desde el momento que tenemos <br class="DT_e"> toda la información requerida por parte del cliente para personalizar la plataforma y crear las piezas gráficas.',
                    ],
                    [
                        'type' => 'master',
                        'title' => '¿Cuánto cuesta la implementación?',
-                       'text' => 'El valor que generamos es de más de USD $6,500 pero dependiendo del plan que <br class="desktopTabletElement"> obtengas puede estar o no incluida en la suscripción.',
+                       'text' => 'El valor que generamos es de más de USD $6,500 pero dependiendo del plan que <br class="DT_e"> obtengas puede estar o no incluida en la suscripción.',
                    ],
                ];
 

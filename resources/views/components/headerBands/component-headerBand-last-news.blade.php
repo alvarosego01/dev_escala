@@ -18,7 +18,7 @@
                     </span>
                     <div class="separator"></div>
                     <span class="sub">
-                        Integra Escala con WooComerce, rastrea métricas <br class="desktopTabletElement">
+                        Integra Escala con WooComerce, rastrea métricas <br class="DT_e">
                         de WhatsApp y personaliza tu dahsboard
                     </span>
 

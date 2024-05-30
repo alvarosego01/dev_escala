@@ -112,7 +112,7 @@
   'subTitlePrincipal' => null,
   'title' => '
 
-  “<span class="greenBlueColor">Después de décadas construyendo negocios,</span> creamos <br class="desktopTabletElement">
+  “<span class="greenBlueColor">Después de décadas construyendo negocios,</span> creamos <br class="DT_e">
   Escala basándonos en nuestra metodología para escalar empresas”.
     <br class="space"><br class="space">
     <span class="subText">
@@ -353,7 +353,7 @@ $parameters = [
             </h2>
 
             <p class="primaryText grayColorTexts">
-              Desde el día 1, le asignamos a ti y a tu equipo un gerente especialista en marketing digital y <br class="desktopTabletElement">
+              Desde el día 1, le asignamos a ti y a tu equipo un gerente especialista en marketing digital y <br class="DT_e">
               ventas que guía sus pasos para que integren exitosamente la plataforma a sus operaciones.
             </p>
 
@@ -375,8 +375,8 @@ $parameters = [
                 </h3>
 
                 <p class="text">
-                  Una vez se sucriben a Escala, su Gerente de Cuenta los apoya a definir un <br class="desktopTabletElement">
-                  plan, que tú y tu equipo implementen a su propio ritmo, basándose en <br class="desktopTabletElement">
+                  Una vez se sucriben a Escala, su Gerente de Cuenta los apoya a definir un <br class="DT_e">
+                  plan, que tú y tu equipo implementen a su propio ritmo, basándose en <br class="DT_e">
                   nuestra Metodología probada de Éxito. La misma se divide en 4 fases:
                 </p>
 
@@ -475,7 +475,7 @@ $parameters = [
   'classSection' => 'landing_home_4',
   'enableTitle' => true,
   'titlePrincipal' => '
-  <span class="greenBlueColor">Mejora el crecimiento de tu empresa </span><br class="desktopTabletElement">
+  <span class="greenBlueColor">Mejora el crecimiento de tu empresa </span><br class="DT_e">
 con todas las herramientas en una plataforma',
   'subTitlePrincipal' => null,
   'img' => App::setFilePath('/assets/images/illustrations/others/Group 8765.png'),
@@ -483,12 +483,12 @@ con todas las herramientas en una plataforma',
   <small class="smallEscalaTag">
     Landings + Formularios
     </small> <br class="space">
-  Mejora tu presencia online <br class="desktopTabletElement">
+  Mejora tu presencia online <br class="DT_e">
   y captura leads calificados
   ',
   'text' => '
-    Crea hermosas páginas de aterrizaje en minutos para <br class="desktopTabletElement">
-    despertar el interés de clientes potenciales e incentívalos a <br class="desktopTabletElement">
+    Crea hermosas páginas de aterrizaje en minutos para <br class="DT_e">
+    despertar el interés de clientes potenciales e incentívalos a <br class="DT_e">
     registrar su contacto para iniciar una relación comercial.
   ',
   'enableButton' => false,
@@ -513,14 +513,14 @@ con todas las herramientas en una plataforma',
   <small class="smallEscalaTag">
     Ads + Emails
     </small> <br class="space">
-  Lleva tráfico calificado a <br class="desktopTabletElement">
+  Lleva tráfico calificado a <br class="DT_e">
   tus páginas
   ',
   'text' => '
-    Tienes dos opciones para llevar visitantes a <br class="desktopTabletElement">
+    Tienes dos opciones para llevar visitantes a <br class="DT_e">
     tus landing pages:
     <ul class="text">
-      <li><span class="greenBlueColor">1.</span> Crear o importar campañas de anuncios <br class="desktopTabletElement">
+      <li><span class="greenBlueColor">1.</span> Crear o importar campañas de anuncios <br class="DT_e">
       pagas en Facebook e Instagram</li>
       <li><span class="greenBlueColor">2.</span> Enviar campañas de email a tu base de datos</li>
     </ul>
@@ -547,7 +547,7 @@ con todas las herramientas en una plataforma',
   <small class="smallEscalaTag">
     CRM fácil de usar
   </small> <br class="space">
-  Gestiona contactos y optimiza <br class="desktopTabletElement">
+  Gestiona contactos y optimiza <br class="DT_e">
   procesos comerciales
   ',
   'text' => '
@@ -557,7 +557,7 @@ con todas las herramientas en una plataforma',
       <li>Llevar un historial de interacciones</li>
       <li>Programa actividades y recordatorios</li>
       <li>Controlar procesos con embudos</li>
-      <li>Hacer mejor seguimiento a tu equipo hasta <br class="desktopTabletElement">
+      <li>Hacer mejor seguimiento a tu equipo hasta <br class="DT_e">
         ganar oportunidades de negocio </li>
     </ul>
   ',
@@ -583,14 +583,14 @@ con todas las herramientas en una plataforma',
   <small class="smallEscalaTag">
     Email Marketing + Plantillas de venta
   </small> <br class="space">
-  Comunícate efectivamente <br class="desktopTabletElement">
+  Comunícate efectivamente <br class="DT_e">
   con emails profesionales
   ',
   'text' => '
-    Envía campañas de email impactantes con <br class="desktopTabletElement">
-    plantillas optimizadas para mejorar tu tasa de <br class="desktopTabletElement">
-    apertura y tu índice de clics, generar mayor <br class="desktopTabletElement">
-    interacción, aumentar tu ROI e incrementar tu <br class="desktopTabletElement">
+    Envía campañas de email impactantes con <br class="DT_e">
+    plantillas optimizadas para mejorar tu tasa de <br class="DT_e">
+    apertura y tu índice de clics, generar mayor <br class="DT_e">
+    interacción, aumentar tu ROI e incrementar tu <br class="DT_e">
     conversión.
   ',
   'enableButton' => false,
@@ -615,14 +615,14 @@ con todas las herramientas en una plataforma',
   <small class="smallEscalaTag">
     Automatizaciones
   </small> <br class="space">
-    ¡Ahorra tiempo y esfuerzo <br class="desktopTabletElement">
+    ¡Ahorra tiempo y esfuerzo <br class="DT_e">
     automatizando acciones!
   ',
   'text' => '
-    Evita realizar tareas repetitivas y cometer errores <br class="desktopTabletElement">
-    humanos creando flujos y programando acciones <br class="desktopTabletElement">
-    que se ejecuten automáticamente para optimizar <br class="desktopTabletElement">
-    tus resultados de marketing, ventas y fidelización <br class="desktopTabletElement">
+    Evita realizar tareas repetitivas y cometer errores <br class="DT_e">
+    humanos creando flujos y programando acciones <br class="DT_e">
+    que se ejecuten automáticamente para optimizar <br class="DT_e">
+    tus resultados de marketing, ventas y fidelización <br class="DT_e">
     de clientes.
   ',
   'enableButton' => false,
@@ -648,14 +648,14 @@ con todas las herramientas en una plataforma',
   <small class="smallEscalaTag">
     Analíticas
   </small> <br class="space">
-    Lo que no se mide <br class="desktopTabletElement">
+    Lo que no se mide <br class="DT_e">
     no se mejora
   ',
   'text' => '
-    Analiza tus esfuerzos comerciales con métricas y <br class="desktopTabletElement">
+    Analiza tus esfuerzos comerciales con métricas y <br class="DT_e">
     dashboards actualizados en tiempo real. <br class="space">
-    Entiende  rápidamente lo que funciona y lo que <br class="desktopTabletElement">
-    debes mejorar al usar cada herramienta de <br class="desktopTabletElement">
+    Entiende  rápidamente lo que funciona y lo que <br class="DT_e">
+    debes mejorar al usar cada herramienta de <br class="DT_e">
     Escala.
   ',
   'enableButton' => false,
@@ -679,17 +679,17 @@ con todas las herramientas en una plataforma',
   'subTitlePrincipal' => null,
   'img' => App::setFilePath('/assets/images/person/implementacion_banner_principal-1-1.png'),
   'title' => '
-    Conviértete en Partner <br class="desktopTabletElement">
+    Conviértete en Partner <br class="DT_e">
     o Afiliado de Escala
     <br class="space">
     <small class="subTitle">
-      Construye tu negocio mientras <br class="desktopTabletElement">
+      Construye tu negocio mientras <br class="DT_e">
       impulsas el crecimiento de otros
       </small>
   ',
   'text' => '
-      Al asociarte a Escala, obtienes recursos especiales y <br class="desktopTabletElement">
-      hasta 20% de comisión por ventas y servicios prestados <br class="desktopTabletElement">
+      Al asociarte a Escala, obtienes recursos especiales y <br class="DT_e">
+      hasta 20% de comisión por ventas y servicios prestados <br class="DT_e">
       mientras tus clientes se mantienen suscritos a Escala.
   ',
   'enableButton' => true,
@@ -713,7 +713,7 @@ $parameters = [
     Acelera tu aprendizaje <span class="greenBlueColor">con Escala Academy</span>
     ',
     'subTitlePrincipal' => '
-    Ten acceso a una variedad de recursos para aprender a tu propio ritmo <br class="desktopTabletElement">
+    Ten acceso a una variedad de recursos para aprender a tu propio ritmo <br class="DT_e">
     y conecta con nuestro equipo de servicio para atender a preguntas.',
     'overlay' => false,
     'enableButton' => false,

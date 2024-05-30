@@ -112,11 +112,11 @@ $parameters = [
     ',
     'img' => App::setFilePath('/assets/images/illustrations/others/Group_home1.png'),
     'text' => '
-Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="desktopTabletElement">
+Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="DT_e">
 y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrando:
 <br class="space"><br class="space">
 <ul>
-  <li>Generar demanda de tus productos y servicios a través de herramientas <br class="desktopTabletElement"> de marketing digital</li>
+  <li>Generar demanda de tus productos y servicios a través de herramientas <br class="DT_e"> de marketing digital</li>
   <li>Aumentar las ventas gestionando todo el proceso desde un solo lugar</li>
   <li>Aumentar la retención de tus clientes creando relaciones a largo plazo</li>
 </ul>
@@ -146,11 +146,11 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
             <div class="containElements">
 
               <h2 class="primaryTitle blackColor">
-                <span class="greenBlueColor">El CRM de Escala</span> <br class="desktopTabletElement">
+                <span class="greenBlueColor">El CRM de Escala</span> <br class="DT_e">
                 la máquina de ventas de tu negocio
               </h2>
               <p class="primaryText grayColorTexts">
-                Aumenta tus ventas y la productividad de tu equipo con el CRM más fácil de usar del mercado, <br class="desktopTabletElement">
+                Aumenta tus ventas y la productividad de tu equipo con el CRM más fácil de usar del mercado, <br class="DT_e">
                 el arma secreta de los negocios para escalar con éxito.
               </p>
 
@@ -175,9 +175,9 @@ Todo tu equipo <br class="space">
 en una sola plataforma
                   </h3>
                   <p class="primaryText  grayColorTexts">
-                    En el CRM de Escala, tu equipo de ventas trabajará <br class="desktopTabletElement">
-                    de manera integrada, cada miembro de tu equipo <br class="desktopTabletElement">
-                    tendrá un rol administrando, editando y programando <br class="desktopTabletElement">
+                    En el CRM de Escala, tu equipo de ventas trabajará <br class="DT_e">
+                    de manera integrada, cada miembro de tu equipo <br class="DT_e">
+                    tendrá un rol administrando, editando y programando <br class="DT_e">
                     el día a día de trabajo.
                   </p>
                 </div>
@@ -196,9 +196,9 @@ en una sola plataforma
 Guarda tu data automáticamente
                   </h3>
                   <p class="primaryText  grayColorTexts">
-Toda la información que registren tus visitantes en <br class="desktopTabletElement">
-nuestros formularios integrados será guardada, de <br class="desktopTabletElement">
-manera automática en tu CRM de Escala. Olvídate de <br class="desktopTabletElement">
+Toda la información que registren tus visitantes en <br class="DT_e">
+nuestros formularios integrados será guardada, de <br class="DT_e">
+manera automática en tu CRM de Escala. Olvídate de <br class="DT_e">
 perder datos clave.
 
                   </p>
@@ -220,8 +220,8 @@ perder datos clave.
 a tus contactos
                   </h3>
                   <p class="primaryText  grayColorTexts">
-Con las etiquetas avanzadas de Escala podrás clasificar <br class="desktopTabletElement">
-mejor a tus leads y clientes, personalizando cada <br class="desktopTabletElement">
+Con las etiquetas avanzadas de Escala podrás clasificar <br class="DT_e">
+mejor a tus leads y clientes, personalizando cada <br class="DT_e">
 comunicación para ayudarte a convertir más.
                   </p>
                 </div>
@@ -242,9 +242,9 @@ a tus resultados
                   </h3>
                   <p class="primaryText  grayColorTexts">
 
-                    Ten las métricas que necesitas en tiempo real con <br class="desktopTabletElement">
-dashboards amigables para conocer la salud de tu negocio. <br class="desktopTabletElement">
-Cuántas ventas han sido cerradas, cuántas están por <br class="desktopTabletElement">
+                    Ten las métricas que necesitas en tiempo real con <br class="DT_e">
+dashboards amigables para conocer la salud de tu negocio. <br class="DT_e">
+Cuántas ventas han sido cerradas, cuántas están por <br class="DT_e">
 concretarse, cuál es el vendedor estrella de tu equipo.
                   </p>
                 </div>
@@ -266,8 +266,8 @@ concretarse, cuál es el vendedor estrella de tu equipo.
                   </h3>
 
                   <p class="primaryText  grayColorTexts">
-                    Te ayudamos a organizar el día a día de tu compañía, <br class="desktopTabletElement">
-a través de tareas, actividades y recordatorios para cada <br class="desktopTabletElement">
+                    Te ayudamos a organizar el día a día de tu compañía, <br class="DT_e">
+a través de tareas, actividades y recordatorios para cada <br class="DT_e">
 miembro de tu equipo de ventas.
                   </p>
                 </div>
@@ -289,9 +289,9 @@ con WhatsApp Web Escala
 
                   </h3>
                   <p class="primaryText  grayColorTexts">
-El CRM de Escala te ofrece su integración a tu <br class="desktopTabletElement">
-WhatsApp Web para que puedas convertir a cada <br class="desktopTabletElement">
-contacto nuevo en un lead, guardando su  información de <br class="desktopTabletElement">
+El CRM de Escala te ofrece su integración a tu <br class="DT_e">
+WhatsApp Web para que puedas convertir a cada <br class="DT_e">
+contacto nuevo en un lead, guardando su  información de <br class="DT_e">
 manera automática en tu CRM.
                   </p>
                 </div>
@@ -330,7 +330,7 @@ manera automática en tu CRM.
         'classSection' => 'escalaVentas2Section4',
         'enableTitle' => true,
         'titlePrincipal' => '
-        Fortalece tu estrategia de ventas <br class="desktopTabletElement">
+        Fortalece tu estrategia de ventas <br class="DT_e">
 <span class="greenBlueColor">con más funcionalidades</span>
         ',
         'subTitlePrincipal' => null,
@@ -347,8 +347,8 @@ manera automática en tu CRM.
                             Landing pages
                             </span>',
                         'text' => '
-                        Da a conocer tus productos o servicios con landing <br class="desktopTabletElement">
-                        pages optimizadas. Créalas, personalízalas y <br class="desktopTabletElement">
+                        Da a conocer tus productos o servicios con landing <br class="DT_e">
+                        pages optimizadas. Créalas, personalízalas y <br class="DT_e">
                         publícalas con un clic, sin programar, ni diseñar.
                         ',
                         'enableButton' => false,
@@ -361,9 +361,9 @@ manera automática en tu CRM.
                             </span>
                         ',
                         'text' => '
-                          Atrae a más clientes potenciales con anuncios <br class="desktopTabletElement">
-                          digitales de Instagram y Facebook. Crea, administra y publica tus <br class="desktopTabletElement">
-                          campañas desde Escala generando más tráfico a tus <br class="desktopTabletElement">
+                          Atrae a más clientes potenciales con anuncios <br class="DT_e">
+                          digitales de Instagram y Facebook. Crea, administra y publica tus <br class="DT_e">
+                          campañas desde Escala generando más tráfico a tus <br class="DT_e">
                           páginas vendedoras.
                         ',
                         'enableButton' => false,
@@ -374,9 +374,9 @@ manera automática en tu CRM.
                             Automatización
                             </span>',
                         'text' => '
-                        No hagas tareas repetitivas. Ahorra tiempo <br class="desktopTabletElement">
-                        programando workflows, envío de emails y <br class="desktopTabletElement">
-                        asignación de tareas, actividades y recordatorios a tu <br class="desktopTabletElement">
+                        No hagas tareas repetitivas. Ahorra tiempo <br class="DT_e">
+                        programando workflows, envío de emails y <br class="DT_e">
+                        asignación de tareas, actividades y recordatorios a tu <br class="DT_e">
                         equipo de ventas.
                         ',
                         'enableButton' => false,
@@ -387,7 +387,7 @@ manera automática en tu CRM.
                             Email Marketing
                             </span>',
                         'text' => '
-                          Crea y envía campañas personalizadas de email para <br class="desktopTabletElement">
+                          Crea y envía campañas personalizadas de email para <br class="DT_e">
                           potenciar tus ventas y lograr: <br class="space">
                           <ul>
                             <li>Dar a conocer tus nuevos productos o servicios</li>
@@ -404,11 +404,11 @@ manera automática en tu CRM.
                           Analíticas
                             </span>',
                         'text' => '
-                            Ten todas las analíticas relevantes para ver cómo van <br class="desktopTabletElement">
-                            tus ventas: oportunidades abiertas, oportunidades <br class="desktopTabletElement">
-                            ganadas, oportunidades en desarrollo. Cuenta con <br class="desktopTabletElement">
-                            dashboards amigables y evalúa tus ganancias y la <br class="desktopTabletElement">
-                            productividad de tu equipo de trabajo. Optimiza y <br class="desktopTabletElement">
+                            Ten todas las analíticas relevantes para ver cómo van <br class="DT_e">
+                            tus ventas: oportunidades abiertas, oportunidades <br class="DT_e">
+                            ganadas, oportunidades en desarrollo. Cuenta con <br class="DT_e">
+                            dashboards amigables y evalúa tus ganancias y la <br class="DT_e">
+                            productividad de tu equipo de trabajo. Optimiza y <br class="DT_e">
                             mejora tus resultados en tiempo real.
                         ',
                         'enableButton' => false,
@@ -434,11 +434,11 @@ manera automática en tu CRM.
                 <div class="containElements">
 
                   <p class="primaryText grayColorTexts description">
-                    “Yo ya había utilizado un CRM y otras plataformas que <br class="desktopTabletElement">
-                    tienen más o menos la misma esencia. Encontrarme con <br class="desktopTabletElement">
-                    Escala fue importante porque es más completa. Tienes todo <br class="desktopTabletElement">
-                    lo que necesitas desde captar el interés de cliente, hacer <br class="desktopTabletElement">
-                    seguimiento y medir indicadores de desempeño de tu equipo <br class="desktopTabletElement">
+                    “Yo ya había utilizado un CRM y otras plataformas que <br class="DT_e">
+                    tienen más o menos la misma esencia. Encontrarme con <br class="DT_e">
+                    Escala fue importante porque es más completa. Tienes todo <br class="DT_e">
+                    lo que necesitas desde captar el interés de cliente, hacer <br class="DT_e">
+                    seguimiento y medir indicadores de desempeño de tu equipo <br class="DT_e">
                     de ventas hasta estandarizar el proceso de la comunicación”
                 </p>
 
@@ -485,7 +485,7 @@ manera automática en tu CRM.
   $parameters = [
       'classSection' => 'escalaVentas2Section6',
       'title' => '
-      ¿Listo para acelerar <br class="desktopTabletElement">
+      ¿Listo para acelerar <br class="DT_e">
 el crecimiento de tu negocio?
       ',
       'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',

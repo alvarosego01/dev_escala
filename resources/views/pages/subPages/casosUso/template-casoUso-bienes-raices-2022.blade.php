@@ -20,7 +20,7 @@
                             </h1>
 
                             <p class="text">
-                                Enfócate en los prospectos calificados con el CRM más fácil <br class="desktopTabletElement">
+                                Enfócate en los prospectos calificados con el CRM más fácil <br class="DT_e">
                                 de usar que mantiene tu gestión comercial automatizada
                             </p>
 
@@ -59,7 +59,7 @@
             <span class="greenBlueColor">proyectos inmobiliarios</span>
         ',
          'text' => '
-            Enfócate en los prospectos calificados con el CRM más fácil <br class="desktopTabletElement">
+            Enfócate en los prospectos calificados con el CRM más fácil <br class="DT_e">
             de usar que mantiene tu gestión comercial automatizada
           ',
          'threeCol' => true,
@@ -83,7 +83,7 @@
           'classSection' => 'subPage_casoUso_bienes_raices_2',
           'enableTitle' => true,
           'titlePrincipal' => '
-              La plataforma para optimizar los resultados <br class="desktopTabletElement">
+              La plataforma para optimizar los resultados <br class="DT_e">
               comerciales <span class="greenBlueColor">del sector inmobiliario</span>
           ',
           'subTitlePrincipal' => null,
@@ -216,8 +216,8 @@
                             prospectos
                         ',
                         'text' => '
-                            Califica a tus potenciales clientes con <br class="desktopTabletElement">
-                            formularios específicos para cada <br class="desktopTabletElement">
+                            Califica a tus potenciales clientes con <br class="DT_e">
+                            formularios específicos para cada <br class="DT_e">
                             proyecto inmobiliario.
                         ',
                         'enableButton' => false,
@@ -229,8 +229,8 @@
                             oportunidades de venta
                         ',
                         'text' => '
-                            Concreta un mayor número de <br class="desktopTabletElement">
-                            visitas a tus proyectos mediante <br class="desktopTabletElement">
+                            Concreta un mayor número de <br class="DT_e">
+                            visitas a tus proyectos mediante <br class="DT_e">
                             una gestión comercial oportuna.
                         ',
                         'enableButton' => false,
@@ -242,8 +242,8 @@
                             tus clientes
                         ',
                         'text' => '
-                            Ten una comunicación efectiva con <br class="desktopTabletElement">
-                            tus clientes e informa sobre los <br class="desktopTabletElement">
+                            Ten una comunicación efectiva con <br class="DT_e">
+                            tus clientes e informa sobre los <br class="DT_e">
                             avances del proyecto que adquirieron.
                         ',
                         'enableButton' => false,
@@ -255,8 +255,8 @@
                             comerciales
                             ',
                         'text' => '
-                            Incentiva la productividad de tu equipo <br class="desktopTabletElement">
-                            de agentes con una herramienta que <br class="desktopTabletElement">
+                            Incentiva la productividad de tu equipo <br class="DT_e">
+                            de agentes con una herramienta que <br class="DT_e">
                             facilita el seguimiento comercial.
                         ',
                         'enableButton' => false,
@@ -268,9 +268,9 @@
                             antiguos prospectos
                         ',
                         'text' => '
-                            Mantente en contacto con los <br class="desktopTabletElement">
-                            compradores y arrendatarios que no <br class="desktopTabletElement">
-                            cerraron y ofrece otras alternativas de <br class="desktopTabletElement">
+                            Mantente en contacto con los <br class="DT_e">
+                            compradores y arrendatarios que no <br class="DT_e">
+                            cerraron y ofrece otras alternativas de <br class="DT_e">
                             tu portafolio inmobiliario.
                         ',
                         'enableButton' => false,
@@ -281,8 +281,8 @@
                             Reduce costos
                         ',
                         'text' => '
-                            Integra en una misma <br class="desktopTabletElement">
-                            plataforma los procesos de <br class="desktopTabletElement">
+                            Integra en una misma <br class="DT_e">
+                            plataforma los procesos de <br class="DT_e">
                             marketing y ventas.
                         ',
                         'enableButton' => false,
@@ -370,29 +370,29 @@
             <ul class="text">
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Poca información para priorizar a los prospectos <br class="desktopTabletElement">
+                    Poca información para priorizar a los prospectos <br class="DT_e">
                 mejor calificados para cada propiedad. </li>
 
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Proceso desorganizado de conversión de leads que <br class="desktopTabletElement">
-                impide el cierre de ventas y la proyección <br class="desktopTabletElement">
+                    Proceso desorganizado de conversión de leads que <br class="DT_e">
+                impide el cierre de ventas y la proyección <br class="DT_e">
                 de resultados. </li>
 
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Almacenamiento ineficiente de los documentos clave <br class="desktopTabletElement">
+                    Almacenamiento ineficiente de los documentos clave <br class="DT_e">
                 de cada comprador, vendedor o propiedad. </li>
 
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Poca interacción con clientes que impide ofrecer <br class="desktopTabletElement">
-                nuevas promociones, crear una comunidad e <br class="desktopTabletElement">
+                    Poca interacción con clientes que impide ofrecer <br class="DT_e">
+                nuevas promociones, crear una comunidad e <br class="DT_e">
                 implementar nuevas estrategias de venta </li>
 
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Fallas en la difusión de promociones e información <br class="desktopTabletElement">
+                    Fallas en la difusión de promociones e información <br class="DT_e">
                 atractiva para cerrar ventas y fidelizar a la comunidad </li>
               </ul>
             ',
@@ -410,26 +410,26 @@
             <ul class="text">
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Evalúa tus prospectos con formularios que te permitan <br class="desktopTabletElement">
-            identificar las características del comprador ideal para <br class="desktopTabletElement">
+                Evalúa tus prospectos con formularios que te permitan <br class="DT_e">
+            identificar las características del comprador ideal para <br class="DT_e">
             cada proyecto.</li>
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Organiza un embudo de ventas en el CRM para <br class="desktopTabletElement">
-            brindar una mejor experiencia a los prospectos y ten <br class="desktopTabletElement">
+                Organiza un embudo de ventas en el CRM para <br class="DT_e">
+            brindar una mejor experiencia a los prospectos y ten <br class="DT_e">
             claridad sobre el avance de tus procesos comerciales.</li>
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Archiva la información y documentos importantes de <br class="desktopTabletElement">
+                Archiva la información y documentos importantes de <br class="DT_e">
             cada cliente y accede a ellos con facilidad en el CRM.</li>
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Mantén una comunicación efectiva con campañas de <br class="desktopTabletElement">
-            email marketing y comparte incentivos con tus clientes <br class="desktopTabletElement">
+                Mantén una comunicación efectiva con campañas de <br class="DT_e">
+            email marketing y comparte incentivos con tus clientes <br class="DT_e">
             para sumar nuevos prospectos.</li>
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Uso de Email Marketing y Automatizaciones para <br class="desktopTabletElement">
+                Uso de Email Marketing y Automatizaciones para <br class="DT_e">
             promocionar programas atractivos a la comunidad</li>
               </ul>
             ',
@@ -456,12 +456,12 @@
                 'title' => null,
                 'text' => '
                     <span>
-                        "Debo contratar un desarrollador web cada vez que <br class="desktopTabletElement">
+                        "Debo contratar un desarrollador web cada vez que <br class="DT_e">
                         necesito dar a conocer mis proyectos de inmuebles"
                     </span>
                     <br class="space"><br class="space">
-                    Crea <strong>landing pages</strong> rápidamente con plantillas <br class="desktopTabletElement">
-                    prediseñadas de acuerdo a tu necesidad, sin invertir <br class="desktopTabletElement">
+                    Crea <strong>landing pages</strong> rápidamente con plantillas <br class="DT_e">
+                    prediseñadas de acuerdo a tu necesidad, sin invertir <br class="DT_e">
                     recursos en programación.
                 ',
                 'enableButton' => false,
@@ -486,12 +486,12 @@
                 'title' => null,
                 'text' => '
                     <span>
-                        "Mi base de datos no está segmentada y no puedo <br class="desktopTabletElement">
+                        "Mi base de datos no está segmentada y no puedo <br class="DT_e">
                         diferenciar con qué interés llegan los leads"
                     </span>
                     <br class="space"><br class="space">
-                        Organiza rápidamente tu base de datos con el <strong>CRM</strong>, <br class="desktopTabletElement">
-                        mediante filtros, segmentos y etiquetas para tener una <br class="desktopTabletElement">
+                        Organiza rápidamente tu base de datos con el <strong>CRM</strong>, <br class="DT_e">
+                        mediante filtros, segmentos y etiquetas para tener una <br class="DT_e">
                         mejor gestión de prospectos.
 
 
@@ -518,13 +518,13 @@
                 'title' => null,
                 'text' => '
                    <span>
-                       "No logramos brindar una respuesta rápida a <br class="desktopTabletElement">
-                        los leads interesados y perdemos gran parte <br class="desktopTabletElement">
+                       "No logramos brindar una respuesta rápida a <br class="DT_e">
+                        los leads interesados y perdemos gran parte <br class="DT_e">
                         del dinero que invertimos en marketing"
                    </span>
                    <br class="space"><br class="space">
-                   Automatiza la asignación de potenciales compradores <br class="desktopTabletElement">
-                    y actividades comerciales a tus agentes inmobiliarios, <br class="desktopTabletElement">
+                   Automatiza la asignación de potenciales compradores <br class="DT_e">
+                    y actividades comerciales a tus agentes inmobiliarios, <br class="DT_e">
                     para tener una gestión  efectiva.
                 ',
                 'enableButton' => false,
@@ -549,13 +549,13 @@
                 'title' => null,
                 'text' => '
                    <span>
-                       "Me gustaría dar a conocer información <br class="desktopTabletElement">
-                        sobre descuentos, lanzamientos y créditos <br class="desktopTabletElement">
+                       "Me gustaría dar a conocer información <br class="DT_e">
+                        sobre descuentos, lanzamientos y créditos <br class="DT_e">
                         para incentivar la compra"
                    </span>
                    <br class="space"><br class="space">
-                    Elabora un plan de comunicaciones para mantener <br class="desktopTabletElement">
-                    informada a tu comunidad con las herramientas de <br class="desktopTabletElement">
+                    Elabora un plan de comunicaciones para mantener <br class="DT_e">
+                    informada a tu comunidad con las herramientas de <br class="DT_e">
                     <strong>Email Marketing y Automatizaciones.</strong>
                 ',
                 'enableButton' => false,
@@ -580,13 +580,13 @@
                 'title' => null,
                 'text' => '
                     <span>
-                        "Invierto mucho tiempo en la creación y <br class="desktopTabletElement">
-                        revisión de reportes para saber cuáles <br class="desktopTabletElement">
+                        "Invierto mucho tiempo en la creación y <br class="DT_e">
+                        revisión de reportes para saber cuáles <br class="DT_e">
                         están siendo los proyectos mejor vendidos"
                     </span>
                     <br class="space"><br class="space">
-                    Visualiza reportes en tiempo real con los <br class="desktopTabletElement">
-                    resultados comerciales de cada agente <br class="desktopTabletElement">
+                    Visualiza reportes en tiempo real con los <br class="DT_e">
+                    resultados comerciales de cada agente <br class="DT_e">
                     inmobiliario en los Dashboards de Escala.
                 ',
                 'enableButton' => false,

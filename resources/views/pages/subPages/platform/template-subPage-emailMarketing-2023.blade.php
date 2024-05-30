@@ -38,11 +38,11 @@
                             <div class="info col-md-12 col-lg-8">
                                 <p class="text-video">
                                     “En mi experiencia, la venta se logra luego de varios <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                     contactos personalizados. La gestión inteligente de <br
-                                        class="desktopTabletElement">
-                                    campañas de emails es una estrategia fundamental <br class="desktopTabletElement">
-                                    para mantenerse en contacto, y quizás el método de <br class="desktopTabletElement">
+                                        class="DT_e">
+                                    campañas de emails es una estrategia fundamental <br class="DT_e">
+                                    para mantenerse en contacto, y quizás el método de <br class="DT_e">
                                     menor costo de todos”.
                                 </p>
                                 <br class="space">
@@ -103,9 +103,9 @@
                                 </h2>
                                 <p class="text-p">
                                     La primera impresión lo es todo. Crea y edita emails profesionales <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                     con el editor de emails intuitivo de escala. Simplemente, arrastra <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                     y suelta en nuestras hermosas plantillas o crea las tuyas desde cero.
                                     <br class="space"> <br class="space">
                                     ¡En minutos, tendrás una campaña con emails pidiendo ser abiertos!
@@ -147,9 +147,9 @@
                                     </h2>
                                     <p class="text-p">
                                         No necesitarás un artefacto mágico que te responda. <br
-                                            class="desktopTabletElement">
+                                            class="DT_e">
                                         Con escala sabrás quiénes de tus contactos abrieron <br
-                                            class="desktopTabletElement">
+                                            class="DT_e">
                                         los emails y cuándo. <br class="space"> <br class="space">
 
                                         Aún mejor, ¡sabrás si tus emails están generando ventas!
@@ -178,7 +178,7 @@
                                 </h2>
                                 <p class="text-p">
                                     Automatiza tus emails para que tus contactos reciban tus <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                     mensajesen el momento indicado, ¡incluso mientras duermes! <br class="space"> <br
                                         class="space">
 
@@ -219,10 +219,10 @@
                                 <p class="text-p">
                                     El envío de emails idealmente funciona de esta manera: <br class="space">
                                     enviar, abrir y vender. <br class="space">
-                                    ¡Eso es difícil de lograr si tu email termina en <br class="desktopTabletElement">
+                                    ¡Eso es difícil de lograr si tu email termina en <br class="DT_e">
                                     la bandeja de spam! <br class="space"> <br class="space">
 
-                                    Con escala, hemos desarrollado la tecnología que <br class="desktopTabletElement">
+                                    Con escala, hemos desarrollado la tecnología que <br class="DT_e">
                                     minimiza el riesgo de caer en la bandeja de spam. <br class="space"> <br
                                         class="space">
 
@@ -254,11 +254,11 @@
                                     </h2>
                                     <p class="text-p">
                                         Cada persona ve sus emails en diferentes plataformas. <br
-                                            class="desktopTabletElement">
+                                            class="DT_e">
                                         Afortunadamente, los emails que creas en escala se ajustan <br
-                                            class="desktopTabletElement">
+                                            class="DT_e">
                                         perfectamente a cualquier dispositivo: móvil, tableta o laptop…<br
-                                            class="desktopTabletElement">
+                                            class="DT_e">
                                         para que siempre se vean bien.
                                     </p>
                                 </div>
@@ -294,16 +294,16 @@
                                 </h2>
                                 <p class="text-p">
                                     Configura tus mensajes con {etiquetas}. Así podrás <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                     enviar emails personalizados a cientos de contactos <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                     en segundos. <br class="space"> <br class="space">
 
-                                    ¿Qué te gustaría personalizar? <br class="desktopTabletElement">
+                                    ¿Qué te gustaría personalizar? <br class="DT_e">
                                     ¿Nombre, país, oferta, información de contacto? <br class="space"> <br
                                         class="space">
 
-                                    Aumenta tu eficiencia logrando mantener la <br class="desktopTabletElement">
+                                    Aumenta tu eficiencia logrando mantener la <br class="DT_e">
                                     cercanía de las conversaciones uno a uno.
                                 </p>
                                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -340,11 +340,11 @@
                             </h3>
                             <p class="text">
                                 Hazle seguimiento al desempeño de todas tus <br
-                                class="desktopTabletElement">
+                                class="DT_e">
                                 campañas de emails, conoce cuál email causó <br
-                                class="desktopTabletElement">
+                                class="DT_e">
                                 más impacto y dale seguimiento para ver cuántas <br
-                                class="desktopTabletElement">
+                                class="DT_e">
                                 ganancias generó para tu negocio. <br class="space"><br class="space">
 
                                 ¡Aprende, optimiza y crece!
@@ -363,11 +363,11 @@
                             </h3>
                             <p class="text">
                                 ¡Espera! ¡No te vayas! Descubre quién canceló <br
-                                class="desktopTabletElement">
+                                class="DT_e">
                                 su subscripción a tu lista de correo y por qué. <br
-                                class="desktopTabletElement">
+                                class="DT_e">
                                 Identifica qué emails no funcionan y <br
-                                class="desktopTabletElement">
+                                class="DT_e">
                                  modifícalos en el momento correcto.
                                  <br class="space"><br class="space">
 

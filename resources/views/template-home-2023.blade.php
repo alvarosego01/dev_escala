@@ -361,7 +361,7 @@
                                 en clientes fieles con Escala
                             </h2>
                             <p class="text">
-                                Encuentra todas las herramientas de marketing y ventas que <br class="desktopTabletElement">
+                                Encuentra todas las herramientas de marketing y ventas que <br class="DT_e">
                                 necesitas para generar leads y convertirlos en clientes fieles
                             </p>
 
@@ -392,7 +392,7 @@
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ia_small.png'),
                                                 'text' => '
             <span>Crea contenido efectivo en segundos</span> <br class="space">
-            La IA en Escala es como tener un copywriter <br class="desktopTabletElement">
+            La IA en Escala es como tener un copywriter <br class="DT_e">
             estrella a una fracción del costo',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_ia_home_selector.gif'),
                                             ],
@@ -401,7 +401,7 @@
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_crm_small.png'),
                                                 'text' => '
             <span>Convierte más leads en clientes fieles</span> <br class="space">
-            organizando, guardando y supervisando <br class="desktopTabletElement">
+            organizando, guardando y supervisando <br class="DT_e">
             mejor todo lo que ocurre con tus contactos',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_crm_home_selector.gif'),
                                             ],
@@ -409,7 +409,7 @@
                                                 'title' => 'Automatizaciones',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_automatizations_small.png'),
                                                 'text' => '
-        Ahorra tiempo y dinero <br class="desktopTabletElement">
+        Ahorra tiempo y dinero <br class="DT_e">
         programando tareas y flujos de acciones
      ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_automatizations_home_selector.gif'),
@@ -419,7 +419,7 @@
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_landingp_small.png'),
                                                 'text' => '
             <span>Captura más leads de calidad</span> <br class="space">
-            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
+            Elige la plantilla, edítala en minutos y publica <br class="DT_e">
             ¡sin depender de programadores!
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_landingp_home_selector.gif'),
@@ -550,11 +550,11 @@
                         <div class="containElements">
 
                             <h2 class="title">
-                                No necesitas invertir en 10+ herramientas <br class="desktopTabletElement">
+                                No necesitas invertir en 10+ herramientas <br class="DT_e">
                                 ni en un equipo grande <span>para escalar tu negocio</span>
                             </h2>
                             <p class="text">
-                                Los clientes de Escala triplican su productividad <br class="desktopTabletElement">
+                                Los clientes de Escala triplican su productividad <br class="DT_e">
                                 sin agregar costos operativos a su empresa
                             </p>
 
@@ -582,11 +582,11 @@
                                 Ya no requieres meses para adaptar el CRM a tus operaciones
                             </h3>
                             <h2 class="title">
-                                Recibe el CRM ajustado a tus necesidades <br class="desktopTabletElement">
+                                Recibe el CRM ajustado a tus necesidades <br class="DT_e">
                                 ¡en menos de 10 días!
                             </h2>
                             <p class="text">
-                                 Adaptamos la plataforma a tu negocio para que tú y tu equipo empiecen a enfocarse lo más pronto <br class="desktopTabletElement">
+                                 Adaptamos la plataforma a tu negocio para que tú y tu equipo empiecen a enfocarse lo más pronto <br class="DT_e">
                                  posible en lo que verdaderamente importa: ¡generar leads y cerrar ventas!
                             </p>
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/01-home2023.png') !!}" loading="lazy">
@@ -791,11 +791,11 @@
                                 De nada sirve tener un CRM configurado... ¡si nadie lo quiere o sabe usar!
                             </h3>
                             <h2 class="title">
-                                Entrenamos a tu equipo y te acompañamos a <br class="desktopTabletElement">
+                                Entrenamos a tu equipo y te acompañamos a <br class="DT_e">
                                 acelerar resultados ¡todo el año!
                             </h2>
                             <p class="text">
-                                ¡Tu éxito es nuestro éxito! Te apoyamos de todas las maneras posibles para que <br class="desktopTabletElement"> construyas una máquina de marketing y ventas con Escala
+                                ¡Tu éxito es nuestro éxito! Te apoyamos de todas las maneras posibles para que <br class="DT_e"> construyas una máquina de marketing y ventas con Escala
                             </p>
                         </div>
 
@@ -1296,7 +1296,7 @@
                                                 Atrae
                                             </h3>
                                             <p class="text">
-                                                A más prospectos ideales <br class="desktopTabletElement">
+                                                A más prospectos ideales <br class="DT_e">
                                                 con landing pages y ads
                                             </p>
                                         </div>
@@ -1312,7 +1312,7 @@
                                                 Nutre
                                             </h3>
                                             <p class="text">
-                                                la relación con WhatsApps <br class="desktopTabletElement">
+                                                la relación con WhatsApps <br class="DT_e">
                                                 emails y automatizaciones
                                             </p>
                                         </div>
@@ -1328,7 +1328,7 @@
                                                 Convierte
                                             </h3>
                                             <p class="text">
-                                                más clientes fieles con todas <br class="desktopTabletElement">
+                                                más clientes fieles con todas <br class="DT_e">
                                                 las herramientas del CRM
                                             </p>
                                         </div>
@@ -1368,12 +1368,12 @@
                                     ¿Brindas servicios de marketing o ventas?
                                 </h3>
                                 <h2 class="title">
-                                    Multiplica tu impacto y tus ingresos <br class="desktopTabletElement">
+                                    Multiplica tu impacto y tus ingresos <br class="DT_e">
                                     convirtiéndote en Escala Partner
                                 </h2>
                                 <p class="text">
-                                    Como socio de Escala recibes beneficios únicos <br class="desktopTabletElement">
-                                    para hacer crecer tu negocio y desarrollar una <br class="desktopTabletElement">
+                                    Como socio de Escala recibes beneficios únicos <br class="DT_e">
+                                    para hacer crecer tu negocio y desarrollar una <br class="DT_e">
                                     ventaja competitiva única en el mercado.
                                 </p>
                                 <a class=" outlineWhiteButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -1408,12 +1408,12 @@
                             <div class="containElements">
 
                                 <h2 class="title">
-                                    ¿Listo para subir a bordo? <br class="desktopTabletElement">
+                                    ¿Listo para subir a bordo? <br class="DT_e">
                                     la satisfacción es 100% garantizada
 
                                 </h2>
                                 <p class="text">
-                                    Si en los primeros 20 días no estás satisfecho <br class="desktopTabletElement">
+                                    Si en los primeros 20 días no estás satisfecho <br class="DT_e">
                                     con el valor que recibes, te devolvemos el dinero.
                                 </p>
                                 <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">

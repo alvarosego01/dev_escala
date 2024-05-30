@@ -44,7 +44,7 @@ $parameters = [
     Acelera el éxito <span class="greenBlueColor">de tu negocio</span>
     ',
     'subTitlePrincipal' => '
-    Las funcionalidades de marketing digital de <strong>Escala</strong> te permiten hacer crecer tu negocio <br class="desktopTabletElement">
+    Las funcionalidades de marketing digital de <strong>Escala</strong> te permiten hacer crecer tu negocio <br class="DT_e">
     de manera rentable y sostenible. Con nuestra plataforma lograrás:
     ',
     'overlay' => false,
@@ -107,11 +107,11 @@ $parameters = [
     ',
     'img' => App::setFilePath('/assets/images/illustrations/others/flywheel_marketing.png'),
     'text' => '
-Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="desktopTabletElement">
+Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="DT_e">
 y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrando:
 <br class="space"><br class="space">
 <ul>
-  <li>Generar demanda de tus productos y servicios a través de herramientas <br class="desktopTabletElement"> de marketing digital</li>
+  <li>Generar demanda de tus productos y servicios a través de herramientas <br class="DT_e"> de marketing digital</li>
   <li>Aumentar las ventas gestionando todo el proceso desde un solo lugar</li>
   <li>Aumentar la retención de tus clientes creando relaciones a largo plazo</li>
 </ul>
@@ -141,11 +141,11 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
             <div class="containElements">
 
               <h2 class="primaryTitle blackColor">
-                Descubre cómo optimizar <br class="desktopTabletElement">
+                Descubre cómo optimizar <br class="DT_e">
                 <span class="greenBlueColor">tu Marketing Digital con Escala</span>
               </h2>
               {{-- <p class="primaryText grayColorTexts">
-                Aumenta tus ventas y la productividad de tu equipo con el CRM más fácil de usar del mercado, <br class="desktopTabletElement">
+                Aumenta tus ventas y la productividad de tu equipo con el CRM más fácil de usar del mercado, <br class="DT_e">
                 el arma secreta de los negocios para escalar con éxito.
               </p> --}}
 
@@ -168,9 +168,9 @@ Llega a más clientes potenciales <br class="space">
 con Ads de Instagram y Facebook
                   </h3>
                   <p class="primaryText  grayColorTexts">
-Crea, publica y gestiona tus campañas de anuncios digitales, <br class="desktopTabletElement">
-sin salir de Escala. De la manera más fácil e intuitiva, ten <br class="desktopTabletElement">
-visibilidad sobre el retorno de inversión con analíticas <br class="desktopTabletElement">
+Crea, publica y gestiona tus campañas de anuncios digitales, <br class="DT_e">
+sin salir de Escala. De la manera más fácil e intuitiva, ten <br class="DT_e">
+visibilidad sobre el retorno de inversión con analíticas <br class="DT_e">
 relevantes que se integran a tus esfuerzos de venta.
                   </p>
                 </div>
@@ -189,10 +189,10 @@ Motiva a tu audiencia ideal <br class="space">
 a registrarse en tus Landing pages
                   </h3>
                   <p class="primaryText  grayColorTexts">
-En Escala puedes construir rápidamente páginas <br class="desktopTabletElement">
-optimizadas para comunicar tu propuesta de valor y <br class="desktopTabletElement">
-capturar la información de contacto de tus visitantes. <br class="desktopTabletElement">
-Hay cientos de plantillas prediseñadas, listas para que <br class="desktopTabletElement">
+En Escala puedes construir rápidamente páginas <br class="DT_e">
+optimizadas para comunicar tu propuesta de valor y <br class="DT_e">
+capturar la información de contacto de tus visitantes. <br class="DT_e">
+Hay cientos de plantillas prediseñadas, listas para que <br class="DT_e">
 las personalices y publiques sin necesitar programación.
                   </p>
                 </div>
@@ -213,11 +213,11 @@ Convierte leads en clientes <br class="space">
 con el CRM de Escala
                   </h3>
                   <p class="primaryText  grayColorTexts">
-Guarda, organiza y gestiona tu base de datos de posibles <br class="desktopTabletElement">
-clientes con el CRM de Escala. Así podrás darle <br class="desktopTabletElement">
-seguimiento a cada lead hasta cerrar la venta. Segméntalos <br class="desktopTabletElement">
-con etiquetas avanzadas para enviarles campañas <br class="desktopTabletElement">
-personalizadas y haz más productivo a tu equipo de ventas <br class="desktopTabletElement">
+Guarda, organiza y gestiona tu base de datos de posibles <br class="DT_e">
+clientes con el CRM de Escala. Así podrás darle <br class="DT_e">
+seguimiento a cada lead hasta cerrar la venta. Segméntalos <br class="DT_e">
+con etiquetas avanzadas para enviarles campañas <br class="DT_e">
+personalizadas y haz más productivo a tu equipo de ventas <br class="DT_e">
 asignándoles tareas, actividades y recordatorios.
                   </p>
                 </div>
@@ -237,10 +237,10 @@ con campañas de email marketing
 
                   </h3>
                   <p class="primaryText  grayColorTexts">
-Segmenta tu base de datos y envía mensajes relevantes <br class="desktopTabletElement">
+Segmenta tu base de datos y envía mensajes relevantes <br class="DT_e">
 en el momento oportuno para potenciar tu crecimiento. <br class="space">
-Es fácil y rápido.  Diseña hermosos emails <br class="desktopTabletElement">
-personalizando plantillas y envíalos masivamente con <br class="desktopTabletElement">
+Es fácil y rápido.  Diseña hermosos emails <br class="DT_e">
+personalizando plantillas y envíalos masivamente con <br class="DT_e">
 solo un clic,  sin caer en la bandeja de spam.
                   </p>
                 </div>
@@ -262,10 +262,10 @@ Automatiza y aumenta tu productividad
                   </h3>
 
                   <p class="primaryText  grayColorTexts">
-Programa el envío de emails y recordatorios para que no <br class="desktopTabletElement">
-pierdas oportunidades  de venta. Automatiza tareas como la <br class="desktopTabletElement">
-asignación de leads a vendedores, el cambio de status en el <br class="desktopTabletElement">
-CRM y la segmentación de tu base de datos para que ahorres <br class="desktopTabletElement">
+Programa el envío de emails y recordatorios para que no <br class="DT_e">
+pierdas oportunidades  de venta. Automatiza tareas como la <br class="DT_e">
+asignación de leads a vendedores, el cambio de status en el <br class="DT_e">
+CRM y la segmentación de tu base de datos para que ahorres <br class="DT_e">
 tiempo y energía al escalar tu negocio.
                   </p>
                 </div>
@@ -285,10 +285,10 @@ Mide y optimiza tus resultados <br class="space">
 con analíticas relevantes
                   </h3>
                   <p class="primaryText  grayColorTexts">
-Ten visibilidad sobre las métricas que realmente <br class="desktopTabletElement">
-importan para entender qué funciona y qué puedes <br class="desktopTabletElement">
-mejorar para optimizar tu marketing digital. Cuenta con <br class="desktopTabletElement">
-dashboards amigables que miden el rendimiento de ads, <br class="desktopTabletElement">
+Ten visibilidad sobre las métricas que realmente <br class="DT_e">
+importan para entender qué funciona y qué puedes <br class="DT_e">
+mejorar para optimizar tu marketing digital. Cuenta con <br class="DT_e">
+dashboards amigables que miden el rendimiento de ads, <br class="DT_e">
 landing pages y campañas de emails.
                   </p>
                 </div>
@@ -343,9 +343,9 @@ En Escala siempre te damos más
 los Formularios Integrados
                             </span>',
                         'text' => '
-                        Cuando tus visitantes registran su información de contacto <br class="desktopTabletElement">
-en los formularios integrados de tus landing pages, queda <br class="desktopTabletElement">
-guardada automáticamente en el CRM de Escala. Así tienes <br class="desktopTabletElement">
+                        Cuando tus visitantes registran su información de contacto <br class="DT_e">
+en los formularios integrados de tus landing pages, queda <br class="DT_e">
+guardada automáticamente en el CRM de Escala. Así tienes <br class="DT_e">
 mejor control de la data.
                         ',
                         'enableButton' => false,
@@ -359,9 +359,9 @@ WhatsApp Web Escala
                             </span>
                         ',
                         'text' => '
-                          El CRM de Escala te ofrece su integración a tu WhatsApp <br class="desktopTabletElement">
-Web para que puedas convertir a cada contacto nuevo en un <br class="desktopTabletElement">
-lead. Guarda la información de manera automática en tu CRM <br class="desktopTabletElement">
+                          El CRM de Escala te ofrece su integración a tu WhatsApp <br class="DT_e">
+Web para que puedas convertir a cada contacto nuevo en un <br class="DT_e">
+lead. Guarda la información de manera automática en tu CRM <br class="DT_e">
 y gestiona el seguimiento de una manera fácil y efectiva.
                         ',
                         'enableButton' => false,
@@ -373,8 +373,8 @@ y gestiona el seguimiento de una manera fácil y efectiva.
 a escalar con éxito
                             </span>',
                         'text' => '
-                        Nuestro equipo te brinda las herramientas y recursos que <br class="desktopTabletElement">
-necesitas para conseguir resultados con Escala según tus <br class="desktopTabletElement">
+                        Nuestro equipo te brinda las herramientas y recursos que <br class="DT_e">
+necesitas para conseguir resultados con Escala según tus <br class="DT_e">
 objetivos, experiencia y necesidades.
                         ',
                         'enableButton' => false,
@@ -401,9 +401,9 @@ objetivos, experiencia y necesidades.
                 <div class="containElements">
 
                   <p class="primaryText grayColorTexts description">
-                    “Escala tiene el email builder más amigable que <br class="desktopTabletElement">
-he utilizado en los últimos años y su equipo está <br class="desktopTabletElement">
-comprometido a mantener la plataforma en constante <br class="desktopTabletElement">
+                    “Escala tiene el email builder más amigable que <br class="DT_e">
+he utilizado en los últimos años y su equipo está <br class="DT_e">
+comprometido a mantener la plataforma en constante <br class="DT_e">
 actualización en el dinámico mundo digital”
                 </p>
 

@@ -28,10 +28,10 @@
                     <div class="groupElements row">
                         <div class="info col-md-12 col-lg-8">
                             <p class="text-video">
-                                    “Admito que estoy obsesionado con ver  <br class="desktopTabletElement">
-                                    diariamente las métricas de las empresas en las <br class="desktopTabletElement">
-                                     que estoy involucrado. Ver reportes en tiempo real <br class="desktopTabletElement">
-                                      ayuda al equipo a tomar decisiones inteligentes y <br class="desktopTabletElement">
+                                    “Admito que estoy obsesionado con ver  <br class="DT_e">
+                                    diariamente las métricas de las empresas en las <br class="DT_e">
+                                     que estoy involucrado. Ver reportes en tiempo real <br class="DT_e">
+                                      ayuda al equipo a tomar decisiones inteligentes y <br class="DT_e">
                                        oportunas para conseguir mejores resultados.”
                             </p>
                             <br class="space">
@@ -85,12 +85,12 @@
                                     <span>Prioriza tu día</span> de ventas
                                 </h2>
                                 <p class="text-p">
-                                    ¿Quiénes de mis visitantes se convierten en contactos? ¿Quienes de <br class="desktopTabletElement">
+                                    ¿Quiénes de mis visitantes se convierten en contactos? ¿Quienes de <br class="DT_e">
                                     mis contactos se convierten en clientes? <br class="space">
                                     ¿En qué parte del embudo los visitantes tienen mayor interacción?
                                     <br class="space"> <br class="space">
-                                    Visualiza dónde tus embudos de venta son altamente efectivos y <br class="desktopTabletElement">
-                                    dónde necesitan algo de trabajo. Todo lo que deseas saber está en <br class="desktopTabletElement">
+                                    Visualiza dónde tus embudos de venta son altamente efectivos y <br class="DT_e">
+                                    dónde necesitan algo de trabajo. Todo lo que deseas saber está en <br class="DT_e">
                                     un solo lugar: el dashboard inteligente de escala.
                                 </p>
                             </div>
@@ -126,12 +126,12 @@
                                     fueron los mejores! ... ¿Cierto?
                                 </h2>
                                 <p class="text-p">
-                                    ¿Qué campaña de anuncios digitales está generando mejores <br class="desktopTabletElement">
-                                    resultados? ¿Cuál atrajo más visitantes a tu página? ¿Cuántos <br class="desktopTabletElement">
-                                    hicieron click en tus anuncios digitales? ¿De dónde vienen tus <br class="desktopTabletElement">
+                                    ¿Qué campaña de anuncios digitales está generando mejores <br class="DT_e">
+                                    resultados? ¿Cuál atrajo más visitantes a tu página? ¿Cuántos <br class="DT_e">
+                                    hicieron click en tus anuncios digitales? ¿De dónde vienen tus <br class="DT_e">
                                     visitantes?<br class="space"> <br class="space">
 
-                                    <b>Ten las métricas que necesitarás para hacer<br class="desktopTabletElement">
+                                    <b>Ten las métricas que necesitarás para hacer<br class="DT_e">
                                     tu inversión en marketing más eficiente.</b>
                                 </p>
                                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -160,12 +160,12 @@
                                     mejores resultados?  ¡Sí!
                                 </h2>
                                 <p class="text-p">
-                                    escala te enseña claramente métricas como: cuántos visitantes <br class="desktopTabletElement">
-                                     han visto tus páginas, qué contenido ha causado mayor interés, <br class="desktopTabletElement">
-                                      cuánto tiempo invirtieron revisando tu oferta, qué productos se <br class="desktopTabletElement">
+                                    escala te enseña claramente métricas como: cuántos visitantes <br class="DT_e">
+                                     han visto tus páginas, qué contenido ha causado mayor interés, <br class="DT_e">
+                                      cuánto tiempo invirtieron revisando tu oferta, qué productos se <br class="DT_e">
                                        han vendido más...<br class="space"> <br class="space">
 
-                                    <b> más sabes ¡mayor capacidad tendrás de optimizar <br class="desktopTabletElement"> resultados!</b>
+                                    <b> más sabes ¡mayor capacidad tendrás de optimizar <br class="DT_e"> resultados!</b>
                                 </p>
                             </div>
                         </div>
@@ -198,13 +198,13 @@
                                     fue exitosa..." ¡Compruébalo!
                                 </h2>
                                 <p class="text-p">
-                                    Las métricas de escala te permiten verlo todo. Conoce el <br class="desktopTabletElement">
-                                    rendimiento de tus campañas de emails, descubre <br class="desktopTabletElement">
-                                    cuántas personas lo han abireto, qué titulos han <br class="desktopTabletElement">
-                                    funcionado mejor y en qué parte del email hicieron más <br class="desktopTabletElement">
+                                    Las métricas de escala te permiten verlo todo. Conoce el <br class="DT_e">
+                                    rendimiento de tus campañas de emails, descubre <br class="DT_e">
+                                    cuántas personas lo han abireto, qué titulos han <br class="DT_e">
+                                    funcionado mejor y en qué parte del email hicieron más <br class="DT_e">
                                     click.<br class="space"> <br class="space">
 
-                                    Utiliza esta información valiosa para construir tu próxima <br class="desktopTabletElement">
+                                    Utiliza esta información valiosa para construir tu próxima <br class="DT_e">
                                     campaña de email y conseguir mejores resultados.
                                 </p>
                             </div>
@@ -229,12 +229,12 @@
                                     de tu gerente de ventas
                                 </h2>
                                 <p class="text-p">
-                                    Las analíticas son parte esencial de una buena estrategia <br class="desktopTabletElement">
+                                    Las analíticas son parte esencial de una buena estrategia <br class="DT_e">
                                     de ventas.<br class="space"><br class="space">
-                                    Con las métricas de escala, tu gerente de ventas tendrá la <br class="desktopTabletElement">
-                                     visibilidad que necesita sobre el rendimiento de cada uno <br class="desktopTabletElement">
-                                     de los miembros de su equipo. No más adivinanzas, toma <br class="desktopTabletElement">
-                                      acciones basadas en informaicón objetiva y aumenta la <br class="desktopTabletElement">
+                                    Con las métricas de escala, tu gerente de ventas tendrá la <br class="DT_e">
+                                     visibilidad que necesita sobre el rendimiento de cada uno <br class="DT_e">
+                                     de los miembros de su equipo. No más adivinanzas, toma <br class="DT_e">
+                                      acciones basadas en informaicón objetiva y aumenta la <br class="DT_e">
                                        probabbilidad de cumplir tus metas de venta.
                                 </p>
                             </div>
@@ -269,13 +269,13 @@
                                     está tu negocio en general?
                                 </h2>
                                 <p class="text-p">
-                                    Como dueño de empresa obtén reportes amigables que te permitan <br class="desktopTabletElement">
-                                     diagnosticar la salud de tu negocio. Responde preguntas como: <br class="desktopTabletElement">
-                                      ¿Cuánto han aumentado tus ventas en comparación el trimestre <br class="desktopTabletElement">
-                                       pasado? ¿Qué embudo ha traido el mayor retorno de inversión? <br class="desktopTabletElement">
+                                    Como dueño de empresa obtén reportes amigables que te permitan <br class="DT_e">
+                                     diagnosticar la salud de tu negocio. Responde preguntas como: <br class="DT_e">
+                                      ¿Cuánto han aumentado tus ventas en comparación el trimestre <br class="DT_e">
+                                       pasado? ¿Qué embudo ha traido el mayor retorno de inversión? <br class="DT_e">
                                         ¿Qué producto ha contribuido más al crecimiento de la emrpesa? <br class="space"> <br class="space">
 
-                                    <b>Logra que escala se convierta en uno de tus <br class="desktopTabletElement">
+                                    <b>Logra que escala se convierta en uno de tus <br class="DT_e">
                                          mejores aliados estratégicos.</b>
                                 </p>
                             </div>

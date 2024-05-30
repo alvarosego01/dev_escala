@@ -292,8 +292,8 @@
                 ',
                     'text' => '
                     <ul>
-                        <li><span>1.</span> Guardar datos como:  email, teléfono, rol, dirección, <br class="desktopTabletElement"> website, intereses, edad, industria, ¡y más!</li>
-                        <li><span>2.</span> Lleva un historial automático de interacciones y <br class="desktopTabletElement"> actividades realizadas</li>
+                        <li><span>1.</span> Guardar datos como:  email, teléfono, rol, dirección, <br class="DT_e"> website, intereses, edad, industria, ¡y más!</li>
+                        <li><span>2.</span> Lleva un historial automático de interacciones y <br class="DT_e"> actividades realizadas</li>
                         <li><span>3.</span> Agrega notas, tareas y recordatorios </li>
                     </ul>
                 ',
@@ -343,9 +343,9 @@
                     'text' => '
                     <ul>
                         <li><span>1.</span> Olvídate de fórmulas complicadas en Excel</li>
-                        <li><span>2.</span> Construye reportes en minutos, a partir de <br class="desktopTabletElement"> la data registrada en el CRM</li>
+                        <li><span>2.</span> Construye reportes en minutos, a partir de <br class="DT_e"> la data registrada en el CRM</li>
                         <li><span>3.</span> Gestiona mejor a tu equipo</li>
-                        <li><span>4.</span> Toma decisiones estratégicas y operativas <br class="desktopTabletElement"> basadas en data </li>
+                        <li><span>4.</span> Toma decisiones estratégicas y operativas <br class="DT_e"> basadas en data </li>
                     </ul>
                 ',
                     'enableButton' => false,
@@ -461,12 +461,12 @@
                 ',
                     'text' => '
                     <ul>
-                        <li><span>1.</span> Envía y recibe mensajes privados o <br class="desktopTabletElement"> accesibles a tu equipo</li>
+                        <li><span>1.</span> Envía y recibe mensajes privados o <br class="DT_e"> accesibles a tu equipo</li>
                         <li><span>2.</span> Asigna conversaciones a distintos responsables</li>
                         <li><span>3.</span> Guarda fácilmente nuevos contactos en el CRM</li>
-                        <li><span>4.</span> Accede al historial de conversaciones <br class="desktopTabletElement"> y motivos de cierre</li>
+                        <li><span>4.</span> Accede al historial de conversaciones <br class="DT_e"> y motivos de cierre</li>
                         <li><span>5.</span> Filtra mensajes por contactos, dueños y status</li>
-                        <li><span>6.</span> Mide resultados con métricas en <br class="desktopTabletElement"> tiempo real (Próximamente)</li>
+                        <li><span>6.</span> Mide resultados con métricas en <br class="DT_e"> tiempo real (Próximamente)</li>
                     </ul>
                 ',
                     'enableButton' => false,
@@ -489,12 +489,12 @@
                 ',
                     'text' => '
                     <ul>
-                        <li><span>1. </span> Conversa por mensaje de <br class="desktopTabletElement"> forma gratis e ilimitada</li>
-                        <li><span>2. </span> Mantén conversaciones abiertas <br class="desktopTabletElement"> por más de 24 hs</li>
-                        <li><span>3. </span> Comunícate desde WhatsApp Web <br class="desktopTabletElement"> con tu número de teléfono actual sin <br class="desktopTabletElement"> tener que comprar uno nuevo</li>
-                        <li><span>4. </span> Recibe notificaciones en WhatsApp <br class="desktopTabletElement"> Web o tu móvil sin tener <br class="desktopTabletElement">
+                        <li><span>1. </span> Conversa por mensaje de <br class="DT_e"> forma gratis e ilimitada</li>
+                        <li><span>2. </span> Mantén conversaciones abiertas <br class="DT_e"> por más de 24 hs</li>
+                        <li><span>3. </span> Comunícate desde WhatsApp Web <br class="DT_e"> con tu número de teléfono actual sin <br class="DT_e"> tener que comprar uno nuevo</li>
+                        <li><span>4. </span> Recibe notificaciones en WhatsApp <br class="DT_e"> Web o tu móvil sin tener <br class="DT_e">
                         que abrir el inbox en Escala</li>
-                        <li><span>5. </span> Crea y edita contactos en Escala <br class="desktopTabletElement"> desde WhatsApp Web</li>
+                        <li><span>5. </span> Crea y edita contactos en Escala <br class="DT_e"> desde WhatsApp Web</li>
                     </ul>
                 ',
                     'enableButton' => false,
@@ -517,10 +517,10 @@
                 ',
                     'text' => '
                     <ul>
-                        <li><span>1.</span> Agrega un formulario de WhatsApp a <br class="desktopTabletElement"> tus landing pages
-                        <li><span>2.</span> Captura el nombre, el email y el teléfono de <br class="desktopTabletElement"> tus visitantes
-                        antes de empezar a conversar <br class="desktopTabletElement"> por WhatsApp Web
-                        <li><span>3.</span> Facilita un canal de interacción ágil y <br class="desktopTabletElement"> en vivo a los
+                        <li><span>1.</span> Agrega un formulario de WhatsApp a <br class="DT_e"> tus landing pages
+                        <li><span>2.</span> Captura el nombre, el email y el teléfono de <br class="DT_e"> tus visitantes
+                        antes de empezar a conversar <br class="DT_e"> por WhatsApp Web
+                        <li><span>3.</span> Facilita un canal de interacción ágil y <br class="DT_e"> en vivo a los
                         visitantes de tu landing.
                     </ul>
                 ',
@@ -583,9 +583,9 @@
                <span>Automatiza</span> tareas simples:
                 ',
                     'text' => '
-                        Configura emails de respuesta automática, programa <br class="desktopTabletElement">
-                        notificaciones y recordatorios, activa flujos de <br class="desktopTabletElement">
-                        conversación automáticos y ¡mucho más! Para que tu <br class="desktopTabletElement">
+                        Configura emails de respuesta automática, programa <br class="DT_e">
+                        notificaciones y recordatorios, activa flujos de <br class="DT_e">
+                        conversación automáticos y ¡mucho más! Para que tu <br class="DT_e">
                         equipo se centre en actividades más estratégicas.
                 ',
                     'enableButton' => false,
@@ -606,7 +606,7 @@
                     emails comerciales:
                 ',
                     'text' => '
-                    Piensa en tu estrategia de emails una vez y <br class="desktopTabletElement">
+                    Piensa en tu estrategia de emails una vez y <br class="DT_e">
                     automatízala para que se envíen de acuerdo al plan. <br class="space">
                     ¡Personaliza, programa y eleva tus ventas!.
                 ',
@@ -628,8 +628,8 @@
                      para tu equipo de ventas:
                 ',
                     'text' => '
-                    Automatiza recordatorios para tus vendedores y <br class="desktopTabletElement">
-                    optimiza la comunicación con clientes potenciales, en <br class="desktopTabletElement">
+                    Automatiza recordatorios para tus vendedores y <br class="DT_e">
+                    optimiza la comunicación con clientes potenciales, en <br class="DT_e">
                     el momento preciso. ¡Potencia tus ventas eficazmente!
                 ',
                     'enableButton' => false,
@@ -650,8 +650,8 @@
                      con solo agregar etiquetas
                 ',
                     'text' => '
-                    Segmenta tus contactos y asigna etiquetas. Estas <br class="desktopTabletElement">
-                    etiquetas, activan emails, notificaciones y acciones <br class="desktopTabletElement">
+                    Segmenta tus contactos y asigna etiquetas. Estas <br class="DT_e">
+                    etiquetas, activan emails, notificaciones y acciones <br class="DT_e">
                     de ventas sin esfuerzo. ¡Simplifica tu gestión!
                 ',
                     'enableButton' => false,
@@ -794,13 +794,13 @@
                             <div class="col-md-12 col-lg-7 column-text">
                                 <p>
                                     <span>
-                                        “El CRM integrado con WhatsApp y <br class="desktopTabletElement">
-                                        automatizaciones, se convierte en el corazón <br class="desktopTabletElement">
+                                        “El CRM integrado con WhatsApp y <br class="DT_e">
+                                        automatizaciones, se convierte en el corazón <br class="DT_e">
                                         de las operaciones de todo negocio. <br class="space">
                                     </span>
-                                    Diseñamos Escala para <br class="desktopTabletElement">
-                                    facilitarle a pequeñas y medianas empresas <br class="desktopTabletElement">
-                                    tener una cultura cliente-céntrica y <br class="desktopTabletElement">
+                                    Diseñamos Escala para <br class="DT_e">
+                                    facilitarle a pequeñas y medianas empresas <br class="DT_e">
+                                    tener una cultura cliente-céntrica y <br class="DT_e">
                                     optimizar resultados de venta/servicio”.
                                       <br class="space"><br class="space">
                                     <span class="sub">

@@ -125,7 +125,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'title' => '¿Escala tiene todo lo que <br class="desktopTabletElement"> mi servicio de salud necesita?',
+                'title' => '¿Escala tiene todo lo que <br class="DT_e"> mi servicio de salud necesita?',
                 'img' => App::setFilePath('/assets/images/illustrations/otto/seguros-5 1.png'),
                 'text' => 'No importa el tamaño de tu servicio de salud, empodera tu generación <br class="desktopElement"> de demanda, la capacidad de afianzar relaciones con tus pacientes y la <br class="desktopElement"> posibilidad de seguir brindándoles servicios customizados.',
                 'enableButton' => false,
@@ -234,7 +234,7 @@
             $parameters = [
                 'classSection' => 'landingServSalud7',
                 'title' => '
-                Atrae más pacientes y da a conocer tus <br class="desktopTabletElement"> <span>servicios de salud con Escala</span>',
+                Atrae más pacientes y da a conocer tus <br class="DT_e"> <span>servicios de salud con Escala</span>',
                 'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                 'text' => null,
                 'image' => App::setFilePath('/assets/images/person/am/am-dedicado.png'),

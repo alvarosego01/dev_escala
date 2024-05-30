@@ -108,7 +108,7 @@
     @php
     $parameters = array(
      'classSection' => 'landingLandingPages2 func',
-     'description' => '<span class="greenBlueColor"><strong>«En Open English generamos cientos de landing pages al mes que <br class="desktopTabletElement"> generan más de 1 millón de contactos al año.</strong></span> Ese ha sido parte del secreto <br class="desktopTabletElement"> de nuestro éxito. Basados en esa experiencia, creamos el Landing Page <br class="desktopTabletElement"> Builder más robusto del mercado”.',
+     'description' => '<span class="greenBlueColor"><strong>«En Open English generamos cientos de landing pages al mes que <br class="DT_e"> generan más de 1 millón de contactos al año.</strong></span> Ese ha sido parte del secreto <br class="DT_e"> de nuestro éxito. Basados en esa experiencia, creamos el Landing Page <br class="DT_e"> Builder más robusto del mercado”.',
      'byAm' => '<strong class="blackColor2">Andrés Moreno</strong>',
      'team' => 'Fundador de <span class="greenBlueColor">Escala</span> y Open English',
      'image' => App::setFilePath('/assets/images/person/am/02_andres.png'),
@@ -130,11 +130,11 @@
   'img1' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
   'title1' => 'Multiplica las visitas <br class="space"> <span class="greenBlueColor">con anuncios digitales</span>',
   'desc1' => '
-  Comienza a generar tráfico a tu landing <br class="desktopTabletElement"> page. Crea, publica y gestiona <br class="desktopTabletElement"> campañas de anuncios digitales <br class="desktopTabletElement"> directamente desde Escala.',
+  Comienza a generar tráfico a tu landing <br class="DT_e"> page. Crea, publica y gestiona <br class="DT_e"> campañas de anuncios digitales <br class="DT_e"> directamente desde Escala.',
   'img2' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
   'title2' => '<span class="greenBlueColor">Gestiona y organiza</span> <br class="space"> la información de tus contactos',
   'desc2' => '
-  Empodera a tu equipo de ventas con el CRM <br class="desktopTabletElement"> más amigable y fácil de usar. Incrementa la <br class="desktopTabletElement"> productividad planificando actividades y <br class="desktopTabletElement"> mantén comunicación constante con tus leads.',
+  Empodera a tu equipo de ventas con el CRM <br class="DT_e"> más amigable y fácil de usar. Incrementa la <br class="DT_e"> productividad planificando actividades y <br class="DT_e"> mantén comunicación constante con tus leads.',
   'img3' => App::setFilePath('/assets/images/illustrations/others/icono-12 1.png'),
   'title3' => 'Envía Emails <br class="space"> <span class="greenBlueColor">profesionales</span>',
   'desc3' => '
@@ -146,7 +146,7 @@
   'img5' => App::setFilePath('/assets/images/illustrations/others/icono-15 1.png'),
   'title5' => '<span class="greenBlueColor">Ten la visibilidad</span> de los <br class="space"> resultados de tu negocio',
   'desc5' => '
-  Lo que no se mide, no mejora. Escala te da <br class="space"> las analíticas necesarias en dashboards <br class="space"> amigables para que optimices tus <br class="desktopTabletElement"> esfuerzos de venta y marketing.',
+  Lo que no se mide, no mejora. Escala te da <br class="space"> las analíticas necesarias en dashboards <br class="space"> amigables para que optimices tus <br class="DT_e"> esfuerzos de venta y marketing.',
  ) ;
 @endphp
 

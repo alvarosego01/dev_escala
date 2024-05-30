@@ -127,7 +127,7 @@
           <span class="greenBlueColor">
             Automatizaciones <span class="betaTag">Beta</span>
           </span> <br class="space">
-          Opera manos libres programando <br class="desktopTabletElement"> acciones y respuestas',
+          Opera manos libres programando <br class="DT_e"> acciones y respuestas',
                 'text' => '
         <ul class="text">
           <li><span>1.</span> Diseña flujos de respuesta automatizadas </li>
@@ -162,7 +162,7 @@
           <span class="greenBlueColor">
             Inbox <span class="betaTag">Beta</span>
           </span> <br class="space">
-          Comunícate en tiempo real y gestiona tus <br class="desktopTabletElement">
+          Comunícate en tiempo real y gestiona tus <br class="DT_e">
           conversaciones desde una sola herramienta
           ',
                 'text' => '
@@ -197,16 +197,16 @@
           <span class="greenBlueColor">
             Extensión para Chrome
           </span> <br class="space">
-            Gestiona tus contactos ¡desde tu <br class="desktopTabletElement">
+            Gestiona tus contactos ¡desde tu <br class="DT_e">
             propio WhatsApp Web también!
           ',
                 'text' => '
           <ul class="text">
             <li><span>1.</span> Conversa por mensaje de forma gratis e ilimitada </li>
             <li><span>2.</span> Mantén conversaciones abiertas por más de 24 hs </li>
-            <li><span>3.</span> Comunícate desde WhatsApp Web con tu número de teléfono <br class="desktopTabletElement">
+            <li><span>3.</span> Comunícate desde WhatsApp Web con tu número de teléfono <br class="DT_e">
                  actual sin tener que comprar uno nuevo </li>
-            <li><span>4.</span> Recibe notificaciones en WhatsApp Web o tu móvil sin tener <br class="desktopTabletElement">
+            <li><span>4.</span> Recibe notificaciones en WhatsApp Web o tu móvil sin tener <br class="DT_e">
                  que abrir el inbox en Escala </li>
             <li><span>5.</span> Crea y edita contactos en Escala desde WhatsApp Web </li>
           </ul>
@@ -233,15 +233,15 @@
           <span class="greenBlueColor">
             Botón en Landing Pages
           </span> <br class="space">
-            Captura y guarda automáticamente <br class="desktopTabletElement">
+            Captura y guarda automáticamente <br class="DT_e">
             los datos de tus leads en el CRM
           ',
                 'text' => '
           <ul class="text">
             <li><span>1.</span> Agrega un formulario de WhatsApp a tus landing pages </li>
-            <li><span>2.</span> Captura el nombre, el email y el teléfono de tus visitantes <br class="desktopTabletElement">
+            <li><span>2.</span> Captura el nombre, el email y el teléfono de tus visitantes <br class="DT_e">
                  antes de empezar a conversar por WhatsApp Web </li>
-            <li><span>3.</span> Facilita un canal de interacción ágil y en vivo a los <br class="desktopTabletElement">
+            <li><span>3.</span> Facilita un canal de interacción ágil y en vivo a los <br class="DT_e">
                 visitantes de tu landing </li>
           </ul>
         ',
@@ -299,7 +299,7 @@
     implementarlo exitosamete :)
   ',
                 'text' => '
-      Al ser cliente de Escala, te asignamos un especialista que acelera <br class="desktopTabletElement">
+      Al ser cliente de Escala, te asignamos un especialista que acelera <br class="DT_e">
       tu aprendizaje y potencia tus resultados con las herramientas.
   ',
                 'enableButton' => false,
@@ -347,7 +347,7 @@
                             <p class="text">
 
                                 Al ser cliente de Escala, te asignamos un especialista que acelera <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                 tu aprendizaje y potencia tus resultados con las herramientas.
 
                             </p>
@@ -378,7 +378,7 @@
                 'classSection' => 'subpage_whatsapp_8',
                 'enableTitle' => true,
                 'titlePrincipal' => '
-Herramientas increíbles que también encuentras <br class="desktopTabletElement">
+Herramientas increíbles que también encuentras <br class="DT_e">
 en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:</span>
 ',
                 'subTitlePrincipal' => null,
@@ -473,8 +473,8 @@ en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:<
                         'img_alt' => null,
                         'img' => App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_1.png'),
                         'title' => '
-            <span class="greenBlueColor">Interfaz amigable</span> para <br class="desktopTabletElement">
-            que disfrutes trabajar en <br class="desktopTabletElement">
+            <span class="greenBlueColor">Interfaz amigable</span> para <br class="DT_e">
+            que disfrutes trabajar en <br class="DT_e">
             ella todos los días
             ',
                         'enableButton' => false,
@@ -484,7 +484,7 @@ en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:<
                         'img' => App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_2.png'),
                         'title' => '
               <span class="greenBlueColor">Altísimo nivel de servicio:</span> <br class="space">
-              Nadie en la industria te <br class="desktopTabletElement">
+              Nadie en la industria te <br class="DT_e">
               acompaña y atiende mejor
             ',
                         'enableButton' => false,
@@ -494,10 +494,10 @@ en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:<
                         'img' => App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_3.png'),
                         'title' => '
               <span class="greenBlueColor">
-                Educación relevante de <br class="desktopTabletElement">
+                Educación relevante de <br class="DT_e">
                 primera
-              </span> en marketing, <br class="desktopTabletElement">
-              ventas y crecimiento de <br class="desktopTabletElement">
+              </span> en marketing, <br class="DT_e">
+              ventas y crecimiento de <br class="DT_e">
               empresas
             ',
                         'enableButton' => false,
@@ -506,8 +506,8 @@ en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:<
                         'img_alt' => null,
                         'img' => App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_4.png'),
                         'title' => '
-              <span class="greenBlueColor">100% en español:</span> la <br class="desktopTabletElement">
-              plataforma, el servicio y <br class="desktopTabletElement">
+              <span class="greenBlueColor">100% en español:</span> la <br class="DT_e">
+              plataforma, el servicio y <br class="DT_e">
               los recursos en tu idioma
             ',
                         'enableButton' => false,
@@ -555,7 +555,7 @@ en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:<
 
                         <p class="primaryText grayColorTexts">
                             Al suscribirte al Plan Pro de Escala, obtienes acceso a todas las herramientas de <br
-                                class="desktopTabletElement">
+                                class="DT_e">
                             WhatsApp sumadas al resto de funcionalidades de la plataforma.
                         </p>
 
@@ -580,7 +580,7 @@ en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:<
                     'title' => '¿Cuáles son los requisitos de Meta para poder usar WhatsApp en Escala?',
                     'text' => '
                         Para hacer uso de WhatsApp Business, Meta solicita contar con los siguientes <br
-                        class="desktopTabletElement"> requerimientos técnicos: <br class="space">
+                        class="DT_e"> requerimientos técnicos: <br class="space">
                     <ul>
                         <li>Cuenta en Meta for developers</li>
                         <li>Página web o perfil de Meta asociado a Business</li>
@@ -594,8 +594,8 @@ en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:<
                     ¿En cuál plan de Escala está incluido WhatsApp?
                     ',
                     'text' => '
-                      Las herramientas de automatizaciones, inbox y extensión de Chrome para <br class="desktopTabletElement">
-                      WhatsApp están incluidas en los planes: <strong>Escala Pro y Enterprise</strong>. En cambio, <br class="desktopTabletElement">
+                      Las herramientas de automatizaciones, inbox y extensión de Chrome para <br class="DT_e">
+                      WhatsApp están incluidas en los planes: <strong>Escala Pro y Enterprise</strong>. En cambio, <br class="DT_e">
                       el botón de WhatsApp para landing pages está incluido en todos los planes.
                     ',
                 ],
@@ -605,9 +605,9 @@ en Escala para <span class="greenBlueColor">atraer y convertir clientes fieles:<
                     ¿Puedo conectar mi número actual para utilizar el Inbox y las Automatizaciones en Escala?
                     ',
                     'text' => '
-                      No. Solo con la extensión de Chrome puedes usar tu número de teléfono <br  class="desktopTabletElement">
-                      actual. Para utilizar las herramientas de inbox y automatizaciones, Meta <br  class="desktopTabletElement">
-                      solicitita que el número que se integre a Business sea completamente nuevo <br class="desktopTabletElement">
+                      No. Solo con la extensión de Chrome puedes usar tu número de teléfono <br  class="DT_e">
+                      actual. Para utilizar las herramientas de inbox y automatizaciones, Meta <br  class="DT_e">
+                      solicitita que el número que se integre a Business sea completamente nuevo <br class="DT_e">
                       y no esté asociado a ninguna otra cuenta de WhatsApp.
                     ',
                 ],

@@ -102,9 +102,9 @@
   'titlePrincipal' => null,
   'subTitlePrincipal' => null,
   'title' => '
-  “Después de décadas construyendo negocios, creamos <br class="desktopTabletElement">
+  “Después de décadas construyendo negocios, creamos <br class="DT_e">
 Escala basándonos en nuestra <strong>
-  metodología para escalar <br class="desktopTabletElement">
+  metodología para escalar <br class="DT_e">
   pequeñas y medianas empresas”
 </strong>.
     <br class="space"><br class="space">
@@ -144,11 +144,11 @@ $parameters = [
     'classSection' => 'landing_crm_atrae_convierte_funcionalidades__1_3',
     'enableTitle' => true,
     'titlePrincipal' => '
-       <span class="greenBlueColor">El CRM todo-en-uno de Escala <br class="desktopTabletElement"></span>
+       <span class="greenBlueColor">El CRM todo-en-uno de Escala <br class="DT_e"></span>
        Tu Máquina de Marketing y Ventas
     ',
     'subTitlePrincipal' => '
-       En el CRM de Escala están todas las herramientas de marketing digital y ventas integradas, <br class="desktopTabletElement">
+       En el CRM de Escala están todas las herramientas de marketing digital y ventas integradas, <br class="DT_e">
        para que puedas: generar más demanda, aumentar tus ventas y fidelizar más clientes.
     ',
     'overlay' => false,
@@ -410,8 +410,8 @@ $parameters = [
      'img' => App::setFilePath('/assets/images/person/soporte-equipo-escala-clientes.png'),
 'img_alt' => 'Foto de una pareja mirando su computador portátil sorprendidos en referencia a la calidad del acompañamiento que brinda el equipo de soporte de Escala',
      'text' => '
-          Con el Plan PRO de Escala, nuestros especialistas en <br class="desktopTabletElement">
-          marketing digital y ventas te guiarán paso a paso para <br class="desktopTabletElement">
+          Con el Plan PRO de Escala, nuestros especialistas en <br class="DT_e">
+          marketing digital y ventas te guiarán paso a paso para <br class="DT_e">
           que implementes con éxito tu estrategia digital.
      ',
      'enableButton' => false,

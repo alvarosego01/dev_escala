@@ -102,9 +102,9 @@
                             </h3>
 
                             <p class="text">
-                                Empresa de consultoría y capacitación empresarial enfocada en apoyar <br class="desktopTabletElement">
-                                a PYMES a fortalecer procesos en toda su cadena de valor. Ofrecen <br class="desktopTabletElement">
-                                cursos y programas de asesoría en metodologías Lean, gestión de <br class="desktopTabletElement">
+                                Empresa de consultoría y capacitación empresarial enfocada en apoyar <br class="DT_e">
+                                a PYMES a fortalecer procesos en toda su cadena de valor. Ofrecen <br class="DT_e">
+                                cursos y programas de asesoría en metodologías Lean, gestión de <br class="DT_e">
                                 calidad, logística y operaciones.
                             </p>
 
@@ -174,9 +174,9 @@
                                     <span class="number">
                                         1
                                     </span>
-                    <span class="greenBlueColor">Sustituyeron el Excel por el CRM,</span> pasando de gestionar contactos en listas <br class="desktopTabletElement">
-                    difíciles de integrar a las herramientas de Escala lo que les permite acceder más <br class="desktopTabletElement">
-                    fácil a información, ganar visibilidad sobre procesos comerciales, estandarizar <br class="desktopTabletElement">
+                    <span class="greenBlueColor">Sustituyeron el Excel por el CRM,</span> pasando de gestionar contactos en listas <br class="DT_e">
+                    difíciles de integrar a las herramientas de Escala lo que les permite acceder más <br class="DT_e">
+                    fácil a información, ganar visibilidad sobre procesos comerciales, estandarizar <br class="DT_e">
                     comunicaciones e interactuar de manera oportuna para cerrar la venta.
                                 </li>
 
@@ -184,7 +184,7 @@
                                     <span class="number">
                                         2
                                     </span>
-                    <span class="greenBlueColor">Automatizaron tareas manuales</span> durante todo el recorrido del cliente, como el <br class="desktopTabletElement">
+                    <span class="greenBlueColor">Automatizaron tareas manuales</span> durante todo el recorrido del cliente, como el <br class="DT_e">
                     envío de emails de bienvenida, confirmación y agradecimiento.
 
                                 </li>
@@ -193,8 +193,8 @@
                                     <span class="number">
                                         3
                                     </span>
-                <span class="greenBlueColor">Tomaron control sobre el contenido</span> de su website, creando una landing page <br class="desktopTabletElement">
-                para cada programa, que editan sin tener que pagar a terceros, y luego las <br class="desktopTabletElement">
+                <span class="greenBlueColor">Tomaron control sobre el contenido</span> de su website, creando una landing page <br class="DT_e">
+                para cada programa, que editan sin tener que pagar a terceros, y luego las <br class="DT_e">
                 envían por WhatsApp según el interés de cada persona
                                 </li>
 
@@ -302,8 +302,8 @@
 
                          <p class="text">
                             <img class="comiTagLeft" src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
-                            Me siento muy contento trabajando con Escala. <span class="greenBlueColor">Las herramientas nos ponen a la altura <br class="desktopTabletElement">
-                            de otras empresas mucho más grandes</span> y nos han acompañado muy bien. <br class="desktopTabletElement">
+                            Me siento muy contento trabajando con Escala. <span class="greenBlueColor">Las herramientas nos ponen a la altura <br class="DT_e">
+                            de otras empresas mucho más grandes</span> y nos han acompañado muy bien. <br class="DT_e">
                             atendiéndome oportunamente y brindando tips y referencias para mejorar mi negocio.
                             <img class="comiTagRight" src="{!! App::setFilePath('/assets/images/illustrations/others/close_comi.png') !!}" loading="lazy">
                          </p>

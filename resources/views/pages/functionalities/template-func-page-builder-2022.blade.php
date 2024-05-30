@@ -39,11 +39,11 @@
      'description' => '
      <span class="greenBlueColor">
             <strong>
-              "Las landing pages han sido clave para generar <br class="desktopTabletElement">
+              "Las landing pages han sido clave para generar <br class="DT_e">
               millones de contactos al año en mis empresas.
             </strong>
-          </span> <br class="desktopTabletElement">
-          Basados en estas prácticas de alta conversión, diseñamos <br class="desktopTabletElement">
+          </span> <br class="DT_e">
+          Basados en estas prácticas de alta conversión, diseñamos <br class="DT_e">
           el Creador de Páginas de Escala, el más fácil de usar”.
           <br class="space"><br class="space">
             <span class="byam">
@@ -207,8 +207,8 @@
         'img' => App::setFilePath('/assets/images/person/soporte-equipo-escala-clientes.png'),
 'img_alt' => 'Foto de una pareja mirando su computador portátil sorprendidos en referencia a la calidad del acompañamiento que brinda el equipo de soporte de Escala',
         'text' => '
-            Con el Plan PRO de Escala, nuestros especialistas en marketing <br class="desktopTabletElement">
-            digital y ventas te guiarán paso a paso en la construcción de tu <br class="desktopTabletElement">
+            Con el Plan PRO de Escala, nuestros especialistas en marketing <br class="DT_e">
+            digital y ventas te guiarán paso a paso en la construcción de tu <br class="DT_e">
             landing page. Sácale máximo provecho a nuestro Creador de Páginas.
         ',
         'enableButton' => false,

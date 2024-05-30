@@ -25,7 +25,7 @@
                             </h1>
 
                             <p class="text">
-                                Con nuestras herramientas de automatización de <br class="desktopTabletElement">
+                                Con nuestras herramientas de automatización de <br class="DT_e">
                                 marketing, ventas y el CRM más fácil de usar
                             </p>
 
@@ -67,7 +67,7 @@
                 </span>
         ',
          'text' => '
-            Con nuestras herramientas de automatización <br class="desktopTabletElement">
+            Con nuestras herramientas de automatización <br class="DT_e">
             de marketing, ventas y el CRM más fácil de usar
 
           ',
@@ -221,9 +221,9 @@ El CRM de marketing y ventas <br class="space">
               Genera mejores <br class="space"> leads
                ',
                         'text' => '
-              Aumenta la cantidad de <br class="desktopTabletElement">
-              aspirantes calificados con <br class="desktopTabletElement">
-              formularios personalizados para <br class="desktopTabletElement">
+              Aumenta la cantidad de <br class="DT_e">
+              aspirantes calificados con <br class="DT_e">
+              formularios personalizados para <br class="DT_e">
               cada programa y sede
             ',
                         'enableButton' => false,
@@ -235,8 +235,8 @@ El CRM de marketing y ventas <br class="space">
               de venta
                ',
                         'text' => '
-              Mejora la tasa de conversión de <br class="desktopTabletElement">
-              aspirantes a estudiantes con procesos <br class="desktopTabletElement">
+              Mejora la tasa de conversión de <br class="DT_e">
+              aspirantes a estudiantes con procesos <br class="DT_e">
               de seguimiento efectivo
             ',
                         'enableButton' => false,
@@ -248,8 +248,8 @@ El CRM de marketing y ventas <br class="space">
               estudiantil
                ',
                         'text' => '
-              Nutre la relación con estudiantes <br class="desktopTabletElement">
-              y egresados para incrementar el <br class="desktopTabletElement">
+              Nutre la relación con estudiantes <br class="DT_e">
+              y egresados para incrementar el <br class="DT_e">
               retorno de inversión
             ',
                         'enableButton' => false,
@@ -262,8 +262,8 @@ El CRM de marketing y ventas <br class="space">
               <br class="desktopElement">
                ',
                         'text' => '
-              Ahorra recursos en el proceso <br class="desktopTabletElement">
-              de matriculación mediante <br class="desktopTabletElement">
+              Ahorra recursos en el proceso <br class="DT_e">
+              de matriculación mediante <br class="DT_e">
               automatizaciones
             ',
                         'enableButton' => false,
@@ -275,9 +275,9 @@ El CRM de marketing y ventas <br class="space">
               académicos
                ',
                         'text' => '
-              Impulsa programas educativos <br class="desktopTabletElement">
-              complementarios a tu oferta <br class="desktopTabletElement">
-              principal para atraer nuevos leads <br class="desktopTabletElement">
+              Impulsa programas educativos <br class="DT_e">
+              complementarios a tu oferta <br class="DT_e">
+              principal para atraer nuevos leads <br class="DT_e">
               y gestiónalos desde el CRM.
             ',
                         'enableButton' => false,
@@ -289,9 +289,9 @@ El CRM de marketing y ventas <br class="space">
               interna
                ',
                         'text' => '
-              Elabora segmentos exclusivos <br class="desktopTabletElement">para empleados
-              de tu institución<br class="desktopTabletElement"> y mantén una
-              comunicación <br class="desktopTabletElement">activa por email marketing
+              Elabora segmentos exclusivos <br class="DT_e">para empleados
+              de tu institución<br class="DT_e"> y mantén una
+              comunicación <br class="DT_e">activa por email marketing
             ',
                         'enableButton' => false,
                     ],
@@ -328,25 +328,25 @@ El CRM de marketing y ventas <br class="space">
             <ul class="text">
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Captar aspirantes no calificados por <br class="desktopTabletElement">
+                    Captar aspirantes no calificados por <br class="DT_e">
                 procedimientos ineficaces</li>
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Dificultad para brindar una respuesta rápida a <br class="desktopTabletElement">
+                    Dificultad para brindar una respuesta rápida a <br class="DT_e">
                   los leads interesados</li>
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Complicaciones para identificar aspirantes <br class="desktopTabletElement">
+                    Complicaciones para identificar aspirantes <br class="DT_e">
                   con probabilidades de cierre</li>
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Pérdida de datos en hojas de cálculo e <br class="desktopTabletElement">
-                  imposibilidad de obtener reportes en tiempo <br class="desktopTabletElement">
+                    Pérdida de datos en hojas de cálculo e <br class="DT_e">
+                  imposibilidad de obtener reportes en tiempo <br class="DT_e">
                   real sobre las metas del cierre de matrículas</li>
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Fallas en la difusión de promociones e <br class="desktopTabletElement">
-                  información atractiva para cerrar ventas y <br class="desktopTabletElement">
+                    Fallas en la difusión de promociones e <br class="DT_e">
+                  información atractiva para cerrar ventas y <br class="DT_e">
                   fidelizar a la comunidad</li>
               </ul>
 
@@ -365,28 +365,28 @@ El CRM de marketing y ventas <br class="space">
             <ul class="text">
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                    Anuncios y Landing pages que atraen y recolectan <br class="desktopTabletElement">
+                    Anuncios y Landing pages que atraen y recolectan <br class="DT_e">
               datos útiles sobre posibles estudiantes</li>
 
               <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Asignación veloz y automatizada a los asesores <br class="desktopTabletElement">
+                Asignación veloz y automatizada a los asesores <br class="DT_e">
               que mejora la gestión de las comunicaciones</li>
 
               <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Lead Scoring para calificar el estado del prospecto <br class="desktopTabletElement">
+                Lead Scoring para calificar el estado del prospecto <br class="DT_e">
               y hacer seguimiento adecuado</li>
 
               <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                El CRM y el Dashboard sustituyen las hojas de <br class="desktopTabletElement">
-              cálculo, optimizan tu sistema de gestión y <br class="desktopTabletElement">
+                El CRM y el Dashboard sustituyen las hojas de <br class="DT_e">
+              cálculo, optimizan tu sistema de gestión y <br class="DT_e">
               proporcionan reportes en tiempo real.</li>
 
               <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Uso de Email Marketing y Automatizaciones para <br class="desktopTabletElement">
+                Uso de Email Marketing y Automatizaciones para <br class="DT_e">
               promocionar programas atractivos a la comunidad</li>
               </ul>
             ',
@@ -413,12 +413,12 @@ El CRM de marketing y ventas <br class="space">
                 'title' => null,
                 'text' => '
     <span>
-      "Recibo visitas en mi sitio web, pero no capturo <br class="desktopTabletElement">
+      "Recibo visitas en mi sitio web, pero no capturo <br class="DT_e">
       registros de los interesados adecuados"
     </span>
     <br class="space"><br class="space">
-    Las <strong>landing pages</strong> de Escala recolectan datos clave de tus <br class="desktopTabletElement">
-    aspirantes y posibles prospectos, brindan información útil <br class="desktopTabletElement">
+    Las <strong>landing pages</strong> de Escala recolectan datos clave de tus <br class="DT_e">
+    aspirantes y posibles prospectos, brindan información útil <br class="DT_e">
     y activan tus procesos comerciales para matricular.
  ',
                 'enableButton' => false,
@@ -443,11 +443,11 @@ El CRM de marketing y ventas <br class="space">
                 'title' => null,
                 'text' => '
     <span>
-      "Tengo un proceso ineficiente que no me permite <br class="desktopTabletElement">
+      "Tengo un proceso ineficiente que no me permite <br class="DT_e">
       llegar al público objetivo de la institución"
     </span>
     <br class="space"><br class="space">
-    Con los <strong>anuncios digitales</strong> de Escala, consigue aspirantes <br class="desktopTabletElement">
+    Con los <strong>anuncios digitales</strong> de Escala, consigue aspirantes <br class="DT_e">
     calificados para alcanzar tus metas comerciales.
  ',
                 'enableButton' => false,
@@ -472,12 +472,12 @@ El CRM de marketing y ventas <br class="space">
                 'title' => null,
                 'text' => '
     <span>
-      "Necesitamos organizar el manejo de la <br class="desktopTabletElement">
+      "Necesitamos organizar el manejo de la <br class="DT_e">
       información para nuestros asesores"
     </span>
     <br class="space"><br class="space">
-    En el <strong>CRM de Escala</strong>, filtras, etiquetas y segmentas tu base <br class="desktopTabletElement">
-    de datos para organizarla de acuerdo a cada programa <br class="desktopTabletElement">
+    En el <strong>CRM de Escala</strong>, filtras, etiquetas y segmentas tu base <br class="DT_e">
+    de datos para organizarla de acuerdo a cada programa <br class="DT_e">
     de la oferta académica.
  ',
                 'enableButton' => false,
@@ -502,12 +502,12 @@ El CRM de marketing y ventas <br class="space">
                 'title' => null,
                 'text' => '
     <span>
-      "Me gustaría impulsar las matriculaciones con <br class="desktopTabletElement">
+      "Me gustaría impulsar las matriculaciones con <br class="DT_e">
       promociones para mi base de datos"
     </span>
     <br class="space"><br class="space">
-    Ejecuta tu plan de comunicaciones con la herramienta <br class="desktopTabletElement">
-    de <strong>email marketing</strong> de Escala para atraer, mantener <br class="desktopTabletElement">
+    Ejecuta tu plan de comunicaciones con la herramienta <br class="DT_e">
+    de <strong>email marketing</strong> de Escala para atraer, mantener <br class="DT_e">
     y convertir en ventas el interés de tus contactos.
  ',
                 'enableButton' => false,
@@ -532,11 +532,11 @@ El CRM de marketing y ventas <br class="space">
                 'title' => null,
                 'text' => '
      <span>
-        "No logramos responder a tiempo a los aspirantes y <br class="desktopTabletElement">
+        "No logramos responder a tiempo a los aspirantes y <br class="DT_e">
         perdemos gran parte de la inversión en marketing"
      </span>
      <br class="space"><br class="space">
-    Optimiza tus operaciones para asignar leads a tu equipo <br class="desktopTabletElement">
+    Optimiza tus operaciones para asignar leads a tu equipo <br class="DT_e">
     comercial con las <strong>automatizaciones</strong> de Escala.
  ',
                 'enableButton' => false,
@@ -561,11 +561,11 @@ El CRM de marketing y ventas <br class="space">
                 'title' => null,
                 'text' => '
     <span>
-      "Quisiera obtener reportes en tiempo real para conocer el <br class="desktopTabletElement">
+      "Quisiera obtener reportes en tiempo real para conocer el <br class="DT_e">
       estatus de las metas y tomar decisiones acertadas"
     </span>
     <br class="space"><br class="space">
-    Visualiza el <strong>dashboard y las analíticas</strong> de Escala <br class="desktopTabletElement">
+    Visualiza el <strong>dashboard y las analíticas</strong> de Escala <br class="DT_e">
     para conocer rápidamente la salud de tu negocio.
  ',
                 'enableButton' => false,

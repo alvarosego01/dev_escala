@@ -485,7 +485,7 @@
                         </h1>
 
                         <p class="primaryText grayColorTexts">
-                            Cada uno de nuestros planes tiene las funcionalidades de marketing digital y ventas <br class="desktopTabletElement">
+                            Cada uno de nuestros planes tiene las funcionalidades de marketing digital y ventas <br class="DT_e">
                             para acelerar el crecimiento de tu negocio. Solo inviertes en lo que necesitas.
                         </p>
 
@@ -562,7 +562,7 @@
                                             </div>
 
                                             <label for="_contactsField">
-                                                Coloca el número de <br class="desktopTabletElement">
+                                                Coloca el número de <br class="DT_e">
                                                 contactos de marketing <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
                                             </label>
                                         </div>
@@ -579,7 +579,7 @@
                                             </div>
 
                                             <label for="_usersField">
-                                                Coloca el número de usuarios <br class="desktopTabletElement">
+                                                Coloca el número de usuarios <br class="DT_e">
                                                 con acceso a la plataforma
                                             </label>
                                         </div>
@@ -701,7 +701,7 @@
                                             </div>
 
                                             <label for="_contactsField">
-                                                Coloca el número de <br class="desktopTabletElement">
+                                                Coloca el número de <br class="DT_e">
                                                 contactos de marketing <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
                                             </label>
                                         </div>
@@ -718,7 +718,7 @@
                                             </div>
 
                                             <label for="_usersField">
-                                                Coloca el número de usuarios <br class="desktopTabletElement">
+                                                Coloca el número de usuarios <br class="DT_e">
                                                 con acceso a la plataforma
                                             </label>
                                         </div>
@@ -738,7 +738,7 @@
                                             </div>
 
                                             <label for="_whatsappField">
-                                                Incluye Inbox y automatizaciones <br class="desktopTabletElement"> de <span style="color:
+                                                Incluye Inbox y automatizaciones <br class="DT_e"> de <span style="color:
                                                 #00D35B"><strong>WhatsApp</strong></span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Whatsapp">?</button>
                                             </label>
                                         </div>
@@ -851,7 +851,7 @@
                                             </div>
 
                                             <label for="_contactsField">
-                                                Coloca el número de <br class="desktopTabletElement">
+                                                Coloca el número de <br class="DT_e">
                                                 contactos de marketing<button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
                                             </label>
                                         </div>
@@ -1292,13 +1292,13 @@
 
                                             <p class="text">
                                                 Los contactos de marketing son contactos a quienes les puedes <br
-                                                    class="desktopTabletElement">
+                                                    class="DT_e">
                                                 enviar campañas de Email marketing e emails automatizados.<br
-                                                    class="desktopTabletElement">
+                                                    class="DT_e">
                                                 Los contactos de NO marketing solo se pueden contactar uno a <br
-                                                    class="desktopTabletElement">
+                                                    class="DT_e">
                                                 uno vía el CRM y puedes guardar hasta 1 millón de este tipo en <br
-                                                    class="desktopTabletElement">
+                                                    class="DT_e">
                                                 el CRM sin cobro adicional. <a class="hiperButtonGreenBlue"
                                                     href="https://support.escala.com/portal/es/kb/articles/como-influye-el-aumento-de-contactos-de-marketing">Aprender
                                                     más</a>
@@ -1355,20 +1355,20 @@
 
                                             <p class="text">
                                                 Escala tiene integrado <span style="color: #00D35B"><strong>WhatsApp API</strong></span> para que puedas<br
-                                                class="desktopTabletElement"> automatizar respuestas, enviar mensajes masivos,<br
-                                                class="desktopTabletElement">
+                                                class="DT_e"> automatizar respuestas, enviar mensajes masivos,<br
+                                                class="DT_e">
                                                 conversar, guardar esas conversaciones en el CRM ¡y más!
                                                 <br><br>
                                                 Potencia tu capacidad de respuesta y escala tus operaciones<br
-                                                class="desktopTabletElement">
+                                                class="DT_e">
                                                  con el Inbox y las Automatizaciones de WhatsApp.
                                                 <br><br>
                                                 Nota: La tarifa de Escala cubre la integración de la <br
-                                                class="desktopTabletElement">
+                                                class="DT_e">
                                                 herramienta de WhatsApp en la plataforma. Meta tiene <br
-                                                class="desktopTabletElement">
+                                                class="DT_e">
                                                  tarifas extras (por ejemplo, por conversaciones) que no <br
-                                                 class="desktopTabletElement">
+                                                 class="DT_e">
                                                   están relacionadas con Escala.
                                             </p>
 
@@ -1422,11 +1422,11 @@
 
                                             <p class="text">
                                                 Cuenta con un especialista que te apoya a <br
-                                                    class="desktopTabletElement">
+                                                    class="DT_e">
                                                 definir un plan estratégico de marketing y/o <br
-                                                    class="desktopTabletElement">
+                                                    class="DT_e">
                                                 ventas con Escala para luego guiarte a <br
-                                                    class="desktopTabletElement">
+                                                    class="DT_e">
                                                 implementarlo paso a paso. <a class="hiperButtonGreenBlue"
                                                     href="https://escala.com/servicio">Aprender más</a>
                                             </p>

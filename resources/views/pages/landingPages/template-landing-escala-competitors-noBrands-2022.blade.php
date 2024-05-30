@@ -35,11 +35,11 @@
      'classSection' => 'landing_escala_competitors_brands_1',
      'enableTitle' => true,
      'titlePrincipal' => '
-        <span class="greenBlueColor">Compara el software CRM de Escala y descubre <br class="desktopTabletElement"></span>
+        <span class="greenBlueColor">Compara el software CRM de Escala y descubre <br class="DT_e"></span>
         por qué representa el poder de lo simple
      ',
     'subTitlePrincipal' => '
-      Hallar el CRM  perfecto para tu empresa puede ser una decisión difícil. Hay muchas opciones y no puedes tomar una <br class="desktopTabletElement">
+      Hallar el CRM  perfecto para tu empresa puede ser una decisión difícil. Hay muchas opciones y no puedes tomar una <br class="DT_e">
       decisión apresurada. En Escala te guiamos para que te hagas las preguntas correctas, antes de elegir:
     ',
      'img' => App::setFilePath('/assets/images/person/home_hombre-lentes_silla-chat-flip 2.png'),
@@ -49,9 +49,9 @@
         ¿Es fácil de usar y me acompañan?
         </span>
         <br class="space"><br class="space">
-        Puedes tener el CRM más potente de todos, pero de nada te sirve si tus <br class="desktopTabletElement">
+        Puedes tener el CRM más potente de todos, pero de nada te sirve si tus <br class="DT_e">
 equipos necesitan meses para poder implementar tu estrategia  y configurarlo. <br class="space">
-En Escala te acompañamos desde el primer día, asesorándote para dejarlo listo <br class="desktopTabletElement">
+En Escala te acompañamos desde el primer día, asesorándote para dejarlo listo <br class="DT_e">
 para ejecutar y conseguir tus resultados.
 <br class="space">
 <br class="space">
@@ -60,8 +60,8 @@ para ejecutar y conseguir tus resultados.
   ¿Puedo personalizarlo?
   </span>
 <br class="space"><br class="space">
-Los CRMs te ofrecen algún tipo de personalización adaptada a tu empresa: <br class="desktopTabletElement">
-campos personalizados, embudos de ventas, etiquetas avanzadas, flujos <br class="desktopTabletElement">
+Los CRMs te ofrecen algún tipo de personalización adaptada a tu empresa: <br class="DT_e">
+campos personalizados, embudos de ventas, etiquetas avanzadas, flujos <br class="DT_e">
 inteligentes. Consulta si debes pagar extra por personalizar estas funcionalidades.
 <br class="space">
 <br class="space">
@@ -70,7 +70,7 @@ inteligentes. Consulta si debes pagar extra por personalizar estas funcionalidad
   ¿Crecerá con mi empresa?
   </span>
 <br class="space"><br class="space">
-  Al elegir un CRM revisa si sus funcionalidades pueden crecer contigo y si tiene la <br class="desktopTabletElement">
+  Al elegir un CRM revisa si sus funcionalidades pueden crecer contigo y si tiene la <br class="DT_e">
   capacidad para gestionar el número de contactos que esperas manejar en el futuro.
      ',
      'enableButton' => false,
@@ -91,11 +91,11 @@ inteligentes. Consulta si debes pagar extra por personalizar estas funcionalidad
        'classSection' => 'landing_escala_competitors_brands_2',
        'enableTitle' => true,
        'titlePrincipal' => '
-          <span class="greenBlueColor">El CRM todo-en-uno de Escala <br class="desktopTabletElement"></span>
+          <span class="greenBlueColor">El CRM todo-en-uno de Escala <br class="DT_e"></span>
           Tu Máquina de Marketing y Ventas
        ',
        'subTitlePrincipal' => '
-          En el CRM de Escala están todas las herramientas de marketing digital y ventas integradas, <br class="desktopTabletElement">
+          En el CRM de Escala están todas las herramientas de marketing digital y ventas integradas, <br class="DT_e">
           para que puedas: generar más demanda, aumentar tus ventas y fidelizar más clientes.
        ',
        'overlay' => false,
@@ -217,11 +217,11 @@ $parameters = array(
  'classSection' => 'landing_escala_competitors_brands_5',
  'enableTitle' => false,
  'titlePrincipal' => '
-    <span class="greenBlueColor">Compara el software CRM de Escala y descubre <br class="desktopTabletElement"></span>
+    <span class="greenBlueColor">Compara el software CRM de Escala y descubre <br class="DT_e"></span>
     por qué representa el poder de lo simple
  ',
 'subTitlePrincipal' => '
-  Hallar el CRM  perfecto para tu empresa puede ser una decisión difícil. Hay muchas opciones y no puedes tomar una <br class="desktopTabletElement">
+  Hallar el CRM  perfecto para tu empresa puede ser una decisión difícil. Hay muchas opciones y no puedes tomar una <br class="DT_e">
   decisión apresurada. En Escala te guiamos para que te hagas las preguntas correctas, antes de elegir:
 ',
  'img' => App::setFilePath('/assets/images/illustrations/others/CRM_laptop 1.png'),
@@ -233,18 +233,18 @@ $parameters = array(
   <li><strong>Está Integrado a todas</strong> las herramientas de marketing digital y ventas</li>
   <li><strong>Atención prioritaria 100% en español</strong> y a un WhatsApp de distancia</li>
   <li><strong>Organiza en un solo lugar:</strong> tus contactos, embudos, flujos y oportunidades</li>
-  <li><strong>Extensión de WhatsApp Web</strong> para hacerle mejor seguimiento <br class="desktopTabletElement">
+  <li><strong>Extensión de WhatsApp Web</strong> para hacerle mejor seguimiento <br class="DT_e">
     a todos tus contactos</li>
   <li><strong>Simple de usar,</strong> diseñado por expertos para vendedores y equipos de marketing</li>
-  <li><strong>Gestiona tu base de datos</strong> y guarda automáticamente la data con formularios <br class="desktopTabletElement">
+  <li><strong>Gestiona tu base de datos</strong> y guarda automáticamente la data con formularios <br class="DT_e">
       integrados desde tus landing pages</li>
   <li><strong>Segmenta y personaliza</strong> tus comunicaciones con etiquetas avanzadas. <br class="space">
       Ten trazabilidad e historial de tus contactos</li>
   <li><strong>Visualiza todo</strong> tu proceso de venta, fase por fase</li>
-  <li><strong>Potencia la productividad de tu equipo</strong> con la asignación de tareas, <br class="desktopTabletElement">
+  <li><strong>Potencia la productividad de tu equipo</strong> con la asignación de tareas, <br class="DT_e">
     actividades y recordatorios</li>
   <li><strong>Automatiza tu flujo de acciones</strong> según la segmentación de tus contactos</li>
-  <li><strong>Analiza tus resultados</strong> de ventas con dashboards amigables y optimiza tus <br class="desktopTabletElement"> acciones</li>
+  <li><strong>Analiza tus resultados</strong> de ventas con dashboards amigables y optimiza tus <br class="DT_e"> acciones</li>
   <li><strong>Fideliza más clientes</strong> nutriendo tus relaciones a largo plazo</li>
   <li><strong>Pagas en moneda local,</strong> justo por lo que necesitas</li>
   </ul>
@@ -267,11 +267,11 @@ $parameters = array(
  'classSection' => 'landing_escala_competitors_brands_6',
  'enableTitle' => false,
  'titlePrincipal' => '
-    <span class="greenBlueColor">Compara el software CRM de Escala y descubre <br class="desktopTabletElement"></span>
+    <span class="greenBlueColor">Compara el software CRM de Escala y descubre <br class="DT_e"></span>
     por qué representa el poder de lo simple
  ',
 'subTitlePrincipal' => '
-  Hallar el CRM  perfecto para tu empresa puede ser una decisión difícil. Hay muchas opciones y no puedes tomar una <br class="desktopTabletElement">
+  Hallar el CRM  perfecto para tu empresa puede ser una decisión difícil. Hay muchas opciones y no puedes tomar una <br class="DT_e">
   decisión apresurada. En Escala te guiamos para que te hagas las preguntas correctas, antes de elegir:
 ',
  'img' => App::setFilePath('/assets/images/person/home_pantalla_CRM_09_chica 1.png'),
@@ -283,7 +283,7 @@ $parameters = array(
     <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Organizar y gestionar eficientemente tu base de datos</li>
     <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Integrar las acciones del equipo de marketing y comercial</li>
     <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Mejorar la productividad de tu equipo de ventas</li>
-    <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Implementar tu estrategia digital con acompañamiento <br class="desktopTabletElement">
+    <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Implementar tu estrategia digital con acompañamiento <br class="DT_e">
     de tu Gerente de Cuenta</li>
     <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Segmentar y personalizar la comunicación con tus contactos</li>
     <li><img src="'. App::setFilePath('/assets/images/illustrations/others/checkCompetitors.png') .'" alt=""> Cerrar ventas de manera más acelerada</li>

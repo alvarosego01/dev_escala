@@ -15,7 +15,7 @@
                             Qué puedes lograr con Escala
                             <br class="space">
                             <span class="greenBlueColor">
-                                Descubre cómo distintos negocios utilizan las <br class="desktopTabletElement">
+                                Descubre cómo distintos negocios utilizan las <br class="DT_e">
                                 herramientas para atraer, convertir y fidelizar clientes
                             </span>
                         </h1>
@@ -148,8 +148,8 @@
 
                                     <h3>
                                         Belleza
-                                        <br class="desktopTabletElement">
-                                        <br class="desktopTabletElement">
+                                        <br class="DT_e">
+                                        <br class="DT_e">
                                     </h3>
 
                                     <div class="containerImage">
@@ -191,8 +191,8 @@
 
                                     <h3>
                                         Software & Cloud
-                                        <br class="desktopTabletElement">
-                                        <br class="desktopTabletElement">
+                                        <br class="DT_e">
+                                        <br class="DT_e">
                                     </h3>
 
                                     <div class="containerImage">
@@ -213,8 +213,8 @@
 
                                     <h3>
                                         Salud
-                                        <br class="desktopTabletElement">
-                                        <br class="desktopTabletElement">
+                                        <br class="DT_e">
+                                        <br class="DT_e">
                                     </h3>
 
                                     <div class="containerImage">

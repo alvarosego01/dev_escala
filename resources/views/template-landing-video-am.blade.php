@@ -50,21 +50,21 @@ $parameters = [
   'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
   'videoCover' => App::setFilePath('/assets/images/illustrations/others/tapa_video_thankyou_page.jpg'),
   'text' => '
-Estás a un clic de comenzar a hacer crecer tu negocio con Escala, la <br class="desktopTabletElement">
-plataforma todo en uno en marketing digital y ventas <br class="desktopTabletElement">
-100% en español de LATAM, que te da en un solo lugar, todas las <br class="desktopTabletElement">
+Estás a un clic de comenzar a hacer crecer tu negocio con Escala, la <br class="DT_e">
+plataforma todo en uno en marketing digital y ventas <br class="DT_e">
+100% en español de LATAM, que te da en un solo lugar, todas las <br class="DT_e">
 herramientas para:
 <br class="space"><br class="space">
 <p class="text">
   <ul>
     <li>Generar demanda de tus productos y servicios</li>
     <li>Aumentar tus ventas</li>
-    <li>Aumentar el índice de retención de tus clientes <br class="desktopTabletElement"> para lograr upsells y recompra</li>
+    <li>Aumentar el índice de retención de tus clientes <br class="DT_e"> para lograr upsells y recompra</li>
     </ul>
 </p>
 <br class="space"><br class="space">
 <p class="text">
-  Dale un vistazo a este video y descubre todo lo que puedes <br class="desktopTabletElement">
+  Dale un vistazo a este video y descubre todo lo que puedes <br class="DT_e">
   lograr con nuestra plataforma.
 </p>
   ',
@@ -88,12 +88,12 @@ $parameters = [
     'enableTitle' => false,
     'img' => App::setFilePath('/assets/images/illustrations/others/laptop_home_1.png'),
     'title' => '
-    <span class="greenBlueColor">Conoce las funcionalidades</span> <br class="desktopTabletElement">
+    <span class="greenBlueColor">Conoce las funcionalidades</span> <br class="DT_e">
     que impulsarán tus ventas
     ',
     'text' => '
-    Escala te ayuda a implementar cada parte de tu embudo de ventas <br class="desktopTabletElement">
-    para darte a conocer, ganar su preferencia y aumentar tus ventas. <br class="desktopTabletElement">
+    Escala te ayuda a implementar cada parte de tu embudo de ventas <br class="DT_e">
+    para darte a conocer, ganar su preferencia y aumentar tus ventas. <br class="DT_e">
     Puedes contar con estas funcionalidades muy fáciles de usar:
     <br class="space"><br class="space">
     <ul>

@@ -124,11 +124,11 @@
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
                 'title' => '<span class="greenBlueColor">
-                    ¿Escala tiene todo <br class="desktopTabletElement">
+                    ¿Escala tiene todo <br class="DT_e">
                     lo que necesito?
                     </span>',
                 'img' => App::setFilePath('/assets/images/illustrations/otto/seguros-5 1.png'),
-                'text' => 'Empodera tus servicios de coaching con todas las herramientas <br class="desktopTabletElement"> digitales en un solo lugar. Es momento de acelerar el crecimiento de tu <br class="desktopTabletElement"> emprendimiento.',
+                'text' => 'Empodera tus servicios de coaching con todas las herramientas <br class="DT_e"> digitales en un solo lugar. Es momento de acelerar el crecimiento de tu <br class="DT_e"> emprendimiento.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
@@ -231,7 +231,7 @@
             @php
             $parameters = [
                 'classSection' => 'landingServCoaching7',
-                'title' => 'Atrae más leads de calidad <br class="desktopTabletElement"> y convierte más ventas <br class="desktopTabletElement"> con Escala',
+                'title' => 'Atrae más leads de calidad <br class="DT_e"> y convierte más ventas <br class="DT_e"> con Escala',
                 'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                 'text' => null,
                 'image' => App::setFilePath('/assets/images/illustrations/others/escalaventas_05.png'),

@@ -151,11 +151,11 @@
         $parameters = [
             'classSection' => 'blogSingleSection4',
             'title' => '<span style="color: #A4E7EA">
-              Comienza a impulsar el crecimiento <br class="desktopTabletElement"> de tu negocio con Escala
+              Comienza a impulsar el crecimiento <br class="DT_e"> de tu negocio con Escala
               </span>',
               'text' => '
-              Estás a un clic de probar Escala, la plataforma todo <br class="desktopTabletElement">
-              en uno de marketing digital y ventas que te ayudará <br class="desktopTabletElement">
+              Estás a un clic de probar Escala, la plataforma todo <br class="DT_e">
+              en uno de marketing digital y ventas que te ayudará <br class="DT_e">
               a crecer de manera acelerada',
             'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
             'image' => App::setFilePath('/assets/images/illustrations/otto/otto-escala-cta-formulario-blogs.png'),

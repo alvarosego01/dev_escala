@@ -136,10 +136,10 @@
   'subTitle' => '<strong class="subtitle">Conoce Escala</strong>',
   'img1' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
   'title1' => 'Multiplica las visitas <br class="space"> <span class="greenBlueColor">con anuncios digitales</span>',
-  'desc1' => 'Comienza a generar tráfico a tu landing <br class="desktopTabletElement"> page. Crea, publica y gestiona <br class="desktopTabletElement"> campañas de anuncios digitales <br class="desktopTabletElement"> directamente desde Escala.',
+  'desc1' => 'Comienza a generar tráfico a tu landing <br class="DT_e"> page. Crea, publica y gestiona <br class="DT_e"> campañas de anuncios digitales <br class="DT_e"> directamente desde Escala.',
   'img2' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
   'title2' => '<span class="greenBlueColor">Gestiona y organiza</span> <br class="space"> la información de tus contactos',
-  'desc2' => 'Empodera a tu equipo de ventas con el CRM <br class="desktopTabletElement"> más amigable y fácil de usar. Incrementa la <br class="desktopTabletElement"> productividad planificando actividades y <br class="desktopTabletElement"> mantén comunicación constante con tus leads.',
+  'desc2' => 'Empodera a tu equipo de ventas con el CRM <br class="DT_e"> más amigable y fácil de usar. Incrementa la <br class="DT_e"> productividad planificando actividades y <br class="DT_e"> mantén comunicación constante con tus leads.',
   'img3' => App::setFilePath('/assets/images/illustrations/others/icono-12 1.png'),
   'title3' => 'Envía Emails <br class="space"> <span class="greenBlueColor">profesionales</span>',
   'desc3' => 'Nutre la relación con tus contactos enviando <br class="space"> efectivas campañas de emails. Con nuestras <br class="space"> plantillas prediseñadas logras enviar masivamente <br class="space"> mensajes personalizados con tan solo un clic.',
@@ -148,7 +148,7 @@
   'desc4' => 'Nunca más realices tareas repetitivas de <br class="space"> marketing digital y ventas. Programa <br class="space"> recordatorios, acciones y mensajes que <br class="space"> aumentan tu productividad.',
   'img5' => App::setFilePath('/assets/images/illustrations/others/icono-15 1.png'),
   'title5' => '<span class="greenBlueColor">Ten la visibilidad</span> de los <br class="space"> resultados de tu negocio',
-  'desc5' => 'Lo que no se mide, no mejora. Escala te da <br class="space"> las analíticas necesarias en dashboards <br class="space"> amigables para que optimices tus <br class="desktopTabletElement"> esfuerzos de venta y marketing.',
+  'desc5' => 'Lo que no se mide, no mejora. Escala te da <br class="space"> las analíticas necesarias en dashboards <br class="space"> amigables para que optimices tus <br class="DT_e"> esfuerzos de venta y marketing.',
  ) ;
 @endphp
 

@@ -248,7 +248,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Crea increíbles <br class="desktopTabletElement"> páginas sin programar</h3>
+                  <h3 class="secondaryTitle blackColor">Crea increíbles <br class="DT_e"> páginas sin programar</h3>
                   <p class="primaryText  grayColorTexts">¡Y que queden hermosas!</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/landing-pages/">Conocer más</a>
                 </div>
@@ -262,7 +262,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Organiza tus contactos y <br class="desktopTabletElement"> gestiona procesos de venta</h3>
+                  <h3 class="secondaryTitle blackColor">Organiza tus contactos y <br class="DT_e"> gestiona procesos de venta</h3>
                   <p class="primaryText  grayColorTexts">Con un CRM sencillo de usar</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/crm-escala/">
                     Conocer más
@@ -280,7 +280,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Envía emails de marketing <br class="desktopTabletElement"> profesionales</h3>
+                  <h3 class="secondaryTitle blackColor">Envía emails de marketing <br class="DT_e"> profesionales</h3>
                   <p class="primaryText  grayColorTexts">Personalizados y masivos, sin caer <br class="space"> en la bandeja de SPAM</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/email/">
                     Conocer más
@@ -296,7 +296,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Multiplica tus visitas web <br class="desktopTabletElement"> con anuncios digitales</h3>
+                  <h3 class="secondaryTitle blackColor">Multiplica tus visitas web <br class="DT_e"> con anuncios digitales</h3>
                   <p class="primaryText  grayColorTexts">en Facebook, Instagram y Google</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/anuncios-digitales/">
                     Conocer más
@@ -314,7 +314,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Automatiza tareas y flujos <br class="desktopTabletElement"> de comunicación</h3>
+                  <h3 class="secondaryTitle blackColor">Automatiza tareas y flujos <br class="DT_e"> de comunicación</h3>
                   <p class="primaryText  grayColorTexts">Escala trabaja por ti 24/7</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/automatizacion/">
                     Conocer más
@@ -333,7 +333,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Obtén métricas de marketing <br class="desktopTabletElement"> y ventas en  tiempo real</h3>
+                  <h3 class="secondaryTitle blackColor">Obtén métricas de marketing <br class="DT_e"> y ventas en  tiempo real</h3>
                   <p class="primaryText  grayColorTexts">con dashboards inteligentes</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/analiticas/">
                     Conocer más
@@ -419,7 +419,7 @@
                   <h3 class="secondaryTitle blackColor">Una herramientas <br class="space"> muy amigable</h3>
                   <p class="primaryText grayColorTexts">
                     Para mercadeo y ventas <br class="space">
-                    <span class=" desktopTabletElement greenBlueColor">
+                    <span class=" DT_e greenBlueColor">
                       Ernesto Valery / Director Huella Studio
                     </span>
                     <span class="mobileSmallElement greenBlueColor">
@@ -443,7 +443,7 @@
                     Tienen un equipo atento <br class="space">
                     y disponible cuando lo necesitas
                     <br class="space">
-                    <span class="desktopTabletElement greenBlueColor">
+                    <span class="DT_e greenBlueColor">
                       Michelle Palaez / Fundadora Infinito Producciones
                     </span>
                     <span class="mobileSmallElement greenBlueColor">
@@ -485,7 +485,7 @@
                   <h3 class="secondaryTitle blackColor">Todas las funcionalidades <br class="space"> en un solo lugar</h3>
                   <p class="primaryText grayColorTexts">
                     Escala programa las páginas por ti <br class="space">
-                    <span class="desktopTabletElement greenBlueColor">
+                    <span class="DT_e greenBlueColor">
                       Michelle Palaez / Fundadora Infinito Producciones
                     </span>
                     <span class="mobileSmallElement greenBlueColor">

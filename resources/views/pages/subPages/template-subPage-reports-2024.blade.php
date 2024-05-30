@@ -294,11 +294,11 @@
                     <div class="containElements">
 
                         <h2 class="title">
-                            Obtén información clave para acelerar el <br class="desktopTabletElement">
+                            Obtén información clave para acelerar el <br class="DT_e">
                             crecimiento de tu empresa
                         </h2>
                         <p class="text">
-                            En Escala puedes construir reportes personalizados <br class="desktopTabletElement">
+                            En Escala puedes construir reportes personalizados <br class="DT_e">
                             para analizar resultados como:
                         </p>
 
@@ -320,7 +320,7 @@
                                             'title' => 'Leads generados',
                                             'icon' => null,
                                             'text' => '
-                                                Conoce la cantidad de prospectos que <br class="desktopTabletElement"> conseguiste en un periodo de tiempo.
+                                                Conoce la cantidad de prospectos que <br class="DT_e"> conseguiste en un periodo de tiempo.
                                                 ',
                                         ],
                                         [
@@ -328,21 +328,21 @@
                                             'title' => 'Cumplimiento en ventas',
                                             'icon' => null,
                                             'text' => '
-                                            Compara el resultado comercial, frente <br class="desktopTabletElement"> a los objetivos proyectados.',
+                                            Compara el resultado comercial, frente <br class="DT_e"> a los objetivos proyectados.',
                                         ],
                                         [
                                             'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_03.png'),
                                             'title' => 'Perfil de tus contactos',
                                             'icon' => null,
                                             'text' => '
-                                                Explora fácilmente la distribución <br class="desktopTabletElement"> de perfiles entre clientes y prospectos.',
+                                                Explora fácilmente la distribución <br class="DT_e"> de perfiles entre clientes y prospectos.',
                                         ],
                                         [
                                             'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_04.png'),
                                             'title' => 'Estado de tu embudo',
                                             'icon' => null,
                                             'text' => '
-                                            Mide, evalúa y optimiza las etapas <br class="desktopTabletElement"> de tu proceso comercial.',
+                                            Mide, evalúa y optimiza las etapas <br class="DT_e"> de tu proceso comercial.',
                                         ],
                                     ];
                                 @endphp
@@ -428,7 +428,7 @@
                     'classSection' => 'subPage_reports_3',
                     'enableTitle' => true,
                     'titlePrincipal' => '
-                    Crear potentes reportes de marketing y ventas <br class="desktopTabletElement">
+                    Crear potentes reportes de marketing y ventas <br class="DT_e">
                     se logra en pocos clics
                 ',
                     'subTitlePrincipal' => null,
@@ -438,8 +438,8 @@
                     <span>plantillas pre-diseñadas</span>
                 ',
                     'text' => '
-                    En Escala encontrarás reportes <br class="desktopTabletElement">
-                    “base” para agilizar la construcción <br class="desktopTabletElement">
+                    En Escala encontrarás reportes <br class="DT_e">
+                    “base” para agilizar la construcción <br class="DT_e">
                     de los mismos.
                 ',
                     'enableButton' => false,
@@ -460,8 +460,8 @@
                         <span>fácilmente desde cero</span>
                 ',
                     'text' => '
-                    ¿No encuentras la plantilla que necesitas? <br class="desktopTabletElement">
-                    ¡Calma! construye en pocos pasos los <br class="desktopTabletElement">
+                    ¿No encuentras la plantilla que necesitas? <br class="DT_e">
+                    ¡Calma! construye en pocos pasos los <br class="DT_e">
                     reportes que necesitas.
                 ',
                     'enableButton' => false,
@@ -482,7 +482,7 @@
                     <span>de gráficos</span>
                 ',
                     'text' => '
-                    En Escala puedes generar pie charts, <br class="desktopTabletElement">
+                    En Escala puedes generar pie charts, <br class="DT_e">
                     gráficos de barra, embudos, y más.
                 ',
                     'enableButton' => false,
@@ -503,8 +503,8 @@
                 <span>en tiempo real</span>
                 ',
                     'text' => '
-                    Encuentra datos siempre frescos para <br class="desktopTabletElement">
-                    construir reportes que van al ritmo <br class="desktopTabletElement">
+                    Encuentra datos siempre frescos para <br class="DT_e">
+                    construir reportes que van al ritmo <br class="DT_e">
                     de tu negocio.
                 ',
                     'enableButton' => false,
@@ -525,8 +525,8 @@
                     <span>simplifican el análisis</span>
                 ',
                     'text' => '
-                    Diseñamos reportes visualmente <br class="desktopTabletElement">
-                    atractivos porque leer data de esta forma <br class="desktopTabletElement">
+                    Diseñamos reportes visualmente <br class="DT_e">
+                    atractivos porque leer data de esta forma <br class="DT_e">
                     permite tomar decisiones más ágilmente.
                 ',
                     'enableButton' => false,
@@ -547,7 +547,7 @@
                     <span>para compartir</span>
                 ',
                     'text' => '
-                    Con un solo clic podrás descargar <br class="desktopTabletElement">
+                    Con un solo clic podrás descargar <br class="DT_e">
                     los reportes en formato Excel.
                 ',
                     'enableButton' => false,
@@ -568,8 +568,8 @@
                     <span>tu dashboard</span>
                 ',
                     'text' => '
-                    Arma vistas a medida con tus reportes <br class="desktopTabletElement">
-                    favoritos para que los accedas <br class="desktopTabletElement">
+                    Arma vistas a medida con tus reportes <br class="DT_e">
+                    favoritos para que los accedas <br class="DT_e">
                     convenientemente.
                 ',
                     'enableButton' => false,
@@ -678,7 +678,7 @@
 
                         <h2 class="primaryTitle">
                             <small>¿Primerizo creando reportes en tu empresa?</small>
-                            ¡Cuenta con el entrenamiento <br class="desktopTabletElement">
+                            ¡Cuenta con el entrenamiento <br class="DT_e">
                             de nuestro equipo!
                         </h2>
 
@@ -694,7 +694,7 @@
 
                         <p class="text">
                             <span>Te entrenamos estratégica y técnicamente</span> <br class="space">
-                            para que aprendas a definir y construir fácilmente los <br class="desktopTabletElement">
+                            para que aprendas a definir y construir fácilmente los <br class="DT_e">
                             reportes que necesitas dentro de Escala
                         </p>
                     </div>
@@ -712,7 +712,7 @@
                 'classSection' => 'subPage_reports_11',
                 'enableTitle' => true,
                 'titlePrincipal' => '
-  Tomar mejores decisiones estratégicas con el <br class="desktopTabletElement">
+  Tomar mejores decisiones estratégicas con el <br class="DT_e">
   CRM de Escala, es muy sencillo:',
                 'subTitlePrincipal' => null,
                 'overlay' => false,
@@ -825,7 +825,7 @@
 
                             <div class="info col-md-12 col-lg-8 sectionTexts textRight">
                                 <h3 class="secondaryTitle">
-                                    <span>Lo que no se mide no se puede</span> <br class="desktopTabletElement">
+                                    <span>Lo que no se mide no se puede</span> <br class="DT_e">
                                     gestionar ni optimizar
                                 </h3>
                                 <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">

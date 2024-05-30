@@ -12,10 +12,10 @@
 30min o menos
                     ',
             'text' => '
-                        Cuenta con más de 200 plantillas <br class="desktopTabletElement">
-                        optimizadas para convertir, ajusta <br class="desktopTabletElement">
-                        fácilmente el diseño y contenido con <br class="desktopTabletElement">
-                        Inteligencia Artificial (sin necesitar <br class="desktopTabletElement">
+                        Cuenta con más de 200 plantillas <br class="DT_e">
+                        optimizadas para convertir, ajusta <br class="DT_e">
+                        fácilmente el diseño y contenido con <br class="DT_e">
+                        Inteligencia Artificial (sin necesitar <br class="DT_e">
                         programar) ¡y publica!
                     ',
             'threeCol' => true,
@@ -77,9 +77,9 @@
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
-                                            Cuenta con más de 200 plantillas <br class="desktopTabletElement">
-                                            optimizadas para convertir, ajusta fácilmente <br class="desktopTabletElement">
-                                            el diseño y contenido con Inteligencia <br class="desktopTabletElement">
+                                            Cuenta con más de 200 plantillas <br class="DT_e">
+                                            optimizadas para convertir, ajusta fácilmente <br class="DT_e">
+                                            el diseño y contenido con Inteligencia <br class="DT_e">
                                             Artificial (sin necesitar programar) ¡y publica!
                                         </p>
 
@@ -219,14 +219,14 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/1Elige-entre--plantillas-pre-diseñadas-.gif'),
                 'title' => '
-                        Elige entre cientos de hermosas <br class="desktopTabletElement"> <span>
+                        Elige entre cientos de hermosas <br class="DT_e"> <span>
                             plantillas pre-diseñadas
                         </span>
                 ',
                 'text' => '
-                    Basadas en mejores prácticas, en Escala encuentras una <br class="desktopTabletElement">
-                    seria de páginas estructuradas para que solo tengas que <br class="desktopTabletElement">
-                    editar el contenido y ajustar el diseño a tu marca ¡sin <br class="desktopTabletElement">
+                    Basadas en mejores prácticas, en Escala encuentras una <br class="DT_e">
+                    seria de páginas estructuradas para que solo tengas que <br class="DT_e">
+                    editar el contenido y ajustar el diseño a tu marca ¡sin <br class="DT_e">
                     depender de programadores!
                 ',
                 'enableButton' => false,
@@ -257,9 +257,9 @@
                 ',
                 'text' =>
                     '
-                    Editar el contenido de tus páginas en Escala es ¡muy <br class="desktopTabletElement">
-                    sencillo! Con puros clics, elige los elementos que deseas <br class="desktopTabletElement">
-                    sustituir, muévelos con el mouse o escribe el texto que <br class="desktopTabletElement">
+                    Editar el contenido de tus páginas en Escala es ¡muy <br class="DT_e">
+                    sencillo! Con puros clics, elige los elementos que deseas <br class="DT_e">
+                    sustituir, muévelos con el mouse o escribe el texto que <br class="DT_e">
                     deseas y ¡y listo!
                 ',
                 'enableButton' => false,
@@ -281,13 +281,13 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/3Inteligencia-Artificial.gif'),
                 'title' => '
-                    Crea contenido en segundos con <br class="desktopTabletElement">
+                    Crea contenido en segundos con <br class="DT_e">
                     <span>Inteligencia Artificial</span>
                 ',
                 'text' => '
-                    Bríndale a Escala un par de palabras clave y tu intención <br class="desktopTabletElement">
-                    para que te proponga opciones que puedas elegir y revisar <br class="desktopTabletElement">
-                    si lo necesitas. ¡Es como contratar a un copywriter estrella <br class="desktopTabletElement">
+                    Bríndale a Escala un par de palabras clave y tu intención <br class="DT_e">
+                    para que te proponga opciones que puedas elegir y revisar <br class="DT_e">
+                    si lo necesitas. ¡Es como contratar a un copywriter estrella <br class="DT_e">
                     24/7 a una mínima fracción del costo!
                 ',
                 'enableButton' => false,
@@ -308,14 +308,14 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/4-contador.gif'),
                 'title' => '
-                    <span>Agrega elementos</span> como contador, <br class="desktopTabletElement">
-                    formularios, botón de WhatsApp, pop ups,<br class="desktopTabletElement">
+                    <span>Agrega elementos</span> como contador, <br class="DT_e">
+                    formularios, botón de WhatsApp, pop ups,<br class="DT_e">
                     descargables y más
                 ',
                 'text' => '
-                    Aprovecha nuestra librería de elementos para potenciar la <br class="desktopTabletElement">
-                    efectividad de tus  landing pages. Es tan fácil como <br class="desktopTabletElement">
-                    seleccionarlos en el menú y arrastrarlos a tu página ¡no <br class="desktopTabletElement">
+                    Aprovecha nuestra librería de elementos para potenciar la <br class="DT_e">
+                    efectividad de tus  landing pages. Es tan fácil como <br class="DT_e">
+                    seleccionarlos en el menú y arrastrarlos a tu página ¡no <br class="DT_e">
                     necesitas escribir ni una línea de código!
                 ',
                 'enableButton' => false,
@@ -340,15 +340,15 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/5Secuencias-de-páginas-final.gif'),
                 'title' => '
-                    <span>Crea secuencias</span> de páginas para mejorar la <br class="desktopTabletElement">
+                    <span>Crea secuencias</span> de páginas para mejorar la <br class="DT_e">
                     experiencia y agilizar operaciones
                 ',
                 'text' => '
-                    En Escala puedes agregar páginas  de confirmación o post-<br class="desktopTabletElement">
-                    registro que aparecen inmediatamente después de que las <br class="desktopTabletElement">
-                    personas registran sus datos en la primera landing page. <br class="desktopTabletElement">
-                    Así logras comunicar mensajes oportunamente, aliviar el <br class="desktopTabletElement">
-                    trabajo del vendedor, precalificar, incentivar upsells, <br class="desktopTabletElement">
+                    En Escala puedes agregar páginas  de confirmación o post-<br class="DT_e">
+                    registro que aparecen inmediatamente después de que las <br class="DT_e">
+                    personas registran sus datos en la primera landing page. <br class="DT_e">
+                    Así logras comunicar mensajes oportunamente, aliviar el <br class="DT_e">
+                    trabajo del vendedor, precalificar, incentivar upsells, <br class="DT_e">
                     entregar valor y más.
                 ',
                 'enableButton' => false,
@@ -369,13 +369,13 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/6-responsive.gif'),
                 'title' => '
-                    ¡Logra que tus páginas se van bien en <br class="desktopTabletElement">
+                    ¡Logra que tus páginas se van bien en <br class="DT_e">
                     <span>todos los dispositivos!</span>
                 ',
                 'text' => '
-                    En Escala es muy eficiente crear páginas responsive que se <br class="desktopTabletElement">
-                    vean bien en computadoras, celulares y tablets. Nuestro <br class="desktopTabletElement">
-                    constructor de páginas ajusta la gran mayoría de las <br class="desktopTabletElement">
+                    En Escala es muy eficiente crear páginas responsive que se <br class="DT_e">
+                    vean bien en computadoras, celulares y tablets. Nuestro <br class="DT_e">
+                    constructor de páginas ajusta la gran mayoría de las <br class="DT_e">
                     secciones por ti.
                 ',
                 'enableButton' => false,
@@ -396,16 +396,16 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/7-dominio.gif'),
                 'title' => '
-                    <span>¡Publicar es muy rápido!</span> Define el dominio, <br class="desktopTabletElement">
+                    <span>¡Publicar es muy rápido!</span> Define el dominio, <br class="DT_e">
                     edita el SEO y listo
                 ',
                 'text' => '
-                     Una vez creas tu landing page, puedes conectar tu cuenta <br class="desktopTabletElement">
-                    de Facebook Ads Manager y Google Analytics para enviar <br class="desktopTabletElement">
+                     Una vez creas tu landing page, puedes conectar tu cuenta <br class="DT_e">
+                    de Facebook Ads Manager y Google Analytics para enviar <br class="DT_e">
                     tráfico y medir resultados.
                         <br class="space"><br class="space">
-                    También puedes editar el títulos, la descripción, la imagen y <br class="desktopTabletElement">
-                    el Favicon para mejorar su presentación al compartirla en <br class="desktopTabletElement">
+                    También puedes editar el títulos, la descripción, la imagen y <br class="DT_e">
+                    el Favicon para mejorar su presentación al compartirla en <br class="DT_e">
                     distintas plataformas online.
                 ',
                 'enableButton' => false,
@@ -430,11 +430,11 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/8-analitics.gif'),
                 'title' => '
-                    <span>Visualiza la efectividad</span> de tus landing <br class="desktopTabletElement">
+                    <span>Visualiza la efectividad</span> de tus landing <br class="DT_e">
                     pages con analíticas en tiempo real
                 ',
                 'text' => '
-                    Una vez publiques y envíes visitantes a tus páginas, Escala <br class="desktopTabletElement">
+                    Una vez publiques y envíes visitantes a tus páginas, Escala <br class="DT_e">
                     permite ver métricas como: <br class="space">
                       <span class="items">
                       <span>
@@ -476,13 +476,13 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/9Herramientas-landings-CRM.gif'),
                 'title' => '
-                        <span>¡Que no se escape ni una oportunidad!</span> <br class="desktopTabletElement">
-                        Tus landing pages están conectadas a las <br class="desktopTabletElement">
+                        <span>¡Que no se escape ni una oportunidad!</span> <br class="DT_e">
+                        Tus landing pages están conectadas a las <br class="DT_e">
                         múltiples herramientas del CRM de Escala
                 ',
                 'text' => '
-                    Olvídate de integraciones o ineficiencias operativas por <br class="desktopTabletElement">
-                    fallas humanas. En Escala todas las herramientas están <br class="desktopTabletElement">
+                    Olvídate de integraciones o ineficiencias operativas por <br class="DT_e">
+                    fallas humanas. En Escala todas las herramientas están <br class="DT_e">
                     nativamente integradas para que: <br class="space">
                      <span class="items">
                         <span>
@@ -706,7 +706,7 @@ comercial o post-venta
                 'classSection' => 'landing_landingPage_2023_12',
                 'enableTitle' => true,
                 'titlePrincipal' => '
-                Qué dicen nuestros clientes sobre las landing <br class="desktopTabletElement">
+                Qué dicen nuestros clientes sobre las landing <br class="DT_e">
                 pages que construyen en Escala
                 ',
                 'subTitlePrincipal' => null,
@@ -738,7 +738,7 @@ comercial o post-venta
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
                         <h2 class="primaryTitle">
-                   Qué dicen nuestros clientes sobre las landing <br class="desktopTabletElement">
+                   Qué dicen nuestros clientes sobre las landing <br class="DT_e">
                 pages que construyen en Escala
 
                 </h2>
@@ -783,9 +783,9 @@ comercial o post-venta
 
                         <div class="info">
                             <p class="text">
-                                “En mis compañías utilizamos decenas de landing <br class="desktopTabletElement">
+                                “En mis compañías utilizamos decenas de landing <br class="DT_e">
                                 pages para crecer. Gracias a Escala <span>
-                                    aumentamos <br class="desktopTabletElement">
+                                    aumentamos <br class="DT_e">
                                     10X nuestra eficiencia
                                 </span> al crear y publicarlas.”
                                 <br class="space">
@@ -840,9 +840,9 @@ comercial o post-venta
 
                         <div class="info">
                             <p class="text">
-                                Nuestro equipo de servicio y <br class="desktopTabletElement">
-                                entrenadores Escala te orientan desde <br class="desktopTabletElement">
-                                el día 1 para que consigas mejores <br class="desktopTabletElement">
+                                Nuestro equipo de servicio y <br class="DT_e">
+                                entrenadores Escala te orientan desde <br class="DT_e">
+                                el día 1 para que consigas mejores <br class="DT_e">
                                 resultados con tus páginas.
                                 <br class="space"><br class="space">
                                 <span>
@@ -917,7 +917,7 @@ comercial o post-venta
 
                                             ],
                                             [
-                                                'title' => 'Encuentras muchas más herramientas de <br class="desktopTabletElement"> marketing y ventas integradas',
+                                                'title' => 'Encuentras muchas más herramientas de <br class="DT_e"> marketing y ventas integradas',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_2.png'),
 
                                             ],
@@ -932,7 +932,7 @@ comercial o post-venta
 
                                             ],
                                             [
-                                                'title' => 'Implementamos parte de la primera <br class="desktopTabletElement"> campaña por ti ',
+                                                'title' => 'Implementamos parte de la primera <br class="DT_e"> campaña por ti ',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_5.png'),
 
                                             ]

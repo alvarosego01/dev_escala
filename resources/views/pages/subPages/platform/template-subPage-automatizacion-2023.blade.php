@@ -78,16 +78,16 @@
                                     tus metas de venta
                                 </h2>
                                 <p class="text-p">
-                                    Utiliza la tecnología automatizada de escala para manejar las tareas <br class="desktopTabletElement">
-                                    repetitivas. Cumple tus cuotas de ventas incluso mientras duermes <br class="desktopTabletElement">
+                                    Utiliza la tecnología automatizada de escala para manejar las tareas <br class="DT_e">
+                                    repetitivas. Cumple tus cuotas de ventas incluso mientras duermes <br class="DT_e">
                                     o tomas un café <br
                                         class="space"> <br class="space">
 
-                                    Imagina que se han registrado 1,000 contactos en tu base de datos <br class="desktopTabletElement">
+                                    Imagina que se han registrado 1,000 contactos en tu base de datos <br class="DT_e">
                                     en una hora. ¿Cómo
-                                    vas a comunicarte con cada uno de ellos de <br class="desktopTabletElement">
+                                    vas a comunicarte con cada uno de ellos de <br class="DT_e">
                                     forma personalizada? ¿Cómo vas a
-                                    distribuir esos contactos entre tu <br class="desktopTabletElement"> equipo de ventas para convertirlos en clientes?
+                                    distribuir esos contactos entre tu <br class="DT_e"> equipo de ventas para convertirlos en clientes?
                                     <br class="space"> <br class="space">
 
                                     ¡Sigue leyendo, te diremos cómo hacerlo!
@@ -145,7 +145,7 @@
                         </div>
                         <div class="col-md-12 col-lg-6 sectionTexts">
                             <p class="text">
-                                Configurar emails de <br class="desktopTabletElement">
+                                Configurar emails de <br class="DT_e">
                                 respuesta automática
                             </p>
                         </div>
@@ -153,7 +153,7 @@
                     <div class="groupElements row">
                         <div class="order-last order-md-last order-lg-first col-md-12 col-lg-6 sectionTexts textRight">
                             <p class="text">
-                                Programar notificaciones <br class="desktopTabletElement">
+                                Programar notificaciones <br class="DT_e">
                                 y recordatorios
                             </p>
                         </div>

@@ -442,11 +442,11 @@
                                             <p class="primaryText grayColorTexts">
 
                                                 Si estás interesado en <span class="greenBlueColor"><strong>
-                                                    un plan mayor <br class="desktopTabletElement">
+                                                    un plan mayor <br class="DT_e">
                                                     a 100.000 contactos,
                                                 </strong>
-                                                </span> habla con uno de <br class="desktopTabletElement">
-                                                nuestros asesores y te ayudaremos a <br class="desktopTabletElement">
+                                                </span> habla con uno de <br class="DT_e">
+                                                nuestros asesores y te ayudaremos a <br class="DT_e">
                                                 personalizar tu plan.
 
                                              </p>

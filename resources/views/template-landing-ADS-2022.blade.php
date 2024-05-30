@@ -17,13 +17,13 @@
      'overlay' => false,
      'classSection' => 'threeCol landing_ADS_2022_0',
      'title' => '<span style="color: #B9E6E9">
-Crea, administra y <br class="desktopTabletElement">
-publica ads de <br class="desktopTabletElement">
+Crea, administra y <br class="DT_e">
+publica ads de <br class="DT_e">
 Facebook desde Escala
         </span>',
      'text' => '<span class="whiteColor">
-Haz que todos conozcan tus productos y servicios con <br class="desktopTabletElement">
-anuncios digitales de Facebook e Instagram que puedes <br class="desktopTabletElement">
+Haz que todos conozcan tus productos y servicios con <br class="DT_e">
+anuncios digitales de Facebook e Instagram que puedes <br class="DT_e">
 crear, administrar y publicar sin salir de Escala
       </span>
       ',
@@ -45,7 +45,7 @@ crear, administrar y publicar sin salir de Escala
         'classSection' => 'landing_ADS_2022_1',
         'enableTitle' => true,
         'titlePrincipal' => '
-¿Qué puedes lograr con los anuncios <br class="desktopTabletElement">
+¿Qué puedes lograr con los anuncios <br class="DT_e">
 <span class="greenBlueColor">digitales de Facebook e Instagram?</span>
         ',
         'subTitlePrincipal' => '
@@ -61,7 +61,7 @@ crear, administrar y publicar sin salir de Escala
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_01a.png'),
                 'title' => '<span class="grayColorTexts5">
-Promocionar tus <br class="desktopTabletElement">
+Promocionar tus <br class="DT_e">
 productos o servicios
 
                     </span>',
@@ -70,7 +70,7 @@ productos o servicios
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_01b.png'),
                 'title' => '<span class="grayColorTexts5">
-Generar tráfico a tus <br class="desktopTabletElement">
+Generar tráfico a tus <br class="DT_e">
 landing pages
                     </span>',
                 'enableButton' => false,
@@ -78,7 +78,7 @@ landing pages
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_01c.png'),
                 'title' => '<span class="grayColorTexts5">
-Aumentar las ventas <br class="desktopTabletElement">
+Aumentar las ventas <br class="DT_e">
 en tus páginas
                     </span>',
                 'enableButton' => false,
@@ -86,7 +86,7 @@ en tus páginas
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_01d.png'),
                 'title' => '<span class="grayColorTexts5">
-Atraer a tu audiencia ideal <br class="desktopTabletElement">
+Atraer a tu audiencia ideal <br class="DT_e">
 para cerrar más ventas
                     </span>',
                 'enableButton' => false,
@@ -94,7 +94,7 @@ para cerrar más ventas
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_01e.png'),
                 'title' => '<span class="grayColorTexts5">
-Convertir interesados <br class="desktopTabletElement">
+Convertir interesados <br class="DT_e">
 en leads en un clic
                     </span>',
                 'enableButton' => false,
@@ -102,7 +102,7 @@ en leads en un clic
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_avisos_digitales_publicidad_digital_01f.png'),
                 'title' => '<span class="grayColorTexts5">
-Obtener mayor alcance <br class="desktopTabletElement">
+Obtener mayor alcance <br class="DT_e">
 de tu público digital
                     </span>',
                 'enableButton' => false,
@@ -125,11 +125,11 @@ de tu público digital
         <div class="containElements">
 
           <h2 class="primaryTitle blackColor ">
-            <span class="greenBlueColor">4 pasos para generar tráfico a tus páginas,</span> <br class="desktopTabletElement">
+            <span class="greenBlueColor">4 pasos para generar tráfico a tus páginas,</span> <br class="DT_e">
 sin que tu billetera sufra
           </h2>
           {{-- <p class="primaryText grayColorTexts">
-            Aumenta tus ventas y la productividad de tu equipo con el CRM más fácil de usar del mercado, <br class="desktopTabletElement">
+            Aumenta tus ventas y la productividad de tu equipo con el CRM más fácil de usar del mercado, <br class="DT_e">
             el arma secreta de los negocios para escalar con éxito.
           </p> --}}
 
@@ -151,8 +151,8 @@ sin que tu billetera sufra
 Elige a tu audiencia ideal
               </h3>
               <p class="primaryText  grayColorTexts">
-En nuestro Ad Manager podrás elegir a tu público ideal, <br class="desktopTabletElement">
-segmentándolo por: edad, región, intereses. Planifica <br class="desktopTabletElement">
+En nuestro Ad Manager podrás elegir a tu público ideal, <br class="DT_e">
+segmentándolo por: edad, región, intereses. Planifica <br class="DT_e">
 cuál es el alcance que esperas lograr con tu campaña.
               </p>
             </div>
@@ -170,9 +170,9 @@ cuál es el alcance que esperas lograr con tu campaña.
 Crea tu anuncio digital
               </h3>
               <p class="primaryText  grayColorTexts">
-Combina la imagen más impactante con los textos <br class="desktopTabletElement">
-que atraerán a tu audiencia como un imán. Súbelos <br class="desktopTabletElement">
-en Escala y listo. Solo espera por la aprobación de <br class="desktopTabletElement">
+Combina la imagen más impactante con los textos <br class="DT_e">
+que atraerán a tu audiencia como un imán. Súbelos <br class="DT_e">
+en Escala y listo. Solo espera por la aprobación de <br class="DT_e">
 Facebook para verlos online.
               </p>
             </div>
@@ -194,9 +194,9 @@ a tu landing page
 
               </h3>
               <p class="primaryText  grayColorTexts">
-Una vez que creaste tu potentes campañas de anuncios <br class="desktopTabletElement">
-digitales en Escala, simplemente selecciona la landing <br class="desktopTabletElement">
-page a la cual deseas dirigir el tráfico ¡y voilà!, <br class="desktopTabletElement">
+Una vez que creaste tu potentes campañas de anuncios <br class="DT_e">
+digitales en Escala, simplemente selecciona la landing <br class="DT_e">
+page a la cual deseas dirigir el tráfico ¡y voilà!, <br class="DT_e">
 estás listo para recibir visitantes.
               </p>
             </div>
@@ -214,9 +214,9 @@ estás listo para recibir visitantes.
 Publícala y optimízala
               </h3>
               <p class="primaryText  grayColorTexts">
-En un clic publica tu campaña y mide en todo <br class="desktopTabletElement">
-momento tus resultados con nuestros dashboards <br class="desktopTabletElement">
-amigables para que puedas corregir y optimizar tus <br class="desktopTabletElement">
+En un clic publica tu campaña y mide en todo <br class="DT_e">
+momento tus resultados con nuestros dashboards <br class="DT_e">
+amigables para que puedas corregir y optimizar tus <br class="DT_e">
 ads digitales.
               </p>
             </div>
@@ -284,8 +284,8 @@ de tu campaña <br class="space">
 ya está integrado
 ',
 'text' => '
-En Escala el píxel de Facebook ya viene integrado a tu landing <br class="desktopTabletElement">
-page para que puedas obtener información relevante para <br class="desktopTabletElement">
+En Escala el píxel de Facebook ya viene integrado a tu landing <br class="DT_e">
+page para que puedas obtener información relevante para <br class="DT_e">
 optimizar rápidamente tus campañas de anuncios digitales.
 ',
 'enableButton' => false,
@@ -348,11 +348,11 @@ optimizar rápidamente tus campañas de anuncios digitales.
         'classSection' => 'landing_ADS_2022_6',
         'enableTitle' => true,
         'titlePrincipal' => '
-<span class="greenBlueColor">Además de publicar potentes ads digitales,</span> <br class="desktopTabletElement">
+<span class="greenBlueColor">Además de publicar potentes ads digitales,</span> <br class="DT_e">
 conoce todo lo que puedes lograr con Escala
         ',
         'subTitlePrincipal' => '
-Tus anuncios digitales ya estarán  integrados a <strong>la plataforma “todo-en-uno”</strong> <br class="desktopTabletElement">
+Tus anuncios digitales ya estarán  integrados a <strong>la plataforma “todo-en-uno”</strong> <br class="DT_e">
 <strong>de marketing digital y ventas</strong> más completa de todas y fácil de usar
         ',
         'overlay' => false,
@@ -365,14 +365,14 @@ Tus anuncios digitales ya estarán  integrados a <strong>la plataforma “todo-e
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3a.png'),
                 'title' => '<span style="color: #150D27" >
-Date a conocer con landing <br class="desktopTabletElement">
+Date a conocer con landing <br class="DT_e">
 pages vendedoras
                 </span>',
                 'text' => '
-Crea en minutos landing pages optimizadas para darte a <br class="desktopTabletElement">
-conocer y capturar la data de tus visitantes mediante <br class="desktopTabletElement">
-formularios integrados a tu CRM. Elige una de nuestras <br class="desktopTabletElement">
-plantillas, personalízala y publícala en un clic, sin <br class="desktopTabletElement">
+Crea en minutos landing pages optimizadas para darte a <br class="DT_e">
+conocer y capturar la data de tus visitantes mediante <br class="DT_e">
+formularios integrados a tu CRM. Elige una de nuestras <br class="DT_e">
+plantillas, personalízala y publícala en un clic, sin <br class="DT_e">
 programar o diseñar.
                 ',
                 'enableButton' => false,
@@ -380,14 +380,14 @@ programar o diseñar.
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_marketing_2d.png'),
                 'title' => '<span style="color: #150D27" >
-Automatiza para personalizar <br class="desktopTabletElement">
+Automatiza para personalizar <br class="DT_e">
 tu comunicación y convertir más
                 </span>',
                 'text' => '
-Automatiza el flujo de tus acciones de marketing y ventas: <br class="desktopTabletElement">
-enviar emails, recordatorios a tu equipo de ventas <br class="desktopTabletElement">
-(llamadas, tareas y actividades). Programa todo en base a <br class="desktopTabletElement">
-patrones de comportamiento de tus contactos para <br class="desktopTabletElement">
+Automatiza el flujo de tus acciones de marketing y ventas: <br class="DT_e">
+enviar emails, recordatorios a tu equipo de ventas <br class="DT_e">
+(llamadas, tareas y actividades). Programa todo en base a <br class="DT_e">
+patrones de comportamiento de tus contactos para <br class="DT_e">
 aumentar tu conversión y retención.
                 ',
                 'enableButton' => false,
@@ -395,14 +395,14 @@ aumentar tu conversión y retención.
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3d.png'),
                 'title' => '<span style="color: #150D27" >
-Envía Emails <br class="desktopTabletElement">
+Envía Emails <br class="DT_e">
 profesionales
 <br class="desktopElement"><br class="desktopElement">
                 </span>',
                 'text' => '
-Nutre la relación con tus contactos enviando efectivas <br class="desktopTabletElement">
-campañas de emails. Con nuestras plantillas prediseñadas <br class="desktopTabletElement">
-logras enviar masivamente mensajes personalizados con <br class="desktopTabletElement">
+Nutre la relación con tus contactos enviando efectivas <br class="DT_e">
+campañas de emails. Con nuestras plantillas prediseñadas <br class="DT_e">
+logras enviar masivamente mensajes personalizados con <br class="DT_e">
 tan solo un clic.
                 ',
                 'enableButton' => false,
@@ -410,14 +410,14 @@ tan solo un clic.
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_04.png'),
                 'title' => '<span style="color: #150D27" >
-Gestiona y organiza la <br class="desktopTabletElement">
-información de tus contactos <br class="desktopTabletElement">
+Gestiona y organiza la <br class="DT_e">
+información de tus contactos <br class="DT_e">
 con el CRM integrado
                 </span>',
                 'text' => '
-La información que registran tus visitantes en los formularios <br class="desktopTabletElement">
-inteligentes de tus landing pages se guarda automáticamente en <br class="desktopTabletElement">
-el CRM de Escala. No más integraciones para organizar, gestionar <br class="desktopTabletElement">
+La información que registran tus visitantes en los formularios <br class="DT_e">
+inteligentes de tus landing pages se guarda automáticamente en <br class="DT_e">
+el CRM de Escala. No más integraciones para organizar, gestionar <br class="DT_e">
 y vender a tus contactos.
                 ',
                 'enableButton' => false,
@@ -425,12 +425,12 @@ y vender a tus contactos.
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_2d.png'),
                 'title' => '<span style="color: #150D27" >
-Ten la visibilidad de <br class="desktopTabletElement">
+Ten la visibilidad de <br class="DT_e">
 la salud de tu negocio
                 </span>',
                 'text' => '
-Lo que no se mide, no mejora. Escala te da las analíticas <br class="desktopTabletElement">
-necesarias en dashboards amigables para que optimices <br class="desktopTabletElement">
+Lo que no se mide, no mejora. Escala te da las analíticas <br class="DT_e">
+necesarias en dashboards amigables para que optimices <br class="DT_e">
 tus esfuerzos de venta y marketing.
                 ',
                 'enableButton' => false,
@@ -451,11 +451,11 @@ $parameters = [
     'classSection' => 'landing_ADS_2022_7',
     'enableTitle' => true,
     'titlePrincipal' => '
-Tus campañas digitales vienen repotenciadas <br class="desktopTabletElement">
+Tus campañas digitales vienen repotenciadas <br class="DT_e">
 con un servicio premium
     ',
     'subTitlePrincipal' => '
-No solo te ayudamos a generar tráfico a tus páginas con ads digitales, también te vamos <br class="desktopTabletElement">
+No solo te ayudamos a generar tráfico a tus páginas con ads digitales, también te vamos <br class="DT_e">
 a acompañar en todo el camino al éxito con nuestras otras funcionalidades.
     ',
     'overlay' => false,
@@ -507,7 +507,7 @@ a acompañar en todo el camino al éxito con nuestras otras funcionalidades.
 $parameters = [
     'classSection' => 'landing_ADS_2022_8',
     'title' => '
-Quiero crear potentes campañas de <br class="desktopTabletElement">
+Quiero crear potentes campañas de <br class="DT_e">
 Facebook desde Escala
         </span>',
         'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',

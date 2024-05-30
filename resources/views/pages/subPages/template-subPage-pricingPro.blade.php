@@ -845,10 +845,10 @@
                                         <div class="containElements">
 
                                             <p class="text">
-                                                Los contactos de marketing son contactos a quienes les puedes <br class="desktopTabletElement">
-                                                enviar campañas de Email marketing e emails automatizados.<br class="desktopTabletElement">
-                                                Los contactos de NO marketing solo se pueden contactar uno a <br class="desktopTabletElement">
-                                                uno vía el CRM y puedes guardar hasta 1 millón de este tipo en <br class="desktopTabletElement">
+                                                Los contactos de marketing son contactos a quienes les puedes <br class="DT_e">
+                                                enviar campañas de Email marketing e emails automatizados.<br class="DT_e">
+                                                Los contactos de NO marketing solo se pueden contactar uno a <br class="DT_e">
+                                                uno vía el CRM y puedes guardar hasta 1 millón de este tipo en <br class="DT_e">
                                                 el CRM sin cobro adicional. <a class="hiperButtonGreenBlue" href="https://support.escala.com/portal/es/kb/articles/como-influye-el-aumento-de-contactos-de-marketing">Aprender más</a>
                                             </p>
 
@@ -901,11 +901,11 @@
                                         <div class="containElements">
 
                                             <p class="text">
-                                                Escala tiene integrado <span style="color: #00D35B"><strong>WhatsApp API</strong></span> para que puedas <br class="desktopTabletElement">
-                                                automatizar respuestas, enviar mensajes masivos, conversar, <br class="desktopTabletElement">
+                                                Escala tiene integrado <span style="color: #00D35B"><strong>WhatsApp API</strong></span> para que puedas <br class="DT_e">
+                                                automatizar respuestas, enviar mensajes masivos, conversar, <br class="DT_e">
                                                 guardar esas conversaciones en el CRM ¡y más!
                                                 <br class="space"><br class="space">
-                                                Potencia tu capacidad de respuesta y escala tus operaciones <br class="desktopTabletElement">
+                                                Potencia tu capacidad de respuesta y escala tus operaciones <br class="DT_e">
                                                 con el Inbox y las Automatizaciones de WhatsApp
                                             </p>
 
@@ -957,9 +957,9 @@
                                         <div class="containElements">
 
                                             <p class="text">
-                                                Cuenta con un especialista que te apoya a <br class="desktopTabletElement">
-                                                definir un plan estratégico de marketing y/o <br class="desktopTabletElement">
-                                                ventas con Escala para luego guiarte a <br class="desktopTabletElement">
+                                                Cuenta con un especialista que te apoya a <br class="DT_e">
+                                                definir un plan estratégico de marketing y/o <br class="DT_e">
+                                                ventas con Escala para luego guiarte a <br class="DT_e">
                                                 implementarlo paso a paso. <a class="hiperButtonGreenBlue" href="https://escala.com/servicio">Aprender más</a>
                                             </p>
 

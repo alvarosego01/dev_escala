@@ -61,8 +61,8 @@
 
                                                                                     <p class="principalBigText grayColorTexts">
 
-                    Convierte más contactos en clientes fieles <br class="desktopTabletElement">
-                    con Escala, una plataforma todo-en-uno muy <br class="desktopTabletElement">
+                    Convierte más contactos en clientes fieles <br class="DT_e">
+                    con Escala, una plataforma todo-en-uno muy <br class="DT_e">
                     fácil de usar que tu equipo ¡sí querrá usar!
 
                                             </p>
@@ -202,7 +202,7 @@
                             <div class='containElements'>
 
                                 <h2 class="primaryTitle">
-                                 Maneja todo el ciclo de vida de tus clientes con las <br class="desktopTabletElement">
+                                 Maneja todo el ciclo de vida de tus clientes con las <br class="DT_e">
                                 herramientas del CRM de Escala
                                 </h2>
 
@@ -236,11 +236,11 @@
                 'img' => App::setFilePath('/assets/images/gifs/1El-CRM-guarda-automáticamente.gif'),
                 'title' => '
 
-                        El CRM <span>guarda automáticamente</span> los <br class="desktopTabletElement">
+                        El CRM <span>guarda automáticamente</span> los <br class="DT_e">
                         contactos
-                     que se registran en formularios y <br class="desktopTabletElement">
+                     que se registran en formularios y <br class="DT_e">
                     landing pages de Escala
-                        ¡sin necesitar <br class="desktopTabletElement">
+                        ¡sin necesitar <br class="DT_e">
                         integraciones!
 
                 ',
@@ -264,7 +264,7 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/2automatiza-post-registro.gif'),
                 'title' => '
-                        <span>Automatiza</span> en el CRM el envío de <br class="desktopTabletElement">
+                        <span>Automatiza</span> en el CRM el envío de <br class="DT_e">
                         comunicaciones post-registro como:
 
                 ',
@@ -313,12 +313,12 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/3Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes-.gif'),
                 'title' => '
-                        <span>Gestiona</span> uno o más procesos para convertir <br class="desktopTabletElement">
+                        <span>Gestiona</span> uno o más procesos para convertir <br class="DT_e">
                         contactos en clientes
 
                 ',
                 'text' =>'
-                    Con la herramienta del CRM tipo “Kanban” o “Pipeline” <br class="desktopTabletElement">
+                    Con la herramienta del CRM tipo “Kanban” o “Pipeline” <br class="DT_e">
                     evitas que se escapen oportunidades de venta.
                 ',
                 'enableButton' => false,
@@ -340,12 +340,12 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/4Haz-mejor-seguimiento-a-tus-oportunidades-comerciales-.gif'),
                 'title' => '
-                        Haz <span>mejor seguimiento</span> a tus <br class="desktopTabletElement">
+                        Haz <span>mejor seguimiento</span> a tus <br class="DT_e">
                         oportunidades comerciales.
                 ',
                 'text' =>'
-                    El CRM simplifica priorizar, recordar tareas/actividades, <br class="desktopTabletElement">
-                    enviar comunicaciones individuales y grupales, visualizar <br class="desktopTabletElement">
+                    El CRM simplifica priorizar, recordar tareas/actividades, <br class="DT_e">
+                    enviar comunicaciones individuales y grupales, visualizar <br class="DT_e">
                     status de venta de cada prospecto ¡y más!
                 ',
                 'enableButton' => false,
@@ -367,12 +367,12 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/5-metricas-en-tiempo-real_.gif'),
                 'title' => '
-                        Visualiza <span>métricas en tiempo real</span> <br class="desktopTabletElement">
-                        sobre el rendimiento de tu equipo <br class="desktopTabletElement">
+                        Visualiza <span>métricas en tiempo real</span> <br class="DT_e">
+                        sobre el rendimiento de tu equipo <br class="DT_e">
                         comercial y tus ventas
                 ',
                 'text' => '
-                    Nuestros Dashboards amigables brindan información clave <br class="desktopTabletElement">
+                    Nuestros Dashboards amigables brindan información clave <br class="DT_e">
                     para gestionar al equipo y cerrar más ventas
                 ',
                 'enableButton' => false,
@@ -394,12 +394,12 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/6Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes.gif'),
                 'title' => '
-                        <span>Registra fácilmente</span> información relevante <br class="desktopTabletElement">
+                        <span>Registra fácilmente</span> información relevante <br class="DT_e">
                         sobre cada contacto y sus empresas
                 ',
                 'text' => '
-                    Utiliza los campos que ya están en Escala o crea unos <br class="desktopTabletElement">
-                    propios para guardar organizadamente información útil <br class="desktopTabletElement">
+                    Utiliza los campos que ya están en Escala o crea unos <br class="DT_e">
+                    propios para guardar organizadamente información útil <br class="DT_e">
                     sobre cada persona y/o negocio que desees recordar
                 ',
                 'enableButton' => false,
@@ -421,11 +421,11 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/7Lleva-un-historial-de-todas-las-interaccione.gif'),
                 'title' => '
-                        <span>Lleva un historial</span> de todas las interacciones <br class="desktopTabletElement">
+                        <span>Lleva un historial</span> de todas las interacciones <br class="DT_e">
                         que has tenido con cada contacto en el CRM
                 ',
                 'text' => '
-                    Emails recibidos/enviados, formularios completadas, <br class="desktopTabletElement">
+                    Emails recibidos/enviados, formularios completadas, <br class="DT_e">
                     oportunidades y actividades creadas, notas ¡y más¡
 
                     <span class="specialTag">
@@ -502,11 +502,11 @@
                             <div class="col-md-12 col-lg-7 column-text">
                                 <p>
                                     <span>
-                                        “El CRM es el corazón de las operaciones <br class="desktopTabletElement">
+                                        “El CRM es el corazón de las operaciones <br class="DT_e">
                                         de todo negocio.
-                                    </span> Diseñamos Escala para <br class="desktopTabletElement">
-                                    facilitarle a pequeñas y medianas empresas <br class="desktopTabletElement">
-                                    tener una cultura cliente-céntrica y <br class="desktopTabletElement">
+                                    </span> Diseñamos Escala para <br class="DT_e">
+                                    facilitarle a pequeñas y medianas empresas <br class="DT_e">
+                                    tener una cultura cliente-céntrica y <br class="DT_e">
                                     optimizar resultados de venta/servicio”.
                                     <br class="space"><br class="space">
                                     <span class="sub">
@@ -529,7 +529,7 @@
                 'classSection' => 'landing_CRM_2023_11',
                 'enableTitle' => true,
                 'titlePrincipal' => '
-                    Qué dicen nuestros clientes <br class="desktopTabletElement">
+                    Qué dicen nuestros clientes <br class="DT_e">
                     sobre el CRM de Escala
                 ',
                 'subTitlePrincipal' => null,
@@ -561,7 +561,7 @@
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
                         <h2 class="primaryTitle">
-                   Qué dicen nuestros clientes <br class="desktopTabletElement">
+                   Qué dicen nuestros clientes <br class="DT_e">
                     sobre el CRM de Escala
 
                 </h2>
@@ -619,9 +619,9 @@
 
                         <div class="info">
                             <p class="text">
-                                Nuestro equipo de servicio y <br class="desktopTabletElement">
-                                entrenadores Escala te orientan desde <br class="desktopTabletElement">
-                                el día 1 para que consigas mejores <br class="desktopTabletElement">
+                                Nuestro equipo de servicio y <br class="DT_e">
+                                entrenadores Escala te orientan desde <br class="DT_e">
+                                el día 1 para que consigas mejores <br class="DT_e">
                                 resultados con tus páginas.
 
                                 <br class="space"><br class="space">
@@ -697,7 +697,7 @@
 
                                             ],
                                             [
-                                                'title' => 'Encuentras muchas más herramientas de <br class="desktopTabletElement"> marketing y ventas integradas',
+                                                'title' => 'Encuentras muchas más herramientas de <br class="DT_e"> marketing y ventas integradas',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_2.png'),
 
                                             ],
@@ -712,7 +712,7 @@
 
                                             ],
                                             [
-                                                'title' => 'Implementamos parte de la primera <br class="desktopTabletElement"> campaña por ti ',
+                                                'title' => 'Implementamos parte de la primera <br class="DT_e"> campaña por ti ',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_5.png'),
 
                                             ]

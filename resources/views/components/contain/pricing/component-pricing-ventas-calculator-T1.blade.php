@@ -122,7 +122,7 @@
                                                     1.000
                                                 </span class="rangeContactLimit">
 
-                                                <span class="desktopTabletElement rangeContactLimit">
+                                                <span class="DT_e rangeContactLimit">
                                                     25.000
                                                 </span>
 
@@ -130,7 +130,7 @@
                                                     50.000
                                                 </span>
 
-                                                <span class="desktopTabletElement rangeContactLimit">
+                                                <span class="DT_e rangeContactLimit">
                                                     75.000
                                                 </span>
 
@@ -150,7 +150,7 @@
                                                     5.000
                                                 </span class="rangeContactLimit">
 
-                                                <span class="desktopTabletElement rangeContactLimit">
+                                                <span class="DT_e rangeContactLimit">
                                                     25.000
                                                 </span>
 
@@ -158,7 +158,7 @@
                                                     50.000
                                                 </span>
 
-                                                <span class="desktopTabletElement rangeContactLimit">
+                                                <span class="DT_e rangeContactLimit">
                                                     75.000
                                                 </span>
 
@@ -218,7 +218,7 @@
                                                     1.000
                                                 </span class="rangeContactLimit">
 
-                                                <span class="desktopTabletElement rangeContactLimit">
+                                                <span class="DT_e rangeContactLimit">
                                                     25.000
                                                 </span>
 
@@ -226,7 +226,7 @@
                                                     50.000
                                                 </span>
 
-                                                <span class="desktopTabletElement rangeContactLimit">
+                                                <span class="DT_e rangeContactLimit">
                                                     75.000
                                                 </span>
 
@@ -245,7 +245,7 @@
                                                     5.000
                                                 </span class="rangeContactLimit">
 
-                                                <span class="desktopTabletElement rangeContactLimit">
+                                                <span class="DT_e rangeContactLimit">
                                                     25.000
                                                 </span>
 
@@ -253,7 +253,7 @@
                                                     50.000
                                                 </span>
 
-                                                <span class="desktopTabletElement rangeContactLimit">
+                                                <span class="DT_e rangeContactLimit">
                                                     75.000
                                                 </span>
 
@@ -423,11 +423,11 @@
                                             <p class="primaryText grayColorTexts">
 
                                                 Si estás interesado en <span class="greenBlueColor"><strong>
-                                                    un plan mayor <br class="desktopTabletElement">
+                                                    un plan mayor <br class="DT_e">
                                                     a 100.000 contactos,
                                                 </strong>
-                                                </span> habla con uno de <br class="desktopTabletElement">
-                                                nuestros asesores y te ayudaremos a <br class="desktopTabletElement">
+                                                </span> habla con uno de <br class="DT_e">
+                                                nuestros asesores y te ayudaremos a <br class="DT_e">
                                                 personalizar tu plan.
 
                                              </p>

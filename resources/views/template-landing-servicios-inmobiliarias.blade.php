@@ -126,7 +126,7 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'title' => '¿Escala tiene todo <br class="desktopTabletElement"> lo que necesito?
+                'title' => '¿Escala tiene todo <br class="DT_e"> lo que necesito?
                 ',
                 'img' => App::setFilePath('/assets/images/illustrations/otto/seguros-5 1.png'),
                 'text' => 'No importa el tamaño de tu servicio de salud. <br class="desktopElement"> Empodera a tu generación de leads con todas las <br class="desktopElement"> herramientas digitales y de ventas en un solo lugar.',

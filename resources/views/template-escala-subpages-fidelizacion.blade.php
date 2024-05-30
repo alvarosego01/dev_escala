@@ -44,7 +44,7 @@ $parameters = [
     ¿Cómo logras fidelizar <br class="mobileElement"><span class="greenBlueColor">a tus clientes con Escala?</span>
     ',
     'subTitlePrincipal' => '
-    Con las funcionalidades de retención de Escala fideliza a más clientes, conviértelos en <br class="desktopTabletElement"> fans de tu marca alcanzando estos objetivos:
+    Con las funcionalidades de retención de Escala fideliza a más clientes, conviértelos en <br class="DT_e"> fans de tu marca alcanzando estos objetivos:
     ',
     'overlay' => false,
     'enableButton' => false,
@@ -115,11 +115,11 @@ $parameters = [
     ',
     'img' => App::setFilePath('/assets/images/illustrations/others/flywheel_marketing.png'),
     'text' => '
-Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="desktopTabletElement">
+Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="DT_e">
 y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrando:
 <br class="space"><br class="space">
 <ul>
-  <li>Generar demanda de tus productos y servicios a través de herramientas <br class="desktopTabletElement"> de marketing digital</li>
+  <li>Generar demanda de tus productos y servicios a través de herramientas <br class="DT_e"> de marketing digital</li>
   <li>Aumentar las ventas gestionando todo el proceso desde un solo lugar</li>
   <li>Aumentar la retención de tus clientes creando relaciones a largo plazo</li>
 </ul>
@@ -147,16 +147,16 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
 
               <h2 class="primaryTitle blackColor desktopElement">
                 <span class="greenBlueColor">
-                  ¿Cuáles son las funcionalidades de Escala</span> <br class="desktopTabletElement">
+                  ¿Cuáles son las funcionalidades de Escala</span> <br class="DT_e">
 que te permiten fidelizar más clientes?
               </h2>
               <h2 class="primaryTitle blackColor mobileElement">
                 <span class="greenBlueColor">
-                  ¿Cuáles son las funcionalidades </span> <br class="desktopTabletElement">
+                  ¿Cuáles son las funcionalidades </span> <br class="DT_e">
                   de Escala que te permiten fidelizar más clientes?
               </h2>
               {{-- <p class="primaryText grayColorTexts">
-                Aumenta tus ventas y la productividad de tu equipo con el CRM más fácil de usar del mercado, <br class="desktopTabletElement">
+                Aumenta tus ventas y la productividad de tu equipo con el CRM más fácil de usar del mercado, <br class="DT_e">
                 el arma secreta de los negocios para escalar con éxito.
               </p> --}}
 
@@ -179,12 +179,12 @@ Atrapa la atención de tus <br class="space">
 clientes con Landing pages
                   </h3>
                   <p class="primaryText  grayColorTexts">
-Crea y publica landing pages optimizadas en minutos <br class="desktopTabletElement">
-para lanzar nuevos productos y servicios personalizados <br class="desktopTabletElement">
-por tipo de clientes. Solo debes elegir la plantilla que más <br class="desktopTabletElement">
-se adapta a tu nuevo lanzamiento, personalizarla y con un <br class="desktopTabletElement">
-clic publicarla. Páginas que darán a conocer esa interesante <br class="desktopTabletElement">
-oferta que atrapará nuevamente la atención de tu cliente, <br class="desktopTabletElement">
+Crea y publica landing pages optimizadas en minutos <br class="DT_e">
+para lanzar nuevos productos y servicios personalizados <br class="DT_e">
+por tipo de clientes. Solo debes elegir la plantilla que más <br class="DT_e">
+se adapta a tu nuevo lanzamiento, personalizarla y con un <br class="DT_e">
+clic publicarla. Páginas que darán a conocer esa interesante <br class="DT_e">
+oferta que atrapará nuevamente la atención de tu cliente, <br class="DT_e">
 sin necesidad de programar o diseñar.
                   </p>
                 </div>
@@ -203,12 +203,12 @@ Mantén enamorados a tus <br class="space">
 clientes con el CRM de Escala
                   </h3>
                   <p class="primaryText  grayColorTexts">
-Con el CR M de Escala puedes gestionar los contactos, las <br class="desktopTabletElement">
-oportunidades abiertas, los programas de recomendaciones y el <br class="desktopTabletElement">
-historial de acciones de tu equipo de ventas para lograr que ese <br class="desktopTabletElement">
-cliente haga upsells y recompras. Además con el CRM de Escala <br class="desktopTabletElement">
-puedes mantener comunicación constante conociendo sus <br class="desktopTabletElement">
-intereses a profundidad y segmentándolos con tus etiquetas <br class="desktopTabletElement">
+Con el CR M de Escala puedes gestionar los contactos, las <br class="DT_e">
+oportunidades abiertas, los programas de recomendaciones y el <br class="DT_e">
+historial de acciones de tu equipo de ventas para lograr que ese <br class="DT_e">
+cliente haga upsells y recompras. Además con el CRM de Escala <br class="DT_e">
+puedes mantener comunicación constante conociendo sus <br class="DT_e">
+intereses a profundidad y segmentándolos con tus etiquetas <br class="DT_e">
 avanzadas para crear campañas personalizadas.
                   </p>
                 </div>
@@ -229,10 +229,10 @@ No pierdas ningún dato <br class="space">
 con los Formularios integrados
                   </h3>
                   <p class="primaryText  grayColorTexts">
-Cada vez que tus clientes llenan los <br class="desktopTabletElement">
-formularios integrados, sus datos se guardan <br class="desktopTabletElement">
-automáticamente en el CRM de Escala, asociados a la <br class="desktopTabletElement">
-landing que despertó su interés. Así puedes tener un mejor <br class="desktopTabletElement">
+Cada vez que tus clientes llenan los <br class="DT_e">
+formularios integrados, sus datos se guardan <br class="DT_e">
+automáticamente en el CRM de Escala, asociados a la <br class="DT_e">
+landing que despertó su interés. Así puedes tener un mejor <br class="DT_e">
 control del seguimiento hasta cerrar la nueva venta.
                   </p>
                 </div>
@@ -252,12 +252,12 @@ con tu Email Marketing
 
                   </h3>
                   <p class="primaryText  grayColorTexts">
-Mantén la llama viva y comunicación constante, <br class="desktopTabletElement">
+Mantén la llama viva y comunicación constante, <br class="DT_e">
 enviándoles campañas de email marketing para: <br class="space">
 <ul>
-  <li class="primaryText grayColorTexts">Evaluar cómo se sienten con tus productos o <br class="desktopTabletElement"> servicios</li>
+  <li class="primaryText grayColorTexts">Evaluar cómo se sienten con tus productos o <br class="DT_e"> servicios</li>
   <li class="primaryText grayColorTexts">Informarles nuevos lanzamientos</li>
-  <li class="primaryText grayColorTexts">Crear conectividad emocional en fechas importantes <br class="desktopTabletElement"> para ellos</li>
+  <li class="primaryText grayColorTexts">Crear conectividad emocional en fechas importantes <br class="DT_e"> para ellos</li>
   <li class="primaryText grayColorTexts">Brindarles promociones customizadas</li>
 </ul>
                   </p>
@@ -279,9 +279,9 @@ Automatiza para ahorrar tiempo
                   </h3>
 
                   <p class="primaryText  grayColorTexts">
-Para estar en contacto de forma permanente, programa flujos <br class="desktopTabletElement">
-automatizados de emails y tareas para tu fuerza de ventas. <br class="desktopTabletElement">
-Ahorra tiempo en tareas repetitivas y llega a tus clientes <br class="desktopTabletElement">
+Para estar en contacto de forma permanente, programa flujos <br class="DT_e">
+automatizados de emails y tareas para tu fuerza de ventas. <br class="DT_e">
+Ahorra tiempo en tareas repetitivas y llega a tus clientes <br class="DT_e">
 en el momento correcto con la oferta correcta.
                   </p>
                 </div>
@@ -300,9 +300,9 @@ en el momento correcto con la oferta correcta.
 Optimiza con analíticas revelantes
                   </h3>
                   <p class="primaryText  grayColorTexts">
-Ten en tiempo real todas las métricas necesarias para <br class="desktopTabletElement">
+Ten en tiempo real todas las métricas necesarias para <br class="DT_e">
 mejorar tus resultados en marketing digital y ventas.<br class="space">
-Cuenta con dashboards amigables para seguir <br class="desktopTabletElement">
+Cuenta con dashboards amigables para seguir <br class="DT_e">
 enamorando a tus clientes.
                   </p>
                 </div>
@@ -357,9 +357,9 @@ En Escala siempre te damos más
 los Formularios Integrados
                             </span>',
                         'text' => '
-                        Cuando tus visitantes registran su información de contacto <br class="desktopTabletElement">
-en los formularios integrados de tus landing pages, queda <br class="desktopTabletElement">
-guardada automáticamente en el CRM de Escala. Así tienes <br class="desktopTabletElement">
+                        Cuando tus visitantes registran su información de contacto <br class="DT_e">
+en los formularios integrados de tus landing pages, queda <br class="DT_e">
+guardada automáticamente en el CRM de Escala. Así tienes <br class="DT_e">
 mejor control de la data.
                         ',
                         'enableButton' => false,
@@ -373,9 +373,9 @@ WhatsApp Web Escala
                             </span>
                         ',
                         'text' => '
-                          El CRM de Escala te ofrece su integración a tu WhatsApp <br class="desktopTabletElement">
-Web para que puedas convertir a cada contacto nuevo en un <br class="desktopTabletElement">
-lead. Guarda la información de manera automática en tu CRM <br class="desktopTabletElement">
+                          El CRM de Escala te ofrece su integración a tu WhatsApp <br class="DT_e">
+Web para que puedas convertir a cada contacto nuevo en un <br class="DT_e">
+lead. Guarda la información de manera automática en tu CRM <br class="DT_e">
 y gestiona el seguimiento de una manera fácil y efectiva.
                         ',
                         'enableButton' => false,
@@ -387,8 +387,8 @@ y gestiona el seguimiento de una manera fácil y efectiva.
 a escalar con éxito
                             </span>',
                         'text' => '
-                        Nuestro equipo te brinda las herramientas y recursos que <br class="desktopTabletElement">
-necesitas para conseguir resultados con Escala según tus <br class="desktopTabletElement">
+                        Nuestro equipo te brinda las herramientas y recursos que <br class="DT_e">
+necesitas para conseguir resultados con Escala según tus <br class="DT_e">
 objetivos, experiencia y necesidades.
                         ',
                         'enableButton' => false,

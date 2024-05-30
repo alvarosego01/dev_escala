@@ -94,7 +94,7 @@
        'classSection' => 'landing_escala_crm_sin_expertos_2',
        'enableTitle' => true,
        'titlePrincipal' => '
-          <span class="greenBlueColor">El CRM todo-en-uno de Escala <br class="desktopTabletElement"></span>
+          <span class="greenBlueColor">El CRM todo-en-uno de Escala <br class="DT_e"></span>
           Tu Máquina de Marketing y Ventas
        ',
        'subTitlePrincipal' => '
@@ -541,7 +541,7 @@ $parameters = [
             </h2>
 
             <p class="primaryText grayColorTexts">
-              En Escala tu CRM está integrado con todas las herramientas que necesitas para generar <br class="desktopTabletElement">
+              En Escala tu CRM está integrado con todas las herramientas que necesitas para generar <br class="DT_e">
               más demanda, aumentar tus ventas y generar mayor fidelización de tus clientes.
 
             </p>

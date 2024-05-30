@@ -14,9 +14,9 @@
                     ',
             'text' => '
                         <span class="whiteColor">
-                            Logra que tu mensaje sea <br class="desktopTabletElement">
-                            escuchado y que tu negocio crezca <br class="desktopTabletElement">
-                            con nuestra plataforma todo-en-<br class="desktopTabletElement">
+                            Logra que tu mensaje sea <br class="DT_e">
+                            escuchado y que tu negocio crezca <br class="DT_e">
+                            con nuestra plataforma todo-en-<br class="DT_e">
                             uno de email marketing.
                         </span>
                     ',
@@ -89,8 +89,8 @@
                         <p class="principalBigText grayColorTexts">
 
                         <span class="whiteColor">
-                            Logra que tu mensaje sea escuchado y que tu <br class="desktopTabletElement">
-                            negocio crezca con nuestra plataforma todo-<br class="desktopTabletElement">
+                            Logra que tu mensaje sea escuchado y que tu <br class="DT_e">
+                            negocio crezca con nuestra plataforma todo-<br class="DT_e">
                             en-uno de email marketing.
                         </span>
 
@@ -250,8 +250,8 @@
                 'img' => App::setFilePath('/assets/images/gifs/1.Arrastra y suelta_emailMkt.gif'),
                 'title' => 'Arrastra <span>y suelta</span>',
                 'text' => '
-                    Crea increíbles emails que cautivan a tu audiencia en <br class="desktopTabletElement">
-                    cualquier dispositivo con un constructor de emails muy fácil <br class="desktopTabletElement">
+                    Crea increíbles emails que cautivan a tu audiencia en <br class="DT_e">
+                    cualquier dispositivo con un constructor de emails muy fácil <br class="DT_e">
                     de usar y plantillas pre-diseñadas.
                 ',
                 'enableButton' => false,
@@ -273,13 +273,13 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
                 'title' => '
-                    Crea contenido en segundos con <br class="desktopTabletElement">
+                    Crea contenido en segundos con <br class="DT_e">
                     <span>Inteligencia Artificial</span>
                 ',
                 'text' => '
-                    Bríndale a Escala un par de palabras clave y tu intención <br class="desktopTabletElement">
-                    para que te proponga opciones que puedas elegir y revisar <br class="desktopTabletElement">
-                    si lo necesitas. ¡Esto funciona para tanto para el cuerpo del <br class="desktopTabletElement">
+                    Bríndale a Escala un par de palabras clave y tu intención <br class="DT_e">
+                    para que te proponga opciones que puedas elegir y revisar <br class="DT_e">
+                    si lo necesitas. ¡Esto funciona para tanto para el cuerpo del <br class="DT_e">
                     email como para el asunto!
                 ',
                 'enableButton' => false,
@@ -301,13 +301,13 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/3.Automatizaciones_emailMkt.gif'),
                 'title' => '
-                    <span>Automatiza flujos</span> de email y escala <br class="desktopTabletElement">
+                    <span>Automatiza flujos</span> de email y escala <br class="DT_e">
                     operaciones
                 ',
                 'text' =>
                     '
-                    Logra que tus contactos reciban tus mensajes en el <br class="desktopTabletElement">
-                    momento oportuno ¡sin tener que estar pendiente de <br class="desktopTabletElement">
+                    Logra que tus contactos reciban tus mensajes en el <br class="DT_e">
+                    momento oportuno ¡sin tener que estar pendiente de <br class="DT_e">
                     enviarlos! Envía emails <br class="space">
                     <span class="items">
                     <span>
@@ -346,7 +346,7 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/4.Analiticas-small_emailMkt.gif'),
                 'title' => '
-                    Conoce el resultado y <span>optimiza tus <br class="desktopTabletElement">
+                    Conoce el resultado y <span>optimiza tus <br class="DT_e">
                     campañas</span> con analíticas en tiempo real
                 ',
                 'text' =>
@@ -389,13 +389,13 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/5.responsive_emailMkt.gif'),
                 'title' => '
-                    ¡Logra que tus emails se vean bien en <span>todos <br class="desktopTabletElement">
+                    ¡Logra que tus emails se vean bien en <span>todos <br class="DT_e">
                         los dispositivos!
                     </span>
                 ',
                 'text' => '
-                    Encontrarás que Escala facilita el diseño responsive para <br class="desktopTabletElement">
-                    que tu audiencia vea muy bien tus emails en laptops, <br class="desktopTabletElement">
+                    Encontrarás que Escala facilita el diseño responsive para <br class="DT_e">
+                    que tu audiencia vea muy bien tus emails en laptops, <br class="DT_e">
                     celulares y tablets.
                 ',
                 'enableButton' => false,
@@ -420,9 +420,9 @@
                    <span>Dile ¡Adiós!</span> a la bandeja de spam
                 ',
                 'text' => '
-                    Escala tiene la tecnología más avanzada y un equipo de <br class="desktopTabletElement">
-                    expertos que te guían para evitar que tus emails reboten o <br class="desktopTabletElement">
-                    caigan en la bandeja de spam. Así logras que tus emails <br class="desktopTabletElement">
+                    Escala tiene la tecnología más avanzada y un equipo de <br class="DT_e">
+                    expertos que te guían para evitar que tus emails reboten o <br class="DT_e">
+                    caigan en la bandeja de spam. Así logras que tus emails <br class="DT_e">
                     lleguen a donde deben llegar.
                 ',
                 'enableButton' => false,
@@ -445,7 +445,7 @@
                     <div class="containElements">
 
                         <h2 class="title">
-                            <span>Descubre por ti mismo la <br class="mobileSmallElement"> mejor</span> <br class="desktopTabletElement">
+                            <span>Descubre por ti mismo la <br class="mobileSmallElement"> mejor</span> <br class="DT_e">
                             herramienta de email <br class="mobileSmallElement"> marketing
                         </h2>
 
@@ -631,12 +631,12 @@
                             <div class="col-md-12 col-lg-7 column-text">
                                 <p>
                                     “En mi experiencia, <span>
-                                        la venta se logra luego <br class="desktopTabletElement">
+                                        la venta se logra luego <br class="DT_e">
                                         de varios contactos personalizados.
-                                    </span> La <br class="desktopTabletElement">
-                                    gestión inteligente de campañas de emails <br class="desktopTabletElement">
-                                    es una <span>estrategia fundamental</span> para <br class="desktopTabletElement">
-                                    mantenerse en contacto, y quizás el método <br class="desktopTabletElement">
+                                    </span> La <br class="DT_e">
+                                    gestión inteligente de campañas de emails <br class="DT_e">
+                                    es una <span>estrategia fundamental</span> para <br class="DT_e">
+                                    mantenerse en contacto, y quizás el método <br class="DT_e">
                                     de menor costo de todos”.
                                     <br class="space"><br class="space">
 
@@ -679,9 +679,9 @@
 
                         <div class="info">
                             <p class="text">
-                                Nuestro equipo de servicio y <br class="desktopTabletElement">
-                                entrenadores Escala te orientan desde <br class="desktopTabletElement">
-                                el día 1 para que consigas mejores <br class="desktopTabletElement">
+                                Nuestro equipo de servicio y <br class="DT_e">
+                                entrenadores Escala te orientan desde <br class="DT_e">
+                                el día 1 para que consigas mejores <br class="DT_e">
                                 resultados con email marketing.
                                 <br class="space"><br class="space">
                                 <span>
@@ -724,7 +724,7 @@
                 'classSection' => 'landing_emailMarketingCampaigns_2023_11',
                 'enableTitle' => true,
                 'titlePrincipal' => '
-                Qué dicen nuestros clientes sobre las campañas <br class="desktopTabletElement">
+                Qué dicen nuestros clientes sobre las campañas <br class="DT_e">
                 de Email Marketing que crean en Escala
                 ',
                 'subTitlePrincipal' => null,
@@ -756,7 +756,7 @@
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
                         <h2 class="primaryTitle">
-                    Qué dicen nuestros clientes sobre las campañas <br class="desktopTabletElement">
+                    Qué dicen nuestros clientes sobre las campañas <br class="DT_e">
                 de Email Marketing que crean en Escala
 
                 </h2>
@@ -829,7 +829,7 @@
 
                                             ],
                                             [
-                                                'title' => 'Encuentras muchas más herramientas de <br class="desktopTabletElement"> marketing y ventas integradas',
+                                                'title' => 'Encuentras muchas más herramientas de <br class="DT_e"> marketing y ventas integradas',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_2.png'),
 
                                             ],
@@ -844,7 +844,7 @@
 
                                             ],
                                             [
-                                                'title' => 'Implementamos parte de la primera <br class="desktopTabletElement"> campaña por ti ',
+                                                'title' => 'Implementamos parte de la primera <br class="DT_e"> campaña por ti ',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_5.png'),
 
                                             ]

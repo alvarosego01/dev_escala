@@ -46,13 +46,13 @@
       'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
       'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
       'text' => '
-          “Luego de generar una base de datos de clientes <br class="desktopTabletElement">
+          “Luego de generar una base de datos de clientes <br class="DT_e">
           potenciales, <span class="greenBlueColor">
             <strong>
-              tu CRM es la herramienta más <br class="desktopTabletElement">
+              tu CRM es la herramienta más <br class="DT_e">
               importante para convertirlos en clientes fieles
             </strong>
-          </span> <br class="desktopTabletElement">
+          </span> <br class="DT_e">
           y construir relaciones a largo plazo”.
           <br class="space"><br class="space">
             <span class="byam">
@@ -93,11 +93,11 @@
        'classSection' => 'func_escala_crm_2',
        'enableTitle' => true,
        'titlePrincipal' => '
-          <span class="greenBlueColor">El CRM todo-en-uno de Escala <br class="desktopTabletElement"></span>
+          <span class="greenBlueColor">El CRM todo-en-uno de Escala <br class="DT_e"></span>
           Tu Máquina de Marketing y Ventas
        ',
        'subTitlePrincipal' => '
-          En el CRM de Escala están todas las herramientas de marketing digital y ventas integradas, <br class="desktopTabletElement">
+          En el CRM de Escala están todas las herramientas de marketing digital y ventas integradas, <br class="DT_e">
           para que puedas: generar más demanda, aumentar tus ventas y fidelizar más clientes.
        ',
        'overlay' => false,
@@ -211,28 +211,28 @@
                     $elements = array(
                       [
                         'title' => 'Tu CRM está Integrado <span>
-                           a todas las herramientas <br class="desktopTabletElement">
+                           a todas las herramientas <br class="DT_e">
                          de marketing digital y ventas </span>'
 
                       ],
                       [
                         'title' => 'Organiza en un solo lugar: <span>
-                           tus contactos, embudos, <br class="desktopTabletElement">
+                           tus contactos, embudos, <br class="DT_e">
                         flujos y oportunidades </span>'
                       ],
                       [
                         'title' => 'Simple de usar, <span>
-                          diseñado por expertos para vendedores <br class="desktopTabletElement">
+                          diseñado por expertos para vendedores <br class="DT_e">
 y equipos de marketing </span>'
                       ],
                       [
                         'title' => 'Gestiona tu base de datos <span>
-                          y guarda automáticamente <br class="desktopTabletElement">
+                          y guarda automáticamente <br class="DT_e">
 la data con formularios integrados desde tus landing pages </span>'
                       ],
                       [
                         'title' => 'Segmenta y personaliza tus comunicaciones <span>
-                          con etiquetas <br class="desktopTabletElement">
+                          con etiquetas <br class="DT_e">
 avanzadas. Ten trazabilidad e historial de tus contactos </span>'
                       ],
                       [
@@ -241,22 +241,22 @@ avanzadas. Ten trazabilidad e historial de tus contactos </span>'
                       ],
                       [
                         'title' => 'Potencia la productividad de tu equipo <span>
-                           con la asignación <br class="desktopTabletElement">
+                           con la asignación <br class="DT_e">
 de tareas, actividades y recordatorios </span>'
                       ],
                       [
                         'title' => 'Automatiza tu flujo de acciones  <span>
-                          según la segmentación <br class="desktopTabletElement">
+                          según la segmentación <br class="DT_e">
 de tus contactos </span>'
                       ],
                       [
                         'title' => 'Analiza tus resultados <span>
-                          de ventas con dashboards <br class="desktopTabletElement">
+                          de ventas con dashboards <br class="DT_e">
 amigables y optimiza tus acciones </span>'
                       ],
                       [
                         'title' => 'Fideliza más clientes <span>
-                          nutriendo tus relaciones <br class="desktopTabletElement">
+                          nutriendo tus relaciones <br class="DT_e">
 a largo plazo </span>'
                       ]
                     );
@@ -304,11 +304,11 @@ a largo plazo </span>'
        'classSection' => 'func_escala_crm_4',
        'enableTitle' => true,
        'titlePrincipal' => '
-        <span style="color: #C5E5E9">Descubre las funcionalidades del Plan PRO <br class="desktopTabletElement"></span>
+        <span style="color: #C5E5E9">Descubre las funcionalidades del Plan PRO <br class="DT_e"></span>
         de Escala y personaliza tu comunicación
        ',
        'subTitlePrincipal' => '
-          Al adquirir el plan Pro de Escala cuentas con funcionalidades más avanzadas para que <br class="desktopTabletElement">
+          Al adquirir el plan Pro de Escala cuentas con funcionalidades más avanzadas para que <br class="DT_e">
           puedas personalizar tus acciones de marketing, ventas y aumentar tus conversiones.
        ',
        'overlay' => false,
@@ -325,9 +325,9 @@ a largo plazo </span>'
                 tus flujos inteligentes
                ',
                'text' => '
-                  Con las bifurcaciones puedes automatizar todas tus <br class="desktopTabletElement">
-                  acciones de marketing digital y ventas según el <br class="desktopTabletElement">
-                  comportamiento de tus contactos.. Creando patrones <br class="desktopTabletElement">
+                  Con las bifurcaciones puedes automatizar todas tus <br class="DT_e">
+                  acciones de marketing digital y ventas según el <br class="DT_e">
+                  comportamiento de tus contactos.. Creando patrones <br class="DT_e">
                   de flujos dependiendo de condicionantes.
                ',
                'enableButton' => false,
@@ -339,9 +339,9 @@ a largo plazo </span>'
                 está a punto de comprar
                ',
                'text' => '
-                  Ahora podrás darle un puntaje a tus contactos por <br class="desktopTabletElement">
-                  sus respuestas a tus acciones de marketing y ventas <br class="desktopTabletElement">
-                  comprendiendo si están: fríos, tibios o calientes para <br class="desktopTabletElement">
+                  Ahora podrás darle un puntaje a tus contactos por <br class="DT_e">
+                  sus respuestas a tus acciones de marketing y ventas <br class="DT_e">
+                  comprendiendo si están: fríos, tibios o calientes para <br class="DT_e">
                   cerrar la venta.
                ',
                'enableButton' => false,
@@ -368,8 +368,8 @@ a largo plazo </span>'
         'img' => App::setFilePath('/assets/images/person/soporte-equipo-escala-clientes.png'),
 'img_alt' => 'Foto de una pareja mirando su computador portátil sorprendidos en referencia a la calidad del acompañamiento que brinda el equipo de soporte de Escala',
         'text' => '
-            Con el Plan PRO de Escala, nuestros especialistas en <br class="desktopTabletElement">
-            marketing digital y ventas te guiarán paso a paso para <br class="desktopTabletElement">
+            Con el Plan PRO de Escala, nuestros especialistas en <br class="DT_e">
+            marketing digital y ventas te guiarán paso a paso para <br class="DT_e">
             configurar tu CRM e implementar con éxito tu estrategia digital.
         ',
         'enableButton' => false,
@@ -470,20 +470,20 @@ $parameters = [
 
           <h3 class="secondaryTitle">
 
-            Nuestro CRM es tu gerente de <br class="desktopTabletElement">
-            ventas: él se ocupa de gerenciar <br class="desktopTabletElement">
-            tu proceso y tú te enfocas en <br class="desktopTabletElement">
+            Nuestro CRM es tu gerente de <br class="DT_e">
+            ventas: él se ocupa de gerenciar <br class="DT_e">
+            tu proceso y tú te enfocas en <br class="DT_e">
             hacer crecer tu empresa
 
           </h3>
 
           <p class="text">
             Tu CRM de Escala es tu máquina de ventas, en un solo lugar puedes gerenciar tus <br
-              class="desktopTabletElement">
+              class="DT_e">
             contactos, segmentar y personalizar tus acciones de ventas y marketing y darle <br
-              class="desktopTabletElement">
+              class="DT_e">
             seguimiento a cada una de tus oportunidades abiertas. Además hace más productivo a <br
-              class="desktopTabletElement">
+              class="DT_e">
             tu equipo de ventas asignándoles tareas, actividades y recordatorios para convertir más.
 
           </p>
@@ -538,7 +538,7 @@ $parameters = [
             </h2>
 
             <p class="primaryText grayColorTexts">
-              En Escala tu CRM está integrado con todas las herramientas que necesitas para generar <br class="desktopTabletElement">
+              En Escala tu CRM está integrado con todas las herramientas que necesitas para generar <br class="DT_e">
               más demanda, aumentar tus ventas y generar mayor fidelización de tus clientes.
 
             </p>

@@ -153,8 +153,8 @@
                     'backgroundImageFile' => null,
                     'enableTitle' => false,
                     'img' => App::setFilePath('/assets/images/person/callcenter1.png'),
-                    'title' => '<span class="whiteColor">Tu empresa también <br class="desktopTabletElement"> <span class="blueLightColor10">puede crecer con Escala</span></span>',
-                    'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas <br class="desktopTabletElement"> para ayudarte a acelerar el crecimiento de tu negocio. Estamos <br class="desktopTabletElement"> aquí para acompañarte en todo tu camino al éxito y apoyarte en <br class="desktopTabletElement"> cada momento.',
+                    'title' => '<span class="whiteColor">Tu empresa también <br class="DT_e"> <span class="blueLightColor10">puede crecer con Escala</span></span>',
+                    'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas <br class="DT_e"> para ayudarte a acelerar el crecimiento de tu negocio. Estamos <br class="DT_e"> aquí para acompañarte en todo tu camino al éxito y apoyarte en <br class="DT_e"> cada momento.',
                     'enableButton' => true,
                     'urlButton' => '#lead-form',
                     'textButton' => 'Hablar con un asesor',
@@ -178,7 +178,7 @@
                     ],
                     'classSection' => 'casoExitoPrincipal4',
                     'enableTitle' => true,
-                    'titlePrincipal' => 'Somos la plataforma más completa y fácil de usar, <br class="desktopTabletElement"> <span class="orangeColor">lo dicen nuestros clientes</span>',
+                    'titlePrincipal' => 'Somos la plataforma más completa y fácil de usar, <br class="DT_e"> <span class="orangeColor">lo dicen nuestros clientes</span>',
                 ];
 
             @endphp

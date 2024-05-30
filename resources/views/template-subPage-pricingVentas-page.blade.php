@@ -67,7 +67,7 @@ $parameters = array(
   de nuestros planes
   </span>',
  'subTitlePrincipal' => '
-  Nuestros planes tienen las funcionalidades de marketing digital y ventas <br class="desktopTabletElement">
+  Nuestros planes tienen las funcionalidades de marketing digital y ventas <br class="DT_e">
   para acelerar el crecimiento de tu negocio. Solo inviertes en lo que necesitas.
  '
 ) ;
@@ -89,7 +89,7 @@ $parameters = array(
         </h2>
 
         <p class="primaryText grayColorTexts">
-          No solamente somos una plataforma fácil de usar, somos un equipo de servicio al cliente <br class="desktopTabletElement"> comprometido con el crecimiento de tu negocio.
+          No solamente somos una plataforma fácil de usar, somos un equipo de servicio al cliente <br class="DT_e"> comprometido con el crecimiento de tu negocio.
         </p>
 
 
@@ -514,10 +514,10 @@ $parameters = array(
 
             <p class="text primaryText grayColorTexts">
 
-              Escala tiene el email builder más amigable <br class="desktopTabletElement">
-              que he utilizado en los últimos años, y su <br class="desktopTabletElement">
-              equipo está comprometido a mantener la <br class="desktopTabletElement">
-              plataforma en constante actualización en <br class="desktopTabletElement">
+              Escala tiene el email builder más amigable <br class="DT_e">
+              que he utilizado en los últimos años, y su <br class="DT_e">
+              equipo está comprometido a mantener la <br class="DT_e">
+              plataforma en constante actualización en <br class="DT_e">
               el dinámico mundo digital.
 
             </p>

@@ -95,8 +95,8 @@
     'videoEmbed' =>  App::setFilePath('/assets/videos/am_home1.mp4'),
     'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
     'text' => '
-  Escala es la Plataforma de CRM todo-en-uno creada por <br class="desktopTabletElement">
-  expertos de marketing, ventas y fidelización para ayudar a las <br class="desktopTabletElement">
+  Escala es la Plataforma de CRM todo-en-uno creada por <br class="DT_e">
+  expertos de marketing, ventas y fidelización para ayudar a las <br class="DT_e">
   empresas de habla hispana a alcanzar el éxito.
 
   <div class="ottoSpecialButton">
@@ -139,7 +139,7 @@
           [
               'img' => App::setFilePath('/assets/images/illustrations/team/home_acelera_el_exito-1.png'),
               'title' => '<span class="grayColorTexts5">
-                   Da a conocer <br class="desktopTabletElement">
+                   Da a conocer <br class="DT_e">
           tu negocio
                   </span>',
               'enableButton' => false,
@@ -155,7 +155,7 @@
           [
               'img' => App::setFilePath('/assets/images/illustrations/team/home_acelera_el_exito-3.png'),
               'title' => '<span class="grayColorTexts5">
-                  Cierra más <br class="desktopTabletElement">
+                  Cierra más <br class="DT_e">
   ventas
                   </span>',
               'enableButton' => false,
@@ -163,7 +163,7 @@
           [
               'img' => App::setFilePath('/assets/images/illustrations/team/home_acelera_el_exito-4.png'),
               'title' => '<span class="grayColorTexts5">
-                  Fideliza <br class="desktopTabletElement">
+                  Fideliza <br class="DT_e">
   a tus clientes
                   </span>',
               'enableButton' => false,
@@ -362,7 +362,7 @@
     Los expertos en marketing digital lo dicen: “Escala es muy fácil de usar”
   </h2>
   <p class="primaryText grayColorTexts">
-    Descubre en estos videos cómo los expertos de marketing digital y ventas de toda <br class="desktopTabletElement">
+    Descubre en estos videos cómo los expertos de marketing digital y ventas de toda <br class="DT_e">
     Latinoamérica le sacan provecho a cada funcionalidad de Escala.
   </p>
 
@@ -414,7 +414,7 @@
           <div class="info">
 
             <h3 class="titleVideo">
-              Cómo crear una landing page <br class="desktopTabletElement">
+              Cómo crear una landing page <br class="DT_e">
               profesional sin programar con Escala
             </h3>
 
@@ -465,7 +465,7 @@
           <div class="info">
 
             <h3 class="titleVideo">
-              Herramienta de marketing <br class="desktopTabletElement">
+              Herramienta de marketing <br class="DT_e">
               todo en uno 2022
             </h3>
 
@@ -512,7 +512,7 @@
           <div class="info">
 
             <h3 class="titleVideo">
-              ¿Qué es un CRM y para qué sirve? <br class="desktopTabletElement">
+              ¿Qué es un CRM y para qué sirve? <br class="DT_e">
               Aumenta tus ventas con Escala
             </h3>
 
@@ -578,7 +578,7 @@
         <div class="info">
 
           <h3 class="titleVideo">
-            Cómo CREAR una LANDING PAGE <br class="desktopTabletElement">
+            Cómo CREAR una LANDING PAGE <br class="DT_e">
             profesional sin programar con ESCALA
           </h3>
 
@@ -623,7 +623,7 @@
       <div class="info">
 
         <h3 class="titleVideo">
-          Herramienta de marketing <br class="desktopTabletElement">
+          Herramienta de marketing <br class="DT_e">
           todo en uno 2022
         </h3>
 
@@ -667,7 +667,7 @@
       <div class="info">
 
         <h3 class="titleVideo">
-          ¿Qué es un CRM y para qué sirve? <br class="desktopTabletElement">
+          ¿Qué es un CRM y para qué sirve? <br class="DT_e">
           Aumenta tus ventas con Escala
         </h3>
 
@@ -850,8 +850,8 @@
           <span class="greenBlueColor">Te acompañamos desde el primer día</span>
           ',
           'subTitlePrincipal' => '
-            En Escala te asignamos un gerente de cuentas, quien te guiará paso a paso para que implementes tu <br class="desktopTabletElement">
-            estrategia digital con éxito y maximices el uso de nuestra plataforma. Además, dispones de contenido de <br class="desktopTabletElement">
+            En Escala te asignamos un gerente de cuentas, quien te guiará paso a paso para que implementes tu <br class="DT_e">
+            estrategia digital con éxito y maximices el uso de nuestra plataforma. Además, dispones de contenido de <br class="DT_e">
             formación, atención oportuna y servicios complementarios adaptados a tus necesidades.
 
           ',
@@ -868,11 +868,11 @@
                   Implementación Guiada
                   ',
                   'text' => '
-                    Obtén el acompañamiento de un gerente de cuentas <br class="desktopTabletElement">
-                    especializado en marketing digital, ventas y fidelización, <br class="desktopTabletElement">
-                    asignado a tu negocio. Cuenta con sesiones <br class="desktopTabletElement">
-                    estratégicas y configuraciones personalizadas, análisis <br class="desktopTabletElement">
-                    de tus resultados para optimizar tu progreso y <br class="desktopTabletElement">
+                    Obtén el acompañamiento de un gerente de cuentas <br class="DT_e">
+                    especializado en marketing digital, ventas y fidelización, <br class="DT_e">
+                    asignado a tu negocio. Cuenta con sesiones <br class="DT_e">
+                    estratégicas y configuraciones personalizadas, análisis <br class="DT_e">
+                    de tus resultados para optimizar tu progreso y <br class="DT_e">
                     migración de data para poner tu CRM a punto.
                   ',
                   'enableButton' => false,
@@ -883,11 +883,11 @@
                   Escala Academy
                   ',
                   'text' => '
-                      Conviértete en un experto de marketing digital y <br class="desktopTabletElement">
-                      ventas con formación en vivo. Con capacitaciones <br class="desktopTabletElement">
-                      basadas en casos prácticos y estratégicos según tu <br class="desktopTabletElement">
-                      plan. En Escala te damos recursos autoguiados: guías <br class="desktopTabletElement">
-                      prácticas, webinars grabados y tutoriales para <br class="desktopTabletElement">
+                      Conviértete en un experto de marketing digital y <br class="DT_e">
+                      ventas con formación en vivo. Con capacitaciones <br class="DT_e">
+                      basadas en casos prácticos y estratégicos según tu <br class="DT_e">
+                      plan. En Escala te damos recursos autoguiados: guías <br class="DT_e">
+                      prácticas, webinars grabados y tutoriales para <br class="DT_e">
                       aprovechar nuestra plataforma.
                   ',
                   'enableButton' => false,
@@ -898,8 +898,8 @@
                   Canales de comunicación
                   ',
                   'text' => '
-                    Ten la atención oportuna comunicándote <br class="desktopTabletElement">
-                    constantemente con el equipo de Escala por chat, <br class="desktopTabletElement">
+                    Ten la atención oportuna comunicándote <br class="DT_e">
+                    constantemente con el equipo de Escala por chat, <br class="DT_e">
                     email y whatsApp de servicio.
                   ',
                   'enableButton' => false,
@@ -910,8 +910,8 @@
                   Servicios Complementarios
                   ',
                   'text' => '
-                    Disfruta de sesiones de configuración personalizadas <br class="desktopTabletElement">
-                    y el diseño de tus plantillas de landing pages y <br class="desktopTabletElement">
+                    Disfruta de sesiones de configuración personalizadas <br class="DT_e">
+                    y el diseño de tus plantillas de landing pages y <br class="DT_e">
                     correos electrónicos adaptados a tu empresa.
                   ',
                   'enableButton' => false,

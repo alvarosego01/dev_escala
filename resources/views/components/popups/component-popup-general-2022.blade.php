@@ -74,7 +74,7 @@
                                             @endif
                                         @else
                                             <h3 style="color: #36768A" class="thirdTitle">
-                                                Registra tus datos y obtén 10 días <br class="desktopTabletElement">
+                                                Registra tus datos y obtén 10 días <br class="DT_e">
                                                 de nuestra plataforma sin costo alguno
                                             </h3>
                                         @endif
@@ -178,8 +178,8 @@
                                             @endif
                                         @else
                                             <h3 style="color: white" class="thirdTitle">
-                                                La plataforma todo en uno de marketing <br class="desktopTabletElement">
-                                                digital y ventas que impulsará <br class="desktopTabletElement">
+                                                La plataforma todo en uno de marketing <br class="DT_e">
+                                                digital y ventas que impulsará <br class="DT_e">
                                                 el crecimiento de tu negocio
                                             </h3>
                                         @endif

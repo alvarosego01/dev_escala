@@ -219,8 +219,8 @@
                                     Atrae
                                 </h3>
                                 <p class="text">
-                                    A más clientes ideales e inicia la relación comercial <br class="desktopTabletElement">
-                                    capturando su contacto con anuncios digitales, landing <br class="desktopTabletElement">
+                                    A más clientes ideales e inicia la relación comercial <br class="DT_e">
+                                    capturando su contacto con anuncios digitales, landing <br class="DT_e">
                                     pages y formularios
                                 </p>
                                 <h3 class="secondaryTitle">
@@ -228,7 +228,7 @@
                                 </h3>
                                 <p class="text">
                                     La relación con cada contacto usando páginas de confirmación, <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                     emails automatizados, WhatsApp, flujos y más
 
                                 </p>
@@ -236,8 +236,8 @@
                                     Convierte
                                 </h3>
                                 <p class="text">
-                                    Contactos en clientes fieles que recompran y refieren <br class="desktopTabletElement">
-                                    usando el CRM para gestionar procesos, escalar <br class="desktopTabletElement">
+                                    Contactos en clientes fieles que recompran y refieren <br class="DT_e">
+                                    usando el CRM para gestionar procesos, escalar <br class="DT_e">
                                     operaciones y optimizar resultados continuamente
                                 </p>
 
@@ -600,7 +600,7 @@
                             </h2>
                             <p class="primaryText grayColorTexts">
                                 Desde el día 1, tú y tu equipo reciben el apoyo de un Gerente de Éxito asignado que los guía
-                                paso a paso para que <br class="desktopTabletElement">
+                                paso a paso para que <br class="DT_e">
                                 aprovechen al máximo la plataforma. ¿Nuestro objetivo? Que tu empresa crezca rentablemente
                                 con Escala
                             </p>
@@ -942,9 +942,9 @@
                                     con embudos que conviertan”
                                 </h3>
                                 <p class="text">
-                                    A más clientes ideales e inicia la relación comercial <br class="desktopTabletElement">
+                                    A más clientes ideales e inicia la relación comercial <br class="DT_e">
                                     capturando su contacto con anuncios digitales, landing <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                     pages y formularios
                                 </p>
 
@@ -977,12 +977,12 @@
                             <div class="info col-md-12 col-lg-6">
 
                                 <small>
-                                    ¿Brindas servicios de marketing, <br class="desktopTabletElement">
+                                    ¿Brindas servicios de marketing, <br class="DT_e">
                                     ventas o consultoría de negocios?
                                 </small>
                                 <h3 class="secondaryTitle">
-                                    Multiplica tu impacto e <br class="desktopTabletElement">
-                                    ingresos convirtiéndote en <br class="desktopTabletElement">
+                                    Multiplica tu impacto e <br class="DT_e">
+                                    ingresos convirtiéndote en <br class="DT_e">
                                     <span>Aliado de Escala</span>
                                 </h3>
                                 <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">

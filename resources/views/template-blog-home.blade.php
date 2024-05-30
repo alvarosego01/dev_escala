@@ -79,7 +79,7 @@ para empoderar tu formación.
                 @endslot
 
                 @slot('subTitlePrincipal')
-Dale un vistazo a los artículos más leídos. Tendencias de las principales industrias, mejores <br class="desktopTabletElement">
+Dale un vistazo a los artículos más leídos. Tendencias de las principales industrias, mejores <br class="DT_e">
 prácticas y conocimientos estratégicos sobre marketing, ventas y fidelización.
                 @endslot
 
