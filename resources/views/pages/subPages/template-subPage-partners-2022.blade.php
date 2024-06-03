@@ -118,8 +118,8 @@
                       <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
                     </div>
                     Conseguir más clientes
-                    <br class="desktopElement">
-                    <br class="desktopElement">
+                    <br class="D_e">
+                    <br class="D_e">
                   </h3>
 
                   <p class="text">

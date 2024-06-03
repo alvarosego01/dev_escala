@@ -151,7 +151,7 @@
 
 
             <p class="primaryText grayColorTexts">
-              <strong>Escala</strong> te permite implementar embudos de venta: <br class="space"> la estrategia probada para hacer crecer empresas de <br class="mobileElement"> manera rentable, sostenible y escalable
+              <strong>Escala</strong> te permite implementar embudos de venta: <br class="space"> la estrategia probada para hacer crecer empresas de <br class="MT_e"> manera rentable, sostenible y escalable
             </p>
 
           </div>
@@ -400,7 +400,7 @@
           <div class="containElements">
 
             <h2 class="primaryTitle blackColor">
-              5 ventajas de potenciar <br class="mobileElement"> tu negocio con <span class="orangeColor">Escala</span>
+              5 ventajas de potenciar <br class="MT_e"> tu negocio con <span class="orangeColor">Escala</span>
             </h2>
 
           </div>
@@ -425,7 +425,7 @@
                     <span class=" DT_e greenBlueColor">
                       Ernesto Valery / Director Huella Studio
                     </span>
-                    <span class="mobileSmallElement greenBlueColor">
+                    <span class="M_e greenBlueColor">
                       Ernesto Valery <br class="space">
                       Director Huella Studio
                     </span>
@@ -449,7 +449,7 @@
                     <span class="DT_e greenBlueColor">
                       Michelle Palaez / Fundadora Infinito Producciones
                     </span>
-                    <span class="mobileSmallElement greenBlueColor">
+                    <span class="M_e greenBlueColor">
                       Michelle Palaez <br class="space">
                       Fundadora Infinito Producciones
                     </span>
@@ -491,7 +491,7 @@
                     <span class="DT_e greenBlueColor">
                       Michelle Palaez / Fundadora Infinito Producciones
                     </span>
-                    <span class="mobileSmallElement greenBlueColor">
+                    <span class="M_e greenBlueColor">
                       Michelle Palaez <br class="space"> Fundadora Infinito Producciones
                     </span>
                   </p>
@@ -599,7 +599,7 @@
 
             <div class="testimonial col-md-12 col-lg-6 ">
 
-              <div class="containElements desktopElement">
+              <div class="containElements D_e">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Agencia de Publicidad</h3>
                   <span class="tag greenBlueColor">El Salvador</span>
@@ -623,7 +623,7 @@
                 </div>
 
               </div>
-              <div class="containElements mobileElement">
+              <div class="containElements MT_e">
 
                 <div class="referElements">
                   <div class="containerImage">
@@ -655,7 +655,7 @@
 
             </div>
             <div class="testimonial col-md-12 col-lg-6 ">
-              <div class="containElements desktopElement">
+              <div class="containElements D_e">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Agencia de Marketing</h3>
                   <span class="tag greenBlueColor">México</span>
@@ -679,7 +679,7 @@
                 </div>
 
               </div>
-              <div class="containElements mobileElement">
+              <div class="containElements MT_e">
 
                 <div class="referElements">
                   <div class="containerImage">
@@ -712,7 +712,7 @@
           </div>
           <div class="groupElements row">
             <div class="testimonial col-md-12 col-lg-6 ">
-              <div class="containElements desktopElement">
+              <div class="containElements D_e">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Turismo</h3>
                   <span class="tag greenBlueColor">Venezuela</span>
@@ -736,7 +736,7 @@
                 </div>
 
               </div>
-              <div class="containElements mobileElement">
+              <div class="containElements MT_e">
 
                 <div class="referElements">
                   <div class="containerImage">
@@ -765,7 +765,7 @@
             </div>
             </div>
             <div class="testimonial col-md-12 col-lg-6 ">
-              <div class="containElements desktopElement">
+              <div class="containElements D_e">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Agencia de Comunicaciones</h3>
                   <span class="tag greenBlueColor">Costa Rica</span>
@@ -791,7 +791,7 @@
                 </div>
 
               </div>
-              <div class="containElements mobileElement">
+              <div class="containElements MT_e">
 
                 <div class="referElements">
                   <div class="containerImage">
@@ -828,7 +828,7 @@
           <div class="groupElements row">
             <div class="testimonial col-md-12 col-lg-6 ">
 
-              <div class="containElements desktopElement">
+              <div class="containElements D_e">
 
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Academia de Coaching</h3>
@@ -857,7 +857,7 @@
                 </div>
 
               </div>
-              <div class="containElements mobileElement">
+              <div class="containElements MT_e">
 
                 <div class="referElements">
                   <div class="containerImage">
@@ -893,7 +893,7 @@
             </div>
             <div class="testimonial col-md-12 col-lg-6 ">
 
-              <div class="containElements desktopElement">
+              <div class="containElements D_e">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Entretenimiento Deportivo</h3>
                   <span class="tag greenBlueColor">Venezuela</span>
@@ -917,7 +917,7 @@
                 </div>
 
               </div>
-              <div class="containElements mobileElement">
+              <div class="containElements MT_e">
 
                 <div class="referElements">
                   <div class="containerImage">
@@ -956,7 +956,7 @@
         </section>
 
 
-        <section class="mobileElement showMore innerSectionElement sct3">
+        <section class="MT_e showMore innerSectionElement sct3">
 
           <div class="containElements">
 

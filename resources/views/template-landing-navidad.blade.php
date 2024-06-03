@@ -90,7 +90,7 @@
               <section class="innerSectionElement">
 
                 <h2 class="primaryTitle whiteColor">
-                  ¡Descubre cuán fácil es diseñar y <br class="mobileElement"> publicar landing pages en Escala!
+                  ¡Descubre cuán fácil es diseñar y <br class="MT_e"> publicar landing pages en Escala!
                 </h2>
 
                 <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -132,10 +132,10 @@
   'subTitle' => '<strong class="subtitle">Conoce Escala</strong>',
   'img1' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
   'title1' => 'Multiplica las visitas <br class="space">con anuncios digitales</span>',
-  'desc1' => 'Comienza a generar tráfico a tu landing <br> page. <br class="mobileElement"> Crea, publica y gestiona <br> campañas de anuncios <br class="mobileElement"> digitales <br> directamente desde Escala.',
+  'desc1' => 'Comienza a generar tráfico a tu landing <br> page. <br class="MT_e"> Crea, publica y gestiona <br> campañas de anuncios <br class="MT_e"> digitales <br> directamente desde Escala.',
   'img2' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
   'title2' => 'Gestiona y organiza</span> <br class="space"> la información <span class="greenBlueColor">de tus contactos</span>',
-  'desc2' => 'Empodera a tu equipo de ventas con el CRM <br> más <br class="mobileElement"> amigable y fácil de usar. Incrementa la <br> productividad <br class="mobileElement"> planificando actividades y <br> mantén comunicación <br class="mobileElement"> constante con tus leads.',
+  'desc2' => 'Empodera a tu equipo de ventas con el CRM <br> más <br class="MT_e"> amigable y fácil de usar. Incrementa la <br> productividad <br class="MT_e"> planificando actividades y <br> mantén comunicación <br class="MT_e"> constante con tus leads.',
   'img3' => App::setFilePath('/assets/images/illustrations/others/icono-12 1.png'),
   'title3' => '<span class="greenBlueColor">Envía Emails</span> <br class="space"> profesionales',
   'desc3' => 'Nutre la relación con tus contactos enviando <br class="space"> efectivas campañas de emails. Con nuestras <br class="space"> plantillas prediseñadas logras enviar masivamente <br class="space"> mensajes personalizados con tan solo un clic.',
@@ -144,7 +144,7 @@
   'desc4' => 'Nunca más realices tareas repetitivas de <br class="space"> marketing digital y ventas. Programa <br class="space"> recordatorios, acciones y mensajes que <br class="space"> aumentan tu productividad.',
   'img5' => App::setFilePath('/assets/images/illustrations/others/icono-15 1.png'),
   'title5' => 'Ten la visibilidad de los <br class="space"> resultados de tu negocio',
-  'desc5' => 'Lo que no se mide, no mejora. Escala te da <br class="space"> las analíticas necesarias en dashboards <br class="space"> amigables para que optimices tus <br> esfuerzos <br class="mobileElement"> de venta y marketing.',
+  'desc5' => 'Lo que no se mide, no mejora. Escala te da <br class="space"> las analíticas necesarias en dashboards <br class="space"> amigables para que optimices tus <br> esfuerzos <br class="MT_e"> de venta y marketing.',
  ) ;
 @endphp
 

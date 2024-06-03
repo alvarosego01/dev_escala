@@ -397,7 +397,7 @@ aumentar tu conversión y retención.
                 'title' => '<span style="color: #150D27" >
 Envía Emails <br class="DT_e">
 profesionales
-<br class="desktopElement"><br class="desktopElement">
+<br class="D_e"><br class="D_e">
                 </span>',
                 'text' => '
 Nutre la relación con tus contactos enviando efectivas <br class="DT_e">

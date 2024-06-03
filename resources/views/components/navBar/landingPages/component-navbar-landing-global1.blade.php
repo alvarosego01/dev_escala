@@ -42,7 +42,7 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
                 </div>
 
 
-                <div class="mobileElement">
+                <div class="MT_e">
 
                     <div style="display: flex; flex-direction: row" class="buttonSections">
 
@@ -58,7 +58,7 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
         ]) !!}
 
 
-                        {{-- <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button">
+                        {{-- <button onclick="_openSideNav('open')" class="MT_e toggleSideMenu" type="button">
 
                             <i class="fas fa-bars "></i>
 
@@ -66,7 +66,7 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
      --}}
                     </div>
                 </div>
-                <div class="desktopElement">
+                <div class="D_e">
                     <div class="menusSection" id="main-menu">
 
 

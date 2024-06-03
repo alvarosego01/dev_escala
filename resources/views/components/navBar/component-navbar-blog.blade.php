@@ -34,7 +34,7 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
                     </a>
                 </div>
 
-                <div class="mobileElement">
+                <div class="MT_e">
 
                     <div style="display: flex; flex-direction: row" class="buttonSections">
 
@@ -51,7 +51,7 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
 ]) !!}
 
 
-                        <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button">
+                        <button onclick="_openSideNav('open')" class="MT_e toggleSideMenu" type="button">
 
                             <i class="fas fa-bars    "></i>
 
@@ -59,7 +59,7 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
 
                     </div>
                 </div>
-                <div class="desktopElement">
+                <div class="D_e">
 
                     <div class="menusSection" id="main-menu">
 
@@ -103,8 +103,8 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
 
 </header>
 
-{{-- desktopElement --}}
-{{-- mobileElement --}}
+{{-- D_e --}}
+{{-- MT_e --}}
 
 
 <div class=" animate__animated animate__faster" id="sideNavBar">
@@ -123,7 +123,7 @@ if (is_page() != null && is_page() == 1 && get_post_type() == 'page') {
 
             </div>
 
-            <div class="mobileSmallElement logo">
+            <div class="M_e logo">
                 <a class="navbar-brand" href="{!! home_url() !!}">
                     <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
                 </a>

@@ -839,8 +839,8 @@
                                 <img src="{!! App::setFilePath('/assets/images/illustrations/otto/landing_crm_aut_wa_07.png') !!}" loading="lazy">
                             </div>
                             <div class="containerImage info">
-                                <img class="desktopElement" src="{!! App::setFilePath('/assets/images/illustrations/others/landing_crm_automat_wa_infoCards.png') !!}" loading="lazy">
-                                <img class="mobileElement" src="{!! App::setFilePath('/assets/images/illustrations/others/landing_crm_automat_wa_infoCards_mobile.png') !!}" loading="lazy">
+                                <img class="D_e" src="{!! App::setFilePath('/assets/images/illustrations/others/landing_crm_automat_wa_infoCards.png') !!}" loading="lazy">
+                                <img class="MT_e" src="{!! App::setFilePath('/assets/images/illustrations/others/landing_crm_automat_wa_infoCards_mobile.png') !!}" loading="lazy">
                             </div>
 
                         </div>

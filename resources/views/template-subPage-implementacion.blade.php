@@ -101,13 +101,13 @@
                                 Cómo funciona: <br class="space">
                                 <span class="greenBlueColor">4 Fases que culminas a tu ritmo</span>
                             </h2>
-                            <p class="primaryText grayColorTexts desktopElement">
+                            <p class="primaryText grayColorTexts D_e">
                                 Una vez priorices tu objetivo y definas los KPI’s para medir tu “éxito”, tu gerente te apoyará a definir un cronograma de acciones para que tú y tu equipo <br class="DT_e">
                                 puedan implementar su estrategia, logrando sus metas. Durante el proceso, tienes hasta 8 horas de sesiones privadas con tu gerente para que <br class="DT_e">
                                 programes según tus necesidades, asegurándote maximizar el uso de nuestras herramientas.
 
                             </p>
-                            <p class="primaryText grayColorTexts mobileElement">
+                            <p class="primaryText grayColorTexts MT_e">
                                 Una vez priorices tu objetivo y definas los KPI’s <br class="tabletElement">
                                 para medir tu “éxito”, tu gerente te apoyará a <br class="tabletElement">
                                 definir un cronograma de acciones para que tú y tu <br class="tabletElement">
@@ -120,7 +120,7 @@
                         </div>
                     </section>
                     <section class="innerSectionElement sct2">
-                        <div class="containElements desktopElement">
+                        <div class="containElements D_e">
                             {{-- <div class="image">
                                 <div class="containerImage">
                                     <img alt="Escala implementación" src="{!! App::setFilePath('/assets/images/illustrations/others/implementacion_tabla.png') !!}" alt="" loading="lazy">
@@ -301,7 +301,7 @@
 
 
                         </div>
-                        <div class="containElements mobileElement">
+                        <div class="containElements MT_e">
 
                             <div class="tableImplementMobile">
 
@@ -937,7 +937,7 @@ optimizar comunicaciones
                             Estrategas de marketing, ventas y fidelización <br class="DT_e">
                             analizan tus resultados y comparten <br class="DT_e">
                             sugerencias para optimizarlos.
-                            <br class="desktopElement"><br class="desktopElement">
+                            <br class="D_e"><br class="D_e">
                             ',
                             'enableButton' => false,
                             'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',

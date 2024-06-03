@@ -258,8 +258,8 @@ El CRM de marketing y ventas <br class="space">
                         'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_4.png'),
                         'title' => '
               Reduce costos operativos
-              <br class="desktopElement">
-              <br class="desktopElement">
+              <br class="D_e">
+              <br class="D_e">
                ',
                         'text' => '
               Ahorra recursos en el proceso <br class="DT_e">

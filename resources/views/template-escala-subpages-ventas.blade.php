@@ -41,7 +41,7 @@ $parameters = [
     'classSection' => 'escalaVentas2Section1',
     'enableTitle' => true,
     'titlePrincipal' => '
-    ¡Que no se te escape <br class="mobileElement"><span class="greenBlueColor">ningún lead!</span>
+    ¡Que no se te escape <br class="MT_e"><span class="greenBlueColor">ningún lead!</span>
     ',
     'subTitlePrincipal' => 'Con las funcionalidades de ventas de <strong>Escala</strong> podrás lograr:',
     'overlay' => false,

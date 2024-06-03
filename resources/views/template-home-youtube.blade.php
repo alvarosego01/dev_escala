@@ -15,7 +15,7 @@
      'overlay' => false,
      'classSection' => 'threeCol homeSection0 oldHome',
      'title' => '<span style="color: #B9E6E9">
-        Genera más leads,<br class="desktopElement"> aumenta tus <br class="mobileElement"> ventas y <br class="desktopElement"> fideliza a más clientes
+        Genera más leads,<br class="D_e"> aumenta tus <br class="MT_e"> ventas y <br class="D_e"> fideliza a más clientes
         </span>',
      'text' => '<span class="whiteColor">
       Escala es el software todo en uno de <br class="space">
@@ -27,7 +27,7 @@
           Andrés Moreno
           </span>
         <span class="bottom">
-          Fundador de Escala & <br class="mobileElement"> Open English
+          Fundador de Escala & <br class="MT_e"> Open English
           </span>
         </p>
       ',
@@ -183,7 +183,7 @@ a tus clientes
         <section class="innerSectionElement1">
 
           <h2 class="primaryTitle blackColor">
-            Nuestros clientes te dicen <br class="mobileElement"> por qué <br class="desktopElement">
+            Nuestros clientes te dicen <br class="MT_e"> por qué <br class="D_e">
 prefieren Escala
           </h2>
 
@@ -414,7 +414,7 @@ sin programar
     <section class="innerSectionElement1">
 
       <h2 class="primaryTitle blackColor">
-        Los expertos en marketing digital <br class="mobileElement"> lo dicen: “Escala es muy fácil de usar”
+        Los expertos en marketing digital <br class="MT_e"> lo dicen: “Escala es muy fácil de usar”
       </h2>
       <p class="primaryText grayColorTexts">
         Descubre en estos videos cómo los expertos de marketing digital y ventas de toda <br class="DT_e"> Latinoamérica le sacan provecho a cada funcionalidad de Escala.
@@ -424,7 +424,7 @@ sin programar
 
     <section class="innerSectionElement2">
 
-      <div id="carousel-videoHome-Mobile" class="carousel slide mobileElement" data-bs-ride="carousel">
+      <div id="carousel-videoHome-Mobile" class="carousel slide MT_e" data-bs-ride="carousel">
 
         <div class="carousel-inner"   role="listbox">
           <div class="carousel-item  active">
@@ -586,7 +586,7 @@ sin programar
 
 
       </div>
-      <div id="carousel-videoHome" class="carousel slide desktopElement" data-bs-ride="carousel">
+      <div id="carousel-videoHome" class="carousel slide D_e" data-bs-ride="carousel">
 
         <div class="carousel-inner"   role="listbox">
 
@@ -1250,7 +1250,7 @@ hacer crecer tu negocio.
         </section>
 
 {{--
-        <section class="mobileElement showMore innerSectionElement sct3">
+        <section class="MT_e showMore innerSectionElement sct3">
 
           <div class="containElements">
 

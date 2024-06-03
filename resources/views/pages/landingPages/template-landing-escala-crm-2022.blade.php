@@ -10,12 +10,12 @@
      'title' => '
         CRM todo-en-uno <br class="space">
         <span style="color: #A4E7EA">
-          + acompañamiento <br class="desktopElement">
+          + acompañamiento <br class="D_e">
           de expertos
         </span>
         ',
      'text' => '
-      <span class="whiteColor desktopElement">
+      <span class="whiteColor D_e">
           Con el CRM de Escala haz más eficiente todo tu <br class="space">
           proceso de marketing y ventas, guiado por  <br class="space">
           nuestros especialistas. Segmenta tus contactos, <br class="space">
@@ -23,7 +23,7 @@
           tus oportunidades hasta cerrar la venta.
       </span>
 
-      <span class="whiteColor mobileElement">
+      <span class="whiteColor MT_e">
         Con el CRM de Escala haz más eficiente todo tu <br class="space">
         proceso de marketing y ventas, guiado por nuestros <br class="space">
         especialistas. Segmenta tus contactos, personaliza <br class="space">
@@ -56,14 +56,14 @@
       'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
       'text' => '
 
-          “Luego de generar una base de datos <br class="mobileElement"> de clientes <br class="desktopElement">
+          “Luego de generar una base de datos <br class="MT_e"> de clientes <br class="D_e">
           potenciales, <span class="greenBlueColor">
             <strong>
-              tu CRM es la <br class="mobileElement"> herramienta más <br class="desktopElement">
-              importante para <br class="mobileElement"> convertirlos en clientes fieles
+              tu CRM es la <br class="MT_e"> herramienta más <br class="D_e">
+              importante para <br class="MT_e"> convertirlos en clientes fieles
             </strong>
-          </span> <br class="desktopElement">
-          y <br class="mobileElement"> construir relaciones a largo plazo”.
+          </span> <br class="D_e">
+          y <br class="MT_e"> construir relaciones a largo plazo”.
           <br class="space"><br class="space">
             <span class="byam">
               <strong class="greenBlueColor">
@@ -107,8 +107,8 @@
           Tu Máquina de Marketing y Ventas
        ',
        'subTitlePrincipal' => '
-          En el CRM de Escala están todas las herramientas <br class="mobileElement"> de marketing digital y ventas integradas, <br class="desktopElement">
-          para que <br class="mobileElement"> puedas: generar más demanda, aumentar tus <br class="mobileElement"> ventas y fidelizar más clientes.
+          En el CRM de Escala están todas las herramientas <br class="MT_e"> de marketing digital y ventas integradas, <br class="D_e">
+          para que <br class="MT_e"> puedas: generar más demanda, aumentar tus <br class="MT_e"> ventas y fidelizar más clientes.
        ',
        'overlay' => false,
        'enableButton' => true,
@@ -124,8 +124,8 @@
                    </span>',
                 'text' => '
                   Atrae leads de calidad con <br class="space">
-                  Ads de Facebook e <br class="desktopElement">
-                  Instagram <br class="mobileElement"> desde nuestra <br class="desktopElement">
+                  Ads de Facebook e <br class="D_e">
+                  Instagram <br class="MT_e"> desde nuestra <br class="D_e">
                   plataforma
                 ',
                'enableButton' => false,
@@ -162,8 +162,8 @@
                'enableButton' => false,
                'text' => '
                   Ahorra tiempo y dinero <br class="space">
-                  programando secuencias <br class="desktopElement">
-                  de emails <br class="mobileElement"> y acciones de <br class="desktopElement">
+                  programando secuencias <br class="D_e">
+                  de emails <br class="MT_e"> y acciones de <br class="D_e">
                   marketing y ventas
                '
            ],
@@ -174,9 +174,9 @@
                 </span>',
                'enableButton' => false,
                'text' => '
-                Mide en tiempo real tus <br class="desktopElement">
-                resultados <br class="mobileElement"> con dashboards <br class="desktopElement">
-                amigables para <br class="mobileElement"> optimizar tus <br class="desktopElement">
+                Mide en tiempo real tus <br class="D_e">
+                resultados <br class="MT_e"> con dashboards <br class="D_e">
+                amigables para <br class="MT_e"> optimizar tus <br class="D_e">
                 embudos de ventas
                '
            ]
@@ -221,52 +221,52 @@
                     $elements = array(
                       [
                         'title' => 'Tu CRM está Integrado <span>
-                           a todas las <br class="mobileElement"> herramientas <br class="desktopElement">
+                           a todas las <br class="MT_e"> herramientas <br class="D_e">
                          de marketing digital y ventas </span>'
 
                       ],
                       [
                         'title' => 'Organiza en un solo lugar: <span>
-                           tus contactos, <br class="mobileElement"> embudos, <br class="desktopElement">
+                           tus contactos, <br class="MT_e"> embudos, <br class="D_e">
                         flujos y oportunidades </span>'
                       ],
                       [
                         'title' => 'Simple de usar, <span>
-                          diseñado por expertos para <br class="mobileElement"> vendedores <br class="desktopElement">
+                          diseñado por expertos para <br class="MT_e"> vendedores <br class="D_e">
 y equipos de marketing </span>'
                       ],
                       [
                         'title' => 'Gestiona tu base de datos <span>
-                          y guarda <br class="mobileElement"> automáticamente <br class="desktopElement">
-la data con formularios <br class="mobileElement"> integrados desde tus landing pages </span>'
+                          y guarda <br class="MT_e"> automáticamente <br class="D_e">
+la data con formularios <br class="MT_e"> integrados desde tus landing pages </span>'
                       ],
                       [
-                        'title' => 'Segmenta y personaliza tus <br class="mobileElement"> comunicaciones <span>
-                          con etiquetas <br class="desktopElement">
-avanzadas. <br class="mobileElement"> Ten trazabilidad e historial de tus <br class="mobileElement"> contactos </span>'
+                        'title' => 'Segmenta y personaliza tus <br class="MT_e"> comunicaciones <span>
+                          con etiquetas <br class="D_e">
+avanzadas. <br class="MT_e"> Ten trazabilidad e historial de tus <br class="MT_e"> contactos </span>'
                       ],
                       [
                         'title' => 'Visualiza todo <span>
-                          tu proceso de venta, <br class="mobileElement"> fase por fase </span>'
+                          tu proceso de venta, <br class="MT_e"> fase por fase </span>'
                       ],
                       [
-                        'title' => 'Potencia la productividad de tu equipo <br class="mobileElement"> <span>
-                           con la asignación <br class="desktopElement">
-de tareas, actividades <br class="mobileElement"> y recordatorios </span>'
+                        'title' => 'Potencia la productividad de tu equipo <br class="MT_e"> <span>
+                           con la asignación <br class="D_e">
+de tareas, actividades <br class="MT_e"> y recordatorios </span>'
                       ],
                       [
                         'title' => 'Automatiza tu flujo de acciones  <span>
-                          según <br class="mobileElement"> la segmentación <br class="desktopElement">
+                          según <br class="MT_e"> la segmentación <br class="D_e">
 de tus contactos </span>'
                       ],
                       [
                         'title' => 'Analiza tus resultados <span>
-                          de ventas con <br class="mobileElement"> dashboards <br class="desktopElement">
-amigables y optimiza tus <br class="mobileElement"> acciones </span>'
+                          de ventas con <br class="MT_e"> dashboards <br class="D_e">
+amigables y optimiza tus <br class="MT_e"> acciones </span>'
                       ],
                       [
                         'title' => 'Fideliza más clientes <span>
-                          nutriendo tus <br class="mobileElement"> relaciones <br class="desktopElement">
+                          nutriendo tus <br class="MT_e"> relaciones <br class="D_e">
 a largo plazo </span>'
                       ]
                     );
@@ -315,13 +315,13 @@ a largo plazo </span>'
        'enableTitle' => true,
        'titlePrincipal' => '
         <span style="color: #C5E5E9">
-            ¿Quieres pasar al siguiente nivel <br class="mobileElement"> de personalización? <br class="space">
-            <span class="whiteColor">Descubre las funcionalidades <br class="mobileElement"> del Plan PRO</span>
+            ¿Quieres pasar al siguiente nivel <br class="MT_e"> de personalización? <br class="space">
+            <span class="whiteColor">Descubre las funcionalidades <br class="MT_e"> del Plan PRO</span>
           </span>
        ',
        'subTitlePrincipal' => '
-          Al adquirir el plan Pro de Escala cuentas con <br class="mobileElement"> funcionalidades más avanzadas para que <br class="space">
-          puedas personalizar tus acciones de marketing y ventas, <br class="mobileElement"> aumentado tus conversiones.
+          Al adquirir el plan Pro de Escala cuentas con <br class="MT_e"> funcionalidades más avanzadas para que <br class="space">
+          puedas personalizar tus acciones de marketing y ventas, <br class="MT_e"> aumentado tus conversiones.
        ',
        'overlay' => false,
        'enableButton' => true,
@@ -337,10 +337,10 @@ a largo plazo </span>'
                 tus flujos inteligentes
                ',
                'text' => '
-                  Con las bifurcaciones puedes automatizar todas <br class="mobileElement"> tus <br class="desktopElement">
-                  acciones de marketing digital y ventas según <br class="mobileElement"> el <br class="desktopElement">
-                  comportamiento de tus contactos.. Creando <br class="mobileElement"> patrones <br class="desktopElement">
-                  de flujos dependiendo de <br class="mobileElement"> condicionantes.
+                  Con las bifurcaciones puedes automatizar todas <br class="MT_e"> tus <br class="D_e">
+                  acciones de marketing digital y ventas según <br class="MT_e"> el <br class="D_e">
+                  comportamiento de tus contactos.. Creando <br class="MT_e"> patrones <br class="D_e">
+                  de flujos dependiendo de <br class="MT_e"> condicionantes.
                ',
                'enableButton' => false,
            ],
@@ -351,9 +351,9 @@ a largo plazo </span>'
                 está a punto de comprar
                ',
                'text' => '
-                  Ahora podrás darle un puntaje a tus contactos <br class="mobileElement"> por <br class="desktopElement">
-                  sus respuestas a tus acciones de marketing <br class="mobileElement"> y ventas <br class="desktopElement">
-                  comprendiendo si están: fríos, tibios o <br class="mobileElement"> calientes para <br class="desktopElement">
+                  Ahora podrás darle un puntaje a tus contactos <br class="MT_e"> por <br class="D_e">
+                  sus respuestas a tus acciones de marketing <br class="MT_e"> y ventas <br class="D_e">
+                  comprendiendo si están: fríos, tibios o <br class="MT_e"> calientes para <br class="D_e">
                   cerrar la venta.
                ',
                'enableButton' => false,
@@ -380,9 +380,9 @@ a largo plazo </span>'
         'img' => App::setFilePath('/assets/images/person/soporte-equipo-escala-clientes.png'),
 'img_alt' => 'Foto de una pareja mirando su computador portátil sorprendidos en referencia a la calidad del acompañamiento que brinda el equipo de soporte de Escala',
         'text' => '
-            Con el Plan PRO de Escala, nuestros <br class="mobileElement"> especialistas en <br class="desktopElement">
-            marketing digital y ventas te <br class="mobileElement"> guiarán paso a paso para <br class="desktopElement">
-            configurar tu CRM e <br class="mobileElement"> implementar con éxito tu estrategia digital.
+            Con el Plan PRO de Escala, nuestros <br class="MT_e"> especialistas en <br class="D_e">
+            marketing digital y ventas te <br class="MT_e"> guiarán paso a paso para <br class="D_e">
+            configurar tu CRM e <br class="MT_e"> implementar con éxito tu estrategia digital.
         ',
         'enableButton' => false,
         'urlButton' => '#lead-form',
@@ -410,8 +410,8 @@ $parameters = [
                   'img' => App::setFilePath('/assets/images/illustrations/others/acompanamiento-en-vivo-implementacion-escala.png'),
 'img_alt' => 'Ilustración de un astronauta mostrando en su computador un cohete que va de un punto A a un punto B en referencia al acompañamiento en vivo para optimizar la implementación de Escala en una empresa',
                   'title' => '
-                    Acompañamiento <br class="desktopElement">
-                    en vivo para <br class="mobileElement"> optimizar <br class="desktopElement">
+                    Acompañamiento <br class="D_e">
+                    en vivo para <br class="MT_e"> optimizar <br class="D_e">
                     tu implementación
                   ',
                   'text' => null,
@@ -422,9 +422,9 @@ $parameters = [
                   'img' => App::setFilePath('/assets/images/illustrations/others/capacitaciones-grupales-equipo-escala.png'),
 'img_alt' => 'Ilustración de un astronauta mostrando en su computador un cohete que va de un punto A a un punto D en referencia a las capacitaciones grupales que ofrece el equipo de Escala',
                   'title' => '
-                    Capacitaciones grupales <br class="desktopElement">
-                    basadas en <br class="mobileElement"> mejores prácticas <br class="desktopElement">
-                    y en los casos de <br class="mobileElement"> éxito de tu industria
+                    Capacitaciones grupales <br class="D_e">
+                    basadas en <br class="MT_e"> mejores prácticas <br class="D_e">
+                    y en los casos de <br class="MT_e"> éxito de tu industria
                   ',
                   'text' => null,
                   'enableButton' => false,
@@ -433,8 +433,8 @@ $parameters = [
                   'img' => App::setFilePath('/assets/images/illustrations/others/atencion-prioritaria-clientes-equipo-escala.png'),
 'img_alt' => 'Ilustración de un computador con un botón de WhatsApp en referencia a la atención prioritaria por WhatsApp, Email y Chat de parte de nuestro equipo',
                   'title' => '
-                      Atención prioritaria por <br class="desktopElement">
-                      WhatsApp, <br class="mobileElement"> Email y Chat <br class="desktopElement">
+                      Atención prioritaria por <br class="D_e">
+                      WhatsApp, <br class="MT_e"> Email y Chat <br class="D_e">
                       de servicio
                     ',
                     'text' => null,
@@ -444,8 +444,8 @@ $parameters = [
                   'img' => App::setFilePath('/assets/images/illustrations/others/gerente-cuentas-asignado-equipo-escala.png'),
 'img_alt' => 'Ilustración de un astronauta con capa y un computador en sus manos en referencia al gerente de cuentas que se asigna a clientes por parte de Escala',
                   'title' => '
-                        Gerente de cuentas asignado <br class="desktopElement">
-                        con plan <br class="mobileElement"> personalizado <br class="desktopElement">
+                        Gerente de cuentas asignado <br class="D_e">
+                        con plan <br class="MT_e"> personalizado <br class="D_e">
                         de implementación
                     ',
                     'text' => null,
@@ -490,13 +490,13 @@ $parameters = [
           </h3>
 
           <p class="text">
-            Tu CRM de Escala es tu máquina de ventas, en <br class="mobileElement"> un solo lugar puedes gerenciar tus <br
-              class="desktopElement">
-            contactos, <br class="mobileElement"> segmentar y personalizar tus acciones de <br class="mobileElement"> ventas y marketing y darle <br
-              class="desktopElement">
-            seguimiento a cada <br class="mobileElement"> una de tus oportunidades abiertas. Además <br class="mobileElement"> hace más productivo a <br
-              class="desktopElement">
-            tu equipo de ventas <br class="mobileElement"> asignándoles tareas, actividades y recordatorios <br class="mobileElement"> para convertir más.
+            Tu CRM de Escala es tu máquina de ventas, en <br class="MT_e"> un solo lugar puedes gerenciar tus <br
+              class="D_e">
+            contactos, <br class="MT_e"> segmentar y personalizar tus acciones de <br class="MT_e"> ventas y marketing y darle <br
+              class="D_e">
+            seguimiento a cada <br class="MT_e"> una de tus oportunidades abiertas. Además <br class="MT_e"> hace más productivo a <br
+              class="D_e">
+            tu equipo de ventas <br class="MT_e"> asignándoles tareas, actividades y recordatorios <br class="MT_e"> para convertir más.
 
 
           </p>
@@ -627,12 +627,12 @@ $parameters = [
       <div class="info">
 
         <h3 class="primaryTitle">
-          <span style="color: #B9E6E9">Convierte más leads <br class="mobileElement"> en clientes <br class="space"></span>
+          <span style="color: #B9E6E9">Convierte más leads <br class="MT_e"> en clientes <br class="space"></span>
           con el CRM de Escala
         </h3>
 
 
-        <a  class="desktopElement primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+        <a  class="D_e primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
           Recibe un demo
         </a>
 
@@ -649,7 +649,7 @@ $parameters = [
 
       </div>
 
-      <a  class="mobileElement primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+      <a  class="MT_e primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
         Recibe un demo
       </a>
 

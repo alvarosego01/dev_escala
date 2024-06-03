@@ -5,7 +5,7 @@
             class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol acompanamiento-2023-0 ">
 
             <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_acompanamiento_mobile_2023.svg') }}')"
-                class="backgroundFull mobileElement">
+                class="backgroundFull MT_e">
 
                 <div class="section-row">
 
@@ -49,7 +49,7 @@
                                         </ul>
                                     </div>
 
-                                    <div class="containerImage mobileElement">
+                                    <div class="containerImage MT_e">
                                         <img src="{{ App::setFilePath('/assets/images/person/am/acompanamiento_am.png') }}"
                                             alt="">
                                     </div>
@@ -164,7 +164,7 @@
             </div>
 
             <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_acompanamiento_desktop_2023.png') }}')"
-                class="backgroundFull desktopElement">
+                class="backgroundFull D_e">
 
                 <div class="section-row">
 
@@ -725,8 +725,8 @@
                     <div class="containElements">
 
                         <div class="containerImage">
-                            <img class="desktopElement" src="{!! App::setFilePath('/assets/images/illustrations/others/04-acompanamiento-2023.png') !!}" loading="lazy">
-                            <img class="mobileElement" src="{!! App::setFilePath('/assets/images/illustrations/others/12-acompanamiento-2023.png') !!}" loading="lazy">
+                            <img class="D_e" src="{!! App::setFilePath('/assets/images/illustrations/others/04-acompanamiento-2023.png') !!}" loading="lazy">
+                            <img class="MT_e" src="{!! App::setFilePath('/assets/images/illustrations/others/12-acompanamiento-2023.png') !!}" loading="lazy">
                         </div>
 
                     </div>

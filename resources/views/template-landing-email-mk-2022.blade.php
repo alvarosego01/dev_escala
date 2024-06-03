@@ -32,7 +32,7 @@
     }
     if ( !isset($custom_header_subText) || $custom_header_subText == null ) {
         # code...
-        $custom_header_subText = '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span>';
+        $custom_header_subText = '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="MT_e"> & Open English</span>';
     }
     if ( !isset($custom_header_formTitle) || $custom_header_formTitle == null ) {
         # code...
@@ -74,7 +74,7 @@
 Genera más leads y mantén la <br class="DT_e">
 comunicación con tus clientes
         </span>',
-     'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span> ',
+     'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="MT_e"> & Open English</span> ',
      'threeCol' => true,
      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
@@ -336,7 +336,7 @@ $parameters = [
     Escala, nuestra plataforma todo en uno
     ',
     'subTitlePrincipal' => '
-    Tu email marketing estará ya integrado a la plataforma “todo en uno” de marketing digital <br class="desktopElement">
+    Tu email marketing estará ya integrado a la plataforma “todo en uno” de marketing digital <br class="D_e">
 y ventas más completa de todas y fácil de usar
     ',
     'overlay' => false,
@@ -450,8 +450,8 @@ ventas y emails.
           <section class="innerSectionElement2">
 
             <h2 class="primaryTitle whiteColor">
-                Los emails de Escala, la herramienta <br class="desktopElement">
-más efectiva para generar relaciones <br class="desktopElement">
+                Los emails de Escala, la herramienta <br class="D_e">
+más efectiva para generar relaciones <br class="D_e">
 a largo plazo con tus clientes
             </h2>
 

@@ -41,7 +41,7 @@ $parameters = [
     'classSection' => 'escalaFidelizacionSection1',
     'enableTitle' => true,
     'titlePrincipal' => '
-    ¿Cómo logras fidelizar <br class="mobileElement"><span class="greenBlueColor">a tus clientes con Escala?</span>
+    ¿Cómo logras fidelizar <br class="MT_e"><span class="greenBlueColor">a tus clientes con Escala?</span>
     ',
     'subTitlePrincipal' => '
     Con las funcionalidades de retención de Escala fideliza a más clientes, conviértelos en <br class="DT_e"> fans de tu marca alcanzando estos objetivos:
@@ -145,12 +145,12 @@ y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrand
 
             <div class="containElements">
 
-              <h2 class="primaryTitle blackColor desktopElement">
+              <h2 class="primaryTitle blackColor D_e">
                 <span class="greenBlueColor">
                   ¿Cuáles son las funcionalidades de Escala</span> <br class="DT_e">
 que te permiten fidelizar más clientes?
               </h2>
-              <h2 class="primaryTitle blackColor mobileElement">
+              <h2 class="primaryTitle blackColor MT_e">
                 <span class="greenBlueColor">
                   ¿Cuáles son las funcionalidades </span> <br class="DT_e">
                   de Escala que te permiten fidelizar más clientes?

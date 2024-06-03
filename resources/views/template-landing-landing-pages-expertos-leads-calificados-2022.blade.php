@@ -34,7 +34,7 @@
     </span>
     <div class="byAm">
         <span class="whiteColor">Andrés Moreno</span> <br class="space">
-        <span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span>
+        <span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="MT_e"> & Open English</span>
     </div>',
      'threeCol' => true,
      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
@@ -321,8 +321,8 @@ $parameters = [
 
               <div class="element">
 
-                  <img class="desktopElement" src="{!! App::setFilePath('/assets/images/illustrations/others/6_banner-plantillas-1.png') !!}" alt="">
-                  <img class="mobileElement" src="{!! App::setFilePath('/assets/images/illustrations/others/6_banner-plantillas.png') !!}" alt="">
+                  <img class="D_e" src="{!! App::setFilePath('/assets/images/illustrations/others/6_banner-plantillas-1.png') !!}" alt="">
+                  <img class="MT_e" src="{!! App::setFilePath('/assets/images/illustrations/others/6_banner-plantillas.png') !!}" alt="">
 
               </div>
           </div>

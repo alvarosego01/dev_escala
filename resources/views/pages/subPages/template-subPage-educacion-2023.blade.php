@@ -8,7 +8,7 @@
                 class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol educacion-2023-0 ">
 
                 <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-educacion-mobile-2023-07.png') }}')"
-                    class="backgroundFull mobileElement">
+                    class="backgroundFull MT_e">
 
                     <div class="section-row">
 
@@ -52,7 +52,7 @@
 
                                         </div>
 
-                                        <div class="containerImage mobileElement">
+                                        <div class="containerImage MT_e">
                                             <img src="{{ App::setFilePath('/assets/images/person/am/am_education.png') }}" alt="">
                                         </div>
 
@@ -167,7 +167,7 @@
                 </div>
 
                 <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-educacion-2023-07.png') }}')"
-                    class="backgroundFull desktopElement">
+                    class="backgroundFull D_e">
 
                     <div class="section-row">
 
@@ -211,7 +211,7 @@
 
                                         </div>
 
-                                        <div class="containerImage mobileElement">
+                                        <div class="containerImage MT_e">
                                             <img src="{{ App::setFilePath('/assets/images/person/am/am_education.png') }}" alt="">
                                         </div>
 

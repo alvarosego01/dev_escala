@@ -66,7 +66,7 @@ $customId = uniqid();
 
                 @endif
 
-                <section class="desktopElement innerSectionElement sct2 ">
+                <section class="D_e innerSectionElement sct2 ">
                     <div id="carousel-{{ $classSection }}" class="carousel slide carousel-fade carousel-multi-item"
                         data-ride="carousel">
 
@@ -141,7 +141,7 @@ $customId = uniqid();
 
 
                 </section>
-                <section class="mobileElement innerSectionElement sct2 ">
+                <section class="MT_e innerSectionElement sct2 ">
                     <!--Carousel Wrapper-->
                     <div id="carousel-{{ $classSection }}mob" class="carousel slide carousel-fade carousel-multi-item"
                         data-ride="carousel">
@@ -269,7 +269,7 @@ $customId = uniqid();
             @endif
 
 
-            <section class="desktopElement innerSectionElement sct2 ">
+            <section class="D_e innerSectionElement sct2 ">
 
 
                 <div id="carousel-{{ $classSection }}" class="carousel slide carousel-fade carousel-multi-item" data-ride="carousel">
@@ -347,7 +347,7 @@ $customId = uniqid();
 
             </section>
 
-            <section class="mobileElement innerSectionElement sct2 ">
+            <section class="MT_e innerSectionElement sct2 ">
                 <!--Carousel Wrapper-->
                 <div id="carousel-{{ $classSection }}mob" class="carousel slide carousel-fade carousel-multi-item"
                     data-ride="carousel">

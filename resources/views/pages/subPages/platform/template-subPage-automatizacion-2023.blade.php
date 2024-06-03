@@ -118,7 +118,7 @@
                         </h2>
                         <p class="text-p">
                             Los workflows son cadenas de acciones simples que puedes automatizar <br
-                                class="desktopElement">
+                                class="D_e">
                             para que se activen ¡incluso mientras duermes! Con escala puedes:
                         </p>
                     </div>

@@ -100,7 +100,7 @@
                   'img_alt' => null,
                   'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_1.png'),
                   'title' => '
-                  Expertos en <br class="desktopElement">
+                  Expertos en <br class="D_e">
                   generación de leads
       ',
                   'enableButton' => false,
@@ -109,7 +109,7 @@
                   'img_alt' => null,
                   'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_2.png'),
                   'title' => '
-                  Estrategas en <br class="desktopElement">
+                  Estrategas en <br class="D_e">
                   comunicaciones masivas
       ',
                   'enableButton' => false,
@@ -118,7 +118,7 @@
                   'img_alt' => null,
                   'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_3.png'),
                   'title' => '
-                  Especialistas en <br class="desktopElement">
+                  Especialistas en <br class="D_e">
                   embudos de conversión
       ',
                   'enableButton' => false,
@@ -127,7 +127,7 @@
                   'img_alt' => null,
                   'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_4.png'),
                   'title' => '
-                  Consultoras de marketing, ventas <br class="desktopElement">
+                  Consultoras de marketing, ventas <br class="D_e">
                   o estrategia de Crecimiento
       ',
                   'enableButton' => false,
@@ -580,7 +580,7 @@
                                         La oportunidad
                                     </h3>
                                     <p class="text">
-                                        30 millones de PYMES <br class="desktopElement">
+                                        30 millones de PYMES <br class="D_e">
                                         en Hispanoamérica
                                     </p>
                                 </div>
@@ -598,8 +598,8 @@
                                         El problema
                                     </h3>
                                     <p class="text">
-                                        Muchos dejan de crecer por <br class="desktopElement">
-                                        fallas estratégicas e <br class="desktopElement">
+                                        Muchos dejan de crecer por <br class="D_e">
+                                        fallas estratégicas e <br class="D_e">
                                         ineficiencias operativas
                                     </p>
                                 </div>
@@ -617,8 +617,8 @@
                                         La solución
                                     </h3>
                                     <p class="text">
-                                        Herramientas costo-eficientes, <br class="desktopElement">
-                                        metodologías probadas y <br class="desktopElement">
+                                        Herramientas costo-eficientes, <br class="D_e">
+                                        metodologías probadas y <br class="D_e">
                                         servicio de primera
                                     </p>
                                 </div>
@@ -633,11 +633,11 @@
 
                                 <div class="info">
                                     <h3 class="secondaryTitle">
-                                        Juntos <br class="desktopElement">
+                                        Juntos <br class="D_e">
                                         multiplicamos
                                     </h3>
                                     <p class="text">
-                                        Alcance e impacto mientras <br class="desktopElement">
+                                        Alcance e impacto mientras <br class="D_e">
                                         hacemos crecer nuestras empresas
                                     </p>
                                 </div>

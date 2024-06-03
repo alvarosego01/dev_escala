@@ -125,7 +125,7 @@ Elige el programa de alianza
                           Ganan una comisión por cada <br class="DT_e">
                           cliente calificado que nos refieren <br class="DT_e">
                           a través de su contenido.
-                          <br class="desktopElement">
+                          <br class="D_e">
                           <br class="space"><br class="space">
                         <span class="greenBlueColor">
                           ¿Quiénes son los <br class="space">

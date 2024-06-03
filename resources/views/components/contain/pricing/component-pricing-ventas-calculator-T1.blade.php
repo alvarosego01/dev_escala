@@ -25,7 +25,7 @@
                                     Plan Pro: A partir de 5.000 contactos
                                 </small>
 
-                                <div class="box desktopElement_flex">
+                                <div class="box D_e_flex">
 
                                     <div class="opt">
                                         <div class="customCheckBox">
@@ -70,7 +70,7 @@
 
                                 </div>
 
-                                <div class="box mobileElement">
+                                <div class="box MT_e">
 
                                     <div class="planSelector ">
 
@@ -97,7 +97,7 @@
 
                         <div class="containElements">
 
-                            <div class="plansSection desktopElement">
+                            <div class="plansSection D_e">
                                 <small class="miniTitle">
                                     Coloca el número de contactos de marketing
                                 </small>
@@ -186,9 +186,9 @@
 
                             </div>
 
-                            <div class="plansSection mobileElement">
+                            <div class="plansSection MT_e">
                                 <small class="miniTitle">
-                                    Coloca el número de <br class="mobileElement"> contactos de marketing
+                                    Coloca el número de <br class="MT_e"> contactos de marketing
 
 
                                     <div class="customPriceInput">
@@ -284,7 +284,7 @@
 
                         <div class="containElements">
 
-                            <div class="plansSection desktopElement">
+                            <div class="plansSection D_e">
                                 <small class="miniTitle">
                                     Coloca el número de usuarios con acceso a la plataforma
                                 </small>
@@ -311,9 +311,9 @@
                                 </div>
 
                             </div>
-                            <div class="plansSection mobileElement">
+                            <div class="plansSection MT_e">
                                 <small>
-                                    Coloca el número de usuarios <br class="mobileElement"> con acceso a la plataforma
+                                    Coloca el número de usuarios <br class="MT_e"> con acceso a la plataforma
                                 </small>
 
                                 <div class="box">
@@ -324,7 +324,7 @@
 
 
                                             <h5 class="commonText grayColorTexts5">
-                                                Elige cuántos usuarios con acceso <br class="mobileElement"> a la plataforma quieres tener.
+                                                Elige cuántos usuarios con acceso <br class="MT_e"> a la plataforma quieres tener.
                                             </h5>
 
                                         </div>
@@ -372,7 +372,7 @@
                                             <button type="button" onclick="typeCustomPay('yearly', this)"
                                                 id="buttonPayTime-year" class="selectorPricingButton active">
                                                 PAGAR ANUAL
-                                                <small class="desktopElement">
+                                                <small class="D_e">
                                                     30% de descuento
                                                 </small>
                                             </button>

@@ -27,7 +27,7 @@
     }
     if ( !isset($custom_header_subText) || $custom_header_subText == null ) {
         # code...
-        $custom_header_subText = '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span>';
+        $custom_header_subText = '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="MT_e"> & Open English</span>';
     }
     if ( !isset($custom_header_formTitle) || $custom_header_formTitle == null ) {
         # code...
@@ -69,7 +69,7 @@
             de Escala
         </span>
         ',
-     'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span> ',
+     'text' => '<span class="whiteColor">Andrés Moreno</span><span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="MT_e"> & Open English</span> ',
      'threeCol' => true,
      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
      'backgroundImage' => null,
@@ -359,8 +359,8 @@ $parameters = [
 
               <div class="element">
 
-                  <img class="desktopElement" src="{!! App::setFilePath('/assets/images/illustrations/others/6_banner-plantillas-1.png') !!}" alt="">
-                  <img class="mobileElement" src="{!! App::setFilePath('/assets/images/illustrations/others/6_banner-plantillas.png') !!}" alt="">
+                  <img class="D_e" src="{!! App::setFilePath('/assets/images/illustrations/others/6_banner-plantillas-1.png') !!}" alt="">
+                  <img class="MT_e" src="{!! App::setFilePath('/assets/images/illustrations/others/6_banner-plantillas.png') !!}" alt="">
 
               </div>
           </div>

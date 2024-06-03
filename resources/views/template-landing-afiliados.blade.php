@@ -47,7 +47,7 @@
                         <p class="primaryText grayColorTexts">
 
                                 Con cada plan adquirido por tus referidos ganas hasta un 30% de comisiones. Crecen tus <br
-                                class="desktopElement"> ingresos pasivos, mientras tu comunidad de negocios incrementa sus ventas con Escala.
+                                class="D_e"> ingresos pasivos, mientras tu comunidad de negocios incrementa sus ventas con Escala.
                         </p>
 
                     </div>
@@ -86,7 +86,7 @@
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/icons-afiliados_3.png'),
                             'title' => '<span class="greenBlueColor">Aliados en ventas
-                                <br class="desktopElement"><br class="desktopElement">
+                                <br class="D_e"><br class="D_e">
                                 </span>',
                             'text' => 'Si eres un usuario de Escala o un vendedor <br class="DT_e"> nato y te encanta recomendar para obtener <br class="DT_e"> ganancias por cada referido. Escala te da una <br class="DT_e"> gran oportunidad para ganar comisiones <br class="DT_e"> mensualmente.',
                             'enableButton' => false,

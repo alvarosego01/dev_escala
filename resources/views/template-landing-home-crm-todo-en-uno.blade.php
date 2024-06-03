@@ -370,7 +370,7 @@
 
   <section class="innerSectionElement2">
 
-  <div id="carousel-videoHome-Mobile" class="carousel slide mobileElement" data-bs-ride="carousel">
+  <div id="carousel-videoHome-Mobile" class="carousel slide MT_e" data-bs-ride="carousel">
 
     <div class="carousel-inner"   role="listbox">
       <div class="carousel-item  active">
@@ -532,7 +532,7 @@
 
 
   </div>
-  <div id="carousel-videoHome" class="carousel slide desktopElement" data-bs-ride="carousel">
+  <div id="carousel-videoHome" class="carousel slide D_e" data-bs-ride="carousel">
 
     <div class="carousel-inner"   role="listbox">
 
@@ -971,7 +971,7 @@
 
                             <div class="containInfo">
                               <p class="commonText grayColorTexts">
-                                “Escala tiene el email builder más amigable que he utilizado en los últimos <br class="desktopElement"> años, y su equipo está comprometido a mantener la plataforma en <br class="desktopElement"> constante actualización en el dinámico mundo digital.”
+                                “Escala tiene el email builder más amigable que he utilizado en los últimos <br class="D_e"> años, y su equipo está comprometido a mantener la plataforma en <br class="D_e"> constante actualización en el dinámico mundo digital.”
                               </p>
                             </div>
 
@@ -1013,7 +1013,7 @@
 
                            <div class="containInfo">
                             <p class="commonText grayColorTexts">
-                              “Son muchas herramientras integradas en un solo sitio, una herramienta muy <br class="desktopElement"> sencilla de utilizar y le da mucho beneficio al cliente. Nunca me habían <br class="desktopElement"> atendido de esta manera en ningún tipo de plataforma similar. Primera vez <br class="desktopElement"> que me atienden de esta manera y agradecidos enormemente. Felicidades <br class="desktopElement"> porque tienen un equipo de trabajo increíble.”
+                              “Son muchas herramientras integradas en un solo sitio, una herramienta muy <br class="D_e"> sencilla de utilizar y le da mucho beneficio al cliente. Nunca me habían <br class="D_e"> atendido de esta manera en ningún tipo de plataforma similar. Primera vez <br class="D_e"> que me atienden de esta manera y agradecidos enormemente. Felicidades <br class="D_e"> porque tienen un equipo de trabajo increíble.”
                             <p>
                           </div>
 
@@ -1057,7 +1057,7 @@
                             <div class="containInfo">
 
                               <p class="commonText grayColorTexts">
-                                “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos <br class="desktopElement"> la misma esencia. Encontrarme con Escala fue importante porque es más <br class="desktopElement"> completa. Tienes todo lo que necesitas, desde captar el interés de los <br class="desktopElement">  clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo <br class="desktopElement"> de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi <br class="desktopElement"> mercado se redujo por la pandemia, Escala es sumamente oportuno. <br class="desktopElement"> Además, estoy muy contenta por todo el apoyo que he recibido por el <br class="desktopElement"> equipo de Escala.”
+                                “Yo ya había utilizado un CRM y otras plataformas que tienen más o menos <br class="D_e"> la misma esencia. Encontrarme con Escala fue importante porque es más <br class="D_e"> completa. Tienes todo lo que necesitas, desde captar el interés de los <br class="D_e">  clientes, hacer seguimiento, medir indicadores de desempeño de tu equipo <br class="D_e"> de ventas, hasta estandarizar el proceso de la comunicación. Ahora que mi <br class="D_e"> mercado se redujo por la pandemia, Escala es sumamente oportuno. <br class="D_e"> Además, estoy muy contenta por todo el apoyo que he recibido por el <br class="D_e"> equipo de Escala.”
                               </p>
                             </div>
 
@@ -1104,13 +1104,13 @@
                           <div class="containInfo">
 
                             <p class="commonText grayColorTexts">
-                              La herramienta es muy amigable, y permite que la gestión pueda realizarla <br class="desktopElement"> casi que cualquier persona con conocimientos básicos en plataformas <br class="desktopElement"> digitales.
+                              La herramienta es muy amigable, y permite que la gestión pueda realizarla <br class="D_e"> casi que cualquier persona con conocimientos básicos en plataformas <br class="D_e"> digitales.
                               <br class="space">
                               <br class="space">
-                              El servicio es expedito y el equipo a cargo se preocupa por extender <br class="desktopElement"> capacitaciones necesarias que garantizan que los equipos estén sacando <br class="desktopElement"> el mayor provecho de la herramienta.
+                              El servicio es expedito y el equipo a cargo se preocupa por extender <br class="D_e"> capacitaciones necesarias que garantizan que los equipos estén sacando <br class="D_e"> el mayor provecho de la herramienta.
                                <br class="space">
                                <br class="space">
-                              La organización visual de la pantalla de entrada es muy intuitiva, esto <br class="desktopElement"> permite la exploración y el autoaprendizaje de las diferentes variables que <br class="desktopElement"> se pueden configurar en la plataforma.
+                              La organización visual de la pantalla de entrada es muy intuitiva, esto <br class="D_e"> permite la exploración y el autoaprendizaje de las diferentes variables que <br class="D_e"> se pueden configurar en la plataforma.
                             </p>
                           </div>
 
@@ -1157,7 +1157,7 @@
                             <div class="containInfo">
 
                               <p class="commonText grayColorTexts">
-                                ¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad <br class="desktopElement">
+                                ¡¡¡Extraordinario equipo con conocimientos sólidos de la realidad <br class="D_e">
                                 de lanzamientos de iniciativas de aprendizaje y crecimiento!!!
                                 <br class="space">
                                 🔥🔥🔥🔥👏👏👏👏🙌
@@ -1207,7 +1207,7 @@
                           <div class="containInfo">
 
                             <p class="commonText grayColorTexts">
-                              Felicitaciones al equipo de Escala, pues de verdad la plataforma me <br class="desktopElement"> gusta bastante. Posee herramientas muy útiles y lo mejor e  que es <br> simple de manipular.
+                              Felicitaciones al equipo de Escala, pues de verdad la plataforma me <br class="D_e"> gusta bastante. Posee herramientas muy útiles y lo mejor e  que es <br> simple de manipular.
                             </p>
                           </div>
 

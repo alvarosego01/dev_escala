@@ -16,7 +16,7 @@
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingServInmobiliarias0',
                     'title' => '<span class="greenBlueColor">
-                        ¡Genera más leads y cierra <br class="desktopElement"> más ventas para tu <br class="desktopElement"> inmobiliaria con Escala!
+                        ¡Genera más leads y cierra <br class="D_e"> más ventas para tu <br class="D_e"> inmobiliaria con Escala!
                         </span>',
                     'text' => null,
                     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
@@ -36,7 +36,7 @@
             @php
                 $parameters = [
                     'classSection' => 'landingServInmobiliarias1 func',
-                    'description' => 'En <strong>Escala</strong> estamos para ayudarte a ofrecer todos tus servicios <br class="desktopElement"> inmobiliarios, generando más leads de calidad y ventas. Todas las <br class="desktopElement"> herramientas de marketing digital y ventas en un solo lugar para que te <br class="desktopElement"> diferencies de tu competencia, en un mercado cada vez más competitivo.',
+                    'description' => 'En <strong>Escala</strong> estamos para ayudarte a ofrecer todos tus servicios <br class="D_e"> inmobiliarios, generando más leads de calidad y ventas. Todas las <br class="D_e"> herramientas de marketing digital y ventas en un solo lugar para que te <br class="D_e"> diferencies de tu competencia, en un mercado cada vez más competitivo.',
                     'byAm' => null,
                     'team' => null,
                     'image' => App::setFilePath('/assets/images/illustrations/otto/otto-casas.png'),
@@ -60,54 +60,54 @@
                     'titlePrincipal' => '<span class="greenBlueColor">Con Escala</span> tu negocio crece',
                     'elements' => [
                         [
-                            'title' => '<span class="greenBlueColor">Genera tráfico <br class="desktopElement"> desde Facebook</span>',
-                            'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="desktopElement"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes a tus <br class="desktopElement"> landing pages.
+                            'title' => '<span class="greenBlueColor">Genera tráfico <br class="D_e"> desde Facebook</span>',
+                            'text' => 'En Escala puedes crear, administrar y publicar campañas de anuncios <br class="D_e"> digitales, sin salir de nuestra plataforma, atrayendo más visitantes a tus <br class="D_e"> landing pages.
                             <br class="space"><br class="space">
-                            Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="desktopElement"> ideal, sin necesidad de contratar a un profesional. Publica tantas <br class="desktopElement"> campañas como servicios inmobiliarios tengas: venta de inmuebles,<br class="desktopElement"> alquiler, rentas vacacionales, inmuebles empresariales, entre otros.',
+                            Genera tus campañas de Facebook con la audiencia y el presupuesto <br class="D_e"> ideal, sin necesidad de contratar a un profesional. Publica tantas <br class="D_e"> campañas como servicios inmobiliarios tengas: venta de inmuebles,<br class="D_e"> alquiler, rentas vacacionales, inmuebles empresariales, entre otros.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_1.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">
-                                Genera leads calificados <br class="desktopElement"> con landing pages <br class="desktopElement"> optimizadas
+                                Genera leads calificados <br class="D_e"> con landing pages <br class="D_e"> optimizadas
                                 </span>',
-                            'text' => 'Haz que todos conozcan tus servicios profesionales y capta la <br class="desktopElement"> información de contacto de tus visitantes con landing pages <br class="desktopElement"> optimizadas.
+                            'text' => 'Haz que todos conozcan tus servicios profesionales y capta la <br class="D_e"> información de contacto de tus visitantes con landing pages <br class="D_e"> optimizadas.
                             <br class="space"><br class="space">
-                            Elige una de nuestras plantillas, personalízala y publícala con <br class="desktopElement"> un clic, sin programar o diseñar.',
+                            Elige una de nuestras plantillas, personalízala y publícala con <br class="D_e"> un clic, sin programar o diseñar.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">
-                                No pierdas ningún <br class="desktopElement"> dato de tus leads
+                                No pierdas ningún <br class="D_e"> dato de tus leads
                                 </span>',
-                            'text' => 'Nuestras landing pages tienen formularios integrados.<br class="desktopElement"> Cuando tus visitantes registran toda su información en ellos,<br class="desktopElement"> queda guardada automáticamente en tu CRM de Escala. Así <br class="desktopElement"> podrás tener mejor control de los datos de tus leads.',
+                            'text' => 'Nuestras landing pages tienen formularios integrados.<br class="D_e"> Cuando tus visitantes registran toda su información en ellos,<br class="D_e"> queda guardada automáticamente en tu CRM de Escala. Así <br class="D_e"> podrás tener mejor control de los datos de tus leads.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_2.png'),
                         ],
                         [
-                            'title' => '<span class="greenBlueColor">Organiza y gestiona <br class="desktopElement"> tu base de datos</span>',
-                            'text' => 'En Escala tenemos el CRM más fácil de usar para que tu equipo <br class="desktopElement"> comercial  pueda hacerle seguimiento a cada lead o cliente <br class="desktopElement"> hasta cerrar la venta de tus servicios.
+                            'title' => '<span class="greenBlueColor">Organiza y gestiona <br class="D_e"> tu base de datos</span>',
+                            'text' => 'En Escala tenemos el CRM más fácil de usar para que tu equipo <br class="D_e"> comercial  pueda hacerle seguimiento a cada lead o cliente <br class="D_e"> hasta cerrar la venta de tus servicios.
                             <br class="space"><br class="space">
-                            Crea actividades, tareas y recordatorios para tu equipo. Clasifica <br class="desktopElement"> a tus leads y clientes según sus necesidades, mantén comunicación <br class="desktopElement"> constante con campañas personalizadas.',
+                            Crea actividades, tareas y recordatorios para tu equipo. Clasifica <br class="D_e"> a tus leads y clientes según sus necesidades, mantén comunicación <br class="D_e"> constante con campañas personalizadas.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/afil_3.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">
-                                Nutre la relación <br class="desktopElement"> con tus leads y clientes
+                                Nutre la relación <br class="D_e"> con tus leads y clientes
                                 </span>',
-                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="desktopElement"> confianza entre tus leads y reforzar la lealtad de tus clientes potenciales. <br class="space">
+                            'text' => 'Crea y automatiza efectivas campañas de email marketing para generar <br class="D_e"> confianza entre tus leads y reforzar la lealtad de tus clientes potenciales. <br class="space">
                             Envía emails masivos, en el momento adecuado para:
                             <br class="space">
                             <br class="space">
                             <ul>
                                 <li>Presentar nuevos inmuebles en las zonas más buscadas</li>
                                 <li>Reforzar las razones de la elección de tus servicios</li>
-                                <li>Mantenerlos informados sobre las novedades y oportunidades <br class="desktopElement"> de precios en propiedades</li>
+                                <li>Mantenerlos informados sobre las novedades y oportunidades <br class="D_e"> de precios en propiedades</li>
                             </ul>',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
                         ],
                         [
                             'title' => '<span class="greenBlueColor">Mide y optimiza <br class="space"> tus resultados <br class="space"> con analíticas relevantes
                             </span>',
-                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="desktopElement"> entender qué funciona y qué puede mejorar tu marketing digital,<br class="desktopElement"> con tableros amigables que miden el rendimiento de ads, landing <br class="desktopElement"> pages y campañas de emails.',
+                            'text' => 'Ten visibilidad sobre las métricas que realmente importan para <br class="D_e"> entender qué funciona y qué puede mejorar tu marketing digital,<br class="D_e"> con tableros amigables que miden el rendimiento de ads, landing <br class="D_e"> pages y campañas de emails.',
                             'overImage' => App::setFilePath('/assets/images/illustrations/others/icono-11.png'),
                         ],
 
@@ -129,7 +129,7 @@
                 'title' => '¿Escala tiene todo <br class="DT_e"> lo que necesito?
                 ',
                 'img' => App::setFilePath('/assets/images/illustrations/otto/seguros-5 1.png'),
-                'text' => 'No importa el tamaño de tu servicio de salud. <br class="desktopElement"> Empodera a tu generación de leads con todas las <br class="desktopElement"> herramientas digitales y de ventas en un solo lugar.',
+                'text' => 'No importa el tamaño de tu servicio de salud. <br class="D_e"> Empodera a tu generación de leads con todas las <br class="D_e"> herramientas digitales y de ventas en un solo lugar.',
                 'enableButton' => true,
                 'urlButton' => '#lead-form',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
@@ -151,7 +151,7 @@
                 'subTitlePrincipal' => null,
                 'title' => '<span class="greenBlueColor">Un plan hecho a tu medida</span>',
                 'img' => App::setFilePath('/assets/images/illustrations/others/paymentpages-1 1.png'),
-                'text' => 'Conoce nuestros planes para empresas inmobiliarias.<br class="desktopElement"> Paga por número de contactos de marketing y ten todas <br class="desktopElement"> las herramientas en una sola plataforma.',
+                'text' => 'Conoce nuestros planes para empresas inmobiliarias.<br class="D_e"> Paga por número de contactos de marketing y ten todas <br class="D_e"> las herramientas en una sola plataforma.',
                 'enableButton' => true,
                 'urlButton' => '#',
                 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
@@ -174,7 +174,7 @@
                     'subTitlePrincipal' => null,
                     'title' => '<span class="greenBlueColor">Nuestros clientes hablan <br class="space"> de nuestros beneficios</span>',
                     'video' => 'https://www.youtube.com/embed/XUPOcRPXuzA',
-                    'text' => '“Mi equipo de ventas aumentó su productividad en un 150,<br class="desktopElement"> acelerando la tasa de cierre de ventas de propiedades <br class="desktopElement"> triple A, en las zonas más exclusivas. Con el CRM de <br class="desktopElement"> Escala pudimos enviar campanas customizadas <br class="desktopElement"> segmentando muy bien nuestra audiencia”',
+                    'text' => '“Mi equipo de ventas aumentó su productividad en un 150,<br class="D_e"> acelerando la tasa de cierre de ventas de propiedades <br class="D_e"> triple A, en las zonas más exclusivas. Con el CRM de <br class="D_e"> Escala pudimos enviar campanas customizadas <br class="D_e"> segmentando muy bien nuestra audiencia”',
                     'enableButton' => false,
                     // 'urlButton' => '#lead-form',
                     // 'textButton' => 'Segmentar ahora',
@@ -235,7 +235,7 @@
             @php
             $parameters = [
                 'classSection' => 'landingServInmobiliarias7',
-                'title' => 'Haz crecer tu negocio <br class="desktopElement"> inmobiliario con Escala',
+                'title' => 'Haz crecer tu negocio <br class="D_e"> inmobiliario con Escala',
                 'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
                 'text' => null,
                 'image' => App::setFilePath('/assets/images/illustrations/otto/otto-happy.png'),

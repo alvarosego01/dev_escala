@@ -462,9 +462,9 @@
 
                         <div class="info">
                             <p class="text">
-                                Descubre por ti mismo <br class="mobileSmallElement"> nuestra <br class="tabletElement"> potente <br class="desktopElement">
-                                <span>herramienta <br class="mobileSmallElement"> comercial para</span> <br class="desktopElement">
-                                pequeñas y <br class="mobileSmallElement"> medianas empresas
+                                Descubre por ti mismo <br class="M_e"> nuestra <br class="tabletElement"> potente <br class="D_e">
+                                <span>herramienta <br class="M_e"> comercial para</span> <br class="D_e">
+                                pequeñas y <br class="M_e"> medianas empresas
                             </p>
 
 

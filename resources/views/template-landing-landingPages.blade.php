@@ -23,7 +23,7 @@
        'backgroundImageType' => false,
        'overlay' => false,
        'classSection' => 'threeCol landingLandingPages0',
-       'title' => 'Landing pages <br class="desktopElement"> <span class="blueLightColor10">increíbles <br class="space"> con Escala</span>',
+       'title' => 'Landing pages <br class="D_e"> <span class="blueLightColor10">increíbles <br class="space"> con Escala</span>',
        'text' => null,
        'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
        'threeCol' => true,
@@ -41,7 +41,7 @@
           'type' => 'backgroundColor',
           'classSection' => 'landingLandingPages1',
           'enableTitle' => true,
-          'titlePrincipal' => '<span class="whiteColor">No programes más.<br class="space">Construye páginas atractivas <br class="mobileElement"> en 4 simples pasos</span>',
+          'titlePrincipal' => '<span class="whiteColor">No programes más.<br class="space">Construye páginas atractivas <br class="MT_e"> en 4 simples pasos</span>',
           'subTitlePrincipal' => null,
           'overlay' => false,
           // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
@@ -86,7 +86,7 @@
               <section class="innerSectionElement">
 
                 <h2 class="primaryTitle whiteColor">
-                  ¡Descubre cuán fácil es diseñar y <br class="mobileElement"> publicar landing pages en Escala!
+                  ¡Descubre cuán fácil es diseñar y <br class="MT_e"> publicar landing pages en Escala!
                 </h2>
 
                 <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -124,7 +124,7 @@
  $parameters = array(
    'type' => 'regular',
   'classSection' => 'landingLandingPages3',
-  'title' => 'Tu landing page estará ya integrada <br class="mobileElement"> a la plataforma <span class="greenBlueColor">“todo-en-uno” <br class="space"> de marketing digital y ventas</span>
+  'title' => 'Tu landing page estará ya integrada <br class="MT_e"> a la plataforma <span class="greenBlueColor">“todo-en-uno” <br class="space"> de marketing digital y ventas</span>
 ',
   'subTitle' => '<strong class="subtitle">Conoce Escala</strong>',
   'img1' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),

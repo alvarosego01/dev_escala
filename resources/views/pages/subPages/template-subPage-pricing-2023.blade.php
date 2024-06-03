@@ -1226,8 +1226,8 @@
                         <h5 class="card-title">
                             ¡Te entrenamos en nuestra <br class="space">
                             metodología de éxito!
-                            <br class="desktopElement">
-                            <br class="desktopElement">
+                            <br class="D_e">
+                            <br class="D_e">
 
                         </h5>
                         <p class="card-text">Horas grupales ILIMITADAS</p>

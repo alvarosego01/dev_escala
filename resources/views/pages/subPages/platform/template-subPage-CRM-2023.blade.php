@@ -95,7 +95,7 @@
                         </h2>
                         <p class="text-p">
                             En el CRM de Escala están todas las herramientas de marketing digital y ventas integradas,
-                            <br class="desktopElement">
+                            <br class="D_e">
                             para que puedas: generar más demanda, aumentar tus ventas y fidelizar más clientes.
                         </p>
                     </div>
@@ -330,7 +330,7 @@
                         </h2>
                         <p class="text-p">
                             Al adquirir el plan Pro de Escala cuentas con funcionalidades más avanzadas para que
-                            <br class="desktopElement">
+                            <br class="D_e">
                             puedas personalizar tus acciones de marketing, ventas y aumentar tus conversiones.
                         </p>
                     </div>

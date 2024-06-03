@@ -38,7 +38,7 @@
         </span>
         <div class="byAm">
             <span class="whiteColor">Andrés Moreno</span> <br class="space">
-            <span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span>
+            <span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="MT_e"> & Open English</span>
         </div>
     ',
      'threeCol' => true,
@@ -303,7 +303,7 @@ $parameters = [
     Escala, nuestra plataforma todo en uno
     ',
     'subTitlePrincipal' => '
-    Tu email marketing estará ya integrado a la plataforma “todo en uno” de marketing digital <br class="desktopElement">
+    Tu email marketing estará ya integrado a la plataforma “todo en uno” de marketing digital <br class="D_e">
 y ventas más completa de todas y fácil de usar
     ',
     'overlay' => false,
@@ -417,8 +417,8 @@ ventas y emails.
           <section class="innerSectionElement2">
 
             <h2 class="primaryTitle whiteColor">
-                Los emails de Escala, la herramienta <br class="desktopElement">
-más efectiva para generar relaciones <br class="desktopElement">
+                Los emails de Escala, la herramienta <br class="D_e">
+más efectiva para generar relaciones <br class="D_e">
 a largo plazo con tus clientes
             </h2>
 
