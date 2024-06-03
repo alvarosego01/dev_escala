@@ -101,6 +101,12 @@
             @headerBand_whatsapp_T1($parameters)
             @endheaderBand_whatsapp_T1
 
+                  <script>
+                jQuery('section.headerband_whatsapp_T1').appendTo('header');
+                jQuery('header').addClass('withHeaderBand');
+            </script>
+
+
         @endif
 
 
