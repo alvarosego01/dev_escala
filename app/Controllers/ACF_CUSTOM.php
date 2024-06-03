@@ -461,7 +461,7 @@ class ACF_CUSTOM extends Controller
                         'headerband_promo_freeclass_t1' => 'Free class',
                         'headerband_promo_last_news' => 'Last news',
                         'headerband_reports' => 'Reports',
-                        'headerBand_whatsapp_T1' => '¡Escala ahora potencia WhatsApp! - conoce las nuevas herramientas',
+                        'headerBand_whatsapp_T1' => 'Whatsapp',
                     ],
                     'conditional_logic' => [
                         [

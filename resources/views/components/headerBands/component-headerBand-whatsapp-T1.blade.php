@@ -1,38 +1,42 @@
 
 
 
- <section
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/headerband_whatsapp_bg.png') !!})"
+    class="headerband_whatsapp_T1 customSection sectionParent fullWidth {{ $classSection }} ">
 
- style="background-image: url('{!! App::setFilePath('/assets/images/overlays/overlay_whatsapp_headerband.png') !!}')"
- class="headerband_whatsapp_T1 customSection sectionParent fullWidth {{ $classSection }} ">
+    <div class="section-row">
 
-     <div class="section-row">
+        <section class="innerSectionElement sct1">
 
-             <section class="innerSectionElement sct1">
+            <div class="containElements">
 
-                 <div class="containElements">
-                    @if (isset($text) && $text != null)
-                    <p>
-                        {!! $text !!}
-                    </p>
-                    @else
-                    <p>
-                        <span style="color: #36768A">
-                            <strong>¡Escala ahora potencia WhatsApp!</strong> - conoce las nuevas herramientas
-                        </span>
-                        <a href="/whatsapp" class="greenWhatsappButton hoverInEffect ">
-                           Conocerlas ahora
-                        </a>
-                    </p>
-                    @endif
+                <div class="contain">
 
-                 </div>
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/headerband_whatsapp_icon.png') !!}" alt="" class="icon">
 
-             </section>
+                    <span class="hashTitle">
+                        Vende más con Whatsapp automatizado + CRM
+                    </span>
+                    <div class="separator"></div>
+                    <span class="sub">
+                    Masterclass gratuita - 6 de Junio
+                    </span>
 
-     </div>
+                </div>
 
- </section>
+                <a href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect">
+                    Reserva tu Cupo
+                </a>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</section>
+
+
 
 
 
