@@ -5,7 +5,7 @@
             class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol acompanamiento-2023-0 ">
 
             <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_acompanamiento_mobile_2023.svg') }}')"
-                class="backgroundFull mobileElement">
+                class="backgroundFull MT_e">
 
                 <div class="section-row">
 
@@ -49,7 +49,7 @@
                                         </ul>
                                     </div>
 
-                                    <div class="containerImage mobileElement">
+                                    <div class="containerImage MT_e">
                                         <img src="{{ App::setFilePath('/assets/images/person/am/acompanamiento_am.png') }}"
                                             alt="">
                                     </div>
@@ -164,7 +164,7 @@
             </div>
 
             <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_acompanamiento_desktop_2023.png') }}')"
-                class="backgroundFull desktopElement">
+                class="backgroundFull D_e">
 
                 <div class="section-row">
 
@@ -348,8 +348,8 @@
                                             Gerente de Éxito
                                         </h5>
                                         <p class="card-primaryText">
-                                            Te apoya a planificar y <br class="desktopTabletElement">
-                                            aprovechar al máximo <br class="desktopTabletElement">
+                                            Te apoya a planificar y <br class="DT_e">
+                                            aprovechar al máximo <br class="DT_e">
                                             las soluciones de Escala
                                             <br class="space">
                                             <br class="space">
@@ -361,7 +361,7 @@
                                                     Primer año
                                                 </h5>
                                                 <p class="card-secondaryText">
-                                                    Recibe 8 horas <br class="desktopTabletElement">
+                                                    Recibe 8 horas <br class="DT_e">
                                                     en sesiones privadas
                                                 </p>
                                             </div>
@@ -390,9 +390,9 @@
                                             Trainer privado
                                         </h5>
                                         <p class="card-primaryText">
-                                            Revisa el uso de las <br class="desktopTabletElement">
-                                            herramientas y se <br class="desktopTabletElement">
-                                            asegura que las usen <br class="desktopTabletElement">
+                                            Revisa el uso de las <br class="DT_e">
+                                            herramientas y se <br class="DT_e">
+                                            asegura que las usen <br class="DT_e">
                                             efectivamente
                                         </p>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/02-acompanamiento-2023.png') !!}" loading="lazy">
@@ -402,7 +402,7 @@
                                                     Primer año
                                                 </h5>
                                                 <p class="card-secondaryText">
-                                                    Recibe 4 horas de <br class="desktopTabletElement">
+                                                    Recibe 4 horas de <br class="DT_e">
                                                     entrenamiento privado
                                                 </p>
                                             </div>
@@ -431,10 +431,10 @@
                                             ChatSoporte
                                         </h5>
                                         <p class="card-primaryText">
-                                            Atendemos preguntas <br class="desktopTabletElement">
-                                            y necesidades técnicas <br class="desktopTabletElement">
+                                            Atendemos preguntas <br class="DT_e">
+                                            y necesidades técnicas <br class="DT_e">
                                             en vivo por <span class="greenText">WhatsApp</span> <br
-                                                class="desktopTabletElement">
+                                                class="DT_e">
                                             y <span class="blueText">Chat de plataforma</span>
                                         </p>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/03-acompanamiento-2023.png') !!}" loading="lazy">
@@ -444,8 +444,8 @@
                                                     Sin límites
                                                 </h5>
                                                 <p class="card-secondaryText">
-                                                    En horario laboral <br class="desktopTabletElement">
-                                                    de lunes a viernes <br class="desktopTabletElement">
+                                                    En horario laboral <br class="DT_e">
+                                                    de lunes a viernes <br class="DT_e">
                                                     y mitad del sabado
                                                 </p>
                                             </div>
@@ -568,11 +568,11 @@
                             </h2>
                             <p class="text">
                                 La primera semana con Escala, agendas una sesión en vivo <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                 por Zoom con tu Gerente de Éxito para que conozca a mayor <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                 profundidad tu negocio y definan juntos un plan de acción <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                 paso a paso con Escala.
                             </p>
 
@@ -601,7 +601,7 @@
                     <div class="row groupElements">
                         <div class="col-md-12 col-lg-12">
                             <h2 class="primaryTitle">
-                                A medida que tú y tu equipo avanzan <br class="desktopTabletElement">
+                                A medida que tú y tu equipo avanzan <br class="DT_e">
                                 <span>los apoyamos a optimizar resultados</span>
                             </h2>
                             <p class="primaryText">
@@ -688,7 +688,7 @@
 
                         <h2 class="title">
                             Los acompañamos todo el año <br class="space">
-                            <span> para que usen efectivamente las herramientas <br class="desktopTabletElement">
+                            <span> para que usen efectivamente las herramientas <br class="DT_e">
                                 y crezcan con Escala </span>
                         </h2>
                         <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -703,8 +703,8 @@
                     <div class="containElements">
                         <p class="text">
                             Nuestra metodología se divide en ciclos trimestrales donde <br
-                                class="desktopTabletElement">
-                            los guiamos a definir metas, estrategias y campañas a <br class="desktopTabletElement">
+                                class="DT_e">
+                            los guiamos a definir metas, estrategias y campañas a <br class="DT_e">
                             implementar con el CRM de Escala:
                         </p>
                     </div>
@@ -725,8 +725,8 @@
                     <div class="containElements">
 
                         <div class="containerImage">
-                            <img class="desktopElement" src="{!! App::setFilePath('/assets/images/illustrations/others/04-acompanamiento-2023.png') !!}" loading="lazy">
-                            <img class="mobileElement" src="{!! App::setFilePath('/assets/images/illustrations/others/12-acompanamiento-2023.png') !!}" loading="lazy">
+                            <img class="D_e" src="{!! App::setFilePath('/assets/images/illustrations/others/04-acompanamiento-2023.png') !!}" loading="lazy">
+                            <img class="MT_e" src="{!! App::setFilePath('/assets/images/illustrations/others/12-acompanamiento-2023.png') !!}" loading="lazy">
                         </div>
 
                     </div>

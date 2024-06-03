@@ -28,7 +28,7 @@
        'backgroundImageType' => false,
        'overlay' => false,
        'classSection' => 'threeCol landingPagesIncAmOtto0',
-       'title' => 'Landing pages <br class="desktopElement"> <span class="blueLightColor10">increíbles <br class="space"> con Escala</span>',
+       'title' => 'Landing pages <br class="D_e"> <span class="blueLightColor10">increíbles <br class="space"> con Escala</span>',
        'text' => null,
        'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
        'threeCol' => true,
@@ -48,7 +48,7 @@
           'type' => 'backgroundColor',
           'classSection' => 'landingPagesIncAmOtto1',
           'enableTitle' => true,
-          'titlePrincipal' => '<span class="whiteColor">No programes más.<br class="space">Construye páginas atractivas <br class="mobileElement"> en 4 simples pasos</span>',
+          'titlePrincipal' => '<span class="whiteColor">No programes más.<br class="space">Construye páginas atractivas <br class="MT_e"> en 4 simples pasos</span>',
           'subTitlePrincipal' => null,
           'overlay' => false,
           // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
@@ -93,7 +93,7 @@
               <section class="innerSectionElement">
 
                 <h2 class="primaryTitle whiteColor">
-                  ¡Descubre cuán fácil es diseñar y <br class="mobileElement"> publicar landing pages en Escala!
+                  ¡Descubre cuán fácil es diseñar y <br class="MT_e"> publicar landing pages en Escala!
                 </h2>
 
                 <a href="#lead-form" class="goToHash primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -131,15 +131,15 @@
  $parameters = array(
    'type' => 'regular',
   'classSection' => 'landingPagesIncAmOtto3',
-  'title' => 'Tu landing page estará ya integrada <br class="mobileElement"> a la plataforma <span class="greenBlueColor">“todo-en-uno” <br class="space"> de marketing digital y ventas</span>
+  'title' => 'Tu landing page estará ya integrada <br class="MT_e"> a la plataforma <span class="greenBlueColor">“todo-en-uno” <br class="space"> de marketing digital y ventas</span>
 ',
   'subTitle' => '<strong class="subtitle">Conoce Escala</strong>',
   'img1' => App::setFilePath('/assets/images/illustrations/others/icono-16 1.png'),
   'title1' => 'Multiplica las visitas <br class="space"> <span class="greenBlueColor">con anuncios digitales</span>',
-  'desc1' => 'Comienza a generar tráfico a tu landing <br class="desktopTabletElement"> page. Crea, publica y gestiona <br class="desktopTabletElement"> campañas de anuncios digitales <br class="desktopTabletElement"> directamente desde Escala.',
+  'desc1' => 'Comienza a generar tráfico a tu landing <br class="DT_e"> page. Crea, publica y gestiona <br class="DT_e"> campañas de anuncios digitales <br class="DT_e"> directamente desde Escala.',
   'img2' => App::setFilePath('/assets/images/illustrations/others/icono-14 1.png'),
   'title2' => '<span class="greenBlueColor">Gestiona y organiza</span> <br class="space"> la información de tus contactos',
-  'desc2' => 'Empodera a tu equipo de ventas con el CRM <br class="desktopTabletElement"> más amigable y fácil de usar. Incrementa la <br class="desktopTabletElement"> productividad planificando actividades y <br class="desktopTabletElement"> mantén comunicación constante con tus leads.',
+  'desc2' => 'Empodera a tu equipo de ventas con el CRM <br class="DT_e"> más amigable y fácil de usar. Incrementa la <br class="DT_e"> productividad planificando actividades y <br class="DT_e"> mantén comunicación constante con tus leads.',
   'img3' => App::setFilePath('/assets/images/illustrations/others/icono-12 1.png'),
   'title3' => 'Envía Emails <br class="space"> <span class="greenBlueColor">profesionales</span>',
   'desc3' => 'Nutre la relación con tus contactos enviando <br class="space"> efectivas campañas de emails. Con nuestras <br class="space"> plantillas prediseñadas logras enviar masivamente <br class="space"> mensajes personalizados con tan solo un clic.',
@@ -148,7 +148,7 @@
   'desc4' => 'Nunca más realices tareas repetitivas de <br class="space"> marketing digital y ventas. Programa <br class="space"> recordatorios, acciones y mensajes que <br class="space"> aumentan tu productividad.',
   'img5' => App::setFilePath('/assets/images/illustrations/others/icono-15 1.png'),
   'title5' => '<span class="greenBlueColor">Ten la visibilidad</span> de los <br class="space"> resultados de tu negocio',
-  'desc5' => 'Lo que no se mide, no mejora. Escala te da <br class="space"> las analíticas necesarias en dashboards <br class="space"> amigables para que optimices tus <br class="desktopTabletElement"> esfuerzos de venta y marketing.',
+  'desc5' => 'Lo que no se mide, no mejora. Escala te da <br class="space"> las analíticas necesarias en dashboards <br class="space"> amigables para que optimices tus <br class="DT_e"> esfuerzos de venta y marketing.',
  ) ;
 @endphp
 

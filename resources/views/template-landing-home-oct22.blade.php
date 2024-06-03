@@ -112,7 +112,7 @@
   'subTitlePrincipal' => null,
   'title' => '
 
-  “<span class="greenBlueColor">Después de décadas construyendo negocios,</span> creamos <br class="desktopTabletElement">
+  “<span class="greenBlueColor">Después de décadas construyendo negocios,</span> creamos <br class="DT_e">
   Escala basándonos en nuestra metodología para escalar empresas”.
     <br class="space"><br class="space">
     <span class="subText">
@@ -148,7 +148,7 @@
 @php
 $parameters = [
     'type' => 'backgroundColor',
-    'classSection' => 'dev_landing_home2 desktopElement',
+    'classSection' => 'dev_landing_home2 D_e',
     'enableTitle' => true,
     'titlePrincipal' => '
     Qué puede lograr tu empresa <span class="greenBlueColor">con Escala</span>
@@ -214,7 +214,7 @@ $parameters = [
 @php
 $parameters = [
     'type' => 'backgroundColor',
-    'classSection' => 'dev_landing_home2 mobileElement',
+    'classSection' => 'dev_landing_home2 MT_e',
     'enableTitle' => true,
     'titlePrincipal' => '
     Qué puede lograr tu empresa <span class="greenBlueColor">con Escala</span>
@@ -353,7 +353,7 @@ $parameters = [
             </h2>
 
             <p class="primaryText grayColorTexts">
-              Desde el día 1, le asignamos a ti y a tu equipo un gerente especialista en marketing digital y <br class="desktopTabletElement">
+              Desde el día 1, le asignamos a ti y a tu equipo un gerente especialista en marketing digital y <br class="DT_e">
               ventas que guía sus pasos para que integren exitosamente la plataforma a sus operaciones.
             </p>
 
@@ -375,8 +375,8 @@ $parameters = [
                 </h3>
 
                 <p class="text">
-                  Una vez se sucriben a Escala, su Gerente de Cuenta los apoya a definir un <br class="desktopTabletElement">
-                  plan, que tú y tu equipo implementen a su propio ritmo, basándose en <br class="desktopTabletElement">
+                  Una vez se sucriben a Escala, su Gerente de Cuenta los apoya a definir un <br class="DT_e">
+                  plan, que tú y tu equipo implementen a su propio ritmo, basándose en <br class="DT_e">
                   nuestra Metodología probada de Éxito. La misma se divide en 4 fases:
                 </p>
 
@@ -475,7 +475,7 @@ $parameters = [
   'classSection' => 'landing_home_4',
   'enableTitle' => true,
   'titlePrincipal' => '
-  <span class="greenBlueColor">Mejora el crecimiento de tu empresa </span><br class="desktopTabletElement">
+  <span class="greenBlueColor">Mejora el crecimiento de tu empresa </span><br class="DT_e">
 con todas las herramientas en una plataforma',
   'subTitlePrincipal' => null,
   'img' => App::setFilePath('/assets/images/illustrations/others/Group 8765.png'),
@@ -483,12 +483,12 @@ con todas las herramientas en una plataforma',
   <small class="smallEscalaTag">
     Landings + Formularios
     </small> <br class="space">
-  Mejora tu presencia online <br class="desktopTabletElement">
+  Mejora tu presencia online <br class="DT_e">
   y captura leads calificados
   ',
   'text' => '
-    Crea hermosas páginas de aterrizaje en minutos para <br class="desktopTabletElement">
-    despertar el interés de clientes potenciales e incentívalos a <br class="desktopTabletElement">
+    Crea hermosas páginas de aterrizaje en minutos para <br class="DT_e">
+    despertar el interés de clientes potenciales e incentívalos a <br class="DT_e">
     registrar su contacto para iniciar una relación comercial.
   ',
   'enableButton' => false,
@@ -513,14 +513,14 @@ con todas las herramientas en una plataforma',
   <small class="smallEscalaTag">
     Ads + Emails
     </small> <br class="space">
-  Lleva tráfico calificado a <br class="desktopTabletElement">
+  Lleva tráfico calificado a <br class="DT_e">
   tus páginas
   ',
   'text' => '
-    Tienes dos opciones para llevar visitantes a <br class="desktopTabletElement">
+    Tienes dos opciones para llevar visitantes a <br class="DT_e">
     tus landing pages:
     <ul class="text">
-      <li><span class="greenBlueColor">1.</span> Crear o importar campañas de anuncios <br class="desktopTabletElement">
+      <li><span class="greenBlueColor">1.</span> Crear o importar campañas de anuncios <br class="DT_e">
       pagas en Facebook e Instagram</li>
       <li><span class="greenBlueColor">2.</span> Enviar campañas de email a tu base de datos</li>
     </ul>
@@ -547,7 +547,7 @@ con todas las herramientas en una plataforma',
   <small class="smallEscalaTag">
     CRM fácil de usar
   </small> <br class="space">
-  Gestiona contactos y optimiza <br class="desktopTabletElement">
+  Gestiona contactos y optimiza <br class="DT_e">
   procesos comerciales
   ',
   'text' => '
@@ -557,7 +557,7 @@ con todas las herramientas en una plataforma',
       <li>Llevar un historial de interacciones</li>
       <li>Programa actividades y recordatorios</li>
       <li>Controlar procesos con embudos</li>
-      <li>Hacer mejor seguimiento a tu equipo hasta <br class="desktopTabletElement">
+      <li>Hacer mejor seguimiento a tu equipo hasta <br class="DT_e">
         ganar oportunidades de negocio </li>
     </ul>
   ',
@@ -583,14 +583,14 @@ con todas las herramientas en una plataforma',
   <small class="smallEscalaTag">
     Email Marketing + Plantillas de venta
   </small> <br class="space">
-  Comunícate efectivamente <br class="desktopTabletElement">
+  Comunícate efectivamente <br class="DT_e">
   con emails profesionales
   ',
   'text' => '
-    Envía campañas de email impactantes con <br class="desktopTabletElement">
-    plantillas optimizadas para mejorar tu tasa de <br class="desktopTabletElement">
-    apertura y tu índice de clics, generar mayor <br class="desktopTabletElement">
-    interacción, aumentar tu ROI e incrementar tu <br class="desktopTabletElement">
+    Envía campañas de email impactantes con <br class="DT_e">
+    plantillas optimizadas para mejorar tu tasa de <br class="DT_e">
+    apertura y tu índice de clics, generar mayor <br class="DT_e">
+    interacción, aumentar tu ROI e incrementar tu <br class="DT_e">
     conversión.
   ',
   'enableButton' => false,
@@ -615,14 +615,14 @@ con todas las herramientas en una plataforma',
   <small class="smallEscalaTag">
     Automatizaciones
   </small> <br class="space">
-    ¡Ahorra tiempo y esfuerzo <br class="desktopTabletElement">
+    ¡Ahorra tiempo y esfuerzo <br class="DT_e">
     automatizando acciones!
   ',
   'text' => '
-    Evita realizar tareas repetitivas y cometer errores <br class="desktopTabletElement">
-    humanos creando flujos y programando acciones <br class="desktopTabletElement">
-    que se ejecuten automáticamente para optimizar <br class="desktopTabletElement">
-    tus resultados de marketing, ventas y fidelización <br class="desktopTabletElement">
+    Evita realizar tareas repetitivas y cometer errores <br class="DT_e">
+    humanos creando flujos y programando acciones <br class="DT_e">
+    que se ejecuten automáticamente para optimizar <br class="DT_e">
+    tus resultados de marketing, ventas y fidelización <br class="DT_e">
     de clientes.
   ',
   'enableButton' => false,
@@ -648,14 +648,14 @@ con todas las herramientas en una plataforma',
   <small class="smallEscalaTag">
     Analíticas
   </small> <br class="space">
-    Lo que no se mide <br class="desktopTabletElement">
+    Lo que no se mide <br class="DT_e">
     no se mejora
   ',
   'text' => '
-    Analiza tus esfuerzos comerciales con métricas y <br class="desktopTabletElement">
+    Analiza tus esfuerzos comerciales con métricas y <br class="DT_e">
     dashboards actualizados en tiempo real. <br class="space">
-    Entiende  rápidamente lo que funciona y lo que <br class="desktopTabletElement">
-    debes mejorar al usar cada herramienta de <br class="desktopTabletElement">
+    Entiende  rápidamente lo que funciona y lo que <br class="DT_e">
+    debes mejorar al usar cada herramienta de <br class="DT_e">
     Escala.
   ',
   'enableButton' => false,
@@ -679,17 +679,17 @@ con todas las herramientas en una plataforma',
   'subTitlePrincipal' => null,
   'img' => App::setFilePath('/assets/images/person/implementacion_banner_principal-1-1.png'),
   'title' => '
-    Conviértete en Partner <br class="desktopTabletElement">
+    Conviértete en Partner <br class="DT_e">
     o Afiliado de Escala
     <br class="space">
     <small class="subTitle">
-      Construye tu negocio mientras <br class="desktopTabletElement">
+      Construye tu negocio mientras <br class="DT_e">
       impulsas el crecimiento de otros
       </small>
   ',
   'text' => '
-      Al asociarte a Escala, obtienes recursos especiales y <br class="desktopTabletElement">
-      hasta 20% de comisión por ventas y servicios prestados <br class="desktopTabletElement">
+      Al asociarte a Escala, obtienes recursos especiales y <br class="DT_e">
+      hasta 20% de comisión por ventas y servicios prestados <br class="DT_e">
       mientras tus clientes se mantienen suscritos a Escala.
   ',
   'enableButton' => true,
@@ -713,7 +713,7 @@ $parameters = [
     Acelera tu aprendizaje <span class="greenBlueColor">con Escala Academy</span>
     ',
     'subTitlePrincipal' => '
-    Ten acceso a una variedad de recursos para aprender a tu propio ritmo <br class="desktopTabletElement">
+    Ten acceso a una variedad de recursos para aprender a tu propio ritmo <br class="DT_e">
     y conecta con nuestro equipo de servicio para atender a preguntas.',
     'overlay' => false,
     'enableButton' => false,
@@ -867,7 +867,7 @@ $items = [
     [
         'type' => 'master',
         'title' => '¿Qué es Escala?',
-        'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas que te ayudará a acelerar el éxito de tu negocio, con todas las <br class="desktopElement"> herramientas en un solo lugar para crecer de una manera constante. Conoce todos los beneficios de Escala:<br class="space"><br class="space">
+        'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas que te ayudará a acelerar el éxito de tu negocio, con todas las <br class="D_e"> herramientas en un solo lugar para crecer de una manera constante. Conoce todos los beneficios de Escala:<br class="space"><br class="space">
                     <ul style="list-style: disc; padding-left: 20px">
                         <li><p>Crea landing pages increíbles sin programar, para darte a conocer y capturar la información de tus visitantes.</p></li>
                         <li><p>Crea, administra y publica anuncios digitales de Instagram y Facebook, sin salir de Escala, para generar tráfico a tus páginas.</p></li>
@@ -879,12 +879,12 @@ $items = [
     [
         'type' => 'master',
         'title' => '¿Necesito habilidades para manejar la plataforma?',
-        'text' => 'No. nuestra herramienta es muy intuitiva y fácil de usar. Para que estés más tranquilo, hemos preparado una serie de tutoriales muy <br class="desktopElement"> prácticos, que te ayudarán a despejar cualquier duda que tengas mientras vives la experiencia. También puedes contar con nuestro <br class="desktopElement"> acompañamiento, a través de asesorías, que te serán de gran ayuda en los primeros momentos de uso de la plataforma. <a class="hiperButtonGreenBlueT2"href="'.$escalaUrl.'/zoom-meeting">Atención al cliente.</a>'
+        'text' => 'No. nuestra herramienta es muy intuitiva y fácil de usar. Para que estés más tranquilo, hemos preparado una serie de tutoriales muy <br class="D_e"> prácticos, que te ayudarán a despejar cualquier duda que tengas mientras vives la experiencia. También puedes contar con nuestro <br class="D_e"> acompañamiento, a través de asesorías, que te serán de gran ayuda en los primeros momentos de uso de la plataforma. <a class="hiperButtonGreenBlueT2"href="'.$escalaUrl.'/zoom-meeting">Atención al cliente.</a>'
     ],
     [
         'type' => 'master',
         'title' => '¿Qué incluye?',
-        'text' => 'Cuando adquieres cualquiera de los planes de Escala cuentas con: Todas las funcionalidades de marketing digital y ventas, servicio <br class="desktopElement"> ilimitado y entrenamiento para usar la plataforma.'
+        'text' => 'Cuando adquieres cualquiera de los planes de Escala cuentas con: Todas las funcionalidades de marketing digital y ventas, servicio <br class="D_e"> ilimitado y entrenamiento para usar la plataforma.'
     ],
     [
         'type' => 'master',
@@ -894,75 +894,75 @@ $items = [
                 'title' =>
                     '¿Los embudos de venta aplican para todos los negocios?',
                 'text' =>
-                    'Así es. Todos los negocios tienen un embudo de ventas, conscientemente o no, dado que buscan atraer leads y convertirlos en <br class="desktopElement"> clientes. No olvides que un embudo de ventas es una metodología, paso a paso, que puede combinar marketing digital y offline. <br class="desktopElement"> En Escala tienes todas las funcionalidades para implementarlo de manera fácil, invirtiendo menos recursos, tiempo y dinero.',
+                    'Así es. Todos los negocios tienen un embudo de ventas, conscientemente o no, dado que buscan atraer leads y convertirlos en <br class="D_e"> clientes. No olvides que un embudo de ventas es una metodología, paso a paso, que puede combinar marketing digital y offline. <br class="D_e"> En Escala tienes todas las funcionalidades para implementarlo de manera fácil, invirtiendo menos recursos, tiempo y dinero.',
                 'type' => 'item'
             ],
             [
                 'title' => '¿Qué ventajas tiene el CRM de Escala?',
                 'text' =>
-                    'Esta pregunta es fundamental. Es importante que sepas que el CRM de Escala no solo cuenta con todas opciones para gestionar tus <br class="desktopElement"> contactos: información relacionada con el nombre, email y teléfono, y de gestión de tu equipo comercial como: actividades, tareas, <br class="desktopElement"> llamadas y recordatorios hasta cerrar la venta, sino que también es el CRM más fácil de usar de todos. Pruébalo y descúbrelo por ti <br class="desktopElement"> mismo. ',
+                    'Esta pregunta es fundamental. Es importante que sepas que el CRM de Escala no solo cuenta con todas opciones para gestionar tus <br class="D_e"> contactos: información relacionada con el nombre, email y teléfono, y de gestión de tu equipo comercial como: actividades, tareas, <br class="D_e"> llamadas y recordatorios hasta cerrar la venta, sino que también es el CRM más fácil de usar de todos. Pruébalo y descúbrelo por ti <br class="D_e"> mismo. ',
                 'type' => 'item'
             ],
             [
                 'title' => 'El Page builder de Escala ¿cómo funciona?',
                 'text' =>
-                    'El Page builder de Escala es el más fácil de usar del mercado. Práctico para realizar tus landing pages optimizadas. Tenemos cientos <br class="desktopElement"> de hermosas plantillas listas para que las personalices y en un clic las puedas publicar. Con formularios capaces de captar toda la <br class="desktopElement"> data y guardarla automáticamente en tu base de datos. <br class="space"><br class="space"> Fáciles de armar en minutos, 100% responsive y con un subdominio en caso que no tengas dominio propio. Además ya tienen <br class="desktopElement"> integrado el botón de WhatsApp para que tus visitantes conversen directamente con tu equipo de ventas.',
+                    'El Page builder de Escala es el más fácil de usar del mercado. Práctico para realizar tus landing pages optimizadas. Tenemos cientos <br class="D_e"> de hermosas plantillas listas para que las personalices y en un clic las puedas publicar. Con formularios capaces de captar toda la <br class="D_e"> data y guardarla automáticamente en tu base de datos. <br class="space"><br class="space"> Fáciles de armar en minutos, 100% responsive y con un subdominio en caso que no tengas dominio propio. Además ya tienen <br class="D_e"> integrado el botón de WhatsApp para que tus visitantes conversen directamente con tu equipo de ventas.',
                 'type' => 'item'
             ],
             [
                 'title' =>
                     '¿En Escala se puede usar un dominio distinto para cada landing page?',
                 'text' =>
-                    'Sí, en Escala puedes tener varios dominios para tus landing pages. Solo debes configurarlos y usarlos cuando lo necesites en cada <br class="desktopElement"> una de tus páginas.',
+                    'Sí, en Escala puedes tener varios dominios para tus landing pages. Solo debes configurarlos y usarlos cuando lo necesites en cada <br class="D_e"> una de tus páginas.',
                 'type' => 'item'
             ],
             [
                 'title' =>
                     '¿Puedo agregar el botón de WhatsApp en las landing pages de Escala?',
                 'text' =>
-                    'Las landing pages de Escala ya tienen disponible el botón de WhatsApp para que tu cliente pueda tener una conversación más fluida <br class="desktopElement"> con tu empresa. Se puede encontrar en la pestaña de “WhatsApp” en cada landing. Si la página ya está publicada, tendrás que re-<br class="desktopElement">publicarla después de activar el botón para que aparezca en tu página. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=5HOSPcDXdTQ&t=4s">Tutorial de Cómo activar botón de WhatsApp.</a> ',
+                    'Las landing pages de Escala ya tienen disponible el botón de WhatsApp para que tu cliente pueda tener una conversación más fluida <br class="D_e"> con tu empresa. Se puede encontrar en la pestaña de “WhatsApp” en cada landing. Si la página ya está publicada, tendrás que re-<br class="D_e">publicarla después de activar el botón para que aparezca en tu página. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=5HOSPcDXdTQ&t=4s">Tutorial de Cómo activar botón de WhatsApp.</a> ',
                 'type' => 'item'
             ],
             [
                 'title' =>
                     '¿Puedo publicar campañas de anuncios digitales en Escala?',
                 'text' =>
-                    'En Escala puedes crear, administrar y publicar anuncios digitales de Instagram y Facebook, sin tener que salir de nuestra plataforma. Elige a tu <br class="desktopElement"> audiencia, presupuesto determinado y genera tráfico a tus landing pages de la manera más fácil y práctica.',
+                    'En Escala puedes crear, administrar y publicar anuncios digitales de Instagram y Facebook, sin tener que salir de nuestra plataforma. Elige a tu <br class="D_e"> audiencia, presupuesto determinado y genera tráfico a tus landing pages de la manera más fácil y práctica.',
                 'type' => 'item'
             ],
             [
                 'title' =>
                     '¿Qué tipo de campañas son las que se están creando desde Escala?',
                 'text' =>
-                    'En Escala puedes crear campañas de anuncios digitales de Instagram y Facebook para lograr generar tráfico a tus landing pages. Su objetivo es <br class="desktopElement"> atraer posibles clientes (Captura de Leads) para que registren sus datos y con esta información puedas cerrar más ventas.',
+                    'En Escala puedes crear campañas de anuncios digitales de Instagram y Facebook para lograr generar tráfico a tus landing pages. Su objetivo es <br class="D_e"> atraer posibles clientes (Captura de Leads) para que registren sus datos y con esta información puedas cerrar más ventas.',
                 'type' => 'item'
             ],
             [
                 'title' =>
                     'En los anuncios digitales de Escala, ¿la propia plataforma maneja el píxel de Facebook o hay que integrarlo desde 0?',
                 'text' =>
-                    'Para agregar el píxel de Facebook debes ir a "configuración" de Escala, entra a la sección de "píxeles y códigos de seguimiento" y <br class="desktopElement"> darle clic a "agregar cuenta". Así de fácil es agregar el píxel de Facebook.',
+                    'Para agregar el píxel de Facebook debes ir a "configuración" de Escala, entra a la sección de "píxeles y códigos de seguimiento" y <br class="D_e"> darle clic a "agregar cuenta". Así de fácil es agregar el píxel de Facebook.',
                 'type' => 'item'
             ],
             [
                 'title' =>
                     '¿Puedo hacer campañas de email marketing en Escala?',
                 'text' =>
-                    'La respuesta es sí. Haz efectivas campañas de email marketing con sencillas plantillas de email. Realiza envíos masivos sin caer en la <br class="desktopElement"> bandeja de spam y ten las métricas en tiempo real para mejorar los resultados de tus campañas.',
+                    'La respuesta es sí. Haz efectivas campañas de email marketing con sencillas plantillas de email. Realiza envíos masivos sin caer en la <br class="D_e"> bandeja de spam y ten las métricas en tiempo real para mejorar los resultados de tus campañas.',
                 'type' => 'item'
             ],
             [
                 'title' =>
                     '¿En qué parte de Escala puedo crear las plantillas de email marketing?',
                 'text' =>
-                    'En la funcionalidad de plantillas, al darle la opción de “+Crear” arriba a la derecha, puedes elegir esta opción. Haz clic en opciones de <br class="desktopElement"> plantillas, allí se desplegará las alternativas de: "Plantilla de CRM" o "Plantilla de marketing". Elige “Plantilla de marketing” y <br class="desktopElement"> comienza a personalizarla. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=E_1VObta6Lk">Tutorial de cómo crear plantillas de Email Marketing.</a> ',
+                    'En la funcionalidad de plantillas, al darle la opción de “+Crear” arriba a la derecha, puedes elegir esta opción. Haz clic en opciones de <br class="D_e"> plantillas, allí se desplegará las alternativas de: "Plantilla de CRM" o "Plantilla de marketing". Elige “Plantilla de marketing” y <br class="D_e"> comienza a personalizarla. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=E_1VObta6Lk">Tutorial de cómo crear plantillas de Email Marketing.</a> ',
                 'type' => 'item'
             ],
             [
                 'title' =>
                     '¿ Cuáles son las funcionalidades de automatizaciones y analíticas?',
                 'text' =>
-                    'En Escala te damos todas las métricas para optimizar tus resultados. Tanto en las funcionalidades de marketing como las de ventas <br class="desktopElement"> tienes dashboards amigables que te permiten ver en tiempo real las métricas que son importantes. <br class="space"><br class="space"> En Escala puedes automatizar flujos de tareas para tu fuerza de ventas, programar workflows de comunicación y de email marketing, <br class="desktopElement"> para que tu negocio crezca en piloto automático. ',
+                    'En Escala te damos todas las métricas para optimizar tus resultados. Tanto en las funcionalidades de marketing como las de ventas <br class="D_e"> tienes dashboards amigables que te permiten ver en tiempo real las métricas que son importantes. <br class="space"><br class="space"> En Escala puedes automatizar flujos de tareas para tu fuerza de ventas, programar workflows de comunicación y de email marketing, <br class="D_e"> para que tu negocio crezca en piloto automático. ',
                 'type' => 'item'
             ]
         ]
@@ -980,13 +980,13 @@ $items = [
             [
                 'title' => '¿Puedo usar mi propio dominio?',
                 'text' =>
-                    'Sí, en Escala puedes utilizar tu dominio tal como se encuentra registrado en tu hosting, para conocer cómo conectarlo puedes <br class="desktopElement"> visualizar nuestro tutorial: <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=vpdEwrcrZt0&t=44s">Cómo conectar dominio de página.</a> ',
+                    'Sí, en Escala puedes utilizar tu dominio tal como se encuentra registrado en tu hosting, para conocer cómo conectarlo puedes <br class="D_e"> visualizar nuestro tutorial: <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=vpdEwrcrZt0&t=44s">Cómo conectar dominio de página.</a> ',
                 'type' => 'item'
             ],
             [
                 'title' => '¿Cómo creo una cuenta?',
                 'text' =>
-                    'Para crear una cuenta debes ingresar tus datos haciendo clic en en el botón “Recibe un demo” en <a class="hiperButtonGreenBlueT2"href="https://escala.com/">https://escala.com/</a> y te <br class="desktopElement"> contactará uno de nuestros asesores para comenzar tu free trial.',
+                    'Para crear una cuenta debes ingresar tus datos haciendo clic en en el botón “Recibe un demo” en <a class="hiperButtonGreenBlueT2"href="https://escala.com/">https://escala.com/</a> y te <br class="D_e"> contactará uno de nuestros asesores para comenzar tu free trial.',
                 'type' => 'item'
             ],
             [
@@ -1004,7 +1004,7 @@ $items = [
             [
                 'title' => '¿Cómo recupero mi contraseña?',
                 'text' =>
-                    'Si no recuerdas tu contraseña, haz clic en el link de recuperar y te enviaremos un correo <br class="desktopElement"> para gestionarla de nuevo.',
+                    'Si no recuerdas tu contraseña, haz clic en el link de recuperar y te enviaremos un correo <br class="D_e"> para gestionarla de nuevo.',
                 'type' => 'item'
             ],
             [
@@ -1030,14 +1030,14 @@ $items = [
             [
                 'title' => '¿Puedo cambiar o cancelar planes?',
                 'text' =>
-                    'Sí en Escala puedes cancelar tus planes cuando desees, pero sabemos que será tan útil que querrás ir al siguiente nivel. Para cambiar <br class="desktopElement"> o cancelar tus planes debes contactarte con nuestro equipo, a través de WhatsApp o chat.',
+                    'Sí en Escala puedes cancelar tus planes cuando desees, pero sabemos que será tan útil que querrás ir al siguiente nivel. Para cambiar <br class="D_e"> o cancelar tus planes debes contactarte con nuestro equipo, a través de WhatsApp o chat.',
                 'type' => 'item'
             ],
             [
                 'title' =>
                     '¿Debo pagar por las actualizaciones de la herramienta?',
                 'text' =>
-                    'No, no debes pagar por las actualizaciones. Solo pagas por las funcionalidades que utilices y si incrementas tu plan será por tus <br class="desktopElement"> necesidades de contactos de marketing o ventas o porque tu negocio está creciendo y necesitas más usuarios.',
+                    'No, no debes pagar por las actualizaciones. Solo pagas por las funcionalidades que utilices y si incrementas tu plan será por tus <br class="D_e"> necesidades de contactos de marketing o ventas o porque tu negocio está creciendo y necesitas más usuarios.',
                 'type' => 'item'
             ]
         ]
@@ -1049,25 +1049,25 @@ $items = [
             [
                 'title' => '¿Qué tan seguro es?',
                 'text' =>
-                    'En Escala tu data está en buenas manos. Tu información no es vista por nadie, solo por personas de tu equipo y bajo los permisos <br class="desktopElement"> que hayas asignado. Para nosotros tu seguridad es primero.',
+                    'En Escala tu data está en buenas manos. Tu información no es vista por nadie, solo por personas de tu equipo y bajo los permisos <br class="D_e"> que hayas asignado. Para nosotros tu seguridad es primero.',
                 'type' => 'item'
             ],
             [
                 'title' => '¿Cómo exportar datos?',
                 'text' =>
-                    'Podrás exportar la información de tus contactos y oportunidades de ventas desde cada listado en el CRM. Te enviaremos <br class="desktopElement"> un documento a tu correo con los datos que hayas elegido exportar.',
+                    'Podrás exportar la información de tus contactos y oportunidades de ventas desde cada listado en el CRM. Te enviaremos <br class="D_e"> un documento a tu correo con los datos que hayas elegido exportar.',
                 'type' => 'item'
             ],
             [
                 'title' => '¿Cómo importar datos?',
                 'text' =>
-                    'Puedes importar tus bases de datos al CRM de Escala, solo necesitas guardar la información en un archivo .csv o .txt e iniciar el <br class="desktopElement"> proceso desde el listado de contactos. Chequea nuestro tutorial: <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=2bJFjHWbI1E">Ver tutorial</a>',
+                    'Puedes importar tus bases de datos al CRM de Escala, solo necesitas guardar la información en un archivo .csv o .txt e iniciar el <br class="D_e"> proceso desde el listado de contactos. Chequea nuestro tutorial: <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=2bJFjHWbI1E">Ver tutorial</a>',
                 'type' => 'item'
             ],
             [
                 'title' => '¿Cómo conceder accesos e invitar a terceros?',
                 'text' =>
-                    'Puedes agregar a terceros y a todos los miembros de tu equipo de trabajo para hacer más eficiente tu gestión. Es muy fácil te <br class="desktopElement"> invitamos a ver todo el detalle en este práctico tutorial. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=dCrD2cD_Xpw">Ver tutorial</a>',
+                    'Puedes agregar a terceros y a todos los miembros de tu equipo de trabajo para hacer más eficiente tu gestión. Es muy fácil te <br class="D_e"> invitamos a ver todo el detalle en este práctico tutorial. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=dCrD2cD_Xpw">Ver tutorial</a>',
                 'type' => 'item'
             ]
         ]
@@ -1079,7 +1079,7 @@ $items = [
             [
                 'title' => '¿Cómo conectar con un experto?',
                 'text' =>
-                    'En Escala tu crecimiento de negocio es vital para nosotros por eso, siempre tendrás la asesoría de un experto en marketing digital y <br class="desktopElement"> ventas acompañándote en todo el camino. <a class="hiperButtonGreenBlueT2"href="' .
+                    'En Escala tu crecimiento de negocio es vital para nosotros por eso, siempre tendrás la asesoría de un experto en marketing digital y <br class="D_e"> ventas acompañándote en todo el camino. <a class="hiperButtonGreenBlueT2"href="' .
                     $escalaUrl .
                     '/zoom-meeting">Link con asesor</a>',
                 'type' => 'item'
@@ -1087,7 +1087,7 @@ $items = [
             [
                 'title' => '¿Con quién puedo conectar para recibir asistencia?',
                 'text' =>
-                    '<span style="color:#34768a">Si tienes dudas sobre cualquier cosa puedes:</span> <br class="desktopElement"> <ul style="color:#34768a"class="accordionSpecial"><li>1. Ver nuestros tutoriales de uso en nuestro canal de youtube. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/channel/UCiDlXaq67qVf8lSTurRS8lQ">Escala en Youtube</a></li><li>2. Hablar con un asesor. <a class="hiperButtonGreenBlueT2"href="' .
+                    '<span style="color:#34768a">Si tienes dudas sobre cualquier cosa puedes:</span> <br class="D_e"> <ul style="color:#34768a"class="accordionSpecial"><li>1. Ver nuestros tutoriales de uso en nuestro canal de youtube. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/channel/UCiDlXaq67qVf8lSTurRS8lQ">Escala en Youtube</a></li><li>2. Hablar con un asesor. <a class="hiperButtonGreenBlueT2"href="' .
                     $escalaUrl .
                     '/zoom-meeting">Link con asesor</a></li><li>3. Conversar por chat. <a class="hiperButtonGreenBlueT2"href="https://api.WhatsApp.com/send?phone=17863042407">Chat de WhatsApp</a></li><li>4. Hablar con el Especialista en customer success asignado a tu cuenta (Plan Pro y Enterprise).</li></ul>',
                 'type' => 'item'
@@ -1102,13 +1102,13 @@ $items = [
                 'title' =>
                     '¿Hay formas de aprender marketing y ventas para mejorar mi negocio?',
                 'text' =>
-                    'Escala Academy es el programa de formación constante, mediante el cual te daremos todo el conocimiento de marketing digital y <br class="desktopElement"> ventas para hacerte un experto. <br class="space"><br class="space"> Escala Academy: <br class="desktopElement"> <ul style="color:#34768a"class="accordionSpecial"><li>Tutoriales funcionalidades.</li><li>Blog Escala.</li><li>Workshops para tu empresa.</li><li>Webinars especializados en temas (Escalatones).</li><li>Programas de Éxito.</li></ul>',
+                    'Escala Academy es el programa de formación constante, mediante el cual te daremos todo el conocimiento de marketing digital y <br class="D_e"> ventas para hacerte un experto. <br class="space"><br class="space"> Escala Academy: <br class="D_e"> <ul style="color:#34768a"class="accordionSpecial"><li>Tutoriales funcionalidades.</li><li>Blog Escala.</li><li>Workshops para tu empresa.</li><li>Webinars especializados en temas (Escalatones).</li><li>Programas de Éxito.</li></ul>',
                 'type' => 'item'
             ],
             [
                 'title' => '¿Necesito pagar para tener toda la información?',
                 'text' =>
-                    'Todo nuestro material de apoyo y conocimiento es totalmente gratis. Para nosotros mantenerte bien informado y en constante <br class="desktopElement"> formación es una inversión para ayudarte a hacer crecer tu negocio.',
+                    'Todo nuestro material de apoyo y conocimiento es totalmente gratis. Para nosotros mantenerte bien informado y en constante <br class="D_e"> formación es una inversión para ayudarte a hacer crecer tu negocio.',
                 'type' => 'item'
             ]
         ]

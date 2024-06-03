@@ -44,9 +44,9 @@
       'videoCover' => App::setFilePath('/assets/images/illustrations/others/portada_video_andres.jpg'),
       'text' => '
           <span class="greenBlueColor">
-            “La gestión inteligente de campañas de email <br class="desktopTabletElement">
-            marketing es una estrategia fundamental para <br class="desktopTabletElement">
-            mantenerse en contacto, y quizás el método de <br class="desktopTabletElement">
+            “La gestión inteligente de campañas de email <br class="DT_e">
+            marketing es una estrategia fundamental para <br class="DT_e">
+            mantenerse en contacto, y quizás el método de <br class="DT_e">
             menor costo y mayor ROI”.
           </span>
           <br class="space"><br class="space">
@@ -98,7 +98,7 @@
               <div class="info col-md-12 col-lg-6">
 
                 <h2 class="primaryTitle blackColor">
-                  <span class="greenBlueColor">Conoce por qué es tan poderoso</span> <br class="desktopTabletElement">
+                  <span class="greenBlueColor">Conoce por qué es tan poderoso</span> <br class="DT_e">
                   el Email Marketing de Escala
                 </h2>
 
@@ -108,11 +108,11 @@
                     $elements = array(
 
                       [
-                        'title' => 'Aumenta tus tasas de apertura y clics, <span>incrementando tu ROI <br class="desktopTabletElement"> de marketing con campañas de emails altamente rentables</span>',
+                        'title' => 'Aumenta tus tasas de apertura y clics, <span>incrementando tu ROI <br class="DT_e"> de marketing con campañas de emails altamente rentables</span>',
                         'text' => null
                       ],
                       [
-                        'title' => 'Automatiza tus flujos de emails <span>según el comportamiento <br class="desktopTabletElement">
+                        'title' => 'Automatiza tus flujos de emails <span>según el comportamiento <br class="DT_e">
                         de tus contactos</span>',
                         'text' => null
                       ],
@@ -125,12 +125,12 @@
                         'text' => null
                       ],
                       [
-                        'title' => 'Crea hermosos emails, <span>eligiendo una de nuestras plantillas <br class="desktopTabletElement"> 100% responsivas, listas-para-usar de Escala</span>',
+                        'title' => 'Crea hermosos emails, <span>eligiendo una de nuestras plantillas <br class="DT_e"> 100% responsivas, listas-para-usar de Escala</span>',
                         'text' => null
                       ],
                       [
                         'title' => 'Segmenta y personaliza tus campañas <span>
-                          de Email Marketing <br class="desktopTabletElement">
+                          de Email Marketing <br class="DT_e">
                           con etiquetas avanzadas
                         </span>',
                         'text' => null
@@ -140,7 +140,7 @@
                         'text' => null
                       ],
                       [
-                        'title' => 'Fideliza a más clientes <span>con campañas de: Upsells, promociones <br class="desktopTabletElement"> customizadas, evaluaciones post venta y nuevos lanzamientos</span>',
+                        'title' => 'Fideliza a más clientes <span>con campañas de: Upsells, promociones <br class="DT_e"> customizadas, evaluaciones post venta y nuevos lanzamientos</span>',
                         'text' => null
                       ],
                       [
@@ -196,11 +196,11 @@
        'enableTitle' => true,
        'titlePrincipal' => '
        <span class="whiteColor">
-      Descubre 3 formas de hacer más eficiente <br class="desktopTabletElement">
+      Descubre 3 formas de hacer más eficiente <br class="DT_e">
       <span style="color: #A4E7EA">tu Email Marketing con Escala</span>
        </span>',
        'subTitlePrincipal' => '
-         El Email Marketing tiene +80% de eficacia para lograr la conversión <br class="desktopTabletElement">
+         El Email Marketing tiene +80% de eficacia para lograr la conversión <br class="DT_e">
         a ventas. Es una funcionalidad altamente rentable y fácil de usar.
        ',
        'overlay' => false,
@@ -216,10 +216,10 @@
                 1. Incrementa tus aperturas
                    </span>',
                'text' => '
-                Un correo que no es leído, es una oportunidad de <br class="desktopTabletElement">
-                ventas perdida. Con Escala crea efectivos emails <br class="desktopTabletElement">
-                para todas las plataformas, garantizando que <br class="desktopTabletElement">
-                llegarán a la bandeja correcta, en el momento <br class="desktopTabletElement">
+                Un correo que no es leído, es una oportunidad de <br class="DT_e">
+                ventas perdida. Con Escala crea efectivos emails <br class="DT_e">
+                para todas las plataformas, garantizando que <br class="DT_e">
+                llegarán a la bandeja correcta, en el momento <br class="DT_e">
                 correcto.
                ',
                'enableButton' => false,
@@ -230,9 +230,9 @@
                 2. Aumenta tu CTR
                    </span>',
                'text' => '
-                Mejora la tasa de clics de tus correos, creando <br class="desktopTabletElement">
-                contenido que sea relevante para tus contactos. <br class="desktopTabletElement">
-                Segmenta y personaliza para aumentar la interacción <br class="desktopTabletElement">
+                Mejora la tasa de clics de tus correos, creando <br class="DT_e">
+                contenido que sea relevante para tus contactos. <br class="DT_e">
+                Segmenta y personaliza para aumentar la interacción <br class="DT_e">
                 y tus posibilidades de convertir.
                ',
                'enableButton' => false,
@@ -243,9 +243,9 @@
                 3. Automatiza tu flujo de emails
                    </span>',
                'text' => '
-                Crea secuencias de emails según el <br class="desktopTabletElement">
-                comportamiento de tus contactos. Patrones que <br class="desktopTabletElement">
-                definen qué acción dispara un tipo de email, <br class="desktopTabletElement">
+                Crea secuencias de emails según el <br class="DT_e">
+                comportamiento de tus contactos. Patrones que <br class="DT_e">
+                definen qué acción dispara un tipo de email, <br class="DT_e">
                 para lograr la venta.
                ',
                'enableButton' => false,
@@ -283,7 +283,7 @@
             <div class="info col-md-12 col-lg-6">
 
               <h2 class="primaryTitle blackColor">
-                El acompañamiento <br class="desktopTabletElement">
+                El acompañamiento <br class="DT_e">
                 <span class="greenBlueColor">¡Nuestra arma secreta!</span>
               </h2>
 
@@ -313,7 +313,7 @@
                       'text' => null
                     ],
                     [
-                      'title' => '<span>Asistencia y soporte en vivo, a un WhatsApp <br class="desktopTabletElement"> de distancia,</span> sin chatbots',
+                      'title' => '<span>Asistencia y soporte en vivo, a un WhatsApp <br class="DT_e"> de distancia,</span> sin chatbots',
                       'text' => null
                     ],
                     [
@@ -377,12 +377,12 @@
   'enableTitle' => false,
   'img' => App::setFilePath('/assets/images/illustrations/others/esquema_emails_3.png'),
   'title' => '
-  <span class="greenBlueColor">Automatiza con Escala: <br class="desktopTabletElement"></span>
+  <span class="greenBlueColor">Automatiza con Escala: <br class="DT_e"></span>
   más fácil imposible
   ',
   'text' => '
-    Reactiva el interés de un lead que está a punto de comprar, <br class="desktopTabletElement">
-    programando la secuencia de emails que le llegan a partir de una <br class="desktopTabletElement">
+    Reactiva el interés de un lead que está a punto de comprar, <br class="DT_e">
+    programando la secuencia de emails que le llegan a partir de una <br class="DT_e">
     interacción. gracias a nuestras bifurcaciones de flujos inteligentes.
     <br class="space"><br class="space">
     Automatizando con Escala, tu empresa crece, aún mientras duermes.
@@ -407,17 +407,17 @@
   'img' => App::setFilePath('/assets/images/illustrations/others/Group 8436.png'),
   'title' => '
     <span style="color: #B9E6E9">
-      La receta perfecta para <br class="desktopTabletElement">
-      un Email Marketing exitoso: <br class="desktopTabletElement">
+      La receta perfecta para <br class="DT_e">
+      un Email Marketing exitoso: <br class="DT_e">
     </span>
     Automatizaciones + CRM
   ',
   'text' => '
-    En Escala, tu Email Marketing está integrado <br class="desktopTabletElement">
-    con todas las herramientas que necesitas para <br class="desktopTabletElement">
-    generar más demanda, aumentar tus ventas y <br class="desktopTabletElement">
-    generar mayor fidelización de tus clientes, sin <br class="desktopTabletElement">
-    costos adicionales. Todo lo que necesitas para <br class="desktopTabletElement">
+    En Escala, tu Email Marketing está integrado <br class="DT_e">
+    con todas las herramientas que necesitas para <br class="DT_e">
+    generar más demanda, aumentar tus ventas y <br class="DT_e">
+    generar mayor fidelización de tus clientes, sin <br class="DT_e">
+    costos adicionales. Todo lo que necesitas para <br class="DT_e">
     hacer crecer tu empresa en un solo lugar.
   ',
   'enableButton' => true,
@@ -445,7 +445,7 @@
         <div class="info">
 
           <h3 class="primaryTitle">
-            Comienza a vender más <br class="desktopTabletElement">
+            Comienza a vender más <br class="DT_e">
             <span class="greenBlueColor">con el Email Marketing de Escala</span>
           </h3>
 
@@ -470,7 +470,7 @@
         'classSection' => 'landing_func_email_marketing_2022_8',
         'enableTitle' => true,
         'titlePrincipal' => '
-        Nuestros clientes te dicen <br class="desktopTabletElement">
+        Nuestros clientes te dicen <br class="DT_e">
         <span class="greenBlueColor">por qué prefieren Escala</span>
         ',
         'subTitlePrincipal' => null,
@@ -501,7 +501,7 @@
 $parameters = [
     'classSection' => 'landing_func_email_marketing_2022_9',
     'title' => '
-      <span style="color: #B9E6E9">Emails leídos = clientes ganados</span> <br class="desktopTabletElement">
+      <span style="color: #B9E6E9">Emails leídos = clientes ganados</span> <br class="DT_e">
       con el Email Marketing de Escala
     ',
     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',

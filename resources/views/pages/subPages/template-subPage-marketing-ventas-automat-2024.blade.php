@@ -319,7 +319,7 @@
                     'classSection' => 'marketing_ventas_automat_2024_3',
                     'enableTitle' => true,
                     'titlePrincipal' => '
-                    Automatiza una variedad de acciones, <br class="desktopTabletElement">
+                    Automatiza una variedad de acciones, <br class="DT_e">
                     para que ahorres tiempo y esfuerzo
                     ',
                     'subTitlePrincipal' => null,
@@ -328,10 +328,10 @@
                     <span>Ahorra tiempo</span> con plantillas de <br class="space">
                     Automatizaciones
                 ',
-                    'text' => 'Crea automatizaciones de marketing complejas en <br class="desktopTabletElement">
+                    'text' => 'Crea automatizaciones de marketing complejas en <br class="DT_e">
                     cuestión de minutos, ahora encuentra plantillas para: <br class="space">
-                    Asignar leads a vendedores, responder WhatsApps, <br class="desktopTabletElement">
-                    recuperar carritos abandonados, enviar emails y <br class="desktopTabletElement">
+                    Asignar leads a vendedores, responder WhatsApps, <br class="DT_e">
+                    recuperar carritos abandonados, enviar emails y <br class="DT_e">
                     ¡mucho más!',
                     'enableButton' => false,
                     'urlButton' => '#lead-form',
@@ -352,9 +352,9 @@
                        <span>Automatiza</span> tareas simples:
                 ',
                     'text' => '
-                        Configura emails de respuesta automática, programa <br class="desktopTabletElement">
-                        notificaciones y recordatorios, activa flujos de <br class="desktopTabletElement">
-                        conversación automáticos y ¡mucho más! Para que tu <br class="desktopTabletElement">
+                        Configura emails de respuesta automática, programa <br class="DT_e">
+                        notificaciones y recordatorios, activa flujos de <br class="DT_e">
+                        conversación automáticos y ¡mucho más! Para que tu <br class="DT_e">
                         equipo se centre en actividades más estratégicas.
                     ',
                     'enableButton' => false,
@@ -377,7 +377,7 @@
                     emails comerciales:
                 ',
                     'text' => '
-                        Piensa en tu estrategia de emails una vez y <br class="desktopTabletElement">
+                        Piensa en tu estrategia de emails una vez y <br class="DT_e">
                         automatízala para que se envíen de acuerdo al plan. <br class="space">
                         ¡Personaliza, programa y eleva tus ventas!.
                 ',
@@ -425,8 +425,8 @@
                     con solo agregar etiquetas
                 ',
                     'text' => '
-                    Segmenta tus contactos y asigna etiquetas.  Estas <br class="desktopTabletElement">
-                    etiquetas, activan emails, notificaciones y acciones <br class="desktopTabletElement">
+                    Segmenta tus contactos y asigna etiquetas.  Estas <br class="DT_e">
+                    etiquetas, activan emails, notificaciones y acciones <br class="DT_e">
                     de ventas sin esfuerzo. ¡Simplifica tu gestión!
                 ',
                     'enableButton' => false,
@@ -614,13 +614,13 @@
                             <div class="col-md-12 col-lg-7 column-text">
                                 <p>
                                     <span>
-                                        “Uno de los mayores retos de liderar un <br class="desktopTabletElement">
-                                        negocio es enfocarse en lo que es <br class="desktopTabletElement">
+                                        “Uno de los mayores retos de liderar un <br class="DT_e">
+                                        negocio es enfocarse en lo que es <br class="DT_e">
                                         importante y hacer que cada minuto cuente.
                                     </span><br class="space">
-                                    Con la automatización de escala podrás <br class="desktopTabletElement">
-                                    ahorrarte el tiempo de hacer tareas <br class="desktopTabletElement">
-                                    repetitivas e invertirlo en los proyectos que <br class="desktopTabletElement">
+                                    Con la automatización de escala podrás <br class="DT_e">
+                                    ahorrarte el tiempo de hacer tareas <br class="DT_e">
+                                    repetitivas e invertirlo en los proyectos que <br class="DT_e">
                                     agregan valor a tu negocio”.
 
                                     <br class="space"><br class="space">

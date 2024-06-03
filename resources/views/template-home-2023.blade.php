@@ -63,7 +63,7 @@
 
                                     <div class="containElements row threeCol">
 
-                                        <div class="ele reviews col-md-12 col-lg-3 desktopElement">
+                                        <div class="ele reviews col-md-12 col-lg-3 D_e">
 
                                             <div class="elements">
 
@@ -204,26 +204,26 @@
                                     $elements = [
                                         [
                                             'text' => '
-                                            Personalizamos el CRM a tus <br class="desktopElement">
+                                            Personalizamos el CRM a tus <br class="D_e">
                                             necesidades en 10 días
                                             ',
                                         ],
                                         [
                                             'text' => '
-                                            Te entrenamos en una metodología <br class="desktopElement">
+                                            Te entrenamos en una metodología <br class="D_e">
                                             probada para escalar ventas
                                             ',
                                         ],
                                         [
                                             'text' => '
-                                            Recibe guía 1:1 para <br class="desktopElement">
+                                            Recibe guía 1:1 para <br class="D_e">
                                             optimizar resultados
                                             ',
                                         ],
                                     ];
                                 @endphp
 
-                                <div class="ele reviews col-md-12 mobileElement">
+                                <div class="ele reviews col-md-12 MT_e">
 
                                             <div class="elements">
 
@@ -361,7 +361,7 @@
                                 en clientes fieles con Escala
                             </h2>
                             <p class="text">
-                                Encuentra todas las herramientas de marketing y ventas que <br class="desktopTabletElement">
+                                Encuentra todas las herramientas de marketing y ventas que <br class="DT_e">
                                 necesitas para generar leads y convertirlos en clientes fieles
                             </p>
 
@@ -392,7 +392,7 @@
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ia_small.png'),
                                                 'text' => '
             <span>Crea contenido efectivo en segundos</span> <br class="space">
-            La IA en Escala es como tener un copywriter <br class="desktopTabletElement">
+            La IA en Escala es como tener un copywriter <br class="DT_e">
             estrella a una fracción del costo',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_ia_home_selector.gif'),
                                             ],
@@ -401,7 +401,7 @@
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_crm_small.png'),
                                                 'text' => '
             <span>Convierte más leads en clientes fieles</span> <br class="space">
-            organizando, guardando y supervisando <br class="desktopTabletElement">
+            organizando, guardando y supervisando <br class="DT_e">
             mejor todo lo que ocurre con tus contactos',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_crm_home_selector.gif'),
                                             ],
@@ -409,7 +409,7 @@
                                                 'title' => 'Automatizaciones',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_automatizations_small.png'),
                                                 'text' => '
-        Ahorra tiempo y dinero <br class="desktopTabletElement">
+        Ahorra tiempo y dinero <br class="DT_e">
         programando tareas y flujos de acciones
      ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_automatizations_home_selector.gif'),
@@ -419,7 +419,7 @@
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_landingp_small.png'),
                                                 'text' => '
             <span>Captura más leads de calidad</span> <br class="space">
-            Elige la plantilla, edítala en minutos y publica <br class="desktopTabletElement">
+            Elige la plantilla, edítala en minutos y publica <br class="DT_e">
             ¡sin depender de programadores!
             ',
                                                 'img' => App::setFilePath('/assets/images/gifs/image_landingp_home_selector.gif'),
@@ -550,11 +550,11 @@
                         <div class="containElements">
 
                             <h2 class="title">
-                                No necesitas invertir en 10+ herramientas <br class="desktopTabletElement">
+                                No necesitas invertir en 10+ herramientas <br class="DT_e">
                                 ni en un equipo grande <span>para escalar tu negocio</span>
                             </h2>
                             <p class="text">
-                                Los clientes de Escala triplican su productividad <br class="desktopTabletElement">
+                                Los clientes de Escala triplican su productividad <br class="DT_e">
                                 sin agregar costos operativos a su empresa
                             </p>
 
@@ -582,11 +582,11 @@
                                 Ya no requieres meses para adaptar el CRM a tus operaciones
                             </h3>
                             <h2 class="title">
-                                Recibe el CRM ajustado a tus necesidades <br class="desktopTabletElement">
+                                Recibe el CRM ajustado a tus necesidades <br class="DT_e">
                                 ¡en menos de 10 días!
                             </h2>
                             <p class="text">
-                                 Adaptamos la plataforma a tu negocio para que tú y tu equipo empiecen a enfocarse lo más pronto <br class="desktopTabletElement">
+                                 Adaptamos la plataforma a tu negocio para que tú y tu equipo empiecen a enfocarse lo más pronto <br class="DT_e">
                                  posible en lo que verdaderamente importa: ¡generar leads y cerrar ventas!
                             </p>
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/01-home2023.png') !!}" loading="lazy">
@@ -791,11 +791,11 @@
                                 De nada sirve tener un CRM configurado... ¡si nadie lo quiere o sabe usar!
                             </h3>
                             <h2 class="title">
-                                Entrenamos a tu equipo y te acompañamos a <br class="desktopTabletElement">
+                                Entrenamos a tu equipo y te acompañamos a <br class="DT_e">
                                 acelerar resultados ¡todo el año!
                             </h2>
                             <p class="text">
-                                ¡Tu éxito es nuestro éxito! Te apoyamos de todas las maneras posibles para que <br class="desktopTabletElement"> construyas una máquina de marketing y ventas con Escala
+                                ¡Tu éxito es nuestro éxito! Te apoyamos de todas las maneras posibles para que <br class="DT_e"> construyas una máquina de marketing y ventas con Escala
                             </p>
                         </div>
 
@@ -809,8 +809,8 @@
 
                                     <div
                                     class="card">
-                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard desktopElement">
-                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard mobileElement">
+                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard D_e">
+                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-7">
@@ -818,8 +818,8 @@
                                                         Gerente de Éxito
                                                     </h5>
                                                     <p class="card-text">
-                                                        Te apoya a planificar y <br class="desktopElement">
-                                                        aprovechar al máximo <br class="desktopElement">
+                                                        Te apoya a planificar y <br class="D_e">
+                                                        aprovechar al máximo <br class="D_e">
                                                         las soluciones de Escala
                                                     </p>
                                                 </div>
@@ -836,8 +836,8 @@
                                 <div class="col-md-12 col-lg-6 card2">
                                     <div
                                     class="card">
-                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard desktopElement">
-                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard mobileElement">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard D_e">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-7">
@@ -846,9 +846,9 @@
                                                         en vivo
                                                     </h5>
                                                     <p class="card-text">
-                                                        Bootcamps y workshops <br class="desktopElement">
-                                                        en vivo para aprender y <br class="desktopElement">
-                                                        practicar nuestra <br class="desktopElement">
+                                                        Bootcamps y workshops <br class="D_e">
+                                                        en vivo para aprender y <br class="D_e">
+                                                        practicar nuestra <br class="D_e">
                                                         metodología probada
                                                     </p>
                                                 </div>
@@ -865,8 +865,8 @@
                                 <div class="col-md-12 col-lg-6 card3">
                                     <div
                                     class="card">
-                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard desktopElement">
-                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard mobileElement">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard D_e">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-7">
@@ -874,10 +874,10 @@
                                                         Trainer privado
                                                     </h5>
                                                     <p class="card-text">
-                                                        Revisa el uso de las <br class="desktopElement">
-                                                        herramientas y se <br class="desktopElement">
-                                                        asegura que las <br class="desktopElement">
-                                                        usen efectivamente <br class="desktopElement">
+                                                        Revisa el uso de las <br class="D_e">
+                                                        herramientas y se <br class="D_e">
+                                                        asegura que las <br class="D_e">
+                                                        usen efectivamente <br class="D_e">
                                                     </p>
                                                 </div>
                                                 <div class="col-md-5">
@@ -893,8 +893,8 @@
                                 <div class="col-md-12 col-lg-6 card4">
                                     <div
                                     class="card">
-                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard desktopElement">
-                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard mobileElement">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard D_e">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-7">
@@ -903,9 +903,9 @@
                                                         autoguiado
                                                     </h5>
                                                     <p class="card-text">
-                                                        Combinación de cursos, <br class="desktopElement">
-                                                        tutoriales y webinars <br class="desktopElement">
-                                                        para que aprendas a <br class="desktopElement">
+                                                        Combinación de cursos, <br class="D_e">
+                                                        tutoriales y webinars <br class="D_e">
+                                                        para que aprendas a <br class="D_e">
                                                         tu ritmo.
                                                     </p>
                                                 </div>
@@ -923,8 +923,8 @@
 
                                     <div
                                     class="card">
-                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_rectangleLine.png') }}" alt="" class="backgroundCard desktopElement">
-                                           <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard mobileElement">
+                                       <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_rectangleLine.png') }}" alt="" class="backgroundCard D_e">
+                                           <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
                                         <div class="card-body">
                                             <div class="row">
                                                 <div class="col-md-12 col-lg-5">
@@ -932,15 +932,15 @@
                                                         Chat Soporte Técnico
                                                     </h5>
                                                     <p class="card-text">
-                                                        Atendemos preguntas puntuales y <br class="desktopElement">
-                                                        necesidades técnicas en vivo por <br class="desktopElement">
+                                                        Atendemos preguntas puntuales y <br class="D_e">
+                                                        necesidades técnicas en vivo por <br class="D_e">
                                                         <span class="text-green">WhatsApp</span> y <span
                                                             class="text-blue">Chat de plataforma</span>
                                                     </p>
                                                 </div>
 
                                                 <div class="col-md-12 col-lg-7">
-                                                    <div class="row desktopElement_flex">
+                                                    <div class="row D_e_flex">
                                                         <div class="col-md-12 col-lg-3 container-flags">
                                                             <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/08-home2023.png') !!}"
                                                                 loading="lazy">
@@ -966,7 +966,7 @@
                                                         </div>
                                                         <div class="col-6 col-lg-3">
 
-                                                           <div class=" container-flags mobileElement">
+                                                           <div class=" container-flags MT_e">
                                                             <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/08-home2023.png') !!}"
                                                                 loading="lazy">
                                                         </div>
@@ -974,21 +974,21 @@
                                                             <p class="text-time">6 am - 8 pm</p>
                                                         </div>
                                                         <div class="col-6 col-lg-3">
-                                                         <div class=" container-flags mobileElement">
+                                                         <div class=" container-flags MT_e">
                                                               <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
                                                                 loading="lazy">
                                                         </div>
                                                             <p class="text-time">7 am - 9 pm</p>
                                                         </div>
                                                         <div class="col-6 col-lg-3">
-                                                         <div class=" container-flags mobileElement">
+                                                         <div class=" container-flags MT_e">
                                                           <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
                                                                 loading="lazy">
                                                         </div>
                                                             <p class="text-time">8 am - 10 pm</p>
                                                         </div>
                                                         <div class="col-6 col-lg-3">
-                                                         <div class=" container-flags mobileElement">
+                                                         <div class=" container-flags MT_e">
                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
                                                                 loading="lazy">
                                                         </div>
@@ -1002,7 +1002,7 @@
                                                             <div class="line last-row"></div>
                                                         </div>
                                                         <div class="col-6 col-lg-3">
-                                                           <div class=" container-flags mobileElement">
+                                                           <div class=" container-flags MT_e">
                                                             <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/08-home2023.png') !!}"
                                                                 loading="lazy">
                                                         </div>
@@ -1010,21 +1010,21 @@
                                                             <p class="text-time">8 am - 12 pm</p>
                                                         </div>
                                                         <div class="col-6 col-lg-3">
-                                                              <div class=" container-flags mobileElement">
+                                                              <div class=" container-flags MT_e">
                                                               <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
                                                                 loading="lazy">
                                                         </div>
                                                             <p class="text-time">9 am - 1 pm</p>
                                                         </div>
                                                         <div class="col-6 col-lg-3">
-                                                          <div class=" container-flags mobileElement">
+                                                          <div class=" container-flags MT_e">
                                                           <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
                                                                 loading="lazy">
                                                         </div>
                                                             <p class="text-time">10 am - 2 pm</p>
                                                         </div>
                                                         <div class="col-6 col-lg-3">
-                                                          <div class=" container-flags mobileElement">
+                                                          <div class=" container-flags MT_e">
                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
                                                                 loading="lazy">
                                                         </div>
@@ -1059,7 +1059,7 @@
                                 ¿Deseas empezar a conocer nuestra metodología probada?
                             </h3>
                             <h2 class="title">
-                                Participa en una Masterclass gratuita <br class="desktopElement">
+                                Participa en una Masterclass gratuita <br class="D_e">
                                 con el equipo de expertos de Escala
                             </h2>
 
@@ -1077,9 +1077,9 @@
                                 </div>
                                 <div class="col-md-7 column-text">
                                     <p>
-                                        “Recopilamos nuestra experiencia de <br class="desktopElement">
-                                        10+ años construyendo negocios <br class="desktopElement">
-                                        exitosos para compartirla contigo y <br class="desktopElement">
+                                        “Recopilamos nuestra experiencia de <br class="D_e">
+                                        10+ años construyendo negocios <br class="D_e">
+                                        exitosos para compartirla contigo y <br class="D_e">
                                         evitarte la prueba y error.”
                                     </p>
                                     <a class=" primaryButton hoverInEffect" href="https://experiencia.escala.com/eventos-escala">
@@ -1105,7 +1105,7 @@
 
                             <h2 class="primaryTitle blackColor">
 
-                                Todos ellos se benefician <br class="desktopElement">
+                                Todos ellos se benefician <br class="D_e">
                                 de las soluciones Escala
 
                             </h2>
@@ -1266,7 +1266,7 @@
                                 ¿Qué esperas?
                             </h3>
                             <h2 class="title">
-                                Construye una máquina de ventas <br class="desktopElement">
+                                Construye una máquina de ventas <br class="D_e">
                                 escalable, predecible y rentable
                             </h2>
                         </div>
@@ -1296,7 +1296,7 @@
                                                 Atrae
                                             </h3>
                                             <p class="text">
-                                                A más prospectos ideales <br class="desktopTabletElement">
+                                                A más prospectos ideales <br class="DT_e">
                                                 con landing pages y ads
                                             </p>
                                         </div>
@@ -1312,7 +1312,7 @@
                                                 Nutre
                                             </h3>
                                             <p class="text">
-                                                la relación con WhatsApps <br class="desktopTabletElement">
+                                                la relación con WhatsApps <br class="DT_e">
                                                 emails y automatizaciones
                                             </p>
                                         </div>
@@ -1328,7 +1328,7 @@
                                                 Convierte
                                             </h3>
                                             <p class="text">
-                                                más clientes fieles con todas <br class="desktopTabletElement">
+                                                más clientes fieles con todas <br class="DT_e">
                                                 las herramientas del CRM
                                             </p>
                                         </div>
@@ -1368,12 +1368,12 @@
                                     ¿Brindas servicios de marketing o ventas?
                                 </h3>
                                 <h2 class="title">
-                                    Multiplica tu impacto y tus ingresos <br class="desktopTabletElement">
+                                    Multiplica tu impacto y tus ingresos <br class="DT_e">
                                     convirtiéndote en Escala Partner
                                 </h2>
                                 <p class="text">
-                                    Como socio de Escala recibes beneficios únicos <br class="desktopTabletElement">
-                                    para hacer crecer tu negocio y desarrollar una <br class="desktopTabletElement">
+                                    Como socio de Escala recibes beneficios únicos <br class="DT_e">
+                                    para hacer crecer tu negocio y desarrollar una <br class="DT_e">
                                     ventaja competitiva única en el mercado.
                                 </p>
                                 <a class=" outlineWhiteButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -1408,12 +1408,12 @@
                             <div class="containElements">
 
                                 <h2 class="title">
-                                    ¿Listo para subir a bordo? <br class="desktopTabletElement">
+                                    ¿Listo para subir a bordo? <br class="DT_e">
                                     la satisfacción es 100% garantizada
 
                                 </h2>
                                 <p class="text">
-                                    Si en los primeros 20 días no estás satisfecho <br class="desktopTabletElement">
+                                    Si en los primeros 20 días no estás satisfecho <br class="DT_e">
                                     con el valor que recibes, te devolvemos el dinero.
                                 </p>
                                 <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -1444,7 +1444,7 @@
             [
                 'type' => 'master',
                 'title' => '¿Qué es Escala?',
-                'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas que te ayudará a acelerar el éxito de tu negocio, con todas las <br class="desktopElement"> herramientas en un solo lugar para crecer de una manera constante. Conoce todos los beneficios de Escala:<br class="space"><br class="space">
+                'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas que te ayudará a acelerar el éxito de tu negocio, con todas las <br class="D_e"> herramientas en un solo lugar para crecer de una manera constante. Conoce todos los beneficios de Escala:<br class="space"><br class="space">
                     <ul style="list-style: disc; padding-left: 20px">
                         <li><p>Crea landing pages increíbles sin programar, para darte a conocer y capturar la información de tus visitantes.</p></li>
                         <li><p>Crea, administra y publica anuncios digitales de Instagram y Facebook, sin salir de Escala, para generar tráfico a tus páginas.</p></li>
@@ -1456,12 +1456,12 @@
             [
                 'type' => 'master',
                 'title' => '¿Necesito habilidades para manejar la plataforma?',
-                'text' => 'No. nuestra herramienta es muy intuitiva y fácil de usar. Para que estés más tranquilo, hemos preparado una serie de tutoriales muy <br class="desktopElement"> prácticos, que te ayudarán a despejar cualquier duda que tengas mientras vives la experiencia. También puedes contar con nuestro <br class="desktopElement"> acompañamiento, a través de asesorías, que te serán de gran ayuda en los primeros momentos de uso de la plataforma. <a class="hiperButtonGreenBlueT2"href="' . $escalaUrl . '/zoom-meeting">Atención al cliente.</a>',
+                'text' => 'No. nuestra herramienta es muy intuitiva y fácil de usar. Para que estés más tranquilo, hemos preparado una serie de tutoriales muy <br class="D_e"> prácticos, que te ayudarán a despejar cualquier duda que tengas mientras vives la experiencia. También puedes contar con nuestro <br class="D_e"> acompañamiento, a través de asesorías, que te serán de gran ayuda en los primeros momentos de uso de la plataforma. <a class="hiperButtonGreenBlueT2"href="' . $escalaUrl . '/zoom-meeting">Atención al cliente.</a>',
             ],
             [
                 'type' => 'master',
                 'title' => '¿Qué incluye?',
-                'text' => 'Cuando adquieres cualquiera de los planes de Escala cuentas con: Todas las funcionalidades de marketing digital y ventas, servicio <br class="desktopElement"> ilimitado y entrenamiento para usar la plataforma.',
+                'text' => 'Cuando adquieres cualquiera de los planes de Escala cuentas con: Todas las funcionalidades de marketing digital y ventas, servicio <br class="D_e"> ilimitado y entrenamiento para usar la plataforma.',
             ],
             [
                 'type' => 'master',
@@ -1469,57 +1469,57 @@
                 'items' => [
                     [
                         'title' => '¿Los embudos de venta aplican para todos los negocios?',
-                        'text' => 'Así es. Todos los negocios tienen un embudo de ventas, conscientemente o no, dado que buscan atraer leads y convertirlos en <br class="desktopElement"> clientes. No olvides que un embudo de ventas es una metodología, paso a paso, que puede combinar marketing digital y offline. <br class="desktopElement"> En Escala tienes todas las funcionalidades para implementarlo de manera fácil, invirtiendo menos recursos, tiempo y dinero.',
+                        'text' => 'Así es. Todos los negocios tienen un embudo de ventas, conscientemente o no, dado que buscan atraer leads y convertirlos en <br class="D_e"> clientes. No olvides que un embudo de ventas es una metodología, paso a paso, que puede combinar marketing digital y offline. <br class="D_e"> En Escala tienes todas las funcionalidades para implementarlo de manera fácil, invirtiendo menos recursos, tiempo y dinero.',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿Qué ventajas tiene el CRM de Escala?',
-                        'text' => 'Esta pregunta es fundamental. Es importante que sepas que el CRM de Escala no solo cuenta con todas opciones para gestionar tus <br class="desktopElement"> contactos: información relacionada con el nombre, email y teléfono, y de gestión de tu equipo comercial como: actividades, tareas, <br class="desktopElement"> llamadas y recordatorios hasta cerrar la venta, sino que también es el CRM más fácil de usar de todos. Pruébalo y descúbrelo por ti <br class="desktopElement"> mismo. ',
+                        'text' => 'Esta pregunta es fundamental. Es importante que sepas que el CRM de Escala no solo cuenta con todas opciones para gestionar tus <br class="D_e"> contactos: información relacionada con el nombre, email y teléfono, y de gestión de tu equipo comercial como: actividades, tareas, <br class="D_e"> llamadas y recordatorios hasta cerrar la venta, sino que también es el CRM más fácil de usar de todos. Pruébalo y descúbrelo por ti <br class="D_e"> mismo. ',
                         'type' => 'item',
                     ],
                     [
                         'title' => 'El Page builder de Escala ¿cómo funciona?',
-                        'text' => 'El Page builder de Escala es el más fácil de usar del mercado. Práctico para realizar tus landing pages optimizadas. Tenemos cientos <br class="desktopElement"> de hermosas plantillas listas para que las personalices y en un clic las puedas publicar. Con formularios capaces de captar toda la <br class="desktopElement"> data y guardarla automáticamente en tu base de datos. <br class="space"><br class="space"> Fáciles de armar en minutos, 100% responsive y con un subdominio en caso que no tengas dominio propio. Además ya tienen <br class="desktopElement"> integrado el botón de WhatsApp para que tus visitantes conversen directamente con tu equipo de ventas.',
+                        'text' => 'El Page builder de Escala es el más fácil de usar del mercado. Práctico para realizar tus landing pages optimizadas. Tenemos cientos <br class="D_e"> de hermosas plantillas listas para que las personalices y en un clic las puedas publicar. Con formularios capaces de captar toda la <br class="D_e"> data y guardarla automáticamente en tu base de datos. <br class="space"><br class="space"> Fáciles de armar en minutos, 100% responsive y con un subdominio en caso que no tengas dominio propio. Además ya tienen <br class="D_e"> integrado el botón de WhatsApp para que tus visitantes conversen directamente con tu equipo de ventas.',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿En Escala se puede usar un dominio distinto para cada landing page?',
-                        'text' => 'Sí, en Escala puedes tener varios dominios para tus landing pages. Solo debes configurarlos y usarlos cuando lo necesites en cada <br class="desktopElement"> una de tus páginas.',
+                        'text' => 'Sí, en Escala puedes tener varios dominios para tus landing pages. Solo debes configurarlos y usarlos cuando lo necesites en cada <br class="D_e"> una de tus páginas.',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿Puedo agregar el botón de WhatsApp en las landing pages de Escala?',
-                        'text' => 'Las landing pages de Escala ya tienen disponible el botón de WhatsApp para que tu cliente pueda tener una conversación más fluida <br class="desktopElement"> con tu empresa. Se puede encontrar en la pestaña de “WhatsApp” en cada landing. Si la página ya está publicada, tendrás que re-<br class="desktopElement">publicarla después de activar el botón para que aparezca en tu página. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=5HOSPcDXdTQ&t=4s">Tutorial de Cómo activar botón de WhatsApp.</a> ',
+                        'text' => 'Las landing pages de Escala ya tienen disponible el botón de WhatsApp para que tu cliente pueda tener una conversación más fluida <br class="D_e"> con tu empresa. Se puede encontrar en la pestaña de “WhatsApp” en cada landing. Si la página ya está publicada, tendrás que re-<br class="D_e">publicarla después de activar el botón para que aparezca en tu página. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=5HOSPcDXdTQ&t=4s">Tutorial de Cómo activar botón de WhatsApp.</a> ',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿Puedo publicar campañas de anuncios digitales en Escala?',
-                        'text' => 'En Escala puedes crear, administrar y publicar anuncios digitales de Instagram y Facebook, sin tener que salir de nuestra plataforma. Elige a tu <br class="desktopElement"> audiencia, presupuesto determinado y genera tráfico a tus landing pages de la manera más fácil y práctica.',
+                        'text' => 'En Escala puedes crear, administrar y publicar anuncios digitales de Instagram y Facebook, sin tener que salir de nuestra plataforma. Elige a tu <br class="D_e"> audiencia, presupuesto determinado y genera tráfico a tus landing pages de la manera más fácil y práctica.',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿Qué tipo de campañas son las que se están creando desde Escala?',
-                        'text' => 'En Escala puedes crear campañas de anuncios digitales de Instagram y Facebook para lograr generar tráfico a tus landing pages. Su objetivo es <br class="desktopElement"> atraer posibles clientes (Captura de Leads) para que registren sus datos y con esta información puedas cerrar más ventas.',
+                        'text' => 'En Escala puedes crear campañas de anuncios digitales de Instagram y Facebook para lograr generar tráfico a tus landing pages. Su objetivo es <br class="D_e"> atraer posibles clientes (Captura de Leads) para que registren sus datos y con esta información puedas cerrar más ventas.',
                         'type' => 'item',
                     ],
                     [
                         'title' => 'En los anuncios digitales de Escala, ¿la propia plataforma maneja el píxel de Facebook o hay que integrarlo desde 0?',
-                        'text' => 'Para agregar el píxel de Facebook debes ir a "configuración" de Escala, entra a la sección de "píxeles y códigos de seguimiento" y <br class="desktopElement"> darle clic a "agregar cuenta". Así de fácil es agregar el píxel de Facebook.',
+                        'text' => 'Para agregar el píxel de Facebook debes ir a "configuración" de Escala, entra a la sección de "píxeles y códigos de seguimiento" y <br class="D_e"> darle clic a "agregar cuenta". Así de fácil es agregar el píxel de Facebook.',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿Puedo hacer campañas de email marketing en Escala?',
-                        'text' => 'La respuesta es sí. Haz efectivas campañas de email marketing con sencillas plantillas de email. Realiza envíos masivos sin caer en la <br class="desktopElement"> bandeja de spam y ten las métricas en tiempo real para mejorar los resultados de tus campañas.',
+                        'text' => 'La respuesta es sí. Haz efectivas campañas de email marketing con sencillas plantillas de email. Realiza envíos masivos sin caer en la <br class="D_e"> bandeja de spam y ten las métricas en tiempo real para mejorar los resultados de tus campañas.',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿En qué parte de Escala puedo crear las plantillas de email marketing?',
-                        'text' => 'En la funcionalidad de plantillas, al darle la opción de “+Crear” arriba a la derecha, puedes elegir esta opción. Haz clic en opciones de <br class="desktopElement"> plantillas, allí se desplegará las alternativas de: "Plantilla de CRM" o "Plantilla de marketing". Elige “Plantilla de marketing” y <br class="desktopElement"> comienza a personalizarla. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=E_1VObta6Lk">Tutorial de cómo crear plantillas de Email Marketing.</a> ',
+                        'text' => 'En la funcionalidad de plantillas, al darle la opción de “+Crear” arriba a la derecha, puedes elegir esta opción. Haz clic en opciones de <br class="D_e"> plantillas, allí se desplegará las alternativas de: "Plantilla de CRM" o "Plantilla de marketing". Elige “Plantilla de marketing” y <br class="D_e"> comienza a personalizarla. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=E_1VObta6Lk">Tutorial de cómo crear plantillas de Email Marketing.</a> ',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿ Cuáles son las funcionalidades de automatizaciones y analíticas?',
-                        'text' => 'En Escala te damos todas las métricas para optimizar tus resultados. Tanto en las funcionalidades de marketing como las de ventas <br class="desktopElement"> tienes dashboards amigables que te permiten ver en tiempo real las métricas que son importantes. <br class="space"><br class="space"> En Escala puedes automatizar flujos de tareas para tu fuerza de ventas, programar workflows de comunicación y de email marketing, <br class="desktopElement"> para que tu negocio crezca en piloto automático. ',
+                        'text' => 'En Escala te damos todas las métricas para optimizar tus resultados. Tanto en las funcionalidades de marketing como las de ventas <br class="D_e"> tienes dashboards amigables que te permiten ver en tiempo real las métricas que son importantes. <br class="space"><br class="space"> En Escala puedes automatizar flujos de tareas para tu fuerza de ventas, programar workflows de comunicación y de email marketing, <br class="D_e"> para que tu negocio crezca en piloto automático. ',
                         'type' => 'item',
                     ],
                 ],
@@ -1535,12 +1535,12 @@
                     ],
                     [
                         'title' => '¿Puedo usar mi propio dominio?',
-                        'text' => 'Sí, en Escala puedes utilizar tu dominio tal como se encuentra registrado en tu hosting, para conocer cómo conectarlo puedes <br class="desktopElement"> visualizar nuestro tutorial: <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=vpdEwrcrZt0&t=44s">Cómo conectar dominio de página.</a> ',
+                        'text' => 'Sí, en Escala puedes utilizar tu dominio tal como se encuentra registrado en tu hosting, para conocer cómo conectarlo puedes <br class="D_e"> visualizar nuestro tutorial: <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=vpdEwrcrZt0&t=44s">Cómo conectar dominio de página.</a> ',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿Cómo creo una cuenta?',
-                        'text' => 'Para crear una cuenta debes ingresar tus datos haciendo clic en en el botón “Recibe un demo” en <a class="hiperButtonGreenBlueT2"href="https://escala.com/">https://escala.com/</a> y te <br class="desktopElement"> contactará uno de nuestros asesores para comenzar tu free trial.',
+                        'text' => 'Para crear una cuenta debes ingresar tus datos haciendo clic en en el botón “Recibe un demo” en <a class="hiperButtonGreenBlueT2"href="https://escala.com/">https://escala.com/</a> y te <br class="D_e"> contactará uno de nuestros asesores para comenzar tu free trial.',
                         'type' => 'item',
                     ],
                     [
@@ -1555,7 +1555,7 @@
                     ],
                     [
                         'title' => '¿Cómo recupero mi contraseña?',
-                        'text' => 'Si no recuerdas tu contraseña, haz clic en el link de recuperar y te enviaremos un correo <br class="desktopElement"> para gestionarla de nuevo.',
+                        'text' => 'Si no recuerdas tu contraseña, haz clic en el link de recuperar y te enviaremos un correo <br class="D_e"> para gestionarla de nuevo.',
                         'type' => 'item',
                     ],
                     [
@@ -1579,12 +1579,12 @@
                     // ],
                     [
                         'title' => '¿Puedo cambiar o cancelar planes?',
-                        'text' => 'Sí en Escala puedes cancelar tus planes cuando desees, pero sabemos que será tan útil que querrás ir al siguiente nivel. Para cambiar <br class="desktopElement"> o cancelar tus planes debes contactarte con nuestro equipo, a través de WhatsApp o chat.',
+                        'text' => 'Sí en Escala puedes cancelar tus planes cuando desees, pero sabemos que será tan útil que querrás ir al siguiente nivel. Para cambiar <br class="D_e"> o cancelar tus planes debes contactarte con nuestro equipo, a través de WhatsApp o chat.',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿Debo pagar por las actualizaciones de la herramienta?',
-                        'text' => 'No, no debes pagar por las actualizaciones. Solo pagas por las funcionalidades que utilices y si incrementas tu plan será por tus <br class="desktopElement"> necesidades de contactos de marketing o ventas o porque tu negocio está creciendo y necesitas más usuarios.',
+                        'text' => 'No, no debes pagar por las actualizaciones. Solo pagas por las funcionalidades que utilices y si incrementas tu plan será por tus <br class="D_e"> necesidades de contactos de marketing o ventas o porque tu negocio está creciendo y necesitas más usuarios.',
                         'type' => 'item',
                     ],
                 ],
@@ -1595,22 +1595,22 @@
                 'items' => [
                     [
                         'title' => '¿Qué tan seguro es?',
-                        'text' => 'En Escala tu data está en buenas manos. Tu información no es vista por nadie, solo por personas de tu equipo y bajo los permisos <br class="desktopElement"> que hayas asignado. Para nosotros tu seguridad es primero.',
+                        'text' => 'En Escala tu data está en buenas manos. Tu información no es vista por nadie, solo por personas de tu equipo y bajo los permisos <br class="D_e"> que hayas asignado. Para nosotros tu seguridad es primero.',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿Cómo exportar datos?',
-                        'text' => 'Podrás exportar la información de tus contactos y oportunidades de ventas desde cada listado en el CRM. Te enviaremos <br class="desktopElement"> un documento a tu correo con los datos que hayas elegido exportar.',
+                        'text' => 'Podrás exportar la información de tus contactos y oportunidades de ventas desde cada listado en el CRM. Te enviaremos <br class="D_e"> un documento a tu correo con los datos que hayas elegido exportar.',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿Cómo importar datos?',
-                        'text' => 'Puedes importar tus bases de datos al CRM de Escala, solo necesitas guardar la información en un archivo .csv o .txt e iniciar el <br class="desktopElement"> proceso desde el listado de contactos. Chequea nuestro tutorial: <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=2bJFjHWbI1E">Ver tutorial</a>',
+                        'text' => 'Puedes importar tus bases de datos al CRM de Escala, solo necesitas guardar la información en un archivo .csv o .txt e iniciar el <br class="D_e"> proceso desde el listado de contactos. Chequea nuestro tutorial: <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=2bJFjHWbI1E">Ver tutorial</a>',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿Cómo conceder accesos e invitar a terceros?',
-                        'text' => 'Puedes agregar a terceros y a todos los miembros de tu equipo de trabajo para hacer más eficiente tu gestión. Es muy fácil te <br class="desktopElement"> invitamos a ver todo el detalle en este práctico tutorial. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=dCrD2cD_Xpw">Ver tutorial</a>',
+                        'text' => 'Puedes agregar a terceros y a todos los miembros de tu equipo de trabajo para hacer más eficiente tu gestión. Es muy fácil te <br class="D_e"> invitamos a ver todo el detalle en este práctico tutorial. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/watch?v=dCrD2cD_Xpw">Ver tutorial</a>',
                         'type' => 'item',
                     ],
                 ],
@@ -1621,12 +1621,12 @@
                 'items' => [
                     [
                         'title' => '¿Cómo conectar con un experto?',
-                        'text' => 'En Escala tu crecimiento de negocio es vital para nosotros por eso, siempre tendrás la asesoría de un experto en marketing digital y <br class="desktopElement"> ventas acompañándote en todo el camino. <a class="hiperButtonGreenBlueT2"href="' . $escalaUrl . '/zoom-meeting">Link con asesor</a>',
+                        'text' => 'En Escala tu crecimiento de negocio es vital para nosotros por eso, siempre tendrás la asesoría de un experto en marketing digital y <br class="D_e"> ventas acompañándote en todo el camino. <a class="hiperButtonGreenBlueT2"href="' . $escalaUrl . '/zoom-meeting">Link con asesor</a>',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿Con quién puedo conectar para recibir asistencia?',
-                        'text' => '<span style="color:#34768a">Si tienes dudas sobre cualquier cosa puedes:</span> <br class="desktopElement"> <ul style="color:#34768a"class="accordionSpecial"><li>1. Ver nuestros tutoriales de uso en nuestro canal de youtube. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/channel/UCiDlXaq67qVf8lSTurRS8lQ">Escala en Youtube</a></li><li>2. Hablar con un asesor. <a class="hiperButtonGreenBlueT2"href="' . $escalaUrl . '/zoom-meeting">Link con asesor</a></li><li>3. Conversar por chat. <a class="hiperButtonGreenBlueT2"href="https://api.WhatsApp.com/send?phone=17863042407">Chat de WhatsApp</a></li><li>4. Hablar con el Especialista en customer success asignado a tu cuenta (Plan Pro y Enterprise).</li></ul>',
+                        'text' => '<span style="color:#34768a">Si tienes dudas sobre cualquier cosa puedes:</span> <br class="D_e"> <ul style="color:#34768a"class="accordionSpecial"><li>1. Ver nuestros tutoriales de uso en nuestro canal de youtube. <a class="hiperButtonGreenBlueT2"href="https://www.youtube.com/channel/UCiDlXaq67qVf8lSTurRS8lQ">Escala en Youtube</a></li><li>2. Hablar con un asesor. <a class="hiperButtonGreenBlueT2"href="' . $escalaUrl . '/zoom-meeting">Link con asesor</a></li><li>3. Conversar por chat. <a class="hiperButtonGreenBlueT2"href="https://api.WhatsApp.com/send?phone=17863042407">Chat de WhatsApp</a></li><li>4. Hablar con el Especialista en customer success asignado a tu cuenta (Plan Pro y Enterprise).</li></ul>',
                         'type' => 'item',
                     ],
                 ],
@@ -1637,12 +1637,12 @@
                 'items' => [
                     [
                         'title' => '¿Hay formas de aprender marketing y ventas para mejorar mi negocio?',
-                        'text' => 'Escala Academy es el programa de formación constante, mediante el cual te daremos todo el conocimiento de marketing digital y <br class="desktopElement"> ventas para hacerte un experto. <br class="space"><br class="space"> Escala Academy: <br class="desktopElement"> <ul style="color:#34768a"class="accordionSpecial"><li>Tutoriales funcionalidades.</li><li>Blog Escala.</li><li>Workshops para tu empresa.</li><li>Webinars especializados en temas (Escalatones).</li><li>Programas de Éxito.</li></ul>',
+                        'text' => 'Escala Academy es el programa de formación constante, mediante el cual te daremos todo el conocimiento de marketing digital y <br class="D_e"> ventas para hacerte un experto. <br class="space"><br class="space"> Escala Academy: <br class="D_e"> <ul style="color:#34768a"class="accordionSpecial"><li>Tutoriales funcionalidades.</li><li>Blog Escala.</li><li>Workshops para tu empresa.</li><li>Webinars especializados en temas (Escalatones).</li><li>Programas de Éxito.</li></ul>',
                         'type' => 'item',
                     ],
                     [
                         'title' => '¿Necesito pagar para tener toda la información?',
-                        'text' => 'Todo nuestro material de apoyo y conocimiento es totalmente gratis. Para nosotros mantenerte bien informado y en constante <br class="desktopElement"> formación es una inversión para ayudarte a hacer crecer tu negocio.',
+                        'text' => 'Todo nuestro material de apoyo y conocimiento es totalmente gratis. Para nosotros mantenerte bien informado y en constante <br class="D_e"> formación es una inversión para ayudarte a hacer crecer tu negocio.',
                         'type' => 'item',
                     ],
                 ],

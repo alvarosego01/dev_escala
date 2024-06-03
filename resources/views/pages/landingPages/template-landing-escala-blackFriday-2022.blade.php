@@ -48,7 +48,7 @@
           'classSection' => 'landing_blackFriday_2022_1',
           'enableTitle' => true,
           'titlePrincipal' => '
-            Atrae y convierte clientes fieles con todas <br class="desktopTabletElement">
+            Atrae y convierte clientes fieles con todas <br class="DT_e">
             las herramientas <span class="greenBlueColor">integradas en un mismo lugar</span>
 
           ',
@@ -139,26 +139,26 @@
         <div class="info">
 
           <h3 class="primaryTitle">
-            <span class="greenBlueColor">Estos Términos y condiciones se aplican <br class="desktopTabletElement"></span>
+            <span class="greenBlueColor">Estos Términos y condiciones se aplican <br class="DT_e"></span>
             a la oferta de Escala 2022
           </h3>
 
           <ul class="text">
             <li>
                 <span class="number">1 </span>
-                El descuento funciona así: se aplicará un total de <strong>40% de descuento</strong> en la compra del Plan Pro anual <br class="desktopTabletElement">
-                de Escala <strong>hasta un límite de 50.000 contactos</strong> (y hasta 500.000 emails por mes a estos contactos). <br class="desktopTabletElement">
-                Tenga en cuenta que este descuento del 40% anula cualquier descuento existente que se haya <br class="desktopTabletElement">
-                ofrecido en todos los planes anuales, lo que significa que, además del descuento regular del 30%, <br class="desktopTabletElement">
+                El descuento funciona así: se aplicará un total de <strong>40% de descuento</strong> en la compra del Plan Pro anual <br class="DT_e">
+                de Escala <strong>hasta un límite de 50.000 contactos</strong> (y hasta 500.000 emails por mes a estos contactos). <br class="DT_e">
+                Tenga en cuenta que este descuento del 40% anula cualquier descuento existente que se haya <br class="DT_e">
+                ofrecido en todos los planes anuales, lo que significa que, además del descuento regular del 30%, <br class="DT_e">
                 obtendrá una reducción adicional de 10% para que recibas un descuento total de 40%.
             </li>
             <li>
                 <span class="number">2</span>
                 Solo <strong>
-                  los compradores primerizos de planes anuales y los usuarios de cuentas gratuitas de <br class="desktopTabletElement">
+                  los compradores primerizos de planes anuales y los usuarios de cuentas gratuitas de <br class="DT_e">
                   Escala
-                </strong> son elegibles para esta oferta. Los clientes ya suscritos a Escala, los clientes <br class="desktopTabletElement">
-                empresariales y los clientes que necesitan más de 50.000 contactos no son elegibles. La oferta <br class="desktopTabletElement">
+                </strong> son elegibles para esta oferta. Los clientes ya suscritos a Escala, los clientes <br class="DT_e">
+                empresariales y los clientes que necesitan más de 50.000 contactos no son elegibles. La oferta <br class="DT_e">
                 no se aplica a planes de crédito de pago por uso, complementos y cualquier otro producto.
             </li>
             <li>
@@ -168,7 +168,7 @@
             <li>
                 <span class="number">4</span>
                 Esta promoción solo es válida para primeras compras de un plan anual realizadas entre el <strong>
-                  21 de <br class="desktopTabletElement">
+                  21 de <br class="DT_e">
                   noviembre de 2022
                 </strong> a las 00:00 (CET) y el <strong>30 de noviembre de 2022</strong> a las 23:59 (CET).
             </li>

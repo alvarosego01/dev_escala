@@ -48,20 +48,20 @@
 {{--
                 @if (isset($overlayImage1) && $overlayImage1 != null)
 
-                <img src="{{ $overlayImage1 }}" alt="" class="desktopElement overlay1">
+                <img src="{{ $overlayImage1 }}" alt="" class="D_e overlay1">
 
                 @endif
 
                 @if (isset($overlayImage2) && $overlayImage2 != null)
 
-                <img src="{{ $overlayImage2 }}" alt="" class="desktopElement overlay2">
+                <img src="{{ $overlayImage2 }}" alt="" class="D_e overlay2">
 
 
                 @endif
 
                 @if (isset($overlayImage3) && $overlayImage3 != null)
 
-                <img src="{{ $overlayImage3 }}" alt="" class="desktopElement overlay3">
+                <img src="{{ $overlayImage3 }}" alt="" class="D_e overlay3">
 
 
                 @endif --}}

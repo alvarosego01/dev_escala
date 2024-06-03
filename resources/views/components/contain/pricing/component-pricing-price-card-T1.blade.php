@@ -488,7 +488,7 @@ $items = [
     <div class="section-row">
 
         @if (isset($titlePrincipal) && $titlePrincipal != null)
-            <section class="innerSectionElement sct1 desktopElement">
+            <section class="innerSectionElement sct1 D_e">
 
                 <div class="containElements">
 
@@ -535,7 +535,7 @@ $items = [
                                     </h3>
                                 </div>
 
-                                <div class="elementBody desktopElement versionPc2022">
+                                <div class="elementBody D_e versionPc2022">
 
                                     <div
                                     style="margin-bottom: 60px"
@@ -725,7 +725,7 @@ $items = [
                                 </div>
 
                                 {{-- estoy trabajando aqui --}}
-                                <div class="elementBody mobileElement versionMobile2022">
+                                <div class="elementBody MT_e versionMobile2022">
 
                                     <div class="preView">
 

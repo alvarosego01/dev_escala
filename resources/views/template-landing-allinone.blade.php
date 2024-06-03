@@ -148,7 +148,7 @@
 
 
             <p class="primaryText grayColorTexts">
-              <strong>Escala</strong> te permite implementar embudos de venta: <br class="space"> la estrategia probada para hacer crecer empresas de <br class="mobileElement"> manera rentable, sostenible y escalable
+              <strong>Escala</strong> te permite implementar embudos de venta: <br class="space"> la estrategia probada para hacer crecer empresas de <br class="MT_e"> manera rentable, sostenible y escalable
             </p>
 
           </div>
@@ -248,7 +248,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Crea increíbles <br class="desktopTabletElement"> páginas sin programar</h3>
+                  <h3 class="secondaryTitle blackColor">Crea increíbles <br class="DT_e"> páginas sin programar</h3>
                   <p class="primaryText  grayColorTexts">¡Y que queden hermosas!</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/landing-pages/">Conocer más</a>
                 </div>
@@ -262,7 +262,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Organiza tus contactos y <br class="desktopTabletElement"> gestiona procesos de venta</h3>
+                  <h3 class="secondaryTitle blackColor">Organiza tus contactos y <br class="DT_e"> gestiona procesos de venta</h3>
                   <p class="primaryText  grayColorTexts">Con un CRM sencillo de usar</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/crm-escala/">
                     Conocer más
@@ -280,7 +280,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Envía emails de marketing <br class="desktopTabletElement"> profesionales</h3>
+                  <h3 class="secondaryTitle blackColor">Envía emails de marketing <br class="DT_e"> profesionales</h3>
                   <p class="primaryText  grayColorTexts">Personalizados y masivos, sin caer <br class="space"> en la bandeja de SPAM</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/email/">
                     Conocer más
@@ -296,7 +296,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Multiplica tus visitas web <br class="desktopTabletElement"> con anuncios digitales</h3>
+                  <h3 class="secondaryTitle blackColor">Multiplica tus visitas web <br class="DT_e"> con anuncios digitales</h3>
                   <p class="primaryText  grayColorTexts">en Facebook, Instagram y Google</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/anuncios-digitales/">
                     Conocer más
@@ -314,7 +314,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Automatiza tareas y flujos <br class="desktopTabletElement"> de comunicación</h3>
+                  <h3 class="secondaryTitle blackColor">Automatiza tareas y flujos <br class="DT_e"> de comunicación</h3>
                   <p class="primaryText  grayColorTexts">Escala trabaja por ti 24/7</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/automatizacion/">
                     Conocer más
@@ -333,7 +333,7 @@
                 </div>
 
                 <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">Obtén métricas de marketing <br class="desktopTabletElement"> y ventas en  tiempo real</h3>
+                  <h3 class="secondaryTitle blackColor">Obtén métricas de marketing <br class="DT_e"> y ventas en  tiempo real</h3>
                   <p class="primaryText  grayColorTexts">con dashboards inteligentes</p>
                   <a class="hiperButtonGreenBlue" href="{!! App::setTypeUrl() !!}/analiticas/">
                     Conocer más
@@ -397,7 +397,7 @@
           <div class="containElements">
 
             <h2 class="primaryTitle blackColor">
-              5 ventajas de potenciar <br class="mobileElement"> tu negocio con <span class="orangeColor">Escala</span>
+              5 ventajas de potenciar <br class="MT_e"> tu negocio con <span class="orangeColor">Escala</span>
             </h2>
 
           </div>
@@ -419,10 +419,10 @@
                   <h3 class="secondaryTitle blackColor">Una herramientas <br class="space"> muy amigable</h3>
                   <p class="primaryText grayColorTexts">
                     Para mercadeo y ventas <br class="space">
-                    <span class=" desktopTabletElement greenBlueColor">
+                    <span class=" DT_e greenBlueColor">
                       Ernesto Valery / Director Huella Studio
                     </span>
-                    <span class="mobileSmallElement greenBlueColor">
+                    <span class="M_e greenBlueColor">
                       Ernesto Valery <br class="space">
                       Director Huella Studio
                     </span>
@@ -443,10 +443,10 @@
                     Tienen un equipo atento <br class="space">
                     y disponible cuando lo necesitas
                     <br class="space">
-                    <span class="desktopTabletElement greenBlueColor">
+                    <span class="DT_e greenBlueColor">
                       Michelle Palaez / Fundadora Infinito Producciones
                     </span>
-                    <span class="mobileSmallElement greenBlueColor">
+                    <span class="M_e greenBlueColor">
                       Michelle Palaez <br class="space">
                       Fundadora Infinito Producciones
                     </span>
@@ -485,10 +485,10 @@
                   <h3 class="secondaryTitle blackColor">Todas las funcionalidades <br class="space"> en un solo lugar</h3>
                   <p class="primaryText grayColorTexts">
                     Escala programa las páginas por ti <br class="space">
-                    <span class="desktopTabletElement greenBlueColor">
+                    <span class="DT_e greenBlueColor">
                       Michelle Palaez / Fundadora Infinito Producciones
                     </span>
-                    <span class="mobileSmallElement greenBlueColor">
+                    <span class="M_e greenBlueColor">
                       Michelle Palaez <br class="space"> Fundadora Infinito Producciones
                     </span>
                   </p>
@@ -596,7 +596,7 @@
 
             <div class="testimonial col-md-12 col-lg-6 ">
 
-              <div class="containElements desktopElement">
+              <div class="containElements D_e">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Agencia de Publicidad</h3>
                   <span class="tag greenBlueColor">El Salvador</span>
@@ -620,7 +620,7 @@
                 </div>
 
               </div>
-              <div class="containElements mobileElement">
+              <div class="containElements MT_e">
 
                 <div class="referElements">
                   <div class="containerImage">
@@ -652,7 +652,7 @@
 
             </div>
             <div class="testimonial col-md-12 col-lg-6 ">
-              <div class="containElements desktopElement">
+              <div class="containElements D_e">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Agencia de Marketing</h3>
                   <span class="tag greenBlueColor">México</span>
@@ -676,7 +676,7 @@
                 </div>
 
               </div>
-              <div class="containElements mobileElement">
+              <div class="containElements MT_e">
 
                 <div class="referElements">
                   <div class="containerImage">
@@ -709,7 +709,7 @@
           </div>
           <div class="groupElements row">
             <div class="testimonial col-md-12 col-lg-6 ">
-              <div class="containElements desktopElement">
+              <div class="containElements D_e">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Turismo</h3>
                   <span class="tag greenBlueColor">Venezuela</span>
@@ -733,7 +733,7 @@
                 </div>
 
               </div>
-              <div class="containElements mobileElement">
+              <div class="containElements MT_e">
 
                 <div class="referElements">
                   <div class="containerImage">
@@ -762,7 +762,7 @@
             </div>
             </div>
             <div class="testimonial col-md-12 col-lg-6 ">
-              <div class="containElements desktopElement">
+              <div class="containElements D_e">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Agencia de Comunicaciones</h3>
                   <span class="tag greenBlueColor">Costa Rica</span>
@@ -788,7 +788,7 @@
                 </div>
 
               </div>
-              <div class="containElements mobileElement">
+              <div class="containElements MT_e">
 
                 <div class="referElements">
                   <div class="containerImage">
@@ -825,7 +825,7 @@
           <div class="groupElements row">
             <div class="testimonial col-md-12 col-lg-6 ">
 
-              <div class="containElements desktopElement">
+              <div class="containElements D_e">
 
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Academia de Coaching</h3>
@@ -854,7 +854,7 @@
                 </div>
 
               </div>
-              <div class="containElements mobileElement">
+              <div class="containElements MT_e">
 
                 <div class="referElements">
                   <div class="containerImage">
@@ -890,7 +890,7 @@
             </div>
             <div class="testimonial col-md-12 col-lg-6 ">
 
-              <div class="containElements desktopElement">
+              <div class="containElements D_e">
                 <div class="containInfo">
                   <h3 class="secondaryTitle blackColor">Entretenimiento Deportivo</h3>
                   <span class="tag greenBlueColor">Venezuela</span>
@@ -914,7 +914,7 @@
                 </div>
 
               </div>
-              <div class="containElements mobileElement">
+              <div class="containElements MT_e">
 
                 <div class="referElements">
                   <div class="containerImage">
@@ -953,7 +953,7 @@
         </section>
 
 
-        <section class="mobileElement showMore innerSectionElement sct3">
+        <section class="MT_e showMore innerSectionElement sct3">
 
           <div class="containElements">
 

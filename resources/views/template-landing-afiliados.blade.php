@@ -47,7 +47,7 @@
                         <p class="primaryText grayColorTexts">
 
                                 Con cada plan adquirido por tus referidos ganas hasta un 30% de comisiones. Crecen tus <br
-                                class="desktopElement"> ingresos pasivos, mientras tu comunidad de negocios incrementa sus ventas con Escala.
+                                class="D_e"> ingresos pasivos, mientras tu comunidad de negocios incrementa sus ventas con Escala.
                         </p>
 
                     </div>
@@ -63,7 +63,7 @@
                     'type' => 'backgroundColor',
                     'classSection' => 'landingAfiliados2',
                     'enableTitle' => true,
-                    'titlePrincipal' => '¿Para quién está diseñado el <br class="desktopTabletElement"> programa de afiliados de Escala?',
+                    'titlePrincipal' => '¿Para quién está diseñado el <br class="DT_e"> programa de afiliados de Escala?',
                     'overlay' => false,
                     'overlayImage' => null,
                     'enableButton' => false,
@@ -74,21 +74,21 @@
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/icons-afiliados_1.png'),
                             'title' => '<span class="greenBlueColor">Creadores <br class="space"> de contenidos</span>',
-                            'text' => 'Si eres un creador de contenido en <br class="desktopTabletElement"> marketing digital y ventas, y parte de tu <br class="desktopTabletElement"> contenido va a pequeñas y grandes <br class="desktopTabletElement"> empresas que quieren llevar  su negocio al <br class="desktopTabletElement"> mundo digital escalando a gran velocidad, <br class="desktopTabletElement"> tú puedes ser un afiliado de Escala.',
+                            'text' => 'Si eres un creador de contenido en <br class="DT_e"> marketing digital y ventas, y parte de tu <br class="DT_e"> contenido va a pequeñas y grandes <br class="DT_e"> empresas que quieren llevar  su negocio al <br class="DT_e"> mundo digital escalando a gran velocidad, <br class="DT_e"> tú puedes ser un afiliado de Escala.',
                             'enableButton' => false,
                         ],
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/icons-afiliados_2.png'),
                             'title' => '<span class="greenBlueColor">Influenciadores <br class="space"> de PYMES</span>',
-                            'text' => 'Si eres un conocedor de las plataformas todo en uno <br class="desktopTabletElement"> y tienes una comunidad de PYMES a <br class="desktopTabletElement"> la cual puedes orientar para acelerar el <br class="desktopTabletElement"> crecimiento de sus negocios, eres perfecto <br class="desktopTabletElement"> para convertirte en un afiliado.',
+                            'text' => 'Si eres un conocedor de las plataformas todo en uno <br class="DT_e"> y tienes una comunidad de PYMES a <br class="DT_e"> la cual puedes orientar para acelerar el <br class="DT_e"> crecimiento de sus negocios, eres perfecto <br class="DT_e"> para convertirte en un afiliado.',
                             'enableButton' => false,
                         ],
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/icons-afiliados_3.png'),
                             'title' => '<span class="greenBlueColor">Aliados en ventas
-                                <br class="desktopElement"><br class="desktopElement">
+                                <br class="D_e"><br class="D_e">
                                 </span>',
-                            'text' => 'Si eres un usuario de Escala o un vendedor <br class="desktopTabletElement"> nato y te encanta recomendar para obtener <br class="desktopTabletElement"> ganancias por cada referido. Escala te da una <br class="desktopTabletElement"> gran oportunidad para ganar comisiones <br class="desktopTabletElement"> mensualmente.',
+                            'text' => 'Si eres un usuario de Escala o un vendedor <br class="DT_e"> nato y te encanta recomendar para obtener <br class="DT_e"> ganancias por cada referido. Escala te da una <br class="DT_e"> gran oportunidad para ganar comisiones <br class="DT_e"> mensualmente.',
                             'enableButton' => false,
                         ],
                     ],
@@ -115,19 +115,19 @@
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/afiliados-steps_1.png'),
                             'title' => '<span class="greenBlueColor">Regístrate</span>',
-                            'text' => 'Escríbenos y envíanos tu <br class="desktopTabletElement"> postulación',
+                            'text' => 'Escríbenos y envíanos tu <br class="DT_e"> postulación',
                             'enableButton' => false,
                         ],
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/afiliados-steps_2.png'),
                             'title' => '<span class="greenBlueColor">Promociona</span>',
-                            'text' => 'Recomienda Escala a través de tu link <br class="desktopTabletElement"> único de afiliado. <span class="greenBlueColor">Tu link tiene 90 días de cookies para ser utilizado.</span>',
+                            'text' => 'Recomienda Escala a través de tu link <br class="DT_e"> único de afiliado. <span class="greenBlueColor">Tu link tiene 90 días de cookies para ser utilizado.</span>',
                             'enableButton' => false,
                         ],
                         [
                             'img' => App::setFilePath('/assets/images/illustrations/others/afiliados-steps_3.png'),
                             'title' => '<span class="greenBlueColor">Gana comisiones</span>',
-                            'text' => 'Gana el 30% de comisión sobre <br class="desktopTabletElement"> el valor del plan comprado por <br class="desktopTabletElement"> tu referido.',
+                            'text' => 'Gana el 30% de comisión sobre <br class="DT_e"> el valor del plan comprado por <br class="DT_e"> tu referido.',
                             'enableButton' => false,
                         ],
                     ],
@@ -171,7 +171,7 @@
                     'subTitlePrincipal' => null,
                     'title' => '<span class="greenBlueColor">Envíanos tus datos bancarios</span>',
                     'img' => App::setFilePath('/assets/images/illustrations/others/02_CRM 3.png'),
-                    'text' => 'Recibirás un email de bienvenida con tu link <br class="desktopTabletElement"> único de afiliado. En ese mismo correo te <br class="desktopTabletElement"> solicitaremos tus datos bancarios para que <br class="desktopTabletElement"> puedas cobrar tus comisiones, a través de <br class="desktopTabletElement"> transferencias electrónicas o PayPal
+                    'text' => 'Recibirás un email de bienvenida con tu link <br class="DT_e"> único de afiliado. En ese mismo correo te <br class="DT_e"> solicitaremos tus datos bancarios para que <br class="DT_e"> puedas cobrar tus comisiones, a través de <br class="DT_e"> transferencias electrónicas o PayPal
                     ',
                     'enableButton' => false,
                     'side' => 'right',
@@ -192,9 +192,9 @@
                     'title' => '<span class="greenBlueColor">Elige la forma de pago</span>',
                     'img' => App::setFilePath('/assets/images/illustrations/others/Group 1924.png'),
                     'text' => '<span class="greenBlueColor"><strong>Plan recurrente:</strong></span> <br class="space">
-                <strong>Cobra el 30%</strong> de comisión de manera <br class="desktopTabletElement"> recurrente (hasta el primer año) <br class="space"> <br class="space">
+                <strong>Cobra el 30%</strong> de comisión de manera <br class="DT_e"> recurrente (hasta el primer año) <br class="space"> <br class="space">
                 <span class="greenBlueColor"><strong>Comisión Fija:</strong></span> <br class="space">
-                <strong>Cobra el 100%</strong> del primer mes o el <br class="desktopTabletElement"> 30% del pago del plan anual
+                <strong>Cobra el 100%</strong> del primer mes o el <br class="DT_e"> 30% del pago del plan anual
                 ',
                     'enableButton' => false,
                     'side' => 'left',
@@ -214,7 +214,7 @@
                     'subTitlePrincipal' => null,
                     'title' => '<span class="greenBlueColor">Haz efectiva tus comisiones</span>',
                     'img' => App::setFilePath('/assets/images/illustrations/otto/Group.png'),
-                    'text' => 'Podrás cobrar 15 días después del <br class="desktopTabletElement"> trimestre de suscripción de tu referido',
+                    'text' => 'Podrás cobrar 15 días después del <br class="DT_e"> trimestre de suscripción de tu referido',
                     'enableButton' => false,
 
                     'side' => 'right',
@@ -261,7 +261,7 @@
                     'title' => '<span class="greenBlueColor">Te ayudamos a enamorar <br class="space">
                 a tus referidos</span>',
                     'img' => App::setFilePath('/assets/images/illustrations/team/crm_afiliates.png'),
-                    'text' => 'Te damos todo el material de comunicación que necesitas para <br class="desktopTabletElement"> que tus referidos entiendan los grandes beneficios que obtienen <br class="desktopTabletElement"> con Escala. Tendrás lead magnets como: artículos de blog y PDF´s <br class="desktopTabletElement"> explicando cada plan.',
+                    'text' => 'Te damos todo el material de comunicación que necesitas para <br class="DT_e"> que tus referidos entiendan los grandes beneficios que obtienen <br class="DT_e"> con Escala. Tendrás lead magnets como: artículos de blog y PDF´s <br class="DT_e"> explicando cada plan.',
                     'enableButton' => false,
                     // 'urlButton' => '#lead-form',
                     // 'textButton' => 'Segmentar ahora',
@@ -317,7 +317,7 @@
                     'classSection' => 'landingAfiliados10',
                     'title' => '¡Regístrate hoy mismo <br class="space"> y gana grandes comisiones!',
                     'textForm' => '¡Comienza a ganar comisiones!',
-                    'text' => 'Llena este formulario y regístrate en nuestro programa <br class="desktopTabletElement"> de afiliados hoy mismo
+                    'text' => 'Llena este formulario y regístrate en nuestro programa <br class="DT_e"> de afiliados hoy mismo
                     ',
                     'image' => App::setFilePath('/assets/images/illustrations/otto/otto-ventas 1.png'),
                 ];
@@ -334,9 +334,9 @@
      'enableTitle' => false,
      'titlePrincipal' => null,
      'subTitlePrincipal' => null,
-     'title' => '¡Regístrate hoy mismo <br class="desktopTabletElement"> y gana grandes comisiones!',
+     'title' => '¡Regístrate hoy mismo <br class="DT_e"> y gana grandes comisiones!',
      'img' => App::setFilePath('/assets/images/illustrations/otto/otto-ventas 1.png'),
-     'text' => 'Escríbenos a <span class="orangeColor">afiliados@escala.com</span> y regístrate en <br class="desktopTabletElement"> nuestro programa de afiliados hoy mismo',
+     'text' => 'Escríbenos a <span class="orangeColor">afiliados@escala.com</span> y regístrate en <br class="DT_e"> nuestro programa de afiliados hoy mismo',
      'enableButton' => false,
      // 'urlButton' => '#lead-form',
      // 'textButton' => 'Segmentar ahora',

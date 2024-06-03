@@ -38,7 +38,7 @@
         </span>
         <div class="byAm">
             <span class="whiteColor">Andrés Moreno</span> <br class="space">
-            <span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="mobileElement"> & Open English</span>
+            <span class="sub" style="color: #B9E6E9">Fundador de Escala <br class="MT_e"> & Open English</span>
         </div>
     ',
      'threeCol' => true,
@@ -62,7 +62,7 @@
         'classSection' => 'landingemailMk_exitoEscalarExito_1',
         'enableTitle' => true,
         'titlePrincipal' => '
-        Conoce los beneficios <br class="desktopTabletElement">
+        Conoce los beneficios <br class="DT_e">
 de nuestro email marketing
         ',
         'subTitlePrincipal' => null,
@@ -76,7 +76,7 @@ de nuestro email marketing
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_01.png'),
                 'title' => '<span class="grayColorTexts5">
-                     Date a conocer <br class="desktopTabletElement">
+                     Date a conocer <br class="DT_e">
 con nuevos leads
                     </span>',
                 'enableButton' => false,
@@ -84,7 +84,7 @@ con nuevos leads
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_02.png'),
                 'title' => '<span class="grayColorTexts5">
-                    Mantén comunicación <br class="desktopTabletElement">
+                    Mantén comunicación <br class="DT_e">
 constante con tus clientes
                     </span>',
                 'enableButton' => false,
@@ -92,7 +92,7 @@ constante con tus clientes
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_03.png'),
                 'title' => '<span class="grayColorTexts5">
-                    Hazle seguimiento a tus leads <br class="desktopTabletElement">
+                    Hazle seguimiento a tus leads <br class="DT_e">
 hasta cerrar la venta
                     </span>',
                 'enableButton' => false,
@@ -100,8 +100,8 @@ hasta cerrar la venta
             [
                 'img' => App::setFilePath('/assets/images/illustrations/others/landings_emailsMK_04.png'),
                 'title' => '<span class="grayColorTexts5">
-                    Sé más efectivo con <br class="desktopTabletElement">
-emails que no llegan a la <br class="desktopTabletElement">
+                    Sé más efectivo con <br class="DT_e">
+emails que no llegan a la <br class="DT_e">
 bandeja de Spam
                     </span>',
                 'enableButton' => false,
@@ -120,7 +120,7 @@ bandeja de Spam
         'classSection' => 'landingemailMk_exitoEscalarExito_2',
         'enableTitle' => true,
         'titlePrincipal' => '
-        Crea campañas de <br class="desktopTabletElement">
+        Crea campañas de <br class="DT_e">
 Email Marketing efectivas
         ',
         'subTitlePrincipal' => null,
@@ -137,9 +137,9 @@ Email Marketing efectivas
                     Elige tu Plantilla
                 </span>',
                 'text' => '
-                En Escala hemos creado plantillas optimizadas <br class="desktopTabletElement">
-con las mejores prácticas de email marketing <br class="desktopTabletElement">
-para no caer en la  bandeja de spam. Elige la más <br class="desktopTabletElement">
+                En Escala hemos creado plantillas optimizadas <br class="DT_e">
+con las mejores prácticas de email marketing <br class="DT_e">
+para no caer en la  bandeja de spam. Elige la más <br class="DT_e">
 adecuada para tu campaña y dale tu toque personal.
                 ',
                 'enableButton' => false,
@@ -150,9 +150,9 @@ adecuada para tu campaña y dale tu toque personal.
                     Envía
                 </span>',
                 'text' => '
-                Haz envíos masivos a tus leads y clientes con <br class="desktopTabletElement">
-campañas relevantes para: lanzar nuevos productos <br class="desktopTabletElement">
-o servicios, mandar promociones customizadas, <br class="desktopTabletElement">
+                Haz envíos masivos a tus leads y clientes con <br class="DT_e">
+campañas relevantes para: lanzar nuevos productos <br class="DT_e">
+o servicios, mandar promociones customizadas, <br class="DT_e">
 evaluar cómo se sienten y fidelizar a tus clientes.
                 ',
                 'enableButton' => false,
@@ -163,9 +163,9 @@ evaluar cómo se sienten y fidelizar a tus clientes.
                     Automatiza
                 </span>',
                 'text' => '
-                En Escala programa el día y la hora de tu envío. <br class="desktopTabletElement">
-Automatiza respuestas según el feedback de tus <br class="desktopTabletElement">
-clientes y leads. Mantén comunicación constante,<br class="desktopTabletElement">
+                En Escala programa el día y la hora de tu envío. <br class="DT_e">
+Automatiza respuestas según el feedback de tus <br class="DT_e">
+clientes y leads. Mantén comunicación constante,<br class="DT_e">
 sin hacer tareas repetitivas.
                 ',
                 'enableButton' => false,
@@ -176,9 +176,9 @@ sin hacer tareas repetitivas.
                     Optimiza
                 </span>',
                 'text' => '
-                Mide el rendimiento de tus campañas de email <br class="desktopTabletElement">
-marketing en tiempo real y mejora los índices de <br class="desktopTabletElement">
-apertura, clics y rebote para hacer exitosas tus <br class="desktopTabletElement">
+                Mide el rendimiento de tus campañas de email <br class="DT_e">
+marketing en tiempo real y mejora los índices de <br class="DT_e">
+apertura, clics y rebote para hacer exitosas tus <br class="DT_e">
 campañas.
                 ',
                 'enableButton' => false,
@@ -199,7 +199,7 @@ campañas.
         'enableTitle' => true,
         'titlePrincipal' => '
         <span class="whiteColor">
-            Los emails de Escala son <br class="desktopTabletElement">
+            Los emails de Escala son <br class="DT_e">
 realmente poderosos
         </span>',
         'subTitlePrincipal' => null,
@@ -217,7 +217,7 @@ realmente poderosos
 a la bandeja de Spam
                     </span>',
                 'text' => '
-                Nuestra tecnología permite que todos tus emails <br class="desktopTabletElement">
+                Nuestra tecnología permite que todos tus emails <br class="DT_e">
 lleguen al lugar correcto en el momento correcto. <br class="space">
 Emails realmente efectivos.
                 ',
@@ -230,9 +230,9 @@ Emails realmente efectivos.
 Optimizadas
                     </span>',
                 'text' => '
-                Nuestra plantillas están diseñadas en base a las <br class="desktopTabletElement">
-mejores prácticas, tomando en cuenta todo lo que <br class="desktopTabletElement">
-necesitas para que tus emails puedan ser leídos <br class="desktopTabletElement">
+                Nuestra plantillas están diseñadas en base a las <br class="DT_e">
+mejores prácticas, tomando en cuenta todo lo que <br class="DT_e">
+necesitas para que tus emails puedan ser leídos <br class="DT_e">
 sin problemas en todas las plataformas de correo.
                 ',
                 'enableButton' => false,
@@ -254,7 +254,7 @@ sin problemas en todas las plataformas de correo.
           <section class="innerSectionElement1">
 
             <h2 class="primaryTitle blackColor">
-              Nuestros clientes te dicen <br class="desktopTabletElement"> qué tan fácil es usar Escala
+              Nuestros clientes te dicen <br class="DT_e"> qué tan fácil es usar Escala
 
             </h2>
 
@@ -299,11 +299,11 @@ $parameters = [
     'classSection' => 'landingemailMk_exitoEscalarExito_5',
     'enableTitle' => true,
     'titlePrincipal' => '
-    Potencia tu marketing digital con <br class="desktopTabletElement">
+    Potencia tu marketing digital con <br class="DT_e">
     Escala, nuestra plataforma todo en uno
     ',
     'subTitlePrincipal' => '
-    Tu email marketing estará ya integrado a la plataforma “todo en uno” de marketing digital <br class="desktopElement">
+    Tu email marketing estará ya integrado a la plataforma “todo en uno” de marketing digital <br class="D_e">
 y ventas más completa de todas y fácil de usar
     ',
     'overlay' => false,
@@ -313,14 +313,14 @@ y ventas más completa de todas y fácil de usar
                 [
                     'img' => App::setFilePath('/assets/images/illustrations/others/5_todoenuno_01.png'),
                     'title' => '<span class="greenBlueColor7">
-                        Multiplica las visitas a tu <br class="desktopTabletElement">
-                        landing page con anuncios <br class="desktopTabletElement">
+                        Multiplica las visitas a tu <br class="DT_e">
+                        landing page con anuncios <br class="DT_e">
                         digitales
                         </span>',
                     'text' => '
                     Comienza a generar tráfico a tu landing page. <br class="space">
-                    Crea, publica y gestiona campañas de <br class="desktopTabletElement">
-                    anuncios digitales de Instagram y Facebook, <br class="desktopTabletElement">
+                    Crea, publica y gestiona campañas de <br class="DT_e">
+                    anuncios digitales de Instagram y Facebook, <br class="DT_e">
                     directamente desde Escala.
                     ',
                     'enableButton' => false,
@@ -331,14 +331,14 @@ y ventas más completa de todas y fácil de usar
                     'title' => '<span class="greenBlueColor7">
                         Crea landing pages <br class="space">
                         en minutos
-                        <br class="desktopTabletElement">
-                        <br class="desktopTabletElement">
+                        <br class="DT_e">
+                        <br class="DT_e">
                         </span>
                     ',
                     'text' => '
-                    Crea landing pages para darte a conocer y registrar <br class="desktopTabletElement">
-                    la data de tus visitantes, sin escribir una línea de <br class="desktopTabletElement">
-                    código, ni diseñar. Solo eliges tu plantilla, la <br class="desktopTabletElement">
+                    Crea landing pages para darte a conocer y registrar <br class="DT_e">
+                    la data de tus visitantes, sin escribir una línea de <br class="DT_e">
+                    código, ni diseñar. Solo eliges tu plantilla, la <br class="DT_e">
                     personalizas y en un clic la puedes publicar.
                     ',
                     'enableButton' => false,
@@ -351,10 +351,10 @@ la información de tus contactos <br class="space">
 con el CRM integrado
                         </span>',
                     'text' => '
-                    La información que registran tus visitantes en <br class="desktopTabletElement">
-los formularios integrados de tus landing pages <br class="desktopTabletElement">
-se guarda automáticamente en el CRM de <br class="desktopTabletElement">
-Escala. No más integraciones para organizar,<br class="desktopTabletElement">
+                    La información que registran tus visitantes en <br class="DT_e">
+los formularios integrados de tus landing pages <br class="DT_e">
+se guarda automáticamente en el CRM de <br class="DT_e">
+Escala. No más integraciones para organizar,<br class="DT_e">
 gestionar y vender a tus contactos.
                     ',
                     'enableButton' => false,
@@ -366,9 +366,9 @@ gestionar y vender a tus contactos.
 tiempo y evitar errores
                         </span>',
                     'text' => '
-                    Nunca más realices tareas repetitivas de <br class="desktopTabletElement">
-marketing digital y ventas. Programa <br class="desktopTabletElement">
-recordatorios, acciones y mensajes que <br class="desktopTabletElement">
+                    Nunca más realices tareas repetitivas de <br class="DT_e">
+marketing digital y ventas. Programa <br class="DT_e">
+recordatorios, acciones y mensajes que <br class="DT_e">
 aumentan tu productividad.
 
                     ',
@@ -381,10 +381,10 @@ aumentan tu productividad.
 en tiempo real
                         </span>',
                     'text' => '
-                    Ten las métricas más relevantes para poder <br class="desktopTabletElement">
-optimizar tus resultados de marketing digital <br class="desktopTabletElement">
-y ventas. Cuenta con dashboards amigables <br class="desktopTabletElement">
-para ver las analíticas de landing pages, ads,<br class="desktopTabletElement">
+                    Ten las métricas más relevantes para poder <br class="DT_e">
+optimizar tus resultados de marketing digital <br class="DT_e">
+y ventas. Cuenta con dashboards amigables <br class="DT_e">
+para ver las analíticas de landing pages, ads,<br class="DT_e">
 ventas y emails.
                     ',
                     'enableButton' => false,
@@ -417,8 +417,8 @@ ventas y emails.
           <section class="innerSectionElement2">
 
             <h2 class="primaryTitle whiteColor">
-                Los emails de Escala, la herramienta <br class="desktopElement">
-más efectiva para generar relaciones <br class="desktopElement">
+                Los emails de Escala, la herramienta <br class="D_e">
+más efectiva para generar relaciones <br class="D_e">
 a largo plazo con tus clientes
             </h2>
 
@@ -443,7 +443,7 @@ $parameters = [
     'titlePrincipal' => '
     Servicio Premium
     ',
-    'subTitlePrincipal' => 'No solo te ayudamos a crear efectivas campañas de email marketing, también <br class="desktopTabletElement"> te vamos a acompañar en todo el camino al éxito
+    'subTitlePrincipal' => 'No solo te ayudamos a crear efectivas campañas de email marketing, también <br class="DT_e"> te vamos a acompañar en todo el camino al éxito
     ',
     'overlay' => false,
     'enableButton' => true,
@@ -494,8 +494,8 @@ $parameters = [
 $parameters = [
     'classSection' => 'landingemailMk_exitoEscalarExito_8',
     'title' => '
-Quiero generar más leads y <br class="desktopTabletElement">
-fidelizar más clientes con <br class="desktopTabletElement">
+Quiero generar más leads y <br class="DT_e">
+fidelizar más clientes con <br class="DT_e">
 campañas de email marketing
         </span>',
         'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',

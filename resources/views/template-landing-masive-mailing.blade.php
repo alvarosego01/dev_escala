@@ -47,25 +47,25 @@
               [
                   'img' => App::setFilePath('/assets/images/illustrations/others/count-step-1.png'),
                   'title' => '<span class="greenBlueColor3">Crea tus emails</span>',
-                  'text' => 'Crea emails profesionales <br class="desktopTabletElement"> con el editor de emails <br class="desktopTabletElement"> más intuitivo. <br class="desktopTabletElement"> ¡Hazlo tú mismo!',
+                  'text' => 'Crea emails profesionales <br class="DT_e"> con el editor de emails <br class="DT_e"> más intuitivo. <br class="DT_e"> ¡Hazlo tú mismo!',
                   'enableButton' => false,
               ],
               [
                   'img' => App::setFilePath('/assets/images/illustrations/others/count-step-2.png'),
                   'title' => '<span class="greenBlueColor3">Programa tus envíos</span>',
-                  'text' => 'Programa y envía automáticamente <br class="desktopTabletElement"> emails de bienvenida, mensajes de <br class="desktopTabletElement"> seguimiento, newsletters y todo lo <br class="desktopTabletElement"> que quieras comunicar a tus <br class="desktopTabletElement"> contactos.',
+                  'text' => 'Programa y envía automáticamente <br class="DT_e"> emails de bienvenida, mensajes de <br class="DT_e"> seguimiento, newsletters y todo lo <br class="DT_e"> que quieras comunicar a tus <br class="DT_e"> contactos.',
                   'enableButton' => false,
               ],
               [
                   'img' => App::setFilePath('/assets/images/illustrations/others/count-step-3.png'),
                   'title' => '<span class="greenBlueColor3">Haz que lean tus emails</span>',
-                  'text' => 'Dile adiós a la bandeja de spam, <br class="desktopTabletElement"> en Escala hemos desarrollado <br class="desktopTabletElement"> la tecnología para lograr que tus <br class="desktopTabletElement"> emails lleguen al lugar correcto.',
+                  'text' => 'Dile adiós a la bandeja de spam, <br class="DT_e"> en Escala hemos desarrollado <br class="DT_e"> la tecnología para lograr que tus <br class="DT_e"> emails lleguen al lugar correcto.',
                   'enableButton' => false,
               ],
               [
                   'img' => App::setFilePath('/assets/images/illustrations/others/count-step-4.png'),
                   'title' => '<span class="greenBlueColor3">Mide y optimiza</span>',
-                  'text' => 'Obtén todos los reportes en tiempo <br class="desktopTabletElement"> real para que puedas optimizar tus <br class="desktopTabletElement"> resultados.',
+                  'text' => 'Obtén todos los reportes en tiempo <br class="DT_e"> real para que puedas optimizar tus <br class="DT_e"> resultados.',
                   'enableButton' => false,
               ],
           ],
@@ -122,23 +122,23 @@
  $parameters = array(
    'type' => 'regular',
   'classSection' => 'landingMasiveMailing3',
-  'title' => 'Conoce la plataforma “todo en uno” de ventas y marketing <br class="desktopTabletElement"> <span class="greenBlueColor">que acelerará el crecimiento de tu negocio</span>',
+  'title' => 'Conoce la plataforma “todo en uno” de ventas y marketing <br class="DT_e"> <span class="greenBlueColor">que acelerará el crecimiento de tu negocio</span>',
   'subTitle' => null,
   'img1' => App::setFilePath('/assets/images/illustrations/others/landings 1.png'),
-  'title1' => 'Crea increíbles <br class="desktopTabletElement"> páginas sin programar',
-  'desc1' => 'Edita nuestras hermosas <br class="desktopTabletElement"> plantillas, personalízalas y publicalas <br class="desktopTabletElement"> en pocos minutos',
+  'title1' => 'Crea increíbles <br class="DT_e"> páginas sin programar',
+  'desc1' => 'Edita nuestras hermosas <br class="DT_e"> plantillas, personalízalas y publicalas <br class="DT_e"> en pocos minutos',
   'img2' => App::setFilePath('/assets/images/illustrations/others/2022.png'),
-  'title2' => 'Organiza tus contactos y <br class="desktopTabletElement"> gestiona procesos de venta',
-  'desc2' => 'El CRM de Escala te ayuda a simplificar <br class="desktopTabletElement"> tu gestión de ventas y aumentar <br class="desktopTabletElement"> la productividad de tu equipo.',
+  'title2' => 'Organiza tus contactos y <br class="DT_e"> gestiona procesos de venta',
+  'desc2' => 'El CRM de Escala te ayuda a simplificar <br class="DT_e"> tu gestión de ventas y aumentar <br class="DT_e"> la productividad de tu equipo.',
   'img3' => App::setFilePath('/assets/images/illustrations/others/2023.png'),
-  'title3' => 'Multiplica tus visitas web <br class="desktopTabletElement"> con anuncios digitales',
-  'desc3' => 'Genera más tráfico a tus landing <br class="desktopTabletElement"> pages con ads de  Facebook, sin tener <br class="desktopTabletElement"> que salir de Escala.',
+  'title3' => 'Multiplica tus visitas web <br class="DT_e"> con anuncios digitales',
+  'desc3' => 'Genera más tráfico a tus landing <br class="DT_e"> pages con ads de  Facebook, sin tener <br class="DT_e"> que salir de Escala.',
   'img4' => App::setFilePath('/assets/images/illustrations/others/automatizan 1.png'),
-  'title4' => 'Automatiza tareas y flujos <br class="desktopTabletElement"> de comunicación',
-  'desc4' => 'Escala trabaja por ti 24/7, pon <br class="desktopTabletElement"> el piloto automático y ve crecer <br class="desktopTabletElement"> tu negocio',
+  'title4' => 'Automatiza tareas y flujos <br class="DT_e"> de comunicación',
+  'desc4' => 'Escala trabaja por ti 24/7, pon <br class="DT_e"> el piloto automático y ve crecer <br class="DT_e"> tu negocio',
   'img5' => App::setFilePath('/assets/images/illustrations/others/dashboard 1.png'),
-  'title5' => 'Obtén métricas de marketing <br class="desktopTabletElement"> y ventas en tiempo real',
-  'desc5' => 'Analiza tus métricas en dashboards <br class="desktopTabletElement"> inteligentes y optimiza todo tu <br class="desktopTabletElement"> embudo de ventas.',
+  'title5' => 'Obtén métricas de marketing <br class="DT_e"> y ventas en tiempo real',
+  'desc5' => 'Analiza tus métricas en dashboards <br class="DT_e"> inteligentes y optimiza todo tu <br class="DT_e"> embudo de ventas.',
  ) ;
 @endphp
 
@@ -185,7 +185,7 @@
   @php
   $parameters = [
       'classSection' => 'landingMasiveMailing5',
-      'title' => '<span class="greenBlueColor">¿Estás listo para hacer</span> <br class="desktopTabletElement">
+      'title' => '<span class="greenBlueColor">¿Estás listo para hacer</span> <br class="DT_e">
       envíos masivos de emails?',
       'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
       'text' => null,

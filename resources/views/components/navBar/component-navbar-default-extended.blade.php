@@ -34,7 +34,7 @@
 
 
             @if (has_nav_menu('header-top'))
-                <div class="desktopElement container-fluid sct1">
+                <div class="D_e container-fluid sct1">
 
                     <div class=" menusSectionTop" id="main-menu-top">
 
@@ -82,7 +82,7 @@
                 </div>
 
 
-                <div class="mobileElement">
+                <div class="MT_e">
 
                     <div style="display: flex; flex-direction: row" class="buttonSections">
 
@@ -106,7 +106,7 @@
                     {!! $menu_nav_extended; !!}
 
 
-                        <button onclick="_openSideNav('open')" class="mobileElement toggleSideMenu" type="button">
+                        <button onclick="_openSideNav('open')" class="MT_e toggleSideMenu" type="button">
 
                             <i class="fas fa-bars "></i>
 
@@ -114,7 +114,7 @@
 
                     </div>
                 </div>
-                <div class="desktopElement">
+                <div class="D_e">
                     <div class="menusSection" id="main-menu">
 
 
@@ -148,8 +148,8 @@
 
 </header>
 
-{{-- desktopElement --}}
-{{-- mobileElement --}}
+{{-- D_e --}}
+{{-- MT_e --}}
 
 
 <div class=" animate__animated animate__faster" id="sideNavBar">
@@ -168,7 +168,7 @@
 
             </div>
 
-            <div class="mobileSmallElement logo">
+            <div class="M_e logo">
                 <a class="navbar-brand" href="{!! home_url() !!}">
                     <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
                 </a>

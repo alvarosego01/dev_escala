@@ -92,7 +92,7 @@
    'type' => 'regular',
   'classSection' => 'OLD_LandingPagesIncreibles_am_2_3',
   'title' => '
-    Conoce la plataforma “todo en uno” de ventas y marketing <br class="desktopTabletElement"> que acelerará <span class="greenBlueColor">el crecimiento de tu negocio</span>
+    Conoce la plataforma “todo en uno” de ventas y marketing <br class="DT_e"> que acelerará <span class="greenBlueColor">el crecimiento de tu negocio</span>
   ',
   'img1' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala02.png'),
   'title1' => '
@@ -100,9 +100,9 @@
     con anuncios digitales
   ',
   'desc1' => '
-    Conecta tu cuenta de Facebook y <br class="desktopTabletElement">
-    comienza a generar tráfico a tu landing <br class="desktopTabletElement">
-    page. Crea campañas de anuncios <br class="desktopTabletElement">
+    Conecta tu cuenta de Facebook y <br class="DT_e">
+    comienza a generar tráfico a tu landing <br class="DT_e">
+    page. Crea campañas de anuncios <br class="DT_e">
     digitales directamente desde <span class="orangeColor">Escala</span>.
   ',
   'img2' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala03.png'),
@@ -111,10 +111,10 @@
     gestiona procesos de venta
   ',
   'desc2' => '
-  Empodera a tu equipo de ventas con el <br class="desktopTabletElement">
-  CRM más amigable y fácil de usar. <br class="desktopTabletElement">
-  Incrementa la productividad planificando <br class="desktopTabletElement">
-  actividades y manteniendo comunicación <br class="desktopTabletElement">
+  Empodera a tu equipo de ventas con el <br class="DT_e">
+  CRM más amigable y fácil de usar. <br class="DT_e">
+  Incrementa la productividad planificando <br class="DT_e">
+  actividades y manteniendo comunicación <br class="DT_e">
   constante con tus leads.
     ',
   'img3' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala04.png'),
@@ -123,9 +123,9 @@
 marketing profesionales
   ',
   'desc3' => '
-  Envía fácilmente campañas masivas de <br class="desktopTabletElement">
-  emails con una de nuestras plantillas <br class="desktopTabletElement">
-  prediseñadas. Con <span class="orangeColor">Escala</span> dile adiós a la <br class="desktopTabletElement">
+  Envía fácilmente campañas masivas de <br class="DT_e">
+  emails con una de nuestras plantillas <br class="DT_e">
+  prediseñadas. Con <span class="orangeColor">Escala</span> dile adiós a la <br class="DT_e">
   bandeja de spam.
   ',
   'img4' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala05.png'),
@@ -134,9 +134,9 @@ marketing profesionales
 flujos de comunicación
   ',
   'desc4' => '
-  Ahorra tiempo automatizando tareas repetitivas <br class="desktopTabletElement">
-  con <span class="orangeColor">Escala</span> para lograr tus metas de ventas. <br class="desktopTabletElement">
-  Programa recordatorios y configura emails de <br class="desktopTabletElement"> respuestas automáticas.
+  Ahorra tiempo automatizando tareas repetitivas <br class="DT_e">
+  con <span class="orangeColor">Escala</span> para lograr tus metas de ventas. <br class="DT_e">
+  Programa recordatorios y configura emails de <br class="DT_e"> respuestas automáticas.
   ',
   'img5' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala06.png'),
   'title5' => '
@@ -144,10 +144,10 @@ flujos de comunicación
 y ventas en tiempo real
   ',
   'desc5' => '
-  Lo que no se mide, no mejora. <span class="orangeColor">Escala</span> te da las <br class="desktopTabletElement">
-  analíticas necesarias en dashboards amigables <br class="desktopTabletElement">
-  para que optimices tus esfuerzos de venta y <br class="desktopTabletElement">
-  marketing. La salud de tu negocio en un solo <br class="desktopTabletElement">
+  Lo que no se mide, no mejora. <span class="orangeColor">Escala</span> te da las <br class="DT_e">
+  analíticas necesarias en dashboards amigables <br class="DT_e">
+  para que optimices tus esfuerzos de venta y <br class="DT_e">
+  marketing. La salud de tu negocio en un solo <br class="DT_e">
   vistazo.
   ',
  ) ;

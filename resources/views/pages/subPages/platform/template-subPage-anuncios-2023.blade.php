@@ -38,13 +38,13 @@
                             <div class="info col-md-12 col-lg-8">
                                 <p class="text-video">
                                     “La manera más rápida de escalar tu negocio es dominando <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                     el mercadeo digital. Cualquiera puede publicar un anuncio <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                     digital, la clave está en saber generar tráfico calificado a tu <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                     landing page al menor costo posible. <b>En Escala te <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                     brindamos todas las herramientas para hacerlo posible”.</b>
                                 </p>
                                 <br class="space">
@@ -99,11 +99,11 @@
                                 </h2>
                                 <p class="text-p text">
                                     Una de las claves para crear anuncios exitosos es escoger <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                     correctamente el público al que deseas dirigir tus campañas de <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                     mercadeo. En Escala encuentras las herramientas que necesitas <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                     para segmentar y aprovechar al máximo el poder de los medios digitales.
                                 </p>
                             </div>
@@ -140,13 +140,13 @@
                                     </h2>
                                     <p class="text-p">
                                         Despierta tu creatividad creando anuncios de Facebook e <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                         Instagram fácilmente en Escala.
                                         <br class="space"> <br class="space">
                                         Simplemente agrega textos que enganchen, escoge un <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                         titular irresistible, y selecciona la foto o el video que <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                         mejor comunique tu propuesta de valor.
                                         <br class="space"> <br class="space">
                                         ¡Todo es más fácil desde la plataforma!
@@ -176,9 +176,9 @@
                                 </h2>
                                 <p class="text-p">
                                     Una vez que has creado potentes campañas de anuncios <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                     digitales en escala, simplemente selecciona el landing page <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                      al que deseas dirigir el tráfico ¡y voilà!
                                     <br class="space"> <br class="space">
                                     Estás listo para desbordar tus landing pages con visitantes.
@@ -214,12 +214,12 @@
                                     *Hazlo en un click*
                                 </h2>
                                 <p class="text-p">
-                                    Con Escala, publicar tus campañas en Facebook <br class="desktopTabletElement">
+                                    Con Escala, publicar tus campañas en Facebook <br class="DT_e">
                                     e Instagram es fácil y rápido.
                                     <br class="space"> <br class="space">
                                     ¡Solo necesitas un click!
                                     <br class="space"> <br class="space">
-                                    Siéntate, relájate y observa cómo tus anuncios <br class="desktopTabletElement">
+                                    Siéntate, relájate y observa cómo tus anuncios <br class="DT_e">
                                     hacen su magia para traer tráfico a tus páginas.
                                 </p>
                             </div>
@@ -245,17 +245,17 @@
                                 </h2>
                                 <p class="text-p">
                                     Monitorea en tiempo real el rendimiento de tus <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                     campañas de anuncios digitales con escala. <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                     ¿Cuántas personas han visto tu anuncio? ¿Cuál es <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                     tu costo por click?
                                     <br class="space"> <br class="space">
                                     Lo que no se mide no mejora. Conoce lo que <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                     funciona, aprende de lo que no y mejora con ello <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                     tus resultados.
 
                                 </p>
@@ -291,17 +291,17 @@
                 <section class="innerSectionElement sct2">
                         <p class="secondaryText">
                             Imagina poder saber: qué campaña de anuncios digitales generó más visitas a tu landing <br
-                            class="desktopTabletElement">
+                            class="DT_e">
                             page, qué segmentación de audiencia generó más contactos, qué anuncio generó más <br
-                            class="desktopTabletElement">
+                            class="DT_e">
                             clientes, ¡y mucho más!
                             <br class="space"> <br class="space">
                             Cuando tu landing page tiene el Pixel integrado, tú y Facebook obtienen información que <br
-                            class="desktopTabletElement">
+                            class="DT_e">
                             permite optimizar rápidamente tus campañas de anuncios digitales.
                             <br class="space"> <br class="space">
                             Las páginas creadas en Escala ya vienen <br
-                            class="desktopTabletElement">
+                            class="DT_e">
                             con el Pixel de Facebook integrado.
                         </p>
                 </section>

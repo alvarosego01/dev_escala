@@ -18,7 +18,7 @@
                     'backgroundImageType' => false,
                     'classSection' => 'threeCol landingPartners0',
                     'title' => 'Únete al Programa <br class="space"> de Partners de Escala',
-                    'text' => 'Comienza a acelerar la rentabilidad <br class="desktopTabletElement"> de tu agencia, garantizando el crecimiento <br class="desktopTabletElement"> del negocio de tus clientes.',
+                    'text' => 'Comienza a acelerar la rentabilidad <br class="DT_e"> de tu agencia, garantizando el crecimiento <br class="DT_e"> del negocio de tus clientes.',
                     'textForm' => 'Quiero ser partner',
                     'threeCol' => true,
                     'backgroundImage' => null,
@@ -44,7 +44,7 @@
                     'subTitlePrincipal' => null,
                     'title' => 'Únete al Programa <br class="space"> de Partners de Escala',
                     'img' => App::setFilePath('/assets/images/illustrations/team/partners_header.png'),
-                    'text' => 'Comienza a acelerar la rentabilidad de tu <br class="desktopTabletElement"> agencia, garantizando el crecimiento del <br class="desktopTabletElement"> negocio de tus clientes.',
+                    'text' => 'Comienza a acelerar la rentabilidad de tu <br class="DT_e"> agencia, garantizando el crecimiento del <br class="DT_e"> negocio de tus clientes.',
                     'enableButton' => false,
                     // 'urlButton' => '#lead-form',
                     // 'textButton' => 'Segmentar ahora',
@@ -123,29 +123,29 @@
             'enableButton' => false,
             'textButton' => null,
             'typeButton' => null,
-            'titlePrincipal' => '<span class="greenBlueColor">¿Qué ganas al convertir tu agencia</span> <br class="desktopElement"> en parte del programa? ',
+            'titlePrincipal' => '<span class="greenBlueColor">¿Qué ganas al convertir tu agencia</span> <br class="D_e"> en parte del programa? ',
             'elements' => [
                 [
                     'title' => '<span class="greenBlueColor">Comisiones <br class="space"> irresistibles</span>',
-                    'text' => 'Obtén el 20% de comisión sobre los <br class="desktopElement"> planes de Escala adquiridos por tus <br class="desktopElement"> clientes
+                    'text' => 'Obtén el 20% de comisión sobre los <br class="D_e"> planes de Escala adquiridos por tus <br class="D_e"> clientes
                     ',
                     'overImage' => App::setFilePath('/assets/images/illustrations/others/elementos_nov2021 1.png'),
                 ],
                 [
                     'title' => '<span class="greenBlueColor">Asistencia <br class="space"> personalizada</span>',
-                    'text' => 'Tu agencia tendrá un Especialista de Customer Success <br class="desktopElement"> asignado a tu cuenta y a tus clientes, recibiendo <br class="desktopElement"> atención prioritaria y soporte 24/7',
+                    'text' => 'Tu agencia tendrá un Especialista de Customer Success <br class="D_e"> asignado a tu cuenta y a tus clientes, recibiendo <br class="D_e"> atención prioritaria y soporte 24/7',
                     'overImage' => App::setFilePath('/assets/images/illustrations/team/free-trail_06 1.png'),
                 ],
                 // [
                 //     'title' => '<span class="greenBlueColor">Centraliza el manejo <br class="space"> de todos tus clientes <br class="space"> en un solo lugar</span>',
-                //     'text' => 'Lleva el control de los embudos de ventas de tus clientes en un <br class="desktopElement"> solo lugar. Automatiza, mide y optimiza en Escala, garantizando <br class="desktopElement"> la mejor gestión y el seguimiento para tus clientes',
+                //     'text' => 'Lleva el control de los embudos de ventas de tus clientes en un <br class="D_e"> solo lugar. Automatiza, mide y optimiza en Escala, garantizando <br class="D_e"> la mejor gestión y el seguimiento para tus clientes',
                 //     'overImage' => App::setFilePath('/assets/images/illustrations/others/todo-uno 1.png'),
                 // ],
                 // [
                 //     'title' => '<span class="greenBlueColor">Directorio Escala <br class="space"> de Agencias
-                //         <br class="desktopElement"><br class="desktopElement">
+                //         <br class="D_e"><br class="D_e">
                 //         </span>',
-                //     'text' => 'Da a conocer tu agencia y los servicios que prestan a clientes de <br class="desktopElement"> toda hispanoamérica y Estados Unidos, dentro de la comunidad <br class="desktopElement"> de negocio y emprendimiento más grande de la región. El lugar <br class="desktopElement"> ideal para expandir tu oferta de servicios',
+                //     'text' => 'Da a conocer tu agencia y los servicios que prestan a clientes de <br class="D_e"> toda hispanoamérica y Estados Unidos, dentro de la comunidad <br class="D_e"> de negocio y emprendimiento más grande de la región. El lugar <br class="D_e"> ideal para expandir tu oferta de servicios',
                 //     'overImage' => App::setFilePath('/assets/images/illustrations/others/directorio 1.png'),
                 // ],
 
@@ -175,7 +175,7 @@
                     // [
                     //     'img' => App::setFilePath('/assets/images/illustrations/others/free-trail_07 1.png'),
                     //     'title' => '<span class="greenBlueColor">Formación <br class="space"> constante</span>',
-                    //     'text' => 'Tu equipo será acompañado siempre para <br class="desktopElement"> conseguir una formación integral en inbound <br class="desktopElement"> marketing y ventas. On-boarding guiado,<br class="desktopElement"> webinars customizados y guías prácticas',
+                    //     'text' => 'Tu equipo será acompañado siempre para <br class="D_e"> conseguir una formación integral en inbound <br class="D_e"> marketing y ventas. On-boarding guiado,<br class="D_e"> webinars customizados y guías prácticas',
                     //     'enableButton' => false,
                     //     // 'urlButton' => '#lead-form',
                     //     // 'textButton' => '¡Asombroso! Adiós integraciones',
@@ -183,13 +183,13 @@
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/blog 1.png'),
                         'title' => '<span class="greenBlueColor">Crear contenido para el blog</span>',
-                        'text' => 'Convierte a tu agencia en un referente de creación  de contenido <br class="desktopElement"> especializado en marketing digital y ventas, aportando tus <br class="desktopElement"> conocimientos en artículos dentro del Blog de Escala',
+                        'text' => 'Convierte a tu agencia en un referente de creación  de contenido <br class="D_e"> especializado en marketing digital y ventas, aportando tus <br class="D_e"> conocimientos en artículos dentro del Blog de Escala',
                         'enableButton' => false,
                     ],
                     [
                         'img' => App::setFilePath('/assets/images/illustrations/others/whitelabel 1.png'),
                         'title' => '<span class="greenBlueColor">Material promocional</span>',
-                        'text' => 'En Escala dispones de material para promocionar nuestra <br class="desktopElement"> plataforma: presentación Escala y pdf´s de funcionalidades para <br class="desktopElement"> que tus clientes puedan ver todo lo que pueden lograr <br class="desktopElement"> acelerando sus ventas.',
+                        'text' => 'En Escala dispones de material para promocionar nuestra <br class="D_e"> plataforma: presentación Escala y pdf´s de funcionalidades para <br class="D_e"> que tus clientes puedan ver todo lo que pueden lograr <br class="D_e"> acelerando sus ventas.',
                         'enableButton' => false,
                 ]
 
@@ -261,7 +261,7 @@ $parameters = [
         'classSection' => 'landingPartners6',
         'enableTitle' => true,
         'titlePrincipal' => '¿Cómo impulsas el crecimiento <br class="space"> <span class="greenBlueColor">de tus clientes con Escala?</span>',
-        'subTitlePrincipal' => 'El crecimiento de tus clientes es la clave para el desarrollo de tu agencia. Por eso, <br class="desktopTabletElement"> Escala es la herramienta ideal para acompañarlos en su camino al éxito.<br class="desktopTabletElement"> Con nuestra plataforma tus clientes podrán:',
+        'subTitlePrincipal' => 'El crecimiento de tus clientes es la clave para el desarrollo de tu agencia. Por eso, <br class="DT_e"> Escala es la herramienta ideal para acompañarlos en su camino al éxito.<br class="DT_e"> Con nuestra plataforma tus clientes podrán:',
         'overlay' => false,
         'overlayImage' => null,
         'enableButton' => false,

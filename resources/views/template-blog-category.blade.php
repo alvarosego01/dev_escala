@@ -98,8 +98,8 @@ $paginateData = [
                                         <span style="color: #A4E7EA;">Potencia tus ventas</span>
                                     </h1>
                                     <p class="text">
-                                        Encuentra en el BLOG de Escala todo lo que <br class="desktopTabletElement">
-                                        necesitas saber para impulsar todas tus acciones <br class="desktopTabletElement">
+                                        Encuentra en el BLOG de Escala todo lo que <br class="DT_e">
+                                        necesitas saber para impulsar todas tus acciones <br class="DT_e">
                                         de venta y hacer más productivo a tu equipo.
                                     </p>
                                 </div>
@@ -113,7 +113,7 @@ $paginateData = [
             <span class="greenBlueColor">Últimas</span> Publicaciones de Ventas
             <br class="space">
             <p>
-                Encuentra en el BLOG de Escala todo lo que necesitas saber para impulsar todas tus acciones <br class="desktopTabletElement">
+                Encuentra en el BLOG de Escala todo lo que necesitas saber para impulsar todas tus acciones <br class="DT_e">
                 de venta y hacer más productivo a tu equipo.
                 </p>
             ';
@@ -139,8 +139,8 @@ $paginateData = [
                                         </span>
                                     </h1>
                                     <p class="text">
-                                        Empodera tus acciones de marketing <br class="desktopTabletElement">
-                                        digital con el contenido más actualizado <br class="desktopTabletElement">
+                                        Empodera tus acciones de marketing <br class="DT_e">
+                                        digital con el contenido más actualizado <br class="DT_e">
                                         de la industria.
                                     </p>
                                 </div>
@@ -154,7 +154,7 @@ $paginateData = [
                 <span class="greenBlueColor">Últimas</span> Publicaciones de Marketing
                 <br class="space">
                 <p>
-                    Empodera tus acciones de marketing digital con el contenido más actualizado <br class="desktopTabletElement">
+                    Empodera tus acciones de marketing digital con el contenido más actualizado <br class="DT_e">
                     de la industria.
                     </p>
                 ';
@@ -186,8 +186,8 @@ $paginateData = [
            tu negocio con Escala
          </span>',
          'text' => '
-           Estás a un clic de probar Escala, la plataforma <strong>todo <br class="desktopTabletElement">
-           en uno de marketing digital y ventas </strong> que te <br class="desktopTabletElement">
+           Estás a un clic de probar Escala, la plataforma <strong>todo <br class="DT_e">
+           en uno de marketing digital y ventas </strong> que te <br class="DT_e">
            ayudará a crecer de manera acelerada
          ',
        'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',

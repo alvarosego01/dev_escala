@@ -79,10 +79,10 @@
                             </h3>
 
                             <p class="text">
-                                Empresa de nutrición y fitness liderada por Raúl González, <br class="desktopTabletElement">
-                                reconocido por el Congreso de Estados Unidos como “uno de los <br class="desktopTabletElement">
-                                hispanos más influyentes.” Se dedican a apoyar a personas en <br class="desktopTabletElement">
-                                procesos de pérdida de peso y bienestar a través de distintos <br class="desktopTabletElement">
+                                Empresa de nutrición y fitness liderada por Raúl González, <br class="DT_e">
+                                reconocido por el Congreso de Estados Unidos como “uno de los <br class="DT_e">
+                                hispanos más influyentes.” Se dedican a apoyar a personas en <br class="DT_e">
+                                procesos de pérdida de peso y bienestar a través de distintos <br class="DT_e">
                                 productos.
                             </p>
 
@@ -197,13 +197,13 @@
                 'img' => App::setFilePath('/assets/images/person/rg_1.png'),
                 'title' => null,
                 'text' => '
-                    Raul González, presentador y actor venezolano, fundó RG Life & <br class="desktopTabletElement">
-                    Nutrition motivado por su transformación física y su pasión por <br class="desktopTabletElement">
+                    Raul González, presentador y actor venezolano, fundó RG Life & <br class="DT_e">
+                    Nutrition motivado por su transformación física y su pasión por <br class="DT_e">
                     compartir sus conocimientos sobre llevar una vida saludable.
                     <br class="space"><br class="space">
-                    Conocido por su trabajo en canales como Televen, RCTV, <br class="desktopTabletElement">
-                    Nickelodeon, Univisión y Telemundo, González utilizó su historia <br class="desktopTabletElement">
-                    personal para crear la Fórmula RG y con Escala CRM potencia los <br class="desktopTabletElement">
+                    Conocido por su trabajo en canales como Televen, RCTV, <br class="DT_e">
+                    Nickelodeon, Univisión y Telemundo, González utilizó su historia <br class="DT_e">
+                    personal para crear la Fórmula RG y con Escala CRM potencia los <br class="DT_e">
                     resultados de su empresa.
                     <br class="space"><br class="space">
                     <span class="redLink">
@@ -263,7 +263,7 @@
                                     <span class="number">
                                         1
                                     </span>
-                    <span class="greenBlueColor">Gestionaron su base de datos</span> utilizando el CRM de Escala, creando <br class="desktopTabletElement">
+                    <span class="greenBlueColor">Gestionaron su base de datos</span> utilizando el CRM de Escala, creando <br class="DT_e">
                     segmentos que facilite la comunicación con sus contactos.
                                 </li>
 
@@ -271,15 +271,15 @@
                                     <span class="number">
                                         2
                                     </span>
-                    <span class="greenBlueColor">Promovieron sus productos y aumentaron las visitas a su página</span> enviando <br class="desktopTabletElement"> campañas de email marketing a cada segmento de su base de datos.
+                    <span class="greenBlueColor">Promovieron sus productos y aumentaron las visitas a su página</span> enviando <br class="DT_e"> campañas de email marketing a cada segmento de su base de datos.
                                 </li>
 
                                 <li>
                                     <span class="number">
                                         3
                                     </span>
-                <span class="greenBlueColor">Automatizaron el envío de secuencias de emails</span> a contactos que incluían sus <br class="desktopTabletElement">
-                productos en el carrito de compra pero no terminaban comprando (incluida la <br class="desktopTabletElement">
+                <span class="greenBlueColor">Automatizaron el envío de secuencias de emails</span> a contactos que incluían sus <br class="DT_e">
+                productos en el carrito de compra pero no terminaban comprando (incluida la <br class="DT_e">
                 integración de Shopify con Escala a través de Zapier).
                                 </li>
 
@@ -287,14 +287,14 @@
                                     <span class="number">
                                         4
                                     </span>
-                <span class="greenBlueColor">Optimizaron progresivamente los resultados de sus emails</span> <br class="desktopTabletElement"> utilizando las métricas en tiempo real de Escala.
+                <span class="greenBlueColor">Optimizaron progresivamente los resultados de sus emails</span> <br class="DT_e"> utilizando las métricas en tiempo real de Escala.
                                 </li>
 
                                 <li>
                                     <span class="number">
                                         5
                                     </span>
-                <span class="greenBlueColor">Promovieron su marca y eventos con Raúl González</span> con landing pages, el <br class="desktopTabletElement">
+                <span class="greenBlueColor">Promovieron su marca y eventos con Raúl González</span> con landing pages, el <br class="DT_e">
                 CRM, emails y automatizaciones de Escala.
                                 </li>
 
@@ -388,9 +388,9 @@
 
                          <p class="text">
                             <img class="comiTagLeft" src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
-                            Gracias a la herramienta y al excelente acompañamiento del equipo de Escala, hemos visto un impacto <br class="desktopTabletElement">
-                            importante en el negocio. En menos de 3 meses, realizamos más de 20 campañas con una tasa de apertura <br class="desktopTabletElement">
-                            promedio de 41% y algunas de hasta 63%. Hemos visto un crecimiento acelerado gracias a las automatizaciones, <br class="desktopTabletElement">
+                            Gracias a la herramienta y al excelente acompañamiento del equipo de Escala, hemos visto un impacto <br class="DT_e">
+                            importante en el negocio. En menos de 3 meses, realizamos más de 20 campañas con una tasa de apertura <br class="DT_e">
+                            promedio de 41% y algunas de hasta 63%. Hemos visto un crecimiento acelerado gracias a las automatizaciones, <br class="DT_e">
                             lo que nos permitió pasar de 1 o 2% de tasa de recuperación a 10% en carritos abandonados.
                             <img class="comiTagRight" src="{!! App::setFilePath('/assets/images/illustrations/others/close_comi.png') !!}" loading="lazy">
                          </p>

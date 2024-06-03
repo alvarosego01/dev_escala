@@ -95,7 +95,7 @@
                         </h2>
                         <p class="text-p">
                             En el CRM de Escala están todas las herramientas de marketing digital y ventas integradas,
-                            <br class="desktopElement">
+                            <br class="D_e">
                             para que puedas: generar más demanda, aumentar tus ventas y fidelizar más clientes.
                         </p>
                     </div>
@@ -107,7 +107,7 @@
                                 Anuncios
                             </h3>
                             <p class="text">
-                                Atrae leads de calidad con Ads de Facebook <br class="desktopTabletElement"> e Instagram
+                                Atrae leads de calidad con Ads de Facebook <br class="DT_e"> e Instagram
                                 desde nuestra plataforma
                             </p>
                         </div>
@@ -128,7 +128,7 @@
                                 Landing pages
                             </h3>
                             <p class="text">
-                                Crea, personaliza y publica páginas <br class="desktopTabletElement"> en minutos, sin
+                                Crea, personaliza y publica páginas <br class="DT_e"> en minutos, sin
                                 programar
                             </p>
                         </div>
@@ -139,7 +139,7 @@
                                 Emails
                             </h3>
                             <p class="text">
-                                Comunícate constantemente con tus <br class="desktopTabletElement"> contactos y crea
+                                Comunícate constantemente con tus <br class="DT_e"> contactos y crea
                                 relaciones a largo plazo
                             </p>
                         </div>
@@ -160,8 +160,8 @@
                                 Automatización
                             </h3>
                             <p class="text">
-                                Ahorra tiempo y dinero programando <br class="desktopTabletElement"> secuencias de
-                                emails y acciones de <br class="desktopTabletElement"> marketing y ventas
+                                Ahorra tiempo y dinero programando <br class="DT_e"> secuencias de
+                                emails y acciones de <br class="DT_e"> marketing y ventas
                             </p>
                         </div>
                     </div>
@@ -171,8 +171,8 @@
                                 Analítica
                             </h3>
                             <p class="text">
-                                Mide en tiempo real tus resultados <br class="desktopTabletElement"> con dashboards
-                                amigables para <br class="desktopTabletElement"> optimizar tus embudos
+                                Mide en tiempo real tus resultados <br class="DT_e"> con dashboards
+                                amigables para <br class="DT_e"> optimizar tus embudos
                                 de ventas
                             </p>
                         </div>
@@ -225,27 +225,27 @@
                                 $elements = [
                                     [
                                         'title' => 'Tu CRM está Integrado <span>
-                                           a todas las herramientas <br class="desktopTabletElement">
+                                           a todas las herramientas <br class="DT_e">
                                          de marketing digital y ventas </span>',
                                     ],
                                     [
                                         'title' => 'Organiza en un solo lugar: <span>
-                                           tus contactos, embudos, <br class="desktopTabletElement">
+                                           tus contactos, embudos, <br class="DT_e">
                                         flujos y oportunidades </span>',
                                     ],
                                     [
                                         'title' => 'Simple de usar, <span>
-                                          diseñado por expertos para vendedores <br class="desktopTabletElement">
+                                          diseñado por expertos para vendedores <br class="DT_e">
                 y equipos de marketing </span>',
                                     ],
                                     [
                                         'title' => 'Gestiona tu base de datos <span>
-                                          y guarda automáticamente <br class="desktopTabletElement">
+                                          y guarda automáticamente <br class="DT_e">
                 la data con formularios integrados desde tus landing pages </span>',
                                     ],
                                     [
                                         'title' => 'Segmenta y personaliza tus comunicaciones <span>
-                                          con etiquetas <br class="desktopTabletElement">
+                                          con etiquetas <br class="DT_e">
                 avanzadas. Ten trazabilidad e historial de tus contactos </span>',
                                     ],
                                     [
@@ -254,22 +254,22 @@
                                     ],
                                     [
                                         'title' => 'Potencia la productividad de tu equipo <span>
-                                           con la asignación <br class="desktopTabletElement">
+                                           con la asignación <br class="DT_e">
                 de tareas, actividades y recordatorios </span>',
                                     ],
                                     [
                                         'title' => 'Automatiza tu flujo de acciones  <span>
-                                          según la segmentación <br class="desktopTabletElement">
+                                          según la segmentación <br class="DT_e">
                 de tus contactos </span>',
                                     ],
                                     [
                                         'title' => 'Analiza tus resultados <span>
-                                          de ventas con dashboards <br class="desktopTabletElement">
+                                          de ventas con dashboards <br class="DT_e">
                 amigables y optimiza tus acciones </span>',
                                     ],
                                     [
                                         'title' => 'Fideliza más clientes <span>
-                                          nutriendo tus relaciones <br class="desktopTabletElement">
+                                          nutriendo tus relaciones <br class="DT_e">
                 a largo plazo </span>',
                                     ],
                                 ];
@@ -330,7 +330,7 @@
                         </h2>
                         <p class="text-p">
                             Al adquirir el plan Pro de Escala cuentas con funcionalidades más avanzadas para que
-                            <br class="desktopElement">
+                            <br class="D_e">
                             puedas personalizar tus acciones de marketing, ventas y aumentar tus conversiones.
                         </p>
                     </div>
@@ -502,22 +502,22 @@
                         <div class="info col-md-12 col-lg-8 sectionTexts textRight">
                             <h3 class="secondaryTitle">
                                 <span>
-                                    Nuestro CRM es tu gerente <br class="desktopTabletElement">
+                                    Nuestro CRM es tu gerente <br class="DT_e">
                                     de ventas:
                                 </span> <br class="space">
-                                él se ocupa de gerenciar <br class="desktopTabletElement">
-                                tu proceso y tú te enfocas en hacer <br class="desktopTabletElement">
+                                él se ocupa de gerenciar <br class="DT_e">
+                                tu proceso y tú te enfocas en hacer <br class="DT_e">
                                 crecer tu empresa
                             </h3>
                             <p class="text">
                                 Tu CRM de Escala es tu máquina de ventas, en un solo lugar <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                 puedes gerenciar tus contactos, segmentar y personalizar tus <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                 acciones de ventas y marketing y darle seguimiento a cada <br
-                                    class="desktopTabletElement">
-                                una de tus oportunidades abiertas. Además hace más <br class="desktopTabletElement">
-                                productivo a tu equipo de ventas asignándoles tareas, <br class="desktopTabletElement">
+                                    class="DT_e">
+                                una de tus oportunidades abiertas. Además hace más <br class="DT_e">
+                                productivo a tu equipo de ventas asignándoles tareas, <br class="DT_e">
                                 actividades y recordatorios para convertir más.
                             </p>
                         </div>

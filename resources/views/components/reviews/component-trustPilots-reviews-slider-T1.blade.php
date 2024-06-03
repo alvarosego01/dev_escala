@@ -45,7 +45,7 @@ textButton --}}
 
         <section class="innerSectionElement2">
 
-                      <div id="carousel-trustPilot-mob" class=" carousel slide mobileElement" data-bs-ride="carousel">
+                      <div id="carousel-trustPilot-mob" class=" carousel slide MT_e" data-bs-ride="carousel">
 
                         <div class="carousel-inner"  role="listbox">
 
@@ -102,7 +102,7 @@ textButton --}}
 
                       </div>
 
-                      <div id="carousel-trustPilot-desktop" class="carousel slide desktopElement" data-bs-ride="carousel">
+                      <div id="carousel-trustPilot-desktop" class="carousel slide D_e" data-bs-ride="carousel">
 
                         <div class="carousel-inner"  role="listbox">
 

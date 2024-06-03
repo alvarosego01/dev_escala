@@ -22,7 +22,7 @@
                             </h1>
 
                             <p class="text">
-                                Administra tu base de datos y automatiza tus procesos <br class="desktopTabletElement">
+                                Administra tu base de datos y automatiza tus procesos <br class="DT_e">
                                 con el CRM más fácil de usar
                             </p>
 
@@ -61,7 +61,7 @@
             a más clientes
         ',
          'text' => '
-            Administra tu base de datos y automatiza tus procesos <br class="desktopTabletElement">
+            Administra tu base de datos y automatiza tus procesos <br class="DT_e">
             con el CRM más fácil de usar
           ',
          'threeCol' => true,
@@ -85,7 +85,7 @@
           'classSection' => 'subPage_casoUso_agencia_marketing_2',
           'enableTitle' => true,
           'titlePrincipal' => '
-              La herramienta de gestión y automatización <br class="desktopTabletElement">
+              La herramienta de gestión y automatización <br class="DT_e">
               <span class="greenBlueColor">para agencias de marketing</span>
           ',
           'subTitlePrincipal' => null,
@@ -100,7 +100,7 @@
                   'img_alt' => null,
                   'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_1.png'),
                   'title' => '
-                  Expertos en <br class="desktopElement">
+                  Expertos en <br class="D_e">
                   generación de leads
       ',
                   'enableButton' => false,
@@ -109,7 +109,7 @@
                   'img_alt' => null,
                   'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_2.png'),
                   'title' => '
-                  Estrategas en <br class="desktopElement">
+                  Estrategas en <br class="D_e">
                   comunicaciones masivas
       ',
                   'enableButton' => false,
@@ -118,7 +118,7 @@
                   'img_alt' => null,
                   'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_3.png'),
                   'title' => '
-                  Especialistas en <br class="desktopElement">
+                  Especialistas en <br class="D_e">
                   embudos de conversión
       ',
                   'enableButton' => false,
@@ -127,7 +127,7 @@
                   'img_alt' => null,
                   'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_mkt_4.png'),
                   'title' => '
-                  Consultoras de marketing, ventas <br class="desktopElement">
+                  Consultoras de marketing, ventas <br class="D_e">
                   o estrategia de Crecimiento
       ',
                   'enableButton' => false,
@@ -223,9 +223,9 @@
                             potenciales
                         ',
                         'text' => '
-                            Realiza landings ilimitadas por <br class="desktopTabletElement">
-                            servicio y segmenta <br class="desktopTabletElement">
-                            estratégicamente tus anuncios para <br class="desktopTabletElement">
+                            Realiza landings ilimitadas por <br class="DT_e">
+                            servicio y segmenta <br class="DT_e">
+                            estratégicamente tus anuncios para <br class="DT_e">
                             incrementar tus conversiones.
                         ',
                         'enableButton' => false,
@@ -237,8 +237,8 @@
                             de cierre
                         ',
                         'text' => '
-                            Brinda mejor atención y capitaliza <br class="desktopTabletElement">
-                            el interés de los nuevos leads <br class="desktopTabletElement">
+                            Brinda mejor atención y capitaliza <br class="DT_e">
+                            el interés de los nuevos leads <br class="DT_e">
                             oportunamente.
                         ',
                         'enableButton' => false,
@@ -250,8 +250,8 @@
                             tus clientes
                         ',
                         'text' => '
-                            Aumenta el porcentaje de cierre de <br class="desktopTabletElement">
-                            tus leads al tener una estrategia de <br class="desktopTabletElement">
+                            Aumenta el porcentaje de cierre de <br class="DT_e">
+                            tus leads al tener una estrategia de <br class="DT_e">
                             contenidos de valor y fidelización.
                         ',
                         'enableButton' => false,
@@ -262,8 +262,8 @@
                             Reduce costos
                             ',
                         'text' => '
-                            Evita gastar en múltiples herramientas <br class="desktopTabletElement">
-                            digitales y simplifica tus procesos con el <br class="desktopTabletElement">
+                            Evita gastar en múltiples herramientas <br class="DT_e">
+                            digitales y simplifica tus procesos con el <br class="DT_e">
                             CRM y las automatizaciones de Escala.
                         ',
                         'enableButton' => false,
@@ -275,8 +275,8 @@
                             de inversión
                         ',
                         'text' => '
-                            Automatiza procesos de venta <br class="desktopTabletElement">
-                            cruzada que incrementen el ticket <br class="desktopTabletElement">
+                            Automatiza procesos de venta <br class="DT_e">
+                            cruzada que incrementen el ticket <br class="DT_e">
                             promedio de tus cuentas.
                         ',
                         'enableButton' => false,
@@ -288,8 +288,8 @@
                             gestión comercial
                         ',
                         'text' => '
-                            Centraliza el trabajo de tus vendedores <br class="desktopTabletElement">
-                            y accede a la información de las <br class="desktopTabletElement">
+                            Centraliza el trabajo de tus vendedores <br class="DT_e">
+                            y accede a la información de las <br class="DT_e">
                             negociaciones en proceso.
                         ',
                         'enableButton' => false,
@@ -331,30 +331,30 @@
             <ul class="text">
                     <li>
                          <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                        Captar aspirantes no calificados por procedimientos <br class="desktopTabletElement">
+                        Captar aspirantes no calificados por procedimientos <br class="DT_e">
                     ineficaces.</li>
 
                     <li>
                          <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                        Procesos ineficientes para la creación de landing <br class="desktopTabletElement">
-                    pages e emails que representan altos gastos en <br class="desktopTabletElement">
+                        Procesos ineficientes para la creación de landing <br class="DT_e">
+                    pages e emails que representan altos gastos en <br class="DT_e">
                     recursos humanos y herramientas.</li>
 
                     <li>
                          <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                        Dificultad para captar y organizar leads calificados <br class="desktopTabletElement">
+                        Dificultad para captar y organizar leads calificados <br class="DT_e">
                     según el target audience de cada producto/servicio.</li>
 
                     <li>
                          <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                        Falta de herramientas para identificar a prospectos con <br class="desktopTabletElement">
-                    altas probabilidades de cierre según su interacción con <br class="desktopTabletElement">
+                        Falta de herramientas para identificar a prospectos con <br class="DT_e">
+                    altas probabilidades de cierre según su interacción con <br class="DT_e">
                     las campañas.</li>
 
                     <li>
                          <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                        Los clientes potenciales pierden interés al no <br class="desktopTabletElement">
-                    conseguir respuestas rápidas del equipo <br class="desktopTabletElement">
+                        Los clientes potenciales pierden interés al no <br class="DT_e">
+                    conseguir respuestas rápidas del equipo <br class="DT_e">
                     de la agencia.</li>
 
               </ul>
@@ -374,26 +374,26 @@
             <ul class="text">
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                    Anuncios y Landing pages que atraen y recolectan datos <br class="desktopTabletElement">
+                    Anuncios y Landing pages que atraen y recolectan datos <br class="DT_e">
                     útiles sobre posibles estudiantes
                 </li>
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                    Unifica el trabajo de tus diseñadores con las <br class="desktopTabletElement">
-                herramientas de diseño de Escala para crear landing <br class="desktopTabletElement">
+                    Unifica el trabajo de tus diseñadores con las <br class="DT_e">
+                herramientas de diseño de Escala para crear landing <br class="DT_e">
                 pages y campañas de email sin necesitar programación.</li>
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                    Centraliza tus campañas de anuncios y landing pages y <br class="desktopTabletElement">
+                    Centraliza tus campañas de anuncios y landing pages y <br class="DT_e">
                 organiza tu base de datos en el CRM de Escala.</li>
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                    Evalúa el interés de tus prospectos con la herramienta de <br class="desktopTabletElement">
+                    Evalúa el interés de tus prospectos con la herramienta de <br class="DT_e">
                 Lead Scoring y prioriza a tus potenciales clientes.</li>
                 <li>
                     <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                    Asigna tareas y actividades a tus asesores comerciales <br class="desktopTabletElement">
-                mediante automatizaciones para gestionar los procesos <br class="desktopTabletElement">
+                    Asigna tareas y actividades a tus asesores comerciales <br class="DT_e">
+                mediante automatizaciones para gestionar los procesos <br class="DT_e">
                 de contacto, venta y post-venta de forma efectiva.</li>
               </ul>
             ',
@@ -421,13 +421,13 @@
                 'title' => null,
                 'text' => '
                     <span>
-                        "No tengo la capacidad de nutrir la relación <br class="desktopTabletElement">
-                        con referidos o leads tibios por falta de <br class="desktopTabletElement">
+                        "No tengo la capacidad de nutrir la relación <br class="DT_e">
+                        con referidos o leads tibios por falta de <br class="DT_e">
                         tiempo y enfoque"
                     </span>
                     <br class="space"><br class="space">
-                    Categoriza a tu base de datos y diseña flujos de <br class="desktopTabletElement">
-                    comunicación automatizada para mantener viva la <br class="desktopTabletElement">
+                    Categoriza a tu base de datos y diseña flujos de <br class="DT_e">
+                    comunicación automatizada para mantener viva la <br class="DT_e">
                     relación con tus prospectos.
                 ',
                 'enableButton' => false,
@@ -452,12 +452,12 @@
                 'title' => null,
                 'text' => '
                     <span>
-                        "Tengo un proceso desorganizado de conversión de <br class="desktopTabletElement">
+                        "Tengo un proceso desorganizado de conversión de <br class="DT_e">
                         leads que impide el cierre de venta"
                     </span>
                     <br class="space"><br class="space">
-                        Con el CRM, organiza un embudo de ventas con subetapas para <br class="desktopTabletElement">
-                        conocer cómo el equipo de ventas gestiona y hace seguimiento <br class="desktopTabletElement">
+                        Con el CRM, organiza un embudo de ventas con subetapas para <br class="DT_e">
+                        conocer cómo el equipo de ventas gestiona y hace seguimiento <br class="DT_e">
                         a los procesos comerciales hasta el momento de cierre.
 
 
@@ -484,13 +484,13 @@
                 'title' => null,
                 'text' => '
                    <span>
-                       "No tengo una forma de obtener reportes en <br class="desktopTabletElement">
-                        tiempo real sobre cómo avanzan las metas <br class="desktopTabletElement">
+                       "No tengo una forma de obtener reportes en <br class="DT_e">
+                        tiempo real sobre cómo avanzan las metas <br class="DT_e">
                         mensuales de venta"
                    </span>
                    <br class="space"><br class="space">
-                    Usa Dashboards para visualizar las oportunidades <br class="desktopTabletElement">
-                    asignadas, gestionadas, ganadas y perdidas de cada <br class="desktopTabletElement">
+                    Usa Dashboards para visualizar las oportunidades <br class="DT_e">
+                    asignadas, gestionadas, ganadas y perdidas de cada <br class="DT_e">
                     vendedor, incluyendo sus actividades y tareas diarias.
                 ',
                 'enableButton' => false,
@@ -515,13 +515,13 @@
                 'title' => null,
                 'text' => '
                    <span>
-                       "Quiero fidelizar a mis clientes y <br class="desktopTabletElement">
-                        prospectos con promociones, <br class="desktopTabletElement">
+                       "Quiero fidelizar a mis clientes y <br class="DT_e">
+                        prospectos con promociones, <br class="DT_e">
                         descuentos e información de interés"
                    </span>
                    <br class="space"><br class="space">
-                    Elabora un plan de comunicaciones con la <br class="desktopTabletElement">
-                    herramienta de <strong>Email Marketing</strong> para informar a tu <br class="desktopTabletElement">
+                    Elabora un plan de comunicaciones con la <br class="DT_e">
+                    herramienta de <strong>Email Marketing</strong> para informar a tu <br class="DT_e">
                     comunidad de una manera rápida y ágil.
                 ',
                 'enableButton' => false,
@@ -545,7 +545,7 @@
                     <div class="containElements">
 
                         <h2 class="primaryTitle blackColor">
-                            Multiplica tu impacto y tus ingresos con <br class="desktopTabletElement">
+                            Multiplica tu impacto y tus ingresos con <br class="DT_e">
                             <span class="greenBlueColor">nuestro Programa de Partners</span>
                         </h2>
                         <br class="space"><br class="space">
@@ -580,7 +580,7 @@
                                         La oportunidad
                                     </h3>
                                     <p class="text">
-                                        30 millones de PYMES <br class="desktopElement">
+                                        30 millones de PYMES <br class="D_e">
                                         en Hispanoamérica
                                     </p>
                                 </div>
@@ -598,8 +598,8 @@
                                         El problema
                                     </h3>
                                     <p class="text">
-                                        Muchos dejan de crecer por <br class="desktopElement">
-                                        fallas estratégicas e <br class="desktopElement">
+                                        Muchos dejan de crecer por <br class="D_e">
+                                        fallas estratégicas e <br class="D_e">
                                         ineficiencias operativas
                                     </p>
                                 </div>
@@ -617,8 +617,8 @@
                                         La solución
                                     </h3>
                                     <p class="text">
-                                        Herramientas costo-eficientes, <br class="desktopElement">
-                                        metodologías probadas y <br class="desktopElement">
+                                        Herramientas costo-eficientes, <br class="D_e">
+                                        metodologías probadas y <br class="D_e">
                                         servicio de primera
                                     </p>
                                 </div>
@@ -633,11 +633,11 @@
 
                                 <div class="info">
                                     <h3 class="secondaryTitle">
-                                        Juntos <br class="desktopElement">
+                                        Juntos <br class="D_e">
                                         multiplicamos
                                     </h3>
                                     <p class="text">
-                                        Alcance e impacto mientras <br class="desktopElement">
+                                        Alcance e impacto mientras <br class="D_e">
                                         hacemos crecer nuestras empresas
                                     </p>
                                 </div>
@@ -684,10 +684,10 @@
                             hemos podido crecer...
                           </span>
                           <br class="space">
-                          Al entrar a Escala, se estructura más la agencia. No solo <br class="desktopTabletElement">
-                          conseguimos más leads calificados sino logramos tener una cita <br class="desktopTabletElement">
+                          Al entrar a Escala, se estructura más la agencia. No solo <br class="DT_e">
+                          conseguimos más leads calificados sino logramos tener una cita <br class="DT_e">
                           y entregar una propuesta a cada uno de ellos. <br class="space">
-                          Consistentemente, con cada campaña convertimos un 10.5% <br class="desktopTabletElement"> en clientes."
+                          Consistentemente, con cada campaña convertimos un 10.5% <br class="DT_e"> en clientes."
                           <br class="space">
                           <small>
                             - Milena Osorio, fundadora MO Comunicaciones
@@ -742,8 +742,8 @@
 
                                     <h2 class="principalBigTitle blackColor">
 
-            <span style="color: #FAD872">Gana hasta 30% de comisión,</span> <br class="desktopTabletElement">
-            transforma empresas e influye <br class="desktopTabletElement">
+            <span style="color: #FAD872">Gana hasta 30% de comisión,</span> <br class="DT_e">
+            transforma empresas e influye <br class="DT_e">
             en el desarrollo del mercado
 
                                     </h2>

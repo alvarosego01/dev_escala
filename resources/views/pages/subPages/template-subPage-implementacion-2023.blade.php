@@ -4,7 +4,7 @@
            <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol implementacion-2023-0 ">
 
                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/mobile-bg-implementacion-2023-07.png') }}')"
-                   class="backgroundFull mobileElement">
+                   class="backgroundFull MT_e">
 
                    <div class="section-row">
 
@@ -20,35 +20,21 @@
 
                                        <div class=" infoTitle">
 
-                                           <h1 class="principalTitle">
-                                               CRM personalizado <br class="space">
-                                               a tus necesidades <br class="space">
-                                               <span>¡en solo 10 días!</span>
+                                              <h1 class="principalTitle">
+                                               <span>¡Recibe el CRM personalizado</span> <br class="space">
+                                                con plantillas adaptadas <br class="space">
+                                                a tu marca!
                                            </h1>
 
-                                           <ul>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Creamos piezas de comunicación</p>
-                                                   </div>
-                                               </li>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Configuramos el CRM según tu proceso</p>
-                                                   </div>
-                                               </li>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Importamos y conectamos cuentas</p>
-                                                   </div>
-                                               </li>
-                                           </ul>
+                                            <p class="text">
+                                                Al inscribirte a Escala, adaptamos la <br class="DT_e">
+                                                plataforma para que tú y tu equipo aceleren <br class="DT_e">
+                                                el proceso de implementación.
+                                            </p>
+
                                        </div>
 
-                                       <div class="containerImage mobileElement">
+                                       <div class="containerImage MT_e">
                                            <img src="{{ App::setFilePath('/assets/images/person/am/am_implement.png') }}"
                                                alt="">
                                        </div>
@@ -161,7 +147,7 @@
                </div>
 
                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-implementacion-2023-07.png') }}')"
-                   class="backgroundFull desktopElement">
+                   class="backgroundFull D_e">
 
                    <div class="section-row">
 
@@ -178,31 +164,17 @@
                                        <div class=" infoTitle">
 
                                            <h1 class="principalTitle">
-                                               CRM personalizado <br class="space">
-                                               a tus necesidades <br class="space">
-                                               <span>¡en solo 10 días!</span>
+                                               <span>¡Recibe el CRM personalizado</span> <br class="space">
+                                                con plantillas adaptadas <br class="space">
+                                                a tu marca!
                                            </h1>
 
-                                           <ul>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Creamos piezas de comunicación</p>
-                                                   </div>
-                                               </li>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Configuramos el CRM según tu proceso</p>
-                                                   </div>
-                                               </li>
-                                               <li>
-                                                   <div class="list-item">
-                                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                       <p>Importamos y conectamos cuentas</p>
-                                                   </div>
-                                               </li>
-                                           </ul>
+                                            <p class="text">
+                                                Al inscribirte a Escala, adaptamos la <br class="DT_e">
+                                                plataforma para que tú y tu equipo aceleren <br class="DT_e">
+                                                el proceso de implementación.
+                                            </p>
+
                                        </div>
 
                                    </div>
@@ -316,103 +288,30 @@
 
            </section>
 
-           <section class="customSection sectionParent implementacion-2023-1">
+           <section class="customSection sectionParent implementacion-2023-1"
+           style="background-image: url('{!! App::setFilePath('/assets/images/banners/implementac_bg_02.svg') !!}')"
+           >
 
             <div class="section-row">
 
                 <section class="innerSectionElement sct0">
 
                     <div class="containElements">
-                        <div class="container ">
-                            <div class="row">
-                                <div class="text-center col-md-12 col-lg-12">
+
+
                                     <h2 class="primaryTitle">
-                                        Enfócate en lo que verdaderamente importa: <br class="desktopTabletElement">
+                                        Enfócate en lo que verdaderamente importa: <br class="space">
                                         ¡generar leads y cerrar ventas!
                                     </h2>
-                                    <p class="primaryText">
-                                        Un ejemplo de lo que <br class="desktopTabletElement">
-                                        reciben nuestros clientes
-                                    </p>
-                                    <div class="ele video col-md-12">
 
-                                        @php
-                                            $videoEmbed = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
-                                            $videoCover = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
-                                         //    $videoCover = App::setFilePath('/assets/videos/Implementaciones teaser.mp4');
-                                        @endphp
+                                    <div class="img">
+                                        <div class="containerImage">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/implement_01.png') !!}" loading="lazy" class="D_e">
 
-                                        @if (isset($videoEmbed) && $videoEmbed != null)
-                                            <div class="youtubeImageContainer ">
-
-                                                <img src="{!! App::setFilePath('/assets/images/overlays/video_box_left.svg') !!}" alt=""
-                                                    class="overlayLeft">
-
-                                                <img src="{!! App::setFilePath('/assets/images/overlays/video_box_right.svg') !!}" alt=""
-                                                    class="overlayRight">
-
-                                                {{--
-                                                <video class="video-js video_1 videoCover" autoplay muted loop>
-                                                    <source src="{{ $videoCover }}" type="video/mp4">
-                                                    Tu navegador no soporta videos HTML5.
-                                                </video>
-                                                --}}
-                                                <video class="video-js video_1 videoCover" autoplay muted loop>
-                                                    <source src="{{ $videoCover }}" type="video/mp4">
-                                                    Tu navegador no soporta videos HTML5.
-                                                </video>
-
-                                                <video id="video_1" class="video-js video_1" controls
-                                                    preload="none" poster="{{ $videoCover }}"
-                                                    {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                                    data-setup="{
-                               autoplay: false
-                             }">
-                                                    <source src="{{ $videoEmbed }}" type="video/mp4" />
-                                                    <source src="{{ $videoEmbed }}" type="video/webm" />
-                                                    <p class="vjs-no-js">
-                                                        To view this video please enable JavaScript, and consider
-                                                        upgrading to a
-                                                        web browser that
-                                                        <a href="https://videojs.com/html5-video-support/"
-                                                            target="_blank">supports
-                                                            HTML5 video</a>
-                                                    </p>
-                                                </video>
-
-
-                                            </div>
-
-                                            <script type="text/javascript">
-                                                var player = videojs('video_1');
-
-                                                // Agrega un oyente de eventos al evento 'play'
-                                                player.on('play', function() {
-
-                                                    jQuery('.video_1.videoCover').remove();
-
-                                                });
-                                            </script>
-
-                                            {{--
-                                            <script type="text/javascript">
-                                                var player = videojs('video_1');
-
-                                                // Agrega un oyente de eventos al evento 'play'
-                                                player.on('play', function() {
-                                                    console.log('El video se está reproduciendo');
-
-                                                    jQuery('.video_1.videoCover').remove();
-
-                                                });
-                                            </script>
-                                            --}}
-                                        @endif
-
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/implement_m_01.png') !!}" loading="lazy" class="MT_e">
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
 
                 </section>
@@ -421,243 +320,286 @@
 
         </section>
 
-           <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-01.png') !!})" class="customSection sectionParent implementacion-2023-2">
 
-               <div class="section-row">
-
-                   <section class="innerSectionElement sct1">
-
-                       <div class="containElements">
-
-                           <h2 class="title">
-                               ¡Ningún otro CRM <span>te acompaña mejor!</span>
-                           </h2>
-                           <p class="text">
-                               Aprovecha la oportunidad de tener un CRM implementado en<br
-                                   class="desktopTabletElement">
-                               minutos para que aceleres el retorno de tu inversión
-                           </p>
-                           <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                               Conversa con un asesor Escala
-                           </a>
-
-                       </div>
-
-                   </section>
-
-               </div>
-
-           </section>
-
-           <section class="customSection sectionParent implementacion-2023-3">
+               <section class="customSection sectionParent implementacion-2023-2">
 
             <div class="section-row">
 
-                <section class="innerSectionElement sct1">
+                <section class="innerSectionElement sct0">
 
-                    <div class="containElements">
-                        <h2 class="title">
-                            ¿Qué recibes en 10 días?
-                        </h2>
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/01-home2023.png') !!}" loading="lazy">
-                    </div>
+                    <h2 class="title">
+                        <span>¡Ningún otro CRM hace tanto por ti!</span> <br class="space">
+                        ¿Qué recibes con el Servicio de <br class="space">
+                        Implementación Acelerada?
+                    </h2>
+
+                    <p class="text">
+                        Aprovecha la increíble posibilidad de implementar en minutos un embudo <br class="DT_e">
+                    de ventas ¡basado en nuestra metodología de éxito probada! Esto incluye:
+                    </p>
+
+                           <div class="containerImage">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/implement_02.png') !!}" loading="lazy">
+
+
+                           </div>
+
 
                 </section>
+
+
+            </div>
+
+               </section>
+
+                @php
+            $parameters = [
+                'type' => 'backgroundColor',
+                'classSection' => 'implementacion-2023-3',
+                'enableTitle' => true,
+                'titlePrincipal' => 'Para generar <span>leads</span>',
+                'subTitlePrincipal' => null,
+                'img' => App::setFilePath('/assets/images/illustrations/others/implement_03.png'),
+                'title' => null,
+                'text' =>'
+
+                    <ul class="text">
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>1 Landing Page personalizada</h3>
+                            Estructuramos, diseñamos y maquetamos 1 página dentro de Escala <br class="DT_e">
+                            para promover uno de tus productos o servicios y capturar la info de <br class="DT_e">
+                            contacto de los interesados. ¿Tu misión? ¡Ajustar textos y publicar!
+                        </li>
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>1 Página post-registro</h3>
+                            Diseñamos y maquetamos una página comunicando el mensaje de <br class="DT_e">
+                            tu elección, para que aparezca inmediatamente después de que un <br class="DT_e">
+                            visitante se registre en tu landing page.
+                        </li>
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>1 Plantilla de Email post-registro</h3>
+                            Diseñamos y maquetamos una plantilla de email que puedes enviar <br class="DT_e">
+                            manual o automáticamente a los visitantes que se registren en tu <br class="DT_e">
+                            landing page.
+                        </li>
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>1 Automatización post-registro</h3>
+                            Te entregamos la plataforma configurada para que, al registrarse <br class="DT_e">
+                            un contacto en tu landing page, se active automáticamente una <br class="DT_e">
+                            secuencia de acciones: <br class="space">
+                            <ul>
+                            <li>1. El contacto recibirá un email estándar automáticamente</li>
+                            <li>2. Se generará una oportunidad en el CRM, asociada al nuevo contacto</li>
+                            <li>3. Se asignará una oportunidad automáticamente a un usuario específico</li>
+                            <li>4. Al contacto se le aplicará una etiqueta</li>
+                            <li>5. Se creará una actividad en el calendario del usuario seleccionado, recordándole contactar al nuevo contacto</li>
+                            </ul>
+                        </li>
+                    </ul>
+                ',
+                'enableButton' => false,
+                'urlButton' => '#lead-form',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'side' => 'left',
+            ];
+        @endphp
+
+        <div class="sect1" style="background-image: url('{!! App::setFilePath('/assets/images/banners/implementac_bg_03.svg') !!}')">
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+
+        </div>
+                @php
+            $parameters = [
+                'type' => 'backgroundColor',
+                'classSection' => 'implementacion-2023-4',
+                'enableTitle' => true,
+                'titlePrincipal' => 'Para <span>convertir y fidelizar</span> clientes',
+                'subTitlePrincipal' => null,
+             'img' => App::setFilePath('/assets/images/illustrations/others/implement_04.png'),
+                'title' => null,
+                'text' =>'
+                      <ul class="text">
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>Etapas de venta personalizadas</h3>
+                            Ajustamos el Kanban de oportunidades en el CRM de Escala para <br class="DT_e">
+                            que refleje el proceso paso a paso que se sigue en tu empresa para <br class="DT_e">
+                            convertir leads en clientes y/o brindar servicio post-venta. <br class="space">
+                            Con esta adaptación, tendrás una visualización clara y efectiva de <br class="DT_e">
+                            cada etapa del proceso, lo que facilitará la gestión de oportunidades, <br class="DT_e">
+                            la medición de indicadores clave y la eficiencia de tu equipo en el <br class="DT_e">
+                            ciclo de ventas y/o atención al cliente.
+
+                        </li>
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>Datos ejemplo para practicar</h3>
+                            Creamos 12 contactos y 10 oportunidades de prueba con el <br class="DT_e">
+                            producto, prioridad y actividad asociada para facilitarle a tu equipo <br class="DT_e">
+                            aprender prácticamente a vender y/o servir clientes usando el CRM <br class="DT_e">
+                            de Escala.
+                        </li>
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>Campos Personalizados ilimitados</h3>
+                            Creamos los campos que no existan por default en Escala, para que <br class="DT_e">
+                            registres información y/o documentos relevantes de tus contactos y <br class="DT_e">
+                            sus empresas a lo largo del proceso de venta o servicio.
+                        </li>
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>2 Plantillas de Email 1:1</h3>
+                            Dejamos maquetadas 2 plantillas estándar de tu elección en el CRM <br class="DT_e">
+                            para ahorrar tiempo al momento de enviar emails transaccionales a <br class="DT_e">
+                            tus contactos durante el proceso de venta y/o servicio.
+                        </li>
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>1 Página de Recolección de Información</h3>
+                            En Escala, creamos una página con un formulario que contiene <br class="DT_e">
+                            múltiples preguntas, especialmente diseñado para facilitarle a tu <br class="DT_e">
+                            equipo el registro de información precisa de prospectos o clientes en <br class="DT_e">
+                            el CRM, ya sea durante interacciones en vivo o de forma automática. 
+                        </li>
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>Importación de contactos, productos, oportunidades y empresas</h3>
+                            ¿Tienes múltiples productos y/o una base de datos de contactos, <br class="DT_e">
+                            empresas y/o oportunidades en un en excel, email, WhatsApp u otra <br class="DT_e">
+                            plataforma? Te apoyamos a pasarlos a Escala en una sesión en vivo <br class="DT_e">
+                            de manera fácil y rápida.
+                        </li>
+                      </ul>
+                ',
+                'enableButton' => false,
+                'urlButton' => '#lead-form',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'side' => 'right',
+            ];
+        @endphp
+
+             <div class="sect2" style="background-image: url('{!! App::setFilePath('/assets/images/banners/implementac_bg_04.svg') !!}')">
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+
+             </div>
+
+                @php
+            $parameters = [
+                'type' => 'backgroundColor',
+                'classSection' => 'implementacion-2023-5',
+                'enableTitle' => true,
+                'titlePrincipal' => 'Para <span>automatizar y configurar</span> la plataforma',
+                'subTitlePrincipal' => null,
+                 'img' => App::setFilePath('/assets/images/illustrations/others/implement_05.png'),
+                'title' => null,
+                'text' =>'
+                         <ul class="text">
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>4 Plantillas de Email Marketing</h3>
+                            Diseñamos y maquetamos el contenido de 4 emails para enviarse <br class="DT_e">
+                            como campaña masiva a un segmento de tus contactos en Escala. <br class="space">
+                            ¿Tu rol? ¡Ajustar textos, elegir el segmento y enviar!
+                        </li>
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>1 Flujo automatizado de WhatsApp (Próximamente)</h3>
+                            En Escala, configuramos un flujo de Whatsapp con 3 mensajes <br class="DT_e">
+                            estándar para que se envíen automáticamente según el evento de <br class="DT_e">
+                            inicio de tu elección. ¿Tu misión? ¡Ajustar textos y empezar a usarlo!
+                            <br class="space"><br class="space">
+                            <small>(Disponible solo para usuarios con WhatsApp API en su plan)</small>
+                        </li>
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>1 Flujo automatizado de Emails</h3>
+                            Configuramos el flujo de 3 emails estándar que contienen solo texto, <br class="DT_e">
+                            para enviar de manera automática, según el evento de inicio de tu <br class="DT_e">
+                            elección. ¿Tu misión? ¡Ajustar textos y empezar a usarlo!
+                        </li>
+                        <li>
+                            <img src="'.App::setFilePath('/assets/images/illustrations/others/check.png').'" class="iconCheck">
+                            <h3>Configuración técnica</h3>
+                            Te apoyamos en una sesión en vivo a conectar tus cuentas de <br class="DT_e">
+                            email, Meta Business Manager, píxeles, Google Tag Manager y <br class="DT_e">
+                            dominios personalizados. Nos encargamos de estas tareas técnicas <br class="DT_e">
+                            que necesitas hacer solo una vez, para que luego puedas olvidarte <br class="DT_e">
+                            de ellas y concentrarte en lo que importa: hacer crecer tu negocio.
+                        </li>
+                         </ul>
+                ',
+                'enableButton' => false,
+                'urlButton' => '#lead-form',
+                'textButton' => 'Recibe un demo',
+                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                'side' => 'left',
+            ];
+        @endphp
+         <div class="sect3" style="background-image: url('{!! App::setFilePath('/assets/images/banners/implementac_bg_03.svg') !!}')">
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+         </div>
+
+
+                         <section class="customSection sectionParent implementacion-2023-6">
+
+            <div class="section-row">
+
+
                 <section class="innerSectionElement sct2">
+                    <img src="{!! App::setFilePath('/assets/images/banners/implement_otto_bg.svg') !!}" alt="" class="overlay">
 
                     <div class="containElements">
-
                         <div class="row">
-                            <div class="col-md-12 col-lg-4 cardParent column-1">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <span class="orange-pill">Día 1</span>
-                                        <h5 class="card-number">1</h5>
-                                        <h5 class="card-title">
-                                            Conocemos <br class="space"> tu
-                                            negocio
-                                        </h5>
-                                        <h5 class="card-subtitle">
-                                            Evaluamos factores como:
-                                        </h5>
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Industria</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Necesidades</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Proceso comercial</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Equipo</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/02-home2023.png') !!}" loading="lazy">
-                                    </div>
+                            <div class="col-md-12 col-lg-6 column-img">
+                                <div class="img-container">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/otto/implement_06.png') !!}" loading="lazy">
                                 </div>
                             </div>
-                            <div class="col-md-12 col-lg-4 cardParent column-2">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <span class="orange-pill">Día 2-9</span>
-                                        <h5 class="card-number">2</h5>
-                                        <h5 class="card-title">
-                                            Personalizamos <br class="space">
-                                            el CRM
-                                        </h5>
-                                        <div class="list-block">
-                                            <h5 class="card-subtitle">
-                                                Creamos Plantillas de:
-                                            </h5>
-                                            <ul>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Landing</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Email</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>WhatsApps</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Pipeline oportunidades</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <br class="space">
-                                        <div class="list-block">
-                                            <h5 class="card-subtitle">
-                                                Conectamos:
-                                            </h5>
-                                            <ul>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Cuentas</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Dominios</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <br class="space">
-                                        <div class="list-block">
-                                            <h5 class="card-subtitle">
-                                                Importamos:
-                                            </h5>
-                                            <ul>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Contactos</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Productos</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Oportunidades</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-lg-4 cardParent column-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <span class="orange-pill">Día 10</span>
-                                        <h5 class="card-number">3</h5>
-                                        <h5 class="card-title">
-                                            Empiezas a <br class="space">
-                                            vender más
-                                        </h5>
-                                        <h5 class="card-subtitle">
-                                            Recibe la plataforma de <br class="space">
-                                            Escala lista para:
-                                        </h5>
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Ajustar textos</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>
-                                                        Entrenar al equipo
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>
-                                                        Comenzar a producir <br class="space">
-                                                        resultados
-                                                    </p>
-                                                </div>
-                                            </li>
+                            <div class="col-md-12 col-lg-6 column-text">
+                                <h3>
+                                    Nota:
+                                </h3>
+                                <ul class="text">
 
-                                        </ul>
-                                        <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/03-home2023.png') !!}" loading="lazy">
-                                    </div>
-                                </div>
+                                    <li>
+                                        <span class="number">1.</span>
+                                        Diseñamos los emails y la landing page tomando <br class="D_e">
+                                        la referencia de marca del website y/o redes sociales <br class="D_e">
+                                        del cliente. De no tener, se solicita al cliente una <br class="D_e">
+                                        pieza gráfica referencia.
+                                    </li>
+                                    <li>
+                                        <span class="number">2.</span>
+                                        El texto de los emails y landing page, es simulado. Es <br class="D_e">
+                                        responsabilidad del cliente adaptarlo a su negocio y/o <br class="D_e">
+                                        necesidades.
+                                    </li>
+                                    <li>
+                                        <span class="number">3.</span>
+                                        Cualquier modificación de lo entregado, es <br class="D_e">
+                                        responsabilidad del cliente.
+                                    </li>
+                                </ul>
+
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="innerSectionElement sct3">
-
-                    <div class="containElements">
-                        <p class="text">
-                            Ya no requieres meses para adaptar un nuevo CRM a tus<br class="desktopTabletElement">
-                            operaciones y arrancar a optimizar tus ventas
-                        </p>
-                    </div>
-
-                </section>
             </div>
 
         </section>
+
+
+
 
            @php
                $desk_reviews = [
@@ -687,35 +629,9 @@
 
            @endphp
 
-           <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-04.png') !!})"
-               class=" customSection sectionParent implementacion-2023-4">
-
-               {{-- <img src="{!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-04.png') !!}" alt="" class="overlay"> --}}
-
-               <div class="section-row">
-                   <section class="innerSectionElement sct1">
-
-                       <div class="containElements">
-
-                           <h2 class="primaryTitle blackColor">
-                               ¡El proceso de entrega es rápido y eficiente!
-                           </h2>
-
-                           <div class="containerImage">
-                               <img class="desktopElement" src="{!! App::setFilePath('/assets/images/illustrations/others/proceso_implement.png') !!}" loading="lazy">
-                               <img class="mobileElement" src="{!! App::setFilePath('/assets/images/illustrations/others/proceso_implement_mobile.png') !!}" loading="lazy">
-                           </div>
-
-                       </div>
-
-                   </section>
-
-               </div>
-
-           </section>
 
            <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-02.png') !!})"
-               class="sectionParent customSection implementacion-2023-5">
+               class="sectionParent customSection implementacion-2023-7">
 
                <div class="section-row">
 
@@ -838,89 +754,45 @@
                })
            </script>
 
-           <section class="component-info-multiple-cards-T2 customSection sectionParent implementacion-2023-6">
-
-               <img src="{!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-03.png') !!}" alt="" class="overlaysky">
-
-               <div class="section-row">
-                   <section class="innerSectionElement sct1">
-
-                       <div class="containElements">
-
-                           <h2 class="primaryTitle blackColor">
-
-                               ¡Ningún otro CRM hace tanto por ti!
-
-                           </h2>
-
-                       </div>
-
-                   </section>
-
-                   <section class="innerSectionElement sct2">
-                       <div class="groupElements card-1">
-
-                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_blue.png') !!}" alt="" class="backOverlay">
-
-                           <h3 class="secondaryTitle">
-                               Implementación
-                           </h3>
-
-                           <div class="img-box">
-                               <div class="containerImage">
-                                   <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-implementacion-2023.png') !!}" loading="lazy">
-                               </div>
-                           </div>
-
-                       </div>
-                       <div class="groupElements">
-
-                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white_transparent.png') !!}" alt="" class="backOverlay">
-
-                           <h3 class="secondaryTitle">
-                               Acompañamiento
-                           </h3>
-
-                           <div class="img-box">
-                               <div class="containerImage">
-                                   <img src="{!! App::setFilePath('/assets/images/illustrations/others/03-implementacion-2023.png') !!}" loading="lazy">
-                               </div>
-                           </div>
-                           <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                               Conocer más
-                           </a>
-
-                       </div>
-                       <div class="groupElements">
-
-                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white_transparent.png') !!}" alt="" class="backOverlay">
-
-                           <h3 class="secondaryTitle">
-                               Entrenamiento
-                           </h3>
-
-                           <div class="img-box">
-                               <div class="containerImage">
-                                   <img src="{!! App::setFilePath('/assets/images/illustrations/others/04-implementacion-2023.png') !!}" loading="lazy">
-                               </div>
-                           </div>
-
-                           <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                               Conocer más
-                           </a>
-
-                       </div>
-                   </section>
 
 
+              <section style="background-image: url({!! App::setFilePath('/assets/images/banners/implementac_bg_06.svg') !!})"
+            class='w-full customSection sectionParent implementacion-2023-8'>
+            <div class="section-row">
 
-               </div>
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+
+                        <div class="row">
+
+                            <div class="col-md-12 col-lg-6 image">
+
+                                   <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/implement_rocket.png') !!}" loading="lazy">
+                                </div>
+
+                            </div>
+                            <div class="col-md-12 col-lg-6 info">
 
 
-           </section>
+                        <h2 class="title">
+                           Aprende sobre el servicio de <br class="DT_e">
+                            acompañamiento
+                        </h2>
 
+                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                            Aprender más
+                        </a>
+                            </div>
+                        </div>
 
+                    </div>
 
+                </section>
+
+            </div>
+        </section>
 
            @php
                $escalaUrl = 'https://escala.com';
@@ -929,32 +801,32 @@
                    [
                        'type' => 'master',
                        'title' => '¿Cómo diseñan los emails y las landing pages?',
-                       'text' => 'Diseñamos los emails y la landing page tomando la referencia de marca del website y/o <br class="desktopTabletElement"> redes sociales del cliente. De no tener, se solicita al cliente una pieza gráfica referencia.',
+                       'text' => 'Diseñamos los emails y la landing page tomando la referencia de marca del website y/o <br class="DT_e"> redes sociales del cliente. De no tener, se solicita al cliente una pieza gráfica referencia.',
                    ],
                    [
                        'type' => 'master',
                        'title' => '¿Crean también el copy de emails y landing pages?',
-                       'text' => 'El texto de los emails y landing page, es simulado. Es responsabilidad del cliente adaptarlo <br class="desktopTabletElement"> a su negocio y/o necesidades.',
+                       'text' => 'El texto de los emails y landing page, es simulado. Es responsabilidad del cliente adaptarlo <br class="DT_e"> a su negocio y/o necesidades.',
                    ],
                    [
                        'type' => 'master',
                        'title' => '¿Qué pasa si quiero que modifiquen uno de los entregables?',
-                       'text' => 'Cualquier modificación de lo entregado, es responsabilidad del cliente. El mismo puede <br class="desktopTabletElement"> utilizar las herramientas de Escala que son muy fáciles de usar.',
+                       'text' => 'Cualquier modificación de lo entregado, es responsabilidad del cliente. El mismo puede <br class="DT_e"> utilizar las herramientas de Escala que son muy fáciles de usar.',
                    ],
                    [
                        'type' => 'master',
                        'title' => '¿Si me suscribo un viernes, cuándo recibo el CRM implementado?',
-                       'text' => 'Entregamos el CRM implementado en 10 días hábiles desde el momento que tenemos <br class="desktopTabletElement"> toda la información requerida por parte del cliente para personalizar la plataforma y crear las piezas gráficas.',
+                       'text' => 'Entregamos el CRM implementado en 10 días hábiles desde el momento que tenemos <br class="DT_e"> toda la información requerida por parte del cliente para personalizar la plataforma y crear las piezas gráficas.',
                    ],
                    [
                        'type' => 'master',
                        'title' => '¿Cuánto cuesta la implementación?',
-                       'text' => 'El valor que generamos es de más de USD $6,500 pero dependiendo del plan que <br class="desktopTabletElement"> obtengas puede estar o no incluida en la suscripción.',
+                       'text' => 'El valor que generamos es de más de USD $6,500 pero dependiendo del plan que <br class="DT_e"> obtengas puede estar o no incluida en la suscripción.',
                    ],
                ];
 
                $parameters = [
-                   'classSection' => 'implementacion-2023-7',
+                   'classSection' => 'implementacion-2023-9',
                    'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
                    'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
                    'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
@@ -968,6 +840,36 @@
            @endcontain_FAQ_T1
 
 
+
+            <section class="sectionParent customSection implementacion-2023-10">
+            <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/implementac_bg_07.svg') !!}')" class="backgroundFull">
+                <div class="section-row">
+                    <section class="innerSectionElement sct2">
+                        <div class="groupElements row">
+
+                               <div class="info col-md-12 col-lg-8 sectionTexts textRight">
+                                <h3 class="secondaryTitle">
+                                    ¡Ahorra tiempo, evita errores y <br class="DT_e">
+                                    acelera <span>
+                                        el retorno de tu inversión <br class="DT_e">
+                                        con el CRM de Escala!
+                                    </span>
+                                </h3>
+                            </div>
+
+                            <div class="image col-md-12 col-lg-4">
+                                <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/implement_09.png') !!}" loading="lazy">
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
 
 
 

@@ -45,8 +45,8 @@
                                 </span>
                             </div>
                             <p class="text">
-                                Respuesta directa a su primer <br class="desktopTabletElement">
-                                envío de Email marketing a <br class="desktopTabletElement">
+                                Respuesta directa a su primer <br class="DT_e">
+                                envío de Email marketing a <br class="DT_e">
                                 una base de datos inactiva.
 
                             </p>
@@ -58,8 +58,8 @@
                                 </span>
                             </div>
                             <p class="text">
-                                Oportunidades ganadas en una sola <br class="desktopTabletElement">
-                                semana usando Escala, 5 de ellas resultado <br class="desktopTabletElement">
+                                Oportunidades ganadas en una sola <br class="DT_e">
+                                semana usando Escala, 5 de ellas resultado <br class="DT_e">
                                 inmediato del primer Email marketing.
                             </p>
                         </div>
@@ -70,8 +70,8 @@
                                 </span>
                             </div>
                             <p class="text">
-                                Reducción de tiempo implementando el <br class="desktopTabletElement">
-                                CRM de Escala. En solo 20 días se <br class="desktopTabletElement">
+                                Reducción de tiempo implementando el <br class="DT_e">
+                                CRM de Escala. En solo 20 días se <br class="DT_e">
                                 iniciaron operaciones.
                             </p>
                         </div>
@@ -102,11 +102,11 @@
 
                             <p class="text">
                                 Es un centro escuela que busca el desarrollo del ser a través <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                 de diferentes disciplinas, medicinas ancestrales y el turismo <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                 de bienestar. Garantiza el conocimiento y desarrollo de <br
-                                    class="desktopTabletElement">
+                                    class="DT_e">
                                 habilidades, el crecimiento personal y la autosanación.
                             </p>
 
@@ -188,11 +188,11 @@
                                         1
                                     </span>
                                     <span class="greenBlueColor">Iniciaron la implementación acelerada de Escala,</span>
-                                    utilizando todos los <br class="desktopTabletElement">
+                                    utilizando todos los <br class="DT_e">
                                     recursos disponibles: minicursos y tutoriales de Academy, acompañamiento <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                     del gerente de éxito, consultas con el equipo de soporte y construcción de <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                     embudos con nuestra herramienta exclusiva de planificador.
                                 </li>
 
@@ -201,9 +201,9 @@
                                         2
                                     </span>
                                     <span class="greenBlueColor">Crearon múltiples flujos de automatización</span> que
-                                    incluían comunicaciones, <br class="desktopTabletElement">
+                                    incluían comunicaciones, <br class="DT_e">
                                     generación de reservas y automatización de tareas repetitivas, lo que <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                     liberó mucho tiempo del equipo.
                                 </li>
 
@@ -212,9 +212,9 @@
                                         3
                                     </span>
                                     <span class="greenBlueColor">Desarrollaron campañas de email marketing segmentadas
-                                        por grupos,</span> lo que <br class="desktopTabletElement">
+                                        por grupos,</span> lo que <br class="DT_e">
                                     les permitió retomar contacto con leads y clientes de bases de datos inactivas <br
-                                        class="desktopTabletElement">
+                                        class="DT_e">
                                     y lograr conversiones en ventas.
                                 </li>
 
@@ -223,7 +223,7 @@
                                         4
                                     </span>
                                     <span class="greenBlueColor">Diseñaron un gran número de landing pages para
-                                        diferenciar cada servicio</span><br class="desktopTabletElement">
+                                        diferenciar cada servicio</span><br class="DT_e">
                                     y obtener leads segmentados por sus intereses.
                                 </li>
 
@@ -353,28 +353,28 @@
                                 <div class="item">
                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_check_orang.png') !!}" loading="lazy">
                                     <h3>
-                                        Minicursos y tutoriales <br class="desktopTabletElement">
+                                        Minicursos y tutoriales <br class="DT_e">
                                         de Academy
                                     </h3>
                                 </div>
                                 <div class="item">
                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_check_orang.png') !!}" loading="lazy">
                                     <h3>
-                                        Consultas al <br class="desktopTabletElement">
+                                        Consultas al <br class="DT_e">
                                         equipo de soporte
                                     </h3>
                                 </div>
                                 <div class="item">
                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_check_orang.png') !!}" loading="lazy">
                                     <h3>
-                                        Acompañamiento <br class="desktopTabletElement">
+                                        Acompañamiento <br class="DT_e">
                                         del gerente de éxito
                                     </h3>
                                 </div>
                                 <div class="item">
                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_check_orang.png') !!}" loading="lazy">
                                     <h3>
-                                        Asistencia a los bootcamps <br class="desktopTabletElement">
+                                        Asistencia a los bootcamps <br class="DT_e">
                                         de marketing y ventas
                                     </h3>
                                 </div>
@@ -401,13 +401,13 @@
                             <img class="comiTagLeft" src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
 
                             Vengo de otros CRMs que no me ofrecían todo lo que he obtenido en Escala. <br
-                                class="desktopTabletElement">
+                                class="DT_e">
                             No solo la herramienta es completa, <span>montamos el proyecto en solo 20 días</span> <br
-                                class="desktopTabletElement">
+                                class="DT_e">
                             gracias a su proceso de acompañamiento, el chat de soporte y los recursos de <br
-                                class="desktopTabletElement">
+                                class="DT_e">
                             formación de Escala Academy. <span>
-                                Estoy muy contento con los resultados y <br class="desktopTabletElement">
+                                Estoy muy contento con los resultados y <br class="DT_e">
                                 entusiasmado de seguir creciendo con Escala.
                             </span>
 

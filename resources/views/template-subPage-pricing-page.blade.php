@@ -63,11 +63,11 @@ $parameters = array(
  'classSection' => 'pricingPage2',
  'titlePrincipal' => '<span class="blueColor">
   Conoce los beneficios
-  <br class="mobileSmallElement">
+  <br class="M_e">
   de nuestros planes
   </span>',
  'subTitlePrincipal' => '
-  Nuestros planes tienen las funcionalidades de marketing digital y ventas <br class="desktopTabletElement">
+  Nuestros planes tienen las funcionalidades de marketing digital y ventas <br class="DT_e">
   para acelerar el crecimiento de tu negocio. Solo inviertes en lo que necesitas.
  '
 ) ;
@@ -76,7 +76,7 @@ $parameters = array(
 @endpricing_card_T1
 
 
-<section class="customSection sectionParent pricingPage3_2022 desktopElement">
+<section class="customSection sectionParent pricingPage3_2022 D_e">
 
   <div class="section-row">
 
@@ -89,7 +89,7 @@ $parameters = array(
         </h2>
 
         <p class="primaryText grayColorTexts">
-          No solamente somos una plataforma fácil de usar, somos un equipo de servicio al cliente <br class="desktopTabletElement"> comprometido con el crecimiento de tu negocio.
+          No solamente somos una plataforma fácil de usar, somos un equipo de servicio al cliente <br class="DT_e"> comprometido con el crecimiento de tu negocio.
         </p>
 
 
@@ -411,8 +411,8 @@ $parameters = array(
 
         <p class="primaryText grayColorTexts">
           Te apoyamos a hacer crecer tu negocio <br class="space"> de manera rentable, sostenible y escalable.
-          <br class="desktopElement">
-          <br class="desktopElement">
+          <br class="D_e">
+          <br class="D_e">
         </p>
 
 
@@ -434,14 +434,14 @@ $parameters = array(
                     Acompañamiento personalizado
                   </span>
                 </li>
-                <li class="desktopElement" style="visibility: hidden">
+                <li class="D_e" style="visibility: hidden">
                   <span><br class="space"></span>
                 </li>
 
               </ul>
             </div>
-            <br class="desktopElement">
-            <br class="desktopElement">
+            <br class="D_e">
+            <br class="D_e">
             <div class="listCustom">
               <h4 class="thirdTitle">
                 PLAN PRO / ENTERPRISE
@@ -515,10 +515,10 @@ $parameters = array(
 
             <p class="text primaryText grayColorTexts">
 
-              Escala tiene el email builder más amigable <br class="desktopTabletElement">
-              que he utilizado en los últimos años, y su <br class="desktopTabletElement">
-              equipo está comprometido a mantener la <br class="desktopTabletElement">
-              plataforma en constante actualización en <br class="desktopTabletElement">
+              Escala tiene el email builder más amigable <br class="DT_e">
+              que he utilizado en los últimos años, y su <br class="DT_e">
+              equipo está comprometido a mantener la <br class="DT_e">
+              plataforma en constante actualización en <br class="DT_e">
               el dinámico mundo digital.
 
             </p>
@@ -543,9 +543,9 @@ $parameters = array(
           <div class="image col-md-12 col-lg-6">
             <div class="containerImage">
 
-              <img class="desktopElement" src="{!! App::setFilePath('/assets/images/illustrations/others/tablet_otto_1.png') !!}" alt="" loading="lazy">
+              <img class="D_e" src="{!! App::setFilePath('/assets/images/illustrations/others/tablet_otto_1.png') !!}" alt="" loading="lazy">
 
-              <img class="mobileElement" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_tablet_fidelizacion.png') !!}" alt="" loading="lazy">
+              <img class="MT_e" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_tablet_fidelizacion.png') !!}" alt="" loading="lazy">
 
           </div>
           </div>

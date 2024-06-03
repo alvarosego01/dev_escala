@@ -34,16 +34,16 @@
   'title' => '<span class="greenBlueColor">4 pasos para construir</span> exitosas landing pages en minutos',
   'img1' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0116.png',
   'title1' => 'Elige tu plantilla',
-  'desc1' => 'Elige entre cientos de plantillas <br class="desktopTabletElement"> pre-diseñadas 100% responsive. <br class="desktopTabletElement">Sin necesidad de programar.',
+  'desc1' => 'Elige entre cientos de plantillas <br class="DT_e"> pre-diseñadas 100% responsive. <br class="DT_e">Sin necesidad de programar.',
   'img2' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0117.png',
   'title2' => 'Personaliza',
-  'desc2' => 'Dale tu toque personal y edita <br class="desktopTabletElement"> fácilmente imágenes, textos, <br class="desktopTabletElement">colores, tipografías, etc.',
+  'desc2' => 'Dale tu toque personal y edita <br class="DT_e"> fácilmente imágenes, textos, <br class="DT_e">colores, tipografías, etc.',
   'img3' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0118.png',
   'title3' => 'Publica',
-  'desc3' => 'Con un solo clic publica tu <br class="desktopTabletElement"> landing page y comienza a recibir <br class="desktopTabletElement"> visitas de tus clientes.',
+  'desc3' => 'Con un solo clic publica tu <br class="DT_e"> landing page y comienza a recibir <br class="DT_e"> visitas de tus clientes.',
   'img4' => 'https://cdn.escala.com/wp-content/uploads/sites/2/2021/02/conoce-el-mundo-lp-0119.png',
   'title4' => 'Optimiza',
-  'desc4' => 'Analiza y optimiza tus landing <br class="desktopTabletElement"> pages a través de dashboards <br class="desktopTabletElement"> sencillos para obtener increíbles <br class="desktopTabletElement"> resultados.',
+  'desc4' => 'Analiza y optimiza tus landing <br class="DT_e"> pages a través de dashboards <br class="DT_e"> sencillos para obtener increíbles <br class="DT_e"> resultados.',
  ) ;
 @endphp
 
@@ -74,7 +74,7 @@
 $parameters = array(
  'classSection' => 'OLD_LandingCreaLPInc2_3 func',
  'description' => '
- <span class="greenBlueColor"><strong>«En las landing pages de Open English generamos más de 1 <br class="desktopTabletElement"> millón de contactos al año.</strong></span> Así acumulamos aprendizajes <br class="desktopTabletElement"> para optimizar nuestras páginas y potenciar nuestras ventas. <br class="desktopTabletElement">Basados en una década de experiencia, creamos el Page <br class="desktopTabletElement"> Builder más robusto del mercado”.
+ <span class="greenBlueColor"><strong>«En las landing pages de Open English generamos más de 1 <br class="DT_e"> millón de contactos al año.</strong></span> Así acumulamos aprendizajes <br class="DT_e"> para optimizar nuestras páginas y potenciar nuestras ventas. <br class="DT_e">Basados en una década de experiencia, creamos el Page <br class="DT_e"> Builder más robusto del mercado”.
 
  ',
  'byAm' => '<span class="greenBlueColor">Andrés Moreno</span>',
@@ -93,7 +93,7 @@ $parameters = array(
   'type' => 'regular',
  'classSection' => 'OLD_LandingCreaLPInc2_4',
  'title' => '
-   Conoce la plataforma “todo en uno” de marketing <br class="desktopTabletElement">
+   Conoce la plataforma “todo en uno” de marketing <br class="DT_e">
   digital y ventas que acelerará <span class="greenBlueColor">el crecimiento de tu negocio</span>
  ',
  'img1' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala02.png'),
@@ -102,9 +102,9 @@ $parameters = array(
    con anuncios digitales
  ',
  'desc1' => '
-   Conecta tu cuenta de Facebook y <br class="desktopTabletElement">
-   comienza a generar tráfico a tu landing <br class="desktopTabletElement">
-   page. Crea campañas de anuncios <br class="desktopTabletElement">
+   Conecta tu cuenta de Facebook y <br class="DT_e">
+   comienza a generar tráfico a tu landing <br class="DT_e">
+   page. Crea campañas de anuncios <br class="DT_e">
    digitales directamente desde <strong >Escala</strong>.
  ',
  'img2' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala03.png'),
@@ -113,10 +113,10 @@ $parameters = array(
    gestiona procesos de venta
  ',
  'desc2' => '
- Empodera a tu equipo de ventas con el <br class="desktopTabletElement">
- CRM más amigable y fácil de usar. <br class="desktopTabletElement">
- Incrementa la productividad planificando <br class="desktopTabletElement">
- actividades y manteniendo comunicación <br class="desktopTabletElement">
+ Empodera a tu equipo de ventas con el <br class="DT_e">
+ CRM más amigable y fácil de usar. <br class="DT_e">
+ Incrementa la productividad planificando <br class="DT_e">
+ actividades y manteniendo comunicación <br class="DT_e">
  constante con tus leads.
    ',
  'img3' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala04.png'),
@@ -125,9 +125,9 @@ $parameters = array(
 marketing profesionales
  ',
  'desc3' => '
- Envía fácilmente campañas masivas de <br class="desktopTabletElement">
- emails con una de nuestras plantillas <br class="desktopTabletElement">
- prediseñadas. Con <strong >Escala</strong> dile adiós a la <br class="desktopTabletElement">
+ Envía fácilmente campañas masivas de <br class="DT_e">
+ emails con una de nuestras plantillas <br class="DT_e">
+ prediseñadas. Con <strong >Escala</strong> dile adiós a la <br class="DT_e">
  bandeja de spam.
  ',
 
@@ -137,9 +137,9 @@ marketing profesionales
 flujos de comunicación
  ',
  'desc4' => '
- Ahorra tiempo automatizando tareas repetitivas <br class="desktopTabletElement">
- con <strong >Escala</strong> para lograr tus metas de ventas. <br class="desktopTabletElement">
- Programa recordatorios y configura emails de <br class="desktopTabletElement"> respuestas automáticas.
+ Ahorra tiempo automatizando tareas repetitivas <br class="DT_e">
+ con <strong >Escala</strong> para lograr tus metas de ventas. <br class="DT_e">
+ Programa recordatorios y configura emails de <br class="DT_e"> respuestas automáticas.
  ',
  'img5' => App::setFilePath('/assets/images/illustrations/others/icon_re_escala05.png'),
  'title5' => '
@@ -147,10 +147,10 @@ flujos de comunicación
 y ventas en tiempo real
  ',
  'desc5' => '
- Lo que no se mide, no mejora. <strong >Escala</strong> te da las <br class="desktopTabletElement">
- analíticas necesarias en dashboards amigables <br class="desktopTabletElement">
- para que optimices tus esfuerzos de venta y <br class="desktopTabletElement">
- marketing. La salud de tu negocio en un solo <br class="desktopTabletElement">
+ Lo que no se mide, no mejora. <strong >Escala</strong> te da las <br class="DT_e">
+ analíticas necesarias en dashboards amigables <br class="DT_e">
+ para que optimices tus esfuerzos de venta y <br class="DT_e">
+ marketing. La salud de tu negocio en un solo <br class="DT_e">
  vistazo.
  ',
 ) ;

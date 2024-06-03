@@ -23,7 +23,7 @@
                             </h1>
 
                             <p class="text">
-                                Con el CRM más fácil de usar y nuestras herramientas <br class="desktopTabletElement">
+                                Con el CRM más fácil de usar y nuestras herramientas <br class="DT_e">
                                 de automatización de marketing y ventas
                             </p>
 
@@ -60,7 +60,7 @@
                 <span class="greenBlueColor">fideliza a tus clientes</span>
         ',
          'text' => '
-            Con el CRM más fácil de usar y nuestras herramientas <br class="desktopTabletElement">
+            Con el CRM más fácil de usar y nuestras herramientas <br class="DT_e">
             de automatización de marketing y ventas
           ',
          'threeCol' => true,
@@ -84,7 +84,7 @@
           'enableTitle' => true,
           'titlePrincipal' => '
             Otros  profesionales que pueden <span class="greenBlueColor">
-                atraer, <br class="desktopTabletElement">
+                atraer, <br class="DT_e">
                 convertir y fidelizar clientes con Escala
             </span>
           ',
@@ -202,7 +202,7 @@
                 'classSection' => 'subPage_casoUso_asesoria_1',
                 'enableTitle' => true,
                 'titlePrincipal' => '
-                    Centraliza tus operaciones de <br class="desktopTabletElement">
+                    Centraliza tus operaciones de <br class="DT_e">
                     <span class="greenBlueColor">marketing, ventas y fidelización</span>
                 ',
                 'subTitlePrincipal' => null,
@@ -220,8 +220,8 @@
                             leads
                         ',
                         'text' => '
-                            Atrae y convierte más prospectos <br class="desktopTabletElement">
-                            calificados en menos tiempo con <br class="desktopTabletElement">
+                            Atrae y convierte más prospectos <br class="DT_e">
+                            calificados en menos tiempo con <br class="DT_e">
                             anuncios y landing pages
                         ',
                         'enableButton' => false,
@@ -233,8 +233,8 @@
                             de compra
                         ',
                         'text' => '
-                            Optimiza y da seguimiento a tu <br class="desktopTabletElement">
-                            embudo de conversión para <br class="desktopTabletElement">
+                            Optimiza y da seguimiento a tu <br class="DT_e">
+                            embudo de conversión para <br class="DT_e">
                             agilizar el cierre de prospectos
                         ',
                         'enableButton' => false,
@@ -246,8 +246,8 @@
                             recurrentes
                         ',
                         'text' => '
-                            Automatiza campañas de recompra <br class="desktopTabletElement">
-                            para aumentar el ticket promedio de <br class="desktopTabletElement">
+                            Automatiza campañas de recompra <br class="DT_e">
+                            para aumentar el ticket promedio de <br class="DT_e">
                             tu cartera de clientes.
                         ',
                         'enableButton' => false,
@@ -258,8 +258,8 @@
                             Reduce costos
                             ',
                         'text' => '
-                            Evita gastar en múltiples herramientas <br class="desktopTabletElement">
-                            digitales y simplifica tus procesos con el <br class="desktopTabletElement">
+                            Evita gastar en múltiples herramientas <br class="DT_e">
+                            digitales y simplifica tus procesos con el <br class="DT_e">
                             CRM y las automatizaciones de Escala
                         ',
                         'enableButton' => false,
@@ -271,8 +271,8 @@
                             tus clientes
                         ',
                         'text' => '
-                            Planifica las comunicaciones <br class="desktopTabletElement">
-                            y cumple con las actividades <br class="desktopTabletElement">
+                            Planifica las comunicaciones <br class="DT_e">
+                            y cumple con las actividades <br class="DT_e">
                             de tu plan de trabajo
                         ',
                         'enableButton' => false,
@@ -284,9 +284,9 @@
                             tu negocio
                         ',
                         'text' => '
-                            Revisa las métricas de cada <br class="desktopTabletElement">
-                            campaña y utiliza dashboards <br class="desktopTabletElement">
-                            para monitorear los resultados <br class="desktopTabletElement">
+                            Revisa las métricas de cada <br class="DT_e">
+                            campaña y utiliza dashboards <br class="DT_e">
+                            para monitorear los resultados <br class="DT_e">
                             de marketing y ventas
                         ',
                         'enableButton' => false,
@@ -323,23 +323,23 @@
             <ul class="text">
                 <li>
                      <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Poca asistencia a los eventos de promoción <br class="desktopTabletElement">
+                    Poca asistencia a los eventos de promoción <br class="DT_e">
                     y dificultad para llegar al público objetivo.</li>
                 <li>
                      <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Falta de registro de las actividades y <br class="desktopTabletElement">
+                    Falta de registro de las actividades y <br class="DT_e">
                     comunicaciones intercambiadas con cada cliente</li>
                 <li>
                      <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Base de datos sin segmentación que obstaculiza <br class="desktopTabletElement">
+                    Base de datos sin segmentación que obstaculiza <br class="DT_e">
                     la interacción personalizada</li>
                 <li>
                      <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Pérdida de oportunidades con prospectos <br class="desktopTabletElement">
+                    Pérdida de oportunidades con prospectos <br class="DT_e">
                     calificados por retrasos en la comunicación.</li>
                 <li>
                      <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Retrasos e incumplimientos en las actividades <br class="desktopTabletElement">
+                    Retrasos e incumplimientos en las actividades <br class="DT_e">
                     acordadas con la cartera de clientes</li>
               </ul>
 
@@ -358,19 +358,19 @@
             <ul class="text">
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Anuncios y landing pages para promover eventos,<br class="desktopTabletElement"> obtener registros y asistencia de leads calificados.</li>
+                Anuncios y landing pages para promover eventos,<br class="DT_e"> obtener registros y asistencia de leads calificados.</li>
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Historial de eventos clave para cada contacto que <br class="desktopTabletElement"> guardes en el CRM</li>
+                Historial de eventos clave para cada contacto que <br class="DT_e"> guardes en el CRM</li>
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Etiquetas del CRM para segmentar a tus contactos <br class="desktopTabletElement"> y comunicarte de manera asertiva.</li>
+                Etiquetas del CRM para segmentar a tus contactos <br class="DT_e"> y comunicarte de manera asertiva.</li>
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Email marketing y automatizaciones para atender <br class="desktopTabletElement"> oportunamente a tus leads.</li>
+                Email marketing y automatizaciones para atender <br class="DT_e"> oportunamente a tus leads.</li>
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
-                Automatiza las actividades y notificaciones que <br class="desktopTabletElement"> deban cumplirse en cada etapa para que los <br class="desktopTabletElement"> proyectos de tus clientes avancen en los tiempos <br class="desktopTabletElement"> acordados</li>
+                Automatiza las actividades y notificaciones que <br class="DT_e"> deban cumplirse en cada etapa para que los <br class="DT_e"> proyectos de tus clientes avancen en los tiempos <br class="DT_e"> acordados</li>
               </ul>
             ',
                         'enableButton' => false,
@@ -396,13 +396,13 @@
                 'title' => null,
                 'text' => '
                     <span>
-                        "Queremos posicionarnos como expertos con <br class="desktopTabletElement">
-                        convocatorias masivas, pero dependemos del <br class="desktopTabletElement">
+                        "Queremos posicionarnos como expertos con <br class="DT_e">
+                        convocatorias masivas, pero dependemos del <br class="DT_e">
                         boca a boca para captar nuevos prospectos"
                     </span>
                     <br class="space"><br class="space">
-                    Combina tus campañas de <strong>anuncios digitales</strong> para <br class="desktopTabletElement">
-                    nuevos leads con convocatorias masivas de email <br class="desktopTabletElement">
+                    Combina tus campañas de <strong>anuncios digitales</strong> para <br class="DT_e">
+                    nuevos leads con convocatorias masivas de email <br class="DT_e">
                     marketing y aumenta el alcance de tu empresa.
                 ',
                 'enableButton' => false,
@@ -427,12 +427,12 @@
                 'title' => null,
                 'text' => '
                     <span>
-                        "Recibimos muchas visitas en nuestro sitio web, pero <br class="desktopTabletElement">
+                        "Recibimos muchas visitas en nuestro sitio web, pero <br class="DT_e">
                         no obtenemos registros para convertirlos en clientes"
                     </span>
                     <br class="space"><br class="space">
-                        Diseña <strong>landing pages</strong> de acuerdo a tu público objetivo, <br class="desktopTabletElement">
-                        brinda información útil, rápida y precisa sobre tus <br class="desktopTabletElement">
+                        Diseña <strong>landing pages</strong> de acuerdo a tu público objetivo, <br class="DT_e">
+                        brinda información útil, rápida y precisa sobre tus <br class="DT_e">
                         servicios para convertir a tus visitantes en leads
 
                 ',
@@ -458,8 +458,8 @@
                 'title' => null,
                 'text' => '
                    <span>
-                       "Invertimos mucho tiempo y esfuerzo en <br class="desktopTabletElement">
-                       identificar los prospectos mejor calificados <br class="desktopTabletElement">
+                       "Invertimos mucho tiempo y esfuerzo en <br class="DT_e">
+                       identificar los prospectos mejor calificados <br class="DT_e">
                        por desorganización de los datos"
                    </span>
                    <br class="space"><br class="space">
@@ -489,13 +489,13 @@
                 'title' => null,
                 'text' => '
                    <span>
-                       "Necesitamos unificar el trabajo de nuestra <br class="desktopTabletElement">
-                       fuerza de ventas para proyectar mejor <br class="desktopTabletElement">
+                       "Necesitamos unificar el trabajo de nuestra <br class="DT_e">
+                       fuerza de ventas para proyectar mejor <br class="DT_e">
                        nuestros resultados comerciales"
                    </span>
                    <br class="space"><br class="space">
-                   Observa las oportunidades asignadas, gestionadas, ganadas <br class="desktopTabletElement">
-                   y perdidas, mide el desempeño de tu equipo y toma <br class="desktopTabletElement">
+                   Observa las oportunidades asignadas, gestionadas, ganadas <br class="DT_e">
+                   y perdidas, mide el desempeño de tu equipo y toma <br class="DT_e">
                    decisiones basadas en las métricas del <strong>Dashboard.</strong>
                 ',
                 'enableButton' => false,
@@ -520,13 +520,13 @@
                 'title' => null,
                 'text' => '
                        <span>
-                          "No tenemos un proceso de fidelización ni <br class="desktopTabletElement">
-                          herramientas para tener una comunicación <br class="desktopTabletElement">
+                          "No tenemos un proceso de fidelización ni <br class="DT_e">
+                          herramientas para tener una comunicación <br class="DT_e">
                           asertiva y personalizada con los clientes"
                        </span>
                        <br class="space"><br class="space">
-                       Utiliza segmentos y etiquetas para clasificar a tus <br class="desktopTabletElement">
-                       clientes y <strong>automatiza emails</strong> personalizados de <br class="desktopTabletElement">
+                       Utiliza segmentos y etiquetas para clasificar a tus <br class="DT_e">
+                       clientes y <strong>automatiza emails</strong> personalizados de <br class="DT_e">
                        acuerdo a tu perfil e intereses..
                 ',
                 'enableButton' => false,

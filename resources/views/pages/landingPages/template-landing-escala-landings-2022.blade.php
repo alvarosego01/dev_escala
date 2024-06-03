@@ -8,7 +8,7 @@
      'overlay' => false,
      'classSection' => 'threeCol landing_escalaLandings_2022_0',
      'title' => '
-        Construye <br class="mobileElement"> increíbles <br class="desktopElement">
+        Construye <br class="MT_e"> increíbles <br class="D_e">
         landing pages <br class="space">
         <span style="color: #B9E6E9">guiado por especialistas</span>
         ',
@@ -45,12 +45,12 @@
       'text' => '
           <span class="greenBlueColor">
             <strong>
-              "Las landing pages han sido clave para <br class="mobileElement"> generar <br class="desktopElement">
-              millones de contactos al año en mis <br class="mobileElement"> empresas.
+              "Las landing pages han sido clave para <br class="MT_e"> generar <br class="D_e">
+              millones de contactos al año en mis <br class="MT_e"> empresas.
             </strong>
-          </span> <br class="desktopElement">
-          Basados en estas prácticas de <br class="mobileElement"> alta conversión, diseñamos <br class="desktopElement">
-          el Creador de <br class="mobileElement"> Páginas de Escala, el más fácil de usar”.
+          </span> <br class="D_e">
+          Basados en estas prácticas de <br class="MT_e"> alta conversión, diseñamos <br class="D_e">
+          el Creador de <br class="MT_e"> Páginas de Escala, el más fácil de usar”.
           <br class="space"><br class="space">
             <span class="byam">
               <strong class="greenBlueColor">
@@ -131,7 +131,7 @@
                       ],
                       [
                         'title' => 'Guarda los datos en tu CRM',
-                        'text' => 'y hazle seguimiento a tu lead hasta <br class="mobileElement"> cerrar la venta'
+                        'text' => 'y hazle seguimiento a tu lead hasta <br class="MT_e"> cerrar la venta'
                       ],
                       [
                         'title' => '100% responsive',
@@ -139,11 +139,11 @@
                       ],
                       [
                         'title' => 'Comunícate con Email Marketing',
-                        'text' => 'generando relaciones a largo plazo <br class="mobileElement"> con tus <br class="space"> leads '
+                        'text' => 'generando relaciones a largo plazo <br class="MT_e"> con tus <br class="space"> leads '
                       ],
                       [
                         'title' => 'Analiza y optimiza tu página',
-                        'text' => 'con dashboards que te dan métricas <br class="mobileElement"> en tiempo real'
+                        'text' => 'con dashboards que te dan métricas <br class="MT_e"> en tiempo real'
                       ],
                       [
                         'title' => 'Automatiza tus flujos de comunicación',
@@ -201,9 +201,9 @@
         'img' => App::setFilePath('/assets/images/person/soporte-equipo-escala-clientes.png'),
 'img_alt' => 'Foto de una pareja mirando su computador portátil sorprendidos en referencia a la calidad del acompañamiento que brinda el equipo de soporte de Escala',
         'text' => '
-            Con el Plan PRO de Escala, nuestros especialistas <br class="mobileElement"> en marketing <br class="desktopElement">
-            digital y ventas te guiarán paso a paso <br class="mobileElement"> en la construcción de tu <br class="desktopElement">
-            landing page. Sácale <br class="mobileElement"> máximo provecho a nuestro Creador de Páginas.
+            Con el Plan PRO de Escala, nuestros especialistas <br class="MT_e"> en marketing <br class="D_e">
+            digital y ventas te guiarán paso a paso <br class="MT_e"> en la construcción de tu <br class="D_e">
+            landing page. Sácale <br class="MT_e"> máximo provecho a nuestro Creador de Páginas.
         ',
         'enableButton' => false,
         'urlButton' => '#lead-form',
@@ -231,8 +231,8 @@ $parameters = [
                   'img' => App::setFilePath('/assets/images/illustrations/others/acompanamiento-en-vivo-implementacion-escala.png'),
 'img_alt' => 'Ilustración de un astronauta mostrando en su computador un cohete que va de un punto A a un punto B en referencia al acompañamiento en vivo para optimizar la implementación de Escala en una empresa',
                   'title' => '
-                    Acompañamiento en vivo <br class="desktopElement">
-                    para crear, <br class="mobileElement"> publicar y <br class="desktopElement">
+                    Acompañamiento en vivo <br class="D_e">
+                    para crear, <br class="MT_e"> publicar y <br class="D_e">
                     optimizar tus páginas
                   ',
                   'text' => null,
@@ -254,8 +254,8 @@ $parameters = [
                   'img' => App::setFilePath('/assets/images/illustrations/others/atencion-prioritaria-clientes-equipo-escala.png'),
 'img_alt' => 'Ilustración de un computador con un botón de WhatsApp en referencia a la atención prioritaria por WhatsApp, Email y Chat de parte de nuestro equipo',
                   'title' => '
-                      Atención prioritaria por <br class="desktopElement">
-                      WhatsApp, Email <br class="mobileElement"> y Chat <br class="desktopElement">
+                      Atención prioritaria por <br class="D_e">
+                      WhatsApp, Email <br class="MT_e"> y Chat <br class="D_e">
                       de servicio
                     ',
                     'text' => null,
@@ -265,8 +265,8 @@ $parameters = [
                   'img' => App::setFilePath('/assets/images/illustrations/others/gerente-cuentas-asignado-equipo-escala.png'),
 'img_alt' => 'Ilustración de un astronauta con capa y un computador en sus manos en referencia al gerente de cuentas que se asigna a clientes por parte de Escala',
                   'title' => '
-                        Gerente de cuentas asignado <br class="desktopElement">
-                        con plan <br class="mobileElement"> personalizado de <br class="desktopElement">
+                        Gerente de cuentas asignado <br class="D_e">
+                        con plan <br class="MT_e"> personalizado de <br class="D_e">
                         implementación
                     ',
                     'text' => null,
@@ -303,18 +303,18 @@ $parameters = [
 
             <h2 class="primaryTitle blackColor">
               La combinación perfecta: <br class="space">
-              <span style="color: #B9E6E9">Landing page increíble <br class="mobileElement"> + CRM poderoso</span>
+              <span style="color: #B9E6E9">Landing page increíble <br class="MT_e"> + CRM poderoso</span>
             </h2>
 
             <p class="primaryText grayColorTexts">
-              Haz todas tus acciones de marketing digital <br class="mobileElement"> y ventas en nuestra plataforma:
+              Haz todas tus acciones de marketing digital <br class="MT_e"> y ventas en nuestra plataforma:
             </p>
 
             <ul class="elements">
-              <li>Atrae  tráfico a  tus landing pages <br class="mobileElement"> con Facebook Ads e Instagram </li>
-              <li>Registra la data de tus visitantes <br class="mobileElement"> en tus páginas</li>
-              <li>Haz seguimiento  a tus leads, automatiza <br class="mobileElement"> tus flujos de comunicación <br class="desktopElement">
-              y cierra más ventas <br class="mobileElement"> con nuestro CRM integrado. </li>
+              <li>Atrae  tráfico a  tus landing pages <br class="MT_e"> con Facebook Ads e Instagram </li>
+              <li>Registra la data de tus visitantes <br class="MT_e"> en tus páginas</li>
+              <li>Haz seguimiento  a tus leads, automatiza <br class="MT_e"> tus flujos de comunicación <br class="D_e">
+              y cierra más ventas <br class="MT_e"> con nuestro CRM integrado. </li>
             </ul>
 
             <div class="containerImage">
@@ -382,8 +382,8 @@ $parameters = [
   $parameters = [
       'classSection' => 'landing_escalaLandings_2022_6',
       'title' => '
-        <span style="color: #B9E6E9">Comienza hoy mismo a generar <br class="mobileElement"> leads <br class="desktopElement"></span>
-        de calidad con las landing <br class="mobileElement"> pages de Escala
+        <span style="color: #B9E6E9">Comienza hoy mismo a generar <br class="MT_e"> leads <br class="D_e"></span>
+        de calidad con las landing <br class="MT_e"> pages de Escala
       ',
       'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
       'text' => null,

@@ -118,12 +118,12 @@
                       <img alt="Escala check item features" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_check_2.png') !!}" loading="lazy">
                     </div>
                     Conseguir más clientes
-                    <br class="desktopElement">
-                    <br class="desktopElement">
+                    <br class="D_e">
+                    <br class="D_e">
                   </h3>
 
                   <p class="text">
-                    Te apoyamos a llegar a nuevos mercados, generar nuevas <br class="desktopTabletElement">
+                    Te apoyamos a llegar a nuevos mercados, generar nuevas <br class="DT_e">
                     oportunidades de negocio y negociar mejores acuerdos.
                   </p>
 
@@ -142,7 +142,7 @@
                   </h3>
 
                   <p class="text">
-                    Te enseñamos una metodología probada de Customer <br class="desktopTabletElement">
+                    Te enseñamos una metodología probada de Customer <br class="DT_e">
                     Success para implementar y fidelizar clientes.
                   </p>
 
@@ -160,7 +160,7 @@
                   </h3>
 
                   <p class="text">
-                    Te apoyamos a ganar ventajas competitivas con recursos, <br class="desktopTabletElement">
+                    Te apoyamos a ganar ventajas competitivas con recursos, <br class="DT_e">
                     descuentos especiales y experiencias únicas para tus clientes.
                   </p>
 
@@ -178,8 +178,8 @@
                   </h3>
 
                   <p class="text">
-                    Te brindamos entrenamientos exclusivos y asesorías <br class="desktopTabletElement">
-                    personalizadas para aumentar la productividad de <br class="desktopTabletElement">
+                    Te brindamos entrenamientos exclusivos y asesorías <br class="DT_e">
+                    personalizadas para aumentar la productividad de <br class="DT_e">
                     miembros que consiguen y sirven a clientes.
                   </p>
 
@@ -196,8 +196,8 @@
                   </h3>
 
                   <p class="text">
-                    Nuestras herramientas y soporte te permiten implementar <br class="desktopTabletElement">
-                    estrategias más ágilmente, automatizar tareas y aumentar la <br class="desktopTabletElement">
+                    Nuestras herramientas y soporte te permiten implementar <br class="DT_e">
+                    estrategias más ágilmente, automatizar tareas y aumentar la <br class="DT_e">
                     rentabilidad de la empresa.
                   </p>
 
@@ -214,7 +214,7 @@
                   </h3>
 
                   <p class="text">
-                    Gana mayor visibilidad y oportunidades de conectar <br class="desktopTabletElement">
+                    Gana mayor visibilidad y oportunidades de conectar <br class="DT_e">
                     con potenciales clientes, aliados y proveedores.
                   </p>
 
@@ -238,7 +238,7 @@ $parameters = [
     ¿Eres nuestro <span class="greenBlueColor">Partner ideal?</span>
     ',
     'subTitlePrincipal' => '
-    Desarrollamos un ecosistema de expertos comprometidos a colocar a sus clientes en el <br class="desktopTabletElement">
+    Desarrollamos un ecosistema de expertos comprometidos a colocar a sus clientes en el <br class="DT_e">
     centro de su estrategia y desafiarse continuamente para llevar su empresa a un próximo nivel.
     ',
     'overlay' => false,
@@ -325,10 +325,10 @@ $parameters = [
                   hemos podido crecer...
                 </span>
                 <br class="space">
-                Al entrar a Escala, se estructura más la agencia. No solo <br class="desktopTabletElement">
-                conseguimos más leads calificados sino logramos tener una cita <br class="desktopTabletElement">
+                Al entrar a Escala, se estructura más la agencia. No solo <br class="DT_e">
+                conseguimos más leads calificados sino logramos tener una cita <br class="DT_e">
                 y entregar una propuesta a cada uno de ellos. <br class="space">
-                Consistentemente, con cada campaña convertimos un 10.5% <br class="desktopTabletElement"> en clientes."
+                Consistentemente, con cada campaña convertimos un 10.5% <br class="DT_e"> en clientes."
                 <br class="space">
                 <small>
                   - Milena Osorio, fundadora MO Comunicaciones
@@ -371,7 +371,7 @@ $parameters = [
             Aplica
             ',
             'text' => '
-            Llena el formulario y <br class="desktopTabletElement">
+            Llena el formulario y <br class="DT_e">
             ayúdanos a conocerte
             ',
             'enableButton' => false,
@@ -383,8 +383,8 @@ $parameters = [
             Aprende
             ',
             'text' => '
-            Evalúa nuestra <br class="desktopTabletElement">
-            plataforma y los <br class="desktopTabletElement">
+            Evalúa nuestra <br class="DT_e">
+            plataforma y los <br class="DT_e">
             beneficios de ser Partner
             ',
             'enableButton' => false,
@@ -396,8 +396,8 @@ $parameters = [
             Suscríbete
             ',
             'text'=> '
-            Se parte de la comunidad <br class="desktopTabletElement">
-            que potencia su <br class="desktopTabletElement">
+            Se parte de la comunidad <br class="DT_e">
+            que potencia su <br class="DT_e">
             crecimiento con Escala
             ',
             'enableButton' => false,
@@ -409,9 +409,9 @@ $parameters = [
             Certifícate
             ',
             'text' => '
-            Completael <br class="desktopTabletElement">
-            entrenamiento y obtén <br class="desktopTabletElement">
-            tu certificado como <br class="desktopTabletElement">
+            Completael <br class="DT_e">
+            entrenamiento y obtén <br class="DT_e">
+            tu certificado como <br class="DT_e">
             Partner de Escala.
             ',
             'enableButton' => false,
@@ -423,9 +423,9 @@ $parameters = [
             Empieza a ganar
             ',
             'text' => '
-            Disfruta de los <br class="desktopTabletElement">
-            beneficios y comisiones, <br class="desktopTabletElement">
-            mientras generas un <br class="desktopTabletElement">
+            Disfruta de los <br class="DT_e">
+            beneficios y comisiones, <br class="DT_e">
+            mientras generas un <br class="DT_e">
             impacto positivo.
             ',
             'enableButton' => false,
@@ -469,11 +469,11 @@ $parameters = [
                   <img   src="{!! App::setFilePath('/assets/images/illustrations/others/07 1.png') !!}"  loading="lazy">
                 </div>
                 <p class="text">
-                  Actualmente existen aproximadamente <br class="desktopTabletElement">
+                  Actualmente existen aproximadamente <br class="DT_e">
                   más de <span class="greenBlueColor">
-                    30 millones de pequeñas y <br class="desktopTabletElement">
+                    30 millones de pequeñas y <br class="DT_e">
                     medianas empresas
-                  </span> fundadas por <br class="desktopTabletElement">
+                  </span> fundadas por <br class="DT_e">
                   Hispanos en E.E.U.U. y Latinoamérica.
 
                 </p>
@@ -487,10 +487,10 @@ $parameters = [
                 </div>
                 <p class="text">
                   Muchas de ellas <span class="greenBlueColor">
-                    quiebran o estancan <br class="desktopTabletElement">
+                    quiebran o estancan <br class="DT_e">
                     su crecimiento
-                  </span> debido a fallas en su <br class="desktopTabletElement">
-                  estrategia, altos costos operativos y <br class="desktopTabletElement">
+                  </span> debido a fallas en su <br class="DT_e">
+                  estrategia, altos costos operativos y <br class="DT_e">
                   complicaciones en sus procesos.
                 </p>
               </div>
@@ -514,11 +514,11 @@ $parameters = [
                   <img   src="{!! App::setFilePath('/assets/images/illustrations/others/otto-33 1.png') !!}"  loading="lazy">
                 </div>
               <p class="text">
-                Después de más de 10 años construyendo <br class="desktopTabletElement">
-                negocios exitosos y asesorando a cientos de <br class="desktopTabletElement">
-                empresas, Andrés Moreno y su equipo de <br class="desktopTabletElement">
+                Después de más de 10 años construyendo <br class="DT_e">
+                negocios exitosos y asesorando a cientos de <br class="DT_e">
+                empresas, Andrés Moreno y su equipo de <br class="DT_e">
                 expertos crean <span class="greenBlueColor">
-                  Escala para facilitarle a <br class="desktopTabletElement">
+                  Escala para facilitarle a <br class="DT_e">
                   PYMES atraer, convertir y fidelizar clientes.
                 </span>
               </p>
@@ -531,12 +531,12 @@ $parameters = [
                   <img   src="{!! App::setFilePath('/assets/images/illustrations/others/otto-34 2.png') !!}"  loading="lazy">
                 </div>
                 <p class="text">
-                  La respuesta ha sido extraordinaria y la <br class="desktopTabletElement">
+                  La respuesta ha sido extraordinaria y la <br class="DT_e">
                 <span class="greenBlueColor">
-                  demanda mayor de lo que podamos <br class="desktopTabletElement">
+                  demanda mayor de lo que podamos <br class="DT_e">
                   manejar.
-                </span> Por eso, buscamos socios con el <br class="desktopTabletElement">
-                talento, los valores y el compromiso <br class="desktopTabletElement">
+                </span> Por eso, buscamos socios con el <br class="DT_e">
+                talento, los valores y el compromiso <br class="DT_e">
                 necesario para agregar valor.
               </p>
             </div>
@@ -560,10 +560,10 @@ $parameters = [
                 </div>
                 <p class="text">
                   <span class="greenBlueColor">
-                    Juntos aceleramos el crecimiento de <br class="desktopTabletElement">
+                    Juntos aceleramos el crecimiento de <br class="DT_e">
                     nuestras empresas
-                  </span> mientras impactamos  <br class="desktopTabletElement">
-                  el progreso de la comunidad hispana  <br class="desktopTabletElement">
+                  </span> mientras impactamos  <br class="DT_e">
+                  el progreso de la comunidad hispana  <br class="DT_e">
                   en el mundo.
 
                 </p>
@@ -621,8 +621,8 @@ $parameters = [
 
                           <h2 class="principalBigTitle blackColor">
 
-  <span style="color: #FAD872">Gana hasta 30% de comisión,</span> <br class="desktopTabletElement">
-  transforma empresas e influye <br class="desktopTabletElement">
+  <span style="color: #FAD872">Gana hasta 30% de comisión,</span> <br class="DT_e">
+  transforma empresas e influye <br class="DT_e">
   en el desarrollo del mercado
 
                           </h2>

@@ -8,7 +8,7 @@
                 class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol educacion-2023-0 ">
 
                 <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-educacion-mobile-2023-07.png') }}')"
-                    class="backgroundFull mobileElement">
+                    class="backgroundFull MT_e">
 
                     <div class="section-row">
 
@@ -52,7 +52,7 @@
 
                                         </div>
 
-                                        <div class="containerImage mobileElement">
+                                        <div class="containerImage MT_e">
                                             <img src="{{ App::setFilePath('/assets/images/person/am/am_education.png') }}" alt="">
                                         </div>
 
@@ -167,7 +167,7 @@
                 </div>
 
                 <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-educacion-2023-07.png') }}')"
-                    class="backgroundFull desktopElement">
+                    class="backgroundFull D_e">
 
                     <div class="section-row">
 
@@ -211,7 +211,7 @@
 
                                         </div>
 
-                                        <div class="containerImage mobileElement">
+                                        <div class="containerImage MT_e">
                                             <img src="{{ App::setFilePath('/assets/images/person/am/am_education.png') }}" alt="">
                                         </div>
 
@@ -335,7 +335,7 @@
 
                         <div class="containElements">
                             <h2 class="title">
-                                Entrenamos a líderes comerciales y a sus equipos <br class="desktopTabletElement">
+                                Entrenamos a líderes comerciales y a sus equipos <br class="DT_e">
                                 <span>para que vendan más y mejor con Escala</span>
                             </h2>
                             <p class="text">
@@ -512,7 +512,7 @@
                         <div class="containElements">
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/01-educacion-2023.png') !!}" loading="lazy">
                             <p class="text">
-                                ¡Logra que tus equipos usen el CRM efectivamente <br class="desktopTabletElement">
+                                ¡Logra que tus equipos usen el CRM efectivamente <br class="DT_e">
                                 y quieran usarlo para conseguir mejores resultados!
                             </p>
                         </div>
@@ -527,7 +527,7 @@
                                 ¡Ningún otro CRM <span>te entrena mejor!</span>
                             </h2>
                             <p class="text">
-                                Aprovecha todos los recursos educativos de Escala para desarrollar <br class="desktopTabletElement">
+                                Aprovecha todos los recursos educativos de Escala para desarrollar <br class="DT_e">
                                 conocimientos que aceleran el crecimiento de tu empresa
                             </p>
                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -553,7 +553,7 @@
                                 <div class="row">
                                     <div class="text-center col-md-12 col-lg-12">
                                         <h2 class="primaryTitle">
-                                            ¿Qué dicen nuestros clientes <br class="desktopTabletElement">
+                                            ¿Qué dicen nuestros clientes <br class="DT_e">
                                             sobre los entrenamientos?
                                         </h2>
                                         <div class="ele video col-md-12">
@@ -639,7 +639,7 @@
                         <div class="containElements">
 
                             <h2 class="primaryTitle blackColor">
-                                Recursos que aceleran tu aprendizaje <br class="desktopTabletElement">
+                                Recursos que aceleran tu aprendizaje <br class="DT_e">
                                 <span>Elige el formato de tu preferencia</span>
                             </h2>
 
@@ -656,8 +656,8 @@
                                 </div>
                                 <div class="col-md-7">
                                     <h5 class="principalTitle">
-                                        <span>Masterclasses</span> <br class="desktopTabletElement">
-                                        con Andrés Moreno <br class="desktopTabletElement">
+                                        <span>Masterclasses</span> <br class="DT_e">
+                                        con Andrés Moreno <br class="DT_e">
                                         y expertos
                                     </h5>
                                     <p class="principalText">Empieza a vivirlas</p>
@@ -672,7 +672,7 @@
                                 </div>
                                 <div class="col-md-7">
                                     <h5 class="principalTitle">
-                                        <span>Bootcamps</span> <br class="desktopTabletElement">
+                                        <span>Bootcamps</span> <br class="DT_e">
                                         en vivo
                                     </h5>
                                 </div>
@@ -683,7 +683,7 @@
                                 </div>
                                 <div class="col-md-7">
                                     <h5 class="principalTitle">
-                                        <span>Cursos online</span> <br class="desktopTabletElement">
+                                        <span>Cursos online</span> <br class="DT_e">
                                         autoguiadaos
                                     </h5>
                                 </div>
@@ -694,7 +694,7 @@
                                 </div>
                                 <div class="col-md-7">
                                     <h5 class="principalTitle">
-                                        <span>Breves tutoriales</span> <br class="desktopTabletElement">
+                                        <span>Breves tutoriales</span> <br class="DT_e">
                                         de herramientas
                                     </h5>
                                 </div>
@@ -923,27 +923,27 @@
     [
         'type' => 'master',
         'title' => '¿Cómo diseñan los emails y las landing pages?',
-        'text' => 'Diseñamos los emails y la landing page tomando la referencia de marca del website y/o <br class="desktopTabletElement"> redes sociales del cliente. De no tener, se solicita al cliente una pieza gráfica referencia.'
+        'text' => 'Diseñamos los emails y la landing page tomando la referencia de marca del website y/o <br class="DT_e"> redes sociales del cliente. De no tener, se solicita al cliente una pieza gráfica referencia.'
     ],
     [
         'type' => 'master',
         'title' => '¿Crean también el copy de emails y landing pages?',
-        'text' => 'El texto de los emails y landing page, es simulado. Es responsabilidad del cliente adaptarlo <br class="desktopTabletElement"> a su negocio y/o necesidades.'
+        'text' => 'El texto de los emails y landing page, es simulado. Es responsabilidad del cliente adaptarlo <br class="DT_e"> a su negocio y/o necesidades.'
     ],
     [
         'type' => 'master',
         'title' => '¿Qué pasa si quiero que modifiquen uno de los entregables?',
-        'text' => 'Cualquier modificación de lo entregado, es responsabilidad del cliente. El mismo puede <br class="desktopTabletElement"> utilizar las herramientas de Escala que son muy fáciles de usar.'
+        'text' => 'Cualquier modificación de lo entregado, es responsabilidad del cliente. El mismo puede <br class="DT_e"> utilizar las herramientas de Escala que son muy fáciles de usar.'
     ],
     [
         'type' => 'master',
         'title' => '¿Si me suscribo un viernes, cuándo recibo el CRM implementado?',
-        'text' => 'Entregamos el CRM implementado en 10 días hábiles desde el momento que tenemos <br class="desktopTabletElement"> toda la información requerida por parte del cliente para personalizar la plataforma y crear las piezas gráficas.'
+        'text' => 'Entregamos el CRM implementado en 10 días hábiles desde el momento que tenemos <br class="DT_e"> toda la información requerida por parte del cliente para personalizar la plataforma y crear las piezas gráficas.'
     ],
     [
         'type' => 'master',
         'title' => '¿Cuánto cuesta la implementación?',
-        'text' => 'El valor que generamos es de más de USD $6,500 pero dependiendo del plan que <br class="desktopTabletElement"> obtengas puede estar o no incluida en la suscripción.'
+        'text' => 'El valor que generamos es de más de USD $6,500 pero dependiendo del plan que <br class="DT_e"> obtengas puede estar o no incluida en la suscripción.'
     ]
 ];
 

@@ -131,7 +131,7 @@
                 'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/campa_ia_anim_1.gif'),
                 'title' => '
-La IA crea el texto de <br class="desktopElement"> <span>títulos, botones y párrafos</span>
+La IA crea el texto de <br class="D_e"> <span>títulos, botones y párrafos</span>
   ',
                 'text' => '
     <span style="color: #FF4D27"> Paso 1:</span> Describe el tema que quieres exponer <br class="space">

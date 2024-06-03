@@ -33,8 +33,8 @@
 
                                   <p class="text">
 
-                                    Sé parte de la comunidad de empresas que transforma <br class="desktopTabletElement">
-                                    su experticia en marketing, ventas y tecnología <br class="desktopTabletElement">
+                                    Sé parte de la comunidad de empresas que transforma <br class="DT_e">
+                                    su experticia en marketing, ventas y tecnología <br class="DT_e">
                                     en soluciones para pequeñas y medianas empresas.
 
                                   </p>
@@ -94,7 +94,7 @@
                         </h3>
                         <p class="text">
                           <span>
-                            GANA MÁS CLIENTES Y <br class="desktopTabletElement">
+                            GANA MÁS CLIENTES Y <br class="DT_e">
                             MULTIPLICA TUS INGRESOS
                           </span>
                         </p>
@@ -105,14 +105,14 @@
                           Proveedor de Servicio
                           <br class="space"><br class="space">
                           <span class="greenBlueColor">Tienes clientes:</span> <br class="space">
-                          Pequeñas y medianas empresas <br class="desktopTabletElement">
-                          que ofrecen productos o servicios <br class="desktopTabletElement">
+                          Pequeñas y medianas empresas <br class="DT_e">
+                          que ofrecen productos o servicios <br class="DT_e">
                           de alto valor o B2B
                           <br class="space"><br class="space">
 
                           <span class="greenBlueColor">Prestas servicios:</span> <br class="space">
-                          Que apoyan a tus clientes a <br class="desktopTabletElement">
-                          crecer, mejorando su estrategia, <br class="desktopTabletElement">
+                          Que apoyan a tus clientes a <br class="DT_e">
+                          crecer, mejorando su estrategia, <br class="DT_e">
                           su mercadeo y/o ventas.
                         </p>
 
@@ -130,7 +130,7 @@
                         </h3>
                         <p class="text">
                           <span>
-                            GANA INGRESOS PASIVOS <br class="desktopTabletElement">
+                            GANA INGRESOS PASIVOS <br class="DT_e">
                             POR CADA REFERIDO
                           </span>
                         </p>
@@ -142,14 +142,14 @@
                           <br class="space"><br class="space">
 
                           <span class="greenBlueColor">Tu audiencia: <br class="space"></span>
-                          Líderes de pequeñas y medianas <br class="desktopTabletElement">
-                          empresas hispanas en USA y <br class="desktopTabletElement">
+                          Líderes de pequeñas y medianas <br class="DT_e">
+                          empresas hispanas en USA y <br class="DT_e">
                           Latinoamérica
                           <br class="space"><br class="space">
 
                           <span class="greenBlueColor">Creas contenido sobre: <br class="space"></span>
-                          Marketing y/o ventas <br class="desktopTabletElement">
-                          Estrategia de negocio <br class="desktopTabletElement">
+                          Marketing y/o ventas <br class="DT_e">
+                          Estrategia de negocio <br class="DT_e">
                           Softwares
                         </p>
 
@@ -167,26 +167,26 @@
                         </h3>
                         <p class="text">
                           <span>
-                            BRINDA BENEFICIOS ÚNICOS <br class="desktopTabletElement">
+                            BRINDA BENEFICIOS ÚNICOS <br class="DT_e">
                             A TU COMUNIDAD
                           </span>
                         </p>
                         <p class="text">
                           <span class="greenBlueColor">Tu organización es:</span> <br class="space">
-                          Asociación de empresas <br class="desktopTabletElement">
-                          VC, acelerador o incubador <br class="desktopTabletElement">
+                          Asociación de empresas <br class="DT_e">
+                          VC, acelerador o incubador <br class="DT_e">
                           Institución financiera o educativa
 
                           <br class="space"><br class="space">
                           <span class="greenBlueColor">Tu comunidad está compuesta por:</span> <br class="space">
-                          Líderes de pequeñas y medianas <br class="desktopTabletElement">
-                          empresas hispanas en USA y <br class="desktopTabletElement">
+                          Líderes de pequeñas y medianas <br class="DT_e">
+                          empresas hispanas en USA y <br class="DT_e">
                           Latinoamérica
                           <br class="space"><br class="space">
 
                           <span class="greenBlueColor">Deseas agregarles valor con:</span> <br class="space">
-                          Eventos educativos <br class="desktopTabletElement">
-                          Herramientas potentes <br class="desktopTabletElement">
+                          Eventos educativos <br class="DT_e">
+                          Herramientas potentes <br class="DT_e">
                           Educación de primera
                         </p>
 
@@ -204,14 +204,14 @@
                         </h3>
                         <p class="text">
                           <span>
-                            GENERA USUARIOS E INGRESOS <br class="desktopTabletElement">
+                            GENERA USUARIOS E INGRESOS <br class="DT_e">
                             PARA TU TECNOLOGÍA
                           </span>
                         </p>
                         <p class="text">
                           <span class="greenBlueColor">Tu negocio es:</span> <br class="space">
-                          Desarrollador de software <br class="desktopTabletElement">
-                          Integrador de aplicaciones <br class="desktopTabletElement">
+                          Desarrollador de software <br class="DT_e">
+                          Integrador de aplicaciones <br class="DT_e">
                           Implementación tecnológica
 
                           <br class="space"><br class="space">
