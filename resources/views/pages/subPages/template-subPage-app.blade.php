@@ -41,56 +41,34 @@
 
                                 <div class="containElements row threeCol">
 
-                                    <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
-
-                                        <div class="containerImage">
-                                            <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta"
-                                                src="{{ App::setFilePath('/assets/images/person/am/am_yellow_circle.png') }}"
-                                                loading="lazy">
-                                        </div>
-
-                                    </div>
-
                                     <div class="ele ele2 col-md-12 col-lg-7">
+
                                         <h1 class="principalBigTitle blackColor">
-
-                                            <span>Toma mejores decisiones</span> <br class="space">
-                                            con reportes que creas en <br class="space">
-                                            minutos dentro de Escala
-
+                                            <span>
+                                                Acelera tus ventas estés donde estés con la
+                                            </span> <br class="space">
+                                            App móvil de Escala
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
-                                            Nuestro CRM facilita obtener la información <br class="space">
-                                            que necesitas para escalar tu PYME
+                                            Accede a tu CRM desde el celular descargando <br class="DT_e">
+                                            la aplicación gratuita de Escala
                                         </p>
 
-                                        @php
-                                            $elements = [
-                                                [
-                                                    'text' => '<strong>Software</strong> completo <br class="space"> y fácil de usar',
-                                                ],
-                                                [
-                                                    'text' => '<strong>Entrenamiento</strong> <br class="space">
-                                                    estratégico y técnico',
-                                                ],
-                                                [
-                                                    'text' => '<strong>Acompañamiento</strong> <br class="space">
-                                                    personalizado',
-                                                ],
-                                            ];
-                                        @endphp
 
                                         <div class="features">
-                                            @foreach ($elements as $item)
                                                 <div class="element">
+
                                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon_check_orange.png') }}"
                                                         alt="" class="icon">
-                                                    <h5 class="text">
-                                                        {!! $item['text'] !!}
-                                                    </h5>
+
                                                 </div>
-                                            @endforeach
+                                                <div class="element">
+
+                                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon_check_orange.png') }}"
+                                                        alt="" class="icon">
+
+                                                </div>
                                         </div>
 
                                         <div class="elements hideOnmobile hideOnTablet">
@@ -122,6 +100,16 @@
                                                 </div>
                                             @endforeach
 
+                                        </div>
+
+                                    </div>
+
+                                         <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
+
+                                        <div class="containerImage">
+                                            <img alt="Ilustración app escala para dispositivos móviles"
+                                                src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_0.png') }}"
+                                                loading="lazy">
                                         </div>
 
                                     </div>
@@ -168,8 +156,8 @@
 
                                 <div class="image">
                                     <div class="containerImage">
-                                        <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta"
-                                            src="{{ App::setFilePath('/assets/images/person/am/am_yellow_circle.png') }}"
+                                        <img alt="Ilustración app escala para dispositivos móviles"
+                                            src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_0.png') }}"
                                             loading="lazy">
                                     </div>
 
