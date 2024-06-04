@@ -250,7 +250,8 @@
                 'img' => App::setFilePath('/assets/images/gifs/1.Arrastra y suelta_emailMkt.gif'),
                 'title' => 'Arrastra <span>y suelta</span>',
                 'text' => '
-     DT_e           Crea increíbles emails que cautivan a tu audiencia en <br class="DT_eDT_e                    cualquier dispositivo con un constructor de emails muy fácil <br class="DT_e">
+     DT_e           Crea increíbles emails que cautivan a tu audiencia en <br class="DT_e">
+                    cualquier dispositivo con un constructor de emails muy fácil <br class="DT_e">
                     de usar y plantillas pre-diseñadas.
                 ',
                 'enableButton' => false,
@@ -303,8 +304,7 @@
                     <span>Automatiza flujos</span> de email y escala <br class="DT_ee>
                     operaciones
                 ',
-                'text' =>
-   DT_e             '
+                'text' => '
                     Logra que tus contactos reciban tus mensajes en el <br class="DT_e">
                     momento oportuno ¡sin tener que estar pendiente de <br class="DT_e">
                     enviarlos! Envía emails <br class="space">
@@ -385,7 +385,7 @@
                 'classSection' => 'landing_emailMarketingCampaigns_2023_5',
                 'enableTitle' => false,
                 'titlePrincipal' => null,
-          DT_e  'subTitlePrincipal' => null,
+                'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/5.responsive_emailMkt.gif'),
                 'title' => '
                     ¡Logra que tus emails se vean bien en <DT_e>todos <br class="DT_e">
