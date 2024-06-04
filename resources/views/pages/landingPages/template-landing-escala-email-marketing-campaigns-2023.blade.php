@@ -15,8 +15,8 @@
             'text' => '
                         <span class="whiteColor">
                             Logra que tu mensaje sea <br class="DT_e">
-                            escuchado y que tu negocio crDT_e <br class="DT_e">
-                            con nuestrDT_eataforma todo-en-<br class="DT_e">
+                            escuchado y que tu negocio crezca <br class="DT_e">
+                            con nuestra plataforma todo-en-<br class="DT_e">
                             uno de email marketing.
                         </span>
                     ',
@@ -89,8 +89,8 @@
                         <p class="principalBigText grayColorTexts">
 
                         <span class="whiteColor">
-                            Logra qDT_eu mensaje sea escuchado y que tu <br class="DT_e">
-                  DT_e      negocio crezca con nuestra plataforma todo-<br class="DT_e">
+                            Logra que tu mensaje sea escuchado y que tu <br class="DT_e">
+                            negocio crezca con nuestra plataforma todo-<br class="DT_e">
                             en-uno de email marketing.
                         </span>
 
@@ -221,16 +221,6 @@
                 </section>
 
 
-           {{--         <section class="innerSectionElement sct2">
-
-                           <div class="containElements">
-
-
-
-                           </div>
-
-                       </section> --}}
-
             </div>
 
 
@@ -250,7 +240,8 @@
                 'img' => App::setFilePath('/assets/images/gifs/1.Arrastra y suelta_emailMkt.gif'),
                 'title' => 'Arrastra <span>y suelta</span>',
                 'text' => '
-     DT_e           Crea increíbles emails que cautivan a tu audiencia en <br class="DT_eDT_e                    cualquier dispositivo con un constructor de emails muy fácil <br class="DT_e">
+                    Crea increíbles emails que cautivan a tu audiencia en <br class="DT_e">
+                    cualquier dispositivo con un constructor de emails muy fácil <br class="DT_e">
                     de usar y plantillas pre-diseñadas.
                 ',
                 'enableButton' => false,
@@ -270,14 +261,14 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificiDT_emailMkt.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/2.Crea-con-inteligencia-artificial_emailMkt.gif'),
                 'title' => '
                     Crea contenido en segundos con <br class="DT_e">
                     <span>Inteligencia Artificial</span>
-          DT_e  ',
+                ',
                 'text' => '
-                    Bríndale a Escala un par de palabras cDT_e y tu intención <br class="DT_e">
-                    para que te proponga opcioDT_eque puedas elegir y revisar <br class="DT_e">
+                    Bríndale a Escala un par de palabras clave y tu intención <br class="DT_e">
+                    para que te proponga opciones que puedas elegir y revisar <br class="DT_e">
                     si lo necesitas. ¡Esto funciona para tanto para el cuerpo del <br class="DT_e">
                     email como para el asunto!
                 ',
@@ -298,13 +289,13 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setDT_ePath('/assets/images/gifs/3.Automatizaciones_emailMkt.gif'),
+                'img' => App::setFilePath('/assets/images/gifs/3.Automatizaciones_emailMkt.gif'),
                 'title' => '
-                    <span>Automatiza flujos</span> de email y escala <br class="DT_ee>
+                    <span>Automatiza flujos</span> de email y escala <br class="DT_e">
                     operaciones
                 ',
                 'text' =>
-   DT_e             '
+                    '
                     Logra que tus contactos reciban tus mensajes en el <br class="DT_e">
                     momento oportuno ¡sin tener que estar pendiente de <br class="DT_e">
                     enviarlos! Envía emails <br class="space">
@@ -342,7 +333,7 @@
                 'classSection' => 'landing_emailMarketingCampaigns_2023_4',
                 'enableTitle' => false,
                 'titlePrincipal' => null,
-                'subTitDT_eincipal' => null,
+                'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/4.Analiticas-small_emailMkt.gif'),
                 'title' => '
                     Conoce el resultado y <span>optimiza tus <br class="DT_e">
@@ -385,12 +376,12 @@
                 'classSection' => 'landing_emailMarketingCampaigns_2023_5',
                 'enableTitle' => false,
                 'titlePrincipal' => null,
-          DT_e  'subTitlePrincipal' => null,
+                'subTitlePrincipal' => null,
                 'img' => App::setFilePath('/assets/images/gifs/5.responsive_emailMkt.gif'),
                 'title' => '
-                    ¡Logra que tus emails se vean bien en <DT_e>todos <br class="DT_e">
+                    ¡Logra que tus emails se vean bien en <span>todos <br class="DT_e">
                         los dispositivos!
-   DT_e             </span>
+                    </span>
                 ',
                 'text' => '
                     Encontrarás que Escala facilita el diseño responsive para <br class="DT_e">
@@ -414,11 +405,11 @@
                 'enableTitle' => false,
                 'titlePrincipal' => null,
                 'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/asDT_e/images/illustrations/others/email_mkt_spam.png'),
+                'img' => App::setFilePath('/assets/images/illustrations/others/email_mkt_spam.png'),
                 'title' => '
-            DT_e   <span>Dile ¡Adiós!</span> a la bandeja de spam
+                   <span>Dile ¡Adiós!</span> a la bandeja de spam
                 ',
-                'texDT_e> '
+                'text' => '
                     Escala tiene la tecnología más avanzada y un equipo de <br class="DT_e">
                     expertos que te guían para evitar que tus emails reboten o <br class="DT_e">
                     caigan en la bandeja de spam. Así logras que tus emails <br class="DT_e">
@@ -444,8 +435,8 @@
                     <div class="containElements">
 
                         <h2 class="title">
-                            <span>Descubre por ti mismo la <br class="M_e"> mejor</span> <br class="DT_e">
-                            herramienta de email <br class="M_e"> marketing
+                            <span>Descubre por ti mismo la <br class="mobileSmallElement"> mejor</span> <br class="DT_e">
+                            herramienta de email <br class="mobileSmallElement"> marketing
                         </h2>
 
                         <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -624,14 +615,14 @@
                         <div class="row">
                             <div class="col-md-12 col-lg-5 column-img">
                                 <div class="img-container">
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/12-home2023.pnDT_e!!}" loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/12-home2023.png') !!}" loading="lazy">
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-7 column-text">
                                 <p>
-                           DT_e     “En mi experiencia, <span>
-                                        la venta se logra luego <bDT_eass="DT_e">
-                                        de varios contactos persoDT_ezados.
+                                    “En mi experiencia, <span>
+                                        la venta se logra luego <br class="DT_e">
+                                        de varios contactos personalizados.
                                     </span> La <br class="DT_e">
                                     gestión inteligente de campañas de emails <br class="DT_e">
                                     es una <span>estrategia fundamental</span> para <br class="DT_e">
@@ -665,13 +656,14 @@
 
                         <h2 class="primaryTitle blackColor">
                             ¿Nuevo en email marketing? <br class="space">
-             DT_e           <span>¡No te preocupes, te entrenamos!</span>
-                        </hDT_e
+                            <span>¡No te preocupes, te entrenamos!</span>
+                        </h2>
+
                     </div>
 
                 </section>
 
-                <secDT_e class="innerSectionElement sct2">
+                <section class="innerSectionElement sct2">
 
                     <div class="containElements">
 
@@ -741,7 +733,7 @@
                 App::setFilePath('/assets/images/illustrations/others/email_mkt_review_3.png')]
                 ],
             ];
-DT_e    @endphp
+        @endphp
         @reviews_sliders_T1($parameters)
         @endreviews_sliders_T1
  --}}
@@ -820,7 +812,7 @@ DT_e    @endphp
                                                 'title' => 'Potente herramienta de email marketing',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_0.png'),
 
-              DT_e                          ],
+                                            ],
                                             [
                                                 'title' => 'Servicio de Acompañamiento VIP',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_1.png'),
@@ -833,7 +825,8 @@ DT_e    @endphp
                                             ],
                                             [
                                                 'title' => 'Todo 100% en español',
-                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_3.png')DT_e
+                                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_3.png'),
+
                                             ],
                                             [
                                                 'title' => 'Educación de negocio de primera',
@@ -841,20 +834,20 @@ DT_e    @endphp
 
                                             ],
                                             [
-                                                'title' => 'Implementamos parte de la primera <br class=DT_et"> campaña por ti ',
+                                                'title' => 'Implementamos parte de la primera <br class="DT_e"> campaña por ti ',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_lps_5.png'),
 
                                             ]
                                         ];
                                     @endphp
 
-                                    <ul class=elements selectorInfoo">
+                                    <ul class="elements selectorInfo">
 
                                         @foreach ($elements as $item)
-                                            <li class=element  "
+                                            <li class="element "
                                                 info_index="{!! $loop->index !!}">
-                                                <div class=iconn">
-                                                    <div class=containerImagee">
+                                                <div class="icon">
+                                                    <div class="containerImage">
                                                         <img src="{!! $item['icon'] !!}" loading="lazy">
                                                     </div>
                                                 </div>
@@ -878,19 +871,19 @@ DT_e    @endphp
 
             <section
             style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_emailMark_3_2.svg') !!})"
-        class=w-full customSection sectionParent landing_emailMarketingCampaigns_2023_133'>
+        class='w-full customSection sectionParent landing_emailMarketingCampaigns_2023_13'>
 
-            <div class=section-roww">
+            <div class="section-row">
 
-                <section class=innerSectionElement sct0  '>
-                      <div class=containElementss">
+                <section class='innerSectionElement sct0 '>
+                      <div class="containElements">
 
-                        <h2 class=titlee">
-                           Acelera el crecimiento de <br class=spacee">
+                        <h2 class="title">
+                           Acelera el crecimiento de <br class="space">
                             tu negocio
                         </h2>
 
-                        <a class= secondaryButton hoverInEffect openPopUpButton popup-general-demo-20222">
+                        <a class=" secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                             Conoce Escala
                         </a>
 
