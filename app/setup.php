@@ -188,6 +188,11 @@ add_action('wp_enqueue_scripts', function () {
 
         //  SUB PAGES----------------------------------------------------
 
+        // --- Template subpage app
+        if (is_page_template('views/template-subPage-app.blade.php')) {
+            wp_enqueue_style('template-subPage-app.css', asset_path('styles/pages/subPages/subPage_app.css'), false, THEME_VERSION);
+        }
+
         if (is_page_template('views/template-subPage-marketing-ventas-automat-2024.blade.php')) {
             wp_enqueue_style('subPage_ventas_automat_2024.css', asset_path('styles/pages/subPages/subPage_ventas_automat_2024.css'), false, THEME_VERSION);
         }
