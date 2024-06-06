@@ -45,6 +45,7 @@
                                             <span>
                                                 Acelera tus ventas estés
                                                 <br class="DT_e">
+                                                <!-- <br class="space"> -->
                                                 donde estés con la
                                             </span> <br class="space">
                                             App móvil de Escala
@@ -209,7 +210,7 @@
         @php
         $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'escala_app_15',
+        'classSection' => 'escala_app_14',
         'enableTitle' => true,
         'titlePrincipal' => '
         <span>No pierdas oportunidades de negocio
@@ -239,77 +240,68 @@
         $parameters = [
         'type' => 'backgroundColor',
         'classSection' => 'escala_app_15',
-        'enableTitle' => true,
-        'titlePrincipal' => '
-        <span>No pierdas oportunidades de negocio
-        </span>
-        por no tener acceso a una computadora
-        ',
         'overlay' => false,
         'enableButton' => false,
         'elements' => [
         [
-        'img' => App::setFilePath('/assets/images/illustrations/others/landing_crm_aut_wa_03.png'),
+        'img' => App::setFilePath('/assets/images/appEscala/app_image_5.png'),
         'title' => '
-        Agilizamos la <br class="space">
-        implementación
+        Crea y actualiza <br class="space">
+        contactos
         ',
         'text' => '
-        adaptando el CRM a tus <br class="space">
-        necesidades.
+        Organiza, y accede fácilmente a la <br class="space">
+        información de tus leads y clientes.
         ',
         'enableButton' => false,
-        'background_item' => App::setFilePath(
-        '/assets/images/illustrations/others/card_background_landings.png',
-        ),
+        'background_item' => false,
         ],
         [
-        'img' => App::setFilePath('/assets/images/illustrations/others/landing_crm_aut_wa_04.png'),
+        'img' => App::setFilePath('/assets/images/appEscala/app_image_6.png'),
         'title' => '
-        Entrenamos a líderes <br class="space">
-        y equipos en
+        Gestiona oportunidades
+        <br class="space">
+        en tu pipeline
         ',
         'text' => '
-        el uso de la plataforma y <br class="space">
-        nuestra metodología <br class="space">
-        probada de crecimiento.
+        Haz seguimiento paso a paso del
+        <br class="space">
+        proceso comercial y toma acciones
+        <br class="space">
+        para cerrar más y mejor.
         ',
         'enableButton' => false,
-        'background_item' => App::setFilePath(
-        '/assets/images/illustrations/others/card_background_landings.png',
-        ),
-        ],
-        [
-        'img' => App::setFilePath('/assets/images/illustrations/others/landing_crm_aut_wa_05.png'),
+        'background_item' => false,
+        ],[
+        'img' => App::setFilePath('/assets/images/appEscala/app_image_7.png'),
         'title' => '
-        Asignamos un <br class="spa">
-        gerente de éxito
+        Programa tareas <br class="space">
+        y actividades
         ',
         'text' => '
-        que guía tus acciones <br class="space">
-        para que aproveches al <br class="space">
-        máximo Escala.
+        Crea, gestiona y recibe recordatorios
+        <br class="space">
+        de tus tareas y actividades ¡para que
+        <br class="space">
+        no se escape ningún lead!
         ',
         'enableButton' => false,
-        'background_item' => App::setFilePath(
-        '/assets/images/illustrations/others/card_background_landings.png',
-        ),
-        ],
-        [
-        'img' => App::setFilePath('/assets/images/illustrations/others/landing_crm_aut_wa_06.png'),
+        'background_item' => false,
+        ],[
+        'img' => App::setFilePath('/assets/images/appEscala/app_image_8.png'),
         'title' => '
-        Chat de soporte <br class="space">
-        en vivo
+        Sincronización en <br class="space">
+        tiempo real 
         ',
         'text' => '
-        que atiendes tus preguntas <br class="space">
-        y necesidades técnicas <br class="space">
-        oportunamente.
+        Actualiza datos desde cualquier 
+        <br class="space">
+        dispositivo y mantén toda tu 
+        <br class="space">
+        información al día.
         ',
         'enableButton' => false,
-        'background_item' => App::setFilePath(
-        '/assets/images/illustrations/others/card_background_landings.png',
-        ),
+        'background_item' => false,
         ],
         ],
         ];
@@ -325,10 +317,16 @@
             @endcontain_multiple_cards_T2
 
             <div class="overlay" style="background-image: url({!! App::setFilePath('/assets/images/banners/escala_app_3.svg') !!})">
+
+
             </div>
 
         </div>
-
+        <div class="btnCenter">
+            <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                Solicita un demo gratuito
+            </a>
+        </div>
 
 
 
@@ -396,7 +394,7 @@
 
                                         @php
                                         $videoEmbed = App::setFilePath('/assets/videos/Testimonio_Miguel_Quisnancela_.mp4');
-                                        $videoCover = App::setFilePath('/assets/images/banners/bg-video-usar-app.png');
+                                        $videoCover = App::setFilePath('/assets/images/appEscala/bg-video-usar-app.png');
                                         @endphp
 
                                         @if (isset($videoEmbed) && $videoEmbed != null)
@@ -431,6 +429,7 @@
             </div>
 
         </section>
+
 
 
 
