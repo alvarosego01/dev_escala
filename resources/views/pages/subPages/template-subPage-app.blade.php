@@ -44,7 +44,7 @@
                                         <h1 class="principalBigTitle blackColor">
                                             <span>
                                                 Acelera tus ventas estés
-                                                <br class="DT_e">
+                                                <br class="space">
                                                 <!-- <br class="space"> -->
                                                 donde estés con la
                                             </span> <br class="space">
@@ -52,7 +52,7 @@
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
-                                            Accede a tu CRM desde el celular descargando <br class="DT_e">
+                                            Accede a tu CRM desde el celular descargando <br class="space">
                                             la aplicación gratuita de Escala
                                         </p>
 
@@ -207,6 +207,8 @@
 
         </section>
 
+
+
         @php
         $parameters = [
         'type' => 'backgroundColor',
@@ -234,6 +236,35 @@
 
         </div>
 
+        <section class="sectionParent customSection escala_app_2">
+            <div style="background-image: url('{!! App::setFilePath('/assets/images/appEscala/app_bg_1.svg') !!}')" class="backgroundFull">
+                <div class="section-row">
+                    <section class="innerSectionElement sct2">
+                        <div class="groupElements row">
+                            <div class="image col-md-12 col-lg-4">
+                                <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images/appEscala/app_image_3.png') !!}" loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/appEscala/app_image_4.png') !!}" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="info col-md-12 col-lg-8 sectionTexts textRight">
+                                <h3 class="secondaryTitle">
+                                    Accede al CRM de Escala<br class="space">
+                                    desde cualquier lugar y en <br class="space">
+                                    cualquier momento
+                                    <br class="space">
+                                    <br class="space">
+                                    <span>Escanea el código QR para descargar la<br class="space">
+                                        aplicación
+                                        directamente desde la App Store.</span>
+                                </h3>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
 
 
         @php
@@ -291,12 +322,12 @@
         'img' => App::setFilePath('/assets/images/appEscala/app_image_8.png'),
         'title' => '
         Sincronización en <br class="space">
-        tiempo real 
+        tiempo real
         ',
         'text' => '
-        Actualiza datos desde cualquier 
+        Actualiza datos desde cualquier
         <br class="space">
-        dispositivo y mantén toda tu 
+        dispositivo y mantén toda tu
         <br class="space">
         información al día.
         ',
@@ -433,27 +464,196 @@
 
 
 
+        @php
+               $desk_reviews = [
+                   [
+                       'area' => 'Finanzas',
+                       'text' => '
+                        <strong>“Gracias a Escala ahorramos 70% del tiempo invertido</strong> por el equipo comercial en tareas operativas y aumentamos 20% la cantidad de clientes.”
+                        ',
+                       'logo' => App::setFilePath('/assets/images/logos/logo_saeta.png'),
+                       'name' => 'Claudio Radovich, Fundador',
+                   ],
+                   [
+                       'area' => 'Consultoría',
+                       'text' => '
+                        <strong>“Logramos 2X nuestra facturación</strong> en menos de 6 meses y multiplicar 4X los nuevos leads gracias a Escala.”
+                        ',
+                       'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
+                       'name' => 'William Ávila, CEO',
+                   ],
+                   [
+                       'area' => 'Salud y bienestar',
+                       'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
+                       'logo' => App::setFilePath('/assets/images/logos/logo_rgg.png'),
+                       'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
+                   ],
+               ];
+
+           @endphp
+
+
+           <section style="background-image: url({!! App::setFilePath('/assets/images/appEscala/app_bg_2.svg') !!})"
+               class="sectionParent customSection implementacion-2023-7">
+
+               <div class="section-row">
+
+                   <section class="innerSectionElement sct1">
+
+                       <div class="row">
+
+                           <div class="slideshowCards col-md-12 col-lg-9">
+                               <div class="containElements">
+
+                                   <div id="carousel-testimonials-desktop" class="owl-carousel owl-theme">
+
+                                       @if (isset($desk_reviews) && $desk_reviews != null)
+                                           @foreach ($desk_reviews as $index => $item)
+                                               <div class="item @if ($index === array_key_first($desk_reviews)) active @endif ">
+
+                                                   <div class="testimonial">
+
+                                                       <div class="containElements">
+
+                                                           <div class="area">
+                                                               <h3>
+                                                                   {!! $item['area'] !!}
+                                                               </h3>
+                                                           </div>
+
+                                                           <div class="quote">
+                                                               <div class="containerImage">
+                                                                   <img src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
+                                                               </div>
+                                                           </div>
+
+                                                           <p class="text">
+                                                               {!! $item['text'] !!}
+                                                           </p>
+
+                                                           <div class="byCompany">
+                                                               <div class="logo">
+                                                                   <div class="containerImage">
+                                                                       <img alt="TrustPilot review"
+                                                                           src="{!! $item['logo'] !!}"
+                                                                           alt="" loading="lazy">
+                                                                   </div>
+                                                               </div>
+                                                               <div class="data">
+                                                                   <span class="name">
+                                                                       {!! $item['name'] !!}
+                                                                   </span>
+                                                                   <div class="stars">
+                                                                       <div class="containerImage">
+                                                                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}"
+                                                                               loading="lazy">
+                                                                       </div>
+                                                                   </div>
+                                                               </div>
+                                                           </div>
+
+                                                       </div>
+
+
+                                                   </div>
+
+
+                                               </div>
+                                           @endforeach
+                                       @endif
+
+                                   </div>
+
+                               </div>
+                           </div>
+
+                           <div class="info col-md-12 col-lg-3">
+                               <div class="containElements">
+                                   <img class="img-otto" src="{!! App::setFilePath('/assets/images/illustrations/others/01-implementacion-2023.png') !!}" loading="lazy">
+                                   <h2 class="primaryTitle blackColor">
+                                       Nuestros clientes lo<br class="space">
+                                       comprueban.<br class="space">
+                                       <span>Casos de éxito</span>
+                                   </h2>
+
+                               </div>
+                           </div>
+
+                       </div>
+
+
+                   </section>
+
+
+               </div>
+
+               {{-- <img src="{!! App::setFilePath('/assets/images/banners/background_space_4.png') !!}" alt="" class="overlaySpace"> --}}
+
+
+           </section>
+
+           <script>
+               jQuery('.owl-carousel').owlCarousel({
+                   loop: true,
+                   margin: 10,
+                   nav: true,
+                   responsive: {
+                       0: {
+                           items: 1
+                       },
+                       768: {
+                           items: 1
+                       },
+                       1000: {
+                           items: 3
+                       },
+                       1250: {
+                           items: 3
+                       },
+                       1500: {
+                           items: 4
+                       }
+                   }
+               })
+           </script>
+
+
+
+
+
         <section class="sectionParent customSection escala_app_19">
-            <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/landing_crm_aut_wa_bg_05.svg') !!}')" class="backgroundFull">
+            <div style="background-image: url('{!! App::setFilePath('/assets/images/appEscala/app_bg_3.svg') !!}')" class="backgroundFull">
                 <div class="section-row">
                     <section class="innerSectionElement sct2">
                         <div class="groupElements row">
+                            <div class="info col-md-12 col-lg-8 sectionTexts textRight">
+                                <h3 class="secondaryTitle">
+                                    <span>Descarga hoy mismo la
+                                        <br class="space">
+                                    </span>App móvil de Escala
+                                    <br class="space">
+                                    <span>y lleva el éxito de tu negocio contigo.</span>
+                                </h3>
+                                <div class="features">
+                                    <div class="element">
 
+                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_1.png') }}" alt="" class="icon">
+
+                                    </div>
+                                    <div class="element">
+
+                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_2.png') }}" alt="" class="icon">
+
+                                    </div>
+                                </div>
+                            </div>
                             <div class="image col-md-12 col-lg-4">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing_crm_aut_wa_08.png') !!}" loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/appEscala/app_image_9.png') !!}" loading="lazy">
                                 </div>
                             </div>
 
-                            <div class="info col-md-12 col-lg-8 sectionTexts textRight">
-                                <h3 class="secondaryTitle">
-                                    <span>Potencia las operaciones de</span> <br class="space">
-                                    tu negocio y logra tus metas
-                                </h3>
-                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                    Conoce Escala
-                                </a>
-                            </div>
+
 
                         </div>
                     </section>
