@@ -477,7 +477,7 @@
                         height: 25px
 
                 .hashTitle
-                    color: #FFFFFF
+                    color: #00506E
                     text-align: center
                     font-family: Nunito
                     font-size: 22px
@@ -514,7 +514,6 @@
                     span
                         line-height: 1
                         // font-weight: 600
-                        color: #3ADF56
                         @include responsivo(general)
                             margin: 0
                             margin-right: 5px
@@ -528,7 +527,7 @@
                     position: relative
                     &::after
                         content: ''
-                        border-right: 1px solid white
+                        border-right: 1px solid #00506E
                         margin: auto
                         position: absolute
                         left: 0
@@ -542,7 +541,7 @@
                             height: 1
                             width: 100px
                             border-right: none
-                            border-bottom: 1px solid white
+                            border-bottom: 1px solid #00506E
                             margin: auto
                         @include responsivo(general)
                             height: 25px
@@ -552,7 +551,7 @@
                         height: 20px
 
                 .sub
-                    color: white
+                    color: #00506E
                     font-family: Nunito
                     font-size: 18px
                     font-style: normal
@@ -597,8 +596,8 @@
 
                 a
                     font-weight: 600!important
-                    color: #2C4857!important
-                    background-color: #CAF1F3!important
+                    color: white!important
+                    background-color: #00506E!important
                     // height: fit-content!important
                     @include responsivo(telefonoTable)
                         margin: 10px auto
@@ -615,8 +614,7 @@
                         padding: 7.5px 20px!important
                         margin: 0 25px
                         left: 25px
-                    @include responsivo(smallPcTablet)
-                        // padding: 5px 15px!important
+
                     @include responsivo(resto)
                         margin: 0 25px
                         font-size: 18px!important
@@ -700,6 +698,8 @@
                     font-weight: 500
                     line-height: 1
                     display: block
+                    strong
+                        padding-right: 2.5px
                     @include responsivo(telefonoTable)
                         font-size: 14px
                         margin-left: auto
