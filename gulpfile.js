@@ -28,7 +28,7 @@ gulp.task('browserSync-Local', () => {
 
         notify: true,
         injectChanges: true,
-        proxy: "localhost/escala/",
+        proxy: "localhost/wordpress/",
         files: ['dist/styles/**'],
         port: 3025,
         serveStatic: ["assets/css"],
