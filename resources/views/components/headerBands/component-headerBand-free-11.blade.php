@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/headerband_lastNews.png') !!})"
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/free_bg.png') !!})"
     class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
@@ -12,11 +12,11 @@
                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_headerband_freeclass.png') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-                        Dispara tus ventas con un CRM y automatización
+                        <strong>Multiplica los alumnos </strong> para tu empresa educativa
                     </span>
                     <div class="separator"></div>
                     <span class="sub">
-                        Masterclass gratuita - 23 de Mayo
+                        Masterclass gratuita - 12 de Junio
                     </span>
 
                 </div>

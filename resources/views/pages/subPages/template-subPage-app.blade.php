@@ -425,7 +425,7 @@
                                     <div class="ele video col-md-12" style=".vjs-big-play-button{display:none!important}">
 
                                         @php
-                                        $videoEmbed = App::setFilePath('/assets/videos/Testimonio_Miguel_Quisnancela_.mp4');
+                                        $videoEmbed = App::setFilePath('/assets/videos/app_escala_video.mp4');
                                         $videoCover = App::setFilePath('/assets/images/appEscala/bg-video-usar-app.png');
                                         @endphp
 
