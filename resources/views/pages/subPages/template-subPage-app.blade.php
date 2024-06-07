@@ -59,14 +59,15 @@
 
                                         <div class="features">
                                             <div class="element">
-
-                                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_1.png') }}" alt="" class="icon">
-
+                                                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.escala.crm.app&pli=1">
+                                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_1.png') }}" alt="" class="icon">
+                                                </a>
                                             </div>
                                             <div class="element">
+                                                <a target="_blank" href="https://apps.apple.com/ar/app/escala-crm/id6499237262">
 
-                                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_2.png') }}" alt="" class="icon">
-
+                                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_2.png') }}" alt="" class="icon">
+                                                </a>
                                             </div>
                                         </div>
 
@@ -237,7 +238,7 @@
         </div>
 
         <section class="sectionParent customSection escala_app_2">
-            <div  style="background-image: url('{{ App::setFilePath('/assets/images/appEscala/app_bg_1.svg') }}')"  class="backgroundFull">
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/appEscala/app_bg_1.svg') }}')" class="backgroundFull">
                 <div class="section-row">
                     <section class="innerSectionElement sct2">
                         <div class="groupElements row">
@@ -593,10 +594,10 @@
 
                                 </h2>
                                 <p class="primaryText">
-                                el CRM de Escala es el más completo
+                                    el CRM de Escala es el más completo
                                 </p>
                                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Prueba Gratis
+                                    Prueba Gratis
                                 </a>
                             </div>
                         </div>
@@ -660,14 +661,16 @@
                                 </h3>
                                 <div class="features">
                                     <div class="element">
+                                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.escala.crm.app&pli=1">
 
-                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_1.png') }}" alt="" class="icon">
-
+                                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_1.png') }}" alt="" class="icon">
+                                        </a>
                                     </div>
                                     <div class="element">
+                                        <a target="_blank" href="https://apps.apple.com/ar/app/escala-crm/id6499237262">
 
-                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_2.png') }}" alt="" class="icon">
-
+                                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/app_image_2.png') }}" alt="" class="icon">
+                                        </a>
                                     </div>
                                 </div>
                             </div>

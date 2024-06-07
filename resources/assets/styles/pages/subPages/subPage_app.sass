@@ -605,13 +605,11 @@
         margin-bottom: 0
     .backgroundFull
         align-content: center
-        background-position: 45% center
+        background-position: 46% center
         background-repeat: no-repeat
         background-size: cover
         overflow: visible
-        padding-bottom: 0
-        padding-bottom: 0
-         margin-bottom: 60px
+        margin-bottom: 80px
         @include responsivo(telefonoTable)
             background-position: center
             padding: 0!important
@@ -622,6 +620,7 @@
             padding-bottom: 0!important
         @include responsivo(general)
             padding-top: 0px
+            background-position: 46% center
         @include responsivo(resto)
             padding: 0px
 
@@ -630,6 +629,7 @@
         flex-direction: column
         position: relative
         z-index: 5
+        height: 587px
         @include responsivo(telefonoTable)
             width: 100%
         @include responsivo(pcMedio)
@@ -638,16 +638,21 @@
             padding-bottom: 0
         @include responsivo(general)
             width: 100% !important
-            max-width: 1240px !important
+            max-width: 990px !important
             height: 587px
             display: flex
         @include responsivo(smallPcTablet)
             width: 100%!important
-            max-width: 985px!important
-
+            max-width: 1100px!important
+            height: 587px
+            display: flex
+            justify-content: center
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1240px!important
+            max-width: 1100px!important
+            height: 587px
+            display: flex
+            justify-content: center
 
         .innerSectionElement.sct2
             width: 100%
@@ -680,7 +685,7 @@
                     @include responsivo(resto)
                         height: auto
                         position: relative
-                        top: 43px
+                        top: 21px
 
                     .secondaryTitle
                         font-weight: 700
@@ -767,6 +772,9 @@
                         gap: 25px
                         margin-bottom: 0
                         padding-bottom: 0
+                        position: relative
+                        top: 30px
+                        left: 34px
                         padding: 0
                         @include responsivo(general)
 
@@ -850,7 +858,7 @@
         margin-top: 0px
     @include responsivo(resto)
         padding-top: 0px
-        margin-top: -110px
+        margin-top: -130px
     .section-row
         @include responsivo(telefonoTable)
             width: 92.5%
