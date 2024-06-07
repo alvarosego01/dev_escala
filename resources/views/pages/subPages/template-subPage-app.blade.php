@@ -237,7 +237,7 @@
         </div>
 
         <section class="sectionParent customSection escala_app_2">
-            <div style="background-image: url('{!! App::setFilePath('/assets/images/appEscala/app_bg_1.svg') !!}')" class="backgroundFull">
+            <div  style="background-image: url('{{ App::setFilePath('/assets/images/appEscala/app_bg_1.svg') }}')"  class="backgroundFull">
                 <div class="section-row">
                     <section class="innerSectionElement sct2">
                         <div class="groupElements row">
@@ -407,7 +407,7 @@
         </section>
 
 
-        <section class="customSection sectionParent escala_app_18">
+        <section class="customSection sectionParent escala_app_17">
 
             <div class="section-row">
 
@@ -464,158 +464,182 @@
 
 
 
+
         @php
-               $desk_reviews = [
-                   [
-                       'area' => 'Finanzas',
-                       'text' => '
-                        <strong>“Gracias a Escala ahorramos 70% del tiempo invertido</strong> por el equipo comercial en tareas operativas y aumentamos 20% la cantidad de clientes.”
-                        ',
-                       'logo' => App::setFilePath('/assets/images/logos/logo_saeta.png'),
-                       'name' => 'Claudio Radovich, Fundador',
-                   ],
-                   [
-                       'area' => 'Consultoría',
-                       'text' => '
-                        <strong>“Logramos 2X nuestra facturación</strong> en menos de 6 meses y multiplicar 4X los nuevos leads gracias a Escala.”
-                        ',
-                       'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
-                       'name' => 'William Ávila, CEO',
-                   ],
-                   [
-                       'area' => 'Salud y bienestar',
-                       'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
-                       'logo' => App::setFilePath('/assets/images/logos/logo_rgg.png'),
-                       'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
-                   ],
-               ];
+        $desk_reviews = [
+        [
+        'area' => 'Finanzas',
+        'text' => '
+        <strong>“Gracias a Escala ahorramos 70% del tiempo invertido</strong> por el equipo comercial en tareas operativas y aumentamos 20% la cantidad de clientes.”
+        ',
+        'logo' => App::setFilePath('/assets/images/logos/logo_saeta.png'),
+        'name' => 'Claudio Radovich, Fundador',
+        ],
+        [
+        'area' => 'Consultoría',
+        'text' => '
+        <strong>“Logramos 2X nuestra facturación</strong> en menos de 6 meses y multiplicar 4X los nuevos leads gracias a Escala.”
+        ',
+        'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
+        'name' => 'William Ávila, CEO',
+        ],
+        [
+        'area' => 'Salud y bienestar',
+        'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
+        'logo' => App::setFilePath('/assets/images/logos/logo_rgg.png'),
+        'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
+        ],
+        ];
 
-           @endphp
+        @endphp
 
+        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/app_bg_2.svg') !!})" class="customSection sectionParent escala_app_18 ">
 
-           <section style="background-image: url({!! App::setFilePath('/assets/images/appEscala/app_bg_2.svg') !!})"
-               class="sectionParent customSection implementacion-2023-7">
-
-               <div class="section-row">
-
-                   <section class="innerSectionElement sct1">
-
-                       <div class="row">
-
-                           <div class="slideshowCards col-md-12 col-lg-9">
-                               <div class="containElements">
-
-                                   <div id="carousel-testimonials-desktop" class="owl-carousel owl-theme">
-
-                                       @if (isset($desk_reviews) && $desk_reviews != null)
-                                           @foreach ($desk_reviews as $index => $item)
-                                               <div class="item @if ($index === array_key_first($desk_reviews)) active @endif ">
-
-                                                   <div class="testimonial">
-
-                                                       <div class="containElements">
-
-                                                           <div class="area">
-                                                               <h3>
-                                                                   {!! $item['area'] !!}
-                                                               </h3>
-                                                           </div>
-
-                                                           <div class="quote">
-                                                               <div class="containerImage">
-                                                                   <img src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
-                                                               </div>
-                                                           </div>
-
-                                                           <p class="text">
-                                                               {!! $item['text'] !!}
-                                                           </p>
-
-                                                           <div class="byCompany">
-                                                               <div class="logo">
-                                                                   <div class="containerImage">
-                                                                       <img alt="TrustPilot review"
-                                                                           src="{!! $item['logo'] !!}"
-                                                                           alt="" loading="lazy">
-                                                                   </div>
-                                                               </div>
-                                                               <div class="data">
-                                                                   <span class="name">
-                                                                       {!! $item['name'] !!}
-                                                                   </span>
-                                                                   <div class="stars">
-                                                                       <div class="containerImage">
-                                                                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}"
-                                                                               loading="lazy">
-                                                                       </div>
-                                                                   </div>
-                                                               </div>
-                                                           </div>
-
-                                                       </div>
+            <div class="section-row">
 
 
-                                                   </div>
+                <section class="innerSectionElement sct1">
 
 
-                                               </div>
-                                           @endforeach
-                                       @endif
+                    <div class="row">
 
-                                   </div>
+                        <div class="slideshowCards col-md-12 col-lg-9">
+                            <div class="containElements">
 
-                               </div>
-                           </div>
+                                <div id="carousel-testimonials-desktop" class="owl-carousel owl-theme">
 
-                           <div class="info col-md-12 col-lg-3">
-                               <div class="containElements">
-                                   <img class="img-otto" src="{!! App::setFilePath('/assets/images/illustrations/others/01-implementacion-2023.png') !!}" loading="lazy">
-                                   <h2 class="primaryTitle blackColor">
-                                       Nuestros clientes lo<br class="space">
-                                       comprueban.<br class="space">
-                                       <span>Casos de éxito</span>
-                                   </h2>
+                                    @if (isset($desk_reviews) && $desk_reviews != null)
+                                    @foreach ($desk_reviews as $index => $item)
+                                    <div class="item @if ($index === array_key_first($desk_reviews)) active @endif ">
 
-                               </div>
-                           </div>
+                                        <div class="testimonial">
 
-                       </div>
+                                            <div class="containElements">
+
+                                                <div class="area">
+                                                    <h3>
+                                                        {!! $item['area'] !!}
+                                                    </h3>
+                                                </div>
+
+                                                <div class="quote">
+                                                    <div class="containerImage">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
+
+                                                    </div>
+                                                </div>
+
+                                                <p class="text">
+                                                    {!! $item['text'] !!}
+                                                </p>
+
+                                                <div class="byCompany">
+                                                    <div class="logo">
+                                                        <div class="containerImage">
+                                                            <img alt="TrustPilot review" src="{!! $item['logo'] !!}" alt="" loading="lazy">
+                                                        </div>
+                                                    </div>
+                                                    <div class="data">
+                                                        <span class="name">
+                                                            {!! $item['name'] !!}
+                                                        </span>
+                                                        <div class="stars">
+                                                            <div class="containerImage">
+                                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
 
 
-                   </section>
+                                        </div>
 
 
-               </div>
+                                    </div>
+                                    @endforeach
+                                    @endif
 
-               {{-- <img src="{!! App::setFilePath('/assets/images/banners/background_space_4.png') !!}" alt="" class="overlaySpace"> --}}
 
 
-           </section>
+                                    {{-- <ol class="carousel-indicators">
 
-           <script>
-               jQuery('.owl-carousel').owlCarousel({
-                   loop: true,
-                   margin: 10,
-                   nav: true,
-                   responsive: {
-                       0: {
-                           items: 1
-                       },
-                       768: {
-                           items: 1
-                       },
-                       1000: {
-                           items: 3
-                       },
-                       1250: {
-                           items: 3
-                       },
-                       1500: {
-                           items: 4
-                       }
-                   }
-               })
-           </script>
+                            @if (isset($desk_reviews) && $desk_reviews != null)
+
+                            @foreach ($desk_reviews as $index => $item)
+
+                            <button type="button" data-bs-target="#carousel-testimonials-desktop" data-bs-slide-to="{{ $index }}" @if ($index === array_key_first($desk_reviews)) class="active" aria-current="true" @endif aria-label="Slide {{ $index }}"></button>
+
+                                    @endforeach
+
+                                    @endif
+
+                                    </ol> --}}
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="info col-md-12 col-lg-3">
+                            <div class="containElements">
+                                <h2 class="primaryTitle blackColor">
+
+                                    Nuestros clientes <br class="space">
+                                    <span>dicen por qué</span>
+
+                                </h2>
+                                <p class="primaryText">
+                                el CRM de Escala es el más completo
+                                </p>
+                                <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                Prueba Gratis
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </section>
+
+
+            </div>
+
+            {{-- <img src="{!! App::setFilePath('/assets/images/banners/background_space_4.png') !!}" alt="" class="overlaySpace"> --}}
+
+
+        </section>
+
+
+        <script>
+            jQuery('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 3
+                    },
+                    1250: {
+                        items: 3
+                    },
+                    1500: {
+                        items: 4
+                    }
+                }
+            })
+        </script>
+
 
 
 
