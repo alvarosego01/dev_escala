@@ -174,6 +174,10 @@ add_action('wp_enqueue_scripts', function () {
            if (is_page_template('views/template-landing-escala-homeLanding-2023.blade.php')) {
             wp_enqueue_style('landing_homePage_2023.css', asset_path('styles/pages/landingPages/landing_homePage_2023.css'), false, THEME_VERSION);
         }
+         // ---Landing escala CRM 2024 mejora
+         if (is_page_template('views/template-landing-escala-CRM-mejora-2024.blade.php')) {
+            wp_enqueue_style('landing_CRM_mejora_2024.css', asset_path('styles/pages/landingPages/landing_CRM_mejora_2024.css'), false, THEME_VERSION);
+        }
 
         // -------------------------------------- //
         //  FUNCTIONALITIES 2022
