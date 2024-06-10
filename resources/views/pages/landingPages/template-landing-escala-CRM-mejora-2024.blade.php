@@ -676,28 +676,28 @@
                     [
                     'img_alt' => null,
                     'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_landing.png'),
-                    'title' => 'Landing<br class="space"> Pages
+                    'title' => 'Landing<br class="space"> Pages<br class="space"><br class="space">
                     ',
                     'enableButton' => false,
                     ],
                     [
                     'img_alt' => null,
                     'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_email.png'),
-                    'title' => 'Email<br class="space"> Marketing
+                    'title' => 'Email<br class="space"> Marketing<br class="space"><br class="space">
                     ',
                     'enableButton' => false,
                     ],
                     [
                     'img_alt' => null,
                     'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_ads.png'),
-                    'title' => 'Anuncios<br class="space"> digitales
+                    'title' => 'Anuncios<br class="space"> digitales<br class="space"><br class="space">
                     ',
                     'enableButton' => false,
                     ],
                     [
                     'img_alt' => null,
                     'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_reportes.png'),
-                    'title' => 'Reportes<br class="space"> personalizados
+                    'title' => 'Reportes<br class="space"> personalizados<br class="space"><br class="space">
                     ',
                     'enableButton' => false,
                     ],
