@@ -633,9 +633,8 @@
                     'enableTitle' => true,
                     'titlePrincipal' => '
                     Descubre el poder de tener todas las
-                    <br class="DT_e">
-                    herramientas
-                    <span>en una sola plataforma </span>
+                    <br class="space">
+                    herramientas <span> en una sola plataforma</span>
                     ',
                     'subTitlePrincipal' => null,
                     'overlay' => false,
@@ -655,14 +654,15 @@
                     [
                     'img_alt' => null,
                     'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_ai.png'),
-                    'title' => 'Inteligencia Artifical
+                    'title' => 'Inteligencia<br class="space">
+                     Artifical
                     ',
                     'enableButton' => false,
                     ],
                     [
                     'img_alt' => null,
                     'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_crm.png'),
-                    'title' => 'Gestión de <br class="DT_e"> contactos y <br class="DT_e"> procesos
+                    'title' => 'Gestión de <br class="space">contactos y <br class="space"> procesos
                     ',
                     'enableButton' => false,
                     ],
@@ -676,28 +676,28 @@
                     [
                     'img_alt' => null,
                     'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_landing.png'),
-                    'title' => 'Landing Pages
+                    'title' => 'Landing<br class="space"> Pages
                     ',
                     'enableButton' => false,
                     ],
                     [
                     'img_alt' => null,
                     'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_email.png'),
-                    'title' => 'Email Marketing
+                    'title' => 'Email<br class="space"> Marketing
                     ',
                     'enableButton' => false,
                     ],
                     [
                     'img_alt' => null,
                     'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_ads.png'),
-                    'title' => 'Anuncios digitales
+                    'title' => 'Anuncios<br class="space"> digitales
                     ',
                     'enableButton' => false,
                     ],
                     [
                     'img_alt' => null,
                     'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_reportes.png'),
-                    'title' => 'Reportes personalizados
+                    'title' => 'Reportes<br class="space"> personalizados
                     ',
                     'enableButton' => false,
                     ],
@@ -709,9 +709,9 @@
                     @contain_multiple_cards_T2($parameters)
                     @endcontain_multiple_cards_T2
 
-                    <h2 class="primaryTitle">
+                    <span>
                         ¡Y más!
-                    </h2>
+                    </span>
                 </div>
             </div>
 
