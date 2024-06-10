@@ -1061,9 +1061,9 @@
 
 
 
-        <section class='w-full customSection sectionParent landing_CRM_2024_13'>
+        <section  style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_CRM_3.1.svg') !!})"  class='w-full customSection sectionParent landing_CRM_2024_13'>
 
-            <div class="section-row">
+            <div  class="section-row">
 
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
@@ -1136,33 +1136,12 @@
                 </section>
 
             </div>
-
-        </section>
-
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_CRM_3.1.svg') !!})" class='w-full customSection sectionParent landing_CRM_2024_14'>
-
-            <div class="section-row">
-
-                <section class='innerSectionElement sct0 '>
-                    <div class="containElements">
-                        <div class="btnCenter">
+            <div class="btnCenter">
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                 Empezar ahora
                             </a>
                         </div>
-                    </div>
-                </section>
-
-            </div>
-
         </section>
 
     </div>
-
-    <footer class="footerCRM">
-        <p>©2023 All Rights Reserved.
-            <br class="space">
-            Cookie Preferences, Privacy, and Terms.
-        </p>
-    </footer>
 </div>
