@@ -50,9 +50,8 @@
                                     <div class="ele ele2 col-md-12 col-lg-7">
                                         <h1 class="principalBigTitle blackColor">
 
-                                            El CRM con IA, WhatsApp y herramientas de
-                                            <br class="space">
-                                            marketing
+                                            El CRM con IA, WhatsApp <br class="space">
+                                            y herramientas de marketing
                                             <span>
                                                 integradas para vender más y mejor
                                                 <br class="space">
@@ -142,7 +141,7 @@
 
                                 <div class="image">
                                     <div class="containerImage">
-                                        <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta" src="{{ App::setFilePath('/assets/images/person/am/landing_crm_am_1.png')}}" loading="lazy">
+                                        <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta" src="{{ App::setFilePath('/assets/images/person/am/landing_crm_mejora_am_1.png')}}" loading="lazy">
                                     </div>
 
                                 </div>
@@ -286,14 +285,16 @@
 
                         </div>
                         <h2 class="title">
-                            <span>¡Ningún otro CRM hace tanto por ti!</span> <br class="space">
-                            ¿Qué recibes con el Servicio de <br class="space">
-                            Implementación Acelerada?
+                            <span>Conoce Escala: </span>
+                            El CRM ideal para
+                            <br class="space">
+                            pequeñas y medianas empresas
                         </h2>
 
                         <p class="text">
-                            Aprovecha la increíble posibilidad de implementar en minutos un embudo <br class="DT_e">
-                            de ventas ¡basado en nuestra metodología de éxito probada! Esto incluye:
+                            Fácil de aprender a usar, encuentra todo lo que necesitas
+                            <br class="DT_e">
+                            para atraer, convertir y fidelizar clientes
                         </p>
 
 
@@ -369,7 +370,7 @@
                         <h2 class="primaryTitle">
                             ¿Qué logras con el CRM de Escala?
                             <br class="space">
-                            <span<> Gestiona y optimiza tu proceso comercial</span>
+                            <span> Gestiona y optimiza tu proceso comercial</span>
                         </h2>
 
                     </div>
@@ -394,16 +395,16 @@
 
                         ',
                         'text' => 'Inserta los formularios de Escala en landing pages
-                        <br class="space">
+                        <br class="DT_e">
                         o websites, para que los contactos se registren
-                        <br class="space">
+                        <br class="DT_e">
                         automáticamente en el CRM ¡sin necesidad de
-                        <br class="space">
+                        <br class="DT_e">
                         integraciones!
                         <br class="space">
                         <br class="space">
                         <b>Nota:</b> también podrás importarlos masivamente o
-                        <br class="space">
+                        <br class="DT_e">
                         crearlos fácilmente de manera manual.',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
@@ -426,16 +427,16 @@
                         'title' => '
                         <span>Haz mejor seguimiento </span>
                         de tus
-                        <br class="space">
+                        <br class="DT_e">
                         procesos de venta o servicio
 
                         ',
                         'text' => 'En Escala es muy simple tener visibilidad sobre la
-                        <br class="space">
+                        <br class="DT_e">
                         etapa en la que se encuentra cada prospecto,
-                        <br class="space">
+                        <br class="DT_e">
                         proyectar resultados y entender qué debes hacer
-                        <br class="space">
+                        <br class="DT_e">
                         para convertir más clientes.',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
@@ -465,8 +466,8 @@
                         de tus vendedores! Ahorra tiempo y errores humanos
                         <br class="espace">
                         programando:
-                        <br class="">
-                        <br class="">
+                        <br class="espace">
+                        <br class="espace">
                         <span>
                             <img class="checkIcon" src="' .
                     App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
@@ -480,13 +481,13 @@
                     '" alt="">
                             Asignación de leads
                         </span>
-
                         <span>
                             <img class="checkIcon" src="' .
                     App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
                     '" alt="">
                             Recordatorios y notificaciones al vendedor
                         </span>
+
 
                         <span>
                             <img class="checkIcon" src="' .
@@ -516,18 +517,18 @@
                         'title' => '
                         <span>Lleva un historial</span>
                         de las interacciones
-                        <br class="space">
+                        <br class="DT_e">
                         que has tenido con cada contacto
 
 
                         ',
                         'text' =>'
                         En Escala es posible guardar cada email, llamada,
-                        <br class="space">
+                        <br class="DT_e">
                         WhatsApp, propuesta, nota y movimiento que se ha
-                        <br class="space">
+                        <br class="DT_e">
                         realizado con cada persona, para que la accedas
-                        <br class="space">
+                        <br class="DT_e">
                         fácilmente y tomes mejores decisiones de venta.
                         ',
                         'enableButton' => false,
@@ -554,11 +555,11 @@
                         ',
                         'text' => '
                         “Lo que no se mide no se mejora”. Escala, permite que
-                        <br class="space">
+                        <br class="DT_e">
                         monitorees el rendimiento de tu equipo muy fácil y
-                        <br class="space">
+                        <br class="DT_e">
                         rápido para que optimices tu proceso comercial
-                        <br class="space">
+                        <br class="DT_e">
                         oportunamente.
                         ',
                         'enableButton' => false,
@@ -581,21 +582,21 @@
                         'img' => App::setFilePath('/assets/images/gifs/6Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes.gif'),
                         'title' => '
                         <span>Integra marketing y ventas </span>
-                        en un <br class="space">
+                        en un <br class="DT_e">
                         solo lugar
                         ',
                         'text' => '
                         Simplifica la colaboración entre áreas con
-                        <br class="space">
+                        <br class="DT_e">
                         herramientas como Email, WhatsApp y Landing
-                        <br class="space">
+                        <br class="DT_e">
                         Pages ya integradas al CRM de Escala.
-                        <br class="space">
-                        <br class="space">
+                        <br class="DT_e">
+                        <br class="DT_e">
                         ¡También es posible integrarte con miles de
-                        <br class="space">
+                        <br class="DT_e">
                         aplicaciones gracias a Zapier y nuestra API
-                        <br class="space">
+                        <br class="DT_e">
                         pública!
                         ',
                         'enableButton' => false,
@@ -632,7 +633,7 @@
                     'enableTitle' => true,
                     'titlePrincipal' => '
                     Descubre el poder de tener todas las
-                    <br class="space">
+                    <br class="DT_e">
                     herramientas
                     <span>en una sola plataforma </span>
                     ',
@@ -661,7 +662,7 @@
                     [
                     'img_alt' => null,
                     'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_crm.png'),
-                    'title' => 'Gestión de <br class="space"> contactos y <br class="space"> procesos
+                    'title' => 'Gestión de <br class="DT_e"> contactos y <br class="DT_e"> procesos
                     ',
                     'enableButton' => false,
                     ],
@@ -1035,11 +1036,11 @@
                                         de todo negocio.
                                     </span>
                                     Diseñamos Escala para
-                                    <br class="space">
+                                    <br class="DT_e">
                                     facilitarle a pequeñas y medianas empresas
-                                    <br class="space">
+                                    <br class="DT_e">
                                     tener una cultura cliente-céntrica y
-                                    <br class="space">
+                                    <br class="DT_e">
                                     optimizar resultados de venta/servicio”.
                                     <br class="space">
                                     <br class="space">
@@ -1077,6 +1078,57 @@
 
                 <section class='innerSectionElement sct1 '>
                     <div class='containElements'>
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'landing_CRM_2024_13_1',
+                        'enableTitle' => false,
+                        'titlePrincipal' => null,
+                        'subTitlePrincipal' => null,
+                        'overlay' => false,
+                        'enableButton' => false,
+                        'elements' => [
+                        [
+                        'img_alt' => null,
+                        'img' => App::setFilePath('/assets/images/illustrations/others/landing_crm_form.png'),
+                        'title' => '
+                        <span>Inscríbete en el formulario</span>
+                        <br class="DT_e">
+                        y un especialista te
+                        <br class="DT_e">
+                        contactará
+                        ',
+                        'enableButton' => false,
+                        ],
+                        [
+                        'img_alt' => null,
+                        'img' => App::setFilePath('/assets/images/illustrations/others/landing_crm_form_tour.png'),
+                        'title' => '
+                        <span> Recibe un tour
+                            <br class="DT_e">
+                            personalizado</span> y gratuito
+                        <br class="DT_e">
+                        por la plataforma
+                        ',
+                        'enableButton' => false,
+                        ],
+                        [
+                        'img_alt' => null,
+                        'img' => App::setFilePath('/assets/images/illustrations/others/landing_crm_form_plan.png'),
+                        'title' => '
+                        <span>Escoge el plan que se <br class="DT_e">
+                            adapte a tu empresa</span> <br class="DT_e">
+                        y empieza a mejorar <br class="DT_e">
+                        tus resultados
+                        ',
+                        'enableButton' => false,
+                        ],
+                        ],
+                        ];
+                        @endphp
+
+                        @contain_multiple_cards_T2($parameters)
+                        @endcontain_multiple_cards_T2
 
 
 
@@ -1107,5 +1159,10 @@
 
     </div>
 
-
+    <footer class="footerCRM">
+        <p>©2023 All Rights Reserved.
+            <br class="space">
+            Cookie Preferences, Privacy, and Terms.
+        </p>
+    </footer>
 </div>
