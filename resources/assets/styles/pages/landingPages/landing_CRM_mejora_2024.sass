@@ -1358,7 +1358,7 @@
                         &:last-child
                             margin-bottom: 0
                     @include responsivo(pcMedio)
-                        width: 40%
+                        width: 42%
                     @include responsivo(general)
                         width: 30%
                         margin-bottom: 50px
@@ -1368,15 +1368,21 @@
                     min-height: 505px
                     @include responsivo(telefonoTable)
                         min-height: 410px
+                    @include responsivo(pcMedio)
+                        min-height: 474px
                     @include responsivo(general)
                         min-height: 420px
+                    @include responsivo(smallPcTablet)
+                        min-height: 525px
                 .column-5 .card
                     min-height: 505px
                     @include responsivo(telefonoTable)
                         min-height: 410px
+                    @include responsivo(pcMedio)
+                        min-height: 428px
                     @include responsivo(general)
                         min-height: 420px
-                    @include responsivo(smallPcTablet)
+                    
                         
 
                 .card
@@ -1389,7 +1395,7 @@
                     @include responsivo(telefonoTable)
                         min-height: 410px
                     @include responsivo(pcMedio)
-                        min-height: 505px
+                        min-height: 474px
                     @include responsivo(general)
                         min-height: 604px
                     @include responsivo(smallPcTablet)
@@ -1423,6 +1429,7 @@
                             background-size: 280px
                         @include responsivo(pcMedio)
                             font-size: 20px
+                            line-height: 20px
                             top: -50px
                             background-size: 273px
                         @include responsivo(general)
@@ -1431,8 +1438,12 @@
                             
                         @include responsivo(smallPcTablet)
                             background-size: 335px
+                            font-size: 22px
+                            line-height: 22px
                     img
                         height: 165px
+                        @include responsivo(pcMedio)
+                            height: 130px
                     .card-number
                         color: #36768A
                         text-align: center
@@ -1818,7 +1829,7 @@
                             @include responsivo(general)
                                 height: 250px
                             @include responsivo(smallPcTablet)
-                                height: 210px
+                                height: 188px
                             @include responsivo(resto)
                                 height: 270px
 
