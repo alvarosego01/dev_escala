@@ -293,7 +293,7 @@
 
                         <p class="text">
                             Fácil de aprender a usar, encuentra todo lo que necesitas
-                            <br class="DT_e">
+                            <br class="space">
                             para atraer, convertir y fidelizar clientes
                         </p>
 
@@ -1145,3 +1145,4 @@
 
     </div>
 </div>
+
