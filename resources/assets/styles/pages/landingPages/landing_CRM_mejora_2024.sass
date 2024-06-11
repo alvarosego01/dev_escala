@@ -218,22 +218,22 @@
         overflow: visible
         @include responsivo(telefonoTable)
             background-position: 35% -175px
-            padding-bottom: 200px !important
+            padding: 80px 0px 200px 0px!important
         @include responsivo(pcMedio)
             background-position: 57% -130px
-            padding-bottom: 113px !important
+            padding: 100px 0px 113px 0px!important
             margin-bottom: -40px
         @include responsivo(general)
             background-position: 52% -37px
-            padding-top: 50px
+            padding-top: 100px
             padding-bottom: 0px
         @include responsivo(smallPcTablet)
             background-position: 60% center
             padding-bottom: 0px
-            padding-top: 50px
+            padding-top: 100px
         @include responsivo(resto)
             background-position: 52% -37px
-            padding-top: 50px
+            padding-top: 115px
             padding-bottom: 21px
     .section-row
         position: relative
@@ -266,7 +266,7 @@
                         margin-top: 1%
                     @include responsivo(resto)
                         top: -25px
-                        margin-top: 5%
+                        margin-top: 4%
                     .containElements
                         position: unset
                         padding-bottom: 0
@@ -303,7 +303,7 @@
                                     text-align: left!important
                                 @include responsivo(general)
                                     width: 525px
-                                    font-size: 42.5px
+                                    font-size: 43px
                                 @include responsivo(smallPcTablet)
                                     width: fit-content
                                     font-size: 40px
@@ -444,7 +444,7 @@
                         padding-left: 15px
                         min-height: 525px
                     @include responsivo(general)
-                        padding-bottom: 0px
+                        padding-bottom: 60px
                         min-height: 520px
                     @include responsivo(smallPcTablet)
                         padding-left: 0
@@ -846,6 +846,7 @@
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
+            padding-top: 10px
         @include responsivo(pcMedio)
             width: 725px
             padding-bottom: 35px
@@ -1255,7 +1256,7 @@
 
 #landing_CRM_2024 .customSection.sectionParent.landing_CRM_2024_9_1
     padding: 0
-    margin-bottom: 150px
+    margin-bottom: 75px
     margin-top: 75px
     display: flex
     flex-direction: center
@@ -1268,8 +1269,9 @@
 
     @include responsivo(pcMedio)
         margin-top: 0
-        margin-bottom: 75px
-
+        margin-bottom: 60px
+    @include responsivo(general)
+        margin-bottom: -15px
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -1298,154 +1300,139 @@
                 @include responsivo(telefonoTable)
                     flex-direction: column
 
-                h3.sub-title
-                    color: #F34F36
-                    text-align: center
-                    font-family: Nunito
-                    font-size: 24px
-                    font-style: normal
-                    font-weight: 500
-                    letter-spacing: -1px
-                    line-height: 1
-                    @include responsivo(telefonoTable)
-                        font-size: 16px
-                    @include responsivo(pcMedio)
-                        font-size: 18px
-                    @include responsivo(general)
-                        font-size: 20px
-                    @include responsivo(resto)
-                        font-size: 22.5px
-
                 h2.title
-                    color: #36768A
+                    color: #00506E
                     text-align: center
                     font-family: Nunito
-                    font-size: 42.5px
+                    font-size: 40px
                     font-style: normal
                     font-weight: 700
                     letter-spacing: -2px
                     line-height: 1
-                    margin-bottom: 25px
+                    margin-bottom: 55px
                     @include responsivo(telefonoTable)
                         font-size: 25px
+                        margin-bottom: 40px
                     @include responsivo(pcMedio)
-                        font-size: 30px
-                    @include responsivo(general)
-                        font-size: 42.5px
-                    @include responsivo(resto)
-                        font-size: 45px
-
-                p.text
-                    color: #797979
-                    text-align: center
-                    font-family: Nunito
-                    font-size: 22px
-                    font-style: normal
-                    font-weight: 500
-                    line-height: 1
-                    @include responsivo(telefonoTable)
-                        font-size: 14px
-                    @include responsivo(pcMedio)
-                        font-size: 16px
-                    @include responsivo(general)
-                        font-size: 22.5px
-                    @include responsivo(smallPcTablet)
-                        font-size: 20px
-                    @include responsivo(resto)
                         font-size: 25px
-
-                img
-                    height: 95px
-                    width: 930px
-                    margin: 0 auto
-                    display: block
-                    @include responsivo(telefonoTable)
-                        width: 100%
-                        height: auto
-                    @include responsivo(pcMedio)
-                        height: 95px
-                        width: 930px
+                        margin-bottom: 10px
                     @include responsivo(general)
-                        height: 95px
-                        width: 930px
+                        font-size: 35px
                     @include responsivo(smallPcTablet)
-                        height: 95px
-                        width: 930px
-                    // @include responsivo(resto)
+                        font-size: 35px
+                    @include responsivo(resto)
+                        font-size: 40px
+                    span
+                        color: #36768A
 
 
         .innerSectionElement.sct2
             @include responsivo(telefonoTable)
-                width: 75%
+                width: 100%
                 margin: 0 auto
             @include responsivo(pcMedio)
-                width: 60%
+                width: 100%
                 margin: 0 auto
             .containElements
                 .row
                     display: flex
-                    align-items: center
+                    align-items: flex-start
                     justify-content: center
                     align-content: center
-                    row-gap: 50px
                     @include responsivo(telefonoTable)
-                   
+                        gap: 70px
                     @include responsivo(pcMedio)
-                       
+                        gap: 70px 0px 
+                    @include responsivo(general)
+                        gap: 70px 10px 
+                    @include responsivo(smallPcTablet)
+                          
+                    @include responsivo(resto)
+                        gap: 90px 10px  
 
                 .cardParent
+                    width: 30%
                     @include responsivo(telefonoTable)
                         margin-bottom: 10px
+                        width: 70%
                         &:last-child
                             margin-bottom: 0
                     @include responsivo(pcMedio)
+                        width: 40%
+                    @include responsivo(general)
+                        width: 30%
                         margin-bottom: 50px
                         &:last-child
                             margin-bottom: 0
+                .column-4 .card
+                    min-height: 505px
+                    @include responsivo(telefonoTable)
+                        min-height: 410px
+                    @include responsivo(general)
+                        min-height: 420px
+                .column-5 .card
+                    min-height: 505px
+                    @include responsivo(telefonoTable)
+                        min-height: 410px
+                    @include responsivo(general)
+                        min-height: 420px
+                    @include responsivo(smallPcTablet)
+                        
 
                 .card
                     background-color: #fff
                     filter: drop-shadow(0px 6px 30px rgba(54, 118, 138, 0.10))
                     border-radius: 30px
-                    border: none
-                    padding-bottom: 25px
-                    margin: 0!important
+                    border: 1px solid red
+                    // border: none                    margin: 0!important
+                    min-height: 420px
                     @include responsivo(telefonoTable)
-                        padding-left: 25px
-                        padding-right: 25px
+                        min-height: 410px
                     @include responsivo(pcMedio)
-                        padding-left: 25px
-                        padding-right: 25px
+                        min-height: 505px
                     @include responsivo(general)
-                        max-width: 350px
+                        min-height: 604px
+                    @include responsivo(smallPcTablet)
+                        min-height: 625px
                     @include responsivo(resto)
-                        max-width: 350px
+
 
                     .card-body
                         padding: 0
+                           
 
                     .top-pill
-                        padding: 22.5px 40px
+                        padding: 28.5px 40px
                         color: #FFF
                         background-position: center
                         background-repeat: no-repeat
                         text-align: center
                         font-family: Nunito
-                        font-size: 25px
+                        font-size: 28px
+                        line-height: 28px
                         font-style: normal
                         font-weight: 700
                         letter-spacing: -2px
                         position: relative
-                        top: -25px
+                        top: -55px
+                        margin-bottom: -30px
                         @include responsivo(telefonoTable)
                             font-size: 18px
-                            top: -15px
+                            line-height: 18px
+                            top : -45px
+                            background-size: 280px
                         @include responsivo(pcMedio)
                             font-size: 20px
-                            top: -15px
+                            top: -50px
+                            background-size: 273px
                         @include responsivo(general)
-                            font-size: 22.5px
-
+                            font-size: 25px
+                            line-height: 25px
+                            
+                        @include responsivo(smallPcTablet)
+                            background-size: 335px
+                    img
+                        height: 165px
                     .card-number
                         color: #36768A
                         text-align: center
@@ -1509,28 +1496,14 @@
                     .list-block
                         margin-bottom: 10px
 
-                    img.column-1
-                        height: 135px
-                        margin-top: 25px
-                        @include responsivo(telefonoTable)
-                            height: 125px
-                        @include responsivo(pcMedio)
-                            height: 125px
 
-
-                    img.column-3
-                        height: 175px
-                        margin-top: 25px
-                        @include responsivo(telefonoTable)
-                            height: 125px
-                        @include responsivo(pcMedio)
-                            height: 125px
 
 
                     ul
                         list-style: none
                         margin: 0
-                        padding: 0
+                        padding: 35px
+                        
 
                         li
                             .list-item
@@ -1538,11 +1511,11 @@
                                 flex-direction: row
                                 column-gap: 7px
                                 p
-                                    color: #797979
+                                    color: #36768A
                                     font-family: Nunito
                                     font-size: 22px
                                     font-style: normal
-                                    font-weight: 500
+                                    font-weight: 600
                                     margin: 0px
                                     text-align: left
                                     line-height: 1.1
@@ -1553,13 +1526,11 @@
 
                             img
                                 width: auto
-                                height: 15px
+                                height: 8px
                                 margin: auto 0px
-                                margin-top: 2.5px
-                                @include responsivo(telefonoTable)
-                                    height: 10px
-                                @include responsivo(pcMedio)
-                                    height: 10px
+                                margin-top: 5.5px
+
+                                
 
 
 
@@ -1763,16 +1734,18 @@
 
 #landing_CRM_2024 .landing_CRM_2024_11
     padding-bottom: 50px
-    padding-top: 0
+    padding-top: 70px
     background-color: transparent
     @include responsivo(telefonoTable)
-        margin-top: 50px
+        margin-top: 0px
+        padding-top: 40px
         padding-bottom: 0
     @include responsivo(pcMedio)
         margin-bottom: 50px
+        padding-top: 50px
         padding-bottom: 0
     @include responsivo(smallPcTablet)
-        margin-top: 100px
+        margin-top: 0px
     .section-row
         background-color: transparent
         padding: 0
@@ -1845,18 +1818,37 @@
                             @include responsivo(general)
                                 height: 250px
                             @include responsivo(smallPcTablet)
-                                height: 225px
+                                height: 210px
                             @include responsivo(resto)
-                                height: 300px
+                                height: 270px
 
 
 
 #landing_CRM_2024 .landing_CRM_2024_13
     padding: 0
     z-index: 5
-    background-position: 58% center
-    background-size: cover
     background-repeat: no-repeat
+    @include responsivo(telefonoTable)
+        background-position: center 43px
+        background-size: cover
+        background-repeat: no-repeat
+        padding: 9px 0px 50px 0px
+    @include responsivo(pcMedio)
+        background-position: 51% 97px
+        background-size: cover
+        background-repeat: no-repeat
+        padding: 9px 0px 50px 0px
+    @include responsivo(general)
+        background-position: 55% 69px
+        padding: 9px 0px 80px 0px
+        background-size: cover
+    @include responsivo(smallPcTablet)
+        padding: 9px 0px 50px 0px
+    @include responsivo(resto)
+        background-position: 51% 97px
+        background-size: cover
+        background-repeat: no-repeat
+        padding: 9px 0px 80px 0px
     .section-row
         background-color: transparent
         padding: 0
@@ -1875,6 +1867,15 @@
 
         .innerSectionElement.sct0
             .containElements
+                padding-bottom: 115px
+                @include responsivo(telefonoTable)
+                    padding-bottom: 40px
+                @include responsivo(pcMedio)
+                    padding-bottom: 70px
+                @include responsivo(general)
+                    padding-bottom: 70px
+                @include responsivo(smallPcTablet)
+                    padding-bottom: 40px
                 .primaryTitle
                     color: #00506E
                     font-family: Nunito
@@ -1909,15 +1910,14 @@
 #landing_CRM_2024 .customSection.sectionParent.landing_CRM_2024_13_1
     padding-top: 0px
     padding-bottom: 20px
-    @include responsivo(telefonoTable)
-
     @include responsivo(pcMedio)
-
+    padding-bottom: 0px
+    
     .section-row
         @include responsivo(telefonoTable)
-            width: 90%
+            width: 100%
         @include responsivo(pcMedio)
-            width: 90%
+            width: 100%
         @include responsivo(general)
             width: 100%!important
             max-width: 1140px!important
@@ -1953,6 +1953,8 @@
             justify-content: center
             align-content: center
             align-items: flex-start
+            gap: 20px
+            padding: 0px 20px
 
             .groupElements
                 padding: 0
@@ -1962,7 +1964,7 @@
                 @include responsivo(telefonoTable)
                     width: 40%
                 @include responsivo(pcMedio)
-                    width: 25%
+                    width: 30%
                 @include responsivo(general)
                     width: 30%
                 @include responsivo(resto)
