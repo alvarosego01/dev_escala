@@ -517,6 +517,113 @@ style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_com
             </section>
 
 
+      <section class="customSection sectionParent landing_escala_competitors_brands_2024_6 "
+      style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_competitors_2.svg') }}')"
+      >
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+                        <h2 class="title">
+                            <span>¡Ningún otro</span> CRM te acompaña mejor!
+                        </h2>
+                        <p class="text">
+                        Tú éxito es nuestro éxito. Al suscribirte a nuestro plan Pro<br class="DT_e">
+                        obtienes los beneficios de:
+                        </p>
+                    </div>
+
+                </section>
+                <section class="innerSectionElement sct2">
+
+                    <div class="containElements">
+
+                        <div class="row">
+
+                            @php
+                                $elements = array(
+                                    array(
+                                        'title' => 'Gerente de Éxito <br class="space"> asignado',
+                                        'text' => array(
+                                            'Principal punto de contacto',
+                                            'Conoce tu negocio a mayor profundidad',
+                                            'Te guía a definir planes de implementación con Escala',
+                                            'Apoya analizando resultados',
+                                            'Te acompaña todo el año'
+                                        ),
+                                        'img' => App::setFilePath('/assets/images/illustrations/others/crm_2024_img_01.png'),
+                                    ),
+                                    array(
+                                        'title' => 'Especialista de <br class="space"> Implementación',
+                                        'text' => array(
+                                            'Se involucra después de haber definido plan',
+                                            'Guía implementando la plataforma',
+                                            'Asegura que uses las herramientas efectivamente',
+                                            'Disponible los primeros meses con Escala'
+                                        ),
+                                        'img' => App::setFilePath('/assets/images/illustrations/others/crm_2024_img_01.png'),
+                                    ),
+                                    array(
+                                        'title' => 'Soporte Técnico <br class="space">
+                                        en vivo por chat',
+                                        'text' => array(
+                                            'Apoya en la configuración técnica de la plataforma',
+                                            'Atiende preguntas y necesidades técnicas puntuales',
+                                            'Conecta por chat de plataforma o WhatsApp',
+                                            'Disponible mientras tengas suscripción activa'
+                                        ),
+                                        'img' => App::setFilePath('/assets/images/illustrations/others/crm_2024_img_01.png'),
+                                    ),
+                                    array(
+                                        'title' => 'Servicio de <br class="space"> Personalización',
+                                        'text' => array(
+                                            'Personaliza el CRM a tus necesidades',
+                                            'Crea plantillas de email y páginas según tu marca',
+                                            'Crea la base para un flujo automatizado',
+                                        ),
+                                        'img' => App::setFilePath('/assets/images/illustrations/others/crm_2024_img_01.png'),
+                                    ),
+
+                                );
+                            @endphp
+
+                        @foreach ($elements as $element)
+
+                            <div class="col-md-12 col-lg-3 cardParent">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_crm_top_card.svg') !!})" class="top-pill">
+                                        {!! $element['title'] !!}
+                                        </div>
+                                        <img class="column-1" src="{!! $element['img'] !!}" loading="lazy">
+
+                                        <ul>
+                                            @foreach ($element['text'] as $text)
+                                                <li>
+                                                    <div class="list-item">
+                                                        <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
+                                                        <p>{!! $text !!}</p>
+                                                    </div>
+                                                </li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        @endforeach
+
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+        </section>
+
+
 
             <section class="component-info-text-video-T1 customSection sectionParent landing_escala_competitors_brands_2024_7 "
             >
