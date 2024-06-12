@@ -31,9 +31,10 @@
 
         @php
             $footerTemplate_id = ACF_CUSTOM::_getField('bootstrap_pie_pagina_types', $idFooter);
+
         @endphp
 
-        @if (isset($footerTemplate_id) && $footerTemplate_id != null)
+        @if (isset($footerTemplate_id) && $footerTemplate_id != null && is_numeric($footerTemplate_id))
 
             @php
                 $footerTemplate = ACF_CUSTOM::_getField('bootstrap_pie_pagina_template', $footerTemplate_id);
@@ -50,6 +51,15 @@
                 @endpiePagina_general
 
             @endif
+
+        @endif
+
+        @if (isset($footerTemplate_id) && $footerTemplate_id === 'landing_page_small')
+
+
+            @piePagina_landing_small()
+            @endpiePagina_landing_small
+
 
         @endif
 

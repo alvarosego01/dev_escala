@@ -53,6 +53,7 @@ class SetComponents extends Controller
     {
         return [
             'components.footers.component-footer-general' => 'piePagina_general',
+            'components.footers.component-footer-landing-page-small' => 'piePagina_landing_small',
         ];
     }
 
