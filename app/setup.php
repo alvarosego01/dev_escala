@@ -177,6 +177,7 @@ add_action('wp_enqueue_scripts', function () {
          // ---Landing escala CRM 2024 mejora
          if (is_page_template('views/template-landing-escala-CRM-mejora-2024.blade.php')) {
             wp_enqueue_style('landing_CRM_mejora_2024.css', asset_path('styles/pages/landingPages/landing_CRM_mejora_2024.css'), false, THEME_VERSION);
+            
         }
 
         // -------------------------------------- //

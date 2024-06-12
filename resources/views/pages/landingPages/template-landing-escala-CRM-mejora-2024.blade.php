@@ -579,7 +579,7 @@
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/gifs/6Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes.gif'),
+                        'img' => App::setFilePath('/assets/images/gifs/6-1Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes.gif'),
                         'title' => '
                         <span>Integra marketing y ventas </span>
                         en un <br class="DT_e">
