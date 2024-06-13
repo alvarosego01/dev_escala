@@ -633,7 +633,7 @@
                     'enableTitle' => true,
                     'titlePrincipal' => '
                     Descubre el poder de tener todas las
-                    <br class="space">
+                    <br class="DT_e">
                     herramientas <span> en una sola plataforma</span>
                     ',
                     'subTitlePrincipal' => null,
@@ -727,7 +727,7 @@
                     <div class="containElements">
                         <h2 class="title">
                             ¡Ningún otro CRM te acompaña mejor!
-                            <br class="space">
+                            <br class="DT_e">
                             <span> Te guiamos a implementarlo exitosamente</span>
                         </h2>
                     </div>
