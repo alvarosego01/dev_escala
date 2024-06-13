@@ -53,6 +53,7 @@ class SetComponents extends Controller
     {
         return [
             'components.footers.component-footer-general' => 'piePagina_general',
+            'components.footers.component-footer-landing-page-small' => 'piePagina_landing_small',
         ];
     }
 
@@ -300,6 +301,7 @@ class SetComponents extends Controller
         if ($type == 'all') {
             return [
                 'views/template-subPage-app.blade.php',
+                'views/template-landing-escala-competitors-2024.blade.php',
                 'views/template-landing-CRM-automatización-WA-2024.blade.php',
                 'views/template-landing-escala-homeLanding-2023.blade.php',
                 'views/template-landing-escala-CRM-2023.blade.php',

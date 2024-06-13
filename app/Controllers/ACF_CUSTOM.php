@@ -701,6 +701,8 @@ class ACF_CUSTOM extends Controller
             }
         }
 
+        $pie_paginaList['landing_page_small'] = 'Landing page - small';
+
         return [
             [
             'key' => 'pie_pagina_page_config',

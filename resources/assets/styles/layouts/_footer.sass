@@ -344,5 +344,36 @@
                     margin-bottom: 35px
 
 
+footer.bootstrap_landing_small,
+barter.bootstrap_landing_small
+    background-color: #322c2e
+    padding: 25px 0
+    display: block
+    .section-row
+        margin-left: auto
+        margin-right: auto
+        @include responsivo(telefonoTable)
+            width: 95%
+        @include responsivo(pcMedio)
+            width: 90%
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1100px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1240px!important
 
+        .containElements
+            p.text
+                color: #FFF
+                text-align: center
+                font-family: Nunito
+                font-size: 14px
+                font-style: normal
+                font-weight: 600
+                line-height: normal
+                letter-spacing: -0.56px
+                text-align: center
+                @include responsivo(telefonoTable)
+                    font-size: 12px
 
