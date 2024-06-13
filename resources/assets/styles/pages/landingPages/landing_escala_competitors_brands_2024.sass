@@ -27,7 +27,7 @@
     font-style: normal
     font-weight: 700
     line-height: 1
-    letter-spacing: -1.5px
+    letter-spacing: -1.25px
     width: 100%
     text-align: center
     @include responsivo(telefonoTable)
@@ -47,7 +47,7 @@
     font-style: normal
     font-weight: 700
     line-height: 1
-    letter-spacing: -1.5px
+    letter-spacing: -1.25px
     @include responsivo(telefonoTable)
         font-size: 18px
     @include responsivo(pcMedio)
@@ -851,6 +851,8 @@
                         align-items: center
 
                     .youtubeImageContainer
+                        border-radius: 20px
+                        overflow: hidden
                         position: relative
                         div#video_2
                             position: absolute
@@ -862,8 +864,8 @@
                             margin: 0 auto
                             margin-bottom: 0
                             width: 100%
-                            height: 200px
-                            width: 350px
+                            height: 175px
+                            width: 300px
                         @include responsivo(pcMedio)
                             height: 250px
                             width: 440px!important
@@ -1003,7 +1005,7 @@
                         font-family: Nunito
                         font-style: normal
                         font-weight: 600
-                        letter-spacing: -1.902px
+                        letter-spacing: -1.25px
                         @include responsivo(telefonoTable)
                             font-size: 16px
                         @include responsivo(pcMedio)
@@ -1020,7 +1022,7 @@
                         font-style: normal
                         font-weight: 700
                         line-height: 1
-                        letter-spacing: -1.902px
+                        letter-spacing: -1.25px
                         @include responsivo(telefonoTable)
                             font-size: 30px
                             line-height: 1
@@ -1038,7 +1040,7 @@
                         font-style: normal
                         font-weight: 600
                         line-height: 1
-                        letter-spacing: -1.902px
+                        letter-spacing: -1.25px
                         @include responsivo(telefonoTable)
                             font-size: 20px
                         @include responsivo(pcMedio)
@@ -1056,7 +1058,7 @@
                         font-style: normal
                         font-weight: 600
                         line-height: 1
-                        letter-spacing: -1.902px
+                        letter-spacing: -1.25px
                         @include responsivo(telefonoTable)
                             font-size: 16px
                         @include responsivo(pcMedio)
@@ -1314,7 +1316,7 @@
                     font-size: 42.5px
                     font-style: normal
                     font-weight: 700
-                    letter-spacing: -2px
+                    letter-spacing: -1.25px
                     line-height: 1
                     margin-bottom: 25px
                     @include responsivo(telefonoTable)
@@ -1618,18 +1620,18 @@
                         line-height: 1
                         font-style: normal
                         font-weight: 700
-                        letter-spacing: -2px
+                        letter-spacing: -1.25px
                         position: relative
                         top: -55px
                         margin-bottom: -40px
                         @include responsivo(telefonoTable)
                             font-size: 16px
                             top: -45px
-                            background-size: 265px
+                            background-size: 225px
                         @include responsivo(pcMedio)
                             font-size: 18px
                             top: -50px
-                            background-size: 273px
+                            background-size: 225px
                         @include responsivo(general)
                             font-size: 22.5px
                         @include responsivo(smallPcTablet)
@@ -1653,7 +1655,7 @@
                         font-size: 70px
                         font-style: normal
                         font-weight: 600
-                        letter-spacing: -2px
+                        letter-spacing: -1.25px
                         line-height: 1
                         margin-bottom: 25px
                         margin-top: 25px
@@ -1694,7 +1696,7 @@
                         font-size: 24px
                         font-style: normal
                         font-weight: 600
-                        letter-spacing: -2px
+                        letter-spacing: -1.25px
                         text-align: left
                         margin-bottom: 25px
                         @include responsivo(telefonoTable)
@@ -1830,13 +1832,15 @@
                         align-items: center
 
                     .youtubeImageContainer
+                        border-radius: 20px
+                        overflow: hidden
                         position: relative
                         @include responsivo(telefonoTable)
                             margin: 0 auto
                             margin-bottom: 0
                             width: 100%
-                            height: 200px
-                            width: 350px
+                            height: 175px
+                            width: 300px
                         @include responsivo(pcMedio)
                             height: 250px
                             width: 440px!important
@@ -1878,9 +1882,10 @@
     margin-bottom: 25px
 
     @include responsivo(telefonoTable)
-        padding-top: 25px
+        padding-top: 0
         padding-bottom: 25px
         margin-bottom: 0
+        margin-top: -15px
         background-position: 55% center
     @include responsivo(pcMedio)
         padding-top: 50px
@@ -1912,7 +1917,7 @@
             position: relative
             top: 25px
             @include responsivo(telefonoTable)
-                margin-bottom: 100px
+                margin-bottom: 50px
             .containElements
                 .primaryTitle
                     @include h2_titleSection()
