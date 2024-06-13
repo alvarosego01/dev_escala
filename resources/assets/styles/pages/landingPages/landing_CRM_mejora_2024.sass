@@ -544,7 +544,6 @@
             width: 100%!important
             max-width: 1125px!important
 
-
         .innerSectionElement.sct0
             margin-bottom: 50px
             @include responsivo(telefonoTable)
@@ -560,6 +559,7 @@
                     text-align: center
                     margin-bottom: -30px
                     color: #00506E
+                    letter-spacing: -1.5px
                     @include responsivo(telefonoTable)
                         font-size: 25px
                     @include responsivo(pcMedio)
@@ -634,7 +634,7 @@
                     font-size: 25px
                 @include responsivo(general)
                     font-size: 35px!important
-                @include responsivo(resto)
+                // @include responsivo(resto)
 
 
                 span
@@ -660,6 +660,7 @@
                 font-style: normal
                 font-weight: 500
                 line-height: 100%
+                text-align: left
                 letter-spacing: -1px
                 @include responsivo(telefonoTable)
                     font-size: 16px
@@ -671,6 +672,8 @@
                     font-size: 22.5px
                 @include responsivo(resto)
                     font-size: 30px
+                span
+                    text-align: left
 
             .containerImage
                 display: flex
@@ -788,6 +791,7 @@
                     text-align: center
                     margin-bottom: 70px
                     color: #00506E
+                    letter-spacing: -1.5px
                     @include responsivo(telefonoTable)
                         font-size: 25px
                         margin-bottom: 10px
@@ -1201,8 +1205,12 @@
                 border-radius: 12px
                 margin: 0px
                 display: flex
+                justify-content: center
+                align-content: center
+                align-items: center
                 flex-direction: column
                 width: 22%
+                position: relative
                 @include responsivo(telefonoTable)
                     margin: 0
                     width: 45%
@@ -1211,10 +1219,12 @@
                     width: 30%
                     padding: 55px 10px 20px 10px
                 @include responsivo(general)
-                    padding:70px 10px 25px 10px
+                    padding: 70px 10px 25px 10px
+                    padding-top: 50px
+                    padding-bottom: 25px
                 @include responsivo(resto)
-                    padding-top: 70px
-                    padding-bottom: 20px
+                    padding-top: 50px
+                    padding-bottom: 35px
                 &:first-child
                     @include responsivo(general)
                         margin-left: 0
@@ -1230,39 +1240,46 @@
                     @include responsivo(resto)
                         margin-right: 0
                 .image
-                    margin-bottom: 25px
+                    margin-bottom: 0
+                    position: absolute
+                    left: 0
+                    right: 0
                     @include responsivo(telefonoTable)
-                        margin-bottom: 63px
-                        position: relative
-                        top: -15px
+                        top: -35px
                     @include responsivo(pcMedio)
-                        margin-bottom: 35px
-                        position: relative
                         top: -25px
+                    @include responsivo(general)
+                        top: -25px
+                    @include responsivo(resto)
+                        top: -25px
+
+                    @include responsivo(telefonoTable)
+                        height: 58px
+                        bottom: -15px
+                    @include responsivo(pcMedio)
+                        height: 65px
+                        bottom: -35px
+                    @include responsivo(general)
+                        height: 65px
+                    @include responsivo(resto)
+                        height: 90px
+
                     .containerImage
                         height: 100%
-                        position: relative
                         display: flex
-                        margin-top: -40px
-                        margin-bottom: 0
+                        margin: 0
                         padding: 0
                         img
-                            position: absolute
-                            left: 0
-                            right: 0
-                            bottom: 0
                             @include responsivo(telefonoTable)
                                 height: 58px
-                                bottom: -15px
                             @include responsivo(pcMedio)
                                 height: 65px
-                                bottom: -35px
                             @include responsivo(general)
                                 height: 65px
                             @include responsivo(resto)
                                 height: 90px
                 .info
-                    margin: auto
+                    margin: 0
                     display: block
                     @include responsivo(telefonoTable)
                         display: flex
@@ -1274,7 +1291,6 @@
                         font-weight: 700
                         line-height: 100%
                         letter-spacing: -1.4px
-                        margin-top: -49px
                         margin-bottom: 0
                         @include responsivo(telefonoTable)
                             font-size: 16px
@@ -1808,6 +1824,7 @@
                     line-height: 0.9
                     text-align: center
                     margin-bottom: 25px
+                    letter-spacing: -1.5px
                     @include responsivo(telefonoTable)
                         font-size: 25px
                     @include responsivo(pcMedio)
@@ -1920,6 +1937,7 @@
                     text-align: center
                     margin-bottom: 25px
                     position: relative
+                    letter-spacing: -1.5px
                     @include responsivo(telefonoTable)
                         font-size: 25px
                         padding-top: 50px
