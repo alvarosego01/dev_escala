@@ -5,6 +5,8 @@
 @extends('layouts.app')
 @section('content')
 
+
+
     <div id="homeSection_2023">
         <div class="sections">
 
@@ -295,6 +297,12 @@
 
             </section>
 
+
+   <a class=" primaryButton hoverInEffect openPopUpButton popup-last-news">
+                                            POPUP DE MIERDA...!
+                                        </a>
+
+
             <section class="customSection sectionParent home_2023_1">
 
                 <div class="section-row">
@@ -508,9 +516,6 @@
 
                                         </div>
 
-                                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                            Recibir un demo
-                                        </a>
 
 
                                     </div>
