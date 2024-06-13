@@ -459,7 +459,7 @@
                         'title' => '
                         <span>Automatiza acciones y comunicaciones</span>
                         <br class="espace">
-                        para aumentar eficiencia y conversió
+                        para aumentar eficiencia y conversión
                         ',
                         'text' =>'¡Olvídate de tareas repetitivas que consumen tiempo
                         <br class="espace">
@@ -622,7 +622,7 @@
 
 
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-landing-crm-mejora03.svg') !!})" class="customSection sectionParent  landing_CRM_2024_9">
+        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-landing-crm-mejora03.svg') !!})" class="customSection sectionParent landing_CRM_2024_9">
             <div class="section-row">
                 <div class="containElements">
 
@@ -655,7 +655,7 @@
                     'img_alt' => null,
                     'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_ai.png'),
                     'title' => 'Inteligencia<br class="space">
-                     Artifical
+                     Artificial
                     ',
                     'enableButton' => false,
                     ],

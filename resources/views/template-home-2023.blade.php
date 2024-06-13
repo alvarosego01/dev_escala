@@ -387,7 +387,7 @@
                                                 'img' => App::setFilePath('/assets/images/gifs/image_whatsapp_home_selector.gif'),
                                             ],
                                             [
-                                                'title' => 'Inteligencia Artifical',
+                                                'title' => 'Inteligencia Artificial',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ia_small.png'),
                                                 'text' => '
             <span>Crea contenido efectivo en segundos</span> <br class="space">

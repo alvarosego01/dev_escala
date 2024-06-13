@@ -729,7 +729,7 @@
                                             ),
                                         ],
                                         [
-                                            'title' => 'Inteligencia Artifical',
+                                            'title' => 'Inteligencia Artificial',
                                             'icon' => App::setFilePath(
                                                 '/assets/images/illustrations/others/icon_ia_small.png',
                                             ),
@@ -1136,6 +1136,19 @@
                             <img class="MT_e" src="{!! App::setFilePath('/assets/images/illustrations/others/competitors_img_6_mob.png') !!}" loading="lazy">
                         </div>
                     </div>
+                </section>
+
+                      <section class="innerSectionElement sct3">
+
+                    <div class="containElements">
+
+
+                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                            Empezar ahora
+                        </a>
+
+                    </div>
+
                 </section>
 
             </div>
