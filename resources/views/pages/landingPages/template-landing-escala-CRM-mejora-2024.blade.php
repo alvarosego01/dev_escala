@@ -437,7 +437,7 @@
                                 'enableTitle' => false,
                                 'titlePrincipal' => null,
                                 'subTitlePrincipal' => null,
-                                'img' => App::setFilePath('/assets/images/gifs/2automatiza-post-registro.gif'),
+                                'img' => App::setFilePath('/assets/images/gifs/3Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes-.gif'),
                                 'title' => '
                         <span>Haz mejor seguimiento </span>
                         de tus
@@ -470,7 +470,7 @@
                                 'titlePrincipal' => null,
                                 'subTitlePrincipal' => null,
                                 'img' => App::setFilePath(
-                                    '/assets/images/gifs/3Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes-.gif',
+                                    '/assets/images/gifs/2automatiza-post-registro.gif',
                                 ),
                                 'title' => '
                         <span>Automatiza acciones y comunicaciones</span>
@@ -531,7 +531,7 @@
                                 'titlePrincipal' => null,
                                 'subTitlePrincipal' => null,
                                 'img' => App::setFilePath(
-                                    '/assets/images/gifs/4Haz-mejor-seguimiento-a-tus-oportunidades-comerciales-.gif',
+                                    '/assets/images/gifs/7Lleva-un-historial-de-todas-las-interaccione.gif',
                                 ),
                                 'title' => '
                         <span>Lleva un historial</span>
@@ -1023,9 +1023,9 @@
 
                         @php
                             $reviews = [
-                                App::setFilePath('/assets/images/illustrations/others/crm_review_1.png'),
-                                App::setFilePath('/assets/images/illustrations/others/crm_review_2.png'),
-                                App::setFilePath('/assets/images/illustrations/others/crm_review_3.png'),
+                                App::setFilePath('/assets/images/illustrations/others/competitors_review_1.png'),
+                                App::setFilePath('/assets/images/illustrations/others/competitors_review_2.png'),
+                                App::setFilePath('/assets/images/illustrations/others/competitors_review_3.png'),
                             ];
                         @endphp
 
@@ -1080,7 +1080,7 @@
                                     <br class="space">
                                     <span class="sub">
                                         Andrés Moreno <br class="space">
-                                        <small>Fundador de escala & Open English</small>
+                                        <small>Fundador de Escala & Open English</small>
                                     </span>
 
                                 </p>

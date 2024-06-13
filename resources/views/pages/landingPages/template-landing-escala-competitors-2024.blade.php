@@ -373,7 +373,7 @@
 
                             <div class="element">
                                 <p class="text">
-                                    <span class="title-blue">Líderes de negocio han</span> <br class="space">
+                                    <span class="title-blue">Negocios aumentaron</span> <br class="space">
                                     <span class="number">2X</span> <br class="space">
                                     <span class="text-big">sus ingresos</span> <br class="space">
                                     <span class="text-small">en menos de 6 meses</span>
