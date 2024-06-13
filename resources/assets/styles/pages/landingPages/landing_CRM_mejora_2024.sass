@@ -1244,24 +1244,33 @@
                     @include responsivo(telefonoTable)
                         top: -35px
                     @include responsivo(pcMedio)
-                        top: 15px
+                        top: -25px
                     @include responsivo(general)
-                        top: 15px
+                        top: -25px
                     @include responsivo(resto)
-                        top: -15px
+                        top: -25px
+
+                    @include responsivo(telefonoTable)
+                        height: 58px
+                        bottom: -15px
+                    @include responsivo(pcMedio)
+                        height: 65px
+                        bottom: -35px
+                    @include responsivo(general)
+                        height: 65px
+                    @include responsivo(resto)
+                        height: 90px
+
                     .containerImage
                         height: 100%
                         display: flex
-                        margin-top: -40px
-                        margin-bottom: 0
+                        margin: 0
                         padding: 0
                         img
                             @include responsivo(telefonoTable)
                                 height: 58px
-                                bottom: -15px
                             @include responsivo(pcMedio)
                                 height: 65px
-                                bottom: -35px
                             @include responsivo(general)
                                 height: 65px
                             @include responsivo(resto)
