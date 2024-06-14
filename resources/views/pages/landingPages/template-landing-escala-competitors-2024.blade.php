@@ -1075,8 +1075,8 @@
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
                         <h2 class="primaryTitle">
-                            Lo que dicen nuestros clientes <br class="space">
-                            sobre el CRM de Escala:
+                            <span>No solo nos escuches a nosotros,</span> <br class="space">
+                            escucha a nuestros clientes:
                         </h2>
                     </div>
 
