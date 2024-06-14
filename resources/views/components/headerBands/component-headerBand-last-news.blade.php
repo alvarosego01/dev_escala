@@ -20,7 +20,7 @@
 
                 </div>
 
-                <a href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect">
+                <a href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect openPopUpButton  popup-last-news">
                     Explora más
                 </a>
 
