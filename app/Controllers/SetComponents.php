@@ -42,6 +42,7 @@ class SetComponents extends Controller
             'components.popups.component-popup-general-2022' => 'popup_general_2022',
             'components.popups.component-popup-blackFriday-2022' => 'popup_blackFriday_2022',
             'components.popups.component-popup-december' => 'popup_december',
+            'components.popups.component-popup-last-news' => 'popup_last_news',
             'components.popups.component-popup-promo-1m-2023' => 'popup_promo_1m_2023',
             'components.popups.component-popup-promo-14f-2023' => 'popup_promo_14f_2023',
             'components.popups.component-popup-casos-uso' => 'popup_casos_uso',
