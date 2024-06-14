@@ -973,37 +973,6 @@
         </div>
 
 
-
-
-        {{-- @php
-            $parameters = [
-                'classSection' => 'landing_CRM_2024_11',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-                Lo que dicen nuestros clientes <br class="space">
-                sobre el CRM de Escala:
-                ',
-                'subTitlePrincipal' => null,
-                'enableContainerButton' => false,
-                'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'textButton' => 'Recibe un demo',
-                'mob_reviews' => [
-                    App::setFilePath('/assets/images/illustrations/others/crm_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/crm_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/crm_review_3.png')
-                ],
-                'desk_reviews' => [
-                    [
-                    App::setFilePath('/assets/images/illustrations/others/crm_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/crm_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/crm_review_3.png')]
-                ],
-            ];
-        @endphp
-        @reviews_sliders_T1($parameters)
-        @endreviews_sliders_T1 --}}
-
         <section class='w-full customSection sectionParent landing_CRM_2024_11'>
 
             <div class="section-row">
@@ -1013,29 +982,31 @@
                         <h2 class="primaryTitle">
                             Lo que dicen nuestros clientes <br class="space">
                             sobre el CRM de Escala:
-
                         </h2>
                     </div>
 
                 </section>
-                <section class='innerSectionElement sct1 '>
+               <section class='innerSectionElement sct1 '>
                     <div class='containElements'>
 
-                        @php
-                            $reviews = [
-                                App::setFilePath('/assets/images/illustrations/others/competitors_review_1.png'),
-                                App::setFilePath('/assets/images/illustrations/others/competitors_review_2.png'),
-                                App::setFilePath('/assets/images/illustrations/others/competitors_review_3.png'),
-                            ];
-                        @endphp
-
-                        @foreach ($reviews as $item)
-                            <div class="review">
+                            <div class="review r1">
                                 <div class="containerImage">
-                                    <img src="{!! $item !!}" loading="lazy">
+                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1.png') }}" loading="lazy">
+                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1_m.png') }}" loading="lazy">
                                 </div>
                             </div>
-                        @endforeach
+                            <div class="review r2">
+                                <div class="containerImage">
+                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2.png') }}" loading="lazy">
+                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2_m.png') }}" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="review r3">
+                                <div class="containerImage">
+                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3.png') }}" loading="lazy">
+                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3_m.png') }}" loading="lazy">
+                                </div>
+                            </div>
 
                     </div>
 

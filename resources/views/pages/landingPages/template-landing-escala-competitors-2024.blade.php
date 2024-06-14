@@ -352,7 +352,6 @@
 
         </section>
 
-
             <section class="customSection sectionParent landing_escala_competitors_brands_2024_3">
 
                 <div class="section-row">
@@ -1069,16 +1068,15 @@
 
 
         <section class='w-full customSection sectionParent landing_escala_competitors_brands_2024_8'
-            style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_competitors_3.svg') }}')">
+            >
 
             <div class="section-row">
 
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
                         <h2 class="primaryTitle">
-                            <span>No solo nos escuches a nosotros,</span><br class="DT_e">
-                            escucha a nuestros clientes:
-
+                            Lo que dicen nuestros clientes <br class="space">
+                            sobre el CRM de Escala:
                         </h2>
                     </div>
 
@@ -1086,21 +1084,24 @@
                 <section class='innerSectionElement sct1 '>
                     <div class='containElements'>
 
-                        @php
-                            $reviews = [
-                                App::setFilePath('/assets/images/illustrations/others/competitors_review_1.png'),
-                                App::setFilePath('/assets/images/illustrations/others/competitors_review_2.png'),
-                                App::setFilePath('/assets/images/illustrations/others/competitors_review_3.png'),
-                            ];
-                        @endphp
-
-                        @foreach ($reviews as $item)
-                            <div class="review">
+                            <div class="review r1">
                                 <div class="containerImage">
-                                    <img src="{!! $item !!}" loading="lazy">
+                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1.png') }}" loading="lazy">
+                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1_m.png') }}" loading="lazy">
                                 </div>
                             </div>
-                        @endforeach
+                            <div class="review r2">
+                                <div class="containerImage">
+                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2.png') }}" loading="lazy">
+                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2_m.png') }}" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="review r3">
+                                <div class="containerImage">
+                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3.png') }}" loading="lazy">
+                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3_m.png') }}" loading="lazy">
+                                </div>
+                            </div>
 
                     </div>
 
