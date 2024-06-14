@@ -28,8 +28,11 @@
 
             <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-landing-crm-mejora01.svg') }}')"
                 class="backgroundFull">
-
-
+               <div class="btnCenter">   <a class="primaryButton hoverInEffect openPopUpButton  popup-last-news">
+                    Abrir popup
+                </a></div>
+             
+              
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
 
