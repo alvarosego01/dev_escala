@@ -1878,29 +1878,19 @@
                             width: 90%
 
 #landing_escala_competitors_brands_2024 .customSection.sectionParent.landing_escala_competitors_brands_2024_8
-    padding-bottom: 75px
-    padding-top: 0
-    background-color: transparent
-
-    background-size: cover
-    background-position: center
-    background-repeat: no-repeat
+    padding: 0
     margin-bottom: 25px
 
     @include responsivo(telefonoTable)
-        padding-top: 0
-        padding-bottom: 25px
+        padding-top: 25px
+        padding-bottom: 0
         margin-bottom: 0
-        margin-top: -15px
         background-position: 55% center
     @include responsivo(pcMedio)
-        padding-top: 50px
         background-position: 58% center
     @include responsivo(general)
-        padding-top: 50px
         background-position: 48% center
     @include responsivo(resto)
-        padding-top: 50px
         background-position: 48% center
 
     .section-row
@@ -1912,18 +1902,17 @@
             width: 90%
         @include responsivo(general)
             width: 100%!important
-            max-width: 1125px!important
+            max-width: 1140px!important
         @include responsivo(smallPcTablet)
-            max-width: 1000px!important
+            max-width: 900px!important
         @include responsivo(resto)
             width: 100%!important
-            max-width: 1250px!important
+            max-width: 1240px!important
         .innerSectionElement.sct0
-            margin-bottom: 100px
+            margin-bottom: 50px
             position: relative
-            top: 25px
             @include responsivo(telefonoTable)
-                margin-bottom: 50px
+                margin-bottom: 25px
             .containElements
                 .primaryTitle
                     @include h2_titleSection()
@@ -1936,37 +1925,58 @@
         .innerSectionElement.sct1
             .containElements
                 display: flex
-                flex-direction: row
-                justify-content: center
-                align-content: center
-                align-items: center
-                @include responsivo(telefonoTable)
-                    flex-direction: column-reverse
-                @include responsivo(pcMedio)
-                    flex-direction: column-reverse
+                flex-direction: column
+                gap: 25px 0
                 .review
+                    margin: auto
+                    display: block
                     @include responsivo(telefonoTable)
-                        margin-bottom: 25px
-                    @include responsivo(pcMedio)
-                        margin-bottom: 25px
-                    @include responsivo(general)
-                        margin: 0 5px
-                    @include responsivo(resto)
-                        margin: 0 5px
+                        margin: auto!important
                     .containerImage
-                        padding: 0
                         margin: 0
-                        img
-                            @include responsivo(telefonoTable)
-                                height: 175px
-                            @include responsivo(pcMedio)
-                                height: 275px
-                            @include responsivo(general)
-                                height: 225px
-                            @include responsivo(smallPcTablet)
-                                height: 175px
-                            @include responsivo(resto)
-                                height: 275px
+                        padding: 0
+                .review.r1
+                    margin-left: 0
+                    img
+                        @include responsivo(telefonoTable)
+                            height: auto
+                            width: 325px
+                        @include responsivo(pcMedio)
+                            height: 150px
+                        @include responsivo(general)
+                            height: 225px
+                        @include responsivo(smallPcTablet)
+                            height: 200px
+                        @include responsivo(resto)
+                            height: 250px
+                .review.r2
+                    img
+                        @include responsivo(telefonoTable)
+                            height: auto
+                            width: 325px
+                        @include responsivo(pcMedio)
+                            height: 150px
+                        @include responsivo(general)
+                            height: 225px
+                        @include responsivo(smallPcTablet)
+                            height: 200px
+                        @include responsivo(resto)
+                            height: 250px
+                .review.r3
+                    margin-left: 0
+                    img
+                        @include responsivo(telefonoTable)
+                            height: auto
+                            width: 325px
+                        @include responsivo(pcMedio)
+                            height: 250px
+                        @include responsivo(general)
+                            height: 375px
+                        @include responsivo(smallPcTablet)
+                            height: 350px
+                        @include responsivo(resto)
+                            height: 400px
+
 
 #landing_escala_competitors_brands_2024 .customSection.sectionParent.landing_escala_competitors_brands_2024_9
     padding: 50px

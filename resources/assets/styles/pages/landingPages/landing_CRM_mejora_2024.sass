@@ -991,6 +991,7 @@
                         img
                             display: block
                             margin: auto
+                            clip-path: inset(0 2px 0 2px)
                             @include responsivo(telefonoTable)
                                 height: 140px
                                 margin-bottom: 0
@@ -1053,6 +1054,7 @@
                         margin-top: 55px!important
                 .image
                     img
+                        clip-path: unset!important
                         @include responsivo(pcMedio)
                             margin-right: 0
 
@@ -1751,8 +1753,6 @@
                                 @include responsivo(smallPcTablet)
                                     font-size: 16px
 
-
-
 #landing_CRM_2024 .landing_CRM_2024_11
     padding-bottom: 50px
     padding-top: 70px
@@ -1762,7 +1762,7 @@
         padding-top: 40px
         padding-bottom: 0
     @include responsivo(pcMedio)
-        margin-bottom: 50px
+        margin-bottom: 100px
         padding-top: 50px
         padding-bottom: 0
     @include responsivo(smallPcTablet)
@@ -1812,37 +1812,58 @@
         .innerSectionElement.sct1
             .containElements
                 display: flex
-                flex-direction: row
-                justify-content: center
-                align-content: center
-                align-items: center
-                @include responsivo(telefonoTable)
-                    flex-direction: column-reverse
-                @include responsivo(pcMedio)
-                    flex-direction: column-reverse
+                flex-direction: column
+                gap: 25px 0
                 .review
+                    margin: auto
+                    display: block
                     @include responsivo(telefonoTable)
-                        margin-bottom: 25px
-                    @include responsivo(pcMedio)
-                        margin-bottom: 25px
-                    @include responsivo(general)
-                        margin: 0 5px
-                    @include responsivo(resto)
-                        margin: 0 5px
+                        margin: auto!important
                     .containerImage
-                        padding: 0
                         margin: 0
-                        img
-                            @include responsivo(telefonoTable)
-                                height: 175px
-                            @include responsivo(pcMedio)
-                                height: 275px
-                            @include responsivo(general)
-                                height: 230px
-                            @include responsivo(smallPcTablet)
-                                height: 188px
-                            @include responsivo(resto)
-                                height: 270px
+                        padding: 0
+                .review.r1
+                    margin-left: 0
+                    img
+                        @include responsivo(telefonoTable)
+                            height: auto
+                            width: 325px
+                        @include responsivo(pcMedio)
+                            height: 150px
+                        @include responsivo(general)
+                            height: 225px
+                        @include responsivo(smallPcTablet)
+                            height: 200px
+                        @include responsivo(resto)
+                            height: 250px
+                .review.r2
+                    img
+                        @include responsivo(telefonoTable)
+                            height: auto
+                            width: 325px
+                        @include responsivo(pcMedio)
+                            height: 150px
+                        @include responsivo(general)
+                            height: 225px
+                        @include responsivo(smallPcTablet)
+                            height: 200px
+                        @include responsivo(resto)
+                            height: 250px
+                .review.r3
+                    margin-left: 0
+                    img
+                        @include responsivo(telefonoTable)
+                            height: auto
+                            width: 325px
+                        @include responsivo(pcMedio)
+                            height: 250px
+                        @include responsivo(general)
+                            height: 375px
+                        @include responsivo(smallPcTablet)
+                            height: 350px
+                        @include responsivo(resto)
+                            height: 400px
+
 
 
 
