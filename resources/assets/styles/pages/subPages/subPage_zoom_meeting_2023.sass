@@ -2,21 +2,12 @@
 
 #subPage_zoom_meeting_2023 .customSection.sectionParent.subPage_zoom_meeting_2023_0
     padding: 0
-    @include responsivo(telefonoTable)
     .backgroundFull
-        background-position: center bottom
+        background-position: center
         background-repeat: no-repeat
         background-size: cover
-        padding-top: 150px
-        padding-bottom: 90px
-        @include responsivo(telefonoTable)
-            padding-bottom: 150px!important
-            padding-top: 100px!important
-            background-position: center
-        @include responsivo(pcMedio)
-            padding-top: 100px!important
-            padding-bottom: 100px!important
-            background-position: 40%
+
+
     .section-row
         // background-color: #FFFFFF
         // border-radius: 18px
@@ -28,7 +19,6 @@
         @include responsivo(pcMedio)
             width: 90%
             padding: 0
-
         @include responsivo(general)
             width: 100%!important
             max-width: 1000px!important
@@ -36,197 +26,16 @@
         @include responsivo(smallPcTablet)
             // width: 100%!important
             max-width: 920px!important
-
         @include responsivo(resto)
             width: 100%!important
             max-width: 1140px!important
             padding: 0
 
         section.innerSectionElement.sct1
-            margin-bottom: 50px
             z-index: 5
 
             .containElements
-                .primaryTitle
-                    font-family: Nunito
-                    font-style: normal
-                    font-weight: 600
-                    line-height: 1
-                    text-align: center
-                    letter-spacing: -0.03em
-                    color: #322C2E
-                    margin-bottom: 0
-                    span
-                        font-weight: 700
-                        color: #36768A
-                    @include responsivo(telefonoTable)
-                        text-align: center
-                        margin-bottom: 0!important
-                        font-size: 30px!important
-                        span
-                            font-size: 25px!important
-                    @include responsivo(pcMedio)
-                        text-align: center
-                        margin-bottom: 0!important
-                        font-size: 30px!important
-                        span
-                            font-size: 25px!important
-                    @include responsivo(general)
-                        font-size: 45px
-                        span
-                            font-size: 35px
-                    @include responsivo(resto)
-                        font-size: 45px
-                        span
-                            font-size: 35px
 
-        section.innerSectionElement.sct2
-
-            .video
-                position: relative
-                z-index: 10
-                @include responsivo(telefonoTable)
-                    padding-top: 10px!important
-                    margin-bottom: 75px
-                @include responsivo(pcMedio)
-                    padding-top: 10px!important
-                    margin-bottom: 50px
-                @include responsivo(general)
-                    padding-right: 25px
-                    display: flex
-                    flex-direction: column
-                    justify-content: center
-                    align-content: center
-                    align-items: center
-                @include responsivo(resto)
-                    display: flex
-                    flex-direction: column
-                    justify-content: center
-                    align-content: center
-                    align-items: center
-                    padding-right: 25px
-                .youtubeImageContainer
-                    position: relative
-                    @include responsivo(telefonoTable)
-                        margin-bottom: 0
-                        width: 100%
-                        height: 200px
-                        width: 350px
-                    @include responsivo(pcMedio)
-                        height: 225px
-                        width: 400px!important
-                        margin-bottom: 25px
-                    @include responsivo(telefonoTable)
-                        margin: 0 auto
-                    @include responsivo(pcMedio)
-                        margin: 0 auto
-                    @include responsivo(general)
-                        margin: auto
-                        margin-right: 25px
-                        width: 430px!important
-                        height: 244px!important
-                    @include responsivo(smallPcTablet)
-                        width: 430px!important
-                        height: 244px!important
-                        margin-right: 15px
-                    @include responsivo(resto)
-                        margin: auto
-                        margin-right: 25px
-                        width: 430px!important
-                        height: 244px!important
-                    iframe.iframe
-                        margin: 0 auto
-                        display: block
-                        @include responsivo(telefonoTable)
-                            width: 100%
-
-                        @include responsivo(pcMedio)
-                            width: 90%
-        .cardsContainer
-            @include responsivo(telefonoTable)
-                width: 500px
-                margin: auto
-            @include responsivo(pcMedio)
-                width: 500px
-                margin: auto
-            @include responsivo(resto)
-                width: 500px
-            .cardBox
-                background-color: #fff
-                border-radius: 20px
-                padding: 31px 16px
-                box-shadow: 0 6px 30px rgba(54,118,138,.1)
-                text-align: -webkit-center
-                width: 215px
-                height: 244px
-                margin: auto
-                @include responsivo(telefonoTable)
-                    width: 215px
-                    height: 244px
-                    margin: auto
-                    margin-bottom: 20px
-                @include responsivo(pcMedio)
-                    width: 215px
-                    height: 244px
-                    margin: auto
-                    margin-bottom: 20px
-                @include responsivo(resto)
-                        margin-left: 20px
-                        margin-right: 0
-                .primaryButton
-                    border-radius: 10px
-                    &.btnPrim
-                        padding: 12px 13px !important
-                    @include responsivo(general)
-                        margin-left: auto
-                        margin-right: 0
-                    @include responsivo(resto)
-                        margin-left: auto
-                        margin-right: 0
-                .secondaryButton
-                    border-radius: 10px
-                    margin-bottom: 24px
-                    &.btnSec
-                        padding: 12px 20px !important
-            .image
-                z-index: 5
-                .containerImage
-                    margin: 0 0 19px 0
-                    padding: 0
-                    img
-                        display: block
-                        margin: auto
-                        @include responsivo(telefonoTable)
-                            height: 95px
-                            margin-bottom: 15px
-                        @include responsivo(pcMedio)
-                            height: 95px
-                            margin-bottom: 25px
-                        @include responsivo(general)
-                            height: 95px
-                        @include responsivo(smallPcTablet)
-                            height: 95px
-                        @include responsivo(resto)
-                            height: 95px
-            p.pText
-                text-align: center
-                font-family: Nunito
-                font-style: normal
-                font-weight: 500
-                font-size: 14px
-                line-height: 1
-                text-align: center
-                letter-spacing: -0.02em
-                margin: 10px 0 0 0
-                color: #797979
-                @include responsivo(telefonoTable)
-                    font-size: 14px
-                @include responsivo(pcMedio)
-                    font-size: 14px
-                @include responsivo(general)
-                    font-size: 14px
-                @include responsivo(smallPcTablet)
-                    font-size: 14px
 #subPage_zoom_meeting_2023 .customSection.sectionParent.subPage_zoom_meeting_2023_1
     .section-row
         // background-color: #FFFFFF
@@ -243,7 +52,6 @@
             max-width: 1000px!important
             padding: 0
         @include responsivo(smallPcTablet)
-            // width: 100%!important
             max-width: 920px!important
 
         @include responsivo(resto)
