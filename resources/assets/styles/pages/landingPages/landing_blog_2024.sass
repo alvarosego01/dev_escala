@@ -1,0 +1,404 @@
+
+
+@import ../../common/global
+
+
+@mixin body_sectionTitle()
+    color: #36768A
+    text-align: center
+    font-family: Nunito
+    font-style: normal
+    font-weight: 700
+    line-height: 1
+    letter-spacing: -1.25px
+    @include responsivo(telefonoTable)
+        font-size: 25px
+    @include responsivo(pcMedio)
+        font-size: 25px
+    @include responsivo(general)
+        font-size: 37.5px
+    @include responsivo(smallPcTablet)
+        font-size: 35px
+    @include responsivo(resto)
+        font-size: 40px
+
+
+#landing_blog_2024
+    background-color: white
+    .groupBackground
+        background-color: #FAFBFD
+
+#landing_blog_2024 .btnCenter
+    width: 100%
+    display: flex
+    justify-content: center
+    align-content: center
+
+
+
+#landing_blog_2024 .landing_blog_2024_0
+    margin-bottom: 0px
+    overflow: visible
+    @include responsivo(telefonoTable)
+        margin-bottom: 50px
+    @include responsivo(pcMedio)
+        margin-bottom: 50px
+    @include responsivo(general)
+        margin-bottom: 50px
+    @include responsivo(smallPcTablet)
+        margin-bottom: 50px
+    @include responsivo(resto)
+        margin-bottom: 50px
+    .section-row
+        @include responsivo(telefonoTable)
+            width: 95%
+        @include responsivo(pcMedio)
+            width: 90%
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1300px!important
+        @include responsivo(smallPcTablet)
+            width: 100%!important
+            max-width: 900px!important
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1450px!important
+
+        .containerImage
+            margin: 0
+            padding: 0
+
+    .backgroundFull
+        padding-top: 0px
+        background-color: #F6F3FF
+
+        overflow: visible
+        @include responsivo(telefonoTable)
+        @include responsivo(pcMedio)
+            padding-bottom: 0px!important
+        @include responsivo(general)
+            padding-top: 55px
+            padding-bottom: 0px
+        @include responsivo(smallPcTablet)
+            padding-bottom: 0px
+            padding-top: 55px
+        @include responsivo(resto)
+            padding-top: 45px
+            // padding-top: 115px
+            padding-bottom: 0px
+    .section-row
+        position: relative
+        @include responsivo(telefonoTable)
+            padding-top: 10px
+        @include responsivo(pcMedio)
+            padding-top: 0px
+
+        .innerSectionElement.sct1
+            .groupElements
+                height: fit-content
+                position: relative
+                .info
+                    display: flex
+                    flex-direction: column
+                    margin: auto 0
+                    padding-top: 0
+                    position: unset
+                    top: 0
+                    @include responsivo(telefonoTable)
+                        margin-bottom: 0
+                    @include responsivo(pcMedio)
+                        margin-bottom: 0
+                        margin-top: 10px
+                        width: 50%!important
+                    @include responsivo(general)
+                        top: -25px
+                        margin-top: 6%
+                    @include responsivo(smallPcTablet)
+                        margin-top: 2%
+                    @include responsivo(resto)
+                        top: -25px
+                        margin-top: 5%
+                        margin-right: -110px
+                        margin-left: 30px
+                    .containElements
+                        position: unset
+                        padding-bottom: 0
+                        display: flex
+                        margin: 0 0 auto 0
+                        @include responsivo(telefonoTable)
+                            flex-direction: column-reverse
+                        @include responsivo(pcMedio)
+                            flex-direction: column-reverse
+                        @include responsivo(general)
+                            flex-direction: row
+                            margin: 0 0
+                        @include responsivo(smallPcTablet)
+                            flex-direction: column-reverse
+                        @include responsivo(resto)
+                            flex-direction: row
+                            margin: 0 0
+                        .ele
+                            position: relative
+                            .principalBigTitle
+                                font-family: Nunito
+                                font-style: normal
+                                font-weight: 700
+                                line-height: 1
+                                font-size: 35px
+                                letter-spacing: -2px
+                                color: #2C4857
+                                margin-bottom: 15px
+                                @include responsivo(telefonoTable)
+                                    font-size: 30px
+                                    text-align: center
+                                    margin-bottom: 20px
+                                @include responsivo(pcMedio)
+                                    font-size: 26px
+                                    text-align: left!important
+                                @include responsivo(resto)
+                                    width: 520px
+                            .principalBigText
+                                font-family: Nunito
+                                font-style: normal
+                                font-weight: 400
+                                text-align: left
+                                margin-bottom: 0
+                                display: flex
+                                flex-direction: column
+                                line-height: 1.25
+                                letter-spacing: -1px
+                                position: relative
+                                color: #706B6D
+                                @include responsivo(telefonoTable)
+                                    font-size: 16px
+                                    text-align: center
+                                    margin-bottom: 20px
+                                @include responsivo(pcMedio)
+                                    font-size: 16px
+                                    margin-bottom: -20px
+                                    text-align: left!important
+                                @include responsivo(general)
+                                    font-size: 18px
+                                    margin-bottom: 20px
+                                    width: 490px!important
+                                @include responsivo(smallPcTablet)
+                                    font-size: 16px
+                                    margin-bottom: 20px
+                                    width: fit-content!important
+                                @include responsivo(resto)
+                                    font-size: 18px
+                                    margin-bottom: 20px
+                                    width: 490px!important
+                                span
+                                    font-weight: 700
+                                    margin-bottom: -20px
+                                    @include responsivo(telefonoTable)
+                                        margin-bottom: 0px
+                                    @include responsivo(pcMedio)
+                                        margin-bottom: -20px
+                                    @include responsivo(smallPcTablet)
+                                        margin-bottom: 0px
+                        .ele2
+                            display: flex
+                            flex-direction: column
+                            justify-content: center
+                            position: unset
+                            @include responsivo(telefonoTable)
+                                margin-bottom: 0
+                            @include responsivo(pcMedio)
+                                margin-bottom: 0
+                            @include responsivo(general)
+                                left: -25px
+                            @include responsivo(smallPcTablet)
+                                width: 100%!important
+                            .elements
+                                width: 100%
+                                display: flex
+                                flex-direction: row
+                                justify-content: center
+                                align-content: center
+                                align-items: center
+                                position: absolute
+                                @include responsivo(telefonoTable)
+                                    justify-content: center
+                                    align-content: center
+                                    align-items: center
+                                    width: 100%
+                                    display: flex
+                                    flex-direction: column
+                                @include responsivo(pcMedio)
+                                    justify-content: center
+                                    align-content: center
+                                    align-items: center
+                                    width: 100%
+                                    display: flex
+                                    flex-direction: row
+                                    left: 210px
+                                    bottom: -140px
+                                    right: 0
+                                    width: fit-content
+                                @include responsivo(general)
+                                    left: 275px
+                                    bottom: 0
+                                    right: 0
+                                    width: 575px
+                                @include responsivo(smallPcTablet)
+                                    left: 0px
+                                    bottom: -60px
+                                    right: 0
+                                    width: 100%
+                                @include responsivo(resto)
+                                    left: 400px
+                                    bottom: -25px
+                                    right: 0
+                                    width: 575px
+
+                        .ele1
+                            @include responsivo(pcMedio)
+                                position: absolute
+                                bottom: -175px
+                                left: -25px
+                            @include responsivo(smallPcTablet)
+                                position: absolute
+                                bottom: 80px
+                                left: -50px
+                            .containerImage
+                                width: 100%
+                                height: 100%
+                                display: flex
+                                justify-content: center
+                                align-content: centers
+                                position: relative
+                                img
+                                    position: relative
+                                    width: auto
+                                    @include responsivo(telefonoTable)
+                                        height: 175px!important
+                                        margin-bottom: 25px
+                                    @include responsivo(pcMedio)
+                                        height: 200px!important
+                                        margin-bottom: 25px
+                                        margin-left: 0
+                                    @include responsivo(general)
+                                        height: 320px
+                                    @include responsivo(smallPcTablet)
+                                        height: 230px
+                                    @include responsivo(resto)
+                                        height: 327px
+
+                .form7
+                    margin-bottom: 50px
+                    padding: 0 50px
+                    padding-bottom: 50px
+                    display: flex
+                    margin: 0 auto
+                    @include responsivo(telefonoTable)
+                        width: 90%
+                        display: block
+                    @include responsivo(pcMedio)
+                        width: 50%
+                        padding-left: 15px
+                        min-height: 525px
+                    @include responsivo(general)
+                        padding-bottom: 60px
+                        min-height: 520px
+                    @include responsivo(smallPcTablet)
+                        padding-left: 20px
+                        padding-right: 0
+                        padding-bottom: 55px
+                        min-height: 520px
+                    @include responsivo(resto)
+                        // padding-bottom: 0
+                        padding-right: 0
+                        min-height: auto
+                        padding-left: 60px
+                    .formatForm
+                        display: block
+                        margin: 0 auto
+                        background-color: white
+                        box-shadow: 0px 20px 40px rgba(54, 118, 138, 0.2)
+                        border-radius: 20px
+                        h5.titleFormat.blackcolor
+                            color: #36768A!important
+                            @include responsivo(general)
+                                font-size: 20px
+                            @include responsivo(smallPcTablet)
+                                font-size: 18px
+                    .containElements
+                        margin: 0 auto
+
+                .imageReviewsMobile
+                    position: relative
+                    @include responsivo(telefonoTable)
+                        margin-top: 50px
+                        position: relative
+
+                    @include responsivo(pcMedio)
+                        bottom: -25px
+                    .image
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        align-content: center
+
+                        @include responsivo(pcMedio)
+                            position: absolute
+                            top: -285px
+                        .containerImage
+                            width: fit-content
+                            height: fit-content
+                            display: flex
+                            justify-content: center
+                            align-content: centers
+                            position: relative
+                            img
+                                position: relative
+                                width: auto
+                                @include responsivo(telefonoTable)
+                                    height: 225px!important
+                                    margin-bottom: 25px
+                                @include responsivo(pcMedio)
+                                    height: 200px!important
+                                    margin-bottom: 0
+
+
+
+
+
+
+.customSection.sectionParent.blogSingleSection3
+        // display: none
+        background-color: $colorGreyLight
+        @include responsivo(telefonoTable)
+            padding: 50px 0
+        @include responsivo(pcMedio)
+            padding: 50px 0
+        .section-row
+            @include responsivo(telefonoTable)
+                width: 95%
+            @include responsivo(pcMedio)
+                width: 90%
+            @include responsivo(general)
+                width: 80%!important
+                // max-width: 1140px!important
+            @include responsivo(resto)
+                width: 80%!important
+                // max-width: 1240px!important
+
+            .innerSectionElement.sct1
+                margin-bottom: 25px
+                @include responsivo(telefonoTable)
+                    margin-bottom: 25px!important
+
+                .containElements
+                    // padding: 0 150px
+                    .primaryTitle
+                        line-height: 1
+                        text-align: center
+                        font-size: 37px
+                        font-weight: 600
+                        margin-bottom: 50px
+                        @include responsivo(telefonoTable)
+                            font-size: 25px
+                        @include responsivo(pcMedio)
+                            font-size: 30px

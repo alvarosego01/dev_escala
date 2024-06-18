@@ -183,6 +183,12 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_style('landing_CRM_mejora_2024.css', asset_path('styles/pages/landingPages/landing_CRM_mejora_2024.css'), false, THEME_VERSION);
             
         }
+          // ---Landing escala Blog nuevo 2024 
+          if (is_page_template('views/template-landing-escala-blog-2024.blade.php')) {
+            wp_enqueue_style('landing_blog_2024.css', asset_path('styles/pages/landingPages/landing_blog_2024.css'), false, THEME_VERSION);
+            
+        }
+
 
         // -------------------------------------- //
         //  FUNCTIONALITIES 2022
