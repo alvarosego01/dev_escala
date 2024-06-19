@@ -31,7 +31,7 @@
                                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/agendamiento_1.png') !!}" alt="">
                                             </div>
 
-                                            <a
+                                            <a href="https://us02web.zoom.us/j/6758915436"
                                                 class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                                 Iniciar Zoom ahora
                                             </a>
@@ -77,8 +77,9 @@
                                             </div>
 
                                             <a
-                                                class=" secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                                Agendarme
+                                                href="https://api.whatsapp.com/send?phone=17863042407"
+                                                class=" secondaryButton hoverInEffect openPopUpButton agendar popup-general-demo-2022">
+                                                Agendarme online
                                             </a>
                                         </div>
 
