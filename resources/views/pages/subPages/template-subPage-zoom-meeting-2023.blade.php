@@ -73,7 +73,7 @@
 
                                         <div class="action col-md-12 col-lg-5">
                                             <div class="containerImage">
-                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/agendamiento_2.png') !!}" alt="">
+                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/agendamiento_2.png') !!}" alt="">
                                             </div>
 
                                             <a
@@ -115,8 +115,7 @@
                     <section class="innerSectionElement sct3">
                         <div class="groupElements ">
 
-                            <a class="trans" target="_blank"
-                                                href="https://api.whatsapp.com/send?phone=17863042407">
+                            <a class="trans" target="_blank" href="https://api.whatsapp.com/send?phone=17863042407">
                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_blue.png') !!}" alt="">
                                 Recibir apoyo por WhatsApp
                             </a>
@@ -134,9 +133,58 @@
             <div class="section-row">
 
                 <section class="innerSectionElement sct0">
-                    <h3 class="secondaryTitle">
+                    <h2 class="secondaryTitle">
                         Andrés te explica <span>próximos pasos</span>
-                    </h3>
+                    </h2>
+                </section>
+                <section class="innerSectionElement sct1">
+
+                    <div class="video col-md-12">
+
+                        @php
+                            $videoEmbed = App::setFilePath('/assets/videos/zoom_meeting_2023.mp4');
+                            $videoCover = App::setFilePath('/assets/images/illustrations/others/agendamiento_portrait.png');
+                        @endphp
+                        @if (isset($videoEmbed) && $videoEmbed != null)
+                            <div class="youtubeImageContainer ">
+
+                                {{-- <video class="video-js video_2 videoCover" autoplay muted loop>
+                                    <source src="{{ $videoCover }}" type="video/mp4">
+                                    Tu navegador no soporta videos HTML5.
+                                </video> --}}
+
+                                <video id="video_2" class="video-js video_2" controls preload="none"
+                                    poster="{{ $videoCover }}"
+                                    data-setup="{
+                                                          autoplay: false
+                                                        }">
+                                    <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                    <source src="{{ $videoEmbed }}" type="video/webm" />
+                                    <p class="vjs-no-js">
+                                        To view this video please enable JavaScript, and consider
+                                        upgrading to a
+                                        web browser that
+                                        <a href="https://videojs.com/html5-video-support/" target="_blank">supports
+                                            HTML5 video</a>
+                                    </p>
+                                </video>
+
+
+                            </div>
+
+                            <script type="text/javascript">
+                                var player = videojs('video_2');
+
+                                player.on('play', function() {
+
+                                    jQuery('.video_2.videoCover').remove();
+
+                                });
+                            </script>
+                        @endif
+
+                    </div>
+
                 </section>
 
             </div>
@@ -144,4 +192,3 @@
     </div>
 
 </div>
-
