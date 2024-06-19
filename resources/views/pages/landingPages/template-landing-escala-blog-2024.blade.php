@@ -61,10 +61,178 @@
             </div>
         </section>
 
+        <section class="w-full customSection sectionParent landing_blog_2024_1">
+            <div class="section-row">
+                <section class="innerSectionElement sct1 ">
+                    <div class="containElements">
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'landing_blog_2024_2',
+                        'enableTitle' => false,
+                        'titlePrincipal' => null,
+                        'subTitlePrincipal' => null,
+                        'img' => App::setFilePath('/assets/images/blog/blog-seccion-woocomerce-2.png'),
+                        'title' => '
+
+                        ¿Qué es WooCommerce?
+
+                        ',
+                        'text' => 'WooCommerce es un plugin de WordPress que permite crear y gestionar
+                        tiendas en línea de manera sencilla
+                        y personalizable, ideal para vender productos y servicios.',
+                        'enableButton' => false,
+                        'urlButton' => '#lead-form',
+                        'textButton' => 'Recibe un demo',
+                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                        'side' => 'right',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'landing_blog_2024_3',
+                        'enableTitle' => false,
+                        'titlePrincipal' => null,
+                        'subTitlePrincipal' => null,
+                        'img' => App::setFilePath('/assets/images/blog/blog-seccion-woocomerce.png'),
+                        'title' => '¿Qué es la integración de WooCommerce en Escala?',
+                        'text' => 'Escala te permite conectar tu tienda WooCommerce con tu cuenta de Escala,
+                        centralizando toda tu información en una única plataforma.',
+                        'enableButton' => false,
+                        'urlButton' => '#lead-form',
+                        'textButton' => 'Recibe un demo',
+                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                        'side' => 'left',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'landing_blog_2024_4',
+                        'enableTitle' => false,
+                        'titlePrincipal' => null,
+                        'subTitlePrincipal' => null,
+                        'img' => App::setFilePath(
+                        '/assets/images/blog/blog-seccion-logros.png',
+                        ),
+                        'title' => '¿Qué puedes lograr con ella?',
+                        'text' =>'
+                        Mejorar la eficiencia y la rentabilidad de tu negocio:
+
+                        <br class="espace">
+                        <br class="espace">
+                        <span>
+                            <img class="checkIcon" src="' .
+                                    App::setFilePath('/assets/images/icons/orange_dot.png') .
+                                    '" alt="">
+                            Sincroniza automáticamente tus datos de productos, clientes y pedidos.
+                        </span>
+                        <span>
+                            <img class="checkIcon" src="' .
+                                    App::setFilePath('/assets/images/icons/orange_dot.png') .
+                                    '" alt="">
+                            Obtén una vista completa del ciclo de vida de tus clientes.
+                        </span>
+                        <span>
+                            <img class="checkIcon" src="' .
+                                    App::setFilePath('/assets/images/icons/orange_dot.png') .
+                                    '" alt="">
+                            Segmenta a tus clientes según su comportamiento y crea campañas de marketing personalizadas.
+                        </span>
+                        <span>
+                            <img class="checkIcon" src="' .
+                                    App::setFilePath('/assets/images/icons/orange_dot.png') .
+                                    '" alt="">
+                            Automatiza tareas repetitivas como el envío de emails y WhatsApps.
+                        </span>
+
+
+                        ',
+                        'enableButton' => false,
+                        'urlButton' => '#lead-form',
+                        'textButton' => 'Recibe un demo',
+                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                        'side' => 'right',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'landing_blog_2024_5',
+                        'enableTitle' => false,
+                        'titlePrincipal' => null,
+                        'subTitlePrincipal' => null,
+                        'img' => App::setFilePath(
+                        '/assets/images/blog/blog-seccion-analitica.png',
+                        ),
+                        'title' => '¿Cuán fácil es de integrar?',
+                        'text' => '¡Muy fácil! La integración se configura en minutos,
+                        sin necesidad de conocimientos técnicos.',
+                        'enableButton' => false,
+                        'urlButton' => '#lead-form',
+                        'textButton' => 'Recibe un demo',
+                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                        'side' => 'left',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
 
 
 
-        <section class="customSection sectionParent landing_blog_2024 landing_blog_2024_3">
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
+        @slideshowBlog_T1(array(
+        @slot('classSection')
+        landing_blog_2024_6
+        @endslot
+
+        @slot('enableTitle')
+        true
+        @endslot
+
+        @slot('titlePrincipal')
+        ¿Cómo la usan otros negocios?
+        @endslot
+
+        @slot('subTitlePrincipal')
+        Somos "Hogar de Lujo", una mueblería especializada en productos exclusivos. Vendemos a través de nuestra tienda en línea, creada en WordPress y WooCommerce. La integración de WooCommerce con Escala nos ha permitido optimizar enormemente nuestro proceso de ventas.
+        <br class="space">
+        <br class="space">
+        Cuando un cliente realiza una compra, sus datos se transfieren automáticamente al CRM, creando perfiles de leads y asignándoles de inmediato a nuestros vendedores a través de una automatización. Esto nos permite ofrecer una atención personalizada y sin demoras. Además, los emails de confirmación de compra se envían automáticamente, lo que refuerza nuestra profesionalidad y mejora la experiencia del cliente.
+        <br class="space">
+        <br class="space">
+        Las oportunidades de venta en Escala se actualizan automáticamente conforme el estado de la orden en WooCommerce cambia. Esta integración, nos proporciona un control completo sobre nuestro proceso de ventas, permitiendo que las oportunidades pasen fluidamente por las etapas del embudo de ventas hasta que se completen.
+        <br class="space">
+        <br class="space">
+        Con la centralización de datos y la automatización de tareas repetitivas, hemos mejorado significativamente nuestra eficiencia operativa. Ahora podemos enfocarnos más en ofrecer un servicio excepcional y productos de alta calidad, manteniendo una relación cercana con nuestros clientes, estamos muy satisfechos con los resultados.
+
+        @endslot
+
+        @endslideshowBlog_T1
+
+
+
+
+
+
+
+        <section class="customSection sectionParent landing_blog_2024 landing_blog_2024_11">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
