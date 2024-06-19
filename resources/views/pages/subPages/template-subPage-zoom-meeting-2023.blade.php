@@ -3,16 +3,16 @@
     <div class="sections">
         <section class="customSection sectionParent subPage_zoom_meeting_2023_0">
 
-            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/backgrounds/bgZoomMeeting23.svg') !!}')">
+            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/backgrounds/bgZoomMeeting.svg') !!}')">
 
                 <div class="section-row">
 
                     <section class="innerSectionElement sct1">
 
                         <div class="containElements">
-                            <h2 class="primaryTitle blackColor">
+                            <h1 class="primaryTitle blackColor">
                                 <span>¡Éxito!</span> ¿Cuándo deseas recibir el demo?
-                            </h2>
+                            </h1>
 
                         </div>
 
@@ -24,9 +24,9 @@
 
                                 <div class="containElements">
 
-                                    <div class="card">
+                                    <div class="card row">
 
-                                        <div class="action">
+                                        <div class="action col-md-12 col-lg-5">
                                             <div class="containerImage">
                                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/agendamiento_1.png') !!}" alt="">
                                             </div>
@@ -41,7 +41,7 @@
 
                                         </div>
 
-                                        <div class="info">
+                                        <div class="info col-md-12 col-lg-7">
                                             <h4>
                                                 Horarios atención
                                             </h4>
@@ -69,9 +69,9 @@
                                         </div>
 
                                     </div>
-                                    <div class="card">
+                                    <div class="card row">
 
-                                        <div class="action">
+                                        <div class="action col-md-12 col-lg-5">
                                             <div class="containerImage">
                                          <img src="{!! App::setFilePath('/assets/images/illustrations/others/agendamiento_2.png') !!}" alt="">
                                             </div>
@@ -82,7 +82,7 @@
                                             </a>
                                         </div>
 
-                                        <div class="info">
+                                        <div class="info col-md-12 col-lg-7">
                                             <p class="text">
                                                 Te direccionaremos a un <br class="DT_e">
                                                 calendario para que elijas el día <br class="DT_e">
@@ -115,8 +115,9 @@
                     <section class="innerSectionElement sct3">
                         <div class="groupElements ">
 
-                            <a>
-                                <img src="{!! App::setFilePath('/assets/images/banners/02-bg-home2023.png') !!}" alt="">
+                            <a class="trans" target="_blank"
+                                                href="https://api.whatsapp.com/send?phone=17863042407">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_blue.png') !!}" alt="">
                                 Recibir apoyo por WhatsApp
                             </a>
 
