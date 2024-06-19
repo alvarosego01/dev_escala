@@ -73,7 +73,7 @@
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/blog/blog-seccion-woocomerce-2.png'),
+                        'img' => App::setFilePath('/assets/images/blog/blog-seccion-woocommerce-2.png'),
                         'title' => '
 
                         ¿Qué es WooCommerce?
@@ -99,7 +99,7 @@
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/blog/blog-seccion-woocomerce.png'),
+                        'img' => App::setFilePath('/assets/images/blog/blog-seccion-woocommerce.png'),
                         'title' => '¿Qué es la integración de WooCommerce en Escala?',
                         'text' => 'Escala te permite conectar tu tienda WooCommerce con tu cuenta de Escala,
                         centralizando toda tu información en una única plataforma.',
@@ -228,8 +228,109 @@
 
 
 
+        <section class="customSection sectionParent landing_blog_2024_7">
+            <div class="section-row">
+
+                <section class="innerSectionElement sct0">
+
+                    <div class="containElements">
+                        <div class="container mt-5">
+                            <div class="row">
+                                <div class="text-center col-md-12 col-lg-12">
+                                    <h2 class="primaryTitle">
+                                        ¿Cómo se integra o utiliza en Escala?
+                                    </h2>
+                                    <div class="ele video col-md-12" style=".vjs-big-play-button{display:none!important}">
+
+                                        @php
+                                        $videoEmbed = App::setFilePath('/assets/videos/integrar_woocommerce_a_mi_cuenta_escala (720p).mp4');
+                                        $videoCover = App::setFilePath('/assets/images/appEscala/bg-video-usar-app.png');
+                                        @endphp
+
+                                        @if (isset($videoEmbed) && $videoEmbed != null)
+                                        <div class="youtubeImageContainer ">
+
+                                            <video class="video-js" controls preload="none" poster="{{ $videoCover }}" {{-- poster="MY_VIDEO_POSTER.jpg" --}} data-setup="{
+                                          autoplay: false
+                                        }">
+                                                <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                                <source src="{{ $videoEmbed }}" type="video/webm" />
+                                                <p class="vjs-no-js">
+                                                    To view this video please enable JavaScript, and consider
+                                                    upgrading to a
+                                                    web browser that
+                                                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports
+                                                        HTML5 video</a>
+                                                </p>
+                                            </video>
 
 
+                                        </div>
+                                        @endif
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btnCenter">
+                        <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                            Ver tutorial
+                        </a>
+                    </div>
+                </section>
+
+            </div>
+
+        </section>
+
+
+        @php
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'landing_blog_2024_8',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/blog/blog-seccion-andres-moreno.png'),
+        'title' => '¿Qué es Escala?',
+        'text' => 'Un CRM todo-en-uno de marketing y ventas que acelera el crecimiento de empresas con herramientas integradas y acompañamiento personalizado',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ];
+        @endphp
+        @contain_text_image_T1($parameters)
+        @endcontain_text_image_T1
+
+        <section class="customSection sectionParent landing_blog_2024 landing_blog_2024_9">
+            <div class="section-row">
+                <section class="innerSectionElement sct0">
+                    <div class="containElements">
+                        <div class="container mt-5">
+                            <img src="{!! App::setFilePath('/assets/images/blog/banner-integracion-woocomemerce-escala.png') !!}" alt="Imagen banner woocommerce escala" class="card-img-top">
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="customSection sectionParent landing_blog_2024 landing_blog_2024_10">
+            <div class="section-row">
+                <section class="innerSectionElement sct0">
+                    <div class="containElements">
+                        <h2 class="primaryTitle">Si te fue útil ¡Compártelo!</h2>  <span>|</span>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/escalasoftware/" target="_blank"><img src="{!! App::setFilePath('/assets/images/icons/facebook.svg') !!}" alt="Icon facebook escala"></a>
+                            <a href="" target="_blank"><img src="{!! App::setFilePath('/assets/images/icons/twitter.svg') !!}" alt="Icon twitter escala"></a>
+                            <a href="https://www.linkedin.com/company/escalaonline/" target="_blank"><img src="{!! App::setFilePath('/assets/images/icons/linkedin.svg') !!}" alt="Icon linkedin escala"></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
 
 
         <section class="customSection sectionParent landing_blog_2024 landing_blog_2024_11">
