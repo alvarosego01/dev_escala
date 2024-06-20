@@ -59,7 +59,7 @@
             max-width: 1300px!important
         @include responsivo(smallPcTablet)
             width: 100%!important
-            max-width: 900px!important
+            max-width: 980px!important
         @include responsivo(resto)
             width: 100%!important
             max-width: 1450px!important
@@ -259,7 +259,7 @@
                                 left: -25px
                             @include responsivo(smallPcTablet)
                                 position: absolute
-                                bottom: 80px
+                                bottom: 65px
                                 left: -50px
                             .containerImage
                                 width: 100%
@@ -371,7 +371,7 @@
             width: 90%
         @include responsivo(general)
             width: 100%!important
-            max-width: 1140px!important
+            max-width: 900px!important
         @include responsivo(smallPcTablet)
             max-width: 900px!important
         @include responsivo(resto)
@@ -422,7 +422,7 @@
             padding-bottom: 35px
         @include responsivo(general)
             width: 100%!important
-            max-width: 1175px!important
+            max-width: 900px!important
         @include responsivo(smallPcTablet)
             max-width: 900px!important
         @include responsivo(resto)
@@ -488,7 +488,7 @@
                             br
                                 display: none!important
                         @include responsivo(general)
-                            font-size: 27.5px
+                            font-size: 25px
                         @include responsivo(resto)
                             font-size: 25px
                         span
@@ -565,9 +565,9 @@
                                 height: 200px
                                 margin-bottom: 0
                             @include responsivo(general)
-                                height: 280px
+                                height: 240px
                             @include responsivo(smallPcTablet)
-                                height: 260px
+                                height: 230px
                             @include responsivo(resto)
                                 height: 225px
 
@@ -584,7 +584,7 @@
                 .info
                     @include responsivo(general)
                         padding-left: 20px
-                        padding-right: 35px
+                        padding-right: 0px
                     @include responsivo(resto)
                         padding-left: 20px
                         padding-right: 35px
@@ -613,7 +613,7 @@
             padding-bottom: 35px
         @include responsivo(general)
             width: 100%!important
-            max-width: 1175px!important
+            max-width: 900px!important
         @include responsivo(smallPcTablet)
             max-width: 900px!important
         @include responsivo(resto)
@@ -679,7 +679,7 @@
                             br
                                 display: none!important
                         @include responsivo(general)
-                            font-size: 27.5px
+                            font-size: 25px
                         @include responsivo(resto)
                             font-size: 25px
                         span
@@ -761,7 +761,7 @@
                                 height: 200px
                                 margin-bottom: 0
                             @include responsivo(general)
-                                height: 280px
+                                height: 300px
                             @include responsivo(smallPcTablet)
                                 height: 260px
                             @include responsivo(resto)
@@ -780,7 +780,7 @@
                 .info
                     @include responsivo(general)
                         padding-left: 20px
-                        padding-right: 35px
+                        padding-right: 0px
                     @include responsivo(resto)
                         padding-left: 20px
                         padding-right: 35px
@@ -816,6 +816,8 @@
                 .image
                     img
                         height: 255px
+                        @include responsivo(general)
+                            height: 225px
 
                 .info
                     h3.secondaryTitle
@@ -834,7 +836,7 @@
                             br
                                 display: none!important
                         @include responsivo(general)
-                            font-size: 27.5px
+                            font-size: 25px
                         @include responsivo(resto)
                             font-size: 25px
                     .text
@@ -881,13 +883,11 @@
         margin-bottom: 0px
 
     @include responsivo(pcMedio)
-        margin-top: -150px
         margin-bottom: 50px
     @include responsivo(general)
-        margin-top: -100px
         margin-bottom: 0
     @include responsivo(smallPcTablet)
-        margin-top: -75px
+
         margin-bottom: 50px
     @include responsivo(resto)
         margin-top: 0px
@@ -903,8 +903,8 @@
 
         @include responsivo(general)
             width: 90%!important
-            max-width: 1250px!important
-            padding: 0 35px
+            max-width: 900px!important
+            padding: 0px 35px
         @include responsivo(smallPcTablet)
             top: -15px
             max-width: 900px!important
@@ -927,7 +927,7 @@
 
                 .primaryTitle
                     color: #34768A
-                    margin-top: 40px
+                    margin-top: 25px
                     text-align: center
                     font-family: Nunito
                     font-size: 25px
@@ -944,7 +944,7 @@
                         margin-bottom: 30px
                         margin-top: 0px
                     @include responsivo(general)
-                        font-size: 35px
+                        font-size: 25px
                         margin-top: 40px
                         margin-bottom: 100px
                     @include responsivo(smallPcTablet)
@@ -991,11 +991,12 @@
                             margin: auto
                             top: -55px
                             width: 900px!important
-                            height: 350px!important
+                            height: 508px!important
                         @include responsivo(smallPcTablet)
                             top: 0
                             width: 900px!important
-                            height: 350px!important
+                            height: 480px!important
+                            margin-bottom: 50px
                         @include responsivo(resto)
                             margin: auto
                             width: 900px!important
@@ -1056,7 +1057,7 @@
         top: 0
     @include responsivo(pcMedio)
         padding-bottom: 35px
-        padding-top: 50px
+
 
         margin-bottom: 0px
         margin-top: -110px
@@ -1065,9 +1066,7 @@
         padding-top: 0px
         padding-bottom: 50px
         margin-bottom: 0px
-        margin-top: -130px
     @include responsivo(smallPcTablet)
-        margin-top: -150px
     @include responsivo(resto)
         padding-top: 0px
         padding-bottom: 75px
@@ -1455,7 +1454,7 @@
     @include responsivo(pcMedio)
         padding: 15px  10px 55px 10px
     @include responsivo(general)
-        padding: 30px  10px 100px 10px
+        padding: 30px  10px 80px 10px
     @include responsivo(smallPcTablet)
         padding: 0px  10px 70px 10px
     @include responsivo(resto)
@@ -1473,8 +1472,8 @@
 
         @include responsivo(general)
             width: 90%!important
-            max-width: 1250px!important
-            padding: 0 35px
+            max-width: 900px!important
+            padding: 0px 
         @include responsivo(smallPcTablet)
             max-width: 900px!important
         @include responsivo(resto)
@@ -1569,10 +1568,10 @@
 
         @include responsivo(general)
             width: 90%!important
-            max-width: 1250px!important
+            max-width: 1300px!important
             padding: 0 35px
         @include responsivo(smallPcTablet)
-            max-width: 900px!important
+            max-width: 980px!important
         @include responsivo(resto)
             width: 90%!important
             max-width: 1350px!important
