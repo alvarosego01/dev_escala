@@ -2,12 +2,18 @@
 
 namespace App;
 
+use App\Classes\CarbonFields;
 use App\Controllers\ACF_CUSTOM;
 use App\Controllers\SetComponents;
 use Roots\Sage\Assets\JsonManifest;
 use Roots\Sage\Container;
 use Roots\Sage\Template\Blade;
 use Roots\Sage\Template\BladeProvider;
+
+require_once THEME_ROOT_PATH . '/app/Classes/index.php';
+
+$carbon_fields = new CarbonFields();
+$carbon_fields->__init();
 
 /*
  * Theme assets
@@ -181,12 +187,12 @@ add_action('wp_enqueue_scripts', function () {
          // ---Landing escala CRM 2024 mejora
          if (is_page_template('views/template-landing-escala-CRM-mejora-2024.blade.php')) {
             wp_enqueue_style('landing_CRM_mejora_2024.css', asset_path('styles/pages/landingPages/landing_CRM_mejora_2024.css'), false, THEME_VERSION);
-            
+
         }
-          // ---Landing escala Blog nuevo 2024 
+          // ---Landing escala Blog nuevo 2024
           if (is_page_template('views/template-landing-escala-blog-2024.blade.php')) {
             wp_enqueue_style('landing_blog_2024.css', asset_path('styles/pages/landingPages/landing_blog_2024.css'), false, THEME_VERSION);
-            
+
         }
 
 
@@ -582,6 +588,8 @@ function wpcf7_recaptcha_no_refill()
 $setACF = new ACF_CUSTOM();
 $x = $setACF->setACF();
 add_action('acf/init', $setACF->setACF());
+
+
 
 /**
  * Rewrite WordPress URLs to Include /blog/ in Post Permalink Structure.

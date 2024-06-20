@@ -197,7 +197,7 @@
         </section>
 
 
-        @slideshowBlog_T1(array(
+        @slideshowBlog_T1(array())
         @slot('classSection')
         landing_blog_2024_6
         @endslot
@@ -349,8 +349,8 @@
                     </div>
                 </section>
                 <section class="innerSectionElement sct1 row">
-                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb-3">
-                        <div class="card border-0">
+                    <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="border-0 card">
                             <img src="{!! App::setFilePath('/assets/images/blog/img-card-articulo-blog.png') !!}" alt="Imagen pc blog" class="card-img-top">
                             <div class="card-body">
                                 <h6 class="">Formularios</h6>
@@ -358,7 +358,7 @@
                                 <p class="card-text">A constant ability to learn will be on the most crucial skills. Thanks to never-ending piles of data & the amount of insight.</p>
                                 <div class="subCard d-flex justify-content-between align-items-center">
                                     <div class="d-flex align-items-center">
-                                        <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan" class="rounded-circle mr-2">
+                                        <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan" class="mr-2 rounded-circle">
                                         <div>
                                             <p class="mb-0">Anne Bryan</p>
                                             <p class="mb-0">Verified writer</p>
@@ -371,8 +371,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb-3">
-                        <div class="card border-0">
+                    <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="border-0 card">
                             <img src="{!! App::setFilePath('/assets/images/blog/img-card-articulo-blog-2.png') !!}" alt="Imagen pc blog" class="card-img-top">
                             <div class="card-body">
                                 <h6 class="">Formularios</h6>
@@ -380,7 +380,7 @@
                                 <p class="card-text">Thanks to never-ending piles of data & the amount of insight. Thanks to never-ending piles of data & the amount of insight.</p>
                                 <div class="subCard d-flex justify-content-between align-items-center">
                                     <div class="d-flex align-items-center">
-                                        <img src="{!! App::setFilePath('/assets/images/blog/icons/writer-2.png') !!}" alt="Lettie Hale" class="rounded-circle mr-2">
+                                        <img src="{!! App::setFilePath('/assets/images/blog/icons/writer-2.png') !!}" alt="Lettie Hale" class="mr-2 rounded-circle">
                                         <div>
                                             <p class="mb-0">Lettie Hale</p>
                                             <p class="mb-0">Verified writer</p>
@@ -393,16 +393,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb-3">
-                        <div class="card border-0">
+                    <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="border-0 card">
                             <img src="{!! App::setFilePath('/assets/images/blog/img-card-articulo-blog-3.png') !!}" alt="Imagen pc blog" class="card-img-top">
-                            <div class="card-body text-left">
+                            <div class="text-left card-body">
                                 <h6 class="text-left">Formularios</h6>
-                                <h5 class="card-title text-left">Headset No Longer Wired For Sound</h5>
+                                <h5 class="text-left card-title">Headset No Longer Wired For Sound</h5>
                                 <p class="card-text">A constant ability to learn will be on the most crucial skills. Thanks to never-ending piles of data & the amount of insight.</p>
                                 <div class="subCard d-flex justify-content-between align-items-center">
                                     <div class="d-flex align-items-center">
-                                        <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan" class="rounded-circle mr-2">
+                                        <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan" class="mr-2 rounded-circle">
                                         <div>
                                             <p class="mb-0">Anne Bryan</p>
                                             <p class="mb-0">Verified writer</p>

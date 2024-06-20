@@ -1,0 +1,20 @@
+[
+    {
+        "name": "block-text-image",
+        "title": "Blog block text image",
+        "description": "Blog text image block",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "header, title",
+        "fields": [
+            {
+                "key": "header_1_title",
+                "label": "Title",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            }
+        ]
+    }
+
+]
