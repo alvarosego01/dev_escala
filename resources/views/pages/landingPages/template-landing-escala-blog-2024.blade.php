@@ -244,7 +244,7 @@
 
                                         @php
                                         $videoEmbed = App::setFilePath('/assets/videos/integrar_woocommerce_a_mi_cuenta_escala (720p).mp4');
-                                        $videoCover = App::setFilePath('/assets/images/appEscala/bg-video-usar-app.png');
+                                        $videoCover = App::setFilePath('/assets/images/blog/bg-video-blog-2024.png');
                                         @endphp
 
                                         @if (isset($videoEmbed) && $videoEmbed != null)
@@ -284,11 +284,10 @@
 
         </section>
 
-
         @php
         $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landing_blog_2024_8',
+        'classSection' => 'landing_blog_2024_8_1',
         'enableTitle' => false,
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
@@ -309,10 +308,7 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
-                        <div class="container mt-5">
-                            <img src="{!! App::setFilePath('/assets/images/blog/banner-integracion-woocomemerce-escala.png') !!}" alt="Imagen banner woocommerce escala" class="card-img-top">
-
-                        </div>
+                        <img src="{!! App::setFilePath('/assets/images/blog/banner-integracion-woocomemerce-escala.png') !!}" alt="Imagen banner woocommerce escala" class="card-img-top">
                     </div>
                 </section>
             </div>
@@ -321,7 +317,7 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
-                        <h2 class="primaryTitle">Si te fue útil ¡Compártelo!</h2>  <span>|</span>
+                        <h2 class="primaryTitle">Si te fue útil ¡Compártelo!</h2> <span>|</span>
                         <div class="icons">
                             <a href="https://www.facebook.com/escalasoftware/" target="_blank"><img src="{!! App::setFilePath('/assets/images/icons/facebook.svg') !!}" alt="Icon facebook escala"></a>
                             <a href="" target="_blank"><img src="{!! App::setFilePath('/assets/images/icons/twitter.svg') !!}" alt="Icon twitter escala"></a>
