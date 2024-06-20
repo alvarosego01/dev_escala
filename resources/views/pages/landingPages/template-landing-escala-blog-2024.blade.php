@@ -16,7 +16,7 @@
                                     </div>
                                     <div class="ele ele2 col-md-12 col-lg-7">
                                         <h1 class="principalBigTitle blackColor">
-                                            Potencia tu negocio online con la<br class="DT_e">integración de WooCommerce en Escala
+                                            Potencia tu negocio online con la integración de WooCommerce en Escala
                                         </h1>
                                         <p class="principalBigText grayColorTexts">
                                             <span>¿Cansado de gestionar tu tienda online y tu CRM por separado?</span><br class="DT_e">
@@ -196,35 +196,32 @@
             </div>
         </section>
 
+        <section class="w-full customSection sectionParent landing_blog_2024_6">
+            <div class="section-row">
+                <section class="innerSectionElement sct1 ">
+                    <div class="containElements">
+                        <h2 class="primaryTitle">
+                            ¿Cómo la usan otros negocios?
+                        </h2>
+                        <p class="primaryText">
+                            Somos "Hogar de Lujo", una mueblería especializada en productos exclusivos. Vendemos a través de nuestra tienda en línea, creada en WordPress y WooCommerce. La integración de WooCommerce con Escala nos ha permitido optimizar enormemente nuestro proceso de ventas.
+                            <br class="space">
+                            <br class="space">
+                            Cuando un cliente realiza una compra, sus datos se transfieren automáticamente al CRM, creando perfiles de leads y asignándoles de inmediato a nuestros vendedores a través de una automatización. Esto nos permite ofrecer una atención personalizada y sin demoras. Además, los emails de confirmación de compra se envían automáticamente, lo que refuerza nuestra profesionalidad y mejora la experiencia del cliente.
+                            <br class="space">
+                            <br class="space">
+                            Las oportunidades de venta en Escala se actualizan automáticamente conforme el estado de la orden en WooCommerce cambia. Esta integración, nos proporciona un control completo sobre nuestro proceso de ventas, permitiendo que las oportunidades pasen fluidamente por las etapas del embudo de ventas hasta que se completen.
+                            <br class="space">
+                            <br class="space">
+                            Con la centralización de datos y la automatización de tareas repetitivas, hemos mejorado significativamente nuestra eficiencia operativa. Ahora podemos enfocarnos más en ofrecer un servicio excepcional y productos de alta calidad, manteniendo una relación cercana con nuestros clientes, estamos muy satisfechos con los resultados.
 
-        @slideshowBlog_T1(array(
-        @slot('classSection')
-        landing_blog_2024_6
-        @endslot
+                        </p>
 
-        @slot('enableTitle')
-        true
-        @endslot
 
-        @slot('titlePrincipal')
-        ¿Cómo la usan otros negocios?
-        @endslot
-
-        @slot('subTitlePrincipal')
-        Somos "Hogar de Lujo", una mueblería especializada en productos exclusivos. Vendemos a través de nuestra tienda en línea, creada en WordPress y WooCommerce. La integración de WooCommerce con Escala nos ha permitido optimizar enormemente nuestro proceso de ventas.
-        <br class="space">
-        <br class="space">
-        Cuando un cliente realiza una compra, sus datos se transfieren automáticamente al CRM, creando perfiles de leads y asignándoles de inmediato a nuestros vendedores a través de una automatización. Esto nos permite ofrecer una atención personalizada y sin demoras. Además, los emails de confirmación de compra se envían automáticamente, lo que refuerza nuestra profesionalidad y mejora la experiencia del cliente.
-        <br class="space">
-        <br class="space">
-        Las oportunidades de venta en Escala se actualizan automáticamente conforme el estado de la orden en WooCommerce cambia. Esta integración, nos proporciona un control completo sobre nuestro proceso de ventas, permitiendo que las oportunidades pasen fluidamente por las etapas del embudo de ventas hasta que se completen.
-        <br class="space">
-        <br class="space">
-        Con la centralización de datos y la automatización de tareas repetitivas, hemos mejorado significativamente nuestra eficiencia operativa. Ahora podemos enfocarnos más en ofrecer un servicio excepcional y productos de alta calidad, manteniendo una relación cercana con nuestros clientes, estamos muy satisfechos con los resultados.
-
-        @endslot
-
-        @endslideshowBlog_T1
+                    </div>
+                </section>
+            </div>
+        </section>
 
 
 
