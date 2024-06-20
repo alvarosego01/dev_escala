@@ -14,6 +14,7 @@ class ComposerStaticInitddf29a72f4052be101d3e884c8605b7a
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
+        'a29ceb88a100d82724dae1c16d2133ad' => __DIR__ . '/..' . '/garrettweinberg/sage-bootstrap5-navwalker/bootstrap5-navwalker.php',
         'b50336562d531777993d90ca775abd88' => __DIR__ . '/..' . '/soberwp/controller/controller.php',
     );
 
