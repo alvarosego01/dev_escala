@@ -13,7 +13,7 @@
                     <h3 class="secondaryTitle">
 
 
-                        ¿Qué es WooCommerce?
+                     HOLA ENDER
 
 
                     </h3>

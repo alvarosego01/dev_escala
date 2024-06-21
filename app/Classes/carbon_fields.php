@@ -3,10 +3,7 @@
 namespace App\Classes;
 
 use Carbon_Fields\Block;
-use Carbon_Fields\Container;
 use Carbon_Fields\Field;
-use Carbon_Fields\Carbon_Fields;
-
 
 class CarbonFields
 {
@@ -27,7 +24,6 @@ class CarbonFields
         \Carbon_Fields\Carbon_Fields::boot();
     }
 
-
     public function register_blocks()
     {
 
@@ -40,7 +36,6 @@ class CarbonFields
                 if (isset($blocks) && is_array($blocks) && !empty($blocks)) {
                     foreach ($blocks as $block) {
 
-                        // echo '<pre>'; print_r($block); echo '</pre>';
                         $this->register_block($block);
                     }
                 }
@@ -126,7 +121,6 @@ class CarbonFields
         }
 
         if (isset($field['condition'])) {
-            // En Carbon Fields, el manejo de condiciones es un poco diferente y se debe ajustar a su API.
             $carbon_field->set_conditional_logic([
                 'relation' => 'AND', // O 'OR' dependiendo de tus necesidades
                 [
@@ -191,16 +185,17 @@ class CarbonFields
             ->set_keywords(explode(',', $block['keywords']))
             ->set_render_callback(function ($fields, $attributes, $inner_blocks) use ($slug, $folder) {
 
-                $c = THEME_ROOT_PATH . "/resources/views/components/blocks/{$folder}/{$slug}/{$slug}.php";
+                $c = THEME_ROOT_PATH . "/resources/views/components/blocks/{$folder}/{$slug}";
 
-                if (file_exists($c)) {
+                if (file_exists($c . "/{$slug}.php")) {
 
                     $context = [
                         'slug' => $slug,
-                        'fields' => $fields
+                        'fields' => $fields,
+                        'path' => $c,
                     ];
 
-                    include($c);
+                    include($c . "/{$slug}.php");
                 }
             });
     }

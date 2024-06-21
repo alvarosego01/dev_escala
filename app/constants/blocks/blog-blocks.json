@@ -13,8 +13,15 @@
                 "label": "Title",
                 "type": "rich_text",
                 "default": "lorem ipsum dolor sit amet"
+            },
+            {
+                "key": "header_2_title",
+                "label": "Title 2",
+                "type": "text",
+                "default": "lorem ipsum dolor sit amet"
             }
         ]
     }
+
 
 ]
