@@ -16,7 +16,7 @@
                                     </div>
                                     <div class="ele ele2 col-md-12 col-lg-7">
                                         <h1 class="principalBigTitle blackColor">
-                                            Potencia tu negocio online con la<br class="DT_e">integración de WooCommerce en Escala
+                                            Potencia tu negocio online con la integración de WooCommerce en Escala
                                         </h1>
                                         <p class="principalBigText grayColorTexts">
                                             <span>¿Cansado de gestionar tu tienda online y tu CRM por separado?</span><br class="DT_e">
@@ -196,35 +196,32 @@
             </div>
         </section>
 
+        <section class="w-full customSection sectionParent landing_blog_2024_6">
+            <div class="section-row">
+                <section class="innerSectionElement sct1 ">
+                    <div class="containElements">
+                        <h2 class="primaryTitle">
+                            ¿Cómo la usan otros negocios?
+                        </h2>
+                        <p class="primaryText">
+                            Somos "Hogar de Lujo", una mueblería especializada en productos exclusivos. Vendemos a través de nuestra tienda en línea, creada en WordPress y WooCommerce. La integración de WooCommerce con Escala nos ha permitido optimizar enormemente nuestro proceso de ventas.
+                            <br class="space">
+                            <br class="space">
+                            Cuando un cliente realiza una compra, sus datos se transfieren automáticamente al CRM, creando perfiles de leads y asignándoles de inmediato a nuestros vendedores a través de una automatización. Esto nos permite ofrecer una atención personalizada y sin demoras. Además, los emails de confirmación de compra se envían automáticamente, lo que refuerza nuestra profesionalidad y mejora la experiencia del cliente.
+                            <br class="space">
+                            <br class="space">
+                            Las oportunidades de venta en Escala se actualizan automáticamente conforme el estado de la orden en WooCommerce cambia. Esta integración, nos proporciona un control completo sobre nuestro proceso de ventas, permitiendo que las oportunidades pasen fluidamente por las etapas del embudo de ventas hasta que se completen.
+                            <br class="space">
+                            <br class="space">
+                            Con la centralización de datos y la automatización de tareas repetitivas, hemos mejorado significativamente nuestra eficiencia operativa. Ahora podemos enfocarnos más en ofrecer un servicio excepcional y productos de alta calidad, manteniendo una relación cercana con nuestros clientes, estamos muy satisfechos con los resultados.
 
-        @slideshowBlog_T1(array())
-        @slot('classSection')
-        landing_blog_2024_6
-        @endslot
+                        </p>
 
-        @slot('enableTitle')
-        true
-        @endslot
 
-        @slot('titlePrincipal')
-        ¿Cómo la usan otros negocios?
-        @endslot
-
-        @slot('subTitlePrincipal')
-        Somos "Hogar de Lujo", una mueblería especializada en productos exclusivos. Vendemos a través de nuestra tienda en línea, creada en WordPress y WooCommerce. La integración de WooCommerce con Escala nos ha permitido optimizar enormemente nuestro proceso de ventas.
-        <br class="space">
-        <br class="space">
-        Cuando un cliente realiza una compra, sus datos se transfieren automáticamente al CRM, creando perfiles de leads y asignándoles de inmediato a nuestros vendedores a través de una automatización. Esto nos permite ofrecer una atención personalizada y sin demoras. Además, los emails de confirmación de compra se envían automáticamente, lo que refuerza nuestra profesionalidad y mejora la experiencia del cliente.
-        <br class="space">
-        <br class="space">
-        Las oportunidades de venta en Escala se actualizan automáticamente conforme el estado de la orden en WooCommerce cambia. Esta integración, nos proporciona un control completo sobre nuestro proceso de ventas, permitiendo que las oportunidades pasen fluidamente por las etapas del embudo de ventas hasta que se completen.
-        <br class="space">
-        <br class="space">
-        Con la centralización de datos y la automatización de tareas repetitivas, hemos mejorado significativamente nuestra eficiencia operativa. Ahora podemos enfocarnos más en ofrecer un servicio excepcional y productos de alta calidad, manteniendo una relación cercana con nuestros clientes, estamos muy satisfechos con los resultados.
-
-        @endslot
-
-        @endslideshowBlog_T1
+                    </div>
+                </section>
+            </div>
+        </section>
 
 
 
@@ -236,15 +233,30 @@
                     <div class="containElements">
                         <div class="container mt-5">
                             <div class="row">
-                                <div class="text-center col-md-12 col-lg-12">
+                                <div class="col-md-12 col-lg-12">
                                     <h2 class="primaryTitle">
                                         ¿Cómo se integra o utiliza en Escala?
                                     </h2>
+                                    <p class="text">
+                                        Para crear un flujo de automatizaciones, es importante que conozcas cada función, de esa forma podrás aprovechar al máximo la herramienta
+                                        y ejecutar acciones apropiadas para el cumplimiento de tus objetivos. A continuación, te presentamos algunas interrogantes para explicarte
+                                        un poco sobre 4 funcionalidades prácticas de la herramienta de automatización de Escala:
+                                    </p>
+
+                                    <h3 class="secondaryTitle">
+                                        1. ¿Cómo es posible visualizar las métricas de mensajes de WhatsApp en automatizaciones?
+                                    </h3>
+                                    <p class="text">
+                                        Para un correcto análisis y seguimiento de los resultados, es importante visualizar las métricas de los flujos, ya sean establecidos con envío de mensajes simples, con listas de opciones o de plantillas aprobadas por Meta.
+                                        <br><br>
+                                        Desde la plataforma de Escala, puedes visualizar dichas métricas desde el interior de cada flujo de WhatsApp creado, activandolo previamente.
+                                    </p>
+
                                     <div class="ele video col-md-12" style=".vjs-big-play-button{display:none!important}">
 
                                         @php
                                         $videoEmbed = App::setFilePath('/assets/videos/integrar_woocommerce_a_mi_cuenta_escala (720p).mp4');
-                                        $videoCover = App::setFilePath('/assets/images/appEscala/bg-video-usar-app.png');
+                                        $videoCover = App::setFilePath('/assets/images/blog/bg-video-blog-2024.png');
                                         @endphp
 
                                         @if (isset($videoEmbed) && $videoEmbed != null)
@@ -284,11 +296,10 @@
 
         </section>
 
-
         @php
         $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landing_blog_2024_8',
+        'classSection' => 'landing_blog_2024_8_1',
         'enableTitle' => false,
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
@@ -309,10 +320,7 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
-                        <div class="container mt-5">
-                            <img src="{!! App::setFilePath('/assets/images/blog/banner-integracion-woocomemerce-escala.png') !!}" alt="Imagen banner woocommerce escala" class="card-img-top">
-
-                        </div>
+                        <img src="{!! App::setFilePath('/assets/images/blog/banner-integracion-woocomemerce-escala.png') !!}" alt="Imagen banner woocommerce escala" class="card-img-top">
                     </div>
                 </section>
             </div>
@@ -321,7 +329,7 @@
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
-                        <h2 class="primaryTitle">Si te fue útil ¡Compártelo!</h2>  <span>|</span>
+                        <h2 class="primaryTitle">Si te fue útil ¡Compártelo!</h2> <span>|</span>
                         <div class="icons">
                             <a href="https://www.facebook.com/escalasoftware/" target="_blank"><img src="{!! App::setFilePath('/assets/images/icons/facebook.svg') !!}" alt="Icon facebook escala"></a>
                             <a href="" target="_blank"><img src="{!! App::setFilePath('/assets/images/icons/twitter.svg') !!}" alt="Icon twitter escala"></a>
@@ -349,8 +357,8 @@
                     </div>
                 </section>
                 <section class="innerSectionElement sct1 row">
-                    <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4">
-                        <div class="border-0 card">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb-3">
+                        <div class="card border-0">
                             <img src="{!! App::setFilePath('/assets/images/blog/img-card-articulo-blog.png') !!}" alt="Imagen pc blog" class="card-img-top">
                             <div class="card-body">
                                 <h6 class="">Formularios</h6>
@@ -358,7 +366,7 @@
                                 <p class="card-text">A constant ability to learn will be on the most crucial skills. Thanks to never-ending piles of data & the amount of insight.</p>
                                 <div class="subCard d-flex justify-content-between align-items-center">
                                     <div class="d-flex align-items-center">
-                                        <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan" class="mr-2 rounded-circle">
+                                        <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan" class="rounded-circle mr-2">
                                         <div>
                                             <p class="mb-0">Anne Bryan</p>
                                             <p class="mb-0">Verified writer</p>
@@ -371,8 +379,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4">
-                        <div class="border-0 card">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb-3">
+                        <div class="card border-0">
                             <img src="{!! App::setFilePath('/assets/images/blog/img-card-articulo-blog-2.png') !!}" alt="Imagen pc blog" class="card-img-top">
                             <div class="card-body">
                                 <h6 class="">Formularios</h6>
@@ -380,7 +388,7 @@
                                 <p class="card-text">Thanks to never-ending piles of data & the amount of insight. Thanks to never-ending piles of data & the amount of insight.</p>
                                 <div class="subCard d-flex justify-content-between align-items-center">
                                     <div class="d-flex align-items-center">
-                                        <img src="{!! App::setFilePath('/assets/images/blog/icons/writer-2.png') !!}" alt="Lettie Hale" class="mr-2 rounded-circle">
+                                        <img src="{!! App::setFilePath('/assets/images/blog/icons/writer-2.png') !!}" alt="Lettie Hale" class="rounded-circle mr-2">
                                         <div>
                                             <p class="mb-0">Lettie Hale</p>
                                             <p class="mb-0">Verified writer</p>
@@ -393,16 +401,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4">
-                        <div class="border-0 card">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 mb-3">
+                        <div class="card border-0">
                             <img src="{!! App::setFilePath('/assets/images/blog/img-card-articulo-blog-3.png') !!}" alt="Imagen pc blog" class="card-img-top">
-                            <div class="text-left card-body">
+                            <div class="card-body text-left">
                                 <h6 class="text-left">Formularios</h6>
-                                <h5 class="text-left card-title">Headset No Longer Wired For Sound</h5>
+                                <h5 class="card-title text-left">Headset No Longer Wired For Sound</h5>
                                 <p class="card-text">A constant ability to learn will be on the most crucial skills. Thanks to never-ending piles of data & the amount of insight.</p>
                                 <div class="subCard d-flex justify-content-between align-items-center">
                                     <div class="d-flex align-items-center">
-                                        <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan" class="mr-2 rounded-circle">
+                                        <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan" class="rounded-circle mr-2">
                                         <div>
                                             <p class="mb-0">Anne Bryan</p>
                                             <p class="mb-0">Verified writer</p>
