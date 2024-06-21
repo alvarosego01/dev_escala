@@ -233,10 +233,25 @@
                     <div class="containElements">
                         <div class="container mt-5">
                             <div class="row">
-                                <div class="text-center col-md-12 col-lg-12">
+                                <div class="col-md-12 col-lg-12">
                                     <h2 class="primaryTitle">
                                         ¿Cómo se integra o utiliza en Escala?
                                     </h2>
+                                    <p class="text">
+                                        Para crear un flujo de automatizaciones, es importante que conozcas cada función, de esa forma podrás aprovechar al máximo la herramienta
+                                        y ejecutar acciones apropiadas para el cumplimiento de tus objetivos. A continuación, te presentamos algunas interrogantes para explicarte
+                                        un poco sobre 4 funcionalidades prácticas de la herramienta de automatización de Escala:
+                                    </p>
+
+                                    <h3 class="secondaryTitle">
+                                        1. ¿Cómo es posible visualizar las métricas de mensajes de WhatsApp en automatizaciones?
+                                    </h3>
+                                    <p class="text">
+                                        Para un correcto análisis y seguimiento de los resultados, es importante visualizar las métricas de los flujos, ya sean establecidos con envío de mensajes simples, con listas de opciones o de plantillas aprobadas por Meta.
+                                        <br><br>
+                                        Desde la plataforma de Escala, puedes visualizar dichas métricas desde el interior de cada flujo de WhatsApp creado, activandolo previamente.
+                                    </p>
+
                                     <div class="ele video col-md-12" style=".vjs-big-play-button{display:none!important}">
 
                                         @php
