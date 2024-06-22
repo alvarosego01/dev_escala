@@ -15,6 +15,8 @@ require_once THEME_ROOT_PATH . '/app/Classes/index.php';
 $carbon_fields = new CarbonFields();
 $carbon_fields->__init();
 
+ 
+
 /*
  * Theme assets
  */

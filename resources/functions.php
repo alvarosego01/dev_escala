@@ -1,5 +1,7 @@
 <?php
 
+use App\Classes\CarbonFields;
+
 if (!defined('THEME_ROOT_PATH')) {
     define('THEME_ROOT_PATH', get_stylesheet_directory().'/..');
 }

@@ -2,14 +2,31 @@
     Template Name: [B] Blog - Single - 2024
     Template Post Type: post
 --}}
+@php
+    use App\Classes\CarbonFields;
+    $carbon_fields = new CarbonFields();
+    $settings = $carbon_fields->load_post_type_settings(get_the_ID());
 
+    $catevory = get_the_category();
+    if ($category != null && count($category) > 0) {
+        $category = $category[0]->name;
+    }
 
-<?php
-$catevory = get_the_category();
-if ($category != null && count($category) > 0) {
-    $category = $category[0]->name;
-}
-?>
+@endphp
+
+@php
+
+    $post = $settings['post'];
+
+    $blog_single_1_title = $post['blog_single_1_title'];
+    $blog_single_1_parag = $post['blog_single_1_parag'];
+    $blog_single_1_image_header = $post['blog_single_1_image_header'];
+    $blog_single_1_background_header = $post['blog_single_1_background_header'];
+    $blog_single_1_banner_d = $post['blog_single_1_banner_d'];
+    $blog_single_1_banner_m = $post['blog_single_1_banner_m'];
+    $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
+
+@endphp
 
 
 @extends('layouts.app')
@@ -20,10 +37,10 @@ if ($category != null && count($category) > 0) {
 
         <div class="sections">
 
-
             <section id="lead-form"
                 class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol single_blog_2024 single_blog_2024_0">
-                <div class="backgroundFull">
+                <div class="backgroundFull"
+                    style="background-image: url('{{ App::get_img($blog_single_1_background_header, 'src') }}');">
                     <div class="section-row">
                         <section class="innerSectionElement sct1">
                             <div class="groupElements row">
@@ -31,22 +48,27 @@ if ($category != null && count($category) > 0) {
                                     <div class="containElements row threeCol">
                                         <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
                                             <div class="containerImage">
-                                                <img alt="Ilustración Mujer Blog"
-                                                    src="{{ App::setFilePath('/assets/images/person/blog-escala-2024-women-header.png') }}"
+
+                                                <img alt="{{ App::get_img($blog_single_1_image_header, 'alt') }}"
+                                                    src="{{ App::get_img($blog_single_1_image_header, 'src') }}"
                                                     loading="lazy">
+
                                             </div>
                                         </div>
                                         <div class="ele ele2 col-md-12 col-lg-7">
-                                            <h1 class="principalBigTitle blackColor">
-                                                Potencia tu negocio online con la integración de WooCommerce en Escala
-                                            </h1>
-                                            <p class="principalBigText grayColorTexts">
-                                                <span>¿Cansado de gestionar tu tienda online y tu CRM por
-                                                    separado?</span><br class="DT_e">
-                                                Sincronizar manualmente tus datos de ventas, clientes e inventario puede ser
-                                                una tarea tediosa y propensa a errores. ¡Ahorra tiempo y aumenta la
-                                                eficiencia con la integración de WooCommerce en Escala!
-                                            </p>
+
+                                            @if ($blog_single_1_title)
+                                                <h1 class="principalBigTitle blackColor">
+                                                    {!! $blog_single_1_title !!}
+                                                </h1>
+                                            @endif
+
+                                            @if ($blog_single_1_parag)
+                                                <div class="principalBigText grayColorTexts">
+                                                    {!! $blog_single_1_parag !!}
+                                                </div>
+                                            @endif
+
                                         </div>
                                     </div>
                                 </div>
@@ -76,8 +98,8 @@ if ($category != null && count($category) > 0) {
                                 <div class="imageReviewsMobile hideOnDesktop">
                                     <div class="image">
                                         <div class="containerImage">
-                                            <img alt="Ilustración Mujer Blog"
-                                                src="{{ App::setFilePath('/assets/images/person/blog-escala-2024-women-header.png') }}">
+                                            <img alt="{{ App::get_img($blog_single_1_image_header, 'alt') }}"
+                                                src="{{ App::get_img($blog_single_1_image_header, 'src') }}" loading="lazy">
                                         </div>
                                     </div>
                                 </div>
@@ -107,7 +129,26 @@ if ($category != null && count($category) > 0) {
                 <div class="section-row">
                     <section class="innerSectionElement sct0">
                         <div class="containElements">
-                            <img src="{!! App::setFilePath('/assets/images/blog/banner-integracion-woocomemerce-escala.png') !!}" alt="Imagen banner woocommerce escala" class="card-img-top">
+
+                            @if ($blog_single_1_banner_d)
+                                <img alt="{{ App::get_img($blog_single_1_banner_d, 'alt') }}"
+                                    src="{{ App::get_img($blog_single_1_banner_d, 'src') }}" loading="lazy"
+                                    class="card-img-top bannerSingleBlog D_e">
+                            @endif
+
+                            @if ($blog_single_1_banner_m)
+                                <img alt="{{ App::get_img($blog_single_1_banner_m, 'alt') }}"
+                                    src="{{ App::get_img($blog_single_1_banner_m, 'src') }}" loading="lazy"
+                                    class="card-img-top bannerSingleBlog M_e">
+                            @endif
+
+
+                            <script>
+                                jQuery('.bannerSingleBlog').on('click', function() {
+                                    window.open('{!! $blog_single_1_banner_url !!}', '_blank');
+                                });
+                            </script>
+
                         </div>
                     </section>
                 </div>
@@ -147,30 +188,69 @@ if ($category != null && count($category) > 0) {
                             </div>
                         </div>
                     </section>
+
+                    @php
+                        $query = [
+                            'post_type' => 'post',
+                            'category_name' => $category,
+                            'posts_per_page' => 3,
+                            'order' => 'DESC',
+                        ];
+                        $query = Posts::getPosts($query);
+                        $posts = $query->get_posts();
+                    @endphp
+
                     <section class="innerSectionElement sct1 row">
-                        <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="border-0 card">
-                                <img src="{!! App::setFilePath('/assets/images/blog/img-card-articulo-blog.png') !!}" alt="Imagen pc blog" class="card-img-top">
-                                <div class="card-body">
-                                    <h6 class="">Formularios</h6>
-                                    <h5 class="card-title">Headset No Longer Wired For Sound</h5>
-                                    <p class="card-text">A constant ability to learn will be on the most crucial skills.
-                                        Thanks to never-ending piles of data & the amount of insight.</p>
-                                    <div class="subCard d-flex justify-content-between align-items-center">
-                                        <div class="d-flex align-items-center">
-                                            <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan" class="mr-2 rounded-circle">
-                                            <div>
-                                                <p class="mb-0">Anne Bryan</p>
-                                                <p class="mb-0">Verified writer</p>
+                        @if (isset($posts) && $posts != null)
+                            @foreach ($posts as $index => $item)
+                                @php
+                                    $post_tags = get_the_tags($item->ID);
+                                @endphp
+
+                                <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4">
+                                    <div class="border-0 card">
+
+                                        <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
+                                            <img src="{{ Posts::getPhoto($item->ID) }}" class="card-img-top">
+                                        </a>
+
+                                        <div class="card-body">
+                                            <h6 class="">
+                                            @foreach ($catevory as $item)
+                                                {{ $item->name }}
+                                            @endforeach
+                                            </h6>
+                                            <h5 class="card-title">
+                                                    {{ $item->post_title }}
+                                            </h5>
+                                            <p class="card-text">
+                                                           {!! ACF_CUSTOM::_getField('excerpt_single', $item->ID) !!}
+                                                </p>
+                                            <div class="subCard d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan"
+                                                        class="mr-2 rounded-circle">
+                                                    <div>
+                                                        <p class="mb-0">Anne Bryan</p>
+                                                        <p class="mb-0">Verified writer</p>
+                                                    </div>
+                                                </div>
+                                                <div class="div-2">
+                                                    <p class="mb-0">
+                                                           @php
+                                        $date = $item->post_date;
+                                        $sec = strtotime($date);
+                                        $newdate = date ("j M ", $sec);
+                                        echo $newdate;
+                                    @endphp
+                                                    </p>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="div-2">
-                                            <p class="mb-0">02 May</p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            @endforeach
+                        @endif
 
                     </section>
                 </div>

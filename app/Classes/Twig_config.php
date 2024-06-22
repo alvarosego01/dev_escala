@@ -25,7 +25,7 @@ class Twig_Config
             $this->twig->addExtension(new DebugExtension());
         }
 
-                $this->twig->addFunction(new TwigFunction('get_img', [new Blocks_functions(), 'get_img']));
+                $this->twig->addFunction(new TwigFunction('get_img', [new GlobalServices(), 'get_img']));
 
     }
 

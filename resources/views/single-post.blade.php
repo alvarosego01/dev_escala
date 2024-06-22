@@ -4,7 +4,7 @@
 --}}
 
 
- 
+
 
 <?php
 $catevory = get_the_category();
@@ -111,9 +111,6 @@ if ($category != null && count($category) > 0) {
             </section>
 
             @php
-
-                // echo $category;
-
                 $query = [
                     'post_type' => 'post',
                     'category_name' => $category,

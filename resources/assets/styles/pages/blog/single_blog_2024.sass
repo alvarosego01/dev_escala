@@ -33,6 +33,12 @@
     justify-content: center
     align-content: center
 
+.bannerSingleBlog
+    &:hover
+        cursor: pointer!important
+        // transform: scale(1.1)
+
+
 #single_blog_2024 .single_blog_2024_0
     margin-bottom: 0px
     overflow: visible
@@ -66,10 +72,9 @@
             padding: 0
     .backgroundFull
         padding-top: 0px
-        background-color: #F6F3FF
-
         overflow: visible
-        @include responsivo(telefonoTable)
+        background-size: cover
+        background-position: center
         @include responsivo(pcMedio)
             padding-bottom: 0px!important
         @include responsivo(general)
@@ -374,12 +379,12 @@
 
         @include responsivo(general)
             width: 100%!important
-            max-width: 900px!important
+            max-width: 1000px!important
         @include responsivo(smallPcTablet)
             max-width: 900px!important
         @include responsivo(resto)
             width: 100%!important
-            max-width: 900px!important
+            max-width: 1140px!important
 
         .innerSectionElement.sct1
             .containElements

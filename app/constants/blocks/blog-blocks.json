@@ -1,4 +1,76 @@
 [
+
+    {
+        "name": "block-video",
+        "title": "Blog block video",
+        "description": "Blog video block",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "video, cta",
+        "fields": [
+            {
+                "key": "text_video_1_title",
+                "label": "Title",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            },
+            {
+                "key": "text_video_1_parag",
+                "label": "Paragraph",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            },
+            {
+                "key": "text_video_1_image_portrait",
+                "label": "Portrait",
+                "type": "image",
+                "default": ""
+            },
+            {
+                "key": "text_video_1_video",
+                "label": "Video",
+                "type": "file",
+                "default": ""
+            },
+                {
+                "key": "text_video_1_label",
+                "label": "Button 1 text",
+                "type": "text",
+                "default": "Button"
+            },
+            {
+                "key": "text_video_1_url",
+                "label": "Button 1 URL",
+                "type": "url",
+                "default": "#"
+            }
+        ]
+    },
+    {
+        "name": "block-text-parag",
+        "title": "Blog block text parag",
+        "description": "Blog text parag block",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "text, parag",
+        "fields": [
+            {
+                "key": "text_parag_1_title",
+                "label": "Title",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            },
+
+            {
+                "key": "text_parag_1_parag",
+                "label": "Paragraph",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            }
+        ]
+    },
     {
         "name": "block-text-image",
         "title": "Blog block text image",
@@ -6,20 +78,8 @@
         "category": "blog",
         "icon": "admin-comments",
         "folder": "blog",
-        "keywords": "header, title",
+        "keywords": "text, image, title",
           "fields": [
-            {
-                "key": "media_text_1_title",
-                "label": "Title",
-                "type": "rich_text",
-                "default": "lorem ipsum dolor sit amet"
-            },
-            {
-                "key": "media_text_1_subtitle",
-                "label": "Subtitle",
-                "type": "rich_text",
-                "default": "lorem ipsum dolor sit amet"
-            },
             {
                 "key": "media_text_1_sections",
                 "label": "Sections",

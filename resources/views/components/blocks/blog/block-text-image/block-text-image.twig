@@ -2,12 +2,12 @@
 {% set media_text_1_subtitle = fields.media_text_1_subtitle %}
 {% set media_text_1_sections = fields.media_text_1_sections %}
 
-<section class="block-blog-text-image customSection sectionParent ">
+<section class="block_blog_text_image customSection sectionParent ">
 
-	<div class="section-row">
+	<div class="section_contain">
 
-		{% if media_text_1_title != '' or media_text_1_title != '' %}
-			<section class="innerSectionElement sct2 ">
+		{# {% if media_text_1_title != '' or media_text_1_title != '' %}
+			<section class="innerSectionElement sct1 ">
 				<div class="sectionElements">
 
 					{% if media_text_1_title != '' %}
@@ -24,7 +24,7 @@
 
 				</div>
 			</section>
-		{% endif %}
+		{% endif %} #}
 
         	{% if media_text_1_sections|length > 0 %}
 			<section class="innerSectionElement sct2 ">
@@ -34,22 +34,24 @@
 					{% set title = item.media_text_1_title %}
 					{% set description = item.media_text_1_description %}
 					{% set image = item.media_text_1_image %}
-					{% set side = item.media_text_1_side or 'right' %}
+					{% set side = item.media_text_1_side  %}
 
-					<div class="groupElements row {{ side }}">
+                    {% set i = i + 1 %}
+
+					<div class="groupElements row element_{{ i }} {{ side }}">
 
 						<div class="info col-md-12 col-lg-6">
 
 							{% if title != '' %}
 								<h3 class="secondaryTitle">
-									{{ title }}
+									{{ title|raw }}
 								</h3>
 							{% endif %}
 
 							{% if description != '' %}
-								<p class="text">
-									{{ description }}
-								</p>
+								<div class="text">
+									{{ description|raw }}
+								</div>
 							{% endif %}
 
 						</div>
