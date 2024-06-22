@@ -36,6 +36,9 @@ add_action('wp_enqueue_scripts', function () {
         // generals
         wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, THEME_VERSION);
         wp_enqueue_style('components.css', asset_path('styles/components/componentsMain.css'), false, THEME_VERSION);
+
+        // blocks
+        wp_enqueue_style('blocks.css', asset_path('styles/components/blocks/blocksMain.css'), false, THEME_VERSION);
         // per type pages
 
         $t = SetComponents::setTemplates('singles');
@@ -537,37 +540,6 @@ add_action('after_setup_theme', function () {
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('parent-style', get_template_directory_uri().'/style.css');
 });
-
-// estilos
-
-// add_action('wp_enqueue_scripts', function () {
-
-//     $bootstrapPages = SetComponents::setTemplates();
-
-//     if (is_page_template($bootstrapPages)) {
-
-//         // wp_register_style('nunitoFonts', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
-//         // wp_enqueue_style('nunitoFonts');
-
-//         wp_enqueue_style('sage/main.css', asset_path('/dist/styles/main.css'), false, THEME_VERSION);
-
-//         // wp_enqueue_script('sage/_zoomMeeting.js', asset_path('scripts/pages/_zoomMeeting.js'), ['jquery'], THEME_VERSION, true);
-
-//         wp_register_style('bootstrapCss', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
-//         wp_enqueue_style('bootstrapCss');
-
-//         wp_register_script('bootstrapJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/bootstrap.min.js', array('jquery'), rand(), 'all');
-//         wp_enqueue_script('bootstrapJs');
-
-//         // // wp_register_script('popperJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/popper.min.js', array('jquery'), rand(), 'all');
-//         // // wp_enqueue_script('popperJs');
-
-//     } else {
-
-//         // estilos viejos
-//         wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, THEME_VERSION);
-//     }
-// }, 100);
 
 /*
  * Disables REFILL function in WPCF7 if Recaptcha is in use
