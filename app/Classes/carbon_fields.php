@@ -185,9 +185,10 @@ class CarbonFields
             ->set_keywords(explode(',', $block['keywords']))
             ->set_render_callback(function ($fields, $attributes, $inner_blocks) use ($slug, $folder) {
 
-                $c = THEME_ROOT_PATH . "/resources/views/components/blocks/{$folder}/{$slug}";
+                // $c = THEME_ROOT_PATH . "/resources/views/components/blocks/{$folder}/{$slug}";
+                $c = "/components/blocks/{$folder}/{$slug}";
 
-                if (file_exists($c . "/{$slug}.php")) {
+                if (file_exists( THEME_ROOT_PATH . "/resources/views" . $c . "/{$slug}.php")) {
 
                     $context = [
                         'slug' => $slug,
@@ -195,7 +196,7 @@ class CarbonFields
                         'path' => $c,
                     ];
 
-                    include($c . "/{$slug}.php");
+                    include(THEME_ROOT_PATH . "/resources/views" . $c . "/{$slug}.php");
                 }
             });
     }
