@@ -30,7 +30,7 @@ add_action('wp_enqueue_scripts', function () {
     wp_register_script('bootstrapJs', get_template_directory_uri().'/../oceanwp-child/resources/assets/bootstrap/dist/js/bootstrap.min.js', ['jquery'], rand(), 'all');
     wp_enqueue_script('bootstrapJs');
 
-    if (is_page_template($bootstrapPages)) {
+
         $t = null;
 
         // generals
@@ -77,10 +77,16 @@ add_action('wp_enqueue_scripts', function () {
         if (is_page_template($t)) {
             wp_enqueue_style('escalaMarketing.css', asset_path('styles/pages/escalaMarketing/escalaMarketingMain.css'), false, THEME_VERSION);
         }
+
+        // $currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $t = SetComponents::setTemplates('blog');
         if (is_page_template($t)) {
+
             wp_enqueue_style('_blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
             wp_enqueue_script('_blog.js', asset_path('scripts/pages/_blog.js'), ['jquery'], THEME_VERSION, true);
+
+            wp_enqueue_style('single_2024.css', asset_path('styles/pages/blog/single_blog_2024.css'), false, THEME_VERSION);
+
         }
         $t = SetComponents::setTemplates('casoExito');
         if (is_page_template($t)) {
@@ -189,12 +195,6 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_style('landing_CRM_mejora_2024.css', asset_path('styles/pages/landingPages/landing_CRM_mejora_2024.css'), false, THEME_VERSION);
 
         }
-          // ---Landing escala Blog nuevo 2024
-          if (is_page_template('views/template-landing-escala-blog-2024.blade.php')) {
-            wp_enqueue_style('landing_blog_2024.css', asset_path('styles/pages/landingPages/landing_blog_2024.css'), false, THEME_VERSION);
-
-        }
-
 
         // -------------------------------------- //
         //  FUNCTIONALITIES 2022
@@ -368,9 +368,6 @@ add_action('wp_enqueue_scripts', function () {
 
         // jvascripts
         wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], THEME_VERSION, true);
-    } else {
-        wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, THEME_VERSION);
-    }
 
     wp_enqueue_style('global.css', asset_path('styles/global.css'), false, THEME_VERSION);
     wp_enqueue_script('global.js', asset_path('scripts/global.js'), ['jquery'], THEME_VERSION, true);
@@ -597,7 +594,7 @@ add_action('acf/init', $setACF->setACF());
  * @author   Golden Oak Web Design <info@goldenoakwebdesign.com>
  * @license  https://www.gnu.org/licenses/gpl-2.0.html GPLv2+
  */
-function golden_oak_web_design_blog_generate_rewrite_rules($wp_rewrite)
+/* function golden_oak_web_design_blog_generate_rewrite_rules($wp_rewrite)
 {
     $new_rules = [
         '(([^/]+/)*blog)/page/?([0-9]{1,})/?$' => 'index.php?pagename=$matches[1]&paged=$matches[3]',
@@ -627,7 +624,7 @@ function golden_oak_web_design_blog_generate_rewrite_rules($wp_rewrite)
     ];
     $wp_rewrite->rules = $new_rules + $wp_rewrite->rules;
 }
-add_action('generate_rewrite_rules', 'golden_oak_web_design_blog_generate_rewrite_rules');
+add_action('generate_rewrite_rules', 'golden_oak_web_design_blog_generate_rewrite_rules'); */
 
 function casoUsoArticlesFormat($wp_rewrite)
 {
@@ -661,16 +658,16 @@ function casoUsoArticlesFormat($wp_rewrite)
 }
 add_action('generate_rewrite_rules', 'casoUsoArticlesFormat');
 
-function golden_oak_web_design_update_post_link($post_link, $id = 0)
-{
-    $post = get_post($id);
-    if (is_object($post) && $post->post_type == 'post') {
-        return home_url('/blog/'.$post->post_name);
-    }
+// function golden_oak_web_design_update_post_link($post_link, $id = 0)
+// {
+//     $post = get_post($id);
+//     if (is_object($post) && $post->post_type == 'post') {
+//         return home_url('/blog/'.$post->post_name);
+//     }
 
-    return $post_link;
-}
-add_filter('post_link', 'golden_oak_web_design_update_post_link', 1, 3);
+//     return $post_link;
+// }
+// add_filter('post_link', 'golden_oak_web_design_update_post_link', 1, 3);
 
 function registerCustomMenu()
 {

@@ -1,8 +1,8 @@
-<div id="landing_blog_2024">
+<div id="single_blog_2024">
     <div class="sections">
 
 
-        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_blog_2024 landing_blog_2024_0">
+        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol single_blog_2024 single_blog_2024_0">
             <div class="backgroundFull">
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -61,7 +61,7 @@
             </div>
         </section>
 
-        <section class="w-full customSection sectionParent landing_blog_2024_1">
+        <section class="w-full customSection sectionParent single_blog_2024_1">
             <div class="section-row">
                 <section class="innerSectionElement sct1 ">
                     <div class="containElements">
@@ -69,7 +69,7 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_blog_2024_2',
+                        'classSection' => 'single_blog_2024_2',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
@@ -95,7 +95,7 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_blog_2024_3',
+                        'classSection' => 'single_blog_2024_3',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
@@ -116,7 +116,7 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_blog_2024_4',
+                        'classSection' => 'single_blog_2024_4',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
@@ -169,7 +169,7 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_blog_2024_5',
+                        'classSection' => 'single_blog_2024_5',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
@@ -196,7 +196,7 @@
             </div>
         </section>
 
-        <section class="w-full customSection sectionParent landing_blog_2024_6">
+        <section class="w-full customSection sectionParent single_blog_2024_6">
             <div class="section-row">
                 <section class="innerSectionElement sct1 ">
                     <div class="containElements">
@@ -225,7 +225,7 @@
 
 
 
-        <section class="customSection sectionParent landing_blog_2024_7">
+        <section class="customSection sectionParent single_blog_2024_7">
             <div class="section-row">
 
                 <section class="innerSectionElement sct0">
@@ -299,7 +299,7 @@
         @php
         $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'landing_blog_2024_8_1',
+        'classSection' => 'single_blog_2024_8_1',
         'enableTitle' => false,
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
@@ -316,7 +316,7 @@
         @contain_text_image_T1($parameters)
         @endcontain_text_image_T1
 
-        <section class="customSection sectionParent landing_blog_2024 landing_blog_2024_9">
+        <section class="customSection sectionParent single_blog_2024 single_blog_2024_9">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
@@ -325,7 +325,7 @@
                 </section>
             </div>
         </section>
-        <section class="customSection sectionParent landing_blog_2024 landing_blog_2024_10">
+        <section class="customSection sectionParent single_blog_2024 single_blog_2024_10">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
@@ -341,7 +341,7 @@
         </section>
 
 
-        <section class="customSection sectionParent landing_blog_2024 landing_blog_2024_11">
+        <section class="customSection sectionParent single_blog_2024 single_blog_2024_11">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
