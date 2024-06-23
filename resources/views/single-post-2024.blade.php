@@ -182,6 +182,22 @@
             </section>
 
 
+               @php
+                    $query = array();
+                        $query = [
+                            'post_type' => 'post',
+                            'category_name' => $category,
+                            'posts_per_page' => 3,
+                            'limit' => 3,
+                            'order' => 'DESC',
+                        ];
+
+                        $query = Posts::getPosts($query);
+
+                        $posts = (isset($query) && $query != null)? $query->get_posts() : null;
+                    @endphp
+
+                        @if (isset($posts) && $posts != null)
             <section class="customSection sectionParent single_blog_2024 single_blog_2024_11">
                 <div class="section-row">
                     <section class="innerSectionElement sct0">
@@ -198,19 +214,9 @@
                         </div>
                     </section>
 
-                    @php
-                        $query = [
-                            'post_type' => 'post',
-                            'category_name' => $category,
-                            'posts_per_page' => 3,
-                            'order' => 'DESC',
-                        ];
-                        $query = Posts::getPosts($query);
-                        $posts = $query->get_posts();
-                    @endphp
+
 
                     <section class="innerSectionElement sct1 row">
-                        @if (isset($posts) && $posts != null)
                             @foreach ($posts as $index => $item)
                                 @php
                                     $post_tags = get_the_tags($item->ID);
@@ -259,12 +265,12 @@
                                     </div>
                                 </div>
                             @endforeach
-                        @endif
 
                     </section>
+
                 </div>
             </section>
-
+               @endif
 
         </div>
 
