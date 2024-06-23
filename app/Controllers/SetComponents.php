@@ -218,6 +218,7 @@ class SetComponents extends Controller
                 'views/template-blog-category.blade.php',
                 'views/template-blog-search-results.blade.php',
                 'views/single-post.blade.php',
+                'views/single-post-2024.blade.php'
             ];
         }
 

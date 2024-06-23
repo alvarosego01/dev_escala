@@ -1,0 +1,49 @@
+
+
+
+.block_blog_text_parag.customSection.sectionParent
+    padding: 50px 0
+    @include responsivo(telefonoTable)
+        padding: 25px 0
+
+
+    .section_contain
+        .innerSectionElement.sct1
+
+            .containElements
+                display: flex
+                flex-direction: column
+                gap: 35px
+
+                .primaryTitle
+                    text-align: center!important
+                    color: #34768A
+                    font-size: 25px
+                    font-weight: 700
+                    letter-spacing: -1.25px
+                    margin-bottom: 0
+                    @include responsivo(telefonoTable)
+                        font-size: 22.5px
+                    @include responsivo(pcMedio)
+                        font-size: 22.5px
+                    p
+                        &:last-child
+                            margin-bottom: 0
+
+                .primaryText
+                    color: #706B6D
+                    text-align: left
+                    font-size: 18px
+                    line-height: 1.25
+                    letter-spacing: -1px
+                    @include responsivo(telefonoTable)
+                        font-size: 16px
+                        text-align: center
+                    @include responsivo(pcMedio)
+                        font-size: 16px
+                    *
+                        line-height: 1.25
+                        letter-spacing: -1px
+                    p
+                        &:last-child
+                            margin-bottom: 0

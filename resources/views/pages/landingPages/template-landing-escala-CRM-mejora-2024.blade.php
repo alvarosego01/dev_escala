@@ -999,8 +999,8 @@
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
                         <h2 class="primaryTitle">
-                            <span>No solo nos escuches a nosotros,</span> <br class="space">
-                            escucha a nuestros clientes:
+                            <span>Lo que dicen nuestros clientes</span> <br class="space">
+                            sobre el CRM de Escala:
                         </h2>
                     </div>
 

@@ -1,0 +1,50 @@
+[
+    {
+        "post_type": "post",
+        "name": "[Blog - 2024] Single settings - General",
+        "fields": [
+            {
+                "key": "blog_single_1_title",
+                "label": "Title main header",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            },
+             {
+                "key": "blog_single_1_parag",
+                "label": "Paragraph main header",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            },
+            {
+                "key": "blog_single_1_image_header",
+                "label": "Image header",
+                "type": "image",
+                "default": ""
+            },
+            {
+                "key": "blog_single_1_background_header",
+                "label": "Image background header",
+                "type": "image",
+                "default": ""
+            },
+            {
+                "key": "blog_single_1_banner_d",
+                "label": "Image banner desktop",
+                "type": "image",
+                "default": ""
+            },
+            {
+                "key": "blog_single_1_banner_m",
+                "label": "Image banner mobile",
+                "type": "image",
+                "default": ""
+            },
+            {
+                "key": "blog_single_1_banner_url",
+                "label": "Banner URL",
+                "type": "url",
+                "default": "#"
+            }
+        ]
+    }
+]

@@ -1,0 +1,70 @@
+{% set text_video_1_title = fields.text_video_1_title %}
+{% set text_video_1_parag = fields.text_video_1_parag %}
+{% set text_video_1_image_portrait = fields.text_video_1_image_portrait %}
+{% set text_video_1_video = fields.text_video_1_video %}
+{% set text_video_1_label = fields.text_video_1_label %}
+{% set text_video_1_url = fields.text_video_1_url %}
+
+<section class="customSection sectionParent block_blog_video">
+
+	<div class="section_contain">
+
+		<section class="innerSectionElement sct0">
+
+			<div class="containElements">
+
+					<div class="row">
+						<div class="col-md-12 col-lg-12 parent">
+
+							{% if text_video_1_title != '' %}
+								<h2 class="primaryTitle">
+									{{ text_video_1_title|raw }}
+								</h2>
+							{% endif %}
+							{% if text_video_1_parag != '' %}
+								<div class="text">
+									{{ text_video_1_parag|raw }}
+								</div>
+							{% endif %}
+
+							{% if text_video_1_video != '' %}
+
+								<div class="ele video col-md-12" style=".vjs-big-play-button{display:none!important}">
+
+									{% set videoEmbed = get_img(text_video_1_video, 'src') %}
+									{% set videoCover = get_img(text_video_1_image_portrait, 'src') %}
+
+									<div class="youtubeImageContainer ">
+
+										<video class="video-js" controls preload="none" poster="{{ videoCover }}" data-setup="{ autoplay: false }">
+											<source src="{{ videoEmbed }}" type="video/mp4"/>
+											<source src="{{ videoEmbed }}" type="video/webm"/>
+											<p class="vjs-no-js">
+												To view this video please enable JavaScript, and consider upgrading to a web browser that
+												<a href="https://videojs.com/html5-video-support/" target="_blank"> supports HTML5 video</a>
+											</p>
+										</video>
+
+									</div>
+
+								</div>
+							{% endif %}
+
+						</div>
+					</div>
+			</div>
+			{% if text_video_1_label != '' %}
+				<div class="btnCenter">
+                {# openPopUpButton popup-general-demo-2022 #}
+					<a
+                    href="{{ text_video_1_url }}"
+                    class="primaryButton hoverInEffect ">
+						{{ text_video_1_label }}
+					</a>
+				</div>
+			{% endif %}
+		</section>
+
+	</div>
+
+</section>

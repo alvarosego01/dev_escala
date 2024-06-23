@@ -1,0 +1,148 @@
+
+
+.block_blog_video.customSection.sectionParent
+    padding: 50px 0
+    @include responsivo(telefonoTable)
+        padding: 25px 0
+    .section_contain
+        width: 100%
+        .innerSectionElement.sct0
+            .btnCenter
+                margin-top: 35px
+                @include responsivo(telefonoTable)
+                    margin-top: 25px
+
+            .containElements
+                .parent
+                    display: flex
+                    flex-direction: column
+                    gap: 35px
+                    @include responsivo(telefonoTable)
+                        gap: 25px
+
+                .primaryTitle
+                    color: #34768A
+                    text-align: center
+                    font-family: Nunito
+                    font-size: 25px
+                    font-style: normal
+                    font-weight: 700
+                    letter-spacing: -1.25px
+                    line-height: 1
+                    margin-bottom: 0
+                    @include responsivo(telefonoTable)
+                        font-size: 22.5px
+                    @include responsivo(pcMedio)
+                        font-size: 22.5px
+                    @include responsivo(general)
+                        font-size: 25px
+                    @include responsivo(resto)
+                        font-size: 25px
+
+                    p
+                        &:last-child
+                            margin-bottom: 0
+
+                .text
+                    color: #706B6D
+                    text-align: left
+                    font-size: 18px
+                    line-height: 1.25
+                    letter-spacing: -1px
+                    @include responsivo(telefonoTable)
+                        font-size: 16px
+                        text-align: center
+                    @include responsivo(pcMedio)
+                        font-size: 16px
+                    *
+                        line-height: 1.25
+                        letter-spacing: -1px
+                    p
+                        &:last-child
+                            margin-bottom: 0
+
+
+
+                .ele.video
+                    position: relative
+                    margin: auto
+
+                    .youtubeImageContainer
+                        position: relative
+                        overflow: visible
+                        &:hover
+                            cursor: pointer
+                        @include responsivo(telefonoTable)
+                            margin-bottom: 0
+                            height: 175px
+                            width: 310px
+                            margin-bottom: 25px
+                        @include responsivo(pcMedio)
+                            height: 400px
+                            width: 100%!important
+                            margin-bottom: 35px
+                        @include responsivo(telefonoTable)
+                            margin: 0 auto
+                        @include responsivo(pcMedio)
+                            margin: 0 auto
+                        @include responsivo(general)
+                            margin: auto
+                            top: -55px
+                            width: 900px!important
+                            height: 508px!important
+                        @include responsivo(smallPcTablet)
+                            top: 0
+                            width: 900px!important
+                            height: 500px!important
+                            margin-bottom: 50px
+                        @include responsivo(resto)
+                            margin: auto
+                            width: 850px !important
+                            height: 480px
+
+
+                        .overlayLeft,
+                        .overlayRight
+                            position: absolute
+                            height: 150px
+                            @include responsivo(telefonoTable)
+                                height: 100px
+                            @include responsivo(pcMedio)
+                                height: 100px
+                            @include responsivo(general)
+                                height: 200px
+                            @include responsivo(resto)
+                                height: 225px
+
+                        .overlayLeft
+                            top: 50px
+                            left: -225px
+                            @include responsivo(telefonoTable)
+                                left: -100px
+                            @include responsivo(pcMedio)
+                                left: -125px
+                        .overlayRight
+                            right: -225px
+                            bottom: 35px
+                            @include responsivo(telefonoTable)
+                                right: -100px
+                            @include responsivo(pcMedio)
+                                right: -125px
+
+                        iframe.iframe
+                            margin: 0 auto
+                            display: block
+                            @include responsivo(telefonoTable)
+                                width: 100%
+                            @include responsivo(pcMedio)
+                                width: 90%
+                        // .vjs-control-bar
+                            // display: none
+
+                        video
+                            border-radius: 25px
+                            position: relative
+                            overflow: visible
+                            background-position: center
+                            background-repeat: no-repeat
+                            background-size: cover
