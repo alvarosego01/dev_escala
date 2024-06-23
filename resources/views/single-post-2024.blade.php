@@ -10,6 +10,8 @@
     $catevory = get_the_category();
     if ($category != null && count($category) > 0) {
         $category = $category[0]->name;
+    }else {
+        $category = 'Sin categoría';
     }
 
 @endphp
@@ -40,7 +42,10 @@
             <section id="lead-form"
                 class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol single_blog_2024 single_blog_2024_0">
                 <div class="backgroundFull"
-                    style="background-image: url('{{ App::get_img($blog_single_1_background_header, 'src') }}');">
+                    @if (isset($blog_single_1_background_header) && $blog_single_1_background_header != '')
+                    style="background-image: url('{{ App::get_img($blog_single_1_background_header, 'src') }}');"
+                    @endif
+                    >
                     <div class="section-row">
                         <section class="innerSectionElement sct1">
                             <div class="groupElements row">
@@ -49,21 +54,23 @@
                                         <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
                                             <div class="containerImage">
 
+                                                @if (isset($blog_single_1_image_header) && $blog_single_1_image_header != '')
                                                 <img alt="{{ App::get_img($blog_single_1_image_header, 'alt') }}"
                                                     src="{{ App::get_img($blog_single_1_image_header, 'src') }}"
                                                     loading="lazy">
+                                                @endif
 
                                             </div>
                                         </div>
                                         <div class="ele ele2 col-md-12 col-lg-7">
 
-                                            @if ($blog_single_1_title)
+                                            @if (isset($blog_single_1_title) && $blog_single_1_title != '')
                                                 <h1 class="principalBigTitle blackColor">
                                                     {!! $blog_single_1_title !!}
                                                 </h1>
                                             @endif
 
-                                            @if ($blog_single_1_parag)
+                                            @if (isset($blog_single_1_parag) && $blog_single_1_parag != '')
                                                 <div class="principalBigText grayColorTexts">
                                                     {!! $blog_single_1_parag !!}
                                                 </div>
@@ -98,8 +105,10 @@
                                 <div class="imageReviewsMobile hideOnDesktop">
                                     <div class="image">
                                         <div class="containerImage">
+                                            @if (isset($blog_single_1_image_header) && $blog_single_1_image_header != '' )
                                             <img alt="{{ App::get_img($blog_single_1_image_header, 'alt') }}"
                                                 src="{{ App::get_img($blog_single_1_image_header, 'src') }}" loading="lazy">
+                                            @endif
                                         </div>
                                     </div>
                                 </div>
@@ -130,13 +139,13 @@
                     <section class="innerSectionElement sct0">
                         <div class="containElements">
 
-                            @if ($blog_single_1_banner_d)
+                            @if (isset($blog_single_1_banner_d) && $blog_single_1_banner_d != '')
                                 <img alt="{{ App::get_img($blog_single_1_banner_d, 'alt') }}"
                                     src="{{ App::get_img($blog_single_1_banner_d, 'src') }}" loading="lazy"
                                     class="card-img-top bannerSingleBlog D_e">
                             @endif
 
-                            @if ($blog_single_1_banner_m)
+                            @if (isset($blog_single_1_banner_m) && $blog_single_1_banner_m != '')
                                 <img alt="{{ App::get_img($blog_single_1_banner_m, 'alt') }}"
                                     src="{{ App::get_img($blog_single_1_banner_m, 'src') }}" loading="lazy"
                                     class="card-img-top bannerSingleBlog M_e">

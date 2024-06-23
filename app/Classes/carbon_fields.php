@@ -127,15 +127,20 @@ class CarbonFields
     public function register_blocks()
     {
 
+        echo THEME_ROOT_PATH . "/app/constants/blocks/blog-blocks.json";
+
         if (file_exists(THEME_ROOT_PATH . "/app/constants/blocks/blog-blocks.json")) {
 
+            echo 'existe';
+
             $json_path = THEME_ROOT_PATH . '/app/constants/blocks/blog-blocks.json';
+
+            echo $json_path;
 
             if (file_exists($json_path)) {
                 $blocks = json_decode(file_get_contents($json_path), true);
                 if (isset($blocks) && is_array($blocks) && !empty($blocks)) {
                     foreach ($blocks as $block) {
-
                         $this->register_block($block);
                     }
                 }
