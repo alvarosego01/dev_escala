@@ -68,7 +68,6 @@ class CarbonFields
 
             $theme_settings = json_decode(file_get_contents($sect), true);
 
-
             foreach ($theme_settings as $setting) {
                 if(get_post_type($post_id) == $setting['post_type']) {
                     $settings[$setting['post_type']] = $this->get_layer_postType_settings($setting, $post_id);
@@ -93,11 +92,9 @@ class CarbonFields
 
         foreach ($post['fields'] as $field) {
             if ($field['type'] != 'special_post_type') {
-
                 $control_id = $field['key'];
                 $settings[$control_id] = carbon_get_post_meta($post_id, $control_id);
             } else {
-
                 $settings['special_post_type'] = $this->get_layer_postType_settings($field, $post_id);
             }
         }
@@ -290,7 +287,6 @@ class CarbonFields
             ->set_keywords(explode(',', $block['keywords']))
             ->set_render_callback(function ($fields, $attributes, $inner_blocks) use ($slug, $folder) {
 
-                // $c = THEME_ROOT_PATH . "/resources/views/components/blocks/{$folder}/{$slug}";
                 $c = "/components/blocks/{$folder}/{$slug}";
 
                 if (file_exists(THEME_ROOT_PATH . "/resources/views" . $c . "/{$slug}.php")) {
