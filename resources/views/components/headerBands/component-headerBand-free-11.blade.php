@@ -1,5 +1,5 @@
 <section style="background-image: url({!! App::setFilePath('/assets/images/banners/free_bg.svg') !!})"
-    class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
+    class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection || '' }} ">
 
     <div class="section-row">
 
