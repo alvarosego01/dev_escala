@@ -7,7 +7,7 @@
     $carbon_fields = new CarbonFields();
     $settings = $carbon_fields->load_post_type_settings(get_the_ID());
 
-    $catevory = get_the_category();
+    $category = get_the_category();
     if ($category != null && count($category) > 0) {
         $category = $category[0]->name;
     }else {
@@ -142,7 +142,7 @@
                             @if (isset($blog_single_1_banner_d) && $blog_single_1_banner_d != '')
                                 <img alt="{{ App::get_img($blog_single_1_banner_d, 'alt') }}"
                                     src="{{ App::get_img($blog_single_1_banner_d, 'src') }}" loading="lazy"
-                                    class="card-img-top bannerSingleBlog D_e">
+                                    class="card-img-top bannerSingleBlog DT2_e">
                             @endif
 
                             @if (isset($blog_single_1_banner_m) && $blog_single_1_banner_m != '')
@@ -183,7 +183,7 @@
 
 
                @php
-                    $query = array();
+                        $query = array();
                         $query = [
                             'post_type' => 'post',
                             'category_name' => $category,
@@ -193,16 +193,17 @@
                         ];
 
                         $query = Posts::getPosts($query);
-
                         $posts = (isset($query) && $query != null)? $query->get_posts() : null;
-                    @endphp
 
-                        @if (isset($posts) && $posts != null)
+                @endphp
+
+            @if (isset($posts) && $posts != null)
+
             <section class="customSection sectionParent single_blog_2024 single_blog_2024_11">
                 <div class="section-row">
                     <section class="innerSectionElement sct0">
                         <div class="containElements">
-                            <div class="container mt-5">
+                            <div class="container">
                                 <div class="row">
                                     <div class="text-center col-md-12 col-lg-12">
                                         <h2 class="primaryTitle">
@@ -216,13 +217,13 @@
 
 
 
-                    <section class="innerSectionElement sct1 row">
+                    <section class="innerSectionElement sct1 cards_parent row">
                             @foreach ($posts as $index => $item)
                                 @php
                                     $post_tags = get_the_tags($item->ID);
                                 @endphp
 
-                                <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4">
+                                <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4 card_item">
                                     <div class="border-0 card">
 
                                         <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
@@ -231,7 +232,7 @@
 
                                         <div class="card-body">
                                             <h6 class="">
-                                            @foreach ($catevory as $item)
+                                            @foreach ($category as $item)
                                                 {{ $item->name }}
                                             @endforeach
                                             </h6>
