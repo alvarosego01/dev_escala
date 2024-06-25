@@ -6,9 +6,17 @@
     @include responsivo(telefonoTable)
         padding-bottom: 25px
 
-    li
-        &::marker
-            color: #F1685A
+    ul, ol
+        margin-bottom: 0
+        @include responsivo(telefonoTable)
+            padding-left: 0
+        li
+            @include responsivo(telefonoTable)
+                text-align: left
+                *
+                    text-align: left
+            &::marker
+                color: #F1685A
     @include responsivo(telefonoTable)
         padding-bottom: 25px
 
