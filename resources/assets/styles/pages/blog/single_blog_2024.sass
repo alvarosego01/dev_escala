@@ -374,7 +374,7 @@
         padding-top: 75px
     .section-row
         @include responsivo(telefonoTable)
-            width: 350px
+            width: 85%
         @include responsivo(pcMedio)
             width: 90%
             margin-bottom: -20px
@@ -1109,13 +1109,14 @@
             width: 90%!important
             max-width: 900px!important
         .innerSectionElement.sct0
-
             .containElements
-                @include responsivo(smallPcTablet)
-                    display: flex
-                    flex-direction: column
-                    align-items: center
-
+                display: flex
+                justify-content: center
+                align-content: center
+                align-items: center
+                .bannerSingleBlog.M_e
+                    height: 325px
+                    width: auto
 
 
 
@@ -1234,13 +1235,29 @@
                         color: #150D27
                         font-weight: 700
 
-        .innerSectionElement.sct1.row
+        .innerSectionElement.sct1.row.cards_parent
+            display: flex
+            align-items: stretch!important
+            .card_item
+                height: auto
             .card
                 background: #FFF
                 box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.06)
                 border-radius: 12px!important
                 border: 0px!important
-
+                overflow: hidden
+                height: 100%
+                .card-img-top
+                    object-fit: cover
+                    object-position: center
+                    @include responsivo(telefonoTable)
+                        height: 150px
+                    @include responsivo(pcMedio)
+                        height: 200px
+                    @include responsivo(general)
+                        height: 225px
+                    @include responsivo(resto)
+                        height: 250px
                 .card-body
                     padding: 25px 35px
                     font-family: Nunito
@@ -1258,6 +1275,10 @@
                         text-transform: uppercase
                         font-family: Nunito
                         color: #34768A
+                        @include responsivo(telefonoTable)
+                            font-size: 10px
+                        @include responsivo(pcMedio)
+                            font-size: 10px
 
                     h5
                         color: #322C2E
@@ -1266,16 +1287,23 @@
                         font-style: normal
                         font-weight: 700
                         letter-spacing: 0.22px
+                        margin-bottom: 10px
+                        @include responsivo(telefonoTable)
+                            font-size: 18px
                         @include responsivo(pcMedio)
                             font-size: 20px
-                            line-height: 1
+
 
                     p
                         color: #706B6D
                         font-size: 14px
                         font-weight: 400
-                        line-height: normal
+                        line-height: 1.1
                         letter-spacing: normal
+                        @include responsivo(telefonoTable)
+                            font-size: 12px
+                        @include responsivo(pcMedio)
+                            font-size: 12px
 
                     div.subCard
                         margin-top: 30px

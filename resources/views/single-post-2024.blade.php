@@ -142,7 +142,7 @@
                             @if (isset($blog_single_1_banner_d) && $blog_single_1_banner_d != '')
                                 <img alt="{{ App::get_img($blog_single_1_banner_d, 'alt') }}"
                                     src="{{ App::get_img($blog_single_1_banner_d, 'src') }}" loading="lazy"
-                                    class="card-img-top bannerSingleBlog D_e">
+                                    class="card-img-top bannerSingleBlog DT2_e">
                             @endif
 
                             @if (isset($blog_single_1_banner_m) && $blog_single_1_banner_m != '')
@@ -217,13 +217,13 @@
 
 
 
-                    <section class="innerSectionElement sct1 row">
+                    <section class="innerSectionElement sct1 cards_parent row">
                             @foreach ($posts as $index => $item)
                                 @php
                                     $post_tags = get_the_tags($item->ID);
                                 @endphp
 
-                                <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4">
+                                <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4 card_item">
                                     <div class="border-0 card">
 
                                         <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
