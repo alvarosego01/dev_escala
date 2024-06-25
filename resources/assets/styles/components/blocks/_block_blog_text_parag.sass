@@ -2,9 +2,15 @@
 
 
 .block_blog_text_parag.customSection.sectionParent
-    padding: 50px 0
+    padding: 0
+    padding-bottom: 50px
     @include responsivo(telefonoTable)
-        padding: 25px 0
+        padding-bottom: 25px
+    li
+        &::marker
+            color: #F1685A
+    @include responsivo(telefonoTable)
+        padding-bottom: 25px
 
 
     .section_contain
@@ -13,7 +19,7 @@
             .containElements
                 display: flex
                 flex-direction: column
-                gap: 35px
+                gap: 25px
 
                 .primaryTitle
                     text-align: center!important

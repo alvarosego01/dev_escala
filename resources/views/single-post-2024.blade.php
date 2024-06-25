@@ -7,7 +7,7 @@
     $carbon_fields = new CarbonFields();
     $settings = $carbon_fields->load_post_type_settings(get_the_ID());
 
-    $catevory = get_the_category();
+    $category = get_the_category();
     if ($category != null && count($category) > 0) {
         $category = $category[0]->name;
     }else {
@@ -183,7 +183,7 @@
 
 
                @php
-                    $query = array();
+                        $query = array();
                         $query = [
                             'post_type' => 'post',
                             'category_name' => $category,
@@ -193,16 +193,17 @@
                         ];
 
                         $query = Posts::getPosts($query);
-
                         $posts = (isset($query) && $query != null)? $query->get_posts() : null;
-                    @endphp
 
-                        @if (isset($posts) && $posts != null)
+                @endphp
+
+            @if (isset($posts) && $posts != null)
+
             <section class="customSection sectionParent single_blog_2024 single_blog_2024_11">
                 <div class="section-row">
                     <section class="innerSectionElement sct0">
                         <div class="containElements">
-                            <div class="container mt-5">
+                            <div class="container">
                                 <div class="row">
                                     <div class="text-center col-md-12 col-lg-12">
                                         <h2 class="primaryTitle">
@@ -231,7 +232,7 @@
 
                                         <div class="card-body">
                                             <h6 class="">
-                                            @foreach ($catevory as $item)
+                                            @foreach ($category as $item)
                                                 {{ $item->name }}
                                             @endforeach
                                             </h6>

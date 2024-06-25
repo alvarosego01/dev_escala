@@ -1,9 +1,17 @@
 
 
 .block_blog_video.customSection.sectionParent
-    padding: 50px 0
+    padding: 0
+    padding-bottom: 50px
     @include responsivo(telefonoTable)
-        padding: 25px 0
+        padding-bottom: 25px
+
+    li
+        &::marker
+            color: #F1685A
+    @include responsivo(telefonoTable)
+        padding-bottom: 25px
+
     .section_contain
         width: 100%
         .innerSectionElement.sct0
@@ -11,14 +19,14 @@
                 margin-top: 35px
                 @include responsivo(telefonoTable)
                     margin-top: 25px
+                @include responsivo(pcMedio)
+                    margin-top: 35px!important
 
             .containElements
                 .parent
                     display: flex
                     flex-direction: column
-                    gap: 35px
-                    @include responsivo(telefonoTable)
-                        gap: 25px
+                    gap: 25px
 
                 .primaryTitle
                     color: #34768A
@@ -66,7 +74,7 @@
                 .ele.video
                     position: relative
                     margin: auto
-
+                    margin-top: 15px
                     .youtubeImageContainer
                         position: relative
                         overflow: visible
