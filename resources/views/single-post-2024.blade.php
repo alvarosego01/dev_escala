@@ -242,15 +242,15 @@
                                             <p class="card-text">
                                                            {!! ACF_CUSTOM::_getField('excerpt_single', $item->ID) !!}
                                                 </p>
-                                            <div class="subCard d-flex justify-content-between align-items-center">
-                                                <div class="d-flex align-items-center">
+                                            <div class="subCard d-flex justify-content-end align-items-center">
+                                                <!-- <div class="d-flex align-items-center">
                                                     <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan"
                                                         class="mr-2 rounded-circle">
                                                     <div>
                                                         <p class="mb-0">Anne Bryan</p>
                                                         <p class="mb-0">Verified writer</p>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                                 <div class="div-2">
                                                     <p class="mb-0">
                                                            @php
