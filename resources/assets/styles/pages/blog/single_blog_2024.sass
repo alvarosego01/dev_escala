@@ -272,6 +272,12 @@
                                 justify-content: center
                                 align-content: centers
                                 position: relative
+                                
+                                @include responsivo(general)
+                                    left: -25px
+                                @include responsivo(resto)
+                                    left: -35px
+                                    
                                 img
                                     position: relative
                                     width: auto
