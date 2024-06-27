@@ -1,5 +1,5 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/headerband_lastNews.png') !!})"
-    class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/free_bg.svg') !!})"
+    class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection || '' }} ">
 
     <div class="section-row">
 
@@ -12,11 +12,11 @@
                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_headerband_freeclass.png') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-                        Dispara tus ventas con un CRM y automatización
+                        <span>Dispara tus ventas</span> creando embudos que conviertan
                     </span>
                     <div class="separator"></div>
                     <span class="sub">
-                        Masterclass gratuita - 23 de Mayo
+                       Masterclass gratuita - 20 de Junio
                     </span>
 
                 </div>

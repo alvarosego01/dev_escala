@@ -1,5 +1,12 @@
 <?php
 
+use App\Classes\CarbonFields;
+
+if (!defined('THEME_ROOT_PATH')) {
+    define('THEME_ROOT_PATH', get_stylesheet_directory().'/..');
+}
+
+require_once THEME_ROOT_PATH . '/app/Classes/index.php';
 
 
 /**
@@ -330,6 +337,13 @@ wp_insert_term(
         'popup-category-tax', // the taxonomy
         array(
         'slug' => 'december_popup',
+        'parent'=> $parent_term_id ));
+
+wp_insert_term(
+        'Last news popup', // the term
+        'popup-category-tax', // the taxonomy
+        array(
+        'slug' => 'last_news_popup',
         'parent'=> $parent_term_id ));
 
 wp_insert_term(

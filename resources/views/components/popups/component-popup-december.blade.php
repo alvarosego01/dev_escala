@@ -113,7 +113,7 @@
                                 @endphp
 
                                 <div
-                                style="background-image: url('{{ $i }}')"
+                                style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_competitors_0.svg') }}')"
                                 class="col-md-12 col-lg-6 image">
 
                                 @endif

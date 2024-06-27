@@ -173,6 +173,19 @@
                     @endpopup_december
                 @endif
 
+                @if ($popup != null && $popup == 'popup-bootstrap-last-news')
+                    @php
+                        $parameters = [
+                            'popup_call_class' => ACF_CUSTOM::_getField('popup_call_class', $item),
+                            'form_shortcode' => ACF_CUSTOM::_getField('form_shortcode', $item),
+                            'popup_direction' => ACF_CUSTOM::_getField('popup_direction', $item),
+                        ];
+
+                    @endphp
+                    @popup_last_news( $parameters )
+                    @endpopup_last_news
+                @endif
+
                 @if ($popup != null && $popup == 'popup-general-special-1m-promo-2023')
                     @php
                         $parameters = [

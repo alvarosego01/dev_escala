@@ -51,6 +51,21 @@ class App extends Controller
         }
     }
 
+      public static function get_img($image_id, $type)
+    {
+        $image_url = wp_get_attachment_url($image_id);
+        $image_alt = get_post_meta($image_id, '_wp_attachment_image_alt', true);
+
+        if ($type == 'src') {
+            return $image_url;
+        } else if ($type == 'alt') {
+            return $image_alt;
+        } else {
+            return $image_url;
+        }
+    }
+
+
     public static function setFilePath($file)
     {
         return get_stylesheet_directory_uri() . $file;
@@ -100,7 +115,6 @@ class App extends Controller
     public static function create_bootstrap_menu($menu_id = null, $classSection = null, $specialClass = null)
     {
         if (isset($menu_id) && $menu_id != null && isset($classSection) && $classSection != null) {
-            // $menu = get_term( $locations[$theme_location], 'nav_menu' );
 
             $menu_items = wp_get_nav_menu_items($menu_id);
 
@@ -195,16 +209,8 @@ class App extends Controller
 
                                 $containItem .= '</span></a>';
 
-                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-' . $submenus->ID . ' nav-item ">' . $containItem . '</li>';
+                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-' . $submenu->ID . ' nav-item ">' . $containItem . '</li>';
 
-                                // $parents = $submenu->ID;
-
-                                // foreach ($columns['column_1'] as $submenus) {
-                                //     if ($submenus->menu_item_parent == $parents) {
-                                //         $menu_array[] .= '<li itemscope="itemscope" class="menu-item nav-item menu-item-'.$submenus->ID.'"><a p2 class="nav-link" href="'.$submenus->url.'" >'.$submenus->title.'</a></li>';
-                                //     }
-                                // }
-                                // $menu_array[] .= '</ul></li>';
                             }
                         }
                         foreach ($columns['column_2'] as $submenu) {
@@ -249,7 +255,7 @@ class App extends Controller
 
                                 $containItem .= '</span></a>';
 
-                                $menu_array2[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-' . $submenus->ID . ' nav-item ">' . $containItem . '</li>';
+                                $menu_array2[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-' . $submenu->ID . ' nav-item ">' . $containItem . '</li>';
                                 // $parents = $submenu->ID;
 
                                 // foreach ($columns['column_2'] as $submenus) {
@@ -350,7 +356,7 @@ class App extends Controller
 
                                 $containItem .= '</span></a>';
 
-                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-' . $submenus->ID . ' nav-item">' . $containItem . '</li><ul>';
+                                $menu_array[] = '<li 1 itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-' . $submenu->ID . ' nav-item">' . $containItem . '</li><ul>';
                                 $parents = $submenu->ID;
 
                                 foreach ($menu_items as $submenus) {
@@ -385,17 +391,12 @@ class App extends Controller
                             $menu_list .= '<li 2 class="menu-item menu-item-has-children dropdown menu-item-' . $menu_item->ID . '">';
                             $menu_list .= '<a p3 class="nav-link" href="' . $href . '" data-href="' . $data_href . '" ' . $openAtt . ' data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-' . $menu_item->ID . '" ><span>' . $menu_item->title . '</span> <i class="fas fa-caret-down"></i></a>';
 
-                            // $menu_list .= '<ul class="dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-'.$menu_item->ID.'" role="menu" style="display: none;">'."\n";
-                            // $menu_list .= implode($menu_array);
-                            // $menu_list .= '</ul>';
-
                             $menu_list .= '<div class="no_two_columns dropdown-menu animate slideIn" aria-labelledby="menu-item-dropdown-' . $menu_item->ID . '" role="menu" style="display: none;">' . "\n";
                             $menu_list .= '<ul  >' . "\n";
                             $menu_list .= implode($menu_array);
                             $menu_list .= '</ul>';
                             $menu_list .= '</div>';
                         } else {
-                            // echo "<pre>"; print_r($menu_item);
 
                             $classElements = null;
                             if (count($menu_item->classes) > 0) {
@@ -408,7 +409,6 @@ class App extends Controller
                     }
                 }
 
-                // end <li>
                 $menu_list .= '</li>';
 
                 ++$menucount;

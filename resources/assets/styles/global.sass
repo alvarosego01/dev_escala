@@ -43,6 +43,7 @@
 
 
 div#jet-popup-5458
+
     .jet-popup__inner
         .jet-popup__container
             @include responsivo(telefonoTable)
@@ -670,6 +671,15 @@ input.ewp-phone-call-code
         display: none!important
     @include responsivo(pcMedio)
         display: none!important
+    @include responsivo(general)
+        display: block!important
+    @include responsivo(resto)
+        display: block!important
+.DT2_e
+    @include responsivo(telefonoTable)
+        display: none!important
+    @include responsivo(pcMedio)
+        display: block!important
     @include responsivo(general)
         display: block!important
     @include responsivo(resto)

@@ -701,50 +701,52 @@ class ACF_CUSTOM extends Controller
             }
         }
 
+        $pie_paginaList['landing_page_small'] = 'Landing page - small';
+
         return [
             [
-            'key' => 'pie_pagina_page_config',
-            'title' => 'Pie de pagina selector bootstrap',
-            'fields' => [
-                [
-                    'key' => 'pie_pagina_settings',
-                    'label' => 'Pie de pagina base',
-                    'name' => 'Pie de pagina base',
-                    'type' => 'select',
-                    'choices' => [
-                        'elementor_pie_pagina' => 'Elementor pie de Pagina',
-                        'bootstrap_pie_pagina' => 'Bootstrap pie de pagina',
+                'key' => 'pie_pagina_page_config',
+                'title' => 'Pie de pagina selector bootstrap',
+                'fields' => [
+                    [
+                        'key' => 'pie_pagina_settings',
+                        'label' => 'Pie de pagina base',
+                        'name' => 'Pie de pagina base',
+                        'type' => 'select',
+                        'choices' => [
+                            'elementor_pie_pagina' => 'Elementor pie de Pagina',
+                            'bootstrap_pie_pagina' => 'Bootstrap pie de pagina',
+                        ],
                     ],
-                ],
 
-                [
-                    'key' => 'bootstrap_pie_pagina_types',
-                    'label' => 'Bootstrap pie de pagina - Template',
-                    'name' => 'Bootstrap pie de pagina - Template',
-                    'type' => 'select',
-                    'choices' => $pie_paginaList,
-                    'conditional_logic' => [
-                        [
+                    [
+                        'key' => 'bootstrap_pie_pagina_types',
+                        'label' => 'Bootstrap pie de pagina - Template',
+                        'name' => 'Bootstrap pie de pagina - Template',
+                        'type' => 'select',
+                        'choices' => $pie_paginaList,
+                        'conditional_logic' => [
                             [
-                                'field' => 'pie_pagina_settings',
-                                'operator' => '==',
-                                'value' => 'bootstrap_pie_pagina',
+                                [
+                                    'field' => 'pie_pagina_settings',
+                                    'operator' => '==',
+                                    'value' => 'bootstrap_pie_pagina',
+                                ],
                             ],
                         ],
                     ],
                 ],
-            ],
 
-            'location' => [
-                [
+                'location' => [
                     [
-                        'param' => 'post_type',
-                        'operator' => '==',
-                        'value' => 'page',
+                        [
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'page',
+                        ],
                     ],
                 ],
             ],
-        ],
         ];
     }
 
@@ -1404,984 +1406,1017 @@ class ACF_CUSTOM extends Controller
     {
         return [
             [
-            'key' => 'menus_custom_field_settings',
-            'title' => 'Menus custom field settings',
-            'fields' => [
-                [
-                    'key' => 'enable_menu_parent_principal',
-                    'label' => 'Enable parent principal',
-                    'name' => 'Enable parent principal',
-                    'type' => 'true_false',
-                ],
-                [
-                    'key' => 'parent_menu_principal_columns',
-                    'label' => 'Parent menu principal columns',
-                    'name' => 'Parent menu principal columns',
-                    'type' => 'select',
-                    'choices' => [
-                        'parent_1_columns' => '1 Column',
-                        'parent_2_columns' => '2 Columns',
-                    ],
-                     'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_menu_parent_principal',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                        ],
-                    ],
-                ],
-
-                [
-                    'key' => 'enable_menu_item_coming_soon',
-                    'label' => 'Enable coming soon',
-                    'name' => 'Enable coming soon',
-                    'type' => 'true_false',
-                ],
-                [
-                    'key' => 'coming_soon',
-                    'label' => 'Coming soon text',
-                    'name' => 'Coming soon text',
-                    'type' => 'text',
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_menu_item_coming_soon',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'key' => 'enable_extra_link',
-                    'label' => 'Enable extra link',
-                    'name' => 'Enable extra link',
-                    'type' => 'true_false',
-                ],
-                [
-                    'key' => 'extra_link',
-                    'label' => 'Extra link',
-                    'name' => 'Extra link',
-                    'type' => 'text',
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_extra_link',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'key' => 'enable_menu_item_icon',
-                    'label' => 'Enable icon',
-                    'name' => 'Enable icon',
-                    'type' => 'true_false',
-                ],
-                [
-                    'key' => 'menu_item_icon',
-                    'label' => 'Icon',
-                    'name' => 'Icon',
-                    'type' => 'text',
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_menu_item_icon',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'key' => 'enable_menu_item_description',
-                    'label' => 'Enable desc',
-                    'name' => 'Enable desc',
-                    'type' => 'true_false',
-                ],
-
-                [
-                    'key' => 'menu_item_description',
-                    'label' => 'Desc',
-                    'name' => 'Desc',
-                    'type' => 'textarea',
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_menu_item_description',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                        ],
-                    ],
-                ],
-            ],
-            'location' => [
-                [
+                'key' => 'menus_custom_field_settings',
+                'title' => 'Menus custom field settings',
+                'fields' => [
                     [
-                        'param' => 'nav_menu_item',
-                        'operator' => '==',
-                        'value' => 'all',
+                        'key' => 'enable_menu_parent_principal',
+                        'label' => 'Enable parent principal',
+                        'name' => 'Enable parent principal',
+                        'type' => 'true_false',
+                    ],
+                    [
+                        'key' => 'parent_menu_principal_columns',
+                        'label' => 'Parent menu principal columns',
+                        'name' => 'Parent menu principal columns',
+                        'type' => 'select',
+                        'choices' => [
+                            'parent_1_columns' => '1 Column',
+                            'parent_2_columns' => '2 Columns',
+                        ],
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_menu_parent_principal',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                            ],
+                        ],
+                    ],
+
+                    [
+                        'key' => 'enable_menu_item_coming_soon',
+                        'label' => 'Enable coming soon',
+                        'name' => 'Enable coming soon',
+                        'type' => 'true_false',
+                    ],
+                    [
+                        'key' => 'coming_soon',
+                        'label' => 'Coming soon text',
+                        'name' => 'Coming soon text',
+                        'type' => 'text',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_menu_item_coming_soon',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
+                        'key' => 'enable_extra_link',
+                        'label' => 'Enable extra link',
+                        'name' => 'Enable extra link',
+                        'type' => 'true_false',
+                    ],
+                    [
+                        'key' => 'extra_link',
+                        'label' => 'Extra link',
+                        'name' => 'Extra link',
+                        'type' => 'text',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_extra_link',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
+                        'key' => 'enable_menu_item_icon',
+                        'label' => 'Enable icon',
+                        'name' => 'Enable icon',
+                        'type' => 'true_false',
+                    ],
+                    [
+                        'key' => 'menu_item_icon',
+                        'label' => 'Icon',
+                        'name' => 'Icon',
+                        'type' => 'text',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_menu_item_icon',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
+                        'key' => 'enable_menu_item_description',
+                        'label' => 'Enable desc',
+                        'name' => 'Enable desc',
+                        'type' => 'true_false',
+                    ],
+
+                    [
+                        'key' => 'menu_item_description',
+                        'label' => 'Desc',
+                        'name' => 'Desc',
+                        'type' => 'textarea',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_menu_item_description',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                            ],
+                        ],
+                    ],
+                ],
+                'location' => [
+                    [
+                        [
+                            'param' => 'nav_menu_item',
+                            'operator' => '==',
+                            'value' => 'all',
+                        ],
                     ],
                 ],
             ],
-        ],
-    ];
+        ];
     }
 
     private function settingsBootstrapPopups()
     {
         return [
             [
-            'key' => 'bootstrap_popups_principal_settings',
-            'title' => 'Bootstrap popups principal options',
-            'fields' => [
-                [
-                    'key' => 'bootstrap_popup_template',
-                    'label' => 'Bootstrap popup model',
-                    'name' => 'Bootstrap popup model',
-                    'type' => 'select',
-                    'choices' => [
-                        'popup-bootstrap-general-t1' => 'Popup general 1',
-                        'popup-bootstrap-general-blue-t2' => 'Popup general 2 blue',
-                        'popup-bootstrap-general-2022' => 'Popup general 2022',
-                        'popup-bootstrap-blackFriday-2022' => 'Popup black friday 2022',
-                        'popup-bootstrap-december' => 'Popup december',
-                        'popup-general-special-1m-promo-2023' => 'Popup promo 1m 2023',
-                        'popup-general-special-14f-promo-2023' => 'Popup promo 14f 2023',
-                        'popup-bootstrap-special-message' => 'Nota special message',
-                    ],
-                ],
-            ],
-            'location' => [
-                [
+                'key' => 'bootstrap_popups_principal_settings',
+                'title' => 'Bootstrap popups principal options',
+                'fields' => [
                     [
-                        'param' => 'post_type',
-                        'operator' => '==',
-                        'value' => 'bootstrap_popups',
+                        'key' => 'bootstrap_popup_template',
+                        'label' => 'Bootstrap popup model',
+                        'name' => 'Bootstrap popup model',
+                        'type' => 'select',
+                        'choices' => [
+                            'popup-bootstrap-general-t1' => 'Popup general 1',
+                            'popup-bootstrap-general-blue-t2' => 'Popup general 2 blue',
+                            'popup-bootstrap-general-2022' => 'Popup general 2022',
+                            'popup-bootstrap-blackFriday-2022' => 'Popup black friday 2022',
+                            'popup-bootstrap-december' => 'Popup december',
+                            'popup-bootstrap-last-news' => 'Popup last news',
+                            'popup-general-special-1m-promo-2023' => 'Popup promo 1m 2023',
+                            'popup-general-special-14f-promo-2023' => 'Popup promo 14f 2023',
+                            'popup-bootstrap-special-message' => 'Nota special message',
+                        ],
+                    ],
+                ],
+                'location' => [
+                    [
+                        [
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_popups',
+                        ],
                     ],
                 ],
             ],
-        ],
 
-        // popup_call_class x
-        // principalTitle x
-        // subTitle x
-        // thirdTitle x
-        // form_title
-        // form_shortcode
-        // enable_custom_background
-        // custom_background_type
-        // popup_background_color
-        // popup_background_gradient
-        // popup_background_image
-        // imageTitle
-        // popup_image
+            // popup_call_class x
+            // principalTitle x
+            // subTitle x
+            // thirdTitle x
+            // form_title
+            // form_shortcode
+            // enable_custom_background
+            // custom_background_type
+            // popup_background_color
+            // popup_background_gradient
+            // popup_background_image
+            // imageTitle
+            // popup_image
             [
-            'key' => 'bootstrap_popups_2022_settings',
-            'title' => 'Bootstrap popup general 2022 options',
-            'fields' => [
-                [
-                    'key' => 'popup_call_class',
-                    'label' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'name' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'popup_imageTitle',
-                    'label' => 'Popup image title text',
-                    'name' => 'Popup image title text',
-                    'type' => 'textarea',
-                ],
-                [
-                    'key' => 'popup_image',
-                    'label' => 'Popup image',
-                    'name' => 'Popup image',
-                    'type' => 'image',
-                ],
-                [
-                    'key' => 'popup_principalTitle',
-                    'label' => 'Popup title text',
-                    'name' => 'Popup title text',
-                    'type' => 'textarea',
-                ],
-                [
-                    'key' => 'popup_subTitle',
-                    'label' => 'Popup sub title text',
-                    'name' => 'Popup sub title text',
-                    'type' => 'textarea',
-                ],
-                [
-                    'key' => 'popup_thirdTitle',
-                    'label' => 'Popup third title text',
-                    'name' => 'Popup third title text',
-                    'type' => 'textarea',
-                ],
-                [
-                    'key' => 'enable_custom_background',
-                    'label' => '¿Use custom background?',
-                    'name' => '¿Use custom background?',
-                    'type' => 'true_false',
-                ],
-                [
-                    'key' => 'custom_background_type',
-                    'label' => 'Custom background type',
-                    'name' => 'Custom background type',
-                    'type' => 'select',
-                    'choices' => [
-                        'solid_color' => 'Solid color',
-                        'color_gradient' => 'Color gradient',
-                        'background_image' => 'Background image',
-                    ],
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'key' => 'popup_background_color',
-                    'label' => 'Popup background color',
-                    'name' => 'Popup background color',
-                    'type' => 'color_picker',
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                            [
-                                'field' => 'custom_background_type',
-                                'operator' => '==',
-                                'value' => 'solid_color',
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'key' => 'popup_background_gradient',
-                    'label' => 'Popup background gradient CSS',
-                    'name' => 'Popup background gradient CSS',
-                    'type' => 'textarea',
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                            [
-                                'field' => 'custom_background_type',
-                                'operator' => '==',
-                                'value' => 'color_gradient',
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'key' => 'popup_background_image',
-                    'label' => 'Popup background image',
-                    'name' => 'Popup background image',
-                    'type' => 'image',
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                            [
-                                'field' => 'custom_background_type',
-                                'operator' => '==',
-                                'value' => 'background_image',
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'key' => 'form_title',
-                    'label' => 'Form title',
-                    'name' => 'Form title',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_shortcode',
-                    'label' => 'Shortcode form',
-                    'name' => 'Shortcode form',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_redirect',
-                    'label' => 'Form redirect url',
-                    'name' => 'Form redirect url',
-                    'type' => 'url',
-                ],
-            ],
-            'location' => [
-                [
+                'key' => 'bootstrap_popups_2022_settings',
+                'title' => 'Bootstrap popup general 2022 options',
+                'fields' => [
                     [
-                        'param' => 'post_type',
-                        'operator' => '==',
-                        'value' => 'bootstrap_popups',
+                        'key' => 'popup_call_class',
+                        'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'type' => 'text',
                     ],
                     [
-                        'param' => 'post_taxonomy',
-                        'operator' => '==',
-                        'value' => 'popup-category-tax:general_popup_2022',
+                        'key' => 'popup_imageTitle',
+                        'label' => 'Popup image title text',
+                        'name' => 'Popup image title text',
+                        'type' => 'textarea',
+                    ],
+                    [
+                        'key' => 'popup_image',
+                        'label' => 'Popup image',
+                        'name' => 'Popup image',
+                        'type' => 'image',
+                    ],
+                    [
+                        'key' => 'popup_principalTitle',
+                        'label' => 'Popup title text',
+                        'name' => 'Popup title text',
+                        'type' => 'textarea',
+                    ],
+                    [
+                        'key' => 'popup_subTitle',
+                        'label' => 'Popup sub title text',
+                        'name' => 'Popup sub title text',
+                        'type' => 'textarea',
+                    ],
+                    [
+                        'key' => 'popup_thirdTitle',
+                        'label' => 'Popup third title text',
+                        'name' => 'Popup third title text',
+                        'type' => 'textarea',
+                    ],
+                    [
+                        'key' => 'enable_custom_background',
+                        'label' => '¿Use custom background?',
+                        'name' => '¿Use custom background?',
+                        'type' => 'true_false',
+                    ],
+                    [
+                        'key' => 'custom_background_type',
+                        'label' => 'Custom background type',
+                        'name' => 'Custom background type',
+                        'type' => 'select',
+                        'choices' => [
+                            'solid_color' => 'Solid color',
+                            'color_gradient' => 'Color gradient',
+                            'background_image' => 'Background image',
+                        ],
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
+                        'key' => 'popup_background_color',
+                        'label' => 'Popup background color',
+                        'name' => 'Popup background color',
+                        'type' => 'color_picker',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                                [
+                                    'field' => 'custom_background_type',
+                                    'operator' => '==',
+                                    'value' => 'solid_color',
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
+                        'key' => 'popup_background_gradient',
+                        'label' => 'Popup background gradient CSS',
+                        'name' => 'Popup background gradient CSS',
+                        'type' => 'textarea',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                                [
+                                    'field' => 'custom_background_type',
+                                    'operator' => '==',
+                                    'value' => 'color_gradient',
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
+                        'key' => 'popup_background_image',
+                        'label' => 'Popup background image',
+                        'name' => 'Popup background image',
+                        'type' => 'image',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                                [
+                                    'field' => 'custom_background_type',
+                                    'operator' => '==',
+                                    'value' => 'background_image',
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
+                        'key' => 'form_title',
+                        'label' => 'Form title',
+                        'name' => 'Form title',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_shortcode',
+                        'label' => 'Shortcode form',
+                        'name' => 'Shortcode form',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_redirect',
+                        'label' => 'Form redirect url',
+                        'name' => 'Form redirect url',
+                        'type' => 'url',
+                    ],
+                ],
+                'location' => [
+                    [
+                        [
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_popups',
+                        ],
+                        [
+                            'param' => 'post_taxonomy',
+                            'operator' => '==',
+                            'value' => 'popup-category-tax:general_popup_2022',
+                        ],
                     ],
                 ],
             ],
-        ],
             [
                 'key' => 'bootstrap_popups_blackFriday_2022_settings',
                 'title' => 'Bootstrap popup blackFriday 2022 options',
-            'fields' => [
-                [
-                    'key' => 'popup_call_class',
-                    'label' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'name' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'popup_imageTitle',
-                    'label' => 'Popup image title text',
-                    'name' => 'Popup image title text',
-                    'type' => 'textarea',
-                ],
-                [
-                    'key' => 'popup_image',
-                    'label' => 'Popup image',
-                    'name' => 'Popup image',
-                    'type' => 'image',
-                ],
-                [
-                    'key' => 'popup_after_imageText',
-                    'label' => 'Popup after image title text',
-                    'name' => 'Popup after image title text',
-                    'type' => 'textarea',
-                ],
-                [
-                    'key' => 'popup_principalTitle',
-                    'label' => 'Popup title text',
-                    'name' => 'Popup title text',
-                    'type' => 'textarea',
-                ],
-                [
-                    'key' => 'enable_custom_background',
-                    'label' => '¿Use custom background?',
-                    'name' => '¿Use custom background?',
-                    'type' => 'true_false',
-                ],
-                [
-                    'key' => 'custom_background_type',
-                    'label' => 'Custom background type',
-                    'name' => 'Custom background type',
-                    'type' => 'select',
-                    'choices' => [
-                        'solid_color' => 'Solid color',
-                        'color_gradient' => 'Color gradient',
-                        'background_image' => 'Background image',
+                'fields' => [
+                    [
+                        'key' => 'popup_call_class',
+                        'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'type' => 'text',
                     ],
-                    'conditional_logic' => [
-                        [
+                    [
+                        'key' => 'popup_imageTitle',
+                        'label' => 'Popup image title text',
+                        'name' => 'Popup image title text',
+                        'type' => 'textarea',
+                    ],
+                    [
+                        'key' => 'popup_image',
+                        'label' => 'Popup image',
+                        'name' => 'Popup image',
+                        'type' => 'image',
+                    ],
+                    [
+                        'key' => 'popup_after_imageText',
+                        'label' => 'Popup after image title text',
+                        'name' => 'Popup after image title text',
+                        'type' => 'textarea',
+                    ],
+                    [
+                        'key' => 'popup_principalTitle',
+                        'label' => 'Popup title text',
+                        'name' => 'Popup title text',
+                        'type' => 'textarea',
+                    ],
+                    [
+                        'key' => 'enable_custom_background',
+                        'label' => '¿Use custom background?',
+                        'name' => '¿Use custom background?',
+                        'type' => 'true_false',
+                    ],
+                    [
+                        'key' => 'custom_background_type',
+                        'label' => 'Custom background type',
+                        'name' => 'Custom background type',
+                        'type' => 'select',
+                        'choices' => [
+                            'solid_color' => 'Solid color',
+                            'color_gradient' => 'Color gradient',
+                            'background_image' => 'Background image',
+                        ],
+                        'conditional_logic' => [
                             [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
                             ],
                         ],
                     ],
-                ],
-                [
-                    'key' => 'popup_background_color',
-                    'label' => 'Popup background color',
-                    'name' => 'Popup background color',
-                    'type' => 'color_picker',
-                    'conditional_logic' => [
-                        [
+                    [
+                        'key' => 'popup_background_color',
+                        'label' => 'Popup background color',
+                        'name' => 'Popup background color',
+                        'type' => 'color_picker',
+                        'conditional_logic' => [
                             [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                            [
-                                'field' => 'custom_background_type',
-                                'operator' => '==',
-                                'value' => 'solid_color',
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'key' => 'popup_background_gradient',
-                    'label' => 'Popup background gradient CSS',
-                    'name' => 'Popup background gradient CSS',
-                    'type' => 'textarea',
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                            [
-                                'field' => 'custom_background_type',
-                                'operator' => '==',
-                                'value' => 'color_gradient',
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                                [
+                                    'field' => 'custom_background_type',
+                                    'operator' => '==',
+                                    'value' => 'solid_color',
+                                ],
                             ],
                         ],
                     ],
-                ],
-                [
-                    'key' => 'popup_background_image',
-                    'label' => 'Popup background image',
-                    'name' => 'Popup background image',
-                    'type' => 'image',
-                    'conditional_logic' => [
-                        [
+                    [
+                        'key' => 'popup_background_gradient',
+                        'label' => 'Popup background gradient CSS',
+                        'name' => 'Popup background gradient CSS',
+                        'type' => 'textarea',
+                        'conditional_logic' => [
                             [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                            [
-                                'field' => 'custom_background_type',
-                                'operator' => '==',
-                                'value' => 'background_image',
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                                [
+                                    'field' => 'custom_background_type',
+                                    'operator' => '==',
+                                    'value' => 'color_gradient',
+                                ],
                             ],
                         ],
                     ],
+                    [
+                        'key' => 'popup_background_image',
+                        'label' => 'Popup background image',
+                        'name' => 'Popup background image',
+                        'type' => 'image',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                                [
+                                    'field' => 'custom_background_type',
+                                    'operator' => '==',
+                                    'value' => 'background_image',
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
+                        'key' => 'form_title',
+                        'label' => 'Form title',
+                        'name' => 'Form title',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_shortcode',
+                        'label' => 'Shortcode form',
+                        'name' => 'Shortcode form',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_redirect',
+                        'label' => 'Form redirect url',
+                        'name' => 'Form redirect url',
+                        'type' => 'url',
+                    ],
+                    [
+                        'key' => 'popup_direction',
+                        'label' => 'Popup direction',
+                        'name' => 'Popup direction',
+                        'type' => 'select',
+                        'choices' => [
+                            'right_side' => 'Right side',
+                            'left_side' => 'Left side',
+                        ],
+                    ],
                 ],
-                [
-                    'key' => 'form_title',
-                    'label' => 'Form title',
-                    'name' => 'Form title',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_shortcode',
-                    'label' => 'Shortcode form',
-                    'name' => 'Shortcode form',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_redirect',
-                    'label' => 'Form redirect url',
-                    'name' => 'Form redirect url',
-                    'type' => 'url',
-                ],
-                [
-                    'key' => 'popup_direction',
-                    'label' => 'Popup direction',
-                    'name' => 'Popup direction',
-                    'type' => 'select',
-                    'choices' => [
-                        'right_side' => 'Right side',
-                        'left_side' => 'Left side',
+                'location' => [
+                    [
+                        [
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_popups',
+                        ],
+                        [
+                            'param' => 'post_taxonomy',
+                            'operator' => '==',
+                            'value' => 'popup-category-tax:blackFriday_popup_2022',
+                        ],
                     ],
                 ],
             ],
-            'location' => [
-                [
-                    [
-                        'param' => 'post_type',
-                        'operator' => '==',
-                        'value' => 'bootstrap_popups',
-                    ],
-                    [
-                        'param' => 'post_taxonomy',
-                        'operator' => '==',
-                        'value' => 'popup-category-tax:blackFriday_popup_2022',
-                    ],
-                ],
-            ],
-        ],
             [
                 'key' => 'bootstrap_popups_december_settings',
                 'title' => 'Bootstrap popup december options',
-            'fields' => [
-                [
-                    'key' => 'popup_call_class',
-                    'label' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'name' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'popup_imageTitle',
-                    'label' => 'Popup image title text',
-                    'name' => 'Popup image title text',
-                    'type' => 'textarea',
-                ],
-                [
-                    'key' => 'popup_image',
-                    'label' => 'Popup image',
-                    'name' => 'Popup image',
-                    'type' => 'image',
-                ],
-                [
-                    'key' => 'popup_after_imageText',
-                    'label' => 'Popup after image title text',
-                    'name' => 'Popup after image title text',
-                    'type' => 'textarea',
-                ],
-                [
-                    'key' => 'popup_principalTitle',
-                    'label' => 'Popup title text',
-                    'name' => 'Popup title text',
-                    'type' => 'textarea',
-                ],
-                [
-                    'key' => 'enable_custom_background',
-                    'label' => '¿Use custom background?',
-                    'name' => '¿Use custom background?',
-                    'type' => 'true_false',
-                ],
-                [
-                    'key' => 'custom_background_type',
-                    'label' => 'Custom background type',
-                    'name' => 'Custom background type',
-                    'type' => 'select',
-                    'choices' => [
-                        'solid_color' => 'Solid color',
-                        'color_gradient' => 'Color gradient',
-                        'background_image' => 'Background image',
+                'fields' => [
+                    [
+                        'key' => 'popup_call_class',
+                        'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'type' => 'text',
                     ],
-                    'conditional_logic' => [
-                        [
+                    [
+                        'key' => 'popup_imageTitle',
+                        'label' => 'Popup image title text',
+                        'name' => 'Popup image title text',
+                        'type' => 'textarea',
+                    ],
+                    [
+                        'key' => 'popup_image',
+                        'label' => 'Popup image',
+                        'name' => 'Popup image',
+                        'type' => 'image',
+                    ],
+                    [
+                        'key' => 'popup_after_imageText',
+                        'label' => 'Popup after image title text',
+                        'name' => 'Popup after image title text',
+                        'type' => 'textarea',
+                    ],
+                    [
+                        'key' => 'popup_principalTitle',
+                        'label' => 'Popup title text',
+                        'name' => 'Popup title text',
+                        'type' => 'textarea',
+                    ],
+                    [
+                        'key' => 'enable_custom_background',
+                        'label' => '¿Use custom background?',
+                        'name' => '¿Use custom background?',
+                        'type' => 'true_false',
+                    ],
+                    [
+                        'key' => 'custom_background_type',
+                        'label' => 'Custom background type',
+                        'name' => 'Custom background type',
+                        'type' => 'select',
+                        'choices' => [
+                            'solid_color' => 'Solid color',
+                            'color_gradient' => 'Color gradient',
+                            'background_image' => 'Background image',
+                        ],
+                        'conditional_logic' => [
                             [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
                             ],
                         ],
                     ],
-                ],
-                [
-                    'key' => 'popup_background_color',
-                    'label' => 'Popup background color',
-                    'name' => 'Popup background color',
-                    'type' => 'color_picker',
-                    'conditional_logic' => [
-                        [
+                    [
+                        'key' => 'popup_background_color',
+                        'label' => 'Popup background color',
+                        'name' => 'Popup background color',
+                        'type' => 'color_picker',
+                        'conditional_logic' => [
                             [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                            [
-                                'field' => 'custom_background_type',
-                                'operator' => '==',
-                                'value' => 'solid_color',
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'key' => 'popup_background_gradient',
-                    'label' => 'Popup background gradient CSS',
-                    'name' => 'Popup background gradient CSS',
-                    'type' => 'textarea',
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                            [
-                                'field' => 'custom_background_type',
-                                'operator' => '==',
-                                'value' => 'color_gradient',
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                                [
+                                    'field' => 'custom_background_type',
+                                    'operator' => '==',
+                                    'value' => 'solid_color',
+                                ],
                             ],
                         ],
                     ],
-                ],
-                [
-                    'key' => 'popup_background_image',
-                    'label' => 'Popup background image',
-                    'name' => 'Popup background image',
-                    'type' => 'image',
-                    'conditional_logic' => [
-                        [
+                    [
+                        'key' => 'popup_background_gradient',
+                        'label' => 'Popup background gradient CSS',
+                        'name' => 'Popup background gradient CSS',
+                        'type' => 'textarea',
+                        'conditional_logic' => [
                             [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                            [
-                                'field' => 'custom_background_type',
-                                'operator' => '==',
-                                'value' => 'background_image',
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                                [
+                                    'field' => 'custom_background_type',
+                                    'operator' => '==',
+                                    'value' => 'color_gradient',
+                                ],
                             ],
                         ],
                     ],
+                    [
+                        'key' => 'popup_background_image',
+                        'label' => 'Popup background image',
+                        'name' => 'Popup background image',
+                        'type' => 'image',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                                [
+                                    'field' => 'custom_background_type',
+                                    'operator' => '==',
+                                    'value' => 'background_image',
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
+                        'key' => 'form_title',
+                        'label' => 'Form title',
+                        'name' => 'Form title',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_shortcode',
+                        'label' => 'Shortcode form',
+                        'name' => 'Shortcode form',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_redirect',
+                        'label' => 'Form redirect url',
+                        'name' => 'Form redirect url',
+                        'type' => 'url',
+                    ],
+                    [
+                        'key' => 'popup_direction',
+                        'label' => 'Popup direction',
+                        'name' => 'Popup direction',
+                        'type' => 'select',
+                        'choices' => [
+                            'right_side' => 'Right side',
+                            'left_side' => 'Left side',
+                        ],
+                    ],
                 ],
-                [
-                    'key' => 'form_title',
-                    'label' => 'Form title',
-                    'name' => 'Form title',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_shortcode',
-                    'label' => 'Shortcode form',
-                    'name' => 'Shortcode form',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_redirect',
-                    'label' => 'Form redirect url',
-                    'name' => 'Form redirect url',
-                    'type' => 'url',
-                ],
-                [
-                    'key' => 'popup_direction',
-                    'label' => 'Popup direction',
-                    'name' => 'Popup direction',
-                    'type' => 'select',
-                    'choices' => [
-                        'right_side' => 'Right side',
-                        'left_side' => 'Left side',
+                'location' => [
+                    [
+                        [
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_popups',
+                        ],
+                        [
+                            'param' => 'post_taxonomy',
+                            'operator' => '==',
+                            'value' => 'popup-category-tax:december_popup',
+                        ],
                     ],
                 ],
             ],
-            'location' => [
-                [
+            [
+                'key' => 'bootstrap_popups_last_news_settings',
+                'title' => 'Bootstrap popup last_news options',
+                'fields' => [
                     [
-                        'param' => 'post_type',
-                        'operator' => '==',
-                        'value' => 'bootstrap_popups',
+                        'key' => 'popup_call_class',
+                        'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'type' => 'text',
                     ],
                     [
-                        'param' => 'post_taxonomy',
-                        'operator' => '==',
-                        'value' => 'popup-category-tax:december_popup',
+                        'key' => 'form_shortcode',
+                        'label' => 'Shortcode form',
+                        'name' => 'Shortcode form',
+                        'type' => 'text',
+                    ]
+                ],
+                'location' => [
+                    [
+                        [
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_popups',
+                        ],
+                        [
+                            'param' => 'post_taxonomy',
+                            'operator' => '==',
+                            'value' => 'popup-category-tax:last_news_popup',
+                        ],
                     ],
                 ],
             ],
-        ],
             [
                 'key' => 'bootstrap_popups_promo_1m_2023_settings',
                 'title' => 'Bootstrap popup promo 1m 2023 options',
-            'fields' => [
-                [
-                    'key' => 'popup_call_class',
-                    'label' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'name' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'type' => 'text',
+                'fields' => [
+                    [
+                        'key' => 'popup_call_class',
+                        'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'popup_principalTitle',
+                        'label' => 'Popup title text',
+                        'name' => 'Popup title text',
+                        'type' => 'textarea',
+                    ],
+                    [
+                        'key' => 'form_title',
+                        'label' => 'Form title',
+                        'name' => 'Form title',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_button_text',
+                        'label' => 'Popup form button text',
+                        'name' => 'Popup form button text',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_shortcode',
+                        'label' => 'Shortcode form',
+                        'name' => 'Shortcode form',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_redirect',
+                        'label' => 'Form redirect url',
+                        'name' => 'Form redirect url',
+                        'type' => 'url',
+                    ],
+                    [
+                        'key' => 'popup_direction',
+                        'label' => 'Popup direction',
+                        'name' => 'Popup direction',
+                        'type' => 'select',
+                        'choices' => [
+                            'right_side' => 'Right side',
+                            'left_side' => 'Left side',
+                        ],
+                    ],
                 ],
-                [
-                    'key' => 'popup_principalTitle',
-                    'label' => 'Popup title text',
-                    'name' => 'Popup title text',
-                    'type' => 'textarea',
-                ],
-                [
-                    'key' => 'form_title',
-                    'label' => 'Form title',
-                    'name' => 'Form title',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_button_text',
-                    'label' => 'Popup form button text',
-                    'name' => 'Popup form button text',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_shortcode',
-                    'label' => 'Shortcode form',
-                    'name' => 'Shortcode form',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_redirect',
-                    'label' => 'Form redirect url',
-                    'name' => 'Form redirect url',
-                    'type' => 'url',
-                ],
-                [
-                    'key' => 'popup_direction',
-                    'label' => 'Popup direction',
-                    'name' => 'Popup direction',
-                    'type' => 'select',
-                    'choices' => [
-                        'right_side' => 'Right side',
-                        'left_side' => 'Left side',
+                'location' => [
+                    [
+                        [
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_popups',
+                        ],
+                        [
+                            'param' => 'post_taxonomy',
+                            'operator' => '==',
+                            'value' => 'popup-category-tax:promo_1m_popup_2023',
+                        ],
                     ],
                 ],
             ],
-            'location' => [
-                [
-                    [
-                        'param' => 'post_type',
-                        'operator' => '==',
-                        'value' => 'bootstrap_popups',
-                    ],
-                    [
-                        'param' => 'post_taxonomy',
-                        'operator' => '==',
-                        'value' => 'popup-category-tax:promo_1m_popup_2023',
-                    ],
-                ],
-            ],
-        ],
             [
                 'key' => 'bootstrap_popups_promo_14f_2023_settings',
                 'title' => 'Bootstrap popup promo 14f 2023 options',
-            'fields' => [
-                [
-                    'key' => 'popup_call_class',
-                    'label' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'name' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'type' => 'text',
+                'fields' => [
+                    [
+                        'key' => 'popup_call_class',
+                        'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'popup_principalTitle',
+                        'label' => 'Popup title text',
+                        'name' => 'Popup title text',
+                        'type' => 'textarea',
+                    ],
+                    [
+                        'key' => 'form_title',
+                        'label' => 'Form title',
+                        'name' => 'Form title',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_button_text',
+                        'label' => 'Popup form button text',
+                        'name' => 'Popup form button text',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_shortcode',
+                        'label' => 'Shortcode form',
+                        'name' => 'Shortcode form',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_redirect',
+                        'label' => 'Form redirect url',
+                        'name' => 'Form redirect url',
+                        'type' => 'url',
+                    ],
+                    [
+                        'key' => 'popup_direction',
+                        'label' => 'Popup direction',
+                        'name' => 'Popup direction',
+                        'type' => 'select',
+                        'choices' => [
+                            'right_side' => 'Right side',
+                            'left_side' => 'Left side',
+                        ],
+                    ],
                 ],
-                [
-                    'key' => 'popup_principalTitle',
-                    'label' => 'Popup title text',
-                    'name' => 'Popup title text',
-                    'type' => 'textarea',
-                ],
-                [
-                    'key' => 'form_title',
-                    'label' => 'Form title',
-                    'name' => 'Form title',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_button_text',
-                    'label' => 'Popup form button text',
-                    'name' => 'Popup form button text',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_shortcode',
-                    'label' => 'Shortcode form',
-                    'name' => 'Shortcode form',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_redirect',
-                    'label' => 'Form redirect url',
-                    'name' => 'Form redirect url',
-                    'type' => 'url',
-                ],
-                [
-                    'key' => 'popup_direction',
-                    'label' => 'Popup direction',
-                    'name' => 'Popup direction',
-                    'type' => 'select',
-                    'choices' => [
-                        'right_side' => 'Right side',
-                        'left_side' => 'Left side',
+                'location' => [
+                    [
+                        [
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_popups',
+                        ],
+                        [
+                            'param' => 'post_taxonomy',
+                            'operator' => '==',
+                            'value' => 'popup-category-tax:promo_14f_popup_2023',
+                        ],
                     ],
                 ],
             ],
-            'location' => [
-                [
-                    [
-                        'param' => 'post_type',
-                        'operator' => '==',
-                        'value' => 'bootstrap_popups',
-                    ],
-                    [
-                        'param' => 'post_taxonomy',
-                        'operator' => '==',
-                        'value' => 'popup-category-tax:promo_14f_popup_2023',
-                    ],
-                ],
-            ],
-        ],
             [
-            'key' => 'bootstrap_popups_settings',
-            'title' => 'Bootstrap popups options',
-            'fields' => [
-                [
-                    'key' => 'popup_call_class',
-                    'label' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'name' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'popup_image',
-                    'label' => 'Popup image',
-                    'name' => 'Popup image',
-                    'type' => 'image',
-                ],
-                [
-                    'key' => 'popup_title_text',
-                    'label' => 'Popup title text',
-                    'name' => 'Popup title text',
-                    'type' => 'textarea',
-                ],
-                [
-                    'key' => 'enable_custom_background',
-                    'label' => '¿Use custom background?',
-                    'name' => '¿Use custom background?',
-                    'type' => 'true_false',
-                ],
-                [
-                    'key' => 'custom_background_type',
-                    'label' => 'Custom background type',
-                    'name' => 'Custom background type',
-                    'type' => 'select',
-                    'choices' => [
-                        'solid_color' => 'Solid color',
-                        'color_gradient' => 'Color gradient',
-                        'background_image' => 'Background image',
-                    ],
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'key' => 'popup_background_color',
-                    'label' => 'Popup background color',
-                    'name' => 'Popup background color',
-                    'type' => 'color_picker',
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                            [
-                                'field' => 'custom_background_type',
-                                'operator' => '==',
-                                'value' => 'solid_color',
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'key' => 'popup_background_gradient',
-                    'label' => 'Popup background gradient CSS',
-                    'name' => 'Popup background gradient CSS',
-                    'type' => 'textarea',
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                            [
-                                'field' => 'custom_background_type',
-                                'operator' => '==',
-                                'value' => 'color_gradient',
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'key' => 'popup_background_image',
-                    'label' => 'Popup background image',
-                    'name' => 'Popup background image',
-                    'type' => 'image',
-                    'conditional_logic' => [
-                        [
-                            [
-                                'field' => 'enable_custom_background',
-                                'operator' => '==',
-                                'value' => 1,
-                            ],
-                            [
-                                'field' => 'custom_background_type',
-                                'operator' => '==',
-                                'value' => 'background_image',
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'key' => 'form_title',
-                    'label' => 'Form title',
-                    'name' => 'Form title',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_shortcode',
-                    'label' => 'Shortcode form',
-                    'name' => 'Shortcode form',
-                    'type' => 'text',
-                ],
-                [
-                    'key' => 'form_redirect',
-                    'label' => 'Form redirect url',
-                    'name' => 'Form redirect url',
-                    'type' => 'url',
-                ],
-            ],
-            'location' => [
-                [
+                'key' => 'bootstrap_popups_settings',
+                'title' => 'Bootstrap popups options',
+                'fields' => [
                     [
-                        'param' => 'post_type',
-                        'operator' => '==',
-                        'value' => 'bootstrap_popups',
+                        'key' => 'popup_call_class',
+                        'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'type' => 'text',
                     ],
                     [
-                        'param' => 'post_taxonomy',
-                        'operator' => '==',
-                        'value' => 'popup-category-tax:general_popup_old',
+                        'key' => 'popup_image',
+                        'label' => 'Popup image',
+                        'name' => 'Popup image',
+                        'type' => 'image',
+                    ],
+                    [
+                        'key' => 'popup_title_text',
+                        'label' => 'Popup title text',
+                        'name' => 'Popup title text',
+                        'type' => 'textarea',
+                    ],
+                    [
+                        'key' => 'enable_custom_background',
+                        'label' => '¿Use custom background?',
+                        'name' => '¿Use custom background?',
+                        'type' => 'true_false',
+                    ],
+                    [
+                        'key' => 'custom_background_type',
+                        'label' => 'Custom background type',
+                        'name' => 'Custom background type',
+                        'type' => 'select',
+                        'choices' => [
+                            'solid_color' => 'Solid color',
+                            'color_gradient' => 'Color gradient',
+                            'background_image' => 'Background image',
+                        ],
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
+                        'key' => 'popup_background_color',
+                        'label' => 'Popup background color',
+                        'name' => 'Popup background color',
+                        'type' => 'color_picker',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                                [
+                                    'field' => 'custom_background_type',
+                                    'operator' => '==',
+                                    'value' => 'solid_color',
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
+                        'key' => 'popup_background_gradient',
+                        'label' => 'Popup background gradient CSS',
+                        'name' => 'Popup background gradient CSS',
+                        'type' => 'textarea',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                                [
+                                    'field' => 'custom_background_type',
+                                    'operator' => '==',
+                                    'value' => 'color_gradient',
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
+                        'key' => 'popup_background_image',
+                        'label' => 'Popup background image',
+                        'name' => 'Popup background image',
+                        'type' => 'image',
+                        'conditional_logic' => [
+                            [
+                                [
+                                    'field' => 'enable_custom_background',
+                                    'operator' => '==',
+                                    'value' => 1,
+                                ],
+                                [
+                                    'field' => 'custom_background_type',
+                                    'operator' => '==',
+                                    'value' => 'background_image',
+                                ],
+                            ],
+                        ],
+                    ],
+                    [
+                        'key' => 'form_title',
+                        'label' => 'Form title',
+                        'name' => 'Form title',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_shortcode',
+                        'label' => 'Shortcode form',
+                        'name' => 'Shortcode form',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_redirect',
+                        'label' => 'Form redirect url',
+                        'name' => 'Form redirect url',
+                        'type' => 'url',
+                    ],
+                ],
+                'location' => [
+                    [
+                        [
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_popups',
+                        ],
+                        [
+                            'param' => 'post_taxonomy',
+                            'operator' => '==',
+                            'value' => 'popup-category-tax:general_popup_old',
+                        ],
                     ],
                 ],
             ],
-        ],
 
-        [
-            'key' => 'bootstrap_popups_special_message_settings',
-            'title' => 'Bootstrap popups options',
-            'fields' => [
-                [
-                    'key' => 'popup_call_class',
-                    'label' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'name' => 'Popup call open class Nota: Debe iniciar con popup-',
-                    'type' => 'text',
-                ],
+            [
+                'key' => 'bootstrap_popups_special_message_settings',
+                'title' => 'Bootstrap popups options',
+                'fields' => [
+                    [
+                        'key' => 'popup_call_class',
+                        'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'type' => 'text',
+                    ],
 
-                [
-                    'key' => 'popup_special_message_image',
-                    'label' => 'Popup image',
-                    'name' => 'Popup image',
-                    'type' => 'image',
-                ],
-                [
-                    'key' => 'popup_special_message_text',
-                    'label' => 'Popup text',
-                    'name' => 'Popup text',
-                    'type' => 'textarea',
-                ],
-            ],
-            'location' => [
-                [
                     [
-                        'param' => 'post_type',
-                        'operator' => '==',
-                        'value' => 'bootstrap_popups',
+                        'key' => 'popup_special_message_image',
+                        'label' => 'Popup image',
+                        'name' => 'Popup image',
+                        'type' => 'image',
                     ],
                     [
-                        'param' => 'post_taxonomy',
-                        'operator' => '==',
-                        'value' => 'popup-category-tax:special_message_popup',
+                        'key' => 'popup_special_message_text',
+                        'label' => 'Popup text',
+                        'name' => 'Popup text',
+                        'type' => 'textarea',
+                    ],
+                ],
+                'location' => [
+                    [
+                        [
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_popups',
+                        ],
+                        [
+                            'param' => 'post_taxonomy',
+                            'operator' => '==',
+                            'value' => 'popup-category-tax:special_message_popup',
+                        ],
                     ],
                 ],
             ],
-        ],
         ];
     }
 

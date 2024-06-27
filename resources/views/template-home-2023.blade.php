@@ -5,6 +5,8 @@
 @extends('layouts.app')
 @section('content')
 
+
+
     <div id="homeSection_2023">
         <div class="sections">
 
@@ -103,7 +105,6 @@
 
                                             @php
                                                 $videoEmbed = App::setFilePath('/assets/videos/intro_escala__crm_todo-en-uno (1080p).mp4');
-                                                // $videoCover = App::setFilePath('/assets/images/gifs/home_video_portrait_2023.gif');
                                                 $videoCover = App::setFilePath('/assets/videos/intro_escala__crm_todo-en-uno (1080p).mp4');
                                             @endphp
 
@@ -388,7 +389,7 @@
                                                 'img' => App::setFilePath('/assets/images/gifs/image_whatsapp_home_selector.gif'),
                                             ],
                                             [
-                                                'title' => 'Inteligencia Artifical',
+                                                'title' => 'Inteligencia Artificial',
                                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ia_small.png'),
                                                 'text' => '
             <span>Crea contenido efectivo en segundos</span> <br class="space">
@@ -509,9 +510,6 @@
 
                                         </div>
 
-                                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                            Recibir un demo
-                                        </a>
 
 
                                     </div>

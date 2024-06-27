@@ -1,0 +1,67 @@
+
+
+
+.block_blog_text_parag.customSection.sectionParent
+    padding: 0
+    padding-bottom: 50px
+    @include responsivo(telefonoTable)
+        padding-bottom: 25px
+    ul, ol
+        margin-bottom: 0
+        @include responsivo(telefonoTable)
+            padding-left: 0
+        li
+            @include responsivo(telefonoTable)
+                text-align: left
+                *
+                    text-align: left
+            &::marker
+                color: #F1685A
+    @include responsivo(telefonoTable)
+        padding-bottom: 25px
+
+
+    .section_contain
+        .innerSectionElement.sct1
+            width:85%
+            margin: 0 auto
+            @include responsivo(telefonoTable)
+                width:100%
+            .containElements
+                display: flex
+                flex-direction: column
+                gap: 25px
+
+                .primaryTitle
+                    text-align: center!important
+                    color: #34768A
+                    font-size: 25px
+                    font-weight: 700
+                    letter-spacing: -1.25px
+                    margin-bottom: 0
+                    line-height: 1
+                    @include responsivo(telefonoTable)
+                        font-size: 22.5px
+                    @include responsivo(pcMedio)
+                        font-size: 22.5px
+                    p
+                        &:last-child
+                            margin-bottom: 0
+
+                .primaryText
+                    color: #706B6D
+                    text-align: left
+                    font-size: 18px
+                    line-height: 1.25
+                    letter-spacing: -1px
+                    @include responsivo(telefonoTable)
+                        font-size: 16px
+                        text-align: center
+                    @include responsivo(pcMedio)
+                        font-size: 16px
+                    *
+                        line-height: 1.25
+                        letter-spacing: -1px
+                    p
+                        &:last-child
+                            margin-bottom: 0

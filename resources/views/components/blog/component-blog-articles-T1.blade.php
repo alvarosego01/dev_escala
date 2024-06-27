@@ -92,14 +92,13 @@ posts
                                 <h3 class="secondaryTitle blackColor card-title">
                                     {{ $item->post_title }}
                                 </h3>
-                                <p class="commonText  blackColor card-text">
+                                <p class="commonText blackColor card-text">
                                     {!! ACF_CUSTOM::_getField('excerpt_single', $item->ID) !!}
                                 </p>
 
                             </a>
                                 <span class="date">
                                     @php
-                                        // $date = '2022-06-13 09:59:45';
                                         $date = $item->post_date;
                                         $sec = strtotime($date);
                                         $newdate = date ("j M ", $sec);

@@ -2,12 +2,20 @@
 
 namespace App;
 
+use App\Classes\CarbonFields;
 use App\Controllers\ACF_CUSTOM;
 use App\Controllers\SetComponents;
 use Roots\Sage\Assets\JsonManifest;
 use Roots\Sage\Container;
 use Roots\Sage\Template\Blade;
 use Roots\Sage\Template\BladeProvider;
+
+require_once THEME_ROOT_PATH . '/app/Classes/index.php';
+
+$carbon_fields = new CarbonFields();
+$carbon_fields->__init();
+
+ 
 
 /*
  * Theme assets
@@ -24,12 +32,15 @@ add_action('wp_enqueue_scripts', function () {
     wp_register_script('bootstrapJs', get_template_directory_uri().'/../oceanwp-child/resources/assets/bootstrap/dist/js/bootstrap.min.js', ['jquery'], rand(), 'all');
     wp_enqueue_script('bootstrapJs');
 
-    if (is_page_template($bootstrapPages)) {
+
         $t = null;
 
         // generals
         wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, THEME_VERSION);
         wp_enqueue_style('components.css', asset_path('styles/components/componentsMain.css'), false, THEME_VERSION);
+
+        // blocks
+        wp_enqueue_style('blocks.css', asset_path('styles/components/blocks/blocksMain.css'), false, THEME_VERSION);
         // per type pages
 
         $t = SetComponents::setTemplates('singles');
@@ -71,10 +82,16 @@ add_action('wp_enqueue_scripts', function () {
         if (is_page_template($t)) {
             wp_enqueue_style('escalaMarketing.css', asset_path('styles/pages/escalaMarketing/escalaMarketingMain.css'), false, THEME_VERSION);
         }
+
+        // $currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $t = SetComponents::setTemplates('blog');
         if (is_page_template($t)) {
+
             wp_enqueue_style('_blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
             wp_enqueue_script('_blog.js', asset_path('scripts/pages/_blog.js'), ['jquery'], THEME_VERSION, true);
+
+            wp_enqueue_style('single_2024.css', asset_path('styles/pages/blog/single_blog_2024.css'), false, THEME_VERSION);
+
         }
         $t = SetComponents::setTemplates('casoExito');
         if (is_page_template($t)) {
@@ -145,6 +162,10 @@ add_action('wp_enqueue_scripts', function () {
             wp_enqueue_style('landing_crm_atrae_convierte_9sept22.css', asset_path('styles/pages/landingPages/landing_crm_atrae_convierte_9sept22.css'), false, THEME_VERSION);
         }
         // ---Landing escala competitors brands
+        if (is_page_template('views/template-landing-escala-competitors-2024.blade.php')) {
+            wp_enqueue_style('landing_escala_competitors_brands_2024.css', asset_path('styles/pages/landingPages/landing_escala_competitors_brands_2024.css'), false, THEME_VERSION);
+        }
+        // ---Landing escala competitors brands
         if (is_page_template('views/template-landing-escala-competitors-brands-2022.blade.php')) {
             wp_enqueue_style('landing_escala_competitors_brands.css', asset_path('styles/pages/landingPages/landing_escala_competitors_brands.css'), false, THEME_VERSION);
         }
@@ -173,6 +194,11 @@ add_action('wp_enqueue_scripts', function () {
         // ---Landing HOMEPAGE 2023
            if (is_page_template('views/template-landing-escala-homeLanding-2023.blade.php')) {
             wp_enqueue_style('landing_homePage_2023.css', asset_path('styles/pages/landingPages/landing_homePage_2023.css'), false, THEME_VERSION);
+        }
+         // ---Landing escala CRM 2024 mejora
+         if (is_page_template('views/template-landing-escala-CRM-mejora-2024.blade.php')) {
+            wp_enqueue_style('landing_CRM_mejora_2024.css', asset_path('styles/pages/landingPages/landing_CRM_mejora_2024.css'), false, THEME_VERSION);
+
         }
 
         // -------------------------------------- //
@@ -347,9 +373,6 @@ add_action('wp_enqueue_scripts', function () {
 
         // jvascripts
         wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], THEME_VERSION, true);
-    } else {
-        wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, THEME_VERSION);
-    }
 
     wp_enqueue_style('global.css', asset_path('styles/global.css'), false, THEME_VERSION);
     wp_enqueue_script('global.js', asset_path('scripts/global.js'), ['jquery'], THEME_VERSION, true);
@@ -520,37 +543,6 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('parent-style', get_template_directory_uri().'/style.css');
 });
 
-// estilos
-
-// add_action('wp_enqueue_scripts', function () {
-
-//     $bootstrapPages = SetComponents::setTemplates();
-
-//     if (is_page_template($bootstrapPages)) {
-
-//         // wp_register_style('nunitoFonts', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
-//         // wp_enqueue_style('nunitoFonts');
-
-//         wp_enqueue_style('sage/main.css', asset_path('/dist/styles/main.css'), false, THEME_VERSION);
-
-//         // wp_enqueue_script('sage/_zoomMeeting.js', asset_path('scripts/pages/_zoomMeeting.js'), ['jquery'], THEME_VERSION, true);
-
-//         wp_register_style('bootstrapCss', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/css/bootstrap.min.css', array(), rand(), 'all');
-//         wp_enqueue_style('bootstrapCss');
-
-//         wp_register_script('bootstrapJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/bootstrap.min.js', array('jquery'), rand(), 'all');
-//         wp_enqueue_script('bootstrapJs');
-
-//         // // wp_register_script('popperJs', get_template_directory_uri() . '/../oceanwp-child/resources/assets/bootstrap/dist/js/popper.min.js', array('jquery'), rand(), 'all');
-//         // // wp_enqueue_script('popperJs');
-
-//     } else {
-
-//         // estilos viejos
-//         wp_enqueue_style('sage/main.css', asset_path('styles/reserv/old.css'), false, THEME_VERSION);
-//     }
-// }, 100);
-
 /*
  * Disables REFILL function in WPCF7 if Recaptcha is in use
  */
@@ -568,13 +560,15 @@ $setACF = new ACF_CUSTOM();
 $x = $setACF->setACF();
 add_action('acf/init', $setACF->setACF());
 
+
+
 /**
  * Rewrite WordPress URLs to Include /blog/ in Post Permalink Structure.
  *
  * @author   Golden Oak Web Design <info@goldenoakwebdesign.com>
  * @license  https://www.gnu.org/licenses/gpl-2.0.html GPLv2+
  */
-function golden_oak_web_design_blog_generate_rewrite_rules($wp_rewrite)
+/* function golden_oak_web_design_blog_generate_rewrite_rules($wp_rewrite)
 {
     $new_rules = [
         '(([^/]+/)*blog)/page/?([0-9]{1,})/?$' => 'index.php?pagename=$matches[1]&paged=$matches[3]',
@@ -604,7 +598,7 @@ function golden_oak_web_design_blog_generate_rewrite_rules($wp_rewrite)
     ];
     $wp_rewrite->rules = $new_rules + $wp_rewrite->rules;
 }
-add_action('generate_rewrite_rules', 'golden_oak_web_design_blog_generate_rewrite_rules');
+add_action('generate_rewrite_rules', 'golden_oak_web_design_blog_generate_rewrite_rules'); */
 
 function casoUsoArticlesFormat($wp_rewrite)
 {
@@ -638,16 +632,16 @@ function casoUsoArticlesFormat($wp_rewrite)
 }
 add_action('generate_rewrite_rules', 'casoUsoArticlesFormat');
 
-function golden_oak_web_design_update_post_link($post_link, $id = 0)
-{
-    $post = get_post($id);
-    if (is_object($post) && $post->post_type == 'post') {
-        return home_url('/blog/'.$post->post_name);
-    }
+// function golden_oak_web_design_update_post_link($post_link, $id = 0)
+// {
+//     $post = get_post($id);
+//     if (is_object($post) && $post->post_type == 'post') {
+//         return home_url('/blog/'.$post->post_name);
+//     }
 
-    return $post_link;
-}
-add_filter('post_link', 'golden_oak_web_design_update_post_link', 1, 3);
+//     return $post_link;
+// }
+// add_filter('post_link', 'golden_oak_web_design_update_post_link', 1, 3);
 
 function registerCustomMenu()
 {
