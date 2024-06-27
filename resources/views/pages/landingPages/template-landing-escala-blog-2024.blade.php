@@ -365,13 +365,13 @@
                                 <h5 class="card-title">Headset No Longer Wired For Sound</h5>
                                 <p class="card-text">A constant ability to learn will be on the most crucial skills. Thanks to never-ending piles of data & the amount of insight.</p>
                                 <div class="subCard d-flex justify-content-between align-items-center">
-                                    <div class="d-flex align-items-center">
+                                    <!-- <div class="d-flex align-items-center">
                                         <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan" class="rounded-circle mr-2">
                                         <div>
                                             <p class="mb-0">Anne Bryan</p>
                                             <p class="mb-0">Verified writer</p>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="div-2">
                                         <p class="mb-0">02 May</p>
                                     </div>
@@ -387,13 +387,13 @@
                                 <h5 class="card-title">How Does An Lcd Screen Work</h5>
                                 <p class="card-text">Thanks to never-ending piles of data & the amount of insight. Thanks to never-ending piles of data & the amount of insight.</p>
                                 <div class="subCard d-flex justify-content-between align-items-center">
-                                    <div class="d-flex align-items-center">
+                                    <!-- <div class="d-flex align-items-center">
                                         <img src="{!! App::setFilePath('/assets/images/blog/icons/writer-2.png') !!}" alt="Lettie Hale" class="rounded-circle mr-2">
                                         <div>
                                             <p class="mb-0">Lettie Hale</p>
                                             <p class="mb-0">Verified writer</p>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="div-2">
                                         <p class="mb-0">02 May</p>
                                     </div>
@@ -409,13 +409,13 @@
                                 <h5 class="card-title text-left">Headset No Longer Wired For Sound</h5>
                                 <p class="card-text">A constant ability to learn will be on the most crucial skills. Thanks to never-ending piles of data & the amount of insight.</p>
                                 <div class="subCard d-flex justify-content-between align-items-center">
-                                    <div class="d-flex align-items-center">
+                                    <!-- <div class="d-flex align-items-center">
                                         <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan" class="rounded-circle mr-2">
                                         <div>
                                             <p class="mb-0">Anne Bryan</p>
                                             <p class="mb-0">Verified writer</p>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="div-2">
                                         <p class="mb-0">02 May</p>
                                     </div>
