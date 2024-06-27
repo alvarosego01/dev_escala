@@ -5,7 +5,7 @@
     padding: 0
     padding-bottom: 50px
     @include responsivo(telefonoTable)
-        padding-bottom: 25px
+        padding-bottom: 40px
     ul, ol
         margin-bottom: 0
         @include responsivo(telefonoTable)
@@ -18,7 +18,7 @@
             &::marker
                 color: #F1685A
     @include responsivo(telefonoTable)
-        padding-bottom: 25px
+        padding-bottom: 40px
 
     .section_contain
 
@@ -26,13 +26,21 @@
             gap: 35px
             display: flex
             flex-direction: column
+            width:85%
+            margin: 0 auto
+            @include responsivo(telefonoTable)
+                width:100%
+                gap: 70px
             @include responsivo(smallPcTablet)
                 gap: 50px
+
             .groupElements.row
+
                 @include responsivo(telefonoTable)
                     display: flex
-                    flex-direction: column-reverse
+                    flex-direction: column
                     padding: 0
+                    gap: 25px
                 @include responsivo(pcMedio)
                     display: flex
                     flex-direction: row
@@ -152,3 +160,29 @@
                     @include responsivo(resto)
                         display: flex
                         flex-direction: row-reverse
+            
+            .right .image
+                .containerImage
+                    img
+                        margin-right: 0!important
+                        @include responsivo(telefonoTable)
+                            margin-right: auto!important
+                            margin: 0!important
+
+
+            .image .image
+                .containerImage
+                    img
+                        margin-right: 0!important
+                        @include responsivo(telefonoTable)
+                            margin-right: auto!important
+                            margin: 0!important
+
+            .left .image
+                .containerImage
+                    img
+                        margin-left: 0!important
+                        @include responsivo(telefonoTable)
+                            margin-left: auto!important
+                            margin: 0!important
+                        
