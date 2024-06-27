@@ -302,7 +302,7 @@
         'classSection' => 'landing_integraciones_2024_3',
         'enableTitle' => true,
         'titlePrincipal' => '
-        Conoce las integraciones <br class="DT_e"><span> nativas de Escala</span>
+        Conoce las integraciones <br class="space"><span> nativas de Escala</span>
         ',
         'subTitlePrincipal' => null,
         'img' => App::setFilePath('/assets/images/illustrations/others/integraciones-zoom.png'),
@@ -334,8 +334,7 @@
         <span>Woocommerce</span>
         ',
         'text' => '<b>Guarda la información de tus usuarios. </b>
-        <br class="space">
-        <br class="space">
+        <br class="space"><br class="space">
         Al integrar WooCommerce con Escala, podrás registrar la inforación de tus clientes de forma automática a momento de que finalicen una compra.
         ',
         'enableButton' => false,
