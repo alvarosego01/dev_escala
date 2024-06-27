@@ -475,8 +475,8 @@
             @endcontain_text_image_T1
             @endforeach
             @endif
-            <!-- background-color:red!important; -->
-            <div class="overlay" style=" background-image: url({!! App::setFilePath('/assets/images/banners/bg_integraciones_2.svg') !!})">
+
+            <div class="overlay" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_integraciones_2.svg') !!})">
             </div>
 
         </div>
@@ -522,7 +522,7 @@
                                 <span> ¡Te acompañamos en cada paso! </span>
                             </h2>
                             <p class="text">
-                                Nuestro equipo de especialistas está listo para acelerar tu aprendizaje <br class="space">
+                                Nuestro equipo de especialistas está listo para acelerar tu aprendizaje <br class="DT_e">
                                 y potenciar tus resultados con las herramientas de Escala.
                             </p>
 
@@ -623,7 +623,9 @@
                                     Recibir un tour guiado
                                 </a>
                             </div>
-                            <div class="image col-md-12 col-lg-4">
+                            <div class="image">
+
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/integraciones-cohete.png') !!}" alt="">
 
                             </div>
                         </div>
