@@ -53,7 +53,7 @@
                                             </span>
 
                                             integrando las herramientas <br class="space">
-                                            que necesites a tu CRM:
+                                            que necesites a tu CRM
                                             <br class="space">
                                         </h1>
 
