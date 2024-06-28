@@ -310,7 +310,7 @@
         Integración con <br class="space">
         <span>Zoom</span>
         ',
-        'text' => '<b>Registra contactos y actividades de forma automatica.</b>
+        'text' => '<span>Registra contactos y actividades de forma automatica.</span>
         <br class="space">
         <br class="space">
         Al realizar reuniones desde la herramienta Zoom, puedes hacer registro de determinados datos al integrarlo con Escala.',
@@ -333,7 +333,7 @@
         Integración con <br class="space">
         <span>Woocommerce</span>
         ',
-        'text' => '<b>Guarda la información de tus usuarios. </b>
+        'text' => '<span>Guarda la información de tus usuarios. </span>
         <br class="space"><br class="space">
         Al integrar WooCommerce con Escala, podrás registrar la inforación de tus clientes de forma automática a momento de que finalicen una compra.
         ',
@@ -356,7 +356,7 @@
         Integración con <br class="space">
         <span>Aircall</span>
         ',
-        'text' => '<b>Maximiza tu comunicación telefónica.</b>
+        'text' => '<span>Maximiza tu comunicación telefónica.</span>
         <br class="space">
         <br class="space">
         Al integrar esta herramienta con Escala, podrás realizar llamadas telefónicas a tus contactos, crear notas, dejar registro y grabaciones. Todo gestionado desde Escala.
@@ -380,7 +380,7 @@
         Integración con <br class="space">
         <span>Siigo</span>
         ',
-        'text' => '<b>Centraliza la información del registro de tus facturas.</b>
+        'text' => '<span>Centraliza la información del registro de tus facturas.</span>
         <br class="space">
         <br class="space">
         Con esta integración, podrás crear oportunidades desde tu cuenta Escala a partir de Facturas
@@ -406,7 +406,7 @@
         Integración con <br class="space">
         <span>Typeform</span>
         ',
-        'text' => '<b>Genera formularios inteligentes</b>
+        'text' => '<span>Genera formularios inteligentes</span>
         <br class="space">
         <br class="space">
         Al crear un formulario en Typeform e integrarlo con Escala, podrás crear o actualizar contactos en tu CRM, permitiendote optimizar la gestión de leads y clientes.
@@ -428,7 +428,7 @@
         Integración con <br class="space">
         <span>Calendly</span>
         ',
-        'text' => '<b>Optimiza el trabajo de tu equipo.</b>
+        'text' => '<span>Optimiza el trabajo de tu equipo.</span>
         <br class="space">
         <br class="space">
 
@@ -453,7 +453,7 @@
         Integración con <br class="space">
         <span>Zapier</span>
         ',
-        'text' => '<b>Conecta otras plataformas a Escala,</b>
+        'text' => '<span>Conecta otras plataformas a Escala,</span>
         <br class="space">
         <br class="space">
         Con esta integración, tienes la libertad de enlazar diferentes herramientas y plataformas a tu CRM a través de Zapier.
