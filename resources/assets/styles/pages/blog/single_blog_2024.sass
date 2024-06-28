@@ -38,6 +38,10 @@
         cursor: pointer!important
         // transform: scale(1.1)
 
+#single_blog_2024
+    @include responsivo(telefonoTable)
+        h2
+            text-align: center!important
 
 #single_blog_2024 .single_blog_2024_0
     margin-bottom: 0px
@@ -272,6 +276,12 @@
                                 justify-content: center
                                 align-content: centers
                                 position: relative
+                                
+                                @include responsivo(general)
+                                    left: -25px
+                                @include responsivo(resto)
+                                    left: -35px
+                                    
                                 img
                                     position: relative
                                     width: auto
@@ -815,6 +825,7 @@
                     margin-bottom: 50px
                     font-weight: 700
                     letter-spacing: -1.5px
+                    line-height: 1
                     @include responsivo(telefonoTable)
                         margin-bottom: 20px
                         font-size: 22.5px
@@ -1115,7 +1126,7 @@
                 align-content: center
                 align-items: center
                 .bannerSingleBlog.M_e
-                    height: 325px
+                    height: 300px
                     width: auto
 
 
@@ -1326,6 +1337,4 @@
                                 color: #322C2E
                                 @include responsivo(pcMedio)
                                 font-size: 14px
-
-
 
