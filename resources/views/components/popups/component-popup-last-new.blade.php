@@ -71,9 +71,9 @@
                                 <div class="containElements ">
                                     <div class="sect1 ">
                                         <h2 class="primaryTitle">
-                                            Agiliza tu marketing y ventas con las
+                                        ¡Nuevas funcionalidades <br class="space">para potenciar tus
                                             <span style="color:#2C4857;">
-                                                nuevas integraciones de Escala
+                                            Automatizaciones!
                                             </span>
                                         </h2>
                                     </div>

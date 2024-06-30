@@ -2336,7 +2336,7 @@
                     .containElements
                         display: flex
                         flex-direction: column
-                        justify-content: center
+                        justify-content: end
                         align-items: center
                         height: 100%
                         width: 95%
@@ -2348,14 +2348,14 @@
                             width: 100%
                             display: block
                         @include responsivo(general)
-                            padding-top: 55px
+                            padding-top: 0
                         @include responsivo(resto)
-                            padding-top: 55px
+                            padding-top: 0
                         .sect1
                             padding: 0
                             padding-top: 0
                             width: 100%
-                            margin-bottom: 25px
+                            margin-bottom: 30px
 
                             h2
                                 text-align: center
@@ -2366,7 +2366,8 @@
                                 font-style: normal
                                 font-weight: 600
                                 line-height: 1
-                                font-size: 23px
+                                font-size: 27px
+                                letter-spacing: -1.25px
                                 @include responsivo(telefonoTable)
                                     font-size: 18px
                                     width: 275px
@@ -2376,39 +2377,68 @@
                                     width: 350px
                                     margin: 0 auto
                                 @include responsivo(general)
-                                    font-size: 22.5px
+                                    font-size: 25px
                                 @include responsivo(smallPcTablet)
                                     font-size: 22.5px
                                 span
                                     color: #2C4857
                                     font-weight: 800
+                                    font-size: 35px
+                                    font-weight: 800
+                                    letter-spacing: -1px
+                                    @include responsivo(telefonoTable)
+                                        font-size: 27px
+                                    @include responsivo(pcMedio)
+                                        font-size: 30px
 
                         .sect2
                           .containElements
                             display: flex
                             justify-content: center
                             gap: 10px
-                            flex-direction: row
-                            flex-wrap: wrap
+                            flex-direction: column
                             margin: auto 0
                             padding-top: 15px
-
-                            img
-                                height: 55px
+                            position: relative
+                            top: 330px
+                            left: 96px
+                            margin-top: -224px
                             @include responsivo(telefonoTable)
-                                height: auto
+                                top: 120px
+                                left: 67px
+                                margin-top: -190px
                             @include responsivo(pcMedio)
-                                height: auto
-                         
+                                top: 120px
+                            .iconList
+                                img
+                                    height: 47px
+                                    @include responsivo(telefonoTable)
+                                        height: 34px
+
+                            .btnClass
+                                img
+                                    height:35px
+                                    @include responsivo(telefonoTable)
+                                        height: 27px
+
                         .sect3
                             .containerImage
-                                display: flex
-                                justify-content: center
                                 margin: 0px
-                                padding: 25px 0px 0px 0px
-                                img
-                                    height: 270px
+                                padding: 0px
+                                position: relative
+                                left: -80px
+                                bottom: 0
                                 @include responsivo(telefonoTable)
-                                    
+                                    top: -271px
+                                    left: -60px
+                                @include responsivo(pcMedio)
+                                    top: -271px
+                                img
+                                    height: 350px
+                                    @include responsivo(telefonoTable)
+                                        height: 220px
+                                   
+                                @include responsivo(telefonoTable)
+                                    top: -112px
                                 @include responsivo(pcMedio)
                                     padding: 35px 0px 0px 0px
