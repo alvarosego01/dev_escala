@@ -625,14 +625,19 @@
                         left: 25px
                         // padding: 7.5px 20px!important
 
+
+
+.MbHeadband
+    display: none
+    @include responsivo(telefonoTable)
+        display: block!important
 .headerband_promo_lastNews.customSection.sectionParent
     background-color: transparent
     z-index: 10
     background-size: cover
     background-position: center
     @include responsivo(telefonoTable)
-        background-image: url(/assets/images/banners/bg_automatizaciones_mobile.svg)!important
-        
+        display: none
     @include responsivo(pcMedio)
         background-position: 53.2%
     @include responsivoSpecial(2100px, 99999px)
@@ -846,7 +851,6 @@
                         font-size: 18px!important
                         margin: 0px 0px 0px 35px
                         // padding: 7.5px 20px!important
-
 
 .headerband_whatsapp_T1.customSection.sectionParent
     background-color: transparent
