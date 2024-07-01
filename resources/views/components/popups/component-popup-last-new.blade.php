@@ -1,4 +1,4 @@
-<div class="customPopUp  last_news_popup modal fade {{ $popup_call_class }} {{ $popup_direction }} " id="{{ $popup_call_class }}" aria-hidden="true" aria-labelledby="{{ $popup_call_class }}" tabindex="-1">
+<div class="customPopUp  last_new_popup modal fade {{ $popup_call_class }} {{ $popup_direction }} " id="{{ $popup_call_class }}" aria-hidden="true" aria-labelledby="{{ $popup_call_class }}" tabindex="-1">
 
     <div class="modal-dialog modal-dialog-centered type2022">
 
@@ -66,32 +66,31 @@
                             </div>
 
 
-                            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_automatizaciones_popup.png') }}')" class="col-md-12 col-lg-6 image">
+                            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/headerband1_integraciones.jpg') }}')" class="col-md-12 col-lg-6 image">
 
                                 <div class="containElements ">
                                     <div class="sect1 ">
                                         <h2 class="primaryTitle">
-                                            ¡Nuevas funcionalidades <br class="space">para potenciar tus
-                                            <br class="space">
+                                        ¡Nuevas funcionalidades <br class="space">para potenciar tus
                                             <span style="color:#2C4857;">
-                                                Automatizaciones!
+                                            Automatizaciones!
                                             </span>
                                         </h2>
                                     </div>
 
                                     <div class="sect2">
                                         <div class="containElements">
-                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/imgAuto1.png') !!}" alt=""></div>
-                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/imgAuto2.png') !!}" alt=""></div>
-                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/imgAuto3.png') !!}" alt=""></div>
-                                            <div class="iconList btnClass"><a target="_blank" href="https://escala.com/automatizaciones/flujos-automatizados-4-funciones-que-debes-conocer"><img src="{!! App::setFilePath('/assets/images/illustrations/others/btn-casos-uso.png') !!}" alt=""></a></div>
+                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/img-popup-internal-integrations.png') !!}" alt=""></div>
+                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/img-popup-internal-integrations-2.png') !!}" alt=""></div>
+                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/img-popup-internal-integrations-3.png') !!}" alt=""></div>
+                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/img-popup-internal-integrations-4.png') !!}" alt=""></div>
                                         </div>
                                     </div>
 
                                     <div class="sect3">
                                         <div class="containerImage">
 
-                                            <img src="{!! App::setFilePath('/assets/images/person/img-popup-internal-automatizaciones.png') !!}" alt="Imagen persona lectura">
+                                            <img src="{!! App::setFilePath('/assets/images/person/img-escala-popup-integraciones.png') !!}" alt="Imagen persona lectura">
                                         </div>
 
                                     </div>
@@ -122,5 +121,5 @@
 
 {{-- Para disparar form --}}
 <script>
-    jQuery('.customPopUp.modal.last_news_popup .innerSectionElement .groupElements .row .info .containElements .sect2 .formatForm .wpcf7 input.wpcf7-form-control.wpcf7-submit').val('Recibir demo')
+    jQuery('.customPopUp.modal.last_new_popup .innerSectionElement .groupElements .row .info .containElements .sect2 .formatForm .wpcf7 input.wpcf7-form-control.wpcf7-submit').val('Recibir demo')
 </script>

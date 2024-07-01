@@ -1553,6 +1553,7 @@ class ACF_CUSTOM extends Controller
                             'popup-bootstrap-blackFriday-2022' => 'Popup black friday 2022',
                             'popup-bootstrap-december' => 'Popup december',
                             'popup-bootstrap-last-news' => 'Popup last news',
+                            'popup-bootstrap-last-new' => 'Popup last new',
                             'popup-general-special-1m-promo-2023' => 'Popup promo 1m 2023',
                             'popup-general-special-14f-promo-2023' => 'Popup promo 14f 2023',
                             'popup-bootstrap-special-message' => 'Nota special message',
@@ -2099,6 +2100,38 @@ class ACF_CUSTOM extends Controller
                             'param' => 'post_taxonomy',
                             'operator' => '==',
                             'value' => 'popup-category-tax:last_news_popup',
+                        ],
+                    ],
+                ],
+            ],
+            [
+                'key' => 'bootstrap_popups_last_new_settings',
+                'title' => 'Bootstrap popup last_new options',
+                'fields' => [
+                    [
+                        'key' => 'popup_call_class',
+                        'label' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'name' => 'Popup call open class Nota: Debe iniciar con popup-',
+                        'type' => 'text',
+                    ],
+                    [
+                        'key' => 'form_shortcode',
+                        'label' => 'Shortcode form',
+                        'name' => 'Shortcode form',
+                        'type' => 'text',
+                    ]
+                ],
+                'location' => [
+                    [
+                        [
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'bootstrap_popups',
+                        ],
+                        [
+                            'param' => 'post_taxonomy',
+                            'operator' => '==',
+                            'value' => 'popup-category-tax:last_new_popup',
                         ],
                     ],
                 ],
