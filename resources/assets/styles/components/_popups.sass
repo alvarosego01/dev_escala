@@ -2121,6 +2121,57 @@
 .customPopUp.modal.last_news_popup
     &.left_side
         .groupElements
+            z-index: 101px!important
+            .closePopUp
+                position: absolute
+                // left: 10
+                top: 15px
+                width: 25px
+                height: 25px
+                font-size: 20px
+                font-weight: bold
+                transition: $trans
+                color: #322C2E
+                display: block
+                
+                background-color: transparent
+                &:hover
+                    cursor: pointer
+                    @include responsivo(telefonoTable)
+                        color: #f34f36!important
+
+                    @include responsivo(pcMedio)
+                        color: #f34f36!important
+
+                    @include responsivo(general)
+                        color: white!important
+
+                    @include responsivo(resto)
+                        color: white!important
+
+                @include responsivo(telefonoTable)
+                    width: 20px
+                    height: 20px
+                    font-size: 18px
+                    left: unset
+                    right: 15px
+                    margin-left: auto
+                @include responsivo(pcMedio)
+                    width: 20px
+                    height: 20px
+                    font-size: 18px
+                    left: unset
+                    right: 15px
+                    margin-left: auto
+                @include responsivo(general)
+                    right: 20px
+                    margin-left: auto
+                    color: white!important
+
+                @include responsivo(resto)
+                    right: 20px
+                    margin-left: auto
+                    color: white!important
             .row
                 display: flex
                 @include responsivo(telefonoTable)
@@ -2152,7 +2203,7 @@
             
             position: relative
             .closePopUp
-                display: none
+                
                 position: absolute
                 // left: 10
                 top: 15px
@@ -2349,8 +2400,12 @@
                             display: block
                         @include responsivo(general)
                             padding-top: 0
+                            height: 90%
+                            margin-top: 55px
                         @include responsivo(resto)
                             padding-top: 0
+                            height: 90%
+                            margin-top: 55px
                         .sect1
                             padding: 0
                             padding-top: 0
@@ -2432,7 +2487,7 @@
                                     top: -271px
                                     left: -60px
                                 @include responsivo(pcMedio)
-                                    top: -271px
+                                    top: -266px
                                 img
                                     height: 350px
                                     @include responsivo(telefonoTable)

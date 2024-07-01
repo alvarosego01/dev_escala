@@ -173,6 +173,7 @@
                                 justify-content: center
                                 align-items: center
                                 flex-direction: column
+                                gap: 5px
                                 @include responsivo(telefonoTable)
                                     width: auto
                                 @include responsivo(pcMedio)
@@ -192,37 +193,38 @@
                     width: 80%
                     margin: 0 auto
                     text-align: center
-                .containElements
-                h4 
-                    text-align: center 
-                    font-size: 20px
-                    font-weight: 700
-                    line-height: 1
-                    letter-spacing: -1px
-                    color: #322C2E
-                    margin-bottom: 10px
-                    @include responsivo(telefonoTable)
-                        font-size: 20px
-                        margin-bottom: 15px  
-                    @include responsivo(pcMedio)
-                        font-size: 20px
-                        margin-bottom: 15px  
-                h3
-                    color: #36768A
-                    font-size: 18px
-                    font-weight: 700
-                    line-height: 1
-                    letter-spacing: -1px
-                    @include responsivo(telefonoTable)
-                        font-size: 16px
-                    @include responsivo(pcMedio)
-                        font-size: 16px
                 
-                p
-                    color: #706B6D
-                    font-weight: 500
-                    line-height: 1.2
-                    font-size: 14px
+                .containElements
+                    h4 
+                        text-align: center 
+                        font-size: 20px
+                        font-weight: 700
+                        line-height: 1
+                        letter-spacing: -1px
+                        color: #322C2E
+                        margin-bottom: 10px
+                        @include responsivo(telefonoTable)
+                            font-size: 20px
+                            margin-bottom: 15px  
+                        @include responsivo(pcMedio)
+                            font-size: 20px
+                            margin-bottom: 15px  
+                    h3
+                        color: #36768A
+                        font-size: 18px
+                        font-weight: 700
+                        line-height: 1
+                        letter-spacing: -1px
+                        @include responsivo(telefonoTable)
+                            font-size: 16px
+                        @include responsivo(pcMedio)
+                            font-size: 16px
+
+                    p
+                        color: #706B6D
+                        font-weight: 500
+                        line-height: 1.2
+                        font-size: 14px
 
         section.innerSectionElement.sct3
             .groupElements
@@ -230,7 +232,10 @@
                 justify-content: center
                 align-items: center
                 flex-direction: column
-
+                @include responsivo(telefonoTable)
+                    margin-top: 35px
+                @include responsivo(pcMedio)
+                    margin-top: 35px
                 h2
                     color: #322C2E
                     font-size: 24px
