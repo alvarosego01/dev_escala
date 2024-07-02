@@ -153,9 +153,7 @@
 
 
 #subPage_whatsapp_2022 .customSection.sectionParent.subpage_whatsapp_0
-    // background: linear-gradient(180deg, rgba(26, 20, 43, 0.49) 0%, rgba(26, 20, 43, 0) 100%), #36768A
-    // background-color: #F3FAFD
-    background: linear-gradient(117.04deg, #F1F9FC 13.12%, #DEF3F5 66.9%)
+
     margin-bottom: 0
     overflow: hidden
     @include responsivo(telefonoTable)
@@ -180,6 +178,10 @@
         .containerImage
             margin: 0
             padding: 0
+    .backgroundPlanets
+        background-position: 51%  center
+        background-repeat: no-repeat
+        background-size: cover
     .section-row
         .innerSectionElement.sct1
             .groupElements
@@ -262,8 +264,6 @@
                                 font-weight: 400
                                 text-align: left
                                 margin-bottom: 0
-                                display: flex
-                                flex-direction: column
                                 line-height: 1.25
                                 letter-spacing: -1px
                                 color: $colorGrey
@@ -283,8 +283,9 @@
                                     font-size: 18px
                                 @include responsivo(resto)
                                     font-size: 22.5px
-
-
+                                span
+                                    color: #36768A
+                                    font-weight: 700
                         .ele2
                             @include responsivo(telefonoTable)
                                 margin-bottom: 0
@@ -340,6 +341,7 @@
                 .form7
                     margin-bottom: 50px
                     padding: 0 50px
+                    padding-top: 100px
                     display: flex
                     margin: 0 auto
                     @include responsivo(general)
@@ -354,6 +356,7 @@
                         padding-bottom: 50px
                         padding-right: 0
                         padding-left: 100px
+                        
                     .formatForm
                         display: block
                         margin: 0 auto
@@ -383,6 +386,9 @@
     justify-items: center
     .section-row
         position: absolute
+        background-color: #fff
+        border-radius: 20px
+        box-shadow: 0px 6px 30px 0px rgba(54, 118, 138, 0.10)
         @include responsivo(telefonoTable)
             width: 95%
             padding: 25px
@@ -408,8 +414,7 @@
             padding: 50px
             top: -76px
 
-        // background-color: #f8fdfd
-        background: linear-gradient(180deg, #007F96 0%, #006582 100%)
+
         border-radius: 12px
         .innerSectionElement
             h2.primaryTitle
@@ -419,7 +424,7 @@
                 line-height: 1
                 text-align: center
                 letter-spacing: -1px
-                color: #DEF3F5
+                color: #36768A
                 @include responsivo(telefonoTable)
                     font-size: 20px
                 @include responsivo(pcMedio)
@@ -453,7 +458,7 @@
                         font-weight: bold
                         line-height: 1
                         margin-bottom: 10px
-                        color: #DEF3F5
+                        color: #36768A
                         font-family: Nunito
                         font-style: normal
                         @include responsivo(telefonoTable)
@@ -487,7 +492,7 @@
                         text-align: center
                         letter-spacing: -0.02em
                         // text-decoration-line: underline
-                        color: white
+                        color: #36768A  
                         text-align: center
                         margin-bottom: 0
                         @include responsivo(telefonoTable)
@@ -956,7 +961,7 @@
         section.innerSectionElement.sct2
             z-index: 10
             position: relative
-            background: linear-gradient(180deg, #017E95 0%, #016784 100%)
+
             border-radius: 12px
             .groupElements.row
                 @include responsivo(telefonoTable)
@@ -988,6 +993,7 @@
                         font-size: 35px
                         line-height: 1
                         color: #CDF2F3
+                        margin-bottom: 5px
                         @include responsivo(telefonoTable)
                             font-size: 25px!important
                             text-align: center
@@ -1024,6 +1030,7 @@
                         padding: 0
                         position: relative
                         height: 100%
+                        top: 18px
                         img
                             display: block
                             margin: auto
@@ -1223,8 +1230,7 @@
                 width: 50%
             .groupElements
                 padding: 35px 25px
-                background-color: transparent
-                background: linear-gradient(180deg, #F3FAFD 0%, #DEF3F5 100%)
+
                 border-radius: 12px
                 margin: 0 10px
                 display: flex
@@ -1310,7 +1316,8 @@
 
 
 #subPage_whatsapp_2022 .customSection.sectionParent.subpage_whatsapp_10
-    background: linear-gradient(180deg, #F3FAFD 0%, #DEF3F5 100%)
+    background: linear-gradient(180deg, #DEF3F5 0%, #A4E7EA 131.52%)!important
+    
     .section-row
         background-color: transparent!important
         @include responsivo(telefonoTable)
@@ -1362,8 +1369,9 @@
                 display: none
 
 #subPage_whatsapp_2022 .customSection.sectionParent.subpage_whatsapp_11
-    background-color: #00506B
-    // padding: 50px 0
+    padding: 0px
+    margin-bottom: 75px
+    background: linear-gradient(360deg, #DEF3F5 0%, #A4E7EA 131.52%)!important
     @include responsivo(telefonoTable)
         padding: 25px 0
 

@@ -8,6 +8,7 @@
         padding-bottom: 25px
     ul, ol
         margin-bottom: 0
+        font-family: Nunito
         @include responsivo(telefonoTable)
             padding-left: 0
         li
@@ -54,11 +55,14 @@
                     font-size: 18px
                     line-height: 1.25
                     letter-spacing: -1px
+                    font-family: Nunito
                     @include responsivo(telefonoTable)
                         font-size: 16px
                         text-align: center
                     @include responsivo(pcMedio)
                         font-size: 16px
+                    @include responsivo(general)
+                        font-size: 18px
                     *
                         line-height: 1.25
                         letter-spacing: -1px

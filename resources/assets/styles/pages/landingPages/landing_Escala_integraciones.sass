@@ -799,7 +799,7 @@
                         font-weight: 700
                         line-height: 1
                         letter-spacing: -1.807px
-                        margin-bottom: 20px
+                        margin-bottom: 10px
                         @include responsivo(telefonoTable)
                             font-size: 20px
                         @include responsivo(pcMedio)
@@ -822,11 +822,13 @@
                         font-size: 20px
                         color: #706B6D
                         width: 500px!important
-
+                        span
+                            font-weight: bold!important
                         @include responsivo(telefonoTable)
                             font-size: 16px
                             width: auto!important
-                            
+                            .space
+                                display: none!important         
                         @include responsivo(pcMedio)
                             font-size: 16px
                             text-align: left
