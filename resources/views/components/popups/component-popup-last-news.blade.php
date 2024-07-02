@@ -84,7 +84,6 @@
                                             <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/imgAuto1.png') !!}" alt=""></div>
                                             <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/imgAuto2.png') !!}" alt=""></div>
                                             <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/imgAuto3.png') !!}" alt=""></div>
-                                            <div class="iconList btnClass"><a target="_blank" href="https://escala.com/automatizaciones/flujos-automatizados-4-funciones-que-debes-conocer"><img src="{!! App::setFilePath('/assets/images/illustrations/others/btn-casos-uso.png') !!}" alt=""></a></div>
                                         </div>
                                     </div>
 
