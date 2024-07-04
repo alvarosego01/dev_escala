@@ -92,6 +92,13 @@ add_action('wp_enqueue_scripts', function () {
 
         wp_enqueue_style('single_2024.css', asset_path('styles/pages/blog/single_blog_2024.css'), false, THEME_VERSION);
     }
+    $t = SetComponents::setTemplates('blog');
+    if (is_page_template($t)) {
+
+        wp_enqueue_style('_blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
+        wp_enqueue_style('single_especial_2024.css', asset_path('styles/pages/blog/single_blog_especial_2024.css'), false, THEME_VERSION);
+    }
+
     $t = SetComponents::setTemplates('casoExito');
     if (is_page_template($t)) {
         wp_enqueue_style('casoExitoMain.css', asset_path('styles/pages/casoExito/casoExitoMain.css'), false, THEME_VERSION);
