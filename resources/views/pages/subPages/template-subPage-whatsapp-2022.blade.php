@@ -661,11 +661,16 @@
         'type' => 'master',
         'title' => '¿Cuáles son los requisitos de Meta para poder usar WhatsApp en Escala?',
         'text' => '
-        Para hacer uso de WhatsApp Business, Meta solicita contar con los siguientes <br class="DT_e"> requerimientos técnicos: <br class="space">
+        Para hacer uso de WhatsApp Business, Meta solicita contar con los siguientes
+        <br class="DT_e"> requerimientos técnicos: <br class="space">
         <ul>
-            <li>Cuenta en Meta for developers</li>
-            <li>Página web o perfil de Meta asociado a Business</li>
-            <li>Número de teléfono nuevo o que no se haya usado previamente con WhatsApp</li>
+            <li>Número de teléfono que:</li>
+            <ul>
+                <li>Te pertenezca.</li>
+                <li>Tenga un código de país y área (no códigos cortos).</li>
+                <li>Pueda recibir llamadas de voz o SMS (para verificar la propiedad).</li>
+            </ul>
+
         </ul>
         ',
         ],
@@ -675,9 +680,9 @@
         ¿En cuál plan de Escala está incluido WhatsApp?
         ',
         'text' => '
-        Las herramientas de automatizaciones, inbox y extensión de Chrome para <br class="DT_e">
-        WhatsApp están incluidas en los planes: <strong>Escala Pro y Enterprise</strong>. En cambio, <br class="DT_e">
-        el botón de WhatsApp para landing pages está incluido en todos los planes.
+        El addon de WhatsApp para <strong>automatizaciones e inbox</strong> no está incluido en<br class="DT_e"> ninguno de nuestros
+        planes; debe adquirirse por separado. Sin embargo, el <br class="DT_e"><strong>botón de WhatsApp para landing pages y
+            la extensión de Chrome</strong> están <br class="DT_e">incluidos en todos los planes.
         ',
         ],
         [
@@ -686,10 +691,11 @@
         ¿Puedo conectar mi número actual para utilizar el Inbox y las Automatizaciones en Escala?
         ',
         'text' => '
-        No. Solo con la extensión de Chrome puedes usar tu número de teléfono <br class="DT_e">
-        actual. Para utilizar las herramientas de inbox y automatizaciones, Meta <br class="DT_e">
-        solicitita que el número que se integre a Business sea completamente nuevo <br class="DT_e">
-        y no esté asociado a ninguna otra cuenta de WhatsApp.
+        Depende. Los números que ya se usan con la aplicación de WhatsApp<br class="DT_e">
+        Messenger o WhatsApp Business deben ser eliminados primero. Si eliminas<br class="DT_e">
+        tu cuenta existente, podrás registrar ese número nuevamente y utilizar las<br class="DT_e">
+        herramientas de inbox y automatizaciones. En caso contrario, no podrás usar<br class="DT_e">
+        tu número actual para estas herramientas.
         ',
         ],
         ];
