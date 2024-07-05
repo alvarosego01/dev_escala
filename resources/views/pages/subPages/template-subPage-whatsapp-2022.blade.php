@@ -482,71 +482,122 @@
         @endcontain_multiple_cards_T2
 
 
+
+
+
         @php
-        $parameters = [
-        'type' => 'backgroundColor',
-        'classSection' => 'subpage_whatsapp_9',
-        'enableTitle' => true,
-        'titlePrincipal' => '
-        Por qué <span class="greenBlueColor">Escala</span>
-        ',
-        'subTitlePrincipal' => null,
-        'overlay' => false,
-        'enableButton' => false,
-        // 'urlButton' => '#',
-        // 'textButton' => 'Recibe un demo',
-        // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
-        // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
-        'elements' => [
+        $elements = [
         [
-        'img_alt' => null,
         'img' => App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_1.png'),
         'title' => '
-        <span class="greenBlueColor">Interfaz amigable</span> para <br class="DT_e">
-        que disfrutes trabajar en <br class="DT_e">
+        <span>Interfaz amigable</span> para
+        que disfrutes trabajar en
         ella todos los días
         ',
         'enableButton' => false,
         ],
         [
-        'img_alt' => null,
         'img' => App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_2.png'),
         'title' => '
-        <span class="greenBlueColor">Altísimo nivel de servicio:</span> <br class="space">
-        Nadie en la industria te <br class="DT_e">
+        <span>Altísimo nivel de servicio:</span>
+        Nadie en la industria te
         acompaña y atiende mejor
         ',
         'enableButton' => false,
         ],
         [
-        'img_alt' => null,
         'img' => App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_3.png'),
         'title' => '
-        <span class="greenBlueColor">
-            Educación relevante de <br class="DT_e">
-            primera
-        </span> en marketing, <br class="DT_e">
-        ventas y crecimiento de <br class="DT_e">
+        <span>Educación relevante de
+            primera </span>en marketing,
+        ventas y crecimiento de
         empresas y más
         ',
         'enableButton' => false,
         ],
         [
-        'img_alt' => null,
         'img' => App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_4.png'),
         'title' => '
-        <span class="greenBlueColor">100% en español:</span> la <br class="DT_e">
-        plataforma, el servicio y <br class="DT_e">
+        <span>100% en español: </span>la
+        plataforma, el servicio y
         los recursos en tu idioma
         ',
         'enableButton' => false,
-        ],
-        ],
-        ];
+        ]
+        ]
         @endphp
 
-        @contain_multiple_cards_T2($parameters)
-        @endcontain_multiple_cards_T2
+
+        <section class="component-info-multiple-cards-T2 customSection sectionParent subPage_whatsapp_2022_9 ">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+
+                        <h2 class="primaryTitle blackColor">
+
+                            Por qué
+                            <span>Escala</span>
+
+                        </h2>
+
+                    </div>
+
+                </section>
+
+                <section class="innerSectionElement sct2 ">
+
+                    @foreach ($elements as $item)
+
+                    {{-- style="background-image: url({!! App::setFilePath('/assets/images/illustrations/others/box_container_medium_integraciones.png') !!})" --}}
+                    <div class="groupElements">
+
+                        <div class="image">
+                            <div class="containerImage">
+                                <img src="{!! $item['img'] !!}" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="info">
+
+                            <h3 class="secondaryTitle">
+                                {!! $item['title'] !!}
+
+                            </h3>
+
+                        </div>
+
+                        {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/box_container_medium_integraciones.png') !!}" alt="" class="bgOverlay"> --}}
+
+                        <svg class="bgOverlay" xmlns="http://www.w3.org/2000/svg" width="423" height="321" viewBox="0 0 423 321" fill="none">
+                            <g filter="url(#filter0_d_13_2816)">
+                                <path d="M30 73.9662C30 58.1275 42.3127 45.0176 58.1202 44.0251L361.12 25.0015C378.394 23.917 393 37.6346 393 54.9426V254.5C393 271.069 379.569 284.5 363 284.5H60C43.4315 284.5 30 271.069 30 254.5V73.9662Z" fill="white" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_13_2816" x="0" y="0.941406" width="423" height="319.559" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dy="6" />
+                                    <feGaussianBlur stdDeviation="15" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0.211765 0 0 0 0 0.462745 0 0 0 0 0.541176 0 0 0 0.1 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_13_2816" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_13_2816" result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+
+                    </div>
+
+                    @endforeach
+                </section>
+
+            </div>
+
+
+        </section>
+
 
 
         @php
