@@ -1,41 +1,133 @@
 <div id="subPage_whatsapp_2022">
     <div class="sections">
-
-        @php
-        $parameters = [
-        'backgroundImageType' => true,
-        'overlay' => true,
-        'classSection' => 'threeCol subpage_whatsapp_0',
-        'title' => '
-        Vende más <br class="space">
-        con <span style="color: #00D35B">WhatsApp</span> <br class="space">
-        <small>
-            ¡integrando al CRM de Escala!
-        </small>
-        ',
-        'text' => '
-        Ahora puedes mejorar tu capacidad de respuesta <br class="space">
-        e integrar ágilmente WhatsApp a tu estrategia de<br class="space">
-        crecimiento.
-        <span>¡Todo en una sola herramienta de<br class="space"> marketing
-            y ventas!</span>
-        ',
-        'threeCol' => true,
-        'textForm' => 'Recibe un demo-tour personalizado',
-        'backgroundImage' => null,
-        'overlayImage' => App::setFilePath('/assets/images/banners/banner_whatsapp_1.svg'),
-        'image' => App::setFilePath('/assets/images/person/am/whatsapp_am.png'),
-        'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM',
-        ];
-
-        @endphp
-
-        @header_t1($parameters)
-        @endheader_t1
+        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subpage_whatsapp_0 ">
 
 
+            <div style="background-image: url('')" class="backgroundFull" bis_skin_checked="1">
+
+                <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/banner_whatsapp_1.svg') !!}')" class="backgroundPlanets" bis_skin_checked="1">
+                </div>
+
+                <div class="section-row" bis_skin_checked="1">
+                    <section class="innerSectionElement sct1">
+
+                        <div class="groupElements row" bis_skin_checked="1">
 
 
+                            <div class="info
+                                            col-md-12 col-lg-8
+                                        " bis_skin_checked="1">
+
+
+                                <div class="containElements row threeCol" bis_skin_checked="1">
+
+                                    <div class="ele ele1 col-md-12 col-lg-6" bis_skin_checked="1">
+
+                                        <div class="containerImage" bis_skin_checked="1">
+                                            <img alt="Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM" src="{!! App::setFilePath('/assets/images/person/am/whatsapp_am.png') !!}" loading="lazy">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="ele ele2 col-md-12 col-lg-6" bis_skin_checked="1">
+                                        <h1 class="principalBigTitle blackColor">
+
+                                            Vende más <br class="space">
+                                            con <span style="color: #00D35B">WhatsApp</span> <br class="space">
+                                            <small>
+                                                ¡integrando al CRM de Escala!
+                                            </small>
+
+                                        </h1>
+
+                                        <p class="principalBigText grayColorTexts">
+
+                                            Ahora puedes mejorar tu capacidad de respuesta <br class="space">
+                                            e integrar ágilmente WhatsApp a tu estrategia de<br class="space">
+                                            crecimiento.
+                                            <span>¡Todo en una sola herramienta de<br class="space"> marketing
+                                                y ventas!</span>
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="form7 col-md-12 col-lg-3 ">
+
+                                <div class="containElements">
+
+                                    <div class="formatForm redirectWeb" redirectWeb="true">
+
+                                        <h5 class="titleFormat">
+                                            Recibe un demo-tour <br class="space">
+                                            personalizado
+                                        </h5>
+
+
+
+                                        @php
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
+                                        @endphp
+                                        {!! do_shortcode($_formShortcode) !!}
+
+
+                                    </div>
+
+                                </div>
+                                
+                            </div>
+
+
+                            <div class="info
+                                            col-md-12 col-lg-8
+                                        " bis_skin_checked="1">
+
+
+                                <div class="containElements row threeCol" bis_skin_checked="1">
+
+                                    <div class="ele eleImg col-md-12 col-lg-6" bis_skin_checked="1">
+
+                                        <div class="containerImage" bis_skin_checked="1">
+                                            <img alt="Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM" src="{!! App::setFilePath('/assets/images/person/am/whatsapp_am.png') !!}" loading="lazy">
+                                        </div>
+
+                                    </div>
+
+                                 
+
+
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
 
 
 
@@ -665,7 +757,7 @@
         <br class="DT_e"> requerimientos técnicos: <br class="space">
         <ul>
             <li>Número de teléfono que:</li>
-            <ul>
+            <ul class="ulInternal">
                 <li>Te pertenezca.</li>
                 <li>Tenga un código de país y área (no códigos cortos).</li>
                 <li>Pueda recibir llamadas de voz o SMS (para verificar la propiedad).</li>
