@@ -351,18 +351,66 @@
             width: 90%!important
             max-width: 900px!important
         .innerSectionElement.sct0
+            background-repeat: no-repeat
+            background-size: cover
+            background-position: 45% center
+            border-radius: 14px
+            @include responsivo(telefonoTable)
+                background-position: center
             .containElements
                 display: flex
-                justify-content: center
-                align-content: center
+                justify-content: space-evenly
+                align-content: flex-start
                 align-items: center
-                .bannerSingleBlogpc
-                    height: 345px
-                    width: auto
+                @include responsivo(telefonoTable)
+                    flex-direction: column
+
+                    gap: 30px
+                    padding: 30px
+                .info
+                    display: flex
+                    flex-direction: column
+                    align-items: start
+                    justify-content: start
+                    gap: 15px
+                    text-align: left
                     @include responsivo(telefonoTable)
-                        display: none
-                .bannerSingleBlogmobile
-                    display: none
+                        text-align: center
+                        align-items: center
+                    h2
+                        color: #36768A
+                        font-size: 40px
+                        font-style: normal
+                        font-weight: 700
+                        line-height: 1
+                        letter-spacing: -1.5px
+                        @include responsivo(telefonoTable)
+                            font-size: 30px
+                        @include responsivo(pcMedio)
+                            font-size: 35px
+                        span
+                            color: #2C4857
+                    .btnWhatsapp
+                        color: #2C4857
+                        font-family: Nunito
+                        font-size: 18px
+                        font-style: normal
+                        font-weight: 600
+                        line-height: normal
+                        letter-spacing: -1px
+                        text-decoration-line: underline
+                        text-decoration-thickness: 1.3px!important
+                        cursor: pointer
+                        img
+                            margin-right: 8px
+
+                .containerImage
+                    position: relative
+                    top: -35px
+                    margin: 0px
+                    padding: 0px
                     @include responsivo(telefonoTable)
-                        display: block!important
+                        top: 0
+                    img
+                        height: 260px
 

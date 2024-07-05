@@ -75,7 +75,7 @@
                             inversores.  Esta significativa inyección de capital permitirá a <a target="_blank" href="http://escala.com">Escala</a> fortalecer aún más sus funcionalidades, incluyendo una
                             avanzada integración con WhatsApp e
                             Inteligencia Artificial, y expandir su equipo de expertos dedicados a potenciar los resultados de ventas de sus clientes.</p>
-<br>
+                        <br>
                         <p>
                             Escala ha sido creada para resolver los desafíos críticos de marketing y ventas en las pequeñas y medianas empresas en su
                             esfuerzo por crecer sus negocios en la era digital. Según datos de la Comisión Económica para América Latina y el Caribe (CEPAL),
@@ -133,15 +133,24 @@
 
         </section>
 
+
         <section class="customSection sectionParent single_blog_especial_2024 single_blog_especial_2024_2">
             <div class="section-row">
-                <section class="innerSectionElement sct0">
+                <section class="innerSectionElement sct0" style="background-image: url('{{ App::setFilePath('/assets/images/backgrounds/bg_banner_post_especial.svg') }}')">
                     <div class="containElements">
+                        <div class="info">
+                            <h2>¿Deseas conocer<br class="space">
+                                <span> más de Escala?</span>
+                            </h2>
+                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                Solicita un demo
+                            </a>
 
-                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/banner-pc-otto-articulo-especial-escala.png') }}" alt="" class="bannerSingleBlogpc">
-
-                        <img src="{{ App::setFilePath('/assets/images/banners/bg_automatizaciones_popup.png') }}" alt="" class="bannerSingleBlogmobile">
-
+                            <a class="btnWhatsapp" href="https://api.whatsapp.com/send?phone=17863042407 " target="_blank"><img src="{{ App::setFilePath('/assets/images/icons/whatsapp-verde.svg') }}" alt="" class="">O escríbenos por WhatsApp</a>
+                        </div>
+                        <div class="containerImage">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/otto/otto-blog-especial.png') }}" alt="">
+                        </div>
                     </div>
                 </section>
             </div>
