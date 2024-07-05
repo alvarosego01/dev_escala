@@ -125,7 +125,7 @@
                             con la misión de impulsar el desarrollo en Hispanoamérica. Para alcanzar este propósito, Moreno reunió a un equipo de expertos en distintas áreas de negocio,
                             desarrollando una solución efectiva para captar y fidelizar clientes, llevando así a las empresas al siguiente nivel.</p>
                     </div>
-                    <p>
+                    <p class="text">
                         Más información: <a target="_blank" href="http://escala.com">Escala.com</a>
                     </p>
                 </section>
