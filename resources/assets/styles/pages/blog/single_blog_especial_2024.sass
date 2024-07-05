@@ -69,7 +69,7 @@
     .section-row
         position: relative
         @include responsivo(telefonoTable)
-            padding-top: 50px
+            padding-top: 10px
         @include responsivo(pcMedio)
             padding-top: 50px
         @include responsivo(general)
@@ -111,16 +111,19 @@
     justify-content: center
     justify-items: center
     padding: 0px
-    margin-top: -75px
+    margin-top: -90px
     padding-bottom: 0px
     @include responsivo(telefonoTable)
         padding: 25px 0
-        margin-top: 40px
+        margin-top: 10px
     @include responsivo(pcMedio)
         padding-bottom: 50px
         margin-top: 0px
     @include responsivo(general)
-        margin-top:-140px
+        margin-top:-170px
+    @include responsivo(smallPcTablet)
+        margin-top: -190px!important
+
     .section-row
         position: relative
         @include responsivo(telefonoTable)
@@ -163,7 +166,7 @@
                         text-align: left
                         @include responsivo(telefonoTable)
                             font-size: 18px
-                            text-align: center
+                            
                         @include responsivo(pcMedio)
                             font-size: 18px
                         @include responsivo(smallPcTablet)
@@ -183,7 +186,7 @@
                     text-align: left
                     @include responsivo(telefonoTable)
                         font-size: 18px
-                        text-align: center
+                        
                     @include responsivo(pcMedio)
                         font-size: 18px
                     @include responsivo(smallPcTablet)
@@ -249,7 +252,7 @@
                 font-weight: 700
                 line-height: 1
                 letter-spacing: -1px
-                margin-bottom: 25px
+                margin-bottom: 20px
             .containElements
                 display: flex
                 flex-direction: row-reverse
@@ -272,7 +275,7 @@
                         text-align: left
                         @include responsivo(telefonoTable)
                             font-size: 18px
-                            text-align: center
+                            
                         @include responsivo(pcMedio)
                             font-size: 18px
                         @include responsivo(smallPcTablet)
@@ -292,7 +295,7 @@
                     text-align: left
                     @include responsivo(telefonoTable)
                         font-size: 18px
-                        text-align: center
+                    
                     @include responsivo(pcMedio)
                         font-size: 18px
                     @include responsivo(smallPcTablet)
@@ -301,18 +304,21 @@
                     color: #36768A
                     text-decoration-thickness: 1.3px!important
                     text-decoration: underline
-            p
+            .text
                 color: #36768A
                 font-size: 20px
                 font-style: normal
                 font-weight: 700
                 line-height: 1
                 text-align: center
-                margin-top: 25px
+                margin-top: 60px
+                margin-bottom: 50px
                 @include responsivo(telefonoTable)
                    font-size: 18px
+                   margin-bottom: 25px
                 @include responsivo(pcMedio)
                    font-size: 18px
+                   margin-bottom: -10px
                 @include responsivo(smallPcTablet)
                     font-size: 18px
                 a
@@ -329,6 +335,7 @@
     padding-bottom: 75px
     @include responsivo(telefonoTable)
         padding: 25px 0
+        padding-bottom: 55px
     @include responsivo(pcMedio)
         padding-bottom: 50px
 
@@ -371,7 +378,7 @@
                     display: flex
                     flex-direction: column
                     align-items: start
-                    justify-content: start
+                    justify-content: flex-start
                     gap: 15px
                     text-align: left
                     @include responsivo(telefonoTable)
