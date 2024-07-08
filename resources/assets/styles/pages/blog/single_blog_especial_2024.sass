@@ -195,13 +195,6 @@
                     color: #36768A 
                     text-decoration-thickness: 1.3px!important   
 
-                .pBlue
-                    background-color:  #DEF3F5
-                    color: #706B6D
-                    padding: 40px
-                    border-radius: 14px
-                    margin: 20px 0px
-                    font-style: italic
 
         .innerSectionElement.sct2
             background-repeat: no-repeat
@@ -252,6 +245,23 @@
                         font-weight: 700
         
         .innerSectionElement.sct3
+            
+            .pBlue
+                color: #706B6D
+                margin: -10px 0px 30px 0px
+                font-size: 20px
+                font-style: normal
+                font-weight: 400
+                line-height: 1.4
+                color: #706B6D
+                text-align: left
+                @include responsivo(telefonoTable)
+                    font-size: 18px
+                    
+                @include responsivo(pcMedio)
+                    font-size: 18px
+                @include responsivo(smallPcTablet)
+                    font-size: 18px
             h2
                 color: #2C4857
                 text-align: center
