@@ -77,12 +77,6 @@
                             Inteligencia Artificial, y expandir su equipo de expertos dedicados a potenciar los resultados de ventas de sus clientes.</p>
                         <br>
 
-                        <p class="pBlue">
-                            "Habiendo trabajado juntos durante muchos años, Andrés Moreno y Alfonso Santiago tienen una profunda comprensión de los desafíos que enfrentan las PYMEs,
-                            lo que los hace excepcionalmente calificados para liderar a Escala en su próxima etapa de
-                            crecimiento. Estamos encantados de apoyar su visión y dedicación para empoderar a las pequeñas empresas en toda América Latina," dijo Christine de IGNIA.
-                        </p>
-                        <br>
                         <p>
                             Escala ha sido creada para resolver los desafíos críticos de marketing y ventas en las pequeñas y medianas empresas en su
                             esfuerzo por crecer sus negocios en la era digital. Según datos de la Comisión Económica para América Latina y el Caribe (CEPAL),
@@ -115,6 +109,13 @@
                 </section>
 
                 <section class="innerSectionElement sct3">
+
+                    <p class="pBlue">
+                        "Habiendo trabajado juntos durante muchos años, Andrés Moreno y Alfonso Santiago tienen una profunda comprensión de los desafíos que enfrentan las PYMEs,
+                        lo que los hace excepcionalmente calificados para liderar a Escala en su próxima etapa de
+                        crecimiento. Estamos encantados de apoyar su visión y dedicación para empoderar a las pequeñas empresas en toda América Latina," dijo Christine de IGNIA.
+                    </p>
+                    <br>
                     <h2>Acerca de Escala</h2>
                     <div class="containElements">
                         <div class="containerImage">
