@@ -219,7 +219,8 @@ class SetComponents extends Controller
                 'views/template-blog-category.blade.php',
                 'views/template-blog-search-results.blade.php',
                 'views/single-post.blade.php',
-                'views/single-post-2024.blade.php'
+                'views/single-post-2024.blade.php',
+                'views/single-post-especial-2024.blade.php'
             ];
         }
 
@@ -309,6 +310,7 @@ class SetComponents extends Controller
                 'views/template-landing-escala-homeLanding-2023.blade.php',
                 'views/template-landing-escala-CRM-2023.blade.php',
                 'views/template-landing-escala-CRM-mejora-2024.blade.php',
+                'views/template-landing-escala-rrss-organica-2024.blade.php',
                 'views/template-landing-escala-integraciones-2024.blade.php',
                 'views/template-landing-escala-blog-2024.blade.php',
                 'views/template-landing-escala-landing-pages-2023.blade.php',
@@ -418,6 +420,7 @@ class SetComponents extends Controller
                 'views/template-blog-category.blade.php',
                 'views/template-blog-search-results.blade.php',
                 'views/single-post.blade.php',
+                'views/single-post-especial-2024.blade.php',
                 'views/single-exitocaso.blade.php',
                 'views/template-zoom-demo-home.blade.php',
                 'views/template-zoom-demo-home-landing.blade.php',
