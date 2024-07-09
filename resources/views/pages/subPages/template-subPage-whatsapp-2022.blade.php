@@ -226,10 +226,10 @@
         <span class="greenBlueColor">
             Automatizaciones <span class="betaTag">Beta</span>
         </span> <br class="space">
-        Envia mensajes masivos o<br class="DT_e"> individuales automaticamente', 'text'=> '
+        Envia mensajes masivos o<br class="DT_e"> individuales automáticamente', 'text'=> '
         <ul class="text">
             <li><span>1.</span> Diseña flujos de respuesta automatizadas. </li>
-            <li><span>2.</span> Programa recordatorios, emails, etiquetas, etc. </li>
+            <li><span>2.</span> Programa recordatorios, emails, etiquetas y más. </li>
             <li><span>3.</span> Envía mensajes masivos con plantillas personalizadas
                 aprobadas por Meta.</li>
             <li><span>4.</span> Selecciona y asigna conversaciones y actividades a tu equipo.</li>
@@ -263,7 +263,7 @@
             Inbox <span class="betaTag">Beta</span>
         </span> <br class="space">
         Comunícate en tiempo real y gestiona tus <br class="DT_e">
-        conversaciones desde una sola herramienta
+        conversaciones desde una sola plataforma
         ',
         'text' => '
         <ul class="text">
@@ -342,7 +342,7 @@
         'text' => '
         <ul class="text">
             <li><span>1.</span> Conversa por mensaje de forma gratis e ilimitada. </li>
-            <li><span>2.</span> Mantén conversaciones abiertas por más de 24 hs. </li>
+            <li><span>2.</span> Mantén conversaciones abiertas por más de 24 hrs. </li>
             <li><span>3.</span> Comunícate desde WhatsApp Web con tu número de teléfono <br class="DT_e">
                 actual sin tener que comprar uno nuevo. </li>
             <li><span>4.</span> Recibe notificaciones en WhatsApp Web o tu móvil sin tener <br class="DT_e">

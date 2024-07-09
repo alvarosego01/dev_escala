@@ -575,6 +575,10 @@
                     span
                         font-size: 30px
                         color: #F34F36
+                        @include responsivo(telefonoTable)
+                            font-size: 20px
+                        @include responsivo(pcMedio)
+                            font-size: 20px
                         span
                             color: #36768A
 
@@ -736,8 +740,8 @@
                         height: 280px!important
                     @include responsivo(resto)
                         margin: auto
-                        width: 550px!important
-                        height: 310px!important
+                        width: 663px!important
+                        height: 375px!important
 
                     iframe.iframe
                         margin: 0 auto
@@ -994,12 +998,16 @@
     background-position: 45% center
     background-size: inherit
     background-repeat: no-repeat
+    margin-bottom: -40px
     @include responsivo(telefonoTable)
-        margin-bottom: 35px
+        margin-bottom: -35px
     @include responsivo(pcMedio)
-        margin-bottom: 50px
-    @include responsivo(smallPcTablet)
-        margin-bottom: 50px
+        margin-bottom: -30px
+@include responsivo(telefonoTable)
+    .btnCenter
+        position: relative!important
+        top: -30px!important
+
     .section-row
         padding: 0
         @include responsivo(telefonoTable)
@@ -1035,25 +1043,22 @@
     padding-top: 0
 
     @include responsivo(telefonoTable)
-        padding: 25px 0
-        padding-top: 0
-        background-position: 53% 0
-        background-size: cover
-        padding-top: 50px
+        padding: 40px 0px 90px 0px
+        background-position: 53% center
+        background-size: 8000px
     @include responsivo(pcMedio)
-        background-position: 54% 173px
-        background-size: cover
+        background-position: 58% 68px
+        background-size:3600px
         padding: 50px 0px 40px 0px
         padding-top: 0
     @include responsivo(general)
-        background-position: 54% 241px
+        background-position: 54% 140px
         background-size: 2900px
     @include responsivo(smallPcTablet)
-        background-position: 50% 240px
+        background-position: 50% 137px
     @include responsivo(resto)
-        background-position: 54% 211px
-        background-size: 3456px
-
+        background-position: 54% 170px
+        background-size: 3340px
 
     .section-row
         @include responsivo(telefonoTable)
@@ -1102,13 +1107,13 @@
                     margin-bottom: 20px
 
         .innerSectionElement.sct1
-            margin-bottom: 80px
+            margin-bottom: 120px
             @include responsivo(telefonoTable)
                 margin-bottom: 60px
             @include responsivo(pcMedio)
                 margin-bottom: 60px
             @include responsivo(general)
-                margin-bottom: 75px
+                margin-bottom: 90px
 
         .innerSectionElement.sct2
             // @include responsivo(telefonoTable)
@@ -1137,6 +1142,7 @@
                 flex-direction: column
                 width: 22%
                 position: relative
+                box-shadow: 0px 12px 60px 0px rgba(54, 118, 138, 0.10)  
                 @include responsivo(telefonoTable)
                     margin: 0
                     width: 45%
@@ -1229,6 +1235,7 @@
 
 
 
+
 #landing_rrss_2024 .landing_rrss_2024_11
     padding-bottom: 50px
     padding-top: 70px
@@ -1236,7 +1243,7 @@
     @include responsivo(telefonoTable)
         margin-top: 0px
         padding-top: 40px
-        padding-bottom: 0
+        padding-bottom: 40px
     @include responsivo(pcMedio)
         margin-bottom: 100px
         padding-top: 50px
@@ -1283,7 +1290,7 @@
                         font-size: 35px
                     @include responsivo(resto)
                         font-size: 40px
-                    color: #2C4857
+                    color: #36768A
                     span
                         color: #36768A
 
@@ -1424,6 +1431,8 @@
                         font-size: 40px
                     span
                         color: #36768A
+                        @include responsivo(telefonoTable)
+                            color: #fff
 
         .innerSectionElement.sct1
             .containElements
@@ -1518,7 +1527,7 @@
                     margin: auto
                     display: block
                     h3.secondaryTitle
-                        color: #797979
+                        color: #A4E7EA
                         font-family: Nunito
                         font-weight: 600
                         line-height: 100%
@@ -1534,7 +1543,7 @@
                         @include responsivo(resto)
                             font-size: 26px
                         span
-                            color: #F34F36
+                            color: #FAD872
                             font-weight: 600
                             line-height: 100%
                             letter-spacing: -0.56px
