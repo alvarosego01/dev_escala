@@ -100,7 +100,7 @@
                         </div>
                         <p>
                             “<span>Esta inversión nos permitirá continuar innovando en nuestra plataforma y satisfacer las crecientes necesidades de las
-                                empresas en la región",</span> afirmó Alfonso Santiago, CEO de Escala, quien recientemente se unió a la compañía luego de desempeñarse
+                                empresas en la región",</span> afirmó Alfonso Santiago, CEO de Escala, quien se unió a la compañía luego de desempeñarse
                             durante 7 años en Open English como COO a nivel global. <span>“Nuestro objetivo es seguir mejorando la experiencia del cliente y proporcionar a las PyMEs las
                                 herramientas necesarias para gestionar y hacer crecer sus negocios de manera eficiente,”</span> añadió el líder y emprendedor tecnológico.
                         </p>
@@ -111,9 +111,10 @@
                 <section class="innerSectionElement sct3">
 
                     <p class="pBlue">
-                        "Habiendo trabajado juntos durante muchos años, Andrés Moreno y Alfonso Santiago tienen una profunda comprensión de los desafíos que enfrentan las PYMEs,
-                        lo que los hace excepcionalmente calificados para liderar a Escala en su próxima etapa de
-                        crecimiento. Estamos encantados de apoyar su visión y dedicación para empoderar a las pequeñas empresas en toda América Latina," dijo Christine de IGNIA.
+                    "Habiendo trabajado juntos durante muchos años, Andrés Moreno y Alfonso Santiago tienen una profunda comprensión de los desafíos
+                    que enfrentan las PyMEs, lo que los hace excepcionalmente calificados para liderar a Escala en su próxima etapa de crecimiento.
+                     Estamos encantados de apoyar su visión y dedicación para empoderar 
+                    a las pequeñas empresas en toda América Latina," agregó Christine Kenna, Partner del fondo de inversión de venture capital IGNIA.
                     </p>
                     <br>
                     <h2>Acerca de Escala</h2>
