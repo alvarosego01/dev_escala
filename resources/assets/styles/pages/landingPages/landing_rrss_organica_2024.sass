@@ -1099,6 +1099,10 @@
                 font-size: 30px
                 font-weight: 700
                 letter-spacing: -1.25px
+                @include responsivo(telefonoTable)
+                    font-size: 22px
+                @include responsivo(pcMedio)
+                    font-size: 22px
             section
                 padding: 0px
                 margin-bottom: 35px
@@ -1295,6 +1299,12 @@
                         color: #36768A
 
         .innerSectionElement.sct1
+            position: relative
+            left: 70px
+            @include responsivo(telefonoTable)
+                left: 0px
+            @include responsivo(pcMedio)
+                left: 40px
             .containElements
                 display: flex
                 flex-direction: column
@@ -1435,6 +1445,7 @@
                             color: #fff
 
         .innerSectionElement.sct1
+
             .containElements
                 display: flex
                 flex-direction: row
