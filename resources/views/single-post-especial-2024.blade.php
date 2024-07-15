@@ -37,7 +37,7 @@
                     <section class="innerSectionElement sct1">
 
                         <div class="groupElements row">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-video-escala-articulo-especial.png') }}" alt="">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-video-escala-articulo-especial-new.png') }}" alt="">
 
                         </div>
 
