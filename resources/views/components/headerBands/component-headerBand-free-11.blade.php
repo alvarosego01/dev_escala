@@ -32,7 +32,7 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_popup_freeClass.svg;') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadband {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_popup_freeClass.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
 
     <div class="section-row">
 
