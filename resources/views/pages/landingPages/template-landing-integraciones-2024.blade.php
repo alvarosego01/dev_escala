@@ -464,6 +464,28 @@
         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
         'side' => 'right',
         ],
+        [
+        'type' => 'backgroundColor',
+        'classSection' => 'landing_integraciones_2024_6',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/integraciones-sheets.png'),
+        'title' => '
+        Integración con <br class="space">
+        <span>Google Sheets</span>
+        ',
+        'text' => '<span>Respalda la información de tus contactos de forma automática.</span>
+        <br class="space">
+        <br class="space">
+
+        Al crear o actualizar un contacto en Escala, podrás guardar de forma automática toda la información del contacto en Google Sheet al realizar esta integración, personalizando también los campos que desees. ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ],
         ];
         @endphp
         <div class="sectionInfo_1">

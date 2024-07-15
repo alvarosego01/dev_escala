@@ -22,6 +22,19 @@
         ];
         @endphp
 
+        <script type="text/javascript">
+        // Esperar a que el documento esté completamente cargado
+        jQuery(document).ready(function () {
+            // Verificar si el elemento existe
+            if (jQuery('.menu-item-4209 a').length > 0) {
+                // Cambiar el contenido del elemento <span> dentro del <a>
+                jQuery('.menu-item-4209 a span.primaryButton.hoverInEffect').text('Solicita un demo ');
+
+                // Cambiar el atributo 'data-text' del <a>
+                jQuery('.menu-item-4209 a').attr('data-text', '<span class="primaryButton hoverInEffect">Solicita un demo</span>');
+            }
+        });
+    </script>
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_rrss_2024 landing_rrss_2024_0 ">
 
             <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_landing_rrss_1.svg') }}')" class="backgroundFull">
@@ -468,7 +481,9 @@
 
         <div class="btnCenter">
             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                Conocer más
+
+                Conocer Escala
+
             </a>
         </div>
 
@@ -511,7 +526,7 @@
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
                         <h2 class="primaryTitle">
-                        Lo que dicen nuestros clientes <br class="space">
+                            Lo que dicen nuestros clientes <br class="space">
                             sobre el CRM de Escala:
                         </h2>
                     </div>
@@ -640,3 +655,5 @@
 
     </div>
 </div>
+
+

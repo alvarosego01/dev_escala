@@ -775,7 +775,7 @@
             .groupElements.row
                 @include responsivo(telefonoTable)
                     display: flex
-                    flex-direction: column
+                    flex-direction: column-reverse
                     margin-bottom: 25px
                     padding: 0
                 @include responsivo(pcMedio)
@@ -789,7 +789,7 @@
                 .info
                     padding: 0
                     @include responsivo(telefonoTable)
-                        margin-bottom: 25px
+                        margin-top: 25px
                     @include responsivo(pcMedio)
                         width: 50%!important
                     h3.secondaryTitle
@@ -868,11 +868,13 @@
             .groupElements.row
                 @include responsivo(telefonoTable)
                     display: flex
-                    flex-direction: column
+                    flex-direction: column-reverse
                 @include responsivo(pcMedio)
                     display: flex
                     flex-direction: row
                 .info
+                    @include responsivo(telefonoTable)
+                        margin-top: 25px
                     @include responsivo(general)
                         padding-left: 75px
                         padding-right: 0
@@ -890,11 +892,13 @@
         section.innerSectionElement.sct2.left
             .groupElements.row
                 @include responsivo(telefonoTable)
-                    flex-direction: column-reverse
+                    flex-direction: column
                 @include responsivo(pcMedio)
                     display: flex
                     flex-direction: row
                 .info
+                    @include responsivo(telefonoTable)
+                        margin-top: 25px
                     position: relative
                     padding: 0
                 .image
