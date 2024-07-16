@@ -8,7 +8,7 @@
 
                 <div class="contain">
 
-                    {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_headerband_freeclass.png') !!}" alt="" class="icon"> --}}
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-casa-ventas.svg') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
                     Multiplica las ventas <span> de tu empresa inmobiliaria</span>
@@ -32,7 +32,7 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_popup_freeClass.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
+'<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_popup_freeClass.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -42,8 +42,7 @@
 
                 <div class="contain">
 
-                    {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_headerband_freeclass.png') !!}" alt="" class="icon"> --}}
-
+                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-casa-ventas.svg') !!}" alt="" class="icon">
                     <span class="hashTitle">
                     Multiplica las ventas<span> de tu empresa inmobiliaria</span>
                     </span>
