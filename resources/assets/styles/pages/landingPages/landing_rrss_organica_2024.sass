@@ -218,7 +218,7 @@
         overflow: visible
         @include responsivo(telefonoTable)
             background-position: 35% -175px
-            padding: 80px 0px 200px 0px!important
+            padding: 80px 0px 180px 0px!important
         @include responsivo(pcMedio)
             background-position: 57% -130px
             padding: 100px 0px 113px 0px!important
@@ -273,7 +273,7 @@
                         display: flex
                         margin: 0 0 auto 0
                         @include responsivo(telefonoTable)
-                            flex-direction: column-reverse
+                            flex-direction: column
                         @include responsivo(pcMedio)
                             flex-direction: column-reverse
                         @include responsivo(general)
@@ -484,7 +484,8 @@
                         justify-content: center
                         align-items: center
                         align-content: center
-
+                        @include responsivo(telefonoTable)
+                            display: none
                         @include responsivo(pcMedio)
                             position: absolute
                             top: -280px
@@ -1430,6 +1431,7 @@
                     @include responsivo(telefonoTable)
                         font-size: 25px
                         padding-top: 50px
+                        color: #fff
                     @include responsivo(pcMedio)
                         font-size: 25px
                     @include responsivo(general)

@@ -103,7 +103,7 @@
                                     </div>
 
 
-                                    <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
+                                    <div class="ele ele1 col-md-12 col-lg-5  hideOnTablet">
 
                                         <div class="containerImage">
                                             <img alt="Ilustracion RRSS" src="{{ App::setFilePath('/assets/images/illustrations/others/img-banner-proncipal-rrss.png') }}" loading="lazy">
