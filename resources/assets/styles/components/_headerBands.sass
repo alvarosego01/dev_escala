@@ -452,11 +452,11 @@
                 @include responsivo(telefonoTable)
                     flex-direction: column
                 @include responsivo(general)
-                    left: -25px
+                    left: 0px
                 @include responsivo(smallPcTablet)
-                    left: -10px
+                    left: 0px
                 @include responsivo(resto)
-                    left: -50px
+                    left: 0px
 
                 .icon
                     height: 40px
@@ -479,7 +479,7 @@
                         height: 30px
 
                 .hashTitle
-                    color: white
+                    color: #2C4857
                     text-align: center
                     font-family: Nunito
                     font-size: 22px
@@ -515,7 +515,7 @@
                         justify-self: center
                     span
                         line-height: 1
-                        color: #A4E7EA
+                        color: #36768A
                         @include responsivo(pcMedio)
                             margin-right: 5px
                         @include responsivo(general)
@@ -530,7 +530,7 @@
                     position: relative
                     &::after
                         content: ''
-                        border-right: 1px solid white
+                        border-right: 1px solid #36768A
                         margin: auto
                         position: absolute
                         left: 0
@@ -544,7 +544,7 @@
                             height: 1
                             width: 100px
                             border-right: none
-                            border-bottom: 1px solid white
+                            border-bottom: 1px solid #36768A
                             margin: auto
                         @include responsivo(general)
                             height: 25px
@@ -554,7 +554,7 @@
                         height: 20px
 
                 .sub
-                    color: white
+                    color: #36768A
                     font-family: Nunito
                     font-size: 18px
                     font-style: normal
@@ -599,8 +599,8 @@
 
                 a
                     font-weight: 600!important
-                    color: #00506E!important
-                    background-color: #A4E7EA!important
+                    color: #FFFFFF!important
+                    background-color: #36768A!important
                     // height: fit-content!important
                     @include responsivo(telefonoTable)
                         margin: 10px auto
@@ -611,7 +611,7 @@
                     @include responsivo(pcMedio)
                         font-size: 14px!important
                         padding: 5px 15px!important
-                        margin: 15px auto
+                        margin: 0px 20px
                     @include responsivo(general)
                         font-size: 16px!important
                         padding: 7.5px 20px!important
@@ -624,13 +624,18 @@
                         position: relative
                         left: 25px
                         // padding: 7.5px 20px!important
+.MbHeadbandfree
+    display: none!important
+    @include responsivo(telefonoTable)
+
 
 .headerband_promo_lastNews.customSection.sectionParent
     background-color: transparent
     z-index: 10
     background-size: cover
     background-position: center
-
+    @include responsivo(telefonoTable)
+        display: none
     @include responsivo(pcMedio)
         background-position: 53.2%
     @include responsivoSpecial(2100px, 99999px)
@@ -667,6 +672,7 @@
                 position: relative
                 @include responsivo(telefonoTable)
                     flex-direction: column
+                    padding: 3px 0px 
                 @include responsivo(general)
                     position: initial
                 @include responsivo(smallPcTablet)
@@ -703,11 +709,11 @@
                     strong
                         padding-right: 2.5px
                     @include responsivo(telefonoTable)
-                        font-size: 14px
+                        font-size: 16px
                         margin-left: auto
                         margin-right: auto
                         text-align: center
-                        width: 225px
+                        width: 245px
                     @include responsivo(pcMedio)
                         font-size: 14px
                         display: flex
@@ -745,7 +751,7 @@
                     position: relative
                     &::after
                         content: ''
-                        border-right: 1px solid #33768B
+                        border-right: 1px solid #36768A
                         margin: auto
                         position: absolute
                         left: 0
@@ -759,7 +765,7 @@
                             height: 1
                             width: 100px
                             border-right: none
-                            border-bottom: 1px solid #33768B
+                            border-bottom: 1px solid #36768A
                             margin: auto
                         @include responsivo(general)
                             height: 25px
@@ -767,9 +773,10 @@
                         margin: 5px auto
                         width: 100%
                         height: 20px
+                        display: none
 
                 .sub
-                    color: #33768B
+                    color: #36768A
                     font-family: Nunito
                     font-size: 16px
                     font-style: normal
@@ -816,14 +823,16 @@
                 a
                     font-weight: 700!important
                     color: #FFFFFF!important
-                    background-color: #33768B!important
+                    background-color: #36768A!important
+                    border-radius:8px
                     // height: fit-content!important
                     @include responsivo(telefonoTable)
                         margin: 10px auto
                         margin-bottom: 0
                         font-size: 12px!important
-                        padding-left: 7.5px!important
-                        padding-right: 7.5px!important
+                        padding-left: 20px!important
+                        padding-right: 20px!important
+                        
                     @include responsivo(pcMedio)
                         font-size: 14px!important
                         padding: 5px 15px!important
@@ -840,7 +849,6 @@
                         font-size: 18px!important
                         margin: 0px 0px 0px 35px
                         // padding: 7.5px 20px!important
-
 
 .headerband_whatsapp_T1.customSection.sectionParent
     background-color: transparent

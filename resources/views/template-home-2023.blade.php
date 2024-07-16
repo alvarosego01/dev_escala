@@ -1337,7 +1337,7 @@
                             <div class="btn-cta col-md-12 col-lg-12">
 
                                 <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                    Recibe un demo personalilzado
+                                    Recibe un demo personalizado
                                 </a>
                             </div>
 

@@ -43,6 +43,7 @@ class SetComponents extends Controller
             'components.popups.component-popup-blackFriday-2022' => 'popup_blackFriday_2022',
             'components.popups.component-popup-december' => 'popup_december',
             'components.popups.component-popup-last-news' => 'popup_last_news',
+            'components.popups.component-popup-last-new' => 'popup_last_new',
             'components.popups.component-popup-promo-1m-2023' => 'popup_promo_1m_2023',
             'components.popups.component-popup-promo-14f-2023' => 'popup_promo_14f_2023',
             'components.popups.component-popup-casos-uso' => 'popup_casos_uso',
@@ -218,7 +219,8 @@ class SetComponents extends Controller
                 'views/template-blog-category.blade.php',
                 'views/template-blog-search-results.blade.php',
                 'views/single-post.blade.php',
-                'views/single-post-2024.blade.php'
+                'views/single-post-2024.blade.php',
+                'views/single-post-especial-2024.blade.php'
             ];
         }
 
@@ -308,6 +310,7 @@ class SetComponents extends Controller
                 'views/template-landing-escala-homeLanding-2023.blade.php',
                 'views/template-landing-escala-CRM-2023.blade.php',
                 'views/template-landing-escala-CRM-mejora-2024.blade.php',
+                'views/template-landing-escala-rrss-organica-2024.blade.php',
                 'views/template-landing-escala-integraciones-2024.blade.php',
                 'views/template-landing-escala-blog-2024.blade.php',
                 'views/template-landing-escala-landing-pages-2023.blade.php',
@@ -417,6 +420,7 @@ class SetComponents extends Controller
                 'views/template-blog-category.blade.php',
                 'views/template-blog-search-results.blade.php',
                 'views/single-post.blade.php',
+                'views/single-post-especial-2024.blade.php',
                 'views/single-exitocaso.blade.php',
                 'views/template-zoom-demo-home.blade.php',
                 'views/template-zoom-demo-home-landing.blade.php',

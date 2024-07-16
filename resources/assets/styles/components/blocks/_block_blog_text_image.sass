@@ -5,9 +5,10 @@
     padding: 0
     padding-bottom: 50px
     @include responsivo(telefonoTable)
-        padding-bottom: 25px
+        padding-bottom: 40px
     ul, ol
         margin-bottom: 0
+        font-family: Nunito
         @include responsivo(telefonoTable)
             padding-left: 0
         li
@@ -18,7 +19,7 @@
             &::marker
                 color: #F1685A
     @include responsivo(telefonoTable)
-        padding-bottom: 25px
+        padding-bottom: 40px
 
     .section_contain
 
@@ -26,13 +27,21 @@
             gap: 35px
             display: flex
             flex-direction: column
+            width:85%
+            margin: 0 auto
+            @include responsivo(telefonoTable)
+                width:100%
+                gap: 40px
             @include responsivo(smallPcTablet)
                 gap: 50px
+
             .groupElements.row
+
                 @include responsivo(telefonoTable)
                     display: flex
-                    flex-direction: column-reverse
+                    flex-direction: column
                     padding: 0
+                    gap: 25px
                 @include responsivo(pcMedio)
                     display: flex
                     flex-direction: row
@@ -74,6 +83,7 @@
                         @include responsivo(resto)
                             font-size: 25px
                         span
+                            font-family: Nunito
                             color: #F34F36
                         strong
                             font-weight: 700
@@ -100,7 +110,7 @@
                             font-size: 16px
                             text-align: left
                         @include responsivo(general)
-                            font-size: 20px
+                            font-size: 18px
                         @include responsivo(smallPcTablet)
                             font-size: 16px
                         @include responsivo(resto)
@@ -152,3 +162,29 @@
                     @include responsivo(resto)
                         display: flex
                         flex-direction: row-reverse
+            
+            .right .image
+                .containerImage
+                    img
+                        margin-right: 0!important
+                        @include responsivo(telefonoTable)
+                            margin-right: auto!important
+                            margin: 0!important
+
+
+            .image .image
+                .containerImage
+                    img
+                        margin-right: 0!important
+                        @include responsivo(telefonoTable)
+                            margin-right: auto!important
+                            margin: 0!important
+
+            .left .image
+                .containerImage
+                    img
+                        margin-left: 0!important
+                        @include responsivo(telefonoTable)
+                            margin-left: auto!important
+                            margin: 0!important
+                        
