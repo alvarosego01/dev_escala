@@ -27,7 +27,7 @@
                                             <img src="{!! App::setFilePath('/assets/images/person/chica_zoom_agendamiento.png') !!}" alt="">
                                         </div>
                                         <div class="action col-md-12 col-lg-5">
-                                            <a href="https://us02web.zoom.us/j/6758915436" class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                            <a href="https://us02web.zoom.us/j/6758915436" class=" primaryButton hoverInEffect">
                                                 Iniciar Zoom ahora
                                             </a>
                                             <small>
