@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_automatizaciones.svg') !!})" class="headerband_promo_lastNews customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_nota_prensa_especial.svg') !!})" class="headerband_promo_lastNews customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -8,31 +8,29 @@
 
                 <div class="contain">
 
-                    {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_headerband_freeclass.png') !!}" alt="" class="icon"> --}}
-
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/crecimiento-monetario-escala.svg') !!}" alt="" class="icon">
                     <span class="hashTitle">
-                    ¡Potencia tus automatizaciones!
+                        ¡Buenas noticias!
                     </span>
-                    <div class="separator"></div>
                     <span class="sub">
-                    Descubre cómo podemos ayudarte a escalar tus  <br class="space"> comunicaciones con las nuevas funcionalidades.
+                        Escala completa ronda de $12M para consolidarse como el
+                    </span>
+                    <span class="sub sub2">
+                        CRM líder para PyMEs hispanas
                     </span>
 
                 </div>
 
-                <a  class=" primaryButton hoverInEffect openPopUpButton popup-last-news">
-                    Explora más
+                <a href="https://escala.com/escala-ronda-financiamiento-2024/" class=" primaryButton hoverInEffect">
+                    Leer artículo
                 </a>
-
-            </div>
-
         </section>
 
     </div>
-    </section>
+</section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_automatizaciones_mobile.svg;') !!})" class="headerband_promo_lastNews customSection sectionParent fullWidth MbHeadband {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_nota_prensa_especial-mobile.svg') !!})" class="headerband_promo_lastNews customSection sectionParent fullWidth MbHeadband {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -42,20 +40,22 @@
 
                 <div class="contain">
 
-                    {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_headerband_freeclass.png') !!}" alt="" class="icon"> --}}
-
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/crecimiento-monetario-escala.svg') !!}" alt="" class="icon">
+                    
                     <span class="hashTitle">
-                    ¡Potencia tus automatizaciones!
+                        ¡Buenas noticias!
                     </span>
-                    <div class="separator"></div>
                     <span class="sub">
-                    Descubre cómo podemos ayudarte a escalar tus  <br class="space"> comunicaciones con las nuevas funcionalidades.
+                        Escala completa ronda de $12M para consolidarse como el
+                    </span>
+                    <span class="sub2">
+                        CRM líder para PyMEs hispanas
                     </span>
 
                 </div>
 
-                <a  class=" primaryButton hoverInEffect openPopUpButton popup-last-news">
-                    Explora más
+                <a href="https://escala.com/escala-ronda-financiamiento-2024/" class=" primaryButton hoverInEffect">
+                    Leer artículo
                 </a>
 
             </div>
@@ -63,4 +63,4 @@
         </section>
 
     </div>
-    </section>
+</section>
