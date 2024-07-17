@@ -98,6 +98,7 @@ add_action('wp_enqueue_scripts', function () {
         wp_enqueue_style('_blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
         wp_enqueue_style('single_especial_2024.css', asset_path('styles/pages/blog/single_blog_especial_2024.css'), false, THEME_VERSION);
     }
+    
 
     $t = SetComponents::setTemplates('casoExito');
     if (is_page_template($t)) {
