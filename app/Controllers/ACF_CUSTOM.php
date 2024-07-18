@@ -460,6 +460,7 @@ class ACF_CUSTOM extends Controller
                         'headerband_december_promo_t1' => 'Promo Diciembre',
                         'headerband_promo_freeclass_t1' => 'Free class',
                         'headerband_promo_last_news' => 'Last news',
+                        'headerband_promo_blue' => 'Blue',
                         'headerband_reports' => 'Reports',
                         'headerBand_whatsapp_T1' => 'Whatsapp',
                     ],

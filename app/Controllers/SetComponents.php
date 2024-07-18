@@ -68,6 +68,7 @@ class SetComponents extends Controller
             'components.headerBands.component-headerBand-december-T1' => 'headerband_december_promo_t1',
             'components.headerBands.component-headerBand-free-11' => 'headerband_promo_freeclass_t1',
             'components.headerBands.component-headerBand-last-news' => 'headerband_promo_last_news',
+            'components.headerBands.component-headerBand-blue' => 'headerband_promo_blue',
             'components.headerBands.component-headerBand-reports' => 'headerband_reports',
             'components.headerBands.component-headerBand-special-promo-14f-T1' => 'headerband_special_14f_promo_t1',
         ];
