@@ -54,10 +54,6 @@
 
                 </div>
 
-                <a href="https://escala.com/escala-ronda-financiamiento-2024/" class=" primaryButton hoverInEffect">
-                    Leer artículo
-                </a>
-
             </div>
 
         </section>
