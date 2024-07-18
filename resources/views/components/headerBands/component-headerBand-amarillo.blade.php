@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_banner_fondo_azul.svg') !!})" class="headerband_promo_blue customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_nota_prensa_especial.svg') !!})" class="headerband_promo_amarillo customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -30,7 +30,7 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_banner_fondo_azul_mobile.svg') !!})" class="headerband_promo_blue customSection sectionParent fullWidth MbHeadband {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_nota_prensa_especial-mobile.svg') !!})" class="headerband_promo_amarillo customSection sectionParent fullWidth MbHeadband {{ $classSection }} ">
 
     <div class="section-row">
 
