@@ -87,6 +87,18 @@ $parameters = array(
 
 @endif
 
+@if ($l2 != null && $l2 == 'headerband_promo_amarillo')
+
+@headerband_promo_amarillo($parameters)
+@endheaderband_promo_amarillo
+
+<script>
+    jQuery('section.headerband_promo_amarillo').appendTo('header');
+    jQuery('header').addClass('withHeaderBand');
+</script>
+
+@endif
+
 @if ($l2 != null && $l2 == 'headerband_reports')
 
 @headerband_reports($parameters)
