@@ -62,9 +62,9 @@
 
                                         <p class="principalBigText grayColorTexts">
 
-                                        Automatización, seguimiento y
+                                            Automatización, seguimiento y
                                             <br class="space">
-                                            comunicación eficiente aumentar la productividad de tu equipo. 
+                                            comunicación eficiente aumentar la productividad de tu equipo.
 
                                         </p>
 
@@ -143,7 +143,7 @@
 
                                 <div class="image">
                                     <div class="containerImage">
-                                    <img alt="Ilustración persona Inmobiliaria" src="{{ App::setFilePath('/assets/images/person/persona-inmobiliaria-pc.png') }}" loading="lazy">
+                                        <img alt="Ilustración persona Inmobiliaria" src="{{ App::setFilePath('/assets/images/person/persona-inmobiliaria-pc.png') }}" loading="lazy">
                                     </div>
 
                                 </div>
@@ -199,77 +199,44 @@
 
 
 
-        <section class="w-full customSection sectionParent landing_SEM_2024_1">
+        <section class="w-full customSection sectionParent landing_SEM_2024_1 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_sem-section-1.svg') }}')">
             <div class="section-row">
-                <section class="innerSectionElement sct0 ">
+
+                <section class="innerSectionElement sct1">
+                    <h2 class="title">
+                        Evita estancar el crecimiento de tu empresa <br class="space">
+                        por ineficiencias operativas
+                    </h2>
+
                     <div class="containElements">
 
-                        <h2 class="primaryTitle">
-                            ¿Por qué tu empresa
-                            <br class="space">
-                            necesita un SEM?
-                        </h2>
+                        <div class="element">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/tareas-manuales.png') !!}" loading="lazy">
+                            <p class="text">
+                                Dile adiós a tareas manuales que reducen la productividad comercial
+                            </p>
+                        </div>
+                        <div class="element">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/excel.png') !!}" loading="lazy">
+                            <p class="text">
+                                Olvídate del Excel o los CRMs complicados que tu equipo no quiere usar
+                            </p>
+                        </div>
+                        <div class="element">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/seguimiento.png') !!}" loading="lazy">
+                            <p class="text">
+                                No tiene que ser difícil hacer seguimiento a tu equipo y oportunidades de venta
+                            </p>
+                        </div>
+                        <div class="element">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/pagos.png') !!}" loading="lazy">
+                            <p class="text">
+                                No necesitas pagar tanto para integrar herramientas de marketing y venta
+                            </p>
+                        </div>
 
                     </div>
-                </section>
 
-                <section class="innerSectionElement sct1 ">
-                    <div class="containElements">
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'landing_SEM_2024_8',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/person/landing-SEM-mejora-hombre1.png'),
-                        'title' => '
-                        <span>Un SEM </span> le permite a tu negocio:
-                        ',
-                        'text' =>
-                        '
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Gestionar mejor las relaciones con leads y clientes
-                        </span>
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Optimizar los procesos de venta
-                        </span>
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Aumentar la productividad del equipo
-                        </span>
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Tomar decisiones basadas en datos
-                        </span>
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Escalar operaciones ¡y más!.
-                        </span>
-                        ',
-                        'enableButton' => false,
-                        'urlButton' => '#lead-form',
-                        'textButton' => 'Recibe un demo',
-                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                        'side' => 'right',
-                        ];
-                        @endphp
-                        @contain_text_image_T1($parameters)
-                        @endcontain_text_image_T1
-
-                    </div>
                 </section>
 
             </div>
@@ -283,33 +250,20 @@
                 <div class="section-row">
 
                     <section class="innerSectionElement sct0">
-                        <div class="containerImage">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_SEM_mejora.png') !!}" loading="lazy">
-
-                        </div>
                         <h2 class="title">
-                            <span>Conoce Escala: </span>
-                            El SEM ideal para
-                            <br class="space">
-                            pequeñas y medianas empresas
+                            Con las herramientas de Escala simplificas y automatizas la <br class="space">
+                            gestión comercial para que dispares tu productividad
                         </h2>
-
-                        <p class="text">
-                            Fácil de aprender a usar, encuentra todo lo que necesitas
-                            <br class="space">
-                            para atraer, convertir y fidelizar clientes
-                        </p>
-
 
                         <div class="ele video col-md-12 col-lg-9">
 
                             @php
                             $videoEmbed = App::setFilePath(
-                            '/assets/videos/intro_escala__SEM_todo-en-uno (1080p).mp4',
+                            '/assets/videos/intro_escala__CRM_todo-en-uno (1080p).mp4',
                             );
                             // $videoCover = App::setFilePath('/assets/images/gifs/home_video_portrait_2023.gif');
                             $videoCover = App::setFilePath(
-                            '/assets/videos/intro_escala__SEM_todo-en-uno (1080p).mp4',
+                            '/assets/videos/intro_escala__CRM_todo-en-uno (1080p).mp4',
                             );
                             @endphp
 
@@ -374,9 +328,7 @@
                     <div class="containElements">
 
                         <h2 class="primaryTitle">
-                            ¿Qué logras con el SEM de Escala?
-                            <br class="space">
-                            <span> Gestiona y optimiza tu proceso comercial</span>
+                            ¿Qué más obtienes con el CRM de Escala?
                         </h2>
 
                     </div>
@@ -392,26 +344,19 @@
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/gifs/1El-SEM-guarda-automáticamente.gif'),
+                        'img' => App::setFilePath('/assets/images/gifs/1El-CRM-guarda-automáticamente.gif'),
                         'title' => '
 
-                        <span>Guarda y gestiona contactos
+                        <span>Gestiona contactos
+
                         </span> <br class="space">
-                        automáticamente
+                        en un solo lugar
 
                         ',
-                        'text' => 'Inserta los formularios de Escala en landing pages
-                        <br class="DT_e">
-                        o websites, para que los contactos se registren
-                        <br class="DT_e">
-                        automáticamente en el SEM ¡sin necesidad de
-                        <br class="DT_e">
-                        integraciones!
-                        <br class="space">
-                        <br class="space">
-                        <b>Nota:</b> también podrás importarlos masivamente o
-                        <br class="DT_e">
-                        crearlos fácilmente de manera manual.',
+                        'text' => 'Escala te permite guardar la información de tus
+                        prospectos y clientes de manera automatizada y manual, organizar mejor la
+                        información de cada uno, y acceder a ella fácilmente cuando la
+                        necesites para cerrar más ventas.',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
                         'textButton' => 'Recibe un demo',
@@ -432,17 +377,13 @@
                         'img' => App::setFilePath('/assets/images/gifs/3Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes-.gif'),
                         'title' => '
                         <span>Haz mejor seguimiento </span>
-                        de tus
-                        <br class="DT_e">
-                        procesos de venta o servicio
+                        de tus<br class="DT_e">
+                        procesos de ventas
 
                         ',
                         'text' => 'En Escala es muy simple tener visibilidad sobre la
-                        <br class="DT_e">
                         etapa en la que se encuentra cada prospecto,
-                        <br class="DT_e">
                         proyectar resultados y entender qué debes hacer
-                        <br class="DT_e">
                         para convertir más clientes.',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
@@ -518,6 +459,32 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
+                        'classSection' => 'landing_SEM_2024_6',
+                        'enableTitle' => false,
+                        'titlePrincipal' => null,
+                        'subTitlePrincipal' => null,
+                        'img' => App::setFilePath('/assets/images/gifs/5-metricas-en-tiempo-real_.gif'),
+                        'title' => '
+                        <span>Muestra tus propiedades con hermosas</span>
+                        páginas que creas en minutos
+                        ',
+                        'text' => 'En Escala no necesitas programadores para construir landing pages
+                        que vendan tus proyectos o empresa. Arrastra, suelta, a imagenes y texto con
+                        pocos clics. Además te puedes apoyar de nuestra inteligencia artificial.
+                        ',
+                        'enableButton' => false,
+                        'urlButton' => '#lead-form',
+                        'textButton' => 'Recibe un demo',
+                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                        'side' => 'left',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
                         'classSection' => 'landing_SEM_2024_5',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
@@ -546,37 +513,6 @@
                         'urlButton' => '#lead-form',
                         'textButton' => 'Recibe un demo',
                         'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                        'side' => 'left',
-                        ];
-                        @endphp
-                        @contain_text_image_T1($parameters)
-                        @endcontain_text_image_T1
-
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'landing_SEM_2024_6',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/gifs/5-metricas-en-tiempo-real_.gif'),
-                        'title' => '
-                        <span>Mide resultados</span>
-                        en tiempo real
-                        ',
-                        'text' => '
-                        “Lo que no se mide no se mejora”. Escala, permite que
-                        <br class="DT_e">
-                        monitorees el rendimiento de tu equipo muy fácil y
-                        <br class="DT_e">
-                        rápido para que optimices tu proceso comercial
-                        <br class="DT_e">
-                        oportunamente.
-                        ',
-                        'enableButton' => false,
-                        'urlButton' => '#lead-form',
-                        'textButton' => 'Recibe un demo',
-                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                         'side' => 'right',
                         ];
                         @endphp
@@ -595,22 +531,15 @@
                         ),
                         'title' => '
                         <span>Integra marketing y ventas </span>
-                        en un <br class="DT_e">
-                        solo lugar
+                        para<br class="DT_e">
+                        optimizar tus resultados
                         ',
                         'text' => '
-                        Simplifica la colaboración entre áreas con
-                        <br class="DT_e">
-                        herramientas como Email, WhatsApp y Landing
-                        <br class="DT_e">
-                        Pages ya integradas al SEM de Escala.
-                        <br class="DT_e">
-                        <br class="DT_e">
-                        ¡También es posible integrarte con miles de
-                        <br class="DT_e">
-                        aplicaciones gracias a Zapier y nuestra API
-                        <br class="DT_e">
-                        pública!
+                        Simplifica la colaboración entre áreas con herramientas como Email,
+                        WhatsApp y Landing Pages ya integradas al CRM de Escala.
+                        <br class="space"><br class="space">
+                        Tener todas estas funcionalidades en una misma plataforma aumenta la eficiencia operativa
+                        y facilita analizar resultados para tomar mejores decisiones.
                         ',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
@@ -621,118 +550,45 @@
                         @endphp
                         @contain_text_image_T1($parameters)
                         @endcontain_text_image_T1
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'landing_SEM_2024_6',
+                        'enableTitle' => false,
+                        'titlePrincipal' => null,
+                        'subTitlePrincipal' => null,
+                        'img' => App::setFilePath('/assets/images/gifs/5-metricas-en-tiempo-real_.gif'),
+                        'title' => '
+                        <span>Mide resultados </span>
+                        en tiempo real
+                        ',
+                        'text' => 'Cuenta con analíticas y reportes que se actualizan
+                        automáticamente para que que monitorees
+                        el rendimiento de tu equipo e identifiques oportunamente áreas de mejora.
+                        ',
+                        'enableButton' => false,
+                        'urlButton' => '#lead-form',
+                        'textButton' => 'Recibe un demo',
+                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                        'side' => 'right',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
+
                     </div>
                 </section>
 
             </div>
+            <span class="subTitle">
+                ¡y mucho más!
+            </span>
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Solicitar demo
+                    ¡Wow! Quiero un demo
                 </a>
             </div>
-        </section>
-
-
-
-
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-landing-SEM-mejora03.svg') !!})" class="customSection sectionParent landing_SEM_2024_9">
-            <div class="section-row">
-                <div class="containElements">
-
-                    @php
-                    $parameters = [
-                    'type' => 'backgroundColor',
-                    'classSection' => 'landing_SEM_2024_9',
-                    'enableTitle' => true,
-                    'titlePrincipal' => '
-                    Descubre el poder de tener todas las
-                    <br class="DT_e">
-                    herramientas <span> en una sola plataforma</span>
-                    ',
-                    'subTitlePrincipal' => null,
-                    'overlay' => false,
-                    'enableButton' => false,
-                    // 'urlButton' => '#',
-                    // 'textButton' => 'Recibe un demo',
-                    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
-                    // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
-                    'elements' => [
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_SEM_Ws.png'),
-                    'title' => 'WhatsApp
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_SEM_ai.png'),
-                    'title' => 'Inteligencia<br class="space">
-                    Artificial
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_SEM_SEM.png'),
-                    'title' => 'Gestión de <br class="space">contactos y <br class="space"> procesos
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath(
-                    '/assets/images/illustrations/others/icon_SEM_automatizaciones.png',
-                    ),
-                    'title' => 'Automatizaciones
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath(
-                    '/assets/images/illustrations/others/icon_SEM_landing.png',
-                    ),
-                    'title' => 'Landing<br class="space"> Pages
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_SEM_email.png'),
-                    'title' => 'Email<br class="space"> Marketing
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_SEM_ads.png'),
-                    'title' => 'Anuncios<br class="space"> digitales
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath(
-                    '/assets/images/illustrations/others/icon_SEM_reportes.png',
-                    ),
-                    'title' => 'Reportes<br class="space"> personalizados
-                    ',
-                    'enableButton' => false,
-                    ],
-                    ],
-                    ];
-                    @endphp
-
-                    @contain_multiple_cards_T2($parameters)
-                    @endcontain_multiple_cards_T2
-
-                    <span>
-                        ¡Y más!
-                    </span>
-                </div>
-            </div>
-
         </section>
 
 
@@ -744,7 +600,8 @@
 
                     <div class="containElements">
                         <h2 class="title">
-                            ¡Ningún otro SEM te acompaña mejor!
+                            Además ¡Ningún otro CRM te acompaña mejor!
+
                             <br class="DT_e">
                             <span> Te guiamos a implementarlo exitosamente</span>
                         </h2>
@@ -762,40 +619,12 @@
                                         <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_SEM_top_card.svg') !!})" class="top-pill">
                                             Gerente de <br class="space">Éxito
                                         </div>
-                                        <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/SEM_2024_img_01.png') !!}" loading="lazy">
+                                        <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/icon_list_SEM._crecimiento.png') !!}" loading="lazy">
 
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Principal punto de contacto</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Conoce tu negocio a mayor profundidad</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Te guía a definir planes de implementación con Escala</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Apoya analizando resultados</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Te acompaña todo el año</p>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            Al suscribirte a Escala, cuentas con un experto que entiende a profundidad tus necesidades
+                                            y te guía a aprovechar e incorporar las herramientas al máximo
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -806,37 +635,11 @@
                                             Especialista de <br class="space"> Implementación
 
                                         </div>
-                                        <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/SEM_2024_img_02.png') !!}" loading="lazy">
+                                        <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/icon_list_SEM._escala.png') !!}" loading="lazy">
 
-                                        <div class="list-block">
-                                            <ul>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                        <p>Se involucra después de haber definido plan</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                        <p>Guía implementando la plataforma</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                        <p>Asegura que uses las herramientas efectivamente</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                        <p>Disponible los primeros meses con Escala</p>
-                                                    </div>
-                                                </li>
-
-                                            </ul>
-                                        </div>
+                                        <p>
+                                            Esta persona se encarga de que tú y tu equipo aprendan a usar las herramientas que necesitan efectivamente.
+                                        </p>
 
                                     </div>
                                 </div>
@@ -847,34 +650,11 @@
                                         <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_SEM_top_card.svg') !!})" class="top-pill">
                                             Soporte Técnico <br class="space"> en vivo por chat
                                         </div>
-                                        <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/SEM_2024_img_03.png') !!}" loading="lazy">
+                                        <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/icon_list_SEM._callcenter.png') !!}" loading="lazy">
 
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Apoya en la configuración técnica de la plataforma</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Atiende preguntas y necesidades técnicas puntuales</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Conecta por chat de plataforma o WhatsApp</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Disponible mientras tengas suscripción activa</p>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            Además de apoyarte conectar cuentas personales y dominios a Escala, están disponibles casi 24/7 por chat para atender oportunamente dudas puntuales
+                                        </p>
                                     </div>
                                 </div>
 
@@ -886,29 +666,11 @@
                                         <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_SEM_top_card.svg') !!})" class="top-pill">
                                             Servicio de <br class="space"> Personalización
                                         </div>
-                                        <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/SEM_2024_img_04.png') !!}" loading="lazy">
+                                        <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/icon_list_SEM._escala_acelerar.png') !!}" loading="lazy">
 
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Personaliza el SEM a tus necesidades</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Crea plantillas de email y páginas según tu marca</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Crea la base para un flujo automatizado</p>
-                                                </div>
-                                            </li>
-
-                                        </ul>
+                                        <p>
+                                            ¿Deseas acelerar tu implementación? Contamos con un equipo que personaliza plantillas y configura las primeras automatizaciones por ti
+                                        </p>
                                     </div>
                                 </div>
 
@@ -920,31 +682,11 @@
                                         <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_SEM_top_card.svg') !!})" class="top-pill">
                                             Capacitación a<br class="space"> Líderes y Vendedores
                                         </div>
-                                        <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/SEM_2024_img_05.png') !!}" loading="lazy">
+                                        <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/icon_list_SEM._callcenter_2.png') !!}" loading="lazy">
 
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Bootcamps en vivo </p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Masterclasses con el equipo de expertos de alto nivel de Escala
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_SEM.png') !!}" loading="lazy">
-                                                    <p>Educación online a tu ritmo, con: minicursos, tutoriales y más.
-                                                    </p>
-                                                </div>
-                                            </li>
-
-                                        </ul>
+                                        <p>
+                                            Cuenta con recursos para desarrollar las habilidades técnicas de tu equipo bajo la guía de expertos a su propio ritmo.
+                                        </p>
                                     </div>
                                 </div>
 
@@ -959,41 +701,13 @@
         </section>
         <div class="btnCenter">
             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                Conocer más
+                ¡Increíble! Cuéntenme más
             </a>
         </div>
 
 
 
 
-        {{-- @php
-            $parameters = [
-                'classSection' => 'landing_SEM_2024_11',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-                Lo que dicen nuestros clientes <br class="space">
-                sobre el SEM de Escala:
-                ',
-                'subTitlePrincipal' => null,
-                'enableContainerButton' => false,
-                'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'textButton' => 'Recibe un demo',
-                'mob_reviews' => [
-                    App::setFilePath('/assets/images/illustrations/others/SEM_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/SEM_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/SEM_review_3.png')
-                ],
-                'desk_reviews' => [
-                    [
-                    App::setFilePath('/assets/images/illustrations/others/SEM_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/SEM_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/SEM_review_3.png')]
-                ],
-            ];
-        @endphp
-        @reviews_sliders_T1($parameters)
-        @endreviews_sliders_T1 --}}
 
         <section class='w-full customSection sectionParent landing_SEM_2024_11'>
 
@@ -1002,8 +716,9 @@
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
                         <h2 class="primaryTitle">
-                            <span>Lo que dicen nuestros clientes</span> <br class="space">
-                            sobre el SEM de Escala:
+                            ¿Qué dicen nuestros clientes
+                            <br class="space">
+                            sobre el CRM de Escala?
                         </h2>
                     </div>
 
@@ -1043,61 +758,11 @@
 
             <div class="section-row">
 
-
-                <section class="innerSectionElement sct2">
-                    {{-- style="background-image: url({!! App::setFilePath('/assets/images/banners/am_overlay_email-mkt.png') !!})"  --}}
-                    <img src="{!! App::setFilePath('/assets/images/banners/bg_landing_SEM_2.svg') !!}" alt="" class="overlay">
-
-                    <div class="containElements">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-5 column-img">
-                                <div class="img-container">
-                                    <img src="{!! App::setFilePath('/assets/images/person/am/landing_SEM_am_2.png') !!}" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-lg-7 column-text">
-                                <p>
-                                    <span>
-                                        “El SEM es el corazón de las operaciones
-                                        <br class="space">
-                                        de todo negocio.
-                                    </span>
-                                    Diseñamos Escala para
-                                    <br class="DT_e">
-                                    facilitarle a pequeñas y medianas empresas
-                                    <br class="DT_e">
-                                    tener una cultura cliente-céntrica y
-                                    <br class="DT_e">
-                                    optimizar resultados de venta/servicio”.
-                                    <br class="space">
-                                    <br class="space">
-                                    <span class="sub">
-                                        Andrés Moreno <br class="space">
-                                        <small>Fundador de Escala & Open English</small>
-                                    </span>
-
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-
-        </section>
-
-
-
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_SEM_3.1.svg') !!})" class='w-full customSection sectionParent landing_SEM_2024_13'>
-
-            <div class="section-row">
-
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
-
                         <h2 class="primaryTitle">
-                            Empezar a escalar tu negocio <br class="space">
-                            <span> es muy sencillo:</span>
+                            Empezar acon Escala,
+                            <span> es muy sencillo:</span>
                         </h2>
 
                     </div>
@@ -1105,74 +770,36 @@
 
                 <section class='innerSectionElement sct1 '>
                     <div class='containElements'>
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'landing_SEM_2024_13_1',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'overlay' => false,
-                        'enableButton' => false,
-                        'elements' => [
-                        [
-                        'img_alt' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/illustrations/others/landing_SEM_form.png',
-                        ),
-                        'title' => '
-                        <span>Inscríbete en el formulario</span>
-                        <br class="DT_e">
-                        y un especialista te
-                        <br class="DT_e">
-                        contactará
-                        ',
-                        'enableButton' => false,
-                        ],
-                        [
-                        'img_alt' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/illustrations/others/landing_SEM_form_tour.png',
-                        ),
-                        'title' => '
-                        <span> Recibe un tour
-                            <br class="DT_e">
-                            personalizado</span> y gratuito
-                        <br class="DT_e">
-                        por la plataforma
-                        ',
-                        'enableButton' => false,
-                        ],
-                        [
-                        'img_alt' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/illustrations/others/landing_SEM_form_plan.png',
-                        ),
-                        'title' => '
-                        <span>Escoge el plan que se <br class="DT_e">
-                            adapte a tu empresa</span> <br class="DT_e">
-                        y empieza a mejorar <br class="DT_e">
-                        tus resultados
-                        ',
-                        'enableButton' => false,
-                        ],
-                        ],
-                        ];
-                        @endphp
-
-                        @contain_multiple_cards_T2($parameters)
-                        @endcontain_multiple_cards_T2
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/otto/otto-crecimiento.png') !!}" loading="lazy">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/pasos-empezar-en-escala.png') !!}" loading="lazy">
+                        <img class="monileImg" src="{!! App::setFilePath('/assets/images/illustrations/others/pasos-empezar-en-escala-mobile.png') !!}" loading="lazy">
+                    </div>
+                </section>
+                <div class="btnCenter">
+                    <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                        ¡Ok! Empecemos ya
+                    </a>
+                </div>
+            </div>
+        </section>
 
 
 
+        <section loading="lazy" style="background-image: url({!! App::setFilePath('/assets/images/banners/banner-sem-seccion-8.svg') !!})" class='w-full customSection sectionParent landing_SEM_2024_13'>
+
+            <div class="section-row">
+
+                <section class='innerSectionElement sct1 '>
+                    <div class='containElements'>
+                        <div class="containerImage">
+                            <img alt="Ilustración persona Inmobiliaria" src="{{ App::setFilePath('/assets/images/illustrations/others/ilustracion-despegue-escala.png') }}" loading="lazy">
+                        </div>
+                        <h2 class="primaryTitle">
+                            ¿Listo para llevar tu empresa de bienes raíces al siguiente nivel?
+                        </h2>
                     </div>
                 </section>
 
-            </div>
-            <div class="btnCenter">
-                <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Empezar ahora
-                </a>
             </div>
         </section>
 
