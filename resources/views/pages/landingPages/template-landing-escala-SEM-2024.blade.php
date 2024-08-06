@@ -25,7 +25,7 @@
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_SEM_2024 landing_SEM_2024_0 ">
 
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-landing-SEM-mejora01.svg') }}')" class="backgroundFull">
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-sem-seccion-1.png') }}')" class="backgroundFull">
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
 
@@ -40,7 +40,7 @@
                                     <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
 
                                         <div class="containerImage">
-                                            <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta" src="{{ App::setFilePath('/assets/images/person/am/landing_SEM_mejora_am_1.png') }}" loading="lazy">
+                                            <img alt="Ilustración persona Inmobiliaria" src="{{ App::setFilePath('/assets/images/person/persona-inmobiliaria-pc.png') }}" loading="lazy">
                                         </div>
 
                                     </div>
@@ -48,10 +48,13 @@
                                     <div class="ele ele2 col-md-12 col-lg-7">
                                         <h1 class="principalBigTitle blackColor">
 
-                                            El SEM con IA, WhatsApp <br class="space">
-                                            y herramientas de marketing
+                                            Transforma tu empresa
+                                            inmobiliaria con Escala: <br class="space">
                                             <span>
-                                                integradas para vender más y mejor
+
+                                                El CRM todo-en-uno para
+                                                <br class="space">
+                                                optimizar tus procesos de venta
                                                 <br class="space">
                                             </span>
 
@@ -59,9 +62,9 @@
 
                                         <p class="principalBigText grayColorTexts">
 
-                                            Promueve tus servicios y multiplica tus
+                                        Automatización, seguimiento y
                                             <br class="space">
-                                            ventas con un SEM que sí es fácil de usar
+                                            comunicación eficiente aumentar la productividad de tu equipo. 
 
                                         </p>
 
@@ -140,7 +143,7 @@
 
                                 <div class="image">
                                     <div class="containerImage">
-                                        <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta" src="{{ App::setFilePath('/assets/images/person/am/landing_SEM_mejora_am_1.png') }}" loading="lazy">
+                                    <img alt="Ilustración persona Inmobiliaria" src="{{ App::setFilePath('/assets/images/person/persona-inmobiliaria-pc.png') }}" loading="lazy">
                                     </div>
 
                                 </div>
@@ -994,7 +997,7 @@
 
         <section class='w-full customSection sectionParent landing_SEM_2024_11'>
 
-              <div class="section-row">
+            <div class="section-row">
 
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
@@ -1008,24 +1011,24 @@
                 <section class='innerSectionElement sct1 '>
                     <div class='containElements'>
 
-                            <div class="review r1">
-                                <div class="containerImage">
-                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1.png') }}" loading="lazy">
-                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1_m.png') }}" loading="lazy">
-                                </div>
+                        <div class="review r1">
+                            <div class="containerImage">
+                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1.png') }}" loading="lazy">
+                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1_m.png') }}" loading="lazy">
                             </div>
-                            <div class="review r2">
-                                <div class="containerImage">
-                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2.png') }}" loading="lazy">
-                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2_m.png') }}" loading="lazy">
-                                </div>
+                        </div>
+                        <div class="review r2">
+                            <div class="containerImage">
+                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2.png') }}" loading="lazy">
+                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2_m.png') }}" loading="lazy">
                             </div>
-                            <div class="review r3">
-                                <div class="containerImage">
-                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3.png') }}" loading="lazy">
-                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3_m.png') }}" loading="lazy">
-                                </div>
+                        </div>
+                        <div class="review r3">
+                            <div class="containerImage">
+                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3.png') }}" loading="lazy">
+                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3_m.png') }}" loading="lazy">
                             </div>
+                        </div>
 
                     </div>
 
