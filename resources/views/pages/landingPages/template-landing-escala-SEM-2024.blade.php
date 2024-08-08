@@ -113,7 +113,7 @@
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
                                         <h5 class="titleFormat blackcolor">Recibe un demo-tour <br class="space">
-                                            personalizado de Escala</h5>
+                                        personalizado</h5>
 
 
                                         @php
@@ -199,48 +199,49 @@
 
 
 
-        <section class="w-full customSection sectionParent landing_SEM_2024_1 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_sem-section-1.svg') }}')">
-            <div class="section-row">
+        <section class="w-full customSection sectionParent landing_SEM_2024_1 ">
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_sem-section-1.svg') }}')" class="backgroundFull">
+                <div class="section-row">
 
-                <section class="innerSectionElement sct1">
-                    <h2 class="title">
-                        Evita estancar el crecimiento de tu empresa <br class="space">
-                        por ineficiencias operativas
-                    </h2>
+                    <section class="innerSectionElement sct1">
+                        <h2 class="title">
+                            Evita estancar el crecimiento de tu empresa <br class="space">
+                            por ineficiencias operativas
+                        </h2>
 
-                    <div class="containElements">
+                        <div class="containElements">
 
-                        <div class="element">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/tareas-manuales.png') !!}" loading="lazy">
-                            <p class="text">
-                                Dile adiós a tareas manuales que reducen la productividad comercial
-                            </p>
+                            <div class="element">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/tareas-manuales.png') !!}" loading="lazy">
+                                <p class="text">
+                                    Dile adiós a tareas manuales que reducen la productividad comercial
+                                </p>
+                            </div>
+                            <div class="element">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/excel.png') !!}" loading="lazy">
+                                <p class="text">
+                                    Olvídate del Excel o los CRMs complicados que tu equipo no quiere usar
+                                </p>
+                            </div>
+                            <div class="element">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/seguimiento.png') !!}" loading="lazy">
+                                <p class="text">
+                                    No tiene que ser difícil hacer seguimiento a tu equipo y oportunidades de venta
+                                </p>
+                            </div>
+                            <div class="element">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/pagos.png') !!}" loading="lazy">
+                                <p class="text">
+                                    No necesitas pagar tanto para integrar herramientas de marketing y venta
+                                </p>
+                            </div>
+
                         </div>
-                        <div class="element">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/excel.png') !!}" loading="lazy">
-                            <p class="text">
-                                Olvídate del Excel o los CRMs complicados que tu equipo no quiere usar
-                            </p>
-                        </div>
-                        <div class="element">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/seguimiento.png') !!}" loading="lazy">
-                            <p class="text">
-                                No tiene que ser difícil hacer seguimiento a tu equipo y oportunidades de venta
-                            </p>
-                        </div>
-                        <div class="element">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/pagos.png') !!}" loading="lazy">
-                            <p class="text">
-                                No necesitas pagar tanto para integrar herramientas de marketing y venta
-                            </p>
-                        </div>
 
-                    </div>
+                    </section>
 
-                </section>
-
+                </div>
             </div>
-
         </section>
 
 
@@ -353,10 +354,10 @@
                         en un solo lugar
 
                         ',
-                        'text' => 'Escala te permite guardar la información de tus
-                        prospectos y clientes de manera automatizada y manual, organizar mejor la
-                        información de cada uno, y acceder a ella fácilmente cuando la
-                        necesites para cerrar más ventas.',
+                        'text' => 'Escala te permite guardar la información de tus<br class="DT_e">
+                        prospectos y clientes de manera automatizada y <br class="DT_e">manual, organizar mejor la
+                        información de cada <br class="DT_e">uno, y acceder a ella fácilmente cuando la
+                        necesites <br class="DT_e">para cerrar más ventas.',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
                         'textButton' => 'Recibe un demo',
@@ -381,9 +382,9 @@
                         procesos de ventas
 
                         ',
-                        'text' => 'En Escala es muy simple tener visibilidad sobre la
-                        etapa en la que se encuentra cada prospecto,
-                        proyectar resultados y entender qué debes hacer
+                        'text' => 'En Escala es muy simple tener visibilidad sobre la<br class="DT_e">
+                        etapa en la que se encuentra cada prospecto,<br class="DT_e">
+                        proyectar resultados y entender qué debes hacer<br class="DT_e">
                         para convertir más clientes.',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
@@ -468,9 +469,9 @@
                         <span>Muestra tus propiedades con hermosas</span>
                         páginas que creas en minutos
                         ',
-                        'text' => 'En Escala no necesitas programadores para construir landing pages
-                        que vendan tus proyectos o empresa. Arrastra, suelta, a imagenes y texto con
-                        pocos clics. Además te puedes apoyar de nuestra inteligencia artificial.
+                        'text' => 'En Escala no necesitas programadores para construir <br class="DT_e">landing pages
+                        que vendan tus proyectos o empresa. <br class="DT_e">Arrastra, suelta, a imagenes y texto con
+                        pocos clics. <br class="DT_e">Además te puedes apoyar de nuestra inteligencia artificial.
                         ',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
@@ -535,11 +536,11 @@
                         optimizar tus resultados
                         ',
                         'text' => '
-                        Simplifica la colaboración entre áreas con herramientas como Email,
-                        WhatsApp y Landing Pages ya integradas al CRM de Escala.
+                        Simplifica la colaboración entre áreas con <br class="DT_e">herramientas como Email,
+                        WhatsApp y <br class="DT_e">Landing Pages ya integradas al CRM de Escala.
                         <br class="space"><br class="space">
-                        Tener todas estas funcionalidades en una misma plataforma aumenta la eficiencia operativa
-                        y facilita analizar resultados para tomar mejores decisiones.
+                        Tener todas estas funcionalidades en una misma <br class="DT_e">plataforma aumenta la eficiencia operativa
+                        y facilita <br class="DT_e">analizar resultados para tomar mejores decisiones.
                         ',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
@@ -564,8 +565,8 @@
                         en tiempo real
                         ',
                         'text' => 'Cuenta con analíticas y reportes que se actualizan
-                        automáticamente para que que monitorees
-                        el rendimiento de tu equipo e identifiques oportunamente áreas de mejora.
+                        automáticamente para que que monitorees<br class="DT_e">
+                        el rendimiento de tu equipo e identifiques <br class="DT_e">oportunamente áreas de mejora.
                         ',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
@@ -582,7 +583,7 @@
 
             </div>
             <span class="subTitle">
-                ¡y mucho más!
+                ¡Y mucho más!
             </span>
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -680,7 +681,7 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_SEM_top_card.svg') !!})" class="top-pill">
-                                            Capacitación a<br class="space"> Líderes y Vendedores
+                                        Capacitaciones en <br class="space"> vivo y autoguiadas
                                         </div>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/icon_list_SEM._callcenter_2.png') !!}" loading="lazy">
 
@@ -709,7 +710,7 @@
 
 
 
-        <section class='w-full customSection sectionParent landing_SEM_2024_11'>
+        <section class='w-full customSection sectionParent landing_SEM_2024_10'>
 
             <div class="section-row">
 
@@ -754,25 +755,23 @@
 
 
 
-        <section class="customSection sectionParent landing_SEM_2024_10">
+        <section class="customSection sectionParent landing_SEM_2024_11">
 
             <div class="section-row">
-
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
                         <h2 class="primaryTitle">
                             Empezar acon Escala,
                             <span> es muy sencillo:</span>
                         </h2>
-
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/otto/otto-crecimiento.png') !!}" loading="lazy">
                     </div>
                 </section>
 
                 <section class='innerSectionElement sct1 '>
                     <div class='containElements'>
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/otto/otto-crecimiento.png') !!}" loading="lazy">
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/pasos-empezar-en-escala.png') !!}" loading="lazy">
-                        <img class="monileImg" src="{!! App::setFilePath('/assets/images/illustrations/others/pasos-empezar-en-escala-mobile.png') !!}" loading="lazy">
+                        <img class="pcImg" src="{!! App::setFilePath('/assets/images/illustrations/others/pasos-empezar-en-escala.png') !!}" loading="lazy">
+                        <img class="mobileImg" src="{!! App::setFilePath('/assets/images/illustrations/others/pasos-empezar-en-escala-mobile.png') !!}" loading="lazy">
                     </div>
                 </section>
                 <div class="btnCenter">
@@ -785,10 +784,9 @@
 
 
 
-        <section loading="lazy" style="background-image: url({!! App::setFilePath('/assets/images/banners/banner-sem-seccion-8.svg') !!})" class='w-full customSection sectionParent landing_SEM_2024_13'>
+        <section loading="lazy" style="background-image: url({!! App::setFilePath('/assets/images/banners/banner-sem-seccion-8.svg') !!})" class='w-full customSection sectionParent landing_SEM_2024_12'>
 
             <div class="section-row">
-
                 <section class='innerSectionElement sct1 '>
                     <div class='containElements'>
                         <div class="containerImage">
