@@ -617,7 +617,7 @@
                             <div class="col-md-12 col-lg-4 cardParent column-1">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_SEM_top_card.svg') !!})" class="top-pill">
+                                        <div style="background-image: url({!! App::setFilePath('/assets/images/illustrations/others/sem_top_card.svg') !!})" class="top-pill">
                                             Gerente de <br class="space">Éxito
                                         </div>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/icon_list_SEM._crecimiento.png') !!}" loading="lazy">
@@ -632,7 +632,7 @@
                             <div class="col-md-12 col-lg-4 cardParent column-2">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_SEM_top_card.svg') !!})" class="top-pill">
+                                        <div style="background-image: url({!! App::setFilePath('/assets/images/illustrations/others/sem_top_card.svg') !!})" class="top-pill">
                                             Especialista de <br class="space"> Implementación
 
                                         </div>
@@ -648,7 +648,7 @@
                             <div class="col-md-12 col-lg-4 cardParent column-3">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_SEM_top_card.svg') !!})" class="top-pill">
+                                        <div style="background-image: url({!! App::setFilePath('/assets/images/illustrations/others/sem_top_card.svg') !!})" class="top-pill">
                                             Soporte Técnico <br class="space"> en vivo por chat
                                         </div>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/icon_list_SEM._callcenter.png') !!}" loading="lazy">
@@ -664,7 +664,7 @@
                             <div class="col-md-12 col-lg-4 cardParent column-4">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_SEM_top_card.svg') !!})" class="top-pill">
+                                        <div style="background-image: url({!! App::setFilePath('/assets/images/illustrations/others/sem_top_card.svg') !!})" class="top-pill">
                                             Servicio de <br class="space"> Personalización
                                         </div>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/icon_list_SEM._escala_acelerar.png') !!}" loading="lazy">
@@ -680,7 +680,7 @@
                             <div class="col-md-12 col-lg-4 cardParent column-5">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_SEM_top_card.svg') !!})" class="top-pill">
+                                        <div style="background-image: url({!! App::setFilePath('/assets/images//illustrations/others/sem_top_card.svg') !!})" class="top-pill">
                                         Capacitaciones en <br class="space"> vivo y autoguiadas
                                         </div>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/icon_list_SEM._callcenter_2.png') !!}" loading="lazy">
