@@ -252,7 +252,7 @@
 
                     <section class="innerSectionElement sct0">
                         <h2 class="title">
-                            Con las herramientas de Escala simplificas y automatizas la <br class="space">
+                            Con las herramientas de Escala simplificas y automatizas la <br class="DT_e">
                             gestión comercial para que dispares tu productividad
                         </h2>
 
