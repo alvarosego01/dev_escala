@@ -113,24 +113,80 @@
                                             personalizado de Escala</h5>
 
 
-                                        @php
-                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                        $_rs = [];
-                                        $_formShortcode = null;
-                                        if ($_data = get_posts($_args)) {
-                                        foreach ($_data as $_key) {
-                                        $_rs[$_key->ID] = $_key->post_title;
-                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                        }
-                                        }
-                                        } else {
-                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                        }
-                                        @endphp
-                                        {!! do_shortcode($_formShortcode) !!}
+                               
+                                            <div id="form-container">
+                                            <div id="form-1" >
+                                                @php
+                                                $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                                $_rs = [];
+                                                $_formShortcode = null;
+                                                if ($_data = get_posts($_args)) {
+                                                foreach ($_data as $_key) {
+                                                $_rs[$_key->ID] = $_key->post_title;
+                                                if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                                $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                                }
+                                                }
+                                                } else {
+                                                $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                                }
+                                                @endphp
+                                                {!! do_shortcode($_formShortcode) !!}
+                                            </div>
+
+                                            <div id="form-2" style="display:none;">
+                                                @php
+                                                $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                                $_rs = [];
+                                                $_formShortcode = null;
+                                                if ($_data = get_posts($_args)) {
+                                                foreach ($_data as $_key) {
+                                                $_rs[$_key->ID] = $_key->post_title;
+                                                if ($_key->post_title === 'Form test') {
+                                                $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                                }
+                                                }
+                                                } else {
+                                                $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                                }
+                                                @endphp
+                                                {!! do_shortcode($_formShortcode) !!}
+                                            </div>
+                                        </div>
+
+                                        <script>
+                                            jQuery(document).ready(function($) {
+                                                $('#form-1').on('submit', function(e) {
+                                                    e.preventDefault(); // Evita el envío normal del formulario
+
+                                                    var $form = $(this);
+                                                    var formData = $form.serialize(); // Serializa los datos del formulario
+
+                                                    // Captura el valor del campo de email usando el atributo `name` de Contact Form 7
+                                                    var email = $form.find('input[name="your-email"]').val();
+
+                                                    $.ajax({
+                                                        type: 'POST',
+                                                        url: $form.attr('action'),
+                                                        data: formData,
+                                                        success: function(response) {
+                                                            // Oculta el primer formulario y muestra el segundo
+                                                            $('#form-1').hide();
+                                                            $('#form-2').show();
+
+                                                            // Rellena el campo oculto del segundo formulario con el email
+                                                            $('#hidden-email-field').val(email);
+                                                        },
+                                                        error: function(xhr, status, error) {
+                                                            console.error('Error al enviar el formulario:', error);
+                                                        }
+                                                    });
+                                                });
+                                            });
 
 
+
+                                        </script>
                                     </div>
 
                                 </div>
