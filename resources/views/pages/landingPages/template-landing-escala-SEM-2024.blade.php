@@ -64,7 +64,7 @@
 
                                             Automatización, seguimiento y
                                             <br class="space">
-                                            comunicación eficiente aumentar la productividad de tu equipo.
+                                            comunicación eficiente para aumentar la productividad de tu equipo.
 
                                         </p>
 
@@ -113,7 +113,7 @@
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
                                         <h5 class="titleFormat blackcolor">Recibe un demo-tour <br class="space">
-                                        personalizado</h5>
+                                            personalizado</h5>
 
 
                                         @php
@@ -260,11 +260,11 @@
 
                             @php
                             $videoEmbed = App::setFilePath(
-                            '/assets/videos/intro_escala__CRM_todo-en-uno (1080p).mp4',
+                            '/assets/videos/intro_escala__crm_todo-en-uno (1080p).mp4',
                             );
                             // $videoCover = App::setFilePath('/assets/images/gifs/home_video_portrait_2023.gif');
                             $videoCover = App::setFilePath(
-                            '/assets/videos/intro_escala__CRM_todo-en-uno (1080p).mp4',
+                            '/assets/videos/intro_escala__crm_todo-en-uno (1080p).mp4',
                             );
                             @endphp
 
@@ -289,7 +289,6 @@
                                             HTML5 video</a>
                                     </p>
                                 </video>
-
 
                             </div>
 
@@ -624,7 +623,7 @@
 
                                         <p>
                                             Al suscribirte a Escala, cuentas con un experto que entiende a profundidad tus necesidades
-                                            y te guía a aprovechar e incorporar las herramientas al máximo
+                                            y te guía a aprovechar e incorporar las herramientas al máximo.
                                         </p>
                                     </div>
                                 </div>
@@ -654,7 +653,7 @@
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/icon_list_SEM._callcenter.png') !!}" loading="lazy">
 
                                         <p>
-                                            Además de apoyarte conectar cuentas personales y dominios a Escala, están disponibles casi 24/7 por chat para atender oportunamente dudas puntuales
+                                            Además de apoyarte conectar cuentas personales y dominios a Escala, están disponibles casi 24/7 por chat para atender oportunamente dudas puntuales.
                                         </p>
                                     </div>
                                 </div>
@@ -670,7 +669,7 @@
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/icon_list_SEM._escala_acelerar.png') !!}" loading="lazy">
 
                                         <p>
-                                            ¿Deseas acelerar tu implementación? Contamos con un equipo que personaliza plantillas y configura las primeras automatizaciones por ti
+                                            ¿Deseas acelerar tu implementación? Contamos con un equipo que personaliza plantillas y configura las primeras automatizaciones por ti.
                                         </p>
                                     </div>
                                 </div>
@@ -681,7 +680,7 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <div style="background-image: url({!! App::setFilePath('/assets/images//illustrations/others/sem_top_card.svg') !!})" class="top-pill">
-                                        Capacitaciones en <br class="space"> vivo y autoguiadas
+                                            Capacitaciones en <br class="space"> vivo y autoguiadas
                                         </div>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/icon_list_SEM._callcenter_2.png') !!}" loading="lazy">
 
