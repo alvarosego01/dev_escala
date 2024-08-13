@@ -108,14 +108,9 @@
                                 <div class="containElements">
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
-
-                                        <h5 class="titleFormat blackcolor">Recibe un demo-tour <br class="space">
-                                            personalizado de Escala</h5>
-
-
-                               
-                                            <div id="form-container">
-                                            <div id="form-1" >
+                                            <div id="form-1">
+                                                <h5 class="titleFormat blackcolor">Recibe un demo-tour <br class="space">
+                                                    personalizado</h5>
                                                 @php
                                                 $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
                                                 $_rs = [];
@@ -135,6 +130,9 @@
                                             </div>
 
                                             <div id="form-2" style="display:none;">
+                                                <h5 class="titleFormat blackcolor" style="color: #F34F36!important;">Ayúdanos a personalizar
+                                                    <br class="space">el demo de tu empresa
+                                                </h5>
                                                 @php
                                                 $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
                                                 $_rs = [];
@@ -156,6 +154,20 @@
 
                                         <script>
                                             jQuery(document).ready(function($) {
+                                                // Oculta el campo por defecto
+                                                $('#mostrarWeb').hide();
+
+                                                // Función para mostrar u ocultar el campo basado en la selección del menú desplegable
+                                                $('#selectWeb').change(function() {
+                                                    var selectedValue = $(this).val();
+
+                                                    if (selectedValue === 'Si') {
+                                                        $('#mostrarWeb').show();
+                                                    } else {
+                                                        $('#mostrarWeb').hide();
+                                                    }
+                                                });
+
                                                 $('#form-1').on('submit', function(e) {
                                                     e.preventDefault(); // Evita el envío normal del formulario
 
@@ -183,9 +195,6 @@
                                                     });
                                                 });
                                             });
-
-
-
                                         </script>
                                     </div>
 
