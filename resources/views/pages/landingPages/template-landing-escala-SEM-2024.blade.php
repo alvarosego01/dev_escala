@@ -463,7 +463,7 @@
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/gifs/5-metricas-en-tiempo-real_.gif'),
+                        'img' => App::setFilePath('/assets/images/gifs/landing.gif'),
                         'title' => '
                         <span>Muestra tus propiedades con hermosas</span>
                         páginas que creas en minutos
@@ -558,7 +558,7 @@
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/gifs/5-metricas-en-tiempo-real_.gif'),
+                        'img' => App::setFilePath('/assets/images/gifs/reportes-sem.gif'),
                         'title' => '
                         <span>Mide resultados </span>
                         en tiempo real
