@@ -108,94 +108,29 @@
                                 <div class="containElements">
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
-                                            <div id="form-1">
-                                                <h5 class="titleFormat blackcolor">Recibe un demo-tour <br class="space">
-                                                    personalizado</h5>
-                                                @php
-                                                $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                                $_rs = [];
-                                                $_formShortcode = null;
-                                                if ($_data = get_posts($_args)) {
-                                                foreach ($_data as $_key) {
-                                                $_rs[$_key->ID] = $_key->post_title;
-                                                if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                                $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                                }
-                                                }
-                                                } else {
-                                                $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
-                                                }
-                                                @endphp
-                                                {!! do_shortcode($_formShortcode) !!}
-                                            </div>
 
-                                            <div id="form-2" style="display:none;">
-                                                <h5 class="titleFormat blackcolor" style="color: #F34F36!important;">Ayúdanos a personalizar
-                                                    <br class="space">el demo de tu empresa
-                                                </h5>
-                                                @php
-                                                $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                                $_rs = [];
-                                                $_formShortcode = null;
-                                                if ($_data = get_posts($_args)) {
-                                                foreach ($_data as $_key) {
-                                                $_rs[$_key->ID] = $_key->post_title;
-                                                if ($_key->post_title === 'Form test') {
-                                                $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                                }
-                                                }
-                                                } else {
-                                                $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
-                                                }
-                                                @endphp
-                                                {!! do_shortcode($_formShortcode) !!}
-                                            </div>
-                                        </div>
+                                        <h5 class="titleFormat blackcolor">Recibe un demo-tour <br class="space">
+                                            personalizado de Escala</h5>
 
-                                        <script>
-                                            jQuery(document).ready(function($) {
-                                                // Oculta el campo por defecto
-                                                $('#mostrarWeb').hide();
 
-                                                // Función para mostrar u ocultar el campo basado en la selección del menú desplegable
-                                                $('#selectWeb').change(function() {
-                                                    var selectedValue = $(this).val();
+                                        @php
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
+                                        @endphp
+                                        {!! do_shortcode($_formShortcode) !!}
 
-                                                    if (selectedValue === 'Si') {
-                                                        $('#mostrarWeb').show();
-                                                    } else {
-                                                        $('#mostrarWeb').hide();
-                                                    }
-                                                });
 
-                                                $('#form-1').on('submit', function(e) {
-                                                    e.preventDefault(); // Evita el envío normal del formulario
-
-                                                    var $form = $(this);
-                                                    var formData = $form.serialize(); // Serializa los datos del formulario
-
-                                                    // Captura el valor del campo de email usando el atributo `name` de Contact Form 7
-                                                    var email = $form.find('input[name="your-email"]').val();
-
-                                                    $.ajax({
-                                                        type: 'POST',
-                                                        url: $form.attr('action'),
-                                                        data: formData,
-                                                        success: function(response) {
-                                                            // Oculta el primer formulario y muestra el segundo
-                                                            $('#form-1').hide();
-                                                            $('#form-2').show();
-
-                                                            // Rellena el campo oculto del segundo formulario con el email
-                                                            $('#hidden-email-field').val(email);
-                                                        },
-                                                        error: function(xhr, status, error) {
-                                                            console.error('Error al enviar el formulario:', error);
-                                                        }
-                                                    });
-                                                });
-                                            });
-                                        </script>
                                     </div>
 
                                 </div>
@@ -1240,3 +1175,4 @@
 
     </div>
 </div>
+
