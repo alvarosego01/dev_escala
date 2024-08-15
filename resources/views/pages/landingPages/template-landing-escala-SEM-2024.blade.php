@@ -463,7 +463,7 @@
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/gifs/landing.gif'),
+                        'img' => App::setFilePath('/assets/images/gifs/gif inmobiliaria (3).gif'),
                         'title' => '
                         <span>Muestra tus propiedades con hermosas</span>
                         páginas que creas en minutos
