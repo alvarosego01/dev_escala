@@ -8,7 +8,7 @@
             'classSection' => 'threeCol landing_landingPage_2023 landing_landingPage_2023_0',
             'title' => '
                         Construye hermosas <br class="space">
-<span>landing pages</span> en <br class="space">
+<span>landing pages</span> en
 30min o menos
                     ',
             'text' => '
@@ -72,7 +72,7 @@
                                     <div class="ele ele2 col-md-12 col-lg-7">
                                         <h1 class="principalBigTitle blackColor">
                                             Construye hermosas <br class="space">
-                                            <span>landing pages</span> en 30min <br class="space">
+                                            <span>landing pages</span> en 30min
                                             o menos
                                         </h1>
 
