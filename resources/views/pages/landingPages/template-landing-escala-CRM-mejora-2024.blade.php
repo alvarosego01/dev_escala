@@ -110,7 +110,7 @@
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
                                             <div id="form-1" style=" text-align:center;">
-                                            <img style="margin-top: 20px; width:90%;"  src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
+                                            <img style="margin-top:30px; margin-bottom:-15px; width:80%;"  src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
                                                 <h5 class="titleFormat blackcolor">Recibe un demo-tour 
                                                <br class="space">
                                                en vivo</h5>
@@ -133,7 +133,7 @@
                                             </div>
 
                                             <div id="form-2" style="display:none; text-align:center;">
-                                            <img style="margin-top: 20px; width:90%;"  src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
+                                            <img style="margin-top:30px; margin-bottom:-15px; width:80%;"  src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
                                                 <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
                                                     <br class="space">tu demo-tour
                                                 </h5>
@@ -169,6 +169,7 @@
                                             .checkbox-936 .wpcf7-list-item input{
                                                 background-color: #fff;
                                                 position: static     !important;
+                                                
                                             }
                                             .checkbox-936 label{
                                                 background-color: #fff;
@@ -176,7 +177,7 @@
                                                 margin: 0;
                                                 font-size: 14px;
                                                 color: #706b6d;
-
+                                                padding-left: 12px;
                                             }
                                             .checkbox-936 span {
                                                 background-color: #fff;
@@ -194,11 +195,13 @@
                                                 margin: 0;
                                                 font-size: 14px;
                                                 color: #706b6d;
-
+                                                padding-left: 12px;
+                                                
                                             }
                                             .checkbox-755  span {
                                                 background-color: #fff;
                                                 border: none!important;
+                                                text-align: left!important;
                                             }
                                             
                                         </style>
