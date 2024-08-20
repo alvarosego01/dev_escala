@@ -969,28 +969,28 @@
                                                                 loading="lazy">
                                                         </div>
 
-                                                            <p class="text-time">6 am - 8 pm</p>
+                                                            <p class="text-time">6 am - 7 pm</p>
                                                         </div>
                                                         <div class="col-6 col-lg-3">
                                                          <div class=" container-flags MT_e">
                                                               <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
                                                                 loading="lazy">
                                                         </div>
-                                                            <p class="text-time">7 am - 9 pm</p>
+                                                            <p class="text-time">7 am - 8 pm</p>
                                                         </div>
                                                         <div class="col-6 col-lg-3">
                                                          <div class=" container-flags MT_e">
                                                           <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
                                                                 loading="lazy">
                                                         </div>
-                                                            <p class="text-time">8 am - 10 pm</p>
+                                                            <p class="text-time">8 am - 9 pm</p>
                                                         </div>
                                                         <div class="col-6 col-lg-3">
                                                          <div class=" container-flags MT_e">
                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
                                                                 loading="lazy">
                                                         </div>
-                                                            <p class="text-time">9 am - 11 pm</p>
+                                                            <p class="text-time">9 am - 10 pm</p>
                                                         </div>
                                                     </div>
                                                     <div class="row timeFlags">
