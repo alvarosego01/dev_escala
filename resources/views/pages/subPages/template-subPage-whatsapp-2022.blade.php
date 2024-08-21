@@ -154,7 +154,7 @@
                         <div class="element">
                             <div class="numbers">
                                 <span>
-                                    +2000
+                                    +2
                                 </span>
                                 mil millones
                             </div>
