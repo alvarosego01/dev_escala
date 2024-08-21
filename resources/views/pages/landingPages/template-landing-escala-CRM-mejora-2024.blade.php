@@ -111,7 +111,7 @@
 
                                         <div id="form-1" style=" text-align:center;">
                                             <img style="margin-top:30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
-                                            <h5 class="titleFormat blackcolor">Recibe un demo-tour
+                                            <h5 class="titleFormat blackcolor">Recibe un demo
                                                 <br class="space">
                                                 en vivo
                                             </h5>
@@ -136,7 +136,7 @@
                                         <div id="form-2" style="display:none; text-align:center;">
                                             <img style="margin-top:30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
                                             <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
-                                                <br class="space">tu demo-tour
+                                                <br class="space">tu demo
                                             </h5>
                                             @php
                                             $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -159,7 +159,7 @@
                                     <style>
                                         .label_class {
                                             color: #706b6d;
-                                            font-size: 18px;
+                                            font-size: 16px;
                                             text-align: left;
                                             padding: 6px 12px 0px 12px;
                                             border-bottom: 1px solid #ddd;
@@ -191,7 +191,7 @@
                                             display: flex;
                                             flex-direction: column;
                                             align-items: flex-start;
-                                            margin:  0px 0px -4px 0px!important;
+                                            margin: 0px 0px -4px 0px !important;
                                         }
 
                                         .checkbox-755 .wpcf7-list-item input {
@@ -244,9 +244,49 @@
                                             font-size: 10px;
                                             line-height: 17px;
                                         }
+
+
+                                        textarea,
+                                        input[type="text"],
+                                        input[type="email"],
+                                        input[type="number"],
+                                        input[type="tel"] {
+                                            color: #322C2E !important;
+                                            font-weight: bold;
+                                        }
+
+                                        input[type="submit"] {
+                                            color: #fff !important;
+                                        }
                                     </style>
                                     <script>
                                         jQuery(document).ready(function($) {
+                                            // Selecciona todos los selectores especificados
+                                            $('select[name="menu-735"], select[name="menu-669"], select[name="menu-590"], select[name="your-employees"], select[name="your-country"]').change(function() {
+                                                var selectedValue = $(this).val();
+
+                                                // Opciones que NO deben cambiar de color
+                                                var excludeOptions = [
+                                                    "Selecciona el país",
+                                                    "Cantidad de empleados",
+                                                    "Cantidad de vendedores",
+                                                    "Etapa del negocio",
+                                                    "Facturación anual (en USD)"
+                                                ];
+                                                //agregar color
+                                                if (excludeOptions.indexOf(selectedValue) === -1) {
+                                                    $(this).css({
+                                                        'color': '#322C2E',
+                                                        'font-weight': 'bold'
+                                                    });
+                                                    //No agregar color
+                                                } else {
+                                                    $(this).css({
+                                                        'color': '',
+                                                        'font-weight': 'normal'
+                                                    });
+                                                }
+                                            });
 
                                             $('input[name="checkbox-936[]"]').on('change', function() {
                                                 if ($(this).is(':checked')) {
