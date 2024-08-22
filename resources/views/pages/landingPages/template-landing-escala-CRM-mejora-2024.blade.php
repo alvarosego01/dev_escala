@@ -159,13 +159,18 @@
                                     <style>
                                         .label_class {
                                             color: #706b6d;
-                                            font-size: 16px;
+                                            font-size: 18px;
                                             text-align: left;
                                             padding: 6px 12px 0px 12px;
                                             border-bottom: 1px solid #ddd;
                                             margin-bottom: 5px;
                                             border-radius: 3px;
                                             border: none !important;
+                                            display: block !important;
+                                        }
+
+                                        .label_class span {
+                                            font-size: 16px;
                                         }
 
                                         .checkbox-936 .wpcf7-list-item input {
@@ -251,18 +256,33 @@
                                         input[type="email"],
                                         input[type="number"],
                                         input[type="tel"] {
-                                            color: #322C2E !important;
-                                            font-weight: bold;
+                                            color: #322C2E!important;
                                         }
+
+                                        textarea::placeholder,
+                                        input[type="text"]::placeholder,
+                                        input[type="email"]::placeholder,
+                                        input[type="number"]::placeholder,
+                                        input[type="tel"]::placeholder {
+                                            color: #797979;
+
+                                        }
+
 
                                         input[type="submit"] {
                                             color: #fff !important;
+                                            cursor: pointer;
+                                        }
+
+                                        .custom-select-color {
+                                            color: #322C2E !important;
+                                            font-weight: bold;
                                         }
                                     </style>
                                     <script>
                                         jQuery(document).ready(function($) {
                                             // Selecciona todos los selectores especificados
-                                            $('select[name="menu-735"], select[name="menu-669"], select[name="menu-590"], select[name="your-employees"], select[name="your-country"]').change(function() {
+                                            $('select[name="menu-735"], select[name="menu-669"], select[name="menu-590"], select[name="your-employees"], select[name="your-country"], select[name="menu-577"], select[name="menu-578"]').change(function() {
                                                 var selectedValue = $(this).val();
 
                                                 // Opciones que NO deben cambiar de color
@@ -271,21 +291,16 @@
                                                     "Cantidad de empleados",
                                                     "Cantidad de vendedores",
                                                     "Etapa del negocio",
-                                                    "Facturación anual (en USD)"
+                                                    "Facturación anual (en USD)",
+                                                    "Industria de tu negocio",
+                                                    "¿Cuál describe mejor tu rol?"
                                                 ];
-                                                //agregar color
                                                 if (excludeOptions.indexOf(selectedValue) === -1) {
-                                                    $(this).css({
-                                                        'color': '#322C2E',
-                                                        'font-weight': 'bold'
-                                                    });
-                                                    //No agregar color
+                                                    $(this).addClass('custom-select-color');
                                                 } else {
-                                                    $(this).css({
-                                                        'color': '',
-                                                        'font-weight': 'normal'
-                                                    });
+                                                    $(this).removeClass('custom-select-color');
                                                 }
+
                                             });
 
                                             $('input[name="checkbox-936[]"]').on('change', function() {
