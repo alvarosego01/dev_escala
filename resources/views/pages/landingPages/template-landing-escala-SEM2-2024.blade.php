@@ -137,7 +137,7 @@
                                             {!! do_shortcode($_formShortcode) !!}
                                         </div>
 
-                                        <div id="form-2" style="display:noned; text-align:center;">
+                                        <div id="form-2" style="display:none; text-align:center;">
                                             <img style="margin-top:30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
                                             <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
                                                 <br class="space">tu demo
