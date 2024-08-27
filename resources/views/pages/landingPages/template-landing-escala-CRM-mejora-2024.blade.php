@@ -112,7 +112,6 @@
                                         <h5 class="titleFormat blackcolor">Recibe un demo-tour <br class="space">
                                             personalizado de Escala</h5>
 
-
                                         @php
                                         $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
                                         $_rs = [];
