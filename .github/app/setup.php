@@ -206,6 +206,7 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-landing-escala-CRM-mejora-2024.blade.php')) {
         wp_enqueue_style('landing_CRM_mejora_2024.css', asset_path('styles/pages/landingPages/landing_CRM_mejora_2024.css'), false, THEME_VERSION);
     }
+
     // ---Landing escala integraciones 2024 
     if (is_page_template('views/template-landing-escala-integraciones-2024.blade.php')) {
         wp_enqueue_style('landing_Escala_integraciones.css', asset_path('styles/pages/landingPages/landing_Escala_integraciones.css'), false, THEME_VERSION);
@@ -218,10 +219,13 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-landing-escala-SEM-2024.blade.php')) {
         wp_enqueue_style('landing_SEM_.css', asset_path('styles/pages/landingPages/landing_SEM_2024.css'), false, THEME_VERSION);
     }
-    // ---Landing escala CRM 2024 mejora
-    if (is_page_template('views/template-landing-escala-TEST-FORM.blade.php')) {
-        wp_enqueue_style('landing_TEST_FORM.css', asset_path('styles/pages/landingPages/landing_TEST_FORM.css'), false, THEME_VERSION);
+    // ---Landing escala SEM2 2024
+    if (is_page_template('views/template-landing-escala-SEM2-2024.blade.php')) {
+        wp_enqueue_style('landing_SEM2_.css', asset_path('styles/pages/landingPages/landing_SEM2_2024.css'), false, THEME_VERSION);
     }
+
+    
+
 
     // -------------------------------------- //
     //  FUNCTIONALITIES 2022
