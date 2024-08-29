@@ -486,6 +486,42 @@ img
                                     z-index: 5
                                     position: relative
                                     // display: none!important
+                    .containArticle
+                        display: flex
+                        align-items: center
+                        gap: 32px
+                        position: relative
+                        top: -55px
+                        @include responsivo(smallPcTablet)
+                            gap: 14px
+                            flex-wrap: wrap
+
+                        p
+                            font-size: 16px
+                            font-weight: 600
+                            line-height: 1
+                            letter-spacing: -1.5px
+                            text-align: left
+                            color: #2C4857
+                            margin: 0 
+                            padding: 0
+                        .containerImage 
+                            padding: 0
+                            margin: 0
+                            
+                            display: flex
+                            align-items: center
+                            img
+                                height: 25px
+                                @include responsivo(general)
+                                    height: 22px
+
+
+                    .containArticle > div:last-child
+                        img
+                            height: 55px
+                            @include responsivo(general)
+                                height: 50px
 
                 .form7
                     margin-bottom: 50px
