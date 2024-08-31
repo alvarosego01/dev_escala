@@ -279,7 +279,24 @@
 
 
                             </div>
+                            <div class="containArticle_mobile">
+                                    <p>Destacado en:</p>
+                                    <div class="containerImage">
+                                        <a target="_blank" href="https://forbes.co/2024/08/08/emprendedores/fundador-de-openenglish-y-su-antiguo-cfo-recaudan-us12-millones-para-un-crm-de-pymes">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/forbes-logo.png') !!}" loading="lazy"></a>
 
+                                    </div>
+                                    <div class="containerImage">
+                                        <a target="_blank" href="https://es-us.finanzas.yahoo.com/noticias/escala-fundada-l%C3%ADder-open-english-000000848.html"> <img src="{!! App::setFilePath('/assets/images/illustrations/others/yahoo-finance-logo.png') !!}" loading="lazy"> </a>
+                                    </div>
+                                    <div class="containerImage">
+                                        <a target="_blank" href="https://latamlist.com/escala-raises-12m-funding-round/"> <img src="{!! App::setFilePath('/assets/images/illustrations/others/latam-list-logo.png') !!}" loading="lazy"> </a>
+                                    </div>
+                                    <div class="containerImage">
+                                        <a target="_blank" href="https://www.reforma.com/capitanes-2024-08-06/op276011"> <img src="{!! App::setFilePath('/assets/images/illustrations/others/reforma-logo.png') !!}" loading="lazy"> </a>
+                                    </div>
+                                    <div class="containerImage"> 
+                                </div>
                             <div class="elementsCheck">
 
                                 @foreach ($elements as $item)
