@@ -246,8 +246,25 @@ img
                                         height: 20px
                                     @include responsivo(resto)
                                         height: 20px
+        .containArticle_mobile
+            display: none
+            flex-wrap: wrap
+            gap: 20px
+            @include responsivo(telefonoTable)
+                display: flex!important
+            @include responsivo(pcMedio)
+                display: flex!important
 
-
+            p
+                font-size: 16px
+                font-weight: 600
+                line-height: 1
+                letter-spacing: -1.5px
+                text-align: center
+                color: #2C4857
+                margin: 0 
+                padding: 0
+                
         .innerSectionElement.sct2
             .containElements
                 .MT_e
@@ -523,6 +540,8 @@ img
                             height: 55px
                             @include responsivo(general)
                                 height: 50px
+
+
 
                 .form7
                     margin-bottom: 50px
