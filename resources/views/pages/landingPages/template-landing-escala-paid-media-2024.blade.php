@@ -25,7 +25,7 @@
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_paid_media_2024 landing_paid_media_2024_0 ">
 
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-landing-crm-mejora01.svg') }}')" class="backgroundFull">
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_hero_landing_paid_media_blue.svg') }}')" class="backgroundFull">
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
 
@@ -329,7 +329,7 @@
 
 
         <section class="customSection sectionParent landing_paid_media_2024_1_0">
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-landing-crm-mejora02.svg') }}')" class="backgroundFull">
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section3_landing_paid_media_.svg') }}')" class="backgroundFull">
                 <div class="section-row">
 
                     <section class="innerSectionElement sct0">
@@ -685,7 +685,7 @@
 
 
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-landing-crm-mejora03.svg') !!})" class="customSection sectionParent landing_paid_media_2024_9">
+        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_section5_landing_paid_media_blue.svg') !!})" class="customSection sectionParent landing_paid_media_2024_9">
             <div class="section-row">
                 <div class="containElements">
 
