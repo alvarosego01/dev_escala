@@ -98,7 +98,7 @@ add_action('wp_enqueue_scripts', function () {
         wp_enqueue_style('_blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
         wp_enqueue_style('single_especial_2024.css', asset_path('styles/pages/blog/single_blog_especial_2024.css'), false, THEME_VERSION);
     }
-    
+
 
     $t = SetComponents::setTemplates('casoExito');
     if (is_page_template($t)) {
@@ -214,10 +214,14 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-landing-escala-rrss-organica-2024.blade.php')) {
         wp_enqueue_style('landing_rrss_organica_.css', asset_path('styles/pages/landingPages/landing_rrss_organica_2024.css'), false, THEME_VERSION);
     }
-        // ---Landing escala SEM 2024 
-        if (is_page_template('views/template-landing-escala-SEM-2024.blade.php')) {
-            wp_enqueue_style('landing_SEM_.css', asset_path('styles/pages/landingPages/landing_SEM_2024.css'), false, THEME_VERSION);
-        }
+    // ---Landing escala SEM 2024 
+    if (is_page_template('views/template-landing-escala-SEM-2024.blade.php')) {
+        wp_enqueue_style('landing_SEM_.css', asset_path('styles/pages/landingPages/landing_SEM_2024.css'), false, THEME_VERSION);
+    }
+    // ---Landing escala Paid media 2024 
+    if (is_page_template('views/template-landing-escala-paid-media-2024.blade.php')) {
+        wp_enqueue_style('landing_paid_media_.css', asset_path('styles/pages/landingPages/landing_paid_media_2024.css'), false, THEME_VERSION);
+    }
     // -------------------------------------- //
     //  FUNCTIONALITIES 2022
     // ---Page builder

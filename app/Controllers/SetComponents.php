@@ -315,6 +315,7 @@ class SetComponents extends Controller
                 'views/template-landing-escala-CRM-mejora-2024.blade.php',
                 'views/template-landing-escala-SEM-2024.blade.php',
                 'views/template-landing-escala-rrss-organica-2024.blade.php',
+                'views/template-landing-escala-paid-media-2024.blade.php',
                 'views/template-landing-escala-integraciones-2024.blade.php',
                 'views/template-landing-escala-blog-2024.blade.php',
                 'views/template-landing-escala-landing-pages-2023.blade.php',
