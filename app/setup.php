@@ -222,6 +222,10 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-landing-escala-paid-media-2024.blade.php')) {
         wp_enqueue_style('landing_paid_media_.css', asset_path('styles/pages/landingPages/landing_paid_media_2024.css'), false, THEME_VERSION);
     }
+    // ---Landing escala Paid media orange 2024 
+    if (is_page_template('views/template-landing-escala-paid-media-orange-2024.blade.php')) {
+        wp_enqueue_style('landing_paid_media__orange_.css', asset_path('styles/pages/landingPages/landing_paid_media_orange_2024.css'), false, THEME_VERSION);
+    }
     // -------------------------------------- //
     //  FUNCTIONALITIES 2022
     // ---Page builder
