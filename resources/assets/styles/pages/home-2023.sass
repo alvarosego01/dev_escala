@@ -92,8 +92,9 @@ img
         padding-top: 150px
         overflow: visible
         @include responsivo(telefonoTable)
-            background-position: 55% center
+            background-position: 40% center
             padding-bottom: 25px!important
+            margin-bottom: -60px
         @include responsivo(pcMedio)
             background-position: 45.5% center
         @include responsivo(general)
@@ -119,6 +120,11 @@ img
             top: -100px
         @include responsivo(resto)
             top: -75px
+        .innerSectionElement.sct1
+            .groupElements
+                @include responsivo(telefonoTable)
+                    flex-direction: column-reverse
+                    gap: 30px
 
         .ele.reviews
             position: relative
@@ -248,13 +254,11 @@ img
                                         height: 20px
         .containArticle_mobile
             display: none
-            flex-wrap: wrap
-            gap: 20px
+            margin-bottom: 30px
             @include responsivo(telefonoTable)
-                display: flex!important
+                display: block!important
             @include responsivo(pcMedio)
-                display: flex!important
-
+                display: block!important
             p
                 font-size: 16px
                 font-weight: 600
@@ -264,8 +268,21 @@ img
                 color: #2C4857
                 margin: 0 
                 padding: 0
+                margin-bottom: 30px
+            .containArticle_mobile_img
+                display: flex
+                flex-wrap: wrap
+                gap: 20px
+                justify-content: center
+                @include responsivo(telefonoTable)
                 
+                .containerImage
+                    margin: 0 
+                    padding: 0
+
         .innerSectionElement.sct2
+            @include responsivo(telefonoTable)
+                display: none
             .containElements
                 .MT_e
                     @include responsivo(telefonoTable)
@@ -286,6 +303,7 @@ img
                     @include responsivo(telefonoTable)
                         padding: 25px
                         flex-direction: column!important
+                        
                     @include responsivo(pcMedio)
                         padding: 25px
                     @include responsivo(general)
@@ -360,7 +378,16 @@ img
                                     font-size: 16px
                                 @include responsivo(resto)
                                     font-size: 20px
-
+        .innerMobile
+            display: none
+            @include responsivo(telefonoTable)
+                display: block!important
+            .elementsCheck
+                gap: 10px
+                .element
+                    margin-bottom: 0px!important
+                    .info
+                        margin-bottom: 0px!important
         .innerSectionElement.sct0
             margin-bottom: 50px
             @include responsivo(telefonoTable)
@@ -454,7 +481,7 @@ img
                                 @include responsivo(telefonoTable)
                                     margin-bottom: 0
                                     height: 197px
-                                    width: 350px
+                                    width: 320px
                                     margin-bottom: 25px
                                     margin: 0 auto
                                 @include responsivo(pcMedio)
@@ -512,6 +539,8 @@ img
                         @include responsivo(smallPcTablet)
                             gap: 14px
                             flex-wrap: wrap
+                        @include responsivo(telefonoTable)
+                            display: none
                         @include responsivo(pcMedio)
                             display: none
                         p

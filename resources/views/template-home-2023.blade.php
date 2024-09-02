@@ -175,7 +175,63 @@
                                     </div>
                                 </div>
                             </div>
+                            <section class="innerSectionElement sct2 innerMobile">
 
+                                <div class="containElements">
+
+                                    @php
+                                    $elements = [
+                                    [
+                                    'text' => '
+                                    Personalizamos el CRM a tus <br class="D_e">
+                                    necesidades en 10 días
+                                    ',
+                                    ],
+                                    [
+                                    'text' => '
+                                    Te entrenamos en una metodología <br class="D_e">
+                                    probada para escalar ventas
+                                    ',
+                                    ],
+                                    [
+                                    'text' => '
+                                    Recibe guía 1:1 para <br class="D_e">
+                                    optimizar resultados
+                                    ',
+                                    ],
+                                    ];
+                                    @endphp
+
+
+                                    <div class="elementsCheck">
+
+                                        @foreach ($elements as $item)
+                                        <div class="element">
+
+                                            <div class="info">
+
+                                                <div class="icon">
+
+                                                    <div class="containerImage">
+                                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon_check_orange.png') }}"
+                                                            loading="lazy">
+                                                    </div>
+                                                </div>
+
+                                                <p class="text">
+                                                    {!! $item['text'] !!}
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        @endforeach
+
+                                    </div>
+
+
+                                </div>
+
+                            </section>
                             <div class="form7 col-md-12 col-lg-3 ">
 
                                 <div class="containElements">
@@ -216,7 +272,7 @@
 
                     </section>
 
-                    <section class="innerSectionElement sct2">
+                    <section class="innerSectionElement sct2 ">
 
                         <div class="containElements">
 
@@ -279,7 +335,8 @@
 
                             </div>
                             <div class="containArticle_mobile">
-                                    <p>Destacado en:</p>
+                                <p>Destacado en:</p>
+                                <div class="containArticle_mobile_img">
                                     <div class="containerImage">
                                         <a target="_blank" href="https://forbes.co/2024/08/08/emprendedores/fundador-de-openenglish-y-su-antiguo-cfo-recaudan-us12-millones-para-un-crm-de-pymes">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/lg_forbes.png') !!}" loading="lazy"></a>
@@ -298,6 +355,7 @@
                                         <a target="_blank" href="https://www.valoraanalitik.com/escala-fundada-por-lider-de-open-english-levanta-us12-millones-para-impulsar-pymes-en-colombia/"> <img src="{!! App::setFilePath('/assets/images/illustrations/others/lg_valora.png') !!}" loading="lazy"> </a>
                                     </div>
                                 </div>
+                            </div>
                             <div class="elementsCheck">
 
                                 @foreach ($elements as $item)
