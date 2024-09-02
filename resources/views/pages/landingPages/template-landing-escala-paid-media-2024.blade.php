@@ -1,4 +1,4 @@
-<div id="landing_CRM_2024">
+<div id="landing_paid_media_2024">
 
     <div class="sections">
 
@@ -22,7 +22,7 @@
         ];
         @endphp
 
-        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_CRM_2024 landing_CRM_2024_0 ">
+        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_paid_media_2024 landing_paid_media_2024_0 ">
 
 
             <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-landing-crm-mejora01.svg') }}')" class="backgroundFull">
@@ -40,7 +40,7 @@
                                     <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
 
                                         <div class="containerImage">
-                                            <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta" src="{{ App::setFilePath('/assets/images/person/am/landing_crm_mejora_am_1.png') }}" loading="lazy">
+                                            <img alt="Imagen Andrea Y Vanesa Escala " src="{{ App::setFilePath('/assets/images/illustrations/others/andrea-vanesa-img.png') }}" loading="lazy">
                                         </div>
 
                                     </div>
@@ -113,9 +113,9 @@
                                             personalizado de Escala</h5>
 
 
-                               
-                                            <div id="form-container">
-                                            <div id="form-1" >
+
+                                        <div id="form-container">
+                                            <div id="form-1">
                                                 @php
                                                 $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
                                                 $_rs = [];
@@ -183,9 +183,6 @@
                                                     });
                                                 });
                                             });
-
-
-
                                         </script>
                                     </div>
 
@@ -196,7 +193,7 @@
 
                                 <div class="image">
                                     <div class="containerImage">
-                                        <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta" src="{{ App::setFilePath('/assets/images/person/am/landing_crm_mejora_am_1.png') }}" loading="lazy">
+                                        <img alt="Imagen Andrea Y Vanesa Escala " src="{{ App::setFilePath('/assets/images/illustrations/others/andrea-vanesa-img.png') }}" loading="lazy">
                                     </div>
 
                                 </div>
@@ -252,7 +249,7 @@
 
 
 
-        <section class="w-full customSection sectionParent landing_CRM_2024_1">
+        <section class="w-full customSection sectionParent landing_paid_media_2024_1">
             <div class="section-row">
                 <section class="innerSectionElement sct0 ">
                     <div class="containElements">
@@ -271,7 +268,7 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_8',
+                        'classSection' => 'landing_paid_media_2024_8',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
@@ -331,7 +328,7 @@
 
 
 
-        <section class="customSection sectionParent landing_CRM_2024_1_0">
+        <section class="customSection sectionParent landing_paid_media_2024_1_0">
             <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-landing-crm-mejora02.svg') }}')" class="backgroundFull">
                 <div class="section-row">
 
@@ -421,7 +418,7 @@
 
 
 
-        <section class="w-full customSection sectionParent landing_CRM_2024_1_1">
+        <section class="w-full customSection sectionParent landing_paid_media_2024_1_1">
             <div class="section-row">
                 <section class="innerSectionElement sct0 ">
                     <div class="containElements">
@@ -441,7 +438,7 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_2',
+                        'classSection' => 'landing_paid_media_2024_2',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
@@ -478,7 +475,7 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_3',
+                        'classSection' => 'landing_paid_media_2024_3',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
@@ -510,7 +507,7 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_4',
+                        'classSection' => 'landing_paid_media_2024_4',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
@@ -571,7 +568,7 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_5',
+                        'classSection' => 'landing_paid_media_2024_5',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
@@ -608,7 +605,7 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_6',
+                        'classSection' => 'landing_paid_media_2024_6',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
@@ -639,7 +636,7 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_7',
+                        'classSection' => 'landing_paid_media_2024_7',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
@@ -688,14 +685,14 @@
 
 
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-landing-crm-mejora03.svg') !!})" class="customSection sectionParent landing_CRM_2024_9">
+        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-landing-crm-mejora03.svg') !!})" class="customSection sectionParent landing_paid_media_2024_9">
             <div class="section-row">
                 <div class="containElements">
 
                     @php
                     $parameters = [
                     'type' => 'backgroundColor',
-                    'classSection' => 'landing_CRM_2024_9',
+                    'classSection' => 'landing_paid_media_2024_9',
                     'enableTitle' => true,
                     'titlePrincipal' => '
                     Descubre el poder de tener todas las
@@ -789,7 +786,7 @@
         </section>
 
 
-        <section class="customSection sectionParent landing_CRM_2024_9_1 ">
+        <section class="customSection sectionParent landing_paid_media_2024_9_1 ">
 
             <div class="section-row">
 
@@ -1021,7 +1018,7 @@
 
         {{-- @php
             $parameters = [
-                'classSection' => 'landing_CRM_2024_11',
+                'classSection' => 'landing_paid_media_2024_11',
                 'enableTitle' => true,
                 'titlePrincipal' => '
                 Lo que dicen nuestros clientes <br class="space">
@@ -1048,9 +1045,9 @@
         @reviews_sliders_T1($parameters)
         @endreviews_sliders_T1 --}}
 
-        <section class='w-full customSection sectionParent landing_CRM_2024_11'>
+        <section class='w-full customSection sectionParent landing_paid_media_2024_11'>
 
-              <div class="section-row">
+            <div class="section-row">
 
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
@@ -1064,24 +1061,24 @@
                 <section class='innerSectionElement sct1 '>
                     <div class='containElements'>
 
-                            <div class="review r1">
-                                <div class="containerImage">
-                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1.png') }}" loading="lazy">
-                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1_m.png') }}" loading="lazy">
-                                </div>
+                        <div class="review r1">
+                            <div class="containerImage">
+                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1.png') }}" loading="lazy">
+                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1_m.png') }}" loading="lazy">
                             </div>
-                            <div class="review r2">
-                                <div class="containerImage">
-                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2.png') }}" loading="lazy">
-                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2_m.png') }}" loading="lazy">
-                                </div>
+                        </div>
+                        <div class="review r2">
+                            <div class="containerImage">
+                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2.png') }}" loading="lazy">
+                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2_m.png') }}" loading="lazy">
                             </div>
-                            <div class="review r3">
-                                <div class="containerImage">
-                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3.png') }}" loading="lazy">
-                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3_m.png') }}" loading="lazy">
-                                </div>
+                        </div>
+                        <div class="review r3">
+                            <div class="containerImage">
+                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3.png') }}" loading="lazy">
+                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3_m.png') }}" loading="lazy">
                             </div>
+                        </div>
 
                     </div>
 
@@ -1092,7 +1089,7 @@
 
 
 
-        <section class="customSection sectionParent landing_CRM_2024_10">
+        <section class="customSection sectionParent landing_paid_media_2024_10">
 
             <div class="section-row">
 
@@ -1141,7 +1138,7 @@
 
 
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_CRM_3.1.svg') !!})" class='w-full customSection sectionParent landing_CRM_2024_13'>
+        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_CRM_3.1.svg') !!})" class='w-full customSection sectionParent landing_paid_media_2024_13'>
 
             <div class="section-row">
 
@@ -1161,7 +1158,7 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_13_1',
+                        'classSection' => 'landing_paid_media_2024_13_1',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
