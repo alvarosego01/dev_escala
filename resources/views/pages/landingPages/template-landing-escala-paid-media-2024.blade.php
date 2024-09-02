@@ -49,7 +49,7 @@
                                         <h1 class="principalBigTitle blackColor">
 
                                             El CRM con IA, WhatsApp <br class="space">
-                                            y herramientas de marketing
+                                            y herramientas de marketing<br class="space">
                                             <span>
                                                 integradas para vender más y mejor
                                                 <br class="space">
@@ -272,7 +272,7 @@
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/person/landing-crm-mejora-hombre1.png'),
+                        'img' => App::setFilePath('/assets/images/person/paid-media-landing-girl.png'),
                         'title' => '
                         <span>Un CRM </span> le permite a tu negocio:
                         ',
@@ -716,7 +716,7 @@
                     ],
                     [
                     'img_alt' => null,
-                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_ai.png'),
+                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_paid_media_crm.png'),
                     'title' => 'Inteligencia<br class="space">
                     Artificial
                     ',
@@ -741,7 +741,7 @@
                     [
                     'img_alt' => null,
                     'img' => App::setFilePath(
-                    '/assets/images/illustrations/others/icon_crm_landing.png',
+                    '/assets/images/illustrations/others/icon_landing_page_paid_media.png',
                     ),
                     'title' => 'Landing<br class="space"> Pages
                     ',
@@ -756,7 +756,7 @@
                     ],
                     [
                     'img_alt' => null,
-                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_ads.png'),
+                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_paid_media_anuncios.png'),
                     'title' => 'Anuncios<br class="space"> digitales
                     ',
                     'enableButton' => false,
@@ -764,7 +764,7 @@
                     [
                     'img_alt' => null,
                     'img' => App::setFilePath(
-                    '/assets/images/illustrations/others/icon_crm_reportes.png',
+                    '/assets/images/illustrations/others/icon_paid_media_reportes.png',
                     ),
                     'title' => 'Reportes<br class="space"> personalizados
                     ',
@@ -809,8 +809,8 @@
                             <div class="col-md-12 col-lg-4 cardParent column-1">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_crm_top_card.svg') !!})" class="top-pill">
-                                            Gerente de <br class="space">Éxito
+                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_paid_media_top_card.svg') !!})" class="top-pill">
+                                        Gerente de Éxito <br class="space">asignado
                                         </div>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/crm_2024_img_01.png') !!}" loading="lazy">
 
@@ -852,7 +852,7 @@
                             <div class="col-md-12 col-lg-4 cardParent column-2">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_crm_top_card.svg') !!})" class="top-pill">
+                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_paid_media_top_card.svg') !!})" class="top-pill">
                                             Especialista de <br class="space"> Implementación
 
                                         </div>
@@ -894,7 +894,7 @@
                             <div class="col-md-12 col-lg-4 cardParent column-3">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_crm_top_card.svg') !!})" class="top-pill">
+                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_paid_media_top_card.svg') !!})" class="top-pill">
                                             Soporte Técnico <br class="space"> en vivo por chat
                                         </div>
                                         <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/crm_2024_img_03.png') !!}" loading="lazy">
@@ -933,7 +933,7 @@
                             <div class="col-md-12 col-lg-4 cardParent column-4">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_crm_top_card.svg') !!})" class="top-pill">
+                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_paid_media_top_card.svg') !!})" class="top-pill">
                                             Servicio de <br class="space"> Personalización
                                         </div>
                                         <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/crm_2024_img_04.png') !!}" loading="lazy">
@@ -967,7 +967,7 @@
                             <div class="col-md-12 col-lg-4 cardParent column-5">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_crm_top_card.svg') !!})" class="top-pill">
+                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_paid_media_top_card.svg') !!})" class="top-pill">
                                             Capacitación a<br class="space"> Líderes y Vendedores
                                         </div>
                                         <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/crm_2024_img_05.png') !!}" loading="lazy">
@@ -1003,15 +1003,15 @@
                         </div>
                     </div>
 
-                </section>
-            </div>
-
-        </section>
-        <div class="btnCenter">
+                </section>        <div class="btnCenter">
             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                 Conocer más
             </a>
         </div>
+            </div>
+    
+
+        </section>
 
 
 
@@ -1045,186 +1045,7 @@
         @reviews_sliders_T1($parameters)
         @endreviews_sliders_T1 --}}
 
-        <section class='w-full customSection sectionParent landing_paid_media_2024_11'>
 
-            <div class="section-row">
-
-                <section class='innerSectionElement sct0 '>
-                    <div class='containElements'>
-                        <h2 class="primaryTitle">
-                            <span>Lo que dicen nuestros clientes</span> <br class="space">
-                            sobre el CRM de Escala:
-                        </h2>
-                    </div>
-
-                </section>
-                <section class='innerSectionElement sct1 '>
-                    <div class='containElements'>
-
-                        <div class="review r1">
-                            <div class="containerImage">
-                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1.png') }}" loading="lazy">
-                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1_m.png') }}" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="review r2">
-                            <div class="containerImage">
-                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2.png') }}" loading="lazy">
-                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2_m.png') }}" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="review r3">
-                            <div class="containerImage">
-                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3.png') }}" loading="lazy">
-                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3_m.png') }}" loading="lazy">
-                            </div>
-                        </div>
-
-                    </div>
-
-                </section>
-            </div>
-
-        </section>
-
-
-
-        <section class="customSection sectionParent landing_paid_media_2024_10">
-
-            <div class="section-row">
-
-
-                <section class="innerSectionElement sct2">
-                    {{-- style="background-image: url({!! App::setFilePath('/assets/images/banners/am_overlay_email-mkt.png') !!})"  --}}
-                    <img src="{!! App::setFilePath('/assets/images/banners/bg_landing_CRM_2.svg') !!}" alt="" class="overlay">
-
-                    <div class="containElements">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-5 column-img">
-                                <div class="img-container">
-                                    <img src="{!! App::setFilePath('/assets/images/person/am/landing_crm_am_2.png') !!}" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-lg-7 column-text">
-                                <p>
-                                    <span>
-                                        “El CRM es el corazón de las operaciones
-                                        <br class="space">
-                                        de todo negocio.
-                                    </span>
-                                    Diseñamos Escala para
-                                    <br class="DT_e">
-                                    facilitarle a pequeñas y medianas empresas
-                                    <br class="DT_e">
-                                    tener una cultura cliente-céntrica y
-                                    <br class="DT_e">
-                                    optimizar resultados de venta/servicio”.
-                                    <br class="space">
-                                    <br class="space">
-                                    <span class="sub">
-                                        Andrés Moreno <br class="space">
-                                        <small>Fundador de Escala & Open English</small>
-                                    </span>
-
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-
-        </section>
-
-
-
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_CRM_3.1.svg') !!})" class='w-full customSection sectionParent landing_paid_media_2024_13'>
-
-            <div class="section-row">
-
-                <section class='innerSectionElement sct0 '>
-                    <div class='containElements'>
-
-                        <h2 class="primaryTitle">
-                            Empezar a escalar tu negocio <br class="space">
-                            <span> es muy sencillo:</span>
-                        </h2>
-
-                    </div>
-                </section>
-
-                <section class='innerSectionElement sct1 '>
-                    <div class='containElements'>
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'landing_paid_media_2024_13_1',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'overlay' => false,
-                        'enableButton' => false,
-                        'elements' => [
-                        [
-                        'img_alt' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/illustrations/others/landing_crm_form.png',
-                        ),
-                        'title' => '
-                        <span>Inscríbete en el formulario</span>
-                        <br class="DT_e">
-                        y un especialista te
-                        <br class="DT_e">
-                        contactará
-                        ',
-                        'enableButton' => false,
-                        ],
-                        [
-                        'img_alt' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/illustrations/others/landing_crm_form_tour.png',
-                        ),
-                        'title' => '
-                        <span> Recibe un tour
-                            <br class="DT_e">
-                            personalizado</span> y gratuito
-                        <br class="DT_e">
-                        por la plataforma
-                        ',
-                        'enableButton' => false,
-                        ],
-                        [
-                        'img_alt' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/illustrations/others/landing_crm_form_plan.png',
-                        ),
-                        'title' => '
-                        <span>Escoge el plan que se <br class="DT_e">
-                            adapte a tu empresa</span> <br class="DT_e">
-                        y empieza a mejorar <br class="DT_e">
-                        tus resultados
-                        ',
-                        'enableButton' => false,
-                        ],
-                        ],
-                        ];
-                        @endphp
-
-                        @contain_multiple_cards_T2($parameters)
-                        @endcontain_multiple_cards_T2
-
-
-
-                    </div>
-                </section>
-
-            </div>
-            <div class="btnCenter">
-                <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Empezar ahora
-                </a>
-            </div>
-        </section>
 
     </div>
 </div>
