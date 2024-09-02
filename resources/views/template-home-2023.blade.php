@@ -175,7 +175,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <section class="innerSectionElement sct2 innerMobile">
+                            <section class="innerSectionElement sct3 innerMobile">
 
                                 <div class="containElements">
 
