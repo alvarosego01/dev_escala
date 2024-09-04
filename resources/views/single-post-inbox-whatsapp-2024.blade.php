@@ -196,8 +196,8 @@
 
         </section>
 
-        <section class="w-full customSection sectionParent single_blog_inbox_whatsapp_2024_1_1"  style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_inbox_whatsapp_sect_5.svg') }}')" class="backgroundFull">
-            <div class="section-row" style="background: red;">
+        <section class="w-full customSection sectionParent single_blog_inbox_whatsapp_2024_1_1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_inbox_whatsapp_sect_5.svg') }}')" class="backgroundFull">
+            <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
                         <div class="info">
@@ -327,7 +327,7 @@
                     </div>
                 </section>
 
-                <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-article-especial.svg') }}')" class="backgroundFull">
+                <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_inbox_whatsapp_sect_6.svg') }}')" class="backgroundFull">
                     <div class="containElements">
                         <div class="containerImage">
                             <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-6.png') }}" alt="">
@@ -335,20 +335,23 @@
                     </div>
 
                 </section>
-                <section class="innerSectionElement sct2" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-article-especial.svg') }}')" class="backgroundFull">
+                <section class="innerSectionElement sct2">
                     <div class="containElements">
-
                         <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-3.png') }}" alt="">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp_section_7.png') }}" alt="">
                         </div>
-                        <h3>¿Qué más puedes hacer con la app móvil de Escala?</h3>
-                        <p>
-                            En la app móvil de Escala también tienes acceso al CRM de Escala para que puedas guardar contactos, gestionar procesos comerciales y visualizar resultados de tu equipo de venta.
-
-                            Tener WhatsApp Inbox y el CRM en tu celular, integrados en una misma plataforma, es contar con una ventaja operativa importante ¡para aumentar la eficiencia de tus procesos comerciales! </p>
-
+                        <div class="info">
+                            <h3>¿Qué más puedes hacer con la app móvil de Escala?</h3>
+                            <p>
+                                En la app móvil de Escala también tienes acceso al CRM de Escala para
+                                que puedas guardar contactos, gestionar procesos comerciales y visualizar resultados de tu equipo de venta.
+                                <br><br>
+                                Tener WhatsApp Inbox y el CRM en tu celular, integrados en una misma plataforma, es
+                                contar con una ventaja operativa
+                                importante ¡para aumentar la eficiencia de tus procesos comerciales!
+                            </p>
+                        </div>
                     </div>
-
                 </section>
 
                 <section class="innerSectionElement sct3">
@@ -358,7 +361,7 @@
                     </p>
 
                     <div class="containerImage">
-                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-4.png') }}" alt="">
+                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-8.png') }}" alt="">
                     </div>
                 </section>
 
