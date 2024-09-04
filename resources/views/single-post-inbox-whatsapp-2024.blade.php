@@ -8,9 +8,7 @@
 @section('content')
 <div id="single_blog_inbox_whatsapp_2024" class="post-template">
 
-
     <div class="sections">
-
 
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol single_blog_inbox_whatsapp_2024_0 ">
 
@@ -29,51 +27,16 @@
                                     <div class="ele ele2 col-md-12 col-lg-7">
 
                                         <h1 class="principalBigTitle blackColor">
-                                            <span>
-                                                Ahora puedes conversar y <br class="space">
-                                                gestionar los WhatsApps de tu <br class="space">
-                                                negocio desde la app móvil del <br class="space">
-                                                CRM de Escala
+                                            Ahora puedes conversar y <br class="space">
+                                            gestionar los WhatsApps de tu <br class="space">
+                                            negocio desde la app móvil del <br class="space">
+                                            CRM de Escala
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
                                             Conoce qué es y para qué sirve el WhatsApp <br class="space">
                                             Inbox en tu celular.
                                         </p>
-
-
-
-
-                                        <div class="elements hideOnmobile hideOnTablet">
-
-                                            @foreach ($elementsReviews as $item)
-                                            <div class="refersElement">
-
-                                                <div class="infoInner">
-                                                    <div class="tag">
-                                                        <div class="containerImage">
-                                                            <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                        </div>
-
-                                                        <span class="points">
-                                                            {!! $item['points'] !!}
-                                                        </span>
-                                                    </div>
-                                                    <p class="text">
-                                                        {!! $item['text'] !!}
-                                                    </p>
-                                                    <div class="stars">
-                                                        <div class="containerImage">
-                                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-                                            @endforeach
-
-                                        </div>
 
                                     </div>
 
@@ -87,8 +50,6 @@
 
                                 </div>
 
-
-
                             </div>
                             <div class="form7 col-md-12 col-lg-4 ">
 
@@ -96,8 +57,7 @@
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor">Recibe un demo-tour <br class="space">
-                                            personalizado de Escala</h5>
+                                        <h5 class="titleFormat blackcolor">¡Reserva tu espacio!</h5>
 
 
                                         @php
@@ -131,42 +91,7 @@
                                     </div>
 
                                 </div>
-
-                                <div class="elements">
-
-                                    @foreach ($elementsReviews as $item)
-                                    <div class="refersElement">
-
-                                        <div class="infoInner">
-                                            <div class="tag">
-                                                <div class="containerImage">
-                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                </div>
-
-                                                <span class="points">
-                                                    {!! $item['points'] !!}
-                                                </span>
-                                            </div>
-                                            <p class="text">
-                                                {!! $item['text'] !!}
-                                            </p>
-                                            <div class="stars">
-                                                <div class="containerImage">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                    @endforeach
-
-                                </div>
-
                             </div>
-
-
-
 
 
                         </div>
@@ -199,47 +124,41 @@
                 </section>
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
-
                         <h3>Índice de contenido</h3>
                         <br>
-
-
-
-
-
-                        <ul>
+                        <ol>
                             <li>¿Qué es WhatsApp Inbox en la app móvil de Escala?</li>
                             <li> ¿Qué puedes lograr con esta herramienta?</li>
                             <li> Funciones Claves</li>
-                            <li> 2 Casos de uso ejemplo</li>
+                            <li> Casos de uso ejemplo</li>
                             <li> ¿Qué más puedes hacer con la app móvil de Escala?</li>
                             <li>¿Qué pasos seguir para empezar a usarlo?</li>
-                        </ul>
+                        </ol>
                     </div>
 
                 </section>
-                <section class="innerSectionElement sct2" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-article-especial.svg') }}')" class="backgroundFull">
+                <section class="innerSectionElement sct2">
                     <div class="containElements">
-
                         <div class="containerImage">
                             <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-3.png') }}" alt="">
                         </div>
-                        <h2>¿Qué es el WhatsApp Inbox en la app móvil de Escala?</h2>
-                        <p>
-                            Si ya eres usuario del módulo de WhatsApp Inbox de Escala, conoces bien sus ventajas:
-                        </p>
-                        <ul>
-                            <li>Centralizar todas las comunicaciones de WhatsApp de tu negocio en un solo lugar</li>
-                            <li>Automatizar respuestas y crear flujos para que la comunicación con tus leads/clientes sea más eficiente</li>
-                            <li>Monitorear todas las conversaciones de tu equipo de trabajo con tus leads/clientes</li>
-                            <li>Y mucho mas!</li>
-                        </ul>
+                        <div class="info">
+                            <h3>¿Qué es el WhatsApp Inbox en la app móvil de Escala?</h3>
+                            <p>
+                                Si ya eres usuario del módulo de WhatsApp Inbox de Escala, conoces bien sus ventajas:
+                            </p>
+                            <ul>
+                                <li>Centralizar todas las comunicaciones de WhatsApp de tu negocio en un solo lugar</li>
+                                <li>Automatizar respuestas y crear flujos para que la comunicación con tus leads/clientes sea más eficiente</li>
+                                <li>Monitorear todas las conversaciones de tu equipo de trabajo con tus leads/clientes</li>
+                                <li>Y mucho mas!</li>
+                            </ul>
+                        </div>
                     </div>
-
                 </section>
 
                 <section class="innerSectionElement sct3">
-                    <h2>¡Ahora, con WhatsApp Inbox en el app móvil de Escala, puedes aprovechar todas estos beneficios desde tu celular!</h2>
+                    <h3>¡Ahora, con WhatsApp Inbox en el app móvil de Escala, puedes aprovechar todas estos beneficios desde tu celular!</h3>
                     <p class="pBlue">
                         Si aún no estás usando WhatsApp Inbox en Escala, puedes contactar a tu gerente de éxito o hacer click aquí para comenzar a aprovechar esta funcionalidad.
                     </p>
@@ -253,7 +172,7 @@
                     <div class="containElements">
 
 
-                        <h2>¿Qué puedes lograr con esta herramienta?</h2>
+                        <h3>¿Qué puedes lograr con esta herramienta?</h3>
                         <p>
                             Con WhatsApp Inbox en la app móvil, puedes alcanzar un nuevo nivel de eficiencia en la gestión
                             de relaciones con leads y clientes. Puedes recibir y responder mensajes sin importar dónde estés,
@@ -277,7 +196,7 @@
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
                         <div class="info">
-                            <h2>Funciones claves: </h2>
+                            <h3>Funciones claves: </h3>
                             <p>
                                 Desde WhatsApp Inbox en tu celular:
                             </p>
@@ -338,7 +257,7 @@
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
                         <div class="info">
-                            <h2>Caso de uso ejemplo: <span>Vendedores en la calle</span></h2>
+                            <h3>Caso de uso ejemplo: <span>Vendedores en la calle</span></h3>
 
                             <ul>
                                 <li> <span>Problema: </span>Una empresa de Bienes Raíces tiene agentes que visitan múltiples terrenos y/o residencias de clientes un mismo día para cerrar ventas. Los agentes tienen que esperar hasta llegar a una computadora al final del día para registrar todo lo ocurrido en el CRM. Esto aumenta el riesgo de perder u olvidarse de información valiosa que afecte el seguimiento, gestión y conversión de oportunidades.
@@ -367,7 +286,7 @@
                         <div class="containerImage">
                             <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-3.png') }}" alt="">
                         </div>
-                        <h2>¿Qué más puedes hacer con la app móvil de Escala?</h2>
+                        <h3>¿Qué más puedes hacer con la app móvil de Escala?</h3>
                         <p>
                             En la app móvil de Escala también tienes acceso al CRM de Escala para que puedas guardar contactos, gestionar procesos comerciales y visualizar resultados de tu equipo de venta.
 
@@ -378,7 +297,7 @@
                 </section>
 
                 <section class="innerSectionElement sct3">
-                    <h2>¡Ahora, con WhatsApp Inbox en el app móvil de Escala, puedes aprovechar todas estos beneficios desde tu celular!</h2>
+                    <h3>¡Ahora, con WhatsApp Inbox en el app móvil de Escala, puedes aprovechar todas estos beneficios desde tu celular!</h3>
                     <p class="pBlue">
                         Si aún no estás usando WhatsApp Inbox en Escala, puedes contactar a tu gerente de éxito o hacer click aquí para comenzar a aprovechar esta funcionalidad.
                     </p>
@@ -392,8 +311,8 @@
 
                     <div class="containElements">
 
-                        <h2>¿Qué pasos seguir para empezar a usar el
-                            WhatsApp Inbox en la app móvil de Escala?</h2>
+                        <h3>¿Qué pasos seguir para empezar a usar el
+                            WhatsApp Inbox en la app móvil de Escala?</h3>
                         <p>
                             ¿Listo para aprovechar sus beneficios?
 
