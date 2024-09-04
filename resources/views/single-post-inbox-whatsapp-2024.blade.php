@@ -27,9 +27,9 @@
                                     <div class="ele ele2 col-md-12 col-lg-7">
 
                                         <h1 class="principalBigTitle blackColor">
-                                            Ahora puedes conversar y <br class="space">
-                                            gestionar los WhatsApps de tu <br class="space">
-                                            negocio desde la app móvil del <br class="space">
+                                            Ahora puedes conversar y <br class="DT_e">
+                                            gestionar los WhatsApps de tu <br class="DT_e">
+                                            negocio desde la app móvil del <br class="DT_e">
                                             CRM de Escala
                                         </h1>
 
@@ -371,11 +371,11 @@
                             <ol>
                                 <li>
                                     Suscríbete al plan pro de Escala con WhatsApp API.
-                                    Si aún no eres cliente <a>¡Haz click aquí para recibir un demo
+                                    Si aún no eres cliente <a class="openPopUpButton popup-general-demo-2022">¡Haz click aquí para recibir un demo
                                         o hablar con un asesor!</a>
                                 </li>
-                                <li>Conecta tu cuenta de WhatsApp a Escala. ¿Necesitas apoyo?<a> Comunícate con nuestro equipo de soporte</a> </li>
-                                <li>Descarga la app móvil del CRM de Escala desde la tienda de aplicaciones en tu celular. ¿Cómo?<a> Ve este corto tutorial</a> </li>
+                                <li>Conecta tu cuenta de WhatsApp a Escala. ¿Necesitas apoyo?<a href="https://api.whatsapp.com/send?phone=17863042407" target="_blank"> Comunícate con nuestro equipo de soporte</a> </li>
+                                <li>Descarga la app móvil del CRM de Escala desde la tienda de aplicaciones en tu celular. ¿Cómo?<a href="https://support.escala.com/portal/es/kb/articles/gestionar-mensajes-en-el-inbox-desde-app-movil-de-escala"  target="_blank"> Ve este corto tutorial</a> </li>
                                 <li>¡Empieza a utilizarla!</li>
                             </ol>
                         </div>
