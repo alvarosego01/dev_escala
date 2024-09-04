@@ -620,7 +620,7 @@
     flex-direction: center
     justify-content: center
     justify-items: center
-    padding: 150px 0px
+    padding: 90px 0px
     @include responsivo(telefonoTable)
         padding: 25px 0
         margin-top: -20px
@@ -746,7 +746,7 @@
     flex-direction: center
     justify-content: center
     justify-items: center
-    padding-bottom: 75px
+    padding-bottom: 0px
     @include responsivo(telefonoTable)
         padding: 25px 0
         padding-bottom: 55px
@@ -882,54 +882,38 @@
 
 
 
+        
         .innerSectionElement.sct3
-            position: relative
-            @include responsivo(telefonoTable)
-                width: 90%
-                padding: 0
-            @include responsivo(pcMedio)
-                width: 90%
-                padding: 0px
-            @include responsivo(general)
-                width: 90%!important
-                max-width: 900px!important
-                padding: 0px
-            @include responsivo(smallPcTablet)
-                max-width: 900px!important
-            @include responsivo(resto)
-                width: 90%!important
-                max-width: 900px!important
-            border-radius: 14px
-            margin: 0px auto 70px auto
+            margin: 70px auto
+            background-repeat: no-repeat
+            background-size: auto
+            background-position: center 107px
+            padding-bottom: 0px
             .containElements
+                position: relative
+                margin: 0 auto
+                padding: 20px 0px 
+                @include responsivo(telefonoTable)
+                    width: 90%
+                    padding: 0
+                @include responsivo(pcMedio)
+                    width: 90%
+                    padding: 0px
+                @include responsivo(general)
+                    width: 90%!important
+                    max-width: 900px!important
+                    padding: 0px
+                @include responsivo(smallPcTablet)
+                    max-width: 900px!important
+                @include responsivo(resto)
+                    width: 90%!important
+                    max-width: 900px!important
                 display: flex
                 align-items: center
-                padding: 30px 0px 0px 0px
                 @include responsivo(telefonoTable)
                     flex-direction: column-reverse
-                .containerImage
-                    margin: 0px
-                    margin-right: 40px
-                    padding: 0px
-                    position: relative
-                    @include responsivo(telefonoTable)
-                        top: 0
-                    @include responsivo(pcMedio)
-                        top: 16px
-                    img
-                        height: 390px
-                        @include responsivo(telefonoTable)
-                            height: 280px
-                        @include responsivo(pcMedio)
-                            height: 280px
-                .info
-                    h3
-                        color: #34768A
-                        font-size: 24px
-                        font-weight: 700
-                        margin-bottom: 20px
-
-                    p
+                .info-second
+                    p,span
                         font-size: 20px
                         font-style: normal
                         font-weight: 500
@@ -944,15 +928,70 @@
                             font-size: 18px
                         @include responsivo(smallPcTablet)
                             font-size: 18px
-                    ul
+                    span
+                        color: #F34F36
+                        margin-bottom: 20px!important
+                    ol 
                         li
                             font-family: Nunito
                             font-size: 20px
+                            font-style: normal
                             font-weight: 500
                             line-height: 1.4
                             color: #706B6D
-                    ul li::marker 
+                            text-align: left
+                            @include responsivo(telefonoTable)
+                                font-size: 18px
+                            @include responsivo(pcMedio)
+                                font-size: 18px
+                            @include responsivo(smallPcTablet)
+                                font-size: 18px
+                            a
+                                text-decoration: underline
+                                text-decoration-thickness: 1px
+                    ol li::marker 
                         color: #F34F36
+
+
+                            
+                .containerImage
+                    margin: 0px
+                    margin-left: 80px
+                    padding: 0px
+                    position: relative
+                    @include responsivo(telefonoTable)
+                        top: 0
+                    @include responsivo(pcMedio)
+                        top: 16px
+                    img
+                        height:290px
+                        @include responsivo(telefonoTable)
+                            height: 280px
+                        @include responsivo(pcMedio)
+                            height: 280px
+
+            .info
+                text-align: center
+                h3
+                    color: #34768A
+                    font-size: 24px
+                    font-weight: 700
+                    margin-bottom: 20px
+                p
+                    font-size: 20px
+                    font-style: normal
+                    font-weight: 500
+                    line-height: 1.4
+                    color: #706B6D
+                    text-align: center
+                    margin-bottom: 20px
+                    @include responsivo(telefonoTable)
+                        font-size: 18px
+                        text-align: center
+                    @include responsivo(pcMedio)
+                        font-size: 18px
+                    @include responsivo(smallPcTablet)
+                        font-size: 18px
 
 
 
@@ -962,7 +1001,7 @@
     flex-direction: center
     justify-content: center
     justify-items: center
-    padding: 25px
+    padding: 0px 25px 25px 25px
     padding-bottom: 75px
     @include responsivo(telefonoTable)
         padding: 25px 0
@@ -1016,7 +1055,7 @@
                         text-align: center
                         align-items: center
                     h2
-                        color: #36768A
+                        color: #2C4857
                         font-size: 40px
                         font-style: normal
                         font-weight: 700
@@ -1027,28 +1066,17 @@
                         @include responsivo(pcMedio)
                             font-size: 35px
                         span
-                            color: #2C4857
-                    .btnWhatsapp
-                        color: #2C4857
-                        font-family: Nunito
-                        font-size: 18px
-                        font-style: normal
-                        font-weight: 600
-                        line-height: normal
-                        letter-spacing: -1px
-                        text-decoration-line: underline
-                        text-decoration-thickness: 1.3px!important
-                        cursor: pointer
-                        img
-                            margin-right: 8px
-
+                            color: #322C2E
+                            font-size: 23px
+                            font-weight: 500
+                            line-height: 1.2
+                            letter-spacing: -0.5px
                 .containerImage
-                    position: relative
-                    top: -35px
+                    margin-top: 30px!important
                     margin: 0px
                     padding: 0px
                     @include responsivo(telefonoTable)
                         top: 0
                     img
-                        height: 260px
+                        height: 230px
 

@@ -354,46 +354,33 @@
                     </div>
                 </section>
 
-                <section class="innerSectionElement sct3">
-                    <h3>¡Ahora, con WhatsApp Inbox en el app móvil de Escala, puedes aprovechar todas estos beneficios desde tu celular!</h3>
-                    <p class="pBlue">
-                        Si aún no estás usando WhatsApp Inbox en Escala, puedes contactar a tu gerente de éxito o hacer click aquí para comenzar a aprovechar esta funcionalidad.
-                    </p>
-
-                    <div class="containerImage">
-                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-8.png') }}" alt="">
-                    </div>
-                </section>
-
-                <section class="innerSectionElement sct4" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-article-especial.svg') }}')" class="backgroundFull">
-
-                    <div class="containElements">
-
-                        <h3>¿Qué pasos seguir para empezar a usar el
+                <section class="innerSectionElement sct3" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_inbox_whatsapp_sect_7.svg') }}')" class="backgroundFull">
+                    <div class="info">
+                        <h3>¿Qué pasos seguir para empezar a usar el<br class="space">
                             WhatsApp Inbox en la app móvil de Escala?</h3>
                         <p>
                             ¿Listo para aprovechar sus beneficios?
 
                         </p>
-                        <div>
-                            <div>
-                                Si ya estás suscrito al Plan Pro de Escala y tienes la app móvil descargada en tu celular, solo debes actualizarla.
-                                <p>De lo contrario:
-                                </p>
-                                <ul>
-                                    <li>
-                                        Suscríbete al plan pro de Escala con WhatsApp API.
-                                        Si aún no eres cliente ¡Haz click aquí para recibir un demo
-                                        o hablar con un asesor!
-                                    </li>
-                                    <li>Conecta tu cuenta de WhatsApp a Escala. ¿Necesitas apoyo? Comunícate con nuestro equipo de soporte</li>
-                                    <li>Descarga la app móvil del CRM de Escala desde la tienda de aplicaciones en tu celular. ¿Cómo? Ve este corto tutorial</li>
-                                    <li>¡Empieza a utilizarla!</li>
-                                </ul>
-                            </div>
-                            <div class="containerImage">
-                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-5.png') }}" alt="">
-                            </div>
+                    </div>
+                    <div class="containElements">
+                        <div class="info-second">
+                            <p>Si ya estás suscrito al Plan Pro de Escala y tienes la app móvil
+                                descargada en tu celular, solo debes actualizarla.</p>
+                            <span>De lo contrario:</span>
+                            <ol>
+                                <li>
+                                    Suscríbete al plan pro de Escala con WhatsApp API.
+                                    Si aún no eres cliente <a>¡Haz click aquí para recibir un demo
+                                    o hablar con un asesor!</a> 
+                                </li>
+                                <li>Conecta tu cuenta de WhatsApp a Escala. ¿Necesitas apoyo?<a> Comunícate con nuestro equipo de soporte</a> </li>
+                                <li>Descarga la app móvil del CRM de Escala desde la tienda de aplicaciones en tu celular. ¿Cómo?<a> Ve este corto tutorial</a> </li>
+                                <li>¡Empieza a utilizarla!</li>
+                            </ol>
+                        </div>
+                        <div class="containerImage">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-8.png') }}" alt="">
                         </div>
                     </div>
 
@@ -405,7 +392,7 @@
 
         <section class="customSection sectionParent single_blog_inbox_whatsapp_2024 single_blog_inbox_whatsapp_2024_2">
             <div class="section-row">
-                <section class="innerSectionElement sct0" style="background-image: url('{{ App::setFilePath('/assets/images/backgrounds/bg_banner_post_especial.svg') }}')">
+                <section class="innerSectionElement sct0" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_inbox_whatsapp_sect_8.svg') }}')">
                     <div class="containElements">
                         <div class="info">
                             <h2>Conoce más de Escala
@@ -417,7 +404,7 @@
                             </a>
                         </div>
                         <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/otto/otto-blog-especial.png') }}" alt="">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-9.png') }}" alt="">
                         </div>
                     </div>
                 </section>
