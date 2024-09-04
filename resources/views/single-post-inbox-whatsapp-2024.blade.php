@@ -127,17 +127,17 @@
                         <h3>Índice de contenido</h3>
                         <br>
                         <ol>
-                            <li>¿Qué es WhatsApp Inbox en la app móvil de Escala?</li>
-                            <li> ¿Qué puedes lograr con esta herramienta?</li>
-                            <li> Funciones Claves</li>
-                            <li> Casos de uso ejemplo</li>
-                            <li> ¿Qué más puedes hacer con la app móvil de Escala?</li>
-                            <li>¿Qué pasos seguir para empezar a usarlo?</li>
+                            <li><a href="#whatsappLink">¿Qué es WhatsApp Inbox en la app móvil de Escala?</a></li>
+                            <li><a href="#logrosLink"> ¿Qué puedes lograr con esta herramienta?</a></li>
+                            <li> <a href="#funcionesLink">Funciones Claves</a></li>
+                            <li> <a href="#usosLink">Casos de uso ejemplo</a></li>
+                            <li> <a href="#appLink">¿Qué más puedes hacer con la app móvil de Escala?</a></li>
+                            <li><a href="#pasosLink">¿Qué pasos seguir para empezar a usarlo?</a></li>
                         </ol>
                     </div>
 
                 </section>
-                <section class="innerSectionElement sct2">
+                <section class="innerSectionElement sct2" id="whatsappLink">
                     <div class="containElements">
                         <div class="containerImage">
                             <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-3.png') }}" alt="">
@@ -173,7 +173,7 @@
                 </section>
 
 
-                <section class="innerSectionElement sct4">
+                <section class="innerSectionElement sct4"  id="logrosLink">
                     <div class="containElements">
                         <div class="info">
                             <h3>¿Qué puedes lograr con esta herramienta?</h3>
@@ -186,7 +186,7 @@
                                 celular!
                             </p>
                         </div>
-                        <div class="containerImage">
+                        <div class="containerImage" id="funcionesLink">
                             <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-5.png') }}" alt="">
                         </div>
                     </div>
@@ -197,7 +197,7 @@
         </section>
 
         <section class="w-full customSection sectionParent single_blog_inbox_whatsapp_2024_1_1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_inbox_whatsapp_sect_5.svg') }}')" class="backgroundFull">
-            <div class="section-row">
+            <div class="section-row"  >
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
                         <div class="info">
@@ -304,7 +304,7 @@
 
         </section>
 
-        <section class="w-full customSection sectionParent single_blog_inbox_whatsapp_2024_2_0">
+        <section class="w-full customSection sectionParent single_blog_inbox_whatsapp_2024_2_0"  id="usosLink">
 
             <div class="section-row">
                 <section class="innerSectionElement sct0">
@@ -335,12 +335,12 @@
                     </div>
 
                 </section>
-                <section class="innerSectionElement sct2">
+                <section class="innerSectionElement sct2"  id="appLink">
                     <div class="containElements">
                         <div class="containerImage">
                             <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp_section_7.png') }}" alt="">
                         </div>
-                        <div class="info">
+                        <div class="info"  id="pasosLink">
                             <h3>¿Qué más puedes hacer con la app móvil de Escala?</h3>
                             <p>
                                 En la app móvil de Escala también tienes acceso al CRM de Escala para
@@ -354,7 +354,7 @@
                     </div>
                 </section>
 
-                <section class="innerSectionElement sct3" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_inbox_whatsapp_sect_7.svg') }}')" class="backgroundFull">
+                <section class="innerSectionElement sct3" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_inbox_whatsapp_sect_7.svg') }}')" class="backgroundFull" >
                     <div class="info">
                         <h3>¿Qué pasos seguir para empezar a usar el<br class="space">
                             WhatsApp Inbox en la app móvil de Escala?</h3>
@@ -372,7 +372,7 @@
                                 <li>
                                     Suscríbete al plan pro de Escala con WhatsApp API.
                                     Si aún no eres cliente <a>¡Haz click aquí para recibir un demo
-                                    o hablar con un asesor!</a> 
+                                        o hablar con un asesor!</a>
                                 </li>
                                 <li>Conecta tu cuenta de WhatsApp a Escala. ¿Necesitas apoyo?<a> Comunícate con nuestro equipo de soporte</a> </li>
                                 <li>Descarga la app móvil del CRM de Escala desde la tienda de aplicaciones en tu celular. ¿Cómo?<a> Ve este corto tutorial</a> </li>
