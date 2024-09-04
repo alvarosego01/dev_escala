@@ -158,33 +158,33 @@
                 </section>
 
 
-                <section class="innerSectionElement sct3">
-                <div class="containElements">
-                    <div class="info">
-                    <h3>¡Ahora, con WhatsApp Inbox en el app móvil de Escala, puedes aprovechar todas estos beneficios desde tu celular!</h3>
-                    <p class="pBlue">
-                        Si aún no estás usando WhatsApp Inbox en Escala, puedes contactar a tu gerente de éxito o hacer click aquí para comenzar a aprovechar esta funcionalidad.
-                    </p>
+                <section class="innerSectionElement sct3 " style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_inbox_whatsapp_sect_4.svg') }}')" class="backgroundFull">
+                    <div class="containElements">
+                        <div class="info">
+                            <h3>¡Ahora, con WhatsApp Inbox en el app móvil de Escala, puedes aprovechar todas estos beneficios desde tu celular!</h3>
+                            <p class="pBlue">
+                                Si aún no estás usando WhatsApp Inbox en Escala, puedes contactar a tu gerente de éxito o hacer click aquí para comenzar a aprovechar esta funcionalidad.
+                            </p>
+                        </div>
+                        <div class="containerImage">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-4.png') }}" alt="">
+                        </div>
                     </div>
-                    <div class="containerImage">
-                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-4.png') }}" alt="">
-                    </div>  
-                </div>
                 </section>
 
 
                 <section class="innerSectionElement sct4">
                     <div class="containElements">
-                    <div class="info">
-                        <h3>¿Qué puedes lograr con esta herramienta?</h3>
-                        <p>
-                            Con WhatsApp Inbox en la app móvil, puedes alcanzar un nuevo nivel de eficiencia en la gestión
-                            de relaciones con leads y clientes. Puedes recibir y responder mensajes sin importar dónde estés,
-                            ideal para vendedores que están en la calle visitando prospectos o clientes.
-                            También puedes coordinar a tu equipo, automatizar procesos claves y obtener datos valiosos
-                            que te ayudarán a optimizar tus resultados de marketing, ventas y servicios. ¡Todo desde tu
-                            celular!
-                        </p>
+                        <div class="info">
+                            <h3>¿Qué puedes lograr con esta herramienta?</h3>
+                            <p>
+                                Con WhatsApp Inbox en la app móvil, puedes alcanzar un nuevo nivel de eficiencia en la gestión
+                                de relaciones con leads y clientes. Puedes recibir y responder mensajes sin importar dónde estés,
+                                ideal para vendedores que están en la calle visitando prospectos o clientes.
+                                También puedes coordinar a tu equipo, automatizar procesos claves y obtener datos valiosos
+                                que te ayudarán a optimizar tus resultados de marketing, ventas y servicios. ¡Todo desde tu
+                                celular!
+                            </p>
                         </div>
                         <div class="containerImage">
                             <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-5.png') }}" alt="">
@@ -196,14 +196,14 @@
 
         </section>
 
-        <section class="w-full customSection sectionParent single_blog_inbox_whatsapp_2024_1_1">
-            <div class="section-row">
+        <section class="w-full customSection sectionParent single_blog_inbox_whatsapp_2024_1_1"  style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_inbox_whatsapp_sect_5.svg') }}')" class="backgroundFull">
+            <div class="section-row" style="background: red;">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
                         <div class="info">
                             <h3>Funciones claves: </h3>
                             <p>
-                                Desde WhatsApp Inbox en tu celular:
+                                Desde WhatsApp Inbox <span> en tu celular:</span>
                             </p>
                         </div>
                     </div>
@@ -211,47 +211,95 @@
                 </section>
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
-                        Recibe y responde todos los mensajes de WhatsApp de tu negocio, sin necesitar de una computadora.
-                        <img src="{{ App::setFilePath('/assets/images/gifs/3Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes-.gif') }}" alt="">
+                        <p>
+                            <span> Recibe y responde</span> todos los mensajes de WhatsApp
+                            <br class="space">
+                            de tu negocio, sin necesitar de una computadora.
+                        </p>
+
+                        <img src="{{ App::setFilePath('/assets/images/gifs/1.-Recibe-y-responde-todos-los-mensajes-de-WhatsApp.gif') }}" alt="">
                     </div>
 
                 </section>
                 <section class="innerSectionElement sct2">
                     <div class="containElements">
-                        <img src="{{ App::setFilePath('/assets/images/gifs/3Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes-.gif') }}" alt="">
-
-                        Recibe y responde todos los mensajes de WhatsApp de tu negocio, sin necesitar de una computadora.
+                        <img src="{{ App::setFilePath('/assets/images/gifs/2 - Asigna-conversaciones-a-los-distintos-miembros-de-tu-equipo - mp4.gif') }}" alt="">
+                        <p>
+                            <span>
+                                Asigna conversaciones</span> a los distintos miembros de tu
+                            <br class="space">equipo.
+                        </p>
                     </div>
                 </section>
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
-                        Recibe y responde todos los mensajes de WhatsApp de tu negocio, sin necesitar de una computadora.
-                        <img src="{{ App::setFilePath('/assets/images/gifs/3Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes-.gif') }}" alt="">
+                        <p>
+                            <span>Actualiza</span> información de contactos, oportunidades,
+                            <br class="space">
+                            actividades y tareas en base a las conversaciones por
+                            <br class="space">
+                            whatsapp.
+                        </p>
+
+                        <img src="{{ App::setFilePath('/assets/images/gifs/3 - Actualiza-información-de-contactos-mp4.gif') }}" alt="">
                     </div>
 
                 </section>
                 <section class="innerSectionElement sct2">
                     <div class="containElements">
-                        <img src="{{ App::setFilePath('/assets/images/gifs/3Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes-.gif') }}" alt="">
-
-                        Recibe y responde todos los mensajes de WhatsApp de tu negocio, sin necesitar de una computadora.
+                        <img src="{{ App::setFilePath('/assets/images/gifs/4 - Envía-archivos-desde-tu-celular-mp44 - Envía-archivos-desde-tu-celular-mp4.gif') }}" alt="">
+                        <p>
+                            <span>
+                                Envía archivos desde tu celular, </span> incluyendo imágenes,
+                            <br class="space">
+                            audios y PDFs
+                        </p>
                     </div>
                 </section>
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
-                        Recibe y responde todos los mensajes de WhatsApp de tu negocio, sin necesitar de una computadora.
-                        <img src="{{ App::setFilePath('/assets/images/gifs/3Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes-.gif') }}" alt="">
+                        <p>
+                            <span>
+                                Envía plantillas de Meta, imágenes y documentos
+                                <br class="space"> guardados en Escala.</span>
+                        </p>
+
+                        <img src="{{ App::setFilePath('/assets/images/gifs/5 - Envía-plantillas-de-Meta-mp4.gif') }}" alt="">
                     </div>
 
                 </section>
+
+
                 <section class="innerSectionElement sct2">
                     <div class="containElements">
-                        <img src="{{ App::setFilePath('/assets/images/gifs/3Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes-.gif') }}" alt="">
-
-                        Recibe y responde todos los mensajes de WhatsApp de tu negocio, sin necesitar de una computadora.
+                        <img src="{{ App::setFilePath('/assets/images/gifs/6 - Mantén-la-bandeja-de-entrada-organizada-mp4.gif') }}" alt="">
+                        <p>
+                            <span>
+                                Mantén la bandeja de entrada organizada</span> cerrando
+                            <br class="space">
+                            conversaciones finalizadas y marcando conversaciones
+                            <br class="space">
+                            como no leídas.
+                        </p>
                     </div>
                 </section>
-                <p>¡Y más!</p>
+
+                <section class="innerSectionElement sct1">
+                    <div class="containElements">
+                        <p>
+                            <span> Filtra y consigue lo que buscas rápidamente </span>según el
+                            <br class="space">
+                            status de las conversaciones, el dueño y el tiempo del
+                            <br class="space">
+                            último mensaje.
+                        </p>
+
+                        <img src="{{ App::setFilePath('/assets/images/gifs/7 - Mantén-la-bandeja-de-entrada-organizada-mp4.gif') }}" alt="">
+                    </div>
+
+                </section>
+
+                <p class="yMas">¡Y más!</p>
             </div>
 
         </section>
@@ -267,16 +315,18 @@
                             <ul>
                                 <li> <span>Problema: </span>Una empresa de Bienes Raíces tiene agentes que visitan múltiples terrenos y/o residencias de clientes un mismo día para cerrar ventas. Los agentes tienen que esperar hasta llegar a una computadora al final del día para registrar todo lo ocurrido en el CRM. Esto aumenta el riesgo de perder u olvidarse de información valiosa que afecte el seguimiento, gestión y conversión de oportunidades.
                                 </li>
+                                <br>
                                 <li><span>Solución: </span>con WhatsApp Inbox en la app móvil, cada agente tiene el CRM en el bolsillo. Después de cada visita, se toman 5 minutos para registrar lo ocurrido, información relevante del contacto y próximos pasos.
                                 </li>
+                                <br>
                                 <li>
                                     <span>Beneficio: </span>Se guarda data relevante y de fácil acceso que facilita la gestión comercial y aumenta las probabilidades de venta.
                                 </li>
                             </ul>
                         </div>
                     </div>
-
                 </section>
+
                 <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-article-especial.svg') }}')" class="backgroundFull">
                     <div class="containElements">
                         <div class="containerImage">
