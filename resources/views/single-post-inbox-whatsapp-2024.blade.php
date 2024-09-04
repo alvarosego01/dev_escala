@@ -157,21 +157,25 @@
                     </div>
                 </section>
 
+
                 <section class="innerSectionElement sct3">
+                <div class="containElements">
+                    <div class="info">
                     <h3>¡Ahora, con WhatsApp Inbox en el app móvil de Escala, puedes aprovechar todas estos beneficios desde tu celular!</h3>
                     <p class="pBlue">
                         Si aún no estás usando WhatsApp Inbox en Escala, puedes contactar a tu gerente de éxito o hacer click aquí para comenzar a aprovechar esta funcionalidad.
                     </p>
-
+                    </div>
                     <div class="containerImage">
                         <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-4.png') }}" alt="">
-                    </div>
+                    </div>  
+                </div>
                 </section>
 
-                <section class="innerSectionElement sct4" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-article-especial.svg') }}')" class="backgroundFull">
+
+                <section class="innerSectionElement sct4">
                     <div class="containElements">
-
-
+                    <div class="info">
                         <h3>¿Qué puedes lograr con esta herramienta?</h3>
                         <p>
                             Con WhatsApp Inbox en la app móvil, puedes alcanzar un nuevo nivel de eficiencia en la gestión
@@ -181,6 +185,7 @@
                             que te ayudarán a optimizar tus resultados de marketing, ventas y servicios. ¡Todo desde tu
                             celular!
                         </p>
+                        </div>
                         <div class="containerImage">
                             <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-5.png') }}" alt="">
                         </div>
@@ -190,8 +195,8 @@
             </div>
 
         </section>
-        <section class="w-full customSection sectionParent single_blog_inbox_whatsapp_2024_1_1">
 
+        <section class="w-full customSection sectionParent single_blog_inbox_whatsapp_2024_1_1">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
