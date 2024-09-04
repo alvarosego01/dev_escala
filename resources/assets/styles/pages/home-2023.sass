@@ -291,6 +291,7 @@ img
                     .info
                         margin-bottom: 0px!important
             .containElements
+
                 .MT_e
                     @include responsivo(telefonoTable)
                         margin: 25px 0
@@ -388,6 +389,8 @@ img
         
            
         .innerSectionElement.sct2
+            position: relative
+            top: -30px  
             @include responsivo(telefonoTable)
                 display: block
             .elementsCheck
@@ -638,10 +641,13 @@ img
                         align-items: center
                         gap: 32px
                         position: relative
-                        top: -55px
+                        top: -90px
+                        @include responsivo(general)
+                            top: -113px
                         @include responsivo(smallPcTablet)
                             gap: 14px
                             flex-wrap: wrap
+                            top: -95px
                         @include responsivo(telefonoTable)
                             display: none
                         @include responsivo(pcMedio)
@@ -709,9 +715,9 @@ img
                     .containElements
                         margin: 0 auto
                         @include responsivo(general)
-                            min-height: 440px
+                            min-height: 550px
                         @include responsivo(resto)
-                            min-height: 440px
+                            min-height: 550px
 
 
 #homeSection_2023 .customSection.sectionParent.home_2023_1
