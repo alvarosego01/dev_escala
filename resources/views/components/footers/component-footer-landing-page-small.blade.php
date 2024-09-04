@@ -7,7 +7,7 @@
 
             <div class="containElements">
                 <p class="text">
-                    ©2023 All Rights Reserved. <br class="space">
+                    ©2024 All Rights Reserved. <br class="space">
                     Cookie Preferences, Privacy, and Terms.
                 </p>
             </div>
