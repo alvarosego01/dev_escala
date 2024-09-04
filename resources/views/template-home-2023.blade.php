@@ -155,7 +155,7 @@
                                 </div>
 
                                 <div class="containArticle">
-                                    <p>Destacado en:</p>
+                                    <p>Destacados en:</p>
                                     <div class="containerImage">
                                         <a target="_blank" href="https://forbes.co/2024/08/08/emprendedores/fundador-de-openenglish-y-su-antiguo-cfo-recaudan-us12-millones-para-un-crm-de-pymes">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/lg_forbes.png') !!}" loading="lazy"></a>
@@ -335,7 +335,7 @@
 
                             </div>
                             <div class="containArticle_mobile">
-                                <p>Destacado en:</p>
+                                <p>Destacados en:</p>
                                 <div class="containArticle_mobile_img">
                                     <div class="containerImage">
                                         <a target="_blank" href="https://forbes.co/2024/08/08/emprendedores/fundador-de-openenglish-y-su-antiguo-cfo-recaudan-us12-millones-para-un-crm-de-pymes">
