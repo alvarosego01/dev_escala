@@ -57,7 +57,7 @@
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor">¡Reserva tu espacio!</h5>
+                                        <h5 class="titleFormat blackcolor">Solicita un demo</h5>
 
 
                                         @php
