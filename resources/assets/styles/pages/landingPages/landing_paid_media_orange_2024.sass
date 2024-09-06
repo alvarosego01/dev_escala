@@ -1035,6 +1035,21 @@
                         @include responsivo(pcMedio)
                             margin-right: 0
 
+#landing_paid_media__orange_2024 .landing_paid_media__orange_2024_7
+        section.innerSectionELement.sct2.left
+            .groupElements.row
+                .image
+                    .containerImage
+                        img
+                            height: 280px!important
+                            @include responsivo(telefonoTable)
+                                height: 125px!important
+                            @include responsivo(pcMedio)
+                                height: 175px!important
+                            @include responsivo(general)
+                                height: 240px!important
+                            @include responsivo(smallPcTablet)
+                                height: 230px!important
 
 #landing_paid_media__orange_2024 .landing_paid_media__orange_2024_8
         padding: 0px 0px 25px 0px!important
@@ -1127,12 +1142,12 @@
         padding: 50px 0px 40px 0px
         padding-top: 0
     @include responsivo(general)
-        background-position: 54% 241px
+        background-position: 54% 310px
         background-size: 2900px
     @include responsivo(smallPcTablet)
-        background-position: 50% 240px
+        background-position: 50% 310px
     @include responsivo(resto)
-        background-position: 54% 211px
+        background-position: 54% 250px
         background-size: 3456px
 
 
@@ -1224,14 +1239,18 @@
                 align-items: center
                 flex-direction: column
                 width: 22%
+                min-height: 170px
+                filter: drop-shadow(0 6px 30px rgba(54, 118, 138, .3))
                 position: relative
                 @include responsivo(telefonoTable)
                     margin: 0
                     width: 45%
                     padding: 35px 10px 20px 10px
+                    min-height: 130px
                 @include responsivo(pcMedio)
                     width: 30%
                     padding: 55px 10px 20px 10px
+                    min-height: 140px
                 @include responsivo(general)
                     padding: 70px 10px 25px 10px
                     padding-top: 50px
