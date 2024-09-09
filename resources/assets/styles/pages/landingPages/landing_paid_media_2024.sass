@@ -477,6 +477,10 @@
                                 font-size: 18px
                     .containElements
                         margin: 0 auto
+                        @include responsivo(general)
+                            min-height: 550px
+                        @include responsivo(resto)
+                            min-height: 550px
 
                 .imageReviewsMobile
                     position: relative

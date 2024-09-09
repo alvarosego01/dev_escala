@@ -104,138 +104,82 @@
 
                             </div>
                             <div class="form7 col-md-12 col-lg-4 ">
-
                                 <div class="containElements">
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor">Recibe un demo-tour <br class="space">
-                                            personalizado de Escala</h5>
+                                        <h5 class="titleFormat blackcolor">Recibe un demo<br class="space">
+                                            personalizado</h5>
 
 
+                                        @php
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
+                                        @endphp
+                                        {!! do_shortcode($_formShortcode) !!}
 
-                                        <div id="form-container">
-                                            <div id="form-1">
-                                                @php
-                                                $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                                $_rs = [];
-                                                $_formShortcode = null;
-                                                if ($_data = get_posts($_args)) {
-                                                foreach ($_data as $_key) {
-                                                $_rs[$_key->ID] = $_key->post_title;
-                                                if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                                $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                                }
-                                                }
-                                                } else {
-                                                $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
-                                                }
-                                                @endphp
-                                                {!! do_shortcode($_formShortcode) !!}
-                                            </div>
 
-                                            <div id="form-2" style="display:none;">
-                                                @php
-                                                $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                                $_rs = [];
-                                                $_formShortcode = null;
-                                                if ($_data = get_posts($_args)) {
-                                                foreach ($_data as $_key) {
-                                                $_rs[$_key->ID] = $_key->post_title;
-                                                if ($_key->post_title === 'Form test') {
-                                                $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                                }
-                                                }
-                                                } else {
-                                                $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
-                                                }
-                                                @endphp
-                                                {!! do_shortcode($_formShortcode) !!}
-                                            </div>
-                                        </div>
-
-                                        <script>
-                                            jQuery(document).ready(function($) {
-                                                $('#form-1').on('submit', function(e) {
-                                                    e.preventDefault(); // Evita el envío normal del formulario
-
-                                                    var $form = $(this);
-                                                    var formData = $form.serialize(); // Serializa los datos del formulario
-
-                                                    // Captura el valor del campo de email usando el atributo `name` de Contact Form 7
-                                                    var email = $form.find('input[name="your-email"]').val();
-
-                                                    $.ajax({
-                                                        type: 'POST',
-                                                        url: $form.attr('action'),
-                                                        data: formData,
-                                                        success: function(response) {
-                                                            // Oculta el primer formulario y muestra el segundo
-                                                            $('#form-1').hide();
-                                                            $('#form-2').show();
-
-                                                            // Rellena el campo oculto del segundo formulario con el email
-                                                            $('#hidden-email-field').val(email);
-                                                        },
-                                                        error: function(xhr, status, error) {
-                                                            console.error('Error al enviar el formulario:', error);
-                                                        }
-                                                    });
-                                                });
-                                            });
-                                        </script>
                                     </div>
-
-                                </div>
-                            </div>
-
-                            <div class="imageReviewsMobile hideOnDesktop">
-
-                                <div class="image">
-                                    <div class="containerImage">
-                                        <img alt="Imagen Andrea Y Vanesa Escala " src="{{ App::setFilePath('/assets/images/illustrations/others/andrea-vanesa-img.png') }}" loading="lazy">
-                                    </div>
-
                                 </div>
 
-                                <div class="elements">
+                                <div class="imageReviewsMobile hideOnDesktop">
 
-                                    @foreach ($elementsReviews as $item)
-                                    <div class="refersElement">
-
-                                        <div class="infoInner">
-                                            <div class="tag">
-                                                <div class="containerImage">
-                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                </div>
-
-                                                <span class="points">
-                                                    {!! $item['points'] !!}
-                                                </span>
-                                            </div>
-                                            <p class="text">
-                                                {!! $item['text'] !!}
-                                            </p>
-                                            <div class="stars">
-                                                <div class="containerImage">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                </div>
-                                            </div>
-
+                                    <div class="image">
+                                        <div class="containerImage">
+                                            <img alt="Imagen Andrea Y Vanesa Escala " src="{{ App::setFilePath('/assets/images/illustrations/others/andrea-vanesa-img.png') }}" loading="lazy">
                                         </div>
 
                                     </div>
-                                    @endforeach
+
+                                    <div class="elements">
+
+                                        @foreach ($elementsReviews as $item)
+                                        <div class="refersElement">
+
+                                            <div class="infoInner">
+                                                <div class="tag">
+                                                    <div class="containerImage">
+                                                        <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                    </div>
+
+                                                    <span class="points">
+                                                        {!! $item['points'] !!}
+                                                    </span>
+                                                </div>
+                                                <p class="text">
+                                                    {!! $item['text'] !!}
+                                                </p>
+                                                <div class="stars">
+                                                    <div class="containerImage">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        @endforeach
+
+                                    </div>
 
                                 </div>
 
+
+
+
+
                             </div>
-
-
-
-
-
-                        </div>
 
                     </section>
 
@@ -810,7 +754,7 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_paid_media_top_card.svg') !!})" class="top-pill">
-                                        Gerente de Éxito <br class="space">asignado
+                                            Gerente de Éxito <br class="space">asignado
                                         </div>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/crm_2024_img_01.png') !!}" loading="lazy">
 
@@ -1003,13 +947,14 @@
                         </div>
                     </div>
 
-                </section>        <div class="btnCenter">
-            <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                Conocer más
-            </a>
-        </div>
+                </section>
+                <div class="btnCenter">
+                    <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                        Conocer más
+                    </a>
+                </div>
             </div>
-    
+
 
         </section>
 
