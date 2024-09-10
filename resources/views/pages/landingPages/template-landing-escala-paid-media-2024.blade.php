@@ -277,10 +277,6 @@
                 <div class="section-row">
 
                     <section class="innerSectionElement sct0">
-                        <div class="containerImage">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_crm_mejora.png') !!}" loading="lazy">
-
-                        </div>
                         <h2 class="title">
                             <span>Conoce Escala: </span>
                             El CRM ideal para
@@ -948,6 +944,7 @@
                     </div>
 
                 </section>
+                <h2 class="primaryTitle">Capacitación a Líderes y Vendedores</h2>
                 <div class="btnCenter">
                     <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                         Conocer más
