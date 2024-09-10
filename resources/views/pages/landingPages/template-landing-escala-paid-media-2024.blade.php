@@ -21,7 +21,6 @@
         ],
         ];
         @endphp
-
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_paid_media_2024 landing_paid_media_2024_0 ">
 
 
@@ -104,15 +103,17 @@
 
                             </div>
                             <div class="form7 col-md-12 col-lg-4 ">
+
                                 <div class="containElements">
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor">Recibe un demo<br class="space">
-                                            personalizado</h5>
+                                        <h5 class="titleFormat blackcolor">Recibe un demo <br class="space">
+                                            personalizado de Escala</h5>
 
 
-                                        @php
+
+                                            @php
                                         $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
                                         $_rs = [];
                                         $_formShortcode = null;
@@ -130,56 +131,59 @@
                                         {!! do_shortcode($_formShortcode) !!}
 
 
+
                                     </div>
+
+                                </div>
+                            </div>
+
+                            <div class="imageReviewsMobile hideOnDesktop">
+
+                                <div class="image">
+                                    <div class="containerImage">
+                                        <img alt="Imagen Andrea Y Vanesa Escala " src="{{ App::setFilePath('/assets/images/illustrations/others/andrea-vanesa-img.png') }}" loading="lazy">
+                                    </div>
+
                                 </div>
 
-                                <div class="imageReviewsMobile hideOnDesktop">
+                                <div class="elements">
 
-                                    <div class="image">
-                                        <div class="containerImage">
-                                            <img alt="Imagen Andrea Y Vanesa Escala " src="{{ App::setFilePath('/assets/images/illustrations/others/andrea-vanesa-img.png') }}" loading="lazy">
-                                        </div>
+                                    @foreach ($elementsReviews as $item)
+                                    <div class="refersElement">
 
-                                    </div>
-
-                                    <div class="elements">
-
-                                        @foreach ($elementsReviews as $item)
-                                        <div class="refersElement">
-
-                                            <div class="infoInner">
-                                                <div class="tag">
-                                                    <div class="containerImage">
-                                                        <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                    </div>
-
-                                                    <span class="points">
-                                                        {!! $item['points'] !!}
-                                                    </span>
-                                                </div>
-                                                <p class="text">
-                                                    {!! $item['text'] !!}
-                                                </p>
-                                                <div class="stars">
-                                                    <div class="containerImage">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                    </div>
+                                        <div class="infoInner">
+                                            <div class="tag">
+                                                <div class="containerImage">
+                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
                                                 </div>
 
+                                                <span class="points">
+                                                    {!! $item['points'] !!}
+                                                </span>
+                                            </div>
+                                            <p class="text">
+                                                {!! $item['text'] !!}
+                                            </p>
+                                            <div class="stars">
+                                                <div class="containerImage">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                                </div>
                                             </div>
 
                                         </div>
-                                        @endforeach
 
                                     </div>
+                                    @endforeach
 
                                 </div>
 
-
-
-
-
                             </div>
+
+
+
+
+
+                        </div>
 
                     </section>
 
@@ -190,7 +194,6 @@
             </div>
 
         </section>
-
 
 
         <section class="w-full customSection sectionParent landing_paid_media_2024_1">
