@@ -21,7 +21,7 @@
         font-size: 35px
     @include responsivo(resto)
         font-size: 40px
-
+        
 
 #landing_paid_media_2024
     background-color: white
@@ -261,12 +261,12 @@
                         width: 50%!important
                     @include responsivo(general)
                         top: -25px
-                        margin-top: 8%
+                        margin-top: 7%
                     @include responsivo(smallPcTablet)
                         margin-top: 5%
                     @include responsivo(resto)
                         top: -25px
-                        margin-top: 8%
+                        margin-top: 7%
                     .containElements
                         position: unset
                         padding-bottom: 0
@@ -477,6 +477,10 @@
                                 font-size: 18px
                     .containElements
                         margin: 0 auto
+                        @include responsivo(general)
+                            min-height: 550px
+                        @include responsivo(resto)
+                            min-height: 550px
 
                 .imageReviewsMobile
                     position: relative
@@ -532,10 +536,11 @@
         padding-top: 10px
     @include responsivo(pcMedio)
         padding-top: 10px
+        margin-bottom: -40px
     @include responsivo(general)
     @include responsivo(smallPcTablet)
         padding-top: 10px
-        padding-bottom: 50px
+        padding-bottom: 0px
     .section-row
         @include responsivo(telefonoTable)
             width: 95%
@@ -583,27 +588,28 @@
     padding: 0px 0px
     margin-bottom: 60px
     .backgroundFull
-        background-position: 53% 180px
-        background-size: auto
+        background-position: 53% 14px
+        margin-top: 45px
+        background-size: 3550px
         background-repeat: no-repeat
 
         @include responsivo(telefonoTable)
-            background-position: 57% 67px
+            background-position: 57% 10px
             background-size: 2500px
-            padding: 30px 0px 40px 0px!important
+            padding: 90px 0px 40px 0px!important
         @include responsivo(pcMedio)
-            background-position: 44% 70px
+            background-position: 44% 10px
             background-size: 3500px
-            padding: 5px 0px 60px 0px!important
+            padding: 115px 0px 60px 0px!important
         @include responsivo(general)
-            background-position:47% 80px
-            padding: 5px 0px 60px 0px
+            background-position:47% 14px
+            padding: 125px 0px 60px 0px
         @include responsivo(smallPcTablet)
-            background-position: 55% 55px
+            background-position: 55% 14px
             background-size: 3390px
-            padding: 5px 0px 45px 0px
+            padding: 125px 0px 45px 0px
         @include responsivo(resto)
-            padding: 66px 0px 60px 0px
+            padding: 125px 0px 60px 0px
     .section-row
         position: relative
         @include responsivo(telefonoTable)
@@ -634,7 +640,6 @@
                 text-align: center
                 margin-bottom: 30px
                 color: #2C4857!important
-
                 @include responsivo(telefonoTable)
                     font-size: 25px
                 @include responsivo(pcMedio)
@@ -998,7 +1003,6 @@
                         img
                             display: block
                             margin: auto
-                            clip-path: inset(0 2px 0 2px)
                             @include responsivo(telefonoTable)
                                 height: 140px
                                 margin-bottom: 0
@@ -1035,6 +1039,21 @@
                         @include responsivo(pcMedio)
                             margin-right: 0
 
+#landing_paid_media_2024 .landing_paid_media_2024_7
+        section.innerSectionELement.sct2.left
+            .groupElements.row
+                .image
+                    .containerImage
+                        img
+                            height: 280px!important
+                            @include responsivo(telefonoTable)
+                                height: 125px!important
+                            @include responsivo(pcMedio)
+                                height: 175px!important
+                            @include responsivo(general)
+                                height: 240px!important
+                            @include responsivo(smallPcTablet)
+                                height: 230px!important
 
 #landing_paid_media_2024 .landing_paid_media_2024_8
         padding: 0px 0px 25px 0px!important
@@ -1052,19 +1071,34 @@
                     display: flex
                     align-items: flex-end
                 .info
-                    @include responsivo(pcMedio)
-                        margin-top: 55px!important
+                    display: flex
+                    justify-content: flex-end
+                    margin-bottom: -10px
                     @include responsivo(general)
                         padding-left: 20px
                         padding-right: 35px
-                    @include responsivo(resto)
-                        margin-top: 55px!important
-                .image
-                    img
-                        clip-path: unset!important
-                        @include responsivo(pcMedio)
-                            margin-right: 0
 
+                .image
+                    @include responsivo(telefonoTable)
+                        margin-bottom: 0!important
+                    @include responsivo(pcMedio)
+                        margin-bottom: 0!important
+                    img
+                        display: block
+                        margin: auto
+                        @include responsivo(telefonoTable)
+                            height: 160px!important
+                            margin-top: 20px!important
+                            margin-bottom: 0
+                        @include responsivo(pcMedio)
+                            height: 200px
+                            margin-bottom: 0
+                        @include responsivo(general)
+                            height: 280px
+                        @include responsivo(smallPcTablet)
+                            height: 240px!important
+                        @include responsivo(resto)
+                            height: 290px!important
 
 
 #landing_paid_media_2024 .landing_paid_media_2024_9
@@ -1127,12 +1161,12 @@
         padding: 50px 0px 40px 0px
         padding-top: 0
     @include responsivo(general)
-        background-position: 54% 241px
+        background-position: 54% 310px
         background-size: 2900px
     @include responsivo(smallPcTablet)
-        background-position: 50% 240px
+        background-position: 50% 310px
     @include responsivo(resto)
-        background-position: 54% 211px
+        background-position: 54% 250px
         background-size: 3456px
 
 
@@ -1209,10 +1243,12 @@
                 flex-direction: row
                 width: 100%
                 gap: 40px 20px
+                
             @include responsivo(pcMedio)
                 width: 100%
                 flex-direction: row
                 gap: 50px 20px
+                
             .groupElements
                 padding: 35px 20px
                 background: #fff
@@ -1224,14 +1260,18 @@
                 align-items: center
                 flex-direction: column
                 width: 22%
+                min-height: 170px
+                filter: drop-shadow(0 6px 30px rgba(54, 118, 138, .3))
                 position: relative
                 @include responsivo(telefonoTable)
                     margin: 0
                     width: 45%
                     padding: 35px 10px 20px 10px
+                    min-height: 130px
                 @include responsivo(pcMedio)
                     width: 30%
                     padding: 55px 10px 20px 10px
+                    min-height: 140px
                 @include responsivo(general)
                     padding: 70px 10px 25px 10px
                     padding-top: 50px
@@ -1573,6 +1613,22 @@
                                 margin: auto 0px
                                 margin-top: 5.5px
 
+    h2.primaryTitle
+        font-family: Nunito
+        font-style: normal
+        font-weight: bold
+        line-height: 0.9
+        text-align: center
+        font-size: 30px
+        color: #2C4857
+        letter-spacing: -1.5px
+        margin-bottom: 50px
+        @include responsivo(telefonoTable)
+            font-size: 22px
+            margin-bottom: 30px
+        @include responsivo(pcMedio)
+            font-size: 22px
+            margin-bottom: 30px
 
 #landing_paid_media_2024 .landing_paid_media_2024_10
     padding: 0
