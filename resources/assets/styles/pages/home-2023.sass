@@ -279,6 +279,8 @@ img
                 .containerImage
                     margin: 0 
                     padding: 0
+                    img
+                         
         .innerMobile
             display: none
             @include responsivo(telefonoTable)
@@ -664,14 +666,16 @@ img
                         .containerImage 
                             padding: 0
                             margin: 0
-                            
                             display: flex
                             align-items: center
                             img
-                                height: 25px
+                                height: 24px
                                 @include responsivo(general)
                                     height: 22px
-
+                        .imgSpecial
+                            img
+                                height: 32px!important
+                                
 
                     .containArticle > div:last-child
                         img
