@@ -167,8 +167,8 @@
                                     <div class="containerImage">
                                         <a target="_blank" href="https://latamlist.com/escala-raises-12m-funding-round/"> <img src="{!! App::setFilePath('/assets/images/illustrations/others/lg_latam_list.png') !!}" loading="lazy"> </a>
                                     </div>
-                                    <div class="containerImage">
-                                        <a target="_blank" href="https://www.reforma.com/capitanes-2024-08-06/op276011"> <img src="{!! App::setFilePath('/assets/images/illustrations/others/lg_reforma.png') !!}" loading="lazy"> </a>
+                                    <div class="containerImage imgSpecial">
+                                        <a target="_blank" href="https://refreshmiami.com/to-fuel-hispanic-business-success-escala-closes-12m-funding-round/"> <img src="{!! App::setFilePath('/assets/images/illustrations/others/lg_refresh_miami.png') !!}" loading="lazy"> </a>
                                     </div>
                                     <div class="containerImage">
                                         <a target="_blank" href="https://www.valoraanalitik.com/escala-fundada-por-lider-de-open-english-levanta-us12-millones-para-impulsar-pymes-en-colombia/"> <img src="{!! App::setFilePath('/assets/images/illustrations/others/lg_valora.png') !!}" loading="lazy"> </a>
@@ -348,8 +348,8 @@
                                     <div class="containerImage">
                                         <a target="_blank" href="https://latamlist.com/escala-raises-12m-funding-round/"> <img src="{!! App::setFilePath('/assets/images/illustrations/others/lg_latam_list.png') !!}" loading="lazy"> </a>
                                     </div>
-                                    <div class="containerImage">
-                                        <a target="_blank" href="https://www.reforma.com/capitanes-2024-08-06/op276011"> <img src="{!! App::setFilePath('/assets/images/illustrations/others/lg_reforma.png') !!}" loading="lazy"> </a>
+                                    <div class="containerImage imgSpecial">
+                                        <a target="_blank" href="https://refreshmiami.com/to-fuel-hispanic-business-success-escala-closes-12m-funding-round/"> <img src="{!! App::setFilePath('/assets/images/illustrations/others/lg_refresh_miami.png') !!}" loading="lazy"> </a>
                                     </div>
                                     <div class="containerImage">
                                         <a target="_blank" href="https://www.valoraanalitik.com/escala-fundada-por-lider-de-open-english-levanta-us12-millones-para-impulsar-pymes-en-colombia/"> <img src="{!! App::setFilePath('/assets/images/illustrations/others/lg_valora.png') !!}" loading="lazy"> </a>
