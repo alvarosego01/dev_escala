@@ -57,7 +57,7 @@
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor">Solicita un demo</h5>
+                                        <h5 class="titleFormat blackcolor">Recibe un tour guiado de Escala</h5>
 
 
                                         @php
