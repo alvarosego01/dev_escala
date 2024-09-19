@@ -272,6 +272,12 @@
         $parameters = [
         'type' => 'backgroundColor',
         'classSection' => 'escala_app_15',
+        'enableTitle' => true,
+        'titlePrincipal' => '
+        <span>Optimiza la gestión
+        </span>
+        de tu negocio
+        ',
         'overlay' => false,
         'enableButton' => false,
         'elements' => [
@@ -304,7 +310,63 @@
         ',
         'enableButton' => false,
         'background_item' => false,
-        ],[
+        ]
+        ],
+        ];
+        @endphp
+
+        {{-- @contain_multiple_cards_T2($parameters)
+        @endcontain_multiple_cards_T2 --}}
+
+
+        <div class="sectionInfo_2">
+
+            @contain_multiple_cards_T2($parameters)
+            @endcontain_multiple_cards_T2
+
+            <div class="overlay" style="background-image: url({!! App::setFilePath('/assets/images/banners/escala_app_3.svg') !!})">
+
+
+            </div>
+
+        </div>
+
+
+        <section class="sectionParent customSection escala_app_20">
+            <div>
+                <div class="section-row">
+                    <section class="innerSectionElement sct2">
+                        <div class="groupElements row">
+                            <div class="image">
+                                <div class="containerImage">
+                                    <img src="{!!  App::setFilePath('/assets/images/gifs/GifWaWebsite.gif') !!}" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="info col-md-12 col-lg-8 sectionTexts textRight">
+                                <h3 class="secondaryTitle">
+                                    Utiliza el WhatsApp Inbox
+                                </h3>
+                                <p>
+                                    Disfruta de los beneficios de esta potente herramienta de <br class="DT_e"> comunicación desde tu celular
+                                    <br class="space">
+                                    <br class="space">
+                                    Conocer más
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        @php
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'escala_app_15',
+        'overlay' => false,
+        'enableButton' => false,
+        'elements' => [
+        [
         'img' => App::setFilePath('/assets/images/appEscala/app_image_7.png'),
         'title' => '
         Programa tareas <br class="space">

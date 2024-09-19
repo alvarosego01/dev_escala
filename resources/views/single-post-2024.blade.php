@@ -75,7 +75,7 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
                             <div class="form7 col-md-12 col-lg-4">
                                 <div class="containElements">
                                     <div class="formatForm redirectWeb" redirectweb="true">
-                                        <h5 class="titleFormat blackcolor">¡Reserva tu espacio!</h5>
+                                        <h5 class="titleFormat blackcolor">Recibe un tour guiado de Escala</h5>
                                         @php
                                         $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
                                         $_rs = [];
