@@ -223,6 +223,7 @@ class SetComponents extends Controller
                 'views/single-post.blade.php',
                 'views/single-post-2024.blade.php',
                 'views/single-post-inbox-whatsapp-2024.blade.php',
+                'views/single-post-precios-meta-2024.blade.php',
                 'views/single-post-especial-2024.blade.php',
                 'views/single-post-especial-ingles-2024.blade.php'
             ];
