@@ -57,8 +57,7 @@
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor">Recibe un tour guiado de Escala</h5>
-
+                                        <h5 class="titleFormat blackcolor">Recibe un tour guiado <br class="DT_e"> de Escala</h5>
 
                                         @php
                                         $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -76,7 +75,6 @@
                                         }
                                         @endphp
                                         {!! do_shortcode($_formShortcode) !!}
-
 
                                     </div>
 
@@ -147,7 +145,7 @@
                         <div class="containerImage">
                             <img src="{{ App::setFilePath('/assets/images/illustrations/otto/otto-whatsapp-nuevos-precios-meta-2024.png') }}" alt="">
                         </div>
-                        <div class="info-second">
+                        <div class="info">
                             <p>
                                 <span>Nota Importante:</span> Aunque WhatsApp API implica una
                                 inversión por el envío de los mensajes, lo que te ahorras en
@@ -213,7 +211,7 @@
 
         </section>
 
-        <section class="w-full customSection sectionParent single_blog_precios_meta_2024_1_1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section3_precios_nuevos_meta_2024.svg') }}')" class="backgroundFull">
+        <section id="logrosLink"  class="w-full customSection sectionParent single_blog_precios_meta_2024_1_1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section3_precios_nuevos_meta_2024.svg') }}')" class="backgroundFull">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <h3>¿Qué puedes lograr con WhatsApp API integrado al CRM de Escala?</h3>
@@ -256,7 +254,7 @@
 
         </section>
 
-        <section class="w-full customSection sectionParent single_blog_precios_meta_2024_2_0" id="usosLink">
+        <section class="w-full customSection sectionParent single_blog_precios_meta_2024_2_0" id="precios">
 
             <div class="section-row">
                 <section class="innerSectionElement sct0">
@@ -324,7 +322,7 @@
         </section>
 
 
-        <section class="customSection sectionParent single_blog_precios_meta_2024 single_blog_precios_meta_2024_2">
+        <section  id="pasos"    class="customSection sectionParent single_blog_precios_meta_2024 single_blog_precios_meta_2024_2">
             <div class="section-row">
                 <section class="innerSectionElement sct0" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_principal_articulo_blog_inbox_precios_meta_2024.png') }}')">
                     <div class="containElements">

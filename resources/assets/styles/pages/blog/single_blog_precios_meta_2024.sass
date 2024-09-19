@@ -114,7 +114,7 @@
                         margin-top: 1%
                     @include responsivo(resto)
                         top: -25px
-                        margin-top: 8%
+                        margin-top: 10%
                     .containElements
                         position: unset
                         padding-bottom: 0
@@ -134,6 +134,10 @@
                             margin: 0 0
                         .ele
                             position: relative
+                            display: flex
+                            flex-direction: column
+                            justify-content: center
+                            
                             @include responsivo(general)
                                 left: 25px
                             @include responsivo(resto)
@@ -170,7 +174,7 @@
                                 margin-bottom: 0
                                 display: flex
                                 flex-direction: column
-                                line-height: 1.25
+                                line-height: 1
                                 letter-spacing: -1px
                                 position: relative
                                 color: #36768A
@@ -207,6 +211,7 @@
                                 justify-content: center
                                 align-content: centers
                                 position: relative
+                                left: 20px
                                 img
                                     position: relative
                                     width: auto
@@ -372,10 +377,11 @@
                             font-size: 18px
         
         .innerSectionElement.sct0_1
-            margin: 70px auto
+            margin: 30px auto
+            margin-bottom: 70px
             background-repeat: no-repeat
             background-size: auto
-            background-position: center 107px
+            background-position: center 85px
             padding-bottom: 0px
             @include responsivo(telefonoTable)
                 margin: 50px auto
@@ -412,7 +418,8 @@
                 align-items: center
                 @include responsivo(telefonoTable)
                     flex-direction: column
-                .info-second
+                .info
+                    margin-left: 40px
                     p,span
                         font-size: 20px
                         font-style: normal
@@ -429,35 +436,13 @@
                         @include responsivo(smallPcTablet)
                             font-size: 18px
                     span
-                        color: #F34F36
-                        margin-bottom: 20px!important
-                    ol 
-                        li
-                            font-family: Nunito
-                            font-size: 20px
-                            font-style: normal
-                            font-weight: 500
-                            line-height: 1.4
-                            color: #706B6D
-                            text-align: left
-                            @include responsivo(telefonoTable)
-                                font-size: 18px
-                            @include responsivo(pcMedio)
-                                font-size: 18px
-                            @include responsivo(smallPcTablet)
-                                font-size: 18px
-                            a
-                                text-decoration: underline
-                                text-decoration-thickness: 1px
-                                color: #706B6D
-                    ol li::marker 
-                        color: #F34F36
+                        color: #2C4857
+                        font-weight: 700
 
 
                             
                 .containerImage
                     margin: 0px
-                    margin-left: 80px
                     padding: 0px
                     position: relative
                     @include responsivo(telefonoTable)
@@ -465,9 +450,8 @@
                         display: none
                     @include responsivo(pcMedio)
                         top: 16px
-                        margin-left: 15px
                     img
-                        height:290px
+                        height:320px
                         @include responsivo(telefonoTable)
                             height: 280px
                         @include responsivo(pcMedio)
@@ -549,7 +533,7 @@
             .containElements
                 display: flex
                 align-items: center
-                padding: 30px 0px 0px 0px
+                padding: 15px 0px 30px 0px
                 @include responsivo(telefonoTable)
                     flex-direction: column-reverse
                 .containerImage
