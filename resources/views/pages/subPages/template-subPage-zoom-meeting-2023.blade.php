@@ -5,7 +5,7 @@
 
             <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/banner_principal_agendamiento.svg') !!}')">
 
-            
+
                 <div class="section-row">
 
                     <section class="innerSectionElement sct1">
@@ -50,22 +50,22 @@
                                             De Lunes a Viernes:
                                         </h3>
                                         <p class="text">
-                                            9:00 am - 11:00 pm <strong>Argentina / Uruguay</strong><br class="space">
-                                            8:00am - 10:00pm. <strong>Miami / Chile</strong><br class="space">
-                                            7:00am - 9:00pm. <strong>México / Colombia</strong>
+                                            7:00 am - 6:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_mex_.png') !!}" loading="lazy"> <br class="space">
+                                            8:00 am - 7:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_col_per_.png') !!}" loading="lazy"><br class="space">
+                                            9:00 am - 8:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_ve_chi_usa.png') !!}" loading="lazy"> <br class="space">
+                                            10:00 am - 9:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_arg_urg.png') !!}" loading="lazy"><br class="space">
                                         </p>
                                         <hr>
                                         <h3>
                                             Sábados:
                                         </h3>
                                         <p class="text">
-                                            9:00 am - 11:00 pm <strong>Argentina / Uruguay</strong><br class="space">
-                                            11:00am - 8:00pm. <strong>Miami / Chile</strong><br class="space">
-                                            10:00am - 7:00pm. <strong>México / Colombia</strong>
+                                            7:00 am - 12:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_mex_.png') !!}" loading="lazy"> <br class="space">
+                                            8:00 am - 1:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_col_per_.png') !!}" loading="lazy"><br class="space">
+                                            9:00 am - 2:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_ve_chi_usa.png') !!}" loading="lazy"> <br class="space">
+                                            10:00 am - 3:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_arg_urg.png') !!}" loading="lazy"><br class="space">
                                         </p>
-
                                     </div>
-
                                 </div>
 
                             </div>
