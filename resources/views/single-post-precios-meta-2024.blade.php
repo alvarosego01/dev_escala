@@ -12,7 +12,7 @@
 
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol single_blog_precios_meta_2024_0 ">
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_principal_articulo_blog_precios_meta.svg') }}')" class="backgroundFull">
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_precios_nuevos_meta_2024.svg') }}')" class="backgroundFull">
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
 
@@ -142,17 +142,47 @@
                     </div>
 
                 </section>
+                <section class="innerSectionElement sct0_1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section2_precios_nuevos_meta_2024.svg') }}')" class="backgroundFull">
+                    <div class="containElements">
+                        <div class="containerImage">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/otto/otto-whatsapp-nuevos-precios-meta-2024.png') }}" alt="">
+                        </div>
+                        <div class="info-second">
+                            <p>
+                                <span>Nota Importante:</span> Aunque WhatsApp API implica una
+                                inversión por el envío de los mensajes, lo que te ahorras en
+                                tiempo, personal y eficiencia operativa hace que valga la pena.
+                                La automatización y personalización te permiten
+                                gestionar más conversaciones con menos recursos, mejorar
+                                la experiencia de usuario y obtener mejores resultados,
+                                ahorrando muchos costos ocultos. Además, el costo por
+                                mensaje es muy accesible, con un rango típico de entre USD
+                                $0.005 y $0.02 por mensaje. Por ejemplo, enviar 1.000
+                                mensajes costaría entre USD $5 y $20, una inversión mínima
+                                en comparación con el valor que ofrece en términos de
+                                eficiencia y escalabilidad.
+                                <br class="space">
+                                <br class="space">
+                                A continuación te contamos todo lo que debes saber.
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <h3>Índice de contenido</h3>
                         <br>
                         <ol>
-                            <li><a href="#whatsappLink">¿Qué es WhatsApp Inbox en la app móvil de Escala?</a></li>
-                            <li><a href="#logrosLink"> ¿Qué puedes lograr con esta herramienta?</a></li>
-                            <li> <a href="#funcionesLink">Funciones Claves</a></li>
-                            <li> <a href="#usosLink">Casos de uso ejemplo</a></li>
-                            <li> <a href="#appLink">¿Qué más puedes hacer con la app móvil de Escala?</a></li>
-                            <li><a href="#pasosLink">¿Qué pasos seguir para empezar a usarlo?</a></li>
+                            <li><a href="#whatsappLink"> ¿Qué es WhatsApp API?</a></li>
+                            <li><a href="#logrosLink">¿Qué puedes lograr con WhatsApp API integrado al CRM de Escala?</a></li>
+                            <li> <a href="#precios"> Precios Actualizados de la API de WhatsApp para América y España. </a></li>
+                            <li> <a href="#pasos">¿Qué pasos seguir para utilizar WhatsApp API en el CRM de Escala?</a></li>
+
+
+
                         </ol>
                     </div>
 
@@ -160,163 +190,65 @@
                 <section class="innerSectionElement sct2" id="whatsappLink">
                     <div class="containElements">
                         <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-3.png') }}" alt="">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-persona-nuevos-precios-meta-whatsapp-api.png') }}" alt="">
                         </div>
                         <div class="info">
-                            <h3>¿Qué es el WhatsApp Inbox en la app móvil de Escala?</h3>
+                            <h3>¿Qué es WhatsApp API?</h3>
                             <p>
-                                Si ya eres usuario del módulo de WhatsApp Inbox de Escala, conoces bien sus ventajas:
+                                Creado por Meta, WhatsApp API es una solución que
+                                permite a empresas integrar el servicio de mensajería de
+                                WhatsApp con otros sistemas de software o
+                                plataformas de comunicación, permitiendo automatizar,
+                                escalar y gestionar interacciones con contactos
+                                eficientemente. A diferencia de la versión estándar de
+                                WhatsApp, la API está diseñada para empresas que
+                                necesitan gestionar mayores volúmenes de mensajes de
+                                manera profesional.
                             </p>
-                            <ul>
-                                <li>Centralizar todas las comunicaciones de WhatsApp de tu negocio en un solo lugar</li>
-                                <li>Automatizar respuestas y crear flujos para que la comunicación con tus leads/clientes sea más eficiente</li>
-                                <li>Monitorear todas las conversaciones de tu equipo de trabajo con tus leads/clientes</li>
-                                <li>Y mucho mas!</li>
-                            </ul>
+
                         </div>
                     </div>
-                </section>
-
-
-                <section class="innerSectionElement sct3 " style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_precios_meta_sect_4.svg') }}')" class="backgroundFull">
-                    <div class="containElements">
-                        <div class="info">
-                            <h3>¡Ahora, con WhatsApp Inbox en el app móvil de Escala, puedes aprovechar todas estos beneficios desde tu celular!</h3>
-                            <p class="pBlue">
-                                Si aún no estás usando WhatsApp Inbox en Escala, puedes contactar a tu gerente de éxito o hacer click aquí para comenzar a aprovechar esta funcionalidad.
-                            </p>
-                        </div>
-                        <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-4.png') }}" alt="">
-                        </div>
-                    </div>
-                </section>
-
-
-                <section class="innerSectionElement sct4" id="logrosLink">
-                    <div class="containElements">
-                        <div class="info">
-                            <h3>¿Qué puedes lograr con esta herramienta?</h3>
-                            <p>
-                                Con WhatsApp Inbox en la app móvil, puedes alcanzar un nuevo nivel de eficiencia en la gestión
-                                de relaciones con leads y clientes. Puedes recibir y responder mensajes sin importar dónde estés,
-                                ideal para vendedores que están en la calle visitando prospectos o clientes.
-                                También puedes coordinar a tu equipo, automatizar procesos claves y obtener datos valiosos
-                                que te ayudarán a optimizar tus resultados de marketing, ventas y servicios. ¡Todo desde tu
-                                celular!
-                            </p>
-                        </div>
-                        <div class="containerImage" id="funcionesLink">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-5.png') }}" alt="">
-                        </div>
-                    </div>
-
                 </section>
             </div>
 
         </section>
 
-        <section class="w-full customSection sectionParent single_blog_precios_meta_2024_1_1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_precios_meta_sect_5.svg') }}')" class="backgroundFull">
+        <section class="w-full customSection sectionParent single_blog_precios_meta_2024_1_1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section3_precios_nuevos_meta_2024.svg') }}')" class="backgroundFull">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
-                    <div class="containElements">
-                        <div class="info">
-                            <h3>Funciones claves: </h3>
-                            <p>
-                                Desde WhatsApp Inbox <span> en tu celular:</span>
-                            </p>
-                        </div>
-                    </div>
-
+                    <h3>¿Qué puedes lograr con WhatsApp API integrado al CRM de Escala?</h3>
+                    <p>
+                        Gracias a la conexión de WhatsApp API con el CRM todo-en-uno de Escala, los usuarios pueden:
+                    </p>
                 </section>
                 <section class="innerSectionElement sct1">
-                    <div class="containElements">
-                        <p>
-                            <span> Recibe y responde</span> todos los mensajes de WhatsApp
-                            <br class="space">
-                            de tu negocio, sin necesitar de una computadora.
-                        </p>
-
-                        <img src="{{ App::setFilePath('/assets/images/gifs/1.-Recibe-y-responde-todos-los-mensajes-de-WhatsApp.gif') }}" alt="">
+                    <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
+                        <p><span>Enviar mensajes</span> masivos o individuales automáticamente</p>
                     </div>
-
-                </section>
-                <section class="innerSectionElement sct2">
-                    <div class="containElements">
-                        <img src="{{ App::setFilePath('/assets/images/gifs/2 - Asigna-conversaciones-a-los-distintos-miembros-de-tu-equipo - mp4.gif') }}" alt="">
-                        <p>
-                            <span>
-                                Asigna conversaciones</span> a los distintos miembros de tu
-                            <br class="space">equipo.
-                        </p>
+                    <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
+                        <p><span>Diseñar flujos</span> de respuestas automatizadas.</p>
                     </div>
-                </section>
-                <section class="innerSectionElement sct1">
-                    <div class="containElements">
-                        <p>
-                            <span>Actualiza</span> información de contactos, oportunidades,
-                            <br class="space">
-                            actividades y tareas en base a las conversaciones por
-                            <br class="space">
-                            whatsapp.
-                        </p>
-
-                        <img src="{{ App::setFilePath('/assets/images/gifs/3 - Actualiza-información-de-contactos-mp4.gif') }}" alt="">
+                    <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
+                        <p><span>Programar</span> recordatorios</p>
                     </div>
-
-                </section>
-                <section class="innerSectionElement sct2">
-                    <div class="containElements">
-                        <img src="{{ App::setFilePath('/assets/images/gifs/4 - Envía-archivos-desde-tu-celular-mp44 - Envía-archivos-desde-tu-celular-mp4.gif') }}" alt="">
-                        <p>
-                            <span>
-                                Envía archivos desde tu celular, </span> incluyendo imágenes,
-                            <br class="space">
-                            audios y PDFs
-                        </p>
+                    <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
+                        <p><span>Asignar conversaciones</span> a distintos miembros del equipo </p>
                     </div>
-                </section>
-                <section class="innerSectionElement sct1">
-                    <div class="containElements">
-                        <p>
-                            <span>
-                                Envía plantillas de Meta, imágenes y documentos
-                                <br class="space"> guardados en Escala.</span>
-                        </p>
-
-                        <img src="{{ App::setFilePath('/assets/images/gifs/5 - Envía-plantillas-de-Meta-mp4.gif') }}" alt="">
+                    <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
+                        <p><span>Realiza encuestas</span> y perfilamiento de contactos</p>
                     </div>
-
-                </section>
-
-
-                <section class="innerSectionElement sct2">
-                    <div class="containElements">
-                        <img src="{{ App::setFilePath('/assets/images/gifs/6 - Mantén-la-bandeja-de-entrada-organizada-mp4.gif') }}" alt="">
-                        <p>
-                            <span>
-                                Mantén la bandeja de entrada organizada</span> cerrando
-                            <br class="space">
-                            conversaciones finalizadas y marcando conversaciones
-                            <br class="space">
-                            como no leídas.
-                        </p>
+                    <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
+                        <p><span>Crear y actualizar</span> la información de contactos fácilmente en el CRM</p>
                     </div>
-                </section>
-
-                <section class="innerSectionElement sct1">
-                    <div class="containElements">
-                        <p>
-                            <span> Filtra y consigue lo que buscas rápidamente </span>según el
-                            <br class="space">
-                            status de las conversaciones, el dueño y el tiempo del
-                            <br class="space">
-                            último mensaje.
-                        </p>
-
-                        <img src="{{ App::setFilePath('/assets/images/gifs/7 - Mantén-la-bandeja-de-entrada-organizada-mp4.gif') }}" alt="">
+                    <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
+                        <p><span>Guardar el historial</span> de conversaciones con cada contacto dentro del CRM</p>
                     </div>
-
+                    <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
+                        <p><span>Filtrar y organizar</span> mensajes a contactos</p>
+                    </div>
+                    <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
+                        <p><span>Crear</span> reportes</p>
+                    </div>
                 </section>
 
                 <p class="yMas">¡Y más!</p>
@@ -330,80 +262,62 @@
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
                         <div class="info">
-                            <h3>Caso de uso ejemplo: <span>Vendedores en la calle</span></h3>
+                            <h3>Precios actualizados de WhatsApp API para América y España <span>(Septiembre 2024)</span></h3>
 
-                            <ul>
-                                <li> <span>Problema: </span>Una empresa de Bienes Raíces tiene agentes que visitan múltiples terrenos y/o residencias de clientes un mismo día para cerrar ventas. Los agentes tienen que esperar hasta llegar a una computadora al final del día para registrar todo lo ocurrido en el CRM. Esto aumenta el riesgo de perder u olvidarse de información valiosa que afecte el seguimiento, gestión y conversión de oportunidades.
-                                </li>
-                                <br>
-                                <li><span>Solución: </span>con WhatsApp Inbox en la app móvil, cada agente tiene el CRM en el bolsillo. Después de cada visita, se toman 5 minutos para registrar lo ocurrido, información relevante del contacto y próximos pasos.
-                                </li>
-                                <br>
-                                <li>
-                                    <span>Beneficio: </span>Se guarda data relevante y de fácil acceso que facilita la gestión comercial y aumenta las probabilidades de venta.
-                                </li>
-                            </ul>
                         </div>
                     </div>
-                </section>
-
-                <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_precios_meta_sect_6.svg') }}')" class="backgroundFull">
-                    <div class="containElements">
-                        <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-6.png') }}" alt="">
-                        </div>
-                    </div>
-
                 </section>
                 <section class="innerSectionElement sct2" id="appLink">
                     <div class="containElements">
-                        <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp_section_7.png') }}" alt="">
-                        </div>
+
                         <div class="info" id="pasosLink">
-                            <h3>¿Qué más puedes hacer con la app móvil de Escala?</h3>
                             <p>
-                                En la app móvil de Escala también tienes acceso al CRM de Escala para
-                                que puedas guardar contactos, gestionar procesos comerciales y visualizar resultados de tu equipo de venta.
-                                <br><br>
-                                Tener WhatsApp Inbox y el CRM en tu celular, integrados en una misma plataforma, es
-                                contar con una ventaja operativa
-                                importante ¡para aumentar la eficiencia de tus procesos comerciales!
+                                Meta requiere pagar por el uso de la WhatsApp API
+                                porque está diseñada específicamente para empresas y
+                                proporciona una serie de ventajas y funcionalidades
+                                avanzadas que no están disponibles en la versión
+                                gratuita de WhatsApp (destinada principalmente para
+                                uso personal).
+                                <br class="space">
+                                <br class="space">
+                                Los precios establecidos por Meta se establecen según
+                                el país asociado al código de cuenta de WhatsApp del
+                                destinatario y 4 diferentes categorías de conversaciones:
                             </p>
+                        </div>
+                        <div class="containerImage">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img2-persona-nuevos-precios-meta-whatsapp-api.png') }}" alt="">
                         </div>
                     </div>
                 </section>
 
-                <section class="innerSectionElement sct3" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_precios_meta_sect_7.svg') }}')" class="backgroundFull">
+                <section class="innerSectionElement sct2">
                     <div class="info">
-                        <h3>¿Qué pasos seguir para empezar a usar el<br class="space">
-                            WhatsApp Inbox en la app móvil de Escala?</h3>
-                        <p>
-                            ¿Listo para aprovechar sus beneficios?
+                        <ul>
+                            <li><span> Marketing (Iniciados por la empresa):</span> Se refiere a las interacciones en las que la empresa toma la iniciativa para enviar mensajes al cliente sin que este haya iniciado previamente la conversación. Para iniciar una conversación fuera de la ventana de 24 horas, la empresa debe utilizar plantillas de mensajes previamente aprobadas por Meta.
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><span>Autenticación (Verificación de la identidad):</span> Es una categoría diseñada principalmente para procesos de inicio de sesión, recuperación de contraseñas y otros mensajes automáticos con fines de autenticación.
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><span>Utilidad (Actualizaciones):</span> Se refiere a las conversaciones que proveen información transaccional con confirmaciones de entrega, actualizaciones de envíos, recordatorios de citas, notificaciones de pago o facturación.
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>Servicio (Iniciados por el usuario):</span> Se refiere a las interacciones en las que el cliente inicia la comunicación con la empresa. Una vez que la empresa recibe un mensaje de un contacto, la empresa puede responder y enviar todos los mensajes que desee sin costo adicional durante las siguientes 24 horas. Este período de 24 horas comienza desde el último mensaje recibido, lo que permite una comunicación fluida y continua sin cargos adicionales dentro de ese tiempo.
+                            </li>
+                        </ul>
 
+                        <p>En la siguiente tabla observamos los precios (en USD) más recientes de Meta para el uso de WhatsApp API en diferentes países de América y España para conversaciones de :
                         </p>
                     </div>
-                    <div class="containElements">
-                        <div class="info-second">
-                            <p>Si ya estás suscrito al Plan Pro de Escala y tienes la app móvil
-                                descargada en tu celular, solo debes actualizarla.</p>
-                            <span>De lo contrario:</span>
-                            <ol>
-                                <li>
-                                    Suscríbete al plan pro de Escala con WhatsApp API.
-                                    Si aún no eres cliente <a class="openPopUpButton popup-general-demo-2022">¡Haz click aquí para recibir un demo
-                                        o hablar con un asesor!</a>
-                                </li>
-                                <li>Conecta tu cuenta de WhatsApp a Escala. ¿Necesitas apoyo?<a href="https://api.whatsapp.com/send?phone=17863042407" target="_blank"> Comunícate con nuestro equipo de soporte</a> </li>
-                                <li>Descarga la app móvil del CRM de Escala desde la tienda de aplicaciones en tu celular. ¿Cómo?<a href="https://support.escala.com/portal/es/kb/articles/gestionar-mensajes-en-el-inbox-desde-app-movil-de-escala" target="_blank"> Ve este corto tutorial</a> </li>
-                                <li>¡Empieza a utilizarla!</li>
-                            </ol>
-                        </div>
-                        <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-8.png') }}" alt="">
-                        </div>
-                    </div>
+                    <div class="containerImage">
+                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/tabla_precios_meta_2024.png') }}" alt="">
 
+                    </div>
                 </section>
             </div>
 
@@ -412,25 +326,131 @@
 
         <section class="customSection sectionParent single_blog_precios_meta_2024 single_blog_precios_meta_2024_2">
             <div class="section-row">
-                <section class="innerSectionElement sct0" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_precios_meta_sect_8.svg') }}')">
+                <section class="innerSectionElement sct0" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_principal_articulo_blog_inbox_precios_meta_2024.png') }}')">
                     <div class="containElements">
                         <div class="info">
-                            <h2>Conoce más de Escala
-                                <br class="space">
-                                <span> y aprovecha todos estos beneficios.</span>
+                            <h2>¿Qué pasos seguir para usar
+                                <br class="DT_e">
+                                WhatsApp API en Escala?
                             </h2>
+                            <p>Conecta con nuestro equipo para conocer por ti
+                                <br class="DT_e">
+                                mismo la herramienta y evaluar sus beneficios
+                            </p>
                             <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Solicita un demo
+                                Solicita un demo ahora
                             </a>
                         </div>
                         <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp-sect-9.png') }}" alt="">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/otto/right-otto-whatsapp-nuevos-precios-meta-2024.png') }}" alt="">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="customSection sectionParent single_blog_precios_meta_2024 single_blog_precios_meta_2024_3">
+            <div class="section-row">
+                <section class="innerSectionElement sct0">
+                    <div class="containElements">
+                        <h2 class="primaryTitle">Si te fue útil ¡Compártelo!</h2> <span>|</span>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/escalasoftware/" target="_blank"><img src="{!! App::setFilePath('/assets/images/icons/facebook.svg') !!}" alt="Icon facebook escala"></a>
+                            <a href="" target="_blank"><img src="{!! App::setFilePath('/assets/images/icons/twitter.svg') !!}" alt="Icon twitter escala"></a>
+                            <a href="https://www.linkedin.com/company/escalaonline/" target="_blank"><img src="{!! App::setFilePath('/assets/images/icons/linkedin.svg') !!}" alt="Icon linkedin escala"></a>
                         </div>
                     </div>
                 </section>
             </div>
         </section>
 
+
+        @php
+        $query = array();
+        $query = [
+        'post_type' => 'post',
+        'category_name' => $category,
+        'posts_per_page' => 3,
+        'limit' => 3,
+        'order' => 'DESC',
+        ];
+
+        $query = Posts::getPosts($query);
+        $posts = (isset($query) && $query != null)? $query->get_posts() : null;
+
+        @endphp
+
+        @if (isset($posts) && $posts != null)
+        <section class="customSection sectionParent single_blog_precios_meta_2024 single_blog_precios_meta_2024_4">
+            <div class="section-row">
+                <section class="innerSectionElement sct0">
+                    <div class="containElements">
+                        <div class="container">
+                            <div class="row">
+                                <div class="text-center col-md-12 col-lg-12">
+                                    <h2 class="primaryTitle">
+                                        Artículos <span class="blackColor2"> relacionados</span> <br class="DT_e">
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="innerSectionElement sct1 cards_parent row">
+                    @foreach ($posts as $index => $item)
+                    @php
+                    $post_tags = get_the_tags($item->ID);
+                    @endphp
+
+                    <div class="mb-3 col-12 col-sm-4 col-md-4 col-lg-4 card_item">
+                        <div class="border-0 card">
+
+                            <a href="{!! App::setTypeUrl() !!}/blog/{{ $item->post_name }}">
+                                <img src="{{ Posts::getPhoto($item->ID) }}" class="card-img-top">
+                            </a>
+
+                            <div class="card-body">
+                                <h6 class="">
+                                    @foreach ($category as $item)
+                                    {{ $item->name }}
+                                    @endforeach
+                                </h6>
+                                <h5 class="card-title">
+                                    {{ $item->post_title }}
+                                </h5>
+                                <p class="card-text">
+                                    {!! ACF_CUSTOM::_getField('excerpt_single', $item->ID) !!}
+                                </p>
+                                <div class="subCard d-flex justify-content-end align-items-center">
+                                    <!-- <div class="d-flex align-items-center">
+                                                    <img src="{!! App::setFilePath('/assets/images/blog/icons/writer.png') !!}" alt="Anne Bryan"
+                                                        class="mr-2 rounded-circle">
+                                                    <div>
+                                                        <p class="mb-0">Anne Bryan</p>
+                                                        <p class="mb-0">Verified writer</p>
+                                                    </div>
+                                                </div> -->
+                                    <div class="div-2">
+                                        <p class="mb-0">
+                                            @php
+                                            $date = $item->post_date;
+                                            $sec = strtotime($date);
+                                            $newdate = date ("j M ", $sec);
+                                            echo $newdate;
+                                            @endphp
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+
+                </section>
+
+            </div>
+        </section>
+        @endif
     </div>
 
 </div>
