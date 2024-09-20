@@ -317,7 +317,9 @@
                     </div>
                     <div class="containerImage">
                         <img src="{{ App::setFilePath('/assets/images/illustrations/others/tabla_precios_meta_2024.png') }}" alt="">
-
+                        <p>
+                        Si quieres conocer las tarifas de Meta más actualizadas,<a href="https://business.whatsapp.com/products/platform-pricing?lang=es_LA&country=Per%C3%BA&currency=D%C3%B3lar%20(USD)&category=Autenticaci%C3%B3n"> ingresa aquí.</a>
+                        </p>
                     </div>
                 </section>
             </div>
