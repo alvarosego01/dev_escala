@@ -211,13 +211,15 @@
 
         </section>
 
-        <section id="logrosLink"  class="w-full customSection sectionParent single_blog_precios_meta_2024_1_1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section3_precios_nuevos_meta_2024.svg') }}')" class="backgroundFull">
+        <section id="logrosLink" class="w-full customSection sectionParent single_blog_precios_meta_2024_1_1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section3_precios_nuevos_meta_2024.svg') }}')" class="backgroundFull">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
-                    <h3>¿Qué puedes lograr con WhatsApp API integrado al CRM de Escala?</h3>
-                    <p>
-                        Gracias a la conexión de WhatsApp API con el CRM todo-en-uno de Escala, los usuarios pueden:
-                    </p>
+                    <div class="info">
+                        <h3>¿Qué puedes lograr con WhatsApp API integrado al CRM de Escala?</h3>
+                        <p>
+                            Gracias a la conexión de WhatsApp API con el CRM todo-en-uno de Escala, los usuarios pueden:
+                        </p>
+                    </div>
                 </section>
                 <section class="innerSectionElement sct1">
                     <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
@@ -322,7 +324,7 @@
         </section>
 
 
-        <section  id="pasos"    class="customSection sectionParent single_blog_precios_meta_2024 single_blog_precios_meta_2024_2">
+        <section id="pasos" class="customSection sectionParent single_blog_precios_meta_2024 single_blog_precios_meta_2024_2">
             <div class="section-row">
                 <section class="innerSectionElement sct0" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_principal_articulo_blog_inbox_precios_meta_2024.png') }}')">
                     <div class="containElements">
