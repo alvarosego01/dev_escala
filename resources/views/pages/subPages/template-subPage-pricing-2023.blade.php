@@ -661,7 +661,7 @@
                                                     <div class="discountData">
                                                    <p  class="primaryText">
 
-                                                                <strong>Más pago único de</strong> USD 450 por <br class="space">
+                                                                <strong>Más pago único por</strong> <br class="space">
                                                                 Servicio de Acompañamiento <br class="space">
                                                                 Personalizado obligatorio <button class="questionIcon openPopUpButton popup-pricingPro_Message_PagoUnico">?</button>
 
