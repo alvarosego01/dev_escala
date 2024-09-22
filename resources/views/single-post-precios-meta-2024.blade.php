@@ -57,7 +57,7 @@
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor">Recibe un tour guiado <br class="DT_e"> de Escala</h5>
+                                        <h5 class="titleFormat blackcolor">Recibe un tour guiado <br class="space"> de Escala</h5>
 
                                         @php
                                         $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -318,7 +318,7 @@
                     <div class="containerImage">
                         <img src="{{ App::setFilePath('/assets/images/illustrations/others/tabla_precios_meta_2024.png') }}" alt="">
                         <p>
-                        Si quieres conocer las tarifas de Meta más actualizadas,<a href="https://business.whatsapp.com/products/platform-pricing?lang=es_LA&country=Per%C3%BA&currency=D%C3%B3lar%20(USD)&category=Autenticaci%C3%B3n"> ingresa aquí.</a>
+                        Si quieres conocer las tarifas de Meta más actualizadas,<a target="_blank" href="https://business.whatsapp.com/products/platform-pricing?lang=es_LA&country=Per%C3%BA&currency=D%C3%B3lar%20(USD)&category=Autenticaci%C3%B3n"> ingresa aquí.</a>
                         </p>
                     </div>
                 </section>
