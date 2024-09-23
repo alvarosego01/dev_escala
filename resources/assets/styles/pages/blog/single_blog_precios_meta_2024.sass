@@ -165,6 +165,8 @@
                                 @include responsivo(resto)
                                     width: 550px
                                     font-size: 35px
+                                span
+                                    color: #f34f36
 
                             .principalBigText
                                 font-family: Nunito
@@ -424,7 +426,7 @@
                     @include responsivo(telefonoTable)
                         margin: 0px
                     @include responsivo(pcMedio)
-                        margin: 0px
+                       
                     @include responsivo(smallPcTablet)
                         margin-left: 70px
                         margin-right: 40px
@@ -542,12 +544,13 @@
             .containElements
                 display: flex
                 align-items: center
-                padding: 30px 0px 30px 0px
+                padding: 30px 0px 40px 0px
                 @include responsivo(telefonoTable)
                     flex-direction: column-reverse
                 .containerImage
                     margin: 0px
-                    margin-right: 20px
+                    margin-right: 45px
+
                     padding: 0px
                     position: relative
                     @include responsivo(telefonoTable)
@@ -801,13 +804,16 @@
                 .containerImage
                     margin: 0px
                     margin-left: 40px
+                    left: -15px
                     padding: 0px
                     position: relative
                     @include responsivo(telefonoTable)
                         top: 0
+                        margin-left: 0px!important
+                        left: 0
                     @include responsivo(pcMedio)
                         top: 0
-                        margin-left: 20px
+                        margin-left: 40px
                     img
                         height: 320px
                         @include responsivo(telefonoTable)
@@ -849,9 +855,10 @@
         .innerSectionElement.sct2
             position: relative
             @include responsivo(telefonoTable)
-                width: 100%
+                width: 90%
                 padding: 0
                 padding-top: 35px
+                margin: 0 auto !important
             @include responsivo(pcMedio)
                 width: 90%
                 padding: 0px
@@ -903,14 +910,16 @@
                     color: #F34F36
             .containerImage
                 width: 90%
-                margin: 0 auto
+                margin: 0 auto !important
                 @include responsivo(smallPcTablet)
                     width: 75%
+
                 img
                     width: 100%
                     margin-top: 20px
                     @include responsivo(telefonoTable)
                         margin-top: 0px
+                        margin: 0 auto!important
                     @include responsivo(pcMedio)
                         margin-top: 0px
                 p

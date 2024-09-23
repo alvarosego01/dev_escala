@@ -27,9 +27,9 @@
                                     <div class="ele ele2 col-md-12 col-lg-7">
 
                                         <h1 class="principalBigTitle blackColor">
-                                            WhatsApp API: Precios de Meta <br class="DT_e">
+                                        <span>WhatsApp API:</span> Precios de Meta <br class="DT_e">
                                             actualizados y su integración con <br class="DT_e">
-                                            el CRM Escala.
+                                            el CRM Escala
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
@@ -286,7 +286,7 @@
                             </p>
                         </div>
                         <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img2-persona-nuevos-precios-meta-whatsapp-api.png') }}" alt="">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-articulo-blog-nuevos-precios-meta-2024.png') }}" alt="">
                         </div>
                     </div>
                 </section>
@@ -318,7 +318,7 @@
                     <div class="containerImage">
                         <img src="{{ App::setFilePath('/assets/images/illustrations/others/tabla_precios_meta_2024.png') }}" alt="">
                         <p>
-                        Si quieres conocer las tarifas de Meta más actualizadas,<a target="_blank" href="https://business.whatsapp.com/products/platform-pricing?lang=es_LA&country=Per%C3%BA&currency=D%C3%B3lar%20(USD)&category=Autenticaci%C3%B3n"> ingresa aquí.</a>
+                        Si quieres conocer las tarifas de Meta más actualizadas, <a target="_blank" href="https://business.whatsapp.com/products/platform-pricing?lang=es_LA&country=Per%C3%BA&currency=D%C3%B3lar%20(USD)&category=Autenticaci%C3%B3n">ingresa aquí.</a>
                         </p>
                     </div>
                 </section>
@@ -345,7 +345,7 @@
                             </a>
                         </div>
                         <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/otto/right-otto-whatsapp-nuevos-precios-meta-2024.png') }}" alt="">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/banner-articulo-blog-nuevos-precios-meta-2024.png') }}" alt="">
                         </div>
                     </div>
                 </section>

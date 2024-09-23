@@ -351,6 +351,7 @@
                                 Tú y tu equipo podrán conversar y gestionar los WhatsApps <br class="DT_e">
                                 de tu negocio para aumentar su nivel de eficiencia.
                                 </p>
+                                <a href="https://escala.com/whatsapp-inbox-app-movil-escala/" target="_blank">Conocer más</a>
                             </div>
                         </div>
                     </section>
