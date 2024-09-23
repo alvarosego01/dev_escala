@@ -2629,10 +2629,7 @@
 
         .innerSectionElement.sct2
             width: 100%
-            @include responsivo(general)
-                width: 80%
-            @include responsivo(resto)
-                width: 80%
+
             .groupElements
                 width: 100%
                 display: flex
@@ -2697,6 +2694,21 @@
                             font-size: 18px
                         @include responsivo(general)
                             font-size: 22.5px
+                    a
+                        font-family: Nunito
+                        color: #36768A
+                        text-align: center
+                        font-size: 24px
+                        font-weight: 700
+                        line-height: 1
+                        letter-spacing: -1px
+                        margin-top: 10px
+                        @include responsivo(telefonoTable)
+                            font-size: 16px
+                        @include responsivo(pcMedio)
+                            font-size: 18px
+                        @include responsivo(general)
+                            font-size: 22.5px
                 .image
                     position: relative
                     @include responsivo(telefonoTable)
@@ -2714,6 +2726,13 @@
                         padding-bottom: 0
 
                         img
-                            height: 235px
                             @include responsivo(telefonoTable)
-                                height: 110px
+                                height: 115px
+                            @include responsivo(pcMedio)
+                                height: 235px                             
+                            @include responsivo(general)
+                                height: 350px
+                            @include responsivo(smallPcTablet)
+                                height: 305px
+                            @include responsivo(resto)
+                                height: 395px

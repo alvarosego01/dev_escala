@@ -339,19 +339,19 @@
                         <div class="groupElements row">
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!!  App::setFilePath('/assets/images/gifs/GifWaWebsite.gif') !!}" loading="lazy">
+                                    <img src="{!!  App::setFilePath('/assets/images/gifs/app_escala_gift_sec_20.gif') !!}" loading="lazy">
                                 </div>
                             </div>
                             <div class="info col-md-12 col-lg-8 sectionTexts textRight">
                                 <h3 class="secondaryTitle">
-                                    Utiliza el WhatsApp Inbox
+                                Gestiona el WhatsApp Inbox <br class="DT_e"> 
+                                de Escala desde tu celular
                                 </h3>
                                 <p>
-                                    Disfruta de los beneficios de esta potente herramienta de <br class="DT_e"> comunicación desde tu celular
-                                    <br class="space">
-                                    <br class="space">
-                                    Conocer más
+                                Tú y tu equipo podrán conversar y gestionar los WhatsApps <br class="DT_e">
+                                de tu negocio para aumentar su nivel de eficiencia.
                                 </p>
+                                <a href="https://escala.com/whatsapp-inbox-app-movil-escala/" target="_blank">Conocer más</a>
                             </div>
                         </div>
                     </section>
