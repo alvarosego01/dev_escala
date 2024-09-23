@@ -2629,10 +2629,7 @@
 
         .innerSectionElement.sct2
             width: 100%
-            @include responsivo(general)
-                width: 80%
-            @include responsivo(resto)
-                width: 80%
+
             .groupElements
                 width: 100%
                 display: flex
@@ -2714,6 +2711,13 @@
                         padding-bottom: 0
 
                         img
-                            height: 320px
                             @include responsivo(telefonoTable)
-                                height: 110px
+                                height: 115px
+                            @include responsivo(pcMedio)
+                                height: 235px                             
+                            @include responsivo(general)
+                                height: 350px
+                            @include responsivo(smallPcTablet)
+                                height: 305px
+                            @include responsivo(resto)
+                                height: 395px
