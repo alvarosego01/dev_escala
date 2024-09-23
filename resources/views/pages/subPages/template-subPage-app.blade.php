@@ -339,7 +339,7 @@
                         <div class="groupElements row">
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!!  App::setFilePath('/assets/images/gifs/GifWaWebsite.gif') !!}" loading="lazy">
+                                    <img src="{!!  App::setFilePath('/assets/images/gifs/app_escala_gift_sec_20') !!}" loading="lazy">
                                 </div>
                             </div>
                             <div class="info col-md-12 col-lg-8 sectionTexts textRight">
