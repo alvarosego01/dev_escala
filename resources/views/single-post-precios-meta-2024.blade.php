@@ -27,9 +27,9 @@
                                     <div class="ele ele2 col-md-12 col-lg-7">
 
                                         <h1 class="principalBigTitle blackColor">
-                                            WhatsApp API: Precios de Meta <br class="DT_e">
+                                        <span>WhatsApp API:</span> Precios de Meta <br class="DT_e">
                                             actualizados y su integración con <br class="DT_e">
-                                            el CRM Escala.
+                                            el CRM Escala
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
@@ -57,7 +57,7 @@
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor">Recibe un tour guiado <br class="DT_e"> de Escala</h5>
+                                        <h5 class="titleFormat blackcolor">Recibe un tour guiado <br class="space"> de Escala</h5>
 
                                         @php
                                         $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -221,33 +221,34 @@
                         </p>
                     </div>
                 </section>
+
                 <section class="innerSectionElement sct1">
                     <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
-                        <p><span>Enviar mensajes</span> masivos o individuales automáticamente</p>
+                        <p><span>Enviar mensajes</span><br class="DT_e"> masivos o individuales<br class="DT_e"> automáticamente</p>
                     </div>
                     <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
-                        <p><span>Diseñar flujos</span> de respuestas automatizadas.</p>
+                        <p><span>Diseñar flujos</span> de<br class="DT_e"> respuestas<br class="DT_e"> automatizadas.</p>
                     </div>
                     <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
-                        <p><span>Programar</span> recordatorios</p>
+                        <p><span>Programar</span><br class="DT_e"> recordatorios</p>
                     </div>
                     <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
-                        <p><span>Asignar conversaciones</span> a distintos miembros del equipo </p>
+                        <p><span>Asignar conversaciones</span><br class="DT_e"> a distintos miembros<br class="DT_e"> del equipo </p>
                     </div>
                     <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
-                        <p><span>Realiza encuestas</span> y perfilamiento de contactos</p>
+                        <p><span>Realiza encuestas</span><br class="DT_e"> y perfilamiento de<br class="DT_e"> contactos</p>
                     </div>
                     <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
-                        <p><span>Crear y actualizar</span> la información de contactos fácilmente en el CRM</p>
+                        <p><span>Crear y actualizar</span> la<br class="DT_e"> información de contactos<br class="DT_e"> fácilmente en el CRM</p>
                     </div>
                     <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
-                        <p><span>Guardar el historial</span> de conversaciones con cada contacto dentro del CRM</p>
+                        <p><span>Guardar el historial</span> de<br class="DT_e"> conversaciones con cada<br class="DT_e"> contacto dentro del CRM</p>
                     </div>
                     <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
-                        <p><span>Filtrar y organizar</span> mensajes a contactos</p>
+                        <p><span>Filtrar y organizar</span><br class="DT_e"> mensajes a contactos</p>
                     </div>
                     <div class="cardApi"> <img src="{{ App::setFilePath('/assets/images/illustrations/others/check_circle.svg') }}" alt="">
-                        <p><span>Crear</span> reportes</p>
+                        <p><span>Crear</span><br class="DT_e"> reportes</p>
                     </div>
                 </section>
 
@@ -262,12 +263,11 @@
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
                         <div class="info">
-                            <h3>Precios actualizados de WhatsApp API para América y España <span>(Septiembre 2024)</span></h3>
-
+                            <h3>Precios actualizados de WhatsApp API para América y España <br class="DT_e"> <span>(Septiembre 2024)</span></h3>
                         </div>
                     </div>
                 </section>
-                <section class="innerSectionElement sct2" id="appLink">
+                <section class="innerSectionElement sct1" id="appLink">
                     <div class="containElements">
 
                         <div class="info" id="pasosLink">
@@ -286,7 +286,7 @@
                             </p>
                         </div>
                         <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img2-persona-nuevos-precios-meta-whatsapp-api.png') }}" alt="">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-articulo-blog-nuevos-precios-meta-2024.png') }}" alt="">
                         </div>
                     </div>
                 </section>
@@ -310,13 +310,16 @@
                                 <span>Servicio (Iniciados por el usuario):</span> Se refiere a las interacciones en las que el cliente inicia la comunicación con la empresa. Una vez que la empresa recibe un mensaje de un contacto, la empresa puede responder y enviar todos los mensajes que desee sin costo adicional durante las siguientes 24 horas. Este período de 24 horas comienza desde el último mensaje recibido, lo que permite una comunicación fluida y continua sin cargos adicionales dentro de ese tiempo.
                             </li>
                         </ul>
-
+                        <br class="DT_e">
+                        <br class="DT_e">
                         <p>En la siguiente tabla observamos los precios (en USD) más recientes de Meta para el uso de WhatsApp API en diferentes países de América y España para conversaciones de :
                         </p>
                     </div>
                     <div class="containerImage">
                         <img src="{{ App::setFilePath('/assets/images/illustrations/others/tabla_precios_meta_2024.png') }}" alt="">
-
+                        <p>
+                        Si quieres conocer las tarifas de Meta más actualizadas, <a target="_blank" href="https://business.whatsapp.com/products/platform-pricing?lang=es_LA&country=Per%C3%BA&currency=D%C3%B3lar%20(USD)&category=Autenticaci%C3%B3n">ingresa aquí.</a>
+                        </p>
                     </div>
                 </section>
             </div>
@@ -342,7 +345,7 @@
                             </a>
                         </div>
                         <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/otto/right-otto-whatsapp-nuevos-precios-meta-2024.png') }}" alt="">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/banner-articulo-blog-nuevos-precios-meta-2024.png') }}" alt="">
                         </div>
                     </div>
                 </section>
