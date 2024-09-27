@@ -24,7 +24,7 @@
                                         <h1 class="principalTitle">
                                             Te guiamos a vender <br class="space">
                                             más y mejor <span> con Escala <br class="space">
-                                            ¡todo el año!</span>
+                                                ¡todo el año!</span>
                                         </h1>
 
                                         <ul>
@@ -73,19 +73,19 @@
 
 
                                         @php
-                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                            $_rs = [];
-                                            $_formShortcode = null;
-                                            if ($_data = get_posts($_args)) {
-                                                foreach ($_data as $_key) {
-                                                    $_rs[$_key->ID] = $_key->post_title;
-                                                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                                    }
-                                                }
-                                            } else {
-                                                $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                            }
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
                                         @endphp
                                         {!! do_shortcode($_formShortcode) !!}
 
@@ -104,53 +104,54 @@
                         <div class="containElements">
 
                             @php
-                                $elementsReviews = [
-                                    [
-                                        'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
-                                        'text' => 'Escala / plataforma CRM',
-                                        'points' => '4.8 / 5',
-                                    ],
-                                    [
-                                        'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
-                                        'text' => 'Escala / plataforma CRM',
-                                        'points' => '4.9 / 5',
-                                    ],
-                                    [
-                                        'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
-                                        'text' => 'Escala / plataforma CRM',
-                                        'points' => '4.8 / 5',
-                                    ],
-                                ];
+                            $elementsReviews = [
+
+                            [
+                            'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                            'text' => 'Escala / plataforma CRM',
+                            'points' => '4.9 / 5',
+                            ],
+                            [
+                            'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                            'text' => 'Escala / plataforma CRM',
+                            'points' => '4.8 / 5',
+                            ],
+                            [
+                            'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
+                            'text' => 'Escala / plataforma CRM',
+                            'points' => '4.8 / 5',
+                            ]
+                            ];
                             @endphp
 
                             <div class="elements">
                                 {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/08-implementacion-2023.png') !!}" loading="lazy"> --}}
 
                                 @foreach ($elementsReviews as $item)
-                                    <div class="refersElement">
+                                <div class="refersElement">
 
-                                        <div class="infoInner">
-                                            <div class="tag">
-                                                <div class="containerImage">
-                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                </div>
-
-                                                <span class="points">
-                                                    {!! $item['points'] !!}
-                                                </span>
-                                            </div>
-                                            <p class="text">
-                                                {!! $item['text'] !!}
-                                            </p>
-                                            <div class="stars">
-                                                <div class="containerImage">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                </div>
+                                    <div class="infoInner">
+                                        <div class="tag">
+                                            <div class="containerImage">
+                                                <img src="{!! $item['logo'] !!}" loading="lazy">
                                             </div>
 
+                                            <span class="points">
+                                                {!! $item['points'] !!}
+                                            </span>
+                                        </div>
+                                        <p class="text">
+                                            {!! $item['text'] !!}
+                                        </p>
+                                        <div class="stars">
+                                            <div class="containerImage">
+                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                            </div>
                                         </div>
 
                                     </div>
+
+                                </div>
                                 @endforeach
 
                             </div>
@@ -227,19 +228,19 @@
 
 
                                         @php
-                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                            $_rs = [];
-                                            $_formShortcode = null;
-                                            if ($_data = get_posts($_args)) {
-                                                foreach ($_data as $_key) {
-                                                    $_rs[$_key->ID] = $_key->post_title;
-                                                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                                    }
-                                                }
-                                            } else {
-                                                $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                            }
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
                                         @endphp
                                         {!! do_shortcode($_formShortcode) !!}
 
@@ -258,53 +259,54 @@
                         <div class="containElements col-md-12 col-lg.8">
 
                             @php
-                                $elementsReviews = [
-                                    [
-                                        'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
-                                        'text' => 'Escala / plataforma CRM',
-                                        'points' => '4.8 / 5',
-                                    ],
-                                    [
-                                        'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
-                                        'text' => 'Escala / plataforma CRM',
-                                        'points' => '4.9 / 5',
-                                    ],
-                                    [
-                                        'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
-                                        'text' => 'Escala / plataforma CRM',
-                                        'points' => '4.8 / 5',
-                                    ],
-                                ];
+                            $elementsReviews = [
+
+                            [
+                            'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                            'text' => 'Escala / plataforma CRM',
+                            'points' => '4.9 / 5',
+                            ],
+                            [
+                            'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                            'text' => 'Escala / plataforma CRM',
+                            'points' => '4.8 / 5',
+                            ],
+                            [
+                            'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
+                            'text' => 'Escala / plataforma CRM',
+                            'points' => '4.8 / 5',
+                            ]
+                            ];
                             @endphp
 
                             <div class="elements">
                                 {{-- <img src="{!! App::setFilePath('/assets/images/illustrations/others/08-implementacion-2023.png') !!}" loading="lazy"> --}}
 
                                 @foreach ($elementsReviews as $item)
-                                    <div class="refersElement">
+                                <div class="refersElement">
 
-                                        <div class="infoInner">
-                                            <div class="tag">
-                                                <div class="containerImage">
-                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                </div>
-
-                                                <span class="points">
-                                                    {!! $item['points'] !!}
-                                                </span>
-                                            </div>
-                                            <p class="text">
-                                                {!! $item['text'] !!}
-                                            </p>
-                                            <div class="stars">
-                                                <div class="containerImage">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                </div>
+                                    <div class="infoInner">
+                                        <div class="tag">
+                                            <div class="containerImage">
+                                                <img src="{!! $item['logo'] !!}" loading="lazy">
                                             </div>
 
+                                            <span class="points">
+                                                {!! $item['points'] !!}
+                                            </span>
+                                        </div>
+                                        <p class="text">
+                                            {!! $item['text'] !!}
+                                        </p>
+                                        <div class="stars">
+                                            <div class="containerImage">
+                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                            </div>
                                         </div>
 
                                     </div>
+
+                                </div>
                                 @endforeach
 
                             </div>
@@ -423,7 +425,7 @@
                             </div> --}}
 
                             <div class="col-md-12 col-lg-4 cardParent column-2">
-                                     <img src="{!! App::setFilePath('/assets/images/icons/icon_plus_blue.svg') !!}" alt="" class="iconPlus left">
+                                <img src="{!! App::setFilePath('/assets/images/icons/icon_plus_blue.svg') !!}" alt="" class="iconPlus left">
                                 <div style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/background_imp_section.png') !!}')" class="card">
                                     <div class="card-body">
                                         <h5 class="card-number">2</h5>
@@ -482,35 +484,35 @@
                                     <div class="ele video col-md-12">
 
                                         @php
-                                            $videoEmbed = App::setFilePath('/assets/videos/video escala optimizado.mp4');
-                                            $videoCover = App::setFilePath('/assets/images/person/Portadas-de-videos_Mesa-de-trabajo.jpg');
+                                        $videoEmbed = App::setFilePath('/assets/videos/video escala optimizado.mp4');
+                                        $videoCover = App::setFilePath('/assets/images/person/Portadas-de-videos_Mesa-de-trabajo.jpg');
                                         @endphp
 
                                         @if (isset($videoEmbed) && $videoEmbed != null)
-                                            <div class="youtubeImageContainer ">
+                                        <div class="youtubeImageContainer ">
 
-                                                <img src="{!! App::setFilePath('/assets/images/overlays/video_box_left.svg') !!}" alt=""
-                                                    class="overlayLeft">
+                                            <img src="{!! App::setFilePath('/assets/images/overlays/video_box_left.svg') !!}" alt=""
+                                                class="overlayLeft">
 
-                                                <video class="video-js" controls preload="none"
-                                                    poster="{{ $videoCover }}" {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                                    data-setup="{
+                                            <video class="video-js" controls preload="none"
+                                                poster="{{ $videoCover }}" {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                                data-setup="{
                                   autoplay: false
                                 }">
-                                                    <source src="{{ $videoEmbed }}" type="video/mp4" />
-                                                    <source src="{{ $videoEmbed }}" type="video/webm" />
-                                                    <p class="vjs-no-js">
-                                                        To view this video please enable JavaScript, and consider
-                                                        upgrading to a
-                                                        web browser that
-                                                        <a href="https://videojs.com/html5-video-support/"
-                                                            target="_blank">supports
-                                                            HTML5 video</a>
-                                                    </p>
-                                                </video>
+                                                <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                                <source src="{{ $videoEmbed }}" type="video/webm" />
+                                                <p class="vjs-no-js">
+                                                    To view this video please enable JavaScript, and consider
+                                                    upgrading to a
+                                                    web browser that
+                                                    <a href="https://videojs.com/html5-video-support/"
+                                                        target="_blank">supports
+                                                        HTML5 video</a>
+                                                </p>
+                                            </video>
 
 
-                                            </div>
+                                        </div>
                                         @endif
 
                                     </div>
@@ -526,30 +528,30 @@
         </section>
 
         @php
-            $desk_reviews = [
-                [
-                    'area' => 'Finanzas',
-                    'text' => '
-                        <strong>“Gracias a Escala ahorramos 70% del tiempo invertido</strong> por el equipo comercial en tareas operativas y aumentamos 20% la cantidad de clientes.”
-                        ',
-                    'logo' => App::setFilePath('/assets/images/logos/logo_saeta.png'),
-                    'name' => 'Claudio Radovich, Fundador',
-                ],
-                [
-                    'area' => 'Consultoría',
-                    'text' => '
-                        <strong>“Logramos 2X nuestra facturación</strong> en menos de 6 meses y multiplicar 4X los nuevos leads gracias a Escala.”
-                        ',
-                    'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
-                    'name' => 'William Ávila, CEO',
-                ],
-                [
-                    'area' => 'Salud y bienestar',
-                    'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
-                    'logo' => App::setFilePath('/assets/images/logos/logo_rgg.png'),
-                    'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
-                ],
-            ];
+        $desk_reviews = [
+        [
+        'area' => 'Finanzas',
+        'text' => '
+        <strong>“Gracias a Escala ahorramos 70% del tiempo invertido</strong> por el equipo comercial en tareas operativas y aumentamos 20% la cantidad de clientes.”
+        ',
+        'logo' => App::setFilePath('/assets/images/logos/logo_saeta.png'),
+        'name' => 'Claudio Radovich, Fundador',
+        ],
+        [
+        'area' => 'Consultoría',
+        'text' => '
+        <strong>“Logramos 2X nuestra facturación</strong> en menos de 6 meses y multiplicar 4X los nuevos leads gracias a Escala.”
+        ',
+        'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
+        'name' => 'William Ávila, CEO',
+        ],
+        [
+        'area' => 'Salud y bienestar',
+        'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
+        'logo' => App::setFilePath('/assets/images/logos/logo_rgg.png'),
+        'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
+        ],
+        ];
 
         @endphp
 
@@ -618,17 +620,17 @@
 
                             @php
 
-                                $elements = [
-                                    [
-                                        'title' => 'Identificar fortalezas y oportunidades de mejora',
-                                    ],
-                                    [
-                                        'title' => 'Mostrar nuevas herramientas desplegadas',
-                                    ],
-                                    [
-                                        'title' => 'Definir nuevo plan de crecimiento',
-                                    ],
-                                ];
+                            $elements = [
+                            [
+                            'title' => 'Identificar fortalezas y oportunidades de mejora',
+                            ],
+                            [
+                            'title' => 'Mostrar nuevas herramientas desplegadas',
+                            ],
+                            [
+                            'title' => 'Definir nuevo plan de crecimiento',
+                            ],
+                            ];
 
                             @endphp
 
@@ -636,20 +638,20 @@
 
                                 <ul class="elements">
                                     @foreach ($elements as $item)
-                                        <li class="item">
-                                            <div class="containerImage">
-                                                <img alt="Landing Escala Landings" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}"
-                                                    alt="" loading="lazy">
-                                            </div>
-                                            <div class="text">
-                                                <h3>
-                                                    {!! $item['title'] !!}
-                                                </h3>
-                                                <p class="text">
-                                                    {!! $item['text'] !!}
-                                                </p>
-                                            </div>
-                                        </li>
+                                    <li class="item">
+                                        <div class="containerImage">
+                                            <img alt="Landing Escala Landings" src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}"
+                                                alt="" loading="lazy">
+                                        </div>
+                                        <div class="text">
+                                            <h3>
+                                                {!! $item['title'] !!}
+                                            </h3>
+                                            <p class="text">
+                                                {!! $item['text'] !!}
+                                            </p>
+                                        </div>
+                                    </li>
                                     @endforeach
                                 </ul>
 
@@ -859,58 +861,58 @@
                                 <div id="carousel-testimonials-desktop" class="owl-carousel owl-theme">
 
                                     @if (isset($desk_reviews) && $desk_reviews != null)
-                                        @foreach ($desk_reviews as $index => $item)
-                                            <div class="item @if ($index === array_key_first($desk_reviews)) active @endif ">
+                                    @foreach ($desk_reviews as $index => $item)
+                                    <div class="item @if ($index === array_key_first($desk_reviews)) active @endif ">
 
-                                                <div class="testimonial">
+                                        <div class="testimonial">
 
-                                                    <div class="containElements">
+                                            <div class="containElements">
 
-                                                        <div class="area">
-                                                            <h3>
-                                                                {!! $item['area'] !!}
-                                                            </h3>
-                                                        </div>
-
-                                                        <div class="quote">
-                                                            <div class="containerImage">
-                                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
-                                                            </div>
-                                                        </div>
-
-                                                        <p class="text">
-                                                            {!! $item['text'] !!}
-                                                        </p>
-
-                                                        <div class="byCompany">
-                                                            <div class="logo">
-                                                                <div class="containerImage">
-                                                                    <img alt="TrustPilot review"
-                                                                        src="{!! $item['logo'] !!}" alt=""
-                                                                        loading="lazy">
-                                                                </div>
-                                                            </div>
-                                                            <div class="data">
-                                                                <span class="name">
-                                                                    {!! $item['name'] !!}
-                                                                </span>
-                                                                <div class="stars">
-                                                                    <div class="containerImage">
-                                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}"
-                                                                            loading="lazy">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-
-
+                                                <div class="area">
+                                                    <h3>
+                                                        {!! $item['area'] !!}
+                                                    </h3>
                                                 </div>
 
+                                                <div class="quote">
+                                                    <div class="containerImage">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
+                                                    </div>
+                                                </div>
+
+                                                <p class="text">
+                                                    {!! $item['text'] !!}
+                                                </p>
+
+                                                <div class="byCompany">
+                                                    <div class="logo">
+                                                        <div class="containerImage">
+                                                            <img alt="TrustPilot review"
+                                                                src="{!! $item['logo'] !!}" alt=""
+                                                                loading="lazy">
+                                                        </div>
+                                                    </div>
+                                                    <div class="data">
+                                                        <span class="name">
+                                                            {!! $item['name'] !!}
+                                                        </span>
+                                                        <div class="stars">
+                                                            <div class="containerImage">
+                                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}"
+                                                                    loading="lazy">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
                                             </div>
-                                        @endforeach
+
+
+                                        </div>
+
+
+                                    </div>
+                                    @endforeach
                                     @endif
 
                                 </div>
@@ -989,7 +991,7 @@
                 <section class="innerSectionElement sct2">
 
 
-                     <div class="groupElements card-1">
+                    <div class="groupElements card-1">
 
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_blue.png') !!}" alt="" class="backOverlay">
 
@@ -1056,67 +1058,67 @@
         </section>
 
         @php
-            $escalaUrl = 'https://escala.com';
-            $items = [
-                [
-                    'type' => 'master',
-                    'title' => '¿Cuántas horas tengo disponibles con mi Gerente de Éxito?',
-                    'text' => '
-            <p class="text"><strong>En el Plan Pro:</strong></p> <br class="space">
-            <ul style="list-style: disc; padding-left: 20px">
-                <li>8 horas el primer año que puedes consumir a tu propio ritmo</li>
-                <li>4 horas por año a partir del segundo año</li>
-            </ul>
-            <br class="space">
-            <p class="text primaryText grayColorTexts">El Plan Starter no incluye un Gerente de Éxito asignado.</p>
-          ',
-                ],
-                [
-                    'type' => 'master',
-                    'title' => '¿Cuántas horas de entrenamiento privado tengo disponibles?',
-                    'text' => '
-            <p class="text"><strong>En el Plan Pro:</strong></p> <br class="space">
-            <ul style="list-style: disc; padding-left: 20px">
-                <li>4 horas el primer año que puedes consumir a tu propio ritmo</li>
-                <li>2 horas por año a partir del segundo año</li>
-            </ul>
-            <br class="space">
-            <p class="text primaryText grayColorTexts">El Plan Starter no incluye un entrenamiento privado.</p>
-          ',
-                ],
-                [
-                    'type' => 'master',
-                    'title' => '¿Qué pasa si necesito más horas con mi Gerente de Éxito o de entrenamiento privado?',
-                    'text' => '
-            <p class="text primaryText grayColorTexts">Puedes solicitar e invertir en horas adicionales. Lo coordinas directamente con tu Gerente de Éxito asignado.</p>
-          ',
-                ],
-                [
-                    'type' => 'master',
-                    'title' => '¿El Gerente de Éxito puede implementar acciones en mi cuenta de Escala?',
-                    'text' => '
-            <p class="text primaryText grayColorTexts">No. El Gerente de Éxito sirve de guía para que aprovechen las herramientas al máximo. La responsabilidad de ejecutar las estrategias y campañas es de cada cliente.</p>
-          ',
-                ],
-                [
-                    'type' => 'master',
-                    'title' => '¿Cómo me reúno con mi Gerente de Éxito? ',
-                    'text' => '
-            <p class="text primaryText grayColorTexts">Los contactos ocurren por Zoom, Email y WhatsApp dependiendo dell objetivo y la duración de los mismos.</p>
-          ',
-                ],
-            ];
+        $escalaUrl = 'https://escala.com';
+        $items = [
+        [
+        'type' => 'master',
+        'title' => '¿Cuántas horas tengo disponibles con mi Gerente de Éxito?',
+        'text' => '
+        <p class="text"><strong>En el Plan Pro:</strong></p> <br class="space">
+        <ul style="list-style: disc; padding-left: 20px">
+            <li>8 horas el primer año que puedes consumir a tu propio ritmo</li>
+            <li>4 horas por año a partir del segundo año</li>
+        </ul>
+        <br class="space">
+        <p class="text primaryText grayColorTexts">El Plan Starter no incluye un Gerente de Éxito asignado.</p>
+        ',
+        ],
+        [
+        'type' => 'master',
+        'title' => '¿Cuántas horas de entrenamiento privado tengo disponibles?',
+        'text' => '
+        <p class="text"><strong>En el Plan Pro:</strong></p> <br class="space">
+        <ul style="list-style: disc; padding-left: 20px">
+            <li>4 horas el primer año que puedes consumir a tu propio ritmo</li>
+            <li>2 horas por año a partir del segundo año</li>
+        </ul>
+        <br class="space">
+        <p class="text primaryText grayColorTexts">El Plan Starter no incluye un entrenamiento privado.</p>
+        ',
+        ],
+        [
+        'type' => 'master',
+        'title' => '¿Qué pasa si necesito más horas con mi Gerente de Éxito o de entrenamiento privado?',
+        'text' => '
+        <p class="text primaryText grayColorTexts">Puedes solicitar e invertir en horas adicionales. Lo coordinas directamente con tu Gerente de Éxito asignado.</p>
+        ',
+        ],
+        [
+        'type' => 'master',
+        'title' => '¿El Gerente de Éxito puede implementar acciones en mi cuenta de Escala?',
+        'text' => '
+        <p class="text primaryText grayColorTexts">No. El Gerente de Éxito sirve de guía para que aprovechen las herramientas al máximo. La responsabilidad de ejecutar las estrategias y campañas es de cada cliente.</p>
+        ',
+        ],
+        [
+        'type' => 'master',
+        'title' => '¿Cómo me reúno con mi Gerente de Éxito? ',
+        'text' => '
+        <p class="text primaryText grayColorTexts">Los contactos ocurren por Zoom, Email y WhatsApp dependiendo dell objetivo y la duración de los mismos.</p>
+        ',
+        ],
+        ];
 
-            $parameters = [
-                'classSection' => 'acompanamiento-2023-10',
-                'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-                'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-                'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-                'items' => $items,
-                    'title' => '
-    Preguntas <span>frecuentes</span>
-   ',
-            ];
+        $parameters = [
+        'classSection' => 'acompanamiento-2023-10',
+        'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+        'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+        'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+        'items' => $items,
+        'title' => '
+        Preguntas <span>frecuentes</span>
+        ',
+        ];
         @endphp
         @contain_FAQ_T1($parameters)
         @endcontain_FAQ_T1

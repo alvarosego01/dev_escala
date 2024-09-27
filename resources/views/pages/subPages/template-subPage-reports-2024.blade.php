@@ -3,23 +3,24 @@
     <div class="sections">
 
         @php
-            $elementsReviews = [
-                [
-                    'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
-                    'text' => 'Escala / plataforma CRM',
-                    'points' => '4.8 / 5',
-                ],
-                [
-                    'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
-                    'text' => 'Escala / plataforma CRM',
-                    'points' => '4.9 / 5',
-                ],
-                [
-                    'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
-                    'text' => 'Escala / plataforma CRM',
-                    'points' => '4.8 / 5',
-                ],
-            ];
+        $elementsReviews = [
+
+        [
+        'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+        'text' => 'Escala / plataforma CRM',
+        'points' => '4.9 / 5',
+        ],
+        [
+        'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+        'text' => 'Escala / plataforma CRM',
+        'points' => '4.8 / 5',
+        ],
+        [
+        'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
+        'text' => 'Escala / plataforma CRM',
+        'points' => '4.8 / 5',
+        ]
+        ];
         @endphp
 
         <section id="lead-form"
@@ -66,60 +67,60 @@
                                         </p>
 
                                         @php
-                                            $elements = [
-                                                [
-                                                    'text' => '<strong>Software</strong> completo <br class="space"> y fácil de usar',
-                                                ],
-                                                [
-                                                    'text' => '<strong>Entrenamiento</strong> <br class="space">
-                                                    estratégico y técnico',
-                                                ],
-                                                [
-                                                    'text' => '<strong>Acompañamiento</strong> <br class="space">
-                                                    personalizado',
-                                                ],
-                                            ];
+                                        $elements = [
+                                        [
+                                        'text' => '<strong>Software</strong> completo <br class="space"> y fácil de usar',
+                                        ],
+                                        [
+                                        'text' => '<strong>Entrenamiento</strong> <br class="space">
+                                        estratégico y técnico',
+                                        ],
+                                        [
+                                        'text' => '<strong>Acompañamiento</strong> <br class="space">
+                                        personalizado',
+                                        ],
+                                        ];
                                         @endphp
 
                                         <div class="features">
                                             @foreach ($elements as $item)
-                                                <div class="element">
-                                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon_check_orange.png') }}"
-                                                        alt="" class="icon">
-                                                    <h5 class="text">
-                                                        {!! $item['text'] !!}
-                                                    </h5>
-                                                </div>
+                                            <div class="element">
+                                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon_check_orange.png') }}"
+                                                    alt="" class="icon">
+                                                <h5 class="text">
+                                                    {!! $item['text'] !!}
+                                                </h5>
+                                            </div>
                                             @endforeach
                                         </div>
 
                                         <div class="elements hideOnmobile hideOnTablet">
 
                                             @foreach ($elementsReviews as $item)
-                                                <div class="refersElement">
+                                            <div class="refersElement">
 
-                                                    <div class="infoInner">
-                                                        <div class="tag">
-                                                            <div class="containerImage">
-                                                                <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                            </div>
-
-                                                            <span class="points">
-                                                                {!! $item['points'] !!}
-                                                            </span>
-                                                        </div>
-                                                        <p class="text">
-                                                            {!! $item['text'] !!}
-                                                        </p>
-                                                        <div class="stars">
-                                                            <div class="containerImage">
-                                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                            </div>
+                                                <div class="infoInner">
+                                                    <div class="tag">
+                                                        <div class="containerImage">
+                                                            <img src="{!! $item['logo'] !!}" loading="lazy">
                                                         </div>
 
+                                                        <span class="points">
+                                                            {!! $item['points'] !!}
+                                                        </span>
+                                                    </div>
+                                                    <p class="text">
+                                                        {!! $item['text'] !!}
+                                                    </p>
+                                                    <div class="stars">
+                                                        <div class="containerImage">
+                                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                                        </div>
                                                     </div>
 
                                                 </div>
+
+                                            </div>
                                             @endforeach
 
                                         </div>
@@ -142,19 +143,19 @@
 
 
                                         @php
-                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                            $_rs = [];
-                                            $_formShortcode = null;
-                                            if ($_data = get_posts($_args)) {
-                                                foreach ($_data as $_key) {
-                                                    $_rs[$_key->ID] = $_key->post_title;
-                                                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                                    }
-                                                }
-                                            } else {
-                                                $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                            }
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
                                         @endphp
                                         {!! do_shortcode($_formShortcode) !!}
 
@@ -178,30 +179,30 @@
                                 <div class="elements">
 
                                     @foreach ($elementsReviews as $item)
-                                        <div class="refersElement">
+                                    <div class="refersElement">
 
-                                            <div class="infoInner">
-                                                <div class="tag">
-                                                    <div class="containerImage">
-                                                        <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                    </div>
-
-                                                    <span class="points">
-                                                        {!! $item['points'] !!}
-                                                    </span>
-                                                </div>
-                                                <p class="text">
-                                                    {!! $item['text'] !!}
-                                                </p>
-                                                <div class="stars">
-                                                    <div class="containerImage">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                    </div>
+                                        <div class="infoInner">
+                                            <div class="tag">
+                                                <div class="containerImage">
+                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
                                                 </div>
 
+                                                <span class="points">
+                                                    {!! $item['points'] !!}
+                                                </span>
+                                            </div>
+                                            <p class="text">
+                                                {!! $item['text'] !!}
+                                            </p>
+                                            <div class="stars">
+                                                <div class="containerImage">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                                </div>
                                             </div>
 
                                         </div>
+
+                                    </div>
                                     @endforeach
 
                                 </div>
@@ -226,59 +227,59 @@
 
 
         @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_reports_1',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-    <small>
-        Olvídate de las fórmulas complicadas de Excel o <br class="space">
-        de los sistemas de BI difíciles de integrar
-    </small>
-  Los reportes de Escala simplifican:
-    ',
-                'subTitlePrincipal' => null,
-                'overlay' => false,
-                'enableButton' => false,
-                'elements' => [
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_report_1.png'),
-                        'title' => '
-                Medir
-                ',
-                        'text' => '
-                Los resultados de <br class="space">
-                tus esfuerzos <br class="space">
-                de marketing y ventas
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_report_2.png'),
-                        'title' => '
-                    Analizar
-            ',
-                        'text' => '
-                Rápidamente lo que <br class="space">
-                funciona y las <br class="space">
-                oportunidades de mejora
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_report_3.png'),
-                        'title' => '
-            Optimizar
-            ',
-                        'text' => '
-                Tu éxito comercial con <br class="space">
-                cambios estratégicos <br class="space">
-                basados en data
-            ',
-                        'enableButton' => false,
-                    ],
-                ],
-            ];
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_reports_1',
+        'enableTitle' => true,
+        'titlePrincipal' => '
+        <small>
+            Olvídate de las fórmulas complicadas de Excel o <br class="space">
+            de los sistemas de BI difíciles de integrar
+        </small>
+        Los reportes de Escala simplifican:
+        ',
+        'subTitlePrincipal' => null,
+        'overlay' => false,
+        'enableButton' => false,
+        'elements' => [
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_report_1.png'),
+        'title' => '
+        Medir
+        ',
+        'text' => '
+        Los resultados de <br class="space">
+        tus esfuerzos <br class="space">
+        de marketing y ventas
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_report_2.png'),
+        'title' => '
+        Analizar
+        ',
+        'text' => '
+        Rápidamente lo que <br class="space">
+        funciona y las <br class="space">
+        oportunidades de mejora
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_report_3.png'),
+        'title' => '
+        Optimizar
+        ',
+        'text' => '
+        Tu éxito comercial con <br class="space">
+        cambios estratégicos <br class="space">
+        basados en data
+        ',
+        'enableButton' => false,
+        ],
+        ],
+        ];
         @endphp
 
         @contain_multiple_cards_T2($parameters)
@@ -314,54 +315,55 @@
                             <div class="col-md-12 col-lg-5 selectors">
 
                                 @php
-                                    $elements = [
-                                        [
-                                            'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_01.png'),
-                                            'title' => 'Leads generados',
-                                            'icon' => null,
-                                            'text' => '
-                                                Conoce la cantidad de prospectos que <br class="DT_e"> conseguiste en un periodo de tiempo.
-                                                ',
-                                        ],
-                                        [
-                                            'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_02.png'),
-                                            'title' => 'Cumplimiento en ventas',
-                                            'icon' => null,
-                                            'text' => '
-                                            Compara el resultado comercial, frente <br class="DT_e"> a los objetivos proyectados.',
-                                        ],
-                                        [
-                                            'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_03.png'),
-                                            'title' => 'Perfil de tus contactos',
-                                            'icon' => null,
-                                            'text' => '
-                                                Explora fácilmente la distribución <br class="DT_e"> de perfiles entre clientes y prospectos.',
-                                        ],
-                                        [
-                                            'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_04.png'),
-                                            'title' => 'Estado de tu embudo',
-                                            'icon' => null,
-                                            'text' => '
-                                            Mide, evalúa y optimiza las etapas <br class="DT_e"> de tu proceso comercial.',
-                                        ],
-                                    ];
+                                $elements = [
+                                [
+                                'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_01.png'),
+                                'title' => 'Leads generados',
+                                'icon' => null,
+                                'text' => '
+                                Conoce la cantidad de prospectos que <br class="DT_e"> conseguiste en un periodo de tiempo.
+                                ',
+                                ],
+                                [
+                                'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_02.png'),
+                                'title' => 'Cumplimiento en ventas',
+                                'icon' => null,
+                                'text' => '
+                                Compara el resultado comercial, frente <br class="DT_e"> a los objetivos proyectados.',
+                                ],
+                                [
+                                'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_03.png'),
+                                'title' => 'Perfil de tus contactos',
+                                'icon' => null,
+                                'text' => '
+                                Explora fácilmente la distribución <br class="DT_e"> de perfiles entre clientes y prospectos.',
+                                ],
+                                [
+                                'img' => App::setFilePath('/assets/images/illustrations/others/reports_features_04.png'),
+                                'title' => 'Estado de tu embudo',
+                                'icon' => null,
+                                'text' => '
+                                Mide, evalúa y optimiza las etapas <br class="DT_e"> de tu proceso comercial.',
+                                ],
+                                ];
                                 @endphp
 
                                 <ul class="elements selectorInfo">
 
                                     @foreach ($elements as $item)
-                                        <li class="element    @if ($loop->first) active @endif"
-                                            info_index="{!! $loop->index !!}">
-                                            <h3>
-                                                {!! $item['title'] !!}
-                                            </h3>
-                                        </li>
+                                    <li class="element    @if ($loop->first) active @endif"
+                                        info_index="{!! $loop->index !!}">
+                                        <h3>
+                                            {!! $item['title'] !!}
+                                        </h3>
+                                    </li>
                                     @endforeach
 
                                 </ul>
 
                                 <script type="text/javascript">
-                                    var infoArray = @php echo json_encode($elements); @endphp;
+                                    var infoArray = @php echo json_encode($elements);
+                                    @endphp;
 
                                     jQuery('ul.selectorInfo li').click(function(e) {
 
@@ -422,185 +424,185 @@
         </section>
 
         @php
-            $elements = [
-                [
-                    'type' => 'backgroundColor',
-                    'classSection' => 'subPage_reports_3',
-                    'enableTitle' => true,
-                    'titlePrincipal' => '
-                    Crear potentes reportes de marketing y ventas <br class="DT_e">
-                    se logra en pocos clics
-                ',
-                    'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/1.reports_Plantillas-listas-para-usar.gif'),
-                    'title' => '
-                    Ahorra tiempo con <br class="space">
-                    <span>plantillas pre-diseñadas</span>
-                ',
-                    'text' => '
-                    En Escala encontrarás reportes <br class="DT_e">
-                    “base” para agilizar la construcción <br class="DT_e">
-                    de los mismos.
-                ',
-                    'enableButton' => false,
-                    'urlButton' => '#lead-form',
-                    'textButton' => 'Recibe un demo',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                    'side' => 'left',
-                ],
-                [
-                    'type' => 'backgroundColor',
-                    'classSection' => 'subPage_reports_4',
-                    'enableTitle' => false,
-                    'titlePrincipal' => null,
-                    'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/2.reports_Reportes desde cero.gif'),
-                    'title' => '
-                        Construye reportes <br class="space">
-                        <span>fácilmente desde cero</span>
-                ',
-                    'text' => '
-                    ¿No encuentras la plantilla que necesitas? <br class="DT_e">
-                    ¡Calma! construye en pocos pasos los <br class="DT_e">
-                    reportes que necesitas.
-                ',
-                    'enableButton' => false,
-                    'urlButton' => '#lead-form',
-                    'textButton' => 'Recibe un demo',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                    'side' => 'right',
-                ],
-                [
-                    'type' => 'backgroundColor',
-                    'classSection' => 'subPage_reports_5',
-                    'enableTitle' => false,
-                    'titlePrincipal' => null,
-                    'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/3.reports_Distintos tipos de gráficos.gif'),
-                    'title' => '
-                    Crea distintos tipos <br class="space">
-                    <span>de gráficos</span>
-                ',
-                    'text' => '
-                    En Escala puedes generar pie charts, <br class="DT_e">
-                    gráficos de barra, embudos, y más.
-                ',
-                    'enableButton' => false,
-                    'urlButton' => '#lead-form',
-                    'textButton' => 'Recibe un demo',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                    'side' => 'left',
-                ],
-                [
-                    'type' => 'backgroundColor',
-                    'classSection' => 'subPage_reports_6',
-                    'enableTitle' => false,
-                    'titlePrincipal' => null,
-                    'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/4.reports_Reportes-en-tiempo-real.gif'),
-                    'title' => '
-                Actualización de la data <br class="space">
-                <span>en tiempo real</span>
-                ',
-                    'text' => '
-                    Encuentra datos siempre frescos para <br class="DT_e">
-                    construir reportes que van al ritmo <br class="DT_e">
-                    de tu negocio.
-                ',
-                    'enableButton' => false,
-                    'urlButton' => '#lead-form',
-                    'textButton' => 'Recibe un demo',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                    'side' => 'right',
-                ],
-                [
-                    'type' => 'backgroundColor',
-                    'classSection' => 'subPage_reports_6',
-                    'enableTitle' => false,
-                    'titlePrincipal' => null,
-                    'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/5.reports_Vista simplificada.gif'),
-                    'title' => '
-                    Vistas amigables <br class="space">
-                    <span>simplifican el análisis</span>
-                ',
-                    'text' => '
-                    Diseñamos reportes visualmente <br class="DT_e">
-                    atractivos porque leer data de esta forma <br class="DT_e">
-                    permite tomar decisiones más ágilmente.
-                ',
-                    'enableButton' => false,
-                    'urlButton' => '#lead-form',
-                    'textButton' => 'Recibe un demo',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                    'side' => 'left',
-                ],
-                [
-                    'type' => 'backgroundColor',
-                    'classSection' => 'subPage_reports_7',
-                    'enableTitle' => false,
-                    'titlePrincipal' => null,
-                    'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/gifs/6.reports_descargas.gif'),
-                    'title' => '
-                    Descarga los reportes <br class="space">
-                    <span>para compartir</span>
-                ',
-                    'text' => '
-                    Con un solo clic podrás descargar <br class="DT_e">
-                    los reportes en formato Excel.
-                ',
-                    'enableButton' => false,
-                    'urlButton' => '#lead-form',
-                    'textButton' => 'Recibe un demo',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                    'side' => 'right',
-                ],
-                [
-                    'type' => 'backgroundColor',
-                    'classSection' => 'subPage_reports_8',
-                    'enableTitle' => false,
-                    'titlePrincipal' => null,
-                    'subTitlePrincipal' => null,
-                    'img' => App::setFilePath('/assets/images/illustrations/others/personaliza_dashboard.png'),
-                    'title' => '
-                    Personaliza <br class="space">
-                    <span>tu dashboard</span>
-                ',
-                    'text' => '
-                    Arma vistas a medida con tus reportes <br class="DT_e">
-                    favoritos para que los accedas <br class="DT_e">
-                    convenientemente.
-                ',
-                    'enableButton' => false,
-                    'urlButton' => '#lead-form',
-                    'textButton' => 'Recibe un demo',
-                    'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                    'side' => 'left',
-                ],
-            ];
+        $elements = [
+        [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_reports_3',
+        'enableTitle' => true,
+        'titlePrincipal' => '
+        Crear potentes reportes de marketing y ventas <br class="DT_e">
+        se logra en pocos clics
+        ',
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/gifs/1.reports_Plantillas-listas-para-usar.gif'),
+        'title' => '
+        Ahorra tiempo con <br class="space">
+        <span>plantillas pre-diseñadas</span>
+        ',
+        'text' => '
+        En Escala encontrarás reportes <br class="DT_e">
+        “base” para agilizar la construcción <br class="DT_e">
+        de los mismos.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ],
+        [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_reports_4',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/gifs/2.reports_Reportes desde cero.gif'),
+        'title' => '
+        Construye reportes <br class="space">
+        <span>fácilmente desde cero</span>
+        ',
+        'text' => '
+        ¿No encuentras la plantilla que necesitas? <br class="DT_e">
+        ¡Calma! construye en pocos pasos los <br class="DT_e">
+        reportes que necesitas.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'right',
+        ],
+        [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_reports_5',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/gifs/3.reports_Distintos tipos de gráficos.gif'),
+        'title' => '
+        Crea distintos tipos <br class="space">
+        <span>de gráficos</span>
+        ',
+        'text' => '
+        En Escala puedes generar pie charts, <br class="DT_e">
+        gráficos de barra, embudos, y más.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ],
+        [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_reports_6',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/gifs/4.reports_Reportes-en-tiempo-real.gif'),
+        'title' => '
+        Actualización de la data <br class="space">
+        <span>en tiempo real</span>
+        ',
+        'text' => '
+        Encuentra datos siempre frescos para <br class="DT_e">
+        construir reportes que van al ritmo <br class="DT_e">
+        de tu negocio.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'right',
+        ],
+        [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_reports_6',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/gifs/5.reports_Vista simplificada.gif'),
+        'title' => '
+        Vistas amigables <br class="space">
+        <span>simplifican el análisis</span>
+        ',
+        'text' => '
+        Diseñamos reportes visualmente <br class="DT_e">
+        atractivos porque leer data de esta forma <br class="DT_e">
+        permite tomar decisiones más ágilmente.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ],
+        [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_reports_7',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/gifs/6.reports_descargas.gif'),
+        'title' => '
+        Descarga los reportes <br class="space">
+        <span>para compartir</span>
+        ',
+        'text' => '
+        Con un solo clic podrás descargar <br class="DT_e">
+        los reportes en formato Excel.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'right',
+        ],
+        [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_reports_8',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/personaliza_dashboard.png'),
+        'title' => '
+        Personaliza <br class="space">
+        <span>tu dashboard</span>
+        ',
+        'text' => '
+        Arma vistas a medida con tus reportes <br class="DT_e">
+        favoritos para que los accedas <br class="DT_e">
+        convenientemente.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ],
+        ];
         @endphp
 
 
         @if (isset($elements) && count($elements) > 0)
-            <section class="sectionInfo">
-                @foreach ($elements as $item)
-                    @contain_text_image_T1($item)
-                    @endcontain_text_image_T1
-                @endforeach
-                {{--
+        <section class="sectionInfo">
+            @foreach ($elements as $item)
+            @contain_text_image_T1($item)
+            @endcontain_text_image_T1
+            @endforeach
+            {{--
                      <img src="{!!  App::setFilePath('/assets/images/banners/bg_reports_1.svg') !!}" alt="" class="overlay_1">
                     <img src="{!!  App::setFilePath('/assets/images/banners/bg_reports_2.svg') !!}" alt="" class="overlay_2">
                     <img src="{!!  App::setFilePath('/assets/images/banners/bg_reports_3.svg') !!}" alt="" class="overlay_3">
                     --}}
 
-                <div class="overlay_1" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_1.svg') !!})">
-                </div>
-                <div class="overlay_2" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_2.svg') !!})">
-                </div>
-                <div class="overlay_3" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_3.svg') !!})">
-                </div>
-            </section>
+            <div class="overlay_1" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_1.svg') !!})">
+            </div>
+            <div class="overlay_2" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_2.svg') !!})">
+            </div>
+            <div class="overlay_3" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_reports_3.svg') !!})">
+            </div>
+        </section>
         @endif
 
 
@@ -706,53 +708,53 @@
         </section>
 
         @php
-            $parameters = [
-                'type' => 'backgroundImage',
-                'backgroundImageFile' => App::setFilePath('/assets/images/banners/bg_reports_5.svg'),
-                'classSection' => 'subPage_reports_11',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-  Tomar mejores decisiones estratégicas con el <br class="DT_e">
-  CRM de Escala, es muy sencillo:',
-                'subTitlePrincipal' => null,
-                'overlay' => false,
-                'enableButton' => false,
-                'elements' => [
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_talk_4.png'),
-                        'title' => null,
-                        'text' => '
-                <span>Solicita un demo</span> <br class="space">
-                y conoce el plan que <br class="space">
-                más se adapta a las <br class="space">
-                necesidades de tu empresa
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_talk_5.png'),
-                        'title' => null,
-                        'text' => '
-                            <span>Suscríbete a uno de los</span> <br class="space">
-                            planes pro de Escala y <br class="space">
-                            recibe acompañamiento <br class="space">
-                            todo el año
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_talk_6.png'),
-                        'title' => null,
-                        'text' => '
-                            <span>Empieza a escalar tus</span> <br class="space">
-                            ventas con reportes <br class="space">
-                            personalizados que <br class="space">
-                            optimizan resultados
-            ',
-                        'enableButton' => false,
-                    ],
-                ],
-            ];
+        $parameters = [
+        'type' => 'backgroundImage',
+        'backgroundImageFile' => App::setFilePath('/assets/images/banners/bg_reports_5.svg'),
+        'classSection' => 'subPage_reports_11',
+        'enableTitle' => true,
+        'titlePrincipal' => '
+        Tomar mejores decisiones estratégicas con el <br class="DT_e">
+        CRM de Escala, es muy sencillo:',
+        'subTitlePrincipal' => null,
+        'overlay' => false,
+        'enableButton' => false,
+        'elements' => [
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_talk_4.png'),
+        'title' => null,
+        'text' => '
+        <span>Solicita un demo</span> <br class="space">
+        y conoce el plan que <br class="space">
+        más se adapta a las <br class="space">
+        necesidades de tu empresa
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_talk_5.png'),
+        'title' => null,
+        'text' => '
+        <span>Suscríbete a uno de los</span> <br class="space">
+        planes pro de Escala y <br class="space">
+        recibe acompañamiento <br class="space">
+        todo el año
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_talk_6.png'),
+        'title' => null,
+        'text' => '
+        <span>Empieza a escalar tus</span> <br class="space">
+        ventas con reportes <br class="space">
+        personalizados que <br class="space">
+        optimizan resultados
+        ',
+        'enableButton' => false,
+        ],
+        ],
+        ];
         @endphp
 
         @contain_multiple_cards_T2($parameters)
@@ -793,15 +795,15 @@
                     <div class='containElements'>
 
                         @php
-                            $reviews = [App::setFilePath('/assets/images/illustrations/others/report_trust_1.png'), App::setFilePath('/assets/images/illustrations/others/report_trust_2.png'), App::setFilePath('/assets/images/illustrations/others/report_trust_3.png')];
+                        $reviews = [App::setFilePath('/assets/images/illustrations/others/report_trust_1.png'), App::setFilePath('/assets/images/illustrations/others/report_trust_2.png'), App::setFilePath('/assets/images/illustrations/others/report_trust_3.png')];
                         @endphp
 
                         @foreach ($reviews as $item)
-                            <div class="review">
-                                <div class="containerImage">
-                                    <img src="{!! $item !!}" loading="lazy">
-                                </div>
+                        <div class="review">
+                            <div class="containerImage">
+                                <img src="{!! $item !!}" loading="lazy">
                             </div>
+                        </div>
                         @endforeach
 
                     </div>

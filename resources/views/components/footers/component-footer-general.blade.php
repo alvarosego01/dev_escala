@@ -169,7 +169,7 @@
                     <div class="containerImage logoTrustPilot desktop">
 
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/trustpilo_complet.png') !!}" alt="Ilustración de la excelente calificación general de reseñas de usuarios han dejado en Trustpilot sobre Escala">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/googe_logo_footer.png') !!}" alt="Ilustración de la excelente calificación general de reseñas de usuarios han dejado en Trustpilot sobre Escala">
 
                     </div>
 

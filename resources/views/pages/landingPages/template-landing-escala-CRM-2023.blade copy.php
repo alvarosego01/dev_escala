@@ -4,11 +4,7 @@
 
         @php
         $elementsReviews = [
-        [
-        'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
-        'text' => 'Escala / plataforma CRM',
-        'points' => '4.8 / 5',
-        ],
+
         [
         'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
         'text' => 'Escala / plataforma CRM',
@@ -19,6 +15,11 @@
         'text' => 'Escala / plataforma CRM',
         'points' => '4.8 / 5',
         ],
+        [
+        'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
+        'text' => 'Escala / plataforma CRM',
+        'points' => '4.8 / 5',
+        ]
         ];
         @endphp
 
@@ -203,7 +204,7 @@
                     <div class='containElements'>
 
                         <h2 class="primaryTitle">
-                            ¿Por qué tu empresa 
+                            ¿Por qué tu empresa
                             <br class="space">
                             necesita un CRM?
                         </h2>

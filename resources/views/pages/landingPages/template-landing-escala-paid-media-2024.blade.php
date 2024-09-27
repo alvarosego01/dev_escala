@@ -5,11 +5,6 @@
         @php
         $elementsReviews = [
         [
-        'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
-        'text' => 'Escala / plataforma CRM',
-        'points' => '4.8 / 5',
-        ],
-        [
         'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
         'text' => 'Escala / plataforma CRM',
         'points' => '4.9 / 5',
@@ -19,6 +14,11 @@
         'text' => 'Escala / plataforma CRM',
         'points' => '4.8 / 5',
         ],
+        [
+        'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
+        'text' => 'Escala / plataforma CRM',
+        'points' => '4.8 / 5',
+        ]
         ];
         @endphp
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_paid_media_2024 landing_paid_media_2024_0 ">
@@ -113,7 +113,7 @@
 
 
 
-                                            @php
+                                        @php
                                         $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
                                         $_rs = [];
                                         $_formShortcode = null;

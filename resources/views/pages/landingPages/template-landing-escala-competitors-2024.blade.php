@@ -2,23 +2,24 @@
     <div class="sections">
 
         @php
-            $elementsReviews = [
-                [
-                    'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
-                    'text' => 'Escala / plataforma CRM',
-                    'points' => '4.8 / 5',
-                ],
-                [
-                    'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
-                    'text' => 'Escala / plataforma CRM',
-                    'points' => '4.9 / 5',
-                ],
-                [
-                    'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
-                    'text' => 'Escala / plataforma CRM',
-                    'points' => '4.8 / 5',
-                ],
-            ];
+        $elementsReviews = [
+
+        [
+        'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+        'text' => 'Escala / plataforma CRM',
+        'points' => '4.9 / 5',
+        ],
+        [
+        'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+        'text' => 'Escala / plataforma CRM',
+        'points' => '4.8 / 5',
+        ],
+        [
+        'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
+        'text' => 'Escala / plataforma CRM',
+        'points' => '4.8 / 5',
+        ]
+        ];
         @endphp
 
         <section id="lead-form"
@@ -65,30 +66,30 @@
                                         <div class="elements hideOnmobile hideOnTablet">
 
                                             @foreach ($elementsReviews as $item)
-                                                <div class="refersElement">
+                                            <div class="refersElement">
 
-                                                    <div class="infoInner">
-                                                        <div class="tag">
-                                                            <div class="containerImage">
-                                                                <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                            </div>
-
-                                                            <span class="points">
-                                                                {!! $item['points'] !!}
-                                                            </span>
-                                                        </div>
-                                                        <p class="text">
-                                                            {!! $item['text'] !!}
-                                                        </p>
-                                                        <div class="stars">
-                                                            <div class="containerImage">
-                                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                            </div>
+                                                <div class="infoInner">
+                                                    <div class="tag">
+                                                        <div class="containerImage">
+                                                            <img src="{!! $item['logo'] !!}" loading="lazy">
                                                         </div>
 
+                                                        <span class="points">
+                                                            {!! $item['points'] !!}
+                                                        </span>
+                                                    </div>
+                                                    <p class="text">
+                                                        {!! $item['text'] !!}
+                                                    </p>
+                                                    <div class="stars">
+                                                        <div class="containerImage">
+                                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                                        </div>
                                                     </div>
 
                                                 </div>
+
+                                            </div>
                                             @endforeach
 
                                         </div>
@@ -111,19 +112,19 @@
 
 
                                         @php
-                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                            $_rs = [];
-                                            $_formShortcode = null;
-                                            if ($_data = get_posts($_args)) {
-                                                foreach ($_data as $_key) {
-                                                    $_rs[$_key->ID] = $_key->post_title;
-                                                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                                    }
-                                                }
-                                            } else {
-                                                $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                            }
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
                                         @endphp
                                         {!! do_shortcode($_formShortcode) !!}
 
@@ -147,30 +148,30 @@
                                 <div class="elements">
 
                                     @foreach ($elementsReviews as $item)
-                                        <div class="refersElement">
+                                    <div class="refersElement">
 
-                                            <div class="infoInner">
-                                                <div class="tag">
-                                                    <div class="containerImage">
-                                                        <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                    </div>
-
-                                                    <span class="points">
-                                                        {!! $item['points'] !!}
-                                                    </span>
-                                                </div>
-                                                <p class="text">
-                                                    {!! $item['text'] !!}
-                                                </p>
-                                                <div class="stars">
-                                                    <div class="containerImage">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                    </div>
+                                        <div class="infoInner">
+                                            <div class="tag">
+                                                <div class="containerImage">
+                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
                                                 </div>
 
+                                                <span class="points">
+                                                    {!! $item['points'] !!}
+                                                </span>
+                                            </div>
+                                            <p class="text">
+                                                {!! $item['text'] !!}
+                                            </p>
+                                            <div class="stars">
+                                                <div class="containerImage">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
+                                                </div>
                                             </div>
 
                                         </div>
+
+                                    </div>
                                     @endforeach
 
                                 </div>
@@ -297,48 +298,48 @@
                         <div class="video col-md-12">
 
                             @php
-                                $videoEmbed = App::setFilePath('/assets/videos/intro_escala__crm_todo-en-uno (1080p).mp4');
-                                $videoCover = App::setFilePath('/assets/videos/intro_escala__crm_todo-en-uno (1080p).mp4');
+                            $videoEmbed = App::setFilePath('/assets/videos/intro_escala__crm_todo-en-uno (1080p).mp4');
+                            $videoCover = App::setFilePath('/assets/videos/intro_escala__crm_todo-en-uno (1080p).mp4');
                             @endphp
-  @if (isset($videoEmbed) && $videoEmbed != null)
-                                                <div class="youtubeImageContainer ">
+                            @if (isset($videoEmbed) && $videoEmbed != null)
+                            <div class="youtubeImageContainer ">
 
-                                                    <video class="video-js video_2 videoCover" autoplay muted loop>
-                                                       <source src="{{ $videoCover }}" type="video/mp4">
-                                                       Tu navegador no soporta videos HTML5.
-                                                   </video>
+                                <video class="video-js video_2 videoCover" autoplay muted loop>
+                                    <source src="{{ $videoCover }}" type="video/mp4">
+                                    Tu navegador no soporta videos HTML5.
+                                </video>
 
-                                                             <video id="video_2" class="video-js video_2" controls
-                                                       preload="none" poster="{{ $videoCover }}"
-                                                       data-setup="{
+                                <video id="video_2" class="video-js video_2" controls
+                                    preload="none" poster="{{ $videoCover }}"
+                                    data-setup="{
                                                           autoplay: false
                                                         }">
-                                                       <source src="{{ $videoEmbed }}" type="video/mp4" />
-                                                       <source src="{{ $videoEmbed }}" type="video/webm" />
-                                                       <p class="vjs-no-js">
-                                                           To view this video please enable JavaScript, and consider
-                                                           upgrading to a
-                                                           web browser that
-                                                           <a href="https://videojs.com/html5-video-support/"
-                                                               target="_blank">supports
-                                                               HTML5 video</a>
-                                                       </p>
-                                                   </video>
+                                    <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                    <source src="{{ $videoEmbed }}" type="video/webm" />
+                                    <p class="vjs-no-js">
+                                        To view this video please enable JavaScript, and consider
+                                        upgrading to a
+                                        web browser that
+                                        <a href="https://videojs.com/html5-video-support/"
+                                            target="_blank">supports
+                                            HTML5 video</a>
+                                    </p>
+                                </video>
 
 
-                                                </div>
+                            </div>
 
-                                                <script type="text/javascript">
-                                                   var player = videojs('video_2');
+                            <script type="text/javascript">
+                                var player = videojs('video_2');
 
-                                                   player.on('play', function() {
+                                player.on('play', function() {
 
-                                                       jQuery('.video_2.videoCover').remove();
+                                    jQuery('.video_2.videoCover').remove();
 
-                                                   });
-                                               </script>
+                                });
+                            </script>
 
-                                            @endif
+                            @endif
 
                         </div>
 
@@ -352,336 +353,336 @@
 
         </section>
 
-            <section class="customSection sectionParent landing_escala_competitors_brands_2024_3">
+        <section class="customSection sectionParent landing_escala_competitors_brands_2024_3">
 
-                <div class="section-row">
+            <div class="section-row">
 
-                    <section class="innerSectionElement sct0">
+                <section class="innerSectionElement sct0">
 
-                        <div class="containElements">
-                              <h2 class="primaryTitle">
-                          ¿Qué han logrado nuestros clientes?
+                    <div class="containElements">
+                        <h2 class="primaryTitle">
+                            ¿Qué han logrado nuestros clientes?
                         </h2>
+                    </div>
+
+                </section>
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+
+                        <div class="element">
+                            <p class="text">
+                                <span class="title-blue">Negocios aumentaron</span> <br class="space">
+                                <span class="number">2X</span> <br class="space">
+                                <span class="text-big">sus ingresos</span> <br class="space">
+                                <span class="text-small">en menos de 6 meses</span>
+                            </p>
+                        </div>
+                        <div class="element">
+                            <p class="text">
+                                <span class="title-blue">Empresas generaron</span> <br class="space">
+                                <span class="number">300%</span> <br class="space">
+                                <span class="text-big">más leads</span> <br class="space">
+                                <span class="text-small">en 6 meses</span>
+                            </p>
+                        </div>
+                        <div class="element">
+                            <p class="text">
+                                <span class="title-blue">Vendedores aumentaron</span> <br class="space">
+                                <span class="number">70%</span> <br class="space">
+                                <span class="text-big">la eficiencia</span> <br class="space">
+                                <span class="text-small">en procesos comerciales</span>
+                            </p>
+                        </div>
+                        <div class="element">
+                            <p class="text">
+                                <span class="title-blue">Equipos de marketing han</span> <br class="space">
+                                <span class="number">5X</span> <br class="space">
+                                <span class="text-big">tasa de ventas</span> <br class="space">
+                                <span class="text-small">recuperadas</span>
+                            </p>
                         </div>
 
-                    </section>
+                    </div>
 
-                    <section class="innerSectionElement sct1">
+                </section>
 
-                        <div class="containElements">
-
-                            <div class="element">
-                                <p class="text">
-                                    <span class="title-blue">Negocios aumentaron</span> <br class="space">
-                                    <span class="number">2X</span> <br class="space">
-                                    <span class="text-big">sus ingresos</span> <br class="space">
-                                    <span class="text-small">en menos de 6 meses</span>
-                                </p>
-                            </div>
-                            <div class="element">
-                                <p class="text">
-                                    <span class="title-blue">Empresas generaron</span> <br class="space">
-                                    <span class="number">300%</span> <br class="space">
-                                    <span class="text-big">más leads</span> <br class="space">
-                                    <span class="text-small">en 6 meses</span>
-                                </p>
-                            </div>
-                            <div class="element">
-                                <p class="text">
-                                    <span class="title-blue">Vendedores aumentaron</span> <br class="space">
-                                    <span class="number">70%</span> <br class="space">
-                                    <span class="text-big">la eficiencia</span> <br class="space">
-                                    <span class="text-small">en procesos comerciales</span>
-                                </p>
-                            </div>
-                            <div class="element">
-                                <p class="text">
-                                    <span class="title-blue">Equipos de marketing han</span> <br class="space">
-                                    <span class="number">5X</span> <br class="space">
-                                    <span class="text-big">tasa de ventas</span> <br class="space">
-                                    <span class="text-small">recuperadas</span>
-                                </p>
-                            </div>
-
-                        </div>
-
-                    </section>
-
-                      <section class="innerSectionElement sct3">
+                <section class="innerSectionElement sct3">
 
                     <div class="containElements">
 
 
                         <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Conocer Escala
+                            Conocer Escala
                         </a>
 
                     </div>
 
                 </section>
 
-                </div>
+            </div>
 
-            </section>
+        </section>
 
 
-@php
+        @php
 
-    $elements = array(
+        $elements = array(
         [
-            "CRM",
-            "Escala",
-            "Keap",
-            "HubSpot",
-            "Salesforce",
-            "Zoho",
-            "RD Station",
-            "Pipedrive",
-            "Bitrix 24",
-            "Clienty",
-            "Kommo",
-            "Clientify"
+        "CRM",
+        "Escala",
+        "Keap",
+        "HubSpot",
+        "Salesforce",
+        "Zoho",
+        "RD Station",
+        "Pipedrive",
+        "Bitrix 24",
+        "Clienty",
+        "Kommo",
+        "Clientify"
         ],
         [
-            "Planificador de <br class='space'> embudos de venta",
-            "check_true",
-            "check_false",
-            "check_false",
-            "check_false",
-            "check_false",
-            "check_false",
-            "check_false",
-            "check_false",
-            "check_false",
-            "check_false",
-            "check_false",
+        "Planificador de <br class='space'> embudos de venta",
+        "check_true",
+        "check_false",
+        "check_false",
+        "check_false",
+        "check_false",
+        "check_false",
+        "check_false",
+        "check_false",
+        "check_false",
+        "check_false",
+        "check_false",
         ],
         [
-            'Fácil de usar',
-            'check_true',
-            'check_true',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_true',
-            'check_true',
-            'check_false',
-            'check_false',
-            'check_true',
-            'check_true'
+        'Fácil de usar',
+        'check_true',
+        'check_true',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_true',
+        'check_true',
+        'check_false',
+        'check_false',
+        'check_true',
+        'check_true'
         ],
         [
-            'Gestión de <br class=""> campañas <br class="space"> publicitarias',
-            'check_true',
-            'check_false',
-            'check_true',
-            'check_false',
-            'check_true',
-            'check_true',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_true'
+        'Gestión de <br class=""> campañas <br class="space"> publicitarias',
+        'check_true',
+        'check_false',
+        'check_true',
+        'check_false',
+        'check_true',
+        'check_true',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_true'
         ],
         [
-            'Integración de <br class="space"> marketing y ventas',
-            'check_true',
-            'check_true',
-            'check_true',
-            'check_false',
-            'check_true',
-            'check_true',
-            'check_false',
-            'check_true',
-            'check_false',
-            'check_false',
-            'check_true'
+        'Integración de <br class="space"> marketing y ventas',
+        'check_true',
+        'check_true',
+        'check_true',
+        'check_false',
+        'check_true',
+        'check_true',
+        'check_false',
+        'check_true',
+        'check_false',
+        'check_false',
+        'check_true'
         ],
         [
-            'Calificación de <br class="space"> servicio al cliente <br class="space"> por los usuarios',
-            'check_true',
-            'check_false',
-            'check_true',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_true',
-            'check_false',
-            'check_false'
+        'Calificación de <br class="space"> servicio al cliente <br class="space"> por los usuarios',
+        'check_true',
+        'check_false',
+        'check_true',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_true',
+        'check_false',
+        'check_false'
         ],
         [
-            'Acompañamiento <br class="space"> Premium sin costo',
-            'check_true',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_true'
+        'Acompañamiento <br class="space"> Premium sin costo',
+        'check_true',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_true'
         ],
         [
-            'Reportes <br class="space"> personalizados',
-            'check_true',
-            'check_true',
-            'check_true',
-            'check_true',
-            'check_true',
-            'check_true',
-            'check_true',
-            'check_true',
-            'check_true',
-            'check_false',
-            'check_true'
+        'Reportes <br class="space"> personalizados',
+        'check_true',
+        'check_true',
+        'check_true',
+        'check_true',
+        'check_true',
+        'check_true',
+        'check_true',
+        'check_true',
+        'check_true',
+        'check_false',
+        'check_true'
         ],
         [
-            'Facilidad de <br class=""> Implementación',
-            'check_true',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_true',
-            'check_true',
-            'check_false'
+        'Facilidad de <br class=""> Implementación',
+        'check_true',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_true',
+        'check_true',
+        'check_false'
         ],
         [
-            'Adaptación a las <br class="space"> empresas de Latam',
-            'check_true',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_true',
-            'check_false',
-            'check_false',
-            'check_true',
-            'check_false',
-            'check_false'
+        'Adaptación a las <br class="space"> empresas de Latam',
+        'check_true',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_true',
+        'check_false',
+        'check_false',
+        'check_true',
+        'check_false',
+        'check_false'
         ],
         [
-            'Integraciones nativas',
-            'check_true',
-            'check_false',
-            'check_true',
-            'check_false',
-            'check_true',
-            'check_true',
-            'check_false',
-            'check_true',
-            'check_false',
-            'check_false',
-            'check_true'
+        'Integraciones nativas',
+        'check_true',
+        'check_false',
+        'check_true',
+        'check_false',
+        'check_true',
+        'check_true',
+        'check_false',
+        'check_true',
+        'check_false',
+        'check_false',
+        'check_true'
         ],
         [
-            'Inbox',
-            'check_true',
-            'check_false',
-            'check_true',
-            'check_true',
-            'check_false',
-            'check_true',
-            'check_false',
-            'check_false',
-            'check_true',
-            'check_true',
-            'check_true'
+        'Inbox',
+        'check_true',
+        'check_false',
+        'check_true',
+        'check_true',
+        'check_false',
+        'check_true',
+        'check_false',
+        'check_false',
+        'check_true',
+        'check_true',
+        'check_true'
         ],
         [
-            'Soluciones <br class="space"> para pymes',
-            'check_true',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_false',
-            'check_true',
-            'check_true',
-            'check_true',
-            'check_true',
-            'check_true',
-            'check_true'
+        'Soluciones <br class="space"> para pymes',
+        'check_true',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_false',
+        'check_true',
+        'check_true',
+        'check_true',
+        'check_true',
+        'check_true',
+        'check_true'
         ]
 
-    );
+        );
 
-    function setContain($item){
+        function setContain($item){
 
         if($item == 'check_true'){
-            // return 'tru';
-            return '<div class="check_icon"><img src="'.App::setFilePath('/assets/images/illustrations/others/check_true.png').'" loading="lazy"></div>';
+        // return 'tru';
+        return '<div class="check_icon"><img src="'.App::setFilePath('/assets/images/illustrations/others/check_true.png').'" loading="lazy"></div>';
         }
 
         if($item == 'check_false'){
-            // return 'false';
-            return '<div class="check_icon"><img src="'.App::setFilePath('/assets/images/illustrations/others/check_false.png').'" loading="lazy"></div>';
+        // return 'false';
+        return '<div class="check_icon"><img src="'.App::setFilePath('/assets/images/illustrations/others/check_false.png').'" loading="lazy"></div>';
         }
 
-        return '<span >'.$item.'</span>';
+        return '<span>'.$item.'</span>';
 
-    }
+        }
 
-@endphp
+        @endphp
 
-       <section class="customSection sectionParent landing_escala_competitors_brands_2024_4">
+        <section class="customSection sectionParent landing_escala_competitors_brands_2024_4">
 
-                <div class="section-row">
+            <div class="section-row">
 
-                    <section class="innerSectionElement sct0">
+                <section class="innerSectionElement sct0">
 
-                        <div class="containElements">
-                              <h2 class="primaryTitle">
-                         <span>¿Por qué elegir</span> Escala CRM?
+                    <div class="containElements">
+                        <h2 class="primaryTitle">
+                            <span>¿Por qué elegir</span> Escala CRM?
                         </h2>
 
                         <p class="text">
                             Explora nuestra tabla comparativa y descubre la competitividad<br class="DT_e">
                             de Escala, frente a otras opciones:
                         </p>
-                        </div>
+                    </div>
 
-                    </section>
+                </section>
 
-                    <section class="innerSectionElement sct1">
+                <section class="innerSectionElement sct1">
 
-                        <div class="containElements">
+                    <div class="containElements">
 
-                              <table class="table">
+                        <table class="table">
 
-          <tbody>
+                            <tbody>
 
-            @foreach ($elements as $row)
+                                @foreach ($elements as $row)
 
-            <tr class="row">
-                @foreach ($row as $item)
-              <td class=" @if ($loop->first) column_primary @else col @endif" >
-                    {!! setContain($item) !!}
-              </td>
-                @endforeach
-            </tr>
+                                <tr class="row">
+                                    @foreach ($row as $item)
+                                    <td class=" @if ($loop->first) column_primary @else col @endif">
+                                        {!! setContain($item) !!}
+                                    </td>
+                                    @endforeach
+                                </tr>
 
-            @endforeach
+                                @endforeach
 
-          </tbody>
+                            </tbody>
 
-                              </table>
-                        </div>
-
-
-                    </section>
+                        </table>
+                    </div>
 
 
-                </div>
+                </section>
 
-       </section>
+
+            </div>
+
+        </section>
 
 
         <section class="customSection sectionParent landing_escala_competitors_brands_2024_5">
@@ -712,126 +713,126 @@
 
                             <div class="col-md-12 col-lg-5 selectors">
                                 @php
-                                    $elements = [
-                                        [
-                                            'title' => 'WhatsApp integrado',
-                                            'icon' => App::setFilePath(
-                                                '/assets/images/illustrations/others/icon_whatsapp_small.png',
-                                            ),
-                                            'text' => '
-            <span>Optimiza tu comunicación por WhatsApp</span> <br class="space">
-            con envíos masivos, mensajes <br class="space">
-            automatizados, y gestión por inbox
-            ',
-                                            'img' => App::setFilePath(
-                                                '/assets/images/gifs/image_whatsapp_home_selector.gif',
-                                            ),
-                                        ],
-                                        [
-                                            'title' => 'Inteligencia Artificial',
-                                            'icon' => App::setFilePath(
-                                                '/assets/images/illustrations/others/icon_ia_small.png',
-                                            ),
-                                            'text' => '
-            <span>Crea contenido efectivo en segundos</span> <br class="space">
-            La IA en Escala es como tener un copywriter <br class="DT_e">
-            estrella a una fracción del costo',
-                                            'img' => App::setFilePath('/assets/images/gifs/image_ia_home_selector.gif'),
-                                        ],
-                                        [
-                                            'title' => 'Gestión de contactos y procesos',
-                                            'icon' => App::setFilePath(
-                                                '/assets/images/illustrations/others/icon_crm_small.png',
-                                            ),
-                                            'text' => '
-            <span>Convierte más leads en clientes fieles</span> <br class="space">
-            organizando, guardando y supervisando <br class="DT_e">
-            mejor todo lo que ocurre con tus contactos',
-                                            'img' => App::setFilePath(
-                                                '/assets/images/gifs/image_crm_home_selector.gif',
-                                            ),
-                                        ],
-                                        [
-                                            'title' => 'Automatizaciones',
-                                            'icon' => App::setFilePath(
-                                                '/assets/images/illustrations/others/icon_automatizations_small.png',
-                                            ),
-                                            'text' => '
-        Ahorra tiempo y dinero <br class="DT_e">
-        programando tareas y flujos de acciones
-     ',
-                                            'img' => App::setFilePath(
-                                                '/assets/images/gifs/image_automatizations_home_selector.gif',
-                                            ),
-                                        ],
-                                        [
-                                            'title' => 'Landing Pages',
-                                            'icon' => App::setFilePath(
-                                                '/assets/images/illustrations/others/icon_landingp_small.png',
-                                            ),
-                                            'text' => '
-            <span>Captura más leads de calidad</span> <br class="space">
-            Elige la plantilla, edítala en minutos y publica <br class="DT_e">
-            ¡sin depender de programadores!
-            ',
-                                            'img' => App::setFilePath(
-                                                '/assets/images/gifs/image_landingp_home_selector.gif',
-                                            ),
-                                        ],
+                                $elements = [
+                                [
+                                'title' => 'WhatsApp integrado',
+                                'icon' => App::setFilePath(
+                                '/assets/images/illustrations/others/icon_whatsapp_small.png',
+                                ),
+                                'text' => '
+                                <span>Optimiza tu comunicación por WhatsApp</span> <br class="space">
+                                con envíos masivos, mensajes <br class="space">
+                                automatizados, y gestión por inbox
+                                ',
+                                'img' => App::setFilePath(
+                                '/assets/images/gifs/image_whatsapp_home_selector.gif',
+                                ),
+                                ],
+                                [
+                                'title' => 'Inteligencia Artificial',
+                                'icon' => App::setFilePath(
+                                '/assets/images/illustrations/others/icon_ia_small.png',
+                                ),
+                                'text' => '
+                                <span>Crea contenido efectivo en segundos</span> <br class="space">
+                                La IA en Escala es como tener un copywriter <br class="DT_e">
+                                estrella a una fracción del costo',
+                                'img' => App::setFilePath('/assets/images/gifs/image_ia_home_selector.gif'),
+                                ],
+                                [
+                                'title' => 'Gestión de contactos y procesos',
+                                'icon' => App::setFilePath(
+                                '/assets/images/illustrations/others/icon_crm_small.png',
+                                ),
+                                'text' => '
+                                <span>Convierte más leads en clientes fieles</span> <br class="space">
+                                organizando, guardando y supervisando <br class="DT_e">
+                                mejor todo lo que ocurre con tus contactos',
+                                'img' => App::setFilePath(
+                                '/assets/images/gifs/image_crm_home_selector.gif',
+                                ),
+                                ],
+                                [
+                                'title' => 'Automatizaciones',
+                                'icon' => App::setFilePath(
+                                '/assets/images/illustrations/others/icon_automatizations_small.png',
+                                ),
+                                'text' => '
+                                Ahorra tiempo y dinero <br class="DT_e">
+                                programando tareas y flujos de acciones
+                                ',
+                                'img' => App::setFilePath(
+                                '/assets/images/gifs/image_automatizations_home_selector.gif',
+                                ),
+                                ],
+                                [
+                                'title' => 'Landing Pages',
+                                'icon' => App::setFilePath(
+                                '/assets/images/illustrations/others/icon_landingp_small.png',
+                                ),
+                                'text' => '
+                                <span>Captura más leads de calidad</span> <br class="space">
+                                Elige la plantilla, edítala en minutos y publica <br class="DT_e">
+                                ¡sin depender de programadores!
+                                ',
+                                'img' => App::setFilePath(
+                                '/assets/images/gifs/image_landingp_home_selector.gif',
+                                ),
+                                ],
 
-                                        [
-                                            'title' => 'Email Marketing',
-                                            'icon' => App::setFilePath(
-                                                '/assets/images/illustrations/others/icon_emailmkt_small.png',
-                                            ),
-                                            'text' => '
-                                                <span>Envia campañas profesionales</span> <br class="space">
-                                                que nutran tus relaciones',
-                                            'img' => App::setFilePath(
-                                                '/assets/images/gifs/image_email_marketing_home_selector.gif',
-                                            ),
-                                        ],
+                                [
+                                'title' => 'Email Marketing',
+                                'icon' => App::setFilePath(
+                                '/assets/images/illustrations/others/icon_emailmkt_small.png',
+                                ),
+                                'text' => '
+                                <span>Envia campañas profesionales</span> <br class="space">
+                                que nutran tus relaciones',
+                                'img' => App::setFilePath(
+                                '/assets/images/gifs/image_email_marketing_home_selector.gif',
+                                ),
+                                ],
 
-                                        [
-                                            'title' => 'Anuncios digitales ',
-                                            'icon' => App::setFilePath(
-                                                '/assets/images/illustrations/others/icon_ads_small.png',
-                                            ),
-                                            'text' => '
-                                                    <span>Crea y administra campañas publicitarias</span> <br class="space">
-                                                    pagas en Facebook a Instagram',
-                                            'img' => App::setFilePath(
-                                                '/assets/images/gifs/image_ads_home_selector.gif',
-                                            ),
-                                        ],
-                                        [
-                                            'title' => 'Reportes Personalizados',
-                                            'icon' => App::setFilePath(
-                                                '/assets/images/illustrations/others/icon_reports_headerband.png',
-                                            ),
-                                            'text' => '
-                                                    <span>Toma decisiones estratégicas</span> con <br class="space">
-                                                    reportes que creas en minutos. <br class="space">
-                                                    ¡Escala tu empresa con datos clave!',
-                                            'img' => App::setFilePath('/assets/images/gifs/gif_reports.gif'),
-                                        ],
-                                    ];
+                                [
+                                'title' => 'Anuncios digitales ',
+                                'icon' => App::setFilePath(
+                                '/assets/images/illustrations/others/icon_ads_small.png',
+                                ),
+                                'text' => '
+                                <span>Crea y administra campañas publicitarias</span> <br class="space">
+                                pagas en Facebook a Instagram',
+                                'img' => App::setFilePath(
+                                '/assets/images/gifs/image_ads_home_selector.gif',
+                                ),
+                                ],
+                                [
+                                'title' => 'Reportes Personalizados',
+                                'icon' => App::setFilePath(
+                                '/assets/images/illustrations/others/icon_reports_headerband.png',
+                                ),
+                                'text' => '
+                                <span>Toma decisiones estratégicas</span> con <br class="space">
+                                reportes que creas en minutos. <br class="space">
+                                ¡Escala tu empresa con datos clave!',
+                                'img' => App::setFilePath('/assets/images/gifs/gif_reports.gif'),
+                                ],
+                                ];
                                 @endphp
 
                                 <ul class="elements selectorInfo">
 
                                     @foreach ($elements as $item)
-                                        <li class="element    @if ($loop->first) active @endif"
-                                            info_index="{!! $loop->index !!}">
-                                            <div class="icon">
-                                                <div class="containerImage">
-                                                    <img src="{!! $item['icon'] !!}" loading="lazy">
-                                                </div>
+                                    <li class="element    @if ($loop->first) active @endif"
+                                        info_index="{!! $loop->index !!}">
+                                        <div class="icon">
+                                            <div class="containerImage">
+                                                <img src="{!! $item['icon'] !!}" loading="lazy">
                                             </div>
-                                            <h3>
-                                                {!! $item['title'] !!}
-                                            </h3>
-                                        </li>
+                                        </div>
+                                        <h3>
+                                            {!! $item['title'] !!}
+                                        </h3>
+                                    </li>
                                     @endforeach
 
                                 </ul>
@@ -917,82 +918,82 @@
 
                         <div class="row">
                             @php
-                                $elements = [
-                                    [
-                                        'title' => 'Gerente de Éxito <br class="space"> asignado',
-                                        'text' => [
-                                            'Principal punto de contacto',
-                                            'Conoce tu negocio a mayor<br class="DT_e"> profundidad',
-                                            'Te guía a definir planes de<br class="DT_e"> implementación con Escala',
-                                            'Apoya analizando resultados',
-                                            'Te acompaña todo el año',
-                                        ],
-                                        'img' => App::setFilePath(
-                                            '/assets/images/illustrations/others/competitors_img_2.png',
-                                        ),
-                                    ],
-                                    [
-                                        'title' => 'Especialista de <br class="space"> Implementación',
-                                        'text' => [
-                                            'Se involucra después de<br class="DT_e"> haber definido plan',
-                                            'Guía implementando la<br class="DT_e"> plataforma',
-                                            'Asegura que uses las<br class="DT_e"> herramientas efectivamente',
-                                            'Disponible los primeros<br class="DT_e"> meses con Escala',
-                                        ],
-                                        'img' => App::setFilePath(
-                                            '/assets/images/illustrations/others/competitors_img_3.png',
-                                        ),
-                                    ],
-                                    [
-                                        'title' => 'Soporte Técnico <br class="space">
-                                        en vivo por chat',
-                                        'text' => [
-                                            'Apoya en la configuración<br class="DT_e"> técnica de la plataforma',
-                                            'Atiende preguntas y<br class="DT_e"> necesidades técnicas<br class="DT_e"> puntuales',
-                                            'Conecta por chat de<br class="DT_e"> plataforma o WhatsApp',
-                                            'Disponible mientras<br class="DT_e"> tengas suscripción activa',
-                                        ],
-                                        'img' => App::setFilePath(
-                                            '/assets/images/illustrations/others/competitors_img_4.png',
-                                        ),
-                                    ],
-                                    [
-                                        'title' => 'Servicio de <br class="space"> Personalización',
-                                        'text' => [
-                                            'Personaliza el CRM a tus<br class="DT_e"> necesidades',
-                                            'Crea plantillas de email y<br class="DT_e"> páginas según tu marca',
-                                            'Crea la base para un flujo<br class="DT_e"> automatizado',
-                                        ],
-                                        'img' => App::setFilePath(
-                                            '/assets/images/illustrations/others/competitors_img_5.png',
-                                        ),
-                                    ],
-                                ];
+                            $elements = [
+                            [
+                            'title' => 'Gerente de Éxito <br class="space"> asignado',
+                            'text' => [
+                            'Principal punto de contacto',
+                            'Conoce tu negocio a mayor<br class="DT_e"> profundidad',
+                            'Te guía a definir planes de<br class="DT_e"> implementación con Escala',
+                            'Apoya analizando resultados',
+                            'Te acompaña todo el año',
+                            ],
+                            'img' => App::setFilePath(
+                            '/assets/images/illustrations/others/competitors_img_2.png',
+                            ),
+                            ],
+                            [
+                            'title' => 'Especialista de <br class="space"> Implementación',
+                            'text' => [
+                            'Se involucra después de<br class="DT_e"> haber definido plan',
+                            'Guía implementando la<br class="DT_e"> plataforma',
+                            'Asegura que uses las<br class="DT_e"> herramientas efectivamente',
+                            'Disponible los primeros<br class="DT_e"> meses con Escala',
+                            ],
+                            'img' => App::setFilePath(
+                            '/assets/images/illustrations/others/competitors_img_3.png',
+                            ),
+                            ],
+                            [
+                            'title' => 'Soporte Técnico <br class="space">
+                            en vivo por chat',
+                            'text' => [
+                            'Apoya en la configuración<br class="DT_e"> técnica de la plataforma',
+                            'Atiende preguntas y<br class="DT_e"> necesidades técnicas<br class="DT_e"> puntuales',
+                            'Conecta por chat de<br class="DT_e"> plataforma o WhatsApp',
+                            'Disponible mientras<br class="DT_e"> tengas suscripción activa',
+                            ],
+                            'img' => App::setFilePath(
+                            '/assets/images/illustrations/others/competitors_img_4.png',
+                            ),
+                            ],
+                            [
+                            'title' => 'Servicio de <br class="space"> Personalización',
+                            'text' => [
+                            'Personaliza el CRM a tus<br class="DT_e"> necesidades',
+                            'Crea plantillas de email y<br class="DT_e"> páginas según tu marca',
+                            'Crea la base para un flujo<br class="DT_e"> automatizado',
+                            ],
+                            'img' => App::setFilePath(
+                            '/assets/images/illustrations/others/competitors_img_5.png',
+                            ),
+                            ],
+                            ];
                             @endphp
 
                             @foreach ($elements as $element)
-                                <div class="col-md-12 col-lg-3 cardParent">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/overlay_card_1.svg') !!})"
-                                                class="top-pill">
-                                                {!! $element['title'] !!}
-                                            </div>
-                                            <img class="column-1" src="{!! $element['img'] !!}" loading="lazy">
-
-                                            <ul>
-                                                @foreach ($element['text'] as $text)
-                                                    <li>
-                                                        <div class="list-item">
-                                                            <img src="{!! App::setFilePath('/assets/images/icons/orange_dot.png') !!}" loading="lazy">
-                                                            <p>{!! $text !!}</p>
-                                                        </div>
-                                                    </li>
-                                                @endforeach
-                                            </ul>
+                            <div class="col-md-12 col-lg-3 cardParent">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/overlay_card_1.svg') !!})"
+                                            class="top-pill">
+                                            {!! $element['title'] !!}
                                         </div>
+                                        <img class="column-1" src="{!! $element['img'] !!}" loading="lazy">
+
+                                        <ul>
+                                            @foreach ($element['text'] as $text)
+                                            <li>
+                                                <div class="list-item">
+                                                    <img src="{!! App::setFilePath('/assets/images/icons/orange_dot.png') !!}" loading="lazy">
+                                                    <p>{!! $text !!}</p>
+                                                </div>
+                                            </li>
+                                            @endforeach
+                                        </ul>
                                     </div>
                                 </div>
+                            </div>
                             @endforeach
 
                         </div>
@@ -1017,30 +1018,30 @@
                         <div class="video col-md-12">
 
                             @php
-                                $videoEmbed = App::setFilePath('/assets/videos/competidores_video.mp4');
-                                $videoCover = App::setFilePath('/assets/images/illustrations/others/competitors_portrait_video.jpg');
+                            $videoEmbed = App::setFilePath('/assets/videos/competidores_video.mp4');
+                            $videoCover = App::setFilePath('/assets/images/illustrations/others/competitors_portrait_video.jpg');
                             @endphp
 
                             @if (isset($videoEmbed) && $videoEmbed != null)
-                                <div class="youtubeImageContainer ">
+                            <div class="youtubeImageContainer ">
 
-                                    <video class="video-js" controls preload="none" poster="{{ $videoCover }}"
-                                        {{-- poster="MY_VIDEO_POSTER.jpg" --}}
-                                        data-setup="{
+                                <video class="video-js" controls preload="none" poster="{{ $videoCover }}"
+                                    {{-- poster="MY_VIDEO_POSTER.jpg" --}}
+                                    data-setup="{
                                   autoplay: false
                                 }">
-                                        <source src="{{ $videoEmbed }}" type="video/mp4" />
-                                        <source src="{{ $videoEmbed }}" type="video/webm" />
-                                        <p class="vjs-no-js">
-                                            To view this video please enable JavaScript, and consider upgrading to a
-                                            web browser that
-                                            <a href="https://videojs.com/html5-video-support/"
-                                                target="_blank">supports
-                                                HTML5 video</a>
-                                        </p>
-                                    </video>
+                                    <source src="{{ $videoEmbed }}" type="video/mp4" />
+                                    <source src="{{ $videoEmbed }}" type="video/webm" />
+                                    <p class="vjs-no-js">
+                                        To view this video please enable JavaScript, and consider upgrading to a
+                                        web browser that
+                                        <a href="https://videojs.com/html5-video-support/"
+                                            target="_blank">supports
+                                            HTML5 video</a>
+                                    </p>
+                                </video>
 
-                                </div>
+                            </div>
                             @endif
 
                         </div>
@@ -1067,8 +1068,7 @@
         </section>
 
 
-        <section class='w-full customSection sectionParent landing_escala_competitors_brands_2024_8'
-            >
+        <section class='w-full customSection sectionParent landing_escala_competitors_brands_2024_8'>
 
             <div class="section-row">
 
@@ -1084,24 +1084,24 @@
                 <section class='innerSectionElement sct1 '>
                     <div class='containElements'>
 
-                            <div class="review r1">
-                                <div class="containerImage">
-                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1.png') }}" loading="lazy">
-                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1_m.png') }}" loading="lazy">
-                                </div>
+                        <div class="review r1">
+                            <div class="containerImage">
+                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1.png') }}" loading="lazy">
+                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1_m.png') }}" loading="lazy">
                             </div>
-                            <div class="review r2">
-                                <div class="containerImage">
-                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2.png') }}" loading="lazy">
-                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2_m.png') }}" loading="lazy">
-                                </div>
+                        </div>
+                        <div class="review r2">
+                            <div class="containerImage">
+                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2.png') }}" loading="lazy">
+                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2_m.png') }}" loading="lazy">
                             </div>
-                            <div class="review r3">
-                                <div class="containerImage">
-                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3.png') }}" loading="lazy">
-                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3_m.png') }}" loading="lazy">
-                                </div>
+                        </div>
+                        <div class="review r3">
+                            <div class="containerImage">
+                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3.png') }}" loading="lazy">
+                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3_m.png') }}" loading="lazy">
                             </div>
+                        </div>
 
                     </div>
 
@@ -1115,7 +1115,7 @@
 
             <div class="section-row">
 
-                    <section class='innerSectionElement sct0 '>
+                <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
                         <h2 class="primaryTitle">
                             <span>Empezar acon Escala,</span> es muy sencillo:
@@ -1139,7 +1139,7 @@
                     </div>
                 </section>
 
-                      <section class="innerSectionElement sct3">
+                <section class="innerSectionElement sct3">
 
                     <div class="containElements">
 
