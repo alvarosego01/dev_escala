@@ -5,7 +5,7 @@
         @php
         $elementsReviews = [
         [
-        'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
+        'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
         'text' => 'Escala / plataforma SEM',
         'points' => '4.8 / 5',
         ],
