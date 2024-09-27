@@ -118,7 +118,7 @@
                                 @php
                                     $elements = [
                                         [
-                                            'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
+                                            'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
                                             'text' => 'Escala / plataforma CRM',
                                             'points' => '4.8 / 5',
                                         ],
