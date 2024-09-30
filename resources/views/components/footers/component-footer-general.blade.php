@@ -169,14 +169,14 @@
                     <div class="containerImage logoTrustPilot desktop">
 
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/googe_logo_footer.png') !!}" alt="Ilustración de la excelente calificación general de reseñas de usuarios han dejado en Trustpilot sobre Escala">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/google_logo_reviews.png') !!}" alt="Ilustracion logo de google reviews">
 
                     </div>
 
                     <div class="containerImage logoTrustPilot mobi">
 
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/calificacion-escala-trustpilot-mobile.png') !!}" alt="Ilustración de la excelente calificación general de reseñas de usuarios han dejado en Trustpilot sobre Escala">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/google_logo_reviews.png') !!}" alt="Ilustracion logo de google reviews">
 
                     </div>
 
