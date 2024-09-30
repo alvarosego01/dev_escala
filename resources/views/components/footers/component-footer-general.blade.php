@@ -176,7 +176,7 @@
                     <div class="containerImage logoTrustPilot mobi">
 
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/calificacion-escala-trustpilot-mobile.png') !!}" alt="Ilustración de la excelente calificación general de reseñas de usuarios han dejado en Trustpilot sobre Escala">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/google_logo_footer.png') !!}" alt="Ilustracion logo de google reviews">
 
                     </div>
 
