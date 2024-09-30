@@ -169,14 +169,14 @@
                     <div class="containerImage logoTrustPilot desktop">
 
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/google_logo_footer.png') !!}" alt="Ilustracion logo de google reviews">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/google_logo_reviews.png') !!}" alt="Ilustracion logo de google reviews">
 
                     </div>
 
                     <div class="containerImage logoTrustPilot mobi">
 
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/google_logo_footer.png') !!}" alt="Ilustracion logo de google reviews">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/google_logo_reviews.png') !!}" alt="Ilustracion logo de google reviews">
 
                     </div>
 
