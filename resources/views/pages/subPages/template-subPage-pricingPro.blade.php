@@ -488,10 +488,10 @@
 
                                                     <span class="pill-button">
                                                         <span onclick="selectorSlizePlan('monthly')" class="pill-button-selection pill-button-selection_on">
-                                                            Pago mensual
+                                                            *Pago mensual
                                                         </span>
                                                         <span onclick="selectorSlizePlan('yearly')" class="pill-button-selection pill-button-selection_off pill-button-selection_active">
-                                                            Pago anual. <br class="space">
+                                                            Pago anual.* <br class="space">
                                                             <span >Ahorras 20%</span>
                                                         </span>
                                                         <span class="pill-button-highlight"></span>
@@ -504,7 +504,7 @@
                                                     <div class="discountData">
                                                    <p class="primaryText">
 
-                                                                <strong>Más pago único de</strong> USD 450 por <br class="space">
+                                                                <strong>*Más pago único  por</strong>  <br class="space">
                                                                 Servicio de Acompañamiento <br class="space">
                                                                 Personalizado obligatorio <button class="questionIcon openPopUpButton popup-pricingPro_Message_PagoUnico">?</button>
 
