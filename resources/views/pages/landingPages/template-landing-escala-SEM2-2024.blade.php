@@ -201,6 +201,8 @@
 
                                                 // Captura el valor del campo de email usando el atributo `name` de Contact Form 7
                                                 var email = $form.find('input[name="your-email"]').val();
+                                                // Captura el valor del  Last Name usando el atributo `name` de Contact Form 7
+                                                var lastname = $form.find('input[name="your-lastname"]').val();
 
                                                 $.ajax({
                                                     type: 'POST',
@@ -211,8 +213,9 @@
                                                         $('#form-1').hide();
                                                         $('#form-2').show();
 
-                                                        // Rellena el campo oculto del segundo formulario con el email
+                                                        // Rellena el campo oculto del segundo formulario con el email y last name
                                                         $('#hidden-email-field').val(email);
+                                                        $('#hidden-lastname-field').val(lastname);
                                                     },
                                                     error: function(xhr, status, error) {
                                                         console.error('Error al enviar el formulario:', error);
