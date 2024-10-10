@@ -71,6 +71,30 @@
         ]
     },
     {
+        "name": "block-text-parag-2",
+        "title": "Blog block text parag2",
+        "description": "Blog text parag block",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "text, parag",
+        "fields": [
+            {
+                "key": "text_parag_2_title",
+                "label": "Title",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            },
+
+            {
+                "key": "text_parag_2_parag",
+                "label": "Paragraph",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            }
+        ]
+    },
+    {
         "name": "block-text-image",
         "title": "Blog block text image",
         "description": "Blog text image block",
