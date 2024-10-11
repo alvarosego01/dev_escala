@@ -72,8 +72,8 @@
     },
     {
         "name": "block-text-parag-2",
-        "title": "Blog block text parag2",
-        "description": "Blog text parag block",
+        "title": "Blog block text parag 2",
+        "description": "Blog text parag block 2",
         "category": "blog",
         "icon": "admin-comments",
         "folder": "blog",
@@ -132,6 +132,64 @@
                             },
                                {
                                 "key": "media_text_1_side",
+                                "label": "Side content",
+                                "type": "select",
+                                "options": [
+                                    {
+                                        "label": "Right",
+                                        "value": "right"
+                                    },
+                                    {
+                                        "label": "Left",
+                                        "value": "left"
+                                    }
+                                ],
+                                "default": "image"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "block-text-image-2",
+        "title": "Blog block text image 2",
+        "description": "Blog text image block 2",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "text, image, title",
+          "fields": [
+            {
+                "key": "media_text_2_sections",
+                "label": "Sections",
+                "type": "complex",
+                "layouts": [
+                    {
+                        "key": "media_text_2_layout",
+                        "label": "Info section",
+                        "fields": [
+                            {
+                                "key": "media_text_2_title",
+                                "label": "Title",
+                                "type": "rich_text",
+                                "default": "lorem ipsum dolor sit amet"
+                            },
+                            {
+                                "key": "media_text_2_description",
+                                "label": "Description",
+                                "type": "rich_text",
+                                "default": "lorem ipsum dolor sit amet"
+                            },
+                            {
+                                "key": "media_text_2_image",
+                                "label": "Image",
+                                "type": "image",
+                                "default": ""
+                            },
+                               {
+                                "key": "media_text_2_side",
                                 "label": "Side content",
                                 "type": "select",
                                 "options": [

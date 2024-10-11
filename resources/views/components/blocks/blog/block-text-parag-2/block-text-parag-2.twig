@@ -1,7 +1,7 @@
-{# 
 
-{% set text_parag_1_title = fields.text_parag_1_title %}
-{% set text_parag_1_parag = fields.text_parag_1_parag %}
+
+{% set text_parag_2_title = fields.text_parag_2_title %}
+{% set text_parag_2_parag = fields.text_parag_2_parag %}
 
 <section class="w-full block_blog_text_parag_2 customSection sectionParent">
 	<div class="section_contain">
@@ -9,22 +9,19 @@
 		<section class="innerSectionElement sct1 ">
 			<div class="containElements">
 
-				{% if text_parag_1_title != '' %}
+				{% if text_parag_2_title != '' %}
 					<h2 class="primaryTitle">
-						{{ text_parag_1_title|raw }}
+						{{ text_parag_2_title|raw }}
 					</h2>
 				{% endif %}
 
-				{% if text_parag_1_parag != '' %}
+				{% if text_parag_2_parag != '' %}
 					<div class="primaryText">
-						{{ text_parag_1_parag|raw }}
+						{{ text_parag_2_parag|raw }}
 					</div>
 				{% endif %}
 
 			</div>
 		</section>
 	</div>
-</section> #}
-
-Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+</section> 
