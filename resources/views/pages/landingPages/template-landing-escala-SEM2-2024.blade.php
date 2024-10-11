@@ -203,6 +203,12 @@
                                                 var email = $form.find('input[name="your-email"]').val();
                                                 // Captura el valor del  Last Name usando el atributo `name` de Contact Form 7
                                                 var lastname = $form.find('input[name="your-lastname"]').val();
+                                                // Captura el valor del  Name usando el atributo `name` de Contact Form 7
+                                                var name = $form.find('input[name="your-firstname"]').val();
+                                                // Captura el valor del  Phone usando el atributo `name` de Contact Form 7
+                                                var phone = $form.find('input[name="your-phone"]').val();
+                                                
+                                                
 
                                                 $.ajax({
                                                     type: 'POST',
@@ -216,6 +222,9 @@
                                                         // Rellena el campo oculto del segundo formulario con el email y last name
                                                         $('#hidden-email-field').val(email);
                                                         $('#hidden-lastname-field').val(lastname);
+                                                        $('#hidden-name-field').val(name);
+                                                        $('#hidden-phone-field').val(phone);
+
                                                     },
                                                     error: function(xhr, status, error) {
                                                         console.error('Error al enviar el formulario:', error);
