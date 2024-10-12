@@ -1,0 +1,77 @@
+
+
+
+.block_blog_text_indice.customSection.sectionParent
+    padding: 0
+    padding-bottom: 50px
+    @include responsivo(telefonoTable)
+        padding-bottom: 25px
+    ul, ol
+        margin-bottom: 0
+        margin: 0px
+        list-style-type: decimal !important
+        font-family: Nunito
+        @include responsivo(telefonoTable)
+            padding-left: 2em
+        li
+            @include responsivo(telefonoTable)
+                text-align: left
+                *
+                    text-align: left
+            &::marker
+                color: #706B6D
+    @include responsivo(telefonoTable)
+        padding-bottom: 25px
+
+
+    .section_contain
+        .innerSectionElement.sct1
+            position: relative
+            background-color: #FFF3F1
+            border-radius: 20px
+            padding: 35px
+            @include responsivo(telefonoTable)
+                width: 90%
+            @include responsivo(pcMedio)
+                width: 90%
+            @include responsivo(general)
+                width: 90%!important
+                max-width: 900px!important
+            @include responsivo(smallPcTablet)
+                max-width: 900px!important
+            @include responsivo(resto)
+                width: 90%!important
+                max-width: 900px!important
+
+            .containElements
+                h3
+                    color: #F34F36
+                    font-size: 24px
+                    font-weight: 700
+                    @include responsivo(telefonoTable)
+                        font-size: 22px
+                        text-align: center
+                        margin-bottom: 20px
+                    @include responsivo(pcMedio)
+                        font-size: 22px
+                ol 
+                    margin: 0px
+                    
+                    a
+                        color: #706B6D
+                    li
+                        font-family: Nunito
+                        text-decoration: underline
+                        text-decoration-thickness: 1px
+                        font-size: 20px
+                        font-style: normal
+                        font-weight: 500
+                        line-height: 1.4
+                        color: #706B6D
+                        text-align: left
+                        @include responsivo(telefonoTable)
+                            font-size: 18px
+                        @include responsivo(pcMedio)
+                            font-size: 18px
+                        @include responsivo(smallPcTablet)
+                            font-size: 18px
