@@ -13,7 +13,7 @@
 
                 </div>
 
-                <a href="https://escala.com/escala-ronda-financiamiento-2024/" class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
                     Conocer más
                 </a>
                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_ilustracion_estancamiento_banner.png') !!}" alt="" class="icon-2">
@@ -39,7 +39,7 @@
 
                 </div>
 
-                <a href="https://escala.com/escala-ronda-financiamiento-2024/" class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
                     Conocer más
                 </a>
                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_ilustracion_estancamiento_banner.png') !!}" alt="" class="icon-2">
