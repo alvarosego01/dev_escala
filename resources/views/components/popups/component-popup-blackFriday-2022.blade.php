@@ -74,7 +74,7 @@
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_10x12_promo_especial_escala_black_friday_2024.png') !!}" alt="Imagen 10x12 promo especial escala black friday 2024">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/button_promo_especial_escala_black_friday_2024.png') !!}" alt="Button imagen texto 10x12 promo especial escala black friday 2024">
                                         </div>
-                                       
+
                                     </div>
 
                                     <div class="sect2">
@@ -88,12 +88,12 @@
 
                                     <div class="sect3">
                                         <div class="containerImage">
-                                        <div class="containerImage">
+
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_otto_especial_escala_black_friday_2024.png') !!}" alt="Imagen otto crm especial 2024 escala black friday">
-                                            
+
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_ilustracion_estancamiento.png') !!}" alt="Imagen monstruo estancamiento  ">
                                         </div>
-                                        </div>
+
 
                                     </div>
                                 </div>

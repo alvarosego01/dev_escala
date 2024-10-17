@@ -2380,19 +2380,38 @@
                             padding: 0
                             padding-top: 0
                             width: 100%
-                            margin-bottom: 30px
+                            margin-bottom: 10px
+                            @include responsivo(telefonoTable)
+                                margin-bottom: 15px
+                            @include responsivo(pcMedio)
+                                margin-bottom: 15px
                             .containerImage
+                                margin: 0 
+                                padding: 0
+                            
                                 img:first-child
                                     height: 75px
                                     margin-bottom: 20px
+                                    @include responsivo(telefonoTable)
+                                        height: 60px
                                 img:nth-child(2)
                                     height: 25px
+                                    @include responsivo(telefonoTable)
+                                        height: 20px
 
                         .sect2
                             .containElements
                                 margin: 0
                                 padding: 0
+                                margin-bottom: 20px
+                                @include responsivo(telefonoTable)
+                                    height: auto
+                                    margin-bottom: 15px
+                                @include responsivo(pcMedio)
+                                    height: auto
+                                    margin-bottom: 15px
                                 h2
+                                    width: 365px
                                     text-align: center
                                     margin-bottom: 0
                                     color: #36768A!important
@@ -2400,11 +2419,11 @@
                                     font-style: normal
                                     font-weight: 500
                                     line-height: 1
-                                    font-size: 27px
+                                    font-size: 26px
                                     letter-spacing: -1.25px
                                     @include responsivo(telefonoTable)
                                         font-size: 18px
-                                        width: 275px
+                                        width: 240px
                                         margin: 0 auto
                                     @include responsivo(pcMedio)
                                         font-size: 22.5px
@@ -2412,26 +2431,30 @@
                                         margin: 0 auto
                                     @include responsivo(general)
                                         font-size: 25px
+                                        width: 350px
                                     @include responsivo(smallPcTablet)
                                         font-size: 22.5px
+                                        width: 310px
                                     span
                                         color: #F34F36
                                         font-weight: 800
                                         letter-spacing: -1px
-                                        @include responsivo(telefonoTable)
-                                            font-size: 27px
-                                        @include responsivo(pcMedio)
-                                            font-size: 30px
                         .sect3
                             .containerImage
+                                padding-top: 20px
                                 img:first-child
-                                    height: 255px
+                                    height: 225px
+                                    @include responsivo(telefonoTable)
+                                        height: 150px
+                                        padding-bottom: 30px
                                 img:nth-child(2)
-                                    height: 25px
-                                    position: relative
-                                    top: 0px
+                                    height: 105px
+                                    position: absolute
                                     right: 0px
                                     bottom: 0px
+                                    @include responsivo(telefonoTable)
+                                        height: 75px
+
 
 
 
