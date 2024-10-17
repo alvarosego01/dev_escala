@@ -284,7 +284,7 @@
                     @endforeach
 
                     <div class="btnCenter">
-                        <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                        <a class="primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
                             Recibir un demo
                         </a>
                     </div>

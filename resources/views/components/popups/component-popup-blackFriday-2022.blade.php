@@ -1,25 +1,4 @@
-@php
-/*
-
-popup_call_class
-popup_imageTitle
-popup_image
-popup_after_imageText
-popup_principalTitle
-enable_custom_background
-custom_background_type
-popup_background_color
-popup_background_gradient
-popup_background_image
-form_title
-form_shortcode
-form_redirect
-popup_direction
-*/
-@endphp
-
-<div class= "customPopUp  blackFriday_2022 modal fade {{ $popup_call_class }} {{ $popup_direction }} " id="{{ $popup_call_class }}"
-    aria-hidden="true" aria-labelledby="{{ $popup_call_class }}" tabindex="-1">
+<div class="customPopUp  black_friday_popup modal fade {{ $popup_call_class }} {{ $popup_direction }} " id="{{ $popup_call_class }}" aria-hidden="true" aria-labelledby="{{ $popup_call_class }}" tabindex="-1">
 
     <div class="modal-dialog modal-dialog-centered type2022">
 
@@ -43,60 +22,38 @@ popup_direction
 
                                     <div class="sect1">
 
-                                        @if (isset($popup_principalTitle) && $popup_principalTitle != null )
-                                            @if ( $popup_principalTitle != '-' )
-                                            <h2 class="primaryTitle">
-                                                {!! $popup_principalTitle !!}
-                                                </h2>
-                                            @endif
-                                        @else
-                                            <h2 class="primaryTitle">
-                                                <span style="color:#006582;">
-                                                  ¡Empieza ahora!
-                                                </span>
-                                            </h2>
+                                        <h2 class="primaryTitle" style="text-align:center;">
+                                            <span style="color:#006582;">
+                                                ¡Empieza ahora!
 
-
-
-                                        @endif
-
+                                        </h2>
 
                                     </div>
 
                                     <div class="sect2">
 
-                                        <div class="formatForm redirectWeb"   redirectWeb="true">
-
-                                            {{-- <h5 class="titleFormat blackcolor">
-                                                @if (isset($form_title) && $form_title != null)
-                                                    {!! $form_title !!}
-                                                @else
-                                                    Completa los siguientes datos
-                                                @endif
-                                            </h5> --}}
-
-
+                                        <div class="formatForm redirectWeb" redirectWeb="true">
 
                                             @if (isset($form_shortcode) && $form_shortcode != null)
-                                                {!! do_shortcode($form_shortcode) !!}
-                                           @else
-                                    @php
-                                        $_args = array('post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1);
-                                        $_rs = array();
-                                        $_formShortcode = null;
-                                        if( $_data = get_posts($_args)){
+                                            {!! do_shortcode($form_shortcode) !!}
+                                            @else
+                                            @php
+                                            $_args = array('post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1);
+                                            $_rs = array();
+                                            $_formShortcode = null;
+                                            if( $_data = get_posts($_args)){
                                             foreach($_data as $_key){
-                                                $_rs[$_key->ID] = $_key->post_title;
-                                                if( $_key->post_title === 'Profile demo - Flujo Demo' ){
-                                                    $_formShortcode = '[contact-form-7 id="'.$_key->ID.'"]';
-                                                }
+                                            $_rs[$_key->ID] = $_key->post_title;
+                                            if( $_key->post_title === 'Profile demo - Flujo Demo' ){
+                                            $_formShortcode = '[contact-form-7 id="'.$_key->ID.'"]';
                                             }
-                                        }else{
+                                            }
+                                            }else{
                                             $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                        }
-                                    @endphp
-                                {!! do_shortcode($_formShortcode); !!}
-                                @endif
+                                            }
+                                            @endphp
+                                            {!! do_shortcode($_formShortcode); !!}
+                                            @endif
 
 
                                         </div>
@@ -108,77 +65,43 @@ popup_direction
 
                             </div>
 
-                                @if ( isset($enable_custom_background) && $enable_custom_background == 1 )
 
-                                @if ( isset($custom_background_type) && $custom_background_type == 'solid_color' )
-                                <div
-                                style="background-color: {{ $popup_background_color }}"
-                                class="col-md-12 col-lg-6 image solidColor">
-                                @endif
+                            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/promo_especial_black_friday_2024.svg') }}')" class="col-md-12 col-lg-6 image">
 
-                                @if ( isset($custom_background_type) && $custom_background_type == 'color_gradient' )
-                                <div
-                                style="{{ $popup_background_gradient }}"
-                                class="col-md-12 col-lg-6 image gradient">
-                                @endif
-
-                                @if ( isset($custom_background_type) && $custom_background_type == 'background_image' )
-
-                                @php
-                                   $i = $popup_background_image;
-                                   $i = $i['url'];
-                                @endphp
-
-                                <div
-                                style="background-image: url('{{ $i }}')"
-                                class="col-md-12 col-lg-6 image">
-
-                                @endif
-
-                                @else
-                                <div
-                            class="col-md-12 col-lg-6 image">
-
-                            @endif
-
-                                <div class="containElements">
-
-                                    <div class="sect1">
-
-                                          <h3  class="thirdTitle">
-                                                <div class="title">
-                                                    #Escala<span style="color: #FAD872;">Black</span>
-                                                </div>
-
-                                            </h3>
-
+                                <div class="containElements ">
+                                    <div class="sect1 ">
+                                        <div class="containerImage">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_10x12_promo_especial_escala_black_friday_2024.png') !!}" alt="Imagen 10x12 promo especial escala black friday 2024">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/button_promo_especial_escala_black_friday_2024.png') !!}" alt="Button imagen texto 10x12 promo especial escala black friday 2024">
+                                        </div>
+                                       
                                     </div>
+
                                     <div class="sect2">
-
-                                       <span class="discountTag">
-                                            Por tiempo limitado
-                                        </span>
-
+                                        <div class="containElements">
+                                            <h2>
+                                                Suscríbete a Escala y te regalamos <span> 2 meses + Bootcamp</span> sobre
+                                                Black Friday
+                                            </h2>
+                                        </div>
                                     </div>
 
                                     <div class="sect3">
-
-                                        <p class="text">
-                                            ¡Suscríbete y gana <br class="space">
-                                            2 meses GRATIS!
-                                        </p>
-
+                                        <div class="containerImage">
+                                        <div class="containerImage">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_otto_especial_escala_black_friday_2024.png') !!}" alt="Imagen otto crm especial 2024 escala black friday">
+                                            
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_ilustracion_estancamiento.png') !!}" alt="Imagen monstruo estancamiento  ">
+                                        </div>
+                                        </div>
 
                                     </div>
-
                                 </div>
+
+
+
+
                             </div>
-
-
-                        </div>
-
-
-                    </div>
 
                 </section>
 
@@ -193,13 +116,12 @@ popup_direction
     </div>
 </div>
 
-
-<a style="display: none" popup="{{ $popup_call_class }}" indexpopupbutton class="btn btn-primary"
-    data-bs-toggle="modal" href="#{{ $popup_call_class }}" role="button">
+{{-- Para abrir y cerrar popup --}}
+<a style="display: none" popup="{{ $popup_call_class }}" indexpopupbutton class="btn btn-primary" data-bs-toggle="modal" href="#{{ $popup_call_class }}" role="button">
 </a>
 
 
-
+{{-- Para disparar form --}}
 <script>
-    jQuery('.customPopUp.modal.blackFriday_2022 .innerSectionElement .groupElements .row .info .containElements .sect2 .formatForm .wpcf7 input.wpcf7-form-control.wpcf7-submit').val('Empezar')
+    jQuery('.customPopUp.modal.black_friday .innerSectionElement .groupElements .row .info .containElements .sect2 .formatForm .wpcf7 input.wpcf7-form-control.wpcf7-submit').val('Recibir demo')
 </script>
