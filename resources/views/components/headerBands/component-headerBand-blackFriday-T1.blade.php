@@ -1,33 +1,50 @@
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/banner_black_friday_fondo.svg') !!})" class="headerband_blackFriday_promo_t2 customSection sectionParent fullWidth {{ $classSection }} ">
+
+    <div class="section-row">
+
+        <section class="innerSectionElement sct1">
+
+            <div class="containElements">
+
+                <div class="contain">
+
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/otto_black_friday_2024_10x12.png') !!}" alt="Otto promo 10 x 12" class="icon">
+                    <p><span>¡Promo especial!</span> Suscríbete a Escala y te regalamos <span>2 meses + Bootcamp</span> sobre Black Friday</p>
+
+                </div>
+
+                <a href="https://escala.com/escala-ronda-financiamiento-2024/" class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                    Conocer más
+                </a>
+                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_ilustracion_estancamiento_banner.png') !!}" alt="" class="icon-2">
+            </div>
+        </section>
+
+    </div>
+</section>
 
 
- <section
-style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_blackfriday_headerband.png') !!})"
- class="headerband_blackFriday_promo_t2 customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/banner_black_friday_fondo_mb.svg') !!})" class="headerband_blackFriday_promo_t2 customSection sectionParent fullWidth MblHeadband {{ $classSection }} ">
 
-     <div class="section-row">
+    <div class="section-row">
 
-             <section class="innerSectionElement sct1">
+        <section class="innerSectionElement sct1">
 
-                 <div class="containElements">
+            <div class="containElements">
 
-                        <span class="hashTitle" style="color: white">
-                            #Escala<span style="color: #FAD872;">Black</span>
-                        </span>
-                        <p class="text">
-                            ¡Por tiempo limitado, suscríbete y gana <span style="color: #FAD872;">2 meses gratis!</span>
-                        </p>
-                        <a href="#" class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Activar oferta
-                        </a>
+                <div class="contain">
 
-                 </div>
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/otto_black_friday_2024_10x12.png') !!}" alt="Otto promo 10 x 12" class="icon">
+                    <p><span>¡Promo especial!</span> Suscríbete a Escala y te regalamos <span>2 meses + Bootcamp</span> sobre Black Friday</p>
 
-             </section>
+                </div>
 
-     </div>
+                <a href="https://escala.com/escala-ronda-financiamiento-2024/" class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                    Conocer más
+                </a>
+                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_ilustracion_estancamiento_banner.png') !!}" alt="" class="icon-2">
+            </div>
+        </section>
 
- </section>
-
-
-
-
+    </div>
+</section>
