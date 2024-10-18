@@ -760,6 +760,25 @@ img
             top: -200px
 
         .innerSectionElement
+            h2.title
+                color: #2C4857
+                text-align: center
+                font-family: Nunito
+                font-size: 42.5px
+                font-style: normal
+                font-weight: 700
+                letter-spacing: -2px
+                line-height: 1
+                margin-bottom: 25px
+                @include responsivo(telefonoTable)
+                    font-size: 25px
+                    margin-bottom: 10px
+                @include responsivo(pcMedio)
+                    font-size: 30px
+                @include responsivo(general)
+                    font-size: 42.5px
+                @include responsivo(resto)
+                    font-size: 45px
             .containElements
                 display: flex
                 flex-direction: row
@@ -809,24 +828,8 @@ img
                             display: none
 
 
-                    span.title-blue
-                        color: #36768A
-                        text-align: center
-                        font-family: Nunito
-                        font-style: normal
-                        font-weight: 600
-                        letter-spacing: -1.902px
-                        @include responsivo(telefonoTable)
-                            font-size: 16px
-                        @include responsivo(pcMedio)
-                            font-size: 18px
-                        @include responsivo(general)
-                            font-size: 20px
-                        @include responsivo(resto)
-                            font-size: 22.5px
-
                     span.number
-                        color: #2C4857
+                        color: #36768A
                         text-align: center
                         font-family: Nunito
                         font-style: normal
@@ -856,25 +859,10 @@ img
                         @include responsivo(pcMedio)
                             font-size: 22.5px
                         @include responsivo(general)
-                            font-size: 32.5px
+                            font-size: 30px
                         @include responsivo(resto)
-                            font-size: 35px
+                            font-size: 30px
 
-                    span.text-small
-                        color: #797979
-                        font-family: Nunito
-                        font-style: normal
-                        font-weight: 600
-                        line-height: 1
-                        letter-spacing: -1.902px
-                        @include responsivo(telefonoTable)
-                            font-size: 16px
-                        @include responsivo(pcMedio)
-                            font-size: 18px
-                        @include responsivo(general)
-                            font-size: 20px
-                        @include responsivo(resto)
-                            font-size: 22.5px
 
 
 #homeSection_2023 .customSection.sectionParent.home_2023_2
@@ -904,7 +892,7 @@ img
         @include responsivo(resto)
             width: 100%!important
             max-width: 1350px!important
-            padding: 50px
+            padding: 70px
 
         .innerSectionElement.sct1
             margin-bottom: 50px
