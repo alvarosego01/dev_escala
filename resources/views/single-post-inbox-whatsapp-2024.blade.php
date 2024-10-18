@@ -335,40 +335,34 @@
                     </div>
 
                 </section>
-                <section class="innerSectionElement sct2" id="appLink">
-                    <div class="containElements">
-                        <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp_section_7.png') }}" alt="">
-                        </div>
-                        <div class="info" id="pasosLink">
-                            <h3>¿Qué más puedes hacer con la app móvil de Escala?</h3>
-                            <p>
-                                Desde el Inbox tienes acceso al CRM de Escala para que puedas guardar contactos, gestionar procesos comerciales
-                                y visualizar resultados de tu equipo de venta.
-                                <br class="space"><br class="space">
-                                También puedes asignar masivamente las conversaciones permitiendo que los administradores puedan distribuir
-                                rápidamente varias conversaciones a uno o más miembros del equipo.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <section class="innerSectionElement sct2_0">
-                    <div class="containElements">
 
-                        <div class="info" id="pasosLink">
-                            <p>
-                                Además podrás marcar cada conversación como no leída para recordar que 
-                                una conversación requiere más atención y evitar que pase desapercibida.
-                                <br class="space"><br class="space">
-                                Tener WhatsApp Inbox y el CRM, integrados en una misma plataforma, es contar con una ventaja operativa importante 
-                                ¡para aumentar la eficiencia de tus procesos comerciales!
-                            </p>
-                        </div>
+
+                <section class="innerSectionElement sct2"  id="appLink" style="background-image: url('{{ App::setFilePath('/assets/images/banners/app_imbox_fondo_seccion.svg') }}')" class="backgroundFull">
+
+                    <div class="containElements">
                         <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img-inbox-whatsapp_section_7_0.png') }}" alt="">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/ilustraccion_otto_articulo_blog_imbox_whatsapp.png') }}" alt="">
                         </div>
+                        <div class="info-second">
+                            <div class="info">
+                                <h3>¿Qué más puedes hacer en el Inbox de Escala?</h3>
+
+                            </div>
+                            <ul>
+                                <li> <span>Acceso desde el Inbox para guardar contactos, </span> gestionar procesos comerciales y visualizar resultados del equipo de ventas. </li>
+                                <li> <span>Posibilidad de asignar masivamente conversaciones, </span> permitiendo a los administradores distribuir rápidamente varias conversaciones entre miembros del equipo. </li>
+                                <li> <span>Marcar conversaciones como no leídas, </span> para evitar que pasen desapercibidas. </li>
+                                <li> <span>Enviar videos </span> en formatos 3gp y .mp4 con un máximo de 16 MB. Esto es ideal para compartir presentaciones, tutoriales o contenido visual sin tener que salir de la plataforma. </li>
+                                <li> <span>Envío múltiple de imágenes y documentos </span> desde el Inbox Web, arrastrando o seleccionando los archivos .doc, .pdf, .jpg, .png, .jpeg,. Cada uno puede pesar hasta 20 MB. </li>
+                                <li> <span>Tiempo de espera de mínimo 1 minuto en automatizaciones de WhatsApp </span> al seleccionar las acciones de “Enviar mensaje con lista de opciones” y “Enviar plantillas de Meta”. Esto permitirá respuestas más ágiles, perfecto para campañas que requieren rapidez en la interacción. </li>
+                                <li> <span>Crear reportes y analíticas de WhatsApp </span> para medir el comportamiento de sus interacciones en el inbox, evaluando tiempo de atención, tiempo promedio de respuesta y mucho más. </li>
+                            </ul>
+                        </div>
+
                     </div>
+
                 </section>
+
 
                 <section class="innerSectionElement sct3" style="background-image: url('{{ App::setFilePath('/assets/images/banners/banner_inbox_whatsapp_sect_7.svg') }}')" class="backgroundFull">
                     <div class="info">
