@@ -6,11 +6,6 @@
         @php
         $elementsReviews = [
         [
-        'logo' => App::setFilePath('/assets/images/illustrations/others/trust_tag.png'),
-        'text' => 'Escala / plataforma SEM',
-        'points' => '4.8 / 5',
-        ],
-        [
         'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
         'text' => 'Escala / plataforma SEM',
         'points' => '4.9 / 5',
@@ -20,6 +15,11 @@
         'text' => 'Escala / plataforma SEM',
         'points' => '4.8 / 5',
         ],
+        [
+        'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
+        'text' => 'Escala / plataforma CRM',
+        'points' => '4.8 / 5',
+        ]
         ];
         @endphp
 
@@ -109,17 +109,20 @@
                             </div>
                             <div class="form7 col-md-12 col-lg-4 ">
 
+                      
+
+
+
                                 <div class="containElements">
 
-                                    <div class="formatForm redirectWeb" redirectweb="true">
+    <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <div id="form-1" style=" text-align:center;">
-                                            <img style="margin-top:30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
-                                            <h5 class="titleFormat blackcolor">Recibe un demo
-                                                <br class="space">
-                                                en vivo
-                                            </h5>
-                                            @php
+        <div class="form-container form-1" style="text-align:center;">
+            <img style="margin-top:30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
+            <h5 class="titleFormat blackcolor">Recibe un demo
+                <br class="space">en vivo
+            </h5>
+            @php
                                             $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
                                             $_rs = [];
                                             $_formShortcode = null;
@@ -135,14 +138,14 @@
                                             }
                                             @endphp
                                             {!! do_shortcode($_formShortcode) !!}
-                                        </div>
+        </div>
 
-                                        <div id="form-2" style="display:none; text-align:center;">
-                                            <img style="margin-top:30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
-                                            <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
-                                                <br class="space">tu demo
-                                            </h5>
-                                            @php
+        <div class="form-container form-2" style="display:none; text-align:center;">
+            <img style="margin-top:30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
+            <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
+                <br class="space">tu demo
+            </h5>
+            @php
                                             $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
                                             $_rs = [];
                                             $_formShortcode = null;
@@ -158,71 +161,14 @@
                                             }
                                             @endphp
                                             {!! do_shortcode($_formShortcode) !!}
-                                        </div>
-                                    </div>
-                                    <script>
-                                        jQuery(document).ready(function($) {
-                                            // Selecciona todos los selectores especificados
-                                            $('select[name="cant-vendedores"], select[name="negocio-etapa"], select[name="factura-anual"], select[name="your-employees"], select[name="your-country"], select[name="industria"], select[name="rol-empresa"]').change(function() {
-                                                var selectedValue = $(this).val();
+        </div>
+    </div>
 
-                                                // Opciones que NO deben cambiar de color
-                                                var excludeOptions = [
-                                                    "Selecciona el país",
-                                                    "Cantidad de empleados",
-                                                    "Cantidad de vendedores",
-                                                    "Etapa del negocio",
-                                                    "Facturación anual (en USD)",
-                                                    "Industria de tu negocio",
-                                                    "¿Cuál describe mejor tu rol?"
-                                                ];
-                                                if (excludeOptions.indexOf(selectedValue) === -1) {
-                                                    $(this).addClass('custom-select-color');
-                                                } else {
-                                                    $(this).removeClass('custom-select-color');
-                                                }
+    <script>
+    
+    </script>
+</div>
 
-                                            });
-
-                                            $('input[name="no-web[]"]').on('change', function() {
-                                                if ($(this).is(':checked')) {
-                                                    $('input[name="web-page"]').val(''); // Borra el contenido del campo
-                                                    $('input[name="web-page"]').prop('disabled', true); // Desactiva el campo
-                                                } else {
-                                                    $('input[name="web-page"]').prop('disabled', false); // Reactiva el campo
-                                                }
-                                            });
-
-                                            $('#form-1').on('submit', function(e) {
-                                                e.preventDefault(); // Evita el envío normal del formulario
-
-                                                var $form = $(this);
-                                                var formData = $form.serialize(); // Serializa los datos del formulario
-
-                                                // Captura el valor del campo de email usando el atributo `name` de Contact Form 7
-                                                var email = $form.find('input[name="your-email"]').val();
-
-                                                $.ajax({
-                                                    type: 'POST',
-                                                    url: $form.attr('action'),
-                                                    data: formData,
-                                                    success: function(response) {
-                                                        // Oculta el primer formulario y muestra el segundo
-                                                        $('#form-1').hide();
-                                                        $('#form-2').show();
-
-                                                        // Rellena el campo oculto del segundo formulario con el email
-                                                        $('#hidden-email-field').val(email);
-                                                    },
-                                                    error: function(xhr, status, error) {
-                                                        console.error('Error al enviar el formulario:', error);
-                                                    }
-                                                });
-                                            });
-                                        });
-                                    </script>
-
-                                </div>
                             </div>
 
                             <div class="imageReviewsMobile hideOnDesktop">
