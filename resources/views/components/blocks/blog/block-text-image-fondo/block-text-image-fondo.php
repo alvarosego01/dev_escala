@@ -1,5 +1,5 @@
 <?php
-// Block Name: Blog Text Image Block 2
+// Block Name: Blog Text Image Block Fondo
 
 use App\Classes\Twig_Config;
 
