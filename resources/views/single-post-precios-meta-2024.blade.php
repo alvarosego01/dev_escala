@@ -27,7 +27,7 @@
                                     <div class="ele ele2 col-md-12 col-lg-7">
 
                                         <h1 class="principalBigTitle blackColor">
-                                        <span>WhatsApp API:</span> Precios de Meta <br class="DT_e">
+                                            <span>WhatsApp API:</span> Precios de Meta <br class="DT_e">
                                             actualizados y su integración con <br class="DT_e">
                                             el CRM Escala
                                         </h1>
@@ -57,28 +57,57 @@
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor">Recibe un tour guiado <br class="space"> de Escala</h5>
+                                        <div class="form-container form-1" style="text-align:center;">
+                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
+                                            <h5 class="titleFormat blackcolor">Recibe un demo
+                                                <br class="space">
+                                                en vivo
+                                            </h5>
+                                            @php
+                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                            $_rs = [];
+                                            $_formShortcode = null;
+                                            if ($_data = get_posts($_args)) {
+                                            foreach ($_data as $_key) {
+                                            $_rs[$_key->ID] = $_key->post_title;
+                                            if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                            }
+                                            }
+                                            } else {
+                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                            }
+                                            @endphp
+                                            {!! do_shortcode($_formShortcode) !!}
+                                        </div>
 
-                                        @php
-                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                        $_rs = [];
-                                        $_formShortcode = null;
-                                        if ($_data = get_posts($_args)) {
-                                        foreach ($_data as $_key) {
-                                        $_rs[$_key->ID] = $_key->post_title;
-                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                        }
-                                        }
-                                        } else {
-                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                        }
-                                        @endphp
-                                        {!! do_shortcode($_formShortcode) !!}
-
+                                        <div class="form-container form-2" style="display:none; text-align:center;">
+                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
+                                            <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
+                                                <br class="space">tu demo
+                                            </h5>
+                                            @php
+                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                            $_rs = [];
+                                            $_formShortcode = null;
+                                            if ($_data = get_posts($_args)) {
+                                            foreach ($_data as $_key) {
+                                            $_rs[$_key->ID] = $_key->post_title;
+                                            if ($_key->post_title === 'Demo flujo step 2') {
+                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                            }
+                                            }
+                                            } else {
+                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                            }
+                                            @endphp
+                                            {!! do_shortcode($_formShortcode) !!}
+                                        </div>
                                     </div>
 
+
                                 </div>
+
                             </div>
 
                             <div class="imageReviewsMobile hideOnDesktop">
@@ -318,7 +347,7 @@
                     <div class="containerImage">
                         <img src="{{ App::setFilePath('/assets/images/illustrations/others/tabla_precios_meta_2024.png') }}" alt="">
                         <p>
-                        Si quieres conocer las tarifas de Meta más actualizadas, <a target="_blank" href="https://business.whatsapp.com/products/platform-pricing?lang=es_LA&country=Per%C3%BA&currency=D%C3%B3lar%20(USD)&category=Autenticaci%C3%B3n">ingresa aquí.</a>
+                            Si quieres conocer las tarifas de Meta más actualizadas, <a target="_blank" href="https://business.whatsapp.com/products/platform-pricing?lang=es_LA&country=Per%C3%BA&currency=D%C3%B3lar%20(USD)&category=Autenticaci%C3%B3n">ingresa aquí.</a>
                         </p>
                     </div>
                 </section>

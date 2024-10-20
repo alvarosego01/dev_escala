@@ -4,7 +4,7 @@
 
         @php
         $elementsReviews = [
-    
+
         [
         'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
         'text' => 'Escala / plataforma CRM',
@@ -105,92 +105,61 @@
 
                             </div>
                             <div class="form7 col-md-12 col-lg-4 ">
-
                                 <div class="containElements">
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor">Recibe un demo-tour <br class="space">
-                                            personalizado de Escala</h5>
-
-
-                               
-                                            <div id="form-container">
-                                            <div id="form-1" >
-                                                @php
-                                                $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                                $_rs = [];
-                                                $_formShortcode = null;
-                                                if ($_data = get_posts($_args)) {
-                                                foreach ($_data as $_key) {
-                                                $_rs[$_key->ID] = $_key->post_title;
-                                                if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                                $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                                }
-                                                }
-                                                } else {
-                                                $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
-                                                }
-                                                @endphp
-                                                {!! do_shortcode($_formShortcode) !!}
-                                            </div>
-
-                                            <div id="form-2" style="display:none;">
-                                                @php
-                                                $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                                $_rs = [];
-                                                $_formShortcode = null;
-                                                if ($_data = get_posts($_args)) {
-                                                foreach ($_data as $_key) {
-                                                $_rs[$_key->ID] = $_key->post_title;
-                                                if ($_key->post_title === 'Form test') {
-                                                $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                                }
-                                                }
-                                                } else {
-                                                $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
-                                                }
-                                                @endphp
-                                                {!! do_shortcode($_formShortcode) !!}
-                                            </div>
+                                        <div class="form-container form-1" style="text-align:center;">
+                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
+                                            <h5 class="titleFormat blackcolor">Recibe un demo
+                                                <br class="space">
+                                                en vivo
+                                            </h5>
+                                            @php
+                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                            $_rs = [];
+                                            $_formShortcode = null;
+                                            if ($_data = get_posts($_args)) {
+                                            foreach ($_data as $_key) {
+                                            $_rs[$_key->ID] = $_key->post_title;
+                                            if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                            }
+                                            }
+                                            } else {
+                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                            }
+                                            @endphp
+                                            {!! do_shortcode($_formShortcode) !!}
                                         </div>
 
-                                        <script>
-                                            jQuery(document).ready(function($) {
-                                                $('#form-1').on('submit', function(e) {
-                                                    e.preventDefault(); // Evita el envío normal del formulario
-
-                                                    var $form = $(this);
-                                                    var formData = $form.serialize(); // Serializa los datos del formulario
-
-                                                    // Captura el valor del campo de email usando el atributo `name` de Contact Form 7
-                                                    var email = $form.find('input[name="your-email"]').val();
-
-                                                    $.ajax({
-                                                        type: 'POST',
-                                                        url: $form.attr('action'),
-                                                        data: formData,
-                                                        success: function(response) {
-                                                            // Oculta el primer formulario y muestra el segundo
-                                                            $('#form-1').hide();
-                                                            $('#form-2').show();
-
-                                                            // Rellena el campo oculto del segundo formulario con el email
-                                                            $('#hidden-email-field').val(email);
-                                                        },
-                                                        error: function(xhr, status, error) {
-                                                            console.error('Error al enviar el formulario:', error);
-                                                        }
-                                                    });
-                                                });
-                                            });
-
-
-
-                                        </script>
+                                        <div class="form-container form-2" style="display:none; text-align:center;">
+                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
+                                            <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
+                                                <br class="space">tu demo
+                                            </h5>
+                                            @php
+                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                            $_rs = [];
+                                            $_formShortcode = null;
+                                            if ($_data = get_posts($_args)) {
+                                            foreach ($_data as $_key) {
+                                            $_rs[$_key->ID] = $_key->post_title;
+                                            if ($_key->post_title === 'Demo flujo step 2') {
+                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                            }
+                                            }
+                                            } else {
+                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                            }
+                                            @endphp
+                                            {!! do_shortcode($_formShortcode) !!}
+                                        </div>
                                     </div>
 
+
                                 </div>
+
                             </div>
 
                             <div class="imageReviewsMobile hideOnDesktop">
@@ -1051,7 +1020,7 @@
 
         <section class='w-full customSection sectionParent landing_CRM_2024_11'>
 
-              <div class="section-row">
+            <div class="section-row">
 
                 <section class='innerSectionElement sct0 '>
                     <div class='containElements'>
@@ -1065,24 +1034,24 @@
                 <section class='innerSectionElement sct1 '>
                     <div class='containElements'>
 
-                            <div class="review r1">
-                                <div class="containerImage">
-                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1.png') }}" loading="lazy">
-                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1_m.png') }}" loading="lazy">
-                                </div>
+                        <div class="review r1">
+                            <div class="containerImage">
+                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1.png') }}" loading="lazy">
+                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1_m.png') }}" loading="lazy">
                             </div>
-                            <div class="review r2">
-                                <div class="containerImage">
-                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2.png') }}" loading="lazy">
-                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2_m.png') }}" loading="lazy">
-                                </div>
+                        </div>
+                        <div class="review r2">
+                            <div class="containerImage">
+                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2.png') }}" loading="lazy">
+                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2_m.png') }}" loading="lazy">
                             </div>
-                            <div class="review r3">
-                                <div class="containerImage">
-                                    <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3.png') }}" loading="lazy">
-                                    <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3_m.png') }}" loading="lazy">
-                                </div>
+                        </div>
+                        <div class="review r3">
+                            <div class="containerImage">
+                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3.png') }}" loading="lazy">
+                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3_m.png') }}" loading="lazy">
                             </div>
+                        </div>
 
                     </div>
 

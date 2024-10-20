@@ -4,7 +4,7 @@
 
         @php
         $elementsReviews = [
-       
+
         [
         'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
         'text' => 'Escala / plataforma CRM',
@@ -105,13 +105,12 @@
 
                             </div>
                             <div class="form7 col-md-12 col-lg-4 ">
-
                                 <div class="containElements">
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <div id="form-1" style=" text-align:center;">
-                                            <img style="margin-top:30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
+                                        <div class="form-container form-1" style="text-align:center;">
+                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
                                             <h5 class="titleFormat blackcolor">Recibe un demo
                                                 <br class="space">
                                                 en vivo
@@ -134,8 +133,8 @@
                                             {!! do_shortcode($_formShortcode) !!}
                                         </div>
 
-                                        <div id="form-2" style="display:none; text-align:center;">
-                                            <img style="margin-top:30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
+                                        <div class="form-container form-2" style="display:none; text-align:center;">
+                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
                                             <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
                                                 <br class="space">tu demo
                                             </h5>
@@ -146,7 +145,7 @@
                                             if ($_data = get_posts($_args)) {
                                             foreach ($_data as $_key) {
                                             $_rs[$_key->ID] = $_key->post_title;
-                                            if ($_key->post_title === 'Form test') {
+                                            if ($_key->post_title === 'Demo flujo step 2') {
                                             $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
                                             }
                                             }
@@ -157,196 +156,10 @@
                                             {!! do_shortcode($_formShortcode) !!}
                                         </div>
                                     </div>
-                                    <style>
-                                        .label_class {
-                                            color: #706b6d;
-                                            font-size: 18px;
-                                            text-align: left;
-                                            padding: 6px 12px 0px 12px;
-                                            border-bottom: 1px solid #ddd;
-                                            margin-bottom: 5px;
-                                            border-radius: 3px;
-                                            border: none !important;
-                                            display: block !important;
-                                        }
 
-                                        .label_class span {
-                                            font-size: 16px;
-                                        }
-
-                                        .checkbox-936 .wpcf7-list-item input {
-                                            background-color: #fff;
-                                            position: static !important;
-                                        }
-
-                                        .checkbox-936 label {
-                                            background-color: #fff;
-                                            border: none;
-                                            margin: 0;
-                                            font-size: 14px;
-                                            color: #706b6d;
-                                            padding-left: 12px;
-                                        }
-
-                                        .checkbox-936 span {
-                                            background-color: #fff;
-                                            border: none !important;
-                                        }
-
-                                        .checkbox-755 span {
-                                            display: flex;
-                                            flex-direction: column;
-                                            align-items: flex-start;
-                                            margin: 0px 0px -4px 0px !important;
-                                        }
-
-                                        .checkbox-755 .wpcf7-list-item input {
-                                            background-color: #fff;
-                                            position: static !important;
-                                        }
-
-                                        .checkbox-755 label {
-                                            background-color: #fff;
-                                            border: none;
-                                            margin: 0;
-                                            font-size: 14px;
-                                            color: #706b6d;
-                                            padding-left: 12px;
-
-                                        }
-
-                                        .checkbox-755 span {
-                                            background-color: #fff;
-                                            border: none !important;
-                                            text-align: left !important;
-                                        }
-
-                                        .checkbox-755 input[type="checkbox"],
-                                        .checkbox-936 input[type="checkbox"] {
-                                            appearance: none;
-                                            -webkit-appearance: none;
-                                            width: 20px;
-                                            height: 20px;
-                                            background-color: transparent;
-                                            border-radius: 4px !important;
-                                            cursor: pointer;
-                                            position: relative;
-                                        }
-
-                                        .checkbox-755 input[type="checkbox"]:checked,
-                                        .checkbox-936 input[type="checkbox"]:checked {
-                                            background-color: #F34F36;
-                                            border-color: #F34F36;
-                                            border-radius: 3px;
-                                        }
-
-                                        .checkbox-755 input[type="checkbox"]:checked:before,
-                                        .checkbox-936 input[type="checkbox"]:checked:before {
-                                            content: '\f00c';
-                                            margin-bottom: -5px;
-                                            margin-left: 1px;
-                                            color: #ffffff;
-                                            font-weight: 600;
-                                            font-size: 10px;
-                                            line-height: 17px;
-                                        }
-
-
-                                        textarea,
-                                        input[type="text"],
-                                        input[type="email"],
-                                        input[type="number"],
-                                        input[type="tel"] {
-                                            color: #322C2E!important;
-                                        }
-
-                                        textarea::placeholder,
-                                        input[type="text"]::placeholder,
-                                        input[type="email"]::placeholder,
-                                        input[type="number"]::placeholder,
-                                        input[type="tel"]::placeholder {
-                                            color: #797979;
-
-                                        }
-
-
-                                        input[type="submit"] {
-                                            color: #fff !important;
-                                            cursor: pointer;
-                                        }
-
-                                        .custom-select-color {
-                                            color: #322C2E !important;
-                                            font-weight: bold;
-                                        }
-                                        .menu-578{
-                                            margin-top: 12px;
-                                        }
-                    
-                                    </style>
-                                    <script>
-                                        jQuery(document).ready(function($) {
-                                            // Selecciona todos los selectores especificados
-                                            $('select[name="menu-735"], select[name="menu-669"], select[name="menu-590"], select[name="your-employees"], select[name="your-country"], select[name="menu-577"], select[name="menu-578"]').change(function() {
-                                                var selectedValue = $(this).val();
-
-                                                // Opciones que NO deben cambiar de color
-                                                var excludeOptions = [
-                                                    "Selecciona el país",
-                                                    "Cantidad de empleados",
-                                                    "Cantidad de vendedores",
-                                                    "Etapa del negocio",
-                                                    "Facturación anual (en USD)",
-                                                    "Industria de tu negocio",
-                                                    "¿Cuál describe mejor tu rol?"
-                                                ];
-                                                if (excludeOptions.indexOf(selectedValue) === -1) {
-                                                    $(this).addClass('custom-select-color');
-                                                } else {
-                                                    $(this).removeClass('custom-select-color');
-                                                }
-
-                                            });
-
-                                            $('input[name="checkbox-936[]"]').on('change', function() {
-                                                if ($(this).is(':checked')) {
-                                                    $('input[name="text-452"]').val(''); // Borra el contenido del campo
-                                                    $('input[name="text-452"]').prop('disabled', true); // Desactiva el campo
-                                                } else {
-                                                    $('input[name="text-452"]').prop('disabled', false); // Reactiva el campo
-                                                }
-                                            });
-
-                                            $('#form-1').on('submit', function(e) {
-                                                e.preventDefault(); // Evita el envío normal del formulario
-
-                                                var $form = $(this);
-                                                var formData = $form.serialize(); // Serializa los datos del formulario
-
-                                                // Captura el valor del campo de email usando el atributo `name` de Contact Form 7
-                                                var email = $form.find('input[name="your-email"]').val();
-
-                                                $.ajax({
-                                                    type: 'POST',
-                                                    url: $form.attr('action'),
-                                                    data: formData,
-                                                    success: function(response) {
-                                                        // Oculta el primer formulario y muestra el segundo
-                                                        $('#form-1').hide();
-                                                        $('#form-2').show();
-
-                                                        // Rellena el campo oculto del segundo formulario con el email
-                                                        $('#hidden-email-field').val(email);
-                                                    },
-                                                    error: function(xhr, status, error) {
-                                                        console.error('Error al enviar el formulario:', error);
-                                                    }
-                                                });
-                                            });
-                                        });
-                                    </script>
 
                                 </div>
+
 
                             </div>
                         </div>
