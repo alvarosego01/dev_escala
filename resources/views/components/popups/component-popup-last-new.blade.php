@@ -32,32 +32,55 @@
 
                                     <div class="sect2">
 
-                                        <div class="formatForm redirectWeb" redirectWeb="true">
+                                        <div class="containElements">
 
-                                            @if (isset($form_shortcode) && $form_shortcode != null)
-                                            {!! do_shortcode($form_shortcode) !!}
-                                            @else
-                                            @php
-                                            $_args = array('post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1);
-                                            $_rs = array();
-                                            $_formShortcode = null;
-                                            if( $_data = get_posts($_args)){
-                                            foreach($_data as $_key){
-                                            $_rs[$_key->ID] = $_key->post_title;
-                                            if( $_key->post_title === 'Profile demo - Flujo Demo' ){
-                                            $_formShortcode = '[contact-form-7 id="'.$_key->ID.'"]';
-                                            }
-                                            }
-                                            }else{
-                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                            }
-                                            @endphp
-                                            {!! do_shortcode($_formShortcode); !!}
-                                            @endif
+                                            <div class="formatForm redirectWeb" redirectweb="true">
+
+                                                <div class="form-container form-1" style="text-align:center;">
+                                                    <img style="margin-bottom:15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
+
+                                                    @php
+                                                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                                    $_rs = [];
+                                                    $_formShortcode = null;
+                                                    if ($_data = get_posts($_args)) {
+                                                    foreach ($_data as $_key) {
+                                                    $_rs[$_key->ID] = $_key->post_title;
+                                                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                                    }
+                                                    }
+                                                    } else {
+                                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                                    }
+                                                    @endphp
+                                                    {!! do_shortcode($_formShortcode) !!}
+                                                </div>
+
+                                                <div class="form-container form-2" style="display:none; text-align:center;">
+                                                    <img style="margin-bottom:15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
+
+                                                    @php
+                                                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                                    $_rs = [];
+                                                    $_formShortcode = null;
+                                                    if ($_data = get_posts($_args)) {
+                                                    foreach ($_data as $_key) {
+                                                    $_rs[$_key->ID] = $_key->post_title;
+                                                    if ($_key->post_title === 'Demo flujo step 2') {
+                                                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                                    }
+                                                    }
+                                                    } else {
+                                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                                    }
+                                                    @endphp
+                                                    {!! do_shortcode($_formShortcode) !!}
+                                                </div>
+                                            </div>
 
 
                                         </div>
-
                                     </div>
 
 
@@ -71,9 +94,9 @@
                                 <div class="containElements ">
                                     <div class="sect1 ">
                                         <h2 class="primaryTitle">
-                                        ¡Nuevas funcionalidades <br class="space">para potenciar tus
+                                            ¡Nuevas funcionalidades <br class="space">para potenciar tus
                                             <span style="color:#2C4857;">
-                                            Automatizaciones!
+                                                Automatizaciones!
                                             </span>
                                         </h2>
                                     </div>
