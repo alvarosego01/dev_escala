@@ -479,65 +479,72 @@
                     <div class="containElements">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="cardText">
+                                <div class="cardText card1">
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/1_home_icon_logros.svg') }}"
                                         alt="" loading="lazy">
-                                    <p class="text">
-                                        Aumentas la eficiencia de tus procesos de venta
-                                    </p>
+                                    <span class="text">
+                                        Aumentas la eficiencia <br class="space">
+                                        de tus procesos de venta
+                                    </span>
                                 </div>
-                                <div class="cardText">
+                                <div class="cardText card2">
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/2_home_icon_logros.svg') }}"
                                         alt="" loading="lazy">
-                                    <p class="text">
-                                        Obtienes mayor control sobre gestión comercial
-                                    </p>
+                                    <span class="text">
+                                        Obtienes mayor control <br class="space">
+                                        sobre gestión comercial
+                                    </span>
                                 </div>
-                                <div class="cardText">
+                                <div class="cardText card3">
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/3_home_icon_logros.svg') }}"
                                         alt="" loading="lazy">
-                                    <p class="text">
-                                        Integras operaciones de marketing y ventas
-                                    </p>
+                                    <span class="text">
+                                        Integras operaciones de<br class="space">
+                                         marketing y ventas
+                                    </span>
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
+                            <div class="col-md-4 cardImg">
                                 <img src="{{ App::setFilePath('/assets/images/illustrations/others/imagen_mujer_sosteniendo_computador_escala_home_2024.webp') }}"
                                     class="img-responsive" alt="imagenmujer sosteniendo computador escala home 2024" loading="lazy">
                             </div>
 
                             <div class="col-md-4">
-                                <div class="cardText">
+                                <div class="cardText card4">
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/7_home_icon_logros.svg') }}"
                                         alt="" loading="lazy">
-                                    <p class="text">
-                                        Recibes apoyo al incorporar nuevas tecnologías
-                                    </p>
+                                    <span class="text">
+                                        Recibes apoyo al incorporar<br class="space">
+                                         nuevas tecnologías
+                                    </span>
                                 </div>
-                                <div class="cardText">
+                                <div class="cardText card5">
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/6_home_icon_logros.svg') }}"
                                         alt="" loading="lazy">
-                                    <p class="text">
-                                        Estandarizas y profesionalizas comunicaciones
-                                    </p>
+                                    <span class="text">
+                                        Estandarizas y profesionalizas<br class="space">
+                                         comunicaciones
+                                    </span>
                                 </div>
-                                <div class="cardText">
+                                <div class="cardText card6">
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/5_home_icon_logros.svg') }}"
                                         alt="" loading="lazy">
-                                    <p class="text">
-                                        Centralizas información y reduces riesgo de pérdida de data
-                                    </p>
+                                    <span class="text">
+                                        Centralizas información y reduces <br class="space">
+                                        riesgo de pérdida de data
+                                    </span>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="center-img">
+                        <div class="center-img ">
                             <img src="{{ App::setFilePath('/assets/images/illustrations/others/4_home_icon_logros.svg') }}"
-                                alt="" loading="lazy">
-                            <p class="text">
-                                Mides y analizas más fácilmente todo el embudo
-                            </p>
+                                alt="" loading="lazy">  
+                            <span class="text">
+                                Mides y analizas más<br class="space">
+                                 fácilmente todo el embudo
+                            </span>
                         </div>
 
                     </div>
@@ -632,19 +639,27 @@
                                 'title' => 'Gestión de contactos y procesos',
                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_crm_small.png'),
                                 'text' => '
-                                <span>Convierte más leads en clientes fieles</span> <br class="space">
-                                organizando, guardando y supervisando <br class="DT_e">
-                                mejor todo lo que ocurre con tus contactos',
+                                <span>Vende más y mejor
+                                </span> <br class="space">
+                                centralizando, organizando y <br class="DT_e">
+                                monitoreando toda la información y las <br class="DT_e">
+                                actividades de tu equipo comercial.',
                                 'img' => App::setFilePath('/assets/images/gifs/image_crm_home_selector.gif'),
-                                
+                                'button' => [
+                                'url' => '',
+                                'class' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                                'label' => 'Recibir un demo'
+                                ]
                                 ],
                                 [
                                 'title' => 'WhatsApp Inbox, masivos y automatizados',
                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_small.png'),
                                 'text' => '
-                                <span>Optimiza tu comunicación por WhatsApp</span> <br class="space">
-                                con envíos masivos, mensajes <br class="space">
-                                automatizados, y gestión por inbox
+                                <span>Mejora tu comunicación
+                                </span> <br class="space">
+                                con envíos masivos, mensajes <br class="DT_e">
+                                automatizados y gestión de <br class="DT_e">
+                                conversaciones en un solo lugar.
                                 ',
                                 'img' => App::setFilePath('/assets/images/gifs/image_whatsapp_home_selector.gif'),
                                 ],
@@ -652,8 +667,11 @@
                                 'title' => 'Automatizaciones',
                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_automatizations_small.png'),
                                 'text' => '
-                                Ahorra tiempo y dinero <br class="DT_e">
-                                programando tareas y flujos de acciones
+                                <span>Ahorra tiempo en tareas repetitivas</span>
+                                <br class="space">
+                                configurando flujos de acciones y <br class="DT_e">
+                                comunicaciones en distintas partes de <br class="DT_e">
+                                tu proceso comercial.
                                 ',
                                 'img' => App::setFilePath('/assets/images/gifs/image_automatizations_home_selector.gif'),
                                 ],
@@ -661,17 +679,24 @@
                                 'title' => 'Email Marketing',
                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailmkt_small.png'),
                                 'text' => '
-                                <span>Envia campañas profesionales</span> <br class="space">
-                                que nutran tus relaciones',
+                                <span>Crea y envía campañas profesionales
+                                </span> <br class="space">
+                                en minutos, que nutran relaciones y <br class="DT_e">
+                                aumenten la probabilidad de convertir <br class="DT_e">
+                                contactos en ventas.',
                                 'img' => App::setFilePath('/assets/images/gifs/image_email_marketing_home_selector.gif'),
                                 ],
                                 [
                                 'title' => 'Landing Pages y Formularios',
                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_pages_small.png'),
                                 'text' => '
-                                <span>Captura más leads de calidad</span> <br class="space">
-                                Elige la plantilla, edítala en minutos y publica <br class="DT_e">
-                                ¡sin depender de programadores!
+                                <span>Genera más y mejores leads
+                                </span> <br class="space">
+                                con hermosas páginas que creas en <br class="DT_e">
+                                minutos ¡sin depender de programadores! <br class="DT_e">
+                                y formularios integrados al CRM para que <br class="DT_e">
+                                los contactos se guarden <br class="DT_e">
+                                automáticamente.
                                 ',
                                 'img' => App::setFilePath('/assets/images/gifs/image_landingp_home_selector.gif'),
                                 ],
@@ -679,35 +704,43 @@
                                 'title' => 'Anuncios digitales ',
                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ads_small.png'),
                                 'text' => '
-                                <span>Crea y administra campañas publicitarias</span> <br class="space">
-                                pagas en Facebook a Instagram',
+                                <span>Integra campañas publicitarias pagas
+                                </span> <br class="space">
+                                en Facebook e Instagram desde Escala para <br class="DT_e">
+                                que puedas atribuir resultados de ventas a <br class="DT_e">
+                                tus esfuerzos de marketing.',
                                 'img' => App::setFilePath('/assets/images/gifs/image_ads_home_selector.gif'),
                                 ],
                                 [
                                 'title' => 'Inteligencia Artificial',
                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ai_small.png'),
                                 'text' => '
-                                <span>Crea contenido efectivo en segundos</span> <br class="space">
-                                La IA en Escala es como tener un copywriter <br class="DT_e">
-                                estrella a una fracción del costo',
+                                <span>Crea contenido efectivo en segundos
+                                </span> <br class="space">
+                                La IA en Escala es como tener un <br class="DT_e">
+                                copywriter
+                                estrella a una fracción del costo.',
                                 'img' => App::setFilePath('/assets/images/gifs/image_ia_home_selector.gif'),
                                 ],
                                 [
                                 'title' => 'Reportes y Dashboards personalizados',
                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_reports_headerband.png'),
                                 'text' => '
-                                <span>Toma decisiones estratégicas</span> con <br class="space">
-                                reportes que creas en minutos. <br class="space">
-                                ¡Escala tu empresa con datos clave!',
+                                <span>Toma mejores decisiones
+                                </span> <br class="space">
+                                visualizando la data relevante y oportuna <br class="DT_e">
+                                que necesitas para optimizar tus resultados <br class="DT_e">
+                                de marketing y venta.',
                                 'img' => App::setFilePath('/assets/images/gifs/gif_reports.gif'),
                                 ],
                                 [
                                 'title' => 'Integraciones',
                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_integraciones_small.png'),
                                 'text' => '
-                                <span>Toma decisiones estratégicas</span> con <br class="space">
-                                reportes que creas en minutos. <br class="space">
-                                ¡Escala tu empresa con datos clave!',
+                                <span>Conecta Escala a otros softwares</span><br class="space">
+                                a través de integraciones nativas, nuestra <br class="DT_e">
+                                API pública y Zapier.
+                                ',
                                 'img' => App::setFilePath('/assets/images/gifs/gif_reports.gif'),
                                 ],
 
@@ -717,7 +750,7 @@
                                 <ul class="elements selectorInfo">
 
                                     @foreach ($elements as $item)
-                                    <li class="element    @if ($loop->iteration == 2) active @endif"
+                                    <li class="element    @if ($loop->iteration == 1) active @endif"
                                         info_index="{!! $loop->index !!}">
                                         <div class="icon">
                                             <div class="containerImage">
@@ -734,7 +767,6 @@
                                     @endforeach
 
                                 </ul>
-
                                 <script type="text/javascript">
                                     var infoArray = <?php echo json_encode($elements); ?>;
 
@@ -745,14 +777,22 @@
 
                                         var index = jQuery(this).attr('info_index');
 
+                                        // Actualiza el texto
                                         jQuery('.showInfoSelectors .infoIn .text').html(infoArray[index]['text']);
+
+                                        // Actualiza la imagen
                                         jQuery('.showInfoSelectors .infoIn .image .containerImage img').attr('src', infoArray[index]['img']);
 
+                                        // Actualiza el botón
+                                        var button = infoArray[index]['button'];
+                                        jQuery('.showInfoSelectors .infoIn .dynamic-button').html(`
+                                        <a href="` + button.url + `" class="btn ` + button.class + `">
+                                        ` + button.label + `
+                                                </a>
+                                            `);
 
                                     });
                                 </script>
-
-
                             </div>
 
                             <div class="col-md-12 col-lg-7 info showInfoSelectors">
@@ -770,7 +810,11 @@
                                         </div>
 
                                     </div>
-
+                                    <div class="dynamic-button">
+                                        <a href="{!! $elements[0]['button']['url'] !!}" class="btn {!! $elements[0]['button']['class'] !!}">
+                                            {!! $elements[0]['button']['label'] !!}
+                                        </a>
+                                    </div>
 
 
                                 </div>
@@ -787,49 +831,7 @@
             </div>
 
         </section>
-
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/02-bg-home2023.png') !!})"
-            class="customSection sectionParent home_2023_">
-
-            <div class="section-row">
-
-                <section class="innerSectionElement sct0">
-
-                    <div class="containElements">
-                        <p class="text">
-                        Las herramientas son potentes individualmente, <br class="space">
-                        pero realmente escalas cuando las usas en conjunto.
-                        </p>
-                    </div>
-
-                </section>
-
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h2 class="title">
-                            No necesitas invertir en 10+ herramientas <br class="DT_e">
-                            ni en un equipo grande <span>para escalar tu negocio</span>
-                        </h2>
-                        <p class="text">
-                            Los clientes de Escala triplican su productividad <br class="DT_e">
-                            sin agregar costos operativos a su empresa
-                        </p>
-
-                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Conversa con un asesor Escala
-                        </a>
-
-                    </div>
-
-                </section>
-
-            </div>
-
-        </section>
-
-        <section class="customSection sectionParent home_2023_">
+        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_home_section_7_2024.svg') !!})" class="customSection sectionParent homeSection_2023_6">
 
             <div class="section-row">
 
@@ -837,225 +839,47 @@
 
                     <div class="containElements">
 
-                        <h3 class="sub-title">
-                            Ya no requieres meses para adaptar el CRM a tus operaciones
-                        </h3>
-                        <h2 class="title">
-                            Recibe el CRM ajustado a tus necesidades <br class="DT_e">
-                            ¡en menos de 10 días!
-                        </h2>
-                        <p class="text">
-                            Adaptamos la plataforma a tu negocio para que tú y tu equipo empiecen a enfocarse lo más pronto <br class="DT_e">
-                            posible en lo que verdaderamente importa: ¡generar leads y cerrar ventas!
-                        </p>
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/01-home2023.png') !!}" loading="lazy">
-                    </div>
+                        <div class="image">
 
-                </section>
-                <section class="innerSectionElement sct2">
+                            <div class="containerImage">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/imagen_home_escalanauta_guia.png') !!}" alt="">
+                            </div>
 
-                    <div class="containElements">
-
-                        <div class="row">
-                            <div class="col-md-12 col-lg-4 cardParent column-1">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <span class="orange-pill">Día 1</span>
-                                        <h5 class="card-number">1</h5>
-                                        <h5 class="card-title">
-                                            Conocemos <br class="space"> tu
-                                            negocio
-                                        </h5>
-                                        <h5 class="card-subtitle">
-                                            Evaluamos factores como:
-                                        </h5>
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Industria</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Necesidades</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Proceso comercial</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Equipo</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/02-home2023.png') !!}" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-lg-4 cardParent column-2">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <span class="orange-pill">Día 2-9</span>
-                                        <h5 class="card-number">2</h5>
-                                        <h5 class="card-title">
-                                            Preparamos <br class="space">
-                                            el CRM
-                                        </h5>
-                                        <div class="list-block">
-                                            <h5 class="card-subtitle">
-                                                Creamos Plantillas de:
-                                            </h5>
-                                            <ul>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Landing</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Email</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>WhatsApps</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Conectamos:</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Embudos</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="list-block">
-                                            <h5 class="card-subtitle">
-                                                Creamos Plantillas de:
-                                            </h5>
-                                            <ul>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Cuentas</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Dominios</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="list-block">
-                                            <h5 class="card-subtitle">
-                                                Importamos:
-                                            </h5>
-                                            <ul>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Contactos</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Productos</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Oportunidades</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-lg-4 cardParent column-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <span class="orange-pill">Día 10</span>
-                                        <h5 class="card-number">3</h5>
-                                        <h5 class="card-title">
-                                            Empiezas a <br class="space">
-                                            vender más
-                                        </h5>
-                                        <h5 class="card-subtitle">
-                                            Recibe la plataforma de <br class="space">
-                                            Escala lista para:
-                                        </h5>
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Ajustar textos</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Entrenar al equipo</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Comenzar a producir <br class="space">
-                                                        resultados</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/03-home2023.png') !!}" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
                         </div>
+
+                        <div class="info">
+                            <h2 class="primaryTitle">
+                                ¡Ningún otro CRM te brinda un mejor servicio!
+                                <span>Nuestro equipo te guía a incorporar las herramientas de Escala a tus operaciones</span>
+                            </h2>
+                            <p class="text">
+                                Conoce la implementación autogestionada con <br class="DT_e">
+                                acompañamiento personalizado
+                            </p>
+
+                        </div>
+
                     </div>
+
                 </section>
+
             </div>
 
         </section>
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/03-bg-home2023.png') !!})"
-            class="customSection sectionParent home_2023_">
+
+        <section class="customSection sectionParent home_2023_7">
 
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
 
                     <div class="containElements">
-
-                        <h3 class="sub-title">
-                            De nada sirve tener un CRM configurado... ¡si nadie lo quiere o sabe usar!
-                        </h3>
                         <h2 class="title">
-                            Entrenamos a tu equipo y te acompañamos a <br class="DT_e">
-                            acelerar resultados ¡todo el año!
+                            ¿Qué incluye el servicio de acompañamiento <br class="DT_e">
+                            personalizado de Escala?
+
                         </h2>
-                        <p class="text">
-                            ¡Tu éxito es nuestro éxito! Te apoyamos de todas las maneras posibles para que <br class="DT_e"> construyas una máquina de marketing y ventas con Escala
-                        </p>
                     </div>
 
                 </section>
@@ -1064,7 +888,7 @@
                     <div class="containElements">
 
                         <div class="row card-content">
-                            <div class="col-md-12 col-lg-6 card1">
+                            <div class="col-md-12 col-lg-4 card1">
 
                                 <div
                                     class="card">
@@ -1074,17 +898,19 @@
                                         <div class="row">
                                             <div class="col-md-7">
                                                 <h5 class="card-title">
-                                                    Gerente de Éxito
+                                                    16 sesiones <br class="space">
+                                                    privadas
                                                 </h5>
                                                 <p class="card-text">
-                                                    Te apoya a planificar y <br class="D_e">
-                                                    aprovechar al máximo <br class="D_e">
-                                                    las soluciones de Escala
+                                                    con nuestro equipo los <br class="D_e">
+                                                    primeros 3 meses para <br class="D_e">
+                                                    guiarte a implementar<br class="D_e">
+                                                    Escala exitosamente.
                                                 </p>
                                             </div>
                                             <div class="col-md-5">
                                                 <div class="img-container img1">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/04-home2023.png') !!}"
+                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/sesiones_privados_icon_home_2024.png') !!}"
                                                         loading="lazy">
                                                 </div>
                                             </div>
@@ -1092,7 +918,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 col-lg-6 card2">
+                            <div class="col-md-12 col-lg-4 card2">
                                 <div
                                     class="card">
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard D_e">
@@ -1101,19 +927,19 @@
                                         <div class="row">
                                             <div class="col-md-7">
                                                 <h5 class="card-title">
-                                                    Entrenamiento <br class="space">
-                                                    en vivo
+                                                    Capacitaciones<br class="space">
+                                                    ilimitadas
                                                 </h5>
                                                 <p class="card-text">
-                                                    Bootcamps y workshops <br class="D_e">
-                                                    en vivo para aprender y <br class="D_e">
-                                                    practicar nuestra <br class="D_e">
-                                                    metodología probada
+                                                    en vivo o autoguiadas, <br class="D_e">
+                                                    para aprender a usar<br class="D_e">
+                                                    cada una de las<br class="D_e">
+                                                    herramientas de Escala.
                                                 </p>
                                             </div>
                                             <div class="col-md-5">
                                                 <div class="img-container img2">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/05-home2023.png') !!}"
+                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/capacitaciones_icon_home_2024.png') !!}"
                                                         loading="lazy">
                                                 </div>
                                             </div>
@@ -1121,7 +947,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 col-lg-6 card3">
+                            <div class="col-md-12 col-lg-4 card3">
                                 <div
                                     class="card">
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard D_e">
@@ -1130,18 +956,20 @@
                                         <div class="row">
                                             <div class="col-md-7">
                                                 <h5 class="card-title">
-                                                    Trainer privado
+                                                    Soporte vía <br class="space">
+                                                    chat ilimitado
                                                 </h5>
                                                 <p class="card-text">
-                                                    Revisa el uso de las <br class="D_e">
-                                                    herramientas y se <br class="D_e">
-                                                    asegura que las <br class="D_e">
-                                                    usen efectivamente <br class="D_e">
+                                                    nuestro equipo atiende <br class="D_e">
+                                                    a preguntas puntuales<br class="D_e">
+                                                    por WhatsApp o <br class="D_e">
+                                                    Plataforma en horario<br class="D_e">
+                                                    laboral.
                                                 </p>
                                             </div>
                                             <div class="col-md-5">
                                                 <div class="img-container img3">
-                                                    <img class="img-card " src="{!! App::setFilePath('/assets/images/illustrations/others/06-home2023.png') !!}"
+                                                    <img class="img-card " src="{!! App::setFilePath('/assets/images/illustrations/others/soporte_icon_home_2024.png') !!}"
                                                         loading="lazy">
                                                 </div>
                                             </div>
@@ -1149,428 +977,22 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12 col-lg-6 card4">
-                                <div
-                                    class="card">
-                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard D_e">
-                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-7">
-                                                <h5 class="card-title">
-                                                    Aprendizaje <br class="space">
-                                                    autoguiado
-                                                </h5>
-                                                <p class="card-text">
-                                                    Combinación de cursos, <br class="D_e">
-                                                    tutoriales y webinars <br class="D_e">
-                                                    para que aprendas a <br class="D_e">
-                                                    tu ritmo.
-                                                </p>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <div class="img-container img4">
-                                                    <img class="img-card " src="{!! App::setFilePath('/assets/images/illustrations/others/07-home2023.png') !!}"
-                                                        loading="lazy">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 card5">
-
-                                <div
-                                    class="card">
-                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_rectangleLine.png') }}" alt="" class="backgroundCard D_e">
-                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-12 col-lg-5">
-                                                <h5 class="card-title">
-                                                    Chat Soporte Técnico
-                                                </h5>
-                                                <p class="card-text">
-                                                    Atendemos preguntas puntuales y <br class="D_e">
-                                                    necesidades técnicas en vivo por <br class="D_e">
-                                                    <span class="text-green">WhatsApp</span> y <span
-                                                        class="text-blue">Chat de plataforma</span>
-                                                </p>
-                                            </div>
-
-                                            <div class="col-md-12 col-lg-7">
-                                                <div class="row D_e_flex">
-                                                    <div class="col-md-12 col-lg-3 container-flags">
-                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/08-home2023.png') !!}"
-                                                            loading="lazy">
-                                                    </div>
-                                                    <div class="col-md-12 col-lg-3 container-flags">
-                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
-                                                            loading="lazy">
-                                                    </div>
-                                                    <div class="col-md-12 col-lg-3 container-flags">
-                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
-                                                            loading="lazy">
-                                                    </div>
-                                                    <div class="col-md-12 col-lg-3 container-flags">
-                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
-                                                            loading="lazy">
-                                                    </div>
-                                                </div>
-                                                <div class="row timeFlags">
-                                                    <div class="col-md-12 title-block">
-                                                        <div class="line"></div>
-                                                        <p class="text-day">De Lunes a Viernes:</p>
-                                                        <div class="line"></div>
-                                                    </div>
-                                                    <div class="col-6 col-lg-3">
-
-                                                        <div class=" container-flags MT_e">
-                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/08-home2023.png') !!}"
-                                                                loading="lazy">
-                                                        </div>
-
-                                                        <p class="text-time">6 am - 7 pm</p>
-                                                    </div>
-                                                    <div class="col-6 col-lg-3">
-                                                        <div class=" container-flags MT_e">
-                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
-                                                                loading="lazy">
-                                                        </div>
-                                                        <p class="text-time">7 am - 8 pm</p>
-                                                    </div>
-                                                    <div class="col-6 col-lg-3">
-                                                        <div class=" container-flags MT_e">
-                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
-                                                                loading="lazy">
-                                                        </div>
-                                                        <p class="text-time">8 am - 9 pm</p>
-                                                    </div>
-                                                    <div class="col-6 col-lg-3">
-                                                        <div class=" container-flags MT_e">
-                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
-                                                                loading="lazy">
-                                                        </div>
-                                                        <p class="text-time">9 am - 10 pm</p>
-                                                    </div>
-                                                </div>
-                                                <div class="row timeFlags">
-                                                    <div class="col-md-12 title-block">
-                                                        <div class="line last-row"></div>
-                                                        <p class="text-day">Sábado:</p>
-                                                        <div class="line last-row"></div>
-                                                    </div>
-                                                    <div class="col-6 col-lg-3">
-                                                        <div class=" container-flags MT_e">
-                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/08-home2023.png') !!}"
-                                                                loading="lazy">
-                                                        </div>
-
-                                                        <p class="text-time">8 am - 12 pm</p>
-                                                    </div>
-                                                    <div class="col-6 col-lg-3">
-                                                        <div class=" container-flags MT_e">
-                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
-                                                                loading="lazy">
-                                                        </div>
-                                                        <p class="text-time">9 am - 1 pm</p>
-                                                    </div>
-                                                    <div class="col-6 col-lg-3">
-                                                        <div class=" container-flags MT_e">
-                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
-                                                                loading="lazy">
-                                                        </div>
-                                                        <p class="text-time">10 am - 2 pm</p>
-                                                    </div>
-                                                    <div class="col-6 col-lg-3">
-                                                        <div class=" container-flags MT_e">
-                                                            <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
-                                                                loading="lazy">
-                                                        </div>
-                                                        <p class="text-time">11 am - 3 pm</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-
-        </section>
-
-
-        <section class="component-info-multiple-cards-T2 customSection sectionParent home_2023_7">
-
-
-            <img src="{!! App::setFilePath('/assets/images/banners/05-bg-home2023.png') !!}" alt="" class="overlaysky">
-
-            <div class="section-row">
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h2 class="primaryTitle blackColor">
-
-                            Todos ellos se benefician <br class="D_e">
-                            de las soluciones Escala
-
-                        </h2>
-
-                    </div>
-
-                </section>
-                @php
-                $items = [
-                [
-                'title' => '
-                <span>Co-fundador</span> de Empresa
-                ',
-                'text' => '
-                <span>
-                    “Encontré en Escala una plataforma <br class="space">
-                    que me permite integrar Landing <br class="space">
-                    Pages, automatización, email y CRM <br class="space">
-                    en un solo lugar.
-                </span> Tiene una gran <br class="space">
-                posibilidad de convertirse en un <br class="space">
-                referente en el mercado latino.”
-                ',
-                'name' => '
-                Mauricio Córdova Lara
-                ',
-                ],
-                [
-                'title' => '
-                <span>Dueño</span> de negocio
-                ',
-                'text' => '
-                <span>“Escala está resolviendo con su <br class="space">
-                    sistema de atención el cliente y <br class="space">
-                    por supuesto el software, un <br class="space">
-                    problema que tuve por años...</span> Lo <br class="space">
-                recomiendo infinitamente.”
-                ',
-                'name' => '
-                Paulina Pizarro Santana
-                ',
-                ],
-                [
-                'title' => '
-                <span>Gerente</span> de Operaciones
-                ',
-                'text' => '
-                <span>“Escala es una plataforma super <br class="space">
-                    amigable en la que encuentro todo <br class="space">
-                    lo que necesito</span> para mis <br class="space">
-                campañas, personalización de <br class="space">
-                envíos, CRM, automatización y <br class="space">
-                embudos de ventas.”
-                ',
-                'name' => '
-                Octavio Ruiz Loza
-                ',
-                ],
-                [
-                'title' => '
-                <span>Lider</span> de Marketing
-                ',
-                'text' => '
-                <span>“Con Escala he podido <br class="space">
-                    automatizar mejor los procesos <br class="space">
-                    de prospección.</span> Es una <br class="space">
-                plataforma fácil de implementar <br class="space">
-                y de manejo muy intuitivo.”
-                ',
-                'name' => '
-                Andrea Sánchez
-                ',
-                ],
-                [
-                'title' => '
-                <span>Director</span> Creativo
-                ',
-                'text' => '
-                <span>
-                    “Se han tomado el tiempo para <br class="space">
-                    hacer una plataforma en donde no <br class="space">
-                    solamente brindan herramientas de <br class="space">
-                    calidad,
-                </span> sino lo más importante un <br class="space">
-                servicio al cliente que es <br class="space">
-                recomendadísimo.”
-                ',
-                'name' => '
-                Hernan Bedoya
-                ',
-                ],
-                [
-                'title' => '
-                <span>Gerente</span> de Ventas
-                ',
-                'text' => '
-                <span>
-                    “Escala es la plataforma ideal para <br class="space">
-                    impulsar tus ventas. Cuentan con un <br class="space">
-                    equipo de soporte eficiente y atento.
-                </span> <br class="space">
-                Fui asesorada en todo momento y <br class="space">
-                fueron muy serviciales para ayudarme <br class="space">
-                a lograr mis requerimientos.”
-                ',
-                'name' => '
-                Pierina Barajas
-                ',
-                ],
-                ];
-                @endphp
-                <section class=" innerSectionElement sct2">
-                    @foreach ($items as $item)
-                    <div class="groupElements">
-
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
-
-                        <h3 class="secondaryTitle">
-                            {!! $item['title'] !!}
-                        </h3>
-
-                        <p class="text">
-                            {!! $item['text'] !!}
-                        </p>
-
-                        <span class="name">
-                            {!! $item['name'] !!}
-                        </span>
-
-                        <div class="stars">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
-                            </div>
-                        </div>
-
-                    </div>
-                    @endforeach
-                </section>
-
-
-
-            </div>
-
-
-        </section>
-
-        <section class="component-info-text-image-T1 customSection sectionParent home_2023_8">
-
-
-            <div class="section-row">
-
-
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h3 class="sub-title">
-                            ¿Qué esperas?
-                        </h3>
-                        <h2 class="title">
-                            Construye una máquina de ventas <br class="D_e">
-                            escalable, predecible y rentable
-                        </h2>
-                    </div>
-
-                </section>
-
-                <section class="innerSectionElement sct2 left">
-
-
-                    <div class="groupElements row">
-
-                        <div class="image col-md-12 col-lg-7">
-                            <div class="containerImage">
-
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/13-home2023.png') !!}" loading="lazy">
-
-                            </div>
-                        </div>
-                        <div class="info col-md-12 col-lg-5">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-2 column-1">
-                                        <p class="text-number">1</p>
-                                    </div>
-                                    <div class="col-10 column-2">
-                                        <h3 class="secondaryTitle">
-                                            Atrae
-                                        </h3>
-                                        <p class="text">
-                                            A más prospectos ideales <br class="DT_e">
-                                            con landing pages y ads
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-2 column-1">
-                                        <p class="text-number">2</p>
-                                    </div>
-                                    <div class="col-10 column-2">
-                                        <h3 class="secondaryTitle">
-                                            Nutre
-                                        </h3>
-                                        <p class="text">
-                                            la relación con WhatsApps <br class="DT_e">
-                                            emails y automatizaciones
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-2 column-1">
-                                        <p class="text-number">3</p>
-                                    </div>
-                                    <div class="col-10 column-2">
-                                        <h3 class="secondaryTitle">
-                                            Convierte
-                                        </h3>
-                                        <p class="text">
-                                            más clientes fieles con todas <br class="DT_e">
-                                            las herramientas del CRM
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
 
                         </div>
+
                         <div class="btn-cta col-md-12 col-lg-12">
 
                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Recibe un demo personalizado
+                                Conocer más
                             </a>
                         </div>
-
                     </div>
-
-
-
                 </section>
-
-
-
             </div>
 
         </section>
-
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/06-bg-home2023.png') !!})"
-            class="customSection sectionParent home_2023_9">
+        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_home_section_9_2024.svg') !!})"
+            class="customSection sectionParent home_2023_7_0">
 
             <div class="section-row">
                 <div class="col-md-8 column-1">
@@ -1579,19 +1001,18 @@
                         <div class="containElements">
 
                             <h3 class="sub-title">
-                                ¿Brindas servicios de marketing o ventas?
+                                Te invitamos a participar en una de nuestras
                             </h3>
                             <h2 class="title">
-                                Multiplica tu impacto y tus ingresos <br class="DT_e">
-                                convirtiéndote en Escala Partner
+                                Masterclasses de marketing <br class="DT_e">
+                                y ventas gratuita en vivo
                             </h2>
                             <p class="text">
-                                Como socio de Escala recibes beneficios únicos <br class="DT_e">
-                                para hacer crecer tu negocio y desarrollar una <br class="DT_e">
-                                ventaja competitiva única en el mercado.
+                                Aprende nuestra metodología probada y cómo <br class="DT_e">
+                                usar las herramientas para escalar ventas
                             </p>
-                            <a class=" outlineWhiteButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Aprender más
+                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                Participar
                             </a>
 
                         </div>
@@ -1602,7 +1023,7 @@
                     <section class="innerSectionElement sct2">
 
                         <div class="containElements">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/14-home2023.png') !!}" loading="lazy">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/andrea_imagen_masterclas_home.png') !!}" loading="lazy">
                         </div>
 
                     </section>
@@ -1611,8 +1032,107 @@
             </div>
 
         </section>
+        <section class="component-info-multiple-cards-T2 customSection sectionParent home_2023_8">
+            <div class="section-row" bis_skin_checked="1">
+                <section class="innerSectionElement sct1">
+                    <div class="containElements" bis_skin_checked="1">
+                        <h2 class="primaryTitle blackColor">
+                            ¿Qué dicen nuestros clientes?
+                        </h2>
+                    </div>
+                </section>
+                <section class=" innerSectionElement sct2">
+                    <div class="groupElements" bis_skin_checked="1">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
+                        <h3 class="secondaryTitle">
+                            La experiencia con Escala
+                        </h3>
+                        <p class="text">
+                            <span>
+                                La experiencia con Escala durante 1
+                                año y medio de servicio es excelente.
+                                Nuestra empresa a aumentando las
+                                ventas en un 200%, ESCALA es muy
+                                versátil ya que tenemos conectado
+                                a whatsaap Api y podemos gestionar
+                                todos nuestros leads en un mismo
+                                lugar y llevar nuestro proceso
+                                de venta muy organizado en los
+                                embudos de ventas.
+                            </span>
+                        </p>
+                        <div>
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_.png') !!}" class="icon">
+                            <div class="stars" bis_skin_checked="1">
+                                <span class="name">
+                                    Miguel Urrego Serna
+                                </span>
+                                <div class="containerImage" bis_skin_checked="1">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/07-bg-home2023.png') !!})"
+                    <div class="groupElements" bis_skin_checked="1">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
+                        <h3 class="secondaryTitle">
+                            La herramienta correcta
+                        </h3>
+                        <p class="text">
+                            <span>
+                                Escala tiene los componentes que requiero
+                                para automatizar mis procesos de venta,
+                                marketing y servicio al cliente.
+                                El soporte técnico es muy ágil y
+                                asertivo en las soluciones.
+                            </span>
+                        </p>
+                        <div>
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/edwin_hernandez.png') !!}" class="icon">
+                            <div class="stars" bis_skin_checked="1">
+                                <span class="name">
+                                    Edwin Hernandez
+                                </span>
+                                <div class="containerImage" bis_skin_checked="1">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="groupElements" bis_skin_checked="1">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
+                        <h3 class="secondaryTitle">
+                            Excelente plataforma
+                        </h3>
+                        <p class="text">
+                            <span>
+                                Excelente plataforma, nos ha servido
+                                para aumentar las ventas, mejorar los
+                                tiempos de atención, organizar oportunidades
+                                y automatizar procesos repetitivos,
+                                las recomiendo mucho.
+                            </span>
+                        </p>
+                        <div>
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/edison_sanchez.png') !!}" class="icon">
+                            <div class="stars" bis_skin_checked="1">
+                                <span class="name">
+                                    Edison Sanchez
+                                </span>
+                                <div class="containerImage" bis_skin_checked="1">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
+
+        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_home_section_11_2024.svg') !!})"
             class="customSection sectionParent home_2023_10">
 
             <div class="section-row">
