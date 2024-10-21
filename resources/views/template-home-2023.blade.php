@@ -797,8 +797,8 @@
 
                     <div class="containElements">
                         <p class="text">
-                            Las herramientas son potentes individualmente, <br class="space">
-                            pero realmente escalas cuando las usas en conjunto.
+                        Las herramientas son potentes individualmente, <br class="space">
+                        pero realmente escalas cuando las usas en conjunto.
                         </p>
                     </div>
 
