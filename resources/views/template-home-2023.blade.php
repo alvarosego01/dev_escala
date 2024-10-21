@@ -35,7 +35,7 @@
         <section id="lead-form"
             class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol home_2023_0 newHome ">
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/background_home_1.svg') }}')"
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_home_section_1_2024.svg') }}')"
                 class="backgroundFull">
 
                 <div class="section-row">
@@ -233,37 +233,58 @@
 
                             </section>
                             <div class="form7 col-md-12 col-lg-3 ">
-
                                 <div class="containElements">
 
-                                    <div class="formatForm redirectWeb" redirectWeb="true">
+                                    <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <h5 class="titleFormat blackcolor">
-                                            Recibe un tour guiado <br class="space">
-                                            de Escala
-                                        </h5>
+                                        <div class="form-container form-1" style="text-align:center;">
+                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
+                                            <h5 class="titleFormat blackcolor">Recibe un demo
+                                                <br class="space">
+                                                en vivo
+                                            </h5>
+                                            @php
+                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                            $_rs = [];
+                                            $_formShortcode = null;
+                                            if ($_data = get_posts($_args)) {
+                                            foreach ($_data as $_key) {
+                                            $_rs[$_key->ID] = $_key->post_title;
+                                            if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                            }
+                                            }
+                                            } else {
+                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                            }
+                                            @endphp
+                                            {!! do_shortcode($_formShortcode) !!}
+                                        </div>
 
-
-
-                                        @php
-                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                        $_rs = [];
-                                        $_formShortcode = null;
-                                        if ($_data = get_posts($_args)) {
-                                        foreach ($_data as $_key) {
-                                        $_rs[$_key->ID] = $_key->post_title;
-                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                        }
-                                        }
-                                        } else {
-                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                        }
-                                        @endphp
-                                        {!! do_shortcode($_formShortcode) !!}
-
-
+                                        <div class="form-container form-2" style="display:none; text-align:center;">
+                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
+                                            <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
+                                                <br class="space">tu demo
+                                            </h5>
+                                            @php
+                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                            $_rs = [];
+                                            $_formShortcode = null;
+                                            if ($_data = get_posts($_args)) {
+                                            foreach ($_data as $_key) {
+                                            $_rs[$_key->ID] = $_key->post_title;
+                                            if ($_key->post_title === 'Demo flujo step 2') {
+                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                            }
+                                            }
+                                            } else {
+                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                            }
+                                            @endphp
+                                            {!! do_shortcode($_formShortcode) !!}
+                                        </div>
                                     </div>
+
 
                                 </div>
                             </div>
@@ -368,6 +389,7 @@
                                             <div class="containerImage">
                                                 <img src="{{ App::setFilePath('/assets/images/illustrations/others/icon_check_orange.png') }}"
                                                     loading="lazy">
+
                                             </div>
                                         </div>
 
@@ -398,33 +420,33 @@
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
-                <h2 class="title">
-                Nuestros clientes han logrado
-                        </h2>
+                    <h2 class="title">
+                        Nuestros clientes han logrado
+                    </h2>
                     <div class="containElements">
 
                         <div class="element">
                             <p class="text">
                                 <span class="number">2X</span> <br class="space">
                                 <span class="text-big">Ingresos en<br class="space">
-                                6 meses</span> 
-                               
+                                    6 meses</span>
+
                             </p>
                         </div>
                         <div class="element">
                             <p class="text">
-                            <span class="number">70%</span> <br class="space">
-                                <span class="text-big">de aumento en <br class="space"> eficiencia de procesos <br class="space"> comerciales</span> 
+                                <span class="number">70%</span> <br class="space">
+                                <span class="text-big">de aumento en <br class="space"> eficiencia de procesos <br class="space"> comerciales</span>
                             </p>
                         </div>
                         <div class="element">
                             <p class="text">
-                            <span class="number">300%</span> <br class="space">
+                                <span class="number">300%</span> <br class="space">
                                 <span class="text-big">más leads<br class="space"> generados en<br class="space">
-                                6 meses</span> 
+                                    6 meses</span>
                             </p>
                         </div>
-                  
+
 
                     </div>
 
@@ -433,7 +455,6 @@
             </div>
 
         </section>
-
         <section class="customSection sectionParent home_2023_2">
 
             <div class="section-row">
@@ -442,17 +463,158 @@
 
                     <div class="containElements">
 
-                        <h3 class="sub-title">
-                            Olvida el Excel y los CRMs complicados
-                        </h3>
                         <h2 class="title">
-                            Genera más leads y conviértelos <br class="space">
-                            en clientes fieles con Escala
+                            ¿Por qué los negocios logran <br class="space">
+                            vender más y mejor con Escala?
                         </h2>
                         <p class="text">
-                            Encuentra todas las herramientas de marketing y ventas que <br class="DT_e">
-                            necesitas para generar leads y convertirlos en clientes fieles
+                            7 grandes ventajas
                         </p>
+
+                    </div>
+
+                </section>
+                <section class="innerSectionElement sct2">
+
+                    <div class="containElements">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="cardText">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/1_home_icon_logros.svg') }}"
+                                        alt="" loading="lazy">
+                                    <p class="text">
+                                        Aumentas la eficiencia de tus procesos de venta
+                                    </p>
+                                </div>
+                                <div class="cardText">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/2_home_icon_logros.svg') }}"
+                                        alt="" loading="lazy">
+                                    <p class="text">
+                                        Obtienes mayor control sobre gestión comercial
+                                    </p>
+                                </div>
+                                <div class="cardText">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/3_home_icon_logros.svg') }}"
+                                        alt="" loading="lazy">
+                                    <p class="text">
+                                        Integras operaciones de marketing y ventas
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/imagen_mujer_sosteniendo_computador_escala_home_2024.webp') }}"
+                                    class="img-responsive" alt="imagenmujer sosteniendo computador escala home 2024" loading="lazy">
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="cardText">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/7_home_icon_logros.svg') }}"
+                                        alt="" loading="lazy">
+                                    <p class="text">
+                                        Recibes apoyo al incorporar nuevas tecnologías
+                                    </p>
+                                </div>
+                                <div class="cardText">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/6_home_icon_logros.svg') }}"
+                                        alt="" loading="lazy">
+                                    <p class="text">
+                                        Estandarizas y profesionalizas comunicaciones
+                                    </p>
+                                </div>
+                                <div class="cardText">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/5_home_icon_logros.svg') }}"
+                                        alt="" loading="lazy">
+                                    <p class="text">
+                                        Centralizas información y reduces riesgo de pérdida de data
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="center-img">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/4_home_icon_logros.svg') }}"
+                                alt="" loading="lazy">
+                            <p class="text">
+                                Mides y analizas más fácilmente todo el embudo
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </section>
+
+            </div>
+
+        </section>
+
+
+        <section class="customSection sectionParent home_2023_3">
+
+            <div class="section-row">
+                <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_home_section_4_2024.svg') !!})" class="innerSectionElement sct2">
+
+                    <div class="containElements">
+                        <div class="row">
+                            <div class="col-md-5 column-img">
+                                <div class="img-container">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/alfonso_santiago_ceo_escala_img.png') !!}" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="col-md-7 column-text">
+                                <p>
+
+                                    “Recopilamos nuestra experiencia de <br class="D_e">
+                                    10+ años construyendo negocios <br class="D_e">
+                                    exitosos para brindarte una plataforma <br class="D_e">
+                                    que facilite escalar tu empresa”
+                                </p>
+                                <span>
+                                    Alfonso Santiago <br class="D_e">
+                                    CEO de Escala
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </section>
+        <section class="customSection sectionParent home_2023_4">
+
+            <div class="section-row">
+                <div class="containElements">
+                    <div class="row">
+                        <div class="col-md-6 left-column">
+                            <h2>Olvídate de procesos manuales y de CRMs complicados
+                                <span> al medir e implementar todo tu embudo de venta</span>
+                            </h2>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/imagen_embudos_atrae_nutre_convierte_home_2024.png') }}"
+                                alt="" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="customSection sectionParent home_2023_5">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+
+                        <h2 class="title">
+                            Conoce las herramientas que <br class="DT_e">
+                            optimizan tus operaciones comerciales
+                        </h2>
+
 
                     </div>
 
@@ -467,25 +629,6 @@
                                 @php
                                 $elements = [
                                 [
-                                'title' => 'WhatsApp integrado',
-                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_small.png'),
-                                'text' => '
-                                <span>Optimiza tu comunicación por WhatsApp</span> <br class="space">
-                                con envíos masivos, mensajes <br class="space">
-                                automatizados, y gestión por inbox
-                                ',
-                                'img' => App::setFilePath('/assets/images/gifs/image_whatsapp_home_selector.gif'),
-                                ],
-                                [
-                                'title' => 'Inteligencia Artificial',
-                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ia_small.png'),
-                                'text' => '
-                                <span>Crea contenido efectivo en segundos</span> <br class="space">
-                                La IA en Escala es como tener un copywriter <br class="DT_e">
-                                estrella a una fracción del costo',
-                                'img' => App::setFilePath('/assets/images/gifs/image_ia_home_selector.gif'),
-                                ],
-                                [
                                 'title' => 'Gestión de contactos y procesos',
                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_crm_small.png'),
                                 'text' => '
@@ -493,6 +636,17 @@
                                 organizando, guardando y supervisando <br class="DT_e">
                                 mejor todo lo que ocurre con tus contactos',
                                 'img' => App::setFilePath('/assets/images/gifs/image_crm_home_selector.gif'),
+                                
+                                ],
+                                [
+                                'title' => 'WhatsApp Inbox, masivos y automatizados',
+                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_small.png'),
+                                'text' => '
+                                <span>Optimiza tu comunicación por WhatsApp</span> <br class="space">
+                                con envíos masivos, mensajes <br class="space">
+                                automatizados, y gestión por inbox
+                                ',
+                                'img' => App::setFilePath('/assets/images/gifs/image_whatsapp_home_selector.gif'),
                                 ],
                                 [
                                 'title' => 'Automatizaciones',
@@ -504,17 +658,6 @@
                                 'img' => App::setFilePath('/assets/images/gifs/image_automatizations_home_selector.gif'),
                                 ],
                                 [
-                                'title' => 'Landing Pages',
-                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_landingp_small.png'),
-                                'text' => '
-                                <span>Captura más leads de calidad</span> <br class="space">
-                                Elige la plantilla, edítala en minutos y publica <br class="DT_e">
-                                ¡sin depender de programadores!
-                                ',
-                                'img' => App::setFilePath('/assets/images/gifs/image_landingp_home_selector.gif'),
-                                ],
-
-                                [
                                 'title' => 'Email Marketing',
                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_emailmkt_small.png'),
                                 'text' => '
@@ -522,7 +665,16 @@
                                 que nutran tus relaciones',
                                 'img' => App::setFilePath('/assets/images/gifs/image_email_marketing_home_selector.gif'),
                                 ],
-
+                                [
+                                'title' => 'Landing Pages y Formularios',
+                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_pages_small.png'),
+                                'text' => '
+                                <span>Captura más leads de calidad</span> <br class="space">
+                                Elige la plantilla, edítala en minutos y publica <br class="DT_e">
+                                ¡sin depender de programadores!
+                                ',
+                                'img' => App::setFilePath('/assets/images/gifs/image_landingp_home_selector.gif'),
+                                ],
                                 [
                                 'title' => 'Anuncios digitales ',
                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ads_small.png'),
@@ -532,8 +684,26 @@
                                 'img' => App::setFilePath('/assets/images/gifs/image_ads_home_selector.gif'),
                                 ],
                                 [
-                                'title' => 'Reportes Personalizados',
+                                'title' => 'Inteligencia Artificial',
+                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_ai_small.png'),
+                                'text' => '
+                                <span>Crea contenido efectivo en segundos</span> <br class="space">
+                                La IA en Escala es como tener un copywriter <br class="DT_e">
+                                estrella a una fracción del costo',
+                                'img' => App::setFilePath('/assets/images/gifs/image_ia_home_selector.gif'),
+                                ],
+                                [
+                                'title' => 'Reportes y Dashboards personalizados',
                                 'icon' => App::setFilePath('/assets/images/illustrations/others/icon_reports_headerband.png'),
+                                'text' => '
+                                <span>Toma decisiones estratégicas</span> con <br class="space">
+                                reportes que creas en minutos. <br class="space">
+                                ¡Escala tu empresa con datos clave!',
+                                'img' => App::setFilePath('/assets/images/gifs/gif_reports.gif'),
+                                ],
+                                [
+                                'title' => 'Integraciones',
+                                'icon' => App::setFilePath('/assets/images/illustrations/others/icon_integraciones_small.png'),
                                 'text' => '
                                 <span>Toma decisiones estratégicas</span> con <br class="space">
                                 reportes que creas en minutos. <br class="space">
@@ -547,16 +717,19 @@
                                 <ul class="elements selectorInfo">
 
                                     @foreach ($elements as $item)
-                                    <li class="element    @if ($loop->first) active @endif"
+                                    <li class="element    @if ($loop->iteration == 2) active @endif"
                                         info_index="{!! $loop->index !!}">
                                         <div class="icon">
                                             <div class="containerImage">
                                                 <img src="{!! $item['icon'] !!}" loading="lazy">
+
                                             </div>
                                         </div>
                                         <h3>
                                             {!! $item['title'] !!}
                                         </h3>
+
+
                                     </li>
                                     @endforeach
 
@@ -616,7 +789,7 @@
         </section>
 
         <section style="background-image: url({!! App::setFilePath('/assets/images/banners/02-bg-home2023.png') !!})"
-            class="customSection sectionParent home_2023_3">
+            class="customSection sectionParent home_2023_">
 
             <div class="section-row">
 
@@ -656,7 +829,7 @@
 
         </section>
 
-        <section class="customSection sectionParent home_2023_4">
+        <section class="customSection sectionParent home_2023_">
 
             <div class="section-row">
 
@@ -865,7 +1038,7 @@
         </section>
 
         <section style="background-image: url({!! App::setFilePath('/assets/images/banners/03-bg-home2023.png') !!})"
-            class="customSection sectionParent home_2023_5">
+            class="customSection sectionParent home_2023_">
 
             <div class="section-row">
 
@@ -1133,51 +1306,6 @@
 
         </section>
 
-        <section class="customSection sectionParent home_2023_6">
-
-            <div class="section-row">
-
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h3 class="sub-title">
-                            ¿Deseas empezar a conocer nuestra metodología probada?
-                        </h3>
-                        <h2 class="title">
-                            Participa en una Masterclass gratuita <br class="D_e">
-                            con el equipo de expertos de Escala
-                        </h2>
-
-                    </div>
-
-                </section>
-                <section style="background-image: url({!! App::setFilePath('/assets/images/banners/04-bg-home2023.png') !!})" class="innerSectionElement sct2">
-
-                    <div class="containElements">
-                        <div class="row">
-                            <div class="col-md-5 column-img">
-                                <div class="img-container">
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/12-home2023.png') !!}" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="col-md-7 column-text">
-                                <p>
-                                    “Recopilamos nuestra experiencia de <br class="D_e">
-                                    10+ años construyendo negocios <br class="D_e">
-                                    exitosos para compartirla contigo y <br class="D_e">
-                                    evitarte la prueba y error.”
-                                </p>
-                                <a class=" primaryButton hoverInEffect" href="https://experiencia.escala.com/eventos-escala">
-                                    Participar
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-
-        </section>
 
         <section class="component-info-multiple-cards-T2 customSection sectionParent home_2023_7">
 
