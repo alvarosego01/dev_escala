@@ -500,7 +500,7 @@
                                         alt="" loading="lazy">
                                     <span class="text">
                                         Integras operaciones de<br class="space">
-                                         marketing y ventas
+                                        marketing y ventas
                                     </span>
                                 </div>
                             </div>
@@ -516,7 +516,7 @@
                                         alt="" loading="lazy">
                                     <span class="text">
                                         Recibes apoyo al incorporar<br class="space">
-                                         nuevas tecnologías
+                                        nuevas tecnologías
                                     </span>
                                 </div>
                                 <div class="cardText card5">
@@ -524,7 +524,7 @@
                                         alt="" loading="lazy">
                                     <span class="text">
                                         Estandarizas y profesionalizas<br class="space">
-                                         comunicaciones
+                                        comunicaciones
                                     </span>
                                 </div>
                                 <div class="cardText card6">
@@ -540,10 +540,10 @@
 
                         <div class="center-img ">
                             <img src="{{ App::setFilePath('/assets/images/illustrations/others/4_home_icon_logros.svg') }}"
-                                alt="" loading="lazy">  
+                                alt="" loading="lazy">
                             <span class="text">
                                 Mides y analizas más<br class="space">
-                                 fácilmente todo el embudo
+                                fácilmente todo el embudo
                             </span>
                         </div>
 
@@ -571,7 +571,6 @@
                             </div>
                             <div class="col-md-7 column-text">
                                 <p>
-
                                     “Recopilamos nuestra experiencia de <br class="D_e">
                                     10+ años construyendo negocios <br class="D_e">
                                     exitosos para brindarte una plataforma <br class="D_e">
@@ -594,8 +593,10 @@
                 <div class="containElements">
                     <div class="row">
                         <div class="col-md-6 left-column">
-                            <h2>Olvídate de procesos manuales y de CRMs complicados
-                                <span> al medir e implementar todo tu embudo de venta</span>
+                            <h2 class="title">Olvídate de procesos manuales <br class="DT_e">
+                                y de CRMs complicados <br class="DT_e">
+                                <span> al medir e implementar todo tu<br class="DT_e">
+                                    embudo de venta</span>
                             </h2>
                         </div>
                         <div class="col-md-6">
@@ -849,8 +850,9 @@
 
                         <div class="info">
                             <h2 class="primaryTitle">
-                                ¡Ningún otro CRM te brinda un mejor servicio!
-                                <span>Nuestro equipo te guía a incorporar las herramientas de Escala a tus operaciones</span>
+                                ¡Ningún otro CRM te brinda un mejor servicio!<br class="DT_e">
+                                <span>Nuestro equipo te guía a incorporar las herramientas<br class="DT_e">
+                                 de Escala a tus operaciones</span>
                             </h2>
                             <p class="text">
                                 Conoce la implementación autogestionada con <br class="DT_e">
@@ -892,11 +894,11 @@
 
                                 <div
                                     class="card">
-                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard D_e">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/card_white_home_fondo.png') }}" alt="" class="backgroundCard D_e">
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
                                     <div class="card-body">
                                         <div class="row">
-                                            <div class="col-md-7">
+                                            <div>
                                                 <h5 class="card-title">
                                                     16 sesiones <br class="space">
                                                     privadas
@@ -908,7 +910,7 @@
                                                     Escala exitosamente.
                                                 </p>
                                             </div>
-                                            <div class="col-md-5">
+                                            <div>
                                                 <div class="img-container img1">
                                                     <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/sesiones_privados_icon_home_2024.png') !!}"
                                                         loading="lazy">
@@ -921,11 +923,11 @@
                             <div class="col-md-12 col-lg-4 card2">
                                 <div
                                     class="card">
-                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard D_e">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/card_white_home_fondo.png') }}" alt="" class="backgroundCard D_e">
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
                                     <div class="card-body">
                                         <div class="row">
-                                            <div class="col-md-7">
+                                            <div >
                                                 <h5 class="card-title">
                                                     Capacitaciones<br class="space">
                                                     ilimitadas
@@ -937,7 +939,7 @@
                                                     herramientas de Escala.
                                                 </p>
                                             </div>
-                                            <div class="col-md-5">
+                                            <div >
                                                 <div class="img-container img2">
                                                     <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/capacitaciones_icon_home_2024.png') !!}"
                                                         loading="lazy">
@@ -950,11 +952,11 @@
                             <div class="col-md-12 col-lg-4 card3">
                                 <div
                                     class="card">
-                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline.png') }}" alt="" class="backgroundCard D_e">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/card_white_home_fondo.png') }}" alt="" class="backgroundCard D_e">
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
                                     <div class="card-body">
                                         <div class="row">
-                                            <div class="col-md-7">
+                                            <div>
                                                 <h5 class="card-title">
                                                     Soporte vía <br class="space">
                                                     chat ilimitado
@@ -967,7 +969,7 @@
                                                     laboral.
                                                 </p>
                                             </div>
-                                            <div class="col-md-5">
+                                            <div>
                                                 <div class="img-container img3">
                                                     <img class="img-card " src="{!! App::setFilePath('/assets/images/illustrations/others/soporte_icon_home_2024.png') !!}"
                                                         loading="lazy">
@@ -981,7 +983,6 @@
                         </div>
 
                         <div class="btn-cta col-md-12 col-lg-12">
-
                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                 Conocer más
                             </a>
