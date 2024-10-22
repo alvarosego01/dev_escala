@@ -463,6 +463,10 @@
 
                     <div class="containElements">
 
+                        <div class="imgCardMB">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/imagen_mujer_sosteniendo_computador_escala_home_2024.webp') }}"
+                                class="img-responsive" alt="imagenmujer sosteniendo computador escala home 2024" loading="lazy">
+                        </div>
                         <h2 class="title">
                             ¿Por qué los negocios logran <br class="space">
                             vender más y mejor con Escala?
@@ -637,7 +641,7 @@
                     </div>
 
                 </section>
-                <section class="innerSectionElement sct2">
+                <section class="innerSectionElement sct2 MBoculto">
 
                     <div class="containElements">
 
@@ -673,6 +677,11 @@
                                 conversaciones en un solo lugar.
                                 ',
                                 'img' => App::setFilePath('/assets/images/gifs/2. WhatsApp.gif'),
+                                'button' => [
+                                'url' => '',
+                                'class' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                                'label' => 'Recibir un demo'
+                                ]
                                 ],
                                 [
                                 'title' => 'Automatizaciones',
@@ -685,6 +694,11 @@
                                 tu proceso comercial.
                                 ',
                                 'img' => App::setFilePath('/assets/images/gifs/3. Automatizaciones.gif'),
+                                'button' => [
+                                'url' => '',
+                                'class' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                                'label' => 'Recibir un demo'
+                                ]
                                 ],
                                 [
                                 'title' => 'Email Marketing',
@@ -696,6 +710,11 @@
                                 aumenten la probabilidad de convertir <br class="DT_e">
                                 contactos en ventas.',
                                 'img' => App::setFilePath('/assets/images/gifs/4. Email Marketing.gif'),
+                                'button' => [
+                                'url' => '',
+                                'class' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                                'label' => 'Recibir un demo'
+                                ]
                                 ],
                                 [
                                 'title' => 'Landing Pages y Formularios',
@@ -710,6 +729,11 @@
                                 automáticamente.
                                 ',
                                 'img' => App::setFilePath('/assets/images/gifs/5. Landing pages.gif'),
+                                'button' => [
+                                'url' => '',
+                                'class' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                                'label' => 'Recibir un demo'
+                                ]
                                 ],
                                 [
                                 'title' => 'Anuncios digitales ',
@@ -721,6 +745,11 @@
                                 que puedas atribuir resultados de ventas a <br class="DT_e">
                                 tus esfuerzos de marketing.',
                                 'img' => App::setFilePath('/assets/images/gifs/6. Anuncios Digitales.gif'),
+                                'button' => [
+                                'url' => '',
+                                'class' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                                'label' => 'Recibir un demo'
+                                ]
                                 ],
                                 [
                                 'title' => 'Inteligencia Artificial',
@@ -732,6 +761,11 @@
                                 copywriter
                                 estrella a una fracción del costo.',
                                 'img' => App::setFilePath('/assets/images/gifs/7. IA.gif'),
+                                'button' => [
+                                'url' => '',
+                                'class' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                                'label' => 'Recibir un demo'
+                                ]
                                 ],
                                 [
                                 'title' => 'Reportes y Dashboards personalizados',
@@ -743,6 +777,11 @@
                                 que necesitas para optimizar tus resultados <br class="DT_e">
                                 de marketing y venta.',
                                 'img' => App::setFilePath('/assets/images/gifs/8. Reportes.gif'),
+                                'button' => [
+                                'url' => '',
+                                'class' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                                'label' => 'Recibir un demo'
+                                ]
                                 ],
                                 [
                                 'title' => 'Integraciones',
@@ -753,6 +792,11 @@
                                 API pública y Zapier.
                                 ',
                                 'img' => App::setFilePath('/assets/images/gifs/9. Integraciones.gif'),
+                                'button' => [
+                                'url' => '',
+                                'class' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                                'label' => 'Recibir un demo'
+                                ]
                                 ],
 
                                 ];
@@ -838,6 +882,65 @@
                     </div>
 
                 </section>
+                <section class="innerSectionElement sct2 PCoculto">
+                    <div class="containElements">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-7 info showInfoSelectors">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                                    <ol class="carousel-indicators">
+                                        @foreach ($elements as $index => $item)
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="{{ $index }}" @if ($loop->first) class="active" @endif></li>
+                                        @endforeach
+                                    </ol>
+
+
+                                    <div class="carousel-inner">
+                                        @foreach ($elements as $index => $item)
+                                        <div class="carousel-item @if ($loop->first) active @endif">
+                                            <div class="infoIn">
+
+                                                <p class="text">
+                                                    {!! $item['text'] !!}
+                                                </p>
+
+
+                                                <div class="image">
+                                                    <div class="containerImage">
+                                                        <img src="{!! $item['img'] !!}" loading="lazy">
+                                                    </div>
+                                                </div>
+
+                                                @if (isset($item['button']))
+                                                <div class="dynamic-button">
+                                                    <a href="{!! $item['button']['url'] !!}" class="btn {!! $item['button']['class'] !!}">
+                                                        {!! $item['button']['label'] !!}
+                                                    </a>
+                                                </div>
+                                                @endif
+                                            </div>
+                                        </div>
+                                        @endforeach
+                                    </div>
+
+
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-left.png') !!}" alt="">
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-right.png') !!}" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Scripts de Bootstrap y jQuery -->
+                <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
             </div>
 
@@ -861,9 +964,9 @@
                         <div class="info">
                             <h2 class="primaryTitle">
                                 ¡Ningún otro CRM te brinda un mejor servicio!<br class="DT_e">
-                                <span>Nuestro equipo te guía a incorporar las herramientas<br class="DT_e">
-                                    de Escala a tus operaciones</span>
                             </h2>
+                            <span>Nuestro equipo te guía a incorporar las herramientas<br class="space">
+                                    de Escala a tus operaciones</span>
                             <p class="text">
                                 Conoce la implementación autogestionada con <br class="DT_e">
                                 acompañamiento personalizado
@@ -1052,7 +1155,7 @@
                         </h2>
                     </div>
                 </section>
-                <section class=" innerSectionElement sct2">
+                <section class=" innerSectionElement sct2" style="display: none;">
                     <div class="groupElements">
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
                         <div>
@@ -1145,6 +1248,17 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </section>
+                <section class=" innerSectionElement sct3_0">
+                    <div class="containElements">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_review_pc.png') !!}" loading="lazy">
+                    </div>
+                    <div class="containElements">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/edwin_hernandez_review_pc.png') !!}" loading="lazy">
+                    </div>
+                    <div class="containElements">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/edison_sanchez_review_pc.png') !!}" loading="lazy">
                     </div>
                 </section>
                 <section class=" innerSectionElement sct3">
