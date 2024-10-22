@@ -852,7 +852,7 @@
                             <h2 class="primaryTitle">
                                 ¡Ningún otro CRM te brinda un mejor servicio!<br class="DT_e">
                                 <span>Nuestro equipo te guía a incorporar las herramientas<br class="DT_e">
-                                 de Escala a tus operaciones</span>
+                                    de Escala a tus operaciones</span>
                             </h2>
                             <p class="text">
                                 Conoce la implementación autogestionada con <br class="DT_e">
@@ -927,7 +927,7 @@
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
                                     <div class="card-body">
                                         <div class="row">
-                                            <div >
+                                            <div>
                                                 <h5 class="card-title">
                                                     Capacitaciones<br class="space">
                                                     ilimitadas
@@ -939,7 +939,7 @@
                                                     herramientas de Escala.
                                                 </p>
                                             </div>
-                                            <div >
+                                            <div>
                                                 <div class="img-container img2">
                                                     <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/capacitaciones_icon_home_2024.png') !!}"
                                                         loading="lazy">
@@ -1034,94 +1034,103 @@
 
         </section>
         <section class="component-info-multiple-cards-T2 customSection sectionParent home_2023_8">
-            <div class="section-row" bis_skin_checked="1">
+            <div class="section-row">
                 <section class="innerSectionElement sct1">
-                    <div class="containElements" bis_skin_checked="1">
+                    <div class="containElements">
                         <h2 class="primaryTitle blackColor">
                             ¿Qué dicen nuestros clientes?
                         </h2>
                     </div>
                 </section>
                 <section class=" innerSectionElement sct2">
-                    <div class="groupElements" bis_skin_checked="1">
+                    <div class="groupElements">
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
-                        <h3 class="secondaryTitle">
-                            La experiencia con Escala
-                        </h3>
-                        <p class="text">
-                            <span>
-                                La experiencia con Escala durante 1
-                                año y medio de servicio es excelente.
-                                Nuestra empresa a aumentando las
-                                ventas en un 200%, ESCALA es muy
-                                versátil ya que tenemos conectado
-                                a whatsaap Api y podemos gestionar
-                                todos nuestros leads en un mismo
-                                lugar y llevar nuestro proceso
-                                de venta muy organizado en los
-                                embudos de ventas.
-                            </span>
-                        </p>
                         <div>
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_.png') !!}" class="icon">
-                            <div class="stars" bis_skin_checked="1">
+                            <h3 class="secondaryTitle">
+                                La experiencia<br class="DT_e">
+                                con Escala
+                            </h3>
+                            <p class="text">
+                                <span>
+                                    La experiencia con Escala durante 1
+                                    año y medio de servicio es excelente.
+                                    Nuestra empresa a aumentando las
+                                    ventas en un 200%, ESCALA es muy
+                                    versátil ya que tenemos conectado
+                                    a whatsaap Api y podemos gestionar
+                                    todos nuestros leads en un mismo
+                                    lugar y llevar nuestro proceso
+                                    de venta muy organizado en los
+                                    embudos de ventas.
+                                </span>
+                            </p>
+                        </div>
+                        <div class="cardReviews">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_.png') !!}">
+                            <div class="stars">
                                 <span class="name">
                                     Miguel Urrego Serna
                                 </span>
-                                <div class="containerImage" bis_skin_checked="1">
+                                <div class="containerImage">
                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="groupElements" bis_skin_checked="1">
+                    <div class="groupElements">
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
-                        <h3 class="secondaryTitle">
-                            La herramienta correcta
-                        </h3>
-                        <p class="text">
-                            <span>
-                                Escala tiene los componentes que requiero
-                                para automatizar mis procesos de venta,
-                                marketing y servicio al cliente.
-                                El soporte técnico es muy ágil y
-                                asertivo en las soluciones.
-                            </span>
-                        </p>
                         <div>
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/edwin_hernandez.png') !!}" class="icon">
-                            <div class="stars" bis_skin_checked="1">
+                            <h3 class="secondaryTitle">
+                                La herramienta<br class="DT_e">
+                                correcta
+                            </h3>
+                            <p class="text">
+                                <span>
+                                    Escala tiene los componentes que requiero
+                                    para automatizar mis procesos de venta,
+                                    marketing y servicio al cliente.
+                                    El soporte técnico es muy ágil y
+                                    asertivo en las soluciones.
+                                </span>
+                            </p>
+                        </div>
+                        <div class="cardReviews">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/edwin_hernandez.png') !!}">
+                            <div class="stars">
                                 <span class="name">
                                     Edwin Hernandez
                                 </span>
-                                <div class="containerImage" bis_skin_checked="1">
+                                <div class="containerImage">
                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="groupElements" bis_skin_checked="1">
+                    <div class="groupElements">
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
-                        <h3 class="secondaryTitle">
-                            Excelente plataforma
-                        </h3>
-                        <p class="text">
-                            <span>
-                                Excelente plataforma, nos ha servido
-                                para aumentar las ventas, mejorar los
-                                tiempos de atención, organizar oportunidades
-                                y automatizar procesos repetitivos,
-                                las recomiendo mucho.
-                            </span>
-                        </p>
                         <div>
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/edison_sanchez.png') !!}" class="icon">
-                            <div class="stars" bis_skin_checked="1">
+                            <h3 class="secondaryTitle">
+                                Excelente<br class="DT_e">
+                                plataforma
+                            </h3>
+                            <p class="text">
+                                <span>
+                                    Excelente plataforma, nos ha servido
+                                    para aumentar las ventas, mejorar los
+                                    tiempos de atención, organizar oportunidades
+                                    y automatizar procesos repetitivos,
+                                    las recomiendo mucho.
+                                </span>
+                            </p>
+                        </div>
+                        <div class="cardReviews">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/edison_sanchez.png') !!}">
+                            <div class="stars">
                                 <span class="name">
                                     Edison Sanchez
                                 </span>
-                                <div class="containerImage" bis_skin_checked="1">
+                                <div class="containerImage">
                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
                                 </div>
                             </div>
@@ -1133,7 +1142,7 @@
 
 
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_home_section_11_2024.svg') !!})"
+        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_home_section_10_2024.svg') !!})"
             class="customSection sectionParent home_2023_10">
 
             <div class="section-row">
