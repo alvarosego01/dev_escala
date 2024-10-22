@@ -645,7 +645,7 @@
                                 centralizando, organizando y <br class="DT_e">
                                 monitoreando toda la información y las <br class="DT_e">
                                 actividades de tu equipo comercial.',
-                                'img' => App::setFilePath('/assets/images/gifs/image_crm_home_selector.gif'),
+                                'img' => App::setFilePath('/assets/images/gifs/1. Gestion de contactos.gif'),
                                 'button' => [
                                 'url' => '',
                                 'class' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
@@ -662,7 +662,7 @@
                                 automatizados y gestión de <br class="DT_e">
                                 conversaciones en un solo lugar.
                                 ',
-                                'img' => App::setFilePath('/assets/images/gifs/image_whatsapp_home_selector.gif'),
+                                'img' => App::setFilePath('/assets/images/gifs/2. WhatsApp.gif'),
                                 ],
                                 [
                                 'title' => 'Automatizaciones',
@@ -674,7 +674,7 @@
                                 comunicaciones en distintas partes de <br class="DT_e">
                                 tu proceso comercial.
                                 ',
-                                'img' => App::setFilePath('/assets/images/gifs/image_automatizations_home_selector.gif'),
+                                'img' => App::setFilePath('/assets/images/gifs/3. Automatizaciones.gif'),
                                 ],
                                 [
                                 'title' => 'Email Marketing',
@@ -685,7 +685,7 @@
                                 en minutos, que nutran relaciones y <br class="DT_e">
                                 aumenten la probabilidad de convertir <br class="DT_e">
                                 contactos en ventas.',
-                                'img' => App::setFilePath('/assets/images/gifs/image_email_marketing_home_selector.gif'),
+                                'img' => App::setFilePath('/assets/images/gifs/4. Email Marketing.gif'),
                                 ],
                                 [
                                 'title' => 'Landing Pages y Formularios',
@@ -699,7 +699,7 @@
                                 los contactos se guarden <br class="DT_e">
                                 automáticamente.
                                 ',
-                                'img' => App::setFilePath('/assets/images/gifs/image_landingp_home_selector.gif'),
+                                'img' => App::setFilePath('/assets/images/gifs/5. Landing pages.gif'),
                                 ],
                                 [
                                 'title' => 'Anuncios digitales ',
@@ -710,7 +710,7 @@
                                 en Facebook e Instagram desde Escala para <br class="DT_e">
                                 que puedas atribuir resultados de ventas a <br class="DT_e">
                                 tus esfuerzos de marketing.',
-                                'img' => App::setFilePath('/assets/images/gifs/image_ads_home_selector.gif'),
+                                'img' => App::setFilePath('/assets/images/gifs/6. Anuncios Digitales.gif'),
                                 ],
                                 [
                                 'title' => 'Inteligencia Artificial',
@@ -721,7 +721,7 @@
                                 La IA en Escala es como tener un <br class="DT_e">
                                 copywriter
                                 estrella a una fracción del costo.',
-                                'img' => App::setFilePath('/assets/images/gifs/image_ia_home_selector.gif'),
+                                'img' => App::setFilePath('/assets/images/gifs/7. IA.gif'),
                                 ],
                                 [
                                 'title' => 'Reportes y Dashboards personalizados',
@@ -732,7 +732,7 @@
                                 visualizando la data relevante y oportuna <br class="DT_e">
                                 que necesitas para optimizar tus resultados <br class="DT_e">
                                 de marketing y venta.',
-                                'img' => App::setFilePath('/assets/images/gifs/gif_reports.gif'),
+                                'img' => App::setFilePath('/assets/images/gifs/8. Reportes.gif'),
                                 ],
                                 [
                                 'title' => 'Integraciones',
@@ -742,7 +742,7 @@
                                 a través de integraciones nativas, nuestra <br class="DT_e">
                                 API pública y Zapier.
                                 ',
-                                'img' => App::setFilePath('/assets/images/gifs/gif_reports.gif'),
+                                'img' => App::setFilePath('/assets/images/gifs/9. Integraciones.gif'),
                                 ],
 
                                 ];
