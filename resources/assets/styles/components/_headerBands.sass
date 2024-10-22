@@ -33,7 +33,6 @@
         padding: 12px 0px!important
     @include responsivo(pcMedio)
         background-position: 53.2%
-        display: none
         padding: 12px 0px!important
     @include responsivoSpecial(2100px, 99999px)
         background-size: cover
@@ -70,8 +69,7 @@
                 @include responsivo(telefonoTable)
                     flex-direction: column
                     padding: 3px 0px 
-                @include responsivo(pcMedio)
-                    flex-direction: column         
+                @include responsivo(pcMedio)    
                 @include responsivo(general)
                     position: initial
                 @include responsivo(smallPcTablet)
@@ -86,7 +84,7 @@
                         margin-right: 0px
                         margin-bottom: 10px
                     @include responsivo(pcMedio)
-                        margin-right: 0 
+                        margin-right: 10px 
                         height: 22px
                     @include responsivo(smallPcTablet)
                         margin-right: 5px
@@ -100,6 +98,7 @@
                     @include responsivo(pcMedio)
                         margin-left: 0
                         height: 35px
+                        display: none
                     @include responsivo(smallPcTablet)
                         margin-left: 5px
                         height: 25px
@@ -159,7 +158,6 @@
     @include responsivo(telefonoTable)
         display: block!important
     @include responsivo(pcMedio)
-        display: block!important
 
 .headerband_december_promo_t1.customSection.sectionParent
     background-color: transparent
