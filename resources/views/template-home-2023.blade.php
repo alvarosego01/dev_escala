@@ -180,27 +180,28 @@
 
                                 <div class="containElements">
 
+                                    @php
                                     $elements = [
                                     [
                                     'text' => '
                                     Personalizamos el CRM a tus <br class="D_e">
-                                    necesidades en 10 días'
+                                    necesidades en 10 días
+                                    ',
                                     ],
                                     [
                                     'text' => '
                                     Te entrenamos en una metodología <br class="D_e">
                                     probada para escalar ventas
-
-                                    '
+                                    ',
                                     ],
                                     [
                                     'text' => '
                                     Recibe guía 1:1 para <br class="D_e">
                                     optimizar resultados
-
-                                    '
+                                    ',
                                     ],
                                     ];
+                                    @endphp
 
 
                                     <div class="elementsCheck">
@@ -276,29 +277,28 @@
 
                         <div class="containElements">
 
+                            @php
                             $elements = [
                             [
                             'text' => '
                             Personalizamos el CRM a tus <br class="D_e">
                             necesidades en 10 días
-
                             ',
                             ],
                             [
                             'text' => '
                             Te entrenamos en una metodología <br class="D_e">
                             probada para escalar ventas
-
                             ',
                             ],
                             [
                             'text' => '
                             Recibe guía 1:1 para <br class="D_e">
                             optimizar resultados
-
                             ',
                             ],
                             ];
+                            @endphp
 
                             <div class="ele reviews col-md-12 MT_e">
 
