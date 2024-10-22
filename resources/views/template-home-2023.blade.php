@@ -43,11 +43,12 @@
                     <section class="innerSectionElement sct0">
 
                         <div class="containElements">
-
                             <h1 class="principalBigTitle ">
-                                Escala tus ventas con un CRM todo-en-uno<br class="space">
+                                Escala tus ventas con un CRM <br class="space">
+
                                 <span>
-                                    y el mejor acompañamiento personalizado para tu pyme
+                                    completo y fácil de usar para tu PYME
+
                                 </span>
                             </h1>
 
@@ -179,28 +180,27 @@
 
                                 <div class="containElements">
 
-                                    @php
                                     $elements = [
                                     [
                                     'text' => '
-                                    Herramientas de marketing y ventas<br class="D_e">
-                                    integradas y fáciles de usar
-                                    ',
+                                    Personalizamos el CRM a tus <br class="D_e">
+                                    necesidades en 10 días'
                                     ],
                                     [
                                     'text' => '
-                                    Te guiamos a adaptar el <br class="D_e">
-                                    CRM a tus necesidades
-                                    ',
+                                    Te entrenamos en una metodología <br class="D_e">
+                                    probada para escalar ventas
+
+                                    '
                                     ],
                                     [
                                     'text' => '
-                                    Capacitamos a tu equipo <br class="D_e">
-                                    para maximizar resultados
-                                    ',
+                                    Recibe guía 1:1 para <br class="D_e">
+                                    optimizar resultados
+
+                                    '
                                     ],
                                     ];
-                                    @endphp
 
 
                                     <div class="elementsCheck">
@@ -276,28 +276,29 @@
 
                         <div class="containElements">
 
-                            @php
                             $elements = [
                             [
                             'text' => '
-                            Herramientas de marketing y ventas<br class="D_e">
-                            integradas y fáciles de usar
+                            Personalizamos el CRM a tus <br class="D_e">
+                            necesidades en 10 días
+
                             ',
                             ],
                             [
                             'text' => '
-                            Te guiamos a adaptar el <br class="D_e">
-                            CRM a tus necesidades
+                            Te entrenamos en una metodología <br class="D_e">
+                            probada para escalar ventas
+
                             ',
                             ],
                             [
                             'text' => '
-                            Capacitamos a tu equipo <br class="D_e">
-                            para maximizar resultados
+                            Recibe guía 1:1 para <br class="D_e">
+                            optimizar resultados
+
                             ',
                             ],
                             ];
-                            @endphp
 
                             <div class="ele reviews col-md-12 MT_e">
 
@@ -398,36 +399,49 @@
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
-                <h2 class="title">
-                Nuestros clientes han logrado
-                        </h2>
+                    <h2 class="title">
+                        Nuestros clientes han logrado
+                    </h2>
                     <div class="containElements">
 
                         <div class="element">
                             <p class="text">
+                                <span class="title-blue">Líderes de negocio han</span> <br class="space">
                                 <span class="number">2X</span> <br class="space">
-                                <span class="text-big">Ingresos en<br class="space">
-                                6 meses</span> 
-                               
+                                <span class="text-big">sus ingresos</span> <br class="space">
+                                <span class="text-small">en menos de 6 meses</span>
                             </p>
                         </div>
                         <div class="element">
                             <p class="text">
-                            <span class="number">70%</span> <br class="space">
-                                <span class="text-big">de aumento en <br class="space"> eficiencia de procesos <br class="space"> comerciales</span> 
+                                <span class="title-blue">Empresas generaron</span> <br class="space">
+                                <span class="number">300%</span> <br class="space">
+                                <span class="text-big">más leads</span> <br class="space">
+                                <span class="text-small">en 6 meses</span>
+
+
                             </p>
                         </div>
                         <div class="element">
                             <p class="text">
-                            <span class="number">300%</span> <br class="space">
-                                <span class="text-big">más leads<br class="space"> generados en<br class="space">
-                                6 meses</span> 
+                                <span class="title-blue">Vendedores aumentaron</span> <br class="space">
+                                <span class="number">70%</span> <br class="space">
+                                <span class="text-big">la eficiencia</span> <br class="space">
+                                <span class="text-small">en procesos comerciales</span>
                             </p>
                         </div>
-                  
+                        <div class="element">
+                            <p class="text">
+                                <span class="title-blue">Equipos de marketing han</span> <br class="space">
+                                <span class="number">5X</span> <br class="space">
+                                <span class="text-big">tasa de ventas</span> <br class="space">
+                                <span class="text-small">recuperadas</span>
+
+                            </p>
+                        </div>
+
 
                     </div>
-
                 </section>
 
             </div>
