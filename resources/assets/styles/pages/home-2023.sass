@@ -500,7 +500,7 @@ img
             margin-bottom: 50px
             @include responsivo(telefonoTable)
                 margin-bottom: 25px
-
+                margin-top: 25px
 
             .containElements
                 .principalBigTitle
@@ -761,7 +761,7 @@ img
 
         .innerSectionElement
             h2.title
-                color: #2C4857
+                color: #36768A
                 text-align: center
                 font-family: Nunito
                 font-size: 42.5px
@@ -828,8 +828,26 @@ img
                             display: none
 
 
-                    span.number
+
+
+                    span.title-blue
                         color: #36768A
+                        text-align: center
+                        font-family: Nunito
+                        font-style: normal
+                        font-weight: 600
+                        letter-spacing: -1.902px
+                        @include responsivo(telefonoTable)
+                            font-size: 16px
+                        @include responsivo(pcMedio)
+                            font-size: 18px
+                        @include responsivo(general)
+                            font-size: 20px
+                        @include responsivo(resto)
+                            font-size: 22.5px
+
+                    span.number
+                        color: #2C4857
                         text-align: center
                         font-family: Nunito
                         font-style: normal
@@ -859,10 +877,25 @@ img
                         @include responsivo(pcMedio)
                             font-size: 22.5px
                         @include responsivo(general)
-                            font-size: 30px
+                            font-size: 32.5px
                         @include responsivo(resto)
-                            font-size: 30px
+                            font-size: 35px
 
+                    span.text-small
+                        color: #797979
+                        font-family: Nunito
+                        font-style: normal
+                        font-weight: 600
+                        line-height: 1
+                        letter-spacing: -1.902px
+                        @include responsivo(telefonoTable)
+                            font-size: 16px
+                        @include responsivo(pcMedio)
+                            font-size: 18px
+                        @include responsivo(general)
+                            font-size: 20px
+                        @include responsivo(resto)
+                            font-size: 22.5px
 
 
 #homeSection_2023 .customSection.sectionParent.home_2023_2
@@ -886,13 +919,15 @@ img
             max-width: 1250px!important
             padding: 35px
             padding-bottom: 40px
+            margin-top: 60px
         @include responsivo(smallPcTablet)
             top: -15px
             max-width: 1000px!important
         @include responsivo(resto)
             width: 100%!important
             max-width: 1350px!important
-            padding: 70px
+            padding: 50px
+            margin-top: 60px
 
         .innerSectionElement.sct1
             margin-bottom: 50px
