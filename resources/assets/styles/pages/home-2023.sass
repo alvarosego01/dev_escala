@@ -500,7 +500,7 @@ img
             margin-bottom: 50px
             @include responsivo(telefonoTable)
                 margin-bottom: 25px
-
+                margin-top: 25px
 
             .containElements
                 .principalBigTitle
@@ -760,6 +760,25 @@ img
             top: -200px
 
         .innerSectionElement
+            h2.title
+                color: #36768A
+                text-align: center
+                font-family: Nunito
+                font-size: 42.5px
+                font-style: normal
+                font-weight: 700
+                letter-spacing: -2px
+                line-height: 1
+                margin-bottom: 25px
+                @include responsivo(telefonoTable)
+                    font-size: 25px
+                    margin-bottom: 10px
+                @include responsivo(pcMedio)
+                    font-size: 30px
+                @include responsivo(general)
+                    font-size: 42.5px
+                @include responsivo(resto)
+                    font-size: 45px
             .containElements
                 display: flex
                 flex-direction: row
@@ -807,6 +826,8 @@ img
                     &:last-child
                         &::after
                             display: none
+
+
 
 
                     span.title-blue
@@ -898,6 +919,7 @@ img
             max-width: 1250px!important
             padding: 35px
             padding-bottom: 40px
+            margin-top: 60px
         @include responsivo(smallPcTablet)
             top: -15px
             max-width: 1000px!important
@@ -905,6 +927,7 @@ img
             width: 100%!important
             max-width: 1350px!important
             padding: 50px
+            margin-top: 60px
 
         .innerSectionElement.sct1
             margin-bottom: 50px
