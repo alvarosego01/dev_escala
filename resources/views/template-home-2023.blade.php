@@ -503,14 +503,23 @@
                                         marketing y ventas
                                     </span>
                                 </div>
+                                <div class="cardText card7">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/4_home_icon_logros.svg') }}"
+                                        alt="" loading="lazy">
+                                    <span class="text">
+                                        Mides y analizas más<br class="space">
+                                        fácilmente todo el embudo
+                                    </span>
+                                </div>
                             </div>
+
 
                             <div class="col-md-4 cardImg">
                                 <img src="{{ App::setFilePath('/assets/images/illustrations/others/imagen_mujer_sosteniendo_computador_escala_home_2024.webp') }}"
                                     class="img-responsive" alt="imagenmujer sosteniendo computador escala home 2024" loading="lazy">
                             </div>
 
-                            <div class="col-md-4">
+                            <div class="col-md-4 nextCard">
                                 <div class="cardText card4">
                                     <img src="{{ App::setFilePath('/assets/images/illustrations/others/7_home_icon_logros.svg') }}"
                                         alt="" loading="lazy">
@@ -535,6 +544,7 @@
                                         riesgo de pérdida de data
                                     </span>
                                 </div>
+
                             </div>
                         </div>
 
@@ -1137,6 +1147,17 @@
                         </div>
                     </div>
                 </section>
+                <section class=" innerSectionElement sct3">
+                    <div class="containElements">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_review.png') !!}" loading="lazy">
+                    </div>
+                    <div class="containElements">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/edwin_hernandez_review.png') !!}" loading="lazy">
+                    </div>
+                    <div class="containElements">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/edinso_sanchez_review.png') !!}" loading="lazy">
+                    </div>
+                </section>
             </div>
         </section>
 
@@ -1163,7 +1184,9 @@
                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                 Solicita un demo
                             </a>
-
+                            <div class="containElements">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/cohete_escala_home_subir_a_bordo.png') !!}" loading="lazy">
+                            </div>
                         </div>
 
                     </section>
