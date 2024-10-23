@@ -498,6 +498,8 @@ img
 
         .innerSectionElement.sct0
             margin-bottom: 50px
+            @include responsivoSpecial(300px, 450px)
+                margin-top: 35px!important
             @include responsivo(telefonoTable)
                 margin-bottom: 25px
                 margin-top: 25px
@@ -541,6 +543,7 @@ img
         .innerSectionElement.sct1
             @include responsivo(telefonoTable)
                 margin-bottom: 25px
+                padding: 0px 10px
             @include responsivo(pcMedio)
                 margin-bottom: 25px
             .groupElements
@@ -1194,6 +1197,7 @@ img
                 margin-bottom:0
                 @include responsivo(telefonoTable)
                     font-size: 20px
+                    margin-bottom: 25px
                 @include responsivo(pcMedio)
                     font-size: 25px
                 @include responsivo(general)
@@ -1237,6 +1241,7 @@ img
         @include responsivo(telefonoTable)
             width: 95%
             padding: 25px
+            padding-top: 0px
         @include responsivo(pcMedio)
             width: 95%
             padding: 35px 25px
