@@ -364,7 +364,7 @@
                                         </h5>
                                         <h5 class="card-subtitle">
                                             Aprende nuestra<br class="space">
-                                            metodología <br class="space">
+                                            metodología 
                                             probada para:
                                         </h5>
                                         <div class="list-block">
@@ -445,8 +445,8 @@
                                             Escala
                                         </h5>
                                         <h5 class="card-subtitle">
-                                            Aprende a usar<br class="space">
-                                            efectivamente el CRM <br class="space">
+                                            Aprende a usar
+                                            efectivamente el CRM
                                             de Escala:
                                         </h5>
                                         <ul>
