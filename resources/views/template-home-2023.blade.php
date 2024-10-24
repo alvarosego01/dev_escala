@@ -672,7 +672,214 @@
 
         </section>
 
+        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_home_section_invertida_7_2024.svg') !!})" class="customSection sectionParent homeSection_2023_4">
 
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+
+
+
+                        <div class="info">
+                            <h2 class="primaryTitle">
+                                ¡Ningún otro CRM te brinda un mejor servicio!<br class="DT_e">
+                            </h2>
+                            <span>Nuestro equipo te guía a incorporar las herramientas<br class="space">
+                                de Escala a tus operaciones</span>
+                            <p class="text">
+                                Conoce la implementación autogestionada con <br class="DT_e">
+                                acompañamiento personalizado
+                            </p>
+
+                        </div>
+                        <div class="image">
+
+                            <div class="containerImage">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/imagen_home_escalanauta_guia.png') !!}" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+
+        </section>
+
+
+        <section class="customSection sectionParent home_2023_5">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+                        <h2 class="title">
+                            ¿Qué incluye el servicio de acompañamiento <br class="DT_e">
+                            personalizado de Escala?
+
+                        </h2>
+                    </div>
+
+                </section>
+                <section class="innerSectionElement sct2">
+
+                    <div class="containElements">
+
+                        <div class="row card-content">
+                            <div class="col-md-12 col-lg-4 card1">
+
+                                <div
+                                    class="card">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/card_white_home_fondo.png') }}" alt="" class="backgroundCard D_e">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div>
+                                                <h5 class="card-title">
+                                                    16 sesiones <br class="space">
+                                                    privadas
+                                                </h5>
+                                                <p class="card-text">
+                                                    con nuestro equipo los <br class="D_e">
+                                                    primeros 3 meses para <br class="D_e">
+                                                    guiarte a implementar<br class="D_e">
+                                                    Escala exitosamente.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <div class="img-container img1">
+                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/sesiones_privados_icon_home_2024.png') !!}"
+                                                        loading="lazy">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-4 card2">
+                                <div
+                                    class="card">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/card_white_home_fondo.png') }}" alt="" class="backgroundCard D_e">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div>
+                                                <h5 class="card-title">
+                                                    Capacitaciones<br class="space">
+                                                    ilimitadas
+                                                </h5>
+                                                <p class="card-text">
+                                                    en vivo o autoguiadas, <br class="D_e">
+                                                    para aprender a usar<br class="D_e">
+                                                    cada una de las<br class="D_e">
+                                                    herramientas de Escala.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <div class="img-container img2">
+                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/capacitaciones_icon_home_2024.png') !!}"
+                                                        loading="lazy">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-4 card3">
+                                <div
+                                    class="card">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/card_white_home_fondo.png') }}" alt="" class="backgroundCard D_e">
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/home_2023_boxline_mobile.png') }}" alt="" class="backgroundCard MT_e">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div>
+                                                <h5 class="card-title">
+                                                    Soporte vía <br class="space">
+                                                    chat ilimitado
+                                                </h5>
+                                                <p class="card-text">
+                                                    nuestro equipo atiende <br class="D_e">
+                                                    a preguntas puntuales<br class="D_e">
+                                                    por WhatsApp o <br class="D_e">
+                                                    Plataforma en horario<br class="D_e">
+                                                    laboral.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <div class="img-container img3">
+                                                    <img class="img-card " src="{!! App::setFilePath('/assets/images/illustrations/others/soporte_icon_home_2024.png') !!}"
+                                                        loading="lazy">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="btn-cta col-md-12 col-lg-12">
+                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                Conocer más
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </section>
+
+
+
+        <section class="customSection sectionParent home_2023_6">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+
+                        <h3 class="sub-title">
+                            ¿Deseas empezar a conocer nuestra metodología probada?
+                        </h3>
+                        <h2 class="title">
+                            Participa en una Masterclass gratuita <br class="D_e">
+                            con el equipo de expertos de Escala
+                        </h2>
+
+                    </div>
+
+                </section>
+                <section style="background-image: url({!! App::setFilePath('/assets/images/banners/04-bg-home2023.png') !!})" class="innerSectionElement sct2">
+
+                    <div class="containElements">
+                        <div class="row">
+                            <div class="col-md-5 column-img">
+                                <div class="img-container">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/12-home2023.png') !!}" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="col-md-7 column-text">
+                                <p>
+                                    “Recopilamos nuestra experiencia de <br class="D_e">
+                                    10+ años construyendo negocios <br class="D_e">
+                                    exitosos para compartirla contigo y <br class="D_e">
+                                    evitarte la prueba y error.”
+                                </p>
+                                <a class=" primaryButton hoverInEffect" href="https://experiencia.escala.com/eventos-escala">
+                                    Participar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </section>
 
 
         <section class="component-info-multiple-cards-T2 customSection sectionParent home_2023_7">
