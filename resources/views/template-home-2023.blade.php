@@ -184,24 +184,26 @@
                                     $elements = [
                                     [
                                     'text' => '
-                                    Personalizamos el CRM a tus <br class="D_e">
-                                    necesidades en 10 días
+                                    <span>Software</span> de<br class="DT_e">
+                                    marketing y ventas
                                     ',
                                     ],
                                     [
                                     'text' => '
-                                    Te entrenamos en una metodología <br class="D_e">
-                                    probada para escalar ventas
+                                    <span> Entrenamiento</span><br class="DT_e">
+                                    estratégico y técnico
                                     ',
                                     ],
                                     [
                                     'text' => '
-                                    Recibe guía 1:1 para <br class="D_e">
-                                    optimizar resultados
+                                    <span>Acompañamiento</span><br class="DT_e">
+                                    personalizado
                                     ',
                                     ],
                                     ];
                                     @endphp
+
+
 
 
                                     <div class="elementsCheck">
@@ -281,20 +283,20 @@
                             $elements = [
                             [
                             'text' => '
-                            Personalizamos el CRM a tus <br class="D_e">
-                            necesidades en 10 días
+                            <span>Software</span> de<br class="DT_e">
+                            marketing y ventas
                             ',
                             ],
                             [
                             'text' => '
-                            Te entrenamos en una metodología <br class="D_e">
-                            probada para escalar ventas
+                            <span> Entrenamiento</span><br class="DT_e">
+                            estratégico y técnico
                             ',
                             ],
                             [
                             'text' => '
-                            Recibe guía 1:1 para <br class="D_e">
-                            optimizar resultados
+                            <span>Acompañamiento</span><br class="DT_e">
+                            personalizado
                             ',
                             ],
                             ];
@@ -669,6 +671,7 @@
             </div>
 
         </section>
+
         <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_home_section_invertida_7_2024.svg') !!})" class="customSection sectionParent homeSection_2023_4">
 
             <div class="section-row">
@@ -686,8 +689,8 @@
                             <span>Nuestro equipo te guía a incorporar las herramientas<br class="space">
                                 de Escala a tus operaciones</span>
                             <p class="text">
-                                Conoce la implementación autogestionada con <br class="DT_e">
-                                acompañamiento personalizado
+                                Conoce el servicio de acompañamiento Escala para <br class="DT_e">
+                                la implementación autogestionada
                             </p>
 
                         </div>
@@ -877,6 +880,7 @@
             </div>
 
         </section>
+
 
         <section class="component-info-multiple-cards-T2 customSection sectionParent home_2023_7">
 
