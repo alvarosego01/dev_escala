@@ -499,7 +499,7 @@
                             letter-spacing: -1.5px
                             @include responsivo(telefonoTable)
                                 text-align: center
-                                font-size: 27.5px
+                                font-size: 25.5px
                             @include responsivo(pcMedio)
                                 text-align: center
                                 font-size: 30
@@ -527,7 +527,7 @@
                         letter-spacing: -2.16px
 
                     @include responsivo(telefonoTable)
-                        font-size: 34px
+                        font-size: 29px
                         text-align: center
                         margin-bottom: 25px
                     @include responsivo(pcMedio)
@@ -783,16 +783,21 @@
                     border: none
                     padding: 0px 50px 25px 50px
                     margin: 0!important
+                    min-height: 530px
                     @include responsivo(telefonoTable)
                         padding-left: 25px
                         padding-right: 25px
+                        min-height: auto
                     @include responsivo(pcMedio)
                         padding-left: 50px
                         padding-right: 50px
+                        min-height: 400px
                     @include responsivo(general)
                         max-width: 350px
                         padding-right: 35px
                         padding-left: 35px
+                    @include responsivo(smallPcTablet)
+                        min-height: 465px
                     @include responsivo(resto)
                         max-width: 350px
                         padding-right: 35px
@@ -851,7 +856,7 @@
                         font-size: 24px
                         font-style: normal
                         font-weight: 500
-                        letter-spacing: -2px
+                        letter-spacing: -1px
                         text-align: left
                         margin-bottom: 50px
                         text-align: center
@@ -1088,7 +1093,7 @@
         padding-top: 0px
         padding-bottom: 0px
         margin-bottom: 25px
-
+        margin-top: -80px
     @include responsivo(pcMedio)
         margin-top: -150px
         margin-bottom: 50px
@@ -1256,7 +1261,7 @@
     background-size: cover
     margin-bottom: 75px
     @include responsivo(telefonoTable)
-        margin-bottom: 175px
+        margin-bottom: 0
         margin-top: 25px
         top: 0
     @include responsivo(pcMedio)
@@ -1397,8 +1402,7 @@
         padding-bottom: 25px
         padding-top: 0
         background-image: none!important
-        
-        top: -150px
+        margin: 50px 0px 70px 0px
     @include responsivo(pcMedio)
         background-position: 60% center
         padding-bottom: 25px
