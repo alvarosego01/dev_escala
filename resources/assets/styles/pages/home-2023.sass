@@ -388,6 +388,8 @@ img
                                     font-size: 16px
                                 @include responsivo(resto)
                                     font-size: 20px
+                                span
+                                    font-weight: 700
         
            
         .innerSectionElement.sct2
@@ -494,13 +496,14 @@ img
                                     font-size: 16px
                                 @include responsivo(resto)
                                     font-size: 20px
-        
+                                span
+                                    font-weight: 700
 
         .innerSectionElement.sct0
             margin-bottom: 50px
             @include responsivo(telefonoTable)
                 margin-bottom: 25px
-                margin-top: 25px
+                margin-top: 40px
 
             .containElements
                 .principalBigTitle
@@ -517,7 +520,9 @@ img
                         font-weight: 500
                         color: #36768A
                     @include responsivo(telefonoTable)
-                        font-size: 35px
+                        font-size: 40px
+
+
                         span
                             font-size: 20px
                     @include responsivo(pcMedio)
@@ -1267,9 +1272,10 @@ img
     background-size: inherit
     background-repeat: no-repeat
     @include responsivo(telefonoTable)
-        background-position: 58% -55px
+        background-position: 50% -55px
         margin-bottom: -55px
         margin-top: 45px
+        padding-top: 35px
         background-size: 5000px
     @include responsivo(pcMedio)
         background-position: 40% center
@@ -1310,6 +1316,7 @@ img
                 position: relative
                 @include responsivo(telefonoTable)
                     flex-direction: column
+                    align-items: center
                     padding: 0px 20px
                 .image
                     margin-right: 5px
@@ -1332,6 +1339,7 @@ img
                             display: flex
                             justify-content: center
                             align-items: center
+                            right: 0
                         @include responsivo(smallPcTablet)
                             top: 135px
                             right: 205px
@@ -1371,7 +1379,7 @@ img
                         display: flex
                         flex-direction: column
                     h2.primaryTitle
-                        color: #36768a
+                        color: #2C4857
                         text-align: left
                         font-family: Nunito
                         font-style: normal
@@ -1381,6 +1389,7 @@ img
                         @include responsivo(telefonoTable)
                             font-size: 26px
                             text-align: center
+                            margin-bottom: 20px
                         @include responsivo(pcMedio)
                             font-size: 25px
                             text-align: center

@@ -689,8 +689,8 @@
                             <span>Nuestro equipo te guía a incorporar las herramientas<br class="space">
                                 de Escala a tus operaciones</span>
                             <p class="text">
-                                Conoce la implementación autogestionada con <br class="DT_e">
-                                acompañamiento personalizado
+                                Conoce el servicio de acompañamiento Escala para <br class="DT_e">
+                                la implementación autogestionada
                             </p>
 
                         </div>
