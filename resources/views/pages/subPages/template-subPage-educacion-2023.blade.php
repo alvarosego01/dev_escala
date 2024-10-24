@@ -23,29 +23,30 @@
                                 <div class="containElements row threeCol">
 
                                     <div class=" infoTitle">
-
+                                        <span>Escala Academy</span>
                                         <h1 class="principalTitle">
-                                            Desarrolla habilidades<br class="space">
-                                            <span>que Escalan Empresas</span>
+                                            Desarrolla habilidades
+                                            <span> para <br class="space"> aprovechar Escala al máximo</span>
                                         </h1>
 
                                         <ul>
                                             <li>
                                                 <div class="list-item">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Masterclasses con Andrés Moreno</p>
+                                                    <p>Masterclasses en vivo de
+                                                        marketing y ventas</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="list-item">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Bootcamps en vivo</p>
+                                                    <p>Capacitaciones en vivo por herramientas</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="list-item">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Educación online a tu ritmo</p>
+                                                    <p>Cursos autoguiados</p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -183,29 +184,30 @@
                                 <div class="containElements row threeCol">
 
                                     <div class=" infoTitle">
-
+                                        <span>Escala Academy</span>
                                         <h1 class="principalTitle">
-                                            Desarrolla habilidades<br class="space">
-                                            <span>que Escalan Empresas</span>
+                                            Desarrolla habilidades
+                                            <span> para <br class="space"> aprovechar Escala al máximo</span>
                                         </h1>
 
                                         <ul>
                                             <li>
                                                 <div class="list-item">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Masterclasses con Andrés Moreno</p>
+                                                    <p>Masterclasses en vivo de <br class="DT_e">
+                                                        marketing y ventas</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="list-item">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Bootcamps en vivo</p>
+                                                    <p>Capacitaciones en vivo por herramientas</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="list-item">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Educación online a tu ritmo</p>
+                                                    <p>Cursos autoguiados</p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -337,8 +339,8 @@
 
                     <div class="containElements">
                         <h2 class="title">
-                            Entrenamos a líderes comerciales y a sus equipos <br class="DT_e">
-                            <span>para que vendan más y mejor con Escala</span>
+                            Entrenamos a líderes y sus equipos <br class="DT_e">
+                            <span> en temas estratégicos y técnicos</span>
                         </h2>
                         <p class="text">
                             Aprende sobre:
@@ -356,12 +358,13 @@
                                     <div class="card-body">
                                         <h5 class="card-number">1</h5>
                                         <h5 class="card-title">
-                                            Crecimiento de <br class="space">
-                                            negocios
+                                            Mejores prácticas<br class="space">
+                                            de marketing <br class="space">
+                                            y ventas
                                         </h5>
                                         <h5 class="card-subtitle">
-                                            Te enseñamos <br class="space">
-                                            nuestra metodología <br class="space">
+                                            Aprende nuestra<br class="space">
+                                            metodología <br class="space">
                                             probada para:
                                         </h5>
                                         <div class="list-block">
@@ -369,19 +372,19 @@
                                                 <li>
                                                     <div class="list-item">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Generar leads</p>
+                                                        <p>Promover tu negocio</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="list-item">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Vender</p>
+                                                        <p>Convertir leads en ventas</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="list-item">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Fidelizar clientes</p>
+                                                        <p> Fidelizar clientes</p>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -394,14 +397,13 @@
                                     <div class="card-body">
                                         <h5 class="card-number">2</h5>
                                         <h5 class="card-title">
-                                            Eficiencia <br class="space">
-                                            Operativa
+                                            Optimización <br class="space">
+                                            de procesos
                                         </h5>
                                         <h5 class="card-subtitle">
-                                            Compartimos mejores <br class="space">
-                                            prácticas que facilitan la <br class="space">
-                                            implementación exitosa de <br class="space">
-                                            estrategias comerciales
+                                            Aprende cómo reducir<br class="space">
+                                            costos y tiempos en tus<br class="space">
+                                            operaciones con:
                                         </h5>
                                         <div class="list-block">
                                             <ul>
@@ -414,20 +416,19 @@
                                                 <li>
                                                     <div class="list-item">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Gestión equipos de venta</p>
+                                                        <p>Digitalización</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="list-item">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Organización interna</p>
+                                                        <p>Medición</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="list-item">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                        <p>Planificación con Escala<br class="space">
-                                                            ¡Y más!</p>
+                                                        <p>¡Y más!</p>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -440,60 +441,47 @@
                                     <div class="card-body">
                                         <h5 class="card-number">3</h5>
                                         <h5 class="card-title">
-                                            Uso del CRM <br class="space">
-                                            de Escala
+                                            Herramientas<br class="space">
+                                            Escala
                                         </h5>
                                         <h5 class="card-subtitle">
-                                            Te convertimos en un Escala <br class="space">
-                                            Pro para que uses las <br class="space">
-                                            herramientas efectivamente <br class="space">
-                                            con los ojos cerrados
+                                            Aprende a usar<br class="space">
+                                            efectivamente el CRM <br class="space">
+                                            de Escala:
                                         </h5>
                                         <ul>
+
                                             <li>
                                                 <div class="list-item">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Gestión de contactos <br class="space">
-                                                        y procesos</p>
+                                                    <p>Conectar cuentas</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="list-item">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Page Builder</p>
+                                                    <p>Configurar</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="list-item">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Email Builder</p>
+                                                    <p>Automatizar</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="list-item">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Envío de Campañas</p>
+                                                    <p>Editar plantillas</p>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="list-item">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Automatización</p>
+                                                    <p>¡Y más!</p>
                                                 </div>
                                             </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>WhatsApp</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Inteligencia Artificial <br class="space">
-                                                        ¡y más!</p>
-                                                </div>
-                                            </li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -658,14 +646,11 @@
                             </div>
                             <div class="col-md-7">
                                 <h5 class="principalTitle">
-                                    <span>Masterclasses</span> <br class="DT_e">
-                                    con Andrés Moreno <br class="DT_e">
-                                    y expertos
+                                    <span> Masterclasses en vivo</span> <br class="DT_e">
+                                    de marketing y ventas <br class="DT_e">
+                                    con expertos
                                 </h5>
-                                <p class="principalText">Empieza a vivirlas</p>
-                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                    Conversa con un asesor Escala
-                                </a>
+
                             </div>
                         </div>
                         <div class="row card-box">
@@ -674,8 +659,9 @@
                             </div>
                             <div class="col-md-7">
                                 <h5 class="principalTitle">
-                                    <span>Bootcamps</span> <br class="DT_e">
-                                    en vivo
+                                    <span>Capacitaciones en vivo
+                                    </span> <br class="DT_e">
+                                    por herramienta
                                 </h5>
                             </div>
                         </div>
@@ -685,8 +671,8 @@
                             </div>
                             <div class="col-md-7">
                                 <h5 class="principalTitle">
-                                    <span>Cursos online</span> <br class="DT_e">
-                                    autoguiadaos
+                                    <span>Cursos autoguiados</span> <br class="DT_e">
+                                    por herramienta
                                 </h5>
                             </div>
                         </div>
@@ -697,7 +683,7 @@
                             <div class="col-md-7">
                                 <h5 class="principalTitle">
                                     <span>Breves tutoriales</span> <br class="DT_e">
-                                    de herramientas
+                                    por herramientas
                                 </h5>
                             </div>
                         </div>
@@ -833,136 +819,6 @@
             })
         </script>
 
-        <section class="component-info-multiple-cards-T2 customSection sectionParent educacion-2023-6">
-
-            <img src="{!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-03.png') !!}" alt="" class="overlaysky">
-
-            <div class="section-row">
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h2 class="primaryTitle blackColor">
-
-                            ¡Ningún otro CRM hace tanto por ti!
-
-                        </h2>
-
-                    </div>
-
-                </section>
-
-                <section class="innerSectionElement sct2">
-
-                    <div class="groupElements card-1">
-
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_blue.png') !!}" alt="" class="backOverlay">
-
-
-                        <h3 class="secondaryTitle">
-                            Entrenamiento
-                        </h3>
-
-                        <div class="img-box">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/04-implementacion-2023.png') !!}" loading="lazy">
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="groupElements">
-
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white_transparent.png') !!}" alt="" class="backOverlay">
-
-                        <h3 class="secondaryTitle">
-                            Acompañamiento
-                        </h3>
-
-                        <div class="img-box">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/03-implementacion-2023.png') !!}" loading="lazy">
-                            </div>
-                        </div>
-                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Conocer más
-                        </a>
-
-                    </div>
-
-                    <div class="groupElements ">
-
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white_transparent.png') !!}" alt="" class="backOverlay">
-
-                        <h3 class="secondaryTitle">
-                            Implementación
-                        </h3>
-
-                        <div class="img-box">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-implementacion-2023.png') !!}" loading="lazy">
-                            </div>
-                        </div>
-
-                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Conocer más
-                        </a>
-
-                    </div>
-
-                </section>
-
-
-
-            </div>
-
-
-        </section>
-        @php
-        $escalaUrl = 'https://escala.com';
-
-        $items = [
-        [
-        'type' => 'master',
-        'title' => '¿Cómo diseñan los emails y las landing pages?',
-        'text' => 'Diseñamos los emails y la landing page tomando la referencia de marca del website y/o <br class="DT_e"> redes sociales del cliente. De no tener, se solicita al cliente una pieza gráfica referencia.'
-        ],
-        [
-        'type' => 'master',
-        'title' => '¿Crean también el copy de emails y landing pages?',
-        'text' => 'El texto de los emails y landing page, es simulado. Es responsabilidad del cliente adaptarlo <br class="DT_e"> a su negocio y/o necesidades.'
-        ],
-        [
-        'type' => 'master',
-        'title' => '¿Qué pasa si quiero que modifiquen uno de los entregables?',
-        'text' => 'Cualquier modificación de lo entregado, es responsabilidad del cliente. El mismo puede <br class="DT_e"> utilizar las herramientas de Escala que son muy fáciles de usar.'
-        ],
-        [
-        'type' => 'master',
-        'title' => '¿Si me suscribo un viernes, cuándo recibo el CRM implementado?',
-        'text' => 'Entregamos el CRM implementado en 10 días hábiles desde el momento que tenemos <br class="DT_e"> toda la información requerida por parte del cliente para personalizar la plataforma y crear las piezas gráficas.'
-        ],
-        [
-        'type' => 'master',
-        'title' => '¿Cuánto cuesta la implementación?',
-        'text' => 'El valor que generamos es de más de USD $6,500 pero dependiendo del plan que <br class="DT_e"> obtengas puede estar o no incluida en la suscripción.'
-        ]
-        ];
-
-
-        $parameters = [
-        'classSection' => 'educacion-2023-7',
-        'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-        'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-        'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-        'items' => $items,
-        'title' => '
-        Preguntas <span>frecuentes</span>
-        ',
-        ];
-        @endphp
-        @contain_FAQ_T1($parameters)
-        @endcontain_FAQ_T1
 
     </div>
 </div>
