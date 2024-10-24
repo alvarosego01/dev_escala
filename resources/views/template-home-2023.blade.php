@@ -669,7 +669,7 @@
             </div>
 
         </section>
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_home_section_7_2024.svg') !!})" class="customSection sectionParent homeSection_2023_4">
+        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_home_section_invertida_7_2024.svg') !!})" class="customSection sectionParent homeSection_2023_4">
 
             <div class="section-row">
 
@@ -677,6 +677,20 @@
 
                     <div class="containElements">
 
+
+
+                        <div class="info">
+                            <h2 class="primaryTitle">
+                                ¡Ningún otro CRM te brinda un mejor servicio!<br class="DT_e">
+                            </h2>
+                            <span>Nuestro equipo te guía a incorporar las herramientas<br class="space">
+                                de Escala a tus operaciones</span>
+                            <p class="text">
+                                Conoce la implementación autogestionada con <br class="DT_e">
+                                acompañamiento personalizado
+                            </p>
+
+                        </div>
                         <div class="image">
 
                             <div class="containerImage">
@@ -684,20 +698,6 @@
                             </div>
 
                         </div>
-
-                        <div class="info">
-                            <h2 class="primaryTitle">
-                                ¡Ningún otro CRM te brinda un mejor servicio!<br class="DT_e">
-                            </h2>
-                            <span>Nuestro equipo te guía a incorporar las herramientas<br class="space">
-                                    de Escala a tus operaciones</span>
-                            <p class="text">
-                                Conoce la implementación autogestionada con <br class="DT_e">
-                                acompañamiento personalizado
-                            </p>
-
-                        </div>
-
                     </div>
 
                 </section>
@@ -830,7 +830,7 @@
 
         </section>
 
-        
+
 
         <section class="customSection sectionParent home_2023_6">
 
