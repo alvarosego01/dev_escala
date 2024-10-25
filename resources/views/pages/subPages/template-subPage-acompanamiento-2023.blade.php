@@ -37,7 +37,7 @@
                                             <li>
                                                 <div class="list-item">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Sesiones de training privado</p>
+                                                    <p>Sesiones de training</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -197,7 +197,7 @@
                                             <li>
                                                 <div class="list-item">
                                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Sesiones de training privado</p>
+                                                    <p>Sesiones de training</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -343,7 +343,7 @@
 
                             <div class="col-md-12 col-lg-4 cardParent column-1">
 
-                                <div style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/background_imp_section.png') !!}')" class="card">
+                                <div style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/card_white_acompañamiento_fondo.png') !!}')" class="card">
                                     <div class="card-body">
                                         <h5 class="card-number">1</h5>
                                         <h5 class="card-title">
@@ -357,39 +357,21 @@
                                             <br class="space">
                                         </p>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/01-acompanamiento-2023.png') !!}" loading="lazy">
-                                        <div class="text-bottom">
-                                            <div class="block-text">
-                                                <h5 class="card-subTitle">
-                                                    Primer año
-                                                </h5>
-                                                <p class="card-secondaryText">
-                                                    Recibe 8 horas <br class="DT_e">
-                                                    en sesiones privadas
-                                                </p>
-                                            </div>
-                                            <div class="block-text">
-                                                <h5 class="card-subTitle">
-                                                    Luego
-                                                </h5>
-                                                <p class="card-secondaryText">
-                                                    4 horas / año
-                                                </p>
-                                            </div>
-                                        </div>
+                              
                                     </div>
                                 </div>
 
                             </div>
 
-                            {{-- <div class="col-md-12 col-lg-4 cardParent column-2">
+                         <div class="col-md-12 col-lg-4 cardParent column-2">
 
                                 <img src="{!! App::setFilePath('/assets/images/icons/icon_plus_blue.svg') !!}" alt="" class="iconPlus left">
 
-                                <div style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/background_imp_section.png') !!}')" class="card">
+                                <div style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/card_white_acompañamiento_fondo.png') !!}')" class="card">
                                     <div class="card-body">
                                         <h5 class="card-number">2</h5>
                                         <h5 class="card-title">
-                                            Trainer privado
+                                        Guía Técnico
                                         </h5>
                                         <p class="card-primaryText">
                                             Revisa el uso de las <br class="DT_e">
@@ -398,35 +380,17 @@
                                             efectivamente
                                         </p>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/02-acompanamiento-2023.png') !!}" loading="lazy">
-                                        <div class="text-bottom">
-                                            <div class="block-text">
-                                                <h5 class="card-subTitle">
-                                                    Primer año
-                                                </h5>
-                                                <p class="card-secondaryText">
-                                                    Recibe 4 horas de <br class="DT_e">
-                                                    entrenamiento privado
-                                                </p>
-                                            </div>
-                                            <div class="block-text">
-                                                <h5 class="card-subTitle">
-                                                    Luego
-                                                </h5>
-                                                <p class="card-secondaryText">
-                                                    2 horas / año
-                                                </p>
-                                            </div>
-                                        </div>
+                               
                                     </div>
                                 </div>
 
                                 <img src="{!! App::setFilePath('/assets/images/icons/icon_plus_blue.svg') !!}" alt="" class="iconPlus right">
 
-                            </div> --}}
+                            </div>
 
                             <div class="col-md-12 col-lg-4 cardParent column-2">
-                                <img src="{!! App::setFilePath('/assets/images/icons/icon_plus_blue.svg') !!}" alt="" class="iconPlus left">
-                                <div style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/background_imp_section.png') !!}')" class="card">
+                                
+                                <div style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/card_white_acompañamiento_fondo.png') !!}')" class="card">
                                     <div class="card-body">
                                         <h5 class="card-number">2</h5>
                                         <h5 class="card-title">
@@ -440,26 +404,7 @@
                                             y <span class="blueText">Chat de plataforma</span>
                                         </p>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/03-acompanamiento-2023.png') !!}" loading="lazy">
-                                        <div class="text-bottom">
-                                            <div class="block-text">
-                                                <h5 class="card-subTitle">
-                                                    Sin límites
-                                                </h5>
-                                                <p class="card-secondaryText">
-                                                    En horario laboral <br class="DT_e">
-                                                    de lunes a viernes <br class="DT_e">
-                                                    y mitad del sabado
-                                                </p>
-                                            </div>
-                                            <div class="block-text">
-                                                <h5 class="card-subTitle">
-                                                    Luego
-                                                </h5>
-                                                <p class="card-secondaryText">
-                                                    4 horas / año
-                                                </p>
-                                            </div>
-                                        </div>
+                                     
                                     </div>
                                 </div>
                             </div>
@@ -968,160 +913,5 @@
                 }
             })
         </script>
-
-        <section class="component-info-multiple-cards-T2 customSection sectionParent acompanamiento-2023-9">
-
-            <img src="{!! App::setFilePath('/assets/images/banners/bg-implementacion-2023-03.png') !!}" alt="" class="overlaysky">
-
-            <div class="section-row">
-                <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-
-                        <h2 class="primaryTitle blackColor">
-
-                            ¡Ningún otro CRM hace tanto por ti!
-
-                        </h2>
-
-                    </div>
-
-                </section>
-
-                <section class="innerSectionElement sct2">
-
-
-                    <div class="groupElements card-1">
-
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_blue.png') !!}" alt="" class="backOverlay">
-
-                        <h3 class="secondaryTitle">
-                            Acompañamiento
-                        </h3>
-
-                        <div class="img-box">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/03-implementacion-2023.png') !!}" loading="lazy">
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <div class="groupElements ">
-
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white_transparent.png') !!}" alt="" class="backOverlay">
-
-                        <h3 class="secondaryTitle">
-                            Implementación
-                        </h3>
-
-                        <div class="img-box">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-implementacion-2023.png') !!}" loading="lazy">
-                            </div>
-                        </div>
-
-                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Conocer más
-                        </a>
-
-                    </div>
-
-
-
-                    <div class="groupElements">
-
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white_transparent.png') !!}" alt="" class="backOverlay">
-
-                        <h3 class="secondaryTitle">
-                            Entrenamiento
-                        </h3>
-
-                        <div class="img-box">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/04-implementacion-2023.png') !!}" loading="lazy">
-                            </div>
-                        </div>
-
-                        <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Conocer más
-                        </a>
-
-                    </div>
-
-                </section>
-
-            </div>
-
-
-        </section>
-
-        @php
-        $escalaUrl = 'https://escala.com';
-        $items = [
-        [
-        'type' => 'master',
-        'title' => '¿Cuántas horas tengo disponibles con mi Gerente de Éxito?',
-        'text' => '
-        <p class="text"><strong>En el Plan Pro:</strong></p> <br class="space">
-        <ul style="list-style: disc; padding-left: 20px">
-            <li>8 horas el primer año que puedes consumir a tu propio ritmo</li>
-            <li>4 horas por año a partir del segundo año</li>
-        </ul>
-        <br class="space">
-        <p class="text primaryText grayColorTexts">El Plan Starter no incluye un Gerente de Éxito asignado.</p>
-        ',
-        ],
-        [
-        'type' => 'master',
-        'title' => '¿Cuántas horas de entrenamiento privado tengo disponibles?',
-        'text' => '
-        <p class="text"><strong>En el Plan Pro:</strong></p> <br class="space">
-        <ul style="list-style: disc; padding-left: 20px">
-            <li>4 horas el primer año que puedes consumir a tu propio ritmo</li>
-            <li>2 horas por año a partir del segundo año</li>
-        </ul>
-        <br class="space">
-        <p class="text primaryText grayColorTexts">El Plan Starter no incluye un entrenamiento privado.</p>
-        ',
-        ],
-        [
-        'type' => 'master',
-        'title' => '¿Qué pasa si necesito más horas con mi Gerente de Éxito o de entrenamiento privado?',
-        'text' => '
-        <p class="text primaryText grayColorTexts">Puedes solicitar e invertir en horas adicionales. Lo coordinas directamente con tu Gerente de Éxito asignado.</p>
-        ',
-        ],
-        [
-        'type' => 'master',
-        'title' => '¿El Gerente de Éxito puede implementar acciones en mi cuenta de Escala?',
-        'text' => '
-        <p class="text primaryText grayColorTexts">No. El Gerente de Éxito sirve de guía para que aprovechen las herramientas al máximo. La responsabilidad de ejecutar las estrategias y campañas es de cada cliente.</p>
-        ',
-        ],
-        [
-        'type' => 'master',
-        'title' => '¿Cómo me reúno con mi Gerente de Éxito? ',
-        'text' => '
-        <p class="text primaryText grayColorTexts">Los contactos ocurren por Zoom, Email y WhatsApp dependiendo dell objetivo y la duración de los mismos.</p>
-        ',
-        ],
-        ];
-
-        $parameters = [
-        'classSection' => 'acompanamiento-2023-10',
-        'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-        'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-        'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-        'items' => $items,
-        'title' => '
-        Preguntas <span>frecuentes</span>
-        ',
-        ];
-        @endphp
-        @contain_FAQ_T1($parameters)
-        @endcontain_FAQ_T1
-
     </div>
 </div>
