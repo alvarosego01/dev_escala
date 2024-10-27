@@ -392,7 +392,7 @@
                                 
                                 <div style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/card_white_acompañamiento_fondo.png') !!}')" class="card">
                                     <div class="card-body">
-                                        <h5 class="card-number">2</h5>
+                                        <h5 class="card-number">3</h5>
                                         <h5 class="card-title">
                                             ChatSoporte
                                         </h5>
