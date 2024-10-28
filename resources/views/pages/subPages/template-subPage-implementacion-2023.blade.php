@@ -350,7 +350,134 @@
 
            </section>
 
+           <section class="component-info-multiple-cards-T2 customSection sectionParent implementacion-2023-4">
+               <div class="section-row">
+                   <section class="innerSectionElement sct1">
+                       <div class="containElements">
+                           <h2 class="primaryTitle blackColor">
+                               ¿Qué dicen nuestros clientes?
+                           </h2>
+                       </div>
+                   </section>
+                   <section class=" innerSectionElement sct2" style="display: none;">
+                       <div class="groupElements">
+                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
+                           <div>
+                               <h3 class="secondaryTitle">
+                                   La experiencia<br class="DT_e">
+                                   con Escala
+                               </h3>
+                               <p class="text">
+                                   <span>
+                                       La experiencia con Escala durante 1
+                                       año y medio de servicio es excelente.
+                                       Nuestra empresa a aumentando las
+                                       ventas en un 200%, ESCALA es muy
+                                       versátil ya que tenemos conectado
+                                       a whatsaap Api y podemos gestionar
+                                       todos nuestros leads en un mismo
+                                       lugar y llevar nuestro proceso
+                                       de venta muy organizado en los
+                                       embudos de ventas.
+                                   </span>
+                               </p>
+                           </div>
+                           <div class="cardReviews">
+                               <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_.png') !!}">
+                               <div class="stars">
+                                   <span class="name">
+                                       Miguel Urrego Serna
+                                   </span>
+                                   <div class="containerImage">
+                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
 
+                       <div class="groupElements">
+                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
+                           <div>
+                               <h3 class="secondaryTitle">
+                                   La herramienta<br class="DT_e">
+                                   correcta
+                               </h3>
+                               <p class="text">
+                                   <span>
+                                       Escala tiene los componentes que requiero
+                                       para automatizar mis procesos de venta,
+                                       marketing y servicio al cliente.
+                                       El soporte técnico es muy ágil y
+                                       asertivo en las soluciones.
+                                   </span>
+                               </p>
+                           </div>
+                           <div class="cardReviews">
+                               <img src="{!! App::setFilePath('/assets/images/illustrations/others/edwin_hernandez.png') !!}">
+                               <div class="stars">
+                                   <span class="name">
+                                       Edwin Hernandez
+                                   </span>
+                                   <div class="containerImage">
+                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="groupElements">
+                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
+                           <div>
+                               <h3 class="secondaryTitle">
+                                   Excelente<br class="DT_e">
+                                   plataforma
+                               </h3>
+                               <p class="text">
+                                   <span>
+                                       Excelente plataforma, nos ha servido
+                                       para aumentar las ventas, mejorar los
+                                       tiempos de atención, organizar oportunidades
+                                       y automatizar procesos repetitivos,
+                                       las recomiendo mucho.
+                                   </span>
+                               </p>
+                           </div>
+                           <div class="cardReviews">
+                               <img src="{!! App::setFilePath('/assets/images/illustrations/others/edison_sanchez.png') !!}">
+                               <div class="stars">
+                                   <span class="name">
+                                       Edison Sanchez
+                                   </span>
+                                   <div class="containerImage">
+                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </section>
+                   <section class=" innerSectionElement sct3_0">
+                       <div class="containElements">
+                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_review_pc.png') !!}" loading="lazy">
+                       </div>
+                       <div class="containElements">
+                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/edwin_hernandez_review_pc.png') !!}" loading="lazy">
+                       </div>
+                       <div class="containElements">
+                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/edison_sanchez_review_pc.png') !!}" loading="lazy">
+                       </div>
+                   </section>
+                   <section class=" innerSectionElement sct3">
+                       <div class="containElements">
+                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_review.png') !!}" loading="lazy">
+                       </div>
+                       <div class="containElements">
+                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/edwin_hernandez_review.png') !!}" loading="lazy">
+                       </div>
+                       <div class="containElements">
+                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/edinso_sanchez_review.png') !!}" loading="lazy">
+                       </div>
+                   </section>
+               </div>
+           </section>
 
 
 
