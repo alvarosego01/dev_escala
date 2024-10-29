@@ -239,7 +239,6 @@
 
                        <div class="containElements container py-5">
                            <div class="row">
-
                                <div class="col-lg-4 col-md-6 mb-4">
                                    <div class="card h-100 text-center">
                                        <div class="card-header">
@@ -464,7 +463,7 @@
        </section>
 
 
-       <section class="customSection sectionParent implementacion-2023-3">
+       <section class="customSection sectionParent implementacion-2023-5">
 
            <div class="section-row">
 
@@ -516,9 +515,200 @@
                                    </div>
                                </div>
                            </div>
+                       </div>
+                   </div>
+               </section>
 
+           </div>
 
+       </section>
 
+       <section class="customSection sectionParent implementacion-2023-6">
+
+           <div class="section-row">
+
+               <section class="innerSectionElement sct1">
+                   <div class="card-header">
+                       <div class="row">
+                           <div class="justify-center">
+                               <img src="{!! App::setFilePath('/assets/images/illustrations/others/05-acompanamiento-2023.png') !!}" loading="lazy">
+                           </div>
+                       </div>
+                   </div>
+                   <div class="containElements">
+                       <span>Chat de soporte</span>
+                       <h2 class="title">
+                           En vivo y eficiente, atendemos a preguntas puntuales
+                       </h2>
+                       <p>Escríbenos por WhatsApp o Chat de plataforma en los siguientes horarios:</p>
+                   </div>
+
+               </section>
+               <section class="innerSectionElement sct2">
+                   <div class="containElements">
+                       <div class="row">
+                           <div class="col-md-12 col-lg-12 cardParent">
+                               <div class="card">
+                                   <div class="card-body">
+                                       <div class="row timeFlags">
+                                           <div class="col-md-12 title-block">
+                                               <p class="text-day">De Lunes a Viernes:</p>
+                                           </div>
+                                           <div class="col-6 col-lg-3">
+                                               <div class="container-flags">
+                                                   <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/07-acompanamiento-2023.png') !!}"
+                                                       loading="lazy">
+                                               </div>
+                                               <p class="text-time">6 am - 7 pm</p>
+                                           </div>
+                                           <div class="col-6 col-lg-3">
+                                               <div class="container-flags">
+                                                   <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
+                                                       loading="lazy">
+                                               </div>
+                                               <p class="text-time">7 am - 8 pm</p>
+                                           </div>
+                                           <div class="col-6 col-lg-3">
+                                               <div class="container-flags ">
+                                                   <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
+                                                       loading="lazy">
+                                               </div>
+                                               <p class="text-time">8 am - 9 pm</p>
+                                           </div>
+                                           <div class="col-6 col-lg-3">
+                                               <div class="container-flags">
+                                                   <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
+                                                       loading="lazy">
+                                               </div>
+                                               <p class="text-time">9 am - 10 pm</p>
+                                           </div>
+                                       </div>
+                                       <div class="row timeFlags">
+                                           <div class="col-md-12 title-block">
+                                               <p class="text-day">Sábados:</p>
+                                           </div>
+                                           <div class="col-6 col-lg-3">
+                                               <div class="container-flags">
+                                                   <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/07-acompanamiento-2023.png') !!}"
+                                                       loading="lazy">
+                                               </div>
+                                               <p class="text-time">8 am - 12 pm</p>
+                                           </div>
+                                           <div class="col-6 col-lg-3">
+                                               <div class="container-flags">
+                                                   <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
+                                                       loading="lazy">
+                                               </div>
+                                               <p class="text-time">9 am - 1 pm</p>
+                                           </div>
+                                           <div class="col-6 col-lg-3">
+                                               <div class="container-flags ">
+                                                   <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
+                                                       loading="lazy">
+                                               </div>
+                                               <p class="text-time">10 am - 2 pm</p>
+                                           </div>
+                                           <div class="col-6 col-lg-3">
+                                               <div class="container-flags">
+                                                   <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
+                                                       loading="lazy">
+                                               </div>
+                                               <p class="text-time">11 am - 3 pm</p>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </section>
+           </div>
+
+       </section>
+
+       <section class="customSection sectionParent implementacion-2023-7">
+           <div class="section-row">
+               <section class="innerSectionElement sct1">
+                   <div class="containElements">
+                       <h2 class="title">
+                           ¿Qué necesita una empresa para aprovechar este servicio?
+                       </h2>
+                       <p>Para que el cliente pueda implementar exitosamente el CRM con la guía del equipo de Escala,
+                           necesita contar con una o dos personas en su equipo que puedan cubrir dos funciones:</p>
+                   </div>
+
+               </section>
+
+               <section class="innerSectionElement sct3">
+                   <div class="containElements container py-5">
+                       <div class="row justify-content-center">
+                           <div class="col-lg-4 col-md-6 mb-4">
+                               <div class="card h-100 text-center">
+                                   <div class="card-header">
+                                       <h3><span>Función #1 del Cliente:</span><br class="space"> Estrategia</h3>
+                                   </div>
+                                   <div class="containElements">
+                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/implementacion_pagina_implementacion_estrategia.png') !!}"
+                                           loading="lazy">
+                                   </div>
+                                   <div class="card-body">
+                                       <span class="card-text">Líder con suficiente poder de decisión para:</span>
+
+                                       <ul>
+                                           <li><img src="{!! App::setFilePath('/assets/images/illustrations/others/check_circle.svg') !!}"
+                                                   loading="lazy">
+                                               Definir y ajustar estrategias de marketing/ventas 
+                                           </li>
+                                           <li><img src="{!! App::setFilePath('/assets/images/illustrations/others/check_circle.svg') !!}"
+                                                   loading="lazy">
+                                               Evaluar y aprobar ajustes a procesos
+                                           </li>
+                                           <li><img src="{!! App::setFilePath('/assets/images/illustrations/others/check_circle.svg') !!}"
+                                                   loading="lazy">
+                                               Dirigir al encargado de configurar Escala
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+
+                           <div class="col-lg-4 col-md-6 mb-4">
+                               <div class="card h-100 text-center">
+                                   <div class="card-header">
+                                       <h3><span>Función #2 del Cliente:</span><br class="space"> Configuración</h3>
+                                   </div>
+                                   <div class="containElements">
+                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/hombre-configuracion.png.png') !!}"
+                                           loading="lazy">
+                                   </div>
+                                   <div class="card-body">
+                                       <span class="card-text">Miembro operativo capaz de:</span>
+
+                                       <ul>
+                                           <li><img src="{!! App::setFilePath('/assets/images/illustrations/others/check_circle.svg') !!}"
+                                                   loading="lazy">
+                                               Conectar cuentas
+                                           </li>
+                                           <li><img src="{!! App::setFilePath('/assets/images/illustrations/others/check_circle.svg') !!}"
+                                                   loading="lazy">
+                                               Personalizar campos del CRM
+                                           </li>
+                                           <li><img src="{!! App::setFilePath('/assets/images/illustrations/others/check_circle.svg') !!}"
+                                                   loading="lazy">
+                                               Configurar procesos que deseen automatizar
+                                           </li>
+                                           <li><img src="{!! App::setFilePath('/assets/images/illustrations/others/check_circle.svg') !!}"
+                                                   loading="lazy">
+                                               Crear reportes
+                                           </li>
+                                           <li><img src="{!! App::setFilePath('/assets/images/illustrations/others/check_circle.svg') !!}"
+                                                   loading="lazy">
+                                               Editar páginas y plantillas de emails
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
 
                        </div>
                    </div>
@@ -529,6 +719,6 @@
        </section>
 
 
-
+       
    </div>
    </div>
