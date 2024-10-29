@@ -15,8 +15,8 @@
                                    <div class="containElements row threeCol">
 
                                        <div class="ele ele2 col-md-12 col-lg-7">
-                                           <span>Servicio</span>
-                                           <h1 class="principalBigTitle blackColor">
+                                           <span class="titleS">Servicio</span>
+                                           <h1 class="principalBigTitle">
                                                <span>
                                                    Acompañamiento personalizado de Escala<br class="space">
                                                    para la implementación autogestionada
@@ -214,7 +214,7 @@
 
            </section>
 
-           <section class="customSection sectionParent implementacion-2023-3 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/implementacion_fondo_seccion_1.svg') }}')">
+           <section class="customSection sectionParent implementacion-2023-3 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/implementacion_fondo_seccion_3.png') }}')">
 
                <div class="section-row">
 
@@ -331,7 +331,7 @@
                            </div>
                        </div>
 
-                       <p>
+                       <p class="text">
                            Entre cada sesión con nuestro equipo, nuestros clientes se capacitan con recursos <br class="DT_e">
                            de Escala Academy y realizan tareas según el plan acordado. También tienen a disposición <br class="DT_e">
                            el chat de soporte en vivo para atender preguntas puntuales.
@@ -475,25 +475,26 @@
                        <h2 class="title">
                            Recursos educativos para acelerar tu progreso
                        </h2>
-                       <p>Aprende a usar cada una de las herramientas con:</p>
+                       <p class="text">Aprende a usar cada una de las herramientas con:</p>
                    </div>
 
                </section>
 
-               <section class="innerSectionElement sct3">
+               <section class="innerSectionElement sct2">
 
                    <div class="containElements container py-5">
-                       <div class="row justify-content-center">
+                       <div class="row justify-content-center  gap-3">
                            <div class="col-lg-4 col-md-6 mb-4">
-                               <div class="card h-100 text-center">
+                               <div class="card  text-center">
 
                                    <div class="containElements">
                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/implementacion_capacitaciones_mensuales.png') !!}"
                                            loading="lazy">
                                    </div>
-                                   <div class="card-body">
+                                   <div class="cardBody">
+                                       <h3> 10+ horas mensuales</h3>
                                        <p class="card-text">
-                                           <span> 10+ horas mensuales</span> <br class="space">
+
                                            de capacitaciones en vivo por herramienta con un instructor Escala
                                        </p>
                                    </div>
@@ -501,17 +502,16 @@
                            </div>
 
                            <div class="col-lg-4 col-md-6 mb-4">
-                               <div class="card h-100 text-center">
-
+                               <div class="card  text-center">
                                    <div class="containElements">
                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/implementacion_pagina_cursos.png') !!}"
                                            loading="lazy">
                                    </div>
-                                   <div class="card-body">
-                                       <span class="card-text">
-                                           <span> 100+ horas</span> <br class="space">
+                                   <div class="cardBody">
+                                       <h3> 100+ horas</h3>
+                                       <p class="card-text">
                                            de cursos y tutoriales autoguiados por herramienta
-                                       </span>
+                                       </p>
                                    </div>
                                </div>
                            </div>
@@ -528,20 +528,17 @@
            <div class="section-row">
 
                <section class="innerSectionElement sct1">
-                   <div class="card-header">
-                       <div class="row">
-                           <div class="justify-center">
-                               <img src="{!! App::setFilePath('/assets/images/illustrations/others/05-acompanamiento-2023.png') !!}" loading="lazy">
-                           </div>
-                       </div>
-                   </div>
+
                    <div class="containElements">
-                       <span>Chat de soporte</span>
-                       <h2 class="title">
-                           En vivo y eficiente, atendemos a preguntas puntuales
-                       </h2>
-                       <p>Escríbenos por WhatsApp o Chat de plataforma en los siguientes horarios:</p>
+                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/hombre-call-center.png.png') !!}" loading="lazy">
                    </div>
+                   <span>Chat de soporte</span>
+                   <h2 class="title">
+
+                       En vivo y eficiente, atendemos a preguntas puntuales
+                   </h2>
+                   <p class="text">Escríbenos por WhatsApp o Chat de plataforma en los siguientes horarios:</p>
+
 
                </section>
                <section class="innerSectionElement sct2">
@@ -633,13 +630,14 @@
                        <h2 class="title">
                            ¿Qué necesita una empresa para aprovechar este servicio?
                        </h2>
-                       <p>Para que el cliente pueda implementar exitosamente el CRM con la guía del equipo de Escala,
-                           necesita contar con una o dos personas en su equipo que puedan cubrir dos funciones:</p>
+                       <p class="text">Para que el cliente pueda implementar exitosamente el CRM <br class="DT_e">
+                           con la guía del equipo de Escala, necesita contar con una o dos <br class="DT_e">
+                           personas en su equipo que puedan cubrir dos funciones:</p>
                    </div>
 
                </section>
 
-               <section class="innerSectionElement sct3">
+               <section class="innerSectionElement sct2">
                    <div class="containElements container py-5">
                        <div class="row justify-content-center">
                            <div class="col-lg-4 col-md-6 mb-4">
@@ -719,6 +717,106 @@
        </section>
 
 
-       
+       @php
+       $escalaUrl = 'https://escala.com';
+       $items = [
+       [
+       'type' => 'master',
+       'title' => '¿Cuánto dura el proceso de implementación autogestionada?',
+       'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas que te ayudará a acelerar el éxito de tu negocio, con todas las <br class="D_e"> herramientas en un solo lugar para crecer de una manera constante. Conoce todos los beneficios de Escala:<br class="space"><br class="space">
+       <ul style="list-style: disc; padding-left: 20px">
+           <li>
+               <p>Crea landing pages increíbles sin programar, para darte a conocer y capturar la información de tus visitantes.</p>
+           </li>
+           <li>
+               <p>Crea, administra y publica anuncios digitales de Instagram y Facebook, sin salir de Escala, para generar tráfico a tus páginas.</p>
+           </li>
+           <li>
+               <p>Gestiona tu base de datos y haz más productivo el trabajo de tu equipo de ventas con el CRM más fácil de usar.</p>
+           </li>
+           <li>
+               <p>Mantén la comunicación constante con tus leads y clientes enviando emails masivos sin caer en la bandeja de spam.</p>
+           </li>
+           <li>
+               <p>Automatiza tareas repetitivas: workflows y campañas de emails para hacer crecer tu negocio en piloto automático.</p>
+           </li>
+           <li>
+               <p>Mide y optimiza tus campañas digitales con las analíticas en tiempo real.</p>
+           </li>
+       </ul>',
+       ],
+       [
+       'type' => 'master',
+       'title' => '¿Cuánto cuesta el servicio de acompañamiento Escala para la implementación autogestionada?',
+       'text' => 'No. nuestra herramienta es muy intuitiva y fácil de usar. Para que estés más tranquilo, hemos preparado una serie de tutoriales muy <br class="D_e"> prácticos, que te ayudarán a despejar cualquier duda que tengas mientras vives la experiencia. También puedes contar con nuestro <br class="D_e"> acompañamiento, a través de asesorías, que te serán de gran ayuda en los primeros momentos de uso de la plataforma. <a class="hiperButtonGreenBlueT2" href="' . $escalaUrl . '/zoom-meeting">Atención al cliente.</a>',
+       ],
+       [
+       'type' => 'master',
+       'title' => '¿Cuánto tiempo debe dedicarle cada cliente para implementar Escala?',
+       'text' => 'Cuando adquieres cualquiera de los planes de Escala cuentas con: Todas las funcionalidades de marketing digital y ventas, servicio <br class="D_e"> ilimitado y entrenamiento para usar la plataforma.',
+
+       ],
+       [
+       'type' => 'master',
+       'title' => '¿Cuál es el horario de atención del equipo de soporte por chat de WhatsApp y Plataforma?',
+       'text' => 'Cuando adquieres cualquiera de los planes de Escala cuentas con: Todas las funcionalidades de marketing digital y ventas, servicio <br class="D_e"> ilimitado y entrenamiento para usar la plataforma.',
+
+       ],
+       ];
+
+       $parameters = [
+       'classSection' => 'implementacion-2023-8',
+       'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+       'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+       'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+       'items' => $items,
+       'title' => '
+       Preguntas frecuentes
+       ',
+       ];
+       @endphp
+       @contain_FAQ_T1($parameters)
+       @endcontain_FAQ_T1
+
+
+
+
+       <section class="customSection sectionParent implementacion-2023-9 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/implementacion_fondo_seccion_9.svg') }}')">
+
+           <div class="section-row">
+
+               <section class="innerSectionElement sct1">
+
+                   <div class="containElements">
+                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/escalanauta-volador.png.png') !!}"
+                           loading="lazy">
+                   </div>
+
+               </section>
+               <section class="innerSectionElement sct2">
+
+                   <div class="containElements">
+                       <h2 class="title">
+                           ¡Ningún otro CRM te acompaña mejor!
+                       </h2>
+                   </div>
+               </section>
+               <section class="innerSectionElement sct3">
+
+                   <div class="btnCenter">
+
+                       <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                           Conocer más
+                       </a>
+                   </div>
+               </section>
+
+           </div>
+
+       </section>
+
+
+
+
    </div>
    </div>
