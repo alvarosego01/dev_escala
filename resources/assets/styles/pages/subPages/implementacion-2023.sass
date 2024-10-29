@@ -1591,3 +1591,60 @@
             width: 100%!important
             max-width: 1350px!important
             padding: 25px 0
+
+
+#implementacion-2023 .customSection.sectionParent.implementacion-2023-8
+    padding-bottom: 75px!important
+    padding-top: 20px!important
+    @include responsivo(telefonoTable)
+        padding-bottom: 55px!important
+    @include responsivo(pcMedio)
+        padding-top: 0px
+
+    .section-row
+        @include responsivo(general)
+            width: 1100px!important
+        @include responsivo(smallPcTablet)
+            width: 900px!important
+        @include responsivo(resto)
+            width: 1100px!important
+        section.innerSectionElement.sct1
+            .containElements
+                h2.primaryTitle
+                    color: #2C4857
+                    text-align: center
+                    font-family: Nunito
+                    font-size: 40px
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 1
+                    letter-spacing: -2%
+                    margin-bottom: 45px
+                    @include responsivo(telefonoTable)
+                        font-size: 26px
+                    @include responsivo(pcMedio)
+                        font-size: 30px
+                    @include responsivo(general)
+                        font-size: 42.5px
+                    @include responsivo(resto)
+                        font-size: 45px
+
+        section.innerSectionElement.sct2
+            .containElements
+                div#accordionPanelsFAQ
+                    box-shadow: 0px 5.692px 28.462px 0px rgba(54, 118, 138, 0.10)
+                    border-radius: 40px
+                    background-color: white
+                    overflow: hidden
+                    padding: 25px 50px
+                    @include responsivo(telefonoTable)
+                        padding: 25px
+                        
+                    h3, button
+                        color: #36768A!important
+                        font-size: 20px!important
+                    .accordion-item.itemParent
+                        &:last-child
+                            border-bottom: 0
+
+                        // h3.accordion-header.parent
