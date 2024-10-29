@@ -1208,6 +1208,7 @@
                     margin-top: 30px!important
                     img
                         height: 60px
+                        border-radius: 50%
                 span.name
                     position: relative
                     z-index: 5
@@ -1249,9 +1250,6 @@
             @include responsivo(telefonoTable)
                 display: flex!important
                 flex-direction: column
-        .innerSectionElement.sct3_0
-            display: flex
-            gap: 20px
-            @include responsivo(telefonoTable)
-                display: none
-
+            @include responsivo(pcMedio)
+                display: flex!important
+                flex-direction: column

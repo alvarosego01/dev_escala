@@ -214,7 +214,7 @@
 
            </section>
 
-           <section class="customSection sectionParent implementacion-2023-3">
+           <section class="customSection sectionParent implementacion-2023-3 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/implementacion_fondo_seccion_1.svg') }}')">
 
                <div class="section-row">
 
@@ -359,128 +359,176 @@
                            </h2>
                        </div>
                    </section>
-                   <section class=" innerSectionElement sct2" style="display: none;">
-                       <div class="groupElements">
-                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
-                           <div>
-                               <h3 class="secondaryTitle">
-                                   La experiencia<br class="DT_e">
-                                   con Escala
-                               </h3>
-                               <p class="text">
-                                   <span>
-                                       La experiencia con Escala durante 1
-                                       año y medio de servicio es excelente.
-                                       Nuestra empresa a aumentando las
-                                       ventas en un 200%, ESCALA es muy
-                                       versátil ya que tenemos conectado
-                                       a whatsaap Api y podemos gestionar
-                                       todos nuestros leads en un mismo
-                                       lugar y llevar nuestro proceso
-                                       de venta muy organizado en los
-                                       embudos de ventas.
-                                   </span>
-                               </p>
-                           </div>
-                           <div class="cardReviews">
-                               <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_.png') !!}">
-                               <div class="stars">
-                                   <span class="name">
-                                       Miguel Urrego Serna
-                                   </span>
-                                   <div class="containerImage">
-                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
-                                   </div>
+                   <section class=" innerSectionElement sct2" ">
+                       <div class=" groupElements">
+                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
+                       <div>
+                           <h3 class="secondaryTitle">
+                               Escala se desmarca de
+                               sus competidores
+                           </h3>
+                           <p class="text">
+                               <span>
+                                   Escala se desmarca de sus competidores por el
+                                   acompañamiento que hace a los usuarios. Tienen
+                                   una metodología que permite sacar el mayor
+                                   provecho de la herramienta con la guía constante
+                                   de su servicio al cliente.
+                               </span>
+                           </p>
+                       </div>
+                       <div class="cardReviews">
+                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/SalesSapiens-reviews.png') !!}">
+                           <div class="stars">
+                               <span class="name">
+                                   SalesSapiens
+                               </span>
+                               <div class="containerImage">
+                                   <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
                                </div>
                            </div>
                        </div>
+               </div>
 
-                       <div class="groupElements">
-                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
-                           <div>
-                               <h3 class="secondaryTitle">
-                                   La herramienta<br class="DT_e">
-                                   correcta
-                               </h3>
-                               <p class="text">
-                                   <span>
-                                       Escala tiene los componentes que requiero
-                                       para automatizar mis procesos de venta,
-                                       marketing y servicio al cliente.
-                                       El soporte técnico es muy ágil y
-                                       asertivo en las soluciones.
-                                   </span>
-                               </p>
-                           </div>
-                           <div class="cardReviews">
-                               <img src="{!! App::setFilePath('/assets/images/illustrations/others/edwin_hernandez.png') !!}">
-                               <div class="stars">
-                                   <span class="name">
-                                       Edwin Hernandez
-                                   </span>
-                                   <div class="containerImage">
-                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
-                                   </div>
-                               </div>
+               <div class="groupElements">
+                   <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
+                   <div>
+                       <h3 class="secondaryTitle">
+                           La herramienta<br class="DT_e">
+                           correcta
+                       </h3>
+                       <p class="text">
+                           <span>
+                               Escala tiene los componentes que requiero
+                               para automatizar mis procesos de venta,
+                               marketing y servicio al cliente.
+                               El soporte técnico es muy ágil y
+                               asertivo en las soluciones.
+                           </span>
+                       </p>
+                   </div>
+                   <div class="cardReviews">
+                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/edwinhernandez-reviews.png') !!}">
+                       <div class="stars">
+                           <span class="name">
+                               Edwin Hernandez
+                           </span>
+                           <div class="containerImage">
+                               <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
                            </div>
                        </div>
-                       <div class="groupElements">
-                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
-                           <div>
-                               <h3 class="secondaryTitle">
-                                   Excelente<br class="DT_e">
-                                   plataforma
-                               </h3>
-                               <p class="text">
-                                   <span>
-                                       Excelente plataforma, nos ha servido
-                                       para aumentar las ventas, mejorar los
-                                       tiempos de atención, organizar oportunidades
-                                       y automatizar procesos repetitivos,
-                                       las recomiendo mucho.
-                                   </span>
-                               </p>
+                   </div>
+               </div>
+               <div class="groupElements">
+                   <img src="{!! App::setFilePath('/assets/images/illustrations/others/marco_white.png') !!}" alt="" class="backOverlay">
+                   <div>
+                       <h3 class="secondaryTitle">
+                           Excelente<br class="DT_e">
+                           servicio
+                       </h3>
+                       <p class="text">
+                           <span>
+                               La interfaz es intuitiva, facilitando la gestión de clientes y el seguimiento de las ventas.
+                               El equipo de soporte siempre responde de manera rápida y efectiva, brindando soluciones a cualquier problema.
+                               Además, la personalización de informes me ha permitido obtener insights
+                               valiosos para mejorar nuestras estrategias comerciales.
+                           </span>
+                       </p>
+                   </div>
+                   <div class="cardReviews">
+                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/katiasalinas-reviews.png') !!}">
+                       <div class="stars">
+                           <span class="name">
+                               Katia Salinas
+                           </span>
+                           <div class="containerImage">
+                               <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
                            </div>
-                           <div class="cardReviews">
-                               <img src="{!! App::setFilePath('/assets/images/illustrations/others/edison_sanchez.png') !!}">
-                               <div class="stars">
-                                   <span class="name">
-                                       Edison Sanchez
-                                   </span>
-                                   <div class="containerImage">
-                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}" loading="lazy">
-                                   </div>
-                               </div>
-                           </div>
                        </div>
-                   </section>
-                   <section class=" innerSectionElement sct3_0">
-                       <div class="containElements">
-                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_review_pc.png') !!}" loading="lazy">
-                       </div>
-                       <div class="containElements">
-                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/edwin_hernandez_review_pc.png') !!}" loading="lazy">
-                       </div>
-                       <div class="containElements">
-                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/edison_sanchez_review_pc.png') !!}" loading="lazy">
-                       </div>
-                   </section>
-                   <section class=" innerSectionElement sct3">
-                       <div class="containElements">
-                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/miguel_urrego_review.png') !!}" loading="lazy">
-                       </div>
-                       <div class="containElements">
-                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/edwin_hernandez_review.png') !!}" loading="lazy">
-                       </div>
-                       <div class="containElements">
-                           <img src="{!! App::setFilePath('/assets/images/illustrations/others/edinso_sanchez_review.png') !!}" loading="lazy">
-                       </div>
-                   </section>
+                   </div>
                </div>
            </section>
 
-
-
-
+           <section class=" innerSectionElement sct3">
+               <div class="containElements">
+                   <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_review_katia_salinas.png') !!}" loading="lazy">
+               </div>
+               <div class="containElements">
+                   <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_review_edwind_hernandez.png') !!}" loading="lazy">
+               </div>
+               <div class="containElements">
+                   <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_review_salessapiens.png') !!}" loading="lazy">
+               </div>
+           </section>
        </div>
+       </section>
+
+
+       <section class="customSection sectionParent implementacion-2023-3">
+
+           <div class="section-row">
+
+               <section class="innerSectionElement sct1">
+                   <div class="containElements">
+                       <span>
+                           Escala Academy
+                       </span>
+                       <h2 class="title">
+                           Recursos educativos para acelerar tu progreso
+                       </h2>
+                       <p>Aprende a usar cada una de las herramientas con:</p>
+                   </div>
+
+               </section>
+
+               <section class="innerSectionElement sct3">
+
+                   <div class="containElements container py-5">
+                       <div class="row justify-content-center">
+                           <div class="col-lg-4 col-md-6 mb-4">
+                               <div class="card h-100 text-center">
+
+                                   <div class="containElements">
+                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/implementacion_capacitaciones_mensuales.png') !!}"
+                                           loading="lazy">
+                                   </div>
+                                   <div class="card-body">
+                                       <p class="card-text">
+                                           <span> 10+ horas mensuales</span> <br class="space">
+                                           de capacitaciones en vivo por herramienta con un instructor Escala
+                                       </p>
+                                   </div>
+                               </div>
+                           </div>
+
+                           <div class="col-lg-4 col-md-6 mb-4">
+                               <div class="card h-100 text-center">
+
+                                   <div class="containElements">
+                                       <img src="{!! App::setFilePath('/assets/images/illustrations/others/implementacion_pagina_cursos.png') !!}"
+                                           loading="lazy">
+                                   </div>
+                                   <div class="card-body">
+                                       <span class="card-text">
+                                           <span> 100+ horas</span> <br class="space">
+                                           de cursos y tutoriales autoguiados por herramienta
+                                       </span>
+                                   </div>
+                               </div>
+                           </div>
+
+
+
+
+                       </div>
+                   </div>
+               </section>
+
+           </div>
+
+       </section>
+
+
+
+   </div>
    </div>
