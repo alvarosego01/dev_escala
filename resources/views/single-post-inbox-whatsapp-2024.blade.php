@@ -60,7 +60,7 @@
                                             <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
                                             <h5 class="titleFormat blackcolor">Recibe un demo
                                                 <br class="space">
-                                                en vivo
+                                               personalizado en vivo
                                             </h5>
                                             @php
                                             $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
