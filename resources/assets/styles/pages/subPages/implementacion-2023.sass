@@ -381,14 +381,14 @@
             padding-bottom: 0
         @include responsivo(pcMedio)
             width: 95%
-            padding: 35px 25px
+            padding: 0px
             padding-bottom: 0
 
         @include responsivo(general)
             width: 100%!important
             max-width: 1250px!important
-            padding: 35px 0
-            padding-bottom: 40px
+            padding: 0
+            
         @include responsivo(smallPcTablet)
             top: -15px
             max-width: 1140px!important
@@ -552,6 +552,7 @@
                             font-size: 25px
                         @include responsivo(smallPcTablet)
                             font-size: 22.5px
+                            padding: 0px 25px 0px 25px
 
                     .list-block
                         margin-bottom: 10px
@@ -693,17 +694,16 @@
     @include responsivo(general)
         padding: 70px 0!important
     @include responsivo(smallPcTablet)
-
+        padding: 35px 20px 4a0px 20px!important
     @include responsivo(resto)
         padding: 75px!important
 .backgroundFull
     background-size: auto
     background-repeat: no-repeat
     background-position: center
-    
-    @include responsivo(telefonoTable)
-        
-    @include responsivo(pcMedio)
+    @include responsivo(smallPcTablet)
+        background-size: cover
+
         
             
     .section-row
@@ -795,15 +795,16 @@
                         height: 100px
                 .card-body
                     border: none
+                    padding: 25px
                     span.card-text
-                    color: #706B6D
-                    text-align: center
-                    font-family: Nunito
-                    font-size: 22px
-                    font-style: normal
-                    font-weight: 500
-                    line-height: 1
-                    padding: 20px 30px 
+                        color: #706B6D
+                        text-align: center
+                        font-family: Nunito
+                        font-size: 22px
+                        font-style: normal
+                        font-weight: 500
+                        line-height: 1
+                        
             p.text
                 color: #797979
                 text-align: center
@@ -1004,14 +1005,14 @@
                 .cardBody
                     border: none
                     p.card-text
-                    color: #706B6D
-                    text-align: center
-                    font-family: Nunito
-                    font-size: 30px
-                    font-style: normal
-                    font-weight: 500
-                    line-height: 1
-                    padding: 20px 30px 
+                        color: #706B6D
+                        text-align: center
+                        font-family: Nunito
+                        font-size: 30px
+                        font-style: normal
+                        font-weight: 500
+                        line-height: 1
+                        padding: 20px 30px 
 
                     h3
                         color: #2C4857
@@ -1363,28 +1364,36 @@
                         height: 100px
                 .card-body
                     border: none
+                    padding: 0px 25px 25px 25px
                     span.card-text
-                    color: #706B6D
-                    text-align: center
-                    font-family: Nunito
-                    font-size: 22px
-                    font-style: normal
-                    font-weight: 500
-                    line-height: 1
-                    padding: 20px 30px 
-                    display: flex
-                    flex-direction: column
-                    gap:20px
+                        color: #706B6D
+                        text-align: center
+                        font-family: Nunito
+                        font-size: 22px
+                        font-style: normal
+                        font-weight: 500
+                        line-height: 1
+                        margin-top: 20px
+                        display: flex
+                        flex-direction: column
+                        gap:20px
 
                     ul
                         padding: 0px
                         margin: 0px
+
                         li
                             display: flex
                             gap: 10px
                             text-align: left
                             list-style: none
-                            margin: 5px 0px
+                            margin-top: 20px
+                            color: #706B6D
+                            font-family: Nunito
+                            font-size: 22px
+                            font-style: normal
+                            font-weight: 500
+                            line-height: 1
                             img
                                 height: 15px
 
