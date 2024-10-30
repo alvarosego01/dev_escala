@@ -109,29 +109,6 @@
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-<<<<<<< HEAD
-                                        <h5 class="titleFormat blackcolor">Recibe un demo-tour <br class="space">
-                                            personalizado de Escala</h5>
-
-                                        @php
-                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                        $_rs = [];
-                                        $_formShortcode = null;
-                                        if ($_data = get_posts($_args)) {
-                                        foreach ($_data as $_key) {
-                                        $_rs[$_key->ID] = $_key->post_title;
-                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                        }
-                                        }
-                                        } else {
-                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                        }
-                                        @endphp
-                                        {!! do_shortcode($_formShortcode) !!}
-
-
-=======
                                         <div class="form-container form-1" style="text-align:center;">
                                             <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
                                             <h5 class="titleFormat blackcolor">Recibe un demo
@@ -178,7 +155,6 @@
                                             @endphp
                                             {!! do_shortcode($_formShortcode) !!}
                                         </div>
->>>>>>> porsiacaso
                                     </div>
 
 
