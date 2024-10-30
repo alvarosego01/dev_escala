@@ -31,12 +31,14 @@
 .no-web span 
     background-color: #fff
     border: none !important
+.label_class
+    margin-top: 10px
 
 .herramienta-uso span 
     display: flex
     flex-direction: column
     align-items: flex-start
-    margin: 0px 0px -2px 0px !important
+    margin: 0px 0px -3px 0px !important
 
 .herramienta-uso .wpcf7-list-item input 
     background-color: #fff
@@ -61,6 +63,8 @@
     -webkit-appearance: none
     width: 20px
     height: 20px
+    min-height: 20px
+    min-width: 20px 
     background-color: transparent
     border-radius: 4px !important
     cursor: pointer
@@ -99,6 +103,10 @@ input[type="tel"]::placeholder
 input[type="submit"] 
     color: #fff !important
     cursor: pointer
+    margin: 20px auto !important
+    
+input[type="button"] 
+    margin: 20px auto !important
 
 .custom-select-color 
     color: #322C2E !important
@@ -734,7 +742,7 @@ form input[type="text"][disabled], form input[type="password"][disabled], form i
 
 .elementor-widget-void-section-cf7 p, .form_cf7 p, .formatForm p, .wpcf7 p
     flex-direction: column!important
-    margin-bottom: 10px!important
+    margin-bottom: 0px!important
     display: flex
 
 input.wpcf7-form-control.wpcf7-submit
