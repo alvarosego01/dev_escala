@@ -9,34 +9,125 @@
 
 <div id="bootstrap-escala-subpages-fidelizacion">
   <div class="sections">
-@php
-    $parameters = array(
-     'backgroundImageType' => false,
-     'overlay' => false,
-     'classSection' => 'threeCol escalaFidelizacionSection0',
-     'title' => '<span style="color: #B9E6E9">
-Fideliza a más <br class="space">
-clientes con Escala
-        </span>',
-     'text' => '<span class="whiteColor">
-Construye relaciones a largo plazo con tus clientes <br class="space">
-generando: upsells, recompras y recomendaciones <br class="space">
-para acelerar el crecimiento de tu negocio.
-      </span>
-      ',
-     'threeCol' => true,
-     'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
-     'backgroundImage' => null,
-  'overlayImage' => null,
-  'image' => App::setFilePath('/assets/images/illustrations/others/escala_tablet_fidelizacion.png'),
-    ) ;
-    @endphp
+    <section id="lead-form" class="component-header-t1 bg-color customSection sectionParent threeCol escalaFidelizacionSection0  ">
 
-    @header_t1( $parameters )
-    @endheader_t1
+      <div class="section-row">
 
-@php
-$parameters = [
+        <section class="innerSectionElement sct1">
+
+          <div class="groupElements row">
+
+            <div class="info
+                                                col-md-12 col-lg-8
+                                        ">
+
+              <div class="containElements row threeCol">
+
+                <div class="ele ele1 col-md-12 col-lg-6">
+
+                  <div class="containerImage">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/escala_tablet_fidelizacion.png') !!}" loading="lazy">
+
+                  </div>
+
+                </div>
+
+                <div class="ele ele2 col-md-12 col-lg-6">
+                  <h1 class="principalBigTitle blackColor">
+                    <span style="color: #B9E6E9">
+                      Fideliza a más <br class="space">
+                      clientes con Escala
+                    </span>
+                  </h1>
+
+                  <p class="principalBigText grayColorTexts">
+                    <span class="whiteColor">
+                      Construye relaciones a largo plazo con tus clientes <br class="space">
+                      generando: upsells, recompras y recomendaciones <br class="space">
+                      para acelerar el crecimiento de tu negocio.
+                    </span>
+
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="form7
+                                        col-md-12 col-lg-4
+                                    ">
+
+              <div class="containElements">
+
+                <div class="formatForm redirectWeb" redirectweb="true">
+
+                  <div class="form-container form-1" style="text-align:center;">
+                    <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
+                    <h5 class="titleFormat blackcolor">Recibe un demo
+                      <br class="space">
+                      personalizado en vivo
+                    </h5>
+                    @php
+                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                    $_rs = [];
+                    $_formShortcode = null;
+                    if ($_data = get_posts($_args)) {
+                    foreach ($_data as $_key) {
+                    $_rs[$_key->ID] = $_key->post_title;
+                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                    }
+                    }
+                    } else {
+                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                    }
+                    @endphp
+                    {!! do_shortcode($_formShortcode) !!}
+                  </div>
+
+                  <div class="form-container form-2" style="display:none; text-align:center;">
+                    <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
+                    <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
+                      <br class="space">tu demo
+                    </h5>
+                    @php
+                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                    $_rs = [];
+                    $_formShortcode = null;
+                    if ($_data = get_posts($_args)) {
+                    foreach ($_data as $_key) {
+                    $_rs[$_key->ID] = $_key->post_title;
+                    if ($_key->post_title === 'Demo flujo step 2') {
+                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                    }
+                    }
+                    } else {
+                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                    }
+                    @endphp
+                    {!! do_shortcode($_formShortcode) !!}
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+
+          </div>
+
+        </section>
+
+      </div>
+
+
+
+    </section>
+
+    @php
+    $parameters = [
     'type' => 'backgroundColor',
     'classSection' => 'escalaFidelizacionSection1',
     'enableTitle' => true,
@@ -53,57 +144,57 @@ $parameters = [
     // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
     // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
     'elements' => [
-        [
-            'img' => App::setFilePath('/assets/images/illustrations/others/escala_fidelizacion_01a.png'),
-            'title' => '<span class="grayColorTexts5">
-Generar  recompras <br class="space">
-y upsells
-                </span>',
-            'enableButton' => false,
-        ],
-        [
-            'img' => App::setFilePath('/assets/images/illustrations/others/escala_fidelizacion_01b.png'),
-            'title' => '<span class="grayColorTexts5">
-Evaluar tus productos <br class="space">
-o servicios
-                </span>',
-            'enableButton' => false,
-        ],
-        [
-            'img' => App::setFilePath('/assets/images/illustrations/others/escala_fidelizacion_01c.png'),
-            'title' => '<span class="grayColorTexts5">
-Conseguir <br class="space">
-referidos
-                </span>',
-            'enableButton' => false,
-        ],
-        [
-            'img' => App::setFilePath('/assets/images/illustrations/others/escala_fidelizacion_01d.png'),
-            'title' => '<span class="grayColorTexts5">
-Lanzar nuevas <br class="space">
-ofertas
-                </span>',
-            'enableButton' => false,
-        ],
-        [
-            'img' => App::setFilePath('/assets/images/illustrations/others/escala_marketing_1d.png'),
-            'title' => '<span class="grayColorTexts5">
-Mantener una relación <br class="space">
-a largo plazo con <br class="space">
-tus clientes
-                </span>',
-            'enableButton' => false,
-        ],
+    [
+    'img' => App::setFilePath('/assets/images/illustrations/others/escala_fidelizacion_01a.png'),
+    'title' => '<span class="grayColorTexts5">
+      Generar recompras <br class="space">
+      y upsells
+    </span>',
+    'enableButton' => false,
+    ],
+    [
+    'img' => App::setFilePath('/assets/images/illustrations/others/escala_fidelizacion_01b.png'),
+    'title' => '<span class="grayColorTexts5">
+      Evaluar tus productos <br class="space">
+      o servicios
+    </span>',
+    'enableButton' => false,
+    ],
+    [
+    'img' => App::setFilePath('/assets/images/illustrations/others/escala_fidelizacion_01c.png'),
+    'title' => '<span class="grayColorTexts5">
+      Conseguir <br class="space">
+      referidos
+    </span>',
+    'enableButton' => false,
+    ],
+    [
+    'img' => App::setFilePath('/assets/images/illustrations/others/escala_fidelizacion_01d.png'),
+    'title' => '<span class="grayColorTexts5">
+      Lanzar nuevas <br class="space">
+      ofertas
+    </span>',
+    'enableButton' => false,
+    ],
+    [
+    'img' => App::setFilePath('/assets/images/illustrations/others/escala_marketing_1d.png'),
+    'title' => '<span class="grayColorTexts5">
+      Mantener una relación <br class="space">
+      a largo plazo con <br class="space">
+      tus clientes
+    </span>',
+    'enableButton' => false,
+    ],
 
     ],
-];
-@endphp
+    ];
+    @endphp
 
-@contain_multiple_cards_T2( $parameters )
-@endcontain_multiple_cards_T2
+    @contain_multiple_cards_T2( $parameters )
+    @endcontain_multiple_cards_T2
 
-@php
-$parameters = [
+    @php
+    $parameters = [
     'type' => 'backgroundColor',
     'classSection' => 'escalaFidelizacionSection2',
     'enableTitle' => false,
@@ -111,209 +202,209 @@ $parameters = [
     'subTitlePrincipal' => null,
     'title' => '
     Con Escala tus clientes <br class="space">
-<span class="greenBlueColor">están en el centro de tu estrategia</span>
+    <span class="greenBlueColor">están en el centro de tu estrategia</span>
     ',
     'img' => App::setFilePath('/assets/images/illustrations/others/flywheel_marketing.png'),
     'text' => '
-Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="DT_e">
-y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrando:
-<br class="space"><br class="space">
-<ul>
-  <li>Generar demanda de tus productos y servicios a través de herramientas <br class="DT_e"> de marketing digital</li>
-  <li>Aumentar las ventas gestionando todo el proceso desde un solo lugar</li>
-  <li>Aumentar la retención de tus clientes creando relaciones a largo plazo</li>
-</ul>
-<br class="space">
-<p class="text"><strong>Impulsa el crecimiento de tu negocio con Escala.</strong></p>
+    Flywheel es la estrategia de crecimiento acelerado utilizada por Andrés Moreno <br class="DT_e">
+    y el grupo de expertos de Escala para acompañarte a alcanzar el éxito, logrando:
+    <br class="space"><br class="space">
+    <ul>
+      <li>Generar demanda de tus productos y servicios a través de herramientas <br class="DT_e"> de marketing digital</li>
+      <li>Aumentar las ventas gestionando todo el proceso desde un solo lugar</li>
+      <li>Aumentar la retención de tus clientes creando relaciones a largo plazo</li>
+    </ul>
+    <br class="space">
+    <p class="text"><strong>Impulsa el crecimiento de tu negocio con Escala.</strong></p>
     ',
     'enableButton' => false,
 
     // 'typeButton' => 'primaryButton',
     // 'textButton' => 'Hablar con un asesor',
     'side' => 'left',
-];
-@endphp
+    ];
+    @endphp
 
-@contain_text_image_T1( $parameters )
-@endcontain_text_image_T1
+    @contain_text_image_T1( $parameters )
+    @endcontain_text_image_T1
 
     <section class="customSection sectionParent escalaFidelizacionSection3">
 
-        <div class="section-row">
+      <div class="section-row">
 
-          <section class="innerSectionElement sct1">
+        <section class="innerSectionElement sct1">
 
-            <div class="containElements">
+          <div class="containElements">
 
-              <h2 class="primaryTitle blackColor D_e">
-                <span class="greenBlueColor">
-                  ¿Cuáles son las funcionalidades de Escala</span> <br class="DT_e">
-que te permiten fidelizar más clientes?
-              </h2>
-              <h2 class="primaryTitle blackColor MT_e">
-                <span class="greenBlueColor">
-                  ¿Cuáles son las funcionalidades </span> <br class="DT_e">
-                  de Escala que te permiten fidelizar más clientes?
-              </h2>
-              {{-- <p class="primaryText grayColorTexts">
+            <h2 class="primaryTitle blackColor D_e">
+              <span class="greenBlueColor">
+                ¿Cuáles son las funcionalidades de Escala</span> <br class="DT_e">
+              que te permiten fidelizar más clientes?
+            </h2>
+            <h2 class="primaryTitle blackColor MT_e">
+              <span class="greenBlueColor">
+                ¿Cuáles son las funcionalidades </span> <br class="DT_e">
+              de Escala que te permiten fidelizar más clientes?
+            </h2>
+            {{-- <p class="primaryText grayColorTexts">
                 Aumenta tus ventas y la productividad de tu equipo con el CRM más fácil de usar del mercado, <br class="DT_e">
                 el arma secreta de los negocios para escalar con éxito.
               </p> --}}
 
-            </div>
+          </div>
 
-          </section>
-          <section class="innerSectionElement sct2">
+        </section>
+        <section class="innerSectionElement sct2">
 
-            <div class="groupElements row">
+          <div class="groupElements row">
 
-              <div class="col-12 col-md-12 col-lg-6 infoGroup">
+            <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
-                <div class="containerImage">
-                  <img alt="Crea increíbles páginas sin programar" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3a.png') !!}" alt="" loading="lazy">
-                </div>
-
-                <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">
-Atrapa la atención de tus <br class="space">
-clientes con Landing pages
-                  </h3>
-                  <p class="primaryText  grayColorTexts">
-Crea y publica landing pages optimizadas en minutos <br class="DT_e">
-para lanzar nuevos productos y servicios personalizados <br class="DT_e">
-por tipo de clientes. Solo debes elegir la plantilla que más <br class="DT_e">
-se adapta a tu nuevo lanzamiento, personalizarla y con un <br class="DT_e">
-clic publicarla. Páginas que darán a conocer esa interesante <br class="DT_e">
-oferta que atrapará nuevamente la atención de tu cliente, <br class="DT_e">
-sin necesidad de programar o diseñar.
-                  </p>
-                </div>
-
+              <div class="containerImage">
+                <img alt="Crea increíbles páginas sin programar" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3a.png') !!}" alt="" loading="lazy">
               </div>
 
-              <div class="col-12 col-md-12 col-lg-6 infoGroup">
-
-                <div class="containerImage">
-                  <img alt="Organiza tus contactos y gestiona procesos de venta" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_marketing_2c.png') !!}" alt="" loading="lazy">
-                </div>
-
-                <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">
-Mantén enamorados a tus <br class="space">
-clientes con el CRM de Escala
-                  </h3>
-                  <p class="primaryText  grayColorTexts">
-Con el CR M de Escala puedes gestionar los contactos, las <br class="DT_e">
-oportunidades abiertas, los programas de recomendaciones y el <br class="DT_e">
-historial de acciones de tu equipo de ventas para lograr que ese <br class="DT_e">
-cliente haga upsells y recompras. Además con el CRM de Escala <br class="DT_e">
-puedes mantener comunicación constante conociendo sus <br class="DT_e">
-intereses a profundidad y segmentándolos con tus etiquetas <br class="DT_e">
-avanzadas para crear campañas personalizadas.
-                  </p>
-                </div>
-
+              <div class="containerElements">
+                <h3 class="secondaryTitle blackColor">
+                  Atrapa la atención de tus <br class="space">
+                  clientes con Landing pages
+                </h3>
+                <p class="primaryText  grayColorTexts">
+                  Crea y publica landing pages optimizadas en minutos <br class="DT_e">
+                  para lanzar nuevos productos y servicios personalizados <br class="DT_e">
+                  por tipo de clientes. Solo debes elegir la plantilla que más <br class="DT_e">
+                  se adapta a tu nuevo lanzamiento, personalizarla y con un <br class="DT_e">
+                  clic publicarla. Páginas que darán a conocer esa interesante <br class="DT_e">
+                  oferta que atrapará nuevamente la atención de tu cliente, <br class="DT_e">
+                  sin necesidad de programar o diseñar.
+                </p>
               </div>
 
             </div>
-            <div class="groupElements row">
-              <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
-                <div class="containerImage">
-                  <img alt="Envía emails de marketing profesionales" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_marketing_3a.png') !!}" alt="" loading="lazy">
-                </div>
+            <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
-                <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">
-No pierdas ningún dato <br class="space">
-con los Formularios integrados
-                  </h3>
-                  <p class="primaryText  grayColorTexts">
-Cada vez que tus clientes llenan los <br class="DT_e">
-formularios integrados, sus datos se guardan <br class="DT_e">
-automáticamente en el CRM de Escala, asociados a la <br class="DT_e">
-landing que despertó su interés. Así puedes tener un mejor <br class="DT_e">
-control del seguimiento hasta cerrar la nueva venta.
-                  </p>
-                </div>
-
+              <div class="containerImage">
+                <img alt="Organiza tus contactos y gestiona procesos de venta" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_marketing_2c.png') !!}" alt="" loading="lazy">
               </div>
 
-              <div class="col-12 col-md-12 col-lg-6 infoGroup">
-
-                <div class="containerImage">
-                  <img alt="Multiplica tus visitas web con anuncios digitales" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3d.png') !!}" alt="" loading="lazy">
-                </div>
-
-                <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">
-Comunícate constantemente <br class="space">
-con tu Email Marketing
-
-                  </h3>
-                  <p class="primaryText  grayColorTexts">
-Mantén la llama viva y comunicación constante, <br class="DT_e">
-enviándoles campañas de email marketing para: <br class="space">
-<ul>
-  <li class="primaryText grayColorTexts">Evaluar cómo se sienten con tus productos o <br class="DT_e"> servicios</li>
-  <li class="primaryText grayColorTexts">Informarles nuevos lanzamientos</li>
-  <li class="primaryText grayColorTexts">Crear conectividad emocional en fechas importantes <br class="DT_e"> para ellos</li>
-  <li class="primaryText grayColorTexts">Brindarles promociones customizadas</li>
-</ul>
-                  </p>
-                </div>
-
+              <div class="containerElements">
+                <h3 class="secondaryTitle blackColor">
+                  Mantén enamorados a tus <br class="space">
+                  clientes con el CRM de Escala
+                </h3>
+                <p class="primaryText  grayColorTexts">
+                  Con el CR M de Escala puedes gestionar los contactos, las <br class="DT_e">
+                  oportunidades abiertas, los programas de recomendaciones y el <br class="DT_e">
+                  historial de acciones de tu equipo de ventas para lograr que ese <br class="DT_e">
+                  cliente haga upsells y recompras. Además con el CRM de Escala <br class="DT_e">
+                  puedes mantener comunicación constante conociendo sus <br class="DT_e">
+                  intereses a profundidad y segmentándolos con tus etiquetas <br class="DT_e">
+                  avanzadas para crear campañas personalizadas.
+                </p>
               </div>
+
             </div>
 
-            <div class="groupElements row">
-              <div class="col-12 col-md-12 col-lg-6 infoGroup">
+          </div>
+          <div class="groupElements row">
+            <div class="col-12 col-md-12 col-lg-6 infoGroup">
 
-                <div class="containerImage">
-                  <img alt="Automatiza tareas y flujos de comunicación" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3c.png') !!}" alt="" loading="lazy">
-                </div>
-
-                <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">
-Automatiza para ahorrar tiempo
-                  </h3>
-
-                  <p class="primaryText  grayColorTexts">
-Para estar en contacto de forma permanente, programa flujos <br class="DT_e">
-automatizados de emails y tareas para tu fuerza de ventas. <br class="DT_e">
-Ahorra tiempo en tareas repetitivas y llega a tus clientes <br class="DT_e">
-en el momento correcto con la oferta correcta.
-                  </p>
-                </div>
-
+              <div class="containerImage">
+                <img alt="Envía emails de marketing profesionales" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_marketing_3a.png') !!}" alt="" loading="lazy">
               </div>
 
-
-              <div class="col-12 col-md-12 col-lg-6 infoGroup">
-
-                <div class="containerImage">
-                  <img alt="Obtén métricas de marketing y ventas en tiempo real" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_marketing_2f.png') !!}" alt="" loading="lazy">
-                </div>
-
-                <div class="containerElements">
-                  <h3 class="secondaryTitle blackColor">
-Optimiza con analíticas revelantes
-                  </h3>
-                  <p class="primaryText  grayColorTexts">
-Ten en tiempo real todas las métricas necesarias para <br class="DT_e">
-mejorar tus resultados en marketing digital y ventas.<br class="space">
-Cuenta con dashboards amigables para seguir <br class="DT_e">
-enamorando a tus clientes.
-                  </p>
-                </div>
-
+              <div class="containerElements">
+                <h3 class="secondaryTitle blackColor">
+                  No pierdas ningún dato <br class="space">
+                  con los Formularios integrados
+                </h3>
+                <p class="primaryText  grayColorTexts">
+                  Cada vez que tus clientes llenan los <br class="DT_e">
+                  formularios integrados, sus datos se guardan <br class="DT_e">
+                  automáticamente en el CRM de Escala, asociados a la <br class="DT_e">
+                  landing que despertó su interés. Así puedes tener un mejor <br class="DT_e">
+                  control del seguimiento hasta cerrar la nueva venta.
+                </p>
               </div>
 
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-6 infoGroup">
+
+              <div class="containerImage">
+                <img alt="Multiplica tus visitas web con anuncios digitales" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3d.png') !!}" alt="" loading="lazy">
+              </div>
+
+              <div class="containerElements">
+                <h3 class="secondaryTitle blackColor">
+                  Comunícate constantemente <br class="space">
+                  con tu Email Marketing
+
+                </h3>
+                <p class="primaryText  grayColorTexts">
+                  Mantén la llama viva y comunicación constante, <br class="DT_e">
+                  enviándoles campañas de email marketing para: <br class="space">
+                <ul>
+                  <li class="primaryText grayColorTexts">Evaluar cómo se sienten con tus productos o <br class="DT_e"> servicios</li>
+                  <li class="primaryText grayColorTexts">Informarles nuevos lanzamientos</li>
+                  <li class="primaryText grayColorTexts">Crear conectividad emocional en fechas importantes <br class="DT_e"> para ellos</li>
+                  <li class="primaryText grayColorTexts">Brindarles promociones customizadas</li>
+                </ul>
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="groupElements row">
+            <div class="col-12 col-md-12 col-lg-6 infoGroup">
+
+              <div class="containerImage">
+                <img alt="Automatiza tareas y flujos de comunicación" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_ventas_icono_3c.png') !!}" alt="" loading="lazy">
+              </div>
+
+              <div class="containerElements">
+                <h3 class="secondaryTitle blackColor">
+                  Automatiza para ahorrar tiempo
+                </h3>
+
+                <p class="primaryText  grayColorTexts">
+                  Para estar en contacto de forma permanente, programa flujos <br class="DT_e">
+                  automatizados de emails y tareas para tu fuerza de ventas. <br class="DT_e">
+                  Ahorra tiempo en tareas repetitivas y llega a tus clientes <br class="DT_e">
+                  en el momento correcto con la oferta correcta.
+                </p>
+              </div>
 
             </div>
 
 
-          </section>
+            <div class="col-12 col-md-12 col-lg-6 infoGroup">
+
+              <div class="containerImage">
+                <img alt="Obtén métricas de marketing y ventas en tiempo real" src="{!! App::setFilePath('/assets/images/illustrations/others/escala_marketing_2f.png') !!}" alt="" loading="lazy">
+              </div>
+
+              <div class="containerElements">
+                <h3 class="secondaryTitle blackColor">
+                  Optimiza con analíticas revelantes
+                </h3>
+                <p class="primaryText  grayColorTexts">
+                  Ten en tiempo real todas las métricas necesarias para <br class="DT_e">
+                  mejorar tus resultados en marketing digital y ventas.<br class="space">
+                  Cuenta con dashboards amigables para seguir <br class="DT_e">
+                  enamorando a tus clientes.
+                </p>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+        </section>
 
 
         <section class="innerSectionElement sct3">
@@ -327,11 +418,11 @@ enamorando a tus clientes.
           </div>
         </section>
 
-        </div>
+      </div>
 
     </section>
 
-{{--
+    {{--
     @php
     $parameters = [
         'type' => 'backgroundColor',
@@ -458,29 +549,115 @@ compras en un 150% con Escala”
     </section> --}}
 
 
-  @php
-  $parameters = [
-      'classSection' => 'escalaFidelizacionSection6',
-      'title' => '
-Además de fidelizar a tus clientes,<br class="space">
-también podrás generar más leads y <br class="space">
-consolidar más ventas.
-      ',
-      'textForm' => 'Recibe un tour guiado <br class="space"> de Escala',
-      'text' => null,
-      'image' => App::setFilePath('/assets/images/illustrations/others/escala_fidelizacion_leads_contactos_banner.png'),
-  ];
-@endphp
-@bannerForms7_T1( $parameters )
+    <section id="lead-form-bottom" class="component-bannerForms7-t1 bg-color customSection sectionParent escalaFidelizacionSection6 ">
 
-@endbannerForms7_T1
+      <div class="section-row">
+
+        <section class="innerSectionElement sct1">
+
+          <div class="groupElements row">
 
 
 
+            <div class="form7 col-md-12 col-lg-6">
+              <div class="containElements">
+
+                <div class="formatForm redirectWeb" redirectweb="true">
+
+                  <div class="form-container form-1" style="text-align:center;">
+                    <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
+                    <h5 class="titleFormat blackcolor">Recibe un demo
+                      <br class="space">
+                      personalizado en vivo
+                    </h5>
+                    @php
+                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                    $_rs = [];
+                    $_formShortcode = null;
+                    if ($_data = get_posts($_args)) {
+                    foreach ($_data as $_key) {
+                    $_rs[$_key->ID] = $_key->post_title;
+                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                    }
+                    }
+                    } else {
+                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                    }
+                    @endphp
+                    {!! do_shortcode($_formShortcode) !!}
+                  </div>
+
+                  <div class="form-container form-2" style="display:none; text-align:center;">
+                    <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
+                    <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
+                      <br class="space">tu demo
+                    </h5>
+                    @php
+                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                    $_rs = [];
+                    $_formShortcode = null;
+                    if ($_data = get_posts($_args)) {
+                    foreach ($_data as $_key) {
+                    $_rs[$_key->ID] = $_key->post_title;
+                    if ($_key->post_title === 'Demo flujo step 2') {
+                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                    }
+                    }
+                    } else {
+                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                    }
+                    @endphp
+                    {!! do_shortcode($_formShortcode) !!}
+                  </div>
+                </div>
+
+              </div>
+            </div>
 
 
 
-</div>
+            <div class="info col-md-12 col-lg-6">
+
+              <div class="containElements">
+
+
+                <h2 class="principalBigTitle blackColor">
+
+                  Además de fidelizar a tus clientes,<br class="space">
+                  también podrás generar más leads y <br class="space">
+                  consolidar más ventas.
+
+                </h2>
+
+
+
+                <div class="containerImage">
+                  <img src="{!! App::setFilePath('/assets/images/illustrations/others/escala_fidelizacion_leads_contactos_banner.png') !!}" alt="" loading="lazy">
+                </div>
+
+
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+        </section>
+
+      </div>
+
+    </section>
+
+
+
+
+
+
+  </div>
 
 </div>
 

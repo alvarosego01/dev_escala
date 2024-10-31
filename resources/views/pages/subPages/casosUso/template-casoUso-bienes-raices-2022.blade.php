@@ -1,136 +1,177 @@
 <div id="subPage_casoUso_bienes_raices">
     <div class="sections">
 
-
-        {{-- <section class="component-info-text-image-T1 customSection sectionParent subPage_casoUso_bienes_raices_0 ">
-
+        <section id="lead-form" class="component-header-t1 bg-color customSection sectionParent threeCol subPage_casoUso_bienes_raices_0  ">
 
             <div class="section-row">
 
-                <section class="innerSectionElement sct2 right">
+                <section class="innerSectionElement sct1">
 
                     <div class="groupElements row">
 
+                        <div class="info
+                                                col-md-12 col-lg-8
+                                        ">
 
-                        <div class="info col-md-12 col-lg-6">
+                            <div class="containElements row threeCol">
 
-                            <h1 class="primaryTitle">
-                                Potencia las ventas de tus <br class="space">
-                                <span class="greenBlueColor">proyectos inmobiliarios</span>
-                            </h1>
+                                <div class="ele ele1 col-md-12 col-lg-6">
 
-                            <p class="text">
-                                Enfócate en los prospectos calificados con el CRM más fácil <br class="DT_e">
-                                de usar que mantiene tu gestión comercial automatizada
-                            </p>
+                                    <div class="containerImage">
+                                        <img alt="Escala caso de uso marketing" src="{!! App::setFilePath('/assets/images/person/portrait_bienes_raices.png') !!}" loading="lazy">
+                                    </div>
+
+                                </div>
+
+                                <div class="ele ele2 col-md-12 col-lg-6">
+                                    <h1 class="principalBigTitle blackColor">
+
+                                        <small>
+                                            Caso de Uso: <span class="orangeColor">Bienes Raíces</span>
+                                        </small> <br class="space">
+                                        Potencia las ventas de tus <br class="space">
+                                        <span class="greenBlueColor">proyectos inmobiliarios</span>
+
+                                    </h1>
+
+                                    <p class="principalBigText grayColorTexts">
+
+                                        Enfócate en los prospectos calificados con el CRM más fácil <br class="DT_e">
+                                        de usar que mantiene tu gestión comercial automatizada
+
+                                    </p>
+
+                                </div>
+
+                            </div>
 
                         </div>
 
-                        <div class="image col-md-12 col-lg-6">
-                            <div class="containerImage">
+                        <div class="form7
+                                        col-md-12 col-lg-4
+                                    ">
+                            <div class="containElements">
 
-                                <img src="{!! App::setFilePath('/assets/images/person/portrait_bienes_raices.png') !!}" loading="lazy">
+                                <div class="formatForm redirectWeb" redirectweb="true">
+
+                                    <div class="form-container form-1" style="text-align:center;">
+                                        <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
+                                        <h5 class="titleFormat blackcolor">Recibe un demo
+                                            <br class="space">
+                                            personalizado en vivo
+                                        </h5>
+                                        @php
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                        }
+                                        @endphp
+                                        {!! do_shortcode($_formShortcode) !!}
+                                    </div>
+
+                                    <div class="form-container form-2" style="display:none; text-align:center;">
+                                        <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
+                                        <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
+                                            <br class="space">tu demo
+                                        </h5>
+                                        @php
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Demo flujo step 2') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                        }
+                                        @endphp
+                                        {!! do_shortcode($_formShortcode) !!}
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
 
-                    </div>
 
+
+                    </div>
 
                 </section>
 
-
-
             </div>
 
-        </section> --}}
+
+
+        </section>
 
 
         @php
-        $parameters = array(
-         'backgroundImageType' => false,
-         'overlay' => false,
-         'classSection' => 'threeCol subPage_casoUso_bienes_raices_0',
-         'title' => '
-            <small>
-                Caso de Uso: <span class="orangeColor">Bienes Raíces</span>
-            </small> <br class="space">
-            Potencia las ventas de tus <br class="space">
-            <span class="greenBlueColor">proyectos inmobiliarios</span>
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_casoUso_bienes_raices_2',
+        'enableTitle' => true,
+        'titlePrincipal' => '
+        La plataforma para optimizar los resultados <br class="DT_e">
+        comerciales <span class="greenBlueColor">del sector inmobiliario</span>
         ',
-         'text' => '
-            Enfócate en los prospectos calificados con el CRM más fácil <br class="DT_e">
-            de usar que mantiene tu gestión comercial automatizada
-          ',
-         'threeCol' => true,
-         'textForm' => '
-            Recibe un tour guiado <br class="space"> de Escala
-         ',
-         'backgroundImage' => null,
-      'overlayImage' => null,
-      'image' => App::setFilePath('/assets/images/person/portrait_bienes_raices.png'),
-      'img_alt' => 'Escala caso de uso marketing'
-      ) ;
-      @endphp
+        'subTitlePrincipal' => null,
+        'overlay' => false,
+        'enableButton' => false,
+        'elements' => [
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_1.png'),
+        'title' => '
+        Lotes
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_2.png'),
+        'title' => '
+        Proyectos de <br class="space">
+        construcción
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_3.png'),
+        'title' => '
+        Alquiler y venta <br class="space">
+        de inmuebles
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_4.png'),
+        'title' => '
+        Asesoría <br class="space">
+        inmobiliaria
+        ',
+        'enableButton' => false,
+        ],
+        ],
+        ];
+        @endphp
 
-      @header_t1( $parameters )
-      @endheader_t1
-
-
-      @php
-      $parameters = [
-          'type' => 'backgroundColor',
-          'classSection' => 'subPage_casoUso_bienes_raices_2',
-          'enableTitle' => true,
-          'titlePrincipal' => '
-              La plataforma para optimizar los resultados <br class="DT_e">
-              comerciales <span class="greenBlueColor">del sector inmobiliario</span>
-          ',
-          'subTitlePrincipal' => null,
-          'overlay' => false,
-          'enableButton' => false,
-          'elements' => [
-              [
-                  'img_alt' => null,
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_1.png'),
-                  'title' => '
-                      Lotes
-                  ',
-                  'enableButton' => false,
-              ],
-              [
-                  'img_alt' => null,
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_2.png'),
-                  'title' => '
-                      Proyectos de <br class="space">
-                      construcción
-                  ',
-                  'enableButton' => false,
-              ],
-              [
-                  'img_alt' => null,
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_3.png'),
-                  'title' => '
-                      Alquiler y venta <br class="space">
-                      de inmuebles
-                  ',
-                  'enableButton' => false,
-              ],
-              [
-                  'img_alt' => null,
-                  'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_4.png'),
-                  'title' => '
-                      Asesoría <br class="space">
-                      inmobiliaria
-                  ',
-                  'enableButton' => false,
-              ],
-          ],
-      ];
-  @endphp
-
-  @contain_multiple_cards_T2($parameters)
-  @endcontain_multiple_cards_T2
+        @contain_multiple_cards_T2($parameters)
+        @endcontain_multiple_cards_T2
 
 
         <section class="customSection sectionParent subPage_casoUso_bienes_raices_3">
@@ -194,101 +235,101 @@
 
 
         @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_bienes_raices_1',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-                    Acelera el crecimiento <span class="greenBlueColor">de tu inmobiliaria</span>
-                ',
-                'subTitlePrincipal' => null,
-                'overlay' => false,
-                'enableButton' => false,
-                'urlButton' => '#',
-                'textButton' => '¡Recibe un demo!',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
-                'elements' => [
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_1.png'),
-                        'title' => '
-                            Captura mejores <br class="space">
-                            prospectos
-                        ',
-                        'text' => '
-                            Califica a tus potenciales clientes con <br class="DT_e">
-                            formularios específicos para cada <br class="DT_e">
-                            proyecto inmobiliario.
-                        ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_0_1.png'),
-                        'title' => '
-                            Aumenta tus <br class="space">
-                            oportunidades de venta
-                        ',
-                        'text' => '
-                            Concreta un mayor número de <br class="DT_e">
-                            visitas a tus proyectos mediante <br class="DT_e">
-                            una gestión comercial oportuna.
-                        ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_3.png'),
-                        'title' => '
-                            Nutre la relación con <br class="space">
-                            tus clientes
-                        ',
-                        'text' => '
-                            Ten una comunicación efectiva con <br class="DT_e">
-                            tus clientes e informa sobre los <br class="DT_e">
-                            avances del proyecto que adquirieron.
-                        ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_asesoria_0_6.png'),
-                        'title' => '
-                            Cumple tus metas <br class="space">
-                            comerciales
-                            ',
-                        'text' => '
-                            Incentiva la productividad de tu equipo <br class="DT_e">
-                            de agentes con una herramienta que <br class="DT_e">
-                            facilita el seguimiento comercial.
-                        ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_0_2.png'),
-                        'title' => '
-                            Rescata el interés de <br class="space">
-                            antiguos prospectos
-                        ',
-                        'text' => '
-                            Mantente en contacto con los <br class="DT_e">
-                            compradores y arrendatarios que no <br class="DT_e">
-                            cerraron y ofrece otras alternativas de <br class="DT_e">
-                            tu portafolio inmobiliario.
-                        ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_4.png'),
-                        'title' => '
-                            Reduce costos
-                        ',
-                        'text' => '
-                            Integra en una misma <br class="DT_e">
-                            plataforma los procesos de <br class="DT_e">
-                            marketing y ventas.
-                        ',
-                        'enableButton' => false,
-                    ],
-                ],
-            ];
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_casoUso_bienes_raices_1',
+        'enableTitle' => true,
+        'titlePrincipal' => '
+        Acelera el crecimiento <span class="greenBlueColor">de tu inmobiliaria</span>
+        ',
+        'subTitlePrincipal' => null,
+        'overlay' => false,
+        'enableButton' => false,
+        'urlButton' => '#',
+        'textButton' => '¡Recibe un demo!',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
+        'elements' => [
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_1.png'),
+        'title' => '
+        Captura mejores <br class="space">
+        prospectos
+        ',
+        'text' => '
+        Califica a tus potenciales clientes con <br class="DT_e">
+        formularios específicos para cada <br class="DT_e">
+        proyecto inmobiliario.
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_0_1.png'),
+        'title' => '
+        Aumenta tus <br class="space">
+        oportunidades de venta
+        ',
+        'text' => '
+        Concreta un mayor número de <br class="DT_e">
+        visitas a tus proyectos mediante <br class="DT_e">
+        una gestión comercial oportuna.
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_3.png'),
+        'title' => '
+        Nutre la relación con <br class="space">
+        tus clientes
+        ',
+        'text' => '
+        Ten una comunicación efectiva con <br class="DT_e">
+        tus clientes e informa sobre los <br class="DT_e">
+        avances del proyecto que adquirieron.
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_asesoria_0_6.png'),
+        'title' => '
+        Cumple tus metas <br class="space">
+        comerciales
+        ',
+        'text' => '
+        Incentiva la productividad de tu equipo <br class="DT_e">
+        de agentes con una herramienta que <br class="DT_e">
+        facilita el seguimiento comercial.
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_c_braices_0_2.png'),
+        'title' => '
+        Rescata el interés de <br class="space">
+        antiguos prospectos
+        ',
+        'text' => '
+        Mantente en contacto con los <br class="DT_e">
+        compradores y arrendatarios que no <br class="DT_e">
+        cerraron y ofrece otras alternativas de <br class="DT_e">
+        tu portafolio inmobiliario.
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/icon_ce_0_4.png'),
+        'title' => '
+        Reduce costos
+        ',
+        'text' => '
+        Integra en una misma <br class="DT_e">
+        plataforma los procesos de <br class="DT_e">
+        marketing y ventas.
+        ',
+        'enableButton' => false,
+        ],
+        ],
+        ];
         @endphp
 
         @contain_multiple_cards_T2($parameters)
@@ -346,97 +387,107 @@
 
 
         @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_bienes_raices_4',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-                    Alcanza el éxito <span class="greenBlueColor">con las herramientas de Escala</span>
-                ',
-                'subTitlePrincipal' => null,
-                'overlay' => false,
-                'enableButton' => false,
-                'urlButton' => '#',
-                'textButton' => '¡Recibe un demo!',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
-                'elements' => [
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/otto/otto_worry.png'),
-                        'title' => 'Antes de Escala',
-                        'text' => '
-            Desafíos que impedían el crecimiento <br class="space">
-            de nuestros clientes
-            <ul class="text">
-                <li>
-                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Poca información para priorizar a los prospectos <br class="DT_e">
-                mejor calificados para cada propiedad. </li>
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_casoUso_bienes_raices_4',
+        'enableTitle' => true,
+        'titlePrincipal' => '
+        Alcanza el éxito <span class="greenBlueColor">con las herramientas de Escala</span>
+        ',
+        'subTitlePrincipal' => null,
+        'overlay' => false,
+        'enableButton' => false,
+        'urlButton' => '#',
+        'textButton' => '¡Recibe un demo!',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
+        'elements' => [
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/otto/otto_worry.png'),
+        'title' => 'Antes de Escala',
+        'text' => '
+        Desafíos que impedían el crecimiento <br class="space">
+        de nuestros clientes
+        <ul class="text">
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                Poca información para priorizar a los prospectos <br class="DT_e">
+                mejor calificados para cada propiedad.
+            </li>
 
-                <li>
-                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Proceso desorganizado de conversión de leads que <br class="DT_e">
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                Proceso desorganizado de conversión de leads que <br class="DT_e">
                 impide el cierre de ventas y la proyección <br class="DT_e">
-                de resultados. </li>
+                de resultados.
+            </li>
 
-                <li>
-                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Almacenamiento ineficiente de los documentos clave <br class="DT_e">
-                de cada comprador, vendedor o propiedad. </li>
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                Almacenamiento ineficiente de los documentos clave <br class="DT_e">
+                de cada comprador, vendedor o propiedad.
+            </li>
 
-                <li>
-                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Poca interacción con clientes que impide ofrecer <br class="DT_e">
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                Poca interacción con clientes que impide ofrecer <br class="DT_e">
                 nuevas promociones, crear una comunidad e <br class="DT_e">
-                implementar nuevas estrategias de venta </li>
+                implementar nuevas estrategias de venta
+            </li>
 
-                <li>
-                    <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
-                    Fallas en la difusión de promociones e información <br class="DT_e">
-                atractiva para cerrar ventas y fidelizar a la comunidad </li>
-              </ul>
-            ',
-                        'enableButton' => false,
-                    ],
-                    [
-                        'img' => App::setFilePath('/assets/images/illustrations/others/embudo-2 3.png'),
-                        'title' => '
-            Con Escala
-            ',
-                        'text' => '
-            Crecimiento continuo con <br class="space">
-            nuestras herramientas
+            <li>
+                <img src="'. App::setFilePath('/assets/images/illustrations/others/check_negative.png') .'" class="checkCase">
+                Fallas en la difusión de promociones e información <br class="DT_e">
+                atractiva para cerrar ventas y fidelizar a la comunidad
+            </li>
+        </ul>
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img' => App::setFilePath('/assets/images/illustrations/others/embudo-2 3.png'),
+        'title' => '
+        Con Escala
+        ',
+        'text' => '
+        Crecimiento continuo con <br class="space">
+        nuestras herramientas
 
-            <ul class="text">
+        <ul class="text">
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
                 Evalúa tus prospectos con formularios que te permitan <br class="DT_e">
-            identificar las características del comprador ideal para <br class="DT_e">
-            cada proyecto.</li>
+                identificar las características del comprador ideal para <br class="DT_e">
+                cada proyecto.
+            </li>
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
                 Organiza un embudo de ventas en el CRM para <br class="DT_e">
-            brindar una mejor experiencia a los prospectos y ten <br class="DT_e">
-            claridad sobre el avance de tus procesos comerciales.</li>
+                brindar una mejor experiencia a los prospectos y ten <br class="DT_e">
+                claridad sobre el avance de tus procesos comerciales.
+            </li>
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
                 Archiva la información y documentos importantes de <br class="DT_e">
-            cada cliente y accede a ellos con facilidad en el CRM.</li>
+                cada cliente y accede a ellos con facilidad en el CRM.
+            </li>
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
                 Mantén una comunicación efectiva con campañas de <br class="DT_e">
-            email marketing y comparte incentivos con tus clientes <br class="DT_e">
-            para sumar nuevos prospectos.</li>
+                email marketing y comparte incentivos con tus clientes <br class="DT_e">
+                para sumar nuevos prospectos.
+            </li>
             <li>
                 <img src="'. App::setFilePath('/assets/images/illustrations/others/check_positive.png') .'" class="checkCase">
                 Uso de Email Marketing y Automatizaciones para <br class="DT_e">
-            promocionar programas atractivos a la comunidad</li>
-              </ul>
-            ',
-                        'enableButton' => false,
-                    ],
-                ],
-            ];
+                promocionar programas atractivos a la comunidad
+            </li>
+        </ul>
+        ',
+        'enableButton' => false,
+        ],
+        ],
+        ];
         @endphp
 
         @contain_multiple_cards_T2($parameters)
@@ -444,187 +495,187 @@
 
 
         @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_bienes_raices_5',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-                   Optimiza tus resultados <span class="greenBlueColor">de marketing y ventas</span>
-                ',
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/1. Landing-bienes-raices.gif'),
-                'title' => null,
-                'text' => '
-                    <span>
-                        "Debo contratar un desarrollador web cada vez que <br class="DT_e">
-                        necesito dar a conocer mis proyectos de inmuebles"
-                    </span>
-                    <br class="space"><br class="space">
-                    Crea <strong>landing pages</strong> rápidamente con plantillas <br class="DT_e">
-                    prediseñadas de acuerdo a tu necesidad, sin invertir <br class="DT_e">
-                    recursos en programación.
-                ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'left',
-            ];
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_casoUso_bienes_raices_5',
+        'enableTitle' => true,
+        'titlePrincipal' => '
+        Optimiza tus resultados <span class="greenBlueColor">de marketing y ventas</span>
+        ',
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/gifs/1. Landing-bienes-raices.gif'),
+        'title' => null,
+        'text' => '
+        <span>
+            "Debo contratar un desarrollador web cada vez que <br class="DT_e">
+            necesito dar a conocer mis proyectos de inmuebles"
+        </span>
+        <br class="space"><br class="space">
+        Crea <strong>landing pages</strong> rápidamente con plantillas <br class="DT_e">
+        prediseñadas de acuerdo a tu necesidad, sin invertir <br class="DT_e">
+        recursos en programación.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ];
         @endphp
 
         @contain_text_image_T1($parameters)
         @endcontain_text_image_T1
 
         @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_bienes_raices_6',
-                'enableTitle' => false,
-                'titlePrincipal' => null,
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/2-Segmentos-bienes-raices.gif'),
-                'title' => null,
-                'text' => '
-                    <span>
-                        "Mi base de datos no está segmentada y no puedo <br class="DT_e">
-                        diferenciar con qué interés llegan los leads"
-                    </span>
-                    <br class="space"><br class="space">
-                        Organiza rápidamente tu base de datos con el <strong>CRM</strong>, <br class="DT_e">
-                        mediante filtros, segmentos y etiquetas para tener una <br class="DT_e">
-                        mejor gestión de prospectos.
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_casoUso_bienes_raices_6',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/gifs/2-Segmentos-bienes-raices.gif'),
+        'title' => null,
+        'text' => '
+        <span>
+            "Mi base de datos no está segmentada y no puedo <br class="DT_e">
+            diferenciar con qué interés llegan los leads"
+        </span>
+        <br class="space"><br class="space">
+        Organiza rápidamente tu base de datos con el <strong>CRM</strong>, <br class="DT_e">
+        mediante filtros, segmentos y etiquetas para tener una <br class="DT_e">
+        mejor gestión de prospectos.
 
 
-                ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'right',
-            ];
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'right',
+        ];
         @endphp
 
         @contain_text_image_T1($parameters)
         @endcontain_text_image_T1
 
         @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_bienes_raices_7',
-                'enableTitle' => false,
-                'titlePrincipal' => null,
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/3-Automatizaciones bienes raices.gif'),
-                'title' => null,
-                'text' => '
-                   <span>
-                       "No logramos brindar una respuesta rápida a <br class="DT_e">
-                        los leads interesados y perdemos gran parte <br class="DT_e">
-                        del dinero que invertimos en marketing"
-                   </span>
-                   <br class="space"><br class="space">
-                   Automatiza la asignación de potenciales compradores <br class="DT_e">
-                    y actividades comerciales a tus agentes inmobiliarios, <br class="DT_e">
-                    para tener una gestión  efectiva.
-                ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'left',
-            ];
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_casoUso_bienes_raices_7',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/gifs/3-Automatizaciones bienes raices.gif'),
+        'title' => null,
+        'text' => '
+        <span>
+            "No logramos brindar una respuesta rápida a <br class="DT_e">
+            los leads interesados y perdemos gran parte <br class="DT_e">
+            del dinero que invertimos en marketing"
+        </span>
+        <br class="space"><br class="space">
+        Automatiza la asignación de potenciales compradores <br class="DT_e">
+        y actividades comerciales a tus agentes inmobiliarios, <br class="DT_e">
+        para tener una gestión efectiva.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ];
         @endphp
 
         @contain_text_image_T1($parameters)
         @endcontain_text_image_T1
 
         @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_bienes_raices_8',
-                'enableTitle' => false,
-                'titlePrincipal' => null,
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/4-Automatizaciones-tasa-de-interés.gif'),
-                'title' => null,
-                'text' => '
-                   <span>
-                       "Me gustaría dar a conocer información <br class="DT_e">
-                        sobre descuentos, lanzamientos y créditos <br class="DT_e">
-                        para incentivar la compra"
-                   </span>
-                   <br class="space"><br class="space">
-                    Elabora un plan de comunicaciones para mantener <br class="DT_e">
-                    informada a tu comunidad con las herramientas de <br class="DT_e">
-                    <strong>Email Marketing y Automatizaciones.</strong>
-                ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'right',
-            ];
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_casoUso_bienes_raices_8',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/gifs/4-Automatizaciones-tasa-de-interés.gif'),
+        'title' => null,
+        'text' => '
+        <span>
+            "Me gustaría dar a conocer información <br class="DT_e">
+            sobre descuentos, lanzamientos y créditos <br class="DT_e">
+            para incentivar la compra"
+        </span>
+        <br class="space"><br class="space">
+        Elabora un plan de comunicaciones para mantener <br class="DT_e">
+        informada a tu comunidad con las herramientas de <br class="DT_e">
+        <strong>Email Marketing y Automatizaciones.</strong>
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'right',
+        ];
         @endphp
 
         @contain_text_image_T1($parameters)
         @endcontain_text_image_T1
 
         @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subPage_casoUso_bienes_raices_9',
-                'enableTitle' => false,
-                'titlePrincipal' => null,
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/5-dashboard-bienes-raices.gif'),
-                'title' => null,
-                'text' => '
-                    <span>
-                        "Invierto mucho tiempo en la creación y <br class="DT_e">
-                        revisión de reportes para saber cuáles <br class="DT_e">
-                        están siendo los proyectos mejor vendidos"
-                    </span>
-                    <br class="space"><br class="space">
-                    Visualiza reportes en tiempo real con los <br class="DT_e">
-                    resultados comerciales de cada agente <br class="DT_e">
-                    inmobiliario en los Dashboards de Escala.
-                ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'left',
-            ];
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'subPage_casoUso_bienes_raices_9',
+        'enableTitle' => false,
+        'titlePrincipal' => null,
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/gifs/5-dashboard-bienes-raices.gif'),
+        'title' => null,
+        'text' => '
+        <span>
+            "Invierto mucho tiempo en la creación y <br class="DT_e">
+            revisión de reportes para saber cuáles <br class="DT_e">
+            están siendo los proyectos mejor vendidos"
+        </span>
+        <br class="space"><br class="space">
+        Visualiza reportes en tiempo real con los <br class="DT_e">
+        resultados comerciales de cada agente <br class="DT_e">
+        inmobiliario en los Dashboards de Escala.
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ];
         @endphp
 
         @contain_text_image_T1($parameters)
         @endcontain_text_image_T1
 
         @php
-            $parameters = [
-                'classSection' => 'subPage_casoUso_bienes_raices_12',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-                Nuestros usuarios <span class="greenBlueColor">cuentan su experiencia</span>
-                ',
-                'subTitlePrincipal' => null,
-                'enableContainerButton' => true,
-                'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'textButton' => 'Recibe un demo',
-                'mob_reviews' => [
-                    App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-1.png'),
-                    App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-2.png'),
-                    App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-3.png')
-                ],
-                'desk_reviews' => [
-                    [
-                        App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-1.png'),
-                        App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-2.png'),
-                        App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-3.png')
-                    ]
-                ],
-            ];
+        $parameters = [
+        'classSection' => 'subPage_casoUso_bienes_raices_12',
+        'enableTitle' => true,
+        'titlePrincipal' => '
+        Nuestros usuarios <span class="greenBlueColor">cuentan su experiencia</span>
+        ',
+        'subTitlePrincipal' => null,
+        'enableContainerButton' => true,
+        'urlButton' => '#',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'textButton' => 'Recibe un demo',
+        'mob_reviews' => [
+        App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-1.png'),
+        App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-2.png'),
+        App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-3.png')
+        ],
+        'desk_reviews' => [
+        [
+        App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-1.png'),
+        App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-2.png'),
+        App::setFilePath('/assets/images/illustrations/others/ce_educ_review_home_trustpilot-3.png')
+        ]
+        ],
+        ];
         @endphp
         @reviews_sliders_T1($parameters)
         @endreviews_sliders_T1
