@@ -12,41 +12,110 @@
 
     <div class="sections">
 
-        @php
-        $setForm = ACF_CUSTOM::_getField( 'newsletter_form' );
-        @endphp
+        <section id="lead-form" class="component-header-t1 bg-color customSection sectionParent threeCol blogHome0  ">
 
-        @php
-        $parameters = array(
-        'backgroundImageType' => false,
-        'overlay' => false,
-        'classSection' => 'threeCol blogHome0',
-        'title' => '
-        <span style="color: #B9E6E9">
-            Mantén tu conocimiento <br class="space">
-            de marketing y ventas al día
-        </span>
-        ',
-        'text' => '
-        <span class="whiteColor">
-            Encuentra en nuestro blog tendencias, <br class="space">
-            novedades y mejores prácticas <br class="space">
-            para empoderar tu formación.
-        </span>
-        ',
-        'threeCol' => true,
-        'textForm' => '
-        Recibe un tour guiado <br class="space">
-        de Escala
-        ',
-        'backgroundImage' => null,
-        'overlayImage' => null,
-        'image' => App::setFilePath('/assets/images/person/blog_header.png'),
-        'setForm' => $setForm
-        ) ;
-        @endphp
-        @header_t1( $parameters )
-        @endheader_t1
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="groupElements row">
+
+                        <div class="info
+                                                col-md-12 col-lg-8
+                                        ">
+                            <div class="containElements row threeCol">
+
+                                <div class="ele ele1 col-md-12 col-lg-6">
+
+                                    <div class="containerImage">
+                                        <img src="{!! App::setFilePath('/assets/images/person/blog_header.png') !!}" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="ele ele2 col-md-12 col-lg-6">
+                                    <h1 class="principalBigTitle blackColor">
+
+                                        <span style="color: #B9E6E9">
+                                            Mantén tu conocimiento <br class="space">
+                                            de marketing y ventas al día
+                                        </span>
+                                    </h1>
+                                    <p class="principalBigText grayColorTexts">
+
+                                        <span class="whiteColor">
+                                            Encuentra en nuestro blog tendencias, <br class="space">
+                                            novedades y mejores prácticas <br class="space">
+                                            para empoderar tu formación.
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form7
+                                        col-md-12 col-lg-4
+                                    ">
+                            <div class="containElements">
+
+                                <div class="formatForm redirectWeb" redirectweb="true">
+
+                                    <div class="form-container form-1" style="text-align:center;">
+                                        <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
+                                        <h5 class="titleFormat blackcolor">Recibe un demo
+                                            <br class="space">
+                                            personalizado en vivo
+                                        </h5>
+                                        @php
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                        }
+                                        @endphp
+                                        {!! do_shortcode($_formShortcode) !!}
+                                    </div>
+
+                                    <div class="form-container form-2" style="display:none; text-align:center;">
+                                        <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
+                                        <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
+                                            <br class="space">tu demo
+                                        </h5>
+                                        @php
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Demo flujo step 2') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                        }
+                                        @endphp
+                                        {!! do_shortcode($_formShortcode) !!}
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+
+
+
+        </section>
 
         <section class="component-slideshowBlog-T1 customSection sectionParent  blogHome2">
 

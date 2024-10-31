@@ -1,5 +1,3 @@
-
-
 {{--
 
     @var $classSection  class context | string
@@ -30,13 +28,13 @@
             <div class="form_cf7">
 
                 @php
-                    // $f = get_field('newsletter_form');
-                    $f = ACF_CUSTOM::_getField('newsletter_form');
+                // $f = get_field('newsletter_form');
+                $f = ACF_CUSTOM::_getField('newsletter_form');
                 @endphp
                 @if (isset($f) && $f != null)
-                    {!! do_shortcode($f) !!}
+                {!! do_shortcode($f) !!}
                 @else
-                    {!! do_shortcode('[contact-form-7 id="2971" title="Blog Newsletter"]') !!}
+                {!! do_shortcode('[contact-form-7 id="2971" title="Blog Newsletter"]') !!}
                 @endif
 
             </div>
