@@ -7,7 +7,7 @@
         <section id="lead-form"
             class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol educacion-2023-0 ">
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-educacion-mobile-2023-07.png') }}')"
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/pagina_formacion_hero_banner_principal_fondo.svg') }}')"
                 class="backgroundFull MT_e">
 
                 <div class="section-row">
@@ -15,7 +15,13 @@
                     <section class="innerSectionElement sct1">
 
                         <div class="groupElements row">
+                            <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet" bis_skin_checked="1">
 
+                                <div class="containerImage" bis_skin_checked="1">
+                                    <img alt="Ilustración Andrés Moreno, CEO de Escala" src="http://localhost/escala/wp-content/themes/oceanwp-child/resources/assets/images/person/am/andres_moreno_escala_pagina_formacion.png" loading="lazy">
+                                </div>
+
+                            </div>
 
                             <div class="info col-md-12 col-lg-8 ">
 
@@ -72,7 +78,7 @@
                                             <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
                                             <h5 class="titleFormat blackcolor">Recibe un demo
                                                 <br class="space">
-                                               personalizado en vivo
+                                                personalizado en vivo
                                             </h5>
                                             @php
                                             $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -191,7 +197,7 @@
 
             </div>
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-educacion-2023-07.png') }}')"
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/pagina_formacion_hero_banner_principal_fondo.svg') }}')"
                 class="backgroundFull D_e">
 
                 <div class="section-row">
@@ -200,8 +206,14 @@
 
                         <div class="groupElements row">
 
+                            <div class="ele ele1 col-md-12 col-lg-1 hideOnmobile hideOnTablet" bis_skin_checked="1">
 
-                            <div class="info col-md-12 col-lg-8 ">
+                                <div class="containerImage" bis_skin_checked="1">
+                                    <img alt="Ilustración Andrés Moreno, CEO de Escala" src="http://localhost/escala/wp-content/themes/oceanwp-child/resources/assets/images/person/am/andres_moreno_escala_pagina_formacion.png" loading="lazy">
+                                </div>
+
+                            </div>
+                            <div class="info col-md-12 col-lg-6 ">
 
 
                                 <div class="containElements row threeCol">
@@ -246,7 +258,7 @@
 
                             </div>
 
-                            <div class="form7 col-md-12 col-lg-4 ">
+                            <div class="form7 col-md-12 col-lg-2 ">
 
                                 <div class="containElements">
 
@@ -256,7 +268,7 @@
                                             <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
                                             <h5 class="titleFormat blackcolor">Recibe un demo
                                                 <br class="space">
-                                               personalizado en vivo
+                                                personalizado en vivo
                                             </h5>
                                             @php
                                             $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -410,7 +422,7 @@
                                         </h5>
                                         <h5 class="card-subtitle">
                                             Aprende nuestra<br class="space">
-                                            metodología 
+                                            metodología
                                             probada para:
                                         </h5>
                                         <div class="list-block">
