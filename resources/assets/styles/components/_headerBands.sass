@@ -464,7 +464,8 @@
     z-index: 10
     background-size: cover
     background-position: center
-
+    @include responsivo(telefonoTable)
+        display: none
     @include responsivo(pcMedio)
         background-position: 53.2%
     @include responsivoSpecial(2100px, 99999px)
@@ -508,7 +509,7 @@
                     left: 0px
 
                 .icon
-                    height: 40px
+                    height: 50px
                     margin-right: 15px
                     @include responsivo(telefonoTable)
                         position: absolute
@@ -522,10 +523,10 @@
                         margin-right: 5px
                         height: 35px
                     @include responsivo(general)
-                        height: 35px
+                        height: 40px
                     @include responsivo(smallPcTablet)
                         margin-right: 5px
-                        height: 30px
+                        height: 40px
 
                 .hashTitle
                     color: #2C4857
@@ -535,7 +536,7 @@
                     font-style: normal
                     font-weight: 700
                     line-height: 1
-                    display: block
+                  
                     @include responsivo(telefonoTable)
                         font-size: 14px
                         margin-left: auto
@@ -544,24 +545,20 @@
                         width: 225px
                     @include responsivo(pcMedio)
                         font-size: 14px
-                        display: flex
+                   
                         text-align: left
-                        align-self: center
-                        justify-self: center
+                      
                         width: 345px
                     @include responsivo(general)
                         font-size: 20px
-                        display: flex
-                        align-self: center
-                        justify-self: center
+                    
                         text-align: left
                     @include responsivo(smallPcTablet)
                         font-size: 18px
                     @include responsivo(resto)
-                        display: flex
+                        
                         text-align: left
-                        align-self: center
-                        justify-self: center
+                     
                     span
                         line-height: 1
                         color: #36768A
@@ -653,7 +650,7 @@
                 a
                     font-weight: 600!important
                     color: #FFFFFF!important
-                    background-color: #36768A!important
+                    background-color: #F34F36!important
                     // height: fit-content!important
                     @include responsivo(telefonoTable)
                         margin: 10px auto
@@ -680,7 +677,7 @@
 .MbHeadbandfree
     display: none!important
     @include responsivo(telefonoTable)
-
+        display: block!important
 
 .headerband_promo_lastNews.customSection.sectionParent
     background-color: transparent

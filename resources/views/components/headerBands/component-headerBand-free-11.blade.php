@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_popup_freeClass.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/free_bg_MC_estudiantes.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -8,20 +8,23 @@
 
                 <div class="contain">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-casa-ventas.svg') !!}" alt="" class="icon">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/free_class_icon.png') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-                    Multiplica las ventas <span> de tu empresa inmobiliaria</span>
+
+                        Multiplica los estudiantes <span> de tu <br class="space">
+                            institución educativa para este 2025</span>
                     </span>
                     <div class="separator"></div>
                     <span class="sub">
-                        Masterclass gratuita - 24 de Julio
+                        Masterclass gratuita en vivo<br class="space">
+                        6 de Noviembre
                     </span>
 
                 </div>
 
-                <a class=" primaryButton hoverInEffect openPopUpButton popup-last-news">
-                Reserva tu cupo
+                <a target="_blank" href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect ">
+                    Reserva tu cupo
                 </a>
 
             </div>
@@ -32,7 +35,7 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_popup_freeClass.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/free_bg_MC_estudiantes_mb.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -42,9 +45,9 @@
 
                 <div class="contain">
 
-                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-casa-ventas.svg') !!}" alt="" class="icon">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/free_class_icon.png') !!}" alt="" class="icon">
                     <span class="hashTitle">
-                    Multiplica las ventas<span> de tu empresa inmobiliaria</span>
+                        Multiplica las ventas<span> de tu empresa inmobiliaria</span>
                     </span>
                     <div class="separator"></div>
                     <span class="sub">
@@ -53,8 +56,8 @@
 
                 </div>
 
-                <a class=" primaryButton hoverInEffect openPopUpButton popup-last-news">
-                Reserva tu cupo
+                <a target="_blank" href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect ">
+                    Reserva tu cupo
                 </a>
 
             </div>
