@@ -45,13 +45,16 @@
 
                 <div class="contain">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/free_class_icon.png') !!}" alt="" class="icon">
+            
                     <span class="hashTitle">
-                        Multiplica las ventas<span> de tu empresa inmobiliaria</span>
+                       
+                    Multiplica los estudiantes <span> de tu <br class="space">
+                            institución educativa para este 2025</span>
                     </span>
-                    <div class="separator"></div>
+                
                     <span class="sub">
-                        Masterclass gratuita - 24 de Julio
+                    Masterclass gratuita en vivo<br class="space">
+                        6 de Noviembre
                     </span>
 
                 </div>
