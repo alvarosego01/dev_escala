@@ -18,7 +18,7 @@
                             <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet" bis_skin_checked="1">
 
                                 <div class="containerImage" bis_skin_checked="1">
-                                    <img alt="Ilustración Andrés Moreno, CEO de Escala" src="http://localhost/escala/wp-content/themes/oceanwp-child/resources/assets/images/person/am/andres_moreno_escala_pagina_formacion.png" loading="lazy">
+                                    <img alt="Ilustración Andrés Moreno, CEO de Escala" src="{!! App::setFilePath('/assets/images/person/am/andres_moreno_escala_pagina_formacion.png') !!}" loading="lazy">
                                 </div>
 
                             </div>
@@ -209,7 +209,7 @@
                             <div class="ele ele1 col-md-12 col-lg-1 hideOnmobile hideOnTablet" bis_skin_checked="1">
 
                                 <div class="containerImage" bis_skin_checked="1">
-                                    <img alt="Ilustración Andrés Moreno, CEO de Escala" src="http://localhost/escala/wp-content/themes/oceanwp-child/resources/assets/images/person/am/andres_moreno_escala_pagina_formacion.png" loading="lazy">
+                                    <img alt="Ilustración Andrés Moreno, CEO de Escala" src="{!! App::setFilePath('/assets/images/person/am/andres_moreno_escala_pagina_formacion.png') !!}" loading="lazy">
                                 </div>
 
                             </div>
