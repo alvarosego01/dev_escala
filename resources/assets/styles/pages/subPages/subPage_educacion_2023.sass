@@ -444,6 +444,19 @@
                 margin-bottom: 50px
             @include responsivo(pcMedio)
                 margin-bottom: 50px
+            .ele
+                img
+                    height: 500px
+                    position: relative
+                    left: -285px
+                    top: 40px
+                    @include responsivo(general)
+                        left: -193px
+                        height: 460px
+                    @include responsivo(smallPcTablet)
+                        left: -230px
+                        height: 360px                        
+
             .info
                 @include responsivo(telefonoTable)
                     margin-bottom: 0!important
@@ -478,7 +491,7 @@
                             margin-left: auto
                             margin-right: 0
                             margin-top: 25px
-                            left: 70px
+                            left: 130px
                         @include responsivo(smallPcTablet)
                             width: 100%
                             left: 75px
@@ -488,7 +501,7 @@
                             margin-left: auto
                             margin-right: 0
                             margin-top: 30px
-                            left: 40px
+                            left: 90px
                         &:first-child
                             color: #F34F36!important
                             font-family: Nunito
@@ -534,11 +547,11 @@
                         font-size: 40px
                         text-align: center
                     @include responsivo(general)
-                        font-size: 55px
+                        font-size: 48px
                     @include responsivo(smallPcTablet)
-                        font-size: 47px
+                        font-size: 36px
                     @include responsivo(resto)
-                        font-size: 60px
+                        font-size: 50px
 
                 ul
                     list-style: none
@@ -605,7 +618,9 @@
                     padding-bottom: 50px
                     padding-left: 0
                     padding-right: 0
-                    right: -50px
+                    right: 0px
+                @include responsivo(smallPcTablet)
+                    left: 20px
                 @include responsivo(resto)
                     padding-bottom: 50px
                     padding-left: 0
