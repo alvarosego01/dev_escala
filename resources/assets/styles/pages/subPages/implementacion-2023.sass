@@ -172,6 +172,10 @@
                                 letter-spacing: -1px
                                 margin-bottom: 15px
                                 text-align: left
+                                @include responsivo(telefonoTable)
+                                    text-align: center
+                                @include responsivo(pcMedio)
+                                    text-align: center
                             .principalBigTitle
                                 font-family: Nunito
                                 font-weight: 700
@@ -181,6 +185,12 @@
                                 font-size: 30px!important
                                 color: #39768A!important
                                 margin-bottom: 15px
+                                @include responsivo(telefonoTable)
+                                    width: auto
+                                    font-size: 30px
+                                @include responsivo(pcMedio)
+                                    width: 525px
+                                    font-size: 27.5px
                                 @include responsivo(general)
                                     font-size: 27.5px!important
                                     width: 525px
@@ -202,7 +212,7 @@
                                 @include responsivo(pcMedio)
                                     font-size: 18px
                                     margin-bottom: 20px
-                                    text-align: left!important
+                                    text-align: center!important
                                     width: 500px!important
                                 @include responsivo(general)
                                     font-size: 30px
@@ -369,7 +379,7 @@
         padding-bottom: 40px!important
         margin-top: -55px
     @include responsivo(smallPcTablet)
-
+        padding-bottom: 85px!important
     @include responsivo(resto)
         padding: 0
         padding-bottom: 75px!important
@@ -694,7 +704,7 @@
     @include responsivo(general)
         padding: 70px 0!important
     @include responsivo(smallPcTablet)
-        padding: 35px 20px 4a0px 20px!important
+        padding: 35px 20px 40px 20px!important
     @include responsivo(resto)
         padding: 75px!important
 .backgroundFull
