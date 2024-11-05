@@ -23,8 +23,8 @@
                                            </h1>
 
                                            <p class="principalBigText grayColorTexts">
-                                               Incorpora las herramientas del CRM <br class="DT_e">
-                                               a las operaciones de tu empresa <br class="DT_e">
+                                               Incorpora las herramientas del CRM
+                                               a las operaciones de tu empresa 
                                                con la guía de nuestro equipo
                                            </p>
 

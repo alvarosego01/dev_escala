@@ -119,6 +119,16 @@
             .groupElements
                 height: fit-content
                 position: relative
+                @include responsivo(telefonoTable)
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
+                @include responsivo(pcMedio)
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
                 .info
                     display: flex
                     flex-direction: column
@@ -130,8 +140,8 @@
                         margin-bottom: 0
                     @include responsivo(pcMedio)
                         margin-bottom: 0
-                        margin-top: 50px
-                        width: 50%!important
+                       
+                        width: 100%!important
                     @include responsivo(general)
                         top: -25px
                         margin-top: 5%
@@ -186,10 +196,10 @@
                                 color: #39768A!important
                                 margin-bottom: 15px
                                 @include responsivo(telefonoTable)
-                                    width: auto
+                                   
                                     font-size: 30px
                                 @include responsivo(pcMedio)
-                                    width: 525px
+                                    width: auto
                                     font-size: 27.5px
                                 @include responsivo(general)
                                     font-size: 27.5px!important
@@ -210,19 +220,19 @@
                                     text-align: center
                                     margin-bottom: 20px
                                 @include responsivo(pcMedio)
-                                    font-size: 18px
+                                    font-size: 30px
                                     margin-bottom: 20px
                                     text-align: center!important
                                     width: 500px!important
                                 @include responsivo(general)
                                     font-size: 30px
-                                    width: 575px!important
+                                    width: 500px!important
                                 @include responsivo(smallPcTablet)
                                     font-size: 30px
                                     width: fit-content!important
                                 @include responsivo(resto)
                                     font-size: 35px
-                                    width: 600px!important
+                                    width: 555px!important
 
                             .features
                                 display: flex
@@ -242,6 +252,7 @@
                                 margin-bottom: 0
                             @include responsivo(pcMedio)
                                 margin-bottom: 0
+                                align-items: center
                             @include responsivo(general)
                                 left: -25px
                             @include responsivo(smallPcTablet)
@@ -328,7 +339,7 @@
                         width: 90%
                         display: block
                     @include responsivo(pcMedio)
-                        width: 50%
+                        width: 100%
                         padding-left: 15px
                         min-height: 525px
                     @include responsivo(general)
