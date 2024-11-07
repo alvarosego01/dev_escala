@@ -9,8 +9,8 @@
          style="{% if media_text_4_sections|length > 0 %}
                      {% for item in media_text_4_sections %}
                          {% set fondocompleto = item.media_fondo_completo_4_image %}  {# Asigna el fondo de la primera sección #}
-                         {% if fondo != '' %}
-                             background-image: url('{{ get_img(fofondocompletondo, 'src') }}');
+                         {% if fondocompleto != '' %}
+                             background-image: url('{{ get_img(fondocompleto, 'src') }}');
                          {% endif %}
                      {% endfor %}
                  {% endif %}">
