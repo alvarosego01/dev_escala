@@ -5,9 +5,9 @@
 
 
     .section_contain
-        background-position: left
+        background-position: center center
         background-repeat: no-repeat
-        background-size: 1620px
+        background-size: cover
         padding-bottom: 50px
 
         @include responsivo(telefonoTable)
@@ -70,6 +70,8 @@
                         img
                             display: block
                             margin: auto
+                            position: relative
+                            top: -30px
                             @include responsivo(telefonoTable)
                                 height: 125px
                                 margin-bottom: 0
@@ -81,7 +83,7 @@
                             @include responsivo(smallPcTablet)
                                 height: 225px
                             @include responsivo(resto)
-                                height: 330px
-                                padding-bottom: 40px
+                                height: 340px
+                                padding-bottom: 0px
 
 
