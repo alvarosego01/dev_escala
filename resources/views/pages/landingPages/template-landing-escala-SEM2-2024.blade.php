@@ -4294,7 +4294,7 @@
                                             <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
                                             <h5 class="titleFormat blackcolor">Recibe un demo
                                                 <br class="space">
-                                               personalizado en vivo
+                                                personalizado en vivo
                                             </h5>
                                             @php
                                             $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -4337,10 +4337,89 @@
                                             {!! do_shortcode($_formShortcode) !!}
                                         </div>
                                     </div>
-
+                                    
+     
 
                                 </div>
-                               
+                                <script>
+                                        jQuery(document).ready(function($) {
+                                            $(".containElements").each(function() {
+                                                var $currentContainer = $(this);
+
+                                                $currentContainer.find(
+                                                    'select[name="vendedores"], select[name="negocio-etapa"], select[name="factura-anual"], select[name="your-employees"], select[name="your-country"], select[name="industria"], select[name="rol-empresa"]'
+                                                ).change(function() {
+                                                    var selectedValue = $(this).val();
+                                                    var excludeOptions = [
+                                                        "Selecciona el país",
+                                                        "Cantidad de empleados",
+                                                        "Cantidad de vendedores",
+                                                        "Etapa del negocio",
+                                                        "Facturación anual (en USD)",
+                                                        "Industria de tu negocio",
+                                                        "¿Cuál describe mejor tu rol?",
+                                                    ];
+                                                    if (excludeOptions.indexOf(selectedValue) === -1) {
+                                                        $(this).addClass("custom-select-color");
+                                                    } else {
+                                                        $(this).removeClass("custom-select-color");
+                                                    }
+                                                });
+
+                                                $currentContainer.find('input[name="no-web[]"]').on("change", function() {
+                                                    if ($(this).is(":checked")) {
+                                                        $currentContainer.find('input[name="web-page"]').val("").prop("disabled", true);
+                                                    } else {
+                                                        $currentContainer.find('input[name="web-page"]').prop("disabled", false);
+                                                    }
+                                                });
+
+                                                $currentContainer.find(".form-1 form").on("submit", function(e) {
+                                                    e.preventDefault();
+                                                    var $form = $(this);
+
+                                                    // Validación de ReCaptcha
+                                                    if (grecaptcha.getResponse() === "") {
+                                                        alert("Por favor, complete el ReCaptcha");
+                                                        return;
+                                                    }
+
+                                                    // Validación de campos obligatorios
+                                                    var email = $form.find('input[name="your-email"]').val();
+                                                    var lastname = $form.find('input[name="your-lastname"]').val();
+                                                    var name = $form.find('input[name="your-firstname"]').val();
+                                                    var phone = $form.find('input[name="your-phone"]').val();
+
+                                                    if (!email || !lastname || !name || !phone) {
+                                                        alert("Por favor, complete todos los campos obligatorios.");
+                                                        return;
+                                                    }
+
+                                                    // Envío de formulario con AJAX a través de CF7
+                                                    $.ajax({
+                                                        type: "POST",
+                                                        url: $form.attr("action"),
+                                                        data: $form.serialize(),
+                                                        success: function(response) {
+                                                            // Oculta solo el primer formulario del contenedor actual si el envío fue exitoso
+                                                            $currentContainer.find(".form-1").hide();
+                                                            $currentContainer.find(".form-2").show();
+
+                                                            // Copia datos al segundo formulario en el contenedor actual
+                                                            $currentContainer.find("#hidden-email-field").val(email);
+                                                            $currentContainer.find("#hidden-lastname-field").val(lastname);
+                                                            $currentContainer.find("#hidden-name-field").val(name);
+                                                           
+                                                        },
+                                                        error: function(xhr, status, error) {
+                                                            console.error("Error al enviar el formulario:", error);
+                                                            alert("Ocurrió un error al enviar el formulario. Inténtelo de nuevo.");
+                                                        }
+                                                    });
+                                                });
+                                            });
+                                        });
+                                    </script>
                             </div>
 
                             <div class="imageReviewsMobile hideOnDesktop">
