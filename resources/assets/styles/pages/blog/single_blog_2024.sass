@@ -163,7 +163,7 @@
                                 @include responsivo(smallPcTablet)
                                     font-size: 30px
                                 @include responsivo(resto)
-                                    width: 520px
+                                    width: 500px
                             .principalBigText
                                 font-family: Nunito
                                 font-style: normal
@@ -185,17 +185,17 @@
                                     margin-bottom: -20px
                                     text-align: left!important
                                 @include responsivo(general)
-                                    font-size: 16px
+                                    font-size: 18px
                                     margin-bottom: 20px
-                                    width: 490px!important
+                                    width: 435px!important
                                 @include responsivo(smallPcTablet)
                                     font-size: 14px
                                     margin-bottom: 20px
                                     width: fit-content!important
                                 @include responsivo(resto)
-                                    font-size: 18px
+                                    font-size: 22px
                                     margin-bottom: 20px
-                                    width: 490px!important
+                                    width: 435px!important
                                 span
                                     font-weight: 700
                                     margin-bottom: -20px
@@ -212,8 +212,12 @@
                                 font-style: normal
                                 font-size: 20px
                                 border-radius: 24px
-                                width: 50% 
-                                padding: 10px
+                                width: 100%
+                                max-width: 175px     
+                                padding: 5px 10px
+                                display: flex
+                                align-items: center
+                                gap: 5px
                                 img
                                     height: 20px
                         .ele2
@@ -292,7 +296,7 @@
                                     left: -25px
                                 @include responsivo(resto)
                                     left: -35px
-                                    
+
                                 img
                                     position: relative
                                     width: auto
@@ -309,7 +313,10 @@
                                         height: 225px
                                     @include responsivo(resto)
                                         height: 325px
-
+                        .left
+                            .containerImage
+                                left: 0!important
+                            
                 .form7
                     margin-bottom: 50px
                     padding: 0 50px
