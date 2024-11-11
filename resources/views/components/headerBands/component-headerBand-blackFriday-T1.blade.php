@@ -1,22 +1,26 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/banner_black_friday_fondo.svg') !!})" class="headerband_blackFriday_promo_t2 customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_banner_bf_2024.svg') !!})" class="headerband_blackFriday_promo_t2 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
         <section class="innerSectionElement sct1">
 
             <div class="containElements">
-
                 <div class="contain">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/otto_black_friday_2024_10x12.png') !!}" alt="Otto promo 10 x 12" class="icon">
-                    <p><span>¡Promo especial!</span> Suscríbete a Escala y te regalamos <span>2 meses + Bootcamp</span> sobre Black Friday</p>
+                <span class="hashTitle">
+                        <span class="colorLinear">#EscalaBlack</span> ¡está por comenzar!
+                    </span>
+                    <div class="separator"></div>
+                    <span class="sub">
+                        Conoce la promo para <br>
+                        acelerar tus ventas
+                    </span>
 
                 </div>
 
                 <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
-                    Conocer más
+                    Quiero ser el primero en conocerla
                 </a>
-                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_ilustracion_estancamiento_banner.png') !!}" alt="" class="icon-2">
             </div>
         </section>
 
@@ -24,25 +28,29 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/banner_black_friday_fondo_mb.svg') !!})" class="headerband_blackFriday_promo_t2 customSection sectionParent fullWidth MblHeadband {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_banner_bf_2024_mb.svg') !!})" class="headerband_blackFriday_promo_t2 customSection sectionParent fullWidth MblHeadband {{ $classSection }} ">
 
     <div class="section-row">
 
         <section class="innerSectionElement sct1">
 
             <div class="containElements">
-
                 <div class="contain">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/otto_black_friday_2024_10x12.png') !!}" alt="Otto promo 10 x 12" class="icon">
-                    <p><span>¡Promo especial!</span> Suscríbete a Escala y te regalamos <span>2 meses + Bootcamp</span> sobre Black Friday</p>
+                    <span class="hashTitle">
+                    <span class="colorLinear">  #EscalaBlack</span> ¡está por comenzar!
+                    </span>
+                    <div class="separator"></div>
+                    <span class="sub">
+                        Conoce la promo para <br>
+                        acelerar tus ventas
+                    </span>
 
                 </div>
 
                 <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
-                    Conocer más
+                    Quiero ser el primero en conocerla
                 </a>
-                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_ilustracion_estancamiento_banner.png') !!}" alt="" class="icon-2">
             </div>
         </section>
 

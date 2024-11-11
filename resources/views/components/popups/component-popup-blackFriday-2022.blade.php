@@ -90,36 +90,31 @@
                             </div>
 
 
-                            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/promo_especial_black_friday_2024.svg') }}')" class="col-md-12 col-lg-6 image">
+                            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_popup_bf_2024.svg') }}')" class="col-md-12 col-lg-6 image">
 
                                 <div class="containElements ">
                                     <div class="sect1 ">
-                                        <div class="containerImage">
-                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_10x12_promo_especial_escala_black_friday_2024.png') !!}" alt="Imagen 10x12 promo especial escala black friday 2024">
-                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/button_promo_especial_escala_black_friday_2024.png') !!}" alt="Button imagen texto 10x12 promo especial escala black friday 2024">
+                                        <div class="containElements">
+                                            <span> Conoce</span>
+                                            <h2>
+                                                <span class="colorLinear"> #EscalaBlack,</span><br class="space">
+                                                la promo por Black Friday para acelerar tus ventas
+                                            </h2>
                                         </div>
 
                                     </div>
 
                                     <div class="sect2">
-                                        <div class="containElements">
-                                            <h2>
-                                                Suscríbete a Escala y te regalamos <span> 2 meses + Bootcamp</span> sobre
-                                                Black Friday
-                                            </h2>
-                                        </div>
-                                    </div>
-
-                                    <div class="sect3">
                                         <div class="containerImage">
-
-                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_otto_especial_escala_black_friday_2024.png') !!}" alt="Imagen otto crm especial 2024 escala black friday">
-
-                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_ilustracion_estancamiento.png') !!}" alt="Imagen monstruo estancamiento  ">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/imagen_interna_popup_bf_personas_2024.png') !!}" alt="Imagen personas especial 2024 escala black friday">
                                         </div>
-
-
                                     </div>
+                                    <div class="sect3">
+                                        <a href="https://experiencia.escala.com/escalablack" target="_blank" class=" primaryButton hoverInEffect">
+                                            Quiero saber más
+                                        </a>
+                                    </div>
+
                                 </div>
 
 
