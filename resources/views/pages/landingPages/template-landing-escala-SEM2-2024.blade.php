@@ -4378,11 +4378,7 @@
                                                     e.preventDefault();
                                                     var $form = $(this);
 
-                                                    // Validación de ReCaptcha
-                                                    if (grecaptcha.getResponse() === "") {
-                                                        alert("Por favor, complete el ReCaptcha");
-                                                        return;
-                                                    }
+                                                  
 
                                                     // Validación de campos obligatorios
                                                     var email = $form.find('input[name="your-email"]').val();
