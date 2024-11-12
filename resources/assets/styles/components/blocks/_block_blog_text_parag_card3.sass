@@ -64,8 +64,11 @@
                     text-align: center
                 @include responsivo(pcMedio)
                     font-size: 16px
+                @include responsivo(smallPcTablet)
+                    font-size: 18px
                 @include responsivo(general)
                     font-size: 20px
+
                 *
                     line-height: 1.25
                     letter-spacing: -1px
@@ -112,8 +115,10 @@
                         font-size: 15px
                         
                     @include responsivo(pcMedio)
-                        font-size: 18px
+                        font-size: 16px
                     @include responsivo(smallPcTablet)
+                        font-size: 18px
+                    @include responsivo(general)
                         font-size: 18px
                     span,strong
                         color: #36768A

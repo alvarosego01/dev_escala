@@ -64,6 +64,8 @@
                     text-align: center
                 @include responsivo(pcMedio)
                     font-size: 16px
+                @include responsivo(smallPcTablet)
+                    font-size: 18px
                 @include responsivo(general)
                     font-size: 20px
                 *
@@ -95,7 +97,9 @@
                 flex-direction: column
                 @include responsivo(telefonoTable)
                     width: 45%
-                    padding: 10px    
+                    padding: 10px   
+                @include responsivo(pcMedio)
+                    width: 30%
 
                 img
                     height: 35px
@@ -110,11 +114,14 @@
                     text-align: center
                     @include responsivo(telefonoTable)
                         font-size: 15px
-                        
+                     
                     @include responsivo(pcMedio)
-                        font-size: 18px
+                        font-size: 16px
                     @include responsivo(smallPcTablet)
                         font-size: 18px
+                    @include responsivo(general)
+                        font-size: 18px
+                     
                     span,strong
                         color: #36768A
                         font-weight: 700
