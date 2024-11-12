@@ -109,11 +109,7 @@
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/imagen_interna_popup_bf_personas_2024.png') !!}" alt="Imagen personas especial 2024 escala black friday">
                                         </div>
                                     </div>
-                                    <div class="sect3">
-                                        <a href="https://experiencia.escala.com/escalablack" target="_blank" class=" primaryButton hoverInEffect">
-                                            Quiero saber más
-                                        </a>
-                                    </div>
+                                 
 
                                 </div>
 
