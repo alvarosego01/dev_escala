@@ -180,7 +180,7 @@
                                 "key": "media_text_3_description",
                                 "label": "Description",
                                 "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
+                                "default": "Fondo corto de izquierda a derecha mas imagen - texto y titulo a la derecha Side content left"
                             },
                             {
                                 "key": "media_text_3_image",
@@ -244,7 +244,7 @@
                                 "key": "media_text_6_description",
                                 "label": "Description",
                                 "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
+                                "default": "Fondo corto de   derecha a izquierda mas imagen - texto y titulo a la izquierda Side content right"
                             },
                             {
                                 "key": "media_text_6_image",
@@ -346,7 +346,7 @@
                                 "key": "media_text_4_description",
                                 "label": "Description",
                                 "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
+                                "default": "Fondo completo de izquierda a derecha, mas imagen side content right"
                             },
                             {
                                 "key": "media_text_4_image",
@@ -411,7 +411,7 @@
                                 "key": "media_text_5_description",
                                 "label": "Description",
                                 "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
+                                "default": "Fondo completo de derecha a izquierda, mas imagen side content left"
                             },
                             {
                                 "key": "media_text_5_image",

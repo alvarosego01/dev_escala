@@ -34,12 +34,12 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
 @extends('layouts.app')
 
 @section('content')
-<div id="single_blog_2024" class="post-template">
+<div id="single_blog_2024_v2" class="post-template">
 
 
     <div class="sections">
 
-        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol single_blog_2024 single_blog_2024_0">
+        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol single_blog_2024_v2 single_blog_2024_v2_0">
             <div class="backgroundFull" @if (isset($blog_single_1_background_header) && $blog_single_1_background_header !='' ) style="background-image: url('{{ App::get_img($blog_single_1_background_header, 'src') }}');" @endif>
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -111,7 +111,7 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
             </div>
         </section>
 
-        <section class="w-full customSection sectionParent single_blog_2024_1">
+        <section class="w-full customSection sectionParent single_blog_2024_v2_1">
 
             <div class="section-row">
                 <section class="innerSectionElement sct0">
@@ -127,7 +127,7 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
 
         </section>
 
-        <section class="customSection sectionParent single_blog_2024 single_blog_2024_9">
+        <section class="customSection sectionParent single_blog_2024_v2 single_blog_2024_v2_9">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
@@ -152,7 +152,7 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
             </div>
         </section>
 
-        <section class="customSection sectionParent single_blog_2024 single_blog_2024_10">
+        <section class="customSection sectionParent single_blog_2024_v2 single_blog_2024_v2_10">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
@@ -184,7 +184,7 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
         @endphp
 
         @if (isset($posts) && $posts != null)
-        <section class="customSection sectionParent single_blog_2024 single_blog_2024_11">
+        <section class="customSection sectionParent single_blog_2024_v2 single_blog_2024_v2_11">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
