@@ -1,0 +1,58 @@
+{% set text_parag_11_title = fields.text_parag_11_title %}
+{% set text_parag_11_parag = fields.text_parag_11_parag %}
+{% set media_text_11_sections = fields.media_text_11_sections %}
+
+<section class="w-full block_blog_text_parag_card4 customSection sectionParent">
+	<div class="section_contain">
+		<section class="innerSectionElement sct1 ">
+			<div class="containElements">
+
+				{% if text_parag_11_title != '' %}
+					<h2 class="primaryTitle">
+						{{ text_parag_11_title|raw }}
+					</h2>
+				{% endif %}
+
+				{% if text_parag_11_parag != '' %}
+					<div class="primaryText">
+						{{ text_parag_11_parag|raw }}
+					</div>
+				{% endif %}
+
+			</div>
+
+		</section>
+
+		{% if media_text_11_sections|length > 0 %}
+			<section class="innerSectionElement sct2 ">
+
+				{% for item in media_text_11_sections %}
+					{% set description = item.media_text_11_description %}
+					{% set image = item.media_text_11_image %}
+
+					{% set i = i + 1 %}
+
+					<div class="cardApi groupElements row element_{{ i }}">
+
+						<div class="containerImage">
+							{% if image != '' %}
+								<img src="{{ get_img(image, 'src') }}" alt="{{ get_img(image, 'alt') }}" loading="lazy">
+							{% endif %}
+						</div>
+
+						{% if description != '' %}
+							<div class="text">
+								{{ description|raw }}
+							</div>
+						{% endif %}
+
+
+					</div>
+				{% endfor %}
+
+			</section>
+		{% endif %}
+
+
+	</div>
+</section>

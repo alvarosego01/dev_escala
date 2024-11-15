@@ -22,12 +22,12 @@
     @include responsivo(resto)
         font-size: 35px
 
-#single_blog_2024
+#single_blog_2024_v2
     background-color: white
     .groupBackground
         background-color: #FAFBFD
 
-#single_blog_2024 .btnCenter
+#single_blog_2024_v2 .btnCenter
     width: 100%
     display: flex
     justify-content: center
@@ -38,12 +38,12 @@
         cursor: pointer!important
         // transform: scale(1.1)
 
-#single_blog_2024
+#single_blog_2024_v2
     @include responsivo(telefonoTable)
         h2
             text-align: center!important
 
-#single_blog_2024 .single_blog_2024_0
+#single_blog_2024_v2 .single_blog_2024_v2_0
     margin-bottom: 0px
     overflow: visible
     @include responsivo(telefonoTable)
@@ -317,8 +317,11 @@
                                         height: 325px
                         .left
                             .containerImage
-                                left: 0!important
-                            
+                                left: 35px!important
+                                @include responsivo(general)
+                                    left: 25px!important
+                                @include responsivo(smallPcTablet)
+                                    left: -25px!important
                 .form7
                     margin-bottom: 50px
                     padding: 0 50px
@@ -352,7 +355,7 @@
                         box-shadow: 0px 20px 40px rgba(54, 118, 138, 0.2)
                         border-radius: 20px
                         h5.titleFormat.blackcolor
-                            color: #2C4857!important
+                            color: #36768A!important
                             @include responsivo(general)
                                 font-size: 20px
                             @include responsivo(smallPcTablet)
@@ -396,7 +399,7 @@
                                     margin-bottom: 0
 
 
-#single_blog_2024 .single_blog_2024_1
+#single_blog_2024_v2 .single_blog_2024_v2_1
     padding-top: 0px
     padding-bottom: 0px
     @include responsivo(telefonoTable)
@@ -435,7 +438,7 @@
 
 
 
-#single_blog_2024 .customSection.sectionParent.single_blog_2024_8_1
+#single_blog_2024_v2 .customSection.sectionParent.single_blog_2024_v2_8_1
     padding: 0px 0px 60px 0px
     @include responsivo(telefonoTable)
         padding: 25px
@@ -604,7 +607,7 @@
                                 height: 225px
 
 
-#single_blog_2024 .single_blog_2024_4
+#single_blog_2024_v2 .single_blog_2024_v2_4
     @include responsivo(telefonoTable)
         padding: 25px
         padding-bottom: 0
@@ -812,7 +815,7 @@
                             height: 310px
 
 
-#single_blog_2024 .customSection.sectionParent.single_blog_2024_6
+#single_blog_2024_v2 .customSection.sectionParent.single_blog_2024_v2_6
     padding-bottom: 0px
     padding-top: 0px
     .section-row
@@ -853,7 +856,7 @@
                     @include responsivo(pcMedio)
                         font-size: 16px
 
-#single_blog_2024 .customSection.sectionParent.single_blog_2024_7
+#single_blog_2024_v2 .customSection.sectionParent.single_blog_2024_v2_7
     padding: 0px 0px
     display: flex
     flex-direction: center
@@ -1095,7 +1098,7 @@
     align-items: center
 
 
-#single_blog_2024 .customSection.sectionParent.single_blog_2024_9
+#single_blog_2024_v2 .customSection.sectionParent.single_blog_2024_v2_9
     display: flex
     flex-direction: center
     justify-content: center
@@ -1139,7 +1142,7 @@
 
 
 
-#single_blog_2024 .customSection.sectionParent.single_blog_2024_10
+#single_blog_2024_v2 .customSection.sectionParent.single_blog_2024_v2_10
         border-top: 1px solid #C4C4C4
         padding: 35px 0
         padding-bottom: 50px
@@ -1188,7 +1191,7 @@
 
 
 
-#single_blog_2024 .customSection.sectionParent.single_blog_2024_11
+#single_blog_2024_v2 .customSection.sectionParent.single_blog_2024_v2_11
     background-color: #F9F9F9
 
     display: flex

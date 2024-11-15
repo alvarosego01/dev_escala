@@ -1,26 +1,24 @@
 
 
 
-.block_blog_text_image_fondo.customSection.sectionParent
+.block_blog_text_image_fondo_completo_left.customSection.sectionParent
     margin: 30px auto
     margin-bottom: 70px
     background-repeat: no-repeat
     background-size: cover
-    background-position: 50% center
-    padding-bottom: 0px
-    padding-bottom: 50px
+    background-position: 47% center!important
+
     @include responsivo(telefonoTable)
         margin: 50px auto
         padding-bottom: 40px
-
-        background-position: 20% center
+        background-position: 50% center!important
     @include responsivo(pcMedio)
         margin: 50px auto
-        background-position: 48% center
+        background-position: center 75px
     @include responsivo(general)
-        background-position: 48% center
+        background-position: center 87px
     @include responsivo(smallPcTablet)
-        background-position: 48% center
+        background-position:  center -15px
 
 
     ul, ol
@@ -89,7 +87,7 @@
                         font-weight: 700
                         line-height: 1
                         letter-spacing: -1.5px
-                        color: #34768A
+                        color: #fff!important
                         margin-bottom: 25px
                         @include responsivo(telefonoTable)
                             font-size: 22.5px
@@ -115,7 +113,7 @@
                         font-family: Nunito
                         font-style: normal
                         line-height: 1
-                        color: #706B6D
+                        color: #fff
                         font-weight: 400
                         width: 100%!important
                         margin-bottom: 0
@@ -159,7 +157,7 @@
                         align-items: center
                         img
                             display: block
-                            margin: auto!important
+                            margin: auto
                             @include responsivo(telefonoTable)
                                 height: 125px
                                 margin-bottom: 0
@@ -171,7 +169,7 @@
                             @include responsivo(smallPcTablet)
                                 height: 225px
                             @include responsivo(resto)
-                                height: 340px
+                                height: 270px!important
                 &.left
                     @include responsivo(pcMedio)
                         display: flex
@@ -187,7 +185,7 @@
             .right .image
                 .containerImage
                     img
-                        margin-left: auto
+                        margin-right: 0
                         @include responsivo(telefonoTable)
                             margin-right: auto!important
                             margin: 0!important
@@ -196,7 +194,7 @@
             .image .image
                 .containerImage
                     img
-                        margin-left: auto
+                        margin-right: 0
                         @include responsivo(telefonoTable)
                             margin-right: auto!important
                             margin: 0!important
@@ -204,7 +202,7 @@
             .left .image
                 .containerImage
                     img
-                        margin-left: auto
+                        margin-left: 0
                         @include responsivo(telefonoTable)
                             margin-left: auto!important
                             margin: 0!important
