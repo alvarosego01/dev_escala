@@ -317,8 +317,11 @@
                                         height: 325px
                         .left
                             .containerImage
-                                left: 0!important
-                            
+                                left: 35px!important
+                                @include responsivo(general)
+                                    left: 25px!important
+                                @include responsivo(smallPcTablet)
+                                    left: -25px!important
                 .form7
                     margin-bottom: 50px
                     padding: 0 50px
