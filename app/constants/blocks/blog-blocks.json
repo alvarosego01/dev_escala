@@ -180,7 +180,7 @@
                                 "key": "media_text_3_description",
                                 "label": "Description",
                                 "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
+                                "default": "Fondo corto de izquierda a derecha mas imagen - texto y titulo a la derecha Side content left"
                             },
                             {
                                 "key": "media_text_3_image",
@@ -215,5 +215,428 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "block-text-image-fondo-right",
+        "title": "Blog block text image fondo right",
+        "description": "Blog text image block fondo right",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "text, image, title,fondo",
+          "fields": [
+            {
+                "key": "media_text_6_sections",
+                "label": "Sections",
+                "type": "complex",
+                "layouts": [
+                    {
+                        "key": "media_text_6_layout",
+                        "label": "Info section",
+                        "fields": [
+                            {
+                                "key": "media_text_6_title",
+                                "label": "Title",
+                                "type": "rich_text",
+                                "default": "lorem ipsum dolor sit amet"
+                            },
+                            {
+                                "key": "media_text_6_description",
+                                "label": "Description",
+                                "type": "rich_text",
+                                "default": "Fondo corto de   derecha a izquierda mas imagen - texto y titulo a la izquierda Side content right"
+                            },
+                            {
+                                "key": "media_text_6_image",
+                                "label": "Image",
+                                "type": "image",
+                                "default": ""
+                            },
+                               {
+                                "key": "media_text_6_side",
+                                "label": "Side content",
+                                "type": "select",
+                                "options": [
+                                    {
+                                        "label": "Right",
+                                        "value": "right"
+                                    },
+                                    {
+                                        "label": "Left",
+                                        "value": "left"
+                                    }
+                                ],
+                                "default": "image"
+                            },
+                            {
+                                "key": "media_fondo_right_6_image",
+                                "label": "FondoImage",
+                                "type": "image",
+                                "default": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "block-image-fondo-centro",
+        "title": "Blog block  image fondo centro",
+        "description": "Blog block image block fondo centro",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "image,centroimg",
+          "fields": [
+            {
+                "key": "media_centro_8_sections",
+                "label": "Sections",
+                "type": "complex",
+                "layouts": [
+                    {
+                        "key": "media_centro_8_layout",
+                        "label": "Info section",
+                        "fields": [
+                        
+                            {
+                                "key": "media_centro_8_image",
+                                "label": "Image",
+                                "type": "image",
+                                "default": ""
+                            },
+                            
+                            {
+                                "key": "media_fondo_completo_8_image",
+                                "label": "FondoImage",
+                                "type": "image",
+                                "default": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "block-image-fondo-centro-right",
+        "title": "Blog block  image fondo centro right",
+        "description": "Blog block image block fondo centro right",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "image,centroimg",
+          "fields": [
+            {
+                "key": "media_centro_12_sections",
+                "label": "Sections",
+                "type": "complex",
+                "layouts": [
+                    {
+                        "key": "media_centro_12_layout",
+                        "label": "Info section",
+                        "fields": [
+                        
+                            {
+                                "key": "media_centro_12_image",
+                                "label": "Image",
+                                "type": "image",
+                                "default": ""
+                            },
+                            
+                            {
+                                "key": "media_fondo_completo_12_image",
+                                "label": "FondoImage",
+                                "type": "image",
+                                "default": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "block-text-image-fondo-completo",
+        "title": "Blog block text image fondo completo",
+        "description": "Blog text image block fondo completo",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "text, image, title,fondocompleto",
+          "fields": [
+            {
+                "key": "media_text_4_sections",
+                "label": "Sections",
+                "type": "complex",
+                "layouts": [
+                    {
+                        "key": "media_text_4_layout",
+                        "label": "Info section",
+                        "fields": [
+                            {
+                                "key": "media_text_4_title",
+                                "label": "Title",
+                                "type": "rich_text",
+                                "default": "lorem ipsum dolor sit amet"
+                            },
+                            {
+                                "key": "media_text_4_description",
+                                "label": "Description",
+                                "type": "rich_text",
+                                "default": "Fondo completo de izquierda a derecha, mas imagen side content right"
+                            },
+                            {
+                                "key": "media_text_4_image",
+                                "label": "Image",
+                                "type": "image",
+                                "default": ""
+                            },
+                               {
+                                "key": "media_text_4_side",
+                                "label": "Side content",
+                                "type": "select",
+                                "options": [
+                                    {
+                                        "label": "Right",
+                                        "value": "right"
+                                    },
+                                    {
+                                        "label": "Left",
+                                        "value": "left"
+                                    }
+                                ],
+                                "default": "image"
+                            },
+                            {
+                                "key": "media_fondo_completo_4_image",
+                                "label": "FondoImage",
+                                "type": "image",
+                                "default": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+ 
+    {
+        "name": "block-text-image-fondo-completo-left",
+        "title": "Blog block text image fondo completo left",
+        "description": "Blog text image block fondo completo left",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "text, image, title,fondocompletoleft",
+          "fields": [
+            {
+                "key": "media_text_5_sections",
+                "label": "Sections",
+                "type": "complex",
+                "layouts": [
+                    {
+                        "key": "media_text_5_layout",
+                        "label": "Info section",
+                        "fields": [
+                            {
+                                "key": "media_text_5_title",
+                                "label": "Title",
+                                "type": "rich_text",
+                                "default": "lorem ipsum dolor sit amet"
+                            },
+                            {
+                                "key": "media_text_5_description",
+                                "label": "Description",
+                                "type": "rich_text",
+                                "default": "Fondo completo de derecha a izquierda, mas imagen side content left"
+                            },
+                            {
+                                "key": "media_text_5_image",
+                                "label": "Image",
+                                "type": "image",
+                                "default": ""
+                            },
+                               {
+                                "key": "media_text_5_side",
+                                "label": "Side content",
+                                "type": "select",
+                                "options": [
+                                    {
+                                        "label": "Right",
+                                        "value": "right"
+                                    },
+                                    {
+                                        "label": "Left",
+                                        "value": "left"
+                                    }
+                                ],
+                                "default": "image"
+                            },
+                            {
+                                "key": "media_fondo_completo_left_5_image",
+                                "label": "FondoImage",
+                                "type": "image",
+                                "default": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
+    ,
+    {
+        "name": "block-text-parag-cards-2",
+        "title": "Blog block text parag cards 2",
+        "description": "Blog text parag block cards 2",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "text, parag,card2",
+        "fields": [
+            {
+                "key": "text_parag_9_title",
+                "label": "Title",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            },
+
+            {
+                "key": "text_parag_9_parag",
+                "label": "Paragraph",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            },
+            {
+                "key": "media_text_9_sections",
+                "label": "Sections",
+                "type": "complex",
+                "layouts": [
+                    {
+                        "key": "media_text_9_layout",
+                        "label": "Info section",
+                        "fields": [
+                            {
+                                "key": "media_text_9_description",
+                                "label": "Description",
+                                "type": "rich_text",
+                                "default": "lorem ipsum dolor sit amet"
+                            },
+                            {
+                                "key": "media_text_9_image",
+                                "label": "Image",
+                                "type": "image",
+                                "default": ""
+                            }
+                             
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "name": "block-text-parag-cards-3",
+        "title": "Blog block text parag cards 3",
+        "description": "Blog text parag block cards 3",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "text, parag,card3",
+        "fields": [
+            {
+                "key": "text_parag_10_title",
+                "label": "Title",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            },
+
+            {
+                "key": "text_parag_10_parag",
+                "label": "Paragraph",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            },
+            {
+                "key": "media_text_10_sections",
+                "label": "Sections",
+                "type": "complex",
+                "layouts": [
+                    {
+                        "key": "media_text_10_layout",
+                        "label": "Info section",
+                        "fields": [
+                            {
+                                "key": "media_text_10_description",
+                                "label": "Description",
+                                "type": "rich_text",
+                                "default": "lorem ipsum dolor sit amet"
+                            },
+                            {
+                                "key": "media_text_10_image",
+                                "label": "Image",
+                                "type": "image",
+                                "default": ""
+                            }
+                             
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+    ,
+    {
+        "name": "block-text-parag-cards-4",
+        "title": "Blog block text parag cards 4",
+        "description": "Blog text parag block cards 4",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "text, parag,card4",
+        "fields": [
+            {
+                "key": "text_parag_11_title",
+                "label": "Title",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            },
+
+            {
+                "key": "text_parag_11_parag",
+                "label": "Paragraph",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+            },
+            {
+                "key": "media_text_11_sections",
+                "label": "Sections",
+                "type": "complex",
+                "layouts": [
+                    {
+                        "key": "media_text_11_layout",
+                        "label": "Info section",
+                        "fields": [
+                            {
+                                "key": "media_text_11_description",
+                                "label": "Description",
+                                "type": "rich_text",
+                                "default": "lorem ipsum dolor sit amet"
+                            },
+                            {
+                                "key": "media_text_11_image",
+                                "label": "Image",
+                                "type": "image",
+                                "default": ""
+                            }
+                             
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+    
 ]

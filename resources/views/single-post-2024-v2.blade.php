@@ -1,5 +1,5 @@
 {{--
-    Template Name: [B] Blog - Single - 2024
+    Template Name: [B] Blog - Single - 2024 - V2
     Template Post Type: post
 --}}
 @php
@@ -34,27 +34,19 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
 @extends('layouts.app')
 
 @section('content')
-<div id="single_blog_2024" class="post-template">
+<div id="single_blog_2024_v2" class="post-template">
 
 
     <div class="sections">
 
-        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol single_blog_2024 single_blog_2024_0">
+        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol single_blog_2024_v2 single_blog_2024_v2_0">
             <div class="backgroundFull" @if (isset($blog_single_1_background_header) && $blog_single_1_background_header !='' ) style="background-image: url('{{ App::get_img($blog_single_1_background_header, 'src') }}');" @endif>
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
                         <div class="groupElements row">
                             <div class="info col-md-12 col-lg-8">
                                 <div class="containElements row threeCol">
-                                    <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
-                                        <div class="containerImage">
 
-                                            @if (isset($blog_single_1_image_header) && $blog_single_1_image_header != '')
-                                            <img alt="{{ App::get_img($blog_single_1_image_header, 'alt') }}" src="{{ App::get_img($blog_single_1_image_header, 'src') }}" loading="lazy">
-                                            @endif
-
-                                        </div>
-                                    </div>
                                     <div class="ele ele2 col-md-12 col-lg-7">
 
                                         @if (isset($blog_single_1_title) && $blog_single_1_title != '')
@@ -70,64 +62,39 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
                                         @endif
 
                                     </div>
+                                    <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet left">
+                                        <div class="containerImage">
+
+                                            @if (isset($blog_single_1_image_header) && $blog_single_1_image_header != '')
+                                            <img alt="{{ App::get_img($blog_single_1_image_header, 'alt') }}" src="{{ App::get_img($blog_single_1_image_header, 'src') }}" loading="lazy">
+                                            @endif
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form7 col-md-12 col-lg-4">
                                 <div class="containElements">
-
                                     <div class="formatForm redirectWeb" redirectweb="true">
-
-                                        <div class="form-container form-1" style="text-align:center;">
-                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
-                                            <h5 class="titleFormat blackcolor">Recibe un demo
-                                                <br class="space">
-                                               personalizado en vivo
-                                            </h5>
-                                            @php
-                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                            $_rs = [];
-                                            $_formShortcode = null;
-                                            if ($_data = get_posts($_args)) {
-                                            foreach ($_data as $_key) {
-                                            $_rs[$_key->ID] = $_key->post_title;
-                                            if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                            }
-                                            }
-                                            } else {
-                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
-                                            }
-                                            @endphp
-                                            {!! do_shortcode($_formShortcode) !!}
-                                        </div>
-
-                                        <div class="form-container form-2" style="display:none; text-align:center;">
-                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
-                                            <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
-                                                <br class="space">tu demo
-                                            </h5>
-                                            @php
-                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                            $_rs = [];
-                                            $_formShortcode = null;
-                                            if ($_data = get_posts($_args)) {
-                                            foreach ($_data as $_key) {
-                                            $_rs[$_key->ID] = $_key->post_title;
-                                            if ($_key->post_title === 'Demo flujo step 2') {
-                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                            }
-                                            }
-                                            } else {
-                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
-                                            }
-                                            @endphp
-                                            {!! do_shortcode($_formShortcode) !!}
-                                        </div>
+                                        <h5 class="titleFormat blackcolor">Recibe un tour guiado de Escala</h5>
+                                        @php
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
+                                        @endphp
+                                        {!! do_shortcode($_formShortcode) !!}
                                     </div>
-
-
                                 </div>
-
                             </div>
                             <div class="imageReviewsMobile hideOnDesktop">
                                 <div class="image">
@@ -144,7 +111,7 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
             </div>
         </section>
 
-        <section class="w-full customSection sectionParent single_blog_2024_1">
+        <section class="w-full customSection sectionParent single_blog_2024_v2_1">
 
             <div class="section-row">
                 <section class="innerSectionElement sct0">
@@ -160,7 +127,7 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
 
         </section>
 
-        <section class="customSection sectionParent single_blog_2024 single_blog_2024_9">
+        <section class="customSection sectionParent single_blog_2024_v2 single_blog_2024_v2_9">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
@@ -185,7 +152,7 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
             </div>
         </section>
 
-        <section class="customSection sectionParent single_blog_2024 single_blog_2024_10">
+        <section class="customSection sectionParent single_blog_2024_v2 single_blog_2024_v2_10">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
@@ -217,7 +184,7 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
         @endphp
 
         @if (isset($posts) && $posts != null)
-        <section class="customSection sectionParent single_blog_2024 single_blog_2024_11">
+        <section class="customSection sectionParent single_blog_2024_v2 single_blog_2024_v2_11">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
