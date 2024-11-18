@@ -132,19 +132,19 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
                     <div class="containElements">
 
                         @if (isset($blog_single_1_banner_d) && $blog_single_1_banner_d != '')
-                        <img alt="{{ App::get_img($blog_single_1_banner_d, 'alt') }}" src="{{ App::get_img($blog_single_1_banner_d, 'src') }}" loading="lazy" class="card-img-top bannerSingleBlog DT2_e">
+                        <img alt="{{ App::get_img($blog_single_1_banner_d, 'alt') }}" src="{{ App::get_img($blog_single_1_banner_d, 'src') }}" loading="lazy" class="card-img-top bannerSingleBlog DT2_e openPopUpButton popup-general-demo-2022">
                         @endif
 
                         @if (isset($blog_single_1_banner_m) && $blog_single_1_banner_m != '')
-                        <img alt="{{ App::get_img($blog_single_1_banner_m, 'alt') }}" src="{{ App::get_img($blog_single_1_banner_m, 'src') }}" loading="lazy" class="card-img-top bannerSingleBlog M_e">
+                        <img alt="{{ App::get_img($blog_single_1_banner_m, 'alt') }}" src="{{ App::get_img($blog_single_1_banner_m, 'src') }}" loading="lazy" class="card-img-top bannerSingleBlog M_e openPopUpButton popup-general-demo-2022">
                         @endif
 
 
-                        <script>
+                        <!-- <script>
                             jQuery('.bannerSingleBlog').on('click', function() {
                                 window.open('{!! $blog_single_1_banner_url !!}', '_blank');
                             });
-                        </script>
+                        </script> -->
 
                     </div>
                 </section>
