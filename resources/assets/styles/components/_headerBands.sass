@@ -45,12 +45,16 @@
 
     .section-row
         padding: 0
+        width: 1100px!important
         @include responsivo(telefonoTable)
             width: 95%!important
         @include responsivo(pcMedio)
             width: 95%!important
+        @include responsivo(general)
+            width: 950px!important
         @include responsivo(smallPcTablet)
             max-width: 1000px!important
+
         .innerSectionElement.sct1
             .contain
                 @include responsivo(general)

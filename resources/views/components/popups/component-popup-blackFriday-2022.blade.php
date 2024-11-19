@@ -96,7 +96,7 @@
                                     <div class="sect1 ">
                                         <div class="containElements">
                                             <span> <strong>#EscalaBlack</strong><br class="space">
-                                                La promo por Black Friday para acelerar <br class="space">
+                                                La promo por Black Friday para acelerar <br class="DT_e">
                                                  tus ventas</span>
                                                  <br class="space"> <br class="space2">
                                             <span class="disfruta">¡Disfruta</span>
