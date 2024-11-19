@@ -95,10 +95,15 @@
                                 <div class="containElements ">
                                     <div class="sect1 ">
                                         <div class="containElements">
-                                            <span> Conoce</span>
+                                            <span> <strong>#EscalaBlack</strong><br class="space">
+                                                La promo por Black Friday para acelerar <br class="space">
+                                                 tus ventas</span>
+                                                 <br class="space"> <br class="space2">
+                                            <span class="disfruta">¡Disfruta</span>
                                             <h2>
-                                                <span class="colorLinear"> #EscalaBlack,</span><br class="space">
-                                                la promo por Black Friday para acelerar tus ventas
+                                                <span class="colorLinear"> 2 meses gratis </span><br class="space">
+                                                de Escala!
+
                                             </h2>
                                         </div>
 
@@ -106,10 +111,10 @@
 
                                     <div class="sect2">
                                         <div class="containerImage">
-                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/imagen_interna_popup_bf_personas_2024.png') !!}" alt="Imagen personas especial 2024 escala black friday">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_hombre_feliz_banner_black_friday.png') !!}" alt="Imagen personas especial 2024 escala black friday">
                                         </div>
                                     </div>
-                                 
+
 
                                 </div>
 
