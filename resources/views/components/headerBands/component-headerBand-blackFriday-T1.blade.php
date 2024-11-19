@@ -6,20 +6,20 @@
 
             <div class="containElements">
                 <div class="contain">
-
-                <span class="hashTitle">
-                        <span class="colorLinear">#EscalaBlack</span> ¡está por comenzar!
-                    </span>
-                    <div class="separator"></div>
                     <span class="sub">
-                        Conoce la promo para <br>
-                        acelerar tus ventas
+                        #EscalaBlack la promo <br>
+                        para acelerar tus ventas
+                    </span>
+
+                    <div class="separator"></div>
+                    <span class="hashTitle">
+               ¡Disfruta <span class="colorLinear"> 2 meses gratis</span> de Escala!
                     </span>
 
                 </div>
 
                 <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
-                    Quiero ser el primero en conocerla
+                    ¡Redimir promo ahora!
                 </a>
             </div>
         </section>
@@ -36,20 +36,20 @@
 
             <div class="containElements">
                 <div class="contain">
+                    <span class="sub">
+                        #EscalaBlack la promo <br>
+                        para acelerar tus ventas
+                    </span>
+
+                    <div class="separator"></div>
 
                     <span class="hashTitle">
-                    <span class="colorLinear">  #EscalaBlack</span> ¡está por comenzar!
+                        ¡Disfruta <span class="colorLinear"> 2 meses gratis</span> de Escala!
                     </span>
-                    <div class="separator"></div>
-                    <span class="sub">
-                        Conoce la promo para <br>
-                        acelerar tus ventas
-                    </span>
-
                 </div>
 
                 <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
-                    Quiero ser el primero en conocerla
+                    ¡Redimir promo ahora!
                 </a>
             </div>
         </section>
