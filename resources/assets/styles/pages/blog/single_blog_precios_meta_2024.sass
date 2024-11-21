@@ -773,7 +773,7 @@
                 padding: 30px 0px 0px 0px
                 @include responsivo(telefonoTable)
                     padding-top: 15px
-                    flex-direction: column-reverse
+                    flex-direction: column
                 .containerImage
                     margin: 0px
                     margin-left: 40px
@@ -833,11 +833,14 @@
                     overflow: hidden
                     width: 95%
                     margin: 40px 0px
+                    @include responsivo(telefonoTable)
+                        display: none!important
                     .filas
                         width: 300px
                         border-right: 1px solid #B9E6E9
                         &:last-child
                             border-right: none
+
                         div.header
                             background-color: #CAF1F3
                             padding: 10px
@@ -890,11 +893,14 @@
                     .filas:first-of-type
                         width: 40%!important
 
+
                     .filas
                         width: 100%
                         border-right: 2px solid #B9E6E9
                         &:last-child
                             border-right: none
+                        @include responsivo(telefonoTable)
+                            display: none!important
                         div.header
                             background-color: #CAF1F3
                             padding: 10px
@@ -957,7 +963,18 @@
                             .filaInfo3
                                 min-height: 120px
 
-     
+                .tableInfoMb1, .tableInfoMb2
+                    display: none
+                    margin-top: 30px
+                    @include responsivo(telefonoTable)
+                        display: block!important
+                    img
+                        height: auto!important
+                        width: 100%!important
+                .tableInfoMb1
+                    img
+                        height: auto!important
+                        width: 80%!important
 
         .innerSectionElement.sct0
             margin-bottom: 30px

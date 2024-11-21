@@ -363,12 +363,31 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="tableInfoMb1">
+                            <div class="containerImage">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/table_1_plantillas.png') }}" alt="">
+                            </div>
+                            <div class="containerImage">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/table_2_cliente.png') }}" alt="">
+                            </div>
+                            <div class="containerImage">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/table_3_acceso.png') }}" alt="">
+                            </div>
+                        </div>
+
                         <div class="info info2">
 
                             <p>También es importante categorizar las plantillas de Meta en WhatsApp API debido a que permite a las
                                 empresas organizar y encontrar rápidamente las respuestas adecuadas para cada tipo de interacción. 
                                 A continuación, exploraremos el objetivo comercial de cada tipo de plantilla, junto con algunos ejemplos:</p>
                         </div>
+
+                        <div class="tableInfoMb2">
+                            <div class="containerImage">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/table_info_4.png') }}" alt="">
+                            </div>
+
+                        </div>  
                         <div class="tableInfo2">
                             <div class="filas">
                                 <div class="header">
@@ -450,9 +469,8 @@
                             </div>
 
                         </div>
-                        <div class="containerImage">
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/test.png') }}" alt="">
-                        </div>
+
+
                     </div>
 
 
@@ -490,7 +508,7 @@
                         </p>
                     </div>
                     <div class="containerImage">
-                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/tabla_precios_meta_2024.png') }}" alt="">
+                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/tabla_precios_meta_2024_01.png') }}" alt="">
                         <p>
                             Si quieres conocer las tarifas de Meta más actualizadas, <a target="_blank" href="https://business.whatsapp.com/products/platform-pricing?lang=es_LA&country=Per%C3%BA&currency=D%C3%B3lar%20(USD)&category=Autenticaci%C3%B3n">ingresa aquí.</a>
                         </p>
