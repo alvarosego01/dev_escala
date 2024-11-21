@@ -289,6 +289,222 @@
         <section class="w-full customSection sectionParent single_blog_precios_meta_2024_2_0" id="precios">
 
             <div class="section-row">
+                <section class="innerSectionElement sctInit">
+                    <div class="containElements">
+                        <div class="info">
+                            <h3>Categorización de conversaciones y plantillas:</h3>
+                            <p>La categorización de conversaciones y plantillas de Meta en WhatsApp API
+                                permite a las empresas gestionar sus interacciones de manera más eficiente y
+                                responder con mayor agilidad. En el siguiente cuadro, se presentan las categorías
+                                de cada conversación, su duración y los tipos, características o requisitos que las definen:</p>
+                        </div>
+                        <div class="tableInfo">
+                            <div class="filas">
+                                <div class="header">
+                                    <h4 class="tittle">
+                                        Conversaciones iniciados desde plantillas
+                                    </h4>
+                                </div>
+                                <div class="contentInfo">
+                                    <p>
+                                        Son conversaciones iniciadas por la empresa usando una plantilla aprobada por Meta, donde cada tipo define el costo y el tipo de la conversación. 
+
+                                    </p>
+                                    <p>
+                                        <span>Duración:</span> 24 horas
+                                    </p>
+                                    <p>
+                                        <span>Tipos:</span>
+                                    </p>
+
+                                    <ul>
+                                        <li>
+                                            <span>Marketing:</span> Promoción e invitación a conversar.
+                                        </li>
+                                        <li>
+                                            <span>Autenticación:</span> Para validar la identidad a través de códigos únicos.
+                                        </li>
+                                        <li>
+                                            <span>Utilidad:</span> Activadas por una acción o solicitud del usuario para confirmaciones.
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+                            <div class="filas">
+                                <div class="header">
+                                    <h4 class="tittle">
+                                        Conversaciones
+                                        iniciadas por el cliente
+                                    </h4>
+                                </div>
+                                <div class="contentInfo">
+                                    <p>
+                                        Son  interacciones en las que el cliente inicia la comunicación con la empresa.
+                                    </p>
+                                    <p>
+                                        <span>Duración:</span> 24 horas
+                                    </p>
+                                    <p>
+
+                                        <span>Caracteristicas:</span>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            Son abiertas y tienen un formato libre de texto como respuesta al mensaje de un cliente.
+                                        </li>
+                                        <li>
+                                            Ahora son gratis e ilimitadas.
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+
+                            <div class="filas">
+                                <div class="header">
+                                    <h4 class="tittle">
+                                        Conversaciones iniciadas desde un punto de acceso 
+                                    </h4>
+                                </div>
+                                <div class="contentInfo">
+                                    <p>
+                                        Son conversaciones gratuitas que se inician cuando un cliente hace clic en “Escribir” en un anuncio con un botón que lo dirige a WhatsApp.
+                                    </p>
+                                    <p>
+                                        <span>Duración:</span> 72 horas
+                                    </p>
+                                    <p>
+                                        <span>Requisitos:</span>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            El cliente debe iniciar la conversación desde un dispositivo móvil mediante el botón en un anuncio o en una página de Facebook.
+                                        </li>
+                                        <li>
+                                            La empresa debe responder con un mensaje de cualquier tipo en las primeras 24 horas para abrir la conversación gratuita.
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tableInfoMb1">
+                            <div class="containerImage">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/table_1_plantillas.png') }}" alt="">
+                            </div>
+                            <div class="containerImage">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/table_2_cliente.png') }}" alt="">
+                            </div>
+                            <div class="containerImage">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/table_3_acceso.png') }}" alt="">
+                            </div>
+                        </div>
+
+                        <div class="info info2">
+
+                            <p>También es importante categorizar las plantillas de Meta en WhatsApp API debido a que permite a las
+                                empresas organizar y encontrar rápidamente las respuestas adecuadas para cada tipo de interacción. 
+                                A continuación, exploraremos el objetivo comercial de cada tipo de plantilla, junto con algunos ejemplos:</p>
+                        </div>
+
+                        <div class="tableInfoMb2">
+                            <div class="containerImage">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/table_info_4.png') }}" alt="">
+                            </div>
+
+                        </div>  
+                        <div class="tableInfo2">
+                            <div class="filas">
+                                <div class="header">
+                                    <h4 class="tittle">
+                                        Tipo
+                                    </h4>
+                                </div>
+                                <div class="contentInfo">
+                                    <div class="filaInfo1"><span>Marketing</span></div>
+                                    <div class="filaInfo2"><span>Utilidad</span></div>
+                                    <div class="filaInfo3"><span>Autenticación</span></div>
+                                </div>
+                            </div>
+
+                            <div class="filas">
+                                <div class="header">
+                                    <h4 class="tittle">
+                                        Objetivo comercial
+                                    </h4>
+                                </div>
+                                <div class="contentInfo">
+                                    <div class="filaInfo1">
+                                        <ul>
+                                            <li>Reconocimiento</li>
+                                            <li>Ventas</li>
+                                            <li>Retargeting</li>
+                                            <li>Promoción de la app</li>
+                                            <li>Consolidar relaciones con los clientes</li>
+                                        </ul>
+                                    </div>
+                                    <div class="filaInfo2">
+                                        <ul>
+                                            <li>Administración de suscripciones en WhatsApp</li>
+                                            <li>Administración de pedidos</li>
+                                            <li>Alertas o actualizaciones de cuentas</li>
+                                            <li>Encuestas de opinión</li>
+                                            <li>Continuar una conversación en WhatsApp</li>
+                                        </ul>
+                                    </div>
+                                    <div class="filaInfo3">
+                                        <ul>
+                                            <li>Código de autenticación</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="filas">
+                                <div class="header">
+                                    <h4 class="tittle">
+                                        Ejemplo
+                                    </h4>
+                                </div>
+                                <div class="contentInfo">
+                                    <div class="filaInfo1">
+                                        <ul>
+                                            <li>"¿Lo sabías? Instalamos una nueva torre en tu zona para que disfrutes de una mejor experiencia."</li>
+                                            <li>"Como agradecimiento por tu último pedido, disfruta de un 15% de descuento en el próximo."</li>
+                                            <li>"Gracias por usar nuestra app. ¡Haz clic aquí {{2}} para obtener más información de la nueva feature."</li>
+                                            <li>"{{1}}, ¿creías que nos olvidaríamos? ¡De ninguna manera! ¡Feliz cumpleaños! Te deseamos lo mejor en este nuevo año."</li>
+                                        </ul>
+                                    </div>
+                                    <div class="filaInfo2">
+                                        <ul>
+                                            <li> "¡Gracias por confirmar la suscripción!"</li>
+                                            <li>"Actualización diaria de {{1}}: tu saldo es {{2}}."</li>
+                                            <li>"Tus comentarios aseguran que sigamos mejorando. Haz clic aquí {{1}} para compartir tu opinión sobre tu reciente visita"</li>
+                                            <li>"Hola. Veo que solicitaste ayuda a través de nuestro chat en línea. Soy el asistente virtual de WhatsApp. ¿Cómo puedo ayudarte?"</li>
+                                        </ul>
+                                    </div>
+                                    <div class="filaInfo3">
+                                        <ul>
+                                            <li>"{{1}} es tu código de verificación".
+                                            </li>
+                                            <li>"{{1}} es tu código de verificación. Caduca en 15 minutos."</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </section>
+
                 <section class="innerSectionElement sct0">
                     <div class="containElements">
                         <div class="info">
@@ -301,17 +517,10 @@
 
                         <div class="info" id="pasosLink">
                             <p>
-                                Meta requiere pagar por el uso de la WhatsApp API
-                                porque está diseñada específicamente para empresas y
-                                proporciona una serie de ventajas y funcionalidades
-                                avanzadas que no están disponibles en la versión
-                                gratuita de WhatsApp (destinada principalmente para
-                                uso personal).
-                                <br class="space">
-                                <br class="space">
-                                Los precios establecidos por Meta se establecen según
-                                el país asociado al código de cuenta de WhatsApp del
-                                destinatario y 4 diferentes categorías de conversaciones:
+                                Meta requiere pagar por el uso de la WhatsApp API porque está diseñada
+                                específicamente para empresas y proporciona una serie de ventajas y funcionalidades
+                                avanzadas que no están disponibles en la versión gratuita de WhatsApp
+                                (destinada principalmente para uso personal). 
                             </p>
                         </div>
                         <div class="containerImage">
@@ -322,30 +531,13 @@
 
                 <section class="innerSectionElement sct2">
                     <div class="info">
-                        <ul>
-                            <li><span> Marketing (Iniciados por la empresa):</span> Se refiere a las interacciones en las que la empresa toma la iniciativa para enviar mensajes al cliente sin que este haya iniciado previamente la conversación. Para iniciar una conversación fuera de la ventana de 24 horas, la empresa debe utilizar plantillas de mensajes previamente aprobadas por Meta.
-                            </li>
-                        </ul>
-                        <ul>
-                            <li><span>Autenticación (Verificación de la identidad):</span> Es una categoría diseñada principalmente para procesos de inicio de sesión, recuperación de contraseñas y otros mensajes automáticos con fines de autenticación.
-                            </li>
-                        </ul>
-                        <ul>
-                            <li><span>Utilidad (Actualizaciones):</span> Se refiere a las conversaciones que proveen información transaccional con confirmaciones de entrega, actualizaciones de envíos, recordatorios de citas, notificaciones de pago o facturación.
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <span>Servicio (Iniciados por el usuario):</span> Se refiere a las interacciones en las que el cliente inicia la comunicación con la empresa. Una vez que la empresa recibe un mensaje de un contacto, la empresa puede responder y enviar todos los mensajes que desee sin costo adicional durante las siguientes 24 horas. Este período de 24 horas comienza desde el último mensaje recibido, lo que permite una comunicación fluida y continua sin cargos adicionales dentro de ese tiempo.
-                            </li>
-                        </ul>
-                        <br class="DT_e">
-                        <br class="DT_e">
-                        <p>En la siguiente tabla observamos los precios (en USD) más recientes de Meta para el uso de WhatsApp API en diferentes países de América y España para conversaciones de :
+                        <p>
+                            En la siguiente tabla observamos los precios (en USD) más recientes de Meta
+                            para el uso de WhatsApp API en diferentes países de América y España para conversaciones de:
                         </p>
                     </div>
                     <div class="containerImage">
-                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/tabla_precios_meta_2024.png') }}" alt="">
+                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/tabla_precios_meta_2024_01.png') }}" alt="">
                         <p>
                             Si quieres conocer las tarifas de Meta más actualizadas, <a target="_blank" href="https://business.whatsapp.com/products/platform-pricing?lang=es_LA&country=Per%C3%BA&currency=D%C3%B3lar%20(USD)&category=Autenticaci%C3%B3n">ingresa aquí.</a>
                         </p>
