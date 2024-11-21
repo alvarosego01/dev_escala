@@ -892,15 +892,15 @@
                     margin: 40px 0px
                     .filas:first-of-type
                         width: 40%!important
-
+                    @include responsivo(telefonoTable)
+                        display: none!important
 
                     .filas
                         width: 100%
                         border-right: 2px solid #B9E6E9
                         &:last-child
                             border-right: none
-                        @include responsivo(telefonoTable)
-                            display: none!important
+
                         div.header
                             background-color: #CAF1F3
                             padding: 10px
