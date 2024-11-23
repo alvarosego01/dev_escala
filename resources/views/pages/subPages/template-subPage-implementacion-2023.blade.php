@@ -24,7 +24,7 @@
 
                                            <p class="principalBigText grayColorTexts">
                                                Incorpora las herramientas del CRM
-                                               a las operaciones de tu empresa 
+                                               a las operaciones de tu empresa
                                                con la guía de nuestro equipo
                                            </p>
 
@@ -42,33 +42,58 @@
 
                                </div>
                                <div class="form7 col-md-12 col-lg-4 ">
-
                                    <div class="containElements">
 
                                        <div class="formatForm redirectWeb" redirectweb="true">
 
-                                           <h5 class="titleFormat blackcolor">Recibe un tour guiado <br class="space">
-                                               de Escala</h5>
+                                           <div id="form-1" style=" text-align:center;">
+                                               <img style="margin-top:30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
+                                               <h5 class="titleFormat blackcolor">Recibe un demo
+                                                   <br class="space">
+                                                   en vivo
+                                               </h5>
+                                               @php
+                                               $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                               $_rs = [];
+                                               $_formShortcode = null;
+                                               if ($_data = get_posts($_args)) {
+                                               foreach ($_data as $_key) {
+                                               $_rs[$_key->ID] = $_key->post_title;
+                                               if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                               $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                               }
+                                               }
+                                               } else {
+                                               $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                               }
+                                               @endphp
+                                               {!! do_shortcode($_formShortcode) !!}
+                                           </div>
 
-
-                                           @php
-                                           $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                           $_rs = [];
-                                           $_formShortcode = null;
-                                           if ($_data = get_posts($_args)) {
-                                           foreach ($_data as $_key) {
-                                           $_rs[$_key->ID] = $_key->post_title;
-                                           if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                           $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                           }
-                                           }
-                                           } else {
-                                           $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                           }
-                                           @endphp
-                                           {!! do_shortcode($_formShortcode) !!}
-
+                                           <div id="form-2" style="display:none; text-align:center;">
+                                               <img style="margin-top:30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
+                                               <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
+                                                   <br class="space">tu demo
+                                               </h5>
+                                               @php
+                                               $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                               $_rs = [];
+                                               $_formShortcode = null;
+                                               if ($_data = get_posts($_args)) {
+                                               foreach ($_data as $_key) {
+                                               $_rs[$_key->ID] = $_key->post_title;
+                                               if ($_key->post_title === 'Demo flujo step 2') {
+                                               $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                               }
+                                               }
+                                               } else {
+                                               $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                               }
+                                               @endphp
+                                               {!! do_shortcode($_formShortcode) !!}
+                                           </div>
                                        </div>
+
 
                                    </div>
                                </div>
@@ -640,69 +665,6 @@
                </div>
 
            </section>
-
-
-           @php
-           $escalaUrl = 'https://escala.com';
-           $items = [
-           [
-           'type' => 'master',
-           'title' => '¿Cuánto dura el proceso de implementación autogestionada?',
-           'text' => 'Escala es la plataforma todo en uno de marketing digital y ventas que te ayudará a acelerar el éxito de tu negocio, con todas las <br class="D_e"> herramientas en un solo lugar para crecer de una manera constante. Conoce todos los beneficios de Escala:<br class="space"><br class="space">
-           <ul style="list-style: disc; padding-left: 20px">
-               <li>
-                   <p>Crea landing pages increíbles sin programar, para darte a conocer y capturar la información de tus visitantes.</p>
-               </li>
-               <li>
-                   <p>Crea, administra y publica anuncios digitales de Instagram y Facebook, sin salir de Escala, para generar tráfico a tus páginas.</p>
-               </li>
-               <li>
-                   <p>Gestiona tu base de datos y haz más productivo el trabajo de tu equipo de ventas con el CRM más fácil de usar.</p>
-               </li>
-               <li>
-                   <p>Mantén la comunicación constante con tus leads y clientes enviando emails masivos sin caer en la bandeja de spam.</p>
-               </li>
-               <li>
-                   <p>Automatiza tareas repetitivas: workflows y campañas de emails para hacer crecer tu negocio en piloto automático.</p>
-               </li>
-               <li>
-                   <p>Mide y optimiza tus campañas digitales con las analíticas en tiempo real.</p>
-               </li>
-           </ul>',
-           ],
-           [
-           'type' => 'master',
-           'title' => '¿Cuánto cuesta el servicio de acompañamiento Escala para la implementación autogestionada?',
-           'text' => 'No. nuestra herramienta es muy intuitiva y fácil de usar. Para que estés más tranquilo, hemos preparado una serie de tutoriales muy <br class="D_e"> prácticos, que te ayudarán a despejar cualquier duda que tengas mientras vives la experiencia. También puedes contar con nuestro <br class="D_e"> acompañamiento, a través de asesorías, que te serán de gran ayuda en los primeros momentos de uso de la plataforma. <a class="hiperButtonGreenBlueT2" href="' . $escalaUrl . '/zoom-meeting">Atención al cliente.</a>',
-           ],
-           [
-           'type' => 'master',
-           'title' => '¿Cuánto tiempo debe dedicarle cada cliente para implementar Escala?',
-           'text' => 'Cuando adquieres cualquiera de los planes de Escala cuentas con: Todas las funcionalidades de marketing digital y ventas, servicio <br class="D_e"> ilimitado y entrenamiento para usar la plataforma.',
-
-           ],
-           [
-           'type' => 'master',
-           'title' => '¿Cuál es el horario de atención del equipo de soporte por chat de WhatsApp y Plataforma?',
-           'text' => 'Cuando adquieres cualquiera de los planes de Escala cuentas con: Todas las funcionalidades de marketing digital y ventas, servicio <br class="D_e"> ilimitado y entrenamiento para usar la plataforma.',
-
-           ],
-           ];
-
-           $parameters = [
-           'classSection' => 'implementacion-2023-8',
-           'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-           'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-           'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-           'items' => $items,
-           'title' => '
-           Preguntas frecuentes
-           ',
-           ];
-           @endphp
-           @contain_FAQ_T1($parameters)
-           @endcontain_FAQ_T1
-
 
 
 
