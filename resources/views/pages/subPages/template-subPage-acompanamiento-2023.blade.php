@@ -693,7 +693,7 @@
                     <div class="containElements">
                         <h2 class="title">
                             ¿Tienes preguntas o necesidades técnicas puntuales?<br class="space">
-                            <span>¡Estamos listos par atenderte por chat casi 24/7!</span>
+                            <span>¡Estamos listos para atenderte por chat!</span>
                         </h2>
                     </div>
 
