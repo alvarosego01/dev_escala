@@ -50,20 +50,20 @@
                                             De Lunes a Viernes:
                                         </h3>
                                         <p class="text">
-                                            7:00 am - 6:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_mex_.png') !!}" loading="lazy"> <br class="space">
-                                            8:00 am - 7:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_col_per_.png') !!}" loading="lazy"><br class="space">
-                                            9:00 am - 8:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_ve_chi_usa.png') !!}" loading="lazy"> <br class="space">
-                                            10:00 am - 9:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_arg_urg.png') !!}" loading="lazy"><br class="space">
+                                            6:00 am - 7:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_mex_2.png') !!}" loading="lazy"> <br class="space">
+                                            7:00 am - 8:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_col_per_usa_cr.png') !!}" loading="lazy"><br class="space">
+                                            8:00 am - 9:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_ven_2.png') !!}" loading="lazy"> <br class="space">
+                                            9:00 am - 10:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_arg_uru_chil_2.png') !!}" loading="lazy"><br class="space">
                                         </p>
                                         <hr>
                                         <h3>
                                             Sábados:
                                         </h3>
                                         <p class="text">
-                                            7:00 am - 12:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_mex_.png') !!}" loading="lazy"> <br class="space">
-                                            8:00 am - 1:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_col_per_.png') !!}" loading="lazy"><br class="space">
-                                            9:00 am - 2:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_ve_chi_usa.png') !!}" loading="lazy"> <br class="space">
-                                            10:00 am - 3:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_arg_urg.png') !!}" loading="lazy"><br class="space">
+                                            8:00 am - 12:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_mex_2.png') !!}" loading="lazy"> <br class="space">
+                                            9:00 am - 1:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_col_per_usa_cr.png') !!}" loading="lazy"><br class="space">
+                                            10:00 am - 2:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_ven_2.png') !!}" loading="lazy"> <br class="space">
+                                            11:00 am - 3:00 pm. <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_arg_uru_chil_2.png') !!}" loading="lazy"><br class="space">
                                         </p>
                                     </div>
                                 </div>
