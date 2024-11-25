@@ -60,7 +60,9 @@
                 p
                     &:last-child
                         margin-bottom: 0
-
+            li
+                @include responsivo(telefonoTable)
+                    margin-bottom: 12px!important
             .primaryText, li
                 color: #706B6D
                 text-align: left

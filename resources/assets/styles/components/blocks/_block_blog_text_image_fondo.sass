@@ -111,6 +111,10 @@
                         p
                             &:last-child
                                 margin-bottom: 0
+
+                    li
+                        @include responsivo(telefonoTable)
+                            margin-bottom: 12px!important
                     .text, li
                         font-family: Nunito
                         font-style: normal

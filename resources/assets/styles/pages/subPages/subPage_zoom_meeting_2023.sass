@@ -186,14 +186,15 @@
                 justify-content: center
                 width: auto
                 @include responsivo(telefonoTable)
-                    width: 95%
+                    width: 100%
                     margin: 0 auto
                     text-align: center
+                    align-items: center
                 @include responsivo(pcMedio)
-                    width: 80%
+                    width: 100%
                     margin: 0 auto
                     text-align: center
-                
+                    align-items: center
                 .containElements
                     h4 
                         text-align: left 
@@ -219,12 +220,21 @@
                             font-size: 16px
                         @include responsivo(pcMedio)
                             font-size: 16px
-
-                    p
-                        color: #706B6D
-                        font-weight: 500
-                        line-height: 1.2
-                        font-size: 14px
+                    .text
+                        div
+                            display: flex
+                            align-items: center
+                            p
+                                color: #706B6D
+                                font-weight: 500
+                                line-height: 1.2
+                                font-size: 14px
+                                margin-bottom: 0px
+                                width: 140px!important
+                                @include responsivo(telefonoTable)
+                                    width: 150px!important
+                                @include responsivo(pcMedio)
+                                    width: 150px!important
 
         section.innerSectionElement.sct3
             .groupElements
