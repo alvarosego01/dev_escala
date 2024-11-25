@@ -738,7 +738,7 @@
                     <div class="containElements">
                         <h2 class="title">
                             ¿Tienes preguntas o necesidades técnicas puntuales?<br class="space">
-                            <span>¡Estamos listos par atenderte por chat casi 24/7!</span>
+                            <span>¡Estamos listos para atenderte por chat!</span>
                         </h2>
                     </div>
 
@@ -766,28 +766,28 @@
                                             </div>
                                             <div class="col-6 col-lg-3">
                                                 <div class="container-flags">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/07-acompanamiento-2023.png') !!}"
+                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_mex_.png') !!}"
                                                         loading="lazy">
                                                 </div>
                                                 <p class="text-time">6 am - 7 pm</p>
                                             </div>
                                             <div class="col-6 col-lg-3">
                                                 <div class="container-flags">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
+                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/horario_col_per_usa_cr.png') !!}"
                                                         loading="lazy">
                                                 </div>
                                                 <p class="text-time">7 am - 8 pm</p>
                                             </div>
                                             <div class="col-6 col-lg-3">
                                                 <div class="container-flags ">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
+                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_ven.png') !!}"
                                                         loading="lazy">
                                                 </div>
                                                 <p class="text-time">8 am - 9 pm</p>
                                             </div>
                                             <div class="col-6 col-lg-3">
                                                 <div class="container-flags">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
+                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_arg_uru_chil.png') !!}"
                                                         loading="lazy">
                                                 </div>
                                                 <p class="text-time">9 am - 10 pm</p>
@@ -799,28 +799,28 @@
                                             </div>
                                             <div class="col-6 col-lg-3">
                                                 <div class="container-flags">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/07-acompanamiento-2023.png') !!}"
+                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_mex_.png') !!}"
                                                         loading="lazy">
                                                 </div>
                                                 <p class="text-time">8 am - 12 pm</p>
                                             </div>
                                             <div class="col-6 col-lg-3">
                                                 <div class="container-flags">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
+                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/horario_col_per_usa_cr.png') !!}"
                                                         loading="lazy">
                                                 </div>
                                                 <p class="text-time">9 am - 1 pm</p>
                                             </div>
                                             <div class="col-6 col-lg-3">
                                                 <div class="container-flags ">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
+                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_ven.png') !!}"
                                                         loading="lazy">
                                                 </div>
                                                 <p class="text-time">10 am - 2 pm</p>
                                             </div>
                                             <div class="col-6 col-lg-3">
                                                 <div class="container-flags">
-                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
+                                                    <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_arg_uru_chil.png') !!}"
                                                         loading="lazy">
                                                 </div>
                                                 <p class="text-time">11 am - 3 pm</p>
