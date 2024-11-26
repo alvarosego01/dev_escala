@@ -463,6 +463,39 @@
 
         </section>
 
+        <section class="customSection sectionParent casoExito_PoctLab_7 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/implementacion_fondo_seccion_9.svg') }}')">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/escalanauta-volador.png.png') !!}"
+                            loading="lazy">
+                    </div>
+
+                </section>
+                <section class="innerSectionElement sct2">
+
+                    <div class="containElements">
+                        <h2 class="title">
+                            ¡Ningún otro CRM te acompaña mejor!
+                        </h2>
+                    </div>
+                </section>
+                <section class="innerSectionElement sct3">
+
+                    <div class="btnCenter">
+
+                        <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                            Conocer más
+                        </a>
+                    </div>
+                </section>
+
+            </div>
+
+        </section>
 
 
 
