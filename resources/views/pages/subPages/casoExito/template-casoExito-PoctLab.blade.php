@@ -11,20 +11,21 @@
         'title' =>'
         <img class="logo-img" src="'.App::setFilePath('/assets/images/illustrations/others/logo_poctlab_casos_de_exito.png').'">
         <small><span>Caso de éxito:</span> Salud</small>
-
         ',
         'text' => '<span class="whiteColor">
-            Laboratorio clínico con más de 30 años en el mercado
+            Laboratorio clínico con más <br class="DT_e">
+            de 30 años en el mercado
         </span>
-        <span style="color: #DEF3F5; font-weight: 700;">
-            duplicó sus ventas con el CRM de Escala en
+        <span class="span2">
+            duplicó sus ventas con <br class="DT_e">
+            el CRM de Escala en <br class="DT_e">
             menos de un año.
         </span>
 
         ',
         'threeCol' => true,
         'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
-        'backgroundImage' => App::setFilePath('/assets/images/banners/background_space_5.png'),
+        'backgroundImage' => App::setFilePath('/assets/images/banners/bg_section_1_poctlab.svg'),
         'overlayImage' => null,
         'image' => App::setFilePath('/assets/images/person/casos_de_uso_poctlab_mujer_feliz.png'),
         'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM',
@@ -37,10 +38,10 @@
 
             <div class="section-row">
 
-                <section class="innerSectionElement sct1">
-                    <h2 class="title">¿Qué más han logrado con Escala?</h2>
-                    <div class="containElements">
+                <section class="innerSectionElement">
+                    <h2 class="primaryTitle">¿Qué más han logrado con Escala?</h2>
 
+                    <div class="containElements">
                         <div class="element">
                             <div class="numbers">
                                 <span>
@@ -48,7 +49,8 @@
                                 </span>
                             </div>
                             <p class="text">
-                                la cantidad  de prospectos generados
+                                la cantidad de <br class="DT_e">
+                                prospectos generados
                             </p>
                         </div>
                         <div class="element">
@@ -58,7 +60,9 @@
                                 </span>
                             </div>
                             <p class="text">
-                                el volumen de conversaciones con prospectos por WhatsAPP
+                                el volumen de <br class="DT_e">
+                                conversaciones con <br class="DT_e">
+                                prospectos por WhatsAPP
                             </p>
                         </div>
                         <div class="element">
@@ -68,7 +72,8 @@
                                 </span>
                             </div>
                             <p class="text">
-                                la eficiencia operativa de sus  procesos comerciales
+                                la eficiencia operativa de <br class="DT_e">
+                                sus procesos comerciales
                             </p>
                         </div>
                     </div>
@@ -78,7 +83,7 @@
             </div>
 
         </section>
-        <section class="component-info-text-video-T1 customSection sectionParent casoExito_PoctLab_3 ">
+        <section class="component-info-text-video-T1 customSection sectionParent casoExito_PoctLab_2 ">
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
@@ -102,8 +107,8 @@
                         <div class="video col-md-12">
 
                             @php
-                            $videoEmbed = App::setFilePath('/assets/videos/caso_exito_rg.mp4');
-                            $videoCover = App::setFilePath('/assets/images/illustrations/others/rg_portrait_video.jpg');
+                            $videoEmbed = App::setFilePath('/assets/videos/');
+                            $videoCover = App::setFilePath('/assets/images/illustrations/others/video_img_test.png');
                             @endphp
 
                             @if (isset($videoEmbed) && $videoEmbed != null)
@@ -141,7 +146,7 @@
             </div>
 
         </section>
-        <section class="component-info-text-image-T1 customSection sectionParent casoExito_PoctLab_2">
+        <section class="component-info-text-image-T1 customSection sectionParent casoExito_PoctLab_3">
 
 
             <div class="section-row">
@@ -161,9 +166,9 @@
                             </h3>
 
                             <p class="text">
-                                Poctlab, es un laboratorio clínico en la ciudad
-                                de Medellín, que apoya el diagnóstico médico,
-                                ofreciendo resultados rápidos y confiables,
+                                Poctlab, es un laboratorio clínico en la ciudad <br class="DT_e">
+                                de Medellín, que apoya el diagnóstico médico, <br class="DT_e">
+                                ofreciendo resultados rápidos y confiables, <br class="DT_e">
                                 con servicio a domicilio.
                             </p>
 
@@ -173,7 +178,7 @@
                             <div class="containElements">
                                 <ul class="itemsList">
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/industria_icon_orange.png') !!}" alt=""></div>
+                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/industria_salud_icon_orange.png') !!}" alt=""></div>
                                         <strong>Industria:</strong> Salud
                                     </li>
 
@@ -331,88 +336,153 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images//illustrations/otto/otto_incognito_desafio.png') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/1_poctlab_gift_caso_de_exito.gif') !!}" alt="">
                                 </div>
                             </div>
 
                             <div class="info">
                                 <ul>
                                     <li>
-                                        <span>
-                                            Falta de automatización en ventas:
-                                        </span>
-                                        El proceso
-                                        comercial se realizaba 100% manual. Esto consumía tiempo valioso
-                                        de vendedores en tareas repetitivas y pérdidas de oportunidades de
-                                        venta debido a tiempos largos de respuesta y falta de seguimiento.
+                                        <span>1</span>
+                                        <h3 class="subTittle">
+                                            WhatsApp integrado al CRM:
+                                        </h3>
                                     </li>
-
-                                    <li>
-                                        <span>
-                                            Uso de herramientas poco integradas:
-                                        </span>
-                                        El seguimiento
-                                        comercial se documentabaen un Excel, complicando la medición y comunicación
-                                        eficiente con prospectos interesados.
-                                    </li>
-
-                                    <li>
-                                        <span>Falta de seguimiento y claridad en el
-                                            proceso comercial:
-                                        </span>
-                                        Poca visibilidad de
-                                        la información, las actividades y los resultados
-                                        de venta dificultaba la optimización y entrega de
-                                        una buena experiencia de compra.
-                                    </li>
+                                </ul>
+                                <p class="text">
+                                    Cuando alguien solicita información sobre servicios del laboratorio vía WhatsApp,
+                                    la información de contacto del potencial cliente queda registrada en el CRM de
+                                    forma automática y se asigna, también automáticamente, a un asesor miembro de Poctlab
+                                    según criterios predefinidos para su gestión comercial. Los datos del potencial cliente
+                                    quedan guardados y el mismo se etiqueta según el tipo de servicio que solicitado ,
+                                    facilitando la priorización y delegación al área correspondiente.
+                                </p>
+                                <h3 class="subTitle">
+                                    Impacto:
+                                </h3>
+                                <ul>
+                                    <li>Mejoraron la atención y satisfacción del cliente/paciente</li>
+                                    <li>Aumentaron eficiencia en sus procesos comerciales</li>
+                                    <li>Redujeron pérdida de información valiosa de cada contacto</li>
                                 </ul>
                             </div>
 
 
                         </div>
+
                         <div class="containElements right">
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images//illustrations/otto/otto_incognito_desafio.png') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/2_poctlab_gift_caso_de_exito.gif') !!}" alt="">
                                 </div>
                             </div>
 
                             <div class="info">
                                 <ul>
                                     <li>
-                                        <span>
-                                            Falta de automatización en ventas:
-                                        </span>
-                                        El proceso
-                                        comercial se realizaba 100% manual. Esto consumía tiempo valioso
-                                        de vendedores en tareas repetitivas y pérdidas de oportunidades de
-                                        venta debido a tiempos largos de respuesta y falta de seguimiento.
+                                        <span>2</span>
+                                        <h3 class="subTittle">
+                                            Landing pages:
+                                        </h3>
                                     </li>
+                                </ul>
+                                <p class="text">
 
-                                    <li>
-                                        <span>
-                                            Uso de herramientas poco integradas:
-                                        </span>
-                                        El seguimiento
-                                        comercial se documentabaen un Excel, complicando la medición y comunicación
-                                        eficiente con prospectos interesados.
-                                    </li>
-
-                                    <li>
-                                        <span>Falta de seguimiento y claridad en el
-                                            proceso comercial:
-                                        </span>
-                                        Poca visibilidad de
-                                        la información, las actividades y los resultados
-                                        de venta dificultaba la optimización y entrega de
-                                        una buena experiencia de compra.
-                                    </li>
+                                    Poctlab crea una página específica para cada servicio.
+                                    Estas páginas ayudan a atraer personas interesadas en ese servicio,
+                                    asegurando que cada cliente reciba atención personalizada según sus
+                                    necesidades.
+                                </p>
+                                <h3 class="subTitle">
+                                    Impacto:
+                                </h3>
+                                <ul>
+                                    <li>Aumentaron la tasa de conversión de visitas a leads/prospecto y de leads/prospecto a clientes</li>
+                                    <li>Aumentaron sus ingresos por ventas</li>
+                                    <li>Redujeron costos asociados a la adquisición de clientes</li>
                                 </ul>
                             </div>
 
 
                         </div>
+
+                        <div class="containElements left">
+
+                            <div class="image">
+                                <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/3_poctlab_gift_caso_de_exito.gif') !!}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="info">
+                                <ul>
+                                    <li>
+                                        <span>3</span>
+                                        <h3 class="subTittle">
+                                            Flujos de automatización:
+                                        </h3>
+                                    </li>
+                                </ul>
+                                <p class="text">
+                                    Crearon flujos automatizados para el envío de respuestas vía WhatsApp
+                                    a consultas frecuentes de potenciales clientes. Con simples preguntas
+                                    que se envían automáticamente por WhatsApp, el sistema responde con
+                                    la información correspondiente de forma automática. Esto les permitió
+                                    atender a clientes fuera del horario laboral y ganar eficiencias operativas.
+                                </p>
+                                <h3 class="subTitle">
+                                    Impacto:
+                                </h3>
+                                <ul>
+                                    <li>Incrementaron la capacidad del equipo al ahorrar tiempo en tareas operativas</li>
+                                    <li>Redujeron errores en las respuestas a pacientes</li>
+                                    <li>Mejoraron el servicio y la experiencia de compra</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+
+                        <div class="containElements right">
+
+                            <div class="image">
+                                <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/4_poctlab_gift_caso_de_exito.gif') !!}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="info">
+                                <ul>
+                                    <li>
+                                        <span>4</span>
+                                        <h3 class="subTittle">
+                                            Escala App:
+                                        </h3>
+                                    </li>
+                                </ul>
+                                <p class="text">
+                                    Tanto los asesores comerciales como los líderes de Poctlab,
+                                    usan el CRM de Escala integrado al WhatsApp Inbox desde sus
+                                    celulares. Esto les permite hacer seguimiento, gestionar el
+                                    flujo de trabajo y monitorear resultados desde cualquier lugar,
+                                    sin depender de una computadora.
+                                </p>
+                                <h3 class="subTitle">
+                                    Impacto:
+                                </h3>
+                                <ul>
+                                    <li>Incrementaron la productividad del equipo comercial</li>
+                                    <li>Redujeron los tiempos de respuesta</li>
+                                    <li>Mejoraron la experiencia del cliente</li>
+                                    <li>Facilitaron la optimización continua de las operaciones</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+
+
                     </section>
 
                 </div>
@@ -463,7 +533,7 @@
 
         </section>
 
-        <section class="customSection sectionParent casoExito_PoctLab_7 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/implementacion_fondo_seccion_9.svg') }}')">
+        <section class="customSection sectionParent casoExito_PoctLab_7 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_9.svg') }}')">
 
             <div class="section-row">
 
@@ -479,7 +549,7 @@
 
                     <div class="containElements">
                         <h2 class="title">
-                            ¡Ningún otro CRM te acompaña mejor!
+                            ¿Listo para alcanzar resultados similares en tu negocio?
                         </h2>
                     </div>
                 </section>
@@ -488,7 +558,7 @@
                     <div class="btnCenter">
 
                         <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            Conocer más
+                            Recibe un demo de Escala
                         </a>
                     </div>
                 </section>
