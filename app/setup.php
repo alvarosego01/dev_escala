@@ -397,6 +397,10 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-casoExito-salud-fitness.blade.php')) {
         wp_enqueue_style('subPage_casoExito_salud_fitness.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_salud_fitness.css'), false, THEME_VERSION);
     }
+    //PoctLab
+    if (is_page_template('views/template-casoExito-PoctLab.blade.php')) {
+        wp_enqueue_style('subPage_casoExito_PoctLab.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_PoctLab.css'), false, THEME_VERSION);
+    }
     // ---
     // --- Casos uso
     if (is_page_template('views/template-casoUso-home.blade.php')) {
