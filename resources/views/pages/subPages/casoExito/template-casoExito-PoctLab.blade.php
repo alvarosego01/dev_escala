@@ -2,37 +2,142 @@
     <div class="sections">
 
 
-        @php
-        $parameters = [
-        'backgroundImageType' => true,
-        'overlay' => false,
-        'classSection' => 'threeCol casoExito_PoctLab_0 newHome',
+        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol casoExito_PoctLab_0 newHome ">
 
-        'title' =>'
-        <img class="logo-img" src="'.App::setFilePath('/assets/images/illustrations/others/logo_poctlab_casos_de_exito.png').'">
-        <small><span>Caso de éxito:</span> Salud</small>
-        ',
-        'text' => '<span class="whiteColor">
-            Laboratorio clínico con más <br class="DT_e">
-            de 30 años en el mercado
-        </span>
-        <span class="span2">
-            duplicó sus ventas con <br class="DT_e">
-            el CRM de Escala en <br class="DT_e">
-            menos de un año.
-        </span>
 
-        ',
-        'threeCol' => true,
-        'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
-        'backgroundImage' => App::setFilePath('/assets/images/banners/bg_section_1_poctlab.svg'),
-        'overlayImage' => null,
-        'image' => App::setFilePath('/assets/images/person/casos_de_uso_poctlab_mujer_feliz.png'),
-        'img_alt' => 'Ilustración de hombre trabajando en su computadora portátil en referencia al uso de Escala como plataforma CRM',
-        ];
-        @endphp
-        @header_t1($parameters)
-        @endheader_t1
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_1_poctlab.svg') }}')" class="backgroundFull">
+                <div class="section-row">
+                    <section class="innerSectionElement sct1">
+
+                        <div class="groupElements row">
+
+
+                            <div class="info
+                                                col-md-12 col-lg-8
+                                            ">
+
+
+                                <div class="containElements row threeCol">
+
+                                    <div class="ele ele1 col-md-12 col-lg-6">
+
+                                        <div class="containerImage">
+                                            <img src="{!! App::setFilePath('/assets/images/person/casos_de_uso_poctlab_mujer_feliz.png') !!}" alt="Ilustración medico poctlab feliz" loading="lazy">
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="ele ele2 col-md-12 col-lg-6">
+                                        <h1 class="principalBigTitle blackColor">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_poctlab_casos_de_exito.png') !!}" alt="" class="logo-img" loading="lazy">
+                                            <small><span>Caso de éxito:</span> Salud</small>
+
+                                        </h1>
+
+                                        <p class="principalBigText grayColorTexts">
+                                            <span class="whiteColor">
+                                                Laboratorio clínico con más <br class="DT_e">
+                                                de 30 años en el mercado
+                                            </span>
+                                            <span class="span2">
+                                                duplicó sus ventas con <br class="DT_e">
+                                                el CRM de Escala en <br class="DT_e">
+                                                menos de un año.
+                                            </span>
+
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                            <div class="form7
+                                                        col-md-12 col-lg-4
+                                                ">
+                                <div class="containElements">
+
+                                    <div class="formatForm redirectWeb" redirectweb="true">
+
+                                        <div class="form-container form-1" style="text-align:center;">
+                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
+                                            <h5 class="titleFormat blackcolor">Recibe un demo
+                                                <br class="space">
+                                                personalizado en vivo
+                                            </h5>
+                                            @php
+                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                            $_rs = [];
+                                            $_formShortcode = null;
+                                            if ($_data = get_posts($_args)) {
+                                            foreach ($_data as $_key) {
+                                            $_rs[$_key->ID] = $_key->post_title;
+                                            if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                            }
+                                            }
+                                            } else {
+                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                            }
+                                            @endphp
+                                            {!! do_shortcode($_formShortcode) !!}
+                                        </div>
+
+                                        <div class="form-container form-2" style="display:none; text-align:center;">
+                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
+                                            <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
+                                                <br class="space">tu demo
+                                            </h5>
+                                            @php
+                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                            $_rs = [];
+                                            $_formShortcode = null;
+                                            if ($_data = get_posts($_args)) {
+                                            foreach ($_data as $_key) {
+                                            $_rs[$_key->ID] = $_key->post_title;
+                                            if ($_key->post_title === 'Demo flujo step 2') {
+                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                            }
+                                            }
+                                            } else {
+                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                            }
+                                            @endphp
+                                            {!! do_shortcode($_formShortcode) !!}
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                            <div class=" ele3 col-md-12 col-lg-6">
+
+                                <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images/person/casos_de_uso_poctlab_mujer_feliz.png') !!}" alt="Ilustración medico poctlab feliz" loading="lazy">
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
 
         <section class="customSection sectionParent casoExito_PoctLab_1">
 
