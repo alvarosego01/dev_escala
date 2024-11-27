@@ -225,39 +225,42 @@
 
                         <section class="innerSectionElement sct2">
                             <div class="containElements">
-
                                 <ul class="itemsList">
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/crm_icon_poctlab.png') !!}" alt=""></div>
-                                        <span><span>CRM</span> para gestionar y almacenar los contactos de prospectos y clientes</span>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/crm_icon_escala.png') !!}" alt="">
+                                        <span><span class="title">CRM</span> para gestionar y almacenar los contactos de prospectos y clientes</span>
+                                    </li>
+
+                                    <li>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/ads_icon_escala.png') !!}" alt="">
+                                        <span><span class="title">Anuncios digitales</span> integrado a Escala para medir el rendimiento de campañas de marketing</span>
                                     </li>
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/ws__icon_poctlab.png') !!}" alt=""></div>
-                                        <span> <span>Whatsapp Inbox </span> para centralizar y automatizar la comunicación con sus prospectos y clientes</span>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Whatsapp Inbox</span> para centralizar y automatizar la comunicación con sus prospectos y clientes</span>
+                                    </li>
+
+                                    <li>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/email_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Email Marketing </span>para enviar comunicados masivos a prospectos y clientes</span>
                                     </li>
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/flujos_icon_poctlab.png') !!}" alt=""></div>
-                                        <span> <span>Flujos Automatizados</span>  para ahorrar tiempo en tareas rutinarias</span>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/flujos_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Flujos Automatizados</span> para ahorrar tiempo en tareas rutinarias</span>
                                     </li>
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/landing__icon_poctlab.png') !!}" alt=""></div>
-                                        <span> <span>Landing pages </span>para crear páginas web efectivas y capturar información de prospectos interesados</span>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Reportes Personalizados</span> para medir el desempeño del negocio y aplicar mejoras</span>
+                                    </li>
+
+
+                                    <li>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Landing pages </span>para crear páginas web efectivas y capturar información de prospectos interesados</span>
                                     </li>
                                     <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/ads_icon_poctlab.png') !!}" alt=""></div>
-                                        <span><span>Anuncios digitales</span> integrado a Escala para medir el rendimiento de campañas de marketing</span>
-                                    </li>
-                                    <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/email_icon_poctlab.png') !!}" alt=""></div>
-                                        <span> <span>Email Marketing </span>para enviar comunicados masivos a prospectos y clientes</span>
-                                    </li>
-                                    <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes_icon_poctlab.png') !!}" alt=""></div>
-                                        <span> <span>Reportes Personalizados</span> para medir el desempeño del negocio y aplicar mejoras</span>
-                                    </li>
-                                    <li>
-                                        <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/app_icon_poctlab.png') !!}" alt=""></div>
-                                        <span> <span>Escala App</span> para gestionar el negocio desde cualquier lugar</span>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/app_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Escala App</span> para gestionar el negocio desde cualquier lugar</span>
                                     </li>
                                 </ul>
                             </div>
@@ -320,10 +323,7 @@
 
             <div class="section-row">
                 <div class="containElements">
-
                     <section class="innerSectionElement sct1">
-                        <img src="{!! App::setFilePath('/assets/images/person/img_doctora_poctlab.png') !!}" alt="">
-
                         <h2 class="primaryTitle">
                             ¿Cómo utilizaron Escala para mejorar <br class="DT_e">
                             sus resultados de marketing y venta?
@@ -333,7 +333,6 @@
 
                     <section class="innerSectionElement sct2">
                         <div class="containElements left">
-
                             <div class="image">
                                 <div class="containerImage">
                                     <img src="{!! App::setFilePath('/assets/images/gifs/1_poctlab_gift_caso_de_exito.gif') !!}" alt="">
@@ -341,30 +340,32 @@
                             </div>
 
                             <div class="info">
-                                <ul>
-                                    <li>
-                                        <span>1</span>
-                                        <h3 class="subTittle">
-                                            WhatsApp integrado al CRM:
-                                        </h3>
-                                    </li>
-                                </ul>
-                                <p class="text">
-                                    Cuando alguien solicita información sobre servicios del laboratorio vía WhatsApp,
-                                    la información de contacto del potencial cliente queda registrada en el CRM de
-                                    forma automática y se asigna, también automáticamente, a un asesor miembro de Poctlab
-                                    según criterios predefinidos para su gestión comercial. Los datos del potencial cliente
-                                    quedan guardados y el mismo se etiqueta según el tipo de servicio que solicitado ,
-                                    facilitando la priorización y delegación al área correspondiente.
-                                </p>
-                                <h3 class="subTitle">
-                                    Impacto:
-                                </h3>
-                                <ul>
-                                    <li>Mejoraron la atención y satisfacción del cliente/paciente</li>
-                                    <li>Aumentaron eficiencia en sus procesos comerciales</li>
-                                    <li>Redujeron pérdida de información valiosa de cada contacto</li>
-                                </ul>
+                                <div class="containElements">
+                                    <span>1</span>
+                                    <h3 class="subTittle">
+                                        WhatsApp integrado al CRM:
+                                    </h3>
+                                </div>
+                                <div class="containElements_2">
+                                    <p class="text">
+                                        Cuando alguien solicita información sobre servicios del
+                                        laboratorio vía WhatsApp, la información de contacto del
+                                        potencial cliente queda registrada en el CRM de forma automática
+                                        y se asigna, también automáticamente, a un asesor miembro de
+                                        Poctlab según criterios predefinidos para su gestión comercial
+                                        . Los datos del potencial cliente quedan guardados y el mismo se
+                                        etiqueta según el tipo de servicio que solicitado , facilitando la
+                                        priorización y delegación al área correspondiente.
+                                    </p>
+                                    <h3 class="subTitle">
+                                        Impacto:
+                                    </h3>
+                                    <ul>
+                                        <li>Mejoraron la atención y satisfacción del cliente/paciente</li>
+                                        <li>Aumentaron eficiencia en sus procesos comerciales</li>
+                                        <li>Redujeron pérdida de información valiosa de cada contacto</li>
+                                    </ul>
+                                </div>
                             </div>
 
 
@@ -379,31 +380,30 @@
                             </div>
 
                             <div class="info">
-                                <ul>
-                                    <li>
-                                        <span>2</span>
-                                        <h3 class="subTittle">
-                                            Landing pages:
-                                        </h3>
-                                    </li>
-                                </ul>
-                                <p class="text">
+                                <div class="containElements">
+                                    <span>2</span>
+                                    <h3 class="subTittle">
+                                        Landing pages:
+                                    </h3>
+                                </div>
+                                <div class="containElements_2">
+                                    <p class="text">
 
-                                    Poctlab crea una página específica para cada servicio.
-                                    Estas páginas ayudan a atraer personas interesadas en ese servicio,
-                                    asegurando que cada cliente reciba atención personalizada según sus
-                                    necesidades.
-                                </p>
-                                <h3 class="subTitle">
-                                    Impacto:
-                                </h3>
-                                <ul>
-                                    <li>Aumentaron la tasa de conversión de visitas a leads/prospecto y de leads/prospecto a clientes</li>
-                                    <li>Aumentaron sus ingresos por ventas</li>
-                                    <li>Redujeron costos asociados a la adquisición de clientes</li>
-                                </ul>
+                                        Poctlab crea una página específica para cada servicio.
+                                        Estas páginas ayudan a atraer personas interesadas en ese servicio,
+                                        asegurando que cada cliente reciba atención personalizada según sus
+                                        necesidades.
+                                    </p>
+                                    <h3 class="subTitle">
+                                        Impacto:
+                                    </h3>
+                                    <ul>
+                                        <li>Aumentaron la tasa de conversión de visitas a leads/prospecto y de leads/prospecto a clientes</li>
+                                        <li>Aumentaron sus ingresos por ventas</li>
+                                        <li>Redujeron costos asociados a la adquisición de clientes</li>
+                                    </ul>
+                                </div>
                             </div>
-
 
                         </div>
 
@@ -416,35 +416,34 @@
                             </div>
 
                             <div class="info">
-                                <ul>
-                                    <li>
-                                        <span>3</span>
-                                        <h3 class="subTittle">
-                                            Flujos de automatización:
-                                        </h3>
-                                    </li>
-                                </ul>
-                                <p class="text">
-                                    Crearon flujos automatizados para el envío de respuestas vía WhatsApp
-                                    a consultas frecuentes de potenciales clientes. Con simples preguntas
-                                    que se envían automáticamente por WhatsApp, el sistema responde con
-                                    la información correspondiente de forma automática. Esto les permitió
-                                    atender a clientes fuera del horario laboral y ganar eficiencias operativas.
-                                </p>
-                                <h3 class="subTitle">
-                                    Impacto:
-                                </h3>
-                                <ul>
-                                    <li>Incrementaron la capacidad del equipo al ahorrar tiempo en tareas operativas</li>
-                                    <li>Redujeron errores en las respuestas a pacientes</li>
-                                    <li>Mejoraron el servicio y la experiencia de compra</li>
-                                </ul>
+                                <div class="containElements">
+                                    <span>3</span>
+                                    <h3 class="subTittle">
+                                        Flujos de automatización:
+                                    </h3>
+                                </div>
+                                <div class="containElements_2">
+                                    <p class="text">
+                                        Crearon flujos automatizados para el envío de respuestas vía WhatsApp
+                                        a consultas frecuentes de potenciales clientes. Con simples preguntas
+                                        que se envían automáticamente por WhatsApp, el sistema responde con
+                                        la información correspondiente de forma automática. Esto les permitió
+                                        atender a clientes fuera del horario laboral y ganar eficiencias operativas.
+                                    </p>
+                                    <h3 class="subTitle">
+                                        Impacto:
+                                    </h3>
+                                    <ul>
+                                        <li>Incrementaron la capacidad del equipo al ahorrar tiempo en tareas operativas</li>
+                                        <li>Redujeron errores en las respuestas a pacientes</li>
+                                        <li>Mejoraron el servicio y la experiencia de compra</li>
+                                    </ul>
+                                </div>
                             </div>
-
 
                         </div>
 
-                        <div class="containElements right">
+                        <div class="containElements right special">
 
                             <div class="image">
                                 <div class="containerImage">
@@ -453,32 +452,31 @@
                             </div>
 
                             <div class="info">
-                                <ul>
-                                    <li>
-                                        <span>4</span>
-                                        <h3 class="subTittle">
-                                            Escala App:
-                                        </h3>
-                                    </li>
-                                </ul>
-                                <p class="text">
-                                    Tanto los asesores comerciales como los líderes de Poctlab,
-                                    usan el CRM de Escala integrado al WhatsApp Inbox desde sus
-                                    celulares. Esto les permite hacer seguimiento, gestionar el
-                                    flujo de trabajo y monitorear resultados desde cualquier lugar,
-                                    sin depender de una computadora.
-                                </p>
-                                <h3 class="subTitle">
-                                    Impacto:
-                                </h3>
-                                <ul>
-                                    <li>Incrementaron la productividad del equipo comercial</li>
-                                    <li>Redujeron los tiempos de respuesta</li>
-                                    <li>Mejoraron la experiencia del cliente</li>
-                                    <li>Facilitaron la optimización continua de las operaciones</li>
-                                </ul>
+                                <div class="containElements">
+                                    <span>4</span>
+                                    <h3 class="subTittle">
+                                        Escala App:
+                                    </h3>
+                                </div>
+                                <div class="containElements_2">
+                                    <p class="text">
+                                        Tanto los asesores comerciales como los líderes de Poctlab,
+                                        usan el CRM de Escala integrado al WhatsApp Inbox desde sus
+                                        celulares. Esto les permite hacer seguimiento, gestionar el
+                                        flujo de trabajo y monitorear resultados desde cualquier lugar,
+                                        sin depender de una computadora.
+                                    </p>
+                                    <h3 class="subTitle">
+                                        Impacto:
+                                    </h3>
+                                    <ul>
+                                        <li>Incrementaron la productividad del equipo comercial</li>
+                                        <li>Redujeron los tiempos de respuesta</li>
+                                        <li>Mejoraron la experiencia del cliente</li>
+                                        <li>Facilitaron la optimización continua de las operaciones</li>
+                                    </ul>
+                                </div>
                             </div>
-
 
                         </div>
 
@@ -519,7 +517,7 @@
                                     que deseen llevar su empresa a otro nivel”.
                                     <br class="space">
                                     <br class="space">
-                                    <span class="yellow">
+                                    <span class="blue">
                                         Miguel Urrego, Director Comercial
                                     </span>
 
