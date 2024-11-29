@@ -26,18 +26,54 @@
                                         </h2>
                                         <hr>
                                     </div>
+                                    <style>
+                                        #popup-casosUso_general_new .cards {
+                                            display: none;
+                                        }
 
+                                        #popup-casosUso_general_new .cards.active {
+                                            display: block;
+                                        }
+                                    </style>
                                     <div class="sect2">
-                                        <div class="card">
+                                        <div class="cards educacion">
+                                            <div class="cardInterna">
+                                                <div class="card">
+                                                    <a href="">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_poctlab_popup.png') !!}" loading="lazy">
+                                                    </a>
+                                                </div>
+                                                <div class="card">
+                                                    <a href="">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/life_nutrition_popup.png') !!}" loading="lazy">
+                                                    </a>
+                                                </div>
+                                                <div class="card">
+                                                    <a href="">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/bienestar_popup.png') !!}" loading="lazy">
+                                                    </a>
+                                                </div>
+                                            </div>
 
-                                            <a href=""><img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_poctlab_popup.png') !!}" loading="lazy"></a>
                                         </div>
-                                        <div class="card">
-                                            <a href=""> <img src="{!! App::setFilePath('/assets/images/illustrations/others/life_nutrition_popup.png') !!}" loading="lazy"></a>
+                                        <div class="cards consultoria">
+                                            <div class="cardInterna">
+                                                <div class="card">
+                                                    <a href="">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_poctlab_popup.png') !!}" loading="lazy">
+                                                    </a>
+                                                </div>
+                                                <div class="card">
+                                                    <a href="">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/life_nutrition_popup.png') !!}" loading="lazy">
+                                                    </a>
+                                                </div>
+
+                                            </div>
+
                                         </div>
-                                        <div class="card">
-                                            <a href=""> <img src="{!! App::setFilePath('/assets/images/illustrations/others/bienestar_popup.png') !!}" loading="lazy"></a>
-                                        </div>
+
+
 
                                     </div>
 
@@ -65,28 +101,35 @@
 
     </div>
 
-    <script type="text/javascript">
-        jQuery('.openPopUpButton').click(function(e) {
-            e.preventDefault();
-            jQuery('#popup-casosUso_general_new').modal('show');
-        });
+    <script>
+        jQuery(document).ready(function() {
+            jQuery('.openPopUpButton').click(function(e) {
+                e.preventDefault();
+                jQuery('#popup-casosUso_general_new').modal('show');
 
+                const targetClass = jQuery(this).attr('class').split(' ').find(c =>
+                    c !== 'openPopUpButton' && c !== 'popup-casosUso_general_new'
+                );
+                jQuery('#popup-casosUso_general_new .cards').removeClass('active');
 
-        // Cierra el popup cuando se haga clic fuera de él o en un botón de cierre
-        jQuery(document).click(function(e) {
-            if (!jQuery(e.target).closest('.popup-casosUso_general_new.popup_casos_uso_new').length &&
-                !jQuery(e.target).is('.openPopUpButton')) {
-                jQuery('.popup-casosUso_general_new.popup_casos_uso_new').fadeOut(); // O usa hide()
-            }
-        });
-        // Opcional: para cerrar el popup desde el overlay
-        jQuery('.modal').on('click', function(e) {
-            if (jQuery(e.target).hasClass('modal')) {
-                jQuery(this).modal('hide');
-            }
+                if (targetClass) {
+                    jQuery(`#popup-casosUso_general_new .cards.${targetClass}`).addClass('active');
+                }
+            });
+            jQuery(document).click(function(e) {
+                if (!jQuery(e.target).closest('#popup-casosUso_general_new').length &&
+                    !jQuery(e.target).is('.openPopUpButton')) {
+                    jQuery('#popup-casosUso_general_new').modal('hide');
+                }
+            });
+
+            jQuery('.modal').on('click', function(e) {
+                if (jQuery(e.target).hasClass('modal')) {
+                    jQuery(this).modal('hide');
+                }
+            });
         });
     </script>
-
 
 
 </div>
