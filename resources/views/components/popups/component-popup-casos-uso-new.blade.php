@@ -39,7 +39,7 @@
                                         <div class="cards educacion">
                                             <div class="cardInterna">
                                                 <div class="card">
-                                                    <a href="">
+                                                    <a href="/escala/casos-de-exito-poctlab/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_poctlab_popup.png') !!}" loading="lazy">
                                                     </a>
                                                 </div>
@@ -59,7 +59,7 @@
                                         <div class="cards consultoria">
                                             <div class="cardInterna">
                                                 <div class="card">
-                                                    <a href="">
+                                                    <a href="/casos-de-exito-poctlab/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_poctlab_popup.png') !!}" loading="lazy">
                                                     </a>
                                                 </div>
@@ -103,12 +103,12 @@
 
     <script>
         jQuery(document).ready(function() {
-            jQuery('.openPopUpButton').click(function(e) {
+            jQuery('.openPopUpButton2').click(function(e) {
                 e.preventDefault();
                 jQuery('#popup-casosUso_general_new').modal('show');
 
                 const targetClass = jQuery(this).attr('class').split(' ').find(c =>
-                    c !== 'openPopUpButton' && c !== 'popup-casosUso_general_new'
+                    c !== 'openPopUpButton2' && c !== 'popup-casosUso_general_new'
                 );
                 jQuery('#popup-casosUso_general_new .cards').removeClass('active');
 
@@ -118,7 +118,7 @@
             });
             jQuery(document).click(function(e) {
                 if (!jQuery(e.target).closest('#popup-casosUso_general_new').length &&
-                    !jQuery(e.target).is('.openPopUpButton')) {
+                    !jQuery(e.target).is('.openPopUpButton2')) {
                     jQuery('#popup-casosUso_general_new').modal('hide');
                 }
             });
