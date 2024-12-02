@@ -36,7 +36,7 @@
                                         }
                                     </style>
                                     <div class="sect2">
-                                        <div class="cards educacion">
+                                        <div class="cards saludBienestar">
                                             <div class="cardInterna">
                                                 <div class="card">
                                                     <a href="/escala/casos-de-exito-poctlab/">
@@ -44,12 +44,12 @@
                                                     </a>
                                                 </div>
                                                 <div class="card">
-                                                    <a href="">
+                                                    <a href="https://escala.com/caso-de-uso-salud-y-fitness/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/life_nutrition_popup.png') !!}" loading="lazy">
                                                     </a>
                                                 </div>
                                                 <div class="card">
-                                                    <a href="">
+                                                    <a href="https://escala.com/caso-de-uso-bienestar-y-salud/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/bienestar_popup.png') !!}" loading="lazy">
                                                     </a>
                                                 </div>
