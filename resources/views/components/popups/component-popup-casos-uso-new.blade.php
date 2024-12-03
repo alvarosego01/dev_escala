@@ -65,7 +65,7 @@
                                                     <a href="https://escala.com/caso-de-exito-causa-y-solucion/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_c&_e.png') !!}" loading="lazy">
                                                     </a>
-                                                    <span>Consulroria</span>
+                                                    <span>Consultoría</span>
                                                 </div>
 
 
