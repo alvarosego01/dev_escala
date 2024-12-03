@@ -347,13 +347,16 @@
                     font-style: normal
                     font-weight: 700
                     line-height: 1
-                    display: block
+                    display: flex
+                    align-items: center
                     @include responsivo(telefonoTable)
                         font-size: 20px
                         margin-left: auto
                         margin-right: auto
                         text-align: center
-                        width: auto
+                        width: 260px
+                        display: block
+                        margin-top: 10px
                     @include responsivo(pcMedio)
                         font-size: 18px
                         text-align: left
@@ -371,13 +374,16 @@
                         text-align: left
                         align-self: center
                         justify-self: center
-                    span
-                        line-height: 1
-                        background: linear-gradient(90deg, #FAD672 0%, #F1685A 38.12%)
-                        background-clip: text
-                        -webkit-background-clip: text
-                        -webkit-text-fill-color: transparent
-                        
+                    .special
+                        font-weight: 800
+                        background-color: #F34F36
+                        padding: 5px 8px
+                        border-radius:20px
+                        @include responsivo(telefonoTable)
+                            margin-right:0px
+                            padding: 0px 8px
+                        @include responsivo(pcMedio)
+                            margin-right: 5px
                         @include responsivo(general)
                             margin: 0
                             margin-right: 5px
@@ -391,7 +397,7 @@
                     position: relative
                     &::after
                         content: ''
-                        border-right: 1px solid #2C4857
+                        border-right: 1px solid #fff
                         margin: auto
                         position: absolute
                         left: 0
@@ -405,7 +411,7 @@
                             height: 1
                             width: 100px
                             border-right: none
-                            border-bottom: 1px solid #2C4857
+                            border-bottom: 1px solid #fff
                             margin: auto
                         @include responsivo(general)
                             height: 25px

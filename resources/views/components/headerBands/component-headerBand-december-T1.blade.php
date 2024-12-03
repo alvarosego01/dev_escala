@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_banner_bf_2024.svg') !!})" class="headerband_december_promo_t1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_banner_december_2024.svg') !!})" class="headerband_december_promo_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -7,13 +7,13 @@
             <div class="containElements">
                 <div class="contain">
                     <span class="sub">
-                        #EscalaBlack la promo <br>
-                        para acelerar tus ventas
+                        El plan perfecto <br>
+                        para crecer en 2025
                     </span>
 
                     <div class="separator"></div>
                     <span class="hashTitle">
-               ¡Disfruta <span class="colorLinear"> 2 meses gratis</span> de Escala!
+                        <span class="special">40% OFF</span> en nuestro plan anual de Escala
                     </span>
 
                 </div>
@@ -28,7 +28,7 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_banner_bf_2024_mb.svg') !!})" class="headerband_december_promo_t1 customSection sectionParent fullWidth MblHeadband {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_banner_mb_december_2024.svg') !!})" class="headerband_december_promo_t1 customSection sectionParent fullWidth MblHeadband {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -37,18 +37,18 @@
             <div class="containElements">
                 <div class="contain">
                     <span class="sub">
-                        #EscalaBlack la promo <br>
-                        para acelerar tus ventas
+                        El plan perfecto <br>
+                        para crecer en 2025
                     </span>
 
                     <div class="separator"></div>
-
                     <span class="hashTitle">
-                        ¡Disfruta <span class="colorLinear"> 2 meses gratis</span> de Escala!
+                        <span class="special">40% OFF</span> en nuestro plan anual de Escala
                     </span>
+
                 </div>
 
-                <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-blackFriday-2022">
+                <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-december">
                     ¡Redimir promo ahora!
                 </a>
             </div>

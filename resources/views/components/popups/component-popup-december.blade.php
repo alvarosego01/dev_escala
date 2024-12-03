@@ -1,4 +1,3 @@
-
 <div class="customPopUp  december_popup modal fade {{ $popup_call_class }} {{ $popup_direction }} " id="{{ $popup_call_class }}" aria-hidden="true" aria-labelledby="{{ $popup_call_class }}" tabindex="-1">
 
     <div class="modal-dialog modal-dialog-centered type2022">
@@ -90,31 +89,30 @@
                             </div>
 
 
-                            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/headerband1_integraciones.jpg') }}')" class="col-md-12 col-lg-6 image">
+                            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_pupup_december_2024.svg') }}')" class="col-md-12 col-lg-6 image">
 
                                 <div class="containElements ">
                                     <div class="sect1 ">
                                         <h2 class="primaryTitle">
-                                            ¡Nuevas funcionalidades <br class="space">para potenciar tus
-                                            <span style="color:#2C4857;">
-                                                Automatizaciones!
-                                            </span>
+                                            ¡El Plan Perfecto para el 2025!
                                         </h2>
+                                        <div class="containerImage">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/descuento_escala_december.png') !!}" loading="lazy">
+                                        </div>
+                                        <p class="text">
+                                            En nuestro
+                                            <span>Plan Anual</span>
+                                            de Escala
+                                        </p>
+                                        <span class="smallText">
+                                            Hasta el 16 de Diciembre
+                                        </span>
                                     </div>
+
 
                                     <div class="sect2">
-                                        <div class="containElements">
-                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/img-popup-internal-integrations.png') !!}" alt=""></div>
-                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/img-popup-internal-integrations-2.png') !!}" alt=""></div>
-                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/img-popup-internal-integrations-3.png') !!}" alt=""></div>
-                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/img-popup-internal-integrations-4.png') !!}" alt=""></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="sect3">
                                         <div class="containerImage">
-
-                                            <img src="{!! App::setFilePath('/assets/images/person/img-escala-popup-integraciones.png') !!}" alt="Imagen persona lectura">
+                                            <img src="{!! App::setFilePath('/assets/images/person/hombre_feliz_navidad_promo_december_2024.png') !!}" alt="Imagen persona feliz navidad 2024 promo escala" loading="lazy">
                                         </div>
 
                                     </div>
