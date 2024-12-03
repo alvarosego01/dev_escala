@@ -1,7 +1,5 @@
 
-
-<div class= "customPopUp  december_popup modal fade {{ $popup_call_class }} {{ $popup_direction }} " id="{{ $popup_call_class }}"
-    aria-hidden="true" aria-labelledby="{{ $popup_call_class }}" tabindex="-1">
+<div class="customPopUp  december_popup modal fade {{ $popup_call_class }} {{ $popup_direction }} " id="{{ $popup_call_class }}" aria-hidden="true" aria-labelledby="{{ $popup_call_class }}" tabindex="-1">
 
     <div class="modal-dialog modal-dialog-centered type2022">
 
@@ -25,149 +23,107 @@
 
                                     <div class="sect1">
 
-                                        @if (isset($popup_principalTitle) && $popup_principalTitle != null )
-                                            @if ( $popup_principalTitle != '-' )
-                                            <h2 class="primaryTitle">
-                                                {!! $popup_principalTitle !!}
-                                                </h2>
-                                            @endif
-                                        @else
-                                            <h2 class="primaryTitle">
-                                                <span style="color:#006582;">
-                                               ¡Planifica tu 2024 <br class="space">
-                                               con Escala!
-                                                </span>
-                                            </h2>
+                                        <h2 class="primaryTitle" style="text-align:center;">
+                                            <span style="color:#006582;">
+                                                ¡Empieza ahora!
 
-
-
-                                        @endif
-
+                                        </h2>
 
                                     </div>
 
                                     <div class="sect2">
 
-                                        <div class="formatForm redirectWeb"   redirectWeb="true">
+                                        <div class="containElements">
 
-                                            {{-- <h5 class="titleFormat blackcolor">
-                                                @if (isset($form_title) && $form_title != null)
-                                                    {!! $form_title !!}
-                                                @else
-                                                    Completa los siguientes datos
-                                                @endif
-                                            </h5> --}}
+                                            <div class="formatForm redirectWeb" redirectweb="true">
 
+                                                <div class="form-container form-1" style="text-align:center;">
+                                                    <img style="margin-bottom:15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
 
+                                                    @php
+                                                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                                    $_rs = [];
+                                                    $_formShortcode = null;
+                                                    if ($_data = get_posts($_args)) {
+                                                    foreach ($_data as $_key) {
+                                                    $_rs[$_key->ID] = $_key->post_title;
+                                                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                                    }
+                                                    }
+                                                    } else {
+                                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                                    }
+                                                    @endphp
+                                                    {!! do_shortcode($_formShortcode) !!}
+                                                </div>
 
-                                            @if (isset($form_shortcode) && $form_shortcode != null)
-                                                {!! do_shortcode($form_shortcode) !!}
-                                           @else
-                                    @php
-                                        $_args = array('post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1);
-                                        $_rs = array();
-                                        $_formShortcode = null;
-                                        if( $_data = get_posts($_args)){
-                                            foreach($_data as $_key){
-                                                $_rs[$_key->ID] = $_key->post_title;
-                                                if( $_key->post_title === 'Profile demo - Flujo Demo' ){
-                                                    $_formShortcode = '[contact-form-7 id="'.$_key->ID.'"]';
-                                                }
-                                            }
-                                        }else{
-                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                        }
-                                    @endphp
-                                {!! do_shortcode($_formShortcode); !!}
-                                @endif
+                                                <div class="form-container form-2" style="display:none; text-align:center;">
+                                                    <img style="margin-bottom:15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
 
-
-                                        </div>
-
-                                    </div>
-
-
-                                </div>
-
-                            </div>
-
-                                @if ( isset($enable_custom_background) && $enable_custom_background == 1 )
-
-                                @if ( isset($custom_background_type) && $custom_background_type == 'solid_color' )
-                                <div
-                                style="background-color: {{ $popup_background_color }}"
-                                class="col-md-12 col-lg-6 image solidColor">
-                                @endif
-
-                                @if ( isset($custom_background_type) && $custom_background_type == 'color_gradient' )
-                                <div
-                                style="{{ $popup_background_gradient }}"
-                                class="col-md-12 col-lg-6 image gradient">
-                                @endif
-
-                                @if ( isset($custom_background_type) && $custom_background_type == 'background_image' )
-
-                                @php
-                                   $i = $popup_background_image;
-                                   $i = $i['url'];
-                                @endphp
-
-                                <div
-                                style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_competitors_0.svg') }}')"
-                                class="col-md-12 col-lg-6 image">
-
-                                @endif
-
-                                @else
-                                <div
-                            class="col-md-12 col-lg-6 image">
-
-                            @endif
-
-                                <div class="containElements">
-
-                                    <div class="sect1">
-
-                                          <div  class="thirdTitle">
-                                                <h3 class="title">
-                                                    Define <span class="titleTag"
-                                                    style="margin-left: 5px"
-                                                    >metas,</span> <span class="titleTag"
-                                                    style="margin-left: 5px"
-                                                    >estrategias</span> <br class="space">
-                                                    <span class="titleTag">y requisitos operativos</span>
-
-                                                    para llevar tu empresa <br class="space">
-                                                    a un próximo nivel.
-                                                </h3>
+                                                    @php
+                                                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                                    $_rs = [];
+                                                    $_formShortcode = null;
+                                                    if ($_data = get_posts($_args)) {
+                                                    foreach ($_data as $_key) {
+                                                    $_rs[$_key->ID] = $_key->post_title;
+                                                    if ($_key->post_title === 'Demo flujo step 2') {
+                                                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                                    }
+                                                    }
+                                                    } else {
+                                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
+                                                    }
+                                                    @endphp
+                                                    {!! do_shortcode($_formShortcode) !!}
+                                                </div>
                                             </div>
 
-                                    </div>
 
-                                    <div class="sect2">
-                                        <div class="containerImage">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_search.png') !!}" loading="lazy">
                                         </div>
                                     </div>
 
 
-                                    <div class="sect3">
-
-                                        <p class="text">
-                                            Workshop estratégico en vivo.
-                                        </p>
-
-
-                                    </div>
-
                                 </div>
+
                             </div>
 
 
-                        </div>
+                            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/headerband1_integraciones.jpg') }}')" class="col-md-12 col-lg-6 image">
+
+                                <div class="containElements ">
+                                    <div class="sect1 ">
+                                        <h2 class="primaryTitle">
+                                            ¡Nuevas funcionalidades <br class="space">para potenciar tus
+                                            <span style="color:#2C4857;">
+                                                Automatizaciones!
+                                            </span>
+                                        </h2>
+                                    </div>
+
+                                    <div class="sect2">
+                                        <div class="containElements">
+                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/img-popup-internal-integrations.png') !!}" alt=""></div>
+                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/img-popup-internal-integrations-2.png') !!}" alt=""></div>
+                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/img-popup-internal-integrations-3.png') !!}" alt=""></div>
+                                            <div class="iconList"><img src="{!! App::setFilePath('/assets/images/illustrations/others/img-popup-internal-integrations-4.png') !!}" alt=""></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sect3">
+                                        <div class="containerImage">
+
+                                            <img src="{!! App::setFilePath('/assets/images/person/img-escala-popup-integraciones.png') !!}" alt="Imagen persona lectura">
+                                        </div>
+
+                                    </div>
+                                </div>
 
 
-                    </div>
+
+
+                            </div>
 
                 </section>
 
@@ -181,6 +137,8 @@
 
     </div>
 </div>
+
+
 
 
 <a style="display: none" popup="{{ $popup_call_class }}" indexpopupbutton class="btn btn-primary"
