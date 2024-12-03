@@ -42,37 +42,49 @@
                                                     <a href="/escala/casos-de-exito-poctlab/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_poctlab_popup.png') !!}" loading="lazy">
                                                     </a>
+                                                    <span>Laboratorio Clínico</span>
                                                 </div>
                                                 <div class="card">
                                                     <a href="https://escala.com/caso-de-uso-salud-y-fitness/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/life_nutrition_popup.png') !!}" loading="lazy">
                                                     </a>
+                                                    <span>Nutrición</span>
                                                 </div>
                                                 <div class="card">
                                                     <a href="https://escala.com/caso-de-uso-bienestar-y-salud/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/bienestar_popup.png') !!}" loading="lazy">
                                                     </a>
+                                                    <span>Bienestar</span>
                                                 </div>
                                             </div>
 
                                         </div>
-                                        <div class="cards consultoria">
+                                        <div class="cards consultAsesoria">
                                             <div class="cardInterna">
                                                 <div class="card">
-                                                    <a href="/casos-de-exito-poctlab/">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_poctlab_popup.png') !!}" loading="lazy">
+                                                    <a href="https://escala.com/caso-de-exito-causa-y-solucion/">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_c&_e.png') !!}" loading="lazy">
                                                     </a>
+                                                    <span>Consulroria</span>
                                                 </div>
-                                                <div class="card">
-                                                    <a href="">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/life_nutrition_popup.png') !!}" loading="lazy">
-                                                    </a>
-                                                </div>
+
 
                                             </div>
 
                                         </div>
+                                        <div class="cards segurosFinanza">
+                                            <div class="cardInterna">
+                                                <div class="card">
+                                                    <a href="https://escala.com/caso-de-exito-gestion-financiera/">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_saeta_popup.png') !!}" loading="lazy">
+                                                    </a>
+                                                    <span>Finanzas</span>
+                                                </div>
 
+
+                                            </div>
+
+                                        </div>
 
 
                                     </div>
