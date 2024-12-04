@@ -1,0 +1,67 @@
+{% set media_text_13_title = fields.media_text_13_title %}
+{% set media_text_13_subtitle = fields.media_text_13_subtitle %}
+{% set media_text_13_sections = fields.media_text_13_sections %}
+{% set media_fondo_gigante_13_image = fields.media_fondo_gigante_13_image %}
+{% set media_text_parag_13_title_centro = fields.media_text_parag_13_title_centro %}
+
+{% set fondo = '' %}
+{# Inicializa la variable fondo #}
+
+<section class="block_blog_text_image_fondo_gigante customSection sectionParent" style="{% if media_text_13_sections|length > 0 %} {% for item in media_text_13_sections %} {% set fondo = item.media_fondo_gigante_13_image %} {# Asigna el fondo de la primera sección #} {% if fondo != '' %} background-image: url('{{ get_img(fondo, 'src') }}'); {% endif %} {% endfor %} {% endif %}">
+
+	<div class="section_contain">
+		
+		{% if media_text_parag_13_title_centro != '' %}
+			<h2 class="primaryTitle">
+				{{ media_text_parag_13_title_centro|raw }}
+			</h2>
+		{% endif %}
+
+		{% if media_text_13_sections|length > 0 %}
+			<section class="innerSectionElement sct2 ">
+
+				{% for item in media_text_13_sections %}
+
+					{% set title = item.media_text_13_title %}
+					{% set description = item.media_text_13_description %}
+					{% set image = item.media_text_13_image %}
+					{% set side = item.media_text_13_side %}
+					{% set i = i + 1 %}
+
+					<div class="groupElements row element_{{ i }} {{ side }}">
+
+						<div class="info col-md-12 col-lg-6">
+
+							{% if title != '' %}
+								<h3 class="secondaryTitle">
+									{{ title|raw }}
+								</h3>
+							{% endif %}
+
+							{% if description != '' %}
+								<div class="text">
+									{{ description|raw }}
+								</div>
+							{% endif %}
+
+						</div>
+
+						<div class="image col-md-12 col-lg-6">
+							<div class="containerImage">
+
+								{% if image != '' %}
+									<img src="{{ get_img(image, 'src') }}" alt="{{ get_img(image, 'alt') }}" loading="lazy">
+								{% endif %}
+
+							</div>
+						</div>
+
+					</div>
+				{% endfor %}
+
+			</section>
+		{% endif %}
+
+	</div>
+
+</section>

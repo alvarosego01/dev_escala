@@ -221,7 +221,8 @@
 @popup_casos_uso()
 @endpopup_casos_uso
 
-
+@popup_casos_uso_new()
+@endpopup_casos_uso_new
 
 @if (isset($type) && $type === 'white')
 
