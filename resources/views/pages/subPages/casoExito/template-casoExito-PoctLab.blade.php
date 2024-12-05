@@ -212,8 +212,8 @@
                         <div class="video col-md-12">
 
                             @php
-                            $videoEmbed = App::setFilePath('/assets/videos/');
-                            $videoCover = App::setFilePath('/assets/images/illustrations/others/video_img_test.png');
+                            $videoEmbed = App::setFilePath('/assets/videos/Caso de éxito PoctLab Final-enhanced-v2-90p (1).mp4');
+                            $videoCover = App::setFilePath('/assets/images/illustrations/others/img_overlay_Caso_de_exito_poctlab.png');
                             @endphp
 
                             @if (isset($videoEmbed) && $videoEmbed != null)
