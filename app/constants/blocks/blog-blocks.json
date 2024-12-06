@@ -279,6 +279,75 @@
                 ]
             }
         ]
+    },    {
+        "name": "block-text-image-fondo-gigante",
+        "title": "Blog block text gift fondo gigante",
+        "description": "Blog text gift block fondo gigante",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "text, image, title,fondo",
+          "fields": [
+            {
+                "key": "media_text_parag_13_title_centro",
+                "label": "Title centro",
+                "type": "rich_text",
+                "default": "Title centro"
+            },
+            {
+                "key": "media_text_13_sections",
+                "label": "Sections",
+                "type": "complex",
+                "layouts": [
+                    {
+                        "key": "media_text_13_layout",
+                        "label": "Info section",
+                        "fields": [
+                            {
+                                "key": "media_text_13_title",
+                                "label": "Title",
+                                "type": "rich_text",
+                                "default": "Fondo gigante para gift"
+                            },
+                            {
+                                "key": "media_text_13_description",
+                                "label": "Description",
+                                "type": "rich_text",
+                                "default": "Fondo gigante para gift"
+                            },
+                            {
+                                "key": "media_text_13_image",
+                                "label": "Image",
+                                "type": "image",
+                                "default": ""
+                            },
+                               {
+                                "key": "media_text_13_side",
+                                "label": "Side content",
+                                "type": "select",
+                                "options": [
+                                    {
+                                        "label": "Right",
+                                        "value": "right"
+                                    },
+                                    {
+                                        "label": "Left",
+                                        "value": "left"
+                                    }
+                                ],
+                                "default": "image"
+                            },
+                            {
+                                "key": "media_fondo_gigante_13_image",
+                                "label": "FondoImage",
+                                "type": "image",
+                                "default": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "block-image-fondo-centro",

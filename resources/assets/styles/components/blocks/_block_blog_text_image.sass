@@ -97,12 +97,16 @@
                         p
                             &:last-child
                                 margin-bottom: 0
-                    .text
+                    li
+                        @include responsivo(telefonoTable)
+                            margin-bottom: 12px!important
+
+                    .text, li
                         font-family: Nunito
                         font-style: normal
-                        line-height: 1
+                        line-height: 1.25
                         color: #706B6D
-                        font-weight: 400
+                        font-weight: 500
                         width: 100%!important
                         margin-bottom: 0
                         letter-spacing: -1px
@@ -119,7 +123,7 @@
                         @include responsivo(general)
                             font-size: 20px
                         @include responsivo(smallPcTablet)
-                            font-size: 18px
+                            font-size: 18px!important
                         @include responsivo(resto)
                             font-size: 20px
                         ul,

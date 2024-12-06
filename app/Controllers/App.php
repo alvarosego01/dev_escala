@@ -176,7 +176,7 @@ class App extends Controller
                                 if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1) {
                                     $containItem = '<a p1 class="dropdown-item " role="menuitem"  href="#" disabled ><span class="specialItem">';
                                 } else {
-                                    $containItem = '<a p1 class="dropdown-item ' . implode(" ", $submenu->classes) . '" role="menuitem"  href="' . $submenu->url . '" ><span class="specialItem">';
+                                    $containItem = '<a p1 class="dropdown-item " role="menuitem"  href="' . $submenu->url . '" ><span class="specialItem">';
                                 }
 
                                 if (ACF_CUSTOM::_getField('enable_menu_item_icon', $submenu->ID) == 1) {
@@ -193,9 +193,9 @@ class App extends Controller
                                     ACF_CUSTOM::_getField('coming_soon', $submenu->ID) != null
                                 ) {
                                     $a = ACF_CUSTOM::_getField('coming_soon', $submenu->ID);
-                                    $containItem .= '<span class="infoItem"><span><t>' . $submenu->title . '</t><small>' . $a . '</small></span>';
+                                    $containItem .= '<span class="infoItem"><span><button  class="' . implode(" ", $submenu->classes) . '">' . $submenu->title . '</button><small>' . $a . '</small></span>';
                                 } else {
-                                    $containItem .= '<span class="infoItem"><span><t>' . $submenu->title . '</t></span>';
+                                    $containItem .= '<span class="infoItem"><span><button  class="' . implode(" ", $submenu->classes) . '">' . $submenu->title . '</button></span>';
                                 }
 
                                 if (ACF_CUSTOM::_getField('enable_menu_item_description', $submenu->ID) == 1) {
@@ -222,7 +222,7 @@ class App extends Controller
                                 if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1) {
                                     $containItem = '<a p1 class="dropdown-item " role="menuitem"  href="#" disabled ><span class="specialItem">';
                                 } else {
-                                    $containItem = '<a p1 class="dropdown-item ' . implode(" ", $submenu->classes) . '" role="menuitem"  href="' . $submenu->url . '" ><span class="specialItem">';
+                                    $containItem = '<a p1 class="dropdown-item " role="menuitem"  href="' . $submenu->url . '" ><span class="specialItem">';
                                 }
 
                                 if (ACF_CUSTOM::_getField('enable_menu_item_icon', $submenu->ID) == 1) {
@@ -239,9 +239,9 @@ class App extends Controller
                                     ACF_CUSTOM::_getField('coming_soon', $submenu->ID) != null
                                 ) {
                                     $a = ACF_CUSTOM::_getField('coming_soon', $submenu->ID);
-                                    $containItem .= '<span class="infoItem"><span><t>' . $submenu->title . '</t><small>' . $a . '</small></span>';
+                                    $containItem .= '<span class="infoItem"><span><button  class="' . implode(" ", $submenu->classes) . '">' . $submenu->title . '</button><small>' . $a . '</small></span>';
                                 } else {
-                                    $containItem .= '<span class="infoItem"><span><t>' . $submenu->title . '</t></span>';
+                                    $containItem .= '<span class="infoItem"><span><button  class="' . implode(" ", $submenu->classes) . '"> ' . $submenu->title . '</button></span>';
                                 }
 
                                 if (ACF_CUSTOM::_getField('enable_menu_item_description', $submenu->ID) == 1) {
@@ -323,7 +323,7 @@ class App extends Controller
                                 if (ACF_CUSTOM::_getField('enable_menu_item_coming_soon', $submenu->ID) == 1) {
                                     $containItem = '<a p1 class="dropdown-item" role="menuitem"  href="#" disabled ><span class="specialItem">';
                                 } else {
-                                    $containItem = '<a p1 class="dropdown-item ' . implode(" ", $submenu->classes) . '" role="menuitem"  href="' . $submenu->url . '" ><span class="specialItem">';
+                                    $containItem = '<a p1 class="dropdown-item " role="menuitem"  href="' . $submenu->url . '" ><span class="specialItem">';
                                 }
 
                                 if (ACF_CUSTOM::_getField('enable_menu_item_icon', $submenu->ID) == 1) {
@@ -340,9 +340,9 @@ class App extends Controller
                                     ACF_CUSTOM::_getField('coming_soon', $submenu->ID) != null
                                 ) {
                                     $a = ACF_CUSTOM::_getField('coming_soon', $submenu->ID);
-                                    $containItem .= '<span class="infoItem"><span><t>' . $submenu->title . '</t><small>' . $a . '</small></span>';
+                                    $containItem .= '<span class="infoItem"><span><button  class="' . implode(" ", $submenu->classes) . '">' . $submenu->title . '</button><small>' . $a . '</small></span>';
                                 } else {
-                                    $containItem .= '<span class="infoItem"><span><t>' . $submenu->title . '</t></span>';
+                                    $containItem .= '<span class="infoItem"><span><button  class="' . implode(" ", $submenu->classes) . '">' . $submenu->title . '</button></span>';
                                 }
 
                                 if (ACF_CUSTOM::_getField('enable_menu_item_description', $submenu->ID) == 1) {

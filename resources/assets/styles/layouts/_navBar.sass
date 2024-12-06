@@ -386,8 +386,10 @@ header.customHeader.customSection
                                     width: 100%
                                     display: flex
                                     flex-direction: row
+                                    .iconEspecial
+                                        width: 50px!important
                                     span.icon
-                                        width: 60px
+                                        width: auto
                                         @include responsivo(general)
                                             margin-right: 10px
                                         @include responsivo(resto)
@@ -395,10 +397,10 @@ header.customHeader.customSection
                                         img
                                             @include responsivo(general)
                                                 height: auto
-                                                width: 45px
+                                                width: auto
                                             @include responsivo(resto)
                                                 height: auto
-                                                width: 45px
+                                                width: auto
                                     span
                                         width: 100%
                                         display: block
@@ -412,7 +414,7 @@ header.customHeader.customSection
                                             justify-self: center
                                             width: 100%
                                             margin-bottom: 5px
-                                            t
+                                            t,button
                                                 transition: $trans
                                                 font-family: Nunito
                                                 font-style: normal
@@ -425,6 +427,9 @@ header.customHeader.customSection
                                                 @include responsivo(resto)
                                                     font-size: 18px
                                                     margin-right: 5px
+                                            button
+                                                background: #0000!important
+                                                background-color: #0000
                                         p
                                             font-family: Nunito
                                             font-style: normal
@@ -437,6 +442,7 @@ header.customHeader.customSection
                                                 font-size: 14px
                                             @include responsivo(resto)
                                                 font-size: 14px
+
 
                             a.dropdown-item[disabled]
                                 span.specialItem
