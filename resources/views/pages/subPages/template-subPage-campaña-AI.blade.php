@@ -236,13 +236,13 @@
         'classSection' => 'subpage_campaign_AI_2_1',
         'enableTitle' => true,
         'titlePrincipal' => '
-        Construye emails y landing pages profesionales <br class="space">
+        Construye emails y landing pages profesionales <br class="DT_e">
         <span>en poco tiempo </span>
         ',
         'subTitlePrincipal' => null,
         'img' => App::setFilePath('/assets/images/gifs/texto ia.gif'),
         'title' => '
-        La IA crea el texto de títulos, <br class="D_e"> <span>botones y párrafos:</span>
+        La IA crea el texto de títulos, <br class="DT_e"> <span>botones y párrafos:</span>
         ',
         'text' => '
         <span style="color: #FF4D27"> Paso 1:</span> Describe el tema que quieres abordar y su propósito.<br class="space">
