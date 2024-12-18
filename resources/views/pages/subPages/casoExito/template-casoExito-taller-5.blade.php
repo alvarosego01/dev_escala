@@ -663,7 +663,6 @@
                                     nuestra operación, automatizar tareas y <br class="DT_e">
                                     optimizar nuestra inversión en marketing”. <br class="DT_e">
                                     <br class="space">
-                                    <br class="space">
                                     <span class="blue">
                                         Miller Romero <br class="space">
                                         <span>Coordinador de Comunicaciones y Mercadeo</span>
