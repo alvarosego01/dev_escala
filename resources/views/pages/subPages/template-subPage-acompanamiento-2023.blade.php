@@ -64,56 +64,33 @@
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <div class="form-container form-1" style="text-align:center;">
-                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
-                                            <h5 class="titleFormat blackcolor">Recibe un demo
-                                                <br class="space">
-                                               personalizado en vivo
-                                            </h5>
-                                            @php
-                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                            $_rs = [];
-                                            $_formShortcode = null;
-                                            if ($_data = get_posts($_args)) {
-                                            foreach ($_data as $_key) {
-                                            $_rs[$_key->ID] = $_key->post_title;
-                                            if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                            }
-                                            }
-                                            } else {
-                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
-                                            }
-                                            @endphp
-                                            {!! do_shortcode($_formShortcode) !!}
-                                        </div>
 
-                                        <div class="form-container form-2" style="display:none; text-align:center;">
-                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
-                                            <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
-                                                <br class="space">tu demo
-                                            </h5>
-                                            @php
-                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                            $_rs = [];
-                                            $_formShortcode = null;
-                                            if ($_data = get_posts($_args)) {
-                                            foreach ($_data as $_key) {
-                                            $_rs[$_key->ID] = $_key->post_title;
-                                            if ($_key->post_title === 'Demo flujo step 2') {
-                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                            }
-                                            }
-                                            } else {
-                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
-                                            }
-                                            @endphp
-                                            {!! do_shortcode($_formShortcode) !!}
-                                        </div>
+                                        <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
+                                            personalizado en vivo</h5>
+
+
+                                        @php
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
+                                        @endphp
+                                        {!! do_shortcode($_formShortcode) !!}
+
+
                                     </div>
 
-
                                 </div>
+
 
                             </div>
 
@@ -237,59 +214,33 @@
                             </div>
 
                             <div class="form7 col-md-12 col-lg-4 ">
-
                                 <div class="containElements">
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
-                                        <div class="form-container form-1" style="text-align:center;">
-                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-1.png') !!}" loading="lazy">
-                                            <h5 class="titleFormat blackcolor">Recibe un demo
-                                                <br class="space">
-                                               personalizado en vivo
-                                            </h5>
-                                            @php
-                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                            $_rs = [];
-                                            $_formShortcode = null;
-                                            if ($_data = get_posts($_args)) {
-                                            foreach ($_data as $_key) {
-                                            $_rs[$_key->ID] = $_key->post_title;
-                                            if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                            }
-                                            }
-                                            } else {
-                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
-                                            }
-                                            @endphp
-                                            {!! do_shortcode($_formShortcode) !!}
-                                        </div>
+                                        <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
+                                            personalizado en vivo</h5>
 
-                                        <div class="form-container form-2" style="display:none; text-align:center;">
-                                            <img style="margin-top: 30px; margin-bottom:-15px; width:80%;" src="{!! App::setFilePath('/assets/images/illustrations/others/form-step-2.png') !!}" loading="lazy">
-                                            <h5 class="titleFormat blackcolor">Ayúdanos a personalizar
-                                                <br class="space">tu demo
-                                            </h5>
-                                            @php
-                                            $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                            $_rs = [];
-                                            $_formShortcode = null;
-                                            if ($_data = get_posts($_args)) {
-                                            foreach ($_data as $_key) {
-                                            $_rs[$_key->ID] = $_key->post_title;
-                                            if ($_key->post_title === 'Demo flujo step 2') {
-                                            $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                            }
-                                            }
-                                            } else {
-                                            $_rs['0'] = esc_html__('No Contact Form found', 'text-domain');
-                                            }
-                                            @endphp
-                                            {!! do_shortcode($_formShortcode) !!}
-                                        </div>
+
+                                        @php
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
+                                        @endphp
+                                        {!! do_shortcode($_formShortcode) !!}
+
+
                                     </div>
-
 
                                 </div>
 
@@ -402,13 +353,13 @@
                                             <br class="space">
                                         </p>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/01-acompanamiento-2023.png') !!}" loading="lazy">
-                              
+
                                     </div>
                                 </div>
 
                             </div>
 
-                         <div class="col-md-12 col-lg-4 cardParent column-2">
+                            <div class="col-md-12 col-lg-4 cardParent column-2">
 
                                 <img src="{!! App::setFilePath('/assets/images/icons/icon_plus_blue.svg') !!}" alt="" class="iconPlus left">
 
@@ -416,7 +367,7 @@
                                     <div class="card-body">
                                         <h5 class="card-number">2</h5>
                                         <h5 class="card-title">
-                                        Guía Técnico
+                                            Guía Técnico
                                         </h5>
                                         <p class="card-primaryText">
                                             Revisa el uso de las <br class="DT_e">
@@ -425,7 +376,7 @@
                                             efectivamente
                                         </p>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/02-acompanamiento-2023.png') !!}" loading="lazy">
-                               
+
                                     </div>
                                 </div>
 
@@ -434,7 +385,7 @@
                             </div>
 
                             <div class="col-md-12 col-lg-4 cardParent column-2">
-                                
+
                                 <div style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/card_white_acompañamiento_fondo.png') !!}')" class="card">
                                     <div class="card-body">
                                         <h5 class="card-number">3</h5>
@@ -449,7 +400,7 @@
                                             y <span class="blueText">Chat de plataforma</span>
                                         </p>
                                         <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/03-acompanamiento-2023.png') !!}" loading="lazy">
-                                     
+
                                     </div>
                                 </div>
                             </div>
