@@ -91,7 +91,6 @@ add_action('wp_enqueue_scripts', function () {
         wp_enqueue_script('_blog.js', asset_path('scripts/pages/_blog.js'), ['jquery'], THEME_VERSION, true);
 
         wp_enqueue_style('single_2024.css', asset_path('styles/pages/blog/single_blog_2024.css'), false, THEME_VERSION);
-
     }
     $t = SetComponents::setTemplates('blog');
     if (is_page_template($t)) {
@@ -400,6 +399,10 @@ add_action('wp_enqueue_scripts', function () {
     //PoctLab
     if (is_page_template('views/template-casoExito-PoctLab.blade.php')) {
         wp_enqueue_style('subPage_casoExito_PoctLab.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_PoctLab.css'), false, THEME_VERSION);
+    }
+    //Taller 5
+    if (is_page_template('views/template-casoExito-taller-5.blade.php')) {
+        wp_enqueue_style('subPage_casoExito_taller_5.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_taller_5.css'), false, THEME_VERSION);
     }
     // ---
     // --- Casos uso

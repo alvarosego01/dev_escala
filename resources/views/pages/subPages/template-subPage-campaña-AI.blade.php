@@ -1,30 +1,92 @@
 <div id="subpage_campaign_AI">
     <div class="sections">
 
-        @header_t1([
-            'backgroundImageType' => true,
-            'overlay' => false,
-            'classSection' => ' threeCol subpage_campaign_AI_0',
-            'title' => '
-                              <span style="color: white">
-                              Ahorra tiempo creando <br class="space">
-                              Emails y Páginas<br class="space">
-                              </span>
-                                con Inteligencia <br class="space">
-                                Artificial en Escala
-                            ',
-            'text' => '<span class="whiteColor">
-                              Consigue más y mejores clientes
-                              </span>
-                            ',
-            'threeCol' => true,
-            'textForm' => 'Recibe un tour <br class="space"> guiado de Escala',
-            'backgroundImage' => App::setFilePath('/assets/images/banners/campaing_ia_header.png'),
-            'overlayImage' => null,
-            'image' => App::setFilePath('/assets/images/illustrations/otto/logo_otto_IA.png'),
-            'img_alt' => 'Ilustración otto escala CRM automatizaciones IA'
-        ])
-        @endheader_t1
+        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subpage_campaign_AI subpage_campaign_AI_0">
+
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_ia_lead_source.svg') }}')" class="backgroundFull">
+
+                <div class="section-row">
+                    <section class="innerSectionElement sct1">
+
+                        <div class="groupElements row">
+
+                            <div class="info col-md-12 col-lg-8 ">
+
+                                <div class="containElements row threeCol">
+                                    <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
+
+                                        <div class="containerImage">
+                                            <img alt="Ilustración app escala para desktop" src="{{ App::setFilePath('/assets/images/illustrations/others/chico_feliz_ia.png') }}" loading="lazy">
+                                        </div>
+
+                                    </div>
+                                    <div class="ele ele2 col-md-12 col-lg-7">
+
+                                        <h1 class="principalBigTitle">
+                                            Optimiza la creación de contenido de Emails y landing pages en Escala
+                                            <br class="space">
+                                            <span>
+                                                con Inteligencia Artificial
+                                            </span>
+                                        </h1>
+
+
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+                            <div class="form7 col-md-12 col-lg-4 ">
+                                <div class="containElements">
+
+                                    <div class="formatForm redirectWeb" redirectweb="true">
+
+
+                                        <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
+                                            personalizado de Escala</h5>
+
+
+                                        @php
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
+                                        @endphp
+                                        {!! do_shortcode($_formShortcode) !!}
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="imageReviewsMobile hideOnDesktop">
+
+                                <div class="image">
+                                    <div class="containerImage">
+                                        <img alt="Ilustración app escala para dispositivos móviles" src="{{ App::setFilePath('/assets/images/illustrations/others/chico_feliz_ia.png') }}" loading="lazy">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+        </section>
 
 
         <section class="customSection sectionParent subpage_campaign_AI_1 ">
@@ -36,7 +98,7 @@
 
                         <h2 class="primaryTitle blackColor">
 
-                            Produce <span>mejor contenido a menor costo</span>
+                            Produce <span>mejor contenido eficientemente</span>
 
                         </h2>
 
@@ -120,147 +182,100 @@
         </section>
 
 
-        @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subpage_campaign_AI_2_1',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-        Potencia tus <span>Landing Pages en Escala</span>
-',
-                'subTitlePrincipal' => null,
-                'img' => App::setFilePath('/assets/images/gifs/campa_ia_anim_1.gif'),
-                'title' => '
-La IA crea el texto de <br class="D_e"> <span>títulos, botones y párrafos</span>
-  ',
-                'text' => '
-    <span style="color: #FF4D27"> Paso 1:</span> Describe el tema que quieres exponer <br class="space">
-    <span style="color: #FF4D27"> Paso 2:</span> Define el tono de tu mensaje: alegre, divertida, persuasivo... <br class="space">
-    <span style="color: #FF4D27"> Paso 3:</span> Elige en qué idioma quieres generar el texto para tu página <br class="space">
-    <span style="color: #FF4D27"> Paso 4:</span> Selecciona la propuesta de texto de tu preferencia <br class="space">
-    <br class="space">
-    <span style="color: #36768A; font-weight: 700!important">
-        ¡Y se inserta solo en tu página!
-    </span>
 
-  ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'left',
-            ];
+        <section class="customSection sectionParent subpage_campaign_AI_1_0 ">
+
+            <div class="section-row">
+                <section class="innerSectionElement sct1 ">
+
+                    <div class="containElements backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_1_0.svg') }}')">
+                        <div class="containerImage ">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_ia_subPage.png') !!}" loading="lazy">
+                        </div>
+                        <h2 class="primaryTitle blackColor">
+                            Tener IA en Escala es como tener un <br class="space">
+                            <span> copywriter estrella a una fracción del costo.</span>
+                        </h2>
+                        <p class="text">Ya no requieres herramientas adicionales ni invertir horas definiendo <br class="DT_e">
+                            el título o párrafo “perfecto” para tus piezas de marketing. <br class="DT_e">
+                            ¡Optimiza tus operaciones con Escala!</p>
+                    </div>
+
+                </section>
+
+            </div>
+
+        </section>
+
+        @php
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'subpage_campaign_AI_2_1',
+        'enableTitle' => true,
+        'titlePrincipal' => '
+        Construye emails y landing pages profesionales <br class="DT_e">
+        <span>en poco tiempo </span>
+        ',
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/gifs/texto ia.gif'),
+        'title' => '
+        La IA crea el texto de títulos, <br class="DT_e"> <span>botones y párrafos:</span>
+        ',
+        'text' => '
+        <span style="color: #FF4D27"> Paso 1:</span> Describe el tema que quieres abordar y su propósito.<br class="space">
+        <span style="color: #FF4D27"> Paso 2:</span> Define el tono de tu mensaje (alegre, divertido, persuasivo, etc.)<br class="space">
+        <span style="color: #FF4D27"> Paso 3:</span> Elige el idioma en el que deseas el texto. <br class="space">
+        <span style="color: #FF4D27"> Paso 4:</span>Selecciona la propuesta de texto que más te guste. <br class="space">
+        <br class="space">
+        <span style="color: #36768A; font-weight: 700!important">
+            ¡Y se inserta solo!
+        </span>
+
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'left',
+        ];
         @endphp
 
         @contain_text_image_T1($parameters)
         @endcontain_text_image_T1
 
         @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subpage_campaign_AI_2_2',
-                'enableTitle' => false,
-                'titlePrincipal' => '
-        Potencia tus <span>Landing Pages en Escala</span>
-',
-                'subTitlePrincipal' => null,
-               'img' => App::setFilePath('/assets/images/gifs/campa_ia_anim_2.gif'),
-                'title' => '
-La IA consigue <span>imágenes</span>
-  ',
-                'text' => '
-    <span style="color: #FF4D27">Paso 1:</span> Explica qué tipo de imagen necesitas insertar <br class="space">
-    <span style="color: #FF4D27">Paso 2:</span> Revisa las propuestas conseguidas por la IA <br class="space">
-    <span style="color: #FF4D27">Paso 3:</span> Selecciona la imagen para tu página <br class="space">
-    <br class="space">
-    <span style="color: #36768A; font-weight: 700!important">
-      ¡Y se inserta sola en tu página!
-    </span>
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'subpage_campaign_AI_2_2',
+        'enableTitle' => false,
+        'titlePrincipal' => '
+        La IA consigue <span>imágenes: </span>
+        ',
+        'subTitlePrincipal' => null,
+        'img' => App::setFilePath('/assets/images/gifs/imagen ia.gif'),
+        'title' => '
+        La IA consigue <span>imágenes</span>
+        ',
+        'text' => '
+        <span style="color: #FF4D27">Paso 1:</span> Describe el tipo de imagen que necesitas.<br class="space">
+        <span style="color: #FF4D27">Paso 2:</span> Revisa las propuestas generadas por la IA.<br class="space">
+        <span style="color: #FF4D27">Paso 3:</span> Elige la imagen que mejor se ajuste a tu objetivo. <br class="space">
+        <br class="space">
+        <span style="color: #36768A; font-weight: 700!important">
+            ¡Y se inserta solo!
+        </span>
 
-  ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'right',
-            ];
+        ',
+        'enableButton' => false,
+        'urlButton' => '#lead-form',
+        'textButton' => 'Recibe un demo personalizado',
+        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+        'side' => 'right',
+        ];
         @endphp
 
         @contain_text_image_T1($parameters)
         @endcontain_text_image_T1
-
-        @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subpage_campaign_AI_2_3',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-        Optimiza tus <span>Emails en Escala</span>
-',
-                'subTitlePrincipal' => null,
-        'img' => App::setFilePath('/assets/images/gifs/campa_ia_anim_3.gif'),
-                'title' => '
-La IA crea el texto <span>de tus asuntos</span>
-  ',
-                'text' => '
-    <span style="color: #FF4D27">Paso 1:</span> Describe de forma breve el contenido del email <br class="space">
-    <span style="color: #FF4D27">Paso 2:</span> Define el tono: alegre, divertida, persuasiva... <br class="space">
-    <span style="color: #FF4D27">Paso 3:</span> Elige en qué idioma quieres generar el texto <br class="space">
-    <span style="color: #FF4D27">Paso 4:</span>  Selecciona la propuesta de texto de tu preferencia <br class="space">
-    <br class="space">
-    <span style="color: #36768A; font-weight: 700!important">
-      ¡Y se inserta solo!
-    </span>
-
-  ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'left',
-            ];
-        @endphp
-
-        @contain_text_image_T1($parameters)
-        @endcontain_text_image_T1
-
-        @php
-            $parameters = [
-                'type' => 'backgroundColor',
-                'classSection' => 'subpage_campaign_AI_2_4',
-                'enableTitle' => false,
-                'titlePrincipal' => '
-        Potencia tus <span>Landing Pages en Escala</span>
-',
-                'subTitlePrincipal' => null,
-             'img' => App::setFilePath('/assets/images/gifs/campa_ia_anim_4.gif'),
-                'title' => '
-La IA Consigue <span>imágenes</span>
-  ',
-                'text' => '
-    <span style="color: #FF4D27">Paso 1:</span> Explica qué tipo de imagen necesitas insertar <br class="space">
-    <span style="color: #FF4D27">Paso 2:</span> Revisa las propuestas conseguidas por la IA <br class="space">
-    <span style="color: #FF4D27">Paso 3:</span> Selecciona la imagen que mejor se
-               adapte a tu objetivo
-
-    <br class="space">
-    <br class="space">
-    <span style="color: #36768A; font-weight: 700!important">
-   ¡Y se inserta sola en tu email!
-    </span>
-
-  ',
-                'enableButton' => false,
-                'urlButton' => '#lead-form',
-                'textButton' => 'Recibe un demo',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'side' => 'right',
-            ];
-        @endphp
-
-        @contain_text_image_T1($parameters)
-        @endcontain_text_image_T1
-
 
 
         <section class=" customSection sectionParent subpage_campaign_AI_2_5">
@@ -280,7 +295,26 @@ La IA Consigue <span>imágenes</span>
             </div>
 
         </section>
+        <section class="customSection sectionParent subpage_campaign_AI_3_0 ">
 
+            <div class="section-row">
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+
+                        <h2 class="primaryTitle blackColor">
+                            Conoce un poco más <span>de la herramienta</span>
+                        </h2>
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_central_ia_otto.png') !!}" loading="lazy">
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+
+        </section>
 
         {{-- style="background-image: url('{!! App::setFilePath('/assets/images/banners/background_sky_3.png') !!}')" --}}
         <section class="component-info-multiple-cards-T2 customSection sectionParent subpage_campaign_AI_3 ">
@@ -299,134 +333,133 @@ La IA Consigue <span>imágenes</span>
                         <p class="primaryText grayColorTexts">
                             Integradas <span>•</span> Fáciles de usar <span>•</span> Asequibles <span>•</span> En tu
                             idioma
-
                         </p>
 
                     </div>
 
                 </section>
                 @php
-                        $items = [
-                            [
-                                'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_funnel_otto_2.png'),
-                                'title' => '
+                $items = [
+                [
+                'img_alt' => null,
+                'img' => App::setFilePath('/assets/images/illustrations/others/icon_funnel_otto_2.png'),
+                'title' => '
                 <span>Plantillas probadas</span> <br class="space">
                 de Embudos
-            ',
-                                'text' => null,
-                                'enableButton' => false,
-                            ],
-                            [
-                                'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/Landing 1.png'),
-                                'title' => '
+                ',
+                'text' => null,
+                'enableButton' => false,
+                ],
+                [
+                'img_alt' => null,
+                'img' => App::setFilePath('/assets/images/illustrations/others/Landing 1.png'),
+                'title' => '
                 <span>Landing Pages</span> <br class="space">
                 editables en minutos
-            ',
-                                'text' => null,
-                                'enableButton' => false,
-                            ],
-                            [
-                                'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_2.png'),
-                                'title' => '
-              <span>
-                  Gestión ágil <br class="space"> de
-                  contactos <br class="space">
-              </span> y relaciones
-            ',
-                                'text' => null,
-                                'enableButton' => false,
-                            ],
-                            [
-                                'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_emailing.png'),
-                                'title' => '
+                ',
+                'text' => null,
+                'enableButton' => false,
+                ],
+                [
+                'img_alt' => null,
+                'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_2.png'),
+                'title' => '
+                <span>
+                    Gestión ágil <br class="space"> de
+                    contactos <br class="space">
+                </span> y relaciones
+                ',
+                'text' => null,
+                'enableButton' => false,
+                ],
+                [
+                'img_alt' => null,
+                'img' => App::setFilePath('/assets/images/illustrations/others/icon_emailing.png'),
+                'title' => '
                 <span>Envío de Emails</span> <br class="space"> masivos
                 y <br class="space">personalizables
-            ',
-                                'text' => null,
-                                'enableButton' => false,
-                            ],
-                            [
-                                'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_space.png'),
-                                'title' => '
+                ',
+                'text' => null,
+                'enableButton' => false,
+                ],
+                [
+                'img_alt' => null,
+                'img' => App::setFilePath('/assets/images/illustrations/others/icon_whatsapp_space.png'),
+                'title' => '
                 <span>
                     Gestión y Envío <br class="space">
                     de WhatsApps
                 </span> <br class="space">
                 automáticos
-            ',
-                                'text' => null,
-                                'enableButton' => false,
-                            ],
-                            [
-                                'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_automat.png'),
-                                'title' => '
+                ',
+                'text' => null,
+                'enableButton' => false,
+                ],
+                [
+                'img_alt' => null,
+                'img' => App::setFilePath('/assets/images/illustrations/others/icon_automat.png'),
+                'title' => '
                 <span>Automatizaciones</span><br class="space">
                 que escalan <br class="space">operaciones
-            ',
-                                'text' => null,
-                                'enableButton' => false,
-                            ],
-                            [
-                                'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_social_ads_2.png'),
-                                'title' => '
+                ',
+                'text' => null,
+                'enableButton' => false,
+                ],
+                [
+                'img_alt' => null,
+                'img' => App::setFilePath('/assets/images/illustrations/others/icon_ads_small.png'),
+                'title' => '
                 <span>
                     Anuncios digitales <br class="space">
                     conectados
                 </span> a tus <br class="space">
                 páginas y CRM
-            ',
-                                'text' => null,
-                                'enableButton' => false,
-                            ],
-                            [
-                                'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_analytics.png'),
-                                'title' => '
+                ',
+                'text' => null,
+                'enableButton' => false,
+                ],
+                [
+                'img_alt' => null,
+                'img' => App::setFilePath('/assets/images/illustrations/others/icon_analytics.png'),
+                'title' => '
                 <span>Analíticas</span> <br class="space">relevantes
                 en <br class="space">tiempo real
-            ',
-                                'text' => null,
-                                'enableButton' => false,
-                            ],
-                        [
-                                'img_alt' => null,
-                                'img' => App::setFilePath('/assets/images/illustrations/others/icon_ia_2.png'),
-                                'title' => '
+                ',
+                'text' => null,
+                'enableButton' => false,
+                ],
+                [
+                'img_alt' => null,
+                'img' => App::setFilePath('/assets/images/illustrations/others/icon_ai_small.png'),
+                'title' => '
                 <span>Inteligencia artificial</span> <br class="space">
                 para tus emails y <br class="space">
                 landings
-            ',
-                                'text' => null,
-                                'enableButton' => false,
-                            ],
-                        ];
-                    @endphp
+                ',
+                'text' => null,
+                'enableButton' => false,
+                ],
+                ];
+                @endphp
                 <section class="innerSectionElement sct2 ">
 
                     @foreach ($items as $item)
-                        <div class="groupElements">
-                            <div class="image">
-                                <div class="containerImage">
-                                    <img src="{!! $item['img'] !!}" loading="lazy" alt="{!! $item['img_alt'] !!}">
-                                </div>
+                    <div class="groupElements">
+                        <div class="image">
+                            <div class="containerImage">
+                                <img src="{!! $item['img'] !!}" loading="lazy" alt="{!! $item['img_alt'] !!}">
                             </div>
+                        </div>
 
-                            <div class="info">
+                        <div class="info">
 
-                                <h3 class="secondaryTitle">
-                                    {!! $item['title'] !!}
-                                </h3>
-
-                            </div>
+                            <h3 class="secondaryTitle">
+                                {!! $item['title'] !!}
+                            </h3>
 
                         </div>
+
+                    </div>
                     @endforeach
                 </section>
 
@@ -457,30 +490,30 @@ La IA Consigue <span>imágenes</span>
 
 
         @php
-            $desk_reviews = [
-                [
-                    'area' => 'Finanzas',
-                    'text' => '
-                        <strong>“Gracias a Escala ahorramos 70% del tiempo invertido</strong> por el equipo comercial en tareas operativas y aumentamos 20% la cantidad de clientes.”
-                        ',
-                    'logo' => App::setFilePath('/assets/images/logos/logo_saeta.png'),
-                    'name' => 'Claudio Radovich, Fundador',
-                ],
-                [
-                    'area' => 'Consultoría',
-                    'text' => '
-                        <strong>“Logramos 2X nuestra facturación</strong> en menos de 6 meses y multiplicar 4X los nuevos leads gracias a Escala.”
-                        ',
-                    'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
-                    'name' => 'William Ávila, CEO',
-                ],
-                [
-                    'area' => 'Salud y bienestar',
-                    'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
-                    'logo' => App::setFilePath('/assets/images/logos/logo_rgg.png'),
-                    'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
-                ],
-            ];
+        $desk_reviews = [
+        [
+        'area' => 'Finanzas',
+        'text' => '
+        <strong>“Gracias a Escala ahorramos 70% del tiempo invertido</strong> por el equipo comercial en tareas operativas y aumentamos 20% la cantidad de clientes.”
+        ',
+        'logo' => App::setFilePath('/assets/images/logos/logo_saeta.png'),
+        'name' => 'Claudio Radovich, Fundador',
+        ],
+        [
+        'area' => 'Consultoría',
+        'text' => '
+        <strong>“Logramos 2X nuestra facturación</strong> en menos de 6 meses y multiplicar 4X los nuevos leads gracias a Escala.”
+        ',
+        'logo' => App::setFilePath('/assets/images/illustrations/others/icon_mark_testimonial.png'),
+        'name' => 'William Ávila, CEO',
+        ],
+        [
+        'area' => 'Salud y bienestar',
+        'text' => '<strong>“Aumentamos 5X la tasa de recuperación</strong> de carrito de compra abandonado y 41% la tasa de apertura promedio en campañas de Email Marketing.”',
+        'logo' => App::setFilePath('/assets/images/logos/logo_rgg.png'),
+        'name' => 'Biaggio Correale, Director <br class="space"> de Operaciones',
+        ],
+        ];
 
         @endphp
 
@@ -501,59 +534,59 @@ La IA Consigue <span>imágenes</span>
                                 <div id="carousel-testimonials-desktop" class="owl-carousel owl-theme">
 
                                     @if (isset($desk_reviews) && $desk_reviews != null)
-                                        @foreach ($desk_reviews as $index => $item)
-                                            <div class="item @if ($index === array_key_first($desk_reviews)) active @endif ">
+                                    @foreach ($desk_reviews as $index => $item)
+                                    <div class="item @if ($index === array_key_first($desk_reviews)) active @endif ">
 
-                                                <div class="testimonial">
+                                        <div class="testimonial">
 
-                                                    <div class="containElements">
+                                            <div class="containElements">
 
-                                                        <div class="area">
-                                                            <h3>
-                                                                {!! $item['area'] !!}
-                                                            </h3>
-                                                        </div>
-
-                                                        <div class="quote">
-                                                            <div class="containerImage">
-                                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
-
-                                                            </div>
-                                                        </div>
-
-                                                        <p class="text">
-                                                            {!! $item['text'] !!}
-                                                        </p>
-
-                                                        <div class="byCompany">
-                                                            <div class="logo">
-                                                                <div class="containerImage">
-                                                                    <img alt="TrustPilot review"
-                                                                        src="{!! $item['logo'] !!}" alt=""
-                                                                        loading="lazy">
-                                                                </div>
-                                                            </div>
-                                                            <div class="data">
-                                                                <span class="name">
-                                                                    {!! $item['name'] !!}
-                                                                </span>
-                                                                <div class="stars">
-                                                                    <div class="containerImage">
-                                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}"
-                                                                            loading="lazy">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-
-
+                                                <div class="area">
+                                                    <h3>
+                                                        {!! $item['area'] !!}
+                                                    </h3>
                                                 </div>
 
+                                                <div class="quote">
+                                                    <div class="containerImage">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/open_comi.png') !!}" loading="lazy">
+
+                                                    </div>
+                                                </div>
+
+                                                <p class="text">
+                                                    {!! $item['text'] !!}
+                                                </p>
+
+                                                <div class="byCompany">
+                                                    <div class="logo">
+                                                        <div class="containerImage">
+                                                            <img alt="TrustPilot review"
+                                                                src="{!! $item['logo'] !!}" alt=""
+                                                                loading="lazy">
+                                                        </div>
+                                                    </div>
+                                                    <div class="data">
+                                                        <span class="name">
+                                                            {!! $item['name'] !!}
+                                                        </span>
+                                                        <div class="stars">
+                                                            <div class="containerImage">
+                                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars.png') !!}"
+                                                                    loading="lazy">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
                                             </div>
-                                        @endforeach
+
+
+                                        </div>
+
+
+                                    </div>
+                                    @endforeach
                                     @endif
 
 
@@ -566,11 +599,11 @@ La IA Consigue <span>imágenes</span>
 
                             <button type="button" data-bs-target="#carousel-testimonials-desktop" data-bs-slide-to="{{ $index }}" @if ($index === array_key_first($desk_reviews)) class="active" aria-current="true" @endif aria-label="Slide {{ $index }}"></button>
 
-                            @endforeach
+                                    @endforeach
 
-                            @endif
+                                    @endif
 
-                        </ol> --}}
+                                    </ol> --}}
 
 
                                 </div>
@@ -668,38 +701,38 @@ La IA Consigue <span>imágenes</span>
 
 
         @php
-            $url = 'https://api.whatsapp.com/send?phone=17863042407';
-            $items = [
-                [
-                    'type' => 'master',
-                    'title' => '¿Qué es la inteligencia artificial?',
-                    'text' => 'La inteligencia artificial (IA) es un conjunto de tecnologías desarrolladas para comprender su entorno y realizar funciones avanzadas, como agilizar procesos, reconocer imágenes, analizar datos, hacer sugerencias, entre otras.',
-                ],
-                [
-                    'type' => 'master',
-                    'title' => '¿Cómo benefician las herramientas de IA en Escala a mi empresa?',
-                    'text' => 'En Escala se incorpora la inteligencia artificial para acelerar los procesos de creación de contenido para tus emails y landing pages. Así, podrás optimizar la inversión de tiempo de tu equipo creativo en las tareas que requieren de investigación y recolección de datos.',
-                ],
-                [
-                    'type' => 'master',
-                    'title' => '¿Cómo hago para contratar la herramienta de IA de Escala?',
-                    'text' => '
-                    Contacta a nuestros asesores de venta o ingresa a:
-                    <a class="hiperButtonGreenBlueT2"href="' . $url . '">Whatsapp</a>
-                    ',
-                ],
-            ];
+        $url = 'https://api.whatsapp.com/send?phone=17863042407';
+        $items = [
+        [
+        'type' => 'master',
+        'title' => '¿Qué es la inteligencia artificial?',
+        'text' => 'La inteligencia artificial (IA) es un conjunto de tecnologías desarrolladas para comprender su entorno y realizar funciones avanzadas, como agilizar procesos, reconocer imágenes, analizar datos, hacer sugerencias, entre otras.',
+        ],
+        [
+        'type' => 'master',
+        'title' => '¿Cómo benefician las herramientas de IA en Escala a mi empresa?',
+        'text' => 'En Escala se incorpora la inteligencia artificial para acelerar los procesos de creación de contenido para tus emails y landing pages. Así, podrás optimizar la inversión de tiempo de tu equipo creativo en las tareas que requieren de investigación y recolección de datos.',
+        ],
+        [
+        'type' => 'master',
+        'title' => '¿Cómo hago para contratar la herramienta de IA de Escala?',
+        'text' => '
+        Contacta a nuestros asesores de venta o ingresa a:
+        <a class="hiperButtonGreenBlueT2" href="' . $url . '">Whatsapp</a>
+        ',
+        ],
+        ];
 
-            $parameters = [
-                'classSection' => 'subpage_campaign_AI_12',
-                'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-                'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-                'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
-                'items' => $items,
-                'title' => '
-    Preguntas <span>frecuentes</span>
-   ',
-            ];
+        $parameters = [
+        'classSection' => 'subpage_campaign_AI_12',
+        'overlayImage1' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+        'overlayImage2' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+        'overlayImage3' => App::setFilePath('/assets/images/overlays/blur-3.png'),
+        'items' => $items,
+        'title' => '
+        Preguntas <span>frecuentes</span>
+        ',
+        ];
         @endphp
         @contain_FAQ_T1($parameters)
         @endcontain_FAQ_T1

@@ -59,33 +59,6 @@
                                             </div>
 
                                         </div>
-                                        <div class="cards consultAsesoria">
-                                            <div class="cardInterna">
-                                                <div class="card">
-                                                    <a href="https://escala.com/caso-de-exito-causa-y-solucion/">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_c&_e.png') !!}" loading="lazy">
-                                                    </a>
-                                                    <span>Consultoría</span>
-                                                </div>
-
-
-                                            </div>
-
-                                        </div>
-                                        <div class="cards segurosFinanza">
-                                            <div class="cardInterna">
-                                                <div class="card">
-                                                    <a href="https://escala.com/caso-de-exito-gestion-financiera/">
-                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_saeta_popup.png') !!}" loading="lazy">
-                                                    </a>
-                                                    <span>Finanzas</span>
-                                                </div>
-
-
-                                            </div>
-
-                                        </div>
-
 
                                     </div>
 
