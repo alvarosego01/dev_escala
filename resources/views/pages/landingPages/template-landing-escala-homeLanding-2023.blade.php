@@ -163,7 +163,7 @@
 
 
                                         <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
-                                            personalizado en vivo</h5>
+                                            personalizado de Escala</h5>
 
 
                                         @php

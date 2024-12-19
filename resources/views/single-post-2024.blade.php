@@ -78,8 +78,9 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
 
-                                        <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
-                                            personalizado en vivo</h5>
+                               
+                                    <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
+                                        personalizado de Escala</h5>
 
 
                                         @php

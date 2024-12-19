@@ -64,7 +64,7 @@
 
 
                   <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
-                    personalizado en vivo</h5>
+                    personalizado de Escala</h5>
 
 
                   @php
@@ -543,7 +543,7 @@ compras en un 150% con Escala”
 
 
                   <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
-                    personalizado en vivo</h5>
+                    personalizado de Escala</h5>
 
 
                   @php
