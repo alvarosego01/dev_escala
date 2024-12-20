@@ -329,7 +329,7 @@
 
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Reportes Personalizados</span>para obtener métricas clave y tomar decisiones estratégicas.</span>
+                                        <span> <span class="title">Reportes Personalizados</span> para obtener métricas clave y tomar decisiones estratégicas.</span>
                                     </li>
 
                                     <li>
@@ -343,7 +343,7 @@
                                     </li>
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/email_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Email Marketing </span>para crear campañas efectivas que aumenten la conversión.</span>
+                                        <span> <span class="title">Email Marketing </span> para crear campañas efectivas que aumenten la conversión.</span>
                                     </li>
 
                                     <li>

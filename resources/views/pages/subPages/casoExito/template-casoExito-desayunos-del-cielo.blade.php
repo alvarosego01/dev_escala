@@ -5,7 +5,7 @@
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol casoExito_desayunos_del_cielo_0 newHome ">
 
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_header_caso_de_exito_taller-5.svg') }}')" class="backgroundFull">
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_1_desayunos_del_cielo_.svg') }}')" class="backgroundFull">
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
 
@@ -22,31 +22,30 @@
                                     <div class="ele ele1 col-md-12 col-lg-6">
 
                                         <div class="containerImage">
-                                            <img src="{!! App::setFilePath('/assets/images/person/img_chico_feliz_taller_5_escala_caso_de_exito.png') !!}" alt="Ilustración taller 5 " loading="lazy">
-
+                                            <img src="{!! App::setFilePath('/assets/images/person/desayunos_del_cielo_chica_feliz_entregando_paquete.png') !!}" alt="Ilustración taller 5 " loading="lazy">
                                         </div>
 
                                     </div>
 
                                     <div class="ele ele2 col-md-12 col-lg-6">
                                         <h1 class="principalBigTitle blackColor">
-                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_taller_5_caso_de_exito.png') !!}" alt="" class="logo-img" loading="lazy">
-                                            <small><span>Caso de éxito: Educación</span></small>
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_desayunos_del_cielo.png') !!}" alt="" class="logo-img" loading="lazy">
+                                            <small><span>Caso de éxito: Tienda Online</span></small>
 
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
-                                            <span class="blueColor">
-                                                Esta universidad, líder en <br class="DT_e">
-                                                formación artística,
+                                            <span class="whiteColor">
+                                                Esta empresa
                                             </span>
                                             <span class="span2">
-                                                incrementó sus ingresos en <br class="DT_e">
-                                                más del 50% con Escala <br class="DT_e">
-                                                CRM en menos de 6 meses
+                                                aumentó sus <br class="DT_e">
+                                                ventas un 40%
                                             </span>
-
-
+                                            <span class="span3">
+                                                con la automatización y <br class="DT_e">
+                                                control de Escala CRM
+                                            </span>
                                         </p>
 
                                     </div>
@@ -96,7 +95,8 @@
                             <div class=" ele3 col-md-12 col-lg-6">
 
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/person/img_chico_feliz_taller_5_escala_caso_de_exito.png') !!}" alt="Ilustración taller 5 " loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/person/desayunos_del_cielo_chica_feliz_entregando_paquete.png') !!}" alt="Ilustración taller 5 " loading="lazy">
+
                                 </div>
 
                             </div>
@@ -130,19 +130,8 @@
                                 </span>
                             </div>
                             <p class="text">
-                                la velocidad de <br class="DT_e">
-                                respuesta a prospectos
-                            </p>
-                        </div>
-                        <div class="element">
-                            <div class="numbers">
-                                <span>
-                                    Duplicaron
-                                </span>
-                            </div>
-                            <p class="text">
-                                su eficiencia y organización en <br class="DT_e">
-                                la gestión de leads y clientes
+                                su eficiencia en la atención <br class="DT_e">
+                                de prospectos y clientes
                             </p>
                         </div>
                         <div class="element">
@@ -152,7 +141,19 @@
                                 </span>
                             </div>
                             <p class="text">
-                                sus costos operativos
+                                significativamente la <br class="DT_e">
+                                pérdida de prospectos
+                            </p>
+                        </div>
+                        <div class="element">
+                            <div class="numbers">
+                                <span>
+                                    Consolidaron
+                                </span>
+                            </div>
+                            <p class="text">
+                                su crecimiento de manera <br class="DT_e">
+                                ordenada y eficiente
                             </p>
                         </div>
                     </div>
@@ -170,8 +171,7 @@
                     <div class="containElements">
 
                         <h2 class="primaryTitle whiteColor">
-                            ¿Qué dice el líder de Comunicaciones <br class="DT_e">
-                            y Marketing sobre Escala?
+                            ¿Qué dice el CEO sobre Escala?
                         </h2>
 
                     </div>
@@ -187,8 +187,8 @@
                         <div class="video col-md-12">
 
                             @php
-                            $videoEmbed = App::setFilePath('/assets/videos/caso_de_exito_video_miller_romero_taller_5.mp4');
-                            $videoCover = App::setFilePath('/assets/images/illustrations/others/miller_moreno_img_overlay_video.png');
+                            $videoEmbed = App::setFilePath('/assets/videos/desayunos-del-cielo-video.mp4');
+                            $videoCover = App::setFilePath('/assets/images/illustrations/others/edison-sanchez_img_overlay_video.png');
                             @endphp
 
                             @if (isset($videoEmbed) && $videoEmbed != null)
@@ -239,14 +239,14 @@
                         <div class="info col-md-12 col-lg-6">
 
                             <h3 class="secondaryTitle">
-                                Sobre Taller 5
+                                Sobre Desayunos del Cielo
                             </h3>
 
                             <p class="text">
-                                Taller 5 es una institución universitaria colombiana <br class="DT_e">
-                                reconocida por sus programas de alta calidad en <br class="DT_e">
-                                artes y diseño, que impulsa la creatividad y el <br class="DT_e">
-                                crecimiento profesional de sus estudiantes.
+                                Es una tienda en línea especializada en detalles <br class="DT_e">
+                                personalizados. Sus procesos combinan <br class="DT_e">
+                                creatividad, puntualidad y atención al cliente para <br class="DT_e">
+                                hacer de cada regalo una experiencia única.
                             </p>
 
                         </div>
@@ -256,21 +256,22 @@
                                 <ul class="itemsList">
                                     <li>
                                         <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/industria_salud_icon_orange.png') !!}" alt=""></div>
-                                        <strong>Industria:</strong> Educación
+                                        <strong>Industria:</strong> Tienda Online
+
                                     </li>
 
                                     <li>
                                         <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/tamaño_icon_orange.png') !!}" alt=""></div>
-                                        <strong>Tamaño:</strong> 13 - 50 empleados
+                                        <strong>Tamaño:</strong> 10 empleados
                                     </li>
                                     <li>
                                         <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/locacion_icon_orange.png') !!}" alt=""></div>
-                                        <strong>Locación:</strong> Bogotá, Chía y Cali, Col.
+                                        <strong>Locación:</strong> Bogotá y Medellín, Col.
 
                                     </li>
                                     <li>
                                         <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/website_icon_orange.png') !!}" alt=""></div>
-                                        <strong>Website:</strong> <a target="_blank" href="https://www.taller5.edu.co/">www.taller5.edu.co/</a>
+                                        <strong>Website:</strong> <a target="_blank" href="https://desayunosdelcielo.com/">https://desayunosdelcielo.com/</a>
 
                                     </li>
                                 </ul>
@@ -286,13 +287,13 @@
 
 
         <section class="customSection sectionParent casoExito_desayunos_del_cielo_4">
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_5_caso_de_exito_taller-5.svg') }}')" class="backgroundFull">
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_5desayunos_del_cielo_.svg') }}')" class="backgroundFull">
 
                 <div class="section-row">
                     <div class="containElements">
 
                         <section class="innerSectionElement sct1">
-                            <img src="{!! App::setFilePath('/assets/images/person/img_centro_chica_trabajando_feliz_taller_5_escala_caso_de_exito.png') !!}" alt="">
+                            <img src="{!! App::setFilePath('/assets/images/person/desayunos_del_cielo_img_central_chica_empaquetando.png') !!}" alt="">
 
                             <h2 class="primaryTitle">
                                 Las herramientas de Escala que utilizan
@@ -304,50 +305,22 @@
                             <div class="containElements">
                                 <ul class="itemsList">
                                     <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/crm_icon_escala.png') !!}" alt="">
-                                        <span><span class="title">CRM</span>para organizar y centralizar información de prospectos y estudiantes, facilitando el seguimiento.</span>
-                                    </li>
-
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/email_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Email Marketing </span>para diseñar campañas personalizadas que aumenten la conversión.</span>
-                                    </li>
-
-                                    <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Whatsapp Inbox</span> para mejorar la comunicación con respuestas rápidas y automatizadas.</span>
+                                        <span> <span class="title">WhatsApp API</span> para mejorar la comunicación con respuestas rápidas y automatizadas.</span>
                                     </li>
                                     <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/ads_icon_escala.png') !!}" alt="">
-                                        <span><span class="title">Anuncios digitales</span> para medir el rendimiento de campañas y optimizar resultados en tiempo real.</span>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/crm_icon_escala.png') !!}" alt="">
+                                        <span><span class="title">CRM</span> para llevar un control centralizado de contactos y pedidos, con campos personalizados para fechas especiales.</span>
                                     </li>
+
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/flujos_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Flujos Automatizados</span> para eliminar tareas repetitivas, ahorrando tiempo y recursos.</span>
-                                    </li>
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_planificador_embudos.png') !!}" alt="">
-                                        <span> <span class="title">Planificador de Embudos</span> para organizar estrategias de captación y seguimiento en embudos claros.</span>
-                                    </li>
-
-
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Landing pages </span> personalizadas y optimizadas por programa educativo, para captar prospectos efectivamente.</span>
+                                        <span> <span class="title">Flujos Automatizados</span> para gestionar leads eficientemente, aplicando etiquetas y recordatorios, además de ejecutar tareas después del pago del cliente.</span>
                                     </li>
 
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Reportes Personalizados</span>para obtener métricas clave y tomar decisiones estratégicas.</span>
-                                    </li>
-                                    <li>
-
-                                    </li>
-
-
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/app_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Escala App</span> para acceder al CRM y herramientas de Escala desde cualquier lugar.</span>
+                                        <span> <span class="title">Reportes Personalizados</span> para obtener métricas clave y tomar decisiones estratégicas.</span>
                                     </li>
                                 </ul>
                             </div>
@@ -358,8 +331,8 @@
                                 El desafío antes de Escala:
                             </h2>
                             <span class="subTitle">
-                                Taller 5 enfrentaba retos operativos y organizativos que <br class="DT_e">
-                                reducían la efectividad de sus procesos comerciales:
+                                Desayunos del Cielo debía superar tres desafíos <br class="DT_e">
+                                que limitaban su crecimiento y eficiencia:
                             </span>
 
                             <div class="containElements left">
@@ -372,36 +345,28 @@
                                     <ul>
                                         <li>
                                             <span>
-                                                Dependencia de herramientas manuales<br class="DT_e">
+                                                Uso manual de Whatsapp:
                                             </span>
-                                            como Excel y Google Drive, donde toda la <br class="DT_e">
-                                            información se registraba sin estadísticas ni <br class="DT_e">
-                                            automatización, dificultando el seguimiento de <br class="DT_e">
-                                            prospectos y estudiantes.
+                                            Al no contar <br class="DT_e">
+                                            con Whatsapp API, se generaba desorden y <br class="DT_e">
+                                            respuestas tardías, perdiendo prospectos en <br class="DT_e">
+                                            momentos clave de decisión de compra.
                                         </li>
 
                                         <li>
                                             <span>
-                                                Falta de un sistema centralizado <br class="DT_e">
+                                                Falta de automatización en la atención: <br class="DT_e">
                                             </span>
-                                            accesible a todo el equipo, para <br class="DT_e">
-                                            consultar y hacer seguimiento a <br class="DT_e">
-                                            estudiantes y prospectos.
+                                            La gestión manual de cada una de las <br class="DT_e">
+                                            conversaciones causaba retrasos y fallos <br class="DT_e">
+                                            en la atención personalizada.
                                         </li>
 
                                         <li>
-                                            <span>Uso de un software a la medida
+                                            <span>Falta de control en el seguimiento: <br class="DT_e">
                                             </span>
-                                            gestionado <br class="DT_e">
-                                            por una sola persona, lo que retrasaba las <br class="DT_e">
-                                            operaciones y reducía la eficiencia del equipo.
-                                        </li>
-                                        <li>
-                                            <span>Falta de visibilidad en las campañas de <br class="DT_e"> marketing
-                                            </span>
-                                            por lo que no podían medir en <br class="DT_e">
-                                            tiempo real el rendimiento de las campañas <br class="DT_e">
-                                            digitales ni identificar qué estrategias son efectivas.
+                                            La gestión manual causaba retrasos <br class="DT_e">
+                                            y fallos en la atención personalizada. <br class="DT_e">
                                         </li>
                                     </ul>
                                 </div>
@@ -421,7 +386,6 @@
                             ¿Cómo utilizaron Escala para mejorar <br class="DT_e">
                             sus resultados de marketing y venta?
                         </h2>
-
                     </section>
 
                     <section class="innerSectionElement sct2">
@@ -436,21 +400,21 @@
                                 <div class="containElements">
                                     <span>1</span>
                                     <h3 class="subTittle">
-                                        Email Marketing y WhatsApp integrados al CRM:
+                                        Integración de WhatsApp con el CRM:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        Cuando un prospecto de Taller 5 solicita información, su contacto se registra automáticamente en el CRM. Se activan comunicaciones personalizadas por email y WhatsApp según sus intereses. Además, se asignan etiquetas para organizarlo y darle seguimiento de manera efectiva. Este proceso optimiza la experiencia del prospecto, asegurando que reciba la atención adecuada en cada etapa.
-                                    </p>
+                                        Desayunos del Cielo integró WhatsApp con el CRM, lo que permitió automatizar el registro de cada prospecto que
+                                        entraba a través de este canal. Esta integración también
+                                        asigna automáticamente los leads a los asesores. </p>
                                     <h3 class="subTitle">
                                         Impacto:
                                     </h3>
                                     <ul>
-                                        <li>Mejoraron la eficiencia en la gestión de prospectos</li>
-                                        <li>Aumentaron la conversión con seguimientos más personalizados</li>
-                                        <li>Optimizaron la experiencia de cada prospecto, <br class="DT_e">
-                                            mejorando el cierre de ventas</li>
+                                        <li>Mejora en la atención al cliente al garantizar respuestas rápidas y personalizadas.</li>
+                                        <li>Reducción de la pérdida de prospectos gracias a una asignación eficiente de leads.</li>
+                                        <li>Aumento en la eficiencia del equipo comercial al automatizar varias tareas administrativas.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -470,25 +434,23 @@
                                 <div class="containElements">
                                     <span>2</span>
                                     <h3 class="subTittle">
-                                        Flujos automatizados de asignación
-                                        automática de leads:
+                                        Automatización de respuestas en WhatsApp:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        Cuando se recibe un nuevo prospecto, el CRM asigna
-                                        automáticamente el contacto al vendedor correspondiente
-                                        según la sede de estudio del interesado. Esto permite que
-                                        el equipo comercial se enfoque más en cerrar ventas y menos en tareas operativas.
+                                        Implementaron flujos automatizados para responder rápidamente a las consultas de los clientes, incluyendo envío de catálogos y preguntas relacionadas con los detalles de cada entrega. 
                                     </p>
                                     <h3 class="subTitle">
                                         Impacto:
                                     </h3>
                                     <ul>
-                                        <li>Aumentaron la productividad del equipo comercial</li>
-                                        <li>Mejoraron la eficiencia en la asignación de leads</li>
-                                        <li>Incrementaron las ventas al reducir el <br class="DT_e">
-                                            tiempo dedicado a tareas operativas</li>
+                                        <li>Mejora en la experiencia del cliente al proporcionar respuestas inmediatas.</li>
+                                        <li>Ahorro de tiempo y recursos del equipo de ventas al reducir la necesidad de
+                                            intervención manual.</li>
+                                        <li>Incremento en la capacidad de respuesta y seguimiento continuo.</li>
+                                        <li>Atención, incluso fuera del horario laboral.
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -507,96 +469,24 @@
                                 <div class="containElements">
                                     <span>3</span>
                                     <h3 class="subTittle">
-                                        Landing Pages y formularios <br class="DT_e">
-                                        segmentados por interés:
+                                        Organización y seguimiento de <br class="DT_e">
+                                        prospectos con el CRM:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        Para sus campañas en Google Ads y Meta, Taller 5 utiliza
-                                        landing pages y formularios específicos según el interés
-                                        de cada prospecto. Esto asegura que al registrarse,
-                                        reciban comunicaciones alineadas con su interés. 
+                                        Pudieron organizar y priorizar de manera eficiente el seguimiento
+                                        de cada prospecto. Gracias a la implementación de etiquetas
+                                        personalizadas y el seguimiento automatizado de oportunidades,
+                                        lograron un proceso más ágil y efectivo en la gestión comercial.
                                     </p>
                                     <h3 class="subTitle">
                                         Impacto:
                                     </h3>
                                     <ul>
-                                        <li>Mejoraron la calidad de los leads generados</li>
-                                        <li>Optimizaron la comunicación y conversión</li>
-                                        <li>Aumentaron la efectividad de sus campañas publicitarias</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="containElements right special">
-
-                            <div class="image">
-                                <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/5.reports_Vista-simplificada-(1).gif') !!}" alt="">
-                                </div>
-                            </div>
-
-                            <div class="info">
-                                <div class="containElements">
-                                    <span>4</span>
-                                    <h3 class="subTittle">
-                                        Uso embudos de ventas y reportes <br class="DT_e">
-                                        personalizados:
-                                    </h3>
-                                </div>
-                                <div class="containElements_2">
-                                    <p class="text">
-
-                                        Taller 5 utiliza el planificador de embudos de Escala y
-                                        los reportes personalizados para monitorear cada
-                                        etapa de sus procesos comerciales en tiempo real.
-                                        Esto les permite identificar rápidamente áreas de
-                                        mejora y ajustar sus estrategias con mayor agilidad.
-                                    </p>
-                                    <h3 class="subTitle">
-                                        Impacto:
-                                    </h3>
-                                    <ul>
-                                        <li>Monitoreo en tiempo real del rendimiento comercial</li>
-                                        <li>Ajuste rápido de estrategias para mejorar resultados</li>
-                                        <li>Toma de mejores decisiones gracias a la visibilidad <br class="DT_e">
-                                            detallada del rendimiento del equipo y de los prospectos.</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="containElements left">
-
-                            <div class="image">
-                                <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/Anuncios-Digitales-(1).gif') !!}" alt="">
-                                </div>
-                            </div>
-
-                            <div class="info">
-                                <div class="containElements">
-                                    <span>5</span>
-                                    <h3 class="subTittle">
-                                        Integración de anuncios de Meta con Escala:
-                                    </h3>
-                                </div>
-                                <div class="containElements_2">
-                                    <p class="text">
-                                        A través de esta integración se sincronizan automáticamente
-                                        los leads generados en las campañas publicitarias.
-                                    </p>
-                                    <h3 class="subTitle">
-                                        Impacto:
-                                    </h3>
-                                    <ul>
-                                        <li>Agilizaron el flujo de leads desde los anuncios hacia el CRM.</li>
-                                        <li>Mejoraron la tasa de respuesta al reducir el tiempo entre
-                                            la captación del lead y el primer contacto.</li>
+                                        <li>Reducción del riesgo de pérdida de prospectos.</li>
+                                        <li>Aumento en la tasa de conversión de ventas.</li>
+                                        <li>Reducción de la carga manual y operativa en el equipo de ventas, para enfocarse en tareas más estratégicas.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -625,24 +515,26 @@
                         <div class="row">
                             <div class="col-md-12 col-lg-5 column-img">
                                 <div class="img-container">
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_miller_romero_taller_5_escala_caso_de_exito.png') !!}" loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/desayunos_al_cielo_edison_sanchez_ceo.png') !!}" loading="lazy">
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-7 column-text">
                                 <p>
-                                    “Recomiendo ampliamente Escala, es una <br class="DT_e">
-                                    herramienta que no solo organiza nuestro <br class="DT_e">
-                                    proceso comercial, sino que nos permite hacer <br class="DT_e">
-                                    un seguimiento preciso de cada prospecto y <br class="DT_e">
-                                    alumno. Su equipo de soporte siempre está <br class="DT_e">
-                                    ahí, acompañándonos y facilitando cada paso. <br class="DT_e">
-                                    Escala ha sido un gran aliado para mejorar <br class="DT_e">
-                                    nuestra operación, automatizar tareas y <br class="DT_e">
-                                    optimizar nuestra inversión en marketing”. <br class="DT_e">
+                                    “Durante años luchamos por el control de leads y <br class="DT_e">
+                                    conversaciones por WhatsApp hasta que encontramos <br class="DT_e">
+                                    Escala, y fue la mejor decisión. Con sus automatizaciones y <br class="DT_e">
+                                    el control de oportunidades, nuestras ventas aumentaron <br class="DT_e">
+                                    cerca de un 40%. La implementación fue rápida, efectiva, y <br class="DT_e">
+                                    el equipo de Escala siempre está disponible para ayudar. <br class="DT_e">
+                                    Si quieres estructurar mejor tu negocio y aumentar tus <br class="DT_e">
+                                    ventas, no lo dudes: Escala puede hacer la diferencia. <br class="DT_e">
+                                    Decídete sin miedo”
+                                    <br class="space">
                                     <br class="space">
                                     <span class="blue">
-                                        Miller Romero <br class="space">
-                                        <span>Coordinador de Comunicaciones y Mercadeo</span>
+                                        Edison Sánchez
+                                        <br class="space">
+                                        <span> CEO Desayunos del Cielo</span>
                                     </span>
 
                                 </p>
@@ -655,7 +547,7 @@
 
         </section>
 
-        <section class="customSection sectionParent casoExito_desayunos_del_cielo_7 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_10_caso_de_exito_taller-5.svg') }}')">
+        <section class="customSection sectionParent casoExito_desayunos_del_cielo_7 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_10_desayunos_del_cielo_.svg') }}')">
 
             <div class="section-row">
 
