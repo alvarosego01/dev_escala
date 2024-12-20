@@ -305,31 +305,32 @@
                                 <ul class="itemsList">
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/crm_icon_escala.png') !!}" alt="">
-                                        <span><span class="title">CRM</span>para organizar y centralizar información de prospectos y estudiantes, facilitando el seguimiento.</span>
+                                        <span><span class="title">CRM</span> para organizar y centralizar información de prospectos y estudiantes, facilitando el seguimiento.</span>
                                     </li>
 
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/email_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Email Marketing </span>para diseñar campañas personalizadas que aumenten la conversión.</span>
-                                    </li>
 
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Whatsapp Inbox</span> para mejorar la comunicación con respuestas rápidas y automatizadas.</span>
-                                    </li>
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/ads_icon_escala.png') !!}" alt="">
                                         <span><span class="title">Anuncios digitales</span> para medir el rendimiento de campañas y optimizar resultados en tiempo real.</span>
                                     </li>
                                     <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/flujos_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Flujos Automatizados</span> para eliminar tareas repetitivas, ahorrando tiempo y recursos.</span>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Whatsapp Inbox</span> para mejorar la comunicación con respuestas rápidas y personalizadas.</span>
                                     </li>
+
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_planificador_embudos.png') !!}" alt="">
                                         <span> <span class="title">Planificador de Embudos</span> para organizar estrategias de captación y seguimiento en embudos claros.</span>
                                     </li>
+                                    <li>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/flujos_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Flujos Automatizados</span> para eliminar tareas repetitivas, ahorrando tiempo y recursos.</span>
+                                    </li>
 
+                                    <li>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Reportes Personalizados</span> para obtener métricas clave y tomar decisiones estratégicas.</span>
+                                    </li>
 
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing_icon_escala.png') !!}" alt="">
@@ -337,18 +338,18 @@
                                     </li>
 
                                     <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Reportes Personalizados</span>para obtener métricas clave y tomar decisiones estratégicas.</span>
-                                    </li>
-                                    <li>
-
-                                    </li>
-
-
-                                    <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/app_icon_escala.png') !!}" alt="">
                                         <span> <span class="title">Escala App</span> para acceder al CRM y herramientas de Escala desde cualquier lugar.</span>
                                     </li>
+                                    <li>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/email_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Email Marketing </span> para crear campañas efectivas que aumenten la conversión.</span>
+                                    </li>
+
+                                    <li>
+
+                                    </li>
+
                                 </ul>
                             </div>
                         </section>
@@ -384,9 +385,10 @@
                                             <span>
                                                 Falta de un sistema centralizado <br class="DT_e">
                                             </span>
-                                            accesible a todo el equipo, para <br class="DT_e">
-                                            consultar y hacer seguimiento a <br class="DT_e">
-                                            estudiantes y prospectos.
+                                            en las campañas de
+                                            marketing, por lo que no podían medir en
+                                            tiempo real el rendimiento de las campañas
+                                            digitales ni identificar qué estrategias son efectivas.
                                         </li>
 
                                         <li>
@@ -401,7 +403,7 @@
                                             </span>
                                             por lo que no podían medir en <br class="DT_e">
                                             tiempo real el rendimiento de las campañas <br class="DT_e">
-                                            digitales ni identificar qué estrategias son efectivas.
+                                            digitales ni identificar qué estrategias eran efectivas.
                                         </li>
                                     </ul>
                                 </div>
@@ -562,7 +564,7 @@
                                     <ul>
                                         <li>Monitoreo en tiempo real del rendimiento comercial</li>
                                         <li>Ajuste rápido de estrategias para mejorar resultados</li>
-                                        <li>Toma de mejores decisiones gracias a la visibilidad <br class="DT_e">
+                                        <li>Toma de mejores decisiones gracias a la visibilidad
                                             detallada del rendimiento del equipo y de los prospectos.</li>
                                     </ul>
                                 </div>
@@ -587,8 +589,8 @@
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        A través de esta integración se sincronizan automáticamente
-                                        los leads generados en las campañas publicitarias.
+                                        A través de esta integración, se sincronizan automáticamente
+                                        los prospectos generados en las campañas publicitarias.
                                     </p>
                                     <h3 class="subTitle">
                                         Impacto:
@@ -642,7 +644,7 @@
                                     <br class="space">
                                     <span class="blue">
                                         Miller Romero <br class="space">
-                                        <span>Coordinador de Comunicaciones y Mercadeo</span>
+                                        <span>Líder de Comunicaciones y Marketing</span>
                                     </span>
 
                                 </p>

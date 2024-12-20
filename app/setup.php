@@ -404,6 +404,10 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-casoExito-taller-5.blade.php')) {
         wp_enqueue_style('subPage_casoExito_taller_5.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_taller_5.css'), false, THEME_VERSION);
     }
+    //Desayunos del cielo
+    if (is_page_template('views/template-casoExito-desayunos-del-cielo.blade.php')) {
+        wp_enqueue_style('subPage_casoExito_desayunos_del_cielo.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_desayunos_del_cielo.css'), false, THEME_VERSION);
+    }
     // ---
     // --- Casos uso
     if (is_page_template('views/template-casoUso-home.blade.php')) {
