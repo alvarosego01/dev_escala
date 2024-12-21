@@ -22,7 +22,7 @@
                                     <div class="ele ele1 col-md-12 col-lg-6">
 
                                         <div class="containerImage">
-                                            <img src="{!! App::setFilePath('/assets/images/person/desayunos_del_cielo_chica_feliz_entregando_paquete.png') !!}" alt="Ilustración taller 5 " loading="lazy">
+                                            <img src="{!! App::setFilePath('/assets/images/person/desayunos_del_cielo_chica_feliz_entregando_paquete.png') !!}" alt="Ilustración desayunos del cielo " loading="lazy">
                                         </div>
 
                                     </div>
@@ -95,7 +95,7 @@
                             <div class=" ele3 col-md-12 col-lg-6">
 
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/person/desayunos_del_cielo_chica_feliz_entregando_paquete.png') !!}" alt="Ilustración taller 5 " loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/person/desayunos_del_cielo_chica_feliz_entregando_paquete.png') !!}" alt="Ilustración desayunos del cielo " loading="lazy">
 
                                 </div>
 
@@ -515,7 +515,7 @@
 
 
                 <section class="innerSectionElement sct1">
-                    <img src="{!! App::setFilePath('/assets/images/banners/bg_section_9_taller_5.png') !!}" alt="" class="overlay">
+                    <img src="{!! App::setFilePath('/assets/images/banners/bg_section_9_desayunos_del_cielo.png') !!}" alt="" class="overlay">
 
                     <div class="containElements">
                         <div class="row">
