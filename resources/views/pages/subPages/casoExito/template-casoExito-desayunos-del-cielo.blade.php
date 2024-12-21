@@ -30,7 +30,7 @@
                                     <div class="ele ele2 col-md-12 col-lg-6">
                                         <h1 class="principalBigTitle blackColor">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_desayunos_del_cielo.png') !!}" alt="" class="logo-img" loading="lazy">
-                                            <small><span>Caso de éxito: Tienda Online</span></small>
+                                            <small><span>Caso de éxito:</span><span class="span2"> Tienda Online</span></small>
 
                                         </h1>
 
@@ -426,7 +426,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-(2).gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-whatsapp.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -439,16 +439,22 @@
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        Implementaron flujos automatizados para responder rápidamente a las consultas de los clientes, incluyendo envío de catálogos y preguntas relacionadas con los detalles de cada entrega. 
+                                        Implementaron flujos automatizados para responder <br class="DT_e">
+                                        rápidamente a las consultas de los clientes, incluyendo <br class="DT_e">
+                                        envío de catálogos y preguntas relacionadas con los <br class="DT_e">
+                                        detalles de cada entrega. 
                                     </p>
                                     <h3 class="subTitle">
                                         Impacto:
                                     </h3>
                                     <ul>
-                                        <li>Mejora en la experiencia del cliente al proporcionar respuestas inmediatas.</li>
-                                        <li>Ahorro de tiempo y recursos del equipo de ventas al reducir la necesidad de
+                                        <li>Mejora en la experiencia del cliente al <br class="DT_e">
+                                            proporcionar respuestas inmediatas.</li>
+                                        <li>Ahorro de tiempo y recursos del equipo <br class="DT_e">
+                                            de ventas al reducir la necesidad de <br class="DT_e">
                                             intervención manual.</li>
-                                        <li>Incremento en la capacidad de respuesta y seguimiento continuo.</li>
+                                        <li>Incremento en la capacidad de <br class="DT_e">
+                                            respuesta y seguimiento continuo.</li>
                                         <li>Atención, incluso fuera del horario laboral.
                                         </li>
                                     </ul>
@@ -461,7 +467,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/landing-page.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/caso_de_exito_crm.gif') !!}" alt="">
                                 </div>
                             </div>
 
