@@ -426,7 +426,7 @@
                                         asignación de leads según su perfil financiero, optimizando el
                                         embudo de ventas. Esto permitió segmentar prospectos, evitar
                                         el uso de recursos en leads no viables y crear etapas
-                                        personalizadas adaptadas al negocio de venta de motocicletas</p>
+                                        personalizadas adaptadas al negocio de venta de motocicletas.</p>
                                     <h3 class="subTitle">
                                         Impacto:
                                     </h3>
