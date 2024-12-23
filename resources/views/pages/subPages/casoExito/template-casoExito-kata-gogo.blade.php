@@ -410,7 +410,7 @@
                         <div class="containElements left">
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/2. WhatsApp.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/CRM.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -446,7 +446,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/CRM.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/Formularios y lead scoring.gif') !!}" alt="">
                                 </div>
                             </div>
 
