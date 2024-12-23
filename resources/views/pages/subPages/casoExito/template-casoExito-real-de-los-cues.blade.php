@@ -450,7 +450,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-casos-exito.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/caso_de_exito_crm.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -487,10 +487,10 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/caso_de_exito_crm.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-casos-exito.gif') !!}" alt="">
                                 </div>
                             </div>
-
+                           
                             <div class="info">
                                 <div class="containElements">
                                     <span>3</span>

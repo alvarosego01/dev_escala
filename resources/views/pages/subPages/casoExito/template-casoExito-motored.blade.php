@@ -409,7 +409,7 @@
                         <div class="containElements left">
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-casos-exito.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-(2).gif') !!}" alt="">
                                 </div>
                             </div>
 
