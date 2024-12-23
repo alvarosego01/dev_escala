@@ -408,6 +408,18 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-casoExito-desayunos-del-cielo.blade.php')) {
         wp_enqueue_style('subPage_casoExito_desayunos_del_cielo.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_desayunos_del_cielo.css'), false, THEME_VERSION);
     }
+    //Real de los Cues
+    if (is_page_template('views/template-casoExito-real-de-los-cues.blade.php')) {
+        wp_enqueue_style('subPage_casoExito_real_de_los_cues.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_real_de_los_cues.css'), false, THEME_VERSION);
+    }
+    //Motored
+    if (is_page_template('views/template-casoExito-motored.blade.php')) {
+        wp_enqueue_style('subPage_casoExito_motored.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_motored.css'), false, THEME_VERSION);
+    }
+    //Kata GoGo
+    if (is_page_template('views/template-casoExito-kata-gogo.blade.php')) {
+        wp_enqueue_style('subPage_casoExito_kata_gogo.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_kata_gogo.css'), false, THEME_VERSION);
+    }
     // ---
     // --- Casos uso
     if (is_page_template('views/template-casoUso-home.blade.php')) {
