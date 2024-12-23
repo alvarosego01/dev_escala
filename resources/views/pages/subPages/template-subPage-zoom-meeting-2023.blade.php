@@ -24,14 +24,15 @@
                                 <div class="containElements">
                                     <div class="card ">
                                         <div class="containerImage">
-                                            <img src="{!! App::setFilePath('/assets/images/person/chica_zoom_agendamiento.png') !!}" alt="">
+                                            <img src="{!! App::setFilePath('/assets/images/person/am/am_zoom_meeting.png') !!}" alt="">
                                         </div>
                                         <div class="action col-md-12 col-lg-5">
                                             <a href="https://us02web.zoom.us/j/6758915436" class=" primaryButton hoverInEffect">
-                                                Iniciar Zoom ahora
+                                                Recibir demo ahora
                                             </a>
                                             <small>
-                                                Se cargará en unos segundos
+                                                La videollamada por Zoom <br class="DT_e">
+                                                se cargará en unos segundos
                                             </small>
                                         </div>
                                     </div>
