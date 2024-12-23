@@ -31,7 +31,7 @@
                                                 Recibir demo ahora
                                             </a>
                                             <small>
-                                                La videollamada por Zoom <br class="DT_e">
+                                                La videollamada por Zoom <br class="space">
                                                 se cargará en unos segundos
                                             </small>
                                         </div>
