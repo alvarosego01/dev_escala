@@ -36,7 +36,7 @@
 
                                         <p class="principalBigText grayColorTexts">
                                             <span class="whiteColor">
-                                                Real de los Cues
+                                                Real de los Cues,
                                             </span>
                                             <span class="span2">
                                                 aumentó un 30% sus <br class="DT_e">
@@ -170,7 +170,7 @@
                     <div class="containElements">
 
                         <h2 class="primaryTitle whiteColor">
-                            ¿Qué dice el Gerente de Ventas <br class="DT_e">
+                            ¿Qué dice el Director Comercial <br class="DT_e">
                             sobre Escala?
                         </h2>
 
@@ -333,7 +333,7 @@
 
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/ads_icon_escala.png') !!}" alt="">
-                                        <span><span class="title">Anuncios digitales</span> integrado a Escala para medir el rendimiento de campañas de marketing.</span>
+                                        <span><span class="title">Anuncios digitales</span> integrados a Escala para medir el rendimiento de campañas de marketing.</span>
                                     </li>
 
                                     <li>
@@ -428,7 +428,7 @@
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        Con Escala, Real de los Cues comenzó a gestionar <br class="DT_e">
+                                        Con Escala, comenzaron a gestionar <br class="DT_e">
                                         la información de prospectos de manera <br class="DT_e">
                                         centralizada, lo que permitió organizar y actualizar <br class="DT_e">
                                         toda la data según sus intereses de compra.</p>
@@ -490,7 +490,7 @@
                                     <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-casos-exito.gif') !!}" alt="">
                                 </div>
                             </div>
-                           
+
                             <div class="info">
                                 <div class="containElements">
                                     <span>3</span>
@@ -512,6 +512,7 @@
                                         <li>Incrementaron la tasa de conversión de visitas a prospectos.</li>
                                         <li>Aumentaron las ventas al segmentar mejor sus campañas.</li>
                                         <li>Mejoraron la generación de leads calificados.</li>
+                                        <li>Incrementaron la tasa de conversión de visitas a prospectos realmente interesados.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -570,7 +571,7 @@
                                 <div class="containElements_2">
                                     <p class="text">
 
-                                        Tanto el equipo comercial como los directivos utilizaron la <br class="DT_e">
+                                        Tanto el equipo comercial como los directivos, utilizaron la <br class="DT_e">
                                         app de Escala para gestionar sus procesos de ventas <br class="DT_e">
                                         desde cualquier lugar, lo que permitió un mayor control y<br class="DT_e">
                                         seguimiento continuo.
@@ -627,13 +628,13 @@
                                     leads nos han permitido ser mucho más efectivos, <br class="DT_e">
                                     especialmente con un equipo de 50 asesores comerciales. <br class="DT_e">
                                     Además, los reportes y la atención personalizada han sido <br class="DT_e">
-                                    clave para medir la eficiencia y mejorar los resultados”
+                                    clave para medir la eficiencia y mejorar los resultados”.
                                     <br class="space">
                                     <br class="space">
                                     <span class="blue">
                                         René Cordero
                                         <br class="space">
-                                        <span> Gerente de Ventas Real de los Cues </span>
+                                        <span> Director Comercial Real de los Cues </span>
                                     </span>
 
                                 </p>
