@@ -37,7 +37,7 @@
                                         <p class="principalBigText grayColorTexts">
                                             <span class="blueColor">
                                                 Consultora de marketing <br class="DT_e">
-                                                mejoró su eficiencia
+                                                mejoró su eficiencia,
                                             </span>
                                             <span class="span2">
                                                 y potenció las ventas <br class="DT_e">
@@ -125,7 +125,7 @@
                         <div class="element">
                             <div class="numbers">
                                 <span>
-                                    Duplicaron 
+                                    Duplicaron
                                 </span>
                             </div>
                             <p class="text">
@@ -248,8 +248,8 @@
                                 crear marcas poderosas y estrategias que <br class="DT_e">
                                 impulsan el crecimiento de las empresas. Después <br class="DT_e">
                                 de ver excelentes resultados tanto en sus clientes <br class="DT_e">
-                                como en su propia agencia, se convirtió en partner <br class="DT_e">
-                                de Escala, llevando su compromiso con el éxito <br class="DT_e">
+                                como en su propia agencia, se convirtió en <b> partner <br class="DT_e">
+                                    de Escala,</b> llevando su compromiso con el éxito <br class="DT_e">
                                 empresarial a un nuevo nivel.
                             </p>
 
@@ -319,13 +319,13 @@
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/email_icon_escala.png') !!}" alt="">
                                         <span> <span class="title">Email Marketing</span> para nutrir la relación con los clientes, asegurando una comunicación constante que mejore la conversión.</span>
-                                    </li> 
-                                 
+                                    </li>
+
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/lead-scoring-icon.png') !!}" alt="">
                                         <span> <span class="title">Lead Scoring</span> para evaluar y priorizar prospectos según su potencial de conversión, optimizando el tiempo de atención del equipo.</span>
                                     </li>
-                                     <li>
+                                    <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/formularios-icon-escala.png') !!}" alt="">
                                         <span> <span class="title">Formularios</span> con campos personalizados, para perfilar a los clientes con información clave, facilitando la automatización de procesos y comunicaciones según su perfil.</span>
                                     </li>
@@ -381,8 +381,7 @@
                                             </span>
                                             No contaban con un software integrado que <br class="DT_e">
                                             permitiera centralizar y analizar la información <br class="DT_e">
-                                            de manera eficiente, lo que impedía centralizar <br class="DT_e">
-                                            y analizar información en tiempo real, limitando <br class="DT_e">
+                                            de manera eficiente y en tiempo real, limitando <br class="DT_e">
                                             la toma de decisiones y la respuesta rápida a <br class="DT_e">
                                             prospectos y clientes.
                                         </li>
@@ -572,7 +571,7 @@
                             </div>
                             <div class="col-md-12 col-lg-7 column-text">
                                 <p>
-                                    "Escala ha sido un apoyo fundamental para potencializar mi <br class="DT_e">
+                                    "Escala ha sido un apoyo fundamental para potenciar mi <br class="DT_e">
                                     negocio. Valoro su acompañamiento constante, capacitaciones <br class="DT_e">
                                     y su capacidad de escuchar e implementar mejoras que <br class="DT_e">
                                     benefician a sus clientes. No solo ofrecen un software robusto <br class="DT_e">
@@ -584,7 +583,7 @@
                                     <br class="space">
                                     <br class="space">
                                     <span class="blue">
-                                        Catalina Goez
+                                        Catalina González Goez
                                         <br class="space">
                                         <span>CEO KataGoGo </span>
                                     </span>

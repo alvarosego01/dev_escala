@@ -36,7 +36,7 @@
 
                                         <p class="principalBigText grayColorTexts">
                                             <span class="whiteColor">
-                                                Esta empresa
+                                                Esta empresa,
                                             </span>
                                             <span class="span2">
                                                 aumentó sus <br class="DT_e">
@@ -293,7 +293,7 @@
                     <div class="containElements">
 
                         <section class="innerSectionElement sct1">
-                            <img src="{!! App::setFilePath('/assets/images/person/desayunos_del_cielo_img_central_chica_empaquetando.png') !!}" alt="">
+                            <img src="{!! App::setFilePath('/assets/images/person/img_central_casos_exito_desayunos_del_cielo.png') !!}" alt="">
 
                             <h2 class="primaryTitle">
                                 Las herramientas de Escala que utilizan
@@ -365,8 +365,10 @@
                                         <li>
                                             <span>Falta de control en el seguimiento: <br class="DT_e">
                                             </span>
-                                            La gestión manual causaba retrasos <br class="DT_e">
-                                            y fallos en la atención personalizada. <br class="DT_e">
+                                            No contaban con una herramienta que <br class="DT_e">
+                                            centralizara y monitoreara las conversaciones, <br class="DT_e">
+                                            lo que dificultaba priorizar oportunidades <br class="DT_e">
+                                            y cerrar ventas.
                                         </li>
                                     </ul>
                                 </div>
@@ -400,14 +402,13 @@
                                 <div class="containElements">
                                     <span>1</span>
                                     <h3 class="subTittle">
-                                        Integración de WhatsApp con el CRM:
+                                        Integración de WhatsApp API con el CRM:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        Desayunos del Cielo integró WhatsApp con el CRM, lo que permitió automatizar el registro de cada prospecto que
-                                        entraba a través de este canal. Esta integración también
-                                        asigna automáticamente los leads a los asesores. </p>
+                                        Esta integración permitió automatizar el registro de cada prospecto que entraba
+                                        a través de este canal, además de asignar automáticamente los leads a los asesores.</p>
                                     <h3 class="subTitle">
                                         Impacto:
                                     </h3>
@@ -533,8 +534,7 @@
                                     cerca de un 40%. La implementación fue rápida, efectiva, y <br class="DT_e">
                                     el equipo de Escala siempre está disponible para ayudar. <br class="DT_e">
                                     Si quieres estructurar mejor tu negocio y aumentar tus <br class="DT_e">
-                                    ventas, no lo dudes: Escala puede hacer la diferencia. <br class="DT_e">
-                                    Decídete sin miedo”
+                                    ventas, no lo dudes: Escala puede hacer la diferencia, decídete sin miedo”.
                                     <br class="space">
                                     <br class="space">
                                     <span class="blue">

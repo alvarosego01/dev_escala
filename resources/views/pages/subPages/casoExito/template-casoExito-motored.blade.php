@@ -30,14 +30,14 @@
                                     <div class="ele ele2 col-md-12 col-lg-6">
                                         <h1 class="principalBigTitle blackColor">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_motored.png') !!}" alt="" class="logo-img" loading="lazy">
-                                            <small><span>Caso de éxito:</span> Automotor</small>
+                                            <small><span>Caso de éxito:</span> Automotriz</small>
 
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
                                             <span class="blueColor">
                                                 Este gran distribuidor <br class="DT_e">
-                                                de motoclicletas,
+                                                de motocicletas,
                                             </span>
                                             <span class="span2">
                                                 incrementó sus ventas <br class="DT_e">
@@ -343,7 +343,7 @@
                                 El desafío antes de Escala:
                             </h2>
                             <span class="subTitle">
-                                Antes de Escala, Motored no lograba <br class="DT_e">
+                                Motored no lograba <br class="DT_e">
                                 optimizar su proceso de ventas debido a:
                             </span>
 
@@ -360,7 +360,7 @@
                                                 Problemas de integración y métricas inexactas: <br class="DT_e">
                                             </span>
                                             La información de los leads generados en Meta <br class="DT_e">
-                                            no llegaba correctamente a su CRM, lo que <br class="DT_e">
+                                            no llegaba correctamente a su anterior CRM, lo que <br class="DT_e">
                                             dificultaba el seguimiento adecuado <br class="DT_e">
                                             de los prospectos.
                                         </li>
@@ -509,7 +509,7 @@
                                         Impacto:
                                     </h3>
                                     <ul>
-                                        <li>Lograron una mayor conversión al optimizar optimizaron recursos en las etapas clave del embudo.</li>
+                                        <li>Lograron una mayor conversión al optimizar recursos en las etapas clave del embudo.</li>
                                         <li>Tomaron mejores decisiones rápidamente, ajustando estrategias basadas en datos en tiempo real.</li>
                                         <li>Mejoraron la atención al cliente con respuestas más claras y precisas.</li>
                                     </ul>
