@@ -295,7 +295,7 @@
                     <div class="containElements">
 
                         <section class="innerSectionElement sct1">
-                            <img src="{!! App::setFilePath('/assets/images/person/img_central_motored_caso_exito_.png') !!}" alt="">
+                            <img src="{!! App::setFilePath('/assets/images/person/img_centro_section_motored.png') !!}" alt="">
 
                             <h2 class="primaryTitle">
                                 Las herramientas de Escala que utilizan

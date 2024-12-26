@@ -376,11 +376,12 @@
 
                                         <li>
                                             <span>
-                                                Ausencia de reportes y métricas: <br class="DT_e">
+                                                Ausencia de reportes y métricas:
                                             </span>
-                                            Dado que no contaban con herramientas de <br class="DT_e">
-                                            análisis, no podían evaluar el desempeño del <br class="DT_e">
-                                            equipo ni tomar decisiones basadas en datos.
+                                            Dado<br class="DT_e">
+                                            que no contaban con herramientas de  análisis,<br class="DT_e">
+                                            no podían evaluar el desempeño del equipo <br class="DT_e">
+                                             ni tomar decisiones basadas en datos.
                                         </li>
 
                                         <li>
@@ -509,10 +510,10 @@
                                         Impacto:
                                     </h3>
                                     <ul>
-                                        <li>Incrementaron la tasa de conversión de visitas a prospectos.</li>
+                                        <li>Incrementaron la tasa de conversión de visitas a prospectos realmente interesados.</li>
                                         <li>Aumentaron las ventas al segmentar mejor sus campañas.</li>
                                         <li>Mejoraron la generación de leads calificados.</li>
-                                        <li>Incrementaron la tasa de conversión de visitas a prospectos realmente interesados.</li>
+
                                     </ul>
                                 </div>
                             </div>
