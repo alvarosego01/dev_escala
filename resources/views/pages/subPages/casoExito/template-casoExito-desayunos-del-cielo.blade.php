@@ -39,12 +39,14 @@
                                                 Esta empresa,
                                             </span>
                                             <span class="span2">
-                                                aumentó sus <br class="DT_e">
-                                                ventas un 40%
+                                                aumentó sus ventas <br class="DT_e">
+                                                un 40% en menos<br class="DT_e">
+                                                 de un año
                                             </span>
                                             <span class="span3">
-                                                con la automatización y <br class="DT_e">
-                                                control de Escala CRM
+                                                con el control y automatizaciones
+                                                <br class="DT_e">
+                                                de Escala CRM
                                             </span>
                                         </p>
 
