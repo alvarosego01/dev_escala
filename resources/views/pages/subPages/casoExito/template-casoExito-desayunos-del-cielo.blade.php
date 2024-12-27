@@ -30,7 +30,7 @@
                                     <div class="ele ele2 col-md-12 col-lg-6">
                                         <h1 class="principalBigTitle blackColor">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_desayunos_del_cielo.png') !!}" alt="" class="logo-img" loading="lazy">
-                                            <small><span>Caso de éxito:</span><span class="span2"> Tienda Online</span></small>
+                                            <small><span>Caso de éxito:</span><span class="span2"> E-commerce</span></small>
 
                                         </h1>
 
@@ -41,7 +41,7 @@
                                             <span class="span2">
                                                 aumentó sus ventas <br class="DT_e">
                                                 un 40% en menos<br class="DT_e">
-                                                 de un año
+                                                de un año
                                             </span>
                                             <span class="span3">
                                                 con el control y automatizaciones

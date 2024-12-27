@@ -548,7 +548,7 @@
                                         <li>Mayor productividad del equipo comercial.</li>
                                         <li>Respuesta más ágil a los prospectos interesados <br class="DT_e"> en motocicletas.</li>
                                         <li>Mejora significativa en la experiencia de compra del cliente.</li>
-                                        <li>Procesos optimizados para cerrar más ventas <br class="DT_e"> de manera eficiente.</li>
+
                                     </ul>
                                 </div>
                             </div>
