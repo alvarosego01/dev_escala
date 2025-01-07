@@ -727,7 +727,7 @@
                                                     <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/horario_col_per_usa_cr.png') !!}"
                                                         loading="lazy">
                                                 </div>
-                                                <p class="text-time">7 am - 8 pm</p>
+                                                <p class="text-time">7 am - 7 pm</p>
                                             </div>
                                             <div class="col-6 col-lg-3">
                                                 <div class="container-flags ">

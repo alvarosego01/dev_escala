@@ -52,16 +52,16 @@
                                         </h3>
                                         <div class="text">
                                             <div>
-                                                <p>7:00 am - 6:00 pm.</p> <img src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_mex_2.png') !!}" loading="lazy"> <br class="space">
+                                                <p>6:00 am - 7:00 pm.</p> <img src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_mex_2.png') !!}" loading="lazy"> <br class="space">
                                             </div>
                                             <div>
-                                                <p>8:00 am - 7:00 pm.</p> <img src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_col_per_usa_cr.png') !!}" loading="lazy"><br class="space">
+                                                <p>7:00 am - 7:00 pm.</p> <img src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_col_per_usa_cr.png') !!}" loading="lazy"><br class="space">
                                             </div>
                                             <div>
-                                                <p>9:00 am - 8:00 pm.</p> <img src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_ven_2.png') !!}" loading="lazy"> <br class="space">
+                                                <p>8:00 am - 9:00 pm.</p> <img src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_ven_2.png') !!}" loading="lazy"> <br class="space">
                                             </div>
                                             <div>
-                                                <p>10:00 am - 9:00 pm.</p> <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_arg_uru_chil_2.png') !!}" loading="lazy"><br class="space">
+                                                <p>9:00 am - 10:00 pm.</p> <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_arg_uru_chil_2.png') !!}" loading="lazy"><br class="space">
                                             </div>
                                         </div>
                                         <hr>
