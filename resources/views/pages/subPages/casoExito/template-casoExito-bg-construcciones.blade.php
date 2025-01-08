@@ -33,7 +33,7 @@
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
-                                            <span class="blueColor">
+                                            <span class="whiteColor">
                                                 B&G Construcciones,
                                             </span>
                                             <span class="span2">
@@ -53,9 +53,7 @@
 
 
                             </div>
-                            <div class="form7
-                                                        col-md-12 col-lg-4
-                                                ">
+                            <div class="form7 col-md-12 col-lg-4">
                                 <div class="containElements">
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
@@ -406,7 +404,7 @@
                         <div class="containElements left">
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/email-mkt.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/caso_de_exito_crm.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -440,7 +438,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-(2).gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/8. Reportes.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -476,7 +474,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/landing-page.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/5. Landing pages.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -512,7 +510,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/5.reports_Vista-simplificada-(1).gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/6. Anuncios Digitales.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -578,6 +576,7 @@
                                     en menor tiempo. Es una inversión que realmente ha mejorado <br class="DT_e">
                                     nuestros procesos de ventas, nos ha ayudado a mejorar <br class="DT_e">
                                     resultados y nos ha dado el control que necesitábamos”.
+                                    <br class="space">
                                     <br class="space">
                                     <span class="blue">
                                         Laura Hernández
