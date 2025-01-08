@@ -637,6 +637,7 @@
                                     acompañamiento constante y el interés genuino por el éxito de <br class="DT_e">
                                     nuestros procesos han sido clave para maximizar los resultados”.
                                     <br class="space">
+                                    <br class="space">
                                     <span class="blue">
                                         Jhossana Fornez <br class="space">
                                         <span>Directora de Soporte y Comunicación Loyal Insurance Group</span>
