@@ -420,6 +420,15 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-casoExito-kata-gogo.blade.php')) {
         wp_enqueue_style('subPage_casoExito_kata_gogo.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_kata_gogo.css'), false, THEME_VERSION);
     }
+    //Loyal Seguros
+    if (is_page_template('views/template-casoExito-loyal-seguros.blade.php')) {
+        wp_enqueue_style('subPage_casoExito_loyal_seguros.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_loyal_seguros.css'), false, THEME_VERSION);
+    }
+    //Bg construcciones
+    if (is_page_template('views/template-casoExito-bg-construcciones.blade.php')) {
+        wp_enqueue_style('subPage_casoExito_bg_construcciones.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_bg_construcciones.css'), false, THEME_VERSION);
+    }
+        
     // ---
     // --- Casos uso
     if (is_page_template('views/template-casoUso-home.blade.php')) {
