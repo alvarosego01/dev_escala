@@ -315,7 +315,7 @@
 
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Whatsapp Inbox</span>para garantizar un seguimiento eficiente a todas las conversaciones y fidelizar con un número oficial de la empresa de seguros.</span>
+                                        <span> <span class="title">Whatsapp Inbox</span> para garantizar un seguimiento eficiente a todas las conversaciones y fidelizar con un número oficial de la empresa de seguros.</span>
                                     </li>
 
                                     <li>
@@ -377,20 +377,19 @@
                                             <span>
                                                 Riesgos de seguridad y pérdida de información, <br class="DT_e">
                                             </span>
-                                            , al utilizar herramientas no especializadas y <br class="DT_e">
+                                            al utilizar herramientas no especializadas y <br class="DT_e">
                                             centralizadas, por lo que no tenían control sobre <br class="DT_e">
                                             los datos y se exponía a la empresa a fugas de <br class="DT_e">
                                             información sensible.
                                         </li>
 
                                         <li>
-                                            <span>Dificultad para gestionar WhatsApp de
-                                                manera óptima, <br class="DT_e">
-                                            </span>
-                                            lo que provocaba bloqueos, <br class="DT_e">
-                                            desorganización y un seguimiento
+                                            <span>Dificultad para gestionar WhatsApp de <br class="DT_e">
+                                                manera óptima,
+                                            </span> lo que provocaba bloqueos, <br class="DT_e">
+                                            desorganización y un seguimiento <br class="DT_e">
                                             inconsistente de las conversaciones con los <br class="DT_e">
-                                            clientes, afectando la fidelización y el servicio
+                                            clientes, afectando la fidelización y el servicio <br class="DT_e">
                                             al cliente.
                                         </li>
 
@@ -419,7 +418,7 @@
                         <div class="containElements left">
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/email-mkt.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/14- CRM.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -460,7 +459,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-(2).gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/0-Planificador.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -475,7 +474,7 @@
                                     <p class="text">
                                         Implementaron esta herramienta para gestionar y medir cada etapa del
                                         proceso de ventas. Lograron visualizar mucho mejor el estado de cada
-                                        cliente y priorizar acciones clave para avanzar en la conversión.
+                                        prospecto y priorizar acciones clave para avanzar en la conversión.
                                     </p>
                                     <h3 class="subTitle">
                                         Impacto:
@@ -495,7 +494,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/ws_api.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/11- email mkt.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -532,7 +531,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/5.reports_Vista-simplificada-(1).gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/8-Anuncios Digitales.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -568,7 +567,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/Anuncios-Digitales-(1).gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/9-reports_Vista simplificada.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -576,7 +575,7 @@
                                 <div class="containElements">
                                     <span>5</span>
                                     <h3 class="subTittle">
-                                        Uso embudos de ventas y reportes personalizados:
+                                        Reportes personalizados:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">

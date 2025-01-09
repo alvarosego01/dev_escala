@@ -267,7 +267,7 @@
                                     </li>
                                     <li>
                                         <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/website_icon_orange.png') !!}" alt=""></div>
-                                        <strong>Website:</strong> <a target="_blank" href="www.bygconstrucciones.com">www.bygconstrucciones.com</a>
+                                        <strong>Website:</strong> <a target="_blank" href="https://www.bygconstrucciones.com">www.bygconstrucciones.com</a>
 
                                     </li>
                                 </ul>
@@ -312,7 +312,7 @@
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/ads_icon_escala.png') !!}" alt="">
                                         <span><span class="title">Anuncios digitales</span> integrados al CRM, para captar nuevos leads y aumentar el desempeño de las campañas publicitarias.
-                                            .</span>
+                                        </span>
                                     </li>
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/email_icon_escala.png') !!}" alt="">
@@ -371,7 +371,8 @@
                                         </li>
 
                                         <li>
-                                            <span>Falta de visibilidad sobre resultados de marketing y ventas: <br class="DT_e">
+                                            <span>Falta de visibilidad sobre resultados de <br class="DT_e">
+                                                marketing y ventas:
                                             </span>
                                             No se podía medir el retorno <br class="DT_e">
                                             de inversión de las campañas ni contar con <br class="DT_e">
@@ -404,7 +405,7 @@
                         <div class="containElements left">
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/caso_de_exito_crm.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/14- CRM.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -438,7 +439,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/8. Reportes.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/9-reports_Vista simplificada.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -510,7 +511,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/6. Anuncios Digitales.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/8-Anuncios Digitales.gif') !!}" alt="">
                                 </div>
                             </div>
 
