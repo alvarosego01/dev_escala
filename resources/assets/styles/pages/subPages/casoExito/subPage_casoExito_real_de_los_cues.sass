@@ -1538,7 +1538,13 @@
                         span.blue
                             color: #2C4857
                             font-weight: 700
-
+                            span
+                                font-weight: 400
+                                font-size: 20px
+                                @include responsivo(telefonoTable)
+                                    font-size: 12px
+                                @include responsivo(pcMedio)
+                                    font-size: 12px
 
 
 

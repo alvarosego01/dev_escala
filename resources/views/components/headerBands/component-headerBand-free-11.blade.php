@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/free_bg_MC_estudiantes.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/free_bg_MC_09_01.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -8,17 +8,15 @@
 
                 <div class="contain">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/free_class_icon.png') !!}" alt="" class="icon">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/free_class_icon_09_01.png') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-
-                        Multiplica los estudiantes <span> de tu <br class="space">
-                            institución educativa para este 2025</span>
+                        <span> Multiplica los alumnos</span>
+                        para tu empresa educativa
                     </span>
                     <div class="separator"></div>
                     <span class="sub">
-                        Masterclass gratuita en vivo<br class="space">
-                        6 de Noviembre
+                        Masterclass gratuita - 15 de Enero
                     </span>
 
                 </div>
@@ -35,7 +33,7 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/free_bg_MC_estudiantes_mb.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/free_bg_mb_MC_09_01.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -45,16 +43,15 @@
 
                 <div class="contain">
 
-            
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/free_class_icon_09_01.png') !!}" alt="" class="icon">
+
                     <span class="hashTitle">
-                       
-                    Multiplica los estudiantes <span> de tu <br class="space">
-                            institución educativa para este 2025</span>
+                        <span> Multiplica los alumnos</span>
+                        para tu empresa educativa
                     </span>
-                
+                    <div class="separator"></div>
                     <span class="sub">
-                    Masterclass gratuita en vivo<br class="space">
-                        6 de Noviembre
+                        Masterclass gratuita - 15 de Enero
                     </span>
 
                 </div>
