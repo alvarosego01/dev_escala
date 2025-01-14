@@ -42,7 +42,7 @@
                                                 <span class="whiteColor">
                                                     con el CRM de Escala <br class="space">
                                                 </span>
-                                                en menos de un año.
+                                                en menos de un año
                                             </span>
 
 

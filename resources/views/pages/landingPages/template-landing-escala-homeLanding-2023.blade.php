@@ -1397,45 +1397,7 @@
 
         </section>
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/07-bg-home2023.png') !!})"
-            class="customSection sectionParent landingHome_section_10">
 
-            <div class="section-row">
-                <div class="col-md-8 column-1">
-                    <section class="innerSectionElement sct1">
-
-                        <div class="containElements">
-
-                            <h2 class="title">
-                                ¿Listo para subir a bordo? <br class="DT_e">
-                                la satisfacción es 100% garantizada
-
-                            </h2>
-                            <p class="text">
-                                Si en los primeros 20 días no estás satisfecho <br class="DT_e">
-                                con el valor que recibes, te devolvemos el dinero.
-                            </p>
-                            <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Solicita un demo
-                            </a>
-
-                        </div>
-
-                    </section>
-                </div>
-                <div class="col-md-4 column-2">
-                    <section class="innerSectionElement sct2">
-
-                        <div class="containElements">
-
-                        </div>
-
-                    </section>
-                </div>
-
-            </div>
-
-        </section>
 
         @php
         $escalaUrl = 'https://escala.com';
