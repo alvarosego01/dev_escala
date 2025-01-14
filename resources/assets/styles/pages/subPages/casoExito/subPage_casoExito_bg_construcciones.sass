@@ -162,6 +162,23 @@
                                         font-size: 30px
                                     @include responsivo(smallPcTablet)
                                         font-size: 36px
+                                    .whiteColor
+                                        font-weight: 400!important
+                                        @include responsivo(telefonoTable)
+                                            font-size: 25px
+                                            text-align: center
+                                            margin-bottom: 25px
+                                        @include responsivo(pcMedio)
+                                            font-size: 30px
+                                            text-align: center
+                                            margin-bottom: 25px
+                                        @include responsivo(general)
+                                            font-size: 30px
+                                        @include responsivo(smallPcTablet)
+                                            font-size: 25px
+                                            width: 350px!important
+                                        @include responsivo(resto)
+                                            font-size: 30px                                        
                                 .whiteColor
                                     color: #FFFFFF
                         .ele1
@@ -1415,7 +1432,7 @@
                     object-fit: cover
                     left: 0
                     right: 0
-                    top: 8px
+                    top: -5px
                 @include responsivo(pcMedio)
                     // width: 800px
                     min-width: 760px
@@ -1424,11 +1441,11 @@
                     left: 0px
                 @include responsivo(smallPcTablet)
                     min-width: 1240px
-                    left: -100px
-                    top: -35px
+                    left: -115px
+                    top: -30px!important
                     max-width: 1000px
                 @include responsivo(general)
-                    top: -30px
+                    top: -5px
             .containElements
                 z-index: 5
                 position: relative
@@ -1465,11 +1482,11 @@
                         top: -35px
                         width: 40%
                     @include responsivo(general)
-                        left: 60px
-                        top: 15px
+                        left: -50px
+                        top: -10px
                     @include responsivo(smallPcTablet)
                         top: 11.5px
-                        left: -35px
+                        left: -45px
                     @include responsivo(resto)
                         left: -60px
                         top: -10px

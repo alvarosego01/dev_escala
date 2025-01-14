@@ -34,13 +34,15 @@
 
                                         <p class="principalBigText grayColorTexts">
                                             <span class="whiteColor">
-                                                B&G Construcciones,
+                                                B&G Construcciones, <br class="DT_e">
                                             </span>
                                             <span class="span2">
                                                 aumentó sus ventas <br class="DT_e">
-                                                un 45% con el CRM <br class="DT_e">
-                                                de Escala en menos <br class="DT_e">
-                                                de un año.
+                                                un 45% <br class="space">
+                                                <span class="whiteColor">
+                                                    con el CRM de Escala <br class="space">
+                                                </span>
+                                                en menos de un año.
                                             </span>
 
 
@@ -306,7 +308,7 @@
                                     </li>
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Landing pages </span> que les permiten captar clientes y generar oportunidades de venta a través de formularios personalizados.</span>
+                                        <span> <span class="title">Landing pages </span> que les permiten captar clientes potenciales y generar oportunidades de venta a través de formularios personalizados.</span>
                                     </li>
 
                                     <li>
@@ -316,7 +318,7 @@
                                     </li>
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/email_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Email Marketing </span> para mantener una comunicación nutrida, constante y efectiva con los clientes y prospectos.</span>
+                                        <span> <span class="title">Email Marketing </span> para mantener una comunicación nutrida, constante y efectiva con clientes y prospectos.</span>
                                     </li>
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes_icon_escala.png') !!}" alt="">
@@ -511,7 +513,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/8-Anuncios Digitales.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/0. Anuncios (1).gif') !!}" alt="">
                                 </div>
                             </div>
 

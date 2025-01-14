@@ -37,12 +37,15 @@
 
                                         <p class="principalBigText grayColorTexts">
                                             <span class="blueColor">
-                                                Esta empresa de seguros
+                                                Esta aseguradora
                                             </span>
                                             <span class="span2">
-                                                protegió un 40% más <br class="DT_e">
-                                                sus datos con el CRM <br class="DT_e">
-                                                de Escala
+                                                blindó su información <br class="DT_e">
+                                                frente a fugas de datos <br class="DT_e">
+                                                comerciales
+                                            </span>
+                                            <span class="blueColor">
+                                                con Escala CRM
                                             </span>
                                         </p>
 
@@ -531,7 +534,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/8-Anuncios Digitales.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/0. Anuncios (1).gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -630,11 +633,9 @@
                                     organización, lo que se traduce en crecimiento a largo plazo. La <br class="DT_e">
                                     centralización de la información y la reducción de riesgos como la <br class="DT_e">
                                     pérdida de datos o el bloqueo de números han optimizado <br class="DT_e">
-                                    tiempo y recursos. Además, una de las fortalezas de Escala, <br class="DT_e">
-                                    radica en su equipo siempre dispuesto a ayudar y mejorar la <br class="DT_e">
-                                    herramienta en función del feedback de los clientes. El <br class="DT_e">
-                                    acompañamiento constante y el interés genuino por el éxito de <br class="DT_e">
-                                    nuestros procesos han sido clave para maximizar los resultados”.
+                                    tiempo y recursos. El acompañamiento constante y el interés <br class="DT_e">
+                                    genuino por el éxito de nuestros procesos han sido clave para <br class="DT_e">
+                                    maximizar los resultados”.
                                     <br class="space">
                                     <br class="space">
                                     <span class="blue">
