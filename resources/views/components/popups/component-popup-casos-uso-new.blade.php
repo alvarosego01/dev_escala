@@ -33,7 +33,7 @@
 
                                         #popup-casosUso_general_new .cards.active {
                                             display: block;
-                                        }
+                                        } 
                                     </style>
                                     <div class="sect2">
                                         <div class="cards saludBienestar">
