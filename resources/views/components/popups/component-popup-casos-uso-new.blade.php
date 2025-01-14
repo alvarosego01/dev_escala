@@ -66,13 +66,13 @@
                                                     <a href="https://escala.com/casos-de-exito-real-de-los-cues/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_real_de_los_cues_menu.png') !!}" loading="lazy">
                                                     </a>
-                                                    <span>Real de los Cues</span>
+                                                    <span>Bienes Raíces</span>
                                                 </div>
                                                 <div class="card">
                                                     <a href="https://escala.com/caso-de-exito-bg-construcciones/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_bg_construcciones_casos_de_exito_menu.png') !!}" loading="lazy">
                                                     </a>
-                                                    <span>R&G Construcciones</span>
+                                                    <span>Constructora</span>
                                                 </div>
                                         
                                             </div>
@@ -84,13 +84,13 @@
                                                     <a href="https://escala.com/caso-de-exito-loyal-seguros/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_loyal_seguros_casos_exito_menu.png') !!}" loading="lazy">
                                                     </a>
-                                                    <span>Loyal Insurance Group</span>
+                                                    <span>Aseguradora</span>
                                                 </div>
                                                 <div class="card">
                                                     <a href="https://escala.com/caso-de-exito-gestion-financiera/">
                                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_saeta_popup.png') !!}" loading="lazy">
                                                     </a>
-                                                    <span>Saeta</span>
+                                                    <span>Gestión Financiera</span>
                                                 </div>
                                                 
                                             </div>
