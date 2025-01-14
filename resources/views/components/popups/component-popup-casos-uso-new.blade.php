@@ -60,6 +60,43 @@
 
                                         </div>
 
+                                        <div class="cards bienesInmobilaria">
+                                            <div class="cardInterna">
+                                                <div class="card">
+                                                    <a href="https://escala.com/casos-de-exito-real-de-los-cues/">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_real_de_los_cues_menu.png') !!}" loading="lazy">
+                                                    </a>
+                                                    <span>Real de los Cues</span>
+                                                </div>
+                                                <div class="card">
+                                                    <a href="https://escala.com/caso-de-exito-bg-construcciones/">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_bg_construcciones_casos_de_exito_menu.png') !!}" loading="lazy">
+                                                    </a>
+                                                    <span>R&G Construcciones</span>
+                                                </div>
+                                        
+                                            </div>
+
+                                        </div>
+                                        <div class="cards segurosLegal">
+                                            <div class="cardInterna">
+                                                <div class="card">
+                                                    <a href="https://escala.com/caso-de-exito-loyal-seguros/">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_loyal_seguros_casos_exito_menu.png') !!}" loading="lazy">
+                                                    </a>
+                                                    <span>Loyal Insurance Group</span>
+                                                </div>
+                                                <div class="card">
+                                                    <a href="https://escala.com/caso-de-exito-gestion-financiera/">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_saeta_popup.png') !!}" loading="lazy">
+                                                    </a>
+                                                    <span>Saeta</span>
+                                                </div>
+                                                
+                                            </div>
+
+                                        </div>
+
                                     </div>
 
 
