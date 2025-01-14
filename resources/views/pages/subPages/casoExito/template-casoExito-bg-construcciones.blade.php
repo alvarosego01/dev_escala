@@ -182,8 +182,8 @@
                         <div class="video col-md-12">
 
                             @php
-                            $videoEmbed = App::setFilePath('/assets/videos/');
-                            $videoCover = App::setFilePath('/assets/images/');
+                            $videoEmbed = App::setFilePath('/assets/videos/B&G construcciones low (1).mp4');
+                            $videoCover = App::setFilePath('/assets/images/illustrations/others/overlay_videos_bg_construccion.png');
                             @endphp
 
                             @if (isset($videoEmbed) && $videoEmbed != null)

@@ -187,8 +187,8 @@
                         <div class="video col-md-12">
 
                             @php
-                            $videoEmbed = App::setFilePath('/assets/videos/');
-                            $videoCover = App::setFilePath('/assets/images/illustrations/others/');
+                            $videoEmbed = App::setFilePath('/assets/videos/Loyal Seguros (1).mp4');
+                            $videoCover = App::setFilePath('/assets/images/illustrations/others/overlay_video_loyal_seguros.png');
                             @endphp
 
                             @if (isset($videoEmbed) && $videoEmbed != null)
