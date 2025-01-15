@@ -38,9 +38,9 @@
                                             </span>
                                             <span class="span2">
                                                 aumentó sus ventas <br class="DT_e">
-                                                un 45% <br class="space">
+                                                un 45% 
                                                 <span class="whiteColor">
-                                                    con el CRM de Escala <br class="space">
+                                                    con el CRM de Escala   <br class="DT_e">
                                                 </span>
                                                 en menos de un año
                                             </span>
