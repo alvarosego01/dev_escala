@@ -42,11 +42,11 @@
                                             <span class="span2">
                                                 blindó su información <br class="DT_e">
                                                 frente a fugas de datos <br class="DT_e">
-                                                comerciales
+                                                comerciales <span class="blueColor">
+                                                    con Escala CRM
+                                                </span>
                                             </span>
-                                            <span class="blueColor">
-                                                con Escala CRM
-                                            </span>
+
                                         </p>
 
                                     </div>

@@ -43,7 +43,7 @@
                                             <span class="span2">
                                                 duplicó sus ventas con <br class="DT_e">
                                                 el CRM de Escala en <br class="DT_e">
-                                                menos de un año.
+                                                menos de un año
                                             </span>
 
 
@@ -599,10 +599,12 @@
                                     que deseen llevar su empresa a otro nivel”.
                                     <br class="space">
                                     <br class="space">
+                                   
                                     <span class="blue">
-                                        Miguel Urrego, Director Comercial
+                                        Miguel Urrego
+                                        <br class="space">
+                                        <span>Líder Comercial Poctlab</span>
                                     </span>
-
                                 </p>
 
                             </div>
