@@ -86,27 +86,7 @@
         'formation' => [
             'name' => '<span class="blueLightColor12">Formación</span>',
             'items' => [
-                [
-                    'name' => 'Entrenamiento En Vivo',
-                    'subItems' => [
-                        [
-                            'name' => 'Bootcamp Escala Ventas',
-                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
-                        ],
-                        [
-                            'name' => 'Bootcamp Escala Marketing',
-                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
-                        ],
-                        [
-                            'name' => 'Talleres Escala Negocios',
-                            'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
-                        ],
-                        [
-                            'name' => 'Masterclasses con Andrés Moreno',
-                            'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
-                        ],
-                    ]
-],
+               
                 [
                     'name' => 'Educación Autoguiada Online',
                     'subItems' => [

@@ -933,13 +933,7 @@
                                                     </p>
                                                 </div>
                                             </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Educación online a tu ritmo, con: minicursos, tutoriales y más.
-                                                    </p>
-                                                </div>
-                                            </li>
+                                            
 
                                         </ul>
                                     </div>
