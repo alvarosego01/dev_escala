@@ -720,7 +720,7 @@
                                                     <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_mex_.png') !!}"
                                                         loading="lazy">
                                                 </div>
-                                                <p class="text-time">6 am - 7 pm</p>
+                                                <p class="text-time">6 am - 6 pm</p>
                                             </div>
                                             <div class="col-6 col-lg-3">
                                                 <div class="container-flags">
@@ -734,14 +734,14 @@
                                                     <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/bandera_ven.png') !!}"
                                                         loading="lazy">
                                                 </div>
-                                                <p class="text-time">8 am - 9 pm</p>
+                                                <p class="text-time">8 am - 8 pm</p>
                                             </div>
                                             <div class="col-6 col-lg-3">
                                                 <div class="container-flags">
                                                     <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_arg_uru_chil.png') !!}"
                                                         loading="lazy">
                                                 </div>
-                                                <p class="text-time">9 am - 10 pm</p>
+                                                <p class="text-time">9 am - 9 pm</p>
                                             </div>
                                         </div>
                                         <div class="row timeFlags">

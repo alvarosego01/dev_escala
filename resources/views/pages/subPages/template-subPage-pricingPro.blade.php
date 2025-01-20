@@ -378,20 +378,7 @@
                      )
 
                  ],
-                 [
-                    "name" => 'Trainings online en vivo',
-                    "subItems" => array(
-                        [
-                            "name" => "Bootcamp Escala Ventas",
-                            "value" => "checkIcon"
-                        ],
-                        [
-                            "name" => "Workshops estratégicos",
-                            "value" => "checkIcon"
-                        ],
-                     )
-
-                 ],
+               
                  [
                     "name" => 'Educación autoguiada',
                     "subItems" => array(

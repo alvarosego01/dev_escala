@@ -35,27 +35,7 @@
                                             <span> para <br class="space"> aprovechar Escala al máximo</span>
                                         </h1>
 
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Masterclasses en vivo de
-                                                        marketing y ventas</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Capacitaciones en vivo por herramientas</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Cursos autoguiados</p>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                    
 
                                     </div>
 
@@ -200,28 +180,7 @@
                                             <span> para <br class="space"> aprovechar Escala al máximo</span>
                                         </h1>
 
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Masterclasses en vivo de <br class="DT_e">
-                                                        marketing y ventas</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Capacitaciones en vivo por herramientas</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') !!}" loading="lazy">
-                                                    <p>Cursos autoguiados</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-
+                                      
                                     </div>
 
                                     <div class="containerImage MT_e">
@@ -660,18 +619,7 @@
 
                             </div>
                         </div>
-                        <div class="row card-box">
-                            <div class="col-md-5 col-img">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/03-educacion-2023.png') !!}" loading="lazy">
-                            </div>
-                            <div class="col-md-7">
-                                <h5 class="principalTitle">
-                                    <span>Capacitaciones en vivo
-                                    </span> <br class="DT_e">
-                                    por herramienta
-                                </h5>
-                            </div>
-                        </div>
+                       
                         <div class="row card-box">
                             <div class="col-md-5 col-img">
                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/04-educacion-2023.png') !!}" loading="lazy">

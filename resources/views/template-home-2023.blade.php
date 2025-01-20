@@ -241,8 +241,8 @@
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
                                         <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
-                                        personalizado de Escala</h5>
-                                          
+                                            personalizado de Escala</h5>
+
 
                                         @php
                                         $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
@@ -769,9 +769,9 @@
                                                     ilimitadas
                                                 </h5>
                                                 <p class="card-text">
-                                                    en vivo o autoguiadas, <br class="D_e">
-                                                    para aprender a usar<br class="D_e">
-                                                    cada una de las<br class="D_e">
+                                                    autoguiadas, para <br class="space">
+                                                    aprender a usar cada <br class="space">
+                                                    una de las <br class="DT_e">
                                                     herramientas de Escala.
                                                 </p>
                                             </div>

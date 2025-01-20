@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/free_bg_MC_09_01.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/headerband_freeclass_enero_2025.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -8,17 +8,16 @@
 
                 <div class="contain">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/free_class_icon_09_01.png') !!}" alt="" class="icon">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_masterclass_enero_2025_2.png') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-                        <span> Multiplica los alumnos</span>
-                        para tu empresa educativa
+                        <span>Optimiza procesos de ventas ganadores con CRM</span>
+
                     </span>
                     <div class="separator"></div>
                     <span class="sub">
-                        Masterclass gratuita - 15 de Enero
+                        Masterclass gratuita - 22 Enero
                     </span>
-
                 </div>
 
                 <a target="_blank" href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect ">
@@ -33,7 +32,7 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/free_bg_mb_MC_09_01.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/headerband_freeclass_enero_2025_mb.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -43,17 +42,14 @@
 
                 <div class="contain">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/free_class_icon_09_01.png') !!}" alt="" class="icon">
-
                     <span class="hashTitle">
-                        <span> Multiplica los alumnos</span>
-                        para tu empresa educativa
-                    </span>
-                    <div class="separator"></div>
-                    <span class="sub">
-                        Masterclass gratuita - 15 de Enero
-                    </span>
+                        <span>Optimiza procesos de ventas ganadores con CRM </span>
 
+                    </span>
+              
+                    <span class="sub">
+                        Masterclass gratuita - 22 Enero
+                    </span>
                 </div>
 
                 <a target="_blank" href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect ">
