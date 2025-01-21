@@ -481,63 +481,31 @@
                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/07-acompanamiento-2023.png') !!}"
                                                            loading="lazy">
                                                    </div>
-                                                   <p class="text-time">6 am - 7 pm</p>
+                                                   <p class="text-time">6 am - 6 pm</p>
                                                </div>
                                                <div class="col-6 col-lg-3">
                                                    <div class="container-flags">
                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
                                                            loading="lazy">
                                                    </div>
-                                                   <p class="text-time">7 am - 8 pm</p>
+                                                   <p class="text-time">7 am - 7 pm</p>
                                                </div>
                                                <div class="col-6 col-lg-3">
                                                    <div class="container-flags ">
                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
                                                            loading="lazy">
                                                    </div>
-                                                   <p class="text-time">8 am - 9 pm</p>
+                                                   <p class="text-time">8 am - 8 pm</p>
                                                </div>
                                                <div class="col-6 col-lg-3">
                                                    <div class="container-flags">
                                                        <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
                                                            loading="lazy">
                                                    </div>
-                                                   <p class="text-time">9 am - 10 pm</p>
+                                                   <p class="text-time">9 am - 9 pm</p>
                                                </div>
                                            </div>
-                                           <div class="row timeFlags">
-                                               <div class="col-md-12 title-block">
-                                                   <p class="text-day">Sábados:</p>
-                                               </div>
-                                               <div class="col-6 col-lg-3">
-                                                   <div class="container-flags">
-                                                       <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/07-acompanamiento-2023.png') !!}"
-                                                           loading="lazy">
-                                                   </div>
-                                                   <p class="text-time">8 am - 12 pm</p>
-                                               </div>
-                                               <div class="col-6 col-lg-3">
-                                                   <div class="container-flags">
-                                                       <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/09-home2023.png') !!}"
-                                                           loading="lazy">
-                                                   </div>
-                                                   <p class="text-time">9 am - 1 pm</p>
-                                               </div>
-                                               <div class="col-6 col-lg-3">
-                                                   <div class="container-flags ">
-                                                       <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/10-home2023.png') !!}"
-                                                           loading="lazy">
-                                                   </div>
-                                                   <p class="text-time">10 am - 2 pm</p>
-                                               </div>
-                                               <div class="col-6 col-lg-3">
-                                                   <div class="container-flags">
-                                                       <img class="img-card" src="{!! App::setFilePath('/assets/images/illustrations/others/11-home2023.png') !!}"
-                                                           loading="lazy">
-                                                   </div>
-                                                   <p class="text-time">11 am - 3 pm</p>
-                                               </div>
-                                           </div>
+                                           
                                        </div>
                                    </div>
                                </div>
