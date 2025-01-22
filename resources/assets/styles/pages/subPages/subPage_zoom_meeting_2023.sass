@@ -185,6 +185,8 @@
                                         font-size: 26px!important
                                     @include responsivo(pcMedio)
                                         font-size: 24px!important
+                                    @include responsivo(smallPcTablet)
+                                        font-size: 20px!important
                                 small
                                     font-size: 14px
                                     text-align: center
@@ -246,8 +248,27 @@
                                 @include responsivo(pcMedio)
                                     width: 150px!important
                                     font-size: 16px
+            section.innerSectionElement.sct3
+                display: none
+                @include responsivo(telefonoTable)
+                    display: flex!important
+                    justify-content: center!important
+                    
+                .groupElements
+                    display: flex!important
+                    justify-content: center!important
+                    align-items: center
+                    flex-direction: column!important
+                    gap: 0px
+                    @include responsivo(telefonoTable)
+                        margin-top: 0
+                    @include responsivo(pcMedio)
+                        margin-top: 0
+
 
         section.innerSectionElement.sct3
+            @include responsivo(telefonoTable)
+                display: none
             .groupElements
                 display: flex
                 justify-content: center

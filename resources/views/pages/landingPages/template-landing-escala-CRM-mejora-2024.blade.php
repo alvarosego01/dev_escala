@@ -47,7 +47,7 @@
                                     </div>
 
                                     <div class="ele ele2 col-md-12 col-lg-7">
-                                        <h1 class="principalBigTitle blackColor">
+                                        <h1 class="principalBigTitle">
 
                                             El CRM con IA, WhatsApp <br class="space">
                                             y herramientas de marketing

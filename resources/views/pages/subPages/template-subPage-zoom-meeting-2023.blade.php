@@ -28,7 +28,7 @@
                                         </div>
                                         <div class="action col-md-12 col-lg-5">
                                             <a href="https://us02web.zoom.us/j/6758915436" class=" primaryButton hoverInEffect">
-                                                Recibir demo ahora
+                                                Iniciar Zoom ahora
                                             </a>
                                             <small>
                                                 La videollamada por Zoom <br class="space">
@@ -38,8 +38,19 @@
                                     </div>
                                 </div>
                             </div>
+                            <section class="innerSectionElement sct3">
+                                <div class="groupElements ">
+                                    <h2>¿No puedes recibirlo ahora?</h2>
+                                    <a class="trans" target="_blank" href="https://api.whatsapp.com/send?phone=17863042407&text=Hola%21%20Me%20interesa%20recibir%20un%20demo%20personalizado%20de%20Escala">
+                                        <img src="{!! App::setFilePath('/assets/images/icons/whatsapp-white.svg') !!}" alt="Icono whatsapp">
+                                        Coordínalo por WhatsApp
+                                    </a>
 
+                                </div>
+
+                            </section>
                             <div class=" info">
+                              
                                 <div class="containElements">
 
                                     <div class="info col-md-12 col-lg-7">
@@ -64,7 +75,7 @@
                                                 <p>9:00 am - 9:00 pm.</p> <img src="{!! App::setFilePath('/assets/images/illustrations/others/banderas_arg_uru_chil_2.png') !!}" loading="lazy"><br class="space">
                                             </div>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
 
@@ -76,7 +87,7 @@
                     <section class="innerSectionElement sct3">
                         <div class="groupElements ">
                             <h2>¿No puedes recibirlo ahora?</h2>
-                            <a class="trans" target="_blank" href="https://api.whatsapp.com/send?phone=17863042407">
+                            <a class="trans" target="_blank" href="https://api.whatsapp.com/send?phone=17863042407&text=Hola%21%20Me%20interesa%20recibir%20un%20demo%20personalizado%20de%20Escala">
                                 <img src="{!! App::setFilePath('/assets/images/icons/whatsapp-white.svg') !!}" alt="Icono whatsapp">
                                 Coordínalo por WhatsApp
                             </a>
