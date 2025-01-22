@@ -142,6 +142,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-home-2023.blade.php')) {
         wp_enqueue_style('home-2023.css', asset_path('styles/pages/home-2023.css'), false, THEME_VERSION);
     }
+    if (is_page_template('views/template-home-2025-blanco.blade.php')) {
+        wp_enqueue_style('home-2025.css', asset_path('styles/pages/home-2025.css'), false, THEME_VERSION);
+    }
     if (is_page_template('views/template-home-DEV.blade.php')) {
         wp_enqueue_style('home_dev.css', asset_path('styles/pages/home_dev.css'), false, THEME_VERSION);
     }
