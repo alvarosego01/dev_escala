@@ -26,7 +26,7 @@
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_CRM_2024 landing_CRM_2024_0 ">
 
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-landing-crm-mejora01.svg') }}')" class="backgroundFull">
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/') }}')" class="backgroundFull">
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
 
