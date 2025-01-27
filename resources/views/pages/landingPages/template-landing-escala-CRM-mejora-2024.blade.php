@@ -49,11 +49,10 @@
                                     <div class="ele ele2 col-md-12 col-lg-7">
                                         <h1 class="principalBigTitle">
 
-                                            El CRM con IA, WhatsApp <br class="space">
+                                            El CRM con IA, WhatsApp
                                             y herramientas de marketing
                                             <span>
-                                                integradas para vender más y mejor
-                                                <br class="space">
+                                                integradas para vender más y mejor
                                             </span>
 
                                         </h1>
