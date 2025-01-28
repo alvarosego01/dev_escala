@@ -159,6 +159,7 @@ class SetComponents extends Controller
             'components.navBar.component-navbar-blog' => 'navBar_blog',
             'components.navBar.landingPages.component-navbar-landing-global1' => 'landing_global1',
             'components.navBar.landingPages.component-navbar-landing-global2' => 'landing_global2',
+            'components.navBar.landingPages.component-navbar-landing-global3' => 'landing_global3',
         ];
     }
 
