@@ -839,6 +839,7 @@ class ACF_CUSTOM extends Controller
                         'blog-global1' => 'Blog white menu 1 - Categories, login, call to action',
                         'landing-global1' => 'Landing white menu 1 - Logo, 1 button',
                         'landing-global2' => 'Landing white menu 2 - Only logo',
+                        'landing-global3' => 'Landing trans menu 3- Only logo left',
                     ],
                 ],
 

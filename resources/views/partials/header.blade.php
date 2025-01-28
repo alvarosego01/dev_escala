@@ -150,6 +150,15 @@
     @endlanding_global2
 
 @endif
+@if ($navBar == 'landing-global3')
+
+    @landing_global3()
+        @slot('classSection')
+            {{ $navBar }}
+        @endslot
+    @endlanding_global3
+
+@endif
 
 {{-- @if ($navBar == 'landing-global_transp_light')
 
