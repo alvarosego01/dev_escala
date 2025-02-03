@@ -419,6 +419,10 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-casoExito-motored.blade.php')) {
         wp_enqueue_style('subPage_casoExito_motored.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_motored.css'), false, THEME_VERSION);
     }
+    //Cambridge
+    if (is_page_template('views/template-casoExito-Cambridge.blade.php')) {
+        wp_enqueue_style('subPage_casoExito_Cambridge.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_Cambridge.css'), false, THEME_VERSION);
+    }
     //Kata GoGo
     if (is_page_template('views/template-casoExito-kata-gogo.blade.php')) {
         wp_enqueue_style('subPage_casoExito_kata_gogo.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_kata_gogo.css'), false, THEME_VERSION);

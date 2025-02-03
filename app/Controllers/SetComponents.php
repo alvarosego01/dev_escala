@@ -358,6 +358,7 @@ class SetComponents extends Controller
                 'views/template-casoExito-desayunos-del-cielo.blade.php',
                 'views/template-casoExito-real-de-los-cues.blade.php',
                 'views/template-casoExito-motored.php',
+                'views/template-casoExito-Cambridge.php',
                 'views/template-casoExito-kata-gogo.php',
                 'views/template-subPage-pricingPro.blade.php',
                 'views/template-subPage-pricing-2023.blade.php',
