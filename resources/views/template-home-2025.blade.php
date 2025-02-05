@@ -14,7 +14,7 @@
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol homeSection_2025 homeSection_2025_0 ">
 
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_integraciones_0.svg') }}')" class="backgroundFull">
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_new_landing_home_escala.svg') }}')" class="backgroundFull">
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
 
@@ -27,14 +27,11 @@
                                 <div class="containElements row threeCol">
 
                                     <div class="ele ele2 col-md-12 col-lg-7">
-                                        <h1 class="principalBigTitle blackColor">
-
-                                            <span>
-                                                Escala las ventas de tu empresa
-                                            </span>
+                                        <h1 class="principalBigTitle">
+                                            Escala las ventas de tu empresa
                                         </h1>
 
-                                        <span class="principalBigText grayColorTexts">
+                                        <span class="principalBigText">
                                             con un CRM
                                             todo-en-uno y
                                             fácil de usar
@@ -103,36 +100,7 @@
 
                                 </div>
 
-                                <div class="elements">
 
-                                    @foreach ($elementsReviews as $item)
-                                    <div class="refersElement">
-
-                                        <div class="infoInner">
-                                            <div class="tag">
-                                                <div class="containerImage">
-                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                </div>
-
-                                                <span class="points">
-                                                    {!! $item['points'] !!}
-                                                </span>
-                                            </div>
-                                            <p class="text">
-                                                {!! $item['text'] !!}
-                                            </p>
-                                            <div class="stars">
-                                                <div class="containerImage">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                    @endforeach
-
-                                </div>
 
                             </div>
 
@@ -213,6 +181,136 @@
 
 
                     </div>
+
+
+                    <div class="ele2 logos_empresas">
+                        <span>Destacados en:</span>
+                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_logo_empresa_bg_white_forbes (1).png') }}" loading="lazy">
+                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_logo_empresa_bg_white_yahoo_finance (1).png') }}" loading="lazy">
+                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_logo_empresa_bg_white_latam_list (1).png') }}" loading="lazy">
+                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_logo_empresa_bg_white_refresh_miami (1).png') }}" loading="lazy">
+                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_logo_empresa_bg_white_valora (1).png') }}" loading="lazy">
+                    </div>
+                </section>
+
+            </div>
+
+        </section>
+
+
+        <section class="customSection sectionParent home_2025_2">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+                    <div class="containElements">
+                        <h2 class="title">
+                            El software de marketing y ventas preferido por PYMES en crecimiento
+                        </h2>
+                    </div>
+                    <div class="containElements">
+                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_review_pymes.png') }}" loading="lazy">
+                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_review_pymes.png') }}" loading="lazy">
+                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_review_pymes.png') }}" loading="lazy">
+                    </div>
+
+                    <div class="btnCenter">
+                        <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                            QUIERO VENDER MÁS
+                        </a>
+                    </div>
+                </section>
+
+            </div>
+
+        </section>
+
+
+        <section class="customSection sectionParent home_2025_3">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+
+                        <h2 class="title">
+                            Así es como Escala puede ayudarte:
+                        </h2>
+                        @php
+                        $items = [
+                        ['image' => 'icon_escala_home_optimizar.png', 'title' => 'Optimizar tu proceso', 'text' => 'de venta con una visión 360'],
+                        ['image' => 'icon_escala_home_centralizar.png', 'title' => 'Capturar contactos', 'text' => 'y organizar tu base de datos'],
+                        ['image' => 'icon_escala_home_capturar_contactos.png', 'title' => 'Automatizar tareas,', 'text' => 'emails y WhatsApps'],
+                        ['image' => 'icon_escala_home_necogios_online.png', 'title' => 'Centralizar tus comunicaciones', 'text' => 'de WhatsApp, Facebook e Instagram'],
+                        ['image' => 'icon_escala_home_automatizar_tareas.png', 'title' => 'Llevar tu negocio contigo', 'text' => 'a donde vayas'],
+                        ];
+                        @endphp
+
+                        <section class="innerSectionElement sct0">
+                            <div class="containElements">
+                                <ul class="itemsList">
+                                    @foreach ($items as $item)
+                                    <li>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/' . $item['image']) !!}" alt="">
+                                        <span> <span class="title"> {{ $item['title'] }} </span> {{ $item['text'] }}</span>
+                                    </li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section class="innerSectionElement sct0_1">
+
+                            <h2 class="title">
+                                Nuestros clientes han logrado:
+                            </h2>
+                            <div class="containElements">
+                                <div class="items">
+                                    <h3 class="subtTitle">
+                                        2X
+                                    </h3>
+                                    <span>
+                                        <span> sus Ingresos </span>
+                                        en menos de 6 meses
+                                    </span>
+                                </div>
+
+                                <div class="items">
+                                    <h3 class="subtTitle">
+                                        300%
+
+                                    </h3>
+                                    <span>
+                                        <span> más leads </span>
+                                        en 6 meses
+                                    </span>
+                                </div>
+
+                                <div class="items">
+                                    <h3 class="subtTitle">
+                                        70%
+
+                                    </h3>
+                                    <span>
+                                        <span> de aumento </span>
+                                        en eficiencia operativa
+                                    </span>
+                                </div>
+                            </div>
+
+                            <span class="text">
+                                Cifras obtenidas en entrevistas con ellos.
+                            </span>
+                        </section>
+
+                    </div>
+
+                    <div class="btnCenter">
+                        <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                            ¡ESCALA AHORA!
+                        </a>
+                    </div>
                 </section>
 
             </div>
@@ -223,19 +321,246 @@
 
 
 
+        <section class="customSection sectionParent home_2025_4">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+
+                    <div class="containElements">
+
+                        <h2 class="title">
+                            ¿Por qué elegir Escala para optimizar tus ventas?
+                        </h2>
+                        <span>
+                            La conveniencia de tener todas las herramientas en un solo lugar:
+                        </span>
+                        @php
+                        $items_2 = [
+                        ['image' => 'icon_escala_home_grupo_persona.png', 'text' => 'Gestión de contactos y procesos'],
+                        ['image' => 'icon_escala_home_form.png', 'text' => 'Landing Pages'],
+                        ['image' => 'icon_escala_home_text.png', 'text' => 'Inbox Omnicanal'],
+                        ['image' => 'icon_escala_home_form_persona.png', 'text' => 'Formularios'],
+                        ['image' => 'icon_escala_home_call.png', 'text' => 'WhatsApp API'],
+                        ['image' => 'icon_escala_home_anuncio.png', 'text' => 'Anuncios Digitales'],
+                        ['image' => 'icon_escala_home_engranajes.png', 'text' => 'Flujos Automatizados'],
+                        ['image' => 'icon_escala_home_escala.png', 'text' => 'Reportes Personalizados'],
+                        ['image' => 'icon_escala_home_estrellas.png', 'text' => 'Inteligencia Artificial'],
+                        ['image' => 'icon_escala_home_ganancias.png', 'text' => '¡y más!'],
+                        ['image' => 'icon_escala_home_mail.png', 'text' => 'Email Marketing'],
+                        ];
+                        @endphp
+
+
+                        <section class="innerSectionElement sct0">
+                            <div class="containElements">
+                                <ul class="itemsList">
+                                    @foreach ($items_2 as $item_2)
+                                    <li>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/' . $item_2['image']) !!}" alt="">
+                                        <span> {{ $item_2['text'] }}</span>
+                                    </li>
+                                    @endforeach
+                                </ul>
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <div class="btnCenter">
+                        <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                            CONOCER HERRAMIENTAS
+                        </a>
+                    </div>
+                </section>
+
+            </div>
+
+        </section>
 
 
 
+        <section class="customSection sectionParent home_2025_5">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+                    <div class="containElements">
+                        <h2 class="title">
+                            ¡No te dejamos solo!
+                            Te apoyamos a personalizar y aprender a usar el CRM:
+                        </h2>
+                        <span class="text">
+                            Diseñamos un sistema de acompañamiento en vivo y robusto
+                            para que implementes efectivamente. ¡Tu éxito es nuestro éxito!
+                        </span>
+
+                        <img alt="Imagen equipo escala aprender a usar tu crm" src="{{ App::setFilePath('/assets/images/illustrations/others/img_escala_aprender_usar_crm.png') }}" loading="lazy">
+
+                    </div>
+
+                </section>
+
+                <section class="innerSectionElement sct1">
+                    <div class="containElements">
+                        <h2 class="title">
+                            Aumentas la productividad de tus vendedores y reduces costos:
+                        </h2>
+                        <span class="text">
+                            Las herramientas empoderan a tu equipo para que
+                            logren más con menos y así escalar operaciones.
+                        </span>
+
+                        <img alt="Imagen equipo escala crecimiento de ventas en equipo " src="{{ App::setFilePath('/assets/images/illustrations/others/img_escala_crecimiento_de_ventas.png') }}" loading="lazy">
+
+                    </div>
 
 
 
+                </section>
+                <div class="btnCenter">
+                    <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                        ¡WOW! LO NECESITO
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="customSection sectionParent home_2025_6">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+                    <div class="containElements">
+                        <h2 class="title">
+                            Gestiona contactos y oportunidades de venta
+                            más fácil y rápido
+                        </h2>
+                        <ul>
+                            <li> Puedes ver quiénes son tus prospectos, en qué etapa del proceso están y qué necesitas hacer
+                                para avanzar.
+                            </li>
+                            <li>
+                                Te avisa cuándo dar seguimiento, para que nunca se te escape una oportunidad.
+                            </li>
+                            <li>
+                                Puedes registrar llamadas, correos y notas rápidamente, sin perder tiempo buscando información en miles de lugares.
+                            </li>
+
+                        </ul>
+
+                        <span class="text">
+                            Es como tener un asistente personal que organiza tus ventas y te ayuda a cerrar
+                            más rápido.
+                        </span>
+                    </div>
+
+                    <div class="continerImages">
+                        <img alt="" src="{{ App::setFilePath('/assets/images/illustrations/others/img_gestion_contactos_crm_escala.png') }}" loading="lazy">
+                    </div>
+
+                </section>
+
+                <section class="innerSectionElement sct2">
+                    <div class="containElements">
+                        <h2 class="title">
+                            Automatiza para aumentar tu productividad
+                        </h2>
+                        <span class="text">
+                            Escala CRM te ayuda
+                            a automatizar tareas
+                            repetitivas como:
+                        </span>
+                        <ul>
+                            <li>
+                                Enviar emails y WhatsApps
+                                de seguimiento
+                            </li>
+                            <li>
+                                Crear recordatorios
+                            </li>
+                            <li>
+                                Actualizar el estado de tus prospectos
+                            </li>
+                            <li>
+                                Asignar leads o prospectos
+                                a vendedores
+                            </li>
+                        </ul>
+
+                        <span class="text_1">
+                            Así tú y tu equipo pueden enfocarse en vender mientras el CRM se encarga de lo tedioso. Ahorra tiempo y evita errores, con Escala logras que cada minuto trabajado sea mucho más efectivo.
+                        </span>
+                    </div>
+
+                    <div class="continerImages">
+                        <img alt="" src="{{ App::setFilePath('/assets/images/illustrations/others/img_automatizaciones_crm_escala.png') }}" loading="lazy">
+                    </div>
+
+                </section>
+
+                <section class="innerSectionElement sct1">
+                    <div class="containElements">
+                        <h2 class="title">
+                            Conversa por WhatsApp, Email, Facebook e Instagram desde el mismo lugar
+                        </h2>
+
+                        <span class="text">
+                            Ya tú y tu equipo no tienen
+                            que andar saltando entre
+                            apps, perdiendo tiempo o conversaciones importantes.
+
+                        </span>
+                        <span class="text_1">
+                            La Omnicanalidad del CRM de Escala permite que todo quede organizado, y puedas ver el historial completo de cada persona, sin importar por dónde te contactaron. Así, respondes rápido,
+                            sin caos, y das una experiencia
+                            súper profesional.
+                        </span>
+                    </div>
+
+                    <div class="continerImages">
+                        <img alt="" src="{{ App::setFilePath('/assets/images/illustrations/others/img_comunicacion_en_un_solo_lugar.png') }}" loading="lazy">
+                    </div>
+
+                </section>
+            </div>
+
+        </section>
 
 
 
+        <section class="sectionParent customSection home_2025_7">
+            <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_new_landing_home_escala_section_7.svg') !!}')" class="backgroundFull">
+                <div class="section-row">
+                    <section class="innerSectionElement sct2">
+                        <div class="groupElements row">
 
 
+                            <div class="info col-md-12 col-lg-8 sectionTexts textRight">
+                                <h3 class="secondaryTitle">
+                                    Acelera el crecimiento de tus ventas con Escala
+                                </h3>
+                                <span class="text">
+                                    Tienes mucho que ganar y poco que perder
+                                </span>
+                                <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                    EMPEZAR A CRECER AHORA
+                                </a>
+                            </div>
 
-
+                            <div class="image col-md-12 col-lg-4">
+                                <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/am_img_crecimiento_acelerado_con_escala.png ') !!}" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
 
 
     </div>
