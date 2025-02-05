@@ -232,7 +232,7 @@
 
                 <section class="innerSectionElement sct1">
 
-                    <div class="containElements">
+                    <div class="info">
 
                         <h2 class="title">
                             Así es como Escala puede ayudarte:
@@ -240,10 +240,10 @@
                         @php
                         $items = [
                         ['image' => 'icon_escala_home_optimizar.png', 'title' => 'Optimizar tu proceso', 'text' => 'de venta con una visión 360'],
-                        ['image' => 'icon_escala_home_centralizar.png', 'title' => 'Capturar contactos', 'text' => 'y organizar tu base de datos'],
-                        ['image' => 'icon_escala_home_capturar_contactos.png', 'title' => 'Automatizar tareas,', 'text' => 'emails y WhatsApps'],
-                        ['image' => 'icon_escala_home_necogios_online.png', 'title' => 'Centralizar tus comunicaciones', 'text' => 'de WhatsApp, Facebook e Instagram'],
-                        ['image' => 'icon_escala_home_automatizar_tareas.png', 'title' => 'Llevar tu negocio contigo', 'text' => 'a donde vayas'],
+                        ['image' => 'icon_escala_home_centralizar.png', 'title' => 'Centralizar tus comunicaciones', 'text' => 'de WhatsApp, Facebook e Instagram'],
+                        ['image' => 'icon_escala_home_capturar_contactos.png', 'title' => 'Capturar contactos', 'text' => 'y organizar tu base de datos'],
+                        ['image' => 'icon_escala_home_necogios_online.png', 'title' => 'Llevar tu negocio contigo', 'text' => 'a donde vayas'],
+                        ['image' => 'icon_escala_home_automatizar_tareas.png', 'title' => 'Automatizar tareas,', 'text' => 'emails y WhatsApps'],
                         ];
                         @endphp
 
@@ -267,7 +267,7 @@
                             </h2>
                             <div class="containElements">
                                 <div class="items">
-                                    <h3 class="subtTitle">
+                                    <h3 class="subTitle">
                                         2X
                                     </h3>
                                     <span>
@@ -277,7 +277,7 @@
                                 </div>
 
                                 <div class="items">
-                                    <h3 class="subtTitle">
+                                    <h3 class="subTitle">
                                         300%
 
                                     </h3>
@@ -288,7 +288,7 @@
                                 </div>
 
                                 <div class="items">
-                                    <h3 class="subtTitle">
+                                    <h3 class="subTitle">
                                         70%
 
                                     </h3>
@@ -299,13 +299,13 @@
                                 </div>
                             </div>
 
-                            <span class="text">
-                                Cifras obtenidas en entrevistas con ellos.
-                            </span>
                         </section>
 
                     </div>
 
+                    <span class="text">
+                        Cifras obtenidas en entrevistas con ellos.
+                    </span>
                     <div class="btnCenter">
                         <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                             ¡ESCALA AHORA!
@@ -327,12 +327,12 @@
 
                 <section class="innerSectionElement sct1">
 
-                    <div class="containElements">
+                    <div class="info">
 
                         <h2 class="title">
                             ¿Por qué elegir Escala para optimizar tus ventas?
                         </h2>
-                        <span>
+                        <span class="subTitle">
                             La conveniencia de tener todas las herramientas en un solo lugar:
                         </span>
                         @php
@@ -388,16 +388,16 @@
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <h2 class="title">
-                            ¡No te dejamos solo!
+                            ¡No te dejamos solo! <br class="DT_e">
                             Te apoyamos a personalizar y aprender a usar el CRM:
                         </h2>
                         <span class="text">
-                            Diseñamos un sistema de acompañamiento en vivo y robusto
+                            Diseñamos un sistema de acompañamiento en vivo y robusto <br class="DT_e">
                             para que implementes efectivamente. ¡Tu éxito es nuestro éxito!
                         </span>
-
-                        <img alt="Imagen equipo escala aprender a usar tu crm" src="{{ App::setFilePath('/assets/images/illustrations/others/img_escala_aprender_usar_crm.png') }}" loading="lazy">
-
+                        <div class="containerImg">
+                            <img alt="Imagen equipo escala aprender a usar tu crm" src="{{ App::setFilePath('/assets/images/illustrations/others/img_escala_aprender_usar_crm.png') }}" loading="lazy">
+                        </div>
                     </div>
 
                 </section>
@@ -405,15 +405,16 @@
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <h2 class="title">
-                            Aumentas la productividad de tus vendedores y reduces costos:
+                            Aumentas la productividad de tus vendedores <br class="DT_e">
+                            y reduces costos:
                         </h2>
                         <span class="text">
-                            Las herramientas empoderan a tu equipo para que
+                            Las herramientas empoderan a tu equipo para que <br class="DT_e">
                             logren más con menos y así escalar operaciones.
                         </span>
-
-                        <img alt="Imagen equipo escala crecimiento de ventas en equipo " src="{{ App::setFilePath('/assets/images/illustrations/others/img_escala_crecimiento_de_ventas.png') }}" loading="lazy">
-
+                        <div class="containerImg">
+                            <img alt="Imagen equipo escala crecimiento de ventas en equipo " src="{{ App::setFilePath('/assets/images/illustrations/others/img_escala_crecimiento_de_ventas.png') }}" loading="lazy">
+                        </div>
                     </div>
 
 
@@ -434,96 +435,108 @@
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
-                    <div class="containElements">
-                        <h2 class="title">
-                            Gestiona contactos y oportunidades de venta
-                            más fácil y rápido
-                        </h2>
-                        <ul>
-                            <li> Puedes ver quiénes son tus prospectos, en qué etapa del proceso están y qué necesitas hacer
-                                para avanzar.
-                            </li>
-                            <li>
-                                Te avisa cuándo dar seguimiento, para que nunca se te escape una oportunidad.
-                            </li>
-                            <li>
-                                Puedes registrar llamadas, correos y notas rápidamente, sin perder tiempo buscando información en miles de lugares.
-                            </li>
+                    <div class="groupElements row">
 
-                        </ul>
+                        <div class="image col-md-12 col-lg-7">
+                            <img alt="" src="{{ App::setFilePath('/assets/images/illustrations/others/img_gestion_contactos_crm_escala.png') }}" loading="lazy">
+                        </div>
 
-                        <span class="text">
-                            Es como tener un asistente personal que organiza tus ventas y te ayuda a cerrar
-                            más rápido.
-                        </span>
+                        <div class="info col-md-12 col-lg-5">
+                            <h2 class="title">
+                                Gestiona contactos y oportunidades de venta
+                                más fácil y rápido
+                            </h2>
+                            <ul>
+                                <li> Puedes ver quiénes son tus prospectos, en qué etapa del proceso están y qué necesitas hacer
+                                    para avanzar.
+                                </li>
+                                <li>
+                                    Te avisa cuándo dar seguimiento, para que nunca se te escape una oportunidad.
+                                </li>
+                                <li>
+                                    Puedes registrar llamadas, correos y notas rápidamente, sin perder tiempo buscando información en miles de lugares.
+                                </li>
+
+                            </ul>
+
+                            <span class="text">
+                                Es como tener un asistente personal que organiza tus ventas y te ayuda a cerrar
+                                más rápido.
+                            </span>
+                        </div>
+
+
                     </div>
-
-                    <div class="continerImages">
-                        <img alt="" src="{{ App::setFilePath('/assets/images/illustrations/others/img_gestion_contactos_crm_escala.png') }}" loading="lazy">
-                    </div>
-
                 </section>
 
                 <section class="innerSectionElement sct2">
-                    <div class="containElements">
-                        <h2 class="title">
-                            Automatiza para aumentar tu productividad
-                        </h2>
-                        <span class="text">
-                            Escala CRM te ayuda
-                            a automatizar tareas
-                            repetitivas como:
-                        </span>
-                        <ul>
-                            <li>
-                                Enviar emails y WhatsApps
-                                de seguimiento
-                            </li>
-                            <li>
-                                Crear recordatorios
-                            </li>
-                            <li>
-                                Actualizar el estado de tus prospectos
-                            </li>
-                            <li>
-                                Asignar leads o prospectos
-                                a vendedores
-                            </li>
-                        </ul>
+                    <div class="groupElements row">
+                        <div class="info col-md-12 col-lg-5">
+                            <h2 class="title">
+                                Automatiza para aumentar tu productividad
+                            </h2>
+                            <span class="text">
+                                Escala CRM te ayuda
+                                a automatizar tareas
+                                repetitivas como:
+                            </span>
+                            <ul>
+                                <li>
+                                    Enviar emails y WhatsApps
+                                    de seguimiento
+                                </li>
+                                <li>
+                                    Crear recordatorios
+                                </li>
+                                <li>
+                                    Actualizar el estado de tus prospectos
+                                </li>
+                                <li>
+                                    Asignar leads o prospectos
+                                    a vendedores
+                                </li>
+                            </ul>
 
-                        <span class="text_1">
-                            Así tú y tu equipo pueden enfocarse en vender mientras el CRM se encarga de lo tedioso. Ahorra tiempo y evita errores, con Escala logras que cada minuto trabajado sea mucho más efectivo.
-                        </span>
+                            <span class="text_1">
+                                Así tú y tu equipo pueden enfocarse en vender mientras el CRM se encarga de lo tedioso. Ahorra tiempo y evita errores, con Escala logras que cada minuto trabajado sea mucho más efectivo.
+                            </span>
+
+                        </div>
+
+                        <div class="image col-md-12 col-lg-7">
+                            <img alt="" src="{{ App::setFilePath('/assets/images/illustrations/others/img_automatizaciones_crm_escala.png') }}" loading="lazy">
+                        </div>
+
                     </div>
 
-                    <div class="continerImages">
-                        <img alt="" src="{{ App::setFilePath('/assets/images/illustrations/others/img_automatizaciones_crm_escala.png') }}" loading="lazy">
-                    </div>
 
                 </section>
 
                 <section class="innerSectionElement sct1">
-                    <div class="containElements">
-                        <h2 class="title">
-                            Conversa por WhatsApp, Email, Facebook e Instagram desde el mismo lugar
-                        </h2>
+                    <div class="groupElements row">
+                        <div class="info col-md-12 col-lg-5">
+                            <h2 class="title">
+                                Conversa por WhatsApp, Email, Facebook e Instagram desde el mismo lugar
+                            </h2>
 
-                        <span class="text">
-                            Ya tú y tu equipo no tienen
-                            que andar saltando entre
-                            apps, perdiendo tiempo o conversaciones importantes.
+                            <span class="text">
+                                Ya tú y tu equipo no tienen
+                                que andar saltando entre
+                                apps, perdiendo tiempo o conversaciones importantes.
 
-                        </span>
-                        <span class="text_1">
-                            La Omnicanalidad del CRM de Escala permite que todo quede organizado, y puedas ver el historial completo de cada persona, sin importar por dónde te contactaron. Así, respondes rápido,
-                            sin caos, y das una experiencia
-                            súper profesional.
-                        </span>
+                            </span>
+                            <span class="text_1">
+                                La Omnicanalidad del CRM de Escala permite que todo quede organizado, y puedas ver el historial completo de cada persona, sin importar por dónde te contactaron. Así, respondes rápido,
+                                sin caos, y das una experiencia
+                                súper profesional.
+                            </span>
+                        </div>
+                        <div class="image col-md-12 col-lg-7">
+                            <img alt="" src="{{ App::setFilePath('/assets/images/illustrations/others/img_comunicacion_en_un_solo_lugar.png') }}" loading="lazy">
+                        </div>
                     </div>
 
-                    <div class="continerImages">
-                        <img alt="" src="{{ App::setFilePath('/assets/images/illustrations/others/img_comunicacion_en_un_solo_lugar.png') }}" loading="lazy">
-                    </div>
+
 
                 </section>
             </div>
