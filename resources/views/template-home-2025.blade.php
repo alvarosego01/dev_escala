@@ -388,11 +388,11 @@
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <h2 class="title">
-                            ¡No te dejamos solo! <br class="DT_e">
+                            ¡No te dejamos solo! <br class="space">
                             Te apoyamos a personalizar y aprender a usar el CRM:
                         </h2>
                         <span class="text">
-                            Diseñamos un sistema de acompañamiento en vivo y robusto <br class="DT_e">
+                            Diseñamos un sistema de acompañamiento en vivo y robusto <br>
                             para que implementes efectivamente. ¡Tu éxito es nuestro éxito!
                         </span>
                         <div class="containerImg">
@@ -405,11 +405,11 @@
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
                         <h2 class="title">
-                            Aumentas la productividad de tus vendedores <br class="DT_e">
+                            Aumentas la productividad de tus vendedores <br class="space">
                             y reduces costos:
                         </h2>
                         <span class="text">
-                            Las herramientas empoderan a tu equipo para que <br class="DT_e">
+                            Las herramientas empoderan a tu equipo para que <br>
                             logren más con menos y así escalar operaciones.
                         </span>
                         <div class="containerImg">
@@ -450,9 +450,11 @@
                                 <li> Puedes ver quiénes son tus prospectos, en qué etapa del proceso están y qué necesitas hacer
                                     para avanzar.
                                 </li>
+                                <br>
                                 <li>
                                     Te avisa cuándo dar seguimiento, para que nunca se te escape una oportunidad.
                                 </li>
+                                <br>
                                 <li>
                                     Puedes registrar llamadas, correos y notas rápidamente, sin perder tiempo buscando información en miles de lugares.
                                 </li>
@@ -485,12 +487,15 @@
                                     Enviar emails y WhatsApps
                                     de seguimiento
                                 </li>
+                                <br>
                                 <li>
                                     Crear recordatorios
                                 </li>
+                                <br>
                                 <li>
                                     Actualizar el estado de tus prospectos
                                 </li>
+                                <br>
                                 <li>
                                     Asignar leads o prospectos
                                     a vendedores
@@ -512,8 +517,12 @@
 
                 </section>
 
-                <section class="innerSectionElement sct1">
+                <section class="innerSectionElement sct3">
                     <div class="groupElements row">
+                        <div class="image col-md-12 col-lg-7">
+                            <img alt="" src="{{ App::setFilePath('/assets/images/illustrations/others/img_comunicacion_en_un_solo_lugar.png') }}" loading="lazy">
+                        </div>
+
                         <div class="info col-md-12 col-lg-5">
                             <h2 class="title">
                                 Conversa por WhatsApp, Email, Facebook e Instagram desde el mismo lugar
@@ -531,13 +540,8 @@
                                 súper profesional.
                             </span>
                         </div>
-                        <div class="image col-md-12 col-lg-7">
-                            <img alt="" src="{{ App::setFilePath('/assets/images/illustrations/others/img_comunicacion_en_un_solo_lugar.png') }}" loading="lazy">
-                        </div>
+
                     </div>
-
-
-
                 </section>
             </div>
 
@@ -553,7 +557,7 @@
 
 
                             <div class="info col-md-12 col-lg-8 sectionTexts textRight">
-                                <h3 class="secondaryTitle">
+                                <h3 class="tittle">
                                     Acelera el crecimiento de tus ventas con Escala
                                 </h3>
                                 <span class="text">
