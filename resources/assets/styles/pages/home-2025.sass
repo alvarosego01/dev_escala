@@ -968,6 +968,17 @@ img
                 position: relative
                 left: -40px
             .groupElements
+                @include responsivo(telefonoTable)
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    text-align: center
+                    
+                @include responsivo(pcMedio)
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    text-align: center
                 .info
                     h2.title
                         color: #2C4857
@@ -1035,6 +1046,10 @@ img
                     img 
                         width: auto
                         height: 370px
+                        @include responsivo(telefonoTable)
+                            height: 370px
+                        @include responsivo(pcMedio)
+                            height: 370px
                         @include responsivo(smallPcTablet)
                             height: 340px
 
@@ -1046,6 +1061,17 @@ img
                 position: relative
                 left: 30px
             .groupElements
+                @include responsivo(telefonoTable)
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    text-align: center
+                    
+                @include responsivo(pcMedio)
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    text-align: center
                 .info
                     h2.title
                         color: #2C4857
@@ -1111,6 +1137,14 @@ img
                         font-size: 22px
                         font-weight: 600
                         line-height: 1      
+                        @include responsivo(telefonoTable)
+                            display: inline-block
+                            width: 570px
+                            text-align: center
+                        @include responsivo(pcMedio)
+                            display: inline-block
+                            width: 570px
+                            text-align: center
                         @include responsivo(general)
                             font-size: 20px    
                         @include responsivo(smallPcTablet)
@@ -1122,8 +1156,13 @@ img
                     img 
                         width: auto
                         height: 430px
+                        @include responsivo(telefonoTable)
+                            height: 390px
+                        @include responsivo(pcMedio)
+                            height: 390px
                         @include responsivo(smallPcTablet)
                             height: 370px
+                        
 
         .innerSectionElement.sct3
             text-align: left!important
@@ -1132,6 +1171,18 @@ img
                 position: relative
                 left: -50px
             .groupElements
+                @include responsivo(telefonoTable)
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    text-align: center
+                    
+                @include responsivo(pcMedio)
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    text-align: center
+                    
                 .info
                     h2.title
                         color: #2C4857
@@ -1148,6 +1199,7 @@ img
                             font-size: 25px
                         @include responsivo(pcMedio)
                             font-size: 30px
+                            width: 525px
                         @include responsivo(general)
                             font-size: 37.5px
                         @include responsivo(smallPcTablet)
@@ -1170,6 +1222,7 @@ img
                             font-size: 25px
                         @include responsivo(pcMedio)
                             font-size: 30px
+                            width:  485px
                         @include responsivo(general)
                             font-size: 37.5px
                         @include responsivo(resto)
@@ -1182,7 +1235,13 @@ img
                         line-height: 1     
                         width: 388px
                         display: inline-block    
-                        margin-top: 30px                  
+                        margin-top: 30px           
+                        @include responsivo(telefonoTable)
+                            text-align: center
+                        @include responsivo(pcMedio)
+                            text-align: center       
+                            width: 570px
+                            margin-bottom: 30px
                         @include responsivo(general)
                             font-size: 20px    
                         @include responsivo(smallPcTablet)
@@ -1309,7 +1368,7 @@ img
                     @include responsivo(telefonoTable)
                         margin-bottom: 25px
                     @include responsivo(pcMedio)
-                        margin-bottom: 25px
+                        margin-bottom: 0
                     @include responsivo(general)
                         left: -60px
                     @include responsivo(resto)
