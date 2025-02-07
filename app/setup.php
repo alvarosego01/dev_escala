@@ -142,7 +142,7 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-home-2023.blade.php')) {
         wp_enqueue_style('home-2023.css', asset_path('styles/pages/home-2023.css'), false, THEME_VERSION);
     }
-    if (is_page_template('views/template-home-2025-blanco.blade.php')) {
+    if (is_page_template('views/template-home-2025.blade.php')) {
         wp_enqueue_style('home-2025.css', asset_path('styles/pages/home-2025.css'), false, THEME_VERSION);
     }
     if (is_page_template('views/template-home-DEV.blade.php')) {
@@ -418,6 +418,10 @@ add_action('wp_enqueue_scripts', function () {
     //Motored
     if (is_page_template('views/template-casoExito-motored.blade.php')) {
         wp_enqueue_style('subPage_casoExito_motored.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_motored.css'), false, THEME_VERSION);
+    }
+    //Cambridge
+    if (is_page_template('views/template-casoExito-Cambridge.blade.php')) {
+        wp_enqueue_style('subPage_casoExito_Cambridge.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_Cambridge.css'), false, THEME_VERSION);
     }
     //Kata GoGo
     if (is_page_template('views/template-casoExito-kata-gogo.blade.php')) {
