@@ -10,14 +10,54 @@
             <div class="container-fluid sct2">
 
                 <div class="logo">
-                    <a class="navbar-brand" href="{!! home_url() !!}">
-                        <span class="navbar-brand">
-                            <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-                            <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
-                        </span>
-                    </a>
+                    <span class="navbar-brand">
+                        @if (isset($type) && $type === 'default')
+                        <a class="navbar-brand normal">
+                            <img src="{!! App::setFilePath('/assets/images/logos/logotipo-escala-blanco.png') !!}"
+                                alt="Logo" class="logo-img default-logo">
+                        </a>
+
+                        @else
+                        <a class="navbar-brand normal">
+                            <img src="{!! App::setFilePath('/assets/images/logos/logotipo-escala-blanco.png') !!}"
+                                alt="Logo" class="logo-img default-logo">
+                        </a>
+                        @endif
+
+                        <!-- Logo que se mostrará cuando el nav tenga la clase fixedNav -->
+                        <a class="fixed navbar-brand">
+                            <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}"
+                                alt="Logo" class="logo-img fixed-logo" style="display: none;">
+                        </a>
+                    </span>
+
                 </div>
 
+                <script>
+                    jQuery(document).ready(function($) {
+                        var $defaultLogo = $(".landing_global3 .default-logo"); // Logo blanco (normal)
+                        var $fixedLogo = $(".landing_global3 .fixed-logo"); // Logo oscuro cuando hay scroll
+
+                        $(window).on("scroll", function() {
+                            if ($(window).scrollTop() === 0) {
+                                $defaultLogo.show();
+                                $fixedLogo.hide();
+                            } else {
+                                $defaultLogo.hide();
+                                $fixedLogo.show();
+                            }
+                        });
+
+                        // Ejecutar al cargar la página para mostrar el logo correcto
+                        if ($(window).scrollTop() === 0) {
+                            $defaultLogo.show();
+                            $fixedLogo.hide();
+                        } else {
+                            $defaultLogo.hide();
+                            $fixedLogo.show();
+                        }
+                    });
+                </script>
 
 
 
