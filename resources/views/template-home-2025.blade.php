@@ -91,6 +91,18 @@
                             </div>
 
 
+                            <div class="imageReviewsMobile1 hideOnDesktop">
+
+                                <div class="image">
+                                    <div class="containerImage">
+                                        <img alt="Ilustración Andrés Moreno, CEO de Escala" src="{{ App::setFilePath('/assets/images/person/am/img_andres_moreno_home_escala_2025.png') }}" loading="lazy">
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
 
 
 
@@ -196,9 +208,9 @@
                         </h2>
                     </div>
                     <div class="containElements">
-                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_review_pymes.png') }}" loading="lazy">
-                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_review_pymes.png') }}" loading="lazy">
-                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_review_pymes.png') }}" loading="lazy">
+                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_review_miguel_urrego.png') }}" loading="lazy">
+                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_review_miller_romero.png') }}" loading="lazy">
+                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_catalina_gonzales_goez.png') }}" loading="lazy">
                     </div>
 
                     <div class="btnCenter">
