@@ -9,7 +9,7 @@
 
 <div id="homeSection_2025">
     <div class="sections">
-<!-- Home 2025 -->
+        <!-- Home 2025 -->
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol homeSection_2025 homeSection_2025_0 ">
 
             <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_new_landing_home_escala.svg') }}')" class="backgroundFull">
@@ -61,8 +61,7 @@
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
 
-                                        <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
-                                            personalizado de Escala</h5>
+                                        <h5 class="titleFormat blackcolor"> Recibe un demo personalizado</h5>
 
 
                                         @php
@@ -82,25 +81,15 @@
                                         @endphp
                                         {!! do_shortcode($_formShortcode) !!}
 
-
+                                        <script>
+                                            jQuery('.formatForm .wpcf7 input.wpcf7-form-control.wpcf7-submit').val('RECIBIR EL DEMO')
+                                        </script>
                                     </div>
 
                                 </div>
 
                             </div>
 
-                            <div class="imageReviewsMobile hideOnDesktop">
-
-                                <div class="image">
-                                    <div class="containerImage">
-                                        <img alt="Ilustración Andrés Moreno, CEO de Escala" src="{{ App::setFilePath('/assets/images/person/am/img_andres_moreno_home_escala_2025.png') }}" loading="lazy">
-                                    </div>
-
-                                </div>
-
-
-
-                            </div>
 
 
 
@@ -219,6 +208,18 @@
                     </div>
                 </section>
 
+                <div class="imageReviewsMobile hideOnDesktop">
+
+                    <div class="image">
+                        <div class="containerImage">
+                            <img alt="Ilustración Andrés Moreno, CEO de Escala" src="{{ App::setFilePath('/assets/images/person/am/img_andres_moreno_home_escala_2025.png') }}" loading="lazy">
+                        </div>
+
+                    </div>
+
+
+
+                </div>
             </div>
 
         </section>
