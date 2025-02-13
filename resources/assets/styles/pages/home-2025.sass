@@ -627,6 +627,8 @@ img
         @include responsivo(pcMedio)
             flex-wrap: wrap
         .box-internal
+            @include responsivo(telefonoTable)
+                width: 90%!important
             @include responsivo(pcMedio)
                 width: 60%!important
         .card-box
@@ -911,7 +913,7 @@ img
                                 span        
                                     font-size: 35px!important  
                                     @include responsivo(telefonoTable)
-                                        font-size: 48px!important 
+                                        font-size: 40px!important 
                                     @include responsivo(pcMedio)
                                         font-size: 25px!important 
                                     @include responsivo(general)
