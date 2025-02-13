@@ -196,46 +196,102 @@
 
         </section>
 
-
         <section class="customSection sectionParent home_2025_2">
 
-            <div class="section-row">
-
-                <section class="innerSectionElement sct1">
-                    <div class="containElements">
+            <div class="section-row ">
+                <div class="row sct1">
+                    <div class="text-center col-12">
                         <h2 class="title">
-                            El software de marketing y ventas preferido por PYMES en crecimiento
+                            El software de marketing y ventas <br class="space">
+                            preferido por PYMES en crecimiento
                         </h2>
                     </div>
-                    <div class="containElements">
-                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_review_miguel_urrego.png') }}" loading="lazy">
-                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_review_miller_romero.png') }}" loading="lazy">
-                        <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_catalina_gonzales_goez.png') }}" loading="lazy">
-                    </div>
+                </div>
 
-                    <div class="btnCenter">
-                        <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                            QUIERO VENDER MÁS
-                        </a>
-                    </div>
-                </section>
+                <div class=" row sct2">
+                    <div class="mb-4 col-lg-4 col-md-12 box-internal">
+                        <div class="card-box"
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home.png') !!}" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Aumentamos las ventas en un 100%.</b> El acompañamiento del equipo de Escala ha
+                                    sido fundamental.
+                                    <br class="space">
+                                    <br class="space">
 
-                <div class="imageReviewsMobile hideOnDesktop">
-
-                    <div class="image">
-                        <div class="containerImage">
-                            <img alt="Ilustración Andrés Moreno, CEO de Escala" src="{{ App::setFilePath('/assets/images/person/am/img_andres_moreno_home_escala_2025.png') }}" loading="lazy">
+                                </h5>
+                                <div class="card-text">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_miguel_urrego_poctlab.png') !!}" alt="">
+                                    <div class="text-internal">
+                                        <span class="card-title">Miguel Urrego</span>
+                                        <p class="card-text">Líder Comercial Poctlab</p>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/stars_testimonios_5.png') !!}" alt="">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
+                    <div class="mb-4 col-lg-4 col-md-12 box-internal">
+                        <div class="card-box"
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home.png') !!}" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Escala ha sido un gran aliado para <b> mejorar nuestra operación comercial,</b> automatizar tareas
+                                    y optimizar nuestra inversión
+                                    en marketing.
+                                </h5>
+                                <div class="card-text">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/miller_romero_taller_cinco.png') !!}" alt="">
+                                    <div class="text-internal">
+                                        <span class="card-title">Miller Romero</span>
+                                        <p class="card-text">Líder Comunicaciones Taller Cinco</p>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/stars_testimonios_5.png') !!}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4 col-lg-4 col-md-12 box-internal">
+                        <div class="card-box"
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home.png') !!}" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Escala no solo ofrecen un <b> software robusto y amigable,</b> sino también un servicio excepcional que asegura que aprovechemos al máximo
+                                    la herramienta.
+                                </h5>
+                                <div class="card-text">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/catalina_gonzalez_katagogo.png') !!}" alt="">
+                                    <div class="text-internal">
+                                        <span class="card-title">Catalina González Goez
+                                        </span>
+                                        <p class="card-text"> CEO KataGoGo</p>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/stars_testimonios_5.png') !!}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="btnCenter">
+                <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                   QUIERO VENDER MÁS
+                </a>
+            </div>
+            <div class="imageReviewsMobile hideOnDesktop">
 
+                <div class="image">
+                    <div class="containerImage">
+                        <img alt="Ilustración Andrés Moreno, CEO de Escala" src="{{ App::setFilePath('/assets/images/person/am/img_andres_moreno_home_escala_2025.png') }}" loading="lazy">
+                    </div>
 
                 </div>
             </div>
 
-        </section>
 
+
+        </section>
 
         <section class="customSection sectionParent home_2025_3">
 
