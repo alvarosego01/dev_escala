@@ -706,26 +706,6 @@ y conexión Meta Business ",
                                                             </label>
                                                         </div>
                                                         <div class="field select">
-                                                            <select name="_whatsappField">
-                                                                <option value="No" selected>No</option>
-                                                                <option value="Si">Si</option>
-                                                            </select>
-
-                                                            <div class="quantity-nav">
-                                                                <div class="quantity-button quantity-up">
-                                                                    <i class="fas fa-caret-up"></i>
-                                                                </div>
-                                                                <div class="quantity-button quantity-down">
-                                                                    <i class="fas fa-caret-down"></i>
-                                                                </div>
-                                                            </div>
-
-                                                            <label for="_whatsappField">
-                                                                Incluye Inbox y automatizaciones <br class="DT_e"> de <span style="color:
-                                                #00D35B"><strong>WhatsApp</strong></span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Whatsapp">?</button>
-                                                            </label>
-                                                        </div>
-                                                        <div class="field select">
                                                             <select name="_iaField">
                                                                 <option value="No" selected>No</option>
                                                                 <option value="Si">Si</option>
@@ -742,6 +722,54 @@ y conexión Meta Business ",
 
                                                             <label for="_iaField">
                                                                 Incluye <span style="color: #FF503C"><strong> Inteligencia Artificial</strong></span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="field select">
+                                                            <select name="_omnicanalField" id="omnicanalField">
+                                                                <option value="No" selected>No</option>
+                                                                <option value="Si">Si</option>
+                                                            </select>
+                                                            <div class="quantity-nav">
+                                                                <div class="quantity-button quantity-up">
+                                                                    <i class="fas fa-caret-up"></i>
+                                                                </div>
+                                                                <div class="quantity-button quantity-down">
+                                                                    <i class="fas fa-caret-down"></i>
+                                                                </div>
+                                                            </div>
+                                                            <label for="_omnicanalField">
+                                                                Incluye <span style="color: #00D35B"><strong> Inbox Omnicanal</strong></span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="field number omnicanal-options" style="display: none;">
+                                                            <input name="_whatsappField" class="whatsappField" step="1" type="number" value="1" min="1">
+                                                            <div class="quantity-nav">
+                                                                <div class="quantity-button quantity-up">
+                                                                    <i class="fas fa-caret-up"></i>
+                                                                </div>
+                                                                <div class="quantity-button quantity-down">
+                                                                    <i class="fas fa-caret-down"></i>
+                                                                </div>
+                                                            </div>
+                                                            <label for="_whatsappField">
+                                                                Número de <span style="color: #00D35B"><strong> WhatsApp</strong></span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="field number omnicanal-options" style="display: none;">
+                                                            <input name="_facebookField" class="facebookField" step="1" type="number" value="1" min="1">
+                                                            <div class="quantity-nav">
+                                                                <div class="quantity-button quantity-up">
+                                                                    <i class="fas fa-caret-up"></i>
+                                                                </div>
+                                                                <div class="quantity-button quantity-down">
+                                                                    <i class="fas fa-caret-down"></i>
+                                                                </div>
+                                                            </div>
+                                                            <label for="_facebookField">
+                                                                Número de <span style="color: #00D35B"><strong> Facebook</strong></span>
                                                             </label>
                                                         </div>
 
@@ -1317,73 +1345,6 @@ y conexión Meta Business ",
 
 {{-- --}}
 
-<div class="customPopUp pricingPro_special_message modal fade popup-pricingPro_Message_Whatsapp"
-    id="popup-pricingPro_Message_Whatsapp" aria-hidden="true" aria-labelledby="popup-pricingPro_Message_Whatsapp"
-    tabindex="-1">
-
-    <div class="modal-dialog modal-dialog-centered pricingPro_special_message">
-
-        <div class="modal-content">
-
-            <div class="modal-body">
-
-                <section class="innerSectionElement">
-
-                    <div class="groupElements">
-
-                        <div class="row">
-
-                            <div class="info">
-
-                                <div class="containElements">
-
-                                    <div class="sect1">
-
-                                        <div class="containElements">
-
-                                            <p class="text">
-                                                Escala tiene integrado <span style="color: #00D35B"><strong>WhatsApp API</strong></span> para que puedas<br
-                                                    class="DT_e"> automatizar respuestas, enviar mensajes masivos,<br
-                                                    class="DT_e">
-                                                conversar, guardar esas conversaciones en el CRM ¡y más!
-                                                <br><br>
-                                                Potencia tu capacidad de respuesta y escala tus operaciones<br
-                                                    class="DT_e">
-                                                con el Inbox y las Automatizaciones de WhatsApp.
-                                                <br><br>
-                                                Nota: La tarifa de Escala cubre la integración de la <br
-                                                    class="DT_e">
-                                                herramienta de WhatsApp en la plataforma. Meta tiene <br
-                                                    class="DT_e">
-                                                tarifas extras (por ejemplo, por conversaciones) que no <br
-                                                    class="DT_e">
-                                                están relacionadas con Escala.
-                                            </p>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-
-                        </div>
-                    </div>
-
-                </section>
-
-            </div>
-        </div>
-    </div>
-
-</div>
-
-<a style="display: none" popup="popup-pricingPro_Message_Whatsapp" indexpopupbutton class="btn btn-primary"
-    data-bs-toggle="modal" href="#popup-pricingPro_Message_Whatsapp" role="button">
-</a>
-{{-- --}}
 <div class="customPopUp pricingPro_special_message modal fade popup-pricingPro_Message_PagoUnico"
     id="popup-pricingPro_Message_PagoUnico" aria-hidden="true" aria-labelledby="popup-pricingPro_Message_PagoUnico"
     tabindex="-1">
