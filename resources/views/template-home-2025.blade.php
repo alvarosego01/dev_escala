@@ -167,7 +167,7 @@
                                     </p>
                                     <div class="stars">
                                         <div class="containerImage">
-                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_blue.svg') !!}" loading="lazy">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.svg') !!}" loading="lazy">
                                         </div>
                                     </div>
 
@@ -212,7 +212,7 @@
                     <div class="mb-4 col-lg-4 col-md-12 box-internal">
                         <div class="card-box"
                             style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
-                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home.png') !!}" alt="">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue.png') !!}" alt="">
                             <div class="card-body">
                                 <h5 class="card-title"><b>Aumentamos las ventas en un 100%.</b> El acompañamiento del equipo de Escala ha
                                     sido fundamental.
@@ -225,7 +225,7 @@
                                     <div class="text-internal">
                                         <span class="card-title">Miguel Urrego</span>
                                         <p class="card-text">Líder Comercial Poctlab</p>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/stars_testimonios_5.png') !!}" alt="">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -234,7 +234,7 @@
                     <div class="mb-4 col-lg-4 col-md-12 box-internal">
                         <div class="card-box"
                             style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
-                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home.png') !!}" alt="">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue.png') !!}" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Escala ha sido un gran aliado para <b> mejorar nuestra operación comercial,</b> automatizar tareas
                                     y optimizar nuestra inversión
@@ -245,7 +245,7 @@
                                     <div class="text-internal">
                                         <span class="card-title">Miller Romero</span>
                                         <p class="card-text">Líder Comunicaciones Taller Cinco</p>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/stars_testimonios_5.png') !!}" alt="">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -254,7 +254,7 @@
                     <div class="mb-4 col-lg-4 col-md-12 box-internal">
                         <div class="card-box"
                             style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
-                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home.png') !!}" alt="">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue.png') !!}" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Escala no solo ofrecen un <b> software robusto y amigable,</b> sino también un servicio excepcional que asegura que aprovechemos al máximo
                                     la herramienta.
@@ -265,7 +265,7 @@
                                         <span class="card-title">Catalina González Goez
                                         </span>
                                         <p class="card-text"> CEO KataGoGo</p>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/stars_testimonios_5.png') !!}" alt="">
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -404,7 +404,7 @@
                         </span>
                         @php
                         $items_2 = [
-                        ['image' => 'icon_escala_home_grupo_persona.png', 'text' => 'Gestión de contactos y procesos'],
+                        ['image' => 'icon_escala_home_crm.png', 'text' => 'Gestión de contactos y procesos'],
                         ['image' => 'icon_escala_home_form.png', 'text' => 'Landing Pages'],
                         ['image' => 'icon_escala_home_text.png', 'text' => 'Inbox Omnicanal'],
                         ['image' => 'icon_escala_home_form_persona.png', 'text' => 'Formularios'],
