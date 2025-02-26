@@ -739,7 +739,7 @@ y conexión Meta Business ",
                                                                 </div>
                                                             </div>
                                                             <label for="_omnicanalField">
-                                                                Incluye <span style="color: #00D35B"><strong> Inbox Omnicanal</strong></span>
+                                                                Incluye <span style="color: #00D35B"><strong> Incluye Inbox Omnicanal*</strong></span>
                                                             </label>
                                                         </div>
 
@@ -754,7 +754,7 @@ y conexión Meta Business ",
                                                                 </div>
                                                             </div>
                                                             <label for="_whatsappField">
-                                                                Número de <span style="color: #00D35B"><strong> WhatsApp</strong></span>
+                                                            Número de líneas adicionales de <span style="color: #00D35B"><strong> WhatsApp</strong></span>
                                                             </label>
                                                         </div>
 
@@ -769,7 +769,7 @@ y conexión Meta Business ",
                                                                 </div>
                                                             </div>
                                                             <label for="_facebookField">
-                                                                Número de <span style="color: #00D35B"><strong> Facebook</strong></span>
+                                                            Número de cuentas adicionales de  <span style="color: #00D35B"><strong> Facebook / Instagram* </strong></span>
                                                             </label>
                                                         </div>
 
