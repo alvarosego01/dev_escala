@@ -467,6 +467,13 @@ function sticky_headerTable() {
 
 }
 
+function adjustCalculatorHeight() {
+    if (jQuery('#omnicanalField').val() === 'Si') {
+        jQuery('.calculator').css('height', '430px');
+    } else {
+        jQuery('.calculator').css('height', '330px');
+    }
+}
 
 jQuery(document).ready(function () {
 
@@ -551,10 +558,12 @@ jQuery(window).on('scroll', sticky_headerTable);
             jQuery('.omnicanal-options input').val(1);
         }
         jQuery('form#formCalcGeneral_PRO').trigger('change');
+        adjustCalculatorHeight();
     });
 
     jQuery('.omnicanal-options input').on('change', function () {
         jQuery('form#formCalcGeneral_PRO').trigger('change');
     });
 
+    adjustCalculatorHeight();
 });

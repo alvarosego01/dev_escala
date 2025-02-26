@@ -464,13 +464,13 @@ y conexión Meta Business ",
 
                             <h1 class="primaryTitle blackColor">
                                 Elige el mejor plan y sus beneficios según <br class="DT_e">
-                                    las necesidades de tu empresa
-                                    </h1>
+                                las necesidades de tu empresa
+                            </h1>
 
-                                <p class="primaryText grayColorTexts">
-                                    Cada uno de nuestros planes tiene las funcionalidades de marketing digital y ventas <br class="DT_e">
-                                    para acelerar el crecimiento de tu negocio. Solo inviertes en lo que necesitas.
-                                </p>
+                            <p class="primaryText grayColorTexts">
+                                Cada uno de nuestros planes tiene las funcionalidades de marketing digital y ventas <br class="DT_e">
+                                para acelerar el crecimiento de tu negocio. Solo inviertes en lo que necesitas.
+                            </p>
 
                         </div>
 
@@ -517,13 +517,13 @@ y conexión Meta Business ",
                                             <div class="innerMiddle">
 
                                                 <span class="extraTag">
-                                                    Únicamente  <span style="color: #007F96">pago anual</span>
+                                                    Únicamente <span style="color: #007F96">pago anual</span>
                                                 </span>
 
                                             </div>
                                         </div>
 
-                                        <div class="calculator">
+                                        <div class="calculator dynamic-height">
 
                                             <form regularPlansCalc onkeydown="if (event.keyCode == 13) { return false; }" action="" id="formCalcGeneral_STARTER">
 
@@ -584,7 +584,7 @@ y conexión Meta Business ",
                                         <div class="openComparation">
                                             <a onclick="openCompare()">
                                                 Ver comparación completa
-                                                <i class="fas fa-caret-up"></i>
+                                                <i class="fas fa-caret-down"></i>
                                             </a>
                                         </div>
 
@@ -662,7 +662,7 @@ y conexión Meta Business ",
                                             </div>
                                         </div>
 
-                                        <div class="calculator">
+                                        <div class="calculator dynamic-height">
 
                                             <form regularPlansCalc onkeydown="if (event.keyCode == 13) { return false; }" action="" id="formCalcGeneral_PRO">
 
@@ -721,7 +721,7 @@ y conexión Meta Business ",
                                                             </div>
 
                                                             <label for="_iaField">
-                                                                Incluye <span style="color: #FF503C"><strong> Inteligencia Artificial</strong></span>
+                                                                Incluye <span><strong> Inteligencia Artificial</strong></span>
                                                             </label>
                                                         </div>
 
@@ -739,7 +739,7 @@ y conexión Meta Business ",
                                                                 </div>
                                                             </div>
                                                             <label for="_omnicanalField">
-                                                                Incluye <span style="color: #00D35B"><strong> Incluye Inbox Omnicanal*</strong></span>
+                                                                Incluye <span><strong> Incluye Inbox Omnicanal*</strong></span>
                                                             </label>
                                                         </div>
 
@@ -754,7 +754,7 @@ y conexión Meta Business ",
                                                                 </div>
                                                             </div>
                                                             <label for="_whatsappField">
-                                                            Número de líneas adicionales de <span style="color: #00D35B"><strong> WhatsApp</strong></span>
+                                                                Número de líneas adicionales de <span><strong> WhatsApp</strong></span>
                                                             </label>
                                                         </div>
 
@@ -769,10 +769,14 @@ y conexión Meta Business ",
                                                                 </div>
                                                             </div>
                                                             <label for="_facebookField">
-                                                            Número de cuentas adicionales de  <span style="color: #00D35B"><strong> Facebook / Instagram* </strong></span>
+                                                                Número de cuentas adicionales de <span><strong> Facebook / Instagram* </strong></span>
                                                             </label>
                                                         </div>
-
+                                                        <div class="omniInfo">
+                                                            <span>
+                                                                <strong>*El Inbox Omnicanal incluye</strong> una línea de WhatsApp y una cuenta de Facebook e Instagram
+                                                            </span>
+                                                        </div>
                                                     </div>
                                                 </div>
 
@@ -790,7 +794,7 @@ y conexión Meta Business ",
                                         <div class="openComparation">
                                             <a onclick="openCompare()">
                                                 Ver comparación completa
-                                                <i class="fas fa-caret-up"></i>
+                                                <i class="fas fa-caret-down"></i>
                                             </a>
                                         </div>
 
@@ -839,7 +843,7 @@ y conexión Meta Business ",
                                             </div>
                                         </div>
 
-                                        <div class="calculator">
+                                        <div class="calculator dynamic-height">
 
 
                                             <form regularPlansCalc onkeydown="if (event.keyCode == 13) { return false; }" action="" id="formCalcGeneral_ENTERPRISE">
@@ -955,7 +959,7 @@ y conexión Meta Business ",
                                                                     alt="">
                                                                 @elseif( isset($subItem['value'][0]) && $subItem['value'][0] == 'disabledIcon' )
                                                                 <img class="disabledIcon"
-                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon_disable.svg') !!}"
                                                                     alt="">
                                                                 @else
                                                                 {!! $subItem['value'][0] !!}
@@ -969,7 +973,7 @@ y conexión Meta Business ",
                                                                     alt="">
                                                                 @elseif( isset($subItem['value'][1]) && $subItem['value'][1] == 'disabledIcon' )
                                                                 <img class="disabledIcon"
-                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon_disable.svg') !!}"
                                                                     alt="">
                                                                 @else
                                                                 {!! $subItem['value'][1] !!}
@@ -983,7 +987,7 @@ y conexión Meta Business ",
                                                                     alt="">
                                                                 @elseif( isset($subItem['value'][2]) && $subItem['value'][2] == 'disabledIcon' )
                                                                 <img class="disabledIcon"
-                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon_disable.svg') !!}"
                                                                     alt="">
                                                                 @else
                                                                 {!! $subItem['value'][2] !!}
@@ -1042,7 +1046,7 @@ y conexión Meta Business ",
                                                                     alt="">
                                                                 @elseif( isset($subItem['value'][0]) && $subItem['value'][0] == 'disabledIcon' )
                                                                 <img class="disabledIcon"
-                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon_disable.svg') !!}"
                                                                     alt="">
                                                                 @else
                                                                 {!! $subItem['value'][0] !!}
@@ -1056,7 +1060,7 @@ y conexión Meta Business ",
                                                                     alt="">
                                                                 @elseif( isset($subItem['value'][1]) && $subItem['value'][1] == 'disabledIcon' )
                                                                 <img class="disabledIcon"
-                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon_disable.svg') !!}"
                                                                     alt="">
                                                                 @else
                                                                 {!! $subItem['value'][1] !!}
@@ -1070,7 +1074,7 @@ y conexión Meta Business ",
                                                                     alt="">
                                                                 @elseif( isset($subItem['value'][2]) && $subItem['value'][2] == 'disabledIcon' )
                                                                 <img class="disabledIcon"
-                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon_disable.svg') !!}"
                                                                     alt="">
                                                                 @else
                                                                 {!! $subItem['value'][2] !!}
@@ -1129,7 +1133,7 @@ y conexión Meta Business ",
                                                                     alt="">
                                                                 @elseif( isset($subItem['value'][0]) && $subItem['value'][0] == 'disabledIcon' )
                                                                 <img class="disabledIcon"
-                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon_disable.svg') !!}"
                                                                     alt="">
                                                                 @else
                                                                 {!! $subItem['value'][0] !!}
@@ -1143,7 +1147,7 @@ y conexión Meta Business ",
                                                                     alt="">
                                                                 @elseif( isset($subItem['value'][1]) && $subItem['value'][1] == 'disabledIcon' )
                                                                 <img class="disabledIcon"
-                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon_disable.svg') !!}"
                                                                     alt="">
                                                                 @else
                                                                 {!! $subItem['value'][1] !!}
@@ -1157,7 +1161,7 @@ y conexión Meta Business ",
                                                                     alt="">
                                                                 @elseif( isset($subItem['value'][2]) && $subItem['value'][2] == 'disabledIcon' )
                                                                 <img class="disabledIcon"
-                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/vector_disabled_grey.png') !!}"
+                                                                    src="{!! App::setFilePath('/assets/images/illustrations/others/icon_disable.svg') !!}"
                                                                     alt="">
                                                                 @else
                                                                 {!! $subItem['value'][2] !!}
@@ -1195,8 +1199,9 @@ y conexión Meta Business ",
             <div class="section-row ">
                 <div class="row sct1">
                     <div class="text-center col-12">
-                        <h1 class="title">Somos más que una potente herramienta</h1>
-                        <p class="subtitle">¡Ningún otro CRM hace tanto por ti!</p>
+                        <h2 class="title">El software de marketing y ventas <br class="DT_e">
+                            preferido por PYMES en crecimiento</h2>
+
                     </div>
                 </div>
 
@@ -1257,6 +1262,88 @@ y conexión Meta Business ",
             </div>
 
         </section>
+
+
+        <section class="customSection sectionParent subPage_pricing_2023_5">
+
+            <div class="section-row ">
+                <div class="row sct1">
+                    <div class="text-center col-12">
+                        <h2 class="title">
+                            El software de marketing y ventas <br class="space">
+                            preferido por PYMES en crecimiento
+                        </h2>
+                    </div>
+                </div>
+
+                <div class=" row sct2">
+                    <div class="mb-4 col-lg-4 col-md-12 box-internal">
+                        <div class="card-box"
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue.png') !!}" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Aumentamos las ventas en un 100%.</b> El acompañamiento del equipo de Escala ha
+                                    sido fundamental.
+                                    <br class="space">
+                                    <br class="space">
+
+                                </h5>
+                                <div class="card-text">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_miguel_urrego_poctlab.png') !!}" alt="">
+                                    <div class="text-internal">
+                                        <span class="card-title">Miguel Urrego</span>
+                                        <p class="card-text">Líder Comercial Poctlab</p>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4 col-lg-4 col-md-12 box-internal">
+                        <div class="card-box"
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue.png') !!}" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Escala ha sido un gran aliado para <b> mejorar nuestra operación comercial,</b> automatizar tareas
+                                    y optimizar nuestra inversión
+                                    en marketing.
+                                </h5>
+                                <div class="card-text">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/miller_romero_taller_cinco.png') !!}" alt="">
+                                    <div class="text-internal">
+                                        <span class="card-title">Miller Romero</span>
+                                        <p class="card-text">Líder Comunicaciones Taller Cinco</p>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4 col-lg-4 col-md-12 box-internal">
+                        <div class="card-box"
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue.png') !!}" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Escala no solo ofrecen un <b> software robusto y amigable,</b> sino también un servicio excepcional que asegura que aprovechemos al máximo
+                                    la herramienta.
+                                </h5>
+                                <div class="card-text">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/catalina_gonzalez_katagogo.png') !!}" alt="">
+                                    <div class="text-internal">
+                                        <span class="card-title">Catalina González Goez
+                                        </span>
+                                        <p class="card-text"> CEO KataGoGo</p>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.png') !!}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
 
         <section class="customSection sectionParent subPage_pricing_2023_2">
             <div class="section-row">
