@@ -466,12 +466,19 @@ function sticky_headerTable() {
     }
 
 }
-
 function adjustCalculatorHeight() {
-    if (jQuery('#omnicanalField').val() === 'Si') {
-        jQuery('.calculator').css('height', '430px');
+    if (jQuery(window).width() <= 768) {
+        if (jQuery('#omnicanalField').val() === 'Si') {
+            jQuery('.calculator').css('height', '390px');
+        } else {
+            jQuery('.calculator').css('height', '280px');
+        }
     } else {
-        jQuery('.calculator').css('height', '330px');
+        if (jQuery('#omnicanalField').val() === 'Si') {
+            jQuery('.calculator').css('height', '430px');
+        } else {
+            jQuery('.calculator').css('height', '330px');
+        }
     }
 }
 

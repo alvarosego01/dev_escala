@@ -523,7 +523,7 @@ y conexión Meta Business ",
                                             </div>
                                         </div>
 
-                                        <div class="calculator dynamic-height">
+                                        <div class="calculator dynamic-height special-height">
 
                                             <form regularPlansCalc onkeydown="if (event.keyCode == 13) { return false; }" action="" id="formCalcGeneral_STARTER">
 
@@ -843,7 +843,7 @@ y conexión Meta Business ",
                                             </div>
                                         </div>
 
-                                        <div class="calculator dynamic-height">
+                                        <div class="calculator dynamic-height special-height">
 
 
                                             <form regularPlansCalc onkeydown="if (event.keyCode == 13) { return false; }" action="" id="formCalcGeneral_ENTERPRISE">
@@ -1194,77 +1194,8 @@ y conexión Meta Business ",
 
         </section>
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/05-pricing_2023.png') !!})" class="customSection sectionParent subPage_pricing_2023_1">
 
-            <div class="section-row ">
-                <div class="row sct1">
-                    <div class="text-center col-12">
-                        <h2 class="title">El software de marketing y ventas <br class="DT_e">
-                            preferido por PYMES en crecimiento</h2>
-
-                    </div>
-                </div>
-
-                <div class=" row sct2">
-                    <div class="mb-4 col-lg-4 col-md-12">
-                        <div class="card-box"
-                            style="background-image: url('{!! App::setFilePath('/assets/images/backgrounds/background_card_1.svg') !!}')">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Acelera tu implementación <br class="space">
-                                    con plantillas y <br class="space">
-                                    el CRM personalizado
-                                </h5>
-                                <p class="card-text">Alcance limitado*</p>
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/02-pricing_2023.png') !!}" alt="">
-                                <p class="card-text">*Servicio de implementación</p>
-                                <button class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">¡Conocer más!</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-4 col-lg-4 col-md-12">
-                        <div class="card-box"
-                            style="background-image: url('{!! App::setFilePath('/assets/images/backgrounds/background_card_1.svg') !!}')">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Te guiamos a vender más <br class="space">
-                                    y mejor con Escala <br class="space">
-                                    ¡todo el año!
-                                </h5>
-                                <p class="card-text">Horas limitadas*</p>
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/03-pricing_2023.png') !!}" alt="">
-                                <p class="card-text">*Servicio de Acompañamiento</p>
-                                <button class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">¡Conocer más!</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-4 col-lg-4 col-md-12">
-                        <div class="card-box"
-                            style="background-image: url('{!! App::setFilePath('/assets/images/backgrounds/background_card_1.svg') !!}')">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    ¡Te entrenamos en nuestra <br class="space">
-                                    metodología de éxito!
-                                    <br class="D_e">
-                                    <br class="D_e">
-
-                                </h5>
-                                <p class="card-text">Horas grupales ILIMITADAS</p>
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/04-pricing_2023.png') !!}" alt="">
-                                <p class="card-text">Servicio de Educación</p>
-                                <button class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">¡Conocer más!</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-
-        <section class="customSection sectionParent subPage_pricing_2023_5">
+        <section class="customSection sectionParent subPage_pricing_2023_5" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_secion_2_page_pricing.svg') !!}')">
 
             <div class="section-row ">
                 <div class="row sct1">
@@ -1341,7 +1272,7 @@ y conexión Meta Business ",
                     </div>
                 </div>
             </div>
-            
+
         </section>
 
 
@@ -1350,7 +1281,7 @@ y conexión Meta Business ",
                 <div class="mt-5 row sct1">
                     <div class="text-center col-md-6 offset-md-3">
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/05-pricing_2023.png') !!}" alt="">
-                        <h2 class="mt-3 title">¿Listo para subir a bordo?</h2>
+                        <h2 class="mt-3 title">¿Listo para <span>subir a bordo?</span></h2>
                         <button class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">¡Conversemos!</button>
                     </div>
                 </div>
@@ -1457,14 +1388,11 @@ y conexión Meta Business ",
                                         <div class="containElements">
 
                                             <p class="text">
-                                                Cuenta con un especialista que te apoya a <br
-                                                    class="DT_e">
-                                                definir un plan estratégico de marketing y/o <br
-                                                    class="DT_e">
-                                                ventas con Escala para luego guiarte a <br
-                                                    class="DT_e">
-                                                implementarlo paso a paso. <a class="hiperButtonGreenBlue"
-                                                    href="https://escala.com/servicio">Aprender más</a>
+                                                Para las cuentas mayores a USD 1.000, un Gerente de <br class="DT_e">
+                                                Éxito te apoya a definir un plan estratégico de <br class="DT_e">
+                                                marketing y/o ventas con Escala para luego guiarte <br class="DT_e">
+                                                a implementarlo paso a paso.
+
                                             </p>
 
                                         </div>
