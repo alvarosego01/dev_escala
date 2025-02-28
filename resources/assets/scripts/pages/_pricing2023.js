@@ -380,7 +380,7 @@ function calculateFinal(data) {
     let _contacts = converContacts(data._contactsField);
     let _users = convertUsers(data);
     let _iaField = (data._iaField === 'Si') ? 40 : 0;
-    let _omnicanalField = (data._omnicanalField === 'Si') ? 25 : 0;
+    let _omnicanalField = (data._omnicanalField === 'Si') ? 40 : 0;
     let _whatsappField = (data._omnicanalField === 'Si') ? ((data._whatsappField - 1) * 25) : 0;
     let _facebookField = (data._omnicanalField === 'Si') ? ((data._facebookField - 1) * 25) : 0;
 
