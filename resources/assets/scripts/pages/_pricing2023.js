@@ -469,13 +469,13 @@ function sticky_headerTable() {
 function adjustCalculatorHeight() {
     if (jQuery(window).width() <= 768) {
         if (jQuery('#omnicanalField').val() === 'Si') {
-            jQuery('.calculator').css('height', '390px');
+            jQuery('.calculator').css('height', '415px');
         } else {
             jQuery('.calculator').css('height', '280px');
         }
     } else {
         if (jQuery('#omnicanalField').val() === 'Si') {
-            jQuery('.calculator').css('height', '430px');
+            jQuery('.calculator').css('height', '445px');
         } else {
             jQuery('.calculator').css('height', '330px');
         }
@@ -560,9 +560,11 @@ jQuery(window).on('scroll', sticky_headerTable);
     jQuery('#omnicanalField').on('change', function () {
         if (jQuery(this).val() === 'Si') {
             jQuery('.omnicanal-options').show();
+            jQuery('.omniInfo2').show();
         } else {
             jQuery('.omnicanal-options').hide();
             jQuery('.omnicanal-options input').val(1);
+            jQuery('.omniInfo2').hide();
         }
         jQuery('form#formCalcGeneral_PRO').trigger('change');
         adjustCalculatorHeight();

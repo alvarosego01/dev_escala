@@ -21,7 +21,7 @@ img
                 padding: 130px 25px
                 padding-bottom: 0
             @include responsivo(pcMedio)
-                width: 80%
+                width: 92%
                 padding: 90px 25px
                 
                 padding-bottom: 0
@@ -58,7 +58,7 @@ img
                     font-family: Nunito
                     font-style: normal
                     font-weight: 400
-                    font-size: 22px
+                    font-size: 30px
                     line-height: 1
                     text-align: center
                     letter-spacing: -0.02em
@@ -71,7 +71,7 @@ img
                     @include responsivo(pcMedio)
                         font-size: 15px
                     @include responsivo(general)
-                        font-size: 20px
+                        font-size: 27.5px
 
         .innerSectionElement.sct2
             @include responsivo(telefonoTable)
@@ -79,7 +79,7 @@ img
                 padding: 25px 25px
                 padding-bottom: 0
             @include responsivo(pcMedio)
-                width: 80%
+                width: 92%
                 padding: 0px 25px
                 
 
@@ -680,12 +680,17 @@ img
                                                 margin: 0 auto
                                                 margin-top: auto
                                                 border-bottom: 1px solid #83E3D0
-                                    .omniInfo
+                                    .omniInfo,.omniInfo2
                                         font-size: 12px
                                         text-align: center!important
                                         color: #797979
                                         font-weight: 400
                                         line-height: 1
+                                    .omniInfo
+                                        margin-bottom: 20px
+                                    .omniInfo2
+                                        display: none
+                                        margin-bottom: 10px
 
                     .buttonSection
                         display: flex
@@ -699,12 +704,14 @@ img
                             border: 1px solid #007F96!important
                             color: #fff!important
                             font-size: 22px!important
+                            text-align: center!important
                         
                         .primaryButton,.secondaryButton,.primaryWhiteButton 
                             font-size: 22px!important
                             font-weight: 700
                             text-transform: uppercase
-                            padding: 20px 25px!important
+                            padding: 20px 20px!important
+                            text-align: center!important
 
                     .openComparation
                         display: flex
@@ -891,7 +898,8 @@ img
                                     width: 100%
                                     text-align: left
                                     position: relative
-                                    border-bottom: 1px solid #fff
+                                    border-bottom: 1px solid #fff!important
+                                    border-width: 0px
                                     @include responsivo(telefonoTable)
                                         padding: 12.5px 10px
                                     @include responsivo(pcMedio)
@@ -911,7 +919,7 @@ img
 
                                 &:last-child
                                     button
-                                        border-bottom: none
+                                        border-bottom: none!important
 
                                 .subItemList
                                     .accordion-body
@@ -989,7 +997,7 @@ img
             text-align: center
             font-feature-settings: 'clig' off, 'liga' off
             font-family: Nunito
-            font-size: 45px
+            font-size: 48px
             font-style: normal
             font-weight: 700
             line-height: 1
@@ -1010,6 +1018,7 @@ img
             font-size: 22px!important
             padding: 20px 25px!important
             font-weight: 700
+            text-align: center!important
         img
             margin-bottom: 60px
             @include responsivo(telefonoTable)
@@ -1037,7 +1046,7 @@ img
 
 
     @include responsivo(telefonoTable)
-        padding: 80px 0px 
+        padding: 45px 0px 
     .section-row
         margin: 0 auto
         @include responsivo(telefonoTable)
@@ -1067,21 +1076,23 @@ img
             color: #fff
             text-align: center
             font-family: Nunito
-            font-size: 37.5px
+            font-size: 48px
             font-style: normal
             font-weight: 700
             letter-spacing: -2px
             line-height: 1
             margin-bottom: 40px
             @include responsivo(telefonoTable)
-                font-size: 40px
+                font-size: 30px
                 
             @include responsivo(pcMedio)
                 font-size: 30px
             @include responsivo(general)
-                font-size: 37.5px
+                font-size: 42.5px
+            @include responsivo(smallPcTablet)
+                font-size: 40px
             @include responsivo(resto)
-                font-size: 45px
+                font-size: 48px
     .row.sct2
         margin: auto
         flex-wrap: nowrap

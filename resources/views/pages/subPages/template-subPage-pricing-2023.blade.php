@@ -576,7 +576,7 @@ y conexión Meta Business ",
                                         <div class="buttonSection">
 
                                             <a class=" secondaryButton roundedButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                                Solicitar Demo
+                                                Hablar con asesor
                                             </a>
 
                                         </div>
@@ -742,7 +742,11 @@ y conexión Meta Business ",
                                                                 Incluye <span><strong> Incluye Inbox Omnicanal*</strong></span>
                                                             </label>
                                                         </div>
-
+                                                        <div class="omniInfo">
+                                                            <span>
+                                                                <strong>*El Inbox Omnicanal incluye</strong> una línea de WhatsApp y una cuenta de Facebook e Instagram
+                                                            </span>
+                                                        </div>
                                                         <div class="field number omnicanal-options" style="display: none;">
                                                             <input name="_whatsappField" class="whatsappField" step="1" type="number" value="1" min="1">
                                                             <div class="quantity-nav">
@@ -772,9 +776,9 @@ y conexión Meta Business ",
                                                                 Número de cuentas adicionales de <span><strong> Facebook / Instagram* </strong></span>
                                                             </label>
                                                         </div>
-                                                        <div class="omniInfo">
+                                                        <div class="omniInfo2">
                                                             <span>
-                                                                <strong>*El Inbox Omnicanal incluye</strong> una línea de WhatsApp y una cuenta de Facebook e Instagram
+                                                            *Facebook e instagram  <strong>vienen en combo</strong>
                                                             </span>
                                                         </div>
                                                     </div>
@@ -786,7 +790,7 @@ y conexión Meta Business ",
                                         <div class="buttonSection">
 
                                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                                Solicitar Demo
+                                                Hablar con asesor
                                             </a>
 
                                         </div>
@@ -882,7 +886,7 @@ y conexión Meta Business ",
                                         <div class="buttonSection">
 
                                             <a class=" primaryWhiteButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                                Solicitar Demo
+                                                Hablar con asesor
                                             </a>
 
                                         </div>
@@ -1195,7 +1199,7 @@ y conexión Meta Business ",
         </section>
 
 
-        <section class="customSection sectionParent subPage_pricing_2023_5" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_secion_2_page_pricing.svg') !!}')">
+        <section class="customSection sectionParent subPage_pricing_2023_5" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_secion_page_pricing.svg') !!}')">
 
             <div class="section-row ">
                 <div class="row sct1">
