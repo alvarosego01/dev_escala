@@ -381,8 +381,8 @@ function calculateFinal(data) {
     let _users = convertUsers(data);
     let _iaField = (data._iaField === 'Si') ? 40 : 0;
     let _omnicanalField = (data._omnicanalField === 'Si') ? 40 : 0;
-    let _whatsappField = (data._omnicanalField === 'Si') ? ((data._whatsappField - 1) * 25) : 0;
-    let _facebookField = (data._omnicanalField === 'Si') ? ((data._facebookField - 1) * 25) : 0;
+    let _whatsappField = (data._omnicanalField === 'Si') ? (data._whatsappField * 25) : 0;
+    let _facebookField = (data._omnicanalField === 'Si') ? (data._facebookField * 25) : 0;
 
     let extra = 0;
     extra = extra + _iaField + _omnicanalField + _whatsappField + _facebookField;
@@ -560,10 +560,11 @@ jQuery(window).on('scroll', sticky_headerTable);
     jQuery('#omnicanalField').on('change', function () {
         if (jQuery(this).val() === 'Si') {
             jQuery('.omnicanal-options').show();
+            jQuery('.omnicanal-options input').val(0);
             jQuery('.omniInfo2').show();
         } else {
             jQuery('.omnicanal-options').hide();
-            jQuery('.omnicanal-options input').val(1);
+            jQuery('.omnicanal-options input').val(0);
             jQuery('.omniInfo2').hide();
         }
         jQuery('form#formCalcGeneral_PRO').trigger('change');

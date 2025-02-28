@@ -748,7 +748,7 @@ y conexión Meta Business ",
                                                             </span>
                                                         </div>
                                                         <div class="field number omnicanal-options" style="display: none;">
-                                                            <input name="_whatsappField" class="whatsappField" step="1" type="number" value="1" min="1">
+                                                            <input name="_whatsappField" class="whatsappField" step="1" type="number" value="0" min="0">
                                                             <div class="quantity-nav">
                                                                 <div class="quantity-button quantity-up">
                                                                     <i class="fas fa-caret-up"></i>
@@ -763,7 +763,7 @@ y conexión Meta Business ",
                                                         </div>
 
                                                         <div class="field number omnicanal-options" style="display: none;">
-                                                            <input name="_facebookField" class="facebookField" step="1" type="number" value="1" min="1">
+                                                            <input name="_facebookField" class="facebookField" step="1" type="number" value="0" min="0">
                                                             <div class="quantity-nav">
                                                                 <div class="quantity-button quantity-up">
                                                                     <i class="fas fa-caret-up"></i>
