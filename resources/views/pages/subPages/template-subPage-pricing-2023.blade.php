@@ -1205,7 +1205,7 @@ y conexión Meta Business ",
                 <div class="row sct1">
                     <div class="text-center col-12">
                         <h2 class="title">
-                            El software de marketing y ventas <br class="space">
+                            El software de marketing y ventas <br class="Dt_e">
                             preferido por PYMES en crecimiento
                         </h2>
                     </div>
