@@ -5,7 +5,7 @@
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol casoExito_Cambridge_0 newHome ">
 
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_1_Cambridge.svg') }}')" class="backgroundFull">
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_yellow_nubes.svg') }}')" class="backgroundFull">
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
 
@@ -22,7 +22,7 @@
                                     <div class="ele ele1 col-md-12 col-lg-6">
 
                                         <div class="containerImage">
-                                            <img src="{!! App::setFilePath('/assets/images/person/img_chico_feliz_Cambridge_escala_caso_de_exito.png') !!}" alt="Ilustración Cambridge" loading="lazy">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/chica_sondiendo_educacion.png') !!}" alt="Ilustración Cambridge" loading="lazy">
                                         </div>
 
                                     </div>
@@ -30,22 +30,21 @@
                                     <div class="ele ele2 col-md-12 col-lg-6">
                                         <h1 class="principalBigTitle blackColor">
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/logo_colegio_cambridge_caso_de_exito.png') !!}" alt="" class="logo-img" loading="lazy">
-                                            <small><span>Caso de éxito:</span> Automotriz</small>
+                                            <small><span>Caso de éxito:</span> Educación</small>
 
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
                                             <span class="blueColor">
-                                                Este gran distribuidor <br class="DT_e">
-                                                de motocicletas,
+                                                Colegio de amplia trayectoria,
                                             </span>
                                             <span class="span2">
-                                                incrementó sus ventas <br class="DT_e">
-                                                en un 30%,
+                                                aumentó un 30% la <br class="DT_e">
+                                                calidad de sus prospectos <br class="DT_e">
+                                                en menos de un año
                                             </span>
                                             <span class="blueColor">
-                                                en menos de un año <br class="DT_e">
-                                                gracias al CRM de Escala
+                                                con el CRM de Escala
                                             </span>
                                         </p>
 
@@ -96,7 +95,7 @@
                             <div class=" ele3 col-md-12 col-lg-6">
 
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/person/img_chico_feliz_Cambridge_escala_caso_de_exito.png') !!}" alt="Ilustración Cambridge" loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/chica_sondiendo_educacion.png') !!}" alt="Ilustración Cambridge" loading="lazy">
 
                                 </div>
 
@@ -127,33 +126,34 @@
                         <div class="element">
                             <div class="numbers">
                                 <span>
-                                    Recuperaron el 35%
+                                    Potenciaron
                                 </span>
                             </div>
                             <p class="text">
-                                de prospectos perdidos
+                                el rendimiento de las <br class="DT_e">
+                                campañas publicitarias
                             </p>
                         </div>
                         <div class="element">
                             <div class="numbers">
                                 <span>
-                                    Incrementaron
+                                    Optimizaron
                                 </span>
                             </div>
                             <p class="text">
-                                la rapidez y efectividad en las <br class="DT_e">
-                                respuestas a prospectos
+                                la clasificación y
+                                seguimiento de prospectos
                             </p>
                         </div>
                         <div class="element">
                             <div class="numbers">
                                 <span>
-                                    Aumentaron
+                                    Agilizaron
                                 </span>
                             </div>
                             <p class="text">
-                                la participación del canal
-                                digital en sus ventas
+                                la toma de decisiones
+                                estratégicas basadas en datos
                             </p>
                         </div>
                     </div>
@@ -171,8 +171,8 @@
                     <div class="containElements">
 
                         <h2 class="primaryTitle whiteColor">
-                            ¿Qué dice la líder comercial <br class="DT_e">
-                            sobre Escala?
+                            ¿Qué dice la Directora de <br class="DT_e">
+                            Admisiones sobre Escala?
                         </h2>
 
                     </div>
@@ -188,8 +188,8 @@
                         <div class="video col-md-12">
 
                             @php
-                            $videoEmbed = App::setFilePath('/assets/videos/Cambridge_testimonial_video.mp4');
-                            $videoCover = App::setFilePath('/assets/images/illustrations/others/ruby_mino_img_overlay_video.png');
+                            $videoEmbed = App::setFilePath('/assets/videos/');
+                            $videoCover = App::setFilePath('/assets/images/illustrations/others/');
                             @endphp
 
                             @if (isset($videoEmbed) && $videoEmbed != null)
@@ -244,11 +244,13 @@
                             </h3>
 
                             <p class="text">
-                                Cambridge es el mayor distribuidor autorizado de <br class="DT_e">
-                                motocicletas Hero en Colombia con 33 puntos de <br class="DT_e">
-                                venta. Ofrecen también productos, repuestos y <br class="DT_e">
-                                servicio técnico, para que los usuarios disfruten al <br class="DT_e">
-                                máximo de su motocicleta Hero.
+                                El Colegio Cambridge brinda una educación <br class="DT_e">
+                                integral de excelencia, enfocada en el desarrollo <br class="DT_e">
+                                académico, la investigación y la formación en <br class="DT_e">
+                                valores. Su equipo docente altamente calificado <br class="DT_e">
+                                , fomenta un aprendizaje personalizado en grupos <br class="DT_e">
+                                pequeños, preparando a los estudiantes para <br class="DT_e">
+                                afrontar los desafíos del futuro.
                             </p>
 
                         </div>
@@ -258,7 +260,7 @@
                                 <ul class="itemsList">
                                     <li>
                                         <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/industria_salud_icon_orange.png') !!}" alt=""></div>
-                                        <strong>Industria:</strong> Automotriz
+                                        <strong>Industria:</strong> Educación
 
                                     </li>
 
@@ -268,12 +270,12 @@
                                     </li>
                                     <li>
                                         <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/locacion_icon_orange.png') !!}" alt=""></div>
-                                        <strong>Locación:</strong> A nivel nacional, Colombia
+                                        <strong>Locación:</strong> Bogotá, La Calera y Cajicá, Col.
 
                                     </li>
                                     <li>
                                         <div class="iconList"><img src="{!! App::setFilePath('/assets/images/icons/website_icon_orange.png') !!}" alt=""></div>
-                                        <strong>Website:</strong> <a target="_blank" href="https://heroCambridge.com/">https://heroCambridge.com/</a>
+                                        <strong>Website:</strong> <a target="_blank" href="https://colegiocambridge.edu.co">https://colegiocambridge.edu.co</a>
 
                                     </li>
                                 </ul>
@@ -308,31 +310,44 @@
                                 <ul class="itemsList">
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/crm_icon_escala.png') !!}" alt="">
-                                        <span><span class="title">CRM</span> para hacer el seguimiento de los contactos que llegan y gestionar eficientemente cada interacción.</span>
+                                        <span><span class="title">CRM</span> para centralizar y gestionar todas las sedes desde una única cuenta, con acceso a la información completa de los prospectos.</span>
                                     </li>
+
+                                    <li>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_planificador_embudos.png') !!}" alt="">
+                                        <span> <span class="title">Planificador de Embudos</span> que permite hacer seguimiento al proceso de conversión de prospectos, desde la captura inicial hasta el cierre de ventas.</span>
+                                    </li>
+
+                                    <li>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Reportes Personalizados</span> para analizar el desempeño de campañas y ventas para tomar decisiones estratégicas basadas en datos.</span>
+                                    </li>
+
+                                    <li>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/landing_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Landing pages </span> para captar contactos segmentados por sede de interés.</span>
+                                    </li>
+
+                                    <li>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/email_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Email Marketing </span> para crear plantillas, programar campañas personalizadas y analizar resultados.</span>
+                                    </li>
+
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/ads_icon_escala.png') !!}" alt="">
-                                        <span><span class="title">Anuncios digitales</span> integrados a Escala para generar nuevos prospectos y medir el rendimiento de las campañas publicitarias.</span>
+                                        <span><span class="title">Anuncios digitales</span> integrados a Escala, para gestionar campañas publicitarias integradas con Escala y mide su efectividad.</span>
+                                    </li>
+
+                                    <li>
+                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/app_icon_escala.png') !!}" alt="">
+                                        <span> <span class="title">Escala App</span> ideal para vendedores en movimiento, facilita la gestión de oportunidades desde eventos o ferias de educación.</span>
                                     </li>
 
                                     <li>
                                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Whatsapp Inbox</span> para centralizar la comunicación entre asesores y prospectos o clientes a nivel nacional, garantizando un servicio más fluido y organizado.</span>
+                                        <span> <span class="title">Whatsapp Inbox</span> para automatizar, organizar y optimizar el contacto y seguimiento de clientes directamente desde el CRM.</span>
                                     </li>
 
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/flujos_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Flujos Automatizados</span> para dirigir a los clientes hacia procesos específicos como pagos al contado o con crédito, optimizando la precalificación y mejorando
-                                            la experiencia del cliente.</span>
-                                    </li>
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/reportes_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Reportes Personalizados</span> para medir las etapas del embudo de ventas e identificar cuántos contactos avanzan en cada una, facilitando decisiones más informadas.</span>
-                                    </li>
-                                    <li>
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/app_icon_escala.png') !!}" alt="">
-                                        <span> <span class="title">Escala App</span> para gestionar las ventas y seguimiento desde cualquier lugar.</span>
-                                    </li>
 
                                 </ul>
                             </div>
@@ -343,8 +358,8 @@
                                 El desafío antes de Escala:
                             </h2>
                             <span class="subTitle">
-                                Cambridge no lograba <br class="DT_e">
-                                optimizar su proceso de ventas debido a:
+                                El Colegio Cambridge enfrentaba 3 desafíos clave <br class="DT_e">
+                                que afectaban su eficiencia y crecimiento:
                             </span>
 
                             <div class="containElements left">
@@ -357,33 +372,32 @@
                                     <ul>
                                         <li>
                                             <span>
-                                                Problemas de integración y métricas inexactas: <br class="DT_e">
+                                                Falta de seguimiento y claridad en la gestión de ventas,
                                             </span>
-                                            La información de los leads generados en Meta <br class="DT_e">
-                                            no llegaba correctamente a su anterior CRM, lo que <br class="DT_e">
-                                            dificultaba el seguimiento adecuado <br class="DT_e">
-                                            de los prospectos.
+                                            la visibilidad en tiempo real y la capacidad <br class="DT_e">
+                                            para generar reportes precisos eran limitadas, <br class="DT_e">
+                                            dificultando el seguimiento efectivo de <br class="DT_e">
+                                            la fuerza de ventas y sus actividades.
                                         </li>
 
                                         <li>
                                             <span>
-                                                Falta de soporte y comunicación con el <br class="DT_e">
-                                                software anterior:
+                                                Necesidad de un embudo de ventas visible y eficiente,
                                             </span>
-                                            La atención al cliente del <br class="DT_e">
-                                            proveedor anterior era deficiente, lo que <br class="DT_e">
-                                            ocasionó la pérdida de procesos avanzados, <br class="DT_e">
-                                            generando frustración y desperdicio de tiempo.
+                                            la ausencia de una herramienta precisa <br class="DT_e">
+                                            para visualizar las etapas del proceso de ventas y <br class="DT_e">
+                                            su rendimiento, impedía la optimización del mismo.
                                         </li>
 
                                         <li>
-                                            <span>Gestión manual y desorganizada:
+                                            <span>
+                                                Integración y automatización de campañas de marketing digital,
                                             </span>
-                                            El proceso <br class="DT_e">
-                                            de seguimiento de los leads se realizaba <br class="DT_e">
-                                            manualmente, lo que no solo generaba errores, <br class="DT_e">
-                                            sino que también hacía muy difícil controlar la <br class="DT_e">
-                                            información y tomar decisiones a tiempo.
+                                            era crucial contar con una <br class="DT_e">
+                                            herramienta integrada que permitiera no solo <br class="DT_e">
+                                            medir la efectividad de las campañas en tiempo <br class="DT_e">
+                                            real, sino también automatizar procesos para <br class="DT_e">
+                                            mejorar la eficiencia.
                                         </li>
                                     </ul>
                                 </div>
@@ -409,7 +423,7 @@
                         <div class="containElements left">
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-(2).gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/email-mkt.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -417,23 +431,24 @@
                                 <div class="containElements">
                                     <span>1</span>
                                     <h3 class="subTittle">
-                                        Automatización de procesos:
+                                        CRM:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        Escala automatizó el proceso desde el primer contacto hasta la
-                                        asignación de leads según su perfil financiero, optimizando el
-                                        embudo de ventas. Esto permitió segmentar prospectos, evitar
-                                        el uso de recursos en leads no viables y crear etapas
-                                        personalizadas adaptadas al negocio de venta de motocicletas.</p>
+                                        El Colegio Cambridge gestiona todas sus sedes bajo una misma cuenta
+                                        sombrilla, permitiendo manejar la información de manera centralizada,
+                                        algo que otros CRM´s no le brindaban y debía tener cuentas separadas.
+                                        Con esta solución, lograron realizar un seguimiento efectivo de la
+                                        fuerza de ventas y la gestión de tareas y contactos por sede, de forma
+                                        integrada y eficiente.</p>
                                     <h3 class="subTitle">
                                         Impacto:
                                     </h3>
                                     <ul>
-                                        <li>Simplificación del proceso de compra al filtrar leads según su capacidad financiera.</li>
-                                        <li>Mejora en la calidad de prospectos gracias a flujos de precalificación optimizados.</li>
-                                        <li>Incremento en la recuperación de prospectos mediante automatizaciones personalizadas.</li>
+                                        <li>Mejoraron la atención y satisfacción de prospectos y clientes mediante la centralización de datos.</li>
+                                        <li>Aumentaron la eficiencia de los procesos comerciales al reducir tiempos y esfuerzos administrativos.</li>
+                                        <li>Redujeron la fuga de información valiosa al consolidar datos en una única plataforma. </li>
                                     </ul>
                                 </div>
                             </div>
@@ -445,7 +460,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/2. WhatsApp.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/landing-page.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -453,29 +468,24 @@
                                 <div class="containElements">
                                     <span>2</span>
                                     <h3 class="subTittle">
-                                        WhatsApp integrado al CRM:
+                                        Landing pages + Email Marketing:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-
-                                        A través de esta integración, los leads obtenidos de las
-                                        campañas publicitarias en Meta se registran
-                                        automáticamente en el software. Esto facilita la asignación
-                                        de los leads a asesores a nivel nacional y ellos a su vez,
-                                        acceden a toda la información desde el primer contacto
-                                        hasta el cierre de la venta. Además, se configuraron flujos
-                                        automáticos para gestionar la información y cumplir con la
-                                        política de tratamiento de datos desde Whatsapp.
+                                        El Colegio Cambridge desarrolló landing pages específicas para cada campaña,
+                                        además de insertar formularios de Escala en su propia web, permitiéndoles
+                                        recibir todos los datos directamente en el CRM. Esto les permitió enviar
+                                        campañas de promoción y nutrición a prospectos y clientes mediante plantillas
+                                        personalizadas y segmentaciones mucho más precisas.
                                     </p>
                                     <h3 class="subTitle">
                                         Impacto:
                                     </h3>
                                     <ul>
-                                        <li>Mejora significativa en la comunicación, asegurando que no se pierda la información y que ningún prospecto quede sin atención.</li>
-                                        <li>Optimización del tiempo de respuesta a cada interesado.
-                                        </li>
-                                        <li>Incremento en la eficiencia del seguimiento de prospectos y toma de decisiones informadas.</li>
+                                        <li>Incremento en la tasa de conversión de visitantes a prospectos.</li>
+                                        <li>Mejora en la eficiencia y efectividad de las campañas de marketing al segmentar y personalizar los mensajes.</li>
+                                        <li>Reducción del tiempo necesario para lanzar y analizar campañas de correo.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -486,7 +496,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/5.reports_Vista-simplificada-(1).gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/caso_de_exito_crm.gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -494,24 +504,23 @@
                                 <div class="containElements">
                                     <span>3</span>
                                     <h3 class="subTittle">
-                                        Reportes Personalizados:
+                                        WhatsApp integrado al CRM:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        Cambridge configuró reportes a medida para monitorear
-                                        indicadores clave como tasas de conversión por etapa del
-                                        embudo, tiempos de respuesta del equipo comercial,
-                                        análisis de leads según su origen y seguimiento al
-                                        desempeño de cada vendedor.
+                                        Con esta integración lograron que todos los contactos que interactúan
+                                        por este canal, queden registrados automáticamente en el CRM. Además,
+                                        el uso de las automatizaciones de conversaciones han logrado una
+                                        respuesta rápida, personalizada y acorde al interés de cada persona.
                                     </p>
                                     <h3 class="subTitle">
                                         Impacto:
                                     </h3>
                                     <ul>
-                                        <li>Lograron una mayor conversión al optimizar recursos en las etapas clave del embudo.</li>
-                                        <li>Tomaron mejores decisiones rápidamente, ajustando estrategias basadas en datos en tiempo real.</li>
-                                        <li>Mejoraron la atención al cliente con respuestas más claras y precisas.</li>
+                                        <li>Mejoraron la experiencia del cliente al permitir una comunicación más directa y accesible.</li>
+                                        <li>Incrementaron la capacidad de respuesta fuera del horario laboral, asegurando atención continua.</li>
+                                        <li>Potenciaron la fidelización de clientes mediante interacciones más personalizadas y efectivas.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -521,7 +530,7 @@
 
                             <div class="image">
                                 <div class="containerImage">
-                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-whatsapp.gif') !!}" alt="">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/5.reports_Vista-simplificada-(1).gif') !!}" alt="">
                                 </div>
                             </div>
 
@@ -529,32 +538,61 @@
                                 <div class="containElements">
                                     <span>4</span>
                                     <h3 class="subTittle">
-                                        Escala App:
+                                        Reportes Personalizados:
                                     </h3>
                                 </div>
                                 <div class="containElements_2">
                                     <p class="text">
-                                        Los asesores comerciales y líderes de Cambridge utilizan el <br class="DT_e">
-                                        CRM de Escala integrado con WhatsApp Inbox <br class="DT_e">
-                                        directamente desde sus celulares. Esto les permite dar <br class="DT_e">
-                                        seguimiento a sus clientes, gestionar las oportunidades <br class="DT_e">
-                                        de venta y monitorear su rendimiento desde cualquier <br class="DT_e">
-                                        lugar, sin necesidad de estar en una computadora.
+                                        Es una herramienta de mucho provecho para el
+                                        colegio, ya que les permite analizar resultados sobre
+                                        ventas, campañas publicitarias y desempeño del
+                                        equipo, entre otras. Estos reportes son cruciales para
+                                        presentar informes periódicos y tomar decisiones informadas sobre aspectos fundamentales.
                                     </p>
                                     <h3 class="subTitle">
                                         Impacto:
                                     </h3>
                                     <ul>
-                                        <li>Mayor productividad del equipo comercial.</li>
-                                        <li>Respuesta más ágil a los prospectos interesados <br class="DT_e"> en motocicletas.</li>
-                                        <li>Mejora significativa en la experiencia de compra del cliente.</li>
-
+                                        <li>Mejoraron la colaboración entre los equipos al basarse en datos concretos.</li>
+                                        <li>Fortalecieron la confianza de los directivos al poder revisar datos concretos.</li>
+                                        <li>Mejoraron la planificación de campañas mediante el análisis de datos históricos.</li>
                                     </ul>
                                 </div>
                             </div>
 
                         </div>
+                        <div class="containElements left special">
 
+                            <div class="image">
+                                <div class="containerImage">
+                                    <img src="{!! App::setFilePath('/assets/images/gifs/automatizaciones-whatsapp.gif') !!}" alt="">
+                                </div>
+                            </div>
+
+                            <div class="info">
+                                <div class="containElements">
+                                    <span>5</span>
+                                    <h3 class="subTittle">
+                                        Escala App:
+                                    </h3>
+                                </div>
+                                <div class="containElements_2">
+                                    <p class="text">
+                                        Es muy útil en ferias y eventos en los que participan los asesores,
+                                        ya que pueden usar el CRM y otras herramientas desde sus celulares.
+                                    </p>
+                                    <h3 class="subTitle">
+                                        Impacto:
+                                    </h3>
+                                    <ul>
+                                        <li>Eliminaron tareas manuales de los asesores cuando están eventos del sector. </li>
+                                        <li>Mejoraron la capacidad de respuesta del área comercial estando fuera de la oficina.</li>
+                                        <li>Mayor presencia en eventos y ferias, que es una fuente importante de de nuevos prospectos.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
                     </section>
 
                 </div>
@@ -577,26 +615,24 @@
                         <div class="row">
                             <div class="col-md-12 col-lg-5 column-img">
                                 <div class="img-container">
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/ruby_mino_lider_comercial_Cambridge.png') !!}" loading="lazy">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/diana_guzman_directora_de_Adminsiones_colegio_Cambridge.png') !!}" loading="lazy">
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-7 column-text">
                                 <p>
-                                    "Con Escala, hemos avanzado de una manera muy <br class="DT_e">
-                                    positiva. Uno de sus grandes diferenciadores es el <br class="DT_e">
-                                    servicio al cliente y el acompañamiento constante. <br class="DT_e">
-                                    Los reportes personalizados han sido una bendición, <br class="DT_e">
-                                    nos ayudan a generar informes rápidamente y a <br class="DT_e">
-                                    analizar los datos para tomar mejores decisiones. <br class="DT_e">
-                                    Escala ha sido la mejor opción para manejar nuestra <br class="DT_e">
-                                    parte digital y de marketing, y nos sentimos <br class="DT_e">
-                                    respaldados en todo momento".
+                                    "Implementar Escala ha sido una experiencia positiva y <br class="DT_e">
+                                    enriquecedora. Nos ha permitido integrar ventas, marketing e <br class="DT_e">
+                                    informes en una herramienta completa, con un acompañamiento <br class="DT_e">
+                                    constante que facilita el aprendizaje continuo. Escala no solo <br class="DT_e">
+                                    mejora la personalización de la atención al cliente, sino que <br class="DT_e">
+                                    también optimiza nuestros procesos y nos brinda la tranquilidad <br class="DT_e">
+                                    de contar con una plataforma confiable".
                                     <br class="space">
                                     <br class="space">
                                     <span class="blue">
-                                        Ruby Mino
+                                        Diana Guzmán
                                         <br class="space">
-                                        <span> Líder Comercial Cambridge </span>
+                                        <span> Directora de Admisiones Colegio Cambridge</span>
                                     </span>
 
                                 </p>
@@ -609,7 +645,7 @@
 
         </section>
 
-        <section class="customSection sectionParent casoExito_Cambridge_7 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_10_Cambridge.svg') }}')">
+        <section class="customSection sectionParent casoExito_Cambridge_7 backgroundFull" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_yellow_nubes.svg') }}')">
 
             <div class="section-row">
 
