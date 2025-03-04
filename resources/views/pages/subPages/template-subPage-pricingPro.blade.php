@@ -2,7 +2,7 @@
 
 $featuresElements = [
 "access" => array(
-"name" => 'Acceso a <span class="blueLightColor12">Herramientas</span>',
+"name" => 'Acceso a <span>Herramientas</span>',
 "items" => array(
 [
 "name" => 'CRM',
@@ -319,7 +319,7 @@ $featuresElements = [
 
 ),
 "services" => array(
-"name" => 'Servicio de <span class="blueLightColor12">Acompañamiento Personalizado</span>',
+"name" => 'Servicio de <span>Acompañamiento Personalizado</span>',
 "items" => array(
 [
 "name" => 'Gerente Éxito asignado',
