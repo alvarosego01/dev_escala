@@ -739,7 +739,7 @@ y conexión Meta Business ",
                                                                 </div>
                                                             </div>
                                                             <label for="_omnicanalField">
-                                                                Incluye <span><strong> Incluye Inbox Omnicanal*</strong></span>
+                                                                Incluye <span><strong> Inbox Omnicanal*</strong></span>
                                                             </label>
                                                         </div>
                                                         <div class="omniInfo">
