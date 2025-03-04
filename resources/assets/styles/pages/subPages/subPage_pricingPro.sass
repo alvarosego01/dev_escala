@@ -10,6 +10,11 @@
 #subPage_pricingPro .customSection.sectionParent.subPage_pricingPro_0
     padding-top: 170px
     padding-bottom: 40px
+    @include responsivo(telefonoTable)
+        padding-top: 60px
+        padding-bottom: 20px
+    @include responsivo(pcMedio)
+        padding-top: 50px
     .section-row
 
         @include responsivo(telefonoTable)
@@ -559,10 +564,12 @@
             width: 95%
             padding: 25px 25px
             padding-bottom: 0
+            padding-bottom: 35px
         @include responsivo(pcMedio)
             width: 90%
             padding: 50px 25px
-            padding-bottom: 0
+            padding-top: 25px
+            padding-bottom: 25px
 
         @include responsivo(general)
             width: 100%!important
@@ -1017,7 +1024,7 @@
 
     .modal-dialog
         .modal-content
-            background: linear-gradient(180deg, #DEF3F5 0%, #D3F3F5 100%)
+            box-shadow: 0px 4px 30px 0px rgba(0, 127, 150, 0.20)
             border-radius: 14px
             width: fit-content
             margin: auto

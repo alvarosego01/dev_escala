@@ -634,7 +634,7 @@ $featuresElements = [
                                             </div>
                                             <div class="omniInfo2">
                                                 <span>
-                                                *Facebook e instagram  <strong>vienen en combo</strong>
+                                                    *Facebook e instagram <strong>vienen en combo</strong>
                                                 </span>
                                             </div>
 
@@ -1021,10 +1021,18 @@ $featuresElements = [
                                         <div class="containElements">
 
                                             <p class="text">
-                                                Cuenta con un especialista que te apoya a <br class="DT_e">
-                                                definir un plan estratégico de marketing y/o <br class="DT_e">
-                                                ventas con Escala para luego guiarte a <br class="DT_e">
-                                                implementarlo paso a paso. <a class="hiperButtonGreenBlue" href="https://escala.com/servicio">Aprender más</a>
+                                                El servicio de Acompañamiento e Implementación <br class="DT_e">
+                                                Guiado de Escala, con un Gerente de Éxito <br class="DT_e">
+                                                dedicado, está disponible exclusivamente para <br class="DT_e">
+                                                cuentas Pro con planes anuales superiores a USD <br class="DT_e">
+                                                1,000 al año.
+                                                <br class="space">
+                                                <br class="space">
+                                                Las cuentas con un valor anual menor cuentan con <br class="DT_e">
+                                                soporte técnico ilimitado vía chat para resolver <br class="DT_e">
+                                                consultas y acceso completo a los materiales de <br class="DT_e">
+                                                Escala Academy, donde podrán aprender a <br class="DT_e">
+                                                configurar y utilizar todas las herramientas.
                                             </p>
 
                                         </div>
