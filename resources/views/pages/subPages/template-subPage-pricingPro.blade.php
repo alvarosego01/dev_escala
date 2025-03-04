@@ -551,26 +551,9 @@ $featuresElements = [
                                                     con acceso a la plataforma
                                                 </label>
                                             </div>
-                                            <div class="field select">
-                                                <select name="_whatsappField">
-                                                    <option value="No" selected>No</option>
-                                                    <option value="Si">Si</option>
-                                                </select>
 
-                                                <div class="quantity-nav">
-                                                    <div class="quantity-button quantity-up">
-                                                        <i class="fas fa-caret-up"></i>
-                                                    </div>
-                                                    <div class="quantity-button quantity-down">
-                                                        <i class="fas fa-caret-down"></i>
-                                                    </div>
-                                                </div>
 
-                                                <label for="_whatsappField">
-                                                    Inbox y Automatizaciones <br class="space"> de <span style="color:
-                                                #00D35B"><strong>WhatsApp</strong></span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Whatsapp">?</button>
-                                                </label>
-                                            </div>
+
                                             <div class="field select">
                                                 <select name="_iaField">
                                                     <option value="No" selected>No</option>
@@ -587,9 +570,74 @@ $featuresElements = [
                                                 </div>
 
                                                 <label for="_iaField">
-                                                    Incluye <span style="color: #FF503C"><strong> Inteligencia Artificial</strong></span>
+                                                    Incluye <span style="color: #212A31"><strong> Inteligencia Artificial</strong></span>
                                                 </label>
                                             </div>
+
+
+
+                                            <div class="field select">
+                                                <select name="_omnicanalField" id="omnicanalField">
+                                                    <option value="No" selected>No</option>
+                                                    <option value="Si">Si</option>
+                                                </select>
+
+                                                <div class="quantity-nav">
+                                                    <div class="quantity-button quantity-up">
+                                                        <i class="fas fa-caret-up"></i>
+                                                    </div>
+                                                    <div class="quantity-button quantity-down">
+                                                        <i class="fas fa-caret-down"></i>
+                                                    </div>
+                                                </div>
+
+                                                <label for="_omnicanalField">
+                                                    Incluye <span><strong> Incluye Inbox Omnicanal*</strong></span>
+                                                </label>
+                                            </div>
+                                            <div class="omniInfo">
+                                                <span>
+                                                    <strong>*El Inbox Omnicanal incluye</strong> una línea de WhatsApp y una cuenta de Facebook e Instagram
+                                                </span>
+                                            </div>
+                                            <div class="field number omnicanal-options" style="display: none;">
+                                                <input name="_whatsappField" class="whatsappField" step="1" type="number" value="0" min="0">
+
+                                                <div class="quantity-nav">
+                                                    <div class="quantity-button quantity-up">
+                                                        <i class="fas fa-caret-up"></i>
+                                                    </div>
+                                                    <div class="quantity-button quantity-down">
+                                                        <i class="fas fa-caret-down"></i>
+                                                    </div>
+                                                </div>
+
+                                                <label for="_whatsappField">
+                                                    Número de líneas adicionales de <span><strong> WhatsApp</strong></span>
+                                                </label>
+                                            </div>
+                                            <div class="field number omnicanal-options" style="display: none;">
+                                                <input name="_facebookField" class="facebookField" step="1" type="number" value="0" min="0">
+
+                                                <div class="quantity-nav">
+                                                    <div class="quantity-button quantity-up">
+                                                        <i class="fas fa-caret-up"></i>
+                                                    </div>
+                                                    <div class="quantity-button quantity-down">
+                                                        <i class="fas fa-caret-down"></i>
+                                                    </div>
+                                                </div>
+
+                                                <label for="_facebookField">
+                                                    Número de cuentas adicionales de <span><strong> Facebook / Instagram* </strong></span>
+                                                </label>
+                                            </div>
+                                            <div class="omniInfo2">
+                                                <span>
+                                                *Facebook e instagram  <strong>vienen en combo</strong>
+                                                </span>
+                                            </div>
+
 
                                         </div>
                                     </div>

@@ -9,6 +9,7 @@
 
 #subPage_pricingPro .customSection.sectionParent.subPage_pricingPro_0
     padding-top: 170px
+    padding-bottom: 55px
     .section-row
 
         @include responsivo(telefonoTable)
@@ -122,6 +123,17 @@
                         width: 70%
                     @include responsivo(resto)
                         width: 65%
+                    .omniInfo,.omniInfo2
+                        font-size: 12px
+                        text-align: center!important
+                        color: #797979
+                        font-weight: 400
+                        line-height: 1
+                    .omniInfo
+                        margin-bottom: 20px
+                    .omniInfo2
+                        display: none
+                        margin-bottom: 10px
                     form
                         .row
                             // @include responsivo(telefonoTable)
@@ -150,7 +162,7 @@
                                         line-height: 1
                                         text-align: center
                                         letter-spacing: -1px
-                                        color: #322C2E
+                                        color: #212A31
                                         margin-bottom: 20px
                                         @include responsivo(telefonoTable)
                                             font-size: 16px
@@ -167,7 +179,7 @@
                                         select
                                             width: 90px!important
                                             border-radius: 6px
-                                            border: 1px solid #CAF1F3
+                                            border: 1px solid #83E3D0
                                             font-family: Nunito
                                             font-style: normal
                                             font-weight: 600
@@ -201,7 +213,7 @@
                                             font-size: 14px
                                             line-height: 1.1
                                             letter-spacing: -0.5px
-                                            color: #797979
+                                            color: #212A31
                                             display: block
                                             margin-top: auto
                                             margin-bottom: auto
@@ -242,7 +254,7 @@
                                     height: 75%
                                     width: 1px
                                     position: absolute
-                                    border-right: 1px solid #B9E6E9
+                                    border-right: 1px solid #83E3D0
                                     @include responsivo(telefonoTable)
                                         border: none
                                         width: 75%
@@ -252,7 +264,7 @@
                                         right: 0
                                         margin: 0 auto
                                         margin-top: auto
-                                        border-bottom: 1px solid #B9E6E9
+                                        border-bottom: 1px solid #83E3D0
 
 
                                 .middle
@@ -291,11 +303,13 @@
                                             justify-items: center
                                             align-content: center
                                             align-items: center
-                                            background: #F3FAFD
-                                            color: #97C7D1
+                                            background: #FAFBFD
+                                            color: #007F96
+                                            
                                             border-radius: 35px!important
                                             span
                                                 width: 50%
+                                                font-weight: 600!important
                                             .pill-button-selection
                                                 display: flex
                                                 flex-direction: column
@@ -306,7 +320,7 @@
                                                 font-size: 13px
                                                 line-height: 1
                                                 text-align: center
-                                                font-weight: 400
+                                                
                                                 @include responsivo(telefonoTable)
                                                     font-size: 12px
                                                 @include responsivo(pcMedio)
@@ -314,7 +328,7 @@
                                                 @include responsivo(smallPcTablet)
                                                     font-size: 12px
                                                 span
-                                                    font-weight: 700
+                                                    font-weight: 700!important
                                                     width: 100%
                                                     display: block
                                             .pill-button-highlight
@@ -324,7 +338,7 @@
                                                 color: white
                                                 border-radius: 35px!important
                                             .pill-button-highlight
-                                                background: #FF4E33
+                                                background: #F1685A
                                                 border-radius: 35px!important
 
 
@@ -339,7 +353,7 @@
                                         line-height: 1
                                         text-align: center
                                         letter-spacing: -1px
-                                        color: #322C2E
+                                        color: #212A31
                                         margin-bottom: 20px
                                         @include responsivo(telefonoTable)
                                             font-size: 16px
@@ -411,7 +425,7 @@
                                             left: 0
                                         .discountCost
                                             position: relative
-                                            color: #36768A
+                                            color: #F34F36
                                             height: 40px!important
                                             margin: 0 auto
                                             span
@@ -504,7 +518,7 @@
                                             line-height: 1
                                             text-align: center
                                             letter-spacing: -1px
-                                            color: #73676D
+                                            color: #212A31
                                             margin-top: 5px
                                             *
                                                 font-weight: 400
@@ -642,7 +656,7 @@
                                     width: 100%
                                     text-align: left
                                     position: relative
-                                    border-bottom: 1px solid #B9E6E9
+                                    border-bottom: 1px solid #83E3D0
                                     @include responsivo(telefonoTable)
                                         padding-top: 12.5px
                                         padding-bottom: 12.5px
@@ -956,7 +970,7 @@
     cursor: pointer
     width: 20px
     text-align: center
-    color: #333
+    color: #83E3D0
     font-size: 13px
     line-height: 1.7
     -webkit-transform: translateX(-100%)
@@ -970,9 +984,9 @@
     justify-content: center
     align-content: center
     align-items: center
-    background: #CAF1F3
+    background: #2C4857
     i
-        color: #00506B
+        color: #83E3D0
 
 
 .quantity-button.quantity-up
@@ -991,7 +1005,8 @@
 
 .questionIcon
     border-radius: 100%
-    background-color: #B9E6E9
+    background-color: #83E3D0
+    color: #007F96
     height: 17.5px
     width: 17.5px
     margin-left: 5px
