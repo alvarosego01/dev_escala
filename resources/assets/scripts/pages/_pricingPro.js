@@ -233,6 +233,13 @@ jQuery(document).ready(function () {
             spinner.find("input").val(newVal);
             spinner.find("input").trigger("change");
         });
+
+        input.on('change', function () {
+            if (input.attr('name') === '_contactsField' && input.val() < 1000) {
+                alert('El número de contactos de marketing no puede ser inferior a 1000. Se ha restablecido a 1000.');
+                input.val(1000);
+            }
+        });
     });
 
     jQuery('.field.select').each(function () {
