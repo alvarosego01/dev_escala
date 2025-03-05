@@ -188,8 +188,8 @@
                         <div class="video col-md-12">
 
                             @php
-                            $videoEmbed = App::setFilePath('/assets/videos/');
-                            $videoCover = App::setFilePath('/assets/images/illustrations/others/');
+                            $videoEmbed = App::setFilePath('/assets/videos/colegio-cambrige-video-testimonial.mp4');
+                            $videoCover = App::setFilePath('/assets/images/illustrations/others/testimonial-colegio-cambrige.png');
                             @endphp
 
                             @if (isset($videoEmbed) && $videoEmbed != null)
