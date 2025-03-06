@@ -96,7 +96,11 @@
 
                                             </div>
                                             @endforeach
-
+                                            <div class="iconApp">
+                                                <a target="_blank" href="https://www.getapp.com/customer-management-software/crm/category-leaders">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}" loading="lazy">
+                                                </a>
+                                            </div>
                                         </div>
 
 
@@ -112,7 +116,7 @@
                                         @if (isset($videoEmbed) && $videoEmbed != null)
                                         <div class="youtubeImageContainer ">
 
-                                            <video class="video-js video_1 videoCover" >
+                                            <video class="video-js video_1 videoCover">
                                                 <source src="{{ $videoCover }}" type="video/mp4">
                                                 Tu navegador no soporta videos HTML5.
                                             </video>
@@ -328,7 +332,12 @@
 
                                     </div>
                                     @endforeach
-
+                                    
+                                    <div class="iconApp">
+                                        <a target="_blank" href="https://www.getapp.com/customer-management-software/crm/category-leaders">
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}" loading="lazy">
+                                        </a>
+                                    </div>
                                 </div>
 
 

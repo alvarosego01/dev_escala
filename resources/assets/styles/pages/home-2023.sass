@@ -129,9 +129,9 @@ img
         .ele.reviews
             position: relative
             @include responsivo(general)
-                top: 20px
+                top: 0px
             @include responsivo(resto)
-                top: 20px
+                top: 0px
             .elements
                 width: fit-content
                 display: flex
@@ -154,7 +154,7 @@ img
                     padding: 0
                     display: flex
                     flex-direction: row
-                    margin-bottom: 40px
+                    margin-bottom: 25px
                     width: 100%
                     @include responsivo(telefonoTable)
                         margin-bottom: 10px
@@ -190,7 +190,7 @@ img
                                     @include responsivo(telefonoTable)
                                         height: 20px!important
                                     @include responsivo(pcMedio)
-                                        height: 30px
+                                        height: 25px
                                     @include responsivo(general)
                                         height: 25px
                                     @include responsivo(resto)
@@ -252,6 +252,16 @@ img
                                         height: 20px
                                     @include responsivo(resto)
                                         height: 20px
+                .iconApp
+                    position: relative
+                    top: -10px
+                    @include responsivo(telefonoTable)
+                        top: 10px
+                    img
+                        height: 77px!important
+                        @include responsivo(pcMedio)
+                            height: 160px!important
+
         .containArticle_mobile
             display: none
             margin-bottom: 50px
@@ -363,7 +373,7 @@ img
                                         @include responsivo(telefonoTable)
                                             height: 20px
                                         @include responsivo(pcMedio)
-                                            height: 30px
+                                            height: 25px
                                         @include responsivo(general)
                                             height: 30px
                                         @include responsivo(resto)
@@ -390,7 +400,9 @@ img
                                     font-size: 20px
                                 span
                                     font-weight: 700
-        
+
+                            
+                        
            
         .innerSectionElement.sct2
             position: relative
