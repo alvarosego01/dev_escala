@@ -145,6 +145,9 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-home-2025.blade.php')) {
         wp_enqueue_style('home-2025.css', asset_path('styles/pages/home-2025.css'), false, THEME_VERSION);
     }
+    if (is_page_template('views/template-new-home-2025.blade.php')) {
+        wp_enqueue_style('new-home-2025.css', asset_path('styles/pages/new-home-2025.css'), false, THEME_VERSION);
+    }
     if (is_page_template('views/template-automatizaciones-2025.blade.php')) {
         wp_enqueue_style('automatizaciones-2025.css', asset_path('styles/pages/automatizaciones-2025.css'), false, THEME_VERSION);
     }

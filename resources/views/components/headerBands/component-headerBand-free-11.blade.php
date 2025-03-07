@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/headerband_freeclass_enero_2025.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/headerband_freeclass_marzo_2025.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -8,15 +8,15 @@
 
                 <div class="contain">
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_masterclass_enero_2025_2.png') !!}" alt="" class="icon">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_headerband_masterclass_2025_marzo_escala.png') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-                        <span>Optimiza procesos de ventas ganadores con CRM</span>
+                        <span><strong>Vende más con</strong> Whatsapp automatizado + CRM </span>
 
                     </span>
                     <div class="separator"></div>
                     <span class="sub">
-                        Masterclass gratuita - 22 Enero
+                    Masterclass gratuita - 19 de Marzo
                     </span>
                 </div>
 
@@ -32,7 +32,7 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/headerband_freeclass_enero_2025_mb.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/headerband_freeclass_marzo_2025_mb.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -43,12 +43,12 @@
                 <div class="contain">
 
                     <span class="hashTitle">
-                        <span>Optimiza procesos de ventas ganadores con CRM </span>
+                        <span><strong>Vende más con</strong> Whatsapp automatizado + CRM </span>
 
                     </span>
               
                     <span class="sub">
-                        Masterclass gratuita - 22 Enero
+                    Masterclass gratuita - 19 de Marzo
                     </span>
                 </div>
 
