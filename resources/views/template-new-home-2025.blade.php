@@ -12,48 +12,88 @@
         <!-- Home new landing 2025 -->
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol new-home-2025-0 ">
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_new_landing_home_escala.svg') }}')" class="backgroundFull">
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_new_home_2025_landing_page_escala.svg') }}')" class="backgroundFull">
                 <div class="section-row">
+
                     <section class="innerSectionElement sct1">
+                        <div class="containElements">
+                            <h1 class="principalBigTitle">
+                                Escala las ventas de tu empresa <br class="DT_e">
+                                con un <span>CRM inteligente</span>
+                            </h1>
+                        </div>
+                    </section>
 
+
+                    <section class="innerSectionElement sct2">
                         <div class="groupElements row">
-
-
                             <div class="info col-md-12 col-lg-8 ">
-
-
-                                <div class="containElements row threeCol">
-
-                                    <div class="ele ele2 col-md-12 col-lg-7">
-                                        <h1 class="principalBigTitle">
-                                            Escala las ventas de tu empresa
-                                        </h1>
-
-                                        <span class="principalBigText">
-                                            con un CRM
-                                            todo-en-uno y
-                                            fácil de usar
-                                        </span>
-
-
-
-                                    </div>
-
-
-                                    <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
-
-                                        <div class="containerImage">
-                                            <img alt="Ilustración Andrés Moreno, CEO de Escala" src="{{ App::setFilePath('/assets/images/person/am/img_andres_moreno_home_escala_2025.png') }}" loading="lazy">
-                                        </div>
-
-                                    </div>
-
-
+                                <div class="containerImage">
+                                    <img alt="Ilustración Andrés Moreno, CEO de Escala con CRM inteligente" src="{{ App::setFilePath('/assets/images/illustrations/others/img_am_home_crm_inteligente_escala.png') }}" loading="lazy">
                                 </div>
 
+                                <div class="containElements">
+                                    @php
+                                    $elementsReviews = [
+                                    [
+                                    'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                                    'text' => 'Escala / plataforma CRM',
+                                    'points' => '4.9 / 5',
+                                    ],
+                                    [
+                                    'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                                    'text' => 'Escala / plataforma CRM',
+                                    'points' => '4.8 / 5',
+                                    ],
+                                    [
+                                    'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
+                                    'text' => 'Escala / plataforma CRM',
+                                    'points' => '4.8 / 5',
+                                    ]
+                                    ];
+                                    @endphp
+                                    <div class="ele reviews">
+
+                                        <div class="elements">
+                                            <div class="iconApp">
+                                                <a target="_blank" href="https://www.getapp.com/customer-management-software/crm/category-leaders">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}" loading="lazy">
+                                                </a>
+                                            </div>
+                                            @foreach ($elementsReviews as $item)
+                                            <div class="refersElement">
+
+                                                <div class="infoInner">
+                                                    <div class="tag">
+                                                        <div class="containerImage">
+                                                            <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                        </div>
+
+                                                        <span class="points">
+                                                            {!! $item['points'] !!}
+                                                        </span>
+                                                    </div>
+                                                    <p class="text">
+                                                        {!! $item['text'] !!}
+                                                    </p>
+                                                    <div class="stars">
+                                                        <div class="containerImage">
+                                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icons-stars-yellow.svg') !!}" loading="lazy">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            @endforeach
+
+                                        </div>
 
 
+                                    </div>
+                                </div>
                             </div>
+
                             <div class="form7 col-md-12 col-lg-4 ">
 
                                 <div class="containElements">
@@ -61,7 +101,7 @@
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
 
-                                        <h5 class="titleFormat blackcolor"> Recibe un demo personalizado</h5>
+                                        <h5 class="titleFormat"> Recibe un <br class="DT_e"> demo personalizado</h5>
 
 
                                         @php
@@ -82,38 +122,17 @@
                                         {!! do_shortcode($_formShortcode) !!}
 
                                         <script>
-                                            jQuery('.formatForm .wpcf7 input.wpcf7-form-control.wpcf7-submit').val('RECIBIR EL DEMO')
+                                            jQuery('.formatForm .wpcf7 input.wpcf7-form-control.wpcf7-submit').val('Recibir el Demo →')
                                         </script>
                                     </div>
 
                                 </div>
 
                             </div>
-
-
-                            <div class="imageReviewsMobile1 hideOnDesktop">
-
-                                <div class="image">
-                                    <div class="containerImage">
-                                        <img alt="Ilustración Andrés Moreno, CEO de Escala" src="{{ App::setFilePath('/assets/images/person/am/img_andres_moreno_home_escala_2025.png') }}" loading="lazy">
-                                    </div>
-
-                                </div>
-
-
-
-                            </div>
-
-
-
-
                         </div>
-
                     </section>
 
                 </div>
-
-
 
             </div>
 
@@ -125,65 +144,12 @@
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
-
-                    @php
-                    $elementsReviews = [
-                    [
-                    'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
-                    'text' => 'Escala / plataforma CRM',
-                    'points' => '4.9 / 5',
-                    ],
-                    [
-                    'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
-                    'text' => 'Escala / plataforma CRM',
-                    'points' => '4.8 / 5',
-                    ],
-                    [
-                    'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
-                    'text' => 'Escala / plataforma CRM',
-                    'points' => '4.8 / 5',
-                    ]
-                    ];
-                    @endphp
-                    <div class="ele reviews">
-
-                        <div class="elements">
-
-                            @foreach ($elementsReviews as $item)
-                            <div class="refersElement">
-
-                                <div class="infoInner">
-                                    <div class="tag">
-                                        <div class="containerImage">
-                                            <img src="{!! $item['logo'] !!}" loading="lazy">
-                                        </div>
-
-                                        <span class="points">
-                                            {!! $item['points'] !!}
-                                        </span>
-                                    </div>
-                                    <p class="text">
-                                        {!! $item['text'] !!}
-                                    </p>
-                                    <div class="stars">
-                                        <div class="containerImage">
-                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-stars-yellow.svg') !!}" loading="lazy">
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            @endforeach
-
-                        </div>
-
-
+                    <div class="containElements">
+                        <span class="subTitle">
+                            Destacados en:
+                        </span>
                     </div>
-
-
-                    <div class="ele2 logos_empresas">
-                        <span>Destacados en:</span>
+                    <div class="logos_empresas">
                         <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_logo_empresa_bg_white_forbes (1).png') }}" loading="lazy">
                         <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_logo_empresa_bg_white_yahoo_finance (1).png') }}" loading="lazy">
                         <img alt="Logos empresa" src="{{ App::setFilePath('/assets/images/illustrations/others/img_logo_empresa_bg_white_latam_list (1).png') }}" loading="lazy">
@@ -276,7 +242,7 @@
 
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                   QUIERO VENDER MÁS
+                    QUIERO VENDER MÁS
                 </a>
             </div>
             <div class="imageReviewsMobile hideOnDesktop">
