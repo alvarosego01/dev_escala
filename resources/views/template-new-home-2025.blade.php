@@ -379,7 +379,7 @@
                                 </div>
 
                                 <div>
-                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/andres_moreno_feliz_centralizando_conversasiones_crm_escala_1.png') }}"
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/andres_moreno_feliz_centralizando_conversasiones_crm_escala_2.png') }}"
                                         loading="lazy">
                                 </div>
                             </div>
