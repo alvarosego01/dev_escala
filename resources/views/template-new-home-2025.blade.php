@@ -321,8 +321,8 @@
                             <span>Ten todas las herramientas y
                                 la información que necesitas
                                 en un solo lugar</span>
-                            <div class="containImages">
-                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/solucion_crm_img_section_home_escala.png') }}"
+                            <div class="containImages imgEspecial">
+                                <img   src="{{ App::setFilePath('/assets/images/illustrations/others/solucion_crm_img_section_home_escala_1.png') }}"
                                     loading="lazy">
                             </div>
                         </div>
