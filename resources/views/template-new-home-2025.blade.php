@@ -198,12 +198,14 @@
                         <div class="card-box"
                             style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
                             <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue.png') !!}"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}"
                                 alt="">
                             <div class="card-body">
-                                <h5 class="card-title"><b>Aumentamos las ventas en un 100%.</b> El acompañamiento del
-                                    equipo de Escala ha
-                                    sido fundamental.
+                                <h5 class="card-title"><b>Aumentamos las <br class="DT_e">
+                                        ventas en un 100%.</b> <br class="DT_e">
+                                    El acompañamiento <br class="DT_e">
+                                    del equipo de Escala <br class="DT_e">
+                                    ha sido fundamental.
                                     <br class="space">
                                     <br class="space">
 
@@ -225,13 +227,15 @@
                         <div class="card-box"
                             style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
                             <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue.png') !!}"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}"
                                 alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Escala ha sido un gran aliado para <b> mejorar nuestra operación
-                                        comercial,</b> automatizar tareas
-                                    y optimizar nuestra inversión
-                                    en marketing.
+                                <h5 class="card-title">Escala ha sido un gran <br class="DT_e">
+                                    aliado para <b> mejorar nuestra operación <br class="DT_e">
+                                        comercial,</b> automatizar
+                                    <br class="DT_e">
+                                    tareas y optimizar nuestra
+                                    <br class="DT_e"> inversión en marketing.
                                 </h5>
                                 <div class="card-text">
                                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/miller_romero_taller_cinco.png') !!}"
@@ -250,7 +254,7 @@
                         <div class="card-box"
                             style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
                             <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue.png') !!}"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}"
                                 alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Escala no solo ofrecen un <b> software robusto y amigable,</b>
@@ -290,8 +294,10 @@
                                 con múltiples herramientas
                                 trunca tu productividad
                             </span>
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/vender_era_complicado_img_section_home_escala.png') }}"
-                                loading="lazy">
+                            <div class="containImages">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/vender_era_complicado_img_section_home_escala.png') }}"
+                                    loading="lazy">
+                            </div>
                         </div>
 
                         <div class="column">
@@ -300,16 +306,17 @@
                             <span>Ten todas las herramientas y
                                 la información que necesitas
                                 en un solo lugar</span>
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/solucion_crm_img_section_home_escala.png') }}"
-                                loading="lazy">
-
+                            <div class="containImages">
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/solucion_crm_img_section_home_escala.png') }}"
+                                    loading="lazy">
+                            </div>
                         </div>
                     </div>
 
                 </section>
 
                 <div class="btnCenter">
-                    <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                    <a class="primaryButton  openPopUpButton popup-general-demo-2022">
                         Empieza ahora →
                     </a>
                 </div>
@@ -343,55 +350,65 @@
                             <h3>Gestiona contactos y oportunidades de venta... ¡donde quiera que vayas!</h3>
 
                             <div class="tag">EL CRM</div>
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/') }}" loading="lazy">
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/chica_feliz_gestionando_contactos_crm_escala.png') }}" loading="lazy">
 
                         </div>
                         <div class="cardRight">
                             <div class="card" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_card_horizontal_blue.svg') }}')">
-                                <h3>Centraliza tus conversaciones de WhatsApp, Instagram y Facebook</h3>
-                                <div class="tag">INBOX</div>
-                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/') }}"
-                                    loading="lazy">
+                                <div class="info">
+                                    <h3>Centraliza tus conversaciones de WhatsApp, Instagram y Facebook</h3>
+                                    <div class="tag">INBOX</div>
+                                </div>
 
+                                <div>
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/chica_feliz_centralizando_conversasiones_crm_escala.png') }}"
+                                        loading="lazy">
+                                </div>
                             </div>
 
                             <div class="card" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_card_horizontal_blue.svg') }}')">
-                                <h3>Automatiza tareas y comunicaciones</h3>
-                                <div class="tag">FLUJOS</div>
-                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/') }}"
-                                    loading="lazy">
+                                <div class="info">
+                                    <h3>Automatiza tareas y comunicaciones</h3>
+                                    <div class="tag">FLUJOS</div>
+                                </div>
 
+                                <div>
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/automatizaciones_comunicaciones_tareas.png') }}"
+                                        loading="lazy">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
+
                 <section class="innerSectionElement sct3">
                     <div class="cards-container">
-                        <div class="card">
+                        <div class="cardLeft">
                             <span>
-                                Promuévete y captura información de
-                                clientes
-                                potenciales
+                                Promuévete y captura <br class="DT_e">
+                                información de <br class="DT_e">
+                                clientes potenciales
                             </span>
-
-                        </div>
-                        <div class="card">
-                            <span>
-                                Envía Emails y
-                                WhatsApps
-                                masivos
-                            </span>
-
-                        </div>
-                        <div class="card">
-                            <span>
-                                Mide y optimiza
-                                tus resultados en
-                                tiempo real
-                            </span>
-
                         </div>
 
+                        <div class="cardRight">
+                            <div class="card">
+                                <span>
+                                    Envía Emails y <br class="DT_e">
+                                    WhatsApps <br class="DT_e">
+                                    masivos
+                                </span>
+
+                            </div>
+                            <div class="card">
+                                <span>
+                                    Mide y optimiza <br class="DT_e">
+                                    tus resultados en <br class="DT_e">
+                                    tiempo real
+                                </span>
+
+                            </div>
+                        </div>
 
                     </div>
                 </section>
@@ -508,9 +525,10 @@
                             </h2>
                             <div class="btnSection">
                                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                    Empieza ahora →
-                                </a>
-                                <a class="text-white hoverInEffect openPopUpButton popup-general-demo-2022">Hablar con asesor →</a>
+                                    Empieza ahora →</a>
+                                    <a class="text-white openPopUpButton popup-general-demo-2022">
+                                    Hablar con asesor →</a>
+                                    
                             </div>
                         </div>
                     </section>
@@ -518,7 +536,7 @@
                     <section class="innerSectionElement sct2">
                         <div class="containElement">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/img_chica_feliz_estadisticas_ventas_inteligente.png') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/img_chica_feliz_estadisticas_ventas_inteligente_6.png') }}"
                                 loading="lazy">
                         </div>
                     </section>
