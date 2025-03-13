@@ -109,7 +109,7 @@
                                     <div class="formatForm redirectWeb" redirectweb="true">
 
 
-                                        <h5 class="titleFormat"> Recibe un <br class="DT_e"> demo personalizado</h5>
+                                        <h5 class="titleFormat"> Recibe un <br class="space"> demo personalizado</h5>
 
 
                                         @php
@@ -276,6 +276,21 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="imageMobileCenter">
+                    <div class="btnCenter">
+                        <a class="primaryButton  openPopUpButton popup-general-demo-2022">
+                            Empieza ahora →
+                        </a>
+                    </div>
+                    <div class="containerImage">
+                        <img alt="Ilustración Andrés Moreno, CEO de Escala con CRM inteligente"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/img_am_home_crm_inteligente_escala.png') }}"
+                            loading="lazy">
+                    </div>
+
+                </div>
+
             </div>
         </section>
 
@@ -347,10 +362,13 @@
 
                     <div class="cards-container">
                         <div class="cardLeft" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_card_vertical_blue.svg') }}')">
-                            <h3>Gestiona contactos y oportunidades de venta... ¡donde quiera que vayas!</h3>
+                            <div>
+                                <h3>Gestiona contactos y oportunidades de venta... ¡donde quiera que vayas!</h3>
 
-                            <div class="tag">EL CRM</div>
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/chica_feliz_gestionando_contactos_crm_escala.png') }}" loading="lazy">
+                                <div class="tag">EL CRM</div>
+                            </div>
+
+                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img_chica_feliz_estadisticas_ventas_inteligente_6_0.png') }}" loading="lazy">
 
                         </div>
                         <div class="cardRight">
@@ -361,7 +379,7 @@
                                 </div>
 
                                 <div>
-                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/chica_feliz_centralizando_conversasiones_crm_escala.png') }}"
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/andres_moreno_feliz_centralizando_conversasiones_crm_escala_1.png') }}"
                                         loading="lazy">
                                 </div>
                             </div>
@@ -373,7 +391,7 @@
                                 </div>
 
                                 <div>
-                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/automatizaciones_comunicaciones_tareas.png') }}"
+                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/andrea_molle_automatizaciones_comunicaciones_tareas.png') }}"
                                         loading="lazy">
                                 </div>
                             </div>
@@ -412,6 +430,15 @@
 
                     </div>
                 </section>
+
+                <div class="imageMobileCenter">
+                    <div class="btnCenter">
+                        <a class="primaryButton  openPopUpButton popup-general-demo-2022">
+                            Empieza ahora →
+                        </a>
+                    </div>
+
+                </div>
             </div>
 
         </section>
@@ -432,8 +459,12 @@
                             Interactúa con
                         </span>
                         <div class="containerImg">
-                            <img alt="Imagen equipo escala aprender a usar tu crm"
+                            <img class="ottoPc" alt="Imagen equipo escala aprender a usar tu crm"
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/img_preview_chat_otto.png') }}"
+                                loading="lazy">
+
+                            <img  class="ottoMb" alt="Imagen equipo escala aprender a usar tu crm"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/img_preview_chat_otto_mb.png') }}"
                                 loading="lazy">
                         </div>
                     </div>
@@ -469,7 +500,7 @@
 
                         <div class="image">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/plataforma_crm_configuracion_por_ti.png') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/equipo_escala_plataforma_crm_configuracion_por_ti.png') }}"
                                 loading="lazy">
                         </div>
                     </div>
@@ -516,7 +547,7 @@
         <section class="customSection sectionParent new-home-2025-8">
 
             <div class="section-row ">
-                <div class="containElements" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_8_home_new_escala.png') }}')">
+                <div class="containElements" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_8_home_new_escala_left.svg') }}')">
                     <section class="innerSectionElement sct1">
                         <div class="containElement">
                             <h2 class="title">
@@ -526,9 +557,9 @@
                             <div class="btnSection">
                                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                     Empieza ahora →</a>
-                                    <a class="text-white openPopUpButton popup-general-demo-2022">
+                                <a class="text-white openPopUpButton popup-general-demo-2022">
                                     Hablar con asesor →</a>
-                                    
+
                             </div>
                         </div>
                     </section>
@@ -536,7 +567,7 @@
                     <section class="innerSectionElement sct2">
                         <div class="containElement">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/img_chica_feliz_estadisticas_ventas_inteligente_6.png') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/ceo_escala_2025.png') }}"
                                 loading="lazy">
                         </div>
                     </section>
