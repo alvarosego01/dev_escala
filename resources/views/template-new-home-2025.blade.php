@@ -452,7 +452,7 @@
 
                 <div class="imageMobileCenter">
                     <div class="btnCenter">
-                        <a class="primaryButton  openPopUpButton popup-general-demo-2022">
+                        <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
                             Empieza ahora →
                         </a>
                     </div>
