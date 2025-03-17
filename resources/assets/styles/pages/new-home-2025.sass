@@ -464,7 +464,7 @@ img
     .section-row
         margin: 0 auto
         @include responsivo(telefonoTable)
-            width: 95%
+            width: 100%
             position: relative
         @include responsivo(pcMedio)
             width: 95%
@@ -500,6 +500,7 @@ img
                 @include responsivo(telefonoTable)
                     flex-wrap: wrap
                     gap: 10px
+                    display: none
                 @include responsivo(pcMedio)
                     flex-wrap: wrap
                 img
@@ -508,6 +509,11 @@ img
                     height: 65px
                     @include responsivo(telefonoTable)
                         height: 60px
+            .mb_logos
+                display: none
+                @include responsivo(telefonoTable)
+                    display: flex
+
 
 #new-home-2025 .customSection.sectionParent.new-home-2025-2
     padding: 0
@@ -642,8 +648,10 @@ img
                     line-height: 1
                     @include responsivoSpecial(350px, 399px )
                         font-size: 20px
+                        text-align: center
                     @include responsivo(telefonoTable)
                         padding: 0px
+                        text-align: center
                     @include responsivo(pcMedio)
                         padding: 20px
                     @include responsivo(smallPcTablet)
@@ -654,6 +662,7 @@ img
                     margin-top: 0
                     margin-bottom: 0
                     gap: 10px
+                    
                     @include responsivoSpecial(350px, 399px )
                         font-size: 18px
                     img
@@ -678,6 +687,7 @@ img
                             font-style: normal
                             font-weight: 400
                             text-align: left
+
                             @include responsivo(smallPcTablet)
                                 font-size: 12px
                         img
@@ -1084,6 +1094,8 @@ img
                         font-style: normal
                         font-weight: 600
                         line-height: 1   
+                        @include responsivo(telefonoTable)
+                            font-size: 24px
                         @include responsivo(general)
                             font-size: 27.5px
                 .cardRight
@@ -1572,6 +1584,7 @@ img
                             font-style: normal
                             font-weight: 500
                             line-height: 1
+                            text-underline-offset: 4px
                             text-decoration-thickness: 2px
                             @include responsivo(smallPcTablet)
                                 font-size: 27px

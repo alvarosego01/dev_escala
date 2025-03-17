@@ -175,6 +175,25 @@
                             src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_valora.png') }}"
                             loading="lazy">
                     </div>
+                    <div class="logos_empresas mb_logos">
+                        <img alt="Logos empresa"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_forbes.png') }}"
+                            loading="lazy">
+                        <img alt="Logos empresa"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_valora.png') }}"
+                            loading="lazy">
+                        <img alt="Logos empresa"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_refresh_miami.png') }}"
+                            loading="lazy">
+                        <img alt="Logos empresa"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_yahoo_finance.png') }}"
+                            loading="lazy">
+                        <img alt="Logos empresa"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_latam_list.png') }}"
+                            loading="lazy">
+
+
+                    </div>
                 </section>
 
             </div>
@@ -322,7 +341,7 @@
                                 la información que necesitas
                                 en un solo lugar</span>
                             <div class="containImages imgEspecial">
-                                <img   src="{{ App::setFilePath('/assets/images/illustrations/others/solucion_crm_img_section_home_escala_1.png') }}"
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/solucion_crm_img_section_home_escala_1.png') }}"
                                     loading="lazy">
                             </div>
                         </div>
@@ -463,7 +482,7 @@
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/img_preview_chat_otto.png') }}"
                                 loading="lazy">
 
-                            <img  class="ottoMb" alt="Imagen equipo escala aprender a usar tu crm"
+                            <img class="ottoMb" alt="Imagen equipo escala aprender a usar tu crm"
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/img_preview_chat_otto_mb.png') }}"
                                 loading="lazy">
                         </div>
