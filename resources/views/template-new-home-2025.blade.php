@@ -558,7 +558,7 @@
                                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                                     Empieza ahora →</a>
                                 <a class="text-white openPopUpButton popup-general-demo-2022">
-                                    Hablar con asesor →</a>
+                                    Hablar con asesor</a>
 
                             </div>
                         </div>

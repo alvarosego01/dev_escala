@@ -4,10 +4,7 @@
   "author": "Roots <team@roots.io>",
   "homepage": "https://roots.io/sage/",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/roots/sage.git"
-  },
+  "repository": "git://github.com/roots/sage.git",
   "bugs": {
     "url": "https://github.com/roots/sage/issues"
   },
@@ -60,6 +57,7 @@
     "gulp": "^5.0.0",
     "gulp-cached": "^1.1.1",
     "gulp-changed": "^4.0.3",
+    "gulp-yarn": "^4.0.1",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-webpack-plugin": "^2.4.2",
     "import-glob": "~1.5",
@@ -108,5 +106,7 @@
   "resolutions": {
     "graceful-fs": "^4.2.4"
   },
-  "type": "commonjs"
+  "type": "commonjs",
+  "main": "index.js",
+  "license": "MIT"
 }
