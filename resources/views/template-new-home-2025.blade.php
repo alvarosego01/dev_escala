@@ -283,7 +283,7 @@
                 <div class="row sct1">
                     <div class="text-center col-12">
                         <h2 class="title">
-                            La plataforma centraliza y simplifica <br class="DT_e">
+                            El CRM de Escala centraliza y simplifica <br class="DT_e">
                             tu proceso comercial con IA
                         </h2>
                     </div>
@@ -412,13 +412,12 @@
                         </div>
 
                         <div class="column">
-                            <h3>Vamos a
-                                solucionarlo</h3>
+                            <h3>La solución</h3>
                             <span>Ten todas las herramientas y
                                 la información que necesitas
                                 en un solo lugar</span>
                             <div class="containImages imgEspecial">
-                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/solucion_crm_img_section_home_escala_1.png') }}"
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/solucion_crm_img_section_home_escala_gris.png') }}"
                                     loading="lazy">
                             </div>
                         </div>
@@ -584,7 +583,7 @@
                     <div class="containElements">
                         <div class="info">
                             <h2 class="title">
-                                Configuramos la plataforma por ti
+                                Implementamos el CRM por ti
                             </h2>
 
                             <span class="text">
@@ -629,11 +628,11 @@
                         loading="lazy">
 
                     <img alt=""
-                        src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes.png') }}"
+                        src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_2.png') }}"
                         loading="lazy">
 
                     <img alt=""
-                        src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes.png') }}"
+                        src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_3.png') }}"
                         loading="lazy">
 
                 </div>

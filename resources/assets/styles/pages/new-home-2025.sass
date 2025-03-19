@@ -297,7 +297,7 @@ img
                                                 img
                                                     margin-left: 0!important
                                                     @include responsivo(telefonoTable)
-                                                        height: 21px!important
+                                                        height: 30px!important
                                                     @include responsivo(pcMedio)
                                                         height: 30px
                                                     @include responsivo(general)
@@ -504,8 +504,11 @@ img
                         .ele.reviews
                             display: flex
                             justify-content: center
+
                             @include responsivo(telefonoTable)
-                                margin-top: 30px
+                                margin-top: 90px
+                            @include responsivoSpecial(350px, 450px )
+                                margin-top: 40px
                             .elements
                                 width: fit-content
                                 display: flex
@@ -572,7 +575,7 @@ img
                                                 img
                                                     margin-left: 0!important
                                                     @include responsivo(telefonoTable)
-                                                        height: 21px!important
+                                                        height: 30px!important
                                                     @include responsivo(pcMedio)
                                                         height: 30px
                                                     @include responsivo(general)
