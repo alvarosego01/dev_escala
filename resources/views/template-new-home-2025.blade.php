@@ -417,7 +417,7 @@
                                 la información que necesitas
                                 en un solo lugar</span>
                             <div class="containImages imgEspecial">
-                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/solucion_crm_img_section_home_escala_gris.png') }}"
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/escala_img_crm_todo_en_uno.png') }}"
                                     loading="lazy">
                             </div>
                         </div>
@@ -615,26 +615,28 @@
                 <div class="row sct1">
                     <div class="text-center col-12">
                         <h2 class="title">
-                            La plataforma centraliza y simplifica <br class="DT_e">
-                            tu proceso comercial con IA
+                            Algunos de nuestros clientes <br class="DT_e">
+                            han logrado:
                         </h2>
                     </div>
                 </div>
 
-                <div class=" row sct2">
-
-                    <img alt=""
-                        src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes.png') }}"
-                        loading="lazy">
-
-                    <img alt=""
-                        src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_2.png') }}"
-                        loading="lazy">
-
-                    <img alt=""
-                        src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_3.png') }}"
-                        loading="lazy">
-
+                <div class="containerElement sct2">
+                    <a href="https://escala.com/casos-de-exito-poctlab/">
+                        <img alt=""
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes.png') }}"
+                            loading="lazy">
+                    </a>
+                    <a href="https://escala.com/casos-de-exito-taller-5/">
+                        <img alt=""
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_3.png') }}"
+                            loading="lazy">
+                    </a>
+                    <a href="https://escala.com/casos-de-exito-real-de-los-cues/">
+                        <img alt=""
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_2.png') }}"
+                            loading="lazy">
+                    </a>
                 </div>
             </div>
         </section>

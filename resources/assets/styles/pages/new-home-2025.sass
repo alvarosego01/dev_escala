@@ -920,9 +920,14 @@ img
             margin-bottom: 60px
             .primaryButton 
                 min-width: 100%!important
+                padding: 25px 80px!important
                 background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)!important
                 transition: background 0.3s ease
                 font-family: "Mulish", sans-serif!important
+                @include responsivo(telefonoTable)
+                    padding: 25px 55px!important
+                @include responsivo(smallPcTablet)
+                    padding: 25px 55px!important
                 &:hover
                     background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%)!important
                     color: #fff        
@@ -1031,6 +1036,11 @@ img
                 background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)!important
                 transition: background 0.3s ease
                 font-family: "Mulish", sans-serif!important
+                padding: 25px 80px!important
+                @include responsivo(telefonoTable)
+                    padding: 25px 55px!important
+                @include responsivo(smallPcTablet)
+                    padding: 25px 55px!important
                 &:hover
                     background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%)!important
                     color: #fff
@@ -1362,9 +1372,13 @@ img
                 margin-bottom: 0px
                 .primaryButton 
                     min-width: 100%!important
-                    
+                    padding: 25px 80px!important
                     transition: background 0.3s ease
                     font-family: "Mulish", sans-serif!important
+                    @include responsivo(telefonoTable)
+                        padding: 25px 55px!important
+                    @include responsivo(smallPcTablet)
+                        padding: 25px 55px!important    
                     &:hover
                         background-color: #83E3D0!important
                         color: #fff           
@@ -1475,8 +1489,13 @@ img
                 display: none
             .primaryButton 
                 min-width: 363px!important
+                padding: 25px 80px!important
                 transition: background 0.3s ease
                 font-family: "Mulish", sans-serif!important
+                @include responsivo(telefonoTable)
+                    padding: 25px 55px!important
+                @include responsivo(smallPcTablet)
+                    padding: 25px 55px!important
                 &:hover
                     background-color: #83E3D0!important
                     color: #fff
@@ -1577,11 +1596,15 @@ img
                 margin-top: 60px
             .primaryButton 
                 min-width: 363px!important
+                padding: 25px 80px!important
                 background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)!important
                 transition: background 0.3s ease
                 font-family: "Mulish", sans-serif!important
                 @include responsivo(telefonoTable)
                     min-width: 100%!important
+                    padding: 25px 55px!important
+                @include responsivo(smallPcTablet)
+                    padding: 25px 55px!important
                 &:hover
                     background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%)!important
                     color: #fff
@@ -1644,10 +1667,13 @@ img
                 font-size: 48px
 
 
-    .row.sct2
+    .containerElement.sct2
         display: flex
         justify-content: center
         gap: 20px
+        flex-direction: row
+        @include responsivo(telefonoTable)
+            flex-direction: column
         img
             width: auto
             padding: 0px
@@ -1783,10 +1809,13 @@ img
                         .primaryButton 
                             font-family: "Mulish", sans-serif!important
                             min-width: 363px!important
+                            padding: 25px 80px!important
                             @include responsivo(telefonoTable)
                                 min-width: 100% !important
+                                padding: 25px 35px!important
                             @include responsivo(smallPcTablet)
                                 min-width: 330px!important
+                                padding: 25px 55px!important
                             &:hover
                                 background-color: #83E3D0!important
                         .text-white
