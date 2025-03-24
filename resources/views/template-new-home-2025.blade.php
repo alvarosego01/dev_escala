@@ -629,32 +629,32 @@
 
                 <div class="containerElement sct2">
                     <a href="https://escala.com/casos-de-exito-poctlab/" class="image-container">
-                        <img alt="" class="img-1"
-                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes.png') }}"
+                        <img alt="" class="img-2"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_white_img_poctlab.png') }}"
                             loading="lazy">
 
-                        <img alt="" class="img-2"
-                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_white_2.png') }}"
+                        <img alt="" class="img-1"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_poctlab_card_blue.png') }}"
                             loading="lazy">
                     </a>
 
                     <a href="https://escala.com/casos-de-exito-taller-5/" class="image-container">
-                        <img alt="" class="img-1"
-                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_3.png') }}"
+                        <img alt="" class="img-2"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_taller_5_card.png') }}"
                             loading="lazy">
 
-                        <img alt="" class="img-2"
-                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_white_2.png') }}"
+                        <img alt="" class="img-1"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_taller_5_card_blue.png') }}"
                             loading="lazy">
                     </a>
 
                     <a href="https://escala.com/casos-de-exito-real-de-los-cues/" class="image-container">
-                        <img alt="" class="img-1"
-                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_2.png') }}"
+                        <img alt="" class="img-2"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_cues_real_card.png') }}"
                             loading="lazy">
 
-                        <img alt="" class="img-2"
-                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_white_2.png') }}"
+                        <img alt="" class="img-1"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/cliente_cues_real_card_blue.png') }}"
                             loading="lazy">
                     </a>
                 </div>

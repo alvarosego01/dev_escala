@@ -1705,24 +1705,23 @@ img
             flex-direction: column
         .image-container
             position: relative
-            display: inline-block
-        
+
             .img-2
                 display: none
-        
+
             &:hover
                 .img-1
                     display: none
-        
+
                 .img-2
                     display: block
-
 
             img
                 width: auto
                 padding: 0px
                 margin: 0px
                 height: 450px
+                filter: drop-shadow(0px 4px 30px rgba(0, 127, 150, 0.20))
                 @include responsivo(telefonoTable)
                     height: auto
                 @include responsivo(pcMedio)
@@ -1864,7 +1863,7 @@ img
                                 min-width: 330px!important
                                 padding: 25px 55px!important
                             &:hover
-                                background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)!important
+                                background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%)!important
 
                         .text-white
                             color: #fff
