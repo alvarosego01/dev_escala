@@ -504,7 +504,7 @@
                         <a href="https://escala.com/landing-pages/">
                             <div class="cardLeft " id="img1">
                                 <span>
-                                    Promuévete tu oferta y <br class="DT_e">
+                                    Promueve tu oferta y <br class="DT_e">
                                     captura información de <br class="DT_e">
                                     clientes potenciales
                                 </span>
