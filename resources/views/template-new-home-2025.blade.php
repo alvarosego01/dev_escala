@@ -375,7 +375,7 @@
 
                 <div class="imageMobileCenter">
                     <div class="btnCenter">
-                        <a class="primaryButton  openPopUpButton popup-general-demo-2022">
+                        <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
                             Empieza ahora →
                         </a>
                     </div>
@@ -426,7 +426,7 @@
                 </section>
 
                 <div class="btnCenter">
-                    <a class="primaryButton  openPopUpButton popup-general-demo-2022">
+                    <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
                         Empieza ahora →
                     </a>
                 </div>
@@ -456,71 +456,79 @@
                 <section class="innerSectionElement sct2">
 
                     <div class="cards-container">
-                        <div class="cardLeft" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_card_vertical_blue.svg') }}')">
-                            <div>
-                                <h3>Gestiona contactos y oportunidades de venta... ¡donde quiera que vayas!</h3>
+                        <a href="https://escala.com/crm-escala/">
+                            <div class="cardLeft" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_card_vertical_blue.svg') }}')">
+                                <div>
+                                    <h3>Gestiona contactos y oportunidades de venta... ¡donde quiera que vayas!</h3>
 
-                                <div class="tag">EL CRM</div>
+                                    <div class="tag">EL CRM</div>
+                                </div>
+
+                                <img src="{{ App::setFilePath('/assets/images/illustrations/others/img_chica_feliz_estadisticas_ventas_inteligente_6_0.png') }}" loading="lazy">
                             </div>
-
-                            <img src="{{ App::setFilePath('/assets/images/illustrations/others/img_chica_feliz_estadisticas_ventas_inteligente_6_0.png') }}" loading="lazy">
-
-                        </div>
+                        </a>
                         <div class="cardRight">
-                            <div class="card" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_card_horizontal_blue.svg') }}')">
-                                <div class="info">
-                                    <h3>Centraliza tus conversaciones de WhatsApp, Instagram y Facebook</h3>
-                                    <div class="tag">INBOX</div>
-                                </div>
+                            <a href="https://escala.com/whatsapp/">
+                                <div class="card" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_card_horizontal_blue.svg') }}')">
+                                    <div class="info">
+                                        <h3>Centraliza tus conversaciones de WhatsApp, Instagram y Facebook</h3>
+                                        <div class="tag">INBOX</div>
+                                    </div>
 
-                                <div>
-                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/andres_moreno_feliz_centralizando_conversasiones_crm_escala_2.png') }}"
-                                        loading="lazy">
+                                    <div>
+                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/andres_moreno_feliz_centralizando_conversasiones_crm_escala_2.png') }}"
+                                            loading="lazy">
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
+                            <a href="https://escala.com/automatizacion/">
+                                <div class="card" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_card_horizontal_blue.svg') }}')">
+                                    <div class="info">
+                                        <h3>Automatiza tareas y comunicaciones</h3>
+                                        <div class="tag">FLUJOS</div>
+                                    </div>
 
-                            <div class="card" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_card_horizontal_blue.svg') }}')">
-                                <div class="info">
-                                    <h3>Automatiza tareas y comunicaciones</h3>
-                                    <div class="tag">FLUJOS</div>
+                                    <div>
+                                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/andrea_molle_automatizaciones_comunicaciones_tareas.png') }}"
+                                            loading="lazy">
+                                    </div>
                                 </div>
-
-                                <div>
-                                    <img src="{{ App::setFilePath('/assets/images/illustrations/others/andrea_molle_automatizaciones_comunicaciones_tareas.png') }}"
-                                        loading="lazy">
-                                </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </section>
 
                 <section class="innerSectionElement sct3">
                     <div class="cards-container">
-                        <div class="cardLeft">
-                            <span>
-                                Promuévete y captura <br class="DT_e">
-                                información de <br class="DT_e">
-                                clientes potenciales
-                            </span>
-                        </div>
 
+                        <a href="https://escala.com/landing-pages/">
+                            <div class="cardLeft " id="img1">
+                                <span>
+                                    Promuévete y captura <br class="DT_e">
+                                    información de <br class="DT_e">
+                                    clientes potenciales
+                                </span>
+                            </div>
+                        </a>
                         <div class="cardRight">
-                            <div class="card">
-                                <span>
-                                    Envía Emails y <br class="DT_e">
-                                    WhatsApps <br class="DT_e">
-                                    masivos
-                                </span>
-
-                            </div>
-                            <div class="card">
-                                <span>
-                                    Mide y optimiza <br class="DT_e">
-                                    tus resultados en <br class="DT_e">
-                                    tiempo real
-                                </span>
-
-                            </div>
+                            <a href="https://escala.com/email/">
+                                <div class="card" id="img2">
+                                    <span>
+                                        Envía Emails y <br class="DT_e">
+                                        WhatsApps <br class="DT_e">
+                                        masivos
+                                    </span>
+                                </div>
+                            </a>
+                            <a href="https://escala.com/reportes/">
+                                <div class="card" id="img3">
+                                    <span>
+                                        Mide y optimiza <br class="DT_e">
+                                        tus resultados en <br class="DT_e">
+                                        tiempo real
+                                    </span>
+                                </div>
+                            </a>
                         </div>
 
                     </div>
@@ -550,9 +558,7 @@
                             Potenciado por <br class="DT_e">
                             <span> Inteligencia Artificial </span>
                         </h2>
-                        <span class="text">
-                            Interactúa con
-                        </span>
+
                         <div class="containerImg">
                             <img class="ottoPc" alt="Imagen equipo escala aprender a usar tu crm"
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/img_preview_chat_otto.png') }}"
@@ -566,7 +572,7 @@
 
                 </section>
                 <div class="btnCenter">
-                    <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                    <a class="primaryButton  hoverInEffect openPopUpButton popup-general-demo-2022">
                         Empieza ahora →
                     </a>
                 </div>
@@ -622,19 +628,33 @@
                 </div>
 
                 <div class="containerElement sct2">
-                    <a href="https://escala.com/casos-de-exito-poctlab/">
-                        <img alt=""
+                    <a href="https://escala.com/casos-de-exito-poctlab/" class="image-container">
+                        <img alt="" class="img-1"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes.png') }}"
                             loading="lazy">
-                    </a>
-                    <a href="https://escala.com/casos-de-exito-taller-5/">
-                        <img alt=""
-                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_3.png') }}"
+
+                        <img alt="" class="img-2"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_white_2.png') }}"
                             loading="lazy">
                     </a>
-                    <a href="https://escala.com/casos-de-exito-real-de-los-cues/">
-                        <img alt=""
+
+                    <a href="https://escala.com/casos-de-exito-taller-5/" class="image-container">
+                        <img alt="" class="img-1"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_3.png') }}"
+                            loading="lazy">
+
+                        <img alt="" class="img-2"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_white_2.png') }}"
+                            loading="lazy">
+                    </a>
+
+                    <a href="https://escala.com/casos-de-exito-real-de-los-cues/" class="image-container">
+                        <img alt="" class="img-1"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_2.png') }}"
+                            loading="lazy">
+
+                        <img alt="" class="img-2"
+                            src="{{ App::setFilePath('/assets/images/illustrations/others/card_preview_clientes_white_2.png') }}"
                             loading="lazy">
                     </a>
                 </div>

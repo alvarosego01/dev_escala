@@ -1134,6 +1134,8 @@ img
                     background-size: cover
                     background-repeat: no-repeat
                     border-radius: 20px
+                    filter: drop-shadow(0px 4px 30px rgba(0, 127, 150, 0.20))
+                    border: none
                     @include responsivo(telefonoTable)
                         flex-direction: column
                         padding: 40px 30px 0px 30px
@@ -1147,7 +1149,13 @@ img
                         gap: 20px
                     @include responsivo(general)
                         width: 410px
-                    
+                    &:hover
+                        background-image: url('https://escala.com/wp-content/uploads/2025/03/bg_vertical_card_vertical_hover.png')!important
+                        h3
+                            color: #2C4857
+                        .tag
+                            background: linear-gradient(90deg, #007F96 0%, #F1685A 100%)
+                            color: #fff
                     div
                         display: flex
                         justify-content: center
@@ -1201,7 +1209,8 @@ img
                     flex: 1
                     @include responsivo(telefonoTable)
                         gap: 40px
-
+                a
+                    text-decoration: none!important
 
                     .card
                         display: flex
@@ -1215,6 +1224,8 @@ img
                         background-size: cover
                         background-repeat: no-repeat
                         padding: 40px 45px 40px 45px
+                        filter: drop-shadow(0px 4px 30px rgba(0, 127, 150, 0.20))
+                        border: none
                         @include responsivo(telefonoTable)
                             padding: 40px 30px
                             flex-direction: column
@@ -1222,6 +1233,13 @@ img
                         @include responsivo(general)
                             padding: 40px 30px 40px 30px   
                             gap: 40px 
+                        &:hover
+                            background-image: url('https://escala.com/wp-content/uploads/2025/03/bg_vertical_card_hover.png')!important
+                            .info h3
+                                color: #2C4857
+                            .info .tag
+                                background: linear-gradient(90deg, #007F96 0%, #F1685A 100%)
+                                color: #fff
                         .info
                             width: 320px
                             display: flex
@@ -1245,6 +1263,7 @@ img
                                     margin-bottom: 20px
                                 @include responsivo(general)
                                     font-size: 27.5px
+                               
                             .tag
                                 background-color: #fff
                                 color: #212A31
@@ -1280,6 +1299,8 @@ img
                     gap: 40px
                 @include responsivo(pcMedio)
                     flex-direction: column
+                a
+                    text-decoration: none!important
                 .cardLeft
                     width: 510px
                     border-radius: 20px
@@ -1289,6 +1310,10 @@ img
                     justify-content: center
                     align-items: center                    
                     padding: 60px 30px
+                    min-height: 200px
+                    background-size: cover
+                    background-repeat: no-repeat
+                    background-image: url('https://escala.com/wp-content/uploads/2025/03/bg_card_horizontal_blue_min.png')!important
                     @include responsivo(telefonoTable)
                         width: 100%
                         padding: 40px 20px
@@ -1302,15 +1327,13 @@ img
 
                     &:hover
                         background-color: #0000
-                        cursor: pointer
-                        background-image: url('https://escala.com/wp-content/uploads/2025/03/bg_card_horizontal_blue_min.png')!important
                         background-repeat: no-repeat
                         background-size: cover                      
                         span
-                            color: #fff
+                            color: #2C4857
                     
                     span
-                        color: #2C4857
+                        color: #fff
                         text-align: center
                         font-family: Mulish
                         font-size: 30px
@@ -1321,6 +1344,10 @@ img
                             font-size: 24px
                         @include responsivo(general)
                             font-size: 27.5px
+                #img1
+                    &:hover
+                        background-image: url('https://escala.com/wp-content/uploads/2025/03/bg_white_hover_card_1-1.png')!important
+
                 .cardRight
                     display: flex
                     gap: 30px
@@ -1328,6 +1355,11 @@ img
                     @include responsivo(telefonoTable)
                         flex-direction: column
                         gap: 40px
+                    a
+                        text-decoration: none!important
+                        flex: 1 1 300px 
+                        @include responsivo(telefonoTable)
+                            flex: 0
                     .card
                         border-radius: 20px
                         background-color: #fff
@@ -1337,23 +1369,26 @@ img
                         justify-content: center
                         align-items: center
                         border: none
-                        flex: 1 1 300px // flex-grow: 1; flex-shrink: 1; flex-basis: 300px;
+                        background-image: url('https://escala.com/wp-content/uploads/2025/03/bg_card_horizontal_blue_min.png')!important
+                        background-repeat: no-repeat
+                        background-size: cover
+                        min-height: 200px
+                        // flex-grow: 1; flex-shrink: 1; flex-basis: 300px;
                         @include responsivo(telefonoTable)
                             padding: 40px 20px
                             min-height: 160px
-                            flex: 0
+                            
                         @include responsivo(general)
                             padding: 30px 30px
                         &:hover
                             background-color: #0000
                             cursor: pointer
-                            background-image: url('https://escala.com/wp-content/uploads/2025/03/bg_card_horizontal_blue_min.png')!important
                             background-repeat: no-repeat
                             background-size: cover
                             span
-                                color: #fff   
+                                color: #2C4857 
                         span
-                            color: #2C4857
+                            color: #fff
                             text-align: center
                             font-family: Mulish
                             font-size: 30px
@@ -1363,7 +1398,15 @@ img
                             @include responsivo(telefonoTable)
                                 font-size: 24px
                             @include responsivo(general)
-                                font-size: 27.5px                  
+                                font-size: 27.5px 
+
+                    #img2
+                        &:hover
+                            background-image: url('https://escala.com/wp-content/uploads/2025/03/bg_white_hover_card_2-1-1.png')!important
+                    #img3
+                        &:hover
+                            background-image: url('https://escala.com/wp-content/uploads/2025/03/bg_white_hover_card_3-1.png')!important
+                 
         .imageMobileCenter 
             display: none
             @include responsivo(telefonoTable)
@@ -1455,27 +1498,11 @@ img
                         font-feature-settings: 'liga' off, 'clig' off
                         font-family: Mulish
 
-                span.text
-                    color: #212a31
-                    text-align: center
-                    font-size: 30px
-                    font-weight: 600
-                    font-family: Mulish
-                    line-height: 1    
-                    @include responsivo(telefonoTable)
-                        font-size: 24px
-                        width: 330px
-                    @include responsivo(pcMedio)
-                        font-size: 24px        
-                    @include responsivo(general)
-                        font-size: 27.5px 
-                    @include responsivo(smallPcTablet)
-                        font-size: 27.5px 
                 .containerImg
                     padding: 40px 0px 0px 0px
                     img 
                         width: auto
-                        height: 490px
+                        height: 550px
                         @include responsivo(telefonoTable)
                             height: auto
                     .ottoPc
@@ -1500,7 +1527,7 @@ img
                 @include responsivo(smallPcTablet)
                     padding: 25px 55px!important
                 &:hover
-                    background-color: #83E3D0!important
+                    background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%)!important
                     color: #fff
 
 #new-home-2025 .customSection.sectionParent.new-home-2025-6
@@ -1669,7 +1696,6 @@ img
             @include responsivo(resto)
                 font-size: 48px
 
-
     .containerElement.sct2
         display: flex
         justify-content: center
@@ -1677,19 +1703,36 @@ img
         flex-direction: row
         @include responsivo(telefonoTable)
             flex-direction: column
-        img
-            width: auto
-            padding: 0px
-            margin: 0px
-            height: 450px
-            @include responsivo(telefonoTable)
-                height: auto
-            @include responsivo(pcMedio)
-                height: 310px
-            @include responsivo(general)
-                height: 411px
-            @include responsivo(resto)
-                height: 500px
+        .image-container
+            position: relative
+            display: inline-block
+        
+            .img-2
+                display: none
+        
+            &:hover
+                .img-1
+                    display: none
+        
+                .img-2
+                    display: block
+
+
+            img
+                width: auto
+                padding: 0px
+                margin: 0px
+                height: 450px
+                @include responsivo(telefonoTable)
+                    height: auto
+                @include responsivo(pcMedio)
+                    height: 310px
+                @include responsivo(general)
+                    height: 411px
+                @include responsivo(resto)
+                    height: 500px
+
+
 
 #new-home-2025 .customSection.sectionParent.new-home-2025-8
     padding: 0
@@ -1813,6 +1856,7 @@ img
                             font-family: "Mulish", sans-serif!important
                             min-width: 363px!important
                             padding: 25px 80px!important
+                            transition: background 0.3s ease
                             @include responsivo(telefonoTable)
                                 min-width: 100% !important
                                 padding: 25px 32px!important
@@ -1820,7 +1864,8 @@ img
                                 min-width: 330px!important
                                 padding: 25px 55px!important
                             &:hover
-                                background-color: #83E3D0!important
+                                background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)!important
+
                         .text-white
                             color: #fff
                             font-family: "Mulish", sans-serif
