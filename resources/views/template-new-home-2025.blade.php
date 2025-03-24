@@ -504,8 +504,8 @@
                         <a href="https://escala.com/landing-pages/">
                             <div class="cardLeft " id="img1">
                                 <span>
-                                    Promuévete y captura <br class="DT_e">
-                                    información de <br class="DT_e">
+                                    Promuévete tu oferta y <br class="DT_e">
+                                    captura información de <br class="DT_e">
                                     clientes potenciales
                                 </span>
                             </div>
@@ -523,9 +523,8 @@
                             <a href="https://escala.com/reportes/">
                                 <div class="card" id="img3">
                                     <span>
-                                        Mide y optimiza <br class="DT_e">
-                                        tus resultados en <br class="DT_e">
-                                        tiempo real
+                                        Analiza resultados <br class="DT_e">
+                                        en tiempo real
                                     </span>
                                 </div>
                             </a>
@@ -593,9 +592,9 @@
                             </h2>
 
                             <span class="text">
-                                ¡En Escala no estás solo! ¿No tienes tiempo para implementar? <br class="DT_e">
-                                No hay problema. Nuestros especialistas personalizan el CRM a <br class="DT_e">
-                                las necesidades de tu empresa
+                                En Escala no estás solo. ¿Tienes poco tiempo o recursos <br class="DT_e">
+                                para adaptar el CRM a tu empresa? <br class="DT_e">
+                                ¡Tranquilo! Nuestros especialistas se encargan.
                             </span>
                         </div>
 
