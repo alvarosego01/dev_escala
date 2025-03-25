@@ -1,31 +1,33 @@
 @import ../../common/global
-
+body
+    background: #FAFBFD!important
+#subPage_zoom_meeting_2023
+    background: #FAFBFD!important
 #subPage_zoom_meeting_2023 .customSection.sectionParent.subPage_zoom_meeting_2023_0
     padding: 0
+    
     .backgroundFull
-        padding-top: 150px
-        margin-top: -100px
+        padding-top: 75px
+        margin-top: 0
         background-position: center
         background-repeat: no-repeat
         background-size: cover
         @include responsivo(telefonoTable)
             background-position: center 0px
-            padding-top: 75px!important
+            padding-top: 35px!important
+            padding-bottom: 35px!important
             background-size: 6910px
-            margin-top: -60px
         @include responsivo(pcMedio)
             background-position: center -0px
-            padding-top: 100px!important
             background-size: 6240px
-            margin-top: -70px
+           
         @include responsivo(general)
             background-position: 54% -78px
-            padding-top: 100px
             background-size: 5000px
-            margin-top: -70px
+           
         @include responsivo(smallPcTablet)
             background-position: 40% -55px
-            margin-top: -70px
+           
         @include responsivo(resto)
             background-position: 55% -67px
             background-size: 5000px
@@ -54,11 +56,11 @@
             padding: 0
 
         section.innerSectionElement.sct3
-            margin-top: 35px
+            margin-top: 50px
             @include responsivo(telefonoTable)
-                margin-top: 25px
+                margin-top: 0
             @include responsivo(pcMedio)
-                margin-top: 25px
+                margin-top: 50px
 
             .groupElements
                 display: flex
@@ -72,16 +74,13 @@
                     justify-items: center
                     justify-content: center
                     align-content: center
-
                     text-decoration: none
-
-                    color: #36768A
-                    font-family: Nunito
+                    font-family: Mulish
                     font-size: 18px
                     font-style: normal
                     font-weight: 600
                     line-height: 1
-                    letter-spacing: -1px
+                  
                     @include responsivo(telefonoTable)
                         font-size: 12px
                     @include responsivo(pcMedio)
@@ -107,24 +106,25 @@
             .containElements
                 h1.primaryTitle
                     text-align: center
-                    color: #322C2E
-                    font-family: Nunito
-                    font-size: 42.5px
+                    color: #2C4857
+                    font-family: Mulish
+                    font-size: 48px
                     font-style: normal
                     font-weight: 700
                     line-height: 1
-                    letter-spacing: -1.5px
-                    span
-                        color: #36768A
                     @include responsivo(telefonoTable)
-                        font-size: 32px
-                    @include responsivo(pcMedio)
-                        font-size: 32px
-                    @include responsivo(general)
                         font-size: 40px
+                    @include responsivo(pcMedio)
+                        font-size: 40px
+                    @include responsivo(general)
+                        font-size: 45px
                     @include responsivo(smallPcTablet)
-                        font-size: 37.5px
-
+                        font-size: 45px
+                    span
+                        font-family: Mulish
+                        @include responsivo(telefonoTable)
+                            display: block
+                            
         section.innerSectionElement.sct2
             .groupElements
                 display: flex
@@ -132,30 +132,32 @@
                 justify-content: center
                 gap: 30px
                 @include responsivo(telefonoTable)
-                    
+                    gap: 40px
                 @include responsivo(pcMedio)
                     flex-direction: column!important
                 .cardsContainer
-                    width: 55%
+                    width: 62%
                     @include responsivo(telefonoTable)
-                        width: 95%
+                        width: 100%
                     @include responsivo(pcMedio)
-                        width: 90%
+                        width: 100%
                         margin: 0 auto
+                    @include responsivo(general)
+                        width : 68%
                     .containElements
                         .card
                             display: flex
-                            justify-content: space-evenly
+                            justify-content: center
                             flex-direction: row-reverse!important
-                            gap: 30px
-                            height: 240px
+                            gap: 20px
+                            height: 220px
                             border-radius: 12px
                             border: none
-                            background-color: #fff
+                            background: linear-gradient(88deg, #2C4857 34.16%, #007F96 95.84%)
                             @include responsivo(telefonoTable)
                                 height: auto
                                 gap: 20px
-                                padding: 30px 20px 0px 20px
+                                padding: 30px 0px 0px 0px
                                 flex-direction: column-reverse!important
                             @include responsivo(smallPcTablet)
                                 height: 210px
@@ -167,11 +169,19 @@
                                 @include responsivo(telefonoTable)
                                     top: 0
                                 img
-                                    height: 260px
+                                    height: 240px
                                     @include responsivo(telefonoTable)
-                                        height: 200px
+                                        height: 130px
                                     @include responsivo(smallPcTablet)
                                         height: 230px
+                                .img_dtk
+                                    @include responsivo(telefonoTable)
+                                        display: none
+                                .img_mb
+                                    display: none
+                                    @include responsivo(telefonoTable)
+                                        display: block
+                                
                             .action
                                 display: flex
                                 justify-content: center
@@ -183,19 +193,32 @@
                                 @include responsivo(pcMedio)
                                     width: auto
                                 a
-                                    font-size: 24px!important
+                                    font-family: Mulish
+                                    font-size: 30px!important
+                                    padding: 24px 60px!important
                                     @include responsivo(telefonoTable)
-                                    
-                                        font-size: 26px!important
+                                        font-size: 25px!important
+                                        text-align: center
+                                        padding: 24px 38px !important
                                     @include responsivo(pcMedio)
-                                        font-size: 24px!important
+                                        font-size: 30px!important
                                     @include responsivo(smallPcTablet)
-                                        font-size: 20px!important
+                                        font-size: 30px!important
+                                        padding:24px 30px!important
+                                    &:hover
+                                        background: linear-gradient(90deg, #F34F36 0%, #1CB6AF 100%)!important
+
+
+
+
+
                                 small
-                                    font-size: 14px
+                                    font-family: Mulish
+                                    font-size: 18px
                                     text-align: center
-                                    color: #797979
-                                    margin-top: 5px
+                                    color: #FFF
+                                    margin-top: 20px
+                                    line-height: 1
             .info
                 display: flex
                 flex-direction: column
@@ -214,11 +237,11 @@
                     h4 
                         text-align: left 
                         font-size: 24px
-                        font-weight: 700
+                        font-weight: 800
                         line-height: 1
-                        letter-spacing: -1px
-                        color: #322C2E
-                        margin-bottom: 10px
+                        color: #2C4857
+                        margin-bottom: 20px
+                        font-family: Mulish
                         @include responsivo(telefonoTable)
                             font-size: 23.5px
                             margin-bottom: 15px  
@@ -226,26 +249,32 @@
                             font-size: 24px
                             margin-bottom: 15px  
                     h3
-                        color: #36768A
-                        font-size: 18px
-                        font-weight: 700
+                        color: #2C4857
+                        font-size: 22px
+                        font-weight: 600
                         line-height: 1
-                        letter-spacing: -1px
+                        font-family: Mulish
+                        margin-bottom: 20px
                         @include responsivo(telefonoTable)
                             font-size: 21px
                         @include responsivo(pcMedio)
                             font-size: 21px
                     .text
+                        display: flex
+                        flex-direction: column
+                        gap: 10px
                         div
                             display: flex
                             align-items: center
+                            
                             p
-                                color: #706B6D
-                                font-weight: 500
+                                color: #212A31
+                                font-weight: 600
                                 line-height: 1.2
-                                font-size: 14px
+                                font-size: 18px
+                                font-family: Mulish
                                 margin-bottom: 0px
-                                width: 140px!important
+                                width: 170px!important
                                 @include responsivo(telefonoTable)
                                     font-size: 16px
                                     width: 150px!important
@@ -283,12 +312,13 @@
                 @include responsivo(pcMedio)
                     margin-top: 35px
                 h2
-                    color: #322C2E
+                    color: #2C4857
                     font-size: 24px
                     font-weight: 700
                     line-height: 1
-                    letter-spacing:  -1px
-                    margin-bottom: 10px
+                    font-family: Mulish
+                    
+                    margin-bottom: 20px
                     @include responsivo(telefonoTable)
                         font-size: 23.5px
                     @include responsivo(pcMedio)
@@ -297,16 +327,25 @@
                     
 
                 .trans
-                    background-color: #00D35B
+                    background-color: #15B9B3
                     border-radius: 10px
                     color: #fff
-                    padding: 13px 20px
+                    padding:  20px 70px
                     font-weight: 600
                     font-size: 24px
+                    font-family: Mulish
                     @include responsivo(telefonoTable)
                         font-size: 20px
-                        padding: 10px 20px
+                        padding: 20px 15px
+                        text-align: center
+                        display: flex
+                        align-items: center
+                    
                     @include responsivo(pcMedio)
-                        font-size: 20px
-                        padding: 10px 20px
-
+                        font-size: 22px
+                    &:hover
+                        background: linear-gradient(90deg, #15B9B3 0%, #007F96 100%)
+                        color: #fff
+                    a
+                        @include responsivo(telefonoTable)
+                            margin: 0
