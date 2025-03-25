@@ -121,6 +121,7 @@ body
                     @include responsivo(smallPcTablet)
                         font-size: 45px
                     span
+                        font-family: Mulish
                         @include responsivo(telefonoTable)
                             display: block
                             
@@ -170,9 +171,17 @@ body
                                 img
                                     height: 240px
                                     @include responsivo(telefonoTable)
-                                        height: 200px
+                                        height: 130px
                                     @include responsivo(smallPcTablet)
                                         height: 230px
+                                .img_dtk
+                                    @include responsivo(telefonoTable)
+                                        display: none
+                                .img_mb
+                                    display: none
+                                    @include responsivo(telefonoTable)
+                                        display: block
+                                
                             .action
                                 display: flex
                                 justify-content: center
@@ -319,8 +328,8 @@ body
                     font-size: 24px
                     font-family: Mulish
                     @include responsivo(telefonoTable)
-                        font-size: 22px
-                        padding: 20px 45px
+                        font-size: 20px
+                        padding: 20px 15px
                         text-align: center
                         display: flex
                         align-items: center

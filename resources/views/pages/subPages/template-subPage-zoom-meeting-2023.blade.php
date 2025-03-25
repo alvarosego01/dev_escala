@@ -21,7 +21,8 @@
                                 <div class="containElements">
                                     <div class="card ">
                                         <div class="containerImage">
-                                            <img src="{!! App::setFilePath('/assets/images/person/am/am_page_zoom_meeting.png') !!}" alt="">
+                                            <img class="img_dtk" src="{!! App::setFilePath('/assets/images/person/am/am_page_zoom_meeting.png') !!}" alt="">
+                                            <img class="img_mb" src="{!! App::setFilePath('/assets/images/person/am/am_page_zoom_meeting_mb.png') !!}" alt="">
                                         </div>
                                         <div class="action">
                                             <a href="https://us02web.zoom.us/j/6758915436" class=" primaryButton hoverInEffect">
