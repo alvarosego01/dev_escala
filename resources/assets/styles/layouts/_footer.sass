@@ -342,7 +342,7 @@
 
 footer.bootstrap_landing_small,
 barter.bootstrap_landing_small
-    background-color: #322c2e
+    background-color: #FFF
     padding: 25px 0
     display: block
     .section-row
@@ -361,14 +361,20 @@ barter.bootstrap_landing_small
 
         .containElements
             p.text
-                color: #FFF
+                color: #A6A6A6
                 text-align: center
                 font-family: "Mulish", sans-serif
-                font-size: 14px
+                font-size: 13px
                 font-style: normal
                 font-weight: 600
                 line-height: 1
                 text-align: center
+                margin-bottom: 0px
                 @include responsivo(telefonoTable)
-                    font-size: 12px
-
+                    font-size: 13px
+                a
+                    color: #A6A6A6
+                    text-decoration: none
+                    transition: $trans
+                    &:hover
+                        color: $colorOrange
