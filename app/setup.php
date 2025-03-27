@@ -104,6 +104,14 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template($t)) {
 
         wp_enqueue_style('_blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
+        wp_enqueue_script('_blog.js', asset_path('scripts/pages/_blog.js'), ['jquery'], THEME_VERSION, true);
+
+        wp_enqueue_style('single_2024_v3.css', asset_path('styles/pages/blog/single_blog_2024_v3.css'), false, THEME_VERSION);
+    }
+    $t = SetComponents::setTemplates('blog');
+    if (is_page_template($t)) {
+
+        wp_enqueue_style('_blog.css', asset_path('styles/pages/blog/blogMain.css'), false, THEME_VERSION);
         wp_enqueue_style('single_especial_2024.css', asset_path('styles/pages/blog/single_blog_especial_2024.css'), false, THEME_VERSION);
     }
 
@@ -442,7 +450,7 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-casoExito-bg-construcciones.blade.php')) {
         wp_enqueue_style('subPage_casoExito_bg_construcciones.css', asset_path('styles/pages/subPages/casoExito/subPage_casoExito_bg_construcciones.css'), false, THEME_VERSION);
     }
-        
+
     // ---
     // --- Casos uso
     if (is_page_template('views/template-casoUso-home.blade.php')) {

@@ -8,10 +8,11 @@
         padding-bottom: 40px
     ul, ol
         margin-bottom: 0
-        font-family: Nunito
+        font-family:  "Mulish", sans-serif
         @include responsivo(telefonoTable)
             padding-left: 0
         li
+            font-family:  "Mulish", sans-serif
             @include responsivo(telefonoTable)
                 text-align: left
                 *
@@ -34,13 +35,13 @@
                 gap: 40px
             @include responsivo(general)
                 width: 95%!important
-                max-width: 900px!important
+                max-width: 1100px!important
             @include responsivo(smallPcTablet)
-                max-width: 900px!important
+                max-width: 1100px!important
                 gap: 50px
             @include responsivo(resto)
                 width: 90%!important
-                max-width: 900px!important
+                max-width: 1100px!important
 
             .groupElements.row
 
@@ -70,12 +71,12 @@
 
 
                     h3.secondaryTitle
-                        font-family: Nunito
+                        font-family:  "Mulish", sans-serif
                         font-style: normal
                         font-weight: 700
                         line-height: 1
-                        letter-spacing: -1.5px
-                        color: #34768A
+                      
+                        color: #212A31
                         margin-bottom: 25px
                         @include responsivo(telefonoTable)
                             font-size: 22.5px
@@ -90,7 +91,7 @@
                         @include responsivo(resto)
                             font-size: 24px
                         span
-                            font-family: Nunito
+                            font-family:  "Mulish", sans-serif
                             color: #F34F36
                         strong
                             font-weight: 700
@@ -98,18 +99,19 @@
                             &:last-child
                                 margin-bottom: 0
                     li
+                        font-family:  "Mulish", sans-serif
                         @include responsivo(telefonoTable)
                             margin-bottom: 12px!important
 
-                    .text, li
-                        font-family: Nunito
+                    .text, li,p
+                        font-family:  "Mulish", sans-serif
                         font-style: normal
-                        line-height: 1.25
-                        color: #706B6D
+                        line-height: 1
+                        color: #212A31
                         font-weight: 500
                         width: 100%!important
                         margin-bottom: 0
-                        letter-spacing: -1px
+                        font-size: 24px
                         margin-bottom: 0
                         text-align: left
                         @include responsivo(telefonoTable)
@@ -121,15 +123,15 @@
                             font-size: 16px
                             text-align: left
                         @include responsivo(general)
-                            font-size: 20px
+                            font-size:  24px
                         @include responsivo(smallPcTablet)
                             font-size: 18px!important
                         @include responsivo(resto)
-                            font-size: 20px
+                            font-size:  24px
                         ul,
                         ol
                             li
-                                line-height: 1.1
+                                line-height: 1
 
                         p
                             &:last-child
@@ -162,7 +164,7 @@
                             @include responsivo(smallPcTablet)
                                 height: 225px
                             @include responsivo(resto)
-                                height: 250px
+                                height: 300px
                 &.left
                     @include responsivo(pcMedio)
                         display: flex
