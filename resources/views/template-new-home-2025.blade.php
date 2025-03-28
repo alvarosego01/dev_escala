@@ -210,7 +210,13 @@
 
                                             </div>
                                             @endforeach
-
+                                            <div class="iconApp">
+                                                <a target="_blank"
+                                                    href="https://www.nvidia.com/en-us/startups/">
+                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/nvidia-inception-program-badge-rgb-for-screen.svg') !!}"
+                                                        loading="lazy">
+                                                </a>
+                                            </div>
                                         </div>
 
 
@@ -236,6 +242,8 @@
                         </span>
                     </div>
                     <div class="logos_empresas">
+                        <img src="{{ App::setFilePath('/assets/images/illustrations/others/nvidia-inception-program-badge-rgb-for-screen.svg') }}"
+                            loading="lazy" alt="Logo empresa nividia">
                         <img alt="Logos empresa"
                             src="{{ App::setFilePath('/assets/images/illustrations/others/logo_empresas_gris_forbes.png') }}"
                             loading="lazy">
