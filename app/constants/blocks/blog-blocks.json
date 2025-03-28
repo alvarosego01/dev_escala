@@ -170,6 +170,72 @@
             }
         ]
     },
+    
+    {
+        "name": "block-text-image-button",
+        "title": "Blog block text image button",
+        "description": "Blog text image block button",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "text, image, title,button",
+          "fields": [
+            {
+                "key": "media_text_1_sections_button",
+                "label": "Sections",
+                "type": "complex",
+                "layouts": [
+                    {
+                        "key": "media_text_1_layout_button",
+                        "label": "Info section",
+                        "fields": [
+                            {
+                                "key": "media_text_1_title_button",
+                                "label": "Title",
+                                "type": "rich_text",
+                                "default": "Titulo"
+                            },
+                            {
+                                "key": "media_text_1_description_button",
+                                "label": "Description",
+                                "type": "rich_text",
+                                "default": "Texto"
+                            },
+                            {
+                                "key": "media_text_1_image_button",
+                                "label": "Image",
+                                "type": "image",
+                                "default": ""
+                            },
+                               {
+                                "key": "media_text_1_side_button",
+                                "label": "Side content",
+                                "type": "select",
+                                "options": [
+                                    {
+                                        "label": "Right",
+                                        "value": "right"
+                                    },
+                                    {
+                                        "label": "Left",
+                                        "value": "left"
+                                    }
+                                ],
+                                "default": "image"
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "media_text_1_button_text",
+                "label": "Button Text",
+                "type": "text",
+                "default": "Texto dinamico de boton"
+            }
+        ]
+    },
     {
         "name": "block-text-image-fondo",
         "title": "Blog block text image fondo",

@@ -136,7 +136,7 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
             </div>
 
         </section>
-
+        @if (isset($post['blog_single_1_banner_enabled']) && $post['blog_single_1_banner_enabled'])
         <section class="customSection sectionParent single_blog_2024_v3 single_blog_2024_v3_9">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
@@ -150,17 +150,11 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
                         <img alt="{{ App::get_img($blog_single_1_banner_m, 'alt') }}" src="{{ App::get_img($blog_single_1_banner_m, 'src') }}" loading="lazy" class="card-img-top bannerSingleBlog M_e openPopUpButton popup-general-demo-2022">
                         @endif
 
-
-                        <!-- <script>
-                            jQuery('.bannerSingleBlog').on('click', function() {
-                                window.open('{!! $blog_single_1_banner_url !!}', '_blank');
-                            });
-                        </script> -->
-
                     </div>
                 </section>
             </div>
         </section>
+        @endif
 
         <section class="customSection sectionParent single_blog_2024_v3 single_blog_2024_v3_10">
             <div class="section-row">
