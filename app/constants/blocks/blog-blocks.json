@@ -301,6 +301,36 @@
         ]
     },
     {
+        "name": "block-text-center-fondo",
+        "title": "Blog block text center fondo",
+        "description": "Blog text center con fondo...",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "text, center, fondo",
+        "fields": [
+            {
+                "key": "media_centro_8_sections",
+                "label": "Sections",
+                "type": "complex",
+                "layouts": [
+                    {
+                        "key": "media_centro_8_layout",
+                        "label": "Info section",
+                        "fields": [
+                            {
+                                "key": "texto_centro",
+                                "label": "Center Text",
+                                "type": "rich_text",
+                                "default": "Texto centrado por defecto"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "block-text-image-fondo-right",
         "title": "Blog block text image fondo right",
         "description": "Blog text image block fondo right",
