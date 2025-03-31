@@ -329,6 +329,41 @@
                 ]
             }
         ]
+    },    {
+        "name": "block-text-dual-table",
+        "title": "Blog block tipo tabla dual",
+        "description": "Blog tabla de texto en columna",
+        "category": "blog",
+        "icon": "admin-comments",
+        "folder": "blog",
+        "keywords": "text, dual, columna, tabla",
+        "fields": [
+            {
+                "key": "media_centro_8_sections",
+                "label": "Sections",
+                "type": "complex",
+                "layouts": [
+                    {
+                        "key": "media_centro_8_layout",
+                        "label": "Info section",
+                        "fields": [
+                            {
+                                "key": "texto_1",
+                                "label": "Center Text",
+                                "type": "rich_text",
+                                "default": "Texto izquierda 1"
+                            },{
+                                "key": "texto_2",
+                                "label": "Center Text",
+                                "type": "rich_text",
+                                "default": "Texto deracha 2"
+                            }
+
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "block-text-image-fondo-right",
