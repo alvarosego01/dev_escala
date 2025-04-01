@@ -306,7 +306,6 @@ span.tag
     font-weight: bold
     font-size: 35px
     line-height: 36px
-    letter-spacing: -2px
     @include responsivo(telefonoTable)
         font-size: 30px
         line-height: 32.5px
@@ -974,28 +973,21 @@ a
     display: inline-block
     text-decoration: none
     line-height: 1
-    padding: 12.5px 20px!important
-    border-radius: 10px!important
-    color: $colorWhite
-    background-color: $colorOrange!important
-    width: fit-content
-    transition: $transitionButton
-    transform: scale(1)
-    font-family: Nunito
-    text-transform: none
     letter-spacing: normal
+    min-width: 100%!important
+    padding: 25px 80px!important
+    background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)!important
+    transition: background 0.3s ease
+    border-radius: 10px!important
+    color: #fff!important
+    font-family: "Mulish", sans-serif!important
     @include responsivo(telefonoTable)
-        font-size: 24px!important
-        padding: 10px 12.5px!important
-    @include responsivo(pcMedio)
-        font-size: 18px!important
-        padding: 10px 25px!important
-    @include responsivo(general)
-        font-size: 22px!important
+        padding: 25px 32px!important
     @include responsivo(smallPcTablet)
-        font-size: 18px!important
-    @include responsivo(resto)
-        font-size: 22px!important
+        padding: 25px 55px!important
+    &:hover
+        background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%)!important
+        color: #fff  
 
 
 
@@ -1031,7 +1023,6 @@ a
     display: flex
     align-items: center
     text-align: center
-    letter-spacing: -0.02em
     text-decoration-line: underline
     color: white
     transition: $trans
@@ -1145,7 +1136,6 @@ footer
                 line-height: 1!important
                 font-size: 16px
                 line-height: 24px
-                letter-spacing: -1px
 
 
 .switchCustom
@@ -1611,7 +1601,6 @@ $button-selection: 2
             text-decoration: none
             font-size: 18px
             line-height: 1
-            letter-spacing: -1px
             font-weight: 600
             display: flex
             justify-self: center
@@ -1688,7 +1677,6 @@ $button-selection: 2
         line-height: 1
         display: flex
         align-items: center
-        letter-spacing: -1px
         color: #36768A
         text-decoration: none
         transition: $trans
