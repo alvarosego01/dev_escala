@@ -98,15 +98,17 @@
                         color: #212A31
                         margin-bottom: 25px
                         @include responsivo(telefonoTable)
-                            font-size: 22.5px
+                            font-size: 25px
                             text-align: center
                         @include responsivo(pcMedio)
-                            font-size: 25px
+                            font-size: 22.5px
                             text-align: left
                             br
                                 display: none!important
                         @include responsivo(general)
                             font-size: 30px
+                        @include responsivo(smallPcTablet)
+                            font-size: 25px
                         @include responsivo(resto)
                             font-size: 30px
                         span
@@ -134,7 +136,7 @@
                         margin-bottom: 0
                         text-align: left
                         @include responsivo(telefonoTable)
-                            font-size: 16px
+                            font-size: 20px
                             width: fit-content!important
                             margin: 0 auto
                             text-align: center
@@ -151,6 +153,7 @@
                         ol
                             li
                                 line-height: 1
+                                text-align: left!important
 
                         p
                             &:last-child
@@ -176,14 +179,14 @@
                                 height: 170px
                                 margin-bottom: 0
                             @include responsivo(pcMedio)
-                                height: 175px
+                                height: 200px
                                 margin-bottom: 0
                             @include responsivo(general)
-                                height: 250px
+                                height: 280px
                             @include responsivo(smallPcTablet)
-                                height: 225px
+                                height: 250px
                             @include responsivo(resto)
-                                height: 300px
+                                height: 325px
                 &.left
                     @include responsivo(pcMedio)
                         display: flex

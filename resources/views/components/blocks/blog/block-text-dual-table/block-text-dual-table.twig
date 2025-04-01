@@ -1,4 +1,6 @@
 {% set media_centro_8_sections = fields.media_centro_8_sections %}
+{% set texto_mb_left = fields.texto_mb_left %}
+{% set texto_mb_right = fields.texto_mb_right %}
 
 <section class="block_text_dual_tabla customSection sectionParent">
     <div class="section_contain">
@@ -6,6 +8,8 @@
             {% for item in media_centro_8_sections %}
                 {% set texto_1 = item.texto_1 %}
                 {% set texto_2 = item.texto_2 %}
+
+                <!-- Desktop Section -->
                 <div class="dualSection">
                     <div class="textContainer textLeft">
                         {% if texto_1 != '' %}
@@ -21,5 +25,20 @@
                 </div>
             {% endfor %}
         {% endif %}
+
+        <!-- Mobile Section -->
+        <div class="dualSectionMb">
+            <div class="textContainer textLeft">
+                {% if texto_mb_left != '' %}
+                    {{ texto_mb_left|raw }}
+                {% endif %}
+            </div>
+
+            <div class="textContainer textRight">
+                {% if texto_mb_right != '' %}
+                    {{ texto_mb_right|raw }}
+                {% endif %}
+            </div>
+        </div>
     </div>
 </section>

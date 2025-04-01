@@ -125,6 +125,8 @@ body
         overflow: visible
         background-size: cover
         background-position: center
+        @include responsivo(telefonoTable)
+            background-size: 4000px
         @include responsivo(pcMedio)
             padding-bottom: 0px!important
         @include responsivo(general)
@@ -197,15 +199,15 @@ body
                                 line-height: 1
                                 margin-bottom: 0
                                 @include responsivo(telefonoTable)
-                                    font-size: 25px
+                                    font-size: 36px
                                     text-align: center
                                 @include responsivo(pcMedio)
-                                    font-size: 27.5px
+                                    font-size: 38.5px
                                     text-align: left!important
                                 @include responsivo(general)
-                                    font-size: 32.5px
+                                    font-size: 50.5px
                                 @include responsivo(smallPcTablet)
-                                    font-size: 30px
+                                    font-size: 45px
                                 @include responsivo(resto)
                                     width: 490px
                                 p
@@ -223,7 +225,7 @@ body
                                 line-height: 1
                                 margin-top: 25px
                                 @include responsivo(telefonoTable)
-                                    font-size: 16px
+                                    font-size: 20px
                                     text-align: center
                                    
                                     display: flex
@@ -233,11 +235,11 @@ body
                                  
                                     text-align: left!important
                                 @include responsivo(general)
-                                    font-size: 20px
+                                    font-size: 24px
                                     
                                     width: 435px!important
                                 @include responsivo(smallPcTablet)
-                                    font-size: 18px
+                                    font-size: 22px
                                     margin-bottom: 20px
                                     width: fit-content!important
                                 @include responsivo(resto)
@@ -261,6 +263,8 @@ body
                                     margin-top: 25px
                                     font-size: 16px!important
                                     display: block
+                                    @include responsivo(telefonoTable)
+                                        margin-bottom: 23px
                             .btnNaranja
                                 background-color: #F34F36
                                 color: #fff
@@ -338,7 +342,7 @@ body
                                 left: -25px
                             @include responsivo(smallPcTablet)
                                 position: absolute
-                                bottom: 55px
+                                bottom: 135px
                                 left: -50px
                             .containerImage
                                 width: 100%
@@ -383,7 +387,7 @@ body
                     display: flex
                     margin: 0 auto
                     @include responsivo(telefonoTable)
-                        width: 90%
+                        width: 100%
                         display: block
                     @include responsivo(pcMedio)
                         width: 50%
@@ -445,7 +449,7 @@ body
                         position: relative
 
                     @include responsivo(pcMedio)
-                        bottom: -25px
+                        bottom: 35px
                     .image
                         display: flex
                         justify-content: center
@@ -1323,6 +1327,7 @@ body
                     span
                         color: #150D27
                         font-weight: 700
+                        font-family: "Mulish", sans-serif
 
         .innerSectionElement.sct1.row.cards_parent
             display: flex

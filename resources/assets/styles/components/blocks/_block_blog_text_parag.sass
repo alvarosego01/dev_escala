@@ -71,7 +71,12 @@
                 text-align: center
                 color: #212A31
                 margin-bottom: 25px
-
+                @include responsivo(telefonoTable)
+                    font-size: 32px
+                @include responsivo(pcMedio)
+                    font-size: 32px
+                @include responsivo(smallPcTablet)
+                    font-size: 42px
             .primaryText, li
                 color: #212A31
                 text-align: left
@@ -80,17 +85,18 @@
                 font-weight: 500
                 font-family: "Mulish", sans-serif
                 @include responsivo(telefonoTable)
-                    font-size: 16px
+                    font-size: 20px
                     text-align: center
                 @include responsivo(pcMedio)
                     font-size: 16px
                 @include responsivo(general)
-                    font-size: 20px
+                    font-size: 24px
                 @include responsivo(smallPcTablet)
                     font-size: 18px!important
                 *
                     line-height: 1
                     
                 p
+                    font-family: "Mulish", sans-serif
                     &:last-child
                         margin-bottom: 0

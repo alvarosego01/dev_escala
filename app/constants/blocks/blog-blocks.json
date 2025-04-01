@@ -1,860 +1,864 @@
 [
-    {
-        "name": "block-video",
-        "title": "Blog block video",
-        "description": "Blog video block",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "video, cta",
-        "fields": [
-            {
-                "key": "text_video_1_title",
+  {
+    "name": "block-video",
+    "title": "Blog block video",
+    "description": "Blog video block",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "video, cta",
+    "fields": [
+      {
+        "key": "text_video_1_title",
+        "label": "Title",
+        "type": "rich_text",
+        "default": "lorem ipsum dolor sit amet"
+      },
+      {
+        "key": "text_video_1_parag",
+        "label": "Paragraph",
+        "type": "rich_text",
+        "default": "lorem ipsum dolor sit amet"
+      },
+      {
+        "key": "text_video_1_image_portrait",
+        "label": "Portrait",
+        "type": "image",
+        "default": ""
+      },
+      {
+        "key": "text_video_1_video",
+        "label": "Video",
+        "type": "file",
+        "default": ""
+      },
+      {
+        "key": "text_video_1_label",
+        "label": "Button 1 text",
+        "type": "text",
+        "default": "Button"
+      },
+      {
+        "key": "text_video_1_url",
+        "label": "Button 1 URL",
+        "type": "url",
+        "default": "#"
+      }
+    ]
+  },
+  {
+    "name": "block-text-parag",
+    "title": "Blog block text parag",
+    "description": "Blog text parag block",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, parag",
+    "fields": [
+      {
+        "key": "text_parag_1_title",
+        "label": "Title",
+        "type": "rich_text",
+        "default": "lorem ipsum dolor sit amet"
+      },
+
+      {
+        "key": "text_parag_1_parag",
+        "label": "Paragraph",
+        "type": "rich_text",
+        "default": "lorem ipsum dolor sit amet"
+      }
+    ]
+  },
+  {
+    "name": "block_blog_text_indice",
+    "title": "Blog block text indice",
+    "description": "Blog text indice",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, parag",
+    "fields": [
+      {
+        "key": "text_indice_3_title",
+        "label": "Title",
+        "type": "rich_text",
+        "default": "lorem ipsum dolor sit amet"
+      },
+
+      {
+        "key": "text_indice_3_parag",
+        "label": "Paragraph",
+        "type": "rich_text",
+        "default": "lorem ipsum dolor sit amet"
+      },
+      {
+        "key": "text_indice_3_background_color",
+        "label": "Background Color",
+        "type": "color",
+        "default": "#FFF3F1"
+      },
+      {
+        "key": "text_indice_3_title_color",
+        "label": "Title Color",
+        "type": "color",
+        "default": "#F34F36"
+      },
+      {
+        "key": "text_indice_3_parag_color",
+        "label": "Lista Color",
+        "type": "color",
+        "default": "#F34F36"
+      }
+    ]
+  },
+  {
+    "name": "block-text-image",
+    "title": "Blog block text image",
+    "description": "Blog text image block",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, image, title",
+    "fields": [
+      {
+        "key": "media_text_1_sections",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_text_1_layout",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "media_text_1_title",
                 "label": "Title",
                 "type": "rich_text",
                 "default": "lorem ipsum dolor sit amet"
-            },
-            {
-                "key": "text_video_1_parag",
-                "label": "Paragraph",
+              },
+              {
+                "key": "media_text_1_description",
+                "label": "Description",
                 "type": "rich_text",
                 "default": "lorem ipsum dolor sit amet"
-            },
-            {
-                "key": "text_video_1_image_portrait",
-                "label": "Portrait",
+              },
+              {
+                "key": "media_text_1_image",
+                "label": "Image",
                 "type": "image",
                 "default": ""
-            },
-            {
-                "key": "text_video_1_video",
-                "label": "Video",
-                "type": "file",
+              },
+              {
+                "key": "media_text_1_side",
+                "label": "Side content",
+                "type": "select",
+                "options": [
+                  {
+                    "label": "Right",
+                    "value": "right"
+                  },
+                  {
+                    "label": "Left",
+                    "value": "left"
+                  }
+                ],
+                "default": "image"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "block-text-image-button",
+    "title": "Blog block text image button",
+    "description": "Blog text image block button",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, image, title,button",
+    "fields": [
+      {
+        "key": "media_text_1_sections_button",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_text_1_layout_button",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "media_text_1_title_button",
+                "label": "Title",
+                "type": "rich_text",
+                "default": "Titulo"
+              },
+              {
+                "key": "media_text_1_description_button",
+                "label": "Description",
+                "type": "rich_text",
+                "default": "Texto"
+              },
+              {
+                "key": "media_text_1_image_button",
+                "label": "Image",
+                "type": "image",
                 "default": ""
-            },
+              },
+              {
+                "key": "media_text_1_side_button",
+                "label": "Side content",
+                "type": "select",
+                "options": [
+                  {
+                    "label": "Right",
+                    "value": "right"
+                  },
+                  {
+                    "label": "Left",
+                    "value": "left"
+                  }
+                ],
+                "default": "image"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "media_text_1_button_text",
+        "label": "Button Text",
+        "type": "text",
+        "default": "Texto dinamico de boton"
+      }
+    ]
+  },
+  {
+    "name": "block-text-image-fondo",
+    "title": "Blog block text image fondo",
+    "description": "Blog text image block fondo",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, image, title,fondo",
+    "fields": [
+      {
+        "key": "media_text_3_sections",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_text_3_layout",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "media_text_3_title",
+                "label": "Title",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+              },
+              {
+                "key": "media_text_3_description",
+                "label": "Description",
+                "type": "rich_text",
+                "default": "Fondo corto de izquierda a derecha mas imagen - texto y titulo a la derecha Side content left"
+              },
+              {
+                "key": "media_text_3_image",
+                "label": "Image",
+                "type": "image",
+                "default": ""
+              },
+              {
+                "key": "media_text_3_side",
+                "label": "Side content",
+                "type": "select",
+                "options": [
+                  {
+                    "label": "Right",
+                    "value": "right"
+                  },
+                  {
+                    "label": "Left",
+                    "value": "left"
+                  }
+                ],
+                "default": "image"
+              },
+              {
+                "key": "media_fondo_3_image",
+                "label": "FondoImage",
+                "type": "image",
+                "default": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "block-text-center-fondo",
+    "title": "Blog block text center fondo",
+    "description": "Blog text center con fondo...",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, center, fondo",
+    "fields": [
+      {
+        "key": "media_centro_8_sections",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_centro_8_layout",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "texto_centro",
+                "label": "Center Text",
+                "type": "rich_text",
+                "default": "Texto centrado por defecto"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "block-text-dual-table",
+    "title": "Blog block tipo tabla dual",
+    "description": "Blog tabla de texto en columna",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, dual, columna, tabla",
+    "fields": [
+        {
+            "key": "media_centro_8_sections",
+            "label": "Sections",
+            "type": "complex",
+            "layouts": [
                 {
-                "key": "text_video_1_label",
-                "label": "Button 1 text",
-                "type": "text",
-                "default": "Button"
-            },
-            {
-                "key": "text_video_1_url",
-                "label": "Button 1 URL",
-                "type": "url",
-                "default": "#"
-            }
-        ]
-    },
-    {
-        "name": "block-text-parag",
-        "title": "Blog block text parag",
-        "description": "Blog text parag block",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, parag",
-        "fields": [
-            {
-                "key": "text_parag_1_title",
+                    "key": "media_centro_8_layout",
+                    "label": "Info section",
+                    "fields": [
+                        {
+                            "key": "texto_1",
+                            "label": "Text Left (Desktop)",
+                            "type": "rich_text",
+                            "default": "Texto izquierda 1"
+                        },
+                        {
+                            "key": "texto_2",
+                            "label": "Text Right (Desktop)",
+                            "type": "rich_text",
+                            "default": "Texto derecha 2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "texto_mb_left",
+            "label": "Text Left (Mobile)",
+            "type": "rich_text",
+            "default": "Texto izquierda móvil"
+        },
+        {
+            "key": "texto_mb_right",
+            "label": "Text Right (Mobile)",
+            "type": "rich_text",
+            "default": "Texto derecha móvil"
+        }
+    ]
+},
+  {
+    "name": "block-text-image-fondo-right",
+    "title": "Blog block text image fondo right",
+    "description": "Blog text image block fondo right",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, image, title,fondo",
+    "fields": [
+      {
+        "key": "media_text_6_sections",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_text_6_layout",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "media_text_6_title",
                 "label": "Title",
                 "type": "rich_text",
                 "default": "lorem ipsum dolor sit amet"
-            },
-
-            {
-                "key": "text_parag_1_parag",
-                "label": "Paragraph",
+              },
+              {
+                "key": "media_text_6_description",
+                "label": "Description",
                 "type": "rich_text",
-                "default": "lorem ipsum dolor sit amet"
-            }
+                "default": "Fondo corto de   derecha a izquierda mas imagen - texto y titulo a la izquierda Side content right"
+              },
+              {
+                "key": "media_text_6_image",
+                "label": "Image",
+                "type": "image",
+                "default": ""
+              },
+              {
+                "key": "media_text_6_side",
+                "label": "Side content",
+                "type": "select",
+                "options": [
+                  {
+                    "label": "Right",
+                    "value": "right"
+                  },
+                  {
+                    "label": "Left",
+                    "value": "left"
+                  }
+                ],
+                "default": "image"
+              },
+              {
+                "key": "media_fondo_right_6_image",
+                "label": "FondoImage",
+                "type": "image",
+                "default": ""
+              }
+            ]
+          }
         ]
-    },
-    {
-        "name": "block_blog_text_indice",
-        "title": "Blog block text indice",
-        "description": "Blog text indice",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, parag",
-        "fields": [
-            {
-                "key": "text_indice_3_title",
+      }
+    ]
+  },
+  {
+    "name": "block-text-image-fondo-gigante",
+    "title": "Blog block text gift fondo gigante",
+    "description": "Blog text gift block fondo gigante",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, image, title,fondo",
+    "fields": [
+      {
+        "key": "media_text_parag_13_title_centro",
+        "label": "Title centro",
+        "type": "rich_text",
+        "default": "Title centro"
+      },
+      {
+        "key": "media_text_13_sections",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_text_13_layout",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "media_text_13_title",
+                "label": "Title",
+                "type": "rich_text",
+                "default": "Fondo gigante para gift"
+              },
+              {
+                "key": "media_text_13_description",
+                "label": "Description",
+                "type": "rich_text",
+                "default": "Fondo gigante para gift"
+              },
+              {
+                "key": "media_text_13_image",
+                "label": "Image",
+                "type": "image",
+                "default": ""
+              },
+              {
+                "key": "media_text_13_side",
+                "label": "Side content",
+                "type": "select",
+                "options": [
+                  {
+                    "label": "Right",
+                    "value": "right"
+                  },
+                  {
+                    "label": "Left",
+                    "value": "left"
+                  }
+                ],
+                "default": "image"
+              },
+              {
+                "key": "media_fondo_gigante_13_image",
+                "label": "FondoImage",
+                "type": "image",
+                "default": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "block-image-fondo-centro",
+    "title": "Blog block  image fondo centro",
+    "description": "Blog block image block fondo centro",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "image,centroimg",
+    "fields": [
+      {
+        "key": "media_centro_8_sections",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_centro_8_layout",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "media_centro_8_image",
+                "label": "Image",
+                "type": "image",
+                "default": ""
+              },
+
+              {
+                "key": "media_fondo_completo_8_image",
+                "label": "FondoImage",
+                "type": "image",
+                "default": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "block-image-fondo-centro-right",
+    "title": "Blog block  image fondo centro right",
+    "description": "Blog block image block fondo centro right",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "image,centroimg",
+    "fields": [
+      {
+        "key": "media_centro_12_sections",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_centro_12_layout",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "media_centro_12_image",
+                "label": "Image",
+                "type": "image",
+                "default": ""
+              },
+
+              {
+                "key": "media_fondo_completo_12_image",
+                "label": "FondoImage",
+                "type": "image",
+                "default": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "block-text-image-fondo-completo",
+    "title": "Blog block text image fondo completo",
+    "description": "Blog text image block fondo completo",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, image, title,fondocompleto",
+    "fields": [
+      {
+        "key": "media_text_4_sections",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_text_4_layout",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "media_text_4_title",
                 "label": "Title",
                 "type": "rich_text",
                 "default": "lorem ipsum dolor sit amet"
-            },
-
-            {
-                "key": "text_indice_3_parag",
-                "label": "Paragraph",
+              },
+              {
+                "key": "media_text_4_description",
+                "label": "Description",
                 "type": "rich_text",
-                "default": "lorem ipsum dolor sit amet"
-            },
-            {
-                "key": "text_indice_3_background_color",
-                "label": "Background Color",
-                "type": "color",
-                "default": "#FFF3F1"
-            },
-            {
-                "key": "text_indice_3_title_color",
-                "label": "Title Color",
-                "type": "color",
-                "default": "#F34F36"
-            },
-            {
-                "key": "text_indice_3_parag_color",
-                "label": "Lista Color",
-                "type": "color",
-                "default": "#F34F36"
-            }
+                "default": "Fondo completo de izquierda a derecha, mas imagen side content right"
+              },
+              {
+                "key": "media_text_4_image",
+                "label": "Image",
+                "type": "image",
+                "default": ""
+              },
+              {
+                "key": "media_text_4_side",
+                "label": "Side content",
+                "type": "select",
+                "options": [
+                  {
+                    "label": "Right",
+                    "value": "right"
+                  },
+                  {
+                    "label": "Left",
+                    "value": "left"
+                  }
+                ],
+                "default": "image"
+              },
+              {
+                "key": "media_fondo_completo_4_image",
+                "label": "FondoImage",
+                "type": "image",
+                "default": ""
+              }
+            ]
+          }
         ]
-    },
-    {
-        "name": "block-text-image",
-        "title": "Blog block text image",
-        "description": "Blog text image block",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, image, title",
-          "fields": [
-            {
-                "key": "media_text_1_sections",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_text_1_layout",
-                        "label": "Info section",
-                        "fields": [
-                            {
-                                "key": "media_text_1_title",
-                                "label": "Title",
-                                "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
-                            },
-                            {
-                                "key": "media_text_1_description",
-                                "label": "Description",
-                                "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
-                            },
-                            {
-                                "key": "media_text_1_image",
-                                "label": "Image",
-                                "type": "image",
-                                "default": ""
-                            },
-                               {
-                                "key": "media_text_1_side",
-                                "label": "Side content",
-                                "type": "select",
-                                "options": [
-                                    {
-                                        "label": "Right",
-                                        "value": "right"
-                                    },
-                                    {
-                                        "label": "Left",
-                                        "value": "left"
-                                    }
-                                ],
-                                "default": "image"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    
-    {
-        "name": "block-text-image-button",
-        "title": "Blog block text image button",
-        "description": "Blog text image block button",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, image, title,button",
-          "fields": [
-            {
-                "key": "media_text_1_sections_button",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_text_1_layout_button",
-                        "label": "Info section",
-                        "fields": [
-                            {
-                                "key": "media_text_1_title_button",
-                                "label": "Title",
-                                "type": "rich_text",
-                                "default": "Titulo"
-                            },
-                            {
-                                "key": "media_text_1_description_button",
-                                "label": "Description",
-                                "type": "rich_text",
-                                "default": "Texto"
-                            },
-                            {
-                                "key": "media_text_1_image_button",
-                                "label": "Image",
-                                "type": "image",
-                                "default": ""
-                            },
-                               {
-                                "key": "media_text_1_side_button",
-                                "label": "Side content",
-                                "type": "select",
-                                "options": [
-                                    {
-                                        "label": "Right",
-                                        "value": "right"
-                                    },
-                                    {
-                                        "label": "Left",
-                                        "value": "left"
-                                    }
-                                ],
-                                "default": "image"
-                            }
-                            
-                        ]
-                    }
-                ]
-            },
-            {
-                "key": "media_text_1_button_text",
-                "label": "Button Text",
-                "type": "text",
-                "default": "Texto dinamico de boton"
-            }
-        ]
-    },
-    {
-        "name": "block-text-image-fondo",
-        "title": "Blog block text image fondo",
-        "description": "Blog text image block fondo",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, image, title,fondo",
-          "fields": [
-            {
-                "key": "media_text_3_sections",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_text_3_layout",
-                        "label": "Info section",
-                        "fields": [
-                            {
-                                "key": "media_text_3_title",
-                                "label": "Title",
-                                "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
-                            },
-                            {
-                                "key": "media_text_3_description",
-                                "label": "Description",
-                                "type": "rich_text",
-                                "default": "Fondo corto de izquierda a derecha mas imagen - texto y titulo a la derecha Side content left"
-                            },
-                            {
-                                "key": "media_text_3_image",
-                                "label": "Image",
-                                "type": "image",
-                                "default": ""
-                            },
-                               {
-                                "key": "media_text_3_side",
-                                "label": "Side content",
-                                "type": "select",
-                                "options": [
-                                    {
-                                        "label": "Right",
-                                        "value": "right"
-                                    },
-                                    {
-                                        "label": "Left",
-                                        "value": "left"
-                                    }
-                                ],
-                                "default": "image"
-                            },
-                            {
-                                "key": "media_fondo_3_image",
-                                "label": "FondoImage",
-                                "type": "image",
-                                "default": ""
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "block-text-center-fondo",
-        "title": "Blog block text center fondo",
-        "description": "Blog text center con fondo...",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, center, fondo",
-        "fields": [
-            {
-                "key": "media_centro_8_sections",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_centro_8_layout",
-                        "label": "Info section",
-                        "fields": [
-                            {
-                                "key": "texto_centro",
-                                "label": "Center Text",
-                                "type": "rich_text",
-                                "default": "Texto centrado por defecto"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },    {
-        "name": "block-text-dual-table",
-        "title": "Blog block tipo tabla dual",
-        "description": "Blog tabla de texto en columna",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, dual, columna, tabla",
-        "fields": [
-            {
-                "key": "media_centro_8_sections",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_centro_8_layout",
-                        "label": "Info section",
-                        "fields": [
-                            {
-                                "key": "texto_1",
-                                "label": "Center Text",
-                                "type": "rich_text",
-                                "default": "Texto izquierda 1"
-                            },{
-                                "key": "texto_2",
-                                "label": "Center Text",
-                                "type": "rich_text",
-                                "default": "Texto deracha 2"
-                            }
+      }
+    ]
+  },
 
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "block-text-image-fondo-right",
-        "title": "Blog block text image fondo right",
-        "description": "Blog text image block fondo right",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, image, title,fondo",
-          "fields": [
-            {
-                "key": "media_text_6_sections",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_text_6_layout",
-                        "label": "Info section",
-                        "fields": [
-                            {
-                                "key": "media_text_6_title",
-                                "label": "Title",
-                                "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
-                            },
-                            {
-                                "key": "media_text_6_description",
-                                "label": "Description",
-                                "type": "rich_text",
-                                "default": "Fondo corto de   derecha a izquierda mas imagen - texto y titulo a la izquierda Side content right"
-                            },
-                            {
-                                "key": "media_text_6_image",
-                                "label": "Image",
-                                "type": "image",
-                                "default": ""
-                            },
-                               {
-                                "key": "media_text_6_side",
-                                "label": "Side content",
-                                "type": "select",
-                                "options": [
-                                    {
-                                        "label": "Right",
-                                        "value": "right"
-                                    },
-                                    {
-                                        "label": "Left",
-                                        "value": "left"
-                                    }
-                                ],
-                                "default": "image"
-                            },
-                            {
-                                "key": "media_fondo_right_6_image",
-                                "label": "FondoImage",
-                                "type": "image",
-                                "default": ""
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },    {
-        "name": "block-text-image-fondo-gigante",
-        "title": "Blog block text gift fondo gigante",
-        "description": "Blog text gift block fondo gigante",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, image, title,fondo",
-          "fields": [
-            {
-                "key": "media_text_parag_13_title_centro",
-                "label": "Title centro",
-                "type": "rich_text",
-                "default": "Title centro"
-            },
-            {
-                "key": "media_text_13_sections",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_text_13_layout",
-                        "label": "Info section",
-                        "fields": [
-                            {
-                                "key": "media_text_13_title",
-                                "label": "Title",
-                                "type": "rich_text",
-                                "default": "Fondo gigante para gift"
-                            },
-                            {
-                                "key": "media_text_13_description",
-                                "label": "Description",
-                                "type": "rich_text",
-                                "default": "Fondo gigante para gift"
-                            },
-                            {
-                                "key": "media_text_13_image",
-                                "label": "Image",
-                                "type": "image",
-                                "default": ""
-                            },
-                               {
-                                "key": "media_text_13_side",
-                                "label": "Side content",
-                                "type": "select",
-                                "options": [
-                                    {
-                                        "label": "Right",
-                                        "value": "right"
-                                    },
-                                    {
-                                        "label": "Left",
-                                        "value": "left"
-                                    }
-                                ],
-                                "default": "image"
-                            },
-                            {
-                                "key": "media_fondo_gigante_13_image",
-                                "label": "FondoImage",
-                                "type": "image",
-                                "default": ""
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "block-image-fondo-centro",
-        "title": "Blog block  image fondo centro",
-        "description": "Blog block image block fondo centro",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "image,centroimg",
-          "fields": [
-            {
-                "key": "media_centro_8_sections",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_centro_8_layout",
-                        "label": "Info section",
-                        "fields": [
-                        
-                            {
-                                "key": "media_centro_8_image",
-                                "label": "Image",
-                                "type": "image",
-                                "default": ""
-                            },
-                            
-                            {
-                                "key": "media_fondo_completo_8_image",
-                                "label": "FondoImage",
-                                "type": "image",
-                                "default": ""
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "block-image-fondo-centro-right",
-        "title": "Blog block  image fondo centro right",
-        "description": "Blog block image block fondo centro right",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "image,centroimg",
-          "fields": [
-            {
-                "key": "media_centro_12_sections",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_centro_12_layout",
-                        "label": "Info section",
-                        "fields": [
-                        
-                            {
-                                "key": "media_centro_12_image",
-                                "label": "Image",
-                                "type": "image",
-                                "default": ""
-                            },
-                            
-                            {
-                                "key": "media_fondo_completo_12_image",
-                                "label": "FondoImage",
-                                "type": "image",
-                                "default": ""
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "block-text-image-fondo-completo",
-        "title": "Blog block text image fondo completo",
-        "description": "Blog text image block fondo completo",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, image, title,fondocompleto",
-          "fields": [
-            {
-                "key": "media_text_4_sections",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_text_4_layout",
-                        "label": "Info section",
-                        "fields": [
-                            {
-                                "key": "media_text_4_title",
-                                "label": "Title",
-                                "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
-                            },
-                            {
-                                "key": "media_text_4_description",
-                                "label": "Description",
-                                "type": "rich_text",
-                                "default": "Fondo completo de izquierda a derecha, mas imagen side content right"
-                            },
-                            {
-                                "key": "media_text_4_image",
-                                "label": "Image",
-                                "type": "image",
-                                "default": ""
-                            },
-                               {
-                                "key": "media_text_4_side",
-                                "label": "Side content",
-                                "type": "select",
-                                "options": [
-                                    {
-                                        "label": "Right",
-                                        "value": "right"
-                                    },
-                                    {
-                                        "label": "Left",
-                                        "value": "left"
-                                    }
-                                ],
-                                "default": "image"
-                            },
-                            {
-                                "key": "media_fondo_completo_4_image",
-                                "label": "FondoImage",
-                                "type": "image",
-                                "default": ""
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
- 
-    {
-        "name": "block-text-image-fondo-completo-left",
-        "title": "Blog block text image fondo completo left",
-        "description": "Blog text image block fondo completo left",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, image, title,fondocompletoleft",
-          "fields": [
-            {
-                "key": "media_text_5_sections",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_text_5_layout",
-                        "label": "Info section",
-                        "fields": [
-                            {
-                                "key": "media_text_5_title",
-                                "label": "Title",
-                                "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
-                            },
-                            {
-                                "key": "media_text_5_description",
-                                "label": "Description",
-                                "type": "rich_text",
-                                "default": "Fondo completo de derecha a izquierda, mas imagen side content left"
-                            },
-                            {
-                                "key": "media_text_5_image",
-                                "label": "Image",
-                                "type": "image",
-                                "default": ""
-                            },
-                               {
-                                "key": "media_text_5_side",
-                                "label": "Side content",
-                                "type": "select",
-                                "options": [
-                                    {
-                                        "label": "Right",
-                                        "value": "right"
-                                    },
-                                    {
-                                        "label": "Left",
-                                        "value": "left"
-                                    }
-                                ],
-                                "default": "image"
-                            },
-                            {
-                                "key": "media_fondo_completo_left_5_image",
-                                "label": "FondoImage",
-                                "type": "image",
-                                "default": ""
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    }
-    ,
-    {
-        "name": "block-text-parag-cards-2",
-        "title": "Blog block text parag cards 2",
-        "description": "Blog text parag block cards 2",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, parag,card2",
-        "fields": [
-            {
-                "key": "text_parag_9_title",
+  {
+    "name": "block-text-image-fondo-completo-left",
+    "title": "Blog block text image fondo completo left",
+    "description": "Blog text image block fondo completo left",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, image, title,fondocompletoleft",
+    "fields": [
+      {
+        "key": "media_text_5_sections",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_text_5_layout",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "media_text_5_title",
                 "label": "Title",
                 "type": "rich_text",
                 "default": "lorem ipsum dolor sit amet"
-            },
-
-            {
-                "key": "text_parag_9_parag",
-                "label": "Paragraph",
+              },
+              {
+                "key": "media_text_5_description",
+                "label": "Description",
                 "type": "rich_text",
-                "default": "lorem ipsum dolor sit amet"
-            },
-            {
-                "key": "media_text_9_sections",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_text_9_layout",
-                        "label": "Info section",
-                        "fields": [
-                            {
-                                "key": "media_text_9_description",
-                                "label": "Description",
-                                "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
-                            },
-                            {
-                                "key": "media_text_9_image",
-                                "label": "Image",
-                                "type": "image",
-                                "default": ""
-                            }
-                             
-                        ]
-                    }
-                ]
-            }
+                "default": "Fondo completo de derecha a izquierda, mas imagen side content left"
+              },
+              {
+                "key": "media_text_5_image",
+                "label": "Image",
+                "type": "image",
+                "default": ""
+              },
+              {
+                "key": "media_text_5_side",
+                "label": "Side content",
+                "type": "select",
+                "options": [
+                  {
+                    "label": "Right",
+                    "value": "right"
+                  },
+                  {
+                    "label": "Left",
+                    "value": "left"
+                  }
+                ],
+                "default": "image"
+              },
+              {
+                "key": "media_fondo_completo_left_5_image",
+                "label": "FondoImage",
+                "type": "image",
+                "default": ""
+              }
+            ]
+          }
         ]
-    }
-    ,
-    {
-        "name": "block-text-parag-cards-3",
-        "title": "Blog block text parag cards 3",
-        "description": "Blog text parag block cards 3",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, parag,card3",
-        "fields": [
-            {
-                "key": "text_parag_10_title",
-                "label": "Title",
-                "type": "rich_text",
-                "default": "lorem ipsum dolor sit amet"
-            },
+      }
+    ]
+  },
+  {
+    "name": "block-text-parag-cards-2",
+    "title": "Blog block text parag cards 2",
+    "description": "Blog text parag block cards 2",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, parag,card2",
+    "fields": [
+      {
+        "key": "text_parag_9_title",
+        "label": "Title",
+        "type": "rich_text",
+        "default": "lorem ipsum dolor sit amet"
+      },
 
-            {
-                "key": "text_parag_10_parag",
-                "label": "Paragraph",
+      {
+        "key": "text_parag_9_parag",
+        "label": "Paragraph",
+        "type": "rich_text",
+        "default": "lorem ipsum dolor sit amet"
+      },
+      {
+        "key": "media_text_9_sections",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_text_9_layout",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "media_text_9_description",
+                "label": "Description",
                 "type": "rich_text",
                 "default": "lorem ipsum dolor sit amet"
-            },
-            {
-                "key": "media_text_10_sections",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_text_10_layout",
-                        "label": "Info section",
-                        "fields": [
-                            {
-                                "key": "media_text_10_description",
-                                "label": "Description",
-                                "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
-                            },
-                            {
-                                "key": "media_text_10_image",
-                                "label": "Image",
-                                "type": "image",
-                                "default": ""
-                            }
-                             
-                        ]
-                    }
-                ]
-            }
+              },
+              {
+                "key": "media_text_9_image",
+                "label": "Image",
+                "type": "image",
+                "default": ""
+              }
+            ]
+          }
         ]
-    }
-    ,
-    {
-        "name": "block-text-parag-cards-4",
-        "title": "Blog block text parag cards 4",
-        "description": "Blog text parag block cards 4",
-        "category": "blog",
-        "icon": "admin-comments",
-        "folder": "blog",
-        "keywords": "text, parag,card4",
-        "fields": [
-            {
-                "key": "text_parag_11_title",
-                "label": "Title",
-                "type": "rich_text",
-                "default": "lorem ipsum dolor sit amet"
-            },
+      }
+    ]
+  },
+  {
+    "name": "block-text-parag-cards-3",
+    "title": "Blog block text parag cards 3",
+    "description": "Blog text parag block cards 3",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, parag,card3",
+    "fields": [
+      {
+        "key": "text_parag_10_title",
+        "label": "Title",
+        "type": "rich_text",
+        "default": "lorem ipsum dolor sit amet"
+      },
 
-            {
-                "key": "text_parag_11_parag",
-                "label": "Paragraph",
+      {
+        "key": "text_parag_10_parag",
+        "label": "Paragraph",
+        "type": "rich_text",
+        "default": "lorem ipsum dolor sit amet"
+      },
+      {
+        "key": "media_text_10_sections",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_text_10_layout",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "media_text_10_description",
+                "label": "Description",
                 "type": "rich_text",
                 "default": "lorem ipsum dolor sit amet"
-            },
-            {
-                "key": "media_text_11_sections",
-                "label": "Sections",
-                "type": "complex",
-                "layouts": [
-                    {
-                        "key": "media_text_11_layout",
-                        "label": "Info section",
-                        "fields": [
-                            {
-                                "key": "media_text_11_description",
-                                "label": "Description",
-                                "type": "rich_text",
-                                "default": "lorem ipsum dolor sit amet"
-                            },
-                            {
-                                "key": "media_text_11_image",
-                                "label": "Image",
-                                "type": "image",
-                                "default": ""
-                            }
-                             
-                        ]
-                    }
-                ]
-            }
+              },
+              {
+                "key": "media_text_10_image",
+                "label": "Image",
+                "type": "image",
+                "default": ""
+              }
+            ]
+          }
         ]
-    }
-    
+      }
+    ]
+  },
+  {
+    "name": "block-text-parag-cards-4",
+    "title": "Blog block text parag cards 4",
+    "description": "Blog text parag block cards 4",
+    "category": "blog",
+    "icon": "admin-comments",
+    "folder": "blog",
+    "keywords": "text, parag,card4",
+    "fields": [
+      {
+        "key": "text_parag_11_title",
+        "label": "Title",
+        "type": "rich_text",
+        "default": "lorem ipsum dolor sit amet"
+      },
+
+      {
+        "key": "text_parag_11_parag",
+        "label": "Paragraph",
+        "type": "rich_text",
+        "default": "lorem ipsum dolor sit amet"
+      },
+      {
+        "key": "media_text_11_sections",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_text_11_layout",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "media_text_11_description",
+                "label": "Description",
+                "type": "rich_text",
+                "default": "lorem ipsum dolor sit amet"
+              },
+              {
+                "key": "media_text_11_image",
+                "label": "Image",
+                "type": "image",
+                "default": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ]

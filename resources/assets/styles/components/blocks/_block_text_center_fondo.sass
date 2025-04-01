@@ -16,7 +16,7 @@
         width: 90%
         margin: 0 auto
         @include responsivo(telefonoTable)
-            width:90%
+            width:100%
             gap: 40px
         @include responsivo(general)
             width: 90%!important
@@ -33,7 +33,10 @@
             padding: 40px
             box-shadow: 0 4px 40px rgba(0, 127, 150, 0.2)
             border-radius: 20px
-
+            @include responsivo(telefonoTable)
+                width: 100%
+            @include responsivo(pcMedio)
+                width: 90%
             *
                 line-height: 1
                 
@@ -48,10 +51,10 @@
                 font-weight: 400
                 font-family: "Mulish", sans-serif
                 @include responsivo(telefonoTable)
-                    font-size: 16px
+                    font-size: 22.5px!important
                     text-align: center
                 @include responsivo(pcMedio)
-                    font-size: 16px
+                    font-size: 22.5px!important
                 @include responsivo(general)
                     font-size: 20px
                 @include responsivo(smallPcTablet)

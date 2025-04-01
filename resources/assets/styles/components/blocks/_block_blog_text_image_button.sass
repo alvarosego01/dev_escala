@@ -78,15 +78,17 @@
                         color: #2C4857
                         margin-bottom: 25px
                         @include responsivo(telefonoTable)
-                            font-size: 22.5px
+                            font-size:32px
                             text-align: center
                         @include responsivo(pcMedio)
-                            font-size: 22.5px
+                            font-size:32px
                             text-align: left
                             br
                                 display: none!important
                         @include responsivo(general)
-                            font-size: 24px
+                            font-size: 48px
+                        @include responsivo(smallPcTablet)
+                            font-size: 42px
                         @include responsivo(resto)
                             font-size: 48px
                     h4,span
@@ -242,6 +244,9 @@
                 font-size: 30px!important
                 @include responsivo(telefonoTable)
                     padding: 25px 32px!important
+                    font-size: 22px!important
+                    min-width: 100%!important
+                    text-align: center
                 @include responsivo(smallPcTablet)
                     padding: 25px 55px!important
                 &:hover
