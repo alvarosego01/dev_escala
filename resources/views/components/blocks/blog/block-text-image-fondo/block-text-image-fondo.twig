@@ -2,10 +2,10 @@
 {% set media_text_3_subtitle = fields.media_text_3_subtitle %}
 {% set media_text_3_sections = fields.media_text_3_sections %}
 {% set media_fondo_3_image = fields.media_fondo_3_image %}
-
+{% set custom_class = fields.custom_class %}
 {% set fondo = '' %}  {# Inicializa la variable fondo #}
 
-<section class="block_blog_text_image_fondo customSection sectionParent" 
+<section class="block_blog_text_image_fondo customSection sectionParent {{ custom_class }}" 
          style="{% if media_text_3_sections|length > 0 %}
                      {% for item in media_text_3_sections %}
                          {% set fondo = item.media_fondo_3_image %}  {# Asigna el fondo de la primera sección #}

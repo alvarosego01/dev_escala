@@ -1,8 +1,8 @@
 {% set media_text_1_title = fields.media_text_1_title %}
 {% set media_text_1_subtitle = fields.media_text_1_subtitle %}
 {% set media_text_1_sections = fields.media_text_1_sections %}
-
-<section class="block_blog_text_image customSection sectionParent ">
+{% set custom_class = fields.custom_class %}
+<section class="block_blog_text_image customSection sectionParent  {{ custom_class }}">
 
 	<div class="section_contain">
 

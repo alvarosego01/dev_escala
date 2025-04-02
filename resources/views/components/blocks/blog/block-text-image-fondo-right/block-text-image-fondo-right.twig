@@ -2,10 +2,10 @@
 {% set media_text_6_subtitle = fields.media_text_6_subtitle %}
 {% set media_text_6_sections = fields.media_text_6_sections %}
 {% set media_fondo_right_6_image = fields.media_fondo_right_6_image %}
-
+{% set custom_class = fields.custom_class %}
 {% set fondo = '' %}  {# Inicializa la variable fondo #}
 
-<section class="block_blog_text_image_fondo_right customSection sectionParent" 
+<section class="block_blog_text_image_fondo_right customSection sectionParent {{ custom_class }}" 
          style="{% if media_text_6_sections|length > 0 %}
                      {% for item in media_text_6_sections %}
                          {% set fondo = item.media_fondo_right_6_image %}  {# Asigna el fondo de la primera sección #}

@@ -4,8 +4,8 @@
 {% set media_fondo_completo_left_5_image = fields.media_fondo_completo_left_5_image %}
 
 {% set fondocompleto2 = '' %}  {# Inicializa la variable fondo completo #}
-
-<section class="block_blog_text_image_fondo_completo_left customSection sectionParent" 
+{% set custom_class = fields.custom_class %}
+<section class="block_blog_text_image_fondo_completo_left customSection sectionParent {{ custom_class }}" 
          style="{% if media_text_5_sections|length > 0 %}
                      {% for item in media_text_5_sections %}
                          {% set fondocompleto2 = item.media_fondo_completo_left_5_image %}  {# Asigna el fondo de la primera sección #}

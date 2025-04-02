@@ -3,11 +3,11 @@
 {% set media_text_13_sections = fields.media_text_13_sections %}
 {% set media_fondo_gigante_13_image = fields.media_fondo_gigante_13_image %}
 {% set media_text_parag_13_title_centro = fields.media_text_parag_13_title_centro %}
-
+{% set custom_class = fields.custom_class %}
 {% set fondo = '' %}
 {# Inicializa la variable fondo #}
 
-<section class="block_blog_text_image_fondo_gigante customSection sectionParent" style="{% if media_text_13_sections|length > 0 %} {% for item in media_text_13_sections %} {% set fondo = item.media_fondo_gigante_13_image %} {# Asigna el fondo de la primera sección #} {% if fondo != '' %} background-image: url('{{ get_img(fondo, 'src') }}'); {% endif %} {% endfor %} {% endif %}">
+<section class="block_blog_text_image_fondo_gigante customSection sectionParent {{ custom_class }}" style="{% if media_text_13_sections|length > 0 %} {% for item in media_text_13_sections %} {% set fondo = item.media_fondo_gigante_13_image %} {# Asigna el fondo de la primera sección #} {% if fondo != '' %} background-image: url('{{ get_img(fondo, 'src') }}'); {% endif %} {% endfor %} {% endif %}">
 
 	<div class="section_contain">
 		
