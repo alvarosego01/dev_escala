@@ -8,7 +8,7 @@
         padding-bottom: 25px
     ul, ol
         margin-bottom: 0
-        font-family: Nunito
+        font-family: "Mulish", sans-serif
         @include responsivo(telefonoTable)
             padding-left: 0
         li
@@ -34,22 +34,22 @@
                 gap: 40px
             @include responsivo(general)
                 width: 90%!important
-                max-width: 900px!important
+                max-width: 1100px!important
             @include responsivo(smallPcTablet)
-                max-width: 900px!important
+                max-width: 1100px!important
                 gap: 50px
             @include responsivo(resto)
                 width: 90%!important
-                max-width: 900px!important
+                max-width: 1100px!important
 
             .primaryTitle
                 text-align: center!important
-                color: #34768A
+                color: #212A31
                 font-size: 24px
                 font-weight: 700
-                letter-spacing: -1.25px
                 margin-bottom: 25px
                 line-height: 1
+                font-family: "Mulish", sans-serif
                 @include responsivo(telefonoTable)
                     font-size: 22.5px
                 @include responsivo(pcMedio)
@@ -60,29 +60,43 @@
                 p
                     &:last-child
                         margin-bottom: 0
-            li
                 @include responsivo(telefonoTable)
                     margin-bottom: 12px!important
-            .primaryText, li
-                color: #706B6D
-                text-align: left
-                font-size: 20px
-                line-height: 1.25
-                letter-spacing: -1px
-                font-weight: 500
-                font-family: Nunito
+            h2,span
+                font-size: 48px
+                font-weight: 700
+                font-family: "Mulish", sans-serif!important
+                line-height: 1
+                margin-bottom: 0
+                text-align: center
+                color: #212A31
+                margin-bottom: 25px
                 @include responsivo(telefonoTable)
-                    font-size: 16px
+                    font-size: 32px
+                @include responsivo(pcMedio)
+                    font-size: 32px
+                @include responsivo(smallPcTablet)
+                    font-size: 42px
+            .primaryText, li
+                color: #212A31
+                text-align: left
+                font-size: 24px
+                line-height: 1
+                font-weight: 500
+                font-family: "Mulish", sans-serif
+                @include responsivo(telefonoTable)
+                    font-size: 20px
                     text-align: center
                 @include responsivo(pcMedio)
                     font-size: 16px
                 @include responsivo(general)
-                    font-size: 20px
+                    font-size: 24px
                 @include responsivo(smallPcTablet)
                     font-size: 18px!important
                 *
-                    line-height: 1.25
-                    letter-spacing: -1px
+                    line-height: 1
+                    
                 p
+                    font-family: "Mulish", sans-serif
                     &:last-child
                         margin-bottom: 0

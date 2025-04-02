@@ -42,23 +42,24 @@
                 color: #2C4857
                 font-size: 24px
                 font-weight: 700
-                letter-spacing: -1.25px
+               
                 margin-bottom: 25px
                 line-height: 1
                 @include responsivo(telefonoTable)
-                    font-size: 22.5px
+                    font-size: 32px
                 @include responsivo(pcMedio)
-                    font-size: 22.5px
+                    font-size: 32px
                 p
+                    font-family: "Mulish", sans-serif
                     &:last-child
                         margin-bottom: 0
             .primaryText
                 color: #706B6D
                 text-align: center
                 font-size: 20px
-                line-height: 1.25
-                letter-spacing: -1px
-                font-family: Nunito
+                line-height: 1
+             
+                font-family: "Mulish", sans-serif
                 font-weight: 500
                 @include responsivo(telefonoTable)
                     font-size: 16px
@@ -70,9 +71,9 @@
                 @include responsivo(smallPcTablet)
                     font-size: 18px
                 *
-                    line-height: 1.25
-                    letter-spacing: -1px
+                    line-height: 1
                 p
+                    font-family: "Mulish", sans-serif
                     &:last-child
                         margin-bottom: 0
 
@@ -101,8 +102,9 @@
                 flex-direction: column
                 padding: 15px
                 @include responsivo(telefonoTable)
-                    width: 75%
+                    width: 95%
                     padding: 10px    
+                    justify-content: center
 
                 img
                     height: 35px
@@ -112,12 +114,12 @@
                     font-size: 20px
                     font-style: normal
                     font-weight: 500
-                    line-height: 1.25
+                    line-height: 1
                     color: #706B6D
-                    letter-spacing: -1px
+                    font-family: "Mulish", sans-serif   
                     text-align: center
                     @include responsivo(telefonoTable)
-                        font-size: 16px
+                        font-size: 20px
                     @include responsivo(pcMedio)
                         font-size: 16px
                     @include responsivo(smallPcTablet)
@@ -127,6 +129,7 @@
                     span,strong
                         color: #36768A
                         font-weight: 700
+                        font-family: "Mulish", sans-serif
                  
             .containerImage
                 margin: 0px 

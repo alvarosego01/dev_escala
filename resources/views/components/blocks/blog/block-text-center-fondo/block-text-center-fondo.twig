@@ -1,0 +1,17 @@
+{% set media_centro_8_sections = fields.media_centro_8_sections %}
+
+<section class="block_text_center_fondo customSection sectionParent">
+    <div class="section_contain">
+        {% if media_centro_8_sections|length > 0 %}
+            {% for item in media_centro_8_sections %}
+                {% set texto_centro = item.texto_centro %}
+
+                <div class="textContainer">
+                    {% if texto_centro != '' %}
+                        {{ texto_centro|raw }}
+                    {% endif %}
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+</section>

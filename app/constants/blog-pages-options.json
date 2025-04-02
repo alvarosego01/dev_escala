@@ -45,6 +45,13 @@
                 "type": "url",
                 "default": "#"
             }
+            ,
+            {
+                "key": "blog_single_1_banner_enabled",
+                "label": "Enable Banner Section",
+                "type": "checkbox",
+                "default": true
+            }
         ]
     }
 ]
