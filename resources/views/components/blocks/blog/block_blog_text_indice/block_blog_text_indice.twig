@@ -3,28 +3,30 @@
 {% set text_indice_3_background_color = fields.text_indice_3_background_color %}
 {% set text_indice_3_title_color = fields.text_indice_3_title_color %}
 {% set text_indice_3_parag_color = fields.text_indice_3_parag_color %}
-<section class="w-full block_blog_text_indice customSection sectionParent">
-	<div class="section_contain">
-		<section class="innerSectionElement sct1" style="background-color: {{ text_indice_3_background_color|default('#FFF3F1') }};">
-			<div class="containElements">
-				{% if text_indice_3_title != '' %}
-					<h3 class="primaryTitle" style="color: {{ text_indice_3_title_color|default('#F34F36') }};">
-						{{ text_indice_3_title|raw }}
-					</h3>
-				{% endif %}
+<section class="w-full block_blog_text_indice customSection sectionParent" >
+    <div class="section_contain">
 
-				{% if text_indice_3_parag != '' %}
-					<div class="textContent" style="color: {{ text_indice_3_parag_color|default('#F34F36') }};">
-						<style>
-							.textContent a {
-								color: {{text_indice_3_parag_color|default('#F34F36')}}
-								;
-							}
-						</style>
-						{{ text_indice_3_parag|raw }}
-					</div>
-				{% endif %}
-			</div>
-		</section>
-	</div>
+        <section class="innerSectionElement sct1" style="background-color: {{ text_indice_3_background_color }};">
+            <div class="containElements">
+
+                {% if text_indice_3_title != '' %}
+                    <h3 class="primaryTitle" style="color: {{ text_indice_3_title_color }};">
+                        {{ text_indice_3_title|raw }}
+                    </h3>
+                {% endif %}
+
+                {% if text_indice_3_parag != '' %}
+                    <div class="textContent" style="color: {{ text_indice_3_parag_color }};">
+                        <style>
+                            .textContent a {
+                                color: {{ text_indice_3_parag_color }};
+                            }
+                        </style>
+                        {{ text_indice_3_parag|raw }}
+                    </div>
+                {% endif %}
+
+            </div>
+        </section>
+    </div>
 </section>
