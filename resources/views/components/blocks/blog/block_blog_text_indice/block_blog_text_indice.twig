@@ -3,7 +3,9 @@
 {% set text_indice_3_background_color = fields.text_indice_3_background_color %}
 {% set text_indice_3_title_color = fields.text_indice_3_title_color %}
 {% set text_indice_3_parag_color = fields.text_indice_3_parag_color %}
-<section class="w-full block_blog_text_indice customSection sectionParent" >
+{% set custom_class = fields.custom_class %}
+
+<section class="w-full block_blog_text_indice customSection sectionParent {{ custom_class }}" >
     <div class="section_contain">
 
         <section class="innerSectionElement sct1" style="background-color: {{ text_indice_3_background_color }};">

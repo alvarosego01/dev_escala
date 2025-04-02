@@ -1,6 +1,6 @@
 {% set media_centro_8_sections = fields.media_centro_8_sections %}
-
-<section class="block_text_center_fondo customSection sectionParent">
+{% set custom_class = fields.custom_class %}
+<section class="block_text_center_fondo customSection sectionParent  {{ custom_class }}">
     <div class="section_contain">
         {% if media_centro_8_sections|length > 0 %}
             {% for item in media_centro_8_sections %}

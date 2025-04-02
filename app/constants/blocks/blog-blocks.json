@@ -43,6 +43,12 @@
         "label": "Button 1 URL",
         "type": "url",
         "default": "#"
+      },
+      {
+        "key": "custom_class",
+        "label": "Custom Class",
+        "type": "text",
+        "default": ""
       }
     ]
   },
@@ -67,6 +73,12 @@
         "label": "Paragraph",
         "type": "rich_text",
         "default": "lorem ipsum dolor sit amet"
+      },
+      {
+        "key": "custom_class",
+        "label": "Custom Class",
+        "type": "text",
+        "default": ""
       }
     ]
   },
@@ -109,6 +121,12 @@
         "label": "Lista Color",
         "type": "color",
         "default": "#F34F36"
+      },
+      {
+        "key": "custom_class",
+        "label": "Custom Class",
+        "type": "text",
+        "default": ""
       }
     ]
   },
@@ -167,6 +185,12 @@
             ]
           }
         ]
+      },
+      {
+        "key": "custom_class",
+        "label": "Custom Class",
+        "type": "text",
+        "default": ""
       }
     ]
   },
@@ -222,6 +246,12 @@
                   }
                 ],
                 "default": "image"
+              },
+              {
+                "key": "custom_class",
+                "label": "Custom Class",
+                "type": "text",
+                "default": ""
               }
             ]
           }
@@ -232,6 +262,12 @@
         "label": "Button Text",
         "type": "text",
         "default": "Texto dinamico de boton"
+      },
+      {
+        "key": "custom_class",
+        "label": "Custom Class",
+        "type": "text",
+        "default": ""
       }
     ]
   },
@@ -292,6 +328,12 @@
                 "label": "FondoImage",
                 "type": "image",
                 "default": ""
+              },
+              {
+                "key": "custom_class",
+                "label": "Custom Class",
+                "type": "text",
+                "default": ""
               }
             ]
           }
@@ -326,6 +368,12 @@
             ]
           }
         ]
+      },
+      {
+        "key": "custom_class",
+        "label": "Custom Class",
+        "type": "text",
+        "default": ""
       }
     ]
   },
@@ -338,45 +386,51 @@
     "folder": "blog",
     "keywords": "text, dual, columna, tabla",
     "fields": [
-        {
-            "key": "media_centro_8_sections",
-            "label": "Sections",
-            "type": "complex",
-            "layouts": [
-                {
-                    "key": "media_centro_8_layout",
-                    "label": "Info section",
-                    "fields": [
-                        {
-                            "key": "texto_1",
-                            "label": "Text Left (Desktop)",
-                            "type": "rich_text",
-                            "default": "Texto izquierda 1"
-                        },
-                        {
-                            "key": "texto_2",
-                            "label": "Text Right (Desktop)",
-                            "type": "rich_text",
-                            "default": "Texto derecha 2"
-                        }
-                    ]
-                }
+      {
+        "key": "media_centro_8_sections",
+        "label": "Sections",
+        "type": "complex",
+        "layouts": [
+          {
+            "key": "media_centro_8_layout",
+            "label": "Info section",
+            "fields": [
+              {
+                "key": "texto_1",
+                "label": "Text Left (Desktop)",
+                "type": "rich_text",
+                "default": "Texto izquierda 1"
+              },
+              {
+                "key": "texto_2",
+                "label": "Text Right (Desktop)",
+                "type": "rich_text",
+                "default": "Texto derecha 2"
+              }
             ]
-        },
-        {
-            "key": "texto_mb_left",
-            "label": "Text Left (Mobile)",
-            "type": "rich_text",
-            "default": "Texto izquierda móvil"
-        },
-        {
-            "key": "texto_mb_right",
-            "label": "Text Right (Mobile)",
-            "type": "rich_text",
-            "default": "Texto derecha móvil"
-        }
+          }
+        ]
+      },
+      {
+        "key": "texto_mb_left",
+        "label": "Text Left (Mobile)",
+        "type": "rich_text",
+        "default": "Texto izquierda móvil"
+      },
+      {
+        "key": "texto_mb_right",
+        "label": "Text Right (Mobile)",
+        "type": "rich_text",
+        "default": "Texto derecha móvil"
+      },
+      {
+        "key": "custom_class",
+        "label": "Custom Class",
+        "type": "text",
+        "default": ""
+      }
     ]
-},
+  },
   {
     "name": "block-text-image-fondo-right",
     "title": "Blog block text image fondo right",
@@ -436,6 +490,12 @@
                 "default": ""
               }
             ]
+          },
+          {
+            "key": "custom_class",
+            "label": "Custom Class",
+            "type": "text",
+            "default": ""
           }
         ]
       }
@@ -508,6 +568,12 @@
             ]
           }
         ]
+      },
+      {
+        "key": "custom_class",
+        "label": "Custom Class",
+        "type": "text",
+        "default": ""
       }
     ]
   },
@@ -543,6 +609,12 @@
                 "default": ""
               }
             ]
+          },
+          {
+            "key": "custom_class",
+            "label": "Custom Class",
+            "type": "text",
+            "default": ""
           }
         ]
       }
@@ -580,6 +652,12 @@
                 "default": ""
               }
             ]
+          },
+          {
+            "key": "custom_class",
+            "label": "Custom Class",
+            "type": "text",
+            "default": ""
           }
         ]
       }
@@ -644,6 +722,12 @@
                 "default": ""
               }
             ]
+          },
+          {
+            "key": "custom_class",
+            "label": "Custom Class",
+            "type": "text",
+            "default": ""
           }
         ]
       }
@@ -709,6 +793,12 @@
                 "default": ""
               }
             ]
+          },
+          {
+            "key": "custom_class",
+            "label": "Custom Class",
+            "type": "text",
+            "default": ""
           }
         ]
       }
@@ -758,6 +848,12 @@
                 "default": ""
               }
             ]
+          },
+          {
+            "key": "custom_class",
+            "label": "Custom Class",
+            "type": "text",
+            "default": ""
           }
         ]
       }
@@ -809,6 +905,12 @@
             ]
           }
         ]
+      },
+      {
+        "key": "custom_class",
+        "label": "Custom Class",
+        "type": "text",
+        "default": ""
       }
     ]
   },
@@ -856,6 +958,12 @@
                 "default": ""
               }
             ]
+          },
+          {
+            "key": "custom_class",
+            "label": "Custom Class",
+            "type": "text",
+            "default": ""
           }
         ]
       }

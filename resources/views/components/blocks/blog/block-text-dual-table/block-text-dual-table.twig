@@ -1,8 +1,8 @@
 {% set media_centro_8_sections = fields.media_centro_8_sections %}
 {% set texto_mb_left = fields.texto_mb_left %}
 {% set texto_mb_right = fields.texto_mb_right %}
-
-<section class="block_text_dual_tabla customSection sectionParent">
+{% set custom_class = fields.custom_class %}
+<section class="block_text_dual_tabla customSection sectionParent  {{ custom_class }}">
     <div class="section_contain">
         {% if media_centro_8_sections|length > 0 %}
             {% for item in media_centro_8_sections %}

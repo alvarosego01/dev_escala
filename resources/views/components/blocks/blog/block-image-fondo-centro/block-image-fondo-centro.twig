@@ -1,9 +1,9 @@
 {% set media_centro_8_sections = fields.media_centro_8_sections %}
 {% set media_fondo_completo_8_image = fields.media_fondo_completo_8_image %}
-
+{% set custom_class = fields.custom_class %}
 {% set fondocompleto = '' %}  {# Inicializa la variable fondo completo #}
 
-<section class="block_blog_centro_image_fondo_completo customSection sectionParent" 
+<section class="block_blog_centro_image_fondo_completo customSection sectionParent {{ custom_class }}" 
          >
 
     <div class="section_contain" style="{% if media_centro_8_sections|length > 0 %}
