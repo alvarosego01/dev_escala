@@ -8,7 +8,7 @@
         .innerSectionElement.sct1
             .containElements
                 p
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-style: normal
                     font-weight: bold
                     font-size: 17px
@@ -84,7 +84,7 @@
                 .hashTitle
                     color: #fff
                     text-align: center
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 24px
                     font-style: normal
                     font-weight: 700
@@ -187,7 +187,7 @@
                         margin-bottom: -15px
                 .sub
                     color: #fff
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 18px
                     font-style: normal
                     font-weight: 500
@@ -243,7 +243,7 @@
                         margin: 7.5px 0 7.5px 10px
                 p
                     color: #fff
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 20px
                     font-style: normal
                     font-weight: 700
@@ -343,7 +343,7 @@
                 .hashTitle
                     color: #fff
                     text-align: center
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 24px
                     font-style: normal
                     font-weight: 700
@@ -452,7 +452,7 @@
                         margin-bottom: -15px
                 .sub
                     color: #fff
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 18px
                     font-style: normal
                     font-weight: 500
@@ -508,7 +508,7 @@
                         margin: 7.5px 0 7.5px 10px
                 p
                     color: #fff
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 20px
                     font-style: normal
                     font-weight: 700
@@ -588,7 +588,7 @@
                 .hashTitle
                     color: #01516F
                     text-align: center
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 25px
                     font-style: normal
                     font-weight: 700
@@ -628,7 +628,7 @@
                             margin-right: 7.5px
                 .sub
                     color: #FFF
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 18px
                     font-style: normal
                     font-weight: 600
@@ -724,11 +724,13 @@
     background-size: cover
     background-position: center
     position: absolute
-    top: 75px
+    top: 128px
     @include responsivo(telefonoTable)
         display: none
+        top: 75px
     @include responsivo(pcMedio)
         background-position: 53.2%
+        top: 90px
     @include responsivoSpecial(2100px, 99999px)
         background-size: cover
     @include responsivo(general)
@@ -738,7 +740,7 @@
         background-position: 52% center
 
     .section-row
-        width: 1270px!important
+        width: 1350px!important
         padding: 7.5px 0
         @include responsivo(telefonoTable)
             width: 95%!important
@@ -746,9 +748,9 @@
         @include responsivo(pcMedio)
             width: 95%!important
         @include responsivo(general)
-            max-width: 1205px!important
+            max-width: 1225px!important
         @include responsivo(smallPcTablet)
-            max-width: 1070px!important
+            max-width: 1040px!important
 
         .innerSectionElement.sct1
             .contain
@@ -788,50 +790,57 @@
                         margin: 0 auto
                         height: 35px
                     @include responsivo(pcMedio)
-                        margin-right: 5px
+                        margin-right: 15px
                         height: 35px
                     @include responsivo(general)
                         height: 40px
-                    @include responsivo(smallPcTablet)
                         margin-right: 5px
+                    @include responsivo(smallPcTablet)
+                        margin-right: 15px
                         height: 40px
 
                 .hashTitle
-                    color: #CAF1F3
+                    color: #fff
                     text-align: center
-                    font-family: Nunito
-                    font-size: 22.5px
+                    font-family: 'Mulish', sans-serif
+                    font-size: 20px
                     font-style: normal
-                    font-weight: 400
+                    font-weight: 900
                     line-height: 1
-                  
                     @include responsivo(telefonoTable)
-                        font-size: 18px
+                        
                         margin-left: auto
                         margin-right: auto
                         text-align: center
                         width: auto
-                        font-weight: 700
+                        font-weight: 900
                         margin-bottom: 10px
                     @include responsivo(pcMedio)
                         font-size: 14px 
                         text-align: left
-                        width: 270px
+                        width: 240px
                     @include responsivo(general)
-                        font-size: 22.5px
+                        font-size: 18px
                         text-align: left
                     @include responsivo(smallPcTablet)
                         font-size: 18px
+                        width: 430px
+                        
                     @include responsivo(resto)
                         text-align: left
-                     
+                    strong
+                        @include responsivo(telefonoTable)
+                            display: block
+                            font-size: 18px!important
                     span
                         line-height: 1
-                        color: #CAF1F3
+                        color: #fff
                         margin-left: 2px
                         font-weight: 400
                         @include responsivo(telefonoTable)
-                            font-weight: 700
+                            font-weight: 600
+                            font-size: 14px
+                            display: block
                         @include responsivo(pcMedio)
                             margin-right: 0px
                             margin-left: 0px
@@ -839,10 +848,19 @@
                         @include responsivo(general)
                             margin: 0
                             margin-left: 5px
+                        @include responsivo(smallPcTablet)
+                            margin: 0
                         @include responsivo(resto)
                             margin: 0
-                            margin-left: 5px
-                            margin-right: 5px
+
+                    .colorSpecial
+                        background: linear-gradient(90deg, #83E3D0 0%, #F1685A 100%)
+                        background-clip: text
+                        -webkit-background-clip: text
+                        -webkit-text-fill-color: transparent    
+                        font-weight: 800
+                        @include responsivo(telefonoTable)
+                            font-size: 14px               
                 .separator
                     margin: 0 15px
                     height: 100%
@@ -876,10 +894,10 @@
 
                 .sub
                     color: #FFFFFF
-                    font-family: Nunito
-                    font-size: 18px
+                    font-family: 'Mulish', sans-serif
+                    font-size: 20px
                     font-style: normal
-                    font-weight: 500
+                    font-weight: 400
                     line-height: 1
                     display: flex
                     position: relative
@@ -919,32 +937,34 @@
                         margin-left: 0
 
                 a
-                    font-weight: 500!important
+                    font-weight: 900!important
                     color: #FFFFFF!important
-                    background-color: #00D35B!important
-                    // height: fit-content!important
+                    border-radius: 4px
+                    background: linear-gradient(90deg, #F34F36 0%, #007F96 100%)
                     @include responsivo(telefonoTable)
                         margin: 10px auto
                         margin-bottom: 0
-                        font-size: 20px!important
-                        padding-left: 7.5px!important
-                        padding-right: 7.5px!important
+                        font-size: 15px!important
+                        padding: 10px 30px!important
                     @include responsivo(pcMedio)
                         font-size: 18px!important
-                        padding: 5px 15px!important
-                        margin: 0px
+                        padding: 15px 20px!important
+                        margin: 0px 10px
                     @include responsivo(general)
-                        font-size: 25px!important
-                        padding: 7.5px 20px!important
-                        margin: 0 25px
+                        font-size: 18px!important
+                        padding: 15px 20px!important
+                        margin: 0
                         left: 25px
-
+                    @include responsivo(smallPcTablet)
+                        margin: 0 10px
                     @include responsivo(resto)
-                        margin: 0 25px
-                        font-size: 25px!important
+                        margin: 0
+                        font-size: 18px!important
                         position: relative
                         left: 25px
                         // padding: 7.5px 20px!important
+                    &:hover
+                        background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%) !important
 .MbHeadbandfree
     display: none!important
     @include responsivo(telefonoTable)
@@ -1021,7 +1041,7 @@
                 .hashTitle
                     color: #F34F36
                     text-align: center
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 20px
                     font-style: normal
                     font-weight: 700
@@ -1099,7 +1119,7 @@
 
                 .sub
                     color: #2C4857
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 20px
                     font-style: normal
                     font-weight: 700
@@ -1248,7 +1268,7 @@
                 .hashTitle
                     color: #F34F36
                     text-align: center
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 20px
                     font-style: normal
                     font-weight: 700
@@ -1297,7 +1317,7 @@
 
                 .sub
                     color: #2C4857
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 20px
                     font-style: normal
                     font-weight: 700
@@ -1441,7 +1461,7 @@
                 .hashTitle
                     color: #7DDBEA
                     text-align: center
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 20px
                     font-style: normal
                     font-weight: 700
@@ -1490,7 +1510,7 @@
 
                 .sub
                     color: #FFFFFF
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 20px
                     font-style: normal
                     font-weight: 700
@@ -1630,7 +1650,7 @@
                 .hashTitle
                     color: #FFFFFF
                     text-align: center
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 22px
                     font-style: normal
                     font-weight: 500
@@ -1704,7 +1724,7 @@
 
                 .sub
                     color: white
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 18px
                     font-style: normal
                     font-weight: 500
