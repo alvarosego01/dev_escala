@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_banner_mc_ai_abril_2025.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_banner_mc_ai_abril_2025_white.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -32,7 +32,7 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_banner_mc_ai_abril_2025_mb.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_banner_mc_ai_abril_2025_mb_white.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
 
     <div class="section-row">
 
