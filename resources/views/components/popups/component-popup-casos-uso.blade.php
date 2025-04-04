@@ -24,9 +24,9 @@
                                     <div class="sect1">
 
                                         <h2 class="primaryTitle">
-                                            <span style="color: #322C2E;">
-                                                Recibe una breve <br class="space">
-                                                demostración
+                                            <span style="color: #2C4857;">
+                                                Recibe un <br class="space">
+                                                demo personalizado
                                             </span>
                                         </h2>
 
@@ -37,7 +37,7 @@
 
                                             <div class="formatForm redirectWeb" redirectweb="true">
 
-                                          
+
 
 
                                                 @php
@@ -69,7 +69,7 @@
 
                             </div>
 
-                            <div class="col-md-12 col-lg-6 image">
+                            <div class="col-md-12 col-lg-6 image"  style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_popup_casos_exito.svg') }}')">
 
                                 <div class="containElements">
 
@@ -77,14 +77,14 @@
 
                                         <div class="containerImage logo">
 
-                                            <img src="{!! App::setFilePath('/assets/images/logos/logo_escala_F34F36_gris.png') !!}" alt="Logo" class="logo-img">
+                                            <img src="{!! App::setFilePath('/assets/images/logos/logotipo-escala-blanco.png') !!}" alt="Logo" class="logo-img">
 
                                         </div>
 
                                         <h3 class="thirdTitle">
                                             Descubre cómo Escala <br class="space">
                                             potencia negocios <br class="space">
-                                            <span style="color: #2C4857">
+                                            <span>
                                                 <strong>en tu industria</strong>
                                             </span>
 
@@ -94,8 +94,8 @@
                                     <div class="sect2">
 
                                         <div class="containerImage imageHero">
-
-                                            <img src="{!! App::setFilePath('/assets/images/illustrations/otto/otto_promo.png') !!}" alt="Otto casos de uso">
+                                       
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-ceo-escala-2025-alfonso.png') !!}" alt="CEO escala 2025 Alfonso">
 
                                         </div>
 
