@@ -69,7 +69,7 @@
 
                             </div>
 
-                            <div class="col-md-12 col-lg-6 image"  style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_popup_casos_exito.svg') }}')">
+                            <div class="col-md-12 col-lg-6 image" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_popup_casos_exito.svg') }}')">
 
                                 <div class="containElements">
 
@@ -85,7 +85,7 @@
                                             Descubre cómo Escala <br class="space">
                                             potencia negocios <br class="space">
                                             <span>
-                                                <strong>en tu industria</strong>
+                                                en tu industria
                                             </span>
 
                                         </h3>
@@ -94,7 +94,7 @@
                                     <div class="sect2">
 
                                         <div class="containerImage imageHero">
-                                       
+
                                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-ceo-escala-2025-alfonso.png') !!}" alt="CEO escala 2025 Alfonso">
 
                                         </div>

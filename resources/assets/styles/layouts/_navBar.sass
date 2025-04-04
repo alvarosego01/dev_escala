@@ -6,6 +6,11 @@
     width: auto
     height: 30px
     margin-right: 10px
+.whatsappButton
+    @include responsivo(telefonoTable)
+        display: none
+    @include responsivo(pcMedio)
+        display: none
 .menuButton 
     @include responsivo(telefonoTable)
         display: none!important
@@ -358,7 +363,7 @@ header.customHeader.customSection
                     @include responsivo(general)
                         width: 800px
                         padding: 25px
-                        left: -275px
+                        left: -168px
                         ul
                             width: 50%
                             display: block
