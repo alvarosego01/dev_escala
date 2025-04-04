@@ -23,19 +23,20 @@
 
                                     <div class="sect1">
 
-                                        <h2 class="primaryTitle" style="text-align:center;">
-                                            <span style="color:#006582;">
-                                                ¡Empieza ahora!
-
+                                        <h2 class="primaryTitle">
+                                            <span style="color: #2C4857;">
+                                                Recibe un <br class="space">
+                                                demo personalizado
+                                            </span>
                                         </h2>
 
                                     </div>
 
                                     <div class="sect2">
-
                                         <div class="containElements">
 
                                             <div class="formatForm redirectWeb" redirectweb="true">
+
 
 
 
@@ -60,36 +61,51 @@
                                             </div>
 
                                         </div>
+
                                     </div>
+
 
                                 </div>
 
                             </div>
 
+                            <div class="col-md-12 col-lg-6 image" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_popup_casos_exito.svg') }}')">
 
-                            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_fundig_popup.svg') }}')" class="col-md-12 col-lg-6 image">
+                                <div class="containElements">
 
-                                <div class="containElements ">
-                                    <div class="sect1 ">
-                                        <span class="primarySpan">¡Buenas noticias!</span>
-                                        <h2 class="primaryTitle">
-                                            Escala ha completado una ronda
-                                            de $12M de capital de inversión
-                                            <span> para consolidarse como el CRM
-                                                líder para PyMEs hispanas</span>
-                                        </h2>
+                                    <div class="sect1">
+
+                                        <div class="containerImage logo">
+
+                                            <img src="{!! App::setFilePath('/assets/images/logos/logotipo-escala-blanco.png') !!}" alt="Logo" class="logo-img">
+
+                                        </div>
+
+                                        <h3 class="thirdTitle">
+                                        Empieza a vender <span> más inteligentemente</span> con Escala
+                                        </h3>
+
                                     </div>
-
                                     <div class="sect2">
-                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/andres-moreno-y-alfonso-santiago-ceo-escala.png') !!}" alt="Imagen persona lectura">
+
+                                        <div class="containerImage imageHero">
+
+                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-ceo-escala-2025-alfonso.png') !!}" alt="CEO escala 2025 Alfonso">
+
+                                        </div>
 
                                     </div>
+
+
+
                                 </div>
-
-
-
-
                             </div>
+
+
+                        </div>
+
+
+                    </div>
 
                 </section>
 
@@ -102,6 +118,7 @@
 
 
     </div>
+
 </div>
 
 

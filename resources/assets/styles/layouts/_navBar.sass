@@ -1,16 +1,36 @@
-
-
+.svgIconMenu
+    height: 30px
+    width: auto
+    margin-right: 10px
+.whatsapp-icon
+    width: auto
+    height: 30px
+    margin-right: 10px
+.whatsappButton
+    @include responsivo(telefonoTable)
+        display: none
+    @include responsivo(pcMedio)
+        display: none
+.menuButton 
+    @include responsivo(telefonoTable)
+        display: none!important
+    @include responsivo(pcMedio)
+        display: none!important
+    a
+        font-weight: 900!important
 button.toggleSideMenu
     background-color: transparent
+    border: none
     @include responsivo(telefonoTable)
         padding-left: 10px
     @include responsivo(pcMedio)
         padding-left: 15px
     i
-        color: black
+        color: #fff
         font-size: 22px
         transition: $trans
         transform: scale(1)
+        
         @include responsivo(telefonoTable)
             font-size: 18px
 
@@ -20,7 +40,12 @@ button.toggleSideMenu
             color: $colorOrange
             display: block
 
-
+.fixedNav
+    button.toggleSideMenu    
+        i
+            color: #007F96!important
+    .nav-link
+        font-weight: 700
 
 @media all and (min-width: 992px)
     .navbar
@@ -99,10 +124,10 @@ header.customHeader.customSection
                 width: 95%
             @include responsivo(general)
                 width: 100%!important
-                max-width: 1200px!important
+                max-width: 1230px!important
             @include responsivo(resto)
                 width: 100%!important
-                max-width: 1275px!important
+                max-width: 1305px!important
             display: flex
             flex-direction: column
             margin: 0 auto
@@ -111,12 +136,15 @@ header.customHeader.customSection
             .svgIconMenu
                 height: 20px
                 width: 20px
-                margin-right: 15px
+                margin-right: 10px
                 position: relative
-                top: -2.5px
+            .whatsapp-icon
+                width: auto
+                height: 22px
+                margin-right: 10px
             .container-fluid.sct1
                 display: flex
-                margin-bottom: 7.5px
+                margin-bottom: 12px
                 div#main-menu-top
                     width: 100%
                     ul
@@ -128,7 +156,8 @@ header.customHeader.customSection
                     flex-direction: row
                     li
                         a
-                            color: black
+                            color: #212A31
+                            font-weight: 600
                             height: 100%
                             &:hover
                                     color: $colorOrange
@@ -139,11 +168,11 @@ header.customHeader.customSection
                                 font-size: 14px
 
                             @include responsivo(general)
-                                font-size: 15px
+                                font-size: 20px
                             @include responsivo(smallPcTablet)
                                 font-size: 14px
                             @include responsivo(resto)
-                                font-size: 16px
+                                font-size: 20px
 
                         ul.dropdown-menu.show,
                         div.dropdown-menu.show
@@ -152,6 +181,7 @@ header.customHeader.customSection
 
                 div.menusSectionTop
                     margin-left: auto
+                    
             .container-fluid.sct2
                 display: flex
                 flex-direction: row
@@ -197,7 +227,7 @@ header.customHeader.customSection
                             position: relative
                             a
                                 height: 100%
-                                color: #797979
+                                color: #2C4857
                                 &:hover
                                     color: $colorOrange
                         li.navBorderRight
@@ -220,7 +250,7 @@ header.customHeader.customSection
             ul
                 margin-left: 0!important
                 li.menu-item
-                    margin-left: 17.5px
+                    margin-left: 14.5px
                     display: flex
                     justify-content: center
                     align-items: center
@@ -238,11 +268,12 @@ header.customHeader.customSection
 
                     a
                         transition: $trans
-                        font-size: 16px
+                        font-size: 20px
                         font-family: "Mulish", sans-serif
-                        line-height: 16px
+                        line-height: 1
                         padding: 7.5px 10px
                         display: flex
+                        font-weight: 700
                         align-content: center
                         align-items: center
                         &:focus
@@ -253,17 +284,18 @@ header.customHeader.customSection
                         i.fab
                             font-size: 23px
                         @include responsivo(telefonoTable)
-                            font-size: 12.5px
+                            font-size: 30px
 
                         @include responsivo(pcMedio)
                             font-size: 14px
 
                         @include responsivo(general)
-                            font-size: 15px
+                            font-size: 20px
                         @include responsivoSpecial(990px, 1000px)
                             padding-right: 0
                         @include responsivoSpecial(990px, 1075px)
-                            font-size: 12px
+                            font-size: 16px
+                            padding: 7.5px 8px
 
 
                     a.dropdown-toggle
@@ -298,9 +330,10 @@ header.customHeader.customSection
                         margin: 0
                         a
                             padding: 10px
-                            color: black
-                            font-size: 16px
-                            line-height: 16px
+                            color: #212A31
+                            font-size: 20px
+                            font-weight: 600
+                            line-height: 1
                             transition: $trans
                         &:hover
                             a
@@ -312,6 +345,7 @@ header.customHeader.customSection
                 //         visibility: visible
                 // display: none!important
                 div.dropdown-menu.dropdown_two_columns.dropdown-menu
+                    // display: block !important
                     .menu-item
                         @include responsivo(general)
                             margin-bottom: 5px
@@ -329,7 +363,7 @@ header.customHeader.customSection
                     @include responsivo(general)
                         width: 800px
                         padding: 25px
-                        left: -275px
+                        left: -168px
                         ul
                             width: 50%
                             display: block
@@ -363,7 +397,7 @@ header.customHeader.customSection
                         @include responsivo(general)
                             &:first-child
                                 &::after
-                                    border-right: 1px solid #D6F4F6
+                                    border-right: 1px solid #E9E9E9
                                     content: ''
                                     display: block
                                     margin: auto
@@ -377,7 +411,7 @@ header.customHeader.customSection
                         @include responsivo(resto)
                             &:first-child
                                 &::after
-                                    border-right: 1px solid #D6F4F6
+                                    border-right: 1px solid #E9E9E9
                                     content: ''
                                     display: block
                                     margin: auto
@@ -393,6 +427,7 @@ header.customHeader.customSection
                             a.dropdown-item
                                 width: 100%
                                 display: block
+                                
                                 background-color: transparent!important
                                 box-sizing: border-box
                                 // padding-left: 0
@@ -421,7 +456,7 @@ header.customHeader.customSection
                                         display: block
                                         box-sizing: border-box
                                         word-break: break-all
-
+                                        
                                     span.infoItem
                                         span
                                             display: flex
@@ -433,26 +468,28 @@ header.customHeader.customSection
                                                 transition: $trans
                                                 font-family: "Mulish", sans-serif
                                                 font-style: normal
-                                                font-weight: 600
+                                                font-weight: 700
                                                 line-height: 1
-                                                color: #36768A
+                                                color: #2C4857
                                                 @include responsivo(general)
-                                                    font-size: 18px
+                                                    font-size: 20px
                                                     margin-right: 5px
                                                 @include responsivo(resto)
-                                                    font-size: 18px
+                                                    font-size: 20px
                                                     margin-right: 5px
+                                                &:hover
+                                                    color: #FF4D27
                                             button
                                                 background: #0000!important
                                                 background-color: #0000
                                         p
                                             font-family: "Mulish", sans-serif
                                             font-style: normal
-                                            font-weight: 300
+                                            font-weight: 400
                                             line-height: 1
-                                            letter-spacing: -0.04em
+                                          
                                             display: block
-                                            color: #797979!important
+                                            color: #A6A6A6!important
                                             @include responsivo(general)
                                                 font-size: 14px
                                             @include responsivo(resto)
@@ -464,12 +501,12 @@ header.customHeader.customSection
                                     span.infoItem
                                         span
                                             t
-                                                color: #797979!important
+                                                color: #2C4857!important
                                             small
                                                 color: #36768A!important
                                                 // margin-left: 5px
                                                 font-weight: 500
-                                                letter-spacing: -0.03em
+                                                
                                                 display: flex
                                                 align-self: flex-end
                                                 justify-self: flex-end
@@ -489,7 +526,7 @@ header.customHeader.customSection
                                                 t
                                                     color: #FF4D27
                                             p
-                                                color: #797979
+                                                color: #2C4857
 
                 div.no_two_columns.dropdown-menu
                     @include responsivo(general)
@@ -546,7 +583,7 @@ header.customHeader.customSection
 body
     position: relative
     #sideNavBar
-        background-color: rgba(0,0,0,0.25)
+
         position: fixed
         right: 0
         top: 0
@@ -556,6 +593,8 @@ body
         display: flex
         z-index: 999999999989
         display: none
+        @include responsivo(pcMedio)
+            width: auto
         @include responsivo(general)
             display: none!important
         @include responsivo(resto)
@@ -567,7 +606,7 @@ body
             display: flex
             justify-content: center
             align-content: center
-            margin-bottom: 15px
+            margin-bottom: 35px
             .navbar-brand
                 // margin: auto
                 margin-right: auto
@@ -608,6 +647,7 @@ body
                     display: block
                     margin-left: auto
                     font-size: 22px
+                    color: #007F96
                     background-color: transparent
                     transition: $trans
                     &:hover
@@ -621,7 +661,10 @@ body
                     flex-direction: column
                     li
                         a
-                            color: black
+                            color: #212A31
+                            font-size: 20px
+                            font-weight: 600
+                            
                         &:first-child
                             margin-left: 0!important
             .container-fluid.sct2
@@ -636,12 +679,30 @@ body
                     li:not(.menuButton)
                         position: relative
                         a
-                            color: #797979
+                            color: #2C4857
 
                     li
                         &:first-of-type
                             margin-left: 0!important
+            .container-fluid.sct3
 
+                .menusSection
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    flex-direction: column
+                    gap: 10px
+                    .iconWhatsapp
+                        font-size: 27px
+                        font-weight: 600
+                        font-family: 'Mulish', sans-serif
+                        color: #212A31
+                        img
+                            margin-right: 10px
+                            margin-bottom: 5px
+                    .primaryButton
+                        font-size: 22px!important
+                        padding: 15px 30px!important
             ul
                 margin-left: 0!important
                 padding: 0
@@ -649,11 +710,13 @@ body
                     margin-left: 0
                     transition: $trans
                     padding: 5px 7.5px
+                    padding-bottom: 15px
                     a
                         transition: $trans
-                        font-size: 16px
+                        font-size: 30px
                         font-family: "Mulish", sans-serif
-                        line-height: 16px
+                        line-height: 1
+                        font-weight: 700
                         display: flex
                         align-content: center
                         align-items: center
@@ -670,26 +733,38 @@ body
                         &:focus
                             outline: none!important
                         @include responsivo(telefonoTable)
-                            font-size: 12px
+                            font-size: 30px
 
                         @include responsivo(pcMedio)
-                            font-size: 14px
+                            font-size: 30px
 
                         @include responsivo(general)
-                            font-size: 15px
+                            font-size: 20px
                         @include responsivo(smallPcTablet)
-                            font-size: 14px
+                            font-size: 16px
                     a.dropdown-toggle
                         &::after
                             margin-left: 5px
-                            margin-top: auto
-                            margin-bottom: auto
+                            margin-top: 5px
+                            font-size: 20px!important
+                        &:hover
+                            background-color: #0000!important
+                    a.dropdown-toggle.show
+                        color: #F1685A
+                        background-color: #0000
+                        padding-bottom: 15px
+
                 li.menu-item.menu-item-has-children
                     ul.dropdown-menu.show,
                     div.dropdown-menu.show
                         border: none
                         margin-left: 15px!important
-
+                        a
+                            font-size: 20px!important
+                            font-weight: 500
+                            &:hover
+                                background-color: #0000!important                            
+                            
 
             .container-fluid
                 padding: 0
@@ -698,10 +773,10 @@ body
             .container-fluid.sct2
                 position: relative
                 padding-bottom: 10px
-                margin-bottom: 10px
+                margin-bottom: 25px
                 &::after
                     content: ""
-                    border-bottom: 1px solid rgba(0,0,0,0.25)
+                    border-bottom: 1px solid #E9E9E9
                     width: 100%
                     height: 1px
                     margin: 0 auto
@@ -748,6 +823,7 @@ header.customHeader.customSection.principal-global-extended-trasp.transparent.de
     top: 0
     left: 0
     right: 0
+
     nav.principal.navbar.navbar-expand-md
         .section-row
             // .sct1
@@ -759,9 +835,9 @@ header.customHeader.customSection.principal-global-extended-trasp.transparent.de
                     justify-content: flex-start
                 .logo
                     @include responsivo(general)
-                        margin-right: 25px
+                        margin-right: 10px
                     @include responsivo(resto)
-                        margin-right: 25px
+                        margin-right: 20px
                     a.navbar-brand.fixed
                         display: none
                     a.navbar-brand.normal
@@ -781,6 +857,7 @@ header.customHeader.customSection.principal-global-extended-trasp.transparent.de
             background-color: white!important
             .section-row
                 // .sct1
+
                 .sct2
                     .logo
                         a.navbar-brand.normal
@@ -815,10 +892,18 @@ header.customHeader.customSection.principal-global-extended-trasp.transparent.de
                             &:not(.menuButton)
                                 .nav-link
                                     color: #FFFFFF!important
+                                    font-weight: 700
                                 &:hover
                                     .nav-link
-                                        color: #A4E7EA!important
+                                        color: #F1685A!important
 
+header.customHeader.customSection.principal-global-extended
+    button.toggleSideMenu
+        i
+            color: #007F96
+    .logo
+        position: relative
+        top: -3px
 
 header.customHeader.customSection.principal-global-extended-trasp-white.transparent.white
     box-shadow: none
@@ -826,6 +911,9 @@ header.customHeader.customSection.principal-global-extended-trasp-white.transpar
     top: 0
     left: 0
     right: 0
+    button.toggleSideMenu
+        i
+            color: #007F96
     nav.principal.navbar.navbar-expand-md
         .section-row
             // .sct1
@@ -837,9 +925,9 @@ header.customHeader.customSection.principal-global-extended-trasp-white.transpar
                     justify-content: flex-start
                 .logo
                     @include responsivo(general)
-                        margin-right: 25px
+                        margin-right: 10px
                     @include responsivo(resto)
-                        margin-right: 25px
+                        margin-right: 20px
                     a.navbar-brand.fixed
                         display: none
                     a.navbar-brand.normal
@@ -861,6 +949,7 @@ header.customHeader.customSection.principal-global-extended-trasp-white.transpar
                 // .sct1
                 .sct2
                     .logo
+
                         a.navbar-brand.normal
                             display: none
                         a.navbar-brand.fixed
@@ -892,7 +981,7 @@ header.customHeader.customSection.principal-global-extended-trasp-white.transpar
                         li.menu-item
                             &:not(.menuButton)
                                 .nav-link
-                                    color: $colorGrey!important
+                                    color: #2C4857!important
                                 &:hover
                                     .nav-link
                                         color: #FF4E33!important
@@ -918,9 +1007,9 @@ header.customHeader.customSection.principal-global-landing-trasp-light.transpare
                     justify-content: space-between
                 .logo
                     @include responsivo(general)
-                        margin-right: 25px
+                        margin-right: 10px
                     @include responsivo(resto)
-                        margin-right: 25px
+                        margin-right: 20px
                     a.navbar-brand.fixed
                         display: none
                     a.navbar-brand.normal
@@ -961,6 +1050,7 @@ header.customHeader.customSection.principal-global-landing-trasp-light.transpare
                             right: 0
                             top: 0
                             bottom: 0
+                            
                         // li.menu-item
                         //     &:not(.menuButton)
                         //         .nav-link
