@@ -110,6 +110,26 @@
         "label": "Custom Class",
         "type": "text",
         "default": ""
+      },
+      {
+        "key": "background_color",
+        "label": "Background Color",
+        "type": "select",
+        "options": [
+          {
+            "label": "Red",
+            "value": "red-bg"
+          },
+          {
+            "label": "Blue",
+            "value": "blue-bg"
+          },
+          {
+            "label": "White",
+            "value": "white-bg"
+          }
+        ],
+        "default": ""
       }
     ]
   },

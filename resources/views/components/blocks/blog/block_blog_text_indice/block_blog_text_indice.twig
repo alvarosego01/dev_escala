@@ -1,13 +1,22 @@
 {% set text_indice_3_title = fields.text_indice_3_title %}
 {% set text_indice_3_parag = fields.text_indice_3_parag %}
-
 {% set custom_class = fields.custom_class is not empty ? fields.custom_class : 'default-class' %}
+{% set background_color = fields.background_color is not empty ? fields.background_color : '' %}
 
-<section class="w-full block_blog_text_indice customSection sectionParent {{ custom_class }}" >
-    <!-- Debug: Custom class applied: {{ custom_class }} -->
-    <div class="section_contain">
+{% set background_style = '' %}
+{% if background_color == 'red-bg' %}
+    {% set background_style = 'background-color: red !important;' %}
+{% elseif background_color == 'blue-bg' %}
+    {% set background_style = 'background-color: blue !important;' %}
+{% elseif background_color == 'white-bg' %}
+    {% set background_style = 'background-color: white !important;' %}
+{% endif %}
 
-        <section class="innerSectionElement sct1">
+<section class="w-full block_blog_text_indice customSection sectionParent {{ custom_class }}">
+    <!-- Debug: Custom class applied: {{ custom_class }}, Background color: {{ background_color }} -->
+    <div class="section_contain" >
+
+        <section class="innerSectionElement sct1"  style="{{ background_style }}">
             <div class="containElements">
 
                 {% if text_indice_3_title != '' %}
@@ -18,7 +27,6 @@
 
                 {% if text_indice_3_parag != '' %}
                     <div class="textContent">
-                    
                         {{ text_indice_3_parag|raw }}
                     </div>
                 {% endif %}
