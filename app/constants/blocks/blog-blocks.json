@@ -104,24 +104,7 @@
         "type": "rich_text",
         "default": "lorem ipsum dolor sit amet"
       },
-      {
-        "key": "text_indice_3_background_color",
-        "label": "Background Color",
-        "type": "color",
-        "default": "#FFF3F1"
-      },
-      {
-        "key": "text_indice_3_title_color",
-        "label": "Title Color",
-        "type": "color",
-        "default": "#F34F36"
-      },
-      {
-        "key": "text_indice_3_parag_color",
-        "label": "Lista Color",
-        "type": "color",
-        "default": "#F34F36"
-      },
+
       {
         "key": "custom_class",
         "label": "Custom Class",

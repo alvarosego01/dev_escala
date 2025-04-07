@@ -1,5 +1,5 @@
 <?php
-// Block Name: Blog Text  indice parag
+// Block Name: Blog Text indice parag
 
 use App\Classes\Twig_Config;
 
@@ -9,5 +9,8 @@ $twig = Twig_Config::getInstance()->getTwig();
 
 $slug = $context['slug'];
 $path = $context['path'];
+
+// Debug: Log the context to verify custom_class
+error_log(print_r($context, true));
 
 echo $twig->render($path . "/{$slug}.twig", $context);
