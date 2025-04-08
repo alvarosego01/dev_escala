@@ -256,6 +256,10 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-landing-escala-SEM-2024.blade.php')) {
         wp_enqueue_style('landing_SEM_.css', asset_path('styles/pages/landingPages/landing_SEM_2024.css'), false, THEME_VERSION);
     }
+    // ---Landing escala acompañamiento aceleradora
+    if (is_page_template('views/template-landing-escala-acompanamiento-aceleradora.blade.php')) {
+        wp_enqueue_style('landing_acompanamiento_aceleradora.css', asset_path('styles/pages/landingPages/landing_acompanamiento_aceleradora.css'), false, THEME_VERSION);
+    }
     // ---Landing escala Paid media 2024 
     if (is_page_template('views/template-landing-escala-paid-media-2024.blade.php')) {
         wp_enqueue_style('landing_paid_media_.css', asset_path('styles/pages/landingPages/landing_paid_media_2024.css'), false, THEME_VERSION);
