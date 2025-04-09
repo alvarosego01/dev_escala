@@ -4,7 +4,7 @@
         <section id="lead-form"
             class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_acompanamiento_aceleradora_0 ">
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_new_home_2025_landing_page_escala.svg') }}')"
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section1_acompañamiento_ningun_otro_crm.svg') }}')"
                 class="backgroundFull">
                 <div class="section-row">
 
@@ -26,7 +26,7 @@
 
                                     @php
                                     $videoEmbed = App::setFilePath('/assets/videos/video escala optimizado.mp4');
-                                    $videoCover = App::setFilePath('/assets/image/illustrations/others/img_video_escala_acompanamiento_aceleradora.png');
+                                    $videoCover = App::setFilePath('/assets/images/illustrations/others/img_video_acompañamiento_aceleradora_overlay.png');
                                     @endphp
 
                                     @if (isset($videoEmbed) && $videoEmbed != null)
@@ -264,20 +264,25 @@
 
 
 
-
-
         <section class="customSection sectionParent landing_acompanamiento_aceleradora_3">
 
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
                     <h2 class="title">
-                        La Implementación Guiada es ideal para tu empresa si prefieren...
+                        La Implementación Guiada es ideal <br class="DT_e">
+                        para tu empresa si prefieren...
                     </h2>
                     <ul>
-                        <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}">Tener los conocimientos internos a la empresa
-                            sobre cómo configurar el CRM de Escala.</li>
-                        <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}">Recibir orientación personalizada y privada de Escala para que tú y tu equipo personalicen el CRM exitosamente.</li>
+                        <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}">
+                            <span>Tener los conocimientos internos a la empresa <br class="DT_e">
+                                sobre cómo configurar el CRM de Escala.</span>
+                        </li>
+                        <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}">
+                            <span>Recibir orientación personalizada y privada de Escala para <br class="DT_e">
+                                que tú y tu equipo personalicen el CRM exitosamente.
+                            </span>
+                        </li>
                     </ul>
                 </section>
 
@@ -364,7 +369,8 @@
                     <div class="containElements">
                         <div class="info">
                             <h2 class="title">
-                                ¿Cómo luce un cronograma de Implementación Guiada?
+                                ¿Cómo luce un cronograma <br class="DT_e">
+                                de Implementación Guiada?
                             </h2>
 
                             <span class="text">
@@ -404,12 +410,13 @@
                     <div class="cards left">
                         <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-duracion-proceso-implementacion.png') !!}"
                             alt="">
-
                     </div>
+
                     <div class="cards right">
                         <h3>Duración del proceso de implementación</h3>
                         <p>
-                            En promedio, nuestros clientes tardan 45 días en completar su plan de implementación.*
+                            En promedio, nuestros clientes tardan 45 días en <br class="DT_e">
+                            completar su plan de implementación.*
                         </p>
                         <span class="colorSpecial">*Puede variar dependiendo de la complejidad del plan y la participación del cliente.</span>
                     </div>
@@ -429,12 +436,12 @@
                             apoyarlos una vez culminada <br class="DT_e">
                             la implementación?</h3>
                         <ul>
-                            <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}"> Monitorea el uso que le dan a la plataforma</li>
-                            <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}"> Los contactará para conocer su nivel de satisfacción</li>
-                            <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}"> Coordinará reuniones trimestrales con su Gerente de Éxito para evaluar resultados a la fecha y apoyarlos a definir próximos planes con Escala</li>
-                            <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}"> Los invitará a participar en capacitaciones y eventos especiales</li>
-                            <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}"> Estará disponible por WhatsApp y chat de plataforma para atender a preguntas y necesidades</li>
-                            <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}"> Anunciará actualizaciones y nuevas funcionalidades de la plataforma</li>
+                            <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}"> <span> Monitorea el uso que le dan a la plataforma</span></li>
+                            <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}"> <span> Los contactará para conocer su nivel de <br class="DT_e"> satisfacción</span></li>
+                            <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}"> <span> Coordinará reuniones trimestrales con su <br class="DT_e"> Gerente de Éxito para evaluar resultados a <br class="DT_e"> la fecha y apoyarlos a definir próximos <br class="DT_e"> planes con Escala</span></li>
+                            <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}"> <span> Los invitará a participar en capacitaciones y <br class="DT_e"> eventos especiales</span></li>
+                            <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}"> <span> Estará disponible por WhatsApp y chat de <br class="DT_e"> plataforma para atender a preguntas y <br class="DT_e"> necesidades</span></li>
+                            <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}"> <span> Anunciará actualizaciones y nuevas <br class="DT_e"> funcionalidades de la plataforma</span></li>
                         </ul>
 
                     </div>
@@ -457,10 +464,10 @@
                     <h2 class="title">
                         Recursos Escala Academy
                     </h2>
-                    <span>Además de las capacitaciones privadas, en Escala <br class="DT_e">
+                    <p>Además de las capacitaciones privadas, en Escala <br class="DT_e">
                         Academy encuentras una variedad de recursos <br class="DT_e">
                         educativos para que tú y tu equipo aprendan a usar cada <br class="DT_e">
-                        una de las herramientas de Escala.</span>
+                        una de las herramientas de Escala.</p>
                 </section>
 
                 <section class="innerSectionElement sct2">
