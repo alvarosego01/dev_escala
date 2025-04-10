@@ -429,7 +429,7 @@
         <section class="customSection sectionParent landing_acompanamiento_aceleradora_7">
 
             <div class="section-row ">
-                <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-implementacion-apoyo-escala.svg') }}')">
+                <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-implementacion-apoyo-escala-1.svg') }}')">
 
                     <div class="cards left">
                         <h3>¿Qué hace Escala para <br class="DT_e">

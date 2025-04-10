@@ -2,7 +2,8 @@
 
 @import ../../common/global
 
-
+.video-js .vjs-modal-dialog
+    border-radius: 20px!important
 img
     width: auto
 
@@ -235,7 +236,7 @@ img
                                 z-index: 5
                                 position: relative
                                 // display: none!important
-                                
+
                     .containElements
                         margin-top: 65px
                         @include responsivo(telefonoTable)
@@ -1057,11 +1058,12 @@ img
             box-shadow: 0px 6px 30px 0px rgba(0, 127, 150, 0.15)
             border-radius: 20px
             text-align: left
-            background-image: url('https://escala.com/wp-content/uploads/2025/04/bg_section_guia_acompanamiento.png')!important
+            
             @include responsivo(telefonoTable)
                 flex-direction: column
                 gap: 30px
                 align-items: center
+                background-image: url('https://escala.com/wp-content/uploads/2025/04/bg_section_guia_acompanamiento_1.png')!important
             @include responsivo(pcMedio)
                 flex-direction: column
                 gap: 30px
