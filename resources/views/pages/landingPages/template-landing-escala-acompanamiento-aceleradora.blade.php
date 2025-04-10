@@ -487,6 +487,7 @@
                                 funcionamiento.
                             </p>
                         </div>
+                        <hr class="lineCards">
                         <div class="cards">
                             <img class="img-top"
                                 src="{!! App::setFilePath('/assets/images/illustrations/others/icon-cursos-online-autoguiados-3.png') !!}"
@@ -582,10 +583,16 @@
 
 
         <section class="customSection sectionParent landing_acompanamiento_aceleradora_10" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section10_acompañamiento_ningun_otro_crm.svg') }}')">
-
             <div class="section-row ">
                 <div class="containElements">
-                    <section class="innerSectionElement sct1">
+                <section class="innerSectionElement sct1">
+                        <div class="containElement">
+                            <img alt=""
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/ceo_escala_2025.png') }}"
+                                loading="lazy">
+                        </div>
+                    </section>
+                    <section class="innerSectionElement sct2">
                         <div class="containElement">
                             <h2 class="title">
                                 ¡Ningún otro CRM te <br class="DT_e">
@@ -594,13 +601,7 @@
                         </div>
                     </section>
 
-                    <section class="innerSectionElement sct2">
-                        <div class="containElement">
-                            <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/ceo_escala_2025.png') }}"
-                                loading="lazy">
-                        </div>
-                    </section>
+                 
 
                 </div>
             </div>
