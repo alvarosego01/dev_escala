@@ -585,7 +585,7 @@
         <section class="customSection sectionParent landing_acompanamiento_aceleradora_10" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section10_acompañamiento_ningun_otro_crm.svg') }}')">
             <div class="section-row ">
                 <div class="containElements">
-                <section class="innerSectionElement sct1">
+                    <section class="innerSectionElement sct1">
                         <div class="containElement">
                             <img alt=""
                                 src="{{ App::setFilePath('/assets/images/illustrations/others/ceo_escala_2025.png') }}"
@@ -601,7 +601,7 @@
                         </div>
                     </section>
 
-                 
+
 
                 </div>
             </div>
