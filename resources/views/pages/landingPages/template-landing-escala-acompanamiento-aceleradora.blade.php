@@ -24,51 +24,34 @@
                             <div class="info col-md-12 col-lg-8 ">
                                 <div class="video">
 
-                                    @php
+                                @php
                                     $videoEmbed = App::setFilePath('/assets/videos/video escala optimizado.mp4');
                                     $videoCover = App::setFilePath('/assets/images/illustrations/others/img_video_acompañamiento_aceleradora_overlay.png');
                                     @endphp
-
                                     @if (isset($videoEmbed) && $videoEmbed != null)
                                     <div class="youtubeImageContainer ">
 
-                                        <video class="video-js video_1 videoCover">
-                                            <source src="{{ $videoCover }}" type="video/mp4">
-                                            Tu navegador no soporta videos HTML5.
-                                        </video>
-
-                                        <video id="video_1" class="video-js video_1" controls
-                                            preload="none" poster="{{ $videoCover }}"
+                                        <video class="video-js" controls preload="none" poster="{{ $videoCover }}"
                                             {{-- poster="MY_VIDEO_POSTER.jpg" --}}
                                             data-setup="{
-                  autoplay: false
-                }">
+                                  autoplay: false
+                                }">
                                             <source src="{{ $videoEmbed }}" type="video/mp4" />
                                             <source src="{{ $videoEmbed }}" type="video/webm" />
                                             <p class="vjs-no-js">
-                                                To view this video please enable JavaScript, and consider
-                                                upgrading to a
+                                                To view this video please enable JavaScript, and consider upgrading to a
                                                 web browser that
-                                                <a href="https://videojs.com/html5-video-support/"
-                                                    target="_blank">supports
+                                                <a href="https://videojs.com/html5-video-support/" target="_blank">supports
                                                     HTML5 video</a>
                                             </p>
                                         </video>
 
+                                        {{--
+                                        <a class=" secondaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                            Ver el demo
+                                        </a> --}}
 
                                     </div>
-
-                                    <script type="text/javascript">
-                                        var player = videojs('video_1');
-
-                                        // Agrega un oyente de eventos al evento 'play'
-                                        player.on('play', function() {
-
-                                            jQuery('.video_1.videoCover').remove();
-
-                                        });
-                                    </script>
-
                                     @endif
 
                                 </div>
