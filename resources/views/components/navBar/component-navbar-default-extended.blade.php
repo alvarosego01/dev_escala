@@ -195,7 +195,7 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
                 </div>
 
                 <div class="container-fluid sct2">
-
+  
                     <div class="menusSection">
 
                         {!! wp_nav_menu([
