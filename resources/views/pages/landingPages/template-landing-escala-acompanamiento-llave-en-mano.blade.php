@@ -1,19 +1,19 @@
-<div id="landing_acompanamiento_aceleradora">
+<div id="landing_acompanamiento_llave_en_mano">
     <div class="sections">
 
         <section id="lead-form"
-            class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_acompanamiento_aceleradora_0 ">
+            class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_acompanamiento_llave_en_mano_0 ">
 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section1_acompañamiento_ningun_otro_crm.svg') }}')"
+            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-1-md-aceleradora-desktop.svg') }}')"
                 class="backgroundFull">
                 <div class="section-row">
 
                     <section class="innerSectionElement sct1">
                         <div class="containElements">
-                            <span> Servicio de Implementación Guiada</span>
+                            <span>Servicio de Implementación Llave en Mano</span>
                             <h1 class="principalBigTitle">
-                                Adapta el CRM de Escala a las necesidades de tu <br class="DT_e">
-                                empresa bajo la guía privada de nuestros expertos
+                                Contrata a nuestros expertos para que adapten <br class="DT_e">
+                                el CRM a las necesidades de tu empresa
                             </h1>
                         </div>
                     </section>
@@ -23,8 +23,7 @@
                         <div class="groupElements row">
                             <div class="info col-md-12 col-lg-8 ">
                                 <div class="video">
-
-                                @php
+                                    @php
                                     $videoEmbed = App::setFilePath('/assets/videos/video escala optimizado.mp4');
                                     $videoCover = App::setFilePath('/assets/images/illustrations/others/img_video_acompañamiento_aceleradora_overlay.png');
                                     @endphp
@@ -53,6 +52,7 @@
 
                                     </div>
                                     @endif
+
 
                                 </div>
 
@@ -167,45 +167,56 @@
 
         </section>
 
-        <section class="customSection sectionParent landing_acompanamiento_aceleradora_1">
+        <section class="customSection sectionParent landing_acompanamiento_llave_en_mano_1">
 
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
                     <div class="containElements">
-                        <div class="cards" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_cards_acompañamiento_aceleradora_1.svg') !!}')">
+                        <div class="cards">
                             <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/im_card_acompañamiento_aceleradora_1.png') !!}"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-card-acompañamiento-tiempo.png') !!}"
                                 alt="">
-                            <h3>Gana mayor <br class="DT_e">
-                                conocimiento y control</h3>
+                            <h3>Reduce el tiempo <br class="DT_e">
+                                que dedicas a <br class="DT_e">
+                                personalizar el CRM</h3>
                             <p>
-                                Al configurar el CRM por tu
-                                cuenta, entiendes mejor
-                                cómo funciona, permitiéndote adaptarlo continuamente a las necesidades de tu negocio
-                                sin depender de terceros.
+                                El equipo de Escala se <br class="DT_e">
+                                encarga de implementar gran <br class="DT_e">
+                                parte del CRM mientras tú y <br class="DT_e">
+                                tu equipo se enfocan en hacer <br class="DT_e">
+                                crecer el negocio.
                             </p>
                         </div>
-                        <div class="cards" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_cards_acompañamiento_aceleradora_2.svg') !!}')">
+                        <div class="cards">
                             <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/im_card_acompañamiento_aceleradora_2.png') !!}"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-card-acompañamiento-configurar.png') !!}"
                                 alt="">
-                            <h3>Realiza ajustes <br class="DT_e">
-                                más rápidamente</h3>
+                            <h3>Minimiza errores al <br class="DT_e">
+                                configurar un <br class="DT_e">
+                                nuevo sistema</h3>
                             <p>
-                                Al saber personalizar el
-                                CRM, ganas flexibilidad para realizar cambios y experimentar con nuevas configuraciones sin esperar la disponibilidad de un tercero.
+                                La experiencia del equipo de <br class="DT_e">
+                                Escala asegura que la <br class="DT_e">
+                                configuración del CRM se <br class="DT_e">
+                                realice lo más efectiva y <br class="DT_e">
+                                eficientemente posible.
                             </p>
                         </div>
-                        <div class="cards" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_cards_acompañamiento_aceleradora_3.svg') !!}')">
+                        <div class="cards">
                             <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/im_card_acompañamiento_aceleradora_3.png') !!}"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-card-acompañamiento-resultados.png') !!}"
                                 alt="">
-                            <h3>Ahorra <br class="DT_e">
-                                costos</h3>
+                            <h3>Empiezan a <br class="DT_e">
+                                conseguir resultados <br class="DT_e">
+                                más rápido</h3>
                             <p>
-                                Evita incurrir en gastos
-                                adicionales y recurrentes al contratar a un tercero que implemente y realice ajustes por ti.
+                                Al reducir el tiempo de <br class="DT_e">
+                                implementación, tú y tu <br class="DT_e">
+                                equipo pueden incorporar el <br class="DT_e">
+                                CRM a sus operaciones antes <br class="DT_e">
+                                y acelerar su retorno <br class="DT_e">
+                                de inversión.
                             </p>
                         </div>
 
@@ -218,24 +229,24 @@
 
         </section>
 
-        <section class="customSection sectionParent landing_acompanamiento_aceleradora_2">
+        <section class="customSection sectionParent landing_acompanamiento_llave_en_mano_2">
 
             <div class="section-row ">
-                <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_ceo_escala.svg') }}')">
+                <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-4-md-aceleradora-desktop.svg') }}')">
 
                     <div class="cards left">
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_ceo_alfonso_escala.png') !!}"
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-ceo-alfonzo-section-3.png') !!}"
                             alt="">
                     </div>
                     <div class="cards right">
+                        <span>"Sabemos que hacer crecer tu negocio ya es un gran <br class="DT_e">
+                            desafío. Queremos que concentres tus esfuerzos en lo que <br class="DT_e">
+                            realmente importa: hacerlo crecer, mientras nosotros nos <br class="DT_e">
+                            encargamos de los temas operativos.</span>
                         <p>
-                            <span>"Contar con alguien clave que adapte el CRM <br class="DT_e">
-                                a las necesidades y operaciones del negocio marca la <br class="DT_e">
-                                diferencia.</span>
-                            En Escala, ayudamos a acelerar la curva de <br class="DT_e">
-                            aprendizaje de esa persona esencial en las empresas de <br class="DT_e">
-                            nuestros clientes, para que aprovechen al máximo su <br class="DT_e">
-                            CRM desde el primer día"
+                            Por eso, hemos creado el Servicio de Implementación <br class="DT_e">
+                            Llave en Mano de Escala, para que adoptar un CRM sea <br class="DT_e">
+                            simple, rápido y sin complicaciones."
                         </p>
                         <span class="colorSpecial">Alfonso Santiago, CEO de Escala</span>
                     </div>
@@ -247,23 +258,23 @@
 
 
 
-        <section class="customSection sectionParent landing_acompanamiento_aceleradora_3">
+        <section class="customSection sectionParent landing_acompanamiento_llave_en_mano_3">
 
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
                     <h2 class="title">
-                        La Implementación Guiada es ideal <br class="DT_e">
-                        para tu empresa si prefieren...
+                        La Implementación Llave en Mano es
+                        ideal para tu empresa si prefieren...
                     </h2>
                     <ul>
                         <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}">
-                            <span>Tener los conocimientos internos a la empresa <br class="DT_e">
-                                sobre cómo configurar el CRM de Escala.</span>
+                            <span>Invertir más tiempo en hacer crecer el negocio que en <br class="DT_e">
+                                implementar el CRM</span>
                         </li>
                         <li><img src="{!! App::setFilePath('/assets/images/icons/check-crm-li.svg') !!}">
-                            <span>Recibir orientación personalizada y privada de Escala para <br class="DT_e">
-                                que tú y tu equipo personalicen el CRM exitosamente.
+                            <span>Dedicarse a definir el plan de implementación y delegarle <br class="DT_e">
+                                a Escala su ejecución
                             </span>
                         </li>
                     </ul>
@@ -272,71 +283,88 @@
         </section>
 
 
-        <section class="customSection sectionParent landing_acompanamiento_aceleradora_4">
+        <section class="customSection sectionParent landing_acompanamiento_llave_en_mano_4">
 
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
                     <h2 class="title">
-                        ¿Qué incluye la <br class="DT_e">
-                        Implementación Guiada?
+                        ¿Qué incluye la Implementación <br class="DT_e">
+                        Llave en Mano?
                     </h2>
                 </section>
 
                 <section class="innerSectionElement sct2">
                     <div class="containElements">
-                        <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-sesiones-privadas-con-gerente.png') !!}"
-                                alt="">
-                            <h3>Sesiones privadas <br class="DT_e">
-                                con Gerente de <br class="DT_e">
-                                Éxito asignado</h3>
-                            <p>
-                                Tu principal punto de contacto con Escala, se reúne contigo y equipo para entender necesidades, apoyarles a definir un plan de implementación con Escala y guiarlos en su ejecución.
-                            </p>
-                        </div>
-                        <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-sesiones-privadas.png') !!}"
-                                alt="">
-                            <h3>Sesiones privadas <br class="DT_e">
-                                con Guías Técnicos</h3>
-                            <p>
-                                Expertos en cada herramienta de Escala, se reúnen contigo y tu equipo para asegurar que configuren efectivamente la plataforma según el plan acordado.
-                            </p>
-                        </div>
-                        <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-chat-soporte.png') !!}"
-                                alt="">
-                            <h3>Chat con soporte <br class="DT_e">
-                                técnico ilimitado</h3>
-                            <p>
-                                Nuestro equipo de servicio al cliente atiende eficientemente preguntas puntuales por WhatsApp o chat de plataforma.
-                            </p>
-                        </div>
-                        <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-cursos-online-autoguiados.png') !!}"
-                                alt="">
-                            <h3>Cursos online <br class="DT_e">
-                                autoguiados</h3>
-                            <p>
-                                ¿Prefieres aprender a tu propio ritmo? En Escala encuentras una serie de cursos por herramienta para conozcas su alcance y funcionamiento.
-                            </p>
-                        </div>
-                        <div class="cards">
-                            <img class="img-top"
-                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-plantillas-prediseñadas.png') !!}"
-                                alt="">
-                            <h3>Plantillas diseñadas <br class="DT_e">
-                                para tu marca</h3>
-                            <p>
-                                De necesitarlo, nuestro equipo creativo crea plantillas de email y/o landing page con los recursos de tu marca para ahorrarte gran parte del trabajo de edición.
-                            </p>
-                        </div>
 
+                        <div class="cards">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-card-acompañamiento-exito.png') !!}"
+                                alt="">
+                            <h3>Gerente de Éxito <br class="DT_e">
+                                asignado</h3>
+                            <p>
+                                Tu principal punto de <br class="DT_e">
+                                contacto con Escala, se <br class="DT_e">
+                                encarga de:
+                            </p>
+                            <hr class="separator">
+                            <ul>
+                                <li>Guiarte a definir el plan de implementación según los objetivos y prioridades de tu empresa.</li>
+                                <li>Entregar requisitos y hacer seguimiento a los implementadores de Escala para que personalicen el CRM efectivamente según tu plan.</li>
+                                <li>Presentarte avances de la implementación y recibir tu feedback.</li>
+                            </ul>
+                        </div>
+                        <div class="cards">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-card-acompañamiento-implementacion.png') !!}"
+                                alt="">
+                            <h3>Entregables <br class="DT_e">
+                                Implementación</h3>
+                            <ul>
+                                <li>Carga de bases de datos</li>
+                                <li>Segmentación de contactos</li>
+                                <li>Personalización del Pipeline y oportunidades del CRM</li>
+                                <li>Configuración de Integraciones Nativas de Escala</li>
+                            </ul>
+
+                            <h4>Creación de:</h4>
+                            <ul>
+                                <li>Formularios</li>
+                                <li>Automatizaciones</li>
+                                <li>Reportes personalizados</li>
+                                <li>Plantillas de WhatsApp API con mensajes guí</li>
+                                <li>Plantillas de email y/o landing page con el diseño de la marca del cliente y copy guía</li>
+                            </ul>
+                        </div>
+                        <div class="cards">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-card-capacitaciones.png') !!}"
+                                alt="">
+                            <h3>Capacitaciones <br class="DT_e">
+                                privadas y grupales</h3>
+                            <p>
+                                Una vez el CRM esté <br class="DT_e">
+                                configurado y personalizado, <br class="DT_e">
+                                tú y tu equipo reciben <br class="DT_e">
+                                sesiones de entrenamiento <br class="DT_e">
+                                para que aprendan a:
+                            </p>
+                            <hr class="separator">
+                            <ul>
+                                <li>Utilizar el CRM en su día a día</li>
+                                <li>Hacer cambios a las automatizaciones según lo necesiten</li>
+                                <li>Editar el contenido de plantillas</li>
+                                <li>Generar reportes</li>
+                            </ul>
+                            <hr class="separator">
+                            <p>
+                                Y cualquier otra acción que <br class="DT_e">
+                                implique reconfigurar, <br class="DT_e">
+                                personalizar o usar el <br class="DT_e">
+                                CRM de Escala.
+                            </p>
+                        </div>
 
                     </div>
 
@@ -344,7 +372,7 @@
 
         </section>
 
-        <section class="customSection sectionParent landing_acompanamiento_aceleradora_5">
+        <section class="customSection sectionParent landing_acompanamiento_llave_en_mano_5">
 
             <div class="section-row">
 
@@ -352,14 +380,14 @@
                     <div class="containElements">
                         <div class="info">
                             <h2 class="title">
-                                ¿Cómo luce un cronograma <br class="DT_e">
-                                de Implementación Guiada?
+                                ¿Cómo luce un cronograma de <br class="DT_e">
+                                Implementación Llave en Mano?
                             </h2>
 
                             <span class="text">
                                 Una vez te suscribes a Escala (Día 1), tu asesor comercial coordina la reunión de <br class="DT_e">
                                 Kickoff con tu Gerente de Éxito asignado y te enviamos un email de bienvenida con <br class="DT_e">
-                                acciones y recursos sugeridos para que empieces a implementar con éxito.
+                                el formulario de diagnóstico. ¡Así inicia tu proceso de implementación!
                             </span>
                         </div>
 
@@ -369,12 +397,12 @@
                                 loading="lazy">
 
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-desktop-cronograma-implementacion-2.png') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/cronograma-implementacion-llave-en-mano.png') }}"
                                 loading="lazy">
                         </div>
                         <div class="imageMb">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-mb-cronograma-implementacion.png') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/cronograma-implementacion-llave-en-mano-mb.png') }}"
                                 loading="lazy">
                         </div>
                     </div>
@@ -385,7 +413,7 @@
         </section>
 
 
-        <section class="customSection sectionParent landing_acompanamiento_aceleradora_6">
+        <section class="customSection sectionParent landing_acompanamiento_llave_en_mano_6">
 
             <div class="section-row ">
                 <section class="innerSectionElement sct1">
@@ -398,8 +426,7 @@
                     <div class="cards right">
                         <h3>Duración del proceso de implementación</h3>
                         <p>
-                            En promedio, nuestros clientes tardan 45 días en <br class="DT_e">
-                            completar su plan de implementación.*
+                            El CRM queda implementado usualmente en 30 días.* 
                         </p>
                         <span class="colorSpecial">*Puede variar dependiendo de la complejidad del plan y la participación del cliente.</span>
                     </div>
@@ -409,10 +436,10 @@
             </div>
         </section>
 
-        <section class="customSection sectionParent landing_acompanamiento_aceleradora_7">
+        <section class="customSection sectionParent landing_acompanamiento_llave_en_mano_7">
 
             <div class="section-row ">
-                <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-implementacion-apoyo-escala-1.svg') }}')">
+                <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-8-md-aceleradora-desktop.svg') }}')">
 
                     <div class="cards left">
                         <h3>¿Qué hace Escala para <br class="DT_e">
@@ -439,7 +466,7 @@
         </section>
 
 
-        <section class="customSection sectionParent landing_acompanamiento_aceleradora_8">
+        <section class="customSection sectionParent landing_acompanamiento_llave_en_mano_8">
 
             <div class="section-row">
 
@@ -495,7 +522,7 @@
 
         </section>
 
-        <section class="customSection sectionParent landing_acompanamiento_aceleradora_9">
+        <section class="customSection sectionParent landing_acompanamiento_llave_en_mano_9">
 
             <div class="section-row">
 
@@ -567,21 +594,22 @@
         </section>
 
 
-        <section class="customSection sectionParent landing_acompanamiento_aceleradora_10" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section10_acompañamiento_ningun_otro_crm.svg') }}')">
+        <section class="customSection sectionParent landing_acompanamiento_llave_en_mano_10" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-9-aceleradora-desktop.svg') }}')">
             <div class="section-row ">
                 <div class="containElements">
                     <section class="innerSectionElement sct1">
                         <div class="containElement">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/ceo_escala_2025.png') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-ceo-alfonzo-section-9 (1).png') }}"
                                 loading="lazy">
                         </div>
                     </section>
                     <section class="innerSectionElement sct2">
                         <div class="containElement">
                             <h2 class="title">
-                                ¡Ningún otro CRM te <br class="DT_e">
-                                acompaña mejor!
+                                ¡Consigue resultados <br class="DT_e">
+                                más fácil y rápido <br class="DT_e">
+                                con Escala!
                             </h2>
                         </div>
                     </section>

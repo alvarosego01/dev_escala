@@ -13,7 +13,7 @@ $navBar_ID = ACF_CUSTOM::_getField('nav_global');
 
         <div class="section-row">
 
-
+ 
             @if (has_nav_menu('header-top'))
                 <div class="D_e container-fluid sct1">
 

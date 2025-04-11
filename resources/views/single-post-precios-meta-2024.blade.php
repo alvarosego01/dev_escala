@@ -118,27 +118,54 @@
                                 <br class="space">
                                 <br class="space">
                                 Sin embargo, a medida que el volumen de mensajes crece, gestionar todas esas conversaciones
-                                manualmente se vuelve cada vez más complicado. Los mensajes se pierden, las respuestas
-                                se retrasan y mantener un seguimiento adecuado de cada cliente es un desafío.
+                                manualmente se vuelve cada vez más complicado. Los mensajes se pierden, las respuestas se
+                                retrasan y mantener un seguimiento adecuado de cada cliente es un desafío.
                                 <br class="space">
                                 <br class="space">
                                 Aquí es donde la solución de WhatsApp API, integrada al CRM de Escala, entra en juego,
                                 brindando automatización y control para asegurar que ninguna interacción quede sin atender,
                                 mejorando tanto la eficiencia operativa como la satisfacción del cliente. WhatsApp API,
-                                desarrollada por Meta, está diseñada específicamente para que las empresas puedan escalar eficientemente sus conversaciones con clientes y contactos, asegurando una comunicación fluida y
+                                desarrollada por Meta, está diseñada específicamente para que las empresas puedan escalar
+                                eficientemente sus conversaciones con clientes y contactos, asegurando una comunicación fluida y
                                 personalizada de manera masiva.
                                 <br class="space">
                                 <br class="space">
                                 A diferencia de la solución estándar de WhatsApp que todos usamos gratuitamente, WhatsApp
-                                API tiene un costo asociado por conversación que debes tener en cuenta a la hora de evaluar si esta
-                                solución se adapta a tus necesidades.
-                                <br class="space">
-                                <br class="space">
-                                La buena noticia es que NO debes pagar por todos los mensajes que se envían o reciben, una vez
-                                que recibes un mensaje de un contacto, puedes responder y enviar todos los mensajes que desees
-                                sin costo adicional durante las siguientes 24 horas. Este período de 24 horas comienza desde el
-                                último mensaje recibido, lo que permite una comunicación fluida y continua sin cargos adicionales
-                                dentro de ese tiempo.
+                                API tiene un costo asociado por mensaje enviado. A partir del 1 de julio de 2025, Meta
+                                implementará un modelo de cobro por mensaje, en el cual cada plantilla de mensaje entregada
+                                tendrá un costo, según su categoría. Las plantillas de marketing y autenticación se cobrarán
+                                siempre que se entreguen, mientras que las plantillas de utilidad serán gratuitas si se envían dentro
+                                de una ventana de atención al cliente, pero tendrán un costo si se envían fuera de esa ventana. Este
+                                cambio puede implicar un costo mayor para las empresas que envían múltiples plantillas dentro de
+                                una misma conversación.
+                            </p>
+                            <br class="space">
+                            <br class="space">
+                            <h3>
+                                Pausa temporal en mensajes de marketing a números de EE. UU.
+                            </h3>
+
+                            <p>
+                                Desde el 1 de abril de 2025, Meta ha pausado temporalmente la entrega de plantillas de marketing
+                                a usuarios de WhatsApp con números de EE. UU. (código de país +1). Esta decisión busca mejorar
+                                la experiencia del usuario en ese país. Es importante destacar que esta restricción solo aplica a
+                                números de EE. UU.; los mensajes de marketing a números de otros países no se ven afectados. Las
+                                plantillas de utilidad y autenticación continúan funcionando con normalidad en EE. UU.
+                                <a href="https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates/" target="_blank">(Fuente)</a>
+                            </p>
+                            <br class="space">
+                            <br class="space">
+                            <h3>
+                                Cambios en los límites de entrega de mensajes de marketing
+                            </h3>
+
+                            <p>
+                                Desde el 3 de marzo de 2025, Meta ha implementado un nuevo sistema que limita la cantidad
+                                de mensajes de plantilla de marketing que cada contacto puede recibir en WhatsApp. Este límite se
+                                basa en la actividad general del usuario en WhatsApp y en su nivel de interacción con tus mensajes
+                                de marketing. Si un contacto tiene baja actividad o no suele leer tus mensajes, WhatsApp puede
+                                reducir automáticamente la cantidad de mensajes que recibe, sin previo aviso. Este límite se ajusta
+                                automáticamente por usuario y no es visible ni configurable desde Escala.
                             </p>
                         </div>
                     </div>
@@ -380,9 +407,16 @@
                         </div>
 
                         <div class="info info2">
+                            <p>
+                                <span>Nota:</span> A partir del 1 de julio de 2025, Meta dejó de cobrar por ventana de conversación. Ahora
+                                se cobra por cada mensaje de plantilla enviado, según su tipo, aunque las ventanas siguen
+                                siendo relevantes para determinar si ciertos mensajes (como los de utilidad) son gratuitos o no.
+                            </p>
+                            <br class="space">
+                           
 
                             <p>También es importante categorizar las plantillas de Meta en WhatsApp API debido a que permite a las
-                                empresas organizar y encontrar rápidamente las respuestas adecuadas para cada tipo de interacción. 
+                                empresas organizar y encontrar rápidamente las respuestas adecuadas para cada tipo de interacción.
                                 A continuación, exploraremos el objetivo comercial de cada tipo de plantilla, junto con algunos ejemplos:</p>
                         </div>
 
