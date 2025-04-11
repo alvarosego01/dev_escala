@@ -260,6 +260,10 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-landing-escala-acompanamiento-aceleradora.blade.php')) {
         wp_enqueue_style('landing_acompanamiento_aceleradora.css', asset_path('styles/pages/landingPages/landing_acompanamiento_aceleradora.css'), false, THEME_VERSION);
     }
+    // ---Landing escala acompañamiento aceleradora llave en mano
+    if (is_page_template('views/template-landing-escala-acompanamiento-llave-en-mano.blade.php')) {
+        wp_enqueue_style('landing_acompanamiento_llave_en_mano.css', asset_path('styles/pages/landingPages/landing_acompanamiento_llave_en_mano.css'), false, THEME_VERSION);
+    }
     // ---Landing escala Paid media 2024 
     if (is_page_template('views/template-landing-escala-paid-media-2024.blade.php')) {
         wp_enqueue_style('landing_paid_media_.css', asset_path('styles/pages/landingPages/landing_paid_media_2024.css'), false, THEME_VERSION);
