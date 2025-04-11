@@ -256,11 +256,11 @@
                             alt="">
                     </div>
                     <div class="cards right">
+                        <span>"Sabemos que hacer crecer tu negocio ya es un gran <br class="DT_e">
+                            desafío. Queremos que concentres tus esfuerzos en lo que <br class="DT_e">
+                            realmente importa: hacerlo crecer, mientras nosotros nos <br class="DT_e">
+                            encargamos de los temas operativos.</span> 
                         <p>
-                            <span>"Sabemos que hacer crecer tu negocio ya es un gran <br class="DT_e">
-                                desafío. Queremos que concentres tus esfuerzos en lo que <br class="DT_e">
-                                realmente importa: hacerlo crecer, mientras nosotros nos <br class="DT_e">
-                                encargamos de los temas operativos.</span> <br class="DT_e">
                             Por eso, hemos creado el Servicio de Implementación <br class="DT_e">
                             Llave en Mano de Escala, para que adoptar un CRM sea <br class="DT_e">
                             simple, rápido y sin complicaciones."
@@ -325,6 +325,7 @@
                                 contacto con Escala, se <br class="DT_e">
                                 encarga de:
                             </p>
+                            <hr class="separator">
                             <ul>
                                 <li>Guiarte a definir el plan de implementación según los objetivos y prioridades de tu empresa.</li>
                                 <li>Entregar requisitos y hacer seguimiento a los implementadores de Escala para que personalicen el CRM efectivamente según tu plan.</li>
@@ -343,6 +344,7 @@
                                 <li>Personalización del Pipeline y oportunidades del CRM</li>
                                 <li>Configuración de Integraciones Nativas de Escala</li>
                             </ul>
+                            
                             <h4>Creación de:</h4>
                             <ul>
                                 <li>Formularios</li>
@@ -365,12 +367,14 @@
                                 sesiones de entrenamiento <br class="DT_e">
                                 para que aprendan a:
                             </p>
+                            <hr class="separator">
                             <ul>
                                 <li>Utilizar el CRM en su día a día</li>
                                 <li>Hacer cambios a las automatizaciones según lo necesiten</li>
                                 <li>Editar el contenido de plantillas</li>
                                 <li>Generar reportes</li>
                             </ul>
+                            <hr class="separator">
                             <p>
                                 Y cualquier otra acción que <br class="DT_e">
                                 implique reconfigurar, <br class="DT_e">
@@ -542,6 +546,8 @@
                 <section class="innerSectionElement sct1">
 
                     <div class="containElements">
+                        <img class="img-chat" src="{!! App::setFilePath('/assets/images/illustrations/others/icon-chat-en-linea.png') !!}"
+                            loading="lazy">
                         <h2 class="title">
                             Chat de soporte técnico en vivo
                         </h2>

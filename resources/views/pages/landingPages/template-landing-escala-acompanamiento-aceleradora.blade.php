@@ -519,6 +519,8 @@
                 <section class="innerSectionElement sct1">
 
                     <div class="containElements">
+                        <img class="img-chat" src="{!! App::setFilePath('/assets/images/illustrations/others/icon-chat-en-linea.png') !!}"
+                            loading="lazy">
                         <h2 class="title">
                             Chat de soporte técnico en vivo
                         </h2>

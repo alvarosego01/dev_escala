@@ -118,6 +118,7 @@ img
                     font-weight: 800
                     margin-bottom: 20px
                     line-height: 1
+                    display: block
 
                 .principalBigTitle
                     font-family: "Mulish", sans-serif
@@ -712,7 +713,7 @@ img
                     display: flex
                     align-items: flex-start
                     img
-                        margin-right: 20px
+                        margin-right: 10px
                         margin-top: 5px
                         
                     span
@@ -1079,7 +1080,7 @@ img
                     font-family: "Mulish", sans-serif
                     font-size: 40px
                     font-style: normal
-                    font-weight: 600
+                    font-weight: 700
                     line-height: 1
                     margin-bottom: 40px
                     @include responsivo(telefonoTable)
@@ -1299,6 +1300,16 @@ img
 
         .innerSectionElement.sct1
             .containElements
+                display: flex
+                justify-content: center
+                align-items: center
+                .img-chat
+                    height: 100px
+                    width: 100px
+                    margin-bottom: 15px
+                    @include responsivo(telefonoTable)
+                        height: 70px
+                        width: 70px
                 h2.title
                     color: #2C4857
                     text-align: center
