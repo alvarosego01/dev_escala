@@ -482,12 +482,10 @@ y conexión Meta Business ",
 
                             <div class="row">
 
-                                <div class="flyingPerson col-md-12 col-lg-3">
+                                <div class="card col-md-12 col-lg-3">
 
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_space_landing.png') !!}" alt="" class="">
 
                                 </div>
-
                                 <div class="col-md-12 col-lg-3 pricingCard starter">
 
                                     <div class="head">
@@ -778,7 +776,7 @@ y conexión Meta Business ",
                                                         </div>
                                                         <div class="omniInfo2">
                                                             <span>
-                                                            *Facebook e instagram  <strong>vienen en combo</strong>
+                                                                *Facebook e instagram <strong>vienen en combo</strong>
                                                             </span>
                                                         </div>
                                                     </div>
@@ -904,8 +902,14 @@ y conexión Meta Business ",
 
 
                     </section>
+
                 </div>
 
+            </div>
+
+        </section>
+        <section class="customSection sectionParent subPage_pricing_2023_1 ">
+            <div class="section-row">
                 <section class="innerSectionElement sct3">
 
                     <div class="containElements">
@@ -1192,11 +1196,546 @@ y conexión Meta Business ",
 
 
 
+            </div>
+        </section>
 
+            <style>
+                /* Estilos para desktop */
+                .pricing-table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-top: 20px;
+                }
 
+                .pricing-table th,
+                .pricing-table td {
+                    border: 1px solid #ddd;
+                    padding: 12px;
+                    text-align: center;
+                }
+
+                .pricing-table th {
+                    background-color: #f2f2f2;
+                    font-weight: bold;
+                }
+
+                .pricing-table tr:nth-child(even) {
+                    background-color: #f9f9f9;
+                }
+
+                .section-title {
+                    font-weight: bold;
+                    background-color: #e6f7ff !important;
+                    font-size: 1.1em;
+                }
+
+                .checkmark {
+                    color: green;
+                    font-weight: bold;
+                }
+
+                .plan-name {
+                    font-weight: bold;
+                    color: #2c3e50;
+                }
+
+                /* Estilos para móvil */
+                .mobile-tabs {
+                    display: none;
+                }
+
+                .mobile-tab {
+                    margin-bottom: 10px;
+                }
+
+                .mobile-tab-header {
+                    background-color: #f2f2f2;
+                    padding: 12px;
+                    font-weight: bold;
+                    border: 1px solid #ddd;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .mobile-tab-content {
+                    display: none;
+                    padding: 12px;
+                    border-left: 1px solid #ddd;
+                    border-right: 1px solid #ddd;
+                    border-bottom: 1px solid #ddd;
+                }
+
+                .mobile-tab.active .mobile-tab-content {
+                    display: block;
+                }
+
+                .mobile-row {
+                    display: flex;
+                    margin-bottom: 8px;
+                }
+
+                .mobile-row-title {
+                    font-weight: bold;
+                    width: 50%;
+                    padding-right: 10px;
+                }
+
+                .mobile-row-value {
+                    width: 50%;
+                }
+
+                .arrow {
+                    transition: transform 0.3s;
+                }
+
+                .mobile-tab.active .arrow {
+                    transform: rotate(180deg);
+                }
+
+                /* Media queries para responsive */
+                @media (max-width: 768px) {
+                    .pricing-table {
+                        display: none;
+                    }
+
+                    .mobile-tabs {
+                        display: block;
+                    }
+                }
+            </style>
+
+            <!-- Versión desktop (tabla normal) -->
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th class="plan-name">Básico</th>
+                        <th class="plan-name">Estándar</th>
+                        <th class="plan-name">Profesional</th>
+                        <th class="plan-name">Empresarial</th>
+                        <th class="plan-name">Premium</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>$0</th>
+                        <th>$40 / mes</th>
+                        <th>$200 / mes</th>
+                        <th>$1,000 / mes</th>
+                        <th>$2,000 / mes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="section-title">
+                        <td>Inversión</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Mensual</td>
+                        <td>$0</td>
+                        <td>$40 / mes</td>
+                        <td>$200 / mes</td>
+                        <td>$1,000 / mes</td>
+                        <td>$2,000 / mes</td>
+                    </tr>
+                    <tr>
+                        <td>Anual</td>
+                        <td>$0</td>
+                        <td>$384 / año ($32 / mes)</td>
+                        <td>$1,920 / año ($160 / mes)</td>
+                        <td>$9,600 / año ($800 / mes)</td>
+                        <td>$19,200 / año ($1,600 / mes)</td>
+                    </tr>
+                    <tr class="section-title">
+                        <td>Beneficios</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Créditos / mes</td>
+                        <td>5,000</td>
+                        <td>40,000</td>
+                        <td>200,000</td>
+                        <td>1,000,000</td>
+                        <td>2,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>Conversaciones / mes (approx.)</td>
+                        <td>15</td>
+                        <td>100</td>
+                        <td>500</td>
+                        <td>2,500</td>
+                        <td>5,000</td>
+                    </tr>
+                    <tr>
+                        <td>Mensajes / mes (approx.)</td>
+                        <td>180</td>
+                        <td>1,200</td>
+                        <td>6,000</td>
+                        <td>30,000</td>
+                        <td>60,000</td>
+                    </tr>
+                    <tr>
+                        <td>Agentes</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>5</td>
+                        <td>Ilimitados</td>
+                        <td>Ilimitados</td>
+                    </tr>
+                    <tr>
+                        <td>Asistente de IA (auto-guíada)</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                    </tr>
+                    <tr>
+                        <td>Chat de soporte</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                    </tr>
+                    <tr>
+                        <td>Implementación Personalizada</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                    </tr>
+                    <tr>
+                        <td>Acceso al equipo de Tecnología</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                        <td class="checkmark">✅</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Versión móvil (tabs) -->
+            <div class="mobile-tabs">
+                <div class="mobile-tab" onclick="toggleTab(this)">
+                    <div class="mobile-tab-header">
+                        <span>Básico ($0)</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="mobile-tab-content">
+                        <div class="mobile-row section-title">
+                            <div class="mobile-row-title">Inversión</div>
+                            <div class="mobile-row-value"></div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Mensual</div>
+                            <div class="mobile-row-value">$0</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Anual</div>
+                            <div class="mobile-row-value">$0</div>
+                        </div>
+                        <div class="mobile-row section-title">
+                            <div class="mobile-row-title">Beneficios</div>
+                            <div class="mobile-row-value"></div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Créditos / mes</div>
+                            <div class="mobile-row-value">5,000</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Conversaciones / mes</div>
+                            <div class="mobile-row-value">15</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Mensajes / mes</div>
+                            <div class="mobile-row-value">180</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Agentes</div>
+                            <div class="mobile-row-value">1</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Asistente de IA</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Chat de soporte</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Implementación</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Acceso a Tecnología</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mobile-tab" onclick="toggleTab(this)">
+                    <div class="mobile-tab-header">
+                        <span>Estándar ($40/mes)</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="mobile-tab-content">
+                        <div class="mobile-row section-title">
+                            <div class="mobile-row-title">Inversión</div>
+                            <div class="mobile-row-value"></div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Mensual</div>
+                            <div class="mobile-row-value">$40 / mes</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Anual</div>
+                            <div class="mobile-row-value">$384 / año ($32 / mes)</div>
+                        </div>
+                        <div class="mobile-row section-title">
+                            <div class="mobile-row-title">Beneficios</div>
+                            <div class="mobile-row-value"></div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Créditos / mes</div>
+                            <div class="mobile-row-value">40,000</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Conversaciones / mes</div>
+                            <div class="mobile-row-value">100</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Mensajes / mes</div>
+                            <div class="mobile-row-value">1,200</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Agentes</div>
+                            <div class="mobile-row-value">2</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Asistente de IA</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Chat de soporte</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Implementación</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Acceso a Tecnología</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mobile-tab" onclick="toggleTab(this)">
+                    <div class="mobile-tab-header">
+                        <span>Profesional ($200/mes)</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="mobile-tab-content">
+                        <div class="mobile-row section-title">
+                            <div class="mobile-row-title">Inversión</div>
+                            <div class="mobile-row-value"></div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Mensual</div>
+                            <div class="mobile-row-value">$200 / mes</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Anual</div>
+                            <div class="mobile-row-value">$1,920 / año ($160 / mes)</div>
+                        </div>
+                        <div class="mobile-row section-title">
+                            <div class="mobile-row-title">Beneficios</div>
+                            <div class="mobile-row-value"></div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Créditos / mes</div>
+                            <div class="mobile-row-value">200,000</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Conversaciones / mes</div>
+                            <div class="mobile-row-value">500</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Mensajes / mes</div>
+                            <div class="mobile-row-value">6,000</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Agentes</div>
+                            <div class="mobile-row-value">5</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Asistente de IA</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Chat de soporte</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Implementación</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Acceso a Tecnología</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mobile-tab" onclick="toggleTab(this)">
+                    <div class="mobile-tab-header">
+                        <span>Empresarial ($1,000/mes)</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="mobile-tab-content">
+                        <div class="mobile-row section-title">
+                            <div class="mobile-row-title">Inversión</div>
+                            <div class="mobile-row-value"></div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Mensual</div>
+                            <div class="mobile-row-value">$1,000 / mes</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Anual</div>
+                            <div class="mobile-row-value">$9,600 / año ($800 / mes)</div>
+                        </div>
+                        <div class="mobile-row section-title">
+                            <div class="mobile-row-title">Beneficios</div>
+                            <div class="mobile-row-value"></div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Créditos / mes</div>
+                            <div class="mobile-row-value">1,000,000</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Conversaciones / mes</div>
+                            <div class="mobile-row-value">2,500</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Mensajes / mes</div>
+                            <div class="mobile-row-value">30,000</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Agentes</div>
+                            <div class="mobile-row-value">Ilimitados</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Asistente de IA</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Chat de soporte</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Implementación</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Acceso a Tecnología</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mobile-tab" onclick="toggleTab(this)">
+                    <div class="mobile-tab-header">
+                        <span>Premium ($2,000/mes)</span>
+                        <span class="arrow">▼</span>
+                    </div>
+                    <div class="mobile-tab-content">
+                        <div class="mobile-row section-title">
+                            <div class="mobile-row-title">Inversión</div>
+                            <div class="mobile-row-value"></div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Mensual</div>
+                            <div class="mobile-row-value">$2,000 / mes</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Anual</div>
+                            <div class="mobile-row-value">$19,200 / año ($1,600 / mes)</div>
+                        </div>
+                        <div class="mobile-row section-title">
+                            <div class="mobile-row-title">Beneficios</div>
+                            <div class="mobile-row-value"></div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Créditos / mes</div>
+                            <div class="mobile-row-value">2,000,000</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Conversaciones / mes</div>
+                            <div class="mobile-row-value">5,000</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Mensajes / mes</div>
+                            <div class="mobile-row-value">60,000</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Agentes</div>
+                            <div class="mobile-row-value">Ilimitados</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Asistente de IA</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Chat de soporte</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Implementación</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                        <div class="mobile-row">
+                            <div class="mobile-row-title">Acceso a Tecnología</div>
+                            <div class="mobile-row-value checkmark">✅</div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-        </section>
+            <script>
+                function toggleTab(tabElement) {
+                    // Cerrar todas las pestañas primero
+                    const allTabs = document.querySelectorAll('.mobile-tab');
+                    allTabs.forEach(tab => {
+                        if (tab !== tabElement) {
+                            tab.classList.remove('active');
+                        }
+                    });
+
+                    // Alternar la pestaña clickeada
+                    tabElement.classList.toggle('active');
+                }
+
+                // Abrir la primera pestaña por defecto en móvil
+                document.addEventListener('DOMContentLoaded', function() {
+                    if (window.innerWidth <= 768) {
+                        document.querySelector('.mobile-tab').classList.add('active');
+                    }
+                });
+            </script>
+
 
 
         <section class="customSection sectionParent subPage_pricing_2023_5" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_secion_page_pricing.svg') !!}')">
