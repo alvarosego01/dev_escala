@@ -740,7 +740,7 @@
         background-position: 52% center
 
     .section-row
-        width: 1350px!important
+        width: 1250px!important
         padding: 7.5px 0
         @include responsivo(telefonoTable)
             width: 95%!important
@@ -771,6 +771,7 @@
                     flex-direction: column
                 @include responsivo(general)
                     left: 0px
+                    justify-content: space-evenly
                 @include responsivo(smallPcTablet)
                     left: 0px
                     justify-content: center!important
@@ -800,7 +801,7 @@
                         height: 40px
 
                 .hashTitle
-                    color: #2C4857
+                    color: #fff
                     text-align: center
                     font-family: 'Mulish', sans-serif
                     font-size: 20px
@@ -808,7 +809,6 @@
                     font-weight: 900
                     line-height: 1
                     @include responsivo(telefonoTable)
-                        
                         margin-left: auto
                         margin-right: auto
                         text-align: center
@@ -828,18 +828,14 @@
                         
                     @include responsivo(resto)
                         text-align: left
-                    strong
-                        @include responsivo(telefonoTable)
-                            display: block
-                            font-size: 18px!important
                     span
                         line-height: 1
-                        color: #2C4857
+                        color: #ffff
                         margin-left: 2px
                         font-weight: 400
                         @include responsivo(telefonoTable)
                             font-weight: 600
-                            font-size: 14px
+                            font-size: 15px
                             display: block
                         @include responsivo(pcMedio)
                             margin-right: 0px
@@ -852,7 +848,15 @@
                             margin: 0
                         @include responsivo(resto)
                             margin: 0
-
+                        b
+                            
+                            @include responsivo(telefonoTable)
+                                font-size: 20px
+                                display: block
+                                background: linear-gradient(90deg, #83E3D0 0%, #F1685A 100%)
+                                background-clip: text
+                                -webkit-background-clip: text
+                                -webkit-text-fill-color: transparent                               
                     .colorSpecial
                         background: linear-gradient(90deg, #007F96 0%, #F1685A 100%)
                         background-clip: text
@@ -868,7 +872,7 @@
                     position: relative
                     &::after
                         content: ''
-                        border-right: 1px solid #007F96
+                        border-right: 1px solid #fff
                         margin: auto
                         position: absolute
                         left: 0
@@ -893,7 +897,7 @@
                         height: 20px
 
                 .sub
-                    color: #007F96
+                    color: #fff
                     font-family: 'Mulish', sans-serif
                     font-size: 20px
                     font-style: normal
@@ -904,7 +908,7 @@
                     text-align: left
                     margin-left: 0
                     @include responsivo(telefonoTable)
-                        font-size: 14px
+                        font-size: 12px
                         display: flex
                         align-self: center
                         justify-self: center
@@ -949,7 +953,7 @@
                     @include responsivo(pcMedio)
                         font-size: 18px!important
                         padding: 10px 20px!important
-                        margin: 0px 10px
+                        margin: 0
                     @include responsivo(general)
                         font-size: 18px!important
                         padding: 10px 20px!important
