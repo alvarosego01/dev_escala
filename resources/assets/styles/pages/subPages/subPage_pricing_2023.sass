@@ -61,7 +61,7 @@ img
                 .primaryText
                     font-family: 'Mulish', sans-serif
                     font-style: normal
-                    font-weight: 400
+                    font-weight: 500
                     font-size: 24px
                     line-height: 1
                     text-align: center
@@ -156,6 +156,7 @@ img
                     .pricingCard
                         background: #FFFFFF
                         position: relative
+                        border-radius: 15px
                         @include responsivo(telefonoTable)
                             padding: 25px!important
 
@@ -171,18 +172,18 @@ img
                             padding-bottom: 25px!important
 
                         &:nth-of-type(2)
-                            border-radius: 14px 0px 0px 0px
+                            border-radius: 15px 
                             border-right: 1px solid #83E3D0
                             @include responsivo(telefonoTable)
-                                border-radius: 14px
+                                border-radius: 15px
                             @include responsivo(pcMedio)
-                                border-radius: 14px
+                                border-radius: 15px
                             
                         &:nth-of-type(3)
                             @include responsivo(telefonoTable)
-                                border-radius: 14px
+                                border-radius: 15px
                             @include responsivo(pcMedio)
-                                border-radius: 14px
+                                border-radius: 15px
                             .discountCost
                                 color: #F34F36!important
                             .principalStar
@@ -204,7 +205,7 @@ img
                             &::before
                                 content: ''
                                 height: 50px
-                                border-radius: 14px 14px 0px 0px
+                                border-radius: 15px
                                 margin: auto
                                 position: absolute
                                 top: -25px
@@ -217,18 +218,18 @@ img
                                 @include responsivo(pcMedio)
                                     display: none
                         &:nth-of-type(4)
-                            border-radius: 0px 14px 0px 0px
+                            border-radius: 15px
                             border-left: 1px solid #83E3D0
                             @include responsivo(telefonoTable)
-                                border-radius: 14px
+                                border-radius: 15px
                             @include responsivo(pcMedio)
-                                border-radius: 14px
+                                border-radius: 15px
                         @include responsivo(telefonoTable)
-                            border-radius: 14px
+                            border-radius: 15px
                             border: 1px solid #83E3D0
                             margin-bottom: 25px
                         @include responsivo(pcMedio)
-                            border-radius: 14px
+                            border-radius: 15px
                             border: 1px solid #83E3D0
                             margin-bottom: 25px
 
@@ -237,11 +238,10 @@ img
                             h3
                                 font-family: 'Mulish', sans-serif
                                 font-style: normal
-                                font-weight: 700
-                                font-size: 35px
+                                font-weight: 600
+                                font-size: 40px
                                 line-height: 1
                                 text-align: center
-                                
                                 color: #2C4857
                                 margin-bottom: 0
                                 @include responsivo(telefonoTable)
@@ -249,9 +249,11 @@ img
                                 @include responsivo(pcMedio)
                                     font-size: 27.5px
                                 @include responsivo(general)
-                                    font-size: 32.5px
+                                    font-size: 35px
                                 @include responsivo(smallPcTablet)
                                     font-size: 30px
+                                span
+                                    font-weight: 900 
                             .greenBlueColor
                                 color: #007F96!important
 

@@ -762,7 +762,10 @@ y conexión Meta Business ",
                                                         <div class="field select">
                                                             <select name="_iaField">
                                                                 <option value="No" selected>No</option>
-                                                                <option value="Si">Si</option>
+                                                                <option value="Bronce">Bronce</option>
+                                                                <option value="Plata">Plata</option>
+                                                                <option value="Oro">Oro</option>
+                                                                <option value="Platino">Platino</option>
                                                             </select>
 
                                                             <div class="quantity-nav">
@@ -878,7 +881,10 @@ y conexión Meta Business ",
                                                         <div class="field select">
                                                             <select name="_iaField">
                                                                 <option value="No" selected>No</option>
-                                                                <option value="Si">Si</option>
+                                                                <option value="Bronce">Bronce</option>
+                                                                <option value="Plata">Plata</option>
+                                                                <option value="Oro">Oro</option>
+                                                                <option value="Platino">Platino</option>
                                                             </select>
 
                                                             <div class="quantity-nav">
@@ -2067,7 +2073,6 @@ y conexión Meta Business ",
 
 
 
-
 <div class="customPopUp pricingPro_special_message modal fade popup-pricingPro_Message_Contacts"
     id="popup-pricingPro_Message_Contacts" aria-hidden="true" aria-labelledby="popup-pricingPro_Message_Contacts"
     tabindex="-1">
@@ -2093,17 +2098,15 @@ y conexión Meta Business ",
                                         <div class="containElements">
 
                                             <p class="text">
-                                                Los contactos de marketing son contactos a quienes les puedes <br
-                                                    class="DT_e">
-                                                enviar campañas de Email marketing e emails automatizados.<br
-                                                    class="DT_e">
-                                                Los contactos de NO marketing solo se pueden contactar uno a <br
-                                                    class="DT_e">
-                                                uno vía el CRM y puedes guardar hasta 1 millón de este tipo en <br
-                                                    class="DT_e">
-                                                el CRM sin cobro adicional. <a class="hiperButtonGreenBlue"
-                                                    href="https://support.escala.com/portal/es/kb/articles/como-influye-el-aumento-de-contactos-de-marketing">Aprender
-                                                    más</a>
+                                                El servicio de Acompañamiento e Implementación Guiado de <br class="DT_e">
+                                                Escala, con un Gerente de Éxito dedicado, está disponible <br class="DT_e">
+                                                exclusivamente para cuentas Pro con planes anuales <br class="DT_e">
+                                                superiores a USD 1,000 al año.
+                                                <br class="space"><br class="space">
+                                                Las cuentas con un valor anual menor cuentan con soporte <br class="DT_e">
+                                                técnico ilimitado vía chat para resolver consultas y acceso <br class="DT_e">
+                                                completo a los materiales de Escala Academy, donde podrán <br class="DT_e">
+                                                aprender a configurar y utilizar todas las herramientas.
                                             </p>
 
                                         </div>
