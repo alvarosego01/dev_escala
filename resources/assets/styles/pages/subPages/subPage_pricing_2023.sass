@@ -1,6 +1,7 @@
 @import ../../common/global
 
-
+#subPage_pricing_2023    
+    background-color: #FAFBFD
 img
     width: auto
 
@@ -17,6 +18,7 @@ img
         width: 100%!important
         .card
             width: 0
+            display: none
         .innerSectionElement.sct1
             @include responsivo(telefonoTable)
                 width: 95%
@@ -38,11 +40,11 @@ img
 
             .containElements
                 h1.primaryTitle
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-style: normal
                     font-weight: 700
                     font-size: 48px
-                    line-height: 0.9
+                    line-height: 1
                     text-align: center
                     margin-bottom: 20px
                     color: #fff
@@ -57,13 +59,13 @@ img
                         font-size: 40px
 
                 .primaryText
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-style: normal
                     font-weight: 400
-                    font-size: 30px
+                    font-size: 24px
                     line-height: 1
                     text-align: center
-                    letter-spacing: -0.5px
+                    
                     color: #fff
                     margin-bottom: 0
                     margin-bottom: 75px
@@ -73,7 +75,7 @@ img
                     @include responsivo(pcMedio)
                         font-size: 15px
                     @include responsivo(general)
-                        font-size: 27.5px
+                        font-size: 24px
 
         .innerSectionElement.sct2
             @include responsivo(telefonoTable)
@@ -100,9 +102,12 @@ img
                 .row
                     width: 100%
                     margin: 0!important
+                    justify-content: center
+                    gap: 15px
                     .col-md-12.col-lg-3
                         padding: 0
                         position: relative
+                        width: 27%!important
                         .overlaySpace
                             position: absolute
                             right: 0
@@ -230,13 +235,13 @@ img
                         .head
                             margin-bottom: 35px
                             h3
-                                font-family: Nunito
+                                font-family: 'Mulish', sans-serif
                                 font-style: normal
                                 font-weight: 700
                                 font-size: 35px
                                 line-height: 1
                                 text-align: center
-                                letter-spacing: -2px
+                                
                                 color: #2C4857
                                 margin-bottom: 0
                                 @include responsivo(telefonoTable)
@@ -259,13 +264,13 @@ img
                                     height: 100px
 
                                 h3
-                                    font-family: Nunito
+                                    font-family: 'Mulish', sans-serif
                                     font-style: normal
                                     font-weight: 600
                                     font-size: 20px
                                     line-height: 1
                                     text-align: center
-                                    letter-spacing: -2px
+                                    
                                     color: #2C4857
                                     margin-bottom: 20px
                                     @include responsivo(telefonoTable)
@@ -283,13 +288,13 @@ img
                                     display: none!important
                                     .discounter
                                         position: relative
-                                        font-family: Nunito
+                                        font-family: 'Mulish', sans-serif
                                         font-style: normal
                                         font-weight: 400
                                         font-size: 20px
                                         line-height: 1
                                         text-align: center
-                                        letter-spacing: -1px
+                                        
                                         color: #212A31
                                         margin: auto
                                         &::after
@@ -313,13 +318,13 @@ img
                                     position: relative
                                     width: fit-content
                                     span
-                                        font-family: Nunito
+                                        font-family: 'Mulish', sans-serif
                                         font-style: normal
                                         font-weight: bold
                                         font-size: 50px
                                         text-align: center
-                                        letter-spacing: -2px
-                                        line-height: 0
+                                        
+                                        line-height: 1
                                         // display: flex
                                         align-self: center
                                         justify-self: center
@@ -329,7 +334,7 @@ img
                                         //     font-size: 60px
                                     .smallDecimal
                                         font-size: 30px
-                                        line-height: .5
+                                        line-height: 1
                                         height: fit-content
                                         display: block
                                         position: absolute
@@ -368,12 +373,12 @@ img
                                             @include responsivo(resto)
                                                 font-size: 32.5px
                                     .ahorro
-                                        font-family: Nunito
+                                        font-family: 'Mulish', sans-serif
                                         font-style: normal
                                         font-weight: 600!important
                                         line-height: 1
                                         text-align: center
-                                        letter-spacing: -1px
+                                        
                                         color: #212A31!important
                                         margin-top: 5px
                                         @include responsivo(telefonoTable)
@@ -391,12 +396,12 @@ img
                                             font-weight: 700
                                         span
                                             text-decoration: line-through
-                                            font-family: Nunito
+                                            font-family: 'Mulish', sans-serif
                                             font-style: normal
                                             font-weight: 600!important
                                             line-height: 1
                                             text-align: center
-                                            letter-spacing: -1px
+                                            
                                             color: #212A31!important
                                             margin-top: 5px
                                             @include responsivo(telefonoTable)
@@ -417,12 +422,12 @@ img
                                     @include responsivo(resto)
                                         height: 105px
                                     .extraTag
-                                        font-family: Nunito
+                                        font-family: 'Mulish', sans-serif
                                         font-style: normal
                                         font-weight: 400
                                         font-size: 20px
                                         line-height: 1
-                                        letter-spacing: -1px
+                                        
                                         color: #007F96
                                         text-align: center
                                         width: 100%
@@ -454,13 +459,13 @@ img
                                     .discountData
                                         .primaryText
                                             margin-bottom: 0
-                                            font-family: Nunito
+                                            font-family: 'Mulish', sans-serif
                                             font-style: normal
                                             font-weight: 400
                                             font-size: 14px
-                                            line-height: 1.1
+                                            line-height:1
                                             text-align: center
-                                            letter-spacing: -0.5px
+                                            
                                             color: #797979
                                             @include responsivo(telefonoTable)
                                                 font-size: 12px
@@ -553,13 +558,13 @@ img
                                             align-content: center
                                             align-items: center
                                         h3
-                                            font-family: Nunito
+                                            font-family: 'Mulish', sans-serif
                                             font-style: normal
                                             font-weight: 600
                                             font-size: 18px
                                             line-height: 1
                                             text-align: center
-                                            letter-spacing: -1px
+                                            
                                             color: #2C4857
                                             margin-bottom: 20px
                                             @include responsivo(telefonoTable)
@@ -586,12 +591,12 @@ img
                                             select
                                                 border-radius: 6px
                                                 border: 1px solid #CAF1F3
-                                                font-family: Nunito
+                                                font-family: 'Mulish', sans-serif
                                                 font-style: normal
                                                 font-weight: 600
                                                 line-height: 1
                                                 text-align: right
-                                                letter-spacing: -1px
+                                                
                                                 color: #797979
                                                 @include responsivo(telefonoTable)
                                                     font-size: 14px
@@ -626,12 +631,12 @@ img
 
                                             label
                                                 margin-left: 10px
-                                                font-family: Nunito
+                                                font-family: 'Mulish', sans-serif
                                                 font-style: normal
                                                 font-weight: 400
                                                 font-size: 13px
-                                                line-height: 1.1
-                                                letter-spacing: -0.5px
+                                                line-height: 1
+                                                
                                                 color: #212A31
                                                 display: block
                                                 margin-top: auto
@@ -694,6 +699,20 @@ img
                                         display: none
                                         margin-bottom: 10px
 
+                                    .iaColor
+                                        background: linear-gradient(90deg, #15B9B3 24.57%, #F1685A 99.88%)
+                                        background-clip: text
+                                        -webkit-background-clip: text
+                                        -webkit-text-fill-color: transparent
+                                        .iaIcon
+                                            height: 16px
+                                            width: auto
+                                            position: relative
+                                            top: -6px
+                                            left: -3px
+                                    .planesIa
+                                        display: block
+                                        color: #007F96
                     .buttonSection
                         display: flex
                         justify-content: center
@@ -723,7 +742,7 @@ img
                         color: #007F96
                         font-size: 16px
                         font-weight: 600
-                        font-family: Nunito
+                        font-family: 'Mulish', sans-serif
                         a
                             display: flex
                             justify-content: center
@@ -821,12 +840,12 @@ img
                     p
                         color: #2C4857
                         text-align: center
-                        font-family: Nunito
+                        font-family: 'Mulish', sans-serif
                         font-size: 24px
                         font-style: normal
                         font-weight: 700
-                        line-height: 33px
-                        letter-spacing: -2px
+                        
+                        
                         margin: 0px
                         span.text-blue
                             color: #007F96
@@ -857,12 +876,12 @@ img
                         h3
                             background-color: #2C4857
                             width: 100%
-                            font-family: Nunito
+                            font-family: 'Mulish', sans-serif
                             font-style: normal
                             font-weight: 700
                             font-size: 24px
                             line-height: 1
-                            letter-spacing: -1px
+                            
                             color: #FFFFFF
                             padding: 15px 20px
                             margin-bottom: 0
@@ -881,12 +900,12 @@ img
                             overflow: hidden
                             li.itemParent
                                 background-color: #007F96
-                                font-family: Nunito
+                                font-family: 'Mulish', sans-serif
                                 font-style: normal
                                 font-weight: 600
                                 font-size: 20px
                                 line-height: 1
-                                letter-spacing: -0.5px
+                                
                                 color: #fff
                                 padding: 0
                                 @include responsivo(telefonoTable)
@@ -943,12 +962,12 @@ img
                                                         border: none
                                                         // width: 40%
                                                         padding: 15px 20px
-                                                        font-family: Nunito
+                                                        font-family: 'Mulish', sans-serif
                                                         font-style: normal
                                                         font-weight: 600
                                                         font-size: 18px
                                                         line-height: 1
-                                                        letter-spacing: -0.5px
+                                                        
                                                         color: #2C4857
                                                         border-right: 1px solid #83E3D0
                                                         @include responsivo(telefonoTable)
@@ -990,12 +1009,427 @@ img
     @include responsivo(telefonoTable)
         height: auto!important
 
+#subPage_pricing_2023 .customSection.sectionParent.subPage_pricing_2023_0_1
+    padding: 0
+    .section-row
+        .innerSectionElement.sct0
+            text-align: center
+            h2.title
+                color: #2C4857
+                text-align: center
+                font-family: 'Mulish', sans-serif
+                font-size: 48px
+                font-style: normal
+                font-weight: 700
+                line-height: 1
+                margin-bottom: 10px
+                @include responsivo(telefonoTable)
+                    font-size: 30px
+                @include responsivo(pcMedio)
+                    font-size: 35px
+                @include responsivo(general)
+                    font-size: 42.5px
+                @include responsivo(smallPcTablet)
+                    font-size: 40px
+                span
+                    background: linear-gradient(90deg, #15B9B3 27.08%, #F1685A 74.91%)
+                    background-clip: text
+                    -webkit-background-clip: text
+                    -webkit-text-fill-color: transparent
+                    font-size: 48px
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 1
+                    @include responsivo(telefonoTable)
+                        font-size: 30px
+                    @include responsivo(pcMedio)
+                        font-size: 35px
+                    @include responsivo(general)
+                        font-size: 42.5px
+                    @include responsivo(smallPcTablet)
+                        font-size: 40px
+            span
+                color: #A6A6A6
+                font-size: 24px
+                font-weight: 600
+                font-family: 'Mulish', sans-serif
+
+        .innerSectionElement.sct1
+            padding: 80px 0px
+            /* Contenedor principal */
+            .pricing-container
+                display: flex
+                flex-wrap: wrap
+                gap: 7px
+                justify-content: center
+                font-family: 'Mulish', sans-serif
+                line-height: 1
+                @include responsivo(telefonoTable)
+                    display: none
+            /* Estilos para cada columna/plan */
+            .comparar-column
+                flex: 1
+                width: 175px
+                overflow: hidden
+                margin-bottom: 20px
+                
+                .column-body
+                    padding: 0
+                    color: #fff
+                    background-color: #2C4857
+                    border-radius: 8px 0px 0px 8px
+                .feature-row
+                    background-color: #2C4857
+                    font-weight: 700
+                    justify-content: flex-start
+                    text-align: left
+                    border: none
+                    padding: 10px 18px
+                    height: 70px
+                    .feature-name
+                        height: auto
+            .pricing-column
+                flex: 1
+                width: 175px
+                border-radius: 8px
+                overflow: hidden
+                margin-bottom: 20px
+                background: #fff
+            /* Header de cada columna */
+            .no-bg
+                background-color: #FAFBFD!important    
+            .bg-blue
+                background-color: #007F96!important
+                font-size: 24px
+                font-weight: 700
+            .radius
+                border-radius: 8px 0px 0px 0px
+            .radius-1
+                border-radius: 0px 0px 0px 8px    
+            .column-header
+                text-align: center
+                background-color: #fff
+                height: 80px
+            
+                .plan-name
+                    font-weight: 800
+                    font-size: 24px
+                    color: #2C4857 
+                    margin-bottom: 5px
+                    border-bottom: 1px solid #E9E9E9
+                    padding: 15px
+                    height: 80px
+                    display: flex
+                    justify-content: flex-end
+                    align-items: center
+                    flex-direction: column
+                    width: 90%
+                    margin: 0 auto
+                    span
+                        display: block
+                        font-weight: 700
+                        font-size: 16px
+                .plan-price
+                    font-size: 1.1em
+                    color: #333
+
+            /* Cuerpo de cada columna */
+            .column-body
+                padding: 0 15px
+
+            /* Secciones */
+            .section-title
+                font-weight: bold
+                padding: 10px 14px
+                margin: 0px
+                font-size: 24px
+                display: flex
+                align-items: center
+                height: 60px
+
+            /* Filas de características */
+            .feature-row
+                padding: 10px 0
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 20px
+                font-weight: 600
+                text-align: center
+                &:last-child
+                    border-bottom: none
+
+                .feature-name
+                    font-weight: 700
+                    height: 50px
+                    span
+                        font-weight: 500
+                        font-size: 16px
+
+                .feature-value
+                    font-weight: 600
+                    height: 50px
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    flex-direction: column
+                    color: #000
+                    span
+                        font-size: 14px
+                        span
+                            color: #F34F36!important
+
+            .checkmark
+                &::before
+                    content: ''
+                    display: inline-block
+                    width: 16px
+                    height: 16px
+                    background-image: url('https://escala.com/wp-content/uploads/2025/04/check_orange.png')
+                    background-repeat: no-repeat
+                    background-size: contain
+                    
+                    vertical-align: middle
+            .checkmark-not
+                &::before
+                    content: ''
+                    display: inline-block
+                    width: 16px
+                    height: 16px
+                    background-image: url('https://escala.com/wp-content/uploads/2025/04/disable-not.png')
+                    background-repeat: no-repeat
+                    background-size: contain
+                    
+                    vertical-align: middle
+            /* Estilos para móvil (igual que antes) */
+            .mobile-tabs
+                display: none
+
+            .mobile-tab
+                margin-bottom: 10px
+                @include responsivo(telefonoTable)
+                    display: block
+
+                .mobile-tab-header
+                    background-color: #f2f2f2
+                    padding: 12px
+                    font-weight: bold
+                    border: 1px solid #ddd
+                    cursor: pointer
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+
+                .mobile-tab-content
+                    display: none
+                    padding: 12px
+                    border-left: 1px solid #ddd
+                    border-right: 1px solid #ddd
+                    border-bottom: 1px solid #ddd
+
+                &.active
+                    .mobile-tab-content
+                        display: block
+
+                    .arrow
+                        transform: rotate(180deg)
+
+            .mobile-row
+                display: flex
+                margin-bottom: 8px
+
+                .mobile-row-title
+                    font-weight: bold
+                    width: 50%
+                    padding-right: 10px
+
+                .mobile-row-value
+                    width: 50%
+
+            .arrow
+                transition: transform 0.3s
+
+
+        .innerSectionElement.sct3
+            text-align: center
+            width: 950px
+            h2.title
+                color: #2C4857
+                text-align: center
+                font-family: 'Mulish', sans-serif
+                font-size: 40px
+                font-style: normal
+                font-weight: 700
+                line-height: 1
+                margin-bottom: 60px
+                @include responsivo(telefonoTable)
+                    font-size: 30px
+                @include responsivo(pcMedio)
+                    font-size: 35px
+                @include responsivo(general)
+                    font-size: 40px
+                @include responsivo(smallPcTablet)
+                    font-size: 40px
+            span
+                color: #A6A6A6
+                font-size: 16px
+                font-weight: 600
+                font-family: 'Mulish', sans-serif
+
+            /* Contenedor principal */
+            .pricing-container
+                display: flex
+                flex-wrap: wrap
+                gap: 7px
+                justify-content: center
+                font-family: 'Mulish', sans-serif
+                line-height: 1
+                @include responsivo(telefonoTable)
+                    display: none
+            /* Estilos para cada columna/plan */
+            .comparar-column
+                flex: 1
+                width: 175px
+                overflow: hidden
+                margin-bottom: 20px
+                
+                .column-body
+                    padding: 0
+                    color: #fff
+                    background-color: #2C4857
+                    border-radius: 8px 0px 0px 8px
+                .feature-row
+                    background-color: #2C4857
+                    font-weight: 700
+                    justify-content: flex-start
+                    text-align: left
+                    border: none
+                    padding: 10px 18px
+                    height: 70px
+                   
+            .pricing-column
+                flex: 1
+                width: 175px
+                border-radius: 8px
+                overflow: hidden
+                margin-bottom: 20px
+                background: #fff  
+            .bg-blue
+                background-color: #007F96!important
+                font-size: 24px
+                font-weight: 700
+            .radius
+                border-radius: 8px 0px 0px 0px
+            .radius-1
+                border-radius: 0px 0px 0px 8px
+
+            /* Cuerpo de cada columna */
+            .column-body
+                padding: 0 15px
+
+            /* Secciones */
+            .section-title
+                font-weight: bold
+                padding: 10px 14px
+                margin: 0px
+                font-size: 24px
+                text-align: left
+                display: flex
+                align-items: center
+                height: 70px
+
+            /* Filas de características */
+            .feature-row
+                padding: 10px 0
+                display: flex
+                justify-content: center
+                align-items: center
+
+                &:last-child
+                    border-bottom: none
+
+                .feature-value
+                    font-weight: 600
+                    height: 50px
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    flex-direction: column
+                    font-size: 20px
+                    font-weight: 600
+                    text-align: center   
+                    color:  #000                
+            .mobile-tabs
+                display: none
+
+            .mobile-tab
+                margin-bottom: 10px
+                @include responsivo(telefonoTable)
+                    display: block
+
+                .mobile-tab-header
+                    background-color: #f2f2f2
+                    padding: 12px
+                    font-weight: bold
+                    border: 1px solid #ddd
+                    cursor: pointer
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+
+                .mobile-tab-content
+                    display: none
+                    padding: 12px
+                    border-left: 1px solid #ddd
+                    border-right: 1px solid #ddd
+                    border-bottom: 1px solid #ddd
+
+                &.active
+                    .mobile-tab-content
+                        display: block
+
+                    .arrow
+                        transform: rotate(180deg)
+
+            .mobile-row
+                display: flex
+                margin-bottom: 8px
+
+                .mobile-row-title
+                    font-weight: bold
+                    width: 50%
+                    padding-right: 10px
+
+                .mobile-row-value
+                    width: 50%
+
+            .arrow
+                transition: transform 0.3s
+
 
 #subPage_pricing_2023 .customSection.sectionParent.subPage_pricing_2023_1
     
     .section-row
-
-        .innerSectionElement.sct3
+        .innerSectionElement.sct0
+            text-align: center
+            h2.title
+                color: #2C4857
+                text-align: center
+                font-family: 'Mulish', sans-serif
+                font-size: 48px
+                font-style: normal
+                font-weight: 700
+                line-height: 1
+                margin-bottom: 140px
+                @include responsivo(telefonoTable)
+                    font-size: 30px
+                @include responsivo(pcMedio)
+                    font-size: 35px
+                @include responsivo(general)
+                    font-size: 42.5px
+                @include responsivo(smallPcTablet)
+                    font-size: 40px
+        .innerSectionElement.sct1
             @include responsivo(telefonoTable)
                 width: 95%
                 padding: 25px 25px
@@ -1085,12 +1519,13 @@ img
                     p
                         color: #2C4857
                         text-align: center
-                        font-family: Nunito
+                        font-family: 'Mulish', sans-serif
+                        
                         font-size: 24px
                         font-style: normal
                         font-weight: 700
-                        line-height: 33px
-                        letter-spacing: -2px
+                        
+                        
                         margin: 0px
                         span.text-blue
                             color: #007F96
@@ -1121,12 +1556,12 @@ img
                         h3
                             background-color: #2C4857
                             width: 100%
-                            font-family: Nunito
+                            font-family: 'Mulish', sans-serif
                             font-style: normal
                             font-weight: 700
                             font-size: 24px
                             line-height: 1
-                            letter-spacing: -1px
+                            
                             color: #FFFFFF
                             padding: 15px 20px
                             margin-bottom: 0
@@ -1145,12 +1580,12 @@ img
                             overflow: hidden
                             li.itemParent
                                 background-color: #007F96
-                                font-family: Nunito
+                                font-family: 'Mulish', sans-serif
                                 font-style: normal
                                 font-weight: 600
                                 font-size: 20px
                                 line-height: 1
-                                letter-spacing: -0.5px
+                                
                                 color: #fff
                                 padding: 0
                                 @include responsivo(telefonoTable)
@@ -1207,12 +1642,12 @@ img
                                                         border: none
                                                         // width: 40%
                                                         padding: 15px 20px
-                                                        font-family: Nunito
+                                                        font-family: 'Mulish', sans-serif
                                                         font-style: normal
                                                         font-weight: 600
                                                         font-size: 18px
                                                         line-height: 1
-                                                        letter-spacing: -0.5px
+                                                        
                                                         color: #2C4857
                                                         border-right: 1px solid #83E3D0
                                                         @include responsivo(telefonoTable)
@@ -1253,49 +1688,6 @@ img
 
 
 
-#subPage_pricing_2023 .customSection.sectionParent.subPage_pricing_2023_2
-    padding: 50px 0px 60px 0px
-    @include responsivo(telefonoTable)
-        padding: 25px 0
-
-    .sct1
-        .title
-            color: #2C4857
-            text-align: center
-            font-feature-settings: 'clig' off, 'liga' off
-            font-family: Nunito
-            font-size: 48px
-            font-style: normal
-            font-weight: 700
-            line-height: 1
-            letter-spacing: -0.5px
-            margin-bottom: 30px
-            @include responsivo(telefonoTable)
-                font-size: 30px
-            @include responsivo(pcMedio)
-                font-size: 35px
-            @include responsivo(general)
-                font-size: 42.5px
-            @include responsivo(smallPcTablet)
-                font-size: 40px
-            span
-                color: #007F96
-        .primaryButton
-            text-transform: uppercase
-            font-size: 22px!important
-            padding: 20px 25px!important
-            font-weight: 700
-            text-align: center!important
-        img
-            margin-bottom: 60px
-            @include responsivo(telefonoTable)
-                height: 100px
-            @include responsivo(pcMedio)
-                height: 125px
-            @include responsivo(general)
-                height: 150px
-            @include responsivo(resto)
-                height: 175px
 
 #subPage_pricing_2023 .customSection.sectionParent.subPage_pricing_2023_5
     padding: 0px
@@ -1340,13 +1732,13 @@ img
             margin-bottom: 25px
 
         h2.title
-            color: #fff
+            color: #2C4857
             text-align: center
-            font-family: Nunito
+            font-family: 'Mulish', sans-serif
             font-size: 48px
             font-style: normal
             font-weight: 700
-            letter-spacing: -2px
+            
             line-height: 1
             margin-bottom: 40px
             @include responsivo(telefonoTable)
@@ -1391,6 +1783,7 @@ img
             background-size: contain
             background-repeat: no-repeat
             background-position: center
+            height: 425px
             fill: transparent
             filter: drop-shadow(0px 6px 30px rgba(54, 118, 138, 0.10))
             // @include responsivo(smallPcTablet)
@@ -1425,7 +1818,7 @@ img
                 .card-title
                     color: #212A31
                     text-align: left
-                    font-family: Nunito
+                    font-family: 'Mulish', sans-serif
                     font-size: 24px
                     font-style: normal
                     font-weight: 400
@@ -1451,7 +1844,7 @@ img
                         text-align: left
                         .card-title
                             color: #007F96
-                            font-family: Nunito
+                            font-family: 'Mulish', sans-serif
                             font-size: 20px
                             font-style: normal
                             font-weight: 700
@@ -1459,7 +1852,7 @@ img
                                 font-size: 16px
                         .card-text
                             color: #212a31
-                            font-family: Nunito
+                            font-family: 'Mulish', sans-serif
                             font-size: 14px
                             font-style: normal
                             font-weight: 400
@@ -1486,6 +1879,180 @@ img
 
 
 
+#subPage_pricing_2023 .customSection.sectionParent.subPage_pricing_2023_6
+    padding: 0
+    background-color: transparent
+    position: relative
+    display: flex
+    flex-direction: center
+    justify-content: center
+    justify-items: center
+    text-align: center
+    padding: 0px 0px 90px 0px 
+    @include responsivo(telefonoTable)
+        padding: 0
+    @include responsivo(smallPcTablet)
+        padding-bottom: 75px
+    .section-row
+        margin: 0 auto
+        @include responsivo(telefonoTable)
+            width: 100%
+            position: relative
+        @include responsivo(pcMedio)
+            width: 100%
+            position: relative
+
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1250px!important
+            
+        @include responsivo(smallPcTablet)
+            max-width: 1000px!important
+
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1350px!important
+        .containElements
+            background-size: contain
+            background-repeat: no-repeat
+            background-position: center center
+            display: flex
+            flex-direction: row-reverse
+            align-items: center
+            padding: 68px 0px
+            @include responsivo(telefonoTable)
+                flex-direction: column
+                justify-content: center
+                gap: 40px
+                background-size: 2000px
+                background-position: 65% center
+                padding: 50px 0px 0px 0px
+            @include responsivo(pcMedio)
+                flex-direction: column
+                justify-content: center
+                background-size: 2000px
+                background-position: 65% center
+                gap: 40px
+                padding: 50px 0px 0px 0px
+            @include responsivo(general)
+              
+            @include responsivo(smallPcTablet)
+            
+            .innerSectionElement.sct1
+                position: relative
+                left: -23px
+                @include responsivo(telefonoTable)
+                    left: 0
+                @include responsivo(pcMedio)
+                    left: 0
+                .containElement
+                    position: relative
+                    left: -58px
+                    @include responsivo(telefonoTable)
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        flex-direction: column
+                        left: 0
+                    @include responsivo(pcMedio)
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        flex-direction: column
+                        left: 0
+                    @include responsivo(smallPcTablet)
+                        left: -15px
+                    .title
+                        color: #fff
+                        font-family: "Mulish", sans-serif
+                        font-size: 55px
+                        font-family: "Mulish", sans-serif
+                        font-style: normal
+                        font-weight: 700
+                        line-height: 1
+                        margin-bottom: 40px
+                        text-align: right
+                        
+                        @include responsivo(telefonoTable)
+                            font-size: 40px
+                            text-align: center
+                        @include responsivo(pcMedio)
+                            font-size: 40px
+                            text-align: center
+                        @include responsivo(general)
+                            font-size: 50px
+                        @include responsivo(smallPcTablet)
+                            font-size: 40px
+                        @include responsivo(resto)
+                            font-size: 55px
+                    .btnSection
+                        text-align: left
+                        display: flex
+                        align-items: center
+                        flex-direction: row-reverse
+                        gap: 30px
+                        @include responsivo(telefonoTable)
+                            flex-direction: column
+                            justify-content: center
+                        @include responsivo(pcMedio)
+                            flex-direction: column
+                            justify-content: center
+                        .primaryButton 
+                            font-family: "Mulish", sans-serif!important
+                            min-width: 363px!important
+                            padding: 25px 80px!important
+                            transition: background 0.3s ease
+                            @include responsivo(telefonoTable)
+                                min-width: 100% !important
+                                padding: 25px 32px!important
+                            @include responsivo(smallPcTablet)
+                                min-width: 330px!important
+                                padding: 25px 55px!important
+                            &:hover
+                                background: linear-gradient(90deg, #ff6b60 0%, #1fdad3 100%)!important
+
+                        .text-white
+                            color: #fff
+                            font-family: "Mulish", sans-serif
+                            font-size: 30px
+                            font-style: normal
+                            font-weight: 500
+                            line-height: 1
+                            text-underline-offset: 4px
+                            text-decoration-thickness: 2px
+                            @include responsivo(smallPcTablet)
+                                font-size: 27px
+                           
+ 
+            .innerSectionElement.sct2
+                .containElement
+                    position: relative
+                    left: 104px
+                    top: 69px
+                    @include responsivo(telefonoTable)
+                        left: 0
+                        top: 0px
+                    @include responsivo(pcMedio)
+                        left: 0
+                        top: 0px
+                    @include responsivo(general)
+                       
+                    @include responsivo(smallPcTablet)
+                        left: 55px
+                        top: 53px                        
+                    img
+                        width: auto
+                        padding: 0px
+                        margin: 0px
+                        height: 305px
+                        @include responsivo(telefonoTable)
+                            height: 230px
+                        @include responsivo(pcMedio)
+                            height: 235px
+                        @include responsivo(general)
+                            height: 265px
+                        @include responsivo(resto)
+                            height: 315px
 .quantity-nav
     // float: left
     position: absolute
@@ -1503,7 +2070,7 @@ img
     text-align: center
     color: #83E3D0
     font-size: 14px
-    line-height: 1.7
+    line-height: 1
     -webkit-transform: translateX(-100%)
     transform: translateX(left)
     -webkit-user-select: none
@@ -1572,12 +2139,12 @@ img
                                                 color: #797979
                                             p.text,
                                             a
-                                                font-family: Nunito
+                                                font-family: 'Mulish', sans-serif
                                                 font-style: normal
                                                 font-weight: 400
-                                                line-height: 1.25
+                                                line-height: 1
                                                 text-align: justify
-                                                letter-spacing: -0.5px
+                                                
                                                 margin: auto
                                                 @include responsivo(telefonoTable)
                                                     font-size: 14px

@@ -455,7 +455,7 @@ y conexión Meta Business ",
         <section class="customSection sectionParent subPage_pricing_2023_0 ">
 
             <div class="section-row">
-                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg_section_1_pricing_2025.svg') }}')" class="backgroundFull">
+                <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-pricing-page-2025-abril.svg') }}')" class="backgroundFull">
 
 
                     <section class="innerSectionElement sct1">
@@ -463,13 +463,12 @@ y conexión Meta Business ",
                         <div class="containElements">
 
                             <h1 class="primaryTitle blackColor">
-                                Elige el mejor plan y sus beneficios según <br class="DT_e">
-                                las necesidades de tu empresa
+                                Elige el plan según las necesidades de tu empresa
                             </h1>
 
                             <p class="primaryText grayColorTexts">
-                                Cada uno de nuestros planes tiene las funcionalidades de marketing digital y ventas <br class="DT_e">
-                                para acelerar el crecimiento de tu negocio. Solo inviertes en lo que necesitas.
+                                Cada uno de nuestros planes tiene las funcionalidades de marketing y ventas para acelerar el <br class="DT_e">
+                                crecimiento de tu negocio. Solo inviertes en lo que necesitas.
                             </p>
 
                         </div>
@@ -543,8 +542,7 @@ y conexión Meta Business ",
                                                             </div>
 
                                                             <label for="_contactsField">
-                                                                Coloca el número de <br class="DT_e">
-                                                                contactos de marketing <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
+                                                                Número de contactos <span> de <br> marketing</span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
                                                             </label>
                                                         </div>
                                                         <div class="field number">
@@ -560,8 +558,8 @@ y conexión Meta Business ",
                                                             </div>
 
                                                             <label for="_usersField">
-                                                                Coloca el número de usuarios <br class="DT_e">
-                                                                con acceso a la plataforma
+                                                                Número de <span>usuarios</span> con <br class="DT_e">
+                                                                acceso a la plataforma
                                                             </label>
                                                         </div>
 
@@ -592,7 +590,7 @@ y conexión Meta Business ",
 
                                 <div class="col-md-12 col-lg-3 pricingCard pro">
 
-                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/principal_star.png') !!}" alt="" class="principalStar">
+                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/principal_star_2025.png') !!}" alt="" class="principalStar">
 
                                     <div class="head">
                                         <h3 class="secondaryTitle blackColor">
@@ -682,8 +680,7 @@ y conexión Meta Business ",
                                                             </div>
 
                                                             <label for="_contactsField">
-                                                                Coloca el número de <br class="DT_e">
-                                                                contactos de marketing <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
+                                                                Número de contactos <span> de <br> marketing</span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
                                                             </label>
                                                         </div>
                                                         <div class="field number">
@@ -699,29 +696,11 @@ y conexión Meta Business ",
                                                             </div>
 
                                                             <label for="_usersField">
-                                                                Coloca el número de usuarios <br class="DT_e">
-                                                                con acceso a la plataforma
+                                                                Número de <span>usuarios</span> con <br class="DT_e">
+                                                                acceso a la plataforma
                                                             </label>
                                                         </div>
-                                                        <div class="field select">
-                                                            <select name="_iaField">
-                                                                <option value="No" selected>No</option>
-                                                                <option value="Si">Si</option>
-                                                            </select>
 
-                                                            <div class="quantity-nav">
-                                                                <div class="quantity-button quantity-up">
-                                                                    <i class="fas fa-caret-up"></i>
-                                                                </div>
-                                                                <div class="quantity-button quantity-down">
-                                                                    <i class="fas fa-caret-down"></i>
-                                                                </div>
-                                                            </div>
-
-                                                            <label for="_iaField">
-                                                                Incluye <span><strong> Inteligencia Artificial</strong></span>
-                                                            </label>
-                                                        </div>
 
                                                         <div class="field select">
                                                             <select name="_omnicanalField" id="omnicanalField">
@@ -778,6 +757,31 @@ y conexión Meta Business ",
                                                             <span>
                                                                 *Facebook e instagram <strong>vienen en combo</strong>
                                                             </span>
+                                                        </div>
+
+                                                        <div class="field select">
+                                                            <select name="_iaField">
+                                                                <option value="No" selected>No</option>
+                                                                <option value="Si">Si</option>
+                                                            </select>
+
+                                                            <div class="quantity-nav">
+                                                                <div class="quantity-button quantity-up">
+                                                                    <i class="fas fa-caret-up"></i>
+                                                                </div>
+                                                                <div class="quantity-button quantity-down">
+                                                                    <i class="fas fa-caret-down"></i>
+                                                                </div>
+                                                            </div>
+
+                                                            <label for="_iaField">
+                                                                Incluye <span>
+                                                                    <strong class="iaColor"> Inteligencia Artificial
+                                                                        <img class="iaIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/ia-icon-pricing.png') !!}"
+                                                                            alt=""></strong>
+                                                                    <a href="#iaPlan" class="planesIa">Conocer planes →</a>
+                                                                </span>
+                                                            </label>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -868,11 +872,33 @@ y conexión Meta Business ",
                                                             </div>
 
                                                             <label for="_contactsField">
-                                                                Coloca el número de <br class="DT_e">
-                                                                contactos de marketing<button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
+                                                                Número de contactos <span> de <br> marketing</span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
                                                             </label>
                                                         </div>
+                                                        <div class="field select">
+                                                            <select name="_iaField">
+                                                                <option value="No" selected>No</option>
+                                                                <option value="Si">Si</option>
+                                                            </select>
 
+                                                            <div class="quantity-nav">
+                                                                <div class="quantity-button quantity-up">
+                                                                    <i class="fas fa-caret-up"></i>
+                                                                </div>
+                                                                <div class="quantity-button quantity-down">
+                                                                    <i class="fas fa-caret-down"></i>
+                                                                </div>
+                                                            </div>
+
+                                                            <label for="_iaField">
+                                                                Incluye <span>
+                                                                    <strong class="iaColor"> Inteligencia Artificial
+                                                                        <img class="iaIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/ia-icon-pricing.png') !!}"
+                                                                            alt=""></strong>
+                                                                    <a href="#iaPlan" class="planesIa">Conocer planes →</a>
+                                                                </span>
+                                                            </label>
+                                                        </div>
 
                                                     </div>
                                                 </div>
@@ -888,7 +914,12 @@ y conexión Meta Business ",
                                             </a>
 
                                         </div>
-
+                                        <div class="openComparation">
+                                            <a onclick="openCompare()">
+                                                Ver comparación completa
+                                                <i class="fas fa-caret-down"></i>
+                                            </a>
+                                        </div>
 
                                     </div>
 
@@ -908,9 +939,720 @@ y conexión Meta Business ",
             </div>
 
         </section>
+        <section class="customSection sectionParent subPage_pricing_2023_0_1 ">
+            <div class="section-row">
+                <div class="innerSectionElement sct0">
+                    <h2 class="title" id="iaPlan">
+                        Conoce nuestros planes de <br class="DT_e">
+                        <span>Inteligencia Artificial</span>
+                    </h2>
+                    <span>Todos los precios están en USD</span>
+                </div>
+
+                <div class="innerSectionElement sct1">
+                    <!-- Versión desktop (columnas con divs) -->
+                    <div class="pricing-container">
+                        <!-- Columna Comparar -->
+                        <div class="comparar-column">
+                            <div class="column-header no-bg">
+
+                            </div>
+                            <div class="column-body">
+                                <div class="section-title bg-blue radius">Inversión</div>
+                                <div class="feature-row">
+                                    <span class="feature-name">Mensual</span>
+                                    <span class="feature-value"></span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-name">Anual</span>
+                                    <span class="feature-value"></span>
+                                </div>
+
+                                <div class="section-title bg-blue">Beneficios</div>
+                                <div class="feature-row">
+                                    <span class="feature-name">Créditos / mes</span>
+                                    <span class="feature-value"></span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-name">Conversaciones / mes <span>(aprox.)</span></span>
+                                    <span class="feature-value"></span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-name">Mensajes / mes <span>(aprox.)</span></span>
+                                    <span class="feature-value"></span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-name">Agentes</span>
+                                    <span class="feature-value"></span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-name">Asistente de IA <span>(auto-guiado)</span></span>
+
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-name">Chat de soporte</span>
+
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-name">Implementación Personalizada</span>
+
+                                </div>
+                                <div class="feature-row radius-1">
+                                    <span class="feature-name">Acceso al equipo de Tecnología</span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Columna Gratuito -->
+                        <div class="pricing-column">
+                            <div class="column-header">
+                                <div class="plan-name">Gratuito</div>
+
+                            </div>
+                            <div class="column-body">
+                                <div class="section-title"></div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">$0</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">$0</span>
+                                </div>
+
+                                <div class="section-title"></div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">5,000 <span>+40,000 <span>Una sola vez</span></span></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">15</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">180</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">1</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark-not"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark-not"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark-not"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark-not"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Columna Bronce -->
+                        <div class="pricing-column">
+                            <div class="column-header">
+                                <div class="plan-name"><span>Plan</span> Bronce</div>
+                            </div>
+                            <div class="column-body">
+                                <div class="section-title"></div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">$40 / mes</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">$384 / año <span> ($32 / mes)</span></span>
+                                </div>
+
+                                <div class="section-title"></div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">40,000</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">100</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">1,200</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">2</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark-not"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark-not"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark-not"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Columna Plata -->
+                        <div class="pricing-column">
+                            <div class="column-header">
+                                <div class="plan-name"><span>Plan</span> Plata</div>
+                            </div>
+                            <div class="column-body">
+                                <div class="section-title"></div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">$200 / mes</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">$1,920 / año <span>($160 / mes)</span></span>
+                                </div>
+
+                                <div class="section-title"></div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">200,000</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">500</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">6,000</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">5</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark-not"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark-not"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Columna Oro -->
+                        <div class="pricing-column">
+                            <div class="column-header">
+                                <div class="plan-name"><span>Plan</span> Oro</div>
+                            </div>
+                            <div class="column-body">
+                                <div class="section-title"></div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">$1,000 / mes</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">$9,600 / año <span>($800 / mes)</span></span>
+                                </div>
+
+                                <div class="section-title"></div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">1,000,000</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">2,500</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">30,000</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">Ilimitados</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark-not"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Columna Platino -->
+                        <div class="pricing-column">
+                            <div class="column-header">
+                                <div class="plan-name"><span>Plan</span> Platino</div>
+                            </div>
+                            <div class="column-body">
+                                <div class="section-title"></div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">$2,000 / mes</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">$19,200 / año <span>($1,600 / mes)</span></span>
+                                </div>
+
+                                <div class="section-title"></div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">2,000,000</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">5,000</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">60,000</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value">Ilimitados</span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark"></span>
+                                </div>
+                                <div class="feature-row">
+
+                                    <span class="feature-value checkmark"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Versión móvil (tabs) - Se mantiene igual -->
+                    <div class="mobile-tabs">
+                        <div class="mobile-tab" onclick="toggleTab(this)">
+                            <div class="mobile-tab-header">
+                                <span>Básico ($0)</span>
+                                <span class="arrow">▼</span>
+                            </div>
+                            <div class="mobile-tab-content">
+                                <div class="mobile-row section-title">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value"></div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">$0</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">$0</div>
+                                </div>
+                                <div class="mobile-row section-title">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value"></div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">5,000</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">15</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">180</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">1</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mobile-tab" onclick="toggleTab(this)">
+                            <div class="mobile-tab-header">
+                                <span>Estándar ($40/mes)</span>
+                                <span class="arrow">▼</span>
+                            </div>
+                            <div class="mobile-tab-content">
+                                <div class="mobile-row section-title">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value"></div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">$40 / mes</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">$384 / año ($32 / mes)</div>
+                                </div>
+                                <div class="mobile-row section-title">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value"></div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">40,000</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">100</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">1,200</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">2</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mobile-tab" onclick="toggleTab(this)">
+                            <div class="mobile-tab-header">
+                                <span>Profesional ($200/mes)</span>
+                                <span class="arrow">▼</span>
+                            </div>
+                            <div class="mobile-tab-content">
+                                <div class="mobile-row section-title">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value"></div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">$200 / mes</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">$1,920 / año ($160 / mes)</div>
+                                </div>
+                                <div class="mobile-row section-title">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value"></div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">200,000</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">500</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">6,000</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">5</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mobile-tab" onclick="toggleTab(this)">
+                            <div class="mobile-tab-header">
+                                <span>Empresarial ($1,000/mes)</span>
+                                <span class="arrow">▼</span>
+                            </div>
+                            <div class="mobile-tab-content">
+                                <div class="mobile-row section-title">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value"></div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">$1,000 / mes</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">$9,600 / año ($800 / mes)</div>
+                                </div>
+                                <div class="mobile-row section-title">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value"></div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">1,000,000</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">2,500</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">30,000</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">Ilimitados</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mobile-tab" onclick="toggleTab(this)">
+                            <div class="mobile-tab-header">
+                                <span>Premium ($2,000/mes)</span>
+                                <span class="arrow">▼</span>
+                            </div>
+                            <div class="mobile-tab-content">
+                                <div class="mobile-row section-title">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value"></div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">$2,000 / mes</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">$19,200 / año ($1,600 / mes)</div>
+                                </div>
+                                <div class="mobile-row section-title">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value"></div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">2,000,000</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">5,000</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">60,000</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value">Ilimitados</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                                <div class="mobile-row">
+                                    <div class="mobile-row-title"></div>
+                                    <div class="mobile-row-value checkmark">✅</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                        function toggleTab(tabElement) {
+                            // Cerrar todas las pestañas primero
+                            const allTabs = document.querySelectorAll('.mobile-tab');
+                            allTabs.forEach(tab => {
+                                if (tab !== tabElement) {
+                                    tab.classList.remove('active');
+                                }
+                            });
+
+                            // Alternar la pestaña clickeada
+                            tabElement.classList.toggle('active');
+                        }
+
+                        // Abrir la primera pestaña por defecto en móvil
+                        document.addEventListener('DOMContentLoaded', function() {
+                            if (window.innerWidth <= 768) {
+                                document.querySelector('.mobile-tab').classList.add('active');
+                            }
+                        });
+                    </script>
+                </div>
+                <div class="innerSectionElement sct3">
+                    <h2 class="title">
+                        ¿Necesitas créditos adicionales?
+                    </h2>
+                    <div class="pricing-container">
+                        <!-- Columna Comparar -->
+                        <div class="comparar-column">
+                            <div class="column-body">
+                                <div class="section-title bg-blue radius">Inversión</div>
+                                <div class="section-title bg-blue radius-1">Créditos adicionales</div>
+                            </div>
+                        </div>
+                        <!-- Columna creditos precios -->
+                        <div class="pricing-column">
+                            <div class="column-body">
+                                <div class="feature-row">
+                                    <span class="feature-value">$50</span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-value">$50,000</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Columna creditos precios -->
+                        <div class="pricing-column">
+                            <div class="column-body">
+                                <div class="feature-row">
+                                    <span class="feature-value">$100</span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-value">$100,000</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Columna creditos precios -->
+                        <div class="pricing-column">
+                            <div class="column-body">
+                                <div class="feature-row">
+                                    <span class="feature-value">$500</span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-value">$500,000</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Columna creditos precios -->
+                        <div class="pricing-column">
+                            <div class="column-body">
+                                <div class="feature-row">
+                                    <span class="feature-value">$1,000</span>
+                                </div>
+                                <div class="feature-row">
+                                    <span class="feature-value">$1,000,000</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <span>Los créditos no tienen límite de tiempo (con contrato vigente) </span>
+                </div>
+            </div>
+
+        </section>
+
+
         <section class="customSection sectionParent subPage_pricing_2023_1 ">
             <div class="section-row">
-                <section class="innerSectionElement sct3">
+                <section class="innerSectionElement sct0">
+                    <h2 class="title">
+                        Beneficios
+                    </h2>
+                </section>
+
+                <section class="innerSectionElement sct1">
 
                     <div class="containElements">
                         <div id="table-header-anchor1"></div>
@@ -1199,546 +1941,12 @@ y conexión Meta Business ",
             </div>
         </section>
 
-            <style>
-                /* Estilos para desktop */
-                .pricing-table {
-                    width: 100%;
-                    border-collapse: collapse;
-                    margin-top: 20px;
-                }
-
-                .pricing-table th,
-                .pricing-table td {
-                    border: 1px solid #ddd;
-                    padding: 12px;
-                    text-align: center;
-                }
-
-                .pricing-table th {
-                    background-color: #f2f2f2;
-                    font-weight: bold;
-                }
-
-                .pricing-table tr:nth-child(even) {
-                    background-color: #f9f9f9;
-                }
-
-                .section-title {
-                    font-weight: bold;
-                    background-color: #e6f7ff !important;
-                    font-size: 1.1em;
-                }
-
-                .checkmark {
-                    color: green;
-                    font-weight: bold;
-                }
-
-                .plan-name {
-                    font-weight: bold;
-                    color: #2c3e50;
-                }
-
-                /* Estilos para móvil */
-                .mobile-tabs {
-                    display: none;
-                }
-
-                .mobile-tab {
-                    margin-bottom: 10px;
-                }
-
-                .mobile-tab-header {
-                    background-color: #f2f2f2;
-                    padding: 12px;
-                    font-weight: bold;
-                    border: 1px solid #ddd;
-                    cursor: pointer;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                }
-
-                .mobile-tab-content {
-                    display: none;
-                    padding: 12px;
-                    border-left: 1px solid #ddd;
-                    border-right: 1px solid #ddd;
-                    border-bottom: 1px solid #ddd;
-                }
-
-                .mobile-tab.active .mobile-tab-content {
-                    display: block;
-                }
-
-                .mobile-row {
-                    display: flex;
-                    margin-bottom: 8px;
-                }
-
-                .mobile-row-title {
-                    font-weight: bold;
-                    width: 50%;
-                    padding-right: 10px;
-                }
-
-                .mobile-row-value {
-                    width: 50%;
-                }
-
-                .arrow {
-                    transition: transform 0.3s;
-                }
-
-                .mobile-tab.active .arrow {
-                    transform: rotate(180deg);
-                }
-
-                /* Media queries para responsive */
-                @media (max-width: 768px) {
-                    .pricing-table {
-                        display: none;
-                    }
-
-                    .mobile-tabs {
-                        display: block;
-                    }
-                }
-            </style>
-
-            <!-- Versión desktop (tabla normal) -->
-            <table class="pricing-table">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th class="plan-name">Básico</th>
-                        <th class="plan-name">Estándar</th>
-                        <th class="plan-name">Profesional</th>
-                        <th class="plan-name">Empresarial</th>
-                        <th class="plan-name">Premium</th>
-                    </tr>
-                    <tr>
-                        <th></th>
-                        <th>$0</th>
-                        <th>$40 / mes</th>
-                        <th>$200 / mes</th>
-                        <th>$1,000 / mes</th>
-                        <th>$2,000 / mes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="section-title">
-                        <td>Inversión</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Mensual</td>
-                        <td>$0</td>
-                        <td>$40 / mes</td>
-                        <td>$200 / mes</td>
-                        <td>$1,000 / mes</td>
-                        <td>$2,000 / mes</td>
-                    </tr>
-                    <tr>
-                        <td>Anual</td>
-                        <td>$0</td>
-                        <td>$384 / año ($32 / mes)</td>
-                        <td>$1,920 / año ($160 / mes)</td>
-                        <td>$9,600 / año ($800 / mes)</td>
-                        <td>$19,200 / año ($1,600 / mes)</td>
-                    </tr>
-                    <tr class="section-title">
-                        <td>Beneficios</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Créditos / mes</td>
-                        <td>5,000</td>
-                        <td>40,000</td>
-                        <td>200,000</td>
-                        <td>1,000,000</td>
-                        <td>2,000,000</td>
-                    </tr>
-                    <tr>
-                        <td>Conversaciones / mes (approx.)</td>
-                        <td>15</td>
-                        <td>100</td>
-                        <td>500</td>
-                        <td>2,500</td>
-                        <td>5,000</td>
-                    </tr>
-                    <tr>
-                        <td>Mensajes / mes (approx.)</td>
-                        <td>180</td>
-                        <td>1,200</td>
-                        <td>6,000</td>
-                        <td>30,000</td>
-                        <td>60,000</td>
-                    </tr>
-                    <tr>
-                        <td>Agentes</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>5</td>
-                        <td>Ilimitados</td>
-                        <td>Ilimitados</td>
-                    </tr>
-                    <tr>
-                        <td>Asistente de IA (auto-guíada)</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                    </tr>
-                    <tr>
-                        <td>Chat de soporte</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                    </tr>
-                    <tr>
-                        <td>Implementación Personalizada</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                    </tr>
-                    <tr>
-                        <td>Acceso al equipo de Tecnología</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                        <td class="checkmark">✅</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <!-- Versión móvil (tabs) -->
-            <div class="mobile-tabs">
-                <div class="mobile-tab" onclick="toggleTab(this)">
-                    <div class="mobile-tab-header">
-                        <span>Básico ($0)</span>
-                        <span class="arrow">▼</span>
-                    </div>
-                    <div class="mobile-tab-content">
-                        <div class="mobile-row section-title">
-                            <div class="mobile-row-title">Inversión</div>
-                            <div class="mobile-row-value"></div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Mensual</div>
-                            <div class="mobile-row-value">$0</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Anual</div>
-                            <div class="mobile-row-value">$0</div>
-                        </div>
-                        <div class="mobile-row section-title">
-                            <div class="mobile-row-title">Beneficios</div>
-                            <div class="mobile-row-value"></div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Créditos / mes</div>
-                            <div class="mobile-row-value">5,000</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Conversaciones / mes</div>
-                            <div class="mobile-row-value">15</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Mensajes / mes</div>
-                            <div class="mobile-row-value">180</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Agentes</div>
-                            <div class="mobile-row-value">1</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Asistente de IA</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Chat de soporte</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Implementación</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Acceso a Tecnología</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mobile-tab" onclick="toggleTab(this)">
-                    <div class="mobile-tab-header">
-                        <span>Estándar ($40/mes)</span>
-                        <span class="arrow">▼</span>
-                    </div>
-                    <div class="mobile-tab-content">
-                        <div class="mobile-row section-title">
-                            <div class="mobile-row-title">Inversión</div>
-                            <div class="mobile-row-value"></div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Mensual</div>
-                            <div class="mobile-row-value">$40 / mes</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Anual</div>
-                            <div class="mobile-row-value">$384 / año ($32 / mes)</div>
-                        </div>
-                        <div class="mobile-row section-title">
-                            <div class="mobile-row-title">Beneficios</div>
-                            <div class="mobile-row-value"></div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Créditos / mes</div>
-                            <div class="mobile-row-value">40,000</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Conversaciones / mes</div>
-                            <div class="mobile-row-value">100</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Mensajes / mes</div>
-                            <div class="mobile-row-value">1,200</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Agentes</div>
-                            <div class="mobile-row-value">2</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Asistente de IA</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Chat de soporte</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Implementación</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Acceso a Tecnología</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mobile-tab" onclick="toggleTab(this)">
-                    <div class="mobile-tab-header">
-                        <span>Profesional ($200/mes)</span>
-                        <span class="arrow">▼</span>
-                    </div>
-                    <div class="mobile-tab-content">
-                        <div class="mobile-row section-title">
-                            <div class="mobile-row-title">Inversión</div>
-                            <div class="mobile-row-value"></div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Mensual</div>
-                            <div class="mobile-row-value">$200 / mes</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Anual</div>
-                            <div class="mobile-row-value">$1,920 / año ($160 / mes)</div>
-                        </div>
-                        <div class="mobile-row section-title">
-                            <div class="mobile-row-title">Beneficios</div>
-                            <div class="mobile-row-value"></div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Créditos / mes</div>
-                            <div class="mobile-row-value">200,000</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Conversaciones / mes</div>
-                            <div class="mobile-row-value">500</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Mensajes / mes</div>
-                            <div class="mobile-row-value">6,000</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Agentes</div>
-                            <div class="mobile-row-value">5</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Asistente de IA</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Chat de soporte</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Implementación</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Acceso a Tecnología</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mobile-tab" onclick="toggleTab(this)">
-                    <div class="mobile-tab-header">
-                        <span>Empresarial ($1,000/mes)</span>
-                        <span class="arrow">▼</span>
-                    </div>
-                    <div class="mobile-tab-content">
-                        <div class="mobile-row section-title">
-                            <div class="mobile-row-title">Inversión</div>
-                            <div class="mobile-row-value"></div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Mensual</div>
-                            <div class="mobile-row-value">$1,000 / mes</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Anual</div>
-                            <div class="mobile-row-value">$9,600 / año ($800 / mes)</div>
-                        </div>
-                        <div class="mobile-row section-title">
-                            <div class="mobile-row-title">Beneficios</div>
-                            <div class="mobile-row-value"></div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Créditos / mes</div>
-                            <div class="mobile-row-value">1,000,000</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Conversaciones / mes</div>
-                            <div class="mobile-row-value">2,500</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Mensajes / mes</div>
-                            <div class="mobile-row-value">30,000</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Agentes</div>
-                            <div class="mobile-row-value">Ilimitados</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Asistente de IA</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Chat de soporte</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Implementación</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Acceso a Tecnología</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mobile-tab" onclick="toggleTab(this)">
-                    <div class="mobile-tab-header">
-                        <span>Premium ($2,000/mes)</span>
-                        <span class="arrow">▼</span>
-                    </div>
-                    <div class="mobile-tab-content">
-                        <div class="mobile-row section-title">
-                            <div class="mobile-row-title">Inversión</div>
-                            <div class="mobile-row-value"></div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Mensual</div>
-                            <div class="mobile-row-value">$2,000 / mes</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Anual</div>
-                            <div class="mobile-row-value">$19,200 / año ($1,600 / mes)</div>
-                        </div>
-                        <div class="mobile-row section-title">
-                            <div class="mobile-row-title">Beneficios</div>
-                            <div class="mobile-row-value"></div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Créditos / mes</div>
-                            <div class="mobile-row-value">2,000,000</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Conversaciones / mes</div>
-                            <div class="mobile-row-value">5,000</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Mensajes / mes</div>
-                            <div class="mobile-row-value">60,000</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Agentes</div>
-                            <div class="mobile-row-value">Ilimitados</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Asistente de IA</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Chat de soporte</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Implementación</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                        <div class="mobile-row">
-                            <div class="mobile-row-title">Acceso a Tecnología</div>
-                            <div class="mobile-row-value checkmark">✅</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <script>
-                function toggleTab(tabElement) {
-                    // Cerrar todas las pestañas primero
-                    const allTabs = document.querySelectorAll('.mobile-tab');
-                    allTabs.forEach(tab => {
-                        if (tab !== tabElement) {
-                            tab.classList.remove('active');
-                        }
-                    });
-
-                    // Alternar la pestaña clickeada
-                    tabElement.classList.toggle('active');
-                }
-
-                // Abrir la primera pestaña por defecto en móvil
-                document.addEventListener('DOMContentLoaded', function() {
-                    if (window.innerWidth <= 768) {
-                        document.querySelector('.mobile-tab').classList.add('active');
-                    }
-                });
-            </script>
 
 
 
-        <section class="customSection sectionParent subPage_pricing_2023_5" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg_secion_page_pricing.svg') !!}')">
+
+
+        <section class="customSection sectionParent subPage_pricing_2023_5">
 
             <div class="section-row ">
                 <div class="row sct1">
@@ -1753,8 +1961,8 @@ y conexión Meta Business ",
                 <div class=" row sct2">
                     <div class="mb-4 col-lg-4 col-md-12 box-internal">
                         <div class="card-box"
-                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
-                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue.png') !!}" alt="">
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg-testimonial-white-2025.png') !!}')">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}" alt="">
                             <div class="card-body">
                                 <h5 class="card-title"><b>Aumentamos las ventas en un 100%.</b> El acompañamiento del equipo de Escala ha
                                     sido fundamental.
@@ -1775,8 +1983,8 @@ y conexión Meta Business ",
                     </div>
                     <div class="mb-4 col-lg-4 col-md-12 box-internal">
                         <div class="card-box"
-                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
-                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue.png') !!}" alt="">
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg-testimonial-white-2025.png') !!}')">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Escala ha sido un gran aliado para <b> mejorar nuestra operación comercial,</b> automatizar tareas
                                     y optimizar nuestra inversión
@@ -1795,8 +2003,8 @@ y conexión Meta Business ",
                     </div>
                     <div class="mb-4 col-lg-4 col-md-12 box-internal">
                         <div class="card-box"
-                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg_testimonios_home_2025.png') !!}')">
-                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue.png') !!}" alt="">
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg-testimonial-white-2025.png') !!}')">
+                            <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Escala no solo ofrecen un <b> software robusto y amigable,</b> sino también un servicio excepcional que asegura que aprovechemos al máximo
                                     la herramienta.
@@ -1819,19 +2027,36 @@ y conexión Meta Business ",
         </section>
 
 
-        <section class="customSection sectionParent subPage_pricing_2023_2">
-            <div class="section-row">
-                <div class="mt-5 row sct1">
-                    <div class="text-center col-md-6 offset-md-3">
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/05-pricing_2023.png') !!}" alt="">
-                        <h2 class="mt-3 title">¿Listo para <span>subir a bordo?</span></h2>
-                        <button class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">¡Conversemos!</button>
-                    </div>
+
+        <section class="customSection sectionParent subPage_pricing_2023_6">
+
+            <div class="section-row ">
+                <div class="containElements" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-pricing-pro-2025-8.svg') }}')">
+                    <section class="innerSectionElement sct1">
+                        <div class="containElement">
+                            <h2 class="title">
+                                ¿Listo para subir <br class="DT_e"> a bordo?
+                            </h2>
+                            <div class="btnSection">
+                                <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                    ¡Conversemos! →</a>
+
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="innerSectionElement sct2">
+                        <div class="containElement">
+                            <img alt=""
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/ceo_escala_2025.png') }}"
+                                loading="lazy">
+                        </div>
+                    </section>
+
                 </div>
             </div>
         </section>
-
-
 
     </div>
 </div>
