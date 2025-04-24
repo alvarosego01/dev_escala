@@ -2,7 +2,7 @@
 
 $featuresElements = [
 "services" => array(
-"name" => '<span class="blueLightColor12">Acompañamiento</span>',
+"name" => '<span>Acompañamiento</span>',
 "items" => array(
 [
 "name" => 'Gerente Éxito Asignado',
@@ -39,7 +39,7 @@ $featuresElements = [
 ]
 ],
 [
-"name" => "Migración / importación de datos <br>
+"name" => "Migración / importación de datos
 y conexión Meta Business ",
 "value" => [
 "disabledIcon",
@@ -84,7 +84,7 @@ y conexión Meta Business ",
 )
 ),
 'formation' => [
-'name' => '<span class="blueLightColor12">Formación</span>',
+'name' => '<span>Formación</span>',
 'items' => [
 
 [
@@ -107,7 +107,7 @@ y conexión Meta Business ",
 ]
 ],
 'access' => [
-'name' => '<span class="blueLightColor12">Herramientas</span>',
+'name' => '<span>Herramientas</span>',
 'items' => [
 [
 'name' => 'CRM',
@@ -542,7 +542,7 @@ y conexión Meta Business ",
                                                             </div>
 
                                                             <label for="_contactsField">
-                                                                Número de contactos <span> de <br> marketing</span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
+                                                                Número de <span>contactos de <br> marketing</span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
                                                             </label>
                                                         </div>
                                                         <div class="field number">
@@ -572,7 +572,7 @@ y conexión Meta Business ",
                                         <div class="buttonSection">
 
                                             <a class=" secondaryButton roundedButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                                Hablar con asesor
+                                                Hablar con asesor →
                                             </a>
 
                                         </div>
@@ -640,9 +640,9 @@ y conexión Meta Business ",
                                                     <div class="discountData">
                                                         <p class="primaryText">
 
-                                                            <strong>*Más pago único por</strong> <br class="space">
-                                                            Servicio de Acompañamiento <br class="space">
-                                                            Personalizado obligatorio <button class="questionIcon openPopUpButton popup-pricingPro_Message_PagoUnico">?</button>
+                                                            <strong>*Más pago único por</strong>
+                                                            Servicio de <br class="space">
+                                                            Acompañamiento Personalizado obligatorio <button class="questionIcon openPopUpButton popup-pricingPro_Message_PagoUnico">?</button>
 
                                                         </p>
                                                         {{-- <p yearly_mode class="primaryText">
@@ -680,7 +680,7 @@ y conexión Meta Business ",
                                                             </div>
 
                                                             <label for="_contactsField">
-                                                                Número de contactos <span> de <br> marketing</span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
+                                                                Número de <span>contactos de <br> marketing</span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
                                                             </label>
                                                         </div>
                                                         <div class="field number">
@@ -716,7 +716,7 @@ y conexión Meta Business ",
                                                                 </div>
                                                             </div>
                                                             <label for="_omnicanalField">
-                                                                Incluye <span><strong> Inbox Omnicanal*</strong></span>
+                                                                Incluye <span> Inbox Omnicanal*</span>
                                                             </label>
                                                         </div>
                                                         <div class="omniInfo">
@@ -735,7 +735,7 @@ y conexión Meta Business ",
                                                                 </div>
                                                             </div>
                                                             <label for="_whatsappField">
-                                                                Número de líneas adicionales de <span><strong> WhatsApp</strong></span>
+                                                                Número de líneas adicionales de <span> WhatsApp</span>
                                                             </label>
                                                         </div>
 
@@ -750,7 +750,7 @@ y conexión Meta Business ",
                                                                 </div>
                                                             </div>
                                                             <label for="_facebookField">
-                                                                Número de cuentas adicionales de <span><strong> Facebook / Instagram* </strong></span>
+                                                                Número de cuentas adicionales de <span> Facebook / Instagram*</span>
                                                             </label>
                                                         </div>
                                                         <div class="omniInfo2">
@@ -795,7 +795,7 @@ y conexión Meta Business ",
                                         <div class="buttonSection">
 
                                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                                Hablar con asesor
+                                                Hablar con asesor →
                                             </a>
 
                                         </div>
@@ -844,8 +844,8 @@ y conexión Meta Business ",
                                         <div class="middle">
                                             <div class="innerMiddle">
                                                 <span class="extraTag">
-                                                    A partir de <span style="color: #007F96">100.000</span> <br class="space">
-                                                    contactos
+                                                    A partir de <span style="color: #007F96">100.000 contactos</span>
+
 
                                                 </span>
 
@@ -875,7 +875,7 @@ y conexión Meta Business ",
                                                             </div>
 
                                                             <label for="_contactsField">
-                                                                Número de contactos <span> de <br> marketing</span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
+                                                                Número de <span>contactos de <br> marketing</span> <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
                                                             </label>
                                                         </div>
                                                         <div class="field select">
@@ -916,7 +916,7 @@ y conexión Meta Business ",
                                         <div class="buttonSection">
 
                                             <a class=" primaryWhiteButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                                Hablar con asesor
+                                                Hablar con asesor →
                                             </a>
 
                                         </div>
@@ -1011,575 +1011,477 @@ y conexión Meta Business ",
                         </div>
                         <!-- Columna Gratuito -->
                         <div class="pricing-column">
-                            <div class="column-header">
-                                <div class="plan-name">Gratuito</div>
+                            <div class="internalColumn">
+                                <div class="column-header">
+                                    <div class="plan-name">Gratuito</div>
 
-                            </div>
-                            <div class="column-body">
-                                <div class="section-title"></div>
-                                <div class="feature-row">
-
-                                    <span class="feature-value">$0</span>
                                 </div>
-                                <div class="feature-row">
+                                <div class="column-body">
+                                    <div class="section-title"></div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">$0</span>
-                                </div>
+                                        <span class="feature-value">$0</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                <div class="section-title"></div>
-                                <div class="feature-row">
+                                        <span class="feature-value">$0</span>
+                                    </div>
 
-                                    <span class="feature-value">5,000 <span>+40,000 <span>Una sola vez</span></span></span>
-                                </div>
-                                <div class="feature-row">
+                                    <div class="section-title"></div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">15</span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">5,000 <span>+40,000 <span>Una sola vez</span></span></span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">180</span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">15</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">1</span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">180</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark-not"></span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">1</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark-not"></span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value checkmark-not"></span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark-not"></span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value checkmark-not"></span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark-not"></span>
+                                        <span class="feature-value checkmark-not"></span>
+                                    </div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value checkmark-not"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Columna Bronce -->
                         <div class="pricing-column">
-                            <div class="column-header">
-                                <div class="plan-name"><span>Plan</span> Bronce</div>
-                            </div>
-                            <div class="column-body">
-                                <div class="section-title"></div>
-                                <div class="feature-row">
-
-                                    <span class="feature-value">$40 / mes</span>
+                            <div class="internalColumn">
+                                <div class="column-header">
+                                    <div class="plan-name"><span>Plan</span> Bronce</div>
                                 </div>
-                                <div class="feature-row">
+                                <div class="column-body">
+                                    <div class="section-title"></div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">$384 / año <span> ($32 / mes)</span></span>
-                                </div>
+                                        <span class="feature-value">$40 / mes</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                <div class="section-title"></div>
-                                <div class="feature-row">
+                                        <span class="feature-value">$384 / año <span> ($32 / mes)</span></span>
+                                    </div>
 
-                                    <span class="feature-value">40,000</span>
-                                </div>
-                                <div class="feature-row">
+                                    <div class="section-title"></div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">100</span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">40,000</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">1,200</span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">100</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">2</span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">1,200</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark"></span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">2</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark-not"></span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value checkmark"></span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark-not"></span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value checkmark-not"></span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark-not"></span>
+                                        <span class="feature-value checkmark-not"></span>
+                                    </div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value checkmark-not"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
                         <!-- Columna Plata -->
                         <div class="pricing-column">
-                            <div class="column-header">
-                                <div class="plan-name"><span>Plan</span> Plata</div>
-                            </div>
-                            <div class="column-body">
-                                <div class="section-title"></div>
-                                <div class="feature-row">
-
-                                    <span class="feature-value">$200 / mes</span>
+                            <div class="internalColumn">
+                                <div class="column-header">
+                                    <div class="plan-name"><span>Plan</span> Plata</div>
                                 </div>
-                                <div class="feature-row">
+                                <div class="column-body">
+                                    <div class="section-title"></div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">$1,920 / año <span>($160 / mes)</span></span>
-                                </div>
+                                        <span class="feature-value">$200 / mes</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                <div class="section-title"></div>
-                                <div class="feature-row">
+                                        <span class="feature-value">$1,920 / año <span>($160 / mes)</span></span>
+                                    </div>
 
-                                    <span class="feature-value">200,000</span>
-                                </div>
-                                <div class="feature-row">
+                                    <div class="section-title"></div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">500</span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">200,000</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">6,000</span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">500</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">5</span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">6,000</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark"></span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">5</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark"></span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value checkmark"></span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark-not"></span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value checkmark"></span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark-not"></span>
+                                        <span class="feature-value checkmark-not"></span>
+                                    </div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value checkmark-not"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
                         <!-- Columna Oro -->
                         <div class="pricing-column">
-                            <div class="column-header">
-                                <div class="plan-name"><span>Plan</span> Oro</div>
-                            </div>
-                            <div class="column-body">
-                                <div class="section-title"></div>
-                                <div class="feature-row">
-
-                                    <span class="feature-value">$1,000 / mes</span>
+                            <div class="internalColumn">
+                                <div class="column-header">
+                                    <div class="plan-name"><span>Plan</span> Oro</div>
                                 </div>
-                                <div class="feature-row">
+                                <div class="column-body">
+                                    <div class="section-title"></div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">$9,600 / año <span>($800 / mes)</span></span>
-                                </div>
+                                        <span class="feature-value">$1,000 / mes</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                <div class="section-title"></div>
-                                <div class="feature-row">
+                                        <span class="feature-value">$9,600 / año <span>($800 / mes)</span></span>
+                                    </div>
 
-                                    <span class="feature-value">1,000,000</span>
-                                </div>
-                                <div class="feature-row">
+                                    <div class="section-title"></div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">2,500</span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">1,000,000</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">30,000</span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">2,500</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value">Ilimitados</span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">30,000</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark"></span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value">Ilimitados</span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark"></span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value checkmark"></span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark"></span>
-                                </div>
-                                <div class="feature-row">
+                                        <span class="feature-value checkmark"></span>
+                                    </div>
+                                    <div class="feature-row">
 
-                                    <span class="feature-value checkmark-not"></span>
+                                        <span class="feature-value checkmark"></span>
+                                    </div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value checkmark-not"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Columna Platino -->
                         <div class="pricing-column">
-                            <div class="column-header">
-                                <div class="plan-name"><span>Plan</span> Platino</div>
+                            <div class="internalColumn">
+                                <div class="column-header">
+                                    <div class="plan-name"><span>Plan</span> Platino</div>
+                                </div>
+                                <div class="column-body">
+                                    <div class="section-title"></div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value">$2,000 / mes</span>
+                                    </div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value">$19,200 / año <span>($1,600 / mes)</span></span>
+                                    </div>
+
+                                    <div class="section-title"></div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value">2,000,000</span>
+                                    </div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value">5,000</span>
+                                    </div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value">60,000</span>
+                                    </div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value">Ilimitados</span>
+                                    </div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value checkmark"></span>
+                                    </div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value checkmark"></span>
+                                    </div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value checkmark"></span>
+                                    </div>
+                                    <div class="feature-row">
+
+                                        <span class="feature-value checkmark"></span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="column-body">
-                                <div class="section-title"></div>
-                                <div class="feature-row">
 
-                                    <span class="feature-value">$2,000 / mes</span>
-                                </div>
-                                <div class="feature-row">
-
-                                    <span class="feature-value">$19,200 / año <span>($1,600 / mes)</span></span>
-                                </div>
-
-                                <div class="section-title"></div>
-                                <div class="feature-row">
-
-                                    <span class="feature-value">2,000,000</span>
-                                </div>
-                                <div class="feature-row">
-
-                                    <span class="feature-value">5,000</span>
-                                </div>
-                                <div class="feature-row">
-
-                                    <span class="feature-value">60,000</span>
-                                </div>
-                                <div class="feature-row">
-
-                                    <span class="feature-value">Ilimitados</span>
-                                </div>
-                                <div class="feature-row">
-
-                                    <span class="feature-value checkmark"></span>
-                                </div>
-                                <div class="feature-row">
-
-                                    <span class="feature-value checkmark"></span>
-                                </div>
-                                <div class="feature-row">
-
-                                    <span class="feature-value checkmark"></span>
-                                </div>
-                                <div class="feature-row">
-
-                                    <span class="feature-value checkmark"></span>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
-                    <!-- Versión móvil (tabs) - Se mantiene igual -->
-                    <div class="mobile-tabs">
-                        <div class="mobile-tab" onclick="toggleTab(this)">
-                            <div class="mobile-tab-header">
-                                <span>Básico ($0)</span>
-                                <span class="arrow">▼</span>
-                            </div>
-                            <div class="mobile-tab-content">
-                                <div class="mobile-row section-title">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value"></div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">$0</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">$0</div>
-                                </div>
-                                <div class="mobile-row section-title">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value"></div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">5,000</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">15</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">180</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">1</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="mobile-tab" onclick="toggleTab(this)">
-                            <div class="mobile-tab-header">
-                                <span>Estándar ($40/mes)</span>
-                                <span class="arrow">▼</span>
-                            </div>
-                            <div class="mobile-tab-content">
-                                <div class="mobile-row section-title">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value"></div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">$40 / mes</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">$384 / año ($32 / mes)</div>
-                                </div>
-                                <div class="mobile-row section-title">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value"></div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">40,000</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">100</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">1,200</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">2</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="mobile-pricing-container">
+                        <?php
+                        // Datos de los planes
+                        $planes = [
+                            [
+                                'nombre' => 'Gratuito',
+                                'subtitulo' => false,
+                                'inversion' => [
+                                    'mensual' => '$0',
+                                    'anual' => '$0'
+                                ],
+                                'beneficios' => [
+                                    'creditos' => '5,000 <span>+40,000 <span>Una sola vez</span></span>',
+                                    'conversaciones' => '15',
+                                    'mensajes' => '180',
+                                    'agentes' => '1',
+                                    'asistente_ia' => 'checkmark-not',
+                                    'chat_soporte' => 'checkmark-not',
+                                    'implementacion' => 'checkmark-not',
+                                    'acceso_tecnologia' => 'checkmark-not'
+                                ]
+                            ],
+                            [
+                                'nombre' => 'Bronce',
+                                'subtitulo' => 'Plan',
+                                'inversion' => [
+                                    'mensual' => '$40 / mes',
+                                    'anual' => '$384 / año <span>($32 / mes)</span>'
+                                ],
+                                'beneficios' => [
+                                    'creditos' => '40,000',
+                                    'conversaciones' => '100',
+                                    'mensajes' => '1,200',
+                                    'agentes' => '2',
+                                    'asistente_ia' => 'checkmark',
+                                    'chat_soporte' => 'checkmark-not',
+                                    'implementacion' => 'checkmark-not',
+                                    'acceso_tecnologia' => 'checkmark-not'
+                                ]
+                            ],
+                            [
+                                'nombre' => 'Plata',
+                                'subtitulo' => 'Plan',
+                                'inversion' => [
+                                    'mensual' => '$200 / mes',
+                                    'anual' => '$1,920 / año <span>($160 / mes)</span>'
+                                ],
+                                'beneficios' => [
+                                    'creditos' => '200,000',
+                                    'conversaciones' => '500',
+                                    'mensajes' => '6,000',
+                                    'agentes' => '5',
+                                    'asistente_ia' => 'checkmark',
+                                    'chat_soporte' => 'checkmark',
+                                    'implementacion' => 'checkmark-not',
+                                    'acceso_tecnologia' => 'checkmark-not'
+                                ]
+                            ],
+                            [
+                                'nombre' => 'Oro',
+                                'subtitulo' => 'Plan',
+                                'inversion' => [
+                                    'mensual' => '$1,000 / mes',
+                                    'anual' => '$9,600 / año <span>($800 / mes)</span>'
+                                ],
+                                'beneficios' => [
+                                    'creditos' => '1,000,000',
+                                    'conversaciones' => '2,500',
+                                    'mensajes' => '30,000',
+                                    'agentes' => 'Ilimitados',
+                                    'asistente_ia' => 'checkmark',
+                                    'chat_soporte' => 'checkmark',
+                                    'implementacion' => 'checkmark',
+                                    'acceso_tecnologia' => 'checkmark-not'
+                                ]
+                            ],
+                            [
+                                'nombre' => 'Platino',
+                                'subtitulo' => 'Plan',
+                                'inversion' => [
+                                    'mensual' => '$2,000 / mes',
+                                    'anual' => '$19,200 / año <span>($1,600 / mes)</span>'
+                                ],
+                                'beneficios' => [
+                                    'creditos' => '2,000,000',
+                                    'conversaciones' => '5,000',
+                                    'mensajes' => '60,000',
+                                    'agentes' => 'Ilimitados',
+                                    'asistente_ia' => 'checkmark',
+                                    'chat_soporte' => 'checkmark',
+                                    'implementacion' => 'checkmark',
+                                    'acceso_tecnologia' => 'checkmark'
+                                ]
+                            ]
+                        ];
 
-                        <div class="mobile-tab" onclick="toggleTab(this)">
-                            <div class="mobile-tab-header">
-                                <span>Profesional ($200/mes)</span>
-                                <span class="arrow">▼</span>
+                        // Generar los planes dinámicamente
+                        foreach ($planes as $plan) {
+                            echo '<div class="mobile-plan" onclick="toggleMobilePlan(this)">
+                <div class="mobile-plan-header">
+                <div class="mobile-plan-header-internal">
+                    <h3>' . ($plan['subtitulo'] ? '<span>' . $plan['subtitulo'] . '</span> ' : '') . $plan['nombre'] . '</h3>
+                    <span class="mobile-arrow"><i class="fa-solid fa-caret-down"></i></span>
+                </div>
+                </div>
+                <div class="mobile-plan-content">
+                    <div class="mobile-feature-columns">
+                        <div class="mobile-feature-names">
+                            <div class="mobile-section-title">Inversión</div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-name">Mensual</div>
                             </div>
-                            <div class="mobile-tab-content">
-                                <div class="mobile-row section-title">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value"></div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">$200 / mes</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">$1,920 / año ($160 / mes)</div>
-                                </div>
-                                <div class="mobile-row section-title">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value"></div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">200,000</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">500</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">6,000</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">5</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-name">Anual</div>
+                            </div>
+                            
+                            <div class="mobile-section-title">Beneficios</div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-name">Créditos / mes</div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-name">Conversaciones / mes <span>(aprox.)</span></div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-name">Mensajes / mes <span>(aprox.)</span></div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-name">Agentes</div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-name">Asistente de IA <span>(auto-guiado)</span></div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-name">Chat de soporte</div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-name">Implementación Personalizada</div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-name">Acceso al equipo de Tecnología</div>
                             </div>
                         </div>
-
-                        <div class="mobile-tab" onclick="toggleTab(this)">
-                            <div class="mobile-tab-header">
-                                <span>Empresarial ($1,000/mes)</span>
-                                <span class="arrow">▼</span>
+                        
+                        <div class="mobile-feature-values">
+                            <div class="mobile-section-space"></div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-value">' . $plan['inversion']['mensual'] . '</div>
                             </div>
-                            <div class="mobile-tab-content">
-                                <div class="mobile-row section-title">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value"></div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">$1,000 / mes</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">$9,600 / año ($800 / mes)</div>
-                                </div>
-                                <div class="mobile-row section-title">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value"></div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">1,000,000</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">2,500</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">30,000</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">Ilimitados</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-value">' . $plan['inversion']['anual'] . '</div>
+                            </div>
+                            
+                            <div class="mobile-section-space"></div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-value">' . $plan['beneficios']['creditos'] . '</div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-value">' . $plan['beneficios']['conversaciones'] . '</div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-value">' . $plan['beneficios']['mensajes'] . '</div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-value">' . $plan['beneficios']['agentes'] . '</div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-value"><span class="' . $plan['beneficios']['asistente_ia'] . '"></span></div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-value"><span class="' . $plan['beneficios']['chat_soporte'] . '"></span></div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-value"><span class="' . $plan['beneficios']['implementacion'] . '"></span></div>
+                            </div>
+                            <div class="mobile-feature-row">
+                                <div class="mobile-feature-value"><span class="' . $plan['beneficios']['acceso_tecnologia'] . '"></span></div>
                             </div>
                         </div>
-
-                        <div class="mobile-tab" onclick="toggleTab(this)">
-                            <div class="mobile-tab-header">
-                                <span>Premium ($2,000/mes)</span>
-                                <span class="arrow">▼</span>
-                            </div>
-                            <div class="mobile-tab-content">
-                                <div class="mobile-row section-title">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value"></div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">$2,000 / mes</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">$19,200 / año ($1,600 / mes)</div>
-                                </div>
-                                <div class="mobile-row section-title">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value"></div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">2,000,000</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">5,000</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">60,000</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value">Ilimitados</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                                <div class="mobile-row">
-                                    <div class="mobile-row-title"></div>
-                                    <div class="mobile-row-value checkmark">✅</div>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+                </div>
+            </div>';
+                        }
+                        ?>
                     </div>
 
                     <script>
-                        function toggleTab(tabElement) {
-                            // Cerrar todas las pestañas primero
-                            const allTabs = document.querySelectorAll('.mobile-tab');
-                            allTabs.forEach(tab => {
-                                if (tab !== tabElement) {
-                                    tab.classList.remove('active');
+                        function toggleMobilePlan(planElement) {
+                            // Cerrar todos los planes primero
+                            const allPlans = document.querySelectorAll('.mobile-plan');
+                            allPlans.forEach(plan => {
+                                if (plan !== planElement) {
+                                    plan.classList.remove('active');
                                 }
                             });
 
-                            // Alternar la pestaña clickeada
-                            tabElement.classList.toggle('active');
+                            // Alternar el plan clickeado
+                            planElement.classList.toggle('active');
                         }
-
-                        // Abrir la primera pestaña por defecto en móvil
-                        document.addEventListener('DOMContentLoaded', function() {
-                            if (window.innerWidth <= 768) {
-                                document.querySelector('.mobile-tab').classList.add('active');
-                            }
-                        });
                     </script>
+
+
                 </div>
                 <div class="innerSectionElement sct3">
                     <h2 class="title">
@@ -1600,7 +1502,7 @@ y conexión Meta Business ",
                                     <span class="feature-value">$50</span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-value">$50,000</span>
+                                    <span class="feature-value">50,000</span>
                                 </div>
 
                             </div>
@@ -1612,7 +1514,7 @@ y conexión Meta Business ",
                                     <span class="feature-value">$100</span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-value">$100,000</span>
+                                    <span class="feature-value">100,000</span>
                                 </div>
 
                             </div>
@@ -1624,7 +1526,7 @@ y conexión Meta Business ",
                                     <span class="feature-value">$500</span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-value">$500,000</span>
+                                    <span class="feature-value">500,000</span>
                                 </div>
 
                             </div>
@@ -1636,7 +1538,7 @@ y conexión Meta Business ",
                                     <span class="feature-value">$1,000</span>
                                 </div>
                                 <div class="feature-row">
-                                    <span class="feature-value">$1,000,000</span>
+                                    <span class="feature-value">1,000,000</span>
                                 </div>
 
                             </div>
@@ -2041,7 +1943,7 @@ y conexión Meta Business ",
                     <section class="innerSectionElement sct1">
                         <div class="containElement">
                             <h2 class="title">
-                                ¿Listo para subir <br class="DT_e"> a bordo?
+                                ¿Listo para subir <br class="space"> a bordo?
                             </h2>
                             <div class="btnSection">
                                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">

@@ -468,7 +468,7 @@ function adjustCalculatorHeight() {
         if (jQuery('#omnicanalField').val() === 'Si') {
             jQuery('.calculator').css('height', '415px');
         } else {
-            jQuery('.calculator').css('height', '280px');
+            jQuery('.calculator').css('height', '310px');
         }
     } else {
         if (jQuery('#omnicanalField').val() === 'Si') {
