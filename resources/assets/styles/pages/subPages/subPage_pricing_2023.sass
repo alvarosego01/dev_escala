@@ -7,7 +7,8 @@ img
 
 
 #subPage_pricing_2023 .customSection.sectionParent.subPage_pricing_2023_0
-    
+    @include responsivo(telefonoTable)
+        padding-bottom: 45px
     .backgroundFull
         width: 100%
         background-position: center
@@ -1033,6 +1034,8 @@ img
 
 #subPage_pricing_2023 .customSection.sectionParent.subPage_pricing_2023_0_1
     padding: 0
+    @include responsivo(telefonoTable)
+        padding-top: 45px
     .section-row
         @include responsivo(telefonoTable)
             width: 100%!important
@@ -1291,7 +1294,7 @@ img
                 margin: 0px 20px
                 &:hover
                     padding: 2px
-                    background: linear-gradient(to bottom, #83E3D0, #F1685A), white
+                    background: linear-gradient(to left, #83E3D0, #F1685A), white
                     background-clip: padding-box, content-box     
                     border-radius: 8px    
                     color: #F1685A     
@@ -1341,10 +1344,11 @@ img
                 flex: 1
                 background-color: #2C4857
                 color: white
-
+                
             .mobile-feature-values
                 flex: 1
                 background-color: white
+                width: 45%
 
             .mobile-section-title
                 font-weight: bold
@@ -1380,8 +1384,8 @@ img
                 color: #000
                 text-align: center
                 width: 100%
-                line-height:    1
-
+                line-height:  1
+                
                 span
                     font-size: 12px
                     display: block
@@ -1438,7 +1442,8 @@ img
                 font-size: 16px
                 font-weight: 600
                 font-family: 'Mulish', sans-serif
-
+                @include responsivo(telefonoTable)
+                    display: none
             /* Contenedor principal */
             .pricing-container
                 display: flex
@@ -1547,6 +1552,8 @@ img
     @include responsivo(general)
         padding-bottom: 0px
     .section-row
+        @include responsivo(telefonoTable)
+            width: 100%
         @include responsivo(smallPcTablet)
             width: 100%!important
         .innerSectionElement.sct0
@@ -1572,8 +1579,8 @@ img
                     font-size: 40px
         .innerSectionElement.sct1
             @include responsivo(telefonoTable)
-                width: 95%
-                padding: 25px 25px
+                width: 100%
+                padding: 25px 0px
                 padding-bottom: 0
             @include responsivo(pcMedio)
                 width: 80%
@@ -1642,6 +1649,7 @@ img
                     .col2
                         background-color: #fff
                         padding: 18px 0px
+                        
                         @include responsivo(telefonoTable)
                             padding: 6px 0px
                     .col3
@@ -1651,6 +1659,8 @@ img
                         border-right: 1px solid #007F96
                         @include responsivo(telefonoTable)
                             padding: 6px 0px
+                            
+                            
                     .col4
                         background-color:  #fff
                         padding: 18px 0px
@@ -1663,7 +1673,7 @@ img
                         font-size: 24px
                         font-style: normal
                         font-weight: 700
-                        
+                        line-height: 1
                         
                         margin: 0px
                         span.text-blue
@@ -1940,9 +1950,10 @@ img
             //     padding: 25px
             @include responsivoSpecial(350px, 399px )
                 min-height: 340px!important
+                height: 380px
             @include responsivo(telefonoTable)
                 padding: 30px 17px 17px
-                min-height: 400px
+                
 
             @include responsivo(general)
                 padding: 50px 30px 40px
@@ -2202,7 +2213,7 @@ img
                         margin: 0px
                         height: 305px
                         @include responsivo(telefonoTable)
-                            height: 230px
+                            height: auto
                         @include responsivo(pcMedio)
                             height: 235px
                         @include responsivo(general)

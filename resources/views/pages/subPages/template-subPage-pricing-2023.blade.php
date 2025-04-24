@@ -1869,7 +1869,7 @@ y conexión Meta Business ",
                 <div class=" row sct2">
                     <div class="mb-4 col-lg-4 col-md-12 box-internal">
                         <div class="card-box"
-                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg-testimonial-white-2025.png') !!}')">
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg-testimonial-white-2025-mb-2.png') !!}')">
                             <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}" alt="">
                             <div class="card-body">
                                 <h5 class="card-title"><b>Aumentamos las ventas en un 100%.</b> El acompañamiento del equipo de Escala ha
@@ -1891,7 +1891,7 @@ y conexión Meta Business ",
                     </div>
                     <div class="mb-4 col-lg-4 col-md-12 box-internal">
                         <div class="card-box"
-                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg-testimonial-white-2025.png') !!}')">
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg-testimonial-white-2025-mb-2.png') !!}')">
                             <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Escala ha sido un gran aliado para <b> mejorar nuestra operación comercial,</b> automatizar tareas
@@ -1911,7 +1911,7 @@ y conexión Meta Business ",
                     </div>
                     <div class="mb-4 col-lg-4 col-md-12 box-internal">
                         <div class="card-box"
-                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg-testimonial-white-2025.png') !!}')">
+                            style="background-image: url('{!! App::setFilePath('/assets/images/illustrations/others/bg-testimonial-white-2025-mb-2.png') !!}')">
                             <img class="img-top" src="{!! App::setFilePath('/assets/images/illustrations/others/icono_testimonios_home_blue_white.png') !!}" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Escala no solo ofrecen un <b> software robusto y amigable,</b> sino también un servicio excepcional que asegura que aprovechemos al máximo
