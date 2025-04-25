@@ -1307,7 +1307,11 @@ $featuresElements = [
         <section class="customSection sectionParent subPage_pricingPro_1">
 
             <div class="section-row">
-
+            <section class="innerSectionElement sct0">
+                    <h2 class="title" id="idCompare">
+                        Beneficios
+                    </h2>
+                </section>
 
                 <section class="innerSectionElement sct3">
 
