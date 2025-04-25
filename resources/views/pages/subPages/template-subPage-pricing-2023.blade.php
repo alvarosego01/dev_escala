@@ -578,7 +578,7 @@ y conexión Meta Business ",
                                         </div>
 
                                         <div class="openComparation">
-                                            <a onclick="openCompare()">
+                                            <a href="#idCompare" onclick="openCompare()">
                                                 Ver comparación completa
                                                 <i class="fas fa-caret-down"></i>
                                             </a>
@@ -801,7 +801,7 @@ y conexión Meta Business ",
                                         </div>
 
                                         <div class="openComparation">
-                                            <a onclick="openCompare()">
+                                            <a href="#idCompare" onclick="openCompare()">
                                                 Ver comparación completa
                                                 <i class="fas fa-caret-down"></i>
                                             </a>
@@ -921,7 +921,7 @@ y conexión Meta Business ",
 
                                         </div>
                                         <div class="openComparation">
-                                            <a onclick="openCompare()">
+                                            <a href="#idCompare" onclick="openCompare()">
                                                 Ver comparación completa
                                                 <i class="fas fa-caret-down"></i>
                                             </a>
@@ -1479,6 +1479,24 @@ y conexión Meta Business ",
                             // Alternar el plan clickeado
                             planElement.classList.toggle('active');
                         }
+                        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                            anchor.addEventListener('click', function(e) {
+                                const href = this.getAttribute('href');
+                                if (href.startsWith('#')) {
+                                    e.preventDefault(); // Evita el comportamiento por defecto
+                                    const target = document.querySelector(href);
+                                    if (target) {
+                                        // Desplazamiento suave (siempre ejecuta, aunque el hash sea el mismo)
+                                        target.scrollIntoView({
+                                            behavior: 'smooth',
+                                            block: 'start'
+                                        });
+                                        // Actualiza la URL (opcional, para reflejar el hash)
+                                        window.history.pushState(null, null, href);
+                                    }
+                                }
+                            });
+                        });
                     </script>
 
 
@@ -1555,7 +1573,7 @@ y conexión Meta Business ",
         <section class="customSection sectionParent subPage_pricing_2023_1 ">
             <div class="section-row">
                 <section class="innerSectionElement sct0">
-                    <h2 class="title">
+                    <h2 class="title" id="idCompare">
                         Beneficios
                     </h2>
                 </section>
