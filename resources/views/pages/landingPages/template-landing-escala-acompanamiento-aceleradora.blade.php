@@ -24,7 +24,7 @@
                             <div class="info col-md-12 col-lg-8 ">
                                 <div class="video">
 
-                                @php
+                                    @php
                                     $videoEmbed = App::setFilePath('/assets/videos/video escala optimizado.mp4');
                                     $videoCover = App::setFilePath('/assets/images/illustrations/others/img_video_acompañamiento_aceleradora_overlay.png');
                                     @endphp
@@ -365,16 +365,16 @@
 
                         <div class="image">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-desktop-cronograma-implementacion.png') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-desktop-cronograma-implementacion-1-dk.webp') }}"
                                 loading="lazy">
 
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-desktop-cronograma-implementacion-2.png') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-desktop-cronograma-implementacion-2-2-dk.webp') }}"
                                 loading="lazy">
                         </div>
                         <div class="imageMb">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-mb-cronograma-implementacion.png') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-desktop-cronograma-implementacion-1-1-mb.webp') }}"
                                 loading="lazy">
                         </div>
                     </div>
