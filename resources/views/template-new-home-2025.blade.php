@@ -565,7 +565,7 @@
                             Potenciado por <br class="DT_e">
                             <span> Inteligencia Artificial </span>
                         </h2>
-
+ 
                         <div class="containerImg">
                             <img class="ottoPcGif" alt="Imagen equipo escala aprender a usar tu crm"
                                 src="{{ App::setFilePath('/assets/images/gifs/2-2x-logo-otto-inicio.gif') }}"
