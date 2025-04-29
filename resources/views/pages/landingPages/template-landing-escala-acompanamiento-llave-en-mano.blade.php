@@ -393,16 +393,16 @@
 
                         <div class="image">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-desktop-cronograma-implementacion.png') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-desktop-cronograma-implementacion-1-dk.webp') }}"
                                 loading="lazy">
 
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/cronograma-implementacion-llave-en-mano.png') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-desktop-cronograma-implementacion-2-dk.webp') }}"
                                 loading="lazy">
                         </div>
                         <div class="imageMb">
                             <img alt=""
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/cronograma-implementacion-llave-en-mano-mb.png') }}"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/img-desktop-cronograma-implementacion-1-mb.webp') }}"
                                 loading="lazy">
                         </div>
                     </div>
