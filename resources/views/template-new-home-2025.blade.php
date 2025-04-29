@@ -567,12 +567,28 @@
                         </h2>
 
                         <div class="containerImg">
-                            <img class="ottoPc" alt="Imagen equipo escala aprender a usar tu crm"
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/img_preview_chat_otto.png') }}"
+                            <img class="ottoPcGif" alt="Imagen equipo escala aprender a usar tu crm"
+                                src="{{ App::setFilePath('/assets/images/gifs/2-2x-logo-otto-inicio.gif') }}"
+                                loading="lazy">
+                            <img class="ottoPc img1" alt="Imagen equipo escala aprender a usar tu crm"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/escala-chat-otto-img-1.webp') }}"
+                                loading="lazy">
+                            <img class="ottoPc img2" alt="Imagen equipo escala aprender a usar tu crm"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/escala-chat-otto-img-2.webp') }}"
+                                loading="lazy">
+                            <img class="ottoChat" alt="Imagen equipo escala aprender a usar tu crm"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/escala-chat-otto-img-3.webp') }}"
                                 loading="lazy">
 
-                            <img class="ottoMb" alt="Imagen equipo escala aprender a usar tu crm"
-                                src="{{ App::setFilePath('/assets/images/illustrations/others/img_preview_chat_otto_mb.png') }}"
+                      
+                            <img class="ottoMb mb1" alt="Imagen equipo escala aprender a usar tu crm"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/escala-chat-otto-img-1-mb.webp') }}"
+                                loading="lazy">
+                            <img class="ottoMb mb2" alt="Imagen equipo escala aprender a usar tu crm"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/escala-chat-otto-img-2-mb.webp') }}"
+                                loading="lazy">
+                            <img class="ottoMbChat" alt="Imagen equipo escala aprender a usar tu crm"
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/escala-chat-otto-img-3-mb.webp') }}"
                                 loading="lazy">
                         </div>
                     </div>
