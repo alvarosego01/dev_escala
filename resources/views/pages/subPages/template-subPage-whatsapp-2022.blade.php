@@ -3,10 +3,9 @@
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subpage_whatsapp_0 ">
 
 
-            <div class="backgroundFull">
+            <div class="backgroundFull"  style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-hero-1.png') !!}')">
 
-                <div style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-hero.png') !!}')" class="backgroundPlanets">
-                </div>
+              
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -30,7 +29,7 @@
                                     <div class="ele ele2 col-md-12 col-lg-6">
                                         <h1 class="principalBigTitle blackColor">
                                             Vende más <br class="space">
-                                            con <span>WhatsApp</span> <br class="space">
+                                            con <span>WhatsApp</span>
                                             <small>
                                                 ¡integrando al CRM de Escala!
                                             </small>
@@ -48,7 +47,7 @@
 
                             </div>
 
-                            <div class="form7 col-md-12 col-lg-3 ">
+                            <div class="form7 col-md-12 col-lg-4 ">
                                 <div class="containElements">
 
                                     <div class="formatForm redirectWeb" redirectweb="true">
@@ -179,13 +178,13 @@
         'enableTitle' => true,
         'titlePrincipal' => '
         Qué logras vía WhatsApp gracias a Escala<br class="space">
-        <span class="greenBlueColor">la plataforma de marketing y ventas que <br class="DT_e"> tu equipo sí quiere usar</span>',
+        <span >la plataforma de marketing y ventas que <br class="DT_e"> tu equipo sí quiere usar</span>',
         'subTitlePrincipal' => null,
         'img' => App::setFilePath('/assets/images/gifs/01.Automatizaciones-Whatsapp-min.gif'),
         'title' => '
-        <span class="greenBlueColor">
+        <span >
             Automatizaciones
-        </span> <br class="space">
+        </span> 
         Opera de forma automática <br class="DT_e">
         programando acciones <br class="DT_e">
         y respuestas', 'text'=> '
@@ -221,9 +220,9 @@
         'subTitlePrincipal' => null,
         'img' => App::setFilePath('/assets/images/gifs/02.Escala-Inbox-min.gif'),
         'title' => '
-        <span class="greenBlueColor">
+        <span >
             Inbox
-        </span> <br class="space">
+        </span> 
         Comunícate en tiempo real y <br class="DT_e">
         gestiona tus conversaciones <br class="DT_e">
         desde una sola plataforma
@@ -259,9 +258,9 @@
         'subTitlePrincipal' => null,
         'img' => App::setFilePath('/assets/images/gifs/04.Boton-landing-min.gif'),
         'title' => '
-        <span class="greenBlueColor">
+        <span >
             Botón en Landing Pages
-        </span> <br class="space">
+        </span>
         Captura y guarda <br class="DT_e">
         automáticamente los datos <br class="DT_e">
         de tus leads en el CRM
@@ -297,9 +296,9 @@
         'subTitlePrincipal' => null,
         'img' => App::setFilePath('/assets/images/gifs/03.Escala-whats-min.gif'),
         'title' => '
-        <span class="greenBlueColor">
+        <span >
             Extensión para Chrome
-        </span> <br class="space">
+        </span> 
         Gestiona tus contactos <br class="DT_e">
         ¡desde tu propio WhatsApp <br class="DT_e">
         Web también!
@@ -489,23 +488,20 @@
                 'cards' => [
                 [
                 'imgIcon' => 'interfaz-amigable-escala.png',
-                'span' => 'mil millones',
-                'text' => 'usuarios de <br class="DT_e"> WhatsApp <br class="DT_e"> a nivel mundial'
+                'text' => '<span>Interfaz amigable</span> para
+                que disfrutes trabajar en ella todos los días'
                 ],
                 [
-                'imgIcon' => '3',
-                'span' => 'millones',
-                'text' => 'de compañías <br class="DT_e"> usándola <br class="DT_e"> a nivel mundial'
+                'imgIcon' => 'atencion-escala.png',
+                'text' => '<span>Altísimo nivel de servicio:</span> Nadie en la industria te acompaña y atiende mejor'
                 ],
                 [
-                'imgIcon' => '+100',
-                'span' => 'mil millones',
-                'text' => 'de Whatsapps <br class="DT_e"> enviados <br class="DT_e"> diariamente'
+                'imgIcon' => 'educacion-escala.png',
+                'text' => '<span>Educación relevante de primera</span> en marketing, ventas y crecimiento de empresas y más'
                 ],
                 [
-                'imgIcon' => '60%',
-                'span' => 'de Latinos',
-                'text' => 'prefiere WhatsApp <br class="DT_e"> como medio <br class="DT_e"> de comunicación'
+                'imgIcon' => 'plataforma-en-español-escala.png',
+                'text' => '<span>100% en español:</span> la plataforma, el servicio y los recursos en tu idioma'
                 ]
                 ]
                 ];
@@ -518,7 +514,6 @@
                             <div class="content-container" style="background-image: url('{{ $cardsParams['backgroundImage'] }}')">
                                 <img src="{!! App::setFilePath('/assets/images/illustrations/others/'.$card['imgIcon']) !!}"
                                     alt="" loading="lazy">
-                                <span>{{ $card['span'] }}</span>
                                 <p>{!! $card['text'] !!}</p>
                             </div>
                         </div>
@@ -533,11 +528,11 @@
 
         @php
         $parameters = [
-        'classSection' => 'subpage_whatsapp_10',
+        'classSection' => 'subpage_whatsapp_9',
         'enableTitle' => true,
         'titlePrincipal' => '
-        Nuestros clientes comentan <br class="space">
-        <span class="greenBlueColor">por qué prefieren Escala</span>
+        Nuestros clientes comentan <br class="DT_e">
+        por qué prefieren Escala
         ',
         'subTitlePrincipal' => null,
         'enableContainerButton' => false,
@@ -552,38 +547,39 @@
         @reviews_sliders_T1($parameters)
         @endreviews_sliders_T1
 
-        <section class="customSection sectionParent subpage_whatsapp_11">
-            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/banner_whatsapp_3.svg') !!}')">
 
-                <div class="section-row">
-
+        <section class="customSection sectionParent subpage_whatsapp_10" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-10.png') }}')">
+            <div class="section-row ">
+                <div class="containElements">
                     <section class="innerSectionElement sct1">
-
-                        <div class="containElements">
-
-                            <h2 class="primaryTitle blackColor">
-                                Lleva tu <span style="color: #75D463">WhatsApp</span> al próximo nivel
-                            </h2>
-
-                            <p class="primaryText grayColorTexts">
-
-                                Al suscribirte al Plan Pro de Escala, obtienes acceso a todas las herramientas de<br class="DT_e">
-                                WhatsApp sumadas al resto de funcionalidades de la plataforma.
-                            </p>
-
-                            <a href="#" class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                                Prueba Escala ahora
-                            </a>
-
-
+                        <div class="containElement">
+                            <img alt=""
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/alfonso-seo-escala-whatsapp.png') }}"
+                                loading="lazy">
                         </div>
-
                     </section>
+                    <section class="innerSectionElement sct2">
+                        <div class="containElement">
+                            <h2 class="title">
+                                Lleva tu <span>WhatsApp</span> al <br class="DT_e"> próximo nivel
+                            </h2>
+                            <p>Al suscribirte al Plan <span>Pro</span> de Escala, <br class="DT_e">
+                                obtienes acceso a todas las herramientas <br class="DT_e">
+                                de WhatsApp sumadas al resto de<br class="DT_e">
+                                funcionalidades de
+                                la plataforma.</p>
+                            <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
+                                Prueba Escala ahora →
+                            </a>
+                        </div>
+                    </section>
+
+
 
                 </div>
             </div>
-
         </section>
+
 
         @php
         $escalaUrl = 'https://escala.com';
@@ -595,12 +591,9 @@
         Para hacer uso de WhatsApp Business, Meta solicita contar con los siguientes
         <br class="DT_e"> requerimientos técnicos: <br class="space">
         <ul>
-            <li>Número de teléfono que:</li>
-            <ul class="ulInternal">
-                <li>Te pertenezca.</li>
-                <li>Tenga un código de país y área (no códigos cortos).</li>
-                <li>Pueda recibir llamadas de voz o SMS (para verificar la propiedad).</li>
-            </ul>
+            <li>Cuenta en Meta for developers</li>
+            <li>Página web o perfil de Meta asociado a Business</li>
+            <li>Número de teléfono nuevo o que no se haya usado previamente con WhatsApp</li>
 
         </ul>
         ',
@@ -611,22 +604,21 @@
         ¿En cuál plan de Escala está incluido WhatsApp?
         ',
         'text' => '
-        El addon de WhatsApp para <strong>automatizaciones e inbox</strong> no está incluido en<br class="DT_e"> ninguno de nuestros
-        planes; debe adquirirse por separado. Sin embargo, el <br class="DT_e"><strong>botón de WhatsApp para landing pages y
-            la extensión de Chrome</strong> están <br class="DT_e">incluidos en todos los planes.
+        Las herramientas de automatizaciones, inbox y extensión de Chrome para <br class="DT_e">
+        WhatsApp están incluidas en los planes: Escala Pro y Enterprise. En cambio, <br class="DT_e">
+        el botón de WhatsApp para landing pages está incluido en todos los planes.
         ',
         ],
         [
         'type' => 'master',
         'title' => '
-        ¿Puedo conectar mi número actual para utilizar el Inbox y las Automatizaciones en Escala?
+        ¿Puedo conectar mi número actual para utilizar el Inbox y las <br class="DT_e"> Automatizaciones en Escala?
         ',
         'text' => '
-        Depende. Los números que ya se usan con la aplicación de WhatsApp<br class="DT_e">
-        Messenger o WhatsApp Business deben ser eliminados primero. Si eliminas<br class="DT_e">
-        tu cuenta existente, podrás registrar ese número nuevamente y utilizar las<br class="DT_e">
-        herramientas de inbox y automatizaciones. En caso contrario, no podrás usar<br class="DT_e">
-        tu número actual para estas herramientas.
+        No. Solo con la extensión de Chrome puedes usar tu número de teléfono <br class="DT_e">
+        actual. Para utilizar las herramientas de inbox y automatizaciones, Meta <br class="DT_e">
+        solicitita que el número que se integre a Business sea completamente nuevo <br class="DT_e">
+        y no esté asociado a ninguna otra cuenta de WhatsApp.
         ',
         ],
         ];
@@ -634,7 +626,7 @@
 
         @php
         $parameters = [
-        'classSection' => 'subpage_whatsapp_12',
+        'classSection' => 'subpage_whatsapp_11',
 
         'items' => $items,
         ];
