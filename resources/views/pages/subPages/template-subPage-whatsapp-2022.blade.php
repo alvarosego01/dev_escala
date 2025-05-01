@@ -525,28 +525,30 @@
 
         </section>
 
+        <section class="customSection sectionParent fullWidth subpage_whatsapp_9 ">
+            <div class="section-row">
+                <section class="innerSectionElement1">
+                    <div class="containElements">
+                        <h2 class="primaryTitle blackColor">
+                            Nuestros clientes comentan <br class="DT_e">
+                            por qué prefieren Escala
+                        </h2>
+                    </div>
+                </section>
 
-        @php
-        $parameters = [
-        'classSection' => 'subpage_whatsapp_9',
-        'enableTitle' => true,
-        'titlePrincipal' => '
-        Nuestros clientes comentan <br class="DT_e">
-        por qué prefieren Escala
-        ',
-        'subTitlePrincipal' => null,
-        'enableContainerButton' => false,
-        'urlButton' => '#',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-        'textButton' => 'Recibe un demo',
-        'mob_reviews' => [App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_1.png'), App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_2.png'), App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_3.png')],
-        'desk_reviews' => [[App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_1.png'), App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_2.png'), App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_3.png')]],
-        ];
-        @endphp
+                <section class="innerSectionElement2">
+                      <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_1.png') !!}"
+                        alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_2.png') !!}"
+                        alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_3.png') !!}"
+                        alt="">
+                </section>
 
-        @reviews_sliders_T1($parameters)
-        @endreviews_sliders_T1
 
+            </div>
+
+        </section>
 
         <section class="customSection sectionParent subpage_whatsapp_10" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-10.png') }}')">
             <div class="section-row ">
