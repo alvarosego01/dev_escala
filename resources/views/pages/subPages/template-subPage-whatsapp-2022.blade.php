@@ -457,7 +457,15 @@
         ',
         'enableButton' => false,
         ],
-
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/reportes-personalizados.png'),
+        'title' => '
+        Reportes  <br class="space">
+        Personalizados
+        ',
+        'enableButton' => false,
+        ],
         ],
         ];
         @endphp
