@@ -567,7 +567,7 @@
                             </h2>
                             <p>Al suscribirte al Plan <span>Pro</span> de Escala, <br class="DT_e">
                                 obtienes acceso a todas las herramientas <br class="DT_e">
-                                de WhatsApp sumadas al resto de<br class="DT_e">
+                                de WhatsApp sumadas al resto de
                                 funcionalidades de
                                 la plataforma.</p>
                             <a class="primaryButton hoverInEffect  openPopUpButton popup-general-demo-2022">
