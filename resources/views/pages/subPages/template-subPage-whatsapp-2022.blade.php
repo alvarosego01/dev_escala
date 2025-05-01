@@ -3,9 +3,9 @@
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subpage_whatsapp_0 ">
 
 
-            <div class="backgroundFull"  style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-hero-1.png') !!}')">
+            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-hero-1.png') !!}')">
 
-              
+
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -77,7 +77,7 @@
 
                             </div>
 
-                            <div class="info col-md-12 col-lg-8 ">
+                            <div class="info2 col-md-12 col-lg-8 ">
 
 
                                 <div class="containElements row threeCol">
@@ -178,13 +178,13 @@
         'enableTitle' => true,
         'titlePrincipal' => '
         Qué logras vía WhatsApp gracias a Escala<br class="space">
-        <span >la plataforma de marketing y ventas que <br class="DT_e"> tu equipo sí quiere usar</span>',
+        <span>la plataforma de marketing y ventas que <br class="space"> tu equipo sí quiere usar</span>',
         'subTitlePrincipal' => null,
         'img' => App::setFilePath('/assets/images/gifs/01.Automatizaciones-Whatsapp-min.gif'),
         'title' => '
-        <span >
+        <span>
             Automatizaciones
-        </span> 
+        </span>
         Opera de forma automática <br class="DT_e">
         programando acciones <br class="DT_e">
         y respuestas', 'text'=> '
@@ -220,9 +220,9 @@
         'subTitlePrincipal' => null,
         'img' => App::setFilePath('/assets/images/gifs/02.Escala-Inbox-min.gif'),
         'title' => '
-        <span >
+        <span>
             Inbox
-        </span> 
+        </span>
         Comunícate en tiempo real y <br class="DT_e">
         gestiona tus conversaciones <br class="DT_e">
         desde una sola plataforma
@@ -258,7 +258,7 @@
         'subTitlePrincipal' => null,
         'img' => App::setFilePath('/assets/images/gifs/04.Boton-landing-min.gif'),
         'title' => '
-        <span >
+        <span>
             Botón en Landing Pages
         </span>
         Captura y guarda <br class="DT_e">
@@ -296,9 +296,9 @@
         'subTitlePrincipal' => null,
         'img' => App::setFilePath('/assets/images/gifs/03.Escala-whats-min.gif'),
         'title' => '
-        <span >
+        <span>
             Extensión para Chrome
-        </span> 
+        </span>
         Gestiona tus contactos <br class="DT_e">
         ¡desde tu propio WhatsApp <br class="DT_e">
         Web también!
@@ -561,7 +561,7 @@
                     <section class="innerSectionElement sct2">
                         <div class="containElement">
                             <h2 class="title">
-                                Lleva tu <span>WhatsApp</span> al <br class="DT_e"> próximo nivel
+                                Lleva tu <span>WhatsApp</span> <br class="DT_e">al próximo nivel
                             </h2>
                             <p>Al suscribirte al Plan <span>Pro</span> de Escala, <br class="DT_e">
                                 obtienes acceso a todas las herramientas <br class="DT_e">
