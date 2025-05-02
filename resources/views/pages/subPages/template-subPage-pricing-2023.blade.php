@@ -5,7 +5,7 @@ $featuresElements = [
 "name" => '<span>Acompañamiento</span>',
 "items" => array(
 [
-"name" => 'Gerente Éxito Asignado',
+"name" => 'Gerente éxito asignado',
 "subItems" => array(
 [
 "name" => "Todo el año",
@@ -28,7 +28,7 @@ $featuresElements = [
 ],
 
 [
-"name" => 'Configuración Plataforma',
+"name" => 'Configuración plataforma',
 "subItems" => array(
 [
 "name" => "Conexión de dominios",
@@ -51,7 +51,7 @@ y conexión Meta Business ",
 
 ],
 [
-"name" => 'Chat Soporte Técnico',
+"name" => 'Chat soporte técnico',
 "subItems" => array(
 [
 "name" => "Chat plataforma",
@@ -88,7 +88,7 @@ y conexión Meta Business ",
 'items' => [
 
 [
-'name' => 'Educación Autoguiada Online',
+'name' => 'Educación autoguiada online',
 'subItems' => [
 [
 'name' => 'Artículos y videotutoriales',
@@ -176,56 +176,100 @@ y conexión Meta Business ",
 'name' => 'Dashboard de administradores',
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
-],
-],
 [
-'name' => 'Automatizaciones',
-'subItems' => [
-[
-'name' => 'Múltiples eventos de inicio',
+'name' => 'Gestión de productos',
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 [
-'name' => 'Flujos unidireccionales',
-'value' => ['Hasta 5', 'Hasta 100', 'Hasta 100'],
+'name' => 'Gestión de empresas',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 [
-'name' => 'Flujos con bifurcaciones',
-'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+'name' => 'Creacion de roles y permisos',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Creación de equipos de trabajo',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 ],
 ],
 [
-'name' => 'Lead Scoring',
+'name' => 'Inteligencia Artificial',
 'subItems' => [
 [
-'name' => 'Reglas de comportamientos ',
-'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+'name' => 'Generador de contenido para landing pages',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 [
-'name' => 'Calificación automática de contactos',
-'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
-],
-],
+'name' => 'Generador de contenido para email marketing',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 [
-'name' => 'WhatsApp',
-'subItems' => [
+'name' => 'Optimizador de textos para emails 1:1',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
 [
-'name' => 'Automatizaciones',
-'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+'name' => 'Agentes IA conversacionales',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Constructor de Prompts',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+],
 ],
 [
 'name' => 'Inbox',
+'subItems' => [
+[
+'name' => 'Canal de Whatsapp Api',
 'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
 ],
 [
-'name' => 'Extensión Chrome',
+'name' => 'Canal de Instagram',
+'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Canal de Messenger',
+'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Disponibilidad por agente',
+'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Extensión Chrome Whatsapp Web',
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 [
 'name' => 'Botón Formulario Página',
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Automatizaciones',
+'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+],
+],
+],
+[
+'name' => 'Automatizaciones',
+'subItems' => [
+[
+'name' => 'Automatización de flujo de trabajo',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Múltiples eventos de inicio',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Flujos con bifurcaciones',
+'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Flujos unidireccionales',
+'value' => ['Hasta 5', 'Hasta 100', 'Hasta 100'],
 ],
 ],
 ],
@@ -245,15 +289,11 @@ y conexión Meta Business ",
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 [
-'name' => 'Personalización campos masivos',
-'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
-],
-[
 'name' => 'Programación de envíos',
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 [
-'name' => 'Analíticas',
+'name' => 'Analíticas de oportunidades',
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 [
@@ -301,33 +341,12 @@ y conexión Meta Business ",
 'name' => 'Analíticas',
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
-],
-],
 [
-'name' => 'Formularios',
-'subItems' => [
-[
-'name' => 'Número de formularios',
-'value' => ['Ilimitados', 'Ilimitados', 'Ilimitados'],
-],
-[
-'name' => 'Constructor de formularios',
+'name' => 'Insertar HTML',
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 [
-'name' => 'Inserción externa de formularios',
-'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
-],
-[
-'name' => 'Formularios ilimitados',
-'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
-],
-[
-'name' => 'Identificación de código postal',
-'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
-],
-[
-'name' => 'Verificación de números ',
+'name' => 'Constructor de enlace UTM',
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 ],
@@ -358,6 +377,32 @@ y conexión Meta Business ",
 ],
 ],
 [
+'name' => 'Reportes Personalizados',
+'subItems' => [
+[
+'name' => 'Plantillas prediseñadas ',
+'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => "Distintos tipos de gráficos",
+'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Cantidad de reportes',
+'value' => ['disabledIcon', 'Ilimitados', 'Ilimitados'],
+],
+[
+'name' => 'Descarga de reportes en Excel',
+'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Constructor de Dahsboard Personalizados',
+'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+],
+],
+],
+
+[
 'name' => 'Integraciones',
 'subItems' => [
 [
@@ -365,33 +410,99 @@ y conexión Meta Business ",
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 [
-'name' => "Typeform - Próximamente",
-'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
-],
-[
-'name' => 'Calendly - Próximamente',
-'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
-],
-[
 'name' => 'Otras 15.000+ (Zapier)',
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
-],
+[
+'name' => 'Calendly ',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 [
-'name' => 'Inteligencia Artificial',
+'name' => "Typeform",
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => "Siigo Colombia",
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => "Contífico",
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => "AirCall",
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => "Twilio",
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => "Bsale",
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => "Google Sheets",
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => "Shopify",
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => "Woocommerce",
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+],
+],
+
+[
+'name' => 'Formularios',
 'subItems' => [
 [
-'name' => 'Generador de contenido para landing pages',
+'name' => 'Número de formularios',
+'value' => ['Ilimitados', 'Ilimitados', 'Ilimitados'],
+],
+[
+'name' => 'Conexión dominio propio',
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 [
-'name' => "Generador de contenido para email marketing",
+'name' => 'Constructor de formularios',
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
 ],
 [
-'name' => 'Optimizador de textos para emails 1:1',
+'name' => 'Inserción externa de formularios',
 'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Formularios ilimitados',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Identificación de código postal',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Verificación de números ',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Checkbox aceptación de politicas ',
+'value' => ['checkIcon', 'checkIcon', 'checkIcon'],
+],
+],
+],
+[
+'name' => 'Lead Scoring',
+'subItems' => [
+[
+'name' => 'Reglas de comportamientos ',
+'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Calificación automática de contactos',
+'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
 ],
 ],
 ],
@@ -420,26 +531,30 @@ y conexión Meta Business ",
 ],
 ],
 ],
+
 [
-'name' => 'Reportes Personalizados',
+'name' => 'Agendamientos',
 'subItems' => [
 [
-'name' => 'Plantillas prediseñadas ',
-'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
-],
-[
-'name' => "Distintos tipos de gráficos",
-'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
-],
-[
-'name' => 'Cantidad de reportes',
+'name' => 'Nro de paginas de agendamiento',
 'value' => ['disabledIcon', 'Ilimitados', 'Ilimitados'],
 ],
 [
-'name' => 'Descarga de reportes en Excel',
+'name' => 'Notificaciones de agendamiento',
 'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
 ],
-
+[
+'name' => 'Paginas de agendamiento individual ',
+'value' => ['disabledIcon', 'checkIcon', 'checkIcon'],
+],
+[
+'name' => 'Paginas de agendamiento compartido',
+'value' => ['disabledIcon', 'Próximamente', 'Próximamente'],
+],
+[
+'name' => 'Paginas de agendamiento evento',
+'value' => ['disabledIcon', 'Próximamente', 'Próximamente'],
+],
 ],
 ],
 ],
