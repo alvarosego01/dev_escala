@@ -352,6 +352,10 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-subPage-whatsapp-2022.blade.php')) {
         wp_enqueue_style('subPage_whatsapp_2022.css', asset_path('styles/pages/subPages/subPage_whatsapp_2022.css'), false, THEME_VERSION);
     }
+    // --- Seccion omnicanal 2025
+    if (is_page_template('views/template-subPage-omnicanal-2025.blade.php')) {
+        wp_enqueue_style('subPage_omnicanal_2025.css', asset_path('styles/pages/subPages/subPage_omnicanal_2025.css'), false, THEME_VERSION);
+    }
     // --- Seccion zoom meeting 2023
     if (is_page_template('views/template-subPage-zoom-meeting-2023.blade.php')) {
         wp_enqueue_style('subPage_zoom_meeting_2023.css', asset_path('styles/pages/subPages/subPage_zoom_meeting_2023.css'), false, THEME_VERSION);
