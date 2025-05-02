@@ -28,17 +28,19 @@
 
                                     <div class="ele ele2 col-md-12 col-lg-6">
                                         <h1 class="principalBigTitle blackColor">
-                                            Vende más <br class="space">
-                                            con <span>WhatsApp</span>
+                                            Vende mejor con <br class="space">
+                                            <span>WhatsApp</span> integrado <br class="space">
+                                            al CRM de Escala
+
                                             <small>
                                                 ¡integrando al CRM de Escala!
                                             </small>
                                         </h1>
                                         <p class="principalBigText grayColorTexts">
-                                            Ahora puedes mejorar tu capacidad de <br class="space">
-                                            respuesta e integrar ágilmente WhatsApp <br class="space">
-                                            a tu estrategia de crecimiento. ¡Todo en una <br class="space">
-                                            sola herramienta de marketing y ventas!
+                                            Optimiza tu equipo de ventas sin <br class="space">
+                                            depender del celular personal: <br class="space">
+                                            conversaciones centralizadas, procesos <br class="space">
+                                            automáticos y resultados medibles.
                                         </p>
 
                                     </div>
@@ -461,7 +463,7 @@
         'img_alt' => null,
         'img' => App::setFilePath('/assets/images/illustrations/others/reportes-personalizados.png'),
         'title' => '
-        Reportes  <br class="space">
+        Reportes <br class="space">
         Personalizados
         ',
         'enableButton' => false,
@@ -545,7 +547,7 @@
                 </section>
 
                 <section class="innerSectionElement2">
-                      <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_1.png') !!}"
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_1.png') !!}"
                         alt="">
                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_2.png') !!}"
                         alt="">
