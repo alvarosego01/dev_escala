@@ -71,59 +71,107 @@ $featuresElements = [
 "name" => "Dashboard de administradores",
 "value" => "checkIcon"
 ],
-)
-],
 [
-"name" => 'Automatizaciones',
-"subItems" => array(
-[
-"name" => "Múltiples eventos de inicio",
+"name" => "Gestión de productos",
 "value" => "checkIcon"
 ],
 [
-"name" => "Flujos unidireccionales",
-"value" => "Hasta 100"
-],
-[
-"name" => "Flujos con bifurcaciones",
-"value" => "checkIcon"
-],
-)
-],
-[
-"name" => 'Lead Scoring',
-"subItems" => array(
-[
-"name" => "Reglas de comportamientos ",
+"name" => "Gestión de empresas",
 "value" => "checkIcon"
 ],
 [
-"name" => "Calificación automática de contactos",
+"name" => "Creacion de roles y permisos",
+"value" => "checkIcon"
+],
+[
+"name" => "Creación de equipos de trabajo",
 "value" => "checkIcon"
 ],
 )
 ],
 [
-"name" => 'WhatsApp',
+"name" => 'Inteligencia artificial',
 "subItems" => array(
 [
-"name" => "Automatizaciones",
+"name" => "Generador de contenido<br class='space'> para landing pages",
 "value" => "checkIcon"
 ],
 [
-"name" => "Inbox",
+"name" => "Generador de contenido<br class='space'> para email marketing",
 "value" => "checkIcon"
 ],
 [
-"name" => "Extensión Chrome",
+"name" => "Optimizador de textos para emails 1:1",
+"value" => "checkIcon"
+],
+[
+"name" => "Agentes IA conversacionales",
+"value" => "checkIcon"
+],
+[
+"name" => "Constructor de Prompts",
+"value" => "checkIcon"
+],
+)
+],
+
+[
+"name" => 'Inbox',
+"subItems" => array(
+[
+"name" => "Canal de Whatsapp Api",
+"value" => "checkIcon"
+],
+[
+"name" => "Canal de Instagram",
+"value" => "checkIcon"
+],
+[
+"name" => "Canal de Messenger",
+"value" => "checkIcon"
+],
+[
+"name" => "Disponibilidad por agente",
+"value" => "checkIcon"
+],
+[
+"name" => "Extensión Chrome Whatsapp Web",
 "value" => "checkIcon"
 ],
 [
 "name" => "Botón Formulario Página",
 "value" => "checkIcon"
 ],
+[
+"name" => "Automatizaciones",
+"value" => "checkIcon"
+],
 )
 ],
+[
+"name" => 'Automatizaciones',
+"subItems" => array(
+[
+"name" => "Automatización de flujo de trabajo
+o",
+"value" => "checkIcon"
+],
+[
+"name" => "Múltiples eventos de inicio",
+"value" => "checkIcon"
+],
+
+[
+"name" => "Flujos con bifurcaciones",
+"value" => "checkIcon"
+],
+[
+"name" => "Flujos unidireccionales",
+"value" => "Hasta 100"
+],
+)
+],
+
 [
 "name" => 'Email marketing',
 "subItems" => array(
@@ -137,10 +185,6 @@ $featuresElements = [
 ],
 [
 "name" => "Campañas masivas",
-"value" => "checkIcon"
-],
-[
-"name" => "Personalización campos masivos",
 "value" => "checkIcon"
 ],
 [
@@ -196,37 +240,17 @@ $featuresElements = [
 "name" => "Analíticas",
 "value" => "checkIcon"
 ],
-)
-],
 [
-"name" => 'Formularios',
-"subItems" => array(
-[
-"name" => "Número de formularios",
-"value" => "Ilimitados"
-],
-[
-"name" => "Constructor de formularios",
+"name" => "Insertar HTML",
 "value" => "checkIcon"
 ],
 [
-"name" => "Inserción externa de formularios",
-"value" => "checkIcon"
-],
-[
-"name" => "Formularios ilimitados",
-"value" => "checkIcon"
-],
-[
-"name" => "Identificación de código postal",
-"value" => "checkIcon"
-],
-[
-"name" => "Verificación de números ",
+"name" => "Constructor de enlace UTM",
 "value" => "checkIcon"
 ],
 )
 ],
+
 [
 "name" => 'Anuncios Digitales',
 "subItems" => array(
@@ -252,6 +276,33 @@ $featuresElements = [
 ],
 )
 ],
+
+[
+"name" => 'Reportes Personalizados',
+"subItems" => array(
+[
+"name" => "Plantillas prediseñadas",
+"value" => "checkIcon"
+],
+[
+"name" => "Distintos tipos de gráficos",
+"value" => "checkIcon"
+],
+[
+"name" => "Cantidad de reportes",
+"value" => "Ilimitadas"
+],
+[
+"name" => "Descarga de reportes en Excel",
+"value" => "checkIcon"
+],
+[
+"name" => "Constructor de Dahsboard Personalizados",
+"value" => "checkIcon"
+],
+)
+],
+
 [
 "name" => 'Integraciones',
 "subItems" => array(
@@ -260,32 +311,98 @@ $featuresElements = [
 "value" => "checkIcon"
 ],
 [
-"name" => "Typeform - Próximamente",
-"value" => "checkIcon"
-],
-[
-"name" => "Calendly - Próximamente",
-"value" => "checkIcon"
-],
-[
 "name" => "Otras 15.000+ (Zapier)",
+"value" => "checkIcon"
+],
+[
+"name" => "Calendly",
+"value" => "checkIcon"
+],
+[
+"name" => "Typeform",
+"value" => "checkIcon"
+],
+[
+"name" => "Siigo Colombia",
+"value" => "checkIcon"
+],
+[
+"name" => "Contífico",
+"value" => "checkIcon"
+],
+[
+"name" => "AirCall",
+"value" => "checkIcon"
+],
+[
+"name" => "Twilio",
+"value" => "checkIcon"
+],
+[
+"name" => "Bsale",
+"value" => "checkIcon"
+],
+[
+"name" => "Google Sheets",
+"value" => "checkIcon"
+],
+[
+"name" => "Shopify",
+"value" => "checkIcon"
+],
+[
+"name" => "Woocommerce",
 "value" => "checkIcon"
 ],
 )
 ],
 [
-"name" => 'Inteligencia artificial',
+"name" => 'Formularios',
 "subItems" => array(
 [
-"name" => "Generador de contenido<br class='space'> para landing pages",
+"name" => "Número de formularios",
+"value" => "Ilimitados"
+],
+[
+"name" => "Conexión dominio propio",
 "value" => "checkIcon"
 ],
 [
-"name" => "Generador de contenido<br class='space'> para email marketing",
+"name" => "Constructor de formularios",
 "value" => "checkIcon"
 ],
 [
-"name" => "Optimizador de textos para emails 1:1",
+"name" => "Inserción externa de formularios",
+"value" => "checkIcon"
+],
+[
+"name" => "Formularios ilimitados",
+"value" => "checkIcon"
+],
+[
+"name" => "Identificación de código postal",
+"value" => "checkIcon"
+],
+[
+"name" => "Verificación de números ",
+"value" => "checkIcon"
+],
+[
+"name" => "Checkbox aceptación de politicas  ",
+"value" => "checkIcon"
+],
+)
+],
+
+[
+"name" => 'Lead Scoring',
+"subItems" => array(
+[
+"name" => "Reglas de comportamientos ",
+"value" => "checkIcon"
+],
+[
+"name" => "Calificación automática de contactos",
 "value" => "checkIcon"
 ],
 )
@@ -315,6 +432,32 @@ $featuresElements = [
 ],
 )
 ],
+
+[
+"name" => 'Agendamientos',
+"subItems" => array(
+[
+"name" => "Nro de paginas de agendamiento",
+"value" => "Ilimitados"
+],
+[
+"name" => "Notificaciones de agendamiento",
+"value" => "checkIcon"
+],
+[
+"name" => "Paginas de agendamiento individual ",
+"value" => "checkIcon"
+],
+[
+"name" => "Paginas de agendamiento compartido",
+"value" => "Próximamente"
+],
+[
+"name" => "Paginas de agendamiento evento",
+"value" => "Próximamente"
+],
+)
+],
 )
 
 ),
@@ -335,21 +478,12 @@ $featuresElements = [
 )
 
 ],
-[
-"name" => 'Trainer herramienta',
-"subItems" => array(
-[
-"name" => "Todo el año",
-"value" => "4 horas el primer año"
-],
-)
 
-],
 [
 "name" => 'Configuración plataforma',
 "subItems" => array(
 [
-"name" => "Primeros 3 meses",
+"name" => "Conexión de dominios",
 "value" => "Hasta 1 hora"
 ],
 [
@@ -375,21 +509,6 @@ $featuresElements = [
 "value" => "checkIcon"
 ],
 
-)
-
-],
-
-[
-"name" => 'Educación autoguiada',
-"subItems" => array(
-[
-"name" => "Artículos y videotutoriales",
-"value" => "checkIcon"
-],
-[
-"name" => "Cursos y Webinars online",
-"value" => "checkIcon"
-],
 )
 
 ],
