@@ -1,5 +1,112 @@
 <div id="subPage_omnicanal_2025">
     <div class="sections">
+
+
+        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subPage_omnicanal_2025_0_1 ">
+
+
+            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-omnicanal-hero-dk-2025.png') !!}')">
+
+
+
+                <div class="section-row">
+                    <section class="innerSectionElement sct1">
+
+                        <div class="groupElements row">
+
+
+                            <div class="info col-md-12 col-lg-8 ">
+
+
+                                <div class="containElements row threeCol">
+
+                                    <div class="ele ele1 col-md-12 col-lg-6">
+
+                                        <div class="containerImage">
+                                            <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/img-hero-chica-omnicanal-2025.png') !!}" loading="lazy">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="ele ele2 col-md-12 col-lg-6">
+                                        <h1 class="principalBigTitle blackColor">
+                                            Simplifica tus <br class="DT_e">
+                                            ventas con el <br class="DT_e">
+                                            Inbox Omnicanal
+                                        </h1>
+                                        <p class="principalBigText grayColorTexts">
+                                            Centraliza y optimiza tus <br class="DT_e">
+                                            conversaciones de WhatsApp, <br class="DT_e">
+                                            Instagram y Facebook
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="form7 col-md-12 col-lg-4 ">
+                                <div class="containElements">
+
+                                    <div class="formatForm redirectWeb" redirectweb="true">
+
+                                        <h5 class="titleFormat blackcolor"> Recibe un <br class="space">
+                                            demo personalizado</h5>
+
+                                        @php
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
+                                        @endphp
+                                        {!! do_shortcode($_formShortcode) !!}
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="info2 col-md-12 col-lg-8 ">
+
+
+                                <div class="containElements row threeCol">
+
+                                    <div class="ele eleImg col-md-12 col-lg-6">
+
+                                        <div class="containerImage">
+                                            <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/am/am-whatsapp-hero-mb.webp') !!}" loading="lazy">
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                    </section>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+
+
+
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subPage_omnicanal_2025_0 ">
 
 
@@ -104,8 +211,6 @@
             </div>
 
         </section>
-
-
 
 
 
@@ -461,7 +566,7 @@
         'img_alt' => null,
         'img' => App::setFilePath('/assets/images/illustrations/others/reportes-personalizados.png'),
         'title' => '
-        Reportes  <br class="space">
+        Reportes <br class="space">
         Personalizados
         ',
         'enableButton' => false,
@@ -545,7 +650,7 @@
                 </section>
 
                 <section class="innerSectionElement2">
-                      <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_1.png') !!}"
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_1.png') !!}"
                         alt="">
                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/whatsapp_trust_2.png') !!}"
                         alt="">
