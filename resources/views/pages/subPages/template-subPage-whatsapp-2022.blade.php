@@ -31,10 +31,6 @@
                                             Vende mejor con <br class="space">
                                             <span>WhatsApp</span> integrado <br class="space">
                                             al CRM de Escala
-
-                                            <small>
-                                                ¡integrando al CRM de Escala!
-                                            </small>
                                         </h1>
                                         <p class="principalBigText grayColorTexts">
                                             Optimiza tu equipo de ventas sin <br class="space">
