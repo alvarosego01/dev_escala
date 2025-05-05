@@ -1,9 +1,11 @@
-<div id="subPage_whatsapp_2022">
+<div id="subPage_omnicanal_2025">
     <div class="sections">
-        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subpage_whatsapp_0 ">
 
 
-            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-hero-1.png') !!}')">
+        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subPage_omnicanal_2025_0_1 ">
+
+
+            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-omnicanal-hero-dk-2025.png') !!}')">
 
 
 
@@ -21,22 +23,21 @@
                                     <div class="ele ele1 col-md-12 col-lg-6">
 
                                         <div class="containerImage">
-                                            <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/am/am-whatsapp-hero.webp') !!}" loading="lazy">
+                                            <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/img-hero-chica-omnicanal-2025.png') !!}" loading="lazy">
                                         </div>
 
                                     </div>
 
                                     <div class="ele ele2 col-md-12 col-lg-6">
                                         <h1 class="principalBigTitle blackColor">
-                                            Vende mejor con <br class="space">
-                                            <span>WhatsApp</span> integrado <br class="space">
-                                            al CRM de Escala
+                                            Simplifica tus <br class="DT_e">
+                                            ventas con el <br class="DT_e">
+                                            Inbox Omnicanal
                                         </h1>
                                         <p class="principalBigText grayColorTexts">
-                                            Optimiza tu equipo de ventas sin <br class="space">
-                                            depender del celular personal: <br class="space">
-                                            conversaciones centralizadas, procesos <br class="space">
-                                            automáticos y resultados medibles.
+                                            Centraliza y optimiza tus <br class="DT_e">
+                                            conversaciones de WhatsApp, <br class="DT_e">
+                                            Instagram y Facebook
                                         </p>
 
                                     </div>
@@ -106,8 +107,114 @@
 
 
 
+        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subPage_omnicanal_2025_0 ">
 
-        <section class="customSection sectionParent subpage_whatsapp_1">
+
+            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-hero-1.png') !!}')">
+
+
+
+                <div class="section-row">
+                    <section class="innerSectionElement sct1">
+
+                        <div class="groupElements row">
+
+
+                            <div class="info col-md-12 col-lg-8 ">
+
+
+                                <div class="containElements row threeCol">
+
+                                    <div class="ele ele1 col-md-12 col-lg-6">
+
+                                        <div class="containerImage">
+                                            <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/am/am-whatsapp-hero.webp') !!}" loading="lazy">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="ele ele2 col-md-12 col-lg-6">
+                                        <h1 class="principalBigTitle blackColor">
+                                            Vende más <br class="space">
+                                            con <span>WhatsApp</span>
+                                            <small>
+                                                ¡integrando al CRM de Escala!
+                                            </small>
+                                        </h1>
+                                        <p class="principalBigText grayColorTexts">
+                                            Ahora puedes mejorar tu capacidad de <br class="space">
+                                            respuesta e integrar ágilmente WhatsApp <br class="space">
+                                            a tu estrategia de crecimiento. ¡Todo en una <br class="space">
+                                            sola herramienta de marketing y ventas!
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="form7 col-md-12 col-lg-4 ">
+                                <div class="containElements">
+
+                                    <div class="formatForm redirectWeb" redirectweb="true">
+
+                                        <h5 class="titleFormat blackcolor"> Recibe un <br class="space">
+                                            demo personalizado</h5>
+
+                                        @php
+                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                        $_rs = [];
+                                        $_formShortcode = null;
+                                        if ($_data = get_posts($_args)) {
+                                        foreach ($_data as $_key) {
+                                        $_rs[$_key->ID] = $_key->post_title;
+                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                        }
+                                        }
+                                        } else {
+                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                        }
+                                        @endphp
+                                        {!! do_shortcode($_formShortcode) !!}
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="info2 col-md-12 col-lg-8 ">
+
+
+                                <div class="containElements row threeCol">
+
+                                    <div class="ele eleImg col-md-12 col-lg-6">
+
+                                        <div class="containerImage">
+                                            <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/am/am-whatsapp-hero-mb.webp') !!}" loading="lazy">
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                    </section>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+
+
+        <section class="customSection sectionParent subPage_omnicanal_2025_1">
 
             <div class="section-row">
 
@@ -172,7 +279,7 @@
         @php
         $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'subpage_whatsapp_2',
+        'classSection' => 'subPage_omnicanal_2025_2',
         'enableTitle' => true,
         'titlePrincipal' => '
         Qué logras vía WhatsApp gracias a Escala<br class="space">
@@ -212,7 +319,7 @@
         @php
         $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'subpage_whatsapp_3',
+        'classSection' => 'subPage_omnicanal_2025_3',
         'enableTitle' => false,
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
@@ -250,7 +357,7 @@
         @php
         $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'subpage_whatsapp_5',
+        'classSection' => 'subPage_omnicanal_2025_5',
         'enableTitle' => false,
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
@@ -288,7 +395,7 @@
         @php
         $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'subpage_whatsapp_4',
+        'classSection' => 'subPage_omnicanal_2025_4',
         'enableTitle' => false,
         'titlePrincipal' => null,
         'subTitlePrincipal' => null,
@@ -324,7 +431,7 @@
         @endcontain_text_image_T1
 
 
-        <section class="customSection sectionParent subpage_whatsapp_6">
+        <section class="customSection sectionParent subPage_omnicanal_2025_6">
 
             <div class="section-row">
 
@@ -365,7 +472,7 @@
         @php
         $parameters = [
         'type' => 'backgroundColor',
-        'classSection' => 'subpage_whatsapp_7',
+        'classSection' => 'subPage_omnicanal_2025_7',
         'enableTitle' => true,
         'titlePrincipal' => '
         Herramientas increíbles que también encuentras en <br class="DT_e">
@@ -472,7 +579,7 @@
         @endcontain_multiple_cards_T2
 
 
-        <section class="customSection sectionParent subpage_whatsapp_8">
+        <section class="customSection sectionParent subPage_omnicanal_2025_8">
 
             <div class="section-row">
 
@@ -531,7 +638,7 @@
 
         </section>
 
-        <section class="customSection sectionParent fullWidth subpage_whatsapp_9 ">
+        <section class="customSection sectionParent fullWidth subPage_omnicanal_2025_9 ">
             <div class="section-row">
                 <section class="innerSectionElement1">
                     <div class="containElements">
@@ -556,7 +663,7 @@
 
         </section>
 
-        <section class="customSection sectionParent subpage_whatsapp_10" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-10.png') }}')">
+        <section class="customSection sectionParent subPage_omnicanal_2025_10" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-10.png') }}')">
             <div class="section-row ">
                 <div class="containElements">
                     <section class="innerSectionElement sct1">
@@ -634,7 +741,7 @@
 
         @php
         $parameters = [
-        'classSection' => 'subpage_whatsapp_11',
+        'classSection' => 'subPage_omnicanal_2025_11',
 
         'items' => $items,
         ];
