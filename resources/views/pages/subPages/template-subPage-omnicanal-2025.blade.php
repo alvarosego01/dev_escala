@@ -1,8 +1,89 @@
 <div id="subPage_omnicanal_2025">
     <div class="sections">
+        <section id="lead-form" class="hero2025 subPage_omnicanal_2025_0_1">
+
+            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-omnicanal-hero-dk-2025.png') !!}')">
+
+                <div class="section-row">
+                    <section class="innerSectionElement sct1">
+                        <div class="sectionText">
+                            <h1 class="principalBigTitle">
+                                Simplifica tus <br class="DT_e">
+                                ventas con el <br class="DT_e">
+                                <span>Inbox Omnicanal</span>
+                            </h1>
+                            <p class="principalBigText">
+                                Centraliza y optimiza tus <br class="DT_e">
+                                conversaciones de WhatsApp, <br class="DT_e">
+                                Instagram y Facebook
+                            </p>
+
+                        </div>
+                    </section>
+
+                    <section class="innerSectionElement sct2">
+                        <div class="containerImage">
+                            <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/img-hero-chica-omnicanal-2025.png') !!}" loading="lazy">
+                        </div>
+                    </section>
+
+                    <section class="innerSectionElement sct3">
+                        <div class="form7">
+                            <div class="containElements">
+
+                                <div class="formatForm redirectWeb" redirectweb="true">
+
+                                    <h5 class="titleFormat blackcolor"> Recibe un <br class="space">
+                                        demo personalizado</h5>
+
+                                    @php
+                                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                    $_rs = [];
+                                    $_formShortcode = null;
+                                    if ($_data = get_posts($_args)) {
+                                    foreach ($_data as $_key) {
+                                    $_rs[$_key->ID] = $_key->post_title;
+                                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                    }
+                                    }
+                                    } else {
+                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                    }
+                                    @endphp
+                                    {!! do_shortcode($_formShortcode) !!}
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="info2">
 
 
-        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subPage_omnicanal_2025_0_1 ">
+                            <div class="containElements row threeCol">
+
+                                <div class="ele eleImg col-md-12 col-lg-6">
+
+                                    <div class="containerImage">
+                                        <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/am/am-whatsapp-hero-mb.webp') !!}" loading="lazy">
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subPage_omnicanal_2025_0">
 
 
             <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-omnicanal-hero-dk-2025.png') !!}')">
@@ -102,115 +183,9 @@
 
             </div>
 
-        </section>
+        </section> -->
 
 
-
-
-        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subPage_omnicanal_2025_0 ">
-
-
-            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-hero-1.png') !!}')">
-
-
-
-                <div class="section-row">
-                    <section class="innerSectionElement sct1">
-
-                        <div class="groupElements row">
-
-
-                            <div class="info col-md-12 col-lg-8 ">
-
-
-                                <div class="containElements row threeCol">
-
-                                    <div class="ele ele1 col-md-12 col-lg-6">
-
-                                        <div class="containerImage">
-                                            <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/am/am-whatsapp-hero.webp') !!}" loading="lazy">
-                                        </div>
-
-                                    </div>
-
-                                    <div class="ele ele2 col-md-12 col-lg-6">
-                                        <h1 class="principalBigTitle blackColor">
-                                            Vende más <br class="space">
-                                            con <span>WhatsApp</span>
-                                            <small>
-                                                ¡integrando al CRM de Escala!
-                                            </small>
-                                        </h1>
-                                        <p class="principalBigText grayColorTexts">
-                                            Ahora puedes mejorar tu capacidad de <br class="space">
-                                            respuesta e integrar ágilmente WhatsApp <br class="space">
-                                            a tu estrategia de crecimiento. ¡Todo en una <br class="space">
-                                            sola herramienta de marketing y ventas!
-                                        </p>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="form7 col-md-12 col-lg-4 ">
-                                <div class="containElements">
-
-                                    <div class="formatForm redirectWeb" redirectweb="true">
-
-                                        <h5 class="titleFormat blackcolor"> Recibe un <br class="space">
-                                            demo personalizado</h5>
-
-                                        @php
-                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                        $_rs = [];
-                                        $_formShortcode = null;
-                                        if ($_data = get_posts($_args)) {
-                                        foreach ($_data as $_key) {
-                                        $_rs[$_key->ID] = $_key->post_title;
-                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                        }
-                                        }
-                                        } else {
-                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                        }
-                                        @endphp
-                                        {!! do_shortcode($_formShortcode) !!}
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="info2 col-md-12 col-lg-8 ">
-
-
-                                <div class="containElements row threeCol">
-
-                                    <div class="ele eleImg col-md-12 col-lg-6">
-
-                                        <div class="containerImage">
-                                            <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/am/am-whatsapp-hero-mb.webp') !!}" loading="lazy">
-                                        </div>
-
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                    </section>
-
-                </div>
-
-
-
-            </div>
-
-        </section>
 
 
 
@@ -218,58 +193,73 @@
 
             <div class="section-row">
 
-                <section class="innerSectionElement sct1">
+                <section class="innerSectionElement sct2">
+                    <div class="groupElements row">
+                        <div class="info col-md-12 col-lg-8 ">
+                            <div class="containElements">
+                                @php
+                                $elementsReviews = [
+                                [
+                                'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                                'text' => 'Escala / plataforma CRM',
+                                'points' => '4.9 / 5',
+                                ],
+                                [
+                                'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                                'text' => 'Escala / plataforma CRM',
+                                'points' => '4.8 / 5',
+                                ],
+                                [
+                                'logo' =>
+                                App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
+                                'text' => 'Escala / plataforma CRM',
+                                'points' => '4.8 / 5',
+                                ]
+                                ];
+                                @endphp
+                                <div class="ele reviews">
+                                    <div class="elements">
+                                        <div class="iconApp">
+                                            <a target="_blank"
+                                                href="https://www.getapp.com/customer-management-software/crm/category-leaders">
+                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+                                        @foreach ($elementsReviews as $item)
+                                        <div class="refersElement">
 
-                    <div class="containElements">
+                                            <div class="infoInner">
+                                                <div class="tag">
+                                                    <div class="containerImage">
+                                                        <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                    </div>
 
-                        <h2 class="primaryTitle blackColor">
-                            Escala potencia la plataforma de <br class="DT_e">
-                            mensajería más popular del mundo
-                        </h2>
+                                                    <span class="points">
+                                                        {!! $item['points'] !!}
+                                                    </span>
+                                                </div>
+                                                <p class="text">
+                                                    {!! $item['text'] !!}
+                                                </p>
+                                                <div class="stars">
+                                                    <div class="containerImage">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icons-stars-yellow.svg') !!}"
+                                                            loading="lazy">
+                                                    </div>
+                                                </div>
 
-                    </div>
-                </section>
+                                            </div>
 
-                @php
-                $cardsParams = [
-                'sectionClass' => 'innerSectionElement sct2',
-                'backgroundImage' => App::setFilePath('/assets/images/banners/bg-section-1-cards.svg'),
-                'cards' => [
-                [
-                'number' => '+2',
-                'span' => 'mil millones',
-                'text' => 'usuarios de <br class="DT_e"> WhatsApp <br class="DT_e"> a nivel mundial'
-                ],
-                [
-                'number' => '3',
-                'span' => 'millones',
-                'text' => 'de compañías <br class="DT_e"> usándola <br class="DT_e"> a nivel mundial'
-                ],
-                [
-                'number' => '+100',
-                'span' => 'mil millones',
-                'text' => 'de Whatsapps <br class="DT_e"> enviados <br class="DT_e"> diariamente'
-                ],
-                [
-                'number' => '60%',
-                'span' => 'de Latinos',
-                'text' => 'prefiere WhatsApp <br class="DT_e"> como medio <br class="DT_e"> de comunicación'
-                ]
-                ]
-                ];
-                @endphp
+                                        </div>
+                                        @endforeach
 
-                <section class="{{ $cardsParams['sectionClass'] }}">
-                    <div class="row-container">
-                        @foreach($cardsParams['cards'] as $card)
-                        <div class="column">
-                            <div class="content-container" style="background-image: url('{{ $cardsParams['backgroundImage'] }}')">
-                                <h3>{{ $card['number'] }}</h3>
-                                <span>{{ $card['span'] }}</span>
-                                <p>{!! $card['text'] !!}</p>
+                                    </div>
+
+
+                                </div>
                             </div>
                         </div>
-                        @endforeach
                     </div>
                 </section>
             </div>
@@ -594,45 +584,6 @@
                     </div>
                 </section>
 
-                @php
-                $cardsParams = [
-                'sectionClass' => 'innerSectionElement sct2',
-                'backgroundImage' => App::setFilePath('/assets/images/banners/bg-cards-img-whatsapp-escala.png'),
-                'cards' => [
-                [
-                'imgIcon' => 'interfaz-amigable-escala.png',
-                'text' => '<span>Interfaz amigable</span> para
-                que disfrutes trabajar en ella todos los días'
-                ],
-                [
-                'imgIcon' => 'atencion-escala.png',
-                'text' => '<span>Altísimo nivel de servicio:</span> Nadie en la industria te acompaña y atiende mejor'
-                ],
-                [
-                'imgIcon' => 'educacion-escala.png',
-                'text' => '<span>Educación relevante de primera</span> en marketing, ventas y crecimiento de empresas y más'
-                ],
-                [
-                'imgIcon' => 'plataforma-en-español-escala.png',
-                'text' => '<span>100% en español:</span> la plataforma, el servicio y los recursos en tu idioma'
-                ]
-                ]
-                ];
-                @endphp
-
-                <section class="{{ $cardsParams['sectionClass'] }}">
-                    <div class="row-container">
-                        @foreach($cardsParams['cards'] as $card)
-                        <div class="column">
-                            <div class="content-container" style="background-image: url('{{ $cardsParams['backgroundImage'] }}')">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/'.$card['imgIcon']) !!}"
-                                    alt="" loading="lazy">
-                                <p>{!! $card['text'] !!}</p>
-                            </div>
-                        </div>
-                        @endforeach
-                    </div>
-                </section>
 
             </div>
 
