@@ -78,11 +78,6 @@
                 </div>
             </div>
         </section>
-
-
-
-
-
         <!-- <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subPage_omnicanal_2025_0">
 
 
@@ -186,14 +181,11 @@
         </section> -->
 
 
-
-
-
         <section class="customSection sectionParent subPage_omnicanal_2025_1">
 
             <div class="section-row">
 
-                <section class="innerSectionElement sct2">
+                <section class="innerSectionElement sct1">
                     <div class="groupElements row">
                         <div class="info col-md-12 col-lg-8 ">
                             <div class="containElements">
@@ -265,6 +257,104 @@
             </div>
 
         </section>
+
+        <section class="customSection sectionParent subPage_omnicanal_2025_1_0">
+
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+                    <p>
+                        El Inbox Omnicanal de Escala transforma la manera en la que te <br class="DT_e">
+                        relacionas con tus leads y clientes. Gestiona todos los mensajes de <br class="DT_e">
+                        Meta en un solo lugar. Así, puedes responder más rápido, automatizar <br class="DT_e">
+                        conversaciones y nunca perder una oportunidad de venta
+                    </p>
+                </section>
+                <section class="innerSectionElement sct2">
+                    <div class="section_contain">
+
+                        <!-- Desktop Section -->
+                        <div class="dualSection">
+                            <div class="textContainer textLeft">
+                                <h3 style="text-align: center"><span style="color: #2c4857"><strong>Antes de Escala</strong></span></h3>
+                            </div>
+
+                            <div class="textContainer textRight">
+                                <h3 style="text-align: center;color: #2c4857"><strong>Después de Escala</strong></h3>
+                            </div>
+                        </div>
+
+                        <!-- Desktop Section -->
+                        <div class="dualSection">
+                            <div class="textContainer textLeft">
+                                <p>Mensajes dispersos entre WhatsApp, Facebook e Instagram.</p>
+
+                            </div>
+
+                            <div class="textContainer textRight">
+                                <p>Todos los mensajes alojados en un solo Inbox.​</p>
+
+                            </div>
+                        </div>
+
+                        <!-- Desktop Section -->
+                        <div class="dualSection">
+                            <div class="textContainer textLeft">
+                                <p>Oportunidades comerciales perdidas por no responder a tiempo.</p>
+
+                            </div>
+
+                            <div class="textContainer textRight">
+                                <p>Respuestas inmediatas y flujos automáticos para no dejar pasar ningún lead.</p>
+
+                            </div>
+                        </div>
+
+                        <!-- Desktop Section -->
+                        <div class="dualSection">
+                            <div class="textContainer textLeft">
+                                <p>Falta de orden en la asignación de conversaciones a comerciales.</p>
+                            </div>
+
+                            <div class="textContainer textRight">
+                                <p>Distribución equitativa entre los usuarios de Escala.</p>
+
+                            </div>
+                        </div>
+
+                        <!-- Desktop Section -->
+                        <div class="dualSection">
+                            <div class="textContainer textLeft">
+                                <p>Clientes insatisfechos por falta de atención oportuna (Atención al cliente).</p>
+
+                            </div>
+
+                            <div class="textContainer textRight">
+                                <p>Incremento en la satisfacción del cliente.</p>
+
+                            </div>
+                        </div>
+
+                        <!-- Desktop Section -->
+                        <div class="dualSection">
+                            <div class="textContainer textLeft">
+                                <p>Conversaciones y datos perdidos por rotación de personal.</p>
+
+                            </div>
+
+                            <div class="textContainer textRight">
+                                <p>Historial completo disponible en el CRM para retomar conversaciones desde cualquier punto.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+
+        </section>
+
 
         @php
         $parameters = [
