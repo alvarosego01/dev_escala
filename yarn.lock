@@ -5122,7 +5122,7 @@ gulp-watch@^5.0.1:
 
 gulp-yarn@^4.0.1:
   version "4.0.1"
-  resolved "https://registry.yarnpkg.com/gulp-yarn/-/gulp-yarn-4.0.1.tgz#14b4d5047be8836498b7d8c2b88f01c59e9cb044"
+  resolved "https://registry.npmjs.org/gulp-yarn/-/gulp-yarn-4.0.1.tgz"
   integrity sha512-DN4ga77086g+yUvmzt1BcVDpeK9t/CsT7FPyavONsKk11BZCPZw8Xb+7BRQrcrCXf2Hu4UhPH/XTR9YjQClfaA==
   dependencies:
     plugin-error "^2.0.0"
@@ -5130,7 +5130,7 @@ gulp-yarn@^4.0.1:
 
 gulp@^5.0.0:
   version "5.0.0"
-  resolved "https://registry.npmjs.org/gulp/-/gulp-5.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/gulp/-/gulp-5.0.0.tgz#78f4b8ac48a0bf61b354d39e5be844de2c5cc3f3"
   integrity sha512-S8Z8066SSileaYw1S2N1I64IUc/myI2bqe2ihOBzO6+nKpvNSg7ZcWJt/AwF8LC/NVN+/QZ560Cb/5OPsyhkhg==
   dependencies:
     glob-watcher "^6.0.0"
