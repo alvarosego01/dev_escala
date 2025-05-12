@@ -480,10 +480,13 @@ div#jet-popup-4200
         left: 0
 
 
+
+    
 .formatForm,
 .elementor-widget-void-section-cf7,
 .form_cf7,
 .wpcf7
+    z-index: 10
     @include responsivo(general)
         padding-left: 10px
         padding-right: 10px
@@ -759,8 +762,20 @@ div#jet-popup-4200
                 // width: 100%
                 text-align: left
                 margin-right: auto
-
-
+    .no-website-checkbox
+        p 
+            display: flex
+            flex-direction: row!important
+            align-items: center
+            gap: 10px
+            padding: 6px 0
+            label
+                margin: 0
+            br
+                display: none
+            input[type=checkbox]:checked:before
+                position: relative
+                top: -8px
 
 .wpcf7-not-valid-tip
     font-size: 18px
