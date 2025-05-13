@@ -107,16 +107,18 @@ img
         padding-bottom: 0
         overflow: visible
         @include responsivo(telefonoTable)
-            background-position: 45% -175px
+            background-position: 45%
             padding: 100px 0 0px!important
-            background-size: 3015px
-            padding-bottom: 100px!important
+            background-size: cover
+            padding-bottom: 55px!important
+            margin-bottom: 55px
         @include responsivo(pcMedio)
             padding: 110px 0 0px!important
             margin-bottom: 0
-            background-size: 2483px
-            background-position: 10% -27px
-            padding-bottom: 100px!important
+            background-size: cover
+            background-position: 10%
+            padding-bottom: 55px!important
+            margin-bottom: 55px
         @include responsivo(general)
             background-position:10% -13px
             padding-top: 185px
@@ -194,15 +196,103 @@ img
                 .info
                     display: flex
                     flex-direction: column
-                    padding: 0px
+                    
                     @include responsivo(telefonoTable)
                         margin-bottom: 0
-                        display: none
+                        padding: 0
+                        order: 2
                     @include responsivo(pcMedio)
                         margin-bottom: 0
                         width: 60%!important
-                        display: none
-
+                        order: 2
+                        padding: 0
+                    @include responsivo(smallPcTablet)
+                        padding: 0px 20px
+                    @include responsivo(general)
+                        padding: 0px 20px
+                    .video-player
+                        margin: 0px 0 60px
+                        position: relative
+                        width: 100%
+                        max-width: 866px
+                        cursor: pointer
+                        overflow: hidden
+                        border-radius: 20px // Opcional: bordes redondeados
+                    
+                        .video-iframe-container
+                            position: relative
+                            padding-bottom: 56.25% // 16:9 aspect ratio
+                            height: 0
+                            display: none // Oculto inicialmente
+                    
+                            iframe
+                                position: absolute
+                                top: 0
+                                left: 0
+                                width: 100%
+                                height: 100%
+                                border: none
+                    
+                        .video-cover
+                            position: relative
+                            width: 100%
+                            padding-bottom: 56.25% // Misma relación que el video
+                            transition: all 0.3s ease
+                    
+                            .cover-image
+                                position: absolute
+                                top: 0
+                                left: 0
+                                width: 100%
+                                height: 100%
+                                transition: transform 0.3s ease
+                                margin-top: -20px
+                                @include responsivo(telefonoTable)
+                                    margin-top: 0
+                                @include responsivo(pcMedio)
+                                    margin-top: 0
+                            .play-button
+                                position: absolute
+                                top: 50%
+                                left: 50%
+                                transform: translate(-50%, -50%)
+                                width: 90px
+                                height: 90px
+                                transition: all 0.3s ease
+                    
+                                .play-icon
+                                    width: 100%
+                                    height: 100%
+                                    object-fit: contain
+                                    animation: pulse 2s infinite ease-in-out
+                    
+                        // Efectos hover
+                        &:hover
+                            .video-cover
+                                .cover-image
+                                    transform: scale(1.02) // Efecto de zoom sutil
+                    
+                                .play-button
+                                    transform: translate(-50%, -50%) scale(1.1)
+                    
+                    // Animación del icono
+                    @keyframes pulse
+                        0%
+                            transform: scale(1)
+                        50%
+                            transform: scale(1.1)
+                        100%
+                            transform: scale(1)
+                    
+                    // Clase para cuando el video está activo
+                    .video-active
+                        .video-cover
+                            opacity: 0
+                            pointer-events: none
+                            display: none
+                    
+                        .video-iframe-container
+                            display: block     
                     .containerImage
                         margin: 0
                         margin-top: -20px
@@ -221,6 +311,10 @@ img
                                 padding-left: 0px                                       
                     
                     .containElements
+                        @include responsivo(telefonoTable)
+                            display: none
+                        @include responsivo(pcMedio)
+                            display: none
                         @include responsivo(general)
                             position: relative
                             left: 9px
@@ -506,9 +600,9 @@ img
                             justify-content: center
 
                             @include responsivo(telefonoTable)
-                                margin-top: 90px
+                                margin-top: 5px
                             @include responsivoSpecial(350px, 450px )
-                                margin-top: 40px
+                                margin-top: 5px
                             .elements
                                 width: fit-content
                                 display: flex
@@ -722,7 +816,9 @@ img
                         box-shadow: 0px 4px 20px 0px rgba(54, 118, 138, 0.20)!important
                         border-radius: 13px
                         height: 60px  
-                        margin-right: 0                      
+                        margin-right: 0     
+                    @include responsivo(pcMedio)
+                        display: none                 
                 img
                     box-shadow: 0px 4px 20px 0px rgba(54, 118, 138, 0.20)
                     border-radius: 13px
@@ -916,15 +1012,7 @@ img
                             width: fit-content
 
 
-    .imageMobileCenter 
-        display: none
-        @include responsivo(telefonoTable)
-            display: block!important
-            margin-top: 40px
-            .containerImage
-                padding: 0px
-                img
-                    width: 100%!important
+ 
 
         .btnCenter
             margin-top: 0px
