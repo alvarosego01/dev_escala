@@ -45,7 +45,7 @@
                                     if ($_data = get_posts($_args)) {
                                     foreach ($_data as $_key) {
                                     $_rs[$_key->ID] = $_key->post_title;
-                                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
+                                    if ($_key->post_title === 'Profile demo - Flujo Demo2') {
                                     $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
                                     }
                                     }
@@ -261,15 +261,15 @@
                 <section class="innerSectionElement sct1">
                     <div class="mobile-contain-slider">
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-slider-1-mb.png') !!}"
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-slider-1-1-mb.png') !!}"
                             alt="Imagen 1 Desktop" class="mobile-img">
 
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-slider-2-mb.png') !!}"
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-slider-2-2-mb.png') !!}"
                             alt="Imagen 2 Desktop" class="mobile-img">
 
 
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-slider-3-mb.png') !!}"
+                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-slider-3-3-mb.png') !!}"
                             alt="Imagen 3 Desktop" class="mobile-img">
 
                     </div>
@@ -277,17 +277,17 @@
                     <div class="slider-container" id="sliderContainer">
                         <div class="slider" id="slider">
                             <div class="slide">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-slider-1.png') !!}"
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-slider-1-1.png') !!}"
                                     alt="Imagen 1 Desktop" class="desktop-img">
 
                             </div>
                             <div class="slide">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-slider-2.png') !!}"
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-slider-2-2.png') !!}"
                                     alt="Imagen 2 Desktop" class="desktop-img">
 
                             </div>
                             <div class="slide">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-slider-3.png') !!}"
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/omnicanal-slider-3-3.png') !!}"
                                     alt="Imagen 3 Desktop" class="desktop-img">
 
                             </div>
