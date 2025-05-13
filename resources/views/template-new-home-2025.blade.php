@@ -30,12 +30,27 @@
                     <section class="innerSectionElement sct2">
                         <div class="groupElements row">
                             <div class="info col-md-12 col-lg-8 ">
-                                <div class="containerImage">
-                                    <img alt="Ilustración Andrés Moreno, CEO de Escala con CRM inteligente"
-                                        src="{{ App::setFilePath('/assets/images/illustrations/others/img_am_home_crm_inteligente_escala.png') }}"
-                                        loading="lazy">
-                                </div>
+                                <div class="video-player">
+                                    <!-- Contenedor del video (oculto inicialmente) -->
+                                    <div class="video-iframe-container">
+                                        {!! '<iframe src="https://player.vimeo.com/video/1083588922?h=hash_value" width="866" height="477" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>' !!}
+                                    </div>
 
+                                    <!-- Portada clickeable -->
+                                    <div class="video-cover">
+                                        <img class="cover-image" alt="Ilustración Andrés Moreno"
+                                            src="{{ App::setFilePath('/assets/images/illustrations/others/img_am_home_crm_inteligente_escala_2025.png') }}"
+                                            loading="lazy">
+
+                                        <div class="play-button">
+                                            <img class="play-icon" alt="Icon play"
+                                                src="{{ App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') }}"
+                                                loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                           
+                                
                                 <div class="containElements">
                                     @php
                                     $elementsReviews = [
@@ -387,11 +402,6 @@
                             Empieza ahora →
                         </a>
                     </div>
-                    <div class="containerImage">
-                        <img alt="Ilustración Andrés Moreno, CEO de Escala con CRM inteligente"
-                            src="{{ App::setFilePath('/assets/images/illustrations/others/img_am_home_crm_inteligente_escala.png') }}"
-                            loading="lazy">
-                    </div>
 
                 </div>
 
@@ -612,7 +622,7 @@
                             const observer = new IntersectionObserver((entries) => {
                                 entries.forEach(entry => {
                                     if (entry.isIntersecting) {
-                                 
+
                                         // Iniciamos el contador de 4 segundos
                                         setTimeout(() => {
                                             // Transición suave entre GIFs
@@ -622,13 +632,13 @@
                                                 firstGif.style.display = 'none';
                                                 finalGif.style.opacity = '1';
                                                 finalGif.style.position = 'relative';
-                                            }); 
+                                            });
 
-                                        }, 3000); 
+                                        }, 3000);
 
-                                       
+
                                     } else {
-                                       
+
                                     }
                                 });
                             }, {
@@ -642,7 +652,7 @@
                             }
                         });
                     </script>
-                    
+
                 </section>
                 <div class="btnCenter">
                     <a class="primaryButton  hoverInEffect openPopUpButton popup-general-demo-2022">
