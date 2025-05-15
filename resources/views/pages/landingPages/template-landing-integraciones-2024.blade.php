@@ -307,21 +307,6 @@
         'titlePrincipal' => '
         Conoce las integraciones <br class="space"><span> nativas de Escala</span>
         ',
-        'subTitlePrincipal' => null,
-        'img' => App::setFilePath('/assets/images/illustrations/others/integraciones-zoom.png'),
-        'title' => '
-        Integración con <br class="space">
-        <span>Zoom</span>
-        ',
-        'text' => '<span>Registra contactos y actividades de forma automatica.</span>
-        <br class="space">
-        <br class="space">
-        Al realizar reuniones desde la herramienta Zoom, puedes hacer registro de determinados datos al integrarlo con Escala.',
-        'enableButton' => false,
-        'urlButton' => '#lead-form',
-        'textButton' => 'Recibe un demo',
-        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-        'side' => 'right',
         ],
         [
         'type' => 'backgroundColor',
