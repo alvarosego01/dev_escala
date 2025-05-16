@@ -1,9 +1,11 @@
 <div id="landing_CRM_2024">
 
     <div class="sections">
+
+
         <section id="lead-form" class="hero2025 landing_CRM_2024_0">
 
-            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-hero-crm-2025.webp') !!}')">
+            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-hero-crm-2025-1.png') !!}')">
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -166,7 +168,7 @@
 
         <section class="w-full customSection sectionParent landing_CRM_2024_2">
             <div class="section-row">
-                <section class="innerSectionElement sct0 ">
+                <section class="innerSectionElement sct1 ">
                     <div class="containElements">
 
                         <h2 class="primaryTitle">
@@ -179,13 +181,17 @@
                         </p>
                     </div>
                 </section>
-                <section class="innerSectionElement sct1">
+                <section class="innerSectionElement sct2 " style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-1-left-1.svg') }}')">
+
                     <div class="containElements">
-                        <div class="tex">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-chica-escala-feliz-crm.png') !!}" loading="lazy">
+                        </div>
+                        <div class="info-second">
                             <p>
-                                Muchos negocios pierden ventas <br class="space">
-                                porque no tienen una forma clara de <br class="space">
-                                dar seguimiento a cada oportunidad. <br class="space">
+                                Muchos negocios pierden ventas porque <br class="space">
+                                no tienen una forma clara de dar <br class="space">
+                                seguimiento a cada oportunidad. <br class="space">
                                 <br class="space">
                                 Un CRM es un sistema que ayuda a las <br class="space">
                                 empresas a:
@@ -196,23 +202,21 @@
                                 <li>Automatizar</li>
                                 <li>Mejorar</li>
                             </ul>
+                            <p>
+                                La manera en que gestionan sus <br class="DT_e">
+                                interacciones con clientes y prospectos.
+                            </p>
+
                         </div>
-                        <div class="img" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-1-left.svg') }}')">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-chica-escala-feliz-crm.png') !!}" loading="lazy">
-                            </div>
-                        </div>
-                    </div>
+
                 </section>
-
-
             </div>
-
         </section>
+
 
         <section class="w-full customSection sectionParent landing_CRM_2024_3">
             <div class="section-row">
-                <section class="innerSectionElement sct0 ">
+                <section class="innerSectionElement sct1 ">
                     <div class="containElements">
 
                         <h2 class="primaryTitle">
@@ -222,22 +226,22 @@
 
                     </div>
                 </section>
-                <section class="innerSectionElement sct1">
+                <section class="innerSectionElement sct2">
                     <div class="containElements">
-                        <div class="tex">
+                        <div class="info-second">
                             <ul>
-                                <li>Gestionar mejor las relaciones con leads y clientes</li>
+                                <li>Gestionar mejor las relaciones con <br class="DT_e"> leads y clientes</li>
                                 <li>Optimizar los procesos de venta</li>
-                                <li>Aumentar la productividad del equipo</li>
+                                <li>Aumentar la productividad del <br class="DT_e"> equipo</li>
                                 <li>Tomar decisiones basadas en datos</li>
                                 <li>Escalar operaciones ¡y más!.</li>
                             </ul>
                         </div>
-                        <div class="img">
-                            <div class="containerImage">
-                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-crm-como-te-ayuda-escala.png') !!}" loading="lazy">
-                            </div>
+
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-crm-como-te-ayuda-escala.png') !!}" loading="lazy">
                         </div>
+
                     </div>
                 </section>
 
@@ -251,13 +255,13 @@
                 <div class="section-row">
 
                     <section class="innerSectionElement sct0">
-                        <h2 class="title">
+                        <h2 class="primaryTitle">
                             Vende más con menos esfuerzo
                         </h2>
                         <div class="ele video col-md-12 col-lg-9" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-video-cover.png') !!})">
 
                             @php
-                            $videoEmbed = App::setFilePath('/assets/videos/intro_escala__crm_todo-en-uno (1080p).mp4');
+                            $videoEmbed = App::setFilePath('/assets/videos/¿por_qué_tu_empresa_necesita_escala_ (720p).mp4');
                             $videoCover = App::setFilePath('/assets/images/illustrations/others/img-cover-video-am.png');
                             @endphp
 
