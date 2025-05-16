@@ -230,11 +230,11 @@
                     <div class="containElements">
                         <div class="info-second">
                             <ul>
-                                <li>Gestionar mejor las relaciones con <br class="DT_e"> leads y clientes</li>
-                                <li>Optimizar los procesos de venta</li>
-                                <li>Aumentar la productividad del <br class="DT_e"> equipo</li>
-                                <li>Tomar decisiones basadas en datos</li>
-                                <li>Escalar operaciones ¡y más!.</li>
+                                <li> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}" loading="lazy"> Gestionar mejor las relaciones con <br class="DT_e"> leads y clientes</li>
+                                <li> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}" loading="lazy"> Optimizar los procesos de venta</li>
+                                <li> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}" loading="lazy"> Aumentar la productividad del <br class="DT_e"> equipo</li>
+                                <li> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}" loading="lazy"> Tomar decisiones basadas en datos</li>
+                                <li> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}" loading="lazy"> Escalar operaciones ¡y más!.</li>
                             </ul>
                         </div>
 
@@ -247,7 +247,7 @@
 
 
             </div>
- 
+
         </section>
 
         <section class="customSection sectionParent landing_CRM_2024_4">
@@ -258,7 +258,10 @@
                         <h2 class="primaryTitle">
                             Vende más con menos esfuerzo
                         </h2>
-                        <div class="ele video col-md-12 col-lg-9" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-video-cover.png') !!})">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/banners/bg-video-cover.png') !!}" loading="lazy">
+                        </div>
+                        <div class="ele video ">
 
                             @php
                             $videoEmbed = App::setFilePath('/assets/videos/¿por_qué_tu_empresa_necesita_escala_ (720p).mp4');
@@ -328,11 +331,11 @@
                         'subTitlePrincipal' => null,
                         'img' => App::setFilePath('/assets/images/gifs/Captura-Automatica-de-Interesados.gif'),
                         'title' => '
-                        Captura automática de interesados
+                        Captura automática de <br class="DT_e"> interesados
                         ',
-                        'text' => 'Clientes potenciales llegan por formularios,
-                        WhatsApp, redes sociales o campañas y su información
-                        se guarda automáticamente al CRM.',
+                        'text' => 'Clientes potenciales llegan por formularios, <br class="DT_e">
+                        WhatsApp, redes sociales o campañas y su <br class="DT_e">
+                        información se guarda automáticamente al CRM.',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
                         'textButton' => 'Recibe un demo',
@@ -353,9 +356,9 @@
                         'img' => App::setFilePath('/assets/images/gifs/Seguimiento-Oportuno.gif'),
                         'title' => 'Seguimiento oportuno
                         ',
-                        'text' => 'Se programan mensajes automáticos (por
-                        WhatsApp o email) con información de tus
-                        productos o servicios y sus beneficios,
+                        'text' => 'Se programan mensajes automáticos (por <br class="DT_e">
+                        WhatsApp o email) con información de tus <br class="DT_e">
+                        productos o servicios y sus beneficios, <br class="DT_e">
                         adaptados según el interés de cada prospecto.',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
@@ -377,10 +380,10 @@
                         'img' => App::setFilePath(
                         '/assets/images/gifs/Clasificacion-Estrategica-de-Leads.gif',
                         ),
-                        'title' => 'Clasificación estratégica de leads',
+                        'title' => 'Clasificación estratégica <br class="DT_e"> de leads',
                         'text' =>
-                        'El CRM permite identificar quién está listo para
-                        comprar, quién solo pidió info y quién necesita
+                        'El CRM permite identificar quién está listo para <br class="DT_e">
+                        comprar, quién solo pidió info y quién necesita <br class="DT_e">
                         más seguimiento.
                         ',
                         'enableButton' => false,
@@ -405,10 +408,10 @@
                         ),
                         'title' => 'Gestión eficiente del embudo
                         ',
-                        'text' => 'Puedes llevar un mejor control del proceso comercial
-                        pasando prospectos por etapas como: nuevo lead,
-                        primer contacto, visita agendada, visita realizada,
-                        en evaluación y venta. Así mides, analizas, anticipas
+                        'text' => 'Puedes llevar un mejor control del proceso comercial <br class="DT_e">
+                        pasando prospectos por etapas como: nuevo lead, <br class="DT_e">
+                        primer contacto, visita agendada, visita realizada, <br class="DT_e">
+                        en evaluación y venta. Así mides, analizas, anticipas <br class="DT_e">
                         y priorizas.
                         ',
                         'enableButton' => false,
@@ -429,13 +432,13 @@
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
                         'img' => App::setFilePath('/assets/images/gifs/Agendamiento-y-Recordatorios-Automaticos.gif'),
-                        'title' => 'Agendamiento y recordatorios automáticos
+                        'title' => 'Agendamiento y recordatorios <br class="DT_e"> automáticos
                         ',
-                        'text' => 'Cada vendedor tiene un calendario con un link único
-                        que puede compartir con sus prospectos para que
-                        reserven un espacio disponible en su agenda. Una
-                        vez agendan, dispara recordatorios automatizados
-                        para aumentar asistencia. También pueden crear y
+                        'text' => 'Cada vendedor tiene un calendario con un link único <br class="DT_e">
+                        que puede compartir con sus prospectos para que <br class="DT_e">
+                        reserven un espacio disponible en su agenda. Una <br class="DT_e">
+                        vez agendan, dispara recordatorios automatizados <br class="DT_e">
+                        para aumentar asistencia. También pueden crear y <br class="DT_e">
                         priorizar listas de tareas con recordatorios.
                         ',
                         'enableButton' => false,
@@ -458,11 +461,11 @@
                         'img' => App::setFilePath(
                         '/assets/images/gifs/Reportes-de-Venta-en-Tiempo-Real.gif',
                         ),
-                        'title' => 'Reportes de venta en tiempo real
+                        'title' => 'Reportes de venta en <br class="DT_e"> tiempo real
                         ',
-                        'text' => 'Puedes tener una visión 360 del negocio con
-                        información como: cuántas oportunidades se
-                        ganaron, qué campaña de marketing trajo más
+                        'text' => 'Puedes tener una visión 360 del negocio con <br class="DT_e">
+                        información como: cuántas oportunidades se <br class="DT_e">
+                        ganaron, qué campaña de marketing trajo más <br class="DT_e">
                         ventas y qué vendedor cerró más.
                         ',
                         'enableButton' => false,
