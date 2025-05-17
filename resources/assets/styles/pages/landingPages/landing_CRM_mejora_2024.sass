@@ -53,7 +53,7 @@
             width: 100%!important
             max-width: 1210px!important
         @include responsivo(smallPcTablet)
-            max-width: 950px!important
+            max-width: 1000px!important
         @include responsivo(resto)
             width: 100%!important
             max-width: 1358px!important
@@ -75,7 +75,7 @@
             padding-bottom: 0!important
             background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-escala-omnicanal-1-mb.png')!important
         @include responsivo(smallPcTablet)
-            background-position: 77% 
+            background-position: 60% -34px!important
         @include responsivo(general)
             background-position: 55% 0
         @include responsivo(resto)
@@ -90,7 +90,8 @@
         .innerSectionElement.sct1
             @include responsivo(smallPcTablet)
                 margin-top: auto
-
+                position: relative
+                top: -127px
                 padding: 0
                 overflow: hidden
             .sectionText
@@ -158,6 +159,7 @@
                     @include responsivo(smallPcTablet)
                         font-size: 21px
                         margin-bottom: 20px
+                        width: 84%
                     @include responsivo(resto)
                         font-size: 30px
                 .containerImage
@@ -167,7 +169,8 @@
                     @include responsivo(smallPcTablet)
                         display: block!important
                     img
-                        height: 332px
+                        height: 266px
+                    
         .innerSectionElement.sct2
             overflow: hidden
             position: relative
@@ -537,7 +540,9 @@
                     line-height: 1
                     color: #212a31
                     text-align: center
-                    margin-bottom: 60px                    
+                    margin-bottom: 60px     
+                    @include responsivo(smallPcTablet)
+                        font-size: 35px               
                     span
                         color: #007f96
         .innerSectionElement.sct2
@@ -574,7 +579,9 @@
                         line-height: 1
                         color: #212a31
                         text-align: left
-                        margin-bottom: 0                         
+                        margin-bottom: 0               
+                        @include responsivo(smallPcTablet)
+                            font-size: 22px          
 
                     ul
                         margin: 30px 0
@@ -583,6 +590,8 @@
                             font-size: 30px
                             font-weight: 500
                             line-height: 1
+                            @include responsivo(smallPcTablet)
+                                font-size: 22px
                             &:not(:nth-last-child)
                                 margin-bottom: 10px
                                   
@@ -640,6 +649,8 @@
                 margin: 0 auto
                 gap: 90px
                 max-width: 1173px
+                @include responsivo(smallPcTablet)
+                    gap: 40px
                 .containerImage
                     margin: 0
                     padding: 0
@@ -660,6 +671,8 @@
                             display: flex
                             align-items: flex-start
                             gap: 10px
+                            @include responsivo(smallPcTablet)
+                                font-size: 22px
                             &:not(:nth-last-child)
                                 margin-bottom: 10px
                                 
@@ -757,9 +770,7 @@
                         width: 440px!important
                         margin: 0 auto
                         margin-bottom: 25px
-                    @include responsivo(smallPcTablet)
-                        width: 500px!important
-                        height: 280px!important
+
 
 
                     iframe.iframe
@@ -963,6 +974,8 @@
                         color: #2C4857
                         margin-bottom: 40px
                         text-align: left
+                        @include responsivo(smallPcTablet)
+                            font-size: 35px
                         br
                             display: none!important
                         span
@@ -995,6 +1008,8 @@
                         @include responsivo(general)
                             br
                                 display: none!important
+                        @include responsivo(smallPcTablet)
+                            font-size: 22px
                         @include responsivo(resto)
                             font-size: 24px
                         span.items
@@ -1147,7 +1162,7 @@
                 br
                     display: none!important
             @include responsivo(smallPcTablet)
-                font-size: 45px
+                font-size: 40px
 
         .innerSectionElement.sct1
             margin-bottom: 95px
@@ -1243,6 +1258,8 @@
             min-width: 1000px!important
         @include responsivo(general)
             width: 100%!important
+        @include responsivo(smallPcTablet)
+            max-width: 950px
         @include responsivo(resto)
             width: 100%!important
             max-width: 1278px!important
@@ -1300,6 +1317,8 @@
                     color: #2C4857
                     line-height: 1
                     margin: 30px 0px 60px 0px
+                    @include responsivo(smallPcTablet)
+                        font-size: 35px
                 a
                     font-size: 30px
                     font-weight: 500
@@ -1330,6 +1349,8 @@
             padding: 0
         @include responsivo(general)
             width: 100%!important
+        @include responsivo(smallPcTablet)
+            max-width: 950px
         @include responsivo(resto)
             width: 100%!important
             max-width: 1278px!important
@@ -1371,6 +1392,8 @@
                         filter: drop-shadow(15px 15px 25px rgba(0, 127, 150, 0.10))
                         border: 2.193px solid #F0F0F0
                         border-radius: 20px
+                        @include responsivo(smallPcTablet)
+                            height: 163
             .img-right
                 .containerImage
                     padding: 0
@@ -1380,6 +1403,8 @@
                         filter: drop-shadow(15px 15px 25px rgba(0, 127, 150, 0.10))
                         border: 2.193px solid #F0F0F0
                         border-radius: 20px
+                        @include responsivo(smallPcTablet)
+                            height: 345px
 #landing_CRM_2024 .landing_CRM_2024_10
     padding: 0
     display: flex
@@ -1404,6 +1429,8 @@
         @include responsivo(general)
             width: 100%!important
             max-width: 1188px
+        @include responsivo(smallPcTablet)
+            max-width: 950px
         @include responsivo(resto)
             width: 100%!important
             max-width: 1190px!important
@@ -1421,6 +1448,8 @@
                         height: 360px
                         position: relative
                         top: 1
+                        @include responsivo(smallPcTablet)
+                            height: 289px
             .text-right
                 p
                     font-size: 30px
@@ -1429,6 +1458,8 @@
                     margin-bottom: 30px
                     text-align: center
                     color: #fff
+                    @include responsivo(smallPcTablet)
+                        font-size: 22px
 
                 span
                     font-size: 24px
@@ -1436,6 +1467,9 @@
                     text-align: center
                     color: #fff
                     font-family: 'Mulish', sans-serif
+                    @include responsivo(smallPcTablet)
+                    
+                        font-size: 22px
 
 #landing_CRM_2024 .landing_CRM_2024_11
     padding: 140px 0px 75px 0px
@@ -1506,6 +1540,8 @@
                     font-family: 'Mulish', sans-serif
                     line-height: 1
                     font-weight: 600
+                    @include responsivo(smallPcTablet)
+                        font-size:25px
 
 
 

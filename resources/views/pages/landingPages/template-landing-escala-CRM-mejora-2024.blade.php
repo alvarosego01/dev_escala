@@ -622,7 +622,7 @@
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-implementacion-guiada.png') !!}" loading="lazy">
                         </div>
                         <h3 class="subtiTitle">
-                            Implementación <br class="DT_e"> Guiada
+                            Implementación <br class="space"> Guiada
                         </h3>
                         <a href="#">Conocer más →</a>
                     </section>
@@ -632,7 +632,7 @@
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-implementacion-llave-en-mano.png') !!}" loading="lazy">
                         </div>
                         <h3 class="subtiTitle">
-                            Implementación <br class="DT_e"> Llave en Mano
+                            Implementación <br class="space"> Llave en Mano
                         </h3>
                         <a href="#">Conocer más →</a>
                     </section>
@@ -684,10 +684,10 @@
                     </div>
                     <div class="text-right">
                         <p>
-                            <b>“El CRM es el corazón de las operaciones <br class="DT_e">
-                                de todo negocio.</b> Diseñamos Escala para <br class="DT_e">
-                            facilitarle a pequeñas y medianas empresas <br class="DT_e">
-                            tener una cultura cliente-céntrica y optimizar <br class="DT_e">
+                            <b>“El CRM es el corazón de las operaciones <br class="space">
+                                de todo negocio.</b> Diseñamos Escala para <br class="space">
+                            facilitarle a pequeñas y medianas empresas <br class="space">
+                            tener una cultura cliente-céntrica y optimizar <br class="space">
                             resultados de venta/servicio”.
                         </p>
                         <span>
@@ -719,9 +719,9 @@
                         </div>
                         <div class="info">
                             <h3 class="secondaryTitle">
-                                Inscríbete en el <br class="DT_e">
-                                formulario y un <br class="DT_e">
-                                especialista te <br class="DT_e">
+                                Inscríbete en el <br class="space">
+                                formulario y un <br class="space">
+                                especialista te <br class="space">
                                 contactará
                                 <br class="space">
                                 <br class="space">
@@ -736,8 +736,8 @@
                         </div>
                         <div class="info">
                             <h3 class="secondaryTitle">
-                                Recibe un tour <br class="DT_e">
-                                personalizado y gratuito <br class="DT_e">
+                                Recibe un tour <br class="space">
+                                personalizado y gratuito <br class="space">
                                 por la plataforma
                                 <br class="space">
                                 <br class="space">
@@ -753,10 +753,10 @@
                         </div>
                         <div class="info">
                             <h3 class="secondaryTitle">
-                                Escoge el plan que <br class="DT_e">
-                                se adapte a tu <br class="DT_e">
-                                empresa y empieza <br class="DT_e">
-                                a mejorar tus <br class="DT_e">
+                                Escoge el plan que <br class="space">
+                                se adapte a tu <br class="space">
+                                empresa y empieza <br class="space">
+                                a mejorar tus <br class="space">
                                 resultados
                             </h3>
                         </div>
