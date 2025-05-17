@@ -664,6 +664,8 @@
                     </div>
                     <div class="img-right">
                         <div class="containerImage">
+                            
+                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-3-mb.png') !!}" class="img-mb" loading="lazy">
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-3.png') !!}" loading="lazy">
                         </div>
                     </div>
