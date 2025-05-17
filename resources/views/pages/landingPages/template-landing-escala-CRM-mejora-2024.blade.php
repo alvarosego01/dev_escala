@@ -617,153 +617,154 @@
 
                 <div class="containElements">
 
-                    <section class="innerSectionElement sct1" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-card-implementacion-guiada.svg>') !!})"
+                    <section class="innerSectionElement sct1" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-card-implementacion-guiada.svg') !!})">
                         <div class="containerImage">
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-implementacion-guiada.png') !!}" loading="lazy">
-                </div>
-                <h3 class="subtiTitle">
-                    Implementación <br class="DT_e"> Guiada
-                </h3>
-                <a href="#">Conocer más →</a>
-        </section>
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-implementacion-guiada.png') !!}" loading="lazy">
+                        </div>
+                        <h3 class="subtiTitle">
+                            Implementación <br class="DT_e"> Guiada
+                        </h3>
+                        <a href="#">Conocer más →</a>
+                    </section>
 
-        <section class="innerSectionElement sct2" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-card-implementacion-llave-en-mano.svg') !!})">
-            <div class="containerImage">
-                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-implementacion-llave-en-mano.png') !!}" loading="lazy">
-            </div>
-            <h3 class="subtiTitle">
-                Implementación <br class="DT_e"> Llave en Mano
-            </h3>
-            <a href="#">Conocer más →</a>
-        </section>
-    </div>
-</div>
-
-</section>
-
-
-
-<section class="customSection sectionParent landing_CRM_2024_9">
-
-    <div class="section-row">
-        <section class="innerSectionElement sct0">
-            <h2 class="primaryTitle">
-                Lo que dicen nuestros clientes <br class="space">
-                sobre el CRM de Escala:
-            </h2>
-        </section>
-        <section class="innerSectionElement sct1">
-            <div class="img-left">
-                <div class="containerImage">
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-1.png') !!}" loading="lazy">
-                </div>
-                <div class="containerImage">
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-2.png') !!}" loading="lazy">
+                    <section class="innerSectionElement sct2" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-card-implementacion-llave-en-mano.svg') !!})">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-implementacion-llave-en-mano.png') !!}" loading="lazy">
+                        </div>
+                        <h3 class="subtiTitle">
+                            Implementación <br class="DT_e"> Llave en Mano
+                        </h3>
+                        <a href="#">Conocer más →</a>
+                    </section>
                 </div>
             </div>
-            <div class="img-right">
-                <div class="containerImage">
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-3.png') !!}" loading="lazy">
-                </div>
-            </div>
+
+
         </section>
-    </div>
-
-</section>
-
-<section class="customSection sectionParent landing_CRM_2024_10">
-
-    <div class="section-row" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-section-10-crm-2025.svg') !!})">
-        <section class="innerSectionElement sct1">
-            <div class="img-left">
-                <div class="containerImage">
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-am-escala.png') !!}" loading="lazy">
-                </div>
-
-            </div>
-            <div class="text-right">
-                <p>
-                    <b>“El CRM es el corazón de las operaciones <br class="DT_e">
-                        de todo negocio.</b> Diseñamos Escala para <br class="DT_e">
-                    facilitarle a pequeñas y medianas empresas <br class="DT_e">
-                    tener una cultura cliente-céntrica y optimizar <br class="DT_e">
-                    resultados de venta/servicio”.
-                </p>
-                <span>
-                    <b>Andrés Moreno,</b> <br class="space">
-                    Fundador de escala & Open English
-                </span>
-            </div>
-        </section>
-    </div>
-
-</section>
 
 
-<section class="w-full customSection sectionParent landing_CRM_2024_11">
 
-    <div class="section-row">
-        <section class="innerSectionElement sct0">
-            <h2 class="primaryTitle">
-                Empezar a escalar tu negocio <br class="space">
-                es muy sencillo:
-            </h2>
-        </section>
-        <section class="innerSectionElement sct1">
-            <div class="groupElements">
-                <div class="image">
-                    <div class="containerImage">
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-card-formularios.png') !!}" loading="lazy">
+        <section class="customSection sectionParent landing_CRM_2024_9">
+
+            <div class="section-row">
+                <section class="innerSectionElement sct0">
+                    <h2 class="primaryTitle">
+                        Lo que dicen nuestros clientes <br class="space">
+                        sobre el CRM de Escala:
+                    </h2>
+                </section>
+                <section class="innerSectionElement sct1">
+                    <div class="img-left">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-1.png') !!}" loading="lazy">
+                        </div>
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-2.png') !!}" loading="lazy">
+                        </div>
                     </div>
-                </div>
-                <div class="info">
-                    <h3 class="secondaryTitle">
-                        Inscríbete en el <br class="DT_e">
-                        formulario y un <br class="DT_e">
-                        especialista te <br class="DT_e">
-                        contactará
-                    </h3>
-                </div>
-            </div>
-            <div class="groupElements">
-                <div class="image">
-                    <div class="containerImage">
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-card-tour.png') !!}" loading="lazy">
+                    <div class="img-right">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-3.png') !!}" loading="lazy">
+                        </div>
                     </div>
-                </div>
-                <div class="info">
-                    <h3 class="secondaryTitle">
-                        Recibe un tour <br class="DT_e">
-                        personalizado y gratuito <br class="DT_e">
-                        por la plataforma
-                    </h3>
-                </div>
+                </section>
             </div>
-            <div class="groupElements">
-                <div class="image">
-                    <div class="containerImage">
-                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-card-plan.png') !!}" loading="lazy">
+
+        </section>
+
+        <section class="customSection sectionParent landing_CRM_2024_10">
+
+            <div class="section-row" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-section-10-crm-2025.svg') !!})">
+                <section class="innerSectionElement sct1">
+                    <div class="img-left">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-am-escala.png') !!}" loading="lazy">
+                        </div>
+
                     </div>
-                </div>
-                <div class="info">
-                    <h3 class="secondaryTitle">
-                        Escoge el plan que <br class="DT_e">
-                        se adapte a tu <br class="DT_e">
-                        empresa y empieza <br class="DT_e">
-                        a mejorar tus <br class="DT_e">
-                        resultados
-                    </h3>
-                </div>
+                    <div class="text-right">
+                        <p>
+                            <b>“El CRM es el corazón de las operaciones <br class="DT_e">
+                                de todo negocio.</b> Diseñamos Escala para <br class="DT_e">
+                            facilitarle a pequeñas y medianas empresas <br class="DT_e">
+                            tener una cultura cliente-céntrica y optimizar <br class="DT_e">
+                            resultados de venta/servicio”.
+                        </p>
+                        <span>
+                            <b>Andrés Moreno,</b> <br class="space">
+                            Fundador de escala & Open English
+                        </span>
+                    </div>
+                </section>
+            </div>
+
+        </section>
+
+
+        <section class="w-full customSection sectionParent landing_CRM_2024_11">
+
+            <div class="section-row">
+                <section class="innerSectionElement sct0">
+                    <h2 class="primaryTitle">
+                        Empezar a escalar tu negocio <br class="space">
+                        es muy sencillo:
+                    </h2>
+                </section>
+                <section class="innerSectionElement sct1">
+                    <div class="groupElements">
+                        <div class="image">
+                            <div class="containerImage">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-card-formularios.png') !!}" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h3 class="secondaryTitle">
+                                Inscríbete en el <br class="DT_e">
+                                formulario y un <br class="DT_e">
+                                especialista te <br class="DT_e">
+                                contactará
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="groupElements">
+                        <div class="image">
+                            <div class="containerImage">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-card-tour.png') !!}" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h3 class="secondaryTitle">
+                                Recibe un tour <br class="DT_e">
+                                personalizado y gratuito <br class="DT_e">
+                                por la plataforma
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="groupElements">
+                        <div class="image">
+                            <div class="containerImage">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-card-plan.png') !!}" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h3 class="secondaryTitle">
+                                Escoge el plan que <br class="DT_e">
+                                se adapte a tu <br class="DT_e">
+                                empresa y empieza <br class="DT_e">
+                                a mejorar tus <br class="DT_e">
+                                resultados
+                            </h3>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+            <div class="btnCenter">
+                <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                    Empezar ahora →
+                </a>
             </div>
         </section>
 
     </div>
-    <div class="btnCenter">
-        <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-            Empezar ahora →
-        </a>
-    </div>
-</section>
-
-</div>
 </div>
