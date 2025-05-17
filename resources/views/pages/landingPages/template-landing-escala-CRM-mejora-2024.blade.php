@@ -2,351 +2,291 @@
 
     <div class="sections">
 
-        @php
-        $elementsReviews = [
 
-        [
-        'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
-        'text' => 'Escala / plataforma CRM',
-        'points' => '4.9 / 5',
-        ],
-        [
-        'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
-        'text' => 'Escala / plataforma CRM',
-        'points' => '4.8 / 5',
-        ],
-        [
-        'logo' => App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
-        'text' => 'Escala / plataforma CRM',
-        'points' => '4.8 / 5',
-        ]
-        ];
-        @endphp
+        <section id="lead-form" class="hero2025 landing_CRM_2024_0">
 
-        <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol landing_CRM_2024 landing_CRM_2024_0 ">
+            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-hero-crm-2025-1.png') !!}')">
 
- 
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-landing-crm-mejora01.svg') }}')" class="backgroundFull">
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
-
-                        <div class="groupElements row">
-
-
-                            <div class="info col-md-12 col-lg-8 ">
-
-
-                                <div class="containElements row threeCol">
-
-                                    <div class="ele ele1 col-md-12 col-lg-5 hideOnmobile hideOnTablet">
-
-                                        <div class="containerImage">
-                                            <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta" src="{{ App::setFilePath('/assets/images/person/am/landing_crm_mejora_am_1.png') }}" loading="lazy">
-                                        </div>
-
-                                    </div>
-
-                                    <div class="ele ele2 col-md-12 col-lg-7">
-                                        <h1 class="principalBigTitle">
-
-                                            El CRM con IA, WhatsApp <br class="space">
-                                            y herramientas de marketing
-                                            <span>
-                                                integradas para vender más y mejor
-                                                <br class="space">
-                                            </span>
-
-                                        </h1>
-
-                                        <p class="principalBigText grayColorTexts">
-
-                                            Promueve tus servicios y multiplica tus
-                                            <br class="space">
-                                            ventas con un CRM que sí es fácil de usar
-
-                                        </p>
-
-                                        <div class="elements hideOnmobile hideOnTablet">
-
-                                            @foreach ($elementsReviews as $item)
-                                            <div class="refersElement">
-
-                                                <div class="infoInner">
-                                                    <div class="tag">
-                                                        <div class="containerImage">
-                                                            <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                        </div>
-
-                                                        <span class="points">
-                                                            {!! $item['points'] !!}
-                                                        </span>
-                                                    </div>
-                                                    <p class="text">
-                                                        {!! $item['text'] !!}
-                                                    </p>
-                                                    <div class="stars">
-                                                        <div class="containerImage">
-                                                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-                                            @endforeach
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-
-
+                        <div class="sectionText">
+                            <h1 class="principalBigTitle">
+                                El CRM
+                                <br class="space">
+                                todo-en-uno con
+                                <br class="space">
+                                <span>Inteligencia Artificial</span>
+                            </h1>
+                            <p class="principalBigText">
+                                Multiplica tus clientes usando <br class="DT_e">
+                                herramientas de marketing y <br class="DT_e">
+                                ventas en un solo lugar
+                            </p>
+                            <div class="containerImage">
+                                <img alt="Ilustración de CEO ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/ceo-escala-alfonso-2025.png') !!}" loading="lazy">
                             </div>
-                            <div class="form7 col-md-12 col-lg-4 ">
-                                <div class="containElements">
-
-                                    <div class="formatForm redirectWeb" redirectweb="true">
-
-                                        <h5 class="titleFormat blackcolor"> Recibe un demo <br class="space">
-                                            personalizado de Escala</h5>
-
-                                        @php
-                                        $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
-                                        $_rs = [];
-                                        $_formShortcode = null;
-                                        if ($_data = get_posts($_args)) {
-                                        foreach ($_data as $_key) {
-                                        $_rs[$_key->ID] = $_key->post_title;
-                                        if ($_key->post_title === 'Profile demo - Flujo Demo') {
-                                        $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
-                                        }
-                                        }
-                                        } else {
-                                        $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
-                                        }
-                                        @endphp
-                                        {!! do_shortcode($_formShortcode) !!}
-
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="imageReviewsMobile hideOnDesktop">
-
-                                <div class="image">
-                                    <div class="containerImage">
-                                        <img alt="Ilustración Andrés Moreno, CEO de Escala, embudos de venta" src="{{ App::setFilePath('/assets/images/person/am/landing_crm_mejora_am_1.png') }}" loading="lazy">
-                                    </div>
-
-                                </div>
-
-                                <div class="elements">
-
-                                    @foreach ($elementsReviews as $item)
-                                    <div class="refersElement">
-
-                                        <div class="infoInner">
-                                            <div class="tag">
-                                                <div class="containerImage">
-                                                    <img src="{!! $item['logo'] !!}" loading="lazy">
-                                                </div>
-
-                                                <span class="points">
-                                                    {!! $item['points'] !!}
-                                                </span>
-                                            </div>
-                                            <p class="text">
-                                                {!! $item['text'] !!}
-                                            </p>
-                                            <div class="stars">
-                                                <div class="containerImage">
-                                                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_stars_gold.png') !!}" loading="lazy">
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                    @endforeach
-
-                                </div>
-
-                            </div>
-
-
-
-
-
                         </div>
-
                     </section>
 
+                    <section class="innerSectionElement sct2">
+                        <div class="containerImage">
+                            <img alt="Ilustración de CEO ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/ceo-escala-alfonso-2025.png') !!}" loading="lazy">
+                        </div>
+                    </section>
+
+                    <section class="innerSectionElement sct3">
+                        <div class="form7">
+                            <div class="containElements">
+
+                                <div class="formatForm redirectWeb" redirectweb="true">
+
+                                    <h5 class="titleFormat blackcolor"> Recibe un <br class="space">
+                                        demo personalizado</h5>
+
+                                    @php
+                                    $_args = ['post_type' => 'wpcf7_contact_form', 'posts_per_page' => -1];
+                                    $_rs = [];
+                                    $_formShortcode = null;
+                                    if ($_data = get_posts($_args)) {
+                                    foreach ($_data as $_key) {
+                                    $_rs[$_key->ID] = $_key->post_title;
+                                    if ($_key->post_title === 'Profile demo - Flujo Demo2') {
+                                    $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
+                                    }
+                                    }
+                                    } else {
+                                    $_rs['0'] = esc_html__('No Contact Form found', 'text-domanin');
+                                    }
+                                    @endphp
+                                    {!! do_shortcode($_formShortcode) !!}
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="info2">
+
+
+                            <div class="containElements row threeCol">
+
+                                <div class="ele eleImg col-md-12 col-lg-6">
+
+                                    <div class="containerImage">
+                                        <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/am/am-whatsapp-hero-mb.webp') !!}" loading="lazy">
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
                 </div>
+            </div>
+        </section>
 
 
+        <section class="customSection sectionParent landing_CRM_2024_1">
 
+            <div class="section-row">
+
+                <section class="innerSectionElement sct1">
+                    <div class="groupElements row">
+                        <div class="info col-md-12 col-lg-8 ">
+                            <div class="containElements">
+                                @php
+                                $elementsReviews = [
+                                [
+                                'logo' => App::setFilePath('/assets/images/illustrations/others/google_tag.png'),
+                                'text' => 'Escala / plataforma CRM',
+                                'points' => '4.9 / 5',
+                                ],
+                                [
+                                'logo' => App::setFilePath('/assets/images/illustrations/others/capterra_tag.png'),
+                                'text' => 'Escala / plataforma CRM',
+                                'points' => '4.8 / 5',
+                                ],
+                                [
+                                'logo' =>
+                                App::setFilePath('/assets/images/illustrations/others/trustpilot_img.png'),
+                                'text' => 'Escala / plataforma CRM',
+                                'points' => '4.8 / 5',
+                                ]
+                                ];
+                                @endphp
+                                <div class="ele reviews">
+                                    <div class="elements">
+                                        <div class="iconApp">
+                                            <a target="_blank"
+                                                href="https://www.getapp.com/customer-management-software/crm/category-leaders">
+                                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img_app_record_2025_category.svg') !!}"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+                                        @foreach ($elementsReviews as $item)
+                                        <div class="refersElement">
+
+                                            <div class="infoInner">
+                                                <div class="tag">
+                                                    <div class="containerImage">
+                                                        <img src="{!! $item['logo'] !!}" loading="lazy">
+                                                    </div>
+
+                                                    <span class="points">
+                                                        {!! $item['points'] !!}
+                                                    </span>
+                                                </div>
+                                                <p class="text">
+                                                    {!! $item['text'] !!}
+                                                </p>
+                                                <div class="stars">
+                                                    <div class="containerImage">
+                                                        <img src="{!! App::setFilePath('/assets/images/illustrations/others/icons-stars-yellow.svg') !!}"
+                                                            loading="lazy">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        @endforeach
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
 
         </section>
 
 
 
-        <section class="w-full customSection sectionParent landing_CRM_2024_1">
+        <section class="w-full customSection sectionParent landing_CRM_2024_2">
             <div class="section-row">
-                <section class="innerSectionElement sct0 ">
+                <section class="innerSectionElement sct1 ">
                     <div class="containElements">
 
                         <h2 class="primaryTitle">
-                            ¿Por qué tu empresa
-                            <br class="space">
-                            necesita un CRM?
+                            ¿Por qué tu empresa necesita el <br class="DT_e">
+                            CRM de Escala?
+                        </h2>
+                        <p>
+                            CRM= Customer Relationship Management <br class="space">
+                            <span> (Gestión de Relaciones con Clientes)</span>
+                        </p>
+                    </div>
+                </section>
+                <section class="innerSectionElement sct2 " style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-1-left-1.svg') }}')">
+
+                    <div class="containElements">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-chica-escala-feliz-crm.png') !!}" loading="lazy">
+                        </div>
+                        <div class="info-second">
+                            <p>
+                                Muchos negocios pierden ventas porque <br class="space">
+                                no tienen una forma clara de dar <br class="space">
+                                seguimiento a cada oportunidad. <br class="space">
+                                <br class="space">
+                                Un CRM es un sistema que ayuda a las <br class="space">
+                                empresas a:
+                            </p>
+                            <ul>
+                                <li>Centralizar</li>
+                                <li>Organizar</li>
+                                <li>Automatizar</li>
+                                <li>Mejorar</li>
+                            </ul>
+                            <p>
+                                La manera en que gestionan sus <br class="DT_e">
+                                interacciones con clientes y prospectos.
+                            </p>
+
+                        </div>
+
+                </section>
+            </div>
+        </section>
+
+
+        <section class="w-full customSection sectionParent landing_CRM_2024_3">
+            <div class="section-row">
+                <section class="innerSectionElement sct1 ">
+                    <div class="containElements">
+
+                        <h2 class="primaryTitle">
+                            ¿Cómo te ayuda el CRM <br class="space">
+                            de Escala?
                         </h2>
 
                     </div>
                 </section>
-
-                <section class="innerSectionElement sct1 ">
+                <section class="innerSectionElement sct2">
                     <div class="containElements">
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_8',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/person/landing-crm-mejora-hombre1.png'),
-                        'title' => '
-                        <span>Un CRM </span> le permite a tu negocio:
-                        ',
-                        'text' =>
-                        '
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Gestionar mejor las relaciones con leads y clientes
-                        </span>
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Optimizar los procesos de venta
-                        </span>
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Aumentar la productividad del equipo
-                        </span>
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Tomar decisiones basadas en datos
-                        </span>
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Escalar operaciones ¡y más!.
-                        </span>
-                        ',
-                        'enableButton' => false,
-                        'urlButton' => '#lead-form',
-                        'textButton' => 'Recibe un demo',
-                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                        'side' => 'right',
-                        ];
-                        @endphp
-                        @contain_text_image_T1($parameters)
-                        @endcontain_text_image_T1
+                        <div class="info-second">
+                            <ul>
+                                <li> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}" loading="lazy"> Gestionar mejor las relaciones con <br class="DT_e"> leads y clientes</li>
+                                <li> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}" loading="lazy"> Optimizar los procesos de venta</li>
+                                <li> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}" loading="lazy"> Aumentar la productividad del <br class="DT_e"> equipo</li>
+                                <li> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}" loading="lazy"> Tomar decisiones basadas en datos</li>
+                                <li> <img src="{!! App::setFilePath('/assets/images/icons/check-crm-li-1.svg') !!}" loading="lazy"> Escalar operaciones ¡y más!.</li>
+                            </ul>
+                        </div>
+
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-crm-como-te-ayuda-escala.png') !!}" loading="lazy">
+                        </div>
 
                     </div>
                 </section>
+
 
             </div>
 
         </section>
 
-
-
-        <section class="customSection sectionParent landing_CRM_2024_1_0">
-            <div style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-landing-crm-mejora02.svg') }}')" class="backgroundFull">
+        <section class="customSection sectionParent landing_CRM_2024_4">
+            <div>
                 <div class="section-row">
 
                     <section class="innerSectionElement sct0">
-                        <div class="containerImage">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon_crm_mejora.png') !!}" loading="lazy">
-
-                        </div>
-                        <h2 class="title">
-                            <span>Conoce Escala: </span>
-                            El CRM ideal para
-                            <br class="space">
-                            pequeñas y medianas empresas
+                        <h2 class="primaryTitle">
+                            Vende más con menos esfuerzo
                         </h2>
-
-                        <p class="text">
-                            Fácil de aprender a usar, encuentra todo lo que necesitas
-                            <br class="space">
-                            para atraer, convertir y fidelizar clientes
-                        </p>
-
-
-                        <div class="ele video col-md-12 col-lg-9">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/banners/bg-video-cover.png') !!}" loading="lazy">
+                        </div>
+                        <div class="ele video ">
 
                             @php
-                            $videoEmbed = App::setFilePath(
-                            '/assets/videos/intro_escala__crm_todo-en-uno (1080p).mp4',
-                            );
-                            // $videoCover = App::setFilePath('/assets/images/gifs/home_video_portrait_2023.gif');
-                            $videoCover = App::setFilePath(
-                            '/assets/videos/intro_escala__crm_todo-en-uno (1080p).mp4',
-                            );
+                            $videoEmbed = App::setFilePath('/assets/videos/¿por_qué_tu_empresa_necesita_escala_ (720p).mp4');
+                            $videoCover = App::setFilePath('/assets/images/illustrations/others/img-cover-video-am.png');
                             @endphp
 
                             @if (isset($videoEmbed) && $videoEmbed != null)
-                            <div class="youtubeImageContainer ">
-
-                                <video class="video-js video_1 videoCover" >
-                                    <source src="{{ $videoCover }}" type="video/mp4">
-                                    Tu navegador no soporta videos HTML5.
-                                </video>
-
-                                <video id="video_1" class="video-js video_1" controls preload="none" poster="{{ $videoCover }}" {{-- poster="MY_VIDEO_POSTER.jpg" --}} data-setup="{
-              autoplay: false
-            }">
+                            <div class="youtubeImageContainer">
+                                <!-- Solo necesitas UN elemento video con el atributo poster para la imagen de portada -->
+                                <video id="video_1" class="video-js" controls preload="none" poster="{{ $videoCover }}" data-setup='{"autoplay": false}'>
                                     <source src="{{ $videoEmbed }}" type="video/mp4" />
                                     <source src="{{ $videoEmbed }}" type="video/webm" />
                                     <p class="vjs-no-js">
                                         To view this video please enable JavaScript, and consider
-                                        upgrading to a
-                                        web browser that
-                                        <a href="https://videojs.com/html5-video-support/" target="_blank">supports
-                                            HTML5 video</a>
+                                        upgrading to a web browser that
+                                        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
                                     </p>
                                 </video>
-
-
                             </div>
 
                             <script type="text/javascript">
                                 var player = videojs('video_1');
-
-                                // Agrega un oyente de eventos al evento 'play'
-                                player.on('play', function() {
-
-                                    jQuery('.video_1.videoCover').remove();
-
-                                });
+                                // No necesitas el evento play para eliminar un elemento ya que ahora solo hay un video
                             </script>
                             @endif
-
                         </div>
 
 
@@ -358,14 +298,14 @@
 
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Conocer Escala
+                    Conocer Escala →
                 </a>
             </div>
         </section>
 
 
 
-        <section class="w-full customSection sectionParent landing_CRM_2024_1_1">
+        <section class="w-full customSection sectionParent landing_CRM_2024_5">
             <div class="section-row">
                 <section class="innerSectionElement sct0 ">
                     <div class="containElements">
@@ -373,7 +313,7 @@
                         <h2 class="primaryTitle">
                             ¿Qué logras con el CRM de Escala?
                             <br class="space">
-                            <span> Gestiona y optimiza tu proceso comercial</span>
+                            Gestiona y optimiza tu proceso comercial
                         </h2>
 
                     </div>
@@ -381,173 +321,6 @@
 
                 <section class="innerSectionElement sct1 ">
                     <div class="containElements">
-
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_2',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/gifs/1El-CRM-guarda-automáticamente.gif'),
-                        'title' => '
-
-                        <span>Guarda y gestiona contactos
-                        </span> <br class="space">
-                        automáticamente
-
-                        ',
-                        'text' => 'Inserta los formularios de Escala en landing pages
-                        <br class="DT_e">
-                        o websites, para que los contactos se registren
-                        <br class="DT_e">
-                        automáticamente en el CRM ¡sin necesidad de
-                        <br class="DT_e">
-                        integraciones!
-                        <br class="space">
-                        <br class="space">
-                        <b>Nota:</b> también podrás importarlos masivamente o
-                        <br class="DT_e">
-                        crearlos fácilmente de manera manual.',
-                        'enableButton' => false,
-                        'urlButton' => '#lead-form',
-                        'textButton' => 'Recibe un demo',
-                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                        'side' => 'right',
-                        ];
-                        @endphp
-                        @contain_text_image_T1($parameters)
-                        @endcontain_text_image_T1
-
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_3',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/gifs/3Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes-.gif'),
-                        'title' => '
-                        <span>Haz mejor seguimiento </span>
-                        de tus
-                        <br class="DT_e">
-                        procesos de venta o servicio
-
-                        ',
-                        'text' => 'En Escala es muy simple tener visibilidad sobre la
-                        <br class="DT_e">
-                        etapa en la que se encuentra cada prospecto,
-                        <br class="DT_e">
-                        proyectar resultados y entender qué debes hacer
-                        <br class="DT_e">
-                        para convertir más clientes.',
-                        'enableButton' => false,
-                        'urlButton' => '#lead-form',
-                        'textButton' => 'Recibe un demo',
-                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                        'side' => 'left',
-                        ];
-                        @endphp
-                        @contain_text_image_T1($parameters)
-                        @endcontain_text_image_T1
-
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_4',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/gifs/2automatiza-post-registro.gif',
-                        ),
-                        'title' => '
-                        <span>Automatiza acciones y comunicaciones</span>
-                        <br class="espace">
-                        para aumentar eficiencia y conversión
-                        ',
-                        'text' =>
-                        '¡Olvídate de tareas repetitivas que consumen tiempo
-                        <br class="espace">
-                        de tus vendedores! Ahorra tiempo y errores humanos
-                        <br class="espace">
-                        programando:
-                        <br class="espace">
-                        <br class="espace">
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Envío de emails y WhatsApps
-                        </span>
-
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Asignación de leads
-                        </span>
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Recordatorios y notificaciones al vendedor
-                        </span>
-
-
-                        <span>
-                            <img class="checkIcon" src="' .
-                                    App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png') .
-                                    '" alt="">
-                            Páginas post-registro ¡y más!
-                        </span>
-                        ',
-                        'enableButton' => false,
-                        'urlButton' => '#lead-form',
-                        'textButton' => 'Recibe un demo',
-                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                        'side' => 'right',
-                        ];
-                        @endphp
-                        @contain_text_image_T1($parameters)
-                        @endcontain_text_image_T1
-
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_5',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/gifs/7Lleva-un-historial-de-todas-las-interaccione.gif',
-                        ),
-                        'title' => '
-                        <span>Lleva un historial</span>
-                        de las interacciones
-                        <br class="DT_e">
-                        que has tenido con cada contacto
-
-
-                        ',
-                        'text' => '
-                        En Escala es posible guardar cada email, llamada,
-                        <br class="DT_e">
-                        WhatsApp, propuesta, nota y movimiento que se ha
-                        <br class="DT_e">
-                        realizado con cada persona, para que la accedas
-                        <br class="DT_e">
-                        fácilmente y tomes mejores decisiones de venta.
-                        ',
-                        'enableButton' => false,
-                        'urlButton' => '#lead-form',
-                        'textButton' => 'Recibe un demo',
-                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                        'side' => 'left',
-                        ];
-                        @endphp
-                        @contain_text_image_T1($parameters)
-                        @endcontain_text_image_T1
 
                         @php
                         $parameters = [
@@ -556,19 +329,62 @@
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/gifs/5-metricas-en-tiempo-real_.gif'),
+                        'img' => App::setFilePath('/assets/images/gifs/Captura-Automatica-de-Interesados.gif'),
                         'title' => '
-                        <span>Mide resultados</span>
-                        en tiempo real
+                        Captura automática de <br class="DT_e"> interesados
                         ',
-                        'text' => '
-                        “Lo que no se mide no se mejora”. Escala, permite que
-                        <br class="DT_e">
-                        monitorees el rendimiento de tu equipo muy fácil y
-                        <br class="DT_e">
-                        rápido para que optimices tu proceso comercial
-                        <br class="DT_e">
-                        oportunamente.
+                        'text' => 'Clientes potenciales llegan por formularios, <br class="DT_e">
+                        WhatsApp, redes sociales o campañas y su <br class="DT_e">
+                        información se guarda automáticamente al CRM.',
+                        'enableButton' => false,
+                        'urlButton' => '#lead-form',
+                        'textButton' => 'Recibe un demo',
+                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                        'side' => 'right',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'landing_CRM_2024_6_1',
+                        'enableTitle' => false,
+                        'titlePrincipal' => null,
+                        'subTitlePrincipal' => null,
+                        'img' => App::setFilePath('/assets/images/gifs/Seguimiento-Oportuno.gif'),
+                        'title' => 'Seguimiento oportuno
+                        ',
+                        'text' => 'Se programan mensajes automáticos (por <br class="DT_e">
+                        WhatsApp o email) con información de tus <br class="DT_e">
+                        productos o servicios y sus beneficios, <br class="DT_e">
+                        adaptados según el interés de cada prospecto.',
+                        'enableButton' => false,
+                        'urlButton' => '#lead-form',
+                        'textButton' => 'Recibe un demo',
+                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                        'side' => 'left',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'landing_CRM_2024_6_2',
+                        'enableTitle' => false,
+                        'titlePrincipal' => null,
+                        'subTitlePrincipal' => null,
+                        'img' => App::setFilePath(
+                        '/assets/images/gifs/Clasificacion-Estrategica-de-Leads.gif',
+                        ),
+                        'title' => 'Clasificación estratégica <br class="DT_e"> de leads',
+                        'text' =>
+                        'El CRM permite identificar quién está listo para <br class="DT_e">
+                        comprar, quién solo pidió info y quién necesita <br class="DT_e">
+                        más seguimiento.
                         ',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
@@ -583,31 +399,74 @@
                         @php
                         $parameters = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_7',
+                        'classSection' => 'landing_CRM_2024_6_3',
                         'enableTitle' => false,
                         'titlePrincipal' => null,
                         'subTitlePrincipal' => null,
                         'img' => App::setFilePath(
-                        '/assets/images/gifs/6-1Gestiona-uno-o-más-procesos-para-convertir-contactos-en-clientes.gif',
+                        '/assets/images/gifs/Gestion-Eficiente-del-Embudo.gif',
                         ),
-                        'title' => '
-                        <span>Integra marketing y ventas </span>
-                        en un <br class="DT_e">
-                        solo lugar
+                        'title' => 'Gestión eficiente del embudo
                         ',
-                        'text' => '
-                        Simplifica la colaboración entre áreas con
-                        <br class="DT_e">
-                        herramientas como Email, WhatsApp y Landing
-                        <br class="DT_e">
-                        Pages ya integradas al CRM de Escala.
-                        <br class="DT_e">
-                        <br class="DT_e">
-                        ¡También es posible integrarte con miles de
-                        <br class="DT_e">
-                        aplicaciones gracias a Zapier y nuestra API
-                        <br class="DT_e">
-                        pública!
+                        'text' => 'Puedes llevar un mejor control del proceso comercial <br class="DT_e">
+                        pasando prospectos por etapas como: nuevo lead, <br class="DT_e">
+                        primer contacto, visita agendada, visita realizada, <br class="DT_e">
+                        en evaluación y venta. Así mides, analizas, anticipas <br class="DT_e">
+                        y priorizas.
+                        ',
+                        'enableButton' => false,
+                        'urlButton' => '#lead-form',
+                        'textButton' => 'Recibe un demo',
+                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                        'side' => 'left',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'landing_CRM_2024_6_4',
+                        'enableTitle' => false,
+                        'titlePrincipal' => null,
+                        'subTitlePrincipal' => null,
+                        'img' => App::setFilePath('/assets/images/gifs/Agendamiento-y-Recordatorios-Automaticos.gif'),
+                        'title' => 'Agendamiento y recordatorios <br class="DT_e"> automáticos
+                        ',
+                        'text' => 'Cada vendedor tiene un calendario con un link único <br class="DT_e">
+                        que puede compartir con sus prospectos para que <br class="DT_e">
+                        reserven un espacio disponible en su agenda. Una <br class="DT_e">
+                        vez agendan, dispara recordatorios automatizados <br class="DT_e">
+                        para aumentar asistencia. También pueden crear y <br class="DT_e">
+                        priorizar listas de tareas con recordatorios.
+                        ',
+                        'enableButton' => false,
+                        'urlButton' => '#lead-form',
+                        'textButton' => 'Recibe un demo',
+                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                        'side' => 'right',
+                        ];
+                        @endphp
+                        @contain_text_image_T1($parameters)
+                        @endcontain_text_image_T1
+
+                        @php
+                        $parameters = [
+                        'type' => 'backgroundColor',
+                        'classSection' => 'landing_CRM_2024_6_5',
+                        'enableTitle' => false,
+                        'titlePrincipal' => null,
+                        'subTitlePrincipal' => null,
+                        'img' => App::setFilePath(
+                        '/assets/images/gifs/Reportes-de-Venta-en-Tiempo-Real.gif',
+                        ),
+                        'title' => 'Reportes de venta en <br class="DT_e"> tiempo real
+                        ',
+                        'text' => 'Puedes tener una visión 360 del negocio con <br class="DT_e">
+                        información como: cuántas oportunidades se <br class="DT_e">
+                        ganaron, qué campaña de marketing trajo más <br class="DT_e">
+                        ventas y qué vendedor cerró más.
                         ',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
@@ -624,453 +483,219 @@
             </div>
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Solicitar demo
+                    Prueba Escala ahora →
                 </a>
             </div>
         </section>
 
 
 
+        @php
+        $parameters = [
+        'type' => 'backgroundColor',
+        'classSection' => 'landing_CRM_2024_7',
+        'enableTitle' => true,
+        'titlePrincipal' => '
+        Descubre el poder de tener todas las herramientas <br class="space">
+        en una sola plataforma
+        ',
+        'subTitlePrincipal' => null,
+        'overlay' => false,
+        'enableButton' => false,
+        'elements' => [
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/crm-gestion-icons.png'),
+        'title' => '
+        CRM (Gestión <br class="space">
+        de contactos)
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/ai-escala-icons-whatsapp.png'),
+        'title' => '
+        Inteligencia <br class="space">
+        Artificial
+        ',
+        'enableButton' => false,
+        ],
 
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-landing-crm-mejora03.svg') !!})" class="customSection sectionParent landing_CRM_2024_9">
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/inbox-omnicanal-icons.png'),
+        'title' => '
+        Inbox <br class="space">
+        Omnicanal
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/automatizacion-icons.png'),
+        'title' => '
+        Flujos de <br class="space">
+        Automatización
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/app-escala-icons.png'),
+        'title' => '
+        App móvil <br class="space">
+        de Escala
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/email-marketing-icons.png'),
+        'title' => '
+        Email <br class="space">
+        Marketing
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/calendario-escala.png'),
+        'title' => '
+        Agendamiento <br class="space"><br class="space">
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/anuncios-icons.png'),
+        'title' => '
+        Anuncios <br class="space">
+        Digitales
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/landing-pages-icons.png'),
+        'title' => '
+        Landing <br class="space">
+        Pages
+        ',
+        'enableButton' => false,
+        ],
+        [
+        'img_alt' => null,
+        'img' => App::setFilePath('/assets/images/illustrations/others/reportes-personalizados.png'),
+        'title' => '
+        Reportes <br class="space">
+        Personalizados
+        ',
+        'enableButton' => false,
+        ],
+        ],
+        ];
+        @endphp
+
+        @contain_multiple_cards_T2($parameters)
+        @endcontain_multiple_cards_T2
+
+
+
+
+        <section class="customSection sectionParent landing_CRM_2024_8">
+
             <div class="section-row">
+                <section class="innerSectionElement sct0">
+
+                    <h2 class="primaryTitle">
+                        ¡Ningún otro CRM te acompaña mejor!
+                        <br class="space">
+                        Te guiamos a implementarlo exitosamente
+                    </h2>
+                </section>
+
                 <div class="containElements">
 
-                    @php
-                    $parameters = [
-                    'type' => 'backgroundColor',
-                    'classSection' => 'landing_CRM_2024_9',
-                    'enableTitle' => true,
-                    'titlePrincipal' => '
-                    Descubre el poder de tener todas las
-                    <br class="DT_e">
-                    herramientas <span> en una sola plataforma</span>
-                    ',
-                    'subTitlePrincipal' => null,
-                    'overlay' => false,
-                    'enableButton' => false,
-                    // 'urlButton' => '#',
-                    // 'textButton' => 'Recibe un demo',
-                    // 'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022 hoverInEffect',
-                    // 'overlayImage' => 'https://cdn.Escala.com/wp-content/uploads/sites/2/2021/06/pagebuilder-planets.svg',
-                    'elements' => [
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_Ws.png'),
-                    'title' => 'WhatsApp
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_ai.png'),
-                    'title' => 'Inteligencia<br class="space">
-                    Artificial
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_crm.png'),
-                    'title' => 'Gestión de <br class="space">contactos y <br class="space"> procesos
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath(
-                    '/assets/images/illustrations/others/icon_crm_automatizaciones.png',
-                    ),
-                    'title' => 'Automatizaciones
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath(
-                    '/assets/images/illustrations/others/icon_crm_landing.png',
-                    ),
-                    'title' => 'Landing<br class="space"> Pages
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_email.png'),
-                    'title' => 'Email<br class="space"> Marketing
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath('/assets/images/illustrations/others/icon_crm_ads.png'),
-                    'title' => 'Anuncios<br class="space"> digitales
-                    ',
-                    'enableButton' => false,
-                    ],
-                    [
-                    'img_alt' => null,
-                    'img' => App::setFilePath(
-                    '/assets/images/illustrations/others/icon_crm_reportes.png',
-                    ),
-                    'title' => 'Reportes<br class="space"> personalizados
-                    ',
-                    'enableButton' => false,
-                    ],
-                    ],
-                    ];
-                    @endphp
+                    <section class="innerSectionElement sct1" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-card-implementacion-guiada.svg') !!})">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-implementacion-guiada.png') !!}" loading="lazy">
+                        </div>
+                        <h3 class="subtiTitle">
+                            Implementación <br class="space"> Guiada
+                        </h3>
+                        <a href="#">Conocer más →</a>
+                    </section>
 
-                    @contain_multiple_cards_T2($parameters)
-                    @endcontain_multiple_cards_T2
-
-                    <span>
-                        ¡Y más!
-                    </span>
+                    <section class="innerSectionElement sct2" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-card-implementacion-llave-en-mano.svg') !!})">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-implementacion-llave-en-mano.png') !!}" loading="lazy">
+                        </div>
+                        <h3 class="subtiTitle">
+                            Implementación <br class="space"> Llave en Mano
+                        </h3>
+                        <a href="#">Conocer más →</a>
+                    </section>
                 </div>
             </div>
 
+
         </section>
 
 
-        <section class="customSection sectionParent landing_CRM_2024_9_1 ">
+
+        <section class="customSection sectionParent landing_CRM_2024_9">
 
             <div class="section-row">
-
+                <section class="innerSectionElement sct0">
+                    <h2 class="primaryTitle">
+                        Lo que dicen nuestros clientes <br class="space">
+                        sobre el CRM de Escala:
+                    </h2>
+                </section>
                 <section class="innerSectionElement sct1">
-
-                    <div class="containElements">
-                        <h2 class="title">
-                            ¡Ningún otro CRM te acompaña mejor!
-                            <br class="DT_e">
-                            <span> Te guiamos a implementarlo exitosamente</span>
-                        </h2>
-                    </div>
-
-                </section>
-                <section class="innerSectionElement sct2">
-
-                    <div class="containElements">
-
-                        <div class="row">
-                            <div class="col-md-12 col-lg-4 cardParent column-1">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_crm_top_card.svg') !!})" class="top-pill">
-                                            Gerente de <br class="space">Éxito
-                                        </div>
-                                        <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/crm_2024_img_01.png') !!}" loading="lazy">
-
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Principal punto de contacto</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Conoce tu negocio a mayor profundidad</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Te guía a definir planes de implementación con Escala</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Apoya analizando resultados</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Te acompaña todo el año</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-lg-4 cardParent column-2">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_crm_top_card.svg') !!})" class="top-pill">
-                                            Especialista de <br class="space"> Implementación
-
-                                        </div>
-                                        <img class="column-1" src="{!! App::setFilePath('/assets/images/illustrations/others/crm_2024_img_02.png') !!}" loading="lazy">
-
-                                        <div class="list-block">
-                                            <ul>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                        <p>Se involucra después de haber definido plan</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                        <p>Guía implementando la plataforma</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                        <p>Asegura que uses las herramientas efectivamente</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="list-item">
-                                                        <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                        <p>Disponible los primeros meses con Escala</p>
-                                                    </div>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-lg-4 cardParent column-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_crm_top_card.svg') !!})" class="top-pill">
-                                            Soporte Técnico <br class="space"> en vivo por chat
-                                        </div>
-                                        <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/crm_2024_img_03.png') !!}" loading="lazy">
-
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Apoya en la configuración técnica de la plataforma</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Atiende preguntas y necesidades técnicas puntuales</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Conecta por chat de plataforma o WhatsApp</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Disponible mientras tengas suscripción activa</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                            <div class="col-md-12 col-lg-4 cardParent column-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_crm_top_card.svg') !!})" class="top-pill">
-                                            Servicio de <br class="space"> Personalización
-                                        </div>
-                                        <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/crm_2024_img_04.png') !!}" loading="lazy">
-
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Personaliza el CRM a tus necesidades</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Crea plantillas de email y páginas según tu marca</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Crea la base para un flujo automatizado</p>
-                                                </div>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                            <div class="col-md-12 col-lg-4 cardParent column-5">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div style="background-image: url({!! App::setFilePath('/assets/images/overlays/landing_crm_top_card.svg') !!})" class="top-pill">
-                                            Capacitación a<br class="space"> Líderes y Vendedores
-                                        </div>
-                                        <img class="column-3" src="{!! App::setFilePath('/assets/images/illustrations/others/crm_2024_img_05.png') !!}" loading="lazy">
-
-                                        <ul>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Bootcamps en vivo </p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list-item">
-                                                    <img src="{!! App::setFilePath('/assets/images/icons/icon_list_crm.png') !!}" loading="lazy">
-                                                    <p>Masterclasses con el equipo de expertos de alto nivel de Escala
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            
-
-                                        </ul>
-                                    </div>
-                                </div>
-
-
-                            </div>
+                    <div class="img-left">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-1.png') !!}" loading="lazy">
+                        </div>
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-2.png') !!}" loading="lazy">
                         </div>
                     </div>
-
+                    <div class="img-right">
+                        <div class="containerImage">
+                            
+                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-3-mb.png') !!}" class="img-mb" loading="lazy">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-3.png') !!}" loading="lazy">
+                        </div>
+                    </div>
                 </section>
             </div>
 
         </section>
-        <div class="btnCenter">
-            <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                Conocer más
-            </a>
-        </div>
-
-
-
-
-        {{-- @php
-            $parameters = [
-                'classSection' => 'landing_CRM_2024_11',
-                'enableTitle' => true,
-                'titlePrincipal' => '
-                Lo que dicen nuestros clientes <br class="space">
-                sobre el CRM de Escala:
-                ',
-                'subTitlePrincipal' => null,
-                'enableContainerButton' => false,
-                'urlButton' => '#',
-                'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                'textButton' => 'Recibe un demo',
-                'mob_reviews' => [
-                    App::setFilePath('/assets/images/illustrations/others/crm_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/crm_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/crm_review_3.png')
-                ],
-                'desk_reviews' => [
-                    [
-                    App::setFilePath('/assets/images/illustrations/others/crm_review_1.png'),
-                App::setFilePath('/assets/images/illustrations/others/crm_review_2.png'),
-                App::setFilePath('/assets/images/illustrations/others/crm_review_3.png')]
-                ],
-            ];
-        @endphp
-        @reviews_sliders_T1($parameters)
-        @endreviews_sliders_T1 --}}
-
-        <section class='w-full customSection sectionParent landing_CRM_2024_11'>
-
-            <div class="section-row">
-
-                <section class='innerSectionElement sct0 '>
-                    <div class='containElements'>
-                        <h2 class="primaryTitle">
-                            <span>Lo que dicen nuestros clientes</span> <br class="space">
-                            sobre el CRM de Escala:
-                        </h2>
-                    </div>
-
-                </section>
-                <section class='innerSectionElement sct1 '>
-                    <div class='containElements'>
-
-                        <div class="review r1">
-                            <div class="containerImage">
-                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1.png') }}" loading="lazy">
-                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_1_m.png') }}" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="review r2">
-                            <div class="containerImage">
-                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2.png') }}" loading="lazy">
-                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_2_m.png') }}" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="review r3">
-                            <div class="containerImage">
-                                <img class="DT2_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3.png') }}" loading="lazy">
-                                <img class="M_e" src="{{ App::setFilePath('/assets/images/illustrations/others/review_new_3_m.png') }}" loading="lazy">
-                            </div>
-                        </div>
-
-                    </div>
-
-                </section>
-            </div>
-
-        </section>
-
-
 
         <section class="customSection sectionParent landing_CRM_2024_10">
 
-            <div class="section-row">
-
-
-                <section class="innerSectionElement sct2">
-                    {{-- style="background-image: url({!! App::setFilePath('/assets/images/banners/am_overlay_email-mkt.png') !!})"  --}}
-                    <img src="{!! App::setFilePath('/assets/images/banners/bg_landing_CRM_2.svg') !!}" alt="" class="overlay">
-
-                    <div class="containElements">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-5 column-img">
-                                <div class="img-container">
-                                    <img src="{!! App::setFilePath('/assets/images/person/am/landing_crm_am_2.png') !!}" loading="lazy">
-                                </div>
-                            </div>
-                            <div class="col-md-12 col-lg-7 column-text">
-                                <p>
-                                    <span>
-                                        “El CRM es el corazón de las operaciones
-                                        <br class="space">
-                                        de todo negocio.
-                                    </span>
-                                    Diseñamos Escala para
-                                    <br class="DT_e">
-                                    facilitarle a pequeñas y medianas empresas
-                                    <br class="DT_e">
-                                    tener una cultura cliente-céntrica y
-                                    <br class="DT_e">
-                                    optimizar resultados de venta/servicio”.
-                                    <br class="space">
-                                    <br class="space">
-                                    <span class="sub">
-                                        Andrés Moreno <br class="space">
-                                        <small>Fundador de Escala & Open English</small>
-                                    </span>
-
-                                </p>
-
-                            </div>
+            <div class="section-row" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-section-10-crm-2025.svg') !!})">
+                <section class="innerSectionElement sct1">
+                    <div class="img-left">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-am-escala.png') !!}" loading="lazy">
                         </div>
+
+                    </div>
+                    <div class="text-right">
+                        <p>
+                            <b>“El CRM es el corazón de las operaciones <br class="space">
+                                de todo negocio.</b> Diseñamos Escala para <br class="space">
+                            facilitarle a pequeñas y medianas empresas <br class="space">
+                            tener una cultura cliente-céntrica y optimizar <br class="space">
+                            resultados de venta/servicio”.
+                        </p>
+                        <span>
+                            <b>Andrés Moreno,</b> <br class="space">
+                            Fundador de escala & Open English
+                        </span>
                     </div>
                 </section>
             </div>
@@ -1078,91 +703,72 @@
         </section>
 
 
-
-        <section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg_landing_CRM_3.1.svg') !!})" class='w-full customSection sectionParent landing_CRM_2024_13'>
+        <section class="w-full customSection sectionParent landing_CRM_2024_11">
 
             <div class="section-row">
-
-                <section class='innerSectionElement sct0 '>
-                    <div class='containElements'>
-
-                        <h2 class="primaryTitle">
-                            Empezar a escalar tu negocio <br class="space">
-                            <span> es muy sencillo:</span>
-                        </h2>
-
-                    </div>
+                <section class="innerSectionElement sct0">
+                    <h2 class="primaryTitle">
+                        Empezar a escalar tu negocio <br class="space">
+                        es muy sencillo:
+                    </h2>
                 </section>
-
-                <section class='innerSectionElement sct1 '>
-                    <div class='containElements'>
-                        @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
-                        'classSection' => 'landing_CRM_2024_13_1',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'overlay' => false,
-                        'enableButton' => false,
-                        'elements' => [
-                        [
-                        'img_alt' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/illustrations/others/landing_crm_form.png',
-                        ),
-                        'title' => '
-                        <span>Inscríbete en el formulario</span>
-                        <br class="DT_e">
-                        y un especialista te
-                        <br class="DT_e">
-                        contactará
-                        ',
-                        'enableButton' => false,
-                        ],
-                        [
-                        'img_alt' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/illustrations/others/landing_crm_form_tour.png',
-                        ),
-                        'title' => '
-                        <span> Recibe un tour
-                            <br class="DT_e">
-                            personalizado</span> y gratuito
-                        <br class="DT_e">
-                        por la plataforma
-                        ',
-                        'enableButton' => false,
-                        ],
-                        [
-                        'img_alt' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/illustrations/others/landing_crm_form_plan.png',
-                        ),
-                        'title' => '
-                        <span>Escoge el plan que se <br class="DT_e">
-                            adapte a tu empresa</span> <br class="DT_e">
-                        y empieza a mejorar <br class="DT_e">
-                        tus resultados
-                        ',
-                        'enableButton' => false,
-                        ],
-                        ],
-                        ];
-                        @endphp
-
-                        @contain_multiple_cards_T2($parameters)
-                        @endcontain_multiple_cards_T2
-
-
-
+                <section class="innerSectionElement sct1">
+                    <div class="groupElements">
+                        <div class="image">
+                            <div class="containerImage">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-card-formularios.png') !!}" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h3 class="secondaryTitle">
+                                Inscríbete en el <br class="space">
+                                formulario y un <br class="space">
+                                especialista te <br class="space">
+                                contactará
+                                <br class="space">
+                                <br class="space">
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="groupElements">
+                        <div class="image">
+                            <div class="containerImage">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-card-tour.png') !!}" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h3 class="secondaryTitle">
+                                Recibe un tour <br class="space">
+                                personalizado y gratuito <br class="space">
+                                por la plataforma
+                                <br class="space">
+                                <br class="space">
+                                <br class="space">
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="groupElements">
+                        <div class="image">
+                            <div class="containerImage">
+                                <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-card-plan.png') !!}" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h3 class="secondaryTitle">
+                                Escoge el plan que <br class="space">
+                                se adapte a tu <br class="space">
+                                empresa y empieza <br class="space">
+                                a mejorar tus <br class="space">
+                                resultados
+                            </h3>
+                        </div>
                     </div>
                 </section>
 
             </div>
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Empezar ahora
+                    Empezar ahora →
                 </a>
             </div>
         </section>
