@@ -50,7 +50,7 @@
                                     if ($_data = get_posts($_args)) {
                                     foreach ($_data as $_key) {
                                     $_rs[$_key->ID] = $_key->post_title;
-                                    if ($_key->post_title === 'Profile demo - Flujo Demo2') {
+                                    if ($_key->post_title === 'Profile demo - Flujo Demo') {
                                     $_formShortcode = '[contact-form-7 id="' . $_key->ID . '"]';
                                     }
                                     }
