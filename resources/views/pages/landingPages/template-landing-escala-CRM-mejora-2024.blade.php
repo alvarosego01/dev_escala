@@ -11,11 +11,20 @@
                     <section class="innerSectionElement sct1">
                         <div class="sectionText">
                             <h1 class="principalBigTitle">
+                                El CRM <br class="special">
+                                <br class="space">
+                                todo-en-uno con
+                                <br class="space">
+                                <span>Inteligencia Artificial</span>
+                            </h1>
+
+                              <h1 class="principalBigTitleMb">
                                 El CRM
                                 <br class="space">
                                 todo-en-uno con
                                 <br class="space">
                                 <span>Inteligencia Artificial</span>
+                                
                             </h1>
                             <p class="principalBigText">
                                 Multiplica tus clientes usando <br class="DT_e">
