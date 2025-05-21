@@ -5,7 +5,7 @@
 
         <section id="lead-form" class="hero2025 landing_CRM_2024_0">
 
-            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-hero-crm-2025-1.png') !!}')">
+            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-hero-crm-2025.png') !!}')">
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -624,7 +624,7 @@
                         <h3 class="subtiTitle">
                             Implementación <br class="space"> Guiada
                         </h3>
-                        <a href="#">Conocer más →</a>
+                        <a href="https://escala.com/implementacion-guiada/">Conocer más →</a>
                     </section>
 
                     <section class="innerSectionElement sct2" style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-card-implementacion-llave-en-mano.svg') !!})">
@@ -634,7 +634,7 @@
                         <h3 class="subtiTitle">
                             Implementación <br class="space"> Llave en Mano
                         </h3>
-                        <a href="#">Conocer más →</a>
+                        <a href="https://escala.com/implementacion-llave-en-mano/">Conocer más →</a>
                     </section>
                 </div>
             </div>
