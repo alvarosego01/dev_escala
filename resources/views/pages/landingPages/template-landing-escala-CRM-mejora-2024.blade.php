@@ -11,7 +11,7 @@
                     <section class="innerSectionElement sct1">
                         <div class="sectionText">
                             <h1 class="principalBigTitle">
-                                El CRM <br class="special">
+                                El CRM 
                                 <br class="space">
                                 todo-en-uno con
                                 <br class="space">
