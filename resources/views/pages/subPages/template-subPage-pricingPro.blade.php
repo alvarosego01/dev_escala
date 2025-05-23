@@ -388,7 +388,7 @@ o",
 "value" => "checkIcon"
 ],
 [
-"name" => "Checkbox aceptación de politicas  ",
+"name" => "Checkbox aceptación de politicas ",
 "value" => "checkIcon"
 ],
 )
@@ -538,7 +538,7 @@ o",
                             </h1>
 
                             <p class="primaryText grayColorTexts">
-                            Ten acceso a las herramientas y el acompañamiento personalizado que acelera tu éxito.
+                                Ten acceso a las herramientas y el acompañamiento personalizado que acelera tu éxito.
                             </p>
 
                         </div>
@@ -630,7 +630,7 @@ o",
                                             </div>
                                         </div>
 
-                                        <div class="calculator dynamic-height">
+                                        <!-- <div class="calculator dynamic-height">
 
                                             <form regularPlansCalc onkeydown="if (event.keyCode == 13) { return false; }" action="" id="formCalcGeneral_PRO">
 
@@ -762,8 +762,131 @@ o",
                                                 </div>
 
                                             </form>
-                                        </div>
+                                        </div> -->
+                                        <div class="calculator dynamic-height">
 
+                                            <form regularPlansCalc onkeydown="if (event.keyCode == 13) { return false; }" action="" id="formCalcGeneral_PRO">
+
+                                                <div class=" inputs">
+                                                    <div class="price">
+
+                                                        <h3>Calcula el precio de tu plan</h3>
+
+                                                        <div class="field number">
+                                                            <input name="_contactsField" class="contactsField" step="1000" type="number" value="1000" min="1000">
+
+                                                            <div class="quantity-nav">
+                                                                <div class="quantity-button quantity-up">
+                                                                    <i class="fas fa-caret-up"></i>
+                                                                </div>
+                                                                <div class="quantity-button quantity-down">
+                                                                    <i class="fas fa-caret-down"></i>
+                                                                </div>
+                                                            </div>
+
+                                                            <label for="_contactsField">
+                                                                Coloca el número de <br class="DT_e">
+                                                                contactos de marketing <button class="questionIcon openPopUpButton popup-pricingPro_Message_Contacts">?</button>
+                                                            </label>
+                                                        </div>
+                                                        <div class="field number">
+                                                            <input name="_usersField" class="usersField" step="1" type="number" value="1" min="1">
+
+                                                            <div class="quantity-nav">
+                                                                <div class="quantity-button quantity-up">
+                                                                    <i class="fas fa-caret-up"></i>
+                                                                </div>
+                                                                <div class="quantity-button quantity-down">
+                                                                    <i class="fas fa-caret-down"></i>
+                                                                </div>
+                                                            </div>
+
+                                                            <label for="_usersField">
+                                                                Coloca el número de usuarios <br class="DT_e">
+                                                                con acceso a la plataforma
+                                                            </label>
+                                                        </div>
+                                                        <div class="field select">
+                                                            <select name="_iaField">
+                                                                <option value="No" selected>No</option>
+                                                                <option value="Si">Si</option>
+                                                            </select>
+
+                                                            <div class="quantity-nav">
+                                                                <div class="quantity-button quantity-up">
+                                                                    <i class="fas fa-caret-up"></i>
+                                                                </div>
+                                                                <div class="quantity-button quantity-down">
+                                                                    <i class="fas fa-caret-down"></i>
+                                                                </div>
+                                                            </div>
+
+                                                            <label for="_iaField">
+                                                                Incluye <span><strong> Inteligencia Artificial</strong></span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="field select">
+                                                            <select name="_omnicanalField" id="omnicanalField">
+                                                                <option value="No" selected>No</option>
+                                                                <option value="Si">Si</option>
+                                                            </select>
+                                                            <div class="quantity-nav">
+                                                                <div class="quantity-button quantity-up">
+                                                                    <i class="fas fa-caret-up"></i>
+                                                                </div>
+                                                                <div class="quantity-button quantity-down">
+                                                                    <i class="fas fa-caret-down"></i>
+                                                                </div>
+                                                            </div>
+                                                            <label for="_omnicanalField">
+                                                                Incluye <span><strong> Inbox Omnicanal*</strong></span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="omniInfo">
+                                                            <span>
+                                                                <strong>*El Inbox Omnicanal incluye</strong> una línea de WhatsApp y una cuenta de Facebook e Instagram
+                                                            </span>
+                                                        </div>
+                                                        <div class="field number omnicanal-options" style="display: none;">
+                                                            <input name="_whatsappField" class="whatsappField" step="1" type="number" value="0" min="0">
+                                                            <div class="quantity-nav">
+                                                                <div class="quantity-button quantity-up">
+                                                                    <i class="fas fa-caret-up"></i>
+                                                                </div>
+                                                                <div class="quantity-button quantity-down">
+                                                                    <i class="fas fa-caret-down"></i>
+                                                                </div>
+                                                            </div>
+                                                            <label for="_whatsappField">
+                                                                Número de líneas adicionales de <span><strong> WhatsApp</strong></span>
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="field number omnicanal-options" style="display: none;">
+                                                            <input name="_facebookField" class="facebookField" step="1" type="number" value="0" min="0">
+                                                            <div class="quantity-nav">
+                                                                <div class="quantity-button quantity-up">
+                                                                    <i class="fas fa-caret-up"></i>
+                                                                </div>
+                                                                <div class="quantity-button quantity-down">
+                                                                    <i class="fas fa-caret-down"></i>
+                                                                </div>
+                                                            </div>
+                                                            <label for="_facebookField">
+                                                                Número de cuentas adicionales de <span><strong> Facebook / Instagram* </strong></span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="omniInfo2">
+                                                            <span>
+                                                                *Facebook e instagram <strong>vienen en combo</strong>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </form>
+                                        </div>
                                         <div class="buttonSection">
 
                                             <a class=" primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
@@ -1426,7 +1549,7 @@ o",
         <section class="customSection sectionParent subPage_pricingPro_1">
 
             <div class="section-row">
-            <section class="innerSectionElement sct0">
+                <section class="innerSectionElement sct0">
                     <h2 class="title" id="idCompare">
                         Beneficios
                     </h2>

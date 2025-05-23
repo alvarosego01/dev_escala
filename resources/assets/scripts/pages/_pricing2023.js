@@ -376,42 +376,44 @@ function trimDecimals(costFinal) {
 }
 
 function calculateFinal(data) {
+
     let _contacts = converContacts(data._contactsField);
     let _users = convertUsers(data);
-
-    // Add IA plan pricing
-    let iaPricing = {
-        No: 0,
-        Bronce: _typePlan === 'monthly' ? 40 : 32,
-        Plata: _typePlan === 'monthly' ? 200 : 160,
-        Oro: _typePlan === 'monthly' ? 1000 : 800,
-        Platino: _typePlan === 'monthly' ? 2000 : 1600
-    };
-    let _iaField = iaPricing[data._iaField] || 0;
-
+    let _iaField = (data._iaField === 'Si') ? 40 : 0;
     let _omnicanalField = (data._omnicanalField === 'Si') ? 40 : 0;
     let _whatsappField = (data._omnicanalField === 'Si') ? (data._whatsappField * 25) : 0;
     let _facebookField = (data._omnicanalField === 'Si') ? (data._facebookField * 25) : 0;
 
-    let extra = _omnicanalField + _whatsappField + _facebookField;
+    let extra = 0;
+    extra = extra + _iaField + _omnicanalField + _whatsappField + _facebookField;
 
     if (_typePlan == 'monthly') {
-        costFinal = _contacts.pro + _users.pro + extra + _iaField;
+        let priceTach = null;
+        costFinal = _contacts.pro + _users.pro + extra;
         discount = 0;
-        let priceTach = costFinal * 12;
+        priceTach = costFinal * 12;
+        priceTach = priceTach.toFixed(2);
         priceTach = trimDecimals(priceTach);
         jQuery('.pricingCard.pro .elementBody .price .cost .ahorro ').html('Pago total de USD ' + priceTach + ' / año');
     }
 
     if (_typePlan == 'yearly') {
-        costFinal = _contacts.pro + _users.pro + extra + _iaField;
-        let priceTach = costFinal * 12;
-        let discountTotal = priceTach - (priceTach * 0.20);
+        let priceTach = null;
+        let priceAhorro = null;
+        let discountTotal = null;
+        costFinal = _contacts.pro + _users.pro + extra;
+        priceTach = costFinal * 12;
+        discountTotal = priceTach - (priceTach * 0.20);
         discount = costFinal * 0.20;
         costNoDiscount = costFinal;
         costFinal = costFinal - discount;
-        discount = trimDecimals(discount);
+        discount = discount.toFixed(2);
+        costNoDiscount = costNoDiscount.toFixed(2);
+        costFinal = costFinal.toFixed(2);
+        priceTach = priceTach.toFixed(2);
+        discountTotal = discountTotal.toFixed(2);
         costNoDiscount = trimDecimals(costNoDiscount);
+        discount = trimDecimals(discount);
         priceTach = trimDecimals(priceTach);
         discountTotal = trimDecimals(discountTotal);
         jQuery('.pricingCard.pro .elementBody .price .cost .ahorro ').html(' Pago total de USD <span>' + priceTach + '</span> - USD ' + discountTotal + ' / año');
@@ -419,6 +421,7 @@ function calculateFinal(data) {
 
     costFinal = trimDecimals(costFinal);
     jQuery('.pricingCard.pro .price .discountCost').html('<span>USD ' + costFinal + ' <small>/ mes</small> </span>');
+
 }
 
 function openCompare(){
@@ -468,7 +471,7 @@ function adjustCalculatorHeight() {
         if (jQuery('#omnicanalField').val() === 'Si') {
             jQuery('.calculator').css('height', '415px');
         } else {
-            jQuery('.calculator').css('height', '310px');
+            jQuery('.calculator').css('height', '280px');
         }
     } else {
         if (jQuery('#omnicanalField').val() === 'Si') {
@@ -575,10 +578,6 @@ jQuery(window).on('scroll', sticky_headerTable);
     });
 
     jQuery('.omnicanal-options input').on('change', function () {
-        jQuery('form#formCalcGeneral_PRO').trigger('change');
-    });
-
-    jQuery('#_iaField').on('change', function () {
         jQuery('form#formCalcGeneral_PRO').trigger('change');
     });
 
