@@ -379,16 +379,9 @@ function calculateFinal(data) {
     let _contacts = converContacts(data._contactsField);
     let _users = convertUsers(data);
 
-    // Add IA plan pricing
-    let iaPricing = {
-        No: 0,
-        Bronce: _typePlan === 'monthly' ? 40 : 32,
-        Plata: _typePlan === 'monthly' ? 200 : 160,
-        Oro: _typePlan === 'monthly' ? 1000 : 800,
-        Platino: _typePlan === 'monthly' ? 2000 : 1600
-    };
-    let _iaField = iaPricing[data._iaField] || 0;
-
+    // Modificación para IA - Agregar $40 si se selecciona "Si"
+    let _iaField = (data._iaField === 'Si') ? 40 : 0;
+    
     let _omnicanalField = (data._omnicanalField === 'Si') ? 40 : 0;
     let _whatsappField = (data._omnicanalField === 'Si') ? (data._whatsappField * 25) : 0;
     let _facebookField = (data._omnicanalField === 'Si') ? (data._facebookField * 25) : 0;
@@ -420,7 +413,6 @@ function calculateFinal(data) {
     costFinal = trimDecimals(costFinal);
     jQuery('.pricingCard.pro .price .discountCost').html('<span>USD ' + costFinal + ' <small>/ mes</small> </span>');
 }
-
 function openCompare(){
 
     let items = jQuery('li.itemParent');

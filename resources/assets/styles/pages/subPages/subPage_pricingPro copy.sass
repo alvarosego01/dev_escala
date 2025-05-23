@@ -1,13 +1,16 @@
+
+
+
+
 @import ../../common/global
 
-#subPage_pricing_2023    
+#subPage_pricingPro    
     background-color: #FAFBFD
 img
     width: auto
 
 
-#subPage_pricing_2023 .customSection.sectionParent.subPage_pricing_2023_0
-    padding-bottom: 0px!important
+#subPage_pricingPro .customSection.sectionParent.subPage_pricingPro_0
     @include responsivo(telefonoTable)
         padding-bottom: 45px
     .backgroundFull
@@ -50,6 +53,7 @@ img
                     text-align: center
                     margin-bottom: 20px
                     color: #fff
+
                     @include responsivo(telefonoTable)
                         font-size: 40px
                     @include responsivo(pcMedio)
@@ -885,11 +889,11 @@ img
                     .list
                         padding: 0!important
                         position: relative
+                        
                         @include responsivo(telefonoTable)
-                            margin-bottom: 0px
+                            margin-bottom: 0
                         @include responsivo(pcMedio)
-                            margin-bottom: 0px
-                            
+                            margin-bottom: 0
                         h3
                             border-radius: 0
                             @include responsivo(telefonoTable)
@@ -976,6 +980,7 @@ img
                                         table.table
                                             margin-bottom: 0
                                             tbody
+                                                background-color: #FAFBFD
                                                 tr
                                                     background-color: #FFFFFF
                                                     border: 0
@@ -991,7 +996,7 @@ img
                                                         font-family: 'Mulish', sans-serif
                                                         font-style: normal
                                                         font-weight: 600
-                                                        font-size: 18px
+                                                        font-size: 20px
                                                         line-height: 1
                                                         
                                                         color: #2C4857
@@ -1035,21 +1040,544 @@ img
     @include responsivo(telefonoTable)
         height: auto!important
 
+#subPage_pricingPro .customSection.sectionParent.subPage_pricingPro_0_1
+    padding: 0
 
-
-#subPage_pricing_2023 .customSection.sectionParent.subPage_pricing_2023_1
-    @include responsivo(telefonoTable)
-        padding-bottom: 0
-        padding-top: 55px
-    @include responsivo(pcMedio)
-        padding-bottom: 0
-    @include responsivo(general)
-        padding-bottom: 0px
     .section-row
         @include responsivo(telefonoTable)
-            width: 100%
-        @include responsivo(smallPcTablet)
             width: 100%!important
+        @include responsivo(pcMedio)
+            width: 95%!important
+        @include responsivo(smallPcTablet)
+            width: 1000px!important
+        .innerSectionElement.sct0
+            text-align: center
+            @include responsivo(telefonoTable)
+                margin-bottom: 50px
+                width: 95%
+            h2.title
+                color: #2C4857
+                text-align: center
+                font-family: 'Mulish', sans-serif
+                font-size: 48px
+                font-style: normal
+                font-weight: 700
+                line-height: 1
+                margin-bottom: 10px
+                @include responsivo(telefonoTable)
+                    font-size: 40px
+                @include responsivo(pcMedio)
+                    font-size: 35px
+                @include responsivo(general)
+                    font-size: 42.5px
+                @include responsivo(smallPcTablet)
+                    font-size: 40px
+                span
+                    background: linear-gradient(90deg, #15B9B3 27.08%, #F1685A 74.91%)
+                    background-clip: text
+                    -webkit-background-clip: text
+                    -webkit-text-fill-color: transparent
+                    font-size: 48px
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 1
+                    @include responsivo(telefonoTable)
+                        font-size: 40px
+                    @include responsivo(pcMedio)
+                        font-size: 35px
+                    @include responsivo(general)
+                        font-size: 42.5px
+                    @include responsivo(smallPcTablet)
+                        font-size: 40px
+            span
+                color: #A6A6A6
+                font-size: 24px
+                font-weight: 600
+                line-height: 1
+                font-family: 'Mulish', sans-serif
+
+        .innerSectionElement.sct1
+            padding: 80px 0px
+            @include responsivo(telefonoTable)
+                padding: 0
+            /* Contenedor principal */
+            .pricing-container
+                display: flex
+                flex-wrap: wrap
+                gap: 7px
+                justify-content: center
+                font-family: 'Mulish', sans-serif
+                line-height: 1
+                @include responsivo(telefonoTable)
+                    display: none
+            /* Estilos para cada columna/plan */
+            .comparar-column
+                flex: 1
+                width: 175px
+                overflow: hidden
+                margin-bottom: 20px
+
+                .column-body
+                    padding: 0
+                    color: #fff
+                    background-color: #2C4857
+                    border-radius: 8px 0px 0px 8px
+                .feature-row
+                    background-color: #2C4857
+                    font-weight: 700
+                    justify-content: flex-start
+                    text-align: left
+                    border: none
+                    padding: 10px 18px
+                    height: 70px
+                    @include responsivo(telefonoTable)
+                        padding: 10px 10px
+                    @include responsivo(pcMedio)
+                        padding: 10px 10px
+                    .feature-name
+                        height: auto
+                        font-size: 18px
+            .pricing-column
+                flex: 1
+                width: 145px
+                border-radius: 8px
+                overflow: hidden
+                margin-bottom: 20px
+                background: #fff
+                &:hover
+                    padding: 2px
+                    background: linear-gradient(to bottom, #83E3D0, #F1685A), white
+                    background-clip: padding-box, content-box
+                    
+                .internalColumn
+                    border-radius: 8px
+                    background: #fff
+                    &:hover
+                        background-image: url('https://escala.com/wp-content/uploads/2025/04/bg-hover-column-pricin-pro-escala.png')
+                        block-size: cover
+
+            /* Header de cada columna */
+            .no-bg
+                background-color: #FAFBFD!important    
+            .bg-blue
+                background-color: #007F96!important
+                font-size: 24px
+                font-weight: 700
+                @include responsivo(telefonoTable)
+                    font-size: 20px
+                @include responsivo(pcMedio)
+                    font-size: 20px
+            .radius
+                border-radius: 8px 0px 0px 0px
+            .radius-1
+                border-radius: 0px 0px 0px 8px    
+            .column-header
+                text-align: center
+                background-color: #fff
+                height: 80px
+                border-radius: 8px 8px 0px 0px
+            
+                .plan-name
+                    font-weight: 800
+                    font-size: 24px
+                    color: #2C4857 
+                    margin-bottom: 5px
+                    border-bottom: 1px solid #E9E9E9
+                    padding: 15px
+                    height: 80px
+                    display: flex
+                    justify-content: flex-end
+                    align-items: center
+                    flex-direction: column
+                    width: 90%
+                    margin: 0 auto
+                    @include responsivo(telefonoTable)
+                        font-size: 20px
+                    @include responsivo(pcMedio)
+                        font-size: 20px
+                    span
+                        display: block
+                        font-weight: 700
+                        font-size: 16px
+                .plan-price
+                    font-size: 1.1em
+                    color: #333
+
+            /* Cuerpo de cada columna */
+            .column-body
+                padding: 0 15px
+
+            /* Secciones */
+            .section-title
+                font-weight: bold
+                padding: 10px 14px
+                margin: 0px
+                font-size: 24px
+                display: flex
+                align-items: center
+                height: 60px
+                @include responsivo(telefonoTable)
+                    font-size: 20px!important
+                @include responsivo(pcMedio)
+                    font-size: 20px!important
+            /* Filas de características */
+            .feature-row
+                padding: 10px 0
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 20px
+                font-weight: 600
+                text-align: center
+                &:last-child
+                    border-bottom: none
+                @include responsivo(telefonoTable)
+                    font-size: 18px
+                @include responsivo(pcMedio)
+                    font-size: 18px
+                .feature-name
+                    font-weight: 700
+                    height: 50px
+                    span
+                        font-weight: 500
+                        font-size: 16px
+
+                .feature-value
+                    font-weight: 600
+                    height: 50px
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    flex-direction: column
+                    color: #000
+                    @include responsivo(telefonoTable)
+                        font-size: 18px!important
+                    @include responsivo(pcMedio)
+                        font-size: 18px!important  
+                    span
+                        font-size: 14px
+                        span
+                            color: #F34F36!important
+
+            .checkmark
+                &::before
+                    content: ''
+                    display: inline-block
+                    width: 16px
+                    height: 16px
+                    background-image: url('https://escala.com/wp-content/uploads/2025/04/check_orange.png')
+                    background-repeat: no-repeat
+                    background-size: contain
+                    
+                    vertical-align: middle
+            .checkmark-not
+                &::before
+                    content: ''
+                    display: inline-block
+                    width: 16px
+                    height: 16px
+                    background-image: url('https://escala.com/wp-content/uploads/2025/04/disable-not.png')
+                    background-repeat: no-repeat
+                    background-size: contain
+                    
+                    vertical-align: middle
+            
+            .mobile-pricing-container
+                font-family: 'Mulish', sans-serif
+                width: 100%
+                max-width: 500px
+                margin: 0 auto
+                display: none
+                @include responsivo(telefonoTable)
+                    display: block!important
+            .mobile-plan
+                margin-bottom: 20px
+                border-radius: 8px
+                overflow: hidden
+
+
+                
+            .mobile-plan-header
+                background: #fff
+                box-shadow: 0px 4px 20px 0px rgba(0, 127, 150, 0.10)
+                border-radius: 8px
+                margin: 0px 20px
+                &:hover
+                    padding: 2px
+                    background: linear-gradient(to left, #83E3D0, #F1685A), white
+                    background-clip: padding-box, content-box     
+                    border-radius: 8px    
+                    color: #F1685A     
+ 
+                .mobile-plan-header-internal
+                    padding: 15px
+                    background-color: #fff
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    cursor: pointer
+                    border-radius: 6px
+                    position: relative
+                    &:hover > h3
+                        color: #F1685A!important  
+                    h3
+                        font-weight: 800
+                        font-size: 24px
+                        color: #2C4857
+                        margin: 0 
+                         
+                        span
+                            font-weight: 700
+                        
+
+            .mobile-arrow
+                font-size: 16px
+                transition: transform 0.3s
+                position: absolute  // Posicionamiento absoluto respecto al contenedor padre
+                right: 15px
+            .mobile-plan.active .mobile-arrow
+                transform: rotate(180deg)
+
+            .mobile-plan-content
+                display: none
+                padding: 0
+                margin-top: 5px
+
+            .mobile-plan.active .mobile-plan-content
+                display: block
+
+            .mobile-feature-columns
+                display: flex
+                width: 100%
+
+            .mobile-feature-names
+                flex: 1
+                background-color: #2C4857
+                color: white
+                
+            .mobile-feature-values
+                flex: 1
+                background-color: white
+                width: 45%
+
+            .mobile-section-title
+                font-weight: bold
+                padding: 12px 15px
+                font-size: 24px
+                line-height: 1
+                height: 50px
+                display: flex
+                align-items: center
+                background-color: #007F96
+            .mobile-section-space
+                height: 50px
+                padding: 12px 15px
+            .mobile-feature-row
+                padding: 12px 15px
+                height: 60px
+                display: flex
+                align-items: center
+                font-size: 20px
+                font-weight: 600
+
+            .mobile-feature-name
+                font-weight: 700
+                font-size: 20px
+                line-height: 1
+                span
+                    font-weight: 500
+                    font-size: 12px
+                    
+
+            .mobile-feature-value
+                font-weight: 600
+                color: #000
+                text-align: center
+                width: 100%
+                line-height:  1
+                
+                span
+                    font-size: 12px
+                    display: block
+
+                    span
+                        color: #F34F36
+
+            .checkmark::before
+                content: ''
+                display: inline-block
+                width: 16px
+                height: 16px
+                background-image: url('https://escala.com/wp-content/uploads/2025/04/check_orange.png')
+                background-repeat: no-repeat
+                background-size: contain
+
+            .checkmark-not::before
+                content: ''
+                display: inline-block
+                width: 16px
+                height: 16px
+                background-image: url('https://escala.com/wp-content/uploads/2025/04/disable-not.png')
+                background-repeat: no-repeat
+                background-size: contain
+
+
+        .innerSectionElement.sct3
+            text-align: center
+            width: 950px
+            @include responsivo(telefonoTable)
+                width: 100%
+            @include responsivo(pcMedio)
+                width: 100%
+            h2.title
+                color: #2C4857
+                text-align: center
+                font-family: 'Mulish', sans-serif
+                font-size: 40px
+                font-style: normal
+                font-weight: 700
+                line-height: 1
+                margin-bottom: 60px
+                @include responsivo(telefonoTable)
+                    font-size: 30px
+                    display: none
+                @include responsivo(pcMedio)
+                    font-size: 35px
+                @include responsivo(general)
+                    font-size: 40px
+                @include responsivo(smallPcTablet)
+                    font-size: 40px
+            span
+                color: #A6A6A6
+                font-size: 16px
+                font-weight: 600
+                font-family: 'Mulish', sans-serif
+                @include responsivo(telefonoTable)
+                    display: none
+            /* Contenedor principal */
+            .pricing-container
+                display: flex
+                flex-wrap: wrap
+                gap: 7px
+                justify-content: center
+                font-family: 'Mulish', sans-serif
+                line-height: 1
+                @include responsivo(telefonoTable)
+                    display: none
+            /* Estilos para cada columna/plan */
+            .comparar-column
+                flex: 1
+                width: 175px
+                overflow: hidden
+                margin-bottom: 20px
+                
+                .column-body
+                    padding: 0
+                    color: #fff
+                    background-color: #007f96
+                    border-radius: 8px 0px 0px 8px
+                .feature-row
+                    background-color: #2C4857
+                    font-weight: 700
+                    justify-content: flex-start
+                    text-align: left
+                    border: none
+                    padding: 10px 18px
+                    height: 70px
+                    @include responsivo(telefonoTable)
+                        padding: 10px 10px
+                    @include responsivo(pcMedio)
+                        padding: 10px 10px
+            .pricing-column
+                flex: 1
+                width: 145px
+                border-radius: 8px
+                overflow: hidden
+                margin-bottom: 20px
+                background: #fff  
+            .bg-blue
+                background-color: #007F96!important
+                font-size: 24px
+                font-weight: 700
+                @include responsivo(telefonoTable)
+                    font-size: 20px
+                @include responsivo(pcMedio)
+                    font-size: 20px
+            .radius
+                border-radius: 8px 0px 0px 0px
+            .radius-1
+                border-radius: 0px 0px 0px 8px
+
+            /* Cuerpo de cada columna */
+            .column-body
+                padding: 0 15px
+
+            /* Secciones */
+            .section-title
+                font-weight: bold
+                padding: 10px 14px
+                margin: 0px
+                font-size: 24px
+                text-align: left
+                display: flex
+                align-items: center
+                height: 70px
+                @include responsivo(telefonoTable)
+                    font-size: 20px!important
+                @include responsivo(pcMedio)
+                    font-size: 20px!important
+            /* Filas de características */
+            .feature-row
+                padding: 10px 0
+                display: flex
+                justify-content: center
+                align-items: center
+
+                &:last-child
+                    border-bottom: none
+
+                .feature-value
+                    font-weight: 600
+                    height: 50px
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    flex-direction: column
+                    font-size: 20px
+                    font-weight: 600
+                    text-align: center   
+                    color:  #000    
+                    @include responsivo(telefonoTable)
+                        font-size: 18px!important
+                    @include responsivo(pcMedio)
+                        font-size: 18px!important    
+
+
+
+#subPage_pricingPro .customSection.sectionParent.subPage_pricingPro_1
+    .section-row
+        @include responsivo(telefonoTable)
+            width: 95%
+            padding: 25px 25px
+            padding-bottom: 0
+            padding-bottom: 35px
+        @include responsivo(pcMedio)
+            width: 90%
+            padding: 50px 25px
+            padding-top: 25px
+            padding-bottom: 25px
+
+        @include responsivo(general)
+            width: 100%!important
+            max-width: 1100px!important
+
+        @include responsivo(smallPcTablet)
+            max-width: 900px!important
+
+        @include responsivo(resto)
+            width: 100%!important
+            max-width: 1100px!important
+
         .innerSectionElement.sct0
             text-align: center
             h2.title
@@ -1060,7 +1588,7 @@ img
                 font-style: normal
                 font-weight: 700
                 line-height: 1
-                margin-bottom: 140px
+                margin-bottom: 60px
                 @include responsivo(telefonoTable)
                     font-size: 30px
                     margin-bottom: 60px
@@ -1071,139 +1599,41 @@ img
                     font-size: 42.5px
                 @include responsivo(smallPcTablet)
                     font-size: 40px
-        .innerSectionElement.sct1
-            @include responsivo(telefonoTable)
-                width: 100%
-                padding: 25px 0px
-                padding-bottom: 0
-            @include responsivo(pcMedio)
-                width: 80%
-                padding: 50px 25px
-                padding-bottom: 0
-
-            @include responsivo(general)
-                width: 100%!important
-                max-width: 1240px!important
-
-            @include responsivo(smallPcTablet)
-                max-width: 1000px!important
-
-            @include responsivo(resto)
-                width: 100%!important
-                max-width: 1375px!important
-
+        .innerSectionElement.sct3
             .containElements
-                position: relative
-                .row.table-header
-                    background-color: #FAFBFD
-               
-                    overflow: hidden
-                    position: absolute
-                    left: 0
-                    right: 0
-                    @include responsivo(telefonoTable)
-                        top: -45px
-                    @include responsivo(pcMedio)
-                        top: -50px
-                    @include responsivo(general)
-                        top: -60px
-                    @include responsivo(resto)
-                        top: -60px
-                    &.stick
-                        position: fixed
-                        top: 0
-                        z-index: 10000
-
-                        position: fixed
-                        top: 105px
-                        // top: 50%
-                        left: 0
-                        right: 0
-                        box-sizing: border-box
-
-                        margin: 0 auto
-                        border-radius: 0 0 14px 14px!important
-                        @include responsivo(telefonoTable)
-                            width: 90%
-                            top: 50px
-                        @include responsivo(pcMedio)
-                            width: 76%
-                            top: 55px
-                        @include responsivo(general)
-                            width: 100%!important
-                            max-width: 1260px!important
-                        @include responsivo(smallPcTablet)
-                            max-width: 1025px!important
-                        @include responsivo(resto)
-                            width: 100%!important
-                            max-width: 1390px!important
-
-                    .col1
-                        padding: 0
-                    .col2
-                        background-color: #fff
-                        padding: 18px 0px
-                        
-                        @include responsivo(telefonoTable)
-                            padding: 6px 0px
-                    .col3
-                        background-color:  #fff
-                        padding: 18px 0px
-                        border-left: 1px solid #007F96
-                        border-right: 1px solid #007F96
-                        @include responsivo(telefonoTable)
-                            padding: 6px 0px
-                            
-                            
-                    .col4
-                        background-color:  #fff
-                        padding: 18px 0px
-                        @include responsivo(telefonoTable)
-                            padding: 6px 0px
-                    p
-                        color: #2C4857
-                        text-align: center
-                        font-family: 'Mulish', sans-serif
-                        font-size: 24px
-                        font-style: normal
-                        font-weight: 700
-                        line-height: 1
-                        
-                        margin: 0px
-                        span.text-blue
-                            color: #007F96
-                            font-weight: 800
-                        span.text-orange
-                            color: #F34F36
-                            font-weight: 800
-                        @include responsivo(telefonoTable)
-                            font-size: 14px
-                        @include responsivo(pcMedio)
-                            font-size: 16px
-                        @include responsivo(general)
-                            font-size: 22.5px
                 .row
 
                     .list
-                        padding: 0!important
-                        position: relative
-                        @include responsivo(telefonoTable)
-                            margin-bottom: 25px
-                        @include responsivo(pcMedio)
-                            margin-bottom: 25px
-                        h3
-                            border-radius:0
+                        padding: 0
+                        &:first-child
                             @include responsivo(telefonoTable)
-                                border-radius:0
+                                margin-bottom: 0
                             @include responsivo(pcMedio)
+                                margin-bottom: 0
+                            @include responsivo(general)
+                                padding-right: 10px
+                            @include responsivo(resto)
+                                padding-right: 10px
+                            h3
                                 border-radius: 0
+
+
+                        &:last-child
+
+                            @include responsivo(general)
+                                padding-left: 10px
+                            @include responsivo(resto)
+                                padding-left: 10px
+                            h3
+                                border-radius:0
 
                         h3
                             background-color: #fff
                             width: 100%
                             font-family: 'Mulish', sans-serif
+                            
                             font-style: normal
-                            font-weight: 800
+                            font-weight: 700
                             font-size: 24px
                             line-height: 1
                             border: 1px solid #E9E9E9
@@ -1227,9 +1657,10 @@ img
                                 background-color: #2C4857
                                 font-family: 'Mulish', sans-serif
                                 font-style: normal
-                                font-weight: 700
+                                font-weight: 600
                                 font-size: 20px
                                 line-height: 1
+                            
                                 color: #fff
                                 padding: 0
                                 @include responsivo(telefonoTable)
@@ -1247,15 +1678,17 @@ img
                                     border-bottom: 1px solid #A6A6A6!important
                                     border-width: 0px
                                     @include responsivo(telefonoTable)
-                                        padding: 12.5px 10px
+                                        padding-top: 12.5px
+                                        padding-bottom: 12.5px
                                     @include responsivo(pcMedio)
-                                        padding: 12.5px 15px
+                                        padding-top: 12.5px
+                                        padding-bottom: 12.5px
                                     i
                                         position: absolute
                                         right: 20px
+                                        color: #E9E9E9
                                         top: 15px
                                         bottom: 0
-                                        color: #E9E9E9
                                         display: block
                                         transition: $trans
                                         height: fit-content
@@ -1266,30 +1699,24 @@ img
 
                                 &:last-child
                                     button
-                                        border-bottom: none!important
+                                        border-bottom: none
 
                                 .subItemList
                                     .accordion-body
                                         padding: 0
-                                        background: #fff
                                         table.table
                                             margin-bottom: 0
                                             tbody
-                                                background-color: #F7F9FA
-                                            tbody 
-                                                tr:nth-child(even) 
-                                                    background-color: #FAFBFD!important
+                                                background-color: #FAFBFD
                                                 tr
                                                     background-color: #FFFFFF
                                                     border: 0
                                                     width: 100%
-                                                    display: flex
-                                                    flex-direction: row
                                                     &:nth-of-type(odd)
-                                                        background-color: #fff
+                                                        background-color: #FAFBFD
                                                     td
                                                         border: none
-                                                        // width: 40%
+                                                        width: 40%
                                                         padding: 15px 20px
                                                         font-family: 'Mulish', sans-serif
                                                         font-style: normal
@@ -1298,39 +1725,20 @@ img
                                                         line-height: 1
                                                         
                                                         color: #2C4857
-                                                        &:not(:last-child) 
+                                                        &:first-child
+                                                            width: 60%
                                                             border-right: 1px solid #007F96
-                                                            
-                                                        @include responsivo(telefonoTable)
-                                                            padding: 10px
-                                                        @include responsivo(pcMedio)
-                                                            padding: 10px 15px
-                                                        &:last-child
-                                                            text-align: center
-                                                            display: flex
-                                                            align-content: center
-                                                            align-items: center
-                                                            justify-content: center
-                                                        &:nth-child(2)
-                                                            text-align: center
-                                                            display: flex
-                                                            align-content: center
-                                                            align-items: center
-                                                            justify-content: center
-                                                        &:nth-child(3)
-                                                            text-align: center
-                                                            display: flex
-                                                            align-content: center
-                                                            align-items: center
-                                                            justify-content: center
 
+                                                        &:last-child
+                                                            color: #212A31
+                                                            text-align: center
                                                         @include responsivo(telefonoTable)
                                                             font-size: 14px
                                                         @include responsivo(pcMedio)
                                                             font-size: 16px
 
-                                                        img
-                                                            height: 20px
+                                                        img.checkIcon
+                                                            height: 17.5px
                                                             @include responsivo(telefonoTable)
                                                                 height: 15px
                                                             @include responsivo(pcMedio)
@@ -1339,8 +1747,7 @@ img
 
 
 
-
-#subPage_pricing_2023 .customSection.sectionParent.subPage_pricing_2023_5
+#subPage_pricingPro .customSection.sectionParent.subPage_pricingPro_5
     padding: 0px
     background-color: transparent
     position: relative
@@ -1537,7 +1944,7 @@ img
 
 
 
-#subPage_pricing_2023 .customSection.sectionParent.subPage_pricing_2023_6
+#subPage_pricingPro .customSection.sectionParent.subPage_pricingPro_6
     padding: 0
     background-color: transparent
     position: relative
@@ -1730,8 +2137,8 @@ img
     cursor: pointer
     width: 20px
     text-align: center
-    color: #E9E9E9
-    font-size: 14px
+    color: #83E3D0
+    font-size: 13px
     line-height: 1
     -webkit-transform: translateX(-100%)
     transform: translateX(left)
@@ -1746,7 +2153,7 @@ img
     align-items: center
     background: #2C4857
     i
-        color: #E9E9E9
+        color: #83E3D0
 
 
 .quantity-button.quantity-up
@@ -1765,12 +2172,12 @@ img
 
 .questionIcon
     border-radius: 100%
-    background-color: #007F96
+    background-color: #83E3D0
+    color: #007F96
     height: 17.5px
-    color: #fff!important
     width: 17.5px
     margin-left: 5px
-    font-size: 10px
+
 
 .customPopUp.pricingPro_special_message.modal
 
@@ -1806,7 +2213,7 @@ img
                                                 font-weight: 400
                                                 line-height: 1
                                                 text-align: justify
-                                                
+                                              
                                                 margin: auto
                                                 @include responsivo(telefonoTable)
                                                     font-size: 14px
@@ -1821,3 +2228,6 @@ img
 
 
 
+
+.hideMode
+    display: none!important
