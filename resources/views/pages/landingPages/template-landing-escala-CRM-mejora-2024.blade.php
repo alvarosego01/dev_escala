@@ -11,20 +11,20 @@
                     <section class="innerSectionElement sct1">
                         <div class="sectionText">
                             <h1 class="principalBigTitle">
-                                El CRM 
+                                El CRM
                                 <br class="space">
                                 todo-en-uno con
                                 <br class="space">
                                 <span>Inteligencia Artificial</span>
                             </h1>
 
-                              <h1 class="principalBigTitleMb">
+                            <h1 class="principalBigTitleMb">
                                 El CRM
                                 <br class="space">
                                 todo-en-uno con
                                 <br class="space">
                                 <span>Inteligencia Artificial</span>
-                                
+
                             </h1>
                             <p class="principalBigText">
                                 Multiplica tus clientes usando <br class="DT_e">
@@ -33,12 +33,14 @@
                             </p>
                             <div class="containerImage">
                                 <img alt="Ilustración de CEO ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/ceo-escala-alfonso-2025.png') !!}" loading="lazy">
+                              <img class="iconClick" src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}" loading="lazy" onclick="openVideoPopup()">
                             </div>
                         </div>
                     </section>
 
                     <section class="innerSectionElement sct2">
                         <div class="containerImage">
+                            <img class="iconClick" src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}" loading="lazy" onclick="openVideoPopup()">
                             <img alt="Ilustración de CEO ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/ceo-escala-alfonso-2025.png') !!}" loading="lazy">
                         </div>
                     </section>
@@ -68,23 +70,6 @@
                                     }
                                     @endphp
                                     {!! do_shortcode($_formShortcode) !!}
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="info2">
-
-
-                            <div class="containElements row threeCol">
-
-                                <div class="ele eleImg col-md-12 col-lg-6">
-
-                                    <div class="containerImage">
-                                        <img alt="Ilustración de Andres Moreno whatsapp escala" src="{!! App::setFilePath('/assets/images/person/am/am-whatsapp-hero-mb.webp') !!}" loading="lazy">
-                                    </div>
-
-
                                 </div>
 
                             </div>
@@ -257,59 +242,6 @@
 
             </div>
 
-        </section>
-
-        <section class="customSection sectionParent landing_CRM_2024_4">
-            <div>
-                <div class="section-row">
-
-                    <section class="innerSectionElement sct0">
-                        <h2 class="primaryTitle">
-                            Vende más con menos esfuerzo
-                        </h2>
-                        <div class="containerImage">
-                            <img src="{!! App::setFilePath('/assets/images/banners/bg-video-cover.png') !!}" loading="lazy">
-                        </div>
-                        <div class="ele video ">
-
-                            @php
-                            $videoEmbed = App::setFilePath('/assets/videos/¿por_qué_tu_empresa_necesita_escala_ (720p).mp4');
-                            $videoCover = App::setFilePath('/assets/images/illustrations/others/img-cover-video-am.png');
-                            @endphp
-
-                            @if (isset($videoEmbed) && $videoEmbed != null)
-                            <div class="youtubeImageContainer">
-                                <!-- Solo necesitas UN elemento video con el atributo poster para la imagen de portada -->
-                                <video id="video_1" class="video-js" controls preload="none" poster="{{ $videoCover }}" data-setup='{"autoplay": false}'>
-                                    <source src="{{ $videoEmbed }}" type="video/mp4" />
-                                    <source src="{{ $videoEmbed }}" type="video/webm" />
-                                    <p class="vjs-no-js">
-                                        To view this video please enable JavaScript, and consider
-                                        upgrading to a web browser that
-                                        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                                    </p>
-                                </video>
-                            </div>
-
-                            <script type="text/javascript">
-                                var player = videojs('video_1');
-                                // No necesitas el evento play para eliminar un elemento ya que ahora solo hay un video
-                            </script>
-                            @endif
-                        </div>
-
-
-                    </section>
-
-
-                </div>
-            </div>
-
-            <div class="btnCenter">
-                <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Conocer Escala →
-                </a>
-            </div>
         </section>
 
 
@@ -673,8 +605,8 @@
                     </div>
                     <div class="img-right">
                         <div class="containerImage">
-                            
-                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-3-mb.png') !!}" class="img-mb" loading="lazy">
+
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-3-mb.png') !!}" class="img-mb" loading="lazy">
                             <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-trustpilot-reseña-3.png') !!}" loading="lazy">
                         </div>
                     </div>
@@ -782,5 +714,46 @@
             </div>
         </section>
 
+<!-- Popup (inicialmente oculto) -->
+<div id="videoPopup">
+    <div class="videoInterno">
+        <button onclick="closeVideoPopup()" >×</button>
+        <video id="popupVideo" controls autoplay poster="{!! App::setFilePath('/assets/images/illustrations/others/img-cover-video-am.png') !!}">
+            <source src="{!! App::setFilePath('/assets/videos/¿por_qué_tu_empresa_necesita_escala_ (720p).mp4') !!}" type="video/mp4">
+        </video>
     </div>
+</div>
+
+<script>
+    function openVideoPopup() {
+        const popup = document.getElementById('videoPopup');
+        const video = document.getElementById('popupVideo');
+        
+        popup.style.display = 'flex';
+        
+        // Forzar la reproducción programáticamente
+        video.play().catch(error => {
+            console.log('La reproducción automática fue prevenida:', error);
+            // Mostrar controles si la reproducción automática falla
+            video.controls = true;
+        });
+    }
+    
+    function closeVideoPopup() {
+        const popup = document.getElementById('videoPopup');
+        const video = document.getElementById('popupVideo');
+        
+        popup.style.display = 'none';
+        video.pause();
+        video.currentTime = 0; // Reiniciar el video
+    }
+    
+    // Cerrar al hacer clic fuera del video
+    document.getElementById('videoPopup').addEventListener('click', function(e) {
+        if (e.target === this) closeVideoPopup();
+    });
+</script>
+    </div>
+
+
 </div>
