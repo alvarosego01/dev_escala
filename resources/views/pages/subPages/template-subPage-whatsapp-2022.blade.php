@@ -4,7 +4,7 @@
         <section id="lead-form" class="component-header-t1 bg-image overlay customSection sectionParent fullWidth threeCol subpage_whatsapp_0 ">
 
 
-            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-dk-whatsapp-hero.png') !!}')">
+            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-hero-1-1.png') !!}')">
 
 
 
@@ -337,7 +337,7 @@
                     </div>
                 </section>
 
-                <section class="innerSectionElement sct2" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-dk-whatsapp-section-6.png') }}')">
+                <section class="innerSectionElement sct2" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-6-6.png') }}')">
                     <div class="cards left ">
                         <h2>
                             ¡Y tranquilo! Te guiamos a
@@ -557,7 +557,7 @@
 
         </section>
 
-        <section class="customSection sectionParent subpage_whatsapp_10" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-dk-section-whatsapp-10.png') }}')">
+        <section class="customSection sectionParent subpage_whatsapp_10" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-dk-escala-whatsapp-10-10.png') }}')">
             <div class="section-row ">
                 <div class="containElements">
                     <section class="innerSectionElement sct1">
