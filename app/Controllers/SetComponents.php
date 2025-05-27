@@ -369,6 +369,7 @@ class SetComponents extends Controller
                 'views/template-corporative-resentation.blade.php',
                 'views/template-subPage-whatsapp-2022.blade.php',
                 'views/template-subPage-omnicanal-2025.blade.php',
+                'views/template-subPage-omnicanal-test.blade.php',
                 'views/template-landing-home-oct22.blade.php',
                 'views/template-casoUso-home.blade.php',
                 'views/template-casoUso-asesoria-2022.blade.php',
