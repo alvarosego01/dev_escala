@@ -952,7 +952,7 @@ y conexión Meta Business ",
                                                         <div class="field select">
                                                             <select name="_iaField">
                                                                 <option value="No" selected>No</option>
-                                                                <option value="Si">Si</option>
+                                                                <option value="Si">Sí</option>
                                                             </select>
 
                                                             <div class="quantity-nav">
@@ -972,7 +972,7 @@ y conexión Meta Business ",
                                                         <div class="field select">
                                                             <select name="_omnicanalField" id="omnicanalField">
                                                                 <option value="No" selected>No</option>
-                                                                <option value="Si">Si</option>
+                                                                <option value="Si">Sí</option>
                                                             </select>
                                                             <div class="quantity-nav">
                                                                 <div class="quantity-button quantity-up">
