@@ -356,6 +356,10 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-subPage-omnicanal-2025.blade.php')) {
         wp_enqueue_style('subPage_omnicanal_2025.css', asset_path('styles/pages/subPages/subPage_omnicanal_2025.css'), false, THEME_VERSION);
     }
+        // --- Seccion omnicanal test
+    if (is_page_template('views/template-subPage-omnicanal-test.blade.php')) {
+        wp_enqueue_style('subPage_omnicanal_test.css', asset_path('styles/pages/subPages/subPage_omnicanal_test.css'), false, THEME_VERSION);
+    }
     // --- Seccion zoom meeting 2023
     if (is_page_template('views/template-subPage-zoom-meeting-2023.blade.php')) {
         wp_enqueue_style('subPage_zoom_meeting_2023.css', asset_path('styles/pages/subPages/subPage_zoom_meeting_2023.css'), false, THEME_VERSION);
