@@ -804,8 +804,8 @@ o",
             <div class="section-row">
                 <div class="innerSectionElement sct0">
                     <h2 class="title" id="iaPlan">
-                        Conoce nuestros planes de <br class="DT_e">
-                        <span>Inteligencia Artificial</span>
+                       Planes:<br class="space">
+                        <span>Agentes Conversacionales de IA</span>
                     </h2>
                     <span>Todos los precios están en USD</span>
                 </div>
