@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-mc-mayo-2025-dk.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-banner-mc-mayo-2025.png') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -9,13 +9,12 @@
                 <div class="contain">
 
                     <span class="hashTitle">
-                      ¿Cómo pasar del Excel a un <span>CRM con IA?</span>
+                        Logra que tus vendedores adopten y maximicen las ventas con un CRM
                     </span>
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-master-class-mayo-2025.png') !!}" alt="" class="icon">
-
+                    <div class="separator"></div>
                     <span class="sub">
-                        Descúbrelo en nuestra próxima Masterclass gratuita
+                        Masterclass gratuita - 5 Junio
                     </span>
                 </div>
 
@@ -31,7 +30,7 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-mc-mayo-2025-mb.svg') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-banner-mc-mayo-mb-2025.png') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -42,16 +41,14 @@
                 <div class="contain">
 
                     <span class="hashTitle">
-                        ¿Cómo pasar del Excel a un <span>CRM con IA?</span>
+                        Logra que tus vendedores adopten y maximicen las ventas con un CRM
                     </span>
 
-                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-master-class-mayo-2025.png') !!}" alt="" class="icon">
-
+                    <div class="separator"></div>
                     <span class="sub">
-                        Descúbrelo en nuestra próxima <br class="space"> Masterclass gratuita
+                        Masterclass gratuita - 5 Junio
                     </span>
                 </div>
-
                 <a target="_blank" href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect ">
                     Reserva tu cupo →
                 </a>

@@ -740,7 +740,7 @@
         background-position: 48% center
 
     .section-row
-        width: 1250px!important
+        width: 1270px!important
         padding: 7.5px 0
         @include responsivo(telefonoTable)
             width: 95%!important
@@ -748,7 +748,7 @@
         @include responsivo(pcMedio)
             width: 95%!important
         @include responsivo(general)
-            max-width: 1225px!important
+            max-width: 1245px!important
         @include responsivo(smallPcTablet)
             max-width: 1040px!important
 
@@ -827,7 +827,7 @@
                         text-align: left
                     @include responsivo(smallPcTablet)
                         font-size: 17px
-                        width: auto
+                        width: 60%
                         
                     @include responsivo(resto)
                         text-align: left
@@ -895,6 +895,8 @@
                         margin: 5px auto
                         width: 100%
                         height: 20px
+                    @include responsivo(pcMedio)
+                        display: none
 
                 .sub
                     color: #fff
