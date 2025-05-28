@@ -14,7 +14,7 @@
 
                     <div class="separator"></div>
                     <span class="sub">
-                        Masterclass gratuita - 4 Junio
+                        Masterclass gratuita - 5 Junio
                     </span>
                 </div>
 
@@ -46,7 +46,7 @@
 
                     <div class="separator"></div>
                     <span class="sub">
-                        Masterclass gratuita - 4 Junio
+                        Masterclass gratuita - 5 Junio
                     </span>
                 </div>
                 <a target="_blank" href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect ">
