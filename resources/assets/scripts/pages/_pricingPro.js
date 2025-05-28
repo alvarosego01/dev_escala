@@ -379,13 +379,13 @@ function calculateFinal(data) {
     let _contacts = converContacts(data._contactsField);
     let _users = convertUsers(data);
 
-    // Add IA plan pricing
+    // IA plan pricing SIEMPRE igual mensual, sin descuento aquí
     let iaPricing = {
         No: 0,
-        Bronce: _typePlan === 'monthly' ? 40 : 32,
-        Plata: _typePlan === 'monthly' ? 200 : 160,
-        Oro: _typePlan === 'monthly' ? 1000 : 800,
-        Platino: _typePlan === 'monthly' ? 2000 : 1600
+        Bronce: 40,
+        Plata: 200,
+        Oro: 1000,
+        Platino: 2000
     };
     let _iaField = iaPricing[data._iaField] || 0;
 
@@ -395,30 +395,29 @@ function calculateFinal(data) {
 
     let extra = _omnicanalField + _whatsappField + _facebookField;
 
+    // El valor mensual base sin descuento
+    costFinal = _contacts.pro + _users.pro + extra + _iaField;
+    costFinal = trimDecimals(costFinal);
+
+    // El total anual sin descuento (tachado) debe ser siempre el mismo en ambos modos
+    let priceTach = costFinal * 12;
+    priceTach = Math.round(priceTach * 100) / 100;
+
     if (_typePlan == 'monthly') {
-        costFinal = _contacts.pro + _users.pro + extra + _iaField;
-        discount = 0;
-        let priceTach = costFinal * 12;
-        priceTach = trimDecimals(priceTach);
         jQuery('.pricingCard.pro .elementBody .price .cost .ahorro ').html('Pago total de USD ' + priceTach + ' / año');
+        jQuery('.pricingCard.pro .price .discountCost').html('<span>USD ' + costFinal + ' <small>/ mes</small> </span>');
     }
 
     if (_typePlan == 'yearly') {
-        costFinal = _contacts.pro + _users.pro + extra + _iaField;
-        let priceTach = costFinal * 12;
-        let discountTotal = priceTach - (priceTach * 0.20);
-        discount = costFinal * 0.20;
-        costNoDiscount = costFinal;
-        costFinal = costFinal - discount;
-        discount = trimDecimals(discount);
-        costNoDiscount = trimDecimals(costNoDiscount);
-        priceTach = trimDecimals(priceTach);
-        discountTotal = trimDecimals(discountTotal);
-        jQuery('.pricingCard.pro .elementBody .price .cost .ahorro ').html(' Pago total de USD <span>' + priceTach + '</span> - USD ' + discountTotal + ' / año');
+        let discountTotal = priceTach * 0.8; // total con descuento
+        discountTotal = Math.round(discountTotal * 100) / 100;
+        let monthlyWithDiscount = Math.round((discountTotal / 12) * 100) / 100;
+        jQuery('.pricingCard.pro .elementBody .price .cost .ahorro ').html(
+            'Pago total de <span>USD ' + priceTach + '</span> - <span style="font-weight: 700!important; text-decoration:none;"> USD ' + discountTotal + ' / año</span>'
+        );
+        // Mostrar el valor mensual con descuento real, redondeado
+        jQuery('.pricingCard.pro .price .discountCost').html('<span>USD ' + monthlyWithDiscount + ' <small>/ mes</small> </span>');
     }
-
-    costFinal = trimDecimals(costFinal);
-    jQuery('.pricingCard.pro .price .discountCost').html('<span>USD ' + costFinal + ' <small>/ mes</small> </span>');
 }
 
 function openCompare(){

@@ -709,7 +709,7 @@ y conexión Meta Business ",
 
                                     <div class="head">
                                         <h3 class="secondaryTitle blackColor">
-                                            Plan <span style="color: #FF4E33">Pro</span>
+                                            Plan <span style="color: #F34F36">Pro</span>
                                         </h3>
                                     </div>
 
