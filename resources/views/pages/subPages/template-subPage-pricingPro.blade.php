@@ -388,7 +388,7 @@ o",
 "value" => "checkIcon"
 ],
 [
-"name" => "Checkbox aceptación de politicas  ",
+"name" => "Checkbox aceptación de politicas ",
 "value" => "checkIcon"
 ],
 )
@@ -534,11 +534,11 @@ o",
                         <div class="containElements">
 
                             <h1 class="primaryTitle blackColor">
-                                Plan <span>Pro</span>
+                                Personalicemos tu Plan <span>Pro</span>
                             </h1>
 
                             <p class="primaryText grayColorTexts">
-                            Ten acceso a las herramientas y el acompañamiento personalizado que acelera tu éxito.
+                                Elige los beneficios según las necesidades de crecimiento de tu empresa
                             </p>
 
                         </div>
@@ -566,7 +566,7 @@ o",
 
                                     <div class="head">
                                         <h3 class="secondaryTitle blackColor">
-                                            Plan <span style="color: #FF4E33">Pro</span>
+                                            Plan <span style="color: #F34F36">Pro</span>
                                         </h3>
                                     </div>
 
@@ -864,7 +864,7 @@ o",
                                 </div>
                             </div>
                         </div>
-                       
+
 
                         <!-- Columna Bronce -->
                         <div class="pricing-column">
@@ -1355,7 +1355,7 @@ o",
         <section class="customSection sectionParent subPage_pricingPro_1">
 
             <div class="section-row">
-            <section class="innerSectionElement sct0">
+                <section class="innerSectionElement sct0">
                     <h2 class="title" id="idCompare">
                         Beneficios
                     </h2>
