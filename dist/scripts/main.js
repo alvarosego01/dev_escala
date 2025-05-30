@@ -1,1 +1,0 @@
-jQuery(document).ready(function(e){e("#no-website").change(function(){this.checked?e("#website-field").val("").attr("readonly",!0).css("opacity","0.5"):e("#website-field").attr("readonly",!1).css("opacity","1")})});
