@@ -356,7 +356,7 @@ add_action('wp_enqueue_scripts', function () {
     if (is_page_template('views/template-subPage-omnicanal-2025.blade.php')) {
         wp_enqueue_style('subPage_omnicanal_2025.css', asset_path('styles/pages/subPages/subPage_omnicanal_2025.css'), false, THEME_VERSION);
     }
-        // --- Seccion omnicanal test
+    // --- Seccion omnicanal test
     if (is_page_template('views/template-subPage-omnicanal-test.blade.php')) {
         wp_enqueue_style('subPage_omnicanal_test.css', asset_path('styles/pages/subPages/subPage_omnicanal_test.css'), false, THEME_VERSION);
     }
@@ -395,6 +395,10 @@ add_action('wp_enqueue_scripts', function () {
 
         wp_enqueue_style('subPage_pricing_2023.css', asset_path('styles/pages/subPages/subPage_pricing_2023.css'), false, THEME_VERSION);
         wp_enqueue_script('_pricing2023.js', asset_path('scripts/pages/_pricing2023.js'), ['jquery'], THEME_VERSION, true);
+    }
+    // --- Planes IA
+    if (is_page_template('views/template-subPage-planesIa.blade.php')) {
+        wp_enqueue_style('subPage_planesIa.css', asset_path('styles/pages/subPages/subPage_planesIa.css'), false, THEME_VERSION);
     }
     // --- Program alliance
     if (is_page_template('views/template-vn-program-alliance.blade.php')) {
