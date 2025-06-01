@@ -7,13 +7,13 @@
                         Conoce los planes <br class="space">
                         de <span>Agentes de IA</span>
                     </h1>
-                    <span>que automatizan conversaciones de <br class="space">
-                        WhatsApp, Instagram y Facebook</span>
+                    <p>que automatizan conversaciones de <br class="space">
+                        WhatsApp, Instagram y Facebook</p>
                 </div>
-                <div class="innerSectionElement sct1" style=" background-image: url('{{ App::setFilePath('/assets/images/illustrations/others/ceo-escala-alfonso-agentes-ia.png') }}')">
-<!--       
+                <div class="innerSectionElement sct1">
+     
                     <img src="{!! App::setFilePath('/assets/images/illustrations/others/ceo-escala-alfonso-agentes-ia.png') !!}"
-                        alt=""> -->
+                        alt="">
                 </div>
             </div>
         </section>
