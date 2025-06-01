@@ -718,7 +718,7 @@
 <div id="videoPopup">
     <div class="videoInterno">
         <button onclick="closeVideoPopup()" >×</button>
-        <video id="popupVideo" controls autoplay poster="{!! App::setFilePath('/assets/images/illustrations/others/img-cover-video-am.png') !!}">
+        <video id="popupVideo" controls poster="{!! App::setFilePath('/assets/images/illustrations/others/img-cover-video-am.png') !!}">
             <source src="{!! App::setFilePath('/assets/videos/¿por_qué_tu_empresa_necesita_escala_ (720p).mp4') !!}" type="video/mp4">
         </video>
     </div>
