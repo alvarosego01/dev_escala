@@ -969,7 +969,7 @@ y conexión Meta Business ",
                                                                     <strong class="iaColor"> Inteligencia Artificial
                                                                         <img class="iaIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/ia-icon-pricing.png') !!}"
                                                                             alt=""></strong>
-                                                                    <a href="/planes-ia/" class="planesIa">Conocer planes →</a>
+                                                                    <a target="_blank" href="/planes-ia/" class="planesIa">Conocer planes →</a>
                                                                 </span>
                                                             </label>
                                                         </div>
