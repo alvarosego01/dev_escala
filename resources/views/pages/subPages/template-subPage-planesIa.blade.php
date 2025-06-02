@@ -467,18 +467,7 @@
                     </div>
 
                     <script>
-                        function toggleMobilePlan(planElement) {
-                            // Cerrar todos los planes primero
-                            const allPlans = document.querySelectorAll('.mobile-plan');
-                            allPlans.forEach(plan => {
-                                if (plan !== planElement) {
-                                    plan.classList.remove('active');
-                                }
-                            });
-
-                            // Alternar el plan clickeado
-                            planElement.classList.toggle('active');
-                        }
+                
                         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                             anchor.addEventListener('click', function(e) {
                                 const href = this.getAttribute('href');
