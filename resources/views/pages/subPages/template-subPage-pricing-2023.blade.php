@@ -965,7 +965,12 @@ y conexión Meta Business ",
                                                             </div>
 
                                                             <label for="_iaField">
-                                                                Incluye <span><strong> Inteligencia Artificial</strong></span>
+                                                               Incluye <span>
+                                                                    <strong class="iaColor"> Inteligencia Artificial
+                                                                        <img class="iaIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/ia-icon-pricing.png') !!}"
+                                                                            alt=""></strong>
+                                                                    <a href="/planes-ia/" class="planesIa">Conocer planes →</a>
+                                                                </span>
                                                             </label>
                                                         </div>
 

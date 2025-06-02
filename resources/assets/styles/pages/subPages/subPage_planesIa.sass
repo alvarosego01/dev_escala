@@ -361,16 +361,13 @@ img
 
                 
             .mobile-plan-header
-                background: #fff
-                box-shadow: 0px 4px 20px 0px rgba(0, 127, 150, 0.10)
-                border-radius: 8px
-                margin: 0px 20px
-                &:hover
-                    padding: 2px
-                    background: linear-gradient(to left, #83E3D0, #F1685A), white
-                    background-clip: padding-box, content-box     
-                    border-radius: 8px    
-                    color: #F1685A     
+                padding: 2px
+                background: linear-gradient(to left, #83E3D0, #F1685A), white
+                background-clip: padding-box, content-box     
+                border-radius: 8px    
+                color: #F1685A     
+                margin: 0px
+                 
  
                 .mobile-plan-header-internal
                     padding: 15px
@@ -398,11 +395,12 @@ img
                 transition: transform 0.3s
                 position: absolute  // Posicionamiento absoluto respecto al contenedor padre
                 right: 15px
+                display: none
             .mobile-plan.active .mobile-arrow
                 transform: rotate(180deg)
 
             .mobile-plan-content
-                display: none
+                
                 padding: 0
                 margin-top: 5px
 
