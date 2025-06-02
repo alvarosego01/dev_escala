@@ -754,7 +754,7 @@ o",
                                                                     <strong class="iaColor"> Inteligencia Artificial
                                                                         <img class="iaIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/ia-icon-pricing.png') !!}"
                                                                             alt=""></strong>
-                                                                    <a href="#iaPlan" class="planesIa">Conocer planes →</a>
+                                                                    <a target="_blank" href="/planes-ia/" class="planesIa">Conocer planes →</a>
                                                                 </span>
                                                             </label>
                                                         </div>
@@ -1251,18 +1251,7 @@ o",
                     </div>
 
                     <script>
-                        function toggleMobilePlan(planElement) {
-                            // Cerrar todos los planes primero
-                            const allPlans = document.querySelectorAll('.mobile-plan');
-                            allPlans.forEach(plan => {
-                                if (plan !== planElement) {
-                                    plan.classList.remove('active');
-                                }
-                            });
-
-                            // Alternar el plan clickeado
-                            planElement.classList.toggle('active');
-                        }
+                       
                         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                             anchor.addEventListener('click', function(e) {
                                 const href = this.getAttribute('href');

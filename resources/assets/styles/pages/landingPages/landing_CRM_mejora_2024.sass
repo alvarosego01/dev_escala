@@ -32,12 +32,14 @@
     display: flex
     justify-content: center
 #landing_CRM_2024 .hero2025.landing_CRM_2024_0
-
+    z-index: 2
+    position: relative    
     .section-row
         display: flex
         justify-content: space-between
         align-items: center
         margin: 0 auto
+        height: 766px
         @include responsivo(telefonoTable)
             width: 95%
             height: auto!important
@@ -54,15 +56,16 @@
         @include responsivo(resto)
             width: 100%!important
             max-width: 1358px!important
+            
         
 
     .backgroundFull
         padding: 0
         padding-top: 0
+        position: relative
         background-position: center -83px
         background-size: cover
         background-repeat: no-repeat
-        height: 990px
         @include responsivo(telefonoTable)
             padding-top: 100px!important
             padding-bottom: 0!important
@@ -76,50 +79,16 @@
             height: auto
             border-radius: 0px 0px 20px 20px
             background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-section-hero-2025-crm-mb.svg')!important
-        @include responsivo(smallPcTablet)
-            background-position: 61% -13px!important
-            height: 967px
+
         @include responsivo(general)
-            background-position: 60% -5px
-            height: 1005px
-        @include responsivoSpecial(1760px,1799px)    
-            background-position: center -8px!important
-            height: 894px  
-        @include responsivoSpecial(1740px,1759px)    
-            background-position: center -9px!important
-            height: 894px            
-        @include responsivoSpecial(1729px,1739px)    
-            background-position: center -9px!important
-            height: 900px
-        @include responsivoSpecial(1720px,1728px)    
-            background-position: center -10px!important
-
+            background-position: 60% 
+        @include responsivo(smallPcTablet)
+            background-position: 70% 
         @include responsivo(resto)
-            background-position: center -8px
-            height: 997px
+            background-position: center 
+            height: 766px
 
-
-        @include responsivoSpecial(1800px,1850px  )
-            background-position: center -49px
-            height: 1050px
-        @include responsivoSpecial(1851px,1899px)    
-            background-position: center -18px!important
-            height: 1010px    
-        @include responsivoSpecial(1900px,2500px  )
-            background-position: center -115px
-            height: 970px
-        @include responsivoSpecial(1930px,1939px  )
-            background-position: center -64px!important
-
-        @include responsivoSpecial(1940px,1941px )
-            background-position: center -87px!important
-        @include responsivoSpecial(1942px,1955px )
-            background-position: center -63px!important
-        @include responsivoSpecial(1956px,1975px )
-            background-position: center -64px!important
-        @include responsivoSpecial(1980px,2000px )
-            background-position: center -63px!important
-            height: 1065px
+ 
         .innerSectionElement.sct1
             position: relative
             top: 70px
@@ -131,7 +100,7 @@
             @include responsivo(smallPcTablet)
                 margin-top: auto
                 position: relative
-                top: -82px!important
+                top: 0
                 padding: 0
                 overflow: hidden
             @include responsivoSpecial(1800px,1850px  )
@@ -230,6 +199,9 @@
                         display: block!important
                     img
                         height: 266px
+                        @include responsivo(smallPcTablet)
+                            height: 340px
+                            padding-top: 40px
                     .iconClick
                         height: 90px
                         position: absolute
@@ -244,7 +216,7 @@
         .innerSectionElement.sct2
             overflow: hidden
             position: relative
-            top:  149px
+            margin-top: auto
             left: -17px
             @include responsivo(telefonoTable)
                 margin-top: 50px
@@ -259,16 +231,8 @@
             @include responsivo(smallPcTablet)
                 display: none
             @include responsivo(general)
-                top:  134px
                 width: 390px
-            @include responsivoSpecial(1800px,1850px  )
-                top: 149px
-            @include responsivoSpecial(1900px,2500px  )
-                top: 116px
-            @include responsivoSpecial(1920px,1940px )
-                top: 123px            
-            @include responsivoSpecial(1980px,2000px )
-                top: 147px
+
             .containerImage
                 margin: 0
                 margin-bottom: -10px
@@ -310,17 +274,17 @@
         .innerSectionElement.sct3
             padding-top: 0
             position: relative
-            top: 175px
+            top: 195px
             @include responsivo(telefonoTable)
                 padding-top: 0
                 top: 0
             @include responsivo(pcMedio)
                 padding-top: 0
                 top: 0
-            @include responsivo(smallPcTablet)
-                width: 336px
             @include responsivo(general)
                 padding-top: 0
+            @include responsivo(smallPcTablet)
+                top: 210px
             .form7
                 
                 padding-bottom: 0
@@ -375,6 +339,7 @@
 
 #landing_CRM_2024  .customSection.sectionParent.landing_CRM_2024_1
     padding: 0
+    padding-top: 75px
     background-color: transparent
     position: relative
     display: flex
@@ -382,26 +347,44 @@
     justify-content: center
     justify-items: center
     text-align: center
-    margin-top: -140px
+   
     margin-bottom: 40px  
     @include responsivo(telefonoTable)
-        margin-top: 55px
         margin-bottom: 0
     @include responsivo(pcMedio)
-        margin-top: 55px
         margin-bottom: 0
     @include responsivo(general)
     @include responsivo(smallPcTablet)
-        margin-top: -175px
+        
         margin-bottom: 20px
     @include responsivo(resto)
 
-    @include responsivoSpecial(1800px,1850px  )
-        margin-top: -195px   
-        margin-bottom: 20px      
-    @include responsivoSpecial(1900px,2500px  )
-        margin-top: -241px   
-        margin-bottom: 20px        
+    .imgFlotante
+        position: absolute
+        top: -442px
+        z-index: 1
+        left: 0
+        object-fit: cover 
+        @include responsivo(telefonoTable)
+            display: none
+        @include responsivo(pcMedio)
+            display: none
+    .imgFlotante2
+        position: absolute
+        top: -693px
+        z-index: 1
+        right: -160px
+        object-fit: cover     
+        @include responsivo(telefonoTable)
+            display: none
+        @include responsivo(pcMedio)
+            display: none
+        @include responsivo(general)
+            top: -550px
+            right: -270px
+        @include responsivoSpecial(2300px, 2900px  )
+            display: none
+        
     .section-row
         margin: 0 auto
         @include responsivo(telefonoTable)
