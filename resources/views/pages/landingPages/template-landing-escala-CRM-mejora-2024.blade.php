@@ -5,7 +5,7 @@
 
         <section id="lead-form" class="hero2025 landing_CRM_2024_0">
 
-            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-hero-crm-2025.png') !!}')">
+            <div class="backgroundFull" style="background-image: url('{!! App::setFilePath('/assets/images/banners/bg-hero-crm-2025-01.png') !!}')">
 
                 <div class="section-row">
                     <section class="innerSectionElement sct1">
@@ -33,7 +33,7 @@
                             </p>
                             <div class="containerImage">
                                 <img alt="Ilustración de CEO ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/ceo-escala-alfonso-2025.png') !!}" loading="lazy">
-                              <img class="iconClick" src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}" loading="lazy" onclick="openVideoPopup()">
+                                <img class="iconClick" src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}" loading="lazy" onclick="openVideoPopup()">
                             </div>
                         </div>
                     </section>
@@ -82,7 +82,8 @@
 
 
         <section class="customSection sectionParent landing_CRM_2024_1">
-
+            <img class="imgFlotante" src="{!! App::setFilePath('/assets/images/banners/bg-fondo-blur-blue.svg') !!}" loading="lazy">
+             <img class="imgFlotante2" src="{!! App::setFilePath('/assets/images/banners/bg-fondo-blur-blue.svg') !!}" loading="lazy">
             <div class="section-row">
 
                 <section class="innerSectionElement sct1">
@@ -714,45 +715,45 @@
             </div>
         </section>
 
-<!-- Popup (inicialmente oculto) -->
-<div id="videoPopup">
-    <div class="videoInterno">
-        <button onclick="closeVideoPopup()" >×</button>
-        <video id="popupVideo" controls poster="{!! App::setFilePath('/assets/images/illustrations/others/img-cover-video-am.png') !!}">
-            <source src="{!! App::setFilePath('/assets/videos/¿por_qué_tu_empresa_necesita_escala_ (720p).mp4') !!}" type="video/mp4">
-        </video>
-    </div>
-</div>
+        <!-- Popup (inicialmente oculto) -->
+        <div id="videoPopup">
+            <div class="videoInterno">
+                <button onclick="closeVideoPopup()">×</button>
+                <video id="popupVideo" controls poster="{!! App::setFilePath('/assets/images/illustrations/others/img-cover-video-am.png') !!}">
+                    <source src="{!! App::setFilePath('/assets/videos/¿por_qué_tu_empresa_necesita_escala_ (720p).mp4') !!}" type="video/mp4">
+                </video>
+            </div>
+        </div>
 
-<script>
-    function openVideoPopup() {
-        const popup = document.getElementById('videoPopup');
-        const video = document.getElementById('popupVideo');
-        
-        popup.style.display = 'flex';
-        
-        // Forzar la reproducción programáticamente
-        video.play().catch(error => {
-            console.log('La reproducción automática fue prevenida:', error);
-            // Mostrar controles si la reproducción automática falla
-            video.controls = true;
-        });
-    }
-    
-    function closeVideoPopup() {
-        const popup = document.getElementById('videoPopup');
-        const video = document.getElementById('popupVideo');
-        
-        popup.style.display = 'none';
-        video.pause();
-        video.currentTime = 0; // Reiniciar el video
-    }
-    
-    // Cerrar al hacer clic fuera del video
-    document.getElementById('videoPopup').addEventListener('click', function(e) {
-        if (e.target === this) closeVideoPopup();
-    });
-</script>
+        <script>
+            function openVideoPopup() {
+                const popup = document.getElementById('videoPopup');
+                const video = document.getElementById('popupVideo');
+
+                popup.style.display = 'flex';
+
+                // Forzar la reproducción programáticamente
+                video.play().catch(error => {
+                    console.log('La reproducción automática fue prevenida:', error);
+                    // Mostrar controles si la reproducción automática falla
+                    video.controls = true;
+                });
+            }
+
+            function closeVideoPopup() {
+                const popup = document.getElementById('videoPopup');
+                const video = document.getElementById('popupVideo');
+
+                popup.style.display = 'none';
+                video.pause();
+                video.currentTime = 0; // Reiniciar el video
+            }
+
+            // Cerrar al hacer clic fuera del video
+            document.getElementById('videoPopup').addEventListener('click', function(e) {
+                if (e.target === this) closeVideoPopup();
+            });
+        </script>
     </div>
 
 
