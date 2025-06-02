@@ -70,7 +70,6 @@ html
 #subPage_whatsapp_2022 .customSection.sectionParent.subpage_whatsapp_0
 
     margin-bottom: 0
-    overflow: hidden
     @include responsivo(telefonoTable)
         padding-bottom: 25px
 
@@ -94,41 +93,57 @@ html
             margin: 0
             padding: 0
     .backgroundFull
-        background-position: center -135px
+        background-position: 47% 
+        height: 850px
+        padding: 0
+        padding-top: 75px
         @include responsivo(telefonoTable)
             background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-dk-escala-whatsapp-hero-mb-1-1.png')!important
             background-position: center
             margin-bottom: 50px
             padding-bottom: 0!important
+            height: auto
         @include responsivo(pcMedio)
             padding: 150px  0px 0px 0px!important
             background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-dk-escala-whatsapp-hero-mb-1-1.png')!important
             background-position: center
             margin-bottom: 50px
+            height: auto
         @include responsivo(general)
-            background-position: center -170px
+            background-position: 47% 
             padding-bottom: 0
         @include responsivo(smallPcTablet)
             padding: 50px 0px 0px 0px
             margin: 0px
     .section-row
+        height: 850px
+        @include responsivo(telefonoTable)
+            height: auto
+            
+        @include responsivo(pcMedio)
+            height: auto
+            
         .innerSectionElement.sct1
             @include responsivo(general)
                 padding: 0 15px 0px 15px
             .groupElements
-                height: fit-content
+
                 .info
                     padding-top: 0
                     display: flex
                     flex-direction: column
+                    height: 774px
+                    overflow: hidden
                     @include responsivo(telefonoTable)
                         margin-bottom: 0
                         padding-top: 100px
                     @include responsivo(pcMedio)
                         margin-bottom: 0
+                    @include responsivo(general)
+                        overflow: visible
                     .containElements
                         position: relative
-                        top: -48px
+                        top: 15px
                         padding-bottom: 0
                         display: flex
                         margin: auto 0
@@ -138,8 +153,10 @@ html
                             flex-direction: column-reverse
                         @include responsivo(general)
                             flex-direction: row-reverse
-                            margin-bottom: 155px
-                            top: -17px
+                            margin-bottom: 0
+                            top: 0
+                        @include responsivo(smallPcTablet)
+                            top: 25px
                         @include responsivo(resto)
                             flex-direction: row-reverse
                             margin-bottom: 0
@@ -272,7 +289,7 @@ html
                 .form7
                     margin-bottom: 50px
                     padding-bottom: 0
-                    padding-top: 120px
+                    padding-top: 100px
                     display: flex
                     
                     @include responsivo(general)
@@ -292,7 +309,7 @@ html
                     .formatForm
                         display: block
                         margin: 0 auto
-                    
+                        min-height: 795px
                         filter: drop-shadow(0px 4px 30px rgba(0, 127, 150, 0.20))
                         border-radius: 20px
                         padding: 0px 30px 30px
@@ -337,12 +354,17 @@ html
 
 #subPage_whatsapp_2022 .customSection.sectionParent.subpage_whatsapp_1
     padding: 0
+    padding-top: 200px
     background-color: transparent
     position: relative
     display: flex
     flex-direction: center
     justify-content: center
     justify-items: center
+    @include responsivo(telefonoTable)
+        padding-top: 0
+    @include responsivo(pcMedio)
+        padding-top: 0
     .section-row
         @include responsivo(telefonoTable)
             width: 95%

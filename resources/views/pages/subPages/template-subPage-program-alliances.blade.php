@@ -80,18 +80,18 @@
                             y subir de nivel',
                       '<span>1.</span> Al día con training <br class="space">
                                 <span>2.</span> Estar en cumplimiento con acuerdo <br class="space">
-                                <span>3.</span> Venta de nuevo MRR en un año: <br class="space">
-                                <span>Silver:</span> MRR = $0 - $15,000 (~12 licencias) <br class="space">
-                                <span>Gold:</span> MRR = $15,001 - $30,000 (~13-24) <br class="space">
-                                <span>Diamond:</span> MRR > $30,001 (~25+)',
+                                <span>3.</span> Venta de nuevo ARR en un año: <br class="space">
+                                <span>Silver:</span> ARR = $0 - $15,000 (~12 licencias) <br class="space">
+                                <span>Gold:</span> ARR = $15,001 - $30,000 (~13-24) <br class="space">
+                                <span>Diamond:</span> ARR > $30,001 (~25+)',
                       '
                                 <span>1.</span> Suscripción activa Escala <br class="space">
                                 <span>2.</span> Al día con certificaciones <br class="space">
                                 <span>3.</span> Estar en cumplimiento con acuerdo <br class="space">
-                                <span>4.</span> Retención de MRR y NDR: <br class="space">
-                                <span>Silver:</span> MRR < $1,000 y NDR > 80% <br class="space">
-                                <span>Gold:</span> MRR = $1,000 - $,5000 y NDR > 90% <br class="space">
-                                <span>Diamond:</span> MRR > $5,000 y NDR > 95%
+                                <span>4.</span> Retención de ARR y NDR: <br class="space">
+                                <span>Silver:</span> ARR < $1,000 y NDR > 80% <br class="space">
+                                <span>Gold:</span> ARR = $1,000 - $,5000 y NDR > 90% <br class="space">
+                                <span>Diamond:</span> ARR > $5,000 y NDR > 95%
                                 ',
                   ],
               ],
@@ -142,10 +142,8 @@
                   'subItems' => [
                       ' Método Pago',
                       '- Transferencia bancaria<br class="space">
-                                - Zelle<br class="space">
                                 - Paypal',
                       '- Transferencia bancaria<br class="space">
-                                - Zelle<br class="space">
                                 - Paypal',
                   ],
               ],
