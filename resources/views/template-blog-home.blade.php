@@ -25,7 +25,7 @@
                                         ">
                             <div class="containElements row threeCol">
 
-                                <div class="ele ele1 col-md-12 col-lg-6">
+                                <div>
 
                                     <div class="containerImage">
                                         <img src="{!! App::setFilePath('/assets/images/person/blog_header.png') !!}" loading="lazy">
@@ -35,15 +35,15 @@
                                     <h1 class="principalBigTitle blackColor">
 
                                         <span style="color: #B9E6E9">
-                                            Mantén tu conocimiento <br class="space">
+                                            Mantén tu conocimiento
                                             de marketing y ventas al día
                                         </span>
                                     </h1>
                                     <p class="principalBigText grayColorTexts">
 
                                         <span class="whiteColor">
-                                            Encuentra en nuestro blog tendencias, <br class="space">
-                                            novedades y mejores prácticas <br class="space">
+                                            Encuentra en nuestro blog tendencias,
+                                            novedades y <br class="DT_e"> mejores prácticas
                                             para empoderar tu formación.
                                         </span>
                                     </p>
