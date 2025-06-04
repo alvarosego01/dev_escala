@@ -36,6 +36,7 @@
             max-width: 1210px!important
         @include responsivo(smallPcTablet)
             max-width: 1000px!important
+            gap: 40px
         @include responsivo(resto)
             width: 100%!important
             max-width: 1358px!important
@@ -56,14 +57,13 @@
             height: auto
             border-radius: 0px 0px 20px 20px
             background-position: center
-            background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-section-hero-2025-crm-mb.svg')!important
+
         @include responsivo(pcMedio)
             padding-top: 100px!important
             padding-bottom: 0!important
             height: auto
             border-radius: 0px 0px 20px 20px
-            background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-section-hero-2025-crm-mb.svg')!important
-
+            background-position: center
         @include responsivo(general)
             background-position: 30% 
         @include responsivo(smallPcTablet)
@@ -79,21 +79,24 @@
             top: 25px
             @include responsivo(telefonoTable)
                top: 0 
+               left: 0
             @include responsivo(pcMedio)
                top: 0 
+               left: 0
             @include responsivo(general)
                 left: 140px
             @include responsivo(smallPcTablet)
                 margin-top: auto
                 position: relative
-                top: 0
+                top: 33px
                 padding: 0
                 overflow: hidden
+                width: 100%
+                left: 0 
             @include responsivoSpecial(1800px,2500px  )
                 left: 115px
             .sectionText
                 .principalBigTitleMb
-
                     display: none
                     @include responsivo(telefonoTable)
                         display: block!important
@@ -108,6 +111,8 @@
                         color: #fff
                         font-family: 'Mulish', sans-serif
                         font-weight: 800
+                        br
+                            display: none!important
                     span
                         background: linear-gradient(90deg, #83e3d0 .07%, #f1685a 90%)
                         background-clip: text
@@ -138,6 +143,8 @@
                         font-size: 55px
                     @include responsivo(smallPcTablet)
                         font-size: 50px
+                        br
+                            display: none!important
                     @include responsivo(resto)
                         margin-top: 0
                         font-size: 55px
@@ -160,7 +167,6 @@
                         font-size: 30px
                         text-align: center
                         margin-bottom: 40px
-                    
                         br
                             display: none!important
                     @include responsivo(pcMedio)
@@ -174,7 +180,9 @@
                     @include responsivo(smallPcTablet)
                         font-size: 21px
                         margin-bottom: 20px
-                        width: 84%
+                        width: 100%
+                        br
+                            display: none!important
                     @include responsivo(resto)
                         font-size: 30px
                 .containerImage
@@ -198,6 +206,32 @@
                         cursor: pointer
                         animation: pulse 2s infinite ease-in-out
                         
+        .innerSectionElement.sct2
+            display: block
+            @include responsivo(smallPcTablet)
+                display: none
+            .containerImage
+                display: none
+                margin: 0
+                padding: 0
+                @include responsivo(telefonoTable)
+                    display: block!important
+                @include responsivo(pcMedio)
+                    display: block!important
+                @include responsivo(smallPcTablet)
+                    display: block!important
+
+                img
+                    height: 360px
+                    padding-top: 40px
+            @include responsivo(telefonoTable)
+                display: block
+                order: 3
+            @include responsivo(pcMedio)
+                display: block
+                order: 3
+            @include responsivo(smallPcTablet)
+                display: none             
         .innerSectionElement.sct3
             padding-top: 0
             position: relative
@@ -239,6 +273,7 @@
                         max-width: 375px!important
                     @include responsivo(smallPcTablet)
                         padding: 0px 20px 30px
+                        min-width: 330px!important
                     h5.titleFormat
                         color: #2C4857!important
                         font-family: "Mulish", sans-serif!important
@@ -933,7 +968,8 @@
                     flex-direction: column
                     gap: 40px
                 @include responsivo(pcMedio)
-                    flex-wrap: wrap
+                    align-items: center
+                    flex-direction: column
                 .cards
                     width: 100%
                     border: none
@@ -1016,14 +1052,15 @@
             @include responsivo(telefonoTable)
                 flex-direction: column-reverse
                 gap: 30px
-                padding: 30px 30px 0px 30px
-                background-image: url('https://escala.com/wp-content/uploads/2025/04/ceo_bg_acompanamiento.png')!important
+                padding: 40px 20px 0px 20px
+                background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-section-andres-moreno-email-escala-8-mb.webp')!important
             @include responsivo(pcMedio)
                 flex-direction: column-reverse
                 gap: 30px
-          
+                padding-bottom: 0
+                background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-section-andres-moreno-email-escala-8-mb.webp')!important
             @include responsivo(smallPcTablet)
-                padding: 30px 30px 0px 30px
+                padding: 40px
                 
        
             p
@@ -1054,7 +1091,22 @@
                     width: 100%
             .cards.left
                 width: 30%
-
+                @include responsivo(telefonoTable)
+                    width: 100%
+                @include responsivo(pcMedio)
+                    width: 100%
+                .containerImage
+                    padding: 0
+                    margin: 0
+                    img
+                        display: none
+                        @include responsivo(telefonoTable)
+                            display: block!important
+                            height: 290px
+                        @include responsivo(pcMedio)
+                            display: block!important
+                            height: 320px
+                    
 
 
 #landing_emailMarketingCampaigns_2023 .customSection.sectionParent.landing_emailMarketingCampaigns_2023_9
@@ -1069,7 +1121,7 @@
             width: 100%!important
             max-width:  100%!important
         @include responsivo(smallPcTablet)
-            max-width:  100%!important
+            max-width: 100%!important
         @include responsivo(resto)
             width: 100%!important
             max-width: 100%!important
@@ -1078,6 +1130,9 @@
             margin-bottom:90px
             @include responsivo(telefonoTable)
                 padding: 0px 10px
+                margin-bottom: 60px
+            @include responsivo(pcMedio)
+                margin-bottom: 60px
             .containElements
                 h2.primaryTitle
                     font-family: 'Mulish', sans-serif
@@ -1105,11 +1160,15 @@
             background-size: contain
             background-repeat: no-repeat
             @include responsivo(telefonoTable)
+                
                 background-position: 40% bottom
             @include responsivo(pcMedio)
+                
                 background-position: 13% bottom
             @include responsivo(general)
                 background-position:  170% bottom
+            @include responsivo(smallPcTablet)
+                background-position: 255% bottom
             @include responsivo(resto)
                 background-position: 125% bottom
 
@@ -1121,15 +1180,19 @@
                 gap: 120px
                 max-width: 1173px
                 @include responsivo(telefonoTable)
-                    flex-direction: column-reverse
+                    flex-direction: column
                     justify-content: center
                     gap: 60px
                 @include responsivo(pcMedio)
-                    flex-direction: column-reverse
+                    flex-direction: column
                     justify-content: center
                     gap: 60px
                 @include responsivo(general)
                     max-width: 1070px
+
+                @include responsivo(smallPcTablet)
+                    min-width: 1000px!important
+                    padding: 0px 20px
                 .containerImage
                     margin: 0
                     padding: 0
@@ -1140,9 +1203,11 @@
                         height: 429px
                         padding: 0
                         @include responsivo(telefonoTable)
-                            height: 359px
+                            height: 290px
                         @include responsivo(general)
                             height: 393px
+                        @include responsivo(smallPcTablet)
+                            height: 350px
                 .info-second
                     @include responsivo(telefonoTable)
                         display: flex
@@ -1212,10 +1277,10 @@
         background-color: transparent!important
         @include responsivo(telefonoTable)
             padding: 0px!important
-            maxwidth: 95%!important
+            max-width: 95%!important
         @include responsivo(pcMedio)
-            padding: 0px 0 30px 0px!important
-            maxwidth: 95%!important
+            padding: 0
+            max-width: 95%!important
         @include responsivo(general)
             padding: 0
             width: 100%!important
@@ -1232,9 +1297,9 @@
         section.innerSectionElement1
             margin-bottom: 90px
             @include responsivo(telefonoTable)
-                margin-bottom: 25px
+                margin-bottom: 60px
             @include responsivo(pcMedio)
-                margin-bottom: 25px
+                margin-bottom: 60px
 
             .primaryTitle
                 font-family: 'Mulish', sans-serif
@@ -1250,6 +1315,8 @@
                         display: none!important
                 @include responsivo(pcMedio)
                     font-size: 40px
+                    br
+                        display: none!important
                 @include responsivo(general)
                     font-size: 45px
                 @include responsivo(smallPcTablet)
@@ -1291,10 +1358,10 @@
             padding: 0px!important
             maxwidth: 95%!important
         @include responsivo(pcMedio)
-            padding: 0px 0 30px 0px!important
+            padding: 0
             maxwidth: 95%!important
         @include responsivo(general)
-            padding: 0px 0 30px 0px!important
+            padding:0
             width: 100%!important
             max-width: 1240px!important
 
@@ -1313,9 +1380,9 @@
         section.innerSectionElement1
             margin-bottom: 60px
             @include responsivo(telefonoTable)
-                margin-bottom: 25px
+                margin-bottom: 60px
             @include responsivo(pcMedio)
-                margin-bottom: 25px
+                margin-bottom: 60px
 
             .primaryTitle
                 font-family: 'Mulish', sans-serif
@@ -1344,13 +1411,19 @@
             gap: 50px
             @include responsivo(telefonoTable)
                 flex-direction: column
-                gap: 50px
+                align-items: center
+                gap: 0
             @include responsivo(pcMedio)
                 flex-direction: column
-                gap: 30px
+                align-items: center
+                gap: 0px
             ul
                 margin: 30px 0
                 padding: 0
+                @include responsivo(telefonoTable)
+                    margin: 0
+                @include responsivo(pcMedio)
+                    margin: 0
                 li
                     font-family: 'Mulish', sans-serif
                     font-size: 30px
@@ -1379,7 +1452,12 @@
     background-repeat: no-repeat
     background-position: center 24px    
     @include responsivo(telefonoTable)
-        background-image: url('https://escala.com/wp-content/uploads/2025/04/bg-section-9-md-aceleradora.png')!important
+        background-position: center
+        background-image: url('/wp-content/themes/oceanwp-child/resources/assets/images/banners/bg-section-email-escala-12-mb.webp')!important
+    @include responsivo(pcMedio)
+        background-position: left 24px
+    @include responsivo(smallPcTablet)
+        background-position: left 24px
     .section-row
         margin: 0 auto
         @include responsivo(telefonoTable)
@@ -1409,9 +1487,9 @@
             padding-top: 0
             @include responsivo(telefonoTable)
                 flex-direction: column-reverse
-                padding-top: 50px
+                padding-top: 40px
             @include responsivo(pcMedio)
-                padding-top: 50px
+                
             .innerSectionElement.sct1
                 @include responsivo(smallPcTablet)
                     margin: 0
@@ -1423,11 +1501,13 @@
                         margin: 0px
                         height: 305px
                         @include responsivo(telefonoTable)
-                            height: 230px
+                            height: 290px
                         @include responsivo(pcMedio)
-                            height: 235px
+                            height: 290px
                         @include responsivo(general)
                             height: 380px
+                        @include responsivo(smallPcTablet)
+                            height: 360px
                         @include responsivo(resto)
                             height: 440px
 
@@ -1446,7 +1526,7 @@
                     @include responsivo(pcMedio)
                         display: flex
                         justify-content: center
-                        align-items: center
+                        align-items: flex-start
                         flex-direction: column
 
                     .title
@@ -1462,7 +1542,8 @@
                             text-align: center
                         @include responsivo(pcMedio)
                             font-size: 38px
-                        
+                        @include responsivo(smallPcTablet)
+                            font-size: 45px
                     .primaryButton 
                         font-size: 30px!important
                         padding: 25px 80px!important
@@ -1472,6 +1553,8 @@
                         @include responsivo(telefonoTable)
                             padding: 25px 20px!important
                             font-size: 25px!important
+                        @include responsivo(pcMedio)
+                            padding: 25px 55px!important
                         @include responsivo(smallPcTablet)
                             padding: 25px 55px!important
                         &:hover

@@ -8,7 +8,10 @@
 
                 <div class="section-row">
                     <section class="innerSectionElement sct2">
+                        <div class="containerImage">
+                            <img alt="Ilustración de CEO ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/andres-moreno-hero-email-2025-2.webp') !!}" loading="lazy">
 
+                        </div>
                     </section>
                     <section class="innerSectionElement sct1">
                         <div class="sectionText">
@@ -33,8 +36,8 @@
                                 que conectan y venden mejor.
                             </p>
                             <div class="containerImage">
-                                <img alt="Ilustración de CEO ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/ceo-escala-alfonso-2025.png') !!}" loading="lazy">
-                                <img class="iconClick" src="{!! App::setFilePath('/assets/images/illustrations/others/btn-play-icon-video-escala.svg') !!}" loading="lazy" onclick="openVideoPopup()">
+                                <img alt="Ilustración de CEO ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/andres-moreno-hero-email-2025-2.webp') !!}" loading="lazy">
+
                             </div>
                         </div>
                     </section>
@@ -391,7 +394,9 @@
                 <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-andres-moreno-email-escala-8.webp') }}')">
 
                     <div class="cards left">
-
+                        <div class="containerImage">
+                            <img alt="Ilustración de CEO ESCALA" src="{!! App::setFilePath('/assets/images/illustrations/others/andres-moreno-hero-email-2025-8.webp') !!}" loading="lazy">
+                        </div>  
                     </div>
                     <div class="cards right">
                         <p>
