@@ -181,9 +181,8 @@
                         'classSection' => 'landing_emailMarketingCampaigns_2023_6',
                         'img' => App::setFilePath('/assets/images/gifs/Captura-Automatica-de-Interesados.gif'),
                         'title' => 'Arrastra y suelta',
-                        'text' => 'Crea increíbles emails que cautivan a tu audiencia <br class="DT_e">
-                        en cualquier dispositivo con un constructor de emails muy fácil de <br class="DT_e">
-                        usar y plantillas pre-diseñadas.',
+                        'text' => 'Crea increíbles emails que cautivan a tu audiencia
+                        en cualquier dispositivo con un constructor de emails muy fácil de usar y plantillas pre-diseñadas.',
                         'side' => 'right',
                         ]);
                         @endphp
@@ -403,7 +402,7 @@
                             mantenerse en contacto, y quizás el método <br class="DT_e">
                             de menor costo de todos”.
                         </p>
-                        <span class="colorSpecial">Andrés Moreno, <br class="space">
+                        <span class="colorSpecial"><b>Andrés Moreno,</b> <br class="space">
                             Fundador de escala & Open English</span>
                     </div>
 
@@ -424,12 +423,10 @@
 
                     </div>
                 </section>
-                <section class="innerSectionElement sct2 " style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-email-2025-9.webp') }}')">
+                <section class="innerSectionElement sct2 " style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-email-2025-9 (1).webp') }}')">
 
                     <div class="containElements">
-                        <div class="containerImage">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-chica-escala-feliz-crm.png') !!}" loading="lazy">
-                        </div>
+
                         <div class="info-second">
                             <p>
                                 Nuestro equipo de servicio y <br class="DT_e">
@@ -444,7 +441,9 @@
                             </span>
 
                         </div>
-
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/chica-escala-feliz-email-entrenamiento.webp') !!}" loading="lazy">
+                        </div>
                 </section>
                 <div class="btnCenter">
                     <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
