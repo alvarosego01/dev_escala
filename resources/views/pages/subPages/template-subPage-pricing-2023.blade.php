@@ -8,19 +8,19 @@ $featuresElements = [
 "name" => 'Gerente éxito asignado',
 "subItems" => array(
 [
-"name" => "Todo el año",
+"name" => "Primer año",
 "value" => [
 "disabledIcon",
-"8 horas el primer año",
+"8 horas",
 "Personalizado"
 ]
 ],
 [
-"name" => "1 hora trimestral de por vida",
+"name" => "Después del primer año",
 "value" => [
 "disabledIcon",
-"checkIcon",
-"checkIcon"
+"1 hora trimestral",
+"Personalizado"
 ]
 ],
 )
@@ -969,7 +969,7 @@ y conexión Meta Business ",
                                                                     <strong class="iaColor"> Inteligencia Artificial
                                                                         <img class="iaIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/ia-icon-pricing.png') !!}"
                                                                             alt=""></strong>
-                                                                    <a href="/planes-ia/" class="planesIa">Conocer planes →</a>
+                                                                    <a target="_blank" href="/planes-ia/" class="planesIa">Conocer planes →</a>
                                                                 </span>
                                                             </label>
                                                         </div>

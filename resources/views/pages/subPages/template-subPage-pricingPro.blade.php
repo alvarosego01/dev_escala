@@ -468,12 +468,12 @@ o",
 "name" => 'Gerente Éxito asignado',
 "subItems" => array(
 [
-"name" => "Todo el año",
-"value" => "8 horas el primer año"
+"name" => "Primer año",
+"value" => "8 horas"
 ],
 [
-"name" => "1 hora trimestral de por vida",
-"value" => "checkIcon"
+"name" => "Después del primer año",
+"value" => "1 hora trimestral"
 ],
 )
 
@@ -754,7 +754,7 @@ o",
                                                                     <strong class="iaColor"> Inteligencia Artificial
                                                                         <img class="iaIcon" src="{!! App::setFilePath('/assets/images/illustrations/others/ia-icon-pricing.png') !!}"
                                                                             alt=""></strong>
-                                                                    <a href="/planes-ia/" class="planesIa">Conocer planes →</a>
+                                                                    <a target="_blank" href="/planes-ia/" class="planesIa">Conocer planes →</a>
                                                                 </span>
                                                             </label>
                                                         </div>
