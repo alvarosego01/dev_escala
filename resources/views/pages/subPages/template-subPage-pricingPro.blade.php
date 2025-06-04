@@ -468,12 +468,12 @@ o",
 "name" => 'Gerente Éxito asignado',
 "subItems" => array(
 [
-"name" => "Todo el año",
-"value" => "8 horas el primer año"
+"name" => "Primer año",
+"value" => "8 horas"
 ],
 [
-"name" => "1 hora trimestral de por vida",
-"value" => "checkIcon"
+"name" => "Después del primer año",
+"value" => "1 hora trimestral"
 ],
 )
 
