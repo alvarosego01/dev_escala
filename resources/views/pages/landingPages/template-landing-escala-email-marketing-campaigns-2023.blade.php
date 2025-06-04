@@ -165,166 +165,111 @@
 
                 <section class="innerSectionElement sct1 ">
                     <div class="containElements">
-
                         @php
-                        $parameters = [
+                        $defaultParams = [
                         'type' => 'backgroundColor',
-                        'classSection' => 'landing_emailMarketingCampaigns_2023_6',
                         'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'img' => App::setFilePath('/assets/images/gifs/Captura-Automatica-de-Interesados.gif'),
-                        'title' => '
-                        Arrastra y suelta
-                        ',
-                        'text' => 'Crea increíbles emails que cautivan a tu audiencia <br class="DT_e">
-                        en cualquier dispositivo con un constructor de emails muy fácil de <br class="DT_e">
-                        usar y plantillas pre-diseñadas.',
                         'enableButton' => false,
                         'urlButton' => '#lead-form',
                         'textButton' => 'Recibe un demo',
-                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
-                        'side' => 'right',
+                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022'
                         ];
+                        @endphp
+
+                        @php
+                        $parameters = array_merge($defaultParams, [
+                        'classSection' => 'landing_emailMarketingCampaigns_2023_6',
+                        'img' => App::setFilePath('/assets/images/gifs/Captura-Automatica-de-Interesados.gif'),
+                        'title' => 'Arrastra y suelta',
+                        'text' => 'Crea increíbles emails que cautivan a tu audiencia <br class="DT_e">
+                        en cualquier dispositivo con un constructor de emails muy fácil de <br class="DT_e">
+                        usar y plantillas pre-diseñadas.',
+                        'side' => 'right',
+                        ]);
                         @endphp
                         @contain_text_image_T1($parameters)
                         @endcontain_text_image_T1
 
                         @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
+                        $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_emailMarketingCampaigns_2023_6_1',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
                         'img' => App::setFilePath('/assets/images/gifs/Seguimiento-Oportuno.gif'),
-                        'title' => 'Crea contenido en segundos <br class="DT_e"> con Inteligencia Artificial
-                        ',
+                        'title' => 'Crea contenido en segundos <br class="DT_e"> con Inteligencia Artificial',
                         'text' => 'Bríndale a Escala un par de palabras clave y tu <br class="DT_e">
                         intención para que te proponga opciones que <br class="DT_e">
                         puedas elegir y revisar si lo necesitas. <br class="DT_e">
                         ¡Esto funciona para tanto para el cuerpo del email <br class="DT_e">
                         como para el asunto!',
-                        'enableButton' => false,
-                        'urlButton' => '#lead-form',
-                        'textButton' => 'Recibe un demo',
-                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
                         'side' => 'left',
-                        ];
+                        ]);
                         @endphp
                         @contain_text_image_T1($parameters)
                         @endcontain_text_image_T1
 
                         @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
+                        $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_emailMarketingCampaigns_2023_6_2',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/gifs/Clasificacion-Estrategica-de-Leads.gif',
-                        ),
+                        'img' => App::setFilePath('/assets/images/gifs/Clasificacion-Estrategica-de-Leads.gif'),
                         'title' => 'Automatiza flujos de email y <br class="DT_e"> escala operaciones',
-                        'text' =>
-                        'Logra que tus contactos reciban tus mensajes en el <br class="DT_e">
+                        'text' => 'Logra que tus contactos reciban tus mensajes en el <br class="DT_e">
                         momento oportuno ¡sin tener que estar pendiente de
                         enviarlos! Envía emails.
                         <br class="space">
                         <ul>
-                            <li></li>
-                            <li>2</li>
-                            <li>3</li>
-                        </ul>
-                        ',
-                        'enableButton' => false,
-                        'urlButton' => '#lead-form',
-                        'textButton' => 'Recibe un demo',
-                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                            <li><img class="checkIcon" src="'.App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png').'" alt="">Bienvenida inmediatamente después de que compran </li>
+                            <li><img class="checkIcon" src="'.App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png').'" alt="">Recordatorios antes de un evento importante </li>
+                            <li><img class="checkIcon" src="'.App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png').'" alt="">De nutrición para potenciar el proceso comercial ¡y más!</li>
+                        </ul>',
                         'side' => 'right',
-                        ];
+                        ]);
                         @endphp
                         @contain_text_image_T1($parameters)
                         @endcontain_text_image_T1
 
                         @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
+                        $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_emailMarketingCampaigns_2023_6_3',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/gifs/Gestion-Eficiente-del-Embudo.gif',
-                        ),
-                        'title' => 'Gestión eficiente del embudo
-                        ',
-                        'text' => 'Puedes llevar un mejor control del proceso comercial <br class="DT_e">
-                        pasando prospectos por etapas como: nuevo lead, <br class="DT_e">
-                        primer contacto, visita agendada, visita realizada, <br class="DT_e">
-                        en evaluación y venta. Así mides, analizas, anticipas <br class="DT_e">
-                        y priorizas.
-                        ',
-                        'enableButton' => false,
-                        'urlButton' => '#lead-form',
-                        'textButton' => 'Recibe un demo',
-                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                        'img' => App::setFilePath('/assets/images/gifs/Gestion-Eficiente-del-Embudo.gif'),
+                        'title' => 'Conoce el resultado y optimiza <br class="DT_e"> tus campañas con analíticas <br class="DT_e"> en tiempo real',
+                        'text' => 'Una vez envíes tus campañas, podrás:
+                        <br class="space">
+                        <ul>
+                            <li><img class="checkIcon" src="'.App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png').'" alt="">Visualizar métricas como la tasa de apertura y rebote</li>
+                            <li><img class="checkIcon" src="'.App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png').'" alt="">Averiguar quiénes hicieron click y cancelaron su suscripción </li>
+                            <li><img class="checkIcon" src="'.App::setFilePath('/assets/images/illustrations/others/Vector-check-orange.png').'" alt="">Descubrir cuáles links tuvieron más clicks
+                                ¡y más!</li>
+                        </ul>',
                         'side' => 'left',
-                        ];
+                        ]);
                         @endphp
                         @contain_text_image_T1($parameters)
                         @endcontain_text_image_T1
 
                         @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
+                        $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_emailMarketingCampaigns_2023_6_4',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
                         'img' => App::setFilePath('/assets/images/gifs/Agendamiento-y-Recordatorios-Automaticos.gif'),
-                        'title' => 'Agendamiento y recordatorios <br class="DT_e"> automáticos
-                        ',
-                        'text' => 'Cada vendedor tiene un calendario con un link único <br class="DT_e">
-                        que puede compartir con sus prospectos para que <br class="DT_e">
-                        reserven un espacio disponible en su agenda. Una <br class="DT_e">
-                        vez agendan, dispara recordatorios automatizados <br class="DT_e">
-                        para aumentar asistencia. También pueden crear y <br class="DT_e">
-                        priorizar listas de tareas con recordatorios.
-                        ',
-                        'enableButton' => false,
-                        'urlButton' => '#lead-form',
-                        'textButton' => 'Recibe un demo',
-                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                        'title' => '¡Logra que tus emails se vean bien en todos los dispositivos!',
+                        'text' => 'Encontrarás que Escala facilita el diseño responsive <br class="DT_e">
+                        para que tu audiencia vea muy bien tus emails en <br class="DT_e">
+                        laptops, celulares y tablets.',
                         'side' => 'right',
-                        ];
+                        ]);
                         @endphp
                         @contain_text_image_T1($parameters)
                         @endcontain_text_image_T1
 
                         @php
-                        $parameters = [
-                        'type' => 'backgroundColor',
+                        $parameters = array_merge($defaultParams, [
                         'classSection' => 'landing_emailMarketingCampaigns_2023_6_5',
-                        'enableTitle' => false,
-                        'titlePrincipal' => null,
-                        'subTitlePrincipal' => null,
-                        'img' => App::setFilePath(
-                        '/assets/images/gifs/Reportes-de-Venta-en-Tiempo-Real.gif',
-                        ),
-                        'title' => 'Reportes de venta en <br class="DT_e"> tiempo real
-                        ',
-                        'text' => 'Puedes tener una visión 360 del negocio con <br class="DT_e">
-                        información como: cuántas oportunidades se <br class="DT_e">
-                        ganaron, qué campaña de marketing trajo más <br class="DT_e">
-                        ventas y qué vendedor cerró más.
-                        ',
-                        'enableButton' => false,
-                        'urlButton' => '#lead-form',
-                        'textButton' => 'Recibe un demo',
-                        'typeButton' => 'primaryButton hoverInEffect openPopUpButton popup-general-demo-2022',
+                        'img' => App::setFilePath('/assets/images/gifs/Reportes-de-Venta-en-Tiempo-Real.gif'),
+                        'title' => 'Dile ¡Adiós! a la bandeja <br class="DT_e"> de spam',
+                        'text' => 'Escala tiene la tecnología más avanzada y un <br class="DT_e">
+                        equipo de expertos que te guían para evitar que tus <br class="DT_e">
+                        emails reboten o caigan en la bandeja de spam. Así <br class="DT_e">
+                        logras que tus emails lleguen a donde deben llegar.',
                         'side' => 'left',
-                        ];
+                        ]);
                         @endphp
                         @contain_text_image_T1($parameters)
                         @endcontain_text_image_T1
@@ -334,8 +279,261 @@
             </div>
             <div class="btnCenter">
                 <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
-                    Prueba Escala ahora →
+                    Solicitar un demo →
                 </a>
+            </div>
+        </section>
+
+        <section class="customSection sectionParent landing_emailMarketingCampaigns_2023_7">
+
+            <div class="section-row">
+                <section class="innerSectionElement sct0 ">
+                    <div class="containElements">
+
+                        <h2 class="primaryTitle">
+                            ¿Qué puedes lograr con tus <br class="space">
+                            campañas email marketing?
+                        </h2>
+
+                    </div>
+                </section>
+
+                <section class="innerSectionElement sct1">
+                    <div class="containElements">
+                        <div class="cards">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-corazom-cards.webp') !!}"
+                                alt="">
+
+                            <p>
+                                Re-despertar el <br class="DT_e">
+                                interés de tus <br class="DT_e">
+                                contactos en tus <br class="DT_e">
+                                productos y servicios
+                            </p>
+                        </div>
+                        <div class="cards">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-comunicacion-cards.webp') !!}"
+                                alt="">
+
+                            <p>
+                                Comunicar <br class="DT_e">
+                                promociones <br class="DT_e">
+                                especiales
+                            </p>
+                        </div>
+                        <div class="cards">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-estrella-cards.webp') !!}"
+                                alt="">
+
+                            <p>
+                                Aumentar el <br class="DT_e">
+                                profesionalismo de <br class="DT_e">
+                                tus mensajes en <br class="DT_e">
+                                momentos clave
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="containElements">
+                        <div class="cards">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-top-cards.webp') !!}"
+                                alt="">
+
+                            <p>
+                                Mantenerte “top of <br class="DT_e">
+                                mind” y nutrir la <br class="DT_e">
+                                relación con tus <br class="DT_e">
+                                leads y clientes
+                            </p>
+                        </div>
+                        <div class="cards">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-personas-cards.webp') !!}"
+                                alt="">
+
+                            <p>
+                                Llegar a muchísimas <br class="DT_e">
+                                personas de manera <br class="DT_e">
+                                masiva y personalizada <br class="DT_e">
+                                con un solo click
+                            </p>
+                        </div>
+                        <div class="cards">
+                            <img class="img-top"
+                                src="{!! App::setFilePath('/assets/images/illustrations/others/icon-oportunidad-cards.webp') !!}"
+                                alt="">
+
+                            <p>
+                                Recuperar <br class="DT_e">
+                                oportunidades que <br class="DT_e">
+                                pierdes en el proceso <br class="DT_e">
+                                comercial
+                            </p>
+                        </div>
+
+                    </div>
+                    <span>¡y mucho más!</span>
+                </section>
+
+
+            </div>
+
+        </section>
+
+
+
+        <section class="customSection sectionParent landing_emailMarketingCampaigns_2023_8">
+
+            <div class="section-row ">
+                <section class="innerSectionElement sct1" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-andres-moreno-email-escala-8.webp') }}')">
+
+                    <div class="cards left">
+
+                    </div>
+                    <div class="cards right">
+                        <p>
+                            “En mi experiencia,<span> la venta se logra luego <br class="DT_e">
+                                de varios contactos personalizados.</span> La <br class="DT_e">
+                            gestión inteligente de campañas de emails <br class="DT_e">
+                            es una estrategia fundamental para <br class="DT_e">
+                            mantenerse en contacto, y quizás el método <br class="DT_e">
+                            de menor costo de todos”.
+                        </p>
+                        <span class="colorSpecial">Andrés Moreno, <br class="space">
+                            Fundador de escala & Open English</span>
+                    </div>
+
+                </section>
+
+            </div>
+        </section>
+
+        <section class="w-full customSection sectionParent landing_emailMarketingCampaigns_2023_9">
+            <div class="section-row">
+                <section class="innerSectionElement sct1 ">
+                    <div class="containElements">
+
+                        <h2 class="primaryTitle">
+                            ¿Nuevo en email marketing? <br class="space">
+                            ¡No te preocupes, te entrenamos!
+                        </h2>
+
+                    </div>
+                </section>
+                <section class="innerSectionElement sct2 " style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-email-2025-9.webp') }}')">
+
+                    <div class="containElements">
+                        <div class="containerImage">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-chica-escala-feliz-crm.png') !!}" loading="lazy">
+                        </div>
+                        <div class="info-second">
+                            <p>
+                                Nuestro equipo de servicio y <br class="DT_e">
+                                entrenadores Escala te orientan desde <br class="DT_e">
+                                el día 1 para que consigas mejores <br class="DT_e">
+                                resultados con email marketing.
+                            </p>
+
+                            <span>
+                                ¡Ninguna otra plataforma te <br class="DT_e">
+                                acompaña mejor!
+                            </span>
+
+                        </div>
+
+                </section>
+                <div class="btnCenter">
+                    <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                        Conocer más →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="customSection sectionParent fullWidth landing_emailMarketingCampaigns_2023_10">
+            <div class="section-row">
+                <section class="innerSectionElement1">
+                    <div class="containElements">
+                        <h2 class="primaryTitle">
+                            Qué dicen nuestros clientes sobre las campañas <br class="space">
+                            de Email Marketing que crean en Escala
+                        </h2>
+                    </div>
+                </section>
+
+                <section class="innerSectionElement2">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-review-2025-email-1.webp') !!}"
+                        alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-review-2025-email-2.webp') !!}"
+                        alt="">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-review-2025-email-3.webp') !!}"
+                        alt="">
+                </section>
+
+
+            </div>
+
+        </section>
+
+        <section class="customSection sectionParent fullWidth landing_emailMarketingCampaigns_2023_11">
+            <div class="section-row">
+                <section class="innerSectionElement1">
+                    <div class="containElements">
+                        <h2 class="primaryTitle">
+                            ¿Por qué Escala?
+                        </h2>
+                    </div>
+                </section>
+
+                <section class="innerSectionElement2">
+                    <ul>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/marketing-icon.webp') !!}" loading="lazy">Potente herramienta de <br class="DT_e"> email marketing </li>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/acompañamiento-vip-icon.webp') !!}" loading="lazy">Servicio de Acompañamiento VIP </li>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/herramientas-icon.webp') !!}" loading="lazy">Encuentras muchas más <br class="DT_e"> herramientas de marketing y <br class="DT_e"> ventas integradas </li>
+                    </ul>
+                    <ul>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/plataforma-en-españo-iconl.webp') !!}" loading="lazy">Todo 100% en español </li>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/educacion-icon.webp') !!}" loading="lazy">Educación de negocio de primera </li>
+                        <li> <img src="{!! App::setFilePath('/assets/images/illustrations/others/implementacion-icon.webp') !!}" loading="lazy">Implementamos parte de la <br class="DT_e"> primera campaña por ti </li>
+                    </ul>
+                </section>
+
+
+            </div>
+
+        </section>
+        <section class="customSection sectionParent landing_emailMarketingCampaigns_2023_12" style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-email-2025-12.webp') }}')">
+            <div class="section-row ">
+                <div class="containElements">
+                    <section class="innerSectionElement sct1">
+                        <div class="containElement">
+                            <img alt=""
+                                src="{{ App::setFilePath('/assets/images/illustrations/others/ceo-escala-alfonso-email.webp') }}"
+                                loading="lazy">
+                        </div>
+                    </section>
+                    <section class="innerSectionElement sct2">
+                        <div class="containElement">
+                            <h2 class="title">
+                                Acelera el crecimiento <br class="DT_e">
+                                de tu negocio
+                            </h2>
+
+                            <a class="primaryButton hoverInEffect openPopUpButton popup-general-demo-2022">
+                                Conoce Escala →
+                            </a>
+
+                        </div>
+                    </section>
+
+
+
+                </div>
             </div>
         </section>
     </div>
