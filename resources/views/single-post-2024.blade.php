@@ -55,7 +55,7 @@ $blog_single_1_banner_url = $post['blog_single_1_banner_url'];
 
                                         </div>
                                     </div>
-                                    <div class="ele ele2 col-md-12 col-lg-7">
+                                    <div class="ele ele2 ">
 
                                         @if (isset($blog_single_1_title) && $blog_single_1_title != '')
                                         <h1 class="principalBigTitle blackColor">
