@@ -24,17 +24,17 @@
 
                                 <div class="containElements row threeCol">
 
-                                    <div class="ele ele2 col-md-12 col-lg-7">
+                                    <div class="ele ele2 ">
 
                                         <h1 class="principalBigTitle blackColor">
-                                            Ahora puedes conversar y <br class="DT_e">
-                                            gestionar los WhatsApps de tu <br class="DT_e">
-                                            negocio desde la app móvil del <br class="DT_e">
+                                            Ahora puedes conversar y 
+                                            gestionar los WhatsApps de tu 
+                                            negocio desde la app móvil del 
                                             CRM de Escala
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
-                                            Conoce qué es y para qué sirve el WhatsApp <br class="space">
+                                            Conoce qué es y para qué sirve el WhatsApp 
                                             Inbox en tu celular.
                                         </p>
 
