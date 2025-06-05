@@ -24,17 +24,17 @@
 
                                 <div class="containElements row threeCol">
 
-                                    <div class="ele ele2 col-md-12 col-lg-7">
+                                    <div class="ele ele2 ">
 
                                         <h1 class="principalBigTitle blackColor">
-                                            <span>WhatsApp API:</span> Precios de Meta <br class="DT_e">
-                                            actualizados y su integración con <br class="DT_e">
+                                            <span>WhatsApp API:</span> Precios de Meta 
+                                            actualizados y su integración con 
                                             el CRM Escala
                                         </h1>
 
                                         <p class="principalBigText grayColorTexts">
-                                            Conoce todo lo que necesitas saber sobre esta<br class="DT_e">
-                                            potente herramienta de negocio para <br class="DT_e">
+                                            Conoce todo lo que necesitas saber sobre esta
+                                            potente herramienta de negocio para 
                                             aprovecharla al máximo.
                                         </p>
 
