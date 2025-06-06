@@ -176,11 +176,12 @@
                         </p>
                     </div>
                 </section>
-                <section class="innerSectionElement sct2 " style="background-image: url('{{ App::setFilePath('/assets/images/banners/bg-section-1-left-1.svg') }}')">
+                <section class="innerSectionElement sct2 " >
 
                     <div class="containElements">
                         <div class="containerImage">
-                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-chica-escala-feliz-crm.png') !!}" loading="lazy">
+                            <img src="{!! App::setFilePath('/assets/images/illustrations/others/img-chica-escala-feliz-crm-1.webp') !!}" loading="lazy">
+                            <img class="imgMb" src="{!! App::setFilePath('/assets/images/illustrations/others/img-chica-escala-feliz-crm-1-mb.webp') !!}" loading="lazy"> 
                         </div>
                         <div class="info-second">
                             <p>
