@@ -1,4 +1,4 @@
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-banner-mc-mayo-2025.png') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-masterclass-2025-junio.webp') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -7,14 +7,15 @@
             <div class="containElements">
 
                 <div class="contain">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-star-blue.png') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-                        Logra que tus vendedores adopten y maximicen las ventas con un CRM
+                        Optimiza tu embudo de venta con <span>inteligencia artificial y CRM</span>
                     </span>
 
                     <div class="separator"></div>
                     <span class="sub">
-                        Masterclass gratuita - 5 Junio
+                        Masterclass gratuita - 18 de junio
                     </span>
                 </div>
 
@@ -30,7 +31,7 @@
 </section>
 
 
-<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-banner-mc-mayo-mb-2025.png') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
+<section style="background-image: url({!! App::setFilePath('/assets/images/banners/bg-masterclass-mb-2025-junio.webp') !!})" class="headerband_promo_freeclass_t1 customSection sectionParent fullWidth MbHeadbandfree {{ $classSection }} ">
 
     <div class="section-row">
 
@@ -39,14 +40,15 @@
             <div class="containElements">
 
                 <div class="contain">
+                    <img src="{!! App::setFilePath('/assets/images/illustrations/others/icon-star-blue.png') !!}" alt="" class="icon">
 
                     <span class="hashTitle">
-                        Logra que tus vendedores adopten y maximicen las ventas con un CRM
+                        Optimiza tu embudo de venta con <span>inteligencia artificial y CRM</span>
                     </span>
 
                     <div class="separator"></div>
                     <span class="sub">
-                        Masterclass gratuita - 5 Junio
+                        Masterclass gratuita - 18 de junio
                     </span>
                 </div>
                 <a target="_blank" href="https://experiencia.escala.com/eventos-escala" class=" primaryButton hoverInEffect ">
