@@ -159,7 +159,7 @@
                     <div class="containElements">
 
                         <h2 class="primaryTitle">
-                            Todo lo que tus emails necesitan, <br class="space">
+                            Todo lo que tus<br class="brMm">     emails  necesitan, <br class="space">
                             en un solo lugar
                         </h2>
 
